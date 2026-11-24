@@ -122,11 +122,11 @@
       "tema": "vias",
       "subtema": "definiciones_via",
       "materia": 7,
-      "enunciado": "Según la Ley de Tráfico, ¿qué es una intersección?",
+      "enunciado": "¿Qué es una intersección?",
       "opciones": {
         "a": "Un cruce de vías a distinto nivel, mediante un puente o un túnel.",
         "b": "El tramo de una carretera que discurre por poblado.",
-        "c": "Un nudo de la red viaria en el que todos los cruces de trayectorias se realizan a nivel."
+        "c": "Un nudo de la red viaria en el que todos los cruces se hacen a nivel."
       },
       "correcta": "c",
       "explicacion": "La intersección es un nudo de la red viaria en el que todos los cruces de trayectorias posibles de los vehículos se hacen a nivel. Un cruce a distinto nivel no es una intersección, y el tramo de carretera que discurre por poblado es una travesía.",
@@ -152,7 +152,7 @@
       "tema": "por_donde_circular",
       "subtema": "arcen",
       "materia": 1,
-      "enunciado": "Por una emergencia, circula con un turismo de 1.800 kg de MMA a velocidad anormalmente reducida, perturbando gravemente la circulación. La carretera tiene un arcén transitable y suficiente. ¿Por dónde debe circular?",
+      "enunciado": "Por una emergencia, circula con un turismo de 1.800 kg a velocidad anormalmente reducida, perturbando gravemente la circulación. Hay un arcén transitable y suficiente. ¿Por dónde debe circular?",
       "opciones": {
         "a": "Por el carril derecho de la calzada, sin ocupar el arcén.",
         "b": "Por el arcén de su derecha.",
@@ -212,7 +212,7 @@
       "tema": "por_donde_circular",
       "subtema": "arcen",
       "materia": 1,
-      "enunciado": "Un vehículo especial de 6.000 kg de MMA circula por una carretera con arcén transitable y suficiente. Salvo por razones de emergencia, ¿por dónde debe circular?",
+      "enunciado": "Un vehículo especial de 6.000 kg de masa máxima autorizada circula por una carretera con arcén transitable y suficiente. Salvo emergencia, ¿por dónde debe circular?",
       "opciones": {
         "a": "Por la calzada, no por el arcén.",
         "b": "Por el arcén de su derecha, porque es un vehículo lento.",
@@ -242,7 +242,7 @@
       "tema": "por_donde_circular",
       "subtema": "carriles",
       "materia": 1,
-      "enunciado": "Fuera de poblado, en una autovía con tres carriles en su sentido, conduce un turismo con una caravana enganchada; el conjunto mide 8 metros de longitud. ¿Qué carriles puede utilizar normalmente?",
+      "enunciado": "Fuera de poblado, en una autovía con tres carriles en su sentido, conduce un turismo con caravana de 8 metros en total. ¿Qué carriles puede usar normalmente?",
       "opciones": {
         "a": "El situado más a la derecha y el inmediato a este.",
         "b": "Cualquiera de los tres, como un turismo sin remolque.",
@@ -272,10 +272,10 @@
       "tema": "por_donde_circular",
       "subtema": "carriles",
       "materia": 1,
-      "enunciado": "Fuera de poblado, en una calzada con tres carriles para su sentido, conduce un camión rígido de 3.000 kg de MMA, sin remolque. ¿Puede utilizar el carril situado más a la izquierda para adelantar?",
+      "enunciado": "Fuera de poblado, en una calzada con tres carriles para su sentido, conduce un camión rígido de 3.000 kg de masa máxima autorizada. ¿Puede utilizar el carril de la izquierda para adelantar?",
       "opciones": {
-        "a": "Sí, porque la limitación al carril derecho y al inmediato es para camiones de más de 3.500 kg de MMA.",
-        "b": "No, todos los camiones solo pueden usar el carril derecho y el inmediato.",
+        "a": "Sí.",
+        "b": "No, los camiones solo pueden usar el carril derecho y el inmediato.",
         "c": "No, un camión solo puede circular por el carril derecho."
       },
       "correcta": "a",
@@ -332,11 +332,11 @@
       "tema": "carriles_especiales",
       "subtema": "vao",
       "materia": 1,
-      "enunciado": "Conduce una furgoneta destinada exclusivamente al transporte de mercancías y viajan en ella tres personas. ¿Puede utilizar un carril VAO (vehículos de alta ocupación)?",
+      "enunciado": "Conduce una furgoneta exclusivamente de mercancías en la que viajan tres personas. ¿Puede utilizar un carril VAO?",
       "opciones": {
-        "a": "Sí, si cumple el número mínimo de ocupantes fijado para ese tramo.",
-        "b": "Sí, porque es un automóvil de menos de 3.500 kg de MMA.",
-        "c": "No, el carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables."
+        "a": "Sí, si cumple el número mínimo de ocupantes del tramo.",
+        "b": "Sí, porque es un automóvil de menos de 3.500 kg.",
+        "c": "No, el carril VAO es para motocicletas, turismos y mixtos adaptables."
       },
       "correcta": "c",
       "explicacion": "El uso del carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables; el resto de vehículos, como camiones o furgonetas de mercancías, y los turismos con remolque lo tienen prohibido aunque vayan muy ocupados. Además, pueden usarlo los autobuses de más de 3.500 kg de MMA y los articulados si así se indica para el tramo, y los vehículos de urgencia en servicio y los de mantenimiento de la vía.",
@@ -492,7 +492,7 @@
       "tema": "velocidad",
       "subtema": "vehiculos_especiales",
       "materia": 1,
-      "enunciado": "Fuera de poblado, un vehículo especial sin remolque, que no es un motocultor, tiene señalización de frenado y por construcción no puede superar 60 km/h en llano. ¿Cuál es su velocidad máxima?",
+      "enunciado": "Fuera de poblado, un vehículo especial sin remolque, que no es motocultor, con señalización de frenado y que por construcción no supera 60 km/h en llano, ¿a qué velocidad máxima puede circular?",
       "opciones": {
         "a": "40 km/h.",
         "b": "25 km/h.",
@@ -582,7 +582,7 @@
       "tema": "prioridad",
       "subtema": "vehiculos_prioritarios",
       "materia": 1,
-      "enunciado": "Una ambulancia en servicio urgente circula por una vía despejada, donde dejar de usar la sirena no supone ningún peligro para los demás usuarios. ¿Cómo debe advertir de su presencia?",
+      "enunciado": "Una ambulancia en servicio urgente circula por una vía despejada, donde no usar la sirena no supone peligro para nadie. ¿Cómo debe advertir de su presencia?",
       "opciones": {
         "a": "Con la señal luminosa aisladamente.",
         "b": "Con la señal luminosa y la sirena, siempre a la vez.",
@@ -612,11 +612,11 @@
       "tema": "prioridad",
       "subtema": "estrechamientos",
       "materia": 1,
-      "enunciado": "Un camión con remolque y un turismo con un remolque de 600 kg de MMA entran a la vez en un estrechamiento sin señalizar y no se puede saber cuál entró primero. ¿Cuál debe dar marcha atrás?",
+      "enunciado": "Un camión con remolque y un turismo con un remolque de 600 kg de masa máxima autorizada entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
       "opciones": {
         "a": "El camión con remolque.",
         "b": "El turismo con remolque.",
-        "c": "El que tenga que recorrer menos distancia marcha atrás, sea cual sea el vehículo."
+        "c": "El que tenga que recorrer menos distancia marcha atrás."
       },
       "correcta": "b",
       "explicacion": "En caso de duda en un estrechamiento sin señalizar, tiene preferencia el vehículo con más dificultades de maniobra según el orden del reglamento: los conjuntos de vehículos van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA. La distancia de marcha atrás solo decide entre vehículos del mismo tipo o no enumerados.",
@@ -702,7 +702,7 @@
       "tema": "adelantamiento",
       "subtema": "vulnerables",
       "materia": 8,
-      "enunciado": "En una carretera con un solo carril para cada sentido va a adelantar a un peatón que camina por el borde de la calzada. ¿Qué anchura de seguridad mínima debe dejar?",
+      "enunciado": "En una carretera con un carril por sentido va a adelantar a un peatón que camina por el borde de la calzada. ¿Qué separación lateral mínima debe dejar?",
       "opciones": {
         "a": "1 metro.",
         "b": "1,5 metros.",
@@ -732,11 +732,11 @@
       "tema": "adelantamiento",
       "subtema": "prohibiciones",
       "materia": 1,
-      "enunciado": "Circula por una carretera de doble sentido con un solo carril para cada sentido y se acerca a un cambio de rasante de visibilidad reducida. ¿Puede adelantar a la furgoneta que le precede?",
+      "enunciado": "En una carretera con un carril por sentido se acerca a un cambio de rasante de visibilidad reducida. ¿Puede adelantar a la furgoneta de delante?",
       "opciones": {
         "a": "Sí, si avisa antes con el claxon.",
         "b": "Sí, si la furgoneta circula muy por debajo del límite de velocidad.",
-        "c": "No, porque tendría que invadir el sentido contrario sin visibilidad suficiente."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida. La única excepción es que los dos sentidos estén claramente delimitados y se pueda adelantar sin invadir la zona del sentido contrario, lo que no es posible con un solo carril por sentido.",
@@ -792,11 +792,11 @@
       "tema": "distancias",
       "subtema": "facilitar_adelantamiento",
       "materia": 5,
-      "enunciado": "Circula detrás de otro vehículo sin intención de adelantarlo y con circulación fluida. ¿En cuál de estas vías debe dejar, además, una separación que permita al que le sigue adelantarle con seguridad?",
+      "enunciado": "Circula detrás de otro vehículo sin intención de adelantarlo. ¿En cuál de estas vías debe dejar una separación que permita al que le sigue adelantarle con seguridad?",
       "opciones": {
         "a": "En una calle de poblado con un carril para cada sentido.",
         "b": "En una autovía con dos carriles en su sentido.",
-        "c": "En una carretera fuera de poblado con un carril por sentido en la que se permite adelantar."
+        "c": "En una carretera de un carril por sentido, fuera de poblado, donde se permite adelantar."
       },
       "correcta": "c",
       "explicacion": "La separación adicional para facilitar que otro adelante no se exige en poblado, donde está prohibido adelantar, donde hay más de un carril en el mismo sentido ni cuando la circulación está tan saturada que no permite adelantar. Por eso solo se aplica en vías interurbanas de un carril por sentido con adelantamiento permitido.",
@@ -852,11 +852,11 @@
       "tema": "parada_estacionamiento",
       "subtema": "lugares_prohibidos",
       "materia": 1,
-      "enunciado": "Dentro de poblado, ¿puede hacer una parada de un minuto, sin bajarse del coche, en la zona destinada a parada de uso exclusivo de los autobuses urbanos?",
+      "enunciado": "Dentro de poblado, ¿puede parar un minuto, sin bajarse del coche, en una parada exclusiva de autobuses urbanos?",
       "opciones": {
-        "a": "Sí, porque en esas zonas solo está prohibido estacionar.",
+        "a": "Sí, porque en esas zonas solo se prohíbe estacionar.",
         "b": "Sí, si en ese momento no hay ningún autobús a la vista.",
-        "c": "No, en esas zonas está prohibido también parar."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "El Reglamento prohíbe parar, y por tanto también estacionar, en las zonas destinadas para estacionamiento y parada de uso exclusivo del transporte público urbano.",
@@ -942,7 +942,7 @@
       "tema": "parada_estacionamiento",
       "subtema": "inmovilizacion_pendiente",
       "materia": 13,
-      "enunciado": "Un autobús estaciona en una pendiente descendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe inclinar las ruedas directrices?",
+      "enunciado": "Un autobús estaciona en una pendiente descendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe girar las ruedas directrices?",
       "opciones": {
         "a": "Hacia el centro de la calzada.",
         "b": "Rectas, paralelas al bordillo.",
@@ -1044,10 +1044,10 @@
       "tema": "senales_verticales",
       "subtema": "prohibicion_parada_estacionamiento",
       "materia": 1,
-      "enunciado": "En el lado de la calzada donde está esta señal, ¿puede detenerse un momento, sin bajarse del coche, para que se baje un pasajero?",
+      "enunciado": "En el lado de la calzada donde está esta señal, ¿puede detenerse un momento, sin bajarse, para que se baje un pasajero?",
       "opciones": {
-        "a": "No, porque prohíbe tanto parar como estacionar.",
-        "b": "Sí, porque solo prohíbe el estacionamiento; no prohíbe la parada.",
+        "a": "No, porque prohíbe parar y estacionar.",
+        "b": "Sí.",
         "c": "Solo si es un taxi o un vehículo autorizado."
       },
       "correcta": "b",
@@ -1080,11 +1080,11 @@
       "tema": "parada_estacionamiento",
       "subtema": "lugares_peligrosos",
       "materia": 1,
-      "enunciado": "Hace una parada de un minuto, sin bajarse, delante de un vado señalizado correctamente, y con ello impide salir a un vehículo del garaje. ¿Cómo la considera el Reglamento?",
+      "enunciado": "Para un minuto, sin bajarse, delante de un vado bien señalizado e impide salir a un vehículo del garaje. ¿Cómo se considera esa parada?",
       "opciones": {
-        "a": "Una parada permitida, porque dura menos de dos minutos.",
-        "b": "Una parada en un lugar que obstaculiza gravemente la circulación.",
-        "c": "Una parada permitida, porque el vado solo prohíbe estacionar."
+        "a": "Permitida, porque dura menos de dos minutos.",
+        "b": "Una parada que obstaculiza gravemente la circulación.",
+        "c": "Permitida, porque el vado solo prohíbe estacionar."
       },
       "correcta": "b",
       "explicacion": "Se consideran paradas o estacionamientos que obstaculizan gravemente la circulación los que impiden la utilización normal del paso de vehículos en un vado señalizado correctamente. Es una infracción grave aunque se trate de una parada.",
@@ -1199,10 +1199,10 @@
       "id": "v5c-sem-0001",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "Está detenido ante un semáforo en rojo, en el carril derecho (no reservado), que es el que deben usar quienes giran a la derecha. Usted quería seguir de frente y no tiene ningún vehículo detrás. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?",
+      "enunciado": "Está detenido ante un semáforo en rojo en el carril derecho, no reservado, que es el de los que giran a la derecha. Quería seguir de frente y no tiene a nadie detrás. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Avanzar en la dirección y sentido de la flecha.",
-        "b": "Esperar hasta que se encienda la luz verde circular, ya que nadie detrás quiere girar.",
+        "a": "Avanzar en el sentido de la flecha.",
+        "b": "Esperar a la luz verde circular, porque nadie detrás quiere girar.",
         "c": "Seguir de frente, porque la flecha verde le da paso."
       },
       "correcta": "a",
@@ -1229,7 +1229,7 @@
       "id": "v5c-pn-0001",
       "tema": "senales",
       "subtema": "paso_a_nivel",
-      "enunciado": "La baliza de aproximación de tres franjas rojas (200 m) colocada en el lado derecho de la calzada va siempre acompañada de una señal de peligro. ¿De cuál de estas puede tratarse?",
+      "enunciado": "Esta baliza de tres franjas rojas, en el lado derecho de la calzada, va siempre acompañada de una señal de peligro. ¿De cuál puede tratarse?",
       "opciones": {
         "a": "Curva peligrosa.",
         "b": "Estrechamiento de calzada.",
@@ -1344,8 +1344,8 @@
       "subtema": "obligacion",
       "enunciado": "Conduce un turismo y encuentra esta señal a la entrada de una calzada. ¿Puede circular por ella?",
       "opciones": {
-        "a": "Sí: obliga a los camiones, tractocamiones y furgonetas a circular por ella, pero no prohíbe su uso a los demás vehículos.",
-        "b": "No, porque es una calzada reservada exclusivamente a camiones y furgonetas.",
+        "a": "Sí.",
+        "b": "No, porque es una calzada reservada a camiones y furgonetas.",
         "c": "Solo si el turismo lleva remolque."
       },
       "correcta": "a",
@@ -1584,7 +1584,7 @@
       "tema": "luces",
       "subtema": "corto_alcance",
       "materia": 6,
-      "enunciado": "De noche circula a 30 km/h por una carretera fuera de poblado insuficientemente iluminada y no lleva puesta la luz de largo alcance. ¿Qué alumbrado debe llevar encendido?",
+      "enunciado": "De noche circula a 30 km/h fuera de poblado por una carretera insuficientemente iluminada y sin la luz de largo alcance. ¿Qué alumbrado debe llevar?",
       "opciones": {
         "a": "Solo el de posición, porque no supera los 40 km/h.",
         "b": "El de posición y el de corto alcance o cruce.",
@@ -1614,11 +1614,11 @@
       "tema": "luces",
       "subtema": "inmovilizaciones",
       "materia": 6,
-      "enunciado": "Es de día, pero hay una niebla que reduce sensiblemente la visibilidad, y su turismo queda inmovilizado por avería en el arcén. ¿Debe encender las luces de posición?",
+      "enunciado": "Es de día, pero hay una niebla que reduce mucho la visibilidad, y su turismo queda inmovilizado por avería en el arcén. ¿Debe encender las luces de posición?",
       "opciones": {
         "a": "No, durante el día basta con la señal de emergencia.",
         "b": "No, solo es obligatorio entre la puesta y la salida del sol.",
-        "c": "Sí, porque hay condiciones que disminuyen sensiblemente la visibilidad."
+        "c": "Sí."
       },
       "correcta": "c",
       "explicacion": "Todo vehículo inmovilizado en calzada o arcén debe tener encendidas las luces de posición (y, en su caso, las de gálibo) entre la puesta y la salida del sol y también, a cualquier hora, cuando haya condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como la niebla.",
@@ -1884,7 +1884,7 @@
       "tema": "permiso_conduccion",
       "subtema": "remolques",
       "materia": 10,
-      "enunciado": "El permiso B+E autoriza a conducir conjuntos formados por un vehículo de los que autoriza el permiso B y un remolque cuya masa máxima autorizada no exceda de...",
+      "enunciado": "El permiso B+E autoriza a conducir un vehículo de los del permiso B con un remolque cuya masa máxima autorizada no exceda de...",
       "opciones": {
         "a": "750 kg.",
         "b": "4.250 kg.",
@@ -1914,9 +1914,9 @@
       "tema": "puntos",
       "subtema": "bonificacion",
       "materia": 10,
-      "enunciado": "Un conductor que ya recibió la bonificación de dos puntos tiene 14 puntos. Si mantiene todos sus puntos durante los tres años siguientes, sin ser sancionado en firme, ¿qué ocurre?",
+      "enunciado": "Un conductor que ya recibió la bonificación de dos puntos tiene 14. Si pasa otros tres años sin sanciones firmes que quiten puntos, ¿qué ocurre?",
       "opciones": {
-        "a": "No recibe nada más: 14 puntos es el máximo.",
+        "a": "Nada más, porque 14 puntos es el máximo.",
         "b": "Recibe un punto más y llega a 15.",
         "c": "Recibe otros dos puntos y llega a 16."
       },
@@ -1974,7 +1974,7 @@
       "tema": "puntos",
       "subtema": "perdida_vigencia",
       "materia": 10,
-      "enunciado": "Un conductor no profesional vuelve a perder todos sus puntos durante los tres años siguientes a haber obtenido un nuevo permiso tras una primera pérdida total. ¿Cuánto tiempo debe esperar para obtener otro permiso?",
+      "enunciado": "Un conductor no profesional vuelve a perder todos los puntos en los tres años siguientes a obtener un nuevo permiso tras perderlos por primera vez. ¿Cuánto debe esperar para obtener otro?",
       "opciones": {
         "a": "Seis meses desde la notificación.",
         "b": "Doce meses desde la notificación.",
@@ -2094,7 +2094,7 @@
       "tema": "seguridad_activa",
       "subtema": "frenos",
       "materia": 14,
-      "enunciado": "Según el manual de la DGT, ¿qué ocurre si se usa el freno demasiado, por ejemplo en una bajada larga?",
+      "enunciado": "¿Qué ocurre si se usa demasiado el freno, por ejemplo en una bajada larga?",
       "opciones": {
         "a": "Que frena mejor, porque las pastillas se adhieren más al disco.",
         "b": "Que se gasta más el neumático, pero el freno funciona igual.",
@@ -2124,11 +2124,11 @@
       "tema": "vehiculo",
       "subtema": "presion_inflado",
       "materia": 14,
-      "enunciado": "Según el manual de la DGT, si un neumático lleva una presión de inflado menor de la recomendada...",
+      "enunciado": "Si un neumático lleva menos presión de la recomendada...",
       "opciones": {
-        "a": "se calienta, se deforma y se desgasta antes.",
-        "b": "se agarra mejor a la carretera y se gasta menos combustible.",
-        "c": "se desgasta sobre todo por el centro de la banda de rodadura."
+        "a": "Se calienta, se deforma y se desgasta antes.",
+        "b": "Se agarra mejor y se gasta menos combustible.",
+        "c": "Se desgasta sobre todo por el centro."
       },
       "correcta": "a",
       "explicacion": "Con una presión de inflado menor de la recomendada el neumático se calienta, se deforma y se desgasta antes; además se gasta más combustible y el vehículo es menos estable. El desgaste por el centro es propio del exceso de presión.",
@@ -2153,9 +2153,9 @@
       "id": "v5f-ada-0001",
       "tema": "adas",
       "subtema": "detector_fatiga",
-      "enunciado": "Su vehículo dispone de un detector de fatiga y le avisa de que está muy cansado. Según la DGT, ¿qué debe hacer?",
+      "enunciado": "El detector de fatiga de su vehículo le avisa de que está muy cansado. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Hacer caso al aviso y parar el vehículo en un lugar seguro.",
+        "a": "Parar en un lugar seguro.",
         "b": "Seguir circulando hasta notar los primeros síntomas de sueño.",
         "c": "Desconectar el aviso y bajar la ventanilla para despejarse."
       },
@@ -2370,7 +2370,7 @@
       "id": "v5f-aux-0001",
       "tema": "primeros_auxilios",
       "subtema": "fracturas",
-      "enunciado": "Un herido de un accidente tiene un hueso roto. Según la DGT, ¿qué se debe hacer?",
+      "enunciado": "Ante un herido que tiene un hueso roto, ¿qué se debe hacer?",
       "opciones": {
         "a": "Intentar devolver el hueso a su posición antes de que llegue la ambulancia.",
         "b": "Dejar inmóvil la zona de la fractura y evitar que el herido la mueva.",
@@ -2401,10 +2401,10 @@
       "id": "v5f-acc-0001",
       "tema": "accidentes",
       "subtema": "incendio",
-      "enunciado": "En el lugar de un accidente se ha producido un incendio. Según la DGT, ¿cómo se debe intentar apagar?",
+      "enunciado": "En el lugar de un accidente se ha producido un incendio. ¿Cómo se debe intentar apagar?",
       "opciones": {
         "a": "Echando agua abundante sobre el fuego.",
-        "b": "Con un extintor o echando tierra, arena o mantas sobre el fuego.",
+        "b": "Con un extintor o con tierra, arena o mantas.",
         "c": "No se debe intentar; solo hay que esperar a los bomberos."
       },
       "correcta": "b",
@@ -2804,7 +2804,7 @@
       "id": "v5f-efi-0002",
       "tema": "conduccion_eficiente",
       "subtema": "marchas",
-      "enunciado": "Según la DGT, ¿en qué marchas gasta menos combustible el vehículo?",
+      "enunciado": "¿En qué marchas gasta menos combustible el vehículo?",
       "opciones": {
         "a": "En primera y segunda.",
         "b": "En cuarta y quinta.",
@@ -2899,9 +2899,9 @@
       "subtema": "categoria_a",
       "enunciado": "Un turismo no cumple los requisitos para ser clasificado como 0 emisiones, ECO, C ni B. ¿Qué distintivo ambiental le corresponde?",
       "opciones": {
-        "a": "El distintivo B, que es el de los vehículos que más contaminan.",
-        "b": "Ninguno, porque no se crea distintivo para la categoría A.",
-        "c": "Un distintivo A, de color rojo, que debe colocarse en el parabrisas."
+        "a": "El B, que es el de los vehículos que más contaminan.",
+        "b": "Ninguno.",
+        "c": "Un distintivo A, de color rojo, que se coloca en el parabrisas."
       },
       "correcta": "b",
       "explicacion": "Los vehículos que no cumplen los requisitos de las clases 0 emisiones, ECO, C o B quedan en la categoría A. Los distintivos ambientales son solo cuatro (0 emisiones, ECO, C y B): no se crea distintivo para la categoría A.",

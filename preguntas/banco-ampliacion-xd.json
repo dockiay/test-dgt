@@ -6,7 +6,7 @@
       "tema": "meteorologia",
       "subtema": "lluvia",
       "materia": 6,
-      "enunciado": "Según la DGT, ¿por qué un vehículo necesita más espacio para frenar cuando llueve mucho?",
+      "enunciado": "¿Por qué un vehículo necesita más espacio para frenar cuando llueve mucho?",
       "opciones": {
         "a": "Porque los frenos se enfrían con el agua y pierden potencia.",
         "b": "Porque el motor retiene menos el vehículo sobre suelo mojado.",
@@ -68,11 +68,11 @@
       "tema": "meteorologia",
       "subtema": "lluvia",
       "materia": 6,
-      "enunciado": "Circula con lluvia. Según la DGT, ¿cómo conviene frenar?",
+      "enunciado": "Circula con lluvia. ¿Cómo conviene frenar?",
       "opciones": {
-        "a": "De forma suave, para que las ruedas tengan más tiempo de parar.",
+        "a": "De forma suave.",
         "b": "Lo más tarde posible, para no ser alcanzado por detrás.",
-        "c": "Con un golpe fuerte de pedal, para detenerse en menos espacio."
+        "c": "Con un golpe fuerte de pedal, para detenerse antes."
       },
       "correcta": "a",
       "explicacion": "Con lluvia, la DGT recomienda frenar de forma suave, mantener más distancia con el vehículo de delante y reducir la velocidad.",
@@ -130,11 +130,11 @@
       "tema": "meteorologia",
       "subtema": "lluvia",
       "materia": 6,
-      "enunciado": "Conduce una motocicleta y está lloviendo. ¿A qué debe prestar especial atención, según la DGT?",
+      "enunciado": "Conduce una motocicleta y está lloviendo. ¿A qué debe prestar especial atención?",
       "opciones": {
         "a": "A no circular nunca por el centro del carril.",
         "b": "A llevar encendida la luz antiniebla trasera en todo momento.",
-        "c": "A las líneas pintadas en la carretera, porque pueden resbalar."
+        "c": "A las líneas pintadas en la carretera."
       },
       "correcta": "c",
       "explicacion": "Con lluvia, las líneas pintadas en la carretera resbalan, por lo que los motoristas deben prestarles especial atención.",
@@ -163,9 +163,9 @@
       "materia": 6,
       "enunciado": "¿Qué es el aquaplaning?",
       "opciones": {
-        "a": "Perder el control porque el neumático no puede echar toda el agua y patina.",
-        "b": "El empañamiento repentino del parabrisas cuando llueve y hay mucha humedad.",
-        "c": "El bloqueo de las ruedas al frenar con fuerza sobre una calzada seca."
+        "a": "Perder el control porque el neumático no puede evacuar el agua y patina.",
+        "b": "El empañamiento repentino del parabrisas cuando llueve.",
+        "c": "El bloqueo de las ruedas al frenar con fuerza en seco."
       },
       "correcta": "a",
       "explicacion": "El aquaplaning consiste en perder el control del vehículo porque el neumático no puede expulsar toda el agua que recoge de la carretera y patina.",
@@ -347,11 +347,11 @@
       "tema": "meteorologia",
       "subtema": "cadenas",
       "materia": 6,
-      "enunciado": "Su turismo lleva neumáticos especiales de nieve, pero no lleva cadenas. ¿Puede continuar la marcha al llegar a esta señal?",
+      "enunciado": "Su turismo lleva neumáticos especiales de nieve, pero no cadenas. ¿Puede seguir al llegar a esta señal?",
       "opciones": {
-        "a": "No, porque solo admite cadenas metálicas en las ruedas motrices.",
-        "b": "Solo si circula a una velocidad inferior a 30 km/h.",
-        "c": "Sí, porque también admite los neumáticos especiales de nieve."
+        "a": "No, porque solo admite cadenas en las ruedas motrices.",
+        "b": "Solo si circula a menos de 30 km/h.",
+        "c": "Sí."
       },
       "correcta": "c",
       "explicacion": "La señal R-412 (cadenas para nieve) obliga a no seguir sin cadenas u otros dispositivos antideslizantes autorizados, o sin neumáticos especiales de nieve.",
@@ -418,7 +418,7 @@
       "tema": "meteorologia",
       "subtema": "hielo",
       "materia": 6,
-      "enunciado": "Según la DGT, ¿qué precauciones hay que tomar para conducir sobre hielo?",
+      "enunciado": "¿Qué precauciones hay que tomar para conducir sobre hielo?",
       "opciones": {
         "a": "Las mismas que para conducir con calor.",
         "b": "Las mismas que para conducir con nieve.",
@@ -544,9 +544,9 @@
       "materia": 6,
       "enunciado": "¿Cuándo es más peligroso conducir con mucho viento?",
       "opciones": {
-        "a": "Cuando sopla de lado, porque puede hacer perder el control del vehículo.",
-        "b": "Cuando sopla de frente, porque obliga a pisar más el acelerador.",
-        "c": "Cuando sopla por detrás, porque aumenta la velocidad del vehículo."
+        "a": "Cuando sopla de lado.",
+        "b": "Cuando sopla de frente.",
+        "c": "Cuando sopla por detrás."
       },
       "correcta": "a",
       "explicacion": "El viento es especialmente peligroso cuando sopla de lado, porque puede hacer que el vehículo pierda el control, vuelque o se salga de la carretera.",
@@ -635,7 +635,7 @@
       "tema": "meteorologia",
       "subtema": "viento",
       "materia": 6,
-      "enunciado": "Conduce con mucho viento. ¿Qué riesgo debe tener en cuenta, según la DGT?",
+      "enunciado": "Conduce con mucho viento. ¿Qué riesgo debe tener en cuenta?",
       "opciones": {
         "a": "Que la luz de cruce deslumbra más con viento.",
         "b": "Que pueden caer árboles, ramas o piedras.",
@@ -728,10 +728,10 @@
       "tema": "meteorologia",
       "subtema": "calor",
       "materia": 6,
-      "enunciado": "En un día de mucho calor, ¿cuándo debe prestar más atención a la conducción, según la DGT?",
+      "enunciado": "En un día de mucho calor, ¿cuándo debe prestar más atención a la conducción?",
       "opciones": {
         "a": "A primera hora de la mañana, porque hay más tráfico.",
-        "b": "Después de comer, porque le puede entrar sueño.",
+        "b": "Después de comer.",
         "c": "En autopista, porque el asfalto se vuelve deslizante."
       },
       "correcta": "b",
@@ -790,7 +790,7 @@
       "tema": "noche",
       "subtema": "adelantamiento",
       "materia": 6,
-      "enunciado": "De noche está adelantando a otro vehículo. Según la DGT, ¿cuándo puede volver a encender la luz de largo alcance?",
+      "enunciado": "De noche, está adelantando a otro vehículo. ¿Cuándo puede volver a encender la luz de largo alcance?",
       "opciones": {
         "a": "Antes de empezar, para ver mejor el carril contrario.",
         "b": "Solo cuando haya vuelto a su carril y recorrido 200 metros.",
@@ -1233,9 +1233,9 @@
       "tema": "usuarios_vulnerables",
       "subtema": "peatones",
       "materia": 8,
-      "enunciado": "Un peatón camina de día por el arcén de una carretera interurbana con niebla densa. ¿Debe llevar algún elemento luminoso o reflectante?",
+      "enunciado": "Un peatón camina de día por el arcén de una carretera con niebla densa. ¿Debe llevar algún elemento luminoso o reflectante?",
       "opciones": {
-        "a": "Sí, porque la niebla disminuye sensiblemente la visibilidad.",
+        "a": "Sí.",
         "b": "No, porque la obligación solo existe de noche.",
         "c": "No, porque solo es obligatorio para los ciclistas."
       },
@@ -1605,7 +1605,7 @@
       "tema": "usuarios_vulnerables",
       "subtema": "ciclistas",
       "materia": 8,
-      "enunciado": "Un ciclista va por el arcén de una carretera convencional y empieza un descenso prolongado con curvas. Si la seguridad lo permite, ¿puede dejar el arcén?",
+      "enunciado": "Un ciclista circula por el arcén de una carretera convencional y empieza un descenso prolongado con curvas. ¿Puede dejar el arcén si la seguridad lo permite?",
       "opciones": {
         "a": "No, los ciclistas deben ir siempre por el arcén si es transitable.",
         "b": "Sí, y circular por la parte derecha de la calzada que necesite.",
@@ -1791,7 +1791,7 @@
       "tema": "usuarios_vulnerables",
       "subtema": "vmp",
       "materia": 8,
-      "enunciado": "Una persona con movilidad reducida se desplaza en un vehículo de movilidad personal al paso de persona. ¿Qué consideración tiene a efectos del reglamento?",
+      "enunciado": "Una persona con movilidad reducida va al paso en un vehículo de movilidad personal. ¿Qué consideración tiene?",
       "opciones": {
         "a": "La de ciclista.",
         "b": "La de conductor de ciclomotor.",
@@ -1884,10 +1884,10 @@
       "tema": "usuarios_vulnerables",
       "subtema": "peatones",
       "materia": 8,
-      "enunciado": "Según la DGT, ¿dónde tiene un peatón atropellado más posibilidades de morir?",
+      "enunciado": "¿Dónde tiene un peatón atropellado más posibilidades de morir?",
       "opciones": {
-        "a": "En una calle de la ciudad, porque hay mucho más tráfico.",
-        "b": "En una carretera fuera de la ciudad, porque se circula más rápido.",
+        "a": "En una calle de la ciudad, porque hay más tráfico.",
+        "b": "En una carretera fuera de la ciudad.",
         "c": "En un paso para peatones, porque los peatones se confían."
       },
       "correcta": "b",
@@ -1946,7 +1946,7 @@
       "tema": "usuarios_vulnerables",
       "subtema": "ninos",
       "materia": 8,
-      "enunciado": "Según la DGT, ¿cuándo se producen la mayoría de los atropellos a niños?",
+      "enunciado": "¿Cuándo se producen la mayoría de los atropellos a niños?",
       "opciones": {
         "a": "En las vacaciones de verano.",
         "b": "De noche, en calles sin luz.",
@@ -1977,7 +1977,7 @@
       "tema": "usuarios_vulnerables",
       "subtema": "mayores",
       "materia": 8,
-      "enunciado": "Según la DGT, ¿qué dificultad pueden tener muchas personas mayores como peatones?",
+      "enunciado": "¿Qué dificultad tienen muchas personas mayores como peatones?",
       "opciones": {
         "a": "Ninguna, porque son más prudentes que los jóvenes.",
         "b": "Que suelen cruzar corriendo sin mirar.",
@@ -2008,7 +2008,7 @@
       "tema": "usuarios_vulnerables",
       "subtema": "mayores",
       "materia": 8,
-      "enunciado": "Según la DGT, los conductores mayores de 65 años suelen ser prudentes. ¿Por qué pueden sufrir más accidentes?",
+      "enunciado": "Los conductores mayores de 65 años suelen ser prudentes. ¿Por qué pueden sufrir más accidentes?",
       "opciones": {
         "a": "Porque pueden necesitar más tiempo para reaccionar.",
         "b": "Porque suelen superar los límites de velocidad.",
@@ -2039,7 +2039,7 @@
       "tema": "usuarios_vulnerables",
       "subtema": "ciclistas",
       "materia": 8,
-      "enunciado": "Según la DGT, ¿dónde mueren más ciclistas en accidentes de tráfico?",
+      "enunciado": "¿Dónde mueren más ciclistas en accidentes de tráfico?",
       "opciones": {
         "a": "En carreteras fuera de las ciudades.",
         "b": "Dentro de las ciudades.",
@@ -2070,11 +2070,11 @@
       "tema": "usuarios_vulnerables",
       "subtema": "ciclistas",
       "materia": 8,
-      "enunciado": "Circula junto a una fila de vehículos aparcados en una zona con ciclistas. Según la DGT, ¿por qué debe tener cuidado?",
+      "enunciado": "Cuando circula junto a una fila de vehículos aparcados en una zona con ciclistas, debe extremar la precaución porque...",
       "opciones": {
-        "a": "Porque los ciclistas no pueden circular junto a vehículos aparcados.",
-        "b": "Porque pueden aparecer ciclistas entre los vehículos aparcados.",
-        "c": "Porque los vehículos aparcados reducen la adherencia de la calzada."
+        "a": "Los ciclistas no pueden circular junto a vehículos aparcados.",
+        "b": "Pueden aparecer ciclistas entre los vehículos aparcados.",
+        "c": "Los vehículos aparcados reducen la adherencia de la calzada."
       },
       "correcta": "b",
       "explicacion": "Junto a vehículos aparcados hay que extremar la precaución, porque los ciclistas pueden aparecer entre ellos.",
@@ -2101,7 +2101,7 @@
       "tema": "usuarios_vulnerables",
       "subtema": "motoristas",
       "materia": 8,
-      "enunciado": "Según la DGT, ¿qué accidentes son los más comunes en motocicletas y ciclomotores al adelantar?",
+      "enunciado": "Al adelantar, ¿qué accidentes son los más comunes en motocicletas y ciclomotores?",
       "opciones": {
         "a": "Los choques frontales y laterales.",
         "b": "Las salidas de la vía en recta.",
@@ -2349,7 +2349,7 @@
       "tema": "vehiculos_especiales",
       "subtema": "v2",
       "materia": 9,
-      "enunciado": "¿De qué color es la luz de la señal V-2 (vehículo-obstáculo en la vía)?",
+      "enunciado": "¿De qué color es la luz de la señal de vehículo-obstáculo en la vía?",
       "opciones": {
         "a": "Azul.",
         "b": "Amarillo auto.",
@@ -2575,7 +2575,7 @@
       "tema": "vehiculos_pesados",
       "subtema": "carriles",
       "materia": 9,
-      "enunciado": "Fuera de poblado, en una autovía con tres carriles por sentido, circula con un turismo y una caravana que miden 9 metros en total. ¿Qué carriles debe usar normalmente?",
+      "enunciado": "Fuera de poblado, en una autovía con tres carriles por sentido, conduce un turismo con caravana de 9 metros en total. ¿Qué carriles debe usar normalmente?",
       "opciones": {
         "a": "Cualquiera de los tres, sin ninguna limitación.",
         "b": "Solo el de la derecha, en todo caso.",
@@ -2761,11 +2761,11 @@
       "tema": "chaleco",
       "subtema": "urbano",
       "materia": 13,
-      "enunciado": "Su turismo se avería en una calle de la ciudad (no es una travesía) y sale de él. Según el Reglamento General de Circulación, ¿está obligado a ponerse el chaleco reflectante?",
+      "enunciado": "Su turismo se avería en una calle de la ciudad que no es travesía y sale de él. ¿Está obligado a ponerse el chaleco reflectante?",
       "opciones": {
         "a": "Sí, en cualquier vía en la que salga del vehículo averiado.",
-        "b": "No, la obligación es para la calzada o el arcén de vías interurbanas.",
-        "c": "Sí, pero solo si es de noche o hay poca visibilidad."
+        "b": "No.",
+        "c": "Sí, pero solo de noche o con poca visibilidad."
       },
       "correcta": "b",
       "explicacion": "El Reglamento General de Circulación obliga a ponerse el chaleco reflectante al salir del vehículo y ocupar la calzada o el arcén de las vías interurbanas.",

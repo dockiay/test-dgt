@@ -1,0 +1,350 @@
+{
+ "version": 1,
+ "nota": "Muestra de reescritura al estilo del examen DGT. Solo cambia enunciado y opciones; correcta, explicacion, fuente e imagen quedan igual. distractora_cambiada=true: alguna opción incorrecta dice algo nuevo y el revisor debe confirmar que sigue siendo falsa según la cita.",
+ "cambios": [
+  {
+   "id": "B1-pri-0061",
+   "reglas": [
+    "E2"
+   ],
+   "distractora_cambiada": true,
+   "enunciado": "Al llegar a una intersección con esta señal, ¿a quién debe ceder el paso?",
+   "opciones": {
+    "a": "Solo a los vehículos que se aproximen por la vía preferente desde su derecha.",
+    "b": "A los vehículos que circulen por la vía preferente, se aproximen por donde se aproximen.",
+    "c": "Solo a los vehículos pesados."
+   }
+  },
+  {
+   "id": "E-acc-0001",
+   "reglas": [
+    "T1",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Quien presencia un accidente de tráfico sin estar implicado en él, ¿está obligado a auxiliar o a solicitar auxilio?",
+   "opciones": {
+    "a": "No, solo lo están los implicados.",
+    "b": "Sí.",
+    "c": "Solo si tiene formación en primeros auxilios."
+   }
+  },
+  {
+   "id": "res-via-0003",
+   "reglas": [
+    "E1",
+    "O3"
+   ],
+   "distractora_cambiada": true,
+   "enunciado": "¿Puede circular una persona a caballo por el arcén de una autovía?",
+   "opciones": {
+    "a": "Sí, si no entorpece la circulación.",
+    "b": "Solo de día.",
+    "c": "No."
+   }
+  },
+  {
+   "id": "C-doc-0002",
+   "reglas": [
+    "E4",
+    "E2"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "El distintivo de inspección técnica periódica, ¿qué indica?",
+   "opciones": {
+    "a": "La clasificación ambiental del vehículo.",
+    "b": "Que el vehículo tiene en vigor el seguro obligatorio.",
+    "c": "Que el vehículo ha superado la inspección técnica periódica y la fecha de la próxima."
+   }
+  },
+  {
+   "id": "bm9-0005",
+   "reglas": [
+    "T2",
+    "O2"
+   ],
+   "distractora_cambiada": true,
+   "enunciado": "Además de respetar los límites, el conductor debe adecuar la velocidad de forma que...",
+   "opciones": {
+    "a": "Siempre pueda detener el vehículo dentro de su campo de visión y ante cualquier obstáculo.",
+    "b": "Circule siempre a la velocidad máxima que permite la señalización.",
+    "c": "No tarde más de lo previsto en llegar a su destino."
+   }
+  },
+  {
+   "id": "xb-0038",
+   "reglas": [
+    "E3",
+    "T2"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Si le recetan un medicamento nuevo, antes de conducir debe...",
+   "opciones": {
+    "a": "Nada en especial, porque es un medicamento con receta.",
+    "b": "Preguntar al médico si puede conducir con esa medicación.",
+    "c": "Conducir y comprobar sobre la marcha si nota algún efecto."
+   }
+  },
+  {
+   "id": "xc-0104",
+   "reglas": [
+    "E3",
+    "O2"
+   ],
+   "distractora_cambiada": true,
+   "enunciado": "¿Qué es una carretera?",
+   "opciones": {
+    "a": "Cualquier vía pública pavimentada, esté dentro o fuera de poblado.",
+    "b": "Una vía sin pavimentar que comunica fincas.",
+    "c": "Una vía pública pavimentada situada fuera de poblado, salvo los tramos en travesía."
+   }
+  },
+  {
+   "id": "xe-0050",
+   "reglas": [
+    "E3",
+    "T2"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Si en una recta, al soltar el volante, el vehículo se desvía hacia un lado, puede deberse a que...",
+   "opciones": {
+    "a": "El filtro del aire está sucio.",
+    "b": "Unos neumáticos están más inflados que otros.",
+    "c": "El aceite del motor es demasiado espeso."
+   }
+  },
+  {
+   "id": "x1b-0103",
+   "reglas": [
+    "E3",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "No pagar el peaje de una autopista cuando es exigible, ¿qué tipo de infracción es?",
+   "opciones": {
+    "a": "Grave.",
+    "b": "Leve.",
+    "c": "Muy grave."
+   }
+  },
+  {
+   "id": "v5f-aux-0001",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Ante un herido que tiene un hueso roto, ¿qué se debe hacer?",
+   "opciones": {
+    "a": "Intentar devolver el hueso a su posición antes de que llegue la ambulancia.",
+    "b": "Dejar inmóvil la zona de la fractura y evitar que el herido la mueva.",
+    "c": "Pedir al herido que mueva la zona para comprobar la gravedad de la lesión."
+   }
+  },
+  {
+   "id": "xd-0088",
+   "reglas": [
+    "E3",
+    "T2",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Cuando circula junto a una fila de vehículos aparcados en una zona con ciclistas, debe extremar la precaución porque...",
+   "opciones": {
+    "a": "Los ciclistas no pueden circular junto a vehículos aparcados.",
+    "b": "Pueden aparecer ciclistas entre los vehículos aparcados.",
+    "c": "Los vehículos aparcados reducen la adherencia de la calzada."
+   }
+  },
+  {
+   "id": "xc-0017",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "¿Cuál de estas faltas de los conductores de otros vehículos causa accidentes con motocicletas?",
+   "opciones": {
+    "a": "No respetar la preferencia de paso de las motocicletas.",
+    "b": "Encender la luz de cruce durante el día.",
+    "c": "Dejarles demasiada distancia de seguridad."
+   }
+  },
+  {
+   "id": "B1-sen-0126",
+   "reglas": [
+    "E4"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "¿Qué indica esta señal?",
+   "opciones": {
+    "a": "Que solo se puede seguir recto o girar a la derecha.",
+    "b": "Que se recomienda girar a la derecha.",
+    "c": "Que se puede tomar cualquier dirección, incluido el cambio de sentido."
+   }
+  },
+  {
+   "id": "B2-mv-0047",
+   "reglas": [
+    "E4"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Estas líneas de borde quebradas, ¿de qué advierten?",
+   "opciones": {
+    "a": "De la proximidad de una parada de autobús.",
+    "b": "De la aproximación a un paso para peatones o para ciclistas.",
+    "c": "Del final de la calzada."
+   }
+  },
+  {
+   "id": "B2-luz-0002",
+   "reglas": [
+    "E4",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "De día, entra en un tramo afectado por esta señal que está suficientemente iluminado. ¿Qué alumbrado debe llevar encendido?",
+   "opciones": {
+    "a": "El de posición y el de corto alcance o de cruce.",
+    "b": "Ninguno, porque el tramo está iluminado.",
+    "c": "Solo el de posición."
+   }
+  },
+  {
+   "id": "v5a-car-0002",
+   "reglas": [
+    "O1",
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Fuera de poblado, en una calzada con tres carriles para su sentido, conduce un camión rígido de 3.000 kg de masa máxima autorizada. ¿Puede utilizar el carril de la izquierda para adelantar?",
+   "opciones": {
+    "a": "Sí.",
+    "b": "No, los camiones solo pueden usar el carril derecho y el inmediato.",
+    "c": "No, un camión solo puede circular por el carril derecho."
+   }
+  },
+  {
+   "id": "B1-sen-0128",
+   "reglas": [
+    "E4",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Conduce una motocicleta de dos ruedas y encuentra esta señal. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Elegir si circula o no por esa calzada.",
+    "b": "No entrar, porque está reservada a otros vehículos.",
+    "c": "Circular por esa calzada."
+   }
+  },
+  {
+   "id": "x1a-0133",
+   "reglas": [
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "En un tramo con prohibición de adelantar, el vehículo de delante está parado por una retención del tráfico. ¿Puede rebasarlo ocupando el sentido contrario?",
+   "opciones": {
+    "a": "Sí, si se cerciora de que no hay peligro.",
+    "b": "Sí, si lleva parado más de dos minutos.",
+    "c": "No."
+   }
+  },
+  {
+   "id": "B1-sen-0117",
+   "reglas": [
+    "E4",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Conduce un turismo con remolque y el conjunto mide 11 metros. Ante esta señal con la cifra 10 m, ¿puede pasar?",
+   "opciones": {
+    "a": "Sí, porque la señal solo afecta a los camiones.",
+    "b": "Sí, porque el turismo, sin el remolque, mide menos de 10 metros.",
+    "c": "No."
+   }
+  },
+  {
+   "id": "x1b-0128",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "En una autovía de acceso a una ciudad, limitada a 60 km/h, circula a 98 km/h. Además de la multa, ¿tiene ese exceso otros efectos administrativos o penales?",
+   "opciones": {
+    "a": "Sí, los mismos que en cualquier otra vía limitada a 60 km/h.",
+    "b": "No, porque en esos tramos no se sancionan los excesos de velocidad.",
+    "c": "No, porque esos efectos solo se producen al superar los 100 km/h."
+   }
+  },
+  {
+   "id": "xb-0054",
+   "reglas": [
+    "E1",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Un permiso expedido fuera de la Unión Europea y válido en España, ¿durante cuánto tiempo puede usarse desde que su titular reside normalmente en España?",
+   "opciones": {
+    "a": "Dos años como máximo.",
+    "b": "Sin límite, mientras esté en vigor.",
+    "c": "Seis meses como máximo, salvo que un convenio diga otra cosa."
+   }
+  },
+  {
+   "id": "A-adel-0007",
+   "reglas": [
+    "E1",
+    "O3"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "Le están adelantando y, ya iniciada la maniobra, aparece un vehículo de frente que crea una situación de peligro. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Disminuir la velocidad.",
+    "b": "Mantener la velocidad.",
+    "c": "Aumentar la velocidad."
+   }
+  },
+  {
+   "id": "B1-sen-0108",
+   "reglas": [
+    "E4",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "¿A quién prohíbe la entrada esta señal?",
+   "opciones": {
+    "a": "A los vehículos destinados al transporte de mercancías, sea cual sea su masa.",
+    "b": "Solo a los camiones de más de 3.500 kg.",
+    "c": "A todos los vehículos de motor."
+   }
+  },
+  {
+   "id": "A-adel-0015",
+   "reglas": [
+    "E1",
+    "O1",
+    "O3"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "En un tramo con prohibición de adelantar, ¿puede adelantar a un ciclomotor que circula muy despacio aunque tenga que ocupar el sentido contrario?",
+   "opciones": {
+    "a": "No, en ningún caso.",
+    "b": "Sí, siempre, por ser un vehículo lento.",
+    "c": "Sí, si puede adelantarlo sin riesgo y se ha cerciorado de que no hay peligro."
+   }
+  },
+  {
+   "id": "D-acc-0002",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "enunciado": "La mayoría de los accidentes de tráfico...",
+   "opciones": {
+    "a": "Solo se pueden evitar si se deben a un fallo del vehículo.",
+    "b": "Se pueden evitar.",
+    "c": "Se deben al azar y no se pueden prevenir."
+   }
+  }
+ ]
+}

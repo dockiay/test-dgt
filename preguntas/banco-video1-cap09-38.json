@@ -76,11 +76,11 @@
       "id": "A-pri-0002",
       "tema": "prioridad",
       "subtema": "interseccion_sin_senalizar",
-      "enunciado": "Circula por una vía pavimentada y llega a un cruce sin señalizar. Por su derecha se acerca un vehículo que sale de un camino sin pavimentar. ¿Quién tiene preferencia de paso?",
+      "enunciado": "Circula por una vía pavimentada y llega a un cruce sin señalizar. Por su derecha se acerca un vehículo desde un camino sin pavimentar. ¿Quién tiene preferencia?",
       "opciones": {
         "a": "El otro vehículo, porque se aproxima por su derecha.",
         "b": "El que llegue primero al cruce.",
-        "c": "Usted, porque circula por la vía pavimentada."
+        "c": "Usted."
       },
       "correcta": "c",
       "explicacion": "En las intersecciones sin señalizar, los vehículos que circulan por una vía pavimentada tienen preferencia sobre los que proceden de otra sin pavimentar, aunque estos vengan por la derecha.",
@@ -118,7 +118,7 @@
       "subtema": "interseccion_sin_senalizar",
       "enunciado": "En una intersección sin señales ni semáforos se acerca un tranvía por su izquierda. ¿Quién tiene prioridad de paso?",
       "opciones": {
-        "a": "El tranvía, porque circula por raíles.",
+        "a": "El tranvía.",
         "b": "Usted, porque el tranvía se aproxima por su izquierda.",
         "c": "El que haya entrado antes en la intersección."
       },
@@ -231,7 +231,7 @@
       "opciones": {
         "a": "Solo a los vehículos que se aproximen por su derecha.",
         "b": "Solo a los vehículos que se aproximen por su izquierda.",
-        "c": "A los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen."
+        "c": "A los que circulen por la vía preferente, por cualquier lado."
       },
       "correcta": "c",
       "explicacion": "En las intersecciones con «ceda el paso» o «stop», se cede siempre el paso a los vehículos de la vía preferente, vengan por el lado que vengan.",
@@ -258,9 +258,9 @@
       "id": "A-pri-0007",
       "tema": "prioridad",
       "subtema": "interseccion_bloqueo",
-      "enunciado": "Tiene el semáforo en verde, pero la circulación está tan densa que previsiblemente quedará detenido dentro del cruce, obstruyendo la circulación transversal. ¿Qué debe hacer?",
+      "enunciado": "Tiene el semáforo en verde, pero hay tanto tráfico que previsiblemente quedará detenido dentro del cruce, obstruyendo la circulación transversal. ¿Qué debe hacer?",
       "opciones": {
-        "a": "No entrar en la intersección, aunque goce de prioridad de paso.",
+        "a": "No entrar en la intersección.",
         "b": "Entrar, porque el semáforo en verde le da prioridad.",
         "c": "Entrar con la luz de emergencia encendida."
       },
@@ -329,10 +329,10 @@
       "id": "A-pri-0009",
       "tema": "prioridad",
       "subtema": "salida_propiedad_privada",
-      "enunciado": "Va a salir a una vía pública desde un camino exclusivamente privado (por ejemplo, el de su casa). ¿A quién debe ceder el paso?",
+      "enunciado": "Va a salir a una vía pública desde un camino exclusivamente privado, como el de su casa. ¿A quién debe ceder el paso?",
       "opciones": {
         "a": "Solo a los vehículos que se acerquen por su derecha.",
-        "b": "A los vehículos que circulen por la vía, cualquiera que sea el sentido en que lo hagan.",
+        "b": "A los que circulen por la vía, en cualquier sentido.",
         "c": "A nadie, si la salida no está señalizada."
       },
       "correcta": "b",
@@ -422,10 +422,10 @@
       "id": "A-pea-0003",
       "tema": "prioridad",
       "subtema": "peatones",
-      "enunciado": "Unos peatones acaban de bajar de un autobús en una parada señalizada y se encuentran entre el autobús y la acera. ¿Tienen prioridad respecto a los vehículos?",
+      "enunciado": "Unos peatones acaban de bajar de un autobús en una parada señalizada y están entre el autobús y la acera. ¿Tienen prioridad respecto a los vehículos?",
       "opciones": {
         "a": "No, salvo que crucen por un paso para peatones.",
-        "b": "Sí, mientras se encuentren entre el autobús y la zona peatonal o refugio más próximo.",
+        "b": "Sí.",
         "c": "Solo si el autobús tiene encendida la luz de emergencia."
       },
       "correcta": "b",
@@ -721,7 +721,7 @@
       "subtema": "vehiculos_prioritarios",
       "enunciado": "Percibe las señales especiales de una ambulancia en servicio urgente que se aproxima. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Adoptar las medidas adecuadas para facilitarle el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso.",
+        "a": "Facilitarle el paso, apartándose a la derecha o deteniéndose si es preciso.",
         "b": "Detenerse siempre en el acto, en el carril por el que circula.",
         "c": "Acelerar para alejarse de ella."
       },
@@ -750,9 +750,9 @@
       "id": "A-urg-0004",
       "tema": "prioridad",
       "subtema": "vehiculos_prioritarios",
-      "enunciado": "Un vehículo de policía con sus señales luminosas y acústicas se sitúa detrás de usted y activa una luz roja intermitente hacia delante. ¿Qué debe hacer?",
+      "enunciado": "Un vehículo de policía con sus señales encendidas se sitúa detrás de usted y activa una luz roja intermitente hacia delante. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Detenerse con precaución en el lado derecho, delante del vehículo policial, y permanecer en el interior.",
+        "a": "Detenerse con precaución a la derecha, delante del vehículo policial, sin bajarse.",
         "b": "Apartarse a la derecha y dejarle pasar sin detenerse.",
         "c": "Detenerse y bajar del vehículo para identificarse."
       },
@@ -781,11 +781,11 @@
       "id": "A-urg-0005",
       "tema": "prioridad",
       "subtema": "no_prioritario_urgencia",
-      "enunciado": "Por una circunstancia especialmente grave tiene que llevar urgentemente a un herido en su turismo, sin poder recurrir a otro medio. ¿Cómo advertirá a los demás usuarios?",
+      "enunciado": "Por una circunstancia especialmente grave, tiene que llevar urgentemente a un herido en su turismo sin poder recurrir a otro medio. ¿Cómo advertirá a los demás?",
       "opciones": {
         "a": "Con las luces antiniebla delanteras y traseras encendidas.",
-        "b": "No puede advertirlo de ningún modo; debe circular como cualquier otro vehículo.",
-        "c": "Con el avisador acústico de forma intermitente y la luz de emergencia, o agitando un pañuelo o similar."
+        "b": "De ningún modo; debe circular como cualquier otro vehículo.",
+        "c": "Con el claxon de forma intermitente y la luz de emergencia, o agitando un pañuelo."
       },
       "correcta": "c",
       "explicacion": "El conductor de un vehículo no prioritario que realiza un servicio de urgencia procurará que los demás lo adviertan usando el claxon de forma intermitente y la luz de emergencia, o agitando un pañuelo o procedimiento similar.",
@@ -905,7 +905,7 @@
       "id": "A-est-0003",
       "tema": "prioridad",
       "subtema": "estrechamientos",
-      "enunciado": "Dos turismos entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero) y uno de ellos tiene que dar marcha atrás. ¿Cuál tiene la preferencia?",
+      "enunciado": "Dos turismos entran a la vez en un estrechamiento sin señalizar y uno de ellos tiene que dar marcha atrás. ¿Cuál tiene preferencia?",
       "opciones": {
         "a": "El que tuviera que dar marcha atrás menor distancia.",
         "b": "El que circule en sentido descendente, aunque la pendiente sea mínima.",
@@ -936,7 +936,7 @@
       "id": "A-est-0004",
       "tema": "prioridad",
       "subtema": "estrechamientos",
-      "enunciado": "Un autobús y un camión entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero) y uno debe dar marcha atrás. ¿Cuál tiene preferencia de paso?",
+      "enunciado": "Un autobús y un camión entran a la vez en un estrechamiento sin señalizar y uno debe dar marcha atrás. ¿Cuál tiene preferencia?",
       "opciones": {
         "a": "El camión.",
         "b": "El que tenga mayor masa máxima autorizada.",
@@ -967,7 +967,7 @@
       "id": "A-est-0005",
       "tema": "prioridad",
       "subtema": "estrechamientos",
-      "enunciado": "Un turismo que arrastra un remolque de 500 kg de MMA y un autobús entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Cuál de ellos debe dar marcha atrás?",
+      "enunciado": "Un turismo con un remolque de 500 kg de masa máxima autorizada y un autobús entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
       "opciones": {
         "a": "El turismo con remolque.",
         "b": "El autobús.",
@@ -998,7 +998,7 @@
       "id": "A-est-0006",
       "tema": "prioridad",
       "subtema": "estrechamientos",
-      "enunciado": "Un vehículo de tracción animal y un turismo con un remolque de 600 kg de MMA entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Cuál tiene preferencia de paso?",
+      "enunciado": "Un vehículo de tracción animal y un turismo con un remolque de 600 kg de masa máxima autorizada entran a la vez en un estrechamiento sin señalizar. ¿Cuál tiene preferencia?",
       "opciones": {
         "a": "El turismo con remolque.",
         "b": "El que circule por la derecha.",
@@ -1029,7 +1029,7 @@
       "id": "A-est-0007",
       "tema": "prioridad",
       "subtema": "estrechamientos",
-      "enunciado": "Un camión y un turismo sin remolque entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Quién debe dar marcha atrás?",
+      "enunciado": "Un camión y un turismo sin remolque entran a la vez en un estrechamiento sin señalizar. ¿Quién debe dar marcha atrás?",
       "opciones": {
         "a": "El camión.",
         "b": "El turismo.",
@@ -1062,9 +1062,9 @@
       "subtema": "gran_pendiente",
       "enunciado": "En un tramo estrecho de gran pendiente sin señalizar, ¿quién tiene, como norma general, la preferencia de paso?",
       "opciones": {
-        "a": "El vehículo que circula en sentido ascendente, salvo que pueda llegar antes a un apartadero.",
-        "b": "El vehículo que circula en sentido descendente.",
-        "c": "El vehículo de menor tamaño."
+        "a": "El que sube, salvo que pueda llegar antes a un apartadero.",
+        "b": "El que baja.",
+        "c": "El de menor tamaño."
       },
       "correcta": "a",
       "explicacion": "En los tramos estrechos de gran pendiente, tiene preferencia el vehículo que sube, salvo si este puede llegar antes a un apartadero establecido al efecto.",
@@ -1122,7 +1122,7 @@
       "id": "A-est-0010",
       "tema": "prioridad",
       "subtema": "puentes_senalizados",
-      "enunciado": "Llega a un puente estrecho por el extremo en el que está colocada esta señal y, ya en el puente, se encuentra con otro vehículo con el que no puede cruzarse. ¿Qué debe hacer?",
+      "enunciado": "Llega a un puente estrecho por el extremo en el que está esta señal y, ya dentro, se encuentra con otro vehículo con el que no puede cruzarse. ¿Qué debe hacer?",
       "opciones": {
         "a": "Continuar, porque la señal le da prioridad.",
         "b": "Esperar a que retroceda el vehículo de mayor tamaño.",
@@ -1162,10 +1162,10 @@
       "id": "A-adv-0001",
       "tema": "maniobras",
       "subtema": "advertencias_opticas",
-      "enunciado": "Un vehículo lleva encendido el intermitente derecho, pero su conductor indica con el brazo que va a desplazarse a la izquierda. ¿A qué indicación debe hacer caso?",
+      "enunciado": "Un vehículo lleva el intermitente derecho, pero su conductor indica con el brazo que va a desplazarse a la izquierda. ¿A qué debe hacer caso?",
       "opciones": {
         "a": "Al intermitente, porque prevalece sobre el brazo.",
-        "b": "A la del brazo, que anula cualquier otra indicación óptica que la contradiga.",
+        "b": "Al brazo.",
         "c": "A ninguna de las dos; debe detenerse."
       },
       "correcta": "b",
@@ -1410,10 +1410,10 @@
       "id": "A-adv-0009",
       "tema": "maniobras",
       "subtema": "advertencias_luminosas",
-      "enunciado": "Las ráfagas de luz (alumbrado de corto o largo alcance de forma intermitente), usadas para sustituir a las advertencias acústicas, ¿pueden emplearse dentro de poblado?",
+      "enunciado": "Las ráfagas de luz que sustituyen a las advertencias acústicas, ¿pueden usarse dentro de poblado?",
       "opciones": {
         "a": "No, solo fuera de poblado.",
-        "b": "Sí, incluso en poblado, a intervalos muy cortos y evitando el deslumbramiento.",
+        "b": "Sí, a intervalos muy cortos y sin deslumbrar.",
         "c": "Solo entre la puesta y la salida del sol."
       },
       "correcta": "b",
@@ -1441,7 +1441,7 @@
       "id": "A-adv-0010",
       "tema": "vehiculo",
       "subtema": "retrovisores",
-      "enunciado": "En un turismo, si el retrovisor interior no permite ver la carretera por detrás con el campo de visión reglamentario, ¿qué debe llevar además del retrovisor exterior izquierdo?",
+      "enunciado": "En un turismo, si el retrovisor interior no permite ver la carretera por detrás con el campo reglamentario, ¿qué debe llevar además del exterior izquierdo?",
       "opciones": {
         "a": "Nada más; basta con el exterior izquierdo.",
         "b": "Un segundo retrovisor interior.",
@@ -1474,9 +1474,9 @@
       "subtema": "incorporacion",
       "enunciado": "El conductor de un vehículo estacionado que va a incorporarse a la circulación, ¿debe ceder el paso a los vehículos que circulan?",
       "opciones": {
-        "a": "No, los demás conductores están obligados a dejarle pasar.",
-        "b": "Solo si se aproximan por su derecha.",
-        "c": "Sí, debe cerciorarse de que puede hacerlo sin peligro y ceder el paso a otros vehículos."
+        "a": "No, los demás están obligados a dejarle pasar.",
+        "b": "Solo a los que se aproximen por su derecha.",
+        "c": "Sí."
       },
       "correcta": "c",
       "explicacion": "Quien se incorpora a la circulación debe cerciorarse de que puede hacerlo sin peligro, cediendo el paso a otros vehículos y teniendo en cuenta su posición, trayectoria y velocidad, y advertirlo con las señales obligatorias.",
@@ -1503,7 +1503,7 @@
       "id": "A-inc-0002",
       "tema": "maniobras",
       "subtema": "carril_aceleracion",
-      "enunciado": "Va a utilizar un carril de aceleración para incorporarse a una autovía. ¿Dónde debe cerciorarse de que puede hacerlo sin peligro, deteniéndose si fuera necesario?",
+      "enunciado": "Va a incorporarse a una autovía por un carril de aceleración. ¿Dónde debe cerciorarse de que puede hacerlo sin peligro, deteniéndose si es necesario?",
       "opciones": {
         "a": "Al final del carril de aceleración.",
         "b": "Al principio del carril de aceleración.",
@@ -1667,11 +1667,11 @@
       "id": "A-adel-0002",
       "tema": "adelantamiento",
       "subtema": "no_es_adelantamiento",
-      "enunciado": "Un vehículo que circula por el carril de aceleración avanza más rápido que los que circulan por el carril contiguo de la calzada. ¿Se considera adelantamiento?",
+      "enunciado": "Un vehículo que va por el carril de aceleración avanza más rápido que los del carril contiguo. ¿Se considera adelantamiento?",
       "opciones": {
         "a": "Sí, es un adelantamiento por la derecha.",
         "b": "Solo si supera en más de 20 km/h a los de la calzada.",
-        "c": "No, no se considera adelantamiento."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "En los tramos con carriles de aceleración o deceleración, o reservados a determinados vehículos, avanzar más rápido por ellos que por los normales de circulación (o viceversa) no se considera adelantamiento.",
@@ -1763,7 +1763,7 @@
       "enunciado": "En una autovía con tres carriles en su sentido, ¿puede adelantar a un vehículo que, a su vez, está adelantando a otro?",
       "opciones": {
         "a": "No, está prohibido en todo caso adelantar a quien está adelantando.",
-        "b": "Sí, porque para hacerlo no tiene que invadir la parte de la calzada reservada al sentido contrario.",
+        "b": "Sí.",
         "c": "Solo si avisa con el claxon."
       },
       "correcta": "b",
@@ -1822,11 +1822,11 @@
       "id": "A-adel-0007",
       "tema": "adelantamiento",
       "subtema": "vehiculo_adelantado",
-      "enunciado": "Le están adelantando y, ya iniciada la maniobra, aparece un vehículo de frente que crea una situación de peligro. El que le adelanta sigue con la maniobra. ¿Qué debe hacer usted?",
+      "enunciado": "Le están adelantando y, ya iniciada la maniobra, aparece un vehículo de frente que crea una situación de peligro. ¿Qué debe hacer?",
       "opciones": {
         "a": "Disminuir la velocidad.",
-        "b": "Mantener la velocidad constante; el problema es del que adelanta.",
-        "c": "Aumentar la velocidad para que el otro vuelva detrás."
+        "b": "Mantener la velocidad.",
+        "c": "Aumentar la velocidad."
       },
       "correcta": "a",
       "explicacion": "El conductor adelantado está obligado a disminuir su velocidad cuando, iniciada la maniobra, se produce una situación de peligro para cualquiera de los implicados.",
@@ -1853,7 +1853,7 @@
       "id": "A-adel-0008",
       "tema": "adelantamiento",
       "subtema": "vehiculo_adelantado",
-      "enunciado": "Un camión que no puede ceñirse por completo al borde derecho quiere indicarle que puede adelantarle con seguridad, pero no cree conveniente hacer la señal con el brazo. ¿Qué señal utilizará?",
+      "enunciado": "Un camión que no puede ceñirse del todo a la derecha quiere indicarle que puede adelantarle con seguridad, pero no cree conveniente hacerlo con el brazo. ¿Qué señal utilizará?",
       "opciones": {
         "a": "El intermitente derecho.",
         "b": "El intermitente izquierdo.",
@@ -1980,7 +1980,7 @@
       "enunciado": "En una curva de visibilidad reducida, ¿puede adelantar?",
       "opciones": {
         "a": "No, en ningún caso.",
-        "b": "Sí, si los dos sentidos están claramente delimitados y puede hacerlo sin invadir la zona del sentido contrario.",
+        "b": "Sí, si puede hacerlo sin invadir el sentido contrario, claramente delimitado.",
         "c": "Sí, siempre que avise con el claxon antes de la curva."
       },
       "correcta": "b",
@@ -2011,7 +2011,7 @@
       "enunciado": "¿Puede adelantar a un turismo en un paso para peatones señalizado?",
       "opciones": {
         "a": "Sí, si no hay ningún peatón cruzando.",
-        "b": "No, está prohibido adelantar en los pasos para peatones señalizados y en sus proximidades.",
+        "b": "No.",
         "c": "Sí, si es dentro de poblado y a menos de 50 km/h."
       },
       "correcta": "b",
@@ -2070,11 +2070,11 @@
       "id": "A-adel-0015",
       "tema": "adelantamiento",
       "subtema": "linea_continua",
-      "enunciado": "En un tramo con prohibición de adelantar, circula detrás de un ciclomotor que va muy despacio. ¿Puede adelantarlo aunque tenga que ocupar el sentido contrario?",
+      "enunciado": "En un tramo con prohibición de adelantar, ¿puede adelantar a un ciclomotor que circula muy despacio aunque tenga que ocupar el sentido contrario?",
       "opciones": {
-        "a": "No, en un tramo con prohibición de adelantar nunca se puede ocupar el sentido contrario.",
-        "b": "Sí, en cualquier caso y sin necesidad de comprobar nada, por ser un vehículo lento.",
-        "c": "Sí, si por su velocidad puede ser adelantado sin riesgo y se ha cerciorado de que la maniobra puede hacerse sin peligro."
+        "a": "No, en ningún caso.",
+        "b": "Sí, siempre, por ser un vehículo lento.",
+        "c": "Sí, si puede adelantarlo sin riesgo y se ha cerciorado de que no hay peligro."
       },
       "correcta": "c",
       "explicacion": "En tramos donde está prohibido adelantar se puede adelantar, ocupando el sentido contrario y tras cerciorarse de que no hay peligro, a bicicletas, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas, cuando por su velocidad puedan ser adelantados sin riesgo.",
@@ -2101,7 +2101,7 @@
       "id": "A-adel-0016",
       "tema": "adelantamiento",
       "subtema": "linea_continua",
-      "enunciado": "En un tramo con prohibición de adelantar, ¿a cuál de estos vehículos se permite adelantar ocupando el sentido contrario, si por su velocidad puede hacerse sin riesgo y tras cerciorarse de que no hay peligro?",
+      "enunciado": "En un tramo con prohibición de adelantar, ¿a cuál de estos vehículos puede adelantar ocupando el sentido contrario, si puede hacerlo sin riesgo y sin peligro?",
       "opciones": {
         "a": "A un turismo que circula despacio.",
         "b": "A un camión que circula despacio.",
@@ -2227,9 +2227,9 @@
       "subtema": "cambio_direccion",
       "enunciado": "Circula por una calzada de doble sentido (un carril por sentido) y va a girar a la izquierda. ¿Cómo debe colocarse?",
       "opciones": {
-        "a": "Ciñéndose a la marca de separación entre sentidos o, si no existe, al eje de la calzada, sin invadir el sentido contrario.",
+        "a": "Ciñéndose a la marca de separación de sentidos o al eje de la calzada.",
         "b": "Ciñéndose al borde derecho de la calzada.",
-        "c": "Invadiendo parcialmente el carril contrario para facilitar el giro."
+        "c": "Invadiendo un poco el carril contrario para facilitar el giro."
       },
       "correcta": "a",
       "explicacion": "Si el giro es a la izquierda en una calzada de doble sentido, hay que ceñirse a la marca longitudinal de separación entre sentidos o, si no existe, al eje de la calzada, sin invadir la zona del sentido contrario.",
@@ -2360,7 +2360,7 @@
       "subtema": "cambio_direccion",
       "enunciado": "En una vía interurbana sin carril especialmente acondicionado para el giro a la izquierda, ¿cómo debe girar a la izquierda un ciclista?",
       "opciones": {
-        "a": "Situándose a la derecha, fuera de la calzada siempre que sea posible, e iniciando el giro desde ese lugar.",
+        "a": "Situándose a la derecha, fuera de la calzada si es posible, y girando desde allí.",
         "b": "Situándose junto al eje de la calzada.",
         "c": "Desde el carril izquierdo, como cualquier otro vehículo."
       },
@@ -2391,9 +2391,9 @@
       "subtema": "cambio_sentido",
       "enunciado": "Espera para cambiar de sentido y su permanencia en la calzada impide continuar a los vehículos que circulan detrás. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Salir de la calzada por su lado derecho, si es posible, hasta que pueda realizar la maniobra.",
+        "a": "Salir de la calzada por la derecha, si es posible, hasta poder hacer la maniobra.",
         "b": "Seguir esperando en la calzada con el intermitente izquierdo.",
-        "c": "Realizar el cambio de sentido inmediatamente."
+        "c": "Cambiar de sentido inmediatamente."
       },
       "correcta": "a",
       "explicacion": "Cuando la espera en la calzada para cambiar de sentido impide la marcha de los que vienen detrás, hay que salir de ella por el lado derecho, si es posible, hasta que las condiciones permitan hacerlo.",
@@ -2455,7 +2455,7 @@
       "opciones": {
         "a": "Sí, si no viene nadie en ninguno de los dos sentidos.",
         "b": "Sí, si lo hace en una sola maniobra.",
-        "c": "No; en autopistas y autovías solo se puede en los lugares habilitados al efecto."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "Se prohíbe el cambio de sentido en autopistas y autovías, salvo en los lugares habilitados al efecto.",
@@ -2485,7 +2485,7 @@
       "enunciado": "En un tramo en el que está prohibido adelantar, ¿se puede cambiar de sentido?",
       "opciones": {
         "a": "Sí, siempre que no venga nadie.",
-        "b": "No, salvo que el cambio de sentido esté expresamente autorizado.",
+        "b": "No, salvo que esté expresamente autorizado.",
         "c": "Sí, si se hace en una sola maniobra."
       },
       "correcta": "b",
@@ -2606,11 +2606,11 @@
       "id": "A-par-0001",
       "tema": "parada_estacionamiento",
       "subtema": "definiciones",
-      "enunciado": "Según la Ley de Tráfico, ¿qué es una parada?",
+      "enunciado": "¿Qué es una parada?",
       "opciones": {
-        "a": "La inmovilización de un vehículo durante menos de cinco minutos, aunque el conductor se aleje.",
-        "b": "La inmovilización de un vehículo durante menos de dos minutos, sin que el conductor pueda abandonarlo.",
-        "c": "La inmovilización de un vehículo por necesidades de la circulación."
+        "a": "Una inmovilización de menos de cinco minutos, aunque el conductor se aleje.",
+        "b": "Una inmovilización de menos de dos minutos, sin que el conductor abandone el vehículo.",
+        "c": "Una inmovilización por necesidades de la circulación."
       },
       "correcta": "b",
       "explicacion": "Parada es la inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo.",
@@ -2672,7 +2672,7 @@
       "opciones": {
         "a": "Una parada, porque ha durado menos de dos minutos.",
         "b": "Una detención.",
-        "c": "Un estacionamiento, porque ha abandonado el vehículo."
+        "c": "Un estacionamiento."
       },
       "correcta": "c",
       "explicacion": "La parada exige que el conductor no pueda abandonar el vehículo. Si lo abandona, aunque sea menos de dos minutos, la inmovilización no es detención ni parada y, por tanto, es estacionamiento.",
@@ -2781,8 +2781,8 @@
       "subtema": "marcas_amarillas",
       "enunciado": "¿Qué indica esta marca vial amarilla en zigzag?",
       "opciones": {
-        "a": "Un lugar donde se permite estacionar a cualquier vehículo durante un máximo de dos horas.",
-        "b": "Un lugar donde el estacionamiento está prohibido por estar reservado a algún uso especial, como una parada de autobús o carga y descarga.",
+        "a": "Un lugar donde cualquier vehículo puede estacionar durante dos horas como máximo.",
+        "b": "Un lugar donde se prohíbe estacionar por estar reservado a un uso especial.",
         "c": "Una zona en la que está prohibido circular."
       },
       "correcta": "b",
@@ -2819,7 +2819,7 @@
       "id": "A-par-0007",
       "tema": "parada_estacionamiento",
       "subtema": "lugares_peligrosos",
-      "enunciado": "Una parada o estacionamiento se considera que obstaculiza gravemente la circulación cuando la distancia entre el vehículo y el borde opuesto de la calzada (o una marca longitudinal que prohíba atravesarla) es inferior a…",
+      "enunciado": "Una parada o estacionamiento obstaculiza gravemente la circulación cuando la distancia entre el vehículo y el borde opuesto de la calzada, o una marca longitudinal que prohíba atravesarla, es inferior a...",
       "opciones": {
         "a": "3 metros.",
         "b": "2 metros.",
@@ -2978,7 +2978,7 @@
       "opciones": {
         "a": "Sí, si la parada dura menos de dos minutos.",
         "b": "Sí, si enciende la luz de emergencia.",
-        "c": "No, en autopistas y autovías está prohibido parar, salvo en las zonas habilitadas para ello."
+        "c": "No, salvo en las zonas habilitadas para ello."
       },
       "correcta": "c",
       "explicacion": "Queda prohibido parar en autopistas y autovías, salvo en las zonas habilitadas para ello.",
@@ -3070,7 +3070,7 @@
       "enunciado": "En una vía interurbana, ¿dónde debe efectuarse la parada o el estacionamiento?",
       "opciones": {
         "a": "En el arcén, en cualquiera de los dos lados.",
-        "b": "Fuera de la calzada, en el lado derecho, dejando libre la parte transitable del arcén.",
+        "b": "Fuera de la calzada, a la derecha, dejando libre la parte transitable del arcén.",
         "c": "En la calzada, lo más cerca posible del borde derecho."
       },
       "correcta": "b",
@@ -3100,7 +3100,7 @@
       "subtema": "lugar_y_lado",
       "enunciado": "En una calle urbana de sentido único, si tiene que parar o estacionar en la calzada, ¿en qué lado puede hacerlo?",
       "opciones": {
-        "a": "En el lado derecho o también en el izquierdo.",
+        "a": "En cualquiera de los dos lados.",
         "b": "Solo en el lado derecho.",
         "c": "Solo en el lado izquierdo."
       },
@@ -3129,7 +3129,7 @@
       "id": "A-par-0017",
       "tema": "parada_estacionamiento",
       "subtema": "inmovilizacion_pendiente",
-      "enunciado": "Estaciona un turismo con caja de cambios manual en una pendiente ascendente. Además de accionar el freno de estacionamiento, ¿qué marcha debe dejar colocada?",
+      "enunciado": "Estaciona un turismo con cambio manual en una pendiente ascendente. Además del freno de estacionamiento, ¿qué marcha debe dejar puesta?",
       "opciones": {
         "a": "La marcha atrás.",
         "b": "Punto muerto.",
@@ -3160,7 +3160,7 @@
       "id": "A-par-0018",
       "tema": "parada_estacionamiento",
       "subtema": "inmovilizacion_pendiente",
-      "enunciado": "Estaciona un turismo con caja de cambios manual en una pendiente descendente. Además de accionar el freno de estacionamiento, ¿qué marcha debe dejar colocada?",
+      "enunciado": "Estaciona un turismo con cambio manual en una pendiente descendente. Además del freno de estacionamiento, ¿qué marcha debe dejar puesta?",
       "opciones": {
         "a": "La primera.",
         "b": "La marcha atrás.",
@@ -3191,10 +3191,10 @@
       "id": "A-par-0019",
       "tema": "parada_estacionamiento",
       "subtema": "inmovilizacion_pendiente",
-      "enunciado": "¿Qué vehículos, además de las otras precauciones, deben quedar debidamente calzados cuando paran o estacionan en un lugar con sensible pendiente?",
+      "enunciado": "Cuando paran o estacionan en un lugar con sensible pendiente, ¿qué vehículos deben quedar además calzados?",
       "opciones": {
         "a": "Todos los turismos y motocicletas.",
-        "b": "Los de más de 3.500 kg de MMA, los autobuses y los conjuntos de vehículos.",
+        "b": "Los de más de 3.500 kg de masa máxima autorizada, los autobuses y los conjuntos de vehículos.",
         "c": "Solo los vehículos especiales agrícolas."
       },
       "correcta": "b",
@@ -3224,7 +3224,7 @@
       "subtema": "inmovilizacion_pendiente",
       "enunciado": "El conductor de un camión de más de 3.500 kg que estaciona en una sensible pendiente no lleva calzos. ¿Puede utilizar una piedra como calzo?",
       "opciones": {
-        "a": "No, no pueden emplearse piedras ni otros elementos no destinados expresamente a esa función.",
+        "a": "No.",
         "b": "Sí, si no dispone de calzos.",
         "c": "Sí, siempre que la retire de la vía al reanudar la marcha."
       },
@@ -3253,9 +3253,9 @@
       "id": "A-par-0021",
       "tema": "parada_estacionamiento",
       "subtema": "inmovilizacion_pendiente",
-      "enunciado": "Un camión de más de 3.500 kg estaciona en una pendiente ascendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe inclinar las ruedas directrices?",
+      "enunciado": "Un camión de más de 3.500 kg estaciona en una pendiente ascendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe girar las ruedas directrices?",
       "opciones": {
-        "a": "Hacia fuera de la calzada (hacia la acera).",
+        "a": "Hacia la acera.",
         "b": "Deben quedar rectas.",
         "c": "Hacia el centro de la calzada."
       },
@@ -3287,8 +3287,8 @@
       "enunciado": "Un agente de la autoridad le ordena detenerse en una intersección cuyo semáforo está en verde para usted. ¿Qué debe hacer?",
       "opciones": {
         "a": "Pasar, porque el semáforo en verde le da prioridad.",
-        "b": "Detenerse, porque las órdenes del agente prevalecen sobre los semáforos.",
-        "c": "Pasar con precaución, ya que ambas indicaciones tienen el mismo valor."
+        "b": "Detenerse.",
+        "c": "Pasar con precaución, porque ambas indicaciones tienen el mismo valor."
       },
       "correcta": "b",
       "explicacion": "Las señales y órdenes de los agentes encabezan el orden de preferencia entre señales, por delante de los semáforos.",
@@ -3368,7 +3368,7 @@
       "opciones": {
         "a": "Detenerse siempre, porque el STOP es más restrictivo.",
         "b": "Obedecer a la marca vial, porque está más cerca del conductor.",
-        "c": "Ceder el paso, porque las señales verticales prevalecen sobre las marcas viales."
+        "c": "Ceder el paso."
       },
       "correcta": "c",
       "explicacion": "Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo.",
@@ -3435,10 +3435,10 @@
       "id": "B1-sen-0005",
       "tema": "senales",
       "subtema": "orden_preferencia",
-      "enunciado": "¿Qué prevalece sobre los semáforos según el orden de preferencia entre señales?",
+      "enunciado": "¿Qué prevalece sobre los semáforos?",
       "opciones": {
         "a": "Las señales verticales de circulación.",
-        "b": "La señalización y el balizamiento circunstancial que modifique el régimen normal de utilización de la vía.",
+        "b": "La señalización circunstancial que modifica el uso normal de la vía.",
         "c": "Las marcas viales."
       },
       "correcta": "b",
@@ -3470,7 +3470,7 @@
       "opciones": {
         "a": "Pasar con precaución sin detenerse, porque el semáforo prevalece sobre la señal vertical.",
         "b": "Detenerse solo si se aproximan vehículos por la derecha.",
-        "c": "Detenerse, porque el amarillo intermitente no exime del cumplimiento de otras señales que obliguen a detenerse."
+        "c": "Detenerse."
       },
       "correcta": "c",
       "explicacion": "La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso, y no exime de cumplir otras señales que obliguen a detenerse, como el STOP.",
@@ -3586,11 +3586,11 @@
       "id": "B1-sen-0009",
       "tema": "senales",
       "subtema": "senales_verticales",
-      "enunciado": "Una señal de limitación de velocidad está colocada en el mismo poste que la señal con el nombre de un poblado. ¿Dónde se aplica esa limitación?",
+      "enunciado": "Una señal de limitación de velocidad está en el mismo poste que la señal con el nombre de un poblado. ¿Dónde se aplica esa limitación?",
       "opciones": {
-        "a": "Solo en el tramo de vía hasta la siguiente intersección.",
-        "b": "En todo el poblado, salvo en los tramos en los que otras señales indiquen una reglamentación distinta.",
-        "c": "Solo en la travesía, no en el resto de calles del poblado."
+        "a": "Solo hasta la siguiente intersección.",
+        "b": "En todo el poblado, salvo donde otras señales digan otra cosa.",
+        "c": "Solo en la travesía, no en el resto de calles."
       },
       "correcta": "b",
       "explicacion": "Las señales de reglamentación colocadas al lado o en la vertical de la señal con el nombre del poblado se aplican a todo el poblado, excepto donde otras señales indiquen otra reglamentación en ciertos tramos.",
@@ -3628,7 +3628,7 @@
       "subtema": "senales_verticales",
       "enunciado": "¿Desde dónde rigen, como norma general, las obligaciones o prohibiciones de una señal de reglamentación?",
       "opciones": {
-        "a": "Desde la sección transversal donde está colocada la señal, salvo que un panel complementario indique la distancia a la que empiezan a regir.",
+        "a": "Desde donde está la señal, salvo que un panel indique otra distancia.",
         "b": "Desde 100 metros después de la señal.",
         "c": "Desde la siguiente intersección."
       },
@@ -3701,7 +3701,7 @@
       "opciones": {
         "a": "Ninguno; basta con reducir la velocidad.",
         "b": "Detenerse para pagar en efectivo.",
-        "c": "Estar provisto del medio técnico que posibilite su uso en condiciones operativas."
+        "c": "Llevar el dispositivo que permite usarlo, en condiciones operativas."
       },
       "correcta": "c",
       "explicacion": "Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas.",
@@ -3728,7 +3728,7 @@
       "id": "B1-sen-0013",
       "tema": "senales",
       "subtema": "obediencia",
-      "enunciado": "Las indicaciones de una señal parecen contradecir una norma general de comportamiento en la circulación. Salvo circunstancias especiales que lo justifiquen, ¿qué debe hacer?",
+      "enunciado": "Las indicaciones de una señal parecen contradecir una norma general de circulación. Salvo circunstancias especiales que lo justifiquen, ¿qué debe hacer?",
       "opciones": {
         "a": "Obedecer la señal.",
         "b": "Cumplir la norma general e ignorar la señal.",
@@ -3761,8 +3761,8 @@
       "subtema": "agentes",
       "enunciado": "Un agente que regula el tráfico levanta el brazo verticalmente. ¿A quién obliga a detenerse?",
       "opciones": {
-        "a": "Solo a los vehículos que circulan por el carril al que mira el agente.",
-        "b": "A todos los usuarios de la vía que se acerquen al agente, salvo los que no puedan hacerlo en condiciones de seguridad suficiente.",
+        "a": "Solo a los vehículos del carril al que mira el agente.",
+        "b": "A todos los que se acerquen al agente, salvo si no pueden detenerse con seguridad.",
         "c": "Solo a los peatones."
       },
       "correcta": "b",
@@ -3803,7 +3803,7 @@
       "opciones": {
         "a": "Detenerse inmediatamente dentro de la intersección.",
         "b": "Dar marcha atrás hasta la línea de detención.",
-        "c": "Continuar, porque esa señal no obliga a detenerse a quienes ya han entrado en la intersección."
+        "c": "Continuar."
       },
       "correcta": "c",
       "explicacion": "Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella.",
@@ -3841,8 +3841,8 @@
       "subtema": "agentes",
       "enunciado": "Un agente tiene los brazos extendidos horizontalmente. ¿Quiénes deben detenerse?",
       "opciones": {
-        "a": "Los usuarios que se acerquen al agente desde direcciones que corten la indicada por los brazos, cualquiera que sea el sentido de su marcha.",
-        "b": "Únicamente los vehículos que circulen por el carril al que apunta el brazo.",
+        "a": "Los que se acerquen desde direcciones que corten la que indican los brazos.",
+        "b": "Solo los vehículos del carril al que apunta el brazo.",
         "c": "Todos los usuarios, vengan de donde vengan."
       },
       "correcta": "a",
@@ -3883,7 +3883,7 @@
       "opciones": {
         "a": "No, la señal termina en cuanto baja los brazos.",
         "b": "Solo durante 10 segundos.",
-        "c": "Sí, permanece en vigor mientras no cambie de posición o efectúe otra señal."
+        "c": "Sí, mientras no cambie de posición o haga otra señal."
       },
       "correcta": "c",
       "explicacion": "La señal de brazos extendidos horizontalmente permanece en vigor aunque el agente los baje, siempre que no cambie de posición o efectúe otra señal.",
@@ -4054,7 +4054,7 @@
       "subtema": "agentes",
       "enunciado": "Desde un vehículo de los agentes se muestra una bandera roja. ¿Qué indica?",
       "opciones": {
-        "a": "Que, a partir del paso de ese vehículo, la calzada queda temporalmente cerrada al tráfico, salvo para quienes vayan acompañados o escoltados por los agentes.",
+        "a": "Que la calzada queda cerrada temporalmente al tráfico a partir de ese vehículo.",
         "b": "Que hay que extremar la atención por la proximidad de un peligro.",
         "c": "Que la calzada queda de nuevo abierta al tráfico."
       },
@@ -4095,7 +4095,7 @@
       "enunciado": "Durante una prueba ciclista, desde un vehículo se muestra una bandera verde. ¿Qué indica?",
       "opciones": {
         "a": "Que hay que extremar la atención.",
-        "b": "Que, a partir del paso de ese vehículo, la calzada queda de nuevo abierta al tráfico.",
+        "b": "Que la calzada queda abierta de nuevo al tráfico.",
         "c": "Que la calzada queda cerrada al tráfico."
       },
       "correcta": "b",
@@ -4127,7 +4127,7 @@
       "opciones": {
         "a": "Que la calzada queda abierta al tráfico.",
         "b": "Que la calzada queda cerrada al tráfico.",
-        "c": "La necesidad de extremar la atención o la proximidad de un peligro."
+        "c": "Que hay que extremar la atención por un peligro próximo."
       },
       "correcta": "c",
       "explicacion": "La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro.",
@@ -4158,7 +4158,7 @@
       "opciones": {
         "a": "Acelerar para dejarle pasar.",
         "b": "Detenerse inmediatamente en el carril por el que circula.",
-        "c": "Detener el vehículo en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias."
+        "c": "Detenerse a la derecha, delante del vehículo policial, donde no cree riesgos."
       },
       "correcta": "c",
       "explicacion": "Esa señal indica al conductor que le precede que debe detenerse en el lado derecho, delante del vehículo policial, en un lugar sin mayores riesgos o molestias y siguiendo las instrucciones por megafonía.",
@@ -4189,7 +4189,7 @@
       "opciones": {
         "a": "No, solo hay que obedecer a los agentes de la autoridad.",
         "b": "Solo si no hay semáforo provisional.",
-        "c": "Sí, los usuarios están obligados a seguir las indicaciones del personal que regula el paso de vehículos en las obras."
+        "c": "Sí."
       },
       "correcta": "c",
       "explicacion": "Los usuarios de la vía están obligados a seguir las indicaciones del personal destinado a la regulación del paso de vehículos en las obras.",
@@ -4256,7 +4256,7 @@
       "id": "B1-sen-0028",
       "tema": "senales",
       "subtema": "agentes",
-      "enunciado": "El personal de obras que regula el paso de vehículos debe usar prendas de colores llamativos y elementos retrorreflectantes que permitan distinguirlo a una distancia mínima de...",
+      "enunciado": "El personal de obras que regula el paso de vehículos debe llevar prendas llamativas y retrorreflectantes que permitan distinguirlo como mínimo a...",
       "opciones": {
         "a": "50 metros.",
         "b": "100 metros.",
@@ -4367,11 +4367,11 @@
       "id": "B1-sen-0031",
       "tema": "senales",
       "subtema": "balizamiento",
-      "enunciado": "¿Cuál es la finalidad de los paneles direccionales permanentes colocados en el exterior de una curva?",
+      "enunciado": "¿Para qué sirven los paneles direccionales permanentes colocados en el exterior de una curva?",
       "opciones": {
-        "a": "Indicar que está prohibido adelantar en toda la curva.",
-        "b": "Señalizar la proximidad de un paso a nivel.",
-        "c": "Marcar el trazado de la curva en relación con la reducción de velocidad necesaria y señalar el sentido de circulación."
+        "a": "Para indicar que está prohibido adelantar en toda la curva.",
+        "b": "Para señalizar la proximidad de un paso a nivel.",
+        "c": "Para marcar el trazado de la curva y el sentido de circulación."
       },
       "correcta": "c",
       "explicacion": "Los paneles direccionales permanentes marcan el trazado de una curva en relación con la reducción de velocidad necesaria para circular por ella con seguridad, además de indicar el sentido de circulación.",
@@ -4472,8 +4472,8 @@
       "enunciado": "¿Hasta cuándo rigen las modificaciones que la señalización circunstancial introduce respecto de la señalización vertical y horizontal habitual?",
       "opciones": {
         "a": "Hasta el final de la jornada.",
-        "b": "Hasta que lo establezca la propia señalización o cesen las causas que motivaron su imposición.",
-        "c": "Siempre durante un máximo de 24 horas."
+        "b": "Hasta que lo diga la propia señalización o cesen sus causas.",
+        "c": "Durante un máximo de 24 horas."
       },
       "correcta": "b",
       "explicacion": "Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual.",
@@ -4502,9 +4502,9 @@
       "subtema": "paso_a_nivel",
       "enunciado": "Llega a un paso a nivel cuya barrera se está levantando, pero todavía está en movimiento. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Pasar, ya que la barrera se está abriendo.",
+        "a": "Pasar, porque la barrera se está abriendo.",
         "b": "Pasar si no se ve ningún tren.",
-        "c": "No penetrar en el paso a nivel mientras la barrera esté en movimiento."
+        "c": "Esperar a que la barrera deje de moverse."
       },
       "correcta": "c",
       "explicacion": "Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas.",
@@ -4531,7 +4531,7 @@
       "id": "B1-sen-0036",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "Se enciende la luz amarilla fija de un semáforo cuando usted está tan cerca que no podría detenerse antes del semáforo con seguridad suficiente. ¿Qué debe hacer?",
+      "enunciado": "Se enciende la luz amarilla fija de un semáforo cuando está tan cerca que no podría detenerse con seguridad. ¿Qué debe hacer?",
       "opciones": {
         "a": "Continuar la marcha.",
         "b": "Frenar bruscamente para detenerse.",
@@ -4571,10 +4571,10 @@
       "id": "B1-sen-0037",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "¿Qué significa una luz amarilla fija (no intermitente) en un semáforo circular para vehículos?",
+      "enunciado": "¿Qué significa la luz amarilla fija de un semáforo circular para vehículos?",
       "opciones": {
         "a": "Que se puede pasar con precaución cediendo el paso.",
-        "b": "Que hay que detenerse en las mismas condiciones que ante la luz roja fija, salvo que no se pueda hacer con seguridad suficiente.",
+        "b": "Que hay que detenerse como ante la roja, salvo si no se puede con seguridad.",
         "c": "Que se puede pasar con prioridad."
       },
       "correcta": "b",
@@ -4731,7 +4731,7 @@
       "id": "B1-sen-0041",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "Un semáforo consistente en una franja blanca iluminada sobre fondo circular negro, sin que exista carril reservado, ¿a qué vehículos se refiere?",
+      "enunciado": "Un semáforo con una franja blanca iluminada sobre fondo circular negro, sin carril reservado, ¿a qué vehículos se refiere?",
       "opciones": {
         "a": "A los taxis.",
         "b": "A los tranvías y autobuses de líneas regulares.",
@@ -4774,7 +4774,7 @@
       "enunciado": "En un semáforo para tranvías y autobuses, ¿qué significa una franja blanca horizontal iluminada?",
       "opciones": {
         "a": "Que está permitido el paso de frente.",
-        "b": "Que prohíbe el paso en las mismas condiciones que la luz roja no intermitente.",
+        "b": "Que prohíbe el paso, como la luz roja fija.",
         "c": "Que se puede girar a la derecha."
       },
       "correcta": "b",
@@ -4893,7 +4893,7 @@
       "subtema": "semaforos",
       "enunciado": "Además de en los pasos a nivel, ¿dónde puede encontrar dos luces rojas alternativamente intermitentes que prohíben temporalmente el paso?",
       "opciones": {
-        "a": "En las proximidades de una salida de vehículos de extinción de incendios.",
+        "a": "Cerca de una salida de vehículos de extinción de incendios.",
         "b": "En la entrada de los aparcamientos públicos.",
         "c": "En los pasos para peatones."
       },
@@ -5002,11 +5002,11 @@
       "id": "B1-sen-0048",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "El semáforo tiene la luz roja circular encendida y, a la vez, una flecha verde iluminada hacia la derecha. ¿Puede girar a la derecha?",
+      "enunciado": "El semáforo tiene encendida la luz roja circular y, a la vez, una flecha verde hacia la derecha. ¿Puede girar a la derecha?",
       "opciones": {
-        "a": "Sí, pero con precaución, dejando pasar a los vehículos que circulen por el carril al que se incorpora y sin poner en peligro a quien esté cruzando la calzada.",
+        "a": "Sí, con precaución, cediendo el paso a vehículos y peatones.",
         "b": "No, la luz roja prevalece sobre la flecha verde.",
-        "c": "Sí, y con prioridad absoluta sobre peatones y otros vehículos."
+        "c": "Sí, con prioridad sobre peatones y otros vehículos."
       },
       "correcta": "a",
       "explicacion": "La flecha verde permite tomar la dirección indicada cualquiera que sea la otra luz encendida, pero con precaución, dejando pasar a quienes circulan por el carril al que se incorpora y sin poner en peligro a quien cruza.",
@@ -5042,11 +5042,11 @@
       "id": "B1-sen-0049",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "Está detenido ante un semáforo en rojo, en un carril reservado exclusivamente para girar a la derecha, aunque usted quería seguir de frente. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?",
+      "enunciado": "Está detenido ante un semáforo en rojo, en un carril solo para girar a la derecha, aunque quería seguir de frente. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?",
       "opciones": {
         "a": "Esperar en el carril hasta que se ponga verde la luz circular, aunque haya vehículos detrás.",
         "b": "Seguir de frente, porque la flecha verde le da paso.",
-        "c": "Avanzar en la dirección y sentido indicados por la flecha."
+        "c": "Avanzar en el sentido que indica la flecha."
       },
       "correcta": "c",
       "explicacion": "Cualquier vehículo que, al encenderse la flecha verde, se encuentre en un carril reservado exclusivamente para la dirección indicada por ella deberá avanzar en esa dirección y sentido.",
@@ -5082,9 +5082,9 @@
       "id": "B1-sen-0050",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "Un semáforo de carril (cuadrado) sobre su carril muestra un aspa roja. ¿Qué significa?",
+      "enunciado": "Un semáforo de carril muestra sobre su carril un aspa roja. ¿Qué significa?",
       "opciones": {
-        "a": "Prohibición de ocupar ese carril; si circula por él, debe abandonarlo en el tiempo más breve posible.",
+        "a": "Que no se puede ocupar ese carril y, si circula por él, debe dejarlo cuanto antes.",
         "b": "Que debe detenerse en ese carril hasta que se encienda la flecha verde.",
         "c": "Que el carril está reservado a vehículos prioritarios."
       },
@@ -5122,9 +5122,9 @@
       "id": "B1-sen-0051",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "Circula por un carril con un semáforo de carril que muestra una flecha verde apuntando hacia abajo. Más adelante, un semáforo circular está en rojo. ¿Qué debe hacer?",
+      "enunciado": "Sobre su carril, un semáforo de carril muestra una flecha verde hacia abajo. Más adelante, un semáforo circular está en rojo. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Detenerse ante el semáforo circular en rojo.",
+        "a": "Detenerse ante el semáforo en rojo.",
         "b": "Seguir, porque la flecha verde le da prioridad.",
         "c": "Seguir con precaución, porque el semáforo de carril prevalece."
       },
@@ -5162,10 +5162,10 @@
       "id": "B1-sen-0052",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "Un semáforo de carril muestra una flecha amarilla o blanca oblicua apuntando hacia abajo. ¿Qué indica?",
+      "enunciado": "Un semáforo de carril muestra una flecha amarilla o blanca oblicua hacia abajo. ¿Qué indica?",
       "opciones": {
         "a": "Que el carril está abierto con prioridad.",
-        "b": "Que debe irse incorporando con seguridad al carril hacia el que apunta la flecha, porque el suyo va a quedar cerrado en corto espacio.",
+        "b": "Que debe pasarse al carril al que apunta la flecha, porque el suyo se cierra.",
         "c": "Que debe detenerse inmediatamente."
       },
       "correcta": "b",
@@ -5268,7 +5268,7 @@
       "opciones": {
         "a": "La velocidad máxima recomendada.",
         "b": "La anchura de la calzada.",
-        "c": "La distancia entre la señal y el principio del tramo peligroso."
+        "c": "La distancia hasta el comienzo del peligro."
       },
       "correcta": "c",
       "explicacion": "Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro.",
@@ -5295,11 +5295,11 @@
       "id": "B1-sen-0057",
       "tema": "senales",
       "subtema": "senales_verticales",
-      "enunciado": "En un tramo con obras encuentra una señal de peligro con fondo amarillo en lugar de blanco. ¿Por qué tiene ese color?",
+      "enunciado": "En un tramo de obras encuentra una señal de peligro con fondo amarillo en lugar de blanco. ¿Por qué tiene ese color?",
       "opciones": {
         "a": "Porque el peligro es más grave de lo habitual.",
-        "b": "Porque en los tramos con obras o tareas de conservación las señales de peligro que normalmente tienen fondo blanco llevan fondo amarillo.",
-        "c": "Porque es una señal meramente informativa que no hay que cumplir."
+        "b": "Porque es la señal de peligro propia de las obras.",
+        "c": "Porque es una señal informativa que no hay que cumplir."
       },
       "correcta": "b",
       "explicacion": "En tramos con obras o tareas de conservación, las señales de peligro y de reglamentación cuyo fondo convencional es blanco tienen fondo amarillo.",
@@ -5335,7 +5335,7 @@
       "id": "B1-sen-0058",
       "tema": "senales",
       "subtema": "senales_verticales",
-      "enunciado": "Cuando la señalización circunstancial se debe a causas distintas de las obras (por ejemplo, un accidente), ¿de qué color es el fondo de las señales que en su versión convencional lo tienen blanco?",
+      "enunciado": "Cuando la señalización circunstancial no se debe a obras, sino, por ejemplo, a un accidente, ¿de qué color es el fondo de las señales que normalmente lo tienen blanco?",
       "opciones": {
         "a": "Naranja.",
         "b": "Amarillo.",
@@ -5366,11 +5366,11 @@
       "id": "B1-pri-0059",
       "tema": "prioridad",
       "subtema": "senales_prioridad",
-      "enunciado": "Se aproxima a una intersección señalizada con la señal de advertencia de 'intersección con prioridad'. ¿Quién tiene prioridad de paso?",
+      "enunciado": "Se aproxima a una intersección con esta señal. ¿Quién tiene prioridad de paso?",
       "opciones": {
         "a": "Los vehículos que se aproximen por la derecha.",
         "b": "El primero que llegue a la intersección.",
-        "c": "Usted, sobre los vehículos que circulen por la otra vía o procedan de ella."
+        "c": "Usted."
       },
       "correcta": "c",
       "explicacion": "Los conductores que se aproximen a una intersección señalizada con señal de intersección con prioridad tienen prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella.",
@@ -5446,10 +5446,10 @@
       "id": "B1-pri-0061",
       "tema": "prioridad",
       "subtema": "senales_prioridad",
-      "enunciado": "Llega a una intersección con señal de ceda el paso. ¿A quién debe ceder el paso?",
+      "enunciado": "Al llegar a una intersección con esta señal, ¿a quién debe ceder el paso?",
       "opciones": {
-        "a": "Solo a los vehículos que se aproximen por la derecha.",
-        "b": "A los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen.",
+        "a": "Solo a los vehículos que se aproximen por la vía preferente desde su derecha.",
+        "b": "A los vehículos que circulen por la vía preferente, se aproximen por donde se aproximen.",
         "c": "Solo a los vehículos pesados."
       },
       "correcta": "b",
@@ -5490,7 +5490,7 @@
       "opciones": {
         "a": "Sí, siempre.",
         "b": "Solo si es de noche.",
-        "c": "No; solo debe detenerse cuando sea preciso para ceder el paso."
+        "c": "No, solo si es preciso para ceder el paso."
       },
       "correcta": "c",
       "explicacion": "Ante ceda el paso hay que detener la marcha cuando sea preciso; la detención en todo caso solo es obligatoria cuando así lo indique la señal (STOP).",
@@ -5646,7 +5646,7 @@
       "id": "B1-pri-0066",
       "tema": "prioridad",
       "subtema": "interseccion_sin_senalizar",
-      "enunciado": "Llega a una intersección donde no hay ninguna señal que regule la preferencia de paso (ni semáforo, ni agente, ni ceda el paso, ni STOP). Como norma general, ¿a quién debe ceder el paso?",
+      "enunciado": "Llega a una intersección sin ninguna señal, semáforo ni agente que regule la preferencia. Como norma general, ¿a quién debe ceder el paso?",
       "opciones": {
         "a": "A los vehículos que se aproximen por su izquierda.",
         "b": "Al vehículo de mayor tamaño.",
@@ -5708,9 +5708,9 @@
       "id": "B1-pri-0068",
       "tema": "prioridad",
       "subtema": "paso_a_nivel",
-      "enunciado": "¿Qué indica la marca vial de paso a nivel (M-7.5) pintada en la calzada?",
+      "enunciado": "¿Qué indica esta marca vial pintada en la calzada?",
       "opciones": {
-        "a": "La proximidad de un paso a nivel en el que los vehículos de la calzada deben ceder el paso cuando se aproxime un tren o tranvía.",
+        "a": "La proximidad de un paso a nivel, donde se cede el paso al tren o tranvía.",
         "b": "Una zona de parada para el transporte público.",
         "c": "Un aparcamiento reservado."
       },
@@ -5748,9 +5748,9 @@
       "id": "B1-pri-0069",
       "tema": "prioridad",
       "subtema": "prioridad_animales",
-      "enunciado": "Ve la señal de peligro 'paso de animales domésticos' con un panel complementario que dice 'cañada'. Si hay ganado cruzando, ¿quién tiene prioridad?",
+      "enunciado": "Ve esta señal con un panel complementario que dice «cañada». Si hay ganado cruzando, ¿quién tiene prioridad?",
       "opciones": {
-        "a": "Los animales, porque se trata de una cañada debidamente señalizada.",
+        "a": "Los animales.",
         "b": "Usted, porque los conductores siempre tienen prioridad sobre los animales.",
         "c": "El que llegue primero."
       },
@@ -5788,10 +5788,10 @@
       "id": "B1-pri-0070",
       "tema": "prioridad",
       "subtema": "prioridad_animales",
-      "enunciado": "Encuentra la señal de peligro 'paso de animales domésticos' sin ningún panel complementario. Como norma general, ¿quién tiene prioridad de paso?",
+      "enunciado": "Encuentra esta señal sin ningún panel complementario. Como norma general, ¿quién tiene prioridad de paso?",
       "opciones": {
         "a": "Los animales, en todo caso.",
-        "b": "Los conductores, salvo en los supuestos que establece el Reglamento (cañadas señalizadas, giros con animales cruzando, cruce de arcén por el que circulan animales sin cañada).",
+        "b": "Los conductores, salvo en los casos que fija la norma, como las cañadas señalizadas.",
         "c": "Nadie; se aplica la regla de la derecha."
       },
       "correcta": "b",
@@ -5868,9 +5868,9 @@
       "id": "B1-pri-0072",
       "tema": "prioridad",
       "subtema": "estrechamientos",
-      "enunciado": "Ha entrado en un puente estrecho, donde no pueden cruzarse dos vehículos, por el extremo en el que hay colocada una señal de prioridad en sentido contrario. Si se encuentra con otro vehículo dentro del puente, ¿quién debe retroceder?",
+      "enunciado": "Ha entrado en un puente estrecho, donde no caben dos vehículos, por el extremo en el que está esta señal. Si se encuentra con otro vehículo dentro, ¿quién debe retroceder?",
       "opciones": {
-        "a": "El que haya llegado por el extremo donde está la señal de prioridad en sentido contrario, es decir, usted.",
+        "a": "Usted.",
         "b": "El vehículo de menor tamaño.",
         "c": "El que venga en sentido contrario."
       },
@@ -5908,11 +5908,11 @@
       "id": "B1-sen-0073",
       "tema": "senales",
       "subtema": "senales_verticales",
-      "enunciado": "Una prohibición de entrada se refiere a los 'vehículos de motor'. ¿Afecta a los ciclomotores?",
+      "enunciado": "Una prohibición de entrada se refiere a los vehículos de motor. ¿Afecta a los ciclomotores?",
       "opciones": {
         "a": "Sí, porque el ciclomotor tiene motor.",
         "b": "Solo a los ciclomotores de tres ruedas.",
-        "c": "No, porque los ciclomotores están excluidos de la definición de vehículo de motor."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
@@ -6021,8 +6021,8 @@
       "subtema": "senales_peligro",
       "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "La proximidad de una glorieta con circulación en el sentido indicado por las flechas.",
-        "b": "Obligación de dar la vuelta completa a la glorieta.",
+        "a": "La proximidad de una glorieta.",
+        "b": "La obligación de dar la vuelta completa a la glorieta.",
         "c": "La proximidad de un tramo con curvas sucesivas."
       },
       "correcta": "a",
@@ -6062,7 +6062,7 @@
       "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Que hay un aparcamiento de tranvías.",
-        "b": "La proximidad de un cruce con una línea de tranvía, que tiene prioridad de paso.",
+        "b": "Que se acerca un cruce con una línea de tranvía, que tiene prioridad.",
         "c": "Que usted tiene prioridad sobre el tranvía."
       },
       "correcta": "b",
@@ -6099,11 +6099,11 @@
       "id": "B1-sen-0078",
       "tema": "senales",
       "subtema": "senales_peligro",
-      "enunciado": "¿Qué indica esta señal con el dibujo de una valla?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Paso a nivel sin barreras.",
+        "a": "Un paso a nivel sin barreras.",
         "b": "Obras en la vía.",
-        "c": "La proximidad de un paso a nivel provisto de barreras o semibarreras."
+        "c": "Un paso a nivel con barreras o semibarreras."
       },
       "correcta": "c",
       "explicacion": "La P-7 («Paso a nivel con barreras») advierte de la proximidad de un paso a nivel provisto de barreras o semibarreras.",
@@ -6139,10 +6139,10 @@
       "id": "B1-sen-0079",
       "tema": "senales",
       "subtema": "senales_peligro",
-      "enunciado": "¿Qué indica esta señal con el dibujo de un tren visto de frente?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "La proximidad de un paso a nivel no provisto de barreras o semibarreras.",
-        "b": "La proximidad de un paso a nivel con barreras.",
+        "a": "Un paso a nivel sin barreras ni semibarreras.",
+        "b": "Un paso a nivel con barreras.",
         "c": "Una estación de ferrocarril próxima."
       },
       "correcta": "a",
@@ -6179,7 +6179,7 @@
       "id": "B1-sen-0080",
       "tema": "senales",
       "subtema": "paso_a_nivel",
-      "enunciado": "¿Qué indica esta señal con forma de aspa (cruz de San Andrés) de borde rojo?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Un paso a nivel con barreras.",
         "b": "La presencia inmediata de un paso a nivel sin barreras.",
@@ -6259,11 +6259,11 @@
       "id": "B1-sen-0082",
       "tema": "senales",
       "subtema": "senales_peligro",
-      "enunciado": "¿De qué advierte esta señal con la silueta de un avión?",
+      "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
         "a": "De una zona en la que está prohibido circular.",
         "b": "De un puesto de control aduanero.",
-        "c": "De un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía, que pueden originar ruidos imprevistos."
+        "c": "De aeronaves volando a baja altura sobre la vía."
       },
       "correcta": "c",
       "explicacion": "La P-12 («Aeropuerto») advierte de la proximidad de un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía y que pueden originar ruidos imprevistos.",
@@ -6462,8 +6462,8 @@
       "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
         "a": "De un paso para peatones regulado por semáforo.",
-        "b": "De la proximidad de un lugar frecuentado por niños, como una escuela o una zona de juegos.",
-        "c": "De una zona peatonal en la que no pueden entrar vehículos."
+        "b": "De un lugar frecuentado por niños, como una escuela.",
+        "c": "De una zona peatonal sin acceso para vehículos."
       },
       "correcta": "b",
       "explicacion": "La P-21a («Niños») advierte de la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc.",
@@ -6499,9 +6499,9 @@
       "id": "B1-sen-0088",
       "tema": "senales",
       "subtema": "senales_peligro",
-      "enunciado": "¿De qué advierte esta señal con un ciervo?",
+      "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
-        "a": "De un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad.",
+        "a": "De animales en libertad que pueden cruzar la vía.",
         "b": "De una cañada con prioridad para los animales.",
         "c": "De un coto de caza en el que está prohibido parar."
       },
@@ -6539,10 +6539,10 @@
       "id": "B1-sen-0089",
       "tema": "senales",
       "subtema": "senales_peligro",
-      "enunciado": "¿Qué indica esta señal con dos flechas de sentidos opuestos?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Calzada de sentido único.",
-        "b": "La proximidad de un tramo con circulación en ambos sentidos.",
+        "b": "Un tramo con circulación en ambos sentidos.",
         "c": "Carril reversible."
       },
       "correcta": "b",
@@ -6619,11 +6619,11 @@
       "id": "B1-sen-0091",
       "tema": "senales",
       "subtema": "senales_peligro",
-      "enunciado": "¿De qué advierte esta señal con un vehículo cayendo al agua?",
+      "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
         "a": "De un puente móvil.",
         "b": "De una zona inundable en caso de lluvia.",
-        "c": "De que la vía desemboca en un muelle o en una corriente de agua."
+        "c": "De que la vía desemboca en un muelle o en un río."
       },
       "correcta": "c",
       "explicacion": "La P-27 («Muelle») advierte de que la vía desemboca en un muelle o en una corriente de agua; el puente móvil es la P-5.",
@@ -6699,7 +6699,7 @@
       "id": "B1-sen-0093",
       "tema": "senales",
       "subtema": "senales_peligro",
-      "enunciado": "¿Qué elemento complementa la advertencia de la señal P-29 (viento lateral), informando sobre la existencia, sentido e intensidad del viento?",
+      "enunciado": "¿Qué elemento complementa esta señal informando de la existencia, sentido e intensidad del viento?",
       "opciones": {
         "a": "Un panel de mensaje variable.",
         "b": "Una baliza luminosa ámbar.",
@@ -6741,7 +6741,7 @@
       "subtema": "senales_peligro",
       "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
-        "a": "De un desnivel a lo largo de la vía en el lado que indique el símbolo (escalón lateral).",
+        "a": "De un escalón lateral a lo largo de la vía.",
         "b": "De un resalte transversal en la calzada.",
         "c": "De una subida con fuerte pendiente."
       },
@@ -6782,7 +6782,7 @@
       "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
         "a": "De una zona de aparcamiento.",
-        "b": "De un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico.",
+        "b": "De un tramo donde suele haber retenciones.",
         "c": "De un tramo con prohibición de adelantar."
       },
       "correcta": "b",
@@ -6822,7 +6822,7 @@
       "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
         "a": "De un control policial.",
-        "b": "De un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas.",
+        "b": "De vehículos que obstruyen la calzada por avería, accidente u otras causas.",
         "c": "De un tramo con circulación prohibida."
       },
       "correcta": "b",
@@ -6861,9 +6861,9 @@
       "subtema": "senales_peligro",
       "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
-        "a": "De un tramo en el que frecuentemente hay una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc.",
+        "a": "De un tramo donde suele haber poca visibilidad por niebla, lluvia, nieve o humo.",
         "b": "De la proximidad de un túnel.",
-        "c": "De que es obligatorio encender las luces de largo alcance."
+        "c": "De la obligación de encender las luces de largo alcance."
       },
       "correcta": "a",
       "explicacion": "La P-33 («Visibilidad reducida») advierte de un tramo en el que frecuentemente la circulación se ve dificultada por una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc.",
@@ -6899,11 +6899,11 @@
       "id": "B1-sen-0098",
       "tema": "senales",
       "subtema": "senales_peligro",
-      "enunciado": "¿De qué advierte esta señal con un copo de nieve?",
+      "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
         "a": "De la obligación de usar cadenas.",
         "b": "De una estación de esquí.",
-        "c": "De un tramo en el que frecuentemente, durante la época invernal, hay presencia de hielo o nieve."
+        "c": "De un tramo donde en invierno suele haber hielo o nieve."
       },
       "correcta": "c",
       "explicacion": "La P-34 («Presencia de hielo o nieve») advierte de un tramo en el que frecuentemente, durante la época invernal, hay hielo o nieve; la obligación de cadenas es una señal de obligación distinta (R-412).",
@@ -6979,10 +6979,10 @@
       "id": "B1-sen-0100",
       "tema": "senales",
       "subtema": "senales_prioridad",
-      "enunciado": "¿Qué indica esta señal (rombo blanco con el centro amarillo cruzado por una franja negra)?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Calzada con prioridad.",
-        "b": "La proximidad del lugar en que la calzada por la que circula pierde su prioridad respecto a otra calzada.",
+        "b": "Que la calzada por la que circula va a perder la prioridad.",
         "c": "Prohibido el paso de vehículos sin prioridad."
       },
       "correcta": "b",
@@ -7019,11 +7019,11 @@
       "id": "B1-sen-0101",
       "tema": "senales",
       "subtema": "senales_prioridad",
-      "enunciado": "Ante un paso estrecho encuentra esta señal (flecha roja y flecha negra). ¿Qué indica?",
+      "enunciado": "Ante un paso estrecho encuentra esta señal. ¿Qué indica?",
       "opciones": {
         "a": "Que tiene prioridad sobre los vehículos que vienen de frente.",
         "b": "Que el paso es de sentido único.",
-        "c": "Que no puede entrar en el paso estrecho mientras no sea posible atravesarlo sin obligar a detenerse a los que vienen en sentido contrario."
+        "c": "Que no debe entrar si obliga a detenerse a los que vienen de frente."
       },
       "correcta": "c",
       "explicacion": "La R-5 («Prioridad del sentido contrario») prohíbe entrar en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse.",
@@ -7059,11 +7059,11 @@
       "id": "B1-sen-0102",
       "tema": "senales",
       "subtema": "senales_prioridad",
-      "enunciado": "Ante un paso estrecho encuentra esta señal cuadrada azul. ¿Qué indica?",
+      "enunciado": "Ante un paso estrecho encuentra esta señal. ¿Qué indica?",
       "opciones": {
         "a": "Que debe ceder el paso a los que vienen de frente.",
         "b": "Que es obligatorio detenerse antes del paso.",
-        "c": "Que en el próximo paso estrecho tiene prioridad con relación a los vehículos que circulen en sentido contrario."
+        "c": "Que tiene prioridad sobre los que vienen de frente."
       },
       "correcta": "c",
       "explicacion": "La R-6 («Prioridad respecto al sentido contrario») indica que, en un próximo paso estrecho, usted tiene prioridad con relación a los vehículos que circulen en sentido contrario.",
@@ -7099,11 +7099,11 @@
       "id": "B1-sen-0103",
       "tema": "senales",
       "subtema": "prohibicion_entrada",
-      "enunciado": "¿Qué indica esta señal (círculo blanco con orla roja, sin símbolo)?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Entrada prohibida solo a vehículos de motor.",
         "b": "Fin de todas las prohibiciones.",
-        "c": "Prohibición de circulación de toda clase de vehículos en ambos sentidos."
+        "c": "Circulación prohibida a todos los vehículos en ambos sentidos."
       },
       "correcta": "c",
       "explicacion": "La R-100 («Circulación prohibida») prohíbe la circulación de toda clase de vehículos en ambos sentidos.",
@@ -7139,11 +7139,11 @@
       "id": "B1-sen-0104",
       "tema": "senales",
       "subtema": "prohibicion_entrada",
-      "enunciado": "¿Qué indica esta señal (círculo rojo con una franja horizontal blanca)?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Prohibición de circulación de toda clase de vehículos en ambos sentidos.",
-        "b": "Prohibición de acceso a toda clase de vehículos.",
-        "c": "Prohibición de acceso solo a vehículos de motor."
+        "a": "Circulación prohibida a todos los vehículos en ambos sentidos.",
+        "b": "Entrada prohibida a todos los vehículos.",
+        "c": "Entrada prohibida solo a vehículos de motor."
       },
       "correcta": "b",
       "explicacion": "La R-101 («Entrada prohibida») prohíbe el acceso a toda clase de vehículos. La prohibición de circular en ambos sentidos es la R-100 y la de acceso a vehículos de motor, la R-102.",
@@ -7221,7 +7221,7 @@
       "subtema": "prohibicion_entrada",
       "enunciado": "¿Puede entrar con una motocicleta de dos ruedas ante esta señal?",
       "opciones": {
-        "a": "Sí: prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas.",
+        "a": "Sí.",
         "b": "No, prohíbe la entrada a todos los vehículos de motor.",
         "c": "No, prohíbe solo la entrada de motocicletas."
       },
@@ -7299,9 +7299,9 @@
       "id": "B1-sen-0108",
       "tema": "senales",
       "subtema": "prohibicion_entrada",
-      "enunciado": "¿A quién prohíbe la entrada esta señal con la silueta de un camión, sin ninguna cifra?",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?",
       "opciones": {
-        "a": "A los vehículos destinados al transporte de mercancías (camiones, tractocamiones y furgones o furgonetas), independientemente de su masa.",
+        "a": "A los vehículos destinados al transporte de mercancías, sea cual sea su masa.",
         "b": "Solo a los camiones de más de 3.500 kg.",
         "c": "A todos los vehículos de motor."
       },
@@ -7339,10 +7339,10 @@
       "id": "B1-sen-0109",
       "tema": "senales",
       "subtema": "prohibicion_entrada",
-      "enunciado": "Conduce un camión cuya masa máxima autorizada es 7,5 t; va vacío y pesa 4,5 t. Encuentra esta señal (camión con la cifra 5,5 t). ¿Puede entrar?",
+      "enunciado": "Conduce un camión de 7,5 t de masa máxima autorizada que va vacío y pesa 4,5 t. ¿Puede entrar ante esta señal de 5,5 t?",
       "opciones": {
         "a": "Sí, porque en ese momento pesa menos de 5,5 t.",
-        "b": "No, porque su masa máxima autorizada es superior a 5,5 t, aunque vaya vacío.",
+        "b": "No.",
         "c": "Sí, porque la señal solo afecta a vehículos cargados."
       },
       "correcta": "b",
@@ -7381,9 +7381,9 @@
       "subtema": "prohibicion_entrada",
       "enunciado": "¿A quién prohíbe la entrada esta señal?",
       "opciones": {
-        "a": "A los vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica.",
+        "a": "A los vehículos que transportan mercancías explosivas o inflamables y deben ir señalizados.",
         "b": "A todos los vehículos con motor de combustión.",
-        "c": "A los vehículos que transporten productos que pueden contaminar el agua."
+        "c": "A los vehículos que transportan productos que pueden contaminar el agua."
       },
       "correcta": "a",
       "explicacion": "La R-109 prohíbe el acceso a toda clase de vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica. La de productos contaminantes del agua es la R-110.",
@@ -7422,7 +7422,7 @@
       "enunciado": "¿A quién prohíbe la entrada esta señal?",
       "opciones": {
         "a": "A cualquier vehículo que transporte líquidos.",
-        "b": "A los vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua.",
+        "b": "A los que transportan más de 1.000 litros de productos que pueden contaminar el agua.",
         "c": "A los vehículos cisterna de más de 3.500 kg."
       },
       "correcta": "b",
@@ -7502,7 +7502,7 @@
       "enunciado": "Conduce un turismo que arrastra un remolque de un solo eje y encuentra esta señal. ¿Puede entrar?",
       "opciones": {
         "a": "No, la señal prohíbe la entrada a todos los vehículos con remolque.",
-        "b": "Sí, porque la señal exceptúa los remolques de un solo eje.",
+        "b": "Sí.",
         "c": "Solo si el remolque no supera 750 kg."
       },
       "correcta": "b",
@@ -7659,11 +7659,11 @@
       "id": "B1-sen-0117",
       "tema": "senales",
       "subtema": "restriccion_paso",
-      "enunciado": "Conduce un turismo con remolque y el conjunto mide 11 metros de largo. Encuentra esta señal con la cifra 10 m. ¿Puede pasar?",
+      "enunciado": "Conduce un turismo con remolque y el conjunto mide 11 metros. Ante esta señal con la cifra 10 m, ¿puede pasar?",
       "opciones": {
         "a": "Sí, porque la señal solo afecta a los camiones.",
-        "b": "Sí, porque el turismo por sí solo mide menos de 10 m.",
-        "c": "No, porque prohíbe el paso a los vehículos o conjuntos de vehículos de longitud superior a la indicada."
+        "b": "Sí, porque el turismo, sin el remolque, mide menos de 10 metros.",
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La R-203 prohíbe el paso a los vehículos o conjunto de vehículos cuya longitud máxima, incluida la carga, supere la indicada.",
@@ -7739,10 +7739,10 @@
       "id": "B1-sen-0119",
       "tema": "senales",
       "subtema": "prohibiciones",
-      "enunciado": "¿Qué indica esta señal con dos vehículos y la cifra 70 m?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Velocidad máxima de 70 km/h.",
-        "b": "Prohibición de circular a menos de 70 m del vehículo precedente, excepto cuando se vaya a adelantar.",
+        "b": "Prohibido circular a menos de 70 m del vehículo de delante, salvo para adelantar.",
         "c": "Prohibido adelantar en los próximos 70 metros."
       },
       "correcta": "b",
@@ -7779,9 +7779,9 @@
       "id": "B1-sen-0120",
       "tema": "senales",
       "subtema": "prohibiciones",
-      "enunciado": "Circula por una vía con prioridad y encuentra esta señal, sola en su poste (sin ninguna señal de peligro). ¿Hasta dónde obliga?",
+      "enunciado": "Circula por una vía con prioridad y encuentra esta señal sola en su poste. ¿Hasta dónde obliga?",
       "opciones": {
-        "a": "Hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima.",
+        "a": "Hasta la próxima señal de fin de limitación o de otra velocidad máxima.",
         "b": "Durante los 500 metros siguientes.",
         "c": "Hasta la siguiente intersección."
       },
@@ -7823,7 +7823,7 @@
       "opciones": {
         "a": "Sí, porque solo prohíbe el giro.",
         "b": "Sí, si no viene nadie de frente.",
-        "c": "No, porque la señal incluye también la prohibición del cambio de sentido de marcha."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La R-303 («Giro a la izquierda prohibido») prohíbe girar a la izquierda e incluye también la prohibición del cambio de sentido de marcha.",
@@ -7859,10 +7859,10 @@
       "id": "B1-sen-0122",
       "tema": "senales",
       "subtema": "prohibiciones",
-      "enunciado": "¿Qué prohíbe esta señal (flecha en U tachada)?",
+      "enunciado": "¿Qué prohíbe esta señal?",
       "opciones": {
         "a": "Girar a la izquierda y cambiar de sentido.",
-        "b": "Efectuar la maniobra de cambio de sentido de la marcha.",
+        "b": "Cambiar de sentido de la marcha.",
         "c": "Dar marcha atrás."
       },
       "correcta": "b",
@@ -7901,9 +7901,9 @@
       "subtema": "prohibiciones",
       "enunciado": "¿Qué prohíbe esta señal?",
       "opciones": {
-        "a": "Adelantar a cualquier usuario, incluidos peatones y animales, en todo caso.",
-        "b": "Solo que los camiones adelanten a otros vehículos.",
-        "c": "Adelantar a los vehículos a motor cuando la maniobra implique invadir la zona reservada al sentido contrario de circulación."
+        "a": "Adelantar a cualquier usuario, incluidos peatones y animales.",
+        "b": "Solo que los camiones adelanten.",
+        "c": "Adelantar a vehículos de motor invadiendo el sentido contrario."
       },
       "correcta": "c",
       "explicacion": "La R-305 («Adelantamiento prohibido») prohíbe a todos los vehículos adelantar a los vehículos a motor que circulen por la calzada cuando la maniobra implique invadir la zona reservada al sentido contrario; rige hasta la señal de «Fin de prohibición de adelantamiento» o «Fin de prohibiciones». La de camiones es la R-306.",
@@ -7939,11 +7939,11 @@
       "id": "B1-sen-0124",
       "tema": "senales",
       "subtema": "prohibiciones",
-      "enunciado": "Conduce un autobús y encuentra esta señal (camión rojo y turismo negro). ¿Le afecta la prohibición de esta señal?",
+      "enunciado": "Conduce un autobús y encuentra esta señal. ¿Le afecta la prohibición?",
       "opciones": {
         "a": "Sí, porque prohíbe adelantar a todos los vehículos pesados.",
         "b": "Sí, porque prohíbe adelantar a los camiones.",
-        "c": "No, porque se dirige a los camiones cuya masa máxima autorizada exceda de 3.500 kg."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg (incluso sin invadir el sentido contrario); no se dirige a los autobuses, que siguen sujetos a las normas generales de adelantamiento.",
@@ -7979,10 +7979,10 @@
       "id": "B1-sen-0125",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "Encuentra esta señal (círculo azul con flecha blanca hacia delante) a la entrada de una intersección. ¿Puede girar a la derecha en ella?",
+      "enunciado": "Encuentra esta señal a la entrada de una intersección. ¿Puede girar a la derecha?",
       "opciones": {
         "a": "Sí, porque es una señal de obligación, no de prohibición.",
-        "b": "No, porque la flecha señala la dirección y sentido que está obligado a seguir: recto.",
+        "b": "No.",
         "c": "Sí, si señaliza con antelación."
       },
       "correcta": "b",
@@ -8019,11 +8019,11 @@
       "id": "B1-sen-0126",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "¿Qué indica esta señal (círculo azul con flechas blancas hacia delante y hacia la derecha)?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Que las únicas direcciones y sentidos permitidos son seguir recto o girar a la derecha.",
-        "b": "Recomendación de girar a la derecha.",
-        "c": "Que puede elegir cualquier dirección, incluido el cambio de sentido."
+        "a": "Que solo se puede seguir recto o girar a la derecha.",
+        "b": "Que se recomienda girar a la derecha.",
+        "c": "Que se puede tomar cualquier dirección, incluido el cambio de sentido."
       },
       "correcta": "a",
       "explicacion": "En la R-403a («Únicas direcciones y sentidos permitidos») las flechas señalan las únicas direcciones y sentidos que los vehículos pueden tomar: recto o a la derecha.",
@@ -8059,10 +8059,10 @@
       "id": "B1-sen-0127",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "Esta señal azul con la silueta de un turismo indica una calzada obligatoria para automóviles. ¿Están obligadas a circular por ella las motocicletas de dos ruedas?",
+      "enunciado": "Esta señal indica una calzada obligatoria para automóviles. ¿Están obligadas a circular por ella las motocicletas de dos ruedas?",
       "opciones": {
         "a": "Sí, porque son automóviles.",
-        "b": "No, la obligación exceptúa a las motocicletas de dos ruedas y a los vehículos de tres ruedas asimilados a motocicletas.",
+        "b": "No.",
         "c": "Solo las de más de 125 cm³."
       },
       "correcta": "b",
@@ -8099,11 +8099,11 @@
       "id": "B1-sen-0128",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "Circula en una motocicleta de dos ruedas y encuentra esta señal azul con una motocicleta. ¿Qué debe hacer?",
+      "enunciado": "Conduce una motocicleta de dos ruedas y encuentra esta señal. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Puede elegir si circula o no por esa calzada.",
+        "a": "Elegir si circula o no por esa calzada.",
         "b": "No entrar, porque está reservada a otros vehículos.",
-        "c": "Circular por esa calzada, porque es obligatoria para las motocicletas de dos ruedas."
+        "c": "Circular por esa calzada."
       },
       "correcta": "c",
       "explicacion": "La R-405 obliga a los conductores de motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas a circular por la calzada a cuya entrada está situada.",
@@ -8139,11 +8139,11 @@
       "id": "B1-sen-0129",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "¿Puede circular un turismo por una vía señalizada con esta señal azul con una bicicleta?",
+      "enunciado": "¿Puede circular un turismo por una vía señalizada con esta señal?",
       "opciones": {
         "a": "Sí, si circula despacio.",
-        "b": "Sí, porque solo obliga a los ciclos sin excluir a los demás.",
-        "c": "No, porque es una vía reservada a los ciclos y prohibida a los demás usuarios."
+        "b": "Sí, porque solo obliga a los ciclos, sin excluir a los demás.",
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La R-407a («Vía reservada y obligatoria para ciclos») obliga a los conductores de ciclos a circular por esa vía y prohíbe a los demás usuarios utilizarla.",
@@ -8219,10 +8219,10 @@
       "id": "B1-sen-0131",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "¿Qué indica esta señal azul con un carro tirado por un caballo?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Prohibida la entrada a vehículos de tracción animal.",
-        "b": "Obligación para los conductores de vehículos de tracción animal de utilizar el camino a cuya entrada está situada.",
+        "b": "Camino obligatorio para vehículos de tracción animal.",
         "c": "Camino reservado a jinetes con animales de montura."
       },
       "correcta": "b",
@@ -8259,9 +8259,9 @@
       "id": "B1-sen-0132",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "¿Qué indica esta señal azul con una persona a caballo?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Camino reservado y obligatorio para animales de montura; los demás usuarios no pueden utilizarlo.",
+        "a": "Camino reservado y obligatorio para animales de montura.",
         "b": "Prohibida la entrada a animales de montura.",
         "c": "Peligro por animales sueltos."
       },
@@ -8339,11 +8339,11 @@
       "id": "B1-sen-0134",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "¿Qué indica esta señal azul con la cifra 40?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Velocidad máxima de 40 km/h.",
         "b": "Velocidad recomendada de 40 km/h.",
-        "c": "Velocidad mínima: obligación de circular, por lo menos, a 40 km/h."
+        "c": "Velocidad mínima de 40 km/h."
       },
       "correcta": "c",
       "explicacion": "La R-411 («Velocidad mínima») obliga a circular, por lo menos, a la velocidad indicada en kilómetros por hora.",
@@ -8379,9 +8379,9 @@
       "id": "B1-sen-0135",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "¿Qué indica esta señal azul con un faro?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Obligación de circular con el alumbrado al menos de corto alcance, con independencia de la visibilidad, hasta una señal de fin de esta obligación.",
+        "a": "Obligación de llevar encendida al menos la luz de cruce, haya o no visibilidad.",
         "b": "Obligación de encender las luces de largo alcance.",
         "c": "Recomendación de encender las luces solo en caso de niebla."
       },
@@ -8419,10 +8419,10 @@
       "id": "B1-sen-0136",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "¿Qué indica esta señal azul con un neumático con cadenas?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Peligro por nieve.",
-        "b": "Obligación de no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados, o neumáticos especiales de nieve.",
+        "b": "Que no se puede seguir sin cadenas, otros dispositivos autorizados o neumáticos de nieve.",
         "c": "Prohibido circular con cadenas."
       },
       "correcta": "b",
@@ -8459,11 +8459,11 @@
       "id": "B1-sen-0137",
       "tema": "senales",
       "subtema": "obligacion",
-      "enunciado": "Transporta 5.000 litros de un producto capaz de contaminar el agua y encuentra esta señal azul. ¿Qué debe hacer?",
+      "enunciado": "Transporta 5.000 litros de un producto que puede contaminar el agua y encuentra esta señal. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Circular por esa calzada, porque es obligatoria para su vehículo.",
+        "a": "Circular por esa calzada.",
         "b": "No entrar en esa calzada.",
-        "c": "Puede elegir, porque la señal es una recomendación."
+        "c": "Elegir, porque la señal es una recomendación."
       },
       "correcta": "a",
       "explicacion": "La R-415 obliga a los conductores de toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua a circular por la calzada a cuya entrada está situada.",
@@ -8501,7 +8501,7 @@
       "subtema": "obligacion",
       "enunciado": "¿Qué indica esta señal sobre uno de los carriles de un peaje?",
       "opciones": {
-        "a": "Vía exclusiva para vehículos dotados de equipo de telepeaje operativo: telepeaje obligatorio.",
+        "a": "Carril exclusivo para vehículos con telepeaje operativo.",
         "b": "Carril para pago en efectivo.",
         "c": "Carril reservado a vehículos pesados."
       },
@@ -8579,10 +8579,10 @@
       "id": "B2-luz-0002",
       "tema": "luces",
       "subtema": "tunel",
-      "enunciado": "De día, entra en un tramo afectado por esta señal (Túnel) que está suficientemente iluminado. ¿Qué alumbrado debe llevar encendido su turismo?",
+      "enunciado": "De día, entra en un tramo afectado por esta señal que está suficientemente iluminado. ¿Qué alumbrado debe llevar encendido?",
       "opciones": {
         "a": "El de posición y el de corto alcance o de cruce.",
-        "b": "Ninguno, porque es de día y el túnel está iluminado.",
+        "b": "Ninguno, porque el tramo está iluminado.",
         "c": "Solo el de posición."
       },
       "correcta": "a",
@@ -8854,9 +8854,9 @@
       "id": "B2-via-0011",
       "tema": "vias",
       "subtema": "senda_ciclable",
-      "enunciado": "Según la Ley de Tráfico, ¿qué es una senda ciclable?",
+      "enunciado": "¿Qué es una senda ciclable?",
       "opciones": {
-        "a": "Una vía para peatones y ciclos, segregada del tráfico motorizado, que discurre por espacios abiertos, parques, jardines o bosques.",
+        "a": "Una vía para peatones y ciclos, segregada del tráfico, que discurre por parques, jardines o bosques.",
         "b": "Un carril bici que discurre adosado a la calzada.",
         "c": "Una acera por la que pueden circular ciclomotores."
       },
@@ -8885,7 +8885,7 @@
       "id": "B2-via-0012",
       "tema": "vias",
       "subtema": "zona_peatonal",
-      "enunciado": "En una zona peatonal que no sea acera, ¿puede la autoridad municipal permitir la circulación de ciclistas y usuarios de vehículos de movilidad personal?",
+      "enunciado": "En una zona peatonal que no es acera, ¿puede el ayuntamiento permitir que circulen ciclistas y vehículos de movilidad personal?",
       "opciones": {
         "a": "No, en ningún caso.",
         "b": "Sí, mediante ordenanza y respetando la prioridad de los peatones.",
@@ -8920,7 +8920,7 @@
       "opciones": {
         "a": "Que circulen ciclomotores a la velocidad de un peatón.",
         "b": "Que circulen bicicletas de adultos si no hay carril bici.",
-        "c": "Que circulen niños de hasta doce años en bicicleta, siempre que vayan a cargo de un adulto que circule a pie."
+        "c": "Que circulen en bicicleta niños de hasta doce años acompañados de un adulto a pie."
       },
       "correcta": "c",
       "explicacion": "En las aceras está prohibida la circulación de cualquier tipo de vehículo, pero las ordenanzas pueden permitir que circulen niños de hasta doce años en bicicleta a cargo de un adulto que vaya a pie.",
@@ -8980,7 +8980,7 @@
       "subtema": "longitudinales",
       "enunciado": "¿Qué significa esta marca longitudinal discontinua que separa dos carriles?",
       "opciones": {
-        "a": "Que puede atravesarse para maniobras permitidas, como cambiar de carril, respetando la prioridad del vehículo que circula por el carril que se pretende ocupar.",
+        "a": "Que puede atravesarse para maniobras permitidas, respetando al que circula por el otro carril.",
         "b": "Que no puede atravesarse en ningún caso.",
         "c": "Que solo pueden atravesarla los vehículos prioritarios."
       },
@@ -9098,10 +9098,10 @@
       "id": "B2-mv-0020",
       "tema": "marcas_viales",
       "subtema": "longitudinales",
-      "enunciado": "En una marca continua adosada a discontinua que separa sentidos opuestos, usted inició un adelantamiento desde el carril contiguo a la línea discontinua. ¿Puede atravesar después la línea continua para volver a su carril?",
+      "enunciado": "En una marca continua adosada a discontinua entre sentidos opuestos, inició un adelantamiento desde el carril del lado discontinuo. ¿Puede cruzar después la línea continua para volver a su carril?",
       "opciones": {
         "a": "No, nunca puede atravesar una línea continua.",
-        "b": "Sí, para volver a su carril tras realizar el adelantamiento o desistir de él.",
+        "b": "Sí.",
         "c": "Solo si se lo indica un agente."
       },
       "correcta": "b",
@@ -9178,9 +9178,9 @@
       "id": "B2-mv-0022",
       "tema": "marcas_viales",
       "subtema": "longitudinales",
-      "enunciado": "Una línea longitudinal discontinua de preaviso, con separaciones entre trazos más cortas que las de una línea discontinua normal, ¿qué anuncia?",
+      "enunciado": "Una línea discontinua de preaviso, con trazos más juntos que los de una línea discontinua normal, ¿qué anuncia?",
       "opciones": {
-        "a": "La proximidad de una marca longitudinal continua o de un tramo con un riesgo especial.",
+        "a": "Una línea continua próxima o un tramo con un riesgo especial.",
         "b": "El final de la prohibición de adelantar.",
         "c": "El comienzo de un carril para vehículos lentos."
       },
@@ -9391,7 +9391,7 @@
       "id": "B2-mv-0029",
       "tema": "marcas_viales",
       "subtema": "transversales",
-      "enunciado": "Si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros anteriores al paso para peatones, como mínimo, no se permitirá aparcar automóviles?",
+      "enunciado": "Si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros antes de un paso para peatones no se permite aparcar automóviles, como mínimo?",
       "opciones": {
         "a": "En 3 metros.",
         "b": "En 6 metros.",
@@ -9462,9 +9462,9 @@
       "id": "B2-mv-0031",
       "tema": "marcas_viales",
       "subtema": "senales_horizontales",
-      "enunciado": "La marca STOP pintada en la calzada, ¿qué obligación impone?",
+      "enunciado": "Esta marca pintada en la calzada, ¿qué obligación impone?",
       "opciones": {
-        "a": "Detenerse ante la línea de detención (o, si no existe, inmediatamente antes de la calzada a la que se aproxima) y ceder el paso.",
+        "a": "Detenerse ante la línea de detención o, si no la hay, antes de la calzada, y ceder el paso.",
         "b": "Reducir la velocidad y detenerse solo si se aproximan otros vehículos.",
         "c": "Ninguna, si no hay también una señal vertical de STOP."
       },
@@ -9505,7 +9505,7 @@
       "enunciado": "¿Qué significa este triángulo pintado en la calzada?",
       "opciones": {
         "a": "Que tiene prioridad en la próxima intersección.",
-        "b": "Obligación de ceder el paso a los vehículos que circulen por la calzada a la que se aproxima, deteniéndose si es preciso.",
+        "b": "Obligación de ceder el paso a los de la calzada a la que se aproxima.",
         "c": "Obligación de detenerse siempre, aunque no se acerque nadie."
       },
       "correcta": "b",
@@ -9546,7 +9546,7 @@
       "opciones": {
         "a": "No, la flecha prohíbe cualquier cambio de carril.",
         "b": "Solo para adelantar a vehículos de dos ruedas.",
-        "c": "Sí, siempre que se mantenga la dirección de circulación y las marcas longitudinales lo permitan."
+        "c": "Sí, si se mantiene la dirección y las marcas longitudinales lo permiten."
       },
       "correcta": "c",
       "explicacion": "Las flechas que incluyen la dirección de frente no impiden el cambio de carril, siempre que se mantenga la dirección de circulación y las marcas longitudinales lo permitan.",
@@ -9585,7 +9585,7 @@
       "enunciado": "¿Qué indica esta flecha pintada en su carril?",
       "opciones": {
         "a": "Que debe girar en la próxima intersección.",
-        "b": "Que el carril termina próximamente y debe abandonarlo hacia la dirección indicada, respetando la prioridad de quienes circulan por el carril que va a ocupar.",
+        "b": "Que el carril termina pronto y debe dejarlo hacia el lado indicado.",
         "c": "Que se incorpora un carril por ese lado."
       },
       "correcta": "b",
@@ -9624,8 +9624,8 @@
       "subtema": "flechas",
       "enunciado": "Ve esta flecha en el eje de una calzada de doble sentido mientras está adelantando. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Finalizar el adelantamiento lo antes posible, porque se aproxima una línea continua.",
-        "b": "Continuar con normalidad: indica que comienza un tramo con dos carriles en su sentido.",
+        "a": "Terminar el adelantamiento cuanto antes.",
+        "b": "Continuar con normalidad, porque comienza un tramo con dos carriles en su sentido.",
         "c": "Detenerse en el arcén."
       },
       "correcta": "a",
@@ -9662,7 +9662,7 @@
       "id": "B2-mv-0036",
       "tema": "marcas_viales",
       "subtema": "otras_marcas",
-      "enunciado": "¿Qué indica esta marca pintada en la calzada (aspa con las letras PN)?",
+      "enunciado": "¿Qué indica esta marca pintada en la calzada?",
       "opciones": {
         "a": "Un paso para peatones próximo.",
         "b": "Una zona de parada prohibida.",
@@ -9742,10 +9742,10 @@
       "id": "B2-mv-0038",
       "tema": "marcas_viales",
       "subtema": "cebreado",
-      "enunciado": "¿Puede entrar con su vehículo en una zona marcada con franjas oblicuas paralelas enmarcadas por una línea continua (cebreado)?",
+      "enunciado": "¿Puede entrar con su vehículo en una zona marcada como esta?",
       "opciones": {
         "a": "Sí, para adelantar si hay visibilidad.",
-        "b": "No; solo pueden entrar los obligados a circular por el arcén.",
+        "b": "No, salvo los obligados a circular por el arcén.",
         "c": "Sí, para estacionar brevemente."
       },
       "correcta": "b",
@@ -9784,7 +9784,7 @@
       "subtema": "amarillas",
       "enunciado": "¿Qué indica una línea amarilla continua pintada junto al bordillo?",
       "opciones": {
-        "a": "Prohibición de parar y de estacionar a lo largo de toda su longitud en ese lado de la calzada.",
+        "a": "Que no se puede parar ni estacionar en ese lado a lo largo de toda la línea.",
         "b": "Prohibición de estacionar, pero se permite parar.",
         "c": "Zona reservada para carga y descarga."
       },
@@ -9824,8 +9824,8 @@
       "subtema": "amarillas",
       "enunciado": "¿Qué indica una marca amarilla en zigzag junto al bordillo?",
       "opciones": {
-        "a": "Que está prohibido parar y estacionar a todos los vehículos, incluidos los autobuses.",
-        "b": "Que el estacionamiento está prohibido por estar ese lugar reservado a un uso especial, como una parada de autobuses o la carga y descarga.",
+        "a": "Que nadie puede parar ni estacionar, ni siquiera los autobuses.",
+        "b": "Que se prohíbe estacionar por estar reservado a un uso especial.",
         "c": "Que es una zona de estacionamiento de pago."
       },
       "correcta": "b",
@@ -9864,7 +9864,7 @@
       "subtema": "amarillas",
       "enunciado": "Una intersección tiene pintada una cuadrícula amarilla. El semáforo está en verde, pero hay retención a la salida. ¿Qué debe hacer?",
       "opciones": {
-        "a": "No entrar en la intersección si previsiblemente va a quedar detenido obstruyendo la circulación transversal.",
+        "a": "No entrar si previsiblemente va a quedar detenido dentro.",
         "b": "Entrar, porque el semáforo verde se lo permite.",
         "c": "Entrar y detenerse sobre la cuadrícula hasta que avance la fila."
       },
@@ -9905,7 +9905,7 @@
       "enunciado": "¿Qué indica un damero de cuadrados blancos y rojos pintado en la calzada?",
       "opciones": {
         "a": "Una zona de estacionamiento reservado a vehículos de emergencia.",
-        "b": "El lugar donde empieza una zona de frenado de emergencia, en la que está prohibido parar y estacionar.",
+        "b": "El comienzo de una zona de frenado de emergencia.",
         "c": "El comienzo de una zona de bajas emisiones."
       },
       "correcta": "b",
@@ -9942,11 +9942,11 @@
       "id": "B2-mv-0044",
       "tema": "marcas_viales",
       "subtema": "otras_marcas",
-      "enunciado": "¿Para qué sirven estas marcas en forma de galón (punta de flecha) pintadas en el carril?",
+      "enunciado": "¿Para qué sirven estas marcas pintadas en el carril?",
       "opciones": {
         "a": "Para indicar el sentido de circulación en una glorieta.",
         "b": "Para señalar un carril reservado a motocicletas.",
-        "c": "Como referencia para mantener la separación mínima con el vehículo que le precede."
+        "c": "Como referencia para mantener la separación con el vehículo de delante."
       },
       "correcta": "c",
       "explicacion": "La marca de separación de seguridad entre vehículos sirve como referencia para mantener la separación mínima con el vehículo precedente en túneles, secciones especiales y tramos con mayor riesgo de alcance.",
@@ -9982,11 +9982,11 @@
       "id": "B2-mv-0045",
       "tema": "marcas_viales",
       "subtema": "avanza_motos",
-      "enunciado": "En un espacio avanza-motos o avanza-bici delante de un semáforo, cuando el semáforo está en rojo, ¿quién puede ocupar ese espacio?",
+      "enunciado": "En un espacio avanza-motos o avanza-bici delante de un semáforo en rojo, ¿quién puede ocuparlo?",
       "opciones": {
         "a": "Cualquier vehículo que llegue primero.",
         "b": "Solo los peatones.",
-        "c": "Solo determinados vehículos, como ciclos, vehículos de movilidad personal, motocicletas o ciclomotores."
+        "c": "Solo determinados vehículos, como ciclos, motocicletas o ciclomotores."
       },
       "correcta": "c",
       "explicacion": "El avanza-bici o avanza-motos es un espacio anterior a la intersección o paso de peatones regulado por semáforo que, con el semáforo en rojo, solo pueden ocupar determinados vehículos como ciclos, VMP, motocicletas o ciclomotores.",
@@ -10022,9 +10022,9 @@
       "id": "B2-mv-0046",
       "tema": "marcas_viales",
       "subtema": "calmado_trafico",
-      "enunciado": "¿Qué advierten las marcas llamadas 'dientes de dragón'?",
+      "enunciado": "¿Qué advierten estas marcas?",
       "opciones": {
-        "a": "La aproximación a una travesía o vía urbana en la que debe reducirse sensiblemente la velocidad.",
+        "a": "Que se acerca una travesía o vía urbana y hay que reducir la velocidad.",
         "b": "La proximidad de un paso a nivel.",
         "c": "El comienzo de una zona de estacionamiento."
       },
@@ -10062,7 +10062,7 @@
       "id": "B2-mv-0047",
       "tema": "marcas_viales",
       "subtema": "calmado_trafico",
-      "enunciado": "Las líneas de borde quebradas (en zigzag blanco a los lados del carril), ¿de qué advierten?",
+      "enunciado": "Estas líneas de borde quebradas, ¿de qué advierten?",
       "opciones": {
         "a": "De la proximidad de una parada de autobús.",
         "b": "De la aproximación a un paso para peatones o para ciclistas.",
@@ -10135,9 +10135,9 @@
       "subtema": "via_insuficientemente_iluminada",
       "enunciado": "Se considera vía insuficientemente iluminada aquella en la que, con vista normal, en algún punto de su calzada...",
       "opciones": {
-        "a": "no pueda leerse la placa de matrícula a 50 metros o no se distinga un vehículo pintado de oscuro a 100 metros.",
-        "b": "no pueda leerse la placa de matrícula a 10 metros o no se distinga un vehículo pintado de oscuro a 50 metros.",
-        "c": "no pueda leerse la placa de matrícula a 20 metros o no se distinga un vehículo pintado de oscuro a 150 metros."
+        "a": "No pueda leerse la matrícula a 50 metros o no se distinga un vehículo oscuro a 100 metros.",
+        "b": "No pueda leerse la matrícula a 10 metros o no se distinga un vehículo oscuro a 50 metros.",
+        "c": "No pueda leerse la matrícula a 20 metros o no se distinga un vehículo oscuro a 150 metros."
       },
       "correcta": "b",
       "explicacion": "El Reglamento define la vía insuficientemente iluminada con dos referencias: matrícula ilegible a 10 metros o vehículo oscuro no distinguible a 50 metros.",
@@ -10164,7 +10164,7 @@
       "id": "C-luc-0003",
       "tema": "luces",
       "subtema": "largo_alcance",
-      "enunciado": "De noche circula a 80 km/h por una carretera fuera de poblado insuficientemente iluminada y no hay ningún usuario al que pueda deslumbrar. ¿Qué alumbrado debe llevar encendido?",
+      "enunciado": "De noche circula a 80 km/h fuera de poblado por una carretera insuficientemente iluminada, sin nadie a quien deslumbrar. ¿Qué alumbrado debe llevar?",
       "opciones": {
         "a": "Únicamente el de corto alcance o cruce.",
         "b": "Únicamente el de posición.",
@@ -10228,8 +10228,8 @@
       "subtema": "deslumbramiento",
       "enunciado": "Circula de noche con la luz de largo alcance. ¿Cuándo debe sustituirla por la de corto alcance o cruce?",
       "opciones": {
-        "a": "Solo cuando el vehículo que viene de frente cambie antes sus luces.",
-        "b": "Tan pronto como aprecie la posibilidad de deslumbrar a otros usuarios, aunque el que viene de frente no la cambie.",
+        "a": "Solo cuando el que viene de frente cambie antes sus luces.",
+        "b": "En cuanto pueda deslumbrar a otros, aunque el que viene de frente no la cambie.",
         "c": "Solo cuando el otro vehículo esté a menos de 50 metros."
       },
       "correcta": "b",
@@ -10322,7 +10322,7 @@
       "enunciado": "De noche deja su turismo estacionado en línea en la calzada de una travesía insuficientemente iluminada. ¿Qué alumbrado debe dejar encendido?",
       "opciones": {
         "a": "Las luces de corto alcance o cruce.",
-        "b": "Las luces de posición, que puede sustituir por las de estacionamiento.",
+        "b": "Las de posición o, en su lugar, las de estacionamiento.",
         "c": "Ninguno, porque es una vía urbana."
       },
       "correcta": "b",
@@ -10350,7 +10350,7 @@
       "id": "C-luc-0009",
       "tema": "luces",
       "subtema": "inmovilizaciones",
-      "enunciado": "De noche estaciona en una calle urbana (que no es travesía) con buena iluminación, que permite a los demás distinguir su vehículo a distancia suficiente. ¿Debe dejar encendidas las luces de posición?",
+      "enunciado": "De noche estaciona en una calle urbana, que no es travesía, tan bien iluminada que su vehículo se distingue a distancia suficiente. ¿Debe dejar encendidas las luces de posición?",
       "opciones": {
         "a": "Sí, siempre que sea de noche.",
         "b": "Sí, y además las luces de emergencia.",
@@ -10383,7 +10383,7 @@
       "subtema": "inmovilizaciones",
       "enunciado": "Su vehículo queda inmovilizado por avería en el arcén de una carretera durante la noche. ¿Qué luces debe tener encendidas como mínimo?",
       "opciones": {
-        "a": "Las de posición y, en su caso, las de gálibo.",
+        "a": "Las de posición y, si las tiene, las de gálibo.",
         "b": "Solo las luces de emergencia.",
         "c": "Las de corto alcance o cruce."
       },
@@ -10508,7 +10508,7 @@
       "enunciado": "Durante el día empieza a llover de forma intensa y la visibilidad disminuye sensiblemente. ¿Qué alumbrado debe utilizar?",
       "opciones": {
         "a": "Únicamente la luz antiniebla trasera.",
-        "b": "La luz antiniebla delantera o la luz de corto o largo alcance.",
+        "b": "La antiniebla delantera o la de corto o largo alcance.",
         "c": "Únicamente las luces de posición."
       },
       "correcta": "b",
@@ -10540,7 +10540,7 @@
       "opciones": {
         "a": "En cualquier vía interurbana entre el ocaso y la salida del sol.",
         "b": "En vías urbanas insuficientemente iluminadas.",
-        "c": "En vías estrechas con muchas curvas señalizadas, con calzada de 6,50 metros de anchura o inferior."
+        "c": "En vías estrechas con muchas curvas señalizadas, de 6,50 metros de calzada o menos."
       },
       "correcta": "c",
       "explicacion": "Aparte de las condiciones que disminuyen la visibilidad, la antiniebla delantera solo puede usarse en tramos de vías estrechas (calzada de 6,50 m o menos) señalizados con sucesión de curvas.",
@@ -10755,7 +10755,7 @@
       "subtema": "sistemas_retencion_infantil",
       "enunciado": "En un turismo, un menor de 125 cm de estatura, ¿puede viajar en el asiento delantero?",
       "opciones": {
-        "a": "Sí, de forma excepcional, por ejemplo si todos los asientos traseros ya están ocupados por menores de esa estatura, y usando su sistema de retención infantil.",
+        "a": "Sí, excepcionalmente, si los traseros ya van ocupados por menores como él, con su sistema de retención.",
         "b": "No, en ningún caso.",
         "c": "Sí, siempre que lleve el cinturón de seguridad de adulto."
       },
@@ -10784,7 +10784,7 @@
       "id": "C-per-0004",
       "tema": "seguridad_pasiva",
       "subtema": "sistemas_retencion_infantil",
-      "enunciado": "Un bebé viaja en el asiento delantero en un sistema de retención orientado hacia atrás. El vehículo dispone de airbag frontal para ese asiento. ¿Es correcto?",
+      "enunciado": "Un bebé viaja delante en un sistema de retención orientado hacia atrás, y ese asiento tiene airbag frontal. ¿Es correcto?",
       "opciones": {
         "a": "Sí, siempre que el sistema esté homologado.",
         "b": "Solo si el airbag ha sido desactivado.",
@@ -10819,7 +10819,7 @@
       "opciones": {
         "a": "No, está prohibido llevarlo en ese vehículo.",
         "b": "Sí, en el asiento delantero, y basta con el cinturón de seguridad.",
-        "c": "Sí, en el asiento delantero, utilizando un sistema de retención infantil homologado adaptado a su talla y peso."
+        "c": "Sí, delante, con un sistema de retención infantil adaptado a su talla y peso."
       },
       "correcta": "c",
       "explicacion": "Cuando el vehículo no dispone de asientos traseros, el menor puede ir delante, siempre con un sistema de retención homologado adaptado a su talla y peso.",
@@ -10848,7 +10848,7 @@
       "subtema": "cinturon_exenciones",
       "enunciado": "Los conductores y pasajeros de vehículos en servicio de urgencia, ¿pueden circular sin cinturón de seguridad?",
       "opciones": {
-        "a": "Sí, cuando circulen en poblado, pero nunca por autopistas, autovías o carreteras convencionales.",
+        "a": "Sí, en poblado, pero nunca en autopistas, autovías ni carreteras convencionales.",
         "b": "Sí, en cualquier tipo de vía.",
         "c": "No, en ningún caso."
       },
@@ -10880,7 +10880,7 @@
       "enunciado": "¿Puede el conductor circular sin el cinturón abrochado mientras realiza la maniobra de marcha atrás?",
       "opciones": {
         "a": "Solo dentro de poblado.",
-        "b": "Sí, al efectuar la maniobra de marcha atrás o de estacionamiento.",
+        "b": "Sí, al hacer marcha atrás o estacionar.",
         "c": "No, nunca."
       },
       "correcta": "b",
@@ -10912,7 +10912,7 @@
       "opciones": {
         "a": "Sí, por el hecho de estar embarazada.",
         "b": "Sí, pero solo dentro de poblado.",
-        "c": "No, salvo que disponga de un certificado de exención por razones médicas graves."
+        "c": "No, salvo que tenga un certificado de exención por razones médicas graves."
       },
       "correcta": "c",
       "explicacion": "El embarazo no exime por sí solo. Solo están exentas las personas con certificado de exención por razones médicas graves o con discapacidad.",
@@ -11005,7 +11005,7 @@
       "opciones": {
         "a": "No, en ningún caso.",
         "b": "Sí, con cualquier conductor, si lleva casco homologado.",
-        "c": "Sí, si conduce su padre, madre, tutor o una persona mayor de edad autorizada por ellos, y lleva casco homologado."
+        "c": "Sí, si conduce su padre, madre, tutor o un adulto autorizado, y lleva casco."
       },
       "correcta": "c",
       "explicacion": "Excepcionalmente, los mayores de siete años pueden ir en motocicleta o ciclomotor si conduce el padre, la madre, el tutor o una persona mayor de edad autorizada por ellos, con casco homologado.",
@@ -11034,7 +11034,7 @@
       "subtema": "casco",
       "enunciado": "¿Cuándo pueden el conductor y el pasajero de una motocicleta circular sin casco?",
       "opciones": {
-        "a": "Cuando la moto cuente con estructura de autoprotección y cinturones, conste así en la tarjeta ITV y usen el cinturón.",
+        "a": "Cuando la moto tenga estructura de autoprotección y cinturones, y los usen.",
         "b": "En vías urbanas, si circulan a menos de 30 km/h.",
         "c": "Nunca, en ningún caso."
       },
@@ -11066,7 +11066,7 @@
       "enunciado": "Un ciclista de 30 años, que no circula por motivos profesionales, va en bicicleta por una vía urbana. ¿Está obligado a llevar casco?",
       "opciones": {
         "a": "Sí, en todo tipo de vías.",
-        "b": "No. El casco es obligatorio en vías interurbanas y, para los menores de 16 años, en todo tipo de vías.",
+        "b": "No.",
         "c": "Solo entre el ocaso y la salida del sol."
       },
       "correcta": "b",
@@ -11094,7 +11094,7 @@
       "id": "C-per-0014",
       "tema": "transporte_personas",
       "subtema": "bicicletas_pasajeros",
-      "enunciado": "En una bicicleta construida para una sola persona, se puede llevar a un menor en un asiento adicional que cumpla las especificaciones técnicas. ¿Hasta qué peso puede tener el menor?",
+      "enunciado": "En una bicicleta para una sola persona se puede llevar a un menor en un asiento adicional homologado. ¿Hasta qué peso puede tener?",
       "opciones": {
         "a": "Hasta 15 kg.",
         "b": "Hasta 35 kg.",
@@ -11252,7 +11252,7 @@
       "enunciado": "Cuando sea inexcusable descargar mercancía en la vía, ¿dónde puede depositarla?",
       "opciones": {
         "a": "En la acera, si no impide el paso de los peatones.",
-        "b": "En ninguno de estos lugares: está prohibido depositarla en la calzada, en el arcén y en las zonas peatonales.",
+        "b": "En ninguno de estos lugares.",
         "c": "En el arcén, si está señalizada."
       },
       "correcta": "b",
@@ -11313,7 +11313,7 @@
       "subtema": "dimensiones_carga",
       "enunciado": "Como norma general, ¿puede la carga sobresalir de la proyección en planta del vehículo?",
       "opciones": {
-        "a": "No, salvo en los casos y condiciones previstos en el Reglamento.",
+        "a": "No, salvo en los casos que fija la norma.",
         "b": "Sí, siempre que se señalice adecuadamente.",
         "c": "Sí, hasta 1 metro por cualquier lado."
       },
@@ -11342,7 +11342,7 @@
       "id": "C-car-0007",
       "tema": "carga",
       "subtema": "dimensiones_carga",
-      "enunciado": "Una furgoneta destinada exclusivamente al transporte de mercancías, de 4 metros de longitud, lleva un tubo de longitud indivisible. ¿Cuánto puede sobresalir como máximo por delante?",
+      "enunciado": "Una furgoneta solo de mercancías, de 4 metros de longitud, lleva un tubo indivisible. ¿Cuánto puede sobresalir como máximo por delante?",
       "opciones": {
         "a": "2 metros.",
         "b": "Un tercio de la longitud del vehículo.",
@@ -11373,7 +11373,7 @@
       "id": "C-car-0008",
       "tema": "carga",
       "subtema": "dimensiones_carga",
-      "enunciado": "Un camión de 8 metros de longitud, destinado exclusivamente al transporte de mercancías, transporta una viga indivisible. ¿Cuánto puede sobresalir la carga como máximo por la parte posterior?",
+      "enunciado": "Un camión solo de mercancías, de 8 metros de longitud, lleva una viga indivisible. ¿Cuánto puede sobresalir como máximo por detrás?",
       "opciones": {
         "a": "2 metros.",
         "b": "Un tercio de la longitud del camión.",
@@ -11499,7 +11499,7 @@
       "subtema": "dimensiones_carga",
       "enunciado": "Un camión transporta una carga indivisible cuya dimensión menor es superior al ancho del vehículo. ¿Cuánto puede sobresalir por cada lateral?",
       "opciones": {
-        "a": "Hasta 0,40 metros por cada lateral, siempre que el ancho total no supere 2,55 metros.",
+        "a": "Hasta 0,40 metros por cada lado, sin superar 2,55 metros de ancho total.",
         "b": "Hasta 0,50 metros por cada lateral, sin otro límite.",
         "c": "Hasta 1 metro por cada lateral."
       },
@@ -11794,7 +11794,7 @@
       "id": "C-sev-0004",
       "tema": "senales_vehiculo",
       "subtema": "v13_conductor_novel",
-      "enunciado": "¿Durante cuánto tiempo debe llevar la señal V-13 (L de conductor novel) quien obtiene por primera vez un permiso de conducción?",
+      "enunciado": "Quien obtiene por primera vez un permiso de conducción, ¿durante cuánto tiempo debe llevar esta señal?",
       "opciones": {
         "a": "Un año.",
         "b": "Dos años.",
@@ -11834,7 +11834,7 @@
       "id": "C-sev-0005",
       "tema": "senales_vehiculo",
       "subtema": "v13_conductor_novel",
-      "enunciado": "¿Dónde debe colocarse la señal V-13 de conductor novel en un turismo?",
+      "enunciado": "¿Dónde debe colocarse esta señal en un turismo?",
       "opciones": {
         "a": "En la parte posterior derecha.",
         "b": "En la parte posterior izquierda, en sitio visible.",
@@ -11907,7 +11907,7 @@
       "subtema": "v16_presenalizacion",
       "enunciado": "¿Qué indica el dispositivo luminoso V-16 colocado sobre un vehículo?",
       "opciones": {
-        "a": "Que el vehículo ha quedado inmovilizado en la calzada o que su carga ha caído sobre ella.",
+        "a": "Que el vehículo está inmovilizado en la calzada o que su carga ha caído en ella.",
         "b": "Que el vehículo es lento y no supera los 40 km/h.",
         "c": "Que el vehículo transporta una carga que sobresale."
       },
@@ -11967,11 +11967,11 @@
       "id": "C-doc-0002",
       "tema": "documentacion",
       "subtema": "itv_distintivo",
-      "enunciado": "¿Qué indica el distintivo de inspección técnica periódica (V-19)?",
+      "enunciado": "El distintivo de inspección técnica periódica, ¿qué indica?",
       "opciones": {
         "a": "La clasificación ambiental del vehículo.",
         "b": "Que el vehículo tiene en vigor el seguro obligatorio.",
-        "c": "Que el vehículo ha superado favorablemente la ITV periódica y la fecha en que debe pasar la próxima."
+        "c": "Que el vehículo ha superado la inspección técnica periódica y la fecha de la próxima."
       },
       "correcta": "c",
       "explicacion": "El distintivo V-19 indica que el vehículo ha superado favorablemente la ITV periódica y la fecha de la próxima inspección.",
@@ -11998,7 +11998,7 @@
       "id": "C-doc-0003",
       "tema": "documentacion",
       "subtema": "documentacion_vehiculo",
-      "enunciado": "¿Qué documentos del vehículo debe llevar consigo el conductor de un turismo, según el Reglamento General de Vehículos?",
+      "enunciado": "¿Qué documentos del vehículo debe llevar el conductor de un turismo?",
       "opciones": {
         "a": "El permiso de circulación y la tarjeta de inspección técnica.",
         "b": "Solo el permiso de circulación.",
@@ -12186,7 +12186,7 @@
       "subtema": "remolques",
       "enunciado": "¿Es preciso matricular un remolque de 600 kg de masa máxima autorizada?",
       "opciones": {
-        "a": "No; solo hay que matricular los remolques de masa máxima autorizada superior a 750 kg.",
+        "a": "No.",
         "b": "Sí, todos los remolques deben matricularse.",
         "c": "Solo si lo arrastra un vehículo distinto de un turismo."
       },
@@ -12339,11 +12339,11 @@
       "id": "C-perm-0005",
       "tema": "permiso_conduccion",
       "subtema": "remolques",
-      "enunciado": "Un turismo de 3.000 kg de MMA arrastra un remolque de 1.000 kg de MMA (conjunto de 4.000 kg). ¿Qué necesita para conducirlo?",
+      "enunciado": "Un turismo de 3.000 kg de masa máxima autorizada arrastra un remolque de 1.000 kg de masa máxima autorizada. ¿Qué necesita para conducir este conjunto de 4.000 kg?",
       "opciones": {
         "a": "El permiso B, sin ningún requisito adicional.",
         "b": "El permiso C1.",
-        "c": "El permiso B, habiendo superado la prueba específica para estos conjuntos (código 96)."
+        "c": "El permiso B con la prueba específica para estos conjuntos."
       },
       "correcta": "c",
       "explicacion": "Si el remolque supera 750 kg y el conjunto excede de 3.500 kg sin pasar de 4.250 kg, se puede conducir con B tras superar la prueba o formación específica (código comunitario 96).",
@@ -12465,7 +12465,7 @@
       "subtema": "vehiculos_especiales",
       "enunciado": "¿Qué vehículos especiales no agrícolas se pueden conducir con el permiso B?",
       "opciones": {
-        "a": "Los que no superen 40 km/h de velocidad máxima autorizada y tampoco superen 3.500 kg de MMA.",
+        "a": "Los de hasta 40 km/h y hasta 3.500 kg de masa máxima autorizada.",
         "b": "Los que no superen 40 km/h, cualquiera que sea su masa.",
         "c": "Todos, cualquiera que sea su masa y velocidad."
       },
@@ -12589,9 +12589,9 @@
       "subtema": "clases_permiso",
       "enunciado": "El permiso C1 autoriza a conducir automóviles cuya masa máxima autorizada...",
       "opciones": {
-        "a": "no exceda de 3.500 kg.",
-        "b": "exceda de 3.500 kg y no sobrepase los 7.500 kg.",
-        "c": "exceda de 7.500 kg."
+        "a": "No exceda de 3.500 kg.",
+        "b": "Exceda de 3.500 kg sin pasar de 7.500 kg.",
+        "c": "Exceda de 7.500 kg."
       },
       "correcta": "b",
       "explicacion": "El C1 autoriza automóviles (distintos de los de D1 y D) de MMA superior a 3.500 kg y no superior a 7.500 kg, para no más de ocho pasajeros además del conductor.",
@@ -12620,9 +12620,9 @@
       "subtema": "clases_permiso",
       "enunciado": "El permiso D1 autoriza a conducir automóviles diseñados para el transporte de...",
       "opciones": {
-        "a": "no más de 8 pasajeros además del conductor.",
-        "b": "cualquier número de pasajeros, sin límite de longitud.",
-        "c": "no más de 16 pasajeros además del conductor, con una longitud máxima de 8 metros."
+        "a": "No más de 8 pasajeros además del conductor.",
+        "b": "Cualquier número de pasajeros, sin límite de longitud.",
+        "c": "No más de 16 pasajeros además del conductor, con 8 metros de longitud como máximo."
       },
       "correcta": "c",
       "explicacion": "El D1 autoriza automóviles para no más de dieciséis pasajeros además del conductor (17 plazas) y de longitud no superior a ocho metros.",
@@ -12808,7 +12808,7 @@
       "opciones": {
         "a": "Al cumplir un año de antigüedad, cuando deja de llevar la L.",
         "b": "A los tres años, aunque haya sido sancionado.",
-        "c": "Cuando transcurren dos años sin ser sancionado en firme por infracciones que impliquen pérdida de puntos."
+        "c": "Tras dos años sin sanciones firmes que quiten puntos."
       },
       "correcta": "c",
       "explicacion": "Los titulares con 8 puntos iniciales pasan a tener 12 si en dos años no son sancionados en firme por infracciones que impliquen pérdida de puntos.",
@@ -12837,7 +12837,7 @@
       "subtema": "recuperacion",
       "enunciado": "Un conductor tiene 5 puntos y pasan dos años sin ser sancionado en firme por infracciones que lleven pérdida de puntos. ¿Qué ocurre?",
       "opciones": {
-        "a": "Recupera la totalidad del crédito inicial de 12 puntos.",
+        "a": "Recupera los 12 puntos.",
         "b": "Recupera 2 puntos.",
         "c": "Recupera 4 puntos."
       },
@@ -12959,7 +12959,7 @@
       "id": "C-pun-0008",
       "tema": "puntos",
       "subtema": "curso_recuperacion_parcial",
-      "enunciado": "Según la Ley de Tráfico, ¿cuál es la duración máxima de los cursos de recuperación parcial de puntos?",
+      "enunciado": "¿Cuál es la duración máxima de los cursos de recuperación parcial de puntos?",
       "opciones": {
         "a": "Diez horas.",
         "b": "Quince horas.",
@@ -12990,7 +12990,7 @@
       "id": "C-pun-0009",
       "tema": "puntos",
       "subtema": "perdida_vigencia",
-      "enunciado": "Un conductor no profesional pierde todos sus puntos por primera vez. ¿Cuánto tiempo debe pasar, desde la notificación, para que pueda obtener un nuevo permiso?",
+      "enunciado": "Un conductor no profesional pierde todos los puntos por primera vez. Desde la notificación, ¿cuánto tiempo debe pasar para que pueda obtener un nuevo permiso?",
       "opciones": {
         "a": "Tres meses.",
         "b": "Doce meses.",
@@ -13052,11 +13052,11 @@
       "id": "C-pun-0011",
       "tema": "puntos",
       "subtema": "perdida_vigencia",
-      "enunciado": "¿Qué debe hacer el titular cuyo permiso ha perdido vigencia por la pérdida total de puntos para obtener de nuevo un permiso, una vez cumplido el plazo?",
+      "enunciado": "Tras perder todos los puntos y cumplir el plazo, ¿qué debe hacer el titular para obtener de nuevo un permiso?",
       "opciones": {
-        "a": "Volver a hacer el examen teórico y el práctico, sin ningún curso.",
-        "b": "Superar un curso de sensibilización y reeducación vial de recuperación del permiso y después la prueba de control de conocimientos.",
-        "c": "Nada; basta con esperar el plazo."
+        "a": "Volver a hacer los exámenes teórico y práctico, sin ningún curso.",
+        "b": "Superar un curso de sensibilización y reeducación vial y una prueba de conocimientos.",
+        "c": "Nada, basta con esperar el plazo."
       },
       "correcta": "b",
       "explicacion": "Puede obtener un permiso de la misma clase y con la misma antigüedad tras superar el curso de recuperación del permiso y la prueba de control de conocimientos.",
@@ -13238,7 +13238,7 @@
       "id": "D-acc-0001",
       "tema": "accidentes",
       "subtema": "factores_accidente",
-      "enunciado": "Según la DGT, ¿en qué proporción aproximada de los accidentes de tráfico interviene el factor humano?",
+      "enunciado": "¿En qué proporción aproximada de los accidentes de tráfico interviene el factor humano?",
       "opciones": {
         "a": "Entre 70 y 90 de cada 100.",
         "b": "Entre 4 y 13 de cada 100.",
@@ -13271,9 +13271,9 @@
       "subtema": "factores_accidente",
       "enunciado": "La mayoría de los accidentes de tráfico...",
       "opciones": {
-        "a": "solo se pueden evitar si se deben a un fallo del vehículo.",
-        "b": "se pueden evitar.",
-        "c": "se deben al azar y no se pueden prevenir."
+        "a": "Solo se pueden evitar si se deben a un fallo del vehículo.",
+        "b": "Se pueden evitar.",
+        "c": "Se deben al azar y no se pueden prevenir."
       },
       "correcta": "b",
       "explicacion": "La mayoría de los accidentes se pueden evitar, sobre todo actuando sobre el factor humano (no beber, moderar la velocidad, no distraerse).",
@@ -13333,7 +13333,7 @@
       "subtema": "estadistica_accidentes",
       "enunciado": "¿Dónde se producen la mayoría de los accidentes mortales?",
       "opciones": {
-        "a": "En carreteras fuera de pueblos o ciudades.",
+        "a": "En carreteras, fuera de poblado.",
         "b": "Dentro de las ciudades.",
         "c": "En los aparcamientos."
       },
@@ -13364,9 +13364,9 @@
       "subtema": "estadistica_accidentes",
       "enunciado": "Comparadas con el resto de carreteras, en las autopistas y autovías...",
       "opciones": {
-        "a": "hay el mismo número de accidentes.",
-        "b": "hay menos accidentes.",
-        "c": "hay más accidentes, porque se circula más deprisa."
+        "a": "Hay el mismo número de accidentes.",
+        "b": "Hay menos accidentes.",
+        "c": "Hay más accidentes, porque se circula más deprisa."
       },
       "correcta": "b",
       "explicacion": "Hay menos accidentes en autopistas y autovías que en el resto de carreteras: tienen calzadas separadas para cada sentido y no tienen cruces a nivel.",
@@ -13486,11 +13486,11 @@
       "id": "D-vul-0001",
       "tema": "usuarios_vulnerables",
       "subtema": "personas_mayores",
-      "enunciado": "Según los estudios de la DGT, las personas mayores, como peatones, tienen más accidentes...",
+      "enunciado": "Las personas mayores, como peatones, tienen más accidentes...",
       "opciones": {
-        "a": "por igual, vayan solas o acompañadas.",
-        "b": "cuando van acompañadas por niños.",
-        "c": "cuando van solas."
+        "a": "Por igual, vayan solas o acompañadas.",
+        "b": "Cuando van acompañadas por niños.",
+        "c": "Cuando van solas."
       },
       "correcta": "c",
       "explicacion": "Las personas mayores tienen más accidentes cuando van solas que cuando van acompañadas por niños: con niños son más prudentes para darles buen ejemplo y protegerles.",
@@ -13550,9 +13550,9 @@
       "subtema": "personas_mayores",
       "enunciado": "En caso de accidente, las personas mayores...",
       "opciones": {
-        "a": "sufren lesiones más leves gracias a su prudencia.",
-        "b": "tienen lesiones más graves y menos posibilidades de sobrevivir.",
-        "c": "se recuperan antes que los jóvenes."
+        "a": "Sufren lesiones más leves gracias a su prudencia.",
+        "b": "Tienen lesiones más graves y menos posibilidades de sobrevivir.",
+        "c": "Se recuperan antes que los jóvenes."
       },
       "correcta": "b",
       "explicacion": "En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir.",
@@ -13643,9 +13643,9 @@
       "subtema": "velocidad",
       "enunciado": "Al aumentar la velocidad, la capacidad del conductor de ver lo que pasa a los lados...",
       "opciones": {
-        "a": "no cambia.",
-        "b": "disminuye; es la llamada visión túnel.",
-        "c": "aumenta."
+        "a": "No cambia.",
+        "b": "Disminuye.",
+        "c": "Aumenta."
       },
       "correcta": "b",
       "explicacion": "Cuanto más rápido se circula, menos se ve lo que pasa a los lados: solo se ve lo que hay enfrente, como en un túnel (visión o efecto túnel). Hay que tener especial cuidado en las intersecciones.",
@@ -13674,9 +13674,9 @@
       "subtema": "tiempo_reaccion",
       "enunciado": "En condiciones normales, el tiempo de reacción de un conductor es de...",
       "opciones": {
-        "a": "entre dos y tres segundos.",
-        "b": "menos de una décima de segundo.",
-        "c": "entre medio segundo y un segundo."
+        "a": "Entre dos y tres segundos.",
+        "b": "Menos de una décima de segundo.",
+        "c": "Entre medio segundo y un segundo."
       },
       "correcta": "c",
       "explicacion": "El tiempo de reacción es el que pasa entre ver u oír algo y reaccionar. En condiciones normales está entre medio segundo y un segundo.",
@@ -13767,9 +13767,9 @@
       "subtema": "distancia_detencion",
       "enunciado": "La distancia de detención es...",
       "opciones": {
-        "a": "la distancia de frenado menos la distancia de reacción.",
-        "b": "solo la distancia que recorre el vehículo mientras se frena.",
-        "c": "la suma de la distancia de reacción y la distancia de frenado."
+        "a": "La distancia de frenado menos la de reacción.",
+        "b": "Solo la distancia que se recorre mientras se frena.",
+        "c": "La suma de la distancia de reacción y la de frenado."
       },
       "correcta": "c",
       "explicacion": "La distancia de detención es el espacio recorrido desde que se detecta el obstáculo hasta que el vehículo se para por completo: la suma de la distancia de reacción y la de frenado.",
@@ -13829,9 +13829,9 @@
       "subtema": "distancia_reaccion",
       "enunciado": "La distancia de reacción es el espacio que recorre el vehículo...",
       "opciones": {
-        "a": "desde que se pisa el freno hasta que se para.",
-        "b": "desde que el conductor detecta un imprevisto hasta que puede reaccionar a él.",
-        "c": "desde que el vehículo se para hasta que vuelve a arrancar."
+        "a": "Desde que se pisa el freno hasta que se para.",
+        "b": "Desde que el conductor detecta un imprevisto hasta que reacciona.",
+        "c": "Desde que el vehículo se para hasta que vuelve a arrancar."
       },
       "correcta": "b",
       "explicacion": "La distancia de reacción es el espacio recorrido desde que se detecta un imprevisto (un obstáculo, una señal, un ruido) hasta que se puede reaccionar, por ejemplo hasta que se pisa el freno.",
@@ -13858,11 +13858,11 @@
       "id": "D-fat-0001",
       "tema": "factores_riesgo",
       "subtema": "fatiga_sueno",
-      "enunciado": "Para evitar la fatiga y la somnolencia en un viaje largo, la DGT recomienda descansar...",
+      "enunciado": "Para evitar la fatiga y el sueño en un viaje largo, conviene descansar...",
       "opciones": {
-        "a": "una vez cada 500 kilómetros.",
-        "b": "solo cuando se noten los primeros síntomas de sueño.",
-        "c": "20 o 30 minutos cada dos horas o cada 200 kilómetros, aunque no se sienta fatiga."
+        "a": "Una vez cada 500 kilómetros.",
+        "b": "Solo cuando se noten los primeros síntomas de sueño.",
+        "c": "20 o 30 minutos cada dos horas o cada 200 kilómetros."
       },
       "correcta": "c",
       "explicacion": "Se recomienda descansar 20 o 30 minutos cada dos horas o cada 200 kilómetros aunque no se sienta fatiga ni somnolencia; y, si aparecen los primeros síntomas, parar en un lugar seguro y dormir 20 o 30 minutos.",
@@ -13920,11 +13920,11 @@
       "id": "D-fat-0003",
       "tema": "factores_riesgo",
       "subtema": "fatiga_sueno",
-      "enunciado": "Comer mucha cantidad y alimentos difíciles de digerir antes de conducir...",
+      "enunciado": "Comer mucho y alimentos difíciles de digerir antes de conducir...",
       "opciones": {
-        "a": "no influye en la conducción.",
-        "b": "puede provocar sueño y fatiga.",
-        "c": "mejora la atención durante el viaje."
+        "a": "No influye en la conducción.",
+        "b": "Puede provocar sueño y fatiga.",
+        "c": "Mejora la atención durante el viaje."
       },
       "correcta": "b",
       "explicacion": "Una comida abundante o pesada antes de conducir puede provocar sueño y fatiga; es mejor hacer varias comidas ligeras.",
@@ -14013,11 +14013,11 @@
       "id": "D-med-0002",
       "tema": "alcohol_drogas",
       "subtema": "medicamentos",
-      "enunciado": "Los antihistamínicos, que se toman para tratar las alergias, pueden producir...",
+      "enunciado": "Los antihistamínicos, que se toman para las alergias, pueden producir...",
       "opciones": {
-        "a": "una visión más nítida.",
-        "b": "sueño.",
-        "c": "una mejora de los reflejos."
+        "a": "Una visión más nítida.",
+        "b": "Sueño.",
+        "c": "Una mejora de los reflejos."
       },
       "correcta": "b",
       "explicacion": "Según la DGT, los antihistamínicos pueden producir sueño, depresión y pérdida de reflejos.",
@@ -14048,7 +14048,7 @@
       "opciones": {
         "a": "Porque disminuye el tiempo de reacción.",
         "b": "Porque el calor solo afecta al motor, no al conductor.",
-        "c": "Porque aparecen antes el sueño y la fatiga y se puede necesitar más tiempo para reaccionar."
+        "c": "Porque aparecen antes el sueño y la fatiga."
       },
       "correcta": "c",
       "explicacion": "Con calor aparecen antes el sueño y la fatiga, se puede necesitar más tiempo para reaccionar ante imprevistos y puede aumentar la agresividad hacia otros conductores.",
@@ -14109,7 +14109,7 @@
       "enunciado": "¿Está permitido a un conductor de turismo utilizar el teléfono móvil mientras conduce?",
       "opciones": {
         "a": "Sí, si se sujeta con una sola mano y se conduce despacio.",
-        "b": "Solo si la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares.",
+        "b": "Solo si no usa las manos ni cascos, auriculares o similares.",
         "c": "Sí, con auriculares en los dos oídos."
       },
       "correcta": "b",
@@ -14230,11 +14230,11 @@
       "id": "D-mov-0005",
       "tema": "distracciones",
       "subtema": "telefono_movil",
-      "enunciado": "Según la DGT, el riesgo de accidente cuando se usa el móvil en el vehículo es...",
+      "enunciado": "Usar el móvil en el vehículo hace que el riesgo de accidente sea...",
       "opciones": {
-        "a": "menor, porque el conductor va más alerta.",
-        "b": "igual que cuando no se usa.",
-        "c": "cuatro veces mayor que cuando no se usa."
+        "a": "Menor, porque el conductor va más alerta.",
+        "b": "Igual que cuando no se usa.",
+        "c": "Cuatro veces mayor que cuando no se usa."
       },
       "correcta": "c",
       "explicacion": "El riesgo de accidente al usar el móvil en el vehículo es cuatro veces mayor que cuando no se utiliza.",
@@ -14263,9 +14263,9 @@
       "subtema": "telefono_movil",
       "enunciado": "Hablar por teléfono con un dispositivo de manos libres mientras se conduce...",
       "opciones": {
-        "a": "está permitido, pero también es peligroso porque parte de la atención se dedica a la conversación.",
-        "b": "está prohibido en cualquier caso.",
-        "c": "no supone ningún riesgo."
+        "a": "Está permitido, pero resta atención a la conducción.",
+        "b": "Está prohibido en cualquier caso.",
+        "c": "No supone ningún riesgo."
       },
       "correcta": "a",
       "explicacion": "El manos libres está permitido, pero también es peligroso porque el conductor presta parte de su atención a la conversación. La DGT aconseja no tener conversaciones de más de un minuto.",
@@ -14292,11 +14292,11 @@
       "id": "D-mov-0007",
       "tema": "distracciones",
       "subtema": "telefono_movil",
-      "enunciado": "Si habla por el móvil con un dispositivo de manos libres mientras conduce, la DGT recomienda que la conversación...",
+      "enunciado": "Si habla por el móvil con manos libres mientras conduce, conviene que la conversación...",
       "opciones": {
-        "a": "sea larga, para no tener que volver a llamar.",
-        "b": "no dure más de un minuto.",
-        "c": "dure como máximo diez minutos."
+        "a": "Sea larga, para no tener que volver a llamar.",
+        "b": "No dure más de un minuto.",
+        "c": "Dure como máximo diez minutos."
       },
       "correcta": "b",
       "explicacion": "Entre las recomendaciones para usar el manos libres está no tener conversaciones que duren más de un minuto, avisar al interlocutor de que se está conduciendo y, si hay que hacer una llamada, parar en un lugar seguro.",
@@ -14327,7 +14327,7 @@
       "opciones": {
         "a": "Calcular mejor las distancias.",
         "b": "Ver mejor las señales.",
-        "c": "Salirse de la carretera o invadir el carril contrario."
+        "c": "Salirse de la vía o invadir el carril contrario."
       },
       "correcta": "c",
       "explicacion": "Al prestar atención a la conversación se calculan peor las distancias, se dejan de ver señales y se producen salidas de la carretera e invasiones del carril contrario.",
@@ -14356,7 +14356,7 @@
       "subtema": "pantallas",
       "enunciado": "Con el vehículo en movimiento, ¿puede el conductor ver una película en un monitor o reproductor de vídeo?",
       "opciones": {
-        "a": "No, se considera incompatible con la atención permanente a la conducción.",
+        "a": "No.",
         "b": "Sí, en autopistas y autovías.",
         "c": "Sí, si el monitor está homologado."
       },
@@ -14385,7 +14385,7 @@
       "id": "D-mov-0010",
       "tema": "distracciones",
       "subtema": "gps",
-      "enunciado": "Según la DGT, ¿cuándo se debe programar el navegador GPS?",
+      "enunciado": "¿Cuándo se debe programar el navegador?",
       "opciones": {
         "a": "Mientras se conduce, siempre que se circule despacio.",
         "b": "Antes de empezar a conducir.",
@@ -14449,7 +14449,7 @@
       "subtema": "efectos_alcohol",
       "enunciado": "¿Cómo afecta el alcohol a la visión del conductor?",
       "opciones": {
-        "a": "Reduce la capacidad de ver lo que pasa a los lados y hace que se deslumbre más.",
+        "a": "Reduce la visión lateral y aumenta el deslumbramiento.",
         "b": "No afecta a la visión, solo a los reflejos.",
         "c": "Mejora la visión nocturna."
       },
@@ -14481,7 +14481,7 @@
       "enunciado": "Dos personas beben exactamente la misma cantidad de la misma bebida. ¿Tendrán necesariamente la misma tasa de alcoholemia?",
       "opciones": {
         "a": "Sí, siempre.",
-        "b": "No; influyen factores como el peso, el sexo, la edad o haber comido.",
+        "b": "No, influyen el peso, el sexo, la edad o haber comido.",
         "c": "Sí, si tienen la misma edad."
       },
       "correcta": "b",
@@ -14573,9 +14573,9 @@
       "subtema": "tasa_alcoholemia",
       "enunciado": "Beber alcohol con el estómago lleno...",
       "opciones": {
-        "a": "impide que el alcohol pase a la sangre.",
-        "b": "hace que el alcohol llegue a la sangre de forma más lenta.",
-        "c": "hace que el alcohol llegue a la sangre más rápido."
+        "a": "Impide que el alcohol pase a la sangre.",
+        "b": "Hace que el alcohol llegue a la sangre más despacio.",
+        "c": "Hace que el alcohol llegue a la sangre más rápido."
       },
       "correcta": "b",
       "explicacion": "La comida ayuda a que el alcohol llegue a la sangre de forma más lenta, pero no impide que llegue.",
@@ -14664,10 +14664,10 @@
       "id": "D-alc-0009",
       "tema": "alcohol_drogas",
       "subtema": "pruebas_alcoholemia",
-      "enunciado": "Un peatón que no está implicado en ningún accidente comete una infracción de tráfico. ¿Está obligado a someterse a las pruebas de alcohol y drogas si se lo requiere un agente?",
+      "enunciado": "Un peatón no implicado en ningún accidente comete una infracción. Si un agente se lo requiere, ¿está obligado a someterse a las pruebas de alcohol y drogas?",
       "opciones": {
         "a": "No, los peatones nunca están obligados.",
-        "b": "Sí, la Ley obliga también a los usuarios que hayan cometido una infracción.",
+        "b": "Sí.",
         "c": "No, los peatones solo están obligados si hay un accidente."
       },
       "correcta": "b",
@@ -14788,7 +14788,7 @@
       "id": "D-alc-0013",
       "tema": "alcohol_drogas",
       "subtema": "tasas",
-      "enunciado": "El conductor de un camión de transporte de mercancías de más de 3.500 kg de masa máxima autorizada, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+      "enunciado": "El conductor de un camión de mercancías de más de 3.500 kg de masa máxima autorizada, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
       "opciones": {
         "a": "0,25 miligramos por litro.",
         "b": "0,30 miligramos por litro.",
@@ -14819,7 +14819,7 @@
       "id": "D-alc-0014",
       "tema": "alcohol_drogas",
       "subtema": "tasas",
-      "enunciado": "Un conductor con diez años de permiso conduce una furgoneta particular, de uso privado, de 3.500 kg de masa máxima autorizada, con carga general (no peligrosa). ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+      "enunciado": "Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg de masa máxima autorizada con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
       "opciones": {
         "a": "0,25 miligramos por litro.",
         "b": "0,15 miligramos por litro, por ser transporte de mercancías.",
@@ -14914,7 +14914,7 @@
       "subtema": "tasas",
       "enunciado": "Un conductor de ciclomotor de 17 años, con dos años de antigüedad en su permiso, ¿qué tasa máxima de alcohol puede tener?",
       "opciones": {
-        "a": "0; el conductor menor de edad no puede circular con ninguna tasa de alcohol.",
+        "a": "0 miligramos por litro en aire espirado.",
         "b": "0,25 miligramos por litro en aire espirado.",
         "c": "0,15 miligramos por litro en aire espirado."
       },
@@ -15036,7 +15036,7 @@
       "id": "D-alc-0021",
       "tema": "alcohol_drogas",
       "subtema": "sanciones_alcohol",
-      "enunciado": "Un conductor con permiso de más de dos años da 0,40 mg/l de alcohol en aire espirado. ¿Cuántos puntos pierde si es sancionado en firme en vía administrativa?",
+      "enunciado": "Con más de dos años de permiso, da 0,40 mg/l en aire espirado. Si le sancionan en firme, ¿cuántos puntos pierde?",
       "opciones": {
         "a": "2 puntos.",
         "b": "4 puntos.",
@@ -15067,7 +15067,7 @@
       "id": "D-alc-0022",
       "tema": "alcohol_drogas",
       "subtema": "sanciones_alcohol",
-      "enunciado": "Un conductor novel, con menos de dos años de permiso, da 0,35 mg/l de alcohol en aire espirado. ¿Cuántos puntos pierde si es sancionado en firme en vía administrativa?",
+      "enunciado": "Con menos de dos años de permiso, da 0,35 mg/l en aire espirado. Si le sancionan en firme, ¿cuántos puntos pierde?",
       "opciones": {
         "a": "Ninguno, porque no supera 0,50 mg/l.",
         "b": "4 puntos.",
@@ -15098,7 +15098,7 @@
       "id": "D-alc-0023",
       "tema": "alcohol_drogas",
       "subtema": "sanciones_alcohol",
-      "enunciado": "Un conductor con permiso de más de dos años, que no ha sido sancionado por alcohol en el año anterior, da 0,30 mg/l en aire espirado. ¿Qué multa le corresponde?",
+      "enunciado": "Con más de dos años de permiso y sin sanciones por alcohol en el último año, da 0,30 mg/l en aire espirado. ¿Qué multa le corresponde?",
       "opciones": {
         "a": "500 euros.",
         "b": "1.000 euros.",
@@ -15160,11 +15160,11 @@
       "id": "D-nov-0001",
       "tema": "documentacion",
       "subtema": "distintivo_l",
-      "enunciado": "Una persona tiene desde hace tres años el permiso AM de ciclomotor y acaba de obtener el permiso B. ¿Debe llevar la señal de conductor novel (L) en el turismo?",
+      "enunciado": "Tiene el permiso AM desde hace tres años y acaba de obtener el B. ¿Debe llevar esta señal en el turismo?",
       "opciones": {
         "a": "Sí, durante un año.",
         "b": "Sí, durante dos años.",
-        "c": "No, porque ya ha sido titular de otro permiso durante al menos un año."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La señal V-13 la llevan quienes obtienen por primera vez un permiso de conducción, durante un año. No se considera que lo obtienen por primera vez quienes han sido titulares, con posesión efectiva durante al menos un año, de otro permiso de cualquier clase.",
@@ -15202,7 +15202,7 @@
       "subtema": "drogas",
       "enunciado": "¿Puede conducir una persona que tiene presencia de drogas en el organismo, aunque ya no note sus efectos?",
       "opciones": {
-        "a": "No, está prohibido conducir con presencia de drogas en el organismo.",
+        "a": "No.",
         "b": "Sí, si no nota los efectos.",
         "c": "Sí, si consumió el día anterior."
       },
@@ -15295,7 +15295,7 @@
       "subtema": "pruebas_drogas",
       "enunciado": "¿En qué consiste normalmente la prueba de detección de drogas que realizan los agentes de tráfico?",
       "opciones": {
-        "a": "En una prueba salival mediante un dispositivo autorizado y un posterior análisis de una muestra salival.",
+        "a": "En una prueba de saliva con un dispositivo autorizado y un análisis posterior.",
         "b": "En soplar en un etilómetro.",
         "c": "En una prueba de equilibrio y coordinación."
       },
@@ -15324,10 +15324,10 @@
       "id": "D-dro-0005",
       "tema": "alcohol_drogas",
       "subtema": "drogas",
-      "enunciado": "Un conductor toma un medicamento con una sustancia considerada droga, recetado por su médico con finalidad terapéutica, y está en condiciones de conducir con seguridad. ¿Comete la infracción de conducir con presencia de drogas?",
+      "enunciado": "Un conductor toma un medicamento recetado que contiene una droga y está en condiciones de conducir con seguridad. ¿Comete la infracción de conducir con presencia de drogas?",
       "opciones": {
         "a": "Sí, en cualquier caso.",
-        "b": "No, esas sustancias están excluidas si se está en condiciones de conducir con diligencia.",
+        "b": "No.",
         "c": "Solo si conduce de noche."
       },
       "correcta": "b",
@@ -15359,7 +15359,7 @@
       "opciones": {
         "a": "Reaccionar más rápido.",
         "b": "Calcular mejor las distancias.",
-        "c": "Necesitar más tiempo para reaccionar y poder dormirse conduciendo."
+        "c": "Tardar más en reaccionar y poder dormirse al volante."
       },
       "correcta": "c",
       "explicacion": "El cannabis puede alterar la percepción del entorno, hacer calcular peor las distancias, perder la concentración, necesitar más tiempo para reaccionar y dormirse conduciendo.",
@@ -15452,7 +15452,7 @@
       "opciones": {
         "a": "Llevar el reposacabezas a la altura de la cabeza.",
         "b": "Llevar el respaldo recto.",
-        "c": "Llevar el respaldo del asiento muy inclinado hacia atrás y el cinturón mal colocado."
+        "c": "Llevar el respaldo muy inclinado y el cinturón mal colocado."
       },
       "correcta": "c",
       "explicacion": "El efecto submarino ocurre porque el asiento está inclinado hacia atrás y el cinturón mal colocado. Para evitarlo hay que abrocharse bien el cinturón y no inclinar mucho el asiento.",
@@ -15512,9 +15512,9 @@
       "subtema": "postura",
       "enunciado": "Con el asiento bien ajustado, las piernas del conductor deben quedar...",
       "opciones": {
-        "a": "totalmente extendidas.",
-        "b": "ligeramente dobladas.",
-        "c": "dobladas en ángulo recto, con las rodillas tocando el volante."
+        "a": "Totalmente extendidas.",
+        "b": "Ligeramente dobladas.",
+        "c": "Dobladas en ángulo recto, con las rodillas tocando el volante."
       },
       "correcta": "b",
       "explicacion": "El asiento está bien ajustado cuando se llega bien a los pedales pudiendo pisarlos a fondo y las piernas no están extendidas del todo, sino ligeramente dobladas.",
@@ -15574,9 +15574,9 @@
       "subtema": "embrague",
       "enunciado": "Cuando se pisa a fondo el pedal de embrague...",
       "opciones": {
-        "a": "el movimiento del motor no se transmite a la caja de cambios ni a las ruedas.",
-        "b": "el vehículo frena con las cuatro ruedas.",
-        "c": "entra más combustible en el motor."
+        "a": "El movimiento del motor no llega a la caja de cambios ni a las ruedas.",
+        "b": "El vehículo frena con las cuatro ruedas.",
+        "c": "Entra más combustible en el motor."
       },
       "correcta": "a",
       "explicacion": "Al pisar a fondo el embrague, el movimiento del motor no se transmite a la caja de cambios ni a las ruedas, lo que permite cambiar de velocidad.",
@@ -15761,9 +15761,9 @@
       "materia": 15,
       "enunciado": "El reposacabezas, ¿a qué tipo de seguridad del vehículo pertenece?",
       "opciones": {
-        "a": "A la seguridad activa, porque ayuda a evitar el accidente.",
+        "a": "A la seguridad activa.",
         "b": "A ninguna; es un elemento de confort.",
-        "c": "A la seguridad pasiva, porque ayuda a que los ocupantes sufran menos daños en un accidente."
+        "c": "A la seguridad pasiva."
       },
       "correcta": "c",
       "explicacion": "El reposacabezas, igual que el cinturón y el airbag, es un elemento de seguridad pasiva: reduce los daños cuando el accidente ya se ha producido.",
@@ -15887,7 +15887,7 @@
       "opciones": {
         "a": "Por los dos laterales.",
         "b": "Por un solo lateral.",
-        "c": "Por el centro de la banda de rodadura."
+        "c": "Por el centro."
       },
       "correcta": "c",
       "explicacion": "Con exceso de presión el neumático apoya peor, se agarra menos y se desgasta más por el centro que por los lados.",
@@ -15945,7 +15945,7 @@
       "tema": "vehiculo",
       "subtema": "neumaticos_estado",
       "materia": 14,
-      "enunciado": "Según el manual de la DGT, ¿cada cuánto tiempo conviene cambiar los neumáticos, aunque parezcan en buen estado?",
+      "enunciado": "¿Cada cuánto tiempo conviene cambiar los neumáticos, aunque parezcan en buen estado?",
       "opciones": {
         "a": "Cada diez años.",
         "b": "Solo cuando el dibujo llegue a 1,6 mm.",
@@ -16007,11 +16007,11 @@
       "tema": "seguridad_activa",
       "subtema": "abs",
       "materia": 14,
-      "enunciado": "En una frenada de emergencia con un vehículo que tiene ABS, notas que el pedal del freno vibra. ¿Qué debes hacer?",
+      "enunciado": "En una frenada de emergencia con un vehículo con ABS, nota que el pedal del freno vibra. ¿Qué debe hacer?",
       "opciones": {
         "a": "Levantar el pie del freno y volver a pisarlo varias veces.",
         "b": "Soltar el freno, porque la vibración indica una avería.",
-        "c": "Seguir pisando el freno fuerte y a fondo hasta que el vehículo se pare."
+        "c": "Seguir pisando el freno fuerte hasta que el vehículo se pare."
       },
       "correcta": "c",
       "explicacion": "Con ABS, en una frenada de emergencia hay que pisar fuerte y a fondo y mantener el pedal pisado hasta la detención; la vibración es el funcionamiento normal del sistema.",
@@ -16071,9 +16071,9 @@
       "materia": 14,
       "enunciado": "¿Qué hacen las luces adaptativas?",
       "opciones": {
-        "a": "Se encienden solas cuando oscurece, sin cambiar la zona que iluminan.",
+        "a": "Se encienden solas al oscurecer, sin cambiar la zona que iluminan.",
         "b": "Aumentan siempre la potencia de las luces de cruce.",
-        "c": "Ajustan la intensidad de las luces y el lugar donde alumbran según las necesidades de cada momento, por ejemplo en las curvas."
+        "c": "Ajustan la intensidad y la zona que iluminan, por ejemplo en las curvas."
       },
       "correcta": "c",
       "explicacion": "Las luces adaptativas ajustan intensidad y zona iluminada; las angulares iluminan hacia el lado al que se gira, lo que ayuda a ver en las curvas.",
@@ -16131,11 +16131,11 @@
       "tema": "seguridad_pasiva",
       "subtema": "cinturon_colocacion",
       "materia": 15,
-      "enunciado": "¿Por dónde debe pasar la banda torácica (la del pecho) del cinturón de seguridad?",
+      "enunciado": "¿Por dónde debe pasar la banda del pecho del cinturón de seguridad?",
       "opciones": {
         "a": "Por encima del cuello, para sujetar mejor la cabeza.",
         "b": "Por el extremo del hombro, junto al brazo.",
-        "c": "Por la clavícula, entre el hombro y el cuello, bajando por el centro del pecho."
+        "c": "Por la clavícula, entre el hombro y el cuello."
       },
       "correcta": "c",
       "explicacion": "La cinta torácica debe pasar por la clavícula, entre hombro y cuello, y bajar por el centro del pecho. Sobre el cuello puede causar lesiones graves y sobre el hombro puede resbalar.",
@@ -16193,7 +16193,7 @@
       "tema": "seguridad_pasiva",
       "subtema": "cinturon_infraccion",
       "materia": 15,
-      "enunciado": "Según la Ley de Tráfico, no hacer uso del cinturón de seguridad, o no hacerlo de forma adecuada (por ejemplo, llevarlo flojo con una pinza), ¿qué tipo de infracción es?",
+      "enunciado": "No usar el cinturón de seguridad, o no usarlo bien, por ejemplo flojo con una pinza, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Leve.",
         "b": "Muy grave.",
@@ -16227,7 +16227,7 @@
       "enunciado": "El airbag frontal, ¿hace innecesario el cinturón de seguridad?",
       "opciones": {
         "a": "Sí, en los asientos delanteros que tienen airbag.",
-        "b": "No; hay que llevar siempre el cinturón, también para que el impacto contra el airbag sea menor.",
+        "b": "No, hay que llevar siempre el cinturón.",
         "c": "Solo en trayectos urbanos."
       },
       "correcta": "b",
@@ -16286,7 +16286,7 @@
       "tema": "seguridad_pasiva",
       "subtema": "sistemas_retencion_infantil",
       "materia": 15,
-      "enunciado": "Un menor que debe usar sistema de retención infantil viaja excepcionalmente en el asiento delantero, que tiene airbag frontal. ¿Puede usar una silla orientada hacia atrás?",
+      "enunciado": "Un menor que debe usar sistema de retención infantil viaja excepcionalmente delante, en un asiento con airbag frontal. ¿Puede usar una silla orientada hacia atrás?",
       "opciones": {
         "a": "Sí, siempre.",
         "b": "No, nunca.",
@@ -16317,10 +16317,10 @@
       "tema": "seguridad_pasiva",
       "subtema": "sistemas_retencion_infantil",
       "materia": 15,
-      "enunciado": "¿En qué caso puede un menor de 135 cm o menos ocupar el asiento delantero de un turismo (siempre con su sistema de retención)?",
+      "enunciado": "Con su sistema de retención, ¿en qué caso puede un menor de 135 cm o menos ir en el asiento delantero de un turismo?",
       "opciones": {
         "a": "Cuando el trayecto sea corto y urbano.",
-        "b": "Cuando todos los asientos traseros estén ya ocupados por menores que deben usar sistema de retención.",
+        "b": "Cuando los asientos traseros ya van ocupados por otros menores con sistema de retención.",
         "c": "Cuando lo autorice por escrito el padre o la madre."
       },
       "correcta": "b",
@@ -16412,8 +16412,8 @@
       "materia": 15,
       "enunciado": "¿Para qué sirve principalmente el reposacabezas?",
       "opciones": {
-        "a": "Para proteger el cuello y las cervicales en caso de un golpe brusco, como un alcance por detrás.",
-        "b": "Para que el conductor descanse la cabeza durante la conducción.",
+        "a": "Para proteger el cuello en un golpe brusco, como un alcance por detrás.",
+        "b": "Para que el conductor descanse la cabeza mientras conduce.",
         "c": "Para mejorar la postura del conductor y evitar la fatiga."
       },
       "correcta": "a",
@@ -16565,9 +16565,9 @@
       "tema": "seguridad_pasiva",
       "subtema": "casco",
       "materia": 15,
-      "enunciado": "El conductor de un patinete eléctrico (vehículo de movilidad personal), ¿debe llevar casco?",
+      "enunciado": "El conductor de un patinete eléctrico, ¿debe llevar casco?",
       "opciones": {
-        "a": "Sí, casco de protección homologado o certificado, adecuadamente abrochado.",
+        "a": "Sí, homologado o certificado y bien abrochado.",
         "b": "Solo si es menor de 16 años.",
         "c": "Solo cuando circule por vías interurbanas."
       },
@@ -16598,9 +16598,9 @@
       "materia": 14,
       "enunciado": "¿Qué hace el sistema de frenado autónomo de emergencia (AEB)?",
       "opciones": {
-        "a": "Hace parpadear las luces de freno cuando frenas fuerte.",
-        "b": "Evita que las ruedas se bloqueen cuando el conductor frena a fondo.",
-        "c": "Avisa al conductor si se acerca demasiado al vehículo de delante y, si no reacciona y hay peligro de accidente, realiza un frenado de emergencia."
+        "a": "Hace parpadear las luces de freno al frenar fuerte.",
+        "b": "Evita que las ruedas se bloqueen al frenar a fondo.",
+        "c": "Avisa si se acerca demasiado al de delante y, si no reacciona, frena solo."
       },
       "correcta": "c",
       "explicacion": "El AEB calcula la distancia con el vehículo de delante, avisa con voz y sonido y, si el conductor no hace caso y hay peligro, frena de emergencia.",
@@ -16627,9 +16627,9 @@
       "tema": "adas",
       "subtema": "ebd",
       "materia": 14,
-      "enunciado": "Según el manual de la DGT, ¿qué hace el sistema de aviso de frenada de emergencia (EBD)?",
+      "enunciado": "¿Qué hace el sistema de aviso de frenada de emergencia (EBD)?",
       "opciones": {
-        "a": "Hace parpadear las luces de freno del vehículo que frena de forma brusca, para avisar al de detrás.",
+        "a": "Hace parpadear las luces de freno al frenar bruscamente.",
         "b": "Frena el vehículo por sí solo ante un obstáculo.",
         "c": "Mide la presión de los neumáticos."
       },
@@ -16662,7 +16662,7 @@
       "opciones": {
         "a": "Mueve el volante para devolver el vehículo al centro del carril.",
         "b": "Detecta las señales de límite de velocidad.",
-        "c": "Avisa al conductor cuando hace un cambio de carril imprevisto, por ejemplo por distracción o sueño."
+        "c": "Avisa al conductor si se sale del carril sin querer, por distracción o sueño."
       },
       "correcta": "c",
       "explicacion": "El LDW avisa (luz, sonido o vibración) cuando el vehículo cambia de carril de forma imprevista.",
@@ -16724,7 +16724,7 @@
       "opciones": {
         "a": "Al adelantar en carretera convencional.",
         "b": "Al incorporarse a una autopista.",
-        "c": "Al circular marcha atrás, por ejemplo al salir de un aparcamiento."
+        "c": "Al circular marcha atrás, como al salir de un aparcamiento."
       },
       "correcta": "c",
       "explicacion": "El RCTA avisa si hay otros vehículos detrás cuando se circula marcha atrás, por ejemplo al salir de una plaza de aparcamiento.",
@@ -16755,7 +16755,7 @@
       "opciones": {
         "a": "De un satélite, a través del navegador.",
         "b": "De las cámaras de tráfico de la vía.",
-        "c": "De las cámaras del propio vehículo, que captan lo que hay a su alrededor."
+        "c": "De las cámaras del propio vehículo."
       },
       "correcta": "c",
       "explicacion": "La cámara de 360 grados capta todo lo que hay alrededor del vehículo y lo muestra en la pantalla delantera.",
@@ -16784,7 +16784,7 @@
       "materia": 14,
       "enunciado": "¿Qué hace el sistema de reconocimiento de señales de tráfico (TSR)?",
       "opciones": {
-        "a": "Detecta las señales de límite de velocidad de la carretera y las muestra al conductor.",
+        "a": "Detecta las señales de límite de velocidad y las muestra al conductor.",
         "b": "Detecta si el conductor tiene sueño.",
         "c": "Avisa si hay un vehículo en el ángulo muerto."
       },
@@ -16813,7 +16813,7 @@
       "tema": "adas",
       "subtema": "salida_pendiente",
       "materia": 14,
-      "enunciado": "¿Para qué sirve el sistema de ayuda de salida en pendiente (hill holder)?",
+      "enunciado": "¿Para qué sirve el sistema de ayuda de arranque en pendiente?",
       "opciones": {
         "a": "Para bajar pendientes sin usar el freno.",
         "b": "Para que el vehículo no se vaya hacia atrás al arrancar en una cuesta.",
@@ -16877,7 +16877,7 @@
       "materia": 16,
       "enunciado": "¿Qué efecto positivo tiene el sistema Start-Stop?",
       "opciones": {
-        "a": "Reduce el consumo de combustible y la contaminación, porque detiene el motor cuando el vehículo se para un momento.",
+        "a": "Reduce el consumo y la contaminación.",
         "b": "Mejora la frenada en pendientes.",
         "c": "Aumenta la potencia del motor al arrancar."
       },
@@ -17092,7 +17092,7 @@
       "tema": "condiciones_adversas",
       "subtema": "lluvia",
       "materia": 6,
-      "enunciado": "Con el suelo mojado, las ruedas de tu vehículo empiezan a patinar. ¿Qué debes hacer?",
+      "enunciado": "Con el suelo mojado, las ruedas del vehículo empiezan a patinar. ¿Qué debe hacer?",
       "opciones": {
         "a": "Frenar a fondo.",
         "b": "Levantar el pie del acelerador, pero sin frenar.",
@@ -17125,7 +17125,7 @@
       "materia": 6,
       "enunciado": "¿Por qué hay que tener especial cuidado cuando empiezan a caer las primeras gotas de lluvia?",
       "opciones": {
-        "a": "Porque el agua se mezcla con el polvo, la grasa y la suciedad de la carretera y forma un barro deslizante.",
+        "a": "Porque el agua forma con la suciedad de la carretera un barro deslizante.",
         "b": "Porque los limpiaparabrisas aún no funcionan bien.",
         "c": "Porque la visibilidad es peor que con lluvia intensa."
       },
@@ -17187,7 +17187,7 @@
       "materia": 6,
       "enunciado": "Para arrancar y circular en llano sobre nieve, ¿qué marcha conviene usar?",
       "opciones": {
-        "a": "Una marcha más larga (por ejemplo, segunda), que dé poca fuerza a las ruedas para que no patinen.",
+        "a": "Una marcha más larga, como la segunda, para que las ruedas no patinen.",
         "b": "Siempre primera, para tener la máxima fuerza.",
         "c": "Punto muerto, para que el vehículo ruede libremente."
       },
@@ -17216,10 +17216,10 @@
       "tema": "condiciones_adversas",
       "subtema": "nieve",
       "materia": 6,
-      "enunciado": "¿Cómo debes bajar una pendiente con la calzada nevada?",
+      "enunciado": "¿Cómo debe bajar una pendiente con la calzada nevada?",
       "opciones": {
         "a": "En una marcha larga, para no forzar el motor.",
-        "b": "En una marcha corta (primera o segunda), para que el motor retenga el vehículo.",
+        "b": "En una marcha corta, para que el motor retenga el vehículo.",
         "c": "En punto muerto, frenando suavemente."
       },
       "correcta": "b",
@@ -17309,11 +17309,11 @@
       "tema": "accidentes",
       "subtema": "obligacion_auxilio",
       "materia": 11,
-      "enunciado": "Presencias un accidente de tráfico en el que no estás implicado. ¿Tienes obligación de auxiliar o solicitar auxilio?",
+      "enunciado": "Quien presencia un accidente de tráfico sin estar implicado en él, ¿está obligado a auxiliar o a solicitar auxilio?",
       "opciones": {
-        "a": "No, esa obligación solo es de los implicados.",
-        "b": "Sí; quienes se vean implicados, lo presencien o tengan conocimiento de él están obligados a auxiliar o solicitar auxilio.",
-        "c": "Solo si tienes formación en primeros auxilios."
+        "a": "No, solo lo están los implicados.",
+        "b": "Sí.",
+        "c": "Solo si tiene formación en primeros auxilios."
       },
       "correcta": "b",
       "explicacion": "La obligación de auxiliar o pedir auxilio alcanza a los implicados, a quienes presencian el accidente y a quienes tienen conocimiento de él.",
@@ -17340,11 +17340,11 @@
       "tema": "accidentes",
       "subtema": "obligacion_auxilio",
       "materia": 11,
-      "enunciado": "Llegas a un accidente en el que no estás implicado y ya se encuentran allí los agentes de la autoridad. ¿Estás obligado a cumplir las medidas que se exigen a los implicados?",
+      "enunciado": "Llega a un accidente en el que no está implicado y ya están allí los agentes. ¿Está obligado a cumplir las medidas que se exigen a los implicados?",
       "opciones": {
         "a": "Sí, siempre.",
-        "b": "Sí, y además debes esperar hasta que se retiren los vehículos.",
-        "c": "No, porque la autoridad o sus agentes ya se han personado en el lugar."
+        "b": "Sí, y además debe esperar hasta que se retiren los vehículos.",
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "El usuario no implicado debe cumplir esas prescripciones salvo que manifiestamente no sea necesaria su colaboración o que la autoridad o sus agentes ya estén en el lugar.",
@@ -17371,10 +17371,10 @@
       "tema": "accidentes",
       "subtema": "obligacion_auxilio",
       "materia": 11,
-      "enunciado": "Si como implicado en un accidente aparentemente hay algún herido, ¿qué debes hacer?",
+      "enunciado": "Está implicado en un accidente y aparentemente hay algún herido. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Avisar a la autoridad o a sus agentes y permanecer o volver al lugar hasta su llegada, salvo que te autoricen a irte o debas atender a heridos.",
-        "b": "Marcharte si el otro conductor te ha dado sus datos.",
+        "a": "Avisar a los agentes y quedarse o volver al lugar hasta que lleguen, salvo excepciones.",
+        "b": "Marcharse si el otro conductor le ha dado sus datos.",
         "c": "Retirar inmediatamente los vehículos aunque haya pruebas en la calzada."
       },
       "correcta": "a",
@@ -17495,10 +17495,10 @@
       "tema": "accidentes",
       "subtema": "inmovilizacion",
       "materia": 11,
-      "enunciado": "Tu vehículo queda inmovilizado en la vía tras una avería, sin poder reemprender la marcha, y existe un lugar seguro fuera de la plataforma. ¿Qué deben hacer los ocupantes?",
+      "enunciado": "Su vehículo queda inmovilizado por avería, sin poder seguir, y hay un lugar seguro fuera de la plataforma. ¿Qué deben hacer los ocupantes?",
       "opciones": {
         "a": "Quedarse dentro con el cinturón abrochado en todo caso.",
-        "b": "Abandonar el vehículo por el lado contrario al flujo del tráfico, sin transitar ni permanecer en carriles y arcenes.",
+        "b": "Salir por el lado contrario al tráfico, sin quedarse en carriles ni arcenes.",
         "c": "Salir por el lado más cómodo y esperar en el arcén junto al vehículo."
       },
       "correcta": "b",
@@ -17560,7 +17560,7 @@
       "enunciado": "¿Dónde se puede rellenar el parte de accidente tras un siniestro?",
       "opciones": {
         "a": "En el arcén, junto a los vehículos, con el chaleco puesto.",
-        "b": "En un lugar seguro fuera de la vía; está prohibido hacerlo en la plataforma de circulación.",
+        "b": "En un lugar seguro fuera de la vía.",
         "c": "En la calzada, si se ha señalizado el accidente con la V-16."
       },
       "correcta": "b",
@@ -17619,10 +17619,10 @@
       "tema": "accidentes",
       "subtema": "senalizacion_v16",
       "materia": 11,
-      "enunciado": "¿Dónde se debe colocar el dispositivo luminoso V-16 en un vehículo inmovilizado?",
+      "enunciado": "¿Dónde se debe colocar el dispositivo luminoso de vehículo inmovilizado?",
       "opciones": {
         "a": "En la calzada, a 50 metros por detrás del vehículo.",
-        "b": "En la parte más alta posible del vehículo, para garantizar su máxima visibilidad.",
+        "b": "En la parte más alta posible del vehículo.",
         "c": "En el interior, junto al parabrisas."
       },
       "correcta": "b",
@@ -17650,10 +17650,10 @@
       "tema": "accidentes",
       "subtema": "senalizacion_v16",
       "materia": 11,
-      "enunciado": "Además de emitir luz, ¿qué hace el dispositivo V-16 cuando se activa?",
+      "enunciado": "Además de emitir luz, ¿qué hace el dispositivo luminoso de vehículo inmovilizado cuando se activa?",
       "opciones": {
-        "a": "Comunica su activación, desactivación y geoposicionamiento al punto de acceso nacional en materia de tráfico y movilidad (DGT).",
-        "b": "Hace sonar una alarma acústica para avisar a otros conductores.",
+        "a": "Comunica a la DGT su activación, desactivación y ubicación.",
+        "b": "Hace sonar una alarma para avisar a otros conductores.",
         "c": "Funciona solo si se conecta a una aplicación del teléfono móvil."
       },
       "correcta": "a",
@@ -17681,10 +17681,10 @@
       "tema": "accidentes",
       "subtema": "inmovilizacion",
       "materia": 11,
-      "enunciado": "Si por accidente o avería tu vehículo obstaculiza la calzada, ¿qué debes hacer?",
+      "enunciado": "Si por accidente o avería su vehículo obstaculiza la calzada, ¿qué debe hacer?",
       "opciones": {
-        "a": "Dejarlo donde está hasta que llegue la grúa, aunque se pudiera mover.",
-        "b": "Señalizarlo convenientemente y adoptar las medidas para que sea retirado cuanto antes, sacándolo de la calzada siempre que sea factible.",
+        "a": "Dejarlo donde está hasta que llegue la grúa, aunque se pueda mover.",
+        "b": "Señalizarlo y procurar que se retire cuanto antes, sacándolo de la calzada si es posible.",
         "c": "Retirarlo sin señalizarlo, para ganar tiempo."
       },
       "correcta": "b",
@@ -17743,7 +17743,7 @@
       "tema": "primeros_auxilios",
       "subtema": "casco",
       "materia": 11,
-      "enunciado": "Un motorista herido en un accidente lleva puesto el casco. ¿Qué debes hacer?",
+      "enunciado": "Un motorista herido en un accidente lleva puesto el casco. ¿Qué debe hacer?",
       "opciones": {
         "a": "Quitarle el casco para que respire mejor.",
         "b": "Aflojarle la correa y quitárselo con cuidado.",
@@ -17808,7 +17808,7 @@
       "enunciado": "En la reanimación cardiopulmonar de un adulto que no respira, ¿qué secuencia se recomienda?",
       "opciones": {
         "a": "15 compresiones y 1 ventilación.",
-        "b": "30 compresiones en el tórax y 2 ventilaciones boca a boca.",
+        "b": "30 compresiones y 2 ventilaciones.",
         "c": "2 compresiones y 30 ventilaciones."
       },
       "correcta": "b",
@@ -17836,7 +17836,7 @@
       "tema": "primeros_auxilios",
       "subtema": "posicion_lateral",
       "materia": 11,
-      "enunciado": "Un herido inconsciente respira con normalidad y tienes que dejarlo solo para atender a otros heridos. ¿Cómo debes dejarlo?",
+      "enunciado": "Un herido inconsciente respira con normalidad y tiene que dejarlo solo para atender a otros. ¿Cómo debe dejarlo?",
       "opciones": {
         "a": "Colocado de lado.",
         "b": "Boca arriba con la cabeza sobre una almohada.",
@@ -17871,7 +17871,7 @@
       "opciones": {
         "a": "Siempre que haya una herida que sangre.",
         "b": "En cualquier parte del cuerpo, como primera medida.",
-        "c": "Solo en brazos y piernas, cuando no han funcionado la compresión directa ni la arterial."
+        "c": "Solo en brazos y piernas, si no ha funcionado la compresión."
       },
       "correcta": "c",
       "explicacion": "El torniquete es el último recurso: solo en extremidades y cuando han fallado la compresión directa y la arterial.",
@@ -17900,7 +17900,7 @@
       "materia": 11,
       "enunciado": "Si se aplica un torniquete, ¿qué es importante anotar?",
       "opciones": {
-        "a": "La hora a la que se hizo y el lugar en el que se ha colocado.",
+        "a": "La hora y el lugar en que se colocó.",
         "b": "Solo el nombre del herido.",
         "c": "La matrícula del vehículo implicado."
       },
@@ -17929,7 +17929,7 @@
       "tema": "primeros_auxilios",
       "subtema": "hemorragias",
       "materia": 11,
-      "enunciado": "Un herido tiene un objeto clavado en el cuerpo que le provoca una hemorragia. ¿Qué debes hacer con el objeto?",
+      "enunciado": "Un herido tiene un objeto clavado que le provoca una hemorragia. ¿Qué debe hacer con el objeto?",
       "opciones": {
         "a": "Sacarlo con cuidado y presionar la herida.",
         "b": "No intentar sacarlo.",
@@ -18057,7 +18057,7 @@
       "opciones": {
         "a": "Sí, en vías interurbanas.",
         "b": "Sí, si el vehículo ha pasado la ITV.",
-        "c": "No, está prohibido tanto en vías urbanas como interurbanas."
+        "c": "No, ni en vías urbanas ni interurbanas."
       },
       "correcta": "c",
       "explicacion": "Se prohíbe la circulación de vehículos a motor y ciclomotores con escape libre, sin el preceptivo silenciador, en vías urbanas e interurbanas.",
@@ -18087,7 +18087,7 @@
       "enunciado": "¿Qué función tiene el catalizador?",
       "opciones": {
         "a": "Reducir el ruido de las explosiones del motor.",
-        "b": "Reducir la contaminación de los gases que salen por el tubo de escape.",
+        "b": "Reducir la contaminación de los gases de escape.",
         "c": "Refrigerar el motor."
       },
       "correcta": "b",
@@ -18177,10 +18177,10 @@
       "tema": "vehiculo",
       "subtema": "lubricacion",
       "materia": 14,
-      "enunciado": "Durante la marcha se enciende el testigo luminoso de presión de aceite. ¿Qué debes hacer?",
+      "enunciado": "Durante la marcha se enciende el testigo de presión de aceite. ¿Qué debe hacer?",
       "opciones": {
         "a": "Seguir circulando y revisarlo en la próxima revisión.",
-        "b": "Parar el vehículo y no continuar hasta conocer el problema y arreglarlo.",
+        "b": "Parar y no seguir hasta conocer el problema y arreglarlo.",
         "c": "Acelerar para que suba la presión."
       },
       "correcta": "b",
@@ -18334,9 +18334,9 @@
       "materia": 14,
       "enunciado": "Respecto a la rueda de repuesto, ¿qué debe llevar un turismo?",
       "opciones": {
-        "a": "Siempre una rueda completa de repuesto, sin alternativa posible.",
-        "b": "Una rueda de repuesto o de uso temporal con las herramientas para el cambio, o un sistema alternativo que garantice la movilidad.",
-        "c": "Nada; la rueda de repuesto es opcional."
+        "a": "Siempre una rueda completa de repuesto, sin alternativa.",
+        "b": "Una rueda de repuesto o temporal con herramientas, o un sistema alternativo equivalente.",
+        "c": "Nada, porque la rueda de repuesto es opcional."
       },
       "correcta": "b",
       "explicacion": "La dotación incluye una rueda completa de repuesto o de uso temporal con las herramientas para cambiarla, o un sistema alternativo con garantías suficientes (por ejemplo, un kit antipinchazos).",
@@ -18456,7 +18456,7 @@
       "tema": "conduccion_preventiva",
       "subtema": "angulo_muerto",
       "materia": 4,
-      "enunciado": "Antes de cambiar de carril, ¿cómo puedes comprobar que no hay ningún vehículo en el ángulo muerto?",
+      "enunciado": "Antes de cambiar de carril, ¿cómo puede comprobar que no hay ningún vehículo en el ángulo muerto?",
       "opciones": {
         "a": "Solo mirando el retrovisor interior.",
         "b": "Girando la cabeza y mirando a través de la ventanilla.",
@@ -18487,11 +18487,11 @@
       "tema": "conduccion_preventiva",
       "subtema": "espacio_trasero",
       "materia": 5,
-      "enunciado": "El vehículo que circula detrás de ti se acerca demasiado. ¿Qué es lo más aconsejable?",
+      "enunciado": "El vehículo que circula detrás se acerca demasiado. ¿Qué es lo más aconsejable?",
       "opciones": {
         "a": "Frenar de golpe para que se aparte.",
         "b": "Dejar más distancia de seguridad con el vehículo de delante.",
-        "c": "Acelerar para alejarte de él."
+        "c": "Acelerar para alejarse de él."
       },
       "correcta": "b",
       "explicacion": "Si el de detrás se acerca mucho, hay que dejar más distancia con el de delante para no tener que frenar bruscamente, señalizar con más tiempo y frenar con suavidad.",
@@ -18615,7 +18615,7 @@
       "opciones": {
         "a": "No influye.",
         "b": "Lo reduce, porque mejora la estabilidad.",
-        "c": "Lo aumenta, porque al vehículo le cuesta más vencer la resistencia del aire."
+        "c": "Lo aumenta."
       },
       "correcta": "c",
       "explicacion": "Elementos como la baca o los deflectores aumentan la resistencia al aire y el consumo; es mejor llevar el equipaje en el maletero.",
@@ -18739,7 +18739,7 @@
       "opciones": {
         "a": "De su antigüedad únicamente.",
         "b": "De su potencia y cilindrada.",
-        "c": "De su nivel de emisiones y el combustible empleado (potencial contaminante)."
+        "c": "De su potencial contaminante."
       },
       "correcta": "c",
       "explicacion": "Los vehículos se clasifican en el Registro según su potencial contaminante, en relación con su nivel de emisiones y el combustible empleado.",
@@ -18921,10 +18921,10 @@
       "tema": "distintivos_ambientales",
       "subtema": "uso_compartido",
       "materia": 16,
-      "enunciado": "El distintivo de uso compartido (V-26), en un vehículo con parabrisas, ¿dónde se coloca preferentemente?",
+      "enunciado": "El distintivo de uso compartido, en un vehículo con parabrisas, ¿dónde se coloca preferentemente?",
       "opciones": {
         "a": "En el ángulo inferior derecho del parabrisas.",
-        "b": "En el ángulo superior izquierdo del parabrisas, por su cara interior.",
+        "b": "En el ángulo superior izquierdo del parabrisas, por dentro.",
         "c": "En la parte trasera del vehículo."
       },
       "correcta": "b",

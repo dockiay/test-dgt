@@ -1,0 +1,500 @@
+{
+  "version": 1,
+  "fecha": "2026-11-24",
+  "video": "video4",
+  "leyenda": {
+    "error": "El vídeo se equivoca",
+    "matiz": "Hay que matizarlo",
+    "correcta": "El vídeo acierta",
+    "no_norma": "No es una norma (consejo o explicación)",
+    "sin_fuente": "No se puede confirmar con las fuentes oficiales"
+  },
+  "resoluciones": [
+    {
+      "id": "v4a-rev-0014",
+      "afirmacion_del_video": "La marca vial del aspa con las letras PN está siempre que vayamos a pasar un paso a nivel.",
+      "minuto": "3:40",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El Reglamento dice que la marca M-7.5 indica la proximidad de un paso a nivel en el que hay que ceder el paso al tren o tranvía, pero no dice que se pinte siempre. En el examen: indica la proximidad de un paso a nivel.",
+      "fuente": "Reglamento General de Circulación, anexo (marcas viales, M-7.5)",
+      "norma": "RGC",
+      "cita": "Marca de paso a nivel (M-7.5): indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-mv-0036",
+        "B1-pri-0068"
+      ]
+    },
+    {
+      "id": "v4a-rev-0002",
+      "afirmacion_del_video": "La señal con dos personas con bastón (P-21b) advierte de una zona frecuentada por personas mayores, como una residencia de ancianos.",
+      "minuto": "6:45",
+      "veredicto": "error",
+      "lo_correcto": "La P-21b se llama «Personas con dificultades motrices» y advierte de un lugar frecuentado por personas con dificultades motrices o sensoriales, no específicamente por personas mayores.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal P-21b",
+      "norma": "RGC_CATALOGO",
+      "cita": "Peligro por la proximidad de un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+      "preguntas_nuevas": [
+        "v4a-sen-0006"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4a-rev-0015",
+      "afirmacion_del_video": "El viento lateral es el más peligroso.",
+      "minuto": "7:39",
+      "veredicto": "no_norma",
+      "lo_correcto": "Es una explicación del profesor. La señal P-29 advierte de una zona donde sopla frecuentemente viento fuerte en dirección transversal.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal P-29",
+      "norma": "RGC_CATALOGO",
+      "cita": "Peligro por la proximidad de una zona donde sopla frecuentemente viento fuerte en dirección transversal.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0093"
+      ]
+    },
+    {
+      "id": "v4a-rev-0016",
+      "afirmacion_del_video": "La señal de obstrucción en la calzada (P-32) avisa de un obstáculo, que no tiene por qué ser un coche volcado.",
+      "minuto": "7:51",
+      "veredicto": "matiz",
+      "lo_correcto": "La P-32 advierte de un lugar en que hay vehículos que obstruyen la calzada por avería, accidente u otras causas; el obstáculo son vehículos.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal P-32",
+      "norma": "RGC_CATALOGO",
+      "cita": "Peligro por la proximidad de un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0096"
+      ]
+    },
+    {
+      "id": "v4a-rev-0003",
+      "afirmacion_del_video": "La señal de «otros peligros» (signo de admiración) se usa, por ejemplo, para obras o salida de camiones.",
+      "minuto": "8:10",
+      "veredicto": "error",
+      "lo_correcto": "La P-50 indica un peligro distinto de los advertidos por otras señales. Las obras tienen su propia señal, la P-18, así que el ejemplo de las obras es incorrecto.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales P-50 y P-18",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica la proximidad de un peligro distinto de los advertidos por otras señales.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0099"
+      ]
+    },
+    {
+      "id": "v4a-rev-0017",
+      "afirmacion_del_video": "Cuando la señal de calzada con prioridad está tachada significa fin de la calzada con prioridad.",
+      "minuto": "9:41",
+      "veredicto": "matiz",
+      "lo_correcto": "La R-4 «Fin de prioridad» indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad; avisa con antelación.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-4",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0100"
+      ]
+    },
+    {
+      "id": "v4a-rev-0010",
+      "afirmacion_del_video": "La R-103 es entrada prohibida a vehículos de motor excepto motocicletas de dos ruedas sin sidecar.",
+      "minuto": "11:21",
+      "veredicto": "matiz",
+      "lo_correcto": "En el catálogo vigente se llama «excepto motocicletas de dos ruedas» y tampoco prohíbe el acceso a los vehículos de tres ruedas asimilados a motocicletas.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-103",
+      "norma": "RGC_CATALOGO",
+      "cita": "No prohíbe el acceso a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0106"
+      ]
+    },
+    {
+      "id": "v4a-rev-0018",
+      "afirmacion_del_video": "La señal de separación mínima prohíbe circular sin dejar 70 m con el de delante.",
+      "minuto": "15:23",
+      "veredicto": "matiz",
+      "lo_correcto": "Prohíbe circular sin mantener esa separación con el vehículo precedente, excepto cuando se vaya a efectuar la maniobra de adelantamiento.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-300",
+      "norma": "RGC_CATALOGO",
+      "cita": "separación igual o mayor a la indicada en la señal, excepto cuando se vaya a efectuar la maniobra de adelantamiento.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0119"
+      ]
+    },
+    {
+      "id": "v4a-rev-0005",
+      "afirmacion_del_video": "La señal R-112 solo prohíbe a los remolques; no afecta a los semirremolques.",
+      "minuto": "15:43",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El catálogo dice que prohíbe el acceso a vehículos de motor con remolque, exceptuando los de un solo eje; no menciona los semirremolques. En el examen, quédate con eso: prohíbe vehículos con remolque salvo los de un solo eje.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-112",
+      "norma": "RGC_CATALOGO",
+      "cita": "Prohibición de acceso a vehículos de motor con remolque exceptuando los de un solo eje.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0113"
+      ]
+    },
+    {
+      "id": "v4a-rev-0004",
+      "afirmacion_del_video": "Si la señal de entrada prohibida a vehículos con remolque lleva «2 t», solo afecta a los remolques que pesen más de 2 toneladas.",
+      "minuto": "17:24",
+      "veredicto": "matiz",
+      "lo_correcto": "La cifra se refiere a la masa máxima autorizada del remolque, no a lo que pese en ese momento: un remolque vacío con masa máxima autorizada superior a la cifra tampoco puede entrar.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-112",
+      "norma": "RGC_CATALOGO",
+      "cita": "significa que la prohibición de paso solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra.",
+      "preguntas_nuevas": [
+        "v4a-sen-0011"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0113"
+      ]
+    },
+    {
+      "id": "v4a-rev-0001",
+      "afirmacion_del_video": "La señal de adelantamiento prohibido para camiones prohíbe adelantar a los camiones y furgonetas.",
+      "minuto": "18:51",
+      "veredicto": "error",
+      "lo_correcto": "La R-306 solo prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg. No afecta a furgonetas ni a autobuses.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-306",
+      "norma": "RGC_CATALOGO",
+      "cita": "Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kilogramos de adelantar",
+      "preguntas_nuevas": [
+        "v4a-sen-0017"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0124"
+      ]
+    },
+    {
+      "id": "v4a-rev-0013",
+      "afirmacion_del_video": "Si la limitación de velocidad está en el mismo poste que una señal de peligro, termina al pasar el peligro; pero eso no vale para la prohibición de adelantar, que sigue hasta su señal de fin.",
+      "minuto": "20:03",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto: la regla de terminar con el peligro solo la prevé el catálogo para la velocidad máxima (R-301). El adelantamiento prohibido (R-305) dura hasta la señal de fin de prohibición de adelantamiento o de fin de prohibiciones.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales R-301 y R-305",
+      "norma": "RGC_CATALOGO",
+      "cita": "salvo que esté colocada en el mismo poste que una señal de advertencia de peligro o en el mismo panel que esta, en cuyo caso la prohibición finaliza cuando termine el peligro señalado.",
+      "preguntas_nuevas": [
+        "v4a-sen-0016"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "res-sen-0004"
+      ]
+    },
+    {
+      "id": "v4a-rev-0009",
+      "afirmacion_del_video": "La parada dura menos de 2 minutos, pero eso no significa que no puedas salir del vehículo.",
+      "minuto": "21:09",
+      "veredicto": "matiz",
+      "lo_correcto": "La parada es una inmovilización de menos de dos minutos sin que el conductor pueda abandonar el vehículo. Si te alejas de él (por ejemplo, para entrar en una tienda), aunque sea poco tiempo, ya es un estacionamiento.",
+      "fuente": "Ley de Tráfico, anexo I, definición 81",
+      "norma": "LSV",
+      "cita": "Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-par-0001",
+        "A-par-0003"
+      ]
+    },
+    {
+      "id": "v4a-rev-0008",
+      "afirmacion_del_video": "En el zigzag amarillo está prohibido estacionar, pero se puede parar un momento para bajar las maletas.",
+      "minuto": "21:54",
+      "veredicto": "matiz",
+      "lo_correcto": "El zigzag amarillo (M-7.9) prohíbe el estacionamiento porque el lugar está reservado a un uso especial, normalmente paradas de autobús o carga y descarga. Si es una parada de transporte público urbano, también está prohibido parar.",
+      "fuente": "Reglamento General de Circulación, anexo (marcas viales, M-7.9) y art. 94.1.i",
+      "norma": "RGC",
+      "cita": "indica el lugar de la calzada en que el estacionamiento está prohibido a los vehículos en general, por estar reservado para algún uso especial",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-par-0006",
+        "B2-mv-0041"
+      ]
+    },
+    {
+      "id": "v4a-rev-0007",
+      "afirmacion_del_video": "Delante de un vado (puerta de garaje) no se puede estacionar, pero sí parar un momento.",
+      "minuto": "23:50",
+      "veredicto": "matiz",
+      "lo_correcto": "La señal de vado solo prohíbe el estacionamiento, pero el Reglamento considera parada en lugar que obstaculiza gravemente la circulación la que impide usar con normalidad un vado señalizado. Parar sin bloquear el vado no está prohibido; bloquearlo, sí.",
+      "fuente": "Reglamento General de Circulación, arts. 91.2.c y 94.2.f; catálogo, señal R-308e",
+      "norma": "RGC",
+      "cita": "Cuando se obstaculice la utilización normal del paso de salida o acceso a un inmueble de personas o animales, o de vehículos en un vado señalizado correctamente.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-par-0014"
+      ]
+    },
+    {
+      "id": "v4a-rev-0006",
+      "afirmacion_del_video": "La señal de zona de estacionamiento limitado significa «prohibido estacionar» porque es zona azul (OTA, ORA) y hay que pagar.",
+      "minuto": "23:57",
+      "veredicto": "matiz",
+      "lo_correcto": "La R-309 indica una zona de estacionamiento de duración limitada en la que hay que indicar la hora de comienzo; no es una prohibición. Puede indicar también si el estacionamiento es de pago.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-309",
+      "norma": "RGC_CATALOGO",
+      "cita": "Zona de estacionamiento de duración limitada y obligación para el conductor de indicar, de forma reglamentaria, la hora",
+      "preguntas_nuevas": [
+        "v4a-sen-0021"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4a-rev-0011",
+      "afirmacion_del_video": "La señal azul con un turismo es vía obligatoria para vehículos de motor.",
+      "minuto": "25:01",
+      "veredicto": "matiz",
+      "lo_correcto": "La R-404 es «Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas» (y vehículos de tres ruedas asimilados).",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-404",
+      "norma": "RGC_CATALOGO",
+      "cita": "Obligación para los conductores de automóviles, excepto motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0127"
+      ]
+    },
+    {
+      "id": "v4a-rev-0012",
+      "afirmacion_del_video": "Las calzadas obligatorias para camiones, motos o automóviles no excluyen a los demás usuarios; las de ciclos, ciclomotores, peatones, VMP y animales de montura sí son exclusivas.",
+      "minuto": "25:22",
+      "veredicto": "correcta",
+      "lo_correcto": "Las señales «reservadas y obligatorias» (R-407a, R-407b, R-409, R-410, R-420, R-421) prohíben expresamente a los demás usuarios utilizarlas; las demás (R-404, R-405, R-406, R-408, R-419...) solo obligan a sus destinatarios.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales R-404 a R-421",
+      "norma": "RGC_CATALOGO",
+      "cita": "Obligación para los conductores de ciclos de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios",
+      "preguntas_nuevas": [
+        "v4a-sen-0027"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0129",
+        "B1-sen-0130",
+        "B1-sen-0131",
+        "B1-sen-0132",
+        "B1-sen-0133"
+      ]
+    },
+    {
+      "id": "v4b-rev-0006",
+      "afirmacion_del_video": "A partir de la señal «Túnel» (S-5) hay que llevar encendidas las luces de cruce.",
+      "minuto": "29:06",
+      "veredicto": "matiz",
+      "lo_correcto": "En los tramos con la señal S-5 hay que llevar el alumbrado encendido a cualquier hora del día. Si el túnel está suficientemente iluminado, posición y cruce; si está insuficientemente iluminado y se circula a más de 40 km/h, la luz de largo alcance, salvo que haya que usar la de cruce para no deslumbrar.",
+      "fuente": "Reglamento General de Circulación, arts. 98.1 y 100.1",
+      "norma": "RGC",
+      "cita": "Todos los vehículos que circulen entre el ocaso y la salida del sol o a cualquier hora del día en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5)",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-luz-0002",
+        "res-luc-0001"
+      ]
+    },
+    {
+      "id": "v4b-rev-0005",
+      "afirmacion_del_video": "La señal cuadrada azul con un 70 «en un túnel» recomienda ir como mucho a 70 km/h.",
+      "minuto": "29:09",
+      "veredicto": "matiz",
+      "lo_correcto": "La S-7 (velocidad máxima aconsejada) no es propia de los túneles: puede ponerse en cualquier vía. Recomienda no sobrepasar esa velocidad aunque las condiciones sean favorables; no es obligatoria.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal S-7",
+      "norma": "RGC_CATALOGO",
+      "cita": "que se aconseja no sobrepasar aunque las condiciones meteorológicas y ambientales de la vía y de la circulación sean favorables.",
+      "preguntas_nuevas": [
+        "v4b-sen-0037"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4b-rev-0008",
+      "afirmacion_del_video": "La señal cuadrada de sentido único (flecha hacia arriba) no obliga a seguir de frente ni prohíbe girar; la redonda de sentido obligatorio sí («no confundir la redonda y la cuadrada»).",
+      "minuto": "29:41",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto. La S-11 solo indica que la calzada es de sentido único y prohíbe circular en sentido contrario. La R-400 (redonda azul) obliga a seguir la dirección de la flecha.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-11 y R-400",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica que en la calzada de un carril que se prolonga en la dirección de la flecha los vehículos deben circular en el sentido indicado por esta",
+      "preguntas_nuevas": [
+        "v4b-sen-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0125"
+      ]
+    },
+    {
+      "id": "v4b-rev-0011",
+      "afirmacion_del_video": "En la zona de estancia y juego también pueden circular, «salvo que ponga una señal», los ciclos y los vehículos de movilidad personal.",
+      "minuto": "33:18",
+      "veredicto": "matiz",
+      "lo_correcto": "Lo que dice el catálogo es más concreto: en la zona de estancia y juego (S-28) y en la zona de coexistencia (S-47) los ciclos y, en su caso, los VMP pueden circular en ambos sentidos, salvo que la autoridad competente establezca lo contrario.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-28 y S-47",
+      "norma": "RGC_CATALOGO",
+      "cita": "o por marcas; los ciclos y, en su caso, los VMP, pueden circular en ambos sentidos",
+      "preguntas_nuevas": [
+        "v4b-sen-0006"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4b-rev-0003",
+      "afirmacion_del_video": "En una zona peatonal (S-30a) los vehículos no pueden entrar: su velocidad máxima es «nada».",
+      "minuto": "34:59",
+      "veredicto": "matiz",
+      "lo_correcto": "La S-30a indica una zona reservada al uso peatonal, pero el ayuntamiento puede autorizar por ordenanza que circulen ciclistas y vehículos de movilidad personal, respetando siempre la prioridad de los peatones.",
+      "fuente": "Reglamento General de Circulación, art. 152.1",
+      "norma": "RGC",
+      "cita": "En el resto de zonas peatonales, la autoridad municipal podrá autorizar, mediante ordenanza, la coexistencia de peatones con ciclistas y usuarios de vehículos de movilidad personal, respetando la prioridad de los peatones.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-via-0012"
+      ]
+    },
+    {
+      "id": "v4b-rev-0009",
+      "afirmacion_del_video": "Una carretera multicarril es la que tiene dos carriles «o incluso una mediana y dos calzadas».",
+      "minuto": "35:18",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Ni la Ley de Tráfico ni el RGC definen la carretera multicarril, y el catálogo (S-1b) solo dice que con ella empiezan unas reglas especiales de circulación. No hay que aprenderse esa definición del vídeo. Lo seguro es que no es autopista ni autovía: tiene sus propias señales de identificación y de orientación.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal S-1b; LSV anexo I (sin definición)",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica el principio de una carretera multicarril y, por tanto, el lugar a partir del cual se aplican las reglas especiales de circulación en este tipo de vía.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4b-rev-0007",
+      "afirmacion_del_video": "La señal cuadrada de vía reservada para ciclos (S-35) no obliga al ciclista a ir por ella; la redonda (R-407a) sí («pregunta de test»).",
+      "minuto": "37:18",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto. Si hay carril bici o vía ciclista, su uso es preferente para el ciclista; solo es obligatorio si se señaliza con la señal redonda R-407a. Los demás vehículos no pueden usar ninguna de las dos.",
+      "fuente": "Reglamento General de Circulación, art. 153.1; catálogo, señales S-35 y R-407a",
+      "norma": "RGC",
+      "cita": "Si hay carril bici o vía específica, su uso es preferente, si bien la autoridad competente podrá hacerlo obligatorio mediante la señal R–407a.",
+      "preguntas_nuevas": [
+        "v4b-sen-0009"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-cic-0009",
+        "B2-cic-0010"
+      ]
+    },
+    {
+      "id": "v4b-rev-0010",
+      "afirmacion_del_video": "Las señales de carriles con velocidad mínima significan que, si vas a adelantar por el carril central o el izquierdo, tienes que hacerlo como mínimo a 70 km/h.",
+      "minuto": "39:21",
+      "veredicto": "matiz",
+      "lo_correcto": "El carril con la señal de velocidad mínima solo pueden usarlo los vehículos que circulen a esa velocidad o más, adelanten o no. Además, si las circunstancias lo permiten, hay que circular por el carril de la derecha.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-50a a S-50e",
+      "norma": "RGC_CATALOGO",
+      "cita": "ampliación de un carril por la izquierda que solo puede ser utilizado por los vehículos que circulen a velocidad igual o superior a la indicada",
+      "preguntas_nuevas": [
+        "v4b-sen-0011"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4b-rev-0004",
+      "afirmacion_del_video": "Con el avanza moto o bici, si vas en moto o en bici puedes pasar entre los coches parados en el semáforo para colocarte el primero.",
+      "minuto": "40:49",
+      "veredicto": "matiz",
+      "lo_correcto": "El RGC solo autoriza expresamente a los ciclistas a rebasar a los vehículos detenidos en intersecciones con semáforo y en retenciones para llegar a la zona de espera adelantada. Para las motos no hay una autorización equivalente. Lo que sí es seguro: con el semáforo en rojo, ese espacio solo pueden ocuparlo los vehículos indicados (ciclos, VMP, motocicletas o ciclomotores).",
+      "fuente": "Reglamento General de Circulación, art. 153.5",
+      "norma": "RGC",
+      "cita": "En intersecciones reguladas por semáforo y en retenciones de tráfico podrán rebasar a los vehículos que se encuentren detenidos o sometidos a paradas frecuentes",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-mv-0045"
+      ]
+    },
+    {
+      "id": "v4b-rev-0013",
+      "afirmacion_del_video": "En autopista, el cartel que preseñaliza una salida sigue siendo azul aunque la salida lleve a una carretera convencional; en la salida, el cartel blanco indica que se va por carretera convencional.",
+      "minuto": "45:11",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto. En autopistas y autovías la preseñalización es azul hacia cualquier tipo de carretera (S-225, S-235). En el punto de salida, el cartel blanco (S-352) indica que la salida lleva a una carretera convencional o multicarril, y el azul (S-353), a una autopista o autovía.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-225, S-235, S-352 y S-353",
+      "norma": "RGC_CATALOGO",
+      "cita": "esta dirige hacia una carretera convencional o hacia una carretera multicarril.",
+      "preguntas_nuevas": [
+        "v4b-sen-0021",
+        "v4b-sen-0022"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4b-rev-0012",
+      "afirmacion_del_video": "Con la salida «exclusiva» hacia un área o vía de servicio, al terminar no queda otra que volver a entrar en la autopista; con la «compartida» la salida lleva también a otra población.",
+      "minuto": "47:41",
+      "veredicto": "no_norma",
+      "lo_correcto": "El catálogo solo distingue si la salida hacia los servicios es exclusiva o compartida con una salida hacia otra carretera. Lo de tener que volver a la autopista es una explicación del profesor, no una regla. Para el examen basta con saber que en autopista o autovía los carteles son azules y en carretera convencional, blancos.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-344 y S-347",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica el lugar de salida hacia una zona, área o vía de servicios, siendo esta coincidente con una salida hacia una autopista o una autovía.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4b-rev-0014",
+      "afirmacion_del_video": "Carreteras autonómicas: primer nivel naranja, segundo marrón y tercero amarillo («no me acuerdo»); nacionales en rojo; itinerario europeo en verde.",
+      "minuto": "50:39",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto según los dibujos del catálogo vigente: E en verde (S-400), autopistas y autovías en azul (S-410), Estado en rojo (S-420), autonómicas de primer nivel en naranja (S-430), de segundo en marrón (S-440) y de tercero en amarillo (S-450).",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-400 a S-450 (págs. 178-179)",
+      "norma": "RGC_CATALOGO",
+      "cita": "Identifica una carretera de tercer nivel, que no sea autopista o autovía, perteneciente a una red diferente de la del Estado.",
+      "preguntas_nuevas": [
+        "v4b-sen-0023",
+        "v4b-sen-0024"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "res-sen-0001",
+        "res-sen-0002"
+      ]
+    },
+    {
+      "id": "v4b-rev-0001",
+      "afirmacion_del_video": "En las señales de uso específico en poblado, el color púrpura o «cardenal» indica lugares culturales o monumentales (iglesias, catedrales, universidades, el acueducto de Segovia).",
+      "minuto": "53:15",
+      "veredicto": "error",
+      "lo_correcto": "En el catálogo vigente no hay señales moradas. Los monumentos, castillos, museos y lugares históricos o artísticos van en marrón (S-730), junto con los geográficos y ecológicos. Los lugares de interés cultural (universidades, bibliotecas, teatros) van en blanco (S-740).",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-730 y S-740 (pág. 190; el color se ve en el dibujo)",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica los lugares de interés cultural tales como universidades, centros culturales, bibliotecas, teatros, etc.",
+      "preguntas_nuevas": [
+        "v4b-sen-0026"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4b-rev-0002",
+      "afirmacion_del_video": "En las señales de uso específico en poblado, las zonas industriales se indican en color gris («color humo»).",
+      "minuto": "53:34",
+      "veredicto": "error",
+      "lo_correcto": "Las zonas de uso industrial se indican con fondo blanco y letras negras (S-750). No hay señales grises.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal S-750 (pág. 190; el color se ve en el dibujo)",
+      "norma": "RGC_CATALOGO",
+      "cita": "S-750 Zonas de uso industrial Indica las zonas de importante atracción de camiones",
+      "preguntas_nuevas": [
+        "v4b-sen-0027"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v4b-rev-0015",
+      "afirmacion_del_video": "Un panel de «3 m» bajo la señal de estrechamiento no indica que el peligro empiece a 3 m, sino que como mínimo quedan 3 m de anchura.",
+      "minuto": "54:22",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto. Bajo la señal de estrechamiento de calzada, el panel S-800 puede indicar la anchura libre del estrechamiento. Normalmente ese panel indica la distancia hasta el comienzo del peligro, y la longitud del tramo se indica con la cifra entre flechas (S-810).",
+      "fuente": "Catálogo de señales (RGC anexo I), paneles S-800 y S-810",
+      "norma": "RGC_CATALOGO",
+      "cita": "advertencia de peligro por estrechamiento de calzada, puede indicar la anchura libre del citado estrechamiento.",
+      "preguntas_nuevas": [
+        "v4b-sen-0029"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-sen-0005"
+      ]
+    }
+  ]
+}

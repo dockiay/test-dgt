@@ -1,0 +1,2846 @@
+{
+  "version": 1,
+  "descripcion": "Preguntas sacadas del vídeo video4 (Señales verticales actualizadas) y comprobadas contra la norma.",
+  "normativa_consultada": {
+    "RGC_CATALOGO": {
+      "ref": "BOE-A-2003-23514, Anexo I (catálogo de señales, págs. 89-209 del PDF consolidado)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      "ultima_actualizacion": "2026-06-26",
+      "nota": "OCR corregido; colores comprobados en la imagen de cada ficha"
+    },
+    "RGC": {
+      "ref": "BOE-A-2003-23514",
+      "nombre": "Reglamento General de Circulación (RD 1428/2003)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      "ultima_actualizacion": "2026-06-26"
+    }
+  },
+  "preguntas": [
+    {
+      "id": "v4a-sen-0001",
+      "tema": "senales",
+      "subtema": "senales_peligro",
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un tramo con varios accesos directos a la vía, cuyos usuarios deben ceder el paso.",
+        "b": "De una intersección en la que rige la regla general de prioridad de la derecha.",
+        "c": "De un tramo en el que usted debe ceder el paso a los vehículos que salen de los accesos."
+      },
+      "correcta": "a",
+      "explicacion": "La señal P-1e «Tramo con accesos directos» advierte de un tramo con varios accesos directos a la vía; quienes salen de esos accesos deben ceder el paso a quien circula por la vía.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-1e",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Peligro por la proximidad de un tramo en el que existen varios accesos directos a la vía, debiendo ceder el paso los usuarios de dichos accesos directos.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 89
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "1:34"
+      },
+      "imagen": {
+        "src": "img/senales/P-1e.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-1e: Tramo con accesos directos",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 89 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-1e",
+        "descripcion": "Tramo con accesos directos"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0002",
+      "tema": "senales",
+      "subtema": "paso_a_nivel",
+      "enunciado": "Esta baliza está colocada junto al borde de la calzada. ¿Qué indica?",
+      "opciones": {
+        "a": "Un paso a nivel con barreras a 100 m.",
+        "b": "Un paso a nivel, un puente móvil o un muelle a 150 m.",
+        "c": "El final de un carril de aceleración a 150 m."
+      },
+      "correcta": "b",
+      "explicacion": "Las balizas de aproximación P-9 (lado derecho) y P-10 (lado izquierdo) anuncian un paso a nivel, un puente móvil o un muelle: tres franjas a 200 m, dos franjas a 150 m y una franja a 100 m. La de dos franjas, como la P-10b, indica 150 m.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-10b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 150 m. Esta baliza se sitúa en el lado izquierdo",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 91
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "4:15"
+      },
+      "imagen": {
+        "src": "img/senales/P-10b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-10b: Aproximación a un paso a nivel, puente móvil o muelle (150 m, lado izquierdo)",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 91 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-10b",
+        "descripcion": "Baliza rectangular vertical blanca con dos franjas rojas oblicuas (P-10b, lado izquierdo)."
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0003",
+      "tema": "senales",
+      "subtema": "senales_peligro",
+      "enunciado": "¿De qué advierte esta señal de peligro?",
+      "opciones": {
+        "a": "De un tramo con escalón lateral.",
+        "b": "De una zona con desprendimientos.",
+        "c": "De un resalte o badén en la vía o de pavimento en mal estado."
+      },
+      "correcta": "c",
+      "explicacion": "La señal P-15 «Perfil irregular» advierte de la proximidad de un resalte o badén en la vía o de pavimento en mal estado. Para un resalte o un badén concretos existen las señales P-15a y P-15b.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-15",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Peligro por la proximidad de un resalte o badén en la vía o pavimento en mal estado.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 92
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "5:19"
+      },
+      "imagen": {
+        "src": "img/senales/P-15.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-15: Perfil irregular",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 92 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-15",
+        "descripcion": "Perfil irregular"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0004",
+      "tema": "senales",
+      "subtema": "senales_peligro",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Un tramo con fuerte pendiente ascendente; la cifra indica la inclinación en porcentaje.",
+        "b": "Un tramo con fuerte pendiente descendente; la cifra indica la inclinación en porcentaje.",
+        "c": "Un tramo en bajada en el que hay que reducir la velocidad en el porcentaje indicado."
+      },
+      "correcta": "b",
+      "explicacion": "La señal P-16a «Bajada con fuerte pendiente», con la flecha hacia abajo, advierte de un tramo con fuerte pendiente descendente; la cifra es la inclinación de la pendiente en porcentaje. La subida es la P-16b.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-16a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Peligro por la existencia de un tramo de vía con fuerte pendiente descendente. La cifra indica la inclinación de la pendiente en porcentaje.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 93
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "5:52"
+      },
+      "imagen": {
+        "src": "img/senales/P-16a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-16a: Bajada con fuerte pendiente",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-16a",
+        "descripcion": "Bajada con fuerte pendiente"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0005",
+      "tema": "senales",
+      "subtema": "senales_peligro",
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De una zona peatonal por la que también pueden circular bicicletas.",
+        "b": "De un tramo con mucho tránsito de peatones y ciclistas, sin pasos señalizados.",
+        "c": "De un paso para peatones adosado o compartido con un paso para ciclistas."
+      },
+      "correcta": "c",
+      "explicacion": "La señal P-20c «Pasos para peatones y ciclistas» advierte de la proximidad de un paso para peatones adosado o compartido con un paso para ciclistas.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-20c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Peligro por la proximidad de un paso para peatones adosado o compartido con un paso para ciclistas.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 94
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "6:29"
+      },
+      "imagen": {
+        "src": "img/senales/P-20c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-20c: Pasos para peatones y ciclistas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 94 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-20c",
+        "descripcion": "Pasos para peatones y ciclistas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0006",
+      "tema": "senales",
+      "subtema": "senales_peligro",
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+        "b": "De un lugar frecuentado por niños, como una escuela.",
+        "c": "De un paso para peatones regulado por semáforo."
+      },
+      "correcta": "a",
+      "explicacion": "La señal P-21b «Personas con dificultades motrices» advierte de un lugar frecuentado por personas con dificultades motrices o sensoriales. No se refiere solo a personas mayores. Los niños tienen su propia señal, la P-21a.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-21b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Peligro por la proximidad de un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 95
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "6:45"
+      },
+      "imagen": {
+        "src": "img/senales/P-21b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-21b: Personas con dificultades motrices",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-21b",
+        "descripcion": "Personas con dificultades motrices"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Corrige al vídeo: lo llama «zona frecuentada por personas mayores»; el catálogo dice «personas con dificultades motrices o sensoriales».",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0007",
+      "tema": "senales",
+      "subtema": "senales_peligro",
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De una vía reservada exclusivamente a ciclistas.",
+        "b": "De un tramo con circulación frecuente de ciclistas.",
+        "c": "De un paso para ciclistas en el que estos tienen siempre prioridad."
+      },
+      "correcta": "b",
+      "explicacion": "La señal P-22b «Ciclistas» advierte de la proximidad de un tramo con circulación frecuente de ciclistas. El paso para ciclistas tiene su propia señal, la P-22a.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-22b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Peligro por la proximidad de un tramo con circulación frecuente de ciclistas.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 95
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "6:42"
+      },
+      "imagen": {
+        "src": "img/senales/P-22b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-22b: Ciclistas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-22b",
+        "descripcion": "Ciclistas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0008",
+      "tema": "senales",
+      "subtema": "senales_peligro",
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un paso de ganado doméstico (cañada) en el que los animales tienen prioridad.",
+        "b": "De un coto de caza en el que está prohibido detenerse.",
+        "c": "De un lugar donde la vía puede ser atravesada por animales en libertad, en buena parte jabalíes."
+      },
+      "correcta": "c",
+      "explicacion": "La señal P-24a «Paso de animales en libertad (jabalíes)» advierte de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad, que en una proporción muy significativa son jabalíes.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-24a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "puede ser atravesada por animales en libertad, tratándose en una proporción muy significativa de jabalíes.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 95
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "7:16"
+      },
+      "imagen": {
+        "src": "img/senales/P-24a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-24a: Paso de animales en libertad (jabalíes)",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-24a",
+        "descripcion": "Paso de animales en libertad (jabalíes)"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0009",
+      "tema": "senales",
+      "subtema": "senales_peligro",
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un tramo con cambios de carril en el que se cruzan las trayectorias de los vehículos.",
+        "b": "De un tramo con circulación en ambos sentidos separada por una línea continua.",
+        "c": "De una bifurcación en la que está prohibido cambiar de carril hasta pasar la isleta."
+      },
+      "correcta": "a",
+      "explicacion": "La señal P-35 «Trenzado» advierte de un tramo entre una confluencia y una bifurcación en el que unos vehículos se incorporan y otros salen, con cambios de carril que cruzan sus trayectorias y aumentan el riesgo de colisión.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal P-35",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Peligro por la proximidad de un tramo comprendido entre una confluencia y una bifurcación donde se producen distintos movimientos de cambio de carril",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 97
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "8:18"
+      },
+      "imagen": {
+        "src": "img/senales/P-35.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-35: Trenzado",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-35",
+        "descripcion": "Trenzado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0010",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?",
+      "opciones": {
+        "a": "A los camiones de más de 3.500 kg de masa máxima autorizada.",
+        "b": "A los vehículos que transporten mercancías peligrosas y deban ir señalizados según su normativa específica.",
+        "c": "A los vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-108 prohíbe el acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica. La de productos contaminantes del agua es la R-110.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-108",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición de acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 103
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "13:50"
+      },
+      "imagen": {
+        "src": "img/senales/R-108.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-108: Entrada prohibida a vehículos que transporten mercancías peligrosas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 103 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-108",
+        "descripcion": "Entrada prohibida a vehículos que transporten mercancías peligrosas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0011",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "enunciado": "Un turismo arrastra un remolque de dos ejes con 3.000 kg de masa máxima autorizada, que va vacío y pesa 900 kg. Encuentra esta señal con la cifra «2 t» sobre la silueta del remolque. ¿Puede entrar?",
+      "opciones": {
+        "a": "Sí, porque en ese momento el remolque pesa menos de 2 t.",
+        "b": "Sí, porque la señal solo afecta a los camiones con remolque.",
+        "c": "No, porque la cifra se refiere a la masa máxima autorizada del remolque, que supera 2 t."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-112 prohíbe el acceso a los vehículos de motor con remolque, salvo los de un solo eje. Si lleva una cifra de tonelaje, la prohibición se aplica cuando la masa máxima autorizada del remolque supera esa cifra, aunque vaya vacío.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-112",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "La inscripción de una cifra de tonelaje, sobre la silueta del remolque o en una placa suplementaria, significa que la prohibición de paso solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 104
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "17:24"
+      },
+      "imagen": {
+        "src": "img/senales/R-112.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-112: Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-112",
+        "descripcion": "Círculo blanco con orla roja y la silueta negra de un turismo con remolque de dos ejes, con la cifra «2 t» sobre el remolque."
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Corrige al vídeo: dice «remolques que pesen más de 2 toneladas»; la cifra se refiere a la masa máxima autorizada del remolque.",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0012",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?",
+      "opciones": {
+        "a": "A los vehículos de movilidad personal.",
+        "b": "A los ciclomotores.",
+        "c": "A los ciclos y a los vehículos de movilidad personal."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-118 prohíbe el acceso a los vehículos de movilidad personal (patinetes eléctricos y similares). La que prohíbe a la vez ciclos y vehículos de movilidad personal es la R-119.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-118",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición de acceso a vehículos de movilidad personal.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 105
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "14:49"
+      },
+      "imagen": {
+        "src": "img/senales/R-118.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-118: Entrada prohibida a vehículos de movilidad personal",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 105 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-118",
+        "descripcion": "Entrada prohibida a vehículos de movilidad personal"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0013",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?",
+      "opciones": {
+        "a": "Solo a los vehículos de movilidad personal; las bicicletas pueden entrar.",
+        "b": "A los ciclos y a los vehículos de movilidad personal.",
+        "c": "A los ciclomotores y a las bicicletas."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-119 prohíbe el acceso tanto a los ciclos como a los vehículos de movilidad personal.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-119",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición de acceso a ciclos y a vehículos de movilidad personal.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 105
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "14:52"
+      },
+      "imagen": {
+        "src": "img/senales/R-119.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-119: Entrada prohibida a ciclos y a vehículos de movilidad personal",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 105 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-119",
+        "descripcion": "Entrada prohibida a ciclos y a vehículos de movilidad personal"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0014",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Prohibición de entrada a los vehículos que emitan humo visible por una avería.",
+        "b": "Prohibición de entrada a todos los turismos con motor de combustión, sin excepciones.",
+        "c": "Prohibición de acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales, con las condiciones en un panel o cartel."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-120 prohíbe el acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales. Las condiciones (por ejemplo, qué distintivos pueden entrar) se especifican en un panel complementario o en un cartel que incluya la señal.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-120",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición de acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales que se establezcan. Las condiciones se especificarán en un panel complementario",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 105
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "14:56"
+      },
+      "imagen": {
+        "src": "img/senales/R-120.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-120: Entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios ambientales",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 105 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-120",
+        "descripcion": "Entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios ambientales"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0015",
+      "tema": "senales",
+      "subtema": "restriccion_paso",
+      "enunciado": "Conduce un camión de 7,5 t de masa máxima autorizada que va vacío y en ese momento pesa 4,5 t. Encuentra esta señal, con la cifra 5,5 t y sin silueta de vehículo. ¿Puede pasar?",
+      "opciones": {
+        "a": "Sí, porque la señal limita la masa en carga, es decir, lo que pesa el vehículo en ese momento.",
+        "b": "No, porque su masa máxima autorizada supera 5,5 t.",
+        "c": "No, porque la señal prohíbe el paso a todos los camiones."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-201 «Limitación de masa» prohíbe el paso a los vehículos cuya masa en carga (lo que pesan en ese momento) supere la cifra indicada. Distinta es la R-107 (con silueta de camión), que se fija en la masa máxima autorizada aunque el vehículo vaya vacío.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-201",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición de paso a los vehículos cuya masa en carga supere la indicada en toneladas.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 107
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "12:49"
+      },
+      "imagen": {
+        "src": "img/senales/R-201.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-201: Limitación de masa",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-201",
+        "descripcion": "Limitación de masa"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0016",
+      "tema": "senales",
+      "subtema": "prohibiciones",
+      "enunciado": "Una señal de adelantamiento prohibido está colocada en el mismo poste que una señal de curva peligrosa. ¿Hasta dónde rige la prohibición de adelantar?",
+      "opciones": {
+        "a": "Hasta que termine la curva, porque está en el mismo poste que la señal de peligro.",
+        "b": "Hasta la siguiente señal de fin de prohibición de adelantamiento o de fin de prohibiciones.",
+        "c": "Hasta la siguiente intersección, aunque no haya ninguna otra señal."
+      },
+      "correcta": "b",
+      "explicacion": "La prohibición de la señal R-305 se aplica desde la señal hasta la siguiente señal de «Fin de prohibición de adelantamiento» o «Fin de prohibiciones». La regla de que la limitación termina con el peligro solo la prevé el catálogo para la señal de velocidad máxima (R-301).",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-305",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "maniobra implique invadir la zona reservada al sentido contrario de circulación. La prohibición se aplica desde el lugar en que esté situada la señal hasta la siguiente señal de “Fin de prohibición de adelantamiento” o “Fin de prohibiciones”.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 110
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "20:08"
+      },
+      "imagen": {
+        "src": "img/senales/R-305.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-305: Adelantamiento prohibido",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 110 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-305",
+        "descripcion": "Adelantamiento prohibido"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0017",
+      "tema": "senales",
+      "subtema": "prohibiciones",
+      "enunciado": "Conduce una furgoneta de 3.000 kg de masa máxima autorizada y encuentra esta señal. ¿Le prohíbe adelantar?",
+      "opciones": {
+        "a": "Sí, porque prohíbe adelantar a los camiones y a las furgonetas.",
+        "b": "Sí, pero solo cuando el adelantamiento implique invadir el sentido contrario.",
+        "c": "No, porque solo afecta a los camiones cuya masa máxima autorizada exceda de 3.500 kg."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg. No afecta a una furgoneta de 3.000 kg, que sigue sujeta a las normas generales de adelantamiento.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-306",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kilogramos de adelantar",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 110
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "18:51"
+      },
+      "imagen": {
+        "src": "img/senales/R-306.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-306: Adelantamiento prohibido para camiones",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 110 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-306",
+        "descripcion": "Adelantamiento prohibido para camiones"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Corrige al vídeo: dice que prohíbe adelantar a «camiones y furgonetas»; el catálogo solo menciona camiones de MMA superior a 3.500 kg.",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0018",
+      "tema": "senales",
+      "subtema": "parada_estacionamiento",
+      "enunciado": "Salvo indicación en contrario, ¿dónde rige la prohibición de esta señal?",
+      "opciones": {
+        "a": "En el lado de la calzada donde está la señal, desde la vertical de la señal hasta la intersección más próxima en el sentido de la marcha.",
+        "b": "En los dos lados de la calzada, hasta la siguiente señal de fin de prohibiciones.",
+        "c": "En el lado de la calzada donde está la señal, solo en los 50 metros siguientes."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-307 prohíbe la parada y el estacionamiento en el lado de la calzada en que está situada; salvo indicación en contrario, desde la vertical de la señal hasta la intersección más próxima en el sentido de la marcha.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-307",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición de parada y estacionamiento en el lado de la calzada en que esté situada la señal. Salvo indicación en contrario, la prohibición comienza en la vertical de la señal y termina en la intersección más próxima",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 110
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "22:23"
+      },
+      "imagen": {
+        "src": "img/senales/R-307.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-307: Parada y estacionamiento prohibido",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 110 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-307",
+        "descripcion": "Parada y estacionamiento prohibido"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0019",
+      "tema": "senales",
+      "subtema": "parada_estacionamiento",
+      "enunciado": "Es día 1 del mes, son las 8:00 de la mañana y quiere estacionar junto a esta señal. ¿Puede hacerlo?",
+      "opciones": {
+        "a": "No, la prohibición rige durante todo el día 1.",
+        "b": "No; a esa hora solo puede efectuar una parada.",
+        "c": "Sí, porque la prohibición empieza a las 9 horas del día 1."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-308c «Estacionamiento prohibido la primera quincena» prohíbe estacionar desde las 9 horas del día 1 hasta las 9 horas del día 16. A las 8:00 del día 1 aún no rige, así que se puede estacionar (hasta las 9:00).",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-308c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 1 hasta las 9 horas del día 16.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 111
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "23:25"
+      },
+      "imagen": {
+        "src": "img/senales/R-308c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-308c: Estacionamiento prohibido la primera quincena",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 111 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-308c",
+        "descripcion": "Estacionamiento prohibido la primera quincena"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0020",
+      "tema": "senales",
+      "subtema": "parada_estacionamiento",
+      "enunciado": "¿Durante qué periodo prohíbe estacionar esta señal?",
+      "opciones": {
+        "a": "Desde las 0 horas del día 16 hasta el último día del mes a las 24 horas.",
+        "b": "Desde las 9 horas del día 16 hasta las 9 horas del día 1 del mes siguiente.",
+        "c": "Desde las 9 horas del día 15 hasta las 9 horas del día 31."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-308d «Estacionamiento prohibido la segunda quincena» prohíbe estacionar desde las 9 horas del día 16 hasta las 9 horas del día 1. No prohíbe la parada.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-308d",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 16 hasta las 9 horas del día 1.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 111
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "23:04"
+      },
+      "imagen": {
+        "src": "img/senales/R-308d.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-308d: Estacionamiento prohibido la segunda quincena",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 111 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-308d",
+        "descripcion": "Estacionamiento prohibido la segunda quincena"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0021",
+      "tema": "senales",
+      "subtema": "parada_estacionamiento",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Zona de estacionamiento de duración limitada, en la que hay que indicar la hora de comienzo.",
+        "b": "Prohibición de estacionar en toda la zona, a cualquier hora del día.",
+        "c": "Zona en la que solo se permite la parada, nunca el estacionamiento."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-309 indica una zona de estacionamiento de duración limitada y obliga a indicar, de forma reglamentaria, la hora de comienzo del estacionamiento. Puede indicar también el tiempo máximo, el horario y si el estacionamiento es de pago.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-309",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Zona de estacionamiento de duración limitada y obligación para el conductor de indicar, de forma reglamentaria, la hora",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 112
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "23:57"
+      },
+      "imagen": {
+        "src": "img/senales/R-309.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-309: Zona de estacionamiento limitado",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 112 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-309",
+        "descripcion": "Zona de estacionamiento limitado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Matiza al vídeo: lo explica como «prohibido estacionar porque es zona azul»; es una zona de estacionamiento limitado, no una prohibición.",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0022",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "enunciado": "Encuentra esta señal antes de una intersección. ¿Puede girar a la derecha?",
+      "opciones": {
+        "a": "Sí, porque la señal solo prohíbe el cambio de sentido.",
+        "b": "Sí, porque las señales azules obligan pero no prohíben nada.",
+        "c": "No, porque la flecha señala la dirección y sentido que está obligado a seguir."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-400c «Sentido obligatorio» obliga a seguir la dirección y sentido de la flecha (de frente). Al obligar a seguir de frente, no se puede girar a la derecha ni a la izquierda ni cambiar de sentido.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-400c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "R-400c Sentido obligatorio La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 115
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "24:30"
+      },
+      "imagen": {
+        "src": "img/senales/R-400c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-400c: Sentido obligatorio",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 115 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-400c",
+        "descripcion": "Círculo azul con una flecha blanca vertical hacia arriba (de frente)."
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0023",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Obligación de girar a la izquierda o a la derecha en la próxima intersección.",
+        "b": "Que puede pasar por cualquiera de los dos lados del refugio, la isleta o el obstáculo.",
+        "c": "Que debe dejar el obstáculo a su derecha."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-401c «Paso obligatorio» indica con sus flechas los lados del refugio, la isleta o el obstáculo por uno de los cuales los vehículos han de pasar obligatoriamente: se puede pasar por cualquiera de los dos.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-401c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Las flechas señalan los lados del refugio, de la isleta o del obstáculo por uno de los cuales los vehículos han de pasar obligatoriamente.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 116
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "24:49"
+      },
+      "imagen": {
+        "src": "img/senales/R-401c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-401c: Paso obligatorio",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 116 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-401c",
+        "descripcion": "Paso obligatorio"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0024",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "enunciado": "Conduce una furgoneta de 2.000 kg de masa máxima autorizada y, al comienzo de una calzada, encuentra esta señal sin ninguna cifra. ¿Le obliga?",
+      "opciones": {
+        "a": "No, solo obliga a los camiones de más de 3.500 kg.",
+        "b": "No, solo obliga a los vehículos que transportan mercancías peligrosas.",
+        "c": "Sí, obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-406 obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, a circular por la calzada a cuya entrada está. Solo si lleva una cifra de tonelaje se limita a los que superen esa masa máxima autorizada.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-406",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Obligación para los conductores de toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 117
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "25:13"
+      },
+      "imagen": {
+        "src": "img/senales/R-406.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-406: Calzada obligatoria para camiones, tractocamiones y furgones o furgonetas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-406",
+        "descripcion": "Calzada obligatoria para camiones, tractocamiones y furgones o furgonetas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0025",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Recomendación de usar neumáticos de invierno, sin que sea obligatorio.",
+        "b": "Obligación de no proseguir la marcha sin neumáticos especiales de invierno.",
+        "c": "Obligación de llevar cadenas en el vehículo aunque no se usen."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-412b «Neumáticos de invierno» obliga a no proseguir la marcha sin neumáticos especiales de invierno. Al ser una señal de obligación, no es una simple recomendación.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-412b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Obligación de no proseguir la marcha sin neumáticos especiales de invierno",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 118
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "27:42"
+      },
+      "imagen": {
+        "src": "img/senales/R-412b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-412b: Neumáticos de invierno",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-412b",
+        "descripcion": "Neumáticos de invierno"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0026",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "enunciado": "¿Qué indica esta señal azul con un tractor?",
+      "opciones": {
+        "a": "Entrada prohibida a tractores y otras máquinas agrícolas autopropulsadas.",
+        "b": "Velocidad mínima para vehículos agrícolas.",
+        "c": "Camino obligatorio para tractores."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-419 obliga a los conductores de tractores a utilizar el camino a cuya entrada está situada. No hay que confundirla con la R-111 (redonda con orla roja), que prohíbe la entrada a tractores y otras máquinas agrícolas autopropulsadas.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-419",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Obligación para los conductores de tractores de utilizar el camino a cuya entrada esté situada.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 120
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "28:16"
+      },
+      "imagen": {
+        "src": "img/senales/R-419.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-419: Camino obligatorio para tractores",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 120 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-419",
+        "descripcion": "Camino obligatorio para tractores"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0027",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "enunciado": "Va en bicicleta y, al comienzo de una vía, encuentra esta señal. ¿Puede circular por ella?",
+      "opciones": {
+        "a": "No, porque es una vía reservada a los vehículos de movilidad personal y prohibida a los demás usuarios.",
+        "b": "Sí, porque las bicicletas pueden usar cualquier vía destinada a vehículos de movilidad personal.",
+        "c": "Sí, siempre que no supere los 25 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-420 obliga a los conductores de vehículos de movilidad personal a circular por esa vía y prohíbe a los demás usuarios utilizarla, también a los ciclos. Si la vía fuera para ciclos y vehículos de movilidad personal, se usaría la R-421.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-420",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Obligación para los conductores de vehículos de movilidad personal de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 120
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "25:56"
+      },
+      "imagen": {
+        "src": "img/senales/R-420.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-420: Vía reservada y obligatoria para vehículos de movilidad personal",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 120 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-420",
+        "descripcion": "Vía reservada y obligatoria para vehículos de movilidad personal"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0028",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Camino reservado a peatones y ciclos.",
+        "b": "Obligación para los usuarios de ciclos de continuar a pie.",
+        "c": "Prohibición de entrada a peatones que lleven una bicicleta."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-422 «Desmontar y continuar a pie» obliga a los usuarios de ciclos a bajarse y continuar a pie. Si la obligación se limita a ciertos periodos, se indica con un panel complementario.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-422",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Obligación para los usuarios de ciclos de continuar a pie. Si dicha obligación se limita a ciertos periodos",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 120
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "28:06"
+      },
+      "imagen": {
+        "src": "img/senales/R-422.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-422: Desmontar y continuar a pie",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 120 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-422",
+        "descripcion": "Desmontar y continuar a pie"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4a-sen-0029",
+      "tema": "senales",
+      "subtema": "fin_prohibicion",
+      "enunciado": "¿Qué prohibiciones dejan de aplicarse a partir de esta señal?",
+      "opciones": {
+        "a": "Las prohibiciones específicas indicadas por señales anteriores para vehículos en movimiento.",
+        "b": "Todas las prohibiciones anteriores, incluidas las de parada y estacionamiento.",
+        "c": "Solo la limitación de velocidad."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-500 «Fin de prohibiciones» señala el lugar desde el que dejan de aplicarse todas las prohibiciones específicas indicadas por señales anteriores de prohibición para vehículos en movimiento (velocidad, adelantamiento...). No se refiere a la parada ni al estacionamiento.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal R-500",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Señala el lugar desde el que todas las prohibiciones específicas indicadas por señales anteriores de prohibición para vehículos en movimiento dejan de tener aplicación.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 122
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "19:14"
+      },
+      "imagen": {
+        "src": "img/senales/R-500.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-500: Fin de prohibiciones",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 122 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-500",
+        "descripcion": "Fin de prohibiciones"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4b-sen-0001",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "¿Qué tipo de vía comienza en el lugar donde está colocada esta señal?",
+      "opciones": {
+        "a": "Una carretera de tres carriles cuyo carril central sirve para adelantar y se reserva de forma alterna a cada sentido.",
+        "b": "Una carretera de tres carriles cuyo carril central es siempre del mismo sentido de circulación.",
+        "c": "Una carretera de tres carriles cuyo carril central pueden usar a la vez ambos sentidos para adelantar."
+      },
+      "correcta": "a",
+      "explicacion": "La carretera 2+1 (señal S-1c) consta de tres carriles con circulación en ambos sentidos. El carril central se destina a facilitar el adelantamiento y se reserva de manera alterna a uno y otro sentido, nunca a los dos a la vez.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-1c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "El carril central se destina a facilitar la maniobra de adelantamiento, estando reservado de manera alterna a uno y otro sentido de circulación.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 126
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "35:27"
+      },
+      "imagen": {
+        "src": "img/senales/S-1c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-1c: Carretera 2+1",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 126 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-1c",
+        "descripcion": "Carretera 2+1"
+      }
+    },
+    {
+      "id": "v4b-sen-0002",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "Circula por una calle y encuentra esta señal cuadrada azul. ¿Qué indica?",
+      "opciones": {
+        "a": "Que en la próxima intersección está obligado a seguir de frente.",
+        "b": "Que la calzada es de sentido único: se circula en el sentido de la flecha y está prohibido el contrario.",
+        "c": "Que el carril está reservado a los vehículos que van a seguir de frente."
+      },
+      "correcta": "b",
+      "explicacion": "La señal cuadrada S-11 (calzada de un carril de sentido único) solo informa de que se debe circular en el sentido de la flecha y de que está prohibido el sentido contrario; no obliga a seguir de frente. La obligación de seguir una dirección la impone la señal redonda azul de sentido obligatorio (R-400).",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-11",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica que en la calzada de un carril que se prolonga en la dirección de la flecha los vehículos deben circular en el sentido indicado por esta",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 128
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "29:41"
+      },
+      "imagen": {
+        "src": "img/senales/S-11.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-11: Calzada de un carril de sentido único",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 128 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-11",
+        "descripcion": "Calzada de un carril de sentido único"
+      }
+    },
+    {
+      "id": "v4b-sen-0003",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "En una zona señalizada con esta señal, ¿están permitidos los juegos y deportes?",
+      "opciones": {
+        "a": "Sí, siempre que los vehículos no superen los 20 km/h.",
+        "b": "Sí, porque los peatones tienen prioridad en toda la zona.",
+        "c": "No, los juegos y deportes no están autorizados."
+      },
+      "correcta": "c",
+      "explicacion": "En la zona de coexistencia (S-47) los peatones tienen prioridad, pero los juegos y los deportes no están autorizados. Sí lo están en la zona de estancia y juego (S-28), donde el límite es de 10 km/h.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-47",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "por marcas; los juegos y los deportes no están autorizados.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 138
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "33:53"
+      },
+      "imagen": {
+        "src": "img/senales/S-47.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-47: Zona de coexistencia",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 138 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-47",
+        "descripcion": "Zona de coexistencia"
+      }
+    },
+    {
+      "id": "v4b-sen-0004",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "¿Cuál es la velocidad máxima de los vehículos en una zona de coexistencia?",
+      "opciones": {
+        "a": "20 km/h.",
+        "b": "10 km/h.",
+        "c": "30 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "En la zona de coexistencia (S-47) la velocidad máxima de los vehículos es de 20 km/h. En la zona de estancia y juego (S-28) es de 10 km/h.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-47",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "la velocidad máxima de los vehículos será de 20",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 138
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "34:01"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4b-sen-0005",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "En una zona señalizada con esta señal, ¿dónde pueden estacionar los vehículos?",
+      "opciones": {
+        "a": "En cualquier lugar en el que no obstaculicen el paso de los peatones.",
+        "b": "En ningún lugar, porque el estacionamiento está prohibido en toda la zona.",
+        "c": "Únicamente en los lugares designados por señales o por marcas."
+      },
+      "correcta": "c",
+      "explicacion": "En la zona de coexistencia (S-47), igual que en la zona de estancia y juego (S-28), los vehículos solo pueden estacionarse en los lugares designados por señales o por marcas.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-47",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "contrario; los vehículos pueden estacionarse únicamente en los lugares designados por señales o por marcas; los juegos",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 138
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "34:05"
+      },
+      "imagen": {
+        "src": "img/senales/S-47.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-47: Zona de coexistencia",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 138 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-47",
+        "descripcion": "Zona de coexistencia"
+      }
+    },
+    {
+      "id": "v4b-sen-0006",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "En una zona de coexistencia, ¿en qué sentido pueden circular los ciclos?",
+      "opciones": {
+        "a": "Solo en el sentido general de circulación de la calle.",
+        "b": "En ambos sentidos, salvo que la autoridad competente establezca lo contrario.",
+        "c": "En ninguno: los ciclos tienen prohibida la entrada."
+      },
+      "correcta": "b",
+      "explicacion": "En la zona de coexistencia (S-47) la circulación está compartida entre vehículos, ciclistas y peatones, y los ciclos y, en su caso, los vehículos de movilidad personal pueden circular en ambos sentidos, salvo que la autoridad competente establezca lo contrario.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-47",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "los ciclos y, en su caso, los VMP pueden circular en ambos sentidos, salvo que la autoridad competente establezca lo contrario",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 138
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "33:44"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4b-sen-0007",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "En la zona que comienza con esta señal, ¿por dónde pueden caminar los peatones?",
+      "opciones": {
+        "a": "Solo por las aceras y por los pasos para peatones señalizados.",
+        "b": "Por la calzada, pero solo cuando no circulen vehículos.",
+        "c": "Por toda la zona de circulación; por eso no se señalizan pasos para peatones."
+      },
+      "correcta": "c",
+      "explicacion": "En la zona de estancia y juego (S-28) los peatones pueden utilizar toda la zona de circulación y tienen prioridad, por lo que no se señalizan pasos peatonales. Los vehículos no pueden superar los 10 km/h.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-28",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "los peatones pueden utilizar toda la zona de circulación y por tanto no se señalizan los pasos peatonales",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 134
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "32:49"
+      },
+      "imagen": {
+        "src": "img/senales/S-28.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-28: Zona de estancia y juego",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 134 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-28",
+        "descripcion": "Zona de estancia y juego"
+      }
+    },
+    {
+      "id": "v4b-sen-0008",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "Circula en bicicleta por una vía señalizada con esta señal y hay personas caminando. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Reducir la velocidad para garantizar la seguridad y la convivencia.",
+        "b": "Bajarse de la bicicleta y continuar a pie.",
+        "c": "Avisar con el timbre y mantener la velocidad, porque los ciclos tienen preferencia."
+      },
+      "correcta": "a",
+      "explicacion": "La senda ciclopeatonal (S-33) es una vía para peatones, ciclos y, en su caso, VMP, segregada del tráfico motorizado. En presencia de personas caminando, los ciclos deben reducir su velocidad; a su vez, los peatones facilitarán el paso de los ciclos.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-33",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "En presencia de personas caminando, los ciclos y, en su caso, los VMP deberán reducir su velocidad para garantizar la seguridad y la convivencia.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 135
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "36:20"
+      },
+      "imagen": {
+        "src": "img/senales/S-33.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-33: Senda ciclopeatonal",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 135 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-33",
+        "descripcion": "Senda ciclopeatonal"
+      }
+    },
+    {
+      "id": "v4b-sen-0009",
+      "tema": "senales_verticales",
+      "subtema": "vias_ciclistas",
+      "enunciado": "Circula en bicicleta y al comienzo de una vía ciclista encuentra esta señal cuadrada. ¿Está obligado a circular por ella?",
+      "opciones": {
+        "a": "Sí, igual que si fuera la señal redonda azul con una bicicleta.",
+        "b": "No: su uso es preferente, pero no obligatorio.",
+        "c": "Sí, salvo que circule en grupo con otros ciclistas."
+      },
+      "correcta": "b",
+      "explicacion": "Si hay carril bici o vía específica para ciclos, su uso es preferente para el ciclista. Solo es obligatorio cuando la autoridad lo impone con la señal redonda R-407a (vía reservada y obligatoria para ciclos). La señal cuadrada S-35 indica una vía reservada para ciclos y prohibida a los demás usuarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "153.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Si hay carril bici o vía específica, su uso es preferente, si bien la autoridad competente podrá hacerlo obligatorio mediante la señal R–407a.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "37:22"
+      },
+      "imagen": {
+        "src": "img/senales/S-35.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-35: Vía reservada para ciclos",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 136 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "La imagen es la S-35 (cuadrada). La cita es del art. 153.1 RGC; el significado de la S-35 está en el catálogo, pág. 136.",
+      "materia": 8,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-35",
+        "descripcion": "Vía reservada para ciclos"
+      }
+    },
+    {
+      "id": "v4b-sen-0010",
+      "tema": "senales_verticales",
+      "subtema": "carriles",
+      "enunciado": "¿Qué indica esta señal colocada sobre una calzada de sentido único?",
+      "opciones": {
+        "a": "Que el carril derecho es para ciclos, pero los demás vehículos pueden usarlo para adelantar.",
+        "b": "Que el carril derecho termina más adelante y los ciclos deben pasar a la calzada.",
+        "c": "Que los ciclos están obligados a circular por el carril derecho y los demás usuarios no pueden usarlo."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-64a (vía reservada y obligatoria para ciclos adosada a calzada de un único sentido) obliga a los conductores de ciclos a circular por el carril señalado y prohíbe a los demás usuarios utilizarlo. La S-65a, con la bicicleta dentro de un cuadrado, indica un carril reservado a ciclos sin imponerles su uso.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-64a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica, en calzadas de un único sentido de circulación, la obligación para los conductores de ciclos de circular por el carril sobre el que está situada la señal",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 146
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "40:31"
+      },
+      "imagen": {
+        "src": "img/senales/S-64a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-64a: Vía reservada y obligatoria para ciclos adosada a calzada de un único sentido de circulación",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 146 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-64a",
+        "descripcion": "Vía reservada y obligatoria para ciclos adosada a calzada de un único sentido de circulación"
+      }
+    },
+    {
+      "id": "v4b-sen-0011",
+      "tema": "senales_verticales",
+      "subtema": "carriles",
+      "enunciado": "Circula por una carretera de doble sentido y encuentra esta señal. ¿Qué indica?",
+      "opciones": {
+        "a": "Que el carril que se añade por la izquierda solo puede usarse circulando a 70 km/h o más.",
+        "b": "Que en el carril de la izquierda la velocidad máxima es de 70 km/h.",
+        "c": "Que el carril izquierdo está reservado a los vehículos lentos que no alcanzan 70 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "La señal S-50a anuncia la ampliación de un carril por la izquierda que solo pueden utilizar los vehículos que circulen a una velocidad igual o superior a la indicada. Aun así, si las circunstancias lo permiten, se debe circular por el carril de la derecha.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-50a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "ampliación de un carril por la izquierda que solo puede ser utilizado por los vehículos que circulen a velocidad igual o superior a la indicada",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 140
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "39:24"
+      },
+      "imagen": {
+        "src": "img/senales/S-50a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-50a: Carriles reservados en función de la velocidad señalizada",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 140 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-50a",
+        "descripcion": "Carriles reservados en función de la velocidad señalizada"
+      }
+    },
+    {
+      "id": "v4b-sen-0012",
+      "tema": "senales_verticales",
+      "subtema": "carriles",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Que desaparece el carril derecho y hay que pasar al izquierdo.",
+        "b": "Que se va a incorporar un carril por la derecha.",
+        "c": "Que el carril derecho se bifurca con cambio de dirección hacia la derecha."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-60b indica, en una calzada con dos carriles en el mismo sentido, una bifurcación con cambio de dirección en el carril derecho: el carril no desaparece, se separa. La desaparición de un carril se anuncia con las señales S-52, y la incorporación de otro con las de confluencia (S-70 a S-73).",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-60b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica, en una calzada con dos carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en el carril derecho.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 144
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "39:39"
+      },
+      "imagen": {
+        "src": "img/senales/S-60b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-60b: Bifurcación hacia la derecha en calzada de dos carriles",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 144 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-60b",
+        "descripcion": "Bifurcación hacia la derecha en calzada de dos carriles"
+      }
+    },
+    {
+      "id": "v4b-sen-0013",
+      "tema": "senales_verticales",
+      "subtema": "carriles",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Que el carril izquierdo se termina y hay que pasar al derecho.",
+        "b": "Que se va a incorporar un carril por el lado izquierdo.",
+        "c": "Que el carril izquierdo se separa hacia otra dirección."
+      },
+      "correcta": "b",
+      "explicacion": "La señal S-71a indica, en una calzada con dos carriles en el mismo sentido, que se producirá la confluencia de un carril por el lado izquierdo: otro carril se suma a los existentes.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-71a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica, en una calzada con dos carriles de circulación en el mismo sentido, que se producirá la confluencia de un carril por el lado izquierdo.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 148
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "39:59"
+      },
+      "imagen": {
+        "src": "img/senales/S-71a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-71a: Confluencia de un carril por la izquierda en calzada de dos carriles",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 148 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-71a",
+        "descripcion": "Confluencia de un carril por la izquierda en calzada de dos carriles"
+      }
+    },
+    {
+      "id": "v4b-sen-0014",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "Encuentra esta señal sobre un carril al llegar a un peaje. ¿Qué indica?",
+      "opciones": {
+        "a": "Que solo pueden usar ese carril los vehículos con equipo de telepeaje operativo.",
+        "b": "Que en ese carril se puede pagar con telepeaje si el vehículo lleva el dispositivo, además de por otros medios.",
+        "c": "Que en ese carril no se paga peaje si el vehículo va con alta ocupación."
+      },
+      "correcta": "b",
+      "explicacion": "La señal cuadrada S-32 (telepeaje) informa de que en ese carril se puede pagar mediante telepeaje si el vehículo lleva el medio técnico necesario, además de por otros medios. El carril exclusivo para vehículos con telepeaje se señaliza con la señal redonda R-418.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-32",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "señalizados, además de por otros medios, puede efectuar el pago del peaje mediante el sistema de peaje dinámico o telepeaje",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 135
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "38:51"
+      },
+      "imagen": {
+        "src": "img/senales/S-32.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-32: Telepeaje",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 135 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-32",
+        "descripcion": "Telepeaje"
+      }
+    },
+    {
+      "id": "v4b-sen-0015",
+      "tema": "senales_verticales",
+      "subtema": "servicio",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Un aparcamiento reservado a los autobuses.",
+        "b": "Una parada de autobús con zona de estacionamiento para taxis.",
+        "c": "Un aparcamiento para los vehículos privados de quienes continúan su viaje en autobús."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-126 indica una zona de estacionamiento conectada con una estación o terminal de autobuses, destinada principalmente a los vehículos privados de los usuarios que hacen una parte del viaje en su vehículo y la otra en autobús. No es un aparcamiento para autobuses.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-126",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "principalmente para los vehículos privados de los usuarios que realizan una parte de su viaje en vehículo privado y la otra en autobús.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 155
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "42:54"
+      },
+      "imagen": {
+        "src": "img/senales/S-126.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-126: Estacionamiento para usuarios de autobús",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 155 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-126",
+        "descripcion": "Estacionamiento para usuarios de autobús"
+      }
+    },
+    {
+      "id": "v4b-sen-0016",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Estacionamiento autorizado solo para un fin concreto, como acceder a una farmacia, y durante un tiempo determinado.",
+        "b": "Estacionamiento reservado a ambulancias y vehículos de urgencia.",
+        "c": "Estacionamiento libre y sin límite de tiempo junto a un servicio público."
+      },
+      "correcta": "a",
+      "explicacion": "La señal S-17a (estacionamiento de necesidad) indica el lugar donde se puede estacionar únicamente para un fin concreto (acceso a una farmacia, a un hospital, etc.), cuyo pictograma figura en la señal, y durante un tiempo determinado que se indica en un panel complementario.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-17a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica el lugar donde está autorizado el estacionamiento de vehículos únicamente para un fin concreto",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 132
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "31:29"
+      },
+      "imagen": {
+        "src": "img/senales/S-17a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-17a: Estacionamiento de necesidad",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 132 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-17a",
+        "descripcion": "Estacionamiento de necesidad"
+      }
+    },
+    {
+      "id": "v4b-sen-0017",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Que la calzada está prohibida a todos los usuarios excepto a peatones y ciclos.",
+        "b": "Que la calzada no tiene salida, salvo para peatones y ciclos.",
+        "c": "Que hay un paso para peatones y ciclistas al final de la calzada."
+      },
+      "correcta": "b",
+      "explicacion": "La señal S-15e indica que la calzada marcada con el recuadro rojo no tiene salida, excepto para los usuarios cuyos pictogramas figuran en la señal (peatones o ciclos), que sí pueden continuar.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-15e",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "rojo no tiene salida excepto para peatones o ciclos.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 131
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "31:08"
+      },
+      "imagen": {
+        "src": "img/senales/S-15e.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-15e: Calzada sin salida excepto para peatones o ciclos",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 131 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-15e",
+        "descripcion": "Calzada sin salida excepto para peatones o ciclos"
+      }
+    },
+    {
+      "id": "v4b-sen-0018",
+      "tema": "senales_verticales",
+      "subtema": "servicio",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Un lugar donde es obligatorio colocar las cadenas.",
+        "b": "Un aparcamiento para las máquinas quitanieves.",
+        "c": "Un estacionamiento de emergencia por nevadas."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-129 indica la situación de un estacionamiento de emergencia por nevadas y, excepcionalmente, para otras incidencias. La obligación de llevar cadenas se indica con la señal redonda azul R-412.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-129",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica la situación de un estacionamiento de emergencia por nevadas y, excepcionalmente, para incidencias.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 155
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "43:28"
+      },
+      "imagen": {
+        "src": "img/senales/S-129.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-129: Estacionamiento de emergencia por nevadas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 155 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-129",
+        "descripcion": "Estacionamiento de emergencia por nevadas"
+      }
+    },
+    {
+      "id": "v4b-sen-0019",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "Circula por una autovía y encuentra este panel junto al arcén derecho. ¿Qué indica?",
+      "opciones": {
+        "a": "Que la autovía termina a unos 300 m.",
+        "b": "Que la próxima salida está aproximadamente a 300 m.",
+        "c": "Que debe dejar 300 m de separación con el vehículo de delante."
+      },
+      "correcta": "b",
+      "explicacion": "Los paneles de aproximación a salida (S-26a, S-26b y S-26c) indican, en autopistas y autovías, que la próxima salida está aproximadamente a 300, 200 o 100 m.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-26a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "está situada aproximadamente a 300 m. Si la salida fuera por la",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 133
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "32:28"
+      },
+      "imagen": {
+        "src": "img/senales/S-26a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-26a: Panel de aproximación a salida (300 m)",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 133 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-26a",
+        "descripcion": "Panel de aproximación a salida (300 m)"
+      }
+    },
+    {
+      "id": "v4b-sen-0020",
+      "tema": "senales_verticales",
+      "subtema": "orientacion",
+      "enunciado": "En esta preseñalización de glorieta, ¿qué indica que el destino «Alicante» figure sobre fondo azul?",
+      "opciones": {
+        "a": "Que esa salida conduce hacia una autopista o una autovía.",
+        "b": "Que es la primera salida de la glorieta.",
+        "c": "Que esa salida lleva a una vía de servicio."
+      },
+      "correcta": "a",
+      "explicacion": "En la preseñalización de glorieta (S-200), si alguna inscripción figura sobre fondo azul, la salida correspondiente conduce hacia una autopista o una autovía.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-200",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "glorieta. Si alguna inscripción figura sobre fondo azul, indica",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 157
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "43:43"
+      },
+      "imagen": {
+        "src": "img/senales/S-200.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-200: Preseñalización de glorieta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 157 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-200",
+        "descripcion": "Preseñalización de glorieta"
+      }
+    },
+    {
+      "id": "v4b-sen-0021",
+      "tema": "senales_verticales",
+      "subtema": "orientacion",
+      "enunciado": "Circula por una autovía y encuentra este cartel azul que preseñaliza la próxima salida. ¿Qué sabe, por su color, del tipo de carretera al que lleva la salida?",
+      "opciones": {
+        "a": "Que es otra autopista o autovía.",
+        "b": "Que es una carretera convencional.",
+        "c": "Nada: allí es azul sea cual sea la carretera de destino."
+      },
+      "correcta": "c",
+      "explicacion": "En autopistas y autovías los carteles de preseñalización (S-225, S-235) son azules y anuncian salidas hacia cualquier tipo de carretera. El tipo de carretera de destino se ve en el cajetín de identificación o en el cartel de la salida inmediata: blanco si lleva a una carretera convencional o multicarril (S-352) y azul si lleva a una autopista o autovía (S-353).",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-225",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "autopista o autovía hacia cualquier tipo de carretera Indica, en una autopista o una autovía, los destinos",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 159,
+        "tipo_cita": "imagen_catalogo"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "45:11"
+      },
+      "imagen": {
+        "src": "img/senales/S-225.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-225: Preseñalización, con cartel lateral, en autopista o autovía hacia cualquier tipo de carretera",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 159 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El color azul del cartel se comprueba en la imagen de la ficha S-225 (pág. 159).",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-225",
+        "descripcion": "Preseñalización, con cartel lateral, en autopista o autovía hacia cualquier tipo de carretera"
+      }
+    },
+    {
+      "id": "v4b-sen-0022",
+      "tema": "senales_verticales",
+      "subtema": "orientacion",
+      "enunciado": "Circula por una autovía y, en el punto de salida, ve este cartel blanco. ¿Hacia qué tipo de carretera conduce esa salida?",
+      "opciones": {
+        "a": "Hacia una carretera convencional o una carretera multicarril.",
+        "b": "Hacia otra autopista o autovía.",
+        "c": "Hacia una vía de servicio paralela a la autovía."
+      },
+      "correcta": "a",
+      "explicacion": "En una autopista o autovía, la señal de salida inmediata con cartel blanco (S-352) indica que la salida conduce hacia una carretera convencional o una carretera multicarril. Si la salida conduce a otra autopista o autovía, el cartel es azul (S-353).",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-352",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "esta dirige hacia una carretera convencional o hacia una carretera multicarril.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 172,
+        "tipo_cita": "imagen_catalogo"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "45:27"
+      },
+      "imagen": {
+        "src": "img/senales/S-352.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-352: Señalización de salida inmediata, con cartel sobre la calzada, en autopista o autovía hacia carretera convencional o carretera multicarril",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 172 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El color blanco del cartel S-352 y el azul del S-353 se comprueban en las imágenes de las págs. 172-173.",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-352",
+        "descripcion": "Señalización de salida inmediata, con cartel sobre la calzada, en autopista o autovía hacia carretera convencional o carretera multicarril"
+      }
+    },
+    {
+      "id": "v4b-sen-0023",
+      "tema": "senales_verticales",
+      "subtema": "identificacion_carreteras",
+      "enunciado": "¿Qué identifica este cartel de fondo verde?",
+      "opciones": {
+        "a": "Una carretera autonómica de primer nivel.",
+        "b": "Un itinerario de la red internacional «E».",
+        "c": "Una vía ciclista de largo recorrido."
+      },
+      "correcta": "b",
+      "explicacion": "Los itinerarios de la red internacional «E» se identifican con la señal S-400, de fondo verde. Las autopistas y autovías llevan fondo azul; las carreteras del Estado, rojo; y las autonómicas, naranja, marrón o amarillo según su nivel.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-400",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Identifica un itinerario de la red internacional «E».",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 178,
+        "tipo_cita": "imagen_catalogo"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "51:31"
+      },
+      "imagen": {
+        "src": "img/senales/S-400.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-400: Itinerario de la red internacional «E»",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 178 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-400",
+        "descripcion": "Itinerario de la red internacional «E»"
+      }
+    },
+    {
+      "id": "v4b-sen-0024",
+      "tema": "senales_verticales",
+      "subtema": "identificacion_carreteras",
+      "enunciado": "¿Qué identifica este cartel de fondo amarillo?",
+      "opciones": {
+        "a": "Una carretera de primer nivel de una red distinta de la del Estado.",
+        "b": "Una carretera en obras, sea cual sea su categoría.",
+        "c": "Una carretera de tercer nivel de una red distinta de la del Estado."
+      },
+      "correcta": "c",
+      "explicacion": "El cartel S-450 (fondo amarillo) identifica una carretera de tercer nivel, que no sea autopista ni autovía, de una red distinta de la del Estado. Las de primer nivel llevan fondo naranja (S-430) y las de segundo, marrón (S-440). En tramos en obras el cajetín de identificación mantiene su color.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-450",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Identifica una carretera de tercer nivel, que no sea autopista o autovía, perteneciente a una red diferente de la del Estado.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 179,
+        "tipo_cita": "imagen_catalogo"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "51:14"
+      },
+      "imagen": {
+        "src": "img/senales/S-450.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-450: Carretera de tercer nivel perteneciente a una red diferente de la del Estado",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 179 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El color amarillo se comprueba en la imagen de la ficha S-450 (pág. 179). La regla de obras está en el apartado 2.5 del catálogo: el cajetín mantiene su color.",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-450",
+        "descripcion": "Carretera de tercer nivel perteneciente a una red diferente de la del Estado"
+      }
+    },
+    {
+      "id": "v4b-sen-0025",
+      "tema": "senales_verticales",
+      "subtema": "localizacion",
+      "enunciado": "¿Qué indica un hito miriamétrico colocado en el margen de una carretera?",
+      "opciones": {
+        "a": "El punto kilométrico de la carretera, cuando es múltiplo de diez.",
+        "b": "La distancia que falta hasta la próxima población.",
+        "c": "Cada tramo de 100 metros de la carretera."
+      },
+      "correcta": "a",
+      "explicacion": "Los hitos miriamétricos (S-574 y siguientes) indican el punto kilométrico de la carretera cuando es múltiplo de diez. Los hitos kilométricos indican cada punto kilométrico.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-574",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica el punto kilométrico de una carretera convencional o una carretera multicarril cuando aquel es múltiplo de diez.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 185
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "52:05"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4b-sen-0026",
+      "tema": "senales_verticales",
+      "subtema": "uso_especifico_poblado",
+      "enunciado": "En poblado, ¿qué tipo de lugares indican las señales de uso específico de fondo marrón, como estas?",
+      "opciones": {
+        "a": "Lugares de interés deportivo o recreativo.",
+        "b": "Lugares de carácter geográfico o ecológico y de interés monumental, histórico o artístico.",
+        "c": "Lugares de interés cultural, como universidades o teatros."
+      },
+      "correcta": "b",
+      "explicacion": "En poblado, las señales de fondo marrón (S-730) indican lugares geográficos o ecológicos y de interés monumental, histórico o artístico: monumentos, castillos, monasterios, museos, palacios. Los lugares de interés cultural (universidades, teatros, bibliotecas) se indican con fondo blanco (S-740).",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-730",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica lugares de tipo geográfico, de interés ecológico o de interés monumental, histórico o artístico tales como monumentos, castillos, monasterios, museos, palacios, etc.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 190,
+        "tipo_cita": "imagen_catalogo"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "53:02"
+      },
+      "imagen": {
+        "src": "img/senales/S-730.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-730: Lugares de carácter geográfico o ecológico y de interés monumental, histórico o artístico",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 190 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Corrige al vídeo: dice que los monumentos y lo cultural van en color púrpura o «cardenal». En el catálogo vigente (pág. 190) los monumentos van en marrón (S-730) y lo cultural en blanco (S-740).",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-730",
+        "descripcion": "Lugares de carácter geográfico o ecológico y de interés monumental, histórico o artístico"
+      }
+    },
+    {
+      "id": "v4b-sen-0027",
+      "tema": "senales_verticales",
+      "subtema": "uso_especifico_poblado",
+      "enunciado": "En poblado, ¿de qué color es el fondo de las señales de uso específico que indican zonas de uso industrial?",
+      "opciones": {
+        "a": "Gris.",
+        "b": "Blanco.",
+        "c": "Morado."
+      },
+      "correcta": "b",
+      "explicacion": "En poblado, las zonas de uso industrial se indican con fondo blanco y caracteres negros (S-750). En las señales de uso específico en poblado, el verde se usa para calles y plazas, el amarillo para lugares de interés para viajeros, el naranja para lugares deportivos o recreativos, el marrón para lugares geográficos o monumentales, el blanco para lugares culturales y zonas industriales, y el azul para autopistas y autovías.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-750",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "S-750 Zonas de uso industrial Indica las zonas de importante atracción de camiones",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 190,
+        "tipo_cita": "imagen_catalogo"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "53:34"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Corrige al vídeo: dice que van en gris. El color blanco solo se ve en el dibujo de la ficha S-750 (pág. 190 del PDF consolidado), comprobado mirando la página.",
+      "materia": 1
+    },
+    {
+      "id": "v4b-sen-0028",
+      "tema": "senales_verticales",
+      "subtema": "uso_especifico_poblado",
+      "enunciado": "En poblado, ¿qué tipo de lugares indican las señales de uso específico de fondo amarillo, como esta?",
+      "opciones": {
+        "a": "Lugares de interés deportivo o recreativo.",
+        "b": "Calles, avenidas y plazas de la red viaria urbana.",
+        "c": "Lugares de interés para los viajeros, como estaciones, aeropuertos u hoteles."
+      },
+      "correcta": "c",
+      "explicacion": "En poblado, las señales de fondo amarillo (S-710) indican lugares de interés para los viajeros: estaciones, aeropuertos, zonas de embarque de los puertos, hoteles, campamentos, oficinas de turismo y automóvil club. Las calles y plazas van en verde (S-700) y los lugares deportivos, en naranja (S-720).",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-710",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica los lugares de interés para los viajeros, tales como estaciones, aeropuertos, zonas de embarque de los puertos, hoteles, campamentos, oficinas de turismo y automóvil club.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 190,
+        "tipo_cita": "imagen_catalogo"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "52:38"
+      },
+      "imagen": {
+        "src": "img/senales/S-710.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-710: Lugares de interés para viajeros",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 190 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-710",
+        "descripcion": "Lugares de interés para viajeros"
+      }
+    },
+    {
+      "id": "v4b-sen-0029",
+      "tema": "senales_verticales",
+      "subtema": "paneles_complementarios",
+      "enunciado": "Bajo una señal de peligro por estrechamiento de calzada hay un panel con la inscripción «3 m». Además de la distancia al comienzo del peligro, ¿qué puede indicar ese panel?",
+      "opciones": {
+        "a": "La anchura libre que queda en el estrechamiento.",
+        "b": "La longitud del tramo estrechado.",
+        "c": "La separación lateral que debe dejar con los ciclistas."
+      },
+      "correcta": "a",
+      "explicacion": "El panel complementario S-800 indica la distancia desde la señal hasta el comienzo del peligro. Colocado bajo la señal de estrechamiento de calzada, puede indicar en cambio la anchura libre del estrechamiento. La longitud del tramo peligroso se indica con el panel S-810, con la cifra entre dos flechas.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, panel S-800",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "advertencia de peligro por estrechamiento de calzada, puede indicar la anchura libre del citado estrechamiento.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 193
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "54:32"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v4b-sen-0030",
+      "tema": "senales_verticales",
+      "subtema": "paneles_complementarios",
+      "enunciado": "Bajo una señal de velocidad máxima, a la entrada de una salida de autovía, hay este panel complementario. ¿Dónde se aplica la limitación?",
+      "opciones": {
+        "a": "En toda la calzada de la autovía a partir del panel.",
+        "b": "Solo en el ramal de salida cuya dirección coincide aproximadamente con la de la flecha.",
+        "c": "En la calzada principal, pero no en el ramal de salida."
+      },
+      "correcta": "b",
+      "explicacion": "El panel complementario S-870a indica que la señal bajo la que está colocado se aplica solamente en el ramal de salida cuya dirección coincide aproximadamente con la de la flecha. Los vehículos que siguen por la calzada principal no quedan afectados.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, panel S-870a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "S-870a || Aplicación de la señalización Indica, bajo la señal vertical correspondiente, que esta se aplica solamente en el ramal de salida",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 194
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "54:56"
+      },
+      "imagen": {
+        "src": "img/senales/S-870a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-870a: Aplicación de la señalización",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 194 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-870a",
+        "descripcion": "Aplicación de la señalización"
+      }
+    },
+    {
+      "id": "v4b-sen-0031",
+      "tema": "senales_verticales",
+      "subtema": "paneles_complementarios",
+      "enunciado": "Bajo una señal de velocidad máxima hay este panel complementario. ¿Cuándo se aplica la limitación?",
+      "opciones": {
+        "a": "Durante toda la época invernal.",
+        "b": "Solo a los vehículos que lleven cadenas.",
+        "c": "Únicamente cuando se den circunstancias de nieve."
+      },
+      "correcta": "c",
+      "explicacion": "El panel complementario S-890a indica que la señal bajo la que está colocado se aplica únicamente cuando se den circunstancias de nieve. Los paneles S-890b y S-890c hacen lo mismo con la lluvia y la niebla.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, panel S-890a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "aplica únicamente cuando se den circunstancias de nieve.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 196
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "55:29"
+      },
+      "imagen": {
+        "src": "img/senales/S-890a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-890a: Aplicación de la señalización a circunstancias de nieve",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 196 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-890a",
+        "descripcion": "Aplicación de la señalización a circunstancias de nieve"
+      }
+    },
+    {
+      "id": "v4b-sen-0032",
+      "tema": "senales_verticales",
+      "subtema": "paneles_complementarios",
+      "enunciado": "¿Qué indica este panel colocado bajo una señal de reglamentación?",
+      "opciones": {
+        "a": "Que el cumplimiento de la señal se vigila con medios automáticos de captación y denuncia.",
+        "b": "Que en ese tramo hay cámaras que informan del estado del tráfico.",
+        "c": "Que hay una zona de estacionamiento vigilado."
+      },
+      "correcta": "a",
+      "explicacion": "El panel S-892 indica que el cumplimiento de lo establecido por la señal a la que acompaña se vigila mediante medios de captación y denuncia automáticos.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, panel S-892",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica la vigilancia mediante medios de captación y denuncia automáticos, del cumplimiento de lo establecido por la señal vertical a la que acompaña.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 196
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "55:38"
+      },
+      "imagen": {
+        "src": "img/senales/S-892.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-892: Vigilancia por medios automáticos",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 196 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-892",
+        "descripcion": "Vigilancia por medios automáticos"
+      }
+    },
+    {
+      "id": "v4b-sen-0033",
+      "tema": "senales_verticales",
+      "subtema": "senales_de_control",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Un helipuerto de emergencia próximo.",
+        "b": "La posible existencia de controles de velocidad mediante medios aéreos, como helicóptero o dron.",
+        "c": "Un lugar donde vuelan aeronaves a baja altura que pueden producir ruidos imprevistos."
+      },
+      "correcta": "b",
+      "explicacion": "La señal S-991g indica la posible existencia en el tramo de controles de velocidad mediante medios aéreos, como helicóptero o dron. El peligro por aeronaves a baja altura se advierte con la señal triangular P-12.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-991g",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "velocidad mediante medios aéreos, como helicóptero o dron.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 201
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "56:06"
+      },
+      "imagen": {
+        "src": "img/senales/S-991g.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-991g: Control de velocidad mediante medios aéreos",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 201 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-991g",
+        "descripcion": "Control de velocidad mediante medios aéreos"
+      }
+    },
+    {
+      "id": "v4b-sen-0034",
+      "tema": "senales_verticales",
+      "subtema": "senales_de_control",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "La proximidad de una intersección regulada por semáforos.",
+        "b": "Un semáforo que regula un carril reversible.",
+        "c": "La existencia de un dispositivo de control de paso con semáforo en rojo."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-991c indica la existencia de un dispositivo de control de paso con semáforo en rojo. La proximidad de un semáforo se advierte con la señal triangular P-3.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-991c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica la existencia de un dispositivo de control de paso con semáforo en rojo.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 200
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "55:58"
+      },
+      "imagen": {
+        "src": "img/senales/S-991c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-991c: Control de semáforo en rojo l",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 200 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-991c",
+        "descripcion": "Control de semáforo en rojo l"
+      }
+    },
+    {
+      "id": "v4b-sen-0035",
+      "tema": "senales_verticales",
+      "subtema": "otras_senales",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "El peligro que representa encender un fuego.",
+        "b": "Un incendio activo en la zona: prohibido el paso.",
+        "c": "La situación de un extintor de incendios."
+      },
+      "correcta": "a",
+      "explicacion": "La señal S-900 advierte del peligro que representa encender un fuego. La situación de un extintor se indica con la señal S-910.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-900",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Advierte del peligro que representa encender un fuego.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 198
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "56:50"
+      },
+      "imagen": {
+        "src": "img/senales/S-900.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-900: Peligro de incendio",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 198 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-900",
+        "descripcion": "Peligro de incendio"
+      }
+    },
+    {
+      "id": "v4b-sen-0036",
+      "tema": "senales_verticales",
+      "subtema": "otras_senales",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Que ha entrado en Portugal hace 1 km.",
+        "b": "Que la carretera se dirige hacia Portugal y que la frontera está a 1 km.",
+        "c": "Que a 1 km hay un área de servicio con información para viajeros europeos."
+      },
+      "correcta": "b",
+      "explicacion": "La señal S-930 (confirmación del país) indica el nombre del país hacia el que se dirige la carretera; la cifra inferior es la distancia a la que se encuentra la frontera. La entrada en España se indica con la señal S-920.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-930",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica el nombre del país hacia el que se dirige la carretera. La cifra en la parte inferior indica la distancia a la que se encuentra la frontera.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 198
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "56:50"
+      },
+      "imagen": {
+        "src": "img/senales/S-930.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-930: Confirmación del país",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 198 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-930",
+        "descripcion": "Confirmación del país"
+      }
+    },
+    {
+      "id": "v4b-sen-0037",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "¿Qué indica esta señal cuadrada azul?",
+      "opciones": {
+        "a": "Velocidad máxima de 70 km/h, de obligado cumplimiento.",
+        "b": "Velocidad mínima de 70 km/h.",
+        "c": "Una velocidad que se aconseja no sobrepasar, aunque las condiciones sean favorables."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-7 (velocidad máxima aconsejada) recomienda no sobrepasar la velocidad indicada aunque las condiciones de la vía y de la circulación sean favorables. Es una recomendación, no una obligación. Colocada bajo una señal de peligro, se refiere al tramo en que subsista el peligro.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-7",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "que se aconseja no sobrepasar aunque las condiciones meteorológicas y ambientales de la vía y de la circulación sean favorables.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 128
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "29:13"
+      },
+      "imagen": {
+        "src": "img/senales/S-7.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-7: Velocidad máxima aconsejada",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 128 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-7",
+        "descripcion": "Velocidad máxima aconsejada"
+      }
+    },
+    {
+      "id": "v4b-sen-0038",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "Al salir de un túnel encuentra esta señal. ¿Puede apagar el alumbrado de cruce?",
+      "opciones": {
+        "a": "Sí, siempre que no lo exijan las condiciones de visibilidad, la hora o la iluminación de la vía.",
+        "b": "Sí, en cualquier caso, porque la señal pone fin a toda obligación de alumbrado.",
+        "c": "No, debe mantenerlo encendido hasta la siguiente señal de fin de prohibiciones."
+      },
+      "correcta": "a",
+      "explicacion": "La señal S-24 indica el final de un tramo en el que es obligatorio el alumbrado al menos de cruce y recuerda que se puede prescindir de él, siempre que no lo impongan las circunstancias de visibilidad, horario o iluminación de la vía.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-24",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "prescindir de este, siempre que no venga impuesto por circunstancias de visibilidad, horario o iluminación de la vía.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 133
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "32:19"
+      },
+      "imagen": {
+        "src": "img/senales/S-24.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-24: Fin de obligación de alumbrado de corto alcance (cruce)",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 133 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-24",
+        "descripcion": "Fin de obligación de alumbrado de corto alcance (cruce)"
+      }
+    },
+    {
+      "id": "v4b-sen-0039",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "La proximidad de un cambio de sentido al mismo nivel.",
+        "b": "La proximidad de una salida por la que se puede cambiar de sentido a distinto nivel.",
+        "c": "Que está prohibido cambiar de sentido en el próximo tramo."
+      },
+      "correcta": "b",
+      "explicacion": "La señal S-25 indica la proximidad de una salida a través de la cual se puede efectuar un cambio de sentido a distinto nivel. El cambio de sentido al mismo nivel se indica con la señal S-22.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-25",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica la proximidad de una salida a través de la cual se puede efectuar un cambio de sentido a distinto nivel.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 133
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "32:22"
+      },
+      "imagen": {
+        "src": "img/senales/S-25.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-25: Cambio de sentido a distinto nivel",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 133 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-25",
+        "descripcion": "Cambio de sentido a distinto nivel"
+      }
+    },
+    {
+      "id": "v4b-sen-0040",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "Circula por un túnel y encuentra esta señal. ¿Qué indica?",
+      "opciones": {
+        "a": "Una salida de emergencia del túnel.",
+        "b": "Una zona donde está permitido estacionar dentro del túnel.",
+        "c": "Un lugar donde apartar el vehículo en caso de emergencia, que dispone de teléfono de emergencia."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-34a indica un lugar del túnel donde se puede apartar el vehículo en caso de emergencia, para dejar libre el paso, y que dispone de teléfono de emergencia. Las salidas de emergencia se indican con las señales S-980 y siguientes.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-34a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica la situación de un lugar donde se puede apartar el vehículo en un túnel en caso de emergencia",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 135
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "39:03"
+      },
+      "imagen": {
+        "src": "img/senales/S-34a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-34a: Apartadero en túneles con teléfono de emergencia",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 135 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-34a",
+        "descripcion": "Apartadero en túneles con teléfono de emergencia"
+      }
+    },
+    {
+      "id": "v4b-sen-0041",
+      "tema": "senales_verticales",
+      "subtema": "indicaciones_generales",
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Una zona de escape para detener un vehículo cuyos frenos han fallado.",
+        "b": "Un tramo en el que es obligatorio reducir la velocidad antes de una curva.",
+        "c": "Que el carril derecho termina y hay que incorporarse al izquierdo."
+      },
+      "correcta": "a",
+      "explicacion": "La señal S-16 (zona de frenado de emergencia) indica una zona de escape de la calzada acondicionada para que un vehículo pueda ser detenido en caso de fallo de su sistema de frenado.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, señal S-16",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "acondicionada para que un vehículo pueda ser detenido en caso de fallo de su sistema de frenado.",
+        "version_consultada": "2026-06-26",
+        "pagina_pdf": 131
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video4",
+        "minuto": "31:04"
+      },
+      "imagen": {
+        "src": "img/senales/S-16.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-16: Zona de frenado de emergencia",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 131 del PDF consolidado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-16",
+        "descripcion": "Zona de frenado de emergencia"
+      }
+    }
+  ]
+}

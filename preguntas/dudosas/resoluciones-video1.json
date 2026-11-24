@@ -131,9 +131,7 @@
       "veredicto": "correcta",
       "lo_correcto": "Con nieve, en autopistas y autovías, se va por el carril derecho y, si hay tres o más carriles, también por el de al lado.",
       "fuente": "Reglamento General de Circulación, art. 32.2",
-      "preguntas_nuevas": [
-        "res-arc-0002"
-      ],
+      "preguntas_nuevas": [],
       "preguntas_que_ya_lo_cubren": [
         "arc-0013"
       ]
@@ -313,10 +311,10 @@
       "veredicto": "matiz",
       "lo_correcto": "La norma dice «intersecciones con vías para ciclistas», no «pasos para ciclistas». (En los pasos para ciclistas lo que está prohibido es parar.)",
       "fuente": "Reglamento General de Circulación, arts. 87.1.b y 94.1.b",
-      "preguntas_nuevas": [
-        "res-adel-0001"
-      ],
-      "preguntas_que_ya_lo_cubren": []
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0013"
+      ]
     },
     {
       "id": "A-rev-0007",
@@ -1088,10 +1086,10 @@
       "veredicto": "correcta",
       "lo_correcto": "Es delito superar en más de 60 km/h el límite en vía urbana o en más de 80 km/h en interurbana.",
       "fuente": "Código Penal, art. 379.1",
-      "preguntas_nuevas": [
-        "res-del-0001"
-      ],
-      "preguntas_que_ya_lo_cubren": []
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "bmp-0001"
+      ]
     },
     {
       "id": "D-rev-0002",
@@ -1100,10 +1098,10 @@
       "veredicto": "correcta",
       "lo_correcto": "Más de 0,60 mg/l en aire (o 1,2 g/l en sangre) es siempre delito. Con menos también puede serlo si se conduce bajo la influencia del alcohol.",
       "fuente": "Código Penal, art. 379.2",
-      "preguntas_nuevas": [
-        "res-del-0002"
-      ],
-      "preguntas_que_ya_lo_cubren": []
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "bmp-0003"
+      ]
     },
     {
       "id": "D-rev-0003",
@@ -1112,10 +1110,10 @@
       "veredicto": "matiz",
       "lo_correcto": "Para el conductor al que se lo pide un agente, negarse es delito. Pero no «siempre»: si se niega un peatón implicado en un accidente, es infracción administrativa muy grave, no delito.",
       "fuente": "Código Penal, art. 383; Ley de Tráfico, art. 77",
-      "preguntas_nuevas": [
-        "res-del-0003"
-      ],
-      "preguntas_que_ya_lo_cubren": []
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "bmp-0005"
+      ]
     },
     {
       "id": "D-rev-0004",
@@ -1136,11 +1134,11 @@
       "veredicto": "matiz",
       "lo_correcto": "Es delito conducir sin haber tenido nunca permiso, con el permiso sin puntos o tras quitártelo un juez. Pero conducir con el permiso suspendido por Tráfico (no por un juez) es infracción con pérdida de 4 puntos, no delito.",
       "fuente": "Código Penal, art. 384; Ley de Tráfico, anexo II.17",
-      "preguntas_nuevas": [
-        "res-del-0004",
-        "res-del-0005"
-      ],
-      "preguntas_que_ya_lo_cubren": []
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "bmp-0006",
+        "bmp-0007"
+      ]
     },
     {
       "id": "D-rev-0006",
@@ -1149,10 +1147,10 @@
       "veredicto": "correcta",
       "lo_correcto": "Es delito si con ello se crea un grave riesgo para la circulación.",
       "fuente": "Código Penal, art. 385",
-      "preguntas_nuevas": [
-        "res-del-0006"
-      ],
-      "preguntas_que_ya_lo_cubren": []
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "bmp-0010"
+      ]
     },
     {
       "id": "D-rev-0007",

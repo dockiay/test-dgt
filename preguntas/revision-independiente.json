@@ -1,5 +1,5 @@
 {
- "version": 3,
+ "version": 4,
  "revisor": "Revisión independiente (hilo «Revisar preguntas de forma independiente»)",
  "fecha": "2026-11-24",
  "metodo": "Cada pregunta se ha contrastado con el texto de los PDF consolidados de /mnt/project-files/fuentes/ (RGC y Ley de Tráfico, última modificación 26/06/2026), leyendo el artículo completo y no solo la cita: respuesta correcta, falsedad de las otras dos opciones, literalidad y suficiencia de la cita, y ambigüedad del enunciado.",
@@ -17,10 +17,9 @@
    "fichero": "banco-video1-cap09-38.json",
    "preguntas": 565,
    "resumen": {
-    "ok": 558,
-    "corregir": 6,
-    "rechazar": 1
-   }
+    "ok": 565
+   },
+   "segunda_revision": "Las 65 preguntas de señales rehechas con fuente RGC_CATALOGO (B1-sen-0074 a 0138 salvo 0093, y B2-sen-0007) revisadas de nuevo: todas ok. Citas cotejadas con fuentes/txt/catalogo_ocr.txt; dibujos y fichas vistos en imagen en las págs. 89, 90, 97, 102, 115 y 116; el resto de páginas, por texto OCR."
   },
   {
    "fichero": "banco-materias-boe.json",
@@ -48,7 +47,8 @@
   "Hay 9 parejas de preguntas casi duplicadas entre bloques (anotadas en cada veredicto); conviene que la web no las saque en el mismo test.",
   "Banco de materias BOE (75): todas correctas, citas literales y artículos completos leídos (RGC, Manual DGT y Código Penal arts. 379-385). Una observación de redacción en bmp-0009.",
   "Reparto de letras correcto en los tres bancos (piloto a24/b23/c23; 565: a195/b186/c184; materias 25/25/25).",
-  "Banco de dudosas (56): todas correctas contra el BOE (RGC, RGV, RD 920/2017 de ITV, RDL 8/2004 del seguro, Orden INT/2596/2005, Reglamento de Conductores, Código Penal) y el catálogo de señales, con tablas y colores comprobados a mano. Dos defectos de forma: la respuesta correcta es la b en 36 de 56, y 6 preguntas de delitos repiten las del banco de materias (res-del-0004 y res-del-0006 son idénticas a bmp-0006 y bmp-0010)."
+  "Banco de dudosas (56): todas correctas contra el BOE (RGC, RGV, RD 920/2017 de ITV, RDL 8/2004 del seguro, Orden INT/2596/2005, Reglamento de Conductores, Código Penal) y el catálogo de señales, con tablas y colores comprobados a mano. Dos defectos de forma: la respuesta correcta es la b en 36 de 56, y 6 preguntas de delitos repiten las del banco de materias (res-del-0004 y res-del-0006 son idénticas a bmp-0006 y bmp-0010).",
+  "Segunda revisión de señales: las 7 correcciones están aplicadas y las 65 preguntas rehechas con el catálogo vigente son correctas. Reparto de letras en esas 65: a24/b21/c20. Nota para futuras preguntas: la ficha R-301 vigente añade que, situada en una vía sin prioridad, la limitación deja de tener vigencia al salir de una intersección con una vía con prioridad."
  ],
  "veredictos": [
   {
@@ -1503,118 +1503,153 @@
    "id": "B1-sen-0074",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0075",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0076",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0077",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0078",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0079",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0080",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0081",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0082",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0083",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0084",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0085",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0086",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0087",
    "fichero": "banco-video1-cap09-38.json",
-   "veredicto": "corregir",
+   "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "gravedad": "menor",
-   "motivo": "En el catálogo vigente la señal de niños es P-21a («Niños. Peligro por la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc.»); P-21b es «Personas con dificultades motrices». El código P-21 a secas ya no existe.",
-   "propuesta": "Cambiar el código a P-21a en imagen_requerida y explicación."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes. Veredicto anterior: corregir; corrección aplicada."
   },
   {
    "id": "B1-sen-0088",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0089",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0090",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0091",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0092",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0093",
@@ -1626,295 +1661,361 @@
    "id": "B1-sen-0094",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0095",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0096",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "El dibujo vigente de P-32 es un vehículo volcado, no un turismo con triángulo: recortar la imagen del catálogo, no dibujarla según la descripción."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0097",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "El dibujo de P-33 ha cambiado y la ficha vigente incluye también la lluvia. Recortar la imagen del catálogo."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0098",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0099",
    "fichero": "banco-video1-cap09-38.json",
-   "veredicto": "corregir",
+   "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "gravedad": "media",
-   "motivo": "El código P-35 ya no es «otros peligros»: en el catálogo vigente P-35 es «Trenzado» (dos coches con trayectorias cruzadas) y el signo de admiración es P-50 «Otros peligros». Si la imagen se recorta por código saldría una señal distinta de la que se pregunta.",
-   "propuesta": "Cambiar imagen_requerida.codigo y la explicación a P-50; cita: «P-50 Otros peligros. Indica la proximidad de un peligro distinto de los advertidos por otras señales»."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes. Veredicto anterior: corregir; corrección aplicada."
   },
   {
    "id": "B1-sen-0100",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0101",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0102",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0103",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0104",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0105",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0106",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "La ficha R-103 vigente añade que tampoco prohíbe el acceso a los vehículos de tres ruedas asimilados a motocicletas. La respuesta no cambia."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0107",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0108",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0109",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0110",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0111",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0112",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0113",
    "fichero": "banco-video1-cap09-38.json",
-   "veredicto": "corregir",
+   "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "gravedad": "menor",
-   "motivo": "La respuesta es correcta (un remolque de un solo eje puede entrar), pero la opción b y la explicación mencionan los semirremolques, que la ficha vigente ya no cita: «R-112 Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje».",
-   "propuesta": "Opción b: «Sí, porque la señal exceptúa los remolques de un solo eje». Cita del catálogo."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes. Veredicto anterior: corregir; corrección aplicada."
   },
   {
    "id": "B1-sen-0114",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0115",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0116",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0117",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0118",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0119",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0120",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0121",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0122",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0123",
    "fichero": "banco-video1-cap09-38.json",
-   "veredicto": "corregir",
+   "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "gravedad": "media",
-   "motivo": "La respuesta b sigue siendo correcta, pero la explicación usa la definición antigua (excepción para motocicletas). La ficha R-305 vigente dice: «indica la prohibición a todos los vehículos de adelantar a los vehículos a motor que circulen por la calzada cuando dicha maniobra implique invadir la zona reservada al sentido contrario de circulación». Es decir, sin invadir el sentido contrario se puede adelantar a cualquier vehículo, no solo a motocicletas.",
-   "propuesta": "Reescribir explicación y cita con la ficha R-305 del catálogo. Mejor aún, preguntar directamente qué prohíbe la señal (adelantar a vehículos a motor cuando haya que invadir el sentido contrario)."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes. Veredicto anterior: corregir; corrección aplicada."
   },
   {
    "id": "B1-sen-0124",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0125",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0126",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0127",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "Terminología: el catálogo vigente dice «excepto motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas», no «sin sidecar». La respuesta no cambia."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0128",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "Terminología: la ficha R-405 vigente habla de «motocicletas de dos ruedas y vehículos de tres ruedas asimilados», no «sin sidecar». La respuesta no cambia."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0129",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "Confirmada con la ficha R-407a vigente («prohibición a los demás usuarios de la vía de utilizarla»)."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0130",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "Confirmada con la ficha R-407b vigente."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0131",
    "fichero": "banco-video1-cap09-38.json",
-   "veredicto": "rechazar",
-   "respuesta_correcta_confirmada": false,
-   "gravedad": "grave",
-   "motivo": "La respuesta marcada (c: nadie más puede circular) contradice el BOE vigente. La ficha R-408 del catálogo dice solo: «Camino obligatorio para vehículos de tracción animal. Obligación para los conductores de vehículos de tracción animal de utilizar el camino a cuya entrada esté situada», sin prohibición para los demás. Las R-407a, R-407b, R-409 y R-410 sí añaden «y prohibición a los demás usuarios de la vía de utilizarla»; la R-408 no. El Manual DGT 2024 (p. 182) lo simplifica mal y el profesor del vídeo tenía razón. Catálogo oficial de señales verticales (RGC, anexo I; PDF consolidado 26/06/2026, págs. 89-209, leído en imagen y por OCR: preguntas/revision/catalogo-senales-boe-ocr.txt)",
-   "propuesta": "Retirarla, o rehacerla con correcta = a (la señal solo obliga a los vehículos de tracción animal; no prohíbe el camino a los demás) y cita literal de la ficha R-408 del catálogo. Quitar la nota «corrige al vídeo»."
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes. Veredicto anterior: rechazar; corrección aplicada."
   },
   {
    "id": "B1-sen-0132",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "Confirmada con la ficha R-409 vigente (reservado y obligatorio)."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0133",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "observacion": "Confirmada con la ficha R-410 vigente (reservado y obligatorio)."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0134",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0135",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0136",
    "fichero": "banco-video1-cap09-38.json",
-   "veredicto": "corregir",
+   "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "gravedad": "menor",
-   "motivo": "Respuesta correcta pero incompleta respecto a la ficha vigente: «R-412 Cadenas para nieve. Obligación de no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados (…) o neumáticos especiales de nieve». Existe además la R-412b «Neumáticos de invierno».",
-   "propuesta": "Opción b: «Obligación de no proseguir la marcha sin cadenas para nieve, otros dispositivos antideslizantes autorizados o neumáticos especiales de nieve»."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes. Veredicto anterior: corregir; corrección aplicada."
   },
   {
    "id": "B1-sen-0137",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B1-sen-0138",
    "fichero": "banco-video1-cap09-38.json",
    "veredicto": "ok",
-   "respuesta_correcta_confirmada": true
+   "respuesta_correcta_confirmada": true,
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes."
   },
   {
    "id": "B2-sen-0001",
@@ -1955,11 +2056,10 @@
   {
    "id": "B2-sen-0007",
    "fichero": "banco-video1-cap09-38.json",
-   "veredicto": "corregir",
+   "veredicto": "ok",
    "respuesta_correcta_confirmada": true,
-   "gravedad": "menor",
-   "motivo": "El código S-991 a secas no existe en el catálogo vigente: S-991a (control de velocidad en convencional o multicarril), S-991b (en autopista o autovía), S-991c (semáforo en rojo), S-991d (STOP), S-991e/f (separación mínima), S-991g (medios aéreos).",
-   "propuesta": "Usar S-991a en imagen_requerida (versión de carretera convencional) y citar su ficha."
+   "revision": 2,
+   "observacion": "Segunda revisión (24/11/2026): rehecha con la ficha vigente del catálogo del RGC; cita literal, respuesta y distractores conformes. Veredicto anterior: corregir; corrección aplicada."
   },
   {
    "id": "B2-cic-0009",

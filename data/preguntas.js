@@ -45,6 +45,11 @@ window.BANCO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-13723",
    "nombre": "Orden INT/2596/2005, cursos de sensibilización y reeducación vial",
    "ultima_actualizacion": "2024-09-04"
+  },
+  "RGC_CATALOGO": {
+   "ref": "BOE-A-2003-23514, Anexo I (catálogo de señales, págs. 89-209 del PDF consolidado)",
+   "ultima_actualizacion": "2026-06-26",
+   "nota": "Transcripción OCR cotejada con la imagen de cada ficha"
   }
  },
  "preguntas": [
@@ -78,11 +83,11 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "¿Qué diferencia a una furgoneta de un camión?",
    "opciones": {
-    "a": "Que la furgoneta tiene la cabina integrada en el resto de la carrocería.",
-    "b": "Que la furgoneta puede llevar más de 9 plazas.",
-    "c": "Que la furgoneta no puede transportar mercancías."
+    "a": "Que la furgoneta no puede transportar mercancías.",
+    "b": "Que la furgoneta tiene la cabina integrada en el resto de la carrocería.",
+    "c": "Que la furgoneta puede llevar más de 9 plazas."
    },
-   "correcta": "a",
+   "correcta": "b",
    "explicacion": "Los dos transportan mercancías y tienen como máximo 9 plazas incluido el conductor. En la furgoneta la cabina está integrada en la carrocería; en el camión, no.",
    "fuente": {
     "norma": "RGV",
@@ -102,10 +107,10 @@ window.BANCO = {
    "enunciado": "¿Qué es un vehículo derivado de turismo?",
    "opciones": {
     "a": "Un turismo con más de nueve plazas.",
-    "b": "Un automóvil para servicios o transporte exclusivo de mercancías que conserva la carrocería del turismo del que deriva y tiene una sola fila de asientos.",
-    "c": "Una furgoneta con dos filas de asientos."
+    "b": "Una furgoneta con dos filas de asientos.",
+    "c": "Un automóvil para servicios o transporte exclusivo de mercancías que conserva la carrocería del turismo del que deriva y tiene una sola fila de asientos."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "El derivado de turismo sale de un turismo, conserva su carrocería y solo tiene una fila de asientos; se destina a servicios o a transporte de mercancías.",
    "fuente": {
     "norma": "RGV",
@@ -124,11 +129,11 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "Según el Reglamento General de Vehículos, un patinete eléctrico (vehículo de movilidad personal), ¿es un «vehículo a motor»?",
    "opciones": {
-    "a": "Sí, porque tiene motor eléctrico.",
-    "b": "No: aunque tiene motor, el Reglamento lo excluye expresamente de la definición de vehículo a motor.",
-    "c": "Solo cuando circula por vías interurbanas."
+    "a": "No: aunque tiene motor, el Reglamento lo excluye expresamente de la definición de vehículo a motor.",
+    "b": "Solo cuando circula por vías interurbanas.",
+    "c": "Sí, porque tiene motor eléctrico."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "El Reglamento General de Vehículos excluye de «vehículo a motor» a ciclomotores, tranvías, vehículos para personas de movilidad reducida, bicicletas de pedaleo asistido y vehículos de movilidad personal. El manual de la DGT los incluye entre los «vehículos no considerados a motor».",
    "fuente": {
     "norma": "RGV",
@@ -170,11 +175,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "¿De qué color es el fondo de la placa de matrícula de un remolque?",
    "opciones": {
-    "a": "Rojo.",
+    "a": "Blanco.",
     "b": "Amarillo.",
-    "c": "Blanco."
+    "c": "Rojo."
    },
-   "correcta": "a",
+   "correcta": "c",
    "explicacion": "Las placas de remolques y semirremolques tienen fondo rojo retrorreflectante y caracteres negros.",
    "fuente": {
     "norma": "RGV",
@@ -193,11 +198,11 @@ window.BANCO = {
    "materia": 7,
    "enunciado": "¿Puede un peatón circular por una autovía?",
    "opciones": {
-    "a": "Sí, por el arcén y de día.",
-    "b": "No, salvo en los casos y condiciones que fija el reglamento (por ejemplo, al salir del vehículo por una emergencia).",
+    "a": "No, salvo en los casos y condiciones que fija el reglamento (por ejemplo, al salir del vehículo por una emergencia).",
+    "b": "Sí, por el arcén y de día.",
     "c": "Sí, si lleva chaleco reflectante."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "Los peatones no pueden circular por autopistas ni autovías, salvo en los casos y condiciones del artículo 130 (inmovilización del vehículo por emergencia).",
    "fuente": {
     "norma": "RGC",
@@ -216,11 +221,11 @@ window.BANCO = {
    "materia": 7,
    "enunciado": "En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop (pedir que te lleven)?",
    "opciones": {
-    "a": "Sí, porque la explanada no es calzada.",
-    "b": "Sí, si se hace fuera de los carriles de pago.",
-    "c": "No, está prohibido pedir pasaje en cualquier tramo de la autopista, incluidas las explanadas de peaje."
+    "a": "Sí, si se hace fuera de los carriles de pago.",
+    "b": "No, está prohibido pedir pasaje en cualquier tramo de la autopista, incluidas las explanadas de peaje.",
+    "c": "Sí, porque la explanada no es calzada."
    },
-   "correcta": "c",
+   "correcta": "b",
    "explicacion": "Los peatones no pueden hacer peticiones de pasaje en ningún tramo de autopistas y autovías, incluidas las explanadas de las estaciones de peaje.",
    "fuente": {
     "norma": "RGC",
@@ -240,10 +245,10 @@ window.BANCO = {
    "enunciado": "¿Puede circular una persona a caballo por el arcén de una autovía?",
    "opciones": {
     "a": "Sí, siempre que vaya por el arcén.",
-    "b": "No, está prohibida la circulación de animales por autopistas y autovías.",
-    "c": "Solo de día."
+    "b": "Solo de día.",
+    "c": "No, está prohibida la circulación de animales por autopistas y autovías."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "Se prohíbe la circulación de animales por autopistas y autovías; la prohibición incluye también los vehículos de tracción animal.",
    "fuente": {
     "norma": "RGC",
@@ -262,41 +267,26 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "Una persona en silla de ruedas circula sola por una carretera sin acera ni zona peatonal practicable. Como norma general, ¿por dónde debe ir?",
    "opciones": {
-    "a": "Por el arcén derecho, como los vehículos.",
-    "b": "Por el arcén izquierdo en el sentido de su marcha (o por la calzada si no hay arcén), lo más alejada posible de los vehículos.",
-    "c": "Por el centro de la calzada, para que la vean."
+    "a": "Por el arcén izquierdo en el sentido de su marcha (o por la calzada si no hay arcén), lo más alejada posible de los vehículos.",
+    "b": "Por el centro de la calzada, para que la vean.",
+    "c": "Por el arcén derecho, como los vehículos."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad.",
    "fuente": {
     "norma": "RGC",
     "articulo": "122.1",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "res-arc-0002",
-   "tema": "condiciones_adversas",
-   "subtema": "nieve",
-   "materia": 6,
-   "enunciado": "En una autovía con tres carriles por sentido, la circulación está dificultada por la nieve. ¿Qué carriles puede utilizar?",
-   "opciones": {
-    "a": "Solo el de la derecha.",
-    "b": "El de la derecha y su contiguo, dejando libres los de la izquierda para emergencias y quitanieves.",
-    "c": "Cualquiera, con cadenas."
-   },
-   "correcta": "b",
-   "explicacion": "Con nieve está prohibido adelantar y hay que ir por el carril derecho, pudiendo usar el contiguo si hay tres o más carriles por sentido.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "32.2",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "cita": "pudiendo utilizar su contiguo en tramos con tres o más carriles por sentido, dejando expeditos para la circulación de vehículos de emergencia y quitanieves el resto de carriles a la izquierda",
-    "version_consultada": "2026-06-26"
+    "version_consultada": "2026-06-26",
+    "citas_adicionales": [
+     {
+      "norma": "LSV",
+      "articulo": "Anexo I.4",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+      "cita": "y las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor."
+     }
+    ]
    },
    "imagen": null,
    "verificado_el": "2026-11-24"
@@ -331,11 +321,11 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. ¿A qué velocidad debe circular, salvo señal de otra inferior?",
    "opciones": {
-    "a": "Entre 60 y 80 km/h.",
+    "a": "Como máximo a 50 km/h.",
     "b": "A la velocidad genérica de la vía.",
-    "c": "Como máximo a 50 km/h."
+    "c": "Entre 60 y 80 km/h."
    },
-   "correcta": "a",
+   "correcta": "c",
    "explicacion": "Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales.",
    "fuente": {
     "norma": "RGC",
@@ -354,11 +344,11 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido dispone de dos carriles. ¿A qué velocidad puede circular?",
    "opciones": {
-    "a": "Obligatoriamente entre 60 y 80 km/h.",
-    "b": "A las velocidades genéricas de la vía (máximas y mínimas).",
+    "a": "A las velocidades genéricas de la vía (máximas y mínimas).",
+    "b": "Obligatoriamente entre 60 y 80 km/h.",
     "c": "Como máximo a 60 km/h."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida.",
    "fuente": {
     "norma": "RGC",
@@ -377,9 +367,9 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "Los vehículos que circulan por el carril contiguo a uno habilitado en sentido contrario al habitual, ¿qué alumbrado deben llevar?",
    "opciones": {
-    "a": "Ninguno especial de día.",
+    "a": "La luz de largo alcance.",
     "b": "Al menos la luz de corto alcance o de cruce, de día y de noche.",
-    "c": "La luz de largo alcance."
+    "c": "Ninguno especial de día."
    },
    "correcta": "b",
    "explicacion": "Deben llevar encendida al menos la luz de cruce, tanto de día como de noche, y no pueden invadir el carril habilitado en sentido contrario.",
@@ -401,10 +391,10 @@ window.BANCO = {
    "enunciado": "Según el manual de la DGT, ¿qué separación es aconsejable dejar con el vehículo de delante en condiciones normales?",
    "opciones": {
     "a": "Un segundo.",
-    "b": "Dos o tres segundos.",
-    "c": "Cinco segundos."
+    "b": "Cinco segundos.",
+    "c": "Dos o tres segundos."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "El manual aconseja dos o tres segundos de separación, y al menos un segundo más con lluvia, nieve, niebla, de noche o si el de atrás se acerca demasiado. El reglamento no fija segundos: exige un espacio que permita detenerse sin chocar (RGC 54.1).",
    "fuente": {
     "norma": "MANUAL_DGT",
@@ -424,8 +414,8 @@ window.BANCO = {
    "enunciado": "Según el manual de la DGT, si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?",
    "opciones": {
     "a": "Al menos un segundo más.",
-    "b": "No hace falta aumentarla.",
-    "c": "Hay que duplicarla siempre."
+    "b": "Hay que duplicarla siempre.",
+    "c": "No hace falta aumentarla."
    },
    "correcta": "a",
    "explicacion": "El manual indica dejar al menos un segundo más de espacio con lluvia, nieve, niebla, de noche o cuando el vehículo de atrás se acerca demasiado.",
@@ -469,11 +459,11 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "Fuera de poblado, el límite de velocidad de los ciclos es de 45 km/h. ¿Puede un ciclista superarlo?",
    "opciones": {
-    "a": "No, nunca.",
-    "b": "Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior.",
-    "c": "Solo en bajadas, hasta 60 km/h."
+    "a": "Solo en bajadas, hasta 60 km/h.",
+    "b": "No, nunca.",
+    "c": "Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "El límite de 45 km/h es para ciclos, ciclomotores y cuadriciclos ligeros, pero los conductores de bicicletas pueden superarlo donde las circunstancias de la vía lo permitan.",
    "fuente": {
     "norma": "RGC",
@@ -486,40 +476,17 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "res-adel-0001",
-   "tema": "adelantamiento",
-   "subtema": "prohibiciones",
-   "materia": 1,
-   "enunciado": "¿Está permitido adelantar en una intersección con una vía para ciclistas?",
-   "opciones": {
-    "a": "Sí, si no hay ciclistas a la vista.",
-    "b": "No, está prohibido adelantar en las intersecciones con vías para ciclistas y en sus proximidades.",
-    "c": "Solo a vehículos de dos ruedas."
-   },
-   "correcta": "b",
-   "explicacion": "Está prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas, en los pasos a nivel y en sus proximidades.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "87.1.b",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "cita": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "res-luc-0001",
    "tema": "luces",
    "subtema": "tuneles",
    "materia": 6,
    "enunciado": "A media mañana entra en un túnel insuficientemente iluminado, a 80 km/h y sin nadie a quien deslumbrar. ¿Qué alumbrado debe llevar?",
    "opciones": {
-    "a": "El de corto alcance o cruce, porque es un túnel.",
-    "b": "El de largo alcance o carretera.",
+    "a": "El de largo alcance o carretera.",
+    "b": "El de corto alcance o cruce, porque es un túnel.",
     "c": "Solo las luces de posición, porque es de día."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "En túneles insuficientemente iluminados, a más de 40 km/h, hay que llevar la luz de carretera salvo que haya que usar la de cruce (por ejemplo, para no deslumbrar). En túneles suficientemente iluminados, la de cruce.",
    "fuente": {
     "norma": "RGC",
@@ -538,9 +505,9 @@ window.BANCO = {
    "materia": 14,
    "enunciado": "En un turismo, ¿qué luces antiniebla son obligatorias?",
    "opciones": {
-    "a": "Las delanteras y las traseras.",
+    "a": "Ninguna; las dos son opcionales.",
     "b": "Solo la trasera; la delantera es opcional.",
-    "c": "Ninguna; las dos son opcionales."
+    "c": "Las delanteras y las traseras."
    },
    "correcta": "b",
    "explicacion": "Todo automóvil debe llevar luz antiniebla trasera. La antiniebla delantera es un dispositivo facultativo.",
@@ -562,10 +529,10 @@ window.BANCO = {
    "enunciado": "Una motocicleta cuya velocidad máxima por construcción es superior a 100 km/h, ¿qué retrovisores exteriores debe llevar?",
    "opciones": {
     "a": "Solo el izquierdo.",
-    "b": "El izquierdo y el derecho.",
-    "c": "Ninguno es obligatorio."
+    "b": "Ninguno es obligatorio.",
+    "c": "El izquierdo y el derecho."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "En las motocicletas de más de 100 km/h son obligatorios los dos retrovisores exteriores; si no superan 100 km/h, solo el izquierdo (el derecho es optativo).",
    "fuente": {
     "norma": "RGV",
@@ -585,8 +552,8 @@ window.BANCO = {
    "enunciado": "¿Cuál es la longitud máxima de un camión rígido (vehículo de motor que no es autobús), incluida la carga?",
    "opciones": {
     "a": "12 metros.",
-    "b": "16,50 metros.",
-    "c": "18,75 metros."
+    "b": "18,75 metros.",
+    "c": "16,50 metros."
    },
    "correcta": "a",
    "explicacion": "La longitud máxima de los vehículos de motor (excepto autobuses) es 12 m. Los vehículos articulados llegan a 16,50 m y los trenes de carretera a 18,75 m. La carga no puede hacer que se superen estas medidas (RGC 13.1).",
@@ -630,11 +597,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "Un turismo particular, ¿con qué frecuencia debe pasar la ITV?",
    "opciones": {
-    "a": "Exento hasta los 4 años; cada dos años hasta los 10; y después, cada año.",
+    "a": "Exento hasta los 2 años; después, cada año.",
     "b": "Cada año desde la matriculación.",
-    "c": "Exento hasta los 2 años; después, cada año."
+    "c": "Exento hasta los 4 años; cada dos años hasta los 10; y después, cada año."
    },
-   "correcta": "a",
+   "correcta": "c",
    "explicacion": "Turismos (M1): exentos hasta 4 años, bienal de 4 a 10 años y anual a partir de 10. No se aplica a taxis, ambulancias, autoescuelas ni transporte escolar, que tienen plazos más cortos.",
    "fuente": {
     "norma": "ITV",
@@ -653,11 +620,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "Una furgoneta de 3.500 kg de MMA o menos (categoría N1), ¿con qué frecuencia debe pasar la ITV?",
    "opciones": {
-    "a": "Exenta hasta 4 años y después cada dos años.",
-    "b": "Exenta hasta 2 años; cada dos años de 2 a 6; cada año de 6 a 10; y cada seis meses a partir de 10.",
+    "a": "Exenta hasta 2 años; cada dos años de 2 a 6; cada año de 6 a 10; y cada seis meses a partir de 10.",
+    "b": "Exenta hasta 4 años y después cada dos años.",
     "c": "Cada año desde la matriculación."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "N1 (mercancías hasta 3,5 t): exenta hasta 2 años, bienal de 2 a 6, anual de 6 a 10 y semestral a partir de 10 años.",
    "fuente": {
     "norma": "ITV",
@@ -676,11 +643,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "Una motocicleta, ¿con qué frecuencia debe pasar la ITV?",
    "opciones": {
-    "a": "Exenta hasta 4 años y después cada dos años.",
-    "b": "Cada año desde la matriculación.",
-    "c": "Nunca, las motos no pasan ITV."
+    "a": "Nunca, las motos no pasan ITV.",
+    "b": "Exenta hasta 4 años y después cada dos años.",
+    "c": "Cada año desde la matriculación."
    },
-   "correcta": "a",
+   "correcta": "b",
    "explicacion": "Motocicletas (resto de categoría L): exentas hasta 4 años y después bienal. Los ciclomotores: exentos hasta 3 años y después bienal.",
    "fuente": {
     "norma": "ITV",
@@ -700,10 +667,10 @@ window.BANCO = {
    "enunciado": "Su turismo saca una ITV desfavorable (defectos graves). ¿Puede circular con él?",
    "opciones": {
     "a": "Sí, con normalidad durante dos meses.",
-    "b": "Solo para llevarlo al taller y volver a la ITV, en un plazo no superior a dos meses.",
-    "c": "No, debe trasladarse en grúa."
+    "b": "No, debe trasladarse en grúa.",
+    "c": "Solo para llevarlo al taller y volver a la ITV, en un plazo no superior a dos meses."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "Los defectos graves inhabilitan para circular, salvo para ir al taller o regularizar la situación y volver a la ITV en un plazo no superior a dos meses.",
    "fuente": {
     "norma": "ITV",
@@ -722,11 +689,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "Si la ITV es negativa (defectos muy graves), ¿cómo se traslada el vehículo desde la estación?",
    "opciones": {
-    "a": "Conduciéndolo directamente al taller.",
-    "b": "Por medios ajenos al propio vehículo (por ejemplo, en grúa).",
-    "c": "Conduciéndolo, pero solo de día."
+    "a": "Por medios ajenos al propio vehículo (por ejemplo, en grúa).",
+    "b": "Conduciéndolo, pero solo de día.",
+    "c": "Conduciéndolo directamente al taller."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "Los defectos muy graves inhabilitan al vehículo para circular: el traslado se hace por medios ajenos al vehículo. Una vez reparado, debe volver a la ITV en un plazo no superior a dos meses.",
    "fuente": {
     "norma": "ITV",
@@ -768,11 +735,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "¿Cubre el seguro obligatorio los daños sufridos por el propio vehículo asegurado?",
    "opciones": {
-    "a": "Sí.",
-    "b": "No.",
-    "c": "Solo si el accidente fue culpa del otro conductor."
+    "a": "Solo si el accidente fue culpa del otro conductor.",
+    "b": "Sí.",
+    "c": "No."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "La cobertura del seguro obligatorio no alcanza a los daños en el propio vehículo asegurado ni en las cosas transportadas en él. Si el otro conductor tiene la culpa, paga el seguro del otro, no el propio.",
    "fuente": {
     "norma": "LRCSCVM",
@@ -814,9 +781,9 @@ window.BANCO = {
    "materia": 14,
    "enunciado": "Un turismo arrastra un remolque ligero. ¿Debe llevar extintor?",
    "opciones": {
-    "a": "No, solo los camiones y autobuses.",
+    "a": "Solo si el remolque supera 750 kg.",
     "b": "Sí, porque turismo y remolque forman un conjunto de vehículos, y los conjuntos no especiales deben llevar extintor.",
-    "c": "Solo si el remolque supera 750 kg."
+    "c": "No, solo los camiones y autobuses."
    },
    "correcta": "b",
    "explicacion": "Un vehículo de motor enganchado a un remolque es un tren de carretera, es decir, un conjunto de vehículos. Los conjuntos de vehículos no especiales deben llevar un extintor homologado, además del V-16 y el chaleco.",
@@ -825,7 +792,15 @@ window.BANCO = {
     "articulo": "Anexo XII.2",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "cita": "y los conjuntos de vehículos no especiales, deberán llevar, además de la dotación que se establece en el apartado 1 a) y b), un equipo homologado de extinción de incendios",
-    "version_consultada": "2026-06-26"
+    "version_consultada": "2026-06-26",
+    "citas_adicionales": [
+     {
+      "norma": "LSV",
+      "articulo": "Anexo I.24",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+      "cita": "b) Tren de carretera. Automóvil constituido por un vehículo de motor enganchado a un remolque."
+     }
+    ]
    },
    "imagen": null,
    "verificado_el": "2026-11-24"
@@ -838,10 +813,10 @@ window.BANCO = {
    "enunciado": "¿A qué edad mínima se puede obtener el permiso de la clase A (motocicletas sin límite de potencia)?",
    "opciones": {
     "a": "18 años.",
-    "b": "20 años.",
-    "c": "21 años."
+    "b": "21 años.",
+    "c": "20 años."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "El permiso A se obtiene con 20 años cumplidos (y dos años de antigüedad en el A2). Hasta los 21 no autoriza a conducir triciclos de más de 15 kW.",
    "fuente": {
     "norma": "RGCOND",
@@ -860,11 +835,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "¿A qué edad mínima se puede obtener el permiso AM (ciclomotores)?",
    "opciones": {
-    "a": "14 años.",
-    "b": "15 años.",
-    "c": "16 años."
+    "a": "15 años.",
+    "b": "16 años.",
+    "c": "14 años."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "El permiso AM se obtiene con 15 años cumplidos. El A1, con 16; el A2 y el B, con 18; el A, con 20.",
    "fuente": {
     "norma": "RGCOND",
@@ -906,11 +881,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "¿Cuánto dura el curso de recuperación parcial de puntos?",
    "opciones": {
-    "a": "10 horas.",
-    "b": "12 horas.",
-    "c": "20 horas."
+    "a": "20 horas.",
+    "b": "10 horas.",
+    "c": "12 horas."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "El curso de recuperación parcial dura 12 horas y el de recuperación del permiso (pérdida total), 24 horas. La Ley fija un máximo de 15 horas para el parcial.",
    "fuente": {
     "norma": "OCURSOS",
@@ -929,11 +904,11 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "¿Cuánto dura el curso para recuperar el permiso tras perder todos los puntos?",
    "opciones": {
-    "a": "12 horas.",
-    "b": "20 horas.",
-    "c": "24 horas."
+    "a": "24 horas.",
+    "b": "12 horas.",
+    "c": "20 horas."
    },
-   "correcta": "c",
+   "correcta": "a",
    "explicacion": "El curso de recuperación del permiso o licencia dura 24 horas; el de recuperación parcial, 12.",
    "fuente": {
     "norma": "OCURSOS",
@@ -946,153 +921,15 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "res-del-0001",
-   "tema": "infracciones_sanciones",
-   "subtema": "delitos",
-   "materia": 1,
-   "enunciado": "Circular a 140 km/h en una vía urbana limitada a 50 km/h (90 km/h por encima del límite), ¿qué es?",
-   "opciones": {
-    "a": "Una infracción grave.",
-    "b": "Una infracción muy grave, pero no delito.",
-    "c": "Un delito contra la seguridad vial."
-   },
-   "correcta": "c",
-   "explicacion": "Es delito superar en más de 60 km/h el límite en vía urbana o en más de 80 km/h en vía interurbana.",
-   "fuente": {
-    "norma": "CP",
-    "articulo": "379.1",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
-    "cita": "a velocidad superior en sesenta kilómetros por hora en vía urbana o en ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente",
-    "version_consultada": "2026-04-09"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "res-del-0002",
-   "tema": "alcohol_drogas",
-   "subtema": "delitos",
-   "materia": 4,
-   "enunciado": "¿A partir de qué tasa de alcohol en aire espirado conducir es, en todo caso, delito?",
-   "opciones": {
-    "a": "Más de 0,25 mg/l.",
-    "b": "Más de 0,50 mg/l.",
-    "c": "Más de 0,60 mg/l."
-   },
-   "correcta": "c",
-   "explicacion": "Siempre es delito conducir con más de 0,60 mg/l en aire espirado o más de 1,2 g/l en sangre. Con tasas menores también puede ser delito si se conduce bajo la influencia del alcohol.",
-   "fuente": {
-    "norma": "CP",
-    "articulo": "379.2",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
-    "cita": "con una tasa de alcohol en aire espirado superior a 0,60 miligramos por litro",
-    "version_consultada": "2026-04-09"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "res-del-0003",
-   "tema": "alcohol_drogas",
-   "subtema": "delitos",
-   "materia": 4,
-   "enunciado": "Un agente le pide a usted, que conduce, que se someta a la prueba de alcoholemia y usted se niega. ¿Qué comete?",
-   "opciones": {
-    "a": "Nada, si no ha bebido.",
-    "b": "Un delito.",
-    "c": "Una infracción leve."
-   },
-   "correcta": "b",
-   "explicacion": "El conductor que, requerido por un agente, se niega a someterse a las pruebas de alcohol o drogas comete un delito castigado con prisión de seis meses a un año y privación del permiso de uno a cuatro años.",
-   "fuente": {
-    "norma": "CP",
-    "articulo": "383",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
-    "cita": "El conductor que, requerido por un agente de la autoridad, se negare a someterse a las pruebas legalmente establecidas para la comprobación de las tasas de alcoholemia",
-    "version_consultada": "2026-04-09"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "res-del-0004",
-   "tema": "infracciones_sanciones",
-   "subtema": "delitos",
-   "materia": 1,
-   "enunciado": "Conducir un turismo sin haber obtenido nunca el permiso de conducción, ¿qué es?",
-   "opciones": {
-    "a": "Una infracción grave.",
-    "b": "Una infracción muy grave.",
-    "c": "Un delito."
-   },
-   "correcta": "c",
-   "explicacion": "Es delito conducir sin haber obtenido nunca permiso, tras perder todos los puntos, o tras ser privado del permiso por un juez.",
-   "fuente": {
-    "norma": "CP",
-    "articulo": "384",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
-    "cita": "al que condujere un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia de conducción",
-    "version_consultada": "2026-04-09"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "res-del-0005",
-   "tema": "infracciones_sanciones",
-   "subtema": "delitos",
-   "materia": 1,
-   "enunciado": "Conducir cuando el permiso ha perdido su vigencia por haber perdido todos los puntos, ¿qué es?",
-   "opciones": {
-    "a": "Un delito.",
-    "b": "Una infracción leve.",
-    "c": "Nada, si se está haciendo el curso de recuperación."
-   },
-   "correcta": "a",
-   "explicacion": "Conducir con el permiso sin vigencia por pérdida total de los puntos es delito.",
-   "fuente": {
-    "norma": "CP",
-    "articulo": "384",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
-    "cita": "en los casos de pérdida de vigencia del permiso o licencia por pérdida total de los puntos asignados legalmente",
-    "version_consultada": "2026-04-09"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "res-del-0006",
-   "tema": "infracciones_sanciones",
-   "subtema": "delitos",
-   "materia": 1,
-   "enunciado": "Colocar en la vía obstáculos imprevisibles o derramar sustancias deslizantes, originando un grave riesgo para la circulación, ¿qué es?",
-   "opciones": {
-    "a": "Un delito.",
-    "b": "Solo una infracción leve.",
-    "c": "Una infracción grave sin pérdida de puntos."
-   },
-   "correcta": "a",
-   "explicacion": "Es delito originar un grave riesgo para la circulación colocando obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o alterando la señalización.",
-   "fuente": {
-    "norma": "CP",
-    "articulo": "385",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
-    "cita": "Colocando en la vía obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o mutando, sustrayendo o anulando la señalización",
-    "version_consultada": "2026-04-09"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "res-del-0007",
    "tema": "accidentes",
    "subtema": "omision_socorro",
    "materia": 11,
    "enunciado": "No socorrer a una persona herida en un accidente, desamparada y en peligro grave, pudiendo hacerlo sin riesgo propio ni de terceros, ¿qué es?",
    "opciones": {
-    "a": "Una infracción leve.",
+    "a": "No es nada si no se ha causado el accidente.",
     "b": "Un delito de omisión del deber de socorro.",
-    "c": "No es nada si no se ha causado el accidente."
+    "c": "Una infracción leve."
    },
    "correcta": "b",
    "explicacion": "Es delito no socorrer a quien está desamparado y en peligro manifiesto y grave, si se puede hacer sin riesgo. Si no se puede ayudar, hay que pedir auxilio con urgencia.",
@@ -1136,11 +973,11 @@ window.BANCO = {
    "materia": 4,
    "enunciado": "Al volante empieza a notar los primeros síntomas de sueño. Según el manual de la DGT, ¿qué debe hacer?",
    "opciones": {
-    "a": "Abrir la ventanilla y seguir hasta el destino.",
-    "b": "Parar en un lugar seguro y dormir 20 o 30 minutos.",
-    "c": "Tomar un café y seguir conduciendo."
+    "a": "Parar en un lugar seguro y dormir 20 o 30 minutos.",
+    "b": "Tomar un café y seguir conduciendo.",
+    "c": "Abrir la ventanilla y seguir hasta el destino."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "El manual de la DGT dice que, con los primeros síntomas, hay que parar en un lugar seguro y dormir 20 o 30 minutos, y descansar 20 o 30 minutos cada dos horas o 200 km.",
    "fuente": {
     "norma": "MANUAL_DGT",
@@ -1182,11 +1019,11 @@ window.BANCO = {
    "materia": 2,
    "enunciado": "Según el manual de la DGT, ¿cuándo hay más accidentes?",
    "opciones": {
-    "a": "Los martes y miércoles por la mañana.",
-    "b": "Los fines de semana y los días de fiesta, en especial de madrugada.",
-    "c": "Los lunes laborables a mediodía."
+    "a": "Los lunes laborables a mediodía.",
+    "b": "Los martes y miércoles por la mañana.",
+    "c": "Los fines de semana y los días de fiesta, en especial de madrugada."
    },
-   "correcta": "b",
+   "correcta": "c",
    "explicacion": "El manual de la DGT indica que hay más accidentes los fines de semana y los días de fiesta, en especial en las horas de la madrugada.",
    "fuente": {
     "norma": "MANUAL_DGT",
@@ -1205,11 +1042,11 @@ window.BANCO = {
    "materia": 8,
    "enunciado": "Un ciclista circula de noche por una vía interurbana. ¿A qué distancia mínima debe ser visible el elemento luminoso o reflectante que debe llevar?",
    "opciones": {
-    "a": "50 metros.",
-    "b": "100 metros.",
-    "c": "150 metros."
+    "a": "150 metros.",
+    "b": "50 metros.",
+    "c": "100 metros."
    },
-   "correcta": "c",
+   "correcta": "a",
    "explicacion": "Entre el ocaso y la salida del sol o con poca visibilidad, en vía interurbana, el ciclista debe llevar al menos un elemento luminoso o reflectante visible a 150 m. El chaleco del conductor de un turismo no tiene esa exigencia de distancia: debe ser de alta visibilidad certificado.",
    "fuente": {
     "norma": "RGC",
@@ -1228,9 +1065,9 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "¿De qué color es el fondo del cartel que identifica una carretera autonómica de segundo nivel (por ejemplo, ZA-320)?",
    "opciones": {
-    "a": "Verde.",
+    "a": "Amarillo.",
     "b": "Marrón.",
-    "c": "Amarillo."
+    "c": "Verde."
    },
    "correcta": "b",
    "explicacion": "En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo.",
@@ -1253,11 +1090,11 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "¿De qué color es el fondo del cartel que identifica una carretera de la red del Estado que no es autopista ni autovía (por ejemplo, N-401)?",
    "opciones": {
-    "a": "Rojo.",
-    "b": "Azul.",
-    "c": "Naranja."
+    "a": "Azul.",
+    "b": "Naranja.",
+    "c": "Rojo."
    },
-   "correcta": "a",
+   "correcta": "c",
    "explicacion": "Las carreteras convencionales o multicarril de la red del Estado se identifican con fondo rojo (S-420). Las autopistas y autovías, con fondo azul (S-410).",
    "fuente": {
     "norma": "RGC",
@@ -1278,11 +1115,11 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "Antes de un paso a nivel, una baliza rectangular con tres franjas rojas en el lado derecho indica que el paso a nivel está a...",
    "opciones": {
-    "a": "300 metros.",
-    "b": "200 metros.",
-    "c": "100 metros."
+    "a": "200 metros.",
+    "b": "100 metros.",
+    "c": "300 metros."
    },
-   "correcta": "b",
+   "correcta": "a",
    "explicacion": "La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía.",
    "fuente": {
     "norma": "RGC",
@@ -1328,11 +1165,11 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "En una zona de estancia y juego, ¿cuál es la velocidad máxima de los vehículos?",
    "opciones": {
-    "a": "10 km/h.",
+    "a": "30 km/h.",
     "b": "20 km/h.",
-    "c": "30 km/h."
+    "c": "10 km/h."
    },
-   "correcta": "a",
+   "correcta": "c",
    "explicacion": "En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h.",
    "fuente": {
     "norma": "RGC",
@@ -9645,7 +9482,7 @@ window.BANCO = {
     "norma": "RGCOND",
     "articulo": "4.2 (clase B)",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
-    "cita": "Dichos automóviles podrán llevar enganchado un remolque cuya masa máxima autorizada no exceda de 750 kg.",
+    "cita": "1. Automóviles cuya masa máxima autorizada no exceda de 3.500 kg que estén diseñados y construidos para el transporte de no más de ocho pasajeros además del conductor. Dichos automóviles podrán llevar enganchado un remolque cuya masa máxima autorizada no exceda de 750 kg.",
     "version_consultada": "2023-12-06"
    },
    "imagen": null,

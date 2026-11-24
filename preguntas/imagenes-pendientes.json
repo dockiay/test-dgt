@@ -292,133 +292,133 @@
       "id": "B1-sen-0074",
       "tipo": "senal",
       "codigo": "P-1c",
-      "descripcion": "Triángulo con orla roja: trazo vertical grueso con un trazo fino que se le une oblicuamente desde la derecha.",
+      "descripcion": "Señal P-1c «Intersección con prioridad sobre incorporación por la derecha» recortada del catálogo oficial del RGC, pág. 89",
       "enunciado": "¿Qué indica esta señal?"
     },
     {
       "id": "B1-sen-0075",
       "tipo": "senal",
       "codigo": "P-2",
-      "descripcion": "Triángulo con orla roja y una cruz negra de trazos iguales (aspa en forma de +).",
-      "enunciado": "Esta señal advierte de una intersección. ¿Quién tiene preferencia de paso en ella?"
+      "descripcion": "Señal P-2 «Intersección con prioridad de la derecha» recortada del catálogo oficial del RGC, pág. 89",
+      "enunciado": "Esta señal advierte de una intersección. ¿Qué prioridad rige en ella?"
     },
     {
       "id": "B1-sen-0076",
       "tipo": "senal",
       "codigo": "P-4",
-      "descripcion": "Triángulo con orla roja y tres flechas negras dispuestas en círculo (glorieta).",
+      "descripcion": "Señal P-4 «Glorieta» recortada del catálogo oficial del RGC, pág. 90",
       "enunciado": "¿Qué indica esta señal?"
     },
     {
       "id": "B1-sen-0077",
       "tipo": "senal",
       "codigo": "P-6",
-      "descripcion": "Triángulo con orla roja y la silueta de un tranvía.",
+      "descripcion": "Señal P-6 «Cruce de tranvía» recortada del catálogo oficial del RGC, pág. 90",
       "enunciado": "¿Qué indica esta señal?"
     },
     {
       "id": "B1-sen-0078",
       "tipo": "senal",
       "codigo": "P-7",
-      "descripcion": "Triángulo con orla roja y la silueta de una valla o barrera.",
+      "descripcion": "Señal P-7 «Paso a nivel con barreras» recortada del catálogo oficial del RGC, pág. 90",
       "enunciado": "¿Qué indica esta señal con el dibujo de una valla?"
     },
     {
       "id": "B1-sen-0079",
       "tipo": "senal",
       "codigo": "P-8",
-      "descripcion": "Triángulo con orla roja y la silueta de una locomotora de vapor.",
-      "enunciado": "¿Qué indica esta señal con el dibujo de una locomotora?"
+      "descripcion": "Señal P-8 «Paso a nivel sin barreras» recortada del catálogo oficial del RGC, pág. 90",
+      "enunciado": "¿Qué indica esta señal con el dibujo de un tren visto de frente?"
     },
     {
       "id": "B1-sen-0080",
       "tipo": "senal",
       "codigo": "P-11",
-      "descripcion": "Aspa (cruz de San Andrés) con franjas rojas y blancas.",
-      "enunciado": "¿Qué indica esta señal con un aspa (cruz de San Andrés) de color rojo y blanco?"
+      "descripcion": "Señal P-11 «Situación de un paso a nivel sin barreras» recortada del catálogo oficial del RGC, pág. 91",
+      "enunciado": "¿Qué indica esta señal con forma de aspa (cruz de San Andrés) de borde rojo?"
     },
     {
       "id": "B1-sen-0081",
       "tipo": "senal",
       "codigo": "P-11a",
-      "descripcion": "Aspa doble (cruz de San Andrés con un segundo aspa debajo) con franjas rojas y blancas.",
+      "descripcion": "Señal P-11a «Situación de un paso a nivel sin barreras de más de una vía férrea» recortada del catálogo oficial del RGC, pág. 92",
       "enunciado": "¿Qué indica esta señal formada por un aspa doble?"
     },
     {
       "id": "B1-sen-0082",
       "tipo": "senal",
       "codigo": "P-12",
-      "descripcion": "Triángulo con orla roja y la silueta de un avión volando a baja altura.",
+      "descripcion": "Señal P-12 «Aeropuerto» recortada del catálogo oficial del RGC, pág. 92",
       "enunciado": "¿De qué advierte esta señal con la silueta de un avión?"
     },
     {
       "id": "B1-sen-0083",
       "tipo": "senal",
       "codigo": "P-15a",
-      "descripcion": "Triángulo con orla roja y un perfil de calzada con un abultamiento hacia arriba.",
-      "enunciado": "¿Qué es lo que anuncia esta señal de peligro?"
+      "descripcion": "Señal P-15a «Resalte» recortada del catálogo oficial del RGC, pág. 93",
+      "enunciado": "¿Qué anuncia esta señal de peligro?"
     },
     {
       "id": "B1-sen-0084",
       "tipo": "senal",
       "codigo": "P-15b",
-      "descripcion": "Triángulo con orla roja y un perfil de calzada con un hundimiento hacia abajo.",
+      "descripcion": "Señal P-15b «Badén» recortada del catálogo oficial del RGC, pág. 93",
       "enunciado": "¿Qué anuncia esta señal de peligro?"
     },
     {
       "id": "B1-sen-0085",
       "tipo": "senal",
       "codigo": "P-17a",
-      "descripcion": "Triángulo con orla roja y dos líneas verticales de las que la derecha se curva hacia dentro.",
+      "descripcion": "Señal P-17a «Estrechamiento de calzada por la derecha» recortada del catálogo oficial del RGC, pág. 93",
       "enunciado": "¿Qué indica esta señal?"
     },
     {
       "id": "B1-sen-0086",
       "tipo": "senal",
       "codigo": "P-19",
-      "descripcion": "Triángulo con orla roja y un turismo con dos trazas de rodadura en zigzag detrás.",
+      "descripcion": "Señal P-19 «Pavimento deslizante» recortada del catálogo oficial del RGC, pág. 94",
       "enunciado": "¿Qué indica esta señal con un vehículo derrapando?"
     },
     {
       "id": "B1-sen-0087",
       "tipo": "senal",
-      "codigo": "P-21",
-      "descripcion": "Triángulo con orla roja y la silueta de dos niños corriendo.",
+      "codigo": "P-21a",
+      "descripcion": "Señal P-21a «Niños» recortada del catálogo oficial del RGC, pág. 95",
       "enunciado": "¿De qué advierte esta señal?"
     },
     {
       "id": "B1-sen-0088",
       "tipo": "senal",
       "codigo": "P-24",
-      "descripcion": "Triángulo con orla roja y la silueta de un ciervo saltando.",
+      "descripcion": "Señal P-24 «Paso de animales en libertad» recortada del catálogo oficial del RGC, pág. 95",
       "enunciado": "¿De qué advierte esta señal con un ciervo?"
     },
     {
       "id": "B1-sen-0089",
       "tipo": "senal",
       "codigo": "P-25",
-      "descripcion": "Triángulo con orla roja y dos flechas negras verticales, una hacia arriba y otra hacia abajo.",
+      "descripcion": "Señal P-25 «Circulación en los dos sentidos» recortada del catálogo oficial del RGC, pág. 96",
       "enunciado": "¿Qué indica esta señal con dos flechas de sentidos opuestos?"
     },
     {
       "id": "B1-sen-0090",
       "tipo": "senal",
       "codigo": "P-26",
-      "descripcion": "Triángulo con orla roja y una ladera de la que caen piedras.",
+      "descripcion": "Señal P-26 «Desprendimiento» recortada del catálogo oficial del RGC, pág. 96",
       "enunciado": "¿De qué advierte esta señal?"
     },
     {
       "id": "B1-sen-0091",
       "tipo": "senal",
       "codigo": "P-27",
-      "descripcion": "Triángulo con orla roja y un turismo cayendo desde un borde al agua.",
+      "descripcion": "Señal P-27 «Muelle» recortada del catálogo oficial del RGC, pág. 96",
       "enunciado": "¿De qué advierte esta señal con un vehículo cayendo al agua?"
     },
     {
       "id": "B1-sen-0092",
       "tipo": "senal",
       "codigo": "P-28",
-      "descripcion": "Triángulo con orla roja y un turismo que proyecta pequeñas piedras con las ruedas.",
+      "descripcion": "Señal P-28 «Proyección de gravilla» recortada del catálogo oficial del RGC, pág. 96",
       "enunciado": "¿De qué advierte esta señal?"
     },
     {
@@ -432,315 +432,315 @@
       "id": "B1-sen-0094",
       "tipo": "senal",
       "codigo": "P-30",
-      "descripcion": "Triángulo con orla roja y un perfil de calzada con un escalón en el borde.",
+      "descripcion": "Señal P-30 «Escalón lateral» recortada del catálogo oficial del RGC, pág. 96",
       "enunciado": "¿De qué advierte esta señal?"
     },
     {
       "id": "B1-sen-0095",
       "tipo": "senal",
       "codigo": "P-31",
-      "descripcion": "Triángulo con orla roja y tres turismos en fila vistos de frente.",
+      "descripcion": "Señal P-31 «Congestión» recortada del catálogo oficial del RGC, pág. 96",
       "enunciado": "¿De qué advierte esta señal?"
     },
     {
       "id": "B1-sen-0096",
       "tipo": "senal",
       "codigo": "P-32",
-      "descripcion": "Triángulo con orla roja y un turismo detenido con un triángulo de emergencia detrás.",
+      "descripcion": "Señal P-32 «Obstrucción en la calzada» recortada del catálogo oficial del RGC, pág. 97",
       "enunciado": "¿De qué advierte esta señal?"
     },
     {
       "id": "B1-sen-0097",
       "tipo": "senal",
       "codigo": "P-33",
-      "descripcion": "Triángulo con orla roja y un turismo con los faros encendidos y nubes o bandas grises delante.",
+      "descripcion": "Señal P-33 «Visibilidad reducida» recortada del catálogo oficial del RGC, pág. 97",
       "enunciado": "¿De qué advierte esta señal?"
     },
     {
       "id": "B1-sen-0098",
       "tipo": "senal",
       "codigo": "P-34",
-      "descripcion": "Triángulo con orla roja y un copo de nieve.",
+      "descripcion": "Señal P-34 «Presencia de hielo o nieve» recortada del catálogo oficial del RGC, pág. 97",
       "enunciado": "¿De qué advierte esta señal con un copo de nieve?"
     },
     {
       "id": "B1-sen-0099",
       "tipo": "senal",
-      "codigo": "P-35",
-      "descripcion": "Triángulo con orla roja y un signo de admiración negro.",
+      "codigo": "P-50",
+      "descripcion": "Señal P-50 «Otros peligros» recortada del catálogo oficial del RGC, pág. 97",
       "enunciado": "¿Qué significa esta señal con un signo de admiración?"
     },
     {
       "id": "B1-sen-0100",
       "tipo": "senal",
       "codigo": "R-4",
-      "descripcion": "Rombo blanco con cuadrado amarillo central, cruzado por franjas negras oblicuas.",
-      "enunciado": "¿Qué indica esta señal (rombo blanco con el centro amarillo tachado)?"
+      "descripcion": "Señal R-4 «Fin de prioridad» recortada del catálogo oficial del RGC, pág. 99",
+      "enunciado": "¿Qué indica esta señal (rombo blanco con el centro amarillo cruzado por una franja negra)?"
     },
     {
       "id": "B1-sen-0101",
       "tipo": "senal",
       "codigo": "R-5",
-      "descripcion": "Señal circular de orla roja y fondo blanco con una flecha roja hacia arriba y una flecha negra hacia abajo.",
+      "descripcion": "Señal R-5 «Prioridad del sentido contrario» recortada del catálogo oficial del RGC, pág. 99",
       "enunciado": "Ante un paso estrecho encuentra esta señal (flecha roja y flecha negra). ¿Qué indica?"
     },
     {
       "id": "B1-sen-0102",
       "tipo": "senal",
       "codigo": "R-6",
-      "descripcion": "Señal cuadrada azul con una flecha blanca hacia arriba y una flecha roja hacia abajo.",
+      "descripcion": "Señal R-6 «Prioridad respecto al sentido contrario» recortada del catálogo oficial del RGC, pág. 100",
       "enunciado": "Ante un paso estrecho encuentra esta señal cuadrada azul. ¿Qué indica?"
     },
     {
       "id": "B1-sen-0103",
       "tipo": "senal",
       "codigo": "R-100",
-      "descripcion": "Círculo blanco con orla roja, sin ningún símbolo.",
+      "descripcion": "Señal R-100 «Circulación prohibida» recortada del catálogo oficial del RGC, pág. 102",
       "enunciado": "¿Qué indica esta señal (círculo blanco con orla roja, sin símbolo)?"
     },
     {
       "id": "B1-sen-0104",
       "tipo": "senal",
       "codigo": "R-101",
-      "descripcion": "Círculo rojo con una franja horizontal blanca (dirección prohibida).",
-      "enunciado": "Ve esta señal al entrar en una calle. ¿Puede haber vehículos circulando por esa calle?"
+      "descripcion": "Señal R-101 «Entrada prohibida» recortada del catálogo oficial del RGC, pág. 102",
+      "enunciado": "¿Qué indica esta señal (círculo rojo con una franja horizontal blanca)?"
     },
     {
       "id": "B1-sen-0105",
       "tipo": "senal",
       "codigo": "R-102",
-      "descripcion": "Círculo blanco con orla roja y, en su interior, un turismo sobre una motocicleta (siluetas negras).",
-      "enunciado": "Conduce un ciclomotor y encuentra esta señal. ¿Puede entrar?"
+      "descripcion": "Señal R-102 «Entrada prohibida a vehículos de motor» recortada del catálogo oficial del RGC, pág. 102",
+      "enunciado": "¿A quién prohíbe el acceso esta señal?"
     },
     {
       "id": "B1-sen-0106",
       "tipo": "senal",
       "codigo": "R-103",
-      "descripcion": "Círculo blanco con orla roja y la silueta de un turismo (sin motocicleta).",
-      "enunciado": "¿Puede entrar con una motocicleta de dos ruedas sin sidecar ante esta señal?"
+      "descripcion": "Señal R-103 «Entrada prohibida a vehículos de motor, excepto motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 102",
+      "enunciado": "¿Puede entrar con una motocicleta de dos ruedas ante esta señal?"
     },
     {
       "id": "B1-sen-0107",
       "tipo": "senal",
       "codigo": "R-105",
-      "descripcion": "Círculo blanco con orla roja y la silueta de un ciclomotor.",
+      "descripcion": "Señal R-105 «Entrada prohibida a ciclomotores» recortada del catálogo oficial del RGC, pág. 102",
       "enunciado": "¿A quién prohíbe la entrada esta señal?"
     },
     {
       "id": "B1-sen-0108",
       "tipo": "senal",
       "codigo": "R-106",
-      "descripcion": "Círculo blanco con orla roja y la silueta de un camión, sin cifra.",
-      "enunciado": "¿A quién prohíbe la entrada esta señal con la silueta de un camión?"
+      "descripcion": "Señal R-106 «Entrada prohibida a vehículos destinados al transporte de mercancías» recortada del catálogo oficial del RGC, pág. 103",
+      "enunciado": "¿A quién prohíbe la entrada esta señal con la silueta de un camión, sin ninguna cifra?"
     },
     {
       "id": "B1-sen-0109",
       "tipo": "senal",
       "codigo": "R-107",
-      "descripcion": "Círculo blanco con orla roja, la silueta de un camión y debajo o encima la cifra '5,5 t'.",
+      "descripcion": "Señal R-107 «Entrada prohibida a vehículos destinados al transporte de mercancías con mayor masa autorizada que la indicada» recortada del catálogo oficial del RGC, pág. 103",
       "enunciado": "Conduce un camión cuya masa máxima autorizada es 7,5 t; va vacío y pesa 4,5 t. Encuentra esta señal (camión con la cifra 5,5 t). ¿Puede entrar?"
     },
     {
       "id": "B1-sen-0110",
       "tipo": "senal",
       "codigo": "R-109",
-      "descripcion": "Círculo blanco con orla roja y un camión con una llama/explosión.",
-      "enunciado": "¿A quién prohíbe la entrada esta señal con una llama?"
+      "descripcion": "Señal R-109 «Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables» recortada del catálogo oficial del RGC, pág. 103",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?"
     },
     {
       "id": "B1-sen-0111",
       "tipo": "senal",
       "codigo": "R-110",
-      "descripcion": "Círculo blanco con orla roja y un camión cisterna con gotas de agua.",
+      "descripcion": "Señal R-110 «Entrada prohibida a vehículos que transporten productos contaminantes del agua» recortada del catálogo oficial del RGC, pág. 104",
       "enunciado": "¿A quién prohíbe la entrada esta señal?"
     },
     {
       "id": "B1-sen-0112",
       "tipo": "senal",
       "codigo": "R-111",
-      "descripcion": "Círculo blanco con orla roja y la silueta de un tractor agrícola.",
+      "descripcion": "Señal R-111 «Entrada prohibida a vehículos agrícolas de motor» recortada del catálogo oficial del RGC, pág. 104",
       "enunciado": "¿A quién prohíbe la entrada esta señal con la silueta de un tractor?"
     },
     {
       "id": "B1-sen-0113",
       "tipo": "senal",
       "codigo": "R-112",
-      "descripcion": "Círculo blanco con orla roja y la silueta de un camión que arrastra un remolque de dos ejes (puede llevar cifra de masa).",
+      "descripcion": "Señal R-112 «Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje» recortada del catálogo oficial del RGC, pág. 104",
       "enunciado": "Conduce un turismo que arrastra un remolque de un solo eje y encuentra esta señal. ¿Puede entrar?"
     },
     {
       "id": "B1-sen-0114",
       "tipo": "senal",
       "codigo": "R-115",
-      "descripcion": "Círculo blanco con orla roja y una persona empujando un carro de mano.",
+      "descripcion": "Señal R-115 «Entrada prohibida a carros de mano» recortada del catálogo oficial del RGC, pág. 104",
       "enunciado": "¿A quién prohíbe la entrada esta señal?"
     },
     {
       "id": "B1-sen-0115",
       "tipo": "senal",
       "codigo": "R-117",
-      "descripcion": "Círculo blanco con orla roja y la silueta de un jinete a caballo.",
+      "descripcion": "Señal R-117 «Entrada prohibida a animales de montura» recortada del catálogo oficial del RGC, pág. 105",
       "enunciado": "¿A quién prohíbe la entrada esta señal con un jinete?"
     },
     {
       "id": "B1-sen-0116",
       "tipo": "senal",
       "codigo": "R-202",
-      "descripcion": "Círculo blanco con orla roja, la silueta de un eje con dos ruedas y la cifra '2,4 t'.",
+      "descripcion": "Señal R-202 «Limitación de masa por eje» recortada del catálogo oficial del RGC, pág. 107",
       "enunciado": "¿Qué prohíbe esta señal con la cifra 2,4 t sobre un eje?"
     },
     {
       "id": "B1-sen-0117",
       "tipo": "senal",
       "codigo": "R-203",
-      "descripcion": "Círculo blanco con orla roja, la silueta de un camión con flechas horizontales y la cifra '10 m'.",
+      "descripcion": "Señal R-203 «Limitación de longitud» recortada del catálogo oficial del RGC, pág. 107",
       "enunciado": "Conduce un turismo con remolque y el conjunto mide 11 metros de largo. Encuentra esta señal con la cifra 10 m. ¿Puede pasar?"
     },
     {
       "id": "B1-sen-0118",
       "tipo": "senal",
       "codigo": "R-205",
-      "descripcion": "Círculo blanco con orla roja, dos triángulos rojos enfrentados arriba y abajo y la cifra '3,5 m'.",
-      "enunciado": "¿Qué prohíbe esta señal con la cifra 3,5 m entre dos puntas de flecha verticales?"
+      "descripcion": "Señal R-205 «Limitación de altura» recortada del catálogo oficial del RGC, pág. 107",
+      "enunciado": "¿Qué prohíbe esta señal con la cifra 4,5 m entre dos puntas de flecha verticales?"
     },
     {
       "id": "B1-sen-0119",
       "tipo": "senal",
       "codigo": "R-300",
-      "descripcion": "Círculo blanco con orla roja, dos turismos en línea y la cifra '70 m' entre ellos.",
+      "descripcion": "Señal R-300 «Separación mínima» recortada del catálogo oficial del RGC, pág. 109",
       "enunciado": "¿Qué indica esta señal con dos vehículos y la cifra 70 m?"
     },
     {
       "id": "B1-sen-0120",
       "tipo": "senal",
       "codigo": "R-301",
-      "descripcion": "Círculo blanco con orla roja y la cifra 60 en el centro.",
-      "enunciado": "Después de una señal de velocidad máxima de 60 km/h, ¿hasta cuándo debe respetar esa limitación?"
+      "descripcion": "Señal R-301 «Velocidad máxima» recortada del catálogo oficial del RGC, pág. 109",
+      "enunciado": "Circula por una vía con prioridad y encuentra esta señal, sola en su poste (sin ninguna señal de peligro). ¿Hasta dónde obliga?"
     },
     {
       "id": "B1-sen-0121",
       "tipo": "senal",
       "codigo": "R-303",
-      "descripcion": "Círculo blanco con orla roja y una flecha negra que gira a la izquierda, tachada con una franja roja.",
+      "descripcion": "Señal R-303 «Giro a la izquierda prohibido» recortada del catálogo oficial del RGC, pág. 109",
       "enunciado": "Esta señal prohíbe girar a la izquierda. ¿Puede cambiar de sentido de la marcha?"
     },
     {
       "id": "B1-sen-0122",
       "tipo": "senal",
       "codigo": "R-304",
-      "descripcion": "Círculo blanco con orla roja y una flecha negra en forma de U invertida, tachada con una franja roja.",
+      "descripcion": "Señal R-304 «Cambio de sentido prohibido» recortada del catálogo oficial del RGC, pág. 109",
       "enunciado": "¿Qué prohíbe esta señal (flecha en U tachada)?"
     },
     {
       "id": "B1-sen-0123",
       "tipo": "senal",
       "codigo": "R-305",
-      "descripcion": "Círculo blanco con orla roja con dos turismos, el de la izquierda rojo y el de la derecha negro.",
-      "enunciado": "Ante esta señal de prohibido adelantar, ¿puede adelantar a una motocicleta de dos ruedas?"
+      "descripcion": "Señal R-305 «Adelantamiento prohibido» recortada del catálogo oficial del RGC, pág. 110",
+      "enunciado": "¿Qué prohíbe esta señal?"
     },
     {
       "id": "B1-sen-0124",
       "tipo": "senal",
       "codigo": "R-306",
-      "descripcion": "Círculo blanco con orla roja con un camión rojo a la izquierda y un turismo negro a la derecha.",
-      "enunciado": "Conduce un autobús y encuentra esta señal (camión rojo y turismo negro). ¿Puede adelantar a un camión?"
+      "descripcion": "Señal R-306 «Adelantamiento prohibido para camiones» recortada del catálogo oficial del RGC, pág. 110",
+      "enunciado": "Conduce un autobús y encuentra esta señal (camión rojo y turismo negro). ¿Le afecta la prohibición de esta señal?"
     },
     {
       "id": "B1-sen-0125",
       "tipo": "senal",
       "codigo": "R-400c",
-      "descripcion": "Círculo azul con una flecha blanca vertical hacia arriba.",
-      "enunciado": "Encuentra esta señal (círculo azul con flecha blanca hacia delante). ¿Puede girar a la derecha en la próxima calle?"
+      "descripcion": "Señal R-400c «Sentido obligatorio» recortada del catálogo oficial del RGC, pág. 115",
+      "enunciado": "Encuentra esta señal (círculo azul con flecha blanca hacia delante) a la entrada de una intersección. ¿Puede girar a la derecha en ella?"
     },
     {
       "id": "B1-sen-0126",
       "tipo": "senal",
       "codigo": "R-403a",
-      "descripcion": "Círculo azul con una flecha blanca hacia arriba de la que sale otra hacia la derecha.",
+      "descripcion": "Señal R-403a «Únicas direcciones y sentidos permitidos» recortada del catálogo oficial del RGC, pág. 116",
       "enunciado": "¿Qué indica esta señal (círculo azul con flechas blancas hacia delante y hacia la derecha)?"
     },
     {
       "id": "B1-sen-0127",
       "tipo": "senal",
       "codigo": "R-404",
-      "descripcion": "Círculo azul con la silueta blanca de un turismo.",
-      "enunciado": "Esta señal azul con la silueta de un turismo indica una calzada obligatoria para automóviles. ¿Están obligadas a circular por ella las motocicletas sin sidecar?"
+      "descripcion": "Señal R-404 «Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 116",
+      "enunciado": "Esta señal azul con la silueta de un turismo indica una calzada obligatoria para automóviles. ¿Están obligadas a circular por ella las motocicletas de dos ruedas?"
     },
     {
       "id": "B1-sen-0128",
       "tipo": "senal",
       "codigo": "R-405",
-      "descripcion": "Círculo azul con la silueta blanca de una motocicleta.",
-      "enunciado": "Circula en motocicleta sin sidecar y encuentra esta señal azul con una motocicleta. ¿Qué debe hacer?"
+      "descripcion": "Señal R-405 «Calzada obligatoria para motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 117",
+      "enunciado": "Circula en una motocicleta de dos ruedas y encuentra esta señal azul con una motocicleta. ¿Qué debe hacer?"
     },
     {
       "id": "B1-sen-0129",
       "tipo": "senal",
       "codigo": "R-407a",
-      "descripcion": "Círculo azul con la silueta blanca de una bicicleta.",
+      "descripcion": "Señal R-407a «Vía reservada y obligatoria para ciclos» recortada del catálogo oficial del RGC, pág. 117",
       "enunciado": "¿Puede circular un turismo por una vía señalizada con esta señal azul con una bicicleta?"
     },
     {
       "id": "B1-sen-0130",
       "tipo": "senal",
       "codigo": "R-407b",
-      "descripcion": "Círculo azul con la silueta blanca de un ciclomotor.",
+      "descripcion": "Señal R-407b «Vía reservada y obligatoria para ciclomotores» recortada del catálogo oficial del RGC, pág. 117",
       "enunciado": "¿Qué indica esta señal azul con un ciclomotor?"
     },
     {
       "id": "B1-sen-0131",
       "tipo": "senal",
       "codigo": "R-408",
-      "descripcion": "Círculo azul con la silueta blanca de un carro tirado por un caballo.",
-      "enunciado": "Esta señal azul obliga a los vehículos de tracción animal a circular por ese camino. ¿Pueden circular por él otros vehículos?"
+      "descripcion": "Señal R-408 «Camino obligatorio para vehículos de tracción animal» recortada del catálogo oficial del RGC, pág. 117",
+      "enunciado": "¿Qué indica esta señal azul con un carro tirado por un caballo?"
     },
     {
       "id": "B1-sen-0132",
       "tipo": "senal",
       "codigo": "R-409",
-      "descripcion": "Círculo azul con la silueta blanca de un jinete a caballo.",
+      "descripcion": "Señal R-409 «Camino reservado y obligatorio para animales de montura» recortada del catálogo oficial del RGC, pág. 118",
       "enunciado": "¿Qué indica esta señal azul con una persona a caballo?"
     },
     {
       "id": "B1-sen-0133",
       "tipo": "senal",
       "codigo": "R-410",
-      "descripcion": "Círculo azul con la silueta blanca de un peatón.",
+      "descripcion": "Señal R-410 «Camino reservado y obligatorio para peatones» recortada del catálogo oficial del RGC, pág. 118",
       "enunciado": "¿Qué indica esta señal azul con un peatón?"
     },
     {
       "id": "B1-sen-0134",
       "tipo": "senal",
       "codigo": "R-411",
-      "descripcion": "Círculo azul con la cifra 30 en blanco.",
-      "enunciado": "¿Qué indica esta señal azul con la cifra 30?"
+      "descripcion": "Señal R-411 «Velocidad mínima» recortada del catálogo oficial del RGC, pág. 118",
+      "enunciado": "¿Qué indica esta señal azul con la cifra 40?"
     },
     {
       "id": "B1-sen-0135",
       "tipo": "senal",
       "codigo": "R-413",
-      "descripcion": "Círculo azul con el símbolo blanco de un faro con rayos dirigidos hacia abajo.",
+      "descripcion": "Señal R-413 «Alumbrado de corto alcance» recortada del catálogo oficial del RGC, pág. 119",
       "enunciado": "¿Qué indica esta señal azul con un faro?"
     },
     {
       "id": "B1-sen-0136",
       "tipo": "senal",
       "codigo": "R-412",
-      "descripcion": "Círculo azul con un neumático blanco con cadenas.",
+      "descripcion": "Señal R-412 «Cadenas para nieve» recortada del catálogo oficial del RGC, pág. 118",
       "enunciado": "¿Qué indica esta señal azul con un neumático con cadenas?"
     },
     {
       "id": "B1-sen-0137",
       "tipo": "senal",
       "codigo": "R-415",
-      "descripcion": "Círculo azul con un camión cisterna blanco y gotas de agua.",
-      "enunciado": "Transporta 5.000 litros de un producto que puede contaminar el agua y encuentra esta señal azul. ¿Qué debe hacer?"
+      "descripcion": "Señal R-415 «Calzada obligatoria para vehículos que transporten productos contaminantes del agua» recortada del catálogo oficial del RGC, pág. 119",
+      "enunciado": "Transporta 5.000 litros de un producto capaz de contaminar el agua y encuentra esta señal azul. ¿Qué debe hacer?"
     },
     {
       "id": "B1-sen-0138",
       "tipo": "senal",
       "codigo": "R-418",
-      "descripcion": "Círculo azul con el símbolo de telepeaje (pictograma de dispositivo y ondas).",
+      "descripcion": "Señal R-418 «Vía exclusiva para vehículos dotados de equipo de telepeaje operativo. Telepeaje obligatorio.» recortada del catálogo oficial del RGC, pág. 120",
       "enunciado": "¿Qué indica esta señal sobre uno de los carriles de un peaje?"
     },
     {
@@ -760,8 +760,8 @@
     {
       "id": "B2-sen-0007",
       "tipo": "senal",
-      "codigo": "S-991",
-      "descripcion": "Señal rectangular de indicación de control de velocidad (versión de carretera convencional, fondo blanco): vehículos y pictograma de radar/control de velocidad.",
+      "codigo": "S-991a",
+      "descripcion": "Señal S-991a «Control de velocidad en carretera convencional o carretera multicarril» recortada del catálogo oficial del RGC, pág. 200",
       "enunciado": "¿Qué indica esta señal?"
     },
     {

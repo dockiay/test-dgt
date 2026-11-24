@@ -38,7 +38,7 @@ Cada error tiene su explicación y artículo en los ficheros de revisión. En la
 
 ## Lo que no se ha podido verificar (sigue en revisión)
 
-- **Señales verticales**: 65 preguntas de identificación de señales (P-, R-) se basan en el manual de la DGT de 2024, porque el catálogo del BOE es solo imagen. El catálogo vigente amplió la numeración, así que el código de cada una debe confirmarse con el recorte oficial que está preparando el hilo de imágenes; mientras no tengan imagen, la web no las muestra. Faltan las S- (indicación) y algunas señales nuevas (VMP, zona de bajas emisiones, carril trenzado).
+- **Señales verticales**: las 65 preguntas de identificación de señales (P-, R-) se han rehecho con la ficha vigente del catálogo del RGC (OCR cotejado con la imagen de cada página: fuente `RGC_CATALOGO`). Se corrigieron una respuesta falsa (R-408), varios códigos (P-21a, P-50, S-991a) y definiciones (R-305, R-103, R-404, R-405, R-112, R-412). Faltan las S- (indicación) y algunas señales nuevas (VMP, zona de bajas emisiones, carril trenzado).
 - **Código Penal** (delitos de alcohol, velocidad, sin permiso, omisión del deber de socorro): no está entre las fuentes.
 - **ITV** (periodicidad, desfavorable o negativa) y **seguro obligatorio**: están en el RD 920/2017 y el RDL 8/2004, que no se han descargado.
 - **Tablas** de edades por clase de permiso y de dimensiones máximas: el texto extraído desordena las tablas y no se pueden citar literalmente.

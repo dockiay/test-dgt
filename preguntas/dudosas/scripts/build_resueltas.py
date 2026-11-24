@@ -602,6 +602,36 @@ def cita_ok(norma, cita):
     return False
 
 
+# ---- Ajustes tras la revisión independiente (revision-independiente.json) ----
+# Duplicados de banco-materias-boe.json (bmp-0001/0003/0005/0006/0007/0010) y de los bancos del vídeo
+# (A-adel-0013, arc-0013): se quitan las nuestras.
+DUPLICADAS = {"res-del-0001", "res-del-0002", "res-del-0003", "res-del-0004", "res-del-0005",
+              "res-del-0006", "res-adel-0001", "res-arc-0002"}
+Q[:] = [x for x in Q if x["id"] not in DUPLICADAS]
+
+ADICIONALES = {
+    "res-veh-0002": [{"norma": "LSV", "articulo": "Anexo I.24", "url": FUENTES["LSV"][1],
+                      "cita": "b) Tren de carretera. Automóvil constituido por un vehículo de motor enganchado a un remolque."}],
+    "res-arc-0001": [{"norma": "LSV", "articulo": "Anexo I.4", "url": FUENTES["LSV"][1],
+                      "cita": "y las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor."}],
+}
+for x in Q:
+    if x["id"] in ADICIONALES:
+        x["fuente"]["citas_adicionales"] = ADICIONALES[x["id"]]
+
+# Baraja las opciones para que la correcta quede repartida entre a, b y c (determinista).
+for k, x in enumerate(Q):
+    objetivo = "abc"[k % 3]
+    op = x["opciones"]
+    buena = op[x["correcta"]]
+    malas = [op[l] for l in "abc" if l != x["correcta"]]
+    if k % 2:
+        malas.reverse()
+    nuevo = {}
+    for l in "abc":
+        nuevo[l] = buena if l == objetivo else malas.pop(0)
+    x["opciones"], x["correcta"] = nuevo, objetivo
+
 errs, ids = [], set()
 for x in Q:
     i = x["id"]
@@ -617,6 +647,9 @@ for x in Q:
         if not f.get("pagina_pdf"):
             errs.append(f"{i}: falta pagina_pdf")
         continue
+    for ca in f.get("citas_adicionales", []):
+        if not cita_ok(ca["norma"], ca["cita"]):
+            errs.append(f"{i}: CITA ADICIONAL NO ENCONTRADA en {ca['norma']}")
     if len(norm(f["cita"])) < 15:
         errs.append(f"{i}: cita corta")
     elif not cita_ok(f["norma"], f["cita"]):

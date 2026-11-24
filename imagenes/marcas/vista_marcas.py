@@ -10,7 +10,7 @@ plano del BOE (img/marcas/*.png): se quitan las cotas con una apertura morfológ
 y se conserva la forma oficial. Las líneas, cebreados, damero, cuadrícula y zigzag
 se dibujan por código con las medidas del catálogo.
 
-Uso:  python3 imagenes/marcas/vista_marcas.py        -> img/marcas-vista/*.jpg
+Uso:  python3 imagenes/marcas/vista_marcas.py        -> imagenes/marcas-vista/*.jpg (y build_data.py a img/)
 """
 import os
 
@@ -19,7 +19,7 @@ from PIL import Image, ImageDraw, ImageFilter
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PLANOS = os.path.join(RAIZ, "img", "marcas")
-SALIDA = os.path.join(RAIZ, "img", "marcas-vista")
+SALIDA = os.path.join(RAIZ, "imagenes", "marcas-vista")  # build_data.py lo copia a img/
 
 PXM = 50                 # píxeles por metro en el plano cenital
 ANCHO, ALTO = 960, 600   # imagen final (se dibuja al doble y se reduce)

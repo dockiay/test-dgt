@@ -104,6 +104,7 @@
     corona: "M4.5 18.5h15M5 15.5L3.5 7l5 3.8L12 4.5l3.5 6.3 5-3.8-1.5 8.5z",
     medalla: "M12 15a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM8.3 13.6L6.5 21l5.5-2.6 5.5 2.6-1.8-7.4M12 7.2l1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z",
     mapa: "M9 4.5L3.5 6.5v13L9 17.5l6 2 5.5-2v-13L15 6.5l-6-2zM9 4.5v13M15 6.5v13",
+    persona: "M12 12a4 4 0 100-8 4 4 0 000 8zM4.5 20.5c.8-3.8 3.8-6 7.5-6s6.7 2.2 7.5 6",
   };
   function ico(nombre, clase) {
     const NS = "http://www.w3.org/2000/svg";
@@ -364,7 +365,7 @@
         h("span", { class: "fila-valor " + (r.apto ? "apto" : "noapto") }, r.apto ? "Apto" : "No apto"))))] : null,
       extrasInicio("abajo"),
       cabecera("Información"),
-      grupo("con-icono", filaNube() || fila({ icono: "enlace", color: "verde", titulo: "Estudiar en otro dispositivo", detalle: "Pasa tu progreso entre el móvil y el ordenador", href: "#/copia" }),
+      grupo("con-icono", filaPerfil(),
         fila({ icono: "info", color: "gris", titulo: "Fuentes y aviso legal", href: "#/fuentes" })),
       PREGUNTAS.length < 300 ? h("p", { class: "nota-pie" }, "El banco todavía es pequeño y no cubre todo el temario. Crecerá a medida que se verifiquen más preguntas.") : null);
   }
@@ -727,13 +728,13 @@
     if (n.ultima) return `Guardado en la nube a las ${new Date(n.ultima).toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" })}`;
     return "Conectando con la nube…";
   }
-  // Fila de la pantalla de inicio: invita a iniciar sesión o muestra el estado del guardado.
-  function filaNube() {
+  // Fila de la pantalla de inicio: lleva al perfil (perfil.js) con el estado del guardado.
+  function filaPerfil() {
     const n = nube();
-    if (!n) return null;
-    return n.usuario
-      ? fila({ icono: "nube", color: n.error ? "naranja" : "verde", titulo: "Progreso en la nube", detalle: textoNube(n), href: "#/copia" })
-      : fila({ icono: "nube", color: "azul", titulo: "Guardar mi progreso en la nube", detalle: "Inicia sesión con Google y se sincroniza solo entre el móvil y el ordenador", href: "#/copia" });
+    const detalle = !n ? "Estadísticas, ajustes y copia de seguridad"
+      : n.usuario ? [n.usuario.nombre, textoNube(n)].filter(Boolean).join(" · ")
+      : "Sin cuenta: tu progreso solo se guarda en este dispositivo";
+    return fila({ icono: "persona", color: n && n.usuario && !n.error ? "verde" : n ? "naranja" : "azul", titulo: "Mi perfil", detalle, href: "#/perfil" });
   }
   function seccionNube() {
     const n = nube();
@@ -756,12 +757,12 @@
   let firmaNube = "";
   window.addEventListener("nube-estado", () => {
     const n = nube(), firma = n ? [n.usuario && n.usuario.correo, n.error, n.ultima].join("|") : "";
-    if (seccionActual() === "copia") return repintarSiSeguro();
+    if (["copia", "perfil"].includes(seccionActual())) return repintarSiSeguro();
     if (firma !== firmaNube) { firmaNube = firma; if (seccionActual() === "inicio") repintarSiSeguro(); }
   });
   function repintarSiSeguro() {
     if (sesion || document.querySelector("dialog[open]")) return;
-    if (["inicio", "progreso", "copia"].includes(seccionActual())) { const y = window.scrollY; ruta(); window.scrollTo(0, y); }
+    if (["inicio", "progreso", "copia", "perfil"].includes(seccionActual())) { const y = window.scrollY; ruta(); window.scrollTo(0, y); }
     else pintarLateral(seccionActual());
   }
 
@@ -794,7 +795,7 @@
       } }] });
     };
     const g = P.resumen(datos, TODAS);
-    pantalla({ titulo: "Otro dispositivo", atras: { texto: "Inicio", href: "#/" } },
+    pantalla({ titulo: "Copia y otro dispositivo", atras: { texto: "Perfil", href: "#/perfil" } },
       h("h1", { class: "titulo-grande" }, "Estudiar en otro dispositivo"),
       h("p", { class: "subtitulo" }, nube()
         ? "Inicia sesión con Google en el móvil y en el ordenador y tu progreso se sincroniza solo. Sin conexión también se guarda aquí, y se sube a la nube cuando vuelve."
@@ -849,7 +850,7 @@
       h("ul", {}, item("fallos", "#/fallos", "repetir", "naranja", "Mis fallos", nf ? String(nf) : null), item("dudosas", "#/dudosas", "bandera", "rojo", "Preguntas dudosas", nd ? String(nd) : null),
         item("progreso", "#/progreso", "check", "verde", "Mi progreso")),
       h("p", { class: "lateral-cabecera" }, "Información"),
-      h("ul", {}, item("copia", "#/copia", "enlace", "verde", "Otro dispositivo"), item("fuentes", "#/fuentes", "info", "gris", "Fuentes y aviso legal")),
+      h("ul", {}, item("perfil", "#/perfil", "persona", "azul", "Mi perfil"), item("copia", "#/copia", "enlace", "verde", "Copia y otro dispositivo"), item("fuentes", "#/fuentes", "info", "gris", "Fuentes y aviso legal")),
       h("p", { class: "lateral-pie" }, `${PREGUNTAS.length} preguntas verificadas`));
   }
   function ruta() {
@@ -874,7 +875,7 @@
   // Se cargan después de app.js; la primera pantalla se pinta cuando ya están todas (DOMContentLoaded).
   window.App = {
     h, ico, ICONOS, fila, grupo, cabecera, cifras, segmentos, pantalla, hoja, vacio, avance, pregunta, barajar, plural, fechaES, fechaCorta, mmss,
-    materia, nombreTema, tarjetaRacha, sonar, practicar, empezarExamen, pararReloj, repintar: () => ruta(),
+    materia, nombreTema, tarjetaRacha, sonar, seccionNube, textoNube, repintarSiSeguro, practicar, empezarExamen, pararReloj, repintar: () => ruta(),
     MATERIAS, PREGUNTAS, POR_ID, POR_MATERIA, TODAS, EXAMEN_PREGUNTAS, PROPORCION_FALLOS,
     get datos() { return datos; }, guardar,
     get sesion() { return sesion; },

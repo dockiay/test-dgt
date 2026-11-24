@@ -368,5 +368,5 @@
   A.lateralExtra({ id: "hoy", href: "#/hoy", icono: "diana", color: "azul", texto: "Estudiar hoy" });
   A.lateralExtra({ id: "semanal", href: "#/semanal", icono: "grafica", color: "verde", texto: "Simulacro semanal", cuenta: () => proximoSemanal().toca ? "1" : null });
 
-  window.Estudiar = { planDeHoy, preguntasSemanal, objetivoNecesario, respuestasQueFaltan, cuentaAtras, informe, normalizarPlan, combinarPlan };
+  window.Estudiar = { elegirFecha, textoCuentaAtras, planDeHoy, preguntasSemanal, objetivoNecesario, respuestasQueFaltan, cuentaAtras, informe, normalizarPlan, combinarPlan };
 })();

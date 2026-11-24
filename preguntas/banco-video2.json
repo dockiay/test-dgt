@@ -1,0 +1,524 @@
+{
+  "version": 1,
+  "descripcion": "Preguntas sacadas del vídeo video2 (Nuevas normas DGT de octubre de 2026) y comprobadas contra la norma.",
+  "normativa_consultada": {
+    "RGC": {
+      "ref": "BOE-A-2003-23514",
+      "nombre": "Reglamento General de Circulación (RD 1428/2003)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      "ultima_actualizacion": "2026-06-26"
+    }
+  },
+  "preguntas": [
+    {
+      "id": "v2-vmp-0001",
+      "tema": "vmp",
+      "subtema": "edad_minima",
+      "enunciado": "¿Cuál es la edad mínima para conducir un vehículo de movilidad personal, como un patinete eléctrico?",
+      "opciones": {
+        "a": "14 años.",
+        "b": "15 años.",
+        "c": "16 años."
+      },
+      "correcta": "b",
+      "explicacion": "El Reglamento General de Circulación prohíbe conducir vehículos de movilidad personal a los menores de quince años.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "155.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "No podrán conducir vehículos de movilidad personal los menores de quince años.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "0:16"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8
+    },
+    {
+      "id": "v2-vmp-0002",
+      "tema": "vmp",
+      "subtema": "alumbrado",
+      "enunciado": "¿Cuándo debe llevar encendido el alumbrado un vehículo de movilidad personal?",
+      "opciones": {
+        "a": "Solo entre el ocaso y la salida del sol o cuando haya poca visibilidad.",
+        "b": "Solo cuando circule por una vía interurbana en la que le esté permitido.",
+        "c": "Siempre."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos de movilidad personal deben llevar el alumbrado encendido siempre, tanto de día como de noche.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "155.5",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Los vehículos de movilidad personal deberán llevar siempre encendido el alumbrado.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "0:26"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Corrige al vídeo: dice que de día solo será obligatorio a partir de 2027; el art. 155.5 del RGC consolidado ya exige llevarlo siempre encendido.",
+      "materia": 8
+    },
+    {
+      "id": "v2-vmp-0003",
+      "tema": "vmp",
+      "subtema": "elementos_reflectantes",
+      "enunciado": "Una persona que no circula por motivos profesionales conduce de noche un patinete eléctrico (vehículo de movilidad personal) por una calle. Además del casco, ¿qué debe llevar puesto?",
+      "opciones": {
+        "a": "Al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros.",
+        "b": "Nada más: los elementos reflectantes solo se exigen en vías interurbanas.",
+        "c": "Guantes de protección y calzado cerrado."
+      },
+      "correcta": "a",
+      "explicacion": "Los conductores de vehículos de movilidad personal que circulen entre el ocaso y la salida del sol, o con condiciones que reduzcan sensiblemente la visibilidad, deben llevar al menos un elemento luminoso o reflectante visible a 150 metros como mínimo, en cualquier tipo de vía.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "sensiblemente la visibilidad, deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa de los equipos de protección individual, que sea visible a una distancia mínima de 150 metros.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "0:34"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Matiza al vídeo: la norma no exige a todos un chaleco de noche, sino al menos un elemento luminoso o reflectante (un chaleco reflectante cumpliría). El chaleco de alta visibilidad se exige siempre solo a quienes circulan por trabajo (118.4).",
+      "materia": 8
+    },
+    {
+      "id": "v2-vmp-0004",
+      "tema": "vmp",
+      "subtema": "chaleco_profesionales",
+      "enunciado": "Un repartidor que trabaja circulando en bicicleta o en patinete eléctrico, ¿cuándo debe llevar un chaleco reflectante de alta visibilidad?",
+      "opciones": {
+        "a": "Solo entre el ocaso y la salida del sol.",
+        "b": "Siempre que circule desarrollando su actividad profesional, en todo tipo de vías.",
+        "c": "Solo cuando circule por vías interurbanas."
+      },
+      "correcta": "b",
+      "explicacion": "Quienes trabajan circulando en motocicleta, ciclomotor, bicicleta u otro ciclo o vehículo de movilidad personal deben usar chaleco reflectante de alta visibilidad cuando circulen en todo tipo de vías, sin limitarse a la noche.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "circulando en los vehículos mencionados en los apartados 1, 2 y 3, deberán utilizar un chaleco reflectante de alta visibilidad de acuerdo con los requisitos de los equipos de protección individual, cuando circulen en todo tipo de vías.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "2:17"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8
+    },
+    {
+      "id": "v2-vmp-0005",
+      "tema": "vmp",
+      "subtema": "vias_prohibidas",
+      "enunciado": "¿Puede circular un patinete eléctrico (vehículo de movilidad personal) por la calzada o el arcén de una carretera convencional fuera de poblado?",
+      "opciones": {
+        "a": "Sí, siempre que circule por el arcén de la derecha y lo más cerca posible del borde.",
+        "b": "Sí, si el conductor lleva casco homologado y el vehículo lleva el alumbrado encendido.",
+        "c": "No; fuera de poblado solo puede usar vías ciclistas y otras vías cerradas a los vehículos de motor."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos de movilidad personal tienen prohibido circular por vías interurbanas, salvo que se trate de vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías en las que esté prohibida la circulación de vehículos de motor, siempre que la señalización no lo prohíba.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "38.4.c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "c) Por vías interurbanas y por túneles urbanos, salvo que se trate de vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías en las que esté prohibida la circulación de vehículos de motor",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "0:45"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8
+    },
+    {
+      "id": "v2-moto-0001",
+      "tema": "seguridad_pasiva",
+      "subtema": "calzado_motoristas",
+      "enunciado": "El conductor y el pasajero de una motocicleta circulan por una calle de la ciudad. ¿Qué calzado deben llevar?",
+      "opciones": {
+        "a": "Calzado cerrado que cubra todo el pie.",
+        "b": "Cualquiera: el calzado cerrado solo es obligatorio en vías interurbanas.",
+        "c": "Calzado cerrado solo el conductor; el pasajero puede llevar cualquiera."
+      },
+      "correcta": "a",
+      "explicacion": "Los conductores y pasajeros de motocicletas, ciclomotores, vehículos de tres ruedas, cuadriciclos y quads deben llevar calzado cerrado que cubra todo el pie cuando circulen en todo tipo de vías, también en ciudad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.1.c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "c) Calzado cerrado, que cubra todo el pie, cuando circulen en todo tipo de vías.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "1:06"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 15
+    },
+    {
+      "id": "v2-moto-0002",
+      "tema": "seguridad_pasiva",
+      "subtema": "guantes_motoristas",
+      "enunciado": "El pasajero de una motocicleta que circula por una vía interurbana, ¿debe llevar guantes de protección?",
+      "opciones": {
+        "a": "No, la obligación solo afecta al conductor.",
+        "b": "Solo si la motocicleta supera los 125 cm³.",
+        "c": "Sí, igual que el conductor."
+      },
+      "correcta": "c",
+      "explicacion": "Tanto los conductores como los pasajeros de motocicletas, ciclomotores, vehículos de tres ruedas, cuadriciclos y quads deben usar guantes de protección cuando circulen por vías interurbanas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.1.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "1. Los conductores y pasajeros de motocicletas o motocicletas con sidecar, de vehículos de tres ruedas y cuadriciclos, de ciclomotores y de vehículos especiales tipo «quad», deberán utilizar los siguientes elementos de protección",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "0:57"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "La letra b) del mismo apartado concreta: «Guantes de protección cuando circulen por vías interurbanas». Excepción poco frecuente: vehículos con estructura de autoprotección y cinturones que así consten en su documentación.",
+      "materia": 15
+    },
+    {
+      "id": "v2-arc-0001",
+      "tema": "por_donde_circular",
+      "subtema": "motos_arcen",
+      "enunciado": "Hay un atasco. ¿Puede una motocicleta circular por el arcén de la derecha?",
+      "opciones": {
+        "a": "Sí, en cualquier vía con arcén transitable, siempre que no supere los 30 km/h.",
+        "b": "Solo en tramos señalizados para ello y con la circulación detenida por congestión.",
+        "c": "No, porque el arcén solo puede usarse por razones de emergencia o averías."
+      },
+      "correcta": "b",
+      "explicacion": "El uso extraordinario del arcén por motocicletas solo se permite en tramos acordados y señalizados con señales verticales y marcas viales, únicamente cuando la circulación de los carriles esté detenida por congestión, a 30 km/h como máximo y en columna de a uno.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "36.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Únicamente estará habilitado este tipo de uso cuando la circulación de los carriles de la vía esté detenida por congestión del tráfico.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "1:26"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v2-adel-0001",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "enunciado": "Fuera de poblado, en una carretera limitada a 100 km/h, va a adelantar a una persona que circula montada a caballo. ¿A qué velocidad máxima puede hacerlo?",
+      "opciones": {
+        "a": "A 80 km/h.",
+        "b": "A 100 km/h, porque la reducción de velocidad solo se exige al adelantar a ciclistas.",
+        "c": "A 90 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Al adelantar fuera de poblado a ciclistas, peatones, animales, vehículos de tracción animal, ciclomotores o vehículos de movilidad personal, hay que reducir la velocidad al menos 20 km/h respecto al límite de la vía, antes de iniciar la maniobra y durante toda ella. Con un límite de 100 km/h, como máximo 80 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "1:33"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Extiende al vídeo: la reducción de 20 km/h no es solo para ciclistas; se aplica a todos los usuarios del art. 85.4 (peatones, animales, vehículos de tracción animal, ciclomotores, VMP, ciclistas). Ya existe adel-0003 con el caso del ciclista.",
+      "materia": 8
+    },
+    {
+      "id": "v2-adel-0002",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "enunciado": "Dentro de poblado, en una calle con un solo carril por sentido, va a adelantar a un patinete eléctrico (vehículo de movilidad personal). ¿Qué anchura de seguridad mínima debe guardar?",
+      "opciones": {
+        "a": "1 metro, porque circula en poblado.",
+        "b": "La que considere suficiente: la de 1,5 metros solo se exige fuera de poblado.",
+        "c": "Al menos 1,5 metros."
+      },
+      "correcta": "c",
+      "explicacion": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal o ciclistas hay que guardar una anchura de seguridad de al menos 1,5 metros, dentro y fuera de poblado. Si la calzada tiene más de un carril por sentido, hay que cambiar completamente de carril.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "2:57"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8
+    },
+    {
+      "id": "v2-adel-0003",
+      "tema": "adelantamiento",
+      "subtema": "motocicletas",
+      "enunciado": "Fuera de poblado, el conductor de una motocicleta adelanta a un turismo. ¿Qué espacio lateral debe dejar entre ambos?",
+      "opciones": {
+        "a": "No inferior a 1,50 metros.",
+        "b": "No se exige un mínimo, porque la motocicleta es estrecha.",
+        "c": "Al menos 1 metro."
+      },
+      "correcta": "a",
+      "explicacion": "El conductor de un vehículo de dos ruedas que adelanta fuera de poblado a cualquier otro vehículo debe dejar entre ambos un espacio no inferior a 1,50 metros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.5",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "El conductor de un vehículo de dos ruedas que pretenda adelantar fuera de poblado a otro cualquiera lo hará de forma que entre aquél y las partes más salientes del vehículo que adelanta quede un espacio no inferior a 1,50 metros.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "3:35"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Matiza al vídeo: esta obligación de la moto es solo fuera de poblado.",
+      "materia": 1
+    },
+    {
+      "id": "v2-adel-0004",
+      "tema": "adelantamiento",
+      "subtema": "prohibiciones",
+      "enunciado": "¿Puede adelantar a una motocicleta en las proximidades de un paso a nivel?",
+      "opciones": {
+        "a": "Sí, porque es un vehículo de dos ruedas.",
+        "b": "No, está prohibido adelantar en los pasos a nivel y en sus proximidades.",
+        "c": "Sí, si lo hace a velocidad moderada y con buena visibilidad."
+      },
+      "correcta": "b",
+      "explicacion": "Está prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades, sin excepción por tratarse de un vehículo de dos ruedas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "b) En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "6:11"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v2-adel-0005",
+      "tema": "adelantamiento",
+      "subtema": "prohibiciones",
+      "enunciado": "¿Está permitido adelantar en una intersección con una vía para ciclistas o en sus proximidades?",
+      "opciones": {
+        "a": "Sí, si no se acerca ningún ciclista.",
+        "b": "Sí, si el vehículo adelantado es de dos ruedas.",
+        "c": "No, está prohibido."
+      },
+      "correcta": "c",
+      "explicacion": "Las intersecciones con vías para ciclistas, igual que los pasos para peatones señalizados y los pasos a nivel, son lugares en los que está prohibido adelantar, también en sus proximidades.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "b) En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 87.1.b",
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v2-nieve-0001",
+      "tema": "por_donde_circular",
+      "subtema": "nieve",
+      "enunciado": "En una autovía con tres carriles por sentido, la circulación se ve dificultada por la nieve. ¿Por qué carriles se puede circular?",
+      "opciones": {
+        "a": "Por el situado más a la derecha y por su contiguo, dejando libres los demás carriles de la izquierda.",
+        "b": "Solo por el carril izquierdo, para dejar libres los de la derecha a los quitanieves.",
+        "c": "Por cualquiera de ellos, siempre que no se adelante."
+      },
+      "correcta": "a",
+      "explicacion": "En autopistas y autovías con nieve está prohibido adelantar y hay que circular por el carril de la derecha; en tramos con tres o más carriles por sentido se puede usar también su contiguo, dejando libres el resto de carriles de la izquierda para los vehículos de emergencia y los quitanieves.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "32.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "pudiendo utilizar su contiguo en tramos con tres o más carriles por sentido, dejando expeditos para la circulación de vehículos de emergencia y quitanieves el resto de carriles a la izquierda.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "4:16"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6
+    },
+    {
+      "id": "v2-par-0001",
+      "tema": "parada_estacionamiento",
+      "subtema": "autocaravanas",
+      "enunciado": "Ha estacionado su autocaravana en la vía pública. ¿Puede extender el toldo?",
+      "opciones": {
+        "a": "Sí, siempre que el toldo no llegue a ocupar la calzada.",
+        "b": "No, si desborda el perímetro del vehículo.",
+        "c": "Sí, pero solo durante el día y en vías urbanas."
+      },
+      "correcta": "b",
+      "explicacion": "Las autocaravanas y otros vehículos acondicionados como vivienda deben estacionar sin extender elementos propios que desborden su perímetro (su proyección en planta), descansando solo sobre los neumáticos y sin verter fluidos del habitáculo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.4.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "a) Sin extender elementos propios que desborden el perímetro del vehículo, considerando como tal la proyección en planta del mismo.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "5:41"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "v2-par-0002",
+      "tema": "parada_estacionamiento",
+      "subtema": "autocaravanas",
+      "enunciado": "Con la autocaravana estacionada en la vía pública, ¿puede vaciar allí las aguas sucias del habitáculo?",
+      "opciones": {
+        "a": "Sí, si lo hace directamente en un sumidero de la calle.",
+        "b": "Sí, pero solo cuando esté estacionada en una vía interurbana.",
+        "c": "No, no se pueden verter fluidos procedentes del habitáculo."
+      },
+      "correcta": "c",
+      "explicacion": "Las autocaravanas y demás vehículos acondicionados como vivienda deben estacionar sin verter fluidos procedentes del habitáculo; las aguas residuales se vacían en los puntos habilitados para ello.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.4.c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "c) Sin verter fluidos procedentes del habitáculo.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "video2",
+        "minuto": "5:34"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 16
+    },
+    {
+      "id": "v2-par-0003",
+      "tema": "parada_estacionamiento",
+      "subtema": "autocaravanas",
+      "enunciado": "Al estacionar una autocaravana en la vía pública, ¿sobre qué debe descansar?",
+      "opciones": {
+        "a": "Solo sobre los neumáticos, aunque se pueden usar calzos o cuñas de seguridad.",
+        "b": "Sobre los neumáticos y sobre sus patas estabilizadoras desplegadas.",
+        "c": "Sobre lo que prefiera el conductor, siempre que no ocupe la acera."
+      },
+      "correcta": "a",
+      "explicacion": "El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse descansando solo sobre los neumáticos, con posibilidad de usar calzos o cuñas de seguridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.4.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "b) Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 92.4.b",
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    }
+  ]
+}

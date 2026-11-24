@@ -1,0 +1,1696 @@
+{
+  "version": 1,
+  "fecha": "2026-11-24",
+  "video": "video5",
+  "leyenda": {
+    "error": "El vídeo se equivoca",
+    "matiz": "Hay que matizarlo",
+    "correcta": "El vídeo acierta",
+    "no_norma": "No es una norma (consejo o explicación)",
+    "sin_fuente": "No se puede confirmar con las fuentes oficiales"
+  },
+  "resoluciones": [
+    {
+      "id": "v5a-rev-0005",
+      "afirmacion_del_video": "Quien va en silla de ruedas, aunque sea eléctrica, es peatón.",
+      "minuto": "0:59",
+      "veredicto": "matiz",
+      "lo_correcto": "Es peatón la persona con discapacidad que circula al paso en una silla de ruedas, con o sin motor. La condición es ir «al paso».",
+      "fuente": "Ley de Tráfico (RDL 6/2015), anexo I, definición 4",
+      "norma": "LSV",
+      "cita": "las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "def-0001"
+      ]
+    },
+    {
+      "id": "v5a-rev-0003",
+      "afirmacion_del_video": "Los vehículos especiales se llaman así porque tienen algún permiso especial o miden o pesan más de lo normal.",
+      "minuto": "3:37",
+      "veredicto": "matiz",
+      "lo_correcto": "Un vehículo especial es el concebido y construido para realizar obras o servicios determinados (incluida la maquinaria agrícola) que, por sus características, está exceptuado de cumplir alguna condición técnica o sobrepasa permanentemente los límites de masas o dimensiones. No es una cuestión de «permiso especial».",
+      "fuente": "Ley de Tráfico (RDL 6/2015), anexo I, definición 25",
+      "norma": "LSV",
+      "cita": "concebido y construido para realizar obras o servicios determinados y que, por sus características, está exceptuado de cumplir alguna de las condiciones técnicas",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5a-rev-0004",
+      "afirmacion_del_video": "El ciclomotor, el tranvía y los vehículos para personas de movilidad reducida, aunque tengan motor, son «vehículos de no motor».",
+      "minuto": "4:14",
+      "veredicto": "correcta",
+      "lo_correcto": "Es correcto: la Ley de Tráfico excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida (y el Reglamento General de Vehículos excluye también a los vehículos de movilidad personal).",
+      "fuente": "Ley de Tráfico (RDL 6/2015), anexo I, definición 12",
+      "norma": "LSV",
+      "cita": "Vehículo de motor. Vehículo provisto de motor para su propulsión. Se excluyen de esta definición los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "def-0007",
+        "B1-sen-0073",
+        "res-def-0004"
+      ]
+    },
+    {
+      "id": "v5a-rev-0001",
+      "afirmacion_del_video": "La tara o masa en vacío es la masa del vehículo sin equipaje, sin pasajeros, sin conductor, «sin nada».",
+      "minuto": "5:20",
+      "veredicto": "error",
+      "lo_correcto": "La tara no es el vehículo «sin nada»: se mide sin personal de servicio, pasajeros ni carga, pero con su equipo fijo y su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios.",
+      "fuente": "Ley de Tráfico (RDL 6/2015), anexo I, definición 35",
+      "norma": "LSV",
+      "cita": "Tara. Masa del vehículo, con su equipo fijo autorizado, sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos,",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "def-0009"
+      ]
+    },
+    {
+      "id": "v5a-rev-0002",
+      "afirmacion_del_video": "La masa en orden de marcha es lo que pesa el vehículo con el conductor.",
+      "minuto": "5:30",
+      "veredicto": "matiz",
+      "lo_correcto": "La masa en orden de marcha es la tara más una masa estándar del conductor de 75 kg (en autobuses y autocares, también 75 kg del acompañante si lo lleva), no el peso real del conductor.",
+      "fuente": "Reglamento General de Vehículos, anexo II, A.1.2",
+      "norma": "RGV",
+      "cita": "resultado de sumar a la tara la masa estándar del conductor de 75 kg",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-def-0001"
+      ]
+    },
+    {
+      "id": "v5a-rev-0006",
+      "afirmacion_del_video": "La autopista y la autovía tienen como mínimo dos carriles para cada sentido.",
+      "minuto": "9:33",
+      "veredicto": "matiz",
+      "lo_correcto": "La definición legal de autopista y de autovía exige distintas calzadas para cada sentido, separadas entre sí, sin cruces a nivel; no fija un número mínimo de carriles. La diferencia clave entre ambas es el acceso de las propiedades colindantes (ninguno en autopista, limitado en autovía).",
+      "fuente": "Ley de Tráfico (RDL 6/2015), anexo I, definiciones 66 y 67",
+      "norma": "LSV",
+      "cita": "c) Constar de distintas calzadas para cada sentido de circulación, separadas entre sí, salvo en puntos singulares o con carácter temporal, por una franja de terreno no destinada a la circulación o, en casos excepcionales, por otros medios.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "via-0003"
+      ]
+    },
+    {
+      "id": "v5a-rev-0007",
+      "afirmacion_del_video": "Los ciclistas mayores de 14 años pueden «meterse» por una autovía si no hay señal que lo prohíba.",
+      "minuto": "10:57",
+      "veredicto": "matiz",
+      "lo_correcto": "Los ciclistas mayores de 14 años solo pueden circular por los arcenes de las autovías (no por la calzada), salvo que la señalización lo prohíba. Por las autopistas las bicicletas no pueden circular nunca.",
+      "fuente": "Reglamento General de Circulación, art. 38.1",
+      "norma": "RGC",
+      "cita": "los conductores de bicicletas mayores de 14 años podrán circular por los arcenes de las autovías",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "via-0005"
+      ]
+    },
+    {
+      "id": "v5a-rev-0011",
+      "afirmacion_del_video": "El peatón que va por el arcén de noche o en condiciones adversas tiene que llevar un chaleco reflectante.",
+      "minuto": "12:24",
+      "veredicto": "matiz",
+      "lo_correcto": "La norma exige, en vías interurbanas de noche o con visibilidad sensiblemente reducida, al menos un elemento luminoso o reflectante homologado visible a 150 metros; no obliga específicamente a un chaleco.",
+      "fuente": "Reglamento General de Circulación, art. 123.1",
+      "norma": "RGC",
+      "cita": "deberán hacer uso, al menos, de un elemento luminoso o reflectante conforme a la normativa de equipos de protección individual",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "arc-0004"
+      ]
+    },
+    {
+      "id": "v5a-rev-0010",
+      "afirmacion_del_video": "Si es un grupo de peatones, el primero tiene que llevar una luz blanca y el último una luz roja.",
+      "minuto": "12:27",
+      "veredicto": "matiz",
+      "lo_correcto": "De noche o con poca visibilidad, en vías interurbanas, el grupo de peatones lleva, en el lado más próximo al centro de la calzada, luces de color blanco o amarillo hacia adelante y rojo hacia atrás (pueden formar un solo conjunto).",
+      "fuente": "Reglamento General de Circulación, art. 123.2",
+      "norma": "RGC",
+      "cita": "que serán de color blanco o amarillo hacia adelante y rojo hacia atrás",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "arc-0005",
+        "arc-0006"
+      ]
+    },
+    {
+      "id": "v5a-rev-0008",
+      "afirmacion_del_video": "Si varios peatones van en grupo, circulan por el lado derecho.",
+      "minuto": "14:13",
+      "veredicto": "matiz",
+      "lo_correcto": "Va obligatoriamente por la derecha el grupo de peatones dirigido por una persona. Un grupo que no va dirigido sigue la regla general: arcén izquierdo, unos detrás de otros.",
+      "fuente": "Reglamento General de Circulación, art. 122.2.b",
+      "norma": "RGC",
+      "cita": "b) Todo grupo de peatones dirigido por una persona.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "arc-0003"
+      ]
+    },
+    {
+      "id": "v5a-rev-0009",
+      "afirmacion_del_video": "La persona en silla de ruedas, aunque vaya sola, tiene que ir por el lado derecho porque ocupa más.",
+      "minuto": "14:57",
+      "veredicto": "error",
+      "lo_correcto": "Fuera de poblado y sin zona peatonal practicable, la persona en silla de ruedas, como peatón, circula por el arcén izquierdo en el sentido de su marcha (o por la calzada si no hay arcén). Solo van obligatoriamente por la derecha quienes empujan o arrastran un ciclo, ciclomotor de dos ruedas o VMP, los grupos dirigidos por una persona y quienes por seguridad no deban ir por la izquierda.",
+      "fuente": "Reglamento General de Circulación, art. 122.1 y 122.2",
+      "norma": "RGC",
+      "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-arc-0001"
+      ]
+    },
+    {
+      "id": "v5a-rev-0012",
+      "afirmacion_del_video": "Si el coche va estropeado a velocidad anormalmente reducida y perturba gravemente la circulación, va por el arcén; en autopista, sale por la primera salida.",
+      "minuto": "15:48",
+      "veredicto": "matiz",
+      "lo_correcto": "Por el arcén derecho van, por razones de emergencia, los vehículos de hasta 3.500 kg de MMA que circulen a velocidad anormalmente reducida perturbando gravemente la circulación. En autopista o autovía, quien circule así por emergencia debe abandonarla por la primera salida. Las luces de emergencia se usan cuando no se alcanza la velocidad mínima y hay peligro de alcance.",
+      "fuente": "Reglamento General de Circulación, arts. 36.1, 38.2 y 49.3",
+      "norma": "RGC",
+      "cita": "deberá abandonarla por la primera salida.",
+      "preguntas_nuevas": [
+        "v5a-arc-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "bm13-0019"
+      ]
+    },
+    {
+      "id": "v5a-rev-0021",
+      "afirmacion_del_video": "Dentro de poblado, si los carriles no están delimitados, se circula por el derecho salvo que se vaya a girar inmediatamente a la izquierda.",
+      "minuto": "17:05",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El reglamento solo regula expresamente que, en poblado con dos o más carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino. Para el caso de carriles sin delimitar no hay una regla específica con esa excepción; rige la norma general de circular por la derecha.",
+      "fuente": "Reglamento General de Circulación, art. 33",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "arc-0015"
+      ]
+    },
+    {
+      "id": "v5a-rev-0013",
+      "afirmacion_del_video": "En calzadas de tres o más carriles, solo los camiones de más de 3.500 kg y los conjuntos de más de 7 m tienen prohibido usar el tercer carril para adelantar.",
+      "minuto": "18:02",
+      "veredicto": "matiz",
+      "lo_correcto": "Además de los camiones de más de 3.500 kg de MMA y los conjuntos de más de 7 m, la limitación al carril derecho y al inmediato afecta también a los furgones de más de 3.500 kg y a los vehículos especiales que no estén obligados a circular por el arcén.",
+      "fuente": "Reglamento General de Circulación, art. 31.2",
+      "norma": "RGC",
+      "cita": "los conductores de camiones o furgones con masa máxima autorizada superior a 3.500 kilogramos, los de vehículos especiales que no estén obligados a circular por el arcén",
+      "preguntas_nuevas": [
+        "v5a-car-0001",
+        "v5a-car-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "arc-0014"
+      ]
+    },
+    {
+      "id": "v5a-rev-0014",
+      "afirmacion_del_video": "En el carril VAO, el conductor de una motocicleta se puede meter solo aunque no lleve más ocupantes.",
+      "minuto": "23:44",
+      "veredicto": "error",
+      "lo_correcto": "Las motocicletas pueden usar el carril VAO, pero con el número mínimo de ocupantes fijado para el tramo. Solo pueden usarlo con el conductor solo los vehículos autorizados que lleven la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad, y los autobuses de más de 3.500 kg y articulados.",
+      "fuente": "Reglamento General de Circulación, art. 35.2.a",
+      "norma": "RGC",
+      "cita": "aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-cesp-0001",
+        "cesp-0007",
+        "cesp-0008"
+      ]
+    },
+    {
+      "id": "v5a-rev-0015",
+      "afirmacion_del_video": "La distancia frontal de seguridad será de dos o tres segundos.",
+      "minuto": "26:09",
+      "veredicto": "no_norma",
+      "lo_correcto": "El reglamento no fija segundos: exige dejar un espacio que permita detenerse en caso de frenado brusco sin colisionar, según velocidad, adherencia y frenado. Los «2 o 3 segundos» son una recomendación del manual de la DGT. Las cifras en segundos sí están fijadas para túneles (100 m o 4 s; 150 m o 6 s para más de 3.500 kg).",
+      "fuente": "Reglamento General de Circulación, art. 54.1 (recomendación del manual DGT)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-dist-0001",
+        "dist-0001",
+        "dist-0002"
+      ]
+    },
+    {
+      "id": "v5a-rev-0016",
+      "afirmacion_del_video": "Los vehículos de más de 3.500 kg tienen que dejar como mínimo 50 metros con el de delante, «nada de 2 o 3 segundos».",
+      "minuto": "26:25",
+      "veredicto": "matiz",
+      "lo_correcto": "Los 50 metros son la separación mínima que deben dejar, para que otros puedan adelantarles, los vehículos de más de 3.500 kg de MMA y los de más de 10 m de longitud que no van a adelantar. No se aplica en poblado, donde está prohibido adelantar, donde hay más de un carril en su sentido ni con circulación saturada.",
+      "fuente": "Reglamento General de Circulación, art. 54.2 y 54.3",
+      "norma": "RGC",
+      "cita": "Los vehículos con masa máxima autorizada superior a 3.500 kilogramos y los vehículos y conjuntos de vehículos de más de 10 metros de longitud total deberán guardar, a estos efectos, una separación mínima de 50 metros",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "dist-0003",
+        "dist-0004"
+      ]
+    },
+    {
+      "id": "v5a-rev-0018",
+      "afirmacion_del_video": "Con mercancías peligrosas hay que restar 10 km/h al límite genérico tanto fuera como dentro de poblado.",
+      "minuto": "32:10",
+      "veredicto": "matiz",
+      "lo_correcto": "Fuera de poblado se restan 10 km/h. Dentro de poblado la norma fija un máximo de 40 km/h en vías urbanas de dos o más carriles por sentido y en travesías; no hay otra reducción genérica para las demás vías urbanas.",
+      "fuente": "Reglamento General de Circulación, arts. 48.1.b y 50.4",
+      "norma": "RGC",
+      "cita": "En las vías urbanas a las que se refiere el apartado 1 c) y en travesías, los vehículos que transporten mercancías peligrosas circularán como máximo a 40 km/h.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "vel-0006",
+        "vel-0018"
+      ]
+    },
+    {
+      "id": "v5a-rev-0017",
+      "afirmacion_del_video": "Los ciclos, ciclomotores, triciclos ligeros y cuadriciclos ligeros van a 45 km/h como máximo.",
+      "minuto": "33:46",
+      "veredicto": "matiz",
+      "lo_correcto": "El límite fuera de poblado es 45 km/h para todos ellos, pero los ciclistas pueden superarlo en los tramos en que las circunstancias de la vía lo permitan.",
+      "fuente": "Reglamento General de Circulación, art. 48.1.e",
+      "norma": "RGC",
+      "cita": "No obstante, los conductores de bicicletas podrán superar dicha velocidad máxima en aquellos tramos en los que las circunstancias de la vía permitan desarrollar una velocidad superior.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-vel-0002",
+        "vel-0008"
+      ]
+    },
+    {
+      "id": "v5a-rev-0022",
+      "afirmacion_del_video": "Al girar a la izquierda hay que dejar pasar a los que vienen de frente porque, al girar, vienen por tu derecha.",
+      "minuto": "42:44",
+      "veredicto": "no_norma",
+      "lo_correcto": "La obligación de no girar a la izquierda cuando un vehículo que viene de frente está cerca existe, pero la explicación de que «viene por tu derecha» es un truco del profesor, no la regla del reglamento.",
+      "fuente": "Reglamento General de Circulación (maniobras de cambio de dirección)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-pri-0008"
+      ]
+    },
+    {
+      "id": "v5a-rev-0020",
+      "afirmacion_del_video": "Los vehículos prioritarios en servicio de urgencia «pueden hacer lo que quieran y meterse donde quieran» bajo su responsabilidad.",
+      "minuto": "46:03",
+      "veredicto": "matiz",
+      "lo_correcto": "Pueden dejar de cumplir normas de circulación solo tras cerciorarse de que no ponen en peligro a nadie, bajo su exclusiva responsabilidad, y nunca las órdenes y señales de los agentes, que son siempre obligatorias.",
+      "fuente": "Reglamento General de Circulación, art. 68.1",
+      "norma": "RGC",
+      "cita": "salvo las órdenes y señales de los agentes, que son siempre de obligado cumplimiento.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-urg-0002"
+      ]
+    },
+    {
+      "id": "v5a-rev-0019",
+      "afirmacion_del_video": "A los vehículos prioritarios en servicio de urgencia, con que vayan con las luces de urgencia encendidas ya les vale; la sirena es para cruces o atascos.",
+      "minuto": "46:19",
+      "veredicto": "matiz",
+      "lo_correcto": "Como regla general, el vehículo prioritario advierte usando a la vez la señal luminosa y la acústica especial; solo debe usar la luminosa sola cuando omitir la acústica no entrañe peligro para nadie.",
+      "fuente": "Reglamento General de Circulación, art. 68.2",
+      "norma": "RGC",
+      "cita": "deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno para los demás usuarios.",
+      "preguntas_nuevas": [
+        "v5a-pri-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "A-urg-0001"
+      ]
+    },
+    {
+      "id": "v5b-rev-0019",
+      "afirmacion_del_video": "Una moto que no va a alcanzar los 100 km/h tiene suficiente con el retrovisor izquierdo; si supera los 100 km/h necesita los dos.",
+      "minuto": "50:03",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto: en motocicletas con velocidad máxima de hasta 100 km/h es obligatorio el retrovisor exterior izquierdo y el derecho es optativo; por encima de 100 km/h los dos son obligatorios. No se ha creado pregunta nueva porque la cita de la tabla solo se encuentra en el texto con columnas del BOE y no pasa el comprobador del lote.",
+      "fuente": "Reglamento General de Vehículos, anexo III.3 (tabla)",
+      "norma": "RGV",
+      "cita": "cuatriciclosligeros conductor Si la velocidad máxima es menor o Motocicletas 1 oblig. 1 optativo igual de 100 Km/h",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-veh-0001"
+      ]
+    },
+    {
+      "id": "v5b-rev-0018",
+      "afirmacion_del_video": "Los espejos retrovisores exteriores son convexos y los interiores son planos.",
+      "minuto": "50:42",
+      "veredicto": "no_norma",
+      "lo_correcto": "Es una explicación general; la norma de vehículos no exige que todos los exteriores sean convexos (prevé retrovisores de clase II no convexos, que obligan a llevar además uno gran angular). No es materia de examen normativo.",
+      "fuente": "Reglamento General de Vehículos, anexo III.2, nota (3)",
+      "norma": "RGV",
+      "cita": "Los vehículos que lleven un retrovisor obligatorio de clase II que no sea convexo deberán llevar además obligatoriamente un retrovisor de la Clase IV en el mismo lado.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5b-rev-0004",
+      "afirmacion_del_video": "El que es adelantado debe ceñirse al borde derecho y mantener la velocidad constante.",
+      "minuto": "56:26",
+      "veredicto": "matiz",
+      "lo_correcto": "El adelantado debe ceñirse a la derecha y tiene prohibido aumentar la velocidad o dificultar el adelantamiento; debe reducirla si surge una situación de peligro.",
+      "fuente": "Reglamento General de Circulación, art. 86.1 y 86.2",
+      "norma": "RGC",
+      "cita": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento.",
+      "preguntas_nuevas": [
+        "v5b-adel-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0006",
+        "A-adel-0007"
+      ]
+    },
+    {
+      "id": "v5b-rev-0005",
+      "afirmacion_del_video": "Un vehículo voluminoso que va a ser adelantado tiene obligación de indicarnos con el intermitente derecho o con el brazo que podemos adelantarle.",
+      "minuto": "56:55",
+      "veredicto": "matiz",
+      "lo_correcto": "Solo lo indica cuando no puede ceñirse por completo al borde derecho y el adelantamiento puede hacerse con seguridad; lo hace con el brazo o, si no cree conveniente usar el brazo, con el intermitente derecho.",
+      "fuente": "Reglamento General de Circulación, art. 86.1",
+      "norma": "RGC",
+      "cita": "En el caso de que no sea posible ceñirse por completo al borde derecho de la calzada y, sin embargo, el adelantamiento pueda efectuarse con seguridad",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0008"
+      ]
+    },
+    {
+      "id": "v5b-rev-0003",
+      "afirmacion_del_video": "Se puede adelantar por la derecha a quien va a girar a la izquierda, dentro de poblado con carriles delimitados y a cualquiera que vaya por raíles (el tranvía).",
+      "minuto": "57:20",
+      "veredicto": "matiz",
+      "lo_correcto": "Se adelanta por la derecha al que indica que va a girar a la izquierda o a parar en ese lado (si hay espacio), en poblado con al menos dos carriles por sentido delimitados, y a los tranvías que marchen por la zona central en vías de doble sentido; no a cualquier vehículo que vaya por raíles.",
+      "fuente": "Reglamento General de Circulación, art. 82.2 y 82.3",
+      "norma": "RGC",
+      "cita": "así como, en las vías con circulación en ambos sentidos, a los tranvías que marchen por la zona central",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0009",
+        "A-adel-0010",
+        "A-adel-0011"
+      ]
+    },
+    {
+      "id": "v5b-rev-0006",
+      "afirmacion_del_video": "Solo fuera de poblado, en carretera de un carril por sentido donde se puede adelantar, hay que dejar la distancia proporcional y «un poquito más» para facilitar que te adelanten.",
+      "minuto": "59:04",
+      "veredicto": "matiz",
+      "lo_correcto": "Es correcto que esa separación extra no se exige en poblado, donde está prohibido adelantar ni donde hay más de un carril por sentido; tampoco con circulación saturada. Para vehículos de más de 3.500 kg o más de 10 m de longitud la norma fija un mínimo de 50 metros.",
+      "fuente": "Reglamento General de Circulación, art. 54.2 y 54.3",
+      "norma": "RGC",
+      "cita": "deberán guardar, a estos efectos, una separación mínima de 50 metros",
+      "preguntas_nuevas": [
+        "v5b-dist-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "dist-0003",
+        "dist-0004"
+      ]
+    },
+    {
+      "id": "v5b-rev-0007",
+      "afirmacion_del_video": "Con línea continua puedo pisarla para adelantar a ciclistas, peatones, ciclomotores, animales de montura o vehículos de tracción animal si tengo visibilidad.",
+      "minuto": "1:00:41",
+      "veredicto": "matiz",
+      "lo_correcto": "En un tramo con adelantamiento prohibido se puede ocupar el sentido contrario para adelantar a bicicletas y demás ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas, si por su velocidad puede hacerse sin riesgo y tras comprobar que no hay peligro.",
+      "fuente": "Reglamento General de Circulación, art. 88.2",
+      "norma": "RGC",
+      "cita": "Con idénticos requisitos se podrá adelantar a conductores de bicicletas y demás ciclos, ciclomotores, vehículos de movilidad personal, peatones, animales",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0015",
+        "A-adel-0016"
+      ]
+    },
+    {
+      "id": "v5b-rev-0001",
+      "afirmacion_del_video": "Está prohibido adelantar en los pasos para peatones y sus proximidades, salvo que lo hagas tan despacio que puedas parar si viene un peatón; lo mismo en los pasos para ciclistas.",
+      "minuto": "1:03:48",
+      "veredicto": "error",
+      "lo_correcto": "Está prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades, sin ninguna excepción por ir despacio.",
+      "fuente": "Reglamento General de Circulación, art. 87.1.b",
+      "norma": "RGC",
+      "cita": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
+      "preguntas_nuevas": [
+        "v5b-adel-0004"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0013"
+      ]
+    },
+    {
+      "id": "v5b-rev-0002",
+      "afirmacion_del_video": "En un túnel, por norma, está prohibido adelantar.",
+      "minuto": "1:04:05",
+      "veredicto": "matiz",
+      "lo_correcto": "Solo está prohibido adelantar en los túneles, pasos inferiores y tramos con la señal «Túnel» en los que haya un único carril para tu sentido. Con dos o más carriles en tu sentido se puede adelantar.",
+      "fuente": "Reglamento General de Circulación, art. 87.1.d",
+      "norma": "RGC",
+      "cita": "en los que sólo se disponga de un carril para el sentido de circulación del vehículo que pretende adelantar",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0014"
+      ]
+    },
+    {
+      "id": "v5b-rev-0008",
+      "afirmacion_del_video": "Los vehículos que tengan que ir por el arcén esperarán en el arcén para girar a la izquierda, no en el eje central.",
+      "minuto": "1:06:03",
+      "veredicto": "matiz",
+      "lo_correcto": "La norma solo lo establece para ciclos y ciclomotores de dos ruedas en vías interurbanas sin carril acondicionado para girar a la izquierda: se sitúan a la derecha, fuera de la calzada si es posible, e inician el giro desde allí.",
+      "fuente": "Reglamento General de Circulación, art. 76.2",
+      "norma": "RGC",
+      "cita": "los ciclos y ciclomotores de dos ruedas, si no existe un carril especialmente acondicionado para el giro a la izquierda, deberán situarse a la derecha",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-dir-0008"
+      ]
+    },
+    {
+      "id": "v5b-rev-0009",
+      "afirmacion_del_video": "El cambio de sentido está bien hecho si se hace de una sola maniobra; si tienes que parar y echar marcha atrás, no puedes hacerlo.",
+      "minuto": "1:07:13",
+      "veredicto": "no_norma",
+      "lo_correcto": "La norma no exige «una sola maniobra»: pide elegir un lugar adecuado para interceptar la vía el menor tiempo posible, avisar con antelación y no poner en peligro ni obstaculizar a nadie.",
+      "fuente": "Reglamento General de Circulación, art. 78.1",
+      "norma": "RGC",
+      "cita": "deberá elegir un lugar adecuado para efectuar la maniobra, de forma que se intercepte la vía el menor tiempo posible",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-sen-0001"
+      ]
+    },
+    {
+      "id": "v5b-rev-0010",
+      "afirmacion_del_video": "Está prohibido cambiar de sentido, igual que adelantar, en pasos para peatones, pasos para ciclistas, pasos a nivel y túneles.",
+      "minuto": "1:07:52",
+      "veredicto": "correcta",
+      "lo_correcto": "El art. 79 prohíbe el cambio de sentido en pasos a nivel, túneles y tramos con la señal «Túnel», en autopistas y autovías (salvo lugares habilitados) y, en general, en todos los tramos donde esté prohibido adelantar, salvo autorización expresa; los pasos para peatones quedan incluidos por esta última regla.",
+      "fuente": "Reglamento General de Circulación, art. 79.1",
+      "norma": "RGC",
+      "cita": "en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado",
+      "preguntas_nuevas": [
+        "v5b-sen-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "A-sen-0002",
+        "A-sen-0004"
+      ]
+    },
+    {
+      "id": "v5b-rev-0011",
+      "afirmacion_del_video": "En las glorietas partidas o raquetas el cambio de sentido se puede hacer de varias maneras y todas están bien.",
+      "minuto": "1:09:42",
+      "veredicto": "no_norma",
+      "lo_correcto": "El Reglamento no regula esas trayectorias concretas: depende de la señalización de cada intersección. En el examen, respeta las señales y marcas del esquema.",
+      "fuente": "Sin artículo específico",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5b-rev-0012",
+      "afirmacion_del_video": "La parada es de menos de 2 minutos sin abandonar el vehículo, pero eso no significa que no puedas salir del vehículo.",
+      "minuto": "1:11:02",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "La Ley define la parada como la inmovilización de menos de dos minutos «sin que el conductor pueda abandonarlo»; no aclara si bajarse junto al coche es abandonarlo. En el examen, quedarse con la definición literal.",
+      "fuente": "Ley de Tráfico, anexo I.81",
+      "norma": "LSV",
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-par-0001",
+        "A-par-0003"
+      ]
+    },
+    {
+      "id": "v5b-rev-0013",
+      "afirmacion_del_video": "En la entrada de un garaje (vado) no puedes estacionar, pero puedes hacer una parada.",
+      "minuto": "1:13:41",
+      "veredicto": "matiz",
+      "lo_correcto": "La señal de vado prohíbe estacionar, pero una parada que impida la utilización normal del vado se considera que obstaculiza gravemente la circulación (infracción grave).",
+      "fuente": "Reglamento General de Circulación, art. 91.2.c",
+      "norma": "RGC",
+      "cita": "Cuando se obstaculice la utilización normal del paso de salida o acceso a un inmueble de personas o animales, o de vehículos en un vado señalizado correctamente.",
+      "preguntas_nuevas": [
+        "v5b-par-0005"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "A-par-0014"
+      ]
+    },
+    {
+      "id": "v5b-rev-0016",
+      "afirmacion_del_video": "Encima de la acera no puedes ni parar ni estacionar.",
+      "minuto": "1:14:48",
+      "veredicto": "matiz",
+      "lo_correcto": "El Reglamento prohíbe expresamente estacionar sobre las aceras, paseos y zonas peatonales; la lista de lugares donde se prohíbe parar no las menciona expresamente, aunque los vehículos no deben circular por ellas.",
+      "fuente": "Reglamento General de Circulación, art. 94.2.e",
+      "norma": "RGC",
+      "cita": "Sobre las aceras, paseos y demás zonas destinadas al paso de peatones.",
+      "preguntas_nuevas": [
+        "v5b-par-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5b-rev-0014",
+      "afirmacion_del_video": "En doble fila se puede hacer una parada de menos de 2 minutos si quedan más de 3 m de anchura; estacionar no.",
+      "minuto": "1:15:47",
+      "veredicto": "correcta",
+      "lo_correcto": "El Reglamento prohíbe estacionar en doble fila y considera grave el estacionamiento en doble fila sin conductor; la parada en doble fila no figura entre los lugares donde está prohibido parar, siempre que quede una anchura libre de al menos 3 metros y no se cree peligro.",
+      "fuente": "Reglamento General de Circulación, arts. 91.2 y 94.2.g",
+      "norma": "RGC",
+      "cita": "Cuando el estacionamiento se efectúe en doble fila sin conductor.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-par-0013",
+        "A-par-0007"
+      ]
+    },
+    {
+      "id": "v5b-rev-0015",
+      "afirmacion_del_video": "En una parada de autobús no se puede estacionar, pero igual podríamos hacer una parada si no está señalizado.",
+      "minuto": "1:16:02",
+      "veredicto": "matiz",
+      "lo_correcto": "Está prohibido parar (y estacionar) en las zonas destinadas a parada de uso exclusivo del transporte público urbano.",
+      "fuente": "Reglamento General de Circulación, art. 94.1.i",
+      "norma": "RGC",
+      "cita": "En las zonas destinadas para estacionamiento y parada de uso exclusivo para el transporte público urbano.",
+      "preguntas_nuevas": [
+        "v5b-par-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5b-rev-0017",
+      "afirmacion_del_video": "Los vehículos pesados de más de 3.500 kg o los conjuntos de vehículos tienen que usar calzos al estacionar.",
+      "minuto": "1:18:03",
+      "veredicto": "matiz",
+      "lo_correcto": "La obligación de calzar es para vehículos de más de 3.500 kg, autobuses y conjuntos de vehículos cuando paran o estacionan en una sensible pendiente; se puede hacer con calzos (nunca piedras) o apoyando una rueda directriz en el bordillo.",
+      "fuente": "Reglamento General de Circulación, art. 92.3.d",
+      "norma": "RGC",
+      "cita": "y la parada o el estacionamiento se realice en un lugar con una sensible pendiente, su conductor deberá, además, dejarlo debidamente calzado",
+      "preguntas_nuevas": [
+        "v5b-par-0004"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "A-par-0019",
+        "A-par-0020",
+        "A-par-0021"
+      ]
+    },
+    {
+      "id": "v5c-rev-0016",
+      "afirmacion_del_video": "Truco: el amarillo intermitente es como si el semáforo estuviera apagado o estropeado; por eso con amarillo intermitente y STOP hay que hacer el STOP.",
+      "minuto": "1:21:27",
+      "veredicto": "no_norma",
+      "lo_correcto": "La respuesta es correcta, pero el motivo legal es otro: la luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso, y no exime de cumplir otras señales que obliguen a detenerse (como el STOP).",
+      "fuente": "Reglamento General de Circulación, anexo I, 4.2.d",
+      "norma": "RGC",
+      "cita": "obligan a los conductores a extremar la precaución y, en su caso, ceder el paso. Además, no eximen del cumplimiento de otras señales que obliguen a detenerse.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0006",
+        "B1-sen-0046"
+      ]
+    },
+    {
+      "id": "v5c-rev-0005",
+      "afirmacion_del_video": "(Vídeo de televisión) Con el brazo extendido, el agente actúa como barrera y solo deben detenerse los vehículos que se acerquen por ese carril.",
+      "minuto": "1:23:16",
+      "veredicto": "error",
+      "lo_correcto": "Con el brazo o los brazos extendidos horizontalmente deben detenerse todos los usuarios que se acerquen al agente desde direcciones que corten la indicada por los brazos, cualquiera que sea el sentido de su marcha. La señal sigue en vigor aunque baje los brazos si no cambia de posición.",
+      "fuente": "Reglamento General de Circulación, anexo I, 1.1.b",
+      "norma": "RGC",
+      "cita": "obliga a detenerse a todos los usuarios de la vía que se acerquen al agente desde direcciones que corten la indicada por el brazo o los brazos extendidos y cualquiera que sea el sentido de su marcha",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0016",
+        "B1-sen-0017"
+      ]
+    },
+    {
+      "id": "v5c-rev-0003",
+      "afirmacion_del_video": "Cuantos más paneles direccionales hay en una curva, más pronunciada y peligrosa es.",
+      "minuto": "1:25:43",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El Reglamento dice que los paneles direccionales permanentes marcan el trazado de la curva en relación con la reducción de velocidad necesaria e indican el sentido de circulación; no dice nada sobre el número de paneles.",
+      "fuente": "Reglamento General de Circulación, anexo I, 3.1.2.3º",
+      "norma": "RGC",
+      "cita": "Paneles direccionales permanentes: elementos cuya finalidad es la de marcar el trazado de una curva en relación con la reducción de velocidad que se tenga que realizar",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0031"
+      ]
+    },
+    {
+      "id": "v5c-rev-0004",
+      "afirmacion_del_video": "Con el verde intermitente del semáforo de peatones, si todavía no has empezado a cruzar ya no puedes pasar.",
+      "minuto": "1:26:34",
+      "veredicto": "matiz",
+      "lo_correcto": "La norma dice que el verde intermitente significa que el tiempo para terminar de atravesar la calzada está a punto de acabar y que se va a encender el rojo. No prohíbe expresamente empezar a cruzar, aunque lo prudente es no hacerlo.",
+      "fuente": "Reglamento General de Circulación, anexo I, 4.1.b",
+      "norma": "RGC",
+      "cita": "Cuando dicha luz pase a intermitente, significa que el tiempo de que aún disponen para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la luz roja.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0038"
+      ]
+    },
+    {
+      "id": "v5c-rev-0001",
+      "afirmacion_del_video": "Las dos luces rojas alternativamente intermitentes (paso temporalmente cerrado) solo están en los pasos a nivel.",
+      "minuto": "1:28:02",
+      "veredicto": "error",
+      "lo_correcto": "Dos luces rojas alternativamente intermitentes prohíben temporalmente el paso antes de un paso a nivel, pero también en la entrada a un puente móvil o a un pontón transbordador, cerca de una salida de vehículos de extinción de incendios o por la aproximación de una aeronave a baja altura.",
+      "fuente": "Reglamento General de Circulación, anexo I, 4.2.b",
+      "norma": "RGC",
+      "cita": "prohíben temporalmente el paso a los vehículos antes de un paso a nivel, una entrada a un puente móvil o a un pontón transbordador, en las proximidades de una salida de vehículos de extinción de incendios",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0044",
+        "B1-sen-0045"
+      ]
+    },
+    {
+      "id": "v5c-rev-0002",
+      "afirmacion_del_video": "Con rojo y flecha verde a la derecha, el coche que quiere seguir de frente puede quedarse esperando mientras no tenga a nadie detrás que quiera girar.",
+      "minuto": "1:29:13",
+      "veredicto": "error",
+      "lo_correcto": "Si al encenderse la flecha verde está en el carril reservado para ese giro, o en el que ese giro tiene que utilizar, debe avanzar en la dirección de la flecha, haya o no vehículos detrás.",
+      "fuente": "Reglamento General de Circulación, anexo I, 4.2.g",
+      "norma": "RGC",
+      "cita": "Cualquier vehículo que, al encenderse la flecha verde, se encuentre en un carril reservado exclusivamente para la circulación en la dirección y sentidos indicados por la flecha o que, sin estar reservado, sea el que esta circulación tenga que utilizar, deberá avanzar en dicha dirección y sentido.",
+      "preguntas_nuevas": [
+        "v5c-sem-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0049"
+      ]
+    },
+    {
+      "id": "v5c-rev-0006",
+      "afirmacion_del_video": "La señal de peligro con dos personas con bastón (P-21b) advierte de una zona frecuentada por personas mayores.",
+      "minuto": "1:36:35",
+      "veredicto": "error",
+      "lo_correcto": "La P-21b se llama «Personas con dificultades motrices» y advierte de un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal P-21b",
+      "norma": "RGC_CATALOGO",
+      "cita": "Peligro por la proximidad de un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+      "preguntas_nuevas": [
+        "v4a-sen-0006"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5c-rev-0007",
+      "afirmacion_del_video": "La nueva señal del animal salvaje significa peligro por «animales sin libertad» (así sale en la transcripción).",
+      "minuto": "1:37:03",
+      "veredicto": "error",
+      "lo_correcto": "La P-24 advierte del paso de animales EN libertad; la P-24a es la misma advertencia cuando se trata sobre todo de jabalíes.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales P-24 y P-24a",
+      "norma": "RGC_CATALOGO",
+      "cita": "Peligro por la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad, tratándose en una proporción muy significativa de jabalíes.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0088"
+      ]
+    },
+    {
+      "id": "v5c-rev-0011",
+      "afirmacion_del_video": "La señal R-105 es simplemente «entrada prohibida a ciclomotores».",
+      "minuto": "1:41:17",
+      "veredicto": "matiz",
+      "lo_correcto": "La R-105 prohíbe la entrada a ciclomotores y también a los vehículos para personas de movilidad reducida.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-105",
+      "norma": "RGC_CATALOGO",
+      "cita": "Prohibición de acceso a ciclomotores. Igualmente prohíbe la entrada a vehículos para personas de movilidad reducida.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0107"
+      ]
+    },
+    {
+      "id": "v5c-rev-0015",
+      "afirmacion_del_video": "La señal de prohibido pasar sin detenerse (R-200) solo está en los peajes o en los controles de policía.",
+      "minuto": "1:45:24",
+      "veredicto": "matiz",
+      "lo_correcto": "También se usa ante un puesto de aduana u otro puesto, según su inscripción. El conductor detenido no puede reanudar la marcha hasta haber cumplido lo que la señal establece.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-200",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica el lugar donde es obligatoria la detención por la proximidad, según la inscripción que contenga, de un puesto de aduana, de policía, de peaje u otro",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0011"
+      ]
+    },
+    {
+      "id": "v5c-rev-0009",
+      "afirmacion_del_video": "La señal de entrada prohibida a vehículos con remolque (R-112) no afecta a los semirremolques.",
+      "minuto": "1:45:37",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El catálogo vigente solo exceptúa expresamente los remolques de un solo eje; no menciona los semirremolques. En el examen, responde que la R-112 prohíbe la entrada a vehículos de motor con remolque, salvo los de un solo eje.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-112",
+      "norma": "RGC_CATALOGO",
+      "cita": "Prohibición de acceso a vehículos de motor con remolque exceptuando los de un solo eje.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0113"
+      ]
+    },
+    {
+      "id": "v5c-rev-0010",
+      "afirmacion_del_video": "Si la señal R-112 lleva «2 t», solo prohíbe el paso a los remolques que pesen más de 2 toneladas.",
+      "minuto": "1:47:15",
+      "veredicto": "matiz",
+      "lo_correcto": "Lo que cuenta es la masa máxima autorizada del remolque, no lo que pese en ese momento: la prohibición solo se aplica si la MMA del remolque supera la cifra.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-112",
+      "norma": "RGC_CATALOGO",
+      "cita": "significa que la prohibición de paso solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra.",
+      "preguntas_nuevas": [
+        "v4a-sen-0011"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5c-rev-0008",
+      "afirmacion_del_video": "La señal de adelantamiento prohibido para camiones (R-306) prohíbe adelantar a los camiones y furgonetas.",
+      "minuto": "1:48:42",
+      "veredicto": "error",
+      "lo_correcto": "La R-306 solo se dirige a los camiones de más de 3.500 kg de masa máxima autorizada; a ellos les prohíbe adelantar a vehículos a motor incluso sin invadir el sentido contrario.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-306",
+      "norma": "RGC_CATALOGO",
+      "cita": "Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kilogramos de adelantar a los vehículos a motor que circulen por la calzada",
+      "preguntas_nuevas": [
+        "v4a-sen-0017"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0124"
+      ]
+    },
+    {
+      "id": "v5c-rev-0018",
+      "afirmacion_del_video": "La señal de velocidad máxima deja de valer al encontrar una señal de fin, de fin de prohibiciones «o un límite mayor».",
+      "minuto": "1:49:09",
+      "veredicto": "matiz",
+      "lo_correcto": "La termina cualquier otra señal de velocidad máxima (mayor o menor), además de las de fin de limitación de velocidad y fin de prohibiciones. Si está en el mismo poste que una señal de peligro, termina al acabar el peligro.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-301",
+      "norma": "RGC_CATALOGO",
+      "cita": "Obliga desde el lugar en que esté situada hasta la próxima señal «Fin de limitación de velocidad», de «Fin de prohibiciones» u otra de «Velocidad máxima»",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0120",
+        "res-sen-0004"
+      ]
+    },
+    {
+      "id": "v5c-rev-0012",
+      "afirmacion_del_video": "La señal azul con un turismo (R-404) es «vía obligatoria para vehículos de motor».",
+      "minuto": "1:51:19",
+      "veredicto": "matiz",
+      "lo_correcto": "La R-404 es «calzada obligatoria para automóviles, excepto motocicletas de dos ruedas»: obliga a los automóviles, pero no a las motocicletas de dos ruedas ni a los vehículos de tres ruedas asimilados.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-404",
+      "norma": "RGC_CATALOGO",
+      "cita": "Obligación para los conductores de automóviles, excepto motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas, de circular por la calzada a cuya entrada esté situada.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0127"
+      ]
+    },
+    {
+      "id": "v5c-rev-0017",
+      "afirmacion_del_video": "Truco: las señales de obligación que excluyen a los demás usuarios son las de los usuarios que van despacio (ciclos, ciclomotores, peatones, VMP, VMP y ciclos, animales de montura).",
+      "minuto": "1:52:36",
+      "veredicto": "no_norma",
+      "lo_correcto": "El truco no es norma. Lo que cuenta es el texto de cada señal: R-407a, R-407b, R-409, R-410, R-420 y R-421 añaden «prohibición a los demás usuarios»; R-404, R-405, R-406, R-408, R-414 a R-416 y R-419 solo obligan a sus destinatarios y no prohíben la vía a los demás.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales R-404 a R-421",
+      "norma": "RGC_CATALOGO",
+      "cita": "Obligación para los conductores de ciclomotores de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla.",
+      "preguntas_nuevas": [
+        "v5c-obl-0001",
+        "v4a-sen-0027",
+        "v4a-sen-0026"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0129",
+        "B1-sen-0130",
+        "B1-sen-0131",
+        "B1-sen-0132",
+        "B1-sen-0133"
+      ]
+    },
+    {
+      "id": "v5c-rev-0013",
+      "afirmacion_del_video": "En una zona peatonal no pueden entrar vehículos de ningún tipo: solo pueden ir los peatones.",
+      "minuto": "2:01:14",
+      "veredicto": "matiz",
+      "lo_correcto": "La señal S-30a indica una zona reservada para el uso peatonal, pero los ciclistas pueden circular por las zonas peatonales que no sean aceras con las limitaciones que fije el ayuntamiento, y la ordenanza municipal puede autorizar también a los VMP, siempre respetando la prioridad de los peatones.",
+      "fuente": "Reglamento General de Circulación, art. 153.2 (y 152.1); catálogo, señal S-30a",
+      "norma": "RGC",
+      "cita": "pero sí por el resto de las zonas peatonales, con las limitaciones o restricciones que pueda establecer la Autoridad municipal, y respetando siempre la prioridad y la seguridad de los peatones en estas zonas.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-via-0012"
+      ]
+    },
+    {
+      "id": "v5c-rev-0014",
+      "afirmacion_del_video": "Con las señales de carriles con la cifra 70, si vas a adelantar por el carril central o el izquierdo tienes que hacerlo como mínimo a 70 km/h.",
+      "minuto": "2:05:39",
+      "veredicto": "matiz",
+      "lo_correcto": "La regla no se limita a adelantar: los carriles con la señal de velocidad mínima solo pueden usarlos los vehículos que circulen a esa velocidad o más, y si las circunstancias lo permiten se debe circular por el carril de la derecha.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-50a a S-50e",
+      "norma": "RGC_CATALOGO",
+      "cita": "Los carriles sobre los que está situada la señal de velocidad mínima solo podrán ser utilizados por los vehículos que circulen a velocidad igual o superior a la indicada",
+      "preguntas_nuevas": [
+        "v5c-car-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5d-rev-0001",
+      "afirmacion_del_video": "Las preseñalizaciones de área o zona de servicio y de vía de servicio en autopista se distinguen en 'con salida exclusiva' (sin nombre de población) y 'con salida compartida' (con el nombre de una población).",
+      "minuto": "2:13:45",
+      "veredicto": "matiz",
+      "lo_correcto": "El catálogo vigente (2025) ya no usa esa clasificación. Hay preseñalización de servicios en carretera convencional (S-261, fondo blanco) y en autopista o autovía (S-263, fondo azul): si los servicios están en una población puede figurar su nombre, y si están en una vía de servicio figura «vía de servicio». La preseñalización de área de servicio (S-271) es solo de autopista o autovía.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-261, S-263 y S-271",
+      "norma": "RGC_CATALOGO",
+      "cita": "Si estos se encuentran ubicados en una población, el nombre de la misma podrá figurar en la primera línea del cartel y si están emplazados en una vía de servicio figurará la inscripción",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5d-rev-0002",
+      "afirmacion_del_video": "En las señales de orientación en poblado, el color 'cardenal' (granate) indica iglesias, lugares culturales y monumentales (catedral, universidad), y el gris, las zonas industriales.",
+      "minuto": "2:19:28",
+      "veredicto": "error",
+      "lo_correcto": "En el catálogo vigente no hay señales granates ni grises. Monumentos, castillos, museos y lugares geográficos o ecológicos van en marrón (S-730); los lugares de interés cultural (universidades, teatros, bibliotecas: S-740) y las zonas industriales (S-750) van en blanco con letras negras. Amarillo (viajeros, S-710), naranja (deportivo, S-720), verde (calles, S-700) y azul (autopistas, S-760) sí son como dice el vídeo.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-730, S-740 y S-750 (pág. 190 del PDF, colores comprobados en la imagen)",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica lugares de tipo geográfico, de interés ecológico o de interés monumental, histórico o artístico tales como monumentos, castillos, monasterios, museos, palacios, etc.",
+      "preguntas_nuevas": [
+        "v5d-sen-0003",
+        "v4b-sen-0027"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5d-rev-0003",
+      "afirmacion_del_video": "Un panel con «3 m» bajo la señal de estrechamiento no indica que el peligro empiece a 3 m, sino que como mínimo quedan 3 m de anchura.",
+      "minuto": "2:20:37",
+      "veredicto": "correcta",
+      "lo_correcto": "Es correcto: el panel S-800 indica la distancia hasta el comienzo del peligro, pero bajo una señal de estrechamiento de calzada puede indicar la anchura libre del estrechamiento.",
+      "fuente": "Catálogo de señales (RGC anexo I), panel S-800",
+      "norma": "RGC_CATALOGO",
+      "cita": "En el caso de que esté colocada bajo la señal de advertencia de peligro por estrechamiento de calzada, puede indicar la anchura libre del citado estrechamiento.",
+      "preguntas_nuevas": [
+        "v4b-sen-0029"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5d-rev-0004",
+      "afirmacion_del_video": "La doble línea continua significa lo mismo que la continua, solo que siempre separa los dos sentidos de circulación.",
+      "minuto": "2:24:00",
+      "veredicto": "matiz",
+      "lo_correcto": "La norma solo dice que la doble línea continua tiene el mismo significado que una línea continua sencilla; no dice que siempre separe sentidos. Para el examen: doble continua = continua (no se puede atravesar ni circular sobre ella).",
+      "fuente": "Reglamento General de Circulación, anexo I, marcas viales 4.1 (M-2.1 a M-2.3)",
+      "norma": "RGC",
+      "cita": "Una marca longitudinal constituida por dos líneas continuas y paralelas tiene el mismo significado que la formada por una sola línea continua.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-mv-0018"
+      ]
+    },
+    {
+      "id": "v5d-rev-0005",
+      "afirmacion_del_video": "Una línea continua (o discontinua) más ancha de lo normal indica un carril especial, como un carril de aceleración o un carril bus.",
+      "minuto": "2:24:05",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El texto del Reglamento describe estas marcas por su función (separar cuñas de cambio de velocidad, carriles de trenzado o carriles para determinados vehículos: M-1.6, M-1.7 y M-2.4), no por su anchura. Puede ser útil para reconocerlas, pero no lo estudies como regla.",
+      "fuente": "Reglamento General de Circulación, anexo I, marcas viales 4.1",
+      "norma": "RGC",
+      "cita": "Separación de carriles o cuñas de cambio de velocidad, carriles de trenzado o carriles especializados (M-2.4)",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5d-rev-0006",
+      "afirmacion_del_video": "Si el carril bus está separado por línea discontinua, puedes entrar en él solo para girar a la derecha, no para seguir de frente.",
+      "minuto": "2:24:54",
+      "veredicto": "matiz",
+      "lo_correcto": "La norma dice que, cuando una marca discontinua separa un carril para determinados vehículos (autobuses, taxis...), los demás pueden usarlo para realizar determinadas maniobras permitidas (por ejemplo, girar). No se puede usar para circular por él.",
+      "fuente": "Reglamento General de Circulación, anexo I, marcas viales 4.1 (M-1.7)",
+      "norma": "RGC",
+      "cita": "pudiendo utilizar los demás vehículos el carril reservado para realizar determinadas maniobras permitidas",
+      "preguntas_nuevas": [
+        "v5d-mv-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5d-rev-0007",
+      "afirmacion_del_video": "Las luces largas son obligatorias si se va a más de 40 km/h fuera de poblado, y dentro de poblado no se pueden usar.",
+      "minuto": "2:36:55",
+      "veredicto": "matiz",
+      "lo_correcto": "Las largas son obligatorias a más de 40 km/h fuera de poblado de noche (o en túneles) solo en vías insuficientemente iluminadas, salvo que haya que usar las de cruce para no deslumbrar. En poblado, el Reglamento obliga a llevar las de cruce (también cuando la vía está insuficientemente iluminada).",
+      "fuente": "Reglamento General de Circulación, arts. 100.1 y 101.1",
+      "norma": "RGC",
+      "cita": "Igualmente, llevará encendido dicho alumbrado en los poblados, cuando la vía esté insuficientemente iluminada.",
+      "preguntas_nuevas": [
+        "v5d-luz-0001",
+        "v5d-luz-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "C-luc-0003",
+        "C-luc-0019"
+      ]
+    },
+    {
+      "id": "v5d-rev-0008",
+      "afirmacion_del_video": "En una curva, el que va por el interior debe quitar primero las luces largas, porque es el primero que deslumbra.",
+      "minuto": "2:37:30",
+      "veredicto": "no_norma",
+      "lo_correcto": "Es una explicación del profesor. La norma obliga a cada conductor a cambiar a las de cruce tan pronto como aprecie que puede deslumbrar a otro usuario, aunque el otro no lo haga (RGC art. 102.1); no establece quién debe hacerlo primero en una curva.",
+      "fuente": "Reglamento General de Circulación, art. 102.1",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-luc-0005"
+      ]
+    },
+    {
+      "id": "v5d-rev-0010",
+      "afirmacion_del_video": "La antiniebla delantera se puede usar en una calzada estrecha, de menos de 6,5 m, con muchas curvas señalizadas.",
+      "minuto": "2:39:23",
+      "veredicto": "matiz",
+      "lo_correcto": "La calzada debe tener 6,50 m de anchura o menos (también exactamente 6,50 m) y estar señalizada con señales de sucesión de curvas próximas.",
+      "fuente": "Reglamento General de Circulación, art. 106.2",
+      "norma": "RGC",
+      "cita": "teniendo una calzada de 6,50 metros de anchura o inferior",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-luc-0015"
+      ]
+    },
+    {
+      "id": "v5d-rev-0009",
+      "afirmacion_del_video": "La antiniebla delantera es voluntaria y la trasera es obligatoria; y, a la vez, que con niebla densa o lluvia muy intensa 'puedo, no tengo que' ponerla.",
+      "minuto": "2:40:01",
+      "veredicto": "matiz",
+      "lo_correcto": "Con niebla, lluvia intensa, nevada o humo se debe usar la antiniebla delantera o la luz de corto o largo alcance (la delantera es una opción). La antiniebla trasera solo debe encenderse en condiciones especialmente desfavorables (niebla espesa, lluvia muy intensa, fuerte nevada, nubes densas de polvo o humo) y en ese caso es obligatoria.",
+      "fuente": "Reglamento General de Circulación, art. 106.2",
+      "norma": "RGC",
+      "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones meteorológicas o ambientales sean especialmente desfavorables",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-luc-0014",
+        "C-luc-0016",
+        "C-luc-0017",
+        "res-luc-0002"
+      ]
+    },
+    {
+      "id": "v5d-rev-0011",
+      "afirmacion_del_video": "Dentro de poblado pueden ir sin cinturón los distribuidores de mercancías en tramos cortos, los taxistas de servicio y los profesores de autoescuela dando clase.",
+      "minuto": "2:42:17",
+      "veredicto": "error",
+      "lo_correcto": "El Reglamento vigente ya no recoge esas exenciones. Solo pueden ir sin cinturón: el conductor al hacer la maniobra de marcha atrás o de estacionamiento, quien tenga un certificado de exención por razones médicas graves o discapacidad, y los ocupantes de vehículos en servicio de urgencia en poblado (más los pasajeros que atienden al paciente en ambulancias asistenciales). Repartidores, taxistas y profesores deben llevarlo.",
+      "fuente": "Reglamento General de Circulación, art. 119",
+      "norma": "RGC",
+      "cita": "1. No obstante lo dispuesto en el artículo 117, podrán circular sin los cinturones u otros sistemas de retención homologados:",
+      "preguntas_nuevas": [
+        "v5d-cin-0001",
+        "v5d-cin-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "C-per-0009"
+      ]
+    },
+    {
+      "id": "v5d-rev-0013",
+      "afirmacion_del_video": "Camiones y furgonetas pueden medir como mucho 2,55 m de ancho (en un momento dice '2,5').",
+      "minuto": "2:46:32",
+      "veredicto": "correcta",
+      "lo_correcto": "La anchura máxima autorizada, como regla general, es 2,55 m. No se ha creado pregunta porque la cifra solo aparece separada de su texto en la tabla del BOE y el comprobador no puede validar la cita.",
+      "fuente": "Reglamento General de Vehículos, anexo IX, apartado 3.1, tabla 3",
+      "norma": "RGV",
+      "cita": "La anchura máxima autorizada, como regla general.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-car-0001",
+        "res-car-0002"
+      ]
+    },
+    {
+      "id": "v5d-rev-0012",
+      "afirmacion_del_video": "En un camión de 10 m la carga solo puede sobresalir 2 m por detrás (no 3), porque el camión con la carga no puede pasar de 12 m; en uno de 12 m no puede sobresalir nada.",
+      "minuto": "2:48:44",
+      "veredicto": "error",
+      "lo_correcto": "El art. 15.2 del RGC permite a los vehículos de mercancías de más de 5 m que las cargas de longitud indivisible (vigas, postes, tubos) sobresalgan 3 m por detrás. Además, el RGV permite que los vehículos que transportan vigas, tubos o barras rebasen en 150 cm su longitud máxima, así que el cálculo del vídeo no es seguro. En el examen, responde 3 m por detrás (2 m por delante) para cualquier vehículo de mercancías de más de 5 m.",
+      "fuente": "Reglamento General de Circulación, art. 15.2; Reglamento General de Vehículos, anexo IX, tabla 3, nota (5)",
+      "norma": "RGV",
+      "cita": "(5) Los vehículos o conjuntos de vehículos que transporten barras metálicas, vigas, tubos o elementos longitudinales de similar forma, como conjunto de elementos indivisibles que solo superan como dimensión máxima permitida la longitud, podrán rebasar en 150 cm la longitud que les corresponda.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-car-0008"
+      ]
+    },
+    {
+      "id": "v5d-rev-0014",
+      "afirmacion_del_video": "Desde el 1 de enero de 2026 los triángulos ya no se pueden llevar; hay que sustituirlos por la V-16.",
+      "minuto": "2:53:09",
+      "veredicto": "matiz",
+      "lo_correcto": "Lo que establece la norma es que la dotación obligatoria del turismo incluye el dispositivo luminoso V-16, que es el dispositivo de preseñalización de peligro reglamentario. Las fuentes no dicen que esté prohibido llevar triángulos en el coche; simplemente ya no sirven como preseñalización reglamentaria.",
+      "fuente": "Reglamento General de Vehículos, anexo XII, 1.a)",
+      "norma": "RGV",
+      "cita": "a) El dispositivo luminoso de preseñalización de peligro V-16.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-acc-0010"
+      ]
+    },
+    {
+      "id": "v5d-rev-0015",
+      "afirmacion_del_video": "Los vehículos voluminosos tienen que llevar unas pegatinas que avisan de sus ángulos muertos.",
+      "minuto": "2:53:30",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Esas pegatinas no figuran entre las señales en los vehículos del anexo XI del Reglamento General de Vehículos (V-1 a V-27). La idea de no situarse junto a un vehículo grande por sus ángulos muertos es un buen consejo, pero no la estudies como señal obligatoria.",
+      "fuente": "Reglamento General de Vehículos, anexo XI (consultado entero)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5d-rev-0016",
+      "afirmacion_del_video": "Con la ITV desfavorable tienes 15 días (o dos meses, según la comunidad autónoma) para reparar y volver; con la negativa también 15 días, y el coche sale en grúa.",
+      "minuto": "2:57:50",
+      "veredicto": "error",
+      "lo_correcto": "En ambos casos el plazo para volver a la ITV es de dos meses como máximo, contados desde la primera inspección. Con la desfavorable (defectos graves) solo puede circular para ir al taller y volver a la ITV; con la negativa (defectos muy graves) el traslado se hace por medios ajenos al vehículo, como una grúa.",
+      "fuente": "Real Decreto 920/2017 (ITV), art. 11.2 y 11.3",
+      "norma": "ITV",
+      "cita": "no superior a dos meses, contados desde la primera inspección técnica desfavorable.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-itv-0004",
+        "res-itv-0005"
+      ]
+    },
+    {
+      "id": "v5d-rev-0017",
+      "afirmacion_del_video": "La tarjeta de la ITV es obligatoria para los ciclomotores, todos los vehículos a motor y los remolques ligeros y pesados.",
+      "minuto": "2:59:42",
+      "veredicto": "error",
+      "lo_correcto": "Los ciclomotores no llevan tarjeta ITV, sino certificado de características técnicas (y licencia de circulación en lugar de permiso de circulación). Para los demás vehículos a motor y los remolques sí es correcto.",
+      "fuente": "Reglamento General de Vehículos, art. 26.1.b",
+      "norma": "RGV",
+      "cita": "b) La tarjeta de inspección técnica o el certificado de características técnicas en el supuesto de ciclomotores.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-doc-0004"
+      ]
+    },
+    {
+      "id": "v5d-rev-0018",
+      "afirmacion_del_video": "La aplicación miDGT con el permiso digital es igual de válida que el carné físico ante la policía.",
+      "minuto": "3:03:28",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Ninguna de las normas consultadas (RGCOND, LSV, RGV) regula la aplicación miDGT, así que no se puede confirmar ni desmentir con estas fuentes. Es poco probable que el examen lo pregunte.",
+      "fuente": "Reglamento General de Conductores y Ley de Tráfico (búsqueda sin resultados)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5e-rev-0006",
+      "afirmacion_del_video": "El permiso D1 es para autobuses de hasta 17 plazas.",
+      "minuto": "3:05:14",
+      "veredicto": "matiz",
+      "lo_correcto": "El D1 autoriza vehículos para no más de 16 pasajeros además del conductor (17 plazas en total) y con una longitud máxima de 8 metros.",
+      "fuente": "Reglamento General de Conductores, art. 4.2 (clase D1)",
+      "norma": "RGCOND",
+      "cita": "Automóviles diseñados y construidos para el transporte de no más de dieciséis pasajeros además del conductor y cuya longitud máxima no exceda de ocho metros",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-perm-0014"
+      ]
+    },
+    {
+      "id": "v5e-rev-0013",
+      "afirmacion_del_video": "Con un remolque de más de 750 kg basta el permiso B si el conjunto no supera 3.500 kg; hasta 4.250 kg hace falta además la autorización «B96»; por encima, el B+E.",
+      "minuto": "3:06:53",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto: el permiso B autoriza conjuntos con remolque de más de 750 kg hasta 4.250 kg, pero si el conjunto supera 3.500 kg hay que superar una prueba específica (o formación), el llamado código 96. Por encima, B+E (remolque de hasta 3.500 kg).",
+      "fuente": "Reglamento General de Conductores, arts. 4.2 (clase B) y 5.5",
+      "norma": "RGCOND",
+      "cita": "en el caso de que el conjunto así formado exceda de 3.500 kg, será necesario superar la prueba de control de aptitudes y comportamientos",
+      "preguntas_nuevas": [
+        "v5e-perm-0003"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "C-perm-0004",
+        "C-perm-0005",
+        "C-perm-0006"
+      ]
+    },
+    {
+      "id": "v5e-rev-0001",
+      "afirmacion_del_video": "El curso de recuperación parcial de puntos dura 10 horas, no tiene examen y permite recuperar como mucho 4 puntos.",
+      "minuto": "3:11:08",
+      "veredicto": "error",
+      "lo_correcto": "La Ley de Tráfico (que manda sobre la Orden de cursos) permite recuperar hasta 6 puntos, una vez cada dos años (cada año los profesionales), con cursos de 15 horas como máximo; la Orden fija 12 horas. No hay prueba final, pero hay que superarlo con aprovechamiento. Y nunca se recuperan más puntos de los perdidos.",
+      "fuente": "Ley de Tráfico (RDL 6/2015), art. 65.4; Orden INT/2596/2005, apartados tercero y cuarto",
+      "norma": "LSV",
+      "cita": "podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años",
+      "preguntas_nuevas": [
+        "v5e-pun-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "C-pun-0005",
+        "C-pun-0006",
+        "C-pun-0008",
+        "res-pun-0001"
+      ]
+    },
+    {
+      "id": "v5e-rev-0003",
+      "afirmacion_del_video": "Un novel con 8 puntos que pierde 2 y hace el curso parcial recupera 2 «porque su tope es 8».",
+      "minuto": "3:11:38",
+      "veredicto": "matiz",
+      "lo_correcto": "El resultado (2 puntos) es correcto, pero la regla es que con el curso nunca se recuperan más puntos de los que se han perdido; no es una cuestión de «tope» distinto.",
+      "fuente": "Orden INT/2596/2005, apartado tercero, letra a)",
+      "norma": "OCURSOS",
+      "cita": "sin que en ningún caso se puedan recuperar más puntos de los que se hubieran perdido",
+      "preguntas_nuevas": [
+        "v5e-pun-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5e-rev-0004",
+      "afirmacion_del_video": "Tras perder todos los puntos hay que esperar 6 meses (3 los profesionales) si es la primera vez, y puede ser más si no es la primera vez.",
+      "minuto": "3:12:17",
+      "veredicto": "correcta",
+      "lo_correcto": "Si se vuelven a perder todos los puntos en los tres años siguientes a obtener el nuevo permiso, el plazo es de 12 meses (6 meses para los profesionales).",
+      "fuente": "Ley de Tráfico (RDL 6/2015), art. 71.1",
+      "norma": "LSV",
+      "cita": "no se podrá obtener un nuevo permiso o licencia de conducción hasta transcurridos doce meses desde la notificación del acuerdo",
+      "preguntas_nuevas": [
+        "v5e-pun-0003"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "C-pun-0009",
+        "C-pun-0010"
+      ]
+    },
+    {
+      "id": "v5e-rev-0002",
+      "afirmacion_del_video": "El curso de recuperación total del permiso (tras perder todos los puntos) dura 20 horas, el doble que el parcial.",
+      "minuto": "3:12:30",
+      "veredicto": "error",
+      "lo_correcto": "El curso de recuperación del permiso dura 24 horas (el parcial, 12). Después hay que aprobar la prueba de control de conocimientos en Tráfico.",
+      "fuente": "Orden INT/2596/2005 (cursos de sensibilización y reeducación vial), apartado cuarto",
+      "norma": "OCURSOS",
+      "cita": "Estos cursos tendrán una duración de veinticuatro horas",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "res-pun-0002",
+        "C-pun-0011"
+      ]
+    },
+    {
+      "id": "v5e-rev-0005",
+      "afirmacion_del_video": "Si te sacas hoy el permiso y no cometes infracciones, dentro de 8 años tendrás 15 puntos (2 años hasta 12, 3 más hasta 14 y 3 más hasta 15).",
+      "minuto": "3:13:28",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Lo examinable es la regla de la Ley: quien mantiene todos sus puntos recibe 2 de bonificación por los tres primeros años y 1 por los tres siguientes, con un máximo de 15. La Ley no detalla cómo se encadenan esos plazos con los dos años del novel, así que el cálculo de «8 años» no debe darse por seguro.",
+      "fuente": "Ley de Tráfico (RDL 6/2015), art. 63.4",
+      "norma": "LSV",
+      "cita": "recibirán como bonificación dos puntos durante los tres primeros años y un punto por los tres siguientes",
+      "preguntas_nuevas": [
+        "v5e-pun-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "C-pun-0014",
+        "C-pun-0015"
+      ]
+    },
+    {
+      "id": "v5e-rev-0010",
+      "afirmacion_del_video": "El alcohol lo elimina el hígado; por el sudor y la orina se elimina como mucho el 10 %, así que el ejercicio, el café, el chicle o beber agua no bajan la tasa.",
+      "minuto": "3:33:52",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "La idea de fondo (los «trucos» no bajan la tasa) es razonable, pero ni la norma ni el manual DGT recogen el dato del 10 % ni el papel del hígado. No se ha hecho pregunta.",
+      "fuente": "No figura en las fuentes consultadas (LSV, RGC, manual DGT)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5e-rev-0009",
+      "afirmacion_del_video": "Los peatones solo están obligados a las pruebas de alcoholemia si están implicados en un accidente.",
+      "minuto": "3:35:11",
+      "veredicto": "error",
+      "lo_correcto": "Los usuarios de la vía que no son conductores (como los peatones) están obligados cuando están implicados en un accidente y también cuando han cometido una infracción. Los conductores de cualquier vehículo, bicicletas incluidas, siempre.",
+      "fuente": "Ley de Tráfico (RDL 6/2015), art. 14.2",
+      "norma": "LSV",
+      "cita": "Igualmente quedan obligados los demás usuarios de la vía cuando se hallen implicados en un accidente de tráfico o hayan cometido una infracción conforme a lo tipificado en esta ley.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "D-alc-0007",
+        "D-alc-0008",
+        "D-alc-0009"
+      ]
+    },
+    {
+      "id": "v5e-rev-0011",
+      "afirmacion_del_video": "El aparato de control de drogas distingue más de una docena de drogas y detecta consumos de más de 72 horas.",
+      "minuto": "3:38:46",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "La Ley solo dice que la prueba de drogas es salival, con un dispositivo autorizado y un análisis posterior de la muestra; no da número de sustancias ni horas de detección. Lo examinable es que está prohibido conducir con presencia de drogas en el organismo.",
+      "fuente": "Ley de Tráfico (RDL 6/2015), art. 14.3",
+      "norma": "LSV",
+      "cita": "para la detección de la presencia de drogas en el organismo, en una prueba salival mediante un dispositivo autorizado y en un posterior análisis de una muestra salival en cantidad suficiente",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "D-dro-0001",
+        "D-dro-0004"
+      ]
+    },
+    {
+      "id": "v5e-rev-0007",
+      "afirmacion_del_video": "Superar el límite en 60 km/h en vía urbana (80 en interurbana) es delito: el juez te quitará el carné «unos meses» y, si tienes antecedentes, vas a la cárcel.",
+      "minuto": "3:39:30",
+      "veredicto": "error",
+      "lo_correcto": "El delito se castiga con prisión de 3 a 6 meses, o multa, o trabajos en beneficio de la comunidad, y siempre con la privación del derecho a conducir de más de 1 año y hasta 4 años. El Código Penal no dice que la prisión dependa de tener antecedentes.",
+      "fuente": "Código Penal, art. 379.1",
+      "norma": "CP",
+      "cita": "y, en cualquier caso, con la de privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a uno y hasta cuatro años",
+      "preguntas_nuevas": [
+        "v5e-del-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "bmp-0001",
+        "bmp-0002"
+      ]
+    },
+    {
+      "id": "v5e-rev-0008",
+      "afirmacion_del_video": "Negarse a las pruebas de alcohol o drogas te lleva ante el juez y «seguramente te ponga más multa».",
+      "minuto": "3:40:40",
+      "veredicto": "error",
+      "lo_correcto": "La negativa a someterse a las pruebas es un delito castigado con prisión de seis meses a un año y privación del derecho a conducir de más de uno y hasta cuatro años; no es una multa.",
+      "fuente": "Código Penal, art. 383",
+      "norma": "CP",
+      "cita": "será castigado con la penas de prisión de seis meses a un año y privación del derecho a conducir vehículos a motor y ciclomotores",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "bmp-0005"
+      ]
+    },
+    {
+      "id": "v5e-rev-0012",
+      "afirmacion_del_video": "Un neumático con poca presión se desgasta sobre todo por los laterales.",
+      "minuto": "3:45:11",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El manual DGT dice que con presión menor de la recomendada el neumático se calienta, se deforma y se desgasta antes (y que el desgaste por el centro es propio del exceso de presión); no precisa la zona de desgaste por falta de presión.",
+      "fuente": "Manual DGT permiso B (lectura fácil), tema 5, presión de inflado",
+      "norma": "MANUAL_DGT",
+      "cita": "Presión de inflado menor a la recomendada El neumático se calienta, se deforma y se desgasta antes.",
+      "preguntas_nuevas": [
+        "v5e-neu-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "E-neu-0004"
+      ]
+    },
+    {
+      "id": "v5f-rev-0017",
+      "afirmacion_del_video": "Todos los cristales del vehículo son templados y laminados.",
+      "minuto": "3:50:26",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Las fuentes consultadas no describen cómo son los cristales; no se crea pregunta.",
+      "fuente": "Sin fuente en las normas consultadas",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5f-rev-0023",
+      "afirmacion_del_video": "El airbag solo no vale para nada; es un complemento del cinturón.",
+      "minuto": "3:51:41",
+      "veredicto": "matiz",
+      "lo_correcto": "El airbag protege por sí mismo (frena el cuerpo y evita golpes violentos), pero hay que llevar siempre el cinturón, también para que el impacto contra el airbag sea menor.",
+      "fuente": "Manual DGT, Tema 5, Los airbags (pág. 114)",
+      "norma": "MANUAL_DGT",
+      "cita": "Usa siempre el cinturón de seguridad para que el impacto contra el airbag sea menor.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-pas-0005"
+      ]
+    },
+    {
+      "id": "v5f-rev-0001",
+      "afirmacion_del_video": "El reposacabezas debe estar más o menos a la altura de los ojos.",
+      "minuto": "3:53:22",
+      "veredicto": "error",
+      "lo_correcto": "La parte de arriba del reposacabezas debe quedar a la misma altura que la parte de arriba de la cabeza (no de los ojos), y a 4 cm o menos de la cabeza.",
+      "fuente": "Manual DGT, Tema 5, El reposacabezas (pág. 115)",
+      "norma": "MANUAL_DGT",
+      "cita": "La parte de arriba del reposacabezas debe estar a la misma altura que la parte de arriba de tu cabeza.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-pas-0011",
+        "E-pas-0010"
+      ]
+    },
+    {
+      "id": "v5f-rev-0022",
+      "afirmacion_del_video": "El casco (de moto) es el casco integral.",
+      "minuto": "3:53:34",
+      "veredicto": "matiz",
+      "lo_correcto": "La norma exige casco homologado (Reglamento UNECE R22) y abrochado en todo tipo de vías; el integral es el modelo que recomienda la DGT, no el único legal.",
+      "fuente": "Reglamento General de Circulación, art. 118.1.a",
+      "norma": "RGC",
+      "cita": "Cascos de protección homologados conforme al Reglamento UNECE R22, adecuadamente abrochados, cuando circulen en todo tipo de vías.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-pas-0014"
+      ]
+    },
+    {
+      "id": "v5f-rev-0021",
+      "afirmacion_del_video": "Las bicis llevan casco siempre fuera de poblado; dentro solo es recomendable.",
+      "minuto": "3:53:47",
+      "veredicto": "matiz",
+      "lo_correcto": "El casco en bicicleta es obligatorio en vías interurbanas y, para los menores de 16 años, en todo tipo de vías; también en vías urbanas y travesías para quien circula en bici por motivos profesionales.",
+      "fuente": "Reglamento General de Circulación, art. 118.2",
+      "norma": "RGC",
+      "cita": "siendo obligatorio su uso por los menores de dieciséis años en todo tipo de vías.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-per-0013",
+        "E-pas-0016"
+      ]
+    },
+    {
+      "id": "v5f-rev-0016",
+      "afirmacion_del_video": "Además de seguridad activa y pasiva existe la «seguridad preventiva» (lavaparabrisas, luneta térmica, ergonomía).",
+      "minuto": "3:54:26",
+      "veredicto": "no_norma",
+      "lo_correcto": "El manual DGT solo distingue seguridad activa (evitar el accidente) y pasiva (reducir sus daños). Lavaparabrisas y luneta térmica aparecen como elementos de visibilidad; la «seguridad preventiva» es una clasificación del profesor.",
+      "fuente": "Manual DGT, Tema 5 (pág. 88) y Tema 6 (págs. 119-126)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [
+        "v5f-veh-0001",
+        "v5f-pas-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "E-seg-0001"
+      ]
+    },
+    {
+      "id": "v5f-rev-0010",
+      "afirmacion_del_video": "Los sistemas ADAS se pueden desconectar temporal o permanentemente.",
+      "minuto": "3:55:39",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Ni el BOE consultado ni el manual DGT tratan la desconexión de los ADAS; no se crea pregunta.",
+      "fuente": "Sin fuente en las normas consultadas",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5f-rev-0011",
+      "afirmacion_del_video": "El AEB solo frena a baja velocidad: a 120 km/h no actúa.",
+      "minuto": "3:57:41",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El manual DGT no limita la velocidad del AEB: avisa con voz y sonido y, si el conductor no reacciona y hay peligro de accidente, hace un frenado de emergencia.",
+      "fuente": "Manual DGT, Tema 5, Frenado autónomo de emergencia (pág. 93)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-ada-0001"
+      ]
+    },
+    {
+      "id": "v5f-rev-0008",
+      "afirmacion_del_video": "El RCTA (alerta de tráfico cruzado trasero) actúa a menos de 15 km/h y algunos frenan.",
+      "minuto": "3:59:40",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Ni la norma ni el manual DGT dan esa cifra. Lo seguro para el examen es que el RCTA avisa de vehículos que se acercan por detrás al circular marcha atrás, por ejemplo al salir de un aparcamiento.",
+      "fuente": "Manual DGT, Tema 6, Sistema de alerta de tráfico cruzado (pág. 137)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-ada-0005"
+      ]
+    },
+    {
+      "id": "v5f-rev-0009",
+      "afirmacion_del_video": "El LDW lee las líneas a más de 60 km/h.",
+      "minuto": "4:01:32",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Las fuentes no fijan ninguna velocidad. El LDW avisa (con luz, sonido o vibración) del cambio de carril imprevisto; no corrige la trayectoria.",
+      "fuente": "Manual DGT, Tema 6, Aviso de salida de carril (pág. 134)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-ada-0003"
+      ]
+    },
+    {
+      "id": "v5f-rev-0012",
+      "afirmacion_del_video": "El ISA o SLI reconoce las señales por GPS y él solo lleva la velocidad adecuada a la vía.",
+      "minuto": "4:05:49",
+      "veredicto": "matiz",
+      "lo_correcto": "El manual DGT no describe el ISA. Lo que sí dice es que el TSR detecta las señales de límite de velocidad y las muestra, y que en algunos vehículos además reduce la velocidad por sí solo.",
+      "fuente": "Manual DGT, Tema 6, Sistema de reconocimiento de señales de tráfico (pág. 133)",
+      "norma": "MANUAL_DGT",
+      "cita": "En otros vehículos, además de avisar, el sistema reduce la velocidad por sí solo cuando el conductor va más rápido de lo que debe.",
+      "preguntas_nuevas": [
+        "v5f-ada-0003"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "E-ada-0007"
+      ]
+    },
+    {
+      "id": "v5f-rev-0013",
+      "afirmacion_del_video": "Se pueden instalar ADAS «aftermarket» solo si no actúan sobre los sistemas de seguridad; el EDR registra los datos tras un siniestro; el TPMS controla la presión de los neumáticos.",
+      "minuto": "4:07:51",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "Estos sistemas (aftermarket, EDR, TPMS, DDR/ADR) no aparecen en el BOE consultado ni en el manual DGT; no se crean preguntas sobre ellos.",
+      "fuente": "Sin fuente en las normas consultadas",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5f-rev-0018",
+      "afirmacion_del_video": "Si no estamos implicados en el accidente no estaríamos obligados a ayudar.",
+      "minuto": "4:20:41",
+      "veredicto": "matiz",
+      "lo_correcto": "Quien presencia un accidente o tiene conocimiento de él también está obligado a auxiliar o pedir auxilio. Solo deja de estarlo si ya están allí la autoridad o sus agentes o si su ayuda claramente no es necesaria (lo que el profesor añade después).",
+      "fuente": "Reglamento General de Circulación, art. 129.1",
+      "norma": "RGC",
+      "cita": "Los usuarios de las vías que se vean implicados en un accidente de tráfico, lo presencien o tengan conocimiento de él estarán obligados a auxiliar o solicitar auxilio",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-acc-0001",
+        "E-acc-0002"
+      ]
+    },
+    {
+      "id": "v5f-rev-0020",
+      "afirmacion_del_video": "Con varios heridos, se atiende primero al inconsciente, salvo que otro sangre muchísimo.",
+      "minuto": "4:23:45",
+      "veredicto": "no_norma",
+      "lo_correcto": "El manual DGT no establece un orden de atención entre varios heridos; es un criterio del profesor. No se crea pregunta.",
+      "fuente": "Sin fuente en las normas consultadas",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5f-rev-0019",
+      "afirmacion_del_video": "Al valorar a un herido inconsciente se mira si respira y si tiene pulso (en el cuello o la muñeca).",
+      "minuto": "4:24:14",
+      "veredicto": "no_norma",
+      "lo_correcto": "El manual DGT pide comprobar las constantes vitales siempre en el mismo orden: primero la consciencia y después la respiración. No pide tomar el pulso.",
+      "fuente": "Manual DGT, Tema 16, Constantes vitales (pág. 423)",
+      "norma": "MANUAL_DGT",
+      "cita": "el primer paso es comprobar sus constantes vitales siguiendo siempre el mismo orden.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-aux-0003"
+      ]
+    },
+    {
+      "id": "v5f-rev-0002",
+      "afirmacion_del_video": "Si el torniquete va a estar mucho rato, es bueno aflojarlo un poco de vez en cuando para que vuelva el riego.",
+      "minuto": "4:26:55",
+      "veredicto": "error",
+      "lo_correcto": "Una vez puesto, el torniquete no se afloja ni se quita: solo lo puede quitar el personal médico. Hay que anotar la hora y el lugar donde se colocó.",
+      "fuente": "Manual DGT, Tema 16, Torniquete (pág. 430)",
+      "norma": "MANUAL_DGT",
+      "cita": "El torniquete solo lo puede quitar el personal médico.",
+      "preguntas_nuevas": [
+        "v5f-aux-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "E-aux-0006",
+        "E-aux-0007"
+      ]
+    },
+    {
+      "id": "v5f-rev-0005",
+      "afirmacion_del_video": "En el motor, el pistón comprime y calienta el aire y, al entrar el carburante pulverizado en contacto con ese aire caliente, explota (explicación general para todos los motores).",
+      "minuto": "4:29:34",
+      "veredicto": "matiz",
+      "lo_correcto": "Así funciona el motor diésel. En el de gasolina, la mezcla de aire y combustible se enciende con la chispa de la bujía, producida por el circuito de encendido.",
+      "fuente": "Manual DGT, Tema 15, Circuito de encendido (pág. 368)",
+      "norma": "MANUAL_DGT",
+      "cita": "Esta chispa de electricidad se enciende en una pieza del motor que se llama bujía.",
+      "preguntas_nuevas": [
+        "v5f-mec-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5f-rev-0004",
+      "afirmacion_del_video": "El chaleco reflectante debe ser visible a 150 m y hay que llevarlo obligatoriamente en el habitáculo, no en el maletero.",
+      "minuto": "4:42:41",
+      "veredicto": "error",
+      "lo_correcto": "La norma exige un chaleco reflectante de alta visibilidad certificado (UNE EN 471, mínimo clase 2) dentro de la dotación del turismo, y ponérselo al salir del vehículo y ocupar la calzada o el arcén en vías interurbanas. Lo de «visible a 150 m» es el requisito de los elementos reflectantes de ciclistas y VMP. Llevarlo a mano en el habitáculo es un consejo, no una obligación escrita.",
+      "fuente": "Reglamento General de Vehículos, anexo XII.1.b; Reglamento General de Circulación, art. 118.2 y 118.4",
+      "norma": "RGV",
+      "cita": "que deberá ser conforme con la norma UNE EN 471, mínimo clase 2",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-acc-0005",
+        "E-acc-0010"
+      ]
+    },
+    {
+      "id": "v5f-rev-0015",
+      "afirmacion_del_video": "Los retrovisores se miran cada 5-10 segundos en poblado y cada 10-15 segundos fuera de poblado.",
+      "minuto": "4:44:40",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El manual no fija frecuencias: hay que mirarlos durante todo el viaje, de forma breve, aunque no se vaya a hacer ninguna maniobra, y cuántas veces depende del tipo de carretera.",
+      "fuente": "Manual DGT, Tema 17, Mirar a los lados (pág. 441)",
+      "norma": "MANUAL_DGT",
+      "cita": "La cantidad de veces que los mires dependerá del tipo de carretera por la que vayas.",
+      "preguntas_nuevas": [
+        "v5f-pre-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v5f-rev-0014",
+      "afirmacion_del_video": "En diésel hay que cambiar de marcha entre 1.300 y 2.000 revoluciones y en gasolina entre 2.000 y 2.500.",
+      "minuto": "4:49:02",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "El manual DGT no da revoluciones: dice que se empieza en primera, se pasa a segunda a los pocos segundos y se usan marchas largas; el vehículo gasta menos en cuarta y quinta.",
+      "fuente": "Manual DGT, Tema 17, Al acelerar y cambiar la velocidad (págs. 451-452)",
+      "norma": null,
+      "cita": null,
+      "preguntas_nuevas": [
+        "v5f-efi-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "E-efi-0002"
+      ]
+    },
+    {
+      "id": "v5f-rev-0024",
+      "afirmacion_del_video": "En detenciones prolongadas (dos, tres, cuatro o cinco minutos en un atasco) se puede apagar el motor.",
+      "minuto": "4:50:21",
+      "veredicto": "matiz",
+      "lo_correcto": "Para el examen: conviene apagar el motor cuando el vehículo vaya a estar parado más de un minuto.",
+      "fuente": "Manual DGT, Tema 17, Al reducir la velocidad y parar (pág. 453)",
+      "norma": "MANUAL_DGT",
+      "cita": "Apagar el motor cuando el vehículo vaya a estar más de un minuto parado.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-efi-0003"
+      ]
+    },
+    {
+      "id": "v5f-rev-0006",
+      "afirmacion_del_video": "El distintivo B es para gasolina matriculados desde 2000 y diésel desde 2006; el C, para gasolina desde 2006 y diésel desde 2014.",
+      "minuto": "4:51:59",
+      "veredicto": "matiz",
+      "lo_correcto": "La norma no clasifica por año de matriculación sino por nivel Euro: en turismos, C = gasolina Euro 4, 5 o 6 o diésel Euro 6; B = gasolina Euro 3 o diésel Euro 4 o 5. Las fechas son solo una orientación.",
+      "fuente": "Reglamento General de Vehículos, anexo II, E.2.c y E.2.d",
+      "norma": "RGV",
+      "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "E-amb-0005",
+        "E-amb-0006"
+      ]
+    },
+    {
+      "id": "v5f-rev-0007",
+      "afirmacion_del_video": "Los ECO son híbridos enchufables con una autonomía eléctrica de menos de 40 km por hora.",
+      "minuto": "4:53:43",
+      "veredicto": "matiz",
+      "lo_correcto": "La autonomía se mide en kilómetros, no en km/h: los híbridos enchufables con menos de 40 km de autonomía eléctrica son ECO, y con 40 km o más, 0 emisiones. También son ECO los híbridos no enchufables y los de gas (GNC, GNL, GLP) que cumplan los criterios de la clase C.",
+      "fuente": "Reglamento General de Vehículos, anexo II, E.2.a y E.2.b",
+      "norma": "RGV",
+      "cita": "vehículos híbridos enchufables con autonomía <40km (ciclo NEDC), vehículos híbridos no enchufables (HEV)",
+      "preguntas_nuevas": [
+        "v5f-amb-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "E-amb-0003",
+        "E-amb-0004"
+      ]
+    },
+    {
+      "id": "v5f-rev-0003",
+      "afirmacion_del_video": "Con el distintivo 0 emisiones siempre se puede entrar en un carril VAO.",
+      "minuto": "4:57:21",
+      "veredicto": "error",
+      "lo_correcto": "El Reglamento no da ese derecho al distintivo 0 emisiones. Solo pueden usar el VAO con un único ocupante los vehículos con la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad y ciertos autobuses; para los demás, dependerá de las condiciones que la autoridad fije para cada tramo.",
+      "fuente": "Reglamento General de Circulación, art. 35.2.a y 35.2.d",
+      "norma": "RGC",
+      "cita": "aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad",
+      "preguntas_nuevas": [
+        "v5f-car-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    }
+  ]
+}

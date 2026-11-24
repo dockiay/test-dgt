@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "fecha": "2026-11-24",
+  "video": "video3",
+  "leyenda": {
+    "error": "El vídeo se equivoca",
+    "matiz": "Hay que matizarlo",
+    "correcta": "El vídeo acierta",
+    "no_norma": "No es una norma (consejo o explicación)",
+    "sin_fuente": "No se puede confirmar con las fuentes oficiales"
+  },
+  "resoluciones": [
+    {
+      "id": "v3-rev-0001",
+      "afirmacion_del_video": "La señal de tramo con accesos directos indica que tú tienes prioridad «porque tu flecha del medio es más gorda».",
+      "minuto": "0:31",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto en el fondo: la señal P-1e advierte de un tramo con varios accesos directos y son los usuarios de esos accesos quienes deben ceder el paso. Lo de la flecha más gruesa es solo un truco para recordarla.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal P-1e",
+      "norma": "RGC_CATALOGO",
+      "cita": "Peligro por la proximidad de un tramo en el que existen varios accesos directos a la vía, debiendo ceder el paso los usuarios de dichos accesos directos.",
+      "preguntas_nuevas": [
+        "v4a-sen-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v3-rev-0002",
+      "afirmacion_del_video": "Para saber si una baliza de paso a nivel va en el lado derecho o izquierdo, «la inclinación de las rayas te indica dónde está la calzada».",
+      "minuto": "1:35",
+      "veredicto": "no_norma",
+      "lo_correcto": "Es un truco del profesor, no está en la norma. Lo examinable es la distancia según el número de franjas rojas: tres, 200 m; dos, 150 m; una, 100 m. El catálogo distingue las balizas del lado derecho (P-9a a P-9c) y del izquierdo (P-10a a P-10c).",
+      "fuente": "Catálogo de señales (RGC anexo I), señales P-9 y P-10",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 150 m. Esta baliza se sitúa en el lado izquierdo",
+      "preguntas_nuevas": [
+        "v4a-sen-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "res-sen-0003"
+      ]
+    },
+    {
+      "id": "v3-rev-0003",
+      "afirmacion_del_video": "La señal de lugar frecuentado por personas con dificultades motrices o sensoriales es «es decir, personas mayores».",
+      "minuto": "2:19",
+      "veredicto": "matiz",
+      "lo_correcto": "La señal P-21b se refiere a personas con dificultades motrices o sensoriales, sean o no mayores (por ejemplo, cerca de centros para personas con discapacidad). No hay que identificarla solo con personas mayores.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal P-21b",
+      "norma": "RGC_CATALOGO",
+      "cita": "Peligro por la proximidad de un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+      "preguntas_nuevas": [
+        "v4a-sen-0006"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v3-rev-0004",
+      "afirmacion_del_video": "Un carril trenzado es un carril que se puede usar como carril de aceleración e incorporación o como carril de salida o deceleración.",
+      "minuto": "2:47",
+      "veredicto": "matiz",
+      "lo_correcto": "La señal P-35 «Trenzado» advierte de un tramo entre una confluencia y una bifurcación en el que los vehículos cambian de carril y se cruzan sus trayectorias, con más riesgo de colisión. Es la definición que hay que dar en el examen.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal P-35",
+      "norma": "RGC_CATALOGO",
+      "cita": "Peligro por la proximidad de un tramo comprendido entre una confluencia y una bifurcación donde se producen distintos movimientos de cambio de carril por parte de los vehículos, cruzándose sus trayectorias",
+      "preguntas_nuevas": [
+        "v4a-sen-0009"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v3-rev-0005",
+      "afirmacion_del_video": "La señal de camino obligatorio para tractores solo obliga a los tractores; no prohíbe la entrada a los demás vehículos (un turismo podría entrar).",
+      "minuto": "4:21",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto: la R-419 obliga a los conductores de tractores a usar ese camino y, a diferencia de las señales de «vía reservada y obligatoria» (R-407a, R-407b, R-420, R-421), no incluye la prohibición para los demás usuarios.",
+      "fuente": "Catálogo de señales (RGC anexo I), señal R-419",
+      "norma": "RGC_CATALOGO",
+      "cita": "Obligación para los conductores de tractores de utilizar el camino a cuya entrada esté situada.",
+      "preguntas_nuevas": [
+        "v4a-sen-0026"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v3-rev-0006",
+      "afirmacion_del_video": "La zona peatonal es solo para peatones, «nadie más»: no pueden circular ciclos ni vehículos de movilidad personal ni vehículos.",
+      "minuto": "10:08",
+      "veredicto": "matiz",
+      "lo_correcto": "La señal S-30a indica una zona reservada para el uso peatonal. Pero en las zonas peatonales que no son aceras, el ayuntamiento puede autorizar mediante ordenanza que circulen también ciclistas y usuarios de VMP, respetando la prioridad de los peatones.",
+      "fuente": "Reglamento General de Circulación, art. 152.1, y catálogo de señales, señal S-30a",
+      "norma": "RGC",
+      "cita": "En el resto de zonas peatonales, la autoridad municipal podrá autorizar, mediante ordenanza, la coexistencia de peatones con ciclistas y usuarios de vehículos de movilidad personal, respetando la prioridad de los peatones.",
+      "preguntas_nuevas": [
+        "v3-sen-0026"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-via-0012"
+      ]
+    },
+    {
+      "id": "v3-rev-0007",
+      "afirmacion_del_video": "En el avanza moto o bici, motos, ciclomotores y ciclos pueden avanzar entre los coches cuando están parados para colocarse los primeros.",
+      "minuto": "15:40",
+      "veredicto": "sin_fuente",
+      "lo_correcto": "La señal S-49 indica una zona de espera ante el semáforo reservada a esos vehículos. El reglamento solo dice expresamente que los ciclistas pueden rebasar a los vehículos detenidos en semáforos y retenciones para usar esas zonas; para motos y ciclomotores las fuentes no regulan cómo llegar hasta ella.",
+      "fuente": "Reglamento General de Circulación, art. 153.5, y catálogo de señales, señal S-49",
+      "norma": "RGC",
+      "cita": "En intersecciones reguladas por semáforo y en retenciones de tráfico podrán rebasar a los vehículos que se encuentren detenidos o sometidos a paradas frecuentes",
+      "preguntas_nuevas": [
+        "v3-sen-0031"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B2-mv-0045"
+      ]
+    },
+    {
+      "id": "v3-rev-0008",
+      "afirmacion_del_video": "En el carril VAO pueden entrar solo con el conductor los que llevan la señal de discapacitados, los de cero emisiones, las motos o los autobuses de línea regular.",
+      "minuto": "17:12",
+      "veredicto": "error",
+      "lo_correcto": "Con un solo ocupante solo pueden usar el carril VAO los vehículos autorizados (motocicletas, turismos y mixtos adaptables) que lleven la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad, y los autobuses de más de 3.500 kg y articulados (sean o no de línea). Las motos deben cumplir la ocupación mínima fijada; los de cero emisiones solo si la autoridad lo permite en ese tramo.",
+      "fuente": "Reglamento General de Circulación, art. 35.2.a y b",
+      "norma": "RGC",
+      "cita": "Los carriles para VAO podrán ser utilizados por los vehículos autorizados de acuerdo con el párrafo anterior, aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "cesp-0007",
+        "cesp-0008",
+        "res-cesp-0001"
+      ]
+    },
+    {
+      "id": "v3-rev-0009",
+      "afirmacion_del_video": "La señal de control de separación mínima significa que «como mínimo tienes que llevar 70 m de distancia».",
+      "minuto": "22:17",
+      "veredicto": "matiz",
+      "lo_correcto": "La señal S-991e (carretera convencional o multicarril) o S-991f (autopista o autovía) solo indica que hay un dispositivo que controla la separación mínima entre vehículos. Los 70 m del dibujo son un ejemplo: la distancia obligatoria es la que fije la señal de separación mínima del tramo o, si no hay, la regla general de poder detenerse sin chocar.",
+      "fuente": "Catálogo de señales (RGC anexo I), señales S-991e y S-991f",
+      "norma": "RGC_CATALOGO",
+      "cita": "Indica la existencia de un dispositivo de control de separación mínima entre vehículos en un punto o tramo de una autopista",
+      "preguntas_nuevas": [
+        "v3-sen-0042"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "B1-sen-0119"
+      ]
+    },
+    {
+      "id": "v3-rev-0010",
+      "afirmacion_del_video": "En los pasos para peatones nuevos «se puede quitar la franja del medio».",
+      "minuto": "23:24",
+      "veredicto": "matiz",
+      "lo_correcto": "Lo que permite la norma es suprimir la parte central de una línea por cada carril de circulación, no una franja cualquiera del paso.",
+      "fuente": "Reglamento General de Circulación, anexo I, marcas viales, M-4.3",
+      "norma": "RGC",
+      "cita": "Podrá suprimirse la parte central de una línea por cada carril de circulación.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v3-rev-0011",
+      "afirmacion_del_video": "Antes de un paso para peatones no se puede aparcar: 3 m si la acera comienza en el mismo carril y 6 m si la acera termina en el borde de la calzada.",
+      "minuto": "24:02",
+      "veredicto": "matiz",
+      "lo_correcto": "No se permite aparcar automóviles en al menos los 6 m anteriores al paso si la acera está alineada con el límite exterior de la banda de estacionamiento (el más alejado de los carriles), o en los 3 m anteriores si la acera está alineada con el límite del carril de circulación.",
+      "fuente": "Reglamento General de Circulación, anexo I, marcas viales, M-4.3",
+      "norma": "RGC",
+      "cita": "o en los 3 m anteriores si la acera está alineada con el límite interior de la banda de estacionamiento (es decir, con el límite del carril de circulación)",
+      "preguntas_nuevas": [
+        "v3-mv-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    }
+  ]
+}

@@ -154,9 +154,9 @@
       "subtema": "puertas",
       "enunciado": "Antes de abrir la puerta para bajar del vehículo, ¿qué debe hacer?",
       "opciones": {
-        "a": "Nada, si el vehículo está correctamente estacionado.",
-        "b": "Asegurarse de que no supone peligro ni entorpecimiento para otros usuarios, especialmente ciclistas.",
-        "c": "Encender la luz de emergencia; así los demás deben esperar."
+        "a": "Nada, si el vehículo está bien estacionado.",
+        "b": "Asegurarse de que no supone peligro para otros usuarios, sobre todo ciclistas.",
+        "c": "Encender la luz de emergencia para que los demás esperen."
       },
       "correcta": "b",
       "explicacion": "Se prohíbe abrir las puertas o apearse sin haberse cerciorado antes de que no implica peligro o entorpecimiento para otros usuarios, especialmente para los ciclistas.",
@@ -187,7 +187,7 @@
       "opciones": {
         "a": "Sí, si la velocidad es inferior a 10 km/h.",
         "b": "Sí, si mira antes por el retrovisor.",
-        "c": "No, se prohíbe abrir las puertas antes de la completa inmovilización del vehículo."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "Está prohibido abrir las puertas del vehículo antes de su completa inmovilización.",
@@ -371,9 +371,9 @@
       "subtema": "tunel_emergencia",
       "enunciado": "Por una emergencia, su vehículo queda inmovilizado dentro de un túnel. ¿Qué debe hacer con el motor y las luces?",
       "opciones": {
-        "a": "Apagar el motor y todas las luces para no deslumbrar.",
+        "a": "Apagar el motor y todas las luces.",
         "b": "Dejar el motor en marcha y encender la luz de largo alcance.",
-        "c": "Apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición."
+        "c": "Apagar el motor, encender la emergencia y dejar las luces de posición."
       },
       "correcta": "c",
       "explicacion": "Si un conductor queda inmovilizado en un túnel por una emergencia, debe apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición.",
@@ -402,9 +402,9 @@
       "subtema": "tunel_emergencia",
       "enunciado": "Su vehículo queda inmovilizado por una emergencia dentro de un túnel. ¿Qué deben hacer usted y sus pasajeros?",
       "opciones": {
-        "a": "Abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si hay zonas excluidas a la circulación.",
-        "b": "Permanecer dentro del vehículo con el cinturón abrochado hasta que llegue la ayuda.",
-        "c": "Salir y caminar por la calzada en sentido contrario a la circulación para avisar a los demás."
+        "a": "Abandonar el vehículo e ir rápidamente al refugio o salida más próximos.",
+        "b": "Permanecer dentro con el cinturón abrochado hasta que llegue ayuda.",
+        "c": "Salir y caminar por la calzada en sentido contrario para avisar a los demás."
       },
       "correcta": "a",
       "explicacion": "Tanto el conductor como los demás ocupantes deben abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si existen zonas excluidas a la circulación de vehículos.",
@@ -431,7 +431,7 @@
       "id": "bm13-0014",
       "tema": "abandonar_vehiculo",
       "subtema": "tunel_incendio",
-      "enunciado": "Su vehículo se incendia dentro de un túnel. Tras acercarlo a la derecha y apagar el motor, ¿qué debe hacer con la llave y las puertas antes de abandonarlo?",
+      "enunciado": "Su vehículo se incendia dentro de un túnel. Tras acercarlo a la derecha y apagar el motor, ¿qué debe hacer con la llave y las puertas?",
       "opciones": {
         "a": "Llevarse la llave y cerrar las puertas para evitar robos.",
         "b": "Dejar la llave puesta y las puertas abiertas.",
@@ -558,8 +558,8 @@
       "enunciado": "Su vehículo averiado obstaculiza la calzada. Después de señalizarlo, ¿qué debe hacer?",
       "opciones": {
         "a": "Esperar dentro del vehículo hasta que llegue la grúa, sin moverlo.",
-        "b": "Dejarlo donde está; la señalización basta.",
-        "c": "Adoptar las medidas necesarias para que sea retirado cuanto antes y, si es factible, sacarlo de la calzada y situarlo cumpliendo las normas de estacionamiento."
+        "b": "Dejarlo donde está, porque la señalización basta.",
+        "c": "Procurar que se retire cuanto antes y, si es posible, sacarlo de la calzada."
       },
       "correcta": "c",
       "explicacion": "Si por accidente o avería el vehículo o su carga obstaculizan la calzada, tras señalizar hay que retirarlo en el menor tiempo posible y, siempre que sea factible, sacarlo de la calzada y estacionarlo correctamente.",
@@ -588,9 +588,9 @@
       "subtema": "averia_continuar",
       "enunciado": "Tras una avería, su vehículo puede seguir circulando pero necesita un servicio de auxilio. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Abandonar cuanto antes los carriles de circulación y dirigirse a la primera salida disponible usando el arcén derecho.",
+        "a": "Dejar cuanto antes los carriles de circulación e ir a la primera salida por el arcén derecho.",
         "b": "Detenerse inmediatamente en el carril izquierdo.",
-        "c": "Detenerse en el carril por el que circula y encender la luz de emergencia."
+        "c": "Detenerse en su carril y encender la luz de emergencia."
       },
       "correcta": "a",
       "explicacion": "Si el vehículo puede continuar pero necesita auxilio, debe abandonar lo antes posible los carriles de circulación y dirigirse hacia la primera salida usando el arcén derecho; si no es posible, detenerse en el arcén derecho o donde cause menor obstáculo.",
@@ -619,8 +619,8 @@
       "subtema": "comportamiento_general",
       "enunciado": "¿Cómo deben comportarse todos los usuarios de la vía?",
       "opciones": {
-        "a": "Basta con que respeten las señales; las molestias a los demás no están reguladas.",
-        "b": "De forma que no entorpezcan indebidamente la circulación ni causen peligro, perjuicios o molestias innecesarias a las personas, o daños a los bienes.",
+        "a": "Basta con que respeten las señales.",
+        "b": "Sin entorpecer indebidamente ni causar peligro, perjuicios o molestias innecesarias.",
         "c": "Esta obligación solo afecta a los conductores, no a los peatones."
       },
       "correcta": "b",
@@ -648,11 +648,11 @@
       "id": "bm3-0002",
       "tema": "actitudes",
       "subtema": "diligencia",
-      "enunciado": "Se debe conducir con la diligencia y precaución necesarias para evitar…",
+      "enunciado": "Se debe conducir con la diligencia y precaución necesarias para evitar...",
       "opciones": {
-        "a": "solo los daños a otras personas.",
-        "b": "solo los daños materiales a otros vehículos.",
-        "c": "todo daño, propio o ajeno."
+        "a": "Solo los daños a otras personas.",
+        "b": "Solo los daños materiales a otros vehículos.",
+        "c": "Todo daño, propio o ajeno."
       },
       "correcta": "c",
       "explicacion": "Hay que conducir con la diligencia y precaución necesarias para evitar todo daño, propio o ajeno, sin poner en peligro al conductor, a los ocupantes ni al resto de usuarios.",
@@ -745,7 +745,7 @@
       "opciones": {
         "a": "Con los vehículos de mayor tamaño.",
         "b": "Con los conductores noveles que llevan la «L».",
-        "c": "Con los niños, los ancianos, los invidentes y otras personas manifiestamente impedidas."
+        "c": "Con niños, ancianos, invidentes y personas manifiestamente impedidas."
       },
       "correcta": "c",
       "explicacion": "El reglamento obliga a adoptar las precauciones necesarias al aproximarse a otros usuarios, especialmente niños, ancianos, invidentes u otras personas manifiestamente impedidas.",
@@ -867,7 +867,7 @@
       "subtema": "advertir_frenado",
       "enunciado": "Va a frenar de modo considerable por las circunstancias del tráfico. ¿Debe advertirlo?",
       "opciones": {
-        "a": "Sí, siempre que sea posible, con el empleo reiterado de las luces de frenado o con el brazo.",
+        "a": "Sí, siempre que sea posible, con las luces de frenado o con el brazo.",
         "b": "No, solo se advierten los desplazamientos laterales.",
         "c": "Sí, con el intermitente derecho."
       },
@@ -931,7 +931,7 @@
       "opciones": {
         "a": "Nada, si el obstáculo es pequeño.",
         "b": "Avisar a las autoridades y marcharse.",
-        "c": "Hacerlo desaparecer lo antes posible y, mientras tanto, adoptar las medidas para que los demás lo adviertan."
+        "c": "Retirarlo cuanto antes y, mientras tanto, señalizarlo."
       },
       "correcta": "c",
       "explicacion": "Quien crea un obstáculo o peligro en la vía debe hacerlo desaparecer lo antes posible y, mientras tanto, tomar las medidas necesarias para que lo adviertan los demás usuarios y no se dificulte la circulación.",
@@ -960,7 +960,7 @@
       "subtema": "arrojar_objetos",
       "enunciado": "¿Puede arrojar una colilla encendida por la ventanilla?",
       "opciones": {
-        "a": "No, se prohíbe arrojar a la vía o sus inmediaciones cualquier objeto que pueda producir incendios.",
+        "a": "No.",
         "b": "Sí, si la vía está asfaltada.",
         "c": "Sí, salvo en zonas forestales señalizadas."
       },
@@ -992,7 +992,7 @@
       "enunciado": "En la conducción preventiva, ¿en qué consiste la «anticipación»?",
       "opciones": {
         "a": "En adelantar a los vehículos lentos lo antes posible.",
-        "b": "En prever los movimientos y reacciones de los demás conductores para poder reaccionar a tiempo.",
+        "b": "En prever lo que harán los demás para reaccionar a tiempo.",
         "c": "En salir de viaje con tiempo de sobra."
       },
       "correcta": "b",
@@ -1020,11 +1020,11 @@
       "id": "bm3-0014",
       "tema": "actitudes",
       "subtema": "vehiculos_aparcados",
-      "enunciado": "Circula junto a vehículos aparcados con personas dentro. ¿Qué precaución recomienda la DGT?",
+      "enunciado": "Circula junto a vehículos aparcados con personas dentro. ¿Qué precaución debe tomar?",
       "opciones": {
-        "a": "Ninguna especial; quienes salen deben mirar antes.",
+        "a": "Ninguna especial, porque quienes salen deben mirar antes.",
         "b": "Tocar el claxon para que no abran la puerta.",
-        "c": "Conducir con más cuidado, porque alguna de esas personas puede bajarse sin mirar."
+        "c": "Conducir con más cuidado."
       },
       "correcta": "c",
       "explicacion": "La DGT recomienda conducir con más cuidado cerca de vehículos aparcados con personas dentro, porque alguna puede bajarse sin mirar.",
@@ -1175,10 +1175,10 @@
       "id": "bm3-0019",
       "tema": "actitudes",
       "subtema": "detencion_atasco",
-      "enunciado": "Es el último vehículo de una fila detenida en un atasco. Según la DGT, ¿qué puede hacer para evitar que le alcancen por detrás?",
+      "enunciado": "Es el último vehículo de una fila detenida en un atasco. ¿Qué puede hacer para evitar que le alcancen por detrás?",
       "opciones": {
         "a": "Bajarse del vehículo para avisar a los que llegan.",
-        "b": "Mantener el freno pisado, encender las luces de emergencia y vigilar por el retrovisor a los que vienen detrás.",
+        "b": "Mantener el freno pisado, encender la emergencia y vigilar el retrovisor.",
         "c": "Pegarse al vehículo de delante para dejar más espacio detrás."
       },
       "correcta": "b",
@@ -1239,7 +1239,7 @@
       "subtema": "laminas",
       "enunciado": "¿Cuándo se permite circular con láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores?",
       "opciones": {
-        "a": "Cuando el vehículo lleve dos espejos retrovisores exteriores que cumplan las especificaciones técnicas.",
+        "a": "Cuando el vehículo lleve dos retrovisores exteriores reglamentarios.",
         "b": "Nunca.",
         "c": "Solo de día."
       },
@@ -1330,11 +1330,11 @@
       "id": "bm9-0005",
       "tema": "riesgos_vehiculo_visibilidad",
       "subtema": "campo_vision",
-      "enunciado": "Además de respetar los límites, ¿cómo debe adecuar la velocidad?",
+      "enunciado": "Además de respetar los límites, el conductor debe adecuar la velocidad de forma que...",
       "opciones": {
-        "a": "De manera que siempre pueda detener el vehículo dentro de los límites de su campo de visión y ante cualquier obstáculo.",
-        "b": "Basta con no superar el límite señalizado.",
-        "c": "De manera que no tarde más de lo previsto en llegar a su destino."
+        "a": "Siempre pueda detener el vehículo dentro de su campo de visión y ante cualquier obstáculo.",
+        "b": "Circule siempre a la velocidad máxima que permite la señalización.",
+        "c": "No tarde más de lo previsto en llegar a su destino."
       },
       "correcta": "a",
       "explicacion": "Además de los límites, hay que adecuar la velocidad a las circunstancias (propias, de la vía, del vehículo, meteorológicas…) para poder detenerse siempre dentro del campo de visión y ante cualquier obstáculo.",
@@ -1361,10 +1361,10 @@
       "id": "bm9-0006",
       "tema": "riesgos_vehiculo_visibilidad",
       "subtema": "vehiculos_pesados",
-      "enunciado": "Conduce un vehículo pesado y le siguen otros que no pueden adelantarle con facilidad ni sin peligro por la anchura de la calzada. ¿Qué debe hacer?",
+      "enunciado": "Conduce un vehículo pesado y por la anchura de la calzada los que le siguen no pueden adelantarle con facilidad ni sin peligro. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Mantener su velocidad; son los demás quienes deben esperar.",
-        "b": "Aminorar la marcha o apartarse cuanto antes al arcén, si es practicable, para dejarles paso.",
+        "a": "Mantener la velocidad, porque son los demás quienes deben esperar.",
+        "b": "Aminorar la marcha o apartarse al arcén, si es practicable, para dejarles pasar.",
         "c": "Acelerar para no entorpecer."
       },
       "correcta": "b",
@@ -1425,7 +1425,7 @@
       "subtema": "moto_remolque",
       "enunciado": "Una motocicleta con remolque circula por una carretera. ¿Cómo afecta el remolque a su velocidad máxima?",
       "opciones": {
-        "a": "Debe reducirla un 10 % respecto a la velocidad genérica de la motocicleta.",
+        "a": "Debe reducirla un 10 %.",
         "b": "No le afecta.",
         "c": "No puede superar los 45 km/h."
       },
@@ -1457,7 +1457,7 @@
       "enunciado": "La carga que transporta tapa parcialmente las luces traseras y la placa de matrícula. ¿Es correcto?",
       "opciones": {
         "a": "Sí, si la carga está bien sujeta.",
-        "b": "No, la carga no puede ocultar los dispositivos de alumbrado o señalización ni las placas o distintivos obligatorios.",
+        "b": "No.",
         "c": "Sí, si circula de día."
       },
       "correcta": "b",
@@ -1547,10 +1547,10 @@
       "id": "bm9-0012",
       "tema": "riesgos_vehiculo_visibilidad",
       "subtema": "angulo_muerto",
-      "enunciado": "Según la DGT, ¿qué debe evitar respecto al ángulo muerto de los retrovisores de otros vehículos?",
+      "enunciado": "¿Qué debe evitar respecto al ángulo muerto de los retrovisores de otros vehículos?",
       "opciones": {
-        "a": "Nada; el ángulo muerto solo afecta al conductor del otro vehículo.",
-        "b": "Estar mucho tiempo en él, en especial al lado o detrás de un vehículo muy grande.",
+        "a": "Nada, porque el ángulo muerto solo afecta al otro conductor.",
+        "b": "Estar mucho tiempo en él, sobre todo junto a vehículos muy grandes.",
         "c": "Circular por delante del otro vehículo."
       },
       "correcta": "b",
@@ -1578,11 +1578,11 @@
       "id": "bm9-0013",
       "tema": "riesgos_vehiculo_visibilidad",
       "subtema": "viento",
-      "enunciado": "Según la DGT, ¿a qué vehículos afecta más el viento fuerte?",
+      "enunciado": "¿A qué vehículos afecta más el viento fuerte?",
       "opciones": {
         "a": "A los turismos de gran cilindrada.",
         "b": "A todos por igual.",
-        "c": "A los vehículos de dos ruedas y a los que llevan un remolque."
+        "c": "A los de dos ruedas y a los que llevan remolque."
       },
       "correcta": "c",
       "explicacion": "El viento, sobre todo lateral, puede hacer perder el control; afecta más a los vehículos de dos ruedas y a los que llevan remolque.",
@@ -1702,9 +1702,9 @@
       "id": "bm6-0002",
       "tema": "meteorologia_noche",
       "subtema": "moderar_velocidad",
-      "enunciado": "¿En cuál de estas situaciones obliga el reglamento a circular a velocidad moderada?",
+      "enunciado": "¿En cuál de estas situaciones hay que circular a velocidad moderada?",
       "opciones": {
-        "a": "En caso de niebla densa, lluvia intensa, nevada o nubes de polvo o humo.",
+        "a": "Con niebla densa, lluvia intensa, nevada o nubes de polvo o humo.",
         "b": "Solo cuando una señal lo indique.",
         "c": "Solo de noche."
       },
@@ -1768,7 +1768,7 @@
       "opciones": {
         "a": "Encender la luz antiniebla trasera.",
         "b": "Tocar el claxon y mantener la velocidad.",
-        "c": "Circular a velocidad moderada y, si fuera preciso, detenerse."
+        "c": "Circular a velocidad moderada y detenerse si es preciso."
       },
       "correcta": "c",
       "explicacion": "Al aproximarse a pasos a nivel, glorietas e intersecciones sin prioridad, lugares de reducida visibilidad o estrechamientos se circula a velocidad moderada.",
@@ -1797,7 +1797,7 @@
       "subtema": "alumbrado_dia",
       "enunciado": "Es de día y una nube de humo disminuye sensiblemente la visibilidad. ¿Es obligatorio llevar el alumbrado encendido?",
       "opciones": {
-        "a": "Sí, es obligatorio en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad.",
+        "a": "Sí.",
         "b": "No, el alumbrado solo es obligatorio de noche.",
         "c": "Solo en autopistas y autovías."
       },
@@ -1826,10 +1826,10 @@
       "id": "bm6-0006",
       "tema": "meteorologia_noche",
       "subtema": "noche_peligro",
-      "enunciado": "Según la DGT, ¿por qué es más peligroso conducir de noche?",
+      "enunciado": "¿Por qué es más peligroso conducir de noche?",
       "opciones": {
         "a": "Porque hay más vehículos en la carretera.",
-        "b": "Porque la carretera está menos iluminada, se ven peor las distancias, personas y vehículos, y otros pueden deslumbrarle.",
+        "b": "Porque se ven peor las distancias, las personas y los vehículos, y hay deslumbramientos.",
         "c": "Porque los límites de velocidad son más altos."
       },
       "correcta": "b",
@@ -1861,7 +1861,7 @@
       "opciones": {
         "a": "Porque debe apagar todas las luces.",
         "b": "Porque cambia el límite de velocidad.",
-        "c": "Porque a los ojos les cuesta unos segundos acostumbrarse al cambio de luz."
+        "c": "Porque a los ojos les cuesta unos segundos adaptarse."
       },
       "correcta": "c",
       "explicacion": "Al pasar de una zona iluminada a otra oscura, los ojos tardan unos segundos en adaptarse al cambio de luz.",
@@ -1922,7 +1922,7 @@
       "enunciado": "¿Es aconsejable usar gafas de sol por la noche para evitar los deslumbramientos?",
       "opciones": {
         "a": "Sí, siempre.",
-        "b": "No, porque se ve mucho peor la carretera.",
+        "b": "No.",
         "c": "Sí, pero solo en autopista."
       },
       "correcta": "b",
@@ -1981,7 +1981,7 @@
       "id": "bm6-0011",
       "tema": "meteorologia_noche",
       "subtema": "polvo_humo",
-      "enunciado": "Según la DGT, ¿qué precauciones se toman con nubes de polvo o de humo?",
+      "enunciado": "¿Qué precauciones se toman con nubes de polvo o de humo?",
       "opciones": {
         "a": "Las mismas que para conducir con niebla.",
         "b": "Ninguna especial, porque desaparecen enseguida.",
@@ -2167,11 +2167,11 @@
       "id": "bmp-0005",
       "tema": "delitos_seguridad_vial",
       "subtema": "negativa_pruebas",
-      "enunciado": "El conductor que, requerido por un agente, se niega a someterse a las pruebas de alcohol o drogas…",
+      "enunciado": "El conductor que, requerido por un agente, se niega a someterse a las pruebas de alcohol o drogas...",
       "opciones": {
-        "a": "comete un delito castigado con prisión de seis meses a un año y privación del derecho a conducir.",
-        "b": "solo comete una infracción leve.",
-        "c": "no comete ninguna infracción si después demuestra que no había bebido."
+        "a": "Comete un delito castigado con prisión de seis meses a un año y privación del derecho a conducir.",
+        "b": "Solo comete una infracción leve.",
+        "c": "No comete ninguna infracción si después demuestra que no había bebido."
       },
       "correcta": "a",
       "explicacion": "Negarse a las pruebas legalmente establecidas de alcohol y drogas es delito, con prisión de seis meses a un año y privación del derecho a conducir de más de uno y hasta cuatro años.",
@@ -2262,9 +2262,9 @@
       "subtema": "temeridad",
       "enunciado": "Conducir con temeridad manifiesta poniendo en concreto peligro la vida o la integridad de las personas, ¿qué es?",
       "opciones": {
-        "a": "Un delito castigado con prisión de seis meses a dos años y privación del derecho a conducir.",
+        "a": "Un delito castigado con prisión y privación del derecho a conducir.",
         "b": "Una infracción grave.",
-        "c": "Solo una infracción muy grave sin consecuencias penales."
+        "c": "Solo una infracción muy grave, sin consecuencias penales."
       },
       "correcta": "a",
       "explicacion": "La conducción con temeridad manifiesta que pone en concreto peligro la vida o la integridad de las personas es delito, con prisión de seis meses a dos años y privación del derecho a conducir de más de uno y hasta seis años.",
@@ -2291,7 +2291,7 @@
       "id": "bmp-0009",
       "tema": "delitos_seguridad_vial",
       "subtema": "abandono_accidente",
-      "enunciado": "El conductor que, voluntariamente y sin riesgo propio o ajeno, abandona el lugar tras causar un accidente con fallecidos o heridos graves, ¿qué comete?",
+      "enunciado": "Un conductor causa un accidente con fallecidos o heridos graves y abandona voluntariamente el lugar, sin riesgo propio ni ajeno. ¿Qué comete?",
       "opciones": {
         "a": "Una infracción leve, si después se presenta ante la policía.",
         "b": "Un delito de abandono del lugar del accidente.",

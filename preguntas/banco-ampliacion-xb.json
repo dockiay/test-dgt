@@ -6,7 +6,7 @@
       "tema": "alcohol_drogas",
       "subtema": "tasas_alcohol",
       "materia": 4,
-      "enunciado": "Un taxista con quince años de permiso conduce su taxi, que es un vehículo de servicio público. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+      "enunciado": "Un taxista con quince años de permiso conduce su taxi. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
       "opciones": {
         "a": "0,15 miligramos por litro.",
         "b": "0,25 miligramos por litro.",
@@ -37,7 +37,7 @@
       "tema": "alcohol_drogas",
       "subtema": "tasas_alcohol",
       "materia": 4,
-      "enunciado": "Un conductor con diez años de permiso conduce una furgoneta de 3.000 kg de masa máxima autorizada que transporta mercancías peligrosas. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+      "enunciado": "Con diez años de permiso, conduce una furgoneta de 3.000 kg que transporta mercancías peligrosas. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
       "opciones": {
         "a": "0,25 miligramos por litro.",
         "b": "0,15 miligramos por litro.",
@@ -68,11 +68,11 @@
       "tema": "alcohol_drogas",
       "subtema": "pruebas_obligados",
       "materia": 4,
-      "enunciado": "Un agente le denuncia por saltarse un semáforo en rojo, aunque usted no muestra ningún síntoma de haber bebido. ¿Puede someterle a la prueba de alcoholemia?",
+      "enunciado": "Un agente le denuncia por saltarse un semáforo en rojo, aunque no muestra síntomas de haber bebido. ¿Puede someterle a la prueba de alcoholemia?",
       "opciones": {
-        "a": "No, porque solo puede hacerla a quien presenta síntomas evidentes de haber bebido.",
-        "b": "No, porque solo puede hacerla a los conductores implicados en un accidente de circulación.",
-        "c": "Sí, pueden hacerla a los conductores denunciados por cualquier infracción."
+        "a": "No, solo puede hacerla a quien presenta síntomas evidentes de haber bebido.",
+        "b": "No, solo puede hacerla a los implicados en un accidente.",
+        "c": "Sí."
       },
       "correcta": "c",
       "explicacion": "Los agentes de tráfico pueden someter a la prueba de alcoholemia a los conductores denunciados por cometer alguna infracción del Reglamento General de Circulación, aunque no presenten síntomas.",
@@ -99,9 +99,9 @@
       "tema": "alcohol_drogas",
       "subtema": "pruebas_obligados",
       "materia": 4,
-      "enunciado": "Circula con normalidad, sin síntomas de haber bebido y sin haber cometido ninguna infracción, y le paran en un control preventivo de alcoholemia. ¿Debe someterse a la prueba?",
+      "enunciado": "Sin síntomas de haber bebido ni haber cometido ninguna infracción, le paran en un control preventivo de alcoholemia. ¿Debe someterse a la prueba?",
       "opciones": {
-        "a": "Sí, en un control preventivo pueden hacer la prueba a cualquier conductor.",
+        "a": "Sí.",
         "b": "No, porque no ha cometido ninguna infracción ni ha tenido un accidente.",
         "c": "No, salvo que el agente aprecie síntomas evidentes de que ha bebido."
       },
@@ -130,10 +130,10 @@
       "tema": "alcohol_drogas",
       "subtema": "pruebas_practica",
       "materia": 4,
-      "enunciado": "Tras un accidente, un conductor herido es evacuado a un hospital y sus lesiones impiden hacerle la prueba con el etilómetro. ¿Quién decide qué pruebas de alcohol se le hacen?",
+      "enunciado": "Un conductor herido es evacuado a un hospital y sus lesiones impiden hacerle la prueba con el etilómetro. ¿Quién decide qué pruebas de alcohol se le hacen?",
       "opciones": {
-        "a": "El agente de tráfico que instruye el atestado del accidente.",
-        "b": "El personal facultativo del centro médico al que ha sido evacuado.",
+        "a": "El agente de tráfico que instruye el atestado.",
+        "b": "El personal facultativo del centro médico.",
         "c": "El propio conductor o, si no puede, sus familiares."
       },
       "correcta": "b",
@@ -161,11 +161,11 @@
       "tema": "alcohol_drogas",
       "subtema": "pruebas_practica",
       "materia": 4,
-      "enunciado": "Un conductor con más de dos años de permiso da 0,20 mg/l en la primera prueba de alcoholemia, pero presenta síntomas evidentes de estar bajo la influencia del alcohol. ¿Qué hará el agente?",
+      "enunciado": "Un conductor con más de dos años de permiso da 0,20 mg/l en la primera prueba, pero presenta síntomas evidentes de estar bajo la influencia del alcohol. ¿Qué hará el agente?",
       "opciones": {
-        "a": "Dejarle continuar, porque no supera la tasa de 0,25 mg/l.",
-        "b": "Inmovilizar el vehículo y denunciarle, sin hacer ninguna otra prueba.",
-        "c": "Someterle a una segunda prueba por aire espirado, a efectos de contraste."
+        "a": "Dejarle continuar, porque no supera 0,25 mg/l.",
+        "b": "Inmovilizar el vehículo y denunciarle sin más pruebas.",
+        "c": "Hacerle una segunda prueba por aire espirado."
       },
       "correcta": "c",
       "explicacion": "El agente debe hacer una segunda prueba de alcoholemia por aire espirado cuando la primera supera la tasa permitida y también cuando, sin superarla, el conductor presenta síntomas evidentes de estar bajo la influencia del alcohol.",
@@ -192,7 +192,7 @@
       "tema": "alcohol_drogas",
       "subtema": "pruebas_contraste",
       "materia": 4,
-      "enunciado": "Tras dar positivo en la prueba de aire espirado, el conductor decide contrastar el resultado con un análisis de sangre. ¿Adónde le trasladará el agente?",
+      "enunciado": "Tras dar positivo, el conductor pide contrastar el resultado con un análisis de sangre. ¿Adónde le trasladará el agente?",
       "opciones": {
         "a": "Al centro sanitario más próximo al lugar de los hechos.",
         "b": "Al centro de salud que corresponda a su domicilio.",
@@ -223,11 +223,11 @@
       "tema": "alcohol_drogas",
       "subtema": "pruebas_contraste",
       "materia": 4,
-      "enunciado": "Un conductor pide un análisis de sangre para contrastar la prueba de alcoholemia y deposita su importe. Si el análisis da resultado negativo, ¿qué ocurre con el depósito?",
+      "enunciado": "Para contrastar la prueba de alcoholemia, un conductor pide un análisis de sangre y deposita su importe. Si el resultado es negativo, ¿qué ocurre con el depósito?",
       "opciones": {
         "a": "Lo pierde igualmente, porque fue él quien pidió el análisis.",
-        "b": "Se le devuelve, porque el análisis corre a cargo de la Administración.",
-        "c": "Se le devuelve solo la mitad del importe."
+        "b": "Se le devuelve.",
+        "c": "Se le devuelve solo la mitad."
       },
       "correcta": "b",
       "explicacion": "El importe del análisis de contraste se deposita antes; si el resultado es positivo lo paga el interesado y, si es negativo, lo paga la Administración y se devuelve el depósito.",
@@ -285,7 +285,7 @@
       "tema": "alcohol_drogas",
       "subtema": "inmovilizacion",
       "materia": 4,
-      "enunciado": "Su vehículo ha sido inmovilizado y trasladado a un depósito porque usted dio positivo en alcoholemia. ¿Quién paga los gastos de inmovilización, traslado y depósito?",
+      "enunciado": "Su vehículo ha sido inmovilizado y trasladado a un depósito porque dio positivo en alcoholemia. ¿Quién paga esos gastos?",
       "opciones": {
         "a": "El conductor o quien legalmente deba responder por él.",
         "b": "La Administración que ordenó la inmovilización.",
@@ -471,11 +471,11 @@
       "tema": "delitos",
       "subtema": "alcohol_drogas",
       "materia": 4,
-      "enunciado": "Un conductor de turismo da 0,45 mg/l de alcohol en aire espirado, pero circula haciendo eses y con claros síntomas de embriaguez. ¿Puede cometer un delito contra la seguridad vial?",
+      "enunciado": "Un conductor da 0,45 mg/l de alcohol en aire espirado, pero circula haciendo eses y con claros síntomas de embriaguez. ¿Puede cometer un delito?",
       "opciones": {
-        "a": "Sí, conducir bajo la influencia del alcohol es delito aunque no se superen 0,60 mg/l.",
-        "b": "No, porque solo es delito a partir de una tasa superior a 0,60 mg/l.",
-        "c": "No, porque solo sería delito si además causara un accidente con heridos."
+        "a": "Sí, aunque no supere 0,60 mg/l.",
+        "b": "No, porque solo es delito a partir de 0,60 mg/l.",
+        "c": "No, salvo que además cause un accidente con heridos."
       },
       "correcta": "a",
       "explicacion": "El Código Penal castiga a quien conduce un vehículo de motor o un ciclomotor bajo la influencia de bebidas alcohólicas o drogas; por encima de 0,60 mg/l en aire es delito en todo caso, y por debajo también puede serlo si hay influencia.",
@@ -502,11 +502,11 @@
       "tema": "delitos",
       "subtema": "alcohol_drogas",
       "materia": 4,
-      "enunciado": "Un ciclista circula con una tasa de 0,70 mg/l de alcohol en aire espirado. ¿Comete el delito de conducción bajo los efectos del alcohol del artículo 379 del Código Penal?",
+      "enunciado": "Un ciclista circula con 0,70 mg/l de alcohol en aire espirado. ¿Comete el delito de conducción bajo los efectos del alcohol?",
       "opciones": {
         "a": "Sí, como cualquier persona que conduzca con más de 0,60 mg/l.",
-        "b": "No, ese delito se refiere a quien conduce un vehículo de motor o un ciclomotor.",
-        "c": "Sí, pero solo si circula por una vía interurbana o por una autovía."
+        "b": "No, ese delito se refiere a vehículos de motor y ciclomotores.",
+        "c": "Sí, pero solo si circula por una vía interurbana."
       },
       "correcta": "b",
       "explicacion": "El delito del artículo 379 del Código Penal se comete conduciendo un vehículo de motor o un ciclomotor; el ciclista con exceso de alcohol comete una infracción administrativa muy grave, no ese delito.",
@@ -533,7 +533,7 @@
       "tema": "delitos",
       "subtema": "temeridad",
       "materia": 4,
-      "enunciado": "Un conductor circula a 210 km/h por una autovía limitada a 120 km/h y con una tasa de 0,70 mg/l de alcohol en aire espirado. ¿Cómo considera el Código Penal esa conducción?",
+      "enunciado": "Un conductor circula a 210 km/h por una autovía limitada a 120 km/h y con 0,70 mg/l de alcohol en aire espirado. ¿Cómo considera el Código Penal esa conducción?",
       "opciones": {
         "a": "Manifiestamente temeraria.",
         "b": "Solo una infracción administrativa grave.",
@@ -564,7 +564,7 @@
       "tema": "delitos",
       "subtema": "temeridad",
       "materia": 4,
-      "enunciado": "Conducir con temeridad manifiesta y con manifiesto desprecio por la vida de los demás, poniendo en concreto peligro la vida de las personas, ¿qué pena de prisión puede suponer?",
+      "enunciado": "Conducir con temeridad manifiesta y manifiesto desprecio por la vida de los demás, poniéndola en concreto peligro, ¿qué pena de prisión puede suponer?",
       "opciones": {
         "a": "De tres a seis meses.",
         "b": "De dos a cinco años.",
@@ -657,10 +657,10 @@
       "tema": "delitos",
       "subtema": "abandono_lugar",
       "materia": 4,
-      "enunciado": "Un conductor causa de forma fortuita, sin culpa, un accidente con heridos graves y abandona voluntariamente el lugar, sin que haya riesgo para él ni para otros. ¿Comete un delito?",
+      "enunciado": "Sin culpa, un conductor causa un accidente con heridos graves y se va voluntariamente del lugar, sin riesgo para él ni para otros. ¿Comete un delito?",
       "opciones": {
-        "a": "No, porque solo es delito si el accidente se produjo por su culpa.",
-        "b": "Sí, el abandono también es delito aunque el accidente tenga un origen fortuito.",
+        "a": "No, porque solo es delito si el accidente fue culpa suya.",
+        "b": "Sí.",
         "c": "No, siempre que avise después a su compañía de seguros."
       },
       "correcta": "b",
@@ -750,7 +750,7 @@
       "tema": "factores_riesgo",
       "subtema": "estado_animo",
       "materia": 4,
-      "enunciado": "Acaba de tener una discusión fuerte y va a coger el coche. Según la DGT, ¿qué riesgo tiene?",
+      "enunciado": "Acaba de tener una discusión fuerte y va a coger el coche. ¿Qué riesgo tiene?",
       "opciones": {
         "a": "Ninguno, siempre que conozca bien el recorrido.",
         "b": "Perder la concentración y provocar un accidente.",
@@ -781,11 +781,11 @@
       "tema": "factores_riesgo",
       "subtema": "fatiga",
       "materia": 4,
-      "enunciado": "Según la DGT, la fatiga psicológica...",
+      "enunciado": "La fatiga psicológica...",
       "opciones": {
-        "a": "solo produce cansancio en los músculos.",
-        "b": "no afecta a la conducción si se ha descansado físicamente.",
-        "c": "hace que al conductor le cueste más concentrarse."
+        "a": "Solo produce cansancio en los músculos.",
+        "b": "No afecta a la conducción si se ha descansado físicamente.",
+        "c": "Hace que al conductor le cueste más concentrarse."
       },
       "correcta": "c",
       "explicacion": "La fatiga puede ser física o psicológica: la física produce sensación de cansancio y la psicológica hace que cueste más concentrarse.",
@@ -967,7 +967,7 @@
       "tema": "alcohol_drogas",
       "subtema": "efectos_alcohol",
       "materia": 4,
-      "enunciado": "Según la DGT, ¿a qué afecta sobre todo el alcohol?",
+      "enunciado": "¿A qué afecta sobre todo el alcohol?",
       "opciones": {
         "a": "A los músculos de las piernas.",
         "b": "Al oído y al olfato.",
@@ -998,9 +998,9 @@
       "tema": "alcohol_drogas",
       "subtema": "efectos_alcohol",
       "materia": 4,
-      "enunciado": "Según la DGT, ¿cuál es la única tasa de alcoholemia segura para conducir?",
+      "enunciado": "¿Cuál es la única tasa de alcoholemia segura para conducir?",
       "opciones": {
-        "a": "0,0, es decir, no beber alcohol.",
+        "a": "0,0; no beber nada de alcohol.",
         "b": "Cualquiera que no supere el límite legal.",
         "c": "Hasta 0,10 mg/l en aire espirado."
       },
@@ -1032,7 +1032,7 @@
       "enunciado": "Ha bebido mucho alcohol por la noche y solo ha dormido unas pocas horas. ¿Es seguro conducir por la mañana?",
       "opciones": {
         "a": "Sí, porque dormir elimina el alcohol del organismo.",
-        "b": "No, porque el alcohol se elimina más despacio mientras se duerme.",
+        "b": "No, porque el alcohol se elimina más despacio durmiendo.",
         "c": "Sí, siempre que tome un café bien cargado antes de salir."
       },
       "correcta": "b",
@@ -1122,9 +1122,9 @@
       "tema": "medicamentos",
       "subtema": "medicamentos",
       "materia": 4,
-      "enunciado": "Le han recetado un medicamento nuevo. Según la DGT, ¿qué debe hacer antes de conducir?",
+      "enunciado": "Si le recetan un medicamento nuevo, antes de conducir debe...",
       "opciones": {
-        "a": "Nada, porque es un medicamento con receta.",
+        "a": "Nada en especial, porque es un medicamento con receta.",
         "b": "Preguntar al médico si puede conducir con esa medicación.",
         "c": "Conducir y comprobar sobre la marcha si nota algún efecto."
       },
@@ -1155,9 +1155,9 @@
       "materia": 4,
       "enunciado": "Los psicofármacos, que se usan para tratar la depresión, la ansiedad o los trastornos del sueño, pueden producir...",
       "opciones": {
-        "a": "una mejora de los reflejos y de la visión.",
-        "b": "más atención a la conducción y menos cansancio.",
-        "c": "sueño, pérdida de reflejos y visión borrosa."
+        "a": "Una mejora de los reflejos y de la visión.",
+        "b": "Más atención a la conducción y menos cansancio.",
+        "c": "Sueño, pérdida de reflejos y visión borrosa."
       },
       "correcta": "c",
       "explicacion": "Los psicofármacos pueden producir sueño, pérdida de reflejos, mareos, visión borrosa y confusión, efectos peligrosos para conducir.",
@@ -1215,7 +1215,7 @@
       "tema": "factores_riesgo",
       "subtema": "alimentacion",
       "materia": 4,
-      "enunciado": "Según la DGT, ¿cuánto tiempo es recomendable esperar al terminar de comer antes de conducir?",
+      "enunciado": "Al terminar de comer, ¿cuánto tiempo es recomendable esperar antes de conducir?",
       "opciones": {
         "a": "Entre 2 y 3 horas.",
         "b": "Entre 15 y 20 minutos.",
@@ -1246,11 +1246,11 @@
       "tema": "distracciones",
       "subtema": "distracciones",
       "materia": 4,
-      "enunciado": "Según la DGT, ¿en qué conductores son más frecuentes los accidentes por distracciones?",
+      "enunciado": "¿En qué conductores son más frecuentes los accidentes por distracciones?",
       "opciones": {
         "a": "En los conductores de entre 30 y 50 años.",
         "b": "En los conductores profesionales con mucha experiencia.",
-        "c": "En los jóvenes de 18 a 25 años y en los mayores de 70."
+        "c": "En los de 18 a 25 años y en los mayores de 70."
       },
       "correcta": "c",
       "explicacion": "Los accidentes por distracciones son más frecuentes en los conductores jóvenes, de 18 a 25 años, y en los mayores de 70 años.",
@@ -1277,11 +1277,11 @@
       "tema": "distracciones",
       "subtema": "fumar",
       "materia": 4,
-      "enunciado": "Según la DGT, las personas que fuman mientras conducen...",
+      "enunciado": "Las personas que fuman mientras conducen...",
       "opciones": {
-        "a": "sufren el doble de accidentes que las que no fuman.",
-        "b": "tienen el mismo riesgo que las que no fuman.",
-        "c": "sufren menos accidentes, porque fumar las mantiene despiertas."
+        "a": "Sufren el doble de accidentes que las que no fuman.",
+        "b": "Tienen el mismo riesgo que las que no fuman.",
+        "c": "Sufren menos accidentes, porque fumar las mantiene despiertas."
       },
       "correcta": "a",
       "explicacion": "Fumar al volante duplica los accidentes: distrae al buscar y encender el cigarro, ocupa una mano, el humo dificulta la visión y empeora el aire del habitáculo.",
@@ -1556,11 +1556,11 @@
       "tema": "permiso_conduccion",
       "subtema": "permisos_extranjeros",
       "materia": 10,
-      "enunciado": "Una persona con un permiso de la clase B expedido en otro Estado de la Unión Europea, conforme a la normativa comunitaria, quiere conducir un turismo en España. ¿Es válido su permiso?",
+      "enunciado": "Con un permiso de la clase B expedido en otro Estado de la Unión Europea conforme a la normativa comunitaria, ¿se puede conducir un turismo en España?",
       "opciones": {
-        "a": "Sí, mantiene su validez en las condiciones en que fue expedido.",
-        "b": "Solo durante seis meses; después debe canjearlo.",
-        "c": "No, debe obtener un permiso español antes de conducir."
+        "a": "Sí, en las condiciones en que fue expedido.",
+        "b": "Solo durante seis meses; después hay que canjearlo.",
+        "c": "No, hay que obtener antes un permiso español."
       },
       "correcta": "a",
       "explicacion": "Los permisos expedidos en Estados de la Unión Europea o del Espacio Económico Europeo conforme a la normativa comunitaria son válidos en España en las condiciones de su expedición, con la edad mínima exigida para el permiso español equivalente.",
@@ -1587,7 +1587,7 @@
       "tema": "permiso_conduccion",
       "subtema": "permisos_extranjeros",
       "materia": 10,
-      "enunciado": "El titular de un permiso expedido en otro Estado de la Unión Europea fija su residencia normal en España. ¿Qué normas se le aplican sobre vigencia, aptitudes psicofísicas y puntos?",
+      "enunciado": "El titular de un permiso de otro Estado de la Unión Europea fija su residencia normal en España. ¿Qué normas se le aplican sobre vigencia, aptitudes psicofísicas y puntos?",
       "opciones": {
         "a": "Las del Estado que expidió el permiso, mientras no lo canjee.",
         "b": "Las españolas.",
@@ -1618,10 +1618,10 @@
       "tema": "permiso_conduccion",
       "subtema": "permisos_extranjeros",
       "materia": 10,
-      "enunciado": "Un permiso de conducción expedido en un país que no es de la Unión Europea, válido para conducir en España, ¿durante cuánto tiempo puede usarse desde que su titular adquiere la residencia normal en España?",
+      "enunciado": "Un permiso expedido fuera de la Unión Europea y válido en España, ¿durante cuánto tiempo puede usarse desde que su titular reside normalmente en España?",
       "opciones": {
-        "a": "Dos años como máximo desde que fija su residencia.",
-        "b": "Sin límite, mientras el permiso esté en vigor.",
+        "a": "Dos años como máximo.",
+        "b": "Sin límite, mientras esté en vigor.",
         "c": "Seis meses como máximo, salvo que un convenio diga otra cosa."
       },
       "correcta": "c",
@@ -1742,10 +1742,10 @@
       "tema": "permiso_conduccion",
       "subtema": "conductor_novel",
       "materia": 10,
-      "enunciado": "Durante su primer año con permiso, una autoridad le interviene el permiso durante tres meses. ¿Qué ocurre con el plazo durante el que debe llevar la señal de conductor novel (V-13)?",
+      "enunciado": "Durante su primer año con permiso, una autoridad se lo interviene durante tres meses. ¿Qué ocurre con el plazo en el que debe llevar la señal de conductor novel?",
       "opciones": {
-        "a": "Se suspende y, cuando termina la intervención, sigue contando desde donde se quedó.",
-        "b": "Sigue contando con normalidad mientras dura la intervención del permiso.",
+        "a": "Se suspende y, al acabar la intervención, sigue contando desde donde se quedó.",
+        "b": "Sigue contando con normalidad durante la intervención.",
         "c": "Vuelve a empezar desde cero cuando le devuelven el permiso."
       },
       "correcta": "a",
@@ -1844,9 +1844,9 @@
       "tema": "puntos",
       "subtema": "perdida_puntos",
       "materia": 10,
-      "enunciado": "Un conductor con permiso B comete, mientras circula en bicicleta, una infracción que lleva aparejada la pérdida de puntos. ¿Pierde puntos de su permiso?",
+      "enunciado": "Un conductor con permiso B, mientras circula en bicicleta, comete una infracción que lleva aparejada la pérdida de puntos. ¿Pierde puntos de su permiso?",
       "opciones": {
-        "a": "No, porque la bicicleta no exige permiso de conducción.",
+        "a": "No.",
         "b": "Sí, los mismos puntos que si condujera un turismo.",
         "c": "Sí, pero solo la mitad de los puntos."
       },
@@ -2462,9 +2462,9 @@
       "materia": 10,
       "enunciado": "Tras una ITV desfavorable, repara el vehículo. ¿Dónde puede pasar la nueva inspección?",
       "opciones": {
-        "a": "Solo en la misma estación donde le hicieron la primera inspección.",
+        "a": "Solo en la estación donde le hicieron la primera inspección.",
         "b": "Solo en una estación de la provincia donde se matriculó el vehículo.",
-        "c": "En la estación ITV que elija, porque hay libertad de elección."
+        "c": "En la estación que elija."
       },
       "correcta": "c",
       "explicacion": "El titular puede elegir libremente la estación ITV tanto para la primera inspección como para las sucesivas tras reparar los defectos.",
@@ -2520,10 +2520,10 @@
       "tema": "itv",
       "subtema": "plazos",
       "materia": 10,
-      "enunciado": "La ITV de su turismo caduca el 30 de junio y la pasa con resultado favorable el 15 de junio. ¿Desde qué fecha se cuenta el plazo de la siguiente inspección?",
+      "enunciado": "La ITV de su turismo caduca el 30 de junio y la pasa favorablemente el 15 de junio. ¿Desde qué fecha se cuenta el plazo de la siguiente?",
       "opciones": {
-        "a": "Desde el 15 de junio, fecha en que la ha pasado.",
-        "b": "Desde el 30 de junio, fecha en que caducaba la anterior.",
+        "a": "Desde el 15 de junio.",
+        "b": "Desde el 30 de junio.",
         "c": "Desde el 1 de enero del año siguiente."
       },
       "correcta": "b",
@@ -2670,9 +2670,9 @@
       "tema": "seguro",
       "subtema": "exclusiones",
       "materia": 10,
-      "enunciado": "Una persona sin permiso de conducir causa un accidente con un coche que tiene seguro obligatorio. ¿Puede la aseguradora negarse a indemnizar a las víctimas por ese motivo?",
+      "enunciado": "Una persona sin permiso de conducir causa un accidente con un coche asegurado. ¿Puede la aseguradora negarse por ese motivo a indemnizar a las víctimas?",
       "opciones": {
-        "a": "No, esa exclusión no puede oponerse frente a los perjudicados.",
+        "a": "No.",
         "b": "Sí, el seguro no cubre a conductores sin permiso.",
         "c": "Sí, salvo que el conductor sea el propietario del coche."
       },
@@ -2851,7 +2851,7 @@
       "tema": "transporte_personas",
       "subtema": "plazas",
       "materia": 12,
-      "enunciado": "Lleva todas las plazas de su furgoneta ocupadas y el maletero lleno de equipaje. ¿Qué límite no puede sobrepasarse en ningún caso entre viajeros y equipaje?",
+      "enunciado": "Lleva todas las plazas de su furgoneta ocupadas y el maletero lleno. ¿Qué límite no pueden sobrepasar en ningún caso viajeros y equipaje?",
       "opciones": {
         "a": "La masa máxima autorizada del vehículo.",
         "b": "La tara del vehículo.",
@@ -3008,9 +3008,9 @@
       "materia": 12,
       "enunciado": "¿Puede un viajero subir con su perro a un autobús de servicio público?",
       "opciones": {
-        "a": "Solo si hay sitio destinado a animales, salvo el perro lazarillo de un invidente.",
+        "a": "Solo si hay sitio destinado a animales, salvo el perro guía de un invidente.",
         "b": "Sí, cualquier animal, siempre que lo lleve en brazos.",
-        "c": "No; ningún animal, ni siquiera un perro lazarillo."
+        "c": "No, ningún animal, ni siquiera un perro guía."
       },
       "correcta": "a",
       "explicacion": "En el transporte público colectivo está prohibido llevar animales salvo que exista un lugar destinado a ellos; se exceptúan, bajo su responsabilidad, las personas invidentes acompañadas de su perro lazarillo.",
@@ -3316,10 +3316,10 @@
       "tema": "carga",
       "subtema": "senal_V20",
       "materia": 12,
-      "enunciado": "Su furgoneta lleva unos tubos que sobresalen por detrás ocupando toda la anchura posterior del vehículo. ¿Cómo debe señalizarlos con paneles como el de la imagen?",
+      "enunciado": "Su furgoneta lleva unos tubos que sobresalen por detrás ocupando toda su anchura. ¿Cómo debe señalizarlos con paneles como este?",
       "opciones": {
-        "a": "Con un solo panel, colocado en el centro de la carga.",
-        "b": "Con dos paneles, uno en cada extremo de la carga, formando una V invertida.",
+        "a": "Con un solo panel, en el centro de la carga.",
+        "b": "Con dos paneles, uno en cada extremo, formando una V invertida.",
         "c": "Con un panel en el techo de la cabina, visible desde lejos."
       },
       "correcta": "b",
@@ -3356,9 +3356,9 @@
       "tema": "carga",
       "subtema": "senal_V20",
       "materia": 12,
-      "enunciado": "¿Dónde debe colocarse la señal V-20 cuando la carga sobresale por detrás del vehículo?",
+      "enunciado": "¿Dónde debe colocarse esta señal cuando la carga sobresale por detrás del vehículo?",
       "opciones": {
-        "a": "En la parte delantera del vehículo, junto a la placa de matrícula.",
+        "a": "En la parte delantera del vehículo, junto a la matrícula.",
         "b": "En el techo del vehículo, para que se vea desde lejos.",
         "c": "En el extremo posterior de la carga, perpendicular al eje del vehículo."
       },
@@ -3396,7 +3396,7 @@
       "tema": "carga",
       "subtema": "carga_sobresale",
       "materia": 12,
-      "enunciado": "De noche, la carga de su vehículo sobresale lateralmente y su extremo queda a más de 0,40 metros del borde exterior de las luces de posición. ¿Cómo debe señalizarse hacia delante?",
+      "enunciado": "De noche, la carga sobresale lateralmente más de 0,40 metros del borde exterior de las luces de posición. ¿Cómo debe señalizarse hacia delante?",
       "opciones": {
         "a": "Con una luz blanca y un dispositivo reflectante blanco.",
         "b": "Con una luz roja y un dispositivo reflectante rojo.",
@@ -3551,11 +3551,11 @@
       "tema": "carga",
       "subtema": "exceso_peso",
       "materia": 12,
-      "enunciado": "Según la DGT, ¿qué puede ocurrir si un vehículo lleva más peso del que debe?",
+      "enunciado": "¿Qué puede ocurrir si un vehículo lleva más peso del que debe?",
       "opciones": {
         "a": "Que mejore su estabilidad y su agarre en las curvas.",
         "b": "Que consuma menos combustible en los viajes largos.",
-        "c": "Que se estropeen elementos como los neumáticos y los frenos."
+        "c": "Que se estropeen los neumáticos y los frenos, entre otros elementos."
       },
       "correcta": "c",
       "explicacion": "Cuando un vehículo carga más peso del debido se estropean algunos de sus elementos, como los neumáticos, los sistemas de aceleración y los frenos.",
@@ -3613,7 +3613,7 @@
       "tema": "remolques",
       "subtema": "masa_remolcable",
       "materia": 12,
-      "enunciado": "Según el Reglamento General de Vehículos, ¿cuál es como máximo la masa remolcable sin freno de un turismo cuya tara es de 1.000 kg?",
+      "enunciado": "¿Cuál es como máximo la masa remolcable sin freno de un turismo cuya tara es de 1.000 kg?",
       "opciones": {
         "a": "750 kg.",
         "b": "575 kg.",
@@ -3644,7 +3644,7 @@
       "tema": "remolques",
       "subtema": "masa_remolcable",
       "materia": 12,
-      "enunciado": "Un turismo, que no es todoterreno, tiene 1.800 kg de masa máxima autorizada. Según el Reglamento General de Vehículos, ¿cuál es como máximo su masa remolcable con un remolque que solo tiene freno de inercia?",
+      "enunciado": "Un turismo que no es todoterreno tiene 1.800 kg de masa máxima autorizada. ¿Cuál es como máximo su masa remolcable con un remolque que solo tiene freno de inercia?",
       "opciones": {
         "a": "750 kg.",
         "b": "2.700 kg.",

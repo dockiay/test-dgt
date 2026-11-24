@@ -119,7 +119,7 @@
       "opciones": {
         "a": "Un turismo con más de nueve plazas.",
         "b": "Una furgoneta con dos filas de asientos.",
-        "c": "Un automóvil para servicios o transporte exclusivo de mercancías que conserva la carrocería del turismo del que deriva y tiene una sola fila de asientos."
+        "c": "Un automóvil de mercancías que conserva la carrocería del turismo y tiene una sola fila de asientos."
       },
       "correcta": "c",
       "explicacion": "El derivado de turismo sale de un turismo, conserva su carrocería y solo tiene una fila de asientos; se destina a servicios o a transporte de mercancías.",
@@ -146,9 +146,9 @@
       "id": "res-def-0004",
       "tema": "definiciones",
       "subtema": "vmp",
-      "enunciado": "Según el Reglamento General de Vehículos, un patinete eléctrico (vehículo de movilidad personal), ¿es un «vehículo a motor»?",
+      "enunciado": "Un patinete eléctrico (vehículo de movilidad personal), ¿es un vehículo de motor?",
       "opciones": {
-        "a": "No: aunque tiene motor, el Reglamento lo excluye expresamente de la definición de vehículo a motor.",
+        "a": "No.",
         "b": "Solo cuando circula por vías interurbanas.",
         "c": "Sí, porque tiene motor eléctrico."
       },
@@ -241,7 +241,7 @@
       "subtema": "peatones_autopista",
       "enunciado": "¿Puede un peatón circular por una autovía?",
       "opciones": {
-        "a": "No, salvo en los casos y condiciones que fija el reglamento (por ejemplo, al salir del vehículo por una emergencia).",
+        "a": "No, salvo en los casos que fija el reglamento, como una emergencia.",
         "b": "Sí, por el arcén y de día.",
         "c": "Sí, si lleva chaleco reflectante."
       },
@@ -270,10 +270,10 @@
       "id": "res-via-0002",
       "tema": "vias",
       "subtema": "peatones_autopista",
-      "enunciado": "En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop (pedir que te lleven)?",
+      "enunciado": "En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop?",
       "opciones": {
         "a": "Sí, si se hace fuera de los carriles de pago.",
-        "b": "No, está prohibido pedir pasaje en cualquier tramo de la autopista, incluidas las explanadas de peaje.",
+        "b": "No.",
         "c": "Sí, porque la explanada no es calzada."
       },
       "correcta": "b",
@@ -303,9 +303,9 @@
       "subtema": "animales_autopista",
       "enunciado": "¿Puede circular una persona a caballo por el arcén de una autovía?",
       "opciones": {
-        "a": "Sí, siempre que vaya por el arcén.",
+        "a": "Sí, si no entorpece la circulación.",
         "b": "Solo de día.",
-        "c": "No, está prohibida la circulación de animales por autopistas y autovías."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "Se prohíbe la circulación de animales por autopistas y autovías; la prohibición incluye también los vehículos de tracción animal.",
@@ -334,7 +334,7 @@
       "subtema": "silla_ruedas",
       "enunciado": "Una persona en silla de ruedas circula sola por una carretera sin acera ni zona peatonal practicable. Como norma general, ¿por dónde debe ir?",
       "opciones": {
-        "a": "Por el arcén izquierdo en el sentido de su marcha (o por la calzada si no hay arcén), lo más alejada posible de los vehículos.",
+        "a": "Por el arcén izquierdo o, si no lo hay, por la calzada, lo más alejada posible de los vehículos.",
         "b": "Por el centro de la calzada, para que la vean.",
         "c": "Por el arcén derecho, como los vehículos."
       },
@@ -402,7 +402,7 @@
       "id": "res-cesp-0002",
       "tema": "carriles_especiales",
       "subtema": "sentido_contrario",
-      "enunciado": "Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. ¿A qué velocidad debe circular, salvo señal de otra inferior?",
+      "enunciado": "Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. Salvo señal de otra inferior, ¿a qué velocidad debe circular?",
       "opciones": {
         "a": "Como máximo a 50 km/h.",
         "b": "A la velocidad genérica de la vía.",
@@ -433,9 +433,9 @@
       "id": "res-cesp-0003",
       "tema": "carriles_especiales",
       "subtema": "sentido_contrario",
-      "enunciado": "Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido dispone de dos carriles. ¿A qué velocidad puede circular?",
+      "enunciado": "Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido hay dos carriles. ¿A qué velocidad puede circular?",
       "opciones": {
-        "a": "A las velocidades genéricas de la vía (máximas y mínimas).",
+        "a": "A las velocidades genéricas de la vía.",
         "b": "Obligatoriamente entre 60 y 80 km/h.",
         "c": "Como máximo a 60 km/h."
       },
@@ -467,7 +467,7 @@
       "enunciado": "Los vehículos que circulan por el carril contiguo a uno habilitado en sentido contrario al habitual, ¿qué alumbrado deben llevar?",
       "opciones": {
         "a": "La luz de largo alcance.",
-        "b": "Al menos la luz de corto alcance o de cruce, de día y de noche.",
+        "b": "Al menos la de cruce, de día y de noche.",
         "c": "Ninguno especial de día."
       },
       "correcta": "b",
@@ -495,7 +495,7 @@
       "id": "res-dist-0001",
       "tema": "distancias",
       "subtema": "distancia_frontal",
-      "enunciado": "Según el manual de la DGT, ¿qué separación es aconsejable dejar con el vehículo de delante en condiciones normales?",
+      "enunciado": "En condiciones normales, ¿qué separación es aconsejable dejar con el vehículo de delante?",
       "opciones": {
         "a": "Un segundo.",
         "b": "Cinco segundos.",
@@ -526,7 +526,7 @@
       "id": "res-dist-0002",
       "tema": "distancias",
       "subtema": "distancia_frontal",
-      "enunciado": "Según el manual de la DGT, si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?",
+      "enunciado": "Si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?",
       "opciones": {
         "a": "Al menos un segundo más.",
         "b": "Hay que duplicarla siempre.",
@@ -557,7 +557,7 @@
       "id": "res-vel-0001",
       "tema": "velocidad",
       "subtema": "vehiculos_especiales",
-      "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción puede superar los 60 km/h en llano y cumple sus normas técnicas, ¿a qué velocidad máxima puede circular?",
+      "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción supera los 60 km/h en llano y cumple sus normas técnicas, ¿a qué velocidad máxima puede circular?",
       "opciones": {
         "a": "40 km/h.",
         "b": "70 km/h.",
@@ -592,7 +592,7 @@
       "opciones": {
         "a": "Solo en bajadas, hasta 60 km/h.",
         "b": "No, nunca.",
-        "c": "Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior."
+        "c": "Sí, donde las circunstancias de la vía lo permitan."
       },
       "correcta": "c",
       "explicacion": "El límite de 45 km/h es para ciclos, ciclomotores y cuadriciclos ligeros, pero los conductores de bicicletas pueden superarlo donde las circunstancias de la vía lo permitan.",
@@ -778,7 +778,7 @@
       "opciones": {
         "a": "Exento hasta los 2 años; después, cada año.",
         "b": "Cada año desde la matriculación.",
-        "c": "Exento hasta los 4 años; cada dos años hasta los 10; y después, cada año."
+        "c": "Exento hasta los 4 años; cada dos hasta los 10; después, cada año."
       },
       "correcta": "c",
       "explicacion": "Turismos (M1): exentos hasta 4 años, bienal de 4 a 10 años y anual a partir de 10. No se aplica a taxis, ambulancias, autoescuelas ni transporte escolar, que tienen plazos más cortos.",
@@ -807,8 +807,8 @@
       "subtema": "itv",
       "enunciado": "Una furgoneta de 3.500 kg de MMA o menos (categoría N1), ¿con qué frecuencia debe pasar la ITV?",
       "opciones": {
-        "a": "Exenta hasta 2 años; cada dos años de 2 a 6; cada año de 6 a 10; y cada seis meses a partir de 10.",
-        "b": "Exenta hasta 4 años y después cada dos años.",
+        "a": "Exenta hasta los 2 años; cada dos años hasta los 6; cada año hasta los 10; después, cada seis meses.",
+        "b": "Exenta hasta los 4 años y después cada dos años.",
         "c": "Cada año desde la matriculación."
       },
       "correcta": "a",
@@ -871,7 +871,7 @@
       "opciones": {
         "a": "Sí, con normalidad durante dos meses.",
         "b": "No, debe trasladarse en grúa.",
-        "c": "Solo para llevarlo al taller y volver a la ITV, en un plazo no superior a dos meses."
+        "c": "Solo para llevarlo al taller y volver a la ITV, en un plazo de dos meses como máximo."
       },
       "correcta": "c",
       "explicacion": "Los defectos graves inhabilitan para circular, salvo para ir al taller o regularizar la situación y volver a la ITV en un plazo no superior a dos meses.",
@@ -900,7 +900,7 @@
       "subtema": "itv",
       "enunciado": "Si la ITV es negativa (defectos muy graves), ¿cómo se traslada el vehículo desde la estación?",
       "opciones": {
-        "a": "Por medios ajenos al propio vehículo (por ejemplo, en grúa).",
+        "a": "Por medios ajenos al propio vehículo, como una grúa.",
         "b": "Conduciéndolo, pero solo de día.",
         "c": "Conduciéndolo directamente al taller."
       },
@@ -932,7 +932,7 @@
       "enunciado": "El seguro obligatorio del vehículo causante de un accidente, ¿cubre las lesiones de su propio conductor?",
       "opciones": {
         "a": "Sí, siempre.",
-        "b": "No, el seguro obligatorio no cubre las lesiones ni el fallecimiento del conductor del vehículo causante.",
+        "b": "No.",
         "c": "Solo si llevaba puesto el cinturón."
       },
       "correcta": "b",
@@ -993,8 +993,8 @@
       "subtema": "seguro_obligatorio",
       "enunciado": "Un remolque de 600 kg de masa máxima autorizada, ¿necesita su propio seguro obligatorio?",
       "opciones": {
-        "a": "No, los remolques de hasta 750 kg de MMA están exceptuados.",
-        "b": "Sí, todos los remolques.",
+        "a": "No.",
+        "b": "Sí, como todos los remolques.",
         "c": "Solo si circula de noche."
       },
       "correcta": "a",
@@ -1025,7 +1025,7 @@
       "enunciado": "Un turismo arrastra un remolque ligero. ¿Debe llevar extintor?",
       "opciones": {
         "a": "Solo si el remolque supera 750 kg.",
-        "b": "Sí, porque turismo y remolque forman un conjunto de vehículos, y los conjuntos no especiales deben llevar extintor.",
+        "b": "Sí.",
         "c": "No, solo los camiones y autobuses."
       },
       "correcta": "b",
@@ -1125,9 +1125,9 @@
       "subtema": "a2",
       "enunciado": "¿Qué limita el permiso A2?",
       "opciones": {
-        "a": "La cilindrada de la moto, como máximo 500 cm³.",
-        "b": "La potencia de la moto: como máximo 35 kW y 0,2 kW/kg, y que no derive de un vehículo con más del doble de potencia.",
-        "c": "Nada: autoriza cualquier motocicleta."
+        "a": "La cilindrada de la motocicleta, como máximo 500 cm³.",
+        "b": "La potencia de la motocicleta, como máximo 35 kW y 0,2 kW/kg.",
+        "c": "Nada, autoriza cualquier motocicleta."
       },
       "correcta": "b",
       "explicacion": "El A2 se define por la potencia (máximo 35 kW y relación potencia/peso de 0,2 kW/kg), no por la cilindrada.",
@@ -1247,7 +1247,7 @@
       "id": "res-alc-0001",
       "tema": "alcohol_drogas",
       "subtema": "tasas",
-      "enunciado": "Una persona adulta que conduce un patinete eléctrico (vehículo de movilidad personal), con carácter general, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+      "enunciado": "Con carácter general, ¿qué tasa máxima de alcohol en aire espirado puede tener un adulto que conduce un patinete eléctrico?",
       "opciones": {
         "a": "0 mg/l.",
         "b": "0,15 mg/l.",
@@ -1278,7 +1278,7 @@
       "id": "res-fat-0001",
       "tema": "factores_riesgo",
       "subtema": "somnolencia",
-      "enunciado": "Al volante empieza a notar los primeros síntomas de sueño. Según el manual de la DGT, ¿qué debe hacer?",
+      "enunciado": "Al volante empieza a notar los primeros síntomas de sueño. ¿Qué debe hacer?",
       "opciones": {
         "a": "Parar en un lugar seguro y dormir 20 o 30 minutos.",
         "b": "Tomar un café y seguir conduciendo.",
@@ -1309,10 +1309,10 @@
       "id": "res-seg-0004",
       "tema": "conduccion_segura",
       "subtema": "volante",
-      "enunciado": "Según el manual de la DGT, al girar el volante, ¿se deben cruzar las manos?",
+      "enunciado": "Al girar el volante, ¿se deben cruzar las manos?",
       "opciones": {
         "a": "Sí, para girar más rápido.",
-        "b": "No: el volante se coge sin cruzar las manos al girarlo.",
+        "b": "No.",
         "c": "Solo en las curvas cerradas."
       },
       "correcta": "b",
@@ -1340,11 +1340,11 @@
       "id": "res-acc-0001",
       "tema": "accidentes",
       "subtema": "estadistica",
-      "enunciado": "Según el manual de la DGT, ¿cuándo hay más accidentes?",
+      "enunciado": "¿Cuándo hay más accidentes?",
       "opciones": {
         "a": "Los lunes laborables a mediodía.",
         "b": "Los martes y miércoles por la mañana.",
-        "c": "Los fines de semana y los días de fiesta, en especial de madrugada."
+        "c": "Los fines de semana y festivos, sobre todo de madrugada."
       },
       "correcta": "c",
       "explicacion": "El manual de la DGT indica que hay más accidentes los fines de semana y los días de fiesta, en especial en las horas de la madrugada.",

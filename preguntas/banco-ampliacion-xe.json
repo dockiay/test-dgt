@@ -130,11 +130,11 @@
       "tema": "accidentes",
       "subtema": "obligaciones_implicados",
       "materia": 11,
-      "enunciado": "En un accidente en el que está implicado solo hay heridas claramente leves, la seguridad de la circulación está restablecida y ningún implicado lo solicita. ¿Debe avisar a los agentes y quedarse en el lugar?",
+      "enunciado": "En un accidente en el que está implicado solo hay heridos claramente leves, la circulación es segura y nadie lo pide. ¿Debe avisar a los agentes y quedarse en el lugar?",
       "opciones": {
-        "a": "Sí; con cualquier herido hay que esperar siempre a los agentes.",
-        "b": "No; en ese caso no es necesario avisar ni permanecer en el lugar.",
-        "c": "Sí; debe esperar al menos una hora antes de marcharse."
+        "a": "Sí, con cualquier herido hay que esperar siempre a los agentes.",
+        "b": "No.",
+        "c": "Sí, debe esperar al menos una hora antes de marcharse."
       },
       "correcta": "b",
       "explicacion": "Cuando solo hay heridas claramente leves, la seguridad de la circulación está restablecida y ninguno de los implicados lo solicita, no es necesario avisar a la autoridad ni permanecer en el lugar del accidente.",
@@ -223,10 +223,10 @@
       "tema": "accidentes",
       "subtema": "testigos",
       "materia": 11,
-      "enunciado": "Es testigo de un accidente, pero no puede hacer nada por ayudar. Según el manual de la DGT, ¿qué es lo mejor?",
+      "enunciado": "Es testigo de un accidente, pero no puede hacer nada por ayudar. ¿Qué es lo mejor?",
       "opciones": {
-        "a": "Detenerse en el arcén para ver cómo trabajan los equipos de emergencia.",
-        "b": "Seguir circulando para no estorbar en el lugar del accidente.",
+        "a": "Detenerse en el arcén para ver cómo trabajan los servicios de emergencia.",
+        "b": "Seguir circulando para no estorbar.",
         "c": "Parar en la calzada junto al accidente por si más tarde necesitan ayuda."
       },
       "correcta": "b",
@@ -285,7 +285,7 @@
       "tema": "accidentes",
       "subtema": "conducta_pas",
       "materia": 11,
-      "enunciado": "Según el manual de la DGT, ¿en qué momento es muy importante seguir la regla PAS?",
+      "enunciado": "¿En qué momento es muy importante seguir la regla PAS?",
       "opciones": {
         "a": "En los primeros 10 minutos después del accidente.",
         "b": "Solo cuando ya han llegado los servicios de emergencia.",
@@ -378,7 +378,7 @@
       "tema": "accidentes",
       "subtema": "conducta_pas",
       "materia": 11,
-      "enunciado": "En un accidente se ha producido un pequeño incendio en un vehículo. Según el manual de la DGT, ¿con qué no se debe intentar apagarlo?",
+      "enunciado": "En un accidente se ha producido un pequeño incendio en un vehículo. ¿Con qué no se debe intentar apagarlo?",
       "opciones": {
         "a": "Con agua.",
         "b": "Con un extintor.",
@@ -440,9 +440,9 @@
       "tema": "accidentes",
       "subtema": "conducta_pas",
       "materia": 11,
-      "enunciado": "Presencia un accidente en una carretera y no tiene teléfono móvil. Según el manual de la DGT, ¿cómo puede avisar?",
+      "enunciado": "Presencia un accidente en carretera y no tiene teléfono móvil. ¿Cómo puede avisar?",
       "opciones": {
-        "a": "No puede: solo se avisa llamando al 112 con un móvil.",
+        "a": "No puede; solo se avisa llamando al 112 con un móvil.",
         "b": "Haciendo ráfagas de luz a los vehículos que pasen.",
         "c": "Yendo al poste SOS más cercano."
       },
@@ -502,11 +502,11 @@
       "tema": "primeros_auxilios",
       "subtema": "normas_socorrer",
       "materia": 11,
-      "enunciado": "No está seguro de cómo atender a un herido. Según el manual de la DGT, ¿qué es lo mejor?",
+      "enunciado": "No está seguro de cómo atender a un herido. ¿Qué es lo mejor?",
       "opciones": {
         "a": "Moverle a una postura más cómoda.",
         "b": "Darle de beber para que se tranquilice.",
-        "c": "Hablarle y darle apoyo emocional, sin tocarle ni moverle."
+        "c": "Hablarle y apoyarle, sin tocarle ni moverle."
       },
       "correcta": "c",
       "explicacion": "Según el manual de la DGT, en caso de duda es mejor hablar a los heridos y darles apoyo emocional, sin tocarlos ni moverlos, porque se podrían empeorar sus heridas.",
@@ -533,7 +533,7 @@
       "tema": "primeros_auxilios",
       "subtema": "mover_heridos",
       "materia": 11,
-      "enunciado": "Para sacar a un herido de su vehículo, tras pasar los brazos por debajo de sus axilas, ¿qué se sujeta con una mano mientras con la otra se coge su brazo?",
+      "enunciado": "Para sacar a un herido del vehículo, tras pasarle los brazos por debajo de las axilas, ¿qué se le sujeta con una mano mientras con la otra se coge su brazo?",
       "opciones": {
         "a": "La cintura.",
         "b": "La barbilla.",
@@ -564,7 +564,7 @@
       "tema": "primeros_auxilios",
       "subtema": "constantes_vitales",
       "materia": 11,
-      "enunciado": "Para saber si un herido está consciente le pregunta «¿Estás bien?» y no contesta. ¿Qué indica el manual de la DGT?",
+      "enunciado": "Para saber si un herido está consciente, le pregunta si está bien y no contesta. ¿Qué se debe hacer?",
       "opciones": {
         "a": "Echarle agua fría en la cara.",
         "b": "Sacudirle con fuerza por los hombros.",
@@ -936,10 +936,10 @@
       "tema": "primeros_auxilios",
       "subtema": "traslado",
       "materia": 11,
-      "enunciado": "Según el manual de la DGT, ¿en qué caso se puede llevar a un herido al hospital sin esperar a la ambulancia?",
+      "enunciado": "¿En qué caso se puede llevar a un herido al hospital sin esperar a la ambulancia?",
       "opciones": {
         "a": "Si el herido está consciente y pide que lo lleven.",
-        "b": "Si el accidente ocurre en un lugar aislado donde no se puede pedir ayuda.",
+        "b": "Si el accidente es en un lugar aislado donde no se puede pedir ayuda.",
         "c": "Si la ambulancia tarda más de 10 minutos en llegar."
       },
       "correcta": "b",
@@ -1122,7 +1122,7 @@
       "tema": "mecanica",
       "subtema": "lubricacion",
       "materia": 14,
-      "enunciado": "Sale humo blanco azulado por el tubo de escape. Según el manual de la DGT, ¿qué indica?",
+      "enunciado": "Sale humo blanco azulado por el tubo de escape. ¿Qué indica?",
       "opciones": {
         "a": "Que el filtro del aire está sucio.",
         "b": "Que falta líquido de frenos.",
@@ -1339,11 +1339,11 @@
       "tema": "mecanica",
       "subtema": "direccion",
       "materia": 14,
-      "enunciado": "En una recta, al soltar el volante el vehículo se desvía hacia un lado. Según el manual de la DGT, ¿qué puede ocurrir?",
+      "enunciado": "Si en una recta, al soltar el volante, el vehículo se desvía hacia un lado, puede deberse a que...",
       "opciones": {
-        "a": "Que el filtro del aire esté sucio.",
-        "b": "Que unos neumáticos estén más inflados que otros.",
-        "c": "Que el aceite del motor sea demasiado espeso."
+        "a": "El filtro del aire está sucio.",
+        "b": "Unos neumáticos están más inflados que otros.",
+        "c": "El aceite del motor es demasiado espeso."
       },
       "correcta": "b",
       "explicacion": "Según el manual de la DGT, si el vehículo se desvía hacia un lado al soltar el volante en un terreno recto, puede que unos neumáticos estén más inflados que otros.",
@@ -2176,11 +2176,11 @@
       "tema": "seguridad_pasiva",
       "subtema": "cinturon_obligatoriedad",
       "materia": 15,
-      "enunciado": "Según el Reglamento General de Circulación, ¿quiénes están obligados a usar el cinturón, el casco y demás elementos de protección?",
+      "enunciado": "¿Quiénes están obligados a usar el cinturón, el casco y demás elementos de protección?",
       "opciones": {
         "a": "Solo los conductores, que responden por todos los ocupantes.",
         "b": "Solo los ocupantes de los asientos delanteros.",
-        "c": "Los conductores y los ocupantes de vehículos a motor y ciclomotores."
+        "c": "Los conductores y ocupantes de vehículos de motor y ciclomotores."
       },
       "correcta": "c",
       "explicacion": "Conductores y ocupantes de vehículos a motor y ciclomotores están obligados a usar el cinturón, el casco y demás elementos de protección en los casos y con las excepciones que fija el Reglamento.",
@@ -2331,7 +2331,7 @@
       "tema": "seguridad_pasiva",
       "subtema": "sri",
       "materia": 15,
-      "enunciado": "Lleva en un turismo a tres niños de 120 cm y en los asientos traseros solo se pueden instalar dos sistemas de retención infantil. ¿Dónde puede viajar el tercero?",
+      "enunciado": "Lleva en un turismo a tres niños de 120 cm y detrás solo caben dos sistemas de retención infantil. ¿Dónde puede viajar el tercero?",
       "opciones": {
         "a": "Detrás, solo con el cinturón de adulto.",
         "b": "Detrás, en brazos de un adulto.",
@@ -2393,9 +2393,9 @@
       "tema": "seguridad_pasiva",
       "subtema": "cinturon_exenciones",
       "materia": 15,
-      "enunciado": "Un conductor tiene un certificado de exención del cinturón por razones médicas graves expedido en otro Estado de la Unión Europea. ¿Es válido en España?",
+      "enunciado": "Un conductor tiene un certificado de exención del cinturón por razones médicas graves expedido en otro Estado de la Unión Europea. ¿Vale en España?",
       "opciones": {
-        "a": "No; necesita un certificado expedido en España.",
+        "a": "No, necesita un certificado expedido en España.",
         "b": "Sí, acompañado de su traducción oficial.",
         "c": "Sí, pero solo durante los seis primeros meses."
       },
@@ -2424,11 +2424,11 @@
       "tema": "seguridad_pasiva",
       "subtema": "cinturon_exenciones",
       "materia": 15,
-      "enunciado": "Un sanitario va atendiendo a un paciente en el habitáculo de una ambulancia asistencial en servicio de urgencia, por una autovía. ¿Debe llevar el cinturón?",
+      "enunciado": "Por una autovía, un sanitario atiende a un paciente en una ambulancia en servicio de urgencia. ¿Debe llevar el cinturón?",
       "opciones": {
-        "a": "Sí; fuera de poblado nadie está exento del cinturón.",
+        "a": "Sí, fuera de poblado nadie está exento del cinturón.",
         "b": "Sí, salvo que la ambulancia vaya a menos de 50 km/h.",
-        "c": "No; en ese caso está exento en todo tipo de vías."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "Los pasajeros de ambulancias asistenciales que, en servicio de urgencia, ocupan el habitáculo del paciente para prestarle asistencia en ruta están exentos del cinturón en todo tipo de vías.",
@@ -2486,10 +2486,10 @@
       "tema": "seguridad_pasiva",
       "subtema": "cinturon_exenciones",
       "materia": 15,
-      "enunciado": "Un repartidor que baja continuamente de su furgoneta para entregar paquetes circula por ciudad. Según el Reglamento General de Circulación vigente, ¿puede ir sin cinturón?",
+      "enunciado": "Un repartidor que baja continuamente de su furgoneta para entregar paquetes circula por ciudad. ¿Puede ir sin cinturón?",
       "opciones": {
         "a": "Sí, siempre que circule en poblado.",
-        "b": "No; el Reglamento no recoge esa exención.",
+        "b": "No.",
         "c": "Sí, en cualquier tipo de vía."
       },
       "correcta": "b",
@@ -2610,11 +2610,11 @@
       "tema": "seguridad_activa",
       "subtema": "activa_pasiva",
       "materia": 15,
-      "enunciado": "Según el manual de la DGT, ¿por qué los vehículos nuevos, con más sistemas de seguridad, no tienen menos accidentes que los viejos?",
+      "enunciado": "¿Por qué los vehículos nuevos, con más sistemas de seguridad, no tienen menos accidentes que los viejos?",
       "opciones": {
-        "a": "Porque esos sistemas fallan con más frecuencia que los antiguos elementos de seguridad.",
-        "b": "Porque muchos conductores no saben cómo funcionan y otros confían demasiado en ellos.",
-        "c": "Porque los vehículos nuevos son más rápidos y difíciles de conducir que los viejos."
+        "a": "Porque esos sistemas fallan más que los elementos de seguridad antiguos.",
+        "b": "Porque muchos conductores no saben usarlos y otros confían demasiado en ellos.",
+        "c": "Porque los vehículos nuevos son más rápidos y difíciles de conducir."
       },
       "correcta": "b",
       "explicacion": "Según el manual de la DGT, los vehículos nuevos tienen tantos accidentes como los viejos porque pocos conductores saben cómo funcionan sus sistemas de seguridad y muchos corren más riesgos al confiar demasiado en ellos.",
@@ -2641,7 +2641,7 @@
       "tema": "seguridad_pasiva",
       "subtema": "cinturon",
       "materia": 15,
-      "enunciado": "Según el manual de la DGT, llevar bien puesto el cinturón de seguridad, ¿cómo influye en las posibilidades de sobrevivir a un accidente?",
+      "enunciado": "Llevar bien puesto el cinturón de seguridad, ¿cómo influye en las posibilidades de sobrevivir a un accidente?",
       "opciones": {
         "a": "No influye si el vehículo tiene airbag.",
         "b": "Solo las aumenta en ciudad.",
@@ -2734,7 +2734,7 @@
       "tema": "seguridad_pasiva",
       "subtema": "airbag",
       "materia": 15,
-      "enunciado": "Según el manual de la DGT, ¿cuál de estas es una función del airbag?",
+      "enunciado": "¿Cuál de estas es una función del airbag?",
       "opciones": {
         "a": "Evitar que las ruedas se bloqueen en una frenada brusca.",
         "b": "Impedir que el vehículo vuelque al tomar una curva.",
@@ -2765,7 +2765,7 @@
       "tema": "seguridad_pasiva",
       "subtema": "sri",
       "materia": 15,
-      "enunciado": "Según el manual de la DGT, ¿en qué asiento va más protegido un niño en su sillita?",
+      "enunciado": "¿En qué asiento va más protegido un niño en su sillita?",
       "opciones": {
         "a": "En el trasero central.",
         "b": "En el delantero del acompañante.",
@@ -2796,7 +2796,7 @@
       "tema": "seguridad_pasiva",
       "subtema": "sri",
       "materia": 15,
-      "enunciado": "Según el manual de la DGT, ¿en qué sentido es más seguro colocar la sillita de un niño pequeño?",
+      "enunciado": "¿En qué sentido es más seguro colocar la sillita de un niño pequeño?",
       "opciones": {
         "a": "En el sentido de la marcha, mirando hacia delante.",
         "b": "En sentido contrario a la marcha, mirando hacia atrás.",
@@ -2858,7 +2858,7 @@
       "tema": "seguridad_pasiva",
       "subtema": "casco",
       "materia": 15,
-      "enunciado": "Según el manual de la DGT, ¿qué puede hacer que un casco pierda propiedades?",
+      "enunciado": "¿Qué puede hacer que un casco pierda propiedades?",
       "opciones": {
         "a": "Pintarlo o ponerle pegatinas.",
         "b": "Guardarlo en un lugar seco.",
@@ -2982,7 +2982,7 @@
       "tema": "seguridad_activa",
       "subtema": "adas",
       "materia": 15,
-      "enunciado": "Circula con el regulador de velocidad activado y pisa el freno. Según el manual de la DGT, ¿qué ocurre?",
+      "enunciado": "Circula con el regulador de velocidad activado y pisa el freno. ¿Qué ocurre?",
       "opciones": {
         "a": "El regulador se desactiva.",
         "b": "El regulador mantiene la velocidad elegida.",
@@ -3044,7 +3044,7 @@
       "tema": "seguridad_activa",
       "subtema": "adas",
       "materia": 15,
-      "enunciado": "Según el manual de la DGT, ¿cuándo se encienden las luces de carretera automáticas?",
+      "enunciado": "¿Cuándo se encienden las luces de carretera automáticas?",
       "opciones": {
         "a": "Siempre que se circula de noche, a cualquier velocidad.",
         "b": "Solo cuando el conductor hace ráfagas con la palanca.",
@@ -3168,7 +3168,7 @@
       "tema": "seguridad_activa",
       "subtema": "adas",
       "materia": 15,
-      "enunciado": "Según el manual de la DGT, algunos detectores de ángulo muerto solo avisan en un caso. ¿Cuál?",
+      "enunciado": "Algunos detectores de ángulo muerto solo avisan en un caso. ¿Cuál?",
       "opciones": {
         "a": "Al poner el intermitente con un vehículo en el ángulo muerto.",
         "b": "Al circular marcha atrás para salir de un aparcamiento.",
@@ -3323,7 +3323,7 @@
       "tema": "conduccion_eficiente",
       "subtema": "velocidad",
       "materia": 16,
-      "enunciado": "Según el manual de la DGT, ¿a partir de qué velocidad aproximada aumentan mucho el consumo y la contaminación?",
+      "enunciado": "¿A partir de qué velocidad aproximada aumentan mucho el consumo y la contaminación?",
       "opciones": {
         "a": "A partir de 50 km/h.",
         "b": "A partir de 80 o 90 km/h.",
@@ -3416,7 +3416,7 @@
       "tema": "conduccion_eficiente",
       "subtema": "resistencia_aire",
       "materia": 16,
-      "enunciado": "Según el manual de la DGT, ¿en qué se emplea la mayor parte del combustible que consume un vehículo?",
+      "enunciado": "¿En qué se emplea la mayor parte del combustible que consume un vehículo?",
       "opciones": {
         "a": "En hacer funcionar el aire acondicionado.",
         "b": "En luchar contra el aire que no le deja avanzar.",
@@ -3728,7 +3728,7 @@
       "materia": 16,
       "enunciado": "Al rellenar el aceite del motor se derrama un poco al suelo. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Recogerlo, porque es muy contaminante.",
+        "a": "Recogerlo.",
         "b": "Dejarlo, porque se evapora solo.",
         "c": "Echarle agua para diluirlo."
       },

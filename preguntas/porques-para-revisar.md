@@ -31,7 +31,7 @@ Respuesta: **Muy grave.**
 
 ## x1a-0004
 
-Conduce un camión de 12.000 kg de MMA por una carretera de doble sentido con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?  
+Conduce un camión de 12.000 kg por una carretera con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?  
 Respuesta: **Por la calzada, en el carril de su derecha.**
 
 - ✔ Los automóviles circulan por la calzada y no por el arcén, salvo por razones de emergencia; en una calzada de doble sentido con dos carriles, por el de su derecha. _(RGC 30.1.a)_
@@ -76,7 +76,7 @@ Respuesta: **Para prepararse a cambiar de dirección, adelantar, parar o estacio
 
 ## x1a-0009
 
-Fuera de poblado, una autovía tiene tres carriles en su sentido y uno de ellos está reservado a vehículos con alta ocupación (VAO). A efectos de las normas sobre utilización de carriles, ¿cuántos carriles se cuentan?  
+Fuera de poblado, una autovía tiene tres carriles en su sentido y uno está reservado a vehículos con alta ocupación (VAO). A efectos de utilización de carriles, ¿cuántos se cuentan?  
 Respuesta: **Dos.**
 
 - ✔ Para el cómputo de carriles no se tienen en cuenta los reservados a determinados vehículos o a ciertas maniobras. _(RGC 34)_
@@ -203,7 +203,7 @@ Respuesta: **El límite genérico establecido para esa vía y su vehículo.**
 ## x1a-0023
 
 En una autovía, un panel de mensaje variable fija temporalmente un límite de 80 km/h por el estado de la circulación. ¿Está obligado a respetarlo?  
-Respuesta: **Sí; la autoridad de tráfico puede fijar límites temporales con señalización variable.**
+Respuesta: **Sí, aunque no lo indique una señal vertical fija.**
 
 - ✔ La autoridad responsable del tráfico puede fijar limitaciones de velocidad temporales mediante señalización circunstancial o variable cuando las condiciones de la circulación lo aconsejan. _(RGC 47)_
 - ✘ `res-vel-0002` El límite de 45 km/h es para ciclos, ciclomotores y cuadriciclos ligeros, pero los conductores de bicicletas pueden superarlo donde las circunstancias de la vía lo permitan. _(RGC 48.1.e)_
@@ -355,7 +355,7 @@ Respuesta: **No, los vehículos especiales pueden circular por debajo de los mí
 
 ## x1a-0043
 
-Su vehículo no puede alcanzar la velocidad mínima exigida en la vía y existe peligro de que le alcancen por detrás. ¿Qué luces debe utilizar mientras circula?  
+Su vehículo no puede alcanzar la velocidad mínima exigida en la vía y hay peligro de alcance por detrás. ¿Qué luces debe utilizar?  
 Respuesta: **La señal de emergencia.**
 
 - ✔ Cuando un vehículo no puede alcanzar la velocidad mínima exigida y hay peligro de alcance, debe circular con las luces indicadoras de dirección en señal de emergencia. _(RGC 49.3)_
@@ -437,7 +437,7 @@ Respuesta: **No están obligados, pero deben extremar la atención.**
 ## x1a-0053
 
 Conduce un camión de 18.000 kg por una autovía con dos carriles en su sentido. ¿Debe dejar 50 metros con el vehículo de delante para facilitar que le adelanten?  
-Respuesta: **No, porque hay más de un carril en su mismo sentido.**
+Respuesta: **No.**
 
 - ✔ La separación mínima de 50 metros para facilitar el adelantamiento no se aplica en poblado, donde está prohibido adelantar, donde hay más de un carril en el mismo sentido ni con circulación saturada; la distancia de seguridad para frenar sí debe mantenerse. _(RGC 54.3.c)_
 - ✘ `D-dis-0001` La distancia de detención es el espacio recorrido desde que se detecta el obstáculo hasta que el vehículo se para por completo: la suma de la distancia de reacción y la de frenado. _(MANUAL_DGT Tema 10, Distancia de detención (pág. 263))_
@@ -445,7 +445,7 @@ Respuesta: **No, porque hay más de un carril en su mismo sentido.**
 
 ## x1a-0054
 
-Un turismo con caravana, de 11 metros de longitud total, circula por una carretera con un carril por sentido donde se permite adelantar, sin intención de adelantar. ¿Qué separación mínima debe dejar con el vehículo de delante?  
+Un turismo con caravana, de 11 metros de longitud total, circula por una carretera con un carril por sentido donde se permite adelantar. Si no va a adelantar, ¿qué separación mínima debe dejar con el vehículo de delante?  
 Respuesta: **50 metros.**
 
 - ✔ Los vehículos de más de 3.500 kg de MMA y los vehículos o conjuntos de más de 10 metros de longitud total que no van a adelantar deben dejar al menos 50 metros con el de delante para que puedan adelantarles con seguridad. _(RGC 54.2)_
@@ -455,7 +455,7 @@ Respuesta: **50 metros.**
 ## x1a-0055
 
 ¿Se pueden entablar competiciones de velocidad en las vías públicas?  
-Respuesta: **No, salvo en vías acotadas para ello excepcionalmente por la autoridad.**
+Respuesta: **No, salvo en vías acotadas excepcionalmente para ello por la autoridad.**
 
 - ✔ Se prohíbe entablar competiciones de velocidad en las vías públicas o de uso público, salvo que, con carácter excepcional, la autoridad competente las haya acotado para ello. _(RGC 55.2)_
 - ✘ `x1a-0049` Todo conductor que va a reducir considerablemente la velocidad, salvo peligro inminente, tiene que cerciorarse de que no hay riesgo para otros conductores, advertirlo previamente y no hacerlo de forma brusca. _(RGC 53.1)_
@@ -463,7 +463,7 @@ Respuesta: **No, salvo en vías acotadas para ello excepcionalmente por la autor
 
 ## x1a-0056
 
-Según la Ley de Tráfico, participar en competiciones o carreras de vehículos no autorizadas, cuando no es delito, ¿qué tipo de infracción es?  
+Participar en competiciones o carreras de vehículos no autorizadas, cuando no es delito, ¿qué tipo de infracción es?  
 Respuesta: **Muy grave.**
 
 - ✔ Participar en competiciones y carreras de vehículos no autorizadas es una infracción muy grave, cuando no constituye delito. _(LSV 77.g)_
@@ -472,7 +472,7 @@ Respuesta: **Muy grave.**
 
 ## x1a-0057
 
-Según la Ley de Tráfico, no mantener la distancia de seguridad con el vehículo precedente, ¿qué tipo de infracción es?  
+No mantener la distancia de seguridad con el vehículo precedente, ¿qué tipo de infracción es?  
 Respuesta: **Grave.**
 
 - ✔ No mantener la distancia de seguridad con el vehículo precedente es una infracción grave, cuando no constituye delito. _(LSV 76.ñ)_
@@ -481,7 +481,7 @@ Respuesta: **Grave.**
 
 ## x1a-0058
 
-Según la Ley de Tráfico, incumplir las normas sobre preferencia de paso, adelantamientos o cambios de sentido, cuando no es delito, ¿qué tipo de infracción es?  
+Incumplir las normas sobre preferencia de paso, adelantamientos o cambios de sentido, cuando no es delito, ¿qué tipo de infracción es?  
 Respuesta: **Grave.**
 
 - ✔ Incumplir las disposiciones sobre preferencia de paso, adelantamientos, cambios de dirección o sentido, marcha atrás y utilización de carriles y arcenes es una infracción grave, cuando no constituye delito. _(LSV 76.c)_
@@ -491,7 +491,7 @@ Respuesta: **Grave.**
 ## x1a-0059
 
 Debe ceder el paso en una intersección. Hay un hueco, pero si sale, el vehículo que tiene prioridad tendrá que frenar bruscamente. ¿Qué debe hacer?  
-Respuesta: **Esperar, porque no puede obligarle a cambiar bruscamente su velocidad.**
+Respuesta: **Esperar.**
 
 - ✔ Quien debe ceder el paso no puede iniciar ni continuar su maniobra hasta asegurarse de que no fuerza al conductor con prioridad a modificar bruscamente su trayectoria o su velocidad. _(RGC 58.1)_
 - ✘ `x1a-0078` Los conductores de vehículos de servicios de urgencia solo deben hacer uso, de forma ponderada, de su régimen especial cuando circulan prestando un servicio urgente. _(RGC 67.2)_
@@ -553,8 +553,8 @@ Respuesta: **A los de policía, bomberos, protección civil y sanitarios en serv
 
 ## x1a-0066
 
-Dos vehículos que necesitan autorización especial para circular se encuentran en un puente cuya calzada mide 5 metros de ancho. ¿Pueden cruzarse en él?  
-Respuesta: **No, porque la calzada mide menos de 6 metros.**
+Dos vehículos que necesitan autorización especial para circular se encuentran en un puente de 5 metros de calzada. ¿Pueden cruzarse en él?  
+Respuesta: **No.**
 
 - ✔ Los vehículos que necesitan autorización especial para circular no pueden cruzarse en los puentes si el ancho de la calzada es inferior a seis metros, de modo que cada uno cuente con al menos tres metros. _(RGC 61.3)_
 - ✘ `x1a-0082` Los vehículos prioritarios deben usar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entraña peligro alguno para los demás usuarios. _(RGC 68.2)_
@@ -599,7 +599,7 @@ Respuesta: **El de mayor anchura, longitud o masa máxima autorizada.**
 ## x1a-0071
 
 En un estrechamiento, un agente ordena retroceder a un autobús para dejar pasar a un turismo. ¿Qué debe hacer el conductor del autobús?  
-Respuesta: **Retroceder, porque prevalece lo que ordene el agente.**
+Respuesta: **Retroceder.**
 
 - ✔ El orden de preferencia entre tipos de vehículos en estrechamientos se aplica sin perjuicio de lo que ordene el agente de la autoridad o indique el personal de obras o de acompañamiento. _(RGC 62.1)_
 - ✘ `x1a-0083` Los agentes responsables de la vigilancia del tráfico pueden utilizar o situar sus vehículos en la parte de la vía que resulte necesaria cuando prestan auxilio o lo requieren las necesidades del servicio o de la circulación. _(RGC 68.1)_
@@ -644,7 +644,7 @@ Respuesta: **Sí; la tienen los servicios de urgencia públicos o privados.**
 ## x1a-0076
 
 Un vehículo de bomberos en servicio urgente, ¿puede superar los límites de velocidad?  
-Respuesta: **Sí, en los casos y condiciones que fija el Reglamento.**
+Respuesta: **Sí, en los casos y condiciones que fija la norma.**
 
 - ✔ Los vehículos de servicios de urgencia en servicio urgente pueden circular por encima de los límites de velocidad y están exentos de otras normas o señales en los casos y condiciones que fija el Reglamento General de Circulación. _(RGC 67.1)_
 - ✘ `A-urg-0003` Al percibir las señales de un vehículo prioritario, los demás conductores deben facilitarle el paso según las circunstancias, apartándose normalmente a la derecha o deteniéndose si fuera preciso. _(RGC 69)_
@@ -653,7 +653,7 @@ Respuesta: **Sí, en los casos y condiciones que fija el Reglamento.**
 ## x1a-0077
 
 Una ambulancia en servicio urgente llega a un semáforo en rojo. ¿Qué debe hacer su conductor antes de pasar?  
-Respuesta: **Extremar las precauciones hasta comprobar que los demás se detienen o le facilitan el paso.**
+Respuesta: **Extremar la precaución hasta comprobar que los demás le ceden el paso.**
 
 - ✔ Los conductores de vehículos prioritarios no deben pasar un semáforo o una intersección sin adoptar extremadas precauciones, hasta cerciorarse de que no hay riesgo de atropello y de que los demás conductores se han detenido o van a facilitarles el paso. _(RGC 67.2)_
 - ✘ `x1a-0080` Con carácter excepcional, los vehículos prioritarios en servicio urgente por autopista o autovía pueden dar media vuelta o marcha atrás y entrar en la mediana o sus pasos transversales, si no comprometen la seguridad de ningún usuario. _(RGC 68.1)_
@@ -689,7 +689,7 @@ Respuesta: **Sí, excepcionalmente y sin comprometer la seguridad de nadie.**
 ## x1a-0081
 
 ¿Cuál de estos vehículos puede tener el carácter de prioritario?  
-Respuesta: **Uno de protección civil y salvamento en servicio urgente.**
+Respuesta: **Uno de protección civil en servicio urgente.**
 
 - ✔ Los vehículos prioritarios son los de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria, pública o privada, que circulan en servicio urgente y lo advierten con las señales luminosa y acústica especiales. _(RGC 68.2)_
 - ✘ `x1a-0076` Los vehículos de servicios de urgencia en servicio urgente pueden circular por encima de los límites de velocidad y están exentos de otras normas o señales en los casos y condiciones que fija el Reglamento General de Circulación. _(RGC 67.1)_
@@ -707,7 +707,7 @@ Respuesta: **Cuando omitir la señal acústica no suponga peligro para nadie.**
 ## x1a-0083
 
 Un vehículo de los agentes de tráfico se detiene para auxiliar a un usuario de la vía. ¿Dónde puede situarse?  
-Respuesta: **En la parte de la vía que resulte necesaria.**
+Respuesta: **En la parte de la vía que sea necesaria.**
 
 - ✔ Los agentes responsables de la vigilancia del tráfico pueden utilizar o situar sus vehículos en la parte de la vía que resulte necesaria cuando prestan auxilio o lo requieren las necesidades del servicio o de la circulación. _(RGC 68.1)_
 - ✘ `x1a-0078` Los conductores de vehículos de servicios de urgencia solo deben hacer uso, de forma ponderada, de su régimen especial cuando circulan prestando un servicio urgente. _(RGC 67.2)_
@@ -724,7 +724,7 @@ Respuesta: **Tan pronto como perciba sus señales especiales.**
 
 ## x1a-0085
 
-Tiene que llevar urgentemente a un herido en un vehículo que no dispone de luz de emergencia. Además de usar el claxon de forma intermitente, ¿cómo puede advertirlo?  
+Lleva urgentemente a un herido en un vehículo sin luz de emergencia. Además de usar el claxon de forma intermitente, ¿cómo puede advertirlo?  
 Respuesta: **Agitando un pañuelo o con un procedimiento similar.**
 
 - ✔ El conductor de un vehículo no prioritario que presta un servicio de urgencia advierte su situación con el avisador acústico intermitente y la luz de emergencia, si dispone de ella, o agitando un pañuelo o procedimiento similar. _(RGC 70.1)_
@@ -733,7 +733,7 @@ Respuesta: **Agitando un pañuelo o con un procedimiento similar.**
 
 ## x1a-0086
 
-Lleva urgentemente a un herido en su turismo, advirtiéndolo con el claxon y la luz de emergencia. ¿Pueden los agentes pedirle que justifique esa situación?  
+Lleva urgentemente a un herido en su turismo y lo advierte con el claxon y la luz de emergencia. ¿Pueden los agentes pedirle que lo justifique?  
 Respuesta: **Sí, en cualquier momento.**
 
 - ✔ Los agentes de la autoridad pueden exigir en cualquier momento la justificación de las circunstancias graves por las que un vehículo no prioritario presta un servicio de urgencia. _(RGC 70.3)_
@@ -752,7 +752,7 @@ Respuesta: **No, salvo excepciones como las obras en la propia vía o las grúas
 ## x1a-0088
 
 Una máquina autopropulsada de obras (vehículo especial) va a circular por la vía. ¿Puede transportar carga?  
-Respuesta: **No, salvo los destinados a transporte especial con la autorización oportuna.**
+Respuesta: **No, salvo los destinados a transporte especial con autorización.**
 
 - ✔ Los vehículos especiales no pueden circular transportando carga alguna, salvo los destinados específicamente a servicios de transporte especial, que necesitan la autorización oportuna. _(RGC 71.1)_
 - ✘ `xd-0104` Los vehículos especiales que no exceden las masas o dimensiones pueden circular por autopistas y autovías si pueden superar 60 km/h en llano y cumplen las condiciones del anexo III del reglamento. _(RGC 38.3)_
@@ -770,7 +770,7 @@ Respuesta: **Tanto de día como de noche.**
 ## x1a-0090
 
 A un vehículo especial que circula a menos de 40 km/h se le avería la señal luminosa V-2. ¿Qué luces debe usar?  
-Respuesta: **La luz de cruce junto con la señal de emergencia.**
+Respuesta: **La de cruce junto con la señal de emergencia.**
 
 - ✔ Si se avería la señal luminosa V-2 de un vehículo especial o en régimen de transporte especial, debe usarse la luz de cruce junto con las luces indicadoras de dirección en señal de emergencia. _(RGC 71.3)_
 - ✘ `xd-0118` Los vehículos en régimen de transporte especial mantienen una separación mínima de 50 metros con el vehículo precedente y facilitan el adelantamiento a los más rápidos. _(RGC Anexo III, sección 1.ª, 1)_
@@ -824,7 +824,7 @@ Respuesta: **Sí, adoptar las precauciones necesarias para evitar todo riesgo.**
 ## x1a-0096
 
 Va a girar a la izquierda en un cruce. ¿Cuándo debe colocar su vehículo en el lugar adecuado?  
-Respuesta: **Con la necesaria antelación, y girar en el menor espacio y tiempo posibles.**
+Respuesta: **Con la antelación necesaria.**
 
 - ✔ En un cambio de dirección, el vehículo se coloca en el lugar adecuado con la necesaria antelación y la maniobra se hace en el menor espacio y tiempo posibles. _(RGC 75.1.b)_
 - ✘ `x1a-0098` Para abandonar una autopista, autovía u otra vía, se circula con suficiente antelación por el carril más próximo a la salida y se entra lo antes posible en el carril de deceleración, si existe. _(RGC 77)_
@@ -869,7 +869,7 @@ Respuesta: **No, está prohibido.**
 ## x1a-0101
 
 Hay niebla densa y no puede comprobar que al cambiar de sentido no pondrá en peligro a nadie. ¿Puede hacer la maniobra?  
-Respuesta: **No, porque no puede comprobar que no hay peligro.**
+Respuesta: **No.**
 
 - ✔ Se prohíbe el cambio de sentido en toda situación que impida comprobar que la maniobra no pone en peligro ni obstaculiza a otros usuarios. _(RGC 79.1)_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
@@ -877,8 +877,8 @@ Respuesta: **No, porque no puede comprobar que no hay peligro.**
 
 ## x1a-0102
 
-En una calle se ha pasado el cruce por el que quería girar, a unos 10 metros. Podría seguir adelante y dar la vuelta más adelante. ¿Puede volver marcha atrás hasta el cruce?  
-Respuesta: **No, porque puede seguir hacia delante o cambiar de dirección.**
+En una calle se ha pasado unos 10 metros del cruce por el que quería girar, pero puede seguir adelante y dar la vuelta más adelante. ¿Puede volver marcha atrás hasta el cruce?  
+Respuesta: **No.**
 
 - ✔ La marcha atrás solo se permite cuando no es posible marchar hacia delante ni cambiar de dirección o sentido, y en las maniobras que la exijan; el límite de 15 metros es para completar una parada, un estacionamiento o una incorporación, sin invadir un cruce. _(RGC 80.1 y 80.2)_
 - ✘ `x1a-0104` Durante la marcha atrás, el conductor debe detenerse con toda rapidez si oye avisos o advierte la proximidad de un vehículo, persona o animal, y desistir de la maniobra si es preciso. _(RGC 81.3)_
@@ -896,7 +896,7 @@ Respuesta: **Lentamente, tras advertirlo y comprobar que no hay peligro, incluso
 ## x1a-0104
 
 Mientras hace marcha atrás oye avisos de una persona que está detrás. ¿Qué debe hacer?  
-Respuesta: **Detenerse con toda rapidez y, si es preciso, desistir de la maniobra.**
+Respuesta: **Detenerse rápidamente y, si es preciso, desistir.**
 
 - ✔ Durante la marcha atrás, el conductor debe detenerse con toda rapidez si oye avisos o advierte la proximidad de un vehículo, persona o animal, y desistir de la maniobra si es preciso. _(RGC 81.3)_
 - ✘ `adel-0005` Al rebasar un vehículo inmovilizado por avería, accidente o servicio de urgencia o auxilio que ocupe la calzada, hay que mantener al menos 1,5 m y reducir la velocidad al menos 20 km/h. _(RGC 88.1)_
@@ -904,7 +904,7 @@ Respuesta: **Detenerse con toda rapidez y, si es preciso, desistir de la maniobr
 
 ## x1a-0105
 
-En una calle de sentido único, el vehículo de delante indica claramente que va a parar en el lado izquierdo y queda espacio suficiente. ¿Por dónde debe adelantarlo?  
+En una calle de sentido único, el vehículo de delante indica claramente que va a parar a la izquierda y queda espacio suficiente. ¿Por dónde debe adelantarlo?  
 Respuesta: **Por la derecha, con las máximas precauciones.**
 
 - ✔ Se adelanta por la derecha, con las máximas precauciones y si hay espacio, al vehículo que indica claramente que va a girar a la izquierda o a parar en ese lado, y a los tranvías que marchan por la zona central. _(RGC 82.2)_
@@ -913,7 +913,7 @@ Respuesta: **Por la derecha, con las máximas precauciones.**
 
 ## x1a-0106
 
-En una autovía con tres carriles en su sentido acaba de adelantar y enseguida va a adelantar a otro vehículo. ¿Puede seguir en el carril que ha utilizado?  
+En una autovía con tres carriles en su sentido, acaba de adelantar y enseguida va a adelantar a otro vehículo. ¿Puede seguir en el mismo carril?  
 Respuesta: **Sí, si no molesta indebidamente a los que vienen detrás más rápido.**
 
 - ✔ En calzadas con al menos dos carriles en el mismo sentido, quien va a hacer un nuevo adelantamiento puede permanecer en el carril usado para el anterior si no molesta indebidamente a los que le siguen más velozmente. _(RGC 83.1)_
@@ -967,7 +967,7 @@ Respuesta: **De que tendrá espacio suficiente para volver a su carril al termin
 
 ## x1a-0112
 
-Unos ciclistas circulan en grupo y uno de ellos pasa a otro del mismo grupo. ¿Se considera un adelantamiento a efectos de las normas previas a la maniobra?  
+En un grupo de ciclistas, uno de ellos pasa a otro del mismo grupo. ¿Se considera adelantamiento a efectos de las normas previas a esa maniobra?  
 Respuesta: **No.**
 
 - ✔ No se consideran adelantamientos los producidos entre ciclistas que circulan en grupo. _(RGC 84.5)_
@@ -1003,7 +1003,7 @@ Respuesta: **Tan pronto como pueda y de forma gradual, avisándolo.**
 
 ## x1a-0117
 
-Va a adelantar a un ciclista y, por el arcén del sentido contrario, se acerca de frente otro ciclista. Si la maniobra le pone en peligro, ¿puede adelantar?  
+Va a adelantar a un ciclista y por el arcén contrario viene de frente otro ciclista. Si la maniobra le pone en peligro, ¿puede adelantar?  
 Respuesta: **No, aunque el ciclista de frente circule por el arcén.**
 
 - ✔ Al adelantar a ciclistas y otros usuarios vulnerables queda prohibido poner en peligro o entorpecer a quienes circulan en sentido contrario, incluso si circulan por el arcén. _(RGC 85.4)_
@@ -1012,7 +1012,7 @@ Respuesta: **No, aunque el ciclista de frente circule por el arcén.**
 
 ## x1a-0118
 
-Fuera de poblado va a adelantar a un ciclista. ¿Durante qué parte de la maniobra debe llevar la velocidad reducida en al menos 20 km/h respecto al límite de la vía?  
+Fuera de poblado va a adelantar a un ciclista. ¿Cuándo debe llevar la velocidad reducida en al menos 20 km/h respecto al límite de la vía?  
 Respuesta: **Antes de iniciarla y durante toda su ejecución.**
 
 - ✔ Fuera de poblado, quien adelanta a ciclistas y otros usuarios vulnerables debe reducir la velocidad al menos 20 km/h respecto al límite de la vía antes de iniciar la maniobra y durante toda su ejecución. _(RGC 85.4)_
@@ -1049,7 +1049,7 @@ Respuesta: **Facilitarle la vuelta a su carril, sin frenar si eso crea peligro.*
 ## x1a-0123
 
 Conduce un vehículo pesado, no puede ceñirse del todo a la derecha y el que le sigue puede adelantarle con seguridad. ¿Cómo puede indicárselo con el brazo?  
-Respuesta: **Extendiéndolo horizontalmente y moviéndolo de atrás adelante, con el dorso de la mano hacia atrás.**
+Respuesta: **Extendiéndolo horizontalmente y moviéndolo de atrás adelante.**
 
 - ✔ El vehículo pesado que va a ser adelantado indica que es posible hacerlo extendiendo el brazo horizontalmente y moviéndolo repetidas veces de atrás adelante con el dorso de la mano hacia atrás, o con el intermitente derecho. _(RGC 86.1)_
 - ✘ `x1a-0107` Con circulación tan densa que ocupa toda la calzada, ningún conductor debe cambiar de carril para adelantar ni para otra maniobra que no sea prepararse a girar, salir de la calzada o tomar determinada dirección. _(RGC 83.2)_
@@ -1075,8 +1075,8 @@ Respuesta: **No, en las glorietas no rige esa prohibición.**
 
 ## x1a-0127
 
-Se acerca a una intersección y delante de usted circula despacio una motocicleta. ¿La prohibición de adelantar en intersecciones le impide adelantarla?  
-Respuesta: **No, porque se exceptúa el adelantamiento a vehículos de dos ruedas.**
+Se acerca a una intersección y delante circula despacio una motocicleta. ¿Le impide adelantarla la prohibición de adelantar en intersecciones?  
+Respuesta: **No.**
 
 - ✔ La prohibición de adelantar en intersecciones no rige para el adelantamiento a vehículos de dos ruedas, aunque deben cumplirse las demás normas del adelantamiento. _(RGC 87.1.c.4º)_
 - ✘ `x1a-0121` Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o hacer maniobras que impidan o dificulten el adelantamiento. _(RGC 86.2)_
@@ -1120,7 +1120,7 @@ Respuesta: **No, desde esa señal dejan de aplicarse las prohibiciones específi
 
 ## x1a-0132
 
-En una carretera limitada a 100 km/h, un vehículo de los agentes de tráfico está detenido regulando la circulación y ocupa parte de su carril. ¿A qué velocidad máxima puede rebasarlo?  
+En una carretera limitada a 100 km/h, un vehículo de agentes de tráfico detenido regulando la circulación ocupa parte de su carril. ¿A qué velocidad máxima puede rebasarlo?  
 Respuesta: **80 km/h.**
 
 - ✔ Al rebasar un vehículo inmovilizado que ocupa el carril (por avería, accidente, servicio de urgencia o auxilio, mantenimiento o regulación del tráfico) hay que dejar al menos 1,5 metros y reducir la velocidad al menos 20 km/h respecto al límite de la vía. _(RGC 88.1)_
@@ -1130,7 +1130,7 @@ Respuesta: **80 km/h.**
 ## x1a-0133
 
 En un tramo con prohibición de adelantar, el vehículo de delante está parado por una retención del tráfico. ¿Puede rebasarlo ocupando el sentido contrario?  
-Respuesta: **No, porque está detenido por necesidades del tráfico.**
+Respuesta: **No.**
 
 - ✔ En un tramo con prohibición de adelantar se puede rebasar, ocupando el sentido contrario y sin peligro, a un vehículo inmovilizado que ocupa el carril, salvo que la inmovilización venga impuesta por necesidades del tráfico. _(RGC 88.2)_
 - ✘ `x1a-0108` Ningún conductor debe adelantar a varios vehículos sin la total seguridad de que, si se presenta otro en sentido contrario, podrá desviarse a la derecha sin perjudicar ni poner en peligro a los adelantados. _(RGC 84.1)_
@@ -1193,7 +1193,7 @@ Respuesta: **De forma que permita la mejor utilización del restante espacio dis
 ## x1b-0006
 
 Ha estacionado su autocaravana en una calle. ¿Puede desplegar el toldo lateral y sacar mesa y sillas junto al vehículo?  
-Respuesta: **No, porque no puede extender elementos que desborden el perímetro del vehículo.**
+Respuesta: **No.**
 
 - ✔ El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse sin extender elementos propios que desborden el perímetro del vehículo. _(RGC 92.4.a)_
 - ✘ `A-par-0001` Parada es la inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo. _(LSV Anexo I.81)_
@@ -1219,8 +1219,8 @@ Respuesta: **No, está prohibido parar sobre los raíles o tan cerca que entorpe
 
 ## x1b-0010
 
-Si al parar su vehículo tapa una señal vertical a los conductores que vienen detrás, ¿es correcto?  
-Respuesta: **No, está prohibido parar donde se impida la visibilidad de la señalización a los usuarios a quienes afecte.**
+Al parar su vehículo, tapa una señal vertical a los conductores que vienen detrás. ¿Es correcto?  
+Respuesta: **No.**
 
 - ✔ Está prohibido parar en los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes afecte u obligue a hacer maniobras. _(RGC 94.1.f)_
 - ✘ `x1b-0001` Obstaculizar la utilización normal de los pasos rebajados para personas con discapacidad física es uno de los supuestos de parada o estacionamiento que obstaculiza gravemente la circulación. _(RGC 91.2.d)_
@@ -1238,7 +1238,7 @@ Respuesta: **No, está prohibido estacionar allí sin el distintivo que lo autor
 ## x1b-0012
 
 Durante el horario señalizado de carga y descarga, ¿puede estacionar un turismo particular en esa zona?  
-Respuesta: **No, está prohibido estacionar en las zonas señalizadas para carga y descarga.**
+Respuesta: **No.**
 
 - ✔ Estacionar en zonas señalizadas para carga y descarga está prohibido. _(RGC 94.2.c)_
 - ✘ `A-par-0001` Parada es la inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo. _(LSV Anexo I.81)_
@@ -1256,7 +1256,7 @@ Respuesta: **Grave.**
 ## x1b-0015
 
 En una zona de estacionamiento limitado, ¿en qué caso puede la ordenanza municipal prever la retirada o inmovilización del vehículo?  
-Respuesta: **Cuando no tenga título que autorice el estacionamiento o rebase el triple del tiempo abonado.**
+Respuesta: **Cuando no tenga título que lo autorice o rebase el triple del tiempo abonado.**
 
 - ✔ Los Ayuntamientos pueden regular la retirada o inmovilización del vehículo que estaciona en zonas limitadas en tiempo sin título que lo autorice o rebasando el triple del tiempo abonado. _(RGC 156.1.b)_
 - ✘ `v2-par-0003` El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse descansando solo sobre los neumáticos, con posibilidad de usar calzos o cuñas de seguridad. _(RGC 92.4.b)_
@@ -1319,7 +1319,7 @@ Respuesta: **No, ese uso de los destellos está prohibido con finalidades no pre
 ## x1b-0022
 
 La luz de largo alcance o de carretera, ¿puede llevarse encendida a la vez que la de corto alcance?  
-Respuesta: **Sí, puede utilizarse aisladamente o con la de corto alcance.**
+Respuesta: **Sí.**
 
 - ✔ La luz de largo alcance o de carretera puede utilizarse aisladamente o junto con la de corto alcance. _(RGC 100.1)_
 - ✘ `C-luc-0017` La niebla espesa es una de las condiciones especialmente desfavorables en las que debe llevarse encendida la antiniebla trasera. _(RGC 106.2)_
@@ -1336,7 +1336,7 @@ Respuesta: **Cuando haya rebasado, en el cruce, la posición del vehículo cruza
 
 ## x1b-0026
 
-Según el Reglamento General de Circulación, deslumbrar con el alumbrado a otros usuarios de la vía, ¿qué tipo de infracción es?  
+Deslumbrar a otros usuarios de la vía con el alumbrado, ¿qué tipo de infracción es?  
 Respuesta: **Grave.**
 
 - ✔ Los supuestos de circulación en los que se produce deslumbramiento al resto de los usuarios de la vía son infracciones graves. _(RGC 101.3)_
@@ -1346,7 +1346,7 @@ Respuesta: **Grave.**
 ## x1b-0027
 
 Con niebla, ¿puede llevar encendida la luz antiniebla delantera junto con la de largo alcance?  
-Respuesta: **Sí, puede utilizarse aislada, con la de corto alcance o incluso con la de largo alcance.**
+Respuesta: **Sí.**
 
 - ✔ La luz antiniebla delantera puede utilizarse aislada o simultáneamente con la de corto alcance o, incluso, con la de largo alcance. _(RGC 106.2)_
 - ✘ `xe-0072` Las luces antiniebla traseras solo pueden encenderse cuando lo están también las de carretera, las de cruce o las antiniebla delanteras. _(RGV 15.3)_
@@ -1372,7 +1372,7 @@ Respuesta: **Cuando supera en más del 50 % los tiempos de conducción estableci
 
 ## x1b-0031
 
-Según el Reglamento General de Circulación, ¿qué deben hacer quienes circulan con cualquier tipo de vehículo respecto a los peatones?  
+Respecto a los peatones, ¿qué deben hacer quienes conducen cualquier tipo de vehículo?  
 Respuesta: **Prestar especial cuidado para no poner en riesgo su integridad física.**
 
 - ✔ Los peatones gozan de prioridad de paso y estancia en las vías públicas en los términos del reglamento, y quienes circulan con cualquier vehículo deben prestar especial cuidado para no poner en riesgo su integridad física. _(RGC 121.1)_
@@ -1391,7 +1391,7 @@ Respuesta: **Las órdenes de los agentes de la autoridad encargados de la vigila
 ## x1b-0033
 
 Una señal vertical sin ninguna marca en la calzada que limite su alcance, ¿a qué parte de la calzada se aplica?  
-Respuesta: **A toda la anchura de la calzada que estén autorizados a utilizar los conductores a quienes se dirige.**
+Respuesta: **A toda la anchura que puedan utilizar los conductores a quienes se dirige.**
 
 - ✔ Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
 - ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
@@ -1445,7 +1445,7 @@ Respuesta: **Muy grave.**
 ## x1b-0039
 
 Una flecha pintada en su carril indica seguir de frente, pero una hilera de conos cierra ese carril más adelante. ¿Qué debe obedecer?  
-Respuesta: **Los conos, porque el balizamiento circunstancial prevalece sobre las marcas viales.**
+Respuesta: **Los conos.**
 
 - ✔ En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 - ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
@@ -1453,8 +1453,8 @@ Respuesta: **Los conos, porque el balizamiento circunstancial prevalece sobre la
 
 ## x1b-0040
 
-Sobre su carril, un semáforo de carril muestra una flecha verde apuntando hacia abajo y, más adelante, hay una señal de ceda el paso. ¿Qué debe hacer?  
-Respuesta: **Ceder el paso, porque la flecha verde del semáforo de carril no exime de obedecer esa señal.**
+Sobre su carril, un semáforo de carril muestra una flecha verde hacia abajo y, más adelante, hay una señal de ceda el paso. ¿Qué debe hacer?  
+Respuesta: **Ceder el paso.**
 
 - ✔ La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
@@ -1489,8 +1489,8 @@ Respuesta: **Sí, los agentes pueden dar órdenes a través de la megafonía mie
 
 ## x1b-0045
 
-Un semáforo cuadrado (de carril) situado sobre uno de los carriles, ¿a qué vehículos afecta?  
-Respuesta: **Exclusivamente a los que circulan por el carril sobre el que está situado.**
+Un semáforo de carril situado sobre uno de los carriles, ¿a qué vehículos afecta?  
+Respuesta: **Solo a los que circulan por ese carril.**
 
 - ✔ Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
@@ -1580,7 +1580,7 @@ Respuesta: **Que la señal afecta a todos los vehículos salvo a los camiones.**
 ## x1b-0055
 
 ¿Qué objeto tienen las señales colocadas en los vehículos?  
-Respuesta: **Dar a conocer circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su conductor.**
+Respuesta: **Dar a conocer circunstancias del vehículo, de su servicio, de su carga o de su conductor.**
 
 - ✔ Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
@@ -1598,7 +1598,7 @@ Respuesta: **No, las ordenanzas no pueden oponerse ni alterar el reglamento.**
 ## x1b-0057
 
 ¿Pueden las autoridades restringir la entrada y circulación de vehículos en una zona de bajas emisiones?  
-Respuesta: **Sí, total o parcialmente, de acuerdo con los criterios medioambientales que se establezcan.**
+Respuesta: **Sí, total o parcialmente, según criterios medioambientales.**
 
 - ✔ Las autoridades competentes pueden restringir, total o parcialmente, la entrada y circulación de vehículos en zonas de bajas emisiones, zonas de prioridad residencial u otras vías de su competencia, según criterios medioambientales. _(RGC 157)_
 - ✘ `x1a-0007` Fuera de poblado, en calzadas con más de un carril para el mismo sentido, se circula normalmente por el situado más a la derecha y se pueden usar los demás cuando lo aconsejen el tráfico o la vía, sin entorpecer a quien siga. _(RGC 31.1)_
@@ -1606,7 +1606,7 @@ Respuesta: **Sí, total o parcialmente, de acuerdo con los criterios medioambien
 
 ## x1b-0058
 
-No respetar las restricciones de circulación de una zona de bajas emisiones, ¿qué tipo de infracción es según la Ley de Tráfico?  
+No respetar las restricciones de circulación de una zona de bajas emisiones, ¿qué tipo de infracción es?  
 Respuesta: **Grave.**
 
 - ✔ No respetar las restricciones de circulación derivadas de los protocolos ante episodios de contaminación y de las zonas de bajas emisiones es una infracción grave. _(LSV 76.z3)_
@@ -1625,7 +1625,7 @@ Respuesta: **La proximidad de una intersección o tramo regulado por semáforos.
 ## x1b-0060
 
 ¿De qué advierte esta señal?  
-Respuesta: **De un puente que puede ser levantado o girado, interrumpiéndose temporalmente la circulación.**
+Respuesta: **De un puente levadizo o giratorio, que puede interrumpir la circulación.**
 
 - ✔ La señal P-5 advierte de la proximidad de un puente móvil, que puede levantarse o girarse e interrumpir temporalmente la circulación. _(RGC_CATALOGO Anexo I, catálogo de señales, P-5)_
 - ✘ `B1-sen-0033` Los captafaros horizontales luminosos emiten luz verde, naranja o roja, y el único franqueable es el verde. _(RGC Anexo I.3.1.4.1º)_
@@ -1670,7 +1670,7 @@ Respuesta: **A las motocicletas y a los vehículos de tres ruedas asimilados a m
 ## x1b-0075
 
 Su furgoneta mide 2,30 m de ancho, pero la carga sobresale por los lados hasta 2,60 m. ¿Puede pasar ante esta señal?  
-Respuesta: **No, porque la anchura máxima que limita la señal incluye la carga.**
+Respuesta: **No.**
 
 - ✔ La señal R-204 prohíbe el paso a los vehículos cuya anchura máxima, incluida la carga, supere la indicada. _(RGC_CATALOGO Anexo I, catálogo de señales, R-204)_
 - ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
@@ -1742,7 +1742,7 @@ Respuesta: **Para apartar el vehículo en caso de emergencia y dejar libre el pa
 ## x1b-0095
 
 Conduce un ciclomotor y encuentra esta señal junto a la zona de espera de un semáforo. ¿Puede ocupar esa zona?  
-Respuesta: **Sí, porque el pictograma de motocicleta incluye a los ciclomotores.**
+Respuesta: **Sí.**
 
 - ✔ La señal S-49 avanza moto o bici indica una zona de espera ante la línea de detención reservada a los vehículos indicados; el pictograma de motocicleta representa a motocicletas, vehículos de tres ruedas asimilados y ciclomotores. _(RGC_CATALOGO Anexo I, catálogo de señales, S-49)_
 - ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
@@ -1760,7 +1760,7 @@ Respuesta: **A los equipos de salvamento aéreo, para indicarles el punto kilom�
 ## x1b-0098
 
 ¿Qué advierten tres triángulos como estos pintados sobre la calzada?  
-Respuesta: **La presencia de un reductor de velocidad tipo «lomo de asno».**
+Respuesta: **Un reductor de velocidad tipo «lomo de asno».**
 
 - ✔ La presencia de un reductor de velocidad tipo «lomo de asno» (M-4.5) se advierte mediante tres triángulos dispuestos sobre su parte ascendente. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.5))_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
@@ -1786,8 +1786,8 @@ Respuesta: **El lugar que puede alcanzar si sigue por ese carril.**
 
 ## x1b-0101
 
-En un puerto de montaña, la línea que separa los sentidos de circulación es una «línea de separación de sentidos sin regular el adelantamiento». ¿Qué información le da sobre el adelantamiento?  
-Respuesta: **Ninguna: solo sirve para guiar el tráfico separando los sentidos.**
+En un puerto de montaña, los sentidos están separados por una línea de separación de sentidos sin regular el adelantamiento. ¿Qué le indica sobre el adelantamiento?  
+Respuesta: **Nada; solo separa los sentidos de circulación.**
 
 - ✔ La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
 - ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
@@ -1795,7 +1795,7 @@ Respuesta: **Ninguna: solo sirve para guiar el tráfico separando los sentidos.*
 
 ## x1b-0102
 
-Circular en bicicleta sin el alumbrado reglamentario, ¿qué tipo de infracción es según la Ley de Tráfico?  
+Circular en bicicleta sin el alumbrado reglamentario, ¿qué tipo de infracción es?  
 Respuesta: **Leve.**
 
 - ✔ Circular en bicicleta sin hacer uso del alumbrado reglamentario es una infracción leve. _(LSV 75.a)_
@@ -1804,7 +1804,7 @@ Respuesta: **Leve.**
 
 ## x1b-0103
 
-No pagar el peaje de una autopista cuando es exigible, ¿qué tipo de infracción es según la Ley de Tráfico?  
+No pagar el peaje de una autopista cuando es exigible, ¿qué tipo de infracción es?  
 Respuesta: **Leve.**
 
 - ✔ El impago de peaje, tasa o precio público, cuando estos son exigibles, es una infracción leve. _(LSV 75.b bis)_
@@ -1903,7 +1903,7 @@ Respuesta: **500 euros.**
 
 ## x1b-0115
 
-Requerido para ello, el titular de un vehículo no identifica al conductor que cometió con él una infracción grave sancionada con 200 euros. ¿Qué multa le corresponde por no identificarlo?  
+El titular de un vehículo, requerido para ello, no identifica al conductor que cometió una infracción grave sancionada con 200 euros. ¿Qué multa le corresponde?  
 Respuesta: **600 euros.**
 
 - ✔ La multa por no identificar verazmente al conductor es el doble de la prevista para la infracción originaria si esta es leve, y el triple si es grave o muy grave. _(LSV 80.2.b)_
@@ -1939,7 +1939,7 @@ Respuesta: **Sus padres, tutores, acogedores o guardadores, de forma solidaria.*
 
 ## x1b-0119
 
-Su coche aparece mal estacionado y no tiene designado conductor habitual. Si no indica quién lo conducía, ¿quién es responsable de la infracción por estacionamiento?  
+Su coche, sin conductor habitual designado, aparece mal estacionado. Si no indica quién lo conducía, ¿quién responde de la infracción?  
 Respuesta: **El titular del vehículo.**
 
 - ✔ El titular, o el arrendatario que conste en el Registro de Vehículos, es responsable de las infracciones por estacionamiento, salvo que el vehículo tenga designado un conductor habitual o se indique un conductor responsable. _(LSV 82.g)_
@@ -2020,8 +2020,8 @@ Respuesta: **300 euros.**
 
 ## x1b-0128
 
-En un tramo de autovía de acceso a una ciudad limitado a 60 km/h, un radar capta su vehículo a 98 km/h. Además de la multa del cuadro de sanciones, ¿se producen otros efectos administrativos o penales por ese exceso?  
-Respuesta: **No, porque esos efectos solo se producen cuando se superan los 100 km/h.**
+En una autovía de acceso a una ciudad, limitada a 60 km/h, circula a 98 km/h. Además de la multa, ¿tiene ese exceso otros efectos administrativos o penales?  
+Respuesta: **No, porque esos efectos solo se producen al superar los 100 km/h.**
 
 - ✔ En los tramos de autovías y autopistas interurbanas de acceso a las ciudades con límites inferiores a 100 km/h, los excesos se sancionan con la multa del cuadro, pero el resto de efectos administrativos y penales solo se produce cuando se superan los 100 km/h. _(LSV Anexo IV)_
 - ✘ `x1b-0119` El titular, o el arrendatario que conste en el Registro de Vehículos, es responsable de las infracciones por estacionamiento, salvo que el vehículo tenga designado un conductor habitual o se indique un conductor responsable. _(LSV 82.g)_
@@ -2029,7 +2029,7 @@ Respuesta: **No, porque esos efectos solo se producen cuando se superan los 100 
 
 ## xb-0001
 
-Un taxista con quince años de permiso conduce su taxi, que es un vehículo de servicio público. ¿Qué tasa máxima de alcohol en aire espirado puede tener?  
+Un taxista con quince años de permiso conduce su taxi. ¿Qué tasa máxima de alcohol en aire espirado puede tener?  
 Respuesta: **0,15 miligramos por litro.**
 
 - ✔ Los conductores de vehículos de servicio público, como los taxis, no pueden superar 0,15 miligramos de alcohol por litro de aire espirado ni 0,3 gramos por litro de sangre, aunque tengan muchos años de permiso. _(RGC 20)_
@@ -2038,7 +2038,7 @@ Respuesta: **0,15 miligramos por litro.**
 
 ## xb-0002
 
-Un conductor con diez años de permiso conduce una furgoneta de 3.000 kg de masa máxima autorizada que transporta mercancías peligrosas. ¿Qué tasa máxima de alcohol en aire espirado puede tener?  
+Con diez años de permiso, conduce una furgoneta de 3.000 kg que transporta mercancías peligrosas. ¿Qué tasa máxima de alcohol en aire espirado puede tener?  
 Respuesta: **0,15 miligramos por litro.**
 
 - ✔ Los conductores de vehículos que transportan mercancías peligrosas tienen el límite reducido de 0,15 miligramos de alcohol por litro de aire espirado (0,3 gramos por litro en sangre), cualquiera que sea la masa del vehículo. _(RGC 20)_
@@ -2047,8 +2047,8 @@ Respuesta: **0,15 miligramos por litro.**
 
 ## xb-0003
 
-Un agente le denuncia por saltarse un semáforo en rojo, aunque usted no muestra ningún síntoma de haber bebido. ¿Puede someterle a la prueba de alcoholemia?  
-Respuesta: **Sí, pueden hacerla a los conductores denunciados por cualquier infracción.**
+Un agente le denuncia por saltarse un semáforo en rojo, aunque no muestra síntomas de haber bebido. ¿Puede someterle a la prueba de alcoholemia?  
+Respuesta: **Sí.**
 
 - ✔ Los agentes de tráfico pueden someter a la prueba de alcoholemia a los conductores denunciados por cometer alguna infracción del Reglamento General de Circulación, aunque no presenten síntomas. _(RGC 21.c)_
 - ✘ `D-alc-0003` El alcohol no afecta a todas las personas igual: influyen la cantidad, el peso, el sexo, el tiempo transcurrido, el tipo de bebida, la velocidad a la que se bebe, beber sin comer, la edad y las circunstancias personales. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 54))_
@@ -2056,8 +2056,8 @@ Respuesta: **Sí, pueden hacerla a los conductores denunciados por cualquier inf
 
 ## xb-0004
 
-Circula con normalidad, sin síntomas de haber bebido y sin haber cometido ninguna infracción, y le paran en un control preventivo de alcoholemia. ¿Debe someterse a la prueba?  
-Respuesta: **Sí, en un control preventivo pueden hacer la prueba a cualquier conductor.**
+Sin síntomas de haber bebido ni haber cometido ninguna infracción, le paran en un control preventivo de alcoholemia. ¿Debe someterse a la prueba?  
+Respuesta: **Sí.**
 
 - ✔ Los agentes pueden someter a la prueba de alcoholemia a cualquier conductor requerido dentro de los programas de controles preventivos, aunque circule correctamente y no presente síntomas. _(RGC 21.d)_
 - ✘ `xb-0013` Ante la negativa a hacer las pruebas de detección de drogas, el agente puede inmovilizar inmediatamente el vehículo, igual que en el caso del alcohol. _(RGC 28.1.b)_
@@ -2065,8 +2065,8 @@ Respuesta: **Sí, en un control preventivo pueden hacer la prueba a cualquier co
 
 ## xb-0005
 
-Tras un accidente, un conductor herido es evacuado a un hospital y sus lesiones impiden hacerle la prueba con el etilómetro. ¿Quién decide qué pruebas de alcohol se le hacen?  
-Respuesta: **El personal facultativo del centro médico al que ha sido evacuado.**
+Un conductor herido es evacuado a un hospital y sus lesiones impiden hacerle la prueba con el etilómetro. ¿Quién decide qué pruebas de alcohol se le hacen?  
+Respuesta: **El personal facultativo del centro médico.**
 
 - ✔ Cuando las lesiones o la enfermedad de la persona obligada impiden hacer la prueba de alcohol, el personal facultativo del centro médico al que es evacuada decide qué pruebas se le hacen. _(RGC 22.2)_
 - ✘ `xb-0006` El agente debe hacer una segunda prueba de alcoholemia por aire espirado cuando la primera supera la tasa permitida y también cuando, sin superarla, el conductor presenta síntomas evidentes de estar bajo la influencia del alcohol. _(RGC 23.1)_
@@ -2074,8 +2074,8 @@ Respuesta: **El personal facultativo del centro médico al que ha sido evacuado.
 
 ## xb-0006
 
-Un conductor con más de dos años de permiso da 0,20 mg/l en la primera prueba de alcoholemia, pero presenta síntomas evidentes de estar bajo la influencia del alcohol. ¿Qué hará el agente?  
-Respuesta: **Someterle a una segunda prueba por aire espirado, a efectos de contraste.**
+Un conductor con más de dos años de permiso da 0,20 mg/l en la primera prueba, pero presenta síntomas evidentes de estar bajo la influencia del alcohol. ¿Qué hará el agente?  
+Respuesta: **Hacerle una segunda prueba por aire espirado.**
 
 - ✔ El agente debe hacer una segunda prueba de alcoholemia por aire espirado cuando la primera supera la tasa permitida y también cuando, sin superarla, el conductor presenta síntomas evidentes de estar bajo la influencia del alcohol. _(RGC 23.1)_
 - ✘ `xb-0005` Cuando las lesiones o la enfermedad de la persona obligada impiden hacer la prueba de alcohol, el personal facultativo del centro médico al que es evacuada decide qué pruebas se le hacen. _(RGC 22.2)_
@@ -2083,7 +2083,7 @@ Respuesta: **Someterle a una segunda prueba por aire espirado, a efectos de cont
 
 ## xb-0007
 
-Tras dar positivo en la prueba de aire espirado, el conductor decide contrastar el resultado con un análisis de sangre. ¿Adónde le trasladará el agente?  
+Tras dar positivo, el conductor pide contrastar el resultado con un análisis de sangre. ¿Adónde le trasladará el agente?  
 Respuesta: **Al centro sanitario más próximo al lugar de los hechos.**
 
 - ✔ Si el interesado pide análisis de contraste, el agente adopta las medidas para trasladarle al centro sanitario más próximo al lugar de los hechos. _(RGC 23.4)_
@@ -2092,8 +2092,8 @@ Respuesta: **Al centro sanitario más próximo al lugar de los hechos.**
 
 ## xb-0008
 
-Un conductor pide un análisis de sangre para contrastar la prueba de alcoholemia y deposita su importe. Si el análisis da resultado negativo, ¿qué ocurre con el depósito?  
-Respuesta: **Se le devuelve, porque el análisis corre a cargo de la Administración.**
+Para contrastar la prueba de alcoholemia, un conductor pide un análisis de sangre y deposita su importe. Si el resultado es negativo, ¿qué ocurre con el depósito?  
+Respuesta: **Se le devuelve.**
 
 - ✔ El importe del análisis de contraste se deposita antes; si el resultado es positivo lo paga el interesado y, si es negativo, lo paga la Administración y se devuelve el depósito. _(RGC 23.4)_
 - ✘ `xb-0011` El personal sanitario está obligado a obtener las muestras, remitirlas al laboratorio y dar cuenta del resultado a la autoridad judicial, a la Jefatura de Tráfico y, cuando proceda, a las autoridades municipales. _(RGC 26.1)_
@@ -2110,7 +2110,7 @@ Respuesta: **Sí, y sus alegaciones se harán constar por diligencia.**
 
 ## xb-0010
 
-Su vehículo ha sido inmovilizado y trasladado a un depósito porque usted dio positivo en alcoholemia. ¿Quién paga los gastos de inmovilización, traslado y depósito?  
+Su vehículo ha sido inmovilizado y trasladado a un depósito porque dio positivo en alcoholemia. ¿Quién paga esos gastos?  
 Respuesta: **El conductor o quien legalmente deba responder por él.**
 
 - ✔ Los gastos de inmovilización, traslado y depósito del vehículo por un positivo en alcoholemia corren a cargo del conductor o de quien legalmente deba responder por él. _(RGC 25.4)_
@@ -2164,8 +2164,8 @@ Respuesta: **6 puntos.**
 
 ## xb-0016
 
-Un conductor de turismo da 0,45 mg/l de alcohol en aire espirado, pero circula haciendo eses y con claros síntomas de embriaguez. ¿Puede cometer un delito contra la seguridad vial?  
-Respuesta: **Sí, conducir bajo la influencia del alcohol es delito aunque no se superen 0,60 mg/l.**
+Un conductor da 0,45 mg/l de alcohol en aire espirado, pero circula haciendo eses y con claros síntomas de embriaguez. ¿Puede cometer un delito?  
+Respuesta: **Sí, aunque no supere 0,60 mg/l.**
 
 - ✔ El Código Penal castiga a quien conduce un vehículo de motor o un ciclomotor bajo la influencia de bebidas alcohólicas o drogas; por encima de 0,60 mg/l en aire es delito en todo caso, y por debajo también puede serlo si hay influencia. _(CP 379.2)_
 - ✘ `xb-0020` El Código Penal castiga con prisión de dos a cinco años, multa y privación del derecho a conducir de seis a diez años la conducción temeraria con manifiesto desprecio por la vida de los demás. _(CP 381.1)_
@@ -2173,8 +2173,8 @@ Respuesta: **Sí, conducir bajo la influencia del alcohol es delito aunque no se
 
 ## xb-0017
 
-Un ciclista circula con una tasa de 0,70 mg/l de alcohol en aire espirado. ¿Comete el delito de conducción bajo los efectos del alcohol del artículo 379 del Código Penal?  
-Respuesta: **No, ese delito se refiere a quien conduce un vehículo de motor o un ciclomotor.**
+Un ciclista circula con 0,70 mg/l de alcohol en aire espirado. ¿Comete el delito de conducción bajo los efectos del alcohol?  
+Respuesta: **No, ese delito se refiere a vehículos de motor y ciclomotores.**
 
 - ✔ El delito del artículo 379 del Código Penal se comete conduciendo un vehículo de motor o un ciclomotor; el ciclista con exceso de alcohol comete una infracción administrativa muy grave, no ese delito. _(CP 379.2)_
 - ✘ `xb-0023` El abandono del lugar de un accidente con fallecidos o heridos graves es delito tanto si el accidente se debió a una imprudencia del conductor como si fue fortuito; en este último caso la pena es menor. _(CP 382 bis.3)_
@@ -2182,7 +2182,7 @@ Respuesta: **No, ese delito se refiere a quien conduce un vehículo de motor o u
 
 ## xb-0019
 
-Un conductor circula a 210 km/h por una autovía limitada a 120 km/h y con una tasa de 0,70 mg/l de alcohol en aire espirado. ¿Cómo considera el Código Penal esa conducción?  
+Un conductor circula a 210 km/h por una autovía limitada a 120 km/h y con 0,70 mg/l de alcohol en aire espirado. ¿Cómo considera el Código Penal esa conducción?  
 Respuesta: **Manifiestamente temeraria.**
 
 - ✔ El Código Penal considera manifiestamente temeraria la conducción en la que coinciden un exceso de velocidad constitutivo de delito y una tasa de alcohol superior a 0,60 mg/l en aire espirado o 1,2 g/l en sangre. _(CP 380.2)_
@@ -2191,7 +2191,7 @@ Respuesta: **Manifiestamente temeraria.**
 
 ## xb-0020
 
-Conducir con temeridad manifiesta y con manifiesto desprecio por la vida de los demás, poniendo en concreto peligro la vida de las personas, ¿qué pena de prisión puede suponer?  
+Conducir con temeridad manifiesta y manifiesto desprecio por la vida de los demás, poniéndola en concreto peligro, ¿qué pena de prisión puede suponer?  
 Respuesta: **De dos a cinco años.**
 
 - ✔ El Código Penal castiga con prisión de dos a cinco años, multa y privación del derecho a conducir de seis a diez años la conducción temeraria con manifiesto desprecio por la vida de los demás. _(CP 381.1)_
@@ -2218,8 +2218,8 @@ Respuesta: **Un delito contra la seguridad vial.**
 
 ## xb-0023
 
-Un conductor causa de forma fortuita, sin culpa, un accidente con heridos graves y abandona voluntariamente el lugar, sin que haya riesgo para él ni para otros. ¿Comete un delito?  
-Respuesta: **Sí, el abandono también es delito aunque el accidente tenga un origen fortuito.**
+Sin culpa, un conductor causa un accidente con heridos graves y se va voluntariamente del lugar, sin riesgo para él ni para otros. ¿Comete un delito?  
+Respuesta: **Sí.**
 
 - ✔ El abandono del lugar de un accidente con fallecidos o heridos graves es delito tanto si el accidente se debió a una imprudencia del conductor como si fue fortuito; en este último caso la pena es menor. _(CP 382 bis.3)_
 - ✘ `xb-0019` El Código Penal considera manifiestamente temeraria la conducción en la que coinciden un exceso de velocidad constitutivo de delito y una tasa de alcohol superior a 0,60 mg/l en aire espirado o 1,2 g/l en sangre. _(CP 380.2)_
@@ -2245,7 +2245,7 @@ Respuesta: **El tiempo que pasa entre oír o ver algo y reaccionar.**
 
 ## xb-0026
 
-Acaba de tener una discusión fuerte y va a coger el coche. Según la DGT, ¿qué riesgo tiene?  
+Acaba de tener una discusión fuerte y va a coger el coche. ¿Qué riesgo tiene?  
 Respuesta: **Perder la concentración y provocar un accidente.**
 
 - ✔ Los cambios en el estado de ánimo, como los que produce una discusión fuerte o una noticia muy triste, pueden hacer que el conductor pierda la concentración y provoque un accidente. _(MANUAL_DGT Tema 3, El estado de ánimo (p. 44))_
@@ -2254,8 +2254,8 @@ Respuesta: **Perder la concentración y provocar un accidente.**
 
 ## xb-0027
 
-Según la DGT, la fatiga psicológica...  
-Respuesta: **hace que al conductor le cueste más concentrarse.**
+La fatiga psicológica...  
+Respuesta: **Hace que al conductor le cueste más concentrarse.**
 
 - ✔ La fatiga puede ser física o psicológica: la física produce sensación de cansancio y la psicológica hace que cueste más concentrarse. _(MANUAL_DGT Tema 3, Estar cansado (fatiga) (p. 45))_
 - ✘ `xb-0032` El detector de fatiga es un sistema con sensores que reconoce si el conductor está muy cansado o a punto de dormirse y le avisa con una luz, un sonido o una vibración en el volante para que pare. _(MANUAL_DGT Tema 3, ¿Cómo puedes evitar la fatiga y la somnolencia? (p. 51))_
@@ -2308,7 +2308,7 @@ Respuesta: **Con una luz, un sonido o una vibración en el volante.**
 
 ## xb-0033
 
-Según la DGT, ¿a qué afecta sobre todo el alcohol?  
+¿A qué afecta sobre todo el alcohol?  
 Respuesta: **Al cerebro y a la vista.**
 
 - ✔ El alcohol se extiende por todo el cuerpo a través de la sangre y afecta sobre todo al cerebro y a la vista. _(MANUAL_DGT Tema 3, Alcohol (p. 52))_
@@ -2317,8 +2317,8 @@ Respuesta: **Al cerebro y a la vista.**
 
 ## xb-0034
 
-Según la DGT, ¿cuál es la única tasa de alcoholemia segura para conducir?  
-Respuesta: **0,0, es decir, no beber alcohol.**
+¿Cuál es la única tasa de alcoholemia segura para conducir?  
+Respuesta: **0,0; no beber nada de alcohol.**
 
 - ✔ Aunque la ley permite ciertas tasas, la DGT advierte de que la única tasa de alcoholemia segura para conducir es 0,0, es decir, no beber alcohol. _(MANUAL_DGT Tema 3, Tasa de alcoholemia (p. 53))_
 - ✘ `xb-0036` El alcohol hace que el conductor vea peor las señales y los semáforos y calcule peor la distancia a la que están otros vehículos. _(MANUAL_DGT Tema 3, Efectos del alcohol mientras conduces (p. 57))_
@@ -2327,7 +2327,7 @@ Respuesta: **0,0, es decir, no beber alcohol.**
 ## xb-0035
 
 Ha bebido mucho alcohol por la noche y solo ha dormido unas pocas horas. ¿Es seguro conducir por la mañana?  
-Respuesta: **No, porque el alcohol se elimina más despacio mientras se duerme.**
+Respuesta: **No, porque el alcohol se elimina más despacio durmiendo.**
 
 - ✔ El alcohol se elimina más despacio durante el sueño; por eso no es seguro conducir después de beber mucho alcohol y dormir pocas horas. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (p. 55))_
 - ✘ `xb-0036` El alcohol hace que el conductor vea peor las señales y los semáforos y calcule peor la distancia a la que están otros vehículos. _(MANUAL_DGT Tema 3, Efectos del alcohol mientras conduces (p. 57))_
@@ -2353,7 +2353,7 @@ Respuesta: **Que se sienta de repente muy cansado y se duerma sin querer.**
 
 ## xb-0038
 
-Le han recetado un medicamento nuevo. Según la DGT, ¿qué debe hacer antes de conducir?  
+Si le recetan un medicamento nuevo, antes de conducir debe...  
 Respuesta: **Preguntar al médico si puede conducir con esa medicación.**
 
 - ✔ Algunas enfermedades y medicamentos reducen la capacidad para conducir con seguridad; por eso, quien tiene una enfermedad o toma medicación debe preguntar siempre al médico si puede conducir. _(MANUAL_DGT Tema 3, Enfermedades y medicamentos (p. 62))_
@@ -2363,7 +2363,7 @@ Respuesta: **Preguntar al médico si puede conducir con esa medicación.**
 ## xb-0039
 
 Los psicofármacos, que se usan para tratar la depresión, la ansiedad o los trastornos del sueño, pueden producir...  
-Respuesta: **sueño, pérdida de reflejos y visión borrosa.**
+Respuesta: **Sueño, pérdida de reflejos y visión borrosa.**
 
 - ✔ Los psicofármacos pueden producir sueño, pérdida de reflejos, mareos, visión borrosa y confusión, efectos peligrosos para conducir. _(MANUAL_DGT Tema 3, ¿Qué medicamentos pueden ser peligrosos para conducir? (p. 65))_
 - ✘ `xb-0038` Algunas enfermedades y medicamentos reducen la capacidad para conducir con seguridad; por eso, quien tiene una enfermedad o toma medicación debe preguntar siempre al médico si puede conducir. _(MANUAL_DGT Tema 3, Enfermedades y medicamentos (p. 62))_
@@ -2380,7 +2380,7 @@ Respuesta: **No, no debe abandonarlo hasta que lo autorice el médico.**
 
 ## xb-0041
 
-Según la DGT, ¿cuánto tiempo es recomendable esperar al terminar de comer antes de conducir?  
+Al terminar de comer, ¿cuánto tiempo es recomendable esperar antes de conducir?  
 Respuesta: **Entre 15 y 20 minutos.**
 
 - ✔ La DGT recomienda esperar entre 15 y 20 minutos al terminar de comer antes de conducir y hacer varias comidas ligeras en vez de una muy fuerte. _(MANUAL_DGT Tema 3, Alimentación (p. 66))_
@@ -2389,8 +2389,8 @@ Respuesta: **Entre 15 y 20 minutos.**
 
 ## xb-0042
 
-Según la DGT, ¿en qué conductores son más frecuentes los accidentes por distracciones?  
-Respuesta: **En los jóvenes de 18 a 25 años y en los mayores de 70.**
+¿En qué conductores son más frecuentes los accidentes por distracciones?  
+Respuesta: **En los de 18 a 25 años y en los mayores de 70.**
 
 - ✔ Los accidentes por distracciones son más frecuentes en los conductores jóvenes, de 18 a 25 años, y en los mayores de 70 años. _(MANUAL_DGT Tema 3, Accidentes por distracciones (p. 68))_
 - ✘ `D-mov-0004` Está prohibido conducir utilizando cualquier tipo de casco de audio, auriculares o instrumentos similares conectados a aparatos receptores o reproductores de sonido. _(RGC 18.2)_
@@ -2398,8 +2398,8 @@ Respuesta: **En los jóvenes de 18 a 25 años y en los mayores de 70.**
 
 ## xb-0043
 
-Según la DGT, las personas que fuman mientras conducen...  
-Respuesta: **sufren el doble de accidentes que las que no fuman.**
+Las personas que fuman mientras conducen...  
+Respuesta: **Sufren el doble de accidentes que las que no fuman.**
 
 - ✔ Fumar al volante duplica los accidentes: distrae al buscar y encender el cigarro, ocupa una mano, el humo dificulta la visión y empeora el aire del habitáculo. _(MANUAL_DGT Tema 3, Fumar en el vehículo (p. 70))_
 - ✘ `D-mov-0004` Está prohibido conducir utilizando cualquier tipo de casco de audio, auriculares o instrumentos similares conectados a aparatos receptores o reproductores de sonido. _(RGC 18.2)_
@@ -2479,8 +2479,8 @@ Respuesta: **Sí, el titular de un permiso caducado puede solicitar su prórroga
 
 ## xb-0052
 
-Una persona con un permiso de la clase B expedido en otro Estado de la Unión Europea, conforme a la normativa comunitaria, quiere conducir un turismo en España. ¿Es válido su permiso?  
-Respuesta: **Sí, mantiene su validez en las condiciones en que fue expedido.**
+Con un permiso de la clase B expedido en otro Estado de la Unión Europea conforme a la normativa comunitaria, ¿se puede conducir un turismo en España?  
+Respuesta: **Sí, en las condiciones en que fue expedido.**
 
 - ✔ Los permisos expedidos en Estados de la Unión Europea o del Espacio Económico Europeo conforme a la normativa comunitaria son válidos en España en las condiciones de su expedición, con la edad mínima exigida para el permiso español equivalente. _(RGCOND 15.1)_
 - ✘ `xb-0047` Quien obtiene un duplicado del permiso de conducción por sustracción o extravío debe devolver el original, cuando lo encuentre, a la Jefatura Provincial de Tráfico que lo hubiera expedido. _(RGCOND 11.3)_
@@ -2488,7 +2488,7 @@ Respuesta: **Sí, mantiene su validez en las condiciones en que fue expedido.**
 
 ## xb-0053
 
-El titular de un permiso expedido en otro Estado de la Unión Europea fija su residencia normal en España. ¿Qué normas se le aplican sobre vigencia, aptitudes psicofísicas y puntos?  
+El titular de un permiso de otro Estado de la Unión Europea fija su residencia normal en España. ¿Qué normas se le aplican sobre vigencia, aptitudes psicofísicas y puntos?  
 Respuesta: **Las españolas.**
 
 - ✔ Quien tiene un permiso de otro Estado de la Unión Europea y adquiere su residencia normal en España queda sometido a las normas españolas sobre vigencia, control de aptitudes psicofísicas y crédito de puntos. _(RGCOND 15.4)_
@@ -2497,7 +2497,7 @@ Respuesta: **Las españolas.**
 
 ## xb-0054
 
-Un permiso de conducción expedido en un país que no es de la Unión Europea, válido para conducir en España, ¿durante cuánto tiempo puede usarse desde que su titular adquiere la residencia normal en España?  
+Un permiso expedido fuera de la Unión Europea y válido en España, ¿durante cuánto tiempo puede usarse desde que su titular reside normalmente en España?  
 Respuesta: **Seis meses como máximo, salvo que un convenio diga otra cosa.**
 
 - ✔ Los permisos de países no comunitarios válidos en España dejan de serlo, salvo convenio que diga otra cosa, cuando pasan seis meses desde que su titular adquiere la residencia normal en España; después hay que obtener o canjear un permiso español. _(RGCOND 21.2.c)_
@@ -2533,8 +2533,8 @@ Respuesta: **Entregarlo en la Jefatura Provincial de Tráfico.**
 
 ## xb-0058
 
-Durante su primer año con permiso, una autoridad le interviene el permiso durante tres meses. ¿Qué ocurre con el plazo durante el que debe llevar la señal de conductor novel (V-13)?  
-Respuesta: **Se suspende y, cuando termina la intervención, sigue contando desde donde se quedó.**
+Durante su primer año con permiso, una autoridad se lo interviene durante tres meses. ¿Qué ocurre con el plazo en el que debe llevar la señal de conductor novel?  
+Respuesta: **Se suspende y, al acabar la intervención, sigue contando desde donde se quedó.**
 
 - ✔ El año durante el que se debe llevar la señal V-13 de conductor novel se suspende mientras el permiso está intervenido, ha perdido su vigencia o hay privación del derecho a conducir, y luego continúa desde donde quedó. _(RGV Anexo XI, V-13)_
 - ✘ `C-perm-0010` Los vehículos especiales agrícolas autopropulsados pueden conducirse con el B (o licencia); si superan los límites de masa o dimensiones de los vehículos ordinarios o 45 km/h, se requiere el B en todo caso. _(RGCOND 5.9)_
@@ -2560,8 +2560,8 @@ Respuesta: **Dos puntos adicionales, sin pasar de un máximo de quince.**
 
 ## xb-0061
 
-Un conductor con permiso B comete, mientras circula en bicicleta, una infracción que lleva aparejada la pérdida de puntos. ¿Pierde puntos de su permiso?  
-Respuesta: **No, porque la bicicleta no exige permiso de conducción.**
+Un conductor con permiso B, mientras circula en bicicleta, comete una infracción que lleva aparejada la pérdida de puntos. ¿Pierde puntos de su permiso?  
+Respuesta: **No.**
 
 - ✔ La pérdida de puntos solo se produce cuando el hecho sancionado ocurre conduciendo un vehículo para el que se exige permiso o licencia de conducción; con la bicicleta hay multa, pero no se pierden puntos. _(LSV 65.3)_
 - ✘ `C-pun-0016` No se pierden más de ocho puntos al día por acumulación de infracciones, salvo que concurran determinadas infracciones muy graves del art. 77, en cuyo caso se pierden todos los que correspondan. _(LSV 64.4)_
@@ -2741,7 +2741,7 @@ Respuesta: **Acreditar que tiene el seguro obligatorio.**
 ## xb-0081
 
 Tras una ITV desfavorable, repara el vehículo. ¿Dónde puede pasar la nueva inspección?  
-Respuesta: **En la estación ITV que elija, porque hay libertad de elección.**
+Respuesta: **En la estación que elija.**
 
 - ✔ El titular puede elegir libremente la estación ITV tanto para la primera inspección como para las sucesivas tras reparar los defectos. _(ITV 11.8)_
 - ✘ `xb-0080` Para realizar cualquier inspección técnica de un vehículo es condición previa acreditar que tiene el seguro obligatorio. _(ITV 8.3)_
@@ -2758,8 +2758,8 @@ Respuesta: **Se le hará una inspección técnica completa, además de las posib
 
 ## xb-0083
 
-La ITV de su turismo caduca el 30 de junio y la pasa con resultado favorable el 15 de junio. ¿Desde qué fecha se cuenta el plazo de la siguiente inspección?  
-Respuesta: **Desde el 30 de junio, fecha en que caducaba la anterior.**
+La ITV de su turismo caduca el 30 de junio y la pasa favorablemente el 15 de junio. ¿Desde qué fecha se cuenta el plazo de la siguiente?  
+Respuesta: **Desde el 30 de junio.**
 
 - ✔ Si la ITV se supera dentro de los 30 días naturales anteriores a la caducidad de la anterior, el nuevo plazo se cuenta desde la fecha en que esta caducaba, por lo que no se pierden días. _(ITV 6.5)_
 - ✘ `xb-0082` Si el vehículo se presenta a la segunda inspección fuera del plazo concedido para repararlo, debe realizarse una inspección técnica completa, sin perjuicio de las sanciones que correspondan. _(ITV 11.4)_
@@ -2803,8 +2803,8 @@ Respuesta: **Su depósito o precinto, a cargo del propietario, mientras no se co
 
 ## xb-0088
 
-Una persona sin permiso de conducir causa un accidente con un coche que tiene seguro obligatorio. ¿Puede la aseguradora negarse a indemnizar a las víctimas por ese motivo?  
-Respuesta: **No, esa exclusión no puede oponerse frente a los perjudicados.**
+Una persona sin permiso de conducir causa un accidente con un coche asegurado. ¿Puede la aseguradora negarse por ese motivo a indemnizar a las víctimas?  
+Respuesta: **No.**
 
 - ✔ La aseguradora no puede oponer a los perjudicados las cláusulas que excluyen de la cobertura la conducción por personas sin permiso de conducir; debe indemnizar a las víctimas. _(LRCSCVM 6)_
 - ✘ `xb-0092` Los vehículos que, sin usarse como medio de transporte, han sido dados de baja temporal o definitiva en el registro de vehículos de la DGT están exceptuados de la obligación de asegurarse. _(LRCSCVM 2.8.a)_
@@ -2857,7 +2857,7 @@ Respuesta: **En placas colocadas en el interior del vehículo.**
 
 ## xb-0094
 
-Lleva todas las plazas de su furgoneta ocupadas y el maletero lleno de equipaje. ¿Qué límite no puede sobrepasarse en ningún caso entre viajeros y equipaje?  
+Lleva todas las plazas de su furgoneta ocupadas y el maletero lleno. ¿Qué límite no pueden sobrepasar en ningún caso viajeros y equipaje?  
 Respuesta: **La masa máxima autorizada del vehículo.**
 
 - ✔ El número de personas transportadas no puede superar el de plazas autorizadas y, en ningún caso, el peso de viajeros y equipaje juntos puede sobrepasar la masa máxima autorizada del vehículo. _(RGC 9.1)_
@@ -2903,7 +2903,7 @@ Respuesta: **Sin sacudidas, lo más cerca posible del borde derecho de la calzad
 ## xb-0100
 
 ¿Puede un viajero subir con su perro a un autobús de servicio público?  
-Respuesta: **Solo si hay sitio destinado a animales, salvo el perro lazarillo de un invidente.**
+Respuesta: **Solo si hay sitio destinado a animales, salvo el perro guía de un invidente.**
 
 - ✔ En el transporte público colectivo está prohibido llevar animales salvo que exista un lugar destinado a ellos; se exceptúan, bajo su responsabilidad, las personas invidentes acompañadas de su perro lazarillo. _(RGC 11.2.e)_
 - ✘ `xb-0097` Como excepción a la regla general, en los vehículos de transporte de mercancías pueden viajar personas en el lugar reservado a la carga, pero solo en las condiciones que fijan las normas que lo regulan. _(RGC 10.2)_
@@ -2992,8 +2992,8 @@ Respuesta: **Resguardar el extremo saliente para aminorar un posible roce o choq
 
 ## xb-0110
 
-Su furgoneta lleva unos tubos que sobresalen por detrás ocupando toda la anchura posterior del vehículo. ¿Cómo debe señalizarlos con paneles como el de la imagen?  
-Respuesta: **Con dos paneles, uno en cada extremo de la carga, formando una V invertida.**
+Su furgoneta lleva unos tubos que sobresalen por detrás ocupando toda su anchura. ¿Cómo debe señalizarlos con paneles como este?  
+Respuesta: **Con dos paneles, uno en cada extremo, formando una V invertida.**
 
 - ✔ Cuando la carga sobresale por toda la anchura posterior del vehículo, se colocan transversalmente dos paneles V-20, uno en cada extremo, formando una geometría de V invertida. _(RGC 15.6)_
 - ✘ `C-car-0001` Las motocicletas, vehículos de tres ruedas y ciclomotores que arrastran remolque no pueden transportar personas en el vehículo remolcado en ningún caso. _(RGC 12.3.c)_
@@ -3001,7 +3001,7 @@ Respuesta: **Con dos paneles, uno en cada extremo de la carga, formando una V in
 
 ## xb-0111
 
-¿Dónde debe colocarse la señal V-20 cuando la carga sobresale por detrás del vehículo?  
+¿Dónde debe colocarse esta señal cuando la carga sobresale por detrás del vehículo?  
 Respuesta: **En el extremo posterior de la carga, perpendicular al eje del vehículo.**
 
 - ✔ La señal V-20 se coloca en el extremo posterior de la carga que sobresale, de manera que quede constantemente perpendicular al eje del vehículo. _(RGC 15.6)_
@@ -3010,7 +3010,7 @@ Respuesta: **En el extremo posterior de la carga, perpendicular al eje del vehí
 
 ## xb-0112
 
-De noche, la carga de su vehículo sobresale lateralmente y su extremo queda a más de 0,40 metros del borde exterior de las luces de posición. ¿Cómo debe señalizarse hacia delante?  
+De noche, la carga sobresale lateralmente más de 0,40 metros del borde exterior de las luces de posición. ¿Cómo debe señalizarse hacia delante?  
 Respuesta: **Con una luz blanca y un dispositivo reflectante blanco.**
 
 - ✔ La carga que sobresale lateralmente más de 0,40 metros del borde de las luces de posición se señaliza de noche o con poca visibilidad, en cada extremo lateral, con luz y reflectante blancos hacia delante y con luz y reflectante rojos hacia atrás. _(RGC 15.7)_
@@ -3055,8 +3055,8 @@ Respuesta: **Colocarlo de forma adecuada para que no interfiera en la conducció
 
 ## xb-0117
 
-Según la DGT, ¿qué puede ocurrir si un vehículo lleva más peso del que debe?  
-Respuesta: **Que se estropeen elementos como los neumáticos y los frenos.**
+¿Qué puede ocurrir si un vehículo lleva más peso del que debe?  
+Respuesta: **Que se estropeen los neumáticos y los frenos, entre otros elementos.**
 
 - ✔ Cuando un vehículo carga más peso del debido se estropean algunos de sus elementos, como los neumáticos, los sistemas de aceleración y los frenos. _(MANUAL_DGT Tema 13, Límite de peso (p. 320))_
 - ✘ `C-car-0011` En los vehículos no destinados exclusivamente al transporte de mercancías la carga solo puede sobresalir por la parte posterior. _(RGC 15.3)_
@@ -3073,7 +3073,7 @@ Respuesta: **Que no se moverá al frenar o en un choque y que no le tapa la visi
 
 ## xb-0119
 
-Según el Reglamento General de Vehículos, ¿cuál es como máximo la masa remolcable sin freno de un turismo cuya tara es de 1.000 kg?  
+¿Cuál es como máximo la masa remolcable sin freno de un turismo cuya tara es de 1.000 kg?  
 Respuesta: **575 kg.**
 
 - ✔ Para arrastrar remolques sin freno, la masa máxima remolcable es la mitad de la tara del vehículo tractor más 75 kg, sin superar en ningún caso 750 kg. _(RGV Anexo IX.4.1.2.1)_
@@ -3082,7 +3082,7 @@ Respuesta: **575 kg.**
 
 ## xb-0120
 
-Un turismo, que no es todoterreno, tiene 1.800 kg de masa máxima autorizada. Según el Reglamento General de Vehículos, ¿cuál es como máximo su masa remolcable con un remolque que solo tiene freno de inercia?  
+Un turismo que no es todoterreno tiene 1.800 kg de masa máxima autorizada. ¿Cuál es como máximo su masa remolcable con un remolque que solo tiene freno de inercia?  
 Respuesta: **1.800 kg.**
 
 - ✔ Con remolques que solo tienen freno de inercia, la masa remolcable no puede superar la masa máxima autorizada del vehículo tractor (1,5 veces si es todoterreno) ni, en ningún caso, 3.500 kg. _(RGV Anexo IX.4.1.2.2)_
@@ -3118,7 +3118,7 @@ Respuesta: **Factores de riesgo.**
 
 ## xc-0002
 
-Según la DGT, de los tres grandes factores de riesgo (humano, estado de la carretera y fallo del vehículo), ¿cuál interviene en menos accidentes?  
+De los tres grandes factores de riesgo (humano, estado de la carretera y fallo del vehículo), ¿cuál interviene en menos accidentes?  
 Respuesta: **El fallo del vehículo.**
 
 - ✔ Según la DGT, el fallo del vehículo interviene en entre 4 y 13 de cada 100 accidentes, menos que el estado de la carretera (entre 10 y 35) y que el factor humano (entre 70 y 90). _(MANUAL_DGT Tema 16, Factores de riesgo (p. 390))_
@@ -3145,8 +3145,8 @@ Respuesta: **Al fallo en el vehículo.**
 
 ## xc-0005
 
-Va a empezar un viaje largo. Según la DGT, ¿qué comprobación ayuda a evitar un accidente por fallo del vehículo?  
-Respuesta: **Revisar que los neumáticos están en buen estado para que no sufran un reventón.**
+Antes de un viaje largo, ¿qué comprobación ayuda a evitar un accidente por fallo del vehículo?  
+Respuesta: **Que los neumáticos están en buen estado.**
 
 - ✔ Muchos factores de riesgo se pueden evitar con un comportamiento responsable, por ejemplo revisando los neumáticos antes de empezar un viaje para comprobar que no tendrán un reventón. _(MANUAL_DGT Tema 16, Factores de riesgo (p. 390))_
 - ✘ `xc-0006` En una carretera con lluvia se pueden evitar accidentes reduciendo la velocidad y dejando más distancia de seguridad con el vehículo de delante. _(MANUAL_DGT Tema 16, Factores de riesgo (p. 391))_
@@ -3154,8 +3154,8 @@ Respuesta: **Revisar que los neumáticos están en buen estado para que no sufra
 
 ## xc-0006
 
-Circula por una carretera con lluvia. Según la DGT, ¿cómo puede reducir el riesgo de accidente?  
-Respuesta: **Reducir la velocidad y dejar más distancia de seguridad con el vehículo de delante.**
+Circula por una carretera con lluvia. ¿Cómo puede reducir el riesgo de accidente?  
+Respuesta: **Reduciendo la velocidad y aumentando la distancia de seguridad.**
 
 - ✔ En una carretera con lluvia se pueden evitar accidentes reduciendo la velocidad y dejando más distancia de seguridad con el vehículo de delante. _(MANUAL_DGT Tema 16, Factores de riesgo (p. 391))_
 - ✘ `xc-0005` Muchos factores de riesgo se pueden evitar con un comportamiento responsable, por ejemplo revisando los neumáticos antes de empezar un viaje para comprobar que no tendrán un reventón. _(MANUAL_DGT Tema 16, Factores de riesgo (p. 390))_
@@ -3163,7 +3163,7 @@ Respuesta: **Reducir la velocidad y dejar más distancia de seguridad con el veh
 
 ## xc-0007
 
-Según la DGT, ¿qué tipo de accidente es el más frecuente dentro de las ciudades?  
+¿Qué tipo de accidente es el más frecuente dentro de las ciudades?  
 Respuesta: **El atropello a peatones.**
 
 - ✔ Los accidentes que más se producen dentro de las ciudades son los atropellos a peatones. _(MANUAL_DGT Tema 16, ¿Dónde y cuándo hay más accidentes? (p. 392))_
@@ -3181,7 +3181,7 @@ Respuesta: **En zonas donde algún obstáculo impide que los conductores los vea
 
 ## xc-0009
 
-Según la DGT, si un vehículo atropella a un peatón dentro de una ciudad, ¿qué aumenta las posibilidades de que el peatón sobreviva?  
+Si un vehículo atropella a un peatón en ciudad, ¿qué aumenta las posibilidades de que el peatón sobreviva?  
 Respuesta: **Que el vehículo circulara a poca velocidad.**
 
 - ✔ En caso de atropello, el peatón tiene más posibilidades de sobrevivir si el vehículo va a poca velocidad; por eso dentro de pueblos y ciudades se debe conducir despacio. _(MANUAL_DGT Tema 10, ¿Por qué son necesarios los límites de velocidad? (p. 259))_
@@ -3190,8 +3190,8 @@ Respuesta: **Que el vehículo circulara a poca velocidad.**
 
 ## xc-0010
 
-Según la DGT, ¿dónde ocurren sobre todo los accidentes de tráfico de los jóvenes?  
-Respuesta: **En las grandes ciudades, en los trayectos de ida y vuelta al trabajo y en los lugares de fiesta.**
+¿Dónde ocurren sobre todo los accidentes de tráfico de los jóvenes?  
+Respuesta: **En las grandes ciudades, al ir y volver del trabajo y de los lugares de fiesta.**
 
 - ✔ Los accidentes de los jóvenes ocurren sobre todo en las grandes ciudades, en los caminos de ida y vuelta al trabajo y en los lugares de fiesta. _(MANUAL_DGT Tema 16, Conductores jóvenes (p. 403))_
 - ✘ `xc-0013` La DGT incluye entre las causas de accidentes juveniles seguir los consejos de alguna publicidad que invita a los conductores a correr riesgos. _(MANUAL_DGT Tema 16, Conductores jóvenes (p. 405))_
@@ -3208,7 +3208,7 @@ Respuesta: **Por la noche y de madrugada.**
 
 ## xc-0012
 
-¿Cuál de estas es una de las causas principales de los accidentes de tráfico de los jóvenes, según la DGT?  
+¿Cuál de estas es una de las causas principales de los accidentes de tráfico de los jóvenes?  
 Respuesta: **Competir con otros conductores.**
 
 - ✔ Entre las causas principales de los accidentes juveniles están el exceso de velocidad, el alcohol y las drogas, no respetar las normas, correr riesgos, la poca experiencia y competir con otros conductores. _(MANUAL_DGT Tema 16, Conductores jóvenes (p. 404))_
@@ -3217,8 +3217,8 @@ Respuesta: **Competir con otros conductores.**
 
 ## xc-0013
 
-¿Qué papel puede tener la publicidad en los accidentes de los jóvenes, según la DGT?  
-Respuesta: **Seguir los consejos de publicidad que invita a correr riesgos es una causa de accidentes juveniles.**
+¿Qué papel puede tener la publicidad en los accidentes de los jóvenes?  
+Respuesta: **Seguir la publicidad que invita a correr riesgos causa accidentes juveniles.**
 
 - ✔ La DGT incluye entre las causas de accidentes juveniles seguir los consejos de alguna publicidad que invita a los conductores a correr riesgos. _(MANUAL_DGT Tema 16, Conductores jóvenes (p. 405))_
 - ✘ `xc-0010` Los accidentes de los jóvenes ocurren sobre todo en las grandes ciudades, en los caminos de ida y vuelta al trabajo y en los lugares de fiesta. _(MANUAL_DGT Tema 16, Conductores jóvenes (p. 403))_
@@ -3227,7 +3227,7 @@ Respuesta: **Seguir los consejos de publicidad que invita a correr riesgos es un
 ## xc-0014
 
 ¿Cuándo ocurren más accidentes de ciclistas?  
-Respuesta: **Los fines de semana, sobre todo cuando llega el buen tiempo.**
+Respuesta: **Los fines de semana, sobre todo con el buen tiempo.**
 
 - ✔ Los accidentes de ciclistas ocurren más los fines de semana, sobre todo cuando llega el buen tiempo. _(MANUAL_DGT Tema 16, Bicicletas (p. 407))_
 - ✘ `xc-0003` Que la carretera esté mojada es una causa de accidente ligada al estado de la carretera; el alcohol es un factor humano y el pinchazo, un fallo del vehículo. _(MANUAL_DGT Tema 16, Factores de riesgo (p. 390))_
@@ -3253,7 +3253,7 @@ Respuesta: **Dentro de la ciudad.**
 
 ## xc-0017
 
-¿Cuál de estas faltas de los conductores de otros vehículos causa accidentes con motocicletas, según la DGT?  
+¿Cuál de estas faltas de los conductores de otros vehículos causa accidentes con motocicletas?  
 Respuesta: **No respetar la preferencia de paso de las motocicletas.**
 
 - ✔ Entre las faltas de los conductores de otros vehículos que causan accidentes con motocicletas están no respetar su preferencia de paso, ocupar el carril contrario y las distracciones. _(MANUAL_DGT Tema 16, Motocicletas y ciclomotores (p. 410))_
@@ -3272,7 +3272,7 @@ Respuesta: **Los fallos de los neumáticos son una causa común de accidentes.**
 ## xc-0019
 
 Circula a 70 km/h, por debajo del límite de la vía, por una carretera con placas de hielo. ¿Cómo se considera esa velocidad?  
-Respuesta: **Inadecuada, porque no es apropiada para el estado de la carretera.**
+Respuesta: **Inadecuada.**
 
 - ✔ Una velocidad dentro de los límites permitidos puede ser inadecuada si no se ajusta al estado de la carretera, al clima, al vehículo o al conductor, como 70 km/h con placas de hielo. _(MANUAL_DGT Tema 10, Velocidad inadecuada (p. 245))_
 - ✘ `xc-0009` En caso de atropello, el peatón tiene más posibilidades de sobrevivir si el vehículo va a poca velocidad; por eso dentro de pueblos y ciudades se debe conducir despacio. _(MANUAL_DGT Tema 10, ¿Por qué son necesarios los límites de velocidad? (p. 259))_
@@ -3280,7 +3280,7 @@ Respuesta: **Inadecuada, porque no es apropiada para el estado de la carretera.*
 
 ## xc-0020
 
-Según la DGT, ¿qué papel tiene la velocidad inadecuada o excesiva en los accidentes?  
+¿Qué papel tiene la velocidad inadecuada o excesiva en los accidentes?  
 Respuesta: **Es una de las principales causas de accidentes de tráfico.**
 
 - ✔ Conducir a velocidad inadecuada o excesiva es una de las principales causas de accidentes de tráfico. _(MANUAL_DGT Tema 10, Velocidad inadecuada (p. 246))_
@@ -3298,8 +3298,8 @@ Respuesta: **Pensar que va a menos velocidad de la que en realidad lleva.**
 
 ## xc-0022
 
-Según la DGT, ¿qué ocurre con el riesgo de morir en un accidente cuando el vehículo circula a velocidad excesiva?  
-Respuesta: **Es mayor que cuando circula a velocidad adecuada.**
+Cuando un vehículo circula a velocidad excesiva, ¿qué ocurre con el riesgo de morir en un accidente?  
+Respuesta: **Es mayor que a velocidad adecuada.**
 
 - ✔ El riesgo de que las personas mueran en un accidente de tráfico es mayor cuando el vehículo circula a velocidad excesiva que cuando lo hace a velocidad adecuada. _(MANUAL_DGT Tema 10, Velocidad adecuada (p. 246))_
 - ✘ `xc-0009` En caso de atropello, el peatón tiene más posibilidades de sobrevivir si el vehículo va a poca velocidad; por eso dentro de pueblos y ciudades se debe conducir despacio. _(MANUAL_DGT Tema 10, ¿Por qué son necesarios los límites de velocidad? (p. 259))_
@@ -3325,7 +3325,7 @@ Respuesta: **En carreteras más que en ciudad, y en autopistas y autovías.**
 
 ## xc-0025
 
-Según la DGT, ¿cuándo son más frecuentes los accidentes por distracciones?  
+¿Cuándo son más frecuentes los accidentes por distracciones?  
 Respuesta: **Cuando hay varias personas dentro del vehículo.**
 
 - ✔ Los accidentes por distracciones son más frecuentes cuando hay varias personas dentro del vehículo, en verano y en los viajes de fin de semana durante el día. _(MANUAL_DGT Tema 3, Accidentes por distracciones (p. 68))_
@@ -3335,7 +3335,7 @@ Respuesta: **Cuando hay varias personas dentro del vehículo.**
 ## xc-0026
 
 Conoce muy bien la carretera por la que circula a diario. ¿Puede ser eso causa de distracción?  
-Respuesta: **Sí, porque puede confiarse demasiado.**
+Respuesta: **Sí.**
 
 - ✔ Conocer bien la carretera y confiarse demasiado es una de las causas de accidentes por distracción relacionadas con la carretera. _(MANUAL_DGT Tema 3, Causas de accidentes por distracción (p. 69))_
 - ✘ `xc-0025` Los accidentes por distracciones son más frecuentes cuando hay varias personas dentro del vehículo, en verano y en los viajes de fin de semana durante el día. _(MANUAL_DGT Tema 3, Accidentes por distracciones (p. 68))_
@@ -3344,7 +3344,7 @@ Respuesta: **Sí, porque puede confiarse demasiado.**
 ## xc-0027
 
 ¿Por qué fumar mientras se conduce aumenta el riesgo de accidente?  
-Respuesta: **Porque al buscar y encender el cigarro se desatiende la carretera y una mano queda ocupada.**
+Respuesta: **Porque al buscar y encender el cigarro se desatiende la carretera.**
 
 - ✔ Fumar mientras se conduce aumenta el riesgo de accidente por la falta de atención al buscar y encender el cigarro, la mano ocupada, el humo que dificulta la visión y el peor aire del habitáculo. _(MANUAL_DGT Tema 3, Fumar en el vehículo (p. 70))_
 - ✘ `xc-0025` Los accidentes por distracciones son más frecuentes cuando hay varias personas dentro del vehículo, en verano y en los viajes de fin de semana durante el día. _(MANUAL_DGT Tema 3, Accidentes por distracciones (p. 68))_
@@ -3352,7 +3352,7 @@ Respuesta: **Porque al buscar y encender el cigarro se desatiende la carretera y
 
 ## xc-0028
 
-Según la DGT, ¿qué proporción de las personas que mueren en un accidente de tráfico había consumido drogas antes de conducir?  
+¿Qué proporción de las personas que mueren en un accidente de tráfico había consumido drogas antes de conducir?  
 Respuesta: **Una de cada 10.**
 
 - ✔ Una de cada 10 personas que mueren en un accidente de tráfico había consumido drogas antes de conducir. _(MANUAL_DGT Tema 3, Otras drogas (p. 58))_
@@ -3379,7 +3379,7 @@ Respuesta: **Los daños en los vehículos, la carretera y el medioambiente.**
 
 ## xc-0031
 
-Según la DGT, ¿qué importancia tiene la fatiga como causa de accidentes?  
+¿Qué importancia tiene la fatiga como causa de accidentes?  
 Respuesta: **Es uno de los principales riesgos que pueden provocar accidentes.**
 
 - ✔ Estar cansado (fatiga) es uno de los principales riesgos que pueden provocar accidentes en la carretera; puede ser física o psicológica. _(MANUAL_DGT Tema 3, Estar cansado (fatiga) (p. 45))_
@@ -3397,7 +3397,7 @@ Respuesta: **En estar atento para prever qué van a hacer los demás usuarios de
 
 ## xc-0033
 
-Circula por una autovía y ve que el conductor del carril de al lado puede necesitar cambiarse a su carril. Según la conducción defensiva, ¿qué debe hacer?  
+En una autovía, ve que el conductor del carril de al lado puede necesitar pasarse a su carril. Conduciendo de forma defensiva, ¿qué debe hacer?  
 Respuesta: **Tenerlo en cuenta y estar preparado por si ocurre.**
 
 - ✔ En la conducción defensiva se tiene en cuenta, por ejemplo, que otro conductor puede necesitar cambiar de carril y se está preparado por si esto ocurre. _(MANUAL_DGT Tema 4, Términos relacionados con la conducción segura (p. 78))_
@@ -3407,7 +3407,7 @@ Respuesta: **Tenerlo en cuenta y estar preparado por si ocurre.**
 ## xc-0034
 
 ¿Por dónde pueden surgir los imprevistos de la llamada «zona de inseguridad» que rodea a su vehículo?  
-Respuesta: **Por delante, por detrás y a los lados del vehículo.**
+Respuesta: **Por delante, por detrás y por los lados.**
 
 - ✔ La zona de inseguridad es el espacio en el que pueden surgir imprevistos por parte de otros conductores y peatones, y esos imprevistos pueden surgir por delante, por detrás y a los lados del vehículo. _(MANUAL_DGT Tema 4, Términos relacionados con la conducción segura (p. 78))_
 - ✘ `xc-0035` La seguridad en la carretera depende de los conductores y también de los peatones, por lo que todos deben colaborar respetando a los demás y circulando de manera ordenada. _(MANUAL_DGT Tema 4, Seguridad en la carretera (p. 75))_
@@ -3415,7 +3415,7 @@ Respuesta: **Por delante, por detrás y a los lados del vehículo.**
 
 ## xc-0035
 
-Según la DGT, ¿de quién depende la seguridad en la carretera?  
+¿De quién depende la seguridad en la carretera?  
 Respuesta: **De los conductores y también de los peatones.**
 
 - ✔ La seguridad en la carretera depende de los conductores y también de los peatones, por lo que todos deben colaborar respetando a los demás y circulando de manera ordenada. _(MANUAL_DGT Tema 4, Seguridad en la carretera (p. 75))_
@@ -3451,8 +3451,8 @@ Respuesta: **En mirar hacia todos los lados para recoger información, sin fijar
 
 ## xc-0040
 
-Según la DGT, ¿cómo debe cambiar la distancia a la que mira hacia delante cuando aumenta la velocidad?  
-Respuesta: **Cuanto más rápido conduce, más lejos debe mirar.**
+Cuando aumenta la velocidad, ¿cómo debe cambiar la distancia a la que mira hacia delante?  
+Respuesta: **Debe mirar más lejos.**
 
 - ✔ Cuanto más rápido se conduce, más lejos hay que mirar, para prever las situaciones de peligro y evitar frenazos y acelerones bruscos. _(MANUAL_DGT Tema 17, Visión (p. 442))_
 - ✘ `xc-0054` Para evitar atropellos, los conductores deben prestar atención a los peatones que andan por lugares cercanos a zonas de fiesta y diversión. _(MANUAL_DGT Tema 16, Los peatones (p. 398))_
@@ -3496,7 +3496,7 @@ Respuesta: **Para que otros vehículos le vean y sepan qué movimiento va a hace
 
 ## xc-0045
 
-Según la DGT, ¿cómo deben señalarse las maniobras para anticiparse a los imprevistos?  
+Para anticiparse a los imprevistos, ¿cómo deben señalizarse las maniobras?  
 Respuesta: **Siempre, durante el tiempo que sea necesario.**
 
 - ✔ Para evitar riesgos y reaccionar rápido ante imprevistos hay que señalar siempre las maniobras que se van a hacer durante el tiempo que sea necesario. _(MANUAL_DGT Tema 17, Anticipación (p. 445))_
@@ -3514,8 +3514,8 @@ Respuesta: **Señalizar con más tiempo las maniobras y frenar de forma suave y 
 
 ## xc-0047
 
-Se detiene en un atasco dejando dos o tres metros con el vehículo de delante. ¿Qué ventaja tiene, según la DGT?  
-Respuesta: **Que podrá adelantar al vehículo de delante si este se queda parado por algún motivo.**
+En un atasco se detiene dejando dos o tres metros con el vehículo de delante. ¿Qué ventaja tiene?  
+Respuesta: **Que podrá rebasarlo si se queda parado por algún motivo.**
 
 - ✔ Dejar al menos dos o tres metros con el vehículo de delante al detenerse permite avisarle si va hacia atrás, adelantarlo si se queda parado y no golpearlo si a uno le golpean por detrás. _(MANUAL_DGT Tema 17, Espacio al detener el vehículo (p. 448))_
 - ✘ `xc-0046` Cuando el vehículo de atrás se acerca mucho conviene dejar más distancia con el de delante, señalizar con más tiempo las maniobras y frenar de forma suave y con tiempo suficiente. _(MANUAL_DGT Tema 17, Espacio trasero (p. 447))_
@@ -3568,8 +3568,8 @@ Respuesta: **Que le avise de que está conduciendo.**
 
 ## xc-0053
 
-Un peatón cruza la calle mientras habla por el móvil. ¿Qué debe hacer usted?  
-Respuesta: **Tener especial cuidado, porque puede ir distraído.**
+Un peatón cruza la calle mientras habla por el móvil. ¿Qué debe hacer?  
+Respuesta: **Tener especial cuidado.**
 
 - ✔ Hay que tener especial cuidado cuando un peatón cruza mientras habla por el móvil, porque puede ir distraído. _(MANUAL_DGT Tema 16, Los peatones (p. 398))_
 - ✘ `bm3-0017` La DGT aconseja no quedarse al lado de un vehículo de dos ruedas, sino circular por delante o por detrás de él, y mantener la distancia de seguridad. _(MANUAL_DGT Tema 16, Motocicletas y ciclomotores (p. 411))_
@@ -3595,7 +3595,7 @@ Respuesta: **En todo momento.**
 
 ## xc-0056
 
-Según la Ley de Tráfico, al usar el vehículo con diligencia para no poner en peligro a nadie, ¿a quiénes debe cuidar especialmente el conductor?  
+El conductor debe usar el vehículo con la diligencia necesaria para no poner en peligro a nadie. ¿A quiénes debe cuidar especialmente?  
 Respuesta: **A los usuarios cuyas características les hagan más vulnerables.**
 
 - ✔ El conductor debe usar el vehículo con diligencia, precaución y atención para no poner en peligro a nadie, especialmente a los usuarios cuyas características les hagan más vulnerables. _(LSV 10.2)_
@@ -3613,7 +3613,7 @@ Respuesta: **De forma eficaz, tanto de día como de noche.**
 
 ## xc-0058
 
-Según la DGT, ¿para qué está obligado el conductor a no distraerse?  
+¿Para qué está obligado el conductor a no distraerse?  
 Respuesta: **Para prevenir daños o accidentes a sí mismo y a los demás.**
 
 - ✔ El conductor está obligado a no distraerse para prevenir daños o accidentes y evitar peligros para sí mismo, sus pasajeros, los ocupantes de otros vehículos y los peatones. _(MANUAL_DGT Tema 4, Obligaciones generales (p. 76))_
@@ -3668,7 +3668,7 @@ Respuesta: **Distancia de detención.**
 ## xc-0064
 
 ¿Qué es la separación lateral?  
-Respuesta: **La distancia necesaria entre dos vehículos que se cruzan o circulan uno al lado del otro.**
+Respuesta: **La distancia entre dos vehículos que se cruzan o circulan uno al lado del otro.**
 
 - ✔ La separación lateral es la distancia necesaria entre dos vehículos que se cruzan o que circulan uno al lado del otro, y siempre debe ser suficiente para evitar cualquier peligro. _(MANUAL_DGT Tema 10, Separación lateral (p. 264))_
 - ✘ `xc-0066` Los vehículos circulan por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para realizar el cruce con seguridad. _(RGC 29.1)_
@@ -3695,7 +3695,7 @@ Respuesta: **La suficiente para realizar el cruce con seguridad.**
 ## xc-0067
 
 ¿Qué es la distancia de seguridad?  
-Respuesta: **El espacio mínimo que debe dejar con el vehículo de delante para no chocar si frena de forma brusca e inesperada.**
+Respuesta: **El espacio mínimo con el vehículo de delante para no chocar si frena bruscamente.**
 
 - ✔ La distancia de seguridad es el espacio mínimo que se debe dejar con el vehículo de delante para no chocar con él en caso de un frenado brusco e inesperado. _(MANUAL_DGT Tema 10, Distancia de seguridad (p. 264))_
 - ✘ `xc-0068` Hay que dejar más distancia de seguridad al aumentar la velocidad, cuando la carretera se ve mal, cuando el vehículo no se agarra bien a la carretera y cuando el conductor no está en buena forma. _(MANUAL_DGT Tema 10, Distancia de seguridad (p. 265))_
@@ -3722,7 +3722,7 @@ Respuesta: **Aumentarla.**
 ## xc-0070
 
 Fuera de poblado, en una carretera de un carril por sentido donde se puede adelantar, circula detrás de otro vehículo sin intención de adelantarlo. ¿Qué separación debe dejar?  
-Respuesta: **Una que permita al vehículo que le sigue adelantarle con seguridad.**
+Respuesta: **Una que permita adelantarle con seguridad al que le sigue.**
 
 - ✔ Quien circula detrás de otro sin señalar su propósito de adelantar debe guardar una separación que permita al que a su vez le sigue adelantarlo con seguridad. _(RGC 54.2)_
 - ✘ `xc-0072` El ABS evita que las ruedas se bloqueen al frenar, lo que ayuda a mantener el control del vehículo y a frenar en menos espacio. _(MANUAL_DGT Tema 5, Sistema antibloqueo de frenos (ABS) (p. 94))_
@@ -3739,7 +3739,7 @@ Respuesta: **No, no se aplica en poblado.**
 
 ## xc-0072
 
-Según la DGT, además de ayudar a mantener el control del vehículo, ¿qué otra ventaja tiene el sistema antibloqueo de frenos (ABS)?  
+Además de ayudar a mantener el control del vehículo, ¿qué otra ventaja tiene el sistema antibloqueo de frenos (ABS)?  
 Respuesta: **Ayuda a frenar en menos espacio.**
 
 - ✔ El ABS evita que las ruedas se bloqueen al frenar, lo que ayuda a mantener el control del vehículo y a frenar en menos espacio. _(MANUAL_DGT Tema 5, Sistema antibloqueo de frenos (ABS) (p. 94))_
@@ -3775,8 +3775,8 @@ Respuesta: **Más suave y con más tiempo.**
 
 ## xc-0076
 
-Los frenos fallan mientras baja una cuesta larga y muy inclinada. ¿Qué debe hacer, según la DGT?  
-Respuesta: **No acelerar y reducir marchas para que el motor actúe como freno.**
+Mientras baja una cuesta larga y muy inclinada, le fallan los frenos. ¿Qué debe hacer?  
+Respuesta: **No acelerar y reducir marchas.**
 
 - ✔ Si los frenos fallan al bajar una cuesta larga y muy inclinada, hay que dejar de acelerar y reducir marchas para que el motor actúe como freno; si no se puede, tirar suavemente del freno de mano. _(MANUAL_DGT Tema 5, ¿Qué hacer cuando fallan los frenos? (p. 96))_
 - ✘ `xc-0065` Hay que guardar más separación lateral cuando se conduce rápido, la carretera está en mal estado, se cruzan muchos vehículos o hay lluvia, nieve, niebla, viento o humo. _(MANUAL_DGT Tema 10, Separación lateral (p. 264))_
@@ -3784,7 +3784,7 @@ Respuesta: **No acelerar y reducir marchas para que el motor actúe como freno.*
 
 ## xc-0077
 
-Le fallan los frenos y no puede reducir marchas. ¿Qué puede hacer, según la DGT?  
+Le fallan los frenos y no puede reducir marchas. ¿Qué puede hacer?  
 Respuesta: **Tirar de la palanca del freno de mano de forma suave.**
 
 - ✔ Si fallan los frenos y no se pueden reducir marchas, se puede tirar de la palanca del freno de mano de forma suave. _(MANUAL_DGT Tema 5, ¿Qué hacer cuando fallan los frenos? (p. 96))_
@@ -3794,7 +3794,7 @@ Respuesta: **Tirar de la palanca del freno de mano de forma suave.**
 ## xc-0078
 
 ¿En qué situaciones ayuda especialmente el control de tracción a conservar la estabilidad?  
-Respuesta: **En las curvas, al subir una cuesta o cuando hay lluvia.**
+Respuesta: **En las curvas, en las subidas o con lluvia.**
 
 - ✔ El control de tracción ayuda a conservar la estabilidad del vehículo en las curvas, al subir una cuesta o cuando hay lluvia. _(MANUAL_DGT Tema 5, Control de tracción (p. 104))_
 - ✘ `xc-0061` La carga influye en la distancia de frenado: un vehículo con mucha carga tarda más en parar. _(MANUAL_DGT Tema 10, Distancia de frenado (p. 262))_
@@ -3821,7 +3821,7 @@ Respuesta: **Hacia fuera de la curva.**
 ## xc-0081
 
 ¿En qué caso es más peligrosa una curva?  
-Respuesta: **Cuando es muy cerrada, el vehículo lleva mucho peso o circula muy rápido.**
+Respuesta: **Cuando es muy cerrada o se toma con mucho peso o muy rápido.**
 
 - ✔ Las curvas son más peligrosas cuando son muy cerradas, cuando el vehículo lleva mucho peso y cuando circula muy rápido. _(MANUAL_DGT Tema 14, Las curvas (p. 343))_
 - ✘ `xc-0080` Al tomar una curva en velocidad se crea una fuerza que puede empujar al vehículo fuera de la curva y enviarlo hacia el lado que no debe. _(MANUAL_DGT Tema 14, Las curvas (p. 342))_
@@ -3839,7 +3839,7 @@ Respuesta: **Acercarse lo más posible al borde derecho de la calzada.**
 ## xc-0083
 
 Ya está dentro de la curva. ¿Cómo debe conducir?  
-Respuesta: **Girando el volante de forma suave, sin acelerar ni frenar de manera brusca.**
+Respuesta: **Girando el volante con suavidad, sin acelerar ni frenar bruscamente.**
 
 - ✔ Dentro de la curva hay que girar el volante de forma suave, no acelerar ni frenar de manera brusca y acelerar poco a poco. _(MANUAL_DGT Tema 14, Pasos para tomar bien una curva (p. 343))_
 - ✘ `xc-0081` Las curvas son más peligrosas cuando son muy cerradas, cuando el vehículo lleva mucho peso y cuando circula muy rápido. _(MANUAL_DGT Tema 14, Las curvas (p. 343))_
@@ -3902,7 +3902,7 @@ Respuesta: **El vehículo es menos estable y tiene más riesgo de patinar con el
 ## xc-0090
 
 Lleva los neumáticos con más presión de la recomendada. ¿Qué ocurre con el agarre?  
-Respuesta: **Empeora, porque el neumático tiene menos contacto con el suelo.**
+Respuesta: **Empeora.**
 
 - ✔ Un neumático con una presión mayor de la recomendada tiene menos contacto con el suelo y, por tanto, se agarra menos a la carretera. _(MANUAL_DGT Tema 5, Presión de inflado (p. 100))_
 - ✘ `xc-0064` La separación lateral es la distancia necesaria entre dos vehículos que se cruzan o que circulan uno al lado del otro, y siempre debe ser suficiente para evitar cualquier peligro. _(MANUAL_DGT Tema 10, Separación lateral (p. 264))_
@@ -3919,7 +3919,7 @@ Respuesta: **Bien repartida y sujeta.**
 
 ## xc-0092
 
-Lleva mucho peso en el vehículo. Según la DGT, ¿cómo debe adaptar la velocidad?  
+Lleva mucho peso en el vehículo. ¿Cómo debe adaptar la velocidad?  
 Respuesta: **Conducir más despacio.**
 
 - ✔ Para circular a una velocidad adecuada hay que tener en cuenta las características del vehículo y la carga: es mejor conducir más despacio cuando se lleva mucho peso. _(MANUAL_DGT Tema 10, ¿Qué debes tener en cuenta para circular a una velocidad adecuada? (p. 247))_
@@ -3928,7 +3928,7 @@ Respuesta: **Conducir más despacio.**
 
 ## xc-0093
 
-Según la Ley de Tráfico, ¿cómo se llama la zona de la carretera dedicada al uso de vehículos formada por la calzada y los arcenes?  
+¿Cómo se llama la zona de la carretera destinada a los vehículos, formada por la calzada y los arcenes?  
 Respuesta: **Plataforma.**
 
 - ✔ La plataforma es la zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes. _(LSV Anexo I.54)_
@@ -3955,8 +3955,8 @@ Respuesta: **Sí, el carril puede estar delimitado o no por marcas viales longit
 
 ## xc-0096
 
-Para que una zona de la carretera sea una acera, ¿tiene que estar elevada?  
-Respuesta: **No, la acera es la zona longitudinal destinada al tránsito de peatones, elevada o no.**
+Para ser una acera, ¿tiene que estar elevada una zona de la vía?  
+Respuesta: **No.**
 
 - ✔ La acera es la zona longitudinal de la carretera, elevada o no, destinada al tránsito de peatones. _(LSV Anexo I.58)_
 - ✘ `xc-0093` La plataforma es la zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes. _(LSV Anexo I.54)_
@@ -3982,7 +3982,7 @@ Respuesta: **Una zona peatonal situada en la calzada y protegida del tránsito r
 
 ## xc-0099
 
-Según la Ley de Tráfico, ¿cuándo está destinado el arcén al uso de los automóviles?  
+¿Cuándo está destinado el arcén al uso de los automóviles?  
 Respuesta: **Solo en circunstancias excepcionales.**
 
 - ✔ El arcén es la franja longitudinal afirmada contigua a la calzada, no destinada al uso de vehículos automóviles más que en circunstancias excepcionales. _(LSV Anexo I.61)_
@@ -3991,8 +3991,8 @@ Respuesta: **Solo en circunstancias excepcionales.**
 
 ## xc-0100
 
-Según la Ley de Tráfico, ¿qué caracteriza a una intersección?  
-Respuesta: **Que en ella todos los cruces de trayectorias posibles de los vehículos se realizan a nivel.**
+¿Qué caracteriza a una intersección?  
+Respuesta: **Que en ella todos los cruces de trayectorias se hacen a nivel.**
 
 - ✔ Una intersección es un nudo de la red viaria en el que todos los cruces de trayectorias posibles de los vehículos que lo utilizan se realizan a nivel. _(LSV Anexo I.62)_
 - ✘ `xc-0103` Un paso a nivel es un cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente. _(LSV Anexo I.64)_
@@ -4001,7 +4001,7 @@ Respuesta: **Que en ella todos los cruces de trayectorias posibles de los vehíc
 ## xc-0101
 
 ¿Qué es una glorieta?  
-Respuesta: **Una intersección cuyos tramos se comunican por un anillo con circulación rotatoria alrededor de una isleta.**
+Respuesta: **Una intersección cuyos tramos se comunican por un anillo de circulación rotatoria.**
 
 - ✔ Una glorieta es un tipo especial de intersección en el que los tramos que confluyen se comunican a través de un anillo con circulación rotatoria alrededor de una isleta central. _(LSV Anexo I.63)_
 - ✘ `xc-0100` Una intersección es un nudo de la red viaria en el que todos los cruces de trayectorias posibles de los vehículos que lo utilizan se realizan a nivel. _(LSV Anexo I.62)_
@@ -4010,7 +4010,7 @@ Respuesta: **Una intersección cuyos tramos se comunican por un anillo con circu
 ## xc-0102
 
 En una «glorieta partida», dos tramos opuestos se conectan directamente a través de la isleta central. ¿Es una glorieta propiamente dicha?  
-Respuesta: **No, porque el tráfico pasa de un tramo a otro sin rodear la isleta.**
+Respuesta: **No.**
 
 - ✔ Las glorietas partidas, en las que dos tramos se conectan directamente a través de la isleta central y el tráfico no la rodea, no son glorietas propiamente dichas. _(LSV Anexo I.63)_
 - ✘ `xc-0103` Un paso a nivel es un cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente. _(LSV Anexo I.64)_
@@ -4019,7 +4019,7 @@ Respuesta: **No, porque el tráfico pasa de un tramo a otro sin rodear la isleta
 ## xc-0103
 
 ¿Qué es un paso a nivel?  
-Respuesta: **Un cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente.**
+Respuesta: **Un cruce a nivel entre una vía y una línea de ferrocarril con plataforma independiente.**
 
 - ✔ Un paso a nivel es un cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente. _(LSV Anexo I.64)_
 - ✘ `xc-0102` Las glorietas partidas, en las que dos tramos se conectan directamente a través de la isleta central y el tráfico no la rodea, no son glorietas propiamente dichas. _(LSV Anexo I.63)_
@@ -4027,7 +4027,7 @@ Respuesta: **Un cruce a la misma altura entre una vía y una línea de ferrocarr
 
 ## xc-0104
 
-Según la Ley de Tráfico, ¿qué es una carretera?  
+¿Qué es una carretera?  
 Respuesta: **Una vía pública pavimentada situada fuera de poblado, salvo los tramos en travesía.**
 
 - ✔ Una carretera es una vía pública pavimentada situada fuera de poblado, salvo los tramos en travesía. _(LSV Anexo I.65)_
@@ -4063,8 +4063,8 @@ Respuesta: **Una sola calzada.**
 
 ## xc-0108
 
-Según la Ley de Tráfico, ¿qué es un poblado?  
-Respuesta: **Un espacio con edificios señalizado con señales de entrada y salida de poblado.**
+¿Qué es un poblado?  
+Respuesta: **Un espacio con edificios, con señales de entrada y salida de poblado.**
 
 - ✔ Un poblado es el espacio que comprende edificios y en cuyas vías de entrada y de salida están colocadas, respectivamente, las señales de entrada a poblado y de salida de poblado. _(LSV Anexo I.70)_
 - ✘ `xc-0109` Una travesía es un tramo de carretera que discurre por poblado, pero no se consideran travesías los tramos que disponen de una alternativa viaria o variante a la que tienen acceso. _(LSV Anexo I.71)_
@@ -4073,7 +4073,7 @@ Respuesta: **Un espacio con edificios señalizado con señales de entrada y sali
 ## xc-0109
 
 Un tramo de carretera atraviesa un pueblo, pero existe una variante a la que tiene acceso. ¿Ese tramo es una travesía?  
-Respuesta: **No, los tramos que disponen de una variante a la que tienen acceso no se consideran travesías.**
+Respuesta: **No.**
 
 - ✔ Una travesía es un tramo de carretera que discurre por poblado, pero no se consideran travesías los tramos que disponen de una alternativa viaria o variante a la que tienen acceso. _(LSV Anexo I.71)_
 - ✘ `xc-0105` Una autopista no cruza a nivel ninguna otra senda, vía, línea de ferrocarril o tranvía, ni es cruzada a nivel por ninguna vía de comunicación o servidumbre de paso. _(LSV Anexo I.66.b)_
@@ -4081,8 +4081,8 @@ Respuesta: **No, los tramos que disponen de una variante a la que tienen acceso 
 
 ## xc-0110
 
-Según la Ley de Tráfico, ¿es una travesía una vía urbana?  
-Respuesta: **No, la vía urbana es la situada dentro de poblado, excepto las travesías.**
+Una travesía, ¿es una vía urbana?  
+Respuesta: **No.**
 
 - ✔ La vía urbana es la vía pública situada dentro de poblado, excepto las travesías. _(LSV Anexo I.73)_
 - ✘ `xc-0105` Una autopista no cruza a nivel ninguna otra senda, vía, línea de ferrocarril o tranvía, ni es cruzada a nivel por ninguna vía de comunicación o servidumbre de paso. _(LSV Anexo I.66.b)_
@@ -4100,7 +4100,7 @@ Respuesta: **Solo si lo autoriza la autoridad de tráfico y está señalizado.**
 ## xc-0112
 
 ¿Qué es un carril-bici?  
-Respuesta: **Una vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido.**
+Respuesta: **Una vía ciclista adosada a la calzada, de uno o de doble sentido.**
 
 - ✔ El carril-bici es una vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido. _(LSV Anexo I.75)_
 - ✘ `xc-0115` La pista-bici es una vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras. _(LSV Anexo I.78)_
@@ -4127,7 +4127,7 @@ Respuesta: **Acera-bici.**
 ## xc-0115
 
 ¿Qué es una pista-bici?  
-Respuesta: **Una vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras.**
+Respuesta: **Una vía ciclista segregada del tráfico motorizado, con trazado independiente.**
 
 - ✔ La pista-bici es una vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras. _(LSV Anexo I.78)_
 - ✘ `xc-0113` El carril-bici protegido es un carril-bici provisto de elementos laterales que lo separan físicamente del resto de la calzada, así como de la acera. _(LSV Anexo I.76)_
@@ -4162,8 +4162,8 @@ Respuesta: **Un conjunto de vías acondicionadas para que los niños vayan al co
 
 ## xc-0119
 
-Según el Reglamento, ¿qué se entiende por vehículo con alta ocupación (VAO)?  
-Respuesta: **El automóvil solo de personas, de hasta 3.500 kg de MMA, con los ocupantes fijados para el tramo.**
+¿Qué se entiende por vehículo con alta ocupación (VAO)?  
+Respuesta: **El automóvil solo de personas, de hasta 3.500 kg, con los ocupantes fijados para el tramo.**
 
 - ✔ Los vehículos con alta ocupación son los automóviles destinados exclusivamente al transporte de personas, con MMA no superior a 3.500 kg, ocupados por el número de personas fijado para cada tramo. _(RGC 35.2)_
 - ✘ `xc-0123` El conductor que por emergencia tenga que circular por una autopista o autovía a velocidad anormalmente reducida debe abandonarla por la primera salida. _(RGC 38.2)_
@@ -4190,7 +4190,7 @@ Respuesta: **No, está prohibido.**
 ## xc-0122
 
 Un ciclista circula por el arcén de una autovía en un descenso prolongado con curvas. ¿Puede pasar a la calzada?  
-Respuesta: **No, en las autovías circulará en todo caso por el arcén.**
+Respuesta: **No.**
 
 - ✔ La posibilidad de que los ciclistas abandonen el arcén en descensos prolongados con curvas no se aplica en las autovías, donde circulan en todo caso por el arcén. _(RGC 36.1)_
 - ✘ `xc-0120` Los vehículos de policía, extinción de incendios, protección civil y salvamento, asistencia sanitaria en servicio de urgencia y los equipos de mantenimiento de la vía pueden utilizar los carriles reservados. _(RGC 35.2.c)_
@@ -4226,7 +4226,7 @@ Respuesta: **Usando ambos arcenes, dos carriles en un sentido y uno en el otro.*
 ## xc-0126
 
 ¿Qué es la mediana?  
-Respuesta: **El espacio entre dos plataformas separadas, por el que no circulan los vehículos.**
+Respuesta: **El espacio entre dos calzadas separadas por el que no circulan vehículos.**
 
 - ✔ La mediana es el espacio entre dos plataformas separadas por el que no circulan los vehículos. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 217))_
 - ✘ `xc-0096` La acera es la zona longitudinal de la carretera, elevada o no, destinada al tránsito de peatones. _(LSV Anexo I.58)_
@@ -4235,7 +4235,7 @@ Respuesta: **El espacio entre dos plataformas separadas, por el que no circulan 
 ## xc-0127
 
 ¿Qué riesgo tiene un cambio de rasante de visibilidad reducida?  
-Respuesta: **Que no se ve a los vehículos que van delante o que vienen en sentido contrario.**
+Respuesta: **Que no se ve a los vehículos que van delante o vienen de frente.**
 
 - ✔ En los cambios de rasante de visibilidad reducida la carretera está muy inclinada y no se puede ver a los vehículos que van delante o que vienen por el otro sentido. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 216))_
 - ✘ `v5a-via-0001` La plataforma es la zona de la carretera dedicada al uso de vehículos y está formada por la calzada y los arcenes; la franja que separa las calzadas de cada sentido es la mediana. _(LSV Anexo I, 54)_
@@ -4261,8 +4261,8 @@ Respuesta: **Cebreado.**
 
 ## xc-0130
 
-Según el manual de la DGT, entre los colores que indican el estado de la vía, ¿qué significa el negro?  
-Respuesta: **Que la carretera está cortada y no se puede circular.**
+En la información sobre el estado de las carreteras, ¿qué significa el color negro?  
+Respuesta: **Que la carretera está cortada.**
 
 - ✔ En la información del estado de las vías, el color negro indica que la carretera está cortada y no se puede circular. _(MANUAL_DGT Tema 9, Colores que indican cuál es el estado de la vía (p. 227))_
 - ✘ `x1a-0009` Para el cómputo de carriles no se tienen en cuenta los reservados a determinados vehículos o a ciertas maniobras. _(RGC 34)_
@@ -4270,8 +4270,8 @@ Respuesta: **Que la carretera está cortada y no se puede circular.**
 
 ## xc-0131
 
-Según el manual de la DGT, entre los colores que indican el estado de la vía, ¿qué significa el verde?  
-Respuesta: **Que no se puede alcanzar la velocidad máxima permitida en esa vía.**
+En la información sobre el estado de las carreteras, ¿qué significa el color verde?  
+Respuesta: **Que no se puede alcanzar la velocidad máxima de la vía.**
 
 - ✔ En la información del estado de las vías, el color verde indica que no se puede alcanzar la velocidad máxima permitida; el blanco indica circulación normal. _(MANUAL_DGT Tema 9, Colores que indican cuál es el estado de la vía (p. 227))_
 - ✘ `xc-0115` La pista-bici es una vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras. _(LSV Anexo I.78)_
@@ -4288,7 +4288,7 @@ Respuesta: **Una autopista, en la que se aplican las reglas especiales de ese ti
 
 ## xd-0001
 
-Según la DGT, ¿por qué un vehículo necesita más espacio para frenar cuando llueve mucho?  
+¿Por qué un vehículo necesita más espacio para frenar cuando llueve mucho?  
 Respuesta: **Porque los neumáticos se agarran menos a la carretera.**
 
 - ✔ Con lluvia intensa, los neumáticos se agarran menos a la carretera y el vehículo necesita más espacio para frenar. _(MANUAL_DGT Tema 14, Conducir con lluvia (p. 353))_
@@ -4306,8 +4306,8 @@ Respuesta: **Comprobar que los frenos funcionan bien.**
 
 ## xd-0003
 
-Circula con lluvia. Según la DGT, ¿cómo conviene frenar?  
-Respuesta: **De forma suave, para que las ruedas tengan más tiempo de parar.**
+Circula con lluvia. ¿Cómo conviene frenar?  
+Respuesta: **De forma suave.**
 
 - ✔ Con lluvia, la DGT recomienda frenar de forma suave, mantener más distancia con el vehículo de delante y reducir la velocidad. _(MANUAL_DGT Tema 14, Conducir con lluvia (p. 354))_
 - ✘ `xd-0016` Durante la noche o la madrugada puede haber hielo en zonas húmedas o sin sol, en puentes, en pasos elevados y en badenes. _(MANUAL_DGT Tema 14, Conducir con hielo (p. 358))_
@@ -4324,8 +4324,8 @@ Respuesta: **Revisar que los limpiaparabrisas funcionan bien.**
 
 ## xd-0005
 
-Conduce una motocicleta y está lloviendo. ¿A qué debe prestar especial atención, según la DGT?  
-Respuesta: **A las líneas pintadas en la carretera, porque pueden resbalar.**
+Conduce una motocicleta y está lloviendo. ¿A qué debe prestar especial atención?  
+Respuesta: **A las líneas pintadas en la carretera.**
 
 - ✔ Con lluvia, las líneas pintadas en la carretera resbalan, por lo que los motoristas deben prestarles especial atención. _(MANUAL_DGT Tema 14, Conducir con lluvia (p. 354))_
 - ✘ `xd-0001` Con lluvia intensa, los neumáticos se agarran menos a la carretera y el vehículo necesita más espacio para frenar. _(MANUAL_DGT Tema 14, Conducir con lluvia (p. 353))_
@@ -4334,7 +4334,7 @@ Respuesta: **A las líneas pintadas en la carretera, porque pueden resbalar.**
 ## xd-0006
 
 ¿Qué es el aquaplaning?  
-Respuesta: **Perder el control porque el neumático no puede echar toda el agua y patina.**
+Respuesta: **A perder el control porque el neumático no puede evacuar el agua y patina.**
 
 - ✔ El aquaplaning consiste en perder el control del vehículo porque el neumático no puede expulsar toda el agua que recoge de la carretera y patina. _(MANUAL_DGT Tema 14, Aquaplaning (p. 355))_
 - ✘ `xd-0021` Con viento lateral, la DGT recomienda conducir más despacio, sujetar el volante con firmeza y en contra del viento y llevar las ventanillas cerradas. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 362))_
@@ -4387,8 +4387,8 @@ Respuesta: **Sobre al menos una rueda motriz a cada lado del vehículo.**
 
 ## xd-0012
 
-Su turismo lleva neumáticos especiales de nieve, pero no lleva cadenas. ¿Puede continuar la marcha al llegar a esta señal?  
-Respuesta: **Sí, porque también admite los neumáticos especiales de nieve.**
+Su turismo lleva neumáticos especiales de nieve, pero no cadenas. ¿Puede seguir al llegar a esta señal?  
+Respuesta: **Sí.**
 
 - ✔ La señal R-412 (cadenas para nieve) obliga a no seguir sin cadenas u otros dispositivos antideslizantes autorizados, o sin neumáticos especiales de nieve. _(RGC_CATALOGO Anexo I, catálogo de señales, R-412 (pág. 118 del PDF consolidado))_
 - ✘ `xd-0023` El calor hace que aparezcan antes el sueño y la fatiga, puede alargar el tiempo de reacción y puede aumentar la agresividad hacia otros conductores. _(MANUAL_DGT Tema 14, Conducir con calor (p. 363))_
@@ -4405,7 +4405,7 @@ Respuesta: **Con el marcado M+S junto al pictograma de una montaña con un copo 
 
 ## xd-0015
 
-Según la DGT, ¿qué precauciones hay que tomar para conducir sobre hielo?  
+¿Qué precauciones hay que tomar para conducir sobre hielo?  
 Respuesta: **Las mismas que para conducir con nieve.**
 
 - ✔ Sobre hielo, la DGT recomienda las mismas precauciones que con nieve: conducir despacio y con mucha distancia de seguridad. _(MANUAL_DGT Tema 14, Conducir con hielo (p. 358))_
@@ -4442,7 +4442,7 @@ Respuesta: **Que pueden aparecer de repente.**
 ## xd-0019
 
 ¿Cuándo es más peligroso conducir con mucho viento?  
-Respuesta: **Cuando sopla de lado, porque puede hacer perder el control del vehículo.**
+Respuesta: **Cuando sopla de lado.**
 
 - ✔ El viento es especialmente peligroso cuando sopla de lado, porque puede hacer que el vehículo pierda el control, vuelque o se salga de la carretera. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 361))_
 - ✘ `xd-0022` Con viento fuerte pueden caer árboles, ramas o piedras a la vía, por lo que conviene conducir más despacio y con atención. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 362))_
@@ -4468,7 +4468,7 @@ Respuesta: **Con firmeza y en la dirección contraria al viento.**
 
 ## xd-0022
 
-Conduce con mucho viento. ¿Qué riesgo debe tener en cuenta, según la DGT?  
+Conduce con mucho viento. ¿Qué riesgo debe tener en cuenta?  
 Respuesta: **Que pueden caer árboles, ramas o piedras.**
 
 - ✔ Con viento fuerte pueden caer árboles, ramas o piedras a la vía, por lo que conviene conducir más despacio y con atención. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 362))_
@@ -4495,8 +4495,8 @@ Respuesta: **Hacer más descansos durante el viaje.**
 
 ## xd-0025
 
-En un día de mucho calor, ¿cuándo debe prestar más atención a la conducción, según la DGT?  
-Respuesta: **Después de comer, porque le puede entrar sueño.**
+En un día de mucho calor, ¿cuándo debe prestar más atención a la conducción?  
+Respuesta: **Después de comer.**
 
 - ✔ Con calor, conducir después de comer exige más atención, porque puede entrar sueño. _(MANUAL_DGT Tema 14, Conducir con calor (p. 364))_
 - ✘ `xd-0024` En días de mucho calor, la DGT recomienda hacer más descansos durante el viaje y beber mucha agua. _(MANUAL_DGT Tema 14, Conducir con calor (p. 363))_
@@ -4513,7 +4513,7 @@ Respuesta: **Para que sea más sencillo parar ante un peligro o un imprevisto.**
 
 ## xd-0027
 
-De noche está adelantando a otro vehículo. Según la DGT, ¿cuándo puede volver a encender la luz de largo alcance?  
+De noche, está adelantando a otro vehículo. ¿Cuándo puede volver a encender la luz de largo alcance?  
 Respuesta: **En cuanto ya no pueda deslumbrar al conductor adelantado.**
 
 - ✔ Al adelantar de noche se usa la luz de cruce para no deslumbrar por los retrovisores, y la de largo alcance se recupera en cuanto ya no pueda deslumbrar al conductor adelantado. _(MANUAL_DGT Tema 14, Adelantamientos (p. 350))_
@@ -4639,8 +4639,8 @@ Respuesta: **Despejar la calzada y quedarse en una zona peatonal o alejarse de l
 
 ## xd-0048
 
-Un peatón camina de día por el arcén de una carretera interurbana con niebla densa. ¿Debe llevar algún elemento luminoso o reflectante?  
-Respuesta: **Sí, porque la niebla disminuye sensiblemente la visibilidad.**
+Un peatón camina de día por el arcén de una carretera con niebla densa. ¿Debe llevar algún elemento luminoso o reflectante?  
+Respuesta: **Sí.**
 
 - ✔ Los peatones que van por la calzada o el arcén de vías interurbanas deben llevar un elemento luminoso o reflectante visible a 150 metros de noche y también cuando las condiciones disminuyen sensiblemente la visibilidad. _(RGC 123.1)_
 - ✘ `xd-0044` Los peatones van, como norma, por el arcén izquierdo o, si no lo hay, por la calzada; excepcionalmente pueden ir por la derecha cuando razones de seguridad lo justifiquen. _(RGC 122.1)_
@@ -4747,7 +4747,7 @@ Respuesta: **Colocarse en hilera, uno detrás de otro.**
 
 ## xd-0061
 
-Un ciclista va por el arcén de una carretera convencional y empieza un descenso prolongado con curvas. Si la seguridad lo permite, ¿puede dejar el arcén?  
+Un ciclista circula por el arcén de una carretera convencional y empieza un descenso prolongado con curvas. ¿Puede dejar el arcén si la seguridad lo permite?  
 Respuesta: **Sí, y circular por la parte derecha de la calzada que necesite.**
 
 - ✔ En los descensos prolongados con curvas, si la seguridad lo permite, los ciclistas pueden dejar el arcén y usar la parte derecha de la calzada que necesiten, salvo en autovías. _(RGC 36.1)_
@@ -4801,7 +4801,7 @@ Respuesta: **Con el brazo, como establece el reglamento.**
 
 ## xd-0071
 
-Una persona con movilidad reducida se desplaza en un vehículo de movilidad personal al paso de persona. ¿Qué consideración tiene a efectos del reglamento?  
+Una persona con movilidad reducida va al paso en un vehículo de movilidad personal. ¿Qué consideración tiene?  
 Respuesta: **La de peatón.**
 
 - ✔ Las personas con movilidad reducida que se desplazan en vehículos de movilidad personal al paso de persona se consideran peatones. _(RGC 155.6)_
@@ -4828,8 +4828,8 @@ Respuesta: **No, en las aceras está prohibido circular con cualquier vehículo.
 
 ## xd-0082
 
-Según la DGT, ¿dónde tiene un peatón atropellado más posibilidades de morir?  
-Respuesta: **En una carretera fuera de la ciudad, porque se circula más rápido.**
+¿Dónde tiene un peatón atropellado más posibilidades de morir?  
+Respuesta: **En una carretera fuera de la ciudad.**
 
 - ✔ Un peatón atropellado tiene más posibilidades de morir en carreteras fuera de la ciudad, porque allí los vehículos circulan más rápido. _(MANUAL_DGT Tema 16, Los peatones (p. 396))_
 - ✘ `xd-0044` Los peatones van, como norma, por el arcén izquierdo o, si no lo hay, por la calzada; excepcionalmente pueden ir por la derecha cuando razones de seguridad lo justifiquen. _(RGC 122.1)_
@@ -4846,7 +4846,7 @@ Respuesta: **Porque está preparada para causar menos daños en los atropellos.*
 
 ## xd-0084
 
-Según la DGT, ¿cuándo se producen la mayoría de los atropellos a niños?  
+¿Cuándo se producen la mayoría de los atropellos a niños?  
 Respuesta: **Cuando salen de la escuela.**
 
 - ✔ La mayoría de los atropellos a niños se producen a la salida de la escuela. _(MANUAL_DGT Tema 16, Los niños (p. 401))_
@@ -4855,7 +4855,7 @@ Respuesta: **Cuando salen de la escuela.**
 
 ## xd-0085
 
-Según la DGT, ¿qué dificultad pueden tener muchas personas mayores como peatones?  
+¿Qué dificultad tienen muchas personas mayores como peatones?  
 Respuesta: **Calcular a qué velocidad viene un vehículo.**
 
 - ✔ Muchas personas mayores, como peatones, pueden no oír los vehículos por el ruido ambiente, tener dificultad para saber a qué velocidad vienen o para distinguir el color de los semáforos. _(MANUAL_DGT Tema 16, Las personas mayores (p. 402))_
@@ -4864,7 +4864,7 @@ Respuesta: **Calcular a qué velocidad viene un vehículo.**
 
 ## xd-0086
 
-Según la DGT, los conductores mayores de 65 años suelen ser prudentes. ¿Por qué pueden sufrir más accidentes?  
+Los conductores mayores de 65 años suelen ser prudentes. ¿Por qué pueden sufrir más accidentes?  
 Respuesta: **Porque pueden necesitar más tiempo para reaccionar.**
 
 - ✔ Los conductores mayores de 65 años pueden tener menos capacidad de atención, necesitar más tiempo para reaccionar, ver y oír peor o tomar medicamentos que afectan a la conducción. _(MANUAL_DGT Tema 16, Personas mayores de 65 años (p. 405))_
@@ -4873,7 +4873,7 @@ Respuesta: **Porque pueden necesitar más tiempo para reaccionar.**
 
 ## xd-0087
 
-Según la DGT, ¿dónde mueren más ciclistas en accidentes de tráfico?  
+¿Dónde mueren más ciclistas en accidentes de tráfico?  
 Respuesta: **En carreteras fuera de las ciudades.**
 
 - ✔ Aunque hay más accidentes de ciclistas dentro de las ciudades, mueren más ciclistas en las carreteras fuera de ellas. _(MANUAL_DGT Tema 16, Bicicletas (p. 407))_
@@ -4882,8 +4882,8 @@ Respuesta: **En carreteras fuera de las ciudades.**
 
 ## xd-0088
 
-Circula junto a una fila de vehículos aparcados en una zona con ciclistas. Según la DGT, ¿por qué debe tener cuidado?  
-Respuesta: **Porque pueden aparecer ciclistas entre los vehículos aparcados.**
+Cuando circula junto a una fila de vehículos aparcados en una zona con ciclistas, debe extremar la precaución porque...  
+Respuesta: **Pueden aparecer ciclistas entre los vehículos aparcados.**
 
 - ✔ Junto a vehículos aparcados hay que extremar la precaución, porque los ciclistas pueden aparecer entre ellos. _(MANUAL_DGT Tema 16, Bicicletas (p. 409))_
 - ✘ `xd-0087` Aunque hay más accidentes de ciclistas dentro de las ciudades, mueren más ciclistas en las carreteras fuera de ellas. _(MANUAL_DGT Tema 16, Bicicletas (p. 407))_
@@ -4891,7 +4891,7 @@ Respuesta: **Porque pueden aparecer ciclistas entre los vehículos aparcados.**
 
 ## xd-0089
 
-Según la DGT, ¿qué accidentes son los más comunes en motocicletas y ciclomotores al adelantar?  
+Al adelantar, ¿qué accidentes son los más comunes en motocicletas y ciclomotores?  
 Respuesta: **Los choques frontales y laterales.**
 
 - ✔ Al adelantar, los accidentes más comunes de motocicletas y ciclomotores son los choques frontales y laterales. _(MANUAL_DGT Tema 16, Motocicletas y ciclomotores (p. 409))_
@@ -4963,7 +4963,7 @@ Respuesta: **Sí, si puede superar 60 km/h en llano y cumple el anexo III.**
 
 ## xd-0110
 
-¿De qué color es la luz de la señal V-2 (vehículo-obstáculo en la vía)?  
+¿De qué color es la luz de la señal de vehículo-obstáculo en la vía?  
 Respuesta: **Amarillo auto.**
 
 - ✔ La señal luminosa V-2 es de color amarillo auto y debe verse en todas las direcciones desde 100 metros. _(RGV Anexo XI, V-2.3)_
@@ -5026,7 +5026,7 @@ Respuesta: **50 metros.**
 
 ## xd-0123
 
-Fuera de poblado, en una autovía con tres carriles por sentido, circula con un turismo y una caravana que miden 9 metros en total. ¿Qué carriles debe usar normalmente?  
+Fuera de poblado, en una autovía con tres carriles por sentido, conduce un turismo con caravana de 9 metros en total. ¿Qué carriles debe usar normalmente?  
 Respuesta: **El de la derecha y, cuando convenga, el inmediato.**
 
 - ✔ En calzadas con tres o más carriles por sentido, los conjuntos de más de siete metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato. _(RGC 31.2)_
@@ -5080,8 +5080,8 @@ Respuesta: **En el arcén derecho o donde cause menos obstáculo.**
 
 ## xd-0135
 
-Su turismo se avería en una calle de la ciudad (no es una travesía) y sale de él. Según el Reglamento General de Circulación, ¿está obligado a ponerse el chaleco reflectante?  
-Respuesta: **No, la obligación es para la calzada o el arcén de vías interurbanas.**
+Su turismo se avería en una calle de la ciudad que no es travesía y sale de él. ¿Está obligado a ponerse el chaleco reflectante?  
+Respuesta: **No.**
 
 - ✔ El Reglamento General de Circulación obliga a ponerse el chaleco reflectante al salir del vehículo y ocupar la calzada o el arcén de las vías interurbanas. _(RGC 118.4)_
 - ✘ `xd-0136` La dotación obligatoria de un turismo incluye el dispositivo luminoso V-16 y un chaleco reflectante de alta visibilidad certificado. _(RGV Anexo XII.1.b)_
@@ -5188,8 +5188,8 @@ Respuesta: **El más adecuado según las circunstancias y, especialmente, pedir 
 
 ## xe-0005
 
-En un accidente en el que está implicado solo hay heridas claramente leves, la seguridad de la circulación está restablecida y ningún implicado lo solicita. ¿Debe avisar a los agentes y quedarse en el lugar?  
-Respuesta: **No; en ese caso no es necesario avisar ni permanecer en el lugar.**
+En un accidente en el que está implicado solo hay heridos claramente leves, la circulación es segura y nadie lo pide. ¿Debe avisar a los agentes y quedarse en el lugar?  
+Respuesta: **No.**
 
 - ✔ Cuando solo hay heridas claramente leves, la seguridad de la circulación está restablecida y ninguno de los implicados lo solicita, no es necesario avisar a la autoridad ni permanecer en el lugar del accidente. _(RGC 129.2.e)_
 - ✘ `E-acc-0005` Los conductores de turismos deben usar el chaleco reflectante de alta visibilidad cuando salgan del vehículo y ocupen la calzada o el arcén de las vías interurbanas. _(RGC 118.4)_
@@ -5215,8 +5215,8 @@ Respuesta: **Sí, si se los pide, debe comunicárselos.**
 
 ## xe-0008
 
-Es testigo de un accidente, pero no puede hacer nada por ayudar. Según el manual de la DGT, ¿qué es lo mejor?  
-Respuesta: **Seguir circulando para no estorbar en el lugar del accidente.**
+Es testigo de un accidente, pero no puede hacer nada por ayudar. ¿Qué es lo mejor?  
+Respuesta: **Seguir circulando para no estorbar.**
 
 - ✔ Según el manual de la DGT, quien es testigo de un accidente pero no puede hacer nada por ayudar, o llega cuando ya están los agentes, debe seguir circulando para no estorbar. _(MANUAL_DGT Tema 16, Pasos a seguir (p. 412))_
 - ✘ `xc-0008` Los atropellos a peatones se dan más en zonas en las que los conductores no los pueden ver bien porque hay algún tipo de obstáculo. _(MANUAL_DGT Tema 16, Los peatones (p. 396))_
@@ -5233,7 +5233,7 @@ Respuesta: **Hora de oro.**
 
 ## xe-0010
 
-Según el manual de la DGT, ¿en qué momento es muy importante seguir la regla PAS?  
+¿En qué momento es muy importante seguir la regla PAS?  
 Respuesta: **En los primeros 10 minutos después del accidente.**
 
 - ✔ Según el manual de la DGT, la regla PAS (proteger, avisar, socorrer) es muy importante en los primeros 10 minutos después del accidente, porque actuar rápido ayuda a salvar vidas y a evitar más daños. _(MANUAL_DGT Tema 16, Regla PAS (p. 415))_
@@ -5260,7 +5260,7 @@ Respuesta: **En un lugar seguro, dejando paso a los servicios de emergencia.**
 
 ## xe-0013
 
-En un accidente se ha producido un pequeño incendio en un vehículo. Según el manual de la DGT, ¿con qué no se debe intentar apagarlo?  
+En un accidente se ha producido un pequeño incendio en un vehículo. ¿Con qué no se debe intentar apagarlo?  
 Respuesta: **Con agua.**
 
 - ✔ Según el manual de la DGT, un incendio en un accidente se intenta apagar con un extintor o echando tierra, arena o mantas; no se debe echar agua sobre el fuego. _(MANUAL_DGT Tema 16, Proteger (p. 418))_
@@ -5278,7 +5278,7 @@ Respuesta: **Recoger toda la información posible, como si hay fuego o cuántos 
 
 ## xe-0015
 
-Presencia un accidente en una carretera y no tiene teléfono móvil. Según el manual de la DGT, ¿cómo puede avisar?  
+Presencia un accidente en carretera y no tiene teléfono móvil. ¿Cómo puede avisar?  
 Respuesta: **Yendo al poste SOS más cercano.**
 
 - ✔ Según el manual de la DGT, para pedir ayuda se llama al 112 desde el móvil y, si no se tiene móvil, se puede ir al poste SOS más cercano. _(MANUAL_DGT Tema 16, Avisar (p. 419))_
@@ -5296,8 +5296,8 @@ Respuesta: **No dárselo.**
 
 ## xe-0018
 
-No está seguro de cómo atender a un herido. Según el manual de la DGT, ¿qué es lo mejor?  
-Respuesta: **Hablarle y darle apoyo emocional, sin tocarle ni moverle.**
+No está seguro de cómo atender a un herido. ¿Qué es lo mejor?  
+Respuesta: **Hablarle y apoyarle, sin tocarle ni moverle.**
 
 - ✔ Según el manual de la DGT, en caso de duda es mejor hablar a los heridos y darles apoyo emocional, sin tocarlos ni moverlos, porque se podrían empeorar sus heridas. _(MANUAL_DGT Tema 16, Socorrer (p. 422))_
 - ✘ `v5f-aux-0001` Ante una fractura hay que dejar inmóvil la zona, evitar que el herido la mueva y tapar la herida si la hay. _(MANUAL_DGT Tema 16, Fractura (pág. 434))_
@@ -5305,7 +5305,7 @@ Respuesta: **Hablarle y darle apoyo emocional, sin tocarle ni moverle.**
 
 ## xe-0020
 
-Para sacar a un herido de su vehículo, tras pasar los brazos por debajo de sus axilas, ¿qué se sujeta con una mano mientras con la otra se coge su brazo?  
+Para sacar a un herido del vehículo, tras pasarle los brazos por debajo de las axilas, ¿qué se le sujeta con una mano mientras con la otra se coge su brazo?  
 Respuesta: **La barbilla.**
 
 - ✔ Según el manual de la DGT, para sacar a un herido del vehículo se pasan los brazos bajo sus axilas, se coge su brazo con una mano y se sujeta la barbilla con la otra, manteniendo cabeza, cuello y tronco en línea. _(MANUAL_DGT Tema 16, ¿Cómo debes mover a un herido? (p. 423))_
@@ -5314,7 +5314,7 @@ Respuesta: **La barbilla.**
 
 ## xe-0021
 
-Para saber si un herido está consciente le pregunta «¿Estás bien?» y no contesta. ¿Qué indica el manual de la DGT?  
+Para saber si un herido está consciente, le pregunta si está bien y no contesta. ¿Qué se debe hacer?  
 Respuesta: **Darle un pequeño pellizco para ver si reacciona.**
 
 - ✔ Según el manual de la DGT, para comprobar la consciencia se pregunta al herido si está bien y, si no contesta, se le da un pequeño pellizco para ver si reacciona con algún movimiento o sonido. _(MANUAL_DGT Tema 16, Consciencia (p. 424))_
@@ -5422,8 +5422,8 @@ Respuesta: **No cortarlas ni pincharlas.**
 
 ## xe-0035
 
-Según el manual de la DGT, ¿en qué caso se puede llevar a un herido al hospital sin esperar a la ambulancia?  
-Respuesta: **Si el accidente ocurre en un lugar aislado donde no se puede pedir ayuda.**
+¿En qué caso se puede llevar a un herido al hospital sin esperar a la ambulancia?  
+Respuesta: **Si el accidente es en un lugar aislado donde no se puede pedir ayuda.**
 
 - ✔ Según el manual de la DGT, siempre hay que esperar a la ambulancia, salvo en un lugar aislado donde no se puede pedir ayuda o si la ayuda tarda más de 30 minutos y el herido está inconsciente o tiene una hemorragia incontrolable. _(MANUAL_DGT Tema 16, Trasladar a los heridos (p. 436))_
 - ✘ `v5f-aux-0003` Si hay que mover a un herido porque corre peligro su vida, se hace entre tres personas coordinadas, como si fuera un solo bloque, para no mover su cuello y mantener alineados cabeza, cuello y cuerpo. _(MANUAL_DGT Tema 16, ¿Cómo debes mover a un herido? (pág. 421))_
@@ -5476,7 +5476,7 @@ Respuesta: **Recto, con el motor parado y caliente.**
 
 ## xe-0042
 
-Sale humo blanco azulado por el tubo de escape. Según el manual de la DGT, ¿qué indica?  
+Sale humo blanco azulado por el tubo de escape. ¿Qué indica?  
 Respuesta: **Que el vehículo lleva demasiado aceite.**
 
 - ✔ Según el manual de la DGT, el humo blanco azulado por el tubo de escape indica que el vehículo lleva demasiado aceite. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 376))_
@@ -5539,8 +5539,8 @@ Respuesta: **Transmitir el movimiento del volante a las ruedas delanteras.**
 
 ## xe-0050
 
-En una recta, al soltar el volante el vehículo se desvía hacia un lado. Según el manual de la DGT, ¿qué puede ocurrir?  
-Respuesta: **Que unos neumáticos estén más inflados que otros.**
+Si en una recta, al soltar el volante, el vehículo se desvía hacia un lado, puede deberse a que...  
+Respuesta: **Unos neumáticos están más inflados que otros.**
 
 - ✔ Según el manual de la DGT, si el vehículo se desvía hacia un lado al soltar el volante en un terreno recto, puede que unos neumáticos estén más inflados que otros. _(MANUAL_DGT Tema 15, Sistema de dirección (p. 380))_
 - ✘ `xe-0052` La dirección asistida progresiva hace que el volante gire muy fácil cuando el vehículo va despacio y cueste un poco más a más velocidad, para controlar mejor el vehículo. _(MANUAL_DGT Tema 15, Dirección asistida (p. 381))_
@@ -5782,8 +5782,8 @@ Respuesta: **Se mueven arriba y abajo y pueden deslumbrar.**
 
 ## xe-0078
 
-Según el Reglamento General de Circulación, ¿quiénes están obligados a usar el cinturón, el casco y demás elementos de protección?  
-Respuesta: **Los conductores y los ocupantes de vehículos a motor y ciclomotores.**
+¿Quiénes están obligados a usar el cinturón, el casco y demás elementos de protección?  
+Respuesta: **Los conductores y ocupantes de vehículos de motor y ciclomotores.**
 
 - ✔ Conductores y ocupantes de vehículos a motor y ciclomotores están obligados a usar el cinturón, el casco y demás elementos de protección en los casos y con las excepciones que fija el Reglamento. _(RGC 116.1)_
 - ✘ `xe-0082` La obligación de usar el cinturón no es exigible en los vehículos que no lo tienen instalado; los menores de 135 cm o menos deben usar en todo caso sistema de retención infantil. _(RGC 117.1)_
@@ -5827,7 +5827,7 @@ Respuesta: **El cinturón de seguridad, si es adecuado a su talla y peso.**
 
 ## xe-0084
 
-Lleva en un turismo a tres niños de 120 cm y en los asientos traseros solo se pueden instalar dos sistemas de retención infantil. ¿Dónde puede viajar el tercero?  
+Lleva en un turismo a tres niños de 120 cm y detrás solo caben dos sistemas de retención infantil. ¿Dónde puede viajar el tercero?  
 Respuesta: **Delante, con su sistema de retención adaptado.**
 
 - ✔ Los menores que deben usar sistema de retención infantil pueden ocupar excepcionalmente el asiento delantero, con su sistema adaptado, cuando no sea posible instalar en los asientos traseros todos los sistemas de retención. _(RGC 117.3)_
@@ -5845,7 +5845,7 @@ Respuesta: **Siempre según las instrucciones de su fabricante.**
 
 ## xe-0086
 
-Un conductor tiene un certificado de exención del cinturón por razones médicas graves expedido en otro Estado de la Unión Europea. ¿Es válido en España?  
+Un conductor tiene un certificado de exención del cinturón por razones médicas graves expedido en otro Estado de la Unión Europea. ¿Vale en España?  
 Respuesta: **Sí, acompañado de su traducción oficial.**
 
 - ✔ Los certificados de exención del cinturón por razones médicas graves o discapacidad expedidos por la autoridad competente de un Estado de la Unión Europea son válidos en España acompañados de su traducción oficial. _(RGC 119.1.b)_
@@ -5854,8 +5854,8 @@ Respuesta: **Sí, acompañado de su traducción oficial.**
 
 ## xe-0087
 
-Un sanitario va atendiendo a un paciente en el habitáculo de una ambulancia asistencial en servicio de urgencia, por una autovía. ¿Debe llevar el cinturón?  
-Respuesta: **No; en ese caso está exento en todo tipo de vías.**
+Por una autovía, un sanitario atiende a un paciente en una ambulancia en servicio de urgencia. ¿Debe llevar el cinturón?  
+Respuesta: **No.**
 
 - ✔ Los pasajeros de ambulancias asistenciales que, en servicio de urgencia, ocupan el habitáculo del paciente para prestarle asistencia en ruta están exentos del cinturón en todo tipo de vías. _(RGC 119.2)_
 - ✘ `xe-0089` El conductor y los ocupantes deben llevar el cinturón abrochado en vías urbanas e interurbanas; el artículo 119 vigente no incluye a los repartidores entre las exenciones. _(RGC 117.1)_
@@ -5872,8 +5872,8 @@ Respuesta: **Sí, siempre que el niño ocupe un asiento trasero.**
 
 ## xe-0089
 
-Un repartidor que baja continuamente de su furgoneta para entregar paquetes circula por ciudad. Según el Reglamento General de Circulación vigente, ¿puede ir sin cinturón?  
-Respuesta: **No; el Reglamento no recoge esa exención.**
+Un repartidor que baja continuamente de su furgoneta para entregar paquetes circula por ciudad. ¿Puede ir sin cinturón?  
+Respuesta: **No.**
 
 - ✔ El conductor y los ocupantes deben llevar el cinturón abrochado en vías urbanas e interurbanas; el artículo 119 vigente no incluye a los repartidores entre las exenciones. _(RGC 117.1)_
 - ✘ `xe-0088` Los taxis que circulan en tráfico urbano o áreas urbanas de grandes ciudades pueden llevar a personas de menos de 135 cm sin sistema de retención adaptado, siempre que ocupen un asiento trasero. _(RGC 119.2)_
@@ -5908,8 +5908,8 @@ Respuesta: **Los frenos.**
 
 ## xe-0095
 
-Según el manual de la DGT, ¿por qué los vehículos nuevos, con más sistemas de seguridad, no tienen menos accidentes que los viejos?  
-Respuesta: **Porque muchos conductores no saben cómo funcionan y otros confían demasiado en ellos.**
+¿Por qué los vehículos nuevos, con más sistemas de seguridad, no tienen menos accidentes que los viejos?  
+Respuesta: **Porque muchos conductores no saben usarlos y otros confían demasiado en ellos.**
 
 - ✔ Según el manual de la DGT, los vehículos nuevos tienen tantos accidentes como los viejos porque pocos conductores saben cómo funcionan sus sistemas de seguridad y muchos corren más riesgos al confiar demasiado en ellos. _(MANUAL_DGT Tema 5, La importancia del vehículo en los accidentes de tráfico (p. 87))_
 - ✘ `xe-0094` Los elementos de seguridad activa, como frenos, ruedas y luces, están pensados para evitar accidentes; el cinturón y el airbag son de seguridad pasiva. _(MANUAL_DGT Tema 5, Seguridad activa (p. 88))_
@@ -5917,7 +5917,7 @@ Respuesta: **Porque muchos conductores no saben cómo funcionan y otros confían
 
 ## xe-0096
 
-Según el manual de la DGT, llevar bien puesto el cinturón de seguridad, ¿cómo influye en las posibilidades de sobrevivir a un accidente?  
+Llevar bien puesto el cinturón de seguridad, ¿cómo influye en las posibilidades de sobrevivir a un accidente?  
 Respuesta: **Las duplica.**
 
 - ✔ Según el manual de la DGT, llevar el cinturón de seguridad bien puesto da el doble de posibilidades de sobrevivir a un accidente. _(MANUAL_DGT Tema 5, El cinturón de seguridad (p. 107))_
@@ -5944,7 +5944,7 @@ Respuesta: **25 centímetros.**
 
 ## xe-0099
 
-Según el manual de la DGT, ¿cuál de estas es una función del airbag?  
+¿Cuál de estas es una función del airbag?  
 Respuesta: **Proteger la cara y los ojos de cristales rotos y otros objetos.**
 
 - ✔ Las funciones del airbag son frenar el movimiento brusco del cuerpo, evitar choques violentos contra el vehículo y proteger la cara y los ojos de cristales y otros elementos que se desprenden. _(MANUAL_DGT Tema 5, Los airbags (p. 115))_
@@ -5953,7 +5953,7 @@ Respuesta: **Proteger la cara y los ojos de cristales rotos y otros objetos.**
 
 ## xe-0100
 
-Según el manual de la DGT, ¿en qué asiento va más protegido un niño en su sillita?  
+¿En qué asiento va más protegido un niño en su sillita?  
 Respuesta: **En el trasero central.**
 
 - ✔ Según el manual de la DGT, la sillita en el asiento trasero central protege más al niño, porque queda resguardado si el golpe llega por cualquiera de los dos lados. _(MANUAL_DGT Tema 5, Cinturones de seguridad para niños (p. 110))_
@@ -5962,7 +5962,7 @@ Respuesta: **En el trasero central.**
 
 ## xe-0101
 
-Según el manual de la DGT, ¿en qué sentido es más seguro colocar la sillita de un niño pequeño?  
+¿En qué sentido es más seguro colocar la sillita de un niño pequeño?  
 Respuesta: **En sentido contrario a la marcha, mirando hacia atrás.**
 
 - ✔ Según el manual de la DGT, para los niños pequeños es más seguro colocar la sillita en sentido contrario a la marcha, mirando hacia atrás. _(MANUAL_DGT Tema 5, Cinturones de seguridad para niños (p. 110))_
@@ -5980,7 +5980,7 @@ Respuesta: **En los delanteros y en los traseros.**
 
 ## xe-0103
 
-Según el manual de la DGT, ¿qué puede hacer que un casco pierda propiedades?  
+¿Qué puede hacer que un casco pierda propiedades?  
 Respuesta: **Pintarlo o ponerle pegatinas.**
 
 - ✔ Según el manual de la DGT, algunos cascos caducan a los pocos años y pueden perder propiedades si se pintan o se les colocan pegatinas. _(MANUAL_DGT Tema 5, El casco (p. 118))_
@@ -6016,7 +6016,7 @@ Respuesta: **El vehículo no pasará de 50 km/h.**
 
 ## xe-0109
 
-Circula con el regulador de velocidad activado y pisa el freno. Según el manual de la DGT, ¿qué ocurre?  
+Circula con el regulador de velocidad activado y pisa el freno. ¿Qué ocurre?  
 Respuesta: **El regulador se desactiva.**
 
 - ✔ Según el manual de la DGT, el regulador de velocidad se activa desde el volante y se desactiva cuando el conductor acelera o frena; luego hay que volver a elegir la velocidad y activarlo. _(MANUAL_DGT Tema 5, Regulador de velocidad (p. 105))_
@@ -6034,7 +6034,7 @@ Respuesta: **Ayuda a mantener la distancia con el vehículo de delante.**
 
 ## xe-0111
 
-Según el manual de la DGT, ¿cuándo se encienden las luces de carretera automáticas?  
+¿Cuándo se encienden las luces de carretera automáticas?  
 Respuesta: **Con poca luz, a más de 45 km/h y sin otro vehículo cerca.**
 
 - ✔ Según el manual de la DGT, las luces de carretera automáticas se encienden con poca luz exterior si el vehículo va a más de 45 km/h y no detecta otro vehículo cerca, y se apagan al detectar uno que viene de frente. _(MANUAL_DGT Tema 5, Luces adaptativas (p. 92))_
@@ -6070,7 +6070,7 @@ Respuesta: **Activa los frenos y para el vehículo.**
 
 ## xe-0115
 
-Según el manual de la DGT, algunos detectores de ángulo muerto solo avisan en un caso. ¿Cuál?  
+Algunos detectores de ángulo muerto solo avisan en un caso. ¿Cuál?  
 Respuesta: **Al poner el intermitente con un vehículo en el ángulo muerto.**
 
 - ✔ Según el manual de la DGT, unos detectores de ángulo muerto avisan siempre que hay un vehículo en esa zona y otros solo si se activa el intermitente para cambiar de carril con un vehículo en el ángulo muerto. _(MANUAL_DGT Tema 17, Detector de ángulos muertos (BSM) (p. 444))_
@@ -6115,7 +6115,7 @@ Respuesta: **La más larga posible, respetando los límites de velocidad.**
 
 ## xe-0122
 
-Según el manual de la DGT, ¿a partir de qué velocidad aproximada aumentan mucho el consumo y la contaminación?  
+¿A partir de qué velocidad aproximada aumentan mucho el consumo y la contaminación?  
 Respuesta: **A partir de 80 o 90 km/h.**
 
 - ✔ Según el manual de la DGT, a partir de los 80 o 90 km/h el vehículo consume mucho más combustible y contamina más. _(MANUAL_DGT Tema 17, Al elegir la velocidad a la que circulas (p. 454))_
@@ -6142,7 +6142,7 @@ Respuesta: **Levantar el pie del acelerador y dejar rodar el vehículo.**
 
 ## xe-0125
 
-Según el manual de la DGT, ¿en qué se emplea la mayor parte del combustible que consume un vehículo?  
+¿En qué se emplea la mayor parte del combustible que consume un vehículo?  
 Respuesta: **En luchar contra el aire que no le deja avanzar.**
 
 - ✔ Según el manual de la DGT, la mayor parte del combustible se emplea en luchar contra el aire que no deja avanzar al vehículo; por eso la baca o los deflectores aumentan el consumo. _(MANUAL_DGT Tema 17, El aire de la calle (p. 455))_
@@ -6233,7 +6233,7 @@ Respuesta: **Porque el combustible sin quemar puede llegar al catalizador y dest
 ## xe-0136
 
 Al rellenar el aceite del motor se derrama un poco al suelo. ¿Qué debe hacer?  
-Respuesta: **Recogerlo, porque es muy contaminante.**
+Respuesta: **Recogerlo.**
 
 - ✔ Según el manual de la DGT, hay que evitar que el aceite caiga al suelo porque es muy contaminante y, si cae al rellenar, hay que recogerlo. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 376))_
 - ✘ `xe-0134` Entre las medidas para contaminar menos, el manual de la DGT indica no lavar el vehículo en la carretera, sino en los lugares preparados para hacerlo. _(MANUAL_DGT Tema 17, La contaminación (p. 451))_
@@ -6386,7 +6386,7 @@ Respuesta: **Que la furgoneta tiene la cabina integrada en el resto de la carroc
 ## res-def-0003
 
 ¿Qué es un vehículo derivado de turismo?  
-Respuesta: **Un automóvil para servicios o transporte exclusivo de mercancías que conserva la carrocería del turismo del que deriva y tiene una sola fila de asientos.**
+Respuesta: **Un automóvil de mercancías que conserva la carrocería del turismo y tiene una sola fila de asientos.**
 
 - ✔ El derivado de turismo sale de un turismo, conserva su carrocería y solo tiene una fila de asientos; se destina a servicios o a transporte de mercancías. _(RGV Anexo II.A)_
 - ✘ `def-0011` El camión es un automóvil para transporte de mercancías cuya cabina no está integrada en el resto de la carrocería. _(LSV Anexo I.18)_
@@ -6394,8 +6394,8 @@ Respuesta: **Un automóvil para servicios o transporte exclusivo de mercancías 
 
 ## res-def-0004
 
-Según el Reglamento General de Vehículos, un patinete eléctrico (vehículo de movilidad personal), ¿es un «vehículo a motor»?  
-Respuesta: **No: aunque tiene motor, el Reglamento lo excluye expresamente de la definición de vehículo a motor.**
+Un patinete eléctrico (vehículo de movilidad personal), ¿es un vehículo de motor?  
+Respuesta: **No.**
 
 - ✔ El Reglamento General de Vehículos excluye de «vehículo a motor» a ciclomotores, tranvías, vehículos para personas de movilidad reducida, bicicletas de pedaleo asistido y vehículos de movilidad personal. El manual de la DGT los incluye entre los «vehículos no considerados a motor». _(RGV Anexo II.A)_
 - ✘ `def-0011` El camión es un automóvil para transporte de mercancías cuya cabina no está integrada en el resto de la carrocería. _(LSV Anexo I.18)_
@@ -6422,7 +6422,7 @@ Respuesta: **Rojo.**
 ## res-via-0001
 
 ¿Puede un peatón circular por una autovía?  
-Respuesta: **No, salvo en los casos y condiciones que fija el reglamento (por ejemplo, al salir del vehículo por una emergencia).**
+Respuesta: **No, salvo en los casos que fija el reglamento, como una emergencia.**
 
 - ✔ Los peatones no pueden circular por autopistas ni autovías, salvo en los casos y condiciones del artículo 130 (inmovilización del vehículo por emergencia). _(RGC 125.1)_
 - ✘ `xc-0129` Las isletas son zonas de la calzada elevadas o pintadas que sirven para guiar el tráfico, y las líneas blancas paralelas que las forman se llaman cebreado. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 219))_
@@ -6430,8 +6430,8 @@ Respuesta: **No, salvo en los casos y condiciones que fija el reglamento (por ej
 
 ## res-via-0002
 
-En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop (pedir que te lleven)?  
-Respuesta: **No, está prohibido pedir pasaje en cualquier tramo de la autopista, incluidas las explanadas de peaje.**
+En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop?  
+Respuesta: **No.**
 
 - ✔ Los peatones no pueden hacer peticiones de pasaje en ningún tramo de autopistas y autovías, incluidas las explanadas de las estaciones de peaje. _(RGC 125.1)_
 - ✘ `x1a-0011` Cuando en la vía hay refugios, isletas o dispositivos de guía, se circula por la parte de la calzada que queda a su derecha, salvo en vías de sentido único o dentro de la parte de un solo sentido. _(RGC 43.1)_
@@ -6440,7 +6440,7 @@ Respuesta: **No, está prohibido pedir pasaje en cualquier tramo de la autopista
 ## res-via-0003
 
 ¿Puede circular una persona a caballo por el arcén de una autovía?  
-Respuesta: **No, está prohibida la circulación de animales por autopistas y autovías.**
+Respuesta: **No.**
 
 - ✔ Se prohíbe la circulación de animales por autopistas y autovías; la prohibición incluye también los vehículos de tracción animal. _(RGC 128)_
 - ✘ `xc-0097` La zona peatonal es la parte de la calle reservada al tránsito y estancia prioritarios de los peatones; incluye aceras, plazas, bulevares, paseos, andenes y zonas similares. _(LSV Anexo I.59)_
@@ -6449,7 +6449,7 @@ Respuesta: **No, está prohibida la circulación de animales por autopistas y au
 ## res-arc-0001
 
 Una persona en silla de ruedas circula sola por una carretera sin acera ni zona peatonal practicable. Como norma general, ¿por dónde debe ir?  
-Respuesta: **Por el arcén izquierdo en el sentido de su marcha (o por la calzada si no hay arcén), lo más alejada posible de los vehículos.**
+Respuesta: **Por el arcén izquierdo o, si no lo hay, por la calzada, lo más alejada posible de los vehículos.**
 
 - ✔ Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad. _(RGC 122.1)_
 - ✘ `v5a-car-0001` En calzadas con tres o más carriles en el mismo sentido, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato, pero no los demás. _(RGC 31.2)_
@@ -6466,7 +6466,7 @@ Respuesta: **Solo si cumple el número mínimo de ocupantes que se haya fijado p
 
 ## res-cesp-0002
 
-Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. ¿A qué velocidad debe circular, salvo señal de otra inferior?  
+Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. Salvo señal de otra inferior, ¿a qué velocidad debe circular?  
 Respuesta: **Entre 60 y 80 km/h.**
 
 - ✔ Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales. _(RGC 41.1)_
@@ -6475,8 +6475,8 @@ Respuesta: **Entre 60 y 80 km/h.**
 
 ## res-cesp-0003
 
-Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido dispone de dos carriles. ¿A qué velocidad puede circular?  
-Respuesta: **A las velocidades genéricas de la vía (máximas y mínimas).**
+Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido hay dos carriles. ¿A qué velocidad puede circular?  
+Respuesta: **A las velocidades genéricas de la vía.**
 
 - ✔ Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida. _(RGC 41.1)_
 - ✘ `cesp-0008` Los autobuses de más de 3.500 kg y los articulados pueden usarlo con independencia del número de ocupantes, en las condiciones fijadas para el tramo. _(RGC 35.2.a)_
@@ -6485,7 +6485,7 @@ Respuesta: **A las velocidades genéricas de la vía (máximas y mínimas).**
 ## res-cesp-0004
 
 Los vehículos que circulan por el carril contiguo a uno habilitado en sentido contrario al habitual, ¿qué alumbrado deben llevar?  
-Respuesta: **Al menos la luz de corto alcance o de cruce, de día y de noche.**
+Respuesta: **Al menos la de cruce, de día y de noche.**
 
 - ✔ Deben llevar encendida al menos la luz de cruce, tanto de día como de noche, y no pueden invadir el carril habilitado en sentido contrario. _(RGC 41.1)_
 - ✘ `cesp-0008` Los autobuses de más de 3.500 kg y los articulados pueden usarlo con independencia del número de ocupantes, en las condiciones fijadas para el tramo. _(RGC 35.2.a)_
@@ -6493,7 +6493,7 @@ Respuesta: **Al menos la luz de corto alcance o de cruce, de día y de noche.**
 
 ## res-dist-0001
 
-Según el manual de la DGT, ¿qué separación es aconsejable dejar con el vehículo de delante en condiciones normales?  
+En condiciones normales, ¿qué separación es aconsejable dejar con el vehículo de delante?  
 Respuesta: **Dos o tres segundos.**
 
 - ✔ El manual aconseja dos o tres segundos de separación, y al menos un segundo más con lluvia, nieve, niebla, de noche o si el de atrás se acerca demasiado. El reglamento no fija segundos: exige un espacio que permita detenerse sin chocar (RGC 54.1). _(MANUAL_DGT Tema 17, Espacio delantero (p. 446))_
@@ -6502,7 +6502,7 @@ Respuesta: **Dos o tres segundos.**
 
 ## res-dist-0002
 
-Según el manual de la DGT, si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?  
+Si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?  
 Respuesta: **Al menos un segundo más.**
 
 - ✔ El manual indica dejar al menos un segundo más de espacio con lluvia, nieve, niebla, de noche o cuando el vehículo de atrás se acerca demasiado. _(MANUAL_DGT Tema 17, Espacio delantero (p. 446))_
@@ -6511,7 +6511,7 @@ Respuesta: **Al menos un segundo más.**
 
 ## res-vel-0001
 
-Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción puede superar los 60 km/h en llano y cumple sus normas técnicas, ¿a qué velocidad máxima puede circular?  
+Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción supera los 60 km/h en llano y cumple sus normas técnicas, ¿a qué velocidad máxima puede circular?  
 Respuesta: **70 km/h.**
 
 - ✔ Los vehículos especiales tienen 40 km/h, salvo que puedan superar 60 km/h en llano y cumplan las normas de los vehículos: entonces 70 km/h. Si no tienen señalización de frenado, llevan remolque o son motocultores, 25 km/h. _(RGC 48.1.c.2º)_
@@ -6521,7 +6521,7 @@ Respuesta: **70 km/h.**
 ## res-vel-0002
 
 Fuera de poblado, el límite de velocidad de los ciclos es de 45 km/h. ¿Puede un ciclista superarlo?  
-Respuesta: **Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior.**
+Respuesta: **Sí, donde las circunstancias de la vía lo permitan.**
 
 - ✔ El límite de 45 km/h es para ciclos, ciclomotores y cuadriciclos ligeros, pero los conductores de bicicletas pueden superarlo donde las circunstancias de la vía lo permitan. _(RGC 48.1.e)_
 - ✘ `vel-0017` El límite genérico en autopistas y autovías que transcurren dentro de poblado es 80 km/h (ampliable con señalización específica). _(RGC 50.6)_
@@ -6575,7 +6575,7 @@ Respuesta: **4,00 metros.**
 ## res-itv-0001
 
 Un turismo particular, ¿con qué frecuencia debe pasar la ITV?  
-Respuesta: **Exento hasta los 4 años; cada dos años hasta los 10; y después, cada año.**
+Respuesta: **Exento hasta los 4 años; cada dos hasta los 10; después, cada año.**
 
 - ✔ Turismos (M1): exentos hasta 4 años, bienal de 4 a 10 años y anual a partir de 10. No se aplica a taxis, ambulancias, autoescuelas ni transporte escolar, que tienen plazos más cortos. _(ITV 6.1 (tabla))_
 - ✘ `res-itv-0005` Los defectos muy graves inhabilitan al vehículo para circular: el traslado se hace por medios ajenos al vehículo. Una vez reparado, debe volver a la ITV en un plazo no superior a dos meses. _(ITV 11.3)_
@@ -6584,7 +6584,7 @@ Respuesta: **Exento hasta los 4 años; cada dos años hasta los 10; y después, 
 ## res-itv-0002
 
 Una furgoneta de 3.500 kg de MMA o menos (categoría N1), ¿con qué frecuencia debe pasar la ITV?  
-Respuesta: **Exenta hasta 2 años; cada dos años de 2 a 6; cada año de 6 a 10; y cada seis meses a partir de 10.**
+Respuesta: **Exenta hasta los 2 años; cada dos años hasta los 6; cada año hasta los 10; después, cada seis meses.**
 
 - ✔ N1 (mercancías hasta 3,5 t): exenta hasta 2 años, bienal de 2 a 6, anual de 6 a 10 y semestral a partir de 10 años. _(ITV 6.1 (tabla))_
 - ✘ `res-itv-0004` Los defectos graves inhabilitan para circular, salvo para ir al taller o regularizar la situación y volver a la ITV en un plazo no superior a dos meses. _(ITV 11.2)_
@@ -6602,7 +6602,7 @@ Respuesta: **Exenta hasta 4 años y después cada dos años.**
 ## res-itv-0004
 
 Su turismo saca una ITV desfavorable (defectos graves). ¿Puede circular con él?  
-Respuesta: **Solo para llevarlo al taller y volver a la ITV, en un plazo no superior a dos meses.**
+Respuesta: **Solo para llevarlo al taller y volver a la ITV, en un plazo de dos meses como máximo.**
 
 - ✔ Los defectos graves inhabilitan para circular, salvo para ir al taller o regularizar la situación y volver a la ITV en un plazo no superior a dos meses. _(ITV 11.2)_
 - ✘ `res-itv-0002` N1 (mercancías hasta 3,5 t): exenta hasta 2 años, bienal de 2 a 6, anual de 6 a 10 y semestral a partir de 10 años. _(ITV 6.1 (tabla))_
@@ -6611,7 +6611,7 @@ Respuesta: **Solo para llevarlo al taller y volver a la ITV, en un plazo no supe
 ## res-itv-0005
 
 Si la ITV es negativa (defectos muy graves), ¿cómo se traslada el vehículo desde la estación?  
-Respuesta: **Por medios ajenos al propio vehículo (por ejemplo, en grúa).**
+Respuesta: **Por medios ajenos al propio vehículo, como una grúa.**
 
 - ✔ Los defectos muy graves inhabilitan al vehículo para circular: el traslado se hace por medios ajenos al vehículo. Una vez reparado, debe volver a la ITV en un plazo no superior a dos meses. _(ITV 11.3)_
 - ✘ `res-itv-0001` Turismos (M1): exentos hasta 4 años, bienal de 4 a 10 años y anual a partir de 10. No se aplica a taxis, ambulancias, autoescuelas ni transporte escolar, que tienen plazos más cortos. _(ITV 6.1 (tabla))_
@@ -6620,7 +6620,7 @@ Respuesta: **Por medios ajenos al propio vehículo (por ejemplo, en grúa).**
 ## res-seg-0001
 
 El seguro obligatorio del vehículo causante de un accidente, ¿cubre las lesiones de su propio conductor?  
-Respuesta: **No, el seguro obligatorio no cubre las lesiones ni el fallecimiento del conductor del vehículo causante.**
+Respuesta: **No.**
 
 - ✔ El seguro obligatorio cubre los daños a terceros (personas y bienes), pero no las lesiones o el fallecimiento del conductor causante ni los daños de su propio vehículo. _(LRCSCVM 5.1)_
 - ✘ `xb-0073` Quien entrega su vehículo a un compraventa para su posterior venta debe solicitar, en diez días desde la entrega, la baja temporal del vehículo por transmisión. _(RGV 33.1)_
@@ -6638,7 +6638,7 @@ Respuesta: **No.**
 ## res-seg-0003
 
 Un remolque de 600 kg de masa máxima autorizada, ¿necesita su propio seguro obligatorio?  
-Respuesta: **No, los remolques de hasta 750 kg de MMA están exceptuados.**
+Respuesta: **No.**
 
 - ✔ Están exceptuados de la obligación de asegurarse los remolques y semirremolques que no excedan de 750 kg de MMA. _(LRCSCVM 2.8.b)_
 - ✘ `res-seg-0001` El seguro obligatorio cubre los daños a terceros (personas y bienes), pero no las lesiones o el fallecimiento del conductor causante ni los daños de su propio vehículo. _(LRCSCVM 5.1)_
@@ -6647,7 +6647,7 @@ Respuesta: **No, los remolques de hasta 750 kg de MMA están exceptuados.**
 ## res-veh-0002
 
 Un turismo arrastra un remolque ligero. ¿Debe llevar extintor?  
-Respuesta: **Sí, porque turismo y remolque forman un conjunto de vehículos, y los conjuntos no especiales deben llevar extintor.**
+Respuesta: **Sí.**
 
 - ✔ Un vehículo de motor enganchado a un remolque es un tren de carretera, es decir, un conjunto de vehículos. Los conjuntos de vehículos no especiales deben llevar un extintor homologado, además del V-16 y el chaleco. _(RGV Anexo XII.2)_
 - ✘ `E-mec-0011` La dotación incluye una rueda completa de repuesto o de uso temporal con las herramientas para cambiarla, o un sistema alternativo con garantías suficientes (por ejemplo, un kit antipinchazos). _(RGV Anexo XII.1.c)_
@@ -6674,7 +6674,7 @@ Respuesta: **15 años.**
 ## res-perm-0003
 
 ¿Qué limita el permiso A2?  
-Respuesta: **La potencia de la moto: como máximo 35 kW y 0,2 kW/kg, y que no derive de un vehículo con más del doble de potencia.**
+Respuesta: **La potencia de la motocicleta, como máximo 35 kW y 0,2 kW/kg.**
 
 - ✔ El A2 se define por la potencia (máximo 35 kW y relación potencia/peso de 0,2 kW/kg), no por la cilindrada. _(RGCOND 4.2 (tabla))_
 - ✘ `xb-0050` La prórroga del permiso puede pedirse con una antelación máxima de tres meses a su caducidad, y el nuevo período de vigencia se cuenta desde la fecha de caducidad. _(RGCOND 13.1)_
@@ -6709,7 +6709,7 @@ Respuesta: **Un delito de omisión del deber de socorro.**
 
 ## res-alc-0001
 
-Una persona adulta que conduce un patinete eléctrico (vehículo de movilidad personal), con carácter general, ¿qué tasa máxima de alcohol en aire espirado puede tener?  
+Con carácter general, ¿qué tasa máxima de alcohol en aire espirado puede tener un adulto que conduce un patinete eléctrico?  
 Respuesta: **0,25 mg/l.**
 
 - ✔ El VMP es un vehículo y la tasa general para conductores de vehículos es 0,25 mg/l en aire espirado (0,5 g/l en sangre). Los conductores menores de edad no pueden tener ninguna tasa (0). _(RGC 20)_
@@ -6718,7 +6718,7 @@ Respuesta: **0,25 mg/l.**
 
 ## res-fat-0001
 
-Al volante empieza a notar los primeros síntomas de sueño. Según el manual de la DGT, ¿qué debe hacer?  
+Al volante empieza a notar los primeros síntomas de sueño. ¿Qué debe hacer?  
 Respuesta: **Parar en un lugar seguro y dormir 20 o 30 minutos.**
 
 - ✔ El manual de la DGT dice que, con los primeros síntomas, hay que parar en un lugar seguro y dormir 20 o 30 minutos, y descansar 20 o 30 minutos cada dos horas o 200 km. _(MANUAL_DGT Tema 3, fatiga y somnolencia (p. 51))_
@@ -6727,8 +6727,8 @@ Respuesta: **Parar en un lugar seguro y dormir 20 o 30 minutos.**
 
 ## res-seg-0004
 
-Según el manual de la DGT, al girar el volante, ¿se deben cruzar las manos?  
-Respuesta: **No: el volante se coge sin cruzar las manos al girarlo.**
+Al girar el volante, ¿se deben cruzar las manos?  
+Respuesta: **No.**
 
 - ✔ El manual de la DGT indica coger el volante con las dos manos, por la parte exterior, con firmeza pero sin mucha fuerza y sin cruzar las manos al girar. _(MANUAL_DGT Tema 6, cómo coger el volante (p. 123))_
 - ✘ `D-pos-0004` El asiento está bien ajustado cuando se llega bien a los pedales pudiendo pisarlos a fondo y las piernas no están extendidas del todo, sino ligeramente dobladas. _(MANUAL_DGT Tema 6, Reglas para conducir turismos (pág. 130))_
@@ -6736,8 +6736,8 @@ Respuesta: **No: el volante se coge sin cruzar las manos al girarlo.**
 
 ## res-acc-0001
 
-Según el manual de la DGT, ¿cuándo hay más accidentes?  
-Respuesta: **Los fines de semana y los días de fiesta, en especial de madrugada.**
+¿Cuándo hay más accidentes?  
+Respuesta: **Los fines de semana y festivos, sobre todo de madrugada.**
 
 - ✔ El manual de la DGT indica que hay más accidentes los fines de semana y los días de fiesta, en especial en las horas de la madrugada. _(MANUAL_DGT Tema 16 (p. 391))_
 - ✘ `xc-0020` Conducir a velocidad inadecuada o excesiva es una de las principales causas de accidentes de tráfico. _(MANUAL_DGT Tema 10, Velocidad inadecuada (p. 246))_
@@ -6836,7 +6836,7 @@ Respuesta: **Retirarlos de la vía.**
 ## bm13-0005
 
 Antes de abrir la puerta para bajar del vehículo, ¿qué debe hacer?  
-Respuesta: **Asegurarse de que no supone peligro ni entorpecimiento para otros usuarios, especialmente ciclistas.**
+Respuesta: **Asegurarse de que no supone peligro para otros usuarios, sobre todo ciclistas.**
 
 - ✔ Se prohíbe abrir las puertas o apearse sin haberse cerciorado antes de que no implica peligro o entorpecimiento para otros usuarios, especialmente para los ciclistas. _(RGC 114.1)_
 - ✘ `bm13-0013` Tanto el conductor como los demás ocupantes deben abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si existen zonas excluidas a la circulación de vehículos. _(RGC 97.3.e)_
@@ -6845,7 +6845,7 @@ Respuesta: **Asegurarse de que no supone peligro ni entorpecimiento para otros u
 ## bm13-0006
 
 Un pasajero quiere abrir la puerta cuando el vehículo aún avanza muy despacio, a punto de detenerse. ¿Está permitido?  
-Respuesta: **No, se prohíbe abrir las puertas antes de la completa inmovilización del vehículo.**
+Respuesta: **No.**
 
 - ✔ Está prohibido abrir las puertas del vehículo antes de su completa inmovilización. _(RGC 114.1)_
 - ✘ `bm13-0001` Si el conductor de un vehículo a motor tiene que dejar su puesto, debe parar el motor y desconectar el sistema de arranque. _(RGC 92.3.a)_
@@ -6899,7 +6899,7 @@ Respuesta: **El conductor o la persona que vaya a cargar el combustible.**
 ## bm13-0012
 
 Por una emergencia, su vehículo queda inmovilizado dentro de un túnel. ¿Qué debe hacer con el motor y las luces?  
-Respuesta: **Apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición.**
+Respuesta: **Apagar el motor, encender la emergencia y dejar las luces de posición.**
 
 - ✔ Si un conductor queda inmovilizado en un túnel por una emergencia, debe apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición. _(RGC 97.3.a)_
 - ✘ `bm13-0003` El reglamento pide dejar la primera o la marcha atrás en los vehículos con caja de cambios manual, «o, en su caso, la posición de estacionamiento» (la P de los cambios automáticos). _(RGC 92.3.c)_
@@ -6908,7 +6908,7 @@ Respuesta: **Apagar el motor, conectar la señal de emergencia y mantener encend
 ## bm13-0013
 
 Su vehículo queda inmovilizado por una emergencia dentro de un túnel. ¿Qué deben hacer usted y sus pasajeros?  
-Respuesta: **Abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si hay zonas excluidas a la circulación.**
+Respuesta: **Abandonar el vehículo e ir rápidamente al refugio o salida más próximos.**
 
 - ✔ Tanto el conductor como los demás ocupantes deben abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si existen zonas excluidas a la circulación de vehículos. _(RGC 97.3.e)_
 - ✘ `bm13-0009` Si debe permanecer detenido en un túnel u otro lugar cerrado más de dos minutos, ha de interrumpir el funcionamiento del motor, conservando encendido el alumbrado de posición. _(RGC 115.2)_
@@ -6916,7 +6916,7 @@ Respuesta: **Abandonar el vehículo y dirigirse rápidamente al refugio o salida
 
 ## bm13-0014
 
-Su vehículo se incendia dentro de un túnel. Tras acercarlo a la derecha y apagar el motor, ¿qué debe hacer con la llave y las puertas antes de abandonarlo?  
+Su vehículo se incendia dentro de un túnel. Tras acercarlo a la derecha y apagar el motor, ¿qué debe hacer con la llave y las puertas?  
 Respuesta: **Dejar la llave puesta y las puertas abiertas.**
 
 - ✔ En caso de incendio en un túnel, el conductor apaga el motor y deja la llave puesta y las puertas abiertas. _(RGC 97.3)_
@@ -6953,7 +6953,7 @@ Respuesta: **Lo más lejos posible del vehículo que le precede.**
 ## bm13-0018
 
 Su vehículo averiado obstaculiza la calzada. Después de señalizarlo, ¿qué debe hacer?  
-Respuesta: **Adoptar las medidas necesarias para que sea retirado cuanto antes y, si es factible, sacarlo de la calzada y situarlo cumpliendo las normas de estacionamiento.**
+Respuesta: **Procurar que se retire cuanto antes y, si es posible, sacarlo de la calzada.**
 
 - ✔ Si por accidente o avería el vehículo o su carga obstaculizan la calzada, tras señalizar hay que retirarlo en el menor tiempo posible y, siempre que sea factible, sacarlo de la calzada y estacionarlo correctamente. _(RGC 130.1)_
 - ✘ `bm13-0002` Cuando el conductor se aleja del vehículo debe adoptar las precauciones necesarias para impedir que otra persona lo use sin autorización (por ejemplo, cerrarlo y llevarse la llave). _(RGC 92.3.a)_
@@ -6962,7 +6962,7 @@ Respuesta: **Adoptar las medidas necesarias para que sea retirado cuanto antes y
 ## bm13-0019
 
 Tras una avería, su vehículo puede seguir circulando pero necesita un servicio de auxilio. ¿Qué debe hacer?  
-Respuesta: **Abandonar cuanto antes los carriles de circulación y dirigirse a la primera salida disponible usando el arcén derecho.**
+Respuesta: **Dejar cuanto antes los carriles de circulación e ir a la primera salida por el arcén derecho.**
 
 - ✔ Si el vehículo puede continuar pero necesita auxilio, debe abandonar lo antes posible los carriles de circulación y dirigirse hacia la primera salida usando el arcén derecho; si no es posible, detenerse en el arcén derecho o donde cause menor obstáculo. _(RGC 130.2)_
 - ✘ `bm13-0013` Tanto el conductor como los demás ocupantes deben abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si existen zonas excluidas a la circulación de vehículos. _(RGC 97.3.e)_
@@ -6971,7 +6971,7 @@ Respuesta: **Abandonar cuanto antes los carriles de circulación y dirigirse a l
 ## bm3-0001
 
 ¿Cómo deben comportarse todos los usuarios de la vía?  
-Respuesta: **De forma que no entorpezcan indebidamente la circulación ni causen peligro, perjuicios o molestias innecesarias a las personas, o daños a los bienes.**
+Respuesta: **Sin entorpecer indebidamente ni causar peligro, perjuicios o molestias innecesarias.**
 
 - ✔ La norma general obliga a todos los usuarios de la vía (no solo a los conductores) a no entorpecer indebidamente ni causar peligro, perjuicios o molestias innecesarias, ni daños a los bienes. _(RGC 2)_
 - ✘ `bm3-0019` El último de la fila puede dejar cinco o seis metros con el de delante, mantener el freno pisado y encender las luces de emergencia para que se le vea mejor, y vigilar por el retrovisor. _(MANUAL_DGT Tema 17, Espacio al detener el vehículo (p. 448))_
@@ -6979,8 +6979,8 @@ Respuesta: **De forma que no entorpezcan indebidamente la circulación ni causen
 
 ## bm3-0002
 
-Se debe conducir con la diligencia y precaución necesarias para evitar…  
-Respuesta: **todo daño, propio o ajeno.**
+Se debe conducir con la diligencia y precaución necesarias para evitar...  
+Respuesta: **Todo daño, propio o ajeno.**
 
 - ✔ Hay que conducir con la diligencia y precaución necesarias para evitar todo daño, propio o ajeno, sin poner en peligro al conductor, a los ocupantes ni al resto de usuarios. _(RGC 3.1)_
 - ✘ `bm3-0006` Se circula a velocidad moderada, e incluso se detiene el vehículo, cuando hay peatones en la vía o pueda preverse racionalmente su irrupción en ella, principalmente si se trata de niños, ancianos o personas con discapacidad. _(RGC 46.1.a)_
@@ -7007,7 +7007,7 @@ Respuesta: **Muy grave.**
 ## bm3-0005
 
 Al aproximarse a otros usuarios de la vía, ¿con quiénes debe extremar especialmente las precauciones?  
-Respuesta: **Con los niños, los ancianos, los invidentes y otras personas manifiestamente impedidas.**
+Respuesta: **Con niños, ancianos, invidentes y personas manifiestamente impedidas.**
 
 - ✔ El reglamento obliga a adoptar las precauciones necesarias al aproximarse a otros usuarios, especialmente niños, ancianos, invidentes u otras personas manifiestamente impedidas. _(RGC 17.1)_
 - ✘ `xc-0056` El conductor debe usar el vehículo con diligencia, precaución y atención para no poner en peligro a nadie, especialmente a los usuarios cuyas características les hagan más vulnerables. _(LSV 10.2)_
@@ -7043,7 +7043,7 @@ Respuesta: **Sí, siempre.**
 ## bm3-0009
 
 Va a frenar de modo considerable por las circunstancias del tráfico. ¿Debe advertirlo?  
-Respuesta: **Sí, siempre que sea posible, con el empleo reiterado de las luces de frenado o con el brazo.**
+Respuesta: **Sí, siempre que sea posible, con las luces de frenado o con el brazo.**
 
 - ✔ La intención de inmovilizar el vehículo o de frenar de modo considerable, aunque la impongan las circunstancias del tráfico, debe advertirse, siempre que sea posible, con el empleo reiterado de las luces de frenado o moviendo el brazo de arriba abajo. _(RGC 109.2.c)_
 - ✘ `xc-0032` La conducción defensiva es la forma de conducir en la que el conductor está atento para prever qué van a hacer los otros usuarios de la vía, conductores y peatones, y reaccionar de forma adecuada. _(MANUAL_DGT Tema 4, Términos relacionados con la conducción segura (p. 78))_
@@ -7061,7 +7061,7 @@ Respuesta: **No, está prohibido.**
 ## bm3-0011
 
 Quien ha creado un obstáculo o peligro en la vía, ¿qué debe hacer?  
-Respuesta: **Hacerlo desaparecer lo antes posible y, mientras tanto, adoptar las medidas para que los demás lo adviertan.**
+Respuesta: **Retirarlo cuanto antes y, mientras tanto, señalizarlo.**
 
 - ✔ Quien crea un obstáculo o peligro en la vía debe hacerlo desaparecer lo antes posible y, mientras tanto, tomar las medidas necesarias para que lo adviertan los demás usuarios y no se dificulte la circulación. _(RGC 5.1)_
 - ✘ `xc-0034` La zona de inseguridad es el espacio en el que pueden surgir imprevistos por parte de otros conductores y peatones, y esos imprevistos pueden surgir por delante, por detrás y a los lados del vehículo. _(MANUAL_DGT Tema 4, Términos relacionados con la conducción segura (p. 78))_
@@ -7070,7 +7070,7 @@ Respuesta: **Hacerlo desaparecer lo antes posible y, mientras tanto, adoptar las
 ## bm3-0012
 
 ¿Puede arrojar una colilla encendida por la ventanilla?  
-Respuesta: **No, se prohíbe arrojar a la vía o sus inmediaciones cualquier objeto que pueda producir incendios.**
+Respuesta: **No.**
 
 - ✔ Se prohíbe arrojar a la vía o a sus inmediaciones cualquier objeto que pueda dar lugar a incendios o poner en peligro la seguridad vial. Es infracción grave. _(RGC 6.1)_
 - ✘ `bm3-0001` La norma general obliga a todos los usuarios de la vía (no solo a los conductores) a no entorpecer indebidamente ni causar peligro, perjuicios o molestias innecesarias, ni daños a los bienes. _(RGC 2)_
@@ -7079,7 +7079,7 @@ Respuesta: **No, se prohíbe arrojar a la vía o sus inmediaciones cualquier obj
 ## bm3-0013
 
 En la conducción preventiva, ¿en qué consiste la «anticipación»?  
-Respuesta: **En prever los movimientos y reacciones de los demás conductores para poder reaccionar a tiempo.**
+Respuesta: **En prever lo que harán los demás para reaccionar a tiempo.**
 
 - ✔ La conducción preventiva se basa en visión, anticipación y espacio. Anticiparse es prever los movimientos y reacciones de los demás para reaccionar a tiempo. _(MANUAL_DGT Tema 17, Conducción preventiva (p. 441))_
 - ✘ `xc-0043` Los espejos retrovisores se miran de forma rápida y breve para seguir prestando atención al resto de la carretera. _(MANUAL_DGT Tema 17, Visión (p. 442))_
@@ -7087,8 +7087,8 @@ Respuesta: **En prever los movimientos y reacciones de los demás conductores pa
 
 ## bm3-0014
 
-Circula junto a vehículos aparcados con personas dentro. ¿Qué precaución recomienda la DGT?  
-Respuesta: **Conducir con más cuidado, porque alguna de esas personas puede bajarse sin mirar.**
+Circula junto a vehículos aparcados con personas dentro. ¿Qué precaución debe tomar?  
+Respuesta: **Conducir con más cuidado.**
 
 - ✔ La DGT recomienda conducir con más cuidado cerca de vehículos aparcados con personas dentro, porque alguna puede bajarse sin mirar. _(MANUAL_DGT Tema 16, Los peatones (p. 397))_
 - ✘ `bm3-0017` La DGT aconseja no quedarse al lado de un vehículo de dos ruedas, sino circular por delante o por detrás de él, y mantener la distancia de seguridad. _(MANUAL_DGT Tema 16, Motocicletas y ciclomotores (p. 411))_
@@ -7132,8 +7132,8 @@ Respuesta: **Dos o tres metros.**
 
 ## bm3-0019
 
-Es el último vehículo de una fila detenida en un atasco. Según la DGT, ¿qué puede hacer para evitar que le alcancen por detrás?  
-Respuesta: **Mantener el freno pisado, encender las luces de emergencia y vigilar por el retrovisor a los que vienen detrás.**
+Es el último vehículo de una fila detenida en un atasco. ¿Qué puede hacer para evitar que le alcancen por detrás?  
+Respuesta: **Mantener el freno pisado, encender la emergencia y vigilar el retrovisor.**
 
 - ✔ El último de la fila puede dejar cinco o seis metros con el de delante, mantener el freno pisado y encender las luces de emergencia para que se le vea mejor, y vigilar por el retrovisor. _(MANUAL_DGT Tema 17, Espacio al detener el vehículo (p. 448))_
 - ✘ `bm3-0010` Las señales acústicas solo se usan excepcionalmente o cuando lo prevea una norma, de sonido no estridente, y queda prohibido su uso inmotivado o exagerado. _(RGC 110.1)_
@@ -7151,7 +7151,7 @@ Respuesta: **Su propia libertad de movimientos, el campo necesario de visión y 
 ## bm9-0002
 
 ¿Cuándo se permite circular con láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores?  
-Respuesta: **Cuando el vehículo lleve dos espejos retrovisores exteriores que cumplan las especificaciones técnicas.**
+Respuesta: **Cuando el vehículo lleve dos retrovisores exteriores reglamentarios.**
 
 - ✔ Las láminas o cortinillas en las ventanillas posteriores solo se permiten si el vehículo lleva dos espejos retrovisores exteriores reglamentarios. _(RGC 19.1)_
 - ✘ `bm9-0012` Para anticiparse a los riesgos, la DGT aconseja no permanecer mucho tiempo en el ángulo muerto de otro vehículo, sobre todo si es muy grande. _(MANUAL_DGT Tema 17, Anticipación (p. 445))_
@@ -7177,8 +7177,8 @@ Respuesta: **De forma diáfana sobre toda la vía, sin interferencias de lámina
 
 ## bm9-0005
 
-Además de respetar los límites, ¿cómo debe adecuar la velocidad?  
-Respuesta: **De manera que siempre pueda detener el vehículo dentro de los límites de su campo de visión y ante cualquier obstáculo.**
+Además de respetar los límites, el conductor debe adecuar la velocidad de forma que...  
+Respuesta: **Siempre pueda detener el vehículo dentro de su campo de visión y ante cualquier obstáculo.**
 
 - ✔ Además de los límites, hay que adecuar la velocidad a las circunstancias (propias, de la vía, del vehículo, meteorológicas…) para poder detenerse siempre dentro del campo de visión y ante cualquier obstáculo. _(RGC 45)_
 - ✘ `bm9-0014` Si hay demasiado peso atrás, la luz de cruce puede quedar muy alta y deslumbrar. Por eso hay que repartir bien la carga y mantener las luces bien reguladas. _(MANUAL_DGT Tema 14, Deslumbramientos (p. 348))_
@@ -7186,8 +7186,8 @@ Respuesta: **De manera que siempre pueda detener el vehículo dentro de los lím
 
 ## bm9-0006
 
-Conduce un vehículo pesado y le siguen otros que no pueden adelantarle con facilidad ni sin peligro por la anchura de la calzada. ¿Qué debe hacer?  
-Respuesta: **Aminorar la marcha o apartarse cuanto antes al arcén, si es practicable, para dejarles paso.**
+Conduce un vehículo pesado y por la anchura de la calzada los que le siguen no pueden adelantarle con facilidad ni sin peligro. ¿Qué debe hacer?  
+Respuesta: **Aminorar la marcha o apartarse al arcén, si es practicable, para dejarles pasar.**
 
 - ✔ Los conductores de vehículos pesados, de grandes dimensiones u obligados a un límite específico de velocidad deben aminorar la marcha o apartarse al arcén practicable para dejar paso cuando no puedan ser adelantados con facilidad y sin peligro. _(RGC 86.3)_
 - ✘ `bm9-0009` La carga debe ir dispuesta de forma que no oculte los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios ni las advertencias manuales del conductor. _(RGC 14.1.d)_
@@ -7205,7 +7205,7 @@ Respuesta: **Hasta el 50 % de la masa en vacío de la motocicleta.**
 ## bm9-0008
 
 Una motocicleta con remolque circula por una carretera. ¿Cómo afecta el remolque a su velocidad máxima?  
-Respuesta: **Debe reducirla un 10 % respecto a la velocidad genérica de la motocicleta.**
+Respuesta: **Debe reducirla un 10 %.**
 
 - ✔ Con remolque, la velocidad queda reducida en un 10 % respecto a la genérica para esos vehículos. _(RGC 12.3.b)_
 - ✘ `bm9-0002` Las láminas o cortinillas en las ventanillas posteriores solo se permiten si el vehículo lleva dos espejos retrovisores exteriores reglamentarios. _(RGC 19.1)_
@@ -7214,7 +7214,7 @@ Respuesta: **Debe reducirla un 10 % respecto a la velocidad genérica de la moto
 ## bm9-0009
 
 La carga que transporta tapa parcialmente las luces traseras y la placa de matrícula. ¿Es correcto?  
-Respuesta: **No, la carga no puede ocultar los dispositivos de alumbrado o señalización ni las placas o distintivos obligatorios.**
+Respuesta: **No.**
 
 - ✔ La carga debe ir dispuesta de forma que no oculte los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios ni las advertencias manuales del conductor. _(RGC 14.1.d)_
 - ✘ `bm9-0011` Si por avería irreparable en ruta se ha de circular con alumbrado de intensidad inferior, se debe reducir la velocidad hasta la que permita detener el vehículo dentro de la zona iluminada. _(RGC 107)_
@@ -7240,8 +7240,8 @@ Respuesta: **Reducir la velocidad hasta la que le permita detener el vehículo d
 
 ## bm9-0012
 
-Según la DGT, ¿qué debe evitar respecto al ángulo muerto de los retrovisores de otros vehículos?  
-Respuesta: **Estar mucho tiempo en él, en especial al lado o detrás de un vehículo muy grande.**
+¿Qué debe evitar respecto al ángulo muerto de los retrovisores de otros vehículos?  
+Respuesta: **Estar mucho tiempo en él, sobre todo junto a vehículos muy grandes.**
 
 - ✔ Para anticiparse a los riesgos, la DGT aconseja no permanecer mucho tiempo en el ángulo muerto de otro vehículo, sobre todo si es muy grande. _(MANUAL_DGT Tema 17, Anticipación (p. 445))_
 - ✘ `bm9-0011` Si por avería irreparable en ruta se ha de circular con alumbrado de intensidad inferior, se debe reducir la velocidad hasta la que permita detener el vehículo dentro de la zona iluminada. _(RGC 107)_
@@ -7249,8 +7249,8 @@ Respuesta: **Estar mucho tiempo en él, en especial al lado o detrás de un veh�
 
 ## bm9-0013
 
-Según la DGT, ¿a qué vehículos afecta más el viento fuerte?  
-Respuesta: **A los vehículos de dos ruedas y a los que llevan un remolque.**
+¿A qué vehículos afecta más el viento fuerte?  
+Respuesta: **A los de dos ruedas y a los que llevan remolque.**
 
 - ✔ El viento, sobre todo lateral, puede hacer perder el control; afecta más a los vehículos de dos ruedas y a los que llevan remolque. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 361))_
 - ✘ `bm9-0010` El transporte de materias que produzcan polvo o puedan caer se efectúa siempre cubriéndolas total y eficazmente. _(RGC 14.2)_
@@ -7285,8 +7285,8 @@ Respuesta: **Circular a velocidad moderada para no salpicarles.**
 
 ## bm6-0002
 
-¿En cuál de estas situaciones obliga el reglamento a circular a velocidad moderada?  
-Respuesta: **En caso de niebla densa, lluvia intensa, nevada o nubes de polvo o humo.**
+¿En cuál de estas situaciones hay que circular a velocidad moderada?  
+Respuesta: **Con niebla densa, lluvia intensa, nevada o nubes de polvo o humo.**
 
 - ✔ Entre los casos en que se circula a velocidad moderada y, si es preciso, se detiene el vehículo, están la niebla densa, la lluvia intensa, la nevada y las nubes de polvo o humo. _(RGC 46.1.k)_
 - ✘ `bm6-0008` Cuando le deslumbren, reduzca la velocidad o incluso pare con precaución, sin moverse a otros carriles; puede guiarse por la línea del borde derecho. _(MANUAL_DGT Tema 14, Deslumbramientos (p. 349))_
@@ -7304,7 +7304,7 @@ Respuesta: **50 km/h.**
 ## bm6-0004
 
 Al aproximarse a un lugar de reducida visibilidad o a un estrechamiento, ¿qué debe hacer?  
-Respuesta: **Circular a velocidad moderada y, si fuera preciso, detenerse.**
+Respuesta: **Circular a velocidad moderada y detenerse si es preciso.**
 
 - ✔ Al aproximarse a pasos a nivel, glorietas e intersecciones sin prioridad, lugares de reducida visibilidad o estrechamientos se circula a velocidad moderada. _(RGC 46.1.h)_
 - ✘ `bm6-0009` La DGT desaconseja las gafas oscuras o de sol de noche: pueden reducir el deslumbramiento, pero se ve mucho peor la carretera. _(MANUAL_DGT Tema 14, Deslumbramientos (p. 349))_
@@ -7313,7 +7313,7 @@ Respuesta: **Circular a velocidad moderada y, si fuera preciso, detenerse.**
 ## bm6-0005
 
 Es de día y una nube de humo disminuye sensiblemente la visibilidad. ¿Es obligatorio llevar el alumbrado encendido?  
-Respuesta: **Sí, es obligatorio en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad.**
+Respuesta: **Sí.**
 
 - ✔ Es obligatorio usar el alumbrado cuando las condiciones meteorológicas o ambientales disminuyan sensiblemente la visibilidad: niebla, lluvia intensa, nevada, nubes de humo o de polvo… _(RGC 106.1)_
 - ✘ `bm6-0008` Cuando le deslumbren, reduzca la velocidad o incluso pare con precaución, sin moverse a otros carriles; puede guiarse por la línea del borde derecho. _(MANUAL_DGT Tema 14, Deslumbramientos (p. 349))_
@@ -7321,8 +7321,8 @@ Respuesta: **Sí, es obligatorio en condiciones meteorológicas o ambientales qu
 
 ## bm6-0006
 
-Según la DGT, ¿por qué es más peligroso conducir de noche?  
-Respuesta: **Porque la carretera está menos iluminada, se ven peor las distancias, personas y vehículos, y otros pueden deslumbrarle.**
+¿Por qué es más peligroso conducir de noche?  
+Respuesta: **Porque se ven peor las distancias, las personas y los vehículos, y hay deslumbramientos.**
 
 - ✔ De noche la vía está menos iluminada, se calculan peor las distancias y se ven peor personas, objetos y vehículos, y además hay riesgo de deslumbramiento. _(MANUAL_DGT Tema 14, Conducir por la noche (p. 347))_
 - ✘ `bm6-0008` Cuando le deslumbren, reduzca la velocidad o incluso pare con precaución, sin moverse a otros carriles; puede guiarse por la línea del borde derecho. _(MANUAL_DGT Tema 14, Deslumbramientos (p. 349))_
@@ -7331,7 +7331,7 @@ Respuesta: **Porque la carretera está menos iluminada, se ven peor las distanci
 ## bm6-0007
 
 De noche pasa de una zona bien iluminada a otra mal iluminada. ¿Por qué debe extremar la atención?  
-Respuesta: **Porque a los ojos les cuesta unos segundos acostumbrarse al cambio de luz.**
+Respuesta: **Porque a los ojos les cuesta unos segundos adaptarse.**
 
 - ✔ Al pasar de una zona iluminada a otra oscura, los ojos tardan unos segundos en adaptarse al cambio de luz. _(MANUAL_DGT Tema 14, Conducir por la noche (p. 347))_
 - ✘ `bm6-0009` La DGT desaconseja las gafas oscuras o de sol de noche: pueden reducir el deslumbramiento, pero se ve mucho peor la carretera. _(MANUAL_DGT Tema 14, Deslumbramientos (p. 349))_
@@ -7349,7 +7349,7 @@ Respuesta: **Por la línea del borde derecho.**
 ## bm6-0009
 
 ¿Es aconsejable usar gafas de sol por la noche para evitar los deslumbramientos?  
-Respuesta: **No, porque se ve mucho peor la carretera.**
+Respuesta: **No.**
 
 - ✔ La DGT desaconseja las gafas oscuras o de sol de noche: pueden reducir el deslumbramiento, pero se ve mucho peor la carretera. _(MANUAL_DGT Tema 14, Deslumbramientos (p. 349))_
 - ✘ `bm6-0012` En invierno: llevar cadenas, evitar conducir de noche, viajar con el depósito lleno y llevar ropa de abrigo, agua, comida y linterna. _(MANUAL_DGT Tema 17, Elegir la ruta (p. 439))_
@@ -7366,7 +7366,7 @@ Respuesta: **Mantener el vehículo bien ventilado para que no se empañen los cr
 
 ## bm6-0011
 
-Según la DGT, ¿qué precauciones se toman con nubes de polvo o de humo?  
+¿Qué precauciones se toman con nubes de polvo o de humo?  
 Respuesta: **Las mismas que para conducir con niebla.**
 
 - ✔ Las nubes de polvo y humo impiden ver bien y pueden aparecer de repente; hay que tomar las mismas precauciones que con niebla. _(MANUAL_DGT Tema 14, Conducir con nubes de polvo o de humo (p. 361))_
@@ -7420,8 +7420,8 @@ Respuesta: **Superior a 1,2 g/l.**
 
 ## bmp-0005
 
-El conductor que, requerido por un agente, se niega a someterse a las pruebas de alcohol o drogas…  
-Respuesta: **comete un delito castigado con prisión de seis meses a un año y privación del derecho a conducir.**
+El conductor que, requerido por un agente, se niega a someterse a las pruebas de alcohol o drogas...  
+Respuesta: **Comete un delito castigado con prisión de seis meses a un año y privación del derecho a conducir.**
 
 - ✔ Negarse a las pruebas legalmente establecidas de alcohol y drogas es delito, con prisión de seis meses a un año y privación del derecho a conducir de más de uno y hasta cuatro años. _(CP 383)_
 - ✘ `bmp-0010` Quien origina un grave riesgo para la circulación colocando obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o alterando la señalización comete un delito. _(CP 385)_
@@ -7448,7 +7448,7 @@ Respuesta: **Un delito.**
 ## bmp-0008
 
 Conducir con temeridad manifiesta poniendo en concreto peligro la vida o la integridad de las personas, ¿qué es?  
-Respuesta: **Un delito castigado con prisión de seis meses a dos años y privación del derecho a conducir.**
+Respuesta: **Un delito castigado con prisión y privación del derecho a conducir.**
 
 - ✔ La conducción con temeridad manifiesta que pone en concreto peligro la vida o la integridad de las personas es delito, con prisión de seis meses a dos años y privación del derecho a conducir de más de uno y hasta seis años. _(CP 380.1)_
 - ✘ `bmp-0006` El Código Penal castiga a quien conduce un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia, y también a quien conduce tras perder todos los puntos o estando privado del permiso por decisión judicial. _(CP 384)_
@@ -7456,7 +7456,7 @@ Respuesta: **Un delito castigado con prisión de seis meses a dos años y privac
 
 ## bmp-0009
 
-El conductor que, voluntariamente y sin riesgo propio o ajeno, abandona el lugar tras causar un accidente con fallecidos o heridos graves, ¿qué comete?  
+Un conductor causa un accidente con fallecidos o heridos graves y abandona voluntariamente el lugar, sin riesgo propio ni ajeno. ¿Qué comete?  
 Respuesta: **Un delito de abandono del lugar del accidente.**
 
 - ✔ Es delito de abandono del lugar del accidente, también si el origen fue fortuito (en ese caso con pena de tres a seis meses de prisión y privación del derecho a conducir de seis meses a dos años). _(CP 382 bis.1)_
@@ -7501,8 +7501,8 @@ Respuesta: **La persona a cuyo cargo están los animales.**
 
 ## def-0004
 
-Una bicicleta de pedaleo asistido (con un pequeño motor que ayuda al pedaleo), ¿es un ciclo?  
-Respuesta: **Sí, los ciclos de pedaleo asistido se incluyen en la definición de ciclo.**
+Una bicicleta de pedaleo asistido, con un pequeño motor que ayuda al pedaleo, ¿es un ciclo?  
+Respuesta: **Sí.**
 
 - ✔ La definición de ciclo incluye expresamente los ciclos de pedaleo asistido. _(LSV Anexo I.7)_
 - ✘ `def-0010` Un turismo tiene, además del asiento del conductor, ocho plazas como máximo. _(LSV Anexo I.15)_
@@ -7519,7 +7519,7 @@ Respuesta: **No superior a 45 km/h.**
 
 ## def-0006
 
-Un vehículo de cuatro ruedas, con masa en vacío de hasta 350 kg y velocidad máxima por construcción de 45 km/h (cuadriciclo ligero), ¿qué tipo de vehículo es?  
+Un cuadriciclo ligero, de cuatro ruedas, hasta 350 kg de masa en vacío y 45 km/h de velocidad máxima por construcción, ¿qué tipo de vehículo es?  
 Respuesta: **Un ciclomotor.**
 
 - ✔ La Ley de Tráfico incluye entre los ciclomotores a los vehículos de cuatro ruedas de masa en vacío hasta 350 kg y velocidad máxima de 45 km/h. _(LSV Anexo I.9.c)_
@@ -7528,7 +7528,7 @@ Respuesta: **Un ciclomotor.**
 
 ## def-0007
 
-Según la Ley de Tráfico, ¿cuál de estos vehículos queda excluido de la definición de «vehículo de motor»?  
+¿Cuál de estos vehículos queda excluido de la definición de vehículo de motor?  
 Respuesta: **El ciclomotor.**
 
 - ✔ La definición de vehículo de motor excluye los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
@@ -7538,7 +7538,7 @@ Respuesta: **El ciclomotor.**
 ## def-0008
 
 ¿Qué es la masa máxima autorizada (MMA)?  
-Respuesta: **La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas.**
+Respuesta: **La masa máxima con la que puede circular un vehículo cargado.**
 
 - ✔ La MMA es la masa máxima con la que un vehículo cargado puede circular por las vías públicas. _(LSV Anexo I.37)_
 - ✘ `def-0010` Un turismo tiene, además del asiento del conductor, ocho plazas como máximo. _(LSV Anexo I.15)_
@@ -7546,8 +7546,8 @@ Respuesta: **La masa máxima para la utilización de un vehículo con carga en c
 
 ## def-0009
 
-La tara de un vehículo es su masa…  
-Respuesta: **sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios reglamentarios.**
+La tara de un vehículo es su masa...  
+Respuesta: **Sin pasajeros ni carga, con combustible, lubricante, herramientas y accesorios reglamentarios.**
 
 - ✔ La tara es la masa sin personas ni carga, pero con la dotación completa de combustible, agua, lubricante, repuestos, herramientas y accesorios. _(LSV Anexo I.35)_
 - ✘ `def-0011` El camión es un automóvil para transporte de mercancías cuya cabina no está integrada en el resto de la carrocería. _(LSV Anexo I.18)_
@@ -7564,7 +7564,7 @@ Respuesta: **Ocho.**
 
 ## def-0011
 
-¿Qué caracteriza a un camión según la Ley de Tráfico?  
+¿Qué caracteriza a un camión?  
 Respuesta: **Que su cabina no está integrada en el resto de la carrocería.**
 
 - ✔ El camión es un automóvil para transporte de mercancías cuya cabina no está integrada en el resto de la carrocería. _(LSV Anexo I.18)_
@@ -7573,8 +7573,8 @@ Respuesta: **Que su cabina no está integrada en el resto de la carrocería.**
 
 ## def-0012
 
-Un vehículo en el que se puede sustituir la carga, parcial o totalmente, por personas mediante la adición de asientos, es un…  
-Respuesta: **vehículo mixto adaptable.**
+Un vehículo en el que se puede sustituir la carga, parcial o totalmente, por personas añadiendo asientos, es un...  
+Respuesta: **Vehículo mixto adaptable.**
 
 - ✔ Es la definición de vehículo mixto adaptable: transporte simultáneo o no de mercancías y personas, hasta nueve incluido el conductor. _(LSV Anexo I.19)_
 - ✘ `res-def-0001` La masa en orden de marcha es la tara (que ya incluye el depósito de combustible lleno, agua, lubricante, repuestos y herramientas) más 75 kg del conductor. _(RGV Anexo IX.1.2)_
@@ -7591,8 +7591,8 @@ Respuesta: **Un tramo de carretera que discurre por poblado.**
 
 ## via-0002
 
-Una vía interurbana es una vía pública situada…  
-Respuesta: **fuera de poblado.**
+Una vía interurbana es una vía pública situada...  
+Respuesta: **Fuera de poblado.**
 
 - ✔ Vía interurbana es la vía pública situada fuera de poblado. _(LSV Anexo I.72)_
 - ✘ `x1a-0009` Para el cómputo de carriles no se tienen en cuenta los reservados a determinados vehículos o a ciertas maniobras. _(RGC 34)_
@@ -7610,7 +7610,7 @@ Respuesta: **En la autopista no tienen acceso; en la autovía tienen acceso limi
 ## via-0004
 
 ¿Qué es una carretera convencional?  
-Respuesta: **La que no reúne las características de autopistas, autovías y vías para automóviles.**
+Respuesta: **La que no es autopista, autovía ni vía para automóviles.**
 
 - ✔ Carretera convencional es la que no reúne las características propias de autopistas, autovías y vías para automóviles. _(LSV Anexo I.69)_
 - ✘ `xc-0110` La vía urbana es la vía pública situada dentro de poblado, excepto las travesías. _(LSV Anexo I.73)_
@@ -7619,7 +7619,7 @@ Respuesta: **La que no reúne las características de autopistas, autovías y v�
 ## via-0005
 
 ¿Pueden circular las bicicletas por una autovía?  
-Respuesta: **Sí, por los arcenes, si el ciclista es mayor de 14 años y no lo prohíbe la señalización.**
+Respuesta: **Sí, por el arcén, si el ciclista es mayor de 14 años y no lo prohíbe una señal.**
 
 - ✔ Está prohibido circular en bicicleta por autopistas y autovías, pero los mayores de 14 años pueden ir por los arcenes de las autovías salvo prohibición señalizada. _(RGC 38.1)_
 - ✘ `via-0003` La autopista no permite el acceso de las propiedades colindantes; la autovía lo tiene limitado. _(LSV Anexo I.66)_
@@ -7646,7 +7646,7 @@ Respuesta: **No, está prohibido.**
 ## arc-0001
 
 Fuera de poblado, si no hay zona peatonal practicable, ¿por dónde debe circular un peatón que va solo?  
-Respuesta: **Por el arcén izquierdo, si existe y es practicable.**
+Respuesta: **Por el arcén izquierdo, si es practicable.**
 
 - ✔ Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada. _(RGC 122.1)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
@@ -7673,7 +7673,7 @@ Respuesta: **Por la derecha.**
 ## arc-0004
 
 Un peatón que de noche camina por el arcén de una vía interurbana, ¿qué debe llevar?  
-Respuesta: **Al menos un elemento luminoso o reflectante visible a 150 metros.**
+Respuesta: **Un elemento luminoso o reflectante visible a 150 metros.**
 
 - ✔ Entre el ocaso y la salida del sol, o con poca visibilidad, deben llevar al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros. _(RGC 123.1)_
 - ✘ `arc-0015` En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo. _(RGC 33)_
@@ -7745,7 +7745,7 @@ Respuesta: **Entre el carril situado más a la izquierda y el carril contiguo a 
 ## arc-0012
 
 En una autopista con dos carriles por sentido, con la circulación detenida, ¿dónde se forma el carril de emergencia?  
-Respuesta: **En el centro de la vía, entre esos dos carriles.**
+Respuesta: **Entre esos dos carriles.**
 
 - ✔ Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. _(RGC 32.1)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
@@ -7799,7 +7799,7 @@ Respuesta: **Máxima 80 km/h y mínima 60 km/h.**
 ## cesp-0003
 
 Si el carril se habilita en sentido contrario al habitual por obras en la calzada, ¿quién puede circular por él?  
-Respuesta: **Todos los tipos de vehículos autorizados a circular por la vía en obra, salvo prohibición expresa.**
+Respuesta: **Todos los autorizados en la vía en obras, salvo prohibición expresa.**
 
 - ✔ Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa. _(RGC 41.1)_
 - ✘ `cesp-0004` Los vehículos que circulen por los arcenes y por el carril adicional lo harán a un máximo de 80 km/h y un mínimo de 60 km/h, con al menos la luz de cruce. _(RGC 42.1)_
@@ -7817,7 +7817,7 @@ Respuesta: **80 km/h.**
 ## cesp-0005
 
 Al circular por un carril reversible, ¿qué alumbrado debe llevar?  
-Respuesta: **Al menos la luz de corto alcance o de cruce, de día y de noche.**
+Respuesta: **Al menos la de cruce, de día y de noche.**
 
 - ✔ En un carril reversible hay que llevar encendida, al menos, la luz de corto alcance o de cruce, tanto de día como de noche. _(RGC 40.1)_
 - ✘ `res-cesp-0002` Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales. _(RGC 41.1)_
@@ -7844,7 +7844,7 @@ Respuesta: **Sí, si así se indica para ese tramo.**
 ## cesp-0008
 
 Un autobús de más de 3.500 kg de MMA, ¿puede usar un carril VAO aunque vaya vacío?  
-Respuesta: **Sí, con independencia de su número de ocupantes, si así se indica para ese tramo.**
+Respuesta: **Sí, si así se indica para ese tramo.**
 
 - ✔ Los autobuses de más de 3.500 kg y los articulados pueden usarlo con independencia del número de ocupantes, en las condiciones fijadas para el tramo. _(RGC 35.2.a)_
 - ✘ `cesp-0003` Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa. _(RGC 41.1)_
@@ -7870,7 +7870,7 @@ Respuesta: **150 metros o 6 segundos.**
 
 ## dist-0003
 
-Fuera de poblado, en una vía con un solo carril por sentido donde está permitido adelantar, un camión de 12.000 kg que no va a adelantar, ¿qué separación mínima debe dejar con el vehículo de delante para facilitar que le adelanten?  
+Fuera de poblado, en una vía con un carril por sentido donde se permite adelantar, un camión de 12.000 kg que no va a adelantar, ¿qué separación mínima debe dejar con el de delante?  
 Respuesta: **50 metros.**
 
 - ✔ Los vehículos de más de 3.500 kg y los de más de 10 m deben guardar una separación mínima de 50 metros para que puedan adelantarles con seguridad. No se aplica en poblado, donde está prohibido adelantar o donde hay más de un carril por sentido. _(RGC 54.2)_
@@ -7924,8 +7924,8 @@ Respuesta: **70 km/h.**
 
 ## adel-0004
 
-A efectos del adelantamiento, un grupo de ciclistas que circula junto…  
-Respuesta: **se considera una única unidad móvil.**
+A efectos del adelantamiento, un grupo de ciclistas que circula junto...  
+Respuesta: **Se considera una única unidad móvil.**
 
 - ✔ Cuando los ciclistas circulen en grupo, se consideran como una única unidad móvil. _(RGC 85.4)_
 - ✘ `A-adel-0011` Por excepción, en vías con circulación en ambos sentidos, a los tranvías que marchan por la zona central se les adelanta por la derecha. _(RGC 82.2)_
@@ -7934,7 +7934,7 @@ Respuesta: **se considera una única unidad móvil.**
 ## adel-0005
 
 Un vehículo averiado está inmovilizado ocupando parte de su carril. Al rebasarlo, ¿qué debe hacer?  
-Respuesta: **Mantener al menos 1,5 metros y reducir la velocidad al menos 20 km/h respecto al límite de la vía.**
+Respuesta: **Dejar al menos 1,5 metros y reducir la velocidad al menos 20 km/h respecto al límite.**
 
 - ✔ Al rebasar un vehículo inmovilizado por avería, accidente o servicio de urgencia o auxilio que ocupe la calzada, hay que mantener al menos 1,5 m y reducir la velocidad al menos 20 km/h. _(RGC 88.1)_
 - ✘ `x1a-0114` Si una vez iniciado el adelantamiento surgen circunstancias que pueden hacer difícil terminarlo sin riesgos, hay que reducir rápidamente la marcha, regresar al propio carril y advertirlo a los que siguen. _(RGC 85.2)_
@@ -8069,7 +8069,7 @@ Respuesta: **20 km/h.**
 ## vel-0015
 
 Una calle tiene dos carriles en su sentido, pero uno de ellos es un carril bus. ¿Cuál es el límite genérico?  
-Respuesta: **30 km/h, porque los carriles reservados no se cuentan.**
+Respuesta: **30 km/h.**
 
 - ✔ Los carriles reservados para determinados usuarios o para transporte público no se contabilizan, así que queda un único carril por sentido: 30 km/h. _(RGC 50.1)_
 - ✘ `x1a-0037` Los vehículos especiales que carecen de señalización de frenado, los que llevan remolque y los motocultores tienen una velocidad máxima de 25 km/h fuera de poblado. _(RGC 48.1.c.1º)_
@@ -8113,8 +8113,8 @@ Respuesta: **El vehículo C.**
 
 ## A-pri-0002
 
-Circula por una vía pavimentada y llega a un cruce sin señalizar. Por su derecha se acerca un vehículo que sale de un camino sin pavimentar. ¿Quién tiene preferencia de paso?  
-Respuesta: **Usted, porque circula por la vía pavimentada.**
+Circula por una vía pavimentada y llega a un cruce sin señalizar. Por su derecha se acerca un vehículo desde un camino sin pavimentar. ¿Quién tiene preferencia?  
+Respuesta: **Usted.**
 
 - ✔ En las intersecciones sin señalizar, los vehículos que circulan por una vía pavimentada tienen preferencia sobre los que proceden de otra sin pavimentar, aunque estos vengan por la derecha. _(RGC 57.1.a)_
 - ✘ `x1a-0086` Los agentes de la autoridad pueden exigir en cualquier momento la justificación de las circunstancias graves por las que un vehículo no prioritario presta un servicio de urgencia. _(RGC 70.3)_
@@ -8123,7 +8123,7 @@ Respuesta: **Usted, porque circula por la vía pavimentada.**
 ## A-pri-0003
 
 En una intersección sin señales ni semáforos se acerca un tranvía por su izquierda. ¿Quién tiene prioridad de paso?  
-Respuesta: **El tranvía, porque circula por raíles.**
+Respuesta: **El tranvía.**
 
 - ✔ Los vehículos que circulan por raíles tienen prioridad de paso sobre los demás usuarios en las intersecciones sin señalizar. _(RGC 57.1.b)_
 - ✘ `x1a-0059` Quien debe ceder el paso no puede iniciar ni continuar su maniobra hasta asegurarse de que no fuerza al conductor con prioridad a modificar bruscamente su trayectoria o su velocidad. _(RGC 58.1)_
@@ -8150,7 +8150,7 @@ Respuesta: **El que circula por la autopista.**
 ## A-pri-0006
 
 Ante una señal de «ceda el paso» o de «stop» en una intersección, ¿a quién debe ceder el paso?  
-Respuesta: **A los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen.**
+Respuesta: **A los que circulen por la vía preferente, por cualquier lado.**
 
 - ✔ En las intersecciones con «ceda el paso» o «stop», se cede siempre el paso a los vehículos de la vía preferente, vengan por el lado que vengan. _(RGC 56.5)_
 - ✘ `x1a-0070` Entre vehículos del mismo tipo, la preferencia es del que tendría que dar marcha atrás mayor distancia y, en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada. _(RGC 62.1)_
@@ -8158,8 +8158,8 @@ Respuesta: **A los vehículos que transiten por la vía preferente, cualquiera q
 
 ## A-pri-0007
 
-Tiene el semáforo en verde, pero la circulación está tan densa que previsiblemente quedará detenido dentro del cruce, obstruyendo la circulación transversal. ¿Qué debe hacer?  
-Respuesta: **No entrar en la intersección, aunque goce de prioridad de paso.**
+Tiene el semáforo en verde, pero hay tanto tráfico que previsiblemente quedará detenido dentro del cruce, obstruyendo la circulación transversal. ¿Qué debe hacer?  
+Respuesta: **No entrar en la intersección.**
 
 - ✔ Aun gozando de prioridad, ningún conductor debe entrar en una intersección si previsiblemente puede quedar detenido impidiendo u obstruyendo la circulación transversal. _(RGC 59.1)_
 - ✘ `x1a-0060` Quien debe ceder el paso tiene que mostrar con suficiente antelación, por su forma de circular y especialmente reduciendo paulatinamente la velocidad, que efectivamente va a cederlo. _(RGC 58.1)_
@@ -8176,8 +8176,8 @@ Respuesta: **Abstenerse de girar hasta que la velocidad y la distancia del otro 
 
 ## A-pri-0009
 
-Va a salir a una vía pública desde un camino exclusivamente privado (por ejemplo, el de su casa). ¿A quién debe ceder el paso?  
-Respuesta: **A los vehículos que circulen por la vía, cualquiera que sea el sentido en que lo hagan.**
+Va a salir a una vía pública desde un camino exclusivamente privado, como el de su casa. ¿A quién debe ceder el paso?  
+Respuesta: **A los que circulen por la vía, en cualquier sentido.**
 
 - ✔ Quien sale a una vía pública por un camino exclusivamente privado debe ceder el paso a los vehículos que circulen por ella, sea cual sea su sentido. _(RGC 72.2)_
 - ✘ `x1a-0078` Los conductores de vehículos de servicios de urgencia solo deben hacer uso, de forma ponderada, de su régimen especial cuando circulan prestando un servicio urgente. _(RGC 67.2)_
@@ -8203,8 +8203,8 @@ Respuesta: **Los peatones.**
 
 ## A-pea-0003
 
-Unos peatones acaban de bajar de un autobús en una parada señalizada y se encuentran entre el autobús y la acera. ¿Tienen prioridad respecto a los vehículos?  
-Respuesta: **Sí, mientras se encuentren entre el autobús y la zona peatonal o refugio más próximo.**
+Unos peatones acaban de bajar de un autobús en una parada señalizada y están entre el autobús y la acera. ¿Tienen prioridad respecto a los vehículos?  
+Respuesta: **Sí.**
 
 - ✔ Los peatones que vayan a subir o hayan bajado de un vehículo de transporte colectivo, en una parada señalizada, tienen prioridad mientras estén entre el vehículo y la zona peatonal o refugio más próximo. _(RGC 65.1.d)_
 - ✘ `x1a-0064` Quien llega a una obra de reparación y encuentra esperando a otro vehículo llegado antes en su mismo sentido se coloca detrás, lo más arrimado posible a la derecha, y solo pasa siguiendo al de delante. _(RGC 60.4)_
@@ -8285,7 +8285,7 @@ Respuesta: **Las órdenes y señales de los agentes.**
 ## A-urg-0003
 
 Percibe las señales especiales de una ambulancia en servicio urgente que se aproxima. ¿Qué debe hacer?  
-Respuesta: **Adoptar las medidas adecuadas para facilitarle el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso.**
+Respuesta: **Facilitarle el paso, apartándose a la derecha o deteniéndose si es preciso.**
 
 - ✔ Al percibir las señales de un vehículo prioritario, los demás conductores deben facilitarle el paso según las circunstancias, apartándose normalmente a la derecha o deteniéndose si fuera preciso. _(RGC 69)_
 - ✘ `x1a-0082` Los vehículos prioritarios deben usar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entraña peligro alguno para los demás usuarios. _(RGC 68.2)_
@@ -8293,8 +8293,8 @@ Respuesta: **Adoptar las medidas adecuadas para facilitarle el paso, apartándos
 
 ## A-urg-0004
 
-Un vehículo de policía con sus señales luminosas y acústicas se sitúa detrás de usted y activa una luz roja intermitente hacia delante. ¿Qué debe hacer?  
-Respuesta: **Detenerse con precaución en el lado derecho, delante del vehículo policial, y permanecer en el interior.**
+Un vehículo de policía con sus señales encendidas se sitúa detrás de usted y activa una luz roja intermitente hacia delante. ¿Qué debe hacer?  
+Respuesta: **Detenerse con precaución a la derecha, delante del vehículo policial, sin bajarse.**
 
 - ✔ Ante esa señal, el conductor debe detenerse con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar sin riesgos, permanecer en su interior y seguir las instrucciones del agente. _(RGC 69)_
 - ✘ `x1a-0079` En autopistas y autovías, los vehículos prioritarios en servicio urgente pueden excepcionalmente, sin comprometer la seguridad de nadie, circular en sentido contrario siempre que lo hagan por el arcén. _(RGC 68.1)_
@@ -8302,8 +8302,8 @@ Respuesta: **Detenerse con precaución en el lado derecho, delante del vehículo
 
 ## A-urg-0005
 
-Por una circunstancia especialmente grave tiene que llevar urgentemente a un herido en su turismo, sin poder recurrir a otro medio. ¿Cómo advertirá a los demás usuarios?  
-Respuesta: **Con el avisador acústico de forma intermitente y la luz de emergencia, o agitando un pañuelo o similar.**
+Por una circunstancia especialmente grave, tiene que llevar urgentemente a un herido en su turismo sin poder recurrir a otro medio. ¿Cómo advertirá a los demás?  
+Respuesta: **Con el claxon de forma intermitente y la luz de emergencia, o agitando un pañuelo.**
 
 - ✔ El conductor de un vehículo no prioritario que realiza un servicio de urgencia procurará que los demás lo adviertan usando el claxon de forma intermitente y la luz de emergencia, o agitando un pañuelo o procedimiento similar. _(RGC 70.1)_
 - ✘ `x1a-0073` Los conductores tienen prioridad sobre los animales, salvo en cañadas señalizadas, al girar para entrar en otra vía con animales cruzándola y al cruzar un arcén por el que circulan animales sin cañada. _(RGC 66.1.b)_
@@ -8338,7 +8338,7 @@ Respuesta: **El que tenga mayores dificultades de maniobra según el orden del r
 
 ## A-est-0003
 
-Dos turismos entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero) y uno de ellos tiene que dar marcha atrás. ¿Cuál tiene la preferencia?  
+Dos turismos entran a la vez en un estrechamiento sin señalizar y uno de ellos tiene que dar marcha atrás. ¿Cuál tiene preferencia?  
 Respuesta: **El que tuviera que dar marcha atrás mayor distancia.**
 
 - ✔ Entre vehículos del mismo tipo, la preferencia se decide a favor del que tuviera que dar marcha atrás mayor distancia y, en caso de igualdad, del de mayor anchura, longitud o masa máxima autorizada. _(RGC 62.1)_
@@ -8347,7 +8347,7 @@ Respuesta: **El que tuviera que dar marcha atrás mayor distancia.**
 
 ## A-est-0004
 
-Un autobús y un camión entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero) y uno debe dar marcha atrás. ¿Cuál tiene preferencia de paso?  
+Un autobús y un camión entran a la vez en un estrechamiento sin señalizar y uno debe dar marcha atrás. ¿Cuál tiene preferencia?  
 Respuesta: **El autobús.**
 
 - ✔ En el orden de preferencia, los vehículos destinados al transporte colectivo de viajeros van por delante de los camiones, tractocamiones y furgones. _(RGC 62.1.e y f)_
@@ -8356,7 +8356,7 @@ Respuesta: **El autobús.**
 
 ## A-est-0005
 
-Un turismo que arrastra un remolque de 500 kg de MMA y un autobús entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Cuál de ellos debe dar marcha atrás?  
+Un turismo con un remolque de 500 kg y un autobús entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?  
 Respuesta: **El autobús.**
 
 - ✔ Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
@@ -8365,7 +8365,7 @@ Respuesta: **El autobús.**
 
 ## A-est-0006
 
-Un vehículo de tracción animal y un turismo con un remolque de 600 kg de MMA entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Cuál tiene preferencia de paso?  
+Un vehículo de tracción animal y un turismo con un remolque de 600 kg entran a la vez en un estrechamiento sin señalizar. ¿Cuál tiene preferencia?  
 Respuesta: **El vehículo de tracción animal.**
 
 - ✔ En el orden de preferencia, los vehículos de tracción animal van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA. _(RGC 62.1.c y d)_
@@ -8374,7 +8374,7 @@ Respuesta: **El vehículo de tracción animal.**
 
 ## A-est-0007
 
-Un camión y un turismo sin remolque entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Quién debe dar marcha atrás?  
+Un camión y un turismo sin remolque entran a la vez en un estrechamiento sin señalizar. ¿Quién debe dar marcha atrás?  
 Respuesta: **El turismo.**
 
 - ✔ Los camiones, tractocamiones y furgones tienen preferencia sobre los turismos y vehículos derivados de turismos. _(RGC 62.1.f y g)_
@@ -8384,7 +8384,7 @@ Respuesta: **El turismo.**
 ## A-est-0008
 
 En un tramo estrecho de gran pendiente sin señalizar, ¿quién tiene, como norma general, la preferencia de paso?  
-Respuesta: **El vehículo que circula en sentido ascendente, salvo que pueda llegar antes a un apartadero.**
+Respuesta: **El que sube, salvo que el otro pueda llegar antes a un apartadero.**
 
 - ✔ En los tramos estrechos de gran pendiente, tiene preferencia el vehículo que sube, salvo si este puede llegar antes a un apartadero establecido al efecto. _(RGC 63.1)_
 - ✘ `x1a-0063` Cuando en una vía se hacen obras de reparación, los vehículos, caballerías y ganado deben pasar por el sitio señalado al efecto. _(RGC 60.2)_
@@ -8401,7 +8401,7 @@ Respuesta: **El que tiene una inclinación mínima del 7 %.**
 
 ## A-est-0010
 
-Llega a un puente estrecho por el extremo en el que está colocada esta señal y, ya en el puente, se encuentra con otro vehículo con el que no puede cruzarse. ¿Qué debe hacer?  
+Llega a un puente estrecho por el extremo en el que está esta señal y, ya dentro, se encuentra con otro vehículo con el que no puede cruzarse. ¿Qué debe hacer?  
 Respuesta: **Retroceder para dejar paso al otro vehículo.**
 
 - ✔ Si en uno de los extremos del puente está la señal de prioridad en sentido contrario o la de ceda el paso, el que llega por ese extremo debe retroceder para dejar paso al otro. _(RGC 61.2)_
@@ -8410,8 +8410,8 @@ Respuesta: **Retroceder para dejar paso al otro vehículo.**
 
 ## A-adv-0001
 
-Un vehículo lleva encendido el intermitente derecho, pero su conductor indica con el brazo que va a desplazarse a la izquierda. ¿A qué indicación debe hacer caso?  
-Respuesta: **A la del brazo, que anula cualquier otra indicación óptica que la contradiga.**
+Un vehículo lleva el intermitente derecho, pero su conductor indica con el brazo que va a desplazarse a la izquierda. ¿A qué debe hacer caso?  
+Respuesta: **Al brazo.**
 
 - ✔ Las advertencias hechas con el brazo, si son perceptibles y se hacen conforme al reglamento, anulan cualquier otra indicación óptica que las contradiga. _(RGC 108.2)_
 - ✘ `A-adv-0006` En los desplazamientos laterales solo se avisa el desplazamiento, por lo que la advertencia debe concluir en cuanto el vehículo ha adoptado su nueva trayectoria. _(RGC 109.2.a)_
@@ -8482,8 +8482,8 @@ Respuesta: **Solo fuera de poblado.**
 
 ## A-adv-0009
 
-Las ráfagas de luz (alumbrado de corto o largo alcance de forma intermitente), usadas para sustituir a las advertencias acústicas, ¿pueden emplearse dentro de poblado?  
-Respuesta: **Sí, incluso en poblado, a intervalos muy cortos y evitando el deslumbramiento.**
+Las ráfagas de luz que sustituyen a las advertencias acústicas, ¿pueden usarse dentro de poblado?  
+Respuesta: **Sí, a intervalos muy cortos y sin deslumbrar.**
 
 - ✔ Con la misma finalidad que las acústicas y para sustituirlas, pueden hacerse advertencias luminosas incluso en poblado, con las luces de corto o largo alcance de forma intermitente y evitando el deslumbramiento. _(RGC 109.3)_
 - ✘ `A-dir-0006` En el cambio de dirección a la izquierda hay que dejar a la izquierda el centro de la intersección, salvo que esté acondicionada o señalizada para dejarlo a la derecha. _(RGC 75.1.c)_
@@ -8491,7 +8491,7 @@ Respuesta: **Sí, incluso en poblado, a intervalos muy cortos y evitando el desl
 
 ## A-adv-0010
 
-En un turismo, si el retrovisor interior no permite ver la carretera por detrás con el campo de visión reglamentario, ¿qué debe llevar además del retrovisor exterior izquierdo?  
+En un turismo, si el retrovisor interior no permite ver la carretera por detrás con el campo reglamentario, ¿qué debe llevar además del exterior izquierdo?  
 Respuesta: **Un segundo retrovisor exterior, en el lado derecho.**
 
 - ✔ En los turismos (M1), cuando el retrovisor interior no permite la visión del campo reglamentario hacia atrás, este pasa a ser opcional y debe colocarse un segundo retrovisor exterior en el lado derecho. _(RGV Anexo III.2, nota (1))_
@@ -8501,7 +8501,7 @@ Respuesta: **Un segundo retrovisor exterior, en el lado derecho.**
 ## A-inc-0001
 
 El conductor de un vehículo estacionado que va a incorporarse a la circulación, ¿debe ceder el paso a los vehículos que circulan?  
-Respuesta: **Sí, debe cerciorarse de que puede hacerlo sin peligro y ceder el paso a otros vehículos.**
+Respuesta: **Sí.**
 
 - ✔ Quien se incorpora a la circulación debe cerciorarse de que puede hacerlo sin peligro, cediendo el paso a otros vehículos y teniendo en cuenta su posición, trayectoria y velocidad, y advertirlo con las señales obligatorias. _(RGC 72.1)_
 - ✘ `A-dir-0002` Para girar a la derecha hay que ceñirse todo lo posible al borde derecho de la calzada, colocándose con antelación y haciendo la maniobra en el menor espacio y tiempo posibles. _(RGC 75.1.b)_
@@ -8509,7 +8509,7 @@ Respuesta: **Sí, debe cerciorarse de que puede hacerlo sin peligro y ceder el p
 
 ## A-inc-0002
 
-Va a utilizar un carril de aceleración para incorporarse a una autovía. ¿Dónde debe cerciorarse de que puede hacerlo sin peligro, deteniéndose si fuera necesario?  
+Va a incorporarse a una autovía por un carril de aceleración. ¿Dónde debe cerciorarse de que puede hacerlo sin peligro, deteniéndose si es necesario?  
 Respuesta: **Al principio del carril de aceleración.**
 
 - ✔ En el carril de aceleración, el conductor debe cerciorarse al principio del carril de que puede incorporarse sin peligro, incluso deteniéndose si es necesario, y después acelerar hasta la velocidad adecuada al final del carril. _(RGC 72.4)_
@@ -8554,8 +8554,8 @@ Respuesta: **No, no se considera adelantamiento.**
 
 ## A-adel-0002
 
-Un vehículo que circula por el carril de aceleración avanza más rápido que los que circulan por el carril contiguo de la calzada. ¿Se considera adelantamiento?  
-Respuesta: **No, no se considera adelantamiento.**
+Un vehículo que va por el carril de aceleración avanza más rápido que los del carril contiguo. ¿Se considera adelantamiento?  
+Respuesta: **No.**
 
 - ✔ En los tramos con carriles de aceleración o deceleración, o reservados a determinados vehículos, avanzar más rápido por ellos que por los normales de circulación (o viceversa) no se considera adelantamiento. _(RGC 83.3)_
 - ✘ `A-adel-0012` Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida, salvo que los dos sentidos estén claramente delimitados y la maniobra pueda hacerse sin invadir la zona del sentido contrario. _(RGC 87.1.a)_
@@ -8582,7 +8582,7 @@ Respuesta: **De que ninguno ha iniciado ya la maniobra de adelantar a su vehícu
 ## A-adel-0005
 
 En una autovía con tres carriles en su sentido, ¿puede adelantar a un vehículo que, a su vez, está adelantando a otro?  
-Respuesta: **Sí, porque para hacerlo no tiene que invadir la parte de la calzada reservada al sentido contrario.**
+Respuesta: **Sí.**
 
 - ✔ Solo se prohíbe adelantar a un vehículo que ya está adelantando a otro si, para hacerlo, hay que invadir la parte de la calzada reservada al sentido contrario. _(RGC 84.2)_
 - ✘ `A-adel-0013` Queda prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas, en los pasos a nivel y en sus proximidades. _(RGC 87.1.b)_
@@ -8599,7 +8599,7 @@ Respuesta: **Ceñirse al borde derecho de la calzada.**
 
 ## A-adel-0007
 
-Le están adelantando y, ya iniciada la maniobra, aparece un vehículo de frente que crea una situación de peligro. El que le adelanta sigue con la maniobra. ¿Qué debe hacer usted?  
+Le están adelantando y, ya iniciada la maniobra, aparece un vehículo de frente que crea una situación de peligro. ¿Qué debe hacer?  
 Respuesta: **Disminuir la velocidad.**
 
 - ✔ El conductor adelantado está obligado a disminuir su velocidad cuando, iniciada la maniobra, se produce una situación de peligro para cualquiera de los implicados. _(RGC 86.2)_
@@ -8608,7 +8608,7 @@ Respuesta: **Disminuir la velocidad.**
 
 ## A-adel-0008
 
-Un camión que no puede ceñirse por completo al borde derecho quiere indicarle que puede adelantarle con seguridad, pero no cree conveniente hacer la señal con el brazo. ¿Qué señal utilizará?  
+Un camión que no puede ceñirse del todo a la derecha quiere indicarle que puede adelantarle con seguridad, pero no cree conveniente hacerlo con el brazo. ¿Qué señal utilizará?  
 Respuesta: **El intermitente derecho.**
 
 - ✔ Los vehículos pesados o de grandes dimensiones que no puedan ceñirse por completo a la derecha indican al que se acerca que puede adelantar con el brazo o, si no lo creen conveniente, con el intermitente derecho. _(RGC 86.1)_
@@ -8645,7 +8645,7 @@ Respuesta: **Por la derecha, si hay espacio suficiente y con las máximas precau
 ## A-adel-0012
 
 En una curva de visibilidad reducida, ¿puede adelantar?  
-Respuesta: **Sí, si los dos sentidos están claramente delimitados y puede hacerlo sin invadir la zona del sentido contrario.**
+Respuesta: **Sí, si puede hacerlo sin invadir el sentido contrario, claramente delimitado.**
 
 - ✔ Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida, salvo que los dos sentidos estén claramente delimitados y la maniobra pueda hacerse sin invadir la zona del sentido contrario. _(RGC 87.1.a)_
 - ✘ `x1a-0123` El vehículo pesado que va a ser adelantado indica que es posible hacerlo extendiendo el brazo horizontalmente y moviéndolo repetidas veces de atrás adelante con el dorso de la mano hacia atrás, o con el intermitente derecho. _(RGC 86.1)_
@@ -8654,7 +8654,7 @@ Respuesta: **Sí, si los dos sentidos están claramente delimitados y puede hace
 ## A-adel-0013
 
 ¿Puede adelantar a un turismo en un paso para peatones señalizado?  
-Respuesta: **No, está prohibido adelantar en los pasos para peatones señalizados y en sus proximidades.**
+Respuesta: **No.**
 
 - ✔ Queda prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas, en los pasos a nivel y en sus proximidades. _(RGC 87.1.b)_
 - ✘ `x1a-0118` Fuera de poblado, quien adelanta a ciclistas y otros usuarios vulnerables debe reducir la velocidad al menos 20 km/h respecto al límite de la vía antes de iniciar la maniobra y durante toda su ejecución. _(RGC 85.4)_
@@ -8671,8 +8671,8 @@ Respuesta: **No, está prohibido.**
 
 ## A-adel-0015
 
-En un tramo con prohibición de adelantar, circula detrás de un ciclomotor que va muy despacio. ¿Puede adelantarlo aunque tenga que ocupar el sentido contrario?  
-Respuesta: **Sí, si por su velocidad puede ser adelantado sin riesgo y se ha cerciorado de que la maniobra puede hacerse sin peligro.**
+En un tramo con prohibición de adelantar, ¿puede adelantar a un ciclomotor que circula muy despacio aunque tenga que ocupar el sentido contrario?  
+Respuesta: **Sí, si puede adelantarlo sin riesgo y se ha cerciorado de que no hay peligro.**
 
 - ✔ En tramos donde está prohibido adelantar se puede adelantar, ocupando el sentido contrario y tras cerciorarse de que no hay peligro, a bicicletas, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas, cuando por su velocidad puedan ser adelantados sin riesgo. _(RGC 88.2)_
 - ✘ `A-adel-0012` Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida, salvo que los dos sentidos estén claramente delimitados y la maniobra pueda hacerse sin invadir la zona del sentido contrario. _(RGC 87.1.a)_
@@ -8680,7 +8680,7 @@ Respuesta: **Sí, si por su velocidad puede ser adelantado sin riesgo y se ha ce
 
 ## A-adel-0016
 
-En un tramo con prohibición de adelantar, ¿a cuál de estos vehículos se permite adelantar ocupando el sentido contrario, si por su velocidad puede hacerse sin riesgo y tras cerciorarse de que no hay peligro?  
+En un tramo con prohibición de adelantar, ¿a cuál de estos vehículos puede adelantar ocupando el sentido contrario, si puede hacerlo sin riesgo y sin peligro?  
 Respuesta: **A un tractor agrícola.**
 
 - ✔ La excepción del artículo 88.2 incluye a los vehículos especiales agrícolas y sus conjuntos (además de ciclos, ciclomotores, VMP, peatones, animales y vehículos de tracción animal), pero no a turismos ni camiones. _(RGC 88.2)_
@@ -8717,7 +8717,7 @@ Respuesta: **Ciñéndose todo lo posible al borde izquierdo de la calzada.**
 ## A-dir-0004
 
 Circula por una calzada de doble sentido (un carril por sentido) y va a girar a la izquierda. ¿Cómo debe colocarse?  
-Respuesta: **Ciñéndose a la marca de separación entre sentidos o, si no existe, al eje de la calzada, sin invadir el sentido contrario.**
+Respuesta: **Ciñéndose a la marca de separación de sentidos o al eje de la calzada.**
 
 - ✔ Si el giro es a la izquierda en una calzada de doble sentido, hay que ceñirse a la marca longitudinal de separación entre sentidos o, si no existe, al eje de la calzada, sin invadir la zona del sentido contrario. _(RGC 75.1.b)_
 - ✘ `A-dir-0007` Si por las dimensiones del vehículo u otras circunstancias no es posible girar con estricta sujeción a las normas, el conductor debe adoptar las precauciones necesarias para evitar todo peligro. _(RGC 76.1)_
@@ -8753,7 +8753,7 @@ Respuesta: **Adoptar las precauciones necesarias para evitar todo peligro al rea
 ## A-dir-0008
 
 En una vía interurbana sin carril especialmente acondicionado para el giro a la izquierda, ¿cómo debe girar a la izquierda un ciclista?  
-Respuesta: **Situándose a la derecha, fuera de la calzada siempre que sea posible, e iniciando el giro desde ese lugar.**
+Respuesta: **Situándose a la derecha, fuera de la calzada si es posible, y girando desde allí.**
 
 - ✔ En vías interurbanas, los ciclos y ciclomotores de dos ruedas, si no hay un carril acondicionado para el giro a la izquierda, deben situarse a la derecha, fuera de la calzada si es posible, e iniciar el giro desde allí. _(RGC 76.2)_
 - ✘ `A-dir-0004` Si el giro es a la izquierda en una calzada de doble sentido, hay que ceñirse a la marca longitudinal de separación entre sentidos o, si no existe, al eje de la calzada, sin invadir la zona del sentido contrario. _(RGC 75.1.b)_
@@ -8762,7 +8762,7 @@ Respuesta: **Situándose a la derecha, fuera de la calzada siempre que sea posib
 ## A-sen-0001
 
 Espera para cambiar de sentido y su permanencia en la calzada impide continuar a los vehículos que circulan detrás. ¿Qué debe hacer?  
-Respuesta: **Salir de la calzada por su lado derecho, si es posible, hasta que pueda realizar la maniobra.**
+Respuesta: **Salir de la calzada por la derecha, si es posible, hasta poder hacer la maniobra.**
 
 - ✔ Cuando la espera en la calzada para cambiar de sentido impide la marcha de los que vienen detrás, hay que salir de ella por el lado derecho, si es posible, hasta que las condiciones permitan hacerlo. _(RGC 78.1)_
 - ✘ `v5b-sen-0001` El cambio de sentido está prohibido en los túneles, en los pasos inferiores y en los tramos afectados por la señal «Túnel» (S-5), igual que en los pasos a nivel y, salvo en lugares habilitados, en autopistas y autovías. _(RGC 79.1)_
@@ -8780,7 +8780,7 @@ Respuesta: **En un paso a nivel.**
 ## A-sen-0003
 
 ¿Puede cambiar de sentido en una autopista atravesando la mediana?  
-Respuesta: **No; en autopistas y autovías solo se puede en los lugares habilitados al efecto.**
+Respuesta: **No.**
 
 - ✔ Se prohíbe el cambio de sentido en autopistas y autovías, salvo en los lugares habilitados al efecto. _(RGC 79.1)_
 - ✘ `A-sen-0001` Cuando la espera en la calzada para cambiar de sentido impide la marcha de los que vienen detrás, hay que salir de ella por el lado derecho, si es posible, hasta que las condiciones permitan hacerlo. _(RGC 78.1)_
@@ -8789,7 +8789,7 @@ Respuesta: **No; en autopistas y autovías solo se puede en los lugares habilita
 ## A-sen-0004
 
 En un tramo en el que está prohibido adelantar, ¿se puede cambiar de sentido?  
-Respuesta: **No, salvo que el cambio de sentido esté expresamente autorizado.**
+Respuesta: **No, salvo que esté expresamente autorizado.**
 
 - ✔ Se prohíbe el cambio de sentido en todos los tramos en que está prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado. _(RGC 79.1)_
 - ✘ `A-sen-0001` Cuando la espera en la calzada para cambiar de sentido impide la marcha de los que vienen detrás, hay que salir de ella por el lado derecho, si es posible, hasta que las condiciones permitan hacerlo. _(RGC 78.1)_
@@ -8824,8 +8824,8 @@ Respuesta: **No, está prohibida la marcha atrás en autovías y autopistas.**
 
 ## A-par-0001
 
-Según la Ley de Tráfico, ¿qué es una parada?  
-Respuesta: **La inmovilización de un vehículo durante menos de dos minutos, sin que el conductor pueda abandonarlo.**
+¿Qué es una parada?  
+Respuesta: **Una inmovilización de menos de dos minutos, sin que el conductor abandone el vehículo.**
 
 - ✔ Parada es la inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo. _(LSV Anexo I.81)_
 - ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
@@ -8843,7 +8843,7 @@ Respuesta: **Una detención.**
 ## A-par-0003
 
 Inmoviliza su vehículo voluntariamente y se aleja de él durante un minuto para entrar en una tienda. ¿Qué maniobra ha realizado?  
-Respuesta: **Un estacionamiento, porque ha abandonado el vehículo.**
+Respuesta: **Un estacionamiento.**
 
 - ✔ La parada exige que el conductor no pueda abandonar el vehículo. Si lo abandona, aunque sea menos de dos minutos, la inmovilización no es detención ni parada y, por tanto, es estacionamiento. _(LSV Anexo I.82)_
 - ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
@@ -8870,7 +8870,7 @@ Respuesta: **Prohibición de estacionamiento en ese lado de la calzada.**
 ## A-par-0006
 
 ¿Qué indica esta marca vial amarilla en zigzag?  
-Respuesta: **Un lugar donde el estacionamiento está prohibido por estar reservado a algún uso especial, como una parada de autobús o carga y descarga.**
+Respuesta: **Un lugar donde se prohíbe estacionar por estar reservado a un uso especial.**
 
 - ✔ La marca en zigzag (M-7.9) indica el lugar de la calzada en que el estacionamiento está prohibido a los vehículos en general, por estar reservado para algún uso especial que no implique larga permanencia, como paradas de autobús o carga y descarga. _(RGC Anexo I, apdo. 4.7 (M-7.9))_
 - ✘ `x1b-0004` La parada y el estacionamiento se realizan, como norma general, con el vehículo paralelo al borde de la calzada; otra colocación solo se permite si las características de la vía u otras circunstancias lo aconsejan. _(RGC 92.1)_
@@ -8878,7 +8878,7 @@ Respuesta: **Un lugar donde el estacionamiento está prohibido por estar reserva
 
 ## A-par-0007
 
-Una parada o estacionamiento se considera que obstaculiza gravemente la circulación cuando la distancia entre el vehículo y el borde opuesto de la calzada (o una marca longitudinal que prohíba atravesarla) es inferior a…  
+Una parada o estacionamiento obstaculiza gravemente la circulación cuando la distancia entre el vehículo y el borde opuesto de la calzada, o una marca longitudinal que prohíba atravesarla, es inferior a...  
 Respuesta: **3 metros.**
 
 - ✔ Se consideran paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación, entre otros, cuando esa distancia es inferior a tres metros o no permite el paso de otros vehículos. _(RGC 91.2.a)_
@@ -8924,7 +8924,7 @@ Respuesta: **Cuando se dificulte el giro a otros vehículos.**
 ## A-par-0012
 
 Va por una autopista y quiere parar un momento para descansar. ¿Puede hacerlo en el arcén?  
-Respuesta: **No, en autopistas y autovías está prohibido parar, salvo en las zonas habilitadas para ello.**
+Respuesta: **No, salvo en las zonas habilitadas para ello.**
 
 - ✔ Queda prohibido parar en autopistas y autovías, salvo en las zonas habilitadas para ello. _(RGC 94.1.g)_
 - ✘ `A-par-0001` Parada es la inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo. _(LSV Anexo I.81)_
@@ -8951,7 +8951,7 @@ Respuesta: **No, está prohibido.**
 ## A-par-0015
 
 En una vía interurbana, ¿dónde debe efectuarse la parada o el estacionamiento?  
-Respuesta: **Fuera de la calzada, en el lado derecho, dejando libre la parte transitable del arcén.**
+Respuesta: **Fuera de la calzada, a la derecha, dejando libre la parte transitable del arcén.**
 
 - ✔ En vías interurbanas, la parada o el estacionamiento debe hacerse siempre fuera de la calzada, en el lado derecho y dejando libre la parte transitable del arcén. _(RGC 90.1)_
 - ✘ `v5b-par-0002` Queda prohibido estacionar sobre las aceras, paseos y demás zonas destinadas al paso de peatones, aunque quede espacio para ellos. _(RGC 94.2.e)_
@@ -8960,7 +8960,7 @@ Respuesta: **Fuera de la calzada, en el lado derecho, dejando libre la parte tra
 ## A-par-0016
 
 En una calle urbana de sentido único, si tiene que parar o estacionar en la calzada, ¿en qué lado puede hacerlo?  
-Respuesta: **En el lado derecho o también en el izquierdo.**
+Respuesta: **En cualquiera de los dos lados.**
 
 - ✔ En vías urbanas, el vehículo se sitúa lo más cerca posible del borde derecho, salvo en las vías de único sentido, en las que también puede situarse en el lado izquierdo. _(RGC 90.2)_
 - ✘ `A-par-0011` Está prohibido parar en las intersecciones y sus proximidades si se dificulta el giro a otros vehículos o, en vías interurbanas, si se genera peligro por falta de visibilidad. _(RGC 94.1.d)_
@@ -8968,7 +8968,7 @@ Respuesta: **En el lado derecho o también en el izquierdo.**
 
 ## A-par-0017
 
-Estaciona un turismo con caja de cambios manual en una pendiente ascendente. Además de accionar el freno de estacionamiento, ¿qué marcha debe dejar colocada?  
+Estaciona un turismo con cambio manual en una pendiente ascendente. Además del freno de estacionamiento, ¿qué marcha debe dejar puesta?  
 Respuesta: **La primera.**
 
 - ✔ En un vehículo con caja de cambios hay que dejar colocada la primera velocidad en pendiente ascendente y la marcha atrás en descendente (o, en su caso, la posición de estacionamiento). _(RGC 92.3.c)_
@@ -8977,7 +8977,7 @@ Respuesta: **La primera.**
 
 ## A-par-0018
 
-Estaciona un turismo con caja de cambios manual en una pendiente descendente. Además de accionar el freno de estacionamiento, ¿qué marcha debe dejar colocada?  
+Estaciona un turismo con cambio manual en una pendiente descendente. Además del freno de estacionamiento, ¿qué marcha debe dejar puesta?  
 Respuesta: **La marcha atrás.**
 
 - ✔ En pendiente descendente hay que dejar colocada la marcha hacia atrás; en ascendente, la primera. _(RGC 92.3.c)_
@@ -8986,8 +8986,8 @@ Respuesta: **La marcha atrás.**
 
 ## A-par-0019
 
-¿Qué vehículos, además de las otras precauciones, deben quedar debidamente calzados cuando paran o estacionan en un lugar con sensible pendiente?  
-Respuesta: **Los de más de 3.500 kg de MMA, los autobuses y los conjuntos de vehículos.**
+Cuando paran o estacionan en un lugar con sensible pendiente, ¿qué vehículos deben quedar además calzados?  
+Respuesta: **Los de más de 3.500 kg, los autobuses y los conjuntos de vehículos.**
 
 - ✔ Cuando se trate de un vehículo de más de 3.500 kg de MMA, de un autobús o de un conjunto de vehículos y se pare o estacione en sensible pendiente, el conductor debe dejarlo debidamente calzado. _(RGC 92.3.d)_
 - ✘ `v5b-par-0005` Se consideran paradas o estacionamientos que obstaculizan gravemente la circulación los que impiden la utilización normal del paso de vehículos en un vado señalizado correctamente. Es una infracción grave aunque se trate de una parada. _(RGC 91.2.c)_
@@ -8996,7 +8996,7 @@ Respuesta: **Los de más de 3.500 kg de MMA, los autobuses y los conjuntos de ve
 ## A-par-0020
 
 El conductor de un camión de más de 3.500 kg que estaciona en una sensible pendiente no lleva calzos. ¿Puede utilizar una piedra como calzo?  
-Respuesta: **No, no pueden emplearse piedras ni otros elementos no destinados expresamente a esa función.**
+Respuesta: **No.**
 
 - ✔ Estos vehículos deben quedar calzados con calzos, sin que puedan emplearse piedras u otros elementos no destinados expresamente a esa función, o apoyando una rueda directriz en el bordillo. _(RGC 92.3.d)_
 - ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
@@ -9004,7 +9004,7 @@ Respuesta: **No, no pueden emplearse piedras ni otros elementos no destinados ex
 
 ## A-par-0021
 
-Un camión de más de 3.500 kg estaciona en una pendiente ascendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe inclinar las ruedas directrices?  
+Un camión de más de 3.500 kg estaciona en una pendiente ascendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe girar las ruedas directrices?  
 Respuesta: **Hacia el centro de la calzada.**
 
 - ✔ Si se calza apoyando una rueda directriz en el bordillo, las ruedas se inclinan hacia el centro de la calzada en las pendientes ascendentes y hacia fuera en las descendentes. _(RGC 92.3.d)_
@@ -9014,7 +9014,7 @@ Respuesta: **Hacia el centro de la calzada.**
 ## B1-sen-0001
 
 Un agente de la autoridad le ordena detenerse en una intersección cuyo semáforo está en verde para usted. ¿Qué debe hacer?  
-Respuesta: **Detenerse, porque las órdenes del agente prevalecen sobre los semáforos.**
+Respuesta: **Detenerse.**
 
 - ✔ Las señales y órdenes de los agentes encabezan el orden de preferencia entre señales, por delante de los semáforos. _(RGC 133.1.a)_
 - ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
@@ -9032,7 +9032,7 @@ Respuesta: **Al semáforo en verde.**
 ## B1-sen-0003
 
 Hay una señal vertical de ceda el paso y, pintada en la calzada, una marca de STOP. ¿Qué debe hacer?  
-Respuesta: **Ceder el paso, porque las señales verticales prevalecen sobre las marcas viales.**
+Respuesta: **Ceder el paso.**
 
 - ✔ Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
 - ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
@@ -9049,8 +9049,8 @@ Respuesta: **La más restrictiva.**
 
 ## B1-sen-0005
 
-¿Qué prevalece sobre los semáforos según el orden de preferencia entre señales?  
-Respuesta: **La señalización y el balizamiento circunstancial que modifique el régimen normal de utilización de la vía.**
+¿Qué prevalece sobre los semáforos?  
+Respuesta: **La señalización circunstancial que modifica el uso normal de la vía.**
 
 - ✔ El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
@@ -9059,7 +9059,7 @@ Respuesta: **La señalización y el balizamiento circunstancial que modifique el
 ## B1-sen-0006
 
 Un semáforo emite luz amarilla intermitente y en el mismo acceso hay una señal de STOP. ¿Qué debe hacer?  
-Respuesta: **Detenerse, porque el amarillo intermitente no exime del cumplimiento de otras señales que obliguen a detenerse.**
+Respuesta: **Detenerse.**
 
 - ✔ La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso, y no exime de cumplir otras señales que obliguen a detenerse, como el STOP. _(RGC Anexo I.4.2.d)_
 - ✘ `B1-sen-0005` El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
@@ -9085,8 +9085,8 @@ Respuesta: **A las situadas inmediatamente a su derecha.**
 
 ## B1-sen-0009
 
-Una señal de limitación de velocidad está colocada en el mismo poste que la señal con el nombre de un poblado. ¿Dónde se aplica esa limitación?  
-Respuesta: **En todo el poblado, salvo en los tramos en los que otras señales indiquen una reglamentación distinta.**
+Una señal de limitación de velocidad está en el mismo poste que la señal con el nombre de un poblado. ¿Dónde se aplica esa limitación?  
+Respuesta: **En todo el poblado, salvo donde otras señales digan otra cosa.**
 
 - ✔ Las señales de reglamentación colocadas al lado o en la vertical de la señal con el nombre del poblado se aplican a todo el poblado, excepto donde otras señales indiquen otra reglamentación en ciertos tramos. _(RGC 145.3)_
 - ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
@@ -9095,7 +9095,7 @@ Respuesta: **En todo el poblado, salvo en los tramos en los que otras señales i
 ## B1-sen-0010
 
 ¿Desde dónde rigen, como norma general, las obligaciones o prohibiciones de una señal de reglamentación?  
-Respuesta: **Desde la sección transversal donde está colocada la señal, salvo que un panel complementario indique la distancia a la que empiezan a regir.**
+Respuesta: **Desde donde está la señal, salvo que un panel indique otra distancia.**
 
 - ✔ Rigen a partir de la sección transversal donde están colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 - ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
@@ -9113,7 +9113,7 @@ Respuesta: **Cuando haya cumplido la prescripción que la señal establece.**
 ## B1-sen-0012
 
 Para utilizar un carril de telepeaje (peaje dinámico), ¿qué requisito debe cumplir el vehículo?  
-Respuesta: **Estar provisto del medio técnico que posibilite su uso en condiciones operativas.**
+Respuesta: **Llevar el dispositivo que permite usarlo, en condiciones operativas.**
 
 - ✔ Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas. _(RGC 132.1)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
@@ -9121,7 +9121,7 @@ Respuesta: **Estar provisto del medio técnico que posibilite su uso en condicio
 
 ## B1-sen-0013
 
-Las indicaciones de una señal parecen contradecir una norma general de comportamiento en la circulación. Salvo circunstancias especiales que lo justifiquen, ¿qué debe hacer?  
+Las indicaciones de una señal parecen contradecir una norma general de circulación. Salvo circunstancias especiales que lo justifiquen, ¿qué debe hacer?  
 Respuesta: **Obedecer la señal.**
 
 - ✔ Salvo circunstancias especiales que lo justifiquen, hay que obedecer las señales aun cuando parezcan contradecir las normas de comportamiento. _(RGC 132.2)_
@@ -9131,7 +9131,7 @@ Respuesta: **Obedecer la señal.**
 ## B1-sen-0014
 
 Un agente que regula el tráfico levanta el brazo verticalmente. ¿A quién obliga a detenerse?  
-Respuesta: **A todos los usuarios de la vía que se acerquen al agente, salvo los que no puedan hacerlo en condiciones de seguridad suficiente.**
+Respuesta: **A todos los que se acerquen al agente, salvo si no pueden detenerse con seguridad.**
 
 - ✔ El brazo levantado verticalmente obliga a detenerse a todos los usuarios que se acerquen al agente, salvo a los conductores que no puedan hacerlo con seguridad suficiente. _(RGC Anexo I.1.1.a)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9140,7 +9140,7 @@ Respuesta: **A todos los usuarios de la vía que se acerquen al agente, salvo lo
 ## B1-sen-0015
 
 Ya ha entrado en una intersección cuando el agente que la regula levanta el brazo verticalmente. ¿Qué debe hacer?  
-Respuesta: **Continuar, porque esa señal no obliga a detenerse a quienes ya han entrado en la intersección.**
+Respuesta: **Continuar.**
 
 - ✔ Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella. _(RGC Anexo I.1.1.a)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9149,7 +9149,7 @@ Respuesta: **Continuar, porque esa señal no obliga a detenerse a quienes ya han
 ## B1-sen-0016
 
 Un agente tiene los brazos extendidos horizontalmente. ¿Quiénes deben detenerse?  
-Respuesta: **Los usuarios que se acerquen al agente desde direcciones que corten la indicada por los brazos, cualquiera que sea el sentido de su marcha.**
+Respuesta: **A los que se acerquen desde direcciones que corten la que indican los brazos.**
 
 - ✔ Los brazos extendidos horizontalmente obligan a detenerse a quienes se acerquen desde direcciones que corten la indicada por los brazos, cualquiera que sea su sentido de marcha. _(RGC Anexo I.1.1.b)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9158,7 +9158,7 @@ Respuesta: **Los usuarios que se acerquen al agente desde direcciones que corten
 ## B1-sen-0017
 
 El agente, tras extender los brazos horizontalmente, los baja sin cambiar de posición ni hacer otra señal. ¿Sigue en vigor su indicación?  
-Respuesta: **Sí, permanece en vigor mientras no cambie de posición o efectúe otra señal.**
+Respuesta: **Sí, mientras no cambie de posición o haga otra señal.**
 
 - ✔ La señal de brazos extendidos horizontalmente permanece en vigor aunque el agente los baje, siempre que no cambie de posición o efectúe otra señal. _(RGC Anexo I.1.1.b)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9203,7 +9203,7 @@ Respuesta: **La detención de los vehículos.**
 ## B1-sen-0022
 
 Desde un vehículo de los agentes se muestra una bandera roja. ¿Qué indica?  
-Respuesta: **Que, a partir del paso de ese vehículo, la calzada queda temporalmente cerrada al tráfico, salvo para quienes vayan acompañados o escoltados por los agentes.**
+Respuesta: **Que la calzada queda cerrada temporalmente al tráfico a partir de ese vehículo.**
 
 - ✔ La bandera roja indica que, a partir del paso del vehículo que la porta, la calzada queda temporalmente cerrada al tráfico de todos los vehículos y usuarios, excepto los acompañados o escoltados por agentes. _(RGC Anexo I.1.2.a)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9212,7 +9212,7 @@ Respuesta: **Que, a partir del paso de ese vehículo, la calzada queda temporalm
 ## B1-sen-0023
 
 Durante una prueba ciclista, desde un vehículo se muestra una bandera verde. ¿Qué indica?  
-Respuesta: **Que, a partir del paso de ese vehículo, la calzada queda de nuevo abierta al tráfico.**
+Respuesta: **Que la calzada queda abierta de nuevo al tráfico.**
 
 - ✔ La bandera verde indica que, a partir del paso del vehículo que la porta, la calzada queda de nuevo abierta al tráfico. _(RGC Anexo I.1.2.b)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9221,7 +9221,7 @@ Respuesta: **Que, a partir del paso de ese vehículo, la calzada queda de nuevo 
 ## B1-sen-0024
 
 ¿Qué indica una bandera amarilla mostrada desde un vehículo durante una marcha ciclista?  
-Respuesta: **La necesidad de extremar la atención o la proximidad de un peligro.**
+Respuesta: **Que hay que extremar la atención por un peligro próximo.**
 
 - ✔ La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9230,7 +9230,7 @@ Respuesta: **La necesidad de extremar la atención o la proximidad de un peligro
 ## B1-sen-0025
 
 Un vehículo policial que circula detrás de usted le hace señales con una luz roja intermitente o destellante hacia delante. ¿Qué debe hacer?  
-Respuesta: **Detener el vehículo en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias.**
+Respuesta: **Detenerse a la derecha, delante del vehículo policial, donde no cree riesgos.**
 
 - ✔ Esa señal indica al conductor que le precede que debe detenerse en el lado derecho, delante del vehículo policial, en un lugar sin mayores riesgos o molestias y siguiendo las instrucciones por megafonía. _(RGC Anexo I.1.2.e)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9239,7 +9239,7 @@ Respuesta: **Detener el vehículo en el lado derecho, delante del vehículo poli
 ## B1-sen-0026
 
 En un tramo en obras, el personal de la obra regula el paso de vehículos con paletas como estas. ¿Está obligado a seguir sus indicaciones?  
-Respuesta: **Sí, los usuarios están obligados a seguir las indicaciones del personal que regula el paso de vehículos en las obras.**
+Respuesta: **Sí.**
 
 - ✔ Los usuarios de la vía están obligados a seguir las indicaciones del personal destinado a la regulación del paso de vehículos en las obras. _(RGC 139.3)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9256,7 +9256,7 @@ Respuesta: **Sí, mediante las señales del catálogo oficial incorporadas a una
 
 ## B1-sen-0028
 
-El personal de obras que regula el paso de vehículos debe usar prendas de colores llamativos y elementos retrorreflectantes que permitan distinguirlo a una distancia mínima de...  
+El personal de obras que regula el paso de vehículos debe llevar prendas llamativas y retrorreflectantes que permitan distinguirlo como mínimo a...  
 Respuesta: **150 metros.**
 
 - ✔ Deben poder ser distinguidos a una distancia mínima de 150 metros. _(RGC 141.1)_
@@ -9283,8 +9283,8 @@ Respuesta: **Prohíbe el paso e informa, además, sobre el sentido de la circula
 
 ## B1-sen-0031
 
-¿Cuál es la finalidad de los paneles direccionales permanentes colocados en el exterior de una curva?  
-Respuesta: **Marcar el trazado de la curva en relación con la reducción de velocidad necesaria y señalar el sentido de circulación.**
+¿Para qué sirven los paneles direccionales permanentes colocados en el exterior de una curva?  
+Respuesta: **Para marcar el trazado de la curva y el sentido de circulación.**
 
 - ✔ Los paneles direccionales permanentes marcan el trazado de una curva en relación con la reducción de velocidad necesaria para circular por ella con seguridad, además de indicar el sentido de circulación. _(RGC Anexo I.3.1.2.3º)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
@@ -9311,7 +9311,7 @@ Respuesta: **Verde.**
 ## B1-sen-0034
 
 ¿Hasta cuándo rigen las modificaciones que la señalización circunstancial introduce respecto de la señalización vertical y horizontal habitual?  
-Respuesta: **Hasta que lo establezca la propia señalización o cesen las causas que motivaron su imposición.**
+Respuesta: **Hasta que lo diga la propia señalización o cesen sus causas.**
 
 - ✔ Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
@@ -9320,7 +9320,7 @@ Respuesta: **Hasta que lo establezca la propia señalización o cesen las causas
 ## B1-sen-0035
 
 Llega a un paso a nivel cuya barrera se está levantando, pero todavía está en movimiento. ¿Qué debe hacer?  
-Respuesta: **No penetrar en el paso a nivel mientras la barrera esté en movimiento.**
+Respuesta: **Esperar a que la barrera deje de moverse.**
 
 - ✔ Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
@@ -9328,7 +9328,7 @@ Respuesta: **No penetrar en el paso a nivel mientras la barrera esté en movimie
 
 ## B1-sen-0036
 
-Se enciende la luz amarilla fija de un semáforo cuando usted está tan cerca que no podría detenerse antes del semáforo con seguridad suficiente. ¿Qué debe hacer?  
+Se enciende la luz amarilla fija de un semáforo cuando está tan cerca que no podría detenerse con seguridad. ¿Qué debe hacer?  
 Respuesta: **Continuar la marcha.**
 
 - ✔ La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
@@ -9337,8 +9337,8 @@ Respuesta: **Continuar la marcha.**
 
 ## B1-sen-0037
 
-¿Qué significa una luz amarilla fija (no intermitente) en un semáforo circular para vehículos?  
-Respuesta: **Que hay que detenerse en las mismas condiciones que ante la luz roja fija, salvo que no se pueda hacer con seguridad suficiente.**
+¿Qué significa la luz amarilla fija de un semáforo circular para vehículos?  
+Respuesta: **Que hay que detenerse como ante la roja, salvo si no se puede con seguridad.**
 
 - ✔ La luz amarilla no intermitente obliga a detenerse como ante la luz roja fija, salvo que no sea posible con seguridad suficiente. _(RGC Anexo I.4.2.c)_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
@@ -9373,7 +9373,7 @@ Respuesta: **Exclusivamente a los ciclos.**
 
 ## B1-sen-0041
 
-Un semáforo consistente en una franja blanca iluminada sobre fondo circular negro, sin que exista carril reservado, ¿a qué vehículos se refiere?  
+Un semáforo con una franja blanca iluminada sobre fondo circular negro, sin carril reservado, ¿a qué vehículos se refiere?  
 Respuesta: **A los tranvías y autobuses de líneas regulares.**
 
 - ✔ Este semáforo se refiere exclusivamente a tranvías y autobuses de líneas regulares, salvo que exista un carril reservado, en cuyo caso solo se refiere a los que circulen por él. _(RGC Anexo I.4.4.2)_
@@ -9383,7 +9383,7 @@ Respuesta: **A los tranvías y autobuses de líneas regulares.**
 ## B1-sen-0042
 
 En un semáforo para tranvías y autobuses, ¿qué significa una franja blanca horizontal iluminada?  
-Respuesta: **Que prohíbe el paso en las mismas condiciones que la luz roja no intermitente.**
+Respuesta: **Que prohíbe el paso, como la luz roja fija.**
 
 - ✔ La franja blanca horizontal iluminada prohíbe el paso en las mismas condiciones que la luz roja no intermitente. _(RGC Anexo I.4.4.2.a)_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
@@ -9410,7 +9410,7 @@ Respuesta: **Que el paso está prohibido temporalmente.**
 ## B1-sen-0045
 
 Además de en los pasos a nivel, ¿dónde puede encontrar dos luces rojas alternativamente intermitentes que prohíben temporalmente el paso?  
-Respuesta: **En las proximidades de una salida de vehículos de extinción de incendios.**
+Respuesta: **Cerca de una salida de vehículos de extinción de incendios.**
 
 - ✔ Estas luces se usan antes de un paso a nivel, de un puente móvil o pontón transbordador, cerca de una salida de vehículos de extinción de incendios o ante la aproximación de una aeronave a escasa altura. _(RGC Anexo I.4.2.b)_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
@@ -9436,8 +9436,8 @@ Respuesta: **Que el significado de la luz amarilla se limita exclusivamente al m
 
 ## B1-sen-0048
 
-El semáforo tiene la luz roja circular encendida y, a la vez, una flecha verde iluminada hacia la derecha. ¿Puede girar a la derecha?  
-Respuesta: **Sí, pero con precaución, dejando pasar a los vehículos que circulen por el carril al que se incorpora y sin poner en peligro a quien esté cruzando la calzada.**
+El semáforo tiene encendida la luz roja circular y, a la vez, una flecha verde hacia la derecha. ¿Puede girar a la derecha?  
+Respuesta: **Sí, con precaución, cediendo el paso a vehículos y peatones.**
 
 - ✔ La flecha verde permite tomar la dirección indicada cualquiera que sea la otra luz encendida, pero con precaución, dejando pasar a quienes circulan por el carril al que se incorpora y sin poner en peligro a quien cruza. _(RGC Anexo I.4.2.g)_
 - ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
@@ -9445,8 +9445,8 @@ Respuesta: **Sí, pero con precaución, dejando pasar a los vehículos que circu
 
 ## B1-sen-0049
 
-Está detenido ante un semáforo en rojo, en un carril reservado exclusivamente para girar a la derecha, aunque usted quería seguir de frente. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?  
-Respuesta: **Avanzar en la dirección y sentido indicados por la flecha.**
+Está detenido ante un semáforo en rojo, en un carril solo para girar a la derecha, aunque quería seguir de frente. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?  
+Respuesta: **Avanzar en el sentido que indica la flecha.**
 
 - ✔ Cualquier vehículo que, al encenderse la flecha verde, se encuentre en un carril reservado exclusivamente para la dirección indicada por ella deberá avanzar en esa dirección y sentido. _(RGC Anexo I.4.2.g)_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
@@ -9454,8 +9454,8 @@ Respuesta: **Avanzar en la dirección y sentido indicados por la flecha.**
 
 ## B1-sen-0050
 
-Un semáforo de carril (cuadrado) sobre su carril muestra un aspa roja. ¿Qué significa?  
-Respuesta: **Prohibición de ocupar ese carril; si circula por él, debe abandonarlo en el tiempo más breve posible.**
+Un semáforo de carril muestra sobre su carril un aspa roja. ¿Qué significa?  
+Respuesta: **Que no se puede ocupar ese carril y, si circula por él, debe dejarlo cuanto antes.**
 
 - ✔ La luz roja en forma de aspa prohíbe ocupar el carril y quienes circulen por él deben abandonarlo en el tiempo más breve posible. _(RGC Anexo I.4.3.a)_
 - ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
@@ -9463,8 +9463,8 @@ Respuesta: **Prohibición de ocupar ese carril; si circula por él, debe abandon
 
 ## B1-sen-0051
 
-Circula por un carril con un semáforo de carril que muestra una flecha verde apuntando hacia abajo. Más adelante, un semáforo circular está en rojo. ¿Qué debe hacer?  
-Respuesta: **Detenerse ante el semáforo circular en rojo.**
+Sobre su carril, un semáforo de carril muestra una flecha verde hacia abajo. Más adelante, un semáforo circular está en rojo. ¿Qué debe hacer?  
+Respuesta: **Detenerse ante el semáforo en rojo.**
 
 - ✔ La flecha verde de carril solo autoriza a circular por ese carril y no exime de detenerse ante una luz roja circular ni de obedecer otras señales que obliguen a detenerse o ceder el paso. _(RGC Anexo I.4.3.b)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
@@ -9472,8 +9472,8 @@ Respuesta: **Detenerse ante el semáforo circular en rojo.**
 
 ## B1-sen-0052
 
-Un semáforo de carril muestra una flecha amarilla o blanca oblicua apuntando hacia abajo. ¿Qué indica?  
-Respuesta: **Que debe irse incorporando con seguridad al carril hacia el que apunta la flecha, porque el suyo va a quedar cerrado en corto espacio.**
+Un semáforo de carril muestra una flecha amarilla o blanca oblicua hacia abajo. ¿Qué indica?  
+Respuesta: **Que debe pasarse al carril al que apunta la flecha, porque el suyo se cierra.**
 
 - ✔ Indica la necesidad de irse incorporando con seguridad al carril hacia el que apunta la flecha, ya que el carril por el que se circula va a quedar cerrado en corto espacio. _(RGC Anexo I.4.3.c)_
 - ✘ `B1-sen-0024` La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
@@ -9500,7 +9500,7 @@ Respuesta: **Reglamentación.**
 ## B1-sen-0056
 
 Bajo una señal de advertencia de peligro hay un panel complementario con una cifra en metros. ¿Qué puede indicar?  
-Respuesta: **La distancia entre la señal y el principio del tramo peligroso.**
+Respuesta: **La distancia hasta el comienzo del peligro.**
 
 - ✔ Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
@@ -9508,8 +9508,8 @@ Respuesta: **La distancia entre la señal y el principio del tramo peligroso.**
 
 ## B1-sen-0057
 
-En un tramo con obras encuentra una señal de peligro con fondo amarillo en lugar de blanco. ¿Por qué tiene ese color?  
-Respuesta: **Porque en los tramos con obras o tareas de conservación las señales de peligro que normalmente tienen fondo blanco llevan fondo amarillo.**
+En un tramo de obras encuentra una señal de peligro con fondo amarillo en lugar de blanco. ¿Por qué tiene ese color?  
+Respuesta: **Porque es la señal de peligro propia de las obras.**
 
 - ✔ En tramos con obras o tareas de conservación, las señales de peligro y de reglamentación cuyo fondo convencional es blanco tienen fondo amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
@@ -9517,7 +9517,7 @@ Respuesta: **Porque en los tramos con obras o tareas de conservación las señal
 
 ## B1-sen-0058
 
-Cuando la señalización circunstancial se debe a causas distintas de las obras (por ejemplo, un accidente), ¿de qué color es el fondo de las señales que en su versión convencional lo tienen blanco?  
+Cuando la señalización circunstancial no se debe a obras, sino, por ejemplo, a un accidente, ¿de qué color es el fondo de las señales que normalmente lo tienen blanco?  
 Respuesta: **Naranja.**
 
 - ✔ Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
@@ -9526,8 +9526,8 @@ Respuesta: **Naranja.**
 
 ## B1-pri-0059
 
-Se aproxima a una intersección señalizada con la señal de advertencia de 'intersección con prioridad'. ¿Quién tiene prioridad de paso?  
-Respuesta: **Usted, sobre los vehículos que circulen por la otra vía o procedan de ella.**
+Se aproxima a una intersección con esta señal. ¿Quién tiene prioridad de paso?  
+Respuesta: **Usted.**
 
 - ✔ Los conductores que se aproximen a una intersección señalizada con señal de intersección con prioridad tienen prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella. _(RGC 56.4)_
 - ✘ `A-cic-0003` Los conductores de bicicletas tienen prioridad de paso cuando circulan por un carril bici, paso para ciclistas o arcén debidamente señalizados. _(RGC 64.2.a)_
@@ -9544,8 +9544,8 @@ Respuesta: **Que tiene prioridad de paso sobre los vehículos que circulen por o
 
 ## B1-pri-0061
 
-Llega a una intersección con señal de ceda el paso. ¿A quién debe ceder el paso?  
-Respuesta: **A los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen.**
+Al llegar a una intersección con esta señal, ¿a quién debe ceder el paso?  
+Respuesta: **A los vehículos que circulen por la vía preferente, se aproximen por donde se aproximen.**
 
 - ✔ Ante ceda el paso o STOP se cede siempre el paso a los vehículos de la vía preferente, cualquiera que sea el lado por el que se aproximen. _(RGC 56.5)_
 - ✘ `B1-pri-0066` En defecto de señal que regule la preferencia de paso, el conductor debe cederlo a los vehículos que se aproximen por su derecha, salvo las excepciones previstas. _(RGC 57.1)_
@@ -9554,7 +9554,7 @@ Respuesta: **A los vehículos que transiten por la vía preferente, cualquiera q
 ## B1-pri-0062
 
 Ante una señal de ceda el paso, si no se aproxima ningún vehículo por la vía preferente, ¿está obligado a detenerse?  
-Respuesta: **No; solo debe detenerse cuando sea preciso para ceder el paso.**
+Respuesta: **No, solo si es preciso para ceder el paso.**
 
 - ✔ Ante ceda el paso hay que detener la marcha cuando sea preciso; la detención en todo caso solo es obligatoria cuando así lo indique la señal (STOP). _(RGC 56.5)_
 - ✘ `x1a-0073` Los conductores tienen prioridad sobre los animales, salvo en cañadas señalizadas, al girar para entrar en otra vía con animales cruzándola y al cruzar un arcén por el que circulan animales sin cañada. _(RGC 66.1.b)_
@@ -9589,7 +9589,7 @@ Respuesta: **Detenerse de nuevo en el lugar desde donde tenga visibilidad, sin p
 
 ## B1-pri-0066
 
-Llega a una intersección donde no hay ninguna señal que regule la preferencia de paso (ni semáforo, ni agente, ni ceda el paso, ni STOP). Como norma general, ¿a quién debe ceder el paso?  
+Llega a una intersección sin ninguna señal, semáforo ni agente que regule la preferencia. Como norma general, ¿a quién debe ceder el paso?  
 Respuesta: **A los vehículos que se aproximen por su derecha.**
 
 - ✔ En defecto de señal que regule la preferencia de paso, el conductor debe cederlo a los vehículos que se aproximen por su derecha, salvo las excepciones previstas. _(RGC 57.1)_
@@ -9607,8 +9607,8 @@ Respuesta: **Los vehículos que circulan por raíles.**
 
 ## B1-pri-0068
 
-¿Qué indica la marca vial de paso a nivel (M-7.5) pintada en la calzada?  
-Respuesta: **La proximidad de un paso a nivel en el que los vehículos de la calzada deben ceder el paso cuando se aproxime un tren o tranvía.**
+¿Qué indica esta marca vial pintada en la calzada?  
+Respuesta: **La proximidad de un paso a nivel, donde se cede el paso al tren o tranvía.**
 
 - ✔ La marca M-7.5 indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía, en el que los vehículos de la calzada deben ceder el paso cuando se aproxime un tren o tranvía. _(RGC Anexo I.5.2 (marcas viales, M-7.5))_
 - ✘ `B1-pri-0067` Los vehículos que circulan por raíles tienen derecho de prioridad de paso sobre los demás usuarios. _(RGC 57.1.b)_
@@ -9616,8 +9616,8 @@ Respuesta: **La proximidad de un paso a nivel en el que los vehículos de la cal
 
 ## B1-pri-0069
 
-Ve la señal de peligro 'paso de animales domésticos' con un panel complementario que dice 'cañada'. Si hay ganado cruzando, ¿quién tiene prioridad?  
-Respuesta: **Los animales, porque se trata de una cañada debidamente señalizada.**
+Ve esta señal con un panel complementario que dice «cañada». Si hay ganado cruzando, ¿quién tiene prioridad?  
+Respuesta: **Los animales.**
 
 - ✔ Los conductores tienen prioridad sobre los animales salvo, entre otros casos, en las cañadas debidamente señalizadas, que se indican con el panel 'cañada' bajo la señal de paso de animales domésticos. _(RGC 66.2)_
 - ✘ `A-urg-0003` Al percibir las señales de un vehículo prioritario, los demás conductores deben facilitarle el paso según las circunstancias, apartándose normalmente a la derecha o deteniéndose si fuera preciso. _(RGC 69)_
@@ -9625,8 +9625,8 @@ Respuesta: **Los animales, porque se trata de una cañada debidamente señalizad
 
 ## B1-pri-0070
 
-Encuentra la señal de peligro 'paso de animales domésticos' sin ningún panel complementario. Como norma general, ¿quién tiene prioridad de paso?  
-Respuesta: **Los conductores, salvo en los supuestos que establece el Reglamento (cañadas señalizadas, giros con animales cruzando, cruce de arcén por el que circulan animales sin cañada).**
+Encuentra esta señal sin ningún panel complementario. Como norma general, ¿quién tiene prioridad de paso?  
+Respuesta: **Los conductores, salvo en los casos que fija la norma, como las cañadas señalizadas.**
 
 - ✔ Los conductores tienen prioridad de paso respecto de los animales, salvo en las cañadas debidamente señalizadas y en los demás supuestos del art. 66.1; la señal sola solo advierte del peligro. _(RGC 66.1)_
 - ✘ `x1a-0067` En el orden de preferencia en ausencia de señalización, los turismos con remolque de hasta 750 kg y las autocaravanas van por delante de los vehículos de transporte colectivo y de los camiones, tractocamiones y furgones. _(RGC 62.1.d y f)_
@@ -9643,8 +9643,8 @@ Respuesta: **Facilitar la maniobra en la medida de lo posible, aunque usted teng
 
 ## B1-pri-0072
 
-Ha entrado en un puente estrecho, donde no pueden cruzarse dos vehículos, por el extremo en el que hay colocada una señal de prioridad en sentido contrario. Si se encuentra con otro vehículo dentro del puente, ¿quién debe retroceder?  
-Respuesta: **El que haya llegado por el extremo donde está la señal de prioridad en sentido contrario, es decir, usted.**
+Ha entrado en un puente estrecho, donde no caben dos vehículos, por el extremo en el que está esta señal. Si se encuentra con otro vehículo dentro, ¿quién debe retroceder?  
+Respuesta: **Usted.**
 
 - ✔ En caso de encuentro en puentes u obras de paso con señal de prioridad en sentido contrario o de ceda el paso en uno de sus extremos, el que llegue por ese extremo debe retroceder. _(RGC 61.2)_
 - ✘ `A-est-0004` En el orden de preferencia, los vehículos destinados al transporte colectivo de viajeros van por delante de los camiones, tractocamiones y furgones. _(RGC 62.1.e y f)_
@@ -9652,8 +9652,8 @@ Respuesta: **El que haya llegado por el extremo donde está la señal de priorid
 
 ## B1-sen-0073
 
-Una prohibición de entrada se refiere a los 'vehículos de motor'. ¿Afecta a los ciclomotores?  
-Respuesta: **No, porque los ciclomotores están excluidos de la definición de vehículo de motor.**
+Una prohibición de entrada se refiere a los vehículos de motor. ¿Afecta a los ciclomotores?  
+Respuesta: **No.**
 
 - ✔ La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
@@ -9680,7 +9680,7 @@ Respuesta: **La regla general de prioridad de paso: la de los vehículos que vie
 ## B1-sen-0076
 
 ¿Qué indica esta señal?  
-Respuesta: **La proximidad de una glorieta con circulación en el sentido indicado por las flechas.**
+Respuesta: **La proximidad de una glorieta.**
 
 - ✔ La P-4 («Glorieta») advierte de la proximidad de una glorieta con circulación en el sentido indicado por las flechas. _(RGC_CATALOGO Anexo I, catálogo de señales, P-4 (pág. 90 del PDF consolidado))_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
@@ -9689,7 +9689,7 @@ Respuesta: **La proximidad de una glorieta con circulación en el sentido indica
 ## B1-sen-0077
 
 ¿Qué indica esta señal?  
-Respuesta: **La proximidad de un cruce con una línea de tranvía, que tiene prioridad de paso.**
+Respuesta: **Que se acerca un cruce con una línea de tranvía, que tiene prioridad.**
 
 - ✔ La P-6 («Cruce de tranvía») advierte de la proximidad de un cruce con una línea de tranvía, que tiene prioridad de paso. _(RGC_CATALOGO Anexo I, catálogo de señales, P-6 (pág. 90 del PDF consolidado))_
 - ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
@@ -9697,8 +9697,8 @@ Respuesta: **La proximidad de un cruce con una línea de tranvía, que tiene pri
 
 ## B1-sen-0078
 
-¿Qué indica esta señal con el dibujo de una valla?  
-Respuesta: **La proximidad de un paso a nivel provisto de barreras o semibarreras.**
+¿Qué indica esta señal?  
+Respuesta: **Un paso a nivel con barreras o semibarreras.**
 
 - ✔ La P-7 («Paso a nivel con barreras») advierte de la proximidad de un paso a nivel provisto de barreras o semibarreras. _(RGC_CATALOGO Anexo I, catálogo de señales, P-7 (pág. 90 del PDF consolidado))_
 - ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
@@ -9706,8 +9706,8 @@ Respuesta: **La proximidad de un paso a nivel provisto de barreras o semibarrera
 
 ## B1-sen-0079
 
-¿Qué indica esta señal con el dibujo de un tren visto de frente?  
-Respuesta: **La proximidad de un paso a nivel no provisto de barreras o semibarreras.**
+¿Qué indica esta señal?  
+Respuesta: **Un paso a nivel sin barreras ni semibarreras.**
 
 - ✔ La P-8 («Paso a nivel sin barreras») advierte de la proximidad de un paso a nivel no provisto de barreras o semibarreras. _(RGC_CATALOGO Anexo I, catálogo de señales, P-8 (pág. 90 del PDF consolidado))_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
@@ -9715,7 +9715,7 @@ Respuesta: **La proximidad de un paso a nivel no provisto de barreras o semibarr
 
 ## B1-sen-0080
 
-¿Qué indica esta señal con forma de aspa (cruz de San Andrés) de borde rojo?  
+¿Qué indica esta señal?  
 Respuesta: **La presencia inmediata de un paso a nivel sin barreras.**
 
 - ✔ La P-11 («Situación de un paso a nivel sin barreras») advierte de la presencia inmediata de un paso a nivel sin barreras. _(RGC_CATALOGO Anexo I, catálogo de señales, P-11 (pág. 91 del PDF consolidado))_
@@ -9733,8 +9733,8 @@ Respuesta: **La presencia inmediata de un paso a nivel sin barreras con más de 
 
 ## B1-sen-0082
 
-¿De qué advierte esta señal con la silueta de un avión?  
-Respuesta: **De un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía, que pueden originar ruidos imprevistos.**
+¿De qué advierte esta señal?  
+Respuesta: **De aeronaves volando a baja altura sobre la vía.**
 
 - ✔ La P-12 («Aeropuerto») advierte de la proximidad de un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía y que pueden originar ruidos imprevistos. _(RGC_CATALOGO Anexo I, catálogo de señales, P-12 (pág. 92 del PDF consolidado))_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
@@ -9779,7 +9779,7 @@ Respuesta: **La proximidad de una zona de la calzada cuyo pavimento puede result
 ## B1-sen-0087
 
 ¿De qué advierte esta señal?  
-Respuesta: **De la proximidad de un lugar frecuentado por niños, como una escuela o una zona de juegos.**
+Respuesta: **De un lugar frecuentado por niños, como una escuela.**
 
 - ✔ La P-21a («Niños») advierte de la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc. _(RGC_CATALOGO Anexo I, catálogo de señales, P-21a (pág. 95 del PDF consolidado))_
 - ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
@@ -9787,8 +9787,8 @@ Respuesta: **De la proximidad de un lugar frecuentado por niños, como una escue
 
 ## B1-sen-0088
 
-¿De qué advierte esta señal con un ciervo?  
-Respuesta: **De un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad.**
+¿De qué advierte esta señal?  
+Respuesta: **De animales en libertad que pueden cruzar la vía.**
 
 - ✔ La P-24 («Paso de animales en libertad») advierte de la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad. _(RGC_CATALOGO Anexo I, catálogo de señales, P-24 (pág. 95 del PDF consolidado))_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
@@ -9796,8 +9796,8 @@ Respuesta: **De un lugar donde frecuentemente la vía puede ser atravesada por a
 
 ## B1-sen-0089
 
-¿Qué indica esta señal con dos flechas de sentidos opuestos?  
-Respuesta: **La proximidad de un tramo con circulación en ambos sentidos.**
+¿Qué indica esta señal?  
+Respuesta: **Un tramo con circulación en ambos sentidos.**
 
 - ✔ La P-25 («Circulación en los dos sentidos») advierte de la proximidad de un tramo con circulación en ambos sentidos. _(RGC_CATALOGO Anexo I, catálogo de señales, P-25 (pág. 96 del PDF consolidado))_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
@@ -9814,8 +9814,8 @@ Respuesta: **De una zona con desprendimientos frecuentes y la consiguiente posib
 
 ## B1-sen-0091
 
-¿De qué advierte esta señal con un vehículo cayendo al agua?  
-Respuesta: **De que la vía desemboca en un muelle o en una corriente de agua.**
+¿De qué advierte esta señal?  
+Respuesta: **De que la vía desemboca en un muelle o en un río.**
 
 - ✔ La P-27 («Muelle») advierte de que la vía desemboca en un muelle o en una corriente de agua; el puente móvil es la P-5. _(RGC_CATALOGO Anexo I, catálogo de señales, P-27 (pág. 96 del PDF consolidado))_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
@@ -9832,7 +9832,7 @@ Respuesta: **Del riesgo de que se proyecte gravilla al pasar los vehículos.**
 
 ## B1-sen-0093
 
-¿Qué elemento complementa la advertencia de la señal P-29 (viento lateral), informando sobre la existencia, sentido e intensidad del viento?  
+¿Qué elemento complementa esta señal informando de la existencia, sentido e intensidad del viento?  
 Respuesta: **Una manga de viento.**
 
 - ✔ La manga de viento complementa la señal P-29 informando de la existencia, sentido e intensidad de un viento continuo o racheado. _(RGC Anexo I.3.1.3.1º)_
@@ -9842,7 +9842,7 @@ Respuesta: **Una manga de viento.**
 ## B1-sen-0094
 
 ¿De qué advierte esta señal?  
-Respuesta: **De un desnivel a lo largo de la vía en el lado que indique el símbolo (escalón lateral).**
+Respuesta: **De un escalón lateral a lo largo de la vía.**
 
 - ✔ La P-30 («Escalón lateral») advierte de la existencia de un desnivel a lo largo de la vía en el lado que indique el símbolo; el resalte es la P-15a. _(RGC_CATALOGO Anexo I, catálogo de señales, P-30 (pág. 96 del PDF consolidado))_
 - ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
@@ -9851,7 +9851,7 @@ Respuesta: **De un desnivel a lo largo de la vía en el lado que indique el sím
 ## B1-sen-0095
 
 ¿De qué advierte esta señal?  
-Respuesta: **De un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico.**
+Respuesta: **De un tramo donde suele haber retenciones.**
 
 - ✔ La P-31 («Congestión») advierte de un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico. _(RGC_CATALOGO Anexo I, catálogo de señales, P-31 (pág. 96 del PDF consolidado))_
 - ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
@@ -9860,7 +9860,7 @@ Respuesta: **De un tramo en el que frecuentemente la circulación se encuentra d
 ## B1-sen-0096
 
 ¿De qué advierte esta señal?  
-Respuesta: **De un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas.**
+Respuesta: **De vehículos que obstruyen la calzada por avería, accidente u otras causas.**
 
 - ✔ La P-32 («Obstrucción en la calzada») advierte de la proximidad de un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas. _(RGC_CATALOGO Anexo I, catálogo de señales, P-32 (pág. 97 del PDF consolidado))_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
@@ -9869,7 +9869,7 @@ Respuesta: **De un lugar en que hay vehículos que obstruyen la calzada debido a
 ## B1-sen-0097
 
 ¿De qué advierte esta señal?  
-Respuesta: **De un tramo en el que frecuentemente hay una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc.**
+Respuesta: **De un tramo donde suele haber poca visibilidad por niebla, lluvia, nieve o humo.**
 
 - ✔ La P-33 («Visibilidad reducida») advierte de un tramo en el que frecuentemente la circulación se ve dificultada por una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc. _(RGC_CATALOGO Anexo I, catálogo de señales, P-33 (pág. 97 del PDF consolidado))_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9877,8 +9877,8 @@ Respuesta: **De un tramo en el que frecuentemente hay una pérdida notable de vi
 
 ## B1-sen-0098
 
-¿De qué advierte esta señal con un copo de nieve?  
-Respuesta: **De un tramo en el que frecuentemente, durante la época invernal, hay presencia de hielo o nieve.**
+¿De qué advierte esta señal?  
+Respuesta: **De un tramo donde en invierno suele haber hielo o nieve.**
 
 - ✔ La P-34 («Presencia de hielo o nieve») advierte de un tramo en el que frecuentemente, durante la época invernal, hay hielo o nieve; la obligación de cadenas es una señal de obligación distinta (R-412). _(RGC_CATALOGO Anexo I, catálogo de señales, P-34 (pág. 97 del PDF consolidado))_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
@@ -9895,8 +9895,8 @@ Respuesta: **La proximidad de un peligro distinto de los advertidos por otras se
 
 ## B1-sen-0100
 
-¿Qué indica esta señal (rombo blanco con el centro amarillo cruzado por una franja negra)?  
-Respuesta: **La proximidad del lugar en que la calzada por la que circula pierde su prioridad respecto a otra calzada.**
+¿Qué indica esta señal?  
+Respuesta: **Que la calzada por la que circula va a perder la prioridad.**
 
 - ✔ La R-4 («Fin de prioridad») indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada; la de calzada con prioridad es la R-3. _(RGC_CATALOGO Anexo I, catálogo de señales, R-4 (pág. 99 del PDF consolidado))_
 - ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
@@ -9904,8 +9904,8 @@ Respuesta: **La proximidad del lugar en que la calzada por la que circula pierde
 
 ## B1-sen-0101
 
-Ante un paso estrecho encuentra esta señal (flecha roja y flecha negra). ¿Qué indica?  
-Respuesta: **Que no puede entrar en el paso estrecho mientras no sea posible atravesarlo sin obligar a detenerse a los que vienen en sentido contrario.**
+Ante un paso estrecho encuentra esta señal. ¿Qué indica?  
+Respuesta: **Que no debe entrar si obliga a detenerse a los que vienen de frente.**
 
 - ✔ La R-5 («Prioridad del sentido contrario») prohíbe entrar en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse. _(RGC_CATALOGO Anexo I, catálogo de señales, R-5 (pág. 99 del PDF consolidado))_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9913,8 +9913,8 @@ Respuesta: **Que no puede entrar en el paso estrecho mientras no sea posible atr
 
 ## B1-sen-0102
 
-Ante un paso estrecho encuentra esta señal cuadrada azul. ¿Qué indica?  
-Respuesta: **Que en el próximo paso estrecho tiene prioridad con relación a los vehículos que circulen en sentido contrario.**
+Ante un paso estrecho encuentra esta señal. ¿Qué indica?  
+Respuesta: **Que tiene prioridad sobre los que vienen de frente.**
 
 - ✔ La R-6 («Prioridad respecto al sentido contrario») indica que, en un próximo paso estrecho, usted tiene prioridad con relación a los vehículos que circulen en sentido contrario. _(RGC_CATALOGO Anexo I, catálogo de señales, R-6 (pág. 100 del PDF consolidado))_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
@@ -9922,8 +9922,8 @@ Respuesta: **Que en el próximo paso estrecho tiene prioridad con relación a lo
 
 ## B1-sen-0103
 
-¿Qué indica esta señal (círculo blanco con orla roja, sin símbolo)?  
-Respuesta: **Prohibición de circulación de toda clase de vehículos en ambos sentidos.**
+¿Qué indica esta señal?  
+Respuesta: **Circulación prohibida a todos los vehículos en ambos sentidos.**
 
 - ✔ La R-100 («Circulación prohibida») prohíbe la circulación de toda clase de vehículos en ambos sentidos. _(RGC_CATALOGO Anexo I, catálogo de señales, R-100 (pág. 102 del PDF consolidado))_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
@@ -9931,8 +9931,8 @@ Respuesta: **Prohibición de circulación de toda clase de vehículos en ambos s
 
 ## B1-sen-0104
 
-¿Qué indica esta señal (círculo rojo con una franja horizontal blanca)?  
-Respuesta: **Prohibición de acceso a toda clase de vehículos.**
+¿Qué indica esta señal?  
+Respuesta: **Entrada prohibida a todos los vehículos.**
 
 - ✔ La R-101 («Entrada prohibida») prohíbe el acceso a toda clase de vehículos. La prohibición de circular en ambos sentidos es la R-100 y la de acceso a vehículos de motor, la R-102. _(RGC_CATALOGO Anexo I, catálogo de señales, R-101 (pág. 102 del PDF consolidado))_
 - ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
@@ -9950,7 +9950,7 @@ Respuesta: **A los vehículos de motor.**
 ## B1-sen-0106
 
 ¿Puede entrar con una motocicleta de dos ruedas ante esta señal?  
-Respuesta: **Sí: prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas.**
+Respuesta: **Sí.**
 
 - ✔ La R-103 prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas. La prohibición de acceso a motocicletas es la R-104. _(RGC_CATALOGO Anexo I, catálogo de señales, R-103 (pág. 102 del PDF consolidado))_
 - ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
@@ -9959,7 +9959,7 @@ Respuesta: **Sí: prohíbe el acceso a vehículos de motor, pero no a motociclet
 ## B1-sen-0107
 
 ¿A quién prohíbe la entrada esta señal?  
-Respuesta: **A los ciclomotores y a los vehículos para personas de movilidad reducida.**
+Respuesta: **A los ciclomotores y a los vehículos de movilidad reducida.**
 
 - ✔ La R-105 («Entrada prohibida a ciclomotores») prohíbe el acceso a ciclomotores e igualmente a vehículos para personas de movilidad reducida. _(RGC_CATALOGO Anexo I, catálogo de señales, R-105 (pág. 102 del PDF consolidado))_
 - ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
@@ -9967,8 +9967,8 @@ Respuesta: **A los ciclomotores y a los vehículos para personas de movilidad re
 
 ## B1-sen-0108
 
-¿A quién prohíbe la entrada esta señal con la silueta de un camión, sin ninguna cifra?  
-Respuesta: **A los vehículos destinados al transporte de mercancías (camiones, tractocamiones y furgones o furgonetas), independientemente de su masa.**
+¿A quién prohíbe la entrada esta señal?  
+Respuesta: **A los vehículos destinados al transporte de mercancías, sea cual sea su masa.**
 
 - ✔ La R-106 prohíbe el acceso a vehículos destinados al transporte de mercancías, entendiéndose como tales camiones, tractocamiones y furgones o furgonetas, independientemente de su masa. _(RGC_CATALOGO Anexo I, catálogo de señales, R-106 (pág. 103 del PDF consolidado))_
 - ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
@@ -9976,8 +9976,8 @@ Respuesta: **A los vehículos destinados al transporte de mercancías (camiones,
 
 ## B1-sen-0109
 
-Conduce un camión cuya masa máxima autorizada es 7,5 t; va vacío y pesa 4,5 t. Encuentra esta señal (camión con la cifra 5,5 t). ¿Puede entrar?  
-Respuesta: **No, porque su masa máxima autorizada es superior a 5,5 t, aunque vaya vacío.**
+Conduce un camión de 7,5 t de masa máxima autorizada que va vacío y pesa 4,5 t. ¿Puede entrar ante esta señal de 5,5 t?  
+Respuesta: **No.**
 
 - ✔ La R-107 prohíbe el acceso a los vehículos destinados al transporte de mercancías cuya masa máxima autorizada sea superior a la indicada en la señal, aunque circulen vacíos. _(RGC_CATALOGO Anexo I, catálogo de señales, R-107 (pág. 103 del PDF consolidado))_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
@@ -9986,7 +9986,7 @@ Respuesta: **No, porque su masa máxima autorizada es superior a 5,5 t, aunque v
 ## B1-sen-0110
 
 ¿A quién prohíbe la entrada esta señal?  
-Respuesta: **A los vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica.**
+Respuesta: **A los vehículos que transportan mercancías explosivas o inflamables y deben ir señalizados.**
 
 - ✔ La R-109 prohíbe el acceso a toda clase de vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica. La de productos contaminantes del agua es la R-110. _(RGC_CATALOGO Anexo I, catálogo de señales, R-109 (pág. 103 del PDF consolidado))_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
@@ -9995,7 +9995,7 @@ Respuesta: **A los vehículos que transporten mercancías explosivas o fácilmen
 ## B1-sen-0111
 
 ¿A quién prohíbe la entrada esta señal?  
-Respuesta: **A los vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua.**
+Respuesta: **A los que transportan más de 1.000 litros de productos que pueden contaminar el agua.**
 
 - ✔ La R-110 prohíbe el acceso a toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua. _(RGC_CATALOGO Anexo I, catálogo de señales, R-110 (pág. 104 del PDF consolidado))_
 - ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
@@ -10013,7 +10013,7 @@ Respuesta: **A los tractores y otras máquinas agrícolas autopropulsadas.**
 ## B1-sen-0113
 
 Conduce un turismo que arrastra un remolque de un solo eje y encuentra esta señal. ¿Puede entrar?  
-Respuesta: **Sí, porque la señal exceptúa los remolques de un solo eje.**
+Respuesta: **Sí.**
 
 - ✔ La R-112 prohíbe el acceso a vehículos de motor con remolque, exceptuando los de un solo eje. Si lleva una cifra de tonelaje, la prohibición solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra. _(RGC_CATALOGO Anexo I, catálogo de señales, R-112 (pág. 104 del PDF consolidado))_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
@@ -10048,8 +10048,8 @@ Respuesta: **El paso de los vehículos cuya masa por eje supere 2,4 toneladas.**
 
 ## B1-sen-0117
 
-Conduce un turismo con remolque y el conjunto mide 11 metros de largo. Encuentra esta señal con la cifra 10 m. ¿Puede pasar?  
-Respuesta: **No, porque prohíbe el paso a los vehículos o conjuntos de vehículos de longitud superior a la indicada.**
+Conduce un turismo con remolque y el conjunto mide 11 metros. Ante esta señal con la cifra 10 m, ¿puede pasar?  
+Respuesta: **No.**
 
 - ✔ La R-203 prohíbe el paso a los vehículos o conjunto de vehículos cuya longitud máxima, incluida la carga, supere la indicada. _(RGC_CATALOGO Anexo I, catálogo de señales, R-203 (pág. 107 del PDF consolidado))_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
@@ -10066,8 +10066,8 @@ Respuesta: **El paso de los vehículos cuya altura máxima, incluida la carga, s
 
 ## B1-sen-0119
 
-¿Qué indica esta señal con dos vehículos y la cifra 70 m?  
-Respuesta: **Prohibición de circular a menos de 70 m del vehículo precedente, excepto cuando se vaya a adelantar.**
+¿Qué indica esta señal?  
+Respuesta: **Prohibido circular a menos de 70 m del vehículo de delante, salvo para adelantar.**
 
 - ✔ La R-300 («Separación mínima») prohíbe circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada, excepto cuando se vaya a efectuar la maniobra de adelantamiento. _(RGC_CATALOGO Anexo I, catálogo de señales, R-300 (pág. 109 del PDF consolidado))_
 - ✘ `x1b-0052` Las nuevas marcas viales en tramos en obras son de color amarillo; las marcas previas que sigan siendo de aplicación pueden mantenerse blancas. _(RGC Anexo I.5.2 (Catálogo de marcas viales, 2))_
@@ -10075,8 +10075,8 @@ Respuesta: **Prohibición de circular a menos de 70 m del vehículo precedente, 
 
 ## B1-sen-0120
 
-Circula por una vía con prioridad y encuentra esta señal, sola en su poste (sin ninguna señal de peligro). ¿Hasta dónde obliga?  
-Respuesta: **Hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima.**
+Circula por una vía con prioridad y encuentra esta señal sola en su poste. ¿Hasta dónde obliga?  
+Respuesta: **Hasta la próxima señal de fin de limitación o de otra velocidad máxima.**
 
 - ✔ La R-301 obliga desde el lugar en que esté situada hasta la próxima señal «Fin de limitación de velocidad», de «Fin de prohibiciones» u otra de «Velocidad máxima». Las excepciones de la ficha (señal en el mismo poste o panel que una de peligro, o situada en una vía sin prioridad) quedan fuera por el enunciado. _(RGC_CATALOGO Anexo I, catálogo de señales, R-301 (pág. 109 del PDF consolidado))_
 - ✘ `x1b-0055` Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
@@ -10085,7 +10085,7 @@ Respuesta: **Hasta la próxima señal de fin de limitación de velocidad, de fin
 ## B1-sen-0121
 
 Esta señal prohíbe girar a la izquierda. ¿Puede cambiar de sentido de la marcha?  
-Respuesta: **No, porque la señal incluye también la prohibición del cambio de sentido de marcha.**
+Respuesta: **No.**
 
 - ✔ La R-303 («Giro a la izquierda prohibido») prohíbe girar a la izquierda e incluye también la prohibición del cambio de sentido de marcha. _(RGC_CATALOGO Anexo I, catálogo de señales, R-303 (pág. 109 del PDF consolidado))_
 - ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
@@ -10093,8 +10093,8 @@ Respuesta: **No, porque la señal incluye también la prohibición del cambio de
 
 ## B1-sen-0122
 
-¿Qué prohíbe esta señal (flecha en U tachada)?  
-Respuesta: **Efectuar la maniobra de cambio de sentido de la marcha.**
+¿Qué prohíbe esta señal?  
+Respuesta: **Cambiar de sentido de la marcha.**
 
 - ✔ La R-304 («Cambio de sentido prohibido») prohíbe efectuar la maniobra de cambio de sentido de la marcha; la que prohíbe girar a la izquierda (y con ello cambiar de sentido) es la R-303. _(RGC_CATALOGO Anexo I, catálogo de señales, R-304 (pág. 109 del PDF consolidado))_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
@@ -10103,7 +10103,7 @@ Respuesta: **Efectuar la maniobra de cambio de sentido de la marcha.**
 ## B1-sen-0123
 
 ¿Qué prohíbe esta señal?  
-Respuesta: **Adelantar a los vehículos a motor cuando la maniobra implique invadir la zona reservada al sentido contrario de circulación.**
+Respuesta: **Adelantar a vehículos de motor invadiendo el sentido contrario.**
 
 - ✔ La R-305 («Adelantamiento prohibido») prohíbe a todos los vehículos adelantar a los vehículos a motor que circulen por la calzada cuando la maniobra implique invadir la zona reservada al sentido contrario; rige hasta la señal de «Fin de prohibición de adelantamiento» o «Fin de prohibiciones». La de camiones es la R-306. _(RGC_CATALOGO Anexo I, catálogo de señales, R-305 (pág. 110 del PDF consolidado))_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
@@ -10111,8 +10111,8 @@ Respuesta: **Adelantar a los vehículos a motor cuando la maniobra implique inva
 
 ## B1-sen-0124
 
-Conduce un autobús y encuentra esta señal (camión rojo y turismo negro). ¿Le afecta la prohibición de esta señal?  
-Respuesta: **No, porque se dirige a los camiones cuya masa máxima autorizada exceda de 3.500 kg.**
+Conduce un autobús y encuentra esta señal. ¿Le afecta la prohibición?  
+Respuesta: **No.**
 
 - ✔ La R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg (incluso sin invadir el sentido contrario); no se dirige a los autobuses, que siguen sujetos a las normas generales de adelantamiento. _(RGC_CATALOGO Anexo I, catálogo de señales, R-306 (pág. 110 del PDF consolidado))_
 - ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
@@ -10120,8 +10120,8 @@ Respuesta: **No, porque se dirige a los camiones cuya masa máxima autorizada ex
 
 ## B1-sen-0125
 
-Encuentra esta señal (círculo azul con flecha blanca hacia delante) a la entrada de una intersección. ¿Puede girar a la derecha en ella?  
-Respuesta: **No, porque la flecha señala la dirección y sentido que está obligado a seguir: recto.**
+Encuentra esta señal a la entrada de una intersección. ¿Puede girar a la derecha?  
+Respuesta: **No.**
 
 - ✔ En la R-400c («Sentido obligatorio») la flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir: hacia delante. _(RGC_CATALOGO Anexo I, catálogo de señales, R-400c (pág. 115 del PDF consolidado))_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
@@ -10129,8 +10129,8 @@ Respuesta: **No, porque la flecha señala la dirección y sentido que está obli
 
 ## B1-sen-0126
 
-¿Qué indica esta señal (círculo azul con flechas blancas hacia delante y hacia la derecha)?  
-Respuesta: **Que las únicas direcciones y sentidos permitidos son seguir recto o girar a la derecha.**
+¿Qué indica esta señal?  
+Respuesta: **Que solo se puede seguir recto o girar a la derecha.**
 
 - ✔ En la R-403a («Únicas direcciones y sentidos permitidos») las flechas señalan las únicas direcciones y sentidos que los vehículos pueden tomar: recto o a la derecha. _(RGC_CATALOGO Anexo I, catálogo de señales, R-403a (pág. 116 del PDF consolidado))_
 - ✘ `B1-sen-0005` El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
@@ -10138,8 +10138,8 @@ Respuesta: **Que las únicas direcciones y sentidos permitidos son seguir recto 
 
 ## B1-sen-0127
 
-Esta señal azul con la silueta de un turismo indica una calzada obligatoria para automóviles. ¿Están obligadas a circular por ella las motocicletas de dos ruedas?  
-Respuesta: **No, la obligación exceptúa a las motocicletas de dos ruedas y a los vehículos de tres ruedas asimilados a motocicletas.**
+Esta señal indica una calzada obligatoria para automóviles. ¿Están obligadas a circular por ella las motocicletas de dos ruedas?  
+Respuesta: **No.**
 
 - ✔ La R-404 obliga a los conductores de automóviles a circular por la calzada a cuya entrada está situada, excepto a las motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas. _(RGC_CATALOGO Anexo I, catálogo de señales, R-404 (pág. 116 del PDF consolidado))_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -10147,8 +10147,8 @@ Respuesta: **No, la obligación exceptúa a las motocicletas de dos ruedas y a l
 
 ## B1-sen-0128
 
-Circula en una motocicleta de dos ruedas y encuentra esta señal azul con una motocicleta. ¿Qué debe hacer?  
-Respuesta: **Circular por esa calzada, porque es obligatoria para las motocicletas de dos ruedas.**
+Conduce una motocicleta de dos ruedas y encuentra esta señal. ¿Qué debe hacer?  
+Respuesta: **Circular por esa calzada.**
 
 - ✔ La R-405 obliga a los conductores de motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas a circular por la calzada a cuya entrada está situada. _(RGC_CATALOGO Anexo I, catálogo de señales, R-405 (pág. 117 del PDF consolidado))_
 - ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
@@ -10156,8 +10156,8 @@ Respuesta: **Circular por esa calzada, porque es obligatoria para las motociclet
 
 ## B1-sen-0129
 
-¿Puede circular un turismo por una vía señalizada con esta señal azul con una bicicleta?  
-Respuesta: **No, porque es una vía reservada a los ciclos y prohibida a los demás usuarios.**
+¿Puede circular un turismo por una vía señalizada con esta señal?  
+Respuesta: **No.**
 
 - ✔ La R-407a («Vía reservada y obligatoria para ciclos») obliga a los conductores de ciclos a circular por esa vía y prohíbe a los demás usuarios utilizarla. _(RGC_CATALOGO Anexo I, catálogo de señales, R-407a (pág. 117 del PDF consolidado))_
 - ✘ `B1-sen-0005` El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
@@ -10174,8 +10174,8 @@ Respuesta: **Vía reservada y obligatoria para ciclomotores; los demás usuarios
 
 ## B1-sen-0131
 
-¿Qué indica esta señal azul con un carro tirado por un caballo?  
-Respuesta: **Obligación para los conductores de vehículos de tracción animal de utilizar el camino a cuya entrada está situada.**
+¿Qué indica esta señal?  
+Respuesta: **Camino obligatorio para vehículos de tracción animal.**
 
 - ✔ La R-408 («Camino obligatorio para vehículos de tracción animal») obliga a los conductores de vehículos de tracción animal a utilizar ese camino. La prohibición de entrada a estos vehículos es la R-113 (círculo blanco con orla roja) y el camino para animales de montura, la R-409. _(RGC_CATALOGO Anexo I, catálogo de señales, R-408 (pág. 117 del PDF consolidado))_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
@@ -10183,8 +10183,8 @@ Respuesta: **Obligación para los conductores de vehículos de tracción animal 
 
 ## B1-sen-0132
 
-¿Qué indica esta señal azul con una persona a caballo?  
-Respuesta: **Camino reservado y obligatorio para animales de montura; los demás usuarios no pueden utilizarlo.**
+¿Qué indica esta señal?  
+Respuesta: **Camino reservado y obligatorio para animales de montura.**
 
 - ✔ La R-409 obliga a los jinetes a utilizar con sus animales de montura ese camino y prohíbe a los demás usuarios de la vía utilizarlo. La prohibición de entrada a animales de montura es la R-117. _(RGC_CATALOGO Anexo I, catálogo de señales, R-409 (pág. 118 del PDF consolidado))_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
@@ -10201,8 +10201,8 @@ Respuesta: **Camino reservado y obligatorio para peatones; los demás usuarios n
 
 ## B1-sen-0134
 
-¿Qué indica esta señal azul con la cifra 40?  
-Respuesta: **Velocidad mínima: obligación de circular, por lo menos, a 40 km/h.**
+¿Qué indica esta señal?  
+Respuesta: **Velocidad mínima de 40 km/h.**
 
 - ✔ La R-411 («Velocidad mínima») obliga a circular, por lo menos, a la velocidad indicada en kilómetros por hora. _(RGC_CATALOGO Anexo I, catálogo de señales, R-411 (pág. 118 del PDF consolidado))_
 - ✘ `x1b-0053` Los dispositivos LED que pueden incorporar las señales verticales, en sus bordes o en su interior, son de color blanco, amarillo o ámbar. _(RGC Anexo I.5 (Catálogo, tomo I, 2.4))_
@@ -10210,8 +10210,8 @@ Respuesta: **Velocidad mínima: obligación de circular, por lo menos, a 40 km/h
 
 ## B1-sen-0135
 
-¿Qué indica esta señal azul con un faro?  
-Respuesta: **Obligación de circular con el alumbrado al menos de corto alcance, con independencia de la visibilidad, hasta una señal de fin de esta obligación.**
+¿Qué indica esta señal?  
+Respuesta: **Obligación de llevar encendida al menos la luz de cruce, haya o no visibilidad.**
 
 - ✔ La R-413 («Alumbrado de corto alcance») obliga a circular con el alumbrado al menos de corto alcance, con independencia de las condiciones de visibilidad e iluminación, desde la señal hasta otra de fin de esta obligación. _(RGC_CATALOGO Anexo I, catálogo de señales, R-413 (pág. 119 del PDF consolidado))_
 - ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
@@ -10219,8 +10219,8 @@ Respuesta: **Obligación de circular con el alumbrado al menos de corto alcance,
 
 ## B1-sen-0136
 
-¿Qué indica esta señal azul con un neumático con cadenas?  
-Respuesta: **Obligación de no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados, o neumáticos especiales de nieve.**
+¿Qué indica esta señal?  
+Respuesta: **Que no se puede seguir sin cadenas, otros dispositivos autorizados o neumáticos de nieve.**
 
 - ✔ La R-412 («Cadenas para nieve») obliga a no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados que actúen al menos en una rueda a cada lado del mismo eje motor, o neumáticos especiales de nieve. _(RGC_CATALOGO Anexo I, catálogo de señales, R-412 (pág. 118 del PDF consolidado))_
 - ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
@@ -10228,8 +10228,8 @@ Respuesta: **Obligación de no proseguir la marcha sin cadenas para nieve u otro
 
 ## B1-sen-0137
 
-Transporta 5.000 litros de un producto capaz de contaminar el agua y encuentra esta señal azul. ¿Qué debe hacer?  
-Respuesta: **Circular por esa calzada, porque es obligatoria para su vehículo.**
+Transporta 5.000 litros de un producto que puede contaminar el agua y encuentra esta señal. ¿Qué debe hacer?  
+Respuesta: **Circular por esa calzada.**
 
 - ✔ La R-415 obliga a los conductores de toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua a circular por la calzada a cuya entrada está situada. _(RGC_CATALOGO Anexo I, catálogo de señales, R-415 (pág. 119 del PDF consolidado))_
 - ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
@@ -10238,7 +10238,7 @@ Respuesta: **Circular por esa calzada, porque es obligatoria para su vehículo.*
 ## B1-sen-0138
 
 ¿Qué indica esta señal sobre uno de los carriles de un peaje?  
-Respuesta: **Vía exclusiva para vehículos dotados de equipo de telepeaje operativo: telepeaje obligatorio.**
+Respuesta: **Carril exclusivo para vehículos con telepeaje operativo.**
 
 - ✔ La R-418 indica una vía exclusiva para vehículos dotados de equipo de telepeaje operativo: el pago del peaje debe hacerse mediante telepeaje y el vehículo debe llevar el medio técnico operativo. _(RGC_CATALOGO Anexo I, catálogo de señales, R-418 (pág. 120 del PDF consolidado))_
 - ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
@@ -10255,7 +10255,7 @@ Respuesta: **Exclusivamente los automóviles.**
 
 ## B2-luz-0002
 
-De día, entra en un tramo afectado por esta señal (Túnel) que está suficientemente iluminado. ¿Qué alumbrado debe llevar encendido su turismo?  
+De día, entra en un tramo afectado por esta señal que está suficientemente iluminado. ¿Qué alumbrado debe llevar encendido?  
 Respuesta: **El de posición y el de corto alcance o de cruce.**
 
 - ✔ A cualquier hora del día, en túneles, pasos inferiores y tramos afectados por la señal S-5 suficientemente iluminados, los vehículos de motor y ciclomotores llevarán, además del alumbrado de posición, el de cruce. Si el túnel está insuficientemente iluminado, deberá llevar el de carretera salvo que deba usar el de cruce para no deslumbrar. _(RGC 101.1)_
@@ -10327,8 +10327,8 @@ Respuesta: **Que el uso del carril bici es obligatorio.**
 
 ## B2-via-0011
 
-Según la Ley de Tráfico, ¿qué es una senda ciclable?  
-Respuesta: **Una vía para peatones y ciclos, segregada del tráfico motorizado, que discurre por espacios abiertos, parques, jardines o bosques.**
+¿Qué es una senda ciclable?  
+Respuesta: **Una vía para peatones y ciclos, segregada del tráfico, que discurre por parques, jardines o bosques.**
 
 - ✔ La senda ciclable es una vía para peatones y ciclos, segregada del tráfico motorizado, que discurre por espacios abiertos, parques, jardines o bosques. _(LSV Anexo I.79)_
 - ✘ `xc-0112` El carril-bici es una vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido. _(LSV Anexo I.75)_
@@ -10336,7 +10336,7 @@ Respuesta: **Una vía para peatones y ciclos, segregada del tráfico motorizado,
 
 ## B2-via-0012
 
-En una zona peatonal que no sea acera, ¿puede la autoridad municipal permitir la circulación de ciclistas y usuarios de vehículos de movilidad personal?  
+En una zona peatonal que no es acera, ¿puede el ayuntamiento permitir que circulen ciclistas y vehículos de movilidad personal?  
 Respuesta: **Sí, mediante ordenanza y respetando la prioridad de los peatones.**
 
 - ✔ En las zonas peatonales distintas de las aceras, la autoridad municipal puede autorizar mediante ordenanza la coexistencia de peatones con ciclistas y usuarios de VMP, respetando la prioridad de los peatones. _(RGC 152.1)_
@@ -10346,7 +10346,7 @@ Respuesta: **Sí, mediante ordenanza y respetando la prioridad de los peatones.*
 ## B2-via-0013
 
 ¿Qué pueden permitir las ordenanzas municipales respecto a la circulación por las aceras?  
-Respuesta: **Que circulen niños de hasta doce años en bicicleta, siempre que vayan a cargo de un adulto que circule a pie.**
+Respuesta: **Que circulen en bicicleta niños de hasta doce años acompañados de un adulto a pie.**
 
 - ✔ En las aceras está prohibida la circulación de cualquier tipo de vehículo, pero las ordenanzas pueden permitir que circulen niños de hasta doce años en bicicleta a cargo de un adulto que vaya a pie. _(RGC 152.1)_
 - ✘ `via-0007` Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares). _(RGC 38.4.b)_
@@ -10364,7 +10364,7 @@ Respuesta: **A la señal vertical.**
 ## B2-mv-0017
 
 ¿Qué significa esta marca longitudinal discontinua que separa dos carriles?  
-Respuesta: **Que puede atravesarse para maniobras permitidas, como cambiar de carril, respetando la prioridad del vehículo que circula por el carril que se pretende ocupar.**
+Respuesta: **Que puede atravesarse para maniobras permitidas, respetando al que circula por el otro carril.**
 
 - ✔ Las marcas longitudinales discontinuas delimitan carriles y pueden atravesarse para maniobras permitidas, como giros o cambios de carril, respetando la prioridad del vehículo que circula por el carril que se quiere ocupar. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.1)_
 - ✘ `x1b-0011` En los lugares de estacionamiento con limitación horaria está prohibido estacionar sin colocar el distintivo que lo autoriza o superando el tiempo máximo permitido por la ordenanza. _(RGC 94.2.b)_
@@ -10390,8 +10390,8 @@ Respuesta: **Únicamente la línea situada en el lado por el que circula.**
 
 ## B2-mv-0020
 
-En una marca continua adosada a discontinua que separa sentidos opuestos, usted inició un adelantamiento desde el carril contiguo a la línea discontinua. ¿Puede atravesar después la línea continua para volver a su carril?  
-Respuesta: **Sí, para volver a su carril tras realizar el adelantamiento o desistir de él.**
+En una marca continua adosada a discontinua entre sentidos opuestos, inició un adelantamiento desde el carril del lado discontinuo. ¿Puede cruzar después la línea continua para volver a su carril?  
+Respuesta: **Sí.**
 
 - ✔ Quien inició el adelantamiento desde el carril contiguo a la línea discontinua puede atravesar la continua y volver a su carril tras adelantar o desistir del adelantamiento. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.1)_
 - ✘ `x1a-0017` Al acercarse a pasos para peatones no regulados por semáforo o agentes, a intersecciones y a lugares donde es previsible la presencia de niños, se circula a velocidad moderada y, si es preciso, se detiene el vehículo. _(RGC 46.1.b)_
@@ -10408,8 +10408,8 @@ Respuesta: **Un carril reversible.**
 
 ## B2-mv-0022
 
-Una línea longitudinal discontinua de preaviso, con separaciones entre trazos más cortas que las de una línea discontinua normal, ¿qué anuncia?  
-Respuesta: **La proximidad de una marca longitudinal continua o de un tramo con un riesgo especial.**
+Una línea discontinua de preaviso, con trazos más juntos que los de una línea discontinua normal, ¿qué anuncia?  
+Respuesta: **Una línea continua próxima o un tramo con un riesgo especial.**
 
 - ✔ Las marcas de preaviso (M-1.9 y M-1.10) anuncian la proximidad de una marca longitudinal continua y la prohibición que implica, o de un tramo de vía con un riesgo especial. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.1)_
 - ✘ `x1a-0058` Incumplir las disposiciones sobre preferencia de paso, adelantamientos, cambios de dirección o sentido, marcha atrás y utilización de carriles y arcenes es una infracción grave, cuando no constituye delito. _(LSV 76.c)_
@@ -10462,7 +10462,7 @@ Respuesta: **Está sobreelevado.**
 
 ## B2-mv-0029
 
-Si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros anteriores al paso para peatones, como mínimo, no se permitirá aparcar automóviles?  
+Si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros antes de un paso para peatones no se permite aparcar automóviles, como mínimo?  
 Respuesta: **En 6 metros.**
 
 - ✔ No se permitirá aparcar automóviles en al menos los 6 m anteriores al paso si la acera está alineada con el límite exterior de la banda de estacionamiento, o en los 3 m anteriores si está alineada con el límite interior. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.2)_
@@ -10480,8 +10480,8 @@ Respuesta: **Exclusivamente a los vehículos que circulen por ese carril.**
 
 ## B2-mv-0031
 
-La marca STOP pintada en la calzada, ¿qué obligación impone?  
-Respuesta: **Detenerse ante la línea de detención (o, si no existe, inmediatamente antes de la calzada a la que se aproxima) y ceder el paso.**
+Esta marca pintada en la calzada, ¿qué obligación impone?  
+Respuesta: **Detenerse ante la línea de detención o, si no la hay, antes de la calzada, y ceder el paso.**
 
 - ✔ La marca STOP tiene el mismo significado que la señal vertical: obliga a detener el vehículo ante la línea de detención o, si no existe, inmediatamente antes de la calzada a la que se aproxima, y después ceder el paso. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.4)_
 - ✘ `A-adel-0012` Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida, salvo que los dos sentidos estén claramente delimitados y la maniobra pueda hacerse sin invadir la zona del sentido contrario. _(RGC 87.1.a)_
@@ -10490,7 +10490,7 @@ Respuesta: **Detenerse ante la línea de detención (o, si no existe, inmediatam
 ## B2-mv-0032
 
 ¿Qué significa este triángulo pintado en la calzada?  
-Respuesta: **Obligación de ceder el paso a los vehículos que circulen por la calzada a la que se aproxima, deteniéndose si es preciso.**
+Respuesta: **Obligación de ceder el paso a los de la calzada a la que se aproxima.**
 
 - ✔ La marca de ceda el paso (M-6.5) obliga a ceder el paso a los vehículos que circulen por la calzada a la que se aproxima, deteniéndose si es preciso ante la línea de ceda el paso. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.4)_
 - ✘ `x1a-0066` Los vehículos que necesitan autorización especial para circular no pueden cruzarse en los puentes si el ancho de la calzada es inferior a seis metros, de modo que cada uno cuente con al menos tres metros. _(RGC 61.3)_
@@ -10499,7 +10499,7 @@ Respuesta: **Obligación de ceder el paso a los vehículos que circulen por la c
 ## B2-mv-0033
 
 En un carril con una flecha de selección que incluye la dirección de frente, ¿puede cambiarse de carril?  
-Respuesta: **Sí, siempre que se mantenga la dirección de circulación y las marcas longitudinales lo permitan.**
+Respuesta: **Sí, si se mantiene la dirección y las marcas longitudinales lo permiten.**
 
 - ✔ Las flechas que incluyen la dirección de frente no impiden el cambio de carril, siempre que se mantenga la dirección de circulación y las marcas longitudinales lo permitan. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.3)_
 - ✘ `A-par-0011` Está prohibido parar en las intersecciones y sus proximidades si se dificulta el giro a otros vehículos o, en vías interurbanas, si se genera peligro por falta de visibilidad. _(RGC 94.1.d)_
@@ -10508,7 +10508,7 @@ Respuesta: **Sí, siempre que se mantenga la dirección de circulación y las ma
 ## B2-mv-0034
 
 ¿Qué indica esta flecha pintada en su carril?  
-Respuesta: **Que el carril termina próximamente y debe abandonarlo hacia la dirección indicada, respetando la prioridad de quienes circulan por el carril que va a ocupar.**
+Respuesta: **Que el carril termina pronto y debe dejarlo hacia el lado indicado.**
 
 - ✔ La flecha de fin de carril indica que el carril termina próximamente y hay que abandonarlo hacia la dirección indicada, respetando la prioridad de los vehículos del carril que se va a ocupar. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.3)_
 - ✘ `v4b-sen-0004` En la zona de coexistencia (S-47) la velocidad máxima de los vehículos es de 20 km/h. En la zona de estancia y juego (S-28) es de 10 km/h. _(RGC_CATALOGO Anexo I, señal S-47)_
@@ -10517,7 +10517,7 @@ Respuesta: **Que el carril termina próximamente y debe abandonarlo hacia la dir
 ## B2-mv-0035
 
 Ve esta flecha en el eje de una calzada de doble sentido mientras está adelantando. ¿Qué debe hacer?  
-Respuesta: **Finalizar el adelantamiento lo antes posible, porque se aproxima una línea continua.**
+Respuesta: **Terminar el adelantamiento cuanto antes.**
 
 - ✔ La flecha de retorno anuncia la proximidad de una línea continua que prohíbe circular por su izquierda; hay que desistir de iniciar el adelantamiento o finalizarlo lo antes posible. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.3)_
 - ✘ `vel-0004` Los automóviles con remolque están en el grupo de camiones, furgonetas y vehículos articulados: 90 km/h en autopista y autovía y 80 km/h en convencional. _(RGC 48.1.a)_
@@ -10525,7 +10525,7 @@ Respuesta: **Finalizar el adelantamiento lo antes posible, porque se aproxima un
 
 ## B2-mv-0036
 
-¿Qué indica esta marca pintada en la calzada (aspa con las letras PN)?  
+¿Qué indica esta marca pintada en la calzada?  
 Respuesta: **La proximidad de un paso a nivel.**
 
 - ✔ La marca de paso a nivel indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía, en el que los vehículos deben ceder el paso cuando se aproxime un tren o tranvía. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
@@ -10543,8 +10543,8 @@ Respuesta: **El comienzo de un carril reservado a determinados vehículos, como 
 
 ## B2-mv-0038
 
-¿Puede entrar con su vehículo en una zona marcada con franjas oblicuas paralelas enmarcadas por una línea continua (cebreado)?  
-Respuesta: **No; solo pueden entrar los obligados a circular por el arcén.**
+¿Puede entrar con su vehículo en una zona marcada como esta?  
+Respuesta: **No, salvo los obligados a circular por el arcén.**
 
 - ✔ El cebreado significa que ningún conductor debe entrar con su vehículo o animal en esa zona, excepto los obligados a circular por el arcén. _(RGC 147.2.d))_
 - ✘ `B2-mv-0023` Las líneas de borde de calzada delimitan el borde de la calzada; que sean continuas o discontinuas no conlleva diferencia respecto al uso del arcén reglamentariamente establecido. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.1)_
@@ -10553,7 +10553,7 @@ Respuesta: **No; solo pueden entrar los obligados a circular por el arcén.**
 ## B2-mv-0039
 
 ¿Qué indica una línea amarilla continua pintada junto al bordillo?  
-Respuesta: **Prohibición de parar y de estacionar a lo largo de toda su longitud en ese lado de la calzada.**
+Respuesta: **Que no se puede parar ni estacionar en ese lado a lo largo de toda la línea.**
 
 - ✔ La marca longitudinal continua amarilla indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde está situada. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `x1a-0086` Los agentes de la autoridad pueden exigir en cualquier momento la justificación de las circunstancias graves por las que un vehículo no prioritario presta un servicio de urgencia. _(RGC 70.3)_
@@ -10562,7 +10562,7 @@ Respuesta: **Prohibición de parar y de estacionar a lo largo de toda su longitu
 ## B2-mv-0041
 
 ¿Qué indica una marca amarilla en zigzag junto al bordillo?  
-Respuesta: **Que el estacionamiento está prohibido por estar ese lugar reservado a un uso especial, como una parada de autobuses o la carga y descarga.**
+Respuesta: **Que se prohíbe estacionar por estar reservado a un uso especial.**
 
 - ✔ La marca amarilla en zigzag indica el lugar en que el estacionamiento está prohibido a los vehículos en general por estar reservado a un uso especial que no implique larga permanencia, como paradas de autobús o carga y descarga. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `x1a-0026` Las autocaravanas de MMA igual o inferior a 3.500 kg tienen los mismos límites genéricos que los turismos: 120 km/h en autopistas y autovías y 90 km/h en carreteras convencionales. _(RGC 48.1.a)_
@@ -10571,7 +10571,7 @@ Respuesta: **Que el estacionamiento está prohibido por estar ese lugar reservad
 ## B2-mv-0042
 
 Una intersección tiene pintada una cuadrícula amarilla. El semáforo está en verde, pero hay retención a la salida. ¿Qué debe hacer?  
-Respuesta: **No entrar en la intersección si previsiblemente va a quedar detenido obstruyendo la circulación transversal.**
+Respuesta: **No entrar si previsiblemente va a quedar detenido dentro.**
 
 - ✔ La cuadrícula recuerda la prohibición de penetrar en una intersección, aun con semáforo que lo permita o con prioridad, si previsiblemente se va a quedar detenido impidiendo u obstruyendo la circulación transversal. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `x1a-0058` Incumplir las disposiciones sobre preferencia de paso, adelantamientos, cambios de dirección o sentido, marcha atrás y utilización de carriles y arcenes es una infracción grave, cuando no constituye delito. _(LSV 76.c)_
@@ -10580,7 +10580,7 @@ Respuesta: **No entrar en la intersección si previsiblemente va a quedar deteni
 ## B2-mv-0043
 
 ¿Qué indica un damero de cuadrados blancos y rojos pintado en la calzada?  
-Respuesta: **El lugar donde empieza una zona de frenado de emergencia, en la que está prohibido parar y estacionar.**
+Respuesta: **El comienzo de una zona de frenado de emergencia.**
 
 - ✔ La marca de acceso a un lecho de frenado es un damero de cuadrados blancos y rojos que indica dónde empieza una zona de frenado de emergencia, prohibiendo la parada, el estacionamiento o el uso de esa superficie con otros fines. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `x1a-0060` Quien debe ceder el paso tiene que mostrar con suficiente antelación, por su forma de circular y especialmente reduciendo paulatinamente la velocidad, que efectivamente va a cederlo. _(RGC 58.1)_
@@ -10588,8 +10588,8 @@ Respuesta: **El lugar donde empieza una zona de frenado de emergencia, en la que
 
 ## B2-mv-0044
 
-¿Para qué sirven estas marcas en forma de galón (punta de flecha) pintadas en el carril?  
-Respuesta: **Como referencia para mantener la separación mínima con el vehículo que le precede.**
+¿Para qué sirven estas marcas pintadas en el carril?  
+Respuesta: **Como referencia para mantener la separación con el vehículo de delante.**
 
 - ✔ La marca de separación de seguridad entre vehículos sirve como referencia para mantener la separación mínima con el vehículo precedente en túneles, secciones especiales y tramos con mayor riesgo de alcance. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `xc-0070` Quien circula detrás de otro sin señalar su propósito de adelantar debe guardar una separación que permita al que a su vez le sigue adelantarlo con seguridad. _(RGC 54.2)_
@@ -10597,8 +10597,8 @@ Respuesta: **Como referencia para mantener la separación mínima con el vehícu
 
 ## B2-mv-0045
 
-En un espacio avanza-motos o avanza-bici delante de un semáforo, cuando el semáforo está en rojo, ¿quién puede ocupar ese espacio?  
-Respuesta: **Solo determinados vehículos, como ciclos, vehículos de movilidad personal, motocicletas o ciclomotores.**
+En un espacio avanza-motos o avanza-bici delante de un semáforo en rojo, ¿quién puede ocuparlo?  
+Respuesta: **Solo determinados vehículos, como ciclos, motocicletas o ciclomotores.**
 
 - ✔ El avanza-bici o avanza-motos es un espacio anterior a la intersección o paso de peatones regulado por semáforo que, con el semáforo en rojo, solo pueden ocupar determinados vehículos como ciclos, VMP, motocicletas o ciclomotores. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `x1a-0017` Al acercarse a pasos para peatones no regulados por semáforo o agentes, a intersecciones y a lugares donde es previsible la presencia de niños, se circula a velocidad moderada y, si es preciso, se detiene el vehículo. _(RGC 46.1.b)_
@@ -10606,8 +10606,8 @@ Respuesta: **Solo determinados vehículos, como ciclos, vehículos de movilidad 
 
 ## B2-mv-0046
 
-¿Qué advierten las marcas llamadas 'dientes de dragón'?  
-Respuesta: **La aproximación a una travesía o vía urbana en la que debe reducirse sensiblemente la velocidad.**
+¿Qué advierten estas marcas?  
+Respuesta: **Que se acerca una travesía o vía urbana y hay que reducir la velocidad.**
 
 - ✔ Los dientes de dragón advierten de la aproximación a una travesía o vía urbana en la que debe reducirse la velocidad sensiblemente y extremar la precaución. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
@@ -10615,7 +10615,7 @@ Respuesta: **La aproximación a una travesía o vía urbana en la que debe reduc
 
 ## B2-mv-0047
 
-Las líneas de borde quebradas (en zigzag blanco a los lados del carril), ¿de qué advierten?  
+Estas líneas de borde quebradas, ¿de qué advierten?  
 Respuesta: **De la aproximación a un paso para peatones o para ciclistas.**
 
 - ✔ Las líneas de borde quebradas advierten de la aproximación a un paso para peatones o para ciclistas, con la necesidad de disminuir la velocidad y aumentar la atención. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
@@ -10634,7 +10634,7 @@ Respuesta: **Los que tengan una anchura superior a 2,10 metros.**
 ## C-luc-0002
 
 Se considera vía insuficientemente iluminada aquella en la que, con vista normal, en algún punto de su calzada...  
-Respuesta: **no pueda leerse la placa de matrícula a 10 metros o no se distinga un vehículo pintado de oscuro a 50 metros.**
+Respuesta: **No pueda leerse la matrícula a 10 metros o no se distinga un vehículo oscuro a 50 metros.**
 
 - ✔ El Reglamento define la vía insuficientemente iluminada con dos referencias: matrícula ilegible a 10 metros o vehículo oscuro no distinguible a 50 metros. _(RGC 100.3)_
 - ✘ `x1b-0019` Todos los vehículos que circulan entre el ocaso y la salida del sol, o a cualquier hora en túneles, pasos inferiores y tramos con la señal «Túnel», deben llevar encendido el alumbrado que corresponda. _(RGC 98.1)_
@@ -10642,7 +10642,7 @@ Respuesta: **no pueda leerse la placa de matrícula a 10 metros o no se distinga
 
 ## C-luc-0003
 
-De noche circula a 80 km/h por una carretera fuera de poblado insuficientemente iluminada y no hay ningún usuario al que pueda deslumbrar. ¿Qué alumbrado debe llevar encendido?  
+De noche circula a 80 km/h fuera de poblado por una carretera insuficientemente iluminada, sin nadie a quien deslumbrar. ¿Qué alumbrado debe llevar?  
 Respuesta: **El de largo alcance o carretera.**
 
 - ✔ La luz de largo alcance es obligatoria a más de 40 km/h, de noche, fuera de poblado y en vías insuficientemente iluminadas, salvo cuando haya que usar la de cruce (por ejemplo, para no deslumbrar). _(RGC 100.1)_
@@ -10661,7 +10661,7 @@ Respuesta: **No, está prohibido siempre que el vehículo esté parado o estacio
 ## C-luc-0005
 
 Circula de noche con la luz de largo alcance. ¿Cuándo debe sustituirla por la de corto alcance o cruce?  
-Respuesta: **Tan pronto como aprecie la posibilidad de deslumbrar a otros usuarios, aunque el que viene de frente no la cambie.**
+Respuesta: **En cuanto pueda deslumbrar a otros, aunque el que viene de frente no la cambie.**
 
 - ✔ La luz de carretera debe sustituirse por la de cruce en cuanto exista posibilidad de deslumbrar, especialmente a quienes circulan en sentido contrario, aunque estos no cumplan la norma. _(RGC 102.1)_
 - ✘ `v5f-luc-0001` Con demasiado peso en la parte de atrás, la parte delantera del vehículo se levanta y la luz de cruce puede quedar muy alta y deslumbrar. Por eso hay que repartir bien la carga y mantener las luces bien reguladas. _(MANUAL_DGT Tema 14, Deslumbramientos (pág. 348))_
@@ -10688,7 +10688,7 @@ Respuesta: **Reducir la velocidad lo necesario, incluso hasta detenerse por comp
 ## C-luc-0008
 
 De noche deja su turismo estacionado en línea en la calzada de una travesía insuficientemente iluminada. ¿Qué alumbrado debe dejar encendido?  
-Respuesta: **Las luces de posición, que puede sustituir por las de estacionamiento.**
+Respuesta: **Las de posición o, en su lugar, las de estacionamiento.**
 
 - ✔ En una travesía insuficientemente iluminada el vehículo parado o estacionado de noche debe llevar las luces de posición, sustituibles por las de estacionamiento o por las dos de posición del lado de la calzada si está en línea. _(RGC 105.2)_
 - ✘ `v5f-luc-0001` Con demasiado peso en la parte de atrás, la parte delantera del vehículo se levanta y la luz de cruce puede quedar muy alta y deslumbrar. Por eso hay que repartir bien la carga y mantener las luces bien reguladas. _(MANUAL_DGT Tema 14, Deslumbramientos (pág. 348))_
@@ -10696,7 +10696,7 @@ Respuesta: **Las luces de posición, que puede sustituir por las de estacionamie
 
 ## C-luc-0009
 
-De noche estaciona en una calle urbana (que no es travesía) con buena iluminación, que permite a los demás distinguir su vehículo a distancia suficiente. ¿Debe dejar encendidas las luces de posición?  
+De noche estaciona en una calle urbana, que no es travesía, tan bien iluminada que su vehículo se distingue a distancia suficiente. ¿Debe dejar encendidas las luces de posición?  
 Respuesta: **No es obligatorio.**
 
 - ✔ En vías urbanas que no sean travesías no es obligatorio dejar las luces de posición si la iluminación permite a otros usuarios distinguir el vehículo a distancia suficiente. _(RGC 105.3)_
@@ -10706,7 +10706,7 @@ Respuesta: **No es obligatorio.**
 ## C-luc-0010
 
 Su vehículo queda inmovilizado por avería en el arcén de una carretera durante la noche. ¿Qué luces debe tener encendidas como mínimo?  
-Respuesta: **Las de posición y, en su caso, las de gálibo.**
+Respuesta: **Las de posición y, si las tiene, las de gálibo.**
 
 - ✔ Todo vehículo inmovilizado de noche en calzada o arcén debe tener encendidas las luces de posición y, en su caso, las de gálibo. Además, en autopista o autovía o con visibilidad reducida debe usar la luz de emergencia (art. 109.2.c). _(RGC 105.1)_
 - ✘ `v5f-luc-0001` Con demasiado peso en la parte de atrás, la parte delantera del vehículo se levanta y la luz de cruce puede quedar muy alta y deslumbrar. Por eso hay que repartir bien la carga y mantener las luces bien reguladas. _(MANUAL_DGT Tema 14, Deslumbramientos (pág. 348))_
@@ -10742,7 +10742,7 @@ Respuesta: **Sí, por cualquier vía.**
 ## C-luc-0014
 
 Durante el día empieza a llover de forma intensa y la visibilidad disminuye sensiblemente. ¿Qué alumbrado debe utilizar?  
-Respuesta: **La luz antiniebla delantera o la luz de corto o largo alcance.**
+Respuesta: **La antiniebla delantera o la de corto o largo alcance.**
 
 - ✔ Cuando condiciones como la lluvia intensa disminuyen sensiblemente la visibilidad, es obligatorio el alumbrado: la antiniebla delantera o la luz de corto o largo alcance. _(RGC 106.2)_
 - ✘ `C-luc-0019` De noche, en vías urbanas o interurbanas suficientemente iluminadas, se lleva el alumbrado de cruce además del de posición; nunca solo el de posición. _(RGC 101.1)_
@@ -10751,7 +10751,7 @@ Respuesta: **La luz antiniebla delantera o la luz de corto o largo alcance.**
 ## C-luc-0015
 
 Sin niebla, lluvia ni otras condiciones adversas, ¿en qué tramos se permite utilizar la luz antiniebla delantera?  
-Respuesta: **En vías estrechas con muchas curvas señalizadas, con calzada de 6,50 metros de anchura o inferior.**
+Respuesta: **En vías estrechas con muchas curvas señalizadas, de 6,50 metros de calzada o menos.**
 
 - ✔ Aparte de las condiciones que disminuyen la visibilidad, la antiniebla delantera solo puede usarse en tramos de vías estrechas (calzada de 6,50 m o menos) señalizados con sucesión de curvas. _(RGC 106.2)_
 - ✘ `C-luc-0012` Durante el día deben llevar encendida la luz de cruce todos los vehículos que circulen por un carril reversible, por un carril adicional circunstancial o por un carril habilitado en sentido contrario al habitual. _(RGC 104.b)_
@@ -10814,7 +10814,7 @@ Respuesta: **Los menores de edad de estatura igual o inferior a 135 centímetros
 ## C-per-0003
 
 En un turismo, un menor de 125 cm de estatura, ¿puede viajar en el asiento delantero?  
-Respuesta: **Sí, de forma excepcional, por ejemplo si todos los asientos traseros ya están ocupados por menores de esa estatura, y usando su sistema de retención infantil.**
+Respuesta: **Sí, excepcionalmente, si los traseros ya van ocupados por menores como él, con su sistema de retención.**
 
 - ✔ Estos menores deben ir detrás, pero excepcionalmente pueden ir delante con su sistema de retención homologado si no hay asientos traseros, si todos están ocupados por menores de 135 cm o si no caben todos los sistemas de retención. _(RGC 117.3)_
 - ✘ `v2-moto-0001` Los conductores y pasajeros de motocicletas, ciclomotores, vehículos de tres ruedas, cuadriciclos y quads deben llevar calzado cerrado que cubra todo el pie cuando circulen en todo tipo de vías, también en ciudad. _(RGC 118.1.c)_
@@ -10822,7 +10822,7 @@ Respuesta: **Sí, de forma excepcional, por ejemplo si todos los asientos traser
 
 ## C-per-0004
 
-Un bebé viaja en el asiento delantero en un sistema de retención orientado hacia atrás. El vehículo dispone de airbag frontal para ese asiento. ¿Es correcto?  
+Un bebé viaja delante en un sistema de retención orientado hacia atrás, y ese asiento tiene airbag frontal. ¿Es correcto?  
 Respuesta: **Solo si el airbag ha sido desactivado.**
 
 - ✔ En asientos delanteros con airbag frontal solo pueden usarse sistemas de retención orientados hacia atrás si el airbag ha sido desactivado. _(RGC 117.3)_
@@ -10832,7 +10832,7 @@ Respuesta: **Solo si el airbag ha sido desactivado.**
 ## C-per-0005
 
 Su vehículo no dispone de asientos traseros. ¿Puede llevar a un niño de 110 cm de estatura?  
-Respuesta: **Sí, en el asiento delantero, utilizando un sistema de retención infantil homologado adaptado a su talla y peso.**
+Respuesta: **Sí, delante, con un sistema de retención infantil adaptado a su talla y peso.**
 
 - ✔ Cuando el vehículo no dispone de asientos traseros, el menor puede ir delante, siempre con un sistema de retención homologado adaptado a su talla y peso. _(RGC 117.3)_
 - ✘ `xe-0100` Según el manual de la DGT, la sillita en el asiento trasero central protege más al niño, porque queda resguardado si el golpe llega por cualquiera de los dos lados. _(MANUAL_DGT Tema 5, Cinturones de seguridad para niños (p. 110))_
@@ -10841,7 +10841,7 @@ Respuesta: **Sí, en el asiento delantero, utilizando un sistema de retención i
 ## C-per-0006
 
 Los conductores y pasajeros de vehículos en servicio de urgencia, ¿pueden circular sin cinturón de seguridad?  
-Respuesta: **Sí, cuando circulen en poblado, pero nunca por autopistas, autovías o carreteras convencionales.**
+Respuesta: **Sí, en poblado, pero nunca fuera de poblado.**
 
 - ✔ La exención para vehículos en servicio de urgencia solo alcanza a la circulación en poblado. (Los pasajeros que asisten al paciente en ambulancias asistenciales tienen una exención propia.) _(RGC 119.2)_
 - ✘ `xe-0089` El conductor y los ocupantes deben llevar el cinturón abrochado en vías urbanas e interurbanas; el artículo 119 vigente no incluye a los repartidores entre las exenciones. _(RGC 117.1)_
@@ -10850,7 +10850,7 @@ Respuesta: **Sí, cuando circulen en poblado, pero nunca por autopistas, autoví
 ## C-per-0007
 
 ¿Puede el conductor circular sin el cinturón abrochado mientras realiza la maniobra de marcha atrás?  
-Respuesta: **Sí, al efectuar la maniobra de marcha atrás o de estacionamiento.**
+Respuesta: **Sí, al hacer marcha atrás o estacionar.**
 
 - ✔ Los conductores pueden circular sin cinturón al efectuar la maniobra de marcha atrás o de estacionamiento. _(RGC 119.1.a)_
 - ✘ `xe-0089` El conductor y los ocupantes deben llevar el cinturón abrochado en vías urbanas e interurbanas; el artículo 119 vigente no incluye a los repartidores entre las exenciones. _(RGC 117.1)_
@@ -10859,7 +10859,7 @@ Respuesta: **Sí, al efectuar la maniobra de marcha atrás o de estacionamiento.
 ## C-per-0008
 
 Una mujer embarazada, ¿está exenta de usar el cinturón de seguridad?  
-Respuesta: **No, salvo que disponga de un certificado de exención por razones médicas graves.**
+Respuesta: **No, salvo que tenga un certificado de exención por razones médicas graves.**
 
 - ✔ El embarazo no exime por sí solo. Solo están exentas las personas con certificado de exención por razones médicas graves o con discapacidad. _(RGC 119.1.b)_
 - ✘ `xe-0089` El conductor y los ocupantes deben llevar el cinturón abrochado en vías urbanas e interurbanas; el artículo 119 vigente no incluye a los repartidores entre las exenciones. _(RGC 117.1)_
@@ -10886,7 +10886,7 @@ Respuesta: **Más de 12 años.**
 ## C-per-0011
 
 Un niño de 9 años, ¿puede viajar como pasajero en un ciclomotor?  
-Respuesta: **Sí, si conduce su padre, madre, tutor o una persona mayor de edad autorizada por ellos, y lleva casco homologado.**
+Respuesta: **Sí, si conduce su padre, madre, tutor o un adulto autorizado, y lleva casco.**
 
 - ✔ Excepcionalmente, los mayores de siete años pueden ir en motocicleta o ciclomotor si conduce el padre, la madre, el tutor o una persona mayor de edad autorizada por ellos, con casco homologado. _(RGC 12.2)_
 - ✘ `xb-0093` El número de personas transportadas no puede superar el de plazas autorizadas, que en los autobuses y vehículos de servicio público debe estar señalado en placas colocadas en su interior. _(RGC 9.1)_
@@ -10895,7 +10895,7 @@ Respuesta: **Sí, si conduce su padre, madre, tutor o una persona mayor de edad 
 ## C-per-0012
 
 ¿Cuándo pueden el conductor y el pasajero de una motocicleta circular sin casco?  
-Respuesta: **Cuando la moto cuente con estructura de autoprotección y cinturones, conste así en la tarjeta ITV y usen el cinturón.**
+Respuesta: **Cuando la moto tenga estructura de autoprotección y cinturones, y los usen.**
 
 - ✔ Quedan exentos del casco (y de guantes y calzado cerrado) si el vehículo tiene estructura de autoprotección y cinturones, así consta en la tarjeta ITV, y usan el cinturón. _(RGC 118.1)_
 - ✘ `xe-0105` Según el manual de la DGT, el casco reparte la fuerza del golpe por toda su superficie para que no se concentre en un solo punto de la cabeza. _(MANUAL_DGT Tema 5, El casco (p. 117))_
@@ -10904,7 +10904,7 @@ Respuesta: **Cuando la moto cuente con estructura de autoprotección y cinturone
 ## C-per-0013
 
 Un ciclista de 30 años, que no circula por motivos profesionales, va en bicicleta por una vía urbana. ¿Está obligado a llevar casco?  
-Respuesta: **No. El casco es obligatorio en vías interurbanas y, para los menores de 16 años, en todo tipo de vías.**
+Respuesta: **No.**
 
 - ✔ Para ciclistas el casco es obligatorio en vías interurbanas y, en todo tipo de vías, para los menores de dieciséis años. Los ciclistas profesionales también deben llevarlo en vías urbanas y travesías. _(RGC 118.2)_
 - ✘ `xe-0105` Según el manual de la DGT, el casco reparte la fuerza del golpe por toda su superficie para que no se concentre en un solo punto de la cabeza. _(MANUAL_DGT Tema 5, El casco (p. 117))_
@@ -10912,7 +10912,7 @@ Respuesta: **No. El casco es obligatorio en vías interurbanas y, para los menor
 
 ## C-per-0014
 
-En una bicicleta construida para una sola persona, se puede llevar a un menor en un asiento adicional que cumpla las especificaciones técnicas. ¿Hasta qué peso puede tener el menor?  
+En una bicicleta para una sola persona se puede llevar a un menor en un asiento adicional homologado. ¿Hasta qué peso puede tener?  
 Respuesta: **Hasta 22 kg, si es capaz de sentarse por sí solo.**
 
 - ✔ Las bicicletas para una sola persona pueden llevar menores de hasta 22 kg capaces de sentarse solos en asientos adicionales que cumplan las especificaciones del Ministerio del Interior. _(RGC 154.2)_
@@ -10958,7 +10958,7 @@ Respuesta: **No, si compromete la estabilidad del vehículo.**
 ## C-car-0004
 
 Cuando sea inexcusable descargar mercancía en la vía, ¿dónde puede depositarla?  
-Respuesta: **En ninguno de estos lugares: está prohibido depositarla en la calzada, en el arcén y en las zonas peatonales.**
+Respuesta: **En ninguno de estos lugares.**
 
 - ✔ Las operaciones deben hacerse sin depositar la mercancía en la calzada, el arcén ni las zonas peatonales. _(RGC 16.c)_
 - ✘ `C-car-0010` En vehículos no destinados exclusivamente a mercancías, la carga puede sobresalir por detrás hasta el 10 % de su longitud, o el 15 % si es indivisible. _(RGC 15.3)_
@@ -10976,7 +10976,7 @@ Respuesta: **Por el lado más próximo al borde de la calzada.**
 ## C-car-0006
 
 Como norma general, ¿puede la carga sobresalir de la proyección en planta del vehículo?  
-Respuesta: **No, salvo en los casos y condiciones previstos en el Reglamento.**
+Respuesta: **No, salvo en los casos que fija la norma.**
 
 - ✔ La regla general es que la carga no sobresalga de la proyección en planta, con las excepciones del propio artículo 15. _(RGC 15.1)_
 - ✘ `C-car-0003` La carga debe ir dispuesta y, si es necesario, sujeta de modo que no pueda caer, desplazarse peligrosamente ni comprometer la estabilidad del vehículo. _(RGC 14.1)_
@@ -10984,7 +10984,7 @@ Respuesta: **No, salvo en los casos y condiciones previstos en el Reglamento.**
 
 ## C-car-0007
 
-Una furgoneta destinada exclusivamente al transporte de mercancías, de 4 metros de longitud, lleva un tubo de longitud indivisible. ¿Cuánto puede sobresalir como máximo por delante?  
+Una furgoneta solo de mercancías, de 4 metros de longitud, lleva un tubo indivisible. ¿Cuánto puede sobresalir como máximo por delante?  
 Respuesta: **Un tercio de la longitud del vehículo.**
 
 - ✔ En vehículos exclusivamente de mercancías de longitud igual o inferior a 5 m, la carga indivisible puede sobresalir el tercio de la longitud del vehículo por cada extremo. _(RGC 15.2.a.2º)_
@@ -10993,7 +10993,7 @@ Respuesta: **Un tercio de la longitud del vehículo.**
 
 ## C-car-0008
 
-Un camión de 8 metros de longitud, destinado exclusivamente al transporte de mercancías, transporta una viga indivisible. ¿Cuánto puede sobresalir la carga como máximo por la parte posterior?  
+Un camión solo de mercancías, de 8 metros de longitud, lleva una viga indivisible. ¿Cuánto puede sobresalir como máximo por detrás?  
 Respuesta: **3 metros.**
 
 - ✔ En vehículos exclusivamente de mercancías de más de 5 m, la carga indivisible puede sobresalir 2 m por delante y 3 m por detrás. _(RGC 15.2.a.1º)_
@@ -11030,7 +11030,7 @@ Respuesta: **No.**
 ## C-car-0012
 
 Un camión transporta una carga indivisible cuya dimensión menor es superior al ancho del vehículo. ¿Cuánto puede sobresalir por cada lateral?  
-Respuesta: **Hasta 0,40 metros por cada lateral, siempre que el ancho total no supere 2,55 metros.**
+Respuesta: **Hasta 0,40 metros por cada lado, sin superar 2,55 metros de ancho total.**
 
 - ✔ En vehículos exclusivamente de mercancías, si la dimensión menor de la carga indivisible supera el ancho del vehículo, puede sobresalir 0,40 m por cada lateral con un ancho total máximo de 2,55 m. _(RGC 15.2.b)_
 - ✘ `xb-0114` Cuando la carga o descarga en la vía es inexcusable, deben respetarse las normas sobre paradas y estacionamientos y, en poblado, las que dicten las autoridades municipales sobre horas y lugares adecuados. _(RGC 16.a)_
@@ -11110,7 +11110,7 @@ Respuesta: **Que el vehículo está dedicado a prestar servicios públicos.**
 
 ## C-sev-0004
 
-¿Durante cuánto tiempo debe llevar la señal V-13 (L de conductor novel) quien obtiene por primera vez un permiso de conducción?  
+Quien obtiene por primera vez un permiso de conducción, ¿durante cuánto tiempo debe llevar esta señal?  
 Respuesta: **Un año.**
 
 - ✔ Deben llevar la señal V-13 los vehículos cuyos conductores hayan obtenido por primera vez un permiso de conducción, durante el período de un año. _(RGV Anexo XI, V-13)_
@@ -11119,7 +11119,7 @@ Respuesta: **Un año.**
 
 ## C-sev-0005
 
-¿Dónde debe colocarse la señal V-13 de conductor novel en un turismo?  
+¿Dónde debe colocarse esta señal en un turismo?  
 Respuesta: **En la parte posterior izquierda, en sitio visible.**
 
 - ✔ La V-13 se coloca en la parte posterior izquierda del vehículo, en sitio visible (en motos basta con la parte posterior). _(RGV Anexo XI, V-13)_
@@ -11138,7 +11138,7 @@ Respuesta: **150 mm de anchura y 195 mm de altura.**
 ## C-sev-0007
 
 ¿Qué indica el dispositivo luminoso V-16 colocado sobre un vehículo?  
-Respuesta: **Que el vehículo ha quedado inmovilizado en la calzada o que su carga ha caído sobre ella.**
+Respuesta: **Que el vehículo está inmovilizado en la calzada o que su carga ha caído en ella.**
 
 - ✔ La V-16 indica que el vehículo está inmovilizado en la calzada o que su carga ha caído sobre la misma. _(RGV Anexo XI, V-16)_
 - ✘ `vel-0010` En las vías sin pavimentar el límite de velocidad máximo es de 30 km/h. _(RGC 48.1.f)_
@@ -11155,8 +11155,8 @@ Respuesta: **En el ángulo superior derecho del parabrisas, por su cara interior
 
 ## C-doc-0002
 
-¿Qué indica el distintivo de inspección técnica periódica (V-19)?  
-Respuesta: **Que el vehículo ha superado favorablemente la ITV periódica y la fecha en que debe pasar la próxima.**
+El distintivo de inspección técnica periódica, ¿qué indica?  
+Respuesta: **Que el vehículo ha superado la inspección técnica periódica y la fecha de la próxima.**
 
 - ✔ El distintivo V-19 indica que el vehículo ha superado favorablemente la ITV periódica y la fecha de la próxima inspección. _(RGV Anexo XI, V-19)_
 - ✘ `C-doc-0003` El conductor debe llevar y exhibir el permiso de circulación (o autorización provisional) y la tarjeta de inspección técnica. _(RGV 26.1)_
@@ -11164,7 +11164,7 @@ Respuesta: **Que el vehículo ha superado favorablemente la ITV periódica y la 
 
 ## C-doc-0003
 
-¿Qué documentos del vehículo debe llevar consigo el conductor de un turismo, según el Reglamento General de Vehículos?  
+¿Qué documentos del vehículo debe llevar el conductor de un turismo?  
 Respuesta: **El permiso de circulación y la tarjeta de inspección técnica.**
 
 - ✔ El conductor debe llevar y exhibir el permiso de circulación (o autorización provisional) y la tarjeta de inspección técnica. _(RGV 26.1)_
@@ -11219,7 +11219,7 @@ Respuesta: **La tarjeta de inspección técnica del remolque.**
 ## C-doc-0009
 
 ¿Es preciso matricular un remolque de 600 kg de masa máxima autorizada?  
-Respuesta: **No; solo hay que matricular los remolques de masa máxima autorizada superior a 750 kg.**
+Respuesta: **No.**
 
 - ✔ Deben matricularse los vehículos de motor y los remolques y semirremolques de MMA superior a 750 kg. _(RGV 25.1)_
 - ✘ `C-doc-0008` En conjuntos con remolque de MMA igual o inferior a 750 kg se lleva la tarjeta de inspección técnica del remolque, y en la del automóvil debe constar que tiene un enganche compatible. _(RGV 26.1.c)_
@@ -11263,8 +11263,8 @@ Respuesta: **El B, sin requisitos adicionales.**
 
 ## C-perm-0005
 
-Un turismo de 3.000 kg de MMA arrastra un remolque de 1.000 kg de MMA (conjunto de 4.000 kg). ¿Qué necesita para conducirlo?  
-Respuesta: **El permiso B, habiendo superado la prueba específica para estos conjuntos (código 96).**
+Un turismo de 3.000 kg arrastra un remolque de 1.000 kg, un conjunto de 4.000 kg. ¿Qué necesita para conducirlo?  
+Respuesta: **El permiso B con la prueba específica para estos conjuntos.**
 
 - ✔ Si el remolque supera 750 kg y el conjunto excede de 3.500 kg sin pasar de 4.250 kg, se puede conducir con B tras superar la prueba o formación específica (código comunitario 96). _(RGCOND Anexo I (código 96))_
 - ✘ `v5e-perm-0003` El permiso B+E permite enganchar a un vehículo de la clase B un remolque o semirremolque de hasta 3.500 kg de masa máxima autorizada. _(RGCOND 4.2 (tabla, clase B+E))_
@@ -11300,7 +11300,7 @@ Respuesta: **Sí.**
 ## C-perm-0009
 
 ¿Qué vehículos especiales no agrícolas se pueden conducir con el permiso B?  
-Respuesta: **Los que no superen 40 km/h de velocidad máxima autorizada y tampoco superen 3.500 kg de MMA.**
+Respuesta: **Los de hasta 40 km/h y hasta 3.500 kg.**
 
 - ✔ Para vehículos especiales no agrícolas basta el B si no superan 40 km/h ni 3.500 kg de MMA; si superan cualquiera de los límites se requiere el permiso correspondiente a su MMA. _(RGCOND 5.8)_
 - ✘ `C-perm-0005` Si el remolque supera 750 kg y el conjunto excede de 3.500 kg sin pasar de 4.250 kg, se puede conducir con B tras superar la prueba o formación específica (código comunitario 96). _(RGCOND Anexo I (código 96))_
@@ -11336,7 +11336,7 @@ Respuesta: **125 cm³.**
 ## C-perm-0013
 
 El permiso C1 autoriza a conducir automóviles cuya masa máxima autorizada...  
-Respuesta: **exceda de 3.500 kg y no sobrepase los 7.500 kg.**
+Respuesta: **Exceda de 3.500 kg sin pasar de 7.500 kg.**
 
 - ✔ El C1 autoriza automóviles (distintos de los de D1 y D) de MMA superior a 3.500 kg y no superior a 7.500 kg, para no más de ocho pasajeros además del conductor. _(RGCOND 4.2 (clase C1))_
 - ✘ `C-perm-0011` El permiso A solo puede expedirse a titulares de un A2 en vigor con al menos dos años de antigüedad (y superando una formación). _(RGCOND 5.1.a)_
@@ -11345,7 +11345,7 @@ Respuesta: **exceda de 3.500 kg y no sobrepase los 7.500 kg.**
 ## C-perm-0014
 
 El permiso D1 autoriza a conducir automóviles diseñados para el transporte de...  
-Respuesta: **no más de 16 pasajeros además del conductor, con una longitud máxima de 8 metros.**
+Respuesta: **No más de 16 pasajeros además del conductor, con 8 metros de longitud como máximo.**
 
 - ✔ El D1 autoriza automóviles para no más de dieciséis pasajeros además del conductor (17 plazas) y de longitud no superior a ocho metros. _(RGCOND 4.2 (clase D1))_
 - ✘ `C-perm-0011` El permiso A solo puede expedirse a titulares de un A2 en vigor con al menos dos años de antigüedad (y superando una formación). _(RGCOND 5.1.a)_
@@ -11399,7 +11399,7 @@ Respuesta: **8 puntos.**
 ## C-pun-0003
 
 Un conductor novel empezó con 8 puntos. ¿Cuándo pasa a disponer de 12 puntos?  
-Respuesta: **Cuando transcurren dos años sin ser sancionado en firme por infracciones que impliquen pérdida de puntos.**
+Respuesta: **Tras dos años sin sanciones firmes que quiten puntos.**
 
 - ✔ Los titulares con 8 puntos iniciales pasan a tener 12 si en dos años no son sancionados en firme por infracciones que impliquen pérdida de puntos. _(LSV 65.2)_
 - ✘ `xb-0065` Hacer la maniobra de marcha atrás en autopistas y autovías supone la pérdida de 4 puntos. _(LSV Anexo II.18)_
@@ -11408,7 +11408,7 @@ Respuesta: **Cuando transcurren dos años sin ser sancionado en firme por infrac
 ## C-pun-0004
 
 Un conductor tiene 5 puntos y pasan dos años sin ser sancionado en firme por infracciones que lleven pérdida de puntos. ¿Qué ocurre?  
-Respuesta: **Recupera la totalidad del crédito inicial de 12 puntos.**
+Respuesta: **Recupera los 12 puntos.**
 
 - ✔ Transcurridos dos años sin sanciones firmes que lleven aparejada pérdida de puntos, se recupera la totalidad del crédito inicial de doce puntos. _(LSV 65.1)_
 - ✘ `C-pun-0016` No se pierden más de ocho puntos al día por acumulación de infracciones, salvo que concurran determinadas infracciones muy graves del art. 77, en cuyo caso se pierden todos los que correspondan. _(LSV 64.4)_
@@ -11443,7 +11443,7 @@ Respuesta: **Con frecuencia anual.**
 
 ## C-pun-0008
 
-Según la Ley de Tráfico, ¿cuál es la duración máxima de los cursos de recuperación parcial de puntos?  
+¿Cuál es la duración máxima de los cursos de recuperación parcial de puntos?  
 Respuesta: **Quince horas.**
 
 - ✔ La ley fija que la duración de los cursos de recuperación parcial será como máximo de quince horas. _(LSV 65.4)_
@@ -11452,7 +11452,7 @@ Respuesta: **Quince horas.**
 
 ## C-pun-0009
 
-Un conductor no profesional pierde todos sus puntos por primera vez. ¿Cuánto tiempo debe pasar, desde la notificación, para que pueda obtener un nuevo permiso?  
+Un conductor no profesional pierde todos los puntos por primera vez. Desde la notificación, ¿cuánto tiempo debe pasar para que pueda obtener un nuevo permiso?  
 Respuesta: **Seis meses.**
 
 - ✔ Tras la pérdida de vigencia por falta de puntos no se puede obtener un nuevo permiso hasta pasados seis meses desde la notificación (tres para profesionales; doce si se reincide en los tres años siguientes). _(LSV 71.1)_
@@ -11470,8 +11470,8 @@ Respuesta: **Tres meses.**
 
 ## C-pun-0011
 
-¿Qué debe hacer el titular cuyo permiso ha perdido vigencia por la pérdida total de puntos para obtener de nuevo un permiso, una vez cumplido el plazo?  
-Respuesta: **Superar un curso de sensibilización y reeducación vial de recuperación del permiso y después la prueba de control de conocimientos.**
+Tras perder todos los puntos y cumplir el plazo, ¿qué debe hacer el titular para obtener de nuevo un permiso?  
+Respuesta: **Superar un curso de sensibilización y reeducación vial y una prueba de conocimientos.**
 
 - ✔ Puede obtener un permiso de la misma clase y con la misma antigüedad tras superar el curso de recuperación del permiso y la prueba de control de conocimientos. _(RGCOND 38.1)_
 - ✘ `v5e-pun-0003` Si la pérdida total de puntos se repite en los tres años siguientes a obtener el nuevo permiso, no se puede obtener otro hasta pasados doce meses desde la notificación (seis meses para los conductores profesionales). _(LSV 71.1)_
@@ -11524,7 +11524,7 @@ Respuesta: **8 puntos.**
 
 ## D-acc-0001
 
-Según la DGT, ¿en qué proporción aproximada de los accidentes de tráfico interviene el factor humano?  
+¿En qué proporción aproximada de los accidentes de tráfico interviene el factor humano?  
 Respuesta: **Entre 70 y 90 de cada 100.**
 
 - ✔ El factor humano (exceso de velocidad, alcohol, distracciones...) interviene en la mayoría de los accidentes: entre 70 y 90 de cada 100. El estado de la carretera interviene en 10-35 de cada 100 y los fallos del vehículo en 4-13 de cada 100. _(MANUAL_DGT Tema 16, Factores de riesgo (pág. 390))_
@@ -11534,7 +11534,7 @@ Respuesta: **Entre 70 y 90 de cada 100.**
 ## D-acc-0002
 
 La mayoría de los accidentes de tráfico...  
-Respuesta: **se pueden evitar.**
+Respuesta: **Se pueden evitar.**
 
 - ✔ La mayoría de los accidentes se pueden evitar, sobre todo actuando sobre el factor humano (no beber, moderar la velocidad, no distraerse). _(MANUAL_DGT Tema 16, Evitar accidentes de tráfico (pág. 389))_
 - ✘ `xc-0021` Conducir muy rápido por una carretera en buen estado puede hacer que el conductor piense que va a menos velocidad de la que en realidad lleva. _(MANUAL_DGT Tema 10, Cosas que pueden pasar si conduces muy rápido (p. 260))_
@@ -11552,7 +11552,7 @@ Respuesta: **En las rectas.**
 ## D-acc-0004
 
 ¿Dónde se producen la mayoría de los accidentes mortales?  
-Respuesta: **En carreteras fuera de pueblos o ciudades.**
+Respuesta: **En carreteras, fuera de poblado.**
 
 - ✔ La mayoría de los accidentes mortales se producen en carreteras fuera de poblado, donde se circula a más velocidad y los accidentes son más graves. _(MANUAL_DGT Tema 16, ¿Dónde y cuándo hay más accidentes? (pág. 391))_
 - ✘ `xe-0014` Según el manual de la DGT, antes de avisar conviene recoger toda la información posible (si hay fuego, cuántos heridos hay) para que acudan los servicios necesarios y puedan hacer bien su trabajo. _(MANUAL_DGT Tema 16, Avisar (p. 419))_
@@ -11561,7 +11561,7 @@ Respuesta: **En carreteras fuera de pueblos o ciudades.**
 ## D-acc-0005
 
 Comparadas con el resto de carreteras, en las autopistas y autovías...  
-Respuesta: **hay menos accidentes.**
+Respuesta: **Hay menos accidentes.**
 
 - ✔ Hay menos accidentes en autopistas y autovías que en el resto de carreteras: tienen calzadas separadas para cada sentido y no tienen cruces a nivel. _(MANUAL_DGT Tema 16, ¿Dónde y cuándo hay más accidentes? (pág. 391))_
 - ✘ `E-acc-0005` Los conductores de turismos deben usar el chaleco reflectante de alta visibilidad cuando salgan del vehículo y ocupen la calzada o el arcén de las vías interurbanas. _(RGC 118.4)_
@@ -11596,8 +11596,8 @@ Respuesta: **Como un problema de salud que afecta a toda la sociedad.**
 
 ## D-vul-0001
 
-Según los estudios de la DGT, las personas mayores, como peatones, tienen más accidentes...  
-Respuesta: **cuando van solas.**
+Las personas mayores, como peatones, tienen más accidentes...  
+Respuesta: **Cuando van solas.**
 
 - ✔ Las personas mayores tienen más accidentes cuando van solas que cuando van acompañadas por niños: con niños son más prudentes para darles buen ejemplo y protegerles. _(MANUAL_DGT Tema 16, Las personas mayores (pág. 402))_
 - ✘ `xd-0085` Muchas personas mayores, como peatones, pueden no oír los vehículos por el ruido ambiente, tener dificultad para saber a qué velocidad vienen o para distinguir el color de los semáforos. _(MANUAL_DGT Tema 16, Las personas mayores (p. 402))_
@@ -11615,7 +11615,7 @@ Respuesta: **Porque, al ser más bajos, ven menos tramo de carretera y los condu
 ## D-vul-0003
 
 En caso de accidente, las personas mayores...  
-Respuesta: **tienen lesiones más graves y menos posibilidades de sobrevivir.**
+Respuesta: **Tienen lesiones más graves y menos posibilidades de sobrevivir.**
 
 - ✔ En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir. _(MANUAL_DGT Tema 16, Personas mayores de 65 años (pág. 406))_
 - ✘ `xd-0045` Los peatones que transitan por el arcén o la calzada van lo más cerca posible del borde exterior, con precaución, sin entorpecer y marchando unos detrás de otros. _(RGC 122.3)_
@@ -11642,7 +11642,7 @@ Respuesta: **Porque sus vehículos son más frágiles y se ven peor que el resto
 ## D-vel-0001
 
 Al aumentar la velocidad, la capacidad del conductor de ver lo que pasa a los lados...  
-Respuesta: **disminuye; es la llamada visión túnel.**
+Respuesta: **Disminuye.**
 
 - ✔ Cuanto más rápido se circula, menos se ve lo que pasa a los lados: solo se ve lo que hay enfrente, como en un túnel (visión o efecto túnel). Hay que tener especial cuidado en las intersecciones. _(MANUAL_DGT Tema 10, Cosas que pueden pasar si conduces muy rápido (pág. 260))_
 - ✘ `D-fat-0002` La somnolencia hace que se tarde más en reaccionar, cueste tomar decisiones, los movimientos sean más lentos y el conductor pueda dormirse unos segundos sin darse cuenta. _(MANUAL_DGT Tema 3, Efectos de la somnolencia (pág. 50))_
@@ -11651,7 +11651,7 @@ Respuesta: **disminuye; es la llamada visión túnel.**
 ## D-tre-0001
 
 En condiciones normales, el tiempo de reacción de un conductor es de...  
-Respuesta: **entre medio segundo y un segundo.**
+Respuesta: **Entre medio segundo y un segundo.**
 
 - ✔ El tiempo de reacción es el que pasa entre ver u oír algo y reaccionar. En condiciones normales está entre medio segundo y un segundo. _(MANUAL_DGT Tema 3, El tiempo de reacción (pág. 44))_
 - ✘ `D-tre-0002` La fatiga, el sueño, la edad avanzada, oír o ver mal y las enfermedades son factores que hacen que se tarde más tiempo en reaccionar. _(MANUAL_DGT Tema 3, El tiempo de reacción (pág. 45))_
@@ -11678,7 +11678,7 @@ Respuesta: **Haber comido mucho antes de conducir.**
 ## D-dis-0001
 
 La distancia de detención es...  
-Respuesta: **la suma de la distancia de reacción y la distancia de frenado.**
+Respuesta: **La suma de la distancia de reacción y la de frenado.**
 
 - ✔ La distancia de detención es el espacio recorrido desde que se detecta el obstáculo hasta que el vehículo se para por completo: la suma de la distancia de reacción y la de frenado. _(MANUAL_DGT Tema 10, Distancia de detención (pág. 263))_
 - ✘ `x1a-0052` Los ciclistas pueden circular en grupo sin mantener la distancia de seguridad entre ellos, extremando la atención para evitar alcances. _(RGC 54.1)_
@@ -11696,7 +11696,7 @@ Respuesta: **La distancia de frenado.**
 ## D-dis-0003
 
 La distancia de reacción es el espacio que recorre el vehículo...  
-Respuesta: **desde que el conductor detecta un imprevisto hasta que puede reaccionar a él.**
+Respuesta: **Desde que el conductor detecta un imprevisto hasta que reacciona.**
 
 - ✔ La distancia de reacción es el espacio recorrido desde que se detecta un imprevisto (un obstáculo, una señal, un ruido) hasta que se puede reaccionar, por ejemplo hasta que se pisa el freno. _(MANUAL_DGT Tema 10, Distancia de reacción (pág. 261))_
 - ✘ `dist-0005` Los conductores de vehículos a motor deben dejar una separación mínima de cinco metros con los ciclistas que les precedan en el mismo carril. _(RGC 153.4)_
@@ -11704,8 +11704,8 @@ Respuesta: **desde que el conductor detecta un imprevisto hasta que puede reacci
 
 ## D-fat-0001
 
-Para evitar la fatiga y la somnolencia en un viaje largo, la DGT recomienda descansar...  
-Respuesta: **20 o 30 minutos cada dos horas o cada 200 kilómetros, aunque no se sienta fatiga.**
+Para evitar la fatiga y el sueño en un viaje largo, conviene descansar...  
+Respuesta: **20 o 30 minutos cada dos horas o cada 200 kilómetros.**
 
 - ✔ Se recomienda descansar 20 o 30 minutos cada dos horas o cada 200 kilómetros aunque no se sienta fatiga ni somnolencia; y, si aparecen los primeros síntomas, parar en un lugar seguro y dormir 20 o 30 minutos. _(MANUAL_DGT Tema 3, ¿Cómo puedes evitar la fatiga y la somnolencia? (pág. 51))_
 - ✘ `D-fat-0002` La somnolencia hace que se tarde más en reaccionar, cueste tomar decisiones, los movimientos sean más lentos y el conductor pueda dormirse unos segundos sin darse cuenta. _(MANUAL_DGT Tema 3, Efectos de la somnolencia (pág. 50))_
@@ -11722,8 +11722,8 @@ Respuesta: **Dormirse durante unos segundos sin darse cuenta.**
 
 ## D-fat-0003
 
-Comer mucha cantidad y alimentos difíciles de digerir antes de conducir...  
-Respuesta: **puede provocar sueño y fatiga.**
+Comer mucho y alimentos difíciles de digerir antes de conducir...  
+Respuesta: **Puede provocar sueño y fatiga.**
 
 - ✔ Una comida abundante o pesada antes de conducir puede provocar sueño y fatiga; es mejor hacer varias comidas ligeras. _(MANUAL_DGT Tema 3, Alimentación (pág. 66))_
 - ✘ `D-fat-0002` La somnolencia hace que se tarde más en reaccionar, cueste tomar decisiones, los movimientos sean más lentos y el conductor pueda dormirse unos segundos sin darse cuenta. _(MANUAL_DGT Tema 3, Efectos de la somnolencia (pág. 50))_
@@ -11749,8 +11749,8 @@ Respuesta: **No, está prohibido.**
 
 ## D-med-0002
 
-Los antihistamínicos, que se toman para tratar las alergias, pueden producir...  
-Respuesta: **sueño.**
+Los antihistamínicos, que se toman para las alergias, pueden producir...  
+Respuesta: **Sueño.**
 
 - ✔ Según la DGT, los antihistamínicos pueden producir sueño, depresión y pérdida de reflejos. _(MANUAL_DGT Tema 3, ¿Qué medicamentos pueden ser peligrosos para conducir? (pág. 65))_
 - ✘ `xb-0033` El alcohol se extiende por todo el cuerpo a través de la sangre y afecta sobre todo al cerebro y a la vista. _(MANUAL_DGT Tema 3, Alcohol (p. 52))_
@@ -11759,7 +11759,7 @@ Respuesta: **sueño.**
 ## D-cal-0001
 
 ¿Por qué es peligroso conducir con mucho calor?  
-Respuesta: **Porque aparecen antes el sueño y la fatiga y se puede necesitar más tiempo para reaccionar.**
+Respuesta: **Porque aparecen antes el sueño y la fatiga.**
 
 - ✔ Con calor aparecen antes el sueño y la fatiga, se puede necesitar más tiempo para reaccionar ante imprevistos y puede aumentar la agresividad hacia otros conductores. _(MANUAL_DGT Tema 14, Conducir con calor (pág. 363))_
 - ✘ `xb-0030` Entre las causas de la somnolencia están dormir menos o peor de lo habitual, conducir por carreteras con poco tráfico y conducir de madrugada o al mediodía, después de comer. _(MANUAL_DGT Tema 3, ¿Qué puede causar somnolencia? (p. 49))_
@@ -11777,7 +11777,7 @@ Respuesta: **Entre 20 y 23 grados.**
 ## D-mov-0001
 
 ¿Está permitido a un conductor de turismo utilizar el teléfono móvil mientras conduce?  
-Respuesta: **Solo si la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares.**
+Respuesta: **Solo si no usa las manos ni cascos, auriculares o similares.**
 
 - ✔ Se prohíbe utilizar el móvil durante la conducción. Se exceptúa cuando la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares (manos libres). _(RGC 18.2)_
 - ✘ `D-mov-0003` Utilizar manualmente navegadores u otros sistemas de comunicación, o el móvil en condiciones distintas a sujetarlo con la mano, supone la pérdida de 3 puntos (LSV, Anexo II, apartado 20). _(LSV Anexo II.20)_
@@ -11812,8 +11812,8 @@ Respuesta: **No, está prohibido.**
 
 ## D-mov-0005
 
-Según la DGT, el riesgo de accidente cuando se usa el móvil en el vehículo es...  
-Respuesta: **cuatro veces mayor que cuando no se usa.**
+Usar el móvil en el vehículo hace que el riesgo de accidente sea...  
+Respuesta: **Cuatro veces mayor que cuando no se usa.**
 
 - ✔ El riesgo de accidente al usar el móvil en el vehículo es cuatro veces mayor que cuando no se utiliza. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 70))_
 - ✘ `D-mov-0002` Utilizar el móvil sujetándolo con la mano mientras se conduce supone la pérdida de 6 puntos (LSV, Anexo II, apartado 8). _(LSV Anexo II.8)_
@@ -11822,7 +11822,7 @@ Respuesta: **cuatro veces mayor que cuando no se usa.**
 ## D-mov-0006
 
 Hablar por teléfono con un dispositivo de manos libres mientras se conduce...  
-Respuesta: **está permitido, pero también es peligroso porque parte de la atención se dedica a la conversación.**
+Respuesta: **Está permitido, pero resta atención a la conducción.**
 
 - ✔ El manos libres está permitido, pero también es peligroso porque el conductor presta parte de su atención a la conversación. La DGT aconseja no tener conversaciones de más de un minuto. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 71))_
 - ✘ `D-mov-0003` Utilizar manualmente navegadores u otros sistemas de comunicación, o el móvil en condiciones distintas a sujetarlo con la mano, supone la pérdida de 3 puntos (LSV, Anexo II, apartado 20). _(LSV Anexo II.20)_
@@ -11830,8 +11830,8 @@ Respuesta: **está permitido, pero también es peligroso porque parte de la aten
 
 ## D-mov-0007
 
-Si habla por el móvil con un dispositivo de manos libres mientras conduce, la DGT recomienda que la conversación...  
-Respuesta: **no dure más de un minuto.**
+Si habla por el móvil con manos libres mientras conduce, conviene que la conversación...  
+Respuesta: **No dure más de un minuto.**
 
 - ✔ Entre las recomendaciones para usar el manos libres está no tener conversaciones que duren más de un minuto, avisar al interlocutor de que se está conduciendo y, si hay que hacer una llamada, parar en un lugar seguro. _(MANUAL_DGT Tema 3, Recomendaciones para usar el móvil (pág. 72))_
 - ✘ `D-mov-0008` Al prestar atención a la conversación se calculan peor las distancias, se dejan de ver señales y se producen salidas de la carretera e invasiones del carril contrario. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 71))_
@@ -11840,7 +11840,7 @@ Respuesta: **no dure más de un minuto.**
 ## D-mov-0008
 
 ¿Cuál de estas consecuencias puede tener prestar atención a una conversación telefónica mientras se conduce?  
-Respuesta: **Salirse de la carretera o invadir el carril contrario.**
+Respuesta: **Salirse de la vía o invadir el carril contrario.**
 
 - ✔ Al prestar atención a la conversación se calculan peor las distancias, se dejan de ver señales y se producen salidas de la carretera e invasiones del carril contrario. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 71))_
 - ✘ `D-mov-0007` Entre las recomendaciones para usar el manos libres está no tener conversaciones que duren más de un minuto, avisar al interlocutor de que se está conduciendo y, si hay que hacer una llamada, parar en un lugar seguro. _(MANUAL_DGT Tema 3, Recomendaciones para usar el móvil (pág. 72))_
@@ -11849,7 +11849,7 @@ Respuesta: **Salirse de la carretera o invadir el carril contrario.**
 ## D-mov-0009
 
 Con el vehículo en movimiento, ¿puede el conductor ver una película en un monitor o reproductor de vídeo?  
-Respuesta: **No, se considera incompatible con la atención permanente a la conducción.**
+Respuesta: **No.**
 
 - ✔ Se considera incompatible con la obligatoria atención permanente a la conducción el uso por el conductor, con el vehículo en movimiento, de pantallas con acceso a internet, monitores de televisión y reproductores de vídeo o DVD. Se exceptúan el GPS y los monitores de ayuda a maniobras o de acceso de peatones. _(RGC 18.1)_
 - ✘ `D-mov-0007` Entre las recomendaciones para usar el manos libres está no tener conversaciones que duren más de un minuto, avisar al interlocutor de que se está conduciendo y, si hay que hacer una llamada, parar en un lugar seguro. _(MANUAL_DGT Tema 3, Recomendaciones para usar el móvil (pág. 72))_
@@ -11857,7 +11857,7 @@ Respuesta: **No, se considera incompatible con la atención permanente a la cond
 
 ## D-mov-0010
 
-Según la DGT, ¿cuándo se debe programar el navegador GPS?  
+¿Cuándo se debe programar el navegador?  
 Respuesta: **Antes de empezar a conducir.**
 
 - ✔ El GPS se debe programar antes de empezar a conducir, nunca mientras se conduce; debe quedar fijo y en un lugar visible sin apartar la vista de la carretera. _(MANUAL_DGT Tema 3, Navegadores GPS (pág. 73))_
@@ -11876,7 +11876,7 @@ Respuesta: **Una falsa seguridad en sí mismo.**
 ## D-alc-0002
 
 ¿Cómo afecta el alcohol a la visión del conductor?  
-Respuesta: **Reduce la capacidad de ver lo que pasa a los lados y hace que se deslumbre más.**
+Respuesta: **Reduce la visión lateral y aumenta el deslumbramiento.**
 
 - ✔ El alcohol hace que se vean peor las señales, se calculen peor las distancias, se tenga menos capacidad de ver lo que pasa a un lado y a otro y que el conductor se deslumbre más. _(MANUAL_DGT Tema 3, Efectos del alcohol mientras conduces (pág. 57))_
 - ✘ `D-alc-0001` El alcohol produce falsa seguridad en uno mismo, más exposición a riesgos, más faltas y un trato más agresivo o impulsivo hacia otros conductores. _(MANUAL_DGT Tema 3, Efectos del alcohol mientras conduces (pág. 56))_
@@ -11885,7 +11885,7 @@ Respuesta: **Reduce la capacidad de ver lo que pasa a los lados y hace que se de
 ## D-alc-0003
 
 Dos personas beben exactamente la misma cantidad de la misma bebida. ¿Tendrán necesariamente la misma tasa de alcoholemia?  
-Respuesta: **No; influyen factores como el peso, el sexo, la edad o haber comido.**
+Respuesta: **No, influyen el peso, el sexo, la edad o haber comido.**
 
 - ✔ El alcohol no afecta a todas las personas igual: influyen la cantidad, el peso, el sexo, el tiempo transcurrido, el tipo de bebida, la velocidad a la que se bebe, beber sin comer, la edad y las circunstancias personales. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 54))_
 - ✘ `D-alc-0004` El momento en que la tasa de alcoholemia es más alta es aproximadamente una hora después de beber; después baja muy poco a poco. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 55))_
@@ -11912,7 +11912,7 @@ Respuesta: **Whisky.**
 ## D-alc-0006
 
 Beber alcohol con el estómago lleno...  
-Respuesta: **hace que el alcohol llegue a la sangre de forma más lenta.**
+Respuesta: **Hace que el alcohol llegue a la sangre más despacio.**
 
 - ✔ La comida ayuda a que el alcohol llegue a la sangre de forma más lenta, pero no impide que llegue. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 55))_
 - ✘ `D-alc-0018` El agente debe advertir al interesado de su derecho a controlar que entre la primera y la segunda prueba medie un tiempo mínimo de 10 minutos. _(RGC 23.2)_
@@ -11938,8 +11938,8 @@ Respuesta: **Sí.**
 
 ## D-alc-0009
 
-Un peatón que no está implicado en ningún accidente comete una infracción de tráfico. ¿Está obligado a someterse a las pruebas de alcohol y drogas si se lo requiere un agente?  
-Respuesta: **Sí, la Ley obliga también a los usuarios que hayan cometido una infracción.**
+Un peatón no implicado en ningún accidente comete una infracción. Si un agente se lo requiere, ¿está obligado a someterse a las pruebas de alcohol y drogas?  
+Respuesta: **Sí.**
 
 - ✔ La Ley de Tráfico obliga a los conductores y, además, a los demás usuarios de la vía cuando se hallen implicados en un accidente de tráfico o hayan cometido una infracción. Esto matiza lo que dice el vídeo (solo en caso de accidente). _(LSV 14.2)_
 - ✘ `D-alc-0018` El agente debe advertir al interesado de su derecho a controlar que entre la primera y la segunda prueba medie un tiempo mínimo de 10 minutos. _(RGC 23.2)_
@@ -11974,7 +11974,7 @@ Respuesta: **0,25 miligramos por litro.**
 
 ## D-alc-0013
 
-El conductor de un camión de transporte de mercancías de más de 3.500 kg de masa máxima autorizada, ¿qué tasa máxima de alcohol en aire espirado puede tener?  
+El conductor de un camión de mercancías de más de 3.500 kg, ¿qué tasa máxima de alcohol en aire espirado puede tener?  
 Respuesta: **0,15 miligramos por litro.**
 
 - ✔ En vehículos de transporte de mercancías de más de 3.500 kg de MMA, la tasa máxima es 0,3 g/l en sangre o 0,15 mg/l en aire espirado. _(RGC 20)_
@@ -11983,7 +11983,7 @@ Respuesta: **0,15 miligramos por litro.**
 
 ## D-alc-0014
 
-Un conductor con diez años de permiso conduce una furgoneta particular, de uso privado, de 3.500 kg de masa máxima autorizada, con carga general (no peligrosa). ¿Qué tasa máxima de alcohol en aire espirado puede tener?  
+Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?  
 Respuesta: **0,25 miligramos por litro.**
 
 - ✔ La tasa reducida para mercancías solo se aplica a vehículos de más de 3.500 kg de MMA (o mercancías peligrosas, transportes especiales, etc.). Con 3.500 kg exactos y carga general rige la tasa general de 0,25 mg/l. _(RGC 20)_
@@ -12011,7 +12011,7 @@ Respuesta: **0,15 miligramos por litro.**
 ## D-alc-0017
 
 Un conductor de ciclomotor de 17 años, con dos años de antigüedad en su permiso, ¿qué tasa máxima de alcohol puede tener?  
-Respuesta: **0; el conductor menor de edad no puede circular con ninguna tasa de alcohol.**
+Respuesta: **0 miligramos por litro en aire espirado.**
 
 - ✔ En ningún caso el conductor menor de edad puede circular con una tasa de alcohol superior a 0 g/l en sangre o 0 mg/l en aire espirado, tenga la antigüedad de permiso que tenga. _(LSV 14.1)_
 - ✘ `D-alc-0014` La tasa reducida para mercancías solo se aplica a vehículos de más de 3.500 kg de MMA (o mercancías peligrosas, transportes especiales, etc.). Con 3.500 kg exactos y carga general rige la tasa general de 0,25 mg/l. _(RGC 20)_
@@ -12046,7 +12046,7 @@ Respuesta: **El interesado.**
 
 ## D-alc-0021
 
-Un conductor con permiso de más de dos años da 0,40 mg/l de alcohol en aire espirado. ¿Cuántos puntos pierde si es sancionado en firme en vía administrativa?  
+Con más de dos años de permiso, da 0,40 mg/l en aire espirado. Si le sancionan en firme, ¿cuántos puntos pierde?  
 Respuesta: **4 puntos.**
 
 - ✔ Para conductores en general, una tasa superior a 0,25 y hasta 0,50 mg/l en aire supone la pérdida de 4 puntos; más de 0,50 mg/l, 6 puntos. _(LSV Anexo II.1)_
@@ -12055,7 +12055,7 @@ Respuesta: **4 puntos.**
 
 ## D-alc-0022
 
-Un conductor novel, con menos de dos años de permiso, da 0,35 mg/l de alcohol en aire espirado. ¿Cuántos puntos pierde si es sancionado en firme en vía administrativa?  
+Con menos de dos años de permiso, da 0,35 mg/l en aire espirado. Si le sancionan en firme, ¿cuántos puntos pierde?  
 Respuesta: **6 puntos.**
 
 - ✔ Para profesionales y titulares de permisos con menos de dos años de antigüedad, más de 0,30 mg/l en aire supone la pérdida de 6 puntos (de más de 0,15 hasta 0,30 mg/l, 4 puntos). _(LSV Anexo II.1)_
@@ -12064,7 +12064,7 @@ Respuesta: **6 puntos.**
 
 ## D-alc-0023
 
-Un conductor con permiso de más de dos años, que no ha sido sancionado por alcohol en el año anterior, da 0,30 mg/l en aire espirado. ¿Qué multa le corresponde?  
+Con más de dos años de permiso y sin sanciones por alcohol en el último año, da 0,30 mg/l en aire espirado. ¿Qué multa le corresponde?  
 Respuesta: **500 euros.**
 
 - ✔ Conducir con una tasa superior a la permitida es infracción muy grave (LSV 77.c), sancionada con 500 euros (80.1). La multa de 1.000 euros solo se impone si ya fue sancionado en el año anterior por alcohol o si supera el doble de la tasa permitida (0,50 mg/l en este caso). _(LSV 80.2.a)_
@@ -12082,8 +12082,8 @@ Respuesta: **Inmovilizarlo, salvo que pueda hacerse cargo de su conducción otra
 
 ## D-nov-0001
 
-Una persona tiene desde hace tres años el permiso AM de ciclomotor y acaba de obtener el permiso B. ¿Debe llevar la señal de conductor novel (L) en el turismo?  
-Respuesta: **No, porque ya ha sido titular de otro permiso durante al menos un año.**
+Tiene el permiso AM desde hace tres años y acaba de obtener el B. ¿Debe llevar esta señal en el turismo?  
+Respuesta: **No.**
 
 - ✔ La señal V-13 la llevan quienes obtienen por primera vez un permiso de conducción, durante un año. No se considera que lo obtienen por primera vez quienes han sido titulares, con posesión efectiva durante al menos un año, de otro permiso de cualquier clase. _(RGV Anexo XI, V-13.2)_
 - ✘ `res-seg-0002` La cobertura del seguro obligatorio no alcanza a los daños en el propio vehículo asegurado ni en las cosas transportadas en él. Si el otro conductor tiene la culpa, paga el seguro del otro, no el propio. _(LRCSCVM 5.2)_
@@ -12092,7 +12092,7 @@ Respuesta: **No, porque ya ha sido titular de otro permiso durante al menos un a
 ## D-dro-0001
 
 ¿Puede conducir una persona que tiene presencia de drogas en el organismo, aunque ya no note sus efectos?  
-Respuesta: **No, está prohibido conducir con presencia de drogas en el organismo.**
+Respuesta: **No.**
 
 - ✔ No puede circular el conductor de cualquier vehículo con presencia de drogas en el organismo. Se excluyen solo las sustancias usadas bajo prescripción facultativa y con finalidad terapéutica, si se está en condiciones de conducir con diligencia. _(LSV 14.1)_
 - ✘ `xb-0004` Los agentes pueden someter a la prueba de alcoholemia a cualquier conductor requerido dentro de los programas de controles preventivos, aunque circule correctamente y no presente síntomas. _(RGC 21.d)_
@@ -12119,7 +12119,7 @@ Respuesta: **6 puntos.**
 ## D-dro-0004
 
 ¿En qué consiste normalmente la prueba de detección de drogas que realizan los agentes de tráfico?  
-Respuesta: **En una prueba salival mediante un dispositivo autorizado y un posterior análisis de una muestra salival.**
+Respuesta: **En una prueba de saliva con un dispositivo autorizado y un análisis posterior.**
 
 - ✔ La detección de la presencia de drogas consiste en una prueba salival mediante dispositivo autorizado y un posterior análisis de una muestra salival en cantidad suficiente. _(LSV 14.3)_
 - ✘ `D-alc-0013` En vehículos de transporte de mercancías de más de 3.500 kg de MMA, la tasa máxima es 0,3 g/l en sangre o 0,15 mg/l en aire espirado. _(RGC 20)_
@@ -12127,8 +12127,8 @@ Respuesta: **En una prueba salival mediante un dispositivo autorizado y un poste
 
 ## D-dro-0005
 
-Un conductor toma un medicamento con una sustancia considerada droga, recetado por su médico con finalidad terapéutica, y está en condiciones de conducir con seguridad. ¿Comete la infracción de conducir con presencia de drogas?  
-Respuesta: **No, esas sustancias están excluidas si se está en condiciones de conducir con diligencia.**
+Un conductor toma un medicamento recetado que contiene una droga y está en condiciones de conducir con seguridad. ¿Comete la infracción de conducir con presencia de drogas?  
+Respuesta: **No.**
 
 - ✔ La prohibición de conducir con presencia de drogas excluye las sustancias usadas bajo prescripción facultativa y con finalidad terapéutica, siempre que se esté en condiciones de utilizar el vehículo con diligencia, precaución y sin distracción. _(LSV 14.1)_
 - ✘ `D-alc-0014` La tasa reducida para mercancías solo se aplica a vehículos de más de 3.500 kg de MMA (o mercancías peligrosas, transportes especiales, etc.). Con 3.500 kg exactos y carga general rige la tasa general de 0,25 mg/l. _(RGC 20)_
@@ -12137,7 +12137,7 @@ Respuesta: **No, esas sustancias están excluidas si se está en condiciones de 
 ## D-dro-0006
 
 ¿Cuál de estos es un posible efecto del cannabis en la conducción?  
-Respuesta: **Necesitar más tiempo para reaccionar y poder dormirse conduciendo.**
+Respuesta: **Tardar más en reaccionar y poder dormirse al volante.**
 
 - ✔ El cannabis puede alterar la percepción del entorno, hacer calcular peor las distancias, perder la concentración, necesitar más tiempo para reaccionar y dormirse conduciendo. _(MANUAL_DGT Tema 3, Otras drogas (pág. 58))_
 - ✘ `D-dro-0007` La cocaína puede volver al conductor más impulsivo o agresivo, hacerle perder la sensación de peligro y conducir de forma más peligrosa. _(MANUAL_DGT Tema 3, Otras drogas (pág. 59))_
@@ -12164,7 +12164,7 @@ Respuesta: **Que, en un accidente, el cuerpo se desliza hacia abajo, por debajo 
 ## D-pos-0002
 
 ¿Qué favorece que se produzca el efecto submarino?  
-Respuesta: **Llevar el respaldo del asiento muy inclinado hacia atrás y el cinturón mal colocado.**
+Respuesta: **Llevar el respaldo muy inclinado y el cinturón mal colocado.**
 
 - ✔ El efecto submarino ocurre porque el asiento está inclinado hacia atrás y el cinturón mal colocado. Para evitarlo hay que abrocharse bien el cinturón y no inclinar mucho el asiento. _(MANUAL_DGT Tema 5, El efecto submarino (pág. 114))_
 - ✘ `xe-0083` En vehículos de más de nueve plazas, los menores de 135 cm o menos de tres o más años usan sistemas de retención infantil y, si no los hay, el cinturón de seguridad siempre que sea adecuado a su talla y peso. _(RGC 117.2)_
@@ -12182,7 +12182,7 @@ Respuesta: **Con la espalda apoyada en el respaldo y los brazos estirados, las m
 ## D-pos-0004
 
 Con el asiento bien ajustado, las piernas del conductor deben quedar...  
-Respuesta: **ligeramente dobladas.**
+Respuesta: **Ligeramente dobladas.**
 
 - ✔ El asiento está bien ajustado cuando se llega bien a los pedales pudiendo pisarlos a fondo y las piernas no están extendidas del todo, sino ligeramente dobladas. _(MANUAL_DGT Tema 6, Reglas para conducir turismos (pág. 130))_
 - ✘ `D-pos-0005` El volante se coge con las dos manos (soltando una solo el tiempo justo para manejar otros mandos), por la parte exterior y con firmeza, pero sin hacer mucha fuerza. _(MANUAL_DGT Tema 6, ¿Cómo debes coger el volante? (pág. 123))_
@@ -12200,7 +12200,7 @@ Respuesta: **Con las dos manos, por la parte exterior.**
 ## D-man-0001
 
 Cuando se pisa a fondo el pedal de embrague...  
-Respuesta: **el movimiento del motor no se transmite a la caja de cambios ni a las ruedas.**
+Respuesta: **El movimiento del motor no llega a la caja de cambios ni a las ruedas.**
 
 - ✔ Al pisar a fondo el embrague, el movimiento del motor no se transmite a la caja de cambios ni a las ruedas, lo que permite cambiar de velocidad. _(MANUAL_DGT Tema 6, Pedal de embrague (pág. 122))_
 - ✘ `xe-0038` Según el manual de la DGT, cuando el filtro del aire está sucio el combustible pasa peor y se gasta más combustible que con el filtro limpio. _(MANUAL_DGT Tema 15, Sistema de alimentación (p. 367))_
@@ -12254,7 +12254,7 @@ Respuesta: **Los elementos pensados para evitar que se produzca un accidente, co
 ## E-seg-0002
 
 El reposacabezas, ¿a qué tipo de seguridad del vehículo pertenece?  
-Respuesta: **A la seguridad pasiva, porque ayuda a que los ocupantes sufran menos daños en un accidente.**
+Respuesta: **A la seguridad pasiva.**
 
 - ✔ El reposacabezas, igual que el cinturón y el airbag, es un elemento de seguridad pasiva: reduce los daños cuando el accidente ya se ha producido. _(MANUAL_DGT Tema 5, Seguridad pasiva (p. 88))_
 - ✘ `E-pas-0016` El casco en bicicleta es obligatorio en vías interurbanas y, para los menores de dieciséis años, en todo tipo de vías. _(RGC 118.2)_
@@ -12290,7 +12290,7 @@ Respuesta: **El fabricante del vehículo.**
 ## E-neu-0004
 
 Si un neumático lleva una presión de inflado mayor de la recomendada, ¿por dónde se desgasta más?  
-Respuesta: **Por el centro de la banda de rodadura.**
+Respuesta: **Por el centro.**
 
 - ✔ Con exceso de presión el neumático apoya peor, se agarra menos y se desgasta más por el centro que por los lados. _(MANUAL_DGT Tema 5, Presión de inflado (p. 99))_
 - ✘ `res-luc-0002` Todo automóvil debe llevar luz antiniebla trasera. La antiniebla delantera es un dispositivo facultativo. _(RGV 17.1)_
@@ -12307,7 +12307,7 @@ Respuesta: **No; un neumático no debe presentar ampollas ni deformaciones anorm
 
 ## E-neu-0006
 
-Según el manual de la DGT, ¿cada cuánto tiempo conviene cambiar los neumáticos, aunque parezcan en buen estado?  
+¿Cada cuánto tiempo conviene cambiar los neumáticos, aunque parezcan en buen estado?  
 Respuesta: **Cada cinco años.**
 
 - ✔ La goma envejece: el manual de la DGT indica cambiar los neumáticos cada cinco años aunque estén en buen estado. _(MANUAL_DGT Tema 5, Desgaste de los neumáticos (p. 100))_
@@ -12325,8 +12325,8 @@ Respuesta: **Evita que las ruedas se bloqueen al frenar, lo que ayuda a mantener
 
 ## E-fre-0002
 
-En una frenada de emergencia con un vehículo que tiene ABS, notas que el pedal del freno vibra. ¿Qué debes hacer?  
-Respuesta: **Seguir pisando el freno fuerte y a fondo hasta que el vehículo se pare.**
+En una frenada de emergencia con un vehículo con ABS, nota que el pedal del freno vibra. ¿Qué debe hacer?  
+Respuesta: **Seguir pisando el freno fuerte hasta que el vehículo se pare.**
 
 - ✔ Con ABS, en una frenada de emergencia hay que pisar fuerte y a fondo y mantener el pedal pisado hasta la detención; la vibración es el funcionamiento normal del sistema. _(MANUAL_DGT Tema 5, ¿Cómo se usan los frenos? (p. 95))_
 - ✘ `xe-0108` Con el limitador de velocidad activado, el vehículo no pasa de la velocidad máxima elegida por el conductor; mantener una velocidad sin pisar los pedales es función del regulador. _(MANUAL_DGT Tema 5, Limitadores de velocidad (p. 105))_
@@ -12344,7 +12344,7 @@ Respuesta: **Mantener el contacto entre los neumáticos y la carretera en todo m
 ## E-seg-0003
 
 ¿Qué hacen las luces adaptativas?  
-Respuesta: **Ajustan la intensidad de las luces y el lugar donde alumbran según las necesidades de cada momento, por ejemplo en las curvas.**
+Respuesta: **Ajustan la intensidad y la zona que iluminan, por ejemplo en las curvas.**
 
 - ✔ Las luces adaptativas ajustan intensidad y zona iluminada; las angulares iluminan hacia el lado al que se gira, lo que ayuda a ver en las curvas. _(MANUAL_DGT Tema 5, Luces adaptativas (p. 90))_
 - ✘ `E-seg-0001` La seguridad activa la forman los elementos del vehículo pensados para evitar accidentes (frenos, ruedas, alumbrado). _(MANUAL_DGT Tema 5, Seguridad activa (p. 88))_
@@ -12361,8 +12361,8 @@ Respuesta: **Para que los ocupantes sufran menos daños.**
 
 ## E-pas-0002
 
-¿Por dónde debe pasar la banda torácica (la del pecho) del cinturón de seguridad?  
-Respuesta: **Por la clavícula, entre el hombro y el cuello, bajando por el centro del pecho.**
+¿Por dónde debe pasar la banda del pecho del cinturón de seguridad?  
+Respuesta: **Por la clavícula, entre el hombro y el cuello.**
 
 - ✔ La cinta torácica debe pasar por la clavícula, entre hombro y cuello, y bajar por el centro del pecho. Sobre el cuello puede causar lesiones graves y sobre el hombro puede resbalar. _(MANUAL_DGT Tema 5, ¿Cómo se abrocha el cinturón de seguridad? (p. 113))_
 - ✘ `xe-0096` Según el manual de la DGT, llevar el cinturón de seguridad bien puesto da el doble de posibilidades de sobrevivir a un accidente. _(MANUAL_DGT Tema 5, El cinturón de seguridad (p. 107))_
@@ -12379,7 +12379,7 @@ Respuesta: **Sobre los huesos de la cadera, siempre por debajo del estómago.**
 
 ## E-pas-0004
 
-Según la Ley de Tráfico, no hacer uso del cinturón de seguridad, o no hacerlo de forma adecuada (por ejemplo, llevarlo flojo con una pinza), ¿qué tipo de infracción es?  
+No usar el cinturón de seguridad, o no usarlo bien, por ejemplo flojo con una pinza, ¿qué tipo de infracción es?  
 Respuesta: **Grave.**
 
 - ✔ La Ley de Tráfico califica como infracción grave no usar, o no usar de forma adecuada, el cinturón, los sistemas de retención infantil, el casco y demás elementos de protección obligatorios. _(LSV 76.h)_
@@ -12389,7 +12389,7 @@ Respuesta: **Grave.**
 ## E-pas-0005
 
 El airbag frontal, ¿hace innecesario el cinturón de seguridad?  
-Respuesta: **No; hay que llevar siempre el cinturón, también para que el impacto contra el airbag sea menor.**
+Respuesta: **No, hay que llevar siempre el cinturón.**
 
 - ✔ El airbag es un complemento del cinturón: hay que usar siempre el cinturón para que el impacto contra el airbag sea menor. _(MANUAL_DGT Tema 5, Los airbags (p. 115))_
 - ✘ `xe-0100` Según el manual de la DGT, la sillita en el asiento trasero central protege más al niño, porque queda resguardado si el golpe llega por cualquiera de los dos lados. _(MANUAL_DGT Tema 5, Cinturones de seguridad para niños (p. 110))_
@@ -12406,7 +12406,7 @@ Respuesta: **En los asientos traseros, con un sistema de retención infantil ada
 
 ## E-pas-0008
 
-Un menor que debe usar sistema de retención infantil viaja excepcionalmente en el asiento delantero, que tiene airbag frontal. ¿Puede usar una silla orientada hacia atrás?  
+Un menor que debe usar sistema de retención infantil viaja excepcionalmente delante, en un asiento con airbag frontal. ¿Puede usar una silla orientada hacia atrás?  
 Respuesta: **Solo si el airbag ha sido desactivado.**
 
 - ✔ Si el asiento delantero tiene airbag frontal, los sistemas orientados hacia atrás solo pueden usarse con el airbag desactivado. _(RGC 117.3)_
@@ -12415,8 +12415,8 @@ Respuesta: **Solo si el airbag ha sido desactivado.**
 
 ## E-pas-0009
 
-¿En qué caso puede un menor de 135 cm o menos ocupar el asiento delantero de un turismo (siempre con su sistema de retención)?  
-Respuesta: **Cuando todos los asientos traseros estén ya ocupados por menores que deben usar sistema de retención.**
+Con su sistema de retención, ¿en qué caso puede un menor de 135 cm o menos ir en el asiento delantero de un turismo?  
+Respuesta: **Cuando los asientos traseros ya van ocupados por otros menores con sistema de retención.**
 
 - ✔ Excepciones: que no haya asientos traseros, que estén todos ocupados por menores en esa situación o que no se puedan instalar en ellos todos los SRI. _(RGC 117.3)_
 - ✘ `xe-0088` Los taxis que circulan en tráfico urbano o áreas urbanas de grandes ciudades pueden llevar a personas de menos de 135 cm sin sistema de retención adaptado, siempre que ocupen un asiento trasero. _(RGC 119.2)_
@@ -12443,7 +12443,7 @@ Respuesta: **A la misma altura que la parte de arriba de la cabeza.**
 ## E-pas-0012
 
 ¿Para qué sirve principalmente el reposacabezas?  
-Respuesta: **Para proteger el cuello y las cervicales en caso de un golpe brusco, como un alcance por detrás.**
+Respuesta: **Para proteger el cuello en un golpe brusco, como un alcance por detrás.**
 
 - ✔ El reposacabezas es un elemento de seguridad pasiva que protege el cuello y las cervicales en un golpe brusco. _(MANUAL_DGT Tema 5, El reposacabezas (p. 116))_
 - ✘ `C-per-0002` El criterio es la estatura: los menores de edad que midan 135 cm o menos deben usar sistemas de retención infantil. _(RGC 117.1)_
@@ -12487,8 +12487,8 @@ Respuesta: **Para los menores de 16 años.**
 
 ## E-pas-0017
 
-El conductor de un patinete eléctrico (vehículo de movilidad personal), ¿debe llevar casco?  
-Respuesta: **Sí, casco de protección homologado o certificado, adecuadamente abrochado.**
+El conductor de un patinete eléctrico, ¿debe llevar casco?  
+Respuesta: **Sí, homologado o certificado y bien abrochado.**
 
 - ✔ Los conductores de vehículos de movilidad personal están obligados a utilizar casco homologado o certificado. _(RGC 118.3)_
 - ✘ `xe-0105` Según el manual de la DGT, el casco reparte la fuerza del golpe por toda su superficie para que no se concentre en un solo punto de la cabeza. _(MANUAL_DGT Tema 5, El casco (p. 117))_
@@ -12497,7 +12497,7 @@ Respuesta: **Sí, casco de protección homologado o certificado, adecuadamente a
 ## E-ada-0001
 
 ¿Qué hace el sistema de frenado autónomo de emergencia (AEB)?  
-Respuesta: **Avisa al conductor si se acerca demasiado al vehículo de delante y, si no reacciona y hay peligro de accidente, realiza un frenado de emergencia.**
+Respuesta: **Avisa si se acerca demasiado al de delante y, si no reacciona, frena solo.**
 
 - ✔ El AEB calcula la distancia con el vehículo de delante, avisa con voz y sonido y, si el conductor no hace caso y hay peligro, frena de emergencia. _(MANUAL_DGT Tema 5, Frenado autónomo de emergencia (AEB) (p. 93))_
 - ✘ `E-ada-0003` El LDW avisa (luz, sonido o vibración) cuando el vehículo cambia de carril de forma imprevista. _(MANUAL_DGT Tema 6, Aviso de salida de carril (LDW) (p. 135))_
@@ -12505,8 +12505,8 @@ Respuesta: **Avisa al conductor si se acerca demasiado al vehículo de delante y
 
 ## E-ada-0002
 
-Según el manual de la DGT, ¿qué hace el sistema de aviso de frenada de emergencia (EBD)?  
-Respuesta: **Hace parpadear las luces de freno del vehículo que frena de forma brusca, para avisar al de detrás.**
+¿Qué hace el sistema de aviso de frenada de emergencia (EBD)?  
+Respuesta: **Hace parpadear las luces de freno al frenar bruscamente.**
 
 - ✔ Cuando el conductor pisa el freno de forma firme y rápida, las luces de freno parpadean para que el de detrás tenga más tiempo para frenar. _(MANUAL_DGT Tema 5, Aviso de frenada de emergencia (EBD) (p. 94))_
 - ✘ `E-ada-0010` El Start-Stop detiene el motor en paradas breves (semáforo, atasco): parado no gasta combustible ni emite gases. _(MANUAL_DGT Tema 17, Función Start-Stop (p. 462))_
@@ -12515,7 +12515,7 @@ Respuesta: **Hace parpadear las luces de freno del vehículo que frena de forma 
 ## E-ada-0003
 
 ¿Qué hace el sistema de aviso de salida de carril (LDW)?  
-Respuesta: **Avisa al conductor cuando hace un cambio de carril imprevisto, por ejemplo por distracción o sueño.**
+Respuesta: **Avisa al conductor si se sale del carril sin querer, por distracción o sueño.**
 
 - ✔ El LDW avisa (luz, sonido o vibración) cuando el vehículo cambia de carril de forma imprevista. _(MANUAL_DGT Tema 6, Aviso de salida de carril (LDW) (p. 135))_
 - ✘ `E-ada-0006` La cámara de 360 grados capta todo lo que hay alrededor del vehículo y lo muestra en la pantalla delantera. _(MANUAL_DGT Tema 6, Cámara de marcha atrás y cámara de 360 grados (p. 136))_
@@ -12533,7 +12533,7 @@ Respuesta: **El asistente de mantenimiento de carril (LKA).**
 ## E-ada-0005
 
 ¿En qué maniobra ayuda el sistema de alerta de tráfico cruzado (RCTA)?  
-Respuesta: **Al circular marcha atrás, por ejemplo al salir de un aparcamiento.**
+Respuesta: **Al circular marcha atrás, como al salir de un aparcamiento.**
 
 - ✔ El RCTA avisa si hay otros vehículos detrás cuando se circula marcha atrás, por ejemplo al salir de una plaza de aparcamiento. _(MANUAL_DGT Tema 6, Sistema de alerta de tráfico cruzado (RCTA) (p. 138))_
 - ✘ `E-ada-0010` El Start-Stop detiene el motor en paradas breves (semáforo, atasco): parado no gasta combustible ni emite gases. _(MANUAL_DGT Tema 17, Función Start-Stop (p. 462))_
@@ -12542,7 +12542,7 @@ Respuesta: **Al circular marcha atrás, por ejemplo al salir de un aparcamiento.
 ## E-ada-0006
 
 La imagen que muestra la cámara de 360 grados de un vehículo, ¿de dónde procede?  
-Respuesta: **De las cámaras del propio vehículo, que captan lo que hay a su alrededor.**
+Respuesta: **De las cámaras del propio vehículo.**
 
 - ✔ La cámara de 360 grados capta todo lo que hay alrededor del vehículo y lo muestra en la pantalla delantera. _(MANUAL_DGT Tema 6, Cámara de marcha atrás y cámara de 360 grados (p. 136))_
 - ✘ `E-ada-0004` El LKA detecta las líneas y ayuda a guiar el coche para no salirse del carril. _(MANUAL_DGT Tema 6, Asistencia de mantenimiento de carril (LKA) (p. 135))_
@@ -12551,7 +12551,7 @@ Respuesta: **De las cámaras del propio vehículo, que captan lo que hay a su al
 ## E-ada-0007
 
 ¿Qué hace el sistema de reconocimiento de señales de tráfico (TSR)?  
-Respuesta: **Detecta las señales de límite de velocidad de la carretera y las muestra al conductor.**
+Respuesta: **Detecta las señales de límite de velocidad y las muestra al conductor.**
 
 - ✔ El TSR detecta las señales de límite de velocidad; en algunos vehículos muestra el límite en el cuadro y en otros reduce también la velocidad. _(MANUAL_DGT Tema 6, Sistema de reconocimiento de señales de tráfico (TSR) (p. 134))_
 - ✘ `E-ada-0003` El LDW avisa (luz, sonido o vibración) cuando el vehículo cambia de carril de forma imprevista. _(MANUAL_DGT Tema 6, Aviso de salida de carril (LDW) (p. 135))_
@@ -12559,7 +12559,7 @@ Respuesta: **Detecta las señales de límite de velocidad de la carretera y las 
 
 ## E-ada-0008
 
-¿Para qué sirve el sistema de ayuda de salida en pendiente (hill holder)?  
+¿Para qué sirve el sistema de ayuda de arranque en pendiente?  
 Respuesta: **Para que el vehículo no se vaya hacia atrás al arrancar en una cuesta.**
 
 - ✔ Evita que el vehículo retroceda al arrancar en pendiente o al pasar el pie del freno al acelerador. _(MANUAL_DGT Tema 6, Sistema de ayuda de salida en pendiente (p. 137))_
@@ -12578,7 +12578,7 @@ Respuesta: **Encendiendo una luz colocada en el espejo retrovisor.**
 ## E-ada-0010
 
 ¿Qué efecto positivo tiene el sistema Start-Stop?  
-Respuesta: **Reduce el consumo de combustible y la contaminación, porque detiene el motor cuando el vehículo se para un momento.**
+Respuesta: **Reduce el consumo y la contaminación.**
 
 - ✔ El Start-Stop detiene el motor en paradas breves (semáforo, atasco): parado no gasta combustible ni emite gases. _(MANUAL_DGT Tema 17, Función Start-Stop (p. 462))_
 - ✘ `E-ada-0002` Cuando el conductor pisa el freno de forma firme y rápida, las luces de freno parpadean para que el de detrás tenga más tiempo para frenar. _(MANUAL_DGT Tema 5, Aviso de frenada de emergencia (EBD) (p. 94))_
@@ -12640,7 +12640,7 @@ Respuesta: **Llevar neumáticos muy desgastados.**
 
 ## E-ent-0005
 
-Con el suelo mojado, las ruedas de tu vehículo empiezan a patinar. ¿Qué debes hacer?  
+Con el suelo mojado, las ruedas del vehículo empiezan a patinar. ¿Qué debe hacer?  
 Respuesta: **Levantar el pie del acelerador, pero sin frenar.**
 
 - ✔ Cuando las ruedas patinan hay que levantar el pie del acelerador sin frenar. _(MANUAL_DGT Tema 14, Conducir con lluvia (p. 354))_
@@ -12650,7 +12650,7 @@ Respuesta: **Levantar el pie del acelerador, pero sin frenar.**
 ## E-ent-0006
 
 ¿Por qué hay que tener especial cuidado cuando empiezan a caer las primeras gotas de lluvia?  
-Respuesta: **Porque el agua se mezcla con el polvo, la grasa y la suciedad de la carretera y forma un barro deslizante.**
+Respuesta: **Porque el agua forma con la suciedad de la carretera un barro deslizante.**
 
 - ✔ Las primeras gotas se mezclan con polvo, grasa y suciedad y forman un barro que puede hacer patinar el vehículo. _(MANUAL_DGT Tema 14, Conducir con lluvia (p. 354))_
 - ✘ `E-ent-0009` En bajada con nieve hay que ir más despacio de lo normal y usar marchas cortas para que el motor retenga el vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
@@ -12668,7 +12668,7 @@ Respuesta: **Porque el suelo está húmedo y los neumáticos se agarran menos.**
 ## E-ent-0008
 
 Para arrancar y circular en llano sobre nieve, ¿qué marcha conviene usar?  
-Respuesta: **Una marcha más larga (por ejemplo, segunda), que dé poca fuerza a las ruedas para que no patinen.**
+Respuesta: **Una marcha más larga, como la segunda, para que las ruedas no patinen.**
 
 - ✔ Con nieve se elige una marcha que permita arrancar con poca fuerza del motor (marcha más larga), para que las ruedas no patinen. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 356))_
 - ✘ `E-ent-0009` En bajada con nieve hay que ir más despacio de lo normal y usar marchas cortas para que el motor retenga el vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
@@ -12676,8 +12676,8 @@ Respuesta: **Una marcha más larga (por ejemplo, segunda), que dé poca fuerza a
 
 ## E-ent-0009
 
-¿Cómo debes bajar una pendiente con la calzada nevada?  
-Respuesta: **En una marcha corta (primera o segunda), para que el motor retenga el vehículo.**
+¿Cómo debe bajar una pendiente con la calzada nevada?  
+Respuesta: **En una marcha corta, para que el motor retenga el vehículo.**
 
 - ✔ En bajada con nieve hay que ir más despacio de lo normal y usar marchas cortas para que el motor retenga el vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
 - ✘ `E-ent-0008` Con nieve se elige una marcha que permita arrancar con poca fuerza del motor (marcha más larga), para que las ruedas no patinen. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 356))_
@@ -12703,8 +12703,8 @@ Respuesta: **En zonas húmedas o en las que no llega el sol.**
 
 ## E-acc-0001
 
-Presencias un accidente de tráfico en el que no estás implicado. ¿Tienes obligación de auxiliar o solicitar auxilio?  
-Respuesta: **Sí; quienes se vean implicados, lo presencien o tengan conocimiento de él están obligados a auxiliar o solicitar auxilio.**
+Quien presencia un accidente de tráfico sin estar implicado en él, ¿está obligado a auxiliar o a solicitar auxilio?  
+Respuesta: **Sí.**
 
 - ✔ La obligación de auxiliar o pedir auxilio alcanza a los implicados, a quienes presencian el accidente y a quienes tienen conocimiento de él. _(RGC 129.1)_
 - ✘ `v5f-acc-0001` Si en un accidente ya se ha producido un incendio, se intentará apagar con un extintor o echando tierra, arena o mantas sobre el fuego. No se debe echar agua sobre el fuego. _(MANUAL_DGT Tema 16, Proteger (pág. 417))_
@@ -12712,8 +12712,8 @@ Respuesta: **Sí; quienes se vean implicados, lo presencien o tengan conocimient
 
 ## E-acc-0002
 
-Llegas a un accidente en el que no estás implicado y ya se encuentran allí los agentes de la autoridad. ¿Estás obligado a cumplir las medidas que se exigen a los implicados?  
-Respuesta: **No, porque la autoridad o sus agentes ya se han personado en el lugar.**
+Llega a un accidente en el que no está implicado y ya están allí los agentes. ¿Está obligado a cumplir las medidas que se exigen a los implicados?  
+Respuesta: **No.**
 
 - ✔ El usuario no implicado debe cumplir esas prescripciones salvo que manifiestamente no sea necesaria su colaboración o que la autoridad o sus agentes ya estén en el lugar. _(RGC 129.3)_
 - ✘ `D-acc-0006` Durante el día, la mayor parte de los accidentes se producen a las horas de entrar y salir del trabajo, en especial al final de la jornada laboral. _(MANUAL_DGT Tema 16, ¿Dónde y cuándo hay más accidentes? (pág. 391))_
@@ -12721,8 +12721,8 @@ Respuesta: **No, porque la autoridad o sus agentes ya se han personado en el lug
 
 ## E-acc-0003
 
-Si como implicado en un accidente aparentemente hay algún herido, ¿qué debes hacer?  
-Respuesta: **Avisar a la autoridad o a sus agentes y permanecer o volver al lugar hasta su llegada, salvo que te autoricen a irte o debas atender a heridos.**
+Está implicado en un accidente y aparentemente hay algún herido. ¿Qué debe hacer?  
+Respuesta: **Avisar a los agentes y quedarse o volver al lugar hasta que lleguen, salvo excepciones.**
 
 - ✔ Si aparentemente hay heridos o muertos, el implicado debe avisar a la autoridad y permanecer o volver al lugar hasta su llegada, salvo las excepciones del artículo. _(RGC 129.2.e)_
 - ✘ `xe-0015` Según el manual de la DGT, para pedir ayuda se llama al 112 desde el móvil y, si no se tiene móvil, se puede ir al poste SOS más cercano. _(MANUAL_DGT Tema 16, Avisar (p. 419))_
@@ -12757,8 +12757,8 @@ Respuesta: **Al 112.**
 
 ## E-acc-0007
 
-Tu vehículo queda inmovilizado en la vía tras una avería, sin poder reemprender la marcha, y existe un lugar seguro fuera de la plataforma. ¿Qué deben hacer los ocupantes?  
-Respuesta: **Abandonar el vehículo por el lado contrario al flujo del tráfico, sin transitar ni permanecer en carriles y arcenes.**
+Su vehículo queda inmovilizado por avería, sin poder seguir, y hay un lugar seguro fuera de la plataforma. ¿Qué deben hacer los ocupantes?  
+Respuesta: **Salir por el lado contrario al tráfico, sin quedarse en carriles ni arcenes.**
 
 - ✔ Como norma general los ocupantes deben abandonar el vehículo si hay un lugar seguro fuera de la plataforma, saliendo por el lado contrario al tráfico y sin quedarse en carriles ni arcenes. Si no pueden salir con seguridad, permanecerán dentro con el cinturón abrochado. _(RGC 130.3)_
 - ✘ `E-acc-0013` El conductor debe señalizar el vehículo o el obstáculo y procurar que se retire en el menor tiempo posible, sacándolo de la calzada y situándolo conforme a las normas de estacionamiento siempre que sea factible. _(LSV 51.2)_
@@ -12776,7 +12776,7 @@ Respuesta: **Permanecer en el habitáculo con el cinturón abrochado.**
 ## E-acc-0009
 
 ¿Dónde se puede rellenar el parte de accidente tras un siniestro?  
-Respuesta: **En un lugar seguro fuera de la vía; está prohibido hacerlo en la plataforma de circulación.**
+Respuesta: **En un lugar seguro fuera de la vía.**
 
 - ✔ Se prohíbe cumplimentar el parte de accidente en la plataforma de circulación; debe hacerse en un lugar seguro fuera de la vía. _(RGC 130.5)_
 - ✘ `v5f-acc-0001` Si en un accidente ya se ha producido un incendio, se intentará apagar con un extintor o echando tierra, arena o mantas sobre el fuego. No se debe echar agua sobre el fuego. _(MANUAL_DGT Tema 16, Proteger (pág. 417))_
@@ -12793,8 +12793,8 @@ Respuesta: **El dispositivo luminoso de preseñalización de peligro V-16.**
 
 ## E-acc-0011
 
-¿Dónde se debe colocar el dispositivo luminoso V-16 en un vehículo inmovilizado?  
-Respuesta: **En la parte más alta posible del vehículo, para garantizar su máxima visibilidad.**
+¿Dónde se debe colocar el dispositivo luminoso de vehículo inmovilizado?  
+Respuesta: **En la parte más alta posible del vehículo.**
 
 - ✔ La V-16, de color amarillo auto, se coloca en la parte más alta posible del vehículo inmovilizado para que sea lo más visible posible; así no hay que caminar por la calzada. _(RGV Anexo XI, V-16.2)_
 - ✘ `E-acc-0010` La dotación obligatoria de turismos (y de mixtos y mercancías de hasta 3.500 kg) incluye el dispositivo luminoso V-16, el chaleco reflectante y la rueda de repuesto o sistema alternativo. Los triángulos ya no forman parte de ella. _(RGV Anexo XII.1.a)_
@@ -12802,8 +12802,8 @@ Respuesta: **En la parte más alta posible del vehículo, para garantizar su má
 
 ## E-acc-0012
 
-Además de emitir luz, ¿qué hace el dispositivo V-16 cuando se activa?  
-Respuesta: **Comunica su activación, desactivación y geoposicionamiento al punto de acceso nacional en materia de tráfico y movilidad (DGT).**
+Además de emitir luz, ¿qué hace el dispositivo luminoso de vehículo inmovilizado cuando se activa?  
+Respuesta: **Comunica a la DGT su activación, desactivación y ubicación.**
 
 - ✔ La V-16 comunica su activación, desactivación y ubicación al punto de acceso nacional de la DGT, sin depender del móvil ni de aplicaciones. _(RGV Anexo XI, V-16.4)_
 - ✘ `E-acc-0010` La dotación obligatoria de turismos (y de mixtos y mercancías de hasta 3.500 kg) incluye el dispositivo luminoso V-16, el chaleco reflectante y la rueda de repuesto o sistema alternativo. Los triángulos ya no forman parte de ella. _(RGV Anexo XII.1.a)_
@@ -12811,8 +12811,8 @@ Respuesta: **Comunica su activación, desactivación y geoposicionamiento al pun
 
 ## E-acc-0013
 
-Si por accidente o avería tu vehículo obstaculiza la calzada, ¿qué debes hacer?  
-Respuesta: **Señalizarlo convenientemente y adoptar las medidas para que sea retirado cuanto antes, sacándolo de la calzada siempre que sea factible.**
+Si por accidente o avería su vehículo obstaculiza la calzada, ¿qué debe hacer?  
+Respuesta: **Señalizarlo y procurar que se retire cuanto antes, sacándolo de la calzada si es posible.**
 
 - ✔ El conductor debe señalizar el vehículo o el obstáculo y procurar que se retire en el menor tiempo posible, sacándolo de la calzada y situándolo conforme a las normas de estacionamiento siempre que sea factible. _(LSV 51.2)_
 - ✘ `E-acc-0008` Si no pueden abandonar el vehículo con seguridad, los ocupantes permanecerán en el habitáculo con el cinturón abrochado. _(RGC 130.3)_
@@ -12829,7 +12829,7 @@ Respuesta: **No, salvo que sea necesario para ponerlo a salvo.**
 
 ## E-aux-0002
 
-Un motorista herido en un accidente lleva puesto el casco. ¿Qué debes hacer?  
+Un motorista herido en un accidente lleva puesto el casco. ¿Qué debe hacer?  
 Respuesta: **No quitarle el casco.**
 
 - ✔ No se debe quitar el casco a la persona herida. _(MANUAL_DGT Tema 16, Socorrer (p. 421))_
@@ -12848,7 +12848,7 @@ Respuesta: **Primero la consciencia y después la respiración.**
 ## E-aux-0004
 
 En la reanimación cardiopulmonar de un adulto que no respira, ¿qué secuencia se recomienda?  
-Respuesta: **30 compresiones en el tórax y 2 ventilaciones boca a boca.**
+Respuesta: **30 compresiones y 2 ventilaciones.**
 
 - ✔ Se hacen 30 compresiones en el centro del tórax (unas 100 por minuto, con los codos extendidos) y 2 ventilaciones, hasta que llegue la ayuda médica. _(MANUAL_DGT Tema 16, Respiración (p. 427))_
 - ✘ `xe-0032` Según el manual de la DGT, ante una quemadura no se debe tocar la zona quemada ni quitar la ropa que se haya quedado pegada a ella. _(MANUAL_DGT Tema 16, Quemaduras (p. 434))_
@@ -12856,7 +12856,7 @@ Respuesta: **30 compresiones en el tórax y 2 ventilaciones boca a boca.**
 
 ## E-aux-0005
 
-Un herido inconsciente respira con normalidad y tienes que dejarlo solo para atender a otros heridos. ¿Cómo debes dejarlo?  
+Un herido inconsciente respira con normalidad y tiene que dejarlo solo para atender a otros. ¿Cómo debe dejarlo?  
 Respuesta: **Colocado de lado.**
 
 - ✔ Si respira con normalidad y hay que dejarlo solo, se le coloca de lado (posición lateral de seguridad), lo que evita que se ahogue si vomita. _(MANUAL_DGT Tema 16, Respiración (p. 427))_
@@ -12866,7 +12866,7 @@ Respuesta: **Colocado de lado.**
 ## E-aux-0006
 
 ¿Cuándo se puede aplicar un torniquete?  
-Respuesta: **Solo en brazos y piernas, cuando no han funcionado la compresión directa ni la arterial.**
+Respuesta: **Solo en brazos y piernas, si no ha funcionado la compresión.**
 
 - ✔ El torniquete es el último recurso: solo en extremidades y cuando han fallado la compresión directa y la arterial. _(MANUAL_DGT Tema 16, Torniquete (p. 431))_
 - ✘ `xe-0025` Según el manual de la DGT, en la compresión directa no se debe quitar la gasa o el pañuelo aunque se empapen de sangre. _(MANUAL_DGT Tema 16, Compresión directa (p. 430))_
@@ -12875,7 +12875,7 @@ Respuesta: **Solo en brazos y piernas, cuando no han funcionado la compresión d
 ## E-aux-0007
 
 Si se aplica un torniquete, ¿qué es importante anotar?  
-Respuesta: **La hora a la que se hizo y el lugar en el que se ha colocado.**
+Respuesta: **La hora y el lugar en que se colocó.**
 
 - ✔ Hay que escribir la hora a la que se hizo el torniquete y dónde se ha colocado; solo el personal médico puede quitarlo. _(MANUAL_DGT Tema 16, Torniquete (p. 431))_
 - ✘ `E-aux-0008` Si la hemorragia se debe a un objeto clavado, no hay que intentar sacarlo. _(MANUAL_DGT Tema 16, Hemorragias (p. 428))_
@@ -12883,7 +12883,7 @@ Respuesta: **La hora a la que se hizo y el lugar en el que se ha colocado.**
 
 ## E-aux-0008
 
-Un herido tiene un objeto clavado en el cuerpo que le provoca una hemorragia. ¿Qué debes hacer con el objeto?  
+Un herido tiene un objeto clavado que le provoca una hemorragia. ¿Qué debe hacer con el objeto?  
 Respuesta: **No intentar sacarlo.**
 
 - ✔ Si la hemorragia se debe a un objeto clavado, no hay que intentar sacarlo. _(MANUAL_DGT Tema 16, Hemorragias (p. 428))_
@@ -12920,7 +12920,7 @@ Respuesta: **No es obligatorio, pero sí conveniente.**
 ## E-mec-0002
 
 ¿Está permitido circular con un turismo o una motocicleta con el escape libre, sin silenciador?  
-Respuesta: **No, está prohibido tanto en vías urbanas como interurbanas.**
+Respuesta: **No, ni en vías urbanas ni interurbanas.**
 
 - ✔ Se prohíbe la circulación de vehículos a motor y ciclomotores con escape libre, sin el preceptivo silenciador, en vías urbanas e interurbanas. _(RGC 7.2)_
 - ✘ `E-mec-0003` El catalizador, situado en el tubo de escape, reduce la contaminación de los gases de escape; el ruido lo reduce el silenciador. _(MANUAL_DGT Tema 17, La contaminación (p. 451))_
@@ -12929,7 +12929,7 @@ Respuesta: **No, está prohibido tanto en vías urbanas como interurbanas.**
 ## E-mec-0003
 
 ¿Qué función tiene el catalizador?  
-Respuesta: **Reducir la contaminación de los gases que salen por el tubo de escape.**
+Respuesta: **Reducir la contaminación de los gases de escape.**
 
 - ✔ El catalizador, situado en el tubo de escape, reduce la contaminación de los gases de escape; el ruido lo reduce el silenciador. _(MANUAL_DGT Tema 17, La contaminación (p. 451))_
 - ✘ `E-mec-0002` Se prohíbe la circulación de vehículos a motor y ciclomotores con escape libre, sin el preceptivo silenciador, en vías urbanas e interurbanas. _(RGC 7.2)_
@@ -12955,8 +12955,8 @@ Respuesta: **Con el motor parado y frío.**
 
 ## E-mec-0006
 
-Durante la marcha se enciende el testigo luminoso de presión de aceite. ¿Qué debes hacer?  
-Respuesta: **Parar el vehículo y no continuar hasta conocer el problema y arreglarlo.**
+Durante la marcha se enciende el testigo de presión de aceite. ¿Qué debe hacer?  
+Respuesta: **Parar y no seguir hasta conocer el problema y arreglarlo.**
 
 - ✔ El testigo indica poco aceite o falta de presión: hay que parar y no continuar hasta conocer y arreglar el problema. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 372))_
 - ✘ `xe-0070` Todo vehículo de motor debe disponer de marcha atrás, excepto las motocicletas, los motocultores conducidos a pie y los vehículos de tres ruedas simétricas. _(RGV 11.6)_
@@ -13001,7 +13001,7 @@ Respuesta: **De propulsión.**
 ## E-mec-0011
 
 Respecto a la rueda de repuesto, ¿qué debe llevar un turismo?  
-Respuesta: **Una rueda de repuesto o de uso temporal con las herramientas para el cambio, o un sistema alternativo que garantice la movilidad.**
+Respuesta: **Una rueda de repuesto o temporal con herramientas, o un sistema alternativo equivalente.**
 
 - ✔ La dotación incluye una rueda completa de repuesto o de uso temporal con las herramientas para cambiarla, o un sistema alternativo con garantías suficientes (por ejemplo, un kit antipinchazos). _(RGV Anexo XII.1.c)_
 - ✘ `E-mec-0012` Autobuses, mixtos y vehículos de mercancías de más de 3.500 kg de MMA y los conjuntos de vehículos no especiales deben llevar extintor homologado; los turismos no. _(RGV Anexo XII.2)_
@@ -13036,7 +13036,7 @@ Respuesta: **Hasta el espacio que recorrerá el vehículo en los siguientes 20 s
 
 ## E-pre-0002
 
-Antes de cambiar de carril, ¿cómo puedes comprobar que no hay ningún vehículo en el ángulo muerto?  
+Antes de cambiar de carril, ¿cómo puede comprobar que no hay ningún vehículo en el ángulo muerto?  
 Respuesta: **Girando la cabeza y mirando a través de la ventanilla.**
 
 - ✔ Siempre hay zonas que los retrovisores no cubren; para comprobarlas se puede girar la cabeza y mirar por la ventanilla. _(MANUAL_DGT Tema 17, Visión (p. 443))_
@@ -13045,7 +13045,7 @@ Respuesta: **Girando la cabeza y mirando a través de la ventanilla.**
 
 ## E-pre-0003
 
-El vehículo que circula detrás de ti se acerca demasiado. ¿Qué es lo más aconsejable?  
+El vehículo que circula detrás se acerca demasiado. ¿Qué es lo más aconsejable?  
 Respuesta: **Dejar más distancia de seguridad con el vehículo de delante.**
 
 - ✔ Si el de detrás se acerca mucho, hay que dejar más distancia con el de delante para no tener que frenar bruscamente, señalizar con más tiempo y frenar con suavidad. _(MANUAL_DGT Tema 17, Espacio trasero (p. 447))_
@@ -13082,7 +13082,7 @@ Respuesta: **Cuando el vehículo vaya a estar parado más de un minuto.**
 ## E-efi-0004
 
 Llevar instalada la baca en el techo sin necesidad, ¿cómo influye en el consumo?  
-Respuesta: **Lo aumenta, porque al vehículo le cuesta más vencer la resistencia del aire.**
+Respuesta: **Lo aumenta.**
 
 - ✔ Elementos como la baca o los deflectores aumentan la resistencia al aire y el consumo; es mejor llevar el equipaje en el maletero. _(MANUAL_DGT Tema 17, El aire de la calle (p. 455))_
 - ✘ `xe-0127` Según el manual de la DGT, arrastrar un remolque o caravana aumenta el consumo por la resistencia del aire, sobre todo si es más ancho o más alto que el vehículo. _(MANUAL_DGT Tema 17, El aire de la calle (p. 456))_
@@ -13118,7 +13118,7 @@ Respuesta: **0 emisiones, ECO, C y B.**
 ## E-amb-0002
 
 ¿En función de qué se clasifican los vehículos para asignarles un distintivo ambiental?  
-Respuesta: **De su nivel de emisiones y el combustible empleado (potencial contaminante).**
+Respuesta: **De su potencial contaminante.**
 
 - ✔ Los vehículos se clasifican en el Registro según su potencial contaminante, en relación con su nivel de emisiones y el combustible empleado. _(RGV Anexo II.E.1)_
 - ✘ `E-amb-0008` El distintivo de uso compartido va preferentemente en el ángulo superior izquierdo del parabrisas, por la cara interior (el ambiental va en el inferior derecho). _(RGV Anexo XI, V-26.3)_
@@ -13171,8 +13171,8 @@ Respuesta: **En el ángulo inferior derecho del parabrisas, por su cara interior
 
 ## E-amb-0008
 
-El distintivo de uso compartido (V-26), en un vehículo con parabrisas, ¿dónde se coloca preferentemente?  
-Respuesta: **En el ángulo superior izquierdo del parabrisas, por su cara interior.**
+El distintivo de uso compartido, en un vehículo con parabrisas, ¿dónde se coloca preferentemente?  
+Respuesta: **En el ángulo superior izquierdo del parabrisas, por dentro.**
 
 - ✔ El distintivo de uso compartido va preferentemente en el ángulo superior izquierdo del parabrisas, por la cara interior (el ambiental va en el inferior derecho). _(RGV Anexo XI, V-26.3)_
 - ✘ `xe-0142` Los turismos y vehículos N1 de gasolina Euro 3 y los diésel Euro 4 o Euro 5 tienen la clasificación ambiental B. _(RGV Anexo II.E.2.d)_
@@ -13207,8 +13207,8 @@ Respuesta: **Siempre.**
 
 ## v2-vmp-0003
 
-Una persona que no circula por motivos profesionales conduce de noche un patinete eléctrico (vehículo de movilidad personal) por una calle. Además del casco, ¿qué debe llevar puesto?  
-Respuesta: **Al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros.**
+Una persona que no circula por motivos profesionales conduce de noche un patinete eléctrico por una calle. Además del casco, ¿qué debe llevar puesto?  
+Respuesta: **Un elemento luminoso o reflectante visible a 150 metros.**
 
 - ✔ Los conductores de vehículos de movilidad personal que circulen entre el ocaso y la salida del sol, o con condiciones que reduzcan sensiblemente la visibilidad, deben llevar al menos un elemento luminoso o reflectante visible a 150 metros como mínimo, en cualquier tipo de vía. _(RGC 118.3)_
 - ✘ `v2-vmp-0001` El Reglamento General de Circulación prohíbe conducir vehículos de movilidad personal a los menores de quince años. _(RGC 155.3)_
@@ -13217,7 +13217,7 @@ Respuesta: **Al menos un elemento luminoso o reflectante visible a una distancia
 ## v2-vmp-0004
 
 Un repartidor que trabaja circulando en bicicleta o en patinete eléctrico, ¿cuándo debe llevar un chaleco reflectante de alta visibilidad?  
-Respuesta: **Siempre que circule desarrollando su actividad profesional, en todo tipo de vías.**
+Respuesta: **Siempre que trabaje circulando, en todo tipo de vías.**
 
 - ✔ Quienes trabajan circulando en motocicleta, ciclomotor, bicicleta u otro ciclo o vehículo de movilidad personal deben usar chaleco reflectante de alta visibilidad cuando circulen en todo tipo de vías, sin limitarse a la noche. _(RGC 118.4)_
 - ✘ `v2-vmp-0002` Los vehículos de movilidad personal deben llevar el alumbrado encendido siempre, tanto de día como de noche. _(RGC 155.5)_
@@ -13261,7 +13261,7 @@ Respuesta: **Solo en tramos señalizados para ello y con la circulación detenid
 
 ## v2-adel-0001
 
-Fuera de poblado, en una carretera limitada a 100 km/h, va a adelantar a una persona que circula montada a caballo. ¿A qué velocidad máxima puede hacerlo?  
+Fuera de poblado, en una carretera limitada a 100 km/h, va a adelantar a una persona a caballo. ¿A qué velocidad máxima puede hacerlo?  
 Respuesta: **A 80 km/h.**
 
 - ✔ Al adelantar fuera de poblado a ciclistas, peatones, animales, vehículos de tracción animal, ciclomotores o vehículos de movilidad personal, hay que reducir la velocidad al menos 20 km/h respecto al límite de la vía, antes de iniciar la maniobra y durante toda ella. Con un límite de 100 km/h, como máximo 80 km/h. _(RGC 85.4)_
@@ -13270,7 +13270,7 @@ Respuesta: **A 80 km/h.**
 
 ## v2-adel-0002
 
-Dentro de poblado, en una calle con un solo carril por sentido, va a adelantar a un patinete eléctrico (vehículo de movilidad personal). ¿Qué anchura de seguridad mínima debe guardar?  
+Dentro de poblado, en una calle con un carril por sentido, va a adelantar a un patinete eléctrico. ¿Qué separación lateral mínima debe guardar?  
 Respuesta: **Al menos 1,5 metros.**
 
 - ✔ Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal o ciclistas hay que guardar una anchura de seguridad de al menos 1,5 metros, dentro y fuera de poblado. Si la calzada tiene más de un carril por sentido, hay que cambiar completamente de carril. _(RGC 85.4)_
@@ -13424,7 +13424,7 @@ Respuesta: **Una vía para peatones, ciclos y, en su caso, VMP, segregada del tr
 ## v3-sen-0029
 
 ¿Qué indica esta señal?  
-Respuesta: **Una vía destinada a la circulación de ciclos, que los demás usuarios no pueden utilizar.**
+Respuesta: **Una vía reservada a los ciclos.**
 
 - ✔ La señal S-35 «Vía reservada para ciclos» indica una vía destinada a la circulación de ciclos y prohíbe a los demás usuarios utilizarla. A diferencia de la señal redonda R-407a, no obliga a los ciclistas a usarla. _(RGC_CATALOGO Anexo I, señal S-35)_
 - ✘ `B2-sen-0004` Mediante un panel complementario puede indicarse la distancia entre la señal y el principio del tramo peligroso y también la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
@@ -13433,7 +13433,7 @@ Respuesta: **Una vía destinada a la circulación de ciclos, que los demás usua
 ## v3-sen-0030
 
 ¿Qué indica esta señal?  
-Respuesta: **La situación de un paso para peatones adosado o compartido con un paso para ciclistas.**
+Respuesta: **Un paso para peatones junto a un paso para ciclistas.**
 
 - ✔ La señal S-46 indica la situación de un paso para peatones adosado o compartido con un paso para ciclistas. _(RGC_CATALOGO Anexo I, señal S-46)_
 - ✘ `res-sen-0002` Las carreteras convencionales o multicarril de la red del Estado se identifican con fondo rojo (S-420). Las autopistas y autovías, con fondo azul (S-410). _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-420))_
@@ -13442,7 +13442,7 @@ Respuesta: **La situación de un paso para peatones adosado o compartido con un 
 ## v3-sen-0031
 
 ¿Qué indica esta señal?  
-Respuesta: **Una zona de espera antes de la línea de detención de un cruce con semáforos, reservada a motos, ciclomotores o ciclos.**
+Respuesta: **Una zona de espera ante un semáforo, reservada a motos, ciclomotores o ciclos.**
 
 - ✔ La señal S-49 «Avanza moto o bici» indica una zona de espera previa a la línea de detención de una intersección regulada por semáforos, reservada a los vehículos indicados en la señal (motocicletas, vehículos de tres ruedas asimilados y ciclomotores, o ciclos). _(RGC_CATALOGO Anexo I, señal S-49)_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
@@ -13451,7 +13451,7 @@ Respuesta: **Una zona de espera antes de la línea de detención de un cruce con
 ## v3-sen-0032
 
 Esta señal está sobre un carril delimitado por una línea discontinua. ¿Pueden usarlo otros vehículos?  
-Respuesta: **Sí, pero solo para alguna maniobra que no sea parar, estacionar, cambiar de sentido o adelantar.**
+Respuesta: **Sí, para maniobras que no sean parar, estacionar, cambiar de sentido o adelantar.**
 
 - ✔ La señal S-51a indica un carril destinado exclusivamente a ciertos tipos de vehículos. Si la línea que lo delimita es discontinua, los demás vehículos pueden usarlo solo para alguna maniobra que no sea parar, estacionar, cambiar el sentido de la marcha o adelantar, dejando siempre preferencia a los vehículos autorizados. _(RGC_CATALOGO Anexo I, señal S-51a)_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
@@ -13460,7 +13460,7 @@ Respuesta: **Sí, pero solo para alguna maniobra que no sea parar, estacionar, c
 ## v3-sen-0033
 
 ¿Qué indica la cifra que aparece en esta señal?  
-Respuesta: **El número de personas a partir del cual se considera que el vehículo tiene alta ocupación.**
+Respuesta: **El número mínimo de ocupantes para considerar alta la ocupación.**
 
 - ✔ La señal S-51b indica un carril reservado a vehículos con alta ocupación (VAO); la cifra marca el número de personas a partir del cual se considera alta ocupación, que fija el órgano gestor en cada caso. _(RGC_CATALOGO Anexo I, señal S-51b)_
 - ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
@@ -13469,7 +13469,7 @@ Respuesta: **El número de personas a partir del cual se considera que el vehíc
 ## v3-sen-0034
 
 ¿Qué indica esta señal?  
-Respuesta: **Un surtidor o estación de servicio de carburantes que también tiene estación de recarga eléctrica.**
+Respuesta: **Una estación de servicio que también tiene recarga eléctrica.**
 
 - ✔ La señal S-105d indica la situación de un surtidor o estación de servicio de carburantes con disponibilidad de estación de recarga eléctrica. _(RGC_CATALOGO Anexo I, señal S-105d)_
 - ✘ `B2-sen-0016` En el orden de prioridad las marcas viales van detrás de semáforos y señales verticales; en caso de contradicción prevalece la preferente según ese orden. _(RGC 133)_
@@ -13514,7 +13514,7 @@ Respuesta: **La anchura de seguridad mínima que debe guardarse al adelantar a u
 ## v3-sen-0042
 
 ¿Qué indica esta señal?  
-Respuesta: **La existencia de un dispositivo de control de la separación mínima entre vehículos.**
+Respuesta: **Un control de la separación mínima entre vehículos.**
 
 - ✔ La señal S-991e indica la existencia de un dispositivo de control de separación mínima entre vehículos en un punto o tramo de una carretera convencional o multicarril (en autopista o autovía se usa la S-991f). _(RGC_CATALOGO Anexo I, señal S-991e)_
 - ✘ `B2-sen-0016` En el orden de prioridad las marcas viales van detrás de semáforos y señales verticales; en caso de contradicción prevalece la preferente según ese orden. _(RGC 133)_
@@ -13522,7 +13522,7 @@ Respuesta: **La existencia de un dispositivo de control de la separación mínim
 
 ## v3-mv-0001
 
-Según el Reglamento General de Circulación, si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros anteriores a un paso para peatones no se permitirá el aparcamiento de automóviles?  
+Si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros antes de un paso para peatones no se puede aparcar?  
 Respuesta: **En al menos 6 metros.**
 
 - ✔ Para que los conductores vean a los peatones que van a cruzar, no se permite aparcar automóviles en al menos los 6 m anteriores al paso de peatones si la acera está alineada con el límite exterior de la banda de estacionamiento, o en los 3 m anteriores si está alineada con el límite del carril de circulación. _(RGC Anexo I, marcas viales, M-4.3)_
@@ -13550,7 +13550,7 @@ Respuesta: **Un paso a nivel, un puente móvil o un muelle a 150 m.**
 ## v4a-sen-0003
 
 ¿De qué advierte esta señal de peligro?  
-Respuesta: **De un resalte o badén en la vía o de pavimento en mal estado.**
+Respuesta: **De un resalte, un badén o pavimento en mal estado.**
 
 - ✔ La señal P-15 «Perfil irregular» advierte de la proximidad de un resalte o badén en la vía o de pavimento en mal estado. Para un resalte o un badén concretos existen las señales P-15a y P-15b. _(RGC_CATALOGO Anexo I, señal P-15)_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
@@ -13621,8 +13621,8 @@ Respuesta: **A los vehículos que transporten mercancías peligrosas y deban ir 
 
 ## v4a-sen-0011
 
-Un turismo arrastra un remolque de dos ejes con 3.000 kg de masa máxima autorizada, que va vacío y pesa 900 kg. Encuentra esta señal con la cifra «2 t» sobre la silueta del remolque. ¿Puede entrar?  
-Respuesta: **No, porque la cifra se refiere a la masa máxima autorizada del remolque, que supera 2 t.**
+Un turismo arrastra un remolque de 3.000 kg de masa máxima autorizada que va vacío y pesa 900 kg. ¿Puede entrar ante esta señal de 2 t?  
+Respuesta: **No.**
 
 - ✔ La señal R-112 prohíbe el acceso a los vehículos de motor con remolque, salvo los de un solo eje. Si lleva una cifra de tonelaje, la prohibición se aplica cuando la masa máxima autorizada del remolque supera esa cifra, aunque vaya vacío. _(RGC_CATALOGO Anexo I, señal R-112)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
@@ -13649,7 +13649,7 @@ Respuesta: **A los ciclos y a los vehículos de movilidad personal.**
 ## v4a-sen-0014
 
 ¿Qué indica esta señal?  
-Respuesta: **Prohibición de acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales, con las condiciones en un panel o cartel.**
+Respuesta: **Acceso restringido según el distintivo ambiental u otros criterios ambientales.**
 
 - ✔ La señal R-120 prohíbe el acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales. Las condiciones (por ejemplo, qué distintivos pueden entrar) se especifican en un panel complementario o en un cartel que incluya la señal. _(RGC_CATALOGO Anexo I, señal R-120)_
 - ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
@@ -13657,8 +13657,8 @@ Respuesta: **Prohibición de acceso a vehículos en función de su distintivo am
 
 ## v4a-sen-0015
 
-Conduce un camión de 7,5 t de masa máxima autorizada que va vacío y en ese momento pesa 4,5 t. Encuentra esta señal, con la cifra 5,5 t y sin silueta de vehículo. ¿Puede pasar?  
-Respuesta: **Sí, porque la señal limita la masa en carga, es decir, lo que pesa el vehículo en ese momento.**
+Conduce un camión de 7,5 t de masa máxima autorizada que va vacío y pesa 4,5 t. Encuentra esta señal de 5,5 t, sin silueta de vehículo. ¿Puede pasar?  
+Respuesta: **Sí.**
 
 - ✔ La señal R-201 «Limitación de masa» prohíbe el paso a los vehículos cuya masa en carga (lo que pesan en ese momento) supere la cifra indicada. Distinta es la R-107 (con silueta de camión), que se fija en la masa máxima autorizada aunque el vehículo vaya vacío. _(RGC_CATALOGO Anexo I, señal R-201)_
 - ✘ `x1b-0055` Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
@@ -13676,7 +13676,7 @@ Respuesta: **Hasta la siguiente señal de fin de prohibición de adelantamiento 
 ## v4a-sen-0017
 
 Conduce una furgoneta de 3.000 kg de masa máxima autorizada y encuentra esta señal. ¿Le prohíbe adelantar?  
-Respuesta: **No, porque solo afecta a los camiones cuya masa máxima autorizada exceda de 3.500 kg.**
+Respuesta: **No.**
 
 - ✔ La señal R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg. No afecta a una furgoneta de 3.000 kg, que sigue sujeta a las normas generales de adelantamiento. _(RGC_CATALOGO Anexo I, señal R-306)_
 - ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
@@ -13685,7 +13685,7 @@ Respuesta: **No, porque solo afecta a los camiones cuya masa máxima autorizada 
 ## v4a-sen-0018
 
 Salvo indicación en contrario, ¿dónde rige la prohibición de esta señal?  
-Respuesta: **En el lado de la calzada donde está la señal, desde la vertical de la señal hasta la intersección más próxima en el sentido de la marcha.**
+Respuesta: **En su lado de la calzada, desde la señal hasta la próxima intersección.**
 
 - ✔ La señal R-307 prohíbe la parada y el estacionamiento en el lado de la calzada en que está situada; salvo indicación en contrario, desde la vertical de la señal hasta la intersección más próxima en el sentido de la marcha. _(RGC_CATALOGO Anexo I, señal R-307)_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
@@ -13694,7 +13694,7 @@ Respuesta: **En el lado de la calzada donde está la señal, desde la vertical d
 ## v4a-sen-0019
 
 Es día 1 del mes, son las 8:00 de la mañana y quiere estacionar junto a esta señal. ¿Puede hacerlo?  
-Respuesta: **Sí, porque la prohibición empieza a las 9 horas del día 1.**
+Respuesta: **Sí.**
 
 - ✔ La señal R-308c «Estacionamiento prohibido la primera quincena» prohíbe estacionar desde las 9 horas del día 1 hasta las 9 horas del día 16. A las 8:00 del día 1 aún no rige, así que se puede estacionar (hasta las 9:00). _(RGC_CATALOGO Anexo I, señal R-308c)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
@@ -13721,7 +13721,7 @@ Respuesta: **Zona de estacionamiento de duración limitada, en la que hay que in
 ## v4a-sen-0022
 
 Encuentra esta señal antes de una intersección. ¿Puede girar a la derecha?  
-Respuesta: **No, porque la flecha señala la dirección y sentido que está obligado a seguir.**
+Respuesta: **No.**
 
 - ✔ La señal R-400c «Sentido obligatorio» obliga a seguir la dirección y sentido de la flecha (de frente). Al obligar a seguir de frente, no se puede girar a la derecha ni a la izquierda ni cambiar de sentido. _(RGC_CATALOGO Anexo I, señal R-400c)_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
@@ -13739,7 +13739,7 @@ Respuesta: **Que puede pasar por cualquiera de los dos lados del refugio, la isl
 ## v4a-sen-0024
 
 Conduce una furgoneta de 2.000 kg de masa máxima autorizada y, al comienzo de una calzada, encuentra esta señal sin ninguna cifra. ¿Le obliga?  
-Respuesta: **Sí, obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa.**
+Respuesta: **Sí, obliga a camiones, tractocamiones y furgonetas de cualquier masa.**
 
 - ✔ La señal R-406 obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, a circular por la calzada a cuya entrada está. Solo si lleva una cifra de tonelaje se limita a los que superen esa masa máxima autorizada. _(RGC_CATALOGO Anexo I, señal R-406)_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
@@ -13766,7 +13766,7 @@ Respuesta: **Camino obligatorio para tractores.**
 ## v4a-sen-0027
 
 Va en bicicleta y, al comienzo de una vía, encuentra esta señal. ¿Puede circular por ella?  
-Respuesta: **No, porque es una vía reservada a los vehículos de movilidad personal y prohibida a los demás usuarios.**
+Respuesta: **No.**
 
 - ✔ La señal R-420 obliga a los conductores de vehículos de movilidad personal a circular por esa vía y prohíbe a los demás usuarios utilizarla, también a los ciclos. Si la vía fuera para ciclos y vehículos de movilidad personal, se usaría la R-421. _(RGC_CATALOGO Anexo I, señal R-420)_
 - ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
@@ -13928,7 +13928,7 @@ Respuesta: **Un aparcamiento para los vehículos privados de quienes continúan 
 ## v4b-sen-0016
 
 ¿Qué indica esta señal?  
-Respuesta: **Estacionamiento autorizado solo para un fin concreto, como acceder a una farmacia, y durante un tiempo determinado.**
+Respuesta: **Estacionamiento solo para un fin concreto, como ir a una farmacia, y por tiempo limitado.**
 
 - ✔ La señal S-17a (estacionamiento de necesidad) indica el lugar donde se puede estacionar únicamente para un fin concreto (acceso a una farmacia, a un hospital, etc.), cuyo pictograma figura en la señal, y durante un tiempo determinado que se indica en un panel complementario. _(RGC_CATALOGO Anexo I, señal S-17a)_
 - ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
@@ -13972,7 +13972,7 @@ Respuesta: **Que esa salida conduce hacia una autopista o una autovía.**
 
 ## v4b-sen-0021
 
-Circula por una autovía y encuentra este cartel azul que preseñaliza la próxima salida. ¿Qué sabe, por su color, del tipo de carretera al que lleva la salida?  
+En una autovía encuentra este cartel azul que anuncia la próxima salida. ¿Qué le dice su color sobre la carretera a la que lleva?  
 Respuesta: **Nada: allí es azul sea cual sea la carretera de destino.**
 
 - ✔ En autopistas y autovías los carteles de preseñalización (S-225, S-235) son azules y anuncian salidas hacia cualquier tipo de carretera. El tipo de carretera de destino se ve en el cajetín de identificación o en el cartel de la salida inmediata: blanco si lleva a una carretera convencional o multicarril (S-352) y azul si lleva a una autopista o autovía (S-353). _(RGC_CATALOGO Anexo I, señal S-225)_
@@ -14017,8 +14017,8 @@ Respuesta: **El punto kilométrico de la carretera, cuando es múltiplo de diez.
 
 ## v4b-sen-0026
 
-En poblado, ¿qué tipo de lugares indican las señales de uso específico de fondo marrón, como estas?  
-Respuesta: **Lugares de carácter geográfico o ecológico y de interés monumental, histórico o artístico.**
+En poblado, ¿qué lugares indican las señales de fondo marrón como estas?  
+Respuesta: **Lugares de interés geográfico, ecológico, monumental, histórico o artístico.**
 
 - ✔ En poblado, las señales de fondo marrón (S-730) indican lugares geográficos o ecológicos y de interés monumental, histórico o artístico: monumentos, castillos, monasterios, museos, palacios. Los lugares de interés cultural (universidades, teatros, bibliotecas) se indican con fondo blanco (S-740). _(RGC_CATALOGO Anexo I, señal S-730)_
 - ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
@@ -14035,8 +14035,8 @@ Respuesta: **Blanco.**
 
 ## v4b-sen-0028
 
-En poblado, ¿qué tipo de lugares indican las señales de uso específico de fondo amarillo, como esta?  
-Respuesta: **Lugares de interés para los viajeros, como estaciones, aeropuertos u hoteles.**
+En poblado, ¿qué lugares indican las señales de fondo amarillo como esta?  
+Respuesta: **Lugares de interés para viajeros, como estaciones, aeropuertos u hoteles.**
 
 - ✔ En poblado, las señales de fondo amarillo (S-710) indican lugares de interés para los viajeros: estaciones, aeropuertos, zonas de embarque de los puertos, hoteles, campamentos, oficinas de turismo y automóvil club. Las calles y plazas van en verde (S-700) y los lugares deportivos, en naranja (S-720). _(RGC_CATALOGO Anexo I, señal S-710)_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
@@ -14044,7 +14044,7 @@ Respuesta: **Lugares de interés para los viajeros, como estaciones, aeropuertos
 
 ## v4b-sen-0029
 
-Bajo una señal de peligro por estrechamiento de calzada hay un panel con la inscripción «3 m». Además de la distancia al comienzo del peligro, ¿qué puede indicar ese panel?  
+Bajo una señal de estrechamiento de calzada hay un panel que dice «3 m». Además de la distancia al peligro, ¿qué puede indicar?  
 Respuesta: **La anchura libre que queda en el estrechamiento.**
 
 - ✔ El panel complementario S-800 indica la distancia desde la señal hasta el comienzo del peligro. Colocado bajo la señal de estrechamiento de calzada, puede indicar en cambio la anchura libre del estrechamiento. La longitud del tramo peligroso se indica con el panel S-810, con la cifra entre dos flechas. _(RGC_CATALOGO Anexo I, panel S-800)_
@@ -14054,7 +14054,7 @@ Respuesta: **La anchura libre que queda en el estrechamiento.**
 ## v4b-sen-0030
 
 Bajo una señal de velocidad máxima, a la entrada de una salida de autovía, hay este panel complementario. ¿Dónde se aplica la limitación?  
-Respuesta: **Solo en el ramal de salida cuya dirección coincide aproximadamente con la de la flecha.**
+Respuesta: **Solo en el ramal de salida que sigue la dirección de la flecha.**
 
 - ✔ El panel complementario S-870a indica que la señal bajo la que está colocado se aplica solamente en el ramal de salida cuya dirección coincide aproximadamente con la de la flecha. Los vehículos que siguen por la calzada principal no quedan afectados. _(RGC_CATALOGO Anexo I, panel S-870a)_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
@@ -14116,8 +14116,8 @@ Respuesta: **Que la carretera se dirige hacia Portugal y que la frontera está a
 
 ## v4b-sen-0037
 
-¿Qué indica esta señal cuadrada azul?  
-Respuesta: **Una velocidad que se aconseja no sobrepasar, aunque las condiciones sean favorables.**
+¿Qué indica esta señal?  
+Respuesta: **Una velocidad que se aconseja no superar.**
 
 - ✔ La señal S-7 (velocidad máxima aconsejada) recomienda no sobrepasar la velocidad indicada aunque las condiciones de la vía y de la circulación sean favorables. Es una recomendación, no una obligación. Colocada bajo una señal de peligro, se refiere al tramo en que subsista el peligro. _(RGC_CATALOGO Anexo I, señal S-7)_
 - ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
@@ -14144,7 +14144,7 @@ Respuesta: **La proximidad de una salida por la que se puede cambiar de sentido 
 ## v4b-sen-0040
 
 Circula por un túnel y encuentra esta señal. ¿Qué indica?  
-Respuesta: **Un lugar donde apartar el vehículo en caso de emergencia, que dispone de teléfono de emergencia.**
+Respuesta: **Un apartadero de emergencia con teléfono de emergencia.**
 
 - ✔ La señal S-34a indica un lugar del túnel donde se puede apartar el vehículo en caso de emergencia, para dejar libre el paso, y que dispone de teléfono de emergencia. Las salidas de emergencia se indican con las señales S-980 y siguientes. _(RGC_CATALOGO Anexo I, señal S-34a)_
 - ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
@@ -14179,8 +14179,8 @@ Respuesta: **Sí, dos por sentido, aunque no estén marcados.**
 
 ## v5a-via-0003
 
-Según la Ley de Tráfico, ¿qué es una intersección?  
-Respuesta: **Un nudo de la red viaria en el que todos los cruces de trayectorias se realizan a nivel.**
+¿Qué es una intersección?  
+Respuesta: **Un nudo de la red viaria en el que todos los cruces se hacen a nivel.**
 
 - ✔ La intersección es un nudo de la red viaria en el que todos los cruces de trayectorias posibles de los vehículos se hacen a nivel. Un cruce a distinto nivel no es una intersección, y el tramo de carretera que discurre por poblado es una travesía. _(LSV Anexo I, 62)_
 - ✘ `B2-via-0012` En las zonas peatonales distintas de las aceras, la autoridad municipal puede autorizar mediante ordenanza la coexistencia de peatones con ciclistas y usuarios de VMP, respetando la prioridad de los peatones. _(RGC 152.1)_
@@ -14188,7 +14188,7 @@ Respuesta: **Un nudo de la red viaria en el que todos los cruces de trayectorias
 
 ## v5a-arc-0001
 
-Por una emergencia, circula con un turismo de 1.800 kg de MMA a velocidad anormalmente reducida, perturbando gravemente la circulación. La carretera tiene un arcén transitable y suficiente. ¿Por dónde debe circular?  
+Por una emergencia, circula con un turismo de 1.800 kg a velocidad anormalmente reducida, perturbando gravemente la circulación. Hay un arcén transitable y suficiente. ¿Por dónde debe circular?  
 Respuesta: **Por el arcén de su derecha.**
 
 - ✔ Los vehículos de hasta 3.500 kg de MMA que, por razones de emergencia, circulen a velocidad anormalmente reducida perturbando gravemente la circulación deben ir por el arcén de su derecha si es transitable y suficiente; si no lo es, por la parte imprescindible de la calzada. _(RGC 36.1)_
@@ -14206,7 +14206,7 @@ Respuesta: **Por el arcén del lado derecho.**
 
 ## v5a-arc-0003
 
-Un vehículo especial de 6.000 kg de MMA circula por una carretera con arcén transitable y suficiente. Salvo por razones de emergencia, ¿por dónde debe circular?  
+Un vehículo especial de 6.000 kg circula por una carretera con arcén transitable y suficiente. Salvo emergencia, ¿por dónde debe circular?  
 Respuesta: **Por la calzada, no por el arcén.**
 
 - ✔ Entre los vehículos especiales, los de hasta 3.500 kg de MMA son los que deben ir por el arcén de su derecha, si es transitable y suficiente. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
@@ -14215,7 +14215,7 @@ Respuesta: **Por la calzada, no por el arcén.**
 
 ## v5a-car-0001
 
-Fuera de poblado, en una autovía con tres carriles en su sentido, conduce un turismo con una caravana enganchada; el conjunto mide 8 metros de longitud. ¿Qué carriles puede utilizar normalmente?  
+Fuera de poblado, en una autovía con tres carriles en su sentido, conduce un turismo con caravana de 8 metros en total. ¿Qué carriles puede usar normalmente?  
 Respuesta: **El situado más a la derecha y el inmediato a este.**
 
 - ✔ En calzadas con tres o más carriles en el mismo sentido, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato, pero no los demás. _(RGC 31.2)_
@@ -14224,8 +14224,8 @@ Respuesta: **El situado más a la derecha y el inmediato a este.**
 
 ## v5a-car-0002
 
-Fuera de poblado, en una calzada con tres carriles para su sentido, conduce un camión rígido de 3.000 kg de MMA, sin remolque. ¿Puede utilizar el carril situado más a la izquierda para adelantar?  
-Respuesta: **Sí, porque la limitación al carril derecho y al inmediato es para camiones de más de 3.500 kg de MMA.**
+Fuera de poblado, en una calzada con tres carriles para su sentido, conduce un camión rígido de 3.000 kg de masa máxima autorizada. ¿Puede utilizar el carril de la izquierda para adelantar?  
+Respuesta: **Sí.**
 
 - ✔ Con tres o más carriles en el mismo sentido, la obligación de usar solo el carril derecho y el inmediato afecta a camiones y furgones de más de 3.500 kg de MMA, a vehículos especiales no obligados a ir por el arcén y a conjuntos de más de 7 metros. Un camión rígido de 3.000 kg puede usar el resto de carriles cuando las circunstancias lo aconsejen, sin entorpecer a quien le siga. _(RGC 31.2)_
 - ✘ `res-arc-0001` Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad. _(RGC 122.1)_
@@ -14242,8 +14242,8 @@ Respuesta: **Sí.**
 
 ## v5a-cesp-0002
 
-Conduce una furgoneta destinada exclusivamente al transporte de mercancías y viajan en ella tres personas. ¿Puede utilizar un carril VAO (vehículos de alta ocupación)?  
-Respuesta: **No, el carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables.**
+Conduce una furgoneta exclusivamente de mercancías en la que viajan tres personas. ¿Puede utilizar un carril VAO?  
+Respuesta: **No, el carril VAO es para motocicletas, turismos y mixtos adaptables.**
 
 - ✔ El uso del carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables; el resto de vehículos, como camiones o furgonetas de mercancías, y los turismos con remolque lo tienen prohibido aunque vayan muy ocupados. Además, pueden usarlo los autobuses de más de 3.500 kg de MMA y los articulados si así se indica para el tramo, y los vehículos de urgencia en servicio y los de mantenimiento de la vía. _(RGC 35.2.a)_
 - ✘ `res-cesp-0003` Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida. _(RGC 41.1)_
@@ -14287,7 +14287,7 @@ Respuesta: **25 km/h.**
 
 ## v5a-vel-0004
 
-Fuera de poblado, un vehículo especial sin remolque, que no es un motocultor, tiene señalización de frenado y por construcción no puede superar 60 km/h en llano. ¿Cuál es su velocidad máxima?  
+Fuera de poblado, un vehículo especial sin remolque, que no es motocultor, con señalización de frenado y que por construcción no supera 60 km/h en llano, ¿a qué velocidad máxima puede circular?  
 Respuesta: **40 km/h.**
 
 - ✔ Fuera de poblado, los vehículos especiales que tienen señalización de frenado, no llevan remolque y no son motocultores tienen un límite de 40 km/h; solo pueden ir a 70 km/h si pueden superar 60 km/h en llano y cumplen las condiciones técnicas exigidas. _(RGC 48.1.c.2º)_
@@ -14314,7 +14314,7 @@ Respuesta: **Sí, si la autoridad municipal lo establece excepcionalmente con se
 
 ## v5a-pri-0001
 
-Una ambulancia en servicio urgente circula por una vía despejada, donde dejar de usar la sirena no supone ningún peligro para los demás usuarios. ¿Cómo debe advertir de su presencia?  
+Una ambulancia en servicio urgente circula por una vía despejada, donde no usar la sirena no supone peligro para nadie. ¿Cómo debe advertir de su presencia?  
 Respuesta: **Con la señal luminosa aisladamente.**
 
 - ✔ Por regla general, los vehículos prioritarios en servicio urgente advierten de su presencia usando a la vez la señal luminosa y la acústica especial, pero deben usar la señal luminosa sola cuando omitir la acústica no entrañe peligro para los demás usuarios. El claxon intermitente con la luz de emergencia es para los vehículos no prioritarios en servicio de urgencia. _(RGC 68.2)_
@@ -14323,7 +14323,7 @@ Respuesta: **Con la señal luminosa aisladamente.**
 
 ## v5a-est-0001
 
-Un camión con remolque y un turismo con un remolque de 600 kg de MMA entran a la vez en un estrechamiento sin señalizar y no se puede saber cuál entró primero. ¿Cuál debe dar marcha atrás?  
+Un camión con remolque y un turismo con un remolque de 600 kg entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?  
 Respuesta: **El turismo con remolque.**
 
 - ✔ En caso de duda en un estrechamiento sin señalizar, tiene preferencia el vehículo con más dificultades de maniobra según el orden del reglamento: los conjuntos de vehículos van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA. La distancia de marcha atrás solo decide entre vehículos del mismo tipo o no enumerados. _(RGC 62.1)_
@@ -14350,7 +14350,7 @@ Respuesta: **Aumentar la velocidad o hacer maniobras que impidan o dificulten el
 
 ## v5b-adel-0002
 
-En una carretera con un solo carril para cada sentido va a adelantar a un peatón que camina por el borde de la calzada. ¿Qué anchura de seguridad mínima debe dejar?  
+En una carretera con un carril por sentido va a adelantar a un peatón que camina por el borde de la calzada. ¿Qué separación lateral mínima debe dejar?  
 Respuesta: **1,5 metros.**
 
 - ✔ Al adelantar a peatones, animales, ciclistas, ciclomotores o vehículos de movilidad personal hay que ocupar parte o la totalidad del carril contiguo o contrario y dejar una anchura de seguridad de al menos 1,5 metros. Si hay más de un carril por sentido, hay que cambiar completamente de carril. _(RGC 85.4)_
@@ -14359,8 +14359,8 @@ Respuesta: **1,5 metros.**
 
 ## v5b-adel-0003
 
-Circula por una carretera de doble sentido con un solo carril para cada sentido y se acerca a un cambio de rasante de visibilidad reducida. ¿Puede adelantar a la furgoneta que le precede?  
-Respuesta: **No, porque tendría que invadir el sentido contrario sin visibilidad suficiente.**
+En una carretera con un carril por sentido se acerca a un cambio de rasante de visibilidad reducida. ¿Puede adelantar a la furgoneta de delante?  
+Respuesta: **No.**
 
 - ✔ Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida. La única excepción es que los dos sentidos estén claramente delimitados y se pueda adelantar sin invadir la zona del sentido contrario, lo que no es posible con un solo carril por sentido. _(RGC 87.1.a)_
 - ✘ `x1a-0105` Se adelanta por la derecha, con las máximas precauciones y si hay espacio, al vehículo que indica claramente que va a girar a la izquierda o a parar en ese lado, y a los tranvías que marchan por la zona central. _(RGC 82.2)_
@@ -14377,8 +14377,8 @@ Respuesta: **No, está prohibido adelantar en los pasos a nivel y en sus proximi
 
 ## v5b-dist-0001
 
-Circula detrás de otro vehículo sin intención de adelantarlo y con circulación fluida. ¿En cuál de estas vías debe dejar, además, una separación que permita al que le sigue adelantarle con seguridad?  
-Respuesta: **En una carretera fuera de poblado con un carril por sentido en la que se permite adelantar.**
+Circula detrás de otro vehículo sin intención de adelantarlo. ¿En cuál de estas vías debe dejar una separación que permita al que le sigue adelantarle con seguridad?  
+Respuesta: **En una carretera de un carril por sentido, fuera de poblado, donde se permite adelantar.**
 
 - ✔ La separación adicional para facilitar que otro adelante no se exige en poblado, donde está prohibido adelantar, donde hay más de un carril en el mismo sentido ni cuando la circulación está tan saturada que no permite adelantar. Por eso solo se aplica en vías interurbanas de un carril por sentido con adelantamiento permitido. _(RGC 54.3)_
 - ✘ `D-dis-0001` La distancia de detención es el espacio recorrido desde que se detecta el obstáculo hasta que el vehículo se para por completo: la suma de la distancia de reacción y la de frenado. _(MANUAL_DGT Tema 10, Distancia de detención (pág. 263))_
@@ -14395,8 +14395,8 @@ Respuesta: **No, está prohibido cambiar de sentido en los túneles.**
 
 ## v5b-par-0001
 
-Dentro de poblado, ¿puede hacer una parada de un minuto, sin bajarse del coche, en la zona destinada a parada de uso exclusivo de los autobuses urbanos?  
-Respuesta: **No, en esas zonas está prohibido también parar.**
+Dentro de poblado, ¿puede parar un minuto, sin bajarse del coche, en una parada exclusiva de autobuses urbanos?  
+Respuesta: **No.**
 
 - ✔ El Reglamento prohíbe parar, y por tanto también estacionar, en las zonas destinadas para estacionamiento y parada de uso exclusivo del transporte público urbano. _(RGC 94.1.i)_
 - ✘ `x1b-0004` La parada y el estacionamiento se realizan, como norma general, con el vehículo paralelo al borde de la calzada; otra colocación solo se permite si las características de la vía u otras circunstancias lo aconsejan. _(RGC 92.1)_
@@ -14422,7 +14422,7 @@ Respuesta: **Lo más cerca posible del borde derecho de la calzada.**
 
 ## v5b-par-0004
 
-Un autobús estaciona en una pendiente descendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe inclinar las ruedas directrices?  
+Un autobús estaciona en una pendiente descendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe girar las ruedas directrices?  
 Respuesta: **Hacia fuera, hacia el bordillo.**
 
 - ✔ Los vehículos de más de 3.500 kg, los autobuses y los conjuntos de vehículos que paran o estacionan en una sensible pendiente deben quedar calzados: con calzos o apoyando una rueda directriz en el bordillo, con las ruedas hacia el centro de la calzada si la pendiente es ascendente y hacia fuera si es descendente. _(RGC 92.3.d)_
@@ -14449,8 +14449,8 @@ Respuesta: **En la intersección más próxima en el sentido de la marcha.**
 
 ## v5b-sen-0004
 
-En el lado de la calzada donde está esta señal, ¿puede detenerse un momento, sin bajarse del coche, para que se baje un pasajero?  
-Respuesta: **Sí, porque solo prohíbe el estacionamiento; no prohíbe la parada.**
+En el lado de la calzada donde está esta señal, ¿puede detenerse un momento, sin bajarse, para que se baje un pasajero?  
+Respuesta: **Sí.**
 
 - ✔ La señal R-308 prohíbe el estacionamiento en el lado de la calzada en que está situada, pero no prohíbe la parada (inmovilización de menos de dos minutos sin abandonar el vehículo). _(RGC_CATALOGO Anexo I, señal R-308)_
 - ✘ `B2-sen-0004` Mediante un panel complementario puede indicarse la distancia entre la señal y el principio del tramo peligroso y también la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
@@ -14458,8 +14458,8 @@ Respuesta: **Sí, porque solo prohíbe el estacionamiento; no prohíbe la parada
 
 ## v5b-par-0005
 
-Hace una parada de un minuto, sin bajarse, delante de un vado señalizado correctamente, y con ello impide salir a un vehículo del garaje. ¿Cómo la considera el Reglamento?  
-Respuesta: **Una parada en un lugar que obstaculiza gravemente la circulación.**
+Para un minuto, sin bajarse, delante de un vado bien señalizado e impide salir a un vehículo del garaje. ¿Cómo se considera esa parada?  
+Respuesta: **Una parada que obstaculiza gravemente la circulación.**
 
 - ✔ Se consideran paradas o estacionamientos que obstaculizan gravemente la circulación los que impiden la utilización normal del paso de vehículos en un vado señalizado correctamente. Es una infracción grave aunque se trate de una parada. _(RGC 91.2.c)_
 - ✘ `x1b-0004` La parada y el estacionamiento se realizan, como norma general, con el vehículo paralelo al borde de la calzada; otra colocación solo se permite si las características de la vía u otras circunstancias lo aconsejan. _(RGC 92.1)_
@@ -14494,8 +14494,8 @@ Respuesta: **Que se detenga en el lado derecho.**
 
 ## v5c-sem-0001
 
-Está detenido ante un semáforo en rojo, en el carril derecho (no reservado), que es el que deben usar quienes giran a la derecha. Usted quería seguir de frente y no tiene ningún vehículo detrás. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?  
-Respuesta: **Avanzar en la dirección y sentido de la flecha.**
+Está detenido ante un semáforo en rojo en el carril derecho, no reservado, que es el de los que giran a la derecha. Quería seguir de frente y no tiene a nadie detrás. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?  
+Respuesta: **Avanzar en el sentido de la flecha.**
 
 - ✔ Cuando se enciende una flecha verde, debe avanzar en la dirección y sentido indicados cualquier vehículo que esté en un carril reservado para ese movimiento o, aunque no esté reservado, en el carril que ese movimiento tenga que utilizar. La norma no condiciona esta obligación a que haya otros vehículos detrás. _(RGC Anexo I.4.2.g)_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
@@ -14503,7 +14503,7 @@ Respuesta: **Avanzar en la dirección y sentido de la flecha.**
 
 ## v5c-pn-0001
 
-La baliza de aproximación de tres franjas rojas (200 m) colocada en el lado derecho de la calzada va siempre acompañada de una señal de peligro. ¿De cuál de estas puede tratarse?  
+Esta baliza de tres franjas rojas, en el lado derecho de la calzada, va siempre acompañada de una señal de peligro. ¿De cuál puede tratarse?  
 Respuesta: **Paso a nivel con barreras.**
 
 - ✔ La baliza de aproximación de 200 m (P-9a en el lado derecho) indica que hay un paso a nivel, un puente móvil o un muelle a 200 m y va siempre acompañada de la señal P-5 (puente móvil), P-7 (paso a nivel con barreras), P-8 (paso a nivel sin barreras) o P-27 (muelle). _(RGC_CATALOGO Anexo I, señal P-9a)_
@@ -14531,7 +14531,7 @@ Respuesta: **En un panel complementario o en un cartel que incluya la señal.**
 ## v5c-obl-0001
 
 Conduce un turismo y encuentra esta señal a la entrada de una calzada. ¿Puede circular por ella?  
-Respuesta: **Sí: obliga a los camiones, tractocamiones y furgonetas a circular por ella, pero no prohíbe su uso a los demás vehículos.**
+Respuesta: **Sí.**
 
 - ✔ La señal R-406 obliga a los conductores de camiones, tractocamiones y furgones o furgonetas a circular por la calzada a cuya entrada está. A diferencia de otras señales de obligación (como las de ciclos, ciclomotores, peatones, VMP o animales de montura), no añade la prohibición a los demás usuarios, por lo que un turismo puede circular por ella. _(RGC_CATALOGO Anexo I, señal R-406)_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
@@ -14593,7 +14593,7 @@ Respuesta: **El de posición y el de corto alcance o cruce.**
 
 ## v5d-luz-0002
 
-De noche circula a 30 km/h por una carretera fuera de poblado insuficientemente iluminada y no lleva puesta la luz de largo alcance. ¿Qué alumbrado debe llevar encendido?  
+De noche circula a 30 km/h fuera de poblado por una carretera insuficientemente iluminada y sin la luz de largo alcance. ¿Qué alumbrado debe llevar?  
 Respuesta: **El de posición y el de corto alcance o cruce.**
 
 - ✔ En vías interurbanas insuficientemente iluminadas, entre el ocaso y la salida del sol, es obligatorio el alumbrado de corto alcance o cruce (además del de posición) cuando, entre otros casos, se circula a 40 km/h o menos sin utilizar el de largo alcance. Las luces de posición solas no bastan para circular. _(RGC 101.2.b)_
@@ -14602,8 +14602,8 @@ Respuesta: **El de posición y el de corto alcance o cruce.**
 
 ## v5d-luz-0003
 
-Es de día, pero hay una niebla que reduce sensiblemente la visibilidad, y su turismo queda inmovilizado por avería en el arcén. ¿Debe encender las luces de posición?  
-Respuesta: **Sí, porque hay condiciones que disminuyen sensiblemente la visibilidad.**
+Es de día, pero hay una niebla que reduce mucho la visibilidad, y su turismo queda inmovilizado por avería en el arcén. ¿Debe encender las luces de posición?  
+Respuesta: **Sí.**
 
 - ✔ Todo vehículo inmovilizado en calzada o arcén debe tener encendidas las luces de posición (y, en su caso, las de gálibo) entre la puesta y la salida del sol y también, a cualquier hora, cuando haya condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como la niebla. _(RGC 105.1)_
 - ✘ `res-luc-0001` En túneles insuficientemente iluminados, a más de 40 km/h, hay que llevar la luz de carretera salvo que haya que usar la de cruce (por ejemplo, para no deslumbrar). En túneles suficientemente iluminados, la de cruce. _(RGC 100.1)_
@@ -14683,7 +14683,7 @@ Respuesta: **18 años.**
 
 ## v5e-perm-0003
 
-El permiso B+E autoriza a conducir conjuntos formados por un vehículo de los que autoriza el permiso B y un remolque cuya masa máxima autorizada no exceda de...  
+El permiso B+E autoriza a conducir un vehículo de los del permiso B con un remolque cuya masa máxima autorizada no exceda de...  
 Respuesta: **3.500 kg.**
 
 - ✔ El permiso B+E permite enganchar a un vehículo de la clase B un remolque o semirremolque de hasta 3.500 kg de masa máxima autorizada. _(RGCOND 4.2 (tabla, clase B+E))_
@@ -14692,7 +14692,7 @@ Respuesta: **3.500 kg.**
 
 ## v5e-pun-0001
 
-Un conductor que ya recibió la bonificación de dos puntos tiene 14 puntos. Si mantiene todos sus puntos durante los tres años siguientes, sin ser sancionado en firme, ¿qué ocurre?  
+Un conductor que ya recibió la bonificación de dos puntos tiene 14. Si pasa otros tres años sin sanciones firmes que quiten puntos, ¿qué ocurre?  
 Respuesta: **Recibe un punto más y llega a 15.**
 
 - ✔ Quien mantiene la totalidad de sus puntos recibe dos puntos de bonificación por los tres primeros años y un punto por los tres siguientes, con un máximo de 15 puntos. _(LSV 63.4)_
@@ -14710,7 +14710,7 @@ Respuesta: **2 puntos.**
 
 ## v5e-pun-0003
 
-Un conductor no profesional vuelve a perder todos sus puntos durante los tres años siguientes a haber obtenido un nuevo permiso tras una primera pérdida total. ¿Cuánto tiempo debe esperar para obtener otro permiso?  
+Un conductor no profesional vuelve a perder todos los puntos en los tres años siguientes a obtener un nuevo permiso tras perderlos por primera vez. ¿Cuánto debe esperar para obtener otro?  
 Respuesta: **Doce meses desde la notificación.**
 
 - ✔ Si la pérdida total de puntos se repite en los tres años siguientes a obtener el nuevo permiso, no se puede obtener otro hasta pasados doce meses desde la notificación (seis meses para los conductores profesionales). _(LSV 71.1)_
@@ -14746,7 +14746,7 @@ Respuesta: **Un delito contra la seguridad vial.**
 
 ## v5e-fre-0001
 
-Según el manual de la DGT, ¿qué ocurre si se usa el freno demasiado, por ejemplo en una bajada larga?  
+¿Qué ocurre si se usa demasiado el freno, por ejemplo en una bajada larga?  
 Respuesta: **Que el freno se calienta y frena peor.**
 
 - ✔ Usar el freno en exceso hace que se caliente y pierda eficacia; por eso en bajadas largas conviene reducir marchas para que el motor actúe como freno. _(MANUAL_DGT Tema 5, ¿Cómo se usan los frenos? (p. 95))_
@@ -14755,8 +14755,8 @@ Respuesta: **Que el freno se calienta y frena peor.**
 
 ## v5e-neu-0001
 
-Según el manual de la DGT, si un neumático lleva una presión de inflado menor de la recomendada...  
-Respuesta: **se calienta, se deforma y se desgasta antes.**
+Si un neumático lleva menos presión de la recomendada...  
+Respuesta: **Se calienta, se deforma y se desgasta antes.**
 
 - ✔ Con una presión de inflado menor de la recomendada el neumático se calienta, se deforma y se desgasta antes; además se gasta más combustible y el vehículo es menos estable. El desgaste por el centro es propio del exceso de presión. _(MANUAL_DGT Tema 5, presión de inflado (p. 99-100))_
 - ✘ `A-adv-0010` En los turismos (M1), cuando el retrovisor interior no permite la visión del campo reglamentario hacia atrás, este pasa a ser opcional y debe colocarse un segundo retrovisor exterior en el lado derecho. _(RGV Anexo III.2, nota (1))_
@@ -14764,8 +14764,8 @@ Respuesta: **se calienta, se deforma y se desgasta antes.**
 
 ## v5f-ada-0001
 
-Su vehículo dispone de un detector de fatiga y le avisa de que está muy cansado. Según la DGT, ¿qué debe hacer?  
-Respuesta: **Hacer caso al aviso y parar el vehículo en un lugar seguro.**
+El detector de fatiga de su vehículo le avisa de que está muy cansado. ¿Qué debe hacer?  
+Respuesta: **Parar en un lugar seguro.**
 
 - ✔ El detector de fatiga reconoce mediante sensores si el conductor está muy cansado o a punto de dormirse y le avisa con una luz, un sonido o una vibración del volante para que pare el vehículo. La DGT aconseja obedecer lo que indique. _(MANUAL_DGT Tema 3, Fatiga y somnolencia (pág. 50))_
 - ✘ `E-ada-0005` El RCTA avisa si hay otros vehículos detrás cuando se circula marcha atrás, por ejemplo al salir de una plaza de aparcamiento. _(MANUAL_DGT Tema 6, Sistema de alerta de tráfico cruzado (RCTA) (p. 138))_
@@ -14827,7 +14827,7 @@ Respuesta: **Para quitar el hielo y los vapores del cristal trasero y que se vea
 
 ## v5f-aux-0001
 
-Un herido de un accidente tiene un hueso roto. Según la DGT, ¿qué se debe hacer?  
+Ante un herido que tiene un hueso roto, ¿qué se debe hacer?  
 Respuesta: **Dejar inmóvil la zona de la fractura y evitar que el herido la mueva.**
 
 - ✔ Ante una fractura hay que dejar inmóvil la zona, evitar que el herido la mueva y tapar la herida si la hay. _(MANUAL_DGT Tema 16, Fractura (pág. 434))_
@@ -14836,8 +14836,8 @@ Respuesta: **Dejar inmóvil la zona de la fractura y evitar que el herido la mue
 
 ## v5f-acc-0001
 
-En el lugar de un accidente se ha producido un incendio. Según la DGT, ¿cómo se debe intentar apagar?  
-Respuesta: **Con un extintor o echando tierra, arena o mantas sobre el fuego.**
+En el lugar de un accidente se ha producido un incendio. ¿Cómo se debe intentar apagar?  
+Respuesta: **Con un extintor o con tierra, arena o mantas.**
 
 - ✔ Si en un accidente ya se ha producido un incendio, se intentará apagar con un extintor o echando tierra, arena o mantas sobre el fuego. No se debe echar agua sobre el fuego. _(MANUAL_DGT Tema 16, Proteger (pág. 417))_
 - ✘ `xe-0008` Según el manual de la DGT, quien es testigo de un accidente pero no puede hacer nada por ayudar, o llega cuando ya están los agentes, debe seguir circulando para no estorbar. _(MANUAL_DGT Tema 16, Pasos a seguir (p. 412))_
@@ -14953,7 +14953,7 @@ Respuesta: **Sin pisar el acelerador.**
 
 ## v5f-efi-0002
 
-Según la DGT, ¿en qué marchas gasta menos combustible el vehículo?  
+¿En qué marchas gasta menos combustible el vehículo?  
 Respuesta: **En cuarta y quinta.**
 
 - ✔ El vehículo gasta menos combustible en las marchas largas, cuarta y quinta. En ciudad también hay que usar la marcha más larga posible, respetando los límites de velocidad. _(MANUAL_DGT Tema 17, Al acelerar y cambiar la velocidad (pág. 452))_
@@ -14981,7 +14981,7 @@ Respuesta: **Solo si las condiciones de utilización fijadas para ese tramo lo p
 ## v5f-amb-0001
 
 Un turismo no cumple los requisitos para ser clasificado como 0 emisiones, ECO, C ni B. ¿Qué distintivo ambiental le corresponde?  
-Respuesta: **Ninguno, porque no se crea distintivo para la categoría A.**
+Respuesta: **Ninguno.**
 
 - ✔ Los vehículos que no cumplen los requisitos de las clases 0 emisiones, ECO, C o B quedan en la categoría A. Los distintivos ambientales son solo cuatro (0 emisiones, ECO, C y B): no se crea distintivo para la categoría A. _(RGV Anexo XI, V-25.1)_
 - ✘ `xe-0147` Los vehículos eléctricos de batería, de autonomía extendida, de hidrógeno, de pila de combustible y los híbridos enchufables con al menos 40 km de autonomía tienen la clasificación 0 emisiones. _(RGV Anexo II.E.2.a)_

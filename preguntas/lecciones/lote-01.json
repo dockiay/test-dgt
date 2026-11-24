@@ -1,0 +1,2667 @@
+{
+  "version": 1,
+  "lote": "01",
+  "lecciones": [
+    {
+      "id": "A-adel-0005",
+      "porque": "La prohibición de adelantar a quien ya está adelantando no es absoluta: solo rige si, para hacerlo, tendrías que invadir la parte de la calzada reservada al sentido contrario. En una autovía con tres carriles en tu sentido puedes pasar por el tercero sin salir de tu lado, así que se permite, cumpliendo las demás normas del adelantamiento.",
+      "descartes": {
+        "a": "El «en todo caso» de la norma va unido a una condición: que haya que invadir el sentido contrario. Sin esa invasión, como en una autovía de tres carriles, no hay prohibición.",
+        "c": "El claxon no da permiso para adelantar. Lo que decide es si tienes que invadir el sentido contrario o no."
+      },
+      "truco": "Si quieres adelantar a alguien que ya está adelantando, pregúntate: «¿tendría que meterme en el lado de los que vienen de frente?». Si es así, prohibido; si no, puedes, con las precauciones de siempre.",
+      "huella": "5c4b1c553c8c"
+    },
+    {
+      "id": "A-adel-0003",
+      "porque": "Antes de adelantar tienes que comprobar que el de delante no ha anunciado ya que va a desplazarse hacia el mismo lado. Si lo ha hecho, él tiene preferencia: espera a que haga su maniobra.",
+      "descartes": {
+        "a": "Adelantarle deprisa para ganarle la mano es justo lo que la norma quiere evitar: quien ha avisado primero tiene preferencia y debes respetarla.",
+        "c": "El aviso acústico solo se usa si, tras un tiempo prudencial, el de delante no ejerce su preferencia. Avisarle y adelantar enseguida es saltarse su derecho."
+      },
+      "truco": "Quien señaliza primero, maniobra primero. Solo si tras un tiempo prudencial no lo hace puedes adelantarle, y avisándole antes con una señal acústica u óptica.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "84.2",
+          "cita": "No obstante, si después de un tiempo prudencial el conductor del citado vehículo no ejerciera su derecho prioritario, se podrá iniciar la maniobra de adelantamiento, advirtiéndoselo previamente con señal acústica u óptica"
+        }
+      ],
+      "huella": "b80a340d9792"
+    },
+    {
+      "id": "A-adel-0004",
+      "porque": "Antes de adelantar también tienes que mirar hacia atrás: si alguien que te sigue por tu mismo carril ya ha empezado a adelantarte, su maniobra está en marcha y no puedes salirte delante de él.",
+      "descartes": {
+        "b": "La norma no exige nada sobre el intermitente de los de detrás; lo que tienes que comprobar es que ninguno de ellos ha empezado ya a adelantarte.",
+        "c": "Mirar solo a los que vienen de frente no basta: la norma obliga también a comprobar que nadie que te sigue ha iniciado el adelantamiento a tu vehículo."
+      },
+      "truco": "Antes de adelantar, cuatro comprobaciones: que el de delante no ha avisado de lo mismo, que el carril que vas a usar está libre, que nadie de detrás te está adelantando ya y que tendrás hueco para volver a tu carril.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "84.1",
+          "cita": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "84.2",
+          "cita": "no ha indicado su propósito de desplazamiento hacia el mismo lado; en tal caso, deberá respetar la preferencia que le asiste"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "84.3",
+          "cita": "y de que dispone de espacio suficiente para reintegrarse a su carril cuando termine el adelantamiento"
+        }
+      ],
+      "huella": "55ee3ca535eb"
+    },
+    {
+      "id": "x1a-0108",
+      "porque": "Adelantar a una fila es más largo que adelantar a un solo vehículo y te deja más tiempo en el carril contrario. Por eso la norma exige tener la total seguridad de que, si aparece alguien de frente, podrás volver a la derecha sin perjudicar ni poner en peligro a ninguno de los adelantados.",
+      "descartes": {
+        "a": "La norma no pone un número máximo de vehículos en la fila; lo que exige es poder meterte a la derecha sin peligro si viene alguien de frente.",
+        "c": "Las luces de largo alcance no tienen nada que ver con esta regla; lo que hay que tener claro es que habrá un hueco seguro para volver a la derecha."
+      },
+      "truco": "Antes de adelantar a una fila, pregúntate: «si sale alguien de frente ahora, ¿dónde me meto?». Si no tienes una respuesta segura, no adelantes.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "84.1",
+          "cita": "Ningún conductor deberá de adelantar a varios vehículos si no tiene la total seguridad de que, al presentarse otro en sentido contrario, puede desviarse hacia el lado derecho sin causar perjuicios o poner en situación de peligro a alguno de los vehículos adelantados."
+        }
+      ],
+      "huella": "e983cafb7bcb"
+    },
+    {
+      "id": "x1a-0111",
+      "porque": "No basta con que el carril que vas a usar esté libre: también tienes que saber que, al terminar, habrá sitio para volver a tu carril. Si no lo hay, te quedarías en el otro carril sin poder volver.",
+      "descartes": {
+        "a": "La norma no fija ninguna velocidad del vehículo adelantado como requisito; lo que exige es tener espacio para volver a tu carril.",
+        "b": "Las luces de cruce no son un requisito del adelantamiento; lo que la norma pide es asegurarte de que tendrás espacio para reintegrarte a tu carril."
+      },
+      "truco": "Antes de adelantar, cuatro comprobaciones: que el de delante no ha avisado de lo mismo, que el carril que vas a usar está libre, que nadie de detrás te está adelantando ya y que tendrás hueco para volver a tu carril.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "84.1",
+          "cita": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "84.2",
+          "cita": "no ha indicado su propósito de desplazamiento hacia el mismo lado; en tal caso, deberá respetar la preferencia que le asiste"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "84.3",
+          "cita": "deberá asegurarse de que ningún conductor que le siga por el mismo carril ha iniciado la maniobra de adelantar a su vehículo"
+        }
+      ],
+      "huella": "6874e48253ec"
+    },
+    {
+      "id": "x1a-0107",
+      "porque": "Cuando el tráfico es tan denso que todos los carriles están llenos y cada uno va a la velocidad del de delante, cambiarse de carril solo crea riesgo. Por eso la norma solo permite cambiar para prepararse a girar, salir de la calzada o tomar una dirección determinada.",
+      "descartes": {
+        "a": "Cambiarse al carril que avanza más rápido es justo lo que la norma prohíbe en esa situación: no se cambia de carril para adelantar ni para ganar posición.",
+        "b": "Señalizar no convierte en permitida cualquier maniobra: con la circulación tan densa solo se cambia de carril para girar, salir de la calzada o tomar una dirección."
+      },
+      "truco": "Atasco que llena todos los carriles: que una fila avance más que otra no es adelantar, y cambiarte de carril solo vale para preparar tu giro, tu salida o tu dirección, no para ir más rápido.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "83.2",
+          "cita": "el hecho de que los de un carril circulen más rápidamente que los de otro no será considerado como un adelantamiento"
+        }
+      ],
+      "huella": "16b0870a7910"
+    },
+    {
+      "id": "x1a-0114",
+      "porque": "Si a mitad del adelantamiento ves que no vas a poder terminarlo sin riesgo, lo seguro es desistir: reducir rápidamente la marcha, volver a tu carril y avisar a los que te siguen con las señales preceptivas.",
+      "descartes": {
+        "b": "Acelerar al máximo es apostar por terminar una maniobra que ya has visto que es arriesgada; la norma manda desistir, no forzar.",
+        "c": "Seguir por el carril contrario buscando hueco te deja más tiempo expuesto a quienes vienen de frente; la norma ordena volver a tu carril."
+      },
+      "truco": "Si a mitad del adelantamiento algo se complica: frena, vuelve y avisa.",
+      "huella": "4c03ac848987"
+    },
+    {
+      "id": "x1a-0113",
+      "porque": "Cuanto más tiempo vas en paralelo con el adelantado, más tiempo pasas fuera de tu carril. Por eso la norma exige llevar una velocidad notoriamente superior a la suya y dejar una separación lateral suficiente.",
+      "descartes": {
+        "a": "A la misma velocidad irías en paralelo sin terminar nunca la maniobra; la norma pide ir notoriamente más rápido que el adelantado.",
+        "b": "Con una velocidad inferior no adelantas: te quedarías atrás. Hace falta una velocidad notoriamente superior a la del adelantado."
+      },
+      "truco": null,
+      "huella": "a9b6bbcf2ca6"
+    },
+    {
+      "id": "adel-0005",
+      "porque": "Un vehículo averiado que ocupa tu carril es un riesgo para quien está junto a él. Para rebasarlo debes dejar al menos 1,5 metros, aunque tengas que ocupar parte del sentido contrario, y bajar al menos 20 km/h respecto al límite de la vía.",
+      "descartes": {
+        "b": "El intermitente avisa de que te desplazas, pero no sustituye la separación de 1,5 metros ni la reducción de velocidad que exige la norma.",
+        "c": "La norma permite rebasarlo, incluso ocupando el sentido contrario si hace falta; no obliga a esperar a que lo retiren."
+      },
+      "truco": "Vehículo inmovilizado que ocupa tu carril: «1,5 y 20». Al menos 1,5 metros de separación y al menos 20 km/h por debajo del límite de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "88.1",
+          "cita": "los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros aunque para ello hayan de ocupar la parte de la calzada reservada al sentido contrario, y reducir la velocidad en al menos 20 km/h respecto al límite existente en la vía"
+        }
+      ],
+      "huella": "c807c2a2960f"
+    },
+    {
+      "id": "A-adel-0015",
+      "porque": "La regla general es que en un tramo con prohibición de adelantar no se ocupa el sentido contrario, pero la norma hace una excepción con usuarios lentos como el ciclomotor: puedes adelantarlo si por su velocidad se puede hacer sin riesgo y tras cerciorarte de que la maniobra no tiene peligro.",
+      "descartes": {
+        "a": "Ese «nunca» no es cierto: la norma permite adelantar en esos tramos a ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas, si van lo bastante despacio.",
+        "b": "La excepción no es automática: exige que por su velocidad pueda adelantarse sin riesgo y que te cerciores antes de que la maniobra no tiene peligro."
+      },
+      "truco": "Con prohibición de adelantar sí puedes pasar, si van lo bastante despacio, a ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas. A un turismo o a un camión lentos, no.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "88.2",
+          "cita": "podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "88.2",
+          "cita": "cuando por la velocidad a que circulen puedan ser adelantados sin riesgo para ellos ni para la circulación en general"
+        }
+      ],
+      "huella": "e106d6dba844"
+    },
+    {
+      "id": "A-adel-0016",
+      "porque": "En un tramo con prohibición de adelantar, la norma solo deja ocupar el sentido contrario para adelantar a una lista cerrada de usuarios lentos: ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas. El tractor agrícola está en esa lista.",
+      "descartes": {
+        "a": "Un turismo no está en la lista de excepciones: aunque vaya despacio, en ese tramo no puedes adelantarlo invadiendo el sentido contrario.",
+        "b": "El camión tampoco está en la lista, por despacio que vaya. La excepción es para los vehículos especiales agrícolas y sus conjuntos, no para los camiones."
+      },
+      "truco": "Con prohibición de adelantar sí puedes pasar, si van lo bastante despacio, a ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas. A un turismo o a un camión lentos, no.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "88.2",
+          "cita": "Con idénticos requisitos se podrá adelantar a conductores de bicicletas y demás ciclos, ciclomotores, vehículos de movilidad personal, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas y sus conjuntos"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "88.2",
+          "cita": "podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro"
+        }
+      ],
+      "huella": "6a3c91775a22"
+    },
+    {
+      "id": "v2-adel-0003",
+      "porque": "Quien adelanta fuera de poblado con un vehículo de dos ruedas debe dejar al menos 1,50 metros entre su vehículo y las partes más salientes del adelantado, sea este el que sea. La norma no rebaja esa distancia porque la moto sea estrecha.",
+      "descartes": {
+        "b": "Que la moto sea estrecha no la exime: la norma fija para los vehículos de dos ruedas que adelantan fuera de poblado un mínimo de 1,50 metros.",
+        "c": "Un metro se queda corto: el mínimo fijado es de 1,50 metros."
+      },
+      "truco": "El 1,5 sale en los dos sentidos: lo dejas tú al adelantar a un ciclista, un peatón, un ciclomotor, un VMP o un animal, y lo deja la moto que adelanta a cualquier vehículo fuera de poblado.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril"
+        }
+      ],
+      "huella": "36d1fd05240e"
+    },
+    {
+      "id": "A-adel-0001",
+      "porque": "Cuando el tráfico es tan denso que ocupa todos los carriles y cada vehículo va a la velocidad del que lleva delante, nadie está adelantando a nadie: simplemente unas filas avanzan más que otras. La norma dice expresamente que eso no se considera adelantamiento.",
+      "descartes": {
+        "b": "Para que haya un adelantamiento por la derecha alguien tendría que hacer esa maniobra; aquí cada uno sigue en su carril y la norma dice que no se considera adelantamiento.",
+        "c": "Que tu fila avance más deprisa no está prohibido; lo que no puedes hacer en esa situación es cambiarte de carril para ganar posición."
+      },
+      "truco": "Atasco que llena todos los carriles: que una fila avance más que otra no es adelantar, y cambiarte de carril solo vale para preparar tu giro, tu salida o tu dirección, no para ir más rápido.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "83.2",
+          "cita": "ningún conductor deberá cambiar de carril para adelantar ni para efectuar cualquier otra maniobra que no sea prepararse a girar a la derecha o a la izquierda, salir de la calzada o tomar determinada dirección"
+        }
+      ],
+      "huella": "52f92c88591d"
+    },
+    {
+      "id": "A-adel-0002",
+      "porque": "El carril de aceleración no es un carril normal de circulación: sirve para coger velocidad e incorporarse. Por eso la norma dice que avanzar por él más rápido que por los carriles normales (o al revés) no se considera adelantamiento. Lo mismo vale para los de deceleración y los reservados a determinados vehículos.",
+      "descartes": {
+        "a": "No es un adelantamiento por la derecha: la norma excluye expresamente de la idea de adelantamiento lo que pasa entre un carril de aceleración y los normales.",
+        "b": "La norma no fija ninguna diferencia de velocidad a partir de la cual pase a ser adelantamiento; simplemente no lo considera adelantamiento."
+      },
+      "truco": "Los carriles de aceleración, de deceleración y los reservados a ciertos vehículos van a su ritmo: avanzar por ellos más rápido o más lento que por los normales no cuenta como adelantar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "83.3",
+          "cita": "En todo tramo de vía en que existan carriles de aceleración o deceleración o carriles o partes de la vía destinadas exclusivamente al tráfico de determinados vehículos"
+        }
+      ],
+      "huella": "f039b93c4415"
+    },
+    {
+      "id": "x1a-0134",
+      "porque": "Unas piedras en tu carril son un obstáculo, y la norma permite rebasar un obstáculo ocupando el espacio del sentido contrario, también en un tramo con prohibición de adelantar. La condición es cerciorarte antes de que puedes hacerlo sin peligro.",
+      "descartes": {
+        "a": "La norma no obliga a esperar a que retiren el obstáculo: puedes rebasarlo si compruebas que no hay peligro.",
+        "c": "Que no sea un vehículo no te quita la obligación de cerciorarte de que puedes rebasarlo sin peligro; esa precaución se exige siempre."
+      },
+      "truco": "Obstáculo en tu carril: puedes rodearlo por el lado contrario aunque el tramo tenga prohibido adelantar, pero solo después de comprobar que no hay peligro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "89.1",
+          "cita": "siempre que se haya cerciorado de que puede efectuarlo sin peligro. La misma precaución se observará cuando el obstáculo o el vehículo inmovilizado se encuentren en un tramo de vía en el que esté permitido el adelantamiento"
+        }
+      ],
+      "huella": "66631e61d37a"
+    },
+    {
+      "id": "A-adel-0009",
+      "porque": "La regla general es adelantar por la izquierda, pero si el de delante indica claramente que va a girar a la izquierda, ese lado queda ocupado por su maniobra. Por eso, si hay espacio suficiente, se le adelanta por la derecha y con las máximas precauciones.",
+      "descartes": {
+        "a": "La izquierda es la regla general, pero es justo el lado hacia el que va a girar; para este caso la norma establece adelantar por la derecha.",
+        "c": "La norma no obliga a esperar a que termine el giro: si hay espacio suficiente, se le adelanta por la derecha con las máximas precauciones."
+      },
+      "truco": "Se adelanta por el lado contrario al que va el otro: si se va a la izquierda, a girar o a parar, le pasas por la derecha, con espacio suficiente y las máximas precauciones.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "82.2",
+          "cita": "esté indicando claramente su propósito de cambiar de dirección a la izquierda o parar en ese lado"
+        }
+      ],
+      "huella": "8aaeac140b37"
+    },
+    {
+      "id": "A-adel-0010",
+      "porque": "La regla general es adelantar por la izquierda, pero dentro de poblado, cuando hay al menos dos carriles en tu sentido delimitados por marcas longitudinales, se permite adelantar por la derecha. La condición es cerciorarte antes de que puedes hacerlo sin peligro para los demás.",
+      "descartes": {
+        "a": "En poblado no es «siempre» por la izquierda: con dos o más carriles en el mismo sentido delimitados por marcas se permite también por la derecha.",
+        "b": "Adelantar por la derecha al que va a girar a la izquierda es otro caso distinto; en poblado con dos carriles delimitados en tu sentido no hace falta que el otro vaya a girar."
+      },
+      "truco": "En poblado, con dos o más carriles pintados en tu sentido, puedes adelantar por la derecha si antes compruebas que no hay peligro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "82.2",
+          "cita": "esté indicando claramente su propósito de cambiar de dirección a la izquierda o parar en ese lado"
+        }
+      ],
+      "huella": "d8c0290e8872"
+    },
+    {
+      "id": "A-adel-0011",
+      "porque": "Un tranvía que va por la zona central de una vía de doble sentido tiene a su izquierda el sentido contrario. Por eso la norma manda adelantarlo por la derecha, si hay espacio suficiente y con las máximas precauciones.",
+      "descartes": {
+        "a": "Adelantarlo por la izquierda te obligaría a meterte en el sentido contrario; al tranvía que va por el centro la norma manda adelantarlo por la derecha.",
+        "c": "Sí se puede adelantar a un tranvía; lo que cambia es el lado: en vías de doble sentido, al que va por la zona central se le pasa por la derecha."
+      },
+      "truco": null,
+      "huella": "e6e481774602"
+    },
+    {
+      "id": "x1a-0105",
+      "porque": "Si el de delante indica claramente que va a parar en el lado izquierdo, ese lado queda ocupado por su maniobra. Por eso, si hay espacio suficiente, la norma manda adelantarlo por la derecha con las máximas precauciones, igual que cuando va a girar a la izquierda.",
+      "descartes": {
+        "a": "La izquierda es la regla general, pero es justo el lado donde va a parar; aquí rige la excepción de adelantar por la derecha.",
+        "b": "La norma no obliga a esperar: con espacio suficiente se le adelanta por la derecha, con las máximas precauciones."
+      },
+      "truco": "Se adelanta por el lado contrario al que va el otro: si se va a la izquierda, a girar o a parar, le pasas por la derecha, con espacio suficiente y las máximas precauciones.",
+      "huella": "4a372c9dad03"
+    },
+    {
+      "id": "x1a-0110",
+      "porque": "El que ha avisado de que se va a desplazar tiene preferencia, pero no indefinidamente. Si pasa un tiempo prudencial y no la ejerce, puedes empezar a adelantarle, avisándole antes con una señal acústica u óptica para que sepa lo que vas a hacer.",
+      "descartes": {
+        "a": "Esperar es lo correcto al principio, pero la preferencia del otro no es eterna: tras un tiempo prudencial sin que maniobre, la norma te deja adelantar avisando.",
+        "c": "Adelantar sin avisar no es lo que permite la norma: tras el tiempo prudencial tienes que advertírselo antes con señal acústica u óptica."
+      },
+      "truco": "Quien señaliza primero, maniobra primero. Solo si tras un tiempo prudencial no lo hace puedes adelantarle, y avisándole antes con una señal acústica u óptica.",
+      "huella": "86e6e779c64e"
+    },
+    {
+      "id": "A-adel-0012",
+      "porque": "En curvas y cambios de rasante con poca visibilidad el peligro es encontrarte de frente con alguien a quien no ves. Por eso se prohíbe adelantar, salvo que los dos sentidos estén claramente delimitados y puedas hacerlo sin invadir la zona del sentido contrario.",
+      "descartes": {
+        "a": "La prohibición tiene una excepción: si los sentidos están claramente delimitados y no invades el contrario, sí puedes adelantar.",
+        "c": "El claxon no quita el peligro de no ver lo que viene de frente; lo que permite adelantar es no tener que invadir el sentido contrario."
+      },
+      "truco": "En curvas y rasantes sin visibilidad, pregúntate: «¿tengo que meterme en el lado de los que vienen de frente?». Si es así, prohibido. Solo puedes si los sentidos están claramente delimitados y adelantas sin invadir el contrario.",
+      "huella": "96b44bc750f4"
+    },
+    {
+      "id": "A-adel-0013",
+      "porque": "En un paso para peatones señalizado puede haber alguien cruzando a quien te tapa el vehículo que quieres adelantar. Por eso la norma prohíbe adelantar en esos pasos y en sus proximidades, veas o no peatones.",
+      "descartes": {
+        "a": "La prohibición no depende de que veas peatones: el vehículo que adelantas puede taparte a alguien que empieza a cruzar. Rige en el paso y en sus proximidades.",
+        "c": "Ni estar en poblado ni ir a menos de 50 km/h crean una excepción: en los pasos para peatones señalizados está prohibido adelantar."
+      },
+      "truco": "Donde la carretera se cruza con peatones, bicis o trenes (pasos para peatones señalizados, intersecciones con vías para ciclistas y pasos a nivel) no se adelanta, ni en el cruce ni cerca de él.",
+      "huella": "9c9b8024e34a"
+    },
+    {
+      "id": "A-adel-0014",
+      "porque": "En un túnel o paso inferior con un solo carril para tu sentido, adelantar te obligaría a usar el carril de los que vienen de frente en un espacio cerrado. Por eso está prohibido.",
+      "descartes": {
+        "a": "La iluminación no cambia nada: la prohibición depende de que solo haya un carril para tu sentido.",
+        "c": "La norma no hace ninguna excepción por la velocidad del otro vehículo: con un solo carril en tu sentido, en el túnel no se adelanta."
+      },
+      "truco": "Túnel, paso inferior o tramo con la señal S-5: cuenta los carriles de tu sentido. Uno, no adelantas; dos o más, puedes, con las normas de siempre.",
+      "huella": "91e6b83656a2"
+    },
+    {
+      "id": "v2-adel-0004",
+      "porque": "Los pasos a nivel y sus proximidades son uno de los lugares donde está prohibido adelantar, junto con los pasos para peatones señalizados y las intersecciones con vías para ciclistas. Que el vehículo sea una moto no cambia nada.",
+      "descartes": {
+        "a": "La excepción de los vehículos de dos ruedas existe, pero para las intersecciones; no para los pasos a nivel.",
+        "c": "Ni la velocidad moderada ni la buena visibilidad levantan la prohibición: en los pasos a nivel y sus proximidades no se adelanta."
+      },
+      "truco": "Donde la carretera se cruza con peatones, bicis o trenes (pasos para peatones señalizados, intersecciones con vías para ciclistas y pasos a nivel) no se adelanta, ni en el cruce ni cerca de él.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "87.1.c.4º",
+          "cita": "c) En las intersecciones y en sus proximidades, salvo cuando:"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "87.1.c.4º",
+          "cita": "4.º El adelantamiento se realice a vehículos de dos ruedas"
+        }
+      ],
+      "huella": "ba5b0a3161e3"
+    },
+    {
+      "id": "v2-adel-0005",
+      "porque": "En el cruce con una vía para ciclistas pueden aparecer bicis atravesando la calzada, y el vehículo que adelantas puede taparlas. Por eso está prohibido adelantar en esas intersecciones y en sus proximidades, igual que en los pasos para peatones señalizados y los pasos a nivel.",
+      "descartes": {
+        "a": "La prohibición no depende de que veas ciclistas: rige siempre en esas intersecciones y cerca de ellas.",
+        "b": "La excepción de los vehículos de dos ruedas es para las intersecciones en general; las intersecciones con vías para ciclistas tienen su propia prohibición, sin esa excepción."
+      },
+      "truco": "Donde la carretera se cruza con peatones, bicis o trenes (pasos para peatones señalizados, intersecciones con vías para ciclistas y pasos a nivel) no se adelanta, ni en el cruce ni cerca de él.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "87.1.c.4º",
+          "cita": "c) En las intersecciones y en sus proximidades, salvo cuando:"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "87.1.c.4º",
+          "cita": "4.º El adelantamiento se realice a vehículos de dos ruedas"
+        }
+      ],
+      "huella": "c27162960d31"
+    },
+    {
+      "id": "v5b-adel-0003",
+      "porque": "En un cambio de rasante sin visibilidad no puedes ver lo que viene de frente. La única salvedad es que los sentidos estén claramente delimitados y puedas adelantar sin invadir el contrario, y con un solo carril por sentido eso es imposible.",
+      "descartes": {
+        "a": "El claxon no te deja ver lo que hay detrás del cambio de rasante; la prohibición sigue en pie.",
+        "b": "La velocidad de la furgoneta no abre ninguna excepción: el problema es la falta de visibilidad para invadir el sentido contrario."
+      },
+      "truco": "En curvas y rasantes sin visibilidad, pregúntate: «¿tengo que meterme en el lado de los que vienen de frente?». Si es así, prohibido. Solo puedes si los sentidos están claramente delimitados y adelantas sin invadir el contrario.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "87.1.a",
+          "cita": "a no ser que los dos sentidos de la circulación estén claramente delimitados y la maniobra pueda efectuarse sin invadir la zona reservada al sentido contrario"
+        }
+      ],
+      "huella": "23c89a8943bc"
+    },
+    {
+      "id": "v5b-adel-0004",
+      "porque": "Los pasos a nivel y sus proximidades son uno de los lugares donde está prohibido adelantar, igual que los pasos para peatones señalizados y las intersecciones con vías para ciclistas. La norma no prevé excepciones por la lentitud del otro vehículo ni por el estado de las barreras.",
+      "descartes": {
+        "b": "La norma no distingue entre pasos con barreras o sin ellas, ni si están levantadas: en las proximidades de un paso a nivel está prohibido adelantar.",
+        "c": "Poder detenerte a tiempo no es una excepción que recoja la norma: en las proximidades del paso a nivel no se adelanta."
+      },
+      "truco": "Donde la carretera se cruza con peatones, bicis o trenes (pasos para peatones señalizados, intersecciones con vías para ciclistas y pasos a nivel) no se adelanta, ni en el cruce ni cerca de él.",
+      "huella": "7fa8a680e410"
+    },
+    {
+      "id": "x1a-0124",
+      "porque": "Si el camión que va delante está adelantando y te tapa la vía, tú no ves lo que viene de frente. Está prohibido adelantar sin visibilidad suficiente, y la norma nombra este caso en concreto: adelantar detrás de un vehículo que hace la misma maniobra y cuyas dimensiones te impiden ver la parte delantera de la vía.",
+      "descartes": {
+        "a": "Aprovechar el hueco del camión es ir a ciegas: no sabes qué viene de frente, y por eso la norma lo prohíbe expresamente.",
+        "b": "Una señal del camión no te da la visibilidad que te falta; la prohibición depende de que no veas la vía por delante."
+      },
+      "truco": "Si no ves, no adelantas: tampoco pegado a otro que adelanta y te tapa la vista.",
+      "huella": "caf8180cdd1e"
+    },
+    {
+      "id": "x1a-0126",
+      "porque": "La regla general es que no se adelanta en las intersecciones ni en sus proximidades, pero la norma prevé cuatro excepciones y la glorieta es una de ellas. En una glorieta con dos carriles puedes adelantar, cumpliendo las demás normas del adelantamiento.",
+      "descartes": {
+        "b": "La glorieta es justamente una de las excepciones a la prohibición de adelantar en intersecciones.",
+        "c": "Adelantar a vehículos de dos ruedas es otra de las excepciones, pero en la glorieta la prohibición de las intersecciones no rige, sea cual sea el vehículo."
+      },
+      "truco": "Las cuatro excepciones al «no adelantar en intersecciones»: glorietas, adelantamientos por la derecha del 82.2 (al que gira o para a la izquierda, o al tranvía del centro), calzada con prioridad y señal que lo indique, y vehículos de dos ruedas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "87.1.c",
+          "cita": "c) En las intersecciones y en sus proximidades, salvo cuando: 1.º Se trate de una plaza de circulación giratoria o glorieta. 2.º El adelantamiento deba efectuarse por la derecha, según lo previsto en el artículo 82.2. 3.º La calzada en que se realice goce de prioridad en la intersección y haya señal expresa que lo indique. 4.º El adelantamiento se realice a vehículos de dos ruedas"
+        }
+      ],
+      "huella": "0a9fe0377c13"
+    },
+    {
+      "id": "x1a-0127",
+      "porque": "Está prohibido adelantar en las intersecciones y sus proximidades, pero la norma exceptúa varios casos, y uno es adelantar a vehículos de dos ruedas. Por eso puedes adelantar a la moto ahí, siempre que cumplas las demás normas del adelantamiento.",
+      "descartes": {
+        "a": "No es «nunca»: la prohibición en intersecciones tiene excepciones, y adelantar a un vehículo de dos ruedas es una de ellas.",
+        "b": "La excepción no depende de hacia dónde vaya a girar la moto; vale por tratarse de un vehículo de dos ruedas."
+      },
+      "truco": "Las cuatro excepciones al «no adelantar en intersecciones»: glorietas, adelantamientos por la derecha del 82.2 (al que gira o para a la izquierda, o al tranvía del centro), calzada con prioridad y señal que lo indique, y vehículos de dos ruedas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "87.1.c",
+          "cita": "c) En las intersecciones y en sus proximidades, salvo cuando: 1.º Se trate de una plaza de circulación giratoria o glorieta. 2.º El adelantamiento deba efectuarse por la derecha, según lo previsto en el artículo 82.2. 3.º La calzada en que se realice goce de prioridad en la intersección y haya señal expresa que lo indique. 4.º El adelantamiento se realice a vehículos de dos ruedas"
+        }
+      ],
+      "huella": "270093502209"
+    },
+    {
+      "id": "x1a-0128",
+      "porque": "Si tu calzada tiene prioridad en la intersección y una señal lo indica expresamente, quienes llegan por las otras vías deben cederte el paso. Es una de las excepciones a la prohibición de adelantar en intersecciones, siempre que cumplas las demás normas del adelantamiento.",
+      "descartes": {
+        "a": "No es «siempre»: la norma exceptúa, entre otros casos, la calzada que goza de prioridad con señal expresa que lo indique.",
+        "c": "La excepción no obliga a adelantar por la derecha: se aplican las normas generales, y la regla general es adelantar por la izquierda."
+      },
+      "truco": "Las cuatro excepciones al «no adelantar en intersecciones»: glorietas, adelantamientos por la derecha del 82.2 (al que gira o para a la izquierda, o al tranvía del centro), calzada con prioridad y señal que lo indique, y vehículos de dos ruedas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "87.1.c",
+          "cita": "c) En las intersecciones y en sus proximidades, salvo cuando: 1.º Se trate de una plaza de circulación giratoria o glorieta. 2.º El adelantamiento deba efectuarse por la derecha, según lo previsto en el artículo 82.2. 3.º La calzada en que se realice goce de prioridad en la intersección y haya señal expresa que lo indique. 4.º El adelantamiento se realice a vehículos de dos ruedas"
+        }
+      ],
+      "huella": "864ff17c68d6"
+    },
+    {
+      "id": "x1a-0130",
+      "porque": "La señal de fin de la prohibición de adelantamiento solo indica que deja de aplicarse una señal anterior de adelantamiento prohibido. Las prohibiciones generales siguen en pie, y una de ellas es adelantar en un cambio de rasante sin visibilidad cuando hay que invadir el sentido contrario.",
+      "descartes": {
+        "b": "La señal no da permiso para adelantar en cualquier lugar: solo anula la señal de prohibición anterior; las demás prohibiciones del reglamento siguen vigentes.",
+        "c": "La señal no distingue tipos de vehículo, y en un cambio de rasante sin visibilidad, con los sentidos sin delimitar, no se puede adelantar invadiendo el sentido contrario."
+      },
+      "truco": "«Fin de prohibición» quita la señal, no las reglas: en curvas y cambios de rasante sin visibilidad, en los pasos para peatones o en los pasos a nivel sigue prohibido adelantar.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-502",
+          "cita": "Señala el lugar desde donde deja de ser aplicable una señal anterior de adelantamiento prohibido."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "87.1.b",
+          "cita": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades."
+        }
+      ],
+      "huella": "0a89154c12f8"
+    },
+    {
+      "id": "x1a-0115",
+      "porque": "Tras adelantar no debes quedarte en el otro carril, pero tampoco cerrarte de golpe. La norma pide volver tan pronto como puedas, de forma gradual, sin obligar a nadie a cambiar su trayectoria o su velocidad, y avisándolo con las señales preceptivas.",
+      "descartes": {
+        "a": "Volver de inmediato obligando al adelantado a frenar es justo lo que la norma prohíbe: no puedes obligar a otros a modificar su velocidad.",
+        "c": "No es a tu elección: la norma obliga a reintegrarte a tu carril tan pronto como te sea posible."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.3",
+          "cita": "y advertirlo a través de las señales preceptivas"
+        }
+      ],
+      "huella": "e020a9aaa1ab"
+    },
+    {
+      "id": "x1a-0109",
+      "porque": "En una calzada de doble sentido con tres carriles separados por marcas discontinuas, el central pueden usarlo para adelantar los dos sentidos. Por eso solo puedes adelantar por él si los que vienen de frente no lo han ocupado ya para adelantar: si lo han hecho, os encontraríais de frente.",
+      "descartes": {
+        "a": "El carril central no es solo de tu sentido: lo comparten ambos, y por eso hay que comprobar que los de enfrente no lo están usando para adelantar.",
+        "b": "El carril central también sirve para adelantar, no solo para girar; la condición es que no lo hayan ocupado los del sentido contrario."
+      },
+      "truco": "Carril central compartido: antes de usarlo para adelantar, mira de frente. Si alguien del otro sentido ya lo ha ocupado para adelantar, espera.",
+      "huella": "09f00eb463f1"
+    },
+    {
+      "id": "x1a-0129",
+      "porque": "La prohibición de adelantar en túneles, pasos inferiores y tramos con la señal «Túnel» solo rige cuando hay un único carril para tu sentido. Con dos carriles en tu sentido puedes adelantar sin invadir el contrario, cumpliendo las normas generales del adelantamiento.",
+      "descartes": {
+        "a": "No es «siempre»: la prohibición en túneles depende de que solo haya un carril para tu sentido.",
+        "b": "En los túneles no hay una regla especial para los vehículos de dos ruedas: lo que cuenta es el número de carriles de tu sentido."
+      },
+      "truco": "Túnel, paso inferior o tramo con la señal S-5: cuenta los carriles de tu sentido. Uno, no adelantas; dos o más, puedes, con las normas de siempre.",
+      "huella": "006b62db40fc"
+    },
+    {
+      "id": "x1a-0106",
+      "porque": "Con al menos dos carriles en tu sentido no tienes que volver a la derecha entre un adelantamiento y el siguiente: puedes seguir en el carril que has usado, siempre que no molestes indebidamente a los que vienen detrás más rápido.",
+      "descartes": {
+        "b": "La norma no obliga a volver a la derecha entre dos adelantamientos seguidos; permite seguir en el mismo carril si no molestas a quienes vienen más rápido.",
+        "c": "No es «en cualquier caso»: la condición es no molestar indebidamente a los que te siguen más rápido."
+      },
+      "truco": null,
+      "huella": "9722058c29d4"
+    },
+    {
+      "id": "A-adel-0006",
+      "porque": "Si ves que el de detrás quiere adelantarte, tu papel es ponérselo fácil: ceñirte al borde derecho de la calzada para dejarle sitio. Solo te ceñirías a la izquierda si fueras a girar o a parar en ese lado.",
+      "descartes": {
+        "b": "Aumentar la velocidad mientras te adelantan está prohibido, porque dificulta el adelantamiento.",
+        "c": "Irte hacia el centro le quita el espacio que necesita para adelantarte; lo que debes hacer es ceñirte a la derecha."
+      },
+      "truco": "Cuando te adelantan: pégate a tu derecha (o a la izquierda si vas a girar o parar en ese lado), no aceleres ni le pongas trabas y, si surge peligro, reduce la velocidad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "También estará obligado a disminuir la velocidad de su vehículo cuando, una vez iniciada la maniobra de adelantamiento, se produzca alguna situación que entrañe peligro"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.1",
+          "cita": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario"
+        }
+      ],
+      "huella": "17a4eadd7a5c"
+    },
+    {
+      "id": "A-adel-0007",
+      "porque": "Aunque es el otro quien adelanta, la norma también te obliga a ti: si una vez iniciado el adelantamiento surge una situación de peligro, debes disminuir la velocidad para que pueda terminar la maniobra cuanto antes.",
+      "descartes": {
+        "b": "No puedes desentenderte: la norma obliga al conductor adelantado a disminuir la velocidad si surge peligro.",
+        "c": "Acelerar está prohibido al que es adelantado, y aquí alargaría la maniobra del otro en plena situación de peligro."
+      },
+      "truco": "Cuando te adelantan: pégate a tu derecha (o a la izquierda si vas a girar o parar en ese lado), no aceleres ni le pongas trabas y, si surge peligro, reduce la velocidad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "86.1",
+          "cita": "estará obligado a ceñirse al borde derecho de la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.1",
+          "cita": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario"
+        }
+      ],
+      "huella": "becb865bb6fc"
+    },
+    {
+      "id": "A-adel-0008",
+      "porque": "Cuando un vehículo pesado o de grandes dimensiones no puede ceñirse del todo a la derecha, pero el adelantamiento se puede hacer con seguridad, puede indicárselo al que se acerca con el brazo o, si no cree conveniente usar el brazo, con el intermitente derecho.",
+      "descartes": {
+        "b": "El intermitente izquierdo indicaría que el camión va a desplazarse a la izquierda, justo lo contrario de lo que quiere comunicar.",
+        "c": "La norma no prevé la luz de emergencia para esto; la alternativa al brazo es el intermitente derecho."
+      },
+      "truco": "Piensa en lo que dice el intermitente derecho: «me echo a mi derecha y te dejo sitio». El izquierdo diría lo contrario.",
+      "huella": "b5feccdfef0d"
+    },
+    {
+      "id": "v5b-adel-0001",
+      "porque": "Quien va a ser adelantado no debe ponerle trabas al que adelanta: tiene prohibido aumentar la velocidad o hacer maniobras que impidan o dificulten el adelantamiento. Lo que sí debe hacer es ceñirse al borde derecho.",
+      "descartes": {
+        "b": "Mantener la velocidad que llevabas no está prohibido: la norma prohíbe aumentarla y solo obliga a reducirla si surge una situación de peligro.",
+        "c": "Ceñirse al borde derecho no está prohibido: es justo lo que la norma obliga a hacer cuando te adelantan."
+      },
+      "truco": "Cuando te adelantan: pégate a tu derecha (o a la izquierda si vas a girar o parar en ese lado), no aceleres ni le pongas trabas y, si surge peligro, reduce la velocidad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "86.1",
+          "cita": "estará obligado a ceñirse al borde derecho de la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "También estará obligado a disminuir la velocidad de su vehículo cuando, una vez iniciada la maniobra de adelantamiento, se produzca alguna situación que entrañe peligro"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.1",
+          "cita": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario"
+        }
+      ],
+      "huella": "5fdb134ca131"
+    },
+    {
+      "id": "x1a-0120",
+      "porque": "La regla general al ser adelantado es ceñirse a la derecha, pero si vas a girar a la izquierda, el otro te adelantará por la derecha. Por eso debes ceñirte a la izquierda todo lo posible, sin estorbar a los que vienen de frente.",
+      "descartes": {
+        "b": "Ceñirte a la derecha es la regla general, pero si vas a girar a la izquierda te adelantarán por la derecha, y ese hueco tienes que dejarlo libre.",
+        "c": "Detenerte en el centro no es lo que pide la norma: debes ceñirte a la izquierda todo lo posible sin interferir con el sentido contrario."
+      },
+      "truco": "Cuando te adelantan: pégate a tu derecha (o a la izquierda si vas a girar o parar en ese lado), no aceleres ni le pongas trabas y, si surge peligro, reduce la velocidad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "86.1",
+          "cita": "estará obligado a ceñirse al borde derecho de la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "82.2",
+          "cita": "esté indicando claramente su propósito de cambiar de dirección a la izquierda o parar en ese lado"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "También estará obligado a disminuir la velocidad de su vehículo cuando, una vez iniciada la maniobra de adelantamiento, se produzca alguna situación que entrañe peligro"
+        }
+      ],
+      "huella": "6bdd54a0308d"
+    },
+    {
+      "id": "x1a-0121",
+      "porque": "Al que están adelantando le está prohibido aumentar la velocidad, porque alargaría la maniobra y el tiempo que el otro pasa fuera de su carril. Da igual a qué velocidad vaya el que adelanta.",
+      "descartes": {
+        "a": "No superar el límite no es una excusa: aunque estés por debajo del límite, mientras te adelantan no puedes acelerar.",
+        "b": "Que el que adelanta vaya despacio no te autoriza a acelerar; la prohibición es la misma."
+      },
+      "truco": "Cuando te adelantan: pégate a tu derecha (o a la izquierda si vas a girar o parar en ese lado), no aceleres ni le pongas trabas y, si surge peligro, reduce la velocidad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "86.1",
+          "cita": "estará obligado a ceñirse al borde derecho de la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "También estará obligado a disminuir la velocidad de su vehículo cuando, una vez iniciada la maniobra de adelantamiento, se produzca alguna situación que entrañe peligro"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "86.1",
+          "cita": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario"
+        }
+      ],
+      "huella": "695bf37f46e9"
+    },
+    {
+      "id": "x1a-0122",
+      "porque": "Si el que te adelanta desiste de forma clara reduciendo su velocidad, lo que necesita es volver detrás de ti. Por eso no estás obligado a frenar si con ello pones en peligro la circulación, pero sí a facilitarle la vuelta a su carril.",
+      "descartes": {
+        "b": "Frenar bruscamente puede crear un peligro nuevo; la norma te dispensa de reducir la velocidad si con ello pones en peligro la circulación.",
+        "c": "Acelerar mientras te adelantan está prohibido, y tu obligación es justo la contraria: facilitarle que vuelva a su carril."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento."
+        }
+      ],
+      "huella": "d01ffecbd8db"
+    },
+    {
+      "id": "x1a-0123",
+      "porque": "La señal con el brazo para indicar que se puede adelantar es un gesto de «pasa»: brazo extendido horizontalmente, moviéndolo repetidas veces de atrás adelante, con el dorso de la mano hacia atrás. Si no se cree conveniente usar el brazo, vale el intermitente derecho.",
+      "descartes": {
+        "b": "El brazo levantado verticalmente es la señal con la que un agente obliga a detenerse, no la de dejar adelantar.",
+        "c": "Mover el brazo de arriba abajo con movimientos cortos y rápidos sirve para advertir de que vas a inmovilizar el vehículo o a frenar de modo considerable."
+      },
+      "truco": "El gesto dice lo que quiere: el brazo que se mueve de atrás adelante es un «pasa, adelántame».",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "158.a",
+          "cita": "a) Brazo levantado verticalmente: obliga a detenerse a todos los usuarios de la vía que se acerquen al agente"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "109.2.c",
+          "cita": "La intención de inmovilizar el vehículo o de frenar su marcha de modo considerable, aun cuando tales hechos vengan impuestos por las circunstancias del tráfico, deberá advertirse, siempre que sea posible, mediante el empleo reiterado de las luces de frenado o bien moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos."
+        }
+      ],
+      "huella": "b70557fbe3b5"
+    },
+    {
+      "id": "x1a-0132",
+      "porque": "Un vehículo de los agentes parado regulando el tráfico y ocupando tu carril es uno de los casos de vehículo inmovilizado en los que hay que bajar al menos 20 km/h respecto al límite de la vía. Con límite de 100 km/h, como máximo a 80 km/h, y dejando al menos 1,5 metros.",
+      "descartes": {
+        "a": "100 km/h es el límite de la vía, pero junto a un vehículo inmovilizado que ocupa tu carril hay que reducir al menos 20 km/h.",
+        "c": "90 km/h solo supone bajar 10 km/h; la norma exige reducir al menos 20 km/h respecto al límite."
+      },
+      "truco": "Vehículo inmovilizado que ocupa tu carril: «1,5 y 20». Al menos 1,5 metros de separación y al menos 20 km/h por debajo del límite de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "88.1",
+          "cita": "o funciones de regulación, ordenación y gestión del tráfico"
+        }
+      ],
+      "huella": "593b5638745e"
+    },
+    {
+      "id": "x1a-0133",
+      "porque": "En un tramo con prohibición de adelantar puedes rebasar un vehículo inmovilizado que ocupa tu carril, pero no si está parado por necesidades del tráfico. En una retención no hay un obstáculo, hay una cola, y no se puede adelantar por el carril contrario.",
+      "descartes": {
+        "a": "Cerciorarse de que no hay peligro hace falta para rebasar, por ejemplo, un vehículo averiado, pero no basta cuando está detenido por una retención: la norma excluye ese caso.",
+        "b": "La norma no fija ningún tiempo de espera; lo que cuenta es el motivo por el que está parado."
+      },
+      "truco": "Parado por avería o accidente: puedes rebasarlo comprobando antes que no hay peligro. Parado porque el tráfico no avanza: es una cola y esperas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "88.2",
+          "cita": "podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro"
+        }
+      ],
+      "huella": "56fb6bfa78f8"
+    },
+    {
+      "id": "adel-0001",
+      "porque": "Al adelantar a un ciclista debes dejar una anchura de seguridad de al menos 1,5 metros, ocupando parte o todo el carril contiguo o contrario si hace falta. Es la misma distancia que se exige al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores y VMP.",
+      "descartes": {
+        "a": "Un metro es menos de lo que exige la norma: el mínimo es 1,5 metros.",
+        "b": "Dos metros es más que el mínimo; puedes dejarlos, pero la anchura mínima que fija la norma es 1,5 metros."
+      },
+      "truco": "Adelantar a un ciclista: 1,5 metros de lado como mínimo; si tu sentido tiene más de un carril, cambio completo de carril; y fuera de poblado, al menos 20 km/h menos que el límite de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "3dfc7960982c"
+    },
+    {
+      "id": "adel-0002",
+      "porque": "Con un solo carril por sentido basta con dejar al menos 1,5 metros, aunque ocupes solo parte del carril contrario. Pero si la calzada tiene más de un carril por sentido, la norma exige más: cambiar completamente de carril para adelantar al ciclista.",
+      "descartes": {
+        "b": "Los 1,5 metros bastan cuando solo hay un carril por sentido; con más de uno, la norma obliga al cambio completo de carril.",
+        "c": "El claxon no sustituye la separación: adelantar al ciclista sin salir de su carril no respeta ni el cambio de carril obligatorio ni los 1,5 metros."
+      },
+      "truco": "Adelantar a un ciclista: 1,5 metros de lado como mínimo; si tu sentido tiene más de un carril, cambio completo de carril; y fuera de poblado, al menos 20 km/h menos que el límite de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "8266dcb20729"
+    },
+    {
+      "id": "adel-0003",
+      "porque": "Fuera de poblado, al adelantar a un ciclista tienes que ir al menos 20 km/h por debajo del límite de la vía, antes de empezar y durante toda la maniobra. Con límite de 90 km/h, como mucho a 70 km/h.",
+      "descartes": {
+        "a": "90 km/h es el límite de la vía; al adelantar a un ciclista fuera de poblado hay que ir al menos 20 km/h por debajo.",
+        "c": "80 km/h es bajar solo 10 km/h; la norma exige reducir al menos 20 km/h."
+      },
+      "truco": "Adelantar a un ciclista: 1,5 metros de lado como mínimo; si tu sentido tiene más de un carril, cambio completo de carril; y fuera de poblado, al menos 20 km/h menos que el límite de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "69bf5a4ba360"
+    },
+    {
+      "id": "adel-0004",
+      "porque": "Un grupo de ciclistas que circula junto se trata como un solo vehículo largo: la norma lo considera una única unidad móvil. Por eso se adelanta entero, de una vez, y no ciclista a ciclista.",
+      "descartes": {
+        "a": "Meterte entre los ciclistas del grupo no es lo que prevé la norma: el grupo cuenta como una única unidad móvil y se adelanta entero.",
+        "b": "Un grupo de ciclistas sí puede adelantarse, con las mismas precauciones que a un ciclista, tratándolo como una sola unidad."
+      },
+      "truco": "Adelantar a un ciclista: 1,5 metros de lado como mínimo; si tu sentido tiene más de un carril, cambio completo de carril; y fuera de poblado, al menos 20 km/h menos que el límite de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "9acf997c6283"
+    },
+    {
+      "id": "x1a-0098",
+      "porque": "Para salir de una autovía hay que prepararse con tiempo: ir con suficiente antelación por el carril más próximo a la salida y entrar lo antes posible en el carril de deceleración. Así la reducción de velocidad se hace fuera de los carriles por los que sigue el resto del tráfico.",
+      "descartes": {
+        "b": "Esperar al último momento en el carril izquierdo obliga a cruzar carriles de golpe; la norma pide circular con suficiente antelación por el más próximo a la salida.",
+        "c": "Frenar en el carril principal y entrar tarde es lo contrario de lo que pide la norma, que es entrar lo antes posible en el carril de deceleración."
+      },
+      "truco": "Salida de autovía: con antelación al carril de la salida y, cuanto antes, al de deceleración.",
+      "huella": "b3f45bdfb2fd"
+    },
+    {
+      "id": "x1a-0097",
+      "porque": "La regla general al girar a la izquierda es dejar a tu izquierda el centro de la intersección. Pero la propia norma admite la excepción: si la intersección está acondicionada o señalizada para dejarlo a la derecha, se gira así.",
+      "descartes": {
+        "b": "Dejar el centro a la izquierda es la regla general, pero no vale «siempre»: cuando la intersección está acondicionada o señalizada para dejarlo a la derecha, se hace así.",
+        "c": "La trayectoria no se elige según el tráfico del momento; la marcan la norma y la forma en que está acondicionada o señalizada la intersección."
+      },
+      "truco": null,
+      "huella": "c55d59c68995"
+    },
+    {
+      "id": "x1a-0096",
+      "porque": "Un giro improvisado sorprende a los demás. Por eso la norma pide colocarte en el lugar adecuado con la necesaria antelación y, después, hacer la maniobra en el menor espacio y tiempo posibles.",
+      "descartes": {
+        "b": "Colocarse en el último momento no da tiempo a que los demás entiendan tu maniobra; la norma exige hacerlo con la necesaria antelación.",
+        "c": "Después de pasar el centro de la intersección ya es tarde: la colocación tiene que hacerse antes, con la necesaria antelación."
+      },
+      "truco": "Para girar, colócate pronto y gira rápido: antelación al colocarte y el menor espacio y tiempo en la maniobra.",
+      "huella": "1bfe3158e60f"
+    },
+    {
+      "id": "x1a-0099",
+      "porque": "Al cambiar de sentido atraviesas la vía y cortas el paso a los demás. Por eso la norma exige elegir un lugar adecuado, en el que interceptes la vía el menor tiempo posible, avisar con antelación y comprobar que no pones en peligro ni estorbas a nadie.",
+      "descartes": {
+        "a": "Señalizar es obligatorio, pero no basta: el lugar tiene que ser adecuado para interceptar la vía el menor tiempo posible.",
+        "c": "Una curva no es un lugar adecuado si te impide ver quién viene, y el cambio de sentido está prohibido en toda situación que impida comprobar que no hay peligro."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "79.1",
+          "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior"
+        }
+      ],
+      "huella": "795ee5a9cb97"
+    },
+    {
+      "id": "x1a-0100",
+      "porque": "La señal S-5 indica el principio de un túnel, de un paso inferior o de un tramo equiparado a túnel. En esos lugares está prohibido cambiar de sentido, venga o no alguien y haya los carriles que haya.",
+      "descartes": {
+        "a": "La prohibición no depende de que venga alguien: en los tramos afectados por la señal «Túnel» no se cambia de sentido.",
+        "c": "A diferencia del adelantamiento, la prohibición de cambiar de sentido en un túnel no depende del número de carriles."
+      },
+      "truco": "Túnel con la señal S-5: para adelantar, cuenta los carriles de tu sentido; para cambiar de sentido no hay nada que contar, está prohibido.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "S-5",
+          "cita": "Indica el principio y eventualmente el nombre de un túnel, de un paso inferior o de un tramo de vía equiparado a túnel."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "87.1.d",
+          "cita": "en los que sólo se disponga de un carril para el sentido de circulación del vehículo que pretende adelantar"
+        }
+      ],
+      "huella": "53ffe368e2f6"
+    },
+    {
+      "id": "x1a-0101",
+      "porque": "Antes de cambiar de sentido tienes que comprobar que no pones en peligro ni estorbas a nadie. Si la niebla te lo impide, la maniobra está prohibida: la norma prohíbe cambiar de sentido en toda situación que impida hacer esa comprobación.",
+      "descartes": {
+        "a": "Las antiniebla sirven para ver y ser visto, pero no te permiten comprobar que no viene nadie; si no puedes comprobarlo, no puedes cambiar de sentido.",
+        "b": "Hacerlo despacio alarga el tiempo que cortas la vía, y si no puedes comprobar que no hay peligro, está prohibido igualmente."
+      },
+      "truco": null,
+      "huella": "175b15c6ce6b"
+    },
+    {
+      "id": "cesp-0004",
+      "porque": "El carril adicional circunstancial es un carril provisional que se crea con elementos de balizamiento y usando los arcenes. Por eso la norma fija para él, y para los arcenes que se usan, una velocidad máxima de 80 km/h y una mínima de 60, o inferiores si se señalizan, y obliga a llevar al menos la luz de cruce.",
+      "descartes": {
+        "a": "60 km/h es la velocidad mínima en ese carril, no la máxima.",
+        "c": "90 km/h supera el máximo: en el carril adicional circunstancial se va como mucho a 80 km/h."
+      },
+      "truco": "Carril habilitado en sentido contrario y carril adicional circunstancial: entre 60 y 80 km/h y con luz de cruce de día y de noche. En el reversible también llevas luz de cruce, pero la norma no le fija ese 60-80.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "42.1",
+          "cita": "lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60, o inferiores si así estuviera establecido o específicamente señalizado, deberán utilizar al menos el alumbrado de corto alcance o de cruce tanto de día como de noche"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "Los usuarios de este tipo de carriles circularán siempre, al menos, con la luz de corto alcance o de cruce encendida, tanto de día como de noche, a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "40.1",
+          "cita": "Los conductores que circulen por dicho carril deberán llevar encendida, al menos, la luz de corto alcance o de cruce en sus vehículos tanto de día como de noche"
+        }
+      ],
+      "huella": "b00645221ab0"
+    },
+    {
+      "id": "cesp-0005",
+      "porque": "En un carril reversible la circulación puede ir en un sentido o en otro según la regulen semáforos de carril u otros medios. Para hacerte bien visible, la norma obliga a llevar encendida al menos la luz de cruce, de día y de noche.",
+      "descartes": {
+        "a": "La norma lo exige también de día: en un carril reversible hay que llevar al menos la luz de cruce a cualquier hora.",
+        "b": "La antiniebla trasera no es la luz que exige la norma en un carril reversible: exige al menos la de cruce."
+      },
+      "truco": "Carril habilitado en sentido contrario y carril adicional circunstancial: entre 60 y 80 km/h y con luz de cruce de día y de noche. En el reversible también llevas luz de cruce, pero la norma no le fija ese 60-80.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "Los usuarios de este tipo de carriles circularán siempre, al menos, con la luz de corto alcance o de cruce encendida, tanto de día como de noche, a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "42.1",
+          "cita": "lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60, o inferiores si así estuviera establecido o específicamente señalizado, deberán utilizar al menos el alumbrado de corto alcance o de cruce tanto de día como de noche"
+        }
+      ],
+      "huella": "a7a35eb30d42"
+    },
+    {
+      "id": "cesp-0001",
+      "porque": "Cuando se habilita un carril en sentido contrario al habitual por razones de fluidez, la norma limita su uso a motocicletas y turismos y lo prohíbe a todos los demás vehículos, incluidos los turismos con remolque.",
+      "descartes": {
+        "a": "No pueden todos: cuando se habilita por fluidez, solo motocicletas y turismos sin remolque.",
+        "c": "Furgonetas y autobuses no están en la lista: por fluidez, solo motocicletas y turismos."
+      },
+      "truco": "Carril en sentido contrario habilitado por fluidez: solo motos y turismos sin remolque. Habilitado por obras: todos los vehículos que puedan circular por esa vía, salvo prohibición expresa.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "podrán circular por dichos carriles todos los tipos de vehículos que estén autorizados a circular por la vía en obra, salvo prohibición expresa"
+        }
+      ],
+      "huella": "620a2bc92d54"
+    },
+    {
+      "id": "cesp-0002",
+      "porque": "Por un carril habilitado en sentido contrario al habitual circulas junto a tráfico que va en el otro sentido. Por eso la norma fija una horquilla de velocidad: máximo 80 km/h y mínimo 60, o inferiores si así se señaliza, y siempre al menos con la luz de cruce.",
+      "descartes": {
+        "a": "100 km/h supera el máximo; en ese carril el tope es 80 km/h.",
+        "b": "Ese carril no sigue los límites generales de la autopista: tiene los suyos propios, entre 60 y 80 km/h."
+      },
+      "truco": "Carril habilitado en sentido contrario y carril adicional circunstancial: entre 60 y 80 km/h y con luz de cruce de día y de noche. En el reversible también llevas luz de cruce, pero la norma no le fija ese 60-80.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "Los usuarios de este tipo de carriles circularán siempre, al menos, con la luz de corto alcance o de cruce encendida, tanto de día como de noche, a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "42.1",
+          "cita": "lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60, o inferiores si así estuviera establecido o específicamente señalizado, deberán utilizar al menos el alumbrado de corto alcance o de cruce tanto de día como de noche"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "40.1",
+          "cita": "Los conductores que circulen por dicho carril deberán llevar encendida, al menos, la luz de corto alcance o de cruce en sus vehículos tanto de día como de noche"
+        }
+      ],
+      "huella": "8ad5fe33523c"
+    },
+    {
+      "id": "cesp-0003",
+      "porque": "La limitación a motos y turismos es para los carriles habilitados por razones de fluidez. Cuando se habilitan por obras en la calzada, la norma deja usarlos a todos los tipos de vehículos autorizados a circular por la vía en obra, salvo prohibición expresa.",
+      "descartes": {
+        "b": "Solo turismos y motocicletas es la regla de los carriles habilitados por fluidez, no de los habilitados por obras.",
+        "c": "La norma no los reserva a los vehículos de las obras: pueden usarlos todos los autorizados a circular por la vía en obra."
+      },
+      "truco": "Carril en sentido contrario habilitado por fluidez: solo motos y turismos sin remolque. Habilitado por obras: todos los vehículos que puedan circular por esa vía, salvo prohibición expresa.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "queda limitada a las motocicletas y turismos, y está prohibida, por lo tanto, al resto de los vehículos, incluidos los turismos con remolque"
+        }
+      ],
+      "huella": "8cc9aa0eef94"
+    },
+    {
+      "id": "res-cesp-0002",
+      "porque": "Para el carril contiguo al habilitado en sentido contrario, la velocidad depende de cuántos carriles te queden en tu sentido. Si solo te queda uno, tienes la misma horquilla que el carril habilitado: entre 60 y 80 km/h, salvo señal de otra inferior, y con luz de cruce.",
+      "descartes": {
+        "a": "50 km/h no es ningún límite de esta norma; con un solo carril en tu sentido se va entre 60 y 80 km/h.",
+        "b": "Las velocidades genéricas solo se aplican si te queda más de un carril en tu sentido."
+      },
+      "truco": "Carril contiguo al habilitado en sentido contrario: luz de cruce siempre, y la velocidad depende de cuántos carriles te queden en tu sentido. Uno, entre 60 y 80 km/h; más de uno, los límites normales de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "si disponen de más de un carril en su sentido de circulación, lo harán a las velocidades que se establecen en los artículos 48.1.a).1.ª y 2.a, 49 y 50"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "llevarán encendida la luz de corto alcance o cruce, al menos, tanto de día como de noche"
+        }
+      ],
+      "huella": "b895265d5b5e"
+    },
+    {
+      "id": "res-cesp-0003",
+      "porque": "Para el carril contiguo al habilitado en sentido contrario, la norma distingue: con un solo carril en tu sentido, entre 60 y 80 km/h; con más de uno, las velocidades genéricas de la vía. Con dos carriles estás en el segundo caso. La luz de cruce, eso sí, es obligatoria en los dos.",
+      "descartes": {
+        "b": "Ir entre 60 y 80 km/h solo es obligatorio si te queda un único carril en tu sentido.",
+        "c": "Esta norma no fija en ningún caso un máximo de 60 km/h; 60 es la mínima cuando solo queda un carril."
+      },
+      "truco": "Carril contiguo al habilitado en sentido contrario: luz de cruce siempre, y la velocidad depende de cuántos carriles te queden en tu sentido. Uno, entre 60 y 80 km/h; más de uno, los límites normales de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "si disponen de un solo carril en su sentido de circulación, lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "llevarán encendida la luz de corto alcance o cruce, al menos, tanto de día como de noche"
+        }
+      ],
+      "huella": "515393d5fd09"
+    },
+    {
+      "id": "res-cesp-0004",
+      "porque": "Quienes circulan por el carril contiguo al habilitado en sentido contrario tienen muy cerca tráfico que va en el otro sentido. Por eso la norma les obliga, igual que a los del carril habilitado, a llevar al menos la luz de cruce de día y de noche, y les prohíbe invadir el carril habilitado.",
+      "descartes": {
+        "a": "La norma pide al menos la luz de corto alcance o de cruce, no la de largo alcance.",
+        "c": "La obligación es tanto de día como de noche."
+      },
+      "truco": "Carril contiguo al habilitado en sentido contrario: luz de cruce siempre, y la velocidad depende de cuántos carriles te queden en tu sentido. Uno, entre 60 y 80 km/h; más de uno, los límites normales de la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "si disponen de un solo carril en su sentido de circulación, lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "41.1",
+          "cita": "si disponen de más de un carril en su sentido de circulación, lo harán a las velocidades que se establecen en los artículos 48.1.a).1.ª y 2.a, 49 y 50"
+        }
+      ],
+      "huella": "b5caf90b7a7f"
+    },
+    {
+      "id": "cesp-0006",
+      "porque": "El carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables, y la norma lo prohíbe al resto, nombrando expresamente a los turismos con remolque. Da igual cuántas personas vayan dentro.",
+      "descartes": {
+        "b": "El número de ocupantes no salva la prohibición: el turismo con remolque está excluido del VAO lo ocupe quien lo ocupe.",
+        "c": "La norma no distingue por el peso del remolque: los turismos con remolque, sin más, tienen prohibido el VAO."
+      },
+      "truco": "VAO: motos, turismos y mixtos adaptables, con el número mínimo de ocupantes del tramo. Sin ese mínimo, solo los que llevan la V-15 o la tarjeta de discapacidad y los autobuses de más de 3.500 kg o articulados. Los vehículos de urgencia en servicio, aparte.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "Los carriles para VAO podrán ser utilizados por los vehículos autorizados de acuerdo con el párrafo anterior, aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.c",
+          "cita": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+        }
+      ],
+      "huella": "498ecb709b46"
+    },
+    {
+      "id": "cesp-0007",
+      "porque": "Normalmente el VAO exige un número mínimo de ocupantes, pero la norma exime de él a los vehículos autorizados (motos, turismos y mixtos adaptables) que llevan la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad. Pueden usarlo solo con el conductor si así se indica en la relación de tramos de ese carril.",
+      "descartes": {
+        "a": "No es «siempre»: la V-15 es una de las excepciones al número mínimo de ocupantes.",
+        "c": "Ser eléctrico no es lo que permite usar el VAO con un solo ocupante; la excepción que fija la norma es la V-15 o la tarjeta de discapacidad."
+      },
+      "truco": "VAO: motos, turismos y mixtos adaptables, con el número mínimo de ocupantes del tramo. Sin ese mínimo, solo los que llevan la V-15 o la tarjeta de discapacidad y los autobuses de más de 3.500 kg o articulados. Los vehículos de urgencia en servicio, aparte.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "La utilización del carril habilitado para VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables, y está prohibida, por tanto, al resto de los vehículos y conjuntos de vehículos, incluidos los turismos con remolque"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "Los carriles para VAO podrán ser utilizados por los vehículos autorizados de acuerdo con el párrafo anterior, aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.c",
+          "cita": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+        }
+      ],
+      "huella": "e05d5f0d2814"
+    },
+    {
+      "id": "cesp-0008",
+      "porque": "La norma deja usar el VAO a los autobuses de más de 3.500 kg de MMA y a los articulados con independencia de su número de ocupantes, en las mismas condiciones de circulación que los VAO y si así se indica en la relación de tramos.",
+      "descartes": {
+        "a": "Sí puede: los autobuses de más de 3.500 kg están entre los que la norma deja usar el VAO sin exigirles ocupantes.",
+        "b": "La norma no les exige ningún número de pasajeros: pueden usarlo con independencia de sus ocupantes."
+      },
+      "truco": "VAO: motos, turismos y mixtos adaptables, con el número mínimo de ocupantes del tramo. Sin ese mínimo, solo los que llevan la V-15 o la tarjeta de discapacidad y los autobuses de más de 3.500 kg o articulados. Los vehículos de urgencia en servicio, aparte.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "La utilización del carril habilitado para VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables, y está prohibida, por tanto, al resto de los vehículos y conjuntos de vehículos, incluidos los turismos con remolque"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "Los carriles para VAO podrán ser utilizados por los vehículos autorizados de acuerdo con el párrafo anterior, aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.c",
+          "cita": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+        }
+      ],
+      "huella": "96ac7dc5a360"
+    },
+    {
+      "id": "res-cesp-0001",
+      "porque": "Las motocicletas están entre los vehículos que pueden usar el VAO, pero en las mismas condiciones que los turismos: deben llevar el número mínimo de ocupantes fijado para ese carril. La norma solo exime de ese mínimo a quien lleva la V-15 o la tarjeta de discapacidad y a ciertos autobuses.",
+      "descartes": {
+        "a": "Las motos no están exentas del número mínimo de ocupantes: la norma solo exime a los vehículos con la V-15 o la tarjeta de discapacidad y a los autobuses de más de 3.500 kg o articulados.",
+        "c": "Las motocicletas sí pueden usar el VAO: son, con los turismos y los mixtos adaptables, los vehículos a los que se limita su uso."
+      },
+      "truco": "VAO: motos, turismos y mixtos adaptables, con el número mínimo de ocupantes del tramo. Sin ese mínimo, solo los que llevan la V-15 o la tarjeta de discapacidad y los autobuses de más de 3.500 kg o articulados. Los vehículos de urgencia en servicio, aparte.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "La utilización del carril habilitado para VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables, y está prohibida, por tanto, al resto de los vehículos y conjuntos de vehículos, incluidos los turismos con remolque"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "Los carriles para VAO podrán ser utilizados por los vehículos autorizados de acuerdo con el párrafo anterior, aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.c",
+          "cita": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+        }
+      ],
+      "huella": "58c6dd1e036c"
+    },
+    {
+      "id": "v5a-cesp-0001",
+      "porque": "Los camiones no pueden usar el VAO en general, pero la norma hace una excepción: los vehículos de policía, extinción de incendios, protección civil, salvamento y asistencia sanitaria en servicio de urgencia pueden usar los carriles reservados. Un camión de bomberos en servicio de urgencia está en ese caso.",
+      "descartes": {
+        "a": "Es verdad que, en general, los camiones no pueden usar el VAO, pero los de extinción de incendios en servicio de urgencia son una excepción expresa.",
+        "c": "A los vehículos de urgencia en servicio la norma no les pide ningún número de ocupantes: pueden usar los carriles reservados."
+      },
+      "truco": "VAO: motos, turismos y mixtos adaptables, con el número mínimo de ocupantes del tramo. Sin ese mínimo, solo los que llevan la V-15 o la tarjeta de discapacidad y los autobuses de más de 3.500 kg o articulados. Los vehículos de urgencia en servicio, aparte.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "La utilización del carril habilitado para VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables, y está prohibida, por tanto, al resto de los vehículos y conjuntos de vehículos, incluidos los turismos con remolque"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "Los carriles para VAO podrán ser utilizados por los vehículos autorizados de acuerdo con el párrafo anterior, aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        }
+      ],
+      "huella": "b2cf5f2599df"
+    },
+    {
+      "id": "v5a-cesp-0002",
+      "porque": "Para el VAO no basta con ir lleno: primero el vehículo tiene que ser de los autorizados, que son motocicletas, turismos y vehículos mixtos adaptables. Una furgoneta destinada solo a mercancías no está en esa lista, así que no puede usarlo aunque lleve tres personas.",
+      "descartes": {
+        "a": "El número de ocupantes solo cuenta para los vehículos autorizados; la furgoneta de mercancías no lo es, vaya como vaya de ocupada.",
+        "b": "No basta con ser un automóvil de menos de 3.500 kg: los VAO son automóviles destinados exclusivamente al transporte de personas, y el carril se limita a motocicletas, turismos y mixtos adaptables."
+      },
+      "truco": "VAO: motos, turismos y mixtos adaptables, con el número mínimo de ocupantes del tramo. Sin ese mínimo, solo los que llevan la V-15 o la tarjeta de discapacidad y los autobuses de más de 3.500 kg o articulados. Los vehículos de urgencia en servicio, aparte.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2",
+          "cita": "Se entenderá por vehículos con alta ocupación aquellos automóviles destinados exclusivamente al transporte de personas, cuya masa máxima autorizada no exceda de 3.500 kilogramos, que estén ocupados por el número de personas que para cada tramo de la red viaria se fije"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "Los carriles para VAO podrán ser utilizados por los vehículos autorizados de acuerdo con el párrafo anterior, aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.c",
+          "cita": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+        }
+      ],
+      "huella": "170352f2c48e"
+    },
+    {
+      "id": "v5f-car-0001",
+      "porque": "El Reglamento no da al distintivo 0 emisiones ningún derecho propio a usar el VAO. La autoridad de tráfico fija las condiciones de utilización de cada tramo, y solo si esas condiciones lo admiten puede entrar un turismo 0 emisiones con un solo ocupante.",
+      "descartes": {
+        "a": "El Reglamento no reconoce al distintivo 0 emisiones ese derecho: solo exime del número mínimo de ocupantes a quien lleva la V-15 o la tarjeta de discapacidad y a ciertos autobuses.",
+        "c": "Los turismos sí pueden usar el VAO; lo que normalmente se les exige es el número mínimo de ocupantes del tramo."
+      },
+      "truco": "VAO: motos, turismos y mixtos adaptables, con el número mínimo de ocupantes del tramo. Sin ese mínimo, solo los que llevan la V-15 o la tarjeta de discapacidad y los autobuses de más de 3.500 kg o articulados. Los vehículos de urgencia en servicio, aparte.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "La utilización del carril habilitado para VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables, y está prohibida, por tanto, al resto de los vehículos y conjuntos de vehículos, incluidos los turismos con remolque"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "Los carriles para VAO podrán ser utilizados por los vehículos autorizados de acuerdo con el párrafo anterior, aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.c",
+          "cita": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+        }
+      ],
+      "huella": "8866b13d9065"
+    },
+    {
+      "id": "def-0011",
+      "porque": "La Ley define el camión como el automóvil de cuatro o más ruedas para transporte de mercancías, con un máximo de nueve plazas incluido el conductor y cuya cabina no está integrada en el resto de la carrocería. Esa cabina separada es lo que lo distingue de la furgoneta.",
+      "descartes": {
+        "a": "Más de nueve plazas es lo que caracteriza al autobús; el camión tiene como máximo nueve, incluido el conductor.",
+        "c": "La definición de camión no fija ninguna masa mínima: también hay camiones de MMA no superior a 3.500 kg."
+      },
+      "truco": "Cabina separada del resto de la carrocería, camión; cabina integrada en la carrocería, furgoneta. Los dos son para mercancías y tienen como máximo nueve plazas con el conductor.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.18",
+          "cita": "Camión. Automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías, cuya cabina no está integrada en el resto de la carrocería y con un máximo de nueve plazas, incluido el conductor."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.16",
+          "cita": "Autobús o autocar. Automóvil que tenga más de nueve plazas, incluida la del conductor"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.C",
+          "cita": "carrocería, y cuya masa máxima autoriza no exceda de 3.500 kg."
+        }
+      ],
+      "huella": "d75a236aa383"
+    },
+    {
+      "id": "def-0004",
+      "porque": "La Ley define el ciclo como un vehículo de al menos dos ruedas movido exclusiva o principalmente por la energía muscular de quien va en él, y añade expresamente que se incluyen los ciclos de pedaleo asistido. El motor solo ayuda; la fuerza principal sigue siendo la de los pedales.",
+      "descartes": {
+        "b": "No es un ciclomotor: la propia definición de ciclo incluye expresamente los de pedaleo asistido.",
+        "c": "Tampoco es un vehículo de movilidad personal: la Ley lo incluye dentro de los ciclos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.7",
+          "cita": "Vehículo provisto de, al menos, dos ruedas y propulsado exclusiva o principalmente por la energía muscular de la persona o personas que están sobre el vehículo, en particular por medio de pedales."
+        }
+      ],
+      "huella": "78862fe004a3"
+    },
+    {
+      "id": "def-0005",
+      "porque": "La Ley define el ciclomotor de dos ruedas por su velocidad máxima por construcción, que no puede pasar de 45 km/h, y por su motor: hasta 50 cm³ si es de combustión interna o hasta 4 kW si es eléctrico. Si supera esos valores, ya es una motocicleta.",
+      "descartes": {
+        "a": "50 es la cilindrada máxima, en cm³, del motor de combustión de un ciclomotor de dos ruedas, no su velocidad.",
+        "c": "60 km/h supera el tope: un vehículo de dos ruedas que pasa de 45 km/h por construcción ya es una motocicleta."
+      },
+      "truco": "Ciclomotor: nunca más de 45 km/h por construcción, tenga dos, tres o cuatro ruedas; con cuatro, además, hasta 350 kg de masa en vacío.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.9.a",
+          "cita": "Vehículo de dos ruedas, con una velocidad máxima por construcción no superior a 45 km/h y con un motor de cilindrada inferior o igual a 50 cm³, si es de combustión interna, o bien con una potencia continua nominal máxima inferior o igual a 4 kW si es de motor eléctrico."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.14.a",
+          "cita": "Motocicletas de dos ruedas. Automóvil de dos ruedas, sin sidecar, provistos de un motor de cilindrada superior a 50 cm³, si es de combustión interna, y/o con una velocidad máxima por construcción superior a 45 km/h."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.9.b",
+          "cita": "Vehículo de tres ruedas, con una velocidad máxima por construcción no superior a 45 km/h"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.9.c",
+          "cita": "Vehículos de cuatro ruedas, cuya masa en vacío sea inferior o igual a 350 kilogramos"
+        }
+      ],
+      "huella": "3628a860e7d1"
+    },
+    {
+      "id": "def-0006",
+      "porque": "Aunque tenga cuatro ruedas, la Ley incluye entre los ciclomotores a los vehículos de cuatro ruedas con masa en vacío de hasta 350 kg, velocidad máxima por construcción de hasta 45 km/h y un motor pequeño. Es el llamado cuadriciclo ligero.",
+      "descartes": {
+        "a": "No es un turismo: la Ley lo clasifica como ciclomotor por su masa en vacío y su velocidad máxima de 45 km/h.",
+        "b": "Los vehículos especiales son los concebidos para realizar obras o servicios determinados, además de la maquinaria agrícola; este es un ciclomotor de cuatro ruedas."
+      },
+      "truco": "Ciclomotor: nunca más de 45 km/h por construcción, tenga dos, tres o cuatro ruedas; con cuatro, además, hasta 350 kg de masa en vacío.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.9.c",
+          "cita": "cuya velocidad máxima por construcción sea inferior o igual a 45 km/h"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.9.a",
+          "cita": "Vehículo de dos ruedas, con una velocidad máxima por construcción no superior a 45 km/h y con un motor de cilindrada inferior o igual a 50 cm³, si es de combustión interna, o bien con una potencia continua nominal máxima inferior o igual a 4 kW si es de motor eléctrico."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.9.b",
+          "cita": "Vehículo de tres ruedas, con una velocidad máxima por construcción no superior a 45 km/h"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.25",
+          "cita": "Vehículo, autopropulsado o remolcado, concebido y construido para realizar obras o servicios determinados"
+        }
+      ],
+      "huella": "8282114da78f"
+    },
+    {
+      "id": "def-0003",
+      "porque": "Para la Ley, conductor no es solo quien maneja un vehículo: también lo es la persona a cuyo cargo está un animal o varios. Quien guía el rebaño por la vía es, por tanto, su conductor.",
+      "descartes": {
+        "a": "La definición de conductor incluye expresamente a quien lleva a su cargo un animal o animales, no solo a quien maneja un vehículo.",
+        "b": "Lo que cuenta es quién tiene los animales a su cargo en la vía, no de quién son; un propietario ausente no los conduce."
+      },
+      "truco": null,
+      "huella": "331871efa7bf"
+    },
+    {
+      "id": "res-def-0003",
+      "porque": "El nombre lo dice: un derivado de turismo sale de un turismo y conserva su carrocería, pero se destina a servicios o a transporte exclusivo de mercancías y solo tiene una fila de asientos.",
+      "descartes": {
+        "a": "Un automóvil de más de nueve plazas es un autobús; el derivado de turismo tiene una sola fila de asientos.",
+        "b": "La furgoneta es un vehículo de mercancías con la cabina integrada en la carrocería, no un turismo transformado, y el derivado de turismo tiene una sola fila de asientos, no dos."
+      },
+      "truco": "Derivado de turismo: carrocería de turismo, una sola fila de asientos y uso para mercancías o servicios.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.16",
+          "cita": "Autobús o autocar. Automóvil que tenga más de nueve plazas, incluida la del conductor"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.18",
+          "cita": "cuya cabina no está integrada en el resto de la carrocería"
+        }
+      ],
+      "huella": "f9d4f44391ad"
+    },
+    {
+      "id": "res-def-0002",
+      "porque": "Camión y furgoneta son los dos vehículos de mercancías, de cuatro o más ruedas y como máximo nueve plazas incluido el conductor. Lo que los diferencia es la cabina: en la furgoneta está integrada en el resto de la carrocería y en el camión no.",
+      "descartes": {
+        "a": "La furgoneta sí transporta mercancías: está concebida y construida precisamente para eso.",
+        "c": "La furgoneta, igual que el camión, tiene como máximo 9 plazas incluido el conductor."
+      },
+      "truco": "Cabina separada del resto de la carrocería, camión; cabina integrada en la carrocería, furgoneta. Los dos son para mercancías y tienen como máximo nueve plazas con el conductor.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.18",
+          "cita": "Camión. Automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías, cuya cabina no está integrada en el resto de la carrocería y con un máximo de nueve plazas, incluido el conductor."
+        }
+      ],
+      "huella": "2b32f8ae9f88"
+    },
+    {
+      "id": "res-def-0001",
+      "porque": "La masa en orden de marcha parte de la tara, que ya incluye la dotación completa de combustible, agua, lubricante, repuestos y herramientas, y le suma la masa estándar del conductor, 75 kg.",
+      "descartes": {
+        "b": "No es una masa mínima con poco combustible: la tara ya lleva la dotación completa de combustible, y a ella se suman los 75 kg del conductor.",
+        "c": "La masa máxima con la que puede circular cargado es la masa máxima autorizada (MMA), no la masa en orden de marcha."
+      },
+      "truco": "Tara: el vehículo listo para salir, con su dotación completa, pero sin nadie dentro y sin carga. Masa en orden de marcha: la tara más un conductor de 75 kg. MMA: el máximo con carga con el que puede circular.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.35",
+          "cita": "Tara. Masa del vehículo, con su equipo fijo autorizado, sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios reglamentarios."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.37",
+          "cita": "Masa máxima autorizada (M.M.A.). La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas."
+        }
+      ],
+      "huella": "57f2a5fa80bb"
+    },
+    {
+      "id": "def-0012",
+      "porque": "La clave está en la palabra «adaptable»: el vehículo mixto adaptable sirve para llevar mercancías y personas, hasta nueve incluido el conductor, y en él se puede cambiar parte o toda la carga por personas añadiendo asientos.",
+      "descartes": {
+        "a": "El derivado de turismo se define por conservar la carrocería de un turismo y tener una sola fila de asientos; lo de sustituir la carga por personas es del mixto adaptable.",
+        "b": "El furgón es un vehículo de mercancías con la cabina integrada en la carrocería; su definición no habla de sustituir la carga por personas."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.C",
+          "cita": "derivado de un turismo del cual conserva la carrocería y dispone únicamente de"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.C",
+          "cita": "Camión en el que la cabina está integrada en el resto de la carrocería"
+        }
+      ],
+      "huella": "159ba30d5ffd"
+    },
+    {
+      "id": "def-0008",
+      "porque": "La masa máxima autorizada es el tope legal: la masa máxima con la que un vehículo cargado puede circular por las vías públicas.",
+      "descartes": {
+        "a": "El vehículo sin personas ni carga, pero con su dotación completa, corresponde a la tara.",
+        "c": "La masa que gravita sobre el suelo a través de las ruedas de un eje es la masa por eje."
+      },
+      "truco": "Tara: el vehículo listo para salir, con su dotación completa, pero sin nadie dentro y sin carga. Masa en orden de marcha: la tara más un conductor de 75 kg. MMA: el máximo con carga con el que puede circular.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.35",
+          "cita": "Tara. Masa del vehículo, con su equipo fijo autorizado, sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios reglamentarios."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo IX.1.2",
+          "cita": "se considera como masa en orden de marcha el resultado de sumar a la tara la masa estándar del conductor de 75 kg"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.38",
+          "cita": "Masa por eje. La que gravita sobre el suelo, transmitida por la totalidad de las ruedas acopladas a ese eje."
+        }
+      ],
+      "huella": "4b57d1438795"
+    },
+    {
+      "id": "def-0001",
+      "porque": "La Ley considera peatones a las personas con discapacidad que circulan al paso en silla de ruedas, tenga motor o no. Lo que cuenta es que vayan al paso.",
+      "descartes": {
+        "b": "El vehículo para personas de movilidad reducida es otro concepto; quien circula al paso en silla de ruedas es peatón, con motor o sin él.",
+        "c": "La Ley dice expresamente «con o sin motor»: el motor no cambia la consideración de peatón."
+      },
+      "truco": "Son peatones aunque haya ruedas de por medio: quien empuja un cochecito o una silla de ruedas, quien lleva a pie una bici o un ciclomotor de dos ruedas y quien va al paso en silla de ruedas, con motor o sin él.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.4",
+          "cita": "También tienen la consideración de peatones quienes empujan o arrastran un coche de niño o de una persona con discapacidad o cualquier otro vehículo sin motor de pequeñas dimensiones, los que conducen a pie un ciclo o ciclomotor de dos ruedas, y las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor."
+        }
+      ],
+      "huella": "ca607e1f0e33"
+    },
+    {
+      "id": "def-0002",
+      "porque": "Mientras no vas montado, no conduces la bici: la llevas. Por eso la Ley considera peatones a quienes conducen a pie un ciclo o un ciclomotor de dos ruedas.",
+      "descartes": {
+        "a": "Para ser conductor del ciclo tendrías que ir montado y manejándolo; quien lo lleva a pie es peatón.",
+        "c": "La Ley no le da esa consideración: a quien lleva a pie una bicicleta le considera expresamente peatón."
+      },
+      "truco": "Son peatones aunque haya ruedas de por medio: quien empuja un cochecito o una silla de ruedas, quien lleva a pie una bici o un ciclomotor de dos ruedas y quien va al paso en silla de ruedas, con motor o sin él.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.4",
+          "cita": "También tienen la consideración de peatones quienes empujan o arrastran un coche de niño o de una persona con discapacidad o cualquier otro vehículo sin motor de pequeñas dimensiones, los que conducen a pie un ciclo o ciclomotor de dos ruedas, y las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor."
+        }
+      ],
+      "huella": "d17d4379743a"
+    },
+    {
+      "id": "def-0009",
+      "porque": "La tara es la masa del vehículo preparado para circular, pero sin personas ni carga: sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios reglamentarios.",
+      "descartes": {
+        "a": "Con el combustible es al revés: la tara incluye su dotación completa. Lo que no incluye son las personas ni la carga.",
+        "b": "La tara no incluye personas ni carga; la masa máxima con la que se puede circular cargado es la MMA."
+      },
+      "truco": "Tara: el vehículo listo para salir, con su dotación completa, pero sin nadie dentro y sin carga. Masa en orden de marcha: la tara más un conductor de 75 kg. MMA: el máximo con carga con el que puede circular.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo IX.1.2",
+          "cita": "se considera como masa en orden de marcha el resultado de sumar a la tara la masa estándar del conductor de 75 kg"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.37",
+          "cita": "Masa máxima autorizada (M.M.A.). La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas."
+        }
+      ],
+      "huella": "4324482ab4fe"
+    },
+    {
+      "id": "def-0010",
+      "porque": "La Ley define el turismo como el automóvil destinado a transportar personas, con al menos cuatro ruedas y, además del asiento del conductor, ocho plazas como máximo. Es decir, nueve en total contando al conductor.",
+      "descartes": {
+        "b": "Seis plazas caben en un turismo, pero no son el máximo: la Ley permite hasta ocho además del conductor.",
+        "c": "Nueve es el total contando al conductor; además del asiento del conductor, el máximo es ocho."
+      },
+      "truco": "El número clave es el nueve: hasta nueve plazas contando al conductor (8 + 1), turismo; más de nueve, autobús.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.16",
+          "cita": "Autobús o autocar. Automóvil que tenga más de nueve plazas, incluida la del conductor"
+        }
+      ],
+      "huella": "96d0176573f9"
+    },
+    {
+      "id": "def-0007",
+      "porque": "«Vehículo de motor» es todo vehículo provisto de motor para su propulsión, pero la Ley saca expresamente de esa definición a tres: los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. La motocicleta y el camión siguen siendo vehículos de motor.",
+      "descartes": {
+        "b": "La motocicleta tiene motor y no está en la lista de excluidos: es un vehículo de motor.",
+        "c": "El camión tiene motor y no está en la lista de excluidos: es un vehículo de motor."
+      },
+      "truco": "Fuera de «vehículo de motor» en la Ley: ciclomotor, tranvía y vehículo para personas de movilidad reducida. El Reglamento de Vehículos añade a esa lista, para «vehículo a motor», las bicis de pedaleo asistido y los VMP.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.A",
+          "cita": "ciclomotores, los tranvías, los vehículos para personas de movilidad reducida, los ciclos de pedales con pedaleo asistido y los vehículos de movilidad personal."
+        }
+      ],
+      "huella": "2ce84df0e5ae"
+    },
+    {
+      "id": "res-def-0004",
+      "porque": "Que algo tenga motor no lo convierte automáticamente en «vehículo a motor». El Reglamento General de Vehículos excluye expresamente de esa definición a los ciclomotores, los tranvías, los vehículos para personas de movilidad reducida, los ciclos de pedaleo asistido y los vehículos de movilidad personal, como el patinete eléctrico.",
+      "descartes": {
+        "b": "La definición no depende del tipo de vía: el VMP queda fuera de «vehículo a motor» circule por donde circule.",
+        "c": "Tener motor eléctrico no basta: el Reglamento excluye expresamente a los vehículos de movilidad personal de esa definición."
+      },
+      "truco": "Fuera de «vehículo de motor» en la Ley: ciclomotor, tranvía y vehículo para personas de movilidad reducida. El Reglamento de Vehículos añade a esa lista, para «vehículo a motor», las bicis de pedaleo asistido y los VMP.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.12",
+          "cita": "Vehículo de motor. Vehículo provisto de motor para su propulsión. Se excluyen de esta definición los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.A",
+          "cita": "ciclomotores, los tranvías, los vehículos para personas de movilidad reducida, los ciclos de pedales con pedaleo asistido y los vehículos de movilidad personal."
+        }
+      ],
+      "huella": "ad056040a03c"
+    },
+    {
+      "id": "bmp-0009",
+      "porque": "Si causas un accidente con fallecidos o con ciertas lesiones y te vas voluntariamente del lugar sin que haya riesgo para ti ni para otros, cometes el delito de abandono del lugar del accidente. Es delito aunque el accidente fuera fortuito; lo que cambia es la pena.",
+      "descartes": {
+        "a": "Presentarse después ante la policía no convierte el abandono en una infracción leve: irse voluntariamente del lugar en esas circunstancias es delito.",
+        "c": "Que el accidente fuera fortuito no lo libra: el Código Penal castiga también ese caso, con prisión de tres a seis meses y privación del derecho a conducir de seis meses a dos años."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "382 bis.3",
+          "cita": "Si el origen de los hechos que dan lugar al abandono fuera fortuito le corresponderá una pena de tres a seis meses de prisión y privación del derecho a conducir vehículos a motor y ciclomotores de seis meses a dos años."
+        }
+      ],
+      "huella": "b5404d7b8f7a"
+    },
+    {
+      "id": "bmp-0003",
+      "porque": "El Código Penal fija una línea a partir de la cual conducir con alcohol es delito en todo caso, sin necesidad de probar nada más: más de 0,60 mg/l en aire espirado o más de 1,2 g/l en sangre. Por debajo también puede ser delito si se conduce bajo la influencia del alcohol.",
+      "descartes": {
+        "a": "0,25 mg/l en aire es la tasa máxima general para circular; superarla es una infracción administrativa, que no es delito por sí sola.",
+        "c": "0,50 mg/l es el doble de la tasa general; superar el doble de la tasa permitida se multa con 1.000 euros, pero el delito «en todo caso» empieza al superar 0,60."
+      },
+      "truco": "Delito «en todo caso»: más de 0,60 en aire o más de 1,2 en sangre. Como en las tasas administrativas (0,25 y 0,5), la cifra en sangre es el doble que la de aire: si recuerdas una, sacas la otra.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "379.2",
+          "cita": "En todo caso será condenado con dichas penas el que condujere con una tasa de alcohol en aire espirado superior a 0,60 miligramos por litro o con una tasa de alcohol en sangre superior a 1,2 gramos por litro."
+        },
+        {
+          "norma": "CP",
+          "articulo": "379.2",
+          "cita": "Con las mismas penas será castigado el que condujere un vehículo de motor o ciclomotor bajo la influencia de drogas tóxicas, estupefacientes, sustancias psicotrópicas o de bebidas alcohólicas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "20",
+          "cita": "con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "80.2.a",
+          "cita": "Las infracciones previstas en el artículo 77. c) y d) serán sancionadas con multa de 1.000 euros. En el supuesto de conducción con tasas de alcohol superiores a las que reglamentariamente se establezcan, esta sanción únicamente se impondrá al conductor que ya hubiera sido sancionado en el año inmediatamente anterior por exceder la tasa de alcohol permitida, así como al que circule con una tasa que supere el doble de la permitida."
+        }
+      ],
+      "huella": "511e421a1674"
+    },
+    {
+      "id": "bmp-0004",
+      "porque": "El Código Penal fija una línea a partir de la cual conducir con alcohol es delito en todo caso: más de 1,2 g/l en sangre o más de 0,60 mg/l en aire espirado. Por debajo también puede ser delito si se conduce bajo la influencia del alcohol.",
+      "descartes": {
+        "a": "0,5 g/l en sangre es la tasa máxima general para circular; superarla es una infracción administrativa, que no es delito por sí sola.",
+        "b": "0,8 g/l no es la cifra del Código Penal: el delito en todo caso empieza al superar 1,2 g/l en sangre."
+      },
+      "truco": "Delito «en todo caso»: más de 0,60 en aire o más de 1,2 en sangre. Como en las tasas administrativas (0,25 y 0,5), la cifra en sangre es el doble que la de aire: si recuerdas una, sacas la otra.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "379.2",
+          "cita": "En todo caso será condenado con dichas penas el que condujere con una tasa de alcohol en aire espirado superior a 0,60 miligramos por litro o con una tasa de alcohol en sangre superior a 1,2 gramos por litro."
+        },
+        {
+          "norma": "CP",
+          "articulo": "379.2",
+          "cita": "Con las mismas penas será castigado el que condujere un vehículo de motor o ciclomotor bajo la influencia de drogas tóxicas, estupefacientes, sustancias psicotrópicas o de bebidas alcohólicas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "20",
+          "cita": "con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro"
+        }
+      ],
+      "huella": "8d39c093b576"
+    },
+    {
+      "id": "bmp-0005",
+      "porque": "Cuando un agente te lo pide, someterte a las pruebas de alcohol y drogas es obligatorio, y negarte es un delito por sí mismo: prisión de seis meses a un año y privación del derecho a conducir de más de uno y hasta cuatro años.",
+      "descartes": {
+        "b": "No es una infracción leve: el Código Penal castiga la negativa con prisión y privación del derecho a conducir.",
+        "c": "El delito es negarse a la prueba, no dar positivo: aunque después demuestres que no habías bebido, la negativa ya es delito."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "383",
+          "cita": "será castigado con la penas de prisión de seis meses a un año y privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a uno y hasta cuatro años"
+        }
+      ],
+      "huella": "0c771c9fe551"
+    },
+    {
+      "id": "bmp-0010",
+      "porque": "Colocar en la vía obstáculos imprevisibles o derramar sustancias deslizantes o inflamables, originando un grave riesgo para la circulación, es un delito contra la seguridad vial, castigado con prisión de seis meses a dos años o con multa y trabajos en beneficio de la comunidad.",
+      "descartes": {
+        "a": "No es una infracción leve: cuando origina un grave riesgo para la circulación, el Código Penal lo castiga como delito.",
+        "b": "Sí tiene consecuencias penales: originar así un grave riesgo para la circulación es delito."
+      },
+      "truco": "Retirar, ocultar o deteriorar señales ya es infracción muy grave. Si además alguien origina un grave riesgo para la circulación (con obstáculos imprevisibles, sustancias deslizantes o señales quitadas o cambiadas), es delito.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "385",
+          "cita": "Será castigado con la pena de prisión de seis meses a dos años o a las de multa de doce a veinticuatro meses y trabajos en beneficio de la comunidad de diez a cuarenta días, el que originare un grave riesgo para la circulación"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77.n",
+          "cita": "n) Realizar en la vía obras sin la autorización correspondiente, así como la retirada, ocultación, alteración o deterioro de la señalización permanente u ocasional."
+        }
+      ],
+      "huella": "71c33b52cbc9"
+    },
+    {
+      "id": "v5e-del-0003",
+      "porque": "Sustraer una señal de tráfico y originar con ello un grave riesgo para la circulación es uno de los delitos contra la seguridad vial del Código Penal, igual que colocar obstáculos imprevisibles o derramar sustancias deslizantes.",
+      "descartes": {
+        "a": "Va más allá de un daño al mobiliario: al quitar la señal y crear un grave riesgo para la circulación, comete un delito contra la seguridad vial.",
+        "c": "Devolverla después no borra el delito: el grave riesgo ya se ha originado."
+      },
+      "truco": "Retirar, ocultar o deteriorar señales ya es infracción muy grave. Si además alguien origina un grave riesgo para la circulación (con obstáculos imprevisibles, sustancias deslizantes o señales quitadas o cambiadas), es delito.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.n",
+          "cita": "n) Realizar en la vía obras sin la autorización correspondiente, así como la retirada, ocultación, alteración o deterioro de la señalización permanente u ocasional."
+        }
+      ],
+      "huella": "b283bd8d62ec"
+    },
+    {
+      "id": "bmp-0006",
+      "porque": "Conducir un vehículo de motor o un ciclomotor sin haber obtenido nunca permiso o licencia es delito, castigado con prisión de tres a seis meses, multa o trabajos en beneficio de la comunidad. El Código Penal pone en el mismo grupo conducir tras perder todos los puntos o estando privado del permiso por decisión judicial.",
+      "descartes": {
+        "a": "No es una infracción leve: conducir sin haber obtenido nunca el permiso es delito.",
+        "c": "Sí tiene consecuencias penales: el Código Penal lo castiga expresamente."
+      },
+      "truco": "Tres casos, el mismo delito: no haber tenido nunca permiso, conducir tras perder todos los puntos o conducir estando privado del permiso por un juez.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "384",
+          "cita": "será castigado con la pena de prisión de tres a seis meses o con la de multa de doce a veinticuatro meses o con la de trabajos en beneficio de la comunidad de treinta y uno a noventa días"
+        },
+        {
+          "norma": "CP",
+          "articulo": "384",
+          "cita": "La misma pena se impondrá al que realizare la conducción tras haber sido privado cautelar o definitivamente del permiso o licencia por decisión judicial y al que condujere un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia de conducción."
+        }
+      ],
+      "huella": "98be39531cb3"
+    },
+    {
+      "id": "bmp-0007",
+      "porque": "Cuando pierdes todos los puntos, el permiso pierde su vigencia, y conducir así es delito aunque todavía tengas el documento. La pena es prisión de tres a seis meses, multa de doce a veinticuatro meses o trabajos en beneficio de la comunidad.",
+      "descartes": {
+        "a": "Lo que cuenta es la pérdida de vigencia del permiso por perder todos los puntos, no que te retiren físicamente el documento.",
+        "b": "No es una infracción leve: conducir con el permiso sin vigencia por pérdida total de puntos es delito."
+      },
+      "truco": "Tres casos, el mismo delito: no haber tenido nunca permiso, conducir tras perder todos los puntos o conducir estando privado del permiso por un juez.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "384",
+          "cita": "será castigado con la pena de prisión de tres a seis meses o con la de multa de doce a veinticuatro meses o con la de trabajos en beneficio de la comunidad de treinta y uno a noventa días"
+        },
+        {
+          "norma": "CP",
+          "articulo": "384",
+          "cita": "La misma pena se impondrá al que realizare la conducción tras haber sido privado cautelar o definitivamente del permiso o licencia por decisión judicial y al que condujere un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia de conducción."
+        }
+      ],
+      "huella": "604f43d257a4"
+    },
+    {
+      "id": "bmp-0008",
+      "porque": "La conducción con temeridad manifiesta que pone en concreto peligro la vida o la integridad de las personas es delito, con prisión de seis meses a dos años y privación del derecho a conducir de más de uno y hasta seis años. Cuando no llega a ser delito, la conducción temeraria es infracción muy grave.",
+      "descartes": {
+        "b": "No es una simple infracción grave: si pone en concreto peligro la vida o la integridad de las personas, es delito.",
+        "c": "La conducción temeraria es infracción muy grave solo cuando no es delito; con peligro concreto para las personas, el Código Penal la castiga con prisión."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "380.1",
+          "cita": "será castigado con las penas de prisión de seis meses a dos años y privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a uno y hasta seis años"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77",
+          "cita": "Son infracciones muy graves, cuando no sean constitutivas de delito, las conductas tipificadas en esta ley referidas a:"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77.e y 77.f",
+          "cita": "e) Conducción temeraria. f) Circular en sentido contrario al establecido."
+        }
+      ],
+      "huella": "6bda0fdd45f6"
+    },
+    {
+      "id": "bmp-0001",
+      "porque": "El Código Penal convierte el exceso de velocidad en delito cuando se supera la velocidad permitida en más de 60 km/h en vía urbana o en más de 80 km/h en vía interurbana.",
+      "descartes": {
+        "a": "Superar el límite en 30 km/h es una infracción administrativa, no un delito; en vía urbana el delito empieza al superarlo en más de 60 km/h.",
+        "b": "Superarlo en 50 km/h no llega: en vía urbana el delito exige superar el límite en más de 60 km/h."
+      },
+      "truco": "Delito por velocidad: «60 en ciudad, 80 en carretera» por encima del límite. Suma esa cifra al límite de la vía y sabrás a partir de qué velocidad es delito.",
+      "huella": "6822532475f5"
+    },
+    {
+      "id": "bmp-0002",
+      "porque": "En vía interurbana es delito superar la velocidad permitida en más de 80 km/h. Con un límite de 120 km/h, el delito empieza al circular a más de 200 km/h.",
+      "descartes": {
+        "b": "180 km/h es superar el límite en 60, que es la cifra del delito en vía urbana; en una autovía hace falta superarlo en más de 80.",
+        "c": "150 km/h es superar el límite en 30: es una infracción administrativa, no un delito."
+      },
+      "truco": "Delito por velocidad: «60 en ciudad, 80 en carretera» por encima del límite. Suma esa cifra al límite de la vía y sabrás a partir de qué velocidad es delito.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "379.1",
+          "cita": "a velocidad superior en sesenta kilómetros por hora en vía urbana o en ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente"
+        }
+      ],
+      "huella": "0418288e9de1"
+    },
+    {
+      "id": "v5e-del-0001",
+      "porque": "El delito de exceso de velocidad se castiga con prisión de tres a seis meses, o con multa, o con trabajos en beneficio de la comunidad, y, en cualquier caso, con la privación del derecho a conducir por más de uno y hasta cuatro años. La privación va siempre; las otras tres son penas alternativas.",
+      "descartes": {
+        "b": "La prisión no depende de los antecedentes: es una de las tres penas alternativas (prisión, multa o trabajos), y la privación del derecho a conducir va en cualquier caso.",
+        "c": "La privación es mucho más larga: más de un año y hasta cuatro, no unos meses."
+      },
+      "truco": "Delito por velocidad: «60 en ciudad, 80 en carretera» por encima del límite. Suma esa cifra al límite de la vía y sabrás a partir de qué velocidad es delito.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "379.1",
+          "cita": "será castigado con la pena de prisión de tres a seis meses o con la de multa de seis a doce meses o con la de trabajos en beneficio de la comunidad de treinta y uno a noventa días, y, en cualquier caso, con la de privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a uno y hasta cuatro años"
+        },
+        {
+          "norma": "CP",
+          "articulo": "379.1",
+          "cita": "a velocidad superior en sesenta kilómetros por hora en vía urbana o en ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente"
+        }
+      ],
+      "huella": "65cb1c7e69cc"
+    },
+    {
+      "id": "v5a-dis-0001",
+      "porque": "La norma prohíbe llevar en el vehículo mecanismos de detección de radares o cinemómetros, y también instalar o llevar inhibidores. En cambio, excluye expresamente de la prohibición los avisadores que informan de la posición de los sistemas de vigilancia del tráfico.",
+      "descartes": {
+        "a": "Los avisadores que informan de dónde están los sistemas de vigilancia están permitidos: la norma los excluye expresamente de la prohibición.",
+        "c": "El navegador GPS no está prohibido; la norma lo menciona entre las excepciones a los dispositivos incompatibles con la atención a la conducción."
+      },
+      "truco": "Avisador, detector e inhibidor: el avisador informa de dónde están los sistemas de vigilancia (permitido); el detector detecta el radar (prohibido, infracción grave); el inhibidor interfiere en su funcionamiento (prohibido, infracción muy grave).",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "18.3",
+          "cita": "Quedan excluidos de esta prohibición los mecanismos de aviso que informan de la posición de los sistemas de vigilancia del tráfico."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "76.g",
+          "cita": "así como llevar en los vehículos mecanismos de detección de radares o cinemómetros"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77.h",
+          "cita": "h) Conducir vehículos que tengan instalados inhibidores de radares o cinemómetros o cualesquiera otros mecanismos encaminados a interferir en el correcto funcionamiento de los sistemas de vigilancia del tráfico."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "18.1",
+          "cita": "así como el dispositivo GPS."
+        }
+      ],
+      "huella": "d9adbcf71511"
+    },
+    {
+      "id": "D-nov-0001",
+      "porque": "La L de conductor novel la llevan durante un año quienes obtienen por primera vez un permiso de conducción. Pero la norma no considera «primera vez» a quien ya ha sido titular de otro permiso, con posesión efectiva durante al menos un año. Con tres años de AM, esta persona no tiene que llevarla.",
+      "descartes": {
+        "a": "Un año es el plazo de la L, pero solo para quien obtiene por primera vez un permiso; quien ya tuvo otro durante al menos un año no la lleva.",
+        "b": "Dos años es el periodo de la tasa de alcohol reducida tras obtener el permiso, no el de la señal L, que es de un año; y aquí ni siquiera hace falta llevarla."
+      },
+      "truco": "La L es para estrenarse: un año desde tu primer permiso. Si ya tuviste otro permiso durante al menos un año, no te toca.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-13.2",
+          "cita": "Deberán llevar esta señal los vehículos cuyos conductores hayan obtenido por primera vez un permiso de conducción durante el período de un año."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "20",
+          "cita": "durante los dos años siguientes a la obtención del permiso o licencia que les habilita para conducir"
+        }
+      ],
+      "huella": "b41238887e72"
+    },
+    {
+      "id": "x1a-0013",
+      "porque": "En las glorietas se circula dejando el centro a la izquierda. La señal de sentido obligatorio en glorieta lo recuerda con sus flechas, que marcan el sentido de giro que hay que seguir, salgas por donde salgas.",
+      "descartes": {
+        "b": "Ni siquiera para tomar una salida a la izquierda cambia el sentido de giro: en la glorieta el centro se deja a la izquierda.",
+        "c": "No puedes elegir el lado más corto: las flechas de la señal marcan el sentido de giro y la norma obliga a dejar el centro a la izquierda."
+      },
+      "truco": "Glorieta: el centro, a tu izquierda, vayas a la salida que vayas.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-402",
+          "cita": "Las flechas señalan la dirección y sentido del movimiento giratorio que los vehículos deben seguir."
+        }
+      ],
+      "huella": "fcefe7e03602"
+    },
+    {
+      "id": "x1a-0095",
+      "porque": "En poblado, los demás conductores deben facilitar que el autobús salga de una parada señalizada, apartándose o reduciendo la velocidad, e incluso deteniéndose si hace falta. Pero eso no exime al conductor del autobús: después de anunciar con el intermitente que reanuda la marcha, sigue obligado a tomar las precauciones necesarias para evitar todo riesgo de accidente.",
+      "descartes": {
+        "b": "Que los demás deban facilitarle la salida no le da vía libre: la norma mantiene su obligación de adoptar las precauciones necesarias.",
+        "c": "Lo que la norma le exige es anunciar la maniobra con los indicadores de dirección y adoptar las precauciones necesarias, no tocar el claxon."
+      },
+      "truco": "Facilitar no es ceder la responsabilidad: los demás le hacen hueco al autobús, y el autobús sale con cuidado.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "73.2",
+          "cita": "los conductores de los demás vehículos deberán desplazarse lateralmente, siempre que fuera posible, o reducir su velocidad"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "73.3",
+          "cita": "después de haber anunciado por medio de sus indicadores de dirección su propósito de reanudar la marcha"
+        }
+      ],
+      "huella": "b0ebe4b1a8fc"
+    },
+    {
+      "id": "x1a-0093",
+      "porque": "El carril de aceleración sirve para eso: comprobar al principio que puedes incorporarte sin peligro y, después, acelerar a lo largo del carril para llegar al final con la velocidad adecuada y entrar en la calzada.",
+      "descartes": {
+        "a": "Recorrer el carril despacio y pararte al final lo desaprovecha; la norma prevé detenerse, si hace falta, al principio del carril, cuando compruebas si puedes incorporarte.",
+        "b": "Entrar nada más empezar el carril te mete en la calzada sin haber cogido velocidad; la norma manda acelerar hasta el final del carril."
+      },
+      "truco": "Carril de aceleración: mira al principio, acelera a lo largo y entra al final.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "72.4",
+          "cita": "deberá cerciorarse, al principio de dicho carril, de que puede hacerlo sin peligro para los demás usuarios que transiten por dicha calzada, teniendo en cuenta la posición, trayectoria y velocidad de éstos, e incluso deteniéndose, en caso necesario"
+        }
+      ],
+      "huella": "ccbe2fc908ee"
+    },
+    {
+      "id": "x1a-0092",
+      "porque": "Quien sale de una propiedad colindante, como un garaje, tiene que asegurarse antes de que puede incorporarse sin peligro y ceder el paso. Si no ve bien, la norma prevé expresamente que se ayude con las indicaciones de otra persona.",
+      "descartes": {
+        "a": "Salir deprisa sin ver es justo lo contrario de cerciorarse antes de que no hay peligro, que es lo que exige la norma.",
+        "b": "El claxon no sustituye la comprobación ni el deber de ceder el paso; si no ves, la norma prevé guiarte con las indicaciones de otra persona."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "72.1",
+          "cita": "cediendo el paso a otros vehículos y teniendo en cuenta la posición, trayectoria y velocidad de éstos"
+        }
+      ],
+      "huella": "31ef624d59a7"
+    },
+    {
+      "id": "x1a-0056",
+      "porque": "Las carreras no autorizadas en la vía pública ponen en peligro a todos, y la Ley las clasifica como infracción muy grave cuando no llegan a ser delito, en la misma lista que la conducción temeraria o circular en sentido contrario.",
+      "descartes": {
+        "a": "No se queda en grave: la Ley pone las competiciones y carreras de vehículos no autorizadas entre las infracciones muy graves.",
+        "c": "Ni mucho menos leve: es una de las infracciones muy graves de la Ley."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.e y 77.f",
+          "cita": "e) Conducción temeraria. f) Circular en sentido contrario al establecido."
+        }
+      ],
+      "huella": "3fdce200e5da"
+    },
+    {
+      "id": "x1a-0057",
+      "porque": "No mantener la distancia de seguridad con el vehículo de delante está en la lista de infracciones graves de la Ley, cuando no es delito.",
+      "descartes": {
+        "b": "No es leve: la Ley la incluye expresamente entre las infracciones graves.",
+        "c": "No llega a muy grave: está en la lista de las graves."
+      },
+      "truco": null,
+      "huella": "1a0eeabcd83a"
+    },
+    {
+      "id": "x1a-0094",
+      "porque": "Incorporarse sin ceder el paso es saltarse la preferencia de los que ya circulan, y la Ley clasifica como graves las infracciones en materia de preferencia de paso. El Reglamento lo dice expresamente para la incorporación a la circulación.",
+      "descartes": {
+        "a": "No es leve: incorporarse a la circulación sin ceder el paso es infracción grave.",
+        "b": "No llega a muy grave: es una infracción grave, como las demás de preferencia de paso."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.c",
+          "cita": "Incumplir las disposiciones de esta ley en materia de preferencia de paso, adelantamientos, cambios de dirección o sentido y marcha atrás"
+        }
+      ],
+      "huella": "7a080adc7b70"
+    },
+    {
+      "id": "x1a-0058",
+      "porque": "La Ley agrupa en una misma infracción grave el incumplimiento de las normas sobre preferencia de paso, adelantamientos, cambios de dirección o sentido y marcha atrás, cuando no es delito.",
+      "descartes": {
+        "a": "No es leve: la Ley clasifica estas infracciones como graves.",
+        "b": "No son muy graves «en todo caso»: la regla es que son graves. Otra cosa es, por ejemplo, circular en sentido contrario al establecido, que la Ley califica aparte como muy grave."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.f",
+          "cita": "f) Circular en sentido contrario al establecido."
+        }
+      ],
+      "huella": "5a49ab87bf5f"
+    },
+    {
+      "id": "x1a-0003",
+      "porque": "Circular por la izquierda en una vía de doble sentido es ir de frente contra quienes vienen en sentido contrario. Por eso es infracción muy grave: la Ley califica así circular en sentido contrario al establecido.",
+      "descartes": {
+        "a": "No se queda en grave: circular en sentido contrario al estipulado es infracción muy grave.",
+        "c": "Ni mucho menos leve: es una de las infracciones muy graves."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.f",
+          "cita": "f) Circular en sentido contrario al establecido."
+        }
+      ],
+      "huella": "08dc5f922bd6"
+    },
+    {
+      "id": "x1b-0003",
+      "porque": "Parar o estacionar en un lugar peligroso o donde se obstaculiza gravemente la circulación pone en riesgo a los demás, y por eso es infracción grave, no leve. La Ley lo recoge junto a parar o estacionar en curvas, cambios de rasante, túneles o intersecciones.",
+      "descartes": {
+        "b": "No es leve: las paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación son infracción grave.",
+        "c": "No llega a muy grave: la Ley y el Reglamento la clasifican como grave."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.d",
+          "cita": "d) Parar o estacionar en el carril bus, en carriles o vías ciclistas, en curvas, cambios de rasante, zonas de estacionamiento para uso exclusivo de personas con discapacidad, túneles, pasos inferiores, intersecciones o en cualquier otro lugar peligroso o en el que se obstaculice gravemente la circulación"
+        }
+      ],
+      "huella": "640cedd7a90a"
+    },
+    {
+      "id": "x1b-0014",
+      "porque": "Un vehículo parado en un paso a nivel se queda sobre la vía del tren. Por eso está prohibido parar ahí, y hacerlo es infracción grave, igual que parar o estacionar en un carril destinado al transporte público urbano.",
+      "descartes": {
+        "a": "No es leve: parar en un paso a nivel es infracción grave.",
+        "b": "Quedarte dentro del vehículo no cambia nada: el paso a nivel es un lugar donde está prohibido parar, y hacerlo es infracción grave."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.1.b",
+          "cita": "b) En pasos a nivel, pasos para ciclistas y pasos para peatones."
+        }
+      ],
+      "huella": "9492abaaebf8"
+    },
+    {
+      "id": "x1b-0038",
+      "porque": "Las señales existen para que todos sepan qué hacer; si alguien las retira, oculta, altera o deteriora, los demás pierden esa información. Por eso es infracción muy grave, igual que hacer obras en la vía sin autorización.",
+      "descartes": {
+        "a": "No se queda en grave: retirar, ocultar o deteriorar la señalización es infracción muy grave.",
+        "b": "Ni mucho menos leve: la Ley la incluye entre las muy graves."
+      },
+      "truco": "Retirar, ocultar o deteriorar señales ya es infracción muy grave. Si además alguien origina un grave riesgo para la circulación (con obstáculos imprevisibles, sustancias deslizantes o señales quitadas o cambiadas), es delito.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.n",
+          "cita": "n) Realizar en la vía obras sin la autorización correspondiente, así como la retirada, ocultación, alteración o deterioro de la señalización permanente u ocasional."
+        },
+        {
+          "norma": "CP",
+          "articulo": "385",
+          "cita": "el que originare un grave riesgo para la circulación de alguna de las siguientes formas: 1.ª Colocando en la vía obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o mutando, sustrayendo o anulando la señalización o por cualquier otro medio."
+        }
+      ],
+      "huella": "275e30a707cb"
+    },
+    {
+      "id": "x1b-0103",
+      "porque": "No pagar el peaje cuando es exigible no pone en peligro a nadie en la vía, y la Ley lo coloca expresamente entre las infracciones leves.",
+      "descartes": {
+        "a": "No es grave: la Ley incluye el impago de peaje, tasa o precio público exigible entre las infracciones leves.",
+        "c": "No es muy grave: es una de las infracciones leves de la Ley."
+      },
+      "truco": null,
+      "huella": "a1b936d7c451"
+    },
+    {
+      "id": "x1b-0105",
+      "porque": "Llevar un detector de radares en el vehículo está prohibido, y la Ley lo clasifica como infracción grave, en la misma letra que usar el móvil sujetándolo con la mano al conducir. Conducir con un inhibidor, que interfiere en los sistemas de vigilancia, es más serio: infracción muy grave.",
+      "descartes": {
+        "b": "No es leve: la Ley lo incluye expresamente entre las infracciones graves.",
+        "c": "Muy grave es conducir con un inhibidor de radares; llevar un detector es infracción grave."
+      },
+      "truco": "Avisador, detector e inhibidor: el avisador informa de dónde están los sistemas de vigilancia (permitido); el detector detecta el radar (prohibido, infracción grave); el inhibidor interfiere en su funcionamiento (prohibido, infracción muy grave).",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.h",
+          "cita": "h) Conducir vehículos que tengan instalados inhibidores de radares o cinemómetros o cualesquiera otros mecanismos encaminados a interferir en el correcto funcionamiento de los sistemas de vigilancia del tráfico."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "18.3",
+          "cita": "Quedan excluidos de esta prohibición los mecanismos de aviso que informan de la posición de los sistemas de vigilancia del tráfico."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "76.g",
+          "cita": "g) Utilizar, sujetándolo con la mano, o manteniéndolo ajustado entre el casco y la cabeza del usuario, dispositivos de telefonía móvil mientras se conduce"
+        }
+      ],
+      "huella": "b4fd0a8f337c"
+    },
+    {
+      "id": "x1b-0106",
+      "porque": "Un inhibidor de radares interfiere en el funcionamiento de los sistemas de vigilancia del tráfico, y la Ley castiga más duramente conducir con él: es infracción muy grave, con multa de 6.000 euros. Llevar un simple detector es grave.",
+      "descartes": {
+        "a": "Grave es llevar un detector de radares; conducir con un inhibidor es muy grave.",
+        "c": "Ni mucho menos leve: conducir con inhibidores de radar es infracción muy grave."
+      },
+      "truco": "Avisador, detector e inhibidor: el avisador informa de dónde están los sistemas de vigilancia (permitido); el detector detecta el radar (prohibido, infracción grave); el inhibidor interfiere en su funcionamiento (prohibido, infracción muy grave).",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.g",
+          "cita": "así como llevar en los vehículos mecanismos de detección de radares o cinemómetros"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "80.2.c",
+          "cita": "La infracción recogida en el artículo 77. h) se sancionará con multa de 6.000 euros."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "18.3",
+          "cita": "Quedan excluidos de esta prohibición los mecanismos de aviso que informan de la posición de los sistemas de vigilancia del tráfico."
+        }
+      ],
+      "huella": "f3ed88f9ef6a"
+    },
+    {
+      "id": "x1b-0108",
+      "porque": "Saltarse un semáforo en rojo es una de las infracciones graves que la Ley enumera expresamente, junto a no respetar el stop o el ceda el paso.",
+      "descartes": {
+        "b": "No es leve: no respetar la luz roja de un semáforo es infracción grave.",
+        "c": "No llega a muy grave: la Ley la incluye en la lista de las graves."
+      },
+      "truco": "Rojo, stop y ceda el paso: no respetarlos es, en los tres casos, infracción grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.l",
+          "cita": "l) No respetar la señal de stop o la señal de ceda el paso."
+        }
+      ],
+      "huella": "a290775714fd"
+    },
+    {
+      "id": "x1b-0111",
+      "porque": "Circular en sentido contrario al establecido es ir de frente contra el resto del tráfico, y la Ley lo clasifica como infracción muy grave cuando no es delito.",
+      "descartes": {
+        "b": "No se queda en grave: circular en sentido contrario al establecido es infracción muy grave.",
+        "c": "Ni mucho menos leve: es una de las infracciones muy graves."
+      },
+      "truco": null,
+      "huella": "76b1b8684cab"
+    },
+    {
+      "id": "x1b-0107",
+      "porque": "Conducir con un inhibidor de radares es una infracción muy grave con una multa propia, muy por encima de la general de las muy graves: 6.000 euros.",
+      "descartes": {
+        "a": "500 euros es la multa general de las infracciones muy graves, pero la de los inhibidores tiene una cuantía propia de 6.000 euros.",
+        "b": "1.000 euros es la multa que la Ley fija para las infracciones de alcohol o drogas y para negarse a las pruebas (en el alcohol, solo en ciertos casos), no la de los inhibidores."
+      },
+      "truco": "Multas de la Ley: leve, hasta 100 €; grave, 200 €; muy grave, 500 €. Con cuantía propia: alcohol o drogas y negarse a las pruebas, 1.000 € (en el alcohol, solo en ciertos casos); inhibidor de radar, 6.000 €. La velocidad va por su propio cuadro.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "80.1",
+          "cita": "Las infracciones leves serán sancionadas con multa de hasta 100 euros; las graves, con multa de 200 euros, y las muy graves, con multa de 500 euros. No obstante, las infracciones consistentes en no respetar los límites de velocidad se sancionarán en la cuantía prevista en el anexo IV."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "80.2.a",
+          "cita": "Las infracciones previstas en el artículo 77. c) y d) serán sancionadas con multa de 1.000 euros. En el supuesto de conducción con tasas de alcohol superiores a las que reglamentariamente se establezcan, esta sanción únicamente se impondrá al conductor que ya hubiera sido sancionado en el año inmediatamente anterior por exceder la tasa de alcohol permitida, así como al que circule con una tasa que supere el doble de la permitida."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77.c y 77.d",
+          "cita": "c) Conducir con tasas de alcohol superiores a las que reglamentariamente se establezcan, o con presencia en el organismo de drogas. d) Incumplir la obligación de todos los conductores de vehículos, y de los demás usuarios de la vía cuando se hallen implicados en algún accidente de tráfico o hayan cometido una infracción, de someterse a las pruebas que se establezcan para la detección de alcohol o de la presencia de drogas en el organismo."
+        }
+      ],
+      "huella": "3719ed5c2161"
+    },
+    {
+      "id": "x1b-0113",
+      "porque": "La Ley fija tres cuantías generales: las infracciones leves, hasta 100 euros; las graves, 200 euros; y las muy graves, 500 euros. Los excesos de velocidad tienen su propio cuadro y algunas infracciones tienen multas especiales.",
+      "descartes": {
+        "a": "100 euros es el máximo de las infracciones leves, no la multa de las graves.",
+        "c": "500 euros es la multa general de las infracciones muy graves."
+      },
+      "truco": "Multas de la Ley: leve, hasta 100 €; grave, 200 €; muy grave, 500 €. Con cuantía propia: alcohol o drogas y negarse a las pruebas, 1.000 € (en el alcohol, solo en ciertos casos); inhibidor de radar, 6.000 €. La velocidad va por su propio cuadro.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "80.1",
+          "cita": "Las infracciones leves serán sancionadas con multa de hasta 100 euros; las graves, con multa de 200 euros, y las muy graves, con multa de 500 euros. No obstante, las infracciones consistentes en no respetar los límites de velocidad se sancionarán en la cuantía prevista en el anexo IV."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "80.2.a",
+          "cita": "Las infracciones previstas en el artículo 77. c) y d) serán sancionadas con multa de 1.000 euros. En el supuesto de conducción con tasas de alcohol superiores a las que reglamentariamente se establezcan, esta sanción únicamente se impondrá al conductor que ya hubiera sido sancionado en el año inmediatamente anterior por exceder la tasa de alcohol permitida, así como al que circule con una tasa que supere el doble de la permitida."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77.c y 77.d",
+          "cita": "c) Conducir con tasas de alcohol superiores a las que reglamentariamente se establezcan, o con presencia en el organismo de drogas. d) Incumplir la obligación de todos los conductores de vehículos, y de los demás usuarios de la vía cuando se hallen implicados en algún accidente de tráfico o hayan cometido una infracción, de someterse a las pruebas que se establezcan para la detección de alcohol o de la presencia de drogas en el organismo."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "80.2.c",
+          "cita": "La infracción recogida en el artículo 77. h) se sancionará con multa de 6.000 euros."
+        }
+      ],
+      "huella": "42d8eada3640"
+    },
+    {
+      "id": "x1b-0114",
+      "porque": "La Ley fija tres cuantías generales: las infracciones leves, hasta 100 euros; las graves, 200 euros; y las muy graves, 500 euros. Algunas muy graves tienen una multa especial más alta, pero la regla general es 500.",
+      "descartes": {
+        "a": "200 euros es la multa de las infracciones graves.",
+        "c": "1.000 euros es una multa especial, por ejemplo para conducir con drogas o negarse a las pruebas de alcohol y drogas; la general de las muy graves es 500."
+      },
+      "truco": "Multas de la Ley: leve, hasta 100 €; grave, 200 €; muy grave, 500 €. Con cuantía propia: alcohol o drogas y negarse a las pruebas, 1.000 € (en el alcohol, solo en ciertos casos); inhibidor de radar, 6.000 €. La velocidad va por su propio cuadro.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "80.1",
+          "cita": "Las infracciones leves serán sancionadas con multa de hasta 100 euros; las graves, con multa de 200 euros, y las muy graves, con multa de 500 euros. No obstante, las infracciones consistentes en no respetar los límites de velocidad se sancionarán en la cuantía prevista en el anexo IV."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "80.2.a",
+          "cita": "Las infracciones previstas en el artículo 77. c) y d) serán sancionadas con multa de 1.000 euros. En el supuesto de conducción con tasas de alcohol superiores a las que reglamentariamente se establezcan, esta sanción únicamente se impondrá al conductor que ya hubiera sido sancionado en el año inmediatamente anterior por exceder la tasa de alcohol permitida, así como al que circule con una tasa que supere el doble de la permitida."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77.c y 77.d",
+          "cita": "c) Conducir con tasas de alcohol superiores a las que reglamentariamente se establezcan, o con presencia en el organismo de drogas. d) Incumplir la obligación de todos los conductores de vehículos, y de los demás usuarios de la vía cuando se hallen implicados en algún accidente de tráfico o hayan cometido una infracción, de someterse a las pruebas que se establezcan para la detección de alcohol o de la presencia de drogas en el organismo."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "80.2.c",
+          "cita": "La infracción recogida en el artículo 77. h) se sancionará con multa de 6.000 euros."
+        }
+      ],
+      "huella": "b6da4ab8a74b"
+    },
+    {
+      "id": "x1b-0116",
+      "porque": "La Ley permite incrementar la multa en un 30 % según la gravedad y trascendencia del hecho, los antecedentes y la reincidencia del infractor, el peligro creado y la proporcionalidad. Vale para las multas generales y para las del cuadro de velocidad.",
+      "descartes": {
+        "b": "50 % no es la cifra de la Ley: el incremento que permite por estos criterios es del 30 %.",
+        "c": "La Ley no permite duplicar la multa por estos criterios; el incremento es del 30 %."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "81",
+          "cita": "La cuantía de las multas establecidas en el artículo 80.1 y en el anexo IV podrá incrementarse en un 30 por ciento"
+        }
+      ],
+      "huella": "37bcb129907a"
+    },
+    {
+      "id": "x1b-0121",
+      "porque": "En el cuadro de velocidad, para una vía de 120 km/h, circular de 151 a 170 km/h se multa con 300 euros. A 165 km/h vas 45 km/h por encima del límite, dentro de ese tramo.",
+      "descartes": {
+        "a": "100 euros es para excesos de hasta 30 km/h en esa vía, es decir, de 121 a 150 km/h.",
+        "c": "500 euros corresponde, en una vía de 120, a circular entre 181 y 190 km/h."
+      },
+      "truco": "Cuadro de velocidad, en vías de 60 a 120 km/h: hasta 30 km/h de más, 100 €; de 31 a 50 de más, 300 €; y luego un escalón cada 10 km/h: 400, 500 y 600 €. En vías de 50 km/h o menos: hasta 20 de más, 100 €, y luego cada 10: 300, 400, 500 y 600 €. No hay multa de 200 €.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo IV",
+          "cita": "20 30 40 50 60 70 80 90 100 110 120 130 Multa Puntos 21 31 41 51 61 71 81 91 101 111 121 131 100 – 40 50 60 70 90 100 110 120 130 140 150 150 41 51 61 71 91 101 111 121 131 141 151 151 300 2 50 60 70 80 110 120 130 140 150 160 170 170 Grave Exceso velocidad 51 61 71 81 111 121 131 141 151 161 171 171 400 4 60 70 80 90 120 130 140 150 160 170 180 180 61 71 81 91 121 131 141 151 161 171 181 181 500 6 70 80 90 100 130 140 150 160 170 180 190 190 Muy grave 71 81 91 101 131 141 151 161 171 181 191 191 600"
+        }
+      ],
+      "huella": "206b2cf9cacb"
+    },
+    {
+      "id": "x1b-0122",
+      "porque": "Para una vía de 120 km/h, el cuadro fija 500 euros entre 181 y 190 km/h. A 185 km/h estás en ese tramo; a partir de 191 km/h ya sería infracción muy grave, con 600 euros.",
+      "descartes": {
+        "a": "400 euros corresponde, en una vía de 120, al tramo de 171 a 180 km/h.",
+        "c": "600 euros es para 191 km/h o más en esa vía, que ya es infracción muy grave."
+      },
+      "truco": "Cuadro de velocidad, en vías de 60 a 120 km/h: hasta 30 km/h de más, 100 €; de 31 a 50 de más, 300 €; y luego un escalón cada 10 km/h: 400, 500 y 600 €. En vías de 50 km/h o menos: hasta 20 de más, 100 €, y luego cada 10: 300, 400, 500 y 600 €. No hay multa de 200 €.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo IV",
+          "cita": "20 30 40 50 60 70 80 90 100 110 120 130 Multa Puntos 21 31 41 51 61 71 81 91 101 111 121 131 100 – 40 50 60 70 90 100 110 120 130 140 150 150 41 51 61 71 91 101 111 121 131 141 151 151 300 2 50 60 70 80 110 120 130 140 150 160 170 170 Grave Exceso velocidad 51 61 71 81 111 121 131 141 151 161 171 171 400 4 60 70 80 90 120 130 140 150 160 170 180 180 61 71 81 91 121 131 141 151 161 171 181 181 500 6 70 80 90 100 130 140 150 160 170 180 190 190 Muy grave 71 81 91 101 131 141 151 161 171 181 191 191 600"
+        }
+      ],
+      "huella": "1bf5b878d77b"
+    },
+    {
+      "id": "x1b-0123",
+      "porque": "En una vía de 50 km/h, el cuadro fija 400 euros para velocidades de 81 a 90 km/h. A 85 km/h estás en ese tramo.",
+      "descartes": {
+        "a": "300 euros corresponde, en una vía de 50, al tramo de 71 a 80 km/h.",
+        "c": "600 euros es para 101 km/h o más en esa vía, que ya es infracción muy grave."
+      },
+      "truco": "Cuadro de velocidad, en vías de 60 a 120 km/h: hasta 30 km/h de más, 100 €; de 31 a 50 de más, 300 €; y luego un escalón cada 10 km/h: 400, 500 y 600 €. En vías de 50 km/h o menos: hasta 20 de más, 100 €, y luego cada 10: 300, 400, 500 y 600 €. No hay multa de 200 €.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo IV",
+          "cita": "20 30 40 50 60 70 80 90 100 110 120 130 Multa Puntos 21 31 41 51 61 71 81 91 101 111 121 131 100 – 40 50 60 70 90 100 110 120 130 140 150 150 41 51 61 71 91 101 111 121 131 141 151 151 300 2 50 60 70 80 110 120 130 140 150 160 170 170 Grave Exceso velocidad 51 61 71 81 111 121 131 141 151 161 171 171 400 4 60 70 80 90 120 130 140 150 160 170 180 180 61 71 81 91 121 131 141 151 161 171 181 181 500 6 70 80 90 100 130 140 150 160 170 180 190 190 Muy grave 71 81 91 101 131 141 151 161 171 181 191 191 600"
+        }
+      ],
+      "huella": "56386ac8c920"
+    },
+    {
+      "id": "x1b-0124",
+      "porque": "En una vía de 30 km/h, el cuadro fija 100 euros hasta 50 km/h y 300 euros de 51 a 60 km/h. A 55 km/h estás en el segundo tramo.",
+      "descartes": {
+        "a": "100 euros es para excesos de hasta 20 km/h en esa vía, es decir, de 31 a 50 km/h.",
+        "b": "El cuadro de velocidad no tiene ninguna multa de 200 euros: pasa de 100 a 300."
+      },
+      "truco": "Cuadro de velocidad, en vías de 60 a 120 km/h: hasta 30 km/h de más, 100 €; de 31 a 50 de más, 300 €; y luego un escalón cada 10 km/h: 400, 500 y 600 €. En vías de 50 km/h o menos: hasta 20 de más, 100 €, y luego cada 10: 300, 400, 500 y 600 €. No hay multa de 200 €.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo IV",
+          "cita": "20 30 40 50 60 70 80 90 100 110 120 130 Multa Puntos 21 31 41 51 61 71 81 91 101 111 121 131 100 – 40 50 60 70 90 100 110 120 130 140 150 150 41 51 61 71 91 101 111 121 131 141 151 151 300 2 50 60 70 80 110 120 130 140 150 160 170 170 Grave Exceso velocidad 51 61 71 81 111 121 131 141 151 161 171 171 400 4 60 70 80 90 120 130 140 150 160 170 180 180 61 71 81 91 121 131 141 151 161 171 181 181 500 6 70 80 90 100 130 140 150 160 170 180 190 190 Muy grave 71 81 91 101 131 141 151 161 171 181 191 191 600"
+        }
+      ],
+      "huella": "2fc03a722c15"
+    },
+    {
+      "id": "x1b-0125",
+      "porque": "En una vía de 100 km/h, el primer tramo del cuadro va de 101 a 130 km/h y se multa con 100 euros. A 125 km/h estás en ese tramo.",
+      "descartes": {
+        "b": "El cuadro de velocidad no tiene ninguna multa de 200 euros: pasa de 100 a 300.",
+        "c": "300 euros empieza, en una vía de 100, a partir de 131 km/h."
+      },
+      "truco": "Cuadro de velocidad, en vías de 60 a 120 km/h: hasta 30 km/h de más, 100 €; de 31 a 50 de más, 300 €; y luego un escalón cada 10 km/h: 400, 500 y 600 €. En vías de 50 km/h o menos: hasta 20 de más, 100 €, y luego cada 10: 300, 400, 500 y 600 €. No hay multa de 200 €.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo IV",
+          "cita": "20 30 40 50 60 70 80 90 100 110 120 130 Multa Puntos 21 31 41 51 61 71 81 91 101 111 121 131 100 – 40 50 60 70 90 100 110 120 130 140 150 150 41 51 61 71 91 101 111 121 131 141 151 151 300 2 50 60 70 80 110 120 130 140 150 160 170 170 Grave Exceso velocidad 51 61 71 81 111 121 131 141 151 161 171 171 400 4 60 70 80 90 120 130 140 150 160 170 180 180 61 71 81 91 121 131 141 151 161 171 181 181 500 6 70 80 90 100 130 140 150 160 170 180 190 190 Muy grave 71 81 91 101 131 141 151 161 171 181 191 191 600"
+        }
+      ],
+      "huella": "88166dbaafa7"
+    },
+    {
+      "id": "x1b-0126",
+      "porque": "En una vía de 90 km/h, el último tramo del cuadro empieza en 161 km/h: es infracción muy grave, con 600 euros. A 165 km/h estás ya en ese tramo.",
+      "descartes": {
+        "b": "500 euros, infracción grave, corresponde en esa vía a circular entre 151 y 160 km/h; a 165 km/h ya es muy grave.",
+        "c": "400 euros corresponde, en una vía de 90, a circular entre 141 y 150 km/h."
+      },
+      "truco": "Cuadro de velocidad, en vías de 60 a 120 km/h: hasta 30 km/h de más, 100 €; de 31 a 50 de más, 300 €; y luego un escalón cada 10 km/h: 400, 500 y 600 €. En vías de 50 km/h o menos: hasta 20 de más, 100 €, y luego cada 10: 300, 400, 500 y 600 €. No hay multa de 200 €.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo IV",
+          "cita": "20 30 40 50 60 70 80 90 100 110 120 130 Multa Puntos 21 31 41 51 61 71 81 91 101 111 121 131 100 – 40 50 60 70 90 100 110 120 130 140 150 150 41 51 61 71 91 101 111 121 131 141 151 151 300 2 50 60 70 80 110 120 130 140 150 160 170 170 Grave Exceso velocidad 51 61 71 81 111 121 131 141 151 161 171 171 400 4 60 70 80 90 120 130 140 150 160 170 180 180 61 71 81 91 121 131 141 151 161 171 181 181 500 6 70 80 90 100 130 140 150 160 170 180 190 190 Muy grave 71 81 91 101 131 141 151 161 171 181 191 191 600"
+        }
+      ],
+      "huella": "988e2739d225"
+    },
+    {
+      "id": "x1b-0127",
+      "porque": "En una vía de 60 km/h, el cuadro fija 100 euros hasta 90 km/h y 300 euros de 91 a 110 km/h. A 95 km/h estás en el segundo tramo.",
+      "descartes": {
+        "a": "100 euros es para excesos de hasta 30 km/h en esa vía, es decir, de 61 a 90 km/h.",
+        "c": "400 euros corresponde, en una vía de 60, a circular entre 111 y 120 km/h."
+      },
+      "truco": "Cuadro de velocidad, en vías de 60 a 120 km/h: hasta 30 km/h de más, 100 €; de 31 a 50 de más, 300 €; y luego un escalón cada 10 km/h: 400, 500 y 600 €. En vías de 50 km/h o menos: hasta 20 de más, 100 €, y luego cada 10: 300, 400, 500 y 600 €. No hay multa de 200 €.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo IV",
+          "cita": "20 30 40 50 60 70 80 90 100 110 120 130 Multa Puntos 21 31 41 51 61 71 81 91 101 111 121 131 100 – 40 50 60 70 90 100 110 120 130 140 150 150 41 51 61 71 91 101 111 121 131 141 151 151 300 2 50 60 70 80 110 120 130 140 150 160 170 170 Grave Exceso velocidad 51 61 71 81 111 121 131 141 151 161 171 171 400 4 60 70 80 90 120 130 140 150 160 170 180 180 61 71 81 91 121 131 141 151 161 171 181 181 500 6 70 80 90 100 130 140 150 160 170 180 190 190 Muy grave 71 81 91 101 131 141 151 161 171 181 191 191 600"
+        }
+      ],
+      "huella": "ae5194891502"
+    },
+    {
+      "id": "x1b-0128",
+      "porque": "En los tramos de autovías y autopistas interurbanas de acceso a las ciudades con límites inferiores a 100 km/h, el exceso se multa según el cuadro, pero los demás efectos administrativos y penales solo se producen al superar los 100 km/h, como si ese fuera el límite. A 98 km/h no se llega a ese umbral.",
+      "descartes": {
+        "a": "No son los mismos efectos: en esos tramos de acceso a las ciudades, la Ley solo los aplica cuando se superan los 100 km/h.",
+        "b": "Sí se sancionan: la multa del cuadro se impone igualmente; lo que se reserva para cuando se superan los 100 km/h son los demás efectos."
+      },
+      "truco": "Acceso a una ciudad por autovía o autopista con límite por debajo de 100: la multa va por el límite señalizado; lo demás, como si el límite fuera 100.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo IV",
+          "cita": "los excesos de velocidad se sancionarán con la multa económica correspondiente al cuadro de sanciones del Anexo IV"
+        }
+      ],
+      "huella": "7a1da6a59560"
+    },
+    {
+      "id": "C-luc-0018",
+      "porque": "Las advertencias con el brazo, si se ven bien y se hacen de forma correcta, anulan cualquier otra indicación óptica que las contradiga. Si el brazo y el intermitente dicen cosas distintas, manda el brazo.",
+      "descartes": {
+        "a": "Es al revés: la norma da prioridad al brazo, si es perceptible y correcto, y anula la indicación óptica que lo contradiga.",
+        "b": "No se anulan las dos: queda la del brazo, que prevalece sobre la indicación óptica contraria."
+      },
+      "truco": "Si brazo e intermitente se contradicen, manda el brazo, siempre que el gesto se vea y sea el correcto.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "108.2",
+          "cita": "La validez de las realizadas con el brazo quedará subordinada a que sean perceptibles por los demás usuarios de la vía y se efectúen de conformidad con lo dispuesto en el artículo siguiente"
+        }
+      ],
+      "huella": "9b5d5ce12d91"
+    },
+    {
+      "id": "C-luc-0012",
+      "porque": "En un carril reversible la circulación puede ir en un sentido o en otro, y la norma obliga a llevar encendida la luz de cruce también de día, igual que en el carril adicional circunstancial y en el habilitado en sentido contrario.",
+      "descartes": {
+        "a": "La obligación es también de día: en un carril reversible hay que llevar la luz de cruce a cualquier hora.",
+        "b": "La antiniebla trasera es para condiciones especialmente desfavorables, como niebla espesa; no es la luz que se exige en un carril reversible."
+      },
+      "truco": "De día con luz de cruce: las motocicletas, en cualquier vía, y cualquier vehículo en un carril reversible, en un carril adicional circunstancial o en uno habilitado en sentido contrario.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones meteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "104.a",
+          "cita": "Las motocicletas que circulen por cualquier vía objeto de la legislación sobre tráfico"
+        }
+      ],
+      "huella": "fd18553bb612"
+    },
+    {
+      "id": "C-luc-0013",
+      "porque": "La norma obliga a las motocicletas a llevar encendida la luz de cruce también durante el día, en cualquier vía.",
+      "descartes": {
+        "b": "No es solo en autopistas y autovías: la obligación es para cualquier vía.",
+        "c": "La norma no la limita a la noche y los túneles: a las motocicletas les exige la luz de cruce también de día."
+      },
+      "truco": "De día con luz de cruce: las motocicletas, en cualquier vía, y cualquier vehículo en un carril reversible, en un carril adicional circunstancial o en uno habilitado en sentido contrario.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "104.b",
+          "cita": "Todos los vehículos que circulen por un carril reversible, por un carril adicional circunstancial o por un carril habilitado para circular en sentido contrario"
+        }
+      ],
+      "huella": "deb49f1e42c8"
+    },
+    {
+      "id": "C-luc-0001",
+      "porque": "La luz de gálibo está pensada para indicar la anchura total del vehículo. Por eso, cuando hay que llevar el alumbrado, los vehículos de más de 2,10 metros de anchura deben encender, además de las de posición, las de gálibo.",
+      "descartes": {
+        "b": "El criterio no es la longitud sino la anchura: más de 2,10 metros.",
+        "c": "El criterio no es la masa: lo que obliga a encender el gálibo es una anchura superior a 2,10 metros."
+      },
+      "truco": "Gálibo va con anchura: más de 2,10 metros de ancho, gálibo encendido junto a las de posición.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.48",
+          "cita": "destinada claramente a indicar la anchura total del vehículo"
+        }
+      ],
+      "huella": "81c3295b75e8"
+    },
+    {
+      "id": "C-luc-0008",
+      "porque": "De noche, en una travesía insuficientemente iluminada, un vehículo parado o estacionado debe tener encendidas las luces de posición. La norma permite cambiarlas por las de estacionamiento o, si está estacionado en línea, por las dos de posición del lado de la calzada.",
+      "descartes": {
+        "a": "La luz de cruce es para circular; para un vehículo estacionado la norma pide las de posición, que puedes sustituir por las de estacionamiento.",
+        "c": "La dispensa de luces es para vías urbanas que no sean travesías y estén bien iluminadas; en una travesía insuficientemente iluminada hay que dejarlas encendidas."
+      },
+      "truco": "De noche, vehículo inmovilizado, parado o estacionado en calzada o arcén: luces de posición (y gálibo si lo lleva). Solo te las ahorras estacionado en una vía urbana que no sea travesía, si la iluminación permite que te vean a distancia suficiente.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "105.3",
+          "cita": "En vías urbanas que no sean travesías no será obligatorio que los vehículos estacionados tengan encendidas las luces de posición cuando la iluminación permita a otros usuarios distinguirlos a una distancia suficiente"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "105.1",
+          "cita": "se encuentre inmovilizado entre la puesta y la salida del sol o bajo las condiciones a que se refiere el artículo 106, en calzada o arcén de una vía, deberá tener encendidas las luces de posición y, en su caso, las de gálibo"
+        }
+      ],
+      "huella": "211a1cbcd914"
+    },
+    {
+      "id": "C-luc-0009",
+      "porque": "La regla general es que un vehículo estacionado de noche en calzada o arcén tenga encendidas las luces de posición. La excepción son las vías urbanas que no sean travesías: si la iluminación permite a los demás distinguir tu vehículo a distancia suficiente, no es obligatorio.",
+      "descartes": {
+        "a": "No es «siempre»: en vías urbanas que no sean travesías y con iluminación suficiente, la norma no lo exige.",
+        "b": "La norma no exige aquí ninguna luz: ni las de posición ni, menos aún, la de emergencia."
+      },
+      "truco": "De noche, vehículo inmovilizado, parado o estacionado en calzada o arcén: luces de posición (y gálibo si lo lleva). Solo te las ahorras estacionado en una vía urbana que no sea travesía, si la iluminación permite que te vean a distancia suficiente.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "105.1",
+          "cita": "se encuentre inmovilizado entre la puesta y la salida del sol o bajo las condiciones a que se refiere el artículo 106, en calzada o arcén de una vía, deberá tener encendidas las luces de posición y, en su caso, las de gálibo"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "105.2",
+          "cita": "Todo vehículo parado o estacionado entre la puesta y la salida del sol en calzada o arcén de una travesía insuficientemente iluminada deberá tener encendidas las luces de posición"
+        }
+      ],
+      "huella": "68c2753b5243"
+    },
+    {
+      "id": "C-luc-0010",
+      "porque": "Un vehículo inmovilizado de noche en la calzada o el arcén tiene que hacerse ver: la norma exige como mínimo las luces de posición y, si el vehículo las lleva, las de gálibo. Además, en autopista o autovía o con poca visibilidad hay que señalizarlo con la luz de emergencia.",
+      "descartes": {
+        "b": "La luz de emergencia no sustituye a las de posición: la norma exige las de posición y, en su caso, las de gálibo.",
+        "c": "La luz de cruce es para circular; inmovilizado, el mínimo son las de posición y, en su caso, las de gálibo."
+      },
+      "truco": "De noche, vehículo inmovilizado, parado o estacionado en calzada o arcén: luces de posición (y gálibo si lo lleva). Solo te las ahorras estacionado en una vía urbana que no sea travesía, si la iluminación permite que te vean a distancia suficiente.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.2.c",
+          "cita": "Cuando la inmovilización tenga lugar en una autopista o autovía, o en lugares o circunstancias que disminuyan sensiblemente la visibilidad, se deberá señalizar la presencia del vehículo mediante la utilización de la luz de emergencia"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "105.3",
+          "cita": "En vías urbanas que no sean travesías no será obligatorio que los vehículos estacionados tengan encendidas las luces de posición cuando la iluminación permita a otros usuarios distinguirlos a una distancia suficiente"
+        }
+      ],
+      "huella": "5ba0748f0028"
+    },
+    {
+      "id": "C-luc-0004",
+      "porque": "La luz de largo alcance sirve para ver lejos mientras circulas. Con el vehículo parado o estacionado no tiene ese uso y podría deslumbrar, así que la norma la prohíbe siempre en esa situación.",
+      "descartes": {
+        "b": "Que la vía esté mal iluminada no cambia nada: la prohibición rige siempre que el vehículo esté parado o estacionado.",
+        "c": "Tampoco fuera de poblado: con el vehículo parado o estacionado está prohibida en cualquier vía."
+      },
+      "truco": null,
+      "huella": "6d99a350acd4"
+    },
+    {
+      "id": "C-luc-0011",
+      "porque": "Cuando hay que llevar el alumbrado, la placa de matrícula que debe ir iluminada es la posterior, la que leen quienes van detrás.",
+      "descartes": {
+        "a": "La norma solo exige iluminar la placa posterior.",
+        "c": "Que las placas sean reflectantes no exime: la norma obliga a llevar siempre iluminada la posterior."
+      },
+      "truco": null,
+      "huella": "42d199d25557"
+    }
+  ]
+}

@@ -1,0 +1,2860 @@
+{
+  "version": 1,
+  "lote": "08",
+  "lecciones": [
+    {
+      "id": "xd-0034",
+      "porque": "La regla en túneles y pasos inferiores de doble sentido es que no se adelanta. La excepción es justo este caso: si hay más de un carril para tu sentido, puedes adelantar, pero siempre dentro de tus carriles, sin invadir el sentido contrario.",
+      "descartes": {
+        "a": "Ese «nunca» olvida la excepción: cuando el túnel tiene más de un carril para tu sentido, sí se puede adelantar.",
+        "b": "Aunque se permita adelantar, la norma exige hacerlo sin invadir el sentido contrario, esté libre o no."
+      },
+      "truco": "En el túnel, ni parar, ni estacionar, ni dar la vuelta, ni marcha atrás. Adelantar, solo si tienes más de un carril para tu sentido, y sin invadir el sentido contrario.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "especialmente las referidas a la prohibición de parar, estacionar, cambiar el sentido de la marcha, marchar hacia atrás y adelantar."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "87.1.d",
+          "cita": "En los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5) en los que sólo se disponga de un carril para el sentido de circulación del vehículo que pretende adelantar."
+        }
+      ],
+      "huella": "e316dfa680d0"
+    },
+    {
+      "id": "xd-0038",
+      "porque": "Detenerse dentro de un túnel es peligroso, así que, si la avería todavía te deja circular, la norma manda seguir hasta la salida. Solo si no puedes llegar a ella, te diriges a una zona reservada para emergencia.",
+      "descartes": {
+        "b": "Parar junto al borde derecho es lo previsto cuando el vehículo queda inmovilizado y no hay zona de emergencia. Si la avería permite circular, hay que seguir hasta la salida.",
+        "c": "En los túneles está prohibido cambiar el sentido de la marcha; lo que manda la norma es continuar hacia la salida."
+      },
+      "truco": "Mientras el coche ande, no te pares en el túnel: primero, la salida; si no llegas, la zona de emergencia.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "97.3.b",
+          "cita": "Si es posible, dirigir el vehículo hacia la zona reservada para emergencia más próxima en el sentido de su marcha. De no existir, inmovilizará el vehículo lo más cerca posible al borde derecho de la calzada."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "especialmente las referidas a la prohibición de parar, estacionar, cambiar el sentido de la marcha, marchar hacia atrás y adelantar."
+        }
+      ],
+      "huella": "4ce0f286b38c"
+    },
+    {
+      "id": "xd-0037",
+      "porque": "Si quedas inmovilizado por una emergencia en un túnel, la norma fija el poste SOS más próximo, si existe, como el medio para pedir auxilio sin demora, y te obliga a seguir las instrucciones que te lleguen a través de él.",
+      "descartes": {
+        "a": "Ponerse en el centro de la calzada es lo contrario de lo que pide la norma: los ocupantes deben ir rápido al refugio o a la salida más próximos, sin transitar por la calzada si hay zonas excluidas a la circulación.",
+        "b": "Hay que pedir auxilio sin demora, no esperar a que pase alguien. Además, en una emergencia los ocupantes deben salir del vehículo e ir al refugio o a la salida más próximos."
+      },
+      "truco": "Emergencia dentro del túnel, por orden: motor apagado y emergencia puesta, preseñalizar el peligro, avisar por el poste SOS y salir a pie hacia el refugio o la salida más próximos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "97.3.e",
+          "cita": "Tanto el conductor como los demás ocupantes abandonarán el vehículo, dirigiéndose rápidamente al refugio o salida más próximos, sin que en ningún caso se transite por la calzada si existen zonas excluidas a la circulación de vehículos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "97.3.a",
+          "cita": "a) Apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "97.3.c",
+          "cita": "c) Colocar y activar el dispositivo luminoso de preseñalización de peligro."
+        }
+      ],
+      "huella": "532a57408757"
+    },
+    {
+      "id": "xd-0035",
+      "porque": "Dentro de un túnel hay que obedecer en todo momento los semáforos y los paneles de mensaje variable, y seguir las instrucciones que lleguen por megafonía o por cualquier otro medio. La megafonía es un canal más para darte indicaciones, igual de obligatorio.",
+      "descartes": {
+        "a": "La norma no exige que las instrucciones las dé un agente en persona: valen las que lleguen por megafonía o por cualquier otro medio.",
+        "c": "Detenerse para escucharlas no está justificado: en los túneles está prohibido parar, y las instrucciones se siguen sin necesidad de pararse."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "especialmente las referidas a la prohibición de parar, estacionar, cambiar el sentido de la marcha, marchar hacia atrás y adelantar."
+        }
+      ],
+      "huella": "1e59a660a39a"
+    },
+    {
+      "id": "xd-0033",
+      "porque": "En túneles y pasos inferiores la norma prohíbe expresamente parar, estacionar, cambiar el sentido de la marcha y marchar hacia atrás, y limita el adelantamiento. Dar la vuelta dentro del túnel es, por tanto, una maniobra prohibida.",
+      "descartes": {
+        "b": "Las luces no están prohibidas en el túnel: hay que llevar el alumbrado encendido a cualquier hora, y si el túnel está suficientemente iluminado, la luz de corto alcance es justo la que toca.",
+        "c": "Guardar 100 metros no está prohibido: es la distancia mínima que exige la norma en los túneles (o cuatro segundos), y de 150 metros o seis segundos si el vehículo pasa de 3.500 kg de MMA."
+      },
+      "truco": "En el túnel, ni parar, ni estacionar, ni dar la vuelta, ni marcha atrás. Adelantar, solo si tienes más de un carril para tu sentido, y sin invadir el sentido contrario.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "87.1.d",
+          "cita": "En los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5) en los que sólo se disponga de un carril para el sentido de circulación del vehículo que pretende adelantar."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "101.1",
+          "cita": "a cualquier hora del día por túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel» (S-5) suficientemente iluminados, llevará encendido, además del alumbrado de posición, el alumbrado de corto alcance o de cruce."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "Cuando no se pretenda adelantar, deberá mantenerse en todo momento una distancia de seguridad con el vehículo precedente de, al menos, 100 metros o un intervalo mínimo de cuatro segundos. En el caso de vehículos cuya masa máxima autorizada sea superior a 3.500 kilogramos, la distancia de seguridad que deberá guardar con el vehículo precedente será de, al menos, 150 metros o un intervalo mínimo de seguridad de seis segundos."
+        }
+      ],
+      "huella": "6b6a2ce4cd37"
+    },
+    {
+      "id": "xd-0036",
+      "porque": "Si el semáforo de la boca del túnel no te permite el paso, no entras, aunque desde fuera no veas a nadie: puede estar cerrado por algo que no se ve. La norma solo exceptúa a los equipos de los servicios de urgencia, de asistencia mecánica y de conservación de carreteras.",
+      "descartes": {
+        "a": "Comprobar por tu cuenta que el túnel parece vacío no te autoriza a entrar: la única excepción es para los equipos de urgencia, asistencia mecánica y conservación de carreteras.",
+        "b": "Las luces no sustituyen el permiso del semáforo: con el semáforo cerrado no se entra, lleves el alumbrado que lleves."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "96.3",
+          "cita": "con excepción de los equipos de los servicios de urgencia, asistencia mecánica y conservación de carreteras."
+        }
+      ],
+      "huella": "47d47f6fa155"
+    },
+    {
+      "id": "xd-0032",
+      "porque": "Es la señal S-5, «Túnel»: indica el principio de un túnel, de un paso inferior o de un tramo equiparado a túnel, y puede llevar su nombre y, debajo, su longitud. Desde ella rigen las normas de los túneles, como llevar el alumbrado encendido a cualquier hora del día.",
+      "descartes": {
+        "a": "Esta señal no advierte de ningún peligro: es la S-5, que indica el principio de un túnel o de un tramo equiparado a túnel.",
+        "c": "Marca el principio del túnel, no su final. Precisamente a partir de ella empieza la obligación de llevar el alumbrado encendido."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "98.1",
+          "cita": "Todos los vehículos que circulen entre el ocaso y la salida del sol o a cualquier hora del día en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5) deben llevar encendido el alumbrado que corresponda"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-5",
+          "cita": "Podrá llevar en su parte inferior la indicación de la longitud del túnel en metros,"
+        }
+      ],
+      "huella": "60617828ccd7"
+    },
+    {
+      "id": "res-via-0003",
+      "porque": "En autopistas y autovías está prohibida la circulación de animales, y la prohibición no depende de ir por el arcén ni de la hora. Alcanza también a los vehículos de tracción animal.",
+      "descartes": {
+        "a": "Que no entorpezcas no cambia nada: la prohibición es para toda la autopista o autovía, arcén incluido. El arcén de la autovía solo se abre a ciclistas mayores de 14 años, no a animales.",
+        "b": "La norma no distingue entre el día y la noche: los animales no pueden circular por autopistas ni autovías a ninguna hora."
+      },
+      "truco": "Autopista y autovía están cerradas a animales, vehículos de tracción animal, bicicletas, ciclomotores, VMP y vehículos para personas de movilidad reducida; los peatones, solo en los casos previstos. La única rendija: bicis de mayores de 14 años por el arcén de la autovía, si no lo prohíbe una señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "38.1",
+          "cita": "Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.1",
+          "cita": "los conductores de bicicletas mayores de 14 años podrán circular por los arcenes de las autovías, salvo que por razones justificadas de seguridad vial se prohíba mediante la señalización correspondiente."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.4",
+          "cita": "4. Se prohíbe circular con vehículos de movilidad personal: a) Por autopistas y autovías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "128",
+          "cita": "Se prohíbe la circulación de animales por autopistas o autovías"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "125.1",
+          "cita": "Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130"
+        }
+      ],
+      "huella": "172e640dddd6"
+    },
+    {
+      "id": "xc-0122",
+      "porque": "En otras carreteras, en un descenso prolongado con curvas, el ciclista puede dejar el arcén y usar la parte derecha de la calzada que necesite, si la seguridad lo permite. Pero la propia norma excluye las autovías: en ellas va en todo caso por el arcén.",
+      "descartes": {
+        "a": "Esa posibilidad existe en otras carreteras, pero la norma la excluye expresamente en las autovías, aunque la seguridad lo permita.",
+        "b": "Ni siquiera fuera de las autovías permite la norma ir al carril izquierdo: quien deja el arcén va por la parte derecha de la calzada que necesite."
+      },
+      "truco": "Bici en bajada larga con curvas: puede salir del arcén a la parte derecha de la calzada, salvo en la autovía, donde va siempre por el arcén.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "En los descensos prolongados con curvas, cuando razones de seguridad lo permitan, y salvo en las autovías en las que en todo caso circularán por el arcén, los conductores de bicicletas podrán abandonar el arcén y circular por la parte derecha de la calzada que necesiten."
+        }
+      ],
+      "huella": "c7369316f237"
+    },
+    {
+      "id": "via-0003",
+      "porque": "Autopista y autovía tienen calzadas separadas para cada sentido y ningún cruce a nivel; lo que las distingue es el acceso de las propiedades colindantes. En la autopista no tienen ningún acceso, y en la autovía lo tienen limitado.",
+      "descartes": {
+        "a": "Ninguna de las dos da acceso libre a las fincas de al lado: la autopista no lo permite y la autovía lo limita.",
+        "b": "Está al revés: es la autopista la que no tiene accesos y la autovía la que los tiene limitados."
+      },
+      "truco": "Autopista: cero accesos desde las fincas de al lado. Autovía: accesos limitados. Las dos tienen calzadas separadas para cada sentido y ningún cruce a nivel. Vía para automóviles: una sola calzada.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.67",
+          "cita": "a) Tener acceso limitado a ella las propiedades colindantes. b) No cruzar a nivel ninguna otra senda, vía, línea de ferrocarril o tranvía, ni ser cruzada a nivel por senda, vía de comunicación o servidumbre de paso alguna. c) Constar de distintas calzadas para cada sentido de circulación, separadas entre sí"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.66",
+          "cita": "a) No tener acceso a la misma las propiedades colindantes."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.68",
+          "cita": "Vía reservada exclusivamente a la circulación de automóviles, con una sola calzada"
+        }
+      ],
+      "huella": "fa3bea2a8293"
+    },
+    {
+      "id": "via-0005",
+      "porque": "La regla general prohíbe las bicicletas en autopistas y autovías, pero hay una excepción: en las autovías, quien tenga más de 14 años puede ir por los arcenes, salvo que una señal lo prohíba por seguridad vial.",
+      "descartes": {
+        "a": "Ese «nunca» olvida la excepción: los ciclistas mayores de 14 años pueden ir por los arcenes de las autovías si no lo prohíbe la señalización.",
+        "c": "Las bicicletas no pueden ir por los carriles de la autovía, solo por el arcén, y la edad que fija la norma es más de 14 años, no 16."
+      },
+      "truco": "Autopista y autovía están cerradas a animales, vehículos de tracción animal, bicicletas, ciclomotores, VMP y vehículos para personas de movilidad reducida; los peatones, solo en los casos previstos. La única rendija: bicis de mayores de 14 años por el arcén de la autovía, si no lo prohíbe una señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "38.1",
+          "cita": "Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.1",
+          "cita": "los conductores de bicicletas mayores de 14 años podrán circular por los arcenes de las autovías, salvo que por razones justificadas de seguridad vial se prohíba mediante la señalización correspondiente."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.4",
+          "cita": "4. Se prohíbe circular con vehículos de movilidad personal: a) Por autopistas y autovías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "128",
+          "cita": "Se prohíbe la circulación de animales por autopistas o autovías"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "125.1",
+          "cita": "Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130"
+        }
+      ],
+      "huella": "06416a351246"
+    },
+    {
+      "id": "via-0006",
+      "porque": "Los ciclomotores están en la lista de vehículos que no pueden circular por autopistas ni autovías, junto con los de tracción animal, las bicicletas y los vehículos para personas de movilidad reducida. Para ellos no hay ninguna excepción por el arcén.",
+      "descartes": {
+        "a": "La excepción del arcén es solo para bicicletas de mayores de 14 años, y solo en autovías; no vale para ciclomotores.",
+        "b": "La prohibición se fija por tipo de vehículo, sin ninguna condición de velocidad: el ciclomotor no puede circular por autopistas ni autovías."
+      },
+      "truco": "Autopista y autovía están cerradas a animales, vehículos de tracción animal, bicicletas, ciclomotores, VMP y vehículos para personas de movilidad reducida; los peatones, solo en los casos previstos. La única rendija: bicis de mayores de 14 años por el arcén de la autovía, si no lo prohíbe una señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "38.1",
+          "cita": "Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.1",
+          "cita": "los conductores de bicicletas mayores de 14 años podrán circular por los arcenes de las autovías, salvo que por razones justificadas de seguridad vial se prohíba mediante la señalización correspondiente."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.4",
+          "cita": "4. Se prohíbe circular con vehículos de movilidad personal: a) Por autopistas y autovías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "128",
+          "cita": "Se prohíbe la circulación de animales por autopistas o autovías"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "125.1",
+          "cita": "Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130"
+        }
+      ],
+      "huella": "d2ae03d4b4c1"
+    },
+    {
+      "id": "xc-0123",
+      "porque": "Ir a velocidad anormalmente reducida por una autopista o autovía es un peligro para quien llega detrás. Por eso, si una emergencia te obliga a ello, la norma manda abandonarla por la primera salida, no seguir el viaje.",
+      "descartes": {
+        "a": "El arcén puede usarse mientras se circula así, pero no para llegar al destino: la obligación es abandonar la autopista por la primera salida.",
+        "c": "Las luces de emergencia no te eximen de nada: con velocidad anormalmente reducida tienes que abandonar la autopista por la primera salida, no seguir por el carril izquierdo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "Deberán también circular por el arcén de su derecha, si fuera transitable y suficiente, y, si no lo fuera, por la parte imprescindible de la calzada, los conductores de aquellos vehículos cuya masa máxima autorizada no exceda de 3.500 kilogramos que, por razones de emergencia, lo hagan a velocidad anormalmente reducida"
+        }
+      ],
+      "huella": "327e97950204"
+    },
+    {
+      "id": "via-0004",
+      "porque": "La carretera convencional se define por exclusión: es toda carretera que no reúne las características propias de las autopistas, las autovías y las vías para automóviles. La definición no depende del número de carriles ni del arcén.",
+      "descartes": {
+        "b": "La definición no habla de carriles: una carretera es convencional por no reunir las características de autopista, autovía o vía para automóviles.",
+        "c": "La definición tampoco habla del arcén; lo único que cuenta es no ser autopista, autovía ni vía para automóviles."
+      },
+      "truco": "Convencional es «la que no es especial»: si no es autopista, autovía ni vía para automóviles, es convencional.",
+      "huella": "d4ea8e5f370b"
+    },
+    {
+      "id": "xc-0119",
+      "porque": "Para el Reglamento, un VAO es un automóvil destinado exclusivamente al transporte de personas, con MMA de no más de 3.500 kg, ocupado por el número de personas que se fije para cada tramo. Ese número no es fijo en la norma: lo determina la autoridad para cada tramo.",
+      "descartes": {
+        "a": "Un camión no está destinado exclusivamente al transporte de personas y, si pasa de 3.500 kg, supera la MMA máxima. Además, el número de ocupantes no es «tres» por norma: se fija para cada tramo.",
+        "c": "La definición no se limita al autobús lleno: abarca automóviles de personas de hasta 3.500 kg con la ocupación fijada. Los autobuses de más de 3.500 kg y los articulados pueden usar el carril por una regla aparte, sin importar los ocupantes."
+      },
+      "truco": "Carril VAO: solo motos, turismos y mixtos adaptables, con los ocupantes que se fijen para el tramo. Con solo el conductor pueden usarlo los que llevan la V-15 o la tarjeta de estacionamiento para personas con discapacidad, y los autobuses de más de 3.500 kg y los articulados.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2",
+          "cita": "Se entenderá por vehículos con alta ocupación aquellos automóviles destinados exclusivamente al transporte de personas, cuya masa máxima autorizada no exceda de 3.500 kilogramos, que estén ocupados por el número de personas que para cada tramo de la red viaria se fije"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "La utilización del carril habilitado para VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        }
+      ],
+      "huella": "f0a711551d39"
+    },
+    {
+      "id": "xc-0120",
+      "porque": "La norma permite usar los carriles reservados a los vehículos de policía, extinción de incendios, protección civil y salvamento, asistencia sanitaria en servicio de urgencia y a los equipos de mantenimiento de la vía. Una ambulancia en servicio de urgencia está en esa lista, sin requisito de ocupantes.",
+      "descartes": {
+        "a": "Ese «nunca» es falso: la asistencia sanitaria en servicio de urgencia figura entre los vehículos que pueden usar los carriles reservados.",
+        "b": "A estos vehículos no se les exige ningún número de ocupantes: pueden usar el carril reservado por el servicio que prestan."
+      },
+      "truco": null,
+      "huella": "15523fbd9967"
+    },
+    {
+      "id": "xc-0121",
+      "porque": "El carril VAO solo lo pueden usar motocicletas, turismos y vehículos mixtos adaptables (además de ciertos autobuses). La norma lo prohíbe al resto, y nombra expresamente a peatones, ciclos, ciclomotores, VMP, vehículos de tracción animal y animales.",
+      "descartes": {
+        "b": "Llevar pasajero no cambia el tipo de vehículo: el ciclomotor tiene prohibido el carril VAO lleve a quien lleve.",
+        "c": "El tamaño no cuenta: la norma enumera qué vehículos pueden usarlo y prohíbe expresamente los ciclomotores."
+      },
+      "truco": "Carril VAO: solo motos, turismos y mixtos adaptables, con los ocupantes que se fijen para el tramo. Con solo el conductor pueden usarlo los que llevan la V-15 o la tarjeta de estacionamiento para personas con discapacidad, y los autobuses de más de 3.500 kg y los articulados.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "La utilización del carril habilitado para VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "35.2.a",
+          "cita": "aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
+        }
+      ],
+      "huella": "82dc48eeb508"
+    },
+    {
+      "id": "xc-0124",
+      "porque": "En una calzada de doble sentido, un carril delimitado por ambos lados con marcas dobles discontinuas es reversible: su sentido puede cambiar y se regula con semáforos de carril u otros medios. Quien circule por él debe llevar al menos la luz de corto alcance, de día y de noche.",
+      "descartes": {
+        "a": "Las líneas continuas sencillas no son las que identifican un carril reversible: la norma reserva ese papel a las marcas dobles discontinuas a ambos lados.",
+        "b": "El zigzag amarillo no es la marca del carril reversible: la norma lo identifica por las marcas dobles discontinuas a ambos lados."
+      },
+      "truco": "Doble discontinua a los dos lados: carril que «va y viene». Y en él, luz de cruce de día y de noche.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "40.1",
+          "cita": "Los conductores que circulen por dicho carril deberán llevar encendida, al menos, la luz de corto alcance o de cruce en sus vehículos tanto de día como de noche"
+        }
+      ],
+      "huella": "680f9cd8c570"
+    },
+    {
+      "id": "xc-0125",
+      "porque": "El carril adicional circunstancial se crea con elementos provisionales que desplazan la circulación hacia los arcenes: usando los dos arcenes, se consigue tener dos carriles en un sentido y uno en el otro.",
+      "descartes": {
+        "b": "Se habilita un carril adicional en uno solo de los sentidos: el resultado es dos carriles en un sentido y uno en el otro, no tres en cada uno.",
+        "c": "Lo que se gana es un carril más en uno de los sentidos, no un arcén para adelantar; de hecho, para lograrlo se ocupan los dos arcenes."
+      },
+      "truco": "Carril adicional circunstancial: un «2 + 1» a costa de los dos arcenes. Quien va por los arcenes o por el carril adicional circula entre 60 y 80 km/h (salvo límites inferiores establecidos o señalizados) y con luz de cruce de día y de noche.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "42.1",
+          "cita": "Los vehículos que circulen por los arcenes y por dicho carril adicional lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60, o inferiores si así estuviera establecido o específicamente señalizado, deberán utilizar al menos el alumbrado de corto alcance o de cruce tanto de día como de noche"
+        }
+      ],
+      "huella": "f96c5f7845c7"
+    },
+    {
+      "id": "xc-0104",
+      "porque": "Para la Ley, carretera es la vía pública pavimentada situada fuera de poblado. Cuando atraviesa un poblado, ese tramo es una travesía, y la definición lo deja fuera expresamente.",
+      "descartes": {
+        "a": "La carretera está, por definición, fuera de poblado. La vía pública dentro de poblado es vía urbana, salvo las travesías.",
+        "b": "La carretera es una vía pavimentada; un camino sin pavimentar que une fincas no encaja en la definición."
+      },
+      "truco": "Carretera = pavimentada + fuera de poblado. El trozo que cruza el pueblo se llama travesía.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.73",
+          "cita": "Vía urbana. Vía pública situada dentro de poblado, excepto las travesías."
+        }
+      ],
+      "huella": "c7ecb50442e6"
+    },
+    {
+      "id": "xc-0105",
+      "porque": "Una de las características de la autopista es que no cruza a nivel ninguna otra senda, vía, línea de ferrocarril o tranvía, ni es cruzada a nivel por ninguna. Cualquier cruce tiene que hacerse a distinto nivel.",
+      "descartes": {
+        "b": "Ni con barreras ni con semáforos: la autopista no admite ningún cruce a nivel con el ferrocarril.",
+        "c": "La definición nombra expresamente tanto las líneas de ferrocarril como las de tranvía: no puede cruzar a nivel ninguna de las dos."
+      },
+      "truco": "Autopista: cero accesos desde las fincas de al lado. Autovía: accesos limitados. Las dos tienen calzadas separadas para cada sentido y ningún cruce a nivel. Vía para automóviles: una sola calzada.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.67",
+          "cita": "a) Tener acceso limitado a ella las propiedades colindantes. b) No cruzar a nivel ninguna otra senda, vía, línea de ferrocarril o tranvía, ni ser cruzada a nivel por senda, vía de comunicación o servidumbre de paso alguna. c) Constar de distintas calzadas para cada sentido de circulación, separadas entre sí"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.66",
+          "cita": "a) No tener acceso a la misma las propiedades colindantes."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.68",
+          "cita": "Vía reservada exclusivamente a la circulación de automóviles, con una sola calzada"
+        }
+      ],
+      "huella": "4cb180266ab4"
+    },
+    {
+      "id": "xc-0106",
+      "porque": "Autopista y autovía comparten dos rasgos: tienen calzadas distintas para cada sentido, separadas entre sí, y no tienen cruces a nivel. Se diferencian en el acceso de las propiedades colindantes.",
+      "descartes": {
+        "a": "Eso solo vale para la autopista; en la autovía las propiedades colindantes tienen acceso limitado.",
+        "c": "El peaje no forma parte de la definición legal de ninguna de las dos."
+      },
+      "truco": "Autopista: cero accesos desde las fincas de al lado. Autovía: accesos limitados. Las dos tienen calzadas separadas para cada sentido y ningún cruce a nivel. Vía para automóviles: una sola calzada.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.67",
+          "cita": "a) Tener acceso limitado a ella las propiedades colindantes. b) No cruzar a nivel ninguna otra senda, vía, línea de ferrocarril o tranvía, ni ser cruzada a nivel por senda, vía de comunicación o servidumbre de paso alguna. c) Constar de distintas calzadas para cada sentido de circulación, separadas entre sí"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.66",
+          "cita": "a) No tener acceso a la misma las propiedades colindantes."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.68",
+          "cita": "Vía reservada exclusivamente a la circulación de automóviles, con una sola calzada"
+        }
+      ],
+      "huella": "9716247610fc"
+    },
+    {
+      "id": "xc-0107",
+      "porque": "La vía para automóviles está reservada exclusivamente a automóviles y tiene limitación total de accesos a las propiedades colindantes, pero, a diferencia de la autopista y la autovía, tiene una sola calzada.",
+      "descartes": {
+        "a": "Las calzadas distintas para cada sentido, separadas entre sí, son propias de la autopista y la autovía, no de la vía para automóviles.",
+        "b": "Ninguna definición legal exige tres calzadas; la vía para automóviles tiene una sola."
+      },
+      "truco": "Autopista: cero accesos desde las fincas de al lado. Autovía: accesos limitados. Las dos tienen calzadas separadas para cada sentido y ningún cruce a nivel. Vía para automóviles: una sola calzada.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.67",
+          "cita": "a) Tener acceso limitado a ella las propiedades colindantes. b) No cruzar a nivel ninguna otra senda, vía, línea de ferrocarril o tranvía, ni ser cruzada a nivel por senda, vía de comunicación o servidumbre de paso alguna. c) Constar de distintas calzadas para cada sentido de circulación, separadas entre sí"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.66",
+          "cita": "a) No tener acceso a la misma las propiedades colindantes."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.68",
+          "cita": "Vía reservada exclusivamente a la circulación de automóviles, con una sola calzada"
+        }
+      ],
+      "huella": "d3afc5db967f"
+    },
+    {
+      "id": "xc-0108",
+      "porque": "Para la Ley, un poblado necesita dos cosas: un espacio con edificios y, en sus vías de entrada y de salida, las señales de entrada a poblado y de salida de poblado. La definición no cuenta edificios ni mira el alumbrado.",
+      "descartes": {
+        "b": "La Ley no fija ningún número de edificios y sí exige las señales de entrada y salida de poblado; sin ellas no se cumple la definición.",
+        "c": "El alumbrado público no aparece en la definición; lo que define el poblado son los edificios y las señales de entrada y salida."
+      },
+      "truco": "Poblado = edificios + señal de entrada y señal de salida.",
+      "huella": "9b2066010a88"
+    },
+    {
+      "id": "xc-0109",
+      "porque": "La travesía es el tramo de carretera que discurre por poblado, pero la Ley hace una excepción: si ese tramo dispone de una alternativa viaria o variante a la que tiene acceso, no se considera travesía.",
+      "descartes": {
+        "a": "Ese «todo» ignora la excepción: con una variante a la que se tiene acceso, el tramo no se considera travesía.",
+        "c": "Los semáforos no aparecen en la definición de travesía."
+      },
+      "truco": "Travesía = carretera que cruza el pueblo, salvo que tenga una variante a la que se pueda acceder.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.71",
+          "cita": "Travesía. Tramo de carretera que discurre por poblado."
+        }
+      ],
+      "huella": "54b125262351"
+    },
+    {
+      "id": "xc-0110",
+      "porque": "La vía urbana es la vía pública situada dentro de poblado, pero la definición excluye las travesías. Así que una travesía está dentro de poblado y, aun así, no es vía urbana: es un tramo de carretera.",
+      "descartes": {
+        "a": "Ese «toda» falla por la excepción de las travesías: están dentro de poblado y no son vías urbanas.",
+        "b": "Las aceras no aparecen en la definición de vía urbana."
+      },
+      "truco": "Dentro de poblado, vía urbana, salvo la travesía. Fuera de poblado, vía interurbana.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.71",
+          "cita": "Travesía. Tramo de carretera que discurre por poblado."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.72",
+          "cita": "Vía interurbana. Vía pública situada fuera de poblado."
+        }
+      ],
+      "huella": "798a17e94568"
+    },
+    {
+      "id": "v5a-via-0003",
+      "porque": "La Ley llama intersección al nudo de la red viaria en el que todos los cruces de trayectorias de los vehículos se hacen a nivel, es decir, a la misma altura. Un cruce con puente o túnel no cumple esa condición.",
+      "descartes": {
+        "a": "Es justo lo contrario: en la intersección todos los cruces se hacen a nivel; un cruce a distinto nivel no es una intersección.",
+        "b": "El tramo de carretera que discurre por poblado es la travesía, no una intersección."
+      },
+      "truco": "Intersección: todos los cruces «a ras de suelo». Si las trayectorias se cruzan por un puente o un túnel, eso no es una intersección.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.71",
+          "cita": "Travesía. Tramo de carretera que discurre por poblado."
+        }
+      ],
+      "huella": "ad7c608f05e4"
+    },
+    {
+      "id": "xc-0130",
+      "porque": "La información del estado de las vías usa una escala de colores: blanco, verde, amarillo, rojo y negro. El negro es el último escalón: la carretera está cortada y no se puede circular.",
+      "descartes": {
+        "a": "Ninguno de los colores del estado de la vía está reservado a las obras; el negro significa carretera cortada.",
+        "c": "En esta escala tampoco hay un color para la niebla; el negro indica que no se puede circular."
+      },
+      "truco": "Escala del estado de la vía: blanco (normal), verde (no se alcanza la máxima), amarillo (paros, retenciones o tráfico lento), rojo (muchos paros y retenciones) y negro (cortada).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Colores que indican cuál es el estado de la vía (p. 226)",
+          "cita": "Blanco Se puede circular con normalidad. Verde No se puede alcanzar la velocidad máxima permitida en esa vía. Amarillo Hay paros y retenciones de vehículos o el tráfico es lento en algunos tramos. Rojo Hay demasiados vehículos y hay muchos paros y retenciones."
+        }
+      ],
+      "huella": "dbf9aec83b2d"
+    },
+    {
+      "id": "xc-0131",
+      "porque": "En esta escala, el verde no significa normalidad: indica que no se puede alcanzar la velocidad máxima permitida en esa vía. La circulación normal se indica con el blanco.",
+      "descartes": {
+        "a": "La normalidad se marca con el blanco; el verde ya indica que no se llega a la velocidad máxima de la vía.",
+        "b": "La carretera cortada se indica con el negro, el último color de la escala."
+      },
+      "truco": "Escala del estado de la vía: blanco (normal), verde (no se alcanza la máxima), amarillo (paros, retenciones o tráfico lento), rojo (muchos paros y retenciones) y negro (cortada).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Colores que indican cuál es el estado de la vía (p. 226)",
+          "cita": "Blanco Se puede circular con normalidad. Verde No se puede alcanzar la velocidad máxima permitida en esa vía. Amarillo Hay paros y retenciones de vehículos o el tráfico es lento en algunos tramos. Rojo Hay demasiados vehículos y hay muchos paros y retenciones."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Colores que indican cuál es el estado de la vía (p. 227)",
+          "cita": "Negro La carretera está cortada y no se puede circular."
+        }
+      ],
+      "huella": "36afbd046ad5"
+    },
+    {
+      "id": "xc-0100",
+      "porque": "Lo que caracteriza a una intersección es que todos los cruces de trayectorias posibles de los vehículos se hacen a nivel. Cómo se regule, con semáforos, señales o sin ellas, no forma parte de la definición.",
+      "descartes": {
+        "a": "La definición no dice nada de semáforos: lo que caracteriza a la intersección es que los cruces se hacen a nivel.",
+        "c": "Es lo contrario: si las vías se cruzan a distinto nivel mediante puentes, no hay intersección."
+      },
+      "truco": "Intersección: todos los cruces «a ras de suelo». Si las trayectorias se cruzan por un puente o un túnel, eso no es una intersección.",
+      "huella": "e8611cc73633"
+    },
+    {
+      "id": "xc-0101",
+      "porque": "La glorieta es un tipo especial de intersección: los tramos que llegan a ella se comunican a través de un anillo en el que se circula de forma rotatoria alrededor de una isleta central.",
+      "descartes": {
+        "a": "Una plaza peatonal es una zona para peatones, no una intersección de vías; la glorieta se define por el anillo de circulación alrededor de la isleta.",
+        "b": "La definición no exige agente ni semáforos: lo que hace glorieta a una intersección es el anillo con circulación rotatoria."
+      },
+      "truco": "Glorieta: anillo con circulación rotatoria alrededor de una isleta central. Si dos tramos se conectan cruzando la isleta por el medio (glorieta partida), ya no es una glorieta propiamente dicha.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.63",
+          "cita": "No son glorietas propiamente dichas las denominadas glorietas partidas en las que dos tramos, generalmente opuestos, se conectan directamente a través de la isleta central, por lo que el tráfico pasa de uno a otro y no la rodea."
+        }
+      ],
+      "huella": "86e4dd5fb118"
+    },
+    {
+      "id": "xc-0102",
+      "porque": "Lo esencial de una glorieta es que el tráfico rodea la isleta central por el anillo. En la glorieta partida, dos tramos se conectan directamente a través de la isleta y el tráfico pasa de uno a otro sin rodearla, así que la Ley dice que no es una glorieta propiamente dicha.",
+      "descartes": {
+        "b": "Tener isleta central no basta: hace falta que el tráfico la rodee, y en la glorieta partida no lo hace.",
+        "c": "El número de accesos no cuenta en la definición; lo que la descarta es que el tráfico cruce la isleta en vez de rodearla."
+      },
+      "truco": "Glorieta: anillo con circulación rotatoria alrededor de una isleta central. Si dos tramos se conectan cruzando la isleta por el medio (glorieta partida), ya no es una glorieta propiamente dicha.",
+      "huella": "b74a51fe62e9"
+    },
+    {
+      "id": "xc-0103",
+      "porque": "Un paso a nivel es el cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente. «A nivel» significa precisamente eso: sin puente ni túnel, coche y tren se cruzan sobre el mismo plano.",
+      "descartes": {
+        "a": "Un paso elevado para peatones es un paso superior para peatones, no un paso a nivel, que es un cruce con el ferrocarril.",
+        "c": "Si la carretera pasa por un puente sobre la vía del tren, el cruce es a distinto nivel; el paso a nivel es justo el cruce a la misma altura."
+      },
+      "truco": "Paso «a nivel»: a la misma altura que el tren. Si hay puente o túnel, ya no es paso a nivel.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-14a",
+          "cita": "Indica la situación de un paso superior para peatones."
+        }
+      ],
+      "huella": "f5fa8a6b3677"
+    },
+    {
+      "id": "via-0002",
+      "porque": "La vía interurbana es la vía pública situada fuera de poblado. La que está dentro de poblado es vía urbana, salvo las travesías.",
+      "descartes": {
+        "a": "Dentro de poblado la vía es urbana (salvo las travesías); la interurbana es justo la de fuera de poblado.",
+        "c": "La definición no tiene nada que ver con los carriles bici: solo depende de estar fuera de poblado."
+      },
+      "truco": "Dentro de poblado, vía urbana, salvo la travesía. Fuera de poblado, vía interurbana.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.73",
+          "cita": "Vía urbana. Vía pública situada dentro de poblado, excepto las travesías."
+        }
+      ],
+      "huella": "1de563f5e2ff"
+    },
+    {
+      "id": "x1b-0056",
+      "porque": "Los ayuntamientos pueden desarrollar con sus ordenanzas aspectos de las normas de circulación urbana del Reglamento, pero dentro de él: las ordenanzas no pueden oponerse, alterar, desvirtuar ni inducir a confusión con sus preceptos.",
+      "descartes": {
+        "a": "Dentro de la ciudad la ordenanza no prevalece sobre el Reglamento: solo puede desarrollar aspectos de sus normas, sin contradecirlas.",
+        "b": "Ninguna mayoría del pleno salva ese límite: la norma dice sin excepciones que las ordenanzas no podrán oponerse al Reglamento."
+      },
+      "truco": "La ordenanza desarrolla el Reglamento, nunca lo contradice.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "151.2",
+          "cita": "Los Municipios, a través de sus ordenanzas municipales y en el ámbito de sus competencias, podrán desarrollar aspectos de las normas del presente título."
+        }
+      ],
+      "huella": "6940aa6c1dc5"
+    },
+    {
+      "id": "v5a-via-0001",
+      "porque": "La plataforma es toda la zona de la carretera dedicada al uso de vehículos: la calzada más los arcenes. Si quitas los arcenes, lo que queda es la calzada.",
+      "descartes": {
+        "b": "La parte destinada a la circulación de vehículos, sin los arcenes, es la calzada, no la plataforma.",
+        "c": "El espacio que separa las dos plataformas de cada sentido, por el que no se circula, es la mediana."
+      },
+      "truco": "De dentro afuera: los carriles forman la calzada; calzada más arcenes, la plataforma; y el espacio entre dos plataformas separadas, por el que no se circula, es la mediana.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.54",
+          "cita": "Plataforma. Zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.55",
+          "cita": "Calzada. Parte de la carretera dedicada a la circulación de vehículos. Se compone de un cierto número de carriles."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Otras zonas de la vía (p. 217)",
+          "cita": "Mediana Espacio entre dos plataformas separadas por el que no circulan los vehículos."
+        }
+      ],
+      "huella": "bd37ac8d7c37"
+    },
+    {
+      "id": "v5a-via-0002",
+      "porque": "Para la Ley, un carril es una banda longitudinal de la calzada, delimitada o no por marcas viales, con anchura suficiente para una fila de automóviles que no sean motocicletas. Si caben dos filas por sentido, hay dos carriles por sentido, aunque no estén pintados.",
+      "descartes": {
+        "a": "La definición dice expresamente que el carril puede estar delimitado o no por marcas viales: lo que cuenta es la anchura.",
+        "c": "No hace falta ninguna señal vertical: la existencia del carril depende de la anchura de la calzada."
+      },
+      "truco": "El carril lo hace la anchura, no la pintura: basta con que quepa una fila de automóviles que no sean motos, haya marcas viales o no.",
+      "huella": "5f663fa3baf9"
+    },
+    {
+      "id": "xc-0093",
+      "porque": "La zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes, se llama plataforma.",
+      "descartes": {
+        "a": "El carril es solo una banda de la calzada con anchura para una fila de automóviles, no la calzada más los arcenes.",
+        "c": "La mediana es el espacio entre dos plataformas separadas por el que no circulan los vehículos."
+      },
+      "truco": "De dentro afuera: los carriles forman la calzada; calzada más arcenes, la plataforma; y el espacio entre dos plataformas separadas, por el que no se circula, es la mediana.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.54",
+          "cita": "Plataforma. Zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.55",
+          "cita": "Calzada. Parte de la carretera dedicada a la circulación de vehículos. Se compone de un cierto número de carriles."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Otras zonas de la vía (p. 217)",
+          "cita": "Mediana Espacio entre dos plataformas separadas por el que no circulan los vehículos."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.56",
+          "cita": "Carril. Banda longitudinal en que puede estar subdividida la calzada"
+        }
+      ],
+      "huella": "3bafcf8a1b8b"
+    },
+    {
+      "id": "xc-0094",
+      "porque": "La calzada es la parte de la carretera dedicada a la circulación de vehículos, y se compone de un cierto número de carriles. Los arcenes quedan fuera: calzada y arcenes juntos forman la plataforma.",
+      "descartes": {
+        "b": "La franja lateral es el arcén, que no forma parte de la calzada y no está destinado a los automóviles salvo en circunstancias excepcionales.",
+        "c": "La calzada con los arcenes es la plataforma, y las aceras son zonas destinadas a los peatones, no a la circulación de vehículos."
+      },
+      "truco": "De dentro afuera: los carriles forman la calzada; calzada más arcenes, la plataforma; y el espacio entre dos plataformas separadas, por el que no se circula, es la mediana.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.54",
+          "cita": "Plataforma. Zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.55",
+          "cita": "Calzada. Parte de la carretera dedicada a la circulación de vehículos. Se compone de un cierto número de carriles."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Otras zonas de la vía (p. 217)",
+          "cita": "Mediana Espacio entre dos plataformas separadas por el que no circulan los vehículos."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.61",
+          "cita": "Arcén. Franja longitudinal afirmada contigua a la calzada, no destinada al uso de vehículos automóviles, más que en circunstancias excepcionales."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.58",
+          "cita": "Acera. Zona longitudinal de la carretera elevada o no, destinada al tránsito de peatones."
+        }
+      ],
+      "huella": "eaf85cfc3dfb"
+    },
+    {
+      "id": "xc-0095",
+      "porque": "El carril se define por su anchura, no por la pintura: es una banda longitudinal de la calzada, delimitada o no por marcas viales, que permite circular a una fila de automóviles que no sean motocicletas. Por eso una calzada sin marcas puede tener carriles.",
+      "descartes": {
+        "a": "La definición dice expresamente «delimitada o no por marcas viales longitudinales»: sin pintura también puede haber carriles.",
+        "b": "La definición no distingue entre dentro y fuera de poblado: el carril existe si hay anchura suficiente, en cualquier vía."
+      },
+      "truco": "El carril lo hace la anchura, no la pintura: basta con que quepa una fila de automóviles que no sean motos, haya marcas viales o no.",
+      "huella": "a7a4d6d56cf5"
+    },
+    {
+      "id": "xc-0096",
+      "porque": "La acera es la zona longitudinal de la carretera destinada al tránsito de peatones, esté elevada o no. Lo que la define es su destino, no la altura ni el bordillo.",
+      "descartes": {
+        "b": "La definición dice expresamente «elevada o no»: no exige bordillo.",
+        "c": "La Ley no fija ninguna altura mínima; la acera puede no estar elevada."
+      },
+      "truco": "Acera: «elevada o no». Lo que la define es que está destinada a los peatones.",
+      "huella": "72601ee887f9"
+    },
+    {
+      "id": "xc-0099",
+      "porque": "El arcén es la franja afirmada junto a la calzada que no está destinada al uso de los automóviles, salvo en circunstancias excepcionales. La regla es no usarlo; solo una situación excepcional lo justifica.",
+      "descartes": {
+        "b": "La voluntad del conductor no es una circunstancia excepcional: el arcén no es un carril más para apartarse a voluntad.",
+        "c": "Una retención no permite avanzar por el arcén. Solo en tramos habilitados y señalizados pueden usarlo las motocicletas con el tráfico detenido por congestión, a 30 km/h como máximo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.3",
+          "cita": "Se podrá habilitar el uso extraordinario del arcén de la derecha por motocicletas en aquellos tramos previamente acordados"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "36.3",
+          "cita": "La velocidad estará limitada a 30 km/h y únicamente se podrá circular en columna de a uno extremando la precaución. Únicamente estará habilitado este tipo de uso cuando la circulación de los carriles de la vía esté detenida por congestión del tráfico."
+        }
+      ],
+      "huella": "326980d9ee73"
+    },
+    {
+      "id": "xc-0126",
+      "porque": "La mediana es el espacio que hay entre dos plataformas separadas y por el que no circulan los vehículos.",
+      "descartes": {
+        "b": "Un carril es una banda por la que se circula; la mediana es precisamente un espacio por el que no circulan los vehículos.",
+        "c": "Una línea pintada en el centro es una marca vial; la mediana es un espacio entre dos plataformas separadas."
+      },
+      "truco": "De dentro afuera: los carriles forman la calzada; calzada más arcenes, la plataforma; y el espacio entre dos plataformas separadas, por el que no se circula, es la mediana.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.54",
+          "cita": "Plataforma. Zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.55",
+          "cita": "Calzada. Parte de la carretera dedicada a la circulación de vehículos. Se compone de un cierto número de carriles."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Otras zonas de la vía (p. 217)",
+          "cita": "Mediana Espacio entre dos plataformas separadas por el que no circulan los vehículos."
+        }
+      ],
+      "huella": "b24f29dd54cb"
+    },
+    {
+      "id": "xc-0127",
+      "porque": "En un cambio de rasante la carretera cambia de inclinación. Si la visibilidad es reducida, la pendiente tapa lo que hay detrás: no puedes ver a los vehículos que van delante ni a los que vienen de frente. Por eso, entre otras cosas, está prohibido adelantar en ellos.",
+      "descartes": {
+        "a": "Un cambio de rasante es un cambio de inclinación, no un estrechamiento; el número de carriles no tiene por qué variar.",
+        "c": "No existe un límite fijo de 30 km/h por el cambio de rasante; el riesgo es no ver a los vehículos de delante ni a los que vienen de frente."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "87.1.a",
+          "cita": "En las curvas y cambios de rasante de visibilidad reducida"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Rasante (p. 216)",
+          "cita": "Un cambio de rasante significa que un tramo de la carretera cambia de inclinación."
+        }
+      ],
+      "huella": "154f39239425"
+    },
+    {
+      "id": "xc-0128",
+      "porque": "La dirección es la línea que une dos lugares, en este caso la carretera; el sentido es cada una de las dos posibilidades, ida o vuelta, para recorrerla. Los dos coches van por la misma carretera, así que comparten la dirección, pero uno va de ida y otro de vuelta.",
+      "descartes": {
+        "a": "Es al revés: comparten la dirección (la misma carretera) y lo que cambia es el sentido.",
+        "b": "Si fueran en el mismo sentido irían los dos de ida o los dos de vuelta; aquí uno va por el carril de ida y otro por el de vuelta."
+      },
+      "truco": "Dirección = la carretera, la línea que une dos sitios. Sentido = ida o vuelta por ella.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Dirección y sentido (p. 222)",
+          "cita": "Dirección Línea recta o curva que une dos lugares. Sentido Las dos posibilidades, de ida y de vuelta, que se pueden usar para ir en una misma dirección."
+        }
+      ],
+      "huella": "f14664b2f3d3"
+    },
+    {
+      "id": "xc-0129",
+      "porque": "Una isleta es una zona de la calzada un poco elevada o pintada que sirve para guiar el tráfico. Cuando está pintada, las líneas blancas paralelas que la forman se llaman cebreado.",
+      "descartes": {
+        "b": "La línea de borde no es la que dibuja la isleta; las líneas blancas paralelas de la isleta se llaman cebreado.",
+        "c": "La línea de detención tampoco forma la isleta; el nombre de esas líneas paralelas es cebreado."
+      },
+      "truco": null,
+      "huella": "0c3c691e63bf"
+    },
+    {
+      "id": "res-via-0001",
+      "porque": "La regla general es que los peatones no pueden circular por autopistas ni autovías. Solo pueden hacerlo en los casos y condiciones del artículo 130 del Reglamento, que regula la inmovilización del vehículo y la caída de la carga, y el personal de servicios cuando sea estrictamente indispensable.",
+      "descartes": {
+        "b": "Ir por el arcén y de día no es ninguna excepción: fuera de los casos previstos, los peatones no pueden circular por autopistas ni autovías.",
+        "c": "El chaleco reflectante es obligatorio al salir del vehículo y ocupar la calzada o el arcén en vías interurbanas, pero no autoriza a nadie a caminar por una autovía."
+      },
+      "truco": "Autopista y autovía están cerradas a animales, vehículos de tracción animal, bicicletas, ciclomotores, VMP y vehículos para personas de movilidad reducida; los peatones, solo en los casos previstos. La única rendija: bicis de mayores de 14 años por el arcén de la autovía, si no lo prohíbe una señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "38.1",
+          "cita": "Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.1",
+          "cita": "los conductores de bicicletas mayores de 14 años podrán circular por los arcenes de las autovías, salvo que por razones justificadas de seguridad vial se prohíba mediante la señalización correspondiente."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.4",
+          "cita": "4. Se prohíbe circular con vehículos de movilidad personal: a) Por autopistas y autovías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "128",
+          "cita": "Se prohíbe la circulación de animales por autopistas o autovías"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "125.1",
+          "cita": "Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "125.2",
+          "cita": "podrán transitar por las autopistas y autovías siempre que sea estrictamente indispensable para la prestación del correspondiente servicio"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.4",
+          "cita": "cuando salgan de éste y ocupen la calzada o el arcén de las vías interurbanas."
+        }
+      ],
+      "huella": "1a87ccd9e871"
+    },
+    {
+      "id": "res-via-0002",
+      "porque": "En autopistas y autovías los peatones no pueden pedir que los lleven en ningún tramo, y la norma añade expresamente las explanadas de las estaciones de peaje, para que no quede duda.",
+      "descartes": {
+        "a": "Ponerse fuera de los carriles de pago no cambia nada: la prohibición incluye toda la explanada de la estación de peaje.",
+        "c": "Da igual que la explanada no sea calzada: la norma la incluye expresamente en la prohibición."
+      },
+      "truco": null,
+      "huella": "d5a4a202d09c"
+    },
+    {
+      "id": "xc-0132",
+      "porque": "Es la señal S-1, «Autopista»: indica el principio de una autopista y, por tanto, el punto desde el que se aplican las reglas especiales de circulación de ese tipo de vía. También puede indicar el ramal de un nudo que conduce a una autopista.",
+      "descartes": {
+        "b": "El principio de una vía reservada para automóviles se indica con otra señal, la S-3; esta es la S-1, autopista.",
+        "c": "El paso superior forma parte del dibujo de la S-1, que representa una autopista; no indica una carretera convencional."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-3",
+          "cita": "Indica el principio de una vía reservada a la circulación de automóviles."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-1",
+          "cita": "Puede indicar también el ramal de un nudo que conduce a una autopista."
+        }
+      ],
+      "huella": "1ba481a552fa"
+    },
+    {
+      "id": "B2-via-0011",
+      "porque": "La senda ciclable es una vía compartida por peatones y ciclos, separada del tráfico motorizado, que discurre por espacios abiertos, parques, jardines o bosques. Su rasgo propio es ir por esos espacios, no junto a la calzada.",
+      "descartes": {
+        "b": "La vía ciclista adosada a la calzada es el carril-bici, no la senda ciclable.",
+        "c": "Las aceras están reservadas a los peatones y prohibidas a cualquier vehículo; además, la senda ciclable es para peatones y ciclos, no para ciclomotores."
+      },
+      "truco": "Vías ciclistas: carril-bici, adosado a la calzada; carril-bici protegido, separado físicamente de calzada y acera; acera-bici, sobre la acera; pista-bici, con trazado independiente de las carreteras; senda ciclable, para peatones y ciclos por parques, jardines o bosques.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.75",
+          "cita": "Carril-bici. Vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.76",
+          "cita": "Carril-bici protegido. Carril-bici provisto de elementos laterales que lo separan físicamente del resto de la calzada, así como de la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.77",
+          "cita": "Acera-bici. Vía ciclista señalizada sobre la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.78",
+          "cita": "Pista-bici. Vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.79",
+          "cita": "Senda ciclable. Vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por espacios abiertos, parques, jardines o bosques."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "152.1",
+          "cita": "Las aceras son el espacio de la vía reservado para la movilidad y estancia de los peatones, estando prohibida la circulación por ellas de cualquier tipo de vehículo."
+        }
+      ],
+      "huella": "7803dd762c59"
+    },
+    {
+      "id": "via-0001",
+      "porque": "La travesía es el tramo de una carretera que discurre por poblado. Sigue siendo carretera, aunque pase por dentro del pueblo, y por eso no es una vía urbana.",
+      "descartes": {
+        "b": "La vía urbana excluye precisamente las travesías, y el número de carriles no forma parte de ninguna de las dos definiciones.",
+        "c": "La travesía es un tramo de carretera que pasa por un poblado, no un camino rural entre dos poblaciones."
+      },
+      "truco": "Travesía = carretera que cruza el pueblo, salvo que tenga una variante a la que se pueda acceder.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.73",
+          "cita": "Vía urbana. Vía pública situada dentro de poblado, excepto las travesías."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.71",
+          "cita": "No tendrán la consideración de travesías aquellos tramos que dispongan de una alternativa viaria o variante a la cual tiene acceso."
+        }
+      ],
+      "huella": "e7028b176878"
+    },
+    {
+      "id": "xc-0111",
+      "porque": "La vía ciclista está acondicionada para el tráfico de ciclos. Otros vehículos solo pueden circular por ella si lo autoriza la autoridad competente en materia de tráfico, con la señalización que lo indique.",
+      "descartes": {
+        "b": "La norma no abre la vía ciclista a ningún vehículo por su masa: hace falta autorización y señalización.",
+        "c": "Ninguna norma permite a los turismos meterse en una vía ciclista para adelantar: sin autorización señalizada no pueden usarla."
+      },
+      "truco": null,
+      "huella": "292d7515abdb"
+    },
+    {
+      "id": "xc-0112",
+      "porque": "El carril-bici es la vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido.",
+      "descartes": {
+        "a": "La vía ciclista señalizada sobre la acera es la acera-bici.",
+        "c": "La vía para peatones y ciclos que discurre por parques es la senda ciclable."
+      },
+      "truco": "Vías ciclistas: carril-bici, adosado a la calzada; carril-bici protegido, separado físicamente de calzada y acera; acera-bici, sobre la acera; pista-bici, con trazado independiente de las carreteras; senda ciclable, para peatones y ciclos por parques, jardines o bosques.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.75",
+          "cita": "Carril-bici. Vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.76",
+          "cita": "Carril-bici protegido. Carril-bici provisto de elementos laterales que lo separan físicamente del resto de la calzada, así como de la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.77",
+          "cita": "Acera-bici. Vía ciclista señalizada sobre la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.78",
+          "cita": "Pista-bici. Vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.79",
+          "cita": "Senda ciclable. Vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por espacios abiertos, parques, jardines o bosques."
+        }
+      ],
+      "huella": "84855ee91dd9"
+    },
+    {
+      "id": "xc-0113",
+      "porque": "El carril-bici protegido es un carril-bici que tiene elementos laterales que lo separan físicamente del resto de la calzada y también de la acera. Lo que lo distingue es esa separación física.",
+      "descartes": {
+        "a": "La definición no dice nada del equipamiento del ciclista; lo que hace «protegido» al carril son sus elementos laterales de separación.",
+        "b": "El color no forma parte de la definición: un carril-bici es protegido por estar separado físicamente de calzada y acera."
+      },
+      "truco": "Vías ciclistas: carril-bici, adosado a la calzada; carril-bici protegido, separado físicamente de calzada y acera; acera-bici, sobre la acera; pista-bici, con trazado independiente de las carreteras; senda ciclable, para peatones y ciclos por parques, jardines o bosques.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.75",
+          "cita": "Carril-bici. Vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.76",
+          "cita": "Carril-bici protegido. Carril-bici provisto de elementos laterales que lo separan físicamente del resto de la calzada, así como de la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.77",
+          "cita": "Acera-bici. Vía ciclista señalizada sobre la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.78",
+          "cita": "Pista-bici. Vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.79",
+          "cita": "Senda ciclable. Vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por espacios abiertos, parques, jardines o bosques."
+        }
+      ],
+      "huella": "20df6557d07d"
+    },
+    {
+      "id": "xc-0114",
+      "porque": "La vía ciclista señalizada sobre la acera se llama acera-bici.",
+      "descartes": {
+        "b": "La pista-bici es la vía ciclista segregada del tráfico motorizado con trazado independiente de las carreteras.",
+        "c": "La senda ciclable es una vía para peatones y ciclos que discurre por espacios abiertos, parques, jardines o bosques."
+      },
+      "truco": "Vías ciclistas: carril-bici, adosado a la calzada; carril-bici protegido, separado físicamente de calzada y acera; acera-bici, sobre la acera; pista-bici, con trazado independiente de las carreteras; senda ciclable, para peatones y ciclos por parques, jardines o bosques.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.75",
+          "cita": "Carril-bici. Vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.76",
+          "cita": "Carril-bici protegido. Carril-bici provisto de elementos laterales que lo separan físicamente del resto de la calzada, así como de la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.77",
+          "cita": "Acera-bici. Vía ciclista señalizada sobre la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.78",
+          "cita": "Pista-bici. Vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.79",
+          "cita": "Senda ciclable. Vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por espacios abiertos, parques, jardines o bosques."
+        }
+      ],
+      "huella": "f0dbc60da105"
+    },
+    {
+      "id": "xc-0115",
+      "porque": "La pista-bici es una vía ciclista segregada del tráfico motorizado y con un trazado independiente de las carreteras.",
+      "descartes": {
+        "a": "La pista-bici no es un carril de la calzada: tiene un trazado independiente de las carreteras.",
+        "c": "Un aparcamiento de bicicletas no es una vía ciclista; la pista-bici es una vía para circular."
+      },
+      "truco": "Vías ciclistas: carril-bici, adosado a la calzada; carril-bici protegido, separado físicamente de calzada y acera; acera-bici, sobre la acera; pista-bici, con trazado independiente de las carreteras; senda ciclable, para peatones y ciclos por parques, jardines o bosques.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.75",
+          "cita": "Carril-bici. Vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.76",
+          "cita": "Carril-bici protegido. Carril-bici provisto de elementos laterales que lo separan físicamente del resto de la calzada, así como de la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.77",
+          "cita": "Acera-bici. Vía ciclista señalizada sobre la acera."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.78",
+          "cita": "Pista-bici. Vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.79",
+          "cita": "Senda ciclable. Vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por espacios abiertos, parques, jardines o bosques."
+        }
+      ],
+      "huella": "e23220f9efbd"
+    },
+    {
+      "id": "via-0007",
+      "porque": "Los vehículos de movilidad personal tienen prohibido circular por autopistas, autovías y travesías. La travesía está dentro de poblado, pero es un tramo de carretera, y la norma la nombra expresamente.",
+      "descartes": {
+        "b": "Estar dentro de poblado no basta: la norma prohíbe expresamente las travesías a los VMP.",
+        "c": "No hay excepción por el arcén: en la travesía el VMP no puede circular."
+      },
+      "truco": "Patinete (VMP): nunca por autopista, autovía ni travesía. Por vía interurbana o túnel urbano, solo por vías ciclistas, carriles bici (protegidos o no), pistas bici, sendas ciclables o vías cerradas a los vehículos de motor, y si no lo prohíbe una señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "38.4.c",
+          "cita": "c) Por vías interurbanas y por túneles urbanos, salvo que se trate de vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías en las que esté prohibida la circulación de vehículos de motor, siempre que no esté prohibido por la señalización."
+        }
+      ],
+      "huella": "b6734219abe8"
+    },
+    {
+      "id": "xc-0097",
+      "porque": "La zona peatonal es la parte de la calle reservada al tránsito y estancia prioritarios de los peatones. La Ley incluye expresamente aceras, plazas, bulevares, paseos, andenes y zonas similares.",
+      "descartes": {
+        "a": "El arcén es una franja de la carretera contigua a la calzada, no una parte de la calle reservada a los peatones.",
+        "c": "El carril bici es una vía ciclista, destinada a los ciclos, no una zona peatonal."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.61",
+          "cita": "Arcén. Franja longitudinal afirmada contigua a la calzada"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.75",
+          "cita": "Carril-bici. Vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido."
+        }
+      ],
+      "huella": "c9cf8298904e"
+    },
+    {
+      "id": "xc-0098",
+      "porque": "Un refugio es una zona peatonal situada en la propia calzada y protegida del tránsito rodado.",
+      "descartes": {
+        "a": "El ensanchamiento de la calzada para que paren los vehículos que lo necesitan es el apartadero, no el refugio.",
+        "b": "El refugio no es para vehículos ni para pedir auxilio: es una zona peatonal dentro de la calzada."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 9, Otras zonas de la vía (p. 217)",
+          "cita": "Apartadero Parte de la calzada que se ensancha para que puedan parar los vehículos que lo necesitan"
+        }
+      ],
+      "huella": "0cafc6f5b320"
+    },
+    {
+      "id": "xc-0116",
+      "porque": "La zona con plataforma única de calzada y acera está diseñada para favorecer el tránsito peatonal. En ella el peatón tiene prioridad de paso en cualquier punto de la calzada, no solo en lugares concretos.",
+      "descartes": {
+        "a": "Precisamente en estas zonas la prioridad del peatón no se limita a los pasos señalizados: la tiene en cualquier punto de la calzada.",
+        "b": "La prioridad no se limita a los cruces: el peatón la tiene en cualquier punto de la calzada."
+      },
+      "truco": "Plataforma única: el peatón manda en cualquier punto.",
+      "huella": "cb965a6f5fc0"
+    },
+    {
+      "id": "xc-0117",
+      "porque": "La zona o área de prioridad residencial la delimita y regula el ayuntamiento para mantener un uso sostenible del barrio. Para ello introduce medidas que restringen el acceso o la circulación de los vehículos de quienes no residen allí, entre otras.",
+      "descartes": {
+        "b": "La definición no da prioridad de paso a los vehículos de los residentes; lo que hace es restringir el acceso o la circulación de los no residentes.",
+        "c": "Es un área regulada por la autoridad municipal, no una urbanización privada sin normas."
+      },
+      "truco": null,
+      "huella": "f3fd1fca8c5d"
+    },
+    {
+      "id": "xc-0118",
+      "porque": "El camino o ruta escolar seguro es un conjunto de vías que la autoridad acondiciona para que los niños y niñas vayan al colegio caminando, en transporte público o con medios no motorizados. Puede llevar señales, límites de velocidad propios y restricciones a los vehículos a motor.",
+      "descartes": {
+        "a": "No es un carril para autobuses escolares: está pensado para ir a pie, en transporte público o en medios sin motor.",
+        "c": "No es un recorrido obligatorio para cada alumno, sino un conjunto de vías acondicionadas para favorecer esos desplazamientos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.85",
+          "cita": "Se podrán establecer señales, marcas viales o paneles de información, así como limitaciones de velocidad específicas y restricciones a los vehículos a motor."
+        }
+      ],
+      "huella": "8bb3d961b954"
+    },
+    {
+      "id": "x1a-0112",
+      "porque": "Las normas previas al adelantamiento (avisar, comprobar el espacio libre, etc.) no se aplican cuando un ciclista pasa a otro de su mismo grupo: la norma dice expresamente que eso no se considera adelantamiento.",
+      "descartes": {
+        "a": "Como no se considera adelantamiento, no le alcanzan las obligaciones previas a esa maniobra, como la de advertirlo.",
+        "c": "El lado por el que lo haga no cambia nada: entre ciclistas del mismo grupo no se considera adelantamiento."
+      },
+      "truco": null,
+      "huella": "6a3dd5f4bc87"
+    },
+    {
+      "id": "v2-adel-0001",
+      "porque": "Quien va a caballo es un animal a efectos de esta norma, igual que peatones, ciclistas, ciclomotores o VMP. Fuera de poblado, al adelantarle hay que bajar al menos 20 km/h respecto al límite de la vía: con límite de 100, como mucho a 80.",
+      "descartes": {
+        "b": "La reducción no es solo para ciclistas: alcanza también a peatones, animales, vehículos de tracción animal, ciclomotores y VMP.",
+        "c": "Ir a 90 es reducir solo 10 km/h; la norma exige bajar al menos 20 km/h respecto al límite de la vía."
+      },
+      "truco": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclos, ciclomotores o VMP: al menos 1,5 m de separación lateral (o cambio completo de carril si hay más de uno por sentido) y, fuera de poblado, al menos 20 km/h menos que el límite de la vía, antes y durante toda la maniobra.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas, el conductor que adelanta deberá tener especial cuidado con la maniobra"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "7102369506c8"
+    },
+    {
+      "id": "v2-adel-0002",
+      "porque": "Al adelantar a un VMP hay que dejar al menos 1,5 metros de anchura de seguridad, dentro o fuera de poblado. Solo si la calzada tiene más de un carril por sentido se exige más: cambiar completamente de carril.",
+      "descartes": {
+        "a": "La norma no rebaja la distancia en poblado: son al menos 1,5 metros en cualquier vía.",
+        "b": "Los 1,5 metros valen dentro y fuera de poblado; lo que solo se exige fuera de poblado es reducir la velocidad 20 km/h."
+      },
+      "truco": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclos, ciclomotores o VMP: al menos 1,5 m de separación lateral (o cambio completo de carril si hay más de uno por sentido) y, fuera de poblado, al menos 20 km/h menos que el límite de la vía, antes y durante toda la maniobra.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas, el conductor que adelanta deberá tener especial cuidado con la maniobra"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "3dc8d99f6b7c"
+    },
+    {
+      "id": "v5b-adel-0002",
+      "porque": "Al adelantar a un peatón, como a ciclistas, animales o VMP, hay que ocupar parte o la totalidad del carril contiguo o contrario y dejar al menos 1,5 metros de anchura de seguridad.",
+      "descartes": {
+        "a": "Un metro se queda corto: la norma exige al menos 1,5 metros.",
+        "c": "Que el peatón vaya despacio no rebaja nada: la anchura mínima es de 1,5 metros."
+      },
+      "truco": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclos, ciclomotores o VMP: al menos 1,5 m de separación lateral (o cambio completo de carril si hay más de uno por sentido) y, fuera de poblado, al menos 20 km/h menos que el límite de la vía, antes y durante toda la maniobra.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas, el conductor que adelanta deberá tener especial cuidado con la maniobra"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "6f1fc628da28"
+    },
+    {
+      "id": "x1a-0117",
+      "porque": "Además de dejar 1,5 metros al ciclista, no puedes poner en peligro ni entorpecer a quien viene de frente. La norma lo deja claro: la prohibición vale incluso si quien viene en sentido contrario circula por el arcén.",
+      "descartes": {
+        "a": "La norma dice expresamente que la prohibición se aplica incluso si quien viene de frente va por el arcén.",
+        "c": "Avisar con el claxon no convierte en segura una maniobra que pone en peligro a quien viene de frente: sigue prohibida."
+      },
+      "truco": null,
+      "huella": "3a93c12e93b7"
+    },
+    {
+      "id": "x1a-0118",
+      "porque": "Fuera de poblado, al adelantar a un ciclista hay que reducir la velocidad al menos 20 km/h respecto al límite de la vía, y la norma fija cuándo: antes de iniciar la maniobra y durante toda su ejecución.",
+      "descartes": {
+        "a": "La reducción no se limita al regreso al carril: empieza antes de iniciar la maniobra y dura toda ella.",
+        "b": "La norma no distingue entre calzada y arcén: la reducción se aplica al adelantar al ciclista, vaya por donde vaya."
+      },
+      "truco": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclos, ciclomotores o VMP: al menos 1,5 m de separación lateral (o cambio completo de carril si hay más de uno por sentido) y, fuera de poblado, al menos 20 km/h menos que el límite de la vía, antes y durante toda la maniobra.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas, el conductor que adelanta deberá tener especial cuidado con la maniobra"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "40c187208255"
+    },
+    {
+      "id": "B2-cic-0009",
+      "porque": "Si hay carril bici, su uso por el ciclista es preferente, no obligatorio. Solo pasa a ser obligatorio si la autoridad lo señaliza con la R-407a, la señal redonda azul con una bicicleta.",
+      "descartes": {
+        "b": "Solo es obligatorio si se coloca la señal R-407a; sin ella, el uso es preferente.",
+        "c": "No está prohibido: el carril bici está precisamente para los ciclistas, y su uso es preferente."
+      },
+      "truco": "Señal cuadrada azul de vía para ciclos (S-35): para el ciclista es de uso preferente, y los demás no pueden usarla. Señal redonda azul con bici (R-407a): obligatoria para el ciclista y prohibida a los demás.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-407a",
+          "cita": "Obligación para los conductores de ciclos de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-35",
+          "cita": "Indica la existencia de una vía destinada a la circulación de ciclos y prohibición a los demás usuarios de la vía de utilizarla."
+        }
+      ],
+      "huella": "08a5902497c0"
+    },
+    {
+      "id": "B2-cic-0010",
+      "porque": "Es la señal R-407a, «Vía reservada y obligatoria para ciclos». Sin ella, el carril bici sería de uso preferente; con ella, el ciclista está obligado a circular por esa vía y los demás usuarios no pueden utilizarla.",
+      "descartes": {
+        "a": "Poder elegir es lo que ocurre sin esta señal, porque el uso del carril bici es preferente; con la R-407a pasa a ser obligatorio.",
+        "b": "La señal no prohíbe al ciclista: le obliga a usar esa vía y prohíbe usarla a los demás."
+      },
+      "truco": "Señal cuadrada azul de vía para ciclos (S-35): para el ciclista es de uso preferente, y los demás no pueden usarla. Señal redonda azul con bici (R-407a): obligatoria para el ciclista y prohibida a los demás.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-407a",
+          "cita": "Obligación para los conductores de ciclos de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-35",
+          "cita": "Indica la existencia de una vía destinada a la circulación de ciclos y prohibición a los demás usuarios de la vía de utilizarla."
+        }
+      ],
+      "huella": "4dffee376549"
+    },
+    {
+      "id": "x1a-0052",
+      "porque": "La regla general obliga a dejar con el vehículo de delante un espacio que permita frenar sin chocar. Pero los ciclistas que circulan en grupo tienen una excepción: pueden ir sin mantener esa separación, extremando la atención para evitar alcances entre ellos.",
+      "descartes": {
+        "a": "Los 5 metros son la separación mínima que, en ciudad, deben dejar los vehículos a motor con el ciclista que les precede en el mismo carril; no se aplican entre ciclistas del mismo grupo.",
+        "b": "Para los ciclistas en grupo la norma hace justo una excepción a la distancia general de seguridad."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "153.4",
+          "cita": "Los conductores de vehículos a motor deberán dejar una separación mínima de cinco metros con los ciclistas que les precedan en el mismo carril"
+        }
+      ],
+      "huella": "892b48f42b40"
+    },
+    {
+      "id": "x1b-0102",
+      "porque": "Circular sin el alumbrado reglamentario es, en general, una infracción grave, pero la Ley de Tráfico hace leve el caso concreto de la bicicleta. Lo mismo ocurre con no llevar los elementos reflectantes en bici.",
+      "descartes": {
+        "b": "Grave es circular sin alumbrado en general; la Ley tipifica como leve el caso concreto de la bicicleta.",
+        "c": "La Ley no lo califica como muy grave; lo incluye entre las infracciones leves."
+      },
+      "truco": "Bici sin luces ni reflectantes: leve. Cualquier otro vehículo sin el alumbrado reglamentario: grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.e",
+          "cita": "e) Circular sin hacer uso del alumbrado reglamentario."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "75.b",
+          "cita": "b) No hacer uso de los elementos y prendas reflectantes por parte de los usuarios de bicicletas."
+        }
+      ],
+      "huella": "70549ef212c9"
+    },
+    {
+      "id": "A-dir-0008",
+      "porque": "Para girar a la izquierda en vía interurbana sin carril especial, un ciclista no se coloca en el centro: debe situarse a la derecha, fuera de la calzada siempre que sea posible, y empezar el giro desde ahí.",
+      "descartes": {
+        "b": "Ceñirse al eje o a la marca central es la regla general de giro a la izquierda en calzada de doble sentido, pero en vía interurbana los ciclos y ciclomotores de dos ruedas tienen esta regla especial.",
+        "c": "La norma hace una excepción para los ciclos en vía interurbana: no giran como los demás vehículos, sino desde la derecha."
+      },
+      "truco": "Bici o ciclomotor en carretera sin carril de giro: para ir a la izquierda, primero a la derecha (fuera de la calzada si se puede) y cruzar desde ahí.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "75.1.b",
+          "cita": "Si es a la izquierda, pero la calzada por la que circula es de doble sentido de la circulación, se ceñirá a la marca longitudinal de separación entre sentidos o, si ésta no existiera, al eje de la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "76.2",
+          "cita": "En vías interurbanas, los ciclos y ciclomotores de dos ruedas, si no existe un carril especialmente acondicionado para el giro a la izquierda, deberán situarse a la derecha"
+        }
+      ],
+      "huella": "7f95c0b030fa"
+    },
+    {
+      "id": "B2-mv-0027",
+      "porque": "Dos líneas transversales discontinuas y paralelas sobre la calzada marcan un paso para ciclistas. Quienes circulan por la calzada deben dejarles paso, igual que el ciclista que va por un paso para ciclistas señalizado tiene prioridad.",
+      "descartes": {
+        "a": "Es al revés: en el paso para ciclistas, los vehículos de la calzada deben dejarles pasar.",
+        "c": "La prioridad del ciclista en el paso señalizado no depende de que haya semáforo."
+      },
+      "truco": "El ciclista tiene prioridad sobre los demás vehículos en tres casos: cuando va por carril bici, paso para ciclistas o arcén señalizados; cuando giras para entrar en otra vía y él está cerca; y cuando va en grupo y el primero ya ha empezado a cruzar o ha entrado en la glorieta.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "64.2",
+          "cita": "a) Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados. b) Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades. c) Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta."
+        }
+      ],
+      "huella": "c80a8a084540"
+    },
+    {
+      "id": "x1b-0031",
+      "porque": "La norma da a los peatones prioridad de paso y estancia, y obliga a todo el que circula con cualquier vehículo a prestar especial cuidado para no poner en riesgo su integridad física, en cualquier lugar y no solo en los pasos.",
+      "descartes": {
+        "a": "La prioridad del peatón no se limita a los pasos señalizados, y el deber de especial cuidado vale en cualquier situación.",
+        "c": "La norma no manda avisar con el claxon; lo que exige es prestar especial cuidado para no ponerlos en riesgo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "a) En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales. b) Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "d) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo. e) Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+        }
+      ],
+      "huella": "f8098954df43"
+    },
+    {
+      "id": "arc-0004",
+      "porque": "Quien camina por la calzada o el arcén de una vía interurbana de noche, o con poca visibilidad por el tiempo, debe llevar al menos un elemento luminoso o reflectante homologado visible a 150 metros para los conductores que se acercan.",
+      "descartes": {
+        "a": "Ir por el arcén no exime: la obligación es para quien transita por la calzada o por el arcén de una vía interurbana.",
+        "c": "La luz roja va hacia atrás, no hacia delante, y las luces solo se exigen además a los grupos; a un peatón se le pide el elemento luminoso o reflectante visible a 150 metros."
+      },
+      "truco": "Peatón o ciclista en vía interurbana, de noche o con poca visibilidad: algo luminoso o reflectante visible a 150 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "123.2",
+          "cita": "En las mismas circunstancias, los grupos de peatones llevarán, además, en el lado más próximo al centro de la calzada, las luces necesarias para precisar su situación y dimensiones, que serán de color blanco o amarillo hacia adelante y rojo hacia atrás"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.2",
+          "cita": "deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa de los equipos de protección individual, que sea visible a una distancia mínima de 150 metros, si circulan en vía interurbana."
+        }
+      ],
+      "huella": "0f91a527b2cc"
+    },
+    {
+      "id": "arc-0005",
+      "porque": "Las luces del grupo de peatones siguen la lógica de los vehículos: hacia delante, blancas o amarillas; hacia atrás, rojas. Así, quien se acerca por detrás ve un piloto rojo.",
+      "descartes": {
+        "a": "El blanco es uno de los colores permitidos hacia delante, no hacia atrás.",
+        "b": "El amarillo también es para delante; hacia atrás la luz es roja."
+      },
+      "truco": "Luces de un grupo de peatones, como las de un coche: blanco o amarillo hacia delante y rojo hacia atrás, y en el lado más cercano al centro de la calzada.",
+      "huella": "52ca8230c472"
+    },
+    {
+      "id": "arc-0006",
+      "porque": "Las luces del grupo se llevan en el lado más próximo al centro de la calzada, que es por donde pasan los vehículos; así sirven para precisar la situación y las dimensiones del grupo.",
+      "descartes": {
+        "b": "La norma fija justo lo contrario: el lado más próximo al centro de la calzada.",
+        "c": "No da igual: la norma fija el lado más próximo al centro de la calzada."
+      },
+      "truco": "Luces de un grupo de peatones, como las de un coche: blanco o amarillo hacia delante y rojo hacia atrás, y en el lado más cercano al centro de la calzada.",
+      "huella": "71fc9040c627"
+    },
+    {
+      "id": "A-ani-0001",
+      "porque": "Por regla general, los conductores tienen prioridad sobre los animales, pero hay excepciones, y una es la cañada debidamente señalizada. Se señaliza con un panel «Cañada» bajo la señal de paso de animales domésticos: ahí, el ganado pasa primero.",
+      "descartes": {
+        "b": "La señal sola solo advierte; con el panel «Cañada» indica una cañada señalizada, y en ella la prioridad es de los animales.",
+        "c": "La norma no distingue entre día y noche: en la cañada señalizada los animales tienen prioridad siempre."
+      },
+      "truco": "Con animales, el vehículo pasa primero salvo en tres casos: cañada señalizada, al girar si cruzan la vía en la que entras, y al cruzar un arcén por el que van sin cañada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "66.1",
+          "cita": "Los conductores tienen prioridad de paso para sus vehículos, respecto de los animales, salvo en los casos siguientes: a) En las cañadas debidamente señalizadas. b) Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando animales que no dispongan de cañada"
+        }
+      ],
+      "huella": "4b60e105f745"
+    },
+    {
+      "id": "A-cic-0001",
+      "porque": "Un grupo de ciclistas que cruza se trata como un bloque: si el primero ya ha iniciado el cruce, todo el grupo tiene prioridad. Hay que esperar a que pase el último, sin cortar el grupo.",
+      "descartes": {
+        "b": "La prioridad no es solo del primero: cuando el primero ha iniciado el cruce, la tiene el grupo entero.",
+        "c": "Meterse entre los ciclistas es justo lo que la norma quiere evitar: el grupo tiene prioridad completa."
+      },
+      "truco": "El ciclista tiene prioridad sobre los demás vehículos en tres casos: cuando va por carril bici, paso para ciclistas o arcén señalizados; cuando giras para entrar en otra vía y él está cerca; y cuando va en grupo y el primero ya ha empezado a cruzar o ha entrado en la glorieta.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "64.2",
+          "cita": "a) Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados. b) Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades. c) Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Cuando los conductores de bicicletas circulen en grupo, se considerarán como una única unidad móvil."
+        }
+      ],
+      "huella": "e2660a730909"
+    },
+    {
+      "id": "A-cic-0002",
+      "porque": "Cuando un vehículo de motor gira para entrar en otra vía y hay un ciclista en sus proximidades, la prioridad es del ciclista. Es uno de los tres casos en que el ciclista pasa primero, porque el giro corta su trayectoria.",
+      "descartes": {
+        "b": "La norma no obliga al ciclista a ceder ante el vehículo de motor: en este caso concreto la prioridad es suya.",
+        "c": "Señalizar el giro es obligatorio, pero no te da prioridad: el ciclista que está cerca sigue teniéndola."
+      },
+      "truco": "El ciclista tiene prioridad sobre los demás vehículos en tres casos: cuando va por carril bici, paso para ciclistas o arcén señalizados; cuando giras para entrar en otra vía y él está cerca; y cuando va en grupo y el primero ya ha empezado a cruzar o ha entrado en la glorieta.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "64.2",
+          "cita": "a) Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados. b) Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades. c) Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta."
+        }
+      ],
+      "huella": "a6ee72319e85"
+    },
+    {
+      "id": "A-cic-0003",
+      "porque": "El ciclista que circula por un paso para ciclistas debidamente señalizado tiene prioridad sobre los demás vehículos, aunque no haya semáforo.",
+      "descartes": {
+        "a": "Conducir un vehículo de motor no da prioridad sobre el ciclista; en el paso para ciclistas señalizado, la tiene él.",
+        "b": "La regla de la derecha es la general entre vehículos, pero no se aplica aquí: el paso para ciclistas señalizado es uno de los casos de prioridad del ciclista."
+      },
+      "truco": "El ciclista tiene prioridad sobre los demás vehículos en tres casos: cuando va por carril bici, paso para ciclistas o arcén señalizados; cuando giras para entrar en otra vía y él está cerca; y cuando va en grupo y el primero ya ha empezado a cruzar o ha entrado en la glorieta.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "64.2",
+          "cita": "a) Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados. b) Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades. c) Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta."
+        }
+      ],
+      "huella": "ea3594f5fc91"
+    },
+    {
+      "id": "A-pea-0001",
+      "porque": "Por regla general el vehículo tiene prioridad sobre el peatón fuera de los pasos, pero hay excepciones. Una es esta: si giras para entrar en otra vía y hay peatones cruzándola, tienen prioridad aunque allí no haya paso para peatones.",
+      "descartes": {
+        "a": "La norma dice expresamente que tienen prioridad aunque no exista paso para peatones.",
+        "c": "La norma vale para el giro a la derecha y a la izquierda: en los dos casos los peatones que cruzan tienen prioridad."
+      },
+      "truco": "El peatón tiene prioridad: en pasos señalizados, aceras y zonas peatonales; cuando giras y cruzan la calle en la que entras; cuando cruzas un arcén por el que caminan sin zona peatonal; entre el autobús y la acera en una parada señalizada; y ante filas escolares, unidades militares a pie y comitivas organizadas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "a) En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales. b) Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "d) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo. e) Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "64.1",
+          "cita": "Como regla general, y siempre que sus trayectorias se corten, los conductores tienen prioridad de paso para sus vehículos en la calzada y en el arcén, respecto de los peatones y animales"
+        }
+      ],
+      "huella": "8b20758381e5"
+    },
+    {
+      "id": "A-pea-0002",
+      "porque": "Cuando cruzas con el vehículo un arcén por el que caminan peatones que no tienen zona peatonal, ellos tienen prioridad. Para esos peatones el arcén es el sitio por el que deben ir, y tu trayectoria corta la suya.",
+      "descartes": {
+        "b": "Sin zona peatonal practicable, el peatón debe ir por el arcén (normalmente el izquierdo); y al cruzarlo, la prioridad es suya.",
+        "c": "El intermitente avisa de tu maniobra, pero no te da prioridad sobre los peatones del arcén."
+      },
+      "truco": "El peatón tiene prioridad: en pasos señalizados, aceras y zonas peatonales; cuando giras y cruzan la calle en la que entras; cuando cruzas un arcén por el que caminan sin zona peatonal; entre el autobús y la acera en una parada señalizada; y ante filas escolares, unidades militares a pie y comitivas organizadas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "a) En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales. b) Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "d) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo. e) Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.1",
+          "cita": "En los supuestos en los que no exista zona peatonal practicable, los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada."
+        }
+      ],
+      "huella": "9289ef596a24"
+    },
+    {
+      "id": "A-pea-0003",
+      "porque": "Los peatones que van a subir o acaban de bajar de un autobús en una parada señalizada tienen prioridad mientras están entre el vehículo y la zona peatonal o el refugio más próximo.",
+      "descartes": {
+        "a": "En este caso la prioridad no depende de un paso para peatones: la tienen mientras estén entre el autobús y la zona peatonal o el refugio.",
+        "c": "La norma no exige ninguna luz encendida en el autobús: basta con que sea una parada señalizada y que estén en ese espacio."
+      },
+      "truco": "El peatón tiene prioridad: en pasos señalizados, aceras y zonas peatonales; cuando giras y cruzan la calle en la que entras; cuando cruzas un arcén por el que caminan sin zona peatonal; entre el autobús y la acera en una parada señalizada; y ante filas escolares, unidades militares a pie y comitivas organizadas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "a) En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales. b) Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "d) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo. e) Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+        }
+      ],
+      "huella": "609bd2a9eabd"
+    },
+    {
+      "id": "A-pea-0004",
+      "porque": "La acera es zona peatonal, y en ella el peatón tiene prioridad. Al salir del garaje cruzas la acera, así que debes dejar pasar a quien camina por ella.",
+      "descartes": {
+        "a": "El vado te permite acceder con el vehículo, pero no te da prioridad sobre los peatones de la acera.",
+        "c": "El claxon no da prioridad: en la acera la tiene el peatón."
+      },
+      "truco": "El peatón tiene prioridad: en pasos señalizados, aceras y zonas peatonales; cuando giras y cruzan la calle en la que entras; cuando cruzas un arcén por el que caminan sin zona peatonal; entre el autobús y la acera en una parada señalizada; y ante filas escolares, unidades militares a pie y comitivas organizadas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "a) En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales. b) Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "d) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo. e) Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.2",
+          "cita": "En las zonas peatonales, cuando los vehículos las crucen por las zonas habilitadas al efecto, los conductores tienen la obligación de dejar pasar a los peatones que circulen por ellas"
+        }
+      ],
+      "huella": "6bc3594b7574"
+    },
+    {
+      "id": "A-pea-0005",
+      "porque": "Las filas escolares, igual que las unidades militares a pie y las comitivas organizadas, tienen prioridad respecto de los vehículos, crucen o no por un paso para peatones.",
+      "descartes": {
+        "a": "La prioridad de la fila escolar no depende de que haya paso para peatones.",
+        "b": "No hace falta la orden de un agente: la norma da la prioridad directamente a las filas escolares."
+      },
+      "truco": "El peatón tiene prioridad: en pasos señalizados, aceras y zonas peatonales; cuando giras y cruzan la calle en la que entras; cuando cruzas un arcén por el que caminan sin zona peatonal; entre el autobús y la acera en una parada señalizada; y ante filas escolares, unidades militares a pie y comitivas organizadas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "a) En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales. b) Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "d) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo. e) Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+        }
+      ],
+      "huella": "716f85d0c535"
+    },
+    {
+      "id": "x1b-0064",
+      "porque": "Es la señal P-20b, «Peatones»: advierte del peligro por la proximidad de un lugar o tramo con elevado tránsito de peatones. No indica un paso concreto, sino una zona donde habrá muchos.",
+      "descartes": {
+        "a": "La proximidad de un paso para peatones se advierte con otra señal, la P-20a; esta avisa de un lugar con mucho tránsito de peatones.",
+        "c": "El camino reservado para peatones se indica con una señal de obligación, la R-410; esta es una advertencia de peligro."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, P-20a",
+          "cita": "Peligro por la proximidad de uno o varios pasos para peatones"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-410",
+          "cita": "Obligación para los peatones de transitar por el camino a cuya entrada esté situada"
+        }
+      ],
+      "huella": "cc034bdf09ca"
+    },
+    {
+      "id": "x1b-0095",
+      "porque": "La S-49 indica una zona de espera ante el semáforo reservada a los vehículos de la señal. El pictograma de motocicleta representa a la vez a motocicletas, vehículos de tres ruedas asimilados y ciclomotores, así que un ciclomotor puede ocuparla.",
+      "descartes": {
+        "a": "El pictograma de moto no se limita a las motocicletas: incluye también los ciclomotores y los vehículos de tres ruedas asimilados.",
+        "b": "La señal muestra también una moto, no solo una bici; la zona es para los vehículos que aparecen en ella."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-49",
+          "cita": "representados los tres tipos por el pictograma de motocicleta, o ciclos)."
+        }
+      ],
+      "huella": "b0705d9e424e"
+    },
+    {
+      "id": "B1-sen-0133",
+      "porque": "Es la R-410, «Camino reservado y obligatorio para peatones»: obliga a los peatones a ir por ese camino y prohíbe a los demás usuarios de la vía utilizarlo.",
+      "descartes": {
+        "a": "Un paso para peatones se indica con otras señales; esta es de obligación y reserva un camino para los peatones.",
+        "c": "No está abierta a los vehículos: la señal prohíbe a los demás usuarios utilizar ese camino."
+      },
+      "truco": null,
+      "huella": "0fa8f666bfd7"
+    },
+    {
+      "id": "B1-sen-0038",
+      "porque": "En el semáforo de peatones, el verde fijo indica que puedes empezar a cruzar. Cuando pasa a parpadear, avisa de que el tiempo para terminar de atravesar la calzada se acaba y de que va a encenderse la luz roja.",
+      "descartes": {
+        "b": "El parpadeo no da prioridad a los vehículos sobre quienes ya están cruzando; solo avisa de que se acaba el tiempo para terminar de cruzar.",
+        "c": "El verde intermitente es una fase normal del semáforo de peatones, con un significado propio; no indica avería."
+      },
+      "truco": "Semáforo de peatones: rojo quieto, no empieces a cruzar; verde fijo, puedes empezar; verde parpadeando, se acaba el tiempo para terminar de cruzar y va a encenderse el rojo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.4.1",
+          "cita": "a) Una luz roja no intermitente, en forma de peatón inmóvil, indica a los peatones que no deben comenzar a cruzar la calzada. b) Una luz verde no intermitente, en forma de peatón en marcha, indica a los peatones que pueden comenzar a atravesar la calzada."
+        }
+      ],
+      "huella": "5b322ec63669"
+    },
+    {
+      "id": "B1-sen-0039",
+      "porque": "La luz roja fija con la figura de un peatón quieto indica a los peatones que no deben empezar a cruzar la calzada, vengan o no vehículos.",
+      "descartes": {
+        "a": "La señal no tiene excepción por ausencia de vehículos: con el rojo no se empieza a cruzar.",
+        "b": "El rojo no manda cruzar corriendo: indica que no hay que empezar a cruzar."
+      },
+      "truco": "Semáforo de peatones: rojo quieto, no empieces a cruzar; verde fijo, puedes empezar; verde parpadeando, se acaba el tiempo para terminar de cruzar y va a encenderse el rojo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.4.1",
+          "cita": "a) Una luz roja no intermitente, en forma de peatón inmóvil, indica a los peatones que no deben comenzar a cruzar la calzada. b) Una luz verde no intermitente, en forma de peatón en marcha, indica a los peatones que pueden comenzar a atravesar la calzada."
+        }
+      ],
+      "huella": "3da43b2366cd"
+    },
+    {
+      "id": "x1b-0047",
+      "porque": "Como norma general, en un paso con semáforo para peatones, la amarilla intermitente para vehículos debe ir precedida de la roja fija y no puede coincidir con el verde fijo de los peatones. Los vehículos pasan de estar detenidos a avanzar con precaución, cediendo el paso si hace falta.",
+      "descartes": {
+        "a": "La norma exige que la amarilla intermitente vaya precedida de la roja fija, no de la verde.",
+        "b": "Tampoco de la amarilla fija: la norma dice expresamente que debe ir precedida de la roja no intermitente."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.4.2.d",
+          "cita": "Una luz amarilla intermitente o dos luces amarillas alternativamente intermitentes obligan a los conductores a extremar la precaución y, en su caso, ceder el paso."
+        }
+      ],
+      "huella": "809232211f78"
+    },
+    {
+      "id": "v4b-sen-0010",
+      "porque": "Es la S-64a: en una calzada de sentido único, obliga a los conductores de ciclos a circular por el carril sobre el que está la señal y prohíbe a los demás usuarios utilizarlo. Las flechas indican el número de carriles de la calzada.",
+      "descartes": {
+        "a": "Los demás vehículos no pueden usar ese carril, tampoco para adelantar: la señal prohíbe su uso a los demás usuarios.",
+        "b": "La señal no anuncia el final del carril: obliga a los ciclos a circular por él."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-64a",
+          "cita": "la prohibición a los demás usuarios de la vía de utilizarlo. Las flechas indicarán el número de carriles de la calzada."
+        }
+      ],
+      "huella": "69abad60d728"
+    },
+    {
+      "id": "v3-sen-0019",
+      "porque": "Es la S-14c, una señal de indicación: marca dónde está un paso superior para peatones acondicionado con rampa.",
+      "descartes": {
+        "b": "No advierte de ningún peligro: es una señal informativa que indica dónde está un paso superior para peatones con rampa.",
+        "c": "El paso inferior para peatones con rampa tiene su propia señal, la S-14d; esta indica un paso superior."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-14d",
+          "cita": "Indica la situación de un paso inferior para peatones acondicionado con rampa."
+        }
+      ],
+      "huella": "0154aea72351"
+    },
+    {
+      "id": "v3-sen-0030",
+      "porque": "Es la S-46: indica dónde hay un paso para peatones adosado o compartido con un paso para ciclistas.",
+      "descartes": {
+        "a": "La zona de coexistencia se indica con la S-47, una señal distinta.",
+        "b": "La senda para peatones y ciclistas es la senda ciclopeatonal, señal S-33; esta indica un paso para cruzar."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-47",
+          "cita": "Indica una zona de circulación que está destinada en primer lugar a los peatones"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-33",
+          "cita": "Indica la existencia de una vía para peatones, ciclos y, en su caso, VMP, segregada del tráfico motorizado"
+        }
+      ],
+      "huella": "39123590f6f6"
+    },
+    {
+      "id": "v4b-sen-0008",
+      "porque": "Es la S-33, senda ciclopeatonal: una vía compartida por peatones, ciclos y, en su caso, VMP. Cuando hay personas caminando, los ciclos deben reducir la velocidad para garantizar la seguridad y la convivencia.",
+      "descartes": {
+        "b": "Bajarse y seguir a pie lo exige otra señal, la R-422 «Desmontar y continuar a pie»; en la senda ciclopeatonal la bici puede circular.",
+        "c": "Aunque las personas que caminan deben facilitar el paso a los ciclos, la señal obliga a la bici a reducir la velocidad cuando hay peatones."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-422",
+          "cita": "Obligación para los usuarios de ciclos de continuar a pie."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-33",
+          "cita": "Asimismo, las personas viandantes facilitarán el paso de los ciclos y, en su caso, los VMP."
+        }
+      ],
+      "huella": "28c01c25e439"
+    },
+    {
+      "id": "v3-sen-0016",
+      "porque": "Es la R-421, una señal de obligación: los conductores de ciclos y de vehículos de movilidad personal deben circular por esa vía, y los demás usuarios tienen prohibido utilizarla.",
+      "descartes": {
+        "b": "No es una recomendación: es una obligación para ciclos y VMP, y prohíbe la vía a los demás, peatones incluidos.",
+        "c": "Es justo lo contrario: la señal obliga a ciclos y VMP a circular por esa vía."
+      },
+      "truco": null,
+      "huella": "a69bcfa9ecae"
+    },
+    {
+      "id": "v3-sen-0039",
+      "porque": "Es el panel S-891: colocado bajo la señal vertical correspondiente, recuerda la anchura de seguridad mínima que hay que dejar al adelantar a un ciclo o ciclomotor. La norma general es de al menos 1,5 metros.",
+      "descartes": {
+        "a": "El panel no se refiere a la distancia por detrás, sino a la separación lateral al adelantar.",
+        "b": "No indica la anchura del carril bici: recuerda la separación lateral mínima al adelantar a ciclos o ciclomotores."
+      },
+      "truco": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclos, ciclomotores o VMP: al menos 1,5 m de separación lateral (o cambio completo de carril si hay más de uno por sentido) y, fuera de poblado, al menos 20 km/h menos que el límite de la vía, antes y durante toda la maniobra.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas, el conductor que adelanta deberá tener especial cuidado con la maniobra"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+        }
+      ],
+      "huella": "2bab723404de"
+    },
+    {
+      "id": "v3-sen-0006",
+      "porque": "Es la P-22a, una señal de peligro: advierte de la proximidad de uno o varios pasos para ciclistas, donde ellos tienen prioridad.",
+      "descartes": {
+        "a": "El comienzo de una vía reservada para ciclos se indica con otras señales, como la S-35 o la R-407a; esta advierte de un paso para ciclistas.",
+        "b": "No anuncia una prueba deportiva: advierte de pasos para ciclistas."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-407a",
+          "cita": "Obligación para los conductores de ciclos de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-35",
+          "cita": "Indica la existencia de una vía destinada a la circulación de ciclos y prohibición a los demás usuarios de la vía de utilizarla."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "64.2",
+          "cita": "a) Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados. b) Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades. c) Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta."
+        }
+      ],
+      "huella": "0d0b136a9ff2"
+    },
+    {
+      "id": "v3-sen-0027",
+      "porque": "Es la S-33, senda ciclopeatonal: indica una vía para peatones, ciclos y, en su caso, VMP, segregada del tráfico motorizado, que suele discurrir por espacios abiertos, parques, jardines o bosques.",
+      "descartes": {
+        "a": "No indica un parque infantil: indica una vía compartida por peatones y ciclos.",
+        "b": "Los peatones sí pueden usarla: es una vía para peatones, ciclos y, en su caso, VMP."
+      },
+      "truco": null,
+      "huella": "ca09ef266b8f"
+    },
+    {
+      "id": "v3-sen-0029",
+      "porque": "Es la S-35: indica una vía destinada a la circulación de ciclos y prohíbe utilizarla a los demás usuarios. Para el ciclista, su uso es preferente; solo es obligatorio si se señaliza con la R-407a.",
+      "descartes": {
+        "a": "No es una recomendación genérica de usar la bici: indica una vía para ciclos y prohíbe a los demás utilizarla.",
+        "c": "No indica un aparcamiento: indica una vía para circular en ciclo."
+      },
+      "truco": "Señal cuadrada azul de vía para ciclos (S-35): para el ciclista es de uso preferente, y los demás no pueden usarla. Señal redonda azul con bici (R-407a): obligatoria para el ciclista y prohibida a los demás.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-407a",
+          "cita": "Obligación para los conductores de ciclos de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-35",
+          "cita": "Indica la existencia de una vía destinada a la circulación de ciclos y prohibición a los demás usuarios de la vía de utilizarla."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "153.1",
+          "cita": "Si hay carril bici o vía específica, su uso es preferente, si bien la autoridad competente podrá hacerlo obligatorio mediante la señal R–407a."
+        }
+      ],
+      "huella": "913fc9899159"
+    },
+    {
+      "id": "v4b-sen-0009",
+      "porque": "Esta es la S-35, cuadrada: indica una vía para ciclos que los demás no pueden usar, pero no obliga al ciclista. Si hay vía ciclista, su uso es preferente, y solo es obligatorio cuando se señaliza con la R-407a, la redonda azul.",
+      "descartes": {
+        "a": "La obligación la impone la señal redonda azul con bicicleta (R-407a), no esta cuadrada.",
+        "c": "Ir en grupo no tiene nada que ver: con esta señal el uso es preferente para todos los ciclistas, vayan solos o en grupo."
+      },
+      "truco": "Señal cuadrada azul de vía para ciclos (S-35): para el ciclista es de uso preferente, y los demás no pueden usarla. Señal redonda azul con bici (R-407a): obligatoria para el ciclista y prohibida a los demás.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-407a",
+          "cita": "Obligación para los conductores de ciclos de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-35",
+          "cita": "Indica la existencia de una vía destinada a la circulación de ciclos y prohibición a los demás usuarios de la vía de utilizarla."
+        }
+      ],
+      "huella": "b94a7dc94d9e"
+    },
+    {
+      "id": "v3-sen-0023",
+      "porque": "Es la S-28, zona de estancia y juego: las zonas de circulación están destinadas en primer lugar a los peatones, los vehículos van a 10 km/h como máximo, deben dar prioridad a los peatones y los juegos y los deportes están autorizados.",
+      "descartes": {
+        "a": "En esta zona pueden circular vehículos, a 10 km/h como máximo; y los juegos y deportes están autorizados.",
+        "c": "La velocidad máxima aquí es de 10 km/h, no de 20. Los 20 km/h son de la zona de coexistencia (S-47), en la que los juegos no están autorizados."
+      },
+      "truco": "Zonas para peatones: S-28, estancia y juego (10 km/h, juegos y deportes permitidos); S-47, coexistencia (20 km/h, juegos y deportes no permitidos); S-30a, zona peatonal, reservada al uso peatonal.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-28",
+          "cita": "la velocidad máxima de los vehículos está fijada en 10 kilómetros por hora"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-28",
+          "cita": "los juegos y los deportes están autorizados en ella."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-47",
+          "cita": "la velocidad máxima de los vehículos será de 20 kmíh"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-47",
+          "cita": "los juegos y los deportes no están autorizados."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-30a",
+          "cita": "Indica una zona reservada para el uso peatonal."
+        }
+      ],
+      "huella": "6d458397a242"
+    },
+    {
+      "id": "v3-sen-0026",
+      "porque": "Es la S-30a, zona peatonal: indica una zona reservada para el uso peatonal.",
+      "descartes": {
+        "a": "La zona de estancia y juego, con 10 km/h como máximo, es la S-28, una señal distinta.",
+        "c": "La zona de coexistencia, con 20 km/h como máximo, es la S-47, una señal distinta."
+      },
+      "truco": "Zonas para peatones: S-28, estancia y juego (10 km/h, juegos y deportes permitidos); S-47, coexistencia (20 km/h, juegos y deportes no permitidos); S-30a, zona peatonal, reservada al uso peatonal.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-28",
+          "cita": "la velocidad máxima de los vehículos está fijada en 10 kilómetros por hora"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-28",
+          "cita": "los juegos y los deportes están autorizados en ella."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-47",
+          "cita": "la velocidad máxima de los vehículos será de 20 kmíh"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-47",
+          "cita": "los juegos y los deportes no están autorizados."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, S-30a",
+          "cita": "Indica una zona reservada para el uso peatonal."
+        }
+      ],
+      "huella": "21579d7e696c"
+    },
+    {
+      "id": "xd-0054",
+      "porque": "El ganado solo puede ir por una carretera cuando no hay un itinerario practicable por vía pecuaria, y siempre custodiado por alguien. Además, debe ir por la vía alternativa con menos tráfico de vehículos.",
+      "descartes": {
+        "b": "El ganado no tiene preferencia en todas las vías: por regla general la tienen los vehículos, salvo excepciones como las cañadas señalizadas.",
+        "c": "La norma no limita el paso a la noche; lo condiciona a que no haya vía pecuaria practicable y a que vaya custodiado."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "126",
+          "cita": "Dicho tránsito se efectuará por la vía alternativa que tenga menor intensidad de circulación de vehículos"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "66.1",
+          "cita": "Los conductores tienen prioridad de paso para sus vehículos, respecto de los animales, salvo en los casos siguientes: a) En las cañadas debidamente señalizadas."
+        }
+      ],
+      "huella": "2d1ca95bcd5b"
+    },
+    {
+      "id": "xd-0055",
+      "porque": "Los animales de tiro, carga o silla y el ganado deben ir conducidos al menos por una persona mayor de 18 años, capaz de dominarlos en todo momento.",
+      "descartes": {
+        "a": "Más de 14 años no basta: la norma exige ser mayor de 18.",
+        "c": "Más de 16 años tampoco basta: la edad mínima es más de 18."
+      },
+      "truco": null,
+      "huella": "d9e539a302ac"
+    },
+    {
+      "id": "xd-0057",
+      "porque": "Un rebaño va al paso, lo más cerca posible del borde derecho y sin ocupar nunca más de la mitad derecha de la calzada. Además, va dividido en grupos de longitud moderada, cada uno con un conductor al menos.",
+      "descartes": {
+        "a": "Nunca puede ocupar toda la calzada: el máximo es la mitad derecha.",
+        "b": "La norma permite usar la calzada, siempre que no pase de la mitad derecha."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "127.1.c",
+          "cita": "divididos en grupos de longitud moderada, cada uno de los cuales con un conductor al menos"
+        }
+      ],
+      "huella": "56ee17334d09"
+    },
+    {
+      "id": "xd-0058",
+      "porque": "Se prohíbe dejar animales sin custodia en cualquier vía o en sus inmediaciones siempre que puedan invadirla. Si las vacas pueden llegar a la carretera, alguien tiene que vigilarlas.",
+      "descartes": {
+        "a": "La señal de paso de animales advierte a los conductores del peligro, pero no autoriza a dejar los animales sin custodia.",
+        "b": "La prohibición no depende de la hora ni de la visibilidad: basta con que los animales puedan invadir la vía."
+      },
+      "truco": null,
+      "huella": "2d5d58db8fa5"
+    },
+    {
+      "id": "xd-0059",
+      "porque": "A quien conduce caballerías, ganado o carros de tracción animal le está prohibido llevarlos corriendo por la vía cerca de personas que van a pie o de otros animales de la misma especie.",
+      "descartes": {
+        "a": "Que la vía sea recta y con buena visibilidad no cambia nada: cerca de personas a pie está prohibido llevarlo corriendo.",
+        "c": "Avisar con la voz no levanta la prohibición: cerca de quienes van a pie no se puede llevar el caballo corriendo."
+      },
+      "truco": null,
+      "huella": "d1a542f720d4"
+    },
+    {
+      "id": "res-ref-0001",
+      "porque": "El ciclista que circula por vía interurbana de noche, o con condiciones que reducen mucho la visibilidad, debe llevar al menos un elemento luminoso o reflectante homologado visible a 150 metros. Es la misma distancia que se exige a los peatones en vía interurbana.",
+      "descartes": {
+        "b": "50 metros es muy poco: la norma exige que sea visible a 150 metros como mínimo.",
+        "c": "100 metros tampoco llega: la distancia mínima es de 150 metros."
+      },
+      "truco": "Peatón o ciclista en vía interurbana, de noche o con poca visibilidad: algo luminoso o reflectante visible a 150 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "123.1",
+          "cita": "que sea visible a una distancia mínima de 150 metros para los conductores que se les aproximen."
+        }
+      ],
+      "huella": "226fdf025efa"
+    },
+    {
+      "id": "xd-0060",
+      "porque": "Los ciclistas pueden ir en columna de a dos, también por la calzada si no hay arcén transitable. Pero deben ponerse en hilera en los tramos sin visibilidad cuando afecten a la fluidez de la circulación, y también de noche o con poca visibilidad.",
+      "descartes": {
+        "a": "En los tramos sin visibilidad la norma pide pasar a hilera cuando se afecta a la fluidez; pegarse al borde no sustituye esa obligación.",
+        "b": "Ir más despacio no resuelve el problema: en esos tramos la norma pide colocarse en hilera."
+      },
+      "truco": "Bicis en columna de a dos: sí por el arcén; por la calzada, solo si no hay arcén transitable, y en hilera en tramos sin visibilidad que afecten a la fluidez, de noche o con poca visibilidad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.2",
+          "cita": "los conductores de bicicletas podrán circular en columna de a dos por el arcén. En el caso de que éste no exista o no fuera transitable y suficiente, podrán circular en columna de a dos por la parte imprescindible de la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "36.2",
+          "cita": "o cuando circulen entre el ocaso y la salida del sol o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad."
+        }
+      ],
+      "huella": "42411e835348"
+    },
+    {
+      "id": "xd-0061",
+      "porque": "La regla general es que el ciclista va por el arcén si es transitable. Pero en los descensos prolongados con curvas, si la seguridad lo permite, puede dejarlo y circular por la parte derecha de la calzada que necesite. La excepción no vale en autovías.",
+      "descartes": {
+        "a": "Ese «siempre» olvida la excepción de los descensos prolongados con curvas, en los que la bici puede ir por la calzada si es seguro.",
+        "c": "La norma solo le permite usar la parte derecha de la calzada que necesite, no el centro."
+      },
+      "truco": "Bici en bajada larga con curvas: puede salir del arcén a la parte derecha de la calzada, salvo en la autovía, donde va siempre por el arcén.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "En los descensos prolongados con curvas, cuando razones de seguridad lo permitan, y salvo en las autovías en las que en todo caso circularán por el arcén"
+        }
+      ],
+      "huella": "8f013573a792"
+    },
+    {
+      "id": "xd-0065",
+      "porque": "En ciudad, los ciclistas circulan preferentemente por el centro del carril, siempre que su seguridad y la de los demás lo permitan.",
+      "descartes": {
+        "a": "Ir pegado al bordillo no es lo que pide la norma: el ciclista debe ir preferentemente por el centro del carril.",
+        "c": "La norma no manda ir por la parte izquierda del carril, sino por el centro."
+      },
+      "truco": "Bici en ciudad: por el centro del carril si es seguro; con dos o más carriles por sentido, por el derecho (los otros, para girar o por seguridad); y adelanta por el lado que le sea más seguro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "153.3",
+          "cita": "Los ciclistas circularán preferentemente por el centro del carril en la medida en que su seguridad y la de los otros usuarios lo permitan. En vías que dispongan de al menos dos carriles de circulación por sentido, los ciclistas circularán por el carril derecho. Podrán circular por los otros carriles cuando vayan a cambiar de dirección, o cuando lo precisen por razones de seguridad."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "153.5",
+          "cita": "Los ciclistas podrán adelantar a otros vehículos por la derecha o por la izquierda, según sea más conveniente para su seguridad."
+        }
+      ],
+      "huella": "911d036ac481"
+    },
+    {
+      "id": "xd-0066",
+      "porque": "En las vías con al menos dos carriles por sentido, el ciclista circula por el carril derecho. Puede usar los otros cuando va a cambiar de dirección o cuando lo necesite por seguridad.",
+      "descartes": {
+        "a": "No puede usarlos indistintamente: la regla es el derecho, y los otros solo para cambiar de dirección o por seguridad.",
+        "c": "La norma indica el carril derecho, no el izquierdo."
+      },
+      "truco": "Bici en ciudad: por el centro del carril si es seguro; con dos o más carriles por sentido, por el derecho (los otros, para girar o por seguridad); y adelanta por el lado que le sea más seguro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "153.3",
+          "cita": "Los ciclistas circularán preferentemente por el centro del carril en la medida en que su seguridad y la de los otros usuarios lo permitan. En vías que dispongan de al menos dos carriles de circulación por sentido, los ciclistas circularán por el carril derecho. Podrán circular por los otros carriles cuando vayan a cambiar de dirección, o cuando lo precisen por razones de seguridad."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "153.5",
+          "cita": "Los ciclistas podrán adelantar a otros vehículos por la derecha o por la izquierda, según sea más conveniente para su seguridad."
+        }
+      ],
+      "huella": "252de5d115ec"
+    },
+    {
+      "id": "xd-0067",
+      "porque": "Los ciclistas pueden adelantar a otros vehículos por la derecha o por la izquierda, según les resulte más seguro. Es una regla propia de la bici en ciudad.",
+      "descartes": {
+        "b": "A diferencia de la regla general, el ciclista no está limitado a la izquierda: puede adelantar por el lado que le sea más seguro.",
+        "c": "Tampoco está limitado a la derecha: elige el lado más seguro."
+      },
+      "truco": "Bici en ciudad: por el centro del carril si es seguro; con dos o más carriles por sentido, por el derecho (los otros, para girar o por seguridad); y adelanta por el lado que le sea más seguro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "153.3",
+          "cita": "Los ciclistas circularán preferentemente por el centro del carril en la medida en que su seguridad y la de los otros usuarios lo permitan. En vías que dispongan de al menos dos carriles de circulación por sentido, los ciclistas circularán por el carril derecho. Podrán circular por los otros carriles cuando vayan a cambiar de dirección, o cuando lo precisen por razones de seguridad."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "153.5",
+          "cita": "Los ciclistas podrán adelantar a otros vehículos por la derecha o por la izquierda, según sea más conveniente para su seguridad."
+        }
+      ],
+      "huella": "5c2c8b6808f5"
+    },
+    {
+      "id": "xd-0087",
+      "porque": "Según la DGT, hay más accidentes de ciclistas dentro de las ciudades, pero mueren más en las carreteras fuera de ellas.",
+      "descartes": {
+        "b": "Dentro de las ciudades hay más accidentes de ciclistas, pero las muertes son más en las carreteras de fuera.",
+        "c": "El manual no sitúa en los carriles bici urbanos el mayor número de muertes; las sitúa en las carreteras fuera de las ciudades."
+      },
+      "truco": "Ciclistas: más accidentes en la ciudad, más muertes en la carretera.",
+      "huella": "78eb521ad63c"
+    },
+    {
+      "id": "xd-0088",
+      "porque": "La DGT aconseja tener cuidado junto a vehículos aparcados porque un ciclista puede aparecer de repente entre ellos, sin que lo hayas visto antes.",
+      "descartes": {
+        "a": "Ninguna norma prohíbe a los ciclistas circular junto a vehículos aparcados; el riesgo es que aparezcan entre ellos.",
+        "c": "El manual no habla de adherencia: el riesgo es que los ciclistas aparezcan de entre los vehículos aparcados."
+      },
+      "truco": null,
+      "huella": "8077084bada4"
+    },
+    {
+      "id": "D-vul-0004",
+      "porque": "Según el manual de la DGT, en España los accidentes de tráfico son la primera causa de muerte de los jóvenes de 15 a 29 años.",
+      "descartes": {
+        "a": "Es lo contrario: para los jóvenes de esa edad son la primera causa de muerte.",
+        "b": "El manual dice que son la primera causa de muerte de los jóvenes de 15 a 29 años, no de los mayores de 65."
+      },
+      "truco": null,
+      "huella": "595d8591a9ac"
+    },
+    {
+      "id": "xd-0085",
+      "porque": "Entre los problemas que muchas personas mayores tienen como peatones, la DGT señala la dificultad para saber a qué velocidad viene un vehículo, además de no oír un vehículo que se acerca por el ruido ambiente o distinguir mal el color de los semáforos.",
+      "descartes": {
+        "a": "La DGT sí enumera dificultades concretas de los mayores como peatones, como calcular la velocidad de los vehículos.",
+        "b": "El manual no dice que suelan cruzar corriendo; señala otras dificultades, como calcular la velocidad de los vehículos."
+      },
+      "truco": "Personas mayores, según la DGT: prudentes y cumplidoras, pero reaccionan más despacio, calculan peor la velocidad de los vehículos, tienen más accidentes cuando van solas y sufren lesiones más graves.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Pueden tener dificultad para saber a qué velocidad viene un vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+          "cita": "Estas personas suelen ser muy prudentes al conducir y cumplen con las normas de tráfico."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+          "cita": "necesitar más tiempo para reaccionar ante un imprevisto."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Las personas mayores tienen más accidentes cuando van solos que cuando van acompañadas por niños."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 406)",
+          "cita": "En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Pueden tener dificultad para distinguir el color de los semáforos."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "El ruido que hay en el ambiente no les deja oír a un vehículo cuando se acerca."
+        }
+      ],
+      "huella": "63727770cc32"
+    },
+    {
+      "id": "xd-0086",
+      "porque": "La DGT reconoce que los mayores de 65 suelen conducir con prudencia y cumplir las normas, pero pueden tener menos capacidad de atención y necesitar más tiempo para reaccionar ante un imprevisto. Algunos, además, ven y oyen peor o toman medicamentos que afectan a la conducción.",
+      "descartes": {
+        "b": "El manual dice lo contrario: suelen ser muy prudentes. El riesgo viene de la atención y el tiempo de reacción, no del exceso de velocidad.",
+        "c": "El manual dice que cumplen con las normas de tráfico; el riesgo está en reaccionar más despacio."
+      },
+      "truco": "Personas mayores, según la DGT: prudentes y cumplidoras, pero reaccionan más despacio, calculan peor la velocidad de los vehículos, tienen más accidentes cuando van solas y sufren lesiones más graves.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Pueden tener dificultad para saber a qué velocidad viene un vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+          "cita": "Estas personas suelen ser muy prudentes al conducir y cumplen con las normas de tráfico."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+          "cita": "necesitar más tiempo para reaccionar ante un imprevisto."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Las personas mayores tienen más accidentes cuando van solos que cuando van acompañadas por niños."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 406)",
+          "cita": "En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 406)",
+          "cita": "Muchas personas mayores de 65 años ven y oyen peor. ■ Algunas personas mayores toman medicamentos que afectan para conducir."
+        }
+      ],
+      "huella": "16fd183e6297"
+    },
+    {
+      "id": "xd-0089",
+      "porque": "Según la DGT, los accidentes más comunes de motocicletas y ciclomotores al adelantar son los choques frontales y laterales.",
+      "descartes": {
+        "b": "El manual no señala las salidas de la vía en recta como el accidente típico al adelantar; habla de choques frontales y laterales.",
+        "c": "Tampoco los alcances por detrás: los más comunes al adelantar son los frontales y laterales."
+      },
+      "truco": null,
+      "huella": "99f20e5f6550"
+    },
+    {
+      "id": "xd-0090",
+      "porque": "Las motos son más frágiles y se ven peor que otros vehículos. Por eso la DGT recomienda comprobar que no circula ningún vehículo de dos ruedas antes de cambiar de carril.",
+      "descartes": {
+        "a": "Cambiar deprisa no quita el riesgo de no haber visto la moto; lo que se recomienda es comprobar antes que no viene ninguna.",
+        "b": "Poner el intermitente es obligatorio, pero no garantiza que te vean; hay que comprobar tú que no viene ningún vehículo de dos ruedas."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Conductores de vehículos de dos ruedas (p. 407)",
+          "cita": "Los vehículos de dos ruedas son más frágiles y se ven peor que el resto de vehículos."
+        }
+      ],
+      "huella": "17cc2eff0d3b"
+    },
+    {
+      "id": "D-vul-0002",
+      "porque": "Los niños son más bajos que los adultos: ven menos tramo de carretera y, a la vez, los conductores los ven peor a ellos. Además, prestan menos atención al tráfico y no conocen las normas.",
+      "descartes": {
+        "b": "Cruzar por los pasos de peatones es una precaución, no un riesgo; el manual explica el riesgo de los niños por su altura, su atención y su desconocimiento de las normas.",
+        "c": "Es lo contrario: según la DGT, los niños no conocen las normas de tráfico."
+      },
+      "truco": "Niños peatones, según la DGT: son más bajos (ven menos y se les ve peor), prestan menos atención, no conocen las normas, y la mayoría de los atropellos ocurre a la salida de la escuela.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Los niños (p. 401)",
+          "cita": "Son más bajos de altura que los adultos. Esto hace que vean menos tramo de carretera y que los conductores los vean peor a ellos. ■ Prestan menos atención a la carretera porque tienen menos sensación de peligro. ■ No conocen las normas de tráfico. La mayoría de los atropellos a niños se da cuando salen de la escuela."
+        }
+      ],
+      "huella": "1f8a8208df59"
+    },
+    {
+      "id": "xd-0084",
+      "porque": "Según la DGT, la mayoría de los atropellos a niños se produce cuando salen de la escuela. Además, los niños prestan menos atención al tráfico porque tienen menos sensación de peligro.",
+      "descartes": {
+        "a": "El manual no sitúa la mayoría de los atropellos a niños en las vacaciones, sino a la salida de la escuela.",
+        "b": "Tampoco de noche en calles sin luz: el momento que destaca es la salida de la escuela."
+      },
+      "truco": "Niños peatones, según la DGT: son más bajos (ven menos y se les ve peor), prestan menos atención, no conocen las normas, y la mayoría de los atropellos ocurre a la salida de la escuela.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Los niños (p. 401)",
+          "cita": "Son más bajos de altura que los adultos. Esto hace que vean menos tramo de carretera y que los conductores los vean peor a ellos. ■ Prestan menos atención a la carretera porque tienen menos sensación de peligro. ■ No conocen las normas de tráfico. La mayoría de los atropellos a niños se da cuando salen de la escuela."
+        }
+      ],
+      "huella": "218afb6a37d1"
+    },
+    {
+      "id": "xd-0049",
+      "porque": "Donde hay pasos para peatones, quien va a atravesar la calzada debe hacerlo precisamente por ellos, y no por sus proximidades. A 15 metros del paso, hay que ir hasta él.",
+      "descartes": {
+        "b": "Que no venga ningún vehículo no autoriza a cruzar cerca del paso: si existe paso, hay que usarlo.",
+        "c": "Levantar la mano no sustituye al paso: si existe, hay que cruzar por él."
+      },
+      "truco": "Peatón ante un paso: si tiene semáforo de peatones, obedécelo; si no lo tiene pero hay semáforo o agente para los vehículos, no entres mientras les dejen pasar a ellos; si no hay nada, tienes preferencia, pero entra solo cuando la distancia y la velocidad de los vehículos lo permitan con seguridad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "124.1",
+          "cita": "a) Si el paso dispone de semáforos para peatones, obedecerán sus indicaciones. b) Si no existiera semáforo para peatones pero la circulación de vehículos estuviera regulada por agente o semáforo, no penetrarán en la calzada mientras la señal del agente o del semáforo permita la circulación de vehículos por ella. c) En los restantes pasos para peatones señalizados mediante la correspondiente marca vial, aunque tienen preferencia, sólo deben penetrar en la calzada cuando la distancia y la velocidad de los vehículos que se aproximen permitan hacerlo con seguridad."
+        }
+      ],
+      "huella": "dabf1dfa5a44"
+    },
+    {
+      "id": "xd-0050",
+      "porque": "Si un paso no tiene semáforo para peatones pero los vehículos están regulados por un semáforo, el peatón no debe entrar en la calzada mientras ese semáforo permita circular a los vehículos.",
+      "descartes": {
+        "a": "La preferencia en el paso no es absoluta: si un semáforo da paso a los vehículos, el peatón debe esperar.",
+        "c": "Cruzar aprovechando huecos es justo lo que se prohíbe: no se entra en la calzada mientras el semáforo deje pasar a los vehículos."
+      },
+      "truco": "Peatón ante un paso: si tiene semáforo de peatones, obedécelo; si no lo tiene pero hay semáforo o agente para los vehículos, no entres mientras les dejen pasar a ellos; si no hay nada, tienes preferencia, pero entra solo cuando la distancia y la velocidad de los vehículos lo permitan con seguridad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "124.1",
+          "cita": "a) Si el paso dispone de semáforos para peatones, obedecerán sus indicaciones. b) Si no existiera semáforo para peatones pero la circulación de vehículos estuviera regulada por agente o semáforo, no penetrarán en la calzada mientras la señal del agente o del semáforo permita la circulación de vehículos por ella. c) En los restantes pasos para peatones señalizados mediante la correspondiente marca vial, aunque tienen preferencia, sólo deben penetrar en la calzada cuando la distancia y la velocidad de los vehículos que se aproximen permitan hacerlo con seguridad."
+        }
+      ],
+      "huella": "1291e3d27856"
+    },
+    {
+      "id": "xd-0051",
+      "porque": "En un paso señalizado solo con marcas, sin semáforo ni agente, el peatón tiene preferencia, pero solo debe entrar en la calzada cuando la distancia y la velocidad de los vehículos que se acercan le permitan hacerlo con seguridad.",
+      "descartes": {
+        "b": "Tener preferencia no autoriza a entrar en cualquier momento: hay que dar tiempo a los vehículos para frenar con seguridad.",
+        "c": "No hace falta que no se vea ningún vehículo: basta con que su distancia y su velocidad permitan cruzar con seguridad."
+      },
+      "truco": "Peatón ante un paso: si tiene semáforo de peatones, obedécelo; si no lo tiene pero hay semáforo o agente para los vehículos, no entres mientras les dejen pasar a ellos; si no hay nada, tienes preferencia, pero entra solo cuando la distancia y la velocidad de los vehículos lo permitan con seguridad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "124.1",
+          "cita": "a) Si el paso dispone de semáforos para peatones, obedecerán sus indicaciones. b) Si no existiera semáforo para peatones pero la circulación de vehículos estuviera regulada por agente o semáforo, no penetrarán en la calzada mientras la señal del agente o del semáforo permita la circulación de vehículos por ella. c) En los restantes pasos para peatones señalizados mediante la correspondiente marca vial, aunque tienen preferencia, sólo deben penetrar en la calzada cuando la distancia y la velocidad de los vehículos que se aproximen permitan hacerlo con seguridad."
+        }
+      ],
+      "huella": "0bb38967b48c"
+    },
+    {
+      "id": "xd-0052",
+      "porque": "Al atravesar la calzada hay que caminar perpendicularmente a su eje, que es el camino más corto, sin entretenerse ni detenerse sin necesidad y sin entorpecer el paso a los demás.",
+      "descartes": {
+        "a": "Cruzar en diagonal alarga el recorrido por la calzada; la norma exige hacerlo en perpendicular a su eje.",
+        "b": "La norma pide no demorarse ni detenerse en la calzada sin necesidad."
+      },
+      "truco": null,
+      "huella": "9fe3da6bc5c7"
+    },
+    {
+      "id": "xd-0053",
+      "porque": "Los peatones no pueden atravesar plazas y glorietas por su calzada: deben rodearlas, salvo que haya un paso para peatones habilitado.",
+      "descartes": {
+        "b": "Atravesarla por el centro es justo lo que prohíbe la norma, aunque sea más corto.",
+        "c": "Que no vengan vehículos no lo permite: sin paso para peatones habilitado, hay que rodear la glorieta."
+      },
+      "truco": null,
+      "huella": "a935e4651ead"
+    },
+    {
+      "id": "xd-0044",
+      "porque": "Sin zona peatonal practicable, la regla general es caminar por el arcén izquierdo en el sentido de la marcha o, si no hay, por la calzada. Excepcionalmente, se puede ir por la derecha cuando hay razones de seguridad que lo justifican.",
+      "descartes": {
+        "a": "Ese «en ningún caso» olvida la excepción: por razones de seguridad se puede ir por la derecha, y algunos peatones deben hacerlo siempre.",
+        "c": "Ir por la derecha es una excepción que necesita razones de seguridad, no una cuestión de preferencia."
+      },
+      "truco": "Peatón sin zona peatonal: por el arcén izquierdo (o la calzada), lo más lejos posible de los vehículos. Por la derecha, solo por razones de seguridad, y siempre quien empuja una bici, un ciclomotor de dos ruedas o un VMP, y los grupos dirigidos por una persona.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "122.1",
+          "cita": "En los supuestos en los que no exista zona peatonal practicable, los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada. En ambos casos, deberán hacerlo lo más alejados posible del tránsito de los vehículos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.2",
+          "cita": "a) Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal o vehículos de similares características. b) Todo grupo de peatones dirigido por una persona."
+        }
+      ],
+      "huella": "e5df88cd3500"
+    },
+    {
+      "id": "xd-0045",
+      "porque": "Los peatones que tienen que ir por el arcén o por la calzada deben acercarse cuanto puedan al borde exterior, con precaución, sin entorpecer la circulación y marchando uno detrás de otro.",
+      "descartes": {
+        "a": "Ir uno al lado del otro ocupa más anchura; la norma exige marchar uno detrás de otro.",
+        "c": "Tampoco por el centro del arcén: hay que acercarse al borde exterior y en fila."
+      },
+      "truco": "Peatón sin zona peatonal: por el arcén izquierdo (o la calzada), lo más lejos posible de los vehículos. Por la derecha, solo por razones de seguridad, y siempre quien empuja una bici, un ciclomotor de dos ruedas o un VMP, y los grupos dirigidos por una persona.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "122.1",
+          "cita": "En los supuestos en los que no exista zona peatonal practicable, los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada. En ambos casos, deberán hacerlo lo más alejados posible del tránsito de los vehículos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.2",
+          "cita": "a) Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal o vehículos de similares características. b) Todo grupo de peatones dirigido por una persona."
+        }
+      ],
+      "huella": "5e55a4f6e6c7"
+    },
+    {
+      "id": "xd-0046",
+      "porque": "Si hay refugio, zona peatonal u otro espacio adecuado, ningún peatón puede quedarse parado en la calzada ni en el arcén, ni siquiera esperando un vehículo. Solo puede invadir la calzada para subir al autobús, y cuando este ya está a su altura.",
+      "descartes": {
+        "a": "Ni el bordillo ni la ropa llamativa permiten esperar en la calzada si hay una zona peatonal.",
+        "c": "Ser visto no justifica esperar en la calzada: con zona peatonal, hay que esperar en ella."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "122.4",
+          "cita": "Cuando exista refugio, zona peatonal u otro espacio adecuado a tal fin, ningún peatón permanecerá detenido ni en la calzada ni en el arcén, ni siquiera en espera de un vehículo."
+        }
+      ],
+      "huella": "a7e57e2ffd65"
+    },
+    {
+      "id": "xd-0047",
+      "porque": "Al percibir las señales luminosas o acústicas de un vehículo prioritario, los peatones deben despejar la calzada y quedarse en los refugios o zonas peatonales, si existen, o alejarse de la zona por la que circulan los vehículos.",
+      "descartes": {
+        "a": "Ante un vehículo prioritario en servicio urgente, el peatón no sigue como si nada: debe despejar la calzada.",
+        "c": "Quedarse quieto en el centro es lo contrario de lo que se pide: hay que despejar la calzada."
+      },
+      "truco": null,
+      "huella": "a258da91aabc"
+    },
+    {
+      "id": "xd-0048",
+      "porque": "El elemento luminoso o reflectante no es solo para la noche: también es obligatorio en vía interurbana con condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como una niebla densa, aunque sea de día.",
+      "descartes": {
+        "b": "La obligación no es solo de noche: se extiende a las condiciones que disminuyen sensiblemente la visibilidad, como la niebla.",
+        "c": "No es solo para ciclistas: la norma obliga a los peatones que transitan por la calzada o el arcén de vías interurbanas."
+      },
+      "truco": "Peatón o ciclista en vía interurbana, de noche o con poca visibilidad: algo luminoso o reflectante visible a 150 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "123.1",
+          "cita": "deberán hacer uso, al menos, de un elemento luminoso o reflectante conforme a la normativa de equipos de protección individual, que sea visible a una distancia mínima de 150 metros"
+        }
+      ],
+      "huella": "8f079047a33f"
+    },
+    {
+      "id": "xd-0082",
+      "porque": "Según la DGT, un peatón atropellado tiene más posibilidades de morir cuando el accidente ocurre en una carretera fuera de la ciudad, porque allí los vehículos circulan más rápido.",
+      "descartes": {
+        "a": "El manual no relaciona el riesgo de morir con la cantidad de tráfico, sino con la velocidad, que es mayor fuera de la ciudad.",
+        "c": "El manual no dice eso de los pasos para peatones; lo que aumenta el riesgo de morir es la velocidad de las carreteras fuera de la ciudad."
+      },
+      "truco": null,
+      "huella": "93c62cb6ce42"
+    },
+    {
+      "id": "xd-0083",
+      "porque": "La parte exterior de los vehículos actuales está diseñada para causar menos daños si atropellan a un peatón. Modificarla puede quitar esa protección, y por eso la DGT recomienda no hacer cambios en ella.",
+      "descartes": {
+        "a": "El manual no habla del seguro: el motivo es la protección de los peatones en un atropello.",
+        "b": "El manual no dice que cualquier cambio impida pasar la ITV; el motivo que da es la protección de los peatones."
+      },
+      "truco": null,
+      "huella": "17cd35f791d0"
+    },
+    {
+      "id": "D-vul-0001",
+      "porque": "Según la DGT, las personas mayores tienen más accidentes como peatones cuando van solas. Cuando van con niños son más prudentes, para darles buen ejemplo y protegerlos.",
+      "descartes": {
+        "a": "El manual sí ve diferencia: tienen más accidentes cuando van solas.",
+        "b": "Es al revés: con niños son más prudentes y tienen menos accidentes."
+      },
+      "truco": "Personas mayores, según la DGT: prudentes y cumplidoras, pero reaccionan más despacio, calculan peor la velocidad de los vehículos, tienen más accidentes cuando van solas y sufren lesiones más graves.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Pueden tener dificultad para saber a qué velocidad viene un vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+          "cita": "Estas personas suelen ser muy prudentes al conducir y cumplen con las normas de tráfico."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+          "cita": "necesitar más tiempo para reaccionar ante un imprevisto."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Las personas mayores tienen más accidentes cuando van solos que cuando van acompañadas por niños."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 406)",
+          "cita": "En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Cuando van con niños son más prudentes para darles buen ejemplo y para protegerles."
+        }
+      ],
+      "huella": "e4b1c758cb9f"
+    },
+    {
+      "id": "D-vul-0003",
+      "porque": "Según la DGT, en caso de accidente las personas mayores sufren lesiones más graves y tienen menos posibilidades de sobrevivir.",
+      "descartes": {
+        "a": "La prudencia puede ayudar a evitar el accidente, pero, si ocurre, el manual dice que sus lesiones son más graves.",
+        "c": "El manual no dice eso; dice que tienen lesiones más graves y menos posibilidades de sobrevivir."
+      },
+      "truco": "Personas mayores, según la DGT: prudentes y cumplidoras, pero reaccionan más despacio, calculan peor la velocidad de los vehículos, tienen más accidentes cuando van solas y sufren lesiones más graves.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Pueden tener dificultad para saber a qué velocidad viene un vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+          "cita": "Estas personas suelen ser muy prudentes al conducir y cumplen con las normas de tráfico."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+          "cita": "necesitar más tiempo para reaccionar ante un imprevisto."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Las personas mayores (p. 402)",
+          "cita": "Las personas mayores tienen más accidentes cuando van solos que cuando van acompañadas por niños."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas mayores de 65 años (p. 406)",
+          "cita": "En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir."
+        }
+      ],
+      "huella": "e0308b2eb2fe"
+    }
+  ]
+}

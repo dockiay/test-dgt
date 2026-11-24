@@ -1,0 +1,2551 @@
+{
+  "version": 1,
+  "lote": "02",
+  "lecciones": [
+    {
+      "id": "A-adv-0007",
+      "porque": "El claxon de un vehículo no prioritario solo se puede usar en tres casos: para evitar un posible accidente, para avisar fuera de poblado de que vas a adelantar y para hacerte notar si haces un servicio de urgencia sin ser prioritario. Dentro de poblado, en una situación normal, solo queda el primero.",
+      "descartes": {
+        "a": "Avisar con el claxon de que vas a adelantar solo está permitido fuera de poblado; dentro de poblado no es uno de los usos admitidos.",
+        "c": "Saludar no está entre los usos permitidos: es un uso inmotivado del claxon, y la norma lo prohíbe expresamente."
+      },
+      "truco": "Claxon para avisar de que adelantas: solo fuera de poblado. Dentro de poblado, el claxon queda para evitar un accidente (o para el caso especial de un vehículo no prioritario que hace un servicio de urgencia).",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "110.1",
+          "cita": "podrán emplearse señales acústicas de sonido no estridente, y queda prohibido su uso inmotivado o exagerado."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "110.2.b",
+          "cita": "b) Para advertir, fuera de poblado, al conductor de otro vehículo el propósito de adelantarlo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "110.2.c",
+          "cita": "c) Para advertir su presencia a los demás usuarios de la vía, de conformidad con lo dispuesto en el artículo 70."
+        }
+      ],
+      "huella": "8ee7371b9dcf"
+    },
+    {
+      "id": "A-adv-0008",
+      "porque": "Avisar con el claxon de que vas a adelantar es uno de los pocos usos permitidos de las señales acústicas, pero la norma lo limita a fuera de poblado. Dentro de poblado no puedes pitar para eso.",
+      "descartes": {
+        "b": "La norma añade expresamente «fuera de poblado» a este uso del claxon, así que dentro de poblado no vale.",
+        "c": "Evitar un accidente es uno de los usos permitidos, pero no el único: fuera de poblado también puedes avisar con el claxon de que vas a adelantar."
+      },
+      "truco": "Claxon para avisar de que adelantas: solo fuera de poblado. Dentro de poblado, el claxon queda para evitar un accidente (o para el caso especial de un vehículo no prioritario que hace un servicio de urgencia).",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "110.2.a",
+          "cita": "a) Para evitar un posible accidente y, de modo especial, en vías estrechas con muchas curvas."
+        }
+      ],
+      "huella": "425467f2a53b"
+    },
+    {
+      "id": "A-adv-0002",
+      "porque": "Con el brazo, la regla es: horizontal y con la palma hacia abajo, el desplazamiento es hacia el lado al que apunta la mano; doblado hacia arriba, hacia el lado contrario. El conductor de un turismo saca el brazo izquierdo, así que doblado hacia arriba indica que se va a desplazar a la derecha.",
+      "descartes": {
+        "a": "Para indicar la izquierda con el brazo izquierdo lo pondría horizontal con la palma hacia abajo, señalando hacia ese lado; doblado hacia arriba significa el lado contrario.",
+        "b": "Frenar de modo considerable se indica moviendo el brazo de arriba abajo con movimientos cortos y rápidos, no con el brazo quieto doblado hacia arriba."
+      },
+      "truco": "Brazo horizontal con la palma hacia abajo: vas hacia donde apunta la mano. Brazo doblado hacia arriba: vas hacia el otro lado. Brazo arriba y abajo, corto y rápido: vas a frenar. Brazo horizontal con la palma hacia atrás: vas marcha atrás.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.2.c",
+          "cita": "bien moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos."
+        }
+      ],
+      "huella": "121bd992bb4e"
+    },
+    {
+      "id": "A-adv-0003",
+      "porque": "Si el desplazamiento es hacia el lado al que apunta la mano, basta con señalarlo: brazo en posición horizontal y palma de la mano extendida hacia abajo. La posición doblada hacia arriba se reserva para el lado contrario.",
+      "descartes": {
+        "b": "El brazo doblado hacia arriba indica un desplazamiento hacia el lado contrario al que indica la mano, no hacia el mismo.",
+        "c": "Mover el brazo de arriba abajo con movimientos cortos y rápidos avisa de que vas a frenar de modo considerable o a inmovilizar el vehículo, no de un desplazamiento lateral."
+      },
+      "truco": "Brazo horizontal con la palma hacia abajo: vas hacia donde apunta la mano. Brazo doblado hacia arriba: vas hacia el otro lado. Brazo arriba y abajo, corto y rápido: vas a frenar. Brazo horizontal con la palma hacia atrás: vas marcha atrás.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.2.a",
+          "cita": "o doblado hacia arriba, también con la palma de la mano extendida, si va a ser hacia el contrario."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "109.2.c",
+          "cita": "bien moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos."
+        }
+      ],
+      "huella": "dbb6e9415ffa"
+    },
+    {
+      "id": "A-adv-0004",
+      "porque": "La intención de frenar de modo considerable o de inmovilizar el vehículo se avisa con las luces de frenado o, si no funcionan, moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos. Es el único gesto del brazo que se mueve, como imitando el gesto de «frena».",
+      "descartes": {
+        "a": "El brazo extendido horizontalmente con la palma hacia atrás es la señal de marcha atrás, no la de frenar.",
+        "c": "El brazo doblado hacia arriba con la palma extendida indica un desplazamiento lateral hacia el lado contrario al que indica la mano."
+      },
+      "truco": "Brazo horizontal con la palma hacia abajo: vas hacia donde apunta la mano. Brazo doblado hacia arriba: vas hacia el otro lado. Brazo arriba y abajo, corto y rápido: vas a frenar. Brazo horizontal con la palma hacia atrás: vas marcha atrás.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.2.b",
+          "cita": "o, en caso contrario, extendiendo el brazo horizontalmente con la palma de la mano hacia atrás."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "109.2.a",
+          "cita": "o doblado hacia arriba, también con la palma de la mano extendida, si va a ser hacia el contrario."
+        }
+      ],
+      "huella": "3029024d1eb2"
+    },
+    {
+      "id": "A-adv-0005",
+      "porque": "La marcha atrás se avisa con la luz de marcha atrás y, si el vehículo no la tiene, extendiendo el brazo horizontalmente con la palma de la mano hacia atrás, como si empujaras hacia atrás.",
+      "descartes": {
+        "a": "Mover el brazo de arriba abajo con movimientos cortos y rápidos es la señal de frenar de modo considerable o de inmovilizar el vehículo.",
+        "b": "El brazo doblado hacia arriba con la palma extendida indica un desplazamiento lateral hacia el lado contrario al que indica la mano."
+      },
+      "truco": "Brazo horizontal con la palma hacia abajo: vas hacia donde apunta la mano. Brazo doblado hacia arriba: vas hacia el otro lado. Brazo arriba y abajo, corto y rápido: vas a frenar. Brazo horizontal con la palma hacia atrás: vas marcha atrás.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.2.c",
+          "cita": "bien moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "109.2.a",
+          "cita": "o doblado hacia arriba, también con la palma de la mano extendida, si va a ser hacia el contrario."
+        }
+      ],
+      "huella": "7f510873daa9"
+    },
+    {
+      "id": "A-adv-0009",
+      "porque": "Las ráfagas sirven para lo mismo que el claxon y pueden sustituirlo, y la norma dice expresamente que se pueden hacer incluso en poblado. Lo que exige es la forma: luces de corto o largo alcance de forma intermitente, a intervalos muy cortos y sin deslumbrar.",
+      "descartes": {
+        "a": "La limitación «fuera de poblado» es para avisar con el claxon de que vas a adelantar. Las ráfagas, en cambio, están permitidas incluso en poblado.",
+        "c": "La norma no limita las ráfagas a las horas sin luz solar; lo que pide es que sean a intervalos muy cortos y que eviten el deslumbramiento."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.3",
+          "cita": "o ambos alternativamente, a intervalos muy cortos y de modo que se evite el deslumbramiento."
+        }
+      ],
+      "huella": "77e9cc782abb"
+    },
+    {
+      "id": "A-adv-0001",
+      "porque": "Como norma general las maniobras se avisan con las luces del vehículo, pero si el conductor hace con el brazo una señal que se ve bien y está hecha como manda el reglamento, esa señal anula cualquier otra indicación óptica que la contradiga. Por eso aquí vale el brazo, no el intermitente.",
+      "descartes": {
+        "a": "Es al revés: una señal con el brazo hecha correctamente y perceptible anula la indicación óptica que la contradiga, aunque sea el intermitente.",
+        "c": "Ninguna norma te obliga a detenerte cuando dos indicaciones se contradicen; la propia norma resuelve el conflicto a favor del brazo."
+      },
+      "truco": "Si el intermitente dice una cosa y el brazo otra, manda el brazo, siempre que se vea bien y esté hecho como manda el reglamento: el intermitente puede haberse quedado puesto sin querer; el brazo nadie lo saca sin querer.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "108.2",
+          "cita": "Como norma general, dichas advertencias se harán utilizando la señalización luminosa del vehículo o, en su defecto, con el brazo"
+        }
+      ],
+      "huella": "c8541ecc5ad0"
+    },
+    {
+      "id": "A-adv-0006",
+      "porque": "En un desplazamiento lateral lo único que se avisa es el propio desplazamiento. Por eso, en cuanto el vehículo ha adoptado su nueva trayectoria, la maniobra ha terminado y el intermitente debe dejar de funcionar.",
+      "descartes": {
+        "a": "La norma no fija ninguna distancia en el nuevo carril; el aviso termina en cuanto el vehículo ha adoptado su nueva trayectoria.",
+        "b": "Mantenerlo encendido confundiría a los demás, que esperarían otro desplazamiento. La norma manda que la advertencia concluya tan pronto como hayas adoptado la nueva trayectoria."
+      },
+      "truco": "El intermitente avisa del movimiento, no del carril: cuando ya estás en el carril nuevo, se apaga.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.2.a",
+          "cita": "En las maniobras que impliquen un desplazamiento lateral, es éste el que exclusivamente se avisa"
+        }
+      ],
+      "huella": "8b3f2042f492"
+    },
+    {
+      "id": "A-dir-0001",
+      "porque": "Para girar a la izquierda tienes que cruzar el carril de los que vienen de frente, y para eso necesitas verlos. Por eso la norma obliga a abstenerse de girar a la izquierda cuando no hay visibilidad suficiente, como con niebla espesa.",
+      "descartes": {
+        "a": "Ir despacio y con precaución no basta: sin visibilidad suficiente la norma no pide prudencia al girar, sino no hacer el giro a la izquierda.",
+        "b": "Encender la antiniebla trasera no te deja ver a quien viene de frente. Sin visibilidad suficiente la norma manda no girar a la izquierda, lleves las luces que lleves."
+      },
+      "truco": "A la izquierda cruzas el sentido contrario: si no ves, o si quien viene de frente está demasiado cerca, no giras.",
+      "huella": "4998d3ac375e"
+    },
+    {
+      "id": "A-dir-0002",
+      "porque": "Salvo que la vía esté acondicionada o señalizada de otra forma, para girar debes pegarte al lado hacia el que vas a girar. Si giras a la derecha, te ciñes todo lo posible al borde derecho, colocándote con antelación y haciendo la maniobra en el menor espacio y tiempo posibles.",
+      "descartes": {
+        "a": "Situarse en el centro de la calzada no corresponde a ningún giro a la derecha; la norma pide ceñirse al borde derecho.",
+        "b": "Abrirse primero hacia la izquierda es justo lo contrario de lo que pide la norma, que es ceñirse todo lo posible al borde derecho, y además puede sorprender a quien viene detrás."
+      },
+      "truco": "Te pegas al lado hacia el que giras: a la derecha, al borde derecho; a la izquierda en sentido único, al borde izquierdo; a la izquierda en doble sentido, junto a la línea central sin pasarla; en doble sentido con tres carriles separados por líneas discontinuas, al carril central.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "75.1.b",
+          "cita": "la colocación del vehículo en el lugar adecuado se efectuará con la necesaria antelación y la maniobra en el menor espacio y tiempo posibles."
+        }
+      ],
+      "huella": "a73af41cb2b6"
+    },
+    {
+      "id": "A-dir-0003",
+      "porque": "La regla es pegarse al lado hacia el que giras. En una calzada de sentido único no hay nadie de frente, así que para girar a la izquierda te ciñes todo lo posible al borde izquierdo, salvo que la vía esté acondicionada o señalizada de otra manera.",
+      "descartes": {
+        "a": "Ceñirse al borde derecho es lo que se hace para girar a la derecha, no a la izquierda.",
+        "c": "El centro de la calzada no es la posición que fija la norma; en sentido único, para girar a la izquierda hay que ceñirse al borde izquierdo."
+      },
+      "truco": "Te pegas al lado hacia el que giras: a la derecha, al borde derecho; a la izquierda en sentido único, al borde izquierdo; a la izquierda en doble sentido, junto a la línea central sin pasarla; en doble sentido con tres carriles separados por líneas discontinuas, al carril central.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "75.1.b",
+          "cita": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha"
+        }
+      ],
+      "huella": "1130f3bebc27"
+    },
+    {
+      "id": "A-dir-0004",
+      "porque": "En doble sentido, el borde izquierdo de la calzada pertenece a los que vienen de frente, así que lo más a la izquierda que puedes ir es la línea que separa los sentidos. Te ciñes a esa marca o, si no la hay, al eje de la calzada, sin invadir el sentido contrario.",
+      "descartes": {
+        "b": "Ceñirse al borde derecho es la colocación para girar a la derecha. Para girar a la izquierda en doble sentido hay que acercarse a la línea central.",
+        "c": "La norma lo prohíbe expresamente: hay que ceñirse a la línea central sin invadir la zona destinada al sentido contrario."
+      },
+      "truco": "Te pegas al lado hacia el que giras: a la derecha, al borde derecho; a la izquierda en sentido único, al borde izquierdo; a la izquierda en doble sentido, junto a la línea central sin pasarla; en doble sentido con tres carriles separados por líneas discontinuas, al carril central.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "75.1.b",
+          "cita": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha"
+        }
+      ],
+      "huella": "827269ea5397"
+    },
+    {
+      "id": "A-dir-0005",
+      "porque": "En una calzada de doble sentido con tres carriles separados por líneas discontinuas, el carril central no es de ningún sentido en exclusiva. Para girar a la izquierda, la norma manda colocarse en ese carril central, que hace de carril de espera para el giro.",
+      "descartes": {
+        "a": "El carril derecho es por el que circulas, pero no es donde debes colocarte para girar a la izquierda en este tipo de calzada.",
+        "c": "El carril más a la izquierda es el de los vehículos que vienen de frente; colocarte en él sería invadir el sentido contrario."
+      },
+      "truco": "Te pegas al lado hacia el que giras: a la derecha, al borde derecho; a la izquierda en sentido único, al borde izquierdo; a la izquierda en doble sentido, junto a la línea central sin pasarla; en doble sentido con tres carriles separados por líneas discontinuas, al carril central.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "75.1.b",
+          "cita": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha"
+        }
+      ],
+      "huella": "50078700863f"
+    },
+    {
+      "id": "A-dir-0006",
+      "porque": "Al girar a la izquierda en una intersección, la regla general es dejar el centro de la intersección a tu izquierda, es decir, rodearlo en vez de recortar la curva por dentro. Solo se deja a la derecha si la intersección está acondicionada o señalizada para ello.",
+      "descartes": {
+        "b": "Dejar el centro a la derecha es la excepción: solo se hace cuando la intersección está acondicionada o señalizada para ello.",
+        "c": "La norma no contempla pasar por encima del centro; manda dejarlo a la izquierda, salvo señalización que diga otra cosa."
+      },
+      "truco": "Giro a la izquierda: el centro del cruce se te queda a la izquierda, no lo recortas.",
+      "huella": "8430ee9bc8bf"
+    },
+    {
+      "id": "A-dir-0007",
+      "porque": "Las reglas de colocación para girar tienen una excepción: si por las dimensiones del vehículo u otras circunstancias justificadas no puedes cumplirlas al pie de la letra, puedes girar igualmente, pero tienes que adoptar las precauciones necesarias para evitar todo peligro.",
+      "descartes": {
+        "b": "La norma no obliga a renunciar al giro; lo permite como excepción, siempre que tomes las precauciones necesarias.",
+        "c": "Ninguna norma obliga a los demás a apartarse en este caso; es quien gira quien debe adoptar las precauciones necesarias."
+      },
+      "truco": null,
+      "huella": "57740b8e8201"
+    },
+    {
+      "id": "A-sen-0001",
+      "porque": "Para cambiar de sentido tienes que interceptar la vía lo menos posible. Si mientras esperas el momento bloqueas a los que vienen detrás, la norma te manda salir de la calzada por tu derecha, si es posible, y esperar allí hasta que la circulación te deje hacer la maniobra.",
+      "descartes": {
+        "b": "Seguir esperando en la calzada es justo lo que la norma quiere evitar cuando impides la marcha de los que vienen detrás.",
+        "c": "Hacerlo sin más sería maniobrar sin comprobar que no pones en peligro a nadie; la norma manda esperar el momento oportuno."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "78.1",
+          "cita": "En caso contrario, deberá abstenerse de realizar dicha maniobra y esperar el momento oportuno para efectuarla."
+        }
+      ],
+      "huella": "164243f1a3dc"
+    },
+    {
+      "id": "A-sen-0002",
+      "porque": "El cambio de sentido tiene una lista de lugares prohibidos: donde no puedas comprobar que no hay peligro, pasos a nivel, túneles y pasos inferiores, autopistas y autovías (salvo lugares habilitados) y cualquier tramo donde esté prohibido adelantar (salvo autorización expresa). El paso a nivel está en esa lista.",
+      "descartes": {
+        "a": "Con línea discontinua y buena visibilidad no se da ninguno de los casos prohibidos, así que no está prohibido.",
+        "c": "Una calle urbana sin señal que lo prohíba y con buena visibilidad no es ninguno de los lugares de la lista de prohibiciones."
+      },
+      "truco": "Donde no puedes adelantar, tampoco puedes cambiar de sentido, salvo que esté expresamente autorizado. Además está prohibido en pasos a nivel, túneles y pasos inferiores, y en autopistas y autovías fuera de los lugares habilitados.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "79.1",
+          "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior, en los pasos a nivel, en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5), así como en las autopistas y autovías, salvo en los lugares habilitados al efecto y, en general, en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado"
+        }
+      ],
+      "huella": "4f29b54d3db6"
+    },
+    {
+      "id": "A-sen-0003",
+      "porque": "En autopistas y autovías el cambio de sentido está prohibido salvo en los lugares habilitados al efecto. Atravesar la mediana nunca es uno de esos lugares, así que no puedes hacerlo, venga o no venga nadie.",
+      "descartes": {
+        "a": "La prohibición no depende del tráfico: en autopistas y autovías solo se cambia de sentido en los lugares habilitados.",
+        "b": "La norma no hace depender nada de que lo hagas en una sola maniobra; en autopista la prohibición se mantiene igual."
+      },
+      "truco": "Donde no puedes adelantar, tampoco puedes cambiar de sentido, salvo que esté expresamente autorizado. Además está prohibido en pasos a nivel, túneles y pasos inferiores, y en autopistas y autovías fuera de los lugares habilitados.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "79.1",
+          "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior, en los pasos a nivel, en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5), así como en las autopistas y autovías, salvo en los lugares habilitados al efecto y, en general, en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado"
+        }
+      ],
+      "huella": "48da0996d62a"
+    },
+    {
+      "id": "A-sen-0004",
+      "porque": "Si en un tramo está prohibido adelantar es porque no se puede invadir con seguridad el sentido contrario, y cambiar de sentido también exige cruzarlo. Por eso la norma lo prohíbe en todos esos tramos, salvo que el cambio de sentido esté expresamente autorizado.",
+      "descartes": {
+        "a": "Que no venga nadie no levanta la prohibición; solo la levanta una autorización expresa del cambio de sentido.",
+        "c": "Hacerlo en una sola maniobra no cambia nada: la norma no lo exige ni lo convierte en una excepción."
+      },
+      "truco": "Donde no puedes adelantar, tampoco puedes cambiar de sentido, salvo que esté expresamente autorizado. Además está prohibido en pasos a nivel, túneles y pasos inferiores, y en autopistas y autovías fuera de los lugares habilitados.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "79.1",
+          "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior, en los pasos a nivel, en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5), así como en las autopistas y autovías, salvo en los lugares habilitados al efecto y, en general, en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado"
+        }
+      ],
+      "huella": "3459d3c8cb15"
+    },
+    {
+      "id": "v5b-sen-0001",
+      "porque": "Los túneles, los pasos inferiores y los tramos afectados por la señal «Túnel» (S-5) están en la lista de lugares donde se prohíbe cambiar de sentido. La prohibición es por el lugar, así que da igual que la línea sea discontinua o que no venga nadie.",
+      "descartes": {
+        "a": "La norma no hace depender el cambio de sentido de hacerlo en una sola maniobra; en un túnel está prohibido de cualquier forma.",
+        "c": "Encender la luz de emergencia no levanta ninguna prohibición; en un túnel no se puede cambiar de sentido."
+      },
+      "truco": "Donde no puedes adelantar, tampoco puedes cambiar de sentido, salvo que esté expresamente autorizado. Además está prohibido en pasos a nivel, túneles y pasos inferiores, y en autopistas y autovías fuera de los lugares habilitados.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "79.1",
+          "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior, en los pasos a nivel, en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5), así como en las autopistas y autovías, salvo en los lugares habilitados al efecto y, en general, en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado"
+        }
+      ],
+      "huella": "d1b04a0a6229"
+    },
+    {
+      "id": "A-inc-0002",
+      "porque": "El carril de aceleración tiene dos fases: al principio compruebas que puedes incorporarte sin peligro, teniendo en cuenta la posición, trayectoria y velocidad de los que van por la calzada, e incluso te detienes si hace falta; después aceleras para llegar al final del carril a la velocidad adecuada.",
+      "descartes": {
+        "a": "Al final del carril ya debes llevar la velocidad adecuada para entrar; si esperas allí para comprobar, ni tienes margen para decidir ni para acelerar.",
+        "c": "Comprobar ya dentro de la calzada principal es demasiado tarde: la comprobación se hace antes, al principio del carril de aceleración."
+      },
+      "truco": "Carril de aceleración: al principio miras (y paras si hace falta); al final ya llevas la velocidad para entrar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "72.4",
+          "cita": "A continuación, acelerará hasta alcanzar la velocidad adecuada al final del carril de aceleración para incorporarse a la circulación de la calzada."
+        }
+      ],
+      "huella": "6932b6e50ca3"
+    },
+    {
+      "id": "A-inc-0005",
+      "porque": "Cuando cambias de carril, quien ya circula por el carril que quieres ocupar tiene la prioridad. Tú eres quien se mete en su espacio, así que tienes que esperar a que haya hueco suficiente.",
+      "descartes": {
+        "a": "Señalizar con antelación es obligatorio, pero solo avisa; no te da prioridad sobre quien ya va por el otro carril.",
+        "b": "La velocidad no da prioridad en un cambio de carril; la tiene el que circula por el carril que pretendes ocupar."
+      },
+      "truco": "El carril es de quien ya va por él: avisar no te da derecho a entrar.",
+      "huella": "c74b048b4a54"
+    },
+    {
+      "id": "A-inc-0001",
+      "porque": "Quien se incorpora desde un estacionamiento entra en una corriente de tráfico que ya está circulando. Por eso debe comprobar antes que puede hacerlo sin peligro, cediendo el paso y teniendo en cuenta la posición, trayectoria y velocidad de los demás, y avisar de la maniobra.",
+      "descartes": {
+        "a": "Los demás deben facilitar la incorporación en la medida de lo posible, pero eso no les obliga a dejarte pasar: quien se incorpora sigue teniendo que ceder el paso.",
+        "b": "La norma no habla de ceder solo a los que vienen por la derecha: quien se incorpora cede el paso a los demás vehículos."
+      },
+      "truco": "Quien se incorpora, cede; quien ya circula, facilita si puede. Las dos obligaciones existen a la vez.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "73.1",
+          "cita": "los demás conductores facilitarán, en la medida de lo posible, dicha maniobra"
+        }
+      ],
+      "huella": "0f35e8cc7491"
+    },
+    {
+      "id": "A-inc-0003",
+      "porque": "Al salir de un camino exclusivamente privado no sabes bien qué viene por la vía pública, y debes ceder el paso a quienes circulen por ella, vengan por el sentido que vengan. Por eso la norma pide salir a una velocidad que te permita detenerte en el acto.",
+      "descartes": {
+        "a": "La velocidad máxima de la vía no tiene nada que ver: al salir de un camino privado se exige poder detenerse en el acto.",
+        "c": "La norma no fija ninguna cifra; la medida es poder detenerte en el acto, que en la práctica es ir muy despacio."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "72.2",
+          "cita": "cediendo el paso a los vehículos que circulen por aquélla, cualquiera que sea el sentido en que lo hagan."
+        }
+      ],
+      "huella": "f6ed82648f47"
+    },
+    {
+      "id": "A-inc-0004",
+      "porque": "En poblado la norma protege especialmente la salida de los autobuses desde sus paradas señalizadas: los demás deben desplazarse lateralmente si es posible o reducir la velocidad, llegando a detenerse solo si es preciso. Aun así, el conductor del autobús también debe tomar precauciones al salir.",
+      "descartes": {
+        "a": "Detenerse no es obligatorio siempre: primero toca desplazarse lateralmente o reducir la velocidad, y detenerse solo si fuera preciso.",
+        "c": "En poblado son los demás quienes deben facilitar la salida del autobús. Su conductor tiene que tomar precauciones, pero eso no te permite mantener la velocidad sin más."
+      },
+      "truco": "Quien se incorpora, cede; quien ya circula, facilita si puede. Con el autobús que sale de su parada en poblado se va un paso más allá: apartarse o frenar, y parar si hace falta.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "73.3",
+          "cita": "de adoptar las precauciones necesarias para evitar todo riesgo de accidente, después de haber anunciado por medio de sus indicadores de dirección su propósito de reanudar la marcha."
+        }
+      ],
+      "huella": "5f8e505fc274"
+    },
+    {
+      "id": "A-ma-0001",
+      "porque": "Cuando la marcha atrás sirve para completar una parada, un estacionamiento o una incorporación, la norma pone dos límites a la vez: no más de 15 metros y sin invadir un cruce de vías.",
+      "descartes": {
+        "b": "El límite es de 15 metros, no de 25.",
+        "c": "Los 15 metros van unidos a la prohibición de invadir un cruce de vías: no basta con cumplir solo uno de los dos límites."
+      },
+      "truco": "Marcha atrás para completar una parada, un estacionamiento o una incorporación: 15 metros como máximo y sin invadir un cruce. Si no puedes ir hacia delante ni girar ni dar la vuelta: el mínimo indispensable. En autopista y autovía: prohibida.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "80.1",
+          "cita": "Se prohíbe circular hacia atrás, salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha, y en las maniobras complementarias de otra que la exija, y siempre con el recorrido mínimo indispensable para efectuarla"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "80.3",
+          "cita": "Se prohíbe la maniobra de marcha atrás en autovías y autopistas"
+        }
+      ],
+      "huella": "1a95215086c0"
+    },
+    {
+      "id": "A-ma-0002",
+      "porque": "La marcha atrás está prohibida como regla general, pero se permite cuando no es posible seguir hacia delante ni cambiar de dirección o sentido, que es justo tu caso. Eso sí, siempre con el recorrido mínimo indispensable.",
+      "descartes": {
+        "a": "La marcha atrás no se permite solo como maniobra complementaria: también cuando no es posible marchar hacia delante ni cambiar de dirección o sentido.",
+        "b": "Los 15 metros son el límite de la marcha atrás que completa una parada, un estacionamiento o una incorporación. Aquí la medida es el recorrido mínimo indispensable."
+      },
+      "truco": "Marcha atrás para completar una parada, un estacionamiento o una incorporación: 15 metros como máximo y sin invadir un cruce. Si no puedes ir hacia delante ni girar ni dar la vuelta: el mínimo indispensable. En autopista y autovía: prohibida.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "80.1",
+          "cita": "Se prohíbe circular hacia atrás, salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha, y en las maniobras complementarias de otra que la exija, y siempre con el recorrido mínimo indispensable para efectuarla"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "80.2",
+          "cita": "El recorrido hacia atrás, como maniobra complementaria de la parada, el estacionamiento o la incorporación a la circulación, no podrá ser superior a 15 metros ni invadir un cruce de vías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "80.3",
+          "cita": "Se prohíbe la maniobra de marcha atrás en autovías y autopistas"
+        }
+      ],
+      "huella": "59928dc3f56c"
+    },
+    {
+      "id": "A-ma-0003",
+      "porque": "En autovías y autopistas la marcha atrás está prohibida sin excepciones. Si te pasas una salida, tienes que seguir hasta la siguiente.",
+      "descartes": {
+        "b": "Ir por el arcén y con la luz de emergencia no convierte la maniobra en legal: en autovías y autopistas la marcha atrás está prohibida.",
+        "c": "Los 15 metros son el límite de la marcha atrás complementaria de una parada, un estacionamiento o una incorporación, y no se aplican en autopistas y autovías, donde está prohibida."
+      },
+      "truco": "Marcha atrás para completar una parada, un estacionamiento o una incorporación: 15 metros como máximo y sin invadir un cruce. Si no puedes ir hacia delante ni girar ni dar la vuelta: el mínimo indispensable. En autopista y autovía: prohibida.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "80.1",
+          "cita": "Se prohíbe circular hacia atrás, salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha, y en las maniobras complementarias de otra que la exija, y siempre con el recorrido mínimo indispensable para efectuarla"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "80.2",
+          "cita": "El recorrido hacia atrás, como maniobra complementaria de la parada, el estacionamiento o la incorporación a la circulación, no podrá ser superior a 15 metros ni invadir un cruce de vías."
+        }
+      ],
+      "huella": "ed749e0f3688"
+    },
+    {
+      "id": "B2-mv-0039",
+      "porque": "Las líneas amarillas junto al bordillo regulan la parada y el estacionamiento. La continua es la más estricta: prohíbe parar y estacionar a lo largo de toda su longitud, en el lado de la calzada donde está pintada.",
+      "descartes": {
+        "b": "Prohibir solo el estacionamiento y dejar parar es lo que indica la línea amarilla discontinua, no la continua.",
+        "c": "Las zonas reservadas a usos especiales como la carga y descarga se marcan normalmente con la línea amarilla en zigzag, no con la continua."
+      },
+      "truco": "Amarillo continuo: ni parar ni estacionar. Amarillo discontinuo: puedes parar, pero no estacionar. Zigzag amarillo: no estacionar, porque el sitio está reservado a un uso especial como una parada de autobús o la carga y descarga.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.7)",
+          "cita": "Marca longitudinal discontinua de prohibición de estacionamiento (M-7.7): indica la prohibición del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.9)",
+          "cita": "Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos."
+        }
+      ],
+      "huella": "c57a927fc0f6"
+    },
+    {
+      "id": "B2-mv-0041",
+      "porque": "La línea amarilla en zigzag prohíbe estacionar a los vehículos en general porque ese sitio está reservado a un uso especial que no implica una larga permanencia, como una parada de autobús o la carga y descarga.",
+      "descartes": {
+        "a": "La zigzag prohíbe estacionar a los vehículos en general precisamente para dejar sitio a un uso especial, como la parada de los autobuses; no va contra ellos.",
+        "c": "La zigzag no indica estacionamiento de pago: indica que estacionar está prohibido porque el lugar está reservado a un uso especial."
+      },
+      "truco": "Amarillo continuo: ni parar ni estacionar. Amarillo discontinuo: puedes parar, pero no estacionar. Zigzag amarillo: no estacionar, porque el sitio está reservado a un uso especial como una parada de autobús o la carga y descarga.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.9)",
+          "cita": "Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.7)",
+          "cita": "Marca longitudinal discontinua de prohibición de estacionamiento (M-7.7): indica la prohibición del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.8)",
+          "cita": "Marca longitudinal continua de prohibición de parada (M-7.8): indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        }
+      ],
+      "huella": "be16ecfbc561"
+    },
+    {
+      "id": "B2-mv-0042",
+      "porque": "La cuadrícula amarilla recuerda una regla general: aunque el semáforo te deje pasar o tengas prioridad, no puedes entrar en la intersección si previsiblemente te vas a quedar parado dentro, impidiendo u obstruyendo la circulación transversal.",
+      "descartes": {
+        "b": "El verde te permite pasar, pero no te autoriza a quedarte bloqueando el cruce; la cuadrícula recuerda que no debes entrar si no vas a poder salir.",
+        "c": "Quedarse detenido sobre la cuadrícula es justo lo que esta marca quiere evitar, porque bloquea a quienes cruzan en la otra dirección."
+      },
+      "truco": "Cuadrícula amarilla (y cualquier cruce): entra solo si tienes sitio para salir.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "59.1",
+          "cita": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal"
+        }
+      ],
+      "huella": "74c30da55d8f"
+    },
+    {
+      "id": "B2-mv-0045",
+      "porque": "El avanza-motos o avanza-bici es un espacio de 4 metros justo antes de un cruce o paso de peatones con semáforo. Con el semáforo en rojo solo pueden ocuparlo determinados vehículos, como ciclos, vehículos de movilidad personal, motocicletas o ciclomotores; los demás esperan detrás de la primera línea de detención.",
+      "descartes": {
+        "a": "No vale llegar primero: con el semáforo en rojo ese espacio está reservado a determinados vehículos y los demás, como los turismos, no pueden ocuparlo.",
+        "b": "No es un espacio para peatones, sino para que esperen determinados vehículos, como bicicletas y motos; los peatones cruzan por el paso para peatones."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (avanza-bici o avanza-motos)",
+          "cita": "El espacio reservado estará delimitado por dos marcas transversales continuas (M-4.1) paralelas y separadas una distancia de 4 m."
+        }
+      ],
+      "huella": "be3adb71423e"
+    },
+    {
+      "id": "B2-mv-0046",
+      "porque": "Los dientes de dragón son triángulos pintados a los lados del carril que te avisan de que llegas a una travesía o vía urbana. Allí debes reducir la velocidad sensiblemente respecto al tramo anterior y extremar la precaución, sobre todo por las personas usuarias vulnerables.",
+      "descartes": {
+        "b": "La proximidad de un paso a nivel se indica con otra marca distinta, la de paso a nivel (M-7.5).",
+        "c": "Las zonas de estacionamiento se delimitan con líneas y marcas de estacionamiento, no con triángulos en los bordes del carril."
+      },
+      "truco": "Dientes de dragón: llegas a una travesía o vía urbana, baja la velocidad. Bordes en zigzag blanco: se acerca un paso para peatones o para ciclistas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.5)",
+          "cita": "Marca de paso a nivel (M-7.5): indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.3 y M-7.4)",
+          "cita": "Líneas y marcas de estacionamiento (M-7.3 y M-7.4): delimitan los lugares o zonas de estacionamiento"
+        }
+      ],
+      "huella": "4faf65dd45bf"
+    },
+    {
+      "id": "B2-mv-0047",
+      "porque": "Las líneas de borde quebradas, en zigzag blanco a los lados del carril, te avisan de que se acerca un paso para peatones o para ciclistas. Su mensaje es disminuir la velocidad y aumentar la atención.",
+      "descartes": {
+        "a": "Las paradas de autobús suelen marcarse con una línea amarilla en zigzag junto al bordillo, que es otra marca distinta de estas líneas blancas de borde.",
+        "c": "Ninguna de estas marcas indica el final de la calzada; las líneas de borde quebradas anuncian un paso para peatones o para ciclistas."
+      },
+      "truco": "Dientes de dragón: llegas a una travesía o vía urbana, baja la velocidad. Bordes en zigzag blanco: se acerca un paso para peatones o para ciclistas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.9)",
+          "cita": "Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos."
+        }
+      ],
+      "huella": "e9d58785f12a"
+    },
+    {
+      "id": "B2-mv-0038",
+      "porque": "El cebreado es una zona de franjas oblicuas enmarcada por una línea continua, y su significado es que ningún conductor puede entrar en ella. La única excepción son los vehículos obligados a circular por el arcén.",
+      "descartes": {
+        "a": "Ni para adelantar ni por tener visibilidad: el cebreado no se puede invadir, salvo los obligados a circular por el arcén.",
+        "c": "Si no se puede entrar en el cebreado, menos aún detenerse en él para estacionar, aunque sea brevemente."
+      },
+      "truco": "Cebreado: no se pisa. La única excepción son los vehículos obligados a circular por el arcén; no hay excepción por adelantar ni por esquivar un obstáculo.",
+      "huella": "db1e6384e9d3"
+    },
+    {
+      "id": "B2-mv-0033",
+      "porque": "Las flechas del carril indican los movimientos permitidos u obligados en él. Si la flecha incluye la dirección de frente, no te impide cambiar de carril, siempre que sigas en la misma dirección de circulación y las marcas longitudinales lo permitan.",
+      "descartes": {
+        "a": "Una flecha que incluye la dirección de frente no impide el cambio de carril; lo que manda en ese caso son las marcas longitudinales.",
+        "b": "La norma no limita el cambio de carril a adelantar vehículos de dos ruedas; se permite siempre que se mantenga la dirección de circulación y las marcas longitudinales lo permitan."
+      },
+      "truco": "Flecha que incluye «de frente»: puedes cambiar de carril si las líneas te dejan. Lo que no puedes es hacer desde ese carril un movimiento que su flecha no permite.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.3",
+          "cita": "Flecha de sentido o de selección de carriles (M-5.1, M-5.2 y M-5.6): indica el o los movimientos permitidos u obligados a los vehículos que circulan por el carril en el que está situada la flecha."
+        }
+      ],
+      "huella": "8dc9b88d9e1f"
+    },
+    {
+      "id": "B2-mv-0034",
+      "porque": "La flecha de fin de carril avisa de que tu carril se acaba pronto, así que tienes que abandonarlo hacia el lado que indica. Al hacerlo estás cambiando de carril, por lo que respetas la prioridad de quienes ya circulan por el carril que vas a ocupar.",
+      "descartes": {
+        "a": "Las flechas que indican giros en una intersección son las de selección de carriles; esta flecha curvada indica que el carril termina y hay que cambiarse.",
+        "c": "Es al revés: no se incorpora ningún carril, sino que el tuyo termina y eres tú quien debe pasar al de al lado."
+      },
+      "truco": "El carril es de quien ya va por él: si el tuyo se acaba, eres tú quien busca hueco y cede.",
+      "huella": "4f603db69ca9"
+    },
+    {
+      "id": "B2-mv-0035",
+      "porque": "La flecha de retorno, en el eje de una calzada de doble sentido, anuncia que se acerca una línea continua que prohibirá circular por su izquierda. Por eso, si no has empezado a adelantar, desiste; y si ya estás adelantando, termina lo antes posible.",
+      "descartes": {
+        "b": "No anuncia más carriles en tu sentido, sino lo contrario: que pronto no podrás circular por la izquierda de la línea.",
+        "c": "Nada obliga a detenerse en el arcén; lo que pide la flecha es acabar el adelantamiento cuanto antes y volver a tu carril."
+      },
+      "truco": "Flecha de retorno: «vuelve a tu carril», que viene una continua.",
+      "huella": "1677e94dffc8"
+    },
+    {
+      "id": "B2-mv-0017",
+      "porque": "La línea discontinua delimita carriles y no se debe circular sobre ella, pero sí se puede atravesar para maniobras permitidas, como girar o cambiar de carril. Al hacerlo, la prioridad es del que ya circula por el carril que quieres ocupar.",
+      "descartes": {
+        "b": "La que no se puede atravesar es la línea continua; la discontinua está precisamente para poder cruzarla en maniobras permitidas.",
+        "c": "La norma no reserva la discontinua a los prioritarios; cualquier conductor puede atravesarla para hacer una maniobra permitida."
+      },
+      "truco": "Discontinua: se cruza para maniobrar, cediendo a quien va por el otro carril. Continua: no se cruza ni se pisa.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.1",
+          "cita": "una marca longitudinal continua significa que ningún conductor con su vehículo o animal debe atravesarla ni circular con su vehículo sobre ella"
+        }
+      ],
+      "huella": "29a4d10fd136"
+    },
+    {
+      "id": "B2-mv-0018",
+      "porque": "Dos líneas continuas y paralelas no tienen un significado distinto: valen lo mismo que una sola línea continua. Ningún conductor debe atravesarla ni circular sobre ella, ni circular por su izquierda cuando separa los dos sentidos.",
+      "descartes": {
+        "a": "Adelantar atravesando la línea solo es posible con línea discontinua; la doble continua significa lo mismo que una continua.",
+        "c": "Los carriles reversibles se delimitan con marcas discontinuas dobles a ambos lados, no con dos líneas continuas."
+      },
+      "truco": "Discontinua: se cruza para maniobrar, cediendo a quien va por el otro carril. Continua (sencilla o doble): no se cruza ni se pisa.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.1",
+          "cita": "una marca longitudinal continua significa que ningún conductor con su vehículo o animal debe atravesarla ni circular con su vehículo sobre ella"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.1 (M-1.4 y M-1.5)",
+          "cita": "Delimitan por ambos lados los carriles reversibles, en los que el sentido de circulación está reglamentado en uno u otro sentido mediante semáforos de carril u otros medios."
+        }
+      ],
+      "huella": "6962181a6075"
+    },
+    {
+      "id": "B2-mv-0019",
+      "porque": "Cuando una línea continua va pegada a una discontinua, cada conductor obedece solo la línea que tiene en su lado. Si a tu lado está la discontinua, puedes atravesarla; si está la continua, no.",
+      "descartes": {
+        "b": "La continua solo obliga a quien la tiene en su lado; para quien circula junto a la discontinua, la que cuenta es la discontinua.",
+        "c": "La discontinua solo vale para quien la tiene en su lado; quien circula junto a la continua debe respetar la continua."
+      },
+      "truco": "Continua pegada a discontinua: manda la línea que tienes más cerca, la de tu lado.",
+      "huella": "7304edc47ace"
+    },
+    {
+      "id": "B2-mv-0020",
+      "porque": "Con una continua adosada a una discontinua, cada uno obedece la línea de su lado. Como empezaste a adelantar desde el carril junto a la discontinua, la norma te permite cruzar después la continua para volver a tu carril, tanto si terminas el adelantamiento como si desistes.",
+      "descartes": {
+        "a": "La propia norma recoge esta excepción: quien inició el adelantamiento desde el carril contiguo a la discontinua puede atravesar la continua para volver.",
+        "c": "No hace falta ninguna orden de un agente; la norma ya permite volver a tu carril atravesando la continua."
+      },
+      "truco": "Continua pegada a discontinua: manda la línea que tienes más cerca, la de tu lado. Si saliste a adelantar por la discontinua, puedes volver a tu carril aunque al regresar te encuentres la continua.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.1",
+          "cita": "cuando la marca consiste en una línea longitudinal continua adosada a otra discontinua, las personas conductoras deberán tener en cuenta únicamente la línea situada en el lado por el que circulan."
+        }
+      ],
+      "huella": "5d804e796865"
+    },
+    {
+      "id": "B2-mv-0021",
+      "porque": "Las marcas discontinuas dobles a ambos lados de un carril indican un carril reversible: su sentido de circulación puede cambiar y se regula con semáforos de carril u otros medios.",
+      "descartes": {
+        "a": "Un carril para autobuses se separa con una marca discontinua sencilla, o continua donde no se permite cambiar de carril, no con dobles discontinuas a ambos lados.",
+        "b": "El carril adicional para vehículos lentos se separa con una marca discontinua sencilla; las dobles discontinuas a ambos lados son las del carril reversible."
+      },
+      "truco": "Doble discontinua a los dos lados: carril reversible. Antes de entrar, mira los semáforos de carril.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.1 (M-1.6 y M-1.7)",
+          "cita": "separar un carril destinado a la circulación de determinados vehículos (autobuses, taxis, etc.), pudiendo utilizar los demás vehículos el carril reservado para realizar determinadas maniobras permitidas; o separar un carril adicional de uso obligatorio para vehículos lentos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.1 (M-2.4)",
+          "cita": "un carril destinado a la circulación de determinados vehículos (autobuses, taxis, etc.) de los carriles básicos contiguos en tramos en que, por razones de seguridad o funcionales no proceda permitir la maniobra de cambio de carril."
+        }
+      ],
+      "huella": "21a4f1b8fb2a"
+    },
+    {
+      "id": "B2-mv-0022",
+      "porque": "Cuando los trazos de una discontinua se juntan más de lo normal, es una línea de preaviso: te avisa de que se acerca una línea continua, con la prohibición que eso implica, o un tramo de vía con un riesgo especial.",
+      "descartes": {
+        "b": "Es al revés: el preaviso anuncia que llega una línea continua, es decir, que pronto no podrás adelantar.",
+        "c": "Esta línea no anuncia ningún carril para vehículos lentos; anuncia una línea continua o un tramo con riesgo especial."
+      },
+      "truco": "Trazos más juntos de lo normal: se acaba la discontinua o viene un peligro. Si ibas a adelantar, piénsatelo.",
+      "huella": "aaefe26c1d08"
+    },
+    {
+      "id": "B2-mv-0023",
+      "porque": "Las líneas de borde solo marcan dónde termina la calzada. Que sean continuas o discontinuas no cambia las normas sobre quién puede o debe usar el arcén: eso lo fija el reglamento, no el tipo de línea.",
+      "descartes": {
+        "a": "La línea continua de borde no prohíbe entrar en el arcén; de hecho, la norma dice que puede atravesarse cuando es necesario invadirlo por razones de emergencia.",
+        "b": "Una línea de borde discontinua no obliga a nadie a circular por el arcén; quién debe usarlo lo establece el reglamento."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.1",
+          "cita": "Se excluyen de este significado las líneas continuas de borde de calzada, ya que al estar situadas en el arcén pueden ser ocasionalmente atravesadas cuando resulte necesario invadir este por razones de emergencia."
+        }
+      ],
+      "huella": "2a66a07f11f7"
+    },
+    {
+      "id": "v5d-mv-0001",
+      "porque": "Si un carril reservado, por ejemplo para autobuses, está separado por una línea discontinua, los demás vehículos pueden entrar en él, pero solo para hacer determinadas maniobras permitidas, como girar. Si la separación fuera continua, no se permitiría cambiar a ese carril.",
+      "descartes": {
+        "a": "Con separación discontinua sí pueden usarlo para determinadas maniobras permitidas; la que no permite cambiar de carril es la separación continua.",
+        "b": "El carril sigue reservado: los demás solo pueden usarlo para determinadas maniobras permitidas, no para circular por él aunque no haya autobuses."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.1 (M-2.4)",
+          "cita": "un carril destinado a la circulación de determinados vehículos (autobuses, taxis, etc.) de los carriles básicos contiguos en tramos en que, por razones de seguridad o funcionales no proceda permitir la maniobra de cambio de carril."
+        }
+      ],
+      "huella": "784c34985ab5"
+    },
+    {
+      "id": "B2-mv-0036",
+      "porque": "El aspa con las letras PN pintada en el carril es la marca de paso a nivel: indica que se acerca un cruce con una vía de ferrocarril o tranvía, donde tendrás que ceder el paso cuando se aproxime un tren o tranvía.",
+      "descartes": {
+        "a": "Un paso para peatones se marca con bandas paralelas al eje de la calzada, no con un aspa y letras.",
+        "b": "La prohibición de parar se indica con la línea amarilla continua junto al bordillo, no con esta marca."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.2 (M-4.3)",
+          "cita": "una serie de líneas dispuestas en bandas paralelas al eje de la calzada, formando un conjunto transversal a esta, indica un paso para peatones"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.8)",
+          "cita": "Marca longitudinal continua de prohibición de parada (M-7.8): indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        }
+      ],
+      "huella": "d523ae8a1c19"
+    },
+    {
+      "id": "B2-mv-0037",
+      "porque": "Esta marca, con la inscripción BUS, señala el comienzo de un carril reservado a determinados vehículos, como autobuses, taxis o ciclos. A partir de ahí, ese carril no es para circular con un turismo cualquiera.",
+      "descartes": {
+        "b": "La marca indica dónde empieza el carril reservado, no dónde termina.",
+        "c": "No tiene nada que ver con estacionar; marca dónde empieza un carril reservado a determinados vehículos."
+      },
+      "truco": null,
+      "huella": "fa28a9f03148"
+    },
+    {
+      "id": "B2-mv-0043",
+      "porque": "El damero de cuadrados blancos y rojos marca el acceso a un lecho de frenado, la zona de emergencia para vehículos que se quedan sin frenos, normalmente en bajadas largas. Debe estar siempre libre, así que en ella está prohibido parar, estacionar o usarla con otros fines.",
+      "descartes": {
+        "a": "No es un estacionamiento para nadie: la marca prohíbe la parada, el estacionamiento y cualquier otro uso de esa superficie.",
+        "c": "El damero blanco y rojo no es la marca de una zona de bajas emisiones; indica dónde empieza una zona de frenado de emergencia."
+      },
+      "truco": "Blanco y rojo en el suelo de una bajada: escapatoria para quien se queda sin frenos. Se deja siempre libre.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.11)",
+          "cita": "prohibiendo la parada, el estacionamiento o la utilización de esta superficie con otros fines."
+        }
+      ],
+      "huella": "94b60bcad1c5"
+    },
+    {
+      "id": "v3-mv-0001",
+      "porque": "Antes de un paso para peatones hay que dejar un hueco sin coches aparcados para que los conductores vean a quien va a cruzar. Si la acera está alineada con el límite exterior de la banda de estacionamiento, el hueco es de al menos 6 metros; si está alineada con el límite del carril de circulación, de 3.",
+      "descartes": {
+        "a": "3 metros es la distancia cuando la acera está alineada con el límite interior de la banda, es decir, con el carril de circulación.",
+        "c": "15 metros no es ninguna de las distancias fijadas para los pasos de peatones; las del reglamento son 6 y 3 metros."
+      },
+      "truco": "Cuanto más lejos del carril queda la acera, más hueco hace falta para ver al peatón: acera en el límite exterior de la banda de estacionamiento, 6 m; acera junto al carril, 3 m.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.2 (M-4.3)",
+          "cita": "o en los 3 m anteriores si la acera está alineada con el límite interior de la banda de estacionamiento (es decir, con el límite del carril de circulación)."
+        }
+      ],
+      "huella": "d4ea1d1b0c4e"
+    },
+    {
+      "id": "B2-mv-0030",
+      "porque": "Las señales pintadas en el suelo significan lo mismo que sus homólogas verticales, pero solo afectan al carril donde están. Si la limitación está pintada en un carril delimitado por marcas longitudinales, obliga únicamente a los vehículos que circulan por ese carril.",
+      "descartes": {
+        "a": "Una limitación pintada en un carril delimitado por marcas longitudinales no afecta a toda la calzada, sino solo a ese carril.",
+        "b": "La marca no distingue tipos de vehículo: obliga a todos los que circulan por ese carril, sean turismos, camiones o autobuses."
+      },
+      "truco": "Lo que está pintado en tu carril es para tu carril.",
+      "huella": "565f685a95a5"
+    },
+    {
+      "id": "B2-mv-0031",
+      "porque": "La marca STOP pintada tiene el mismo significado que la señal vertical: te obliga a detenerte siempre ante la línea de detención o, si no la hay, justo antes de la calzada a la que llegas, y una vez detenido, ceder el paso.",
+      "descartes": {
+        "b": "Reducir y detenerse solo si se acercan otros es lo que se hace ante un ceda el paso; con STOP la detención es obligatoria siempre.",
+        "c": "Las señales horizontales tienen el mismo significado que sus homólogas verticales, así que la marca STOP obliga por sí sola."
+      },
+      "truco": "STOP: paras siempre, venga o no alguien, y luego cedes. Ceda el paso: paras solo si hace falta para ceder.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "147.2.e",
+          "cita": "las señales horizontales son señales pintadas sobre la calzada con el mismo significado que sus homólogas verticales."
+        }
+      ],
+      "huella": "298c305a3b41"
+    },
+    {
+      "id": "B2-mv-0032",
+      "porque": "El triángulo pintado con el vértice hacia ti es la marca de ceda el paso. Te obliga a ceder el paso a los vehículos de la calzada a la que llegas, deteniéndote ante la línea de ceda el paso solo si es preciso.",
+      "descartes": {
+        "a": "Es justo lo contrario: el triángulo te obliga a ti a ceder el paso a los demás.",
+        "c": "La obligación de detenerse siempre es la del STOP. Con el ceda el paso solo te detienes si es preciso para ceder."
+      },
+      "truco": "STOP: paras siempre, venga o no alguien, y luego cedes. Ceda el paso: paras solo si hace falta para ceder.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.4 (M-6.3 y M-6.4)",
+          "cita": "indica la obligación de detener el vehículo ante una línea de detención (M-4.1) o, si esta no existiera, inmediatamente antes de la calzada a la que se aproxima, y, una vez detenido el vehículo, ceder el paso"
+        }
+      ],
+      "huella": "87990784f6ba"
+    },
+    {
+      "id": "B2-mv-0025",
+      "porque": "La línea transversal discontinua es la línea de ceda el paso: si tienes que ceder el paso, no debes rebasarla, salvo circunstancias anormales que reduzcan la visibilidad. No te obliga a pararte siempre, solo a no pasar de ella mientras debas ceder.",
+      "descartes": {
+        "b": "La obligación de detenerse siempre corresponde al STOP, cuya línea de detención es continua. Con la línea discontinua de ceda el paso solo te detienes si debes ceder.",
+        "c": "El fin de la prohibición de adelantar no se indica con una línea transversal; esta marca está ligada a la obligación de ceder el paso."
+      },
+      "truco": "STOP: paras siempre, venga o no alguien, y luego cedes. Ceda el paso: paras solo si hace falta para ceder. Línea transversal continua: de detención; discontinua: de ceda el paso.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.2 (M-4.1)",
+          "cita": "una línea continua dispuesta a lo ancho de uno o varios carriles es una línea de detención"
+        }
+      ],
+      "huella": "6d90569c0da0"
+    },
+    {
+      "id": "B2-mv-0026",
+      "porque": "Un paso para peatones se marca normalmente con franjas blancas. Solo cuando está regulado por semáforo se puede marcar únicamente con dos líneas transversales discontinuas y paralelas, porque allí es el semáforo el que ordena quién pasa.",
+      "descartes": {
+        "a": "Ni el tamaño del paso ni el ahorro de pintura son motivos que admita la norma; la única condición es que esté regulado por semáforo.",
+        "c": "Estar en vía urbana no basta: hace falta que el paso esté regulado por semáforo."
+      },
+      "truco": null,
+      "huella": "56ab9cf80b66"
+    },
+    {
+      "id": "B2-mv-0028",
+      "porque": "Cuando un paso para peatones está sobreelevado, el reglamento manda marcarlo con una variante especial, la M-4.3b, en la que cada franja se prolonga con un triángulo. Así el conductor sabe de antemano que el paso está elevado sobre la calzada.",
+      "descartes": {
+        "b": "En los pasos regulados por semáforo lo que se permite es usar dos líneas transversales discontinuas; los triángulos indican que el paso está elevado.",
+        "c": "Los ciclistas tienen sus propias marcas, como el paso para ciclistas de dos líneas discontinuas; el triángulo en cada franja indica que el paso está sobreelevado."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.2 (M-4.4)",
+          "cita": "una marca consistente en dos líneas transversales discontinuas y paralelas sobre la calzada indica un paso para ciclistas"
+        }
+      ],
+      "huella": "d9cc8eac1084"
+    },
+    {
+      "id": "B2-mv-0029",
+      "porque": "Antes de un paso para peatones hay que dejar un hueco sin coches aparcados para que los conductores vean a quien va a cruzar. Si la acera está alineada con el límite exterior de la banda de estacionamiento, el hueco es de al menos 6 metros; si está alineada con el límite del carril de circulación, de 3.",
+      "descartes": {
+        "a": "3 metros es la distancia cuando la acera está alineada con el límite interior de la banda, es decir, con el carril de circulación.",
+        "c": "1 metro no es ninguna de las distancias del reglamento, que son 6 y 3 metros según cómo esté alineada la acera."
+      },
+      "truco": "Cuanto más lejos del carril queda la acera, más hueco hace falta para ver al peatón: acera en el límite exterior de la banda de estacionamiento, 6 m; acera junto al carril, 3 m.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.2 (M-4.3)",
+          "cita": "o en los 3 m anteriores si la acera está alineada con el límite interior de la banda de estacionamiento (es decir, con el límite del carril de circulación)."
+        }
+      ],
+      "huella": "0f72ba5a3a3c"
+    },
+    {
+      "id": "x1a-0102",
+      "porque": "La marcha atrás está prohibida salvo que no puedas seguir hacia delante ni cambiar de dirección o sentido, o como maniobra complementaria de otra que la exija. Aquí puedes seguir adelante y dar la vuelta más allá, así que no se cumple ninguna excepción.",
+      "descartes": {
+        "a": "Los 15 metros son el límite de la marcha atrás que completa una parada, un estacionamiento o una incorporación, y aun así sin invadir un cruce. Volver marcha atrás hasta un cruce que te has pasado no es nada de eso.",
+        "c": "La luz de emergencia no autoriza ninguna maniobra prohibida; si puedes seguir hacia delante, no puedes ir marcha atrás."
+      },
+      "truco": "Marcha atrás para completar una parada, un estacionamiento o una incorporación: 15 metros como máximo y sin invadir un cruce. Si no puedes ir hacia delante ni girar ni dar la vuelta: el mínimo indispensable. En autopista y autovía: prohibida.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "80.2",
+          "cita": "El recorrido hacia atrás, como maniobra complementaria de la parada, el estacionamiento o la incorporación a la circulación, no podrá ser superior a 15 metros ni invadir un cruce de vías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "80.3",
+          "cita": "Se prohíbe la maniobra de marcha atrás en autovías y autopistas"
+        }
+      ],
+      "huella": "2862bd8ee070"
+    },
+    {
+      "id": "x1a-0103",
+      "porque": "Ir hacia atrás es una maniobra en la que ves peor. Por eso se hace lentamente, después de avisar con las señales preceptivas y de asegurarte de que no supone peligro para nadie, aunque para ello tengas que bajarte o seguir las indicaciones de otra persona.",
+      "descartes": {
+        "a": "La norma pide justo lo contrario: hacerla lentamente y con la máxima precaución, no con rapidez.",
+        "c": "La marcha atrás se avisa con la luz de marcha atrás o, si no la hay, con el brazo, no con la señal de emergencia. Y siempre hay que comprobar que no hay peligro."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.2.b",
+          "cita": "La marcha hacia atrás será advertida con la correspondiente luz de marcha atrás, si dispone de ella, o, en caso contrario, extendiendo el brazo horizontalmente con la palma de la mano hacia atrás."
+        }
+      ],
+      "huella": "8142145b4c2e"
+    },
+    {
+      "id": "x1a-0104",
+      "porque": "Durante la marcha atrás debes ir con la máxima precaución y parar con toda rapidez si oyes avisos o notas que se acerca un vehículo, una persona o un animal. Si hace falta, desistes de la maniobra.",
+      "descartes": {
+        "a": "Acabar deprisa es lo contrario de lo que manda la norma: ante un aviso hay que detenerse con toda rapidez.",
+        "c": "No basta con seguir despacio y pitar: la norma manda detener el vehículo y, si es preciso, desistir."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "81.3",
+          "cita": "o tan pronto lo exija la seguridad, desistiendo de la maniobra si fuera preciso."
+        }
+      ],
+      "huella": "475b4f20aa47"
+    },
+    {
+      "id": "v2-par-0001",
+      "porque": "Una autocaravana estacionada en la vía pública es un vehículo estacionado más, no un campamento. Por eso no puede extender elementos propios, como el toldo, que desborden su perímetro, entendido como su proyección en planta.",
+      "descartes": {
+        "a": "El límite no es la calzada sino el perímetro del propio vehículo: si el toldo sobresale de él, no se puede extender.",
+        "c": "La norma no distingue entre día y noche ni entre vías urbanas e interurbanas: no se pueden extender elementos que desborden el perímetro."
+      },
+      "truco": "Autocaravana estacionada en la vía pública: nada que sobresalga, solo apoyada en las ruedas (con calzos o cuñas si quieres) y sin verter fluidos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "92.4",
+          "cita": "b) Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad. c) Sin verter fluidos procedentes del habitáculo."
+        }
+      ],
+      "huella": "19b82841cde7"
+    },
+    {
+      "id": "v2-par-0003",
+      "porque": "La autocaravana estacionada en la vía pública debe descansar solo sobre sus neumáticos. Se admite usar calzos o cuñas de seguridad, pero no apoyarla en otros elementos.",
+      "descartes": {
+        "b": "Desplegar las patas estabilizadoras hace que el vehículo deje de descansar solo sobre los neumáticos, que es lo que exige la norma.",
+        "c": "No lo decide el conductor: la norma fija que descanse solo sobre los neumáticos, con calzos o cuñas si se quiere."
+      },
+      "truco": "Autocaravana estacionada en la vía pública: nada que sobresalga, solo apoyada en las ruedas (con calzos o cuñas si quieres) y sin verter fluidos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "92.4",
+          "cita": "a) Sin extender elementos propios que desborden el perímetro del vehículo, considerando como tal la proyección en planta del mismo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "92.4",
+          "cita": "c) Sin verter fluidos procedentes del habitáculo."
+        }
+      ],
+      "huella": "205049815a96"
+    },
+    {
+      "id": "x1b-0004",
+      "porque": "La regla general para parar o estacionar es colocar el vehículo paralelo al borde de la calzada. Otras colocaciones, como en batería o semibatería, son la excepción y solo se permiten cuando las características de la vía u otras circunstancias lo aconsejan.",
+      "descartes": {
+        "a": "Estacionar en batería es una excepción, solo cuando la vía o las circunstancias lo aconsejan; la norma general es en paralelo.",
+        "c": "La semibatería también es una excepción; como norma general el vehículo se coloca paralelo al borde de la calzada."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "92.1",
+          "cita": "Por excepción, se permitirá otra colocación cuando las características de la vía u otras circunstancias así lo aconsejen."
+        }
+      ],
+      "huella": "d99acf81e21e"
+    },
+    {
+      "id": "x1b-0005",
+      "porque": "La norma no fija distancias con los demás coches, sino un criterio: al parar o estacionar tienes que dejar el vehículo de forma que se aproveche lo mejor posible el espacio que queda libre, para que quepan otros.",
+      "descartes": {
+        "a": "La norma no fija ninguna distancia mínima delante ni detrás; pide aprovechar al máximo el espacio que queda.",
+        "b": "Ponerse en el centro de un hueco amplio desperdicia espacio a ambos lados, justo lo contrario de lo que pide la norma."
+      },
+      "truco": null,
+      "huella": "c0485ac636a0"
+    },
+    {
+      "id": "A-par-0001",
+      "porque": "La Ley define la parada con dos condiciones a la vez: que dure menos de dos minutos y que el conductor no pueda abandonar el vehículo. Si falta cualquiera de las dos, ya no es parada.",
+      "descartes": {
+        "a": "La cifra es menos de dos minutos, no cinco; y si el conductor se aleja del vehículo deja de ser parada.",
+        "c": "Inmovilizarse por necesidades de la circulación es una detención, no una parada."
+      },
+      "truco": "Detención: por emergencia, por la circulación o para cumplir una norma (como un semáforo en rojo). Parada: menos de dos minutos y sin abandonar el vehículo. Estacionamiento: cualquier otra inmovilización.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.80",
+          "cita": "Inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.82",
+          "cita": "Inmovilización de un vehículo que no se encuentra en situación de detención o parada."
+        }
+      ],
+      "huella": "7fc2dbaf3a3c"
+    },
+    {
+      "id": "A-par-0002",
+      "porque": "Detenerse ante un semáforo en rojo no es algo que decidas tú: lo haces para cumplir una norma. La Ley llama detención a la inmovilización por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario.",
+      "descartes": {
+        "b": "La parada es una inmovilización voluntaria de menos de dos minutos sin abandonar el vehículo; ante el semáforo no te paras porque quieras, sino porque te obliga la norma.",
+        "c": "Estacionamiento es la inmovilización que no es ni detención ni parada; esperar en el semáforo es una detención."
+      },
+      "truco": "Detención: por emergencia, por la circulación o para cumplir una norma (como un semáforo en rojo). Parada: menos de dos minutos y sin abandonar el vehículo. Estacionamiento: cualquier otra inmovilización.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.81",
+          "cita": "Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.82",
+          "cita": "Inmovilización de un vehículo que no se encuentra en situación de detención o parada."
+        }
+      ],
+      "huella": "f3910bc31717"
+    },
+    {
+      "id": "A-par-0003",
+      "porque": "Para que sea parada hacen falta dos condiciones: menos de dos minutos y que el conductor no abandone el vehículo. Al irte a la tienda lo has abandonado, así que no es parada; tampoco es detención, porque lo has hecho voluntariamente. Lo que no es detención ni parada es estacionamiento.",
+      "descartes": {
+        "a": "Durar menos de dos minutos no basta: la parada exige además que el conductor no abandone el vehículo.",
+        "b": "Detención es inmovilizarse por emergencia, por necesidades de la circulación o para cumplir una norma; entrar en una tienda no es ninguna de esas causas."
+      },
+      "truco": "Detención: por emergencia, por la circulación o para cumplir una norma (como un semáforo en rojo). Parada: menos de dos minutos y sin abandonar el vehículo. Estacionamiento: cualquier otra inmovilización.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.80",
+          "cita": "Inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.81",
+          "cita": "Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo."
+        }
+      ],
+      "huella": "a190ee3ba93a"
+    },
+    {
+      "id": "x1b-0011",
+      "porque": "En las zonas con limitación horaria hay dos formas de incumplir: estacionar sin colocar el distintivo que lo autoriza, o tenerlo colocado y pasarse del tiempo máximo. Sin el tique ya estás en la primera, aunque te vayas antes del tiempo máximo.",
+      "descartes": {
+        "a": "No superar el tiempo máximo es solo una de las dos condiciones; además hay que colocar el distintivo.",
+        "b": "Quedarse dentro del vehículo no aparece en la norma como excepción: lo que se exige es colocar el distintivo que autoriza el estacionamiento."
+      },
+      "truco": null,
+      "huella": "964cde447cc0"
+    },
+    {
+      "id": "A-par-0015",
+      "porque": "Fuera de poblado se circula deprisa, así que la parada o el estacionamiento se hacen siempre fuera de la calzada, en el lado derecho y dejando libre la parte transitable del arcén, que pueden necesitar otros usuarios. Solo por emergencia se admite otra cosa.",
+      "descartes": {
+        "a": "No vale cualquier lado: debe ser el derecho. Y además hay que dejar libre la parte transitable del arcén.",
+        "c": "Parar en la calzada solo se contempla cuando, por emergencia, no es posible situar el vehículo fuera de ella; la regla es hacerlo fuera."
+      },
+      "truco": "Fuera de poblado: fuera de la calzada y a la derecha, dejando libre la parte transitable del arcén. En poblado: lo más cerca posible del borde derecho, y en calles de sentido único también a la izquierda.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "90.1",
+          "cita": "Cuando por razones de emergencia no sea posible situar el vehículo fuera de la calzada y de la parte transitable del arcén"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "90.2",
+          "cita": "Cuando en vías urbanas tenga que realizarse en la calzada o en el arcén, se situará el vehículo lo más cerca posible de su borde derecho, salvo en las vías de único sentido, en las que se podrá situar también en el lado izquierdo"
+        }
+      ],
+      "huella": "c83757c206f7"
+    },
+    {
+      "id": "A-par-0016",
+      "porque": "En vías urbanas, cuando paras o estacionas en la calzada, la regla general es ponerte lo más cerca posible del borde derecho. La excepción son las calles de sentido único: como nadie viene de frente, también puedes hacerlo en el lado izquierdo.",
+      "descartes": {
+        "b": "Solo el lado derecho es la regla de las calles de doble sentido; en las de sentido único la norma permite también el izquierdo.",
+        "c": "El izquierdo no es el único lado posible: en sentido único se puede parar o estacionar en cualquiera de los dos."
+      },
+      "truco": "Fuera de poblado: fuera de la calzada y a la derecha, dejando libre la parte transitable del arcén. En poblado: lo más cerca posible del borde derecho, y en calles de sentido único también a la izquierda.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "90.1",
+          "cita": "La parada o el estacionamiento de un vehículo en vías interurbanas deberá efectuarse siempre fuera de la calzada, en el lado derecho de ésta y dejando libre la parte transitable del arcén"
+        }
+      ],
+      "huella": "27fbb2eede1b"
+    },
+    {
+      "id": "v5b-par-0003",
+      "porque": "En vías urbanas, si tienes que estacionar en la calzada, la regla es situarte lo más cerca posible del borde derecho. La única excepción son las calles de sentido único, donde también se puede usar el lado izquierdo; en doble sentido, no.",
+      "descartes": {
+        "a": "El tipo de línea que separa los sentidos no cambia la regla: en una calle de doble sentido se estaciona en el lado derecho.",
+        "c": "Estacionar en el lado izquierdo solo se permite en las calles de sentido único; que haya hueco o que no venga nadie no cambia eso."
+      },
+      "truco": "Fuera de poblado: fuera de la calzada y a la derecha, dejando libre la parte transitable del arcén. En poblado: lo más cerca posible del borde derecho, y en calles de sentido único también a la izquierda.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "90.1",
+          "cita": "La parada o el estacionamiento de un vehículo en vías interurbanas deberá efectuarse siempre fuera de la calzada, en el lado derecho de ésta y dejando libre la parte transitable del arcén"
+        }
+      ],
+      "huella": "383236c44c51"
+    },
+    {
+      "id": "x1b-0001",
+      "porque": "El reglamento tiene una lista de paradas y estacionamientos que se consideran en lugar peligroso o que obstaculizan gravemente la circulación. Impedir el uso normal de un paso rebajado para personas con discapacidad física está en esa lista, porque les corta el único paso que pueden usar.",
+      "descartes": {
+        "a": "La distancia que convierte el estacionamiento en obstáculo grave es inferior a 3 metros hasta el borde opuesto o la marca continua, o la que no deje pasar a otros vehículos; 4 metros no está en ese supuesto.",
+        "c": "Estacionar en batería donde las marcas viales lo indican es una colocación permitida, no un obstáculo grave."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "91.2.a",
+          "cita": "Cuando la distancia entre el vehículo y el borde opuesto de la calzada o una marca longitudinal sobre ella que indique prohibición de atravesarla sea inferior a tres metros o, en cualquier caso, cuando no permita el paso de otros vehículos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.3 y M-7.4)",
+          "cita": "delimitan los lugares o zonas de estacionamiento, así como la posición en la que los vehículos deben ocuparlos."
+        }
+      ],
+      "huella": "6c24e566b090"
+    },
+    {
+      "id": "x1b-0002",
+      "porque": "Las medianas, separadores, isletas y demás elementos que canalizan el tráfico están para ordenar los movimientos, no para dejar vehículos. Parar o estacionar sobre ellos figura en la lista de lugares peligrosos o que obstaculizan gravemente la circulación.",
+      "descartes": {
+        "a": "Que no ocupe un carril no lo arregla: estacionar sobre una isleta está expresamente en la lista de lugares peligrosos u obstaculizadores.",
+        "b": "La duración no cambia nada: el supuesto se aplica tanto a las paradas como a los estacionamientos sobre isletas."
+      },
+      "truco": null,
+      "huella": "d5096196dfe0"
+    },
+    {
+      "id": "A-par-0007",
+      "porque": "Los demás vehículos necesitan sitio para pasar junto al que está parado. Por eso, si entre tu vehículo y el borde opuesto de la calzada, o una marca longitudinal que no se puede atravesar, quedan menos de 3 metros, la parada o el estacionamiento se considera obstáculo grave. También lo es, sea cual sea la distancia, si no deja pasar a otros vehículos.",
+      "descartes": {
+        "b": "La cifra es 3 metros; 2 metros quedaría por debajo del mínimo y también sería obstáculo grave, pero no es el límite que fija la norma.",
+        "c": "El límite que fija la norma es 3 metros, no 4."
+      },
+      "truco": "Menos de 3 metros libres hasta el otro borde o hasta una línea continua: estás obstaculizando gravemente.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "91.2.a",
+          "cita": "o, en cualquier caso, cuando no permita el paso de otros vehículos."
+        }
+      ],
+      "huella": "4052afd6acd4"
+    },
+    {
+      "id": "v5b-par-0005",
+      "porque": "La lista de lugares que obstaculizan gravemente la circulación se aplica a paradas y a estacionamientos por igual. Uno de esos supuestos es impedir el uso normal de un vado señalizado correctamente, y eso es lo que haces aunque sea un minuto y sin bajarte.",
+      "descartes": {
+        "a": "Durar menos de dos minutos la convierte en parada, pero el supuesto de obstáculo grave por el vado se aplica también a las paradas.",
+        "c": "Es cierto que delante de un vado está prohibido estacionar, pero además cualquier parada o estacionamiento que obstaculice su uso normal se considera obstáculo grave."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.f",
+          "cita": "f) Delante de los vados señalizados correctamente."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "91.3",
+          "cita": "Los supuestos de paradas o estacionamientos en lugares peligrosos o que obstaculicen gravemente la circulación tienen la consideración de infracciones graves"
+        }
+      ],
+      "huella": "a0c754e31614"
+    },
+    {
+      "id": "A-par-0008",
+      "porque": "En pasos para peatones, pasos para ciclistas y pasos a nivel está prohibido parar, porque es justo donde otros usuarios necesitan cruzar. Y donde está prohibido parar, también lo está estacionar.",
+      "descartes": {
+        "a": "En una calle urbana de sentido único se puede parar también junto al bordillo izquierdo; eso está permitido.",
+        "c": "La línea amarilla discontinua solo prohíbe estacionar; parar junto a ella está permitido."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "90.2",
+          "cita": "salvo en las vías de único sentido, en las que se podrá situar también en el lado izquierdo"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.7)",
+          "cita": "Marca longitudinal discontinua de prohibición de estacionamiento (M-7.7): indica la prohibición del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "049d8a9882a8"
+    },
+    {
+      "id": "A-par-0009",
+      "porque": "Los carriles de uso exclusivo del transporte público urbano y los reservados a bicicletas deben quedar siempre libres para quienes pueden usarlos. Por eso en ellos está prohibido parar, por breve que sea la parada.",
+      "descartes": {
+        "b": "La prohibición es de parar, y una parada ya dura por definición menos de dos minutos; aun así no está permitida.",
+        "c": "No abandonar el vehículo es lo que hace que sea parada y no estacionamiento, pero aquí la parada misma está prohibida."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "e98cb25c7af4"
+    },
+    {
+      "id": "A-par-0010",
+      "porque": "Las zonas señaladas para uso exclusivo de personas con discapacidad están en la lista de lugares donde se prohíbe parar. Si no estás autorizado, no puedes ni parar ni, por tanto, estacionar.",
+      "descartes": {
+        "a": "La prohibición es de parar, y una parada ya dura por definición menos de dos minutos; aun así no está permitida.",
+        "c": "Encender la luz de emergencia no levanta ninguna prohibición de parar."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "e1e241fc2dd5"
+    },
+    {
+      "id": "A-par-0011",
+      "porque": "En una intersección, el vehículo parado puede impedir que otros giren. Por eso está prohibido parar en las intersecciones y sus proximidades cuando se dificulta el giro a otros vehículos; y en vías interurbanas, también cuando se genera peligro por falta de visibilidad.",
+      "descartes": {
+        "a": "La duración no importa: si dificultas el giro de otros, la parada está prohibida aunque dure poco.",
+        "c": "La norma no habla de semáforos: lo que cuenta es si se dificulta el giro o, en vías interurbanas, si se genera peligro por falta de visibilidad."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.1.d",
+          "cita": "d) En las intersecciones y en sus proximidades si se dificulta el giro a otros vehículos, o en vías interurbanas, si se genera peligro por falta de visibilidad."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "00b815bd4bf5"
+    },
+    {
+      "id": "A-par-0012",
+      "porque": "En autopistas y autovías se circula a mucha velocidad y un vehículo parado en el arcén es un peligro. Por eso está prohibido parar en ellas, salvo en las zonas habilitadas para ello. Para descansar, tienes que buscar una de esas zonas.",
+      "descartes": {
+        "a": "La prohibición es de parar, y una parada ya dura por definición menos de dos minutos; aun así no está permitida fuera de las zonas habilitadas.",
+        "b": "La luz de emergencia no convierte en legal una parada prohibida; descansar no es una emergencia."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "cd17b6584e6d"
+    },
+    {
+      "id": "A-par-0013",
+      "porque": "Estacionar en doble fila está prohibido en todo caso, sin condiciones: bloquea a los vehículos estacionados junto al bordillo y estrecha la calzada.",
+      "descartes": {
+        "b": "Los 3 metros sirven para saber cuándo una parada o estacionamiento obstaculiza gravemente; no convierten en legal la doble fila, que está prohibida siempre.",
+        "c": "La luz de emergencia no levanta la prohibición de estacionar en doble fila."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "91.2.a",
+          "cita": "Cuando la distancia entre el vehículo y el borde opuesto de la calzada o una marca longitudinal sobre ella que indique prohibición de atravesarla sea inferior a tres metros"
+        }
+      ],
+      "huella": "fca70a9d6ec6"
+    },
+    {
+      "id": "A-par-0014",
+      "porque": "Un vado señalizado correctamente sirve para que los vehículos puedan entrar y salir de un inmueble en cualquier momento. Por eso está prohibido estacionar delante de él, dure lo que dure.",
+      "descartes": {
+        "b": "La prohibición no depende de la duración: delante de un vado señalizado no se puede estacionar.",
+        "c": "Dejar una nota con el teléfono no levanta la prohibición."
+      },
+      "truco": null,
+      "huella": "73783b96451b"
+    },
+    {
+      "id": "v5b-par-0001",
+      "porque": "Las zonas destinadas a estacionamiento y parada de uso exclusivo del transporte público urbano deben quedar libres para los autobuses. Por eso en ellas está prohibido parar, y con más razón estacionar, aunque sea un minuto y sin bajarte.",
+      "descartes": {
+        "a": "En estas zonas la prohibición alcanza también a la parada, no solo al estacionamiento.",
+        "b": "La prohibición no depende de que se vea un autobús: la zona es de uso exclusivo del transporte público urbano."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "0caf6bdfb028"
+    },
+    {
+      "id": "v5b-par-0002",
+      "porque": "Las aceras, paseos y demás zonas destinadas al paso de peatones son para ellos, así que está prohibido estacionar encima, aunque quede espacio para pasar. La única puerta la abre una ordenanza municipal, y solo para vehículos de dos ruedas que no perjudiquen el tránsito de peatones; no para un turismo.",
+      "descartes": {
+        "b": "La norma no fija ninguna duración que permita estacionar en la acera; la prohibición es general.",
+        "c": "La norma no establece ningún ancho libre que lo permita: con un turismo está prohibido estacionar en la acera."
+      },
+      "truco": "En la acera no se estaciona. Solo una ordenanza municipal puede permitirlo, y solo a vehículos de dos ruedas que no perjudiquen ni entorpezcan a los peatones.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "156.2",
+          "cita": "podrán regular la parada y el estacionamiento de los vehículos de dos ruedas sobre las aceras, paseos y demás zonas peatonales, siempre que no se perjudique ni se entorpezca el tránsito de los peatones"
+        }
+      ],
+      "huella": "ffda481e135d"
+    },
+    {
+      "id": "x1b-0008",
+      "porque": "En los túneles, pasos inferiores y tramos afectados por la señal «Túnel», un vehículo parado es un peligro porque hay poco espacio y la visibilidad es menor. Por eso está prohibido parar en ellos, también para dejar bajar a un pasajero.",
+      "descartes": {
+        "a": "La luz de emergencia no levanta la prohibición de parar en un túnel.",
+        "b": "La prohibición es de parar, y una parada ya dura por definición menos de dos minutos; aun así no está permitida en un túnel."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "e65c29dd9986"
+    },
+    {
+      "id": "x1b-0009",
+      "porque": "El tranvía no puede esquivarte: va por raíles. Por eso está prohibido parar sobre los raíles o tan cerca de ellos que se pueda entorpecer su circulación, aunque no se vea ninguno.",
+      "descartes": {
+        "b": "La prohibición no depende de que veas un tranvía: está prohibido parar sobre los raíles en cualquier caso.",
+        "c": "Por qué lado baje el pasajero no cambia nada: el problema es que el vehículo está parado sobre los raíles."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "b0ecae12c48e"
+    },
+    {
+      "id": "x1b-0010",
+      "porque": "Una señal que nadie ve no sirve. Por eso está prohibido parar, y por tanto también estacionar, en los lugares donde tapes la señalización a los usuarios a quienes afecta u obliga a hacer maniobras.",
+      "descartes": {
+        "a": "Esta prohibición alcanza también a la parada, por breve que sea; no solo al estacionamiento.",
+        "c": "Las luces de posición no hacen visible la señal que tapas; la parada sigue estando prohibida."
+      },
+      "truco": "Si está prohibido parar, también lo está estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.a",
+          "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
+        }
+      ],
+      "huella": "fc430042667f"
+    },
+    {
+      "id": "x1b-0012",
+      "porque": "Las zonas señalizadas para carga y descarga están reservadas a esa actividad, así que está prohibido estacionar en ellas. Si lo haces durante las horas de utilización, además se considera un estacionamiento que obstaculiza gravemente la circulación.",
+      "descartes": {
+        "b": "Dejar una nota con el teléfono no levanta la prohibición de estacionar en una zona de carga y descarga.",
+        "c": "La norma no fija ningún tiempo de cortesía para los particulares: estacionar allí está prohibido."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "91.2.g",
+          "cita": "g) Cuando el estacionamiento tenga lugar en una zona reservada a carga y descarga, durante las horas de utilización."
+        }
+      ],
+      "huella": "5aefafbf0ec2"
+    },
+    {
+      "id": "A-par-0004",
+      "porque": "Las líneas amarillas junto al bordillo regulan la parada y el estacionamiento. La continua es la más estricta: prohíbe parar y estacionar a lo largo de toda su longitud, en el lado de la calzada donde está pintada.",
+      "descartes": {
+        "a": "Prohibir solo el estacionamiento es lo que indica la línea amarilla discontinua, no la continua.",
+        "c": "Las zonas reservadas a usos especiales como la carga y descarga se marcan normalmente con la línea amarilla en zigzag, no con la continua."
+      },
+      "truco": "Amarillo continuo: ni parar ni estacionar. Amarillo discontinuo: puedes parar, pero no estacionar. Zigzag amarillo: no estacionar, porque el sitio está reservado a un uso especial como una parada de autobús o la carga y descarga.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.7)",
+          "cita": "Marca longitudinal discontinua de prohibición de estacionamiento (M-7.7): indica la prohibición del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.9)",
+          "cita": "Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos."
+        }
+      ],
+      "huella": "291bee9f0e98"
+    },
+    {
+      "id": "A-par-0005",
+      "porque": "La línea amarilla discontinua es la versión suave de la continua: prohíbe estacionar a lo largo de toda su longitud en ese lado de la calzada, pero no prohíbe la parada.",
+      "descartes": {
+        "a": "Prohibir parar y estacionar es lo que indica la línea amarilla continua; la discontinua solo prohíbe estacionar.",
+        "c": "La línea amarilla discontinua no indica ninguna limitación horaria, sino prohibición de estacionar."
+      },
+      "truco": "Amarillo continuo: ni parar ni estacionar. Amarillo discontinuo: puedes parar, pero no estacionar. Zigzag amarillo: no estacionar, porque el sitio está reservado a un uso especial como una parada de autobús o la carga y descarga.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.8)",
+          "cita": "Marca longitudinal continua de prohibición de parada (M-7.8): indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.9)",
+          "cita": "Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos."
+        }
+      ],
+      "huella": "c69c72c61ded"
+    },
+    {
+      "id": "A-par-0006",
+      "porque": "La línea amarilla en zigzag prohíbe estacionar a los vehículos en general porque ese sitio está reservado a un uso especial que no implica una larga permanencia, como una parada de autobús o la carga y descarga.",
+      "descartes": {
+        "a": "Es lo contrario: el zigzag prohíbe estacionar a los vehículos en general; no autoriza ningún estacionamiento de dos horas.",
+        "c": "La marca no prohíbe circular por ese tramo; lo que prohíbe es estacionar en él."
+      },
+      "truco": "Amarillo continuo: ni parar ni estacionar. Amarillo discontinuo: puedes parar, pero no estacionar. Zigzag amarillo: no estacionar, porque el sitio está reservado a un uso especial como una parada de autobús o la carga y descarga.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.9)",
+          "cita": "Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.7)",
+          "cita": "Marca longitudinal discontinua de prohibición de estacionamiento (M-7.7): indica la prohibición del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2, 4.7 (M-7.8)",
+          "cita": "Marca longitudinal continua de prohibición de parada (M-7.8): indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
+        }
+      ],
+      "huella": "c66cda099274"
+    },
+    {
+      "id": "x1b-0015",
+      "porque": "Los ayuntamientos pueden prever, como medida correctora, la retirada o la inmovilización del vehículo estacionado en zona limitada en tiempo en dos casos: cuando no tiene título que autorice el estacionamiento o cuando rebasa el triple del tiempo abonado. La medida dura hasta que se identifica al conductor.",
+      "descartes": {
+        "b": "La cifra del reglamento es el triple del tiempo abonado, no el doble; y además también cabe cuando no hay título.",
+        "c": "La norma no habla de 24 horas: los supuestos son no tener título o rebasar el triple del tiempo abonado."
+      },
+      "truco": "Zona de estacionamiento limitado: sin tique, o con más del triple del tiempo pagado, la ordenanza puede prever la grúa o la inmovilización.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "156.1.b",
+          "cita": "o rebase el triple del tiempo abonado, hasta que se logre la identificación del conductor."
+        }
+      ],
+      "huella": "85bd752a7120"
+    },
+    {
+      "id": "x1b-0016",
+      "porque": "Como regla general está prohibido estacionar sobre las aceras. Pero el reglamento permite que los ayuntamientos, mediante ordenanza, regulen la parada y el estacionamiento de los vehículos de dos ruedas en aceras y zonas peatonales, siempre que no se perjudique ni entorpezca el tránsito de peatones.",
+      "descartes": {
+        "a": "No vale en cualquier municipio: depende de que la ordenanza lo permita. Y el reglamento no fija ningún metro libre.",
+        "c": "El reglamento permite expresamente que una ordenanza municipal lo regule para vehículos de dos ruedas."
+      },
+      "truco": "En la acera no se estaciona. Solo una ordenanza municipal puede permitirlo, y solo a vehículos de dos ruedas que no perjudiquen ni entorpezcan a los peatones.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "94.2.e",
+          "cita": "e) Sobre las aceras, paseos y demás zonas destinadas al paso de peatones."
+        }
+      ],
+      "huella": "b660ba532b95"
+    },
+    {
+      "id": "x1b-0017",
+      "porque": "Los vehículos de auxilio pueden parar o estacionar en la vía pública para retirar un vehículo averiado o accidentado, pero con dos límites: solo el tiempo indispensable y siempre que no creen un nuevo peligro ni obstaculicen la circulación.",
+      "descartes": {
+        "a": "La norma no les exige hacerlo desde una zona de carga y descarga; les permite parar o estacionar en la vía por el tiempo indispensable.",
+        "b": "El permiso tiene límites: solo el tiempo indispensable y sin crear un nuevo peligro ni obstaculizar la circulación."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "156.1.d",
+          "cita": "siempre que con ello no se cree un nuevo peligro, ni se cause obstáculo a la circulación."
+        }
+      ],
+      "huella": "349b85c0cf1c"
+    },
+    {
+      "id": "v5a-arc-0002",
+      "porque": "Los animales de tiro, carga o silla circulan por el arcén del lado derecho, como los vehículos lentos, y si tienen que usar la calzada, lo más cerca posible de su borde derecho. Solo por excepción se permite llevar un único animal por el borde izquierdo, si razones de mayor seguridad lo aconsejan.",
+      "descartes": {
+        "a": "Ir por la izquierda, de frente a los vehículos, es la regla de los peatones; con un animal solo se admite por excepción, para uno solo y por razones de mayor seguridad.",
+        "b": "El centro del carril no es el sitio: el animal va por el arcén derecho y, si tiene que usar la calzada, lo más cerca posible de su borde derecho."
+      },
+      "truco": "Peatón solo (también en silla de ruedas): arcén izquierdo, de cara a los coches. Por la derecha: quien empuja o arrastra una bici, un ciclomotor de dos ruedas o un VMP, los grupos dirigidos por una persona y, como regla general, los animales.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "127.1.b",
+          "cita": "por excepción, se permite conducir uno solo de tales animales por el borde izquierdo, si razones de mayor seguridad así lo aconsejan."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.1",
+          "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.2",
+          "cita": "a) Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal o vehículos de similares características. b) Todo grupo de peatones dirigido por una persona."
+        }
+      ],
+      "huella": "20247fdab574"
+    },
+    {
+      "id": "arc-0001",
+      "porque": "Un peatón que va solo debe circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable, y lo más alejado posible de los vehículos. Así ve de frente a los que se le acercan por su lado y puede apartarse a tiempo. Solo si no hay arcén practicable va por la calzada.",
+      "descartes": {
+        "a": "El arcén derecho es para los vehículos lentos y para casos concretos de peatones, como quien empuja una bici o los grupos dirigidos; el peatón solo va por la izquierda.",
+        "c": "La calzada es solo el recurso cuando no hay arcén izquierdo practicable."
+      },
+      "truco": "Peatón solo (también en silla de ruedas): arcén izquierdo, de cara a los coches. Por la derecha: quien empuja o arrastra una bici, un ciclomotor de dos ruedas o un VMP, los grupos dirigidos por una persona y, como regla general, los animales.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "122.2",
+          "cita": "a) Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal o vehículos de similares características. b) Todo grupo de peatones dirigido por una persona."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "127.1.b",
+          "cita": "Los animales de tiro, carga o silla o el ganado suelto circularán por el arcén del lado derecho"
+        }
+      ],
+      "huella": "fd7bab6b744f"
+    },
+    {
+      "id": "arc-0002",
+      "porque": "Quien empuja o arrastra una bicicleta sigue siendo peatón, pero es una de las excepciones a la regla de ir por la izquierda: la norma le obliga a circular por la derecha, en el sentido de la circulación.",
+      "descartes": {
+        "a": "Ir por la izquierda es la regla general de los peatones, pero quien empuja o arrastra un ciclo está obligado a ir por la derecha.",
+        "b": "No es una elección: la norma dice que «en todo caso» es obligatorio circular por la derecha."
+      },
+      "truco": "Peatón solo (también en silla de ruedas): arcén izquierdo, de cara a los coches. Por la derecha: quien empuja o arrastra una bici, un ciclomotor de dos ruedas o un VMP, los grupos dirigidos por una persona y, como regla general, los animales.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "122.1",
+          "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.2",
+          "cita": "En todo caso, será obligatorio circular por la derecha"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "127.1.b",
+          "cita": "Los animales de tiro, carga o silla o el ganado suelto circularán por el arcén del lado derecho"
+        }
+      ],
+      "huella": "0475a50554a2"
+    },
+    {
+      "id": "arc-0003",
+      "porque": "Los peatones que van solos circulan por la izquierda, pero un grupo dirigido por una persona es una de las excepciones: está obligado a circular por la derecha.",
+      "descartes": {
+        "b": "La izquierda es la regla general del peatón que va solo; los grupos dirigidos por una persona deben ir por la derecha.",
+        "c": "Ningún peatón debe ir por el centro de la calzada; los que la usan deben ir lo más cerca posible de su borde exterior."
+      },
+      "truco": "Peatón solo (también en silla de ruedas): arcén izquierdo, de cara a los coches. Por la derecha: quien empuja o arrastra una bici, un ciclomotor de dos ruedas o un VMP, los grupos dirigidos por una persona y, como regla general, los animales.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "122.1",
+          "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.3",
+          "cita": "Los peatones que deban transitar por el arcén o por la calzada deberán hacerlo aproximándose cuanto sea posible al borde exterior de éstos"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.2.a",
+          "cita": "a) Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal o vehículos de similares características."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "127.1.b",
+          "cita": "Los animales de tiro, carga o silla o el ganado suelto circularán por el arcén del lado derecho"
+        }
+      ],
+      "huella": "697208d54a3e"
+    },
+    {
+      "id": "arc-0007",
+      "porque": "Los vehículos especiales de hasta 3.500 kg de MMA son lentos, así que la norma los manda al arcén de su derecha si es transitable y suficiente, y solo si no lo es, a la parte imprescindible de la calzada. Los de más de 3.500 kg, en cambio, van por la calzada.",
+      "descartes": {
+        "a": "El carril derecho es para cuando el arcén no es transitable o suficiente; aquí lo es, así que debe ir por el arcén.",
+        "c": "Un vehículo especial lento no debe ir por el carril izquierdo; la norma lo manda al arcén de su derecha."
+      },
+      "truco": "Al arcén derecho, si es transitable y suficiente: vehículos de tracción animal, especiales de hasta 3.500 kg, ciclos, ciclomotores, vehículos para personas de movilidad reducida y los de hasta 3.500 kg que por emergencia van anormalmente despacio. Los especiales de más de 3.500 kg, por la calzada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "Los conductores de vehículos de tracción animal, vehículos especiales con masa máxima autorizada no superior a 3.500 kilogramos, ciclos, ciclomotores, vehículos para personas de movilidad reducida o vehículos en seguimiento de ciclistas"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "31.1",
+          "cita": "El conductor de un automóvil o de un vehículo especial con masa máxima autorizada superior a 3.500 kilogramos circulará por la calzada y no por el arcén, salvo por razones de emergencia."
+        }
+      ],
+      "huella": "a729c276ab68"
+    },
+    {
+      "id": "v5a-arc-0001",
+      "porque": "Un vehículo de hasta 3.500 kg que, por una emergencia, va a velocidad anormalmente reducida y perturba gravemente la circulación se comporta como un vehículo lento: debe ir por el arcén de su derecha si es transitable y suficiente, y si no, por la parte imprescindible de la calzada.",
+      "descartes": {
+        "a": "Quedarse en el carril es lo que la norma quiere evitar cuando perturbas gravemente la circulación; con arcén transitable y suficiente, debes ir por él.",
+        "c": "Los vehículos que deben usar el arcén van por el de su derecha; el arcén izquierdo es para los peatones."
+      },
+      "truco": "Al arcén derecho, si es transitable y suficiente: vehículos de tracción animal, especiales de hasta 3.500 kg, ciclos, ciclomotores, vehículos para personas de movilidad reducida y los de hasta 3.500 kg que por emergencia van anormalmente despacio. Los especiales de más de 3.500 kg, por la calzada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "Los conductores de vehículos de tracción animal, vehículos especiales con masa máxima autorizada no superior a 3.500 kilogramos, ciclos, ciclomotores, vehículos para personas de movilidad reducida o vehículos en seguimiento de ciclistas"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "31.1",
+          "cita": "El conductor de un automóvil o de un vehículo especial con masa máxima autorizada superior a 3.500 kilogramos circulará por la calzada y no por el arcén, salvo por razones de emergencia."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.1",
+          "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada"
+        }
+      ],
+      "huella": "2e6d97982bdc"
+    },
+    {
+      "id": "v5a-arc-0003",
+      "porque": "Para los vehículos especiales, el corte está en 3.500 kg de MMA: los de hasta 3.500 kg van por el arcén de su derecha si es transitable y suficiente, y los de más de 3.500 kg circulan por la calzada y no por el arcén, salvo por razones de emergencia. Con 6.000 kg, a la calzada.",
+      "descartes": {
+        "b": "Ser lento no basta: entre los vehículos especiales, solo los de hasta 3.500 kg de MMA están obligados a ir por el arcén.",
+        "c": "La norma no distingue entre día y noche: un vehículo especial de más de 3.500 kg va por la calzada."
+      },
+      "truco": "Al arcén derecho, si es transitable y suficiente: vehículos de tracción animal, especiales de hasta 3.500 kg, ciclos, ciclomotores, vehículos para personas de movilidad reducida y los de hasta 3.500 kg que por emergencia van anormalmente despacio. Los especiales de más de 3.500 kg, por la calzada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "Los conductores de vehículos de tracción animal, vehículos especiales con masa máxima autorizada no superior a 3.500 kilogramos, ciclos, ciclomotores, vehículos para personas de movilidad reducida o vehículos en seguimiento de ciclistas"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "los conductores de aquellos vehículos cuya masa máxima autorizada no exceda de 3.500 kilogramos que, por razones de emergencia, lo hagan a velocidad anormalmente reducida, perturbando con ello gravemente la circulación."
+        }
+      ],
+      "huella": "3f6cc6c73c8e"
+    },
+    {
+      "id": "arc-0011",
+      "porque": "El carril de emergencia se abre donde menos cuesta dejar hueco a los vehículos prioritarios. En autopistas y autovías con tres o más carriles por sentido, se forma entre el carril más a la izquierda y su contiguo: los del carril izquierdo se apartan lo más a la izquierda posible y los de los demás carriles, lo más a la derecha posible.",
+      "descartes": {
+        "a": "El carril de emergencia no se forma junto al arcén; con tres carriles va entre el de la izquierda y el siguiente.",
+        "b": "Contando desde la izquierda, el hueco va entre el primer y el segundo carril, no entre el segundo y el tercero."
+      },
+      "truco": "Carril de emergencia: con dos carriles, el hueco va en el centro; con tres o más, entre el carril de la izquierda y el siguiente. Los del carril izquierdo se apartan a la izquierda; todos los demás, a la derecha.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "32.1",
+          "cita": "Los vehículos que circulen en el carril situado más a la izquierda deberán moverse lo más a la izquierda posible y los vehículos que circulen en los demás carriles deberán moverse lo más a la derecha posible."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "32.1",
+          "cita": "En las autopistas y autovías que tengan dos carriles en el mismo sentido, el carril de emergencia deberá formarse en el centro de la vía, entre esos dos carriles."
+        }
+      ],
+      "huella": "2092d428dc40"
+    },
+    {
+      "id": "arc-0012",
+      "porque": "En autopistas y autovías, cuando por una retención se circula a paso de peatón o se para, hay que dejar un espacio libre para los vehículos prioritarios: el carril de emergencia. Con dos carriles por sentido se forma en el centro, entre los dos carriles.",
+      "descartes": {
+        "b": "El carril de emergencia no se forma en el arcén, sino entre los carriles: con dos carriles, en el centro de la vía.",
+        "c": "Es obligatorio: cuando hay retención en autopistas y autovías, los vehículos deben orillarse para dejar ese espacio libre."
+      },
+      "truco": "Carril de emergencia: con dos carriles, el hueco va en el centro; con tres o más, entre el carril de la izquierda y el siguiente. Los del carril izquierdo se apartan a la izquierda; todos los demás, a la derecha.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "32.1",
+          "cita": "En autopistas y autovías, cuando con motivo de una retención los vehículos circulen a paso de peatón o se detengan, deberán orillarse de manera que dejen un espacio libre para permitir el paso ante la aproximación de vehículos prioritarios."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "32.1",
+          "cita": "En las autopistas y autovías que tengan tres o más carriles en el mismo sentido, el carril de emergencia deberá formarse entre el carril situado más a la izquierda y el carril contiguo a él."
+        }
+      ],
+      "huella": "01b5d8478bad"
+    },
+    {
+      "id": "arc-0014",
+      "porque": "Fuera de poblado, con tres o más carriles en tu sentido, los camiones y furgones de más de 3.500 kg de MMA, los vehículos especiales no obligados a ir por el arcén y los conjuntos de más de 7 metros circulan normalmente por el carril derecho y pueden usar el inmediato, pero no los demás.",
+      "descartes": {
+        "a": "Usar cualquiera de los tres carriles es lo que puede hacer un turismo; a un camión de más de 3.500 kg la norma le limita al carril derecho y al inmediato.",
+        "b": "Es demasiado restrictivo: la norma le permite usar también el carril inmediato al derecho cuando las circunstancias lo aconsejan."
+      },
+      "truco": "Tres o más carriles por sentido fuera de poblado: camiones y furgones de más de 3.500 kg, especiales no obligados a ir por el arcén y conjuntos de más de 7 m usan el carril derecho y el de al lado, no los demás. Un camión de 3.500 kg o menos no tiene esta limitación.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "31.1",
+          "cita": "circulará normalmente por el situado más a su derecha, si bien podrá utilizar el resto de los de dicho sentido cuando las circunstancias del tráfico o de la vía lo aconsejen, a condición de que no entorpezca la marcha de otro vehículo que le siga."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "31.2",
+          "cita": "los conductores de camiones o furgones con masa máxima autorizada superior a 3.500 kilogramos, los de vehículos especiales que no estén obligados a circular por el arcén y los de conjuntos de vehículos de más de siete metros de longitud circularán normalmente por el situado más a la derecha"
+        }
+      ],
+      "huella": "e16e0603a69a"
+    },
+    {
+      "id": "arc-0015",
+      "porque": "En las calzadas de poblado con al menos dos carriles para tu sentido, delimitados por marcas, salvo autopistas y autovías, no rige la obligación de ir por la derecha: puedes usar el carril que mejor convenga a tu destino, siempre que no seas un obstáculo para los demás.",
+      "descartes": {
+        "b": "Ir normalmente por el carril derecho es la regla fuera de poblado; en poblado puedes elegir el carril que mejor convenga a tu destino.",
+        "c": "La norma no te manda al carril izquierdo: puedes usar el que mejor convenga a tu destino."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "33",
+          "cita": "y no deberá abandonarlo más que para prepararse a cambiar de dirección, adelantar, parar o estacionar."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "31.1",
+          "cita": "Además, fuera de poblado, en las calzadas con más de un carril reservado para su sentido de marcha, circulará normalmente por el situado más a su derecha"
+        }
+      ],
+      "huella": "928e2bbbaf9b"
+    },
+    {
+      "id": "v5a-car-0001",
+      "porque": "Con tres o más carriles en tu sentido fuera de poblado, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril derecho y pueden usar el inmediato, pero no los demás. Tu turismo con caravana mide 8 metros, así que entra en esa limitación.",
+      "descartes": {
+        "b": "Un turismo sin remolque podría usar los tres carriles, pero con la caravana el conjunto pasa de 7 metros y queda limitado al carril derecho y al inmediato.",
+        "c": "Es demasiado restrictivo: la norma le permite usar también el carril inmediato al derecho."
+      },
+      "truco": "Tres o más carriles por sentido fuera de poblado: camiones y furgones de más de 3.500 kg, especiales no obligados a ir por el arcén y conjuntos de más de 7 m usan el carril derecho y el de al lado, no los demás. Un camión de 3.500 kg o menos no tiene esta limitación.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "31.1",
+          "cita": "circulará normalmente por el situado más a su derecha, si bien podrá utilizar el resto de los de dicho sentido cuando las circunstancias del tráfico o de la vía lo aconsejen, a condición de que no entorpezca la marcha de otro vehículo que le siga."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "31.2",
+          "cita": "los conductores de camiones o furgones con masa máxima autorizada superior a 3.500 kilogramos, los de vehículos especiales que no estén obligados a circular por el arcén y los de conjuntos de vehículos de más de siete metros de longitud circularán normalmente por el situado más a la derecha"
+        }
+      ],
+      "huella": "e05dabbecf68"
+    },
+    {
+      "id": "v5a-car-0002",
+      "porque": "La limitación al carril derecho y al inmediato es para camiones y furgones de más de 3.500 kg de MMA, especiales no obligados a ir por el arcén y conjuntos de más de 7 metros. Un camión rígido de 3.000 kg no está en esa lista, así que sigue la regla general: carril derecho normalmente, pero puede usar los demás, sin entorpecer a quien le siga.",
+      "descartes": {
+        "b": "No afecta a todos los camiones: solo a los de más de 3.500 kg de MMA.",
+        "c": "Ninguna norma limita a un camión de 3.000 kg al carril derecho; puede usar los demás cuando las circunstancias lo aconsejen."
+      },
+      "truco": "Tres o más carriles por sentido fuera de poblado: camiones y furgones de más de 3.500 kg, especiales no obligados a ir por el arcén y conjuntos de más de 7 m usan el carril derecho y el de al lado, no los demás. Un camión de 3.500 kg o menos no tiene esta limitación.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "31.1",
+          "cita": "circulará normalmente por el situado más a su derecha, si bien podrá utilizar el resto de los de dicho sentido cuando las circunstancias del tráfico o de la vía lo aconsejen, a condición de que no entorpezca la marcha de otro vehículo que le siga."
+        }
+      ],
+      "huella": "83b075e01ce0"
+    },
+    {
+      "id": "arc-0008",
+      "porque": "Los vehículos que deben ir por el arcén tienen prohibido circular en paralelo, pero las bicicletas son una excepción: pueden ir en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, también pueden ir de a dos, aunque en algunos casos deben ponerse en hilera.",
+      "descartes": {
+        "a": "La prohibición de circular en paralelo tiene una excepción expresa para las bicicletas: en el arcén pueden ir en columna de a dos.",
+        "b": "La norma no limita la columna de a dos a dentro de poblado; se refiere precisamente a circular por el arcén."
+      },
+      "truco": "Bicis por el arcén: pueden ir de dos en dos. Por la calzada, si no hay arcén transitable, también, pero en hilera en tramos sin visibilidad, cuando afecten a la fluidez, entre el ocaso y la salida del sol o con poca visibilidad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.2",
+          "cita": "Se prohíbe que los conductores de los vehículos enumerados en el párrafo primero del apartado anterior circulen en posición paralela."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "36.2",
+          "cita": "si bien deberán colocarse en hilera en los tramos sin visibilidad, cuando afecten a la fluidez de la circulación, o cuando circulen entre el ocaso y la salida del sol o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad."
+        }
+      ],
+      "huella": "b0600da5df7b"
+    },
+    {
+      "id": "arc-0009",
+      "porque": "Sin arcén transitable, los ciclistas pueden ir en columna de a dos por la parte imprescindible de la calzada, pero deben colocarse en hilera en ciertos casos. Uno de ellos es circular entre el ocaso y la salida del sol, que es cuando los ven peor.",
+      "descartes": {
+        "b": "La columna de a dos por la calzada no se permite de noche: entre el ocaso y la salida del sol tienen que ir en hilera.",
+        "c": "No lo eligen ellos: de noche la norma les obliga a ir en hilera."
+      },
+      "truco": "Bicis por el arcén: pueden ir de dos en dos. Por la calzada, si no hay arcén transitable, también, pero en hilera en tramos sin visibilidad, cuando afecten a la fluidez, entre el ocaso y la salida del sol o con poca visibilidad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.2",
+          "cita": "si bien deberán colocarse en hilera en los tramos sin visibilidad, cuando afecten a la fluidez de la circulación, o cuando circulen entre el ocaso y la salida del sol o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad."
+        }
+      ],
+      "huella": "ac50f3d4fe9f"
+    },
+    {
+      "id": "arc-0010",
+      "porque": "El uso del arcén por motocicletas es extraordinario y está muy acotado: solo en tramos señalizados, solo con la circulación detenida por congestión, en columna de a uno y con la velocidad limitada a 30 km/h.",
+      "descartes": {
+        "a": "La cifra que fija la norma es 30 km/h, no 20.",
+        "c": "50 km/h supera con mucho el límite: por el arcén, como máximo 30 km/h."
+      },
+      "truco": "Motos por el arcén: solo donde esté señalizado, solo con el tráfico detenido por atasco, como máximo a 30 km/h y de uno en uno.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.3",
+          "cita": "Únicamente estará habilitado este tipo de uso cuando la circulación de los carriles de la vía esté detenida por congestión del tráfico."
+        }
+      ],
+      "huella": "203c982f9126"
+    },
+    {
+      "id": "v2-arc-0001",
+      "porque": "Una moto puede usar el arcén derecho durante un atasco solo si se cumplen dos condiciones a la vez: que sea un tramo acordado y señalizado para ello con señales verticales y marcas viales, y que la circulación de los carriles esté detenida por congestión. Además, como máximo a 30 km/h y en columna de a uno.",
+      "descartes": {
+        "a": "No vale en cualquier vía con arcén: solo en los tramos señalizados para ello y con la circulación detenida por congestión.",
+        "c": "Existe este uso extraordinario del arcén por motocicletas, aunque solo en tramos señalizados y con la circulación detenida por congestión."
+      },
+      "truco": "Motos por el arcén: solo donde esté señalizado, solo con el tráfico detenido por atasco, como máximo a 30 km/h y de uno en uno.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.3",
+          "cita": "Estos tramos estarán convenientemente señalizados mediante señalización fija vertical y marcas viales. La velocidad estará limitada a 30 km/h y únicamente se podrá circular en columna de a uno extremando la precaución."
+        }
+      ],
+      "huella": "5f0e809049a4"
+    },
+    {
+      "id": "arc-0013",
+      "porque": "Cuando la nieve dificulta la circulación en autopistas y autovías, hay que dejar los carriles de la izquierda libres para los vehículos de emergencia y los quitanieves. Por eso se prohíbe adelantar y es obligatorio ir por el carril más a la derecha; con tres o más carriles por sentido también se puede usar su contiguo.",
+      "descartes": {
+        "a": "El carril izquierdo tiene que quedar libre precisamente para los vehículos de emergencia y los quitanieves.",
+        "c": "Con nieve está prohibido adelantar a cualquier vehículo, también a los pesados."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "32.2",
+          "cita": "pudiendo utilizar su contiguo en tramos con tres o más carriles por sentido, dejando expeditos para la circulación de vehículos de emergencia y quitanieves el resto de carriles a la izquierda."
+        }
+      ],
+      "huella": "05a4e7a450ce"
+    },
+    {
+      "id": "res-arc-0001",
+      "porque": "Una persona con discapacidad que circula al paso en silla de ruedas, con o sin motor, es peatón. Por eso sigue la regla de los peatones: por el arcén izquierdo en el sentido de su marcha si existe y es practicable o, si no, por la calzada, lo más alejada posible de los vehículos.",
+      "descartes": {
+        "b": "Ningún peatón debe ir por el centro de la calzada; la norma pide ir lo más alejado posible del tránsito de los vehículos.",
+        "c": "Ninguna norma manda a las sillas de ruedas por la derecha; los obligados a ir por la derecha son, entre otros, quienes empujan una bici o los grupos dirigidos por una persona."
+      },
+      "truco": "Peatón solo (también en silla de ruedas): arcén izquierdo, de cara a los coches. Por la derecha: quien empuja o arrastra una bici, un ciclomotor de dos ruedas o un VMP, los grupos dirigidos por una persona y, como regla general, los animales.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.4",
+          "cita": "y las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "122.2",
+          "cita": "a) Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal o vehículos de similares características. b) Todo grupo de peatones dirigido por una persona."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "127.1.b",
+          "cita": "Los animales de tiro, carga o silla o el ganado suelto circularán por el arcén del lado derecho"
+        }
+      ],
+      "huella": "0e770a0f5559"
+    },
+    {
+      "id": "x1a-0073",
+      "porque": "La regla general es que los conductores tienen prioridad sobre los animales, pero hay tres excepciones: las cañadas señalizadas, cuando giras para entrar en otra vía y hay animales cruzándola, aunque no haya paso para ellos, y cuando cruzas un arcén por el que van animales sin cañada. Aquí se da la segunda.",
+      "descartes": {
+        "b": "Esta excepción se aplica precisamente aunque no exista paso para animales.",
+        "c": "La prioridad de los conductores sobre los animales no es absoluta: tiene tres excepciones, y girar hacia una vía que están cruzando es una de ellas."
+      },
+      "truco": "Ante animales tienes prioridad, salvo en tres casos: cañadas señalizadas, cuando giras hacia una vía que están cruzando y cuando cruzas un arcén por el que van sin cañada. Los dos últimos casos también dan prioridad a los peatones.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "66.1",
+          "cita": "a) En las cañadas debidamente señalizadas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "66.1.c",
+          "cita": "c) Cuando el vehículo cruce un arcén por el que estén circulando animales que no dispongan de cañada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "b) Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+        }
+      ],
+      "huella": "cbc5fceceb72"
+    },
+    {
+      "id": "x1a-0074",
+      "porque": "La regla general es que los conductores tienen prioridad sobre los animales, pero hay tres excepciones: las cañadas señalizadas, cuando giras para entrar en otra vía con animales cruzándola y cuando cruzas un arcén por el que circulan animales que no disponen de cañada. Al entrar en la finca cruzas ese arcén, así que pasan primero las vacas.",
+      "descartes": {
+        "a": "Tendrías prioridad como regla general, pero cruzar un arcén por el que van animales sin cañada es una de las excepciones.",
+        "b": "La prioridad no depende de quién llegue primero; la norma da prioridad a los animales en este caso."
+      },
+      "truco": "Ante animales tienes prioridad, salvo en tres casos: cañadas señalizadas, cuando giras hacia una vía que están cruzando y cuando cruzas un arcén por el que van sin cañada. Los dos últimos casos también dan prioridad a los peatones.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "66.1",
+          "cita": "a) En las cañadas debidamente señalizadas. b) Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales cruzándola, aunque no exista paso para éstos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "65.1",
+          "cita": "b) Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos. c) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+        }
+      ],
+      "huella": "eb684f6f6d7f"
+    },
+    {
+      "id": "x1a-0059",
+      "porque": "Ceder el paso no es solo evitar el choque. Quien debe cederlo no puede iniciar ni continuar la maniobra hasta asegurarse de que no obliga al que tiene prioridad a cambiar bruscamente su trayectoria o su velocidad. Si al salir le haces frenar fuerte, no has cedido el paso.",
+      "descartes": {
+        "b": "Ceder el paso exige más que no chocar: no puedes forzar al que tiene prioridad a modificar bruscamente su velocidad o su trayectoria.",
+        "c": "Pitar no te da prioridad; seguirías obligando al otro a frenar bruscamente, que es lo que la norma prohíbe."
+      },
+      "truco": "Ceder el paso tiene dos partes: que se note con tiempo, reduciendo la velocidad poco a poco, y que el otro no tenga que frenar ni desviarse de golpe por tu culpa.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "58.1",
+          "cita": "y debe mostrar con suficiente antelación, por su forma de circular y especialmente con la reducción paulatina de la velocidad que efectivamente va a cederlo"
+        }
+      ],
+      "huella": "b8089f837fb8"
+    },
+    {
+      "id": "x1a-0060",
+      "porque": "Quien tiene que ceder el paso debe dejar claro con su forma de circular, y con suficiente antelación, que de verdad lo va a hacer. La forma principal de mostrarlo es ir reduciendo la velocidad poco a poco al acercarse, para que el que tiene prioridad no dude.",
+      "descartes": {
+        "a": "La luz de emergencia no es la forma de mostrar que cedes el paso; la norma habla de tu forma de circular y, sobre todo, de reducir la velocidad.",
+        "c": "Una señal acústica no indica que vayas a ceder; la norma pide mostrarlo reduciendo paulatinamente la velocidad."
+      },
+      "truco": "Ceder el paso tiene dos partes: que se note con tiempo, reduciendo la velocidad poco a poco, y que el otro no tenga que frenar ni desviarse de golpe por tu culpa.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "58.1",
+          "cita": "hasta haberse asegurado de que con ello no fuerza al conductor del vehículo que tiene la prioridad a modificar bruscamente la trayectoria o la velocidad de éste"
+        }
+      ],
+      "huella": "3d6a9c559350"
+    },
+    {
+      "id": "A-est-0001",
+      "porque": "En un tramo tan estrecho que no caben dos vehículos y sin señal que lo regule, la regla básica es sencilla: tiene preferencia el que hubiese entrado primero. Solo si hay duda sobre eso se acude a la lista de tipos de vehículos.",
+      "descartes": {
+        "a": "La preferencia del que viene por la derecha es la regla de las intersecciones sin señalizar, no la de los estrechamientos.",
+        "c": "El tamaño no decide por sí solo; primero cuenta quién entró antes y, si hay duda, la lista del reglamento por dificultad de maniobra."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "57.1",
+          "cita": "En defecto de señal que regule la preferencia de paso, el conductor está obligado a cederlo a los vehículos que se aproximen por su derecha"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "60.1",
+          "cita": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con mayores dificultades de maniobra, de acuerdo con lo que se determina en el artículo 62."
+        }
+      ],
+      "huella": "b0d71fd3f2d3"
+    },
+    {
+      "id": "A-est-0002",
+      "porque": "En un estrechamiento sin señal pasa el que entró primero. Si hay duda, tiene preferencia el vehículo con mayores dificultades de maniobra según la lista del reglamento, y en esa lista los camiones van antes que los turismos.",
+      "descartes": {
+        "b": "La distancia de marcha atrás solo desempata entre vehículos del mismo tipo o no enumerados; entre un camión y un turismo decide la lista.",
+        "c": "La regla de la derecha es de las intersecciones sin señalizar, no de los estrechamientos."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "f) Camiones, tractocamiones y furgones. g) Turismos y vehículos derivados de turismos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "Cuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia"
+        }
+      ],
+      "huella": "a196734be16a"
+    },
+    {
+      "id": "A-est-0003",
+      "porque": "La lista de tipos de vehículos no sirve si los dos son del mismo tipo, como dos turismos. En ese caso la preferencia es del que tendría que dar marcha atrás mayor distancia, porque así retrocede quien menos tiene que recorrer.",
+      "descartes": {
+        "a": "Es al revés: pasa el que tendría que retroceder más, y da marcha atrás el que tiene menos recorrido.",
+        "b": "La pendiente solo cuenta en tramos de gran pendiente (al menos un 7 %), y allí la preferencia es del que sube, no del que baja."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "Se entienden por tramos de gran pendiente los que tienen una inclinación mínima del siete por ciento."
+        }
+      ],
+      "huella": "b934551edbfc"
+    },
+    {
+      "id": "A-est-0004",
+      "porque": "Si no se sabe quién entró primero, decide la lista del reglamento por dificultad de maniobra. En ella, los vehículos de transporte colectivo de viajeros, como el autobús, van justo por delante de los camiones, tractocamiones y furgones.",
+      "descartes": {
+        "a": "En la lista el camión va detrás del autobús, así que es el camión quien debe retroceder.",
+        "b": "La masa máxima autorizada solo desempata entre vehículos del mismo tipo que tendrían que retroceder la misma distancia."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "y, en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada."
+        }
+      ],
+      "huella": "5a6eae7c34e9"
+    },
+    {
+      "id": "A-est-0005",
+      "porque": "Si no se sabe quién entró primero, decide la lista del reglamento. Los turismos que arrastran remolques de hasta 750 kg de MMA (y las autocaravanas) van por delante de los vehículos de transporte colectivo de viajeros, así que es el autobús el que debe dar marcha atrás.",
+      "descartes": {
+        "a": "En la lista, el turismo con remolque de hasta 750 kg tiene preferencia sobre el autobús; quien retrocede es el autobús.",
+        "c": "Los metros recorridos dentro del estrechamiento no cuentan; entre tipos distintos decide la lista del reglamento."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "huella": "cb87fdbaf589"
+    },
+    {
+      "id": "A-est-0006",
+      "porque": "Si no se sabe quién entró primero, decide la lista del reglamento por dificultad de maniobra. Un vehículo de tracción animal es muy difícil de mover marcha atrás, y en la lista va justo por delante de los turismos con remolque de hasta 750 kg.",
+      "descartes": {
+        "a": "En la lista, el turismo con remolque de hasta 750 kg va detrás del vehículo de tracción animal, así que es el turismo quien retrocede.",
+        "b": "La regla de la derecha es de las intersecciones sin señalizar, no de los estrechamientos."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "60.1",
+          "cita": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con mayores dificultades de maniobra, de acuerdo con lo que se determina en el artículo 62."
+        }
+      ],
+      "huella": "5e7615a6b760"
+    },
+    {
+      "id": "A-est-0007",
+      "porque": "Si no se sabe quién entró primero, decide la lista del reglamento por dificultad de maniobra. Los camiones, tractocamiones y furgones van por delante de los turismos, así que retrocede el turismo, que maniobra con más facilidad.",
+      "descartes": {
+        "a": "En la lista, el camión tiene preferencia sobre el turismo sin remolque.",
+        "c": "El sentido de la marcha solo cuenta en los tramos de gran pendiente, y allí la preferencia es del que sube, no del que baja."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto."
+        }
+      ],
+      "huella": "99ab962a45f4"
+    },
+    {
+      "id": "B1-pri-0072",
+      "porque": "En un puente u obra de paso estrecha con señal de prioridad en sentido contrario o de ceda el paso en uno de sus extremos, la señal ya decide quién pasa: si dos vehículos se encuentran dentro, retrocede el que entró por el extremo de la señal. Tú entraste por ese extremo, así que retrocedes tú.",
+      "descartes": {
+        "b": "El tamaño no decide aquí: lo decide la señal, y retrocede quien entró por el extremo donde está colocada.",
+        "c": "El que viene en sentido contrario tiene la prioridad según la señal que encontraste al entrar; quien retrocede eres tú."
+      },
+      "truco": "Si en tu extremo había señal de prioridad en sentido contrario o de ceda el paso, el que retrocede eres tú. La lista de tipos de vehículos solo se usa si no hay señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "61.2",
+          "cita": "En ausencia de señalización, el orden de preferencia entre los distintos tipos de vehículos se ajustará a lo establecido en el artículo 62."
+        }
+      ],
+      "huella": "f728c00fbf87"
+    },
+    {
+      "id": "v5a-est-0001",
+      "porque": "Si no se sabe quién entró primero, decide la lista del reglamento por dificultad de maniobra. Un camión con remolque es un conjunto de vehículos, que va en segundo lugar, por delante de los turismos con remolque de hasta 750 kg. Por eso retrocede el turismo con remolque.",
+      "descartes": {
+        "a": "El camión con remolque, como conjunto de vehículos, tiene preferencia sobre el turismo con remolque ligero.",
+        "c": "La distancia de marcha atrás solo desempata entre vehículos del mismo tipo o no enumerados; aquí son de tipos distintos y decide la lista."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "Cuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia"
+        }
+      ],
+      "huella": "93d3271b875b"
+    },
+    {
+      "id": "x1a-0067",
+      "porque": "Si no se sabe quién entró primero, decide la lista del reglamento. Las autocaravanas van en el mismo puesto que los turismos con remolque de hasta 750 kg, por delante de los vehículos de transporte colectivo y de los camiones. Por eso la preferencia es de la autocaravana.",
+      "descartes": {
+        "a": "En la lista los camiones van detrás de las autocaravanas, así que el camión es quien retrocede.",
+        "c": "La distancia de marcha atrás solo desempata entre vehículos del mismo tipo o no enumerados; entre autocaravana y camión decide la lista."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "d) Turismos que arrastran remolques de hasta 750 kilogramos de masa máxima autorizada y autocaravanas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "Cuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia"
+        }
+      ],
+      "huella": "3b35a37367aa"
+    },
+    {
+      "id": "x1a-0068",
+      "porque": "Si no se sabe quién entró primero, decide la lista del reglamento por dificultad de maniobra. Las motocicletas, ciclomotores de dos ruedas y bicicletas están en el último lugar, porque son los que más fácilmente pueden echarse atrás. El turismo va por delante, así que retrocede la moto.",
+      "descartes": {
+        "b": "El turismo va antes que la motocicleta en la lista, así que tiene la preferencia.",
+        "c": "El número de ocupantes no aparece en ninguna regla de preferencia de los estrechamientos."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "g) Turismos y vehículos derivados de turismos."
+        }
+      ],
+      "huella": "7c196ccd122d"
+    },
+    {
+      "id": "x1a-0069",
+      "porque": "Si no se sabe quién entró primero, decide la lista del reglamento. Un camión con remolque es un conjunto de vehículos, que va en segundo lugar, solo por detrás de los vehículos especiales y en régimen de transporte especial que exceden masas o dimensiones. El autobús va bastante después, así que la preferencia es del camión con remolque.",
+      "descartes": {
+        "b": "El autobús, como vehículo de transporte colectivo, va en la lista por detrás de los conjuntos de vehículos.",
+        "c": "La longitud solo desempata entre vehículos del mismo tipo que tendrían que retroceder la misma distancia."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "a) Vehículos especiales y en régimen de transporte especial que excedan de las masas o dimensiones establecidas en las normas reguladoras de los vehículos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "y, en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada."
+        }
+      ],
+      "huella": "be4daf86302b"
+    },
+    {
+      "id": "x1a-0070",
+      "porque": "Entre vehículos del mismo tipo no sirve la lista, así que la preferencia es del que tendría que dar marcha atrás mayor distancia. Si los dos tendrían que retroceder lo mismo, desempata el tamaño: pasa el de mayor anchura, longitud o masa máxima autorizada.",
+      "descartes": {
+        "a": "El sentido de la marcha solo cuenta en tramos de gran pendiente, y allí la preferencia es del que sube, no del que baja.",
+        "c": "Hacer una señal acústica no da ninguna preferencia de paso."
+      },
+      "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto."
+        }
+      ],
+      "huella": "fe373c5163b3"
+    },
+    {
+      "id": "x1a-0071",
+      "porque": "La lista de preferencia entre tipos de vehículos se aplica sin perjuicio de lo que ordene el agente de la autoridad o indique el personal de obras o de acompañamiento. Si el agente manda retroceder al autobús, el autobús retrocede, aunque por la lista le tocara pasar.",
+      "descartes": {
+        "a": "Es verdad que en la lista el autobús va antes que el turismo, pero la orden del agente está por encima de esa lista.",
+        "c": "Esperar contradice la orden del agente, que es la que manda."
+      },
+      "truco": "Lo que ordene el agente está por encima de la lista de preferencias.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "62.1",
+          "cita": "e) Vehículos destinados al transporte colectivo de viajeros. f) Camiones, tractocamiones y furgones. g) Turismos y vehículos derivados de turismos."
+        }
+      ],
+      "huella": "2f152d16363c"
+    },
+    {
+      "id": "A-pri-0008",
+      "porque": "Para girar tienes que cruzar el carril del que viene de frente, y la norma te obliga a asegurarte antes de que su velocidad y su distancia te permiten hacerlo sin peligro. Si está cerca, te abstienes y esperas a que pase.",
+      "descartes": {
+        "a": "Quien gira a la izquierda no tiene preferencia sobre el que viene de frente; al contrario, debe asegurarse de que puede girar sin peligro.",
+        "b": "No es el otro quien tiene que frenar por ti: si tu giro le obliga a reducir la velocidad, no se dan las condiciones para girar."
+      },
+      "truco": "A la izquierda cruzas el sentido contrario: si no ves, o si quien viene de frente está demasiado cerca, no giras.",
+      "huella": "021fdcb86f10"
+    },
+    {
+      "id": "A-est-0008",
+      "porque": "En un tramo estrecho de gran pendiente, la preferencia es del vehículo que sube, porque arrancar o retroceder cuesta arriba es más difícil y peligroso. La excepción es que el que sube pueda llegar antes a un apartadero establecido al efecto.",
+      "descartes": {
+        "b": "Es al revés: como norma general la preferencia es del que sube, no del que baja.",
+        "c": "El tamaño no decide aquí; cuenta el sentido de la marcha y, si hay duda, la lista de tipos de vehículos."
+      },
+      "truco": "Cuesta estrecha de al menos un 7 %: pasa el que sube, salvo que tenga más cerca un apartadero. Si hay duda sobre la pendiente o el apartadero, decide la lista de tipos de vehículos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "En caso de duda sobre la inclinación de la pendiente o la distancia al apartadero, se estará a lo establecido en el artículo 62"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "Se entienden por tramos de gran pendiente los que tienen una inclinación mínima del siete por ciento."
+        }
+      ],
+      "huella": "89c2a8d62b1a"
+    },
+    {
+      "id": "A-est-0009",
+      "porque": "El reglamento define con una cifra concreta los tramos de gran pendiente: los que tienen una inclinación mínima del 7 %. A partir de ahí se aplica la regla de que, en un tramo estrecho, tiene preferencia el que sube.",
+      "descartes": {
+        "b": "La cifra del reglamento es el 7 %, no el 5 %.",
+        "c": "La cifra del reglamento es el 7 %, no el 10 %."
+      },
+      "truco": "Cuesta estrecha de al menos un 7 %: pasa el que sube, salvo que tenga más cerca un apartadero. Si hay duda sobre la pendiente o el apartadero, decide la lista de tipos de vehículos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "En caso de duda sobre la inclinación de la pendiente o la distancia al apartadero, se estará a lo establecido en el artículo 62"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto."
+        }
+      ],
+      "huella": "cdabf10dd2ca"
+    },
+    {
+      "id": "x1a-0072",
+      "porque": "La regla del que sube solo vale en tramos de gran pendiente, de al menos un 7 %. Si hay duda sobre la inclinación, o sobre la distancia al apartadero, el reglamento remite a la lista de preferencia entre tipos de vehículos que se usa en los estrechamientos.",
+      "descartes": {
+        "a": "Ni siquiera en un tramo de gran pendiente la preferencia es del que baja; es del que sube. Y con duda sobre la inclinación, decide la lista de tipos de vehículos.",
+        "b": "La velocidad no da preferencia de paso en ningún estrechamiento."
+      },
+      "truco": "Cuesta estrecha de al menos un 7 %: pasa el que sube, salvo que tenga más cerca un apartadero. Si hay duda sobre la pendiente o el apartadero, decide la lista de tipos de vehículos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "63.1",
+          "cita": "Se entienden por tramos de gran pendiente los que tienen una inclinación mínima del siete por ciento."
+        }
+      ],
+      "huella": "388bf33a0fee"
+    },
+    {
+      "id": "B1-pri-0071",
+      "porque": "Los que ya circulan por la autopista tienen preferencia sobre los que quieren entrar, y quien se incorpora debe ceder el paso. Pero eso no te deja desentenderte: la norma obliga a los demás conductores a facilitar la incorporación en la medida de lo posible.",
+      "descartes": {
+        "a": "No tienes que ceder el paso: tienes preferencia sobre quienes acceden a la autopista. Lo que debes es facilitarles la maniobra si puedes.",
+        "b": "Tener preferencia no te exime de facilitar, en la medida de lo posible, la incorporación de los demás."
+      },
+      "truco": "Quien se incorpora, cede; quien ya circula, facilita si puede. Las dos obligaciones existen a la vez.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "57.1.d",
+          "cita": "d) Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso sobre los que pretenden acceder a aquélla."
+        }
+      ],
+      "huella": "89dc01b3aaac"
+    },
+    {
+      "id": "A-pri-0007",
+      "porque": "Tener prioridad o el semáforo en verde te permite pasar, pero no quedarte bloqueando el cruce. Si por la densidad del tráfico vas a quedar previsiblemente detenido dentro, impidiendo u obstruyendo la circulación transversal, no debes entrar en la intersección.",
+      "descartes": {
+        "b": "El verde te da paso, pero la norma prohíbe entrar aun con prioridad si previsiblemente vas a quedar detenido obstruyendo la circulación transversal.",
+        "c": "La luz de emergencia no evita que bloquees el cruce; lo que pide la norma es no entrar."
+      },
+      "truco": "Cuadrícula amarilla (y cualquier cruce): entra solo si tienes sitio para salir.",
+      "huella": "41bcbfc90d48"
+    },
+    {
+      "id": "A-pri-0006",
+      "porque": "La regla de ceder a quien viene por la derecha es solo para las intersecciones sin señalizar. Con una señal de ceda el paso o de STOP, la señal manda: cedes el paso a todos los que circulan por la vía preferente, vengan por el lado que vengan, y te detienes por completo si hace falta (con STOP, siempre).",
+      "descartes": {
+        "a": "Ceder solo a los que vienen por la derecha es la regla de las intersecciones sin señalizar; con ceda el paso o STOP cedes a todos los de la vía preferente.",
+        "b": "La señal no se limita a un lado: obliga a ceder a los vehículos de la vía preferente que vengan por cualquiera de los dos."
+      },
+      "truco": "Con ceda el paso o STOP, la regla de la derecha no cuenta: cedes a todos los de la vía preferente, vengan por donde vengan.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "57.1",
+          "cita": "En defecto de señal que regule la preferencia de paso, el conductor está obligado a cederlo a los vehículos que se aproximen por su derecha"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "56.5",
+          "cita": "llegando a detener por completo su marcha cuando sea preciso y, en todo caso, cuando así lo indique la señal correspondiente."
+        }
+      ],
+      "huella": "ee7be5a98841"
+    }
+  ]
+}

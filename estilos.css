@@ -443,3 +443,18 @@ textarea.lista { display: block; width: 100%; min-height: 150px; font: .8125rem/
 .frases-rapidas { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
 .chip { font: inherit; font-size: .875rem; font-weight: 700; color: var(--tinte-texto); background: var(--tinte-suave); border: 0; border-radius: 999px; padding: 8px 12px; cursor: pointer; }
 .subtitulo.centrado { text-align: center; }
+
+/* Lección al fallar: porqué, descartes y truco (preguntas/lecciones/) */
+.lec-porque { margin: 0; }
+.lec-descartes { margin-top: 14px; }
+.lec-descartes small, .lec-truco small { display: block; text-transform: uppercase; font-size: .6875rem; font-weight: 900; letter-spacing: .05em; color: var(--texto3); margin-bottom: 6px; }
+.lec-descartes ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.lec-descartes li { padding: 10px 12px; border-radius: 12px; background: var(--relleno); font-weight: 500; font-size: .9375rem; }
+.lec-descartes li.elegida { background: var(--rojo-suave); }
+.lec-opcion { display: block; font-weight: 800; color: var(--texto2); margin-bottom: 3px; }
+.lec-opcion b { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 6px; background: var(--celda); font-size: .75rem; margin-right: 4px; }
+.lec-opcion em { font-style: normal; font-size: .6875rem; font-weight: 900; text-transform: uppercase; letter-spacing: .04em; color: var(--rojo-texto); margin-left: 8px; }
+.lec-motivo { display: block; }
+.lec-truco { display: flex; gap: 10px; align-items: flex-start; margin-top: 14px; padding: 12px; border-radius: 12px; background: var(--ambar-suave); border: 2px solid var(--ambar); font-weight: 600; }
+.lec-truco svg.ico { flex: none; color: var(--ambar-texto); width: 22px; height: 22px; }
+.lec-truco small { color: var(--ambar-texto); margin-bottom: 2px; }

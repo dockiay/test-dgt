@@ -31,6 +31,7 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 | `errores.js`, `data/errores.js` | «¿Por qué?» y errores típicos. `data/errores.js` se genera con `tools/build_errores.py` desde `preguntas/errores-tipicos.json` |
 | `escenas.js`, `escenas.css`, `data/escenas.js` | Escenas animadas de cruces y glorietas: fotograma quieto antes de responder y explicación paso a paso con cita del BOE. `data/escenas.js` se genera con `node tools/build_escenas.mjs` desde `preguntas/escenas.json` (ver `preguntas/formato-escenas.md`). `#/escenas` practica solo esas preguntas |
 | `data/preguntas.js` | Banco publicado. Se genera con `tools/build_data.py`; no se edita a mano |
+| `preguntas/lecciones/`, `tools/lecciones.py` | Lecciones al fallar (porqué, por qué no valen las otras opciones, truco y citas de apoyo), fuera de los bancos y atadas a la pregunta por una huella. `tools/lecciones.py` las comprueba y `build_data.py` solo publica las que siguen encajando |
 | `img/` | Imágenes que usa la web (copiadas desde `imagenes/` al generar) |
 | `preguntas/` | Bancos de preguntas (`banco-*.json`), revisiones, formato y scripts de verificación |
 | `imagenes/` | Señales y esquemas preparados para las preguntas, con su índice |

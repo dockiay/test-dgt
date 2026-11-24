@@ -105,6 +105,7 @@
     medalla: "M12 15a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM8.3 13.6L6.5 21l5.5-2.6 5.5 2.6-1.8-7.4M12 7.2l1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z",
     mapa: "M9 4.5L3.5 6.5v13L9 17.5l6 2 5.5-2v-13L15 6.5l-6-2zM9 4.5v13M15 6.5v13",
     persona: "M12 12a4 4 0 100-8 4 4 0 000 8zM4.5 20.5c.8-3.8 3.8-6 7.5-6s6.7 2.2 7.5 6",
+    bombilla: "M9.5 18h5M10 21h4M12 3a6 6 0 00-3.6 10.8c.7.6 1.1 1.4 1.1 2.2v.5h5V16c0-.8.4-1.6 1.1-2.2A6 6 0 0012 3z",
   };
   function ico(nombre, clase) {
     const NS = "http://www.w3.org/2000/svg";
@@ -220,7 +221,7 @@
   function textoFuente(p) {
     const f = p.fuente;
     const norma = NOMBRE_NORMA_CORTO[f.norma] || (BANCO.normativa[f.norma] || {}).nombre || f.norma;
-    return `${norma}, ${/^(anexo|disposici)/i.test(f.articulo) ? f.articulo : "art. " + f.articulo}`;
+    return `${norma}, ${/^(anexo|tema|disposici)/i.test(f.articulo) ? f.articulo : "art. " + f.articulo}`;
   }
   // La descripción detallada y el crédito pueden revelar la respuesta: solo se muestran tras responder.
   function figura(p, corregida) {
@@ -247,16 +248,29 @@
       h("p", { class: "veredicto" }, ico(ok ? "check" : "x"),
         elegida == null ? `Sin responder. La correcta es la ${letra}` : ok ? "Correcto" : `Incorrecto. La correcta es la ${letra}`),
       h("div", { class: "explicacion-cuerpo" },
-        p.explicacion ? h("p", {}, p.explicacion) : null,
+        p.leccion ? leccion(p, elegida, orden) : p.explicacion ? h("p", {}, p.explicacion) : null,
         f.tabla
           ? h("blockquote", { class: "cita" }, h("small", {}, "Tabla del BOE"), `${f.tabla.fila} · ${f.tabla.columna}: `, h("strong", {}, f.tabla.valor))
           : h("blockquote", { class: "cita" }, h("small", {}, f.tipo_cita === "imagen_catalogo" ? `Catálogo oficial de señales${f.pagina_pdf ? ", página " + f.pagina_pdf + " del PDF" : ""}` : f.norma === "MANUAL_DGT" ? "Texto literal del manual de la DGT" : "Texto literal del BOE"), `«${f.cita}»`),
-        f.cita_adicional && f.cita_adicional.cita ? h("blockquote", { class: "cita" }, h("small", {}, f.cita_adicional.articulo || "Texto literal"), `«${f.cita_adicional.cita}»`) : null),
+        f.cita_adicional && f.cita_adicional.cita ? h("blockquote", { class: "cita" }, h("small", {}, f.cita_adicional.articulo || "Texto literal"), `«${f.cita_adicional.cita}»`) : null,
+        ...((p.leccion && p.leccion.apoyos) || []).map(a => h("blockquote", { class: "cita" }, h("small", {}, `${NOMBRE_NORMA_CORTO[a.norma] || a.norma}, ${/^(anexo|tema|disposici)/i.test(a.articulo) ? a.articulo : "art. " + a.articulo}`), `«${a.cita}»`))),
       h("a", { class: "fila", href: f.url, target: "_blank", rel: "noopener" }, ico("libro"),
         h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, textoFuente(p)),
           f.version_consultada ? h("span", { class: "fila-detalle" }, `${f.norma === "MANUAL_DGT" ? "Versión" : "Texto consolidado, versión"} del ${fechaES(f.version_consultada)}`) : null),
         ico("enlace", "chevron")),
       filaDudosa);
+  }
+  // Lección al fallar: la lógica de la respuesta, por qué no valen las otras (en el orden en que se
+  // vieron) y un truco. La cita literal va debajo como respaldo.
+  function leccion(p, elegida, orden) {
+    const l = p.leccion;
+    return h("div", { class: "leccion-pregunta" },
+      h("p", { class: "lec-porque" }, l.porque),
+      h("div", { class: "lec-descartes" }, h("small", {}, "Por qué no valen las otras"),
+        h("ul", {}, orden.filter(k => k !== p.correcta && l.descartes[k]).map(k => h("li", { class: k === elegida ? "elegida" : null },
+          h("span", { class: "lec-opcion" }, h("b", {}, letraVista(p, k, orden)), ` ${p.opciones[k]}`, k === elegida ? h("em", {}, "Tu respuesta") : null),
+          h("span", { class: "lec-motivo" }, l.descartes[k]))))),
+      l.truco ? h("div", { class: "lec-truco" }, ico("bombilla"), h("div", {}, h("small", {}, "Truco para recordarlo"), l.truco)) : null);
   }
   function pedirNota(p, despues) {
     const t = h("textarea", { placeholder: "¿Qué te parece raro? (opcional)", "aria-label": "Nota" });

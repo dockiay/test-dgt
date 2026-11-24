@@ -1,0 +1,1861 @@
+{
+  "version": 1,
+  "lote": "05",
+  "lecciones": [
+    {
+      "id": "v4b-sen-0030",
+      "porque": "Este panel, con una flecha inclinada, limita el alcance de la señal que tiene encima: solo vale para el ramal de salida que sigue más o menos la dirección de la flecha. Quien continúa por la calzada principal no queda afectado por esa limitación.",
+      "descartes": {
+        "a": "Es justo lo contrario: el panel sirve para que la señal no se aplique a toda la calzada, sino solo al ramal de salida.",
+        "c": "Lo invierte: la limitación es para el ramal de salida que marca la flecha, no para la calzada principal."
+      },
+      "truco": "Sigue la flecha: la señal vale solo para el ramal hacia el que apunta.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, panel S-870a",
+          "cita": "Indica, bajo la señal vertical correspondiente, que esta se\naplica solamente en el ramal de salida cuya dirección coincide\naproximadamente con la de la flecha."
+        }
+      ],
+      "huella": "75abbc2eb5ac"
+    },
+    {
+      "id": "v4b-sen-0031",
+      "porque": "El panel con copos de nieve convierte la señal de encima en condicional: la limitación de velocidad solo rige cuando hay circunstancias de nieve. Si no nieva ni hay nieve, no se aplica.",
+      "descartes": {
+        "a": "El panel no habla de fechas ni de estaciones: depende de que haya nieve, no de que sea invierno.",
+        "b": "El panel no se refiere a un tipo de vehículo ni a llevar cadenas; la obligación de cadenas tiene su propia señal, redonda y azul."
+      },
+      "truco": "El dibujo del panel es la condición: copo de nieve, «solo con nieve»; nube con lluvia, «solo con lluvia». Si no se da ese tiempo, la señal de encima no se aplica.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal R-412",
+          "cita": "R-412 Cadenas para nieve\n\nObligación de no proseguir la marcha sin cadenas para nieve"
+        }
+      ],
+      "huella": "96d14cdd3647"
+    },
+    {
+      "id": "v4b-sen-0032",
+      "porque": "El panel con el dibujo de una cámara indica que lo que manda la señal de encima se vigila con medios automáticos que captan y denuncian a quien no lo cumple. Es un aviso de vigilancia y denuncia, no de información.",
+      "descartes": {
+        "b": "Las cámaras de este panel no son para informar del tráfico: vigilan que se cumpla la señal a la que acompaña y sirven para denunciar.",
+        "c": "El panel no indica ningún aparcamiento; acompaña a una señal de reglamentación para avisar de que su cumplimiento se vigila."
+      },
+      "truco": null,
+      "huella": "163102c509f8"
+    },
+    {
+      "id": "v5d-pan-0003",
+      "porque": "El panel con la nube y la lluvia hace que la señal de encima solo se aplique cuando llueve. Con la calzada seca y sin lluvia, ese límite de velocidad no rige.",
+      "descartes": {
+        "a": "El panel no es un simple aviso: restringe la señal a las circunstancias de lluvia. Sin lluvia, la limitación no se aplica.",
+        "c": "El panel no se refiere a la noche, sino a la lluvia; ninguno de estos paneles meteorológicos va por horas."
+      },
+      "truco": "El dibujo del panel es la condición: copo de nieve, «solo con nieve»; nube con lluvia, «solo con lluvia». Si no se da ese tiempo, la señal de encima no se aplica.",
+      "huella": "c8bb835d75ac"
+    },
+    {
+      "id": "B2-sen-0016",
+      "porque": "Cuando dos señales parecen contradecirse, manda la de mayor rango en el orden de preferencia: agentes, señalización circunstancial y balizamiento, semáforos, señales verticales y, en último lugar, marcas viales. Por eso la señal vertical se impone a la marca vial.",
+      "descartes": {
+        "a": "Las marcas viales son las últimas en el orden de preferencia: ante una señal vertical, ceden.",
+        "c": "La cercanía no es un criterio de la norma. Entre tipos distintos manda el de más rango y, entre señales del mismo tipo, la más restrictiva."
+      },
+      "truco": "Manda lo más «vivo» y temporal: agente, luego señalización circunstancial, semáforo, señal vertical y, al final, lo pintado en el suelo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1 y 133.2",
+          "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del\ntráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.2",
+          "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo."
+        }
+      ],
+      "huella": "9d3d44777fa2"
+    },
+    {
+      "id": "B2-sen-0003",
+      "porque": "La preseñalización tiene que verse con tiempo para elegir carril y salida, y en autopistas y autovías se va rápido: por eso la regla general allí es 500 metros. En poblado, donde se va más despacio, la distancia puede reducirse a unos 50 metros.",
+      "descartes": {
+        "a": "Unos 50 metros es la distancia a la que puede reducirse en poblado, no la de autopistas y autovías.",
+        "b": "150 metros no es la distancia que fija la norma para la preseñalización en autopistas y autovías: allí son 500 como norma general."
+      },
+      "truco": "Mismo 5, distinto número de ceros: unos 50 metros en poblado y 500 en autopista y autovía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "146.2.d).1.ª",
+          "cita": "Esta distancia podrá reducirse a unos 50 metros\nen los poblados mientras que en autopistas y autovías será, como norma general de 500\nmetros"
+        }
+      ],
+      "huella": "9b43660d2153"
+    },
+    {
+      "id": "v3-sen-0037",
+      "porque": "Es la preseñalización de una glorieta con selección de carriles: dibuja la glorieta con sus salidas y, con flechas que salen de cada carril, te dice a qué destino lleva cada uno. Sirve para colocarte en el carril correcto antes de llegar.",
+      "descartes": {
+        "b": "La señal no anuncia obras ni desvíos: dibuja una glorieta con sus salidas y destinos, que es lo que preseñaliza.",
+        "c": "Es al revés: la señal existe precisamente porque cada carril lleva a unas salidas concretas, y te indica cuál usar para cada una."
+      },
+      "truco": null,
+      "huella": "722decdf928d"
+    },
+    {
+      "id": "v5b-sen-0002",
+      "porque": "Las dos rayas rojas en aspa sobre fondo azul prohíben parar y también estacionar, y la prohibición se refiere al lado de la calzada en el que está colocada la señal, no al de enfrente.",
+      "descartes": {
+        "a": "La que solo prohíbe estacionar tiene una única raya roja (R-308); con el aspa también está prohibido parar.",
+        "b": "La señal solo afecta al lado de la calzada en que está situada; el otro lado se rige por su propia señalización."
+      },
+      "truco": "Cuenta las rayas rojas sobre el fondo azul: una sola raya, prohibido estacionar, pero puedes parar; dos rayas en aspa, ni parar ni estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal R-308",
+          "cita": "R-308 Estacionamiento prohibido\n\nProhibición de estacionamiento en el lado de la calzada en que\nesté situada la señal."
+        }
+      ],
+      "huella": "c5f8e7fdbaad"
+    },
+    {
+      "id": "v5b-sen-0003",
+      "porque": "Si no hay otra indicación, la prohibición de parar y estacionar empieza justo en la señal y se acaba en la siguiente intersección en el sentido de la marcha. Al pasar un cruce, ya no rige.",
+      "descartes": {
+        "b": "La norma no fija una distancia en metros: el final lo marca la intersección más próxima, salvo indicación en contrario.",
+        "c": "No hace falta una señal de fin: la intersección pone fin a la prohibición, aunque no haya ninguna otra señal."
+      },
+      "truco": "Prohibido parar o estacionar: «desde la señal hasta el próximo cruce», salvo que otra indicación diga otra cosa.",
+      "huella": "4e656fbbfce8"
+    },
+    {
+      "id": "v5b-sen-0004",
+      "porque": "Una sola raya roja sobre fondo azul prohíbe solo estacionar, no parar. Detenerte un momento sin dejar el coche para que se baje un pasajero es una parada (menos de dos minutos y sin que el conductor abandone el vehículo), así que está permitido.",
+      "descartes": {
+        "a": "Eso es lo que prohíbe la señal de dos rayas en aspa. Con una sola raya, la parada está permitida.",
+        "c": "La señal no hace excepciones para taxis ni autorizados: la parada está permitida a cualquier vehículo."
+      },
+      "truco": "Cuenta las rayas rojas sobre el fondo azul: una sola raya, prohibido estacionar, pero puedes parar; dos rayas en aspa, ni parar ni estacionar.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I, 81",
+          "cita": "81. Parada. Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin\nque el conductor pueda abandonarlo."
+        }
+      ],
+      "huella": "bec4c874b875"
+    },
+    {
+      "id": "v3-sen-0012",
+      "porque": "Tiene una sola raya roja, así que prohíbe estacionar pero no parar. La flecha indica que la prohibición se extiende desde la señal hacia ese lado, en el lado de la calzada donde está, hasta la próxima intersección o la señal que cierra el tramo.",
+      "descartes": {
+        "a": "No afecta a los dos lados de la calzada, y tampoco prohíbe la parada: una sola raya es solo estacionamiento.",
+        "b": "La parada no está prohibida: para prohibir parar y estacionar, la señal llevaría dos rayas en aspa."
+      },
+      "truco": "La flecha dice hacia dónde se extiende la prohibición desde la señal. Y lo de las rayas no cambia: una raya, solo estacionar; dos en aspa, parar y estacionar.",
+      "huella": "12186bbc1f9b"
+    },
+    {
+      "id": "v3-sen-0013",
+      "porque": "Las dos rayas en aspa prohíben parar y estacionar. La flecha indica el tramo afectado: desde la señal hacia donde apunta, en el lado de la calzada donde está, hasta la próxima intersección o la señal que cierra el tramo.",
+      "descartes": {
+        "b": "Solo estacionamiento sería con una única raya roja; el aspa prohíbe también la parada.",
+        "c": "La flecha no prohíbe girar: marca hacia qué lado de la señal se extiende la prohibición de parar y estacionar."
+      },
+      "truco": "La flecha dice hacia dónde se extiende la prohibición desde la señal. Y lo de las rayas no cambia: una raya, solo estacionar; dos en aspa, parar y estacionar.",
+      "huella": "a2aaa2258231"
+    },
+    {
+      "id": "B2-sen-0007",
+      "porque": "Es la señal que avisa de un dispositivo de control de velocidad, en un punto o en un tramo, en carretera convencional o multicarril. El dibujo lo dice: un emisor que lanza ondas hacia los vehículos.",
+      "descartes": {
+        "a": "No existe una señal de wifi para usuarios de la vía con este dibujo: las ondas representan el control de velocidad.",
+        "b": "Las ondas no son de una emisora: la señal avisa de un dispositivo que controla la velocidad."
+      },
+      "truco": "En estas señales rectangulares de control, las ondas dicen «aquí te vigilan» y el dibujo que las acompaña dice qué se vigila: un semáforo en rojo, el paso en rojo; una señal de distancia entre dos coches, la separación; un helicóptero y un dron, control de velocidad desde el aire.",
+      "huella": "98eb1a2ce527"
+    },
+    {
+      "id": "v3-sen-0042",
+      "porque": "Junto a las ondas aparece una señal con una distancia entre dos coches: lo que se vigila es la separación mínima entre vehículos, en un punto o tramo de una carretera convencional o multicarril.",
+      "descartes": {
+        "a": "El control de velocidad no lleva ese dibujo de distancia entre vehículos; aquí lo que se mide es la separación.",
+        "b": "La cifra en metros no es lo que falta hasta un radar: es la separación entre vehículos que se controla."
+      },
+      "truco": "En estas señales rectangulares de control, las ondas dicen «aquí te vigilan» y el dibujo que las acompaña dice qué se vigila: un semáforo en rojo, el paso en rojo; una señal de distancia entre dos coches, la separación; un helicóptero y un dron, control de velocidad desde el aire.",
+      "huella": "1a8aa4580f30"
+    },
+    {
+      "id": "v4b-sen-0033",
+      "porque": "El helicóptero y el dron junto a las ondas avisan de que en ese tramo puede haber controles de velocidad desde el aire. Es una señal de control, no de peligro.",
+      "descartes": {
+        "a": "No indica ningún helipuerto: el helicóptero aparece porque es uno de los medios aéreos con los que se controla la velocidad.",
+        "c": "El peligro por aeronaves que vuelan bajo y pueden causar ruidos imprevistos se avisa con una señal triangular de peligro (P-12), no con esta."
+      },
+      "truco": "En estas señales rectangulares de control, las ondas dicen «aquí te vigilan» y el dibujo que las acompaña dice qué se vigila: un semáforo en rojo, el paso en rojo; una señal de distancia entre dos coches, la separación; un helicóptero y un dron, control de velocidad desde el aire.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal P-12",
+          "cita": "P-12 Aeropuerto\n\nPeligro por la proximidad de un lugar donde frecuentemente vuelan\naeronaves a baja altura sobre la vía y que pueden originar ruidos\nimprevistos."
+        }
+      ],
+      "huella": "0a7e146d83a7"
+    },
+    {
+      "id": "v4b-sen-0034",
+      "porque": "El semáforo con la luz roja encendida junto a las ondas indica un dispositivo que controla quién pasa con el semáforo en rojo. Avisa de vigilancia, no de la existencia del semáforo.",
+      "descartes": {
+        "a": "La proximidad de un tramo regulado por semáforos se avisa con una señal triangular de peligro (P-3), no con esta.",
+        "b": "No tiene que ver con carriles reversibles: el dibujo es de un control del paso en rojo."
+      },
+      "truco": "En estas señales rectangulares de control, las ondas dicen «aquí te vigilan» y el dibujo que las acompaña dice qué se vigila: un semáforo en rojo, el paso en rojo; una señal de distancia entre dos coches, la separación; un helicóptero y un dron, control de velocidad desde el aire.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal P-3",
+          "cita": "P-3 Semáforos\n\nPeligro por la proximidad de una intersección aislada o tramo con\nla circulación regulada por semáforos."
+        }
+      ],
+      "huella": "5ea7a739256d"
+    },
+    {
+      "id": "v5d-sen-0002",
+      "porque": "Es un hito miriamétrico: marca el punto kilométrico de la autopista o autovía cuando es múltiplo de diez (km 260, 270...). Indica dónde estás en la vía, no distancias hasta otro sitio.",
+      "descartes": {
+        "b": "Las distancias a un área de servicio se indican con otras señales; el hito solo marca el punto kilométrico.",
+        "c": "Un hito no cuenta lo que queda de vía: dice en qué kilómetro estás."
+      },
+      "truco": "«Miria» significa diez mil: el hito miriamétrico sale cada diez kilómetros (cada 10.000 metros).",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-574a",
+          "cita": "Indica el punto kilométrico de una autopista o una autovía\ncuando aquel es múltiplo de diez"
+        }
+      ],
+      "huella": "2a7dd133d035"
+    },
+    {
+      "id": "v5d-sen-0003",
+      "porque": "Monumentos, castillos, monasterios, museos y palacios entran en el grupo de lugares de interés monumental, histórico o artístico, y en poblado esas señales tienen fondo marrón.",
+      "descartes": {
+        "a": "Ninguna de las señales de uso específico en poblado del catálogo tiene fondo granate.",
+        "b": "Ninguna de las señales de uso específico en poblado del catálogo tiene fondo gris."
+      },
+      "truco": "Colores de las señales de destino en poblado: verde, calles; amarillo, viajeros; naranja, deporte; marrón, monumentos y naturaleza; azul, autopistas y autovías; y blanco para cultura, zonas industriales y otras carreteras.",
+      "huella": "7daca89f1f45"
+    },
+    {
+      "id": "v4b-sen-0015",
+      "porque": "La «P» y el autobús unidos por un «+» indican un aparcamiento conectado con una estación o terminal de autobuses, pensado sobre todo para quien deja su coche y sigue el viaje en autobús.",
+      "descartes": {
+        "a": "No es un aparcamiento para autobuses: el aparcamiento es para los coches de quienes luego viajan en autobús.",
+        "b": "La señal no indica ninguna parada de taxis; la combinación es aparcamiento más autobús."
+      },
+      "truco": "Lee el «+» como «y luego»: aparcas y luego sigues en autobús.",
+      "huella": "b445ecb57ccd"
+    },
+    {
+      "id": "v4b-sen-0018",
+      "porque": "La «P» con un copo de nieve indica un estacionamiento de emergencia por nevadas, un lugar donde dejar el vehículo cuando la nieve impide seguir, y excepcionalmente también para otras incidencias.",
+      "descartes": {
+        "a": "La obligación de no seguir sin cadenas se indica con una señal redonda azul (R-412); esta es de servicio y señala un estacionamiento.",
+        "b": "No es un aparcamiento para quitanieves: es para los vehículos que quedan atrapados o no pueden seguir por la nieve."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal R-412",
+          "cita": "R-412 Cadenas para nieve\n\nObligación de no proseguir la marcha sin cadenas para nieve"
+        }
+      ],
+      "huella": "612af9f7192c"
+    },
+    {
+      "id": "v4b-sen-0026",
+      "porque": "En poblado, el fondo marrón agrupa los lugares de carácter geográfico o ecológico y los de interés monumental, histórico o artístico: parques, monumentos, castillos, monasterios, museos o palacios.",
+      "descartes": {
+        "a": "Los lugares deportivos o recreativos van en naranja (S-720), no en marrón.",
+        "c": "Los lugares de interés cultural, como universidades o teatros, van en fondo blanco (S-740)."
+      },
+      "truco": "Colores de las señales de destino en poblado: verde, calles; amarillo, viajeros; naranja, deporte; marrón, monumentos y naturaleza; azul, autopistas y autovías; y blanco para cultura, zonas industriales y otras carreteras.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señales S-740 y S-750",
+          "cita": "S-740 Lugares de interés cultural"
+        }
+      ],
+      "huella": "7842ced7d8a3"
+    },
+    {
+      "id": "v4b-sen-0027",
+      "porque": "En el catálogo, las zonas de uso industrial (las que atraen camiones, mercancías y tráfico pesado) se indican en poblado con una señal de fondo blanco, el mismo fondo que los lugares de interés cultural.",
+      "descartes": {
+        "a": "Ninguna de las señales de uso específico en poblado del catálogo tiene fondo gris; la industrial es blanca.",
+        "c": "Ninguna de las señales de uso específico en poblado del catálogo tiene fondo morado; la industrial es blanca."
+      },
+      "truco": "Colores de las señales de destino en poblado: verde, calles; amarillo, viajeros; naranja, deporte; marrón, monumentos y naturaleza; azul, autopistas y autovías; y blanco para cultura, zonas industriales y otras carreteras.",
+      "huella": "0616423c7739"
+    },
+    {
+      "id": "v4b-sen-0028",
+      "porque": "En poblado, el amarillo es el color de lo que interesa a quien viaja: estaciones, aeropuertos, zonas de embarque de los puertos, hoteles, campamentos, oficinas de turismo y automóvil club.",
+      "descartes": {
+        "a": "Los lugares deportivos o recreativos van en naranja (S-720).",
+        "b": "Calles, avenidas y plazas van en verde (S-700)."
+      },
+      "truco": "Colores de las señales de destino en poblado: verde, calles; amarillo, viajeros; naranja, deporte; marrón, monumentos y naturaleza; azul, autopistas y autovías; y blanco para cultura, zonas industriales y otras carreteras.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-700",
+          "cita": "S-700 Lugares de la red viaria urbana\n\nIndica los nombres de calles, avenidas, plazas, glorietas o de\ncualquier otro punto de la red viaria."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-720",
+          "cita": "S-720 Lugares de interés deportivo o recreativo"
+        }
+      ],
+      "huella": "cc7d966ff123"
+    },
+    {
+      "id": "res-sen-0005",
+      "porque": "La zona de estancia y juego está pensada ante todo para los peatones, que pueden jugar y hacer deporte en ella. Por eso los vehículos tienen un límite muy bajo: 10 km/h, y deben dar prioridad a los peatones.",
+      "descartes": {
+        "a": "30 km/h es el límite genérico de una vía urbana de un solo carril por sentido, no el de una zona de juego.",
+        "b": "20 km/h es el límite genérico de las vías con plataforma única de calzada y acera; en la zona de estancia y juego es aún menor."
+      },
+      "truco": "Si en la calle se puede jugar a la pelota, ve a paso de 10.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.1",
+          "cita": "a) 20 km/h en vías que dispongan de plataforma única de calzada y acera."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "50.1.b",
+          "cita": "b) 30 km/h en vías de un único carril por sentido de circulación."
+        }
+      ],
+      "huella": "660f2828f835"
+    },
+    {
+      "id": "x1a-0016",
+      "porque": "Respetar el límite no basta: la velocidad tiene que ajustarse a todo lo que influye en ese momento, incluido tu propio estado físico y psíquico, además de la vía, el vehículo, la carga, el tiempo y el tráfico. El objetivo es poder parar siempre ante cualquier obstáculo dentro de lo que ves.",
+      "descartes": {
+        "b": "El límite es un máximo, no la velocidad correcta: además hay que tener en cuenta las circunstancias de cada momento.",
+        "c": "Es una obligación de todo conductor, no solo de quien lleva un vehículo pesado o de viajeros."
+      },
+      "truco": "Pregúntate: «si aparece algo ahí delante, ¿puedo parar a tiempo?». Si no, vas demasiado rápido aunque no pases del límite.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "45",
+          "cita": "de manera que siempre pueda detenerlo dentro\nde los límites de su campo de visión y ante cualquier obstáculo que pueda presentarse"
+        }
+      ],
+      "huella": "b206d154d571"
+    },
+    {
+      "id": "vel-0017",
+      "porque": "Una autopista o autovía que pasa por dentro de un poblado tiene un límite genérico propio: 80 km/h. Puede ampliarse con señalización específica, pero nunca por encima de los límites que tendría fuera de poblado.",
+      "descartes": {
+        "a": "50 km/h es el límite de las calles de dos o más carriles por sentido y de las travesías, no de una autopista en poblado.",
+        "b": "120 km/h es el límite genérico de los turismos en autopista fuera de poblado; dentro de poblado el genérico es 80."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.6",
+          "cita": "no obstante podrá ser ampliados por acuerdo de la Autoridad\nMunicipal y el titular de la vía, previa señalización específica, sin rebasar en ningún caso los\nlímites genéricos establecidos para dichas vías fuera de poblado."
+        }
+      ],
+      "huella": "06772cde55dc"
+    },
+    {
+      "id": "vel-0008",
+      "porque": "Fuera de poblado, el cuadriciclo ligero va en el mismo grupo que ciclos y ciclomotores: su máximo es 45 km/h.",
+      "descartes": {
+        "a": "70 km/h es el límite de los cuadriciclos que no son ligeros y de los vehículos de tres ruedas.",
+        "b": "90 km/h es el límite genérico de turismos y motos en carretera convencional, no el de un cuadriciclo ligero."
+      },
+      "truco": "Cuadriciclo «ligero», como el ciclomotor: 45. Cuadriciclo sin apellido: 70.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.h",
+          "cita": "A los vehículos de tres ruedas y cuadriciclos en cualquier tipo de vía donde esté\npermitida su circulación se aplica el límite de 70 kilómetros por hora."
+        }
+      ],
+      "huella": "d4e67f417371"
+    },
+    {
+      "id": "x1a-0039",
+      "porque": "Fuera de poblado, ciclos, ciclomotores de dos y tres ruedas y cuadriciclos ligeros comparten un mismo máximo: 45 km/h. Un ciclomotor no puede ir más rápido en una carretera convencional.",
+      "descartes": {
+        "a": "50 km/h no es el límite de los ciclomotores; es una cifra de vías urbanas y travesías.",
+        "c": "70 km/h es el límite de los vehículos de tres ruedas y de los cuadriciclos que no son ligeros, no el del ciclomotor."
+      },
+      "truco": "Ciclos, ciclomotores y cuadriciclos ligeros: 45 fuera de poblado. Solo la bicicleta puede pasar de 45 si la vía lo permite.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.h",
+          "cita": "A los vehículos de tres ruedas y cuadriciclos en cualquier tipo de vía donde esté\npermitida su circulación se aplica el límite de 70 kilómetros por hora."
+        }
+      ],
+      "huella": "6bee6bae7eb8"
+    },
+    {
+      "id": "res-vel-0002",
+      "porque": "El límite de 45 km/h fuera de poblado es común a ciclos, ciclomotores y cuadriciclos ligeros, pero la norma hace una excepción con la bicicleta: puede superarlo en los tramos en que las circunstancias de la vía permitan ir más rápido.",
+      "descartes": {
+        "a": "La norma no habla de bajadas ni fija un tope de 60 km/h: la excepción depende de que la vía lo permita.",
+        "b": "Sí puede: la propia norma permite a los ciclistas superar los 45 km/h donde las circunstancias de la vía lo permitan."
+      },
+      "truco": "Ciclos, ciclomotores y cuadriciclos ligeros: 45 fuera de poblado. Solo la bicicleta puede pasar de 45 si la vía lo permite.",
+      "huella": "e677896c2bed"
+    },
+    {
+      "id": "x1a-0055",
+      "porque": "Las vías públicas no son circuitos: entablar competiciones de velocidad está prohibido. La única salvedad es que la autoridad competente, de forma excepcional, haya acotado la vía para ello.",
+      "descartes": {
+        "b": "La hora y la falta de tráfico no cambian nada: la prohibición es general, salvo vías acotadas por la autoridad.",
+        "c": "Pagar peaje no convierte la autopista en un circuito: la prohibición vale para cualquier vía pública."
+      },
+      "truco": null,
+      "huella": "9ca4811f27e8"
+    },
+    {
+      "id": "x1a-0033",
+      "porque": "La regla general para un turismo en carretera convencional es 90 km/h, pero la norma permite que el titular de la vía suba el límite hasta 100 km/h cuando los dos sentidos están separados físicamente. Si lo ha fijado, se puede ir a 100.",
+      "descartes": {
+        "a": "90 km/h es el genérico, pero no «siempre»: con separación física de sentidos el titular de la vía puede fijar 100.",
+        "c": "No es automático: hace falta que el titular de la vía fije ese límite. Si no lo ha hecho, sigue valiendo el genérico de 90."
+      },
+      "truco": null,
+      "huella": "4e0467344819"
+    },
+    {
+      "id": "vel-0009",
+      "porque": "Los cuadriciclos que no son ligeros, igual que los vehículos de tres ruedas, tienen un límite propio de 70 km/h en cualquier vía por la que puedan circular.",
+      "descartes": {
+        "b": "45 km/h es el límite del cuadriciclo ligero, que va con ciclos y ciclomotores; este no es ligero.",
+        "c": "90 km/h es el genérico de turismos y motos en carretera convencional, no el de un cuadriciclo."
+      },
+      "truco": "Cuadriciclo «ligero», como el ciclomotor: 45. Cuadriciclo sin apellido: 70.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.e",
+          "cita": "Para ciclos, ciclomotores de dos y tres ruedas y cuadriciclos ligeros: 45 kilómetros por\nhora."
+        }
+      ],
+      "huella": "65152f27c93a"
+    },
+    {
+      "id": "vel-0007",
+      "porque": "Un tractor agrícola es un vehículo especial. Fuera de poblado, si un vehículo especial lleva remolque, su máximo baja a 25 km/h, igual que si no tiene señalización de frenado o es un motocultor.",
+      "descartes": {
+        "a": "40 km/h es para los vehículos especiales que no están en esos casos; con remolque, el máximo es 25.",
+        "c": "70 km/h solo lo alcanzan los especiales que pueden pasar de 60 en llano y cumplen sus normas técnicas, y nunca si llevan remolque."
+      },
+      "truco": "Vehículos especiales fuera de poblado: 25 si no tienen señalización de frenado, llevan remolque o son motocultores; 40 los demás; y 70 solo si pueden pasar de 60 en llano y cumplen sus normas técnicas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.c.2.º",
+          "cita": "2.º Los restantes vehículos especiales: 40 kilómetros por hora"
+        }
+      ],
+      "huella": "60219430dda9"
+    },
+    {
+      "id": "x1a-0131",
+      "porque": "Es la señal de fin de prohibiciones: desde ella dejan de aplicarse todas las prohibiciones específicas para vehículos en movimiento puestas por señales anteriores, y eso incluye la velocidad máxima de 60.",
+      "descartes": {
+        "a": "Esta señal no espera a ninguna intersección: las prohibiciones anteriores dejan de aplicarse desde la propia señal.",
+        "c": "Para acabar solo con la prohibición de adelantar existe otra señal (R-502). Esta pone fin a todas las prohibiciones anteriores para vehículos en movimiento."
+      },
+      "truco": "Las rayas negras inclinadas tachan lo de antes: sin cifra ni dibujo, borran todas las prohibiciones para vehículos en movimiento.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal R-502",
+          "cita": "R-502 Fin de la prohibición de adelantamiento\n\nSeñala el lugar desde donde deja de ser aplicable una señal\nanterior de adelantamiento prohibido."
+        }
+      ],
+      "huella": "d773b0bcf380"
+    },
+    {
+      "id": "x1a-0022",
+      "porque": "Cada tipo de vía tiene un límite genérico para cada clase de vehículo, y las señales solo hacen falta para fijar límites distintos en tramos concretos. Si no hay señal, vale el genérico de esa vía para tu vehículo.",
+      "descartes": {
+        "a": "Adecuar la velocidad es obligatorio, pero además del límite, no en su lugar: sin señales sigue rigiendo el genérico.",
+        "b": "No hay una cifra única para todo: el genérico depende del tipo de vía y del vehículo (por ejemplo, 120 para un turismo en autopista)."
+      },
+      "truco": "Sin señal no hay barra libre: vale el límite genérico de esa vía para tu vehículo.",
+      "huella": "dfee60f41ff0"
+    },
+    {
+      "id": "v5a-vel-0001",
+      "porque": "La furgoneta va en el grupo de camiones y automóviles con remolque, que es el más lento de la tabla: 90 en autopista y autovía y 80 en carretera convencional.",
+      "descartes": {
+        "b": "90 km/h es el límite de la furgoneta en autopista y autovía, no en convencional; también es el de los turismos en convencional.",
+        "c": "70 km/h no es el genérico de la furgoneta; sería el de una furgoneta con mercancías peligrosas en convencional (80 menos 10)."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.b",
+          "cita": "se reducirá en 10 kilómetros por hora la velocidad máxima fijada en\nel párrafo a) en función del tipo de vehículo y de la vía por la que circula."
+        }
+      ],
+      "huella": "6fbc042c63ae"
+    },
+    {
+      "id": "v5a-vel-0002",
+      "porque": "Aunque se parezca a un turismo, el derivado de turismo no tiene sus límites: va en el grupo intermedio, con autobuses y mixtos adaptables, que tiene 100 en autopista y autovía y 90 en convencional.",
+      "descartes": {
+        "a": "120 km/h es para turismos, motos, autocaravanas de hasta 3.500 kg y pick-up; el derivado de turismo no está en ese grupo.",
+        "c": "90 km/h en autopista es para camiones, furgonetas y automóviles con remolque; el derivado de turismo tiene 100."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "2b4c0e54a1bf"
+    },
+    {
+      "id": "vel-0001",
+      "porque": "El turismo está en el grupo más rápido de la tabla, con motos, autocaravanas de hasta 3.500 kg y pick-up: 120 km/h en autopista y autovía como límite genérico.",
+      "descartes": {
+        "a": "100 km/h es el genérico en autopista de autobuses, derivados de turismo y mixtos adaptables, no de los turismos.",
+        "c": "130 km/h no aparece en la tabla de límites genéricos: la cifra más alta es 120, la de los turismos."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "57f6aa3cfea0"
+    },
+    {
+      "id": "vel-0002",
+      "porque": "En carretera convencional, el turismo tiene un límite genérico de 90 km/h. Solo si hay separación física entre sentidos el titular de la vía puede fijar hasta 100.",
+      "descartes": {
+        "a": "80 km/h es el genérico en convencional de camiones, furgonetas y automóviles con remolque.",
+        "b": "100 km/h en convencional solo es posible si hay separación física de sentidos y el titular de la vía lo fija; no es el genérico."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.a.1.º",
+          "cita": "1.º En carreteras convencionales con separación física de los dos sentidos de\ncirculación, el titular de la vía podrá fijar un límite máximo de 100 km/h para turismos,\nmotocicletas y autocaravanas con masa máxima autorizada igual o inferior a 3.500 kg."
+        }
+      ],
+      "huella": "2937b765e9d7"
+    },
+    {
+      "id": "vel-0003",
+      "porque": "El autobús está en el grupo intermedio, con derivados de turismo y mixtos adaptables: 100 km/h en autopista y autovía y 90 en convencional.",
+      "descartes": {
+        "b": "90 km/h en autovía es el límite de camiones, furgonetas y automóviles con remolque; el autobús tiene 100.",
+        "c": "120 km/h es para turismos y motos, no para autobuses."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "aac65e99ec7c"
+    },
+    {
+      "id": "vel-0004",
+      "porque": "Al enganchar un remolque, el turismo deja su grupo y pasa al de los camiones y furgonetas: 90 km/h en autopista y autovía y 80 en convencional.",
+      "descartes": {
+        "a": "80 km/h es el límite del turismo con remolque en carretera convencional, no en autopista.",
+        "c": "100 km/h en autopista es el límite de autobuses y derivados de turismo, no de un turismo con remolque."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.a",
+          "cita": "automóviles con remolque y resto"
+        }
+      ],
+      "huella": "6a327f1a8a2f"
+    },
+    {
+      "id": "x1a-0024",
+      "porque": "La furgoneta va con camiones, autocaravanas de más de 3.500 kg y automóviles con remolque: 90 km/h en autopista y autovía y 80 en convencional.",
+      "descartes": {
+        "b": "100 km/h en autovía es el genérico de autobuses, derivados de turismo y mixtos adaptables, no de las furgonetas.",
+        "c": "120 km/h es el genérico de los turismos y motos, no de las furgonetas."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "d0af12254ebe"
+    },
+    {
+      "id": "x1a-0026",
+      "porque": "Lo que decide el grupo de una autocaravana es su masa máxima autorizada: si no pasa de 3.500 kg, como esta de 3.200, tiene los límites de un turismo, 120 km/h en autopista y autovía.",
+      "descartes": {
+        "a": "90 km/h en autopista es para las autocaravanas de más de 3.500 kg; esta no llega.",
+        "c": "100 km/h es el genérico en autopista de autobuses, derivados de turismo y mixtos adaptables, no de una autocaravana."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "f82093587c1d"
+    },
+    {
+      "id": "x1a-0027",
+      "porque": "Con más de 3.500 kg de masa máxima autorizada, la autocaravana pasa al grupo de camiones y furgonetas: 90 km/h en autopista y autovía y 80 en convencional.",
+      "descartes": {
+        "a": "120 km/h solo vale para las autocaravanas de hasta 3.500 kg; esta tiene 4.500.",
+        "c": "100 km/h es el genérico de autobuses y derivados de turismo, no de las autocaravanas."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "402db4098f69"
+    },
+    {
+      "id": "x1a-0029",
+      "porque": "El mixto adaptable va en el grupo intermedio, con autobuses y derivados de turismo: 100 km/h en autopista y autovía y 90 en carretera convencional.",
+      "descartes": {
+        "a": "80 km/h en convencional es para camiones, furgonetas y automóviles con remolque.",
+        "b": "100 km/h es el límite del mixto adaptable en autopista y autovía, no en convencional."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "554229f38d4b"
+    },
+    {
+      "id": "x1a-0030",
+      "porque": "El camión está en el grupo más lento de la tabla, con furgonetas y automóviles con remolque: 90 km/h en autopista y autovía y 80 en convencional.",
+      "descartes": {
+        "a": "80 km/h es el límite del camión en carretera convencional, no en autopista.",
+        "c": "100 km/h en autopista es para autobuses, derivados de turismo y mixtos adaptables."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "86f434875748"
+    },
+    {
+      "id": "x1a-0031",
+      "porque": "Con remolque, el turismo pasa al grupo de camiones y furgonetas, cuyo límite genérico en carretera convencional es 80 km/h (90 en autopista y autovía).",
+      "descartes": {
+        "b": "90 km/h es el límite del turismo con remolque en autopista y autovía, o el del turismo sin remolque en convencional.",
+        "c": "70 km/h no es el genérico del turismo con remolque en convencional; el remolque lo deja en 80."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.a",
+          "cita": "automóviles con remolque y resto"
+        }
+      ],
+      "huella": "ce1edab5c3ae"
+    },
+    {
+      "id": "x1a-0032",
+      "porque": "El pick-up comparte grupo con turismos, motos y autocaravanas de hasta 3.500 kg: 120 km/h en autopista y autovía y 90 en convencional.",
+      "descartes": {
+        "a": "100 km/h es el límite en autovía de autobuses, derivados de turismo y mixtos adaptables.",
+        "c": "90 km/h en autovía es para camiones y furgonetas; en el pick-up, 90 es el límite en convencional."
+      },
+      "truco": "Fuera de poblado, tres grupos con dos cifras (autopista o autovía / convencional): turismos, motos, autocaravanas hasta 3.500 kg y pick-up, 120/90; autobuses, derivados de turismo y mixtos adaptables, 100/90; camiones, furgonetas, autocaravanas de más de 3.500 kg, articulados y automóviles con remolque, 90/80.",
+      "huella": "38fbb68812a3"
+    },
+    {
+      "id": "x1a-0023",
+      "porque": "La autoridad de tráfico puede fijar límites temporales con señalización circunstancial o variable cuando el estado de la circulación lo aconseja, y esa señalización obliga. Además, está por encima de las señales fijas en el orden de preferencia.",
+      "descartes": {
+        "a": "La señalización variable también obliga; de hecho, la circunstancial prevalece sobre las señales verticales fijas.",
+        "b": "No hace falta que haya agentes: el panel obliga por sí mismo."
+      },
+      "truco": "Manda lo más «vivo» y temporal: agente, luego señalización circunstancial, semáforo, señal vertical y, al final, lo pintado en el suelo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1.b",
+          "cita": "b) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
+        }
+      ],
+      "huella": "5160631b3400"
+    },
+    {
+      "id": "v5a-vel-0005",
+      "porque": "En ciudad el límite genérico depende de los carriles por sentido: con dos o más, 50 km/h. Como aquí ninguno está reservado, cuentan los dos.",
+      "descartes": {
+        "a": "30 km/h es el genérico de las vías de un único carril por sentido.",
+        "b": "40 km/h no es un límite genérico urbano para turismos; en calles de dos o más carriles por sentido es el máximo de los vehículos con mercancías peligrosas."
+      },
+      "truco": "En ciudad, cuenta los carriles por sentido sin los reservados: plataforma única, 20; un carril, 30; dos o más, 50.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.1.b",
+          "cita": "b) 30 km/h en vías de un único carril por sentido de circulación."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "50.4",
+          "cita": "los vehículos\nque transporten mercancías peligrosas circularán como máximo a 40 km/h."
+        }
+      ],
+      "huella": "519ca06d5515"
+    },
+    {
+      "id": "v5a-vel-0006",
+      "porque": "La regla general en una vía urbana de un solo carril por sentido es 30 km/h, pero la autoridad municipal puede, de forma excepcional y con señalización específica, subirlo hasta 50.",
+      "descartes": {
+        "a": "30 km/h es el genérico, pero no un tope absoluto: la autoridad municipal puede subirlo excepcionalmente hasta 50 con señalización.",
+        "b": "Los pasos para peatones no son la condición; lo que exige la norma es una decisión de la autoridad municipal y señalización específica."
+      },
+      "truco": null,
+      "huella": "2bc18fafe4c9"
+    },
+    {
+      "id": "vel-0013",
+      "porque": "En vías urbanas, el genérico depende de los carriles por sentido: con un único carril, 30 km/h.",
+      "descartes": {
+        "a": "20 km/h es el genérico de las vías con plataforma única de calzada y acera.",
+        "c": "50 km/h es el genérico con dos o más carriles por sentido."
+      },
+      "truco": "En ciudad, cuenta los carriles por sentido sin los reservados: plataforma única, 20; un carril, 30; dos o más, 50.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.1",
+          "cita": "a) 20 km/h en vías que dispongan de plataforma única de calzada y acera."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "50.1.c",
+          "cita": "c) 50 km/h en vías de dos o más carriles por sentido de circulación."
+        }
+      ],
+      "huella": "cc0765218978"
+    },
+    {
+      "id": "vel-0014",
+      "porque": "Cuando calzada y acera están al mismo nivel, en una plataforma única, peatones y vehículos comparten espacio, y el límite genérico baja a 20 km/h.",
+      "descartes": {
+        "a": "10 km/h es el límite de la zona de estancia y juego, no el genérico de la plataforma única.",
+        "b": "30 km/h es el genérico de las vías de un único carril por sentido."
+      },
+      "truco": "En ciudad, cuenta los carriles por sentido sin los reservados: plataforma única, 20; un carril, 30; dos o más, 50.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.1.b",
+          "cita": "b) 30 km/h en vías de un único carril por sentido de circulación."
+        }
+      ],
+      "huella": "39bce4981630"
+    },
+    {
+      "id": "vel-0015",
+      "porque": "Para calcular el límite genérico urbano, los carriles reservados a ciertos usuarios o al transporte público no se cuentan. Sin el carril bus queda un solo carril por sentido, así que el límite es 30 km/h.",
+      "descartes": {
+        "b": "Habría que contar el carril bus, y la norma dice expresamente que los carriles reservados no se cuentan.",
+        "c": "El carril bus no rebaja el límite a 40 km/h: simplemente no se cuenta. 40 km/h es el máximo de los vehículos con mercancías peligrosas en calles de dos o más carriles por sentido."
+      },
+      "truco": "En ciudad, cuenta los carriles por sentido sin los reservados: plataforma única, 20; un carril, 30; dos o más, 50.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.4",
+          "cita": "los vehículos\nque transporten mercancías peligrosas circularán como máximo a 40 km/h."
+        }
+      ],
+      "huella": "7608781ddfb6"
+    },
+    {
+      "id": "x1a-0044",
+      "porque": "En vías urbanas, con dos o más carriles por sentido el límite genérico es 50 km/h. Los carriles reservados no se cuentan, pero aquí la pregunta no menciona ninguno.",
+      "descartes": {
+        "a": "30 km/h es el genérico de las vías con un único carril por sentido.",
+        "c": "40 km/h no es un genérico urbano para turismos; en estas calles es el máximo para vehículos con mercancías peligrosas."
+      },
+      "truco": "En ciudad, cuenta los carriles por sentido sin los reservados: plataforma única, 20; un carril, 30; dos o más, 50.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.1.b",
+          "cita": "b) 30 km/h en vías de un único carril por sentido de circulación."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "50.4",
+          "cita": "los vehículos\nque transporten mercancías peligrosas circularán como máximo a 40 km/h."
+        }
+      ],
+      "huella": "e8880f45d954"
+    },
+    {
+      "id": "vel-0018",
+      "porque": "Dentro de poblado no se aplica la resta de 10 km/h de fuera de poblado: en travesías y en calles de dos o más carriles por sentido, los vehículos con mercancías peligrosas tienen un tope fijo de 40 km/h.",
+      "descartes": {
+        "b": "30 km/h es el genérico de las calles de un solo carril por sentido; no es el máximo específico de las mercancías peligrosas en travesía.",
+        "c": "50 km/h es el genérico de la travesía, pero las mercancías peligrosas tienen un máximo más bajo, de 40."
+      },
+      "truco": "Mercancías peligrosas: fuera de poblado, resta 10 al límite de su vehículo; en travesías y en calles de dos o más carriles por sentido, máximo 40.",
+      "huella": "c8f86cf8b3be"
+    },
+    {
+      "id": "vel-0011",
+      "porque": "Para no entorpecer a los demás, en autopistas y autovías está prohibido circular con vehículos a motor a menos de 60 km/h. Hay excepciones, como los vehículos especiales o cuando las circunstancias impiden ir más rápido sin riesgo.",
+      "descartes": {
+        "a": "40 km/h no es la mínima de autopistas y autovías; allí la cifra es 60.",
+        "b": "50 km/h no es la mínima de autopistas y autovías; allí la cifra es 60."
+      },
+      "truco": "Mínimas: en autopista y autovía, 60 para vehículos a motor; en las demás vías, la mitad de la genérica de tu vehículo en esa vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "49.2",
+          "cita": "Se podrá circular por debajo de los límites mínimos de velocidad en los casos de\nvehículos especiales y de vehículos en régimen de transporte especial o cuando las\ncircunstancias del tráfico, del vehículo o de la vía impidan el mantenimiento de una velocidad\nsuperior a la mínima sin riesgo para la circulación"
+        }
+      ],
+      "huella": "3852db4f960f"
+    },
+    {
+      "id": "vel-0012",
+      "porque": "Fuera de autopistas y autovías, la mínima es la mitad de la velocidad genérica de tu vehículo en esa vía. El turismo tiene 90 en convencional, así que su mínima es 45 km/h.",
+      "descartes": {
+        "b": "60 km/h es la mínima de autopistas y autovías, no de las carreteras convencionales.",
+        "c": "Sí la hay: en las vías que no son autopista ni autovía es la mitad de la genérica de cada vehículo."
+      },
+      "truco": "Mínimas: en autopista y autovía, 60 para vehículos a motor; en las demás vías, la mitad de la genérica de tu vehículo en esa vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "49.1",
+          "cita": "se prohíbe la circulación en\nautopistas y autovías de vehículos a motor a una velocidad inferior a 60 kilómetros por hora"
+        }
+      ],
+      "huella": "0f5f1d607812"
+    },
+    {
+      "id": "x1a-0040",
+      "porque": "Fuera de autopistas y autovías, la mínima es la mitad de la genérica de cada vehículo en esa vía. El camión tiene 80 en carretera convencional, así que su mínima es 40 km/h.",
+      "descartes": {
+        "b": "45 km/h es la mínima del turismo en convencional (la mitad de 90); el camión tiene un genérico más bajo.",
+        "c": "60 km/h es la mínima de autopistas y autovías, no de las convencionales."
+      },
+      "truco": "Mínimas: en autopista y autovía, 60 para vehículos a motor; en las demás vías, la mitad de la genérica de tu vehículo en esa vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "49.1",
+          "cita": "se prohíbe la circulación en\nautopistas y autovías de vehículos a motor a una velocidad inferior a 60 kilómetros por hora"
+        }
+      ],
+      "huella": "34a8d172fe2f"
+    },
+    {
+      "id": "x1a-0041",
+      "porque": "La mínima de un turismo en carretera convencional es 45 km/h (la mitad de 90). Ir a 35 sin causa justificada es infracción, y la norma aclara que lo es aunque no circulen otros vehículos.",
+      "descartes": {
+        "a": "La norma prohíbe ir por debajo de la mínima aunque no circulen otros vehículos; no hace falta molestar a nadie.",
+        "b": "En autopistas y autovías la mínima es 60, pero en las demás vías también hay mínima: la mitad de la genérica del vehículo."
+      },
+      "truco": "Mínimas: en autopista y autovía, 60 para vehículos a motor; en las demás vías, la mitad de la genérica de tu vehículo en esa vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "49.1",
+          "cita": "se prohíbe la circulación en\nautopistas y autovías de vehículos a motor a una velocidad inferior a 60 kilómetros por hora"
+        }
+      ],
+      "huella": "741471bfc4a9"
+    },
+    {
+      "id": "x1a-0042",
+      "porque": "Las velocidades mínimas tienen excepciones, y la primera son los vehículos especiales, como un tractor agrícola, que pueden circular por debajo de ellas. Además, con remolque o sin señalización de frenado, su máximo fuera de poblado ya es de 25 km/h.",
+      "descartes": {
+        "b": "45 km/h sería la mínima de un turismo en convencional; los vehículos especiales están exentos de las mínimas.",
+        "c": "La señal de emergencia es para quien no puede alcanzar la mínima exigida y hay peligro de alcance, no una condición para que un vehículo especial vaya despacio."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.c.1.º",
+          "cita": "1.º Si carecen de señalización de frenado, llevan remolque o son motocultores: 25\nkilómetros por hora."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "49.3",
+          "cita": "Cuando un vehículo no pueda alcanzar la velocidad mínima exigida y exista peligro de\nalcance, se deberán utilizar durante la circulación las luces indicadoras de dirección con\nseñal de emergencia."
+        }
+      ],
+      "huella": "734660dd864a"
+    },
+    {
+      "id": "x1a-0043",
+      "porque": "Si tu vehículo no puede llegar a la mínima y quien viene detrás podría alcanzarte, tienes que hacerte notar mientras circulas: la norma manda encender las luces indicadoras de dirección en señal de emergencia.",
+      "descartes": {
+        "a": "La luz de largo alcance sirve para iluminar la vía por delante; no es el aviso que manda la norma para quien no alcanza la mínima.",
+        "b": "La antiniebla trasera no es el aviso que fija la norma para este caso: lo que hay que encender es la señal de emergencia."
+      },
+      "truco": "Lento y con riesgo de que te alcancen: los cuatro intermitentes a la vez.",
+      "huella": "23d456dfa38c"
+    },
+    {
+      "id": "x1a-0017",
+      "porque": "En un paso para peatones sin semáforo ni agente, el peatón puede aparecer en cualquier momento, así que hay que acercarse a velocidad moderada y parar si hace falta. No se espera a que alguien esté ya cruzando.",
+      "descartes": {
+        "a": "El claxon no sustituye a moderar la velocidad; la norma pide reducir y estar preparado para detenerse.",
+        "b": "Hay que moderar al aproximarse al paso, aunque nadie esté cruzando todavía."
+      },
+      "truco": "Si algo o alguien puede aparecer o complicar la maniobra (peatones, animales, un cruce, un vehículo de auxilio...), la respuesta es la misma: velocidad moderada y, si hace falta, detenerse.",
+      "huella": "38c76549d8e3"
+    },
+    {
+      "id": "x1a-0018",
+      "porque": "Si las puertas de los edificios dan directamente a la vía, alguien puede salir de golpe a la calzada. Por eso la norma obliga a circular a velocidad moderada y a detenerse si fuera preciso.",
+      "descartes": {
+        "a": "Ir a la máxima y por el centro es lo contrario de lo que exige la norma en estos tramos.",
+        "c": "El claxon no sustituye a moderar la velocidad, y la norma prohíbe su uso inmotivado o exagerado."
+      },
+      "truco": "Si algo o alguien puede aparecer o complicar la maniobra (peatones, animales, un cruce, un vehículo de auxilio...), la respuesta es la misma: velocidad moderada y, si hace falta, detenerse.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "110.1",
+          "cita": "queda prohibido su uso inmotivado o exagerado."
+        }
+      ],
+      "huella": "8aa2c5b961fb"
+    },
+    {
+      "id": "x1a-0019",
+      "porque": "Fuera de poblado, al acercarte a vehículos inmovilizados en la calzada o a vehículos de auxilio trabajando, hay personas y obstáculos cerca del tráfico. La norma pide velocidad moderada y detenerse si es preciso.",
+      "descartes": {
+        "a": "Que la grúa esté señalizada no te exime: es precisamente un caso en que hay que moderar la velocidad.",
+        "c": "Acelerar aumenta el riesgo para quienes trabajan junto a la vía; hay que moderar."
+      },
+      "truco": "Si algo o alguien puede aparecer o complicar la maniobra (peatones, animales, un cruce, un vehículo de auxilio...), la respuesta es la misma: velocidad moderada y, si hace falta, detenerse.",
+      "huella": "02f70af55b65"
+    },
+    {
+      "id": "x1a-0020",
+      "porque": "Cuando la vía, los vehículos o el tiempo no permiten cruzarse con seguridad a la velocidad que llevas, toca moderar la velocidad y, si hace falta, detenerse hasta que el cruce sea seguro.",
+      "descartes": {
+        "a": "Acelerar en una vía estrecha y mojada empeora el cruce; la norma pide lo contrario.",
+        "c": "Las luces de largo alcance no resuelven la falta de espacio para cruzarse; lo que pide la norma es moderar la velocidad."
+      },
+      "truco": "Si algo o alguien puede aparecer o complicar la maniobra (peatones, animales, un cruce, un vehículo de auxilio...), la respuesta es la misma: velocidad moderada y, si hace falta, detenerse.",
+      "huella": "e73f298a8d79"
+    },
+    {
+      "id": "x1a-0021",
+      "porque": "No hace falta que el animal ya esté en la calzada: basta con que sea previsible que entre. En ese caso se circula a velocidad moderada y preparado para detenerse.",
+      "descartes": {
+        "b": "La obligación de moderar no se limita a las cañadas: se aplica siempre que haya animales o sea previsible que irrumpan.",
+        "c": "Las luces de emergencia no sustituyen a moderar la velocidad, y la norma pide moderarla."
+      },
+      "truco": "Si algo o alguien puede aparecer o complicar la maniobra (peatones, animales, un cruce, un vehículo de auxilio...), la respuesta es la misma: velocidad moderada y, si hace falta, detenerse.",
+      "huella": "88a9539b7c49"
+    },
+    {
+      "id": "x1a-0046",
+      "porque": "Los límites genéricos solo valen cuando no hay otra cosa: si una señal fija un límite, ese prevalece. En esa autovía, con la señal de 100, tu máximo es 100 km/h, aunque el genérico de un turismo sea 120.",
+      "descartes": {
+        "b": "120 km/h es el genérico del turismo en autovía, pero la señal prevalece sobre él.",
+        "c": "No existe ningún margen sobre la cifra de la señal: el máximo es lo que marca."
+      },
+      "truco": "La señal gana a la tabla: si hay una señal de límite, ese es tu máximo.",
+      "huella": "175c0ce70cb4"
+    },
+    {
+      "id": "x1a-0047",
+      "porque": "Los vehículos especiales tienen límites propios más bajos, y por eso deben llevar detrás, visible en todo momento, la señal de limitación de velocidad: así quien viene detrás sabe a qué velocidad máxima va.",
+      "descartes": {
+        "a": "La señal de autoescuela la llevan los vehículos de prácticas, no los vehículos especiales agrícolas.",
+        "b": "La señal de transporte escolar es para los vehículos que hacen ese transporte, no para un vehículo agrícola."
+      },
+      "truco": "La señal de limitación de velocidad en la trasera la llevan quienes van más despacio por norma propia: vehículos especiales, transportes especiales y conductores con un límite por sus circunstancias personales.",
+      "huella": "6c05606576fd"
+    },
+    {
+      "id": "x1a-0048",
+      "porque": "Si a un conductor se le fija una velocidad máxima más baja por sus circunstancias personales, además de respetarla debe llevar en la parte posterior, visible en todo momento, la señal de limitación de velocidad, para que los demás lo sepan.",
+      "descartes": {
+        "a": "No basta con respetar el límite: la norma obliga también a llevar la señal visible detrás.",
+        "c": "La señal de emergencia es para quien no alcanza la mínima y hay peligro de alcance, no para este caso."
+      },
+      "truco": "La señal de limitación de velocidad en la trasera la llevan quienes van más despacio por norma propia: vehículos especiales, transportes especiales y conductores con un límite por sus circunstancias personales.",
+      "huella": "37b01246513b"
+    },
+    {
+      "id": "x1a-0049",
+      "porque": "Una frenada fuerte sorprende a quien va detrás. Por eso, salvo peligro inminente, antes de reducir mucho la velocidad hay que comprobar que no se crea riesgo, avisar antes y hacerlo sin brusquedad.",
+      "descartes": {
+        "a": "Frenar con fuerza sin necesidad es justo lo que la norma prohíbe: hay que reducir sin brusquedad para evitar un alcance.",
+        "b": "No solo se avisan los desplazamientos laterales: la intención de frenar de modo considerable también se advierte."
+      },
+      "truco": "Frenar fuerte es una maniobra más: se avisa. Con las luces de freno repetidas o con el brazo arriba y abajo, salvo que el peligro sea inminente.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.1",
+          "cita": "así como su propósito de inmovilizarlo o\nde frenar su marcha de modo considerable."
+        }
+      ],
+      "huella": "fb86d7994563"
+    },
+    {
+      "id": "x1a-0050",
+      "porque": "La regla general es cerciorarse, avisar y no frenar de forma brusca. La única salvedad que hace la norma es el peligro inminente: si hay que frenar ya, no se puede exigir avisar antes.",
+      "descartes": {
+        "b": "La obligación de avisar no cambia por circular dentro de poblado.",
+        "c": "Detenerse para estacionar también se avisa, con las luces de freno y, además, con el intermitente del lado hacia el que vas."
+      },
+      "truco": "Frenar fuerte es una maniobra más: se avisa. Con las luces de freno repetidas o con el brazo arriba y abajo, salvo que el peligro sea inminente.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "109.2.c",
+          "cita": "Si la inmovilización se realiza para parar o estacionar deberá utilizarse, además, el\nindicador luminoso de dirección correspondiente al lado hacia el que vaya a efectuarse\naquélla"
+        }
+      ],
+      "huella": "9cea0ab759c2"
+    },
+    {
+      "id": "vel-0005",
+      "porque": "El autobús tiene 100 km/h en autopista, pero el transporte escolar y de menores resta 10 km/h al límite que corresponda a su vehículo y vía: 100 menos 10, 90 km/h.",
+      "descartes": {
+        "a": "80 km/h es el máximo de un autobús con viajeros de pie o sin cinturones, no la rebaja del transporte escolar.",
+        "b": "100 km/h es el límite del autobús en autopista sin rebaja; el transporte escolar resta 10."
+      },
+      "truco": "Para el transporte escolar y de menores y las mercancías peligrosas, fuera de poblado: busca el límite de su vehículo en esa vía y resta 10.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.b",
+          "cita": "En el supuesto de que en un autobús viajen pasajeros de pie porque así esté autorizado\no en caso de que el autobús no esté dotado de cinturón de seguridad, la velocidad máxima,\ncualquiera que sea el tipo de vía fuera de poblado, será de 80 kilómetros por hora."
+        }
+      ],
+      "huella": "357ec9da8c62"
+    },
+    {
+      "id": "vel-0006",
+      "porque": "El camión tiene 80 km/h en carretera convencional, y llevar mercancías peligrosas resta 10 km/h al límite de su vehículo y vía fuera de poblado: 80 menos 10, 70 km/h.",
+      "descartes": {
+        "b": "60 km/h sería restar 20; la rebaja por mercancías peligrosas es de 10.",
+        "c": "80 km/h es el límite del camión en convencional sin la rebaja por mercancías peligrosas."
+      },
+      "truco": "Para el transporte escolar y de menores y las mercancías peligrosas, fuera de poblado: busca el límite de su vehículo en esa vía y resta 10.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.b",
+          "cita": "Para los vehículos que realicen transporte escolar y de menores o que transporten\nmercancías peligrosas, se reducirá en 10 kilómetros por hora la velocidad máxima fijada en\nel párrafo a) en función del tipo de vehículo y de la vía por la que circula."
+        }
+      ],
+      "huella": "23e72eb98073"
+    },
+    {
+      "id": "x1a-0034",
+      "porque": "La furgoneta tiene 90 km/h en autovía, y las mercancías peligrosas restan 10 km/h fuera de poblado: 90 menos 10, 80 km/h.",
+      "descartes": {
+        "a": "90 km/h es el límite de la furgoneta en autovía sin la rebaja por mercancías peligrosas.",
+        "b": "70 km/h sería la furgoneta con mercancías peligrosas en carretera convencional (80 menos 10), no en autovía."
+      },
+      "truco": "Para el transporte escolar y de menores y las mercancías peligrosas, fuera de poblado: busca el límite de su vehículo en esa vía y resta 10.",
+      "huella": "86acee5f6ce3"
+    },
+    {
+      "id": "x1a-0035",
+      "porque": "Cuando en un autobús viajan pasajeros de pie, porque está autorizado, la norma fija un máximo de 80 km/h fuera de poblado, sea cual sea la vía, también en autopista.",
+      "descartes": {
+        "a": "100 km/h es el límite normal del autobús en autopista; con viajeros de pie baja a 80.",
+        "c": "90 km/h sería el autobús de transporte escolar en autopista (100 menos 10), no el caso de viajeros de pie."
+      },
+      "truco": "Autobús con viajeros de pie o sin cinturones: 80 fuera de poblado, sea cual sea la vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.b",
+          "cita": "Para los vehículos que realicen transporte escolar y de menores o que transporten\nmercancías peligrosas, se reducirá en 10 kilómetros por hora la velocidad máxima fijada en\nel párrafo a) en función del tipo de vehículo y de la vía por la que circula."
+        }
+      ],
+      "huella": "7c6c05b2365c"
+    },
+    {
+      "id": "x1a-0036",
+      "porque": "Un autobús sin cinturones de seguridad tiene un máximo de 80 km/h fuera de poblado en cualquier tipo de vía. No hace falta que lleve viajeros de pie: basta con que no tenga cinturones.",
+      "descartes": {
+        "a": "100 km/h es el límite normal del autobús en autovía; sin cinturones baja a 80.",
+        "b": "90 km/h es el límite normal del autobús en convencional; sin cinturones, el máximo es 80 en cualquier vía fuera de poblado."
+      },
+      "truco": "Autobús con viajeros de pie o sin cinturones: 80 fuera de poblado, sea cual sea la vía.",
+      "huella": "3d78fe70da7c"
+    },
+    {
+      "id": "vel-0010",
+      "porque": "En una vía sin pavimentar el agarre y el firme son peores, y la norma fija un máximo de 30 km/h, sea cual sea el límite que tendría tu vehículo en otra vía.",
+      "descartes": {
+        "a": "20 km/h es el límite genérico de las vías urbanas con plataforma única de calzada y acera.",
+        "c": "40 km/h no es el límite de las vías sin pavimentar, que es 30."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.1",
+          "cita": "a) 20 km/h en vías que dispongan de plataforma única de calzada y acera."
+        }
+      ],
+      "huella": "3f5369c02b6b"
+    },
+    {
+      "id": "vel-0016",
+      "porque": "En las travesías no se cuentan los carriles como en las calles: el límite genérico es 50 km/h para todo tipo de vehículos. Puede rebajarse con señalización específica, y los vehículos con mercancías peligrosas tienen además un máximo propio de 40.",
+      "descartes": {
+        "a": "La regla de 30 km/h con un solo carril por sentido es de las vías urbanas, no de las travesías.",
+        "c": "40 km/h es el máximo en travesía de los vehículos con mercancías peligrosas, no el genérico de todos."
+      },
+      "truco": "Mercancías peligrosas: fuera de poblado, resta 10 al límite de su vehículo; en travesías y en calles de dos o más carriles por sentido, máximo 40.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "50.4",
+          "cita": "En las vías urbanas a las que se refiere el apartado 1 c) y en travesías, los vehículos\nque transporten mercancías peligrosas circularán como máximo a 40 km/h."
+        }
+      ],
+      "huella": "861d25684e91"
+    },
+    {
+      "id": "res-vel-0001",
+      "porque": "Este vehículo especial tiene señalización de frenado, no lleva remolque y no es motocultor, así que parte de 40 km/h. Pero como puede pasar de 60 en llano y cumple sus normas técnicas, su máximo sube a 70.",
+      "descartes": {
+        "a": "40 km/h es el límite de los vehículos especiales que no pueden superar 60 en llano o no cumplen esas condiciones.",
+        "c": "25 km/h es para los que carecen de señalización de frenado, llevan remolque o son motocultores; este no está en ningún caso."
+      },
+      "truco": "Vehículos especiales fuera de poblado: 25 si no tienen señalización de frenado, llevan remolque o son motocultores; 40 los demás; y 70 solo si pueden pasar de 60 en llano y cumplen sus normas técnicas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.c.1.º",
+          "cita": "1.º Si carecen de señalización de frenado, llevan remolque o son motocultores: 25\nkilómetros por hora."
+        }
+      ],
+      "huella": "26de1fc79501"
+    },
+    {
+      "id": "v5a-vel-0003",
+      "porque": "Fuera de poblado, un vehículo especial sin señalización de frenado tiene el máximo más bajo de los especiales: 25 km/h, igual que si lleva remolque o es motocultor.",
+      "descartes": {
+        "a": "40 km/h es para los vehículos especiales que sí tienen señalización de frenado, no llevan remolque y no son motocultores.",
+        "b": "45 km/h es el límite de ciclos, ciclomotores y cuadriciclos ligeros, no de los vehículos especiales."
+      },
+      "truco": "Vehículos especiales fuera de poblado: 25 si no tienen señalización de frenado, llevan remolque o son motocultores; 40 los demás; y 70 solo si pueden pasar de 60 en llano y cumplen sus normas técnicas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.c.2.º",
+          "cita": "2.º Los restantes vehículos especiales: 40 kilómetros por hora"
+        }
+      ],
+      "huella": "26c8298c8eed"
+    },
+    {
+      "id": "v5a-vel-0004",
+      "porque": "Tiene señalización de frenado, no lleva remolque y no es motocultor, así que no está en el grupo de 25. Como no puede pasar de 60 en llano, tampoco llega a 70: se queda en 40 km/h.",
+      "descartes": {
+        "b": "25 km/h es para los que carecen de señalización de frenado, llevan remolque o son motocultores.",
+        "c": "70 km/h exige poder superar 60 km/h en llano y cumplir las normas técnicas; este no puede."
+      },
+      "truco": "Vehículos especiales fuera de poblado: 25 si no tienen señalización de frenado, llevan remolque o son motocultores; 40 los demás; y 70 solo si pueden pasar de 60 en llano y cumplen sus normas técnicas.",
+      "huella": "c2f30317a852"
+    },
+    {
+      "id": "x1a-0037",
+      "porque": "Fuera de poblado, el motocultor está en el grupo de vehículos especiales más lento, con los que llevan remolque o no tienen señalización de frenado: 25 km/h.",
+      "descartes": {
+        "b": "40 km/h es para los vehículos especiales que no son motocultores, no llevan remolque y tienen señalización de frenado.",
+        "c": "45 km/h es el límite de ciclos, ciclomotores y cuadriciclos ligeros."
+      },
+      "truco": "Vehículos especiales fuera de poblado: 25 si no tienen señalización de frenado, llevan remolque o son motocultores; 40 los demás; y 70 solo si pueden pasar de 60 en llano y cumplen sus normas técnicas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "48.1.c.2.º",
+          "cita": "2.º Los restantes vehículos especiales: 40 kilómetros por hora"
+        }
+      ],
+      "huella": "de44ef2ab98c"
+    },
+    {
+      "id": "x1a-0014",
+      "porque": "Si la vía está partida en dos calzadas por una mediana o un separador, cada una es para un sentido, y hay que usar la de la derecha según tu sentido de marcha. Ir por la otra sería circular en sentido contrario.",
+      "descartes": {
+        "b": "El poco tráfico no cambia nada: la calzada de la izquierda es la del sentido contrario.",
+        "c": "Querer girar más adelante no te permite usar la calzada del otro sentido."
+      },
+      "truco": null,
+      "huella": "5acff20d02b7"
+    },
+    {
+      "id": "x1a-0004",
+      "porque": "Los automóviles circulan por la calzada y no por el arcén, salvo emergencia, y en una calzada de doble sentido con dos carriles se va por el de la derecha. Ser un camión pesado no cambia eso.",
+      "descartes": {
+        "a": "Un automóvil no circula por el arcén salvo por emergencia, aunque sea un camión lento.",
+        "b": "Hay que circular por la derecha; el centro de la calzada invade el espacio del sentido contrario."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "30.1.a",
+          "cita": "a) En las calzadas con doble sentido de circulación y dos carriles, separados o no por\nmarcas viales, circulará por el de su derecha."
+        }
+      ],
+      "huella": "a92afe3e5ad8"
+    },
+    {
+      "id": "x1a-0008",
+      "porque": "En poblado, con dos o más carriles para tu sentido, puedes elegir el que mejor te convenga para tu destino, pero luego no debes ir cambiando: solo se abandona para prepararse a girar, adelantar, parar o estacionar.",
+      "descartes": {
+        "b": "La norma no permite abandonarlo sin motivo; solo para esas maniobras concretas.",
+        "c": "Sí se puede abandonar, pero solo para prepararse a cambiar de dirección, adelantar, parar o estacionar."
+      },
+      "truco": "En ciudad, elige carril y quédate en él; solo lo dejas para girar, adelantar, parar o estacionar.",
+      "huella": "a2f63e6c22cc"
+    },
+    {
+      "id": "x1a-0007",
+      "porque": "Fuera de poblado, con varios carriles en tu sentido, se circula normalmente por el de la derecha. Los demás se pueden usar cuando el tráfico o la vía lo aconsejen, siempre que no entorpezcas a quien viene detrás.",
+      "descartes": {
+        "b": "No existe un «carril para turismos»: lo normal es ir por el de la derecha y usar el otro cuando convenga.",
+        "c": "Se pueden usar los otros carriles, pero con la condición expresa de no entorpecer a quien te sigue."
+      },
+      "truco": null,
+      "huella": "9df3bf0ea864"
+    },
+    {
+      "id": "x1a-0009",
+      "porque": "Para aplicar las normas sobre uso de carriles no se cuentan los reservados a determinados vehículos o maniobras, y el carril VAO es uno de ellos. De tres carriles quedan dos.",
+      "descartes": {
+        "a": "Se estaría contando el VAO, y los carriles reservados no entran en el cómputo.",
+        "b": "Solo se descuenta el carril reservado; los otros dos sí cuentan."
+      },
+      "truco": "Para contar carriles, tacha los reservados (VAO, bus...) y cuenta los que quedan.",
+      "huella": "8ffc3fdab273"
+    },
+    {
+      "id": "x1a-0001",
+      "porque": "En curvas y cambios de rasante de poca visibilidad no ves lo que viene de frente, así que debes dejar completamente libre la mitad del sentido contrario. La norma lo exige aunque no haya marcas que la delimiten.",
+      "descartes": {
+        "b": "Ir por el centro invade la mitad del sentido contrario justo donde no ves si viene alguien.",
+        "c": "La falta de marcas no te permite trazar a tu gusto: la mitad contraria debe quedar libre igualmente."
+      },
+      "truco": "Si no ves lo que viene, no ocupes su mitad: en curvas y cambios de rasante, siempre en tu mitad, haya o no raya.",
+      "huella": "a4b4fda52481"
+    },
+    {
+      "id": "x1a-0011",
+      "porque": "En una vía de doble sentido, la isleta separa los dos sentidos, así que se pasa por la parte de la calzada que queda a su derecha. Ir por la izquierda sería circular por el lado del sentido contrario.",
+      "descartes": {
+        "b": "Solo se puede elegir lado cuando la isleta está en una vía de sentido único o dentro de la parte de un solo sentido.",
+        "c": "Por la izquierda irías por la parte del sentido contrario, aunque no venga nadie."
+      },
+      "truco": "Isleta en doble sentido: a su derecha. Isleta dentro de un solo sentido: por cualquiera de los dos lados.",
+      "huella": "c9593e2a9df2"
+    },
+    {
+      "id": "x1a-0012",
+      "porque": "La regla general es pasar por la derecha de refugios e isletas, pero cuando están en una vía de sentido único no hay sentido contrario que proteger, y la norma permite pasar por cualquiera de los dos lados.",
+      "descartes": {
+        "b": "Pasar por la derecha es la regla de las vías de doble sentido; en sentido único se permite cualquier lado.",
+        "c": "No se limita a la izquierda: en sentido único valen los dos lados."
+      },
+      "truco": "Isleta en doble sentido: a su derecha. Isleta dentro de un solo sentido: por cualquiera de los dos lados.",
+      "huella": "e11ee84002b8"
+    },
+    {
+      "id": "x1a-0002",
+      "porque": "La regla general es circular por la derecha y lo más cerca posible del borde de la calzada, dejando la separación lateral suficiente para cruzarte con seguridad, sobre todo en curvas y cambios de rasante.",
+      "descartes": {
+        "b": "Aunque no venga nadie, se circula por la derecha; el centro no es la posición normal.",
+        "c": "Es justo al revés: lo más cerca posible del borde, no lo más lejos."
+      },
+      "truco": null,
+      "huella": "ae1bfde0b2c4"
+    },
+    {
+      "id": "x1a-0010",
+      "porque": "Por seguridad, fluidez o motivos ambientales, la autoridad competente puede ordenar el tráfico de forma especial: cambiar el sentido, prohibir el acceso, cerrar vías, imponer itinerarios o usar arcenes y carriles en sentido contrario.",
+      "descartes": {
+        "b": "No son solo recomendaciones: la norma le permite prohibir el acceso y cerrar vías.",
+        "c": "Estas medidas ordenan la circulación por la vía; la norma no incluye entre ellas retirar el permiso a quien circule por allí."
+      },
+      "truco": null,
+      "huella": "7999e1af43f2"
+    },
+    {
+      "id": "x1a-0015",
+      "porque": "Si la vía tiene tres calzadas, las laterales son para un solo sentido, y la central puede ser de doble sentido o de sentido único, permanente o temporal. Lo que valga en cada momento lo dicen las señales.",
+      "descartes": {
+        "a": "La norma no reserva la calzada central a los servicios de urgencia: se destina a la circulación según las señales.",
+        "c": "La calzada central es para circular, no para parar ni estacionar."
+      },
+      "truco": null,
+      "huella": "ce17bfe464c1"
+    },
+    {
+      "id": "x1a-0005",
+      "porque": "Con tres carriles y doble sentido, el central es compartido y el de tu izquierda es el carril normal del sentido contrario. Por eso la norma dice que no se usa en ningún caso.",
+      "descartes": {
+        "a": "Ni con el central ocupado: el de tu izquierda no se usa en ningún caso.",
+        "b": "Aunque no venga nadie, la prohibición es absoluta: en ningún caso por el carril más a tu izquierda."
+      },
+      "truco": "Tres carriles y doble sentido: el de tu derecha para circular, el del centro solo para adelantar o girar a la izquierda, y el de tu izquierda nunca.",
+      "huella": "009eaa3fbf89"
+    },
+    {
+      "id": "x1a-0006",
+      "porque": "Con tres carriles y doble sentido, el carril central es compartido por los dos sentidos. Por eso solo se usa para los adelantamientos precisos y para girar a la izquierda, nunca para circular de forma continuada.",
+      "descartes": {
+        "a": "El carril central no es para circular de forma continuada, aunque vayas más rápido; solo para adelantar o girar a la izquierda.",
+        "b": "El central sirve a los dos sentidos; el que es del sentido contrario es el de tu izquierda."
+      },
+      "truco": "Tres carriles y doble sentido: el de tu derecha para circular, el del centro solo para adelantar o girar a la izquierda, y el de tu izquierda nunca.",
+      "huella": "82cae897a939"
+    },
+    {
+      "id": "xc-0008",
+      "porque": "Un atropello suele empezar porque el conductor no ve al peatón a tiempo. Por eso el manual de la DGT señala que se dan más en zonas donde algún obstáculo impide a los conductores verlos bien.",
+      "descartes": {
+        "a": "El manual no sitúa la mayoría de los atropellos en los pasos con semáforo; los relaciona con los obstáculos que impiden ver al peatón.",
+        "c": "Una acera ancha y bien iluminada es justo lo contrario de lo que favorece los atropellos: ahí se ve bien al peatón."
+      },
+      "truco": "Atropello = peatón que no se ve. Donde hay obstáculos que tapan la vista, más cuidado.",
+      "huella": "893267d88bc5"
+    },
+    {
+      "id": "xc-0029",
+      "porque": "Si un coche ocupa la acera, el peatón tiene que bajar a la calzada para pasar, y ahí queda expuesto al tráfico. Por eso el manual pide no aparcar en la acera.",
+      "descartes": {
+        "a": "El problema que señala el manual no es la visibilidad de los semáforos, sino que el peatón se ve obligado a andar por la carretera.",
+        "c": "No tiene que ver con los pasos elevados: el riesgo es que el peatón tenga que salir a la calzada."
+      },
+      "truco": null,
+      "huella": "e0bb8a8eb2e5"
+    },
+    {
+      "id": "xc-0014",
+      "porque": "La bicicleta se usa mucho por ocio, y eso se nota en los datos: según el manual, los accidentes de ciclistas ocurren más los fines de semana, sobre todo cuando llega el buen tiempo.",
+      "descartes": {
+        "a": "El manual lo asocia a los fines de semana y al buen tiempo, no a los días laborables de invierno.",
+        "c": "El manual no sitúa la mayoría de estos accidentes por la noche; los asocia a fines de semana con buen tiempo."
+      },
+      "truco": null,
+      "huella": "293ae126c8c6"
+    },
+    {
+      "id": "xc-0015",
+      "porque": "Según el manual, la mayoría de los accidentes de ciclistas ocurren en las rectas o en los cruces y se deben a un choque con otro vehículo, no a que el ciclista se salga solo de la vía.",
+      "descartes": {
+        "b": "El manual no habla de curvas ni de salidas en solitario: la mayoría son choques con otro vehículo en rectas o cruces.",
+        "c": "El manual no sitúa la mayoría de estos accidentes en los carriles bici ni en choques entre ciclistas."
+      },
+      "truco": null,
+      "huella": "afd78a564e00"
+    },
+    {
+      "id": "xc-0030",
+      "porque": "El manual distingue varios tipos de consecuencias de los accidentes. Las materiales son los daños en cosas: los vehículos, la carretera y el medioambiente.",
+      "descartes": {
+        "b": "El sufrimiento de quienes rodean a las víctimas es una consecuencia humana, no material.",
+        "c": "El trabajo de policías y bomberos es un gasto en recursos de seguridad, no una consecuencia material."
+      },
+      "truco": "Material = cosas que se rompen o se dañan: coches, carretera y medioambiente.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Consecuencias de los accidentes (p. 393)",
+          "cita": "Humanas\nLa muerte de una persona supone\nun sufrimiento físico y psicológico\npara las personas que le rodean."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Consecuencias de los accidentes (p. 394)",
+          "cita": "Gasto en recursos de seguridad\nTambién hay que invertir mucho personal y dinero\nen la labor que hacen los policías y bomberos\nen los accidentes."
+        }
+      ],
+      "huella": "063083f5d9ff"
+    },
+    {
+      "id": "D-acc-0008",
+      "porque": "Los accidentes no solo dañan a quienes los sufren: tienen consecuencias humanas, materiales, sanitarias y de recursos de seguridad para todos. Por eso la Organización Mundial de la Salud los considera un problema de salud que afecta a toda la sociedad.",
+      "descartes": {
+        "a": "Es lo contrario de lo que dice la OMS: el problema afecta a toda la sociedad, no solo a los implicados.",
+        "c": "Los gastos de las aseguradoras son solo una parte; la OMS lo trata como un problema de salud de toda la sociedad."
+      },
+      "truco": null,
+      "huella": "1a1c3f511230"
+    },
+    {
+      "id": "xc-0024",
+      "porque": "Según el manual, los accidentes por distracciones son más frecuentes en carretera que en ciudad, y en autopistas y autovías.",
+      "descartes": {
+        "a": "El manual dice justo lo contrario: más en carreteras que en ciudad.",
+        "c": "El manual no menciona los caminos rurales sin asfaltar; señala las carreteras, autopistas y autovías."
+      },
+      "truco": null,
+      "huella": "b1fb1f31ce05"
+    },
+    {
+      "id": "xc-0025",
+      "porque": "Según el manual, los accidentes por distracciones son más frecuentes cuando hay varias personas dentro del vehículo.",
+      "descartes": {
+        "a": "El manual los asocia a ir acompañado, no a ir solo, y menciona los viajes de fin de semana durante el día.",
+        "b": "El manual señala los meses de verano, no los de invierno."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Accidentes por distracciones (p. 68)",
+          "cita": "■ En los viajes de fin de semana y durante el día."
+        }
+      ],
+      "huella": "22cd8c65d7cc"
+    },
+    {
+      "id": "xc-0026",
+      "porque": "Cuando conoces muy bien una carretera, es fácil confiarse y bajar la atención. El manual incluye «conocer bien la carretera y confiarse demasiado» entre las causas de accidentes por distracción.",
+      "descartes": {
+        "b": "Conocer la carretera no elimina el riesgo: confiarse es precisamente una causa de distracción.",
+        "c": "El manual no lo limita a la noche: el exceso de confianza distrae a cualquier hora."
+      },
+      "truco": "Carretera conocida, atención doble: la rutina es la que distrae.",
+      "huella": "693208e62e37"
+    },
+    {
+      "id": "xc-0027",
+      "porque": "Fumar al volante resta atención y control: mientras buscas el cigarro y lo enciendes no miras la carretera, y una mano queda ocupada. El manual añade el humo, que dificulta la visión, y el peor aire dentro del coche.",
+      "descartes": {
+        "a": "El manual no relaciona fumar con ir más deprisa; señala la falta de atención, la mano ocupada, el humo y el peor aire.",
+        "b": "El manual no habla de ventanillas cerradas; los motivos son la falta de atención, la mano ocupada, el humo y el peor aire."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Fumar en el vehículo (p. 70)",
+          "cita": "■ Ves peor la carretera por el humo\nque sale del cigarro.\n■ El aire dentro del coche es de peor calidad\ny puede afectar a las capacidades para conducir."
+        }
+      ],
+      "huella": "971fdfb5cb0e"
+    },
+    {
+      "id": "xc-0028",
+      "porque": "El manual de la DGT da esta cifra para mostrar lo peligroso que es conducir después de consumir drogas: una de cada 10 personas que mueren en un accidente de tráfico las había consumido antes de conducir.",
+      "descartes": {
+        "b": "Una de cada 100 se queda muy corto: la cifra del manual es una de cada 10.",
+        "c": "Nueve de cada 10 exagera mucho: la cifra del manual es una de cada 10."
+      },
+      "truco": null,
+      "huella": "74fc61f8aff5"
+    },
+    {
+      "id": "res-acc-0001",
+      "porque": "Según el manual, hay más accidentes los fines de semana y los días de fiesta, y en especial de madrugada.",
+      "descartes": {
+        "a": "Los lunes a mediodía no son el momento que destaca el manual; señala fines de semana y festivos.",
+        "b": "El manual no destaca los martes y miércoles por la mañana; señala fines de semana y festivos, sobre todo de madrugada."
+      },
+      "truco": null,
+      "huella": "cec1084b338a"
+    },
+    {
+      "id": "D-acc-0003",
+      "porque": "Aunque las curvas parezcan más peligrosas, el manual de la DGT indica que la mayoría de los accidentes se producen en rectas y no en curvas.",
+      "descartes": {
+        "a": "El manual no sitúa la mayoría de los accidentes en los túneles, sino en las rectas.",
+        "b": "Es la idea intuitiva, pero el manual dice expresamente que la mayoría ocurre en rectas y no en curvas."
+      },
+      "truco": "No te fíes de la recta: es donde más accidentes hay, aunque parezca el tramo más fácil.",
+      "huella": "656ee265aa37"
+    },
+    {
+      "id": "D-acc-0004",
+      "porque": "Según el manual, la mayoría de los accidentes mortales ocurren en carreteras fuera de poblado.",
+      "descartes": {
+        "b": "Dentro de las ciudades hay muchos accidentes, como los atropellos, pero la mayoría de los mortales ocurren fuera.",
+        "c": "Los aparcamientos no aparecen en el manual como lugar de la mayoría de los accidentes mortales."
+      },
+      "truco": "Más velocidad, más gravedad: los accidentes mortales, sobre todo fuera de poblado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Los peatones (p. 396)",
+          "cita": "Tiene más posibilidad de morir cuando el accidente\nes en una carretera fuera de la ciudad\nporque los vehículos circulan más rápido."
+        }
+      ],
+      "huella": "1a386ef0ea5e"
+    },
+    {
+      "id": "D-acc-0005",
+      "porque": "Aunque en ellas se vaya más rápido, el manual indica que hay menos accidentes en autopistas y autovías que en el resto de carreteras.",
+      "descartes": {
+        "a": "El manual no dice que haya el mismo número: dice que hay menos.",
+        "c": "Se circula más deprisa, pero el manual dice que hay menos accidentes que en el resto de carreteras."
+      },
+      "truco": null,
+      "huella": "3004e379f9a8"
+    },
+    {
+      "id": "D-acc-0006",
+      "porque": "Durante el día, según el manual, la mayor parte de los accidentes ocurren a las horas de entrar y salir del trabajo, en especial al final de la jornada laboral.",
+      "descartes": {
+        "a": "El manual no destaca la sobremesa; señala las horas de entrar y salir del trabajo.",
+        "b": "El manual no destaca la media mañana; señala las horas de entrar y salir del trabajo."
+      },
+      "truco": null,
+      "huella": "e29ff73bd3b9"
+    },
+    {
+      "id": "D-acc-0007",
+      "porque": "Las épocas con más accidentes, según el manual, son Semana Santa, diciembre y verano: los periodos de vacaciones y fiestas, con más desplazamientos.",
+      "descartes": {
+        "b": "Febrero y noviembre no aparecen en el manual entre las épocas con más accidentes.",
+        "c": "El manual no señala primavera y otoño, sino Semana Santa, diciembre y verano."
+      },
+      "truco": "Más accidentes cuando más se viaja: Semana Santa, Navidad (diciembre) y verano.",
+      "huella": "eee5a68dd117"
+    },
+    {
+      "id": "xc-0018",
+      "porque": "Los neumáticos son el único contacto del coche con el suelo. El manual advierte que sus fallos son una causa común de accidentes, y por eso deben cumplir unas características de calidad.",
+      "descartes": {
+        "b": "El manual dice lo contrario: los fallos de los neumáticos son una causa común de accidentes.",
+        "c": "El manual no lo limita a los camiones: afecta a cualquier vehículo."
+      },
+      "truco": null,
+      "huella": "5f64bf07da94"
+    },
+    {
+      "id": "D-acc-0001",
+      "porque": "Según la DGT, el factor humano (exceso de velocidad, alcohol, distracciones...) interviene en la gran mayoría de los accidentes: entre 70 y 90 de cada 100.",
+      "descartes": {
+        "b": "Entre 4 y 13 de cada 100 es la cifra de los fallos del vehículo, el factor que menos interviene.",
+        "c": "Entre 10 y 35 de cada 100 es la cifra del estado de la carretera."
+      },
+      "truco": "Ordena los factores de mayor a menor: humano (70-90 de cada 100), carretera (10-35) y vehículo (4-13). Tú, la vía y, por último, la máquina.",
+      "huella": "0efa23d363f7"
+    },
+    {
+      "id": "D-acc-0002",
+      "porque": "Si la mayoría de los accidentes tiene detrás un factor humano, la mayoría se puede evitar: conduciendo sin alcohol, a velocidad adecuada y sin distracciones, y revisando el vehículo.",
+      "descartes": {
+        "a": "El fallo del vehículo es el factor que menos interviene; la mayoría de los accidentes se evitan sobre todo cambiando la conducta.",
+        "c": "Es lo contrario de lo que dice el manual: la mayoría se pueden evitar."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Factores de riesgo (p. 390)",
+          "cita": "Factor\nde riesgo\nHumano\n\nAlgunas causas\nExceso de velocidad.\nConsumir alcohol.\nDistracciones."
+        }
+      ],
+      "huella": "b10f30731f75"
+    },
+    {
+      "id": "xc-0001",
+      "porque": "Las circunstancias del conductor, el vehículo, la carretera y el entorno que hacen que una persona tenga más riesgo de sufrir un accidente se llaman factores de riesgo.",
+      "descartes": {
+        "b": "«Grupos de riesgo» son grupos de personas con más posibilidades de sufrir un accidente, como los jóvenes; no las circunstancias.",
+        "c": "«Zonas de inseguridad» no es un término del manual."
+      },
+      "truco": "Factor = circunstancia; grupo = personas.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Personas con más riesgo (p. 395)",
+          "cita": "A estos grupos de personas se les llama\ngrupos de riesgo."
+        }
+      ],
+      "huella": "688a4ed9354b"
+    },
+    {
+      "id": "xc-0002",
+      "porque": "De los tres grandes factores, el fallo del vehículo es el que menos interviene: entre 4 y 13 de cada 100 accidentes, frente a 10-35 del estado de la carretera y 70-90 del factor humano.",
+      "descartes": {
+        "a": "El factor humano es el que más interviene, no el que menos.",
+        "c": "El estado de la carretera interviene más que el fallo del vehículo."
+      },
+      "truco": "Ordena los factores de mayor a menor: humano (70-90 de cada 100), carretera (10-35) y vehículo (4-13). Tú, la vía y, por último, la máquina.",
+      "huella": "f309d7144f5b"
+    },
+    {
+      "id": "xc-0003",
+      "porque": "El factor «estado de la carretera» recoge las causas que dependen de la vía, como que esté mojada. El alcohol es un factor humano y el pinchazo, un fallo del vehículo.",
+      "descartes": {
+        "a": "Consumir alcohol es un factor humano: depende de la persona que conduce.",
+        "b": "Un pinchazo es un fallo en el vehículo."
+      },
+      "truco": "Clasifica la causa por quién falla: la persona (alcohol, velocidad, distracciones), la carretera (mojada) o el vehículo (frenos, pinchazo).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Factores de riesgo (p. 390)",
+          "cita": "Factor\nde riesgo\nHumano\n\nAlgunas causas\nExceso de velocidad.\nConsumir alcohol.\nDistracciones."
+        }
+      ],
+      "huella": "9936ffd1d348"
+    },
+    {
+      "id": "xc-0004",
+      "porque": "Si fallan los frenos, lo que ha fallado es una pieza del coche: el manual lo incluye, como el pinchazo, en el factor «fallo en el vehículo».",
+      "descartes": {
+        "b": "El estado de la carretera se refiere a la vía, por ejemplo que esté mojada, no a los frenos.",
+        "c": "El factor humano recoge causas como la velocidad, el alcohol o las distracciones; el manual pone el fallo de frenos en el vehículo."
+      },
+      "truco": "Clasifica la causa por quién falla: la persona (alcohol, velocidad, distracciones), la carretera (mojada) o el vehículo (frenos, pinchazo).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Factores de riesgo (p. 390)",
+          "cita": "Factor\nde riesgo\nHumano\n\nAlgunas causas\nExceso de velocidad.\nConsumir alcohol.\nDistracciones."
+        }
+      ],
+      "huella": "2f9ac995e2f2"
+    },
+    {
+      "id": "xc-0031",
+      "porque": "El manual de la DGT señala estar cansado como uno de los principales riesgos que pueden provocar accidentes. La fatiga puede ser física, con sensación de cansancio, o psicológica, que dificulta concentrarse.",
+      "descartes": {
+        "a": "El manual no lo limita a los profesionales: la fatiga es un riesgo para cualquier conductor.",
+        "c": "El manual no dice que el café elimine la fatiga; la presenta como uno de los principales riesgos."
+      },
+      "truco": null,
+      "huella": "8e98af2d3ae7"
+    },
+    {
+      "id": "xc-0010",
+      "porque": "Según el manual, los accidentes de los jóvenes se concentran en las grandes ciudades, en los trayectos de ida y vuelta al trabajo y en los lugares de fiesta.",
+      "descartes": {
+        "a": "El manual no los sitúa en autopistas de peaje ni en viajes largos.",
+        "b": "El manual no menciona las carreteras de montaña al hablar de los accidentes de los jóvenes."
+      },
+      "truco": null,
+      "huella": "c8d93704873c"
+    },
+    {
+      "id": "xc-0011",
+      "porque": "Según el manual, las horas con más accidentes de jóvenes son por la noche y de madrugada.",
+      "descartes": {
+        "b": "La primera hora de la tarde no es la franja que destaca el manual para los jóvenes.",
+        "c": "Media mañana tampoco: el manual señala la noche y la madrugada."
+      },
+      "truco": null,
+      "huella": "c37c0ecc012c"
+    },
+    {
+      "id": "xc-0012",
+      "porque": "Entre las causas principales de los accidentes juveniles, el manual incluye competir con otros conductores, junto a la velocidad excesiva, el alcohol y las drogas, correr riesgos y la poca experiencia.",
+      "descartes": {
+        "a": "Es al revés: el manual señala la poca experiencia como causa, no tener demasiada.",
+        "c": "Circular por el carril derecho es lo que pide la norma; no es una causa de accidentes."
+      },
+      "truco": null,
+      "huella": "340a559b8ed6"
+    },
+    {
+      "id": "xc-0013",
+      "porque": "El manual incluye entre las causas de accidentes juveniles seguir los consejos de alguna publicidad que invita a los conductores a correr riesgos.",
+      "descartes": {
+        "a": "El manual dice lo contrario: cierta publicidad que invita a correr riesgos es una causa de accidentes juveniles.",
+        "b": "El manual no se refiere solo a las bebidas alcohólicas, sino a la publicidad que invita a correr riesgos."
+      },
+      "truco": null,
+      "huella": "28b3a034e6ba"
+    },
+    {
+      "id": "xc-0016",
+      "porque": "Según el manual, la mayoría de los accidentes de motocicletas y ciclomotores se producen dentro de la ciudad.",
+      "descartes": {
+        "a": "El manual no sitúa la mayoría en las autopistas, sino dentro de la ciudad.",
+        "b": "El manual no habla de carreteras de montaña: la mayoría ocurre en ciudad."
+      },
+      "truco": null,
+      "huella": "88c86abbccbe"
+    },
+    {
+      "id": "xc-0017",
+      "porque": "Entre las faltas de los otros conductores que causan accidentes con motos, el manual señala no respetar su preferencia de paso, además de ocupar el carril contrario y las distracciones.",
+      "descartes": {
+        "b": "Llevar la luz de cruce de día no aparece en el manual entre las faltas que causan accidentes con motos.",
+        "c": "Dejar mucha distancia de seguridad no es una falta; el manual pide mantenerla con estos vehículos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Motocicletas y ciclomotores (p. 411)",
+          "cita": "■ Mantener la distancia de seguridad\ncon estos vehículos."
+        }
+      ],
+      "huella": "bb1031669ea2"
+    },
+    {
+      "id": "xc-0005",
+      "porque": "Muchos factores de riesgo se pueden evitar conduciendo de forma responsable. El manual pone este ejemplo: revisar los neumáticos antes del viaje para comprobar que están bien y no van a reventar.",
+      "descartes": {
+        "a": "El manual no menciona el depósito del limpiaparabrisas; el ejemplo que da son los neumáticos.",
+        "c": "El manual dice que muchos factores de riesgo se pueden evitar, y pone de ejemplo revisar los neumáticos."
+      },
+      "truco": null,
+      "huella": "8e72109a52d2"
+    },
+    {
+      "id": "xc-0006",
+      "porque": "Con lluvia se tarda más en frenar y se ve peor, así que hay que darse más margen: reducir la velocidad y dejar más distancia de seguridad con el vehículo de delante.",
+      "descartes": {
+        "a": "El manual no propone mantener la velocidad; pide reducirla. Las luces no sustituyen a reducir.",
+        "b": "Acercarse al de delante es lo contrario de lo que se pide: con lluvia hace falta más distancia, no menos."
+      },
+      "truco": "Con lluvia, todo «más»: más despacio y más lejos del de delante.",
+      "huella": "ec43abf15480"
+    },
+    {
+      "id": "xc-0007",
+      "porque": "En la ciudad conviven muchos peatones y vehículos, y según el manual el accidente que más se produce allí es el atropello a peatones.",
+      "descartes": {
+        "b": "La salida de la vía no es el tipo de accidente que el manual destaca en las ciudades.",
+        "c": "El choque frontal entre turismos no es el que el manual señala como más frecuente en ciudad."
+      },
+      "truco": null,
+      "huella": "9b5f244efe97"
+    },
+    {
+      "id": "xc-0023",
+      "porque": "En una curva muy cerrada a demasiada velocidad, la fuerza que empuja hacia fuera puede hacer que el coche siga recto. El resultado: salirse de la carretera o invadir el carril contrario.",
+      "descartes": {
+        "a": "No tiene relación directa con un paso de peatones: el riesgo de la curva es que el coche siga recto.",
+        "b": "El riesgo que describe el manual es salirse o invadir el carril contrario, no que te alcance quien va detrás."
+      },
+      "truco": null,
+      "huella": "bc77bf75389a"
+    },
+    {
+      "id": "xc-0009",
+      "porque": "Cuanto más despacio va el vehículo, menor es el golpe. Por eso el manual dice que un peatón atropellado tiene más posibilidades de sobrevivir si el vehículo iba a poca velocidad, y que en ciudad hay que conducir despacio.",
+      "descartes": {
+        "b": "El manual no relaciona la supervivencia con un vehículo más grande; la relaciona con la poca velocidad.",
+        "c": "El carril no tiene nada que ver: lo que importa es la velocidad."
+      },
+      "truco": null,
+      "huella": "adc4e9b7f8f1"
+    },
+    {
+      "id": "xc-0019",
+      "porque": "Velocidad inadecuada es la que está dentro del límite pero no se ajusta a las condiciones. A 70 km/h con placas de hielo el coche puede patinar: no pasas del límite, pero vas demasiado rápido para ese estado de la carretera.",
+      "descartes": {
+        "a": "No superar el límite no basta: la velocidad también tiene que ajustarse al estado de la carretera.",
+        "c": "Velocidad anormalmente reducida es ir por debajo de la mínima; aquí el problema es ir demasiado rápido."
+      },
+      "truco": "Dentro del límite pero demasiado rápido para las condiciones: inadecuada. Por debajo de la mínima: anormalmente reducida.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Velocidad mínima (p. 244)",
+          "cita": "Cuando un vehículo circula\na una velocidad menor de la permitida\nlleva una velocidad anormalmente reducida."
+        }
+      ],
+      "huella": "832b4b402a0c"
+    },
+    {
+      "id": "xc-0020",
+      "porque": "El manual de la DGT es claro: conducir a velocidad inadecuada o excesiva es una de las principales causas de accidentes de tráfico, en cualquier tipo de vía.",
+      "descartes": {
+        "a": "No se limita a las autopistas: es una de las principales causas de accidentes en general.",
+        "b": "El manual la presenta como una de las principales causas de accidentes, no solo como algo que agrava sus consecuencias."
+      },
+      "truco": null,
+      "huella": "99d8c27a6f42"
+    },
+    {
+      "id": "xc-0021",
+      "porque": "En una carretera buena y despejada todo parece fácil, y el manual advierte que eso puede hacerte pensar que vas más despacio de lo que realmente vas.",
+      "descartes": {
+        "b": "Es al revés: a mucha velocidad ves menos lo que pasa a los lados; es la llamada visión túnel.",
+        "c": "A más velocidad es más difícil reaccionar ante imprevistos, no menos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Cosas que pueden pasar si conduces muy rápido (p. 260)",
+          "cita": "■ Es más difícil reaccionar ante imprevistos."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Cosas que pueden pasar si conduces muy rápido (p. 260)",
+          "cita": "■ Tienes menos capacidad de ver\nlo que pasa a los lados.\nA este efecto se le llama visión túnel"
+        }
+      ],
+      "huella": "4dd0dcc7dee2"
+    },
+    {
+      "id": "xc-0022",
+      "porque": "A más velocidad, más violento es el choque. Por eso el manual afirma que es más probable que las personas mueran en un accidente cuando el vehículo va a velocidad excesiva que cuando va a velocidad adecuada.",
+      "descartes": {
+        "a": "El cinturón reduce las lesiones, pero no iguala el riesgo: con velocidad excesiva es más probable morir.",
+        "c": "El manual no lo limita a las vías urbanas: el riesgo es mayor con velocidad excesiva en cualquier vía."
+      },
+      "truco": null,
+      "huella": "a9aca9e4725e"
+    },
+    {
+      "id": "bm3-0009",
+      "porque": "Frenar de modo considerable también es una maniobra que se avisa, aunque la impongan las circunstancias del tráfico. Siempre que sea posible, se hace con el uso reiterado de las luces de frenado o moviendo el brazo de arriba abajo.",
+      "descartes": {
+        "b": "No solo se avisan los desplazamientos laterales: la norma incluye expresamente la intención de frenar de modo considerable.",
+        "c": "El intermitente derecho avisa de un desplazamiento lateral, no de una frenada."
+      },
+      "truco": "Frenar fuerte es una maniobra más: se avisa. Con las luces de freno repetidas o con el brazo arriba y abajo, salvo que el peligro sea inminente.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "53.1",
+          "cita": "Salvo en caso de inminente peligro, todo conductor, para reducir considerablemente la\nvelocidad de su vehículo"
+        }
+      ],
+      "huella": "a617d8583e60"
+    },
+    {
+      "id": "bm3-0008",
+      "porque": "Para que los demás puedan prever lo que vas a hacer, la norma obliga a advertir de las maniobras que vas a efectuar, sin distinguir tipo de vía ni si hay alguien detrás. Como norma general, con la señalización luminosa o, si no, con el brazo.",
+      "descartes": {
+        "a": "La obligación no depende de estar fuera de poblado: vale en cualquier vía.",
+        "b": "La norma habla del resto de usuarios de la vía en general, no solo de quien va detrás."
+      },
+      "truco": null,
+      "huella": "0514fe8e55fc"
+    },
+    {
+      "id": "xc-0050",
+      "porque": "El alcohol cambia el comportamiento: da una falsa seguridad, lleva a asumir más riesgos y, según el manual, puede hacer que trates de forma más agresiva o impulsiva a otros conductores.",
+      "descartes": {
+        "a": "Es lo contrario: el alcohol lleva a cometer más faltas, no a respetar más a los demás.",
+        "c": "El manual describe varios efectos del alcohol en el comportamiento: no es neutro."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Efectos del alcohol mientras conduces (p. 56)",
+          "cita": "■ Falsa seguridad en ti mismo.\n■ Te expones a más riesgos.\n■ Cometes más faltas\nque provocan accidentes."
+        }
+      ],
+      "huella": "671d2999575f"
+    }
+  ]
+}

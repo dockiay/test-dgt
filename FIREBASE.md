@@ -1,6 +1,6 @@
 # Firebase: alojamiento y guardado en la nube
 
-La web se publica en Firebase Hosting y, si Denisse inicia sesión con Google, guarda el progreso en
+La web se publica en Firebase Hosting y, si la persona que estudia inicia sesión con Google, guarda el progreso en
 Firestore y lo sincroniza sola entre el móvil y el ordenador. Todo cabe en el plan gratuito **Spark**
 (no hace falta tarjeta).
 

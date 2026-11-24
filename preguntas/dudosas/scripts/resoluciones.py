@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Veredicto de cada afirmación dudosa del vídeo y lista de erratas para Denisse.
+"""Veredicto de cada afirmación dudosa del vídeo y lista de erratas.
 
 Uso: python3 -I resoluciones.py
 Lee:    ../../revision-piloto-video1.json, ../../revision-video1-cap09-38.json, ../../banco-dudosas-video1.json
@@ -12,7 +12,7 @@ PREG = os.path.join(AQUI, "..", "..")
 OUTD = os.path.join(AQUI, "..")
 
 # veredicto: error | matiz | correcta | no_norma | sin_fuente | pendiente
-# (veredicto, lo correcto explicado para Denisse, fuente, preguntas existentes de otros bancos que ya lo cubren)
+# (veredicto, lo correcto explicado, fuente, preguntas existentes de otros bancos que ya lo cubren)
 V = {
  # ---------------- capítulos 1-8 ----------------
  "rev-0001": ("error", "La tara incluye el depósito de combustible lleno, el agua, el lubricante, los repuestos y las herramientas. Lo que no incluye son personas ni carga.", "Ley de Tráfico, anexo I.35", ["def-0009"]),
@@ -215,7 +215,7 @@ from collections import Counter
 cnt = Counter(x["veredicto"] for x in res)
 L = []
 L.append("# Erratas del vídeo «Intensivo de teórica completo y actualizado 2027»\n")
-L.append("Para Denisse. He comparado con la norma oficial (BOE) y con el manual de la DGT las "
+L.append("He comparado con la norma oficial (BOE) y con el manual de la DGT las "
          f"{len(res)} frases del vídeo que no estaban claras. Resultado: "
          f"**{cnt['error']} errores**, {cnt['matiz']} matices, {cnt['correcta']} en las que el vídeo acierta, "
          f"{cnt['no_norma']} consejos que no son norma y {cnt['sin_fuente']} que no se pueden confirmar"

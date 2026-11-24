@@ -1,6 +1,6 @@
 # Erratas del vídeo «Intensivo de teórica completo y actualizado 2027»
 
-Para Denisse. He comparado con la norma oficial (BOE) y con el manual de la DGT las 138 frases del vídeo que no estaban claras. Resultado: **28 errores**, 45 matices, 37 en las que el vídeo acierta, 11 consejos que no son norma y 17 que no se pueden confirmar.
+He comparado con la norma oficial (BOE) y con el manual de la DGT las 138 frases del vídeo que no estaban claras. Resultado: **28 errores**, 45 matices, 37 en las que el vídeo acierta, 11 consejos que no son norma y 17 que no se pueden confirmar.
 
 Si en el examen te preguntan por algo de la sección «El vídeo se equivoca», responde lo que pone aquí, no lo del vídeo.
 

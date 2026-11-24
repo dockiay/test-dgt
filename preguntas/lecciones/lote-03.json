@@ -1,0 +1,2381 @@
+{
+  "version": 1,
+  "lote": "03",
+  "lecciones": [
+    {
+      "id": "A-pri-0001",
+      "porque": "Sin señales, cada uno cede el paso a quien se acerca por su derecha. A, que llega por el sur, tiene a B a su derecha; B, que llega por el este, tiene a C a su derecha; y C, que llega por el norte, tiene a su derecha el brazo oeste, que está vacío. Por eso pasa primero C, después B y por último A.",
+      "descartes": {
+        "b": "A es el último en pasar: tiene a B a su derecha, y B a su vez tiene que esperar a C.",
+        "c": "B tiene a C a su derecha, así que debe esperar a que pase C; pasa en segundo lugar, no el primero."
+      },
+      "truco": "En un cruce sin señales, pregúntate por cada vehículo: «¿tiene a alguien a su derecha?». Pasa primero el que tiene la derecha libre y después se sigue la cadena.",
+      "huella": "dd9f99dddead"
+    },
+    {
+      "id": "A-pri-0002",
+      "porque": "La regla general en un cruce sin señales es ceder el paso a quien viene por la derecha, pero la norma tiene excepciones. Una de ellas: quien circula por una vía pavimentada tiene preferencia sobre quien sale de un camino sin pavimentar. Por eso pasas tú, aunque el otro venga por tu derecha.",
+      "descartes": {
+        "a": "Venir por la derecha da preferencia como regla general, pero aquí manda la excepción: quien sale de un camino sin pavimentar cede el paso a quien va por la vía pavimentada.",
+        "b": "Haber entrado primero decide la preferencia en los estrechamientos sin señalizar, no en un cruce: aquí se aplica la regla de la derecha con sus excepciones."
+      },
+      "truco": "Sin señales se cede a la derecha, salvo cuatro excepciones: la vía pavimentada gana al camino sin pavimentar, el que va sobre raíles gana a todos, el que ya está dentro de la glorieta gana al que entra y el que ya va por la autopista o autovía gana al que accede.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "57.1",
+          "cita": "a) Tendrán derecho de preferencia de paso los vehículos que circulen por una vía\npavimentada frente a los procedentes de otra sin pavimentar.\nb) Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los\ndemás usuarios.\nc) En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso\nsobre los que pretendan acceder a aquéllas (artículo 21.2 del texto articulado).\nd) Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso\nsobre los que pretenden acceder a aquélla."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "60.1",
+          "cita": "donde no haya señalización expresa al efecto, tendrá derecho de preferencia de paso el que hubiese entrado primero"
+        }
+      ],
+      "huella": "619cc94dc12d"
+    },
+    {
+      "id": "A-pri-0003",
+      "porque": "Sin señales se cede el paso a la derecha, pero los vehículos que circulan por raíles, como el tranvía, son una de las excepciones: tienen prioridad de paso sobre los demás usuarios. Por eso pasa el tranvía aunque llegue por tu izquierda.",
+      "descartes": {
+        "b": "Que el tranvía venga por tu izquierda no te da preferencia: los vehículos que circulan por raíles tienen prioridad sobre los demás usuarios.",
+        "c": "En un cruce sin señales la preferencia no depende de quién entre antes, y frente a un tranvía la tiene el tranvía."
+      },
+      "truco": "Sin señales se cede a la derecha, salvo cuatro excepciones: la vía pavimentada gana al camino sin pavimentar, el que va sobre raíles gana a todos, el que ya está dentro de la glorieta gana al que entra y el que ya va por la autopista o autovía gana al que accede.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "57.1",
+          "cita": "a) Tendrán derecho de preferencia de paso los vehículos que circulen por una vía\npavimentada frente a los procedentes de otra sin pavimentar.\nb) Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los\ndemás usuarios.\nc) En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso\nsobre los que pretendan acceder a aquéllas (artículo 21.2 del texto articulado).\nd) Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso\nsobre los que pretenden acceder a aquélla."
+        }
+      ],
+      "huella": "cabbc8211e3f"
+    },
+    {
+      "id": "A-pri-0005",
+      "porque": "Otra de las excepciones a la regla de la derecha: quien ya circula por una autopista o autovía tiene preferencia sobre quien pretende entrar en ella. El que accede tiene que esperar a tener hueco, venga por el lado que venga.",
+      "descartes": {
+        "a": "Venir por la derecha no le sirve: el acceso a una autopista o autovía es una excepción a esa regla, y quien entra cede el paso a quien ya circula por ella.",
+        "b": "La velocidad no da preferencia; la da estar ya circulando por la autopista o autovía."
+      },
+      "truco": "Sin señales se cede a la derecha, salvo cuatro excepciones: la vía pavimentada gana al camino sin pavimentar, el que va sobre raíles gana a todos, el que ya está dentro de la glorieta gana al que entra y el que ya va por la autopista o autovía gana al que accede.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "57.1",
+          "cita": "a) Tendrán derecho de preferencia de paso los vehículos que circulen por una vía\npavimentada frente a los procedentes de otra sin pavimentar.\nb) Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los\ndemás usuarios.\nc) En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso\nsobre los que pretendan acceder a aquéllas (artículo 21.2 del texto articulado).\nd) Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso\nsobre los que pretenden acceder a aquélla."
+        }
+      ],
+      "huella": "9a644c579419"
+    },
+    {
+      "id": "B1-pri-0066",
+      "porque": "Cuando ni señales, ni semáforo, ni agente regulan el cruce, la regla general es ceder el paso a los vehículos que se acercan por tu derecha. Tiene excepciones (vía pavimentada, raíles, glorietas y autopistas o autovías), pero el punto de partida es la derecha.",
+      "descartes": {
+        "a": "Es al revés: quien se acerca por tu izquierda te tiene a ti a su derecha, así que, como regla general, es él quien te cede el paso.",
+        "b": "Ninguna norma da preferencia por el tamaño del vehículo en un cruce sin señales."
+      },
+      "truco": "Sin señales se cede a la derecha, salvo cuatro excepciones: la vía pavimentada gana al camino sin pavimentar, el que va sobre raíles gana a todos, el que ya está dentro de la glorieta gana al que entra y el que ya va por la autopista o autovía gana al que accede.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "57.1",
+          "cita": "a) Tendrán derecho de preferencia de paso los vehículos que circulen por una vía\npavimentada frente a los procedentes de otra sin pavimentar.\nb) Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los\ndemás usuarios.\nc) En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso\nsobre los que pretendan acceder a aquéllas (artículo 21.2 del texto articulado).\nd) Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso\nsobre los que pretenden acceder a aquélla."
+        }
+      ],
+      "huella": "5c550250429e"
+    },
+    {
+      "id": "A-urg-0005",
+      "porque": "Si por algo especialmente grave tienes que llevar a un herido en tu coche porque no hay otro medio, la norma te pide que los demás noten la situación especial: claxon de forma intermitente y luz de emergencia si la tienes, o agitando un pañuelo o algo similar.",
+      "descartes": {
+        "a": "Las antiniebla no son la forma de avisar de una urgencia: la norma habla del claxon intermitente con la luz de emergencia, o de agitar un pañuelo.",
+        "b": "Sí se puede y se debe avisar: la norma pide que los demás adviertan la situación especial en que circulas, aunque sigas obligado a respetar las normas de circulación."
+      },
+      "truco": "Vehículo normal en urgencia: claxon a ratos y luz de emergencia (o pañuelo, si no la tiene), cumpliendo las normas de circulación, y con la justificación lista si un agente la pide. La señal luminosa y la sirena especiales son de los prioritarios.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "70.2",
+          "cita": "deberán respetar las normas de\ncirculación, sobre todo en las intersecciones"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "70.3",
+          "cita": "En cualquier momento, los agentes de la autoridad podrán exigir la justificación de las\ncircunstancias a que se alude en el apartado 1."
+        }
+      ],
+      "huella": "e029568afcdc"
+    },
+    {
+      "id": "A-urg-0006",
+      "porque": "Llevar a un herido no convierte tu coche en prioritario. Puedes avisar con el claxon intermitente y la luz de emergencia, y los demás deben facilitarte el paso, pero tú tienes que respetar las normas de circulación, sobre todo en las intersecciones. Un semáforo en rojo se respeta.",
+      "descartes": {
+        "a": "La luz de emergencia solo sirve para que los demás te vean y te faciliten el paso; no te autoriza a saltarte un semáforo.",
+        "c": "El claxon intermitente es solo un aviso; no da permiso para pasar en rojo."
+      },
+      "truco": "Vehículo normal en urgencia: claxon a ratos y luz de emergencia (o pañuelo, si no la tiene), cumpliendo las normas de circulación, y con la justificación lista si un agente la pide. La señal luminosa y la sirena especiales son de los prioritarios.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "70.3",
+          "cita": "En cualquier momento, los agentes de la autoridad podrán exigir la justificación de las\ncircunstancias a que se alude en el apartado 1."
+        }
+      ],
+      "huella": "4371ee3a00a9"
+    },
+    {
+      "id": "x1a-0063",
+      "porque": "Cuando se repara una vía, no se pasa por donde cada uno quiera: los vehículos, las caballerías y el ganado tienen que ir por el sitio señalado al efecto, y seguir las indicaciones del personal que regula el paso.",
+      "descartes": {
+        "b": "La norma no manda ir por el arcén: manda ir por el sitio señalado, que será el que marque la obra.",
+        "c": "No lo decide cada conductor: hay que pasar por donde indique la señalización de la obra."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "60.5",
+          "cita": "los usuarios de la vía están obligados a\nseguir las indicaciones del personal destinado a la regulación del paso de vehículos."
+        }
+      ],
+      "huella": "26460bb2dc72"
+    },
+    {
+      "id": "x1a-0064",
+      "porque": "Si llegas a una obra y ya hay otro vehículo esperando en tu mismo sentido, te colocas detrás de él, lo más arrimado posible al borde derecho, y solo pasas siguiéndole. Se respeta el turno de quien llegó antes.",
+      "descartes": {
+        "a": "No se puede adelantar al que espera para pasar antes: la norma obliga a ponerse detrás y pasar siguiéndole.",
+        "b": "Ponerse a su lado tampoco vale: hay que colocarse detrás de él, arrimado a la derecha."
+      },
+      "truco": "En una obra, «a la cola y a la derecha»: detrás del que espera, pegado al borde derecho, y pasas cuando pase él.",
+      "huella": "eabbf62643df"
+    },
+    {
+      "id": "x1a-0065",
+      "porque": "Por un tramo en reparación solo se deja pasar, si se puede hacer sin peligro ni daño a la obra, a los vehículos de policía, extinción de incendios, protección civil y salvamento, y asistencia sanitaria, pública o privada, que circulen en servicio urgente y lo adviertan con su señalización.",
+      "descartes": {
+        "a": "Tener prisa, aunque sea justificada, no da ese derecho: la excepción es solo para los servicios de urgencia en servicio urgente.",
+        "c": "Las dificultades de maniobra sirven para decidir quién pasa primero en un estrechamiento en caso de duda, no para pasar por el tramo en reparación."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "60.1",
+          "cita": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con\nmayores dificultades de maniobra"
+        }
+      ],
+      "huella": "e8c5ba58feda"
+    },
+    {
+      "id": "B1-pri-0067",
+      "porque": "En un paso a nivel la carretera se cruza con una vía de tren o tranvía, y los vehículos que circulan por raíles tienen prioridad de paso sobre los demás usuarios. Por eso eres tú quien espera; si el paso no tiene barreras ni semáforos, antes de cruzar tienes que asegurarte de que no se acerca ninguno.",
+      "descartes": {
+        "b": "Es al revés: quienes van por la carretera ceden el paso a los vehículos que circulan por raíles.",
+        "c": "La prioridad no depende de quién llegue antes: el vehículo que va por raíles la tiene sobre los demás."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "96.2",
+          "cita": "Ningún usuario de la vía deberá penetrar en un paso a nivel desprovisto de barreras,\nsemibarreras o semáforos, sin antes haberse cerciorado de que no se acerca ningún\nvehículo que circule sobre raíles."
+        }
+      ],
+      "huella": "0a13638c1a89"
+    },
+    {
+      "id": "B1-pri-0068",
+      "porque": "Esta marca, un aspa con las letras P y N pintada en el carril, anuncia que se acerca un paso a nivel con una vía de tren o tranvía, en el que los vehículos de la calzada deben ceder el paso cuando se aproxime un tren o tranvía.",
+      "descartes": {
+        "b": "Nada en esta marca habla de transporte público: el aspa con las letras P y N es la marca de paso a nivel.",
+        "c": "Los lugares de estacionamiento se delimitan con líneas y marcas de estacionamiento, no con un aspa con las letras P y N."
+      },
+      "truco": "P y N: Paso a Nivel. El aspa recuerda a la cruz de San Andrés de las señales de paso a nivel.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (marcas viales, 4.7, M-7.3)",
+          "cita": "Líneas y marcas de estacionamiento (M-7.3 y M-7.4): delimitan los lugares o\nzonas de estacionamiento"
+        }
+      ],
+      "huella": "9bec80b7643c"
+    },
+    {
+      "id": "x1a-0061",
+      "porque": "El verde te da paso con prioridad, pero no te autoriza a meterte si vas a quedarte parado encima del paso para peatones. Aunque tengas preferencia, no puedes entrar en un cruce ni en un paso para peatones o ciclistas si es previsible que te quedes detenido impidiendo la circulación transversal.",
+      "descartes": {
+        "b": "El verde no basta: la propia norma del semáforo exceptúa el caso de que vayas a quedarte detenido obstruyendo el paso.",
+        "c": "El claxon no arregla nada: lo que pide la norma es no entrar hasta que puedas rebasar el paso."
+      },
+      "truco": "Antes de entrar con verde, pregúntate: «¿tengo sitio al otro lado?». Si no lo tienes, espera.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.4.2.e",
+          "cita": "e) Una luz verde no intermitente significa que está permitido el paso con prioridad,\nexcepto en los supuestos a que se refiere el artículo 59.1."
+        }
+      ],
+      "huella": "1be1ff904096"
+    },
+    {
+      "id": "B1-pri-0069",
+      "porque": "La regla general es que los conductores tienen prioridad sobre los animales, pero hay excepciones, y una de ellas son las cañadas debidamente señalizadas. El panel «cañada» bajo la señal de paso de animales domésticos es justo esa señalización, así que pasan los animales.",
+      "descartes": {
+        "b": "Los conductores tienen prioridad sobre los animales como regla general, no siempre: en una cañada señalizada la tienen los animales.",
+        "c": "No se pasa por orden de llegada: en una cañada señalizada la prioridad es de los animales."
+      },
+      "truco": "Con animales, la prioridad es del conductor salvo en tres casos: cañada señalizada, giro para entrar en otra vía con animales cruzándola y arcén por el que van animales sin cañada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "66.1",
+          "cita": "a) En las cañadas debidamente señalizadas.\nb) Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales\ncruzándola, aunque no exista paso para éstos.\nc) Cuando el vehículo cruce un arcén por el que estén circulando animales que no\ndispongan de cañada"
+        }
+      ],
+      "huella": "8b89553548e3"
+    },
+    {
+      "id": "B1-pri-0070",
+      "porque": "Sin el panel de cañada, la señal solo avisa del peligro de que haya animales en la vía. La prioridad sigue la regla general: los conductores la tienen sobre los animales, salvo en los casos que fija el reglamento.",
+      "descartes": {
+        "a": "Los animales no tienen prioridad en todo caso: solo en los supuestos del reglamento, como una cañada señalizada.",
+        "c": "La regla de la derecha es para vehículos que se cruzan en una intersección; con animales, la regla general es la prioridad del conductor, con sus excepciones."
+      },
+      "truco": "Con animales, la prioridad es del conductor salvo en tres casos: cañada señalizada, giro para entrar en otra vía con animales cruzándola y arcén por el que van animales sin cañada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "66.1",
+          "cita": "a) En las cañadas debidamente señalizadas.\nb) Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales\ncruzándola, aunque no exista paso para éstos.\nc) Cuando el vehículo cruce un arcén por el que estén circulando animales que no\ndispongan de cañada"
+        }
+      ],
+      "huella": "9b0054a64a4e"
+    },
+    {
+      "id": "x1a-0066",
+      "porque": "Los vehículos que necesitan autorización especial para circular no pueden cruzarse en un puente si la calzada mide menos de seis metros: la norma quiere que cada uno cuente con al menos tres metros. Con cinco metros no llegan.",
+      "descartes": {
+        "a": "Reducir la velocidad no cambia nada: la prohibición depende del ancho de la calzada, que es menor de seis metros.",
+        "c": "Con cinco metros, a cada uno le tocarían dos metros y medio, y la norma exige no menos de tres por vehículo."
+      },
+      "truco": "Seis metros de puente son tres y tres: tres metros para cada vehículo. Con menos de seis, no se cruzan.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "61.3",
+          "cita": "de suerte que para cada\nvehículo pueda contarse con un ancho de vía no inferior a tres metros"
+        }
+      ],
+      "huella": "c5e6a622845c"
+    },
+    {
+      "id": "A-est-0010",
+      "porque": "La señal de prioridad del sentido contrario te prohíbe entrar en el paso estrecho mientras no puedas cruzarlo sin obligar a detenerse a quien viene de frente. Si aun así os encontráis en el puente y no podéis cruzaros, retrocede quien entró por el extremo de la señal: tú.",
+      "descartes": {
+        "a": "Es al revés: esta señal da la prioridad al sentido contrario, no a ti.",
+        "b": "Aquí no decide el tamaño: con señal en un extremo, retrocede quien entró por ese extremo. El orden por tipos de vehículo solo se usa cuando no hay señalización."
+      },
+      "truco": "Si en tu extremo del puente hay una señal de prioridad del sentido contrario o de ceda el paso y os quedáis frente a frente, el que da marcha atrás eres tú.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-5",
+          "cita": "Prohibición de entrada en un paso estrecho mientras no sea\nposible atravesarlo sin obligar a los vehículos que circulen en\nsentido contrario a detenerse."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "61.2",
+          "cita": "En ausencia de señalización, el orden de preferencia entre los distintos tipos de\nvehículos se ajustará a lo establecido en el artículo 62."
+        }
+      ],
+      "huella": "25e4fb4c44a1"
+    },
+    {
+      "id": "A-pri-0009",
+      "porque": "Al salir de un camino exclusivamente privado no tienes preferencia ninguna: cedes el paso a todos los que circulan por la vía, vengan por la derecha o por la izquierda, y sales a una velocidad que te permita detenerte en el acto.",
+      "descartes": {
+        "a": "La regla de la derecha es para los cruces entre vías; al salir de un camino privado cedes a todos, sea cual sea su sentido.",
+        "c": "Que la salida no esté señalizada no te da preferencia: la norma ya te obliga a ceder el paso a quienes circulan por la vía."
+      },
+      "truco": "Salir de lo privado a lo público es incorporarse: eres el último y cedes a todos los que van por la vía, vengan por donde vengan.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "72.2",
+          "cita": "efectuarlo a una velocidad que le permita detenerse en el acto"
+        }
+      ],
+      "huella": "e2c7c0e829d7"
+    },
+    {
+      "id": "x1a-0062",
+      "porque": "Si te has quedado detenido dentro de un cruce con semáforo y estás estorbando, la norma te pide salir sin esperar a que se abra tu dirección, siempre que no entorpezcas a quienes avanzan en el sentido permitido. Lo importante es despejar el cruce.",
+      "descartes": {
+        "a": "Esperar a que el semáforo te dé paso mantendría el cruce bloqueado; la norma pide salir sin esperar.",
+        "c": "La norma no habla de dar marcha atrás: pide salir de la intersección sin entorpecer a quienes tienen el paso."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "59.2",
+          "cita": "siempre que al\nhacerlo no entorpezca la marcha de los demás usuarios que avancen en el sentido permitido"
+        }
+      ],
+      "huella": "429a2d9abb7e"
+    },
+    {
+      "id": "B1-pri-0059",
+      "porque": "La señal de intersección con prioridad avisa de que te acercas a un cruce con una vía cuyos usuarios deben cederte el paso. Por eso tienes prioridad sobre los vehículos que circulen por la otra vía o salgan de ella.",
+      "descartes": {
+        "a": "La regla de la derecha solo se aplica cuando no hay señal que regule la preferencia; esta señal sí la regula, y a tu favor.",
+        "b": "Aquí la preferencia la da la señal, no el orden de llegada."
+      },
+      "truco": "En el dibujo, el trazo grueso es tu vía, la que tiene prioridad; el trazo fino es la vía cuyos usuarios te ceden el paso.",
+      "huella": "08be3e7ae03b"
+    },
+    {
+      "id": "B1-pri-0060",
+      "porque": "La señal de calzada con prioridad indica que, en las intersecciones, tienes prioridad sobre los vehículos que circulen por otra calzada o salgan de ella. No hace falta que se repita en cada cruce.",
+      "descartes": {
+        "b": "Con esta señal no cedes el paso a los que se incorporan por la derecha: son ellos quienes deben cedértelo a ti.",
+        "c": "El sentido único tiene sus propias señales; esta habla de la prioridad en las intersecciones."
+      },
+      "truco": "Rombo amarillo: «tengo prioridad». La prioridad se acaba cuando aparece la señal de fin de prioridad, que avisa de que pronto la pierdes.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-4",
+          "cita": "Indica la proximidad del lugar en que la calzada por la que se circula\npierde su prioridad respecto a otra calzada."
+        }
+      ],
+      "huella": "41ca2e290dd0"
+    },
+    {
+      "id": "B1-pri-0061",
+      "porque": "Con ceda el paso, la regla de la derecha deja de contar: cedes a todos los que circulan por la vía preferente, vengan por tu derecha o por tu izquierda, y te detienes por completo si hace falta.",
+      "descartes": {
+        "a": "La regla de la derecha solo rige cuando no hay señal; con ceda el paso cedes a los de la vía preferente, vengan por el lado que vengan.",
+        "c": "La señal no distingue por tipo de vehículo: cedes a todos los que circulan por la vía preferente."
+      },
+      "truco": "Ceda el paso: paras solo si hace falta. STOP: paras siempre, aunque no venga nadie. En los dos cedes a todos los de la vía preferente, vengan por la derecha o por la izquierda.",
+      "huella": "19942282a942"
+    },
+    {
+      "id": "B1-pri-0062",
+      "porque": "El ceda el paso te obliga a dejar pasar a los de la vía preferente, deteniéndote cuando sea preciso. Si no viene nadie, puedes seguir sin parar. La detención en todo caso solo la exige la señal que lo indica, el STOP.",
+      "descartes": {
+        "a": "Detenerse siempre es lo que exige el STOP, no el ceda el paso.",
+        "b": "La noche no cambia lo que pide esta señal: detenerse solo cuando sea preciso para ceder el paso."
+      },
+      "truco": "Ceda el paso: paras solo si hace falta. STOP: paras siempre, aunque no venga nadie. En los dos cedes a todos los de la vía preferente, vengan por la derecha o por la izquierda.",
+      "huella": "22de189b19ad"
+    },
+    {
+      "id": "B1-pri-0063",
+      "porque": "El STOP obliga a detenerse por completo en todo caso, venga o no alguien, y después ceder el paso a los vehículos de la vía a la que te acercas.",
+      "descartes": {
+        "b": "Pasar reduciendo sin parar es lo que permite el ceda el paso cuando no viene nadie; con STOP hay que detenerse por completo.",
+        "c": "La obligación de parar viene de la señal, haya o no línea pintada: sin línea de detención, te detienes inmediatamente antes de la intersección."
+      },
+      "truco": "Ceda el paso: paras solo si hace falta. STOP: paras siempre, aunque no venga nadie. En los dos cedes a todos los de la vía preferente, vengan por la derecha o por la izquierda.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-2",
+          "cita": "Obligación para todo conductor de detener su vehículo ante la\npróxima línea de detención o, si no existe, inmediatamente antes\nde la intersección, y ceder el paso en ella"
+        }
+      ],
+      "huella": "795b9e117977"
+    },
+    {
+      "id": "B1-pri-0064",
+      "porque": "Con STOP te detienes ante la línea de detención; si no la hay, inmediatamente antes de la calzada a la que te acercas, es decir, justo antes de entrar en el cruce. Ahí es donde puedes ver y ceder el paso.",
+      "descartes": {
+        "b": "El poste de la señal no marca el punto de detención: sin línea, se para justo antes de la calzada a la que te aproximas.",
+        "c": "Detenerse dentro de la intersección no cumple la señal: la detención es antes de entrar en la calzada a la que te acercas."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-2",
+          "cita": "Obligación para todo conductor de detener su vehículo ante la\npróxima línea de detención o, si no existe, inmediatamente antes\nde la intersección, y ceder el paso en ella"
+        }
+      ],
+      "huella": "033ee4bfa2cc"
+    },
+    {
+      "id": "B1-pri-0065",
+      "porque": "Primero te detienes en la línea, como manda el STOP. Si desde ahí no ves lo suficiente, la norma te pide volver a detenerte más adelante, en el lugar desde donde tengas visibilidad, sin poner en peligro a nadie, y después ceder el paso.",
+      "descartes": {
+        "a": "Salir sin ver, aunque sea despacio y con el claxon, no es lo que pide la norma: hay que volver a detenerse donde haya visibilidad.",
+        "c": "Eres tú quien tiene que ceder el paso; quedarte en la línea sin ver no resuelve nada. Lo que toca es avanzar hasta ver y volver a detenerte."
+      },
+      "truco": "STOP sin visibilidad: dos paradas. Una en la línea y otra donde ya ves.",
+      "huella": "619cb13c283e"
+    },
+    {
+      "id": "x1a-0085",
+      "porque": "Para avisar de una urgencia con un vehículo no prioritario, la norma combina el claxon intermitente con la luz de emergencia, si la tienes; si no la tienes, con agitar un pañuelo o un procedimiento similar.",
+      "descartes": {
+        "b": "Llevar las largas encendidas no es la forma prevista de avisar; la alternativa a la luz de emergencia es agitar un pañuelo o algo similar.",
+        "c": "Las señales acústicas especiales, como la sirena, son las de los vehículos prioritarios; un vehículo normal en urgencia usa el claxon de forma intermitente."
+      },
+      "truco": "Vehículo normal en urgencia: claxon a ratos y luz de emergencia (o pañuelo, si no la tiene), cumpliendo las normas de circulación, y con la justificación lista si un agente la pide. La señal luminosa y la sirena especiales son de los prioritarios.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "70.2",
+          "cita": "deberán respetar las normas de\ncirculación, sobre todo en las intersecciones"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "70.3",
+          "cita": "En cualquier momento, los agentes de la autoridad podrán exigir la justificación de las\ncircunstancias a que se alude en el apartado 1."
+        }
+      ],
+      "huella": "5b83aeeec80b"
+    },
+    {
+      "id": "x1a-0086",
+      "porque": "Hacer un servicio de urgencia con un vehículo no prioritario solo se justifica por circunstancias especialmente graves y sin poder recurrir a otro medio. Por eso los agentes pueden exigirte en cualquier momento que justifiques esas circunstancias.",
+      "descartes": {
+        "a": "Prestar el servicio no te libra: precisamente por hacerlo con un vehículo no prioritario, los agentes pueden pedir que lo justifiques.",
+        "c": "No hace falta que hayas cometido una infracción: pueden exigir la justificación en cualquier momento."
+      },
+      "truco": "Vehículo normal en urgencia: claxon a ratos y luz de emergencia (o pañuelo, si no la tiene), cumpliendo las normas de circulación, y con la justificación lista si un agente la pide. La señal luminosa y la sirena especiales son de los prioritarios.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "70.2",
+          "cita": "deberán respetar las normas de\ncirculación, sobre todo en las intersecciones"
+        }
+      ],
+      "huella": "da088039a4d4"
+    },
+    {
+      "id": "A-urg-0001",
+      "porque": "Un vehículo de policía, bomberos, protección civil y salvamento o asistencia sanitaria es prioritario cuando va en servicio urgente y avisa usando a la vez la señal luminosa y el aparato de señales acústicas especiales. Solo usará la luminosa sola cuando omitir la acústica no suponga ningún peligro.",
+      "descartes": {
+        "a": "La luz de emergencia, junto con el claxon, es lo que usa un vehículo no prioritario en una urgencia; el prioritario usa sus señales luminosa y acústica especiales.",
+        "b": "Las ráfagas y el claxon no son las señales de un vehículo prioritario: usa la señal luminosa y el aparato de señales acústicas especiales."
+      },
+      "truco": "Prioritario en servicio urgente: luz y sirena a la vez como regla; solo la luz cuando quitar la sirena no suponga peligro para nadie. El claxon intermitente con la luz de emergencia es para el vehículo normal que hace una urgencia.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "68.2",
+          "cita": "deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales\nacústicas especiales no entrañe peligro alguno para los demás usuarios."
+        }
+      ],
+      "huella": "a7eac83cf441"
+    },
+    {
+      "id": "A-urg-0002",
+      "porque": "Un vehículo prioritario, si se asegura de no poner en peligro a nadie, puede dejar de cumplir bajo su exclusiva responsabilidad muchas normas de circulación, como los límites de velocidad o, extremando las precauciones, los semáforos. Lo que debe cumplir siempre son las órdenes y señales de los agentes.",
+      "descartes": {
+        "a": "Puede pasar un semáforo, aunque solo tras extremar las precauciones y comprobar que no hay riesgo y que los demás se detienen o le facilitan el paso.",
+        "b": "En servicio urgente puede circular por encima de los límites de velocidad."
+      },
+      "truco": "Para un prioritario, el agente manda siempre: sus órdenes y señales son lo único que nunca puede saltarse.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "67.1",
+          "cita": "Podrán circular por encima de los límites de velocidad"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "67.2",
+          "cita": "cuidarán de no vulnerar la prioridad de paso en las intersecciones de vías o las\nseñales de los semáforos, sin antes adoptar extremadas precauciones"
+        }
+      ],
+      "huella": "4f811ce8cdc9"
+    },
+    {
+      "id": "A-urg-0003",
+      "porque": "Tan pronto percibas las señales especiales de un vehículo prioritario, tienes que facilitarle el paso según las circunstancias del momento y del lugar: normalmente apartándote a tu derecha y, si hace falta, deteniéndote.",
+      "descartes": {
+        "b": "La norma no manda detenerse siempre y en el acto en tu carril: pide facilitar el paso, normalmente apartándote a la derecha, y detenerte solo si es preciso.",
+        "c": "Acelerar para alejarte no le facilita el paso y no es lo que pide la norma."
+      },
+      "truco": "En cuanto percibas a un prioritario, sin esperar a tenerlo encima: apártate normalmente a tu derecha y, si hace falta, detente.",
+      "huella": "1aa906cdc006"
+    },
+    {
+      "id": "A-urg-0004",
+      "porque": "Si un coche de policía, con sus señales luminosas y acústicas, se coloca detrás de ti y enciende además una luz roja intermitente hacia delante, te está ordenando parar. Te detienes con precaución en el lado derecho, delante de él, en un sitio sin riesgos para los demás, y te quedas dentro siguiendo sus instrucciones.",
+      "descartes": {
+        "b": "Apartarse y dejar pasar es lo que se hace ante un prioritario en general; la luz roja hacia delante es una orden de detenerse.",
+        "c": "La norma pide permanecer en el interior del vehículo, no bajarse."
+      },
+      "truco": "Luz roja hacia delante desde el coche policial que va detrás: paras a la derecha, delante de él, en un sitio sin riesgo, y te quedas dentro siguiendo sus instrucciones.",
+      "huella": "d6cc49f3779e"
+    },
+    {
+      "id": "v5a-pri-0001",
+      "porque": "La regla general para un prioritario es usar a la vez la señal luminosa y la sirena, pero la norma pone una excepción obligatoria: cuando omitir la sirena no suponga peligro alguno para los demás, debe usar la señal luminosa sola.",
+      "descartes": {
+        "b": "Luz y sirena juntas es la regla general, no algo de todos los casos: si quitar la sirena no supone peligro, debe ir solo con la luz.",
+        "c": "El claxon intermitente con la luz de emergencia es lo que usa un vehículo no prioritario en una urgencia, no una ambulancia."
+      },
+      "truco": "Prioritario en servicio urgente: luz y sirena a la vez como regla; solo la luz cuando quitar la sirena no suponga peligro para nadie. El claxon intermitente con la luz de emergencia es para el vehículo normal que hace una urgencia.",
+      "huella": "5cb8dc311268"
+    },
+    {
+      "id": "x1a-0075",
+      "porque": "La prioridad la da el servicio, no quién sea el dueño del vehículo: los vehículos de servicios de urgencia, públicos o privados, tienen prioridad de paso cuando están prestando un servicio urgente.",
+      "descartes": {
+        "b": "La norma incluye expresamente a los servicios de urgencia privados, no solo a los públicos.",
+        "c": "No necesita escolta: la prioridad le viene de ir en servicio urgente."
+      },
+      "truco": "La prioridad va con el servicio, no con el vehículo ni con su dueño: un vehículo de urgencias, público o privado, solo es prioritario cuando va en servicio urgente y lo avisa con sus señales.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "68.2",
+          "cita": "y de asistencia sanitaria, pública o privada, que\ncirculen en servicio urgente"
+        }
+      ],
+      "huella": "826282754bc1"
+    },
+    {
+      "id": "x1a-0076",
+      "porque": "En servicio urgente, los vehículos de servicios de urgencia pueden circular por encima de los límites de velocidad y quedar exentos de otras normas, pero en los casos y condiciones que fija el reglamento: entre otras, asegurarse de que no ponen en peligro a nadie y hacer un uso ponderado de ese régimen.",
+      "descartes": {
+        "a": "Sí pueden superarlos: la norma lo permite expresamente a los vehículos de urgencia en servicio urgente.",
+        "c": "La norma no limita esa facultad a dentro de poblado; lo que exige es que vayan en servicio urgente y sin poner en peligro a nadie."
+      },
+      "truco": "La prioridad va con el servicio, no con el vehículo ni con su dueño: un vehículo de urgencias, público o privado, solo es prioritario cuando va en servicio urgente y lo avisa con sus señales.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "68.1",
+          "cita": "a condición de haberse cerciorado de que no ponen en peligro a ningún\nusuario de la vía"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "67.2",
+          "cita": "harán uso\nponderado de su régimen especial únicamente cuando circulen en prestación de un servicio\nurgente"
+        }
+      ],
+      "huella": "b21ba85cc983"
+    },
+    {
+      "id": "x1a-0077",
+      "porque": "Aunque tenga prioridad, el conductor de un vehículo prioritario no debe pasar un semáforo ni un cruce sin extremar las precauciones, hasta asegurarse de que no hay riesgo de atropellar a peatones y de que los demás conductores se han detenido o van a facilitarle el paso.",
+      "descartes": {
+        "a": "La prioridad no le dispensa de mirar: antes de pasar el semáforo tiene que extremar las precauciones y comprobar que los demás le dejan paso.",
+        "b": "No tiene que esperar al verde: puede pasar, pero solo después de extremar las precauciones."
+      },
+      "truco": "Prioritario ante un semáforo en rojo: puede pasar, pero asegurándose antes de que no hay riesgo para los peatones y de que los demás se han parado o le dejan paso.",
+      "huella": "7e0763a4cd24"
+    },
+    {
+      "id": "x1a-0078",
+      "porque": "El régimen especial no va con el vehículo, va con el servicio: los conductores de vehículos de urgencia solo pueden usarlo, y de forma ponderada, cuando circulan prestando un servicio urgente. Sin servicio urgente, un coche de policía cumple las normas como cualquier otro.",
+      "descartes": {
+        "a": "Ser un vehículo policial no basta: el régimen especial solo se usa en servicio urgente.",
+        "c": "Encender la señal luminosa no crea la urgencia: el régimen especial solo vale cuando se presta de verdad un servicio urgente."
+      },
+      "truco": "La prioridad va con el servicio, no con el vehículo ni con su dueño: un vehículo de urgencias, público o privado, solo es prioritario cuando va en servicio urgente y lo avisa con sus señales.",
+      "huella": "0369f53551f5"
+    },
+    {
+      "id": "x1a-0079",
+      "porque": "En autopista o autovía, y solo de forma excepcional y sin comprometer la seguridad de nadie, un vehículo prioritario en servicio urgente puede circular en sentido contrario al de la calzada, pero siempre por el arcén.",
+      "descartes": {
+        "a": "Ir en sentido contrario por el carril izquierdo no está permitido: la norma lo limita al arcén.",
+        "c": "Tampoco puede usar cualquier carril de la calzada: solo el arcén."
+      },
+      "truco": "Prioritario en servicio urgente por autopista o autovía, de forma excepcional y sin poner en peligro a nadie: puede dar media vuelta o marcha atrás, entrar en la mediana o en sus pasos transversales e ir en sentido contrario, esto último solo por el arcén.",
+      "huella": "2bf951b6e420"
+    },
+    {
+      "id": "x1a-0080",
+      "porque": "La marcha atrás está prohibida en autopistas y autovías como regla general, pero hay una excepción: un vehículo prioritario en servicio urgente puede, de forma excepcional y sin comprometer la seguridad de nadie, dar media vuelta o marcha atrás, e incluso entrar en la mediana o en sus pasos transversales.",
+      "descartes": {
+        "a": "La prohibición de la marcha atrás en autopistas y autovías es la regla general, pero la norma hace una excepción para los prioritarios en servicio urgente.",
+        "c": "No es en cualquier caso: tiene que ser excepcional y sin comprometer la seguridad de ningún usuario."
+      },
+      "truco": "Prioritario en servicio urgente por autopista o autovía, de forma excepcional y sin poner en peligro a nadie: puede dar media vuelta o marcha atrás, entrar en la mediana o en sus pasos transversales e ir en sentido contrario, esto último solo por el arcén.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "80.3",
+          "cita": "Se prohíbe la maniobra de marcha atrás en autovías y autopistas"
+        }
+      ],
+      "huella": "a7d1e0e9b5d9"
+    },
+    {
+      "id": "x1a-0081",
+      "porque": "Pueden ser prioritarios los vehículos de policía, extinción de incendios, protección civil y salvamento, y asistencia sanitaria, pública o privada, siempre que vayan en servicio urgente y lo adviertan con la señal luminosa y la acústica especiales.",
+      "descartes": {
+        "a": "La grúa de auxilio en carretera no está en la lista de servicios que pueden ser prioritarios.",
+        "b": "El transporte escolar no está en la lista de servicios que pueden ser prioritarios."
+      },
+      "truco": "La prioridad va con el servicio, no con el vehículo ni con su dueño: un vehículo de urgencias, público o privado, solo es prioritario cuando va en servicio urgente y lo avisa con sus señales.",
+      "huella": "bb9a613bda65"
+    },
+    {
+      "id": "x1a-0082",
+      "porque": "La regla general para un prioritario es usar a la vez la señal luminosa y la sirena, pero la norma le obliga a usar la luminosa sola cuando omitir la acústica no suponga peligro alguno para los demás usuarios.",
+      "descartes": {
+        "a": "Luz y sirena a la vez es la regla general, pero la norma obliga a usar la luz sola cuando quitar la sirena no suponga peligro.",
+        "c": "La norma no distingue entre el día y la noche: el criterio es que omitir la señal acústica no suponga peligro para nadie."
+      },
+      "truco": "Prioritario en servicio urgente: luz y sirena a la vez como regla; solo la luz cuando quitar la sirena no suponga peligro para nadie. El claxon intermitente con la luz de emergencia es para el vehículo normal que hace una urgencia.",
+      "huella": "95331385302a"
+    },
+    {
+      "id": "x1a-0083",
+      "porque": "Los agentes que vigilan el tráfico pueden usar o situar sus vehículos en la parte de la vía que resulte necesaria cuando prestan auxilio a los usuarios o lo requieren las necesidades del servicio o de la circulación. Manda la necesidad de la situación.",
+      "descartes": {
+        "a": "No están limitados al arcén: pueden situarse en la parte de la vía que resulte necesaria.",
+        "c": "Tampoco tienen que quedarse fuera de la calzada: la norma les deja usar la parte de la vía que haga falta."
+      },
+      "truco": null,
+      "huella": "a414c1b1eb37"
+    },
+    {
+      "id": "x1a-0084",
+      "porque": "La obligación empieza en cuanto percibes las señales especiales del vehículo prioritario. Desde ese momento tienes que tomar las medidas adecuadas para facilitarle el paso, sin esperar a que esté encima.",
+      "descartes": {
+        "b": "Esperar a tenerlo justo detrás deja poco margen; la norma pide actuar tan pronto como percibas sus señales.",
+        "c": "No hace falta que te lo pidan por megafonía: basta con que percibas sus señales especiales."
+      },
+      "truco": "En cuanto percibas a un prioritario, sin esperar a tenerlo encima: apártate normalmente a tu derecha y, si hace falta, detente.",
+      "huella": "fb7d342f7d4e"
+    },
+    {
+      "id": "x1b-0059",
+      "porque": "Esta señal de peligro, con un semáforo dibujado, avisa de que te acercas a una intersección aislada o a un tramo con la circulación regulada por semáforos. Te prepara para encontrarte un semáforo donde quizá no lo esperas.",
+      "descartes": {
+        "a": "La señal no dice nada de averías: avisa de que más adelante hay circulación regulada por semáforos.",
+        "b": "No habla de pasos a nivel: estos tienen sus propias señales de peligro, como la de paso a nivel con barreras."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-7",
+          "cita": "Peligro por la proximidad de un paso a nivel provisto de barreras o\nsemibarreras."
+        }
+      ],
+      "huella": "6205b5d2e813"
+    },
+    {
+      "id": "x1b-0060",
+      "porque": "La señal de puente móvil avisa de que se acerca un puente que puede ser levantado o girado, de modo que la circulación se interrumpe temporalmente mientras se mueve.",
+      "descartes": {
+        "b": "Esta señal no habla de la anchura del puente: avisa de un puente que puede levantarse o girarse.",
+        "c": "La vía que desemboca en un muelle o en una corriente de agua tiene su propia señal, la P-27 «Muelle»."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-27",
+          "cita": "Peligro debido a que la vía desemboca en un muelle o en una\ncorriente de agua."
+        }
+      ],
+      "huella": "42f3873752d1"
+    },
+    {
+      "id": "x1b-0061",
+      "porque": "Esta señal advierte de una sucesión de curvas peligrosas próximas entre sí, y el dibujo indica hacia dónde va la primera: aquí, hacia la derecha.",
+      "descartes": {
+        "a": "Una sola curva peligrosa hacia la derecha tiene su propia señal, la P-13a; esta anuncia varias curvas seguidas.",
+        "c": "Si la primera curva fuera hacia la izquierda, la señal sería la P-14b, con el dibujo al revés."
+      },
+      "truco": "Lee el dibujo de abajo arriba, como si fueras tú avanzando: el primer giro de la línea te dice hacia dónde va la primera curva.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-13a",
+          "cita": "Peligro por la proximidad de una curva peligrosa hacia la derecha."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-14b",
+          "cita": "P-14b Curvas peligrosas hacia la izquierda"
+        }
+      ],
+      "huella": "3c9cfa949e1b"
+    },
+    {
+      "id": "x1b-0063",
+      "porque": "La señal de obras es la única del catálogo que solo puede usarse con fondo amarillo. Además, en los tramos en obras, las señales de peligro y de reglamentación que normalmente tienen fondo blanco pasan a tenerlo amarillo.",
+      "descartes": {
+        "b": "El fondo amarillo no indica que la señal se vaya a retirar al día siguiente: la señal de obras se usa siempre con ese fondo.",
+        "c": "El color de la señal no dice nada del horario de las obras."
+      },
+      "truco": "En obras manda el amarillo: la señal de obras siempre lo lleva, muchas señales de fondo blanco pasan a fondo amarillo, los carteles nuevos de orientación son amarillos con letras negras y las marcas viales nuevas, amarillas. Las señales que no se aplican durante la obra se tapan con adhesivo negro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "Cuando en dichos tramos se\ndispongan señales de peligro y reglamentación cuyo fondo sea en su versión convencional\nde color blanco, estas tendrán fondo amarillo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "estos tendrían el fondo amarillo y los caracteres negros, con independencia\ndel tipo de carretera"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (Catálogo de marcas viales, 2)",
+          "cita": "en caso de utilizar nuevas marcas viales en\ntramos en los que se estén ejecutando obras, estas serán de color amarillo"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "deberán ser adecuadamente\ntapadas utilizando materiales adhesivos negros"
+        }
+      ],
+      "huella": "e951dfb4f4e2"
+    },
+    {
+      "id": "x1b-0079",
+      "porque": "Esta señal no crea una prohibición nueva: recuerda la prohibición general de hacer señales acústicas, que tiene una salvedad, usarlas para evitar un accidente.",
+      "descartes": {
+        "a": "La señal no habla de la música del vehículo: se refiere a las señales acústicas, como el claxon.",
+        "c": "Incluso con esta señal se permite la señal acústica para evitar un accidente."
+      },
+      "truco": "Con esta señal, el claxon solo para evitar un accidente.",
+      "huella": "c5a0aafffb3d"
+    },
+    {
+      "id": "B1-sen-0014",
+      "porque": "El brazo levantado verticalmente es una orden de alto para todos los que se acercan al agente, vengan de donde vengan. Solo se libran quienes no pueden detenerse con seguridad suficiente y, si la señal se hace en un cruce, quienes ya han entrado en él.",
+      "descartes": {
+        "a": "No se limita al carril al que mira el agente: obliga a todos los usuarios que se acerquen a él.",
+        "c": "No es solo para peatones: obliga a todos los usuarios de la vía, conductores incluidos."
+      },
+      "truco": "Brazo levantado: alto para todos los que se acercan al agente, salvo dos casos: quien ya ha entrado en el cruce y quien no puede detenerse con seguridad suficiente.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.1.a",
+          "cita": "Si esta señal se efectúa en una intersección, no obligará a detenerse a\nlos conductores que hayan entrado ya en ella."
+        }
+      ],
+      "huella": "8fb0fe239918"
+    },
+    {
+      "id": "B1-sen-0015",
+      "porque": "El brazo levantado obliga a detenerse a quienes se acercan al agente, pero si la señal se hace en una intersección no obliga a quienes ya han entrado en ella: lo que toca es terminar de cruzar y dejar el cruce libre.",
+      "descartes": {
+        "a": "Detenerse dentro bloquearía el cruce; la norma exime de detenerse a quien ya ha entrado en la intersección.",
+        "b": "La marcha atrás no es lo que pide la norma: quien ya está dentro de la intersección continúa."
+      },
+      "truco": "Brazo levantado: alto para todos los que se acercan al agente, salvo dos casos: quien ya ha entrado en el cruce y quien no puede detenerse con seguridad suficiente.",
+      "huella": "bb634f46f823"
+    },
+    {
+      "id": "B1-sen-0016",
+      "porque": "Con el brazo o los brazos extendidos en horizontal, el agente hace de barrera para quienes se le acercan desde direcciones que cortan la línea de sus brazos, cualquiera que sea su sentido de marcha. En el esquema, con los brazos hacia el este y el oeste, deben parar los que llegan por el norte y por el sur.",
+      "descartes": {
+        "b": "No es solo para un carril: obliga a todos los que se acercan desde las direcciones que cortan la de los brazos, vengan en el sentido que vengan.",
+        "c": "La orden afecta a quienes llegan desde direcciones que cortan la de los brazos; la señal que detiene a todos los que se acercan es el brazo levantado verticalmente."
+      },
+      "truco": "Brazos en cruz: el agente hace de barrera para quien se le acerca cortando la línea de sus brazos, es decir, de frente o por la espalda. Y la orden sigue aunque baje los brazos, mientras no cambie de posición ni haga otra señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.1.b",
+          "cita": "Esta señal permanece\nen vigor aunque el agente baje el brazo o los brazos, siempre que no cambie de posición o\nefectúe otra señal."
+        }
+      ],
+      "huella": "6679547af925"
+    },
+    {
+      "id": "B1-sen-0017",
+      "porque": "La señal de brazos extendidos en horizontal permanece en vigor aunque el agente baje los brazos, siempre que no cambie de posición ni haga otra señal. Así no tiene que mantenerlos levantados todo el tiempo.",
+      "descartes": {
+        "a": "Bajar los brazos no termina la señal: sigue vigente mientras el agente no cambie de posición o haga otra señal.",
+        "b": "La norma no fija ningún plazo en segundos: la señal dura mientras el agente no cambie de posición o haga otra señal."
+      },
+      "truco": "Brazos en cruz: el agente hace de barrera para quien se le acerca cortando la línea de sus brazos, es decir, de frente o por la espalda. Y la orden sigue aunque baje los brazos, mientras no cambie de posición ni haga otra señal.",
+      "huella": "f79343ce20a4"
+    },
+    {
+      "id": "B1-sen-0018",
+      "porque": "Mover el brazo extendido de arriba abajo es la señal de «más despacio»: obliga a reducir la velocidad a quienes se acercan al agente por el lado de ese brazo y perpendicularmente a él.",
+      "descartes": {
+        "a": "Es justo lo contrario: la señal pide disminuir la velocidad.",
+        "b": "Para detener, el agente levanta el brazo verticalmente o lo extiende en horizontal; mover el brazo de arriba abajo pide solo reducir la velocidad."
+      },
+      "truco": "El brazo que sube y baja es como una mano que dice «calma»: reduce la velocidad.",
+      "huella": "0707a407d07f"
+    },
+    {
+      "id": "B1-sen-0019",
+      "porque": "El balanceo de una luz roja o amarilla es una orden de alto: obliga a detenerse a los usuarios hacia los que el agente dirige la luz.",
+      "descartes": {
+        "b": "No es una invitación a circular con precaución: es una orden de detenerse.",
+        "c": "La señal no tiene que ver con tu alumbrado: obliga a detenerse."
+      },
+      "truco": null,
+      "huella": "9328aef43957"
+    },
+    {
+      "id": "B1-sen-0020",
+      "porque": "Con el silbato, el agente da dos mensajes distintos: un toque largo ordena reanudar la marcha y una serie de toques cortos y frecuentes ordena detenerse.",
+      "descartes": {
+        "a": "La detención se ordena con una serie de toques cortos y frecuentes, no con un toque largo.",
+        "c": "El toque largo no va dirigido a los peatones en particular: ordena reanudar la marcha."
+      },
+      "truco": "Silbato: un toque largo, «adelante»; toques cortos y seguidos, «alto».",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.1.e",
+          "cita": "e) Serie de toques de silbato cortos y frecuentes: ordena la detención de vehículos.\nToque largo de silbato: ordena la reanudación de la marcha."
+        }
+      ],
+      "huella": "6d101f015a0b"
+    },
+    {
+      "id": "B1-sen-0021",
+      "porque": "Con el silbato, el agente da dos mensajes distintos: una serie de toques cortos y frecuentes ordena detenerse y un toque largo ordena reanudar la marcha.",
+      "descartes": {
+        "a": "Reanudar la marcha se ordena con un toque largo, no con toques cortos y frecuentes.",
+        "b": "Ninguna señal de silbato ordena ceder el paso a los vehículos de la derecha."
+      },
+      "truco": "Silbato: un toque largo, «adelante»; toques cortos y seguidos, «alto».",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.1.e",
+          "cita": "e) Serie de toques de silbato cortos y frecuentes: ordena la detención de vehículos.\nToque largo de silbato: ordena la reanudación de la marcha."
+        }
+      ],
+      "huella": "66e30720206e"
+    },
+    {
+      "id": "B1-sen-0022",
+      "porque": "La bandera roja, mostrada desde un vehículo de los agentes, cierra la calzada: a partir del paso de ese vehículo queda cerrada temporalmente a todos, salvo a quienes vayan acompañados o escoltados por los agentes.",
+      "descartes": {
+        "b": "Extremar la atención o avisar de un peligro es lo que indica la bandera amarilla.",
+        "c": "La reapertura de la calzada se indica con la bandera verde."
+      },
+      "truco": "Banderas como un semáforo: roja, calzada cerrada desde que pasa el vehículo; verde, calzada abierta de nuevo; amarilla, atención o peligro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.2.b y c",
+          "cita": "b) Bandera verde: indica que, a partir del paso del vehículo que la porta, la calzada\nqueda de nuevo abierta al tráfico.\nc) Bandera amarilla: indica al resto de los conductores y usuarios la necesidad de\nextremar la atención o la proximidad de un peligro."
+        }
+      ],
+      "huella": "8e73447fcfb2"
+    },
+    {
+      "id": "B1-sen-0023",
+      "porque": "La bandera verde mostrada desde un vehículo indica que, a partir del paso de ese vehículo, la calzada queda de nuevo abierta al tráfico. Es la que cierra la comitiva.",
+      "descartes": {
+        "a": "Extremar la atención es lo que indica la bandera amarilla.",
+        "c": "El cierre de la calzada se indica con la bandera roja."
+      },
+      "truco": "Banderas como un semáforo: roja, calzada cerrada desde que pasa el vehículo; verde, calzada abierta de nuevo; amarilla, atención o peligro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.2.a",
+          "cita": "a) Bandera roja: indica que a partir del paso del vehículo que la porta, la calzada queda\ntemporalmente cerrada al tráfico de todos los vehículos y usuarios"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.2.b y c",
+          "cita": "b) Bandera verde: indica que, a partir del paso del vehículo que la porta, la calzada\nqueda de nuevo abierta al tráfico.\nc) Bandera amarilla: indica al resto de los conductores y usuarios la necesidad de\nextremar la atención o la proximidad de un peligro."
+        }
+      ],
+      "huella": "45cca0f31eeb"
+    },
+    {
+      "id": "B1-sen-0024",
+      "porque": "La bandera amarilla avisa a los conductores y demás usuarios de que tienen que extremar la atención o de que hay un peligro cerca. Además de los agentes, puede usarla el personal auxiliar habilitado en marchas ciclistas y otras actividades.",
+      "descartes": {
+        "a": "Que la calzada queda abierta de nuevo lo indica la bandera verde.",
+        "b": "Que la calzada queda cerrada lo indica la bandera roja."
+      },
+      "truco": "Banderas como un semáforo: roja, calzada cerrada desde que pasa el vehículo; verde, calzada abierta de nuevo; amarilla, atención o peligro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.2.a",
+          "cita": "a) Bandera roja: indica que a partir del paso del vehículo que la porta, la calzada queda\ntemporalmente cerrada al tráfico de todos los vehículos y usuarios"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.2.b y c",
+          "cita": "b) Bandera verde: indica que, a partir del paso del vehículo que la porta, la calzada\nqueda de nuevo abierta al tráfico.\nc) Bandera amarilla: indica al resto de los conductores y usuarios la necesidad de\nextremar la atención o la proximidad de un peligro."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.2.c",
+          "cita": "Esta bandera podrá ser también utilizada\npor el personal auxiliar habilitado que realice funciones de orden, control o seguridad durante\nel desarrollo de marchas ciclistas"
+        }
+      ],
+      "huella": "0e8139cc65b4"
+    },
+    {
+      "id": "B1-sen-0025",
+      "porque": "La luz roja intermitente o destellante hacia delante, desde un vehículo policial que va detrás de ti, es una orden de parar: te detienes en el lado derecho, delante del vehículo policial, en un sitio donde no generes más riesgos ni molestias, y sigues sus instrucciones.",
+      "descartes": {
+        "a": "Acelerar no tiene sentido: la luz roja hacia delante es una orden de detenerse.",
+        "b": "No se para en el carril: hay que detenerse en el lado derecho, delante del coche policial, en un sitio sin más riesgos ni molestias."
+      },
+      "truco": "Luz roja hacia delante desde el coche policial que va detrás: paras a la derecha, delante de él, en un sitio sin riesgo, y te quedas dentro siguiendo sus instrucciones.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "69",
+          "cita": "el conductor de este\ndeberá detenerlo con las debidas precauciones en el lado derecho, delante del vehículo\npolicial, en un lugar donde no genere mayores riesgos o molestias para el resto de los\nusuarios, y permanecerá en su interior."
+        }
+      ],
+      "huella": "1d804c3db32b"
+    },
+    {
+      "id": "B1-sen-0026",
+      "porque": "En un tramo en obras, el personal que regula el paso de vehículos, por ejemplo con paletas, da indicaciones que los usuarios están obligados a seguir. En ese caso no hace falta ser agente de la autoridad para que sus indicaciones obliguen.",
+      "descartes": {
+        "a": "La norma obliga expresamente a seguir también las indicaciones del personal de obras que regula el paso de vehículos.",
+        "b": "La norma no hace depender esa obligación de que haya o no un semáforo provisional."
+      },
+      "truco": "En una obra, quien regula el paso con la paleta manda en ese tramo: sigue sus indicaciones.",
+      "huella": "91259c26c7b0"
+    },
+    {
+      "id": "B1-sen-0027",
+      "porque": "Las patrullas escolares no regulan la circulación como un agente, pero pueden invitar a los conductores a detener su marcha usando señales del catálogo oficial incorporadas a una paleta.",
+      "descartes": {
+        "a": "No solo los agentes: la norma permite a las patrullas escolares invitar a detenerse mediante una paleta.",
+        "c": "El medio que prevé la norma para las patrullas escolares es la paleta con señales del catálogo, no el silbato."
+      },
+      "truco": null,
+      "huella": "116a2ca7ed3a"
+    },
+    {
+      "id": "B1-sen-0028",
+      "porque": "Quien regula el paso de vehículos (agentes, personal de obras, patrullas escolares, protección civil y otros) debe llevar prendas de colores llamativos y elementos retrorreflectantes que permitan distinguirlo a una distancia mínima de 150 metros.",
+      "descartes": {
+        "a": "La norma fija 150 metros, no 50.",
+        "b": "La cifra de la norma no es 100 metros, sino 150."
+      },
+      "truco": "150 metros es la distancia de «hacerse ver»: a esa distancia hay que distinguir a quien regula el paso, y también el elemento luminoso o reflectante del peatón que va de noche por la calzada o el arcén de una vía interurbana.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "123.1",
+          "cita": "deberán hacer uso, al menos, de un elemento luminoso o\nreflectante conforme a la normativa de equipos de protección individual, que sea visible a\nuna distancia mínima de 150 metros para los conductores que se les aproximen."
+        }
+      ],
+      "huella": "a965d96a4a6f"
+    },
+    {
+      "id": "v5c-age-0001",
+      "porque": "Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo, indica a los usuarios a los que se dirige que tienen que detenerse en el lado derecho.",
+      "descartes": {
+        "a": "Reducir la velocidad se pide moviendo el brazo extendido de arriba abajo, no con el brazo fijo hacia abajo.",
+        "b": "El cierre de la calzada a partir del paso del vehículo se indica con la bandera roja."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.1.d",
+          "cita": "d) Brazo extendido moviéndolo alternativamente de arriba abajo: esta señal obliga a\ndisminuir la velocidad"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.1.2.a",
+          "cita": "a) Bandera roja: indica que a partir del paso del vehículo que la porta, la calzada queda\ntemporalmente cerrada al tráfico de todos los vehículos y usuarios"
+        }
+      ],
+      "huella": "f11354be6f51"
+    },
+    {
+      "id": "x1b-0033",
+      "porque": "Una señal se aplica a toda la anchura de la calzada que pueden usar los conductores a los que va dirigida, aunque esté colocada a un lado. Para limitarla a uno o varios carriles hacen falta marcas en la calzada.",
+      "descartes": {
+        "b": "Estar junto a un carril no la limita a ese carril: para eso hacen falta marcas en la calzada.",
+        "c": "Ninguna norma limita las señales al carril de los vehículos lentos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "135",
+          "cita": "No obstante, su aplicación podrá limitarse a\nuno o más carriles, mediante marcas en la calzada."
+        }
+      ],
+      "huella": "97e920c11b32"
+    },
+    {
+      "id": "B1-sen-0007",
+      "porque": "Como regla, obedeces las señales situadas a tu derecha o encima de la calzada o de tu carril. Pero si a la derecha y a la izquierda hay indicaciones distintas, quien sigue de frente o gira a la izquierda solo obedece las de su izquierda. Aquí sigues de frente: obedeces el STOP.",
+      "descartes": {
+        "a": "Las de la derecha valen para quien gira a la derecha; si las indicaciones son distintas y sigues de frente, obedeces las de tu izquierda.",
+        "c": "Aquí no se elige la más restrictiva: la norma dice expresamente qué lado obedecer según tu dirección."
+      },
+      "truco": "Con señales distintas a cada lado: si giras a la derecha, obedeces las de la derecha; si sigues de frente o giras a la izquierda, las de la izquierda.",
+      "huella": "66ba4b0832a9"
+    },
+    {
+      "id": "B1-sen-0008",
+      "porque": "Como regla, obedeces los semáforos y señales situados inmediatamente a tu derecha, encima de la calzada o encima de tu carril. Las de la izquierda, cuando dicen algo distinto, solo rigen para quien sigue de frente o gira a la izquierda. Si giras a la derecha, te toca el ceda el paso.",
+      "descartes": {
+        "b": "Las de la izquierda, cuando son distintas, solo rigen para quien sigue de frente o gira a la izquierda.",
+        "c": "No se cumplen las dos: la norma dice qué lado obedecer según la dirección que vas a tomar."
+      },
+      "truco": "Con señales distintas a cada lado: si giras a la derecha, obedeces las de la derecha; si sigues de frente o giras a la izquierda, las de la izquierda.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "132.3",
+          "cita": "Si existen semáforos o señales verticales de circulación con indicaciones distintas a la\nderecha y a la izquierda, quienes pretendan girar a la izquierda o seguir de frente solo deben\nobedecer las de los situados inmediatamente a su izquierda."
+        }
+      ],
+      "huella": "992238fdaf78"
+    },
+    {
+      "id": "B1-sen-0029",
+      "porque": "Los conos, las balizas de borde provisionales y los dispositivos parecidos son dispositivos delimitadores: prohíben pasar a través de la línea, real o imaginaria, que los une.",
+      "descartes": {
+        "a": "No es una recomendación: los conos prohíben el paso a través de la línea que los une.",
+        "b": "La prohibición es para todos; la norma no hace ninguna excepción con los vehículos de dos ruedas."
+      },
+      "truco": "Conos, panel direccional provisional, luz roja fija: son dispositivos delimitadores, y todos prohíben pasar. La luz roja fija, además, cierra la calzada entera.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "142.4.a",
+          "cita": "a) Dispositivos delimitadores: prohíben el paso a la parte de la vía que delimitan."
+        }
+      ],
+      "huella": "f52710f8ab80"
+    },
+    {
+      "id": "B1-sen-0030",
+      "porque": "El panel direccional provisional es un dispositivo delimitador: prohíbe el paso por donde está colocado y, además, informa del sentido por el que hay que circular.",
+      "descartes": {
+        "b": "No es una simple recomendación de reducir la velocidad: prohíbe el paso.",
+        "c": "No da distancias: prohíbe el paso e informa del sentido de la circulación."
+      },
+      "truco": "Panel direccional provisional (obras): prohíbe el paso y marca el sentido. Panel direccional permanente (curvas): guía, marca el trazado de la curva según lo que hay que frenar e indica el sentido.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.3.1.2.3º",
+          "cita": "Paneles direccionales permanentes: elementos cuya finalidad es la de marcar el\ntrazado de una curva en relación con la reducción de velocidad que se tenga que realizar"
+        }
+      ],
+      "huella": "a203c6da5db4"
+    },
+    {
+      "id": "B1-sen-0031",
+      "porque": "Los paneles direccionales permanentes son dispositivos de guía: marcan el trazado de la curva según la reducción de velocidad que hay que hacer para tomarla con seguridad, e indican el sentido de circulación.",
+      "descartes": {
+        "a": "Su función es marcar el trazado de la curva y el sentido de circulación, no prohibir el adelantamiento.",
+        "b": "La proximidad de un paso a nivel se anuncia con sus propias señales y balizas de aproximación, no con estos paneles."
+      },
+      "truco": "Panel direccional provisional (obras): prohíbe el paso y marca el sentido. Panel direccional permanente (curvas): guía, marca el trazado de la curva según lo que hay que frenar e indica el sentido.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.3.1.1.3º",
+          "cita": "Panel direccional provisional: prohíbe el paso e informa, además, sobre el sentido\nde la circulación."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-9b",
+          "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle\na una distancia de 150 m."
+        }
+      ],
+      "huella": "927906e1bdf6"
+    },
+    {
+      "id": "B1-sen-0032",
+      "porque": "Entre los dispositivos delimitadores, la luz roja fija indica que la calzada está totalmente cerrada al tránsito: no se puede pasar.",
+      "descartes": {
+        "b": "No pide solo reducir la velocidad: indica que la calzada está totalmente cerrada.",
+        "c": "No permite pasar con precaución: la calzada está cerrada al tránsito."
+      },
+      "truco": "Conos, panel direccional provisional, luz roja fija: son dispositivos delimitadores, y todos prohíben pasar. La luz roja fija, además, cierra la calzada entera.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "142.4.a",
+          "cita": "a) Dispositivos delimitadores: prohíben el paso a la parte de la vía que delimitan."
+        }
+      ],
+      "huella": "3e99caf97879"
+    },
+    {
+      "id": "B1-sen-0033",
+      "porque": "Los captafaros horizontales luminosos colocados sobre la calzada pueden emitir luz verde, naranja o roja para delimitar carriles u orientar la circulación, y el único color con el que se pueden franquear es el verde.",
+      "descartes": {
+        "a": "En naranja no se pueden franquear: el único franqueable es el verde.",
+        "b": "En rojo no se pueden franquear: el único franqueable es el verde."
+      },
+      "truco": "Como un semáforo, pero más estricto: solo el verde deja pasar; naranja y rojo, no.",
+      "huella": "7af61183685a"
+    },
+    {
+      "id": "B1-sen-0034",
+      "porque": "La señalización circunstancial adapta la circulación a lo que está pasando en ese momento. Sus cambios respecto a la señalización habitual duran hasta que lo diga la propia señalización o desaparezcan las causas que los motivaron; desde entonces vuelve a regir la habitual.",
+      "descartes": {
+        "a": "La norma no fija ningún plazo de una jornada: los cambios duran lo que diga la propia señalización o lo que duren sus causas.",
+        "c": "La norma no fija un máximo de 24 horas: los cambios duran lo que diga la propia señalización o lo que duren sus causas."
+      },
+      "truco": null,
+      "huella": "5b9be0e5e5a0"
+    },
+    {
+      "id": "v5c-bal-0001",
+      "porque": "El hito de vértice es un elemento de forma semicilíndrica, con triángulos retrorreflectantes, que marca el punto en el que se separan dos corrientes de tráfico.",
+      "descartes": {
+        "a": "Balizar el borde de la carretera, sobre todo de noche, es la función del hito de arista.",
+        "c": "La proximidad de una curva peligrosa se avisa con señales de peligro; el hito de vértice marca dónde se separan dos corrientes de tráfico."
+      },
+      "truco": "Hito de vértice, donde se separan dos corrientes de tráfico; hito de arista, el borde de la carretera.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.3.1.2.2º",
+          "cita": "Hito de arista: elemento cuya finalidad primordial es balizar los bordes de las\ncarreteras principalmente durante las horas nocturnas o de baja visibilidad."
+        }
+      ],
+      "huella": "a4de58b95871"
+    },
+    {
+      "id": "v5c-bal-0002",
+      "porque": "Los hitos de arista se colocan en los bordes de la carretera y su finalidad principal es balizar esos bordes, sobre todo de noche o con baja visibilidad.",
+      "descartes": {
+        "b": "Indicar dónde se separan dos corrientes de tráfico es la función del hito de vértice.",
+        "c": "La distancia a un paso a nivel la indican las balizas de aproximación, con sus franjas rojas."
+      },
+      "truco": "Hito de vértice, donde se separan dos corrientes de tráfico; hito de arista, el borde de la carretera.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.3.1.2.1º",
+          "cita": "que indica el\npunto en el que se separan dos corrientes de tráfico."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-9b",
+          "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle\na una distancia de 150 m."
+        }
+      ],
+      "huella": "b838de8af661"
+    },
+    {
+      "id": "v5c-car-0001",
+      "porque": "En los carriles reservados en función de la velocidad, los carriles sobre los que aparece la cifra de velocidad mínima solo pueden usarlos los vehículos que circulen a esa velocidad o más. Aun así, si las circunstancias lo permiten, hay que circular por el carril de la derecha.",
+      "descartes": {
+        "b": "La señal no reserva esos carriles para adelantar a cualquier velocidad: los reserva a quienes circulen a 70 km/h o más.",
+        "c": "No es una velocidad aconsejada: es una velocidad mínima que limita quién puede usar esos carriles."
+      },
+      "truco": "La cifra sobre un carril en estas señales es un mínimo para usarlo: si no llegas a esa velocidad, ese carril no es para ti.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "S-50c",
+          "cita": "aunque si las circunstancias lo permiten\ndeben circular por el carril de la derecha."
+        }
+      ],
+      "huella": "8b740284d6f0"
+    },
+    {
+      "id": "x1b-0053",
+      "porque": "Para reforzar su mensaje, las señales verticales pueden llevar dispositivos LED en los bordes o en el interior, y esos LED solo pueden ser de color blanco, amarillo o ámbar.",
+      "descartes": {
+        "a": "Rojo, verde o azul no son los colores que admite el catálogo para estos LED.",
+        "b": "Tampoco solo rojo: el catálogo fija blanco, amarillo o ámbar."
+      },
+      "truco": null,
+      "huella": "0735f8638381"
+    },
+    {
+      "id": "x1b-0032",
+      "porque": "Para el reglamento, la señalización no son solo las señales fijas: incluye las señales y órdenes de los agentes que vigilan el tráfico, la señalización circunstancial y el balizamiento, los semáforos, las señales verticales y las marcas viales. Las de los agentes, además, son las primeras en el orden de preferencia.",
+      "descartes": {
+        "a": "Los anuncios publicitarios no forman parte de la señalización; de hecho, se prohíbe colocar junto a las señales carteles que puedan confundir o reducir su visibilidad.",
+        "b": "Las indicaciones de los navegadores no están en la definición de señalización del reglamento."
+      },
+      "truco": "Orden de preferencia, de más a menos: agentes, señalización circunstancial y balizamiento, semáforos, señales verticales y marcas viales. Solo entre señales del mismo tipo gana la más restrictiva.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1 y 133.2",
+          "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del\ntráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "140.3",
+          "cita": "colocar sobre ellas o en sus\ninmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión,\nreducir su visibilidad o su eficacia"
+        }
+      ],
+      "huella": "f1291b1436e4"
+    },
+    {
+      "id": "v4a-sen-0029",
+      "porque": "La señal de fin de prohibiciones marca el lugar desde el que dejan de aplicarse todas las prohibiciones específicas que señales anteriores imponían a los vehículos en movimiento, como la velocidad máxima o la prohibición de adelantar. No afecta a la parada ni al estacionamiento.",
+      "descartes": {
+        "b": "Parar y estacionar no son prohibiciones para vehículos en movimiento, así que esta señal no las levanta.",
+        "c": "No se limita a la velocidad: levanta todas las prohibiciones específicas para vehículos en movimiento, también la de adelantar."
+      },
+      "truco": "Fin de prohibiciones: se acaban las prohibiciones para circular (velocidad máxima, adelantar…), no las de parar o estacionar.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-301",
+          "cita": "Obliga desde el\nlugar en que esté situada hasta la próxima señal «Fin de\nlimitación de velocidad», de «Fin de prohibiciones»"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-305",
+          "cita": "hasta la siguiente señal de “Fin de\nprohibición de adelantamiento” o “Fin de prohibiciones”."
+        }
+      ],
+      "huella": "9cf6e1f71ca6"
+    },
+    {
+      "id": "x1b-0086",
+      "porque": "Esta señal azul con la cifra cruzada por una franja marca el lugar desde el que deja de aplicarse una señal anterior de velocidad mínima: ya no estás obligado a circular, por lo menos, a esa velocidad.",
+      "descartes": {
+        "a": "El fin de una velocidad máxima tiene su propia señal, la R-501 «Fin de la limitación de velocidad».",
+        "b": "El comienzo de una velocidad máxima lo indica la señal R-301, que prohíbe superar la cifra; esta, en cambio, pone fin a una obligación de velocidad mínima."
+      },
+      "truco": "Azul con cifra, velocidad mínima; azul con la cifra cruzada, se acaba ese mínimo. Las de velocidad máxima son las de orla roja.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-501",
+          "cita": "Señala el lugar desde donde deja de ser aplicable una señal\nanterior de velocidad máxima."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-301",
+          "cita": "Prohibición de circular a velocidad superior, expresada en\nkilómetros por hora, a la indicada en la señal."
+        }
+      ],
+      "huella": "4a9040547075"
+    },
+    {
+      "id": "x1b-0036",
+      "porque": "Las indicaciones escritas de las señales van siempre en castellano y, si la señal está en una comunidad autónoma con lengua oficial propia, además en esa lengua.",
+      "descartes": {
+        "b": "El castellano no desaparece: la lengua de la comunidad se añade, no lo sustituye.",
+        "c": "En las comunidades con lengua oficial propia, esa lengua se añade al castellano."
+      },
+      "truco": "Castellano siempre; la lengua oficial de la comunidad, además.",
+      "huella": "b0a29f821183"
+    },
+    {
+      "id": "x1b-0091",
+      "porque": "Esta señal de indicación anuncia que se acerca un lugar donde puedes cambiar de sentido al mismo nivel, sin tener que tomar una salida para hacerlo a distinto nivel.",
+      "descartes": {
+        "a": "Es una señal de indicación, no de prohibición: la prohibición de cambiar de sentido tiene su propia señal, la R-304.",
+        "c": "El cambio de sentido a distinto nivel, a través de una salida, tiene otra señal, la S-25."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-304",
+          "cita": "Prohibición de efectuar la maniobra de cambio de sentido de\nla marcha."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "S-25",
+          "cita": "Indica la proximidad de una salida a través de la cual se puede\nefectuar un cambio de sentido a distinto nivel."
+        }
+      ],
+      "huella": "2d49bb6d0470"
+    },
+    {
+      "id": "x1b-0092",
+      "porque": "La señal de hospital indica dónde hay uno y recuerda la conveniencia de tomar las precauciones que exige la cercanía de centros médicos, sobre todo evitar hacer ruido.",
+      "descartes": {
+        "a": "La señal no crea ninguna obligación nueva con las ambulancias; facilitar el paso a los vehículos prioritarios ya es obligatorio en cualquier lugar.",
+        "b": "No prohíbe estacionar: es una señal de indicación que recomienda precaución y evitar el ruido."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "69",
+          "cita": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo\nprioritario, los demás conductores adoptarán las medidas adecuadas"
+        }
+      ],
+      "huella": "2cef964b2f64"
+    },
+    {
+      "id": "x1b-0093",
+      "porque": "El apartadero es un lugar donde puedes apartar el vehículo en caso de emergencia para dejar libre el paso. No es una zona para estacionar cuando se quiera.",
+      "descartes": {
+        "b": "No está pensado para adelantar: sirve para apartarse en una emergencia y dejar libre el paso.",
+        "c": "Para indicar dónde se puede estacionar hay otra señal, la S-17 «Estacionamiento»; el apartadero es para emergencias."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "S-17",
+          "cita": "Indica el lugar donde está autorizado el estacionamiento de\nvehículos."
+        }
+      ],
+      "huella": "cfa5b59b9af2"
+    },
+    {
+      "id": "v5c-ind-0002",
+      "porque": "Esta señal cuadrada azul indica que la calzada, de dos carriles, es de sentido único: se circula en el sentido de las flechas y está prohibido hacerlo en sentido contrario. No obliga a seguir de frente en los cruces.",
+      "descartes": {
+        "a": "Obligar a seguir de frente es lo que hace la señal redonda azul de sentido obligatorio; esta, cuadrada, indica que la calzada es de sentido único.",
+        "b": "No reserva los carriles a vehículos lentos: indica que los dos carriles van en el mismo sentido."
+      },
+      "truco": "En esta señal cuadrada, las flechas cuentan carriles: dos flechas, dos carriles en el mismo sentido.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-400c",
+          "cita": "La flecha señala la dirección y sentido que los vehículos tienen\nla obligación de seguir."
+        }
+      ],
+      "huella": "251c0b2f873b"
+    },
+    {
+      "id": "x1b-0035",
+      "porque": "Cuando una señal necesita una aclaración por escrito, la inscripción va en un panel complementario rectangular colocado debajo de ella, o dentro de un panel rectangular que contenga la señal.",
+      "descartes": {
+        "a": "La norma no habla de paneles triangulares encima de la señal: el panel complementario es rectangular y va debajo.",
+        "b": "No se pinta en la calzada: la inscripción va en un panel rectangular debajo de la señal o dentro de un panel que la contenga."
+      },
+      "truco": null,
+      "huella": "9c8ec94089c7"
+    },
+    {
+      "id": "x1b-0097",
+      "porque": "La inscripción de punto kilométrico pintada junto al borde indica el punto kilométrico de la carretera, y está dirigida a los equipos de salvamento aéreo.",
+      "descartes": {
+        "a": "No es una limitación de velocidad: la que se pinta en la calzada es otra marca, con la velocidad en km/h que no se debe sobrepasar.",
+        "c": "No indica distancias a poblaciones: señala el punto kilométrico para el salvamento aéreo."
+      },
+      "truco": "Punto kilométrico pintado en el suelo: para que lo lea quien llega por el aire.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (marcas viales, 4.4, M-6.6)",
+          "cita": "Limitación de velocidad (M-6.6 y M-6.7): indica la velocidad, expresada en km/h,\nque ningún vehículo debe sobrepasar."
+        }
+      ],
+      "huella": "46a27c535df3"
+    },
+    {
+      "id": "x1b-0099",
+      "porque": "Las flechas curvas pintadas en el centro de una intersección indican una miniglorieta, es decir, una glorieta de radio reducido cuya isleta central mide 4 metros de diámetro o menos, y el sentido en que hay que circular por ella.",
+      "descartes": {
+        "b": "No autorizan a cambiar de sentido: indican una miniglorieta y el sentido de circulación en ella.",
+        "c": "Esta flecha, en el centro del cruce, no habla del final de un carril: indica la miniglorieta y su sentido de giro."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (marcas viales, 4.3, M-5.8)",
+          "cita": "radio reducido (diámetro de la isleta central igual o menor de 4 m) así como el sentido\nde circulación en ella."
+        }
+      ],
+      "huella": "511116ce0578"
+    },
+    {
+      "id": "x1b-0100",
+      "porque": "Las inscripciones de orientación pintadas en el carril indican la carretera, población u otro lugar al que llegarás si sigues por ese carril, haciendo los cambios de dirección que marquen las flechas que pueda haber junto a ellas.",
+      "descartes": {
+        "a": "No reserva el carril a nadie: informa del destino al que lleva.",
+        "c": "No marca límites municipales: indica el destino al que lleva ese carril."
+      },
+      "truco": null,
+      "huella": "62715fe21b88"
+    },
+    {
+      "id": "x1b-0101",
+      "porque": "Esta línea se usa en carreteras de doble sentido con poca visibilidad por las curvas, como los puertos de montaña. Su único fin es guiar el tráfico separando los sentidos: no te dice nada sobre si puedes o no adelantar.",
+      "descartes": {
+        "a": "La línea no prohíbe adelantar: su único fin es guiar el tráfico.",
+        "b": "Tampoco autoriza a adelantar sin restricciones: no da ninguna indicación sobre el adelantamiento."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (marcas viales, 4.1, M-1.13)",
+          "cita": "la cual tiene el único fin de guiado del tráfico, estableciendo el eje de\nseparación de sentidos."
+        }
+      ],
+      "huella": "ce2aac6b6830"
+    },
+    {
+      "id": "B1-sen-0011",
+      "porque": "Cuando una señal obliga a detenerse, por ejemplo en un peaje, un control o una aduana, no basta con parar un instante: no puedes reanudar la marcha hasta haber cumplido lo que la señal establece.",
+      "descartes": {
+        "a": "Detenerse un instante no basta: hay que cumplir lo que pide la señal, como pagar el peaje o pasar el control.",
+        "b": "El vehículo de detrás no decide nada: reanudas la marcha cuando has cumplido lo que pide la señal."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-200",
+          "cita": "Indica el lugar donde es obligatoria la detención por la\nproximidad, según la inscripción que contenga, de un puesto de\naduana, de policía, de peaje u otro"
+        }
+      ],
+      "huella": "4ff4fe3a2f9c"
+    },
+    {
+      "id": "B1-sen-0012",
+      "porque": "En un telepeaje el pago se hace mediante ese sistema, con un medio técnico del propio vehículo. Por eso, quien lo usa debe llevar el medio técnico que permite usarlo en condiciones operativas.",
+      "descartes": {
+        "a": "No basta con reducir la velocidad: el vehículo debe llevar el medio técnico operativo.",
+        "b": "En el telepeaje el pago se hace mediante el sistema de telepeaje, no en efectivo."
+      },
+      "truco": "Telepeaje: si tu vehículo no lleva el medio técnico operativo, ese carril no es para ti.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-418",
+          "cita": "Obligación de efectuar el pago del peaje mediante el sistema\nde peaje dinámico o telepeaje"
+        }
+      ],
+      "huella": "632d381cd557"
+    },
+    {
+      "id": "B1-sen-0013",
+      "porque": "La norma general vale para cualquier sitio; la señal está puesta para ese lugar concreto. Por eso, salvo circunstancias especiales que lo justifiquen, hay que obedecer la señal aunque parezca contradecir una norma general de comportamiento.",
+      "descartes": {
+        "b": "Es al revés: salvo circunstancias especiales, se obedece la señal aunque parezca contradecir la norma general.",
+        "c": "No se elige: la norma manda obedecer la señal."
+      },
+      "truco": "Si una señal y la norma general parecen chocar, manda la señal, salvo circunstancias especiales que lo justifiquen.",
+      "huella": "7c1e8702c07d"
+    },
+    {
+      "id": "B1-sen-0125",
+      "porque": "Las señales redondas azules son de obligación. En la de sentido obligatorio, la flecha marca la dirección y el sentido que tienes que seguir: aquí, de frente. Por eso no puedes girar a la derecha ni a la izquierda, ni cambiar de sentido.",
+      "descartes": {
+        "a": "Precisamente por ser de obligación te impide girar: te obliga a seguir la flecha, de frente.",
+        "c": "Señalizar con antelación no cambia nada: la señal obliga a seguir de frente."
+      },
+      "truco": "Redonda azul con una sola flecha: es la única dirección que puedes tomar. Si tiene varias flechas, puedes elegir entre ellas y nada más.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-403a",
+          "cita": "Las flechas señalan las únicas direcciones y sentidos que los\nvehículos pueden tomar."
+        }
+      ],
+      "huella": "87c6a1c76524"
+    },
+    {
+      "id": "B1-sen-0126",
+      "porque": "Las flechas de esta señal marcan las únicas direcciones y sentidos que puedes tomar: aquí, seguir recto o girar a la derecha. Cualquier otro movimiento, como girar a la izquierda o cambiar de sentido, queda excluido.",
+      "descartes": {
+        "b": "No es una recomendación: es una señal de obligación que limita los movimientos a los que marcan las flechas.",
+        "c": "Solo puedes tomar las direcciones que marcan las flechas, y el cambio de sentido no está entre ellas."
+      },
+      "truco": "Redonda azul con una sola flecha: es la única dirección que puedes tomar. Si tiene varias flechas, puedes elegir entre ellas y nada más.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-400c",
+          "cita": "La flecha señala la dirección y sentido que los vehículos tienen\nla obligación de seguir."
+        }
+      ],
+      "huella": "f0ed9400b130"
+    },
+    {
+      "id": "B1-sen-0127",
+      "porque": "Esta señal obliga a los automóviles a circular por esa calzada, pero la propia señal exceptúa a las motocicletas de dos ruedas y a los vehículos de tres ruedas asimilados a motocicletas. Las motos tienen su propia señal de calzada obligatoria, con una moto dibujada.",
+      "descartes": {
+        "a": "La propia señal exceptúa a las motocicletas de dos ruedas de esta obligación.",
+        "c": "La señal no distingue por cilindrada: la excepción alcanza a todas las motocicletas de dos ruedas."
+      },
+      "truco": "Turismo dibujado en azul: calzada obligatoria para automóviles, menos las motos de dos ruedas. Moto dibujada en azul: calzada obligatoria para las motos de dos ruedas.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-405",
+          "cita": "Obligación para los conductores de motocicletas de dos\nruedas y vehículos de tres ruedas asimilados a motocicletas\nde circular por la calzada a cuya entrada esté situada."
+        }
+      ],
+      "huella": "239a2bbb312c"
+    },
+    {
+      "id": "B1-sen-0128",
+      "porque": "Esta señal obliga a los conductores de motocicletas de dos ruedas, y de vehículos de tres ruedas asimilados a motocicletas, a circular por la calzada a cuya entrada está. Si vas en moto, tienes que ir por ella.",
+      "descartes": {
+        "a": "No es opcional: las señales redondas azules son de obligación.",
+        "b": "Es al revés: la señal no te prohíbe entrar, te obliga a circular por esa calzada."
+      },
+      "truco": "Turismo dibujado en azul: calzada obligatoria para automóviles, menos las motos de dos ruedas. Moto dibujada en azul: calzada obligatoria para las motos de dos ruedas.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-404",
+          "cita": "Obligación para los conductores de automóviles, excepto\nmotocicletas de dos ruedas y vehículos de tres ruedas\nasimilados a motocicletas"
+        }
+      ],
+      "huella": "ccc6bb656ad3"
+    },
+    {
+      "id": "B1-sen-0129",
+      "porque": "La señal de vía reservada y obligatoria para ciclos hace dos cosas: obliga a los ciclistas a circular por ella y prohíbe a los demás usuarios utilizarla. Un turismo no puede entrar.",
+      "descartes": {
+        "a": "Ir despacio no importa: la vía está prohibida a todos los demás usuarios.",
+        "b": "Esta señal no solo obliga a los ciclos: además prohíbe la vía a los demás usuarios."
+      },
+      "truco": "Fíjate en el nombre: si es «reservada y obligatoria» (ciclos, ciclomotores, VMP, peatones, animales de montura), obliga a esos y prohíbe a los demás; si solo es «obligatoria» (automóviles, motos, camiones, tractores, tracción animal…), obliga a esos sin prohibir la vía a nadie.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-406",
+          "cita": "independientemente\nde su masa, de circular por la calzada a cuya entrada esté\nsituada."
+        }
+      ],
+      "huella": "d7a1b2392040"
+    },
+    {
+      "id": "B1-sen-0130",
+      "porque": "Esta señal reserva la vía a los ciclomotores: obliga a sus conductores a circular por ella y prohíbe a los demás usuarios utilizarla.",
+      "descartes": {
+        "b": "Al ser «reservada», no la pueden usar otros vehículos: la señal prohíbe la vía a los demás usuarios.",
+        "c": "Las señales redondas azules obligan; la prohibición de entrada a ciclomotores es otra señal, la R-105, redonda con orla roja."
+      },
+      "truco": "Fíjate en el nombre: si es «reservada y obligatoria» (ciclos, ciclomotores, VMP, peatones, animales de montura), obliga a esos y prohíbe a los demás; si solo es «obligatoria» (automóviles, motos, camiones, tractores, tracción animal…), obliga a esos sin prohibir la vía a nadie.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-105",
+          "cita": "R-105 Entrada prohibida a ciclomotores"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-406",
+          "cita": "independientemente\nde su masa, de circular por la calzada a cuya entrada esté\nsituada."
+        }
+      ],
+      "huella": "e7b09c32ff9e"
+    },
+    {
+      "id": "B1-sen-0131",
+      "porque": "Esta señal azul obliga a los conductores de vehículos de tracción animal a usar el camino a cuya entrada está. Es una obligación para ellos, no una prohibición.",
+      "descartes": {
+        "a": "La prohibición de entrada a vehículos de tracción animal es otra señal, la R-113, redonda con orla roja.",
+        "c": "El camino para animales de montura tiene su propia señal, la R-409, con una persona a caballo."
+      },
+      "truco": "Fíjate en el nombre: si es «reservada y obligatoria» (ciclos, ciclomotores, VMP, peatones, animales de montura), obliga a esos y prohíbe a los demás; si solo es «obligatoria» (automóviles, motos, camiones, tractores, tracción animal…), obliga a esos sin prohibir la vía a nadie.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-113",
+          "cita": "R-113 Entrada prohibida a vehículos de tracción animal"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-409",
+          "cita": "Obligación para los jinetes de utilizar con sus animales de\nmontura el camino a cuya entrada esté situada"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-407a",
+          "cita": "Obligación para los conductores de ciclos de circular por la\nvía a cuya entrada esté situada y prohibición a los demás\nusuarios de la vía de utilizarla."
+        }
+      ],
+      "huella": "678d4d855a2a"
+    },
+    {
+      "id": "B1-sen-0132",
+      "porque": "Esta señal obliga a los jinetes a usar ese camino con sus animales de montura y prohíbe a los demás usuarios utilizarlo.",
+      "descartes": {
+        "b": "La prohibición de entrada a animales de montura es otra señal, la R-117, redonda con orla roja.",
+        "c": "No es una señal de peligro: es una señal azul de obligación para los jinetes."
+      },
+      "truco": "Fíjate en el nombre: si es «reservada y obligatoria» (ciclos, ciclomotores, VMP, peatones, animales de montura), obliga a esos y prohíbe a los demás; si solo es «obligatoria» (automóviles, motos, camiones, tractores, tracción animal…), obliga a esos sin prohibir la vía a nadie.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-117",
+          "cita": "R-117 Entrada prohibida a animales de montura"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-406",
+          "cita": "independientemente\nde su masa, de circular por la calzada a cuya entrada esté\nsituada."
+        }
+      ],
+      "huella": "10a2549ac518"
+    },
+    {
+      "id": "B1-sen-0134",
+      "porque": "Una cifra en una señal redonda azul es una velocidad mínima: obliga a circular, por lo menos, a esa velocidad, hasta otra señal de velocidad mínima diferente, una de fin de velocidad mínima o una de velocidad máxima de valor igual o inferior.",
+      "descartes": {
+        "a": "La velocidad máxima se indica con la señal redonda de orla roja; la azul marca un mínimo.",
+        "b": "La velocidad aconsejada no se indica con esta señal redonda de obligación; hay una señal propia de velocidad máxima aconsejada."
+      },
+      "truco": "Azul con cifra, velocidad mínima; azul con la cifra cruzada, se acaba ese mínimo. Las de velocidad máxima son las de orla roja.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-411",
+          "cita": "desde el lugar en que esté\nsituada hasta otra de velocidad mínima diferente, o de fin de\nvelocidad mínima o de velocidad máxima de valor igual o\ninferior."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "S-7",
+          "cita": "S-7 Velocidad máxima aconsejada"
+        }
+      ],
+      "huella": "9b839ac35462"
+    },
+    {
+      "id": "B1-sen-0135",
+      "porque": "Esta señal obliga a circular con el alumbrado, al menos, de corto alcance, sea cual sea la visibilidad o la iluminación de la vía, desde la señal hasta otra que marque el fin de esa obligación.",
+      "descartes": {
+        "b": "Pide como mínimo el alumbrado de corto alcance; no obliga a encender el de largo alcance.",
+        "c": "No es una recomendación ni depende de la niebla: obliga con independencia de las condiciones de visibilidad."
+      },
+      "truco": "Faro en azul: luces de corto alcance encendidas aunque sea de día y haya buena luz, hasta la señal de fin de esa obligación.",
+      "huella": "2c83af5045fb"
+    },
+    {
+      "id": "B1-sen-0136",
+      "porque": "Esta señal te prohíbe seguir sin cadenas para nieve u otros dispositivos antideslizantes autorizados, que actúen al menos en una rueda a cada lado del mismo eje motor, o sin neumáticos especiales de nieve.",
+      "descartes": {
+        "a": "No es una señal de peligro: es redonda y azul, de obligación.",
+        "c": "Es al revés: obliga a llevar puestas las cadenas u otro de los medios autorizados."
+      },
+      "truco": "Rueda con cadenas dibujada: cadenas, otros dispositivos antideslizantes autorizados o neumáticos especiales de nieve. Señal de neumáticos de invierno: solo valen neumáticos especiales de invierno.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-412b",
+          "cita": "Obligación de no proseguir la marcha sin neumáticos\nespeciales de invierno"
+        }
+      ],
+      "huella": "97967247880f"
+    },
+    {
+      "id": "B1-sen-0137",
+      "porque": "Esta señal obliga a circular por esa calzada a toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua. Con 5.000 litros, la obligación te alcanza.",
+      "descartes": {
+        "b": "Es al revés: no te prohíbe entrar, te obliga a circular por esa calzada.",
+        "c": "No es una recomendación: es una señal de obligación."
+      },
+      "truco": "Cisterna sobre ondas de agua: calzada obligatoria si llevas más de 1.000 litros de producto capaz de contaminar el agua.",
+      "huella": "6911a6f53f15"
+    },
+    {
+      "id": "B1-sen-0138",
+      "porque": "Esta señal marca un carril exclusivo para vehículos con equipo de telepeaje operativo: el pago se hace obligatoriamente por telepeaje, y quien circula por él debe llevar el medio técnico que lo permite.",
+      "descartes": {
+        "b": "Es justo lo contrario: en este carril no se paga en efectivo, sino mediante telepeaje.",
+        "c": "No reserva el carril por tipo de vehículo, sino a los que llevan equipo de telepeaje operativo."
+      },
+      "truco": "Telepeaje: si tu vehículo no lleva el medio técnico operativo, ese carril no es para ti.",
+      "huella": "4fd6e6aa0e7d"
+    },
+    {
+      "id": "v4a-sen-0022",
+      "porque": "Las señales redondas azules son de obligación. En la de sentido obligatorio, la flecha marca la dirección y el sentido que tienes que seguir: aquí, de frente. Por eso no puedes girar a la derecha ni a la izquierda, ni cambiar de sentido.",
+      "descartes": {
+        "a": "La señal no se limita a prohibir el cambio de sentido: obliga a seguir de frente, así que tampoco puedes girar.",
+        "b": "Las señales azules obligan, y obligarte a seguir una dirección supone que no puedes tomar las demás."
+      },
+      "truco": "Redonda azul con una sola flecha: es la única dirección que puedes tomar. Si tiene varias flechas, puedes elegir entre ellas y nada más.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-403a",
+          "cita": "Las flechas señalan las únicas direcciones y sentidos que los\nvehículos pueden tomar."
+        }
+      ],
+      "huella": "47ae4b658a4c"
+    },
+    {
+      "id": "v4a-sen-0023",
+      "porque": "Las dos flechas señalan los lados del refugio, la isleta o el obstáculo, y tienes que pasar obligatoriamente por uno de ellos: cualquiera de los dos vale.",
+      "descartes": {
+        "a": "No habla de giros en la intersección: indica por qué lados del obstáculo se puede pasar.",
+        "c": "Imponer un lado concreto es cosa de la señal de paso obligatorio con una sola flecha; esta tiene dos y permite cualquiera de los dos lados."
+      },
+      "truco": "Paso obligatorio: una flecha, un lado obligado; dos flechas, eliges cualquiera de los dos lados.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-401a",
+          "cita": "La flecha señala el lado del refugio, de la isleta o del obstáculo\npor el que los vehículos han de pasar obligatoriamente."
+        }
+      ],
+      "huella": "f3de524188be"
+    },
+    {
+      "id": "v4a-sen-0024",
+      "porque": "Esta señal obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, sea cual sea su masa. Solo si lleva una cifra de toneladas se limita a los que superan esa masa máxima autorizada. Sin cifra, tu furgoneta de 2.000 kg está obligada.",
+      "descartes": {
+        "a": "Sin cifra, la señal no se limita a los de más de 3.500 kg: obliga a todos, independientemente de su masa.",
+        "b": "Los vehículos que transportan mercancías peligrosas tienen su propia señal de calzada obligatoria, la R-414."
+      },
+      "truco": "Sin cifra, obliga a todos los camiones, tractocamiones y furgonetas; con cifra, solo a los que superen esa masa máxima autorizada.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-406",
+          "cita": "La inscripción de una cifra de tonelaje sobre la silueta\ndel vehículo o en una placa suplementaria, significa que la\nobligación solo se aplica cuando la masa máxima autorizada\ndel vehículo o del conjunto de vehículos supere la citada cifra."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-414",
+          "cita": "Obligación para los conductores de toda clase de vehículos\nque transporten mercancías peligrosas"
+        }
+      ],
+      "huella": "b619645e811e"
+    },
+    {
+      "id": "v4a-sen-0025",
+      "porque": "Esta señal de obligación te impide seguir la marcha sin neumáticos especiales de invierno. Al ser de obligación, no es una recomendación.",
+      "descartes": {
+        "a": "No es una recomendación: es una señal de obligación.",
+        "c": "No basta con llevar cadenas en el vehículo: la señal exige circular con neumáticos especiales de invierno."
+      },
+      "truco": "Rueda con cadenas dibujada: cadenas, otros dispositivos antideslizantes autorizados o neumáticos especiales de nieve. Señal de neumáticos de invierno: solo valen neumáticos especiales de invierno.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-412",
+          "cita": "Obligación de no proseguir la marcha sin cadenas para nieve\nu otros dispositivos antideslizantes autorizados"
+        }
+      ],
+      "huella": "fe836093b4e0"
+    },
+    {
+      "id": "v4a-sen-0026",
+      "porque": "Esta señal azul obliga a los conductores de tractores a usar el camino a cuya entrada está. No prohíbe el camino a los demás.",
+      "descartes": {
+        "a": "La entrada prohibida a tractores y otras máquinas agrícolas autopropulsadas es la R-111, redonda con orla roja.",
+        "b": "La señal no lleva ninguna cifra de velocidad: es la de camino obligatorio para tractores."
+      },
+      "truco": "Fíjate en el nombre: si es «reservada y obligatoria» (ciclos, ciclomotores, VMP, peatones, animales de montura), obliga a esos y prohíbe a los demás; si solo es «obligatoria» (automóviles, motos, camiones, tractores, tracción animal…), obliga a esos sin prohibir la vía a nadie.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-111",
+          "cita": "Prohibición de acceso a tractores y otras máquinas agrícolas\nautopropulsadas."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-407a",
+          "cita": "Obligación para los conductores de ciclos de circular por la\nvía a cuya entrada esté situada y prohibición a los demás\nusuarios de la vía de utilizarla."
+        }
+      ],
+      "huella": "02f292db2504"
+    },
+    {
+      "id": "v4a-sen-0027",
+      "porque": "Esta señal reserva la vía a los vehículos de movilidad personal: obliga a sus conductores a circular por ella y prohíbe a los demás usuarios utilizarla, bicicletas incluidas. Si la vía fuera para ciclos y VMP a la vez, la señal sería la R-421.",
+      "descartes": {
+        "b": "No es así: esta vía está reservada a los VMP y prohibida a los demás usuarios, ciclos incluidos.",
+        "c": "Ir a menos de 25 km/h no cambia nada: la vía está prohibida a los demás usuarios, bicicletas incluidas."
+      },
+      "truco": "Fíjate en el nombre: si es «reservada y obligatoria» (ciclos, ciclomotores, VMP, peatones, animales de montura), obliga a esos y prohíbe a los demás; si solo es «obligatoria» (automóviles, motos, camiones, tractores, tracción animal…), obliga a esos sin prohibir la vía a nadie.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-421",
+          "cita": "Obligación para los conductores de ciclos y de vehículos de\nmovilidad personal de circular por la vía a cuya entrada esté\nsituada"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-406",
+          "cita": "independientemente\nde su masa, de circular por la calzada a cuya entrada esté\nsituada."
+        }
+      ],
+      "huella": "878f7632bc5a"
+    },
+    {
+      "id": "v4a-sen-0028",
+      "porque": "Esta señal obliga a quienes van en bicicleta u otro ciclo a bajarse y continuar a pie. Si la obligación es solo en ciertos periodos, se indica con un panel complementario.",
+      "descartes": {
+        "a": "No es un camino reservado a peatones y ciclos: es la obligación de desmontar y seguir a pie.",
+        "c": "No prohíbe nada a los peatones: obliga a los ciclistas a seguir a pie."
+      },
+      "truco": null,
+      "huella": "983caeac009e"
+    },
+    {
+      "id": "v5c-obl-0001",
+      "porque": "La señal obliga a camiones, tractocamiones y furgones o furgonetas a circular por esa calzada, pero, a diferencia de las de vía «reservada y obligatoria», no prohíbe su uso a los demás. Un turismo puede circular por ella.",
+      "descartes": {
+        "b": "No es una calzada reservada: obliga a ciertos vehículos, pero no prohíbe la calzada a los demás.",
+        "c": "El remolque no tiene nada que ver: la señal no prohíbe esa calzada a los turismos."
+      },
+      "truco": "Fíjate en el nombre: si es «reservada y obligatoria» (ciclos, ciclomotores, VMP, peatones, animales de montura), obliga a esos y prohíbe a los demás; si solo es «obligatoria» (automóviles, motos, camiones, tractores, tracción animal…), obliga a esos sin prohibir la vía a nadie.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-407a",
+          "cita": "Obligación para los conductores de ciclos de circular por la\nvía a cuya entrada esté situada y prohibición a los demás\nusuarios de la vía de utilizarla."
+        }
+      ],
+      "huella": "a7755a4bc092"
+    },
+    {
+      "id": "x1b-0080",
+      "porque": "En esta señal de paso obligatorio, la flecha señala el lado del refugio, la isleta o el obstáculo por el que tienes que pasar obligatoriamente.",
+      "descartes": {
+        "a": "No habla de giros en el próximo cruce: indica el lado de la isleta por el que hay que pasar.",
+        "b": "Elegir el lado lo permite la señal con dos flechas; con una sola flecha, el lado es obligatorio."
+      },
+      "truco": "Paso obligatorio: una flecha, un lado obligado; dos flechas, eliges cualquiera de los dos lados.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-401c",
+          "cita": "Las flechas señalan los lados del refugio, de la isleta o del\nobstáculo por uno de los cuales los vehículos han de pasar\nobligatoriamente."
+        }
+      ],
+      "huella": "b26ba3373fa1"
+    },
+    {
+      "id": "x1b-0037",
+      "porque": "Está prohibido colocar sobre las señales o junto a ellas placas, carteles u otros objetos que puedan confundir, reducir su visibilidad o su eficacia, deslumbrar o distraer. Un cartel que reduce la visibilidad de una señal entra de lleno en esa prohibición.",
+      "descartes": {
+        "a": "El tamaño del cartel no importa: lo prohibido es que reduzca la visibilidad o la eficacia de la señal.",
+        "c": "La prohibición se fija en el efecto: si el cartel tapa parte de la señal y reduce su visibilidad, no se puede colocar."
+      },
+      "truco": null,
+      "huella": "7c6f318947d7"
+    },
+    {
+      "id": "x1b-0049",
+      "porque": "Las obras que alteran de cualquier modo la circulación tienen que estar señalizadas de día y de noche y, además, balizadas con luces durante la noche o cuando lo exijan las condiciones meteorológicas o ambientales. De ello se encarga quien realiza la obra.",
+      "descartes": {
+        "a": "La señalización no depende de que haya operarios trabajando: la obra debe estar señalizada de día y de noche mientras altere la circulación.",
+        "c": "También de día: la obra debe estar señalizada en todo momento, y de noche, además, balizada con luces."
+      },
+      "truco": null,
+      "huella": "339ed365ffaf"
+    },
+    {
+      "id": "x1b-0050",
+      "porque": "En un tramo en obras, las señales que ya estaban y que no se aplican mientras duran las obras se tapan con material adhesivo negro. Si ves una señal tapada así, no rige durante las obras.",
+      "descartes": {
+        "a": "Taparla con adhesivo negro significa justo lo contrario: esa señal no se aplica mientras duran las obras.",
+        "b": "Taparla no reduce la limitación a la mitad: simplemente deja de aplicarse mientras duran las obras."
+      },
+      "truco": "En obras manda el amarillo: la señal de obras siempre lo lleva, muchas señales de fondo blanco pasan a fondo amarillo, los carteles nuevos de orientación son amarillos con letras negras y las marcas viales nuevas, amarillas. Las señales que no se aplican durante la obra se tapan con adhesivo negro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "este catálogo solo incluye expresamente la señal P-18 Obras, ya\nque esta únicamente puede ser utilizada con fondo amarillo"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "Cuando en dichos tramos se\ndispongan señales de peligro y reglamentación cuyo fondo sea en su versión convencional\nde color blanco, estas tendrán fondo amarillo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "estos tendrían el fondo amarillo y los caracteres negros, con independencia\ndel tipo de carretera"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (Catálogo de marcas viales, 2)",
+          "cita": "en caso de utilizar nuevas marcas viales en\ntramos en los que se estén ejecutando obras, estas serán de color amarillo"
+        }
+      ],
+      "huella": "5c55279e5425"
+    },
+    {
+      "id": "x1b-0051",
+      "porque": "Si por unas obras hay que poner carteles de orientación nuevos, llevan fondo amarillo y caracteres negros, sea cual sea el tipo de carretera. El tipo de carretera se sigue deduciendo por el color del recuadro de identificación de la carretera, que no cambia.",
+      "descartes": {
+        "b": "No mantienen el color habitual: los carteles nuevos por obras son amarillos con letras negras, con independencia del tipo de carretera.",
+        "c": "El naranja es para la señalización circunstancial por causas distintas de las obras; los carteles nuevos por obras son amarillos con letras negras."
+      },
+      "truco": "En obras manda el amarillo: la señal de obras siempre lo lleva, muchas señales de fondo blanco pasan a fondo amarillo, los carteles nuevos de orientación son amarillos con letras negras y las marcas viales nuevas, amarillas. Las señales que no se aplican durante la obra se tapan con adhesivo negro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "esta se podrá deducir por el color del cajetín de\nidentificación de la carretera, que se mantendrá en todo caso del mismo color"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.6)",
+          "cita": "con la salvedad de que se utilizará color naranja en lugar de\namarillo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "este catálogo solo incluye expresamente la señal P-18 Obras, ya\nque esta únicamente puede ser utilizada con fondo amarillo"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "Cuando en dichos tramos se\ndispongan señales de peligro y reglamentación cuyo fondo sea en su versión convencional\nde color blanco, estas tendrán fondo amarillo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (Catálogo de marcas viales, 2)",
+          "cita": "en caso de utilizar nuevas marcas viales en\ntramos en los que se estén ejecutando obras, estas serán de color amarillo"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "deberán ser adecuadamente\ntapadas utilizando materiales adhesivos negros"
+        }
+      ],
+      "huella": "0af788d94317"
+    },
+    {
+      "id": "x1b-0052",
+      "porque": "Las marcas viales son normalmente blancas, pero las nuevas que se pintan en un tramo en obras son amarillas. Las que ya existían y siguen siendo de aplicación pueden quedarse blancas.",
+      "descartes": {
+        "a": "Blanco es el color normal de las marcas viales; las nuevas que se pintan en un tramo en obras son amarillas.",
+        "c": "El naranja no es el color de las marcas viales nuevas en obras: son amarillas."
+      },
+      "truco": "En obras manda el amarillo: la señal de obras siempre lo lleva, muchas señales de fondo blanco pasan a fondo amarillo, los carteles nuevos de orientación son amarillos con letras negras y las marcas viales nuevas, amarillas. Las señales que no se aplican durante la obra se tapan con adhesivo negro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (Catálogo de marcas viales, 2)",
+          "cita": "salvo en los casos concretos en que se especifique lo\ncontrario, las marcas viales contenidas en este catálogo serán de color blanco."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "este catálogo solo incluye expresamente la señal P-18 Obras, ya\nque esta únicamente puede ser utilizada con fondo amarillo"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "Cuando en dichos tramos se\ndispongan señales de peligro y reglamentación cuyo fondo sea en su versión convencional\nde color blanco, estas tendrán fondo amarillo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "estos tendrían el fondo amarillo y los caracteres negros, con independencia\ndel tipo de carretera"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+          "cita": "deberán ser adecuadamente\ntapadas utilizando materiales adhesivos negros"
+        }
+      ],
+      "huella": "877a8f2bd230"
+    },
+    {
+      "id": "B1-sen-0001",
+      "porque": "Cuando señales de distinto tipo dicen cosas diferentes, manda la que va antes en el orden de preferencia, y ese orden lo encabezan las señales y órdenes de los agentes. Por eso, si un agente te ordena detenerte, paras aunque el semáforo esté en verde.",
+      "descartes": {
+        "a": "El semáforo va por detrás del agente en el orden de preferencia: el verde no te permite desobedecer su orden.",
+        "c": "No tienen el mismo valor: las órdenes del agente prevalecen sobre los semáforos."
+      },
+      "truco": "Orden de preferencia, de más a menos: agentes, señalización circunstancial y balizamiento, semáforos, señales verticales y marcas viales. Solo entre señales del mismo tipo gana la más restrictiva.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1.c-e",
+          "cita": "c) Semáforos.\nd) Señales verticales de circulación.\ne) Marcas viales."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.2",
+          "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
+        }
+      ],
+      "huella": "1de22b438902"
+    },
+    {
+      "id": "B1-sen-0002",
+      "porque": "Cuando dos señales de distinto tipo se contradicen, manda la que va antes en el orden de preferencia, y los semáforos van antes que las señales verticales. Lo de «la más restrictiva» solo sirve entre señales del mismo tipo.",
+      "descartes": {
+        "b": "La más restrictiva solo prevalece entre señales del mismo tipo, y un semáforo y una señal vertical son de tipos distintos.",
+        "c": "Es al revés: los semáforos prevalecen sobre las señales verticales."
+      },
+      "truco": "Orden de preferencia, de más a menos: agentes, señalización circunstancial y balizamiento, semáforos, señales verticales y marcas viales. Solo entre señales del mismo tipo gana la más restrictiva.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1 y 133.2",
+          "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del\ntráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.2",
+          "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
+        }
+      ],
+      "huella": "22a88cef6c30"
+    },
+    {
+      "id": "B1-sen-0003",
+      "porque": "Una señal vertical y una marca vial son de tipos distintos, así que manda la que va antes en el orden de preferencia: la señal vertical. Por eso cumples el ceda el paso y no el STOP pintado.",
+      "descartes": {
+        "a": "La más restrictiva solo prevalece entre señales del mismo tipo; aquí una es vertical y la otra es una marca vial.",
+        "b": "La cercanía no cuenta: las señales verticales prevalecen sobre las marcas viales."
+      },
+      "truco": "Orden de preferencia, de más a menos: agentes, señalización circunstancial y balizamiento, semáforos, señales verticales y marcas viales. Solo entre señales del mismo tipo gana la más restrictiva.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1 y 133.2",
+          "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del\ntráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.2",
+          "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
+        }
+      ],
+      "huella": "0fc732582011"
+    },
+    {
+      "id": "B1-sen-0004",
+      "porque": "Si dos señales del mismo tipo, como dos señales verticales, parecen contradecirse, prevalece la más restrictiva. Si fueran de tipos distintos, mandaría la que va antes en el orden de preferencia.",
+      "descartes": {
+        "b": "La altura a la que está colocada una señal no es un criterio de la norma.",
+        "c": "La fecha de instalación de una señal no es un criterio de la norma."
+      },
+      "truco": "Orden de preferencia, de más a menos: agentes, señalización circunstancial y balizamiento, semáforos, señales verticales y marcas viales. Solo entre señales del mismo tipo gana la más restrictiva.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1 y 133.2",
+          "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del\ntráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.1.c-e",
+          "cita": "c) Semáforos.\nd) Señales verticales de circulación.\ne) Marcas viales."
+        }
+      ],
+      "huella": "6789d70a847c"
+    },
+    {
+      "id": "B1-sen-0005",
+      "porque": "El orden de preferencia es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; y marcas viales. Por encima de los semáforos solo están los agentes y la señalización circunstancial con el balizamiento.",
+      "descartes": {
+        "a": "Las señales verticales van por detrás de los semáforos en el orden de preferencia.",
+        "c": "Las marcas viales son las últimas del orden de preferencia."
+      },
+      "truco": "Orden de preferencia, de más a menos: agentes, señalización circunstancial y balizamiento, semáforos, señales verticales y marcas viales. Solo entre señales del mismo tipo gana la más restrictiva.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1 y 133.2",
+          "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del\ntráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.1.c-e",
+          "cita": "c) Semáforos.\nd) Señales verticales de circulación.\ne) Marcas viales."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.2",
+          "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
+        }
+      ],
+      "huella": "42318918bcbc"
+    },
+    {
+      "id": "B1-sen-0006",
+      "porque": "El amarillo intermitente no da paso libre: obliga a extremar la precaución y, en su caso, a ceder el paso, y la propia norma dice que no exime de cumplir otras señales que obliguen a detenerse. Por eso el STOP te sigue obligando a parar.",
+      "descartes": {
+        "a": "Aunque los semáforos prevalecen en general sobre las señales verticales, la norma dice expresamente que el amarillo intermitente no exime de las señales que obligan a detenerse.",
+        "b": "El STOP obliga a detenerse en todo caso, vengan o no vehículos y por el lado que sea."
+      },
+      "truco": "El amarillo intermitente no es un verde: precaución, ceder el paso si toca y, si hay un STOP, parar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1.c-e",
+          "cita": "c) Semáforos.\nd) Señales verticales de circulación.\ne) Marcas viales."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "56.5",
+          "cita": "llegando a detener por completo su marcha cuando sea preciso y, en todo caso, cuando así lo indique la señal\ncorrespondiente."
+        }
+      ],
+      "huella": "0b3703bfc5dc"
+    },
+    {
+      "id": "x1b-0054",
+      "porque": "Un panel complementario con la silueta de un vehículo indica que la señal solo afecta a ese tipo de vehículo. Si sobre la silueta pone «EXCEPTO», es al revés: la señal afecta a todos los vehículos menos a ese. Aquí, a todos menos a los camiones.",
+      "descartes": {
+        "b": "Afectar solo a los camiones es lo que indica el panel con la silueta sin la palabra «EXCEPTO».",
+        "c": "El panel no habla de precaución: dice a quién no se aplica la señal."
+      },
+      "truco": "Silueta sola: la señal es solo para ese vehículo. Silueta con «EXCEPTO»: para todos menos ese.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5 (Catálogo, tomo I, 2.3)",
+          "cita": "Los paneles complementarios S-880 se utilizan para indicar que la señal bajo la que se\nsitúan únicamente afecta a un tipo de vehículo."
+        }
+      ],
+      "huella": "d03a6710b6ad"
+    },
+    {
+      "id": "v4a-sen-0018",
+      "porque": "La señal de parada y estacionamiento prohibidos rige en el lado de la calzada donde está colocada y, salvo indicación en contrario, desde la vertical de la señal hasta la intersección más próxima en el sentido de la marcha.",
+      "descartes": {
+        "b": "Solo afecta al lado de la calzada donde está la señal, y termina en la intersección más próxima; la señal de fin de prohibiciones se refiere a las prohibiciones para vehículos en movimiento.",
+        "c": "La norma no fija 50 metros: la prohibición llega hasta la intersección más próxima, salvo indicación en contrario."
+      },
+      "truco": "Parada y estacionamiento prohibidos: en el lado de la calzada donde está la señal, desde la señal hasta el próximo cruce en tu sentido, salvo que se indique otra cosa.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-500",
+          "cita": "Señala el lugar desde el que todas las prohibiciones\nespecíficas indicadas por señales anteriores de prohibición\npara vehículos en movimiento dejan de tener aplicación."
+        }
+      ],
+      "huella": "d7b7fa8c953a"
+    },
+    {
+      "id": "v4a-sen-0019",
+      "porque": "La señal de estacionamiento prohibido la primera quincena rige desde las 9 horas del día 1 hasta las 9 horas del día 16. A las 8:00 del día 1 todavía no ha empezado, así que puedes estacionar, aunque desde las 9:00 ya estaría prohibido.",
+      "descartes": {
+        "a": "La prohibición no empieza a las 0 horas del día 1, sino a las 9 horas.",
+        "b": "Esta señal nunca prohíbe la parada, y a las 8:00 del día 1 tampoco prohíbe todavía el estacionamiento."
+      },
+      "truco": "Las quincenas cambian a las 9 de la mañana: la primera va del día 1 a las 9 al día 16 a las 9; la segunda, del día 16 a las 9 al día 1 a las 9. Ninguna de las dos prohíbe la parada.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-308d",
+          "cita": "desde las 9 horas del día 16 hasta las 9\nhoras del día 1."
+        }
+      ],
+      "huella": "c712f1b578a2"
+    },
+    {
+      "id": "v4a-sen-0020",
+      "porque": "La señal de estacionamiento prohibido la segunda quincena rige desde las 9 horas del día 16 hasta las 9 horas del día 1 del mes siguiente. El cambio de quincena es siempre a las 9 de la mañana.",
+      "descartes": {
+        "a": "La prohibición no va de las 0 horas del día 16 a las 24 horas del último día: va de las 9 del día 16 a las 9 del día 1.",
+        "c": "La segunda quincena empieza el día 16, no el 15, y termina a las 9 horas del día 1, no del día 31."
+      },
+      "truco": "Las quincenas cambian a las 9 de la mañana: la primera va del día 1 a las 9 al día 16 a las 9; la segunda, del día 16 a las 9 al día 1 a las 9. Ninguna de las dos prohíbe la parada.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-308c",
+          "cita": "desde las 9 horas del día 1 hasta las 9\nhoras del día 16."
+        }
+      ],
+      "huella": "84d09b900f95"
+    },
+    {
+      "id": "v4a-sen-0021",
+      "porque": "Esta señal indica una zona donde se puede estacionar, pero por tiempo limitado, y obliga a indicar de forma reglamentaria la hora en que empiezas. Puede indicar también el tiempo máximo, el horario de la limitación y si es de pago.",
+      "descartes": {
+        "b": "No es una prohibición: permite estacionar, aunque con duración limitada.",
+        "c": "Sí se permite estacionar, solo que por un tiempo limitado."
+      },
+      "truco": null,
+      "huella": "ab6e3cd8f858"
+    },
+    {
+      "id": "B1-sen-0035",
+      "porque": "Nadie debe entrar en un paso a nivel mientras las barreras o semibarreras estén atravesadas en la vía o en movimiento, tanto para levantarse como para bajarse. Hay que esperar a que dejen de moverse.",
+      "descartes": {
+        "a": "Mientras la barrera se mueva, aunque sea para abrirse, no se puede entrar.",
+        "b": "No ver ningún tren no basta: la barrera en movimiento ya prohíbe la entrada."
+      },
+      "truco": "Barrera arriba y quieta: puedes pasar. Barrera bajada o moviéndose, suba o baje: no entres.",
+      "huella": "928819a36f7a"
+    },
+    {
+      "id": "B1-sen-0080",
+      "porque": "El aspa (cruz de San Andrés) de borde rojo advierte de la presencia inmediata de un paso a nivel sin barreras: el paso está ahí mismo.",
+      "descartes": {
+        "a": "Un paso a nivel con barreras se anuncia con otra señal, la P-7; el aspa indica uno sin barreras.",
+        "c": "No es una señal de prohibición: advierte de un paso a nivel sin barreras."
+      },
+      "truco": "Aspa (cruz de San Andrés): paso a nivel sin barreras, ya ahí mismo. Aspa doble: además, con más de una vía férrea.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-7",
+          "cita": "Peligro por la proximidad de un paso a nivel provisto de barreras o\nsemibarreras."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-11a",
+          "cita": "Peligro por la presencia inmediata de un paso a nivel sin barreras\ncon más de una vía férrea."
+        }
+      ],
+      "huella": "05e0a75b622a"
+    },
+    {
+      "id": "B1-sen-0081",
+      "porque": "La señal de aspa doble advierte de la presencia inmediata de un paso a nivel sin barreras con más de una vía férrea.",
+      "descartes": {
+        "b": "El aspa no anuncia barreras: estas señales advierten de pasos a nivel sin barreras.",
+        "c": "No habla de tranvías ni te da prioridad: advierte de un paso a nivel sin barreras con más de una vía férrea."
+      },
+      "truco": "Aspa (cruz de San Andrés): paso a nivel sin barreras, ya ahí mismo. Aspa doble: además, con más de una vía férrea.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-11",
+          "cita": "Peligro por la presencia inmediata de un paso a nivel sin barreras"
+        }
+      ],
+      "huella": "57fa9037d4f7"
+    },
+    {
+      "id": "v4a-sen-0002",
+      "porque": "Las balizas de aproximación funcionan como una cuenta atrás hacia un paso a nivel, un puente móvil o un muelle: tres franjas rojas, 200 m; dos franjas, 150 m; una franja, 100 m. Esta tiene dos franjas, así que faltan 150 m.",
+      "descartes": {
+        "a": "100 metros corresponde a la baliza de una sola franja; además, la baliza no dice si el paso a nivel tiene barreras.",
+        "c": "No anuncia el final de un carril de aceleración: anuncia un paso a nivel, un puente móvil o un muelle."
+      },
+      "truco": "Cuenta atrás de franjas rojas: tres, 200 m; dos, 150 m; una, 100 m. Al final espera un paso a nivel, un puente móvil o un muelle.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-9a, P-9b y P-9c",
+          "cita": "a una distancia de 200 m. Esta baliza se sitúa en el lado derecho\nde la calzada y va siempre acompañada de la señal P-5, P-7, P-8\noP-27."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-9c",
+          "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle\na una distancia de 100 m."
+        }
+      ],
+      "huella": "4417a944bc4b"
+    },
+    {
+      "id": "v5c-pn-0001",
+      "porque": "La baliza de tres franjas, la de 200 metros, va siempre acompañada de una señal de peligro de lo que viene: puente móvil, paso a nivel con barreras, paso a nivel sin barreras o muelle. De las opciones, solo el paso a nivel con barreras está entre ellas.",
+      "descartes": {
+        "a": "La curva peligrosa no está entre las señales que acompañan a esta baliza: son las de puente móvil, paso a nivel con o sin barreras y muelle.",
+        "b": "El estrechamiento de calzada no está entre las señales que acompañan a esta baliza: son las de puente móvil, paso a nivel con o sin barreras y muelle."
+      },
+      "truco": "Cuenta atrás de franjas rojas: tres, 200 m; dos, 150 m; una, 100 m. Al final espera un paso a nivel, un puente móvil o un muelle.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-9b",
+          "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle\na una distancia de 150 m."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-9c",
+          "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle\na una distancia de 100 m."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-7",
+          "cita": "P-7 Paso a nivel con barreras"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-8",
+          "cita": "P-8 Paso a nivel sin barreras"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-27",
+          "cita": "P-27 Muelle"
+        }
+      ],
+      "huella": "f2a8e0835e95"
+    },
+    {
+      "id": "v5c-pn-0002",
+      "porque": "Las balizas de aproximación funcionan como una cuenta atrás: tres franjas rojas, 200 m; dos franjas, 150 m; una franja, 100 m. La de una sola franja indica que el paso a nivel, el puente móvil o el muelle está a 100 metros.",
+      "descartes": {
+        "a": "150 metros corresponde a la baliza de dos franjas.",
+        "c": "La baliza no dice si el paso a nivel tiene barreras: indica la distancia que falta."
+      },
+      "truco": "Cuenta atrás de franjas rojas: tres, 200 m; dos, 150 m; una, 100 m. Al final espera un paso a nivel, un puente móvil o un muelle.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-9a, P-9b y P-9c",
+          "cita": "a una distancia de 200 m. Esta baliza se sitúa en el lado derecho\nde la calzada y va siempre acompañada de la señal P-5, P-7, P-8\noP-27."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "P-9b",
+          "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle\na una distancia de 150 m."
+        }
+      ],
+      "huella": "98c611af58dd"
+    },
+    {
+      "id": "x1b-0039",
+      "porque": "La flecha pintada es una marca vial y los conos son balizamiento circunstancial. En el orden de preferencia, la señalización y el balizamiento circunstancial están por encima de las marcas viales, que son las últimas. Mandan los conos.",
+      "descartes": {
+        "b": "Estar pintada en tu carril no le da preferencia: las marcas viales son las últimas del orden.",
+        "c": "Es al revés: el balizamiento prevalece sobre las marcas viales."
+      },
+      "truco": "Orden de preferencia, de más a menos: agentes, señalización circunstancial y balizamiento, semáforos, señales verticales y marcas viales. Solo entre señales del mismo tipo gana la más restrictiva.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "133.1 y 133.2",
+          "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del\ntráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.1.c-e",
+          "cita": "c) Semáforos.\nd) Señales verticales de circulación.\ne) Marcas viales."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "133.2",
+          "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
+        }
+      ],
+      "huella": "96e23a9d95a0"
+    },
+    {
+      "id": "B1-sen-0103",
+      "porque": "El círculo blanco con orla roja y sin ningún símbolo es la señal de circulación prohibida: prohíbe circular a toda clase de vehículos en ambos sentidos.",
+      "descartes": {
+        "a": "La entrada prohibida solo a vehículos de motor tiene su propia señal, la R-102.",
+        "b": "El fin de prohibiciones es otra señal, la R-500; esta prohíbe circular."
+      },
+      "truco": "Círculo vacío con orla roja: no pasa ningún vehículo, en ningún sentido.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-102",
+          "cita": "R-102 Entrada prohibida a vehículos de motor"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "R-500",
+          "cita": "R-500 Fin de prohibiciones"
+        }
+      ],
+      "huella": "36d09154de34"
+    }
+  ]
+}

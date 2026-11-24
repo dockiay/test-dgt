@@ -19,7 +19,8 @@ Antes hay que generar data/preguntas.js con tools/build_data.py.
      - contienen el texto de la respuesta correcta,
      - vienen de preguntas con imagen (su explicación suele depender del dibujo), no se entienden
        sin su pregunta (empiezan sin sujeto o dicen «esta señal») o miden más de 240 caracteres,
-     - están en la lista de exclusiones de preguntas/porques-excluidos.json (revisión humana).
+     - están en preguntas/porques-excluidos.json (revisión humana): «nunca_distractora» las quita de
+       todas las preguntas y «excluir» quita parejas concretas.
    La elección es determinista (no cambia entre ejecuciones si no cambian los bancos).
 """
 import hashlib, json, os, re, sys, unicodedata
@@ -118,11 +119,11 @@ def comprobar_lecciones(grupos, comprobar):
     return errores, avisos, temas_vistos
 
 
-def elegir_porques(preguntas, excluidos):
+def elegir_porques(preguntas, excluidos, nunca=frozenset()):
     por_sub, por_tema, por_materia = {}, {}, {}
     for q in preguntas:
         e = q.get("explicacion") or ""
-        if q.get("imagen") or not e or len(e) > 240 or e.split()[0].strip(",:") in SIN_SUJETO or DEICTICO.search(e):
+        if q["id"] in nunca or q.get("imagen") or not e or len(e) > 240 or e.split()[0].strip(",:") in SIN_SUJETO or DEICTICO.search(e):
             continue
         por_sub.setdefault((q["tema"], q.get("subtema")), []).append(q)
         por_tema.setdefault(q["tema"], []).append(q)
@@ -176,7 +177,8 @@ def main():
                  "o usa --sin-comprobar-citas (solo para pruebas; no publiques así).")
     lecciones = json.load(open(os.path.join(WEB, "preguntas", "errores-tipicos.json"), encoding="utf-8"))
     exc_ruta = os.path.join(WEB, "preguntas", "porques-excluidos.json")
-    excluidos = json.load(open(exc_ruta, encoding="utf-8")).get("excluir", {}) if os.path.isfile(exc_ruta) else {}
+    exc = json.load(open(exc_ruta, encoding="utf-8")) if os.path.isfile(exc_ruta) else {}
+    excluidos, nunca = exc.get("excluir", {}), set(exc.get("nunca_distractora", []))
     preguntas = leer_banco()
     errores, avisos, temas = comprobar_lecciones(lecciones["grupos"], comprobar)
     temas_banco = {q["tema"] for q in preguntas}
@@ -189,7 +191,7 @@ def main():
         for e in errores:
             print("ERROR", e)
         sys.exit(f"{len(errores)} errores en preguntas/errores-tipicos.json; no se escribe data/errores.js")
-    porques, sin = elegir_porques(preguntas, excluidos)
+    porques, sin = elegir_porques(preguntas, excluidos, nunca)
     salida = {"lecciones": lecciones, "porques": porques}
     with open(os.path.join(WEB, "data", "errores.js"), "w", encoding="utf-8") as o:
         o.write("// Generado por tools/build_errores.py. No editar a mano.\n")

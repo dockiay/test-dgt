@@ -1,0 +1,44 @@
+{
+ "nota": "Revisión independiente del 24/11/2026 (preguntas/revision-errores-tipicos.json en la carpeta del proyecto). nunca_distractora: explicaciones que no se entienden fuera de su pregunta. excluir: parejas en que la distractora también explica la respuesta.",
+ "nunca_distractora": [
+  "A-est-0005",
+  "A-par-0007",
+  "B1-sen-0034",
+  "adel-0003",
+  "vel-0005",
+  "vel-0012",
+  "vel-0015",
+  "arc-0006",
+  "E-aux-0003",
+  "E-mec-0006"
+ ],
+ "excluir": {
+  "B2-sen-0004": [
+   "B2-sen-0006"
+  ],
+  "C-doc-0009": [
+   "C-doc-0007"
+  ],
+  "C-luc-0005": [
+   "C-luc-0003"
+  ],
+  "D-alc-0006": [
+   "D-alc-0003"
+  ],
+  "D-mov-0001": [
+   "D-mov-0007"
+  ],
+  "D-mov-0006": [
+   "D-mov-0007"
+  ],
+  "D-tre-0003": [
+   "D-fat-0003"
+  ],
+  "E-fre-0002": [
+   "E-fre-0001"
+  ],
+  "res-alc-0001": [
+   "D-alc-0017"
+  ]
+ }
+}

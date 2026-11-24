@@ -154,7 +154,7 @@
    "trampa": "No recordar cuándo se adelanta por la derecha, dónde está prohibido o cómo se adelanta a un ciclista.",
    "puntos": [
     {
-     "texto": "Se adelanta por la derecha cuando el de delante indica claramente que va a girar a la izquierda o a parar en ese lado.",
+     "texto": "Se adelanta por la derecha, si hay espacio suficiente y con las máximas precauciones, cuando el de delante indica claramente que va a girar a la izquierda o a parar en ese lado.",
      "norma": "RGC",
      "articulo": "82.2",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a82",
@@ -175,11 +175,11 @@
      "cita": "En las intersecciones y en sus proximidades, salvo cuando: 1.º Se trate de una plaza de circulación giratoria o glorieta. 2.º El adelantamiento deba efectuarse por la derecha, según lo previsto en el artículo 82.2. 3.º La calzada en que se realice goce de prioridad en la intersección y haya señal expresa que lo indique. 4.º El adelantamiento se realice a vehículos de dos ruedas"
     },
     {
-     "texto": "Al adelantar a ciclistas, peatones, ciclomotores o vehículos de movilidad personal hay que dejar al menos 1,5 metros, ocupando parte o todo el carril contiguo.",
+     "texto": "Al adelantar a ciclistas, peatones, animales, vehículos de tracción animal, ciclomotores o vehículos de movilidad personal hay que dejar al menos 1,5 metros, ocupando parte o todo el carril contiguo; si hay más de un carril por sentido, hay que cambiar de carril por completo.",
      "norma": "RGC",
      "articulo": "85.4",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
-     "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas, el conductor que adelanta deberá tener especial cuidado con la maniobra, con objeto de evitar crear cualquier situación de peligro para éstos. El conductor de un vehículo que pretenda realizar un adelantamiento en los casos previstos en el párrafo anterior, debe efectuarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros"
+     "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas, el conductor que adelanta deberá tener especial cuidado con la maniobra, con objeto de evitar crear cualquier situación de peligro para éstos. El conductor de un vehículo que pretenda realizar un adelantamiento en los casos previstos en el párrafo anterior, debe efectuarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril"
     },
     {
      "texto": "Fuera de poblado, al adelantarlos hay que ir al menos 20 km/h por debajo del límite de la vía.",
@@ -246,7 +246,7 @@
    "trampa": "No saber cuándo es obligatoria la luz larga, cuándo hay que cambiar a la corta o cuándo se puede encender la antiniebla trasera.",
    "puntos": [
     {
-     "texto": "La luz larga es obligatoria de noche, fuera de poblado, a más de 40 km/h y en vías insuficientemente iluminadas, salvo cuando haya que usar la corta.",
+     "texto": "Por encima de 40 km/h, la luz larga es obligatoria de noche fuera de poblado en vías insuficientemente iluminadas, y a cualquier hora en túneles y pasos inferiores insuficientemente iluminados, salvo cuando haya que usar la corta.",
      "norma": "RGC",
      "articulo": "100.1",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a100",
@@ -274,7 +274,7 @@
      "cita": "El alumbrado de largo alcance o de carretera deberá ser sustituido por el de corto alcance o de cruce tan pronto como se aprecie la posibilidad de producir deslumbramiento a otros usuarios de la misma vía o de cualquier otra vía de comunicación, y muy especialmente a los conductores de vehículos que circulen en sentido contrario y aunque éstos no cumplan esta prescripción"
     },
     {
-     "texto": "La antiniebla trasera solo se enciende en condiciones especialmente desfavorables, como niebla espesa, lluvia muy intensa o fuerte nevada.",
+     "texto": "La antiniebla trasera solo se enciende en condiciones especialmente desfavorables, como niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
      "norma": "RGC",
      "articulo": "106.2",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a106",
@@ -393,11 +393,11 @@
      "cita": "Transcurridos dos años sin haber sido sancionados en firme en vía administrativa por la comisión de infracciones que lleven aparejada la pérdida de puntos, el titular de un permiso o licencia de conducción afectado por la pérdida parcial de puntos recuperará la totalidad del crédito inicial de doce puntos."
     },
     {
-     "texto": "Con un curso de sensibilización se recuperan hasta 6 puntos, una vez cada dos años.",
+     "texto": "Con un curso de sensibilización se recuperan hasta 6 puntos, una vez cada dos años (los conductores profesionales, una vez al año).",
      "norma": "LSV",
      "articulo": "65.4",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a65",
-     "cita": "podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años, realizando y superando con aprovechamiento un curso de sensibilización y reeducación vial"
+     "cita": "podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años, realizando y superando con aprovechamiento un curso de sensibilización y reeducación vial, con la excepción de los conductores profesionales que podrán realizar el citado curso con frecuencia anual"
     }
    ]
   },

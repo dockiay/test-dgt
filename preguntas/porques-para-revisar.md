@@ -152,8 +152,8 @@ Fuera de poblado, un vehículo especial sin remolque, con señalización de fren
 Respuesta: **70 km/h.**
 
 - ✔ Los vehículos especiales tienen 40 km/h, salvo que puedan superar 60 km/h en llano y cumplan las normas de los vehículos: entonces 70 km/h. Si no tienen señalización de frenado, llevan remolque o son motocultores, 25 km/h. _(RGC 48.1.c.2º)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
 - ✘ `vel-0018` En travesías y en vías urbanas de dos o más carriles por sentido, los vehículos con mercancías peligrosas circulan como máximo a 40 km/h. _(RGC 50.4)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## res-vel-0002
 
@@ -350,8 +350,8 @@ Una persona adulta que conduce un patinete eléctrico (vehículo de movilidad pe
 Respuesta: **0,25 mg/l.**
 
 - ✔ El VMP es un vehículo y la tasa general para conductores de vehículos es 0,25 mg/l en aire espirado (0,5 g/l en sangre). Los conductores menores de edad no pueden tener ninguna tasa (0). _(RGC 20)_
-- ✘ `D-alc-0017` En ningún caso el conductor menor de edad puede circular con una tasa de alcohol superior a 0 g/l en sangre o 0 mg/l en aire espirado, tenga la antigüedad de permiso que tenga. _(LSV 14.1)_
 - ✘ `D-alc-0001` El alcohol produce falsa seguridad en uno mismo, más exposición a riesgos, más faltas y un trato más agresivo o impulsivo hacia otros conductores. _(MANUAL_DGT Tema 3, Efectos del alcohol mientras conduces (pág. 56))_
+- ✘ `D-alc-0004` El momento en que la tasa de alcoholemia es más alta es aproximadamente una hora después de beber; después baja muy poco a poco. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 55))_
 
 ## res-fat-0001
 
@@ -1296,7 +1296,7 @@ Respuesta: **Por la derecha.**
 
 - ✔ Es obligatorio circular por la derecha para quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas o VMP. _(RGC 122.2.a)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
-- ✘ `arc-0006` Se llevan en el lado más próximo al centro de la calzada. _(RGC 123.2)_
+- ✘ `arc-0012` Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. _(RGC 32.1)_
 
 ## arc-0003
 
@@ -1431,7 +1431,7 @@ Respuesta: **Máxima 80 km/h y mínima 60 km/h.**
 
 - ✔ Se circula con al menos la luz de cruce, de día y de noche, a un máximo de 80 km/h y un mínimo de 60 km/h, o inferiores si así se señaliza. _(RGC 41.1)_
 - ✘ `cesp-0006` El uso del carril VAO se limita a motocicletas, turismos y mixtos adaptables, y está prohibido al resto, incluidos los turismos con remolque. _(RGC 35.2.a)_
-- ✘ `vel-0015` Los carriles reservados para determinados usuarios o para transporte público no se contabilizan, así que queda un único carril por sentido: 30 km/h. _(RGC 50.1)_
+- ✘ `A-pri-0003` Los vehículos que circulan por raíles tienen prioridad de paso sobre los demás usuarios en las intersecciones sin señalizar. _(RGC 57.1.b)_
 
 ## cesp-0003
 
@@ -1583,7 +1583,7 @@ Respuesta: **Mantener al menos 1,5 metros y reducir la velocidad al menos 20 km/
 Respuesta: **120 km/h.**
 
 - ✔ Para turismos, motocicletas, autocaravanas de hasta 3.500 kg y pick-up, el límite genérico en autopista y autovía es 120 km/h. _(RGC 48.1.a)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 - ✘ `vel-0014` En vías con plataforma única de calzada y acera el límite genérico es 20 km/h. _(RGC 50.1.a)_
 
 ## vel-0002
@@ -1592,8 +1592,8 @@ Respuesta: **120 km/h.**
 Respuesta: **90 km/h.**
 
 - ✔ El límite genérico de turismos y motocicletas en carretera convencional es 90 km/h (el titular de la vía puede fijar 100 km/h si hay separación física de sentidos). _(RGC 48.1.a)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
 - ✘ `vel-0018` En travesías y en vías urbanas de dos o más carriles por sentido, los vehículos con mercancías peligrosas circulan como máximo a 40 km/h. _(RGC 50.4)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## vel-0003
 
@@ -1602,7 +1602,7 @@ Respuesta: **100 km/h.**
 
 - ✔ Autobuses, derivados de turismo y mixtos adaptables: 100 km/h en autopista y autovía y 90 km/h en convencional. _(RGC 48.1.a)_
 - ✘ `vel-0017` El límite genérico en autopistas y autovías que transcurren dentro de poblado es 80 km/h (ampliable con señalización específica). _(RGC 50.6)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## vel-0004
 
@@ -1611,7 +1611,7 @@ Respuesta: **90 km/h.**
 
 - ✔ Los automóviles con remolque están en el grupo de camiones, furgonetas y vehículos articulados: 90 km/h en autopista y autovía y 80 km/h en convencional. _(RGC 48.1.a)_
 - ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
-- ✘ `vel-0015` Los carriles reservados para determinados usuarios o para transporte público no se contabilizan, así que queda un único carril por sentido: 30 km/h. _(RGC 50.1)_
+- ✘ `vel-0017` El límite genérico en autopistas y autovías que transcurren dentro de poblado es 80 km/h (ampliable con señalización específica). _(RGC 50.6)_
 
 ## vel-0005
 
@@ -1629,7 +1629,7 @@ Respuesta: **70 km/h.**
 
 - ✔ El límite del camión en convencional es 80 km/h y se reduce 10 km/h por llevar mercancías peligrosas: 70 km/h. _(RGC 48.1.b)_
 - ✘ `vel-0018` En travesías y en vías urbanas de dos o más carriles por sentido, los vehículos con mercancías peligrosas circulan como máximo a 40 km/h. _(RGC 50.4)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## vel-0007
 
@@ -1637,8 +1637,8 @@ Respuesta: **70 km/h.**
 Respuesta: **25 km/h.**
 
 - ✔ Los vehículos especiales que carecen de señalización de frenado, llevan remolque o son motocultores tienen un máximo de 25 km/h. _(RGC 48.1.c)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
 - ✘ `vel-0013` El límite genérico en vías urbanas de un único carril por sentido es 30 km/h. _(RGC 50.1.b)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## vel-0008
 
@@ -1656,7 +1656,7 @@ Respuesta: **70 km/h.**
 
 - ✔ A los vehículos de tres ruedas y cuadriciclos se les aplica el límite de 70 km/h en cualquier vía donde esté permitida su circulación. _(RGC 48.1.h)_
 - ✘ `vel-0018` En travesías y en vías urbanas de dos o más carriles por sentido, los vehículos con mercancías peligrosas circulan como máximo a 40 km/h. _(RGC 50.4)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## vel-0010
 
@@ -1664,7 +1664,7 @@ Respuesta: **70 km/h.**
 Respuesta: **30 km/h.**
 
 - ✔ En las vías sin pavimentar el límite de velocidad máximo es de 30 km/h. _(RGC 48.1.f)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 - ✘ `vel-0017` El límite genérico en autopistas y autovías que transcurren dentro de poblado es 80 km/h (ampliable con señalización específica). _(RGC 50.6)_
 
 ## vel-0011
@@ -1692,7 +1692,7 @@ Respuesta: **30 km/h.**
 
 - ✔ El límite genérico en vías urbanas de un único carril por sentido es 30 km/h. _(RGC 50.1.b)_
 - ✘ `vel-0006` El límite del camión en convencional es 80 km/h y se reduce 10 km/h por llevar mercancías peligrosas: 70 km/h. _(RGC 48.1.b)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## vel-0014
 
@@ -1718,8 +1718,8 @@ Respuesta: **30 km/h, porque los carriles reservados no se cuentan.**
 Respuesta: **50 km/h para todo tipo de vehículos.**
 
 - ✔ El límite genérico en travesías es 50 km/h para todo tipo de vehículos. _(RGC 50.5)_
-- ✘ `vel-0005` El transporte escolar y de menores reduce en 10 km/h la velocidad máxima de su vehículo y vía: 100 − 10 = 90 km/h. _(RGC 48.1.b)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
+- ✘ `vel-0001` Para turismos, motocicletas, autocaravanas de hasta 3.500 kg y pick-up, el límite genérico en autopista y autovía es 120 km/h. _(RGC 48.1.a)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## vel-0017
 
@@ -1728,7 +1728,7 @@ Respuesta: **80 km/h.**
 
 - ✔ El límite genérico en autopistas y autovías que transcurren dentro de poblado es 80 km/h (ampliable con señalización específica). _(RGC 50.6)_
 - ✘ `vel-0009` A los vehículos de tres ruedas y cuadriciclos se les aplica el límite de 70 km/h en cualquier vía donde esté permitida su circulación. _(RGC 48.1.h)_
-- ✘ `vel-0012` En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h. _(RGC 49.1)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 
 ## vel-0018
 
@@ -1809,7 +1809,7 @@ Respuesta: **Abstenerse de girar hasta que la velocidad y la distancia del otro 
 
 - ✔ Quien va a girar debe cerciorarse de que la velocidad y la distancia de los vehículos que se acercan en sentido contrario le permiten hacer la maniobra sin peligro y, si no es así, abstenerse. _(RGC 74.1)_
 - ✘ `A-urg-0003` Al percibir las señales de un vehículo prioritario, los demás conductores deben facilitarle el paso según las circunstancias, apartándose normalmente a la derecha o deteniéndose si fuera preciso. _(RGC 69)_
-- ✘ `A-est-0005` Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
+- ✘ `A-cic-0001` Los ciclistas que circulan en grupo tienen prioridad cuando el primero ha iniciado ya el cruce o ha entrado en una glorieta; el grupo se trata como una unidad. _(RGC 64.2.c)_
 
 ## A-pri-0009
 
@@ -1844,8 +1844,8 @@ Unos peatones acaban de bajar de un autobús en una parada señalizada y se encu
 Respuesta: **Sí, mientras se encuentren entre el autobús y la zona peatonal o refugio más próximo.**
 
 - ✔ Los peatones que vayan a subir o hayan bajado de un vehículo de transporte colectivo, en una parada señalizada, tienen prioridad mientras estén entre el vehículo y la zona peatonal o refugio más próximo. _(RGC 65.1.d)_
-- ✘ `A-est-0005` Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
 - ✘ `A-est-0001` En los tramos donde por su estrechez es imposible o muy difícil el paso simultáneo y no hay señalización, tiene preferencia el que hubiese entrado primero. _(RGC 60.1)_
+- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
 
 ## A-pea-0004
 
@@ -1953,7 +1953,7 @@ Respuesta: **No, debe respetar las normas de circulación, sobre todo en las int
 
 - ✔ Los vehículos no prioritarios en servicio de urgencia deben respetar las normas de circulación, sobre todo en las intersecciones; los demás usuarios deben facilitarles el paso. _(RGC 70.2)_
 - ✘ `A-cic-0002` Los ciclistas tienen prioridad cuando, para entrar en otra vía, el vehículo de motor gira a la derecha o a la izquierda y hay un ciclista en sus proximidades. _(RGC 64.2.b)_
-- ✘ `A-est-0005` Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
+- ✘ `A-pri-0007` Aun gozando de prioridad, ningún conductor debe entrar en una intersección si previsiblemente puede quedar detenido impidiendo u obstruyendo la circulación transversal. _(RGC 59.1)_
 
 ## A-est-0001
 
@@ -1961,7 +1961,7 @@ En un tramo estrecho sin señalización, donde no caben dos vehículos en sentid
 Respuesta: **El que hubiese entrado primero.**
 
 - ✔ En los tramos donde por su estrechez es imposible o muy difícil el paso simultáneo y no hay señalización, tiene preferencia el que hubiese entrado primero. _(RGC 60.1)_
-- ✘ `A-est-0005` Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
+- ✘ `A-est-0003` Entre vehículos del mismo tipo, la preferencia se decide a favor del que tuviera que dar marcha atrás mayor distancia y, en caso de igualdad, del de mayor anchura, longitud o masa máxima autorizada. _(RGC 62.1)_
 - ✘ `A-cic-0002` Los ciclistas tienen prioridad cuando, para entrar en otra vía, el vehículo de motor gira a la derecha o a la izquierda y hay un ciclista en sus proximidades. _(RGC 64.2.b)_
 
 ## A-est-0002
@@ -1970,8 +1970,8 @@ Un camión y un turismo se encuentran en un estrechamiento sin señalizar y hay 
 Respuesta: **El que tenga mayores dificultades de maniobra según el orden del reglamento: el camión.**
 
 - ✔ En caso de duda sobre quién entró primero, tiene preferencia el vehículo con mayores dificultades de maniobra según el orden del artículo 62 (los camiones van antes que los turismos). La distancia de marcha atrás solo decide entre vehículos del mismo tipo. _(RGC 60.1)_
-- ✘ `A-est-0005` Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
 - ✘ `A-pea-0003` Los peatones que vayan a subir o hayan bajado de un vehículo de transporte colectivo, en una parada señalizada, tienen prioridad mientras estén entre el vehículo y la zona peatonal o refugio más próximo. _(RGC 65.1.d)_
+- ✘ `A-urg-0005` El conductor de un vehículo no prioritario que realiza un servicio de urgencia procurará que los demás lo adviertan usando el claxon de forma intermitente y la luz de emergencia, o agitando un pañuelo o procedimiento similar. _(RGC 70.1)_
 
 ## A-est-0003
 
@@ -2267,8 +2267,8 @@ Dentro de poblado, en una calzada con dos carriles para su sentido delimitados p
 Respuesta: **Sí, siempre que se cerciore previamente de que puede hacerlo sin peligro.**
 
 - ✔ Dentro de poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas longitudinales, se permite adelantar por la derecha si se comprueba antes que no hay peligro. _(RGC 82.3)_
-- ✘ `adel-0003` Fuera de poblado hay que reducir la velocidad al menos 20 km/h respecto al límite de la vía, antes y durante todo el adelantamiento: 90 − 20 = 70 km/h. _(RGC 85.4)_
 - ✘ `A-adel-0004` El que va a adelantar debe asegurarse de que ningún conductor que le siga por el mismo carril ha iniciado la maniobra de adelantarle, y de que tiene espacio para volver a su carril. _(RGC 84.3)_
+- ✘ `A-adel-0008` Los vehículos pesados o de grandes dimensiones que no puedan ceñirse por completo a la derecha indican al que se acerca que puede adelantar con el brazo o, si no lo creen conveniente, con el intermitente derecho. _(RGC 86.1)_
 
 ## A-adel-0011
 
@@ -2277,7 +2277,7 @@ Respuesta: **Por la derecha, si hay espacio suficiente y con las máximas precau
 
 - ✔ Por excepción, en vías con circulación en ambos sentidos, a los tranvías que marchan por la zona central se les adelanta por la derecha. _(RGC 82.2)_
 - ✘ `A-adel-0014` Está prohibido adelantar en los túneles, pasos inferiores y tramos afectados por la señal «Túnel» (S-5) en los que solo se disponga de un carril para el sentido de circulación. _(RGC 87.1.d)_
-- ✘ `adel-0003` Fuera de poblado hay que reducir la velocidad al menos 20 km/h respecto al límite de la vía, antes y durante todo el adelantamiento: 90 − 20 = 70 km/h. _(RGC 85.4)_
+- ✘ `A-adel-0003` Antes de adelantar hay que cerciorarse de que el vehículo que precede no ha indicado su propósito de desplazarse hacia el mismo lado; si lo ha hecho, hay que respetar su preferencia. _(RGC 84.2)_
 
 ## A-adel-0012
 
@@ -2492,8 +2492,8 @@ Respuesta: **Un estacionamiento, porque ha abandonado el vehículo.**
 Respuesta: **Prohibición de parada y de estacionamiento en ese lado de la calzada.**
 
 - ✔ La marca longitudinal continua amarilla (M-7.8) indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde está situada. _(RGC Anexo I, apdo. 4.7 (M-7.8))_
-- ✘ `A-par-0007` Se consideran paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación, entre otros, cuando esa distancia es inferior a tres metros o no permite el paso de otros vehículos. _(RGC 91.2.a)_
 - ✘ `A-par-0015` En vías interurbanas, la parada o el estacionamiento debe hacerse siempre fuera de la calzada, en el lado derecho y dejando libre la parte transitable del arcén. _(RGC 90.1)_
+- ✘ `A-par-0003` La parada exige que el conductor no pueda abandonar el vehículo. Si lo abandona, aunque sea menos de dos minutos, la inmovilización no es detención ni parada y, por tanto, es estacionamiento. _(LSV Anexo I.82)_
 
 ## A-par-0005
 
@@ -2511,7 +2511,7 @@ Respuesta: **Un lugar donde el estacionamiento está prohibido por estar reserva
 
 - ✔ La marca en zigzag (M-7.9) indica el lugar de la calzada en que el estacionamiento está prohibido a los vehículos en general, por estar reservado para algún uso especial que no implique larga permanencia, como paradas de autobús o carga y descarga. _(RGC Anexo I, apdo. 4.7 (M-7.9))_
 - ✘ `A-par-0003` La parada exige que el conductor no pueda abandonar el vehículo. Si lo abandona, aunque sea menos de dos minutos, la inmovilización no es detención ni parada y, por tanto, es estacionamiento. _(LSV Anexo I.82)_
-- ✘ `A-par-0007` Se consideran paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación, entre otros, cuando esa distancia es inferior a tres metros o no permite el paso de otros vehículos. _(RGC 91.2.a)_
+- ✘ `A-par-0008` Está prohibido parar, entre otros lugares, en pasos a nivel, pasos para ciclistas y pasos para peatones. En las calles de sentido único se puede parar también en el lado izquierdo, y la línea amarilla discontinua solo prohíbe estacionar. _(RGC 94.1.b)_
 
 ## A-par-0007
 
@@ -2610,7 +2610,7 @@ Respuesta: **La primera.**
 
 - ✔ En un vehículo con caja de cambios hay que dejar colocada la primera velocidad en pendiente ascendente y la marcha atrás en descendente (o, en su caso, la posición de estacionamiento). _(RGC 92.3.c)_
 - ✘ `A-par-0010` Queda prohibido parar en zonas señalizadas para uso exclusivo de minusválidos; en todos los lugares donde está prohibida la parada también lo está el estacionamiento. _(RGC 94.1.j)_
-- ✘ `A-par-0007` Se consideran paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación, entre otros, cuando esa distancia es inferior a tres metros o no permite el paso de otros vehículos. _(RGC 91.2.a)_
+- ✘ `A-par-0016` En vías urbanas, el vehículo se sitúa lo más cerca posible del borde derecho, salvo en las vías de único sentido, en las que también puede situarse en el lado izquierdo. _(RGC 90.2)_
 
 ## A-par-0018
 
@@ -2627,8 +2627,8 @@ Respuesta: **La marcha atrás.**
 Respuesta: **Los de más de 3.500 kg de MMA, los autobuses y los conjuntos de vehículos.**
 
 - ✔ Cuando se trate de un vehículo de más de 3.500 kg de MMA, de un autobús o de un conjunto de vehículos y se pare o estacione en sensible pendiente, el conductor debe dejarlo debidamente calzado. _(RGC 92.3.d)_
-- ✘ `A-par-0007` Se consideran paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación, entre otros, cuando esa distancia es inferior a tres metros o no permite el paso de otros vehículos. _(RGC 91.2.a)_
 - ✘ `A-par-0010` Queda prohibido parar en zonas señalizadas para uso exclusivo de minusválidos; en todos los lugares donde está prohibida la parada también lo está el estacionamiento. _(RGC 94.1.j)_
+- ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
 
 ## A-par-0020
 
@@ -2637,7 +2637,7 @@ Respuesta: **No, no pueden emplearse piedras ni otros elementos no destinados ex
 
 - ✔ Estos vehículos deben quedar calzados con calzos, sin que puedan emplearse piedras u otros elementos no destinados expresamente a esa función, o apoyando una rueda directriz en el bordillo. _(RGC 92.3.d)_
 - ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
-- ✘ `A-par-0007` Se consideran paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación, entre otros, cuando esa distancia es inferior a tres metros o no permite el paso de otros vehículos. _(RGC 91.2.a)_
+- ✘ `A-par-0009` Queda prohibido parar en los carriles destinados al uso exclusivo del transporte público urbano y en los reservados para las bicicletas. _(RGC 94.1.h)_
 
 ## A-par-0021
 
@@ -2808,7 +2808,7 @@ Respuesta: **Que disminuyan la velocidad.**
 
 - ✔ Esta señal obliga a disminuir la velocidad a los conductores que se acerquen por el lado del brazo que la ejecuta y perpendicularmente a él. _(RGC Anexo I.1.1.d)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## B1-sen-0019
 
@@ -2862,7 +2862,7 @@ Respuesta: **La necesidad de extremar la atención o la proximidad de un peligro
 
 - ✔ La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0001` Las señales y órdenes de los agentes encabezan el orden de preferencia entre señales, por delante de los semáforos. _(RGC 133.1.a)_
 
 ## B1-sen-0025
 
@@ -2906,8 +2906,8 @@ Una hilera de conos delimita una zona de la calzada. ¿Qué significa?
 Respuesta: **Que está prohibido el paso a través de la línea real o imaginaria que los une.**
 
 - ✔ Las balizas de borde provisionales, conos o dispositivos análogos prohíben el paso a través de la línea real o imaginaria que los une. _(RGC Anexo I.3.1.1.4º)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `B1-sen-0005` El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
+- ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
 
 ## B1-sen-0030
 
@@ -2915,8 +2915,8 @@ Respuesta: **Que está prohibido el paso a través de la línea real o imaginari
 Respuesta: **Prohíbe el paso e informa, además, sobre el sentido de la circulación.**
 
 - ✔ El panel direccional provisional prohíbe el paso e informa sobre el sentido de la circulación. _(RGC Anexo I.3.1.1.3º)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
+- ✘ `B1-sen-0012` Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas. _(RGC 132.1)_
 
 ## B1-sen-0031
 
@@ -2924,8 +2924,8 @@ Respuesta: **Prohíbe el paso e informa, además, sobre el sentido de la circula
 Respuesta: **Marcar el trazado de la curva en relación con la reducción de velocidad necesaria y señalar el sentido de circulación.**
 
 - ✔ Los paneles direccionales permanentes marcan el trazado de una curva en relación con la reducción de velocidad necesaria para circular por ella con seguridad, además de indicar el sentido de circulación. _(RGC Anexo I.3.1.2.3º)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
+- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
 
 ## B1-sen-0032
 
@@ -2933,8 +2933,8 @@ En el balizamiento de la vía, ¿qué indica una luz roja fija?
 Respuesta: **Que la calzada está totalmente cerrada al tránsito.**
 
 - ✔ Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
+- ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 
 ## B1-sen-0033
 
@@ -2942,8 +2942,8 @@ Unos captafaros horizontales luminosos colocados sobre la calzada separan dos ca
 Respuesta: **Verde.**
 
 - ✔ Los captafaros horizontales luminosos emiten luz verde, naranja o roja, y el único franqueable es el verde. _(RGC Anexo I.3.1.4.1º)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `B1-sen-0021` La serie de toques de silbato cortos y frecuentes ordena la detención de vehículos. _(RGC Anexo I.1.1.e)_
+- ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 
 ## B1-sen-0034
 
@@ -3042,7 +3042,7 @@ Respuesta: **Que el paso está prohibido temporalmente.**
 
 - ✔ Una luz roja intermitente o dos luces rojas alternativamente intermitentes prohíben temporalmente el paso antes de un paso a nivel, un puente móvil, un pontón transbordador, una salida de vehículos de extinción de incendios o ante la aproximación de una aeronave a escasa altura. _(RGC Anexo I.4.2.b)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
 
 ## B1-sen-0045
 
@@ -3114,7 +3114,7 @@ Respuesta: **Que debe irse incorporando con seguridad al carril hacia el que apu
 
 - ✔ Indica la necesidad de irse incorporando con seguridad al carril hacia el que apunta la flecha, ya que el carril por el que se circula va a quedar cerrado en corto espacio. _(RGC Anexo I.4.3.c)_
 - ✘ `B1-sen-0024` La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## B1-sen-0054
 
@@ -3249,7 +3249,7 @@ Respuesta: **La proximidad de un paso a nivel en el que los vehículos de la cal
 
 - ✔ La marca M-7.5 indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía, en el que los vehículos de la calzada deben ceder el paso cuando se aproxime un tren o tranvía. _(RGC Anexo I.5.2 (marcas viales, M-7.5))_
 - ✘ `B1-pri-0067` Los vehículos que circulan por raíles tienen derecho de prioridad de paso sobre los demás usuarios. _(RGC 57.1.b)_
-- ✘ `A-est-0005` Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
+- ✘ `A-est-0008` En los tramos estrechos de gran pendiente, tiene preferencia el vehículo que sube, salvo si este puede llegar antes a un apartadero establecido al efecto. _(RGC 63.1)_
 
 ## B1-pri-0069
 
@@ -3258,7 +3258,7 @@ Respuesta: **Los animales, porque se trata de una cañada debidamente señalizad
 
 - ✔ Los conductores tienen prioridad sobre los animales salvo, entre otros casos, en las cañadas debidamente señalizadas, que se indican con el panel 'cañada' bajo la señal de paso de animales domésticos. _(RGC 66.2)_
 - ✘ `A-urg-0003` Al percibir las señales de un vehículo prioritario, los demás conductores deben facilitarle el paso según las circunstancias, apartándose normalmente a la derecha o deteniéndose si fuera preciso. _(RGC 69)_
-- ✘ `A-est-0005` Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
+- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
 
 ## B1-pri-0070
 
@@ -3456,7 +3456,7 @@ Respuesta: **De que la vía desemboca en un muelle o en una corriente de agua.**
 
 - ✔ La P-27 («Muelle») advierte de que la vía desemboca en un muelle o en una corriente de agua; el puente móvil es la P-5. _(RGC_CATALOGO Anexo I, catálogo de señales, P-27 (pág. 96 del PDF consolidado))_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0039` La luz roja no intermitente en forma de peatón inmóvil indica a los peatones que no deben comenzar a cruzar la calzada. _(RGC Anexo I.4.1.a)_
 
 ## B1-sen-0092
 
@@ -3555,7 +3555,7 @@ Respuesta: **Que en el próximo paso estrecho tiene prioridad con relación a lo
 
 - ✔ La R-6 («Prioridad respecto al sentido contrario») indica que, en un próximo paso estrecho, usted tiene prioridad con relación a los vehículos que circulen en sentido contrario. _(RGC_CATALOGO Anexo I, catálogo de señales, R-6 (pág. 100 del PDF consolidado))_
 - ✘ `B1-sen-0043` La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 
 ## B1-sen-0103
 
@@ -3591,7 +3591,7 @@ Respuesta: **Sí: prohíbe el acceso a vehículos de motor, pero no a motociclet
 
 - ✔ La R-103 prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas. La prohibición de acceso a motocicletas es la R-104. _(RGC_CATALOGO Anexo I, catálogo de señales, R-103 (pág. 102 del PDF consolidado))_
 - ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
 
 ## B1-sen-0107
 
@@ -3645,7 +3645,7 @@ Respuesta: **A los tractores y otras máquinas agrícolas autopropulsadas.**
 
 - ✔ La R-111 («Entrada prohibida a vehículos agrícolas de motor») prohíbe el acceso a tractores y otras máquinas agrícolas autopropulsadas. _(RGC_CATALOGO Anexo I, catálogo de señales, R-111 (pág. 104 del PDF consolidado))_
 - ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
 
 ## B1-sen-0113
 
@@ -3654,7 +3654,7 @@ Respuesta: **Sí, porque la señal exceptúa los remolques de un solo eje.**
 
 - ✔ La R-112 prohíbe el acceso a vehículos de motor con remolque, exceptuando los de un solo eje. Si lleva una cifra de tonelaje, la prohibición solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra. _(RGC_CATALOGO Anexo I, catálogo de señales, R-112 (pág. 104 del PDF consolidado))_
 - ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
+- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
 
 ## B1-sen-0114
 
@@ -3815,8 +3815,8 @@ Respuesta: **Vía reservada y obligatoria para ciclomotores; los demás usuarios
 Respuesta: **Obligación para los conductores de vehículos de tracción animal de utilizar el camino a cuya entrada está situada.**
 
 - ✔ La R-408 («Camino obligatorio para vehículos de tracción animal») obliga a los conductores de vehículos de tracción animal a utilizar ese camino. La prohibición de entrada a estos vehículos es la R-113 (círculo blanco con orla roja) y el camino para animales de montura, la R-409. _(RGC_CATALOGO Anexo I, catálogo de señales, R-408 (pág. 117 del PDF consolidado))_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
+- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
 
 ## B1-sen-0132
 
@@ -3851,8 +3851,8 @@ Respuesta: **Velocidad mínima: obligación de circular, por lo menos, a 40 km/h
 Respuesta: **Obligación de circular con el alumbrado al menos de corto alcance, con independencia de la visibilidad, hasta una señal de fin de esta obligación.**
 
 - ✔ La R-413 («Alumbrado de corto alcance») obliga a circular con el alumbrado al menos de corto alcance, con independencia de las condiciones de visibilidad e iluminación, desde la señal hasta otra de fin de esta obligación. _(RGC_CATALOGO Anexo I, catálogo de señales, R-413 (pág. 119 del PDF consolidado))_
-- ✘ `B1-sen-0034` Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
+- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
 
 ## B1-sen-0136
 
@@ -3914,8 +3914,8 @@ Un panel complementario colocado bajo una señal de advertencia de peligro, ¿qu
 Respuesta: **La distancia entre la señal y el principio del tramo peligroso.**
 
 - ✔ Mediante un panel complementario puede indicarse la distancia entre la señal y el principio del tramo peligroso y también la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
-- ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 - ✘ `B2-sen-0003` En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros. _(RGC 146.2.d).1ª)_
+- ✘ `res-sen-0002` Las carreteras convencionales o multicarril de la red del Estado se identifican con fondo rojo (S-420). Las autopistas y autovías, con fondo azul (S-410). _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-420))_
 
 ## B2-sen-0005
 
@@ -4301,8 +4301,8 @@ Circula de noche con la luz de largo alcance. ¿Cuándo debe sustituirla por la 
 Respuesta: **Tan pronto como aprecie la posibilidad de deslumbrar a otros usuarios, aunque el que viene de frente no la cambie.**
 
 - ✔ La luz de carretera debe sustituirse por la de cruce en cuanto exista posibilidad de deslumbrar, especialmente a quienes circulan en sentido contrario, aunque estos no cumplan la norma. _(RGC 102.1)_
-- ✘ `C-luc-0003` La luz de largo alcance es obligatoria a más de 40 km/h, de noche, fuera de poblado y en vías insuficientemente iluminadas, salvo cuando haya que usar la de cruce (por ejemplo, para no deslumbrar). _(RGC 100.1)_
 - ✘ `C-luc-0016` La antiniebla trasera solo debe encenderse con condiciones especialmente desfavorables: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo. _(RGC 106.2)_
+- ✘ `C-luc-0002` El Reglamento define la vía insuficientemente iluminada con dos referencias: matrícula ilegible a 10 metros o vehículo oscuro no distinguible a 50 metros. _(RGC 100.3)_
 
 ## C-luc-0006
 
@@ -4859,8 +4859,8 @@ Respuesta: **La tarjeta de inspección técnica del remolque.**
 Respuesta: **No; solo hay que matricular los remolques de masa máxima autorizada superior a 750 kg.**
 
 - ✔ Deben matricularse los vehículos de motor y los remolques y semirremolques de MMA superior a 750 kg. _(RGV 25.1)_
-- ✘ `C-doc-0007` Remolque ligero es aquel cuya masa máxima autorizada no excede de 750 kg (se excluyen los agrícolas). _(LSV Anexo I.21)_
 - ✘ `C-doc-0008` En conjuntos con remolque de MMA igual o inferior a 750 kg se lleva la tarjeta de inspección técnica del remolque, y en la del automóvil debe constar que tiene un enganche compatible. _(RGV 26.1.c)_
+- ✘ `res-def-0005` Las placas de ciclomotores y ciclos de motor tienen fondo amarillo retrorreflectante y caracteres negros. _(RGV Anexo XVIII.A.d)_
 
 ## C-perm-0001
 
@@ -5310,7 +5310,7 @@ Respuesta: **Haber comido mucho antes de conducir.**
 
 - ✔ Comer mucho antes de conducir, el mucho calor en el coche, el alcohol, las drogas o algunos medicamentos aumentan el tiempo de reacción. _(MANUAL_DGT Tema 3, El tiempo de reacción (pág. 45))_
 - ✘ `D-tre-0001` El tiempo de reacción es el que pasa entre ver u oír algo y reaccionar. En condiciones normales está entre medio segundo y un segundo. _(MANUAL_DGT Tema 3, El tiempo de reacción (pág. 44))_
-- ✘ `D-fat-0003` Una comida abundante o pesada antes de conducir puede provocar sueño y fatiga; es mejor hacer varias comidas ligeras. _(MANUAL_DGT Tema 3, Alimentación (pág. 66))_
+- ✘ `D-fat-0004` Entre las causas de fatiga relacionadas con la carretera están el mucho tráfico, el suelo en mal estado, no conocer la carretera y el mal tiempo o el calor excesivo. _(MANUAL_DGT Tema 3, ¿Qué puede causar fatiga? (pág. 46))_
 
 ## D-dis-0001
 
@@ -5417,8 +5417,8 @@ Respuesta: **Entre 20 y 23 grados.**
 Respuesta: **Solo si la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares.**
 
 - ✔ Se prohíbe utilizar el móvil durante la conducción. Se exceptúa cuando la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares (manos libres). _(RGC 18.2)_
-- ✘ `D-mov-0007` Entre las recomendaciones para usar el manos libres está no tener conversaciones que duren más de un minuto, avisar al interlocutor de que se está conduciendo y, si hay que hacer una llamada, parar en un lugar seguro. _(MANUAL_DGT Tema 3, Recomendaciones para usar el móvil (pág. 72))_
 - ✘ `D-mov-0003` Utilizar manualmente navegadores u otros sistemas de comunicación, o el móvil en condiciones distintas a sujetarlo con la mano, supone la pérdida de 3 puntos (LSV, Anexo II, apartado 20). _(LSV Anexo II.20)_
+- ✘ `D-mov-0006` El manos libres está permitido, pero también es peligroso porque el conductor presta parte de su atención a la conversación. La DGT aconseja no tener conversaciones de más de un minuto. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 71))_
 
 ## D-mov-0002
 
@@ -5463,7 +5463,7 @@ Respuesta: **está permitido, pero también es peligroso porque parte de la aten
 
 - ✔ El manos libres está permitido, pero también es peligroso porque el conductor presta parte de su atención a la conversación. La DGT aconseja no tener conversaciones de más de un minuto. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 71))_
 - ✘ `D-mov-0003` Utilizar manualmente navegadores u otros sistemas de comunicación, o el móvil en condiciones distintas a sujetarlo con la mano, supone la pérdida de 3 puntos (LSV, Anexo II, apartado 20). _(LSV Anexo II.20)_
-- ✘ `D-mov-0007` Entre las recomendaciones para usar el manos libres está no tener conversaciones que duren más de un minuto, avisar al interlocutor de que se está conduciendo y, si hay que hacer una llamada, parar en un lugar seguro. _(MANUAL_DGT Tema 3, Recomendaciones para usar el móvil (pág. 72))_
+- ✘ `D-mov-0001` Se prohíbe utilizar el móvil durante la conducción. Se exceptúa cuando la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares (manos libres). _(RGC 18.2)_
 
 ## D-mov-0007
 
@@ -5552,8 +5552,8 @@ Beber alcohol con el estómago lleno...
 Respuesta: **hace que el alcohol llegue a la sangre de forma más lenta.**
 
 - ✔ La comida ayuda a que el alcohol llegue a la sangre de forma más lenta, pero no impide que llegue. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 55))_
-- ✘ `D-alc-0003` El alcohol no afecta a todas las personas igual: influyen la cantidad, el peso, el sexo, el tiempo transcurrido, el tipo de bebida, la velocidad a la que se bebe, beber sin comer, la edad y las circunstancias personales. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 54))_
 - ✘ `D-alc-0018` El agente debe advertir al interesado de su derecho a controlar que entre la primera y la segunda prueba medie un tiempo mínimo de 10 minutos. _(RGC 23.2)_
+- ✘ `D-dro-0002` Conducir con presencia de drogas en el organismo es infracción muy grave (LSV 77.c) y se sanciona con multa de 1.000 euros (80.2.a). _(LSV 80.2.a)_
 
 ## D-alc-0007
 
@@ -5832,7 +5832,7 @@ Respuesta: **Con las dos manos, por la parte exterior.**
 
 - ✔ El volante se coge con las dos manos (soltando una solo el tiempo justo para manejar otros mandos), por la parte exterior y con firmeza, pero sin hacer mucha fuerza. _(MANUAL_DGT Tema 6, ¿Cómo debes coger el volante? (pág. 123))_
 - ✘ `D-pos-0004` El asiento está bien ajustado cuando se llega bien a los pedales pudiendo pisarlos a fondo y las piernas no están extendidas del todo, sino ligeramente dobladas. _(MANUAL_DGT Tema 6, Reglas para conducir turismos (pág. 130))_
-- ✘ `E-mec-0006` El testigo indica poco aceite o falta de presión: hay que parar y no continuar hasta conocer y arreglar el problema. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 372))_
+- ✘ `E-neu-0006` La goma envejece: el manual de la DGT indica cambiar los neumáticos cada cinco años aunque estén en buen estado. _(MANUAL_DGT Tema 5, Desgaste de los neumáticos (p. 100))_
 
 ## D-man-0001
 
@@ -5922,7 +5922,7 @@ Respuesta: **El fabricante del vehículo.**
 
 - ✔ Es el fabricante de cada vehículo quien marca la presión de inflado de sus neumáticos (suele indicarse en una etiqueta en el marco de la puerta o en el manual). _(MANUAL_DGT Tema 5, Presión de inflado (p. 98))_
 - ✘ `E-neu-0004` Con exceso de presión el neumático apoya peor, se agarra menos y se desgasta más por el centro que por los lados. _(MANUAL_DGT Tema 5, Presión de inflado (p. 99))_
-- ✘ `E-mec-0006` El testigo indica poco aceite o falta de presión: hay que parar y no continuar hasta conocer y arreglar el problema. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 372))_
+- ✘ `A-adv-0010` En los turismos (M1), cuando el retrovisor interior no permite la visión del campo reglamentario hacia atrás, este pasa a ser opcional y debe colocarse un segundo retrovisor exterior en el lado derecho. _(RGV Anexo III.2, nota (1))_
 
 ## E-neu-0004
 
@@ -5966,8 +5966,8 @@ En una frenada de emergencia con un vehículo que tiene ABS, notas que el pedal 
 Respuesta: **Seguir pisando el freno fuerte y a fondo hasta que el vehículo se pare.**
 
 - ✔ Con ABS, en una frenada de emergencia hay que pisar fuerte y a fondo y mantener el pedal pisado hasta la detención; la vibración es el funcionamiento normal del sistema. _(MANUAL_DGT Tema 5, ¿Cómo se usan los frenos? (p. 95))_
-- ✘ `E-fre-0001` El ABS (sistema antibloqueo de frenos) evita el bloqueo de las ruedas al frenar, de modo que se conserva el control de la dirección y se frena en menos espacio. _(MANUAL_DGT Tema 5, Sistema antibloqueo de frenos (ABS) (p. 93))_
 - ✘ `E-seg-0003` Las luces adaptativas ajustan intensidad y zona iluminada; las angulares iluminan hacia el lado al que se gira, lo que ayuda a ver en las curvas. _(MANUAL_DGT Tema 5, Luces adaptativas (p. 90))_
+- ✘ `E-seg-0001` La seguridad activa la forman los elementos del vehículo pensados para evitar accidentes (frenos, ruedas, alumbrado). _(MANUAL_DGT Tema 5, Seguridad activa (p. 88))_
 
 ## E-mec-0001
 
@@ -6471,7 +6471,7 @@ Respuesta: **No quitarle el casco.**
 
 - ✔ No se debe quitar el casco a la persona herida. _(MANUAL_DGT Tema 16, Socorrer (p. 421))_
 - ✘ `E-aux-0009` Con una quemadura: no tocar la zona, no quitar la ropa pegada, echar agua fría y no pinchar las ampollas. _(MANUAL_DGT Tema 16, Quemaduras (p. 434))_
-- ✘ `E-aux-0003` Se comprueban siempre en el mismo orden: primero consciencia y después respiración. _(MANUAL_DGT Tema 16, Constantes vitales (p. 424))_
+- ✘ `E-aux-0008` Si la hemorragia se debe a un objeto clavado, no hay que intentar sacarlo. _(MANUAL_DGT Tema 16, Hemorragias (p. 428))_
 
 ## E-aux-0003
 
@@ -6498,7 +6498,7 @@ Respuesta: **Colocado de lado.**
 
 - ✔ Si respira con normalidad y hay que dejarlo solo, se le coloca de lado (posición lateral de seguridad), lo que evita que se ahogue si vomita. _(MANUAL_DGT Tema 16, Respiración (p. 427))_
 - ✘ `E-aux-0007` Hay que escribir la hora a la que se hizo el torniquete y dónde se ha colocado; solo el personal médico puede quitarlo. _(MANUAL_DGT Tema 16, Torniquete (p. 431))_
-- ✘ `E-aux-0003` Se comprueban siempre en el mismo orden: primero consciencia y después respiración. _(MANUAL_DGT Tema 16, Constantes vitales (p. 424))_
+- ✘ `E-aux-0001` No hay que mover a los heridos salvo que sea necesario para ponerlos a salvo, y siempre protegiendo el cuello. _(MANUAL_DGT Tema 16, Socorrer (p. 421))_
 
 ## E-aux-0006
 
@@ -6614,8 +6614,8 @@ Respuesta: **En el radiador.**
 Respuesta: **La batería.**
 
 - ✔ La batería proporciona la energía para arrancar el motor y alimenta otros elementos cuando es necesario. _(MANUAL_DGT Tema 15, Sistema eléctrico (p. 368))_
-- ✘ `E-mec-0006` El testigo indica poco aceite o falta de presión: hay que parar y no continuar hasta conocer y arreglar el problema. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 372))_
 - ✘ `E-mec-0010` Si el impulso llega a las ruedas delanteras es de tracción; a las traseras, de propulsión; a todas, de tracción total. _(MANUAL_DGT Tema 15, Sistema de transmisión (p. 379))_
+- ✘ `E-neu-0005` El Reglamento de Vehículos exige que los neumáticos no presenten ampollas, deformaciones anormales ni roturas, con independencia de la profundidad del dibujo. _(RGV Anexo VII.4)_
 
 ## E-mec-0009
 

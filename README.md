@@ -8,6 +8,8 @@ Es una web estática (HTML, CSS y JavaScript, sin dependencias ni compilación).
 
 - **Examen final**: 30 preguntas al azar, 30 minutos, apto con 3 fallos como máximo (RD 818/2009, anexo VI). Corrección al final con explicación y cita.
 - **Examen por temario**: práctica por cada una de las 16 materias del anexo V.B.1 del Reglamento General de Conductores, con explicación y cita tras cada respuesta.
+- **Camino del temario y logros**: las 16 materias como etapas de una carretera. Una etapa se supera al dominar el 60 % de sus preguntas y se corona con el 80 %; es una guía, cualquier materia se puede practicar siempre. Los logros premian lo aprendido (preguntas dominadas, fallos superados, materias coronadas, exámenes aprobados).
+- **Racha con protector**: un día sin estudiar por semana (de lunes a domingo) no rompe la racha.
 - **¿Por qué?**: en la práctica, al fallar una pregunta, antes de ver la solución hay que elegir qué norma la explica entre tres. Las tres opciones son explicaciones de preguntas ya verificadas (la de esa pregunta y dos de otras del mismo tema basadas en otro artículo), así que no hay texto nuevo sin revisar.
 - **Errores típicos**: los fallos agrupados por trampas (velocidades, prioridad, alcohol...), cada una con una mini lección cuyos puntos llevan la cita literal del BOE, comprobada automáticamente.
 - **Mis fallos** y **Preguntas dudosas**: se guardan en el navegador (localStorage). Las dudosas se pueden copiar para revisarlas.
@@ -21,6 +23,7 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 |---|---|
 | `index.html`, `app.js`, `estilos.css`, `sw.js`, `manifest.webmanifest`, `icono.svg` | La web |
 | `progreso.js`, `nube.js` | Modelo del progreso y sincronización con Firebase |
+| `camino.js`, `camino.css` | Camino del temario (etapas que se superan con el 60 % y se coronan con el 80 %), logros y estilos del protector de racha |
 | `vendor/firebase.js` | SDK de Firebase empaquetado (ver `vendor/LEEME.md`) |
 | `firebase.json`, `firestore.rules`, `.github/workflows/firebase.yml` | Alojamiento, reglas y publicación automática en Firebase |
 | `errores.js`, `data/errores.js` | «¿Por qué?» y errores típicos. `data/errores.js` se genera con `tools/build_errores.py` desde `preguntas/errores-tipicos.json` |

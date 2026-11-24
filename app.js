@@ -100,6 +100,10 @@
     trofeo: "M8 4h8v5a4 4 0 01-8 0zM8 6H5a3 3 0 003 4M16 6h3a3 3 0 01-3 4M12 13v4M8.5 20h7M9.5 17h5",
     nube: "M7 18.5h10.5a4 4 0 00.6-7.95A6 6 0 006.4 9.1 4.75 4.75 0 007 18.5z",
     salir: "M14 4.5H6v15h8M10.5 12H20M17 8.5l3.5 3.5-3.5 3.5",
+    escudo: "M12 3l7 2.8v5.4c0 4.6-3 8.3-7 9.8-4-1.5-7-5.2-7-9.8V5.8z",
+    corona: "M4.5 18.5h15M5 15.5L3.5 7l5 3.8L12 4.5l3.5 6.3 5-3.8-1.5 8.5z",
+    medalla: "M12 15a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM8.3 13.6L6.5 21l5.5-2.6 5.5 2.6-1.8-7.4M12 7.2l1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z",
+    mapa: "M9 4.5L3.5 6.5v13L9 17.5l6 2 5.5-2v-13L15 6.5l-6-2zM9 4.5v13M15 6.5v13",
   };
   function ico(nombre, clase) {
     const NS = "http://www.w3.org/2000/svg";
@@ -289,16 +293,27 @@
     const r = Animo.racha(), pct = Math.min(100, Math.round(r.hoy / r.objetivo * 100));
     const viva = r.dias > 0;
     const titulo = viva ? [h("b", {}, plural(r.dias, "día", "días")), " de racha"] : "Empieza tu racha";
+    const pr = r.protector;
     const texto = r.cumplidoHoy ? "Objetivo de hoy cumplido. ¡Así se hace!"
       : r.hoy ? `Te ${r.objetivo - r.hoy === 1 ? "falta 1 pregunta" : `faltan ${r.objetivo - r.hoy} preguntas`} para el objetivo de hoy.`
-      : viva ? "Responde hoy para no perder la racha." : "Responde preguntas cada día para sumar días seguidos.";
+      : !viva ? "Responde preguntas cada día para sumar días seguidos."
+      : r.descansoAyer ? "Ayer fue tu día de descanso. Responde hoy para seguir sumando."
+      : pr && !pr.disponible ? "Ya usaste el descanso de esta semana: responde hoy para no perder la racha."
+      : pr ? "Responde hoy para sumar un día más. Si hoy descansas, el protector guarda tu racha."
+      : "Responde hoy para no perder la racha.";
+    // Protector de racha: un día de descanso por semana (de lunes a domingo) que no rompe la racha.
+    const diaSemana = k => new Date(k + "T12:00:00").toLocaleDateString("es-ES", { weekday: "long" });
+    const protector = pr ? h("div", { class: "protector" + (pr.disponible ? " listo" : " usado") },
+      ico("escudo"), h("span", {}, pr.disponible ? h("b", {}, "Protector de racha listo") : h("b", {}, `Descanso usado el ${diaSemana(pr.usado)}`),
+        pr.disponible ? " · un día de descanso por semana sin perder la racha" : " · vuelve el lunes")) : null;
     return h("section", { class: "tarjeta racha " + (viva ? "viva" : "apagada") + (clase ? " " + clase : ""), "aria-label": "Racha y objetivo diario" },
       h("div", { class: "racha-llama" }, ico("llama")),
       h("div", { class: "racha-titulo" }, titulo),
       h("div", { class: "racha-texto" }, texto),
-      h("div", { class: "semana", "aria-label": "Últimos 7 días" }, r.semana.map(d => h("span", { class: (d.hecho ? "hecho" : "") + (d.meta ? " cumplido" : "") + (d.hoy ? " hoy" : ""),
-        "aria-label": `${d.hoy ? "Hoy" : fechaES(d.fecha)}: ${d.meta ? "objetivo cumplido" : d.hecho ? "practicado" : "sin practicar"}` },
-        h("i", {}, d.hecho ? ico("check") : null), d.hoy ? "Hoy" : d.letra))),
+      h("div", { class: "semana", "aria-label": "Últimos 7 días" }, r.semana.map(d => h("span", { class: (d.hecho ? "hecho" : "") + (d.meta ? " cumplido" : "") + (d.hoy ? " hoy" : "") + (d.descanso ? " descanso" : ""),
+        "aria-label": `${d.hoy ? "Hoy" : fechaES(d.fecha)}: ${d.meta ? "objetivo cumplido" : d.hecho ? "practicado" : d.descanso ? "día de descanso, la racha sigue" : "sin practicar"}` },
+        h("i", {}, d.hecho ? ico("check") : d.descanso ? ico("escudo") : null), d.hoy ? "Hoy" : d.letra))),
+      protector,
       h("div", { class: "meta" + (r.cumplidoHoy ? " cumplida" : "") },
         h("div", { class: "meta-cabecera" }, h("span", {}, `Hoy: ${Math.min(r.hoy, r.objetivo)}/${r.objetivo} preguntas`),
           h("button", { class: "boton plano", onclick: elegirObjetivo }, "Cambiar objetivo")),

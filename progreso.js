@@ -162,12 +162,32 @@
     return out;
   }
   const delDia = (datos, ahora = Date.now()) => Object.assign({ r: 0, a: 0 }, datos.dias[claveDia(ahora)]);
-  function racha(datos, ahora = Date.now()) {
-    let n = 0, d = inicioDia(ahora);
-    if (!datos.dias[claveDia(d)]) d -= DIA; // si hoy aún no ha estudiado, la racha sigue viva desde ayer
-    while (datos.dias[claveDia(d)]) { n++; d -= DIA; }
-    return n;
+  // ---------- Racha con protector ----------
+  // Un día sin estudiar no rompe la racha si es el único de su semana (de lunes a domingo): es el día
+  // de descanso. Se aplica solo, sin guardar nada: sale de los días estudiados, que ya se sincronizan.
+  // El descanso no suma días a la racha; solo evita perderla. Hoy nunca cuenta como descanso mientras
+  // quede día para estudiar.
+  const estudiado = (datos, k) => !!(datos.dias[k] && datos.dias[k].r > 0);
+  // Lunes de la semana del día dado (clave AAAA-MM-DD).
+  function semanaDe(ms) { const d = new Date(ms); d.setHours(12, 0, 0, 0); d.setDate(d.getDate() - (d.getDay() + 6) % 7); return claveDia(d.getTime()); }
+  function rachaDetalle(datos, ahora = Date.now()) {
+    const d = new Date(ahora); d.setHours(12, 0, 0, 0);
+    const hoy = claveDia(d.getTime()), hechoHoy = estudiado(datos, hoy);
+    if (!hechoHoy) d.setDate(d.getDate() - 1); // si hoy aún no ha estudiado, la racha sigue viva desde ayer
+    let dias = 0, masAntiguo = null;
+    const descansos = {}; // semana → día de descanso
+    for (let i = 0; i < 4000; i++) {
+      const k = claveDia(d.getTime());
+      if (estudiado(datos, k)) { dias++; masAntiguo = k; }
+      else { const s = semanaDe(d.getTime()); if (descansos[s]) break; descansos[s] = k; }
+      d.setDate(d.getDate() - 1);
+    }
+    // Los descansos anteriores al primer día estudiado de la racha no cuentan.
+    const usados = Object.values(descansos).filter(k => masAntiguo && k > masAntiguo).sort();
+    const semanaHoy = semanaDe(ahora), usadoSemana = usados.find(k => semanaDe(new Date(k + "T12:00:00").getTime()) === semanaHoy) || null;
+    return { dias, hechoHoy, descansos: usados, protectorDisponible: !usadoSemana, descansoSemana: usadoSemana };
   }
+  const racha = (datos, ahora = Date.now()) => rachaDetalle(datos, ahora).dias;
   // «Lista para el examen»: devuelve los criterios con su avance (0 a 1) y si se cumplen todos.
   function preparacion(datos, todas, preguntasPorMateria, ahora = Date.now()) {
     const g = resumen(datos, todas), mats = dominioPorMateria(datos, preguntasPorMateria);
@@ -286,7 +306,7 @@
     get actual() { return actual; },
     INTERVALO_DIAS, CRITERIOS, extender, cargar, delDia, guardar, vacio, normalizar, migrarV1,
     registrar, registrarExamen, vaciarRepaso, marcarDudosa, quitarDudosa, quitarDudosas,
-    enRepaso, paraHoy, proximoRepaso, estado, resumen, dominioPorMateria, racha, preparacion,
+    enRepaso, paraHoy, proximoRepaso, estado, resumen, dominioPorMateria, racha, rachaDetalle, semanaDe, preparacion,
     combinar, combinarAnimo, mezclarAnimo, leerAnimo, exportarCodigo, importarCodigo, leerPaquete, exportarFichero, claveDia,
   };
 })();

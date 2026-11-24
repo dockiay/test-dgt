@@ -1149,37 +1149,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xc-0038",
-      "tema": "actitudes",
-      "subtema": "conduccion_preventiva",
-      "materia": 3,
-      "enunciado": "¿En qué tres principios se basa la técnica de la conducción preventiva?",
-      "opciones": {
-        "a": "Visión, anticipación y espacio.",
-        "b": "Velocidad, potencia y frenado.",
-        "c": "Retrovisor, claxon y luces."
-      },
-      "correcta": "a",
-      "explicacion": "La técnica de la conducción preventiva se basa en tres principios: visión, anticipación y espacio.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 17, Conducción preventiva (p. 441)",
-        "cita": "Visión Mirar hacia todos los lados para recoger información y no fijarse en las cosas que puedan ser una distracción. Anticipación Prever los movimientos y reacciones de los demás conductores para poder reaccionar a tiempo. Espacio Guardar la distancia de seguridad",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 17",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xc-0039",
       "tema": "actitudes",
       "subtema": "conduccion_preventiva",

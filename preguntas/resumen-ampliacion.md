@@ -1,22 +1,22 @@
 # Ampliación del banco (24/11/2026)
 
-**791 preguntas nuevas** escritas desde la norma (no salen de ningún vídeo), en seis bancos `banco-ampliacion-*.json`. El banco pasa de 758 a **1.549** preguntas. Cobertura antes y después: `cobertura-antes.md` y `cobertura.md` (las genera `tools/cobertura.py`).
+**731 preguntas nuevas** escritas desde la norma (no salen de ningún vídeo), en seis bancos `banco-ampliacion-*.json`. El banco pasa de 758 a **1.489** preguntas (unas 1.690 con los vídeos 2-5 del PR #19). Cobertura antes y después: `cobertura-antes.md` y `cobertura.md` (las genera `tools/cobertura.py`).
 
 | Banco | Prefijo | Preguntas | Contenido |
 |---|---|---|---|
-| banco-ampliacion-x1a.json | x1a- | 134 | Materia 1, RGC arts. 1-90: sentido de circulación, velocidades, distancias, prioridad, vehículos prioritarios, incorporaciones, maniobras, adelantamiento |
-| banco-ampliacion-x1b.json | x1b- | 127 | Materia 1, RGC arts. 90-173: parada y estacionamiento, luces, advertencias, señales de agentes, semáforos, obras, catálogo de señales (38 con imagen), marcas viales; infracciones y multas (LSV 75-82, anexo IV) |
-| banco-ampliacion-xb.json | xb- | 123 | Materias 4 (pruebas de alcohol y drogas, delitos, factores del conductor), 10 (permiso, puntos, documentación del vehículo, ITV, seguro) y 12 (carga, personas, remolques) |
-| banco-ampliacion-xc.json | xc- | 132 | Materias 2 (accidentes), 3 (actitudes), 5 (distancias y frenado) y 7 (la vía) |
-| banco-ampliacion-xd.json | xd- | 125 | Materias 6 (meteorología, noche, túneles), 8 (vulnerables), 9 (tipo de vehículo) y 13 (abandonar el vehículo) |
-| banco-ampliacion-xe.json | xe- | 150 | Materias 11 (accidente y primeros auxilios), 14 (mecánica), 15 (equipos de seguridad) y 16 (conducción eficiente) |
+| banco-ampliacion-x1a.json | x1a- | 127 | Materia 1, RGC arts. 1-90: sentido de circulación, velocidades, distancias, prioridad, vehículos prioritarios, incorporaciones, maniobras, adelantamiento |
+| banco-ampliacion-x1b.json | x1b- | 99 | Materia 1, RGC arts. 90-173: parada y estacionamiento, luces, advertencias, señales de agentes, semáforos, obras, catálogo de señales (con imagen), marcas viales; infracciones y multas (LSV 75-82, anexo IV) |
+| banco-ampliacion-xb.json | xb- | 121 | Materias 4 (pruebas de alcohol y drogas, delitos, factores del conductor), 10 (permiso, puntos, documentación del vehículo, ITV, seguro) y 12 (carga, personas, remolques) |
+| banco-ampliacion-xc.json | xc- | 131 | Materias 2 (accidentes), 3 (actitudes), 5 (distancias y frenado) y 7 (la vía) |
+| banco-ampliacion-xd.json | xd- | 114 | Materias 6 (meteorología, noche, túneles), 8 (vulnerables), 9 (tipo de vehículo) y 13 (abandonar el vehículo) |
+| banco-ampliacion-xe.json | xe- | 139 | Materias 11 (accidente y primeros auxilios), 14 (mecánica), 15 (equipos de seguridad) y 16 (conducción eficiente) |
 
-- Fuentes: RGC 344, Manual DGT 250 (solo temas no normativos), LSV 69, RGV 48, catálogo de señales 42, RGCOND 13, CP 9, ITV 9, seguro 7. 53 llevan imagen de la biblioteca (`img/`), ninguna pendiente.
-- Todas pasan `preguntas/scripts/comprobar_lote.py`: cita literal en el texto consolidado y única, sin duplicar preguntas existentes (se quitaron 21 casi duplicadas entre bancos), opciones equilibradas, explicación que se entiende sola. Respuestas correctas repartidas a/b/c.
+- Fuentes: RGC 322, Manual DGT 240 (solo temas no normativos), LSV 69, RGV 46, catálogo de señales 18, RGCOND 12, ITV 9, CP 8, seguro 7. 29 llevan imagen de la biblioteca (`img/`), ninguna pendiente.
+- Todas pasan `preguntas/scripts/comprobar_lote.py`: cita literal en el texto consolidado y única, sin duplicar preguntas existentes (se quitaron 21 casi duplicadas entre estos bancos y 60 que coincidían con las de los vídeos 2-5 del PR #19, que tienen preferencia), opciones equilibradas, explicación que se entiende sola. Respuestas correctas repartidas a/b/c.
 - RGC: de 101 a 145 artículos con preguntas.
 
 ## Pendiente
-- Revisión independiente de las 791 y de las parejas nuevas del «¿por qué?» (`porques-parejas-ampliacion.json`, 2.142 parejas).
+- Revisión independiente de las 791 y de las parejas nuevas del «¿por qué?» (`porques-parejas-ampliacion.json`, 2.012 parejas).
 
 ## Temas dejados fuera por dudosos (para el revisor)
 - RGC 48.1.a.2º frente a 48.1.h: límites de los vehículos de tres ruedas, se contradicen.

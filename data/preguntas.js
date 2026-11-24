@@ -616,34 +616,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1a-0025",
-   "tema": "velocidad",
-   "subtema": "limites_fuera_poblado",
-   "materia": 1,
-   "enunciado": "¿Cuál es la velocidad máxima genérica de una furgoneta en una carretera convencional?",
-   "opciones": {
-    "a": "80 km/h.",
-    "b": "90 km/h.",
-    "c": "70 km/h."
-   },
-   "correcta": "a",
-   "explicacion": "En carretera convencional, camiones, tractocamiones, furgonetas, autocaravanas de más de 3.500 kg, vehículos articulados y automóviles con remolque tienen un límite genérico de 80 km/h.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "48.1.a",
-    "cita": "Camiones, tractocamiones, Autobuses, furgonetas, autocaravanas de",
-    "tabla": {
-     "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
-     "fila": "Convencional",
-     "valor": "80"
-    },
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1a-0026",
    "tema": "velocidad",
    "subtema": "limites_fuera_poblado",
@@ -692,34 +664,6 @@ window.BANCO = {
      "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
      "fila": "Autopista y autovía",
      "valor": "90"
-    },
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1a-0028",
-   "tema": "velocidad",
-   "subtema": "limites_fuera_poblado",
-   "materia": 1,
-   "enunciado": "¿Cuál es la velocidad máxima genérica de un vehículo derivado de turismo en una autovía?",
-   "opciones": {
-    "a": "120 km/h.",
-    "b": "90 km/h.",
-    "c": "100 km/h."
-   },
-   "correcta": "c",
-   "explicacion": "Los autobuses, los vehículos derivados de turismo y los vehículos mixtos adaptables tienen un límite genérico de 100 km/h en autopistas y autovías y de 90 km/h en carreteras convencionales.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "48.1.a",
-    "cita": "Autobuses, furgonetas, autocaravanas de vehículos derivados masa máxima autorizada superior de turismo",
-    "tabla": {
-     "columna": "Autobuses, vehículos derivados de turismo y vehículos mixtos adaptables",
-     "fila": "Autopista y autovía",
-     "valor": "100"
     },
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
@@ -955,29 +899,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1a-0038",
-   "tema": "velocidad",
-   "subtema": "vehiculos_especiales",
-   "materia": 1,
-   "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción no supera los 60 km/h en llano, ¿a qué velocidad máxima puede circular?",
-   "opciones": {
-    "a": "40 km/h.",
-    "b": "25 km/h.",
-    "c": "70 km/h."
-   },
-   "correcta": "a",
-   "explicacion": "Los vehículos especiales que no carecen de señalización de frenado, no llevan remolque y no pueden superar los 60 km/h en llano tienen una velocidad máxima de 40 km/h fuera de poblado.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "48.1.c.2º",
-    "cita": "Los restantes vehículos especiales: 40 kilómetros por hora, salvo cuando puedan desarrollar una velocidad superior a los 60 kilómetros por hora en llano",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1a-0039",
    "tema": "velocidad",
    "subtema": "ciclomotores",
@@ -1109,29 +1030,6 @@ window.BANCO = {
     "norma": "RGC",
     "articulo": "50.1.c",
     "cita": "50 km/h en vías de dos o más carriles por sentido de circulación.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1a-0045",
-   "tema": "velocidad",
-   "subtema": "limites_urbanos",
-   "materia": 1,
-   "enunciado": "En una calle con un único carril por sentido, ¿puede estar permitido circular a 50 km/h?",
-   "opciones": {
-    "a": "No, en esas calles nunca se pueden superar los 30 km/h.",
-    "b": "Sí, si la autoridad municipal lo autoriza excepcionalmente con señalización específica.",
-    "c": "Sí, siempre que no haya peatones en las aceras."
-   },
-   "correcta": "b",
-   "explicacion": "Excepcionalmente, la autoridad municipal puede aumentar la velocidad en vías urbanas de un único carril por sentido hasta un máximo de 50 km/h, con señalización específica.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "50.3",
-    "cita": "Excepcionalmente, la Autoridad Municipal podrá aumentar la velocidad en vías de un único carril por sentido hasta una velocidad máxima de 50 km/h",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
@@ -2754,29 +2652,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1a-0116",
-   "tema": "adelantamiento",
-   "subtema": "vulnerables",
-   "materia": 8,
-   "enunciado": "Va a adelantar a una persona que circula en un patinete eléctrico (vehículo de movilidad personal) por una calzada con un carril por sentido. ¿Qué separación lateral mínima debe dejar?",
-   "opciones": {
-    "a": "1 metro.",
-    "b": "0,5 metros.",
-    "c": "1,5 metros."
-   },
-   "correcta": "c",
-   "explicacion": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal o ciclistas hay que ocupar parte o todo el carril contiguo y guardar al menos 1,5 metros de anchura de seguridad.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "85.4",
-    "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1a-0117",
    "tema": "adelantamiento",
    "subtema": "vulnerables",
@@ -2816,29 +2691,6 @@ window.BANCO = {
     "norma": "RGC",
     "articulo": "85.4",
     "cita": "antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1a-0119",
-   "tema": "adelantamiento",
-   "subtema": "motocicletas",
-   "materia": 8,
-   "enunciado": "Fuera de poblado conduce una motocicleta y va a adelantar a un turismo. ¿Qué espacio lateral mínimo debe dejar con él?",
-   "opciones": {
-    "a": "1 metro.",
-    "b": "0,50 metros.",
-    "c": "1,50 metros."
-   },
-   "correcta": "c",
-   "explicacion": "El conductor de un vehículo de dos ruedas que adelanta fuera de poblado debe dejar un espacio no inferior a 1,50 metros con las partes más salientes del vehículo adelantado.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "85.5",
-    "cita": "lo hará de forma que entre aquél y las partes más salientes del vehículo que adelanta quede un espacio no inferior a 1,50 metros",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
@@ -2954,29 +2806,6 @@ window.BANCO = {
     "norma": "RGC",
     "articulo": "87.1.a",
     "cita": "se prohíbe, en concreto, el adelantamiento detrás de un vehículo que realiza la misma maniobra",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1a-0125",
-   "tema": "adelantamiento",
-   "subtema": "prohibiciones",
-   "materia": 1,
-   "enunciado": "¿Puede adelantar en las proximidades de un paso a nivel?",
-   "opciones": {
-    "a": "Sí, si el paso a nivel tiene barreras.",
-    "b": "Sí, si no se acerca ningún tren.",
-    "c": "No, está prohibido."
-   },
-   "correcta": "c",
-   "explicacion": "Se prohíbe adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "87.1.b",
-    "cita": "en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
@@ -3344,29 +3173,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1b-0007",
-   "tema": "parada_estacionamiento",
-   "subtema": "autocaravanas",
-   "materia": 13,
-   "enunciado": "Al estacionar una autocaravana en la vía pública, ¿sobre qué puede apoyarse el vehículo?",
-   "opciones": {
-    "a": "Sobre los neumáticos y sobre patas estabilizadoras desplegadas.",
-    "b": "Solo sobre los neumáticos, con posibilidad de calzos o cuñas de seguridad.",
-    "c": "Sobre gatos o soportes, para nivelarla, siempre que no ocupe la acera."
-   },
-   "correcta": "b",
-   "explicacion": "Una autocaravana estacionada debe descansar solo sobre los neumáticos, aunque puede utilizar calzos o cuñas de seguridad.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "92.4.b",
-    "cita": "Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1b-0008",
    "tema": "parada_estacionamiento",
    "subtema": "lugares_prohibidos",
@@ -3475,29 +3281,6 @@ window.BANCO = {
     "norma": "RGC",
     "articulo": "94.2.c",
     "cita": "En zonas señalizadas para carga y descarga.\nd) En zonas señalizadas para uso exclusivo de minusválidos.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0013",
-   "tema": "parada_estacionamiento",
-   "subtema": "lugares_prohibidos",
-   "materia": 1,
-   "enunciado": "¿Puede estacionar su turismo con dos ruedas sobre la acera si deja paso suficiente a los peatones?",
-   "opciones": {
-    "a": "Sí, si el espacio libre para los peatones es de al menos un metro.",
-    "b": "No, está prohibido estacionar sobre las aceras y zonas destinadas al paso de peatones.",
-    "c": "Sí, en calles estrechas donde no cabe en la calzada."
-   },
-   "correcta": "b",
-   "explicacion": "Está prohibido estacionar sobre las aceras, paseos y demás zonas destinadas al paso de peatones.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "94.2.e",
-    "cita": "Sobre las aceras, paseos y demás zonas destinadas al paso de peatones.",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
@@ -3705,52 +3488,6 @@ window.BANCO = {
     "norma": "RGC",
     "articulo": "100.1",
     "cita": "La luz de largo alcance o de carretera podrá utilizarse aisladamente o con la de corto alcance.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0023",
-   "tema": "luces",
-   "subtema": "corto_alcance",
-   "materia": 6,
-   "enunciado": "De noche, en una carretera insuficientemente iluminada, circula a 30 km/h detrás de un tractor y no lleva puesta la luz de largo alcance. ¿Qué alumbrado debe llevar, además del de posición?",
-   "opciones": {
-    "a": "Ninguno más; basta con el de posición.",
-    "b": "La luz antiniebla delantera.",
-    "c": "El de corto alcance o de cruce."
-   },
-   "correcta": "c",
-   "explicacion": "En vías interurbanas insuficientemente iluminadas, de noche, debe llevarse la luz de corto alcance cuando se circula a 40 km/h o menos y no se utiliza la de largo alcance.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "101.2.b",
-    "cita": "Circular a velocidad no superior a 40 kilómetros por hora y no estar utilizando el alumbrado de largo alcance.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0024",
-   "tema": "luces",
-   "subtema": "corto_alcance",
-   "materia": 6,
-   "enunciado": "De noche circula por una calle de un poblado que está insuficientemente iluminada. ¿Qué alumbrado debe llevar, además del de posición?",
-   "opciones": {
-    "a": "El de corto alcance o de cruce.",
-    "b": "El de largo alcance o de carretera.",
-    "c": "Ninguno más, porque está dentro de poblado."
-   },
-   "correcta": "a",
-   "explicacion": "En los poblados, cuando la vía está insuficientemente iluminada, debe llevarse encendido el alumbrado de corto alcance o de cruce además del de posición.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "101.1",
-    "cita": "Igualmente, llevará encendido dicho alumbrado en los poblados, cuando la vía esté insuficientemente iluminada.",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
@@ -4142,29 +3879,6 @@ window.BANCO = {
     "norma": "RGC",
     "articulo": "Anexo I.1.1.a",
     "cita": "La detención debe efectuarse ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0042",
-   "tema": "senales",
-   "subtema": "senales_agentes",
-   "materia": 1,
-   "enunciado": "Desde un vehículo, un agente le dirige el brazo extendido hacia abajo, inclinado y fijo. ¿Qué le indica?",
-   "opciones": {
-    "a": "Que debe detenerse en el lado derecho.",
-    "b": "Que debe reducir la velocidad.",
-    "c": "Que la calzada queda de nuevo abierta al tráfico."
-   },
-   "correcta": "a",
-   "explicacion": "El brazo extendido hacia abajo, inclinado y fijo, hecho por un agente desde un vehículo, indica a los usuarios a quienes va dirigido la obligación de detenerse en el lado derecho.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "Anexo I.1.2.d",
-    "cita": "el agente desde un vehículo indica la obligación de detenerse en el lado derecho a aquellos usuarios a los que va dirigida la señal",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
@@ -4624,34 +4338,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1b-0062",
-   "tema": "senales",
-   "subtema": "advertencia",
-   "materia": 5,
-   "enunciado": "¿Qué indica la cifra de esta señal?",
-   "opciones": {
-    "a": "La longitud del tramo en pendiente, en kilómetros.",
-    "b": "La velocidad máxima aconsejada en la bajada, en decenas de km/h.",
-    "c": "La inclinación de la pendiente descendente, en porcentaje."
-   },
-   "correcta": "c",
-   "explicacion": "La señal P-16a advierte de un tramo con fuerte pendiente descendente, y su cifra indica la inclinación de la pendiente en porcentaje.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, P-16a",
-    "cita": "descendente. La cifra indica la inclinación de la pendiente en\nporcentaje.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/P-16a.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal P-16a: Bajada con fuerte pendiente",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1b-0063",
    "tema": "senales",
    "subtema": "advertencia",
@@ -4708,146 +4394,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1b-0065",
-   "tema": "senales",
-   "subtema": "advertencia",
-   "materia": 8,
-   "enunciado": "¿De qué advierte esta señal?",
-   "opciones": {
-    "a": "De una vía reservada para ciclos y peatones.",
-    "b": "De una zona en la que está prohibido circular en bicicleta.",
-    "c": "De un paso para peatones adosado o compartido con un paso para ciclistas."
-   },
-   "correcta": "c",
-   "explicacion": "La señal P-20c advierte de la proximidad de un paso para peatones adosado o compartido con un paso para ciclistas.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, P-20c",
-    "cita": "Peligro por la proximidad de un paso para peatones adosado o\ncompartido con un paso para ciclistas.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/P-20c.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal P-20c: Pasos para peatones y ciclistas",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0066",
-   "tema": "senales",
-   "subtema": "advertencia",
-   "materia": 8,
-   "enunciado": "¿De qué advierte esta señal?",
-   "opciones": {
-    "a": "De un lugar frecuentado por personas con dificultades motrices o sensoriales.",
-    "b": "De la proximidad de un centro de salud.",
-    "c": "De una parada de autobús para personas mayores."
-   },
-   "correcta": "a",
-   "explicacion": "La señal P-21b advierte de la proximidad de un lugar frecuentado por personas con dificultades motrices o sensoriales.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, P-21b",
-    "cita": "Peligro por la proximidad de un lugar frecuentado por personas con\ndificultades motrices o sensoriales.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/P-21b.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal P-21b: Personas con dificultades motrices",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0067",
-   "tema": "senales",
-   "subtema": "advertencia",
-   "materia": 8,
-   "enunciado": "¿De qué advierte esta señal?",
-   "opciones": {
-    "a": "De un paso para ciclistas.",
-    "b": "De un tramo con circulación frecuente de ciclistas.",
-    "c": "De una vía reservada y obligatoria para ciclos."
-   },
-   "correcta": "b",
-   "explicacion": "La señal P-22b advierte de la proximidad de un tramo con circulación frecuente de ciclistas; el paso para ciclistas se advierte con la P-22a.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, P-22b",
-    "cita": "Peligro por la proximidad de un tramo con circulación frecuente de\nciclistas.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/P-22b.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal P-22b: Ciclistas",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0068",
-   "tema": "senales",
-   "subtema": "advertencia",
-   "materia": 6,
-   "enunciado": "¿De qué advierte esta señal?",
-   "opciones": {
-    "a": "De una zona de caza en la que está prohibido detenerse.",
-    "b": "De un paso de ganado doméstico conducido por pastores.",
-    "c": "De un lugar donde la vía puede ser atravesada por animales en libertad, en buena parte jabalíes."
-   },
-   "correcta": "c",
-   "explicacion": "La señal P-24a advierte de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad, en una proporción muy significativa jabalíes.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, P-24a",
-    "cita": "puede ser atravesada por animales en libertad, tratándose en una\nproporción muy significativa de jabalíes.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/P-24a.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal P-24a: Paso de animales en libertad (jabalíes)",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0069",
-   "tema": "senales",
-   "subtema": "advertencia",
-   "materia": 1,
-   "enunciado": "¿De qué advierte esta señal?",
-   "opciones": {
-    "a": "De un tramo entre una confluencia y una bifurcación donde los vehículos cambian de carril cruzando sus trayectorias.",
-    "b": "De una intersección en la que se cruzan dos carreteras a distinto nivel.",
-    "c": "De un tramo con circulación en ambos sentidos."
-   },
-   "correcta": "a",
-   "explicacion": "La señal P-35 Trenzado advierte de un tramo entre una confluencia y una bifurcación con cambios de carril que cruzan sus trayectorias y aumentan el riesgo de colisión.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, P-35",
-    "cita": "confluencia y una bifurcación donde se producen distintos\nmovimientos de cambio de carril por parte de los vehículos,\ncruzándose sus trayectorias",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/P-35.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal P-35: Trenzado",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1b-0070",
    "tema": "senales",
    "subtema": "prohibicion_entrada",
@@ -4876,118 +4422,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1b-0071",
-   "tema": "senales",
-   "subtema": "prohibicion_entrada",
-   "materia": 12,
-   "enunciado": "¿A quién prohíbe la entrada esta señal?",
-   "opciones": {
-    "a": "A todos los camiones, vayan cargados o vacíos.",
-    "b": "Solo a los vehículos que transporten más de 1.000 litros de productos contaminantes del agua.",
-    "c": "A los vehículos que transporten mercancías peligrosas y deban ir señalizados según su normativa."
-   },
-   "correcta": "c",
-   "explicacion": "La señal R-108 prohíbe el acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-108",
-    "cita": "Prohibición de acceso a toda clase de vehículos que transporten\nmercancías peligrosas y requieran",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-108.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-108: Entrada prohibida a vehículos que transporten mercancías peligrosas",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0072",
-   "tema": "senales",
-   "subtema": "prohibicion_entrada",
-   "materia": 8,
-   "enunciado": "¿A quién prohíbe la entrada esta señal?",
-   "opciones": {
-    "a": "A los vehículos de movilidad personal.",
-    "b": "A los ciclomotores.",
-    "c": "A las bicicletas de pedaleo asistido."
-   },
-   "correcta": "a",
-   "explicacion": "La señal R-118 prohíbe el acceso a los vehículos de movilidad personal.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-118",
-    "cita": "Prohibición de acceso a vehículos de movilidad personal.\nR-119",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-118.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-118: Entrada prohibida a vehículos de movilidad personal",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0073",
-   "tema": "senales",
-   "subtema": "prohibicion_entrada",
-   "materia": 16,
-   "enunciado": "¿Qué indica esta señal?",
-   "opciones": {
-    "a": "La prohibición de acceso a vehículos que emitan humo por avería.",
-    "b": "La prohibición de acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales.",
-    "c": "Una zona en la que se recomienda apagar el motor durante las paradas."
-   },
-   "correcta": "b",
-   "explicacion": "La señal R-120 prohíbe el acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales; las condiciones se especifican en un panel complementario o en un cartel.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-120",
-    "cita": "Prohibición de acceso a vehículos en función de su distintivo\nambiental u otros criterios ambientales que se establezcan.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-120.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-120: Entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios ambientales",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0074",
-   "tema": "senales",
-   "subtema": "restriccion_paso",
-   "materia": 12,
-   "enunciado": "Conduce un camión que en este momento, con su carga, pesa 6 toneladas. ¿Puede pasar ante esta señal?",
-   "opciones": {
-    "a": "Sí, porque solo limita la masa que soporta cada eje.",
-    "b": "Sí, porque solo afecta a los vehículos que circulan vacíos.",
-    "c": "No, porque prohíbe el paso a los vehículos cuya masa en carga supere la indicada."
-   },
-   "correcta": "c",
-   "explicacion": "La señal R-201 prohíbe el paso a los vehículos cuya masa en carga supere la indicada en toneladas.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-201",
-    "cita": "Prohibición de paso a los vehículos cuya masa en carga supere\nla indicada en toneladas.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-201.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-201: Limitación de masa",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1b-0075",
    "tema": "senales",
    "subtema": "restriccion_paso",
@@ -5011,90 +4445,6 @@ window.BANCO = {
     "src": "img/senales/R-204.png",
     "alt": "Señal de la pregunta",
     "alt_detalle": "Señal R-204: Limitación de anchura",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0076",
-   "tema": "senales",
-   "subtema": "parada_estacionamiento",
-   "materia": 1,
-   "enunciado": "Salvo indicación en contrario, ¿hasta dónde rige esta señal?",
-   "opciones": {
-    "a": "Hasta 100 metros después de la señal.",
-    "b": "Hasta la intersección más próxima en el sentido de la marcha.",
-    "c": "Hasta la próxima señal de fin de prohibiciones."
-   },
-   "correcta": "b",
-   "explicacion": "La prohibición de parada y estacionamiento de la señal R-307 comienza, salvo indicación en contrario, en la vertical de la señal y termina en la intersección más próxima en el sentido de la marcha.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-307",
-    "cita": "Prohibición de parada y estacionamiento en el lado de la calzada\nen que esté situada la señal. Salvo indicación en contrario, la\nprohibición comienza en la vertical de la señal y termina en la\nintersección más próxima en el sentido de la marcha.\nR-307a",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-307.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-307: Parada y estacionamiento prohibido",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0077",
-   "tema": "senales",
-   "subtema": "parada_estacionamiento",
-   "materia": 1,
-   "enunciado": "En el lado de la calzada donde está esta señal, ¿puede parar un momento para que baje un pasajero?",
-   "opciones": {
-    "a": "No, porque prohíbe tanto la parada como el estacionamiento.",
-    "b": "No, salvo que sea un vehículo de servicio público.",
-    "c": "Sí, porque la señal prohíbe el estacionamiento pero no la parada."
-   },
-   "correcta": "c",
-   "explicacion": "La señal R-308 prohíbe el estacionamiento en el lado de la calzada en que está situada, pero no prohíbe la parada.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-308",
-    "cita": "Prohibición de estacionamiento en el lado de la calzada en que\nesté situada la señal. Salvo indicación en contrario, la\nprohibición comienza en la vertical de la señal y termina en la\nintersección más próxima en el sentido de la marcha. No\nprohíbe la parada.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-308.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-308: Estacionamiento prohibido",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0078",
-   "tema": "senales",
-   "subtema": "parada_estacionamiento",
-   "materia": 1,
-   "enunciado": "¿En qué periodo prohíbe estacionar esta señal?",
-   "opciones": {
-    "a": "Desde las 9 horas del día 1 hasta las 9 horas del día 16.",
-    "b": "Desde las 0 horas del día 1 hasta las 24 horas del día 15.",
-    "c": "Desde las 9 horas del día 16 hasta las 9 horas del día 1."
-   },
-   "correcta": "a",
-   "explicacion": "La señal R-308c prohíbe estacionar la primera quincena, desde las 9 horas del día 1 hasta las 9 horas del día 16, en el lado de la calzada donde está situada.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-308c",
-    "cita": "esté situada la señal, desde las 9 horas del día 1 hasta las 9\nhoras del día 16.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-308c.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-308c: Estacionamiento prohibido la primera quincena",
     "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
    },
    "verificado_el": "2026-11-24"
@@ -5156,118 +4506,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1b-0081",
-   "tema": "senales",
-   "subtema": "obligacion",
-   "materia": 9,
-   "enunciado": "Conduce una furgoneta de 2.000 kg de masa máxima autorizada y encuentra esta señal, sin ninguna cifra, a la entrada de una calzada. ¿Le afecta?",
-   "opciones": {
-    "a": "Sí, porque afecta a furgones y furgonetas sea cual sea su masa.",
-    "b": "No, porque solo afecta a los vehículos de más de 3.500 kg de MMA.",
-    "c": "No, porque solo afecta a los camiones que lleven remolque."
-   },
-   "correcta": "a",
-   "explicacion": "La señal R-406 obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, a circular por la calzada a cuya entrada está situada, salvo que indique una cifra de tonelaje.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-406",
-    "cita": "Obligación para los conductores de toda clase de camiones,\ntractocamiones y furgones o furgonetas, independientemente\nde su masa",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-406.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-406: Calzada obligatoria para camiones, tractocamiones y furgones o furgonetas",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0082",
-   "tema": "senales",
-   "subtema": "obligacion",
-   "materia": 6,
-   "enunciado": "¿Qué obligación impone esta señal?",
-   "opciones": {
-    "a": "No proseguir la marcha sin cadenas para nieve.",
-    "b": "No proseguir la marcha sin neumáticos especiales de invierno.",
-    "c": "Circular a velocidad moderada por riesgo de hielo."
-   },
-   "correcta": "b",
-   "explicacion": "La señal R-412b obliga a no proseguir la marcha sin neumáticos especiales de invierno.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-412b",
-    "cita": "Obligación de no proseguir la marcha sin neumáticos\nespeciales de invierno",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-412b.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-412b: Neumáticos de invierno",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0083",
-   "tema": "senales",
-   "subtema": "obligacion",
-   "materia": 8,
-   "enunciado": "Circula en bicicleta y encuentra esta señal. ¿Qué debe hacer?",
-   "opciones": {
-    "a": "Circular por la vía reservada para ciclos.",
-    "b": "Ceder el paso a los peatones sin bajarse de la bicicleta.",
-    "c": "Bajarse de la bicicleta y continuar a pie."
-   },
-   "correcta": "c",
-   "explicacion": "La señal R-422 obliga a los usuarios de ciclos a desmontar y continuar a pie; si la obligación se limita a ciertos periodos, se indica con un panel complementario.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-422",
-    "cita": "Obligación para los usuarios de ciclos de continuar a pie.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-422.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-422: Desmontar y continuar a pie",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0084",
-   "tema": "senales",
-   "subtema": "fin_prohibicion",
-   "materia": 1,
-   "enunciado": "¿Qué indica esta señal?",
-   "opciones": {
-    "a": "Que dejan de aplicarse todas las prohibiciones específicas indicadas por señales anteriores para vehículos en movimiento.",
-    "b": "El fin de la limitación de velocidad, pero no de las demás prohibiciones.",
-    "c": "El final de una autopista o autovía."
-   },
-   "correcta": "a",
-   "explicacion": "La señal R-500 señala el lugar desde el que todas las prohibiciones específicas indicadas por señales anteriores de prohibición para vehículos en movimiento dejan de tener aplicación.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-500",
-    "cita": "Señala el lugar desde el que todas las prohibiciones\nespecíficas indicadas por señales anteriores de prohibición\npara vehículos en movimiento dejan de tener aplicación.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-500.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-500: Fin de prohibiciones",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1b-0085",
    "tema": "senales",
    "subtema": "fin_prohibicion",
@@ -5319,118 +4557,6 @@ window.BANCO = {
     "src": "img/senales/R-506.png",
     "alt": "Señal de la pregunta",
     "alt_detalle": "Señal R-506: Fin de velocidad mínima",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0087",
-   "tema": "senales",
-   "subtema": "indicacion",
-   "materia": 1,
-   "enunciado": "En una curva encuentra esta señal. ¿Está obligado a no superar los 70 km/h?",
-   "opciones": {
-    "a": "No, es una velocidad aconsejada, aunque se recomienda no superarla.",
-    "b": "Sí, es una velocidad máxima obligatoria para todos los vehículos.",
-    "c": "Sí, pero solo los vehículos pesados y los que lleven remolque."
-   },
-   "correcta": "a",
-   "explicacion": "La señal S-7 recomienda una velocidad, en km/h, que se aconseja no sobrepasar aunque las condiciones meteorológicas y de la circulación sean favorables.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, S-7",
-    "cita": "hora, que se aconseja no sobrepasar aunque las condiciones\nmeteorológicas y ambientales de la vía y de la circulación sean\nfavorables. Cuando está colocada bajo una señal de\nadvertencia",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/S-7.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal S-7: Velocidad máxima aconsejada",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0088",
-   "tema": "senales",
-   "subtema": "indicacion",
-   "materia": 6,
-   "enunciado": "¿Qué indica esta señal?",
-   "opciones": {
-    "a": "La obligación de comprobar el funcionamiento de las luces.",
-    "b": "El final de un tramo en el que es obligatorio el alumbrado al menos de corto alcance.",
-    "c": "Que debe encender las luces antiniebla."
-   },
-   "correcta": "b",
-   "explicacion": "La señal S-24 indica el final de un tramo en el que es obligatorio el alumbrado al menos de cruce, y recuerda que puede prescindirse de él si no lo imponen la visibilidad, el horario o la iluminación de la vía.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, S-24",
-    "cita": "Indica el final de un tramo en el que es obligatorio el alumbrado\nal menos de cruce o corto alcance",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/S-24.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal S-24: Fin de obligación de alumbrado de corto alcance (cruce)",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0089",
-   "tema": "senales",
-   "subtema": "indicacion",
-   "materia": 5,
-   "enunciado": "¿Qué indica esta señal?",
-   "opciones": {
-    "a": "Un carril adicional para vehículos lentos.",
-    "b": "Un lugar donde está permitido cambiar de sentido.",
-    "c": "Una zona de escape acondicionada para detener un vehículo si le fallan los frenos."
-   },
-   "correcta": "c",
-   "explicacion": "La señal S-16 indica una zona de frenado de emergencia: una zona de escape de la calzada para detener un vehículo en caso de fallo de su sistema de frenado.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, S-16",
-    "cita": "Indica la situación de una zona de escape de la calzada\nacondicionada para que un vehículo pueda ser detenido en caso\nde fallo de su sistema de frenado.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/S-16.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal S-16: Zona de frenado de emergencia",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0090",
-   "tema": "senales",
-   "subtema": "indicacion",
-   "materia": 1,
-   "enunciado": "¿Qué indica esta señal?",
-   "opciones": {
-    "a": "Un estacionamiento autorizado solo para un fin concreto, como el acceso a una farmacia, y por un tiempo determinado.",
-    "b": "Un estacionamiento reservado a vehículos sanitarios en servicio urgente.",
-    "c": "Un estacionamiento gratuito sin límite de tiempo."
-   },
-   "correcta": "a",
-   "explicacion": "La señal S-17a indica un estacionamiento de necesidad, autorizado únicamente para un fin concreto (farmacia, hospital, etc.) y durante un tiempo determinado.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, S-17a",
-    "cita": "vehículos únicamente para un fin concreto (acceso a una\nfarmacia, hospital, etc.)",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/S-17a.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal S-17a: Estacionamiento de necesidad",
     "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
    },
    "verificado_el": "2026-11-24"
@@ -5520,34 +4646,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "x1b-0094",
-   "tema": "senales",
-   "subtema": "indicacion",
-   "materia": 8,
-   "enunciado": "En la zona que empieza con esta señal, ¿pueden los niños jugar en la calzada?",
-   "opciones": {
-    "a": "Sí, porque los peatones pueden usar toda la zona de circulación.",
-    "b": "No, en las zonas de coexistencia los juegos y los deportes no están autorizados.",
-    "c": "Sí, siempre que los vehículos no superen los 20 km/h."
-   },
-   "correcta": "b",
-   "explicacion": "En la zona de coexistencia (S-47) la velocidad máxima es de 20 km/h, los peatones tienen prioridad y pueden usar toda la zona, pero los juegos y los deportes no están autorizados.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, S-47",
-    "cita": "lugares designados por señales o por marcas; los juegos y los\ndeportes no están autorizados.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/S-47.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal S-47: Zona de coexistencia",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "x1b-0095",
    "tema": "senales",
    "subtema": "indicacion",
@@ -5571,34 +4669,6 @@ window.BANCO = {
     "src": "img/senales/S-49.png",
     "alt": "Señal de la pregunta",
     "alt_detalle": "Señal S-49: Avanza moto o bici",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
-   },
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "x1b-0096",
-   "tema": "vias",
-   "subtema": "clases",
-   "materia": 7,
-   "enunciado": "En la carretera que empieza con esta señal, ¿para qué sirve el carril central?",
-   "opciones": {
-    "a": "Para facilitar el adelantamiento, reservado de manera alterna a uno y otro sentido.",
-    "b": "Para girar a la izquierda en las intersecciones.",
-    "c": "Solo para vehículos de servicios de urgencia."
-   },
-   "correcta": "a",
-   "explicacion": "La carretera 2+1 tiene tres carriles con circulación en ambos sentidos; el carril central facilita el adelantamiento y se reserva de manera alterna a uno y otro sentido.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, S-1c",
-    "cita": "El carril central se destina a facilitar la\nmaniobra de adelantamiento, estando reservado de manera\nalterna a uno y otro sentido de circulación.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/S-1c.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal S-1c: Carretera 2+1",
     "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
    },
    "verificado_el": "2026-11-24"
@@ -6721,29 +5791,6 @@ window.BANCO = {
     "norma": "CP",
     "articulo": "379.2",
     "cita": "2. Con las mismas penas será castigado el que condujere un vehículo de motor o ciclomotor bajo la influencia",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
-    "version_consultada": "2026-04-09"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xb-0018",
-   "tema": "delitos",
-   "subtema": "penas",
-   "materia": 4,
-   "enunciado": "Además de la pena de prisión, multa o trabajos en beneficio de la comunidad, ¿qué pena se impone en todo caso por conducir con una tasa de alcohol superior a 0,60 mg/l en aire espirado?",
-   "opciones": {
-    "a": "Pérdida de 6 puntos, sin privación del derecho a conducir.",
-    "b": "Privación del derecho a conducir de uno a tres meses.",
-    "c": "Privación del derecho a conducir por más de uno y hasta cuatro años."
-   },
-   "correcta": "c",
-   "explicacion": "Los delitos de exceso de velocidad y de conducción bajo los efectos del alcohol o las drogas llevan, en cualquier caso, la privación del derecho a conducir por tiempo superior a uno y hasta cuatro años.",
-   "fuente": {
-    "norma": "CP",
-    "articulo": "379.1",
-    "cita": "y, en cualquier caso, con la de privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a uno y hasta cuatro años.",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
     "version_consultada": "2026-04-09"
    },
@@ -9132,29 +8179,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xb-0123",
-   "tema": "remolques",
-   "subtema": "permiso_BE",
-   "materia": 12,
-   "enunciado": "Con el permiso de la clase B+E, ¿qué masa máxima autorizada puede tener el remolque que arrastre un vehículo de los que autoriza el permiso B?",
-   "opciones": {
-    "a": "Hasta 750 kg.",
-    "b": "Hasta 12.000 kg.",
-    "c": "Hasta 3.500 kg."
-   },
-   "correcta": "c",
-   "explicacion": "El permiso B+E autoriza a conducir conjuntos formados por un vehículo tractor de los que permite el permiso B y un remolque o semirremolque de masa máxima autorizada no superior a 3.500 kg.",
-   "fuente": {
-    "norma": "RGCOND",
-    "articulo": "4.2 (clase B+E)",
-    "cita": "un vehículo tractor de los que autoriza a conducir el permiso de la clase B y un remolque o semirremolque cuya masa máxima autorizada no exceda de 3.500 kg",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
-    "version_consultada": "2023-12-06"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xc-0001",
    "tema": "accidentes",
    "subtema": "factores_riesgo",
@@ -9999,29 +9023,6 @@ window.BANCO = {
     "norma": "MANUAL_DGT",
     "articulo": "Tema 17, Conducción preventiva (p. 440)",
     "cita": "Recoge la información necesaria antes de empezar el viaje para circular con seguridad.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xc-0038",
-   "tema": "actitudes",
-   "subtema": "conduccion_preventiva",
-   "materia": 3,
-   "enunciado": "¿En qué tres principios se basa la técnica de la conducción preventiva?",
-   "opciones": {
-    "a": "Visión, anticipación y espacio.",
-    "b": "Velocidad, potencia y frenado.",
-    "c": "Retrovisor, claxon y luces."
-   },
-   "correcta": "a",
-   "explicacion": "La técnica de la conducción preventiva se basa en tres principios: visión, anticipación y espacio.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 17, Conducción preventiva (p. 441)",
-    "cita": "Visión Mirar hacia todos los lados para recoger información y no fijarse en las cosas que puedan ser una distracción. Anticipación Prever los movimientos y reacciones de los demás conductores para poder reaccionar a tiempo. Espacio Guardar la distancia de seguridad",
     "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
     "version_consultada": "2024-10"
    },
@@ -12822,29 +11823,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xd-0031",
-   "tema": "tuneles",
-   "subtema": "alumbrado",
-   "materia": 6,
-   "enunciado": "Atraviesa a 30 km/h, por retenciones, un túnel insuficientemente iluminado y no lleva la luz de largo alcance. ¿Qué alumbrado debe llevar?",
-   "opciones": {
-    "a": "Solo el de posición, porque circula despacio.",
-    "b": "El de posición y el de corto alcance o cruce.",
-    "c": "Solo la luz antiniebla delantera."
-   },
-   "correcta": "b",
-   "explicacion": "En túneles insuficientemente iluminados, quien circula a 40 km/h o menos sin usar la luz de largo alcance debe llevar la de cruce, además de la de posición.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "101.2.b",
-    "cita": "Todo vehículo de motor y ciclomotor debe llevar encendido el alumbrado de corto\nalcance o de cruce al circular entre el ocaso y la salida del sol por vías interurbanas\ninsuficientemente iluminadas o a cualquier hora del día por túneles",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xd-0032",
    "tema": "tuneles",
    "subtema": "senal_tunel",
@@ -13379,29 +12357,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xd-0056",
-   "tema": "usuarios_vulnerables",
-   "subtema": "animales",
-   "materia": 8,
-   "enunciado": "Una persona lleva un caballo de la brida por una carretera. Como norma general, ¿por dónde debe ir?",
-   "opciones": {
-    "a": "Por el arcén derecho o, si usa la calzada, junto a su borde derecho.",
-    "b": "Por la acera o la zona peatonal, si existe.",
-    "c": "Por el centro del carril, para que el animal se vea mejor."
-   },
-   "correcta": "a",
-   "explicacion": "Los animales de tiro, carga o silla van por el arcén derecho y, si usan la calzada, lo más cerca posible de su borde derecho; nunca invaden la zona peatonal.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "127.1.b",
-    "cita": "Los animales de tiro, carga o silla o el ganado suelto circularán por el arcén del lado derecho, y si tuvieran que utilizar la calzada, lo harán aproximándose cuanto sea posible al borde derecho de ésta",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xd-0057",
    "tema": "usuarios_vulnerables",
    "subtema": "animales",
@@ -13563,29 +12518,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xd-0064",
-   "tema": "usuarios_vulnerables",
-   "subtema": "motoristas",
-   "materia": 8,
-   "enunciado": "Conduce una motocicleta fuera de poblado y adelanta a un turismo. ¿Qué espacio mínimo debe quedar entre la moto y las partes más salientes del turismo?",
-   "opciones": {
-    "a": "1 metro.",
-    "b": "0,75 metros.",
-    "c": "1,50 metros."
-   },
-   "correcta": "c",
-   "explicacion": "Fuera de poblado, el conductor de un vehículo de dos ruedas que adelanta debe dejar un espacio no inferior a 1,50 metros con las partes más salientes del vehículo adelantado.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "85.5",
-    "cita": "lo hará de forma que entre aquél y las partes más salientes del vehículo que adelanta quede un espacio no inferior a 1,50 metros.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xd-0065",
    "tema": "usuarios_vulnerables",
    "subtema": "ciclistas",
@@ -13701,29 +12633,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xd-0070",
-   "tema": "usuarios_vulnerables",
-   "subtema": "vmp",
-   "materia": 8,
-   "enunciado": "¿Cuándo debe llevar encendido el alumbrado un vehículo de movilidad personal?",
-   "opciones": {
-    "a": "Siempre.",
-    "b": "Solo de noche.",
-    "c": "Solo de noche y en túneles."
-   },
-   "correcta": "a",
-   "explicacion": "Los vehículos de movilidad personal deben llevar siempre encendido el alumbrado, también de día.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "155.5",
-    "cita": "Los vehículos de movilidad personal deberán llevar siempre encendido el alumbrado.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xd-0071",
    "tema": "usuarios_vulnerables",
    "subtema": "vmp",
@@ -13740,29 +12649,6 @@ window.BANCO = {
     "norma": "RGC",
     "articulo": "155.6",
     "cita": "las personas con movilidad\nreducida que se desplacen en vehículos de movilidad personal al paso de persona tendrán la\nconsideración de peatones.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xd-0072",
-   "tema": "usuarios_vulnerables",
-   "subtema": "vmp",
-   "materia": 8,
-   "enunciado": "¿Puede circular un patinete eléctrico (vehículo de movilidad personal) por una carretera convencional interurbana?",
-   "opciones": {
-    "a": "Sí, por el arcén derecho, igual que los ciclomotores.",
-    "b": "Sí, si el conductor es mayor de edad y lleva casco.",
-    "c": "No, salvo vías ciclistas o carriles bici no prohibidos por señal."
-   },
-   "correcta": "c",
-   "explicacion": "Los vehículos de movilidad personal no pueden circular por vías interurbanas, salvo por vías ciclistas, carriles bici, sendas ciclables y vías cerradas a los vehículos de motor, si la señalización no lo prohíbe.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "38.4.c",
-    "cita": "Por vías interurbanas y por túneles urbanos, salvo que se trate de vías ciclistas,\ncarriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías en las que esté\nprohibida la circulación de vehículos de motor",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
@@ -13836,34 +12722,6 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xd-0081",
-   "tema": "senales",
-   "subtema": "prohibicion",
-   "materia": 8,
-   "enunciado": "Circula en bicicleta y encuentra esta señal a la entrada de una calle. ¿Puede entrar?",
-   "opciones": {
-    "a": "Sí, porque solo prohíbe el acceso a los vehículos de movilidad personal.",
-    "b": "Sí, siempre que circule a menos de 20 km/h.",
-    "c": "No, prohíbe el acceso a ciclos y a vehículos de movilidad personal."
-   },
-   "correcta": "c",
-   "explicacion": "La señal R-119 prohíbe el acceso a ciclos y a vehículos de movilidad personal.",
-   "fuente": {
-    "norma": "RGC_CATALOGO",
-    "articulo": "Anexo I, catálogo de señales, R-119 (pág. 105 del PDF consolidado)",
-    "cita": "Prohibición de acceso a ciclos y a vehículos de movilidad\npersonal.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": {
-    "src": "img/senales/R-119.png",
-    "alt": "Señal de la pregunta",
-    "alt_detalle": "Señal R-119: Entrada prohibida a ciclos y a vehículos de movilidad personal",
-    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 105 del PDF consolidado"
-   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -14258,29 +13116,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xd-0102",
-   "tema": "vehiculos_pesados",
-   "subtema": "uso_arcen",
-   "materia": 9,
-   "enunciado": "Por una avería, su turismo de 1.800 kg de masa máxima autorizada solo puede circular a velocidad anormalmente reducida y perturba gravemente la circulación. Si el arcén es transitable y suficiente, ¿por dónde debe ir?",
-   "opciones": {
-    "a": "Por el arcén de su derecha.",
-    "b": "Por el carril izquierdo, con la señal de emergencia.",
-    "c": "Por el centro del carril derecho, con la señal de emergencia."
-   },
-   "correcta": "a",
-   "explicacion": "Los vehículos de hasta 3.500 kg que, por emergencia, circulan a velocidad anormalmente reducida y perturban gravemente la circulación deben ir por el arcén derecho si es transitable y suficiente.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "36.1",
-    "cita": "Deberán también circular por el arcén de su derecha, si fuera transitable y suficiente, y, si no lo fuera, por la parte imprescindible de la calzada, los conductores de aquellos vehículos cuya masa máxima autorizada no exceda de 3.500 kilogramos",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xd-0103",
    "tema": "vehiculos_dos_ruedas",
    "subtema": "arcen",
@@ -14516,29 +13351,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xd-0114",
-   "tema": "vehiculos_pesados",
-   "subtema": "v10",
-   "materia": 9,
-   "enunciado": "¿Dónde debe colocarse la señal V-10 de transporte escolar?",
-   "opciones": {
-    "a": "Dentro del vehículo, delante y detrás, visible desde fuera.",
-    "b": "Fuera del vehículo, sobre el techo, visible desde lejos.",
-    "c": "Solo en la parte posterior, junto a la placa de matrícula."
-   },
-   "correcta": "a",
-   "explicacion": "La señal V-10 de transporte escolar se coloca dentro del vehículo, en la parte frontal y en la posterior, de forma visible desde el exterior.",
-   "fuente": {
-    "norma": "RGV",
-    "articulo": "Anexo XI, V-10.2",
-    "cita": "Este distintivo deberá colocarse dentro del vehículo, en la parte frontal y en la parte\nposterior del mismo, de forma que resulte visible desde el exterior.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xd-0115",
    "tema": "vehiculos_pesados",
    "subtema": "cruce",
@@ -14723,52 +13535,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xd-0127",
-   "tema": "parada_estacionamiento",
-   "subtema": "autocaravanas",
-   "materia": 13,
-   "enunciado": "Tiene estacionada su autocaravana en una calle. ¿Puede apoyarla en sus patas estabilizadoras para nivelarla?",
-   "opciones": {
-    "a": "Sí, porque así queda más estable y no puede moverse sola.",
-    "b": "Sí, siempre que no ocupe más espacio que el de una plaza.",
-    "c": "No, debe descansar solo sobre los neumáticos, aunque puede usar calzos."
-   },
-   "correcta": "c",
-   "explicacion": "Una autocaravana estacionada debe descansar solo sobre sus neumáticos, con posibilidad de usar calzos o cuñas de seguridad.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "92.4.b",
-    "cita": "b) Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xd-0128",
-   "tema": "parada_estacionamiento",
-   "subtema": "autocaravanas",
-   "materia": 13,
-   "enunciado": "Tiene estacionada su autocaravana en una calle. ¿Puede vaciar en la vía las aguas usadas del habitáculo?",
-   "opciones": {
-    "a": "Sí, si lo hace junto a una alcantarilla.",
-    "b": "No, está prohibido verter fluidos del habitáculo.",
-    "c": "Sí, si son solo aguas de la ducha."
-   },
-   "correcta": "b",
-   "explicacion": "Las autocaravanas estacionadas en la vía no pueden verter fluidos procedentes del habitáculo.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "92.4.c",
-    "cita": "con posibilidad de calzos o cuñas de seguridad.\nc) Sin verter fluidos procedentes del habitáculo.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xd-0129",
    "tema": "parada_estacionamiento",
    "subtema": "seguridad",
@@ -14877,29 +13643,6 @@ window.BANCO = {
     "norma": "RGC",
     "articulo": "130.2",
     "cita": "Si ello no fuera posible, deberán detenerse en el arcén derecho de la vía o en el lugar donde cause menor obstáculo a la circulación.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xd-0134",
-   "tema": "chaleco",
-   "subtema": "profesionales",
-   "materia": 13,
-   "enunciado": "Un repartidor trabaja circulando en motocicleta por la ciudad. ¿Cuándo debe llevar puesto el chaleco reflectante de alta visibilidad?",
-   "opciones": {
-    "a": "Siempre que circule, en todo tipo de vías.",
-    "b": "Solo al bajarse de la moto en vías interurbanas.",
-    "c": "Solo de noche o con mala visibilidad."
-   },
-   "correcta": "a",
-   "explicacion": "Quienes desarrollan su actividad profesional circulando en motocicletas, ciclomotores, bicicletas o vehículos de movilidad personal deben llevar chaleco reflectante de alta visibilidad en todo tipo de vías.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "118.4",
-    "cita": "Los conductores que desarrollen su actividad profesional circulando en los vehículos mencionados en los apartados 1, 2 y 3, deberán utilizar un chaleco reflectante de alta visibilidad",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
@@ -15436,29 +14179,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xe-0016",
-   "tema": "primeros_auxilios",
-   "subtema": "normas_socorrer",
-   "materia": 11,
-   "enunciado": "Para proteger el cuello de un herido de movimientos bruscos, ¿dónde puede colocar ropa o sus manos?",
-   "opciones": {
-    "a": "A los lados del cuello.",
-    "b": "Debajo del cuello, como una almohada.",
-    "c": "Debajo de la cabeza, para levantarla."
-   },
-   "correcta": "a",
-   "explicacion": "Según el manual de la DGT, para mantener protegido el cuello del herido se puede colocar ropa, arena o las manos a los lados del cuello, nunca debajo.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 16, Socorrer (p. 421)",
-    "cita": "Puedes colocar ropa, arena o tus manos a los lados del cuello de la persona herida. Nunca debajo del cuello.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xe-0017",
    "tema": "primeros_auxilios",
    "subtema": "normas_socorrer",
@@ -15498,29 +14218,6 @@ window.BANCO = {
     "norma": "MANUAL_DGT",
     "articulo": "Tema 16, Socorrer (p. 422)",
     "cita": "En caso de duda sobre cómo actuar habla a los heridos y dales apoyo emocional.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xe-0019",
-   "tema": "primeros_auxilios",
-   "subtema": "mover_heridos",
-   "materia": 11,
-   "enunciado": "Hay que mover a un herido porque en ese lugar corre peligro su vida. ¿Cómo debe hacerse?",
-   "opciones": {
-    "a": "Entre tres personas, como si fuera un solo bloque.",
-    "b": "Una sola persona, arrastrándolo por los brazos.",
-    "c": "Dos personas, una por los brazos y otra por los pies."
-   },
-   "correcta": "a",
-   "explicacion": "Según el manual de la DGT, cuando es necesario mover a un herido hay que hacerlo entre tres personas coordinadas, como un solo bloque, con cabeza, cuello y cuerpo alineados.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 16, ¿Cómo debes mover a un herido? (p. 422)",
-    "cita": "hay que hacerlo entre tres personas para moverlo como si fuera un solo bloque.",
     "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
     "version_consultada": "2024-10"
    },
@@ -15712,29 +14409,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xe-0028",
-   "tema": "primeros_auxilios",
-   "subtema": "hemorragias",
-   "materia": 11,
-   "enunciado": "¿Quién puede quitar un torniquete?",
-   "opciones": {
-    "a": "Solo el personal médico.",
-    "b": "Quien lo colocó, cuando la herida deje de sangrar.",
-    "c": "El propio herido, si nota hormigueo."
-   },
-   "correcta": "a",
-   "explicacion": "Según el manual de la DGT, el torniquete solo lo puede quitar el personal médico.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 16, Torniquete (p. 431)",
-    "cita": "El torniquete solo lo puede quitar el personal médico.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xe-0029",
    "tema": "primeros_auxilios",
    "subtema": "shock",
@@ -15850,29 +14524,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xe-0034",
-   "tema": "primeros_auxilios",
-   "subtema": "fracturas",
-   "materia": 11,
-   "enunciado": "Sospecha que un herido tiene un brazo fracturado. ¿Qué debe hacer?",
-   "opciones": {
-    "a": "Dejar inmóvil la zona y evitar que la mueva.",
-    "b": "Intentar colocar el hueso en su posición.",
-    "c": "Pedirle que mueva el brazo para comprobarlo."
-   },
-   "correcta": "a",
-   "explicacion": "Según el manual de la DGT, ante una fractura hay que dejar inmóvil la zona, evitar que el herido la mueva y tapar la herida si la hay.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 16, Fractura (p. 435)",
-    "cita": "Dejar inmóvil la zona de la fractura. ■ Evitar que el herido mueva esa zona.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xe-0035",
    "tema": "primeros_auxilios",
    "subtema": "traslado",
@@ -15965,29 +14616,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xe-0039",
-   "tema": "mecanica",
-   "subtema": "electrico",
-   "materia": 14,
-   "enunciado": "¿En qué pieza del motor se produce la chispa del circuito de encendido?",
-   "opciones": {
-    "a": "En el alternador.",
-    "b": "En el radiador.",
-    "c": "En la bujía."
-   },
-   "correcta": "c",
-   "explicacion": "El circuito de encendido produce la chispa de electricidad que hace funcionar el motor; esa chispa se enciende en la bujía, que hay que revisar y cambiar cuando sea necesario.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 15, Circuito de encendido (p. 369)",
-    "cita": "Esta chispa de electricidad se enciende en una pieza del motor que se llama bujía.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xe-0040",
    "tema": "mecanica",
    "subtema": "electrico",
@@ -16073,29 +14701,6 @@ window.BANCO = {
     "norma": "MANUAL_DGT",
     "articulo": "Tema 15, Clases de aceites (p. 375)",
     "cita": "10W indica que este aceite se reparte bien por el motor, aunque haya poca temperatura.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xe-0044",
-   "tema": "mecanica",
-   "subtema": "refrigeracion",
-   "materia": 14,
-   "enunciado": "¿Cuándo debe comprobarse que el líquido refrigerante está entre las marcas de mínimo y máximo?",
-   "opciones": {
-    "a": "Con el motor caliente, tras un viaje.",
-    "b": "Con el motor frío.",
-    "c": "Con el motor en marcha."
-   },
-   "correcta": "b",
-   "explicacion": "Según el manual de la DGT, el nivel de líquido refrigerante debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
-    "cita": "Debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío.",
     "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
     "version_consultada": "2024-10"
    },
@@ -17138,29 +15743,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xe-0090",
-   "tema": "seguridad_pasiva",
-   "subtema": "casco_proteccion",
-   "materia": 15,
-   "enunciado": "Va a circular en motocicleta por ciudad. ¿Qué calzado debe llevar?",
-   "opciones": {
-    "a": "Cualquiera, porque en vías urbanas no se exige calzado concreto.",
-    "b": "Calzado cerrado solo si circula por vías interurbanas.",
-    "c": "Calzado cerrado que cubra todo el pie."
-   },
-   "correcta": "c",
-   "explicacion": "Conductores y pasajeros de motocicletas, ciclomotores, vehículos de tres ruedas, cuadriciclos y quads deben usar calzado cerrado que cubra todo el pie en todo tipo de vías.",
-   "fuente": {
-    "norma": "RGC",
-    "articulo": "118.1.c",
-    "cita": "c) Calzado cerrado, que cubra todo el pie, cuando circulen en todo tipo de vías.",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xe-0091",
    "tema": "seguridad_pasiva",
    "subtema": "casco_bicicleta",
@@ -17736,29 +16318,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xe-0117",
-   "tema": "conduccion_eficiente",
-   "subtema": "arranque",
-   "materia": 16,
-   "enunciado": "Según las técnicas de conducción eficiente, ¿cómo se debe arrancar el motor?",
-   "opciones": {
-    "a": "Pisando a fondo el acelerador.",
-    "b": "Acelerando varias veces en vacío.",
-    "c": "Sin pisar el acelerador."
-   },
-   "correcta": "c",
-   "explicacion": "En conducción eficiente, el motor se arranca sin pisar el acelerador y se empieza a circular justo después de encenderlo.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 452)",
-    "cita": "Arrancar el motor sin pisar el acelerador.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xe-0118",
    "tema": "conduccion_eficiente",
    "subtema": "arranque",
@@ -17798,29 +16357,6 @@ window.BANCO = {
     "norma": "MANUAL_DGT",
     "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 452)",
     "cita": "Circular a mucha velocidad con el motor frío hace que se gaste más combustible y que el motor se desgaste antes.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xe-0120",
-   "tema": "conduccion_eficiente",
-   "subtema": "marchas",
-   "materia": 16,
-   "enunciado": "Según el manual de la DGT, ¿en qué marchas gasta menos combustible el vehículo?",
-   "opciones": {
-    "a": "En primera y segunda.",
-    "b": "En tercera, en cualquier vía.",
-    "c": "En cuarta y quinta."
-   },
-   "correcta": "c",
-   "explicacion": "Según el manual de la DGT, el vehículo gasta menos combustible en cuarta y quinta, cuando el motor va más rápido y con menos potencia.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 453)",
-    "cita": "El vehículo gasta menos combustible en la cuarta y quinta marcha",
     "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
     "version_consultada": "2024-10"
    },
@@ -18081,29 +16617,6 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
-   "id": "xe-0132",
-   "tema": "conduccion_eficiente",
-   "subtema": "falsos_ahorros",
-   "materia": 16,
-   "enunciado": "¿Conviene repostar un combustible distinto del que indica el fabricante para ahorrar dinero?",
-   "opciones": {
-    "a": "Sí, si es más barato que el recomendado.",
-    "b": "Sí, mezclado a partes iguales con el recomendado.",
-    "c": "No; un combustible inadecuado romperá el motor."
-   },
-   "correcta": "c",
-   "explicacion": "Según el manual de la DGT, echar un combustible distinto del que marca el fabricante es una falsa medida de ahorro, porque un combustible inadecuado romperá el motor.",
-   "fuente": {
-    "norma": "MANUAL_DGT",
-    "articulo": "Tema 17, Medidas para ahorrar combustible que son falsas (p. 461)",
-    "cita": "Echar un combustible al vehículo distinto del que marca el fabricante. Un combustible inadecuado romperá el motor del vehículo.",
-    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-    "version_consultada": "2024-10"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
    "id": "xe-0133",
    "tema": "conduccion_eficiente",
    "subtema": "tecnologia",
@@ -18327,29 +16840,6 @@ window.BANCO = {
     "norma": "RGV",
     "articulo": "Anexo II.E.2.b",
     "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC)",
-    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
-    "version_consultada": "2026-06-26"
-   },
-   "imagen": null,
-   "verificado_el": "2026-11-24"
-  },
-  {
-   "id": "xe-0145",
-   "tema": "distintivos_ambientales",
-   "subtema": "clasificacion",
-   "materia": 16,
-   "enunciado": "Un turismo propulsado por gas licuado del petróleo (GLP) que cumple los criterios de la clasificación C, ¿qué distintivo ambiental obtiene?",
-   "opciones": {
-    "a": "ECO.",
-    "b": "C.",
-    "c": "0 emisiones."
-   },
-   "correcta": "a",
-   "explicacion": "Los turismos propulsados por gas natural, GNC o GLP tienen la clasificación ECO, siempre que cumplan además los criterios de la clasificación C.",
-   "fuente": {
-    "norma": "RGV",
-    "articulo": "Anexo II.E.2.b",
-    "cita": "vehículos propulsados por gas natural, vehículos propulsados por gas natural comprimido (GNC), o gas licuado del petróleo (GLP). En todo caso, deberán cumplir los criterios de la clasificación C.",
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "version_consultada": "2026-06-26"
    },

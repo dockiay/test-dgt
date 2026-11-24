@@ -467,37 +467,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xe-0016",
-      "tema": "primeros_auxilios",
-      "subtema": "normas_socorrer",
-      "materia": 11,
-      "enunciado": "Para proteger el cuello de un herido de movimientos bruscos, ¿dónde puede colocar ropa o sus manos?",
-      "opciones": {
-        "a": "A los lados del cuello.",
-        "b": "Debajo del cuello, como una almohada.",
-        "c": "Debajo de la cabeza, para levantarla."
-      },
-      "correcta": "a",
-      "explicacion": "Según el manual de la DGT, para mantener protegido el cuello del herido se puede colocar ropa, arena o las manos a los lados del cuello, nunca debajo.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 16, Socorrer (p. 421)",
-        "cita": "Puedes colocar ropa, arena o tus manos a los lados del cuello de la persona herida. Nunca debajo del cuello.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 16",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xe-0017",
       "tema": "primeros_auxilios",
       "subtema": "normas_socorrer",
@@ -545,37 +514,6 @@
         "norma": "MANUAL_DGT",
         "articulo": "Tema 16, Socorrer (p. 422)",
         "cita": "En caso de duda sobre cómo actuar habla a los heridos y dales apoyo emocional.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 16",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xe-0019",
-      "tema": "primeros_auxilios",
-      "subtema": "mover_heridos",
-      "materia": 11,
-      "enunciado": "Hay que mover a un herido porque en ese lugar corre peligro su vida. ¿Cómo debe hacerse?",
-      "opciones": {
-        "a": "Entre tres personas, como si fuera un solo bloque.",
-        "b": "Una sola persona, arrastrándolo por los brazos.",
-        "c": "Dos personas, una por los brazos y otra por los pies."
-      },
-      "correcta": "a",
-      "explicacion": "Según el manual de la DGT, cuando es necesario mover a un herido hay que hacerlo entre tres personas coordinadas, como un solo bloque, con cabeza, cuello y cuerpo alineados.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 16, ¿Cómo debes mover a un herido? (p. 422)",
-        "cita": "hay que hacerlo entre tres personas para moverlo como si fuera un solo bloque.",
         "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
         "version_consultada": "2024-10"
       },
@@ -839,37 +777,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xe-0028",
-      "tema": "primeros_auxilios",
-      "subtema": "hemorragias",
-      "materia": 11,
-      "enunciado": "¿Quién puede quitar un torniquete?",
-      "opciones": {
-        "a": "Solo el personal médico.",
-        "b": "Quien lo colocó, cuando la herida deje de sangrar.",
-        "c": "El propio herido, si nota hormigueo."
-      },
-      "correcta": "a",
-      "explicacion": "Según el manual de la DGT, el torniquete solo lo puede quitar el personal médico.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 16, Torniquete (p. 431)",
-        "cita": "El torniquete solo lo puede quitar el personal médico.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 16",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xe-0029",
       "tema": "primeros_auxilios",
       "subtema": "shock",
@@ -1025,37 +932,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xe-0034",
-      "tema": "primeros_auxilios",
-      "subtema": "fracturas",
-      "materia": 11,
-      "enunciado": "Sospecha que un herido tiene un brazo fracturado. ¿Qué debe hacer?",
-      "opciones": {
-        "a": "Dejar inmóvil la zona y evitar que la mueva.",
-        "b": "Intentar colocar el hueso en su posición.",
-        "c": "Pedirle que mueva el brazo para comprobarlo."
-      },
-      "correcta": "a",
-      "explicacion": "Según el manual de la DGT, ante una fractura hay que dejar inmóvil la zona, evitar que el herido la mueva y tapar la herida si la hay.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 16, Fractura (p. 435)",
-        "cita": "Dejar inmóvil la zona de la fractura. ■ Evitar que el herido mueva esa zona.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 16",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xe-0035",
       "tema": "primeros_auxilios",
       "subtema": "traslado",
@@ -1180,37 +1056,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xe-0039",
-      "tema": "mecanica",
-      "subtema": "electrico",
-      "materia": 14,
-      "enunciado": "¿En qué pieza del motor se produce la chispa del circuito de encendido?",
-      "opciones": {
-        "a": "En el alternador.",
-        "b": "En el radiador.",
-        "c": "En la bujía."
-      },
-      "correcta": "c",
-      "explicacion": "El circuito de encendido produce la chispa de electricidad que hace funcionar el motor; esa chispa se enciende en la bujía, que hay que revisar y cambiar cuando sea necesario.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 15, Circuito de encendido (p. 369)",
-        "cita": "Esta chispa de electricidad se enciende en una pieza del motor que se llama bujía.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 15",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xe-0040",
       "tema": "mecanica",
       "subtema": "electrico",
@@ -1320,37 +1165,6 @@
         "norma": "MANUAL_DGT",
         "articulo": "Tema 15, Clases de aceites (p. 375)",
         "cita": "10W indica que este aceite se reparte bien por el motor, aunque haya poca temperatura.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 15",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xe-0044",
-      "tema": "mecanica",
-      "subtema": "refrigeracion",
-      "materia": 14,
-      "enunciado": "¿Cuándo debe comprobarse que el líquido refrigerante está entre las marcas de mínimo y máximo?",
-      "opciones": {
-        "a": "Con el motor caliente, tras un viaje.",
-        "b": "Con el motor frío.",
-        "c": "Con el motor en marcha."
-      },
-      "correcta": "b",
-      "explicacion": "Según el manual de la DGT, el nivel de líquido refrigerante debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
-        "cita": "Debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío.",
         "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
         "version_consultada": "2024-10"
       },
@@ -2761,37 +2575,6 @@
       "notas_revision": "El art. 119 vigente (26/06/2026) solo exime: marcha atrás o estacionamiento, certificado médico, servicios de urgencia en poblado, pasajeros de ambulancias asistenciales y menores en taxis urbanos. El manual DGT 2024 aún cita repartidores, taxistas y profesores de autoescuela."
     },
     {
-      "id": "xe-0090",
-      "tema": "seguridad_pasiva",
-      "subtema": "casco_proteccion",
-      "materia": 15,
-      "enunciado": "Va a circular en motocicleta por ciudad. ¿Qué calzado debe llevar?",
-      "opciones": {
-        "a": "Cualquiera, porque en vías urbanas no se exige calzado concreto.",
-        "b": "Calzado cerrado solo si circula por vías interurbanas.",
-        "c": "Calzado cerrado que cubra todo el pie."
-      },
-      "correcta": "c",
-      "explicacion": "Conductores y pasajeros de motocicletas, ciclomotores, vehículos de tres ruedas, cuadriciclos y quads deben usar calzado cerrado que cubra todo el pie en todo tipo de vías.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "118.1.c",
-        "cita": "c) Calzado cerrado, que cubra todo el pie, cuando circulen en todo tipo de vías.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 118",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xe-0091",
       "tema": "seguridad_pasiva",
       "subtema": "casco_bicicleta",
@@ -3567,37 +3350,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xe-0117",
-      "tema": "conduccion_eficiente",
-      "subtema": "arranque",
-      "materia": 16,
-      "enunciado": "Según las técnicas de conducción eficiente, ¿cómo se debe arrancar el motor?",
-      "opciones": {
-        "a": "Pisando a fondo el acelerador.",
-        "b": "Acelerando varias veces en vacío.",
-        "c": "Sin pisar el acelerador."
-      },
-      "correcta": "c",
-      "explicacion": "En conducción eficiente, el motor se arranca sin pisar el acelerador y se empieza a circular justo después de encenderlo.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 452)",
-        "cita": "Arrancar el motor sin pisar el acelerador.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 17",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xe-0118",
       "tema": "conduccion_eficiente",
       "subtema": "arranque",
@@ -3645,37 +3397,6 @@
         "norma": "MANUAL_DGT",
         "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 452)",
         "cita": "Circular a mucha velocidad con el motor frío hace que se gaste más combustible y que el motor se desgaste antes.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 17",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xe-0120",
-      "tema": "conduccion_eficiente",
-      "subtema": "marchas",
-      "materia": 16,
-      "enunciado": "Según el manual de la DGT, ¿en qué marchas gasta menos combustible el vehículo?",
-      "opciones": {
-        "a": "En primera y segunda.",
-        "b": "En tercera, en cualquier vía.",
-        "c": "En cuarta y quinta."
-      },
-      "correcta": "c",
-      "explicacion": "Según el manual de la DGT, el vehículo gasta menos combustible en cuarta y quinta, cuando el motor va más rápido y con menos potencia.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 453)",
-        "cita": "El vehículo gasta menos combustible en la cuarta y quinta marcha",
         "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
         "version_consultada": "2024-10"
       },
@@ -4032,37 +3753,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xe-0132",
-      "tema": "conduccion_eficiente",
-      "subtema": "falsos_ahorros",
-      "materia": 16,
-      "enunciado": "¿Conviene repostar un combustible distinto del que indica el fabricante para ahorrar dinero?",
-      "opciones": {
-        "a": "Sí, si es más barato que el recomendado.",
-        "b": "Sí, mezclado a partes iguales con el recomendado.",
-        "c": "No; un combustible inadecuado romperá el motor."
-      },
-      "correcta": "c",
-      "explicacion": "Según el manual de la DGT, echar un combustible distinto del que marca el fabricante es una falsa medida de ahorro, porque un combustible inadecuado romperá el motor.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 17, Medidas para ahorrar combustible que son falsas (p. 461)",
-        "cita": "Echar un combustible al vehículo distinto del que marca el fabricante. Un combustible inadecuado romperá el motor del vehículo.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 17",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xe-0133",
       "tema": "conduccion_eficiente",
       "subtema": "tecnologia",
@@ -4358,37 +4048,6 @@
         "norma": "RGV",
         "articulo": "Anexo II.E.2.b",
         "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC)",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGV anexo II.E",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xe-0145",
-      "tema": "distintivos_ambientales",
-      "subtema": "clasificacion",
-      "materia": 16,
-      "enunciado": "Un turismo propulsado por gas licuado del petróleo (GLP) que cumple los criterios de la clasificación C, ¿qué distintivo ambiental obtiene?",
-      "opciones": {
-        "a": "ECO.",
-        "b": "C.",
-        "c": "0 emisiones."
-      },
-      "correcta": "a",
-      "explicacion": "Los turismos propulsados por gas natural, GNC o GLP tienen la clasificación ECO, siempre que cumplan además los criterios de la clasificación C.",
-      "fuente": {
-        "norma": "RGV",
-        "articulo": "Anexo II.E.2.b",
-        "cita": "vehículos propulsados por gas natural, vehículos propulsados por gas natural comprimido (GNC), o gas licuado del petróleo (GLP). En todo caso, deberán cumplir los criterios de la clasificación C.",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
         "version_consultada": "2026-06-26"
       },

@@ -760,42 +760,6 @@
       "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
     },
     {
-      "id": "x1a-0025",
-      "tema": "velocidad",
-      "subtema": "limites_fuera_poblado",
-      "materia": 1,
-      "enunciado": "¿Cuál es la velocidad máxima genérica de una furgoneta en una carretera convencional?",
-      "opciones": {
-        "a": "80 km/h.",
-        "b": "90 km/h.",
-        "c": "70 km/h."
-      },
-      "correcta": "a",
-      "explicacion": "En carretera convencional, camiones, tractocamiones, furgonetas, autocaravanas de más de 3.500 kg, vehículos articulados y automóviles con remolque tienen un límite genérico de 80 km/h.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "48.1.a",
-        "cita": "Camiones, tractocamiones, Autobuses, furgonetas, autocaravanas de",
-        "tabla": {
-          "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
-          "fila": "Convencional",
-          "valor": "80"
-        },
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 48",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
-    },
-    {
       "id": "x1a-0026",
       "tema": "velocidad",
       "subtema": "limites_fuera_poblado",
@@ -852,42 +816,6 @@
           "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
           "fila": "Autopista y autovía",
           "valor": "90"
-        },
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 48",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
-    },
-    {
-      "id": "x1a-0028",
-      "tema": "velocidad",
-      "subtema": "limites_fuera_poblado",
-      "materia": 1,
-      "enunciado": "¿Cuál es la velocidad máxima genérica de un vehículo derivado de turismo en una autovía?",
-      "opciones": {
-        "a": "120 km/h.",
-        "b": "90 km/h.",
-        "c": "100 km/h."
-      },
-      "correcta": "c",
-      "explicacion": "Los autobuses, los vehículos derivados de turismo y los vehículos mixtos adaptables tienen un límite genérico de 100 km/h en autopistas y autovías y de 90 km/h en carreteras convencionales.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "48.1.a",
-        "cita": "Autobuses, furgonetas, autocaravanas de vehículos derivados masa máxima autorizada superior de turismo",
-        "tabla": {
-          "columna": "Autobuses, vehículos derivados de turismo y vehículos mixtos adaptables",
-          "fila": "Autopista y autovía",
-          "valor": "100"
         },
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
         "version_consultada": "2026-06-26"
@@ -1203,37 +1131,6 @@
       "notas_revision": ""
     },
     {
-      "id": "x1a-0038",
-      "tema": "velocidad",
-      "subtema": "vehiculos_especiales",
-      "materia": 1,
-      "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción no supera los 60 km/h en llano, ¿a qué velocidad máxima puede circular?",
-      "opciones": {
-        "a": "40 km/h.",
-        "b": "25 km/h.",
-        "c": "70 km/h."
-      },
-      "correcta": "a",
-      "explicacion": "Los vehículos especiales que no carecen de señalización de frenado, no llevan remolque y no pueden superar los 60 km/h en llano tienen una velocidad máxima de 40 km/h fuera de poblado.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "48.1.c.2º",
-        "cita": "Los restantes vehículos especiales: 40 kilómetros por hora, salvo cuando puedan desarrollar una velocidad superior a los 60 kilómetros por hora en llano",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 48",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "x1a-0039",
       "tema": "velocidad",
       "subtema": "ciclomotores",
@@ -1405,37 +1302,6 @@
         "norma": "RGC",
         "articulo": "50.1.c",
         "cita": "50 km/h en vías de dos o más carriles por sentido de circulación.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 50",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "x1a-0045",
-      "tema": "velocidad",
-      "subtema": "limites_urbanos",
-      "materia": 1,
-      "enunciado": "En una calle con un único carril por sentido, ¿puede estar permitido circular a 50 km/h?",
-      "opciones": {
-        "a": "No, en esas calles nunca se pueden superar los 30 km/h.",
-        "b": "Sí, si la autoridad municipal lo autoriza excepcionalmente con señalización específica.",
-        "c": "Sí, siempre que no haya peatones en las aceras."
-      },
-      "correcta": "b",
-      "explicacion": "Excepcionalmente, la autoridad municipal puede aumentar la velocidad en vías urbanas de un único carril por sentido hasta un máximo de 50 km/h, con señalización específica.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "50.3",
-        "cita": "Excepcionalmente, la Autoridad Municipal podrá aumentar la velocidad en vías de un único carril por sentido hasta una velocidad máxima de 50 km/h",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
         "version_consultada": "2026-06-26"
       },
@@ -3630,37 +3496,6 @@
       "notas_revision": ""
     },
     {
-      "id": "x1a-0116",
-      "tema": "adelantamiento",
-      "subtema": "vulnerables",
-      "materia": 8,
-      "enunciado": "Va a adelantar a una persona que circula en un patinete eléctrico (vehículo de movilidad personal) por una calzada con un carril por sentido. ¿Qué separación lateral mínima debe dejar?",
-      "opciones": {
-        "a": "1 metro.",
-        "b": "0,5 metros.",
-        "c": "1,5 metros."
-      },
-      "correcta": "c",
-      "explicacion": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal o ciclistas hay que ocupar parte o todo el carril contiguo y guardar al menos 1,5 metros de anchura de seguridad.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "85.4",
-        "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 85",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "x1a-0117",
       "tema": "adelantamiento",
       "subtema": "vulnerables",
@@ -3708,37 +3543,6 @@
         "norma": "RGC",
         "articulo": "85.4",
         "cita": "antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 85",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "x1a-0119",
-      "tema": "adelantamiento",
-      "subtema": "motocicletas",
-      "materia": 8,
-      "enunciado": "Fuera de poblado conduce una motocicleta y va a adelantar a un turismo. ¿Qué espacio lateral mínimo debe dejar con él?",
-      "opciones": {
-        "a": "1 metro.",
-        "b": "0,50 metros.",
-        "c": "1,50 metros."
-      },
-      "correcta": "c",
-      "explicacion": "El conductor de un vehículo de dos ruedas que adelanta fuera de poblado debe dejar un espacio no inferior a 1,50 metros con las partes más salientes del vehículo adelantado.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "85.5",
-        "cita": "lo hará de forma que entre aquél y las partes más salientes del vehículo que adelanta quede un espacio no inferior a 1,50 metros",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
         "version_consultada": "2026-06-26"
       },
@@ -3894,37 +3698,6 @@
         "norma": "RGC",
         "articulo": "87.1.a",
         "cita": "se prohíbe, en concreto, el adelantamiento detrás de un vehículo que realiza la misma maniobra",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 87",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "x1a-0125",
-      "tema": "adelantamiento",
-      "subtema": "prohibiciones",
-      "materia": 1,
-      "enunciado": "¿Puede adelantar en las proximidades de un paso a nivel?",
-      "opciones": {
-        "a": "Sí, si el paso a nivel tiene barreras.",
-        "b": "Sí, si no se acerca ningún tren.",
-        "c": "No, está prohibido."
-      },
-      "correcta": "c",
-      "explicacion": "Se prohíbe adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "87.1.b",
-        "cita": "en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
         "version_consultada": "2026-06-26"
       },

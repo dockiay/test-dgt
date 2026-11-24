@@ -529,37 +529,6 @@
       "notas_revision": "Para el ciclista, RGC art. 20 y 26.2 (infracción muy grave). La bicicleta no es vehículo de motor ni ciclomotor (LSV anexo I)."
     },
     {
-      "id": "xb-0018",
-      "tema": "delitos",
-      "subtema": "penas",
-      "materia": 4,
-      "enunciado": "Además de la pena de prisión, multa o trabajos en beneficio de la comunidad, ¿qué pena se impone en todo caso por conducir con una tasa de alcohol superior a 0,60 mg/l en aire espirado?",
-      "opciones": {
-        "a": "Pérdida de 6 puntos, sin privación del derecho a conducir.",
-        "b": "Privación del derecho a conducir de uno a tres meses.",
-        "c": "Privación del derecho a conducir por más de uno y hasta cuatro años."
-      },
-      "correcta": "c",
-      "explicacion": "Los delitos de exceso de velocidad y de conducción bajo los efectos del alcohol o las drogas llevan, en cualquier caso, la privación del derecho a conducir por tiempo superior a uno y hasta cuatro años.",
-      "fuente": {
-        "norma": "CP",
-        "articulo": "379.1",
-        "cita": "y, en cualquier caso, con la de privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a uno y hasta cuatro años.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
-        "version_consultada": "2026-04-09"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "CP art. 379",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xb-0019",
       "tema": "delitos",
       "subtema": "temeridad",
@@ -3775,37 +3744,6 @@
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "«Los restantes» son los de MMA no superior a 750 kg (el párrafo anterior trata los que exceden de 750 kg)."
-    },
-    {
-      "id": "xb-0123",
-      "tema": "remolques",
-      "subtema": "permiso_BE",
-      "materia": 12,
-      "enunciado": "Con el permiso de la clase B+E, ¿qué masa máxima autorizada puede tener el remolque que arrastre un vehículo de los que autoriza el permiso B?",
-      "opciones": {
-        "a": "Hasta 750 kg.",
-        "b": "Hasta 12.000 kg.",
-        "c": "Hasta 3.500 kg."
-      },
-      "correcta": "c",
-      "explicacion": "El permiso B+E autoriza a conducir conjuntos formados por un vehículo tractor de los que permite el permiso B y un remolque o semirremolque de masa máxima autorizada no superior a 3.500 kg.",
-      "fuente": {
-        "norma": "RGCOND",
-        "articulo": "4.2 (clase B+E)",
-        "cita": "un vehículo tractor de los que autoriza a conducir el permiso de la clase B y un remolque o semirremolque cuya masa máxima autorizada no exceda de 3.500 kg",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
-        "version_consultada": "2023-12-06"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGCOND art. 4",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
     }
   ]
 }

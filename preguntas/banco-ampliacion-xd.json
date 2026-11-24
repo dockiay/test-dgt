@@ -848,37 +848,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0031",
-      "tema": "tuneles",
-      "subtema": "alumbrado",
-      "materia": 6,
-      "enunciado": "Atraviesa a 30 km/h, por retenciones, un túnel insuficientemente iluminado y no lleva la luz de largo alcance. ¿Qué alumbrado debe llevar?",
-      "opciones": {
-        "a": "Solo el de posición, porque circula despacio.",
-        "b": "El de posición y el de corto alcance o cruce.",
-        "c": "Solo la luz antiniebla delantera."
-      },
-      "correcta": "b",
-      "explicacion": "En túneles insuficientemente iluminados, quien circula a 40 km/h o menos sin usar la luz de largo alcance debe llevar la de cruce, además de la de posición.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "101.2.b",
-        "cita": "Todo vehículo de motor y ciclomotor debe llevar encendido el alumbrado de corto\nalcance o de cruce al circular entre el ocaso y la salida del sol por vías interurbanas\ninsuficientemente iluminadas o a cualquier hora del día por túneles",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 101",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0032",
       "tema": "tuneles",
       "subtema": "senal_tunel",
@@ -1601,37 +1570,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0056",
-      "tema": "usuarios_vulnerables",
-      "subtema": "animales",
-      "materia": 8,
-      "enunciado": "Una persona lleva un caballo de la brida por una carretera. Como norma general, ¿por dónde debe ir?",
-      "opciones": {
-        "a": "Por el arcén derecho o, si usa la calzada, junto a su borde derecho.",
-        "b": "Por la acera o la zona peatonal, si existe.",
-        "c": "Por el centro del carril, para que el animal se vea mejor."
-      },
-      "correcta": "a",
-      "explicacion": "Los animales de tiro, carga o silla van por el arcén derecho y, si usan la calzada, lo más cerca posible de su borde derecho; nunca invaden la zona peatonal.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "127.1.b",
-        "cita": "Los animales de tiro, carga o silla o el ganado suelto circularán por el arcén del lado derecho, y si tuvieran que utilizar la calzada, lo harán aproximándose cuanto sea posible al borde derecho de ésta",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 127",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0057",
       "tema": "usuarios_vulnerables",
       "subtema": "animales",
@@ -1849,37 +1787,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0064",
-      "tema": "usuarios_vulnerables",
-      "subtema": "motoristas",
-      "materia": 8,
-      "enunciado": "Conduce una motocicleta fuera de poblado y adelanta a un turismo. ¿Qué espacio mínimo debe quedar entre la moto y las partes más salientes del turismo?",
-      "opciones": {
-        "a": "1 metro.",
-        "b": "0,75 metros.",
-        "c": "1,50 metros."
-      },
-      "correcta": "c",
-      "explicacion": "Fuera de poblado, el conductor de un vehículo de dos ruedas que adelanta debe dejar un espacio no inferior a 1,50 metros con las partes más salientes del vehículo adelantado.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "85.5",
-        "cita": "lo hará de forma que entre aquél y las partes más salientes del vehículo que adelanta quede un espacio no inferior a 1,50 metros.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 85",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0065",
       "tema": "usuarios_vulnerables",
       "subtema": "ciclistas",
@@ -2035,37 +1942,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0070",
-      "tema": "usuarios_vulnerables",
-      "subtema": "vmp",
-      "materia": 8,
-      "enunciado": "¿Cuándo debe llevar encendido el alumbrado un vehículo de movilidad personal?",
-      "opciones": {
-        "a": "Siempre.",
-        "b": "Solo de noche.",
-        "c": "Solo de noche y en túneles."
-      },
-      "correcta": "a",
-      "explicacion": "Los vehículos de movilidad personal deben llevar siempre encendido el alumbrado, también de día.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "155.5",
-        "cita": "Los vehículos de movilidad personal deberán llevar siempre encendido el alumbrado.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 155",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0071",
       "tema": "usuarios_vulnerables",
       "subtema": "vmp",
@@ -2088,37 +1964,6 @@
       "origen": {
         "tipo": "normativa_relacionada",
         "ref": "RGC art. 155",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0072",
-      "tema": "usuarios_vulnerables",
-      "subtema": "vmp",
-      "materia": 8,
-      "enunciado": "¿Puede circular un patinete eléctrico (vehículo de movilidad personal) por una carretera convencional interurbana?",
-      "opciones": {
-        "a": "Sí, por el arcén derecho, igual que los ciclomotores.",
-        "b": "Sí, si el conductor es mayor de edad y lleva casco.",
-        "c": "No, salvo vías ciclistas o carriles bici no prohibidos por señal."
-      },
-      "correcta": "c",
-      "explicacion": "Los vehículos de movilidad personal no pueden circular por vías interurbanas, salvo por vías ciclistas, carriles bici, sendas ciclables y vías cerradas a los vehículos de motor, si la señalización no lo prohíbe.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "38.4.c",
-        "cita": "Por vías interurbanas y por túneles urbanos, salvo que se trate de vías ciclistas,\ncarriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías en las que esté\nprohibida la circulación de vehículos de motor",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 38",
         "minuto": null
       },
       "imagen": null,
@@ -2216,46 +2061,6 @@
       },
       "imagen": null,
       "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0081",
-      "tema": "senales",
-      "subtema": "prohibicion",
-      "materia": 8,
-      "enunciado": "Circula en bicicleta y encuentra esta señal a la entrada de una calle. ¿Puede entrar?",
-      "opciones": {
-        "a": "Sí, porque solo prohíbe el acceso a los vehículos de movilidad personal.",
-        "b": "Sí, siempre que circule a menos de 20 km/h.",
-        "c": "No, prohíbe el acceso a ciclos y a vehículos de movilidad personal."
-      },
-      "correcta": "c",
-      "explicacion": "La señal R-119 prohíbe el acceso a ciclos y a vehículos de movilidad personal.",
-      "fuente": {
-        "norma": "RGC_CATALOGO",
-        "articulo": "Anexo I, catálogo de señales, R-119 (pág. 105 del PDF consolidado)",
-        "cita": "Prohibición de acceso a ciclos y a vehículos de movilidad\npersonal.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC anexo I, R-119",
-        "minuto": null
-      },
-      "imagen": {
-        "src": "img/senales/R-119.png",
-        "alt": "Señal de la pregunta",
-        "alt_detalle": "Señal R-119: Entrada prohibida a ciclos y a vehículos de movilidad personal",
-        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 105 del PDF consolidado"
-      },
-      "imagen_requerida": {
-        "tipo": "senal",
-        "codigo": "R-119",
-        "descripcion": "Círculo de borde rojo con un patinete eléctrico y una bicicleta."
-      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2788,37 +2593,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0102",
-      "tema": "vehiculos_pesados",
-      "subtema": "uso_arcen",
-      "materia": 9,
-      "enunciado": "Por una avería, su turismo de 1.800 kg de masa máxima autorizada solo puede circular a velocidad anormalmente reducida y perturba gravemente la circulación. Si el arcén es transitable y suficiente, ¿por dónde debe ir?",
-      "opciones": {
-        "a": "Por el arcén de su derecha.",
-        "b": "Por el carril izquierdo, con la señal de emergencia.",
-        "c": "Por el centro del carril derecho, con la señal de emergencia."
-      },
-      "correcta": "a",
-      "explicacion": "Los vehículos de hasta 3.500 kg que, por emergencia, circulan a velocidad anormalmente reducida y perturban gravemente la circulación deben ir por el arcén derecho si es transitable y suficiente.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "36.1",
-        "cita": "Deberán también circular por el arcén de su derecha, si fuera transitable y suficiente, y, si no lo fuera, por la parte imprescindible de la calzada, los conductores de aquellos vehículos cuya masa máxima autorizada no exceda de 3.500 kilogramos",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 36",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0103",
       "tema": "vehiculos_dos_ruedas",
       "subtema": "arcen",
@@ -3138,37 +2912,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0114",
-      "tema": "vehiculos_pesados",
-      "subtema": "v10",
-      "materia": 9,
-      "enunciado": "¿Dónde debe colocarse la señal V-10 de transporte escolar?",
-      "opciones": {
-        "a": "Dentro del vehículo, delante y detrás, visible desde fuera.",
-        "b": "Fuera del vehículo, sobre el techo, visible desde lejos.",
-        "c": "Solo en la parte posterior, junto a la placa de matrícula."
-      },
-      "correcta": "a",
-      "explicacion": "La señal V-10 de transporte escolar se coloca dentro del vehículo, en la parte frontal y en la posterior, de forma visible desde el exterior.",
-      "fuente": {
-        "norma": "RGV",
-        "articulo": "Anexo XI, V-10.2",
-        "cita": "Este distintivo deberá colocarse dentro del vehículo, en la parte frontal y en la parte\nposterior del mismo, de forma que resulte visible desde el exterior.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGV anexo XI",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0115",
       "tema": "vehiculos_pesados",
       "subtema": "cruce",
@@ -3417,68 +3160,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0127",
-      "tema": "parada_estacionamiento",
-      "subtema": "autocaravanas",
-      "materia": 13,
-      "enunciado": "Tiene estacionada su autocaravana en una calle. ¿Puede apoyarla en sus patas estabilizadoras para nivelarla?",
-      "opciones": {
-        "a": "Sí, porque así queda más estable y no puede moverse sola.",
-        "b": "Sí, siempre que no ocupe más espacio que el de una plaza.",
-        "c": "No, debe descansar solo sobre los neumáticos, aunque puede usar calzos."
-      },
-      "correcta": "c",
-      "explicacion": "Una autocaravana estacionada debe descansar solo sobre sus neumáticos, con posibilidad de usar calzos o cuñas de seguridad.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "92.4.b",
-        "cita": "b) Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 92",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0128",
-      "tema": "parada_estacionamiento",
-      "subtema": "autocaravanas",
-      "materia": 13,
-      "enunciado": "Tiene estacionada su autocaravana en una calle. ¿Puede vaciar en la vía las aguas usadas del habitáculo?",
-      "opciones": {
-        "a": "Sí, si lo hace junto a una alcantarilla.",
-        "b": "No, está prohibido verter fluidos del habitáculo.",
-        "c": "Sí, si son solo aguas de la ducha."
-      },
-      "correcta": "b",
-      "explicacion": "Las autocaravanas estacionadas en la vía no pueden verter fluidos procedentes del habitáculo.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "92.4.c",
-        "cita": "con posibilidad de calzos o cuñas de seguridad.\nc) Sin verter fluidos procedentes del habitáculo.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 92",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0129",
       "tema": "parada_estacionamiento",
       "subtema": "seguridad",
@@ -3625,37 +3306,6 @@
       "origen": {
         "tipo": "normativa_relacionada",
         "ref": "RGC art. 130",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0134",
-      "tema": "chaleco",
-      "subtema": "profesionales",
-      "materia": 13,
-      "enunciado": "Un repartidor trabaja circulando en motocicleta por la ciudad. ¿Cuándo debe llevar puesto el chaleco reflectante de alta visibilidad?",
-      "opciones": {
-        "a": "Siempre que circule, en todo tipo de vías.",
-        "b": "Solo al bajarse de la moto en vías interurbanas.",
-        "c": "Solo de noche o con mala visibilidad."
-      },
-      "correcta": "a",
-      "explicacion": "Quienes desarrollan su actividad profesional circulando en motocicletas, ciclomotores, bicicletas o vehículos de movilidad personal deben llevar chaleco reflectante de alta visibilidad en todo tipo de vías.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "118.4",
-        "cita": "Los conductores que desarrollen su actividad profesional circulando en los vehículos mencionados en los apartados 1, 2 y 3, deberán utilizar un chaleco reflectante de alta visibilidad",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 118",
         "minuto": null
       },
       "imagen": null,

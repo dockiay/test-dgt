@@ -18,7 +18,13 @@ const TEXTOS = { RGC: "rgc_full.txt", LSV: "l.txt" };
 const sinComprobar = process.argv.includes("--sin-comprobar-citas");
 
 const errores = [];
+// preguntas/escenas.json y, además, cada preguntas/escenas/*.json (un fichero por hilo o tema, para no pisarse).
 const datos = JSON.parse(fs.readFileSync(path.join(WEB, "preguntas", "escenas.json"), "utf8")).escenas;
+const CARPETA = path.join(WEB, "preguntas", "escenas");
+if (fs.existsSync(CARPETA)) for (const f of fs.readdirSync(CARPETA).filter(f => f.endsWith(".json")).sort()) {
+  const extra = JSON.parse(fs.readFileSync(path.join(CARPETA, f), "utf8")).escenas || {};
+  for (const id in extra) { if (datos[id]) { console.error(`${id} está en dos ficheros (también en preguntas/escenas/${f}).`); process.exit(1); } datos[id] = extra[id]; }
+}
 const banco = fs.readFileSync(path.join(WEB, "data", "preguntas.js"), "utf8");
 const preguntas = JSON.parse(banco.slice(banco.indexOf("{"), banco.lastIndexOf("}") + 1)).preguntas;
 const porId = new Map(preguntas.map(p => [p.id, p]));
@@ -44,7 +50,7 @@ for (const [id, esc] of Object.entries(datos)) {
   const p = porId.get(id);
   const mal = m => errores.push(`${id}: ${m}`);
   if (!p) { mal("no existe en data/preguntas.js"); continue; }
-  if (!["cruce", "glorieta", "estrecho"].includes(esc.tipo)) mal(`tipo desconocido «${esc.tipo}»`);
+  if (!["cruce", "glorieta", "estrecho", "recta"].includes(esc.tipo)) mal(`tipo desconocido «${esc.tipo}»`);
   if (!["escena", "imagen", "nada"].includes(esc.antes)) mal("«antes» debe ser escena, imagen o nada");
   if (esc.antes === "imagen" && !(p.imagen && p.imagen.src)) mal("«antes» es imagen pero la pregunta no tiene imagen");
   if (!esc.titulo) mal("falta el título (texto alternativo)");
@@ -58,6 +64,7 @@ for (const [id, esc] of Object.entries(datos)) {
     if (v.tipo && !E.MEDIDAS[v.tipo]) mal(`${k}: tipo de vehículo desconocido «${v.tipo}»`);
     if (esc.tipo === "estrecho") { if (!["O", "E"].includes(v.desde)) mal(`${k}: en un estrechamiento «desde» es O o E`); continue; }
     if (v.puntos) { if (v.puntos.filter(Array.isArray).length < 2) mal(`${k}: «puntos» necesita al menos dos puntos`); continue; }
+    if (esc.tipo === "recta") { if (v.desde && !["O", "E"].includes(v.desde)) mal(`${k}: en una recta «desde» es O o E`); continue; }
     if (v.dentro == null && !BRAZOS.includes(v.desde)) mal(`${k}: «desde» no válido`);
     if (!BRAZOS.includes(v.hacia)) mal(`${k}: «hacia» no válido`);
   }
@@ -77,6 +84,9 @@ for (const [id, esc] of Object.entries(datos)) {
     } else if (esc.criterio === "61.2") {
       const s = (esc.senales || []).find(x => ["R-5", "R-1"].includes(x.cod));
       if (!s || s.extremo !== r.desde) mal("según el art. 61.2 retrocede quien llega por el extremo con R-5 o ceda el paso");
+    } else if (esc.criterio === "63.1") {
+      // Gran pendiente: tiene preferencia el que sube; retrocede el que baja.
+      if (!esc.sube || r.desde === esc.sube) mal("según el art. 63.1 retrocede el que baja («sube»: extremo por el que se entra subiendo)");
     } else mal(`criterio desconocido «${esc.criterio}»`);
   }
   let pasos = esc.pasos;

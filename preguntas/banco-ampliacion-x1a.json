@@ -1,0 +1,4249 @@
+{
+  "version": 1,
+  "preguntas": [
+    {
+      "id": "x1a-0001",
+      "tema": "vias",
+      "subtema": "curvas_cambios_rasante",
+      "materia": 1,
+      "enunciado": "Circula por una carretera de doble sentido sin marcas viales y llega a una curva de visibilidad reducida. ¿Cómo debe circular?",
+      "opciones": {
+        "a": "Por la derecha, dejando completamente libre la mitad de la calzada del sentido contrario.",
+        "b": "Por el centro de la calzada, para ver mejor lo que hay tras la curva.",
+        "c": "Por donde mejor trace la curva, porque sin marcas no hay mitades delimitadas."
+      },
+      "correcta": "a",
+      "explicacion": "En las curvas y cambios de rasante de reducida visibilidad, aunque no haya marcas que lo delimiten, el conductor debe dejar completamente libre la mitad de la calzada que corresponde al sentido contrario.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "29.1",
+        "cita": "en los cambios de rasante y curvas de reducida visibilidad, todo conductor, salvo en los supuestos de rebasamiento previstos en el artículo 88, debe dejar completamente libre la mitad de la calzada",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 29",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0002",
+      "tema": "vias",
+      "subtema": "norma_general_derecha",
+      "materia": 1,
+      "enunciado": "Como norma general, ¿por qué parte de la calzada deben circular los vehículos?",
+      "opciones": {
+        "a": "Por la derecha y lo más cerca posible del borde de la calzada.",
+        "b": "Por el centro de la calzada, cuando no viene nadie de frente.",
+        "c": "Por la derecha, pero lo más lejos posible del borde de la calzada."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos circulan por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para cruzarse con seguridad, muy especialmente en curvas y cambios de rasante.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "29.1",
+        "cita": "por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para realizar el cruce con seguridad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 29",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0003",
+      "tema": "infracciones",
+      "subtema": "sentido_contrario",
+      "materia": 1,
+      "enunciado": "Circular por la izquierda, en sentido contrario al estipulado, en una vía de doble sentido, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Muy grave.",
+        "c": "Leve."
+      },
+      "correcta": "b",
+      "explicacion": "Circular por la izquierda, en sentido contrario al estipulado, en una vía de doble sentido es una infracción muy grave.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "29.2",
+        "cita": "en sentido contrario al estipulado en una vía de doble sentido de la circulación, tendrán la consideración de infracciones muy graves",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 29",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0004",
+      "tema": "vias",
+      "subtema": "carriles_doble_sentido",
+      "materia": 1,
+      "enunciado": "Conduce un camión de 12.000 kg de MMA por una carretera de doble sentido con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?",
+      "opciones": {
+        "a": "Por el arcén, para no entorpecer a los turismos.",
+        "b": "Por el centro de la calzada, para poder ver mejor.",
+        "c": "Por la calzada, en el carril de su derecha."
+      },
+      "correcta": "c",
+      "explicacion": "Los automóviles circulan por la calzada y no por el arcén, salvo por razones de emergencia; en una calzada de doble sentido con dos carriles, por el de su derecha.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "30.1.a",
+        "cita": "circulará por la calzada y no por el arcén, salvo por razones de emergencia. Además, deberá atenerse a las reglas siguientes",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 30",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0005",
+      "tema": "vias",
+      "subtema": "tres_carriles_doble_sentido",
+      "materia": 1,
+      "enunciado": "En una calzada de doble sentido con tres carriles separados por líneas discontinuas, ¿puede circular por el carril situado más a su izquierda?",
+      "opciones": {
+        "a": "Sí, para adelantar si el carril central está ocupado.",
+        "b": "Sí, si no se acerca nadie en sentido contrario.",
+        "c": "No, en ningún caso."
+      },
+      "correcta": "c",
+      "explicacion": "En las calzadas de doble sentido con tres carriles separados por marcas discontinuas se circula por el carril de la derecha y en ningún caso por el situado más a la izquierda.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "30.1.b",
+        "cita": "circulará también por el de su derecha y, en ningún caso, por el situado más a su izquierda",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 30",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0006",
+      "tema": "vias",
+      "subtema": "tres_carriles_doble_sentido",
+      "materia": 1,
+      "enunciado": "En una calzada de doble sentido con tres carriles separados por líneas discontinuas, ¿para qué se puede utilizar el carril central?",
+      "opciones": {
+        "a": "Para circular de forma continuada si se va más rápido que el resto.",
+        "b": "Solo para la circulación del sentido contrario.",
+        "c": "Solo para adelantar y para girar a la izquierda."
+      },
+      "correcta": "c",
+      "explicacion": "En las calzadas de doble sentido con tres carriles separados por marcas discontinuas, el carril central solo se utiliza para los adelantamientos precisos y para cambiar de dirección a la izquierda.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "30.1.b",
+        "cita": "el carril central tan sólo se utilizará para efectuar los adelantamientos precisos y para cambiar de dirección hacia la izquierda",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 30",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0007",
+      "tema": "vias",
+      "subtema": "carriles_fuera_poblado",
+      "materia": 1,
+      "enunciado": "Fuera de poblado, conduce un turismo por una autovía con dos carriles en su sentido. ¿Por cuál debe circular normalmente?",
+      "opciones": {
+        "a": "Por el de la derecha, aunque puede usar el otro cuando las circunstancias lo aconsejen.",
+        "b": "Por el de la izquierda, que es el carril para turismos.",
+        "c": "Por cualquiera de los dos, aunque entorpezca a los que vienen detrás."
+      },
+      "correcta": "a",
+      "explicacion": "Fuera de poblado, en calzadas con más de un carril para el mismo sentido, se circula normalmente por el situado más a la derecha y se pueden usar los demás cuando lo aconsejen el tráfico o la vía, sin entorpecer a quien siga.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "31.1",
+        "cita": "circulará normalmente por el situado más a su derecha, si bien podrá utilizar el resto de los de dicho sentido cuando las circunstancias del tráfico o de la vía lo aconsejen",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 31",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0008",
+      "tema": "vias",
+      "subtema": "carriles_en_poblado",
+      "materia": 1,
+      "enunciado": "En una calle con dos carriles para su sentido delimitados por marcas, ha elegido el carril que mejor conviene a su destino. ¿Cuándo puede abandonarlo?",
+      "opciones": {
+        "a": "Para prepararse a cambiar de dirección, adelantar, parar o estacionar.",
+        "b": "En cualquier momento, aunque no vaya a hacer ninguna maniobra.",
+        "c": "Nunca; debe seguir en él hasta el final de la calle."
+      },
+      "correcta": "a",
+      "explicacion": "En poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas, el carril elegido no debe abandonarse más que para prepararse a cambiar de dirección, adelantar, parar o estacionar.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "33",
+        "cita": "no deberá abandonarlo más que para prepararse a cambiar de dirección, adelantar, parar o estacionar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 33",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0009",
+      "tema": "vias",
+      "subtema": "computo_carriles",
+      "materia": 1,
+      "enunciado": "Fuera de poblado, una autovía tiene tres carriles en su sentido y uno de ellos está reservado a vehículos con alta ocupación (VAO). A efectos de las normas sobre utilización de carriles, ¿cuántos carriles se cuentan?",
+      "opciones": {
+        "a": "Tres.",
+        "b": "Uno.",
+        "c": "Dos."
+      },
+      "correcta": "c",
+      "explicacion": "Para el cómputo de carriles no se tienen en cuenta los reservados a determinados vehículos o a ciertas maniobras.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "34",
+        "cita": "Para el cómputo de carriles, a efectos de lo dispuesto en los artículos anteriores, no se tendrán en cuenta los reservados a determinados vehículos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 34",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0010",
+      "tema": "vias",
+      "subtema": "ordenacion_especial",
+      "materia": 1,
+      "enunciado": "Por razones de seguridad o de fluidez de la circulación, ¿qué puede ordenar la autoridad competente?",
+      "opciones": {
+        "a": "El cierre de determinadas vías o el seguimiento obligatorio de itinerarios concretos.",
+        "b": "Solo recomendaciones, porque no puede prohibir el acceso a ninguna vía.",
+        "c": "La retirada del permiso a quienes circulen por esas vías."
+      },
+      "correcta": "a",
+      "explicacion": "Por razones de seguridad, fluidez o medioambientales, la autoridad competente puede ordenar otro sentido de circulación, prohibir el acceso, cerrar vías, imponer itinerarios concretos o el uso de arcenes o carriles en sentido opuesto al normal.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "37.1",
+        "cita": "el cierre de determinadas vías, el seguimiento obligatorio de itinerarios concretos o la utilización de arcenes o carriles en sentido opuesto",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 37",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0011",
+      "tema": "vias",
+      "subtema": "isletas_refugios",
+      "materia": 1,
+      "enunciado": "En una vía de doble sentido encuentra una isleta en el centro de la calzada. ¿Por dónde debe pasar?",
+      "opciones": {
+        "a": "Por la parte de la calzada que queda a la derecha de la isleta.",
+        "b": "Por cualquiera de los dos lados, eligiendo el más despejado.",
+        "c": "Por la izquierda de la isleta, si no viene nadie de frente."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando en la vía hay refugios, isletas o dispositivos de guía, se circula por la parte de la calzada que queda a su derecha, salvo en vías de sentido único o dentro de la parte de un solo sentido.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "43.1",
+        "cita": "se circulará por la parte de la calzada que quede a la derecha de éstos, en el sentido de la marcha",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 43",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0012",
+      "tema": "vias",
+      "subtema": "isletas_refugios",
+      "materia": 1,
+      "enunciado": "En una calle de sentido único hay un refugio para peatones en medio de la calzada y ninguna señal indica por dónde pasar. ¿Por qué lado puede hacerlo?",
+      "opciones": {
+        "a": "Por cualquiera de los dos lados.",
+        "b": "Solo por la derecha.",
+        "c": "Solo por la izquierda."
+      },
+      "correcta": "a",
+      "explicacion": "Los refugios, isletas o dispositivos de guía situados en una vía de sentido único, o dentro de la parte correspondiente a un solo sentido, pueden rebasarse por cualquiera de los dos lados.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "43.1",
+        "cita": "salvo cuando estén situados en una vía de sentido único o dentro de la parte correspondiente a un solo sentido de circulación, en cuyo caso podrá hacerse por cualquiera de los dos lados",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 43",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0013",
+      "tema": "glorietas",
+      "subtema": "sentido_giro",
+      "materia": 1,
+      "enunciado": "Entra en una glorieta señalizada con esta señal. ¿Cómo debe circular por ella?",
+      "opciones": {
+        "a": "Dejando a su izquierda el centro de la glorieta.",
+        "b": "Dejando a su derecha el centro si va a tomar una salida a la izquierda.",
+        "c": "Por el lado que le resulte más corto hasta su salida."
+      },
+      "correcta": "a",
+      "explicacion": "En las plazas, glorietas y encuentros de vías los vehículos circulan dejando a su izquierda el centro de aquellos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "43.2",
+        "cita": "En las plazas, glorietas y encuentros de vías los vehículos circularán dejando a su izquierda el centro de aquéllas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 43",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-402.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-402: Sentido obligatorio en glorieta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-402",
+        "descripcion": "Señal R-402 «Sentido obligatorio en glorieta» del catálogo oficial"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0014",
+      "tema": "vias",
+      "subtema": "calzadas_separadas",
+      "materia": 1,
+      "enunciado": "Circula por una vía dividida en dos calzadas por una mediana. ¿Qué calzada debe utilizar?",
+      "opciones": {
+        "a": "La de la derecha, según su sentido de marcha.",
+        "b": "Cualquiera de las dos, si hay poco tráfico.",
+        "c": "La de la izquierda, si más adelante va a girar a la izquierda."
+      },
+      "correcta": "a",
+      "explicacion": "En las vías divididas en dos calzadas por medianas, separadores o dispositivos análogos, los vehículos deben utilizar la calzada de la derecha en relación con su sentido de marcha.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "44.1",
+        "cita": "los vehículos deben utilizar la calzada de la derecha, en relación con el sentido de su marcha",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 44",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0015",
+      "tema": "vias",
+      "subtema": "tres_calzadas",
+      "materia": 1,
+      "enunciado": "Una vía está dividida en tres calzadas. ¿A qué puede estar destinada la calzada central?",
+      "opciones": {
+        "a": "Exclusivamente a los vehículos de servicios de urgencia.",
+        "b": "A los dos sentidos o a uno solo, según indiquen las señales.",
+        "c": "Solo a la parada y al estacionamiento."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando una vía se divide en tres calzadas, la central puede destinarse a la circulación en los dos sentidos o en un sentido único, permanente o temporal, según dispongan las señales; las laterales, a un solo sentido.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "44.2",
+        "cita": "la central podrá estar destinada a la circulación en los dos sentidos, o en un sentido único, permanente o temporal, según se disponga mediante las correspondientes señales",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 44",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0016",
+      "tema": "velocidad",
+      "subtema": "adecuacion",
+      "materia": 1,
+      "enunciado": "Para adecuar la velocidad, además de respetar los límites, ¿debe tener en cuenta sus propias condiciones físicas y psíquicas?",
+      "opciones": {
+        "a": "Sí, junto con el estado de la vía, del vehículo, de la carga y la meteorología.",
+        "b": "No, solo debe tener en cuenta los límites señalizados.",
+        "c": "Solo si conduce un vehículo pesado o de transporte de viajeros."
+      },
+      "correcta": "a",
+      "explicacion": "Todo conductor debe adecuar la velocidad a sus propias condiciones físicas y psíquicas, a la vía, al vehículo y su carga, a la meteorología, a la circulación y a cualquier otra circunstancia.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "45",
+        "cita": "sus propias condiciones físicas y psíquicas, las características y el estado de la vía, del vehículo y de su carga",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 45",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0017",
+      "tema": "velocidad",
+      "subtema": "moderacion",
+      "materia": 1,
+      "enunciado": "Se aproxima a un paso para peatones que no está regulado por semáforo ni por agentes. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Mantener la velocidad y avisar con el claxon.",
+        "b": "Moderar la velocidad solo si ya hay peatones cruzando.",
+        "c": "Circular a velocidad moderada y detenerse si fuera preciso."
+      },
+      "correcta": "c",
+      "explicacion": "Al acercarse a pasos para peatones no regulados por semáforo o agentes, a intersecciones y a lugares donde es previsible la presencia de niños, se circula a velocidad moderada y, si es preciso, se detiene el vehículo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.b",
+        "cita": "así como en las intersecciones y en las proximidades de vías de uso exclusivo de ciclos y de los pasos de peatones no regulados por semáforo o agentes de la circulación",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 46",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0018",
+      "tema": "velocidad",
+      "subtema": "moderacion",
+      "materia": 1,
+      "enunciado": "Circula por un tramo con edificios cuyas puertas dan directamente a la calzada. ¿Qué velocidad debe llevar?",
+      "opciones": {
+        "a": "La máxima permitida, por el centro de la calzada.",
+        "b": "Una velocidad moderada.",
+        "c": "La que quiera, avisando con el claxon de forma continuada."
+      },
+      "correcta": "b",
+      "explicacion": "En los tramos con edificios de inmediato acceso a la parte de la vía que se está utilizando hay que circular a velocidad moderada y, si es preciso, detenerse.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.d",
+        "cita": "En los tramos con edificios de inmediato acceso a la parte de la vía que se esté utilizando.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 46",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0019",
+      "tema": "velocidad",
+      "subtema": "moderacion",
+      "materia": 1,
+      "enunciado": "Fuera de poblado se acerca a una grúa de auxilio que está atendiendo a un vehículo averiado. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Mantener su velocidad, porque la grúa ya está señalizada.",
+        "b": "Circular a velocidad moderada y, si fuera preciso, detenerse.",
+        "c": "Acelerar para dejar atrás cuanto antes la zona."
+      },
+      "correcta": "b",
+      "explicacion": "Fuera de poblado hay que moderar la velocidad, y detenerse si es preciso, al acercarse a vehículos inmovilizados en la calzada, a vehículos de auxilio prestando servicio y a ciclos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.f",
+        "cita": "Fuera de poblado al acercarse a vehículos inmovilizados en la calzada, a vehículos de auxilio prestando servicio y a ciclos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 46",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0020",
+      "tema": "velocidad",
+      "subtema": "moderacion",
+      "materia": 1,
+      "enunciado": "Va a cruzarse con un camión en una carretera estrecha, con lluvia, y a la velocidad que lleva no puede hacerlo con seguridad. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Acelerar para cruzarse cuanto antes.",
+        "b": "Moderar la velocidad y, si fuera preciso, detenerse.",
+        "c": "Encender las luces de largo alcance para que le vea."
+      },
+      "correcta": "b",
+      "explicacion": "En el cruce con otro vehículo, cuando la vía, los vehículos o la meteorología no permiten hacerlo con seguridad, se circula a velocidad moderada y, si es preciso, se detiene el vehículo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.i",
+        "cita": "En el cruce con otro vehículo, cuando las circunstancias de la vía, de los vehículos o las meteorológicas o ambientales no permitan realizarlo con seguridad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 46",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0021",
+      "tema": "velocidad",
+      "subtema": "moderacion",
+      "materia": 1,
+      "enunciado": "Circula por una carretera junto a prados con ganado suelto y es previsible que algún animal entre en la calzada. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Circular a velocidad moderada y estar preparado para detenerse.",
+        "b": "Mantener la velocidad: los animales solo tienen prioridad en cañadas.",
+        "c": "Usar las luces de emergencia y continuar a la velocidad máxima permitida."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando hay animales en la parte de la vía que se utiliza, o puede preverse racionalmente que irrumpan en ella, se circula a velocidad moderada y, si es preciso, se detiene el vehículo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.c",
+        "cita": "Cuando haya animales en la parte de la vía que se esté utilizando o pueda preverse racionalmente su irrupción en ella.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 46",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0022",
+      "tema": "velocidad",
+      "subtema": "limites_especificos",
+      "materia": 1,
+      "enunciado": "Circula por un tramo en el que ninguna señal limita la velocidad. ¿Qué límite debe respetar?",
+      "opciones": {
+        "a": "Ninguno, siempre que adecue la velocidad a las circunstancias.",
+        "b": "Siempre 90 km/h, sea cual sea el tipo de vía.",
+        "c": "El límite genérico establecido para esa vía y su vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "Los titulares de la vía fijan con señales los límites específicos de cada tramo; donde no hay señalización específica se cumple el límite genérico establecido para cada vía.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "47",
+        "cita": "En defecto de señalización específica, se cumplirá la genérica establecida para cada vía.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 47",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0023",
+      "tema": "velocidad",
+      "subtema": "limites_temporales",
+      "materia": 1,
+      "enunciado": "En una autovía, un panel de mensaje variable fija temporalmente un límite de 80 km/h por el estado de la circulación. ¿Está obligado a respetarlo?",
+      "opciones": {
+        "a": "No, solo obligan las señales verticales fijas.",
+        "b": "Solo si hay agentes de tráfico en el tramo.",
+        "c": "Sí; la autoridad de tráfico puede fijar límites temporales con señalización variable."
+      },
+      "correcta": "c",
+      "explicacion": "La autoridad responsable del tráfico puede fijar limitaciones de velocidad temporales mediante señalización circunstancial o variable cuando las condiciones de la circulación lo aconsejan.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "47",
+        "cita": "podrá fijar limitaciones de velocidad con carácter temporal mediante la correspondiente señalización circunstancial o variable",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 47",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0024",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "Fuera de poblado, ¿cuál es la velocidad máxima genérica de una furgoneta en una autovía?",
+      "opciones": {
+        "a": "90 km/h.",
+        "b": "100 km/h.",
+        "c": "120 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Camiones, tractocamiones, furgonetas, autocaravanas de más de 3.500 kg, vehículos articulados y automóviles con remolque tienen un límite genérico de 90 km/h en autopistas y autovías y de 80 km/h en carreteras convencionales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "Camiones, tractocamiones, Autobuses, furgonetas, autocaravanas de",
+        "tabla": {
+          "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
+          "fila": "Autopista y autovía",
+          "valor": "90"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0025",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "¿Cuál es la velocidad máxima genérica de una furgoneta en una carretera convencional?",
+      "opciones": {
+        "a": "80 km/h.",
+        "b": "90 km/h.",
+        "c": "70 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "En carretera convencional, camiones, tractocamiones, furgonetas, autocaravanas de más de 3.500 kg, vehículos articulados y automóviles con remolque tienen un límite genérico de 80 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "Camiones, tractocamiones, Autobuses, furgonetas, autocaravanas de",
+        "tabla": {
+          "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
+          "fila": "Convencional",
+          "valor": "80"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0026",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "Conduce una autocaravana de 3.200 kg de MMA por una autopista. ¿Cuál es su velocidad máxima genérica?",
+      "opciones": {
+        "a": "90 km/h.",
+        "b": "120 km/h.",
+        "c": "100 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Las autocaravanas de MMA igual o inferior a 3.500 kg tienen los mismos límites genéricos que los turismos: 120 km/h en autopistas y autovías y 90 km/h en carreteras convencionales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+        "tabla": {
+          "columna": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+          "fila": "Autopista y autovía",
+          "valor": "120"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0027",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "Conduce una autocaravana de 4.500 kg de MMA por una autovía. ¿Cuál es su velocidad máxima genérica?",
+      "opciones": {
+        "a": "120 km/h.",
+        "b": "90 km/h.",
+        "c": "100 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Las autocaravanas de MMA superior a 3.500 kg están en el grupo de camiones y furgonetas: 90 km/h en autopistas y autovías y 80 km/h en carreteras convencionales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "furgonetas, autocaravanas de vehículos derivados masa máxima autorizada superior",
+        "tabla": {
+          "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
+          "fila": "Autopista y autovía",
+          "valor": "90"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0028",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un vehículo derivado de turismo en una autovía?",
+      "opciones": {
+        "a": "120 km/h.",
+        "b": "90 km/h.",
+        "c": "100 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Los autobuses, los vehículos derivados de turismo y los vehículos mixtos adaptables tienen un límite genérico de 100 km/h en autopistas y autovías y de 90 km/h en carreteras convencionales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "Autobuses, furgonetas, autocaravanas de vehículos derivados masa máxima autorizada superior de turismo",
+        "tabla": {
+          "columna": "Autobuses, vehículos derivados de turismo y vehículos mixtos adaptables",
+          "fila": "Autopista y autovía",
+          "valor": "100"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0029",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un vehículo mixto adaptable en una carretera convencional?",
+      "opciones": {
+        "a": "80 km/h.",
+        "b": "100 km/h.",
+        "c": "90 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "En carretera convencional, los autobuses, los vehículos derivados de turismo y los vehículos mixtos adaptables tienen un límite genérico de 90 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "a 3.500 kg, vehículos articulados, vehículos mixtos automóviles con remolque y resto adaptables",
+        "tabla": {
+          "columna": "Autobuses, vehículos derivados de turismo y vehículos mixtos adaptables",
+          "fila": "Convencional",
+          "valor": "90"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0030",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un camión en una autopista?",
+      "opciones": {
+        "a": "80 km/h.",
+        "b": "90 km/h.",
+        "c": "100 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Los camiones y tractocamiones tienen un límite genérico de 90 km/h en autopistas y autovías y de 80 km/h en carreteras convencionales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "Camiones, tractocamiones, Autobuses,",
+        "tabla": {
+          "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
+          "fila": "Autopista y autovía",
+          "valor": "90"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0031",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un turismo con remolque en una carretera convencional?",
+      "opciones": {
+        "a": "80 km/h.",
+        "b": "90 km/h.",
+        "c": "70 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "En carretera convencional, los automóviles con remolque tienen el mismo límite genérico que camiones y furgonetas: 80 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "automóviles con remolque y resto adaptables de vehículos",
+        "tabla": {
+          "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
+          "fila": "Convencional",
+          "valor": "80"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0032",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "materia": 1,
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un pick-up en una autovía?",
+      "opciones": {
+        "a": "100 km/h.",
+        "b": "120 km/h.",
+        "c": "90 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Los pick-up tienen los mismos límites genéricos que los turismos: 120 km/h en autopistas y autovías y 90 km/h en carreteras convencionales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "cita": "máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+        "tabla": {
+          "columna": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+          "fila": "Autopista y autovía",
+          "valor": "120"
+        },
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla."
+    },
+    {
+      "id": "x1a-0033",
+      "tema": "velocidad",
+      "subtema": "convencional_separacion_fisica",
+      "materia": 1,
+      "enunciado": "En una carretera convencional con separación física entre los dos sentidos, ¿puede estar permitido circular con un turismo a 100 km/h?",
+      "opciones": {
+        "a": "No, en carretera convencional el máximo es siempre 90 km/h.",
+        "b": "Sí, si el titular de la vía fija ese límite.",
+        "c": "Sí, siempre, aunque ninguna señal lo indique."
+      },
+      "correcta": "b",
+      "explicacion": "En carreteras convencionales con separación física de los dos sentidos, el titular de la vía puede fijar un límite máximo de 100 km/h para turismos, motocicletas y autocaravanas de hasta 3.500 kg.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a.1º",
+        "cita": "En carreteras convencionales con separación física de los dos sentidos de circulación, el titular de la vía podrá fijar un límite máximo de 100 km/h",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0034",
+      "tema": "velocidad",
+      "subtema": "reducciones",
+      "materia": 1,
+      "enunciado": "Una furgoneta que transporta mercancías peligrosas circula por una autovía. ¿Cuál es su velocidad máxima genérica?",
+      "opciones": {
+        "a": "90 km/h.",
+        "b": "70 km/h.",
+        "c": "80 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos que transportan mercancías peligrosas, o que realizan transporte escolar y de menores, tienen un límite 10 km/h inferior al de su tipo de vehículo y vía: la furgoneta pasa de 90 a 80 km/h en autovía.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.b",
+        "cita": "Para los vehículos que realicen transporte escolar y de menores o que transporten mercancías peligrosas, se reducirá en 10 kilómetros por hora",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0035",
+      "tema": "velocidad",
+      "subtema": "reducciones",
+      "materia": 1,
+      "enunciado": "En un autobús viajan pasajeros de pie, porque así está autorizado. ¿A qué velocidad máxima puede circular por una autopista?",
+      "opciones": {
+        "a": "100 km/h.",
+        "b": "80 km/h.",
+        "c": "90 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Si en un autobús viajan pasajeros de pie, o el autobús no tiene cinturones de seguridad, su velocidad máxima es de 80 km/h en cualquier tipo de vía fuera de poblado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.b",
+        "cita": "En el supuesto de que en un autobús viajen pasajeros de pie porque así esté autorizado o en caso de que el autobús no esté dotado de cinturón de seguridad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0036",
+      "tema": "velocidad",
+      "subtema": "reducciones",
+      "materia": 1,
+      "enunciado": "Un autobús sin cinturones de seguridad circula por una autovía sin pasajeros de pie. ¿Cuál es su velocidad máxima?",
+      "opciones": {
+        "a": "100 km/h.",
+        "b": "90 km/h.",
+        "c": "80 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Un autobús que no está dotado de cinturón de seguridad tiene una velocidad máxima de 80 km/h en cualquier tipo de vía fuera de poblado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.b",
+        "cita": "la velocidad máxima, cualquiera que sea el tipo de vía fuera de poblado, será de 80 kilómetros por hora",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0037",
+      "tema": "velocidad",
+      "subtema": "vehiculos_especiales",
+      "materia": 1,
+      "enunciado": "Fuera de poblado, ¿cuál es la velocidad máxima de un motocultor?",
+      "opciones": {
+        "a": "25 km/h.",
+        "b": "40 km/h.",
+        "c": "45 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos especiales que carecen de señalización de frenado, los que llevan remolque y los motocultores tienen una velocidad máxima de 25 km/h fuera de poblado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.c.1º",
+        "cita": "Si carecen de señalización de frenado, llevan remolque o son motocultores: 25 kilómetros por hora.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0038",
+      "tema": "velocidad",
+      "subtema": "vehiculos_especiales",
+      "materia": 1,
+      "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción no supera los 60 km/h en llano, ¿a qué velocidad máxima puede circular?",
+      "opciones": {
+        "a": "40 km/h.",
+        "b": "25 km/h.",
+        "c": "70 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos especiales que no carecen de señalización de frenado, no llevan remolque y no pueden superar los 60 km/h en llano tienen una velocidad máxima de 40 km/h fuera de poblado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.c.2º",
+        "cita": "Los restantes vehículos especiales: 40 kilómetros por hora, salvo cuando puedan desarrollar una velocidad superior a los 60 kilómetros por hora en llano",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0039",
+      "tema": "velocidad",
+      "subtema": "ciclomotores",
+      "materia": 1,
+      "enunciado": "¿Cuál es la velocidad máxima de un ciclomotor de dos ruedas en una carretera convencional?",
+      "opciones": {
+        "a": "50 km/h.",
+        "b": "45 km/h.",
+        "c": "70 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Fuera de poblado, los ciclos, los ciclomotores de dos y tres ruedas y los cuadriciclos ligeros tienen una velocidad máxima de 45 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.e",
+        "cita": "Para ciclos, ciclomotores de dos y tres ruedas y cuadriciclos ligeros: 45 kilómetros por hora.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 48",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0040",
+      "tema": "velocidad",
+      "subtema": "minimas",
+      "materia": 1,
+      "enunciado": "Fuera de poblado, ¿cuál es la velocidad mínima de un camión en una carretera convencional?",
+      "opciones": {
+        "a": "40 km/h.",
+        "b": "45 km/h.",
+        "c": "60 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Fuera de autopistas y autovías, la velocidad mínima es la mitad de la genérica de cada tipo de vehículo en cada vía: el camión tiene 80 km/h en convencional, luego su mínima es 40 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "49.1",
+        "cita": "a una velocidad inferior a la mitad de la genérica señalada para cada categoría de vehículos de cada una de ellas",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 49",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0041",
+      "tema": "velocidad",
+      "subtema": "minimas",
+      "materia": 1,
+      "enunciado": "Conduce un turismo por una carretera convencional a 35 km/h, sin causa justificada y sin ningún otro vehículo cerca. ¿Comete una infracción?",
+      "opciones": {
+        "a": "No, porque no entorpece a nadie.",
+        "b": "No, la velocidad mínima solo rige en autopistas y autovías.",
+        "c": "Sí, aunque no circulen otros vehículos."
+      },
+      "correcta": "c",
+      "explicacion": "Fuera de autopistas y autovías se prohíbe circular por debajo de la mitad de la velocidad genérica de cada vehículo en cada vía, aunque no circulen otros vehículos; para un turismo en convencional, 45 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "49.1",
+        "cita": "a una velocidad inferior a la mitad de la genérica señalada para cada categoría de vehículos de cada una de ellas en este capítulo, aunque no circulen otros vehículos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 49",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0042",
+      "tema": "velocidad",
+      "subtema": "minimas",
+      "materia": 1,
+      "enunciado": "Un tractor agrícola circula por una carretera convencional a 25 km/h. ¿Incumple la velocidad mínima?",
+      "opciones": {
+        "a": "No, los vehículos especiales pueden circular por debajo de los mínimos.",
+        "b": "Sí, porque la mínima en convencional es de 45 km/h.",
+        "c": "Sí, salvo que lleve encendida la señal de emergencia."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos especiales y los vehículos en régimen de transporte especial pueden circular por debajo de los límites mínimos de velocidad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "49.2",
+        "cita": "Se podrá circular por debajo de los límites mínimos de velocidad en los casos de vehículos especiales y de vehículos en régimen de transporte especial",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 49",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0043",
+      "tema": "velocidad",
+      "subtema": "minimas",
+      "materia": 1,
+      "enunciado": "Su vehículo no puede alcanzar la velocidad mínima exigida en la vía y existe peligro de que le alcancen por detrás. ¿Qué luces debe utilizar mientras circula?",
+      "opciones": {
+        "a": "Las de largo alcance.",
+        "b": "Las antiniebla traseras.",
+        "c": "La señal de emergencia."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando un vehículo no puede alcanzar la velocidad mínima exigida y hay peligro de alcance, debe circular con las luces indicadoras de dirección en señal de emergencia.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "49.3",
+        "cita": "Cuando un vehículo no pueda alcanzar la velocidad mínima exigida y exista peligro de alcance, se deberán utilizar durante la circulación las luces indicadoras de dirección con señal de emergencia",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 49",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0044",
+      "tema": "velocidad",
+      "subtema": "limites_urbanos",
+      "materia": 1,
+      "enunciado": "¿Cuál es el límite genérico de velocidad en una calle con dos carriles por sentido de circulación?",
+      "opciones": {
+        "a": "30 km/h.",
+        "b": "50 km/h.",
+        "c": "40 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "En vías urbanas, el límite genérico es de 50 km/h en las vías de dos o más carriles por sentido, sin contar los carriles reservados a determinados usuarios o al transporte público.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "50.1.c",
+        "cita": "50 km/h en vías de dos o más carriles por sentido de circulación.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 50",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0045",
+      "tema": "velocidad",
+      "subtema": "limites_urbanos",
+      "materia": 1,
+      "enunciado": "En una calle con un único carril por sentido, ¿puede estar permitido circular a 50 km/h?",
+      "opciones": {
+        "a": "No, en esas calles nunca se pueden superar los 30 km/h.",
+        "b": "Sí, si la autoridad municipal lo autoriza excepcionalmente con señalización específica.",
+        "c": "Sí, siempre que no haya peatones en las aceras."
+      },
+      "correcta": "b",
+      "explicacion": "Excepcionalmente, la autoridad municipal puede aumentar la velocidad en vías urbanas de un único carril por sentido hasta un máximo de 50 km/h, con señalización específica.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "50.3",
+        "cita": "Excepcionalmente, la Autoridad Municipal podrá aumentar la velocidad en vías de un único carril por sentido hasta una velocidad máxima de 50 km/h",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 50",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0046",
+      "tema": "velocidad",
+      "subtema": "prevalentes",
+      "materia": 1,
+      "enunciado": "En una autovía, una señal limita la velocidad a 100 km/h. ¿A qué velocidad máxima puede circular con su turismo?",
+      "opciones": {
+        "a": "100 km/h.",
+        "b": "120 km/h.",
+        "c": "110 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Sobre las velocidades máximas genéricas prevalecen las que se fijen mediante las correspondientes señales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "52.1.a",
+        "cita": "Sobre las velocidades máximas indicadas en los artículos anteriores prevalecerán las que se fijen: a) A través de las correspondientes señales.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 52",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0047",
+      "tema": "velocidad",
+      "subtema": "prevalentes",
+      "materia": 1,
+      "enunciado": "Un vehículo especial agrícola circula por una carretera. ¿Qué señal debe llevar en su parte posterior, visible en todo momento?",
+      "opciones": {
+        "a": "La señal de vehículo de autoescuela.",
+        "b": "La señal de transporte escolar.",
+        "c": "La señal de limitación de velocidad."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos especiales y los vehículos en régimen de transporte especial, así como los conductores con la velocidad limitada por sus circunstancias personales, deben llevar en la parte posterior, visible en todo momento, la señal de limitación de velocidad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "52.2",
+        "cita": "será obligatorio llevar en la parte posterior del vehículo, visible en todo momento, la señal de limitación de velocidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 52",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0048",
+      "tema": "velocidad",
+      "subtema": "prevalentes",
+      "materia": 1,
+      "enunciado": "A un conductor se le ha fijado una velocidad máxima inferior a la genérica por sus circunstancias personales. Además de respetarla, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Nada más; basta con no superar su límite.",
+        "b": "Llevar en la parte posterior del vehículo la señal de limitación de velocidad.",
+        "c": "Circular siempre con la señal de emergencia encendida."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando a un conductor se le fija una velocidad máxima por sus circunstancias personales, debe llevar en la parte posterior del vehículo, visible en todo momento, la señal de limitación de velocidad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "52.2",
+        "cita": "En los supuestos comprendidos en el párrafo b) del apartado anterior y en el artículo 48.1.c) y d), será obligatorio",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 52",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0049",
+      "tema": "velocidad",
+      "subtema": "reduccion",
+      "materia": 1,
+      "enunciado": "Va a reducir considerablemente la velocidad y no hay ningún peligro inminente. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Frenar con fuerza para detenerse en el menor espacio posible.",
+        "b": "Reducir sin avisar, porque solo se señalizan los desplazamientos laterales.",
+        "c": "Comprobar que no crea riesgo, advertirlo antes y no frenar bruscamente."
+      },
+      "correcta": "c",
+      "explicacion": "Todo conductor que va a reducir considerablemente la velocidad, salvo peligro inminente, tiene que cerciorarse de que no hay riesgo para otros conductores, advertirlo previamente y no hacerlo de forma brusca.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "53.1",
+        "cita": "para reducir considerablemente la velocidad de su vehículo, deberá cerciorarse de que puede hacerlo sin riesgo para otros conductores",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 53",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0050",
+      "tema": "velocidad",
+      "subtema": "reduccion",
+      "materia": 1,
+      "enunciado": "¿En qué caso puede reducir considerablemente la velocidad sin advertirlo previamente?",
+      "opciones": {
+        "a": "En caso de peligro inminente.",
+        "b": "Siempre que circule dentro de poblado.",
+        "c": "Cuando vaya a detenerse para estacionar."
+      },
+      "correcta": "a",
+      "explicacion": "La obligación de cerciorarse, advertir previamente y no frenar de forma brusca al reducir considerablemente la velocidad tiene una excepción: el caso de peligro inminente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "53.1",
+        "cita": "Salvo en caso de inminente peligro, todo conductor, para reducir considerablemente la velocidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 53",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0051",
+      "tema": "distancias",
+      "subtema": "distancia_seguridad",
+      "materia": 5,
+      "enunciado": "Circula detrás de otro vehículo. ¿Qué distancia debe dejar con él?",
+      "opciones": {
+        "a": "La que le permita detenerse sin chocar si frena bruscamente.",
+        "b": "Siempre 50 metros, sea cual sea la velocidad.",
+        "c": "La suficiente para poder leer su matrícula."
+      },
+      "correcta": "a",
+      "explicacion": "Quien circula detrás de otro vehículo debe dejar un espacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar, teniendo en cuenta especialmente la velocidad y las condiciones de adherencia y frenado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "54.1",
+        "cita": "deberá dejar entre ambos un espacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 54",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0052",
+      "tema": "distancias",
+      "subtema": "ciclistas_grupo",
+      "materia": 8,
+      "enunciado": "Unos ciclistas circulan en grupo. ¿Deben mantener entre ellos la distancia de seguridad?",
+      "opciones": {
+        "a": "Sí, al menos 5 metros entre cada bicicleta.",
+        "b": "Sí, la misma que cualquier otro vehículo.",
+        "c": "No están obligados, pero deben extremar la atención."
+      },
+      "correcta": "c",
+      "explicacion": "Los ciclistas pueden circular en grupo sin mantener la distancia de seguridad entre ellos, extremando la atención para evitar alcances.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "54.1",
+        "cita": "se permitirá a los conductores de bicicletas circular en grupo sin mantener tal separación, extremando en esta ocasión la atención",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 54",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0053",
+      "tema": "distancias",
+      "subtema": "facilitar_adelantamiento",
+      "materia": 5,
+      "enunciado": "Conduce un camión de 18.000 kg por una autovía con dos carriles en su sentido. ¿Debe dejar 50 metros con el vehículo de delante para facilitar que le adelanten?",
+      "opciones": {
+        "a": "Sí, siempre que circule fuera de poblado.",
+        "b": "Sí, salvo que circule de noche.",
+        "c": "No, porque hay más de un carril en su mismo sentido."
+      },
+      "correcta": "c",
+      "explicacion": "La separación mínima de 50 metros para facilitar el adelantamiento no se aplica en poblado, donde está prohibido adelantar, donde hay más de un carril en el mismo sentido ni con circulación saturada; la distancia de seguridad para frenar sí debe mantenerse.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "54.3.c",
+        "cita": "Donde hubiese más de un carril destinado a la circulación en su mismo sentido.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 54",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0054",
+      "tema": "distancias",
+      "subtema": "facilitar_adelantamiento",
+      "materia": 5,
+      "enunciado": "Un turismo con caravana, de 11 metros de longitud total, circula por una carretera con un carril por sentido donde se permite adelantar, sin intención de adelantar. ¿Qué separación mínima debe dejar con el vehículo de delante?",
+      "opciones": {
+        "a": "25 metros.",
+        "b": "100 metros.",
+        "c": "50 metros."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos de más de 3.500 kg de MMA y los vehículos o conjuntos de más de 10 metros de longitud total que no van a adelantar deben dejar al menos 50 metros con el de delante para que puedan adelantarles con seguridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "54.2",
+        "cita": "los vehículos y conjuntos de vehículos de más de 10 metros de longitud total deberán guardar, a estos efectos, una separación mínima de 50 metros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 54",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0055",
+      "tema": "velocidad",
+      "subtema": "competiciones",
+      "materia": 1,
+      "enunciado": "¿Se pueden entablar competiciones de velocidad en las vías públicas?",
+      "opciones": {
+        "a": "No, salvo en vías acotadas para ello excepcionalmente por la autoridad.",
+        "b": "Sí, de madrugada y si no hay otros vehículos.",
+        "c": "Sí, en autopistas de peaje."
+      },
+      "correcta": "a",
+      "explicacion": "Se prohíbe entablar competiciones de velocidad en las vías públicas o de uso público, salvo que, con carácter excepcional, la autoridad competente las haya acotado para ello.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "55.2",
+        "cita": "Se prohíbe entablar competiciones de velocidad en las vías públicas o de uso público, salvo que, con carácter excepcional, se hubieran acotado para ello",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 55",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0056",
+      "tema": "infracciones",
+      "subtema": "competiciones",
+      "materia": 1,
+      "enunciado": "Según la Ley de Tráfico, participar en competiciones o carreras de vehículos no autorizadas, cuando no es delito, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Muy grave.",
+        "c": "Leve."
+      },
+      "correcta": "b",
+      "explicacion": "Participar en competiciones y carreras de vehículos no autorizadas es una infracción muy grave, cuando no constituye delito.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "77.g",
+        "cita": "g) Participar en competiciones y carreras de vehículos no autorizadas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 77",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0057",
+      "tema": "infracciones",
+      "subtema": "distancia_seguridad",
+      "materia": 1,
+      "enunciado": "Según la Ley de Tráfico, no mantener la distancia de seguridad con el vehículo precedente, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Leve.",
+        "c": "Muy grave."
+      },
+      "correcta": "a",
+      "explicacion": "No mantener la distancia de seguridad con el vehículo precedente es una infracción grave, cuando no constituye delito.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "76.ñ",
+        "cita": "ñ) No mantener la distancia de seguridad con el vehículo precedente.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 76",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0058",
+      "tema": "infracciones",
+      "subtema": "maniobras",
+      "materia": 1,
+      "enunciado": "Según la Ley de Tráfico, incumplir las normas sobre preferencia de paso, adelantamientos o cambios de sentido, cuando no es delito, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Muy grave en todo caso.",
+        "c": "Grave."
+      },
+      "correcta": "c",
+      "explicacion": "Incumplir las disposiciones sobre preferencia de paso, adelantamientos, cambios de dirección o sentido, marcha atrás y utilización de carriles y arcenes es una infracción grave, cuando no constituye delito.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "76.c",
+        "cita": "Incumplir las disposiciones de esta ley en materia de preferencia de paso, adelantamientos, cambios de dirección o sentido y marcha atrás",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 76",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0059",
+      "tema": "prioridad",
+      "subtema": "ceder_paso",
+      "materia": 1,
+      "enunciado": "Debe ceder el paso en una intersección. Hay un hueco, pero si sale, el vehículo que tiene prioridad tendrá que frenar bruscamente. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Esperar, porque no puede obligarle a cambiar bruscamente su velocidad.",
+        "b": "Salir, porque ceder el paso solo obliga a no chocar.",
+        "c": "Salir rápidamente, avisando antes con el claxon."
+      },
+      "correcta": "a",
+      "explicacion": "Quien debe ceder el paso no puede iniciar ni continuar su maniobra hasta asegurarse de que no fuerza al conductor con prioridad a modificar bruscamente su trayectoria o su velocidad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "58.1",
+        "cita": "hasta haberse asegurado de que con ello no fuerza al conductor del vehículo que tiene la prioridad a modificar bruscamente la trayectoria o la velocidad de éste",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 58",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0060",
+      "tema": "prioridad",
+      "subtema": "ceder_paso",
+      "materia": 1,
+      "enunciado": "Se acerca a una intersección en la que debe ceder el paso. ¿Cómo debe mostrar a los demás que va a cederlo?",
+      "opciones": {
+        "a": "Encendiendo la señal de emergencia al llegar.",
+        "b": "Reduciendo paulatinamente la velocidad con suficiente antelación.",
+        "c": "Con una señal acústica breve al llegar."
+      },
+      "correcta": "b",
+      "explicacion": "Quien debe ceder el paso tiene que mostrar con suficiente antelación, por su forma de circular y especialmente reduciendo paulatinamente la velocidad, que efectivamente va a cederlo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "58.1",
+        "cita": "debe mostrar con suficiente antelación, por su forma de circular y especialmente con la reducción paulatina de la velocidad que efectivamente va a cederlo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 58",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0061",
+      "tema": "prioridad",
+      "subtema": "pasos_peatones_atasco",
+      "materia": 1,
+      "enunciado": "Tiene el semáforo en verde, pero hay retención y, si avanza, quedará detenido encima de un paso para peatones. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "No entrar en el paso hasta que pueda rebasarlo.",
+        "b": "Entrar, porque tiene el semáforo en verde.",
+        "c": "Entrar y avisar a los peatones con el claxon."
+      },
+      "correcta": "a",
+      "explicacion": "Aunque se tenga prioridad, no se debe entrar en una intersección ni en un paso para peatones o para ciclistas si es previsible quedar detenido obstruyendo la circulación transversal.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "59.1",
+        "cita": "ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 59",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0062",
+      "tema": "prioridad",
+      "subtema": "salir_interseccion",
+      "materia": 1,
+      "enunciado": "Ha quedado detenido dentro de una intersección regulada por semáforo y obstaculiza la circulación transversal. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Esperar a que el semáforo le permita seguir en su dirección.",
+        "b": "Salir sin esperar a que se abra su dirección, si no entorpece a nadie.",
+        "c": "Dar marcha atrás hasta la línea de detención."
+      },
+      "correcta": "b",
+      "explicacion": "Quien queda detenido en una intersección regulada por semáforo constituyendo un obstáculo debe salir de ella sin esperar a que se permita la circulación en su dirección, siempre que no entorpezca a quienes avanzan en el sentido permitido.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "59.2",
+        "cita": "deberá salir de aquélla sin esperar a que se permita la circulación en la dirección que se propone tomar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 59",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0063",
+      "tema": "prioridad",
+      "subtema": "obras",
+      "materia": 1,
+      "enunciado": "En una vía se están haciendo obras de reparación. ¿Por dónde deben pasar los vehículos?",
+      "opciones": {
+        "a": "Por el sitio señalado al efecto.",
+        "b": "Siempre por el arcén.",
+        "c": "Por donde cada conductor considere más seguro."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando en una vía se hacen obras de reparación, los vehículos, caballerías y ganado deben pasar por el sitio señalado al efecto.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "60.2",
+        "cita": "los vehículos, caballerías y toda especie de ganado marcharán por el sitio señalado al efecto",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 60",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0064",
+      "tema": "prioridad",
+      "subtema": "obras",
+      "materia": 1,
+      "enunciado": "Llega a una obra de reparación de la vía y encuentra esperando a otro vehículo que llegó antes en su mismo sentido. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Adelantarlo para pasar primero si el paso está libre.",
+        "b": "Ponerse a su izquierda para pasar los dos a la vez.",
+        "c": "Colocarse detrás, arrimado a la derecha, y pasar siguiéndole."
+      },
+      "correcta": "c",
+      "explicacion": "Quien llega a una obra de reparación y encuentra esperando a otro vehículo llegado antes en su mismo sentido se coloca detrás, lo más arrimado posible a la derecha, y solo pasa siguiendo al de delante.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "60.4",
+        "cita": "se colocará detrás de él, lo más arrimado que sea posible al borde de la derecha, y no intentará pasar sino siguiendo al que tiene delante",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 60",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0065",
+      "tema": "prioridad",
+      "subtema": "obras",
+      "materia": 1,
+      "enunciado": "Si puede hacerse sin peligro ni daño a la obra, ¿a qué vehículos se permite pasar por un tramo de vía en reparación?",
+      "opciones": {
+        "a": "A los turismos cuyo conductor tenga prisa justificada.",
+        "b": "A los de policía, bomberos, protección civil y sanitarios en servicio urgente.",
+        "c": "A los vehículos pesados, por sus dificultades de maniobra."
+      },
+      "correcta": "b",
+      "explicacion": "Siempre que no haya peligro ni daño a la obra, se permite el paso por el tramo en reparación a los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio urgente que lo adviertan con su señalización.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "60.3",
+        "cita": "se permitirá el paso por el trozo de vía en reparación a los vehículos de servicios de policía, extinción de incendios, protección civil y salvamento",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 60",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0066",
+      "tema": "prioridad",
+      "subtema": "puentes",
+      "materia": 1,
+      "enunciado": "Dos vehículos que necesitan autorización especial para circular se encuentran en un puente cuya calzada mide 5 metros de ancho. ¿Pueden cruzarse en él?",
+      "opciones": {
+        "a": "Sí, si reducen la velocidad.",
+        "b": "No, porque la calzada mide menos de 6 metros.",
+        "c": "Sí, si cada uno ocupa su mitad de la calzada."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos que necesitan autorización especial para circular no pueden cruzarse en los puentes si el ancho de la calzada es inferior a seis metros, de modo que cada uno cuente con al menos tres metros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "61.3",
+        "cita": "no podrán cruzarse en los puentes si el ancho de la calzada es inferior a seis metros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 61",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0067",
+      "tema": "prioridad",
+      "subtema": "estrechamientos_orden",
+      "materia": 1,
+      "enunciado": "Una autocaravana y un camión se encuentran en un estrechamiento sin señalizar y no se sabe cuál entró primero. ¿Cuál tiene preferencia de paso?",
+      "opciones": {
+        "a": "El camión.",
+        "b": "La autocaravana.",
+        "c": "El que tenga que retroceder menos distancia."
+      },
+      "correcta": "b",
+      "explicacion": "En el orden de preferencia en ausencia de señalización, los turismos con remolque de hasta 750 kg y las autocaravanas van por delante de los vehículos de transporte colectivo y de los camiones, tractocamiones y furgones.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "62.1.d y f",
+        "cita": "autorizada y autocaravanas. e) Vehículos destinados al transporte colectivo de viajeros. f) Camiones, tractocamiones y furgones.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 62",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0068",
+      "tema": "prioridad",
+      "subtema": "estrechamientos_orden",
+      "materia": 1,
+      "enunciado": "Un turismo y una motocicleta se encuentran en un estrechamiento sin señalizar y no se sabe cuál entró primero. ¿Quién debe dar marcha atrás?",
+      "opciones": {
+        "a": "La motocicleta.",
+        "b": "El turismo.",
+        "c": "El que lleve más ocupantes."
+      },
+      "correcta": "a",
+      "explicacion": "En el orden de preferencia de los estrechamientos, las motocicletas, los ciclomotores de dos ruedas y las bicicletas ocupan el último lugar, por detrás de los turismos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "62.1.g y j",
+        "cita": "j) Motocicletas, ciclomotores de dos ruedas y bicicletas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 62",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0069",
+      "tema": "prioridad",
+      "subtema": "estrechamientos_orden",
+      "materia": 1,
+      "enunciado": "Un camión con remolque y un autobús se encuentran en un estrechamiento sin señalizar y no se sabe cuál entró primero. ¿Cuál tiene preferencia de paso?",
+      "opciones": {
+        "a": "El camión con remolque.",
+        "b": "El autobús.",
+        "c": "El de menor longitud."
+      },
+      "correcta": "a",
+      "explicacion": "En el orden de preferencia de los estrechamientos, los conjuntos de vehículos (salvo turismos con remolque ligero) solo van detrás de los vehículos especiales y de transporte especial que exceden masas o dimensiones.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "62.1.b y e",
+        "cita": "b) Conjunto de vehículos, excepto los contemplados en el párrafo d).",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 62",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0070",
+      "tema": "prioridad",
+      "subtema": "estrechamientos_orden",
+      "materia": 1,
+      "enunciado": "Dos camiones se encuentran en un estrechamiento sin señalizar y los dos tendrían que retroceder la misma distancia. ¿Cuál tiene preferencia de paso?",
+      "opciones": {
+        "a": "El que circule en sentido descendente.",
+        "b": "El de mayor anchura, longitud o masa máxima autorizada.",
+        "c": "El que haya hecho antes una señal acústica."
+      },
+      "correcta": "b",
+      "explicacion": "Entre vehículos del mismo tipo, la preferencia es del que tendría que dar marcha atrás mayor distancia y, en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "62.1",
+        "cita": "en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 62",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0071",
+      "tema": "prioridad",
+      "subtema": "estrechamientos_orden",
+      "materia": 1,
+      "enunciado": "En un estrechamiento, un agente ordena retroceder a un autobús para dejar pasar a un turismo. ¿Qué debe hacer el conductor del autobús?",
+      "opciones": {
+        "a": "Seguir, porque el autobús tiene preferencia sobre el turismo.",
+        "b": "Retroceder, porque prevalece lo que ordene el agente.",
+        "c": "Esperar a que retroceda el turismo."
+      },
+      "correcta": "b",
+      "explicacion": "El orden de preferencia entre tipos de vehículos en estrechamientos se aplica sin perjuicio de lo que ordene el agente de la autoridad o indique el personal de obras o de acompañamiento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "62.1",
+        "cita": "Sin perjuicio de lo que pueda ordenar el agente de la autoridad o, en su caso, indicar el personal de obras",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 62",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0072",
+      "tema": "prioridad",
+      "subtema": "gran_pendiente",
+      "materia": 1,
+      "enunciado": "En un tramo estrecho en pendiente hay dudas sobre si la inclinación llega al 7 %. ¿Cómo se decide quién tiene preferencia?",
+      "opciones": {
+        "a": "Siempre a favor del vehículo que baja.",
+        "b": "A favor del que circule a mayor velocidad.",
+        "c": "Según el orden de preferencia entre tipos de vehículos."
+      },
+      "correcta": "c",
+      "explicacion": "En los tramos de gran pendiente, si hay duda sobre la inclinación o sobre la distancia al apartadero, la preferencia se decide por el orden entre tipos de vehículos del artículo 62 del Reglamento General de Circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "63.1",
+        "cita": "En caso de duda sobre la inclinación de la pendiente o la distancia al apartadero, se estará a lo establecido en el artículo 62",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 63",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0073",
+      "tema": "prioridad",
+      "subtema": "animales",
+      "materia": 1,
+      "enunciado": "Va a girar para entrar en otra vía y un rebaño la está cruzando, aunque no hay paso para animales. ¿Quién tiene prioridad?",
+      "opciones": {
+        "a": "Los animales.",
+        "b": "Usted, porque allí no hay paso para animales.",
+        "c": "Usted, porque los conductores siempre tienen prioridad sobre los animales."
+      },
+      "correcta": "a",
+      "explicacion": "Los conductores tienen prioridad sobre los animales, salvo en cañadas señalizadas, al girar para entrar en otra vía con animales cruzándola y al cruzar un arcén por el que circulan animales sin cañada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "66.1.b",
+        "cita": "Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales cruzándola, aunque no exista paso para éstos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 66",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0074",
+      "tema": "prioridad",
+      "subtema": "animales",
+      "materia": 1,
+      "enunciado": "Para entrar en una finca tiene que cruzar un arcén por el que van unas vacas, y allí no hay cañada. ¿Quién tiene prioridad?",
+      "opciones": {
+        "a": "Usted.",
+        "b": "El que llegue primero.",
+        "c": "Las vacas."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando un vehículo cruza un arcén por el que circulan animales que no disponen de cañada, los animales tienen prioridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "66.1.c",
+        "cita": "Cuando el vehículo cruce un arcén por el que estén circulando animales que no dispongan de cañada",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 66",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0075",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "Una ambulancia de una empresa privada circula en servicio urgente. ¿Tiene prioridad de paso?",
+      "opciones": {
+        "a": "Sí; la tienen los servicios de urgencia públicos o privados.",
+        "b": "No, solo las ambulancias públicas tienen prioridad.",
+        "c": "Solo si va escoltada por la policía."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos de servicios de urgencia, públicos o privados, tienen prioridad de paso sobre los demás vehículos y usuarios cuando se hallan en servicio de tal carácter.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "67.1",
+        "cita": "los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 67",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0076",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "Un vehículo de bomberos en servicio urgente, ¿puede superar los límites de velocidad?",
+      "opciones": {
+        "a": "No, nunca puede superarlos.",
+        "b": "Sí, en los casos y condiciones que fija el Reglamento.",
+        "c": "Solo dentro de poblado."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos de servicios de urgencia en servicio urgente pueden circular por encima de los límites de velocidad y están exentos de otras normas o señales en los casos y condiciones que fija el Reglamento General de Circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "67.1",
+        "cita": "Podrán circular por encima de los límites de velocidad y estarán exentos de cumplir otras normas o señales",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 67",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0077",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "Una ambulancia en servicio urgente llega a un semáforo en rojo. ¿Qué debe hacer su conductor antes de pasar?",
+      "opciones": {
+        "a": "Pasar sin detenerse, porque tiene prioridad en todo caso.",
+        "b": "Detenerse siempre hasta que el semáforo se ponga en verde.",
+        "c": "Extremar las precauciones hasta comprobar que los demás se detienen o le facilitan el paso."
+      },
+      "correcta": "c",
+      "explicacion": "Los conductores de vehículos prioritarios no deben pasar un semáforo o una intersección sin adoptar extremadas precauciones, hasta cerciorarse de que no hay riesgo de atropello y de que los demás conductores se han detenido o van a facilitarles el paso.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "67.2",
+        "cita": "cuidarán de no vulnerar la prioridad de paso en las intersecciones de vías o las señales de los semáforos, sin antes adoptar extremadas precauciones",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 67",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0078",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "Un coche de policía circula sin ningún servicio urgente. ¿Puede su conductor hacer uso del régimen especial de los vehículos prioritarios?",
+      "opciones": {
+        "a": "Sí, siempre, por ser un vehículo policial.",
+        "b": "No, solo cuando preste un servicio urgente.",
+        "c": "Sí, si lleva encendida la señal luminosa."
+      },
+      "correcta": "b",
+      "explicacion": "Los conductores de vehículos de servicios de urgencia solo deben hacer uso, de forma ponderada, de su régimen especial cuando circulan prestando un servicio urgente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "67.2",
+        "cita": "harán uso ponderado de su régimen especial únicamente cuando circulen en prestación de un servicio urgente",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 67",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0079",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "Una ambulancia en servicio urgente circula por una autovía. Si excepcionalmente necesita circular en sentido contrario, ¿por dónde puede hacerlo?",
+      "opciones": {
+        "a": "Por el carril izquierdo.",
+        "b": "Por el arcén.",
+        "c": "Por cualquier carril de la calzada."
+      },
+      "correcta": "b",
+      "explicacion": "En autopistas y autovías, los vehículos prioritarios en servicio urgente pueden excepcionalmente, sin comprometer la seguridad de nadie, circular en sentido contrario siempre que lo hagan por el arcén.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "68.1",
+        "cita": "circular en sentido contrario al correspondiente a la calzada, siempre que lo hagan por el arcén",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 68",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0080",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "En servicio urgente por una autopista, ¿puede un vehículo prioritario dar marcha atrás o media vuelta?",
+      "opciones": {
+        "a": "No, la marcha atrás en autopistas está prohibida para todos.",
+        "b": "Sí, excepcionalmente y sin comprometer la seguridad de nadie.",
+        "c": "Sí, en cualquier caso, porque tiene prioridad de paso."
+      },
+      "correcta": "b",
+      "explicacion": "Con carácter excepcional, los vehículos prioritarios en servicio urgente por autopista o autovía pueden dar media vuelta o marcha atrás y entrar en la mediana o sus pasos transversales, si no comprometen la seguridad de ningún usuario.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "68.1",
+        "cita": "cuando circulen por autopista o autovía en servicio urgente y no comprometan la seguridad de ningún usuario, dar media vuelta o marcha atrás",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 68",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0081",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "¿Cuál de estos vehículos puede tener el carácter de prioritario?",
+      "opciones": {
+        "a": "Una grúa de auxilio en carretera.",
+        "b": "Un autobús de transporte escolar.",
+        "c": "Uno de protección civil y salvamento en servicio urgente."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos prioritarios son los de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria, pública o privada, que circulan en servicio urgente y lo advierten con las señales luminosa y acústica especiales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "68.2",
+        "cita": "Tendrán el carácter de prioritarios los vehículos de los servicios de policía, extinción de incendios, protección civil y salvamento, y de asistencia sanitaria",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 68",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0082",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "¿Cuándo puede un vehículo prioritario en servicio urgente usar solo la señal luminosa, sin la acústica?",
+      "opciones": {
+        "a": "Nunca; siempre debe usar las dos a la vez.",
+        "b": "Cuando omitir la señal acústica no suponga peligro para nadie.",
+        "c": "Solo de noche."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos prioritarios deben usar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entraña peligro alguno para los demás usuarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "68.2",
+        "cita": "deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 68",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0083",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "Un vehículo de los agentes de tráfico se detiene para auxiliar a un usuario de la vía. ¿Dónde puede situarse?",
+      "opciones": {
+        "a": "Solo en el arcén.",
+        "b": "En la parte de la vía que resulte necesaria.",
+        "c": "Solo fuera de la calzada."
+      },
+      "correcta": "b",
+      "explicacion": "Los agentes responsables de la vigilancia del tráfico pueden utilizar o situar sus vehículos en la parte de la vía que resulte necesaria cuando prestan auxilio o lo requieren las necesidades del servicio o de la circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "68.1",
+        "cita": "podrán utilizar o situar sus vehículos en la parte de la vía que resulte necesaria cuando presten auxilio",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 68",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0084",
+      "tema": "prioridad",
+      "subtema": "vehiculos_prioritarios",
+      "materia": 1,
+      "enunciado": "¿En qué momento debe empezar a facilitar el paso a un vehículo prioritario?",
+      "opciones": {
+        "a": "Tan pronto como perciba sus señales especiales.",
+        "b": "Cuando el vehículo prioritario esté justo detrás.",
+        "c": "Solo cuando el agente se lo pida por megafonía."
+      },
+      "correcta": "a",
+      "explicacion": "Tan pronto perciben las señales especiales de un vehículo prioritario, los demás conductores deben adoptar las medidas adecuadas para facilitarle el paso.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "69",
+        "cita": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 69",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0085",
+      "tema": "prioridad",
+      "subtema": "urgencia_no_prioritario",
+      "materia": 1,
+      "enunciado": "Tiene que llevar urgentemente a un herido en un vehículo que no dispone de luz de emergencia. Además de usar el claxon de forma intermitente, ¿cómo puede advertirlo?",
+      "opciones": {
+        "a": "Agitando un pañuelo o con un procedimiento similar.",
+        "b": "Con las luces de largo alcance encendidas de forma continua.",
+        "c": "Con una sirena portátil como la de las ambulancias."
+      },
+      "correcta": "a",
+      "explicacion": "El conductor de un vehículo no prioritario que presta un servicio de urgencia advierte su situación con el avisador acústico intermitente y la luz de emergencia, si dispone de ella, o agitando un pañuelo o procedimiento similar.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "70.1",
+        "cita": "conectando la luz de emergencia, si se dispusiera de ella, o agitando un pañuelo o procedimiento similar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 70",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0086",
+      "tema": "prioridad",
+      "subtema": "urgencia_no_prioritario",
+      "materia": 1,
+      "enunciado": "Lleva urgentemente a un herido en su turismo, advirtiéndolo con el claxon y la luz de emergencia. ¿Pueden los agentes pedirle que justifique esa situación?",
+      "opciones": {
+        "a": "No, porque presta un servicio de urgencia.",
+        "b": "Sí, en cualquier momento.",
+        "c": "Solo si ha cometido alguna infracción."
+      },
+      "correcta": "b",
+      "explicacion": "Los agentes de la autoridad pueden exigir en cualquier momento la justificación de las circunstancias graves por las que un vehículo no prioritario presta un servicio de urgencia.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "70.3",
+        "cita": "En cualquier momento, los agentes de la autoridad podrán exigir la justificación de las circunstancias",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 70",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0087",
+      "tema": "vehiculos_especiales",
+      "subtema": "uso_vias",
+      "materia": 9,
+      "enunciado": "¿Puede un vehículo especial realizar en la vía los trabajos para los que está destinado?",
+      "opciones": {
+        "a": "Sí, siempre que lleve encendida la señal V-2.",
+        "b": "Sí, si se sitúa en el arcén.",
+        "c": "No, salvo excepciones como las obras en la propia vía o las grúas."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos especiales solo pueden usar las vías para desplazarse, salvo los que trabajan en la construcción, reparación o conservación de la propia vía, en la zona de trabajo, y los destinados a remolcar vehículos accidentados, averiados o mal estacionados.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "71.1",
+        "cita": "Los vehículos especiales sólo pueden utilizar las vías objeto de la legislación de tráfico para desplazarse",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 71",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0088",
+      "tema": "vehiculos_especiales",
+      "subtema": "carga",
+      "materia": 9,
+      "enunciado": "Una máquina autopropulsada de obras (vehículo especial) va a circular por la vía. ¿Puede transportar carga?",
+      "opciones": {
+        "a": "Sí, si la carga no sobresale del vehículo.",
+        "b": "Sí, si circula a menos de 25 km/h.",
+        "c": "No, salvo los destinados a transporte especial con la autorización oportuna."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos especiales no pueden circular transportando carga alguna, salvo los destinados específicamente a servicios de transporte especial, que necesitan la autorización oportuna.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "71.1",
+        "cita": "Tampoco podrán circular los vehículos especiales transportando carga alguna, salvo los específicamente destinados a prestar servicios de transporte especial",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 71",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0089",
+      "tema": "vehiculos_especiales",
+      "subtema": "senal_v2",
+      "materia": 9,
+      "enunciado": "Un vehículo especial circula por una carretera a 35 km/h. ¿Cuándo debe llevar encendida la señal luminosa V-2?",
+      "opciones": {
+        "a": "Tanto de día como de noche.",
+        "b": "Solo de noche.",
+        "c": "Solo con niebla o lluvia."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos especiales o en régimen de transporte especial que circulan por vías públicas a una velocidad que no supera los 40 km/h deben usar la señal luminosa V-2 de día y de noche.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "71.3",
+        "cita": "deberán utilizar la referida señal luminosa tanto de día como de noche, siempre que circulen por vías de uso público a una velocidad que no supere los 40 km/h",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 71",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0090",
+      "tema": "vehiculos_especiales",
+      "subtema": "senal_v2",
+      "materia": 9,
+      "enunciado": "A un vehículo especial que circula a menos de 40 km/h se le avería la señal luminosa V-2. ¿Qué luces debe usar?",
+      "opciones": {
+        "a": "Solo las luces de largo alcance.",
+        "b": "La luz de cruce junto con la señal de emergencia.",
+        "c": "Las luces antiniebla delanteras."
+      },
+      "correcta": "b",
+      "explicacion": "Si se avería la señal luminosa V-2 de un vehículo especial o en régimen de transporte especial, debe usarse la luz de cruce junto con las luces indicadoras de dirección en señal de emergencia.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "71.3",
+        "cita": "En caso de avería de esta señal, deberá utilizarse la luz de cruce junto con las luces indicadoras de dirección con señal de emergencia.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 71",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0091",
+      "tema": "vehiculos_especiales",
+      "subtema": "senal_v2",
+      "materia": 9,
+      "enunciado": "Una grúa que está retirando un vehículo averiado obstaculiza la circulación y enciende la señal luminosa V-2. ¿Para qué la usa?",
+      "opciones": {
+        "a": "Para indicar su situación a los demás usuarios.",
+        "b": "Para tener prioridad de paso como un vehículo prioritario.",
+        "c": "Para indicar que va a adelantar."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos destinados a remolcar accidentados, averiados o mal estacionados usan la señal luminosa V-2, cuando interrumpen u obstaculizan la circulación, únicamente para indicar su situación a los demás usuarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "71.2.a",
+        "cita": "únicamente para indicar su situación a los demás usuarios, si se trata de vehículos específicamente destinados a remolcar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 71",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0092",
+      "tema": "incorporacion",
+      "subtema": "salida_garaje",
+      "materia": 1,
+      "enunciado": "Va a salir de un garaje a la calzada y apenas tiene visibilidad. ¿Qué puede hacer para asegurarse de que no hay peligro?",
+      "opciones": {
+        "a": "Salir deprisa para ocupar la calzada el menor tiempo.",
+        "b": "Tocar el claxon y salir sin detenerse.",
+        "c": "Seguir, si es necesario, las indicaciones de otra persona."
+      },
+      "correcta": "c",
+      "explicacion": "Quien se incorpora a la circulación desde una propiedad colindante debe cerciorarse antes de que puede hacerlo sin peligro, incluso siguiendo las indicaciones de otra persona si es necesario, y ceder el paso.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "72.1",
+        "cita": "deberá cerciorarse previamente, incluso siguiendo las indicaciones de otra persona en caso necesario, de que puede hacerlo sin peligro",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 72",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0093",
+      "tema": "incorporacion",
+      "subtema": "carril_aceleracion",
+      "materia": 1,
+      "enunciado": "Al principio del carril de aceleración ha comprobado que puede incorporarse sin peligro. ¿Qué debe hacer a continuación?",
+      "opciones": {
+        "a": "Recorrer el carril despacio y detenerse al final.",
+        "b": "Entrar en la calzada nada más empezar el carril.",
+        "c": "Acelerar hasta la velocidad adecuada al final del carril."
+      },
+      "correcta": "c",
+      "explicacion": "Tras cerciorarse al principio del carril de aceleración de que puede incorporarse sin peligro, el conductor acelera hasta alcanzar la velocidad adecuada al final del carril para incorporarse a la calzada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "72.4",
+        "cita": "A continuación, acelerará hasta alcanzar la velocidad adecuada al final del carril de aceleración",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 72",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0094",
+      "tema": "infracciones",
+      "subtema": "incorporacion",
+      "materia": 1,
+      "enunciado": "Incorporarse a la circulación sin ceder el paso a otros vehículos, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Muy grave.",
+        "c": "Grave."
+      },
+      "correcta": "c",
+      "explicacion": "Incorporarse a la circulación sin ceder el paso a otros vehículos es una infracción grave.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "72.5",
+        "cita": "Los supuestos de incorporación a la circulación sin ceder el paso a otros vehículos tendrán la consideración de infracciones graves",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 72",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0095",
+      "tema": "incorporacion",
+      "subtema": "autobus_parada",
+      "materia": 1,
+      "enunciado": "Dentro de poblado, un autobús indica con el intermitente que va a salir de una parada. ¿Tiene su conductor alguna obligación?",
+      "opciones": {
+        "a": "Sí, adoptar las precauciones necesarias para evitar todo riesgo.",
+        "b": "No, los demás deben detenerse y él puede salir sin más.",
+        "c": "Solo la de tocar el claxon antes de salir."
+      },
+      "correcta": "a",
+      "explicacion": "Aunque los demás conductores deban facilitar la salida de los autobuses de las paradas en poblado, el conductor del autobús sigue obligado a adoptar las precauciones necesarias para evitar todo riesgo de accidente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "73.3",
+        "cita": "no modifica la obligación que tienen los conductores de vehículos de transporte colectivo de viajeros de adoptar las precauciones necesarias para evitar todo riesgo de accidente",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 73",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0096",
+      "tema": "cambio_direccion",
+      "subtema": "colocacion",
+      "materia": 1,
+      "enunciado": "Va a girar a la izquierda en un cruce. ¿Cuándo debe colocar su vehículo en el lugar adecuado?",
+      "opciones": {
+        "a": "Con la necesaria antelación, y girar en el menor espacio y tiempo posibles.",
+        "b": "Justo en el momento de iniciar el giro.",
+        "c": "Después de pasar el centro de la intersección."
+      },
+      "correcta": "a",
+      "explicacion": "En un cambio de dirección, el vehículo se coloca en el lugar adecuado con la necesaria antelación y la maniobra se hace en el menor espacio y tiempo posibles.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "75.1.b",
+        "cita": "la colocación del vehículo en el lugar adecuado se efectuará con la necesaria antelación y la maniobra en el menor espacio y tiempo posibles",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 75",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0097",
+      "tema": "cambio_direccion",
+      "subtema": "centro_interseccion",
+      "materia": 1,
+      "enunciado": "Gira a la izquierda en una intersección acondicionada y señalizada para dejar su centro a la derecha. ¿Cómo debe girar?",
+      "opciones": {
+        "a": "Dejando el centro de la intersección a su derecha.",
+        "b": "Dejando siempre el centro a su izquierda.",
+        "c": "Por donde haya menos tráfico en ese momento."
+      },
+      "correcta": "a",
+      "explicacion": "Al girar a la izquierda se deja a la izquierda el centro de la intersección, salvo que esta esté acondicionada o señalizada para dejarlo a la derecha.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "75.1.c",
+        "cita": "dejará a la izquierda el centro de la intersección, a no ser que ésta esté acondicionada o señalizada para dejarlo a su derecha",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 75",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0098",
+      "tema": "cambio_direccion",
+      "subtema": "carril_deceleracion",
+      "materia": 1,
+      "enunciado": "Va a abandonar una autovía por una salida con carril de deceleración. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Ir con antelación al carril más próximo a la salida y entrar cuanto antes en el de deceleración.",
+        "b": "Seguir por el carril izquierdo y cambiar de carril al llegar a la salida.",
+        "c": "Frenar en el carril principal y entrar al final del carril de deceleración."
+      },
+      "correcta": "a",
+      "explicacion": "Para abandonar una autopista, autovía u otra vía, se circula con suficiente antelación por el carril más próximo a la salida y se entra lo antes posible en el carril de deceleración, si existe.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "77",
+        "cita": "los conductores deberán circular con suficiente antelación por el carril más próximo a la salida y penetrar lo antes posible en el carril de deceleración",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 77",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0099",
+      "tema": "cambio_sentido",
+      "subtema": "lugar_adecuado",
+      "materia": 1,
+      "enunciado": "Va a cambiar de sentido de la marcha. ¿Qué lugar debe elegir?",
+      "opciones": {
+        "a": "Cualquiera, siempre que lo señalice con el intermitente.",
+        "b": "Uno adecuado, en el que intercepte la vía el menor tiempo posible.",
+        "c": "Preferiblemente una curva, donde los demás circulan más despacio."
+      },
+      "correcta": "b",
+      "explicacion": "Quien va a cambiar de sentido debe elegir un lugar adecuado para interceptar la vía el menor tiempo posible, advertirlo con antelación y cerciorarse de que no pone en peligro ni obstaculiza a nadie.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "78.1",
+        "cita": "deberá elegir un lugar adecuado para efectuar la maniobra, de forma que se intercepte la vía el menor tiempo posible",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 78",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0100",
+      "tema": "cambio_sentido",
+      "subtema": "prohibiciones",
+      "materia": 1,
+      "enunciado": "Circula por un tramo afectado por esta señal. ¿Puede cambiar de sentido?",
+      "opciones": {
+        "a": "Sí, si no viene nadie.",
+        "b": "No, está prohibido.",
+        "c": "Sí, si hay dos carriles para cada sentido."
+      },
+      "correcta": "b",
+      "explicacion": "Se prohíbe el cambio de sentido en los pasos a nivel, en los túneles, pasos inferiores y tramos afectados por la señal «Túnel» (S-5), y en autopistas y autovías salvo en los lugares habilitados.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "79.1",
+        "cita": "en los pasos a nivel, en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 79",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-5.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-5: Túnel",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-5",
+        "descripcion": "Señal S-5 «Túnel» del catálogo oficial"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0101",
+      "tema": "cambio_sentido",
+      "subtema": "prohibiciones",
+      "materia": 1,
+      "enunciado": "Hay niebla densa y no puede comprobar que al cambiar de sentido no pondrá en peligro a nadie. ¿Puede hacer la maniobra?",
+      "opciones": {
+        "a": "Sí, con las luces antiniebla encendidas.",
+        "b": "Sí, si la hace muy despacio.",
+        "c": "No, porque no puede comprobar que no hay peligro."
+      },
+      "correcta": "c",
+      "explicacion": "Se prohíbe el cambio de sentido en toda situación que impida comprobar que la maniobra no pone en peligro ni obstaculiza a otros usuarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "79.1",
+        "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 79",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0102",
+      "tema": "marcha_atras",
+      "subtema": "cuando",
+      "materia": 1,
+      "enunciado": "En una calle se ha pasado el cruce por el que quería girar, a unos 10 metros. Podría seguir adelante y dar la vuelta más adelante. ¿Puede volver marcha atrás hasta el cruce?",
+      "opciones": {
+        "a": "Sí, porque no recorre más de 15 metros.",
+        "b": "No, porque puede seguir hacia delante o cambiar de dirección.",
+        "c": "Sí, si enciende la señal de emergencia."
+      },
+      "correcta": "b",
+      "explicacion": "La marcha atrás solo se permite cuando no es posible marchar hacia delante ni cambiar de dirección o sentido, y en las maniobras que la exijan; el límite de 15 metros es para completar una parada, un estacionamiento o una incorporación, sin invadir un cruce.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "80.1 y 80.2",
+        "cita": "Se prohíbe circular hacia atrás, salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 80",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0103",
+      "tema": "marcha_atras",
+      "subtema": "ejecucion",
+      "materia": 1,
+      "enunciado": "¿Cómo debe hacerse la maniobra de marcha atrás?",
+      "opciones": {
+        "a": "Con rapidez, para ocupar la vía el menor tiempo posible.",
+        "b": "Lentamente, tras advertirlo y comprobar que no hay peligro, incluso bajándose.",
+        "c": "Con la señal de emergencia, sin necesidad de mirar si hay sensores."
+      },
+      "correcta": "b",
+      "explicacion": "La marcha atrás se hace lentamente, después de advertirla y de cerciorarse, incluso apeándose o siguiendo las indicaciones de otra persona, de que no supone peligro para los demás.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "81.1",
+        "cita": "La maniobra de marcha hacia atrás deberá efectuarse lentamente, después de haberlo advertido con las señales preceptivas y de haberse cerciorado, incluso apeándose",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 81",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0104",
+      "tema": "marcha_atras",
+      "subtema": "ejecucion",
+      "materia": 1,
+      "enunciado": "Mientras hace marcha atrás oye avisos de una persona que está detrás. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Terminar la maniobra cuanto antes.",
+        "b": "Detenerse con toda rapidez y, si es preciso, desistir de la maniobra.",
+        "c": "Seguir despacio, avisando con el claxon."
+      },
+      "correcta": "b",
+      "explicacion": "Durante la marcha atrás, el conductor debe detenerse con toda rapidez si oye avisos o advierte la proximidad de un vehículo, persona o animal, y desistir de la maniobra si es preciso.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "81.3",
+        "cita": "detendrá el vehículo con toda rapidez si oyera avisos indicadores o se apercibiera de la proximidad de otro vehículo o de una persona",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 81",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0105",
+      "tema": "adelantamiento",
+      "subtema": "por_la_derecha",
+      "materia": 1,
+      "enunciado": "En una calle de sentido único, el vehículo de delante indica claramente que va a parar en el lado izquierdo y queda espacio suficiente. ¿Por dónde debe adelantarlo?",
+      "opciones": {
+        "a": "Por la izquierda, como norma general.",
+        "b": "No puede adelantarlo; debe esperar.",
+        "c": "Por la derecha, con las máximas precauciones."
+      },
+      "correcta": "c",
+      "explicacion": "Se adelanta por la derecha, con las máximas precauciones y si hay espacio, al vehículo que indica claramente que va a girar a la izquierda o a parar en ese lado, y a los tranvías que marchan por la zona central.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "82.2",
+        "cita": "esté indicando claramente su propósito de cambiar de dirección a la izquierda o parar en ese lado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 82",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0106",
+      "tema": "adelantamiento",
+      "subtema": "varios_carriles",
+      "materia": 1,
+      "enunciado": "En una autovía con tres carriles en su sentido acaba de adelantar y enseguida va a adelantar a otro vehículo. ¿Puede seguir en el carril que ha utilizado?",
+      "opciones": {
+        "a": "Sí, si no molesta indebidamente a los que vienen detrás más rápido.",
+        "b": "No, debe volver siempre al carril derecho entre adelantamientos.",
+        "c": "Sí, en cualquier caso, mientras siga adelantando."
+      },
+      "correcta": "a",
+      "explicacion": "En calzadas con al menos dos carriles en el mismo sentido, quien va a hacer un nuevo adelantamiento puede permanecer en el carril usado para el anterior si no molesta indebidamente a los que le siguen más velozmente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "83.1",
+        "cita": "podrá permanecer en el carril que haya utilizado para el anterior, a condición de cerciorarse de que puede hacerlo sin molestia indebida",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 83",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0107",
+      "tema": "adelantamiento",
+      "subtema": "circulacion_densa",
+      "materia": 1,
+      "enunciado": "La circulación es tan densa que los vehículos ocupan todos los carriles y van a la velocidad del que les precede. ¿Para qué puede cambiar de carril?",
+      "opciones": {
+        "a": "Para pasar al carril que avance más rápido.",
+        "b": "Para cualquier maniobra, siempre que la señalice.",
+        "c": "Solo para prepararse a girar, salir de la calzada o tomar una dirección."
+      },
+      "correcta": "c",
+      "explicacion": "Con circulación tan densa que ocupa toda la calzada, ningún conductor debe cambiar de carril para adelantar ni para otra maniobra que no sea prepararse a girar, salir de la calzada o tomar determinada dirección.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "83.2",
+        "cita": "ningún conductor deberá cambiar de carril para adelantar ni para efectuar cualquier otra maniobra que no sea prepararse a girar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 83",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0108",
+      "tema": "adelantamiento",
+      "subtema": "antes_de_adelantar",
+      "materia": 1,
+      "enunciado": "Quiere adelantar a una fila de varios vehículos en una carretera de doble sentido. ¿Qué debe tener claro antes de hacerlo?",
+      "opciones": {
+        "a": "Que la fila no tiene más de cinco vehículos.",
+        "b": "Que podrá volver a la derecha sin peligro si aparece alguien de frente.",
+        "c": "Que lleva encendidas las luces de largo alcance."
+      },
+      "correcta": "b",
+      "explicacion": "Ningún conductor debe adelantar a varios vehículos sin la total seguridad de que, si se presenta otro en sentido contrario, podrá desviarse a la derecha sin perjudicar ni poner en peligro a los adelantados.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "84.1",
+        "cita": "Ningún conductor deberá de adelantar a varios vehículos si no tiene la total seguridad de que",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 84",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0109",
+      "tema": "adelantamiento",
+      "subtema": "tres_carriles",
+      "materia": 1,
+      "enunciado": "En una calzada de doble sentido con tres carriles separados por líneas discontinuas, ¿cuándo puede adelantar por el carril central?",
+      "opciones": {
+        "a": "Siempre, porque el carril central es de su sentido.",
+        "b": "Nunca, porque el carril central solo sirve para girar.",
+        "c": "Cuando los del sentido contrario no lo hayan ocupado para adelantar."
+      },
+      "correcta": "c",
+      "explicacion": "En calzadas de doble sentido con tres carriles separados por marcas discontinuas, solo se puede adelantar cuando los conductores del sentido contrario no han ocupado el carril central para adelantar a su vez.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "84.1",
+        "cita": "el adelantamiento solamente se podrá efectuar cuando los conductores que circulen en sentido contrario no hayan ocupado el carril central",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 84",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0110",
+      "tema": "adelantamiento",
+      "subtema": "preferencia_precedente",
+      "materia": 1,
+      "enunciado": "El vehículo de delante indicó que iba a desplazarse a la izquierda, pero ha pasado un tiempo prudencial y no lo hace. ¿Puede adelantarlo?",
+      "opciones": {
+        "a": "No, debe esperar a que haga su maniobra.",
+        "b": "Sí, advirtiéndoselo antes con señal acústica u óptica.",
+        "c": "Sí, por la derecha y sin necesidad de avisar."
+      },
+      "correcta": "b",
+      "explicacion": "Si el vehículo de delante ha indicado que va a desplazarse hacia el mismo lado y, tras un tiempo prudencial, no ejerce su derecho, se puede iniciar el adelantamiento advirtiéndoselo antes con señal acústica u óptica.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "84.2",
+        "cita": "si después de un tiempo prudencial el conductor del citado vehículo no ejerciera su derecho prioritario, se podrá iniciar la maniobra de adelantamiento",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 84",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0111",
+      "tema": "adelantamiento",
+      "subtema": "antes_de_adelantar",
+      "materia": 1,
+      "enunciado": "Antes de adelantar, además de comprobar que hay espacio libre en el carril que va a usar, ¿de qué debe asegurarse?",
+      "opciones": {
+        "a": "De que el vehículo adelantado va a menos de 60 km/h.",
+        "b": "De que lleva encendidas las luces de cruce.",
+        "c": "De que tendrá espacio suficiente para volver a su carril al terminar."
+      },
+      "correcta": "c",
+      "explicacion": "Antes de adelantar, el conductor debe asegurarse de que nadie que le sigue ha iniciado la maniobra de adelantarle y de que dispone de espacio suficiente para reintegrarse a su carril al terminar.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "84.3",
+        "cita": "y de que dispone de espacio suficiente para reintegrarse a su carril cuando termine el adelantamiento",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 84",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0112",
+      "tema": "adelantamiento",
+      "subtema": "ciclistas_grupo",
+      "materia": 8,
+      "enunciado": "Unos ciclistas circulan en grupo y uno de ellos pasa a otro del mismo grupo. ¿Se considera un adelantamiento a efectos de las normas previas a la maniobra?",
+      "opciones": {
+        "a": "Sí, y debe señalizarlo con el brazo.",
+        "b": "No.",
+        "c": "Sí, si lo hace por la izquierda."
+      },
+      "correcta": "b",
+      "explicacion": "No se consideran adelantamientos los producidos entre ciclistas que circulan en grupo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "84.5",
+        "cita": "no se consideran adelantamientos los producidos entre ciclistas que circulen en grupo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 84",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0113",
+      "tema": "adelantamiento",
+      "subtema": "ejecucion",
+      "materia": 1,
+      "enunciado": "Durante un adelantamiento, ¿a qué velocidad debe circular respecto al vehículo al que adelanta?",
+      "opciones": {
+        "a": "A la misma velocidad, para ir en paralelo con seguridad.",
+        "b": "A una velocidad ligeramente inferior.",
+        "c": "A una velocidad notoriamente superior."
+      },
+      "correcta": "c",
+      "explicacion": "Durante el adelantamiento, el conductor debe llevar una velocidad notoriamente superior a la del vehículo adelantado y dejar una separación lateral suficiente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.1",
+        "cita": "deberá llevar su vehículo a una velocidad notoriamente superior a la del que pretende adelantar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 85",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0114",
+      "tema": "adelantamiento",
+      "subtema": "desistir",
+      "materia": 1,
+      "enunciado": "Ya ha empezado a adelantar y surgen circunstancias que hacen difícil terminar sin riesgo. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Reducir rápidamente la marcha, volver a su carril y advertirlo a quienes le siguen.",
+        "b": "Acelerar al máximo para terminar cuanto antes.",
+        "c": "Seguir por el carril contrario hasta que encuentre un hueco."
+      },
+      "correcta": "a",
+      "explicacion": "Si una vez iniciado el adelantamiento surgen circunstancias que pueden hacer difícil terminarlo sin riesgos, hay que reducir rápidamente la marcha, regresar al propio carril y advertirlo a los que siguen.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.2",
+        "cita": "reducirá rápidamente su marcha, regresará de nuevo a su carril y lo advertirá a los que le siguen",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 85",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0115",
+      "tema": "adelantamiento",
+      "subtema": "reintegrarse",
+      "materia": 1,
+      "enunciado": "Acaba de adelantar a otro vehículo. ¿Cómo debe volver a su carril?",
+      "opciones": {
+        "a": "De inmediato, aunque el adelantado tenga que frenar.",
+        "b": "Tan pronto como pueda y de forma gradual, avisándolo.",
+        "c": "Cuando quiera, porque puede seguir por el otro carril."
+      },
+      "correcta": "b",
+      "explicacion": "Tras adelantar, hay que reintegrarse al propio carril tan pronto como sea posible y de modo gradual, sin obligar a otros a modificar su trayectoria o velocidad, y advertirlo con las señales preceptivas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.3",
+        "cita": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 85",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0116",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "materia": 8,
+      "enunciado": "Va a adelantar a una persona que circula en un patinete eléctrico (vehículo de movilidad personal) por una calzada con un carril por sentido. ¿Qué separación lateral mínima debe dejar?",
+      "opciones": {
+        "a": "1 metro.",
+        "b": "0,5 metros.",
+        "c": "1,5 metros."
+      },
+      "correcta": "c",
+      "explicacion": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal o ciclistas hay que ocupar parte o todo el carril contiguo y guardar al menos 1,5 metros de anchura de seguridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "cita": "Cuando se adelante a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o conjunto de ciclistas",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 85",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0117",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "materia": 8,
+      "enunciado": "Va a adelantar a un ciclista y, por el arcén del sentido contrario, se acerca de frente otro ciclista. Si la maniobra le pone en peligro, ¿puede adelantar?",
+      "opciones": {
+        "a": "Sí, porque el ciclista de frente no va por la calzada.",
+        "b": "No, aunque el ciclista de frente circule por el arcén.",
+        "c": "Sí, si le avisa antes con el claxon."
+      },
+      "correcta": "b",
+      "explicacion": "Al adelantar a ciclistas y otros usuarios vulnerables queda prohibido poner en peligro o entorpecer a quienes circulan en sentido contrario, incluso si circulan por el arcén.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "cita": "Queda prohibido adelantar poniendo en peligro o entorpeciendo a quienes circulen en sentido contrario, incluso si circulan por el arcén.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 85",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0118",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "materia": 8,
+      "enunciado": "Fuera de poblado va a adelantar a un ciclista. ¿Durante qué parte de la maniobra debe llevar la velocidad reducida en al menos 20 km/h respecto al límite de la vía?",
+      "opciones": {
+        "a": "Solo mientras vuelve a su carril.",
+        "b": "Solo cuando el ciclista circula por la calzada y no por el arcén.",
+        "c": "Antes de iniciarla y durante toda su ejecución."
+      },
+      "correcta": "c",
+      "explicacion": "Fuera de poblado, quien adelanta a ciclistas y otros usuarios vulnerables debe reducir la velocidad al menos 20 km/h respecto al límite de la vía antes de iniciar la maniobra y durante toda su ejecución.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "cita": "antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 85",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0119",
+      "tema": "adelantamiento",
+      "subtema": "motocicletas",
+      "materia": 8,
+      "enunciado": "Fuera de poblado conduce una motocicleta y va a adelantar a un turismo. ¿Qué espacio lateral mínimo debe dejar con él?",
+      "opciones": {
+        "a": "1 metro.",
+        "b": "0,50 metros.",
+        "c": "1,50 metros."
+      },
+      "correcta": "c",
+      "explicacion": "El conductor de un vehículo de dos ruedas que adelanta fuera de poblado debe dejar un espacio no inferior a 1,50 metros con las partes más salientes del vehículo adelantado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.5",
+        "cita": "lo hará de forma que entre aquél y las partes más salientes del vehículo que adelanta quede un espacio no inferior a 1,50 metros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 85",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0120",
+      "tema": "adelantamiento",
+      "subtema": "vehiculo_adelantado",
+      "materia": 1,
+      "enunciado": "Va a girar a la izquierda y advierte que el vehículo que le sigue quiere adelantarle. ¿Cómo debe colocarse?",
+      "opciones": {
+        "a": "Ceñirse a la izquierda todo lo posible, sin estorbar a los que vienen de frente.",
+        "b": "Ceñirse al borde derecho para dejarle pasar por la izquierda.",
+        "c": "Detenerse en el centro de la calzada hasta que le adelante."
+      },
+      "correcta": "a",
+      "explicacion": "Quien va a ser adelantado se ciñe al borde derecho, salvo si va a girar o parar a la izquierda, en cuyo caso se ciñe a la izquierda todo lo posible sin interferir a los vehículos que circulan en sentido contrario.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "86.1",
+        "cita": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 86",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0121",
+      "tema": "adelantamiento",
+      "subtema": "vehiculo_adelantado",
+      "materia": 1,
+      "enunciado": "Le está adelantando un turismo que va algo más rápido que usted. ¿Puede aumentar la velocidad?",
+      "opciones": {
+        "a": "Sí, si no supera el límite de la vía.",
+        "b": "Sí, si el que adelanta va despacio.",
+        "c": "No, está prohibido."
+      },
+      "correcta": "c",
+      "explicacion": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o hacer maniobras que impidan o dificulten el adelantamiento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "86.2",
+        "cita": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 86",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0122",
+      "tema": "adelantamiento",
+      "subtema": "vehiculo_adelantado",
+      "materia": 1,
+      "enunciado": "Le están adelantando y el que adelanta desiste de forma clara, reduciendo su velocidad. ¿Qué debe hacer usted?",
+      "opciones": {
+        "a": "Facilitarle la vuelta a su carril, sin frenar si eso crea peligro.",
+        "b": "Frenar bruscamente en todo caso.",
+        "c": "Acelerar para que no vuelva delante de usted."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando el adelantante da muestras inequívocas de desistir reduciendo su velocidad, el adelantado no está obligado a disminuir la suya si con ello pone en peligro la circulación, pero sí debe facilitarle la vuelta a su carril.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "86.2",
+        "cita": "aunque sí estará obligado a facilitar al conductor adelantante la vuelta a su carril",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 86",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0123",
+      "tema": "adelantamiento",
+      "subtema": "vehiculo_adelantado",
+      "materia": 1,
+      "enunciado": "Conduce un vehículo pesado, no puede ceñirse del todo a la derecha y el que le sigue puede adelantarle con seguridad. ¿Cómo puede indicárselo con el brazo?",
+      "opciones": {
+        "a": "Extendiéndolo horizontalmente y moviéndolo de atrás adelante, con el dorso de la mano hacia atrás.",
+        "b": "Levantándolo verticalmente con la palma de la mano hacia delante.",
+        "c": "Moviéndolo de arriba abajo con movimientos cortos y rápidos."
+      },
+      "correcta": "a",
+      "explicacion": "El vehículo pesado que va a ser adelantado indica que es posible hacerlo extendiendo el brazo horizontalmente y moviéndolo repetidas veces de atrás adelante con el dorso de la mano hacia atrás, o con el intermitente derecho.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "86.1",
+        "cita": "extendiendo el brazo horizontalmente y moviéndolo repetidas veces de atrás adelante, con el dorso de la mano hacia atrás",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 86",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0124",
+      "tema": "adelantamiento",
+      "subtema": "prohibiciones",
+      "materia": 1,
+      "enunciado": "Un camión que va delante de usted está adelantando y su tamaño le impide ver la parte delantera de la vía. ¿Puede adelantar detrás de él?",
+      "opciones": {
+        "a": "Sí, aprovechando el hueco que abre el camión.",
+        "b": "Sí, si el camión le hace una señal.",
+        "c": "No, está prohibido."
+      },
+      "correcta": "c",
+      "explicacion": "Se prohíbe adelantar detrás de un vehículo que hace la misma maniobra cuando sus dimensiones impiden ver la parte delantera de la vía al que le sigue.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.a",
+        "cita": "se prohíbe, en concreto, el adelantamiento detrás de un vehículo que realiza la misma maniobra",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 87",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0125",
+      "tema": "adelantamiento",
+      "subtema": "prohibiciones",
+      "materia": 1,
+      "enunciado": "¿Puede adelantar en las proximidades de un paso a nivel?",
+      "opciones": {
+        "a": "Sí, si el paso a nivel tiene barreras.",
+        "b": "Sí, si no se acerca ningún tren.",
+        "c": "No, está prohibido."
+      },
+      "correcta": "c",
+      "explicacion": "Se prohíbe adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.b",
+        "cita": "en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 87",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0126",
+      "tema": "adelantamiento",
+      "subtema": "prohibiciones",
+      "materia": 1,
+      "enunciado": "En una glorieta con dos carriles, ¿está prohibido adelantar por ser una intersección?",
+      "opciones": {
+        "a": "No, en las glorietas no rige esa prohibición.",
+        "b": "Sí, en las glorietas nunca se puede adelantar.",
+        "c": "Solo se puede adelantar a vehículos de dos ruedas."
+      },
+      "correcta": "a",
+      "explicacion": "La prohibición de adelantar en las intersecciones y sus proximidades no se aplica en las plazas de circulación giratoria o glorietas, entre otras excepciones.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.c.1º",
+        "cita": "Se trate de una plaza de circulación giratoria o glorieta.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 87",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0127",
+      "tema": "adelantamiento",
+      "subtema": "prohibiciones",
+      "materia": 1,
+      "enunciado": "Se acerca a una intersección y delante de usted circula despacio una motocicleta. ¿La prohibición de adelantar en intersecciones le impide adelantarla?",
+      "opciones": {
+        "a": "Sí, en las intersecciones nunca se puede adelantar.",
+        "b": "Solo si la motocicleta indica que va a girar a la derecha.",
+        "c": "No, porque se exceptúa el adelantamiento a vehículos de dos ruedas."
+      },
+      "correcta": "c",
+      "explicacion": "La prohibición de adelantar en intersecciones no rige para el adelantamiento a vehículos de dos ruedas, aunque deben cumplirse las demás normas del adelantamiento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.c.4º",
+        "cita": "El adelantamiento se realice a vehículos de dos ruedas",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 87",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0128",
+      "tema": "adelantamiento",
+      "subtema": "prohibiciones",
+      "materia": 1,
+      "enunciado": "Circula por una vía que tiene prioridad en la próxima intersección y hay señal expresa que lo indica. ¿Puede adelantar en esa intersección?",
+      "opciones": {
+        "a": "No, en las intersecciones está siempre prohibido.",
+        "b": "Sí, si se cumplen las demás normas del adelantamiento.",
+        "c": "Solo por la derecha."
+      },
+      "correcta": "b",
+      "explicacion": "Entre las excepciones a la prohibición de adelantar en intersecciones está que la calzada por la que se adelanta goce de prioridad en la intersección y haya señal expresa que lo indique.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.c.3º",
+        "cita": "La calzada en que se realice goce de prioridad en la intersección y haya señal expresa que lo indique.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 87",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0129",
+      "tema": "adelantamiento",
+      "subtema": "tuneles",
+      "materia": 1,
+      "enunciado": "Entra en un túnel señalizado con esta señal que tiene dos carriles para su sentido. Si no lo prohíbe otra señal o marca, ¿puede adelantar?",
+      "opciones": {
+        "a": "No, en los túneles está siempre prohibido adelantar.",
+        "b": "Solo a vehículos de dos ruedas.",
+        "c": "Sí, cumpliendo las normas del adelantamiento."
+      },
+      "correcta": "c",
+      "explicacion": "En túneles, pasos inferiores y tramos con la señal «Túnel» (S-5) solo se prohíbe adelantar cuando se dispone de un único carril para el propio sentido de circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.d",
+        "cita": "en los que sólo se disponga de un carril para el sentido de circulación del vehículo que pretende adelantar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 87",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-5.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-5: Túnel",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-5",
+        "descripcion": "Señal S-5 «Túnel» del catálogo oficial"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0130",
+      "tema": "adelantamiento",
+      "subtema": "prohibiciones",
+      "materia": 1,
+      "enunciado": "Acaba de pasar esta señal y llega a un cambio de rasante sin visibilidad, en una calzada sin sentidos delimitados. ¿Puede adelantar?",
+      "opciones": {
+        "a": "No, siguen vigentes las prohibiciones generales de adelantar.",
+        "b": "Sí, porque la señal permite adelantar en cualquier lugar.",
+        "c": "Solo a camiones y autobuses."
+      },
+      "correcta": "a",
+      "explicacion": "La señal de fin de prohibición de adelantamiento solo deja sin efecto la señal anterior de adelantamiento prohibido: sigue prohibido adelantar en curvas y cambios de rasante de visibilidad reducida.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "87.1.a",
+        "cita": "En las curvas y cambios de rasante de visibilidad reducida y, en general, en todo lugar o circunstancia en que la visibilidad disponible no sea suficiente",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 87",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-502.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-502: Fin de la prohibición de adelantamiento",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-502",
+        "descripcion": "Señal R-502 «Fin de la prohibición de adelantamiento» del catálogo oficial"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0131",
+      "tema": "velocidad",
+      "subtema": "fin_limitacion",
+      "materia": 1,
+      "enunciado": "Circula por un tramo con una señal de velocidad máxima de 60 km/h y después encuentra esta señal. ¿Sigue vigente esa limitación?",
+      "opciones": {
+        "a": "Sí, hasta la próxima intersección.",
+        "b": "No, desde esa señal dejan de aplicarse las prohibiciones específicas anteriores.",
+        "c": "Sí, porque solo pone fin a la prohibición de adelantar."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-500, de fin de prohibiciones, indica el lugar desde el que dejan de aplicarse todas las prohibiciones específicas para vehículos en movimiento indicadas por señales anteriores, incluida la de velocidad máxima.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, R-500",
+        "cita": "Señala el lugar desde el que todas las prohibiciones específicas indicadas por señales anteriores de prohibición para vehículos en movimiento dejan de tener aplicación.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo I (catálogo de señales)",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-500.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-500: Fin de prohibiciones",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-500",
+        "descripcion": "Señal R-500 «Fin de prohibiciones» del catálogo oficial"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0132",
+      "tema": "adelantamiento",
+      "subtema": "vehiculos_inmovilizados",
+      "materia": 1,
+      "enunciado": "En una carretera limitada a 100 km/h, un vehículo de los agentes de tráfico está detenido regulando la circulación y ocupa parte de su carril. ¿A qué velocidad máxima puede rebasarlo?",
+      "opciones": {
+        "a": "100 km/h.",
+        "b": "80 km/h.",
+        "c": "90 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Al rebasar un vehículo inmovilizado que ocupa el carril (por avería, accidente, servicio de urgencia o auxilio, mantenimiento o regulación del tráfico) hay que dejar al menos 1,5 metros y reducir la velocidad al menos 20 km/h respecto al límite de la vía.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "88.1",
+        "cita": "ocupe la calzada en el carril del sentido de la marcha, los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros aunque para ello hayan de ocupar la parte de la calzada reservada al sentido contrario, y reducir la velocidad en al menos 20 km/h",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 88",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0133",
+      "tema": "adelantamiento",
+      "subtema": "vehiculos_inmovilizados",
+      "materia": 1,
+      "enunciado": "En un tramo con prohibición de adelantar, el vehículo de delante está parado por una retención del tráfico. ¿Puede rebasarlo ocupando el sentido contrario?",
+      "opciones": {
+        "a": "Sí, si se cerciora de que no hay peligro.",
+        "b": "Sí, si lleva parado más de dos minutos.",
+        "c": "No, porque está detenido por necesidades del tráfico."
+      },
+      "correcta": "c",
+      "explicacion": "En un tramo con prohibición de adelantar se puede rebasar, ocupando el sentido contrario y sin peligro, a un vehículo inmovilizado que ocupa el carril, salvo que la inmovilización venga impuesta por necesidades del tráfico.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "88.2",
+        "cita": "salvo que la inmovilización venga impuesta por necesidades del tráfico",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 88",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1a-0134",
+      "tema": "adelantamiento",
+      "subtema": "obstaculos",
+      "materia": 1,
+      "enunciado": "En un tramo en el que está prohibido adelantar encuentra en su carril unas piedras que le obligan a ocupar el sentido contrario. ¿Puede rebasarlas?",
+      "opciones": {
+        "a": "No, debe esperar a que retiren el obstáculo.",
+        "b": "Sí, tras cerciorarse de que puede hacerlo sin peligro.",
+        "c": "Sí, sin más precauciones, porque no es un vehículo."
+      },
+      "correcta": "b",
+      "explicacion": "Quien encuentra en su camino un obstáculo que le obliga a ocupar el espacio del sentido contrario puede rebasarlo tras cerciorarse de que puede hacerlo sin peligro, también en tramos con prohibición de adelantar.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "89.1",
+        "cita": "todo vehículo que encuentre cualquier obstáculo en su camino que le obligue a ocupar el espacio dispuesto para el sentido contrario de su marcha podrá rebasarlo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 89",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    }
+  ]
+}

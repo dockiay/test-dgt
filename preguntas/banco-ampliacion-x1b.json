@@ -1,0 +1,4320 @@
+{
+  "version": 1,
+  "preguntas": [
+    {
+      "id": "x1b-0001",
+      "tema": "parada_estacionamiento",
+      "subtema": "lugares_obstaculo_grave",
+      "materia": 1,
+      "enunciado": "¿En cuál de estos casos se considera que un estacionamiento obstaculiza gravemente la circulación?",
+      "opciones": {
+        "a": "Cuando el vehículo queda a 4 metros de una marca longitudinal continua.",
+        "b": "Cuando impide utilizar con normalidad un paso rebajado para personas con discapacidad física.",
+        "c": "Cuando se estaciona en batería en un lugar donde las marcas viales lo indican."
+      },
+      "correcta": "b",
+      "explicacion": "Obstaculizar la utilización normal de los pasos rebajados para personas con discapacidad física es uno de los supuestos de parada o estacionamiento que obstaculiza gravemente la circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "91.2.d",
+        "cita": "Cuando se obstaculice la utilización normal de los pasos rebajados para disminuidos físicos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 91",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0002",
+      "tema": "parada_estacionamiento",
+      "subtema": "lugares_obstaculo_grave",
+      "materia": 1,
+      "enunciado": "Deja su turismo estacionado sobre una isleta que canaliza el tráfico de una intersección. ¿Cómo se considera ese estacionamiento?",
+      "opciones": {
+        "a": "Un estacionamiento correcto, porque no ocupa ningún carril de circulación.",
+        "b": "Un estacionamiento permitido, si no dura más de dos minutos.",
+        "c": "Un estacionamiento en lugar peligroso o que obstaculiza gravemente la circulación."
+      },
+      "correcta": "c",
+      "explicacion": "Las paradas o estacionamientos en medianas, separadores, isletas u otros elementos de canalización del tráfico se consideran efectuados en lugar peligroso o que obstaculiza gravemente la circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "91.2.e",
+        "cita": "Cuando se efectúe en las medianas, separadores, isletas u otros elementos de canalización del tráfico.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 91",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0003",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 1,
+      "enunciado": "Una parada o un estacionamiento en un lugar peligroso o que obstaculiza gravemente la circulación, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Leve.",
+        "c": "Muy grave."
+      },
+      "correcta": "a",
+      "explicacion": "Las paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación son infracciones graves.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "91.3",
+        "cita": "Los supuestos de paradas o estacionamientos en lugares peligrosos o que obstaculicen gravemente la circulación tienen la consideración de infracciones graves",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 91",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0004",
+      "tema": "parada_estacionamiento",
+      "subtema": "colocacion",
+      "materia": 1,
+      "enunciado": "Como norma general, ¿cómo debe colocar el vehículo al parar o estacionar?",
+      "opciones": {
+        "a": "En batería, perpendicular al bordillo.",
+        "b": "Paralelamente al borde de la calzada.",
+        "c": "En semibatería, formando un ángulo con el bordillo."
+      },
+      "correcta": "b",
+      "explicacion": "La parada y el estacionamiento se realizan, como norma general, con el vehículo paralelo al borde de la calzada; otra colocación solo se permite si las características de la vía u otras circunstancias lo aconsejan.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.1",
+        "cita": "La parada y el estacionamiento se realizarán situando el vehículo paralelamente al borde de la calzada.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 92",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0005",
+      "tema": "parada_estacionamiento",
+      "subtema": "colocacion",
+      "materia": 1,
+      "enunciado": "Va a estacionar en una calle donde queda un hueco amplio entre otros coches. ¿Cómo debe hacerlo?",
+      "opciones": {
+        "a": "Dejando siempre libres como mínimo dos metros por delante y dos por detrás.",
+        "b": "En el centro del hueco, para facilitar la salida de los demás vehículos.",
+        "c": "De forma que permita la mejor utilización del restante espacio disponible."
+      },
+      "correcta": "c",
+      "explicacion": "Todo conductor que para o estaciona debe hacerlo de forma que permita la mejor utilización del espacio que queda disponible.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.2",
+        "cita": "deberá hacerlo de forma que permita la mejor utilización del restante espacio disponible",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 92",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0006",
+      "tema": "parada_estacionamiento",
+      "subtema": "autocaravanas",
+      "materia": 13,
+      "enunciado": "Ha estacionado su autocaravana en una calle. ¿Puede desplegar el toldo lateral y sacar mesa y sillas junto al vehículo?",
+      "opciones": {
+        "a": "No, porque no puede extender elementos que desborden el perímetro del vehículo.",
+        "b": "Sí, siempre que no ocupe más de un metro de acera.",
+        "c": "Sí, durante el día, retirándolo antes de la puesta del sol."
+      },
+      "correcta": "a",
+      "explicacion": "El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse sin extender elementos propios que desborden el perímetro del vehículo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.4.a",
+        "cita": "Sin extender elementos propios que desborden el perímetro del vehículo, considerando como tal la proyección en planta del mismo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 92",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0007",
+      "tema": "parada_estacionamiento",
+      "subtema": "autocaravanas",
+      "materia": 13,
+      "enunciado": "Al estacionar una autocaravana en la vía pública, ¿sobre qué puede apoyarse el vehículo?",
+      "opciones": {
+        "a": "Sobre los neumáticos y sobre patas estabilizadoras desplegadas.",
+        "b": "Solo sobre los neumáticos, con posibilidad de calzos o cuñas de seguridad.",
+        "c": "Sobre gatos o soportes, para nivelarla, siempre que no ocupe la acera."
+      },
+      "correcta": "b",
+      "explicacion": "Una autocaravana estacionada debe descansar solo sobre los neumáticos, aunque puede utilizar calzos o cuñas de seguridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.4.b",
+        "cita": "Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 92",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0008",
+      "tema": "parada_estacionamiento",
+      "subtema": "lugares_prohibidos",
+      "materia": 1,
+      "enunciado": "Dentro de un túnel, un pasajero le pide que pare un momento para bajarse. ¿Puede hacerlo?",
+      "opciones": {
+        "a": "Sí, si enciende la señal de emergencia.",
+        "b": "Sí, si la parada dura menos de dos minutos.",
+        "c": "No, está prohibido parar en los túneles."
+      },
+      "correcta": "c",
+      "explicacion": "Está prohibido parar en los túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel», además de en curvas y cambios de rasante de visibilidad reducida.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "94.1.a",
+        "cita": "en sus proximidades y en los túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel».",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 94",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0009",
+      "tema": "parada_estacionamiento",
+      "subtema": "lugares_prohibidos",
+      "materia": 1,
+      "enunciado": "¿Puede detenerse un momento sobre los raíles del tranvía para dejar a un pasajero?",
+      "opciones": {
+        "a": "No, está prohibido parar sobre los raíles o tan cerca que entorpezca al tranvía.",
+        "b": "Sí, si no se ve ningún tranvía acercándose en ese momento.",
+        "c": "Sí, si el pasajero baja rápidamente por el lado de la acera."
+      },
+      "correcta": "a",
+      "explicacion": "Está prohibido parar sobre los raíles de tranvías o tan cerca de ellos que pueda entorpecerse su circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "94.1.e",
+        "cita": "Sobre los raíles de tranvías o tan cerca de ellos que pueda entorpecerse su circulación.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 94",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0010",
+      "tema": "parada_estacionamiento",
+      "subtema": "lugares_prohibidos",
+      "materia": 1,
+      "enunciado": "Si al parar su vehículo tapa una señal vertical a los conductores que vienen detrás, ¿es correcto?",
+      "opciones": {
+        "a": "Sí, porque la parada es breve y no constituye estacionamiento.",
+        "b": "No, está prohibido parar donde se impida la visibilidad de la señalización a los usuarios a quienes afecte.",
+        "c": "Sí, si mantiene encendidas las luces de posición."
+      },
+      "correcta": "b",
+      "explicacion": "Está prohibido parar en los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes afecte u obligue a hacer maniobras.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "94.1.f",
+        "cita": "En los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes les afecte u obligue a hacer maniobras.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 94",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0011",
+      "tema": "parada_estacionamiento",
+      "subtema": "estacionamiento_limitado",
+      "materia": 1,
+      "enunciado": "En una zona de estacionamiento con limitación horaria, estaciona sin colocar el distintivo (tique) que lo autoriza. ¿Es correcto?",
+      "opciones": {
+        "a": "Sí, si no supera el tiempo máximo permitido por la ordenanza.",
+        "b": "Sí, si permanece dentro del vehículo.",
+        "c": "No, está prohibido estacionar allí sin el distintivo que lo autoriza."
+      },
+      "correcta": "c",
+      "explicacion": "En los lugares de estacionamiento con limitación horaria está prohibido estacionar sin colocar el distintivo que lo autoriza o superando el tiempo máximo permitido por la ordenanza.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "94.2.b",
+        "cita": "sin colocar el distintivo que lo autoriza o cuando, colocado el distintivo, se mantenga estacionado el vehículo en exceso sobre el tiempo máximo permitido",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 94",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0012",
+      "tema": "parada_estacionamiento",
+      "subtema": "lugares_prohibidos",
+      "materia": 1,
+      "enunciado": "¿Puede estacionar un turismo particular en una zona señalizada para carga y descarga?",
+      "opciones": {
+        "a": "No, está prohibido estacionar en las zonas señalizadas para carga y descarga.",
+        "b": "Sí, siempre que deje una nota con su teléfono.",
+        "c": "Sí, si el estacionamiento no supera los 30 minutos."
+      },
+      "correcta": "a",
+      "explicacion": "Estacionar en zonas señalizadas para carga y descarga está prohibido.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "94.2.c",
+        "cita": "En zonas señalizadas para carga y descarga.\nd) En zonas señalizadas para uso exclusivo de minusválidos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 94",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0013",
+      "tema": "parada_estacionamiento",
+      "subtema": "lugares_prohibidos",
+      "materia": 1,
+      "enunciado": "¿Puede estacionar su turismo con dos ruedas sobre la acera si deja paso suficiente a los peatones?",
+      "opciones": {
+        "a": "Sí, si el espacio libre para los peatones es de al menos un metro.",
+        "b": "No, está prohibido estacionar sobre las aceras y zonas destinadas al paso de peatones.",
+        "c": "Sí, en calles estrechas donde no cabe en la calzada."
+      },
+      "correcta": "b",
+      "explicacion": "Está prohibido estacionar sobre las aceras, paseos y demás zonas destinadas al paso de peatones.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "94.2.e",
+        "cita": "Sobre las aceras, paseos y demás zonas destinadas al paso de peatones.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 94",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0014",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 1,
+      "enunciado": "Parar el vehículo en un paso a nivel, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "No es infracción si el conductor permanece en el vehículo.",
+        "c": "Grave."
+      },
+      "correcta": "c",
+      "explicacion": "Las paradas o estacionamientos en los pasos a nivel y en los carriles destinados al transporte público urbano son infracciones graves.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "94.3",
+        "cita": "en los pasos a nivel y en los carriles destinados al uso del transporte público urbano tendrán la consideración de infracciones graves",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 94",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0015",
+      "tema": "parada_estacionamiento",
+      "subtema": "ordenanzas",
+      "materia": 1,
+      "enunciado": "En una zona de estacionamiento limitado, ¿en qué caso puede la ordenanza municipal prever la retirada o inmovilización del vehículo?",
+      "opciones": {
+        "a": "Cuando no tenga título que autorice el estacionamiento o rebase el triple del tiempo abonado.",
+        "b": "Solo cuando rebase el doble del tiempo abonado.",
+        "c": "Solo cuando el vehículo lleve más de 24 horas estacionado."
+      },
+      "correcta": "a",
+      "explicacion": "Los Ayuntamientos pueden regular la retirada o inmovilización del vehículo que estaciona en zonas limitadas en tiempo sin título que lo autorice o rebasando el triple del tiempo abonado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "156.1.b",
+        "cita": "cuando éste no disponga de título que autorice el estacionamiento en zonas limitadas en tiempo, o rebase el triple del tiempo abonado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 156",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0016",
+      "tema": "parada_estacionamiento",
+      "subtema": "ordenanzas",
+      "materia": 1,
+      "enunciado": "¿Puede estacionarse una motocicleta sobre la acera?",
+      "opciones": {
+        "a": "Sí, en cualquier municipio, si deja al menos un metro libre.",
+        "b": "Solo si la ordenanza municipal lo permite y sin perjudicar ni entorpecer el tránsito de peatones.",
+        "c": "No, en ningún caso, ni aunque lo autorice una ordenanza municipal."
+      },
+      "correcta": "b",
+      "explicacion": "Los Ayuntamientos, mediante ordenanza, pueden regular la parada y el estacionamiento de vehículos de dos ruedas sobre aceras y zonas peatonales, siempre que no se perjudique ni entorpezca el tránsito de peatones.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "156.2",
+        "cita": "podrán regular la parada y el estacionamiento de los vehículos de dos ruedas sobre las aceras, paseos y demás zonas peatonales, siempre que no se perjudique ni se entorpezca el tránsito de los peatones",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 156",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0017",
+      "tema": "parada_estacionamiento",
+      "subtema": "ordenanzas",
+      "materia": 1,
+      "enunciado": "Una grúa de auxilio en carretera va a retirar un vehículo averiado en una calle. ¿Puede parar o estacionar para hacerlo?",
+      "opciones": {
+        "a": "No, debe hacerlo siempre desde una zona de carga y descarga.",
+        "b": "Sí, durante el tiempo que necesite, aunque obstaculice la circulación.",
+        "c": "Sí, por el tiempo indispensable, si no crea un nuevo peligro ni obstaculiza la circulación."
+      },
+      "correcta": "c",
+      "explicacion": "Se permite la parada o el estacionamiento de los vehículos de auxilio en vías públicas por el tiempo indispensable para retirar los vehículos averiados o accidentados, siempre que no se cree un nuevo peligro ni se cause obstáculo a la circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "156.1.d",
+        "cita": "Se permitirá la parada o el estacionamiento de los vehículos de auxilio en vías públicas por el tiempo indispensable para efectuar la retirada de los vehículos averiados o accidentados",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 156",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0018",
+      "tema": "parada_estacionamiento",
+      "subtema": "ordenanzas",
+      "materia": 16,
+      "enunciado": "¿En función de qué pueden los Ayuntamientos fijar distintas tarifas de estacionamiento?",
+      "opciones": {
+        "a": "De las dimensiones del vehículo y de su clasificación ambiental.",
+        "b": "De la antigüedad del permiso de conducción del conductor.",
+        "c": "Del número de ocupantes del vehículo."
+      },
+      "correcta": "a",
+      "explicacion": "Los Ayuntamientos pueden tarificar el estacionamiento de los vehículos en función de sus dimensiones y de su clasificación ambiental.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "156.1.e",
+        "cita": "El estacionamiento de los vehículos podrá ser objeto de tarificación por los Ayuntamientos en función de sus dimensiones y clasificación ambiental.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 156",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0019",
+      "tema": "luces",
+      "subtema": "obligacion_general",
+      "materia": 6,
+      "enunciado": "Fuera de los túneles, ¿entre qué momentos del día es obligatorio llevar encendido el alumbrado?",
+      "opciones": {
+        "a": "Desde una hora después del ocaso hasta una hora antes de la salida del sol.",
+        "b": "Entre el ocaso y la salida del sol.",
+        "c": "Solo cuando el alumbrado público de la vía esté apagado."
+      },
+      "correcta": "b",
+      "explicacion": "Todos los vehículos que circulan entre el ocaso y la salida del sol, o a cualquier hora en túneles, pasos inferiores y tramos con la señal «Túnel», deben llevar encendido el alumbrado que corresponda.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "98.1",
+        "cita": "Todos los vehículos que circulen entre el ocaso y la salida del sol o a cualquier hora del día en los túneles",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 98",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0020",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 6,
+      "enunciado": "Circular sin alumbrado en una situación de falta o disminución de visibilidad, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Muy grave.",
+        "c": "Grave."
+      },
+      "correcta": "c",
+      "explicacion": "La circulación sin alumbrado en situaciones de falta o disminución de visibilidad es una infracción grave.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "99.2",
+        "cita": "La circulación sin alumbrado en situaciones de falta o disminución de visibilidad tendrá la consideración de infracción grave",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 99",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0021",
+      "tema": "luces",
+      "subtema": "largo_alcance",
+      "materia": 6,
+      "enunciado": "Circula de noche y quiere saludar a un conocido alternando destellos de la luz de largo alcance y la de cruce. ¿Está permitido?",
+      "opciones": {
+        "a": "No, ese uso de los destellos está prohibido con finalidades no previstas en el reglamento.",
+        "b": "Sí, siempre que no deslumbre a nadie y lo haga a intervalos muy cortos.",
+        "c": "Sí, pero solo dentro de poblado y a velocidad moderada."
+      },
+      "correcta": "a",
+      "explicacion": "Está prohibido el empleo alternativo, en forma de destellos, de la luz de largo alcance y de la de corto alcance con finalidades distintas a las previstas en el reglamento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "100.2",
+        "cita": "así como el empleo alternativo, en forma de destellos de la luz de largo alcance o de carretera y de la luz de corto alcance o de cruce, con finalidades distintas a las previstas en este reglamento",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 100",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0022",
+      "tema": "luces",
+      "subtema": "largo_alcance",
+      "materia": 6,
+      "enunciado": "La luz de largo alcance o de carretera, ¿puede llevarse encendida a la vez que la de corto alcance?",
+      "opciones": {
+        "a": "No, nunca pueden encenderse a la vez.",
+        "b": "Sí, puede utilizarse aisladamente o con la de corto alcance.",
+        "c": "Solo en autopistas y autovías."
+      },
+      "correcta": "b",
+      "explicacion": "La luz de largo alcance o de carretera puede utilizarse aisladamente o junto con la de corto alcance.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "100.1",
+        "cita": "La luz de largo alcance o de carretera podrá utilizarse aisladamente o con la de corto alcance.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 100",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0023",
+      "tema": "luces",
+      "subtema": "corto_alcance",
+      "materia": 6,
+      "enunciado": "De noche, en una carretera insuficientemente iluminada, circula a 30 km/h detrás de un tractor y no lleva puesta la luz de largo alcance. ¿Qué alumbrado debe llevar, además del de posición?",
+      "opciones": {
+        "a": "Ninguno más; basta con el de posición.",
+        "b": "La luz antiniebla delantera.",
+        "c": "El de corto alcance o de cruce."
+      },
+      "correcta": "c",
+      "explicacion": "En vías interurbanas insuficientemente iluminadas, de noche, debe llevarse la luz de corto alcance cuando se circula a 40 km/h o menos y no se utiliza la de largo alcance.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "101.2.b",
+        "cita": "Circular a velocidad no superior a 40 kilómetros por hora y no estar utilizando el alumbrado de largo alcance.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 101",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0024",
+      "tema": "luces",
+      "subtema": "corto_alcance",
+      "materia": 6,
+      "enunciado": "De noche circula por una calle de un poblado que está insuficientemente iluminada. ¿Qué alumbrado debe llevar, además del de posición?",
+      "opciones": {
+        "a": "El de corto alcance o de cruce.",
+        "b": "El de largo alcance o de carretera.",
+        "c": "Ninguno más, porque está dentro de poblado."
+      },
+      "correcta": "a",
+      "explicacion": "En los poblados, cuando la vía está insuficientemente iluminada, debe llevarse encendido el alumbrado de corto alcance o de cruce además del de posición.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "101.1",
+        "cita": "Igualmente, llevará encendido dicho alumbrado en los poblados, cuando la vía esté insuficientemente iluminada.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 101",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0025",
+      "tema": "luces",
+      "subtema": "deslumbramiento",
+      "materia": 6,
+      "enunciado": "Ha cambiado a la luz de cruce para no deslumbrar a un vehículo que viene de frente. ¿Cuándo puede volver a poner la de largo alcance?",
+      "opciones": {
+        "a": "En cuanto el otro conductor ponga su luz de cruce.",
+        "b": "Cuando haya rebasado, en el cruce, la posición del vehículo cruzado.",
+        "c": "Cuando el otro vehículo esté a unos 50 metros."
+      },
+      "correcta": "b",
+      "explicacion": "El alumbrado de carretera no se restablece hasta rebasar, en el cruce, la posición del vehículo cruzado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "102.1",
+        "cita": "no se restablecerá el alumbrado de carretera hasta rebasar, en el cruce, la posición del vehículo cruzado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 102",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0026",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 6,
+      "enunciado": "Deslumbrar con el alumbrado a otros usuarios de la vía, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Muy grave.",
+        "c": "Grave."
+      },
+      "correcta": "c",
+      "explicacion": "Los supuestos de circulación en los que se produce deslumbramiento al resto de los usuarios de la vía son infracciones graves.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "101.3",
+        "cita": "Los supuestos de circulación en los que se produzca deslumbramiento al resto de los usuarios de la vía y de circulación sin alumbrado en situación de falta",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 101",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0027",
+      "tema": "luces",
+      "subtema": "antiniebla",
+      "materia": 6,
+      "enunciado": "Con niebla, ¿puede llevar encendida la luz antiniebla delantera junto con la de largo alcance?",
+      "opciones": {
+        "a": "Sí, puede utilizarse aislada, con la de corto alcance o incluso con la de largo alcance.",
+        "b": "No, la antiniebla delantera solo puede usarse aislada.",
+        "c": "No, solo puede combinarse con la de posición."
+      },
+      "correcta": "a",
+      "explicacion": "La luz antiniebla delantera puede utilizarse aislada o simultáneamente con la de corto alcance o, incluso, con la de largo alcance.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "106.2",
+        "cita": "La luz antiniebla delantera puede utilizarse aislada o simultáneamente con la de corto alcance o, incluso, con la de largo alcance.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 106",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0028",
+      "tema": "advertencias",
+      "subtema": "urgencia",
+      "materia": 1,
+      "enunciado": "Una ambulancia en servicio urgente circula con la señal luminosa encendida, pero sin la sirena. ¿Puede hacerlo?",
+      "opciones": {
+        "a": "No, debe usar siempre las dos señales a la vez.",
+        "b": "Sí, cuando la omisión de las señales acústicas no entrañe peligro alguno para los demás usuarios.",
+        "c": "Sí, pero entonces pierde su condición de vehículo prioritario."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos prioritarios en servicio urgente usan a la vez la señal luminosa y la acústica, pero deben usar solo la luminosa cuando omitir las acústicas no entrañe peligro para los demás usuarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "112 (68.2)",
+        "cita": "deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 112",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0029",
+      "tema": "advertencias",
+      "subtema": "otros_vehiculos",
+      "materia": 9,
+      "enunciado": "¿Cómo advierten de su presencia los tractores, la maquinaria agrícola y los vehículos de auxilio en vías públicas?",
+      "opciones": {
+        "a": "Con la señal luminosa V-1.",
+        "b": "Con el avisador acústico en forma intermitente.",
+        "c": "Con la señal luminosa V-2."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos de obras o servicios, los tractores y maquinaria agrícola, los transportes especiales y los de auxilio en vías públicas advierten su presencia con la señal luminosa V-2.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "113",
+        "cita": "advertirán su presencia mediante la utilización de la señal luminosa V-2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 113",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0030",
+      "tema": "normas_generales",
+      "subtema": "tiempos_conduccion",
+      "materia": 4,
+      "enunciado": "Para un conductor profesional, ¿cuándo se considera que el exceso en los tiempos de conducción afecta a la seguridad vial?",
+      "opciones": {
+        "a": "Cuando supera en más del 50 % los tiempos de conducción establecidos.",
+        "b": "Cuando supera en más del 10 % los tiempos de conducción establecidos.",
+        "c": "Solo cuando conduce más de 12 horas seguidas."
+      },
+      "correcta": "a",
+      "explicacion": "Se considera que afecta a la seguridad vial el exceso en más del 50 % de los tiempos de conducción o la reducción en más del 50 % de los tiempos de descanso fijados en la legislación de transportes.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "120.1",
+        "cita": "Se considerará que afecta a la seguridad vial el exceso en más del 50 por ciento en los tiempos de conducción",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 120",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0031",
+      "tema": "peatones",
+      "subtema": "prioridad",
+      "materia": 8,
+      "enunciado": "Según el Reglamento General de Circulación, ¿qué deben hacer quienes circulan con cualquier tipo de vehículo respecto a los peatones?",
+      "opciones": {
+        "a": "Cederles el paso únicamente en los pasos para peatones señalizados.",
+        "b": "Prestar especial cuidado para no poner en riesgo su integridad física.",
+        "c": "Avisarles siempre con el claxon antes de acercarse a ellos."
+      },
+      "correcta": "b",
+      "explicacion": "Los peatones gozan de prioridad de paso y estancia en las vías públicas en los términos del reglamento, y quienes circulan con cualquier vehículo deben prestar especial cuidado para no poner en riesgo su integridad física.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "121.1",
+        "cita": "Los usuarios de la vía que circulen con cualquier tipo de vehículo deberán prestar especial cuidado para no poner en riesgo la integridad física de los peatones.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 121",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0032",
+      "tema": "senales",
+      "subtema": "concepto",
+      "materia": 1,
+      "enunciado": "Según el reglamento, ¿cuál de estos elementos forma parte de la señalización?",
+      "opciones": {
+        "a": "Los anuncios publicitarios situados junto a la carretera.",
+        "b": "Las indicaciones de los navegadores instalados en los vehículos.",
+        "c": "Las órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico."
+      },
+      "correcta": "c",
+      "explicacion": "La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "131",
+        "cita": "La señalización es el conjunto de señales y órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 131",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0033",
+      "tema": "senales",
+      "subtema": "aplicacion",
+      "materia": 1,
+      "enunciado": "Una señal vertical sin ninguna marca en la calzada que limite su alcance, ¿a qué parte de la calzada se aplica?",
+      "opciones": {
+        "a": "A toda la anchura de la calzada que estén autorizados a utilizar los conductores a quienes se dirige.",
+        "b": "Solo al carril junto al que está colocada la señal.",
+        "c": "Solo al carril por el que circulan los vehículos más lentos."
+      },
+      "correcta": "a",
+      "explicacion": "Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "135",
+        "cita": "Toda señal se aplicará a toda la anchura de la calzada que estén autorizados a utilizar los conductores a quienes se dirija esa señal.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 135",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0034",
+      "tema": "senales",
+      "subtema": "visibilidad",
+      "materia": 6,
+      "enunciado": "¿Para qué llevan las señales viales materiales o dispositivos retrorreflectantes?",
+      "opciones": {
+        "a": "Para protegerlas de la corrosión y la lluvia.",
+        "b": "Para que sean más visibles y legibles por la noche.",
+        "c": "Para que los sistemas de ayuda a la conducción puedan leerlas."
+      },
+      "correcta": "b",
+      "explicacion": "Las señales viales llevan materiales o dispositivos retrorreflectantes para que sean más visibles y legibles por la noche.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "136",
+        "cita": "Con el fin de que sean más visibles y legibles por la noche, las señales viales deben estar provistas de materiales o dispositivos retrorreflectantes",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 136",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0035",
+      "tema": "senales",
+      "subtema": "inscripciones",
+      "materia": 1,
+      "enunciado": "Para facilitar la interpretación de una señal se le añade una inscripción. ¿Dónde se coloca?",
+      "opciones": {
+        "a": "En un panel triangular colocado siempre encima de la señal.",
+        "b": "Pintada en la calzada, unos metros antes de llegar a la señal.",
+        "c": "En un panel complementario rectangular colocado debajo de la señal."
+      },
+      "correcta": "c",
+      "explicacion": "Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "137.1",
+        "cita": "se podrá añadir una inscripción en un panel complementario rectangular colocado debajo de aquellas o en el interior de un panel rectangular que contenga la señal",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 137",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0036",
+      "tema": "senales",
+      "subtema": "idioma",
+      "materia": 1,
+      "enunciado": "En una comunidad autónoma con lengua oficial propia, ¿en qué idioma figuran las indicaciones escritas de las señales?",
+      "opciones": {
+        "a": "En castellano y, además, en la lengua oficial de la comunidad autónoma.",
+        "b": "Solo en la lengua oficial de la comunidad autónoma.",
+        "c": "Solo en castellano, en todo el territorio."
+      },
+      "correcta": "a",
+      "explicacion": "Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "138",
+        "cita": "figurarán en idioma castellano y, además, en la lengua oficial de la comunidad autónoma reconocida en el respectivo estatuto de autonomía",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 138",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0037",
+      "tema": "senales",
+      "subtema": "obligaciones",
+      "materia": 1,
+      "enunciado": "Un comercio quiere colocar un cartel publicitario junto a una señal de tráfico, de forma que reduce su visibilidad. ¿Está permitido?",
+      "opciones": {
+        "a": "Sí, si el cartel es más pequeño que la propia señal de tráfico.",
+        "b": "No, está prohibido colocar junto a las señales objetos que reduzcan su visibilidad.",
+        "c": "Sí, con permiso del Ayuntamiento, aunque tape parte de la señal."
+      },
+      "correcta": "b",
+      "explicacion": "Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "140.3",
+        "cita": "colocar sobre ellas o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 140",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0038",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 1,
+      "enunciado": "Retirar, ocultar o deteriorar la señalización permanente u ocasional de una vía, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Leve.",
+        "c": "Muy grave."
+      },
+      "correcta": "c",
+      "explicacion": "La retirada, ocultación, alteración o deterioro de la señalización permanente u ocasional, así como hacer obras en la vía sin autorización, son infracciones muy graves.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "140.4",
+        "cita": "así como los supuestos de retirada, ocultación, alteración o deterioro de la señalización permanente u ocasional tendrán la consideración de infracciones muy graves",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 140",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0039",
+      "tema": "senales",
+      "subtema": "prelacion",
+      "materia": 1,
+      "enunciado": "Una flecha pintada en su carril indica seguir de frente, pero una hilera de conos cierra ese carril más adelante. ¿Qué debe obedecer?",
+      "opciones": {
+        "a": "Los conos, porque el balizamiento circunstancial prevalece sobre las marcas viales.",
+        "b": "La flecha, porque está pintada en su propio carril.",
+        "c": "La flecha, porque las marcas viales prevalecen sobre el balizamiento."
+      },
+      "correcta": "a",
+      "explicacion": "En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "133.1.b",
+        "cita": "Señalización y balizamiento circunstancial que modifique el régimen normal de utilización de la vía, dispositivos delimitadores y señales de balizamiento.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 133",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0040",
+      "tema": "senales",
+      "subtema": "semaforos_carril",
+      "materia": 1,
+      "enunciado": "Sobre su carril, un semáforo de carril muestra una flecha verde apuntando hacia abajo y, más adelante, hay una señal de ceda el paso. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Continuar sin ceder el paso, porque los semáforos prevalecen sobre las señales verticales.",
+        "b": "Ceder el paso, porque la flecha verde del semáforo de carril no exime de obedecer esa señal.",
+        "c": "Detenerse siempre ante el semáforo hasta que se apague la flecha."
+      },
+      "correcta": "b",
+      "explicacion": "La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.4.3.b",
+        "cita": "de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 133 y anexo I.4.3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0041",
+      "tema": "senales",
+      "subtema": "senales_agentes",
+      "materia": 1,
+      "enunciado": "Un agente que regula el tráfico fuera de una intersección levanta el brazo verticalmente y no hay ninguna línea de detención. ¿Dónde debe detenerse?",
+      "opciones": {
+        "a": "A unos 50 metros del agente, para dejarle espacio.",
+        "b": "Junto al agente, a su derecha.",
+        "c": "Inmediatamente antes del agente."
+      },
+      "correcta": "c",
+      "explicacion": "Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.1.1.a",
+        "cita": "La detención debe efectuarse ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 141 y anexo I.1",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0042",
+      "tema": "senales",
+      "subtema": "senales_agentes",
+      "materia": 1,
+      "enunciado": "Desde un vehículo, un agente le dirige el brazo extendido hacia abajo, inclinado y fijo. ¿Qué le indica?",
+      "opciones": {
+        "a": "Que debe detenerse en el lado derecho.",
+        "b": "Que debe reducir la velocidad.",
+        "c": "Que la calzada queda de nuevo abierta al tráfico."
+      },
+      "correcta": "a",
+      "explicacion": "El brazo extendido hacia abajo, inclinado y fijo, hecho por un agente desde un vehículo, indica a los usuarios a quienes va dirigido la obligación de detenerse en el lado derecho.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.1.2.d",
+        "cita": "el agente desde un vehículo indica la obligación de detenerse en el lado derecho a aquellos usuarios a los que va dirigida la señal",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 141 y anexo I.1",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0043",
+      "tema": "senales",
+      "subtema": "senales_agentes",
+      "materia": 1,
+      "enunciado": "¿Pueden los agentes de tráfico dar indicaciones distintas de las señales con el brazo y con el silbato del reglamento?",
+      "opciones": {
+        "a": "No, solo pueden usar las señales con el brazo y el silbato.",
+        "b": "Sí, cuando las circunstancias lo exijan, siempre que las hagan de forma clara.",
+        "c": "Solo si van acompañados de una señal vertical que las confirme."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.1.1.f",
+        "cita": "los agentes podrán utilizar cualquier otra indicación distinta a las anteriores realizada de forma clara",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 141 y anexo I.1",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0044",
+      "tema": "senales",
+      "subtema": "senales_agentes",
+      "materia": 1,
+      "enunciado": "Un vehículo de policía con la señal V-1 encendida le da instrucciones por megafonía. ¿Debe seguirlas?",
+      "opciones": {
+        "a": "No, las órdenes de los agentes solo son válidas con el brazo o el silbato.",
+        "b": "Solo si el agente se baja del vehículo y las repite en persona.",
+        "c": "Sí, los agentes pueden dar órdenes a través de la megafonía mientras usan la señal V-1."
+      },
+      "correcta": "c",
+      "explicacion": "Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "141.3",
+        "cita": "podrán dar órdenes o indicaciones a los usuarios mientras hacen uso de la señal V-1 que establece el Reglamento General de Vehículos, a través de la megafonía",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 141",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0045",
+      "tema": "senales",
+      "subtema": "semaforos",
+      "materia": 1,
+      "enunciado": "Un semáforo cuadrado (de carril) situado sobre uno de los carriles, ¿a qué vehículos afecta?",
+      "opciones": {
+        "a": "Exclusivamente a los que circulan por el carril sobre el que está situado.",
+        "b": "A todos los vehículos que circulan por la calzada.",
+        "c": "Solo a los vehículos pesados y autobuses."
+      },
+      "correcta": "a",
+      "explicacion": "Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "143.1.c y anexo I.4.3",
+        "cita": "Los semáforos de ocupación de carril afectan exclusivamente a los vehículos que circulen por el carril sobre el que están situados",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 143",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0046",
+      "tema": "senales",
+      "subtema": "semaforos",
+      "materia": 1,
+      "enunciado": "Un semáforo en rojo está situado al otro lado de una intersección y no hay línea de detención. ¿Dónde debe detenerse?",
+      "opciones": {
+        "a": "En el centro de la intersección, junto al semáforo.",
+        "b": "Antes de entrar en la intersección.",
+        "c": "Justo debajo del semáforo, al otro lado de la intersección."
+      },
+      "correcta": "b",
+      "explicacion": "Si el semáforo en rojo está dentro o al lado opuesto de una intersección, los vehículos no deben internarse en esta ni rebasar la línea de detención situada antes de ella, si existe.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.4.2.a",
+        "cita": "Si el semáforo estuviese dentro o al lado opuesto de una intersección, los vehículos no deben internarse en esta",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 143",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0047",
+      "tema": "senales",
+      "subtema": "semaforos",
+      "materia": 8,
+      "enunciado": "Como norma general, en un paso para peatones con semáforo para peatones, ¿qué luz del semáforo de vehículos debe preceder a la amarilla intermitente?",
+      "opciones": {
+        "a": "La verde no intermitente.",
+        "b": "La amarilla no intermitente.",
+        "c": "La roja no intermitente."
+      },
+      "correcta": "c",
+      "explicacion": "Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.4.2.d",
+        "cita": "la luz amarilla intermitente para vehículos no podrá coincidir con la luz verde no intermitente para peatones y deberá ir precedida de la luz roja no intermitente",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 143",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0048",
+      "tema": "senales",
+      "subtema": "semaforos",
+      "materia": 1,
+      "enunciado": "En un semáforo para tranvías y autobuses de líneas regulares, ¿qué indica una franja blanca oblicua hacia la derecha iluminada?",
+      "opciones": {
+        "a": "Que está permitido el paso para girar a la derecha.",
+        "b": "Que está prohibido el paso.",
+        "c": "Que solo está permitido el paso de frente."
+      },
+      "correcta": "a",
+      "explicacion": "En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.4.4.2.c",
+        "cita": "Una franja blanca oblicua, hacia la izquierda o hacia la derecha, iluminada, indica que está permitido el paso para girar a la izquierda o a la derecha",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 143",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0049",
+      "tema": "senales",
+      "subtema": "obras",
+      "materia": 1,
+      "enunciado": "Las obras que alteran de cualquier modo la circulación, ¿cuándo deben estar señalizadas?",
+      "opciones": {
+        "a": "Solo de día, mientras los operarios estén trabajando en ellas.",
+        "b": "Tanto de día como de noche, con balizamiento luminoso por la noche.",
+        "c": "Solo de noche, porque de día las obras se ven sin dificultad."
+      },
+      "correcta": "b",
+      "explicacion": "Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "148",
+        "cita": "deberán hallarse señalizadas, tanto de día como de noche, y balizadas luminosamente durante las horas nocturnas",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 148",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0050",
+      "tema": "senales",
+      "subtema": "obras",
+      "materia": 1,
+      "enunciado": "En un tramo en obras ve una señal de velocidad máxima tapada con material adhesivo negro. ¿Qué significa?",
+      "opciones": {
+        "a": "Que la limitación de velocidad sigue vigente, aunque no se vea.",
+        "b": "Que la limitación se ha reducido a la mitad mientras duran las obras.",
+        "c": "Que esa señal no es de aplicación mientras se ejecutan las obras."
+      },
+      "correcta": "c",
+      "explicacion": "En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+        "cita": "deberán ser adecuadamente tapadas utilizando materiales adhesivos negros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 148 y anexo I",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0051",
+      "tema": "senales",
+      "subtema": "obras",
+      "materia": 1,
+      "enunciado": "Por unas obras se colocan nuevos carteles de orientación. ¿Cómo son?",
+      "opciones": {
+        "a": "De fondo amarillo y caracteres negros, sea cual sea el tipo de carretera.",
+        "b": "Del mismo color que los carteles habituales de esa carretera.",
+        "c": "De fondo naranja y caracteres blancos."
+      },
+      "correcta": "a",
+      "explicacion": "Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+        "cita": "estos tendrían el fondo amarillo y los caracteres negros, con independencia del tipo de carretera",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 148 y anexo I",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0052",
+      "tema": "senales",
+      "subtema": "obras",
+      "materia": 1,
+      "enunciado": "Si en un tramo en obras se pintan marcas viales nuevas, ¿de qué color son?",
+      "opciones": {
+        "a": "Blanco.",
+        "b": "Amarillo.",
+        "c": "Naranja."
+      },
+      "correcta": "b",
+      "explicacion": "Las nuevas marcas viales en tramos en obras son de color amarillo; las marcas previas que sigan siendo de aplicación pueden mantenerse blancas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5.2 (Catálogo de marcas viales, 2)",
+        "cita": "en caso de utilizar nuevas marcas viales en tramos en los que se estén ejecutando obras, estas serán de color amarillo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 149 y anexo I",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0053",
+      "tema": "senales",
+      "subtema": "catalogo",
+      "materia": 1,
+      "enunciado": "Algunas señales verticales incorporan dispositivos LED para reforzar su mensaje. ¿De qué color pueden ser?",
+      "opciones": {
+        "a": "Rojo, verde o azul.",
+        "b": "Solo rojo.",
+        "c": "Blanco, amarillo o ámbar."
+      },
+      "correcta": "c",
+      "explicacion": "Los dispositivos LED que pueden incorporar las señales verticales, en sus bordes o en su interior, son de color blanco, amarillo o ámbar.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5 (Catálogo, tomo I, 2.4)",
+        "cita": "Estos serán de color blanco, amarillo o ámbar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 134 y anexo I",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0054",
+      "tema": "senales",
+      "subtema": "paneles",
+      "materia": 1,
+      "enunciado": "Debajo de una señal de prohibición hay un panel con la silueta de un camión y la palabra «EXCEPTO». ¿Qué indica?",
+      "opciones": {
+        "a": "Que la señal afecta a todos los vehículos salvo a los camiones.",
+        "b": "Que la señal afecta únicamente a los camiones.",
+        "c": "Que los camiones deben extremar la precaución en ese tramo."
+      },
+      "correcta": "a",
+      "explicacion": "Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5 (Catálogo, tomo I, 2.3)",
+        "cita": "afecta a todos los tipos de vehículos salvo uno en particular",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 137 y anexo I",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0055",
+      "tema": "senales",
+      "subtema": "senales_vehiculos",
+      "materia": 12,
+      "enunciado": "¿Qué objeto tienen las señales colocadas en los vehículos?",
+      "opciones": {
+        "a": "Identificar al propietario del vehículo ante los agentes de la autoridad.",
+        "b": "Dar a conocer circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su conductor.",
+        "c": "Indicar la velocidad máxima a la que circula habitualmente el vehículo."
+      },
+      "correcta": "b",
+      "explicacion": "Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "150.1",
+        "cita": "Las señales en los vehículos están destinadas a dar a conocer a los usuarios de la vía determinadas circunstancias o características del vehículo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 150",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0056",
+      "tema": "vias",
+      "subtema": "ordenanzas",
+      "materia": 7,
+      "enunciado": "¿Puede una ordenanza municipal establecer normas de circulación que se opongan a lo dispuesto en el Reglamento General de Circulación?",
+      "opciones": {
+        "a": "Sí, porque dentro de la ciudad siempre prevalece la ordenanza.",
+        "b": "Sí, si lo aprueba el pleno del Ayuntamiento por mayoría.",
+        "c": "No, las ordenanzas no pueden oponerse ni alterar el reglamento."
+      },
+      "correcta": "c",
+      "explicacion": "Las ordenanzas municipales pueden desarrollar aspectos de las normas urbanas, pero no pueden oponerse, alterar, desvirtuar o inducir a confusión con los preceptos del reglamento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "151.3",
+        "cita": "Las ordenanzas municipales no podrán oponerse, alterar, desvirtuar o inducir a confusión con los preceptos de este reglamento.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 151",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0057",
+      "tema": "vias",
+      "subtema": "zbe",
+      "materia": 16,
+      "enunciado": "¿Pueden las autoridades restringir la entrada y circulación de vehículos en una zona de bajas emisiones?",
+      "opciones": {
+        "a": "Sí, total o parcialmente, de acuerdo con los criterios medioambientales que se establezcan.",
+        "b": "No, solo pueden restringirla por obras o por accidentes.",
+        "c": "Solo a los vehículos pesados de más de 3.500 kg."
+      },
+      "correcta": "a",
+      "explicacion": "Las autoridades competentes pueden restringir, total o parcialmente, la entrada y circulación de vehículos en zonas de bajas emisiones, zonas de prioridad residencial u otras vías de su competencia, según criterios medioambientales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "157",
+        "cita": "podrán establecer medidas de restricción total o parcial de entrada y circulación de vehículos en las zonas de bajas emisiones",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 157",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0058",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 16,
+      "enunciado": "No respetar las restricciones de circulación de una zona de bajas emisiones, ¿qué tipo de infracción es según la Ley de Tráfico?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Grave.",
+        "c": "Muy grave."
+      },
+      "correcta": "b",
+      "explicacion": "No respetar las restricciones de circulación derivadas de los protocolos ante episodios de contaminación y de las zonas de bajas emisiones es una infracción grave.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "76.z3",
+        "cita": "No respetar las restricciones de circulación derivadas de la aplicación de los protocolos ante episodios de contaminación y de las zonas de bajas emisiones.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 76",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0059",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 1,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Que los semáforos del próximo cruce están averiados o apagados.",
+        "b": "La proximidad de un paso a nivel regulado con semáforo.",
+        "c": "La proximidad de una intersección o tramo regulado por semáforos."
+      },
+      "correcta": "c",
+      "explicacion": "La señal P-3 advierte del peligro por la proximidad de una intersección aislada o de un tramo con la circulación regulada por semáforos.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-3",
+        "cita": "Peligro por la proximidad de una intersección aislada o tramo con la circulación regulada por semáforos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-3",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-3.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-3: Semáforos",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-3",
+        "descripcion": "Semáforos"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0060",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 1,
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un puente que puede ser levantado o girado, interrumpiéndose temporalmente la circulación.",
+        "b": "De un puente estrecho por el que solo cabe un vehículo.",
+        "c": "De un muelle donde la vía desemboca en el agua."
+      },
+      "correcta": "a",
+      "explicacion": "La señal P-5 advierte de la proximidad de un puente móvil, que puede levantarse o girarse e interrumpir temporalmente la circulación.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-5",
+        "cita": "Peligro ante la proximidad de un puente que puede ser levantado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-5",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-5.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-5: Puente móvil",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-5",
+        "descripcion": "Puente móvil"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0061",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 1,
+      "enunciado": "Encuentra esta señal. ¿Cómo es el tramo que se aproxima?",
+      "opciones": {
+        "a": "Una sola curva peligrosa hacia la derecha.",
+        "b": "Una sucesión de curvas peligrosas próximas entre sí, la primera hacia la derecha.",
+        "c": "Una sucesión de curvas peligrosas, la primera hacia la izquierda."
+      },
+      "correcta": "b",
+      "explicacion": "La señal P-14a advierte de una sucesión de curvas peligrosas próximas entre sí, siendo la primera de ellas hacia la derecha.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-14a",
+        "cita": "Peligro por la proximidad de una sucesión de curvas peligrosas\npróximas entre sí, siendo la primera de ellas hacia la derecha.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-14a",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-14a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-14a: Curvas peligrosas hacia la derecha",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-14a",
+        "descripcion": "Curvas peligrosas hacia la derecha"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0062",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 5,
+      "enunciado": "¿Qué indica la cifra de esta señal?",
+      "opciones": {
+        "a": "La longitud del tramo en pendiente, en kilómetros.",
+        "b": "La velocidad máxima aconsejada en la bajada, en decenas de km/h.",
+        "c": "La inclinación de la pendiente descendente, en porcentaje."
+      },
+      "correcta": "c",
+      "explicacion": "La señal P-16a advierte de un tramo con fuerte pendiente descendente, y su cifra indica la inclinación de la pendiente en porcentaje.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-16a",
+        "cita": "descendente. La cifra indica la inclinación de la pendiente en\nporcentaje.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-16a",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-16a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-16a: Bajada con fuerte pendiente",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-16a",
+        "descripcion": "Bajada con fuerte pendiente"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0063",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 1,
+      "enunciado": "¿Por qué esta señal de obras tiene el fondo amarillo?",
+      "opciones": {
+        "a": "Porque la señal P-18 Obras únicamente puede utilizarse con fondo amarillo.",
+        "b": "Porque se trata de una señal provisional que se retirará al día siguiente.",
+        "c": "Porque indica que las obras se realizan solo de noche."
+      },
+      "correcta": "a",
+      "explicacion": "La señal P-18 Obras únicamente puede utilizarse con fondo amarillo; en los tramos en obras, otras señales de peligro y reglamentación de fondo blanco pasan también a tenerlo amarillo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+        "cita": "este catálogo solo incluye expresamente la señal P-18 Obras, ya que esta únicamente puede ser utilizada con fondo amarillo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-18",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-18.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-18: Obras",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-18",
+        "descripcion": "Obras"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0064",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 8,
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un paso para peatones regulado por semáforo.",
+        "b": "De un lugar o tramo con elevado tránsito de peatones.",
+        "c": "De un camino reservado exclusivamente para peatones."
+      },
+      "correcta": "b",
+      "explicacion": "La señal P-20b advierte de la proximidad de un lugar o tramo con elevado tránsito de peatones; el paso para peatones se advierte con la P-20a.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-20b",
+        "cita": "lugar o tramo con elevado tránsito\nde peatones",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-20b",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-20b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-20b: Peatones",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-20b",
+        "descripcion": "Peatones"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0065",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 8,
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De una vía reservada para ciclos y peatones.",
+        "b": "De una zona en la que está prohibido circular en bicicleta.",
+        "c": "De un paso para peatones adosado o compartido con un paso para ciclistas."
+      },
+      "correcta": "c",
+      "explicacion": "La señal P-20c advierte de la proximidad de un paso para peatones adosado o compartido con un paso para ciclistas.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-20c",
+        "cita": "Peligro por la proximidad de un paso para peatones adosado o\ncompartido con un paso para ciclistas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-20c",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-20c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-20c: Pasos para peatones y ciclistas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-20c",
+        "descripcion": "Pasos para peatones y ciclistas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0066",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 8,
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+        "b": "De la proximidad de un centro de salud.",
+        "c": "De una parada de autobús para personas mayores."
+      },
+      "correcta": "a",
+      "explicacion": "La señal P-21b advierte de la proximidad de un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-21b",
+        "cita": "Peligro por la proximidad de un lugar frecuentado por personas con\ndificultades motrices o sensoriales.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-21b",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-21b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-21b: Personas con dificultades motrices",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-21b",
+        "descripcion": "Personas con dificultades motrices"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0067",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 8,
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un paso para ciclistas.",
+        "b": "De un tramo con circulación frecuente de ciclistas.",
+        "c": "De una vía reservada y obligatoria para ciclos."
+      },
+      "correcta": "b",
+      "explicacion": "La señal P-22b advierte de la proximidad de un tramo con circulación frecuente de ciclistas; el paso para ciclistas se advierte con la P-22a.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-22b",
+        "cita": "Peligro por la proximidad de un tramo con circulación frecuente de\nciclistas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-22b",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-22b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-22b: Ciclistas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-22b",
+        "descripcion": "Ciclistas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0068",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 6,
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De una zona de caza en la que está prohibido detenerse.",
+        "b": "De un paso de ganado doméstico conducido por pastores.",
+        "c": "De un lugar donde la vía puede ser atravesada por animales en libertad, en buena parte jabalíes."
+      },
+      "correcta": "c",
+      "explicacion": "La señal P-24a advierte de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad, en una proporción muy significativa jabalíes.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-24a",
+        "cita": "puede ser atravesada por animales en libertad, tratándose en una\nproporción muy significativa de jabalíes.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-24a",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-24a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-24a: Paso de animales en libertad (jabalíes)",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-24a",
+        "descripcion": "Paso de animales en libertad (jabalíes)"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0069",
+      "tema": "senales",
+      "subtema": "advertencia",
+      "materia": 1,
+      "enunciado": "¿De qué advierte esta señal?",
+      "opciones": {
+        "a": "De un tramo entre una confluencia y una bifurcación donde los vehículos cambian de carril cruzando sus trayectorias.",
+        "b": "De una intersección en la que se cruzan dos carreteras a distinto nivel.",
+        "c": "De un tramo con circulación en ambos sentidos."
+      },
+      "correcta": "a",
+      "explicacion": "La señal P-35 Trenzado advierte de un tramo entre una confluencia y una bifurcación con cambios de carril que cruzan sus trayectorias y aumentan el riesgo de colisión.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, P-35",
+        "cita": "confluencia y una bifurcación donde se producen distintos\nmovimientos de cambio de carril por parte de los vehículos,\ncruzándose sus trayectorias",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO P-35",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/P-35.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal P-35: Trenzado",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-35",
+        "descripcion": "Trenzado"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0070",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "materia": 1,
+      "enunciado": "¿A quién prohíbe la entrada esta señal?",
+      "opciones": {
+        "a": "A los ciclomotores y a los vehículos para personas de movilidad reducida.",
+        "b": "A las motocicletas y a los vehículos de tres ruedas asimilados a motocicletas.",
+        "c": "A todos los vehículos de dos ruedas, incluidas las bicicletas."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-104 prohíbe el acceso a motocicletas y a vehículos de tres ruedas asimilados a motocicletas.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-104",
+        "cita": "Prohibición de acceso a motocicletas y a vehículos de tres ruedas\nasimilados a motocicletas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-104",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-104.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-104: Entrada prohibida a motocicletas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-104",
+        "descripcion": "Entrada prohibida a motocicletas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0071",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "materia": 12,
+      "enunciado": "¿A quién prohíbe la entrada esta señal?",
+      "opciones": {
+        "a": "A todos los camiones, vayan cargados o vacíos.",
+        "b": "Solo a los vehículos que transporten más de 1.000 litros de productos contaminantes del agua.",
+        "c": "A los vehículos que transporten mercancías peligrosas y deban ir señalizados según su normativa."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-108 prohíbe el acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-108",
+        "cita": "Prohibición de acceso a toda clase de vehículos que transporten\nmercancías peligrosas y requieran",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-108",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-108.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-108: Entrada prohibida a vehículos que transporten mercancías peligrosas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-108",
+        "descripcion": "Entrada prohibida a vehículos que transporten mercancías peligrosas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0072",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "materia": 8,
+      "enunciado": "¿A quién prohíbe la entrada esta señal?",
+      "opciones": {
+        "a": "A los vehículos de movilidad personal.",
+        "b": "A los ciclomotores.",
+        "c": "A las bicicletas de pedaleo asistido."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-118 prohíbe el acceso a los vehículos de movilidad personal.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-118",
+        "cita": "Prohibición de acceso a vehículos de movilidad personal.\nR-119",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-118",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-118.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-118: Entrada prohibida a vehículos de movilidad personal",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-118",
+        "descripcion": "Entrada prohibida a vehículos de movilidad personal"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0073",
+      "tema": "senales",
+      "subtema": "prohibicion_entrada",
+      "materia": 16,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "La prohibición de acceso a vehículos que emitan humo por avería.",
+        "b": "La prohibición de acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales.",
+        "c": "Una zona en la que se recomienda apagar el motor durante las paradas."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-120 prohíbe el acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales; las condiciones se especifican en un panel complementario o en un cartel.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-120",
+        "cita": "Prohibición de acceso a vehículos en función de su distintivo\nambiental u otros criterios ambientales que se establezcan.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-120",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-120.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-120: Entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios ambientales",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-120",
+        "descripcion": "Entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios ambientales"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0074",
+      "tema": "senales",
+      "subtema": "restriccion_paso",
+      "materia": 12,
+      "enunciado": "Conduce un camión que en este momento, con su carga, pesa 6 toneladas. ¿Puede pasar ante esta señal?",
+      "opciones": {
+        "a": "Sí, porque solo limita la masa que soporta cada eje.",
+        "b": "Sí, porque solo afecta a los vehículos que circulan vacíos.",
+        "c": "No, porque prohíbe el paso a los vehículos cuya masa en carga supere la indicada."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-201 prohíbe el paso a los vehículos cuya masa en carga supere la indicada en toneladas.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-201",
+        "cita": "Prohibición de paso a los vehículos cuya masa en carga supere\nla indicada en toneladas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-201",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-201.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-201: Limitación de masa",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-201",
+        "descripcion": "Limitación de masa"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0075",
+      "tema": "senales",
+      "subtema": "restriccion_paso",
+      "materia": 12,
+      "enunciado": "Su furgoneta mide 2,30 m de ancho, pero la carga sobresale por los lados hasta 2,60 m. ¿Puede pasar ante esta señal?",
+      "opciones": {
+        "a": "No, porque la anchura máxima que limita la señal incluye la carga.",
+        "b": "Sí, porque la anchura del vehículo sin carga no supera la indicada.",
+        "c": "Sí, si señaliza la carga que sobresale."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-204 prohíbe el paso a los vehículos cuya anchura máxima, incluida la carga, supere la indicada.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-204",
+        "cita": "Prohibición de paso a los vehículos cuya anchura máxima,\nincluida la carga, supere la indicada.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-204",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-204.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-204: Limitación de anchura",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-204",
+        "descripcion": "Limitación de anchura"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0076",
+      "tema": "senales",
+      "subtema": "parada_estacionamiento",
+      "materia": 1,
+      "enunciado": "Salvo indicación en contrario, ¿hasta dónde rige esta señal?",
+      "opciones": {
+        "a": "Hasta 100 metros después de la señal.",
+        "b": "Hasta la intersección más próxima en el sentido de la marcha.",
+        "c": "Hasta la próxima señal de fin de prohibiciones."
+      },
+      "correcta": "b",
+      "explicacion": "La prohibición de parada y estacionamiento de la señal R-307 comienza, salvo indicación en contrario, en la vertical de la señal y termina en la intersección más próxima en el sentido de la marcha.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-307",
+        "cita": "Prohibición de parada y estacionamiento en el lado de la calzada\nen que esté situada la señal. Salvo indicación en contrario, la\nprohibición comienza en la vertical de la señal y termina en la\nintersección más próxima en el sentido de la marcha.\nR-307a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-307",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-307.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-307: Parada y estacionamiento prohibido",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-307",
+        "descripcion": "Parada y estacionamiento prohibido"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0077",
+      "tema": "senales",
+      "subtema": "parada_estacionamiento",
+      "materia": 1,
+      "enunciado": "En el lado de la calzada donde está esta señal, ¿puede parar un momento para que baje un pasajero?",
+      "opciones": {
+        "a": "No, porque prohíbe tanto la parada como el estacionamiento.",
+        "b": "No, salvo que sea un vehículo de servicio público.",
+        "c": "Sí, porque la señal prohíbe el estacionamiento pero no la parada."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-308 prohíbe el estacionamiento en el lado de la calzada en que está situada, pero no prohíbe la parada.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-308",
+        "cita": "Prohibición de estacionamiento en el lado de la calzada en que\nesté situada la señal. Salvo indicación en contrario, la\nprohibición comienza en la vertical de la señal y termina en la\nintersección más próxima en el sentido de la marcha. No\nprohíbe la parada.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-308",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-308.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-308: Estacionamiento prohibido",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-308",
+        "descripcion": "Estacionamiento prohibido"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0078",
+      "tema": "senales",
+      "subtema": "parada_estacionamiento",
+      "materia": 1,
+      "enunciado": "¿En qué periodo prohíbe estacionar esta señal?",
+      "opciones": {
+        "a": "Desde las 9 horas del día 1 hasta las 9 horas del día 16.",
+        "b": "Desde las 0 horas del día 1 hasta las 24 horas del día 15.",
+        "c": "Desde las 9 horas del día 16 hasta las 9 horas del día 1."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-308c prohíbe estacionar la primera quincena, desde las 9 horas del día 1 hasta las 9 horas del día 16, en el lado de la calzada donde está situada.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-308c",
+        "cita": "esté situada la señal, desde las 9 horas del día 1 hasta las 9\nhoras del día 16.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-308c",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-308c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-308c: Estacionamiento prohibido la primera quincena",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-308c",
+        "descripcion": "Estacionamiento prohibido la primera quincena"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0079",
+      "tema": "senales",
+      "subtema": "advertencias",
+      "materia": 1,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Prohíbe circular con el equipo de música del vehículo encendido.",
+        "b": "Recuerda la prohibición general de hacer señales acústicas, salvo para evitar un accidente.",
+        "c": "Prohíbe usar el claxon en cualquier caso, incluso para evitar un accidente."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-310 recuerda la prohibición general de efectuar señales acústicas, salvo para evitar un accidente.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-310",
+        "cita": "Recuerda la prohibición general de efectuar señales acústicas,\nsalvo para evitar un accidente.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-310",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-310.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-310: Advertencias acústicas prohibidas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-310",
+        "descripcion": "Advertencias acústicas prohibidas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0080",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "materia": 1,
+      "enunciado": "Delante de una isleta encuentra esta señal. ¿Qué le indica?",
+      "opciones": {
+        "a": "Que debe girar a la derecha en la próxima intersección.",
+        "b": "Que puede pasar la isleta por el lado que prefiera.",
+        "c": "El lado de la isleta por el que debe pasar obligatoriamente."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-401a de paso obligatorio indica con su flecha el lado del refugio, isleta u obstáculo por el que los vehículos han de pasar obligatoriamente.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-401a",
+        "cita": "R-401a Paso obligatorio\nLa flecha señala el lado del refugio, de la isleta o del obstáculo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-401a",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-401a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-401a: Paso obligatorio",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-401a",
+        "descripcion": "Paso obligatorio"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0081",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "materia": 9,
+      "enunciado": "Conduce una furgoneta de 2.000 kg de masa máxima autorizada y encuentra esta señal, sin ninguna cifra, a la entrada de una calzada. ¿Le afecta?",
+      "opciones": {
+        "a": "Sí, porque afecta a furgones y furgonetas sea cual sea su masa.",
+        "b": "No, porque solo afecta a los vehículos de más de 3.500 kg de MMA.",
+        "c": "No, porque solo afecta a los camiones que lleven remolque."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-406 obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, a circular por la calzada a cuya entrada está situada, salvo que indique una cifra de tonelaje.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-406",
+        "cita": "Obligación para los conductores de toda clase de camiones,\ntractocamiones y furgones o furgonetas, independientemente\nde su masa",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-406",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-406.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-406: Calzada obligatoria para camiones, tractocamiones y furgones o furgonetas",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-406",
+        "descripcion": "Calzada obligatoria para camiones, tractocamiones y furgones o furgonetas"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0082",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "materia": 6,
+      "enunciado": "¿Qué obligación impone esta señal?",
+      "opciones": {
+        "a": "No proseguir la marcha sin cadenas para nieve.",
+        "b": "No proseguir la marcha sin neumáticos especiales de invierno.",
+        "c": "Circular a velocidad moderada por riesgo de hielo."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-412b obliga a no proseguir la marcha sin neumáticos especiales de invierno.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-412b",
+        "cita": "Obligación de no proseguir la marcha sin neumáticos\nespeciales de invierno",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-412b",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-412b.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-412b: Neumáticos de invierno",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-412b",
+        "descripcion": "Neumáticos de invierno"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0083",
+      "tema": "senales",
+      "subtema": "obligacion",
+      "materia": 8,
+      "enunciado": "Circula en bicicleta y encuentra esta señal. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Circular por la vía reservada para ciclos.",
+        "b": "Ceder el paso a los peatones sin bajarse de la bicicleta.",
+        "c": "Bajarse de la bicicleta y continuar a pie."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-422 obliga a los usuarios de ciclos a desmontar y continuar a pie; si la obligación se limita a ciertos periodos, se indica con un panel complementario.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-422",
+        "cita": "Obligación para los usuarios de ciclos de continuar a pie.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-422",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-422.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-422: Desmontar y continuar a pie",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-422",
+        "descripcion": "Desmontar y continuar a pie"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0084",
+      "tema": "senales",
+      "subtema": "fin_prohibicion",
+      "materia": 1,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Que dejan de aplicarse todas las prohibiciones específicas indicadas por señales anteriores para vehículos en movimiento.",
+        "b": "El fin de la limitación de velocidad, pero no de las demás prohibiciones.",
+        "c": "El final de una autopista o autovía."
+      },
+      "correcta": "a",
+      "explicacion": "La señal R-500 señala el lugar desde el que todas las prohibiciones específicas indicadas por señales anteriores de prohibición para vehículos en movimiento dejan de tener aplicación.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-500",
+        "cita": "Señala el lugar desde el que todas las prohibiciones\nespecíficas indicadas por señales anteriores de prohibición\npara vehículos en movimiento dejan de tener aplicación.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-500",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-500.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-500: Fin de prohibiciones",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-500",
+        "descripcion": "Fin de prohibiciones"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0085",
+      "tema": "senales",
+      "subtema": "fin_prohibicion",
+      "materia": 9,
+      "enunciado": "Conduce un camión de más de 3.500 kg. ¿Qué le indica esta señal?",
+      "opciones": {
+        "a": "Que empieza un tramo en el que los camiones no pueden adelantar.",
+        "b": "Que deja de aplicarse la prohibición de adelantamiento para camiones.",
+        "c": "Que deja de aplicarse la prohibición de adelantar para todos los vehículos, salvo camiones."
+      },
+      "correcta": "b",
+      "explicacion": "La señal R-503 señala el lugar desde donde deja de ser aplicable una señal anterior de adelantamiento prohibido para camiones.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-503",
+        "cita": "Señala el lugar desde donde deja de ser aplicable una señal\nanterior de adelantamiento prohibido para camiones.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-503",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-503.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-503: Fin de la prohibición de adelantamiento para camiones",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-503",
+        "descripcion": "Fin de la prohibición de adelantamiento para camiones"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0086",
+      "tema": "senales",
+      "subtema": "fin_prohibicion",
+      "materia": 1,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "El fin de la limitación de velocidad máxima a 40 km/h.",
+        "b": "El comienzo de un tramo con velocidad máxima de 40 km/h.",
+        "c": "El fin de la obligación de circular a una velocidad mínima."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-506 señala el lugar desde donde deja de ser aplicable una señal anterior de velocidad mínima.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-506",
+        "cita": "Señala el lugar desde donde deja de ser aplicable una señal\nanterior de velocidad mínima.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO R-506",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-506.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-506: Fin de velocidad mínima",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-506",
+        "descripcion": "Fin de velocidad mínima"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0087",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 1,
+      "enunciado": "En una curva encuentra esta señal. ¿Está obligado a no superar los 70 km/h?",
+      "opciones": {
+        "a": "No, es una velocidad aconsejada, aunque se recomienda no superarla.",
+        "b": "Sí, es una velocidad máxima obligatoria para todos los vehículos.",
+        "c": "Sí, pero solo los vehículos pesados y los que lleven remolque."
+      },
+      "correcta": "a",
+      "explicacion": "La señal S-7 recomienda una velocidad, en km/h, que se aconseja no sobrepasar aunque las condiciones meteorológicas y de la circulación sean favorables.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-7",
+        "cita": "hora, que se aconseja no sobrepasar aunque las condiciones\nmeteorológicas y ambientales de la vía y de la circulación sean\nfavorables. Cuando está colocada bajo una señal de\nadvertencia",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-7",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-7.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-7: Velocidad máxima aconsejada",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-7",
+        "descripcion": "Velocidad máxima aconsejada"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0088",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 6,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "La obligación de comprobar el funcionamiento de las luces.",
+        "b": "El final de un tramo en el que es obligatorio el alumbrado al menos de corto alcance.",
+        "c": "Que debe encender las luces antiniebla."
+      },
+      "correcta": "b",
+      "explicacion": "La señal S-24 indica el final de un tramo en el que es obligatorio el alumbrado al menos de cruce, y recuerda que puede prescindirse de él si no lo imponen la visibilidad, el horario o la iluminación de la vía.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-24",
+        "cita": "Indica el final de un tramo en el que es obligatorio el alumbrado\nal menos de cruce o corto alcance",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-24",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-24.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-24: Fin de obligación de alumbrado de corto alcance (cruce)",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-24",
+        "descripcion": "Fin de obligación de alumbrado de corto alcance (cruce)"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0089",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 5,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Un carril adicional para vehículos lentos.",
+        "b": "Un lugar donde está permitido cambiar de sentido.",
+        "c": "Una zona de escape acondicionada para detener un vehículo si le fallan los frenos."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-16 indica una zona de frenado de emergencia: una zona de escape de la calzada para detener un vehículo en caso de fallo de su sistema de frenado.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-16",
+        "cita": "Indica la situación de una zona de escape de la calzada\nacondicionada para que un vehículo pueda ser detenido en caso\nde fallo de su sistema de frenado.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-16",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-16.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-16: Zona de frenado de emergencia",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-16",
+        "descripcion": "Zona de frenado de emergencia"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0090",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 1,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "Un estacionamiento autorizado solo para un fin concreto, como el acceso a una farmacia, y por un tiempo determinado.",
+        "b": "Un estacionamiento reservado a vehículos sanitarios en servicio urgente.",
+        "c": "Un estacionamiento gratuito sin límite de tiempo."
+      },
+      "correcta": "a",
+      "explicacion": "La señal S-17a indica un estacionamiento de necesidad, autorizado únicamente para un fin concreto (farmacia, hospital, etc.) y durante un tiempo determinado.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-17a",
+        "cita": "vehículos únicamente para un fin concreto (acceso a una\nfarmacia, hospital, etc.)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-17a",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-17a.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-17a: Estacionamiento de necesidad",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-17a",
+        "descripcion": "Estacionamiento de necesidad"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0091",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 1,
+      "enunciado": "¿Qué indica esta señal?",
+      "opciones": {
+        "a": "La prohibición de cambiar de sentido en los próximos 150 metros.",
+        "b": "La proximidad de un lugar en el que se puede efectuar un cambio de sentido al mismo nivel.",
+        "c": "Una salida para cambiar de sentido a distinto nivel."
+      },
+      "correcta": "b",
+      "explicacion": "La señal S-22 indica la proximidad de un lugar en el que se puede efectuar un cambio de sentido al mismo nivel.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-22",
+        "cita": "Indica la proximidad de un lugar en el que se puede efectuar un\ncambio de sentido al mismo nivel.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-22",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-22.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-22: Cambio de sentido al mismo nivel",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-22",
+        "descripcion": "Cambio de sentido al mismo nivel"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0092",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 1,
+      "enunciado": "Además de la situación de un hospital, ¿qué recuerda esta señal?",
+      "opciones": {
+        "a": "La obligación de ceder el paso a todas las ambulancias.",
+        "b": "La prohibición de estacionar en toda la calle.",
+        "c": "La conveniencia de tomar precauciones, especialmente evitar producir ruido."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-23 indica la situación de un hospital y la conveniencia de tomar las precauciones que requiere la proximidad de centros médicos, especialmente evitar la producción de ruido.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-23",
+        "cita": "médicos, especialmente la de evitar la producción de ruido.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-23",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-23.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-23: Hospital",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-23",
+        "descripcion": "Hospital"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0093",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 1,
+      "enunciado": "¿Para qué sirve el lugar que indica esta señal?",
+      "opciones": {
+        "a": "Para apartar el vehículo en caso de emergencia y dejar libre el paso.",
+        "b": "Para adelantar a los vehículos lentos.",
+        "c": "Para estacionar y descansar durante el tiempo que se desee."
+      },
+      "correcta": "a",
+      "explicacion": "La señal S-34 indica un apartadero, un lugar donde se puede apartar el vehículo en caso de emergencia a fin de dejar libre el paso.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-34",
+        "cita": "Indica la situación de un lugar donde se puede apartar el\nvehículo en caso de emergencia a fin de dejar libre el paso.\nS-34a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-34",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-34.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-34: Apartadero",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-34",
+        "descripcion": "Apartadero"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0094",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 8,
+      "enunciado": "En la zona que empieza con esta señal, ¿pueden los niños jugar en la calzada?",
+      "opciones": {
+        "a": "Sí, porque los peatones pueden usar toda la zona de circulación.",
+        "b": "No, en las zonas de coexistencia los juegos y los deportes no están autorizados.",
+        "c": "Sí, siempre que los vehículos no superen los 20 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "En la zona de coexistencia (S-47) la velocidad máxima es de 20 km/h, los peatones tienen prioridad y pueden usar toda la zona, pero los juegos y los deportes no están autorizados.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-47",
+        "cita": "lugares designados por señales o por marcas; los juegos y los\ndeportes no están autorizados.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-47",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-47.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-47: Zona de coexistencia",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-47",
+        "descripcion": "Zona de coexistencia"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0095",
+      "tema": "senales",
+      "subtema": "indicacion",
+      "materia": 8,
+      "enunciado": "Conduce un ciclomotor y encuentra esta señal junto a la zona de espera de un semáforo. ¿Puede ocupar esa zona?",
+      "opciones": {
+        "a": "No, porque esa zona está reservada solo a las motocicletas.",
+        "b": "No, porque esa zona está reservada solo a las bicicletas.",
+        "c": "Sí, porque el pictograma de motocicleta incluye a los ciclomotores."
+      },
+      "correcta": "c",
+      "explicacion": "La señal S-49 avanza moto o bici indica una zona de espera ante la línea de detención reservada a los vehículos indicados; el pictograma de motocicleta representa a motocicletas, vehículos de tres ruedas asimilados y ciclomotores.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-49",
+        "cita": "a los vehículos indicados en la señal (motocicletas, vehículos de\ntres ruedas asimilados a motocicletas y ciclomotores,",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-49",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-49.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-49: Avanza moto o bici",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-49",
+        "descripcion": "Avanza moto o bici"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0096",
+      "tema": "vias",
+      "subtema": "clases",
+      "materia": 7,
+      "enunciado": "En la carretera que empieza con esta señal, ¿para qué sirve el carril central?",
+      "opciones": {
+        "a": "Para facilitar el adelantamiento, reservado de manera alterna a uno y otro sentido.",
+        "b": "Para girar a la izquierda en las intersecciones.",
+        "c": "Solo para vehículos de servicios de urgencia."
+      },
+      "correcta": "a",
+      "explicacion": "La carretera 2+1 tiene tres carriles con circulación en ambos sentidos; el carril central facilita el adelantamiento y se reserva de manera alterna a uno y otro sentido.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-1c",
+        "cita": "El carril central se destina a facilitar la\nmaniobra de adelantamiento, estando reservado de manera\nalterna a uno y otro sentido de circulación.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC_CATALOGO S-1c",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-1c.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-1c: Carretera 2+1",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-1c",
+        "descripcion": "Carretera 2+1"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0097",
+      "tema": "senales",
+      "subtema": "marcas_viales",
+      "materia": 1,
+      "enunciado": "Ve esta inscripción pintada en el arcén, junto a la línea de borde. ¿A quién está dirigida principalmente?",
+      "opciones": {
+        "a": "A los conductores, para indicarles la velocidad máxima.",
+        "b": "A los equipos de salvamento aéreo, para indicarles el punto kilométrico.",
+        "c": "A los ciclistas, para indicarles la distancia al próximo pueblo."
+      },
+      "correcta": "b",
+      "explicacion": "La inscripción de punto kilométrico (M-6.20) indica el punto kilométrico de la carretera y está dirigida a equipos de salvamento aéreo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5.2 (marcas viales, 4.5, M-6.20)",
+        "cita": "De punto kilométrico (M-6.20): indica el punto kilométrico de la carretera. Está dirigida a equipos de salvamento aéreo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo I, marcas viales",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/marcas/M-6.20.png",
+        "alt": "Marca vial de la pregunta",
+        "alt_detalle": "Marca M-6.20: inscripción de punto kilométrico",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "marca_vial",
+        "codigo": "M-6.20",
+        "descripcion": "Inscripción de punto kilométrico"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0098",
+      "tema": "senales",
+      "subtema": "marcas_viales",
+      "materia": 5,
+      "enunciado": "¿Qué advierten tres triángulos como estos pintados sobre la calzada?",
+      "opciones": {
+        "a": "La obligación de ceder el paso.",
+        "b": "La aproximación a un paso para peatones.",
+        "c": "La presencia de un reductor de velocidad tipo «lomo de asno»."
+      },
+      "correcta": "c",
+      "explicacion": "La presencia de un reductor de velocidad tipo «lomo de asno» (M-4.5) se advierte mediante tres triángulos dispuestos sobre su parte ascendente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5.2 (marcas viales, 4.2, M-4.5)",
+        "cita": "la presencia de un reductor de velocidad tipo «lomo de asno» se advertirá mediante tres triángulos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo I, marcas viales",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/marcas/M-4.5.png",
+        "alt": "Marca vial de la pregunta",
+        "alt_detalle": "Marca M-4.5: reductor de velocidad tipo lomo de asno",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "marca_vial",
+        "codigo": "M-4.5",
+        "descripcion": "Marca de reductor de velocidad tipo lomo de asno"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0099",
+      "tema": "senales",
+      "subtema": "marcas_viales",
+      "materia": 1,
+      "enunciado": "Pintada en el centro de una intersección encuentra esta flecha curva. ¿Qué indica?",
+      "opciones": {
+        "a": "Una glorieta de radio reducido (miniglorieta) y el sentido de circulación en ella.",
+        "b": "Que está permitido cambiar de sentido en la intersección.",
+        "c": "Que el carril termina y debe incorporarse al de la izquierda."
+      },
+      "correcta": "a",
+      "explicacion": "Las flechas en miniglorietas (M-5.8 y M-5.9) indican una glorieta de radio reducido, con isleta central de 4 m de diámetro o menos, y el sentido de circulación en ella.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5.2 (marcas viales, 4.3, M-5.8)",
+        "cita": "Flechas en miniglorietas (M-5.8 y M-5.9): indican la existencia de una glorieta de radio reducido",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo I, marcas viales",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/marcas/M-5.8.png",
+        "alt": "Marca vial de la pregunta",
+        "alt_detalle": "Marca M-5.8: flecha en miniglorieta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "marca_vial",
+        "codigo": "M-5.8",
+        "descripcion": "Flecha en miniglorieta"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0100",
+      "tema": "senales",
+      "subtema": "marcas_viales",
+      "materia": 1,
+      "enunciado": "Ve esta inscripción pintada en su carril. ¿Qué indica?",
+      "opciones": {
+        "a": "Que el carril está reservado a los vehículos matriculados en esa provincia.",
+        "b": "El lugar que puede alcanzar si sigue por ese carril.",
+        "c": "Que ha entrado en el término municipal de esa población."
+      },
+      "correcta": "b",
+      "explicacion": "Las inscripciones de orientación (M-6.21 y M-6.22) indican la carretera, población u otro lugar que se puede alcanzar si se sigue por el carril en que están situadas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5.2 (marcas viales, 4.5, M-6.21)",
+        "cita": "que se pueda alcanzar si se sigue por el carril en que estén situadas las inscripciones",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo I, marcas viales",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/marcas/M-6.21.png",
+        "alt": "Marca vial de la pregunta",
+        "alt_detalle": "Marca M-6.21: inscripción de orientación",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "marca_vial",
+        "codigo": "M-6.21",
+        "descripcion": "Inscripción de orientación"
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0101",
+      "tema": "senales",
+      "subtema": "marcas_viales",
+      "materia": 1,
+      "enunciado": "En un puerto de montaña, la línea que separa los sentidos de circulación es una «línea de separación de sentidos sin regular el adelantamiento». ¿Qué información le da sobre el adelantamiento?",
+      "opciones": {
+        "a": "Que el adelantamiento está prohibido en todo el tramo.",
+        "b": "Que puede adelantar en todo el tramo sin restricciones.",
+        "c": "Ninguna: solo sirve para guiar el tráfico separando los sentidos."
+      },
+      "correcta": "c",
+      "explicacion": "La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I.5.2 (marcas viales, 4.1, M-1.13)",
+        "cita": "No proporciona a las personas usuarias indicaciones sobre la regulación del adelantamiento en función de la visibilidad de adelantamiento disponible.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo I, marcas viales",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0102",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 8,
+      "enunciado": "Circular en bicicleta sin el alumbrado reglamentario, ¿qué tipo de infracción es según la Ley de Tráfico?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Grave.",
+        "c": "Muy grave."
+      },
+      "correcta": "a",
+      "explicacion": "Circular en bicicleta sin hacer uso del alumbrado reglamentario es una infracción leve.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "75.a",
+        "cita": "a) Circular en una bicicleta sin hacer uso del alumbrado reglamentario.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 75",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0103",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 1,
+      "enunciado": "No pagar el peaje de una autopista cuando es exigible, ¿qué tipo de infracción es según la Ley de Tráfico?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Leve.",
+        "c": "Muy grave."
+      },
+      "correcta": "b",
+      "explicacion": "El impago de peaje, tasa o precio público, cuando estos son exigibles, es una infracción leve.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "75.b bis",
+        "cita": "b) bis. El impago de peaje, tasa o precio público, cuando estos fueran exigibles.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 75",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0104",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 4,
+      "enunciado": "Conducir con auriculares conectados a un reproductor de sonido, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Muy grave.",
+        "c": "Grave."
+      },
+      "correcta": "c",
+      "explicacion": "Conducir con cualquier tipo de casco de audio o auricular conectado a aparatos receptores o reproductores de sonido es una infracción grave.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "76.f",
+        "cita": "f) Conducir utilizando cualquier tipo de casco de audio o auricular conectado a aparatos receptores o reproductores de sonido",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 76",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0105",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 1,
+      "enunciado": "Llevar en el vehículo un detector de radares o cinemómetros, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Leve.",
+        "c": "Muy grave."
+      },
+      "correcta": "a",
+      "explicacion": "Llevar en los vehículos mecanismos de detección de radares o cinemómetros es una infracción grave; en cambio, conducir con inhibidores de radar es muy grave.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "76.g",
+        "cita": "así como llevar en los vehículos mecanismos de detección de radares o cinemómetros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 76",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0106",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 1,
+      "enunciado": "Conducir un vehículo que lleva instalado un inhibidor de radares, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Muy grave.",
+        "c": "Leve."
+      },
+      "correcta": "b",
+      "explicacion": "Conducir vehículos con inhibidores de radares o cinemómetros, o con mecanismos para interferir en los sistemas de vigilancia del tráfico, es una infracción muy grave.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "77.h",
+        "cita": "h) Conducir vehículos que tengan instalados inhibidores de radares o cinemómetros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 77",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0107",
+      "tema": "infracciones_sanciones",
+      "subtema": "cuantia_multas",
+      "materia": 1,
+      "enunciado": "¿Con qué multa se sanciona conducir un vehículo que lleva instalado un inhibidor de radares?",
+      "opciones": {
+        "a": "500 euros.",
+        "b": "1.000 euros.",
+        "c": "6.000 euros."
+      },
+      "correcta": "c",
+      "explicacion": "La infracción de conducir con inhibidores de radares o cinemómetros se sanciona con multa de 6.000 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "80.2.c",
+        "cita": "La infracción recogida en el artículo 77. h) se sancionará con multa de 6.000 euros.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 80",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0108",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 1,
+      "enunciado": "No respetar la luz roja de un semáforo, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Leve.",
+        "c": "Muy grave."
+      },
+      "correcta": "a",
+      "explicacion": "No respetar la luz roja de un semáforo es una infracción grave, igual que no respetar la señal de stop o la de ceda el paso.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "76.k",
+        "cita": "k) No respetar la luz roja de un semáforo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 76",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0110",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 12,
+      "enunciado": "Un turismo de 5 plazas, incluida la del conductor, circula con el conductor y 6 pasajeros. ¿Qué tipo de infracción es?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Muy grave.",
+        "c": "Grave."
+      },
+      "correcta": "c",
+      "explicacion": "La ocupación excesiva del vehículo que suponga aumentar en un 50 % el número de plazas autorizadas, excluida la del conductor, es una infracción grave.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "76.u",
+        "cita": "La ocupación excesiva del vehículo que suponga aumentar en un 50 por ciento el número de plazas autorizadas, excluida la del conductor.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 76",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0111",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 1,
+      "enunciado": "Circular en sentido contrario al establecido, cuando no es delito, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Muy grave.",
+        "b": "Grave.",
+        "c": "Leve."
+      },
+      "correcta": "a",
+      "explicacion": "Circular en sentido contrario al establecido es una infracción muy grave.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "77.f",
+        "cita": "f) Circular en sentido contrario al establecido.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 77",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0112",
+      "tema": "infracciones_sanciones",
+      "subtema": "calificacion",
+      "materia": 16,
+      "enunciado": "Tirar por la ventanilla una colilla encendida, objeto que puede producir un incendio, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Leve.",
+        "b": "Muy grave.",
+        "c": "Grave."
+      },
+      "correcta": "b",
+      "explicacion": "Arrojar a la vía o sus inmediaciones objetos que puedan producir incendios o accidentes es una infracción muy grave.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "77.x",
+        "cita": "x) Arrojar a la vía o sus inmediaciones objetos que puedan producir incendios o accidentes.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 77",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0113",
+      "tema": "infracciones_sanciones",
+      "subtema": "cuantia_multas",
+      "materia": 1,
+      "enunciado": "Como norma general, ¿con qué multa se sanciona una infracción grave?",
+      "opciones": {
+        "a": "100 euros.",
+        "b": "200 euros.",
+        "c": "500 euros."
+      },
+      "correcta": "b",
+      "explicacion": "Las infracciones leves se sancionan con multa de hasta 100 euros, las graves con 200 euros y las muy graves con 500 euros, salvo los excesos de velocidad y otros casos especiales.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "80.1",
+        "cita": "Las infracciones leves serán sancionadas con multa de hasta 100 euros; las graves, con multa de 200 euros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 80",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0114",
+      "tema": "infracciones_sanciones",
+      "subtema": "cuantia_multas",
+      "materia": 1,
+      "enunciado": "Como norma general, ¿con qué multa se sanciona una infracción muy grave?",
+      "opciones": {
+        "a": "200 euros.",
+        "b": "500 euros.",
+        "c": "1.000 euros."
+      },
+      "correcta": "b",
+      "explicacion": "Las infracciones muy graves se sancionan, como norma general, con multa de 500 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "80.1",
+        "cita": "y las muy graves, con multa de 500 euros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 80",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0115",
+      "tema": "infracciones_sanciones",
+      "subtema": "cuantia_multas",
+      "materia": 10,
+      "enunciado": "Requerido para ello, el titular de un vehículo no identifica al conductor que cometió con él una infracción grave sancionada con 200 euros. ¿Qué multa le corresponde por no identificarlo?",
+      "opciones": {
+        "a": "200 euros.",
+        "b": "400 euros.",
+        "c": "600 euros."
+      },
+      "correcta": "c",
+      "explicacion": "La multa por no identificar verazmente al conductor es el doble de la prevista para la infracción originaria si esta es leve, y el triple si es grave o muy grave.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "80.2.b",
+        "cita": "será el doble de la prevista para la infracción originaria que la motivó, si es infracción leve, y el triple, si es infracción grave o muy grave",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 80",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0116",
+      "tema": "infracciones_sanciones",
+      "subtema": "cuantia_multas",
+      "materia": 1,
+      "enunciado": "¿Hasta qué porcentaje puede incrementarse la cuantía de una multa según la gravedad del hecho, los antecedentes del infractor o el peligro creado?",
+      "opciones": {
+        "a": "Hasta un 30 %.",
+        "b": "Hasta un 50 %.",
+        "c": "Hasta un 100 %."
+      },
+      "correcta": "a",
+      "explicacion": "La cuantía de las multas puede incrementarse en un 30 % atendiendo a la gravedad y trascendencia del hecho, los antecedentes y la reincidencia del infractor, el peligro creado y la proporcionalidad.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "81",
+        "cita": "podrá incrementarse en un 30 por ciento, en atención a la gravedad y trascendencia del hecho",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 81",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0117",
+      "tema": "infracciones_sanciones",
+      "subtema": "responsables",
+      "materia": 15,
+      "enunciado": "El pasajero de una motocicleta viaja sin casco. ¿Quién es responsable de la infracción?",
+      "opciones": {
+        "a": "El conductor de la motocicleta.",
+        "b": "Solo el pasajero.",
+        "c": "El titular del seguro de la motocicleta."
+      },
+      "correcta": "a",
+      "explicacion": "El conductor de un vehículo en el que se exige casco a conductor y pasajero es responsable de que el pasajero no utilice el casco.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "82.a",
+        "cita": "será responsable por la no utilización del casco de protección por el pasajero",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 82",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0118",
+      "tema": "infracciones_sanciones",
+      "subtema": "responsables",
+      "materia": 10,
+      "enunciado": "Un conductor de 17 años es multado por una infracción de tráfico. ¿Quién responde de la multa junto con él?",
+      "opciones": {
+        "a": "Nadie, porque los menores no pueden ser multados.",
+        "b": "La autoescuela en la que obtuvo su permiso.",
+        "c": "Sus padres, tutores, acogedores o guardadores, de forma solidaria."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando el autor de la infracción es menor de dieciocho años, responden solidariamente con él de la multa sus padres, tutores, acogedores y guardadores legales o de hecho, por este orden.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "82.b",
+        "cita": "Cuando la autoría de los hechos cometidos corresponda a un menor de dieciocho años, responderán solidariamente con él de la multa impuesta sus padres",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 82",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0119",
+      "tema": "infracciones_sanciones",
+      "subtema": "responsables",
+      "materia": 10,
+      "enunciado": "Su coche aparece mal estacionado y no tiene designado conductor habitual. Si no indica quién lo conducía, ¿quién es responsable de la infracción por estacionamiento?",
+      "opciones": {
+        "a": "El último pasajero que viajó en él.",
+        "b": "Nadie, si no se identifica al conductor.",
+        "c": "El titular del vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "El titular, o el arrendatario que conste en el Registro de Vehículos, es responsable de las infracciones por estacionamiento, salvo que el vehículo tenga designado un conductor habitual o se indique un conductor responsable.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "82.g",
+        "cita": "será responsable de las infracciones por estacionamiento o por impago de los peajes de las vías que lo tengan regulado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 82",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0120",
+      "tema": "infracciones_sanciones",
+      "subtema": "responsables",
+      "materia": 10,
+      "enunciado": "Una infracción se detecta sin detener el vehículo, que tiene designado un conductor habitual. ¿Sobre quién recae la responsabilidad?",
+      "opciones": {
+        "a": "Sobre el conductor habitual, salvo que acredite que conducía otro.",
+        "b": "Siempre sobre el titular del vehículo, sin excepción.",
+        "c": "Sobre la compañía aseguradora del vehículo."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando no se detiene el vehículo y este tiene designado un conductor habitual, la responsabilidad recae en él, salvo que acredite que era otro el conductor o la sustracción del vehículo.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "82.c",
+        "cita": "y éste tuviese designado un conductor habitual, la responsabilidad recaerá en éste, salvo que acredite que era otro el conductor o la sustracción del vehículo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 82",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0121",
+      "tema": "infracciones_sanciones",
+      "subtema": "sanciones_velocidad",
+      "materia": 1,
+      "enunciado": "Un radar capta su turismo a 165 km/h en una autovía limitada a 120 km/h. ¿Qué multa le corresponde?",
+      "opciones": {
+        "a": "100 euros.",
+        "b": "300 euros.",
+        "c": "500 euros."
+      },
+      "correcta": "b",
+      "explicacion": "Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 120 km/h, circular entre 151 y 170 km/h se sanciona con 300 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo IV",
+        "cita": "41 51 61 71 91 101 111 121 131 141 151 151 300 2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV anexo IV",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0122",
+      "tema": "infracciones_sanciones",
+      "subtema": "sanciones_velocidad",
+      "materia": 1,
+      "enunciado": "Un radar capta su turismo a 185 km/h en una autovía limitada a 120 km/h. ¿Qué multa le corresponde?",
+      "opciones": {
+        "a": "400 euros.",
+        "b": "500 euros.",
+        "c": "600 euros."
+      },
+      "correcta": "b",
+      "explicacion": "Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 120 km/h, circular entre 181 y 190 km/h se sanciona con 500 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo IV",
+        "cita": "61 71 81 91 121 131 141 151 161 171 181 181 500 6",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV anexo IV",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0123",
+      "tema": "infracciones_sanciones",
+      "subtema": "sanciones_velocidad",
+      "materia": 1,
+      "enunciado": "En una calle limitada a 50 km/h, un radar capta su vehículo a 85 km/h. ¿Qué multa le corresponde?",
+      "opciones": {
+        "a": "300 euros.",
+        "b": "400 euros.",
+        "c": "600 euros."
+      },
+      "correcta": "b",
+      "explicacion": "Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 50 km/h, circular entre 81 y 90 km/h se sanciona con 400 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo IV",
+        "cita": "51 61 71 81 111 121 131 141 151 161 171 171 400 4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV anexo IV",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0124",
+      "tema": "infracciones_sanciones",
+      "subtema": "sanciones_velocidad",
+      "materia": 1,
+      "enunciado": "En una calle limitada a 30 km/h, un radar capta su vehículo a 55 km/h. ¿Qué multa le corresponde?",
+      "opciones": {
+        "a": "100 euros.",
+        "b": "200 euros.",
+        "c": "300 euros."
+      },
+      "correcta": "c",
+      "explicacion": "Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 30 km/h, circular entre 51 y 60 km/h se sanciona con 300 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo IV",
+        "cita": "41 51 61 71 91 101 111 121 131 141 151 151 300 2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV anexo IV",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0125",
+      "tema": "infracciones_sanciones",
+      "subtema": "sanciones_velocidad",
+      "materia": 1,
+      "enunciado": "En una carretera limitada a 100 km/h, un radar capta su turismo a 125 km/h. ¿Qué multa le corresponde?",
+      "opciones": {
+        "a": "100 euros.",
+        "b": "200 euros.",
+        "c": "300 euros."
+      },
+      "correcta": "a",
+      "explicacion": "Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 100 km/h, circular entre 101 y 130 km/h se sanciona con 100 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo IV",
+        "cita": "21 31 41 51 61 71 81 91 101 111 121 131 100 –",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV anexo IV",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0126",
+      "tema": "infracciones_sanciones",
+      "subtema": "sanciones_velocidad",
+      "materia": 1,
+      "enunciado": "En una carretera convencional limitada a 90 km/h, un radar capta su turismo a 165 km/h. ¿Qué tipo de infracción comete, cuando no es delito?",
+      "opciones": {
+        "a": "Muy grave, con multa de 600 euros.",
+        "b": "Grave, con multa de 500 euros.",
+        "c": "Grave, con multa de 400 euros."
+      },
+      "correcta": "a",
+      "explicacion": "Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 90 km/h, circular a 161 km/h o más es infracción muy grave, sancionada con 600 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo IV",
+        "cita": "Muy grave 71 81 91 101 131 141 151 161 171 181 191 191 600",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV anexo IV",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0127",
+      "tema": "infracciones_sanciones",
+      "subtema": "sanciones_velocidad",
+      "materia": 1,
+      "enunciado": "En una vía limitada a 60 km/h, un radar capta su vehículo a 95 km/h. ¿Qué multa le corresponde?",
+      "opciones": {
+        "a": "100 euros.",
+        "b": "300 euros.",
+        "c": "400 euros."
+      },
+      "correcta": "b",
+      "explicacion": "Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 60 km/h, circular entre 91 y 110 km/h se sanciona con 300 euros.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo IV",
+        "cita": "41 51 61 71 91 101 111 121 131 141 151 151 300 2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV anexo IV",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "x1b-0128",
+      "tema": "infracciones_sanciones",
+      "subtema": "sanciones_velocidad",
+      "materia": 1,
+      "enunciado": "En un tramo de autovía de acceso a una ciudad limitado a 80 km/h, un radar capta su vehículo a 98 km/h. Además de la multa del cuadro de sanciones, ¿se producen otros efectos administrativos o penales por ese exceso?",
+      "opciones": {
+        "a": "Sí, los mismos que en cualquier otra vía limitada a 80 km/h.",
+        "b": "No, porque en esos tramos los excesos de velocidad no se sancionan.",
+        "c": "No, porque esos efectos solo se producen cuando se superan los 100 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "En los tramos de autovías y autopistas interurbanas de acceso a las ciudades con límites inferiores a 100 km/h, los excesos se sancionan con la multa del cuadro, pero el resto de efectos administrativos y penales solo se produce cuando se superan los 100 km/h.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo IV",
+        "cita": "El resto de los efectos administrativos y penales sólo se producirá cuando superen los 100 km/h",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV anexo IV",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    }
+  ]
+}

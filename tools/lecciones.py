@@ -19,6 +19,7 @@ en la cita principal de la pregunta. Se comprueban contra los textos del BOE com
 Uso:
   python3 -I tools/lecciones.py               comprueba todas las lecciones (código 1 si hay fallos)
   python3 -I tools/lecciones.py --sellar      además pone la huella actual a las lecciones sin huella
+  python3 -I tools/lecciones.py <fichero.json>  comprueba solo ese fichero
   python3 -I tools/lecciones.py --sellar-todo pone la huella actual a todas (solo tras revisarlas)
 """
 import glob, hashlib, json, os, re, sys
@@ -110,7 +111,10 @@ def main():
     qs = preguntas()
     fallos = desfasadas = total = 0
     vistos = {}
+    solo = [os.path.abspath(a) for a in sys.argv[1:] if not a.startswith("--")]
     for fich in ficheros():
+        if solo and os.path.abspath(fich) not in solo:
+            continue
         d = json.load(open(fich, encoding="utf-8"))
         cambiado = False
         for l in d["lecciones"]:

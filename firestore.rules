@@ -69,13 +69,15 @@ service cloud.firestore {
         return miCorreo() in get(/databases/$(database)/documents/compartidos/$(para)).data.companeros;
       }
       allow create: if autorizado()
-        && request.resource.data.keys().hasOnly(["de", "deNombre", "para", "texto", "creado", "leido"])
-        && request.resource.data.keys().hasAll(["de", "deNombre", "para", "texto", "creado", "leido"])
+        && request.resource.data.keys().hasOnly(["de", "deNombre", "deCorreo", "para", "texto", "creado", "leido"])
+        && request.resource.data.keys().hasAll(["de", "deNombre", "deCorreo", "para", "texto", "creado", "leido"])
         && request.resource.data.de == request.auth.uid
         && request.resource.data.para is string
         && request.resource.data.para != request.auth.uid
         && request.resource.data.deNombre is string
         && request.resource.data.deNombre.size() <= 60
+        // El correo lo pone la cuenta que lo manda: nadie puede firmar como otra persona.
+        && request.resource.data.deCorreo == miCorreo()
         && request.resource.data.texto is string
         && request.resource.data.texto.size() >= 1
         && request.resource.data.texto.size() <= 300

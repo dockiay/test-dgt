@@ -312,7 +312,8 @@
     const r = P.resumen(A.datos, x.unidad.ids);
     apuntarAvance(x.clave);
     pantallaCamino();
-    setTimeout(() => { if (window.Animo) Animo.aviso(`¡Cofre abierto! Dominas ${r.dominada} de ${x.unidad.ids.length} en esta unidad`, "logro"); }, reducido() ? 0 : 900);
+    const texto = r.dominada >= 5 ? `¡Cofre abierto! Ya dominas ${r.dominada} preguntas de esta unidad` : "¡Cofre abierto! Ya vas por la mitad de la unidad";
+    setTimeout(() => { if (window.Animo) Animo.aviso(texto, "logro"); }, reducido() ? 0 : 900);
   }
   function tocarNodo(x) {
     const act = nodoActual(A.datos), hecho = hechoN(A.datos, x), u = x.unidad;

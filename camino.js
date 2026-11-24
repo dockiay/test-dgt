@@ -252,6 +252,7 @@
   // ---------- Celebraciones ----------
   let cola = [], celebrando = false;
   function celebrar(nuevos) {
+    if (window.Celebracion && Celebracion.abierta) return; // la celebración de fin de lección ya los enseña
     cola.push(...nuevos);
     if (celebrando) return;
     celebrando = true;

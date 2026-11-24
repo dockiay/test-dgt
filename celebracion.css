@@ -1,0 +1,154 @@
+/* Celebración al terminar una lección o un examen (celebracion.js).
+   Capa a pantalla completa con el estilo «Carretera»: tarjetas con relieve, colores de señal y
+   animaciones con rebote. Con «reducir movimiento» solo hay fundidos. */
+body.celebrando { overflow: hidden; }
+.celebra {
+  position: fixed; inset: 0; z-index: 35; display: flex; flex-direction: column;
+  background: var(--fondo); color: var(--texto);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);
+}
+.celebra-escena, .celebra-pie { animation: fundido .25s ease both; }
+.celebra.saliendo { animation: cel-salir .26s ease both; }
+@keyframes cel-salir { to { opacity: 0; transform: scale(1.02); } }
+.celebra-escena { flex: 1; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-direction: column; }
+.cel-paso { width: 100%; max-width: 520px; margin: auto; padding: 24px var(--margen) 16px; text-align: center; }
+.celebra-pie { padding: 12px var(--margen) calc(16px + env(safe-area-inset-bottom)); border-top: 1px solid var(--separador); background: var(--fondo); }
+.celebra-pie .boton { display: flex; max-width: 520px; margin: 0 auto; width: 100%; }
+.celebra-pie .boton.late { animation: latido 1.6s ease-in-out infinite; }
+
+/* ---- Héroe: rayos, coche y destellos ---- */
+.cel-heroe { position: relative; width: 220px; height: 176px; margin: 0 auto 6px; display: grid; place-items: center; }
+.cel-rayos { position: absolute; inset: -18px; border-radius: 50%; pointer-events: none;
+  background: repeating-conic-gradient(from 0deg, var(--ambar-suave) 0 12deg, transparent 12deg 30deg);
+  -webkit-mask: radial-gradient(circle, #000 30%, transparent 70%); mask: radial-gradient(circle, #000 30%, transparent 70%);
+  animation: cel-girar 14s linear infinite, fundido .6s ease .3s both; }
+.humor-animo .cel-rayos { background: repeating-conic-gradient(from 0deg, var(--tinte-suave) 0 12deg, transparent 12deg 30deg); }
+@keyframes cel-girar { to { transform: rotate(360deg); } }
+.destellos { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
+.destellos .d { fill: var(--ambar); transform-box: fill-box; transform-origin: center; opacity: 0; animation: cel-destello 1.8s ease-in-out calc(.9s + var(--i) * .17s) infinite; }
+.destellos .d:nth-child(even) { fill: var(--tinte); }
+@keyframes cel-destello { 0%, 100% { opacity: 0; scale: .3; } 40% { opacity: 1; scale: 1.15; } 70% { opacity: .8; scale: .9; } }
+
+.coche { position: relative; width: 190px; height: auto; overflow: visible; animation: cel-entrar .8s cubic-bezier(.2,1.25,.4,1) both; }
+.coche .c-cuerpo { transform-box: view-box; transform-origin: 80px 105px; animation: cel-frenar .55s ease-out .6s both; }
+.coche .c-salta { transform-box: view-box; transform-origin: 80px 113px; animation: cel-salto 1.1s cubic-bezier(.3,1.6,.5,1) 1.15s 2 both; }
+.humor-perfecto .coche .c-salta { animation: cel-salto 1s cubic-bezier(.3,1.6,.5,1) 1.15s 3 both; }
+.humor-animo .coche .c-salta { animation: cel-asentir 1.6s ease-in-out 1.2s 2 both; }
+.coche .c-carroceria { fill: var(--tinte); stroke: var(--tinte-borde); stroke-width: 3; stroke-linejoin: round; }
+.coche .c-cristal { fill: #dff1ff; stroke: var(--tinte-borde); stroke-width: 2.5; stroke-linejoin: round; }
+.coche .c-brillo { fill: #fff; opacity: .7; }
+.coche .c-ojo { fill: #fff; stroke: #1b2232; stroke-width: 2; }
+.coche .c-pupila { fill: #1b2232; animation: cel-mirar 3.2s ease-in-out 1.6s infinite; }
+.coche .c-boca { fill: none; stroke: #1b2232; stroke-width: 2.6; stroke-linecap: round; }
+.coche .c-moflete { stroke: #ff8fa3; stroke-width: 7; stroke-linecap: round; opacity: .55; }
+.coche .c-faro { fill: #fff3b0; stroke: var(--tinte-borde); stroke-width: 2; animation: cel-faro .3s ease 1.25s 3 alternate; }
+.coche .c-piloto { fill: #ff6b6b; stroke: var(--tinte-borde); stroke-width: 2; }
+.coche .c-placa { fill: #fff; stroke: var(--tinte-borde); stroke-width: 2; }
+.coche .c-l { font: 900 9px/1 "Nunito", sans-serif; fill: #fff; }
+.coche .c-placa + .c-l { fill: #1b2232; }
+.coche .c-rueda circle { fill: #2c3346; stroke: #1b2232; stroke-width: 3; }
+.coche .c-rueda path { stroke: #8a94aa; stroke-width: 2.5; stroke-linecap: round; }
+.coche .c-rueda { transform-box: view-box; animation: cel-rodar .8s cubic-bezier(.2,.8,.4,1) both; }
+.coche .c-sombra ellipse { fill: rgba(20,30,60,.14); }
+.coche .c-humo circle { fill: var(--relleno-fuerte); opacity: 0; animation: cel-humo .9s ease-out .1s 1 both; }
+@keyframes cel-entrar { from { transform: translateX(-120vw); } to { transform: none; } }
+@keyframes cel-rodar { from { transform: rotate(-900deg); } to { transform: none; } }
+@keyframes cel-frenar { 0% { transform: rotate(0); } 35% { transform: rotate(4deg); } 70% { transform: rotate(-1.5deg); } 100% { transform: none; } }
+@keyframes cel-salto { 0%, 100% { transform: none; } 15% { transform: scale(1.06, .92); } 45% { transform: translateY(-22px) scale(.97, 1.04); } 75% { transform: translateY(0) scale(1.04, .95); } }
+@keyframes cel-asentir { 0%, 100% { transform: none; } 30% { transform: rotate(-3deg) translateY(-3px); } 60% { transform: rotate(2deg); } }
+@keyframes cel-mirar { 0%, 40%, 100% { transform: none; } 50%, 80% { transform: translate(-1.6px, -.6px); } }
+@keyframes cel-faro { to { fill: #fff; filter: drop-shadow(0 0 6px #ffe680); } }
+@keyframes cel-humo { 0% { opacity: .9; transform: none; } 100% { opacity: 0; transform: translate(-18px, -10px) scale(1.8); } }
+
+/* ---- Títulos ---- */
+.cel-titulo { font-size: 2rem; font-weight: 900; letter-spacing: -.02em; line-height: 1.1; margin: 4px 0 6px; color: var(--ambar-texto); animation: pop .5s cubic-bezier(.2,1.6,.4,1) .45s both; }
+.humor-animo ~ .cel-titulo { color: var(--tinte-texto); }
+.cel-racha .cel-titulo { color: var(--naranja-texto); }
+.cel-logros .cel-titulo { color: var(--violeta); }
+:root[data-theme="dark"] .cel-logros .cel-titulo { color: #b794ff; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cel-logros .cel-titulo { color: #b794ff; } }
+.cel-frase { color: var(--texto2); font-size: 1.0625rem; margin: 0 auto; max-width: 34ch; animation: aparecer .4s ease .7s both; }
+.cel-serie { display: inline-flex; align-items: center; gap: 6px; margin: 10px 0 0; padding: 4px 12px; border-radius: 999px; background: var(--ambar-suave); color: var(--ambar-texto); font-weight: 900; font-size: .9375rem; animation: aparecer .4s ease .85s both; }
+.cel-serie svg.ico { width: 18px; height: 18px; } .cel-serie svg path { fill: currentColor; stroke: none; }
+
+/* ---- Cifras: tres teselas con cabecera de color ---- */
+.cel-cifras { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 24px 0 4px; }
+.cel-cifra { --c: var(--tinte); --cb: var(--tinte-borde); border: 2.5px solid var(--c); border-radius: 18px; background: var(--c); box-shadow: 0 var(--relieve) 0 var(--cb); overflow: hidden; opacity: 0; transform: translateY(18px) scale(.8); }
+.cel-cifra.c-verde { --c: var(--verde); --cb: var(--verde-borde); }
+.cel-cifra.c-ambar { --c: var(--ambar); --cb: var(--ambar-borde); }
+.cel-cifra.c-naranja { --c: var(--naranja); --cb: var(--naranja-borde); }
+.cel-cifra.c-azul { --c: var(--tinte); --cb: var(--tinte-borde); }
+.cel-cifra.visible { animation: cel-tesela .55s cubic-bezier(.2,1.6,.4,1) both; }
+.cel-cifra.lista .cel-cuerpo { animation: cel-latido .35s ease; }
+@keyframes cel-tesela { from { opacity: 0; transform: translateY(18px) scale(.8); } to { opacity: 1; transform: none; } }
+@keyframes cel-latido { 50% { transform: scale(1.08); } }
+.cel-cabecera { display: block; padding: 4px 4px 3px; font-size: .75rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cel-cifra.c-ambar .cel-cabecera { color: #3d2600; }
+.cel-cuerpo { display: flex; align-items: center; justify-content: center; gap: 5px; padding: 12px 4px; background: var(--celda); border-radius: 15px 15px 15px 15px; margin: 0 0 0; min-height: 58px; }
+.cel-cuerpo svg.ico { width: 22px; height: 22px; stroke-width: 3; color: var(--c); flex: none; }
+.cel-cifra.c-ambar .cel-cuerpo svg.ico { color: var(--ambar-borde); }
+.cel-valor { font-size: 1.375rem; font-weight: 900; font-variant-numeric: tabular-nums; color: var(--texto); }
+
+/* ---- Racha ---- */
+.cel-llama { position: relative; width: 200px; height: 190px; margin: 0 auto 4px; display: grid; place-items: center; }
+.cel-llama .cel-rayos { background: repeating-conic-gradient(from 0deg, var(--naranja-suave) 0 12deg, transparent 12deg 30deg); }
+.cel-llama > svg.ico { width: 150px; height: 150px; color: var(--naranja); filter: drop-shadow(0 6px 0 var(--naranja-borde)); animation: cel-prender .7s cubic-bezier(.2,1.6,.4,1) .1s both, llama 2.4s ease-in-out .9s infinite; transform-origin: 50% 90%; }
+.cel-llama > svg path { fill: currentColor; stroke: none; }
+.cel-numero { position: absolute; left: 0; right: 0; bottom: 30px; height: 56px; overflow: hidden; font-size: 3rem; line-height: 56px; font-weight: 900; color: #fff; font-variant-numeric: tabular-nums; text-shadow: 0 3px 0 var(--naranja-borde); }
+.cel-rodillo { display: flex; flex-direction: column; transition: transform .6s cubic-bezier(.3,1.5,.5,1); }
+.cel-rodillo > span { height: 56px; }
+.cel-racha.gira .cel-rodillo { transform: translateY(-56px); }
+.cel-racha.gira .cel-numero { animation: cel-latido .5s ease .25s; }
+@keyframes cel-prender { from { opacity: 0; transform: scale(.3) translateY(20px); } to { opacity: 1; transform: none; } }
+.cel-semana { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 22px auto 0; max-width: 380px; padding: 14px 12px; border-radius: 18px; background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 3px 0 var(--borde); animation: aparecer .4s ease .6s both; }
+.cel-dia { display: grid; justify-items: center; gap: 4px; font-size: .75rem; font-weight: 800; color: var(--texto2); }
+.cel-dia i { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--relleno-fuerte); color: transparent; }
+.cel-dia i svg.ico { width: 18px; height: 18px; stroke-width: 3.4; }
+.cel-dia.hecho i { background: var(--naranja); color: #fff; }
+.cel-dia.descanso i { background: var(--tinte-suave); color: var(--tinte-texto); }
+.cel-dia.hoy b { color: var(--naranja-texto); }
+.cel-dia.hoy i { box-shadow: 0 0 0 3px var(--naranja-suave); }
+.cel-dia.pop i { animation: cel-dia .5s cubic-bezier(.2,1.8,.4,1); }
+@keyframes cel-dia { 0% { transform: scale(.4); } 100% { transform: none; } }
+.cel-meta { margin: 14px auto 0; max-width: 380px; text-align: left; animation: aparecer .4s ease .8s both; }
+.cel-meta-texto { display: flex; align-items: center; gap: 6px; font-weight: 800; font-size: .9375rem; color: var(--texto2); margin: 0 4px 6px; }
+.cel-meta.cumplida .cel-meta-texto { color: var(--verde-texto); }
+.cel-meta-texto svg.ico { width: 18px; height: 18px; stroke-width: 3.2; }
+.cel-meta .progreso { margin: 0; height: 14px; }
+.cel-meta .progreso > i { min-width: 0; background: var(--ambar); transition: width .8s cubic-bezier(.3,1.2,.5,1); }
+.cel-meta.cumplida .progreso > i { background: var(--verde); }
+.cel-meta.brilla .progreso { animation: cel-latido .45s ease; }
+.cel-protector { display: inline-flex; text-align: left; align-items: center; gap: 6px; margin: 14px auto 0; font-size: .875rem; color: var(--texto2); font-weight: 700; max-width: 40ch; animation: aparecer .4s ease 1s both; }
+.cel-protector svg.ico { width: 18px; height: 18px; color: var(--tinte-texto); flex: none; }
+
+/* ---- Logros ---- */
+.cel-medalla-grande { position: relative; width: 120px; height: 120px; border-radius: 50%; display: grid; place-items: center; background: var(--violeta); color: #fff; box-shadow: inset 0 -8px 0 rgba(0,0,0,.2), 0 6px 0 var(--violeta-borde); animation: cel-prender .7s cubic-bezier(.2,1.6,.4,1) .1s both; overflow: hidden; }
+.cel-medalla-grande::after { content: ""; position: absolute; inset: -20%; background: linear-gradient(110deg, transparent 40%, rgba(255,255,255,.55) 50%, transparent 60%); animation: cel-brillo 2.4s ease-in-out .9s infinite; }
+@keyframes cel-brillo { from { transform: translateX(-80%); } 50%, to { transform: translateX(80%); } }
+.cel-medalla-grande svg.ico { width: 64px; height: 64px; stroke-width: 2.6; }
+.cel-lista-logros { list-style: none; padding: 0; margin: 20px auto 0; max-width: 420px; display: grid; gap: 10px; text-align: left; }
+.cel-lista-logros li { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 18px; background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 3px 0 var(--borde); opacity: 0; transform: translateY(14px); }
+.cel-lista-logros li.visible { animation: cel-tesela .5s cubic-bezier(.2,1.6,.4,1) both; }
+.cel-lista-logros b { display: block; font-weight: 900; }
+.cel-lista-logros small { display: block; color: var(--texto2); font-size: .875rem; font-weight: 700; }
+.cel-sello { flex: none; width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; background: var(--violeta); color: #fff; box-shadow: inset 0 -4px 0 rgba(0,0,0,.18); }
+.cel-sello.corona { background: var(--ambar); color: #3d2600; }
+.cel-sello svg.ico { width: 24px; height: 24px; stroke-width: 2.8; }
+
+/* ---- Ordenador: tarjeta centrada ---- */
+@media (min-width: 760px) {
+  .celebra { background: color-mix(in srgb, var(--fondo) 86%, transparent); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); justify-content: center; align-items: center; padding: 24px; }
+  .celebra-escena, .celebra-pie { width: 560px; flex: none; background: var(--celda); }
+  .celebra-escena { border-radius: 28px 28px 0 0; max-height: calc(100dvh - 160px); border: 2px solid var(--borde); border-bottom: 0; }
+  .celebra-pie { border-radius: 0 0 28px 28px; border: 2px solid var(--borde); border-top: 1px solid var(--separador); box-shadow: 0 6px 0 var(--borde), var(--sombra); padding: 14px 24px 18px; }
+  .cel-paso { padding: 30px 28px 20px; }
+  .cel-cifra .cel-cuerpo, .cel-lista-logros li, .cel-semana { background: var(--fondo); }
+}
+
+/* ---- Reducir movimiento: todo en su sitio, solo fundidos ---- */
+@media (prefers-reduced-motion: reduce) {
+  .celebra *, .celebra *::after { animation: none !important; transition: none !important; }
+  .celebra-escena, .celebra-pie { animation: fundido .2s ease both !important; }
+  .cel-cifra, .cel-lista-logros li { opacity: 1; transform: none; }
+  .cel-racha.gira .cel-rodillo { transform: translateY(-56px); }
+}

@@ -5489,8 +5489,8 @@ En un aceite multigrado 10W/40, ¿qué indica «10W»?
 Respuesta: **Que se reparte bien por el motor aunque haya poca temperatura.**
 
 - ✔ En un aceite multigrado 10W/40, la cifra 10W indica que se reparte bien por el motor aunque haya poca temperatura, y la cifra 40 que soporta temperaturas muy altas sin estropearse. _(MANUAL_DGT Tema 15, Clases de aceites (p. 375))_
-- ✘ `v5f-mec-0004` El aceite se vuelve más espeso con el frío y más líquido con el calor. Con temperaturas bajas conviene un aceite más líquido, para que circule mejor por el motor al arrancar. Los aceites multigrado se adaptan al frío y al calor. _(MANUAL_DGT Tema 15, Clases de aceites (pág. 373))_
 - ✘ `xe-0075` Según el manual de la DGT, los aceites sintéticos resisten mejor el frío y el calor, facilitan el arranque en frío y duran más, por lo que hay que cambiarlos menos veces. _(MANUAL_DGT Tema 15, Clases de aceites (p. 374))_
+- ✘ `xe-0041` Según el manual de la DGT, el cambio de aceite se hace con el vehículo recto y el motor parado y caliente; el nivel, en cambio, se mira con el motor parado y frío. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 376))_
 
 ## xe-0045
 
@@ -5760,7 +5760,7 @@ Respuesta: **Resisten mejor el frío y el calor.**
 
 - ✔ Según el manual de la DGT, los aceites sintéticos resisten mejor el frío y el calor, facilitan el arranque en frío y duran más, por lo que hay que cambiarlos menos veces. _(MANUAL_DGT Tema 15, Clases de aceites (p. 374))_
 - ✘ `xe-0042` Según el manual de la DGT, el humo blanco azulado por el tubo de escape indica que el vehículo lleva demasiado aceite. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 376))_
-- ✘ `v5f-mec-0004` El aceite se vuelve más espeso con el frío y más líquido con el calor. Con temperaturas bajas conviene un aceite más líquido, para que circule mejor por el motor al arrancar. Los aceites multigrado se adaptan al frío y al calor. _(MANUAL_DGT Tema 15, Clases de aceites (pág. 373))_
+- ✘ `xe-0051` Según el manual de la DGT, la vibración del volante durante la marcha puede deberse a que las ruedas no están bien equilibradas. _(MANUAL_DGT Tema 15, Sistema de dirección (p. 380))_
 
 ## xe-0076
 
@@ -6101,8 +6101,8 @@ Respuesta: **Justo después de encender el motor.**
 Respuesta: **Se gasta más combustible y el motor se desgasta antes.**
 
 - ✔ Según el manual de la DGT, circular a mucha velocidad con el motor frío hace que se gaste más combustible y que el motor se desgaste antes. _(MANUAL_DGT Tema 17, Técnicas para conducir de forma eficiente (p. 452))_
-- ✘ `v5f-efi-0001` Para conducir de forma eficiente hay que arrancar el motor sin pisar el acelerador y empezar a circular justo después de encenderlo, a poca velocidad hasta que se caliente. _(MANUAL_DGT Tema 17, Al arrancar y empezar a circular (pág. 451))_
 - ✘ `xe-0133` El modo Eco pone el motor a menos potencia y velocidad para ahorrar combustible, y se enciende y apaga de forma manual; parar el motor en los semáforos es función del sistema Start-Stop. _(MANUAL_DGT Tema 17, Modo Eco (p. 462))_
+- ✘ `E-efi-0002` Se arranca en primera y se pasa a segunda a los pocos segundos; las marchas largas son las que menos consumen. _(MANUAL_DGT Tema 17, Técnicas para conducir de forma eficiente (p. 453))_
 
 ## xe-0121
 
@@ -13284,7 +13284,7 @@ Respuesta: **No inferior a 1,50 metros.**
 
 - ✔ El conductor de un vehículo de dos ruedas que adelanta fuera de poblado a cualquier otro vehículo debe dejar entre ambos un espacio no inferior a 1,50 metros. _(RGC 85.5)_
 - ✘ `x1a-0126` La prohibición de adelantar en las intersecciones y sus proximidades no se aplica en las plazas de circulación giratoria o glorietas, entre otras excepciones. _(RGC 87.1.c.1º)_
-- ✘ `adel-0005` Al rebasar un vehículo inmovilizado por avería, accidente o servicio de urgencia o auxilio que ocupe la calzada, hay que mantener al menos 1,5 m y reducir la velocidad al menos 20 km/h. _(RGC 88.1)_
+- ✘ `A-adel-0006` El conductor que va a ser adelantado debe ceñirse al borde derecho de la calzada (salvo si va a girar o parar a la izquierda) y tiene prohibido aumentar la velocidad o dificultar el adelantamiento. _(RGC 86.1)_
 
 ## v2-adel-0004
 
@@ -14256,7 +14256,7 @@ Respuesta: **Al menos la luz de corto alcance o de cruce.**
 
 - ✔ Los vehículos que circulan por los arcenes y por el carril adicional circunstancial deben llevar al menos el alumbrado de corto alcance o de cruce, de día y de noche, a un máximo de 80 km/h y un mínimo de 60 km/h salvo señalización de otros valores inferiores. _(RGC 42.1)_
 - ✘ `v5a-cesp-0001` Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de la vía, pueden utilizar los carriles reservados, incluido el VAO. _(RGC 35.2.c)_
-- ✘ `res-cesp-0003` Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida. _(RGC 41.1)_
+- ✘ `res-cesp-0002` Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales. _(RGC 41.1)_
 
 ## v5a-vel-0001
 
@@ -14310,7 +14310,7 @@ Respuesta: **Sí, si la autoridad municipal lo establece excepcionalmente con se
 
 - ✔ El límite genérico en vías urbanas de un único carril por sentido es 30 km/h, pero la autoridad municipal puede aumentarlo excepcionalmente hasta 50 km/h mediante señalización específica. _(RGC 50.3)_
 - ✘ `x1a-0039` Fuera de poblado, los ciclos, los ciclomotores de dos y tres ruedas y los cuadriciclos ligeros tienen una velocidad máxima de 45 km/h. _(RGC 48.1.e)_
-- ✘ `x1a-0022` Los titulares de la vía fijan con señales los límites específicos de cada tramo; donde no hay señalización específica se cumple el límite genérico establecido para cada vía. _(RGC 47)_
+- ✘ `x1a-0049` Todo conductor que va a reducir considerablemente la velocidad, salvo peligro inminente, tiene que cerciorarse de que no hay riesgo para otros conductores, advertirlo previamente y no hacerlo de forma brusca. _(RGC 53.1)_
 
 ## v5a-pri-0001
 
@@ -14858,8 +14858,8 @@ Es imprescindible mover a un herido porque en ese lugar corre peligro su vida. �
 Respuesta: **Entre tres personas coordinadas, moviéndolo como un solo bloque, con cabeza, cuello y cuerpo alineados.**
 
 - ✔ Si hay que mover a un herido porque corre peligro su vida, se hace entre tres personas coordinadas, como si fuera un solo bloque, para no mover su cuello y mantener alineados cabeza, cuello y cuerpo. _(MANUAL_DGT Tema 16, ¿Cómo debes mover a un herido? (pág. 421))_
-- ✘ `xe-0020` Según el manual de la DGT, para sacar a un herido del vehículo se pasan los brazos bajo sus axilas, se coge su brazo con una mano y se sujeta la barbilla con la otra, manteniendo cabeza, cuello y tronco en línea. _(MANUAL_DGT Tema 16, ¿Cómo debes mover a un herido? (p. 423))_
 - ✘ `xe-0023` Según el manual de la DGT, si la persona está boca abajo hay que girarla boca arriba y subir su barbilla para abrir sus vías respiratorias y comprobar si respira. _(MANUAL_DGT Tema 16, Respiración (p. 425))_
+- ✘ `xe-0022` Según el manual de la DGT, la respiración normal de un herido se comprueba durante 10 segundos, mirando su pecho y acercando la cara a su boca. _(MANUAL_DGT Tema 16, Respiración (p. 426))_
 
 ## v5f-aux-0004
 
@@ -14912,8 +14912,8 @@ Cuando la temperatura es baja, ¿qué tipo de aceite de motor es mejor usar?
 Respuesta: **Un aceite más líquido, que circule mejor al arrancar.**
 
 - ✔ El aceite se vuelve más espeso con el frío y más líquido con el calor. Con temperaturas bajas conviene un aceite más líquido, para que circule mejor por el motor al arrancar. Los aceites multigrado se adaptan al frío y al calor. _(MANUAL_DGT Tema 15, Clases de aceites (pág. 373))_
-- ✘ `xe-0043` En un aceite multigrado 10W/40, la cifra 10W indica que se reparte bien por el motor aunque haya poca temperatura, y la cifra 40 que soporta temperaturas muy altas sin estropearse. _(MANUAL_DGT Tema 15, Clases de aceites (p. 375))_
-- ✘ `xe-0075` Según el manual de la DGT, los aceites sintéticos resisten mejor el frío y el calor, facilitan el arranque en frío y duran más, por lo que hay que cambiarlos menos veces. _(MANUAL_DGT Tema 15, Clases de aceites (p. 374))_
+- ✘ `xe-0042` Según el manual de la DGT, el humo blanco azulado por el tubo de escape indica que el vehículo lleva demasiado aceite. _(MANUAL_DGT Tema 15, Sistema de lubricación (p. 376))_
+- ✘ `xe-0052` La dirección asistida progresiva hace que el volante gire muy fácil cuando el vehículo va despacio y cueste un poco más a más velocidad, para controlar mejor el vehículo. _(MANUAL_DGT Tema 15, Dirección asistida (p. 381))_
 
 ## v5f-luc-0001
 

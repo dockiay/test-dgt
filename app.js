@@ -53,26 +53,17 @@
       f && f.norma && f.articulo && f.cita && URL_OFICIAL.test(f.url || "") && (!p.imagen || p.imagen.src);
   }
 
-  // ---------- Almacenamiento local ----------
-  const CLAVE = "testB.v1";
-  let datos = cargar();
-  function cargar() {
-    let d = null;
-    try { d = JSON.parse(localStorage.getItem(CLAVE)); } catch (e) { /* sin almacenamiento */ }
-    d = d && typeof d === "object" ? d : {};
-    return { fallos: d.fallos || {}, dudosas: d.dudosas || {}, historial: d.historial || [], vistas: d.vistas || {} };
-  }
-  function guardar() { try { localStorage.setItem(CLAVE, JSON.stringify(datos)); } catch (e) { /* sin almacenamiento */ } }
+  // ---------- Progreso (modelo en progreso.js) ----------
+  const P = window.Progreso;
+  let datos = P.cargar();
+  function guardar() { P.guardar(datos); }
   function seccionActual() { return (location.hash || "#/").slice(2).split("/")[0] || "inicio"; }
-  function registrar(p, acierto, modo) {
-    const v = datos.vistas[p.id] || { ok: 0, ko: 0 };
-    acierto ? v.ok++ : v.ko++;
-    datos.vistas[p.id] = v;
-    if (!acierto) datos.fallos[p.id] = { veces: ((datos.fallos[p.id] || {}).veces || 0) + 1, fecha: hoy() };
-    else if (modo === "fallos") delete datos.fallos[p.id];
-    guardar();
-  }
-  const fallosActuales = () => Object.keys(datos.fallos).filter(id => POR_ID.has(id));
+  function registrar(p, acierto) { P.registrar(datos, p.id, acierto); guardar(); }
+  const TODAS = PREGUNTAS.map(p => p.id);
+  const POR_MATERIA = {};
+  for (const p of PREGUNTAS) (POR_MATERIA[p.materia] = POR_MATERIA[p.materia] || []).push(p.id);
+  const fallosActuales = () => P.enRepaso(datos, TODAS);   // todas las que están en el repaso espaciado
+  const fallosDeHoy = () => P.paraHoy(datos, TODAS);       // las que toca repasar ya
 
   // ---------- Utilidades ----------
   function h(tag, attrs, ...hijos) {
@@ -162,6 +153,12 @@
   function barajar(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
   function hoy() { return new Date().toISOString().slice(0, 10); }
   function fechaES(iso) { if (!iso) return ""; const [y, m, d] = iso.slice(0, 10).split("-"); return [d, m, y].filter(Boolean).join("/"); }
+  function fechaCorta(ms) {
+    const d = new Date(ms), hoy0 = new Date(); hoy0.setHours(0, 0, 0, 0);
+    const dias = Math.round((new Date(d).setHours(0, 0, 0, 0) - hoy0) / 86400000);
+    if (dias <= 0) return "Hoy"; if (dias === 1) return "Mañana";
+    return d.toLocaleDateString("es-ES", { day: "numeric", month: "short" });
+  }
   function mmss(s) { s = Math.max(0, Math.round(s)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; }
   const plural = (n, uno, varios) => `${n} ${n === 1 ? uno : varios}`;
   const nombreTema = t => NOMBRE_TEMA[t] || (t.charAt(0).toUpperCase() + t.slice(1)).replace(/_/g, " ");
@@ -268,29 +265,29 @@
   // ---------- Inicio ----------
   function inicio() {
     pararReloj();
-    const nf = fallosActuales().length, nd = Object.keys(datos.dudosas).length;
-    const vistas = Object.keys(datos.vistas).filter(id => POR_ID.has(id));
-    let ok = 0, tot = 0;
-    for (const v of Object.values(datos.vistas)) { ok += v.ok; tot += v.ok + v.ko; }
-    const aptos = datos.historial.filter(r => r.apto).length;
+    const nf = fallosDeHoy().length, nd = Object.keys(datos.dudosas).length;
+    const prep = P.preparacion(datos, TODAS, POR_MATERIA);
     const ult = datos.historial.slice(-5).reverse();
     pantalla({ titulo: "Test permiso B" },
       h("h1", { class: "titulo-grande" }, "Test permiso B"),
       h("p", { class: "subtitulo" }, `${PREGUNTAS.length} preguntas verificadas, cada una con su fuente oficial.`),
-      cifras([`${vistas.length}/${PREGUNTAS.length}`, "Preguntas vistas"], [tot ? Math.round(ok / tot * 100) + " %" : "–", "Aciertos"], [datos.historial.length ? `${aptos}/${datos.historial.length}` : "–", "Exámenes aptos"]),
+      cifras([`${prep.global.vistas}/${PREGUNTAS.length}`, "Preguntas vistas"], [`${Math.floor(prep.global.dominio * 100)} %`, "Dominadas"], [`${Math.round(prep.avance * 100)} %`, "Preparación"]),
+      grupo("con-icono", fila({ icono: prep.lista ? "check" : "examen", color: prep.lista ? "verde" : "azul", titulo: prep.lista ? "Todo listo para el examen" : "Preparación para el examen",
+        detalle: prep.lista ? "Cumples todos los criterios" : `${prep.criterios.filter(c => c.cumple).length} de ${prep.criterios.length} criterios cumplidos · dominio por materia`, href: "#/progreso" })),
       cabecera("Practicar"),
       grupo("con-icono mosaico",
         fila({ icono: "examen", color: "azul", titulo: "Examen final", detalle: "30 preguntas, 30 minutos, máximo 3 fallos", href: "#/examen" }),
         fila({ icono: "libro", color: "indigo", titulo: "Examen por temario", detalle: "16 materias, con la explicación al momento", href: "#/temario" })),
       cabecera("Repasar"),
       grupo("con-icono mosaico",
-        fila({ icono: "repetir", color: "naranja", titulo: "Mis fallos", insignia: nf || null, valor: nf ? null : "0", href: "#/fallos" }),
+        fila({ icono: "repetir", color: "naranja", titulo: "Mis fallos", detalle: nf ? `${plural(nf, "pregunta", "preguntas")} para repasar hoy` : "Nada que repasar hoy", insignia: nf || null, href: "#/fallos" }),
         fila({ icono: "bandera", color: "rojo", titulo: "Preguntas dudosas", valor: String(nd), href: "#/dudosas" })),
       ult.length ? [cabecera("Últimos exámenes"), grupo("", ult.map(r => h("div", { class: "fila" },
         h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, fechaES(r.fecha)), h("span", { class: "fila-detalle" }, `${plural(r.fallos, "fallo", "fallos")} de ${r.total} · ${mmss(r.segundos)} min`)),
         h("span", { class: "fila-valor " + (r.apto ? "apto" : "noapto") }, r.apto ? "Apto" : "No apto"))))] : null,
       cabecera("Información"),
-      grupo("con-icono", fila({ icono: "info", color: "gris", titulo: "Fuentes y aviso legal", href: "#/fuentes" })),
+      grupo("con-icono", fila({ icono: "enlace", color: "verde", titulo: "Estudiar en otro dispositivo", detalle: "Pasa tu progreso entre el móvil y el ordenador", href: "#/copia" }),
+        fila({ icono: "info", color: "gris", titulo: "Fuentes y aviso legal", href: "#/fuentes" })),
       PREGUNTAS.length < 300 ? h("p", { class: "nota-pie" }, "El banco todavía es pequeño y no cubre todo el temario. Crecerá a medida que se verifiquen más preguntas.") : null);
   }
 
@@ -365,10 +362,9 @@
     const segundos = Math.min(ex.limite, Math.round((Date.now() - ex.inicio) / 1000));
     pararReloj();
     let fallos = 0;
-    for (const p of ex.lista) { const ok = ex.resp[p.id] === p.correcta; if (!ok) fallos++; registrar(p, ok, "examen"); }
+    for (const p of ex.lista) { const ok = ex.resp[p.id] === p.correcta; if (!ok) fallos++; registrar(p, ok); }
     const total = ex.lista.length, max = Math.floor(total * PROPORCION_FALLOS), apto = fallos <= max;
-    datos.historial.push({ fecha: new Date().toISOString(), total, fallos, apto, segundos });
-    datos.historial = datos.historial.slice(-50); guardar();
+    P.registrarExamen(datos, { fecha: new Date().toISOString(), total, fallos, apto, segundos }); guardar();
     sesion = null;
     const lista = h("div", {});
     const pintarLista = soloFallos => {
@@ -402,7 +398,8 @@
       h("div", { style: "height:8px" }),
       grupo("con-icono mosaico", MATERIAS.map(([n, nombre]) => {
         const c = cuenta(n);
-        return fila({ numero: n, color: c ? "indigo" : "gris", titulo: nombre, detalle: c ? plural(c, "pregunta", "preguntas") : "Aún sin preguntas verificadas",
+        const r = c ? P.resumen(datos, POR_MATERIA[n]) : null;
+        return fila({ numero: n, color: c ? "indigo" : "gris", titulo: nombre, detalle: c ? `${plural(c, "pregunta", "preguntas")} · ${Math.floor(r.dominio * 100)} % dominado` : "Aún sin preguntas verificadas",
           accion: () => { location.hash = `#/temario/${n}`; }, deshabilitada: !c, chevron: !!c });
       })),
       h("p", { class: "nota-pie" }, "Materias según el Reglamento General de Conductores (RD 818/2009), anexo V.B.1."));
@@ -441,19 +438,31 @@
   function vacio(icono, titulo, texto) { return h("div", { class: "vacio" }, h("div", { class: "simbolo" }, ico(icono)), h("h1", {}, titulo), h("p", {}, texto)); }
   function portadaFallos() {
     pararReloj();
-    const ids = fallosActuales();
+    const todas = fallosActuales(), hoyIds = fallosDeHoy();
     const atras = { texto: "Inicio", href: "#/" };
-    if (!ids.length) return pantalla({ titulo: "Mis fallos", atras }, vacio("check", "Sin fallos pendientes", "Cuando falles una pregunta en cualquier modo, aparecerá aquí para que la repases."));
-    const empezar = () => practicar(barajar(ids.map(id => POR_ID.get(id))), "fallos", "Mis fallos", "#/fallos");
+    if (!todas.length) return pantalla({ titulo: "Mis fallos", atras }, vacio("check", "Sin fallos pendientes", "Cuando falles una pregunta en cualquier modo, aparecerá aquí para que la repases."));
+    const empezar = ids => practicar(barajar(ids.map(id => POR_ID.get(id))), "fallos", "Mis fallos", "#/fallos");
+    const prox = P.proximoRepaso(datos, todas);
     const porMateria = {};
-    for (const id of ids) { const m = POR_ID.get(id).materia; porMateria[m] = (porMateria[m] || 0) + 1; }
-    pantalla({ titulo: "Mis fallos", atras, barra: [h("button", { class: "boton", onclick: empezar }, `Repasar ${plural(ids.length, "pregunta", "preguntas")}`)], teclas: { enter: empezar } },
+    for (const id of todas) { const m = POR_ID.get(id).materia; porMateria[m] = (porMateria[m] || 0) + 1; }
+    const cajas = [0, 0, 0, 0, 0, 0];
+    for (const id of todas) cajas[datos.preguntas[id].c]++;
+    pantalla({ titulo: "Mis fallos", atras,
+      barra: [hoyIds.length ? h("button", { class: "boton", onclick: () => empezar(hoyIds) }, `Repasar ${plural(hoyIds.length, "pregunta", "preguntas")} de hoy`)
+        : h("button", { class: "boton gris", onclick: () => empezar(todas) }, "Repasar todas igualmente")],
+      teclas: { enter: () => empezar(hoyIds.length ? hoyIds : todas) } },
       h("h1", { class: "titulo-grande" }, "Mis fallos"),
-      h("p", { class: "subtitulo" }, "Cada pregunta sale de esta lista cuando la aciertas en el repaso."),
+      h("p", { class: "subtitulo" }, "Repaso espaciado: cada vez que aciertas una pregunta fallada, vuelve más tarde (al día siguiente, a los 3, 7 y 16 días). Si la aciertas en todos los repasos, sale de la lista. Si la fallas, vuelve a empezar."),
+      cifras([String(hoyIds.length), "Para hoy"], [String(todas.length - hoyIds.length), "Más adelante"], [prox ? fechaCorta(prox) : "–", "Próximo repaso"]),
+      cabecera("En qué punto está cada una"),
+      grupo("", [["Recién falladas", cajas[1]], ["Acertada 1 vez", cajas[2]], ["Acertada 2 veces", cajas[3]], ["Acertada 3 veces", cajas[4]], ["Último repaso", cajas[5]]]
+        .filter(([, n]) => n).map(([t, n]) => fila({ titulo: t, valor: String(n) }))),
       cabecera("Por materia"),
       grupo("con-icono", Object.keys(porMateria).map(Number).sort((a, b) => a - b).map(m => fila({ numero: m, color: "naranja", titulo: materia(m)[1], valor: String(porMateria[m]) }))),
-      h("div", { class: "pila" }, h("button", { class: "boton plano destructivo", onclick: () => hoja({ titulo: "¿Vaciar la lista de fallos?", mensaje: "Esta acción no se puede deshacer.",
-        acciones: [{ texto: "Vaciar la lista", clase: "gris destructivo", accion: () => { datos.fallos = {}; guardar(); portadaFallos(); } }] }) }, "Vaciar la lista")));
+      h("div", { class: "pila" },
+        hoyIds.length && hoyIds.length < todas.length ? h("button", { class: "boton plano", onclick: () => empezar(todas) }, `Repasar las ${todas.length}, aunque no toquen hoy`) : null,
+        h("button", { class: "boton plano destructivo", onclick: () => hoja({ titulo: "¿Vaciar la lista de fallos?", mensaje: "Las preguntas saldrán del repaso. Esta acción no se puede deshacer.",
+          acciones: [{ texto: "Vaciar la lista", clase: "gris destructivo", accion: () => { P.vaciarRepaso(datos); guardar(); portadaFallos(); } }] }) }, "Vaciar la lista")));
   }
   function practicar(lista, modo, titulo, vuelta) {
     pararReloj();
@@ -470,7 +479,7 @@
       if (s.resp[p.id]) return;
       s.resp[p.id] = k;
       const ok = k === p.correcta; if (ok) s.aciertos++;
-      registrar(p, ok, s.modo);
+      registrar(p, ok);
       pintarPractica(s, true);
       const ex = app.querySelector(".explicacion");
       if (ex) ex.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
@@ -487,7 +496,7 @@
     sesion = null;
     const hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
     const pct = hechas ? Math.round(s.aciertos / hechas * 100) : 0;
-    const pendientes = fallosActuales().length;
+    const pendientes = fallosDeHoy().length;
     pantalla({ titulo: "Resultado", atras: { texto: s.modo === "fallos" ? "Inicio" : "Temario", href: s.modo === "fallos" ? "#/" : "#/temario" } },
       h("div", { class: "resultado " + (fallos ? "neutro" : "apto") },
         h("div", { class: "simbolo" }, ico(fallos ? "lista" : "check")),
@@ -535,7 +544,102 @@
         detalle: [/^BOE-[A-Z]-\d{4}-\d+$/.test(v.ref) ? null : v.ref, v.ultima_actualizacion ? `Versión del ${fechaES(v.ultima_actualizacion)}` : null].filter(Boolean).join(" · "),
         href: /BOE-[A-Z]-\d{4}-\d+/.test(v.ref || "") ? `https://www.boe.es/buscar/act.php?id=${v.ref.match(/BOE-[A-Z]-\d{4}-\d+/)[0]}` : null, externo: true })),
         normas.some(([, v]) => v.ref === "BOE-A-2009-9481") ? null : fila({ titulo: "Reglamento General de Conductores (RD 818/2009)", detalle: "Anexos V y VI: materias y formato del examen", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481", externo: true })),
-      h("p", { class: "nota-pie" }, `Banco de preguntas generado el ${fechaES(BANCO.generado)}. Tus resultados, fallos y marcas se guardan solo en este navegador.`));
+      h("p", { class: "nota-pie" }, `Banco de preguntas generado el ${fechaES(BANCO.generado)}. Tus resultados, fallos y marcas se guardan solo en este navegador; puedes pasarlos a otro dispositivo desde «Estudiar en otro dispositivo».`));
+  }
+
+  // ---------- Mi progreso: dominio por materia y «lista para el examen» ----------
+  function progresoPantalla() {
+    pararReloj();
+    const prep = P.preparacion(datos, TODAS, POR_MATERIA);
+    const g = prep.global, racha = P.racha(datos);
+    const barraDominio = r => h("span", { class: "dominio", role: "img", "aria-label": `${Math.floor(r.dominio * 100)} % dominado` },
+      h("i", { class: "d-dominada", style: `width:${r.dominada / r.total * 100}%` }),
+      h("i", { class: "d-vista", style: `width:${(r.vista) / r.total * 100}%` }),
+      h("i", { class: "d-repaso", style: `width:${r.repaso / r.total * 100}%` }));
+    pantalla({ titulo: "Mi progreso", atras: { texto: "Inicio", href: "#/" } },
+      h("div", { class: "resultado " + (prep.lista ? "apto" : "neutro") },
+        h("div", { class: "simbolo" }, ico(prep.lista ? "check" : "examen")),
+        h("h1", {}, prep.lista ? "Todo listo para el examen" : `Preparación: ${Math.round(prep.avance * 100)} %`),
+        h("p", {}, prep.lista ? "Cumples todos los criterios. Mantén el repaso al día hasta la fecha del examen." : "Cuando cumplas los cuatro criterios, tendrás todo listo para presentarte.")),
+      cifras([String(g.dominada), "Dominadas"], [String(g.vistas), "Vistas"], [plural(racha, "día", "días"), "Racha"]),
+      cabecera("Criterios"),
+      grupo("con-icono", prep.criterios.map(c => fila({ icono: c.cumple ? "check" : "x", color: c.cumple ? "verde" : "gris", titulo: c.texto, detalle: c.detalle,
+        href: c.id === "repaso" ? "#/fallos" : c.id === "examenes" ? "#/examen" : c.id === "materias" && c.materia ? `#/temario/${c.materia}` : null }))),
+      h("p", { class: "nota-pie" }, "Una pregunta está dominada cuando aciertas las dos últimas veces que la respondes y no está en el repaso de fallos. Un acierto suelto no basta, porque con tres opciones se puede acertar por suerte."),
+      cabecera("Dominio por materia"),
+      grupo("con-icono", MATERIAS.filter(([n]) => POR_MATERIA[n]).map(([n, nombre]) => {
+        const r = prep.materias[n];
+        return h("a", { class: "fila", href: `#/temario/${n}` },
+          h("span", { class: "tesela t-" + (r.dominio >= P.CRITERIOS.dominioMateria ? "verde" : "indigo") }, n),
+          h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, nombre),
+            h("span", { class: "fila-detalle" }, `${r.dominada} de ${r.total} dominadas · ${r.vistas} vistas${r.repaso ? ` · ${r.repaso} en repaso` : ""}`), barraDominio(r)),
+          h("span", { class: "fila-valor" }, `${Math.floor(r.dominio * 100)} %`), ico("chevron", "chevron"));
+      })),
+      h("div", { class: "leyenda" }, h("span", {}, h("i", { class: "d-dominada" }), "Dominada"), h("span", {}, h("i", { class: "d-vista" }), "Vista"), h("span", {}, h("i", { class: "d-repaso" }), "En repaso")));
+  }
+
+  // ---------- Pasar el progreso a otro dispositivo ----------
+  // La web es estática (GitHub Pages) y no tiene servidor: el progreso vive en cada navegador.
+  // Para moverlo se genera un enlace o un fichero con el progreso, y al abrirlo en el otro
+  // dispositivo se COMBINA con lo que ya haya allí (no se pierde nada de ninguno de los dos).
+  function copiaPantalla() {
+    pararReloj();
+    const estado = h("p", { class: "nota-pie", role: "status" });
+    const compartir = async () => {
+      try {
+        const url = location.href.split("#")[0] + "#/importar/" + await P.exportarCodigo(datos);
+        if (navigator.share) { try { await navigator.share({ title: "Mi progreso del test permiso B", url }); estado.textContent = "Enlace compartido."; return; } catch (e) { if (e.name === "AbortError") return; } }
+        await navigator.clipboard.writeText(url);
+        estado.textContent = "Enlace copiado. Pégalo en un mensaje para ti (por ejemplo, en WhatsApp o en un correo) y ábrelo en el otro dispositivo.";
+      } catch (e) { estado.textContent = "No se ha podido crear el enlace. Usa el fichero de copia."; }
+    };
+    const descargar = () => {
+      const blob = new Blob([P.exportarFichero(datos)], { type: "application/json" });
+      const a = h("a", { href: URL.createObjectURL(blob), download: `progreso-test-permiso-b-${P.claveDia(Date.now())}.json` });
+      document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+      estado.textContent = "Fichero descargado. Ábrelo en el otro dispositivo con «Cargar un fichero de copia».";
+    };
+    const entrada = h("input", { type: "file", accept: ".json,application/json", hidden: true, onchange: async () => {
+      const f = entrada.files[0]; entrada.value = "";
+      if (!f) return;
+      try { confirmarImportacion(P.leerPaquete(await f.text())); } catch (e) { estado.textContent = e.message; }
+    } });
+    const pegar = () => {
+      const t = h("textarea", { placeholder: "Pega aquí el enlace o el código", "aria-label": "Enlace o código" });
+      hoja({ titulo: "Pegar un enlace de progreso", contenido: t, acciones: [{ texto: "Cargar", accion: async () => {
+        try { confirmarImportacion(await P.importarCodigo(t.value)); } catch (e) { estado.textContent = e.message; }
+      } }] });
+    };
+    const g = P.resumen(datos, TODAS);
+    pantalla({ titulo: "Otro dispositivo", atras: { texto: "Inicio", href: "#/" } },
+      h("h1", { class: "titulo-grande" }, "Estudiar en otro dispositivo"),
+      h("p", { class: "subtitulo" }, "Tu progreso se guarda en este navegador. Para seguir en el móvil o en el ordenador, envíatelo con un enlace y ábrelo allí: se combina con lo que ya tengas en ese dispositivo, sin borrar nada."),
+      cifras([String(g.vistas), "Vistas"], [String(g.dominada), "Dominadas"], [String(datos.historial.length), "Exámenes"]),
+      cabecera("Enviar mi progreso"),
+      grupo("con-icono",
+        fila({ icono: "enlace", color: "verde", titulo: navigator.share ? "Compartir enlace" : "Copiar enlace", detalle: "Envíatelo por WhatsApp o correo y ábrelo en el otro dispositivo", accion: compartir }),
+        fila({ icono: "lista", color: "gris", titulo: "Descargar fichero de copia", detalle: "También sirve como copia de seguridad", accion: descargar })),
+      cabecera("Recibir progreso"),
+      grupo("con-icono",
+        fila({ icono: "enlace", color: "azul", titulo: "Pegar un enlace o código", accion: pegar }),
+        fila({ icono: "lista", color: "azul", titulo: "Cargar un fichero de copia", accion: () => entrada.click() })),
+      entrada, estado,
+      h("p", { class: "nota-pie" }, "Consejo: al terminar de estudiar en un dispositivo, envía el enlace y ábrelo en el otro antes de empezar allí. Si estudias en los dos sin pasarlo, no pasa nada: al combinar, de cada pregunta se queda la respuesta más reciente."));
+  }
+  function confirmarImportacion({ datos: otros, exportado, animo }) {
+    const g = P.resumen(otros, TODAS), cuando = exportado ? new Date(exportado).toLocaleString("es-ES", { dateStyle: "medium", timeStyle: "short" }) : null;
+    hoja({ titulo: "¿Combinar este progreso?", mensaje: `${cuando ? `Copia del ${cuando}. ` : ""}${plural(g.vistas, "pregunta vista", "preguntas vistas")}, ${plural(g.dominada, "dominada", "dominadas")} y ${plural(otros.historial.length, "examen", "exámenes")}. Se combinará con el progreso de este dispositivo; no se borra nada.`,
+      acciones: [{ texto: "Combinar", accion: () => {
+        datos = P.combinar(datos, otros); guardar(); P.combinarAnimo(animo);
+        history.replaceState(null, "", location.pathname + location.search + "#/progreso"); ruta();
+        hoja({ titulo: "Progreso combinado", mensaje: "Ya puedes seguir estudiando en este dispositivo.", cancelar: "Aceptar" });
+      } }] });
+  }
+  async function importarDesdeEnlace(codigo) {
+    inicio();
+    try { confirmarImportacion(await P.importarCodigo(codigo)); }
+    catch (e) { hoja({ titulo: "No se ha podido leer el enlace", mensaje: e.message, cancelar: "Aceptar" }); }
+    history.replaceState(null, "", location.pathname + location.search + "#/");
   }
 
   // ---------- Rutas ----------
@@ -543,7 +647,7 @@
   // Barra lateral (solo en pantallas anchas, como en las apps de iPad y Mac).
   const lateral = document.getElementById("lateral");
   function pintarLateral(seccion) {
-    const nf = fallosActuales().length, nd = Object.keys(datos.dudosas).length;
+    const nf = fallosDeHoy().length, nd = Object.keys(datos.dudosas).length;
     const item = (id, href, icono, color, texto, extra) => h("li", {}, h("a", { class: "lateral-item" + (seccion === id ? " activo" : ""), href, "aria-current": seccion === id ? "page" : null },
       h("span", { class: "tesela t-" + color }, ico(icono)), h("span", { class: "lateral-texto" }, texto), extra ? h("span", { class: "lateral-cuenta" }, extra) : null));
     lateral.replaceChildren(
@@ -551,9 +655,10 @@
       h("p", { class: "lateral-cabecera" }, "Practicar"),
       h("ul", {}, item("inicio", "#/", "lista", "gris", "Resumen"), item("examen", "#/examen", "examen", "azul", "Examen final"), item("temario", "#/temario", "libro", "indigo", "Examen por temario")),
       h("p", { class: "lateral-cabecera" }, "Repasar"),
-      h("ul", {}, item("fallos", "#/fallos", "repetir", "naranja", "Mis fallos", nf ? String(nf) : null), item("dudosas", "#/dudosas", "bandera", "rojo", "Preguntas dudosas", nd ? String(nd) : null)),
+      h("ul", {}, item("fallos", "#/fallos", "repetir", "naranja", "Mis fallos", nf ? String(nf) : null), item("dudosas", "#/dudosas", "bandera", "rojo", "Preguntas dudosas", nd ? String(nd) : null),
+        item("progreso", "#/progreso", "check", "verde", "Mi progreso")),
       h("p", { class: "lateral-cabecera" }, "Información"),
-      h("ul", {}, item("fuentes", "#/fuentes", "info", "gris", "Fuentes y aviso legal")),
+      h("ul", {}, item("copia", "#/copia", "enlace", "verde", "Otro dispositivo"), item("fuentes", "#/fuentes", "info", "gris", "Fuentes y aviso legal")),
       h("p", { class: "lateral-pie" }, `${PREGUNTAS.length} preguntas verificadas`));
   }
   function ruta() {
@@ -565,6 +670,9 @@
     if (r[0] === "fallos") return portadaFallos();
     if (r[0] === "dudosas") return dudosas();
     if (r[0] === "fuentes") return fuentes();
+    if (r[0] === "progreso") return progresoPantalla();
+    if (r[0] === "copia") return copiaPantalla();
+    if (r[0] === "importar") return importarDesdeEnlace(r.slice(1).join("/"));
     return inicio();
   }
   window.addEventListener("hashchange", () => { sesion = null; ruta(); });

@@ -13,6 +13,8 @@ import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const WEB = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const E = require(path.join(WEB, "escenas.js"));
+// Tipos de escena de otros ficheros (escenas-*.js en la raíz): se registran en E.TIPOS al cargarlos.
+for (const f of fs.readdirSync(WEB).filter(f => /^escenas-.+\.js$/.test(f)).sort()) require(path.join(WEB, f));
 const BASE = process.env.FUENTES_TXT || "/mnt/project-files/fuentes/txt";
 const TEXTOS = { RGC: "rgc_full.txt", LSV: "l.txt" };
 const sinComprobar = process.argv.includes("--sin-comprobar-citas");
@@ -51,7 +53,8 @@ for (const [id, esc] of Object.entries(datos)) {
   const p = porId.get(id);
   const mal = m => errores.push(`${id}: ${m}`);
   if (!p) { mal("no existe en data/preguntas.js"); continue; }
-  if (!["cruce", "glorieta", "estrecho", "recta"].includes(esc.tipo)) mal(`tipo desconocido «${esc.tipo}»`);
+  const T = E.TIPOS[esc.tipo];
+  if (!T && !["cruce", "glorieta", "estrecho", "recta"].includes(esc.tipo)) mal(`tipo desconocido «${esc.tipo}»`);
   if (!["escena", "imagen", "nada"].includes(esc.antes)) mal("«antes» debe ser escena, imagen o nada");
   if (esc.antes === "imagen" && !(p.imagen && p.imagen.src)) mal("«antes» es imagen pero la pregunta no tiene imagen");
   if (!esc.titulo) mal("falta el título (texto alternativo)");
@@ -63,12 +66,14 @@ for (const [id, esc] of Object.entries(datos)) {
     if (claves.has(k)) mal(`vehículo repetido «${k}»`);
     claves.set(k, v);
     if (v.tipo && !E.MEDIDAS[v.tipo]) mal(`${k}: tipo de vehículo desconocido «${v.tipo}»`);
+    if (T) continue; // lo comprueba T.validar
     if (esc.tipo === "estrecho") { if (!["O", "E"].includes(v.desde)) mal(`${k}: en un estrechamiento «desde» es O o E`); continue; }
     if (v.puntos) { if (v.puntos.filter(Array.isArray).length < 2) mal(`${k}: «puntos» necesita al menos dos puntos`); continue; }
     if (esc.tipo === "recta") { if (v.desde && !["O", "E"].includes(v.desde)) mal(`${k}: en una recta «desde» es O o E`); continue; }
     if (v.dentro == null && !BRAZOS.includes(v.desde)) mal(`${k}: «desde» no válido`);
     if (!BRAZOS.includes(v.hacia)) mal(`${k}: «hacia» no válido`);
   }
+  if (T && T.validar) T.validar(esc, mal, claves);
   // Estrechamientos: quien retrocede debe ser el que manda la norma citada.
   if (esc.tipo === "estrecho" && esc.retrocede) {
     const r = claves.get(esc.retrocede), otros = [...claves.values()].filter(v => v !== r && !/peaton/.test(v.tipo || ""));
@@ -104,7 +109,7 @@ for (const [id, esc] of Object.entries(datos)) {
   for (const [i, ps] of pasos.entries()) {
     if (!ps.texto) mal(`paso ${i + 1} sin texto`);
     for (const m of ps.mover || []) if (!claves.has(m.v)) mal(`paso ${i + 1}: mueve un vehículo que no existe «${m.v}»`);
-    for (const k of [...(ps.foco || []), ...Object.keys(ps.etiquetas || {})]) if (!claves.has(k)) mal(`paso ${i + 1}: «${k}» no es ningún vehículo`);
+    for (const k of [...(ps.foco || []), ...Object.keys(ps.etiquetas || {}), ...Object.keys(ps.intermitentes || {})]) if (!claves.has(k)) mal(`paso ${i + 1}: «${k}» no es ningún vehículo`);
     for (const [k, a] of Object.entries(ps.avisos || {})) {
       if (!claves.has(k)) mal(`paso ${i + 1}: avisos de «${k}», que no es ningún vehículo`);
       for (const n in a) if (!AVISOS.includes(n)) mal(`paso ${i + 1}: aviso desconocido «${n}»`);

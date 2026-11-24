@@ -1,0 +1,6466 @@
+{
+ "formato": "Escenas de adelantamientos e incorporaciones (tipos «carretera» y «autovia», de escenas-via.js). Ver preguntas/formato-escenas.md. Se publica con: node tools/build_escenas.mjs",
+ "escenas": {
+  "adel-0001": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de un ciclista que va por su mismo carril.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       90,
+       "d"
+      ],
+      [
+       170,
+       194
+      ],
+      [
+       290,
+       194
+      ],
+      [
+       370,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 30,
+      "s1": 90,
+      "s2": 215,
+      "s3": 362
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "bici",
+     "tipo": "bici",
+     "ruta": [
+      [
+       60,
+       "borde"
+      ],
+      [
+       520,
+       "borde"
+      ]
+     ],
+     "color": "C",
+     "marcas": {
+      "s0": 150,
+      "s1": 165,
+      "s2": 190,
+      "s3": 228
+     },
+     "inicio": "s0"
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "bici",
+     "minimo": 1.5
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "cota",
+     "x": 244,
+     "y1": 208,
+     "y2": 226,
+     "texto": "1,5 m o más",
+     "en": [
+      2
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A va a adelantar al ciclista: comprueba que el carril contrario está libre, pone el intermitente izquierdo y tiene especial cuidado.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "el conductor que adelanta deberá tener especial cuidado con la maniobra, con objeto de evitar crear cualquier situación de peligro para éstos."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "bici",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2200,
+     "etiquetas": {
+      "A": "Intermitente"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "A ocupa parte del carril contrario y pasa junto al ciclista dejando una anchura de seguridad de al menos 1,5 metros.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "debe efectuarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A",
+      "bici"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "Cuando ya ha dejado atrás al ciclista, A vuelve a su carril poco a poco, sin cerrarle el paso.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "x1a-0118": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de un ciclista que va por su mismo carril.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       90,
+       "d"
+      ],
+      [
+       170,
+       194
+      ],
+      [
+       290,
+       194
+      ],
+      [
+       370,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 30,
+      "s1": 90,
+      "s2": 215,
+      "s3": 362
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "bici",
+     "tipo": "bici",
+     "ruta": [
+      [
+       60,
+       "borde"
+      ],
+      [
+       520,
+       "borde"
+      ]
+     ],
+     "color": "C",
+     "marcas": {
+      "s0": 150,
+      "s1": 165,
+      "s2": 190,
+      "s3": 228
+     },
+     "inicio": "s0"
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "bici",
+     "minimo": 1.5
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "cota",
+     "x": 244,
+     "y1": 208,
+     "y2": 226,
+     "texto": "1,5 m o más",
+     "en": [
+      2
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Fuera de poblado, antes de empezar a adelantar, A reduce su velocidad al menos 20 km/h por debajo del límite de la vía.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "bici",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2200,
+     "etiquetas": {
+      "A": "−20 km/h"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Mantiene esa velocidad reducida durante todo el adelantamiento y deja al menos 1,5 metros al ciclista.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "debe efectuarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "−20 km/h"
+     },
+     "foco": [
+      "A",
+      "bici"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "Cuando ya ha dejado atrás al ciclista, A vuelve a su carril poco a poco, sin cerrarle el paso.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "adel-0003": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de un ciclista que va por su mismo carril.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       90,
+       "d"
+      ],
+      [
+       170,
+       194
+      ],
+      [
+       290,
+       194
+      ],
+      [
+       370,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 30,
+      "s1": 90,
+      "s2": 215,
+      "s3": 362
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "bici",
+     "tipo": "bici",
+     "ruta": [
+      [
+       60,
+       "borde"
+      ],
+      [
+       520,
+       "borde"
+      ]
+     ],
+     "color": "C",
+     "marcas": {
+      "s0": 150,
+      "s1": 165,
+      "s2": 190,
+      "s3": 228
+     },
+     "inicio": "s0"
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "bici",
+     "minimo": 1.5
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "cota",
+     "x": 244,
+     "y1": 208,
+     "y2": 226,
+     "texto": "1,5 m o más",
+     "en": [
+      2
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "El límite de esta vía es de 90 km/h. Antes de adelantar al ciclista, A baja al menos a 70 km/h.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "bici",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2200,
+     "etiquetas": {
+      "A": "70 km/h"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Adelanta a 70 km/h como máximo, ocupando parte del carril contrario y dejando al menos 1,5 metros.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "debe efectuarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "70 km/h"
+     },
+     "foco": [
+      "A",
+      "bici"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "Cuando ya ha dejado atrás al ciclista, A vuelve a su carril poco a poco, sin cerrarle el paso.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "x1a-0117": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de un ciclista y otro ciclista se acerca de frente por el arcén contrario.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       70,
+       "d"
+      ],
+      [
+       140,
+       194
+      ],
+      [
+       290,
+       194
+      ],
+      [
+       370,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 10,
+      "s1": 45,
+      "s2": 60,
+      "s3": 215,
+      "s4": 362
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "bici",
+     "tipo": "bici",
+     "ruta": [
+      [
+       40,
+       "borde"
+      ],
+      [
+       520,
+       "borde"
+      ]
+     ],
+     "color": "C",
+     "marcas": {
+      "s0": 120,
+      "s1": 135,
+      "s2": 160,
+      "s3": 190,
+      "s4": 228
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "bici2",
+     "tipo": "bici",
+     "sentido": "O",
+     "ruta": [
+      [
+       520,
+       "arcen"
+      ],
+      [
+       -80,
+       "arcen"
+      ]
+     ],
+     "color": "D",
+     "marcas": {
+      "s0": 250,
+      "s1": 215,
+      "s2": 30
+     },
+     "inicio": "s0"
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "bici",
+     "minimo": 1.5
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "cota",
+     "x": 244,
+     "y1": 208,
+     "y2": 226,
+     "texto": "1,5 m o más",
+     "en": [
+      3
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A quiere adelantar al ciclista, pero por el arcén contrario se acerca otro ciclista de frente. Adelantar ahora le pondría en peligro.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "Queda prohibido adelantar poniendo en peligro o entorpeciendo a quienes circulen en sentido contrario, incluso si circulan por el arcén."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "bici",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici2",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "A",
+      "bici2"
+     ]
+    },
+    {
+     "texto": "A no adelanta: sigue detrás del ciclista, a su velocidad, hasta que el que viene de frente ha pasado.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "En caso contrario, deberá abstenerse de efectuarla"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici2",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3200,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "A"
+     ]
+    },
+    {
+     "texto": "Ya sin nadie de frente, A adelanta ocupando parte del carril contrario y dejando al menos 1,5 metros.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "debe efectuarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici2",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A",
+      "bici"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Cuando lo ha dejado atrás, vuelve a su carril de forma gradual.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s4",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s4",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "v2-adel-0003": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: una motocicleta (A) circula detrás de un turismo (B).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tipo": "moto",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       110,
+       "d"
+      ],
+      [
+       170,
+       184
+      ],
+      [
+       300,
+       184
+      ],
+      [
+       360,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 40,
+      "s1": 100,
+      "s2": 215,
+      "s3": 345
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 150,
+      "s1": 175,
+      "s2": 205,
+      "s3": 240
+     },
+     "inicio": "s0"
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "B",
+     "minimo": 1.5
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "cota",
+     "x": 240,
+     "y1": 190,
+     "y2": 206,
+     "texto": "1,5 m o más",
+     "en": [
+      2
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A, en moto, quiere adelantar al turismo (B) fuera de poblado. Comprueba que el carril contrario está libre y pone el intermitente izquierdo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Mientras lo rebasa, deja entre su moto y las partes más salientes del turismo un espacio de al menos 1,5 metros.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.5",
+      "texto": "El conductor de un vehículo de dos ruedas que pretenda adelantar fuera de poblado a otro cualquiera lo hará de forma que entre aquél y las partes más salientes del vehículo que adelanta quede un espacio no inferior a 1,50 metros."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "Vuelve a su carril de forma gradual y con el intermitente derecho, sin obligar a B a frenar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "adel-0002": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 2
+   },
+   "titulo": "Calzada con dos carriles en el mismo sentido, vista desde arriba: un turismo (A) por el carril derecho y un ciclista por el arcén.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "der"
+      ],
+      [
+       90,
+       "der"
+      ],
+      [
+       160,
+       "izq"
+      ],
+      [
+       300,
+       "izq"
+      ],
+      [
+       370,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 30,
+      "s1": 85,
+      "s2": 200,
+      "s3": 360
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "bici",
+     "tipo": "bici",
+     "ruta": [
+      [
+       60,
+       "arcen"
+      ],
+      [
+       520,
+       "arcen"
+      ]
+     ],
+     "color": "C",
+     "marcas": {
+      "s0": 140,
+      "s1": 155,
+      "s2": 180,
+      "s3": 215
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A va a adelantar al ciclista. Mira por los retrovisores, pone el intermitente izquierdo y tiene especial cuidado.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "el conductor que adelanta deberá tener especial cuidado con la maniobra, con objeto de evitar crear cualquier situación de peligro para éstos."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "bici",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2200,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Como la calzada tiene más de un carril en su sentido, A se cambia por completo al carril izquierdo para adelantar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A",
+      "bici"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "Una vez rebasado el ciclista, vuelve al carril derecho poco a poco.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "adel-0005": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un vehículo averiado (B) ocupa parte del carril de un turismo (A), con triángulos detrás.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       130,
+       "d"
+      ],
+      [
+       200,
+       192
+      ],
+      [
+       310,
+       192
+      ],
+      [
+       380,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 10,
+      "s1": 120,
+      "s2": 250,
+      "s3": 375
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       200,
+       236
+      ],
+      [
+       460,
+       236
+      ]
+     ],
+     "marcas": {
+      "s0": 250,
+      "s1": 250,
+      "s2": 250,
+      "s3": 250
+     },
+     "inicio": "s0"
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "B",
+     "minimo": 1.5
+    }
+   ],
+   "objetos": [
+    {
+     "tipo": "triangulo",
+     "x": 160,
+     "y": 232
+    },
+    {
+     "tipo": "triangulo",
+     "x": 214,
+     "y": 233
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "cota",
+     "x": 277,
+     "y1": 206,
+     "y2": 222,
+     "texto": "1,5 m o más",
+     "en": [
+      2
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A ve un vehículo averiado (B) que ocupa parte de su carril. Reduce la velocidad al menos 20 km/h por debajo del límite de la vía.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.1",
+      "texto": "los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros aunque para ello hayan de ocupar la parte de la calzada reservada al sentido contrario, y reducir la velocidad en al menos 20 km/h respecto al límite existente en la vía."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "−20 km/h",
+      "B": "Averiado"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {
+      "A": "izquierda",
+      "B": "emergencia"
+     }
+    },
+    {
+     "texto": "Lo rebasa dejando una anchura de seguridad de al menos 1,5 metros, aunque para ello tenga que ocupar parte del carril contrario.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.1",
+      "texto": "los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros aunque para ello hayan de ocupar la parte de la calzada reservada al sentido contrario, y reducir la velocidad en al menos 20 km/h respecto al límite existente en la vía."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "−20 km/h"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "B": "emergencia"
+     }
+    },
+    {
+     "texto": "Cuando ya lo ha rebasado, A vuelve a su carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha",
+      "B": "emergencia"
+     }
+    }
+   ]
+  },
+  "x1a-0134": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "eje": [
+     {
+      "tipo": "continua"
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido separados por una línea continua: unas piedras ocupan el carril de un turismo (A) y otro vehículo (C) se acerca de frente.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       150,
+       "d"
+      ],
+      [
+       205,
+       182
+      ],
+      [
+       265,
+       182
+      ],
+      [
+       320,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 40,
+      "s1": 130,
+      "s2": 380
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "sentido": "O",
+     "ruta": [
+      [
+       520,
+       "d"
+      ],
+      [
+       -80,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 400,
+      "s1": -60
+     },
+     "inicio": "s0"
+    }
+   ],
+   "objetos": [
+    {
+     "tipo": "piedras",
+     "x": 232,
+     "y": 224
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A encuentra unas piedras que ocupan su carril, en un tramo con línea continua. Frena antes de llegar y deja pasar a C, que viene de frente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "89.1",
+      "texto": "todo vehículo que encuentre cualquier obstáculo en su camino que le obligue a ocupar el espacio dispuesto para el sentido contrario de su marcha podrá rebasarlo, siempre que se haya cerciorado de que puede efectuarlo sin peligro."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "frena"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "A",
+      "C"
+     ]
+    },
+    {
+     "texto": "Cuando ha pasado C y se ha cerciorado de que no hay peligro, A rebasa las piedras ocupando el carril contrario, aunque haya línea continua.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "89.1",
+      "texto": "todo vehículo que encuentre cualquier obstáculo en su camino que le obligue a ocupar el espacio dispuesto para el sentido contrario de su marcha podrá rebasarlo, siempre que se haya cerciorado de que puede efectuarlo sin peligro."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "arranca"
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    }
+   ]
+  },
+  "x1a-0133": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "eje": [
+     {
+      "tipo": "continua"
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido separados por una línea continua: una fila de vehículos (B y los de delante) está parada en el carril de un turismo (A).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 144,
+      "s2": 144,
+      "s3": 184
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 200,
+      "s1": 200,
+      "s2": 200,
+      "s3": 240
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 262,
+      "s1": 262,
+      "s2": 262,
+      "s3": 302
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "cola",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "color": "D",
+     "marcas": {
+      "s0": 324,
+      "s1": 324,
+      "s2": 324,
+      "s3": 364
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Hay una retención: B y los de delante están parados por el tráfico. A llega y se detiene detrás de B.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.2",
+      "texto": "salvo que la inmovilización venga impuesta por necesidades del tráfico, podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "frena"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "frenos": [
+      "B",
+      "C",
+      "cola"
+     ]
+    },
+    {
+     "texto": "Aunque el carril contrario parezca libre, A no puede rebasar a B: su parada la impone el tráfico.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.2",
+      "texto": "salvo que la inmovilización venga impuesta por necesidades del tráfico, podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro."
+     },
+     "mover": [],
+     "ms": 2000,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "frenos": [
+      "A",
+      "B",
+      "C",
+      "cola"
+     ]
+    },
+    {
+     "texto": "A espera en su carril. Cuando la retención avanza, todos siguen por su carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.2",
+      "texto": "salvo que la inmovilización venga impuesta por necesidades del tráfico, podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "arranca",
+       "retraso": 1600
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "arranca",
+       "retraso": 1600
+      },
+      {
+       "v": "C",
+       "hasta": "s3",
+       "modo": "arranca",
+       "retraso": 1600
+      },
+      {
+       "v": "cola",
+       "hasta": "s3",
+       "modo": "arranca",
+       "retraso": 1600
+      }
+     ],
+     "ms": 3400,
+     "foco": [
+      "A"
+     ]
+    }
+   ]
+  },
+  "A-adel-0015": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "eje": [
+     {
+      "tipo": "continua"
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido separados por una línea continua: un turismo (A) circula detrás de un ciclomotor (B) que va muy despacio.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       80,
+       "d"
+      ],
+      [
+       150,
+       192
+      ],
+      [
+       290,
+       192
+      ],
+      [
+       360,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 70,
+      "s2": 215,
+      "s3": 365
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "tipo": "moto",
+     "ruta": [
+      [
+       40,
+       228
+      ],
+      [
+       520,
+       228
+      ]
+     ],
+     "marcas": {
+      "s0": 170,
+      "s1": 180,
+      "s2": 200,
+      "s3": 225
+     },
+     "inicio": "s0"
+    }
+   ],
+   "carteles": [
+    {
+     "cod": "R-305",
+     "x": 40
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "B",
+     "minimo": 1.5
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "cota",
+     "x": 244,
+     "y1": 206,
+     "y2": 223,
+     "texto": "1,5 m o más",
+     "en": [
+      2
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "En este tramo está prohibido adelantar, pero delante va un ciclomotor (B) muy despacio. A comprueba que no viene nadie de frente y que puede adelantarlo sin riesgo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.2",
+      "texto": "Con idénticos requisitos se podrá adelantar a conductores de bicicletas y demás ciclos, ciclomotores, vehículos de movilidad personal, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas y sus conjuntos cuando por la velocidad a que circulen puedan ser adelantados sin riesgo para ellos ni para la circulación en general."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Como no hay peligro, A lo adelanta ocupando parte del carril contrario y dejando al menos 1,5 metros.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.4",
+      "texto": "debe efectuarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "Cuando lo ha dejado atrás, vuelve a su carril de forma gradual.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "A-adel-0013": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "eje": [
+     {
+      "desde": -10,
+      "hasta": 252,
+      "tipo": "discontinua"
+     },
+     {
+      "desde": 288,
+      "hasta": 410,
+      "tipo": "discontinua"
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de otro (B) y se acercan a un paso para peatones.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 30,
+      "s1": 140,
+      "s2": 290
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 120,
+      "s1": 230,
+      "s2": 380
+     },
+     "inicio": "s0"
+    }
+   ],
+   "objetos": [
+    {
+     "tipo": "cebra",
+     "x": 270
+    }
+   ],
+   "carteles": [
+    {
+     "cod": "S-13",
+     "x": 214
+    },
+    {
+     "cod": "S-13",
+     "x": 326,
+     "lado": "norte"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B y A se acercan a un paso para peatones señalizado. Aunque no cruza nadie y la línea del centro es discontinua, A no puede adelantar en el paso ni en sus proximidades.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.b",
+      "texto": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "etiquetas": {
+      "A": "No adelanta"
+     },
+     "foco": [
+      "A"
+     ]
+    },
+    {
+     "texto": "A pasa por el paso para peatones detrás de B, sin adelantarlo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.b",
+      "texto": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3200,
+     "foco": [
+      "A",
+      "B"
+     ]
+    }
+   ]
+  },
+  "x1a-0111": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de otro (B); más adelante va un tercero (D).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       85,
+       "d"
+      ],
+      [
+       150,
+       "i"
+      ],
+      [
+       260,
+       "i"
+      ],
+      [
+       330,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 55,
+      "s2": 80,
+      "s3": 345
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 135,
+      "s1": 155,
+      "s2": 175,
+      "s3": 225
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "D",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 330,
+      "s1": 350,
+      "s2": 370,
+      "s3": 425
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Antes de adelantar a B, A comprueba que en el carril contrario hay espacio libre suficiente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2000,
+     "foco": [
+      "A"
+     ]
+    },
+    {
+     "texto": "Y comprueba que delante de B queda hueco para volver a su carril al terminar: D va lo bastante lejos.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.3",
+      "texto": "y de que dispone de espacio suficiente para reintegrarse a su carril cuando termine el adelantamiento"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2000,
+     "foco": [
+      "A",
+      "D"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "A adelanta a B y vuelve a su carril en el hueco que hay delante de él, sin obligar a nadie a frenar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3400,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    }
+   ]
+  },
+  "x1a-0115": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) va por el carril contrario, adelantando a otro (B).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "i"
+      ],
+      [
+       265,
+       "i"
+      ],
+      [
+       340,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 190,
+      "s1": 250,
+      "s2": 375
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 150,
+      "s1": 180,
+      "s2": 215
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A ya ha rebasado a B. Antes de volver a su carril, pone el intermitente derecho.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.4",
+      "texto": "En todos los casos en que el adelantamiento implique un desplazamiento lateral, deberá advertirse la maniobra mediante la correspondiente señal óptica"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2000,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    },
+    {
+     "texto": "Vuelve a su carril tan pronto como puede y de forma gradual, dejando sitio a B para que no tenga que frenar ni apartarse.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "x1a-0113": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de un camión (B).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       60,
+       "d"
+      ],
+      [
+       125,
+       "i"
+      ],
+      [
+       300,
+       "i"
+      ],
+      [
+       365,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 0,
+      "s1": 50,
+      "s2": 215,
+      "s3": 370
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "tipo": "camion",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 150,
+      "s1": 165,
+      "s2": 180,
+      "s3": 205
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A va a adelantar al camión (B): comprueba que el carril contrario está libre y pone el intermitente izquierdo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Durante el adelantamiento, A va bastante más deprisa que B, para estar a su lado el menor tiempo posible, y con separación suficiente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.1",
+      "texto": "deberá llevar su vehículo a una velocidad notoriamente superior a la del que pretende adelantar y dejar entre ambos una separación lateral suficiente para realizarlo con seguridad"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Más rápido"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "Vuelve a su carril cuando ya tiene sitio delante del camión.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "x1a-0114": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de otro (B) y empieza a adelantarlo.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       80,
+       "d"
+      ],
+      [
+       140,
+       "i"
+      ],
+      [
+       195,
+       "i"
+      ],
+      [
+       248,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 165,
+      "s2": 258,
+      "s3": 330
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 110,
+      "s1": 200,
+      "s2": 335,
+      "s3": 405
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "sentido": "O",
+     "ruta": [
+      [
+       520,
+       "d"
+      ],
+      [
+       -80,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 560,
+      "s1": 470,
+      "s2": 250
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A empieza a adelantar a B y sale al carril contrario.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.4",
+      "texto": "En todos los casos en que el adelantamiento implique un desplazamiento lateral, deberá advertirse la maniobra mediante la correspondiente señal óptica"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "De pronto aparece C de frente y terminar ya no es seguro. A reduce rápidamente la marcha, vuelve a su carril detrás de B y lo indica con el intermitente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.2",
+      "texto": "Si después de iniciar la maniobra de adelantamiento advirtiera que se producen circunstancias que puedan hacer difícil su finalización sin provocar riesgos, reducirá rápidamente su marcha, regresará de nuevo a su carril y lo advertirá a los que le siguen con las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A",
+      "C"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     },
+     "frenos": [
+      "A"
+     ]
+    },
+    {
+     "texto": "C pasa sin peligro y A sigue detrás de B. Solo volverá a intentarlo cuando tenga espacio libre suficiente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "En caso contrario, deberá abstenerse de efectuarla"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "A"
+     ]
+    }
+   ]
+  },
+  "x1a-0108": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de una fila de vehículos (B, C y otro más adelante).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       70,
+       "d"
+      ],
+      [
+       130,
+       "i"
+      ],
+      [
+       300,
+       "i"
+      ],
+      [
+       360,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 10,
+      "s1": 60,
+      "s2": 300,
+      "s3": 370
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 120,
+      "s1": 150,
+      "s2": 190,
+      "s3": 250
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 180,
+      "s1": 210,
+      "s2": 250,
+      "s3": 310
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "fila",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 300,
+      "s1": 330,
+      "s2": 370,
+      "s3": 430
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "D",
+     "sentido": "O",
+     "ruta": [
+      [
+       520,
+       "d"
+      ],
+      [
+       -80,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 600,
+      "s1": 600,
+      "s2": 560,
+      "s3": 330
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A quiere adelantar a B y a C. Antes debe tener la total seguridad de que, si aparece alguien de frente, podrá volver a la derecha sin poner en peligro a nadie: delante de C hay hueco.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "Ningún conductor deberá de adelantar a varios vehículos si no tiene la total seguridad de que, al presentarse otro en sentido contrario, puede desviarse hacia el lado derecho sin causar perjuicios o poner en situación de peligro a alguno de los vehículos adelantados."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "fila",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A",
+      "C"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "A adelanta a B y a C a una velocidad claramente superior.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.1",
+      "texto": "deberá llevar su vehículo a una velocidad notoriamente superior a la del que pretende adelantar y dejar entre ambos una separación lateral suficiente para realizarlo con seguridad"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "fila",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "Aparece D de frente: A vuelve a la derecha en el hueco que hay delante de C, sin obligar a nadie a frenar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "fila",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A",
+      "D"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "x1a-0110": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de otro (B), que lleva puesto el intermitente izquierdo.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       130,
+       "d"
+      ],
+      [
+       190,
+       "i"
+      ],
+      [
+       300,
+       "i"
+      ],
+      [
+       365,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 40,
+      "s1": 80,
+      "s2": 120,
+      "s3": 375
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 150,
+      "s1": 190,
+      "s2": 230,
+      "s3": 268
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B indica con el intermitente que va a desplazarse a la izquierda. A respeta su preferencia y no adelanta.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.2",
+      "texto": "También deberá cerciorarse de que el conductor del vehículo que le precede en el mismo carril no ha indicado su propósito de desplazamiento hacia el mismo lado; en tal caso, deberá respetar la preferencia que le asiste."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "Pasa un tiempo prudencial y B no se desplaza. A le avisa con una señal acústica u óptica antes de adelantar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.2",
+      "texto": "si después de un tiempo prudencial el conductor del citado vehículo no ejerciera su derecho prioritario, se podrá iniciar la maniobra de adelantamiento, advirtiéndoselo previamente con señal acústica u óptica"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "etiquetas": {
+      "A": "Avisa"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "Ahora sí, A adelanta a B por la izquierda.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.1",
+      "texto": "como norma general, el adelantamiento deberá efectuarse por la izquierda del vehículo que se pretende adelantar"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3200,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda",
+      "B": "izquierda"
+     }
+    }
+   ]
+  },
+  "A-adel-0003": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de otro (B), y delante de los dos va un camión lento (C).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       130,
+       "d"
+      ],
+      [
+       190,
+       "i"
+      ],
+      [
+       330,
+       "i"
+      ],
+      [
+       390,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 50,
+      "s2": 90,
+      "s3": 200
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       125,
+       "d"
+      ],
+      [
+       180,
+       "i"
+      ],
+      [
+       280,
+       "i"
+      ],
+      [
+       330,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 100,
+      "s1": 120,
+      "s2": 345,
+      "s3": 420
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "tipo": "camion",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 200,
+      "s1": 215,
+      "s2": 235,
+      "s3": 255
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A quiere adelantar, pero B, que va delante en su mismo carril, ya ha puesto el intermitente izquierdo para adelantar al camión (C). A respeta su preferencia.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.2",
+      "texto": "También deberá cerciorarse de que el conductor del vehículo que le precede en el mismo carril no ha indicado su propósito de desplazamiento hacia el mismo lado; en tal caso, deberá respetar la preferencia que le asiste."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2200,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "B adelanta al camión. A no puede adelantar a B mientras B adelanta, porque tendría que invadir el sentido contrario.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.2",
+      "texto": "Se prohíbe, en todo caso, adelantar a los vehículos que ya estén adelantando a otro si el conductor del tercer vehículo, para efectuar dicha maniobra, ha de invadir la parte de la calzada reservada a la circulación en sentido contrario."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "derecha"
+     }
+    },
+    {
+     "texto": "Cuando B ha vuelto a su carril, A comprueba que hay espacio libre suficiente y empieza su adelantamiento.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    }
+   ]
+  },
+  "A-adel-0004": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de otro (B); detrás de A viene un tercero (D) por el carril contrario.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       175,
+       "d"
+      ],
+      [
+       235,
+       "i"
+      ],
+      [
+       400,
+       "i"
+      ],
+      [
+       460,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 110,
+      "s1": 140,
+      "s2": 170,
+      "s3": 250
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 200,
+      "s1": 230,
+      "s2": 260,
+      "s3": 290
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "D",
+     "ruta": [
+      [
+       -60,
+       "i"
+      ],
+      [
+       330,
+       "i"
+      ],
+      [
+       390,
+       "d"
+      ],
+      [
+       560,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 60,
+      "s1": 200,
+      "s2": 440
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A quiere adelantar a B, pero D, que le sigue, ya ha empezado a adelantarle. A no inicia su adelantamiento.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.3",
+      "texto": "deberá asegurarse de que ningún conductor que le siga por el mismo carril ha iniciado la maniobra de adelantar a su vehículo"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "A",
+      "D"
+     ],
+     "intermitentes": {
+      "D": "izquierda"
+     }
+    },
+    {
+     "texto": "D termina de adelantar a A y a B y vuelve a su carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "D"
+     ],
+     "intermitentes": {
+      "D": "derecha"
+     }
+    },
+    {
+     "texto": "Ya no le adelanta nadie: A comprueba que el carril contrario está libre y empieza a adelantar a B.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    }
+   ]
+  },
+  "x1a-0124": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de un camión (B), que va detrás de otro turismo (C).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 0,
+      "s1": 110,
+      "s2": 200
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "tipo": "camion",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       110,
+       "d"
+      ],
+      [
+       170,
+       "i"
+      ],
+      [
+       330,
+       "i"
+      ],
+      [
+       400,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 60,
+      "s1": 190,
+      "s2": 380
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 220,
+      "s1": 240,
+      "s2": 260
+     },
+     "inicio": "s0"
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "zona",
+     "x": 232,
+     "y": 162,
+     "w": 176,
+     "h": 36,
+     "texto": "A no ve esta zona",
+     "en": [
+      1
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "El camión (B) adelanta a C. Por su tamaño, A, que va detrás, no puede ver la parte delantera de la vía.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.a",
+      "texto": "se prohíbe, en concreto, el adelantamiento detrás de un vehículo que realiza la misma maniobra, cuando las dimensiones del vehículo que la efectúa en primer lugar impide la visibilidad de la parte delantera de la vía al conductor del vehículo que le sigue."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "A no adelanta detrás del camión: se queda en su carril hasta que pueda comprobar que hay espacio libre suficiente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "etiquetas": {
+      "A": "No adelanta"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "B": "derecha"
+     }
+    }
+   ]
+  },
+  "B2-mv-0020": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "eje": [
+     {
+      "tipo": "adosada-sur"
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido separados por una línea continua adosada a otra discontinua, que queda del lado de un turismo (A). Delante de A va otro (B).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       90,
+       "d"
+      ],
+      [
+       160,
+       "i"
+      ],
+      [
+       290,
+       "i"
+      ],
+      [
+       360,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 30,
+      "s1": 240,
+      "s2": 380
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 180,
+      "s1": 215,
+      "s2": 250
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "La línea discontinua está del lado de A, así que puede iniciar el adelantamiento si el carril contrario está libre.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+      "texto": "cuando la marca consiste en una línea longitudinal continua adosada a otra discontinua, las personas conductoras deberán tener en cuenta únicamente la línea situada en el lado por el que circulan."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Tras adelantar a B, A puede atravesar la línea continua para volver a su carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+      "texto": "un vehículo que haya iniciado una maniobra de adelantamiento en un tramo con este tipo de marca desde el carril contiguo a la línea discontinua, podrá atravesar la línea continua y volver a su carril tras realizar el adelantamiento o desistir de él."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "A-adel-0009": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "cruces": [
+     {
+      "x": 314,
+      "lado": "norte",
+      "ancho": 60
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido y un cruce con una vía que sale a la izquierda: un turismo (A) circula detrás de otro (B).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       130,
+       "d"
+      ],
+      [
+       180,
+       234
+      ],
+      [
+       320,
+       234
+      ],
+      [
+       370,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 30,
+      "s1": 110,
+      "s2": 300,
+      "s3": 400
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       150,
+       "d"
+      ],
+      [
+       200,
+       203
+      ],
+      [
+       262,
+       203
+      ],
+      [
+       328,
+       "N"
+      ]
+     ],
+     "marcas": {
+      "s0": 120,
+      "s1": 225,
+      "s2": 250
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B indica claramente que va a girar a la izquierda y se ciñe hacia el centro de la calzada. Deja espacio suficiente a su derecha.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.1",
+      "texto": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "frena"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "A le adelanta por la derecha, adoptando las máximas precauciones.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.2",
+      "texto": "el adelantamiento se efectuará por la derecha y adoptando las máximas precauciones, cuando el conductor del vehículo al que se pretenda adelantar esté indicando claramente su propósito de cambiar de dirección a la izquierda"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     },
+     "frenos": [
+      "B"
+     ]
+    },
+    {
+     "texto": "Por eso aquí se puede adelantar aunque haya una intersección: es una de las excepciones. B termina su giro.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.c.2º",
+      "texto": "El adelantamiento deba efectuarse por la derecha, según lo previsto en el artículo 82.2."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    }
+   ]
+  },
+  "x1a-0120": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "cruces": [
+     {
+      "x": 314,
+      "lado": "norte",
+      "ancho": 60
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido y un cruce con una vía que sale a la izquierda: un turismo (A) va a girar a la izquierda y otro (B) le sigue.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       130,
+       "d"
+      ],
+      [
+       190,
+       206
+      ],
+      [
+       255,
+       206
+      ],
+      [
+       328,
+       "N"
+      ]
+     ],
+     "marcas": {
+      "s0": 100,
+      "s1": 160,
+      "s2": 245,
+      "s3": 245
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       150,
+       "d"
+      ],
+      [
+       200,
+       236
+      ],
+      [
+       300,
+       236
+      ],
+      [
+       350,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 70,
+      "s2": 115,
+      "s3": 380,
+      "s4": 380
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "sentido": "O",
+     "ruta": [
+      [
+       520,
+       226
+      ],
+      [
+       -80,
+       226
+      ]
+     ],
+     "marcas": {
+      "s0": 560,
+      "s1": 560,
+      "s2": -40
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A va a girar a la izquierda y lleva el intermitente puesto. Ve que B, que le sigue, quiere adelantarle. Lo normal sería ceñirse al borde derecho…",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.1",
+      "texto": "El conductor que advierta que otro que le sigue tiene el propósito de adelantar a su vehículo estará obligado a ceñirse al borde derecho de la calzada"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2200,
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "…pero como va a girar a la izquierda, A se ciñe a la izquierda todo lo posible, sin estorbar a C, que viene de frente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.1",
+      "texto": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "frena"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "frena"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A",
+      "C"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "B adelanta a A por la derecha.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.2",
+      "texto": "el adelantamiento se efectuará por la derecha y adoptando las máximas precauciones, cuando el conductor del vehículo al que se pretenda adelantar esté indicando claramente su propósito de cambiar de dirección a la izquierda"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     },
+     "frenos": [
+      "A"
+     ]
+    },
+    {
+     "texto": "A termina su giro a la izquierda.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.1",
+      "texto": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    }
+   ]
+  },
+  "A-adel-0006": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) y, detrás, otro (B) que quiere adelantarle.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       120,
+       "d"
+      ],
+      [
+       180,
+       228
+      ],
+      [
+       520,
+       228
+      ]
+     ],
+     "marcas": {
+      "s0": 100,
+      "s1": 150,
+      "s2": 220,
+      "s3": 290
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       80,
+       "d"
+      ],
+      [
+       140,
+       "i"
+      ],
+      [
+       320,
+       "i"
+      ],
+      [
+       380,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 10,
+      "s1": 70,
+      "s2": 250,
+      "s3": 400
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B, que circula detrás, indica que va a adelantar a A.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.1",
+      "texto": "El conductor que advierta que otro que le sigue tiene el propósito de adelantar a su vehículo estará obligado a ceñirse al borde derecho de la calzada"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "A se ciñe al borde derecho de la calzada y no acelera mientras B adelanta.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.2",
+      "texto": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "A la derecha"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "B termina y vuelve a su carril delante de A.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "derecha"
+     }
+    }
+   ]
+  },
+  "x1a-0121": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) y, detrás, otro (B) que va algo más rápido.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 120,
+      "s1": 165,
+      "s2": 210,
+      "s3": 255
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       80,
+       "d"
+      ],
+      [
+       140,
+       "i"
+      ],
+      [
+       300,
+       "i"
+      ],
+      [
+       360,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 90,
+      "s2": 260,
+      "s3": 400
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B empieza a adelantar a A. A se ciñe al borde derecho.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.1",
+      "texto": "El conductor que advierta que otro que le sigue tiene el propósito de adelantar a su vehículo estará obligado a ceñirse al borde derecho de la calzada"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "A no aumenta la velocidad ni hace nada que impida o dificulte el adelantamiento.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.2",
+      "texto": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Sin acelerar"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {}
+    },
+    {
+     "texto": "B vuelve a su carril delante de A.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "derecha"
+     }
+    }
+   ]
+  },
+  "x1a-0122": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (B) empieza a adelantar a otro (A).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 150,
+      "s1": 195,
+      "s2": 250,
+      "s3": 300
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       60,
+       "d"
+      ],
+      [
+       115,
+       "i"
+      ],
+      [
+       160,
+       "i"
+      ],
+      [
+       215,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 140,
+      "s2": 160,
+      "s3": 215
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "sentido": "O",
+     "ruta": [
+      [
+       520,
+       "d"
+      ],
+      [
+       -80,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 600,
+      "s1": 430,
+      "s2": 300,
+      "s3": -60
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B ha empezado a adelantar a A cuando aparece C de frente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.2",
+      "texto": "Si después de iniciar la maniobra de adelantamiento advirtiera que se producen circunstancias que puedan hacer difícil su finalización sin provocar riesgos, reducirá rápidamente su marcha, regresará de nuevo a su carril y lo advertirá a los que le siguen con las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "B",
+      "C"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "B desiste y reduce la velocidad. A no frena de golpe, porque sería peligroso, pero le facilita volver: no acelera ni le cierra el hueco.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.2",
+      "texto": "cuando el adelantante diera muestras inequívocas de desistir de la maniobra reduciendo su velocidad, el conductor del vehículo al que se pretende adelantar no estará obligado a disminuir la suya, si con ello pone en peligro la seguridad de la circulación, aunque sí estará obligado a facilitar al conductor adelantante la vuelta a su carril."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "frena"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Facilita"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "intermitentes": {
+      "B": "derecha"
+     }
+    },
+    {
+     "texto": "B vuelve a su carril detrás de A y C pasa sin peligro.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.2",
+      "texto": "cuando el adelantante diera muestras inequívocas de desistir de la maniobra reduciendo su velocidad, el conductor del vehículo al que se pretende adelantar no estará obligado a disminuir la suya, si con ello pone en peligro la seguridad de la circulación, aunque sí estará obligado a facilitar al conductor adelantante la vuelta a su carril."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "suave",
+       "dura": 1400
+      },
+      {
+       "v": "C",
+       "hasta": "s3",
+       "modo": "sigue",
+       "retraso": 600
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "B"
+     ]
+    }
+   ]
+  },
+  "A-adel-0007": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (B) está adelantando a otro (A).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 150,
+      "s1": 190,
+      "s2": 205,
+      "s3": 245
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       60,
+       "d"
+      ],
+      [
+       115,
+       "i"
+      ],
+      [
+       260,
+       "i"
+      ],
+      [
+       315,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 140,
+      "s2": 330,
+      "s3": 410
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "sentido": "O",
+     "ruta": [
+      [
+       520,
+       "d"
+      ],
+      [
+       -80,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 560,
+      "s1": 470,
+      "s2": 330
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B está adelantando a A cuando aparece C de frente: la situación se vuelve peligrosa.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.2",
+      "texto": "También estará obligado a disminuir la velocidad de su vehículo cuando, una vez iniciada la maniobra de adelantamiento, se produzca alguna situación que entrañe peligro"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "B",
+      "C"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "A disminuye la velocidad para que B pueda terminar y volver a su carril cuanto antes.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.2",
+      "texto": "También estará obligado a disminuir la velocidad de su vehículo cuando, una vez iniciada la maniobra de adelantamiento, se produzca alguna situación que entrañe peligro"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "frena"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Frena"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "B": "derecha"
+     }
+    },
+    {
+     "texto": "B vuelve delante de A y C pasa sin peligro.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "B"
+     ]
+    }
+   ]
+  },
+  "A-adel-0008": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido: un turismo (A) circula detrás de un camión (B).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       110,
+       "d"
+      ],
+      [
+       170,
+       "i"
+      ],
+      [
+       320,
+       "i"
+      ],
+      [
+       380,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 40,
+      "s1": 100,
+      "s2": 270,
+      "s3": 380
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "tipo": "camion",
+     "ruta": [
+      [
+       -60,
+       226
+      ],
+      [
+       520,
+       226
+      ]
+     ],
+     "marcas": {
+      "s0": 180,
+      "s1": 205,
+      "s2": 235,
+      "s3": 265
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "El camión (B) no puede ceñirse del todo a la derecha. Como no cree conveniente hacer la señal con el brazo, pone el intermitente derecho para indicar a A que puede adelantarle.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "86.1",
+      "texto": "o poniendo en funcionamiento el intermitente derecho, cuando no crea conveniente hacer la señal con el brazo."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "derecha"
+     }
+    },
+    {
+     "texto": "A comprueba que el carril contrario está libre y adelanta.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "A vuelve a su carril delante del camión.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "x1a-0093": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 2,
+    "aceleracion": {
+     "desde": 100,
+     "hasta": 280
+    }
+   },
+   "titulo": "Autovía vista desde arriba: un turismo (A) llega por el ramal de entrada al carril de aceleración y un camión (B) circula por el carril derecho.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -40,
+       "rampa"
+      ],
+      [
+       100,
+       "acel"
+      ],
+      [
+       280,
+       "acel"
+      ],
+      [
+       350,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 22,
+      "s1": 120,
+      "s2": 262,
+      "s3": 372
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "tipo": "camion",
+     "ruta": [
+      [
+       -80,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 60,
+      "s1": 190,
+      "s2": 330
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Al principio del carril de aceleración, A comprueba la posición, la trayectoria y la velocidad de quienes van por la autovía. Si hiciera falta, se detendría aquí.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.4",
+      "texto": "deberá cerciorarse, al principio de dicho carril, de que puede hacerlo sin peligro para los demás usuarios que transiten por dicha calzada, teniendo en cuenta la posición, trayectoria y velocidad de éstos, e incluso deteniéndose, en caso necesario."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "frena"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Comprueba"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Puede incorporarse sin peligro, así que acelera por el carril de aceleración hasta ir a la velocidad adecuada al llegar al final.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.4",
+      "texto": "A continuación, acelerará hasta alcanzar la velocidad adecuada al final del carril de aceleración para incorporarse a la circulación de la calzada."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "arranca"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Acelera"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Al final del carril, A se incorpora con el intermitente puesto, por detrás del camión (B).",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.3",
+      "texto": "El conductor que se incorpore a la circulación advertirá ópticamente la maniobra en la forma prevista en el artículo 109."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    }
+   ]
+  },
+  "A-inc-0002": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 2,
+    "aceleracion": {
+     "desde": 100,
+     "hasta": 280
+    }
+   },
+   "titulo": "Autovía vista desde arriba: un turismo (A) llega por el ramal de entrada al carril de aceleración; por el carril derecho se acercan dos vehículos (B y C).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -40,
+       "rampa"
+      ],
+      [
+       100,
+       "acel"
+      ],
+      [
+       280,
+       "acel"
+      ],
+      [
+       350,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 22,
+      "s1": 112,
+      "s2": 112,
+      "s3": 262,
+      "s4": 372
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -80,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 140,
+      "s1": 260,
+      "s2": 380
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -80,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 10,
+      "s1": 130,
+      "s2": 250,
+      "s3": 380
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A llega al principio del carril de aceleración y comprueba la circulación: B y C se acercan por el carril derecho. Como no puede incorporarse sin peligro, se detiene.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.4",
+      "texto": "deberá cerciorarse, al principio de dicho carril, de que puede hacerlo sin peligro para los demás usuarios que transiten por dicha calzada, teniendo en cuenta la posición, trayectoria y velocidad de éstos, e incluso deteniéndose, en caso necesario."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "frena"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Se detiene"
+     },
+     "foco": [
+      "A",
+      "C"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Espera parado al principio del carril hasta que pasa C.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.4",
+      "texto": "deberá cerciorarse, al principio de dicho carril, de que puede hacerlo sin peligro para los demás usuarios que transiten por dicha calzada, teniendo en cuenta la posición, trayectoria y velocidad de éstos, e incluso deteniéndose, en caso necesario."
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     },
+     "frenos": [
+      "A"
+     ]
+    },
+    {
+     "texto": "Con hueco suficiente, acelera por el carril de aceleración.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.4",
+      "texto": "A continuación, acelerará hasta alcanzar la velocidad adecuada al final del carril de aceleración para incorporarse a la circulación de la calzada."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "arranca"
+      },
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "etiquetas": {
+      "A": "Acelera"
+     },
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Al final del carril se incorpora a la autovía con el intermitente puesto.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.3",
+      "texto": "El conductor que se incorpore a la circulación advertirá ópticamente la maniobra en la forma prevista en el artículo 109."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s4",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2400,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    }
+   ]
+  },
+  "B1-pri-0071": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 2,
+    "aceleracion": {
+     "desde": 100,
+     "hasta": 280
+    }
+   },
+   "titulo": "Autopista vista desde arriba: un turismo (A) circula por el carril derecho y otro (B) entra por el carril de aceleración.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "der"
+      ],
+      [
+       100,
+       "der"
+      ],
+      [
+       170,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 130,
+      "s2": 260,
+      "s3": 390
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -40,
+       "rampa"
+      ],
+      [
+       100,
+       "acel"
+      ],
+      [
+       280,
+       "acel"
+      ],
+      [
+       350,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 40,
+      "s1": 160,
+      "s2": 290,
+      "s3": 400
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B acelera por el carril de aceleración para incorporarse a la autopista.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.4",
+      "texto": "A continuación, acelerará hasta alcanzar la velocidad adecuada al final del carril de aceleración para incorporarse a la circulación de la calzada."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda",
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "A tiene preferencia, pero facilita la maniobra en la medida de lo posible: como el carril izquierdo está libre, se cambia a él.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "73.1",
+      "texto": "los demás conductores facilitarán, en la medida de lo posible, dicha maniobra"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda",
+      "B": "izquierda"
+     }
+    },
+    {
+     "texto": "B se incorpora al carril derecho con el intermitente puesto.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.3",
+      "texto": "El conductor que se incorpore a la circulación advertirá ópticamente la maniobra en la forma prevista en el artículo 109."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     }
+    }
+   ]
+  },
+  "A-adel-0002": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 2,
+    "aceleracion": {
+     "desde": 100,
+     "hasta": 280
+    }
+   },
+   "titulo": "Autovía vista desde arriba: un turismo (A) circula por el carril de aceleración y por el carril derecho van otros vehículos (B, C y D).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -40,
+       "rampa"
+      ],
+      [
+       100,
+       "acel"
+      ],
+      [
+       280,
+       "acel"
+      ],
+      [
+       350,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 110,
+      "s1": 250,
+      "s2": 352
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -80,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 300,
+      "s1": 345,
+      "s2": 420
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -80,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 150,
+      "s1": 190,
+      "s2": 230
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "D",
+     "ruta": [
+      [
+       -80,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 60,
+      "s2": 100
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "El carril derecho va lento. A, por el carril de aceleración, avanza más deprisa que D y C: eso no se considera adelantamiento.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "83.3",
+      "texto": "tampoco se considerará adelantamiento el hecho de que se avance más rápidamente por aquellos que por los normales de circulación, o viceversa."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "A",
+      "C"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    },
+    {
+     "texto": "Al final del carril de aceleración, A se incorpora en el hueco que queda delante de C.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.4",
+      "texto": "A continuación, acelerará hasta alcanzar la velocidad adecuada al final del carril de aceleración para incorporarse a la circulación de la calzada."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     }
+    }
+   ]
+  },
+  "A-adel-0001": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 2
+   },
+   "titulo": "Autovía vista desde arriba con circulación densa: los dos carriles están llenos de vehículos. Un turismo (A) va por el carril derecho.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -100,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 70,
+      "s1": 150,
+      "s2": 230
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -100,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 140,
+      "s1": 220,
+      "s2": 300
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -100,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 0,
+      "s1": 80,
+      "s2": 160
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i1",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 330,
+      "s1": 360,
+      "s2": 390
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i2",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 262,
+      "s1": 292,
+      "s2": 322
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i3",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 194,
+      "s1": 224,
+      "s2": 254
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i4",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 126,
+      "s1": 156,
+      "s2": 186
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i5",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 58,
+      "s1": 88,
+      "s2": 118
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i6",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": -10,
+      "s1": 20,
+      "s2": 50
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "La circulación es densa: los vehículos ocupan toda la calzada y cada uno va a la velocidad del que lleva delante en su carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "83.2",
+      "texto": "Cuando la densidad de la circulación sea tal que los vehículos ocupen toda la anchura de la calzada y sólo puedan circular a una velocidad que dependa de la del que los precede en su carril"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i1",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i2",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i3",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i4",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i5",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i6",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "A"
+     ]
+    },
+    {
+     "texto": "Los del carril derecho, como A, avanzan más deprisa que los del izquierdo. Eso no se considera un adelantamiento.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "83.2",
+      "texto": "el hecho de que los de un carril circulen más rápidamente que los de otro no será considerado como un adelantamiento."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i1",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i2",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i3",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i4",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i5",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i6",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "A"
+     ]
+    }
+   ]
+  },
+  "x1a-0107": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 2
+   },
+   "titulo": "Autovía vista desde arriba con circulación densa: los dos carriles están llenos de vehículos. Un turismo (A) va por el carril derecho.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -100,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 70,
+      "s1": 150,
+      "s2": 230
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -100,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 140,
+      "s1": 220,
+      "s2": 300
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -100,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 0,
+      "s1": 80,
+      "s2": 160
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i1",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 330,
+      "s1": 360,
+      "s2": 390
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i2",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 262,
+      "s1": 292,
+      "s2": 322
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i3",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 194,
+      "s1": 224,
+      "s2": 254
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i4",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 126,
+      "s1": 156,
+      "s2": 186
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i5",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 58,
+      "s1": 88,
+      "s2": 118
+     },
+     "inicio": "s0"
+    },
+    {
+     "id": "i6",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": -10,
+      "s1": 20,
+      "s2": 50
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "La circulación es densa: los vehículos ocupan toda la calzada y cada uno va a la velocidad del que lleva delante en su carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "83.2",
+      "texto": "Cuando la densidad de la circulación sea tal que los vehículos ocupen toda la anchura de la calzada y sólo puedan circular a una velocidad que dependa de la del que los precede en su carril"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i1",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i2",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i3",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i4",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i5",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "i6",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "A"
+     ]
+    },
+    {
+     "texto": "A no cambia de carril para ir más deprisa: en esta situación solo lo haría para prepararse a girar, salir de la calzada o tomar una dirección.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "83.2",
+      "texto": "ningún conductor deberá cambiar de carril para adelantar ni para efectuar cualquier otra maniobra que no sea prepararse a girar a la derecha o a la izquierda, salir de la calzada o tomar determinada dirección."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i1",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i2",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i3",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i4",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i5",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "i6",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2800,
+     "foco": [
+      "A"
+     ]
+    }
+   ]
+  },
+  "x1a-0106": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 3
+   },
+   "titulo": "Autovía vista desde arriba con tres carriles en el mismo sentido: un turismo (A) va por el carril central, detrás de él viene otro (D) por el izquierdo, y por el derecho van B y C.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "centro"
+      ],
+      [
+       330,
+       "centro"
+      ],
+      [
+       390,
+       "der"
+      ],
+      [
+       560,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 60,
+      "s1": 150,
+      "s2": 290,
+      "s3": 390
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 120,
+      "s1": 140,
+      "s2": 160,
+      "s3": 180
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -60,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 250,
+      "s1": 270,
+      "s2": 290,
+      "s3": 310
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "D",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": -60,
+      "s1": 60,
+      "s2": 330
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A adelanta a B por el carril central.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.1",
+      "texto": "como norma general, el adelantamiento deberá efectuarse por la izquierda del vehículo que se pretende adelantar"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A",
+      "B"
+     ]
+    },
+    {
+     "texto": "Como enseguida va a adelantar a C, A se queda en el carril central. Puede hacerlo porque no molesta a D, que viene detrás más deprisa por el izquierdo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "83.1",
+      "texto": "el conductor que vaya a efectuar un nuevo adelantamiento podrá permanecer en el carril que haya utilizado para el anterior, a condición de cerciorarse de que puede hacerlo sin molestia indebida para los conductores de vehículos que circulen detrás del suyo más velozmente."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A",
+      "D"
+     ]
+    },
+    {
+     "texto": "Cuando ha adelantado a C, A vuelve al carril derecho.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "D",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "A"
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     }
+    }
+   ]
+  },
+  "A-adel-0005": {
+   "tipo": "autovia",
+   "antes": "escena",
+   "via": {
+    "carriles": 3
+   },
+   "titulo": "Autovía vista desde arriba con tres carriles en el mismo sentido: por el derecho va un camión (C), por el central un turismo (B) y por el izquierdo otro (A).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -100,
+       "izq"
+      ],
+      [
+       520,
+       "izq"
+      ]
+     ],
+     "marcas": {
+      "s0": 0,
+      "s1": 200,
+      "s2": 380
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "centro"
+      ],
+      [
+       320,
+       "centro"
+      ],
+      [
+       380,
+       "der"
+      ],
+      [
+       560,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 100,
+      "s1": 230,
+      "s2": 290,
+      "s3": 410
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "tipo": "camion",
+     "ruta": [
+      [
+       -60,
+       "der"
+      ],
+      [
+       520,
+       "der"
+      ]
+     ],
+     "marcas": {
+      "s0": 200,
+      "s1": 225,
+      "s2": 250,
+      "s3": 275
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B adelanta al camión (C) por el carril central.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.1",
+      "texto": "como norma general, el adelantamiento deberá efectuarse por la izquierda del vehículo que se pretende adelantar"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B",
+      "C"
+     ]
+    },
+    {
+     "texto": "Mientras B adelanta, A le adelanta a él por el carril izquierdo. En una autovía no tiene que invadir el sentido contrario, así que puede hacerlo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.2",
+      "texto": "Se prohíbe, en todo caso, adelantar a los vehículos que ya estén adelantando a otro si el conductor del tercer vehículo, para efectuar dicha maniobra, ha de invadir la parte de la calzada reservada a la circulación en sentido contrario."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 3000,
+     "foco": [
+      "A",
+      "B"
+     ]
+    },
+    {
+     "texto": "B termina su adelantamiento y vuelve al carril derecho.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "ms": 2600,
+     "foco": [
+      "B"
+     ],
+     "intermitentes": {
+      "B": "derecha"
+     }
+    }
+   ]
+  }
+ }
+}

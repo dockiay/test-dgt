@@ -15714,6 +15714,251 @@
    "nota": "Lámina completa con varios elementos; recortar si una pregunta necesita solo uno."
   },
   {
+   "id": "agente-brazo-levantado",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/agente-brazo-levantado.jpg",
+   "nombre": "Agente con un brazo levantado verticalmente",
+   "alt": "Agente con un brazo levantado verticalmente",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "1.1",
+    "pagina_pdf": 71
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "agente-brazo-arriba-abajo",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/agente-brazo-arriba-abajo.jpg",
+   "nombre": "Agente con un brazo extendido que mueve alternativamente de arriba abajo",
+   "alt": "Agente con un brazo extendido que mueve alternativamente de arriba abajo",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "1.1",
+    "pagina_pdf": 71
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "agente-moto-bandera-roja",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/agente-moto-bandera-roja.jpg",
+   "nombre": "Agente en motocicleta mostrando una bandera roja",
+   "alt": "Agente en motocicleta mostrando una bandera roja",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "1.1",
+    "pagina_pdf": 72
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "regulacion-paso-paletas",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/regulacion-paso-paletas.jpg",
+   "nombre": "Paletas para regular el paso: una con la señal de entrada prohibida y otra con la de sentido obligatorio",
+   "alt": "Paletas para regular el paso: una con la señal de entrada prohibida y otra con la de sentido obligatorio",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "1.1",
+    "pagina_pdf": 72
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "conos",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/conos.jpg",
+   "nombre": "Hilera de conos sobre la calzada",
+   "alt": "Hilera de conos sobre la calzada",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 2",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "2",
+    "pagina_pdf": 75
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "panel-direccional-provisional",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/panel-direccional-provisional.jpg",
+   "nombre": "Panel direccional provisional de franjas rojas y blancas",
+   "alt": "Panel direccional provisional de franjas rojas y blancas",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 2",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "2",
+    "pagina_pdf": 75
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "panel-direccional-permanente",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/panel-direccional-permanente.jpg",
+   "nombre": "Panel direccional permanente azul y blanco en el borde de la carretera",
+   "alt": "Panel direccional permanente azul y blanco en el borde de la carretera",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3.1.2",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "3.1.2",
+    "pagina_pdf": 77
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "semaforo-flecha-negra",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/semaforo-flecha-negra.jpg",
+   "nombre": "Semáforo con una flecha negra sobre la luz encendida",
+   "alt": "Semáforo con una flecha negra sobre la luz encendida",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.2",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "4.2",
+    "pagina_pdf": 82
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "semaforo-flecha-verde",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/semaforo-flecha-verde.jpg",
+   "nombre": "Semáforo con la luz roja encendida y un módulo con una flecha verde iluminada",
+   "alt": "Semáforo con la luz roja encendida y un módulo con una flecha verde iluminada",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.2",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "4.2",
+    "pagina_pdf": 82
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "semaforos-carril-aspa-flecha",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/semaforos-carril-aspa-flecha.jpg",
+   "nombre": "Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo",
+   "alt": "Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "4.3",
+    "pagina_pdf": 83
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "semaforo-carril-flecha-oblicua",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/semaforo-carril-flecha-oblicua.jpg",
+   "nombre": "Semáforo de carril con una flecha oblicua iluminada hacia abajo",
+   "alt": "Semáforo de carril con una flecha oblicua iluminada hacia abajo",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "4.3",
+    "pagina_pdf": 83
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "semaforos-ciclos",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/semaforos-ciclos.jpg",
+   "nombre": "Semáforos con la silueta de una bicicleta en las luces",
+   "alt": "Semáforos con la silueta de una bicicleta en las luces",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "4.4",
+    "pagina_pdf": 84
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "V-26",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/V-26.jpg",
+   "nombre": "Distintivo circular azul con un turismo y varias personas",
+   "alt": "Distintivo circular azul con un turismo y varias personas",
+   "credito": "Anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826), señal V-26",
+   "fuente": {
+    "norma": "Reglamento General de Vehículos (RD 2822/1998), anexo XI",
+    "ref": "BOE-A-1999-1826",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "pagina_pdf": 127,
+    "pdf_local": "fuentes/BOE-A-1999-1826-Reglamento-General-Vehiculos-consolidado.pdf"
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
    "id": "cruce-sin-senalizar",
    "tipo": "esquema",
    "src": "img/esquemas/cruce-sin-senalizar.svg",
@@ -15772,6 +16017,71 @@
    "nombre": "Intersección en T con STOP",
    "alt": "Intersección en T. El vehículo A está en la vía secundaria, ante una línea de detención con la marca STOP, y quiere girar a la izquierda; el vehículo B circula por la vía principal acercándose desde la derecha de A.",
    "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-5-vehiculo-lento",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-5-vehiculo-lento.svg",
+   "nombre": "Señal en la parte trasera de un vehículo (triángulo rojo)",
+   "alt": "Placa triangular con los vértices redondeados: borde rojo reflectante y triángulo interior rojo fluorescente.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-20-carga-saliente",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-20-carga-saliente.svg",
+   "nombre": "Panel cuadrado de franjas rojas y blancas",
+   "alt": "Panel cuadrado con franjas diagonales alternas rojas y blancas.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-tranvia-franja-vertical",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-tranvia-franja-vertical.svg",
+   "nombre": "Semáforo con franja blanca vertical",
+   "alt": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical iluminada.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-tranvia-franja-horizontal",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-tranvia-franja-horizontal.svg",
+   "nombre": "Semáforo con franja blanca horizontal",
+   "alt": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca horizontal iluminada.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-paso-a-nivel",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-paso-a-nivel.svg",
+   "nombre": "Semáforo de paso a nivel",
+   "alt": "Carretera que cruza una vía férrea. En el poste, la señal de situación de paso a nivel y debajo dos luces rojas en horizontal, con una de ellas encendida.",
+   "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)",
    "fuente": {
     "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
    },

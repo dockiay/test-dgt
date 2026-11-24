@@ -62,6 +62,23 @@ FIGURAS = {
     "anexoI-pag084-011.jpg": ("Semáforos reservados a determinados vehículos (ciclos, tranvías y autobuses)", "4.4"),
 }
 
+RGC = "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+FOTOS_BOE = {
+    "agente-brazo-levantado.jpg": ("Agente con un brazo levantado verticalmente", RGC, "1.1", 71),
+    "agente-brazo-arriba-abajo.jpg": ("Agente con un brazo extendido que mueve alternativamente de arriba abajo", RGC, "1.1", 71),
+    "agente-moto-bandera-roja.jpg": ("Agente en motocicleta mostrando una bandera roja", RGC, "1.1", 72),
+    "regulacion-paso-paletas.jpg": ("Paletas para regular el paso: una con la señal de entrada prohibida y otra con la de sentido obligatorio", RGC, "1.1", 72),
+    "conos.jpg": ("Hilera de conos sobre la calzada", RGC, "2", 75),
+    "panel-direccional-provisional.jpg": ("Panel direccional provisional de franjas rojas y blancas", RGC, "2", 75),
+    "panel-direccional-permanente.jpg": ("Panel direccional permanente azul y blanco en el borde de la carretera", RGC, "3.1.2", 77),
+    "semaforo-flecha-negra.jpg": ("Semáforo con una flecha negra sobre la luz encendida", RGC, "4.2", 82),
+    "semaforo-flecha-verde.jpg": ("Semáforo con la luz roja encendida y un módulo con una flecha verde iluminada", RGC, "4.2", 82),
+    "semaforos-carril-aspa-flecha.jpg": ("Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo", RGC, "4.3", 83),
+    "semaforo-carril-flecha-oblicua.jpg": ("Semáforo de carril con una flecha oblicua iluminada hacia abajo", RGC, "4.3", 83),
+    "semaforos-ciclos.jpg": ("Semáforos con la silueta de una bicicleta en las luces", RGC, "4.4", 84),
+    "V-26.jpg": ("Distintivo circular azul con un turismo y varias personas", "Anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)", "V-26", 127),
+}
+
 
 def grupo(codigo):
     m = re.match(r"([PRS])-(\d+)", codigo)
@@ -133,6 +150,25 @@ def main():
             "formato": "jpg",
             "nota": "Lámina completa con varios elementos; recortar si una pregunta necesita solo uno.",
         })
+    for fichero, (desc, norma, apartado, pag) in FOTOS_BOE.items():
+        if not os.path.exists(os.path.join(AQUI, "fotos-boe", fichero)):
+            continue
+        es_rgv = "Vehículos" in norma
+        fuente = ({"norma": "Reglamento General de Vehículos (RD 2822/1998), anexo XI", "ref": "BOE-A-1999-1826",
+                   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826", "pagina_pdf": pag,
+                   "pdf_local": "fuentes/BOE-A-1999-1826-Reglamento-General-Vehiculos-consolidado.pdf"}
+                  if es_rgv else dict(FUENTE_RGC, apartado=apartado, pagina_pdf=pag))
+        entradas.append({
+            "id": fichero.rsplit(".", 1)[0],
+            "tipo": "foto_boe",
+            "src": f"img/fotos-boe/{fichero}",
+            "nombre": desc,
+            "alt": desc,
+            "credito": f"{norma}, apartado {apartado}" if not es_rgv else f"{norma}, señal {apartado}",
+            "fuente": fuente,
+            "licencia": LICENCIA_BOE,
+            "formato": "jpg",
+        })
     spec = importlib.util.spec_from_file_location("plantilla", os.path.join(AQUI, "esquemas", "plantilla_esquemas.py"))
     plantilla = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(plantilla)
@@ -159,13 +195,14 @@ def main():
               f"- **Señales** (`senales/`): recortadas del {CREDITO_BOE}, versión consolidada del 26/06/2026. " + LICENCIA_BOE,
               "- **Marcas viales** (`marcas/`): planos del Catálogo de marcas viales del mismo anexo I (apartado 5.2). Misma licencia.",
               "- **Figuras del BOE** (`figuras-boe/`): láminas del mismo anexo I (agentes, balizamiento, semáforos). Misma licencia.",
+              "- **Fotos del BOE** (`fotos-boe/`): recortes de las láminas del anexo I del RGC y del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826). Misma licencia.",
               "- **Esquemas** (`esquemas/`): dibujos propios en SVG, hechos con `esquemas/plantilla_esquemas.py`.",
               "- No se usan imágenes de los tests de la DGT ni de webs comerciales.", ""]
     por_tipo = {}
     for e in entradas:
         por_tipo.setdefault(e["tipo"], []).append(e)
-    titulos = {"senal": "Señales", "marca_vial": "Marcas viales", "figura_boe": "Figuras del anexo I", "esquema": "Esquemas propios"}
-    for t in ("senal", "marca_vial", "figura_boe", "esquema"):
+    titulos = {"senal": "Señales", "marca_vial": "Marcas viales", "foto_boe": "Fotos recortadas del BOE", "figura_boe": "Figuras del anexo I", "esquema": "Esquemas propios"}
+    for t in ("senal", "marca_vial", "foto_boe", "figura_boe", "esquema"):
         es = por_tipo.get(t, [])
         lineas += [f"## {titulos[t]} ({len(es)})", ""]
         if t in ("senal", "marca_vial") and t == "marca_vial":

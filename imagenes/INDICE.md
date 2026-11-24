@@ -7,6 +7,7 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 - **Señales** (`senales/`): recortadas del Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), versión consolidada del 26/06/2026. Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).
 - **Marcas viales** (`marcas/`): planos del Catálogo de marcas viales del mismo anexo I (apartado 5.2). Misma licencia.
 - **Figuras del BOE** (`figuras-boe/`): láminas del mismo anexo I (agentes, balizamiento, semáforos). Misma licencia.
+- **Fotos del BOE** (`fotos-boe/`): recortes de las láminas del anexo I del RGC y del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826). Misma licencia.
 - **Esquemas** (`esquemas/`): dibujos propios en SVG, hechos con `esquemas/plantilla_esquemas.py`.
 - No se usan imágenes de los tests de la DGT ni de webs comerciales.
 
@@ -681,6 +682,24 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | M-8.2 | `marcas/M-8.2.png` | 717 |
 | M-8.3 | `marcas/M-8.3.png` | 717 |
 
+## Fotos recortadas del BOE (13)
+
+| Fichero | Qué muestra | Fuente |
+|---|---|---|
+| `fotos-boe/agente-brazo-levantado.jpg` | Agente con un brazo levantado verticalmente | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1 |
+| `fotos-boe/agente-brazo-arriba-abajo.jpg` | Agente con un brazo extendido que mueve alternativamente de arriba abajo | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1 |
+| `fotos-boe/agente-moto-bandera-roja.jpg` | Agente en motocicleta mostrando una bandera roja | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1 |
+| `fotos-boe/regulacion-paso-paletas.jpg` | Paletas para regular el paso: una con la señal de entrada prohibida y otra con la de sentido obligatorio | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1 |
+| `fotos-boe/conos.jpg` | Hilera de conos sobre la calzada | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 2 |
+| `fotos-boe/panel-direccional-provisional.jpg` | Panel direccional provisional de franjas rojas y blancas | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 2 |
+| `fotos-boe/panel-direccional-permanente.jpg` | Panel direccional permanente azul y blanco en el borde de la carretera | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3.1.2 |
+| `fotos-boe/semaforo-flecha-negra.jpg` | Semáforo con una flecha negra sobre la luz encendida | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.2 |
+| `fotos-boe/semaforo-flecha-verde.jpg` | Semáforo con la luz roja encendida y un módulo con una flecha verde iluminada | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.2 |
+| `fotos-boe/semaforos-carril-aspa-flecha.jpg` | Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3 |
+| `fotos-boe/semaforo-carril-flecha-oblicua.jpg` | Semáforo de carril con una flecha oblicua iluminada hacia abajo | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3 |
+| `fotos-boe/semaforos-ciclos.jpg` | Semáforos con la silueta de una bicicleta en las luces | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4 |
+| `fotos-boe/V-26.jpg` | Distintivo circular azul con un turismo y varias personas | Anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826), señal V-26 |
+
 ## Figuras del anexo I (12)
 
 | Fichero | Qué muestra | Fuente |
@@ -698,7 +717,7 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `figuras-boe/anexoI-pag083-010.jpg` | Semáforos cuadrados o de carril | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3 |
 | `figuras-boe/anexoI-pag084-011.jpg` | Semáforos reservados a determinados vehículos (ciclos, tranvías y autobuses) | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4 |
 
-## Esquemas propios (17)
+## Esquemas propios (22)
 
 | Fichero | Qué muestra | Fuente |
 |---|---|---|
@@ -707,6 +726,11 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `esquemas/adelantamiento-linea-discontinua.svg` | Vía de doble sentido con línea central discontinua. El vehículo A adelanta al vehículo B; el vehículo C circula de frente por el carril contrario. | Esquema propio del proyecto |
 | `esquemas/incorporacion-autovia.svg` | El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía. | Esquema propio del proyecto |
 | `esquemas/interseccion-t-stop.svg` | Intersección en T. El vehículo A está en la vía secundaria, ante una línea de detención con la marca STOP, y quiere girar a la izquierda; el vehículo B circula por la vía principal acercándose desde la derecha de A. | Esquema propio del proyecto |
+| `esquemas/senal-V-5-vehiculo-lento.svg` | Placa triangular con los vértices redondeados: borde rojo reflectante y triángulo interior rojo fluorescente. | Esquema propio del proyecto |
+| `esquemas/senal-V-20-carga-saliente.svg` | Panel cuadrado con franjas diagonales alternas rojas y blancas. | Esquema propio del proyecto |
+| `esquemas/semaforo-tranvia-franja-vertical.svg` | Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical iluminada. | Esquema propio del proyecto |
+| `esquemas/semaforo-tranvia-franja-horizontal.svg` | Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca horizontal iluminada. | Esquema propio del proyecto |
+| `esquemas/semaforo-paso-a-nivel.svg` | Carretera que cruza una vía férrea. En el poste, la señal de situación de paso a nivel y debajo dos luces rojas en horizontal, con una de ellas encendida. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
 | `esquemas/cruce-sin-senalizar-tres-vehiculos.svg` | Cruce de cuatro brazos sin señales, marcas ni semáforos. El vehículo A llega por el sur, el B por el este y el C por el norte; los tres quieren seguir recto. El brazo oeste está vacío. | Esquema propio del proyecto |
 | `esquemas/semaforo-ambar-intermitente-stop.svg` | Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz amarilla intermitente y, en el mismo poste, una señal de STOP. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
 | `esquemas/ceda-y-stop-recto.svg` | Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a seguir de frente. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |

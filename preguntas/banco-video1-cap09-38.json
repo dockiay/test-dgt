@@ -3690,8 +3690,10 @@
         "minuto": "2:08:03"
       },
       "imagen": {
-        "pendiente": "Agente de tráfico uniformado, de frente, con un brazo levantado verticalmente.",
-        "codigo": null
+        "src": "img/fotos-boe/agente-brazo-levantado.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Agente con un brazo levantado verticalmente",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -3830,8 +3832,10 @@
         "minuto": "2:08:22"
       },
       "imagen": {
-        "pendiente": "Agente de tráfico con un brazo extendido lateralmente, con flechas que indican movimiento de arriba abajo.",
-        "codigo": null
+        "src": "img/fotos-boe/agente-brazo-arriba-abajo.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Agente con un brazo extendido que mueve alternativamente de arriba abajo",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -3961,8 +3965,10 @@
         "minuto": "2:08:52"
       },
       "imagen": {
-        "pendiente": "Motocicleta de agentes de tráfico en carretera con el agente mostrando una bandera roja.",
-        "codigo": null
+        "src": "img/fotos-boe/agente-moto-bandera-roja.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Agente en motocicleta mostrando una bandera roja",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4071,7 +4077,7 @@
       "id": "B1-sen-0026",
       "tema": "senales",
       "subtema": "agentes",
-      "enunciado": "En un tramo en obras, un operario regula el paso de vehículos con una paleta. ¿Está obligado a seguir sus indicaciones?",
+      "enunciado": "En un tramo en obras, el personal de la obra regula el paso de vehículos con paletas como estas. ¿Está obligado a seguir sus indicaciones?",
       "opciones": {
         "a": "No, solo hay que obedecer a los agentes de la autoridad.",
         "b": "Solo si no hay semáforo provisional.",
@@ -4092,8 +4098,10 @@
         "minuto": "2:09:23"
       },
       "imagen": {
-        "pendiente": "Operario de obras con chaleco reflectante sosteniendo una paleta con la señal de STOP en un estrechamiento por obras.",
-        "codigo": null
+        "src": "img/fotos-boe/regulacion-paso-paletas.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Paletas para regular el paso: una con la señal de entrada prohibida y otra con la de sentido obligatorio",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4192,8 +4200,10 @@
         "minuto": "2:09:57"
       },
       "imagen": {
-        "pendiente": "Carretera con una hilera de conos naranjas y blancos que separa un carril cerrado por obras del carril abierto.",
-        "codigo": null
+        "src": "img/fotos-boe/conos.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Hilera de conos sobre la calzada",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 2"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4230,8 +4240,10 @@
         "minuto": "2:10:25"
       },
       "imagen": {
-        "pendiente": "Panel direccional provisional de obras (fondo amarillo/naranja con franjas o flechas blancas) cerrando un carril y desviando hacia la izquierda.",
-        "codigo": null
+        "src": "img/fotos-boe/panel-direccional-provisional.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Panel direccional provisional de franjas rojas y blancas",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 2"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4268,8 +4280,10 @@
         "minuto": "2:09:48"
       },
       "imagen": {
-        "pendiente": "Curva a la izquierda en carretera convencional con paneles direccionales permanentes (fondo azul y flechas blancas) en el exterior de la curva.",
-        "codigo": null
+        "src": "img/fotos-boe/panel-direccional-permanente.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Panel direccional permanente azul y blanco en el borde de la carretera",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3.1.2"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4554,8 +4568,10 @@
         "minuto": "2:11:24"
       },
       "imagen": {
-        "pendiente": "Semáforo de tres luces cuyas lentes muestran la silueta de una bicicleta, con la luz roja encendida.",
-        "codigo": null
+        "src": "img/fotos-boe/semaforos-ciclos.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Semáforos con la silueta de una bicicleta en las luces",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4592,8 +4608,10 @@
         "minuto": "2:11:36"
       },
       "imagen": {
-        "pendiente": "Semáforo de fondo circular negro con una franja blanca iluminada (vertical), junto a una vía de tranvía.",
-        "codigo": null
+        "src": "img/esquemas/semaforo-tranvia-franja-vertical.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical iluminada.",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4630,8 +4648,10 @@
         "minuto": "2:11:36"
       },
       "imagen": {
-        "pendiente": "Semáforo de fondo circular negro con una franja blanca horizontal iluminada.",
-        "codigo": null
+        "src": "img/esquemas/semaforo-tranvia-franja-horizontal.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca horizontal iluminada.",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4699,8 +4719,10 @@
         "minuto": "2:12:50"
       },
       "imagen": {
-        "pendiente": "Semáforo de paso a nivel con dos luces rojas dispuestas horizontalmente, una encendida, junto a una cruz de San Andrés.",
-        "codigo": null
+        "src": "img/esquemas/semaforo-paso-a-nivel.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Carretera que cruza una vía férrea. En el poste, la señal de situación de paso a nivel y debajo dos luces rojas en horizontal, con una de ellas encendida.",
+        "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4778,10 +4800,10 @@
       "id": "B1-sen-0047",
       "tema": "senales",
       "subtema": "semaforos",
-      "enunciado": "Un semáforo circular muestra una flecha negra sobre la luz roja encendida. ¿Qué significa?",
+      "enunciado": "Un semáforo circular muestra una flecha negra sobre la luz amarilla encendida. ¿Qué significa?",
       "opciones": {
-        "a": "Que la luz roja no afecta al movimiento indicado por la flecha.",
-        "b": "Que la prohibición de paso de la luz roja se limita exclusivamente al movimiento indicado por la flecha.",
+        "a": "Que la luz amarilla no afecta al movimiento indicado por la flecha.",
+        "b": "Que el significado de la luz amarilla se limita exclusivamente al movimiento indicado por la flecha.",
         "c": "Que el semáforo está en fase de mantenimiento."
       },
       "correcta": "b",
@@ -4799,8 +4821,10 @@
         "minuto": "2:13:05"
       },
       "imagen": {
-        "pendiente": "Semáforo circular con la luz roja encendida que contiene una flecha negra apuntando a la derecha.",
-        "codigo": null
+        "src": "img/fotos-boe/semaforo-flecha-negra.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Semáforo con una flecha negra sobre la luz encendida",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.2"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4837,8 +4861,10 @@
         "minuto": "2:13:05"
       },
       "imagen": {
-        "pendiente": "Semáforo con la luz roja circular encendida y, en un módulo adicional, una flecha verde iluminada apuntando a la derecha.",
-        "codigo": null
+        "src": "img/fotos-boe/semaforo-flecha-verde.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Semáforo con la luz roja encendida y un módulo con una flecha verde iluminada",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.2"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4915,8 +4941,10 @@
         "minuto": "2:14:14"
       },
       "imagen": {
-        "pendiente": "Pórtico sobre una calzada de varios carriles con semáforos de carril cuadrados: aspa roja sobre un carril y flecha verde hacia abajo sobre los demás.",
-        "codigo": null
+        "src": "img/fotos-boe/semaforos-carril-aspa-flecha.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4993,8 +5021,10 @@
         "minuto": "2:14:14"
       },
       "imagen": {
-        "pendiente": "Semáforo de carril cuadrado con una flecha amarilla oblicua apuntando hacia abajo a la izquierda.",
-        "codigo": null
+        "src": "img/fotos-boe/semaforo-carril-flecha-oblicua.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Semáforo de carril con una flecha oblicua iluminada hacia abajo",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -11454,8 +11484,10 @@
         "minuto": "3:53:17"
       },
       "imagen": {
-        "pendiente": "Señal V-20 del anexo XI del Reglamento General de Vehículos: panel cuadrado con franjas diagonales alternas rojas y blancas reflectantes, colocado en el extremo posterior de una carga (por ejemplo, unas tablas) que sobresale por detrás de un turismo.",
-        "codigo": null
+        "src": "img/esquemas/senal-V-20-carga-saliente.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Panel cuadrado con franjas diagonales alternas rojas y blancas.",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -11492,8 +11524,10 @@
         "minuto": "3:54:21"
       },
       "imagen": {
-        "pendiente": "Señal V-5 (vehículo lento) del anexo XI del Reglamento General de Vehículos: triángulo equilátero con el vértice hacia arriba, con centro fluorescente rojo y borde reflectante rojo, en la parte trasera de un vehículo agrícola o una barredora.",
-        "codigo": null
+        "src": "img/esquemas/senal-V-5-vehiculo-lento.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Placa triangular con los vértices redondeados: borde rojo reflectante y triángulo interior rojo fluorescente.",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -18723,8 +18757,10 @@
         "minuto": "6:01:08"
       },
       "imagen": {
-        "pendiente": "Distintivo de uso compartido V-26 del Anexo XI del Reglamento General de Vehículos: adhesivo circular de fondo azul (modelo oficial de la DGT).",
-        "codigo": null
+        "src": "img/fotos-boe/V-26.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Distintivo circular azul con un turismo y varias personas",
+        "credito": "Anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826), señal V-26"
       },
       "imagen_requerida": {
         "tipo": "senal",

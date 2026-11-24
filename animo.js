@@ -13,6 +13,15 @@
     d = d && typeof d === "object" ? d : {};
     return { dias: d.dias && typeof d.dias === "object" ? d.dias : {}, objetivo: OBJETIVOS.includes(d.objetivo) ? d.objetivo : 20, sonido: d.sonido !== false };
   }
+  // Objetivo en uso: el elegido o, si una extensión lo ajusta (cuenta atrás al examen, estudiar.js),
+  // el que esta devuelva. fn(elegido) devuelve un número mayor que 0 o null para dejar el elegido.
+  let ajuste = null;
+  function objetivo() {
+    let o = null;
+    if (ajuste) { try { o = ajuste(estado.objetivo); } catch (e) { o = null; } }
+    return o > 0 ? Math.round(o) : estado.objetivo;
+  }
+  function ajustarObjetivo(fn) { ajuste = typeof fn === "function" ? fn : null; }
   function guardar() { try { localStorage.setItem(CLAVE, JSON.stringify(estado)); } catch (e) { /* sin almacenamiento */ } }
   // Si otra pestaña o la importación de una copia cambia la clave, la releemos.
   window.addEventListener("storage", e => { if (e.key === CLAVE) estado = leer(); });
@@ -44,7 +53,8 @@
       const d = haceDias(i), r = respuestasDe(clave(i));
       semana.push({ fecha: fecha(d), letra: "DLMXJVS"[d.getDay()], hecho: r > 0, meta: r >= estado.objetivo, hoy: i === 0 });
     }
-    return { dias, hoy: hechasHoy, objetivo: estado.objetivo, cumplidoHoy: hechasHoy >= estado.objetivo, semana };
+    const o = objetivo();
+    return { dias, hoy: hechasHoy, objetivo: o, elegido: estado.objetivo, ajustado: o !== estado.objetivo, cumplidoHoy: hechasHoy >= o, semana };
   }
   // Anota n respuestas de hoy (después de que app.js las registre). Devuelve true si con ellas se acaba
   // de cumplir el objetivo diario.
@@ -57,7 +67,8 @@
       for (const f of Object.keys(estado.dias)) if (f < corte) delete estado.dias[f];
       guardar();
     }
-    return antes < estado.objetivo && despues >= estado.objetivo;
+    const o = objetivo();
+    return antes < o && despues >= o;
   }
   function cambiarObjetivo(n) { if (OBJETIVOS.includes(n)) { estado.objetivo = n; guardar(); } }
 
@@ -176,7 +187,7 @@
   let confetiActivo = null;
   function limpiar() { if (confetiActivo) { confetiActivo.remove(); confetiActivo = null; } if (zona) zona.replaceChildren(); }
 
-  window.Animo = { racha, limpiar, sumar, cambiarObjetivo, OBJETIVOS, sonar, vibrar, confeti, contar, aviso, prepararBoton, sinMovimiento,
+  window.Animo = { racha, limpiar, sumar, cambiarObjetivo, ajustarObjetivo, objetivo, OBJETIVOS, sonar, vibrar, confeti, contar, aviso, prepararBoton, sinMovimiento,
     get sonido() { return estado.sonido; } };
   prepararBoton(document.getElementById("sonido"));
 })();

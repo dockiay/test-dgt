@@ -306,10 +306,11 @@
   }
   function elegirObjetivo() {
     let d;
-    const actual = Animo.racha().objetivo;
+    const r = Animo.racha(), actual = r.elegido || r.objetivo;
     d = hoja({ titulo: "Objetivo diario", mensaje: "¿Cuántas preguntas quieres responder cada día?", cancelar: "Cancelar",
-      contenido: h("div", { class: "opciones-objetivo" }, Animo.OBJETIVOS.map(n => h("button", { class: "boton " + (n === actual ? "" : "gris"), "aria-pressed": String(n === actual),
-        onclick: () => { Animo.cambiarObjetivo(n); Animo.sonar("toque"); d.close(); ruta(); } }, `${n}`))) });
+      contenido: [r.ajustado ? h("p", { class: "nota-pie", style: "margin:0 0 12px" }, `Con la fecha de tu examen, tu objetivo de hoy sube a ${r.objetivo} preguntas. Si eliges más, manda el tuyo.`) : null,
+        h("div", { class: "opciones-objetivo" }, Animo.OBJETIVOS.map(n => h("button", { class: "boton " + (n === actual ? "" : "gris"), "aria-pressed": String(n === actual),
+        onclick: () => { Animo.cambiarObjetivo(n); Animo.sonar("toque"); d.close(); ruta(); } }, `${n}`)))] });
   }
   // Anota respuestas para la racha y celebra si se acaba de cumplir el objetivo del día.
   function sumarAlDia(n) {

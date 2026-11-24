@@ -61,7 +61,7 @@ Lo importante. Aquí el vídeo dice algo distinto a la norma.
   _Fuente: Ley de Tráfico (RDL 6/2015), art. 65.4; Orden INT/2596/2005, apartados tercero y cuarto._
 - **El vídeo (3:12:30):** El curso de recuperación total del permiso (tras perder todos los puntos) dura 20 horas, el doble que el parcial.  
   **Lo correcto:** El curso de recuperación del permiso dura 24 horas (el parcial, 12). Después hay que aprobar la prueba de control de conocimientos en Tráfico.  
-  _Fuente: Orden INT/2596/2005 (cursos de sensibilización y reeducación vial), apartado cuarto._
+  _Fuente: Orden INT/2596/2005 (cursos de sensibilización y reeducación vial), apartado quinto._
 - **El vídeo (3:35:11):** Los peatones solo están obligados a las pruebas de alcoholemia si están implicados en un accidente.  
   **Lo correcto:** Los usuarios de la vía que no son conductores (como los peatones) están obligados cuando están implicados en un accidente y también cuando han cometido una infracción. Los conductores de cualquier vehículo, bicicletas incluidas, siempre.  
   _Fuente: Ley de Tráfico (RDL 6/2015), art. 14.2._

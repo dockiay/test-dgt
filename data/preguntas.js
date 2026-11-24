@@ -21359,7 +21359,7 @@ window.BANCO = {
     "c": "Por el arcén de su derecha, solo de día."
    },
    "correcta": "a",
-   "explicacion": "Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia.",
+   "explicacion": "Entre los vehículos especiales, los de hasta 3.500 kg de MMA son los que deben ir por el arcén de su derecha, si es transitable y suficiente. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia.",
    "fuente": {
     "norma": "RGC",
     "articulo": "31.1",

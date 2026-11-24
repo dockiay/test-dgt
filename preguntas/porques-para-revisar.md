@@ -1287,7 +1287,7 @@ Respuesta: **Por el arcén izquierdo, si existe y es practicable.**
 
 - ✔ Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada. _(RGC 122.1)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
-- ✘ `v5a-arc-0003` Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
+- ✘ `arc-0013` Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha. _(RGC 32.2)_
 
 ## arc-0002
 
@@ -1296,7 +1296,7 @@ Respuesta: **Por la derecha.**
 
 - ✔ Es obligatorio circular por la derecha para quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas o VMP. _(RGC 122.2.a)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
-- ✘ `v5a-arc-0003` Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
+- ✘ `arc-0012` Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. _(RGC 32.1)_
 
 ## arc-0003
 
@@ -1305,7 +1305,7 @@ Respuesta: **Por la derecha.**
 
 - ✔ Todo grupo de peatones dirigido por una persona debe circular por la derecha. _(RGC 122.2.b)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
-- ✘ `v5a-arc-0003` Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
+- ✘ `arc-0012` Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. _(RGC 32.1)_
 
 ## arc-0004
 
@@ -1349,7 +1349,7 @@ Los ciclistas que circulan por el arcén, ¿pueden ir en columna de a dos?
 Respuesta: **Sí.**
 
 - ✔ Los conductores de bicicletas pueden circular en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, deben ponerse en hilera en tramos sin visibilidad, si afectan a la fluidez, de noche o con poca visibilidad. _(RGC 36.2)_
-- ✘ `v5a-arc-0003` Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
+- ✘ `v5a-car-0001` En calzadas con tres o más carriles en el mismo sentido, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato, pero no los demás. _(RGC 31.2)_
 - ✘ `res-arc-0001` Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad. _(RGC 122.1)_
 
 ## arc-0009
@@ -6893,7 +6893,7 @@ Hay un atasco. ¿Puede una motocicleta circular por el arcén de la derecha?
 Respuesta: **Solo en tramos señalizados para ello y con la circulación detenida por congestión.**
 
 - ✔ El uso extraordinario del arcén por motocicletas solo se permite en tramos acordados y señalizados con señales verticales y marcas viales, únicamente cuando la circulación de los carriles esté detenida por congestión, a 30 km/h como máximo y en columna de a uno. _(RGC 36.3)_
-- ✘ `v5a-arc-0003` Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
+- ✘ `v5a-car-0001` En calzadas con tres o más carriles en el mismo sentido, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato, pero no los demás. _(RGC 31.2)_
 - ✘ `res-arc-0001` Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad. _(RGC 122.1)_
 
 ## v2-adel-0001
@@ -7163,8 +7163,8 @@ Según el Reglamento General de Circulación, si la acera está alineada con el 
 Respuesta: **En al menos 6 metros.**
 
 - ✔ Para que los conductores vean a los peatones que van a cruzar, no se permite aparcar automóviles en al menos los 6 m anteriores al paso de peatones si la acera está alineada con el límite exterior de la banda de estacionamiento, o en los 3 m anteriores si está alineada con el límite del carril de circulación. _(RGC Anexo I, marcas viales, M-4.3)_
-- ✘ `v5a-arc-0003` Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
 - ✘ `A-inc-0004` En poblado, para facilitar la salida de los autobuses de las paradas señalizadas, los demás conductores deben desplazarse lateralmente, siempre que sea posible, o reducir su velocidad, llegando a detenerse si fuera preciso. _(RGC 73.2)_
+- ✘ `A-adel-0006` El conductor que va a ser adelantado debe ceñirse al borde derecho de la calzada (salvo si va a girar o parar a la izquierda) y tiene prohibido aumentar la velocidad o dificultar el adelantamiento. _(RGC 86.1)_
 
 ## v4a-sen-0001
 
@@ -7839,14 +7839,14 @@ Respuesta: **Por el arcén del lado derecho.**
 
 - ✔ Los animales de tiro, carga o silla y el ganado suelto circulan por el arcén del lado derecho y, si tienen que usar la calzada, lo más cerca posible de su borde derecho. Solo por excepción se permite llevar un único animal por el borde izquierdo si lo aconseja la seguridad. _(RGC 127.1.b)_
 - ✘ `arc-0008` Los conductores de bicicletas pueden circular en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, deben ponerse en hilera en tramos sin visibilidad, si afectan a la fluidez, de noche o con poca visibilidad. _(RGC 36.2)_
-- ✘ `v5a-arc-0003` Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
+- ✘ `res-arc-0001` Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad. _(RGC 122.1)_
 
 ## v5a-arc-0003
 
 Un vehículo especial de 6.000 kg de MMA circula por una carretera con arcén transitable y suficiente. Salvo por razones de emergencia, ¿por dónde debe circular?  
 Respuesta: **Por la calzada, no por el arcén.**
 
-- ✔ Solo los vehículos especiales de hasta 3.500 kg de MMA deben ir por el arcén de su derecha. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
+- ✔ Entre los vehículos especiales, los de hasta 3.500 kg de MMA son los que deben ir por el arcén de su derecha, si es transitable y suficiente. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
 - ✘ `arc-0001` Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada. _(RGC 122.1)_
 - ✘ `arc-0008` Los conductores de bicicletas pueden circular en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, deben ponerse en hilera en tramos sin visibilidad, si afectan a la fluidez, de noche o con poca visibilidad. _(RGC 36.2)_
 

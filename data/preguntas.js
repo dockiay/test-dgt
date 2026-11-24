@@ -174,7 +174,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -197,7 +202,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -335,7 +345,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/refugio-peatones-sentido-unico.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle de sentido único con un paso para peatones y un refugio en el centro de la calzada. No hay señales. El vehículo A se acerca al refugio.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -2146,7 +2161,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/incorporacion-autovia.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -2519,7 +2539,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -2565,7 +2590,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/adelantamiento-linea-discontinua.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vía de doble sentido con línea central discontinua. El vehículo A adelanta al vehículo B; el vehículo C circula de frente por el carril contrario.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -2657,7 +2687,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/adelantamiento-linea-discontinua.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vía de doble sentido con línea central discontinua. El vehículo A adelanta al vehículo B; el vehículo C circula de frente por el carril contrario.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -3845,7 +3880,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-carril-flecha-y-ceda.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante, antes de llegar a una intersección, hay una señal de ceda el paso y su línea en la calzada.",
+    "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -3868,7 +3908,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-boe/agente-brazo-levantado.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Agente con un brazo levantado verticalmente",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -3937,7 +3982,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-boe/semaforos-carril-aspa-flecha.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -3960,7 +4010,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-otro-lado-cruce.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Cruce visto desde arriba. El vehículo A llega por el sur. El semáforo, con la luz roja encendida, está en la esquina del otro lado del cruce. No hay línea de detención.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -4006,7 +4061,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-tranvia-franja-oblicua-derecha.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca oblicua, inclinada hacia la derecha, iluminada.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -6700,7 +6760,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+    "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7885,7 +7950,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-20-carga-saliente.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Panel cuadrado con franjas diagonales alternas rojas y blancas.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -17564,7 +17634,12 @@ window.BANCO = {
     "tipo_cita": "imagen_catalogo",
     "pagina_pdf": 90
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/senales/P-9a.png",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Señal P-9a: Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado derecho)",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -17614,7 +17689,12 @@ window.BANCO = {
     "tipo_cita": "imagen_catalogo",
     "pagina_pdf": 134
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/senales/S-28.png",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Señal S-28: Zona de estancia y juego",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 134 del PDF consolidado"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -20034,7 +20114,12 @@ window.BANCO = {
     "cita": "el carril de emergencia deberá formarse entre el carril situado más a la izquierda y el carril contiguo a él",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/retencion-tres-carriles.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada con tres carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los tres carriles. A la izquierda, la mediana; a la derecha, el arcén.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -20057,7 +20142,12 @@ window.BANCO = {
     "cita": "el carril de emergencia deberá formarse en el centro de la vía, entre esos dos carriles",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/retencion-dos-carriles.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada con dos carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los dos carriles. A la izquierda, la mediana; a la derecha, el arcén.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -21025,7 +21115,12 @@ window.BANCO = {
     "cita": "Tendrán derecho de preferencia de paso los vehículos que circulen por una vía pavimentada frente a los procedentes de otra sin pavimentar.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/cruce-camino-sin-pavimentar.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -21048,7 +21143,12 @@ window.BANCO = {
     "cita": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/cruce-tranvia-izquierda.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Cruce sin señales ni semáforos. El vehículo A llega por el sur y va a seguir recto; por su izquierda se acerca un tranvía sobre sus raíles.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -21071,7 +21171,12 @@ window.BANCO = {
     "cita": "En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso sobre los que pretendan acceder a aquéllas",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/glorieta-sin-senalizar.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -21163,7 +21268,12 @@ window.BANCO = {
     "cita": "cerciorarse de que la velocidad y la distancia de los vehículos que se acerquen en sentido contrario le permiten efectuar la maniobra sin peligro, absteniéndose de realizarla de no darse estas circunstancias",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/giro-izquierda-vehiculo-de-frente.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Cruce visto desde arriba. El vehículo A está en el cruce y quiere girar a la izquierda; el vehículo B se acerca de frente, a poca distancia, y va a seguir recto.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -21324,7 +21434,12 @@ window.BANCO = {
     "cita": "Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/grupo-ciclistas-cruce.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Cruce visto desde arriba. Un grupo de seis ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; el vehículo A llega por el sur.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -22047,7 +22162,12 @@ window.BANCO = {
     "cita": "deberá cerciorarse, al principio de dicho carril, de que puede hacerlo sin peligro para los demás usuarios",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/incorporacion-autovia.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -22599,7 +22719,12 @@ window.BANCO = {
     "cita": "cuando la calzada sea de doble sentido de circulación y tres carriles, separados por líneas longitudinales discontinuas, deberá colocarse en el carril central",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -23350,7 +23475,12 @@ window.BANCO = {
     "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico en el ejercicio de las funciones que tengan encomendadas.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/agente-y-semaforo-verde.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida; en el cruce, un agente de frente con un brazo levantado.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -23373,7 +23503,12 @@ window.BANCO = {
     "cita": "c) Semáforos. d) Señales verticales de circulación.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-verde-y-stop.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida y, en el mismo poste, una señal de STOP.",
+    "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -23396,7 +23531,12 @@ window.BANCO = {
     "cita": "d) Señales verticales de circulación. e) Marcas viales.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/ceda-vertical-y-stop-marca.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: a la derecha, una señal vertical de ceda el paso; en la calzada, una línea de detención continua con la palabra STOP pintada.",
+    "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -23702,7 +23842,12 @@ window.BANCO = {
     "cita": "Si esta señal se efectúa en una intersección, no obligará a detenerse a los conductores que hayan entrado ya en ella.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-boe/agente-brazo-levantado.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Agente con un brazo levantado verticalmente",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -23753,7 +23898,12 @@ window.BANCO = {
     "cita": "Esta señal permanece en vigor aunque el agente baje el brazo o los brazos, siempre que no cambie de posición o efectúe otra señal.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/agente-brazos-horizontales.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde arriba de una intersección con un agente en el centro con los brazos extendidos horizontalmente hacia el este y el oeste. Se acercan vehículos por el sur (A), el norte (B), el este (C) y el oeste (D).",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -24220,7 +24370,12 @@ window.BANCO = {
     "cita": "a no ser que, cuando se encienda, el vehículo se encuentre tan cerca del lugar de detención que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-ambar-fijo.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -24243,7 +24398,12 @@ window.BANCO = {
     "cita": "Una luz amarilla no intermitente significa que los vehículos deben detenerse en las mismas condiciones que si se tratara de una luz roja fija",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-ambar-fijo.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -24266,7 +24426,12 @@ window.BANCO = {
     "cita": "significa que el tiempo de que aún disponen para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la luz roja",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-peatones-verde-intermitente.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Paso para peatones con un semáforo de peatones: la luz verde con la figura de un peatón andando parpadea; la roja está apagada.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -24289,7 +24454,12 @@ window.BANCO = {
     "cita": "Una luz roja no intermitente, en forma de peatón inmóvil, indica a los peatones que no deben comenzar a cruzar la calzada.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-peatones-rojo.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Paso para peatones con un semáforo de peatones: encendida la luz roja con la figura de un peatón inmóvil; la verde está apagada.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -24396,7 +24566,12 @@ window.BANCO = {
     "cita": "Una franja blanca, vertical u oblicua, iluminada intermitentemente, indica que los citados vehículos deben detenerse en las mismas condiciones que si se tratara de una luz amarilla fija.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-tranvia-franja-vertical-intermitente.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical que parpadea.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -24470,7 +24645,12 @@ window.BANCO = {
     "cita": "Una luz amarilla intermitente o dos luces amarillas alternativamente intermitentes obligan a los conductores a extremar la precaución y, en su caso, ceder el paso.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-ambar-intermitente.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla parpadeando.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -24949,7 +25129,12 @@ window.BANCO = {
     "cita": "Si desde el lugar donde se ha efectuado la detención no existe visibilidad suficiente, la persona conductora deberá detenerse de nuevo en el lugar desde donde tenga visibilidad",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/interseccion-t-stop.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Intersección en T. El vehículo A está en la vía secundaria, ante una línea de detención con la marca STOP, y quiere girar a la izquierda; el vehículo B circula por la vía principal acercándose desde la derecha de A.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -27404,7 +27589,12 @@ window.BANCO = {
     "cita": "un vehículo que haya iniciado una maniobra de adelantamiento en un tramo con este tipo de marca desde el carril contiguo a la línea discontinua, podrá atravesar la línea continua y volver a su carril tras realizar el adelantamiento o desistir de él",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/marca-continua-adosada-discontinua.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de doble sentido cuyo eje está formado por una línea continua adosada a una discontinua. El vehículo A circula por el carril contiguo a la línea discontinua; el B, en sentido contrario, junto a la continua.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -27715,7 +27905,12 @@ window.BANCO = {
     "cita": "Las flechas que incluyan la dirección de frente no impiden el cambio de carril, siempre que se mantenga la dirección de circulación y que las marcas longitudinales lo permitan.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/marcas/M-5.2d.png",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Marca vial M-5.2d (plano oficial con medidas)",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 696 del PDF consolidado"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -29354,7 +29549,12 @@ window.BANCO = {
     "cita": "Deberán llevar esta señal los vehículos cuyos conductores hayan obtenido por primera vez un permiso de conducción durante el período de un año.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+    "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -29377,7 +29577,12 @@ window.BANCO = {
     "cita": "Esta señal deberá estar colocada en la parte posterior izquierda del vehículo, en sitio visible.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+    "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -31838,7 +32043,12 @@ window.BANCO = {
     "cita": "No se considerará que hayan obtenido permiso de conducción por primera vez aquellos conductores que hubieran sido titulares, con posesión efectiva por un período mínimo de un año, de otro permiso",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+    "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -36648,7 +36858,12 @@ window.BANCO = {
     "version_consultada": "2026-06-26",
     "pagina_pdf": 138
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/senales/S-47.png",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Señal S-47: Zona de coexistencia",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 138 del PDF consolidado"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -38580,7 +38795,12 @@ window.BANCO = {
     "version_consultada": "2026-06-26",
     "pagina_pdf": 90
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/senales/P-9a.png",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Señal P-9a: Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado derecho)",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado"
+   },
    "verificado_el": "2026-11-24"
   },
   {

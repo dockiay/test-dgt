@@ -1080,8 +1080,17 @@
         "ref": "RGC art. 133 y anexo I.4.3",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-carril-flecha-y-ceda.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante, antes de llegar a una intersección, hay una señal de ceda el paso y su línea en la calzada.",
+        "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante, antes de llegar a una intersección, hay una señal de ceda el paso y su línea en la calzada."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1111,8 +1120,17 @@
         "ref": "RGC art. 141 y anexo I.1",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-boe/agente-brazo-levantado.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Agente con un brazo levantado verticalmente",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Agente con un brazo levantado verticalmente"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1204,8 +1222,17 @@
         "ref": "RGC art. 143",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-boe/semaforos-carril-aspa-flecha.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1235,8 +1262,17 @@
         "ref": "RGC art. 143",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-otro-lado-cruce.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Cruce visto desde arriba. El vehículo A llega por el sur. El semáforo, con la luz roja encendida, está en la esquina del otro lado del cruce. No hay línea de detención.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Cruce visto desde arriba. El vehículo A llega por el sur. El semáforo, con la luz roja encendida, está en la esquina del otro lado del cruce. No hay línea de detención."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1297,8 +1333,17 @@
         "ref": "RGC art. 143",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-tranvia-franja-oblicua-derecha.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca oblicua, inclinada hacia la derecha, iluminada.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca oblicua, inclinada hacia la derecha, iluminada."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

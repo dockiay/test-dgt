@@ -150,8 +150,17 @@
         "ref": "RGC art. 30",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -181,8 +190,17 @@
         "ref": "RGC art. 30",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -367,8 +385,17 @@
         "ref": "RGC art. 43",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/refugio-peatones-sentido-unico.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle de sentido único con un paso para peatones y un refugio en el centro de la calzada. No hay señales. El vehículo A se acerca al refugio.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle de sentido único con un paso para peatones y un refugio en el centro de la calzada. No hay señales. El vehículo A se acerca al refugio."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2798,8 +2825,17 @@
         "ref": "RGC art. 72",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/incorporacion-autovia.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3303,8 +3339,17 @@
         "ref": "RGC art. 84",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3365,8 +3410,17 @@
         "ref": "RGC art. 84",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/adelantamiento-linea-discontinua.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vía de doble sentido con línea central discontinua. El vehículo A adelanta al vehículo B; el vehículo C circula de frente por el carril contrario.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vía de doble sentido con línea central discontinua. El vehículo A adelanta al vehículo B; el vehículo C circula de frente por el carril contrario."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3489,8 +3543,17 @@
         "ref": "RGC art. 85",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/adelantamiento-linea-discontinua.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vía de doble sentido con línea central discontinua. El vehículo A adelanta al vehículo B; el vehículo C circula de frente por el carril contrario.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vía de doble sentido con línea central discontinua. El vehículo A adelanta al vehículo B; el vehículo C circula de frente por el carril contrario."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

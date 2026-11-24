@@ -574,6 +574,355 @@ ESQUEMAS += ESQUEMAS_EXTRA2
 
 ESQUEMAS += ESQUEMAS_EXTRA
 
+# ---------------------------------------------------------------- tanda 3: más preguntas con imagen (24/11/2026)
+def rayos(x, y, r1, r2, color, ancho=2.5):
+    """Rayos alrededor de una luz para indicar que parpadea (intermitente)."""
+    els = []
+    for ang in range(0, 360, 45):
+        a = math.radians(ang)
+        els.append(f'<line x1="{x + r1 * math.cos(a):.1f}" y1="{y + r1 * math.sin(a):.1f}" '
+                   f'x2="{x + r2 * math.cos(a):.1f}" y2="{y + r2 * math.sin(a):.1f}" '
+                   f'stroke="{color}" stroke-width="{ancho}" stroke-linecap="round"/>')
+    return els
+
+
+def semaforo_vista(luces):
+    """Vista desde el conductor: semáforo circular en el lado derecho, sin otras señales."""
+    els = perspectiva_cruce()
+    els.append(poste(330, 95, 300))
+    els += semaforo(330, 30, luces, escala=0.9)
+    return els
+
+
+def verde_y_stop():
+    """Semáforo con la luz verde encendida y, en el mismo poste, una señal de STOP."""
+    els = perspectiva_cruce()
+    els.append(poste(330, 95, 300))
+    els += semaforo(330, 40, {"verde": True}, escala=0.75)
+    img, _ = senal_img("R-2", 306, 120, 48)
+    els.append(img)
+    return els
+
+
+def peaton_glifo(x, y, s, color, andando):
+    """Silueta de peatón (inmóvil o andando) centrada en (x, y)."""
+    g = [f'<g transform="translate({x} {y}) scale({s})" fill="{color}" stroke="{color}" stroke-linecap="round">',
+         '<circle cx="0" cy="-20" r="5" stroke="none"/>',
+         '<rect x="-5" y="-14" width="10" height="16" rx="3" stroke="none"/>']
+    if andando:
+        g += ['<line x1="-2" y1="1" x2="-9" y2="19" stroke-width="5"/>',
+              '<line x1="2" y1="1" x2="8" y2="19" stroke-width="5"/>',
+              '<line x1="-4" y1="-12" x2="-11" y2="-1" stroke-width="4"/>',
+              '<line x1="4" y1="-12" x2="10" y2="-3" stroke-width="4"/>']
+    else:
+        g += ['<line x1="-2.5" y1="1" x2="-2.5" y2="19" stroke-width="5"/>',
+              '<line x1="2.5" y1="1" x2="2.5" y2="19" stroke-width="5"/>',
+              '<line x1="-6" y1="-12" x2="-7" y2="1" stroke-width="4"/>',
+              '<line x1="6" y1="-12" x2="7" y2="1" stroke-width="4"/>']
+    g.append('</g>')
+    return g
+
+
+def semaforo_peatones(encendida, intermitente):
+    """Paso para peatones visto desde la acera con un semáforo de peatones de dos luces."""
+    els = [rect(0, 0, W, 170, CIELO), rect(0, 170, W, 230, ACERA),
+           f'<polygon points="0,215 400,215 400,330 0,330" fill="{ASFALTO}"/>']
+    for i in range(9):
+        x = 10 + i * 44
+        els.append(f'<polygon points="{x},222 {x + 26},222 {x + 30},322 {x - 2},322" fill="{MARCA}"/>')
+    els += [poste(300, 150, 360),
+            '<rect x="262" y="20" width="76" height="150" rx="8" fill="#1f2328"/>',
+            '<rect x="270" y="28" width="60" height="62" rx="5" fill="#0b0d10"/>',
+            '<rect x="270" y="100" width="60" height="62" rx="5" fill="#0b0d10"/>']
+    if encendida == "rojo":
+        els += peaton_glifo(300, 60, 1.2, "#e0322b", andando=False)
+        els += peaton_glifo(300, 131, 1.2, "#163a24", andando=True)
+    else:
+        els += peaton_glifo(300, 60, 1.2, "#4a1a18", andando=False)
+        els += peaton_glifo(300, 131, 1.2, "#22b35a", andando=True)
+        if intermitente:
+            els += [f'<path d="M262,{y} l-16,0" stroke="#22b35a" stroke-width="3" stroke-linecap="round"/>' for y in (112, 131, 150)]
+            els += [f'<path d="M338,{y} l16,0" stroke="#22b35a" stroke-width="3" stroke-linecap="round"/>' for y in (112, 131, 150)]
+    return els
+
+
+def semaforo_tranvia_v2(barra, intermitente=False):
+    """Como semaforo_tranvia, con franja oblicua hacia la derecha o franja intermitente."""
+    els = [rect(0, 0, W, W, CIELO), rect(0, 300, W, 100, ASFALTO),
+           '<path d="M150,400 L185,300 M250,400 L215,300" stroke="#b9bec4" stroke-width="5"/>',
+           poste(320, 120, 330),
+           '<rect x="285" y="40" width="70" height="200" rx="8" fill="#1f2328"/>']
+    for cy in (75, 140, 205):
+        els.append(f'<circle cx="320" cy="{cy}" r="26" fill="#0b0d10"/>')
+    if barra == "vertical":
+        els.append('<rect x="315" y="55" width="10" height="40" rx="3" fill="#ffffff"/>')
+    elif barra == "oblicua_derecha":
+        els.append('<rect x="315" y="55" width="10" height="40" rx="3" fill="#ffffff" transform="rotate(45 320 75)"/>')
+    if intermitente:
+        els += rayos(320, 75, 31, 39, "#ffffff", ancho=3)
+    return els
+
+
+def carril_flecha_y_ceda():
+    """Semáforo de carril con flecha verde sobre el carril de A y, más adelante, señal de ceda el paso."""
+    els = [rect(140, 0, 120, W, ASFALTO), rect(0, 40, W, 80, ASFALTO),
+           linea(200, 120, 200, W, discontinua=True), linea(140, 120, 140, W, ancho=3),
+           linea(260, 120, 260, W, ancho=3), linea(0, 80, 140, 80, discontinua=True),
+           linea(260, 80, W, 80, discontinua=True),
+           linea(200, 128, 260, 128, discontinua=True, ancho=5),
+           '<rect x="130" y="268" width="140" height="6" fill="#8a8f96"/>',
+           vehiculo(230, 350, 0, "A")]
+    els += semaforo_carril(230, 271, "flecha_abajo_verde", escala=0.7)
+    els += semaforo_carril(170, 271, "aspa_roja", escala=0.7)
+    els.append(poste(276, 135, 180))
+    img, _ = senal_img("R-1", 262, 120, 30)
+    els.append(img)
+    els += recuadro(8, 150, 112, 120, "semáforo de carril")
+    els += semaforo_carril(64, 215, "flecha_abajo_verde", escala=1.4)
+    els += recuadro(292, 150, 100, 120, "más adelante")
+    img2, _ = senal_img("R-1", 312, 175, 60)
+    els.append(img2)
+    return els
+
+
+def ceda_vertical_stop_marca():
+    """Vista desde el conductor: señal vertical de ceda el paso y, en la calzada, línea de detención con STOP."""
+    els = perspectiva_cruce()
+    els += [poste(335, 150, 300)]
+    a, _ = senal_img("R-1", 305, 100, 60)
+    els.append(a)
+    els += ['<polygon points="200,262 287,262 290,270 200,270" fill="#fff"/>',
+            '<text x="246" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" '
+            'font-weight="bold" font-size="30" fill="#fff" transform="scale(1 0.7) translate(0 128)">STOP</text>']
+    return els
+
+
+def agente_glifo(x, y, s=1.0):
+    """Agente de frente con el brazo derecho levantado verticalmente."""
+    return [f'<g transform="translate({x} {y}) scale({s})">',
+            '<rect x="-9" y="-30" width="18" height="34" rx="4" fill="#20304f"/>',
+            '<rect x="-8" y="4" width="7" height="30" fill="#20304f"/><rect x="1" y="4" width="7" height="30" fill="#20304f"/>',
+            '<rect x="-15" y="-29" width="6" height="26" rx="3" fill="#20304f"/>',
+            '<rect x="9" y="-62" width="6" height="34" rx="3" fill="#20304f"/>',
+            '<circle cx="12" cy="-64" r="3.5" fill="#ffffff"/>',
+            '<circle cx="0" cy="-38" r="7" fill="#f0c9a0"/>',
+            '<rect x="-8" y="-47" width="16" height="6" rx="2" fill="#ffffff"/>',
+            '</g>']
+
+
+def agente_y_verde():
+    """Vista desde el conductor: semáforo en verde a la derecha y un agente en el cruce con el brazo levantado."""
+    els = perspectiva_cruce()
+    els.append(poste(330, 95, 300))
+    els += semaforo(330, 30, {"verde": True}, escala=0.9)
+    els += agente_glifo(185, 225, 1.1)
+    return els
+
+
+def tres_carriles_doble_sentido():
+    """Calzada de doble sentido con tres carriles separados por líneas discontinuas."""
+    els = [rect(0, 140, W, 120, ASFALTO), linea(0, 142, W, 142, ancho=3), linea(0, 258, W, 258, ancho=3),
+           linea(0, 180, W, 180, discontinua=True), linea(0, 220, W, 220, discontinua=True),
+           vehiculo(110, 240, 90, "A"), vehiculo(220, 240, 90, "B"), vehiculo(330, 160, 270, "C")]
+    return els
+
+
+def retencion(carriles):
+    """Vía con 2 o 3 carriles por sentido y la circulación detenida; los vehículos ocupan todos los carriles."""
+    ancho = 50
+    x0 = 200 - carriles * ancho / 2
+    els = [rect(x0 - 60, 0, 40, W, "#b9c7a5"),  # mediana
+           '<rect x="{:.0f}" y="0" width="4" height="400" fill="#8a8f96"/>'.format(x0 - 42),
+           rect(x0 - 14, 0, carriles * ancho + 50, W, ASFALTO),
+           linea(x0, 0, x0, W, ancho=3), linea(x0 + carriles * ancho, 0, x0 + carriles * ancho, W, ancho=3)]
+    for i in range(1, carriles):
+        els.append(linea(x0 + i * ancho, 0, x0 + i * ancho, W, discontinua=True))
+    colores = ["#9aa0a6", "#c9cdd2", "#7d8389"]
+    for i in range(carriles):
+        for j, y in enumerate((60, 125, 190, 255, 320)):
+            els.append(vehiculo(x0 + ancho * (i + 0.5), y + (i % 2) * 18, 0, "", color=colores[(i + j) % 3]))
+    return els
+
+
+def glorieta_sin_senalizar():
+    """Glorieta sin señales ni marcas de ceda el paso: A circula por el anillo; B llega a la entrada sur."""
+    cx = cy = 200
+    r_ext, r_isla = 125, 58
+    els = via_vertical(central="discontinua") + via_horizontal(central="discontinua")
+    els += [f'<circle cx="{cx}" cy="{cy}" r="{r_ext}" fill="{ASFALTO}"/>',
+            f'<circle cx="{cx}" cy="{cy}" r="{r_isla}" fill="{ENTORNO}" stroke="{MARCA}" stroke-width="3"/>']
+    r = (r_ext + r_isla) / 2
+
+    def punto(t):
+        t = math.radians(t)
+        return cx + r * math.cos(t), cy - r * math.sin(t)
+
+    def rumbo(t):
+        t = math.radians(t)
+        return math.degrees(math.atan2(-math.sin(t), math.cos(t))) % 360
+
+    xa, ya = punto(215)
+    x1, y1 = punto(235)
+    x2, y2 = punto(300)
+    els += [vehiculo(xa, ya, rumbo(215), "A"),
+            flecha(f"M{x1:.1f},{y1:.1f} A{r},{r} 0 0 0 {x2:.1f},{y2:.1f}", "A"),
+            vehiculo(220, 360, 0, "B"),
+            flecha("M220,333 L220,318", "B")]
+    return els
+
+
+def semaforo_otro_lado():
+    """Cruce visto desde arriba: el semáforo está en la esquina del otro lado; no hay línea de detención."""
+    els = via_vertical(central=None) + via_horizontal(central=None)
+    for a, b in ((0, 160), (240, 400)):
+        els.append(linea(200, a, 200, b, discontinua=True))
+        els.append(linea(a, 200, b, 200, discontinua=True))
+    els += [vehiculo(220, 320, 0, "A"), poste(256, 112, 126)]
+    els += semaforo(256, 78, {"rojo": True}, escala=0.4)
+    els += recuadro(300, 230, 92, 128, "semáforo")
+    els += semaforo(346, 252, {"rojo": True}, escala=0.9)
+    return els
+
+
+def cruce_tranvia():
+    """Cruce sin señales: A llega por el sur; un tranvía se acerca por la izquierda de A sobre sus raíles."""
+    els = via_vertical(central=None) + via_horizontal(central=None)
+    for a, b in ((0, 160), (240, 400)):
+        els.append(linea(200, a, 200, b, discontinua=True))
+    els += ['<path d="M0,170 L400,170 M0,190 L400,190" stroke="#b9bec4" stroke-width="4"/>',
+            vehiculo(220, 320, 0, "A"), flecha("M220,292 L220,110", "A"),
+            '<g transform="translate(70 180)"><rect x="-60" y="-14" width="120" height="28" rx="8" fill="#e3a21a" stroke="#1b1b1b" stroke-width="1.5"/>'
+            '<line x1="0" y1="-14" x2="0" y2="14" stroke="#1b1b1b" stroke-width="1.5"/>'
+            '<rect x="52" y="-10" width="6" height="20" rx="2" fill="#20262e"/>'
+            '<text x="-30" y="5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="12" fill="#fff">tranvía</text></g>',
+            flecha("M140,180 L180,180", "C")]
+    return els
+
+
+def cruce_camino():
+    """A circula por una vía pavimentada; por su derecha llega B desde un camino de tierra."""
+    els = via_vertical(central="discontinua")
+    els += [rect(240, 165, 160, 50, "#c8a978"),
+            '<path d="M250,175 L400,178 M255,205 L400,203" stroke="#a88a5a" stroke-width="2" stroke-dasharray="6 8"/>',
+            vehiculo(220, 320, 0, "A"), flecha("M220,292 L220,90", "A"),
+            vehiculo(320, 190, 270, "B")]
+    return els
+
+
+def giro_izquierda_de_frente():
+    """A, en el cruce, quiere girar a la izquierda; B se acerca de frente a poca distancia y sigue recto."""
+    els = via_vertical(central=None) + via_horizontal(central=None)
+    for a, b in ((0, 160), (240, 400)):
+        els.append(linea(200, a, 200, b, discontinua=True))
+        els.append(linea(a, 200, b, 200, discontinua=True))
+    els += [vehiculo(215, 255, 350, "A"), flecha("M210,228 C205,205 190,185 110,180", "A"),
+            vehiculo(180, 105, 180, "B"), flecha("M180,133 L180,300", "B")]
+    return els
+
+
+def refugio_sentido_unico():
+    """Calle de sentido único con un refugio para peatones en el centro de la calzada, sin señales."""
+    els = [rect(110, 0, 180, W, ASFALTO), rect(0, 0, 110, W, ACERA), rect(290, 0, 110, W, ACERA),
+           linea(110, 0, 110, W, ancho=2, color="#9a948a"), linea(290, 0, 290, W, ancho=2, color="#9a948a")]
+    for i in range(8):
+        els.append(rect(114 + i * 22, 120, 13, 70, MARCA))
+    els += ['<rect x="182" y="105" width="36" height="100" rx="14" fill="#e6e1d6" stroke="#9a948a" stroke-width="2"/>',
+            vehiculo(200, 330, 0, "A")]
+    els += [f'<path d="M{x},380 l0,-30 m-8,10 l8,-12 l8,12" stroke="#fff" stroke-width="4" fill="none"/>' for x in (140, 260)]
+    return els
+
+
+def grupo_ciclistas():
+    """Cruce: un grupo de ciclistas lo atraviesa de izquierda a derecha y el primero ya ha entrado; A espera en el sur."""
+    els = via_vertical(central=None) + via_horizontal(central=None)
+    for a, b in ((0, 160), (240, 400)):
+        els.append(linea(200, a, 200, b, discontinua=True))
+        els.append(linea(a, 200, b, 200, discontinua=True))
+    els += [vehiculo(220, 300, 0, "A")]
+    for x in (215, 175, 140, 105, 70, 35):
+        els += [f'<circle cx="{x}" cy="220" r="11" fill="#2a66cc"/>', bici_glifo(x, 220, 0.6)]
+    els.append(flecha("M235,220 L290,220", "B"))
+    return els
+
+
+def v13_conductor_novel():
+    """V-13 según el plano del anexo XI del RGV: placa de fondo verde reflectante con una L blanca reflectante
+    y borde blanco."""
+    return [rect(0, 0, W, W, FONDO_NEUTRO),
+            # proporción del plano: 150 mm de ancho por 195 mm de alto
+            '<rect x="85" y="50" width="230" height="300" rx="16" fill="#ffffff" stroke="#555" stroke-width="3"/>',
+            '<rect x="97" y="62" width="206" height="276" rx="10" fill="#0b8a43"/>',
+            '<path d="M145,100 L182,100 L182,265 L262,265 L262,302 L145,302 Z" fill="#ffffff"/>']
+
+
+ESQUEMAS_EXTRA3 = [
+    ("semaforo-ambar-fijo.svg", "Semáforo con luz amarilla fija",
+     "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear.",
+     lambda: semaforo_vista({"ambar": True})),
+    ("semaforo-ambar-intermitente.svg", "Semáforo con luz amarilla intermitente",
+     "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla parpadeando.",
+     lambda: semaforo_vista({"ambar": "intermitente"})),
+    ("semaforo-verde-y-stop.svg", "Semáforo en verde y señal de STOP",
+     "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida y, en el mismo poste, una señal de STOP.",
+     verde_y_stop),
+    ("semaforo-peatones-verde-intermitente.svg", "Semáforo de peatones en verde intermitente",
+     "Paso para peatones con un semáforo de peatones: la luz verde con la figura de un peatón andando parpadea; la roja está apagada.",
+     lambda: semaforo_peatones("verde", True)),
+    ("semaforo-peatones-rojo.svg", "Semáforo de peatones en rojo",
+     "Paso para peatones con un semáforo de peatones: encendida la luz roja con la figura de un peatón inmóvil; la verde está apagada.",
+     lambda: semaforo_peatones("rojo", False)),
+    ("semaforo-tranvia-franja-oblicua-derecha.svg", "Semáforo con franja blanca oblicua",
+     "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca oblicua, inclinada hacia la derecha, iluminada.",
+     lambda: semaforo_tranvia_v2("oblicua_derecha")),
+    ("semaforo-tranvia-franja-vertical-intermitente.svg", "Semáforo con franja blanca vertical intermitente",
+     "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical que parpadea.",
+     lambda: semaforo_tranvia_v2("vertical", intermitente=True)),
+    ("semaforo-carril-flecha-y-ceda.svg", "Semáforo de carril y ceda el paso",
+     "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante, antes de llegar a una intersección, hay una señal de ceda el paso y su línea en la calzada.",
+     carril_flecha_y_ceda),
+    ("ceda-vertical-y-stop-marca.svg", "Ceda el paso vertical y STOP pintado",
+     "Vista desde el conductor al llegar a una intersección: a la derecha, una señal vertical de ceda el paso; en la calzada, una línea de detención continua con la palabra STOP pintada.",
+     ceda_vertical_stop_marca),
+    ("agente-y-semaforo-verde.svg", "Agente y semáforo en verde",
+     "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida; en el cruce, un agente de frente con un brazo levantado.",
+     agente_y_verde),
+    ("tres-carriles-doble-sentido.svg", "Calzada de tres carriles y doble sentido",
+     "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+     tres_carriles_doble_sentido),
+    ("retencion-dos-carriles.svg", "Retención en una vía de dos carriles",
+     "Calzada con dos carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los dos carriles. A la izquierda, la mediana; a la derecha, el arcén.",
+     lambda: retencion(2)),
+    ("retencion-tres-carriles.svg", "Retención en una vía de tres carriles",
+     "Calzada con tres carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los tres carriles. A la izquierda, la mediana; a la derecha, el arcén.",
+     lambda: retencion(3)),
+    ("glorieta-sin-senalizar.svg", "Glorieta sin señalizar",
+     "Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada.",
+     glorieta_sin_senalizar),
+    ("semaforo-otro-lado-cruce.svg", "Semáforo al otro lado del cruce",
+     "Cruce visto desde arriba. El vehículo A llega por el sur. El semáforo, con la luz roja encendida, está en la esquina del otro lado del cruce. No hay línea de detención.",
+     semaforo_otro_lado),
+    ("cruce-tranvia-izquierda.svg", "Cruce con tranvía",
+     "Cruce sin señales ni semáforos. El vehículo A llega por el sur y va a seguir recto; por su izquierda se acerca un tranvía sobre sus raíles.",
+     cruce_tranvia),
+    ("cruce-camino-sin-pavimentar.svg", "Cruce con un camino de tierra",
+     "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar.",
+     cruce_camino),
+    ("giro-izquierda-vehiculo-de-frente.svg", "Giro a la izquierda con un vehículo de frente",
+     "Cruce visto desde arriba. El vehículo A está en el cruce y quiere girar a la izquierda; el vehículo B se acerca de frente, a poca distancia, y va a seguir recto.",
+     giro_izquierda_de_frente),
+    ("refugio-peatones-sentido-unico.svg", "Refugio para peatones en una calle de sentido único",
+     "Calle de sentido único con un paso para peatones y un refugio en el centro de la calzada. No hay señales. El vehículo A se acerca al refugio.",
+     refugio_sentido_unico),
+    ("grupo-ciclistas-cruce.svg", "Grupo de ciclistas en un cruce",
+     "Cruce visto desde arriba. Un grupo de seis ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; el vehículo A llega por el sur.",
+     grupo_ciclistas),
+    ("senal-V-13-conductor-novel.svg", "Placa verde con una L blanca",
+     "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+     v13_conductor_novel),
+]
+
+ESQUEMAS += ESQUEMAS_EXTRA3
+
 if __name__ == "__main__":
     aqui = os.path.dirname(os.path.abspath(__file__))
     for fichero, titulo, desc, fn in ESQUEMAS:

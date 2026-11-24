@@ -16243,6 +16243,279 @@
    },
    "licencia": "Propia del proyecto (sin derechos de terceros)",
    "formato": "svg"
+  },
+  {
+   "id": "semaforo-ambar-fijo",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-ambar-fijo.svg",
+   "nombre": "Semáforo con luz amarilla fija",
+   "alt": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-ambar-intermitente",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-ambar-intermitente.svg",
+   "nombre": "Semáforo con luz amarilla intermitente",
+   "alt": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla parpadeando.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-verde-y-stop",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-verde-y-stop.svg",
+   "nombre": "Semáforo en verde y señal de STOP",
+   "alt": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida y, en el mismo poste, una señal de STOP.",
+   "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-peatones-verde-intermitente",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-peatones-verde-intermitente.svg",
+   "nombre": "Semáforo de peatones en verde intermitente",
+   "alt": "Paso para peatones con un semáforo de peatones: la luz verde con la figura de un peatón andando parpadea; la roja está apagada.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-peatones-rojo",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-peatones-rojo.svg",
+   "nombre": "Semáforo de peatones en rojo",
+   "alt": "Paso para peatones con un semáforo de peatones: encendida la luz roja con la figura de un peatón inmóvil; la verde está apagada.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-tranvia-franja-oblicua-derecha",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-tranvia-franja-oblicua-derecha.svg",
+   "nombre": "Semáforo con franja blanca oblicua",
+   "alt": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca oblicua, inclinada hacia la derecha, iluminada.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-tranvia-franja-vertical-intermitente",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-tranvia-franja-vertical-intermitente.svg",
+   "nombre": "Semáforo con franja blanca vertical intermitente",
+   "alt": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical que parpadea.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-carril-flecha-y-ceda",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-carril-flecha-y-ceda.svg",
+   "nombre": "Semáforo de carril y ceda el paso",
+   "alt": "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante, antes de llegar a una intersección, hay una señal de ceda el paso y su línea en la calzada.",
+   "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "ceda-vertical-y-stop-marca",
+   "tipo": "esquema",
+   "src": "img/esquemas/ceda-vertical-y-stop-marca.svg",
+   "nombre": "Ceda el paso vertical y STOP pintado",
+   "alt": "Vista desde el conductor al llegar a una intersección: a la derecha, una señal vertical de ceda el paso; en la calzada, una línea de detención continua con la palabra STOP pintada.",
+   "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "agente-y-semaforo-verde",
+   "tipo": "esquema",
+   "src": "img/esquemas/agente-y-semaforo-verde.svg",
+   "nombre": "Agente y semáforo en verde",
+   "alt": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida; en el cruce, un agente de frente con un brazo levantado.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "tres-carriles-doble-sentido",
+   "tipo": "esquema",
+   "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+   "nombre": "Calzada de tres carriles y doble sentido",
+   "alt": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "retencion-dos-carriles",
+   "tipo": "esquema",
+   "src": "img/esquemas/retencion-dos-carriles.svg",
+   "nombre": "Retención en una vía de dos carriles",
+   "alt": "Calzada con dos carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los dos carriles. A la izquierda, la mediana; a la derecha, el arcén.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "retencion-tres-carriles",
+   "tipo": "esquema",
+   "src": "img/esquemas/retencion-tres-carriles.svg",
+   "nombre": "Retención en una vía de tres carriles",
+   "alt": "Calzada con tres carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los tres carriles. A la izquierda, la mediana; a la derecha, el arcén.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "glorieta-sin-senalizar",
+   "tipo": "esquema",
+   "src": "img/esquemas/glorieta-sin-senalizar.svg",
+   "nombre": "Glorieta sin señalizar",
+   "alt": "Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-otro-lado-cruce",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-otro-lado-cruce.svg",
+   "nombre": "Semáforo al otro lado del cruce",
+   "alt": "Cruce visto desde arriba. El vehículo A llega por el sur. El semáforo, con la luz roja encendida, está en la esquina del otro lado del cruce. No hay línea de detención.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "cruce-tranvia-izquierda",
+   "tipo": "esquema",
+   "src": "img/esquemas/cruce-tranvia-izquierda.svg",
+   "nombre": "Cruce con tranvía",
+   "alt": "Cruce sin señales ni semáforos. El vehículo A llega por el sur y va a seguir recto; por su izquierda se acerca un tranvía sobre sus raíles.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "cruce-camino-sin-pavimentar",
+   "tipo": "esquema",
+   "src": "img/esquemas/cruce-camino-sin-pavimentar.svg",
+   "nombre": "Cruce con un camino de tierra",
+   "alt": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "giro-izquierda-vehiculo-de-frente",
+   "tipo": "esquema",
+   "src": "img/esquemas/giro-izquierda-vehiculo-de-frente.svg",
+   "nombre": "Giro a la izquierda con un vehículo de frente",
+   "alt": "Cruce visto desde arriba. El vehículo A está en el cruce y quiere girar a la izquierda; el vehículo B se acerca de frente, a poca distancia, y va a seguir recto.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "refugio-peatones-sentido-unico",
+   "tipo": "esquema",
+   "src": "img/esquemas/refugio-peatones-sentido-unico.svg",
+   "nombre": "Refugio para peatones en una calle de sentido único",
+   "alt": "Calle de sentido único con un paso para peatones y un refugio en el centro de la calzada. No hay señales. El vehículo A se acerca al refugio.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "grupo-ciclistas-cruce",
+   "tipo": "esquema",
+   "src": "img/esquemas/grupo-ciclistas-cruce.svg",
+   "nombre": "Grupo de ciclistas en un cruce",
+   "alt": "Cruce visto desde arriba. Un grupo de seis ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; el vehículo A llega por el sur.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-13-conductor-novel",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+   "nombre": "Placa verde con una L blanca",
+   "alt": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
   }
  ]
 }

@@ -941,12 +941,21 @@
         "ref": "video1",
         "minuto": "33:32"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/retencion-tres-carriles.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada con tres carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los tres carriles. A la izquierda, la mediana; a la derecha, el arcén.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada con tres carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los tres carriles. A la izquierda, la mediana; a la derecha, el arcén."
+      }
     },
     {
       "id": "arc-0012",
@@ -972,12 +981,21 @@
         "ref": "video1",
         "minuto": "32:56"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/retencion-dos-carriles.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada con dos carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los dos carriles. A la izquierda, la mediana; a la derecha, el arcén.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada con dos carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los dos carriles. A la izquierda, la mediana; a la derecha, el arcén."
+      }
     },
     {
       "id": "arc-0013",

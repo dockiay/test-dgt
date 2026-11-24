@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Glorieta sin señalizar</title>
+<desc id="d">Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="160.0" y="0" width="80" height="400" fill="#5f646b" />
+<line x1="200" y1="0" x2="200" y2="400" stroke="#ffffff" stroke-width="3" stroke-dasharray="16 14"/>
+<rect x="0" y="160.0" width="400" height="80" fill="#5f646b" />
+<line x1="0" y1="200" x2="400" y2="200" stroke="#ffffff" stroke-width="3" stroke-dasharray="16 14"/>
+<circle cx="200" cy="200" r="125" fill="#5f646b"/>
+<circle cx="200" cy="200" r="58" fill="#cfe0b8" stroke="#ffffff" stroke-width="3"/>
+<g transform="translate(125.0 252.5) rotate(145.0)"><rect x="-11.0" y="-20.0" width="22" height="40" rx="6" fill="#d43d3d" stroke="#1b1b1b" stroke-width="1.5"/><rect x="-8.0" y="-14.0" width="16" height="8" rx="2" fill="#20262e"/><rect x="-8.0" y="11.0" width="16" height="5" rx="2" fill="#20262e"/><text x="0" y="5" transform="rotate(-145.0)" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" fill="#fff">A</text></g>
+<path d="M147.5,275.0 A91.5,91.5 0 0 0 245.8,279.2" fill="none" stroke="#d43d3d" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 9" marker-end="url(#punta-A)"/>
+<g transform="translate(220.0 360.0) rotate(0.0)"><rect x="-11.0" y="-20.0" width="22" height="40" rx="6" fill="#2a66cc" stroke="#1b1b1b" stroke-width="1.5"/><rect x="-8.0" y="-14.0" width="16" height="8" rx="2" fill="#20262e"/><rect x="-8.0" y="11.0" width="16" height="5" rx="2" fill="#20262e"/><text x="0" y="5" transform="rotate(0.0)" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" fill="#fff">B</text></g>
+<path d="M220,333 L220,318" fill="none" stroke="#2a66cc" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 9" marker-end="url(#punta-B)"/>
+</svg>

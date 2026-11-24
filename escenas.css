@@ -101,3 +101,42 @@
   .e-vehiculo.foco .e-halo { animation: none; opacity: .9; }
   .esc-pie, .e-etiqueta, .e-freno { transition: none; }
 }
+
+/* Urgencias y avisos: rotativos, sirena, luz roja, luz de emergencia, claxon, pañuelo, salpicaduras */
+.e-rotativo { fill: #26324a; }
+.e-vehiculo.av-rotativo .e-rotativo { fill: #2f7bff; animation: esc-rotativo .7s steps(1) infinite; }
+.e-vehiculo.av-rotativo .e-rotativo.dos { animation-delay: .35s; }
+.e-ondas { opacity: 0; transition: opacity .3s; pointer-events: none; }
+.e-onda { fill: none; stroke-width: 2.2; transform-box: fill-box; transform-origin: center; }
+.e-ondas.sirena .e-onda { stroke: #2f7bff; }
+.e-ondas.claxon .e-onda { stroke: #ffb020; stroke-dasharray: 5 5; }
+.e-vehiculo.av-sirena .e-ondas.sirena, .e-vehiculo.av-megafonia .e-ondas.sirena, .e-vehiculo.av-claxon .e-ondas.claxon { opacity: 1; }
+.e-vehiculo.av-sirena .e-onda, .e-vehiculo.av-megafonia .e-onda, .e-vehiculo.av-claxon .e-ondas.claxon .e-onda { animation: esc-onda 1.35s ease-out infinite; }
+.e-vehiculo.av-claxon .e-ondas.claxon .e-onda { animation-duration: .9s; }
+.e-vehiculo.av-megafonia:not(.av-sirena) .e-ondas.sirena .e-onda { stroke: #ffffff; stroke-dasharray: 3 6; }
+.e-roja, .e-panuelo, .e-salpica { opacity: 0; transition: opacity .2s; }
+.e-roja-luz { fill: #ff2d2d; } .e-roja-halo { fill: #ff2d2d; opacity: .35; }
+.e-vehiculo.av-roja .e-roja { opacity: 1; animation: esc-parpadeo .5s steps(1) infinite; }
+.e-vehiculo.av-emergencia .e-intermitente { animation: esc-parpadeo .9s steps(1) infinite; }
+.esc-svg.quieta .e-vehiculo.av-emergencia .e-intermitente { animation: none; opacity: 1; }
+.e-vehiculo.av-panuelo .e-panuelo { opacity: 1; }
+.e-panuelo-tela { fill: #ffffff; stroke: #9aa3b2; stroke-width: .8; transform-box: fill-box; transform-origin: right center; }
+.e-vehiculo.av-panuelo .e-panuelo-tela { animation: esc-panuelo .45s ease-in-out infinite alternate; }
+.e-gota { fill: #8cc4e8; stroke: #ffffff; stroke-width: .6; }
+.e-vehiculo.av-salpica .e-salpica { opacity: 1; }
+.e-vehiculo.av-salpica .e-gota { animation: esc-gota .5s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.e-charco { fill: #7fb3d6; opacity: .75; } .e-charco-brillo { fill: #ffffff; opacity: .55; }
+@keyframes esc-rotativo { 0% { fill: #2f7bff; filter: drop-shadow(0 0 4px #4d8dff); } 50% { fill: #1b2a52; filter: none; } }
+@keyframes esc-onda { 0% { transform: scale(.75); opacity: .9; } 100% { transform: scale(2.1); opacity: 0; } }
+@keyframes esc-panuelo { from { transform: scaleY(1) skewY(0); } to { transform: scaleY(.7) skewY(10deg); } }
+@keyframes esc-gota { 0% { transform: translate(-4px, 0) scale(.6); opacity: 1; } 100% { transform: translate(4px, 0) scale(1.15); opacity: .2; } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .e-charco { fill: #3f6f90; } }
+:root[data-theme="dark"] .e-charco { fill: #3f6f90; }
+@media (prefers-reduced-motion: reduce) {
+  .e-vehiculo.av-rotativo .e-rotativo { animation: none !important; fill: #2f7bff; }
+  .e-vehiculo .e-onda { animation: none !important; transform: scale(1.4); opacity: .55; }
+  .e-vehiculo .e-onda:nth-child(2) { transform: scale(1.8); opacity: .3; } .e-vehiculo .e-onda:nth-child(3) { display: none; }
+  .e-vehiculo.av-roja .e-roja, .e-vehiculo.av-emergencia .e-intermitente { animation: none !important; opacity: 1; }
+  .e-vehiculo .e-panuelo-tela, .e-vehiculo .e-gota { animation: none !important; }
+  .e-ondas, .e-roja, .e-panuelo, .e-salpica { transition: none; }
+}

@@ -481,7 +481,7 @@
         "a": "Puede pasar un semáforo, aunque solo tras extremar las precauciones y comprobar que no hay riesgo y que los demás se detienen o le facilitan el paso.",
         "b": "En servicio urgente puede circular por encima de los límites de velocidad."
       },
-      "truco": "Para un prioritario, el agente manda siempre: sus órdenes y señales son lo único que nunca puede saltarse.",
+      "truco": "Para un prioritario, el agente manda siempre: sus órdenes y señales son obligatorias aunque vaya en servicio urgente.",
       "apoyos": [
         {
           "norma": "RGC",

@@ -294,6 +294,246 @@
    }
   },
   {
+   "id": "bm13-0005",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Antes de abrir la puerta para bajar del vehículo, ¿qué debe hacer?",
+    "opciones": {
+     "a": "Nada, si el vehículo está correctamente estacionado.",
+     "b": "Asegurarse de que no supone peligro ni entorpecimiento para otros usuarios, especialmente ciclistas.",
+     "c": "Encender la luz de emergencia; así los demás deben esperar."
+    }
+   },
+   "despues": {
+    "enunciado": "Antes de abrir la puerta para bajar del vehículo, ¿qué debe hacer?",
+    "opciones": {
+     "a": "Nada, si el vehículo está bien estacionado.",
+     "b": "Asegurarse de que no supone peligro para otros usuarios, sobre todo ciclistas.",
+     "c": "Encender la luz de emergencia para que los demás esperen."
+    }
+   }
+  },
+  {
+   "id": "bm13-0006",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un pasajero quiere abrir la puerta cuando el vehículo aún avanza muy despacio, a punto de detenerse. ¿Está permitido?",
+    "opciones": {
+     "a": "Sí, si la velocidad es inferior a 10 km/h.",
+     "b": "Sí, si mira antes por el retrovisor.",
+     "c": "No, se prohíbe abrir las puertas antes de la completa inmovilización del vehículo."
+    }
+   },
+   "despues": {
+    "enunciado": "Un pasajero quiere abrir la puerta cuando el vehículo aún avanza muy despacio, a punto de detenerse. ¿Está permitido?",
+    "opciones": {
+     "a": "Sí, si la velocidad es inferior a 10 km/h.",
+     "b": "Sí, si mira antes por el retrovisor.",
+     "c": "No."
+    }
+   }
+  },
+  {
+   "id": "bm13-0012",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Por una emergencia, su vehículo queda inmovilizado dentro de un túnel. ¿Qué debe hacer con el motor y las luces?",
+    "opciones": {
+     "a": "Apagar el motor y todas las luces para no deslumbrar.",
+     "b": "Dejar el motor en marcha y encender la luz de largo alcance.",
+     "c": "Apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición."
+    }
+   },
+   "despues": {
+    "enunciado": "Por una emergencia, su vehículo queda inmovilizado dentro de un túnel. ¿Qué debe hacer con el motor y las luces?",
+    "opciones": {
+     "a": "Apagar el motor y todas las luces.",
+     "b": "Dejar el motor en marcha y encender la luz de largo alcance.",
+     "c": "Apagar el motor, encender la emergencia y dejar las luces de posición."
+    }
+   }
+  },
+  {
+   "id": "bm13-0013",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Su vehículo queda inmovilizado por una emergencia dentro de un túnel. ¿Qué deben hacer usted y sus pasajeros?",
+    "opciones": {
+     "a": "Abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si hay zonas excluidas a la circulación.",
+     "b": "Permanecer dentro del vehículo con el cinturón abrochado hasta que llegue la ayuda.",
+     "c": "Salir y caminar por la calzada en sentido contrario a la circulación para avisar a los demás."
+    }
+   },
+   "despues": {
+    "enunciado": "Su vehículo queda inmovilizado por una emergencia dentro de un túnel. ¿Qué deben hacer usted y sus pasajeros?",
+    "opciones": {
+     "a": "Abandonar el vehículo e ir rápidamente al refugio o salida más próximos.",
+     "b": "Permanecer dentro con el cinturón abrochado hasta que llegue ayuda.",
+     "c": "Salir y caminar por la calzada en sentido contrario para avisar a los demás."
+    }
+   }
+  },
+  {
+   "id": "bm13-0014",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Su vehículo se incendia dentro de un túnel. Tras acercarlo a la derecha y apagar el motor, ¿qué debe hacer con la llave y las puertas antes de abandonarlo?",
+    "opciones": {
+     "a": "Llevarse la llave y cerrar las puertas para evitar robos.",
+     "b": "Dejar la llave puesta y las puertas abiertas.",
+     "c": "Llevarse la llave y dejar las puertas abiertas."
+    }
+   },
+   "despues": {
+    "enunciado": "Su vehículo se incendia dentro de un túnel. Tras acercarlo a la derecha y apagar el motor, ¿qué debe hacer con la llave y las puertas?",
+    "opciones": {
+     "a": "Llevarse la llave y cerrar las puertas para evitar robos.",
+     "b": "Dejar la llave puesta y las puertas abiertas.",
+     "c": "Llevarse la llave y dejar las puertas abiertas."
+    }
+   }
+  },
+  {
+   "id": "bm13-0018",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Su vehículo averiado obstaculiza la calzada. Después de señalizarlo, ¿qué debe hacer?",
+    "opciones": {
+     "a": "Esperar dentro del vehículo hasta que llegue la grúa, sin moverlo.",
+     "b": "Dejarlo donde está; la señalización basta.",
+     "c": "Adoptar las medidas necesarias para que sea retirado cuanto antes y, si es factible, sacarlo de la calzada y situarlo cumpliendo las normas de estacionamiento."
+    }
+   },
+   "despues": {
+    "enunciado": "Su vehículo averiado obstaculiza la calzada. Después de señalizarlo, ¿qué debe hacer?",
+    "opciones": {
+     "a": "Esperar dentro del vehículo hasta que llegue la grúa, sin moverlo.",
+     "b": "Dejarlo donde está, porque la señalización basta.",
+     "c": "Procurar que se retire cuanto antes y, si es posible, sacarlo de la calzada."
+    }
+   }
+  },
+  {
+   "id": "bm13-0019",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Tras una avería, su vehículo puede seguir circulando pero necesita un servicio de auxilio. ¿Qué debe hacer?",
+    "opciones": {
+     "a": "Abandonar cuanto antes los carriles de circulación y dirigirse a la primera salida disponible usando el arcén derecho.",
+     "b": "Detenerse inmediatamente en el carril izquierdo.",
+     "c": "Detenerse en el carril por el que circula y encender la luz de emergencia."
+    }
+   },
+   "despues": {
+    "enunciado": "Tras una avería, su vehículo puede seguir circulando pero necesita un servicio de auxilio. ¿Qué debe hacer?",
+    "opciones": {
+     "a": "Dejar cuanto antes los carriles de circulación e ir a la primera salida por el arcén derecho.",
+     "b": "Detenerse inmediatamente en el carril izquierdo.",
+     "c": "Detenerse en su carril y encender la luz de emergencia."
+    }
+   }
+  },
+  {
+   "id": "bm3-0001",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Cómo deben comportarse todos los usuarios de la vía?",
+    "opciones": {
+     "a": "Basta con que respeten las señales; las molestias a los demás no están reguladas.",
+     "b": "De forma que no entorpezcan indebidamente la circulación ni causen peligro, perjuicios o molestias innecesarias a las personas, o daños a los bienes.",
+     "c": "Esta obligación solo afecta a los conductores, no a los peatones."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cómo deben comportarse todos los usuarios de la vía?",
+    "opciones": {
+     "a": "Basta con que respeten las señales.",
+     "b": "Sin entorpecer indebidamente ni causar peligro, perjuicios o molestias innecesarias.",
+     "c": "Esta obligación solo afecta a los conductores, no a los peatones."
+    }
+   }
+  },
+  {
+   "id": "bm3-0002",
+   "correcta": "c",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Se debe conducir con la diligencia y precaución necesarias para evitar…",
+    "opciones": {
+     "a": "solo los daños a otras personas.",
+     "b": "solo los daños materiales a otros vehículos.",
+     "c": "todo daño, propio o ajeno."
+    }
+   },
+   "despues": {
+    "enunciado": "Se debe conducir con la diligencia y precaución necesarias para evitar...",
+    "opciones": {
+     "a": "Solo los daños a otras personas.",
+     "b": "Solo los daños materiales a otros vehículos.",
+     "c": "Todo daño, propio o ajeno."
+    }
+   }
+  },
+  {
+   "id": "bm3-0005",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Al aproximarse a otros usuarios de la vía, ¿con quiénes debe extremar especialmente las precauciones?",
+    "opciones": {
+     "a": "Con los vehículos de mayor tamaño.",
+     "b": "Con los conductores noveles que llevan la «L».",
+     "c": "Con los niños, los ancianos, los invidentes y otras personas manifiestamente impedidas."
+    }
+   },
+   "despues": {
+    "enunciado": "Al aproximarse a otros usuarios de la vía, ¿con quiénes debe extremar especialmente las precauciones?",
+    "opciones": {
+     "a": "Con los vehículos de mayor tamaño.",
+     "b": "Con los conductores noveles que llevan la «L».",
+     "c": "Con niños, ancianos, invidentes y personas manifiestamente impedidas."
+    }
+   }
+  },
+  {
    "id": "bm9-0005",
    "correcta": "a",
    "reglas": [
@@ -314,6 +554,587 @@
      "a": "Siempre pueda detener el vehículo dentro de su campo de visión y ante cualquier obstáculo.",
      "b": "Circule siempre a la velocidad máxima que permite la señalización.",
      "c": "No tarde más de lo previsto en llegar a su destino."
+    }
+   }
+  },
+  {
+   "id": "res-acc-0001",
+   "correcta": "c",
+   "reglas": [
+    "E3",
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿cuándo hay más accidentes?",
+    "opciones": {
+     "a": "Los lunes laborables a mediodía.",
+     "b": "Los martes y miércoles por la mañana.",
+     "c": "Los fines de semana y los días de fiesta, en especial de madrugada."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuándo hay más accidentes?",
+    "opciones": {
+     "a": "Los lunes laborables a mediodía.",
+     "b": "Los martes y miércoles por la mañana.",
+     "c": "Los fines de semana y festivos, sobre todo de madrugada."
+    }
+   }
+  },
+  {
+   "id": "res-alc-0001",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Una persona adulta que conduce un patinete eléctrico (vehículo de movilidad personal), con carácter general, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+    "opciones": {
+     "a": "0 mg/l.",
+     "b": "0,15 mg/l.",
+     "c": "0,25 mg/l."
+    }
+   },
+   "despues": {
+    "enunciado": "Con carácter general, ¿qué tasa máxima de alcohol en aire espirado puede tener un adulto que conduce un patinete eléctrico?",
+    "opciones": {
+     "a": "0 mg/l.",
+     "b": "0,15 mg/l.",
+     "c": "0,25 mg/l."
+    }
+   }
+  },
+  {
+   "id": "res-arc-0001",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Una persona en silla de ruedas circula sola por una carretera sin acera ni zona peatonal practicable. Como norma general, ¿por dónde debe ir?",
+    "opciones": {
+     "a": "Por el arcén izquierdo en el sentido de su marcha (o por la calzada si no hay arcén), lo más alejada posible de los vehículos.",
+     "b": "Por el centro de la calzada, para que la vean.",
+     "c": "Por el arcén derecho, como los vehículos."
+    }
+   },
+   "despues": {
+    "enunciado": "Una persona en silla de ruedas circula sola por una carretera sin acera ni zona peatonal practicable. Como norma general, ¿por dónde debe ir?",
+    "opciones": {
+     "a": "Por el arcén izquierdo o, si no lo hay, por la calzada, lo más alejada posible de los vehículos.",
+     "b": "Por el centro de la calzada, para que la vean.",
+     "c": "Por el arcén derecho, como los vehículos."
+    }
+   }
+  },
+  {
+   "id": "res-cesp-0002",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. ¿A qué velocidad debe circular, salvo señal de otra inferior?",
+    "opciones": {
+     "a": "Como máximo a 50 km/h.",
+     "b": "A la velocidad genérica de la vía.",
+     "c": "Entre 60 y 80 km/h."
+    }
+   },
+   "despues": {
+    "enunciado": "Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. Salvo señal de otra inferior, ¿a qué velocidad debe circular?",
+    "opciones": {
+     "a": "Como máximo a 50 km/h.",
+     "b": "A la velocidad genérica de la vía.",
+     "c": "Entre 60 y 80 km/h."
+    }
+   }
+  },
+  {
+   "id": "res-cesp-0003",
+   "correcta": "a",
+   "reglas": [
+    "O2",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido dispone de dos carriles. ¿A qué velocidad puede circular?",
+    "opciones": {
+     "a": "A las velocidades genéricas de la vía (máximas y mínimas).",
+     "b": "Obligatoriamente entre 60 y 80 km/h.",
+     "c": "Como máximo a 60 km/h."
+    }
+   },
+   "despues": {
+    "enunciado": "Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido hay dos carriles. ¿A qué velocidad puede circular?",
+    "opciones": {
+     "a": "A las velocidades genéricas de la vía.",
+     "b": "Obligatoriamente entre 60 y 80 km/h.",
+     "c": "Como máximo a 60 km/h."
+    }
+   }
+  },
+  {
+   "id": "res-cesp-0004",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Los vehículos que circulan por el carril contiguo a uno habilitado en sentido contrario al habitual, ¿qué alumbrado deben llevar?",
+    "opciones": {
+     "a": "La luz de largo alcance.",
+     "b": "Al menos la luz de corto alcance o de cruce, de día y de noche.",
+     "c": "Ninguno especial de día."
+    }
+   },
+   "despues": {
+    "enunciado": "Los vehículos que circulan por el carril contiguo a uno habilitado en sentido contrario al habitual, ¿qué alumbrado deben llevar?",
+    "opciones": {
+     "a": "La luz de largo alcance.",
+     "b": "Al menos la de cruce, de día y de noche.",
+     "c": "Ninguno especial de día."
+    }
+   }
+  },
+  {
+   "id": "res-def-0003",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué es un vehículo derivado de turismo?",
+    "opciones": {
+     "a": "Un turismo con más de nueve plazas.",
+     "b": "Una furgoneta con dos filas de asientos.",
+     "c": "Un automóvil para servicios o transporte exclusivo de mercancías que conserva la carrocería del turismo del que deriva y tiene una sola fila de asientos."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué es un vehículo derivado de turismo?",
+    "opciones": {
+     "a": "Un turismo con más de nueve plazas.",
+     "b": "Una furgoneta con dos filas de asientos.",
+     "c": "Un automóvil de mercancías que conserva la carrocería del turismo y tiene una sola fila de asientos."
+    }
+   }
+  },
+  {
+   "id": "res-def-0004",
+   "correcta": "a",
+   "reglas": [
+    "E3",
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el Reglamento General de Vehículos, un patinete eléctrico (vehículo de movilidad personal), ¿es un «vehículo a motor»?",
+    "opciones": {
+     "a": "No: aunque tiene motor, el Reglamento lo excluye expresamente de la definición de vehículo a motor.",
+     "b": "Solo cuando circula por vías interurbanas.",
+     "c": "Sí, porque tiene motor eléctrico."
+    }
+   },
+   "despues": {
+    "enunciado": "Un patinete eléctrico (vehículo de movilidad personal), ¿es un vehículo de motor?",
+    "opciones": {
+     "a": "No.",
+     "b": "Solo cuando circula por vías interurbanas.",
+     "c": "Sí, porque tiene motor eléctrico."
+    }
+   }
+  },
+  {
+   "id": "res-dist-0001",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿qué separación es aconsejable dejar con el vehículo de delante en condiciones normales?",
+    "opciones": {
+     "a": "Un segundo.",
+     "b": "Cinco segundos.",
+     "c": "Dos o tres segundos."
+    }
+   },
+   "despues": {
+    "enunciado": "En condiciones normales, ¿qué separación es aconsejable dejar con el vehículo de delante?",
+    "opciones": {
+     "a": "Un segundo.",
+     "b": "Cinco segundos.",
+     "c": "Dos o tres segundos."
+    }
+   }
+  },
+  {
+   "id": "res-dist-0002",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?",
+    "opciones": {
+     "a": "Al menos un segundo más.",
+     "b": "Hay que duplicarla siempre.",
+     "c": "No hace falta aumentarla."
+    }
+   },
+   "despues": {
+    "enunciado": "Si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?",
+    "opciones": {
+     "a": "Al menos un segundo más.",
+     "b": "Hay que duplicarla siempre.",
+     "c": "No hace falta aumentarla."
+    }
+   }
+  },
+  {
+   "id": "res-fat-0001",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Al volante empieza a notar los primeros síntomas de sueño. Según el manual de la DGT, ¿qué debe hacer?",
+    "opciones": {
+     "a": "Parar en un lugar seguro y dormir 20 o 30 minutos.",
+     "b": "Tomar un café y seguir conduciendo.",
+     "c": "Abrir la ventanilla y seguir hasta el destino."
+    }
+   },
+   "despues": {
+    "enunciado": "Al volante empieza a notar los primeros síntomas de sueño. ¿Qué debe hacer?",
+    "opciones": {
+     "a": "Parar en un lugar seguro y dormir 20 o 30 minutos.",
+     "b": "Tomar un café y seguir conduciendo.",
+     "c": "Abrir la ventanilla y seguir hasta el destino."
+    }
+   }
+  },
+  {
+   "id": "res-itv-0001",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un turismo particular, ¿con qué frecuencia debe pasar la ITV?",
+    "opciones": {
+     "a": "Exento hasta los 2 años; después, cada año.",
+     "b": "Cada año desde la matriculación.",
+     "c": "Exento hasta los 4 años; cada dos años hasta los 10; y después, cada año."
+    }
+   },
+   "despues": {
+    "enunciado": "Un turismo particular, ¿con qué frecuencia debe pasar la ITV?",
+    "opciones": {
+     "a": "Exento hasta los 2 años; después, cada año.",
+     "b": "Cada año desde la matriculación.",
+     "c": "Exento hasta los 4 años; cada dos hasta los 10; después, cada año."
+    }
+   }
+  },
+  {
+   "id": "res-itv-0002",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Una furgoneta de 3.500 kg de MMA o menos (categoría N1), ¿con qué frecuencia debe pasar la ITV?",
+    "opciones": {
+     "a": "Exenta hasta 2 años; cada dos años de 2 a 6; cada año de 6 a 10; y cada seis meses a partir de 10.",
+     "b": "Exenta hasta 4 años y después cada dos años.",
+     "c": "Cada año desde la matriculación."
+    }
+   },
+   "despues": {
+    "enunciado": "Una furgoneta de 3.500 kg de MMA o menos (categoría N1), ¿con qué frecuencia debe pasar la ITV?",
+    "opciones": {
+     "a": "Exenta hasta los 2 años; cada dos años hasta los 6; cada año hasta los 10; después, cada seis meses.",
+     "b": "Exenta hasta los 4 años y después cada dos años.",
+     "c": "Cada año desde la matriculación."
+    }
+   }
+  },
+  {
+   "id": "res-itv-0004",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Su turismo saca una ITV desfavorable (defectos graves). ¿Puede circular con él?",
+    "opciones": {
+     "a": "Sí, con normalidad durante dos meses.",
+     "b": "No, debe trasladarse en grúa.",
+     "c": "Solo para llevarlo al taller y volver a la ITV, en un plazo no superior a dos meses."
+    }
+   },
+   "despues": {
+    "enunciado": "Su turismo saca una ITV desfavorable (defectos graves). ¿Puede circular con él?",
+    "opciones": {
+     "a": "Sí, con normalidad durante dos meses.",
+     "b": "No, debe trasladarse en grúa.",
+     "c": "Solo para llevarlo al taller y volver a la ITV, en un plazo de dos meses como máximo."
+    }
+   }
+  },
+  {
+   "id": "res-itv-0005",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Si la ITV es negativa (defectos muy graves), ¿cómo se traslada el vehículo desde la estación?",
+    "opciones": {
+     "a": "Por medios ajenos al propio vehículo (por ejemplo, en grúa).",
+     "b": "Conduciéndolo, pero solo de día.",
+     "c": "Conduciéndolo directamente al taller."
+    }
+   },
+   "despues": {
+    "enunciado": "Si la ITV es negativa (defectos muy graves), ¿cómo se traslada el vehículo desde la estación?",
+    "opciones": {
+     "a": "Por medios ajenos al propio vehículo, como una grúa.",
+     "b": "Conduciéndolo, pero solo de día.",
+     "c": "Conduciéndolo directamente al taller."
+    }
+   }
+  },
+  {
+   "id": "res-perm-0003",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué limita el permiso A2?",
+    "opciones": {
+     "a": "La cilindrada de la moto, como máximo 500 cm³.",
+     "b": "La potencia de la moto: como máximo 35 kW y 0,2 kW/kg, y que no derive de un vehículo con más del doble de potencia.",
+     "c": "Nada: autoriza cualquier motocicleta."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué limita el permiso A2?",
+    "opciones": {
+     "a": "La cilindrada de la motocicleta, como máximo 500 cm³.",
+     "b": "La potencia de la motocicleta, como máximo 35 kW y 0,2 kW/kg.",
+     "c": "Nada, autoriza cualquier motocicleta."
+    }
+   }
+  },
+  {
+   "id": "res-seg-0001",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "El seguro obligatorio del vehículo causante de un accidente, ¿cubre las lesiones de su propio conductor?",
+    "opciones": {
+     "a": "Sí, siempre.",
+     "b": "No, el seguro obligatorio no cubre las lesiones ni el fallecimiento del conductor del vehículo causante.",
+     "c": "Solo si llevaba puesto el cinturón."
+    }
+   },
+   "despues": {
+    "enunciado": "El seguro obligatorio del vehículo causante de un accidente, ¿cubre las lesiones de su propio conductor?",
+    "opciones": {
+     "a": "Sí, siempre.",
+     "b": "No.",
+     "c": "Solo si llevaba puesto el cinturón."
+    }
+   }
+  },
+  {
+   "id": "res-seg-0003",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un remolque de 600 kg de masa máxima autorizada, ¿necesita su propio seguro obligatorio?",
+    "opciones": {
+     "a": "No, los remolques de hasta 750 kg de MMA están exceptuados.",
+     "b": "Sí, todos los remolques.",
+     "c": "Solo si circula de noche."
+    }
+   },
+   "despues": {
+    "enunciado": "Un remolque de 600 kg de masa máxima autorizada, ¿necesita su propio seguro obligatorio?",
+    "opciones": {
+     "a": "No.",
+     "b": "Sí, como todos los remolques.",
+     "c": "Solo si circula de noche."
+    }
+   }
+  },
+  {
+   "id": "res-seg-0004",
+   "correcta": "b",
+   "reglas": [
+    "E3",
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, al girar el volante, ¿se deben cruzar las manos?",
+    "opciones": {
+     "a": "Sí, para girar más rápido.",
+     "b": "No: el volante se coge sin cruzar las manos al girarlo.",
+     "c": "Solo en las curvas cerradas."
+    }
+   },
+   "despues": {
+    "enunciado": "Al girar el volante, ¿se deben cruzar las manos?",
+    "opciones": {
+     "a": "Sí, para girar más rápido.",
+     "b": "No.",
+     "c": "Solo en las curvas cerradas."
+    }
+   }
+  },
+  {
+   "id": "res-veh-0002",
+   "correcta": "b",
+   "reglas": [
+    "O1",
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un turismo arrastra un remolque ligero. ¿Debe llevar extintor?",
+    "opciones": {
+     "a": "Solo si el remolque supera 750 kg.",
+     "b": "Sí, porque turismo y remolque forman un conjunto de vehículos, y los conjuntos no especiales deben llevar extintor.",
+     "c": "No, solo los camiones y autobuses."
+    }
+   },
+   "despues": {
+    "enunciado": "Un turismo arrastra un remolque ligero. ¿Debe llevar extintor?",
+    "opciones": {
+     "a": "Solo si el remolque supera 750 kg.",
+     "b": "Sí.",
+     "c": "No, solo los camiones y autobuses."
+    }
+   }
+  },
+  {
+   "id": "res-vel-0001",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción puede superar los 60 km/h en llano y cumple sus normas técnicas, ¿a qué velocidad máxima puede circular?",
+    "opciones": {
+     "a": "40 km/h.",
+     "b": "70 km/h.",
+     "c": "25 km/h."
+    }
+   },
+   "despues": {
+    "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción supera los 60 km/h en llano y cumple sus normas técnicas, ¿a qué velocidad máxima puede circular?",
+    "opciones": {
+     "a": "40 km/h.",
+     "b": "70 km/h.",
+     "c": "25 km/h."
+    }
+   }
+  },
+  {
+   "id": "res-vel-0002",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Fuera de poblado, el límite de velocidad de los ciclos es de 45 km/h. ¿Puede un ciclista superarlo?",
+    "opciones": {
+     "a": "Solo en bajadas, hasta 60 km/h.",
+     "b": "No, nunca.",
+     "c": "Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior."
+    }
+   },
+   "despues": {
+    "enunciado": "Fuera de poblado, el límite de velocidad de los ciclos es de 45 km/h. ¿Puede un ciclista superarlo?",
+    "opciones": {
+     "a": "Solo en bajadas, hasta 60 km/h.",
+     "b": "No, nunca.",
+     "c": "Sí, donde las circunstancias de la vía lo permitan."
+    }
+   }
+  },
+  {
+   "id": "res-via-0001",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Puede un peatón circular por una autovía?",
+    "opciones": {
+     "a": "No, salvo en los casos y condiciones que fija el reglamento (por ejemplo, al salir del vehículo por una emergencia).",
+     "b": "Sí, por el arcén y de día.",
+     "c": "Sí, si lleva chaleco reflectante."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Puede un peatón circular por una autovía?",
+    "opciones": {
+     "a": "No, salvo en los casos que fija el reglamento, como una emergencia.",
+     "b": "Sí, por el arcén y de día.",
+     "c": "Sí, si lleva chaleco reflectante."
+    }
+   }
+  },
+  {
+   "id": "res-via-0002",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop (pedir que te lleven)?",
+    "opciones": {
+     "a": "Sí, si se hace fuera de los carriles de pago.",
+     "b": "No, está prohibido pedir pasaje en cualquier tramo de la autopista, incluidas las explanadas de peaje.",
+     "c": "Sí, porque la explanada no es calzada."
+    }
+   },
+   "despues": {
+    "enunciado": "En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop?",
+    "opciones": {
+     "a": "Sí, si se hace fuera de los carriles de pago.",
+     "b": "No.",
+     "c": "Sí, porque la explanada no es calzada."
     }
    }
   },
@@ -4257,6 +5078,441 @@
    }
   },
   {
+   "id": "xd-0001",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿por qué un vehículo necesita más espacio para frenar cuando llueve mucho?",
+    "opciones": {
+     "a": "Porque los frenos se enfrían con el agua y pierden potencia.",
+     "b": "Porque el motor retiene menos el vehículo sobre suelo mojado.",
+     "c": "Porque los neumáticos se agarran menos a la carretera."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Por qué un vehículo necesita más espacio para frenar cuando llueve mucho?",
+    "opciones": {
+     "a": "Porque los frenos se enfrían con el agua y pierden potencia.",
+     "b": "Porque el motor retiene menos el vehículo sobre suelo mojado.",
+     "c": "Porque los neumáticos se agarran menos a la carretera."
+    }
+   }
+  },
+  {
+   "id": "xd-0003",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Circula con lluvia. Según la DGT, ¿cómo conviene frenar?",
+    "opciones": {
+     "a": "De forma suave, para que las ruedas tengan más tiempo de parar.",
+     "b": "Lo más tarde posible, para no ser alcanzado por detrás.",
+     "c": "Con un golpe fuerte de pedal, para detenerse en menos espacio."
+    }
+   },
+   "despues": {
+    "enunciado": "Circula con lluvia. ¿Cómo conviene frenar?",
+    "opciones": {
+     "a": "De forma suave.",
+     "b": "Lo más tarde posible, para no ser alcanzado por detrás.",
+     "c": "Con un golpe fuerte de pedal, para detenerse antes."
+    }
+   }
+  },
+  {
+   "id": "xd-0005",
+   "correcta": "c",
+   "reglas": [
+    "E3",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Conduce una motocicleta y está lloviendo. ¿A qué debe prestar especial atención, según la DGT?",
+    "opciones": {
+     "a": "A no circular nunca por el centro del carril.",
+     "b": "A llevar encendida la luz antiniebla trasera en todo momento.",
+     "c": "A las líneas pintadas en la carretera, porque pueden resbalar."
+    }
+   },
+   "despues": {
+    "enunciado": "Conduce una motocicleta y está lloviendo. ¿A qué debe prestar especial atención?",
+    "opciones": {
+     "a": "A no circular nunca por el centro del carril.",
+     "b": "A llevar encendida la luz antiniebla trasera en todo momento.",
+     "c": "A las líneas pintadas en la carretera."
+    }
+   }
+  },
+  {
+   "id": "xd-0006",
+   "correcta": "a",
+   "reglas": [
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué es el aquaplaning?",
+    "opciones": {
+     "a": "Perder el control porque el neumático no puede echar toda el agua y patina.",
+     "b": "El empañamiento repentino del parabrisas cuando llueve y hay mucha humedad.",
+     "c": "El bloqueo de las ruedas al frenar con fuerza sobre una calzada seca."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué es el aquaplaning?",
+    "opciones": {
+     "a": "A perder el control porque el neumático no puede evacuar el agua y patina.",
+     "b": "Al empañamiento repentino del parabrisas cuando llueve.",
+     "c": "Al bloqueo de las ruedas al frenar con fuerza en seco."
+    }
+   }
+  },
+  {
+   "id": "xd-0012",
+   "correcta": "c",
+   "reglas": [
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Su turismo lleva neumáticos especiales de nieve, pero no lleva cadenas. ¿Puede continuar la marcha al llegar a esta señal?",
+    "opciones": {
+     "a": "No, porque solo admite cadenas metálicas en las ruedas motrices.",
+     "b": "Solo si circula a una velocidad inferior a 30 km/h.",
+     "c": "Sí, porque también admite los neumáticos especiales de nieve."
+    }
+   },
+   "despues": {
+    "enunciado": "Su turismo lleva neumáticos especiales de nieve, pero no cadenas. ¿Puede seguir al llegar a esta señal?",
+    "opciones": {
+     "a": "No, porque solo admite cadenas en las ruedas motrices.",
+     "b": "Solo si circula a menos de 30 km/h.",
+     "c": "Sí."
+    }
+   }
+  },
+  {
+   "id": "xd-0015",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿qué precauciones hay que tomar para conducir sobre hielo?",
+    "opciones": {
+     "a": "Las mismas que para conducir con calor.",
+     "b": "Las mismas que para conducir con nieve.",
+     "c": "Ninguna especial si los neumáticos son nuevos."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué precauciones hay que tomar para conducir sobre hielo?",
+    "opciones": {
+     "a": "Las mismas que para conducir con calor.",
+     "b": "Las mismas que para conducir con nieve.",
+     "c": "Ninguna especial si los neumáticos son nuevos."
+    }
+   }
+  },
+  {
+   "id": "xd-0019",
+   "correcta": "a",
+   "reglas": [
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Cuándo es más peligroso conducir con mucho viento?",
+    "opciones": {
+     "a": "Cuando sopla de lado, porque puede hacer perder el control del vehículo.",
+     "b": "Cuando sopla de frente, porque obliga a pisar más el acelerador.",
+     "c": "Cuando sopla por detrás, porque aumenta la velocidad del vehículo."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuándo es más peligroso conducir con mucho viento?",
+    "opciones": {
+     "a": "Cuando sopla de lado.",
+     "b": "Cuando sopla de frente.",
+     "c": "Cuando sopla por detrás."
+    }
+   }
+  },
+  {
+   "id": "xd-0022",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Conduce con mucho viento. ¿Qué riesgo debe tener en cuenta, según la DGT?",
+    "opciones": {
+     "a": "Que la luz de cruce deslumbra más con viento.",
+     "b": "Que pueden caer árboles, ramas o piedras.",
+     "c": "Que el viento aumenta el riesgo de aquaplaning."
+    }
+   },
+   "despues": {
+    "enunciado": "Conduce con mucho viento. ¿Qué riesgo debe tener en cuenta?",
+    "opciones": {
+     "a": "Que la luz de cruce deslumbra más con viento.",
+     "b": "Que pueden caer árboles, ramas o piedras.",
+     "c": "Que el viento aumenta el riesgo de aquaplaning."
+    }
+   }
+  },
+  {
+   "id": "xd-0025",
+   "correcta": "b",
+   "reglas": [
+    "E3",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En un día de mucho calor, ¿cuándo debe prestar más atención a la conducción, según la DGT?",
+    "opciones": {
+     "a": "A primera hora de la mañana, porque hay más tráfico.",
+     "b": "Después de comer, porque le puede entrar sueño.",
+     "c": "En autopista, porque el asfalto se vuelve deslizante."
+    }
+   },
+   "despues": {
+    "enunciado": "En un día de mucho calor, ¿cuándo debe prestar más atención a la conducción?",
+    "opciones": {
+     "a": "A primera hora de la mañana, porque hay más tráfico.",
+     "b": "Después de comer.",
+     "c": "En autopista, porque el asfalto se vuelve deslizante."
+    }
+   }
+  },
+  {
+   "id": "xd-0027",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "De noche está adelantando a otro vehículo. Según la DGT, ¿cuándo puede volver a encender la luz de largo alcance?",
+    "opciones": {
+     "a": "Antes de empezar, para ver mejor el carril contrario.",
+     "b": "Solo cuando haya vuelto a su carril y recorrido 200 metros.",
+     "c": "En cuanto ya no pueda deslumbrar al conductor adelantado."
+    }
+   },
+   "despues": {
+    "enunciado": "De noche, está adelantando a otro vehículo. ¿Cuándo puede volver a encender la luz de largo alcance?",
+    "opciones": {
+     "a": "Antes de empezar, para ver mejor el carril contrario.",
+     "b": "Solo cuando haya vuelto a su carril y recorrido 200 metros.",
+     "c": "En cuanto ya no pueda deslumbrar al conductor adelantado."
+    }
+   }
+  },
+  {
+   "id": "xd-0048",
+   "correcta": "a",
+   "reglas": [
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un peatón camina de día por el arcén de una carretera interurbana con niebla densa. ¿Debe llevar algún elemento luminoso o reflectante?",
+    "opciones": {
+     "a": "Sí, porque la niebla disminuye sensiblemente la visibilidad.",
+     "b": "No, porque la obligación solo existe de noche.",
+     "c": "No, porque solo es obligatorio para los ciclistas."
+    }
+   },
+   "despues": {
+    "enunciado": "Un peatón camina de día por el arcén de una carretera con niebla densa. ¿Debe llevar algún elemento luminoso o reflectante?",
+    "opciones": {
+     "a": "Sí.",
+     "b": "No, porque la obligación solo existe de noche.",
+     "c": "No, porque solo es obligatorio para los ciclistas."
+    }
+   }
+  },
+  {
+   "id": "xd-0061",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un ciclista va por el arcén de una carretera convencional y empieza un descenso prolongado con curvas. Si la seguridad lo permite, ¿puede dejar el arcén?",
+    "opciones": {
+     "a": "No, los ciclistas deben ir siempre por el arcén si es transitable.",
+     "b": "Sí, y circular por la parte derecha de la calzada que necesite.",
+     "c": "Sí, y ocupar el centro de la calzada para que le vean mejor."
+    }
+   },
+   "despues": {
+    "enunciado": "Un ciclista circula por el arcén de una carretera convencional y empieza un descenso prolongado con curvas. ¿Puede dejar el arcén si la seguridad lo permite?",
+    "opciones": {
+     "a": "No, los ciclistas deben ir siempre por el arcén si es transitable.",
+     "b": "Sí, y circular por la parte derecha de la calzada que necesite.",
+     "c": "Sí, y ocupar el centro de la calzada para que le vean mejor."
+    }
+   }
+  },
+  {
+   "id": "xd-0071",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Una persona con movilidad reducida se desplaza en un vehículo de movilidad personal al paso de persona. ¿Qué consideración tiene a efectos del reglamento?",
+    "opciones": {
+     "a": "La de ciclista.",
+     "b": "La de conductor de ciclomotor.",
+     "c": "La de peatón."
+    }
+   },
+   "despues": {
+    "enunciado": "Una persona con movilidad reducida va al paso en un vehículo de movilidad personal. ¿Qué consideración tiene?",
+    "opciones": {
+     "a": "La de ciclista.",
+     "b": "La de conductor de ciclomotor.",
+     "c": "La de peatón."
+    }
+   }
+  },
+  {
+   "id": "xd-0082",
+   "correcta": "b",
+   "reglas": [
+    "E3",
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿dónde tiene un peatón atropellado más posibilidades de morir?",
+    "opciones": {
+     "a": "En una calle de la ciudad, porque hay mucho más tráfico.",
+     "b": "En una carretera fuera de la ciudad, porque se circula más rápido.",
+     "c": "En un paso para peatones, porque los peatones se confían."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Dónde tiene un peatón atropellado más posibilidades de morir?",
+    "opciones": {
+     "a": "En una calle de la ciudad, porque hay más tráfico.",
+     "b": "En una carretera fuera de la ciudad.",
+     "c": "En un paso para peatones, porque los peatones se confían."
+    }
+   }
+  },
+  {
+   "id": "xd-0084",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿cuándo se producen la mayoría de los atropellos a niños?",
+    "opciones": {
+     "a": "En las vacaciones de verano.",
+     "b": "De noche, en calles sin luz.",
+     "c": "Cuando salen de la escuela."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuándo se producen la mayoría de los atropellos a niños?",
+    "opciones": {
+     "a": "En las vacaciones de verano.",
+     "b": "De noche, en calles sin luz.",
+     "c": "Cuando salen de la escuela."
+    }
+   }
+  },
+  {
+   "id": "xd-0085",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿qué dificultad pueden tener muchas personas mayores como peatones?",
+    "opciones": {
+     "a": "Ninguna, porque son más prudentes que los jóvenes.",
+     "b": "Que suelen cruzar corriendo sin mirar.",
+     "c": "Calcular a qué velocidad viene un vehículo."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué dificultad tienen muchas personas mayores como peatones?",
+    "opciones": {
+     "a": "Ninguna, porque son más prudentes que los jóvenes.",
+     "b": "Que suelen cruzar corriendo sin mirar.",
+     "c": "Calcular a qué velocidad viene un vehículo."
+    }
+   }
+  },
+  {
+   "id": "xd-0086",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, los conductores mayores de 65 años suelen ser prudentes. ¿Por qué pueden sufrir más accidentes?",
+    "opciones": {
+     "a": "Porque pueden necesitar más tiempo para reaccionar.",
+     "b": "Porque suelen superar los límites de velocidad.",
+     "c": "Porque no suelen respetar las normas de tráfico."
+    }
+   },
+   "despues": {
+    "enunciado": "Los conductores mayores de 65 años suelen ser prudentes. ¿Por qué pueden sufrir más accidentes?",
+    "opciones": {
+     "a": "Porque pueden necesitar más tiempo para reaccionar.",
+     "b": "Porque suelen superar los límites de velocidad.",
+     "c": "Porque no suelen respetar las normas de tráfico."
+    }
+   }
+  },
+  {
+   "id": "xd-0087",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿dónde mueren más ciclistas en accidentes de tráfico?",
+    "opciones": {
+     "a": "En carreteras fuera de las ciudades.",
+     "b": "Dentro de las ciudades.",
+     "c": "En los carriles bici urbanos."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Dónde mueren más ciclistas en accidentes de tráfico?",
+    "opciones": {
+     "a": "En carreteras fuera de las ciudades.",
+     "b": "Dentro de las ciudades.",
+     "c": "En los carriles bici urbanos."
+    }
+   }
+  },
+  {
    "id": "xd-0088",
    "correcta": "b",
    "reglas": [
@@ -4281,6 +5537,343 @@
    }
   },
   {
+   "id": "xd-0089",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿qué accidentes son los más comunes en motocicletas y ciclomotores al adelantar?",
+    "opciones": {
+     "a": "Los choques frontales y laterales.",
+     "b": "Las salidas de la vía en recta.",
+     "c": "Los alcances por detrás."
+    }
+   },
+   "despues": {
+    "enunciado": "Al adelantar, ¿qué accidentes son los más comunes en motocicletas y ciclomotores?",
+    "opciones": {
+     "a": "Los choques frontales y laterales.",
+     "b": "Las salidas de la vía en recta.",
+     "c": "Los alcances por detrás."
+    }
+   }
+  },
+  {
+   "id": "xd-0110",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿De qué color es la luz de la señal V-2 (vehículo-obstáculo en la vía)?",
+    "opciones": {
+     "a": "Azul.",
+     "b": "Amarillo auto.",
+     "c": "Rojo."
+    }
+   },
+   "despues": {
+    "enunciado": "¿De qué color es la luz de la señal de vehículo-obstáculo en la vía?",
+    "opciones": {
+     "a": "Azul.",
+     "b": "Amarillo auto.",
+     "c": "Rojo."
+    }
+   }
+  },
+  {
+   "id": "xd-0123",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Fuera de poblado, en una autovía con tres carriles por sentido, circula con un turismo y una caravana que miden 9 metros en total. ¿Qué carriles debe usar normalmente?",
+    "opciones": {
+     "a": "Cualquiera de los tres, sin ninguna limitación.",
+     "b": "Solo el de la derecha, en todo caso.",
+     "c": "El de la derecha y, cuando convenga, el inmediato."
+    }
+   },
+   "despues": {
+    "enunciado": "Fuera de poblado, en una autovía con tres carriles por sentido, conduce un turismo con caravana de 9 metros en total. ¿Qué carriles debe usar normalmente?",
+    "opciones": {
+     "a": "Cualquiera de los tres, sin ninguna limitación.",
+     "b": "Solo el de la derecha, en todo caso.",
+     "c": "El de la derecha y, cuando convenga, el inmediato."
+    }
+   }
+  },
+  {
+   "id": "xd-0135",
+   "correcta": "b",
+   "reglas": [
+    "E3",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Su turismo se avería en una calle de la ciudad (no es una travesía) y sale de él. Según el Reglamento General de Circulación, ¿está obligado a ponerse el chaleco reflectante?",
+    "opciones": {
+     "a": "Sí, en cualquier vía en la que salga del vehículo averiado.",
+     "b": "No, la obligación es para la calzada o el arcén de vías interurbanas.",
+     "c": "Sí, pero solo si es de noche o hay poca visibilidad."
+    }
+   },
+   "despues": {
+    "enunciado": "Su turismo se avería en una calle de la ciudad que no es travesía y sale de él. ¿Está obligado a ponerse el chaleco reflectante?",
+    "opciones": {
+     "a": "Sí, en cualquier vía en la que salga del vehículo averiado.",
+     "b": "No.",
+     "c": "Sí, pero solo de noche o con poca visibilidad."
+    }
+   }
+  },
+  {
+   "id": "xe-0005",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En un accidente en el que está implicado solo hay heridas claramente leves, la seguridad de la circulación está restablecida y ningún implicado lo solicita. ¿Debe avisar a los agentes y quedarse en el lugar?",
+    "opciones": {
+     "a": "Sí; con cualquier herido hay que esperar siempre a los agentes.",
+     "b": "No; en ese caso no es necesario avisar ni permanecer en el lugar.",
+     "c": "Sí; debe esperar al menos una hora antes de marcharse."
+    }
+   },
+   "despues": {
+    "enunciado": "En un accidente en el que está implicado solo hay heridos claramente leves, la circulación es segura y nadie lo pide. ¿Debe avisar a los agentes y quedarse en el lugar?",
+    "opciones": {
+     "a": "Sí, con cualquier herido hay que esperar siempre a los agentes.",
+     "b": "No.",
+     "c": "Sí, debe esperar al menos una hora antes de marcharse."
+    }
+   }
+  },
+  {
+   "id": "xe-0008",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Es testigo de un accidente, pero no puede hacer nada por ayudar. Según el manual de la DGT, ¿qué es lo mejor?",
+    "opciones": {
+     "a": "Detenerse en el arcén para ver cómo trabajan los equipos de emergencia.",
+     "b": "Seguir circulando para no estorbar en el lugar del accidente.",
+     "c": "Parar en la calzada junto al accidente por si más tarde necesitan ayuda."
+    }
+   },
+   "despues": {
+    "enunciado": "Es testigo de un accidente, pero no puede hacer nada por ayudar. ¿Qué es lo mejor?",
+    "opciones": {
+     "a": "Detenerse en el arcén para ver cómo trabajan los servicios de emergencia.",
+     "b": "Seguir circulando para no estorbar.",
+     "c": "Parar en la calzada junto al accidente por si más tarde necesitan ayuda."
+    }
+   }
+  },
+  {
+   "id": "xe-0010",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿en qué momento es muy importante seguir la regla PAS?",
+    "opciones": {
+     "a": "En los primeros 10 minutos después del accidente.",
+     "b": "Solo cuando ya han llegado los servicios de emergencia.",
+     "c": "A partir de la primera hora después del accidente."
+    }
+   },
+   "despues": {
+    "enunciado": "¿En qué momento es muy importante seguir la regla PAS?",
+    "opciones": {
+     "a": "En los primeros 10 minutos después del accidente.",
+     "b": "Solo cuando ya han llegado los servicios de emergencia.",
+     "c": "A partir de la primera hora después del accidente."
+    }
+   }
+  },
+  {
+   "id": "xe-0013",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En un accidente se ha producido un pequeño incendio en un vehículo. Según el manual de la DGT, ¿con qué no se debe intentar apagarlo?",
+    "opciones": {
+     "a": "Con agua.",
+     "b": "Con un extintor.",
+     "c": "Con tierra, arena o mantas."
+    }
+   },
+   "despues": {
+    "enunciado": "En un accidente se ha producido un pequeño incendio en un vehículo. ¿Con qué no se debe intentar apagarlo?",
+    "opciones": {
+     "a": "Con agua.",
+     "b": "Con un extintor.",
+     "c": "Con tierra, arena o mantas."
+    }
+   }
+  },
+  {
+   "id": "xe-0015",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Presencia un accidente en una carretera y no tiene teléfono móvil. Según el manual de la DGT, ¿cómo puede avisar?",
+    "opciones": {
+     "a": "No puede: solo se avisa llamando al 112 con un móvil.",
+     "b": "Haciendo ráfagas de luz a los vehículos que pasen.",
+     "c": "Yendo al poste SOS más cercano."
+    }
+   },
+   "despues": {
+    "enunciado": "Presencia un accidente en carretera y no tiene teléfono móvil. ¿Cómo puede avisar?",
+    "opciones": {
+     "a": "No puede; solo se avisa llamando al 112 con un móvil.",
+     "b": "Haciendo ráfagas de luz a los vehículos que pasen.",
+     "c": "Yendo al poste SOS más cercano."
+    }
+   }
+  },
+  {
+   "id": "xe-0018",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "No está seguro de cómo atender a un herido. Según el manual de la DGT, ¿qué es lo mejor?",
+    "opciones": {
+     "a": "Moverle a una postura más cómoda.",
+     "b": "Darle de beber para que se tranquilice.",
+     "c": "Hablarle y darle apoyo emocional, sin tocarle ni moverle."
+    }
+   },
+   "despues": {
+    "enunciado": "No está seguro de cómo atender a un herido. ¿Qué es lo mejor?",
+    "opciones": {
+     "a": "Moverle a una postura más cómoda.",
+     "b": "Darle de beber para que se tranquilice.",
+     "c": "Hablarle y apoyarle, sin tocarle ni moverle."
+    }
+   }
+  },
+  {
+   "id": "xe-0020",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Para sacar a un herido de su vehículo, tras pasar los brazos por debajo de sus axilas, ¿qué se sujeta con una mano mientras con la otra se coge su brazo?",
+    "opciones": {
+     "a": "La cintura.",
+     "b": "La barbilla.",
+     "c": "Las piernas."
+    }
+   },
+   "despues": {
+    "enunciado": "Para sacar a un herido del vehículo, tras pasarle los brazos por debajo de las axilas, ¿qué se le sujeta con una mano mientras con la otra se coge su brazo?",
+    "opciones": {
+     "a": "La cintura.",
+     "b": "La barbilla.",
+     "c": "Las piernas."
+    }
+   }
+  },
+  {
+   "id": "xe-0021",
+   "correcta": "c",
+   "reglas": [
+    "T"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Para saber si un herido está consciente le pregunta «¿Estás bien?» y no contesta. ¿Qué indica el manual de la DGT?",
+    "opciones": {
+     "a": "Echarle agua fría en la cara.",
+     "b": "Sacudirle con fuerza por los hombros.",
+     "c": "Darle un pequeño pellizco para ver si reacciona."
+    }
+   },
+   "despues": {
+    "enunciado": "Para saber si un herido está consciente, le pregunta si está bien y no contesta. ¿Qué se debe hacer?",
+    "opciones": {
+     "a": "Echarle agua fría en la cara.",
+     "b": "Sacudirle con fuerza por los hombros.",
+     "c": "Darle un pequeño pellizco para ver si reacciona."
+    }
+   }
+  },
+  {
+   "id": "xe-0035",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿en qué caso se puede llevar a un herido al hospital sin esperar a la ambulancia?",
+    "opciones": {
+     "a": "Si el herido está consciente y pide que lo lleven.",
+     "b": "Si el accidente ocurre en un lugar aislado donde no se puede pedir ayuda.",
+     "c": "Si la ambulancia tarda más de 10 minutos en llegar."
+    }
+   },
+   "despues": {
+    "enunciado": "¿En qué caso se puede llevar a un herido al hospital sin esperar a la ambulancia?",
+    "opciones": {
+     "a": "Si el herido está consciente y pide que lo lleven.",
+     "b": "Si el accidente es en un lugar aislado donde no se puede pedir ayuda.",
+     "c": "Si la ambulancia tarda más de 10 minutos en llegar."
+    }
+   }
+  },
+  {
+   "id": "xe-0042",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Sale humo blanco azulado por el tubo de escape. Según el manual de la DGT, ¿qué indica?",
+    "opciones": {
+     "a": "Que el filtro del aire está sucio.",
+     "b": "Que falta líquido de frenos.",
+     "c": "Que el vehículo lleva demasiado aceite."
+    }
+   },
+   "despues": {
+    "enunciado": "Sale humo blanco azulado por el tubo de escape. ¿Qué indica?",
+    "opciones": {
+     "a": "Que el filtro del aire está sucio.",
+     "b": "Que falta líquido de frenos.",
+     "c": "Que el vehículo lleva demasiado aceite."
+    }
+   }
+  },
+  {
    "id": "xe-0050",
    "correcta": "b",
    "reglas": [
@@ -4301,6 +5894,415 @@
      "a": "El filtro del aire está sucio.",
      "b": "Unos neumáticos están más inflados que otros.",
      "c": "El aceite del motor es demasiado espeso."
+    }
+   }
+  },
+  {
+   "id": "xe-0078",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el Reglamento General de Circulación, ¿quiénes están obligados a usar el cinturón, el casco y demás elementos de protección?",
+    "opciones": {
+     "a": "Solo los conductores, que responden por todos los ocupantes.",
+     "b": "Solo los ocupantes de los asientos delanteros.",
+     "c": "Los conductores y los ocupantes de vehículos a motor y ciclomotores."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Quiénes están obligados a usar el cinturón, el casco y demás elementos de protección?",
+    "opciones": {
+     "a": "Solo los conductores, que responden por todos los ocupantes.",
+     "b": "Solo los ocupantes de los asientos delanteros.",
+     "c": "Los conductores y ocupantes de vehículos de motor y ciclomotores."
+    }
+   }
+  },
+  {
+   "id": "xe-0084",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Lleva en un turismo a tres niños de 120 cm y en los asientos traseros solo se pueden instalar dos sistemas de retención infantil. ¿Dónde puede viajar el tercero?",
+    "opciones": {
+     "a": "Detrás, solo con el cinturón de adulto.",
+     "b": "Detrás, en brazos de un adulto.",
+     "c": "Delante, con su sistema de retención adaptado."
+    }
+   },
+   "despues": {
+    "enunciado": "Lleva en un turismo a tres niños de 120 cm y detrás solo caben dos sistemas de retención infantil. ¿Dónde puede viajar el tercero?",
+    "opciones": {
+     "a": "Detrás, solo con el cinturón de adulto.",
+     "b": "Detrás, en brazos de un adulto.",
+     "c": "Delante, con su sistema de retención adaptado."
+    }
+   }
+  },
+  {
+   "id": "xe-0086",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor tiene un certificado de exención del cinturón por razones médicas graves expedido en otro Estado de la Unión Europea. ¿Es válido en España?",
+    "opciones": {
+     "a": "No; necesita un certificado expedido en España.",
+     "b": "Sí, acompañado de su traducción oficial.",
+     "c": "Sí, pero solo durante los seis primeros meses."
+    }
+   },
+   "despues": {
+    "enunciado": "Un conductor tiene un certificado de exención del cinturón por razones médicas graves expedido en otro Estado de la Unión Europea. ¿Vale en España?",
+    "opciones": {
+     "a": "No, necesita un certificado expedido en España.",
+     "b": "Sí, acompañado de su traducción oficial.",
+     "c": "Sí, pero solo durante los seis primeros meses."
+    }
+   }
+  },
+  {
+   "id": "xe-0087",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un sanitario va atendiendo a un paciente en el habitáculo de una ambulancia asistencial en servicio de urgencia, por una autovía. ¿Debe llevar el cinturón?",
+    "opciones": {
+     "a": "Sí; fuera de poblado nadie está exento del cinturón.",
+     "b": "Sí, salvo que la ambulancia vaya a menos de 50 km/h.",
+     "c": "No; en ese caso está exento en todo tipo de vías."
+    }
+   },
+   "despues": {
+    "enunciado": "Por una autovía, un sanitario atiende a un paciente en una ambulancia en servicio de urgencia. ¿Debe llevar el cinturón?",
+    "opciones": {
+     "a": "Sí, fuera de poblado nadie está exento del cinturón.",
+     "b": "Sí, salvo que la ambulancia vaya a menos de 50 km/h.",
+     "c": "No."
+    }
+   }
+  },
+  {
+   "id": "xe-0089",
+   "correcta": "b",
+   "reglas": [
+    "E3",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un repartidor que baja continuamente de su furgoneta para entregar paquetes circula por ciudad. Según el Reglamento General de Circulación vigente, ¿puede ir sin cinturón?",
+    "opciones": {
+     "a": "Sí, siempre que circule en poblado.",
+     "b": "No; el Reglamento no recoge esa exención.",
+     "c": "Sí, en cualquier tipo de vía."
+    }
+   },
+   "despues": {
+    "enunciado": "Un repartidor que baja continuamente de su furgoneta para entregar paquetes circula por ciudad. ¿Puede ir sin cinturón?",
+    "opciones": {
+     "a": "Sí, siempre que circule en poblado.",
+     "b": "No.",
+     "c": "Sí, en cualquier tipo de vía."
+    }
+   }
+  },
+  {
+   "id": "xe-0095",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿por qué los vehículos nuevos, con más sistemas de seguridad, no tienen menos accidentes que los viejos?",
+    "opciones": {
+     "a": "Porque esos sistemas fallan con más frecuencia que los antiguos elementos de seguridad.",
+     "b": "Porque muchos conductores no saben cómo funcionan y otros confían demasiado en ellos.",
+     "c": "Porque los vehículos nuevos son más rápidos y difíciles de conducir que los viejos."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Por qué los vehículos nuevos, con más sistemas de seguridad, no tienen menos accidentes que los viejos?",
+    "opciones": {
+     "a": "Porque esos sistemas fallan más que los elementos de seguridad antiguos.",
+     "b": "Porque muchos conductores no saben usarlos y otros confían demasiado en ellos.",
+     "c": "Porque los vehículos nuevos son más rápidos y difíciles de conducir."
+    }
+   }
+  },
+  {
+   "id": "xe-0096",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, llevar bien puesto el cinturón de seguridad, ¿cómo influye en las posibilidades de sobrevivir a un accidente?",
+    "opciones": {
+     "a": "No influye si el vehículo tiene airbag.",
+     "b": "Solo las aumenta en ciudad.",
+     "c": "Las duplica."
+    }
+   },
+   "despues": {
+    "enunciado": "Llevar bien puesto el cinturón de seguridad, ¿cómo influye en las posibilidades de sobrevivir a un accidente?",
+    "opciones": {
+     "a": "No influye si el vehículo tiene airbag.",
+     "b": "Solo las aumenta en ciudad.",
+     "c": "Las duplica."
+    }
+   }
+  },
+  {
+   "id": "xe-0099",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿cuál de estas es una función del airbag?",
+    "opciones": {
+     "a": "Evitar que las ruedas se bloqueen en una frenada brusca.",
+     "b": "Impedir que el vehículo vuelque al tomar una curva.",
+     "c": "Proteger la cara y los ojos de cristales rotos y otros objetos."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuál de estas es una función del airbag?",
+    "opciones": {
+     "a": "Evitar que las ruedas se bloqueen en una frenada brusca.",
+     "b": "Impedir que el vehículo vuelque al tomar una curva.",
+     "c": "Proteger la cara y los ojos de cristales rotos y otros objetos."
+    }
+   }
+  },
+  {
+   "id": "xe-0100",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿en qué asiento va más protegido un niño en su sillita?",
+    "opciones": {
+     "a": "En el trasero central.",
+     "b": "En el delantero del acompañante.",
+     "c": "En el trasero, detrás del conductor."
+    }
+   },
+   "despues": {
+    "enunciado": "¿En qué asiento va más protegido un niño en su sillita?",
+    "opciones": {
+     "a": "En el trasero central.",
+     "b": "En el delantero del acompañante.",
+     "c": "En el trasero, detrás del conductor."
+    }
+   }
+  },
+  {
+   "id": "xe-0101",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿en qué sentido es más seguro colocar la sillita de un niño pequeño?",
+    "opciones": {
+     "a": "En el sentido de la marcha, mirando hacia delante.",
+     "b": "En sentido contrario a la marcha, mirando hacia atrás.",
+     "c": "De lado, perpendicular al sentido de la marcha."
+    }
+   },
+   "despues": {
+    "enunciado": "¿En qué sentido es más seguro colocar la sillita de un niño pequeño?",
+    "opciones": {
+     "a": "En el sentido de la marcha, mirando hacia delante.",
+     "b": "En sentido contrario a la marcha, mirando hacia atrás.",
+     "c": "De lado, perpendicular al sentido de la marcha."
+    }
+   }
+  },
+  {
+   "id": "xe-0103",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿qué puede hacer que un casco pierda propiedades?",
+    "opciones": {
+     "a": "Pintarlo o ponerle pegatinas.",
+     "b": "Guardarlo en un lugar seco.",
+     "c": "Limpiar la pantalla con agua."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué puede hacer que un casco pierda propiedades?",
+    "opciones": {
+     "a": "Pintarlo o ponerle pegatinas.",
+     "b": "Guardarlo en un lugar seco.",
+     "c": "Limpiar la pantalla con agua."
+    }
+   }
+  },
+  {
+   "id": "xe-0109",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Circula con el regulador de velocidad activado y pisa el freno. Según el manual de la DGT, ¿qué ocurre?",
+    "opciones": {
+     "a": "El regulador se desactiva.",
+     "b": "El regulador mantiene la velocidad elegida.",
+     "c": "El regulador acelera para compensar."
+    }
+   },
+   "despues": {
+    "enunciado": "Circula con el regulador de velocidad activado y pisa el freno. ¿Qué ocurre?",
+    "opciones": {
+     "a": "El regulador se desactiva.",
+     "b": "El regulador mantiene la velocidad elegida.",
+     "c": "El regulador acelera para compensar."
+    }
+   }
+  },
+  {
+   "id": "xe-0111",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿cuándo se encienden las luces de carretera automáticas?",
+    "opciones": {
+     "a": "Siempre que se circula de noche, a cualquier velocidad.",
+     "b": "Solo cuando el conductor hace ráfagas con la palanca.",
+     "c": "Con poca luz, a más de 45 km/h y sin otro vehículo cerca."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuándo se encienden las luces de carretera automáticas?",
+    "opciones": {
+     "a": "Siempre que se circula de noche, a cualquier velocidad.",
+     "b": "Solo cuando el conductor hace ráfagas con la palanca.",
+     "c": "Con poca luz, a más de 45 km/h y sin otro vehículo cerca."
+    }
+   }
+  },
+  {
+   "id": "xe-0115",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, algunos detectores de ángulo muerto solo avisan en un caso. ¿Cuál?",
+    "opciones": {
+     "a": "Al poner el intermitente con un vehículo en el ángulo muerto.",
+     "b": "Al circular marcha atrás para salir de un aparcamiento.",
+     "c": "Al superar el límite de velocidad de la vía."
+    }
+   },
+   "despues": {
+    "enunciado": "Algunos detectores de ángulo muerto solo avisan en un caso. ¿Cuál?",
+    "opciones": {
+     "a": "Al poner el intermitente con un vehículo en el ángulo muerto.",
+     "b": "Al circular marcha atrás para salir de un aparcamiento.",
+     "c": "Al superar el límite de velocidad de la vía."
+    }
+   }
+  },
+  {
+   "id": "xe-0122",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿a partir de qué velocidad aproximada aumentan mucho el consumo y la contaminación?",
+    "opciones": {
+     "a": "A partir de 50 km/h.",
+     "b": "A partir de 80 o 90 km/h.",
+     "c": "A partir de 120 km/h."
+    }
+   },
+   "despues": {
+    "enunciado": "¿A partir de qué velocidad aproximada aumentan mucho el consumo y la contaminación?",
+    "opciones": {
+     "a": "A partir de 50 km/h.",
+     "b": "A partir de 80 o 90 km/h.",
+     "c": "A partir de 120 km/h."
+    }
+   }
+  },
+  {
+   "id": "xe-0125",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿en qué se emplea la mayor parte del combustible que consume un vehículo?",
+    "opciones": {
+     "a": "En hacer funcionar el aire acondicionado.",
+     "b": "En luchar contra el aire que no le deja avanzar.",
+     "c": "En mantener encendidas las luces."
+    }
+   },
+   "despues": {
+    "enunciado": "¿En qué se emplea la mayor parte del combustible que consume un vehículo?",
+    "opciones": {
+     "a": "En hacer funcionar el aire acondicionado.",
+     "b": "En luchar contra el aire que no le deja avanzar.",
+     "c": "En mantener encendidas las luces."
+    }
+   }
+  },
+  {
+   "id": "xe-0136",
+   "correcta": "a",
+   "reglas": [
+    "O1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Al rellenar el aceite del motor se derrama un poco al suelo. ¿Qué debe hacer?",
+    "opciones": {
+     "a": "Recogerlo, porque es muy contaminante.",
+     "b": "Dejarlo, porque se evapora solo.",
+     "c": "Echarle agua para diluirlo."
+    }
+   },
+   "despues": {
+    "enunciado": "Al rellenar el aceite del motor se derrama un poco al suelo. ¿Qué debe hacer?",
+    "opciones": {
+     "a": "Recogerlo.",
+     "b": "Dejarlo, porque se evapora solo.",
+     "c": "Echarle agua para diluirlo."
     }
    }
   }

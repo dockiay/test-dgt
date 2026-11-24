@@ -717,7 +717,7 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `figuras-boe/anexoI-pag083-010.jpg` | Semáforos cuadrados o de carril | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3 |
 | `figuras-boe/anexoI-pag084-011.jpg` | Semáforos reservados a determinados vehículos (ciclos, tranvías y autobuses) | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4 |
 
-## Esquemas propios (22)
+## Esquemas propios (44)
 
 | Fichero | Qué muestra | Fuente |
 |---|---|---|
@@ -743,4 +743,26 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `esquemas/marca-continua-adosada-discontinua.svg` | Calzada de doble sentido cuyo eje está formado por una línea continua adosada a una discontinua. El vehículo A circula por el carril contiguo a la línea discontinua; el B, en sentido contrario, junto a la continua. | Esquema propio del proyecto |
 | `esquemas/avanza-motos.svg` | Calle con un semáforo en rojo y un paso de peatones. Antes del paso hay un espacio de 4 m delimitado por dos líneas de detención, con pictogramas de motocicleta y bicicleta. Los turismos A y B esperan detrás. | Esquema propio del proyecto |
 | `esquemas/poblado-y-limite-velocidad.svg` | Carretera que llega a un poblado: en el mismo poste hay una señal de velocidad máxima 40 y, debajo, la señal de entrada a poblado con su nombre. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
+| `esquemas/semaforo-ambar-fijo.svg` | Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear. | Esquema propio del proyecto |
+| `esquemas/semaforo-ambar-intermitente.svg` | Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla parpadeando. | Esquema propio del proyecto |
+| `esquemas/semaforo-verde-y-stop.svg` | Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida y, en el mismo poste, una señal de STOP. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
+| `esquemas/semaforo-peatones-verde-intermitente.svg` | Paso para peatones con un semáforo de peatones: la luz verde con la figura de un peatón andando parpadea; la roja está apagada. | Esquema propio del proyecto |
+| `esquemas/semaforo-peatones-rojo.svg` | Paso para peatones con un semáforo de peatones: encendida la luz roja con la figura de un peatón inmóvil; la verde está apagada. | Esquema propio del proyecto |
+| `esquemas/semaforo-tranvia-franja-oblicua-derecha.svg` | Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca oblicua, inclinada hacia la derecha, iluminada. | Esquema propio del proyecto |
+| `esquemas/semaforo-tranvia-franja-vertical-intermitente.svg` | Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical que parpadea. | Esquema propio del proyecto |
+| `esquemas/semaforo-carril-flecha-y-ceda.svg` | Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante, antes de llegar a una intersección, hay una señal de ceda el paso y su línea en la calzada. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
+| `esquemas/ceda-vertical-y-stop-marca.svg` | Vista desde el conductor al llegar a una intersección: a la derecha, una señal vertical de ceda el paso; en la calzada, una línea de detención continua con la palabra STOP pintada. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
+| `esquemas/agente-y-semaforo-verde.svg` | Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida; en el cruce, un agente de frente con un brazo levantado. | Esquema propio del proyecto |
+| `esquemas/tres-carriles-doble-sentido.svg` | Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre. | Esquema propio del proyecto |
+| `esquemas/retencion-dos-carriles.svg` | Calzada con dos carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los dos carriles. A la izquierda, la mediana; a la derecha, el arcén. | Esquema propio del proyecto |
+| `esquemas/retencion-tres-carriles.svg` | Calzada con tres carriles en el mismo sentido y la circulación detenida: los turismos esperan en fila en los tres carriles. A la izquierda, la mediana; a la derecha, el arcén. | Esquema propio del proyecto |
+| `esquemas/glorieta-sin-senalizar.svg` | Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada. | Esquema propio del proyecto |
+| `esquemas/semaforo-otro-lado-cruce.svg` | Cruce visto desde arriba. El vehículo A llega por el sur. El semáforo, con la luz roja encendida, está en la esquina del otro lado del cruce. No hay línea de detención. | Esquema propio del proyecto |
+| `esquemas/cruce-tranvia-izquierda.svg` | Cruce sin señales ni semáforos. El vehículo A llega por el sur y va a seguir recto; por su izquierda se acerca un tranvía sobre sus raíles. | Esquema propio del proyecto |
+| `esquemas/cruce-camino-sin-pavimentar.svg` | Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. Los dos quieren seguir recto. | Esquema propio del proyecto |
+| `esquemas/incorporacion-autovia-sin-trayectorias.svg` | El vehículo A está al principio del carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía. | Esquema propio del proyecto |
+| `esquemas/giro-izquierda-vehiculo-de-frente.svg` | Cruce visto desde arriba. El vehículo A está en el cruce y quiere girar a la izquierda; el vehículo B se acerca de frente, a poca distancia, y va a seguir recto. | Esquema propio del proyecto |
+| `esquemas/refugio-peatones-sentido-unico.svg` | Calle de sentido único con un paso para peatones y un refugio en el centro de la calzada. No hay señales. El vehículo A se acerca al refugio. | Esquema propio del proyecto |
+| `esquemas/grupo-ciclistas-cruce.svg` | Cruce visto desde arriba. Un grupo de seis ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; el vehículo A llega por el sur. | Esquema propio del proyecto |
+| `esquemas/senal-V-13-conductor-novel.svg` | Placa rectangular de fondo verde con una letra L blanca y un borde blanco. | Esquema propio del proyecto |
 

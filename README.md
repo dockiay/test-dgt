@@ -39,7 +39,8 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 
 1. Deja el banco nuevo como `preguntas/banco-<nombre>.json` (formato en `preguntas/formato-preguntas.md`).
 2. Ejecuta `python3 tools/build_data.py` y después `python3 tools/build_errores.py` (comprueba las citas de las mini lecciones contra los textos del BOE de `FUENTES_TXT` y vuelve a elegir las opciones del «¿por qué?»; deja la lista para revisar en `preguntas/porques-para-revisar.md`).
-3. Sube los cambios. Cambia `VERSION` en `sw.js` para que los móviles con la app instalada recojan las preguntas nuevas.
+3. Para poner imagen a preguntas que ya existen, añade su id y el `src` en `preguntas/imagenes-nuevas-ids.json` y ejecuta `python3 imagenes/asignar_imagenes.py` (solo toca `imagen` e `imagen_requerida`). Los esquemas nuevos se dibujan en `imagenes/esquemas/plantilla_esquemas.py`.
+4. Sube los cambios. Cambia `VERSION` en `sw.js` para que los móviles con la app instalada recojan las preguntas nuevas.
 
 El script solo publica preguntas con `estado: "verificada"`, tres opciones, respuesta válida, materia de 1 a 16 y fuente completa (norma, artículo, URL oficial del BOE o la DGT y cita literal). Las preguntas cuya imagen está `"pendiente"` se aplazan hasta que la imagen exista. Si alguna pregunta no cumple, el script la lista y termina con error.
 

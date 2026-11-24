@@ -1425,11 +1425,21 @@
         "ref": "video4",
         "minuto": "33:44"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/senales/S-47.png",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Señal S-47: Zona de coexistencia",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 138 del PDF consolidado"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
-      "materia": 1
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-47",
+        "descripcion": "Señal S-47: Zona de coexistencia"
+      }
     },
     {
       "id": "v4b-sen-0007",

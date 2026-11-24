@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Semáforo con luz amarilla intermitente</title>
+<desc id="d">Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla parpadeando.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="150" fill="#cfe6f5" />
+<rect x="0" y="150" width="400" height="250" fill="#cfe0b8" />
+<polygon points="40,400 360,400 232,150 168,150" fill="#5f646b"/>
+<polygon points="0,205 400,205 400,248 0,248" fill="#5f646b"/>
+<polygon points="0,205 400,205 400,207 0,207" fill="#4d5258"/>
+<path d="M200,400 L200,250" stroke="#fff" stroke-width="3" stroke-dasharray="22 16"/>
+<rect x="327.5" y="95" width="5" height="205" fill="#8a8f96"/>
+<rect x="315.6" y="30" width="28.8" height="81.0" rx="4.5" fill="#1f2328"/>
+<circle cx="330" cy="44.4" r="9.9" fill="#4a1a18"/>
+<circle cx="330" cy="70.5" r="9.9" fill="#f2a516"/>
+<line x1="343.5" y1="70.5" x2="348.9" y2="70.5" stroke="#f2a516" stroke-width="2.25" stroke-linecap="round"/>
+<line x1="339.5" y1="80.0" x2="343.4" y2="83.9" stroke="#f2a516" stroke-width="2.25" stroke-linecap="round"/>
+<line x1="330.0" y1="84.0" x2="330.0" y2="89.4" stroke="#f2a516" stroke-width="2.25" stroke-linecap="round"/>
+<line x1="320.5" y1="80.0" x2="316.6" y2="83.9" stroke="#f2a516" stroke-width="2.25" stroke-linecap="round"/>
+<line x1="316.5" y1="70.5" x2="311.1" y2="70.5" stroke="#f2a516" stroke-width="2.25" stroke-linecap="round"/>
+<line x1="320.5" y1="61.0" x2="316.6" y2="57.1" stroke="#f2a516" stroke-width="2.25" stroke-linecap="round"/>
+<line x1="330.0" y1="57.0" x2="330.0" y2="51.6" stroke="#f2a516" stroke-width="2.25" stroke-linecap="round"/>
+<line x1="339.5" y1="61.0" x2="343.4" y2="57.1" stroke="#f2a516" stroke-width="2.25" stroke-linecap="round"/>
+<circle cx="330" cy="96.60000000000001" r="9.9" fill="#163a24"/>
+</svg>

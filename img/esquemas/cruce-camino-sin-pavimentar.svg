@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Cruce con un camino de tierra</title>
+<desc id="d">Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. Los dos quieren seguir recto.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="160.0" y="0" width="80" height="400" fill="#5f646b" />
+<line x1="200" y1="0" x2="200" y2="400" stroke="#ffffff" stroke-width="3" stroke-dasharray="16 14"/>
+<rect x="240" y="165" width="160" height="50" fill="#c8a978" />
+<path d="M250,175 L400,178 M255,205 L400,203" stroke="#a88a5a" stroke-width="2" stroke-dasharray="6 8"/>
+<g transform="translate(220.0 320.0) rotate(0.0)"><rect x="-11.0" y="-20.0" width="22" height="40" rx="6" fill="#d43d3d" stroke="#1b1b1b" stroke-width="1.5"/><rect x="-8.0" y="-14.0" width="16" height="8" rx="2" fill="#20262e"/><rect x="-8.0" y="11.0" width="16" height="5" rx="2" fill="#20262e"/><text x="0" y="5" transform="rotate(0.0)" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" fill="#fff">A</text></g>
+<path d="M220,292 L220,90" fill="none" stroke="#d43d3d" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 9" marker-end="url(#punta-A)"/>
+<g transform="translate(320.0 190.0) rotate(270.0)"><rect x="-11.0" y="-20.0" width="22" height="40" rx="6" fill="#2a66cc" stroke="#1b1b1b" stroke-width="1.5"/><rect x="-8.0" y="-14.0" width="16" height="8" rx="2" fill="#20262e"/><rect x="-8.0" y="11.0" width="16" height="5" rx="2" fill="#20262e"/><text x="0" y="5" transform="rotate(-270.0)" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" fill="#fff">B</text></g>
+<path d="M292,190 L120,190" fill="none" stroke="#2a66cc" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 9" marker-end="url(#punta-B)"/>
+</svg>

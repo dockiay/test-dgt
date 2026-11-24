@@ -96,12 +96,21 @@
         "ref": "video1",
         "minuto": "1:23:37"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/cruce-camino-sin-pavimentar.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar."
+      }
     },
     {
       "id": "A-pri-0003",
@@ -127,12 +136,21 @@
         "ref": "video1",
         "minuto": "1:23:53"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/cruce-tranvia-izquierda.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Cruce sin señales ni semáforos. El vehículo A llega por el sur y va a seguir recto; por su izquierda se acerca un tranvía sobre sus raíles.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Cruce sin señales ni semáforos. El vehículo A llega por el sur y va a seguir recto; por su izquierda se acerca un tranvía sobre sus raíles."
+      }
     },
     {
       "id": "A-pri-0004",
@@ -158,12 +176,21 @@
         "ref": "RGC art. 57.1.c",
         "minuto": null
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/glorieta-sin-senalizar.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada."
+      }
     },
     {
       "id": "A-pri-0005",
@@ -282,12 +309,21 @@
         "ref": "video1",
         "minuto": "1:23:13"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/giro-izquierda-vehiculo-de-frente.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Cruce visto desde arriba. El vehículo A está en el cruce y quiere girar a la izquierda; el vehículo B se acerca de frente, a poca distancia, y va a seguir recto.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Cruce visto desde arriba. El vehículo A está en el cruce y quiere girar a la izquierda; el vehículo B se acerca de frente, a poca distancia, y va a seguir recto."
+      }
     },
     {
       "id": "A-pri-0009",
@@ -499,12 +535,21 @@
         "ref": "video1",
         "minuto": "1:25:21"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/grupo-ciclistas-cruce.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Cruce visto desde arriba. Un grupo de seis ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; el vehículo A llega por el sur.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 8,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Cruce visto desde arriba. Un grupo de seis ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; el vehículo A llega por el sur."
+      }
     },
     {
       "id": "A-cic-0002",
@@ -1478,12 +1523,21 @@
         "ref": "video1",
         "minuto": "1:37:03"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/incorporacion-autovia.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía."
+      }
     },
     {
       "id": "A-inc-0003",
@@ -2222,12 +2276,21 @@
         "ref": "RGC art. 75.1.b",
         "minuto": null
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/tres-carriles-doble-sentido.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. Los vehículos A y B circulan hacia la derecha por el carril de abajo; el C, en sentido contrario, por el carril de arriba. El carril central está libre."
+      }
     },
     {
       "id": "A-dir-0006",
@@ -3241,12 +3304,21 @@
         "ref": "video1",
         "minuto": "2:03:27"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/agente-y-semaforo-verde.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida; en el cruce, un agente de frente con un brazo levantado.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida; en el cruce, un agente de frente con un brazo levantado."
+      }
     },
     {
       "id": "B1-sen-0002",
@@ -3272,12 +3344,21 @@
         "ref": "video1",
         "minuto": "2:03:04"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-verde-y-stop.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida y, en el mismo poste, una señal de STOP.",
+        "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "Distinto es el caso del amarillo intermitente, que no exime de cumplir otras señales que obliguen a detenerse (Anexo I.4.2.d).",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz verde encendida y, en el mismo poste, una señal de STOP."
+      }
     },
     {
       "id": "B1-sen-0003",
@@ -3303,12 +3384,21 @@
         "ref": "video1",
         "minuto": "2:03:38"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/ceda-vertical-y-stop-marca.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: a la derecha, una señal vertical de ceda el paso; en la calzada, una línea de detención continua con la palabra STOP pintada.",
+        "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde el conductor al llegar a una intersección: a la derecha, una señal vertical de ceda el paso; en la calzada, una línea de detención continua con la palabra STOP pintada."
+      }
     },
     {
       "id": "B1-sen-0004",
@@ -3729,12 +3819,21 @@
         "ref": "video1",
         "minuto": "2:08:14"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/fotos-boe/agente-brazo-levantado.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Agente con un brazo levantado verticalmente",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Agente con un brazo levantado verticalmente"
+      }
     },
     {
       "id": "B1-sen-0016",
@@ -3800,12 +3899,21 @@
         "ref": "video1",
         "minuto": "2:07:33"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/agente-brazos-horizontales.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde arriba de una intersección con un agente en el centro con los brazos extendidos horizontalmente hacia el este y el oeste. Se acercan vehículos por el sur (A), el norte (B), el este (C) y el oeste (D).",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde arriba de una intersección con un agente en el centro con los brazos extendidos horizontalmente hacia el este y el oeste. Se acercan vehículos por el sur (A), el norte (B), el este (C) y el oeste (D)."
+      }
     },
     {
       "id": "B1-sen-0018",
@@ -4443,12 +4551,21 @@
         "ref": "video1",
         "minuto": "2:10:54"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-ambar-fijo.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "Se descarta como distractor correcto 'acelerar': la norma no lo prevé; solo exime de detenerse cuando no es posible hacerlo con seguridad.",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear."
+      }
     },
     {
       "id": "B1-sen-0037",
@@ -4474,12 +4591,21 @@
         "ref": "video1",
         "minuto": "2:10:40"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-ambar-fijo.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla encendida, sin parpadear."
+      }
     },
     {
       "id": "B1-sen-0038",
@@ -4505,12 +4631,21 @@
         "ref": "video1",
         "minuto": "2:11:12"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-peatones-verde-intermitente.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Paso para peatones con un semáforo de peatones: la luz verde con la figura de un peatón andando parpadea; la roja está apagada.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 8,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Paso para peatones con un semáforo de peatones: la luz verde con la figura de un peatón andando parpadea; la roja está apagada."
+      }
     },
     {
       "id": "B1-sen-0039",
@@ -4536,12 +4671,21 @@
         "ref": "video1",
         "minuto": "2:11:03"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-peatones-rojo.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Paso para peatones con un semáforo de peatones: encendida la luz roja con la figura de un peatón inmóvil; la verde está apagada.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 8,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Paso para peatones con un semáforo de peatones: encendida la luz roja con la figura de un peatón inmóvil; la verde está apagada."
+      }
     },
     {
       "id": "B1-sen-0040",
@@ -4687,12 +4831,21 @@
         "ref": "video1",
         "minuto": "2:11:54"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-tranvia-franja-vertical-intermitente.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical que parpadea.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical que parpadea."
+      }
     },
     {
       "id": "B1-sen-0044",
@@ -4789,12 +4942,21 @@
         "ref": "video1",
         "minuto": "2:12:16"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-ambar-intermitente.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla parpadeando.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo circular con la luz amarilla parpadeando."
+      }
     },
     {
       "id": "B1-sen-0047",
@@ -5464,12 +5626,21 @@
         "ref": "RGC Anexo I, Catálogo de marcas viales, M-4.1",
         "minuto": null
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/interseccion-t-stop.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Intersección en T. El vehículo A está en la vía secundaria, ante una línea de detención con la marca STOP, y quiere girar a la izquierda; el vehículo B circula por la vía principal acercándose desde la derecha de A.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Intersección en T. El vehículo A está en la vía secundaria, ante una línea de detención con la marca STOP, y quiere girar a la izquierda; el vehículo B circula por la vía principal acercándose desde la derecha de A."
+      }
     },
     {
       "id": "B1-pri-0066",
@@ -8947,8 +9118,17 @@
         "ref": "RGC Anexo I.5.2, 4.1 (M-3.1 a M-3.3)",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/marca-continua-adosada-discontinua.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de doble sentido cuyo eje está formado por una línea continua adosada a una discontinua. El vehículo A circula por el carril contiguo a la línea discontinua; el B, en sentido contrario, junto a la continua.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de doble sentido cuyo eje está formado por una línea continua adosada a una discontinua. El vehículo A circula por el carril contiguo a la línea discontinua; el B, en sentido contrario, junto a la continua."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
@@ -9382,8 +9562,17 @@
         "ref": "video1",
         "minuto": "3:25:14"
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/marcas/M-5.2d.png",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Marca vial M-5.2d (plano oficial con medidas)",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 696 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "marca_vial",
+        "codigo": "M-5.2d",
+        "descripcion": "Marca vial M-5.2d (plano oficial con medidas)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
@@ -11625,12 +11814,21 @@
         "ref": "video1",
         "minuto": "4:06:15"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+        "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 10,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco."
+      }
     },
     {
       "id": "C-sev-0005",
@@ -11656,12 +11854,21 @@
         "ref": "video1",
         "minuto": "4:06:37"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+        "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 10,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco."
+      }
     },
     {
       "id": "C-sev-0006",
@@ -14973,12 +15180,21 @@
         "ref": "video1",
         "minuto": "4:47:40"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+        "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "Se supone posesión efectiva del permiso AM (sin pérdidas de vigencia ni suspensiones).",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco."
+      }
     },
     {
       "id": "D-dro-0001",

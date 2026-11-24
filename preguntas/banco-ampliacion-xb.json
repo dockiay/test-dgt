@@ -1762,8 +1762,17 @@
         "ref": "RGV Anexo XI, V-13",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+        "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3367,8 +3376,17 @@
         "ref": "RGC art. 15",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-20-carga-saliente.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Panel cuadrado con franjas diagonales alternas rojas y blancas.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Panel cuadrado con franjas diagonales alternas rojas y blancas."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

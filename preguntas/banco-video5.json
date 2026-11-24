@@ -1251,10 +1251,20 @@
         "ref": "video5",
         "minuto": "1:33:52"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/senales/P-9a.png",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Señal P-9a: Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado derecho)",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-9a",
+        "descripcion": "Señal P-9a: Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado derecho)"
+      }
     },
     {
       "id": "v5c-pn-0002",

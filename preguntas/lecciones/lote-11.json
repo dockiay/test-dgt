@@ -64,7 +64,7 @@
           "cita": "se considera como masa en orden de marcha el\nresultado de sumar a la tara la masa estándar del conductor de 75 kg"
         }
       ],
-      "huella": "9412d8b723c6"
+      "huella": "4f2c1614ff95"
     },
     {
       "id": "xb-0099",
@@ -91,7 +91,7 @@
           "cita": "Llevar consigo cualquier animal, salvo que exista en el vehículo lugar destinado para\nsu transporte."
         }
       ],
-      "huella": "6f0f69102d6d"
+      "huella": "81354d3cb64c"
     },
     {
       "id": "xb-0101",
@@ -145,7 +145,7 @@
           "cita": "Si ello no\nfuera posible, deberán detenerse en el arcén derecho de la vía o en el lugar donde cause\nmenor obstáculo a la circulación."
         }
       ],
-      "huella": "a5905df3164d"
+      "huella": "17005a2ca6e3"
     },
     {
       "id": "bm13-0018",
@@ -162,7 +162,7 @@
           "cita": "si el vehículo está inmovilizado\nsin posibilidad de reemprender la marcha, los ocupantes deberán abandonar el vehículo,\nsiempre que exista un lugar seguro fuera de la plataforma de circulación"
         }
       ],
-      "huella": "c7d980368ff2"
+      "huella": "240b85adac23"
     },
     {
       "id": "bm13-0004",
@@ -226,7 +226,7 @@
         "c": "La luz de emergencia no da preferencia ni obliga a nadie a esperar; lo que exige la norma es comprobar antes que abrir no causa peligro."
       },
       "truco": "Antes de abrir, mira atrás: el ciclista que viene pegado a los coches es el que más se juega.",
-      "huella": "45b36e7b7226"
+      "huella": "121a35823e5c"
     },
     {
       "id": "bm13-0006",
@@ -236,7 +236,7 @@
         "b": "Mirar por el retrovisor es necesario después, pero no autoriza a abrir con el vehículo todavía en marcha."
       },
       "truco": "Puerta: primero parado del todo, después mirar, y solo entonces abrir.",
-      "huella": "6acd303ab394"
+      "huella": "619c802121cd"
     },
     {
       "id": "bm13-0010",
@@ -286,7 +286,7 @@
         "b": "El motor se apaga, no se deja en marcha, y la luz de largo alcance no es la que pide la norma."
       },
       "truco": "Túnel con emergencia: motor apagado, emergencia conectada y luces de posición encendidas.",
-      "huella": "25eaf124ba09"
+      "huella": "64a390a7b219"
     },
     {
       "id": "bm13-0013",
@@ -296,7 +296,7 @@
         "c": "La norma prohíbe transitar por la calzada si existen zonas excluidas a la circulación; además, caminar por ella te pone delante de los vehículos."
       },
       "truco": "En un túnel, pregúntate por qué estás parado. Si es por el tráfico, todos se quedan dentro, con la emergencia un momento para avisar, luces de posición y motor apagado. Si es por una emergencia o un incendio, todos salen hacia el refugio o la salida más próximos.",
-      "huella": "8bf9297a2fc8"
+      "huella": "5779bf18169d"
     },
     {
       "id": "bm13-0014",
@@ -306,7 +306,7 @@
         "c": "Las puertas abiertas no bastan: sin la llave puesta no se puede mover el vehículo."
       },
       "truco": "Incendio en túnel: el coche se queda listo para que otro lo mueva, con llave puesta y puertas abiertas.",
-      "huella": "dcd8a01d43f3"
+      "huella": "750f3744d89e"
     },
     {
       "id": "bm13-0015",
@@ -365,7 +365,7 @@
         "c": "La norma no depende de la hora ni de la visibilidad, sino del tipo de vía: en interurbana es obligatorio también de día."
       },
       "truco": "Chaleco: se lleva siempre; ponérselo es obligatorio al pisar calzada o arcén fuera de poblado.",
-      "huella": "2361fb0e5c22"
+      "huella": "58a9c9f9b972"
     },
     {
       "id": "xd-0133",
@@ -431,7 +431,7 @@
           "cita": "b) Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad.\nc) Sin verter fluidos procedentes del habitáculo."
         }
       ],
-      "huella": "239678feb058"
+      "huella": "b97cf5b45088"
     },
     {
       "id": "A-par-0017",
@@ -441,7 +441,7 @@
         "b": "El punto muerto no retiene el vehículo: la norma pide dejar una marcha colocada."
       },
       "truco": "Manual: cuesta arriba, primera; cuesta abajo, marcha atrás. Automático: P.",
-      "huella": "1fc6cb76275f"
+      "huella": "8a25f857764a"
     },
     {
       "id": "A-par-0018",
@@ -451,7 +451,7 @@
         "c": "La norma no menciona la quinta: en pendiente descendente pide la marcha atrás."
       },
       "truco": "Manual: cuesta arriba, primera; cuesta abajo, marcha atrás. Automático: P.",
-      "huella": "1e769c2a9be7"
+      "huella": "664ef79502af"
     },
     {
       "id": "A-par-0019",
@@ -461,7 +461,7 @@
         "c": "La norma no habla de los vehículos especiales agrícolas como grupo; nombra a los de más de 3.500 kg, los autobuses y los conjuntos de vehículos."
       },
       "truco": "Calzo obligatorio en sensible pendiente: los «grandes», es decir, más de 3.500 kg, autobuses y conjuntos.",
-      "huella": "c1996a0c3854"
+      "huella": "4d5cd69d7a2a"
     },
     {
       "id": "A-par-0020",
@@ -471,7 +471,7 @@
         "c": "Retirar los calzos al reanudar la marcha es obligatorio, pero eso no convierte una piedra en un calzo permitido."
       },
       "truco": "Sin calzos, bordillo; nunca piedra.",
-      "huella": "4c7918363239"
+      "huella": "4b3da9418efa"
     },
     {
       "id": "A-par-0021",
@@ -481,7 +481,7 @@
         "b": "Con las ruedas rectas no se apoya ninguna rueda en el bordillo de forma que frene el vehículo; la norma pide inclinarlas."
       },
       "truco": "Cuesta arriba, ruedas hacia el centro de la calzada; cuesta abajo, hacia fuera. En los dos casos, si el vehículo empezara a moverse, la rueda directriz iría contra el bordillo y no hacia la calzada.",
-      "huella": "32318a08e0e9"
+      "huella": "0e6074900f28"
     },
     {
       "id": "v5b-par-0004",
@@ -491,7 +491,7 @@
         "b": "Con las ruedas rectas no se apoya ninguna rueda en el bordillo de forma que frene el vehículo; la norma pide inclinarlas."
       },
       "truco": "Cuesta arriba, ruedas hacia el centro de la calzada; cuesta abajo, hacia fuera. En los dos casos, si el vehículo empezara a moverse, la rueda directriz iría contra el bordillo y no hacia la calzada.",
-      "huella": "e8ec3ca22e9c"
+      "huella": "e6013b8595a4"
     },
     {
       "id": "xd-0129",
@@ -595,7 +595,7 @@
         "c": "No es opcional: forma parte de la dotación obligatoria, aunque se pueda sustituir por una de las alternativas admitidas."
       },
       "truco": "Rueda completa, rueda de uso temporal o sistema alternativo: alguna de las tres tiene que ir en el coche.",
-      "huella": "52ba963b01fe"
+      "huella": "0d106c455f29"
     },
     {
       "id": "E-mec-0012",
@@ -661,7 +661,7 @@
           "cita": "Remolque ligero. Aquél cuya masa máxima autorizada no exceda de 750 kg."
         }
       ],
-      "huella": "a382539fe41b"
+      "huella": "74c18044ff9b"
     },
     {
       "id": "E-ada-0001",
@@ -683,7 +683,7 @@
           "cita": "Cuando el conductor de delante pisa el freno\nde manera firme y rápida las luces de frenado\nde su vehículo parpadean."
         }
       ],
-      "huella": "3e6f5cb29b18"
+      "huella": "b74ad999edc1"
     },
     {
       "id": "E-ada-0012",
@@ -737,7 +737,7 @@
         "b": "Las cámaras de tráfico de la vía no alimentan esa pantalla; la imagen es del propio vehículo."
       },
       "truco": null,
-      "huella": "1235ed9921df"
+      "huella": "149b97265ef2"
     },
     {
       "id": "v5f-ada-0002",
@@ -769,7 +769,7 @@
           "cita": "Sistema antibloqueo de frenos (ABS)\nDispositivo que evita que las ruedas\nse bloqueen al frenar."
         }
       ],
-      "huella": "492798c56864"
+      "huella": "644e8d09f33c"
     },
     {
       "id": "E-ada-0003",
@@ -791,7 +791,7 @@
           "cita": "Detecta las señales de límite de velocidad\nque hay en la carretera"
         }
       ],
-      "huella": "69dc1e285a62"
+      "huella": "be25244e6319"
     },
     {
       "id": "E-ada-0004",
@@ -823,7 +823,7 @@
         "b": "Al incorporarte a una autopista no circulas marcha atrás, que es cuando actúa el RCTA."
       },
       "truco": "RCTA: el tráfico que te cruza por detrás cuando sales marcha atrás.",
-      "huella": "13eac7148087"
+      "huella": "7fbb447b34a6"
     },
     {
       "id": "v5f-ada-0003",
@@ -850,7 +850,7 @@
           "cita": "Se recomienda usar el freno motor\nal bajar cuestas largas."
         }
       ],
-      "huella": "2818efd84b0d"
+      "huella": "e564d4863ebd"
     },
     {
       "id": "E-ada-0007",
@@ -872,7 +872,7 @@
           "cita": "Hay un sistema que se encarga de avisarte\ncuando hay otro vehículo en la zona de ángulo muerto\nque avanza hacia tu vehículo."
         }
       ],
-      "huella": "5c65de1d6c6f"
+      "huella": "ab994293d4e0"
     },
     {
       "id": "D-pos-0003",
@@ -892,7 +892,7 @@
         "c": "Con las rodillas tocando el volante vas demasiado cerca; el manual pide que las piernas no rocen con ningún elemento del vehículo."
       },
       "truco": null,
-      "huella": "a600bbd1d34e"
+      "huella": "3052e36f842d"
     },
     {
       "id": "D-pos-0005",
@@ -919,7 +919,7 @@
         "c": "El manual no hace ninguna excepción para las curvas cerradas."
       },
       "truco": "Volante: dos manos, por fuera, firmes sin apretar y sin cruzarlas al girar.",
-      "huella": "4ee362778358"
+      "huella": "c93d4a0bc0b5"
     },
     {
       "id": "xe-0072",
@@ -1034,7 +1034,7 @@
           "cita": "Además, cuando el filtro está muy sucio o roto,\npuede salir humo negro del combustible\npor el tubo de escape."
         }
       ],
-      "huella": "13d76d509649"
+      "huella": "6635503ae88d"
     },
     {
       "id": "xe-0051",
@@ -1098,7 +1098,7 @@
           "cita": "Sirve para regular la cantidad de combustible\nque entra en el motor del vehículo."
         }
       ],
-      "huella": "89d0a7dedd87"
+      "huella": "2607ab34ec64"
     },
     {
       "id": "xe-0054",
@@ -1256,7 +1256,7 @@
           "cita": "Además, cuando el filtro está muy sucio o roto,\npuede salir humo negro del combustible\npor el tubo de escape."
         }
       ],
-      "huella": "bc8440d0864f"
+      "huella": "e8e2cedb7fb9"
     },
     {
       "id": "xe-0043",
@@ -1698,7 +1698,7 @@
           "cita": "Se recomienda usar el freno motor\nal bajar cuestas largas."
         }
       ],
-      "huella": "08f4fe97e93e"
+      "huella": "937db58f1293"
     },
     {
       "id": "E-seg-0003",
@@ -1720,7 +1720,7 @@
           "cita": "Se encienden cuando giras el volante\npara marcar el lado hacia el que va a girar\ntu vehículo.\nEsta luz te ayuda a ver mejor en las curvas."
         }
       ],
-      "huella": "3231947adb02"
+      "huella": "eacaf72a373f"
     },
     {
       "id": "res-luc-0002",
@@ -1784,7 +1784,7 @@
           "cita": "para crear una capa\nque cubra las piezas del motor para protegerlas\ny evitar que se rocen unas con otras."
         }
       ],
-      "huella": "4646cb54c042"
+      "huella": "97a13d5f2640"
     },
     {
       "id": "E-neu-0005",
@@ -1818,7 +1818,7 @@
           "cita": "Los neumáticos de los vehículos comprendidos en las categorías M1, N1, O1 y O2\ndeben presentar, durante toda su utilización en las vías públicas, una profundidad en las\nranuras principales de la banda de rodadura que, como mínimo, debe ser de 1,6 mm."
         }
       ],
-      "huella": "3375bd04c57c"
+      "huella": "7960b832a4cd"
     },
     {
       "id": "E-neu-0001",
@@ -1872,7 +1872,7 @@
         "b": "El manual no asocia el exceso de presión con el desgaste de un solo lateral; lo que se desgasta más es el centro."
       },
       "truco": "Poco aire: se calienta, se deforma, se gasta antes y consume más. Mucho aire: menos agarre, desgaste por el centro y más riesgo de reventón.",
-      "huella": "132f60c95af6"
+      "huella": "a5c347a7f7b3"
     },
     {
       "id": "v5e-neu-0001",
@@ -1894,7 +1894,7 @@
           "cita": "Se desgasta más\nel centro del neumático\nque los lados."
         }
       ],
-      "huella": "3876b59fd86b"
+      "huella": "da22047c9d22"
     },
     {
       "id": "E-mec-0007",
@@ -1921,7 +1921,7 @@
           "cita": "(1) Cuando el retrovisor no permita la visión de una parte de la carretera plana y horizontal desde el horizonte\nhasta una distancia de 60 m por detrás y en una anchura de 20 m, éste será opcional y deberá colocarse un\nsegundo retrovisor exterior en el lado derecho"
         }
       ],
-      "huella": "1e199b96e4ed"
+      "huella": "44f1d7a24f6f"
     },
     {
       "id": "res-veh-0001",
@@ -2105,7 +2105,7 @@
           "cita": "1. Pocos conductores saben para qué sirven\ny cómo funcionan los sistemas de seguridad\nde su vehículo."
         }
       ],
-      "huella": "227cc1fef411"
+      "huella": "66d1d03508f1"
     }
   ]
 }

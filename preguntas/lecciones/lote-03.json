@@ -32,7 +32,7 @@
           "cita": "donde no haya señalización expresa al efecto, tendrá derecho de preferencia de paso el que hubiese entrado primero"
         }
       ],
-      "huella": "619cc94dc12d"
+      "huella": "458f0af753ed"
     },
     {
       "id": "A-pri-0003",
@@ -49,7 +49,7 @@
           "cita": "a) Tendrán derecho de preferencia de paso los vehículos que circulen por una vía\npavimentada frente a los procedentes de otra sin pavimentar.\nb) Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los\ndemás usuarios.\nc) En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso\nsobre los que pretendan acceder a aquéllas (artículo 21.2 del texto articulado).\nd) Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso\nsobre los que pretenden acceder a aquélla."
         }
       ],
-      "huella": "cabbc8211e3f"
+      "huella": "916368fc323c"
     },
     {
       "id": "A-pri-0005",
@@ -83,7 +83,7 @@
           "cita": "a) Tendrán derecho de preferencia de paso los vehículos que circulen por una vía\npavimentada frente a los procedentes de otra sin pavimentar.\nb) Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los\ndemás usuarios.\nc) En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso\nsobre los que pretendan acceder a aquéllas (artículo 21.2 del texto articulado).\nd) Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso\nsobre los que pretenden acceder a aquélla."
         }
       ],
-      "huella": "5c550250429e"
+      "huella": "c569a5213082"
     },
     {
       "id": "A-urg-0005",
@@ -105,7 +105,7 @@
           "cita": "En cualquier momento, los agentes de la autoridad podrán exigir la justificación de las\ncircunstancias a que se alude en el apartado 1."
         }
       ],
-      "huella": "e029568afcdc"
+      "huella": "d760bf00f5dd"
     },
     {
       "id": "A-urg-0006",
@@ -200,7 +200,7 @@
           "cita": "Líneas y marcas de estacionamiento (M-7.3 y M-7.4): delimitan los lugares o\nzonas de estacionamiento"
         }
       ],
-      "huella": "9bec80b7643c"
+      "huella": "edaed5c0d64c"
     },
     {
       "id": "x1a-0061",
@@ -234,7 +234,7 @@
           "cita": "a) En las cañadas debidamente señalizadas.\nb) Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales\ncruzándola, aunque no exista paso para éstos.\nc) Cuando el vehículo cruce un arcén por el que estén circulando animales que no\ndispongan de cañada"
         }
       ],
-      "huella": "8b89553548e3"
+      "huella": "2392a0dc751a"
     },
     {
       "id": "B1-pri-0070",
@@ -251,7 +251,7 @@
           "cita": "a) En las cañadas debidamente señalizadas.\nb) Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales\ncruzándola, aunque no exista paso para éstos.\nc) Cuando el vehículo cruce un arcén por el que estén circulando animales que no\ndispongan de cañada"
         }
       ],
-      "huella": "9b0054a64a4e"
+      "huella": "1b3447a513e0"
     },
     {
       "id": "x1a-0066",
@@ -268,7 +268,7 @@
           "cita": "de suerte que para cada\nvehículo pueda contarse con un ancho de vía no inferior a tres metros"
         }
       ],
-      "huella": "c5e6a622845c"
+      "huella": "a3a11ff4edbe"
     },
     {
       "id": "A-est-0010",
@@ -290,7 +290,7 @@
           "cita": "En ausencia de señalización, el orden de preferencia entre los distintos tipos de\nvehículos se ajustará a lo establecido en el artículo 62."
         }
       ],
-      "huella": "25e4fb4c44a1"
+      "huella": "692136fed2ac"
     },
     {
       "id": "A-pri-0009",
@@ -307,7 +307,7 @@
           "cita": "efectuarlo a una velocidad que le permita detenerse en el acto"
         }
       ],
-      "huella": "e2c7c0e829d7"
+      "huella": "022a06bc0ea7"
     },
     {
       "id": "x1a-0062",
@@ -334,7 +334,7 @@
         "b": "Aquí la preferencia la da la señal, no el orden de llegada."
       },
       "truco": "En el dibujo, el trazo grueso es tu vía, la que tiene prioridad; el trazo fino es la vía cuyos usuarios te ceden el paso.",
-      "huella": "08be3e7ae03b"
+      "huella": "b83486d1f13b"
     },
     {
       "id": "B1-pri-0060",
@@ -357,11 +357,12 @@
       "id": "B1-pri-0061",
       "porque": "Con ceda el paso, la regla de la derecha deja de contar: cedes a todos los que circulan por la vía preferente, vengan por tu derecha o por tu izquierda, y te detienes por completo si hace falta.",
       "descartes": {
-        "a": "La regla de la derecha solo rige cuando no hay señal; con ceda el paso cedes a los de la vía preferente, vengan por el lado que vengan.",
+        "a": "No basta con los que llegan por tu derecha: con ceda el paso cedes a todos los que circulan por la vía preferente, también a los que se acercan por tu izquierda.",
         "c": "La señal no distingue por tipo de vehículo: cedes a todos los que circulan por la vía preferente."
       },
       "truco": "Ceda el paso: paras solo si hace falta. STOP: paras siempre, aunque no venga nadie. En los dos cedes a todos los de la vía preferente, vengan por la derecha o por la izquierda.",
-      "huella": "19942282a942"
+      "huella": "ceeb78b79b0b",
+      "apoyos": []
     },
     {
       "id": "B1-pri-0062",
@@ -371,7 +372,7 @@
         "b": "La noche no cambia lo que pide esta señal: detenerse solo cuando sea preciso para ceder el paso."
       },
       "truco": "Ceda el paso: paras solo si hace falta. STOP: paras siempre, aunque no venga nadie. En los dos cedes a todos los de la vía preferente, vengan por la derecha o por la izquierda.",
-      "huella": "22de189b19ad"
+      "huella": "2c8622c8f11e"
     },
     {
       "id": "B1-pri-0063",
@@ -437,7 +438,7 @@
           "cita": "En cualquier momento, los agentes de la autoridad podrán exigir la justificación de las\ncircunstancias a que se alude en el apartado 1."
         }
       ],
-      "huella": "5b83aeeec80b"
+      "huella": "773901605c29"
     },
     {
       "id": "x1a-0086",
@@ -454,7 +455,7 @@
           "cita": "deberán respetar las normas de\ncirculación, sobre todo en las intersecciones"
         }
       ],
-      "huella": "da088039a4d4"
+      "huella": "bf9be0c5295d"
     },
     {
       "id": "A-urg-0001",
@@ -503,7 +504,7 @@
         "c": "Acelerar para alejarte no le facilita el paso y no es lo que pide la norma."
       },
       "truco": "En cuanto percibas a un prioritario, sin esperar a tenerlo encima: apártate normalmente a tu derecha y, si hace falta, detente.",
-      "huella": "1aa906cdc006"
+      "huella": "c9f4bf49ed23"
     },
     {
       "id": "A-urg-0004",
@@ -513,7 +514,7 @@
         "c": "La norma pide permanecer en el interior del vehículo, no bajarse."
       },
       "truco": "Luz roja hacia delante desde el coche policial que va detrás: paras a la derecha, delante de él, en un sitio sin riesgo, y te quedas dentro siguiendo sus instrucciones.",
-      "huella": "d6cc49f3779e"
+      "huella": "5128af51f885"
     },
     {
       "id": "v5a-pri-0001",
@@ -523,7 +524,7 @@
         "c": "El claxon intermitente con la luz de emergencia es lo que usa un vehículo no prioritario en una urgencia, no una ambulancia."
       },
       "truco": "Prioritario en servicio urgente: luz y sirena a la vez como regla; solo la luz cuando quitar la sirena no suponga peligro para nadie. El claxon intermitente con la luz de emergencia es para el vehículo normal que hace una urgencia.",
-      "huella": "5cb8dc311268"
+      "huella": "b1b748cdd148"
     },
     {
       "id": "x1a-0075",
@@ -562,7 +563,7 @@
           "cita": "harán uso\nponderado de su régimen especial únicamente cuando circulen en prestación de un servicio\nurgente"
         }
       ],
-      "huella": "b21ba85cc983"
+      "huella": "d2a0701380ae"
     },
     {
       "id": "x1a-0077",
@@ -572,7 +573,7 @@
         "b": "No tiene que esperar al verde: puede pasar, pero solo después de extremar las precauciones."
       },
       "truco": "Prioritario ante un semáforo en rojo: puede pasar, pero asegurándose antes de que no hay riesgo para los peatones y de que los demás se han parado o le dejan paso.",
-      "huella": "7e0763a4cd24"
+      "huella": "afddb9ff660b"
     },
     {
       "id": "x1a-0078",
@@ -619,7 +620,7 @@
         "b": "El transporte escolar no está en la lista de servicios que pueden ser prioritarios."
       },
       "truco": "La prioridad va con el servicio, no con el vehículo ni con su dueño: un vehículo de urgencias, público o privado, solo es prioritario cuando va en servicio urgente y lo avisa con sus señales.",
-      "huella": "bb9a613bda65"
+      "huella": "b82068cee740"
     },
     {
       "id": "x1a-0082",
@@ -639,7 +640,7 @@
         "c": "Tampoco tienen que quedarse fuera de la calzada: la norma les deja usar la parte de la vía que haga falta."
       },
       "truco": null,
-      "huella": "a414c1b1eb37"
+      "huella": "d7c4f3c93602"
     },
     {
       "id": "x1a-0084",
@@ -683,7 +684,7 @@
           "cita": "Peligro debido a que la vía desemboca en un muelle o en una\ncorriente de agua."
         }
       ],
-      "huella": "42f3873752d1"
+      "huella": "03c5a8e0b1d2"
     },
     {
       "id": "x1b-0061",
@@ -764,7 +765,7 @@
           "cita": "Si esta señal se efectúa en una intersección, no obligará a detenerse a\nlos conductores que hayan entrado ya en ella."
         }
       ],
-      "huella": "8fb0fe239918"
+      "huella": "ca39a60c2c61"
     },
     {
       "id": "B1-sen-0015",
@@ -774,7 +775,7 @@
         "b": "La marcha atrás no es lo que pide la norma: quien ya está dentro de la intersección continúa."
       },
       "truco": "Brazo levantado: alto para todos los que se acercan al agente, salvo dos casos: quien ya ha entrado en el cruce y quien no puede detenerse con seguridad suficiente.",
-      "huella": "bb634f46f823"
+      "huella": "d73696f908db"
     },
     {
       "id": "B1-sen-0016",
@@ -791,7 +792,7 @@
           "cita": "Esta señal permanece\nen vigor aunque el agente baje el brazo o los brazos, siempre que no cambie de posición o\nefectúe otra señal."
         }
       ],
-      "huella": "6679547af925"
+      "huella": "eb3365aafc21"
     },
     {
       "id": "B1-sen-0017",
@@ -801,7 +802,7 @@
         "b": "La norma no fija ningún plazo en segundos: la señal dura mientras el agente no cambie de posición o haga otra señal."
       },
       "truco": "Brazos en cruz: el agente hace de barrera para quien se le acerca cortando la línea de sus brazos, es decir, de frente o por la espalda. Y la orden sigue aunque baje los brazos, mientras no cambie de posición ni haga otra señal.",
-      "huella": "f79343ce20a4"
+      "huella": "769a192bbfc5"
     },
     {
       "id": "B1-sen-0018",
@@ -872,7 +873,7 @@
           "cita": "b) Bandera verde: indica que, a partir del paso del vehículo que la porta, la calzada\nqueda de nuevo abierta al tráfico.\nc) Bandera amarilla: indica al resto de los conductores y usuarios la necesidad de\nextremar la atención o la proximidad de un peligro."
         }
       ],
-      "huella": "8e73447fcfb2"
+      "huella": "953458c26ff1"
     },
     {
       "id": "B1-sen-0023",
@@ -894,7 +895,7 @@
           "cita": "b) Bandera verde: indica que, a partir del paso del vehículo que la porta, la calzada\nqueda de nuevo abierta al tráfico.\nc) Bandera amarilla: indica al resto de los conductores y usuarios la necesidad de\nextremar la atención o la proximidad de un peligro."
         }
       ],
-      "huella": "45cca0f31eeb"
+      "huella": "df7ce4bcb4f0"
     },
     {
       "id": "B1-sen-0024",
@@ -921,7 +922,7 @@
           "cita": "Esta bandera podrá ser también utilizada\npor el personal auxiliar habilitado que realice funciones de orden, control o seguridad durante\nel desarrollo de marchas ciclistas"
         }
       ],
-      "huella": "0e8139cc65b4"
+      "huella": "ac2a8a9f37bc"
     },
     {
       "id": "B1-sen-0025",
@@ -938,7 +939,7 @@
           "cita": "el conductor de este\ndeberá detenerlo con las debidas precauciones en el lado derecho, delante del vehículo\npolicial, en un lugar donde no genere mayores riesgos o molestias para el resto de los\nusuarios, y permanecerá en su interior."
         }
       ],
-      "huella": "1d804c3db32b"
+      "huella": "fcbcdd1191da"
     },
     {
       "id": "B1-sen-0026",
@@ -948,7 +949,7 @@
         "b": "La norma no hace depender esa obligación de que haya o no un semáforo provisional."
       },
       "truco": "En una obra, quien regula el paso con la paleta manda en ese tramo: sigue sus indicaciones.",
-      "huella": "91259c26c7b0"
+      "huella": "f619591e68cc"
     },
     {
       "id": "B1-sen-0027",
@@ -975,7 +976,7 @@
           "cita": "deberán hacer uso, al menos, de un elemento luminoso o\nreflectante conforme a la normativa de equipos de protección individual, que sea visible a\nuna distancia mínima de 150 metros para los conductores que se les aproximen."
         }
       ],
-      "huella": "a965d96a4a6f"
+      "huella": "0113ef7084dc"
     },
     {
       "id": "v5c-age-0001",
@@ -1014,7 +1015,7 @@
           "cita": "No obstante, su aplicación podrá limitarse a\nuno o más carriles, mediante marcas en la calzada."
         }
       ],
-      "huella": "97e920c11b32"
+      "huella": "92f3efb2c8db"
     },
     {
       "id": "B1-sen-0007",
@@ -1097,7 +1098,7 @@
           "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle\na una distancia de 150 m."
         }
       ],
-      "huella": "927906e1bdf6"
+      "huella": "169952a7e2dd"
     },
     {
       "id": "B1-sen-0032",
@@ -1134,7 +1135,7 @@
         "c": "La norma no fija un máximo de 24 horas: los cambios duran lo que diga la propia señalización o lo que duren sus causas."
       },
       "truco": null,
-      "huella": "5b9be0e5e5a0"
+      "huella": "3e584127577c"
     },
     {
       "id": "v5c-bal-0001",
@@ -1420,7 +1421,7 @@
           "cita": "la cual tiene el único fin de guiado del tráfico, estableciendo el eje de\nseparación de sentidos."
         }
       ],
-      "huella": "ce2aac6b6830"
+      "huella": "d55379e88d64"
     },
     {
       "id": "B1-sen-0011",
@@ -1454,7 +1455,7 @@
           "cita": "Obligación de efectuar el pago del peaje mediante el sistema\nde peaje dinámico o telepeaje"
         }
       ],
-      "huella": "632d381cd557"
+      "huella": "68a1b0010c4e"
     },
     {
       "id": "B1-sen-0013",
@@ -1464,7 +1465,7 @@
         "c": "No se elige: la norma manda obedecer la señal."
       },
       "truco": "Si una señal y la norma general parecen chocar, manda la señal, salvo circunstancias especiales que lo justifiquen.",
-      "huella": "7c1e8702c07d"
+      "huella": "168ed2f6bde3"
     },
     {
       "id": "B1-sen-0125",
@@ -1481,7 +1482,7 @@
           "cita": "Las flechas señalan las únicas direcciones y sentidos que los\nvehículos pueden tomar."
         }
       ],
-      "huella": "87c6a1c76524"
+      "huella": "59e160acb212"
     },
     {
       "id": "B1-sen-0126",
@@ -1498,7 +1499,7 @@
           "cita": "La flecha señala la dirección y sentido que los vehículos tienen\nla obligación de seguir."
         }
       ],
-      "huella": "f0ed9400b130"
+      "huella": "7dbb05938ee3"
     },
     {
       "id": "B1-sen-0127",
@@ -1515,7 +1516,7 @@
           "cita": "Obligación para los conductores de motocicletas de dos\nruedas y vehículos de tres ruedas asimilados a motocicletas\nde circular por la calzada a cuya entrada esté situada."
         }
       ],
-      "huella": "239a2bbb312c"
+      "huella": "07bc8cec3996"
     },
     {
       "id": "B1-sen-0128",
@@ -1532,7 +1533,7 @@
           "cita": "Obligación para los conductores de automóviles, excepto\nmotocicletas de dos ruedas y vehículos de tres ruedas\nasimilados a motocicletas"
         }
       ],
-      "huella": "ccc6bb656ad3"
+      "huella": "dba3134e2bf0"
     },
     {
       "id": "B1-sen-0129",
@@ -1549,7 +1550,7 @@
           "cita": "independientemente\nde su masa, de circular por la calzada a cuya entrada esté\nsituada."
         }
       ],
-      "huella": "d7a1b2392040"
+      "huella": "2f63edfaac8e"
     },
     {
       "id": "B1-sen-0130",
@@ -1598,7 +1599,7 @@
           "cita": "Obligación para los conductores de ciclos de circular por la\nvía a cuya entrada esté situada y prohibición a los demás\nusuarios de la vía de utilizarla."
         }
       ],
-      "huella": "678d4d855a2a"
+      "huella": "19324f2240d8"
     },
     {
       "id": "B1-sen-0132",
@@ -1620,7 +1621,7 @@
           "cita": "independientemente\nde su masa, de circular por la calzada a cuya entrada esté\nsituada."
         }
       ],
-      "huella": "10a2549ac518"
+      "huella": "0cc6f8da6a09"
     },
     {
       "id": "B1-sen-0134",
@@ -1642,7 +1643,7 @@
           "cita": "S-7 Velocidad máxima aconsejada"
         }
       ],
-      "huella": "9b839ac35462"
+      "huella": "dc0c9b0a800b"
     },
     {
       "id": "B1-sen-0135",
@@ -1652,7 +1653,7 @@
         "c": "No es una recomendación ni depende de la niebla: obliga con independencia de las condiciones de visibilidad."
       },
       "truco": "Faro en azul: luces de corto alcance encendidas aunque sea de día y haya buena luz, hasta la señal de fin de esa obligación.",
-      "huella": "2c83af5045fb"
+      "huella": "44b5b62faf1e"
     },
     {
       "id": "B1-sen-0136",
@@ -1669,7 +1670,7 @@
           "cita": "Obligación de no proseguir la marcha sin neumáticos\nespeciales de invierno"
         }
       ],
-      "huella": "97967247880f"
+      "huella": "d1bdd92d5133"
     },
     {
       "id": "B1-sen-0137",
@@ -1679,7 +1680,7 @@
         "c": "No es una recomendación: es una señal de obligación."
       },
       "truco": "Cisterna sobre ondas de agua: calzada obligatoria si llevas más de 1.000 litros de producto capaz de contaminar el agua.",
-      "huella": "6911a6f53f15"
+      "huella": "e4763918461a"
     },
     {
       "id": "B1-sen-0138",
@@ -1689,7 +1690,7 @@
         "c": "No reserva el carril por tipo de vehículo, sino a los que llevan equipo de telepeaje operativo."
       },
       "truco": "Telepeaje: si tu vehículo no lleva el medio técnico operativo, ese carril no es para ti.",
-      "huella": "4fd6e6aa0e7d"
+      "huella": "aa647ea5dda2"
     },
     {
       "id": "v4a-sen-0022",
@@ -1706,7 +1707,7 @@
           "cita": "Las flechas señalan las únicas direcciones y sentidos que los\nvehículos pueden tomar."
         }
       ],
-      "huella": "47ae4b658a4c"
+      "huella": "3b9937c6dd72"
     },
     {
       "id": "v4a-sen-0023",
@@ -1745,7 +1746,7 @@
           "cita": "Obligación para los conductores de toda clase de vehículos\nque transporten mercancías peligrosas"
         }
       ],
-      "huella": "b619645e811e"
+      "huella": "f293bc3ccee1"
     },
     {
       "id": "v4a-sen-0025",
@@ -1806,7 +1807,7 @@
           "cita": "independientemente\nde su masa, de circular por la calzada a cuya entrada esté\nsituada."
         }
       ],
-      "huella": "878f7632bc5a"
+      "huella": "3f861f880d7e"
     },
     {
       "id": "v4a-sen-0028",
@@ -1833,7 +1834,7 @@
           "cita": "Obligación para los conductores de ciclos de circular por la\nvía a cuya entrada esté situada y prohibición a los demás\nusuarios de la vía de utilizarla."
         }
       ],
-      "huella": "a7755a4bc092"
+      "huella": "de40cbfc957d"
     },
     {
       "id": "x1b-0080",
@@ -2003,7 +2004,7 @@
           "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
         }
       ],
-      "huella": "1de22b438902"
+      "huella": "51b137e0a0cf"
     },
     {
       "id": "B1-sen-0002",
@@ -2047,7 +2048,7 @@
           "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
         }
       ],
-      "huella": "0fc732582011"
+      "huella": "4d1bc8f43096"
     },
     {
       "id": "B1-sen-0004",
@@ -2096,7 +2097,7 @@
           "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
         }
       ],
-      "huella": "42318918bcbc"
+      "huella": "e905e27529db"
     },
     {
       "id": "B1-sen-0006",
@@ -2118,7 +2119,7 @@
           "cita": "llegando a detener por completo su marcha cuando sea preciso y, en todo caso, cuando así lo indique la señal\ncorrespondiente."
         }
       ],
-      "huella": "0b3703bfc5dc"
+      "huella": "34a42d4f6915"
     },
     {
       "id": "x1b-0054",
@@ -2152,7 +2153,7 @@
           "cita": "Señala el lugar desde el que todas las prohibiciones\nespecíficas indicadas por señales anteriores de prohibición\npara vehículos en movimiento dejan de tener aplicación."
         }
       ],
-      "huella": "d7b7fa8c953a"
+      "huella": "5158a4f37ee9"
     },
     {
       "id": "v4a-sen-0019",
@@ -2169,7 +2170,7 @@
           "cita": "desde las 9 horas del día 16 hasta las 9\nhoras del día 1."
         }
       ],
-      "huella": "c712f1b578a2"
+      "huella": "b413092fbe61"
     },
     {
       "id": "v4a-sen-0020",
@@ -2206,7 +2207,7 @@
         "b": "No ver ningún tren no basta: la barrera en movimiento ya prohíbe la entrada."
       },
       "truco": "Barrera arriba y quieta: puedes pasar. Barrera bajada o moviéndose, suba o baje: no entres.",
-      "huella": "928819a36f7a"
+      "huella": "0a10ff5242cb"
     },
     {
       "id": "B1-sen-0080",
@@ -2228,7 +2229,7 @@
           "cita": "Peligro por la presencia inmediata de un paso a nivel sin barreras\ncon más de una vía férrea."
         }
       ],
-      "huella": "05e0a75b622a"
+      "huella": "6b2fdc1fd31b"
     },
     {
       "id": "B1-sen-0081",
@@ -2304,7 +2305,7 @@
           "cita": "P-27 Muelle"
         }
       ],
-      "huella": "f2a8e0835e95"
+      "huella": "c55b49119194"
     },
     {
       "id": "v5c-pn-0002",
@@ -2353,7 +2354,7 @@
           "cita": "prevalecerá la preferente, según el orden a que se refiere el\napartado anterior, o la más restrictiva, si se trata de señales del mismo tipo"
         }
       ],
-      "huella": "96e23a9d95a0"
+      "huella": "0a2431d64b40"
     },
     {
       "id": "B1-sen-0103",
@@ -2375,7 +2376,7 @@
           "cita": "R-500 Fin de prohibiciones"
         }
       ],
-      "huella": "36d09154de34"
+      "huella": "4c629ad8c16d"
     }
   ]
 }

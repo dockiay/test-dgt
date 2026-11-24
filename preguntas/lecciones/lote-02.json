@@ -144,7 +144,7 @@
           "cita": "o ambos alternativamente, a intervalos muy cortos y de modo que se evite el deslumbramiento."
         }
       ],
-      "huella": "aea3f2c962d7"
+      "huella": "77e9cc782abb"
     },
     {
       "id": "A-adv-0001",
@@ -161,7 +161,7 @@
           "cita": "Como norma general, dichas advertencias se harán utilizando la señalización luminosa del vehículo o, en su defecto, con el brazo"
         }
       ],
-      "huella": "1678bc76ffc8"
+      "huella": "c8541ecc5ad0"
     },
     {
       "id": "A-adv-0006",
@@ -239,7 +239,7 @@
           "cita": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha"
         }
       ],
-      "huella": "6c3ca6fcbbc2"
+      "huella": "827269ea5397"
     },
     {
       "id": "A-dir-0005",
@@ -293,7 +293,7 @@
           "cita": "En caso contrario, deberá abstenerse de realizar dicha maniobra y esperar el momento oportuno para efectuarla."
         }
       ],
-      "huella": "5096f6c18379"
+      "huella": "164243f1a3dc"
     },
     {
       "id": "A-sen-0002",
@@ -327,7 +327,7 @@
           "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior, en los pasos a nivel, en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5), así como en las autopistas y autovías, salvo en los lugares habilitados al efecto y, en general, en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado"
         }
       ],
-      "huella": "512b0ee2e52d"
+      "huella": "48da0996d62a"
     },
     {
       "id": "A-sen-0004",
@@ -344,7 +344,7 @@
           "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior, en los pasos a nivel, en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5), así como en las autopistas y autovías, salvo en los lugares habilitados al efecto y, en general, en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado"
         }
       ],
-      "huella": "5bf08e5310ea"
+      "huella": "3459d3c8cb15"
     },
     {
       "id": "v5b-sen-0001",
@@ -378,7 +378,7 @@
           "cita": "A continuación, acelerará hasta alcanzar la velocidad adecuada al final del carril de aceleración para incorporarse a la circulación de la calzada."
         }
       ],
-      "huella": "f6546f357961"
+      "huella": "6932b6e50ca3"
     },
     {
       "id": "A-inc-0005",
@@ -405,7 +405,7 @@
           "cita": "los demás conductores facilitarán, en la medida de lo posible, dicha maniobra"
         }
       ],
-      "huella": "1699d69cb6d2"
+      "huella": "0f35e8cc7491"
     },
     {
       "id": "A-inc-0003",
@@ -532,7 +532,7 @@
           "cita": "Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos."
         }
       ],
-      "huella": "da993aa0f015"
+      "huella": "c57a927fc0f6"
     },
     {
       "id": "B2-mv-0041",
@@ -559,7 +559,7 @@
           "cita": "Marca longitudinal continua de prohibición de parada (M-7.8): indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
         }
       ],
-      "huella": "03365c8fe501"
+      "huella": "be16ecfbc561"
     },
     {
       "id": "B2-mv-0042",
@@ -576,7 +576,7 @@
           "cita": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal"
         }
       ],
-      "huella": "ee38f76ad32e"
+      "huella": "74c30da55d8f"
     },
     {
       "id": "B2-mv-0045",
@@ -593,7 +593,7 @@
           "cita": "El espacio reservado estará delimitado por dos marcas transversales continuas (M-4.1) paralelas y separadas una distancia de 4 m."
         }
       ],
-      "huella": "d07f23e08f3f"
+      "huella": "be3adb71423e"
     },
     {
       "id": "B2-mv-0046",
@@ -615,7 +615,7 @@
           "cita": "Líneas y marcas de estacionamiento (M-7.3 y M-7.4): delimitan los lugares o zonas de estacionamiento"
         }
       ],
-      "huella": "43b379536610"
+      "huella": "4faf65dd45bf"
     },
     {
       "id": "B2-mv-0047",
@@ -632,7 +632,7 @@
           "cita": "Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos."
         }
       ],
-      "huella": "acc4229e26bf"
+      "huella": "e9d58785f12a"
     },
     {
       "id": "B2-mv-0038",
@@ -642,7 +642,7 @@
         "c": "Si no se puede entrar en el cebreado, menos aún detenerse en él para estacionar, aunque sea brevemente."
       },
       "truco": "Cebreado: no se pisa. La única excepción son los vehículos obligados a circular por el arcén; no hay excepción por adelantar ni por esquivar un obstáculo.",
-      "huella": "f9b2e1ab02ce"
+      "huella": "db1e6384e9d3"
     },
     {
       "id": "B2-mv-0033",
@@ -659,7 +659,7 @@
           "cita": "Flecha de sentido o de selección de carriles (M-5.1, M-5.2 y M-5.6): indica el o los movimientos permitidos u obligados a los vehículos que circulan por el carril en el que está situada la flecha."
         }
       ],
-      "huella": "1a49d78aebf8"
+      "huella": "8dc9b88d9e1f"
     },
     {
       "id": "B2-mv-0034",
@@ -669,7 +669,7 @@
         "c": "Es al revés: no se incorpora ningún carril, sino que el tuyo termina y eres tú quien debe pasar al de al lado."
       },
       "truco": "El carril es de quien ya va por él: si el tuyo se acaba, eres tú quien busca hueco y cede.",
-      "huella": "106b281cc375"
+      "huella": "4f603db69ca9"
     },
     {
       "id": "B2-mv-0035",
@@ -679,7 +679,7 @@
         "c": "Nada obliga a detenerse en el arcén; lo que pide la flecha es acabar el adelantamiento cuanto antes y volver a tu carril."
       },
       "truco": "Flecha de retorno: «vuelve a tu carril», que viene una continua.",
-      "huella": "c7b53c73bc89"
+      "huella": "1677e94dffc8"
     },
     {
       "id": "B2-mv-0017",
@@ -696,7 +696,7 @@
           "cita": "una marca longitudinal continua significa que ningún conductor con su vehículo o animal debe atravesarla ni circular con su vehículo sobre ella"
         }
       ],
-      "huella": "af6ba486fca6"
+      "huella": "29a4d10fd136"
     },
     {
       "id": "B2-mv-0018",
@@ -745,7 +745,7 @@
           "cita": "cuando la marca consiste en una línea longitudinal continua adosada a otra discontinua, las personas conductoras deberán tener en cuenta únicamente la línea situada en el lado por el que circulan."
         }
       ],
-      "huella": "4322866ece70"
+      "huella": "5d804e796865"
     },
     {
       "id": "B2-mv-0021",
@@ -777,7 +777,7 @@
         "c": "Esta línea no anuncia ningún carril para vehículos lentos; anuncia una línea continua o un tramo con riesgo especial."
       },
       "truco": "Trazos más juntos de lo normal: se acaba la discontinua o viene un peligro. Si ibas a adelantar, piénsatelo.",
-      "huella": "8bddc26f937c"
+      "huella": "aaefe26c1d08"
     },
     {
       "id": "B2-mv-0023",
@@ -833,7 +833,7 @@
           "cita": "Marca longitudinal continua de prohibición de parada (M-7.8): indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
         }
       ],
-      "huella": "f108248d706a"
+      "huella": "d523ae8a1c19"
     },
     {
       "id": "B2-mv-0037",
@@ -860,7 +860,7 @@
           "cita": "prohibiendo la parada, el estacionamiento o la utilización de esta superficie con otros fines."
         }
       ],
-      "huella": "ee28880cbe68"
+      "huella": "94b60bcad1c5"
     },
     {
       "id": "v3-mv-0001",
@@ -877,7 +877,7 @@
           "cita": "o en los 3 m anteriores si la acera está alineada con el límite interior de la banda de estacionamiento (es decir, con el límite del carril de circulación)."
         }
       ],
-      "huella": "0867b70ea557"
+      "huella": "d4ea1d1b0c4e"
     },
     {
       "id": "B2-mv-0030",
@@ -904,7 +904,7 @@
           "cita": "las señales horizontales son señales pintadas sobre la calzada con el mismo significado que sus homólogas verticales."
         }
       ],
-      "huella": "45d483a2f5df"
+      "huella": "298c305a3b41"
     },
     {
       "id": "B2-mv-0032",
@@ -921,7 +921,7 @@
           "cita": "indica la obligación de detener el vehículo ante una línea de detención (M-4.1) o, si esta no existiera, inmediatamente antes de la calzada a la que se aproxima, y, una vez detenido el vehículo, ceder el paso"
         }
       ],
-      "huella": "bd2e871a63a3"
+      "huella": "87990784f6ba"
     },
     {
       "id": "B2-mv-0025",
@@ -982,7 +982,7 @@
           "cita": "o en los 3 m anteriores si la acera está alineada con el límite interior de la banda de estacionamiento (es decir, con el límite del carril de circulación)."
         }
       ],
-      "huella": "d332f361f100"
+      "huella": "0f72ba5a3a3c"
     },
     {
       "id": "x1a-0102",
@@ -1004,7 +1004,7 @@
           "cita": "Se prohíbe la maniobra de marcha atrás en autovías y autopistas"
         }
       ],
-      "huella": "061a111dc6bf"
+      "huella": "2862bd8ee070"
     },
     {
       "id": "x1a-0103",
@@ -1038,7 +1038,7 @@
           "cita": "o tan pronto lo exija la seguridad, desistiendo de la maniobra si fuera preciso."
         }
       ],
-      "huella": "4af813cb8f9b"
+      "huella": "475b4f20aa47"
     },
     {
       "id": "v2-par-0001",
@@ -1126,7 +1126,7 @@
           "cita": "Inmovilización de un vehículo que no se encuentra en situación de detención o parada."
         }
       ],
-      "huella": "45a82f4bb62e"
+      "huella": "7fc2dbaf3a3c"
     },
     {
       "id": "A-par-0002",
@@ -1170,7 +1170,7 @@
           "cita": "Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo."
         }
       ],
-      "huella": "405d0627fcf6"
+      "huella": "a190ee3ba93a"
     },
     {
       "id": "x1b-0011",
@@ -1202,7 +1202,7 @@
           "cita": "Cuando en vías urbanas tenga que realizarse en la calzada o en el arcén, se situará el vehículo lo más cerca posible de su borde derecho, salvo en las vías de único sentido, en las que se podrá situar también en el lado izquierdo"
         }
       ],
-      "huella": "9c86573d5438"
+      "huella": "c83757c206f7"
     },
     {
       "id": "A-par-0016",
@@ -1219,7 +1219,7 @@
           "cita": "La parada o el estacionamiento de un vehículo en vías interurbanas deberá efectuarse siempre fuera de la calzada, en el lado derecho de ésta y dejando libre la parte transitable del arcén"
         }
       ],
-      "huella": "19ad5beaea72"
+      "huella": "27fbb2eede1b"
     },
     {
       "id": "v5b-par-0003",
@@ -1285,7 +1285,7 @@
           "cita": "o, en cualquier caso, cuando no permita el paso de otros vehículos."
         }
       ],
-      "huella": "a8551bc79f92"
+      "huella": "4052afd6acd4"
     },
     {
       "id": "v5b-par-0005",
@@ -1307,7 +1307,7 @@
           "cita": "Los supuestos de paradas o estacionamientos en lugares peligrosos o que obstaculicen gravemente la circulación tienen la consideración de infracciones graves"
         }
       ],
-      "huella": "fc075676755f"
+      "huella": "a0c754e31614"
     },
     {
       "id": "A-par-0008",
@@ -1407,7 +1407,7 @@
           "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
         }
       ],
-      "huella": "fd2876155938"
+      "huella": "cd17b6584e6d"
     },
     {
       "id": "A-par-0013",
@@ -1451,7 +1451,7 @@
           "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
         }
       ],
-      "huella": "272e76f20f67"
+      "huella": "0caf6bdfb028"
     },
     {
       "id": "v5b-par-0002",
@@ -1519,7 +1519,7 @@
           "cita": "a) En todos los descritos en el apartado anterior en los que está prohibida la parada."
         }
       ],
-      "huella": "a666316abf67"
+      "huella": "fc430042667f"
     },
     {
       "id": "x1b-0012",
@@ -1536,7 +1536,7 @@
           "cita": "g) Cuando el estacionamiento tenga lugar en una zona reservada a carga y descarga, durante las horas de utilización."
         }
       ],
-      "huella": "630d1a7118f9"
+      "huella": "5aefafbf0ec2"
     },
     {
       "id": "A-par-0004",
@@ -1607,7 +1607,7 @@
           "cita": "Marca longitudinal continua de prohibición de parada (M-7.8): indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada."
         }
       ],
-      "huella": "de8bdaf9f20d"
+      "huella": "c66cda099274"
     },
     {
       "id": "x1b-0015",
@@ -1624,7 +1624,7 @@
           "cita": "o rebase el triple del tiempo abonado, hasta que se logre la identificación del conductor."
         }
       ],
-      "huella": "afecb311b7b1"
+      "huella": "85bd752a7120"
     },
     {
       "id": "x1b-0016",
@@ -1707,7 +1707,7 @@
           "cita": "Los animales de tiro, carga o silla o el ganado suelto circularán por el arcén del lado derecho"
         }
       ],
-      "huella": "755108a4ed1c"
+      "huella": "fd7bab6b744f"
     },
     {
       "id": "arc-0002",
@@ -1815,7 +1815,7 @@
           "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada"
         }
       ],
-      "huella": "1926ea2648f1"
+      "huella": "2e6d97982bdc"
     },
     {
       "id": "v5a-arc-0003",
@@ -1837,7 +1837,7 @@
           "cita": "los conductores de aquellos vehículos cuya masa máxima autorizada no exceda de 3.500 kilogramos que, por razones de emergencia, lo hagan a velocidad anormalmente reducida, perturbando con ello gravemente la circulación."
         }
       ],
-      "huella": "1ef763b7fffd"
+      "huella": "3f6cc6c73c8e"
     },
     {
       "id": "arc-0011",
@@ -1881,7 +1881,7 @@
           "cita": "En las autopistas y autovías que tengan tres o más carriles en el mismo sentido, el carril de emergencia deberá formarse entre el carril situado más a la izquierda y el carril contiguo a él."
         }
       ],
-      "huella": "21450b8e2a8e"
+      "huella": "01b5d8478bad"
     },
     {
       "id": "arc-0014",
@@ -1947,7 +1947,7 @@
           "cita": "los conductores de camiones o furgones con masa máxima autorizada superior a 3.500 kilogramos, los de vehículos especiales que no estén obligados a circular por el arcén y los de conjuntos de vehículos de más de siete metros de longitud circularán normalmente por el situado más a la derecha"
         }
       ],
-      "huella": "7bfa832b82e9"
+      "huella": "e05dabbecf68"
     },
     {
       "id": "v5a-car-0002",
@@ -1964,7 +1964,7 @@
           "cita": "circulará normalmente por el situado más a su derecha, si bien podrá utilizar el resto de los de dicho sentido cuando las circunstancias del tráfico o de la vía lo aconsejen, a condición de que no entorpezca la marcha de otro vehículo que le siga."
         }
       ],
-      "huella": "44ffe63e11af"
+      "huella": "83b075e01ce0"
     },
     {
       "id": "arc-0008",
@@ -2081,7 +2081,7 @@
           "cita": "Los animales de tiro, carga o silla o el ganado suelto circularán por el arcén del lado derecho"
         }
       ],
-      "huella": "bfc53e7b10bc"
+      "huella": "0e770a0f5559"
     },
     {
       "id": "x1a-0073",
@@ -2147,7 +2147,7 @@
           "cita": "y debe mostrar con suficiente antelación, por su forma de circular y especialmente con la reducción paulatina de la velocidad que efectivamente va a cederlo"
         }
       ],
-      "huella": "7e58fd73559d"
+      "huella": "b8089f837fb8"
     },
     {
       "id": "x1a-0060",
@@ -2230,7 +2230,7 @@
           "cita": "Se entienden por tramos de gran pendiente los que tienen una inclinación mínima del siete por ciento."
         }
       ],
-      "huella": "e5981748444b"
+      "huella": "b934551edbfc"
     },
     {
       "id": "A-est-0004",
@@ -2247,7 +2247,7 @@
           "cita": "y, en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada."
         }
       ],
-      "huella": "5fd3200b027c"
+      "huella": "5a6eae7c34e9"
     },
     {
       "id": "A-est-0005",
@@ -2257,7 +2257,7 @@
         "c": "Los metros recorridos dentro del estrechamiento no cuentan; entre tipos distintos decide la lista del reglamento."
       },
       "truco": "Estrechamiento sin señal: pasa quien entró primero. Si hay duda, la lista, de más a menos preferencia: especiales que exceden masas o dimensiones > conjuntos > tracción animal > turismo con remolque de hasta 750 kg y autocaravana > autobús > camión > turismo > … > motos y bicis. Entre iguales, pasa quien tendría que retroceder más metros.",
-      "huella": "57278a2dc591"
+      "huella": "cb87fdbaf589"
     },
     {
       "id": "A-est-0006",
@@ -2274,7 +2274,7 @@
           "cita": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con mayores dificultades de maniobra, de acuerdo con lo que se determina en el artículo 62."
         }
       ],
-      "huella": "e4aa31a83944"
+      "huella": "5e7615a6b760"
     },
     {
       "id": "A-est-0007",
@@ -2291,7 +2291,7 @@
           "cita": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto."
         }
       ],
-      "huella": "40d1a15f9873"
+      "huella": "99ab962a45f4"
     },
     {
       "id": "B1-pri-0072",
@@ -2308,7 +2308,7 @@
           "cita": "En ausencia de señalización, el orden de preferencia entre los distintos tipos de vehículos se ajustará a lo establecido en el artículo 62."
         }
       ],
-      "huella": "3605a41fa31b"
+      "huella": "f728c00fbf87"
     },
     {
       "id": "v5a-est-0001",
@@ -2325,7 +2325,7 @@
           "cita": "Cuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia"
         }
       ],
-      "huella": "d972a0f02453"
+      "huella": "93d3271b875b"
     },
     {
       "id": "x1a-0067",
@@ -2420,7 +2420,7 @@
           "cita": "e) Vehículos destinados al transporte colectivo de viajeros. f) Camiones, tractocamiones y furgones. g) Turismos y vehículos derivados de turismos."
         }
       ],
-      "huella": "4090f6ad49f2"
+      "huella": "2f152d16363c"
     },
     {
       "id": "A-pri-0008",
@@ -2452,7 +2452,7 @@
           "cita": "Se entienden por tramos de gran pendiente los que tienen una inclinación mínima del siete por ciento."
         }
       ],
-      "huella": "a9a2ea34168b"
+      "huella": "89c2a8d62b1a"
     },
     {
       "id": "A-est-0009",
@@ -2523,7 +2523,7 @@
         "c": "La luz de emergencia no evita que bloquees el cruce; lo que pide la norma es no entrar."
       },
       "truco": "Cuadrícula amarilla (y cualquier cruce): entra solo si tienes sitio para salir.",
-      "huella": "3d32735b92da"
+      "huella": "41bcbfc90d48"
     },
     {
       "id": "A-pri-0006",
@@ -2545,7 +2545,7 @@
           "cita": "llegando a detener por completo su marcha cuando sea preciso y, en todo caso, cuando así lo indique la señal correspondiente."
         }
       ],
-      "huella": "ad0a9c373e8f"
+      "huella": "ee7be5a98841"
     }
   ]
 }

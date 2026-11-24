@@ -39,7 +39,7 @@
           "cita": "Luego tienes que volver a elegir la velocidad y activarlo."
         }
       ],
-      "huella": "7f697332d908"
+      "huella": "d704d562c7be"
     },
     {
       "id": "xe-0110",
@@ -83,7 +83,7 @@
           "cita": "Estas luces se apagan cuando detectan a otro vehículo en la carretera que viene de frente por el carril contrario."
         }
       ],
-      "huella": "2bde43918069"
+      "huella": "fe597a714d07"
     },
     {
       "id": "xe-0112",
@@ -142,7 +142,7 @@
           "cita": "Algunos detectores de ángulos muertos se encienden siempre que otro vehículo está en la zona de ángulo muerto."
         }
       ],
-      "huella": "a0ae941f2c36"
+      "huella": "38bb9dc51005"
     },
     {
       "id": "E-seg-0001",
@@ -176,7 +176,7 @@
           "cita": "El conductor y los ocupantes de los vehículos estarán obligados a utilizar, debidamente abrochados, los cinturones de seguridad homologados, tanto en la circulación por vías urbanas como interurbanas."
         }
       ],
-      "huella": "445d1a8bdaaf"
+      "huella": "7faf5a6aff7d"
     },
     {
       "id": "xe-0098",
@@ -213,7 +213,7 @@
           "cita": "Dispositivo que evita que las ruedas se bloqueen al frenar."
         }
       ],
-      "huella": "0470a10a1497"
+      "huella": "a98221ab1fad"
     },
     {
       "id": "v2-moto-0001",
@@ -252,7 +252,7 @@
           "cita": "sus conductores y pasajeros quedarán exentos de utilizar el casco de protección, los guantes de protección y el calzado cerrado, viniendo obligados a usar el referido cinturón de seguridad cuando circulen en todo tipo de vías."
         }
       ],
-      "huella": "ba4bdbb250fa"
+      "huella": "40bee274062a"
     },
     {
       "id": "C-per-0013",
@@ -274,7 +274,7 @@
           "cita": "Los conductores de bicicletas que circulen entre el ocaso y la salida del sol, o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa de los equipos de protección individual, que sea visible a una distancia mínima de 150 metros, si circulan en vía interurbana."
         }
       ],
-      "huella": "f1f5e436c33c"
+      "huella": "1a6878b5e6ef"
     },
     {
       "id": "E-pas-0013",
@@ -355,7 +355,7 @@
           "cita": "en las vías interurbanas, siendo obligatorio su uso por los menores de dieciséis años en todo tipo de vías."
         }
       ],
-      "huella": "933be4bba7d5"
+      "huella": "80622dae96e7"
     },
     {
       "id": "xe-0103",
@@ -365,7 +365,7 @@
         "c": "Limpiar la pantalla con agua no es lo que señala el manual; lo que puede hacerle perder propiedades es pintarlo o ponerle pegatinas."
       },
       "truco": null,
-      "huella": "941e93eae31e"
+      "huella": "e45f3b0c88af"
     },
     {
       "id": "xe-0104",
@@ -480,7 +480,7 @@
           "cita": "Usa siempre el cinturón de seguridad para que el impacto contra el airbag sea menor."
         }
       ],
-      "huella": "f09ad1dff46d"
+      "huella": "410af887f2de"
     },
     {
       "id": "xe-0097",
@@ -519,7 +519,7 @@
           "cita": "Colocar la cinta torácica sobre el cuello o sobre un pecho puede provocar lesiones graves en caso de accidente. Colocarla sobre el hombro puede hacer que el cinturón se resbale y proteja menos."
         }
       ],
-      "huella": "872cd6e54fbe"
+      "huella": "38df2ae06524"
     },
     {
       "id": "E-pas-0003",
@@ -546,7 +546,7 @@
           "cita": "los pasajeros de las ambulancias asistenciales, acondicionadas para permitir asistencia técnico-sanitaria en ruta, estarán exentos de la utilización del cinturón de seguridad en todo tipo de vías cuando, en servicio de urgencia, ocupen el habitáculo del paciente para prestar asistencia sanitaria en ruta."
         }
       ],
-      "huella": "892d01c1a1df"
+      "huella": "c14b7ee2df52"
     },
     {
       "id": "C-per-0007",
@@ -563,7 +563,7 @@
           "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
         }
       ],
-      "huella": "d809182f8508"
+      "huella": "e2143aa9bdd1"
     },
     {
       "id": "C-per-0008",
@@ -585,7 +585,7 @@
           "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
         }
       ],
-      "huella": "77d63c52b649"
+      "huella": "e45d37ae29f2"
     },
     {
       "id": "C-per-0009",
@@ -701,7 +701,7 @@
         "c": "La norma no pone ningún plazo de seis meses; el certificado vale si va acompañado de su traducción oficial."
       },
       "truco": null,
-      "huella": "8ed5dbc27038"
+      "huella": "e2be9e4088b3"
     },
     {
       "id": "xe-0087",
@@ -718,7 +718,7 @@
           "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
         }
       ],
-      "huella": "dd3f8921f709"
+      "huella": "5f2319844ca8"
     },
     {
       "id": "xe-0088",
@@ -752,7 +752,7 @@
           "cita": "Incumplir las normas contenidas en esta Ley que no se califiquen expresamente como infracciones graves o muy graves en los artículos siguientes"
         }
       ],
-      "huella": "c3eacb16be25"
+      "huella": "ad089e7bf94f"
     },
     {
       "id": "xe-0078",
@@ -769,7 +769,7 @@
           "cita": "Los conductores profesionales, cuando presten servicio público a terceros, no se considerarán responsables del incumplimiento de esta norma por parte de los ocupantes del vehículo."
         }
       ],
-      "huella": "cd0ebb6cf5b5"
+      "huella": "b17bb33a978f"
     },
     {
       "id": "xe-0082",
@@ -813,7 +813,7 @@
           "cita": "Dispositivo que protege el cuello y las cervicales en caso de un golpe brusco."
         }
       ],
-      "huella": "1186500db1c1"
+      "huella": "b1dc451f139a"
     },
     {
       "id": "v5f-pas-0002",
@@ -874,7 +874,7 @@
           "cita": "Comprobar que el cinturón está bien ajustado al cuerpo."
         }
       ],
-      "huella": "d8dd62308496"
+      "huella": "0ce84e5d9f7b"
     },
     {
       "id": "v2-moto-0002",
@@ -952,7 +952,7 @@
         "c": "No es un elemento de postura ni contra la fatiga: protege el cuello y las cervicales en un golpe brusco."
       },
       "truco": null,
-      "huella": "6ed4509d157a"
+      "huella": "d849e8e31601"
     },
     {
       "id": "xe-0102",
@@ -994,7 +994,7 @@
           "cita": "3.º Cuando no sea posible instalar en dichos asientos todos los sistemas de retención infantil."
         }
       ],
-      "huella": "94da0805d60e"
+      "huella": "b6aecde3363b"
     },
     {
       "id": "C-per-0004",
@@ -1011,7 +1011,7 @@
           "cita": "No instalar la sillita en un asiento que tenga airbag enfrente."
         }
       ],
-      "huella": "8df7a9b812e6"
+      "huella": "caa75bceec03"
     },
     {
       "id": "C-per-0005",
@@ -1028,7 +1028,7 @@
           "cita": "1.º Cuando el vehículo no disponga de asientos traseros."
         }
       ],
-      "huella": "be4437f0887a"
+      "huella": "1ae8d81a852a"
     },
     {
       "id": "E-pas-0007",
@@ -1070,7 +1070,7 @@
         "b": "Sí se puede, con una condición: que el airbag se haya desactivado."
       },
       "truco": "Silla mirando hacia atrás en un asiento delantero con airbag frontal: solo con el airbag desactivado.",
-      "huella": "b2244b483456"
+      "huella": "39e1cefb14f3"
     },
     {
       "id": "E-pas-0009",
@@ -1092,7 +1092,7 @@
           "cita": "3.º Cuando no sea posible instalar en dichos asientos todos los sistemas de retención infantil."
         }
       ],
-      "huella": "b4fe61054cbf"
+      "huella": "becc2d8d80cc"
     },
     {
       "id": "xe-0083",
@@ -1126,7 +1126,7 @@
           "cita": "En todo caso, los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil"
         }
       ],
-      "huella": "7641ff17c85c"
+      "huella": "aff950307737"
     },
     {
       "id": "xe-0085",
@@ -1165,7 +1165,7 @@
           "cita": "En vehículos de nueve plazas o menos los niños deben viajar en el asiento de atrás"
         }
       ],
-      "huella": "1fa944d70059"
+      "huella": "1d8084b6fb1d"
     },
     {
       "id": "xe-0101",
@@ -1175,7 +1175,7 @@
         "c": "De lado no es una colocación que recoja el manual; recomienda mirando hacia atrás."
       },
       "truco": "Niño pequeño, mirando hacia atrás. Y si va delante con airbag frontal, el airbag desactivado.",
-      "huella": "69eab686a2b0"
+      "huella": "ae3972a43905"
     },
     {
       "id": "E-ada-0010",
@@ -1192,7 +1192,7 @@
           "cita": "Este sistema se activa y detiene el motor de forma automática cuando el vehículo se para un momento en un semáforo, en un atasco o por otras causas."
         }
       ],
-      "huella": "70141bb74405"
+      "huella": "410da265b67e"
     },
     {
       "id": "E-efi-0004",
@@ -1214,7 +1214,7 @@
           "cita": "Es mejor que el equipaje y otras cargas vayan en el maletero."
         }
       ],
-      "huella": "f1bd91fc0a26"
+      "huella": "d0cd7e39c069"
     },
     {
       "id": "v5f-efi-0001",
@@ -1468,7 +1468,7 @@
           "cita": "Dentro de la ciudad hay que intentar usar la marcha más larga posible, respetando siempre los límites de velocidad."
         }
       ],
-      "huella": "cf2e453f3381"
+      "huella": "6100bc15d094"
     },
     {
       "id": "xe-0121",
@@ -1544,7 +1544,7 @@
           "cita": "No bajar las ventanillas del vehículo mientras está circulando."
         }
       ],
-      "huella": "f8b983b3009d"
+      "huella": "c38b0d3c5e31"
     },
     {
       "id": "xe-0126",
@@ -1615,7 +1615,7 @@
         "c": "El manual sitúa el gran aumento bastante antes, a partir de 80 o 90 km/h."
       },
       "truco": null,
-      "huella": "9d3eea7d988a"
+      "huella": "6b84ef31d3fb"
     },
     {
       "id": "xe-0123",
@@ -1708,7 +1708,7 @@
           "cita": "Todo vehículo a motor que por su clasificación en el Registro de Vehículos no cumple las condiciones o requisitos para la obtención de la clasificación 0 emisiones, ECO, C o B."
         }
       ],
-      "huella": "4dfbd16806f8"
+      "huella": "75b331c71220"
     },
     {
       "id": "E-amb-0003",
@@ -1752,7 +1752,7 @@
           "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V."
         }
       ],
-      "huella": "710dc17da82a"
+      "huella": "b6d50173ae71"
     },
     {
       "id": "xe-0141",
@@ -2073,7 +2073,7 @@
           "cita": "Si el vehículo dispone de parabrisas delantero, el distintivo irá colocado en el ángulo inferior derecho del mismo, por su cara interior."
         }
       ],
-      "huella": "5352fd6ed095"
+      "huella": "e6ef06c5966e"
     },
     {
       "id": "E-amb-0009",
@@ -2112,7 +2112,7 @@
           "cita": "Incumplir las normas contenidas en esta Ley que no se califiquen expresamente como infracciones graves o muy graves en los artículos siguientes"
         }
       ],
-      "huella": "0a3023f4dd66"
+      "huella": "f709f236dcc5"
     },
     {
       "id": "x1b-0112",
@@ -2166,7 +2166,7 @@
         "c": "Echarle agua no lo elimina; lo que pide el manual es recogerlo."
       },
       "truco": null,
-      "huella": "05d458ea142f"
+      "huella": "bc6753e739f8"
     },
     {
       "id": "xe-0137",
@@ -2259,7 +2259,7 @@
           "cita": "S-103 Taller de reparación"
         }
       ],
-      "huella": "777369e1d4b3"
+      "huella": "6bb4818b4de7"
     },
     {
       "id": "v3-sen-0035",
@@ -2303,7 +2303,7 @@
           "cita": "salgan desde el motor a través de uno incompleto, inadecuado, deteriorado o a través de tubos resonadores"
         }
       ],
-      "huella": "9bb410094922"
+      "huella": "49af39bce7d9"
     },
     {
       "id": "E-mec-0003",
@@ -2320,7 +2320,7 @@
           "cita": "Tanto en las vías públicas urbanas como en las interurbanas se prohíbe la circulación de vehículos a motor y ciclomotores con el llamado escape libre, sin el preceptivo dispositivo silenciador de las explosiones."
         }
       ],
-      "huella": "58e4f4d51297"
+      "huella": "65b25892b2e7"
     },
     {
       "id": "xe-0151",
@@ -2401,7 +2401,7 @@
         "c": "La norma no limita estas restricciones a los vehículos pesados; dependen de los criterios medioambientales que se establezcan."
       },
       "truco": null,
-      "huella": "72b61f6de91f"
+      "huella": "3ac03fc5e52d"
     }
   ]
 }

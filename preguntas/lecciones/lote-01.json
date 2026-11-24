@@ -10,7 +10,7 @@
         "c": "El claxon no da permiso para adelantar. Lo que decide es si tienes que invadir el sentido contrario o no."
       },
       "truco": "Si quieres adelantar a alguien que ya está adelantando, pregúntate: «¿tendría que meterme en el lado de los que vienen de frente?». Si es así, prohibido; si no, puedes, con las precauciones de siempre.",
-      "huella": "5c4b1c553c8c"
+      "huella": "aa8cba2b921c"
     },
     {
       "id": "A-adel-0003",
@@ -152,13 +152,13 @@
           "cita": "los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros aunque para ello hayan de ocupar la parte de la calzada reservada al sentido contrario, y reducir la velocidad en al menos 20 km/h respecto al límite existente en la vía"
         }
       ],
-      "huella": "c807c2a2960f"
+      "huella": "9aee6298ca77"
     },
     {
       "id": "A-adel-0015",
       "porque": "La regla general es que en un tramo con prohibición de adelantar no se ocupa el sentido contrario, pero la norma hace una excepción con usuarios lentos como el ciclomotor: puedes adelantarlo si por su velocidad se puede hacer sin riesgo y tras cerciorarte de que la maniobra no tiene peligro.",
       "descartes": {
-        "a": "Ese «nunca» no es cierto: la norma permite adelantar en esos tramos a ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas, si van lo bastante despacio.",
+        "a": "No es así en todos los casos: la norma permite adelantar en esos tramos a ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas, si van lo bastante despacio.",
         "b": "La excepción no es automática: exige que por su velocidad pueda adelantarse sin riesgo y que te cerciores antes de que la maniobra no tiene peligro."
       },
       "truco": "Con prohibición de adelantar sí puedes pasar, si van lo bastante despacio, a ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas. A un turismo o a un camión lentos, no.",
@@ -174,7 +174,7 @@
           "cita": "cuando por la velocidad a que circulen puedan ser adelantados sin riesgo para ellos ni para la circulación en general"
         }
       ],
-      "huella": "e106d6dba844"
+      "huella": "2398126df992"
     },
     {
       "id": "A-adel-0016",
@@ -196,7 +196,7 @@
           "cita": "podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro"
         }
       ],
-      "huella": "6a3c91775a22"
+      "huella": "e1f16709e419"
     },
     {
       "id": "v2-adel-0003",
@@ -252,7 +252,7 @@
           "cita": "En todo tramo de vía en que existan carriles de aceleración o deceleración o carriles o partes de la vía destinadas exclusivamente al tráfico de determinados vehículos"
         }
       ],
-      "huella": "f039b93c4415"
+      "huella": "fc9fe9329fa6"
     },
     {
       "id": "x1a-0134",
@@ -323,7 +323,7 @@
         "b": "La norma no obliga a esperar: con espacio suficiente se le adelanta por la derecha, con las máximas precauciones."
       },
       "truco": "Se adelanta por el lado contrario al que va el otro: si se va a la izquierda, a girar o a parar, le pasas por la derecha, con espacio suficiente y las máximas precauciones.",
-      "huella": "4a372c9dad03"
+      "huella": "e742ed4c1b14"
     },
     {
       "id": "x1a-0110",
@@ -343,7 +343,7 @@
         "c": "El claxon no quita el peligro de no ver lo que viene de frente; lo que permite adelantar es no tener que invadir el sentido contrario."
       },
       "truco": "En curvas y rasantes sin visibilidad, pregúntate: «¿tengo que meterme en el lado de los que vienen de frente?». Si es así, prohibido. Solo puedes si los sentidos están claramente delimitados y adelantas sin invadir el contrario.",
-      "huella": "96b44bc750f4"
+      "huella": "ad728773ec9d"
     },
     {
       "id": "A-adel-0013",
@@ -353,7 +353,7 @@
         "c": "Ni estar en poblado ni ir a menos de 50 km/h crean una excepción: en los pasos para peatones señalizados está prohibido adelantar."
       },
       "truco": "Donde la carretera se cruza con peatones, bicis o trenes (pasos para peatones señalizados, intersecciones con vías para ciclistas y pasos a nivel) no se adelanta, ni en el cruce ni cerca de él.",
-      "huella": "9c9b8024e34a"
+      "huella": "e58d5f73882b"
     },
     {
       "id": "A-adel-0014",
@@ -424,7 +424,7 @@
           "cita": "a no ser que los dos sentidos de la circulación estén claramente delimitados y la maniobra pueda efectuarse sin invadir la zona reservada al sentido contrario"
         }
       ],
-      "huella": "23c89a8943bc"
+      "huella": "9efad7a3eb58"
     },
     {
       "id": "v5b-adel-0004",
@@ -478,7 +478,7 @@
           "cita": "c) En las intersecciones y en sus proximidades, salvo cuando: 1.º Se trate de una plaza de circulación giratoria o glorieta. 2.º El adelantamiento deba efectuarse por la derecha, según lo previsto en el artículo 82.2. 3.º La calzada en que se realice goce de prioridad en la intersección y haya señal expresa que lo indique. 4.º El adelantamiento se realice a vehículos de dos ruedas"
         }
       ],
-      "huella": "270093502209"
+      "huella": "ae952b850b55"
     },
     {
       "id": "x1a-0128",
@@ -564,7 +564,7 @@
         "c": "No es «en cualquier caso»: la condición es no molestar indebidamente a los que te siguen más rápido."
       },
       "truco": null,
-      "huella": "9722058c29d4"
+      "huella": "b440931c563e"
     },
     {
       "id": "A-adel-0006",
@@ -618,7 +618,7 @@
           "cita": "en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario"
         }
       ],
-      "huella": "becb865bb6fc"
+      "huella": "14617c9e4cd9"
     },
     {
       "id": "A-adel-0008",
@@ -628,7 +628,7 @@
         "c": "La norma no prevé la luz de emergencia para esto; la alternativa al brazo es el intermitente derecho."
       },
       "truco": "Piensa en lo que dice el intermitente derecho: «me echo a mi derecha y te dejo sitio». El izquierdo diría lo contrario.",
-      "huella": "b5feccdfef0d"
+      "huella": "90dccd54e82f"
     },
     {
       "id": "v5b-adel-0001",
@@ -753,7 +753,7 @@
           "cita": "La intención de inmovilizar el vehículo o de frenar su marcha de modo considerable, aun cuando tales hechos vengan impuestos por las circunstancias del tráfico, deberá advertirse, siempre que sea posible, mediante el empleo reiterado de las luces de frenado o bien moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos."
         }
       ],
-      "huella": "b70557fbe3b5"
+      "huella": "80e7b5879914"
     },
     {
       "id": "x1a-0132",
@@ -770,7 +770,7 @@
           "cita": "o funciones de regulación, ordenación y gestión del tráfico"
         }
       ],
-      "huella": "593b5638745e"
+      "huella": "f89ffa57b4c6"
     },
     {
       "id": "x1a-0133",
@@ -787,7 +787,7 @@
           "cita": "podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro"
         }
       ],
-      "huella": "56fb6bfa78f8"
+      "huella": "b97945839ce4"
     },
     {
       "id": "adel-0001",
@@ -880,7 +880,7 @@
           "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
         }
       ],
-      "huella": "9acf997c6283"
+      "huella": "af01000e88d9"
     },
     {
       "id": "x1a-0098",
@@ -910,7 +910,7 @@
         "c": "Después de pasar el centro de la intersección ya es tarde: la colocación tiene que hacerse antes, con la necesaria antelación."
       },
       "truco": "Para girar, colócate pronto y gira rápido: antelación al colocarte y el menor espacio y tiempo en la maniobra.",
-      "huella": "1bfe3158e60f"
+      "huella": "7aaadc829b40"
     },
     {
       "id": "x1a-0099",
@@ -959,7 +959,7 @@
         "b": "Hacerlo despacio alarga el tiempo que cortas la vía, y si no puedes comprobar que no hay peligro, está prohibido igualmente."
       },
       "truco": null,
-      "huella": "175b15c6ce6b"
+      "huella": "234306eb5f98"
     },
     {
       "id": "cesp-0004",
@@ -1008,7 +1008,7 @@
           "cita": "lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60, o inferiores si así estuviera establecido o específicamente señalizado, deberán utilizar al menos el alumbrado de corto alcance o de cruce tanto de día como de noche"
         }
       ],
-      "huella": "a7a35eb30d42"
+      "huella": "6f0e663691af"
     },
     {
       "id": "cesp-0001",
@@ -1069,7 +1069,7 @@
           "cita": "queda limitada a las motocicletas y turismos, y está prohibida, por lo tanto, al resto de los vehículos, incluidos los turismos con remolque"
         }
       ],
-      "huella": "8cc9aa0eef94"
+      "huella": "3679fd0ce126"
     },
     {
       "id": "res-cesp-0002",
@@ -1091,7 +1091,7 @@
           "cita": "llevarán encendida la luz de corto alcance o cruce, al menos, tanto de día como de noche"
         }
       ],
-      "huella": "b895265d5b5e"
+      "huella": "78f87f497628"
     },
     {
       "id": "res-cesp-0003",
@@ -1113,7 +1113,7 @@
           "cita": "llevarán encendida la luz de corto alcance o cruce, al menos, tanto de día como de noche"
         }
       ],
-      "huella": "515393d5fd09"
+      "huella": "8a6b2233bb1a"
     },
     {
       "id": "res-cesp-0004",
@@ -1135,7 +1135,7 @@
           "cita": "si disponen de más de un carril en su sentido de circulación, lo harán a las velocidades que se establecen en los artículos 48.1.a).1.ª y 2.a, 49 y 50"
         }
       ],
-      "huella": "b5caf90b7a7f"
+      "huella": "66f41373ffe1"
     },
     {
       "id": "cesp-0006",
@@ -1211,7 +1211,7 @@
           "cita": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
         }
       ],
-      "huella": "96ac7dc5a360"
+      "huella": "1e19ab83b4eb"
     },
     {
       "id": "res-cesp-0001",
@@ -1287,7 +1287,7 @@
           "cita": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
         }
       ],
-      "huella": "170352f2c48e"
+      "huella": "dc49c4aa2eb6"
     },
     {
       "id": "v5f-car-0001",
@@ -1341,7 +1341,7 @@
           "cita": "carrocería, y cuya masa máxima autoriza no exceda de 3.500 kg."
         }
       ],
-      "huella": "d75a236aa383"
+      "huella": "23799adc692f"
     },
     {
       "id": "def-0004",
@@ -1358,7 +1358,7 @@
           "cita": "Vehículo provisto de, al menos, dos ruedas y propulsado exclusiva o principalmente por la energía muscular de la persona o personas que están sobre el vehículo, en particular por medio de pedales."
         }
       ],
-      "huella": "78862fe004a3"
+      "huella": "c6c024639071"
     },
     {
       "id": "def-0005",
@@ -1422,7 +1422,7 @@
           "cita": "Vehículo, autopropulsado o remolcado, concebido y construido para realizar obras o servicios determinados"
         }
       ],
-      "huella": "8282114da78f"
+      "huella": "8bd945c101f2"
     },
     {
       "id": "def-0003",
@@ -1454,7 +1454,7 @@
           "cita": "cuya cabina no está integrada en el resto de la carrocería"
         }
       ],
-      "huella": "f9d4f44391ad"
+      "huella": "aaee25fb0df0"
     },
     {
       "id": "res-def-0002",
@@ -1515,7 +1515,7 @@
           "cita": "Camión en el que la cabina está integrada en el resto de la carrocería"
         }
       ],
-      "huella": "159ba30d5ffd"
+      "huella": "0280d2e2c372"
     },
     {
       "id": "def-0008",
@@ -1542,7 +1542,7 @@
           "cita": "Masa por eje. La que gravita sobre el suelo, transmitida por la totalidad de las ruedas acopladas a ese eje."
         }
       ],
-      "huella": "4b57d1438795"
+      "huella": "441a1a06c438"
     },
     {
       "id": "def-0001",
@@ -1598,7 +1598,7 @@
           "cita": "Masa máxima autorizada (M.M.A.). La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas."
         }
       ],
-      "huella": "4324482ab4fe"
+      "huella": "f7fd06051e23"
     },
     {
       "id": "def-0010",
@@ -1632,7 +1632,7 @@
           "cita": "ciclomotores, los tranvías, los vehículos para personas de movilidad reducida, los ciclos de pedales con pedaleo asistido y los vehículos de movilidad personal."
         }
       ],
-      "huella": "2ce84df0e5ae"
+      "huella": "6f1560fe8cec"
     },
     {
       "id": "res-def-0004",
@@ -1654,7 +1654,7 @@
           "cita": "ciclomotores, los tranvías, los vehículos para personas de movilidad reducida, los ciclos de pedales con pedaleo asistido y los vehículos de movilidad personal."
         }
       ],
-      "huella": "ad056040a03c"
+      "huella": "46e3446b4e32"
     },
     {
       "id": "bmp-0009",
@@ -1671,7 +1671,7 @@
           "cita": "Si el origen de los hechos que dan lugar al abandono fuera fortuito le corresponderá una pena de tres a seis meses de prisión y privación del derecho a conducir vehículos a motor y ciclomotores de seis meses a dos años."
         }
       ],
-      "huella": "b5404d7b8f7a"
+      "huella": "c0ec3a7b585c"
     },
     {
       "id": "bmp-0003",
@@ -1747,7 +1747,7 @@
           "cita": "será castigado con la penas de prisión de seis meses a un año y privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a uno y hasta cuatro años"
         }
       ],
-      "huella": "0c771c9fe551"
+      "huella": "aee5b95da1c2"
     },
     {
       "id": "bmp-0010",
@@ -1857,7 +1857,7 @@
           "cita": "e) Conducción temeraria. f) Circular en sentido contrario al establecido."
         }
       ],
-      "huella": "6bda0fdd45f6"
+      "huella": "b1bc0c43f132"
     },
     {
       "id": "bmp-0001",
@@ -1960,7 +1960,7 @@
           "cita": "durante los dos años siguientes a la obtención del permiso o licencia que les habilita para conducir"
         }
       ],
-      "huella": "b41238887e72"
+      "huella": "43e1950d6de7"
     },
     {
       "id": "x1a-0013",
@@ -2050,7 +2050,7 @@
           "cita": "e) Conducción temeraria. f) Circular en sentido contrario al establecido."
         }
       ],
-      "huella": "3fdce200e5da"
+      "huella": "643ffe637ec4"
     },
     {
       "id": "x1a-0057",
@@ -2060,7 +2060,7 @@
         "c": "No llega a muy grave: está en la lista de las graves."
       },
       "truco": null,
-      "huella": "1a0eeabcd83a"
+      "huella": "dd6b63eae619"
     },
     {
       "id": "x1a-0094",
@@ -2094,7 +2094,7 @@
           "cita": "f) Circular en sentido contrario al establecido."
         }
       ],
-      "huella": "5a49ab87bf5f"
+      "huella": "03995ebbd32b"
     },
     {
       "id": "x1a-0003",
@@ -2177,7 +2177,7 @@
         "c": "No es muy grave: es una de las infracciones leves de la Ley."
       },
       "truco": null,
-      "huella": "a1b936d7c451"
+      "huella": "bf9d52a264f4"
     },
     {
       "id": "x1b-0105",
@@ -2502,7 +2502,7 @@
           "cita": "los excesos de velocidad se sancionarán con la multa económica correspondiente al cuadro de sanciones del Anexo IV"
         }
       ],
-      "huella": "7a1da6a59560"
+      "huella": "c3fd6adf44d6"
     },
     {
       "id": "C-luc-0018",
@@ -2597,7 +2597,7 @@
           "cita": "se encuentre inmovilizado entre la puesta y la salida del sol o bajo las condiciones a que se refiere el artículo 106, en calzada o arcén de una vía, deberá tener encendidas las luces de posición y, en su caso, las de gálibo"
         }
       ],
-      "huella": "211a1cbcd914"
+      "huella": "f0180168f480"
     },
     {
       "id": "C-luc-0009",
@@ -2619,7 +2619,7 @@
           "cita": "Todo vehículo parado o estacionado entre la puesta y la salida del sol en calzada o arcén de una travesía insuficientemente iluminada deberá tener encendidas las luces de posición"
         }
       ],
-      "huella": "68c2753b5243"
+      "huella": "fbfe02302fb2"
     },
     {
       "id": "C-luc-0010",
@@ -2641,7 +2641,7 @@
           "cita": "En vías urbanas que no sean travesías no será obligatorio que los vehículos estacionados tengan encendidas las luces de posición cuando la iluminación permita a otros usuarios distinguirlos a una distancia suficiente"
         }
       ],
-      "huella": "5ba0748f0028"
+      "huella": "64872fe5270a"
     },
     {
       "id": "C-luc-0004",

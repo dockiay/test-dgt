@@ -27,7 +27,7 @@
           "cita": "La duración de los cursos de sensibilización y reeducación vial será como máximo de 30 horas, cuando se pretenda obtener un nuevo permiso o licencia de conducción."
         }
       ],
-      "huella": "b28c4cb900c9"
+      "huella": "924c945edb05"
     },
     {
       "id": "v5e-pun-0002",
@@ -130,7 +130,7 @@
         "c": "No existe ninguna regla de «mitad de puntos»: o el vehículo exige permiso y se pierden los puntos del baremo, o no lo exige y no se pierde ninguno."
       },
       "truco": "Pregúntate: «¿para llevar este vehículo hace falta permiso o licencia?». Si la respuesta es no, como en la bicicleta, no hay puntos en juego.",
-      "huella": "1e871ae46a5b"
+      "huella": "124956a53d5d"
     },
     {
       "id": "C-pun-0009",
@@ -152,7 +152,7 @@
           "cita": "no se podrá obtener un nuevo permiso o licencia de conducción hasta transcurridos doce meses desde la notificación del acuerdo. Este plazo se reducirá a seis meses en el caso de conductores profesionales."
         }
       ],
-      "huella": "72024db41461"
+      "huella": "e84636b69f8d"
     },
     {
       "id": "C-pun-0010",
@@ -196,7 +196,7 @@
           "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
         }
       ],
-      "huella": "a4321d24f240"
+      "huella": "ca601014a6ac"
     },
     {
       "id": "C-pun-0012",
@@ -257,7 +257,7 @@
           "cita": "hasta transcurridos seis meses desde la notificación del acuerdo. Este plazo se reducirá a tres meses en el caso de conductores profesionales."
         }
       ],
-      "huella": "0198096cc07b"
+      "huella": "d52461e28582"
     },
     {
       "id": "C-pun-0003",
@@ -279,7 +279,7 @@
           "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
         }
       ],
-      "huella": "ff536edaafda"
+      "huella": "cd0bee375058"
     },
     {
       "id": "C-pun-0004",
@@ -306,7 +306,7 @@
           "cita": "permitirá al titular de la autorización para conducir la recuperación de un máximo de cuatro puntos"
         }
       ],
-      "huella": "8773b3e9ec34"
+      "huella": "efca76590d32"
     },
     {
       "id": "C-pun-0001",
@@ -399,7 +399,7 @@
           "cita": "Contra el tomador del seguro o asegurado, por las causas previstas en la Ley 50/1980, de 8 de octubre, de Contrato de Seguro, y, conforme a lo previsto en el contrato, en el caso de conducción del vehículo por quien carezca del permiso de conducir."
         }
       ],
-      "huella": "5cf6d9af13d2"
+      "huella": "83086ee6ad00"
     },
     {
       "id": "xb-0092",
@@ -497,7 +497,7 @@
           "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
         }
       ],
-      "huella": "2e0dd3aa07e0"
+      "huella": "c1ba208c99e7"
     },
     {
       "id": "C-sev-0005",
@@ -514,7 +514,7 @@
           "cita": "Por excepción, en las motocicletas, vehículos para personas de movilidad reducida y vehículos de tres ruedas, será suficiente que la señal vaya colocada en sitio visible de la parte posterior."
         }
       ],
-      "huella": "1f5b2d5ee5c7"
+      "huella": "85e9cc1a2a6b"
     },
     {
       "id": "C-sev-0006",
@@ -602,7 +602,7 @@
           "cita": "Una o dos horas después del accidente. En este periodo son muy importantes las labores de reanimación para intentar salvar la vida. Se llama hora de oro."
         }
       ],
-      "huella": "a565a3fba628"
+      "huella": "855cca0893d9"
     },
     {
       "id": "xe-0011",
@@ -639,7 +639,7 @@
         "c": "Echar tierra, arena o mantas es uno de los métodos que el manual recomienda para sofocar el fuego."
       },
       "truco": "Fuego en un accidente: extintor, o sofocarlo con tierra, arena o mantas. Agua, no.",
-      "huella": "72c4838aa68d"
+      "huella": "10e2120a96b5"
     },
     {
       "id": "xe-0014",
@@ -673,7 +673,7 @@
           "cita": "Para pedir ayuda debes llamar al número de emergencias 112 desde tu móvil."
         }
       ],
-      "huella": "59a3fa701e42"
+      "huella": "7eb8ff52124b"
     },
     {
       "id": "v5f-acc-0001",
@@ -683,7 +683,7 @@
         "c": "El manual sí indica intentar apagarlo, con extintor o con tierra, arena o mantas; no se limita a esperar a los bomberos."
       },
       "truco": "Fuego en un accidente: extintor, o sofocarlo con tierra, arena o mantas. Agua, no.",
-      "huella": "d274de9afa7c"
+      "huella": "199b4f387c7e"
     },
     {
       "id": "E-acc-0007",
@@ -693,7 +693,7 @@
         "c": "No vale cualquier lado: hay que salir por el contrario al tráfico. Y el arcén forma parte de la plataforma, así que no se debe esperar en él."
       },
       "truco": "Coche inmovilizado sin poder seguir: si hay un lugar seguro fuera de la plataforma, sal por el lado contrario al tráfico y no te quedes en carriles ni arcenes. Si no se puede salir con seguridad, dentro y con el cinturón abrochado.",
-      "huella": "9496352c0711"
+      "huella": "247ae75c33dd"
     },
     {
       "id": "E-acc-0008",
@@ -720,7 +720,7 @@
         "c": "Hay que retirarlo, pero tras señalizarlo convenientemente: saltarse la señalización expone a los demás al obstáculo."
       },
       "truco": "Primero se señaliza; después se quita de en medio, si se puede.",
-      "huella": "3eea9857aa8e"
+      "huella": "06ca942eaedb"
     },
     {
       "id": "E-acc-0001",
@@ -730,7 +730,7 @@
         "c": "No hace falta formación: si no sabes prestar primeros auxilios, cumples pidiendo auxilio."
       },
       "truco": "Implicado, testigo o enterado: los tres tienen que auxiliar o pedir auxilio.",
-      "huella": "20956028aa5c"
+      "huella": "c9e0a0379541"
     },
     {
       "id": "E-acc-0002",
@@ -747,7 +747,7 @@
           "cita": "Cuando seas testigo de un accidente, pero no puedas hacer nada por ayudar o ya hayan llegado los agentes de tráfico, lo mejor es seguir circulando para no estorbar"
         }
       ],
-      "huella": "37c607375554"
+      "huella": "d2bdc72cc41e"
     },
     {
       "id": "E-acc-0003",
@@ -764,7 +764,7 @@
           "cita": "si, aparentemente, hubiera resultado muerta o gravemente herida alguna persona o se hubiera avisado a la autoridad o sus agentes, evitar la modificación del estado de las cosas y de las huellas u otras pruebas"
         }
       ],
-      "huella": "1a094484b08e"
+      "huella": "55afc382158f"
     },
     {
       "id": "xe-0001",
@@ -828,7 +828,7 @@
         "c": "La norma no fija ninguna espera de una hora; si se cumplen las tres condiciones, no hay que quedarse."
       },
       "truco": "Con heridos: avisa a la autoridad y quédate (o vuelve) hasta que llegue. Solo te libras si las heridas son claramente leves, la circulación ya es segura y nadie te pide que te quedes.",
-      "huella": "5bda2cda5acc"
+      "huella": "2c5b562e9d6d"
     },
     {
       "id": "xe-0006",
@@ -894,7 +894,7 @@
           "cita": "sin transitar o permanecer en los carriles y arcenes que conforman dicha plataforma"
         }
       ],
-      "huella": "0c82621d5f87"
+      "huella": "1d2fb2eedf63"
     },
     {
       "id": "E-acc-0004",
@@ -931,7 +931,7 @@
         "c": "En el interior, junto al parabrisas, no queda en la parte más alta posible ni garantiza su máxima visibilidad."
       },
       "truco": "V-16: arriba del todo, en la parte más alta que puedas del vehículo, para que se vea desde lejos.",
-      "huella": "ad372ac74bb4"
+      "huella": "76214f49bd61"
     },
     {
       "id": "E-acc-0012",
@@ -948,7 +948,7 @@
           "cita": "El dispositivo incluirá en el interior de su carcasa todos los elementos necesarios para su operación, incluidos los de comunicaciones, sin depender en ningún caso de elementos externos como aplicaciones de teléfonos móviles u otros similares."
         }
       ],
-      "huella": "750a19540d01"
+      "huella": "21e5d057d099"
     },
     {
       "id": "xe-0008",
@@ -958,7 +958,7 @@
         "c": "Parar en la calzada junto al accidente crea un peligro y un estorbo; si no puedes ayudar ahora, sigue circulando."
       },
       "truco": "Si no estás implicado, ayuda mientras haga falta. Si ya están los agentes o no puedes hacer nada, sigue circulando para no estorbar.",
-      "huella": "b5b6a56676fd"
+      "huella": "f3904fb36644"
     },
     {
       "id": "E-ada-0011",
@@ -997,7 +997,7 @@
           "cita": "Mantener el cuello protegido de movimientos bruscos."
         }
       ],
-      "huella": "17105a8e0ee8"
+      "huella": "069a5e1ee598"
     },
     {
       "id": "E-aux-0003",
@@ -1031,7 +1031,7 @@
           "cita": "Mantener el cuello protegido de movimientos bruscos."
         }
       ],
-      "huella": "a2a46e5b1822"
+      "huella": "42f5933ddb3e"
     },
     {
       "id": "xe-0022",
@@ -1068,7 +1068,7 @@
         "c": "Pedirle que la mueva es justo lo contrario de lo que indica el manual: evitar que el herido mueva esa zona."
       },
       "truco": "Hueso roto: quieto, como está, y tapar la herida si la hay.",
-      "huella": "5c84f8e82e49"
+      "huella": "41ec3f3fd7b5"
     },
     {
       "id": "E-aux-0006",
@@ -1078,7 +1078,7 @@
         "b": "No es la primera medida ni sirve para cualquier parte del cuerpo: solo en brazos y piernas y cuando han fallado las dos compresiones."
       },
       "truco": "Hemorragia externa, de menos a más: primero compresión directa; si falla, compresión arterial; y solo si fallan las dos, torniquete, en brazo o pierna y por encima de la herida.",
-      "huella": "0c87387da64e"
+      "huella": "505ae063f3db"
     },
     {
       "id": "E-aux-0007",
@@ -1095,7 +1095,7 @@
           "cita": "El torniquete solo lo puede quitar el personal médico."
         }
       ],
-      "huella": "e801a48905c1"
+      "huella": "ee822bdb8d7c"
     },
     {
       "id": "E-aux-0008",
@@ -1105,7 +1105,7 @@
         "c": "El manual no distingue por el tamaño del objeto: no hay que intentar sacarlo."
       },
       "truco": "Objeto clavado: no se saca, sea grande o pequeño.",
-      "huella": "e238ab953163"
+      "huella": "95f7654c0630"
     },
     {
       "id": "v5f-aux-0002",
@@ -1206,7 +1206,7 @@
         "c": "Las piernas no se sujetan en este paso: con una mano se coge su brazo y con la otra, la barbilla."
       },
       "truco": "Axilas, brazo y barbilla: la barbilla sujeta para que la cabeza vaya en línea con el cuerpo.",
-      "huella": "fc69abeca385"
+      "huella": "a54dadd83a3e"
     },
     {
       "id": "v5f-aux-0004",
@@ -1243,7 +1243,7 @@
         "b": "Como norma general no se da de beber a los heridos; en caso de duda, lo indicado es hablarles y apoyarles."
       },
       "truco": "En la duda, habla y acompaña; no toques ni muevas.",
-      "huella": "29b2eb8c3efe"
+      "huella": "01c80dab917a"
     },
     {
       "id": "E-aux-0005",
@@ -1253,7 +1253,7 @@
         "c": "Sentarlo apoyado en el vehículo no está en el manual y obliga a moverle; la indicación es colocarle de lado."
       },
       "truco": null,
-      "huella": "5c2461fa516f"
+      "huella": "8a6a700379af"
     },
     {
       "id": "E-aux-0009",
@@ -1319,7 +1319,7 @@
           "cita": "Continuar así hasta que llegue la ayuda médica."
         }
       ],
-      "huella": "3fd6cbe34871"
+      "huella": "cc4af890c211"
     },
     {
       "id": "xe-0024",
@@ -1412,7 +1412,7 @@
           "cita": "Los servicios de emergencias tardan más de 30 minutos en llegar y el herido está inconsciente o tiene una hemorragia que no se puede controlar."
         }
       ],
-      "huella": "6b622b4f36d5"
+      "huella": "2909213c996d"
     },
     {
       "id": "xe-0036",
@@ -1449,7 +1449,7 @@
         "c": "El arcén está expresamente incluido en la prohibición, con o sin señalización."
       },
       "truco": "Carga y descarga: fuera de la vía. Si es inexcusable hacerlo en ella: respetar paradas y estacionamientos (y en poblado, horas y lugares municipales), por el lado más cercano al borde, deprisa, sin ruidos innecesarios y sin dejar la mercancía en calzada, arcén ni zonas peatonales.",
-      "huella": "70a4e6923c28"
+      "huella": "2667b321d383"
     },
     {
       "id": "C-car-0005",
@@ -1526,7 +1526,7 @@
         "c": "La V-20 es el panel para la carga que sobresale por detrás; la carga lateral se señaliza con luces y reflectantes."
       },
       "truco": "Como en las luces del propio vehículo: blanco hacia delante, rojo hacia atrás.",
-      "huella": "22abe8e357de"
+      "huella": "660dbf2c900e"
     },
     {
       "id": "res-car-0001",
@@ -1585,7 +1585,7 @@
         "c": "No hay ningún margen general de 1 metro por cualquier lado; los márgenes dependen del tipo de vehículo y de la carga."
       },
       "truco": null,
-      "huella": "9c16dfe4f1c0"
+      "huella": "d624bb671883"
     },
     {
       "id": "C-car-0007",
@@ -1607,7 +1607,7 @@
           "cita": "la carga podrá sobresalir por la parte posterior hasta un 10 por ciento de su longitud"
         }
       ],
-      "huella": "9e244500386f"
+      "huella": "6883fa6ba38b"
     },
     {
       "id": "C-car-0008",
@@ -1624,7 +1624,7 @@
           "cita": "En vehículos de longitud igual o inferior a cinco metros, el tercio de la longitud del vehículo por cada extremo anterior y posterior."
         }
       ],
-      "huella": "c37a8bcb7b99"
+      "huella": "04dc7190ad90"
     },
     {
       "id": "C-car-0009",
@@ -1697,7 +1697,7 @@
           "cita": "En los vehículos de anchura inferior a un metro la carga no deberá sobresalir lateralmente más de 0,50 metros a cada lado de su eje longitudinal."
         }
       ],
-      "huella": "9dc1b8259ffd"
+      "huella": "37bd0e075cf5"
     },
     {
       "id": "C-car-0013",
@@ -1776,7 +1776,7 @@
         "b": "El manual no atribuye al exceso de peso ningún ahorro de combustible; lo que dice es que se estropean elementos del vehículo."
       },
       "truco": null,
-      "huella": "376449380c6b"
+      "huella": "aa933b521c5f"
     },
     {
       "id": "xb-0118",
@@ -1837,7 +1837,7 @@
         "c": "La V-20 se coloca en el extremo posterior de la carga, no en el techo de la cabina."
       },
       "truco": "Panel V-20: en el extremo de la carga que sobresale por detrás, perpendicular al eje del vehículo. Si la carga ocupa todo el ancho trasero, dos paneles, uno en cada extremo, formando una V invertida. De noche o con poca visibilidad, además, luz roja.",
-      "huella": "dd3618b1a66e"
+      "huella": "14a4901429e8"
     },
     {
       "id": "xb-0111",
@@ -1847,7 +1847,7 @@
         "b": "En el techo no marca dónde termina la carga; va en su extremo posterior."
       },
       "truco": "Panel V-20: en el extremo de la carga que sobresale por detrás, perpendicular al eje del vehículo. Si la carga ocupa todo el ancho trasero, dos paneles, uno en cada extremo, formando una V invertida. De noche o con poca visibilidad, además, luz roja.",
-      "huella": "e433f5d72a46"
+      "huella": "e8224f64ec73"
     },
     {
       "id": "C-car-0015",
@@ -1908,7 +1908,7 @@
           "cita": "Para arrastrar remolques con solo freno de inercia, la masa máxima autorizada del vehículo tractor (1,5 veces la M.M.A. si el vehículo a motor es todo terreno), no excediendo en ningún caso de 3.500 kg."
         }
       ],
-      "huella": "2c8f89d70333"
+      "huella": "ea2ec575775b"
     },
     {
       "id": "xb-0120",
@@ -1925,7 +1925,7 @@
           "cita": "Para arrastrar remolques sin freno: la mitad de la tara del vehículo tractor, incrementada en 75 kg., no excediendo en ningún caso de 750 kg."
         }
       ],
-      "huella": "3d5f99294895"
+      "huella": "dfc0d1392397"
     },
     {
       "id": "xb-0121",
@@ -1986,7 +1986,7 @@
           "cita": "R-205 Limitación de altura Prohibición de paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada."
         }
       ],
-      "huella": "f9714c78065b"
+      "huella": "d2dace0c5c71"
     },
     {
       "id": "x1b-0055",
@@ -1996,7 +1996,7 @@
         "c": "No indican a qué velocidad circula habitualmente el vehículo; su objeto es dar a conocer circunstancias o características del vehículo, el servicio, la carga o el conductor."
       },
       "truco": null,
-      "huella": "1966956040c3"
+      "huella": "d19614e669fd"
     },
     {
       "id": "C-per-0014",
@@ -2013,7 +2013,7 @@
           "cita": "para el transporte de personas, de animales de hasta 15 kg de peso o de carga"
         }
       ],
-      "huella": "50890bc4b5a9"
+      "huella": "da0eac64832c"
     },
     {
       "id": "C-per-0015",
@@ -2121,7 +2121,7 @@
           "cita": "puede viajar, siempre que así conste en su licencia o permiso de circulación, un pasajero que sea mayor de doce años, utilice casco de protección homologado"
         }
       ],
-      "huella": "e28e8d3e5ae1"
+      "huella": "08c471e4aebb"
     }
   ]
 }

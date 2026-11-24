@@ -49,7 +49,7 @@
         "c": "Es al revés: al aumentar la velocidad el campo de visión se estrecha, no se ensancha."
       },
       "truco": "Más velocidad, túnel más estrecho: solo ves lo de delante.",
-      "huella": "ea1c7d8fa191"
+      "huella": "2101092e502a"
     },
     {
       "id": "x1b-0104",
@@ -96,7 +96,7 @@
         "c": "Probar «sobre la marcha» es descubrir el efecto cuando ya vas conduciendo, que es justo el riesgo que se quiere evitar."
       },
       "truco": "Medicamento nuevo: primero la pregunta al médico, después el volante.",
-      "huella": "393ed66cfb2c"
+      "huella": "819a754edc2a"
     },
     {
       "id": "xb-0039",
@@ -106,7 +106,7 @@
         "b": "Pueden dar sueño, no más atención; no hay ninguna mejora de la conducción entre sus efectos."
       },
       "truco": "Si un medicamento sirve para dormir o para calmar, piensa que también puede «dormirte» al volante.",
-      "huella": "5447b9f88506"
+      "huella": "ed6f2640835d"
     },
     {
       "id": "x1b-0030",
@@ -157,7 +157,7 @@
           "cita": "■ Frenar de forma suave y con tiempo\nsuficiente para que el conductor\ndel vehículo de atrás pueda reaccionar."
         }
       ],
-      "huella": "0bbb43bb96ea"
+      "huella": "be65fedc2b7f"
     },
     {
       "id": "dist-0005",
@@ -191,7 +191,7 @@
           "cita": "Distancia de frenado\nEspacio que recorre el vehículo desde que pisas\nel freno hasta que se para por completo."
         }
       ],
-      "huella": "40b6e338ea7d"
+      "huella": "a4223fdf2157"
     },
     {
       "id": "D-dis-0002",
@@ -230,7 +230,7 @@
           "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
         }
       ],
-      "huella": "3b321b247d9c"
+      "huella": "2f4393f6bc8d"
     },
     {
       "id": "res-dist-0002",
@@ -247,7 +247,7 @@
           "cita": "■ Hay lluvia, nieve, niebla o es de noche.\n■ El vehículo de atrás se acerca demasiado."
         }
       ],
-      "huella": "32b8cc44dbf7"
+      "huella": "8142f3580dca"
     },
     {
       "id": "D-dis-0003",
@@ -264,7 +264,7 @@
           "cita": "Distancia de frenado\nEspacio que recorre el vehículo desde que pisas\nel freno hasta que se para por completo."
         }
       ],
-      "huella": "503cbc8889f0"
+      "huella": "5b38012fff04"
     },
     {
       "id": "dist-0003",
@@ -286,7 +286,7 @@
           "cita": "Cuando no se pretenda adelantar, deberá mantenerse en todo momento una distancia\nde seguridad con el vehículo precedente de, al menos, 100 metros o un intervalo mínimo de\ncuatro segundos."
         }
       ],
-      "huella": "a2245f0eda56"
+      "huella": "81bbd91ca069"
     },
     {
       "id": "dist-0004",
@@ -325,7 +325,7 @@
           "cita": "3. Lo dispuesto en el apartado anterior no será de aplicación:\na) En poblado.\nb) Donde estuviese prohibido el adelantamiento.\nc) Donde hubiese más de un carril destinado a la circulación en su mismo sentido.\nd) Cuando la circulación estuviese tan saturada que no permita el adelantamiento"
         }
       ],
-      "huella": "873abcd793bb"
+      "huella": "d1d45b5d4a86"
     },
     {
       "id": "x1a-0053",
@@ -347,7 +347,7 @@
           "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
         }
       ],
-      "huella": "e82b592f41ae"
+      "huella": "ee7994096bca"
     },
     {
       "id": "x1a-0054",
@@ -364,7 +364,7 @@
           "cita": "Cuando no se pretenda adelantar, deberá mantenerse en todo momento una distancia\nde seguridad con el vehículo precedente de, al menos, 100 metros o un intervalo mínimo de\ncuatro segundos."
         }
       ],
-      "huella": "af30374b3e93"
+      "huella": "61338236de0a"
     },
     {
       "id": "xc-0072",
@@ -386,7 +386,7 @@
           "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
         }
       ],
-      "huella": "338d42605ff8"
+      "huella": "028832cf1232"
     },
     {
       "id": "xc-0073",
@@ -420,7 +420,7 @@
           "cita": "Sistema de seguridad que identifica\nsi una rueda está girando más rápido que las demás\ny la frena para que no patine."
         }
       ],
-      "huella": "038030b40ad0"
+      "huella": "aac557a155d6"
     },
     {
       "id": "xc-0080",
@@ -447,7 +447,7 @@
         "c": "Ir despacio reduce el peligro: lo que hace peligrosa una curva es circular muy rápido."
       },
       "truco": "Cerrada, cargado, rápido: los tres ingredientes de una curva peligrosa.",
-      "huella": "f789079083e2"
+      "huella": "efac46b7bdee"
     },
     {
       "id": "xc-0082",
@@ -481,7 +481,7 @@
           "cita": "Un derrape se puede producir por:\n■ Conducir muy rápido.\n■ Hacer un giro brusco con el volante.\n■ Pisar muy fuerte el pedal de freno.\n■ Llevar los neumáticos\no los amortiguadores en mal estado.\n■ Repartir mal la carga en el vehículo."
         }
       ],
-      "huella": "baa0328142e5"
+      "huella": "d1946777a43a"
     },
     {
       "id": "xc-0084",
@@ -610,10 +610,11 @@
       "porque": "Frenar depende de que los frenos funcionen bien y de que los neumáticos se agarren al suelo. Por eso las condiciones técnicas del vehículo, como el estado de los frenos y de los neumáticos, cambian la distancia de frenado.",
       "descartes": {
         "b": "El color de la carrocería no tiene nada que ver con la capacidad de frenar.",
-        "c": "La radio no interviene en la frenada; lo que influye es el estado técnico de frenos y neumáticos, entre otras cosas."
+        "c": "El equipo de música no interviene en la frenada; lo que influye es el estado técnico de frenos y neumáticos, entre otras cosas."
       },
       "truco": null,
-      "huella": "6e540a5192b4"
+      "huella": "c1ce6399436b",
+      "apoyos": []
     },
     {
       "id": "xc-0067",
@@ -630,7 +631,7 @@
           "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
         }
       ],
-      "huella": "e95d7770a66d"
+      "huella": "49e316953bb5"
     },
     {
       "id": "xc-0068",
@@ -681,7 +682,7 @@
           "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
         }
       ],
-      "huella": "d02d65e8b67f"
+      "huella": "a8b3e11da7ef"
     },
     {
       "id": "xc-0071",
@@ -720,7 +721,7 @@
           "cita": "Sistema de seguridad que ayuda al vehículo\na seguir en el camino que marca el volante\ny a no desviarse cuando no gira\ntodo lo que le pide el conductor o gira demasiado."
         }
       ],
-      "huella": "ba629e48949d"
+      "huella": "47e141a33a8e"
     },
     {
       "id": "xc-0091",
@@ -754,7 +755,7 @@
           "cita": "Si no se pueden reducir\nmarchas\ntirar de la palanca del freno\nde mano de forma suave."
         }
       ],
-      "huella": "c126b47e4055"
+      "huella": "b277127c5d79"
     },
     {
       "id": "xc-0077",
@@ -771,7 +772,7 @@
           "cita": "Un derrape se puede producir por:\n■ Conducir muy rápido.\n■ Hacer un giro brusco con el volante.\n■ Pisar muy fuerte el pedal de freno.\n■ Llevar los neumáticos\no los amortiguadores en mal estado.\n■ Repartir mal la carga en el vehículo."
         }
       ],
-      "huella": "18241849105e"
+      "huella": "102e442a0496"
     },
     {
       "id": "xc-0089",
@@ -798,7 +799,7 @@
         "c": "Sí cambia: el manual dice que con más presión de la recomendada el neumático se agarra menos."
       },
       "truco": "Ni más ni menos: la presión buena es la que marca el fabricante. Con menos, el coche es menos estable y patina más con suelo mojado; con más, el neumático toca menos suelo y agarra menos.",
-      "huella": "2aa7360f577c"
+      "huella": "f8364f7b7f37"
     },
     {
       "id": "xc-0064",
@@ -808,7 +809,7 @@
         "b": "La anchura del arcén es una medida de la vía, no una distancia que guarda el conductor con otros vehículos."
       },
       "truco": "Delante, distancia de seguridad; a los lados, separación lateral.",
-      "huella": "1e2ea7c1a97f"
+      "huella": "c488a1f6c891"
     },
     {
       "id": "xc-0065",
@@ -910,7 +911,7 @@
           "cita": "Un vehículo con mucha carga tarda más en parar."
         }
       ],
-      "huella": "3bb89a6afc78"
+      "huella": "39887550f4bc"
     },
     {
       "id": "B2-mv-0044",
@@ -920,7 +921,7 @@
         "b": "No reservan el carril a ningún tipo de vehículo; los usa todo el que circula por él como referencia de separación."
       },
       "truco": null,
-      "huella": "ecba3c7de99f"
+      "huella": "4b6c868892fd"
     },
     {
       "id": "x1b-0098",
@@ -942,7 +943,7 @@
           "cita": "Ceda el paso (M-6.5): indica a las personas conductoras la obligación de ceder\nel paso"
         }
       ],
-      "huella": "e449beb5df31"
+      "huella": "c8dae92eb1a9"
     },
     {
       "id": "v5a-cesp-0003",
@@ -1023,7 +1024,7 @@
         "c": "Acelerar manda aún más fuerza a unas ruedas que ya no se agarran."
       },
       "truco": "Ruedas patinando en mojado: pie fuera del acelerador y fuera del freno.",
-      "huella": "04ed0be83860"
+      "huella": "3c53f6c8f912"
     },
     {
       "id": "E-ent-0006",
@@ -1033,7 +1034,7 @@
         "c": "El peligro especial de las primeras gotas que señala el manual no es la visibilidad, sino el barro resbaladizo que se forma en la carretera."
       },
       "truco": "Primeras gotas = agua + grasa + polvo = barro. Resbala más que la lluvia de después.",
-      "huella": "845b0f3b8b98"
+      "huella": "a017ea1b781b"
     },
     {
       "id": "E-ent-0007",
@@ -1072,7 +1073,7 @@
           "cita": "■ Arrancar el vehículo\ncon las ruedas rectas."
         }
       ],
-      "huella": "b35f1903220a"
+      "huella": "1c8d2867e970"
     },
     {
       "id": "E-ent-0009",
@@ -1089,7 +1090,7 @@
           "cita": "■ Utilizar el freno lo menos posible\ny hacerlo de forma suave."
         }
       ],
-      "huella": "e743e6d11a30"
+      "huella": "c6cd23ac640c"
     },
     {
       "id": "E-ent-0010",
@@ -1206,7 +1207,7 @@
           "cita": "4. Las infracciones a las normas de este precepto tendrán la consideración de graves"
         }
       ],
-      "huella": "e37b825f18af"
+      "huella": "7a930fd421d4"
     },
     {
       "id": "x1b-0027",
@@ -1216,7 +1217,7 @@
         "c": "El reglamento no limita la combinación a la luz de posición; la permite con la de cruce y la de largo alcance."
       },
       "truco": "Antiniebla delantera: niebla, lluvia intensa, nevada, humo o polvo, o tramos estrechos (6,50 m o menos) señalizados con curvas. Trasera, solo cuando todo es «muy»: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
-      "huella": "5a678f9ec333"
+      "huella": "9b76fc9a022c"
     },
     {
       "id": "C-luc-0015",
@@ -1238,7 +1239,7 @@
           "cita": "Igualmente, llevará encendido dicho alumbrado en los poblados, cuando la vía esté\ninsuficientemente iluminada."
         }
       ],
-      "huella": "db2b0671ce39"
+      "huella": "b52b86213b97"
     },
     {
       "id": "C-luc-0016",
@@ -1292,7 +1293,7 @@
           "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
         }
       ],
-      "huella": "9262be7b5f74"
+      "huella": "dc2bba291461"
     },
     {
       "id": "C-luc-0019",
@@ -1348,7 +1349,7 @@
           "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
         }
       ],
-      "huella": "5e5215f63850"
+      "huella": "00859ca64ca5"
     },
     {
       "id": "C-luc-0005",
@@ -1358,7 +1359,7 @@
         "c": "La norma no fija metros: manda cambiar en cuanto aprecies la posibilidad de deslumbrar."
       },
       "truco": "Las largas se quitan en cuanto puedas deslumbrar a alguien (de frente o por el retrovisor), aunque el otro no las quite, y vuelven cuando hayas rebasado al que se cruza contigo. Si te deslumbran a ti, frena lo necesario, incluso hasta parar.",
-      "huella": "879eaf24b932"
+      "huella": "46f0924dd7b9"
     },
     {
       "id": "C-luc-0006",
@@ -1441,7 +1442,7 @@
           "cita": "También será obligatorio utilizar el alumbrado cuando existan condiciones\nmeteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como en caso de\nniebla, lluvia intensa, nevada, nubes de humo o de polvo o cualquier otra circunstancia\nanáloga."
         }
       ],
-      "huella": "141846a2e756"
+      "huella": "a88f77da1608"
     },
     {
       "id": "C-luc-0003",
@@ -1458,7 +1459,7 @@
           "cita": "a) No disponer de alumbrado de largo alcance.\nb) Circular a velocidad no superior a 40 kilómetros por hora y no estar utilizando el\nalumbrado de largo alcance.\nc) Posibilidad de producir deslumbramiento a otros usuarios de la vía pública."
         }
       ],
-      "huella": "554ef7ec2029"
+      "huella": "6182af4570be"
     },
     {
       "id": "x1b-0021",
@@ -1478,7 +1479,7 @@
         "c": "La norma no limita esta combinación a autopistas y autovías."
       },
       "truco": null,
-      "huella": "bf184a3fdf57"
+      "huella": "b38f6ed4a328"
     },
     {
       "id": "xd-0029",
@@ -1526,7 +1527,7 @@
       "id": "B2-luz-0002",
       "porque": "En túneles, pasos inferiores y tramos con la señal «Túnel» el alumbrado es obligatorio a cualquier hora. Si están suficientemente iluminados, se llevan la de posición y la de cruce; si están mal iluminados, a más de 40 km/h, las largas salvo que puedas deslumbrar.",
       "descartes": {
-        "b": "Ser de día no cuenta dentro de un túnel: la obligación de alumbrado es a cualquier hora.",
+        "b": "Ni ser de día ni que el tramo esté bien iluminado te libran: en un túnel el alumbrado es obligatorio a cualquier hora, y si está bien iluminado tocan la de posición y la de cruce.",
         "c": "La de posición sola no basta: en un túnel bien iluminado hay que llevar además la de cruce."
       },
       "truco": "Túnel, a cualquier hora: si está bien iluminado, posición y cruce; si está mal iluminado y vas a más de 40 km/h, largas, salvo que puedas deslumbrar a alguien.",
@@ -1537,7 +1538,7 @@
           "cita": "Todo vehículo equipado con luz de largo alcance o carretera que circule a más de 40\nkilómetros por hora, entre el ocaso y la salida del sol, fuera de poblado, por vías\ninsuficientemente iluminadas o a cualquier hora del día por túneles, pasos inferiores y tramos\nde vía afectados por la señal «Túnel» (S-5) insuficientemente iluminados, la llevará\nencendida, excepto cuando haya de utilizarse la de corto alcance o de cruce"
         }
       ],
-      "huella": "49253b8a62be"
+      "huella": "886cacd74b12"
     },
     {
       "id": "res-luc-0001",
@@ -1569,7 +1570,7 @@
         "c": "Ni 20 ni 150 metros aparecen en la definición; son 10 metros para la matrícula y 50 para el vehículo oscuro."
       },
       "truco": "10 y 50: la matrícula, de cerca (10); el coche oscuro, más lejos (50). Si no lo ves, la vía está mal iluminada.",
-      "huella": "51d9e86874de"
+      "huella": "1b0bff911a40"
     },
     {
       "id": "xd-0006",
@@ -1579,7 +1580,7 @@
         "c": "El aquaplaning ocurre con agua en la calzada, no sobre una calzada seca; bloquear las ruedas al frenar fuerte es otra cosa."
       },
       "truco": "Aquaplaning: el neumático «no da abasto» para echar el agua. Velocidad baja, y que el dibujo no esté gastado.",
-      "huella": "0fb5c4ba7000"
+      "huella": "a1f42b60395d"
     },
     {
       "id": "xd-0011",
@@ -1595,11 +1596,12 @@
       "id": "xd-0012",
       "porque": "La señal R-412 obliga a no seguir sin cadenas u otros dispositivos antideslizantes autorizados, pero también acepta los neumáticos especiales de nieve. Si los llevas, cumples la señal y puedes continuar.",
       "descartes": {
-        "a": "La señal no se limita a las cadenas metálicas: admite otros dispositivos antideslizantes autorizados y los neumáticos especiales de nieve.",
+        "a": "La señal no se limita a las cadenas: admite otros dispositivos antideslizantes autorizados y los neumáticos especiales de nieve.",
         "b": "La R-412 no fija ninguna velocidad; establece qué equipamiento necesitas para seguir."
       },
       "truco": "R-412: cadenas, otro dispositivo antideslizante autorizado o neumáticos especiales de nieve. Con cualquiera de ellos, adelante.",
-      "huella": "aa4e47542c56"
+      "huella": "1e31587a568f",
+      "apoyos": []
     },
     {
       "id": "xd-0023",
@@ -1660,7 +1662,7 @@
           "cita": "■ Aparecen antes el sueño y la fatiga\nque pueden provocar distracciones y errores.\n■ Puedes necesitar más tiempo para reaccionar\nante imprevistos."
         }
       ],
-      "huella": "d111be0cd2b8"
+      "huella": "cfe6405ff9ca"
     },
     {
       "id": "xd-0015",
@@ -1677,7 +1679,7 @@
           "cita": "■ Reducir la velocidad poco a poco.\n■ Mantener más distancia de seguridad\ncon el resto de vehículos."
         }
       ],
-      "huella": "62da4f062bff"
+      "huella": "b1a8038373e4"
     },
     {
       "id": "xd-0016",
@@ -1704,7 +1706,7 @@
         "b": "La causa que da el manual no es el motor, sino que los neumáticos se agarran menos."
       },
       "truco": "Suelo mojado, menos agarre, más metros para parar.",
-      "huella": "14a9afae5318"
+      "huella": "c7798a90d598"
     },
     {
       "id": "xd-0002",
@@ -1738,7 +1740,7 @@
           "cita": "■ Frena de forma suave\npara que las ruedas\ntengan más tiempo de parar.\n■ Comprueba que los frenos funcionan bien\ndespués de pasar por un charco.\n■ Mantén más distancia\ncon el vehículo de delante.\n■ Reduce la velocidad."
         }
       ],
-      "huella": "18defe96123f"
+      "huella": "c10836d079ee"
     },
     {
       "id": "xd-0004",
@@ -1772,7 +1774,7 @@
           "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
         }
       ],
-      "huella": "c59af0ccb301"
+      "huella": "b83ce91927e6"
     },
     {
       "id": "xd-0014",
@@ -1899,7 +1901,7 @@
           "cita": "El viento afecta más a los vehículos de dos ruedas\ny a los que llevan un remolque."
         }
       ],
-      "huella": "979255347f31"
+      "huella": "56375cf7a377"
     },
     {
       "id": "xd-0020",
@@ -1943,7 +1945,7 @@
           "cita": "■ Conduce más despacio.\n■ Sujeta el volante con firmeza\ny en la dirección en contra del viento.\n■ Mantén las ventanillas cerradas."
         }
       ],
-      "huella": "87454df14d9e"
+      "huella": "b8049afecadf"
     },
     {
       "id": "bm6-0007",
@@ -1960,7 +1962,7 @@
           "cita": "Todos los vehículos que circulen entre el ocaso y la salida del sol"
         }
       ],
-      "huella": "05263c5b1fd6"
+      "huella": "c93484440809"
     },
     {
       "id": "bm6-0005",
@@ -1977,7 +1979,7 @@
           "cita": "Todos los vehículos que circulen entre el ocaso y la salida del sol"
         }
       ],
-      "huella": "9546f1d133b3"
+      "huella": "3338f4781346"
     },
     {
       "id": "bm6-0008",
@@ -2011,7 +2013,7 @@
           "cita": "Cuando sale el sol después de nevar,\nes conveniente usar gafas de sol\npara que la luz no te deslumbre."
         }
       ],
-      "huella": "99c7450df2ff"
+      "huella": "1ab3c7bb4f25"
     },
     {
       "id": "bm6-0012",
@@ -2067,7 +2069,7 @@
           "cita": "1. Se circulará a velocidad moderada y, si fuera preciso, se detendrá el vehículo cuando\nlas circunstancias lo exijan"
         }
       ],
-      "huella": "f9d24d043dc6"
+      "huella": "7d53a18222df"
     },
     {
       "id": "bm6-0010",
@@ -2106,7 +2108,7 @@
           "cita": "Tienes que respetar los límites de velocidad\ny conducir más despacio si no ves bien la carretera."
         }
       ],
-      "huella": "387ee5df86c9"
+      "huella": "3ca44c19b8b1"
     },
     {
       "id": "bm6-0011",
@@ -2123,7 +2125,7 @@
           "cita": "k) En los casos de niebla densa, lluvia intensa, nevada o nubes de polvo o humo."
         }
       ],
-      "huella": "35a329541d2d"
+      "huella": "46e476a887d5"
     },
     {
       "id": "bm6-0003",
@@ -2155,7 +2157,7 @@
           "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
         }
       ],
-      "huella": "6384b7f40c20"
+      "huella": "e8bd3bc25c7c"
     },
     {
       "id": "xd-0027",
@@ -2172,7 +2174,7 @@
           "cita": "Cuando vayas a adelantar a otro vehículo de noche,\ndebes apagar las luces de largo alcance\ny encender las de cruce."
         }
       ],
-      "huella": "192fd6e6d5a0"
+      "huella": "a2784c47f3c3"
     },
     {
       "id": "xd-0026",
@@ -2251,7 +2253,7 @@
           "cita": "especialmente las\nreferidas a la prohibición de parar, estacionar, cambiar el sentido de la marcha, marchar\nhacia atrás y adelantar."
         }
       ],
-      "huella": "c9535bc9991b"
+      "huella": "a531118b5fab"
     }
   ]
 }

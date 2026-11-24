@@ -22,7 +22,7 @@
           "cita": "R-102 Entrada prohibida a vehículos de motor Prohibición de acceso a vehículos de motor."
         }
       ],
-      "huella": "3e4c405eb8a6"
+      "huella": "b55c9452213a"
     },
     {
       "id": "B1-sen-0105",
@@ -66,7 +66,7 @@
           "cita": "R-104 Entrada prohibida a motocicletas Prohibición de acceso a motocicletas y a vehículos de tres ruedas asimilados a motocicletas."
         }
       ],
-      "huella": "278f7e74ec56"
+      "huella": "5b2a408d91ca"
     },
     {
       "id": "B1-sen-0107",
@@ -110,7 +110,7 @@
           "cita": "R-102 Entrada prohibida a vehículos de motor Prohibición de acceso a vehículos de motor."
         }
       ],
-      "huella": "e630e7a7fb86"
+      "huella": "fddaaebcfed1"
     },
     {
       "id": "B1-sen-0109",
@@ -127,7 +127,7 @@
           "cita": "R-201 Limitación de masa Prohibición de paso a los vehículos cuya masa en carga supere la indicada en toneladas."
         }
       ],
-      "huella": "e390a7a3913b"
+      "huella": "7fc5843b6d74"
     },
     {
       "id": "B1-sen-0110",
@@ -149,7 +149,7 @@
           "cita": "R-110 Entrada prohibida a vehículos que transporten productos contaminantes del agua Prohibición de acceso a toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua."
         }
       ],
-      "huella": "a95b7fe4f141"
+      "huella": "5ff200da5827"
     },
     {
       "id": "B1-sen-0111",
@@ -171,7 +171,7 @@
           "cita": "R-109 Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables Prohibición de acceso a toda clase de vehículos que transporten mercancías explosivas o fácilmente inflamables"
         }
       ],
-      "huella": "307b409213bd"
+      "huella": "974ab818bd07"
     },
     {
       "id": "B1-sen-0112",
@@ -198,7 +198,7 @@
           "cita": "La inscripción de una cifra de tonelaje, sobre la silueta del remolque o en una placa suplementaria, significa que la prohibición de paso solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra."
         }
       ],
-      "huella": "57e8067e991b"
+      "huella": "b9887e5c3faa"
     },
     {
       "id": "B1-sen-0114",
@@ -247,7 +247,7 @@
         "b": "La señal habla de vehículos de motor con remolque en general, y un turismo es un vehículo de motor."
       },
       "truco": "R-112: primero cuenta los ejes del remolque; con uno solo, puedes entrar. Si tiene más y la señal lleva cifra, compárala con la masa máxima autorizada del remolque, no con lo que pesa en ese momento.",
-      "huella": "808e2bdc2bbc"
+      "huella": "7b73a3877c70"
     },
     {
       "id": "v4a-sen-0012",
@@ -306,7 +306,7 @@
         "b": "No es una prohibición general a los motores de combustión: a quién afecta depende de las condiciones del panel o del cartel."
       },
       "truco": "R-120: «lee lo que lleva debajo o alrededor». La señal dice que hay una restricción ambiental; quién puede entrar lo dicen el panel o el cartel.",
-      "huella": "1c850ba865a8"
+      "huella": "8ab6337f71d9"
     },
     {
       "id": "v5c-proh-0002",
@@ -348,7 +348,7 @@
         "c": "La señal no prohíbe adelantar; al contrario, ir a adelantar es justo la excepción en la que no rige la separación mínima."
       },
       "truco": "Dos vehículos dibujados y una cifra en «m»: son los metros que debes dejar con el de delante.",
-      "huella": "5b10a9ee5682"
+      "huella": "b820850fb580"
     },
     {
       "id": "B1-sen-0120",
@@ -370,7 +370,7 @@
           "cita": "salvo que esté colocada en el mismo poste que una señal de advertencia de peligro o en el mismo panel que esta, en cuyo caso la prohibición finaliza cuando termine el peligro señalado."
         }
       ],
-      "huella": "4c356288e726"
+      "huella": "727660efdd22"
     },
     {
       "id": "B1-sen-0121",
@@ -387,7 +387,7 @@
           "cita": "R-304 Cambio de sentido prohibido Prohibición de efectuar la maniobra de cambio de sentido de la marcha."
         }
       ],
-      "huella": "f83a4f064890"
+      "huella": "b89c904c20cd"
     },
     {
       "id": "B1-sen-0122",
@@ -404,7 +404,7 @@
           "cita": "R-303 Giro a la izquierda prohibido Prohibición de girar a la izquierda. Incluye, también, la prohibición del cambio de sentido de marcha."
         }
       ],
-      "huella": "f2c967d83c28"
+      "huella": "5c0b0501e343"
     },
     {
       "id": "B1-sen-0123",
@@ -421,7 +421,7 @@
           "cita": "R-306 Adelantamiento prohibido para camiones Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kilogramos de adelantar a los vehículos a motor que circulen por la calzada, incluso cuando dicha maniobra no implique invadir la zona reservada al sentido contrario de circulación."
         }
       ],
-      "huella": "3a3c59d876f7"
+      "huella": "a5b4c5add7a1"
     },
     {
       "id": "B1-sen-0124",
@@ -438,7 +438,7 @@
           "cita": "indica la prohibición a todos los vehículos de adelantar a los vehículos a motor que circulen por la calzada cuando dicha maniobra implique invadir la zona reservada al sentido contrario de circulación."
         }
       ],
-      "huella": "88c5af6e2fb4"
+      "huella": "c19fff930745"
     },
     {
       "id": "v4a-sen-0016",
@@ -472,7 +472,7 @@
           "cita": "indica la prohibición a todos los vehículos de adelantar a los vehículos a motor que circulen por la calzada cuando dicha maniobra implique invadir la zona reservada al sentido contrario de circulación."
         }
       ],
-      "huella": "68ded2f05d82"
+      "huella": "71fdf94d541d"
     },
     {
       "id": "B1-sen-0116",
@@ -499,7 +499,7 @@
         "b": "No se mide solo el turismo: la señal habla del conjunto de vehículos, así que el remolque cuenta."
       },
       "truco": "En la limitación de longitud se mide todo lo que va en fila: vehículo, remolque y carga.",
-      "huella": "8e16237ff788"
+      "huella": "24c24e38df9f"
     },
     {
       "id": "B1-sen-0118",
@@ -538,7 +538,7 @@
           "cita": "Prohibición de acceso a toda clase de vehículos destinados al transporte de mercancías si su masa máxima autorizada es superior a la indicada en la señal"
         }
       ],
-      "huella": "25c57defbbf9"
+      "huella": "6524e36e0caf"
     },
     {
       "id": "B1-sen-0036",
@@ -555,7 +555,7 @@
           "cita": "Una luz amarilla intermitente o dos luces amarillas alternativamente intermitentes obligan a los conductores a extremar la precaución y, en su caso, ceder el paso. Además, no eximen del cumplimiento de otras señales que obliguen a detenerse."
         }
       ],
-      "huella": "e83dfa6187c9"
+      "huella": "0f3d3d38a42f"
     },
     {
       "id": "B1-sen-0037",
@@ -582,7 +582,7 @@
           "cita": "Una luz verde no intermitente significa que está permitido el paso con prioridad, excepto en los supuestos a que se refiere el artículo 59.1."
         }
       ],
-      "huella": "5ebf36464a55"
+      "huella": "6bd7add1617d"
     },
     {
       "id": "B1-sen-0040",
@@ -616,7 +616,7 @@
           "cita": "sus indicaciones se refieren exclusivamente a los tranvías y a los autobuses de líneas regulares, a no ser que exista un carril reservado para autobuses o para autobuses, taxis y otros vehículos; en tal caso, solo se refieren a los que circulen por él."
         }
       ],
-      "huella": "6f2a36eb1206"
+      "huella": "38ff8c950ee6"
     },
     {
       "id": "B1-sen-0042",
@@ -633,7 +633,7 @@
           "cita": "b) Una franja blanca vertical iluminada permite el paso de frente. c) Una franja blanca oblicua, hacia la izquierda o hacia la derecha, iluminada, indica que está permitido el paso para girar a la izquierda o a la derecha, respectivamente. d) Una franja blanca, vertical u oblicua, iluminada intermitentemente, indica que los citados vehículos deben detenerse en las mismas condiciones que si se tratara de una luz amarilla fija."
         }
       ],
-      "huella": "b78749ce78d7"
+      "huella": "64c160b0786b"
     },
     {
       "id": "B1-sen-0043",
@@ -694,7 +694,7 @@
           "cita": "Una luz roja intermitente, o dos luces rojas alternativamente intermitentes, prohíben temporalmente el paso a los vehículos antes de un paso a nivel, una entrada a un puente móvil o a un pontón transbordador, en las proximidades de una salida de vehículos de extinción de incendios o con motivo de la aproximación de una aeronave a escasa altura."
         }
       ],
-      "huella": "0dc42fdd74af"
+      "huella": "5c1fc85674e1"
     },
     {
       "id": "B1-sen-0046",
@@ -750,7 +750,7 @@
           "cita": "Una flecha negra sobre una luz roja no intermitente o sobre una luz amarilla no cambia el significado de dichas luces, pero lo limita exclusivamente al movimiento indicado por la flecha."
         }
       ],
-      "huella": "263272c5626b"
+      "huella": "5f3aab4d6820"
     },
     {
       "id": "B1-sen-0049",
@@ -767,7 +767,7 @@
           "cita": "Una flecha verde que se ilumina sobre un fondo circular negro significa que los vehículos pueden tomar la dirección y sentido indicados por aquella, cualquiera que sea la luz que esté simultáneamente encendida en el mismo semáforo o en otro contiguo."
         }
       ],
-      "huella": "42760ed7ad82"
+      "huella": "1acdbd1be55e"
     },
     {
       "id": "B1-sen-0050",
@@ -789,7 +789,7 @@
           "cita": "Una luz blanca o amarilla en forma de flecha, intermitente o fija, apuntada hacia abajo en forma oblicua, indica a los usuarios del carril correspondiente la necesidad de irse incorporando en condiciones de seguridad al carril hacia el que apunta la flecha"
         }
       ],
-      "huella": "63843fddf47d"
+      "huella": "098e08b599ec"
     },
     {
       "id": "B1-sen-0051",
@@ -811,7 +811,7 @@
           "cita": "Una luz blanca o amarilla en forma de flecha, intermitente o fija, apuntada hacia abajo en forma oblicua, indica a los usuarios del carril correspondiente la necesidad de irse incorporando en condiciones de seguridad al carril hacia el que apunta la flecha"
         }
       ],
-      "huella": "74031aed26b5"
+      "huella": "c20f40a4f9d9"
     },
     {
       "id": "B1-sen-0052",
@@ -833,7 +833,7 @@
           "cita": "Una luz verde en forma de flecha apuntada hacia abajo indica que está permitido circular por el carril correspondiente. Esta autorización de utilizar el carril no exime de la obligación de detenerse ante una luz roja circular o, por excepción a lo dispuesto sobre el orden de preeminencia en el artículo 133, de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso"
         }
       ],
-      "huella": "24ea76641911"
+      "huella": "879ab7a98aa2"
     },
     {
       "id": "v5c-sem-0001",
@@ -850,7 +850,7 @@
           "cita": "Una flecha verde que se ilumina sobre un fondo circular negro significa que los vehículos pueden tomar la dirección y sentido indicados por aquella, cualquiera que sea la luz que esté simultáneamente encendida en el mismo semáforo o en otro contiguo."
         }
       ],
-      "huella": "f58e1a9aa3ca"
+      "huella": "32db25d8f4ea"
     },
     {
       "id": "x1b-0045",
@@ -877,7 +877,7 @@
           "cita": "Una luz blanca o amarilla en forma de flecha, intermitente o fija, apuntada hacia abajo en forma oblicua, indica a los usuarios del carril correspondiente la necesidad de irse incorporando en condiciones de seguridad al carril hacia el que apunta la flecha"
         }
       ],
-      "huella": "a72fabdf5265"
+      "huella": "9010a3da379e"
     },
     {
       "id": "x1b-0046",
@@ -926,7 +926,7 @@
           "cita": "Una luz verde en forma de flecha apuntada hacia abajo indica que está permitido circular por el carril correspondiente. Esta autorización de utilizar el carril no exime de la obligación de detenerse ante una luz roja circular o, por excepción a lo dispuesto sobre el orden de preeminencia en el artículo 133, de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso"
         }
       ],
-      "huella": "e916f32dac41"
+      "huella": "24beb7fa6a2c"
     },
     {
       "id": "x1b-0041",
@@ -1041,7 +1041,7 @@
           "cita": "P-14a Curvas peligrosas hacia la derecha Peligro por la proximidad de una sucesión de curvas peligrosas próximas entre sí, siendo la primera de ellas hacia la derecha."
         }
       ],
-      "huella": "656126fd991c"
+      "huella": "139b1e10599d"
     },
     {
       "id": "B1-sen-0077",
@@ -1051,7 +1051,7 @@
         "c": "Es al revés: en ese cruce quien tiene prioridad es el tranvía."
       },
       "truco": null,
-      "huella": "56445a146be4"
+      "huella": "a2ed061e1de5"
     },
     {
       "id": "B1-sen-0078",
@@ -1073,7 +1073,7 @@
           "cita": "P-18 Obras Peligro por la proximidad de un tramo de vía en obras."
         }
       ],
-      "huella": "110e1e206ff3"
+      "huella": "1b69456f9342"
     },
     {
       "id": "B1-sen-0079",
@@ -1090,7 +1090,7 @@
           "cita": "P-7 Paso a nivel con barreras Peligro por la proximidad de un paso a nivel provisto de barreras o semibarreras."
         }
       ],
-      "huella": "5f8f39dc29ea"
+      "huella": "9ae722117886"
     },
     {
       "id": "B1-sen-0082",
@@ -1100,7 +1100,7 @@
         "b": "La señal no tiene que ver con aduanas: advierte de aeronaves que vuelan bajo."
       },
       "truco": null,
-      "huella": "eced7665a520"
+      "huella": "abd5dbf2f99f"
     },
     {
       "id": "B1-sen-0083",
@@ -1205,7 +1205,7 @@
           "cita": "P-21b Personas con dificultades motrices Peligro por la proximidad de un lugar frecuentado por personas con dificultades motrices o sensoriales."
         }
       ],
-      "huella": "0f920fe8ea1b"
+      "huella": "077541cb9407"
     },
     {
       "id": "B1-sen-0088",
@@ -1227,7 +1227,7 @@
           "cita": "P-24a Paso de animales en libertad (jabalíes)"
         }
       ],
-      "huella": "a735804af55a"
+      "huella": "258688947206"
     },
     {
       "id": "B1-sen-0089",
@@ -1237,7 +1237,7 @@
         "c": "La señal no habla de carriles reversibles; avisa de un tramo de doble sentido."
       },
       "truco": null,
-      "huella": "51461161ad9c"
+      "huella": "76718b32add6"
     },
     {
       "id": "B1-sen-0090",
@@ -1271,7 +1271,7 @@
           "cita": "Puente móvil Peligro ante la proximidad de un puente que puede ser levantado"
         }
       ],
-      "huella": "b2ce27bb232a"
+      "huella": "66bab97dc503"
     },
     {
       "id": "B1-sen-0092",
@@ -1298,7 +1298,7 @@
         "b": "La norma no asigna esa función a ninguna baliza luminosa; el elemento que complementa la P-29 es la manga de viento."
       },
       "truco": "La P-29 dibuja una manga de viento, y la manga real del margen te dice hacia dónde y con qué fuerza sopla.",
-      "huella": "d370d694cce0"
+      "huella": "3c4b7a89165b"
     },
     {
       "id": "B1-sen-0094",
@@ -1320,7 +1320,7 @@
           "cita": "P-16b Subida con fuerte pendiente Peligro por la existencia de un tramo de vía con fuerte pendiente ascendente."
         }
       ],
-      "huella": "89c47a8195b4"
+      "huella": "44b575952d9e"
     },
     {
       "id": "B1-sen-0095",
@@ -1337,7 +1337,7 @@
           "cita": "P-32 Obstrucción en la calzada Peligro por la proximidad de un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas."
         }
       ],
-      "huella": "8cdaa8b286d0"
+      "huella": "c59268a74744"
     },
     {
       "id": "B1-sen-0096",
@@ -1354,7 +1354,7 @@
           "cita": "P-31 Congestión Peligro por la proximidad de un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico."
         }
       ],
-      "huella": "bb9b83027a72"
+      "huella": "43710e0e6930"
     },
     {
       "id": "B1-sen-0097",
@@ -1371,7 +1371,7 @@
           "cita": "S-5 Túnel Indica el principio y eventualmente el nombre de un túnel, de un paso inferior o de un tramo de vía equiparado a túnel."
         }
       ],
-      "huella": "c4874c8487b9"
+      "huella": "07364cfdc30e"
     },
     {
       "id": "B1-sen-0098",
@@ -1388,7 +1388,7 @@
           "cita": "R-412 Cadenas para nieve Obligación de no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados"
         }
       ],
-      "huella": "6f476e6d05df"
+      "huella": "ff047ee92c1b"
     },
     {
       "id": "B1-sen-0099",
@@ -1454,7 +1454,7 @@
           "cita": "P-26 Desprendimiento Peligro por la proximidad a una zona con desprendimientos frecuentes y la consiguiente posible presencia de obstáculos en la calzada."
         }
       ],
-      "huella": "aa8c7b4c36d9"
+      "huella": "4956fc20032b"
     },
     {
       "id": "v4a-sen-0004",
@@ -1588,7 +1588,7 @@
           "cita": "Calzada con prioridad Indica a los conductores de los vehículos que circulen por una calzada su prioridad en las intersecciones sobre los vehículos que circulen por otra calzada o procedan de ella"
         }
       ],
-      "huella": "b1d84fa15437"
+      "huella": "589a2bb75371"
     },
     {
       "id": "B1-sen-0101",
@@ -1605,7 +1605,7 @@
           "cita": "R-6 Prioridad respecto al sentido contrario Indica a los conductores que, en un próximo paso estrecho, tienen prioridad con relación a los vehículos que circulen en sentido contrario."
         }
       ],
-      "huella": "6e559e053215"
+      "huella": "2ea898559f02"
     },
     {
       "id": "B1-sen-0102",
@@ -1622,7 +1622,7 @@
           "cita": "R-5 Prioridad del sentido contrario Prohibición de entrada en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse."
         }
       ],
-      "huella": "c6a744f1e79d"
+      "huella": "b65dabbca1c5"
     },
     {
       "id": "B1-sen-0009",
@@ -1632,7 +1632,7 @@
         "c": "No se limita a la travesía: la norma dice que se aplica a todo el poblado."
       },
       "truco": "Señal en el mismo poste que el nombre del pueblo: vale para todo el pueblo, salvo donde otra señal diga otra cosa.",
-      "huella": "5f463e5cf222"
+      "huella": "58c54f6d5c1f"
     },
     {
       "id": "B1-sen-0010",
@@ -1642,7 +1642,7 @@
         "c": "No hay que esperar a la siguiente intersección: rige desde donde está la señal."
       },
       "truco": "Prohibiciones y obligaciones: «desde aquí mismo», salvo que un panel debajo de la señal diga desde dónde empiezan.",
-      "huella": "07379bd9ca36"
+      "huella": "7918cbc4a139"
     },
     {
       "id": "B1-sen-0054",
@@ -1718,7 +1718,7 @@
           "cita": "Indica la longitud en la que existe el peligro o en la que se aplica la prescripción."
         }
       ],
-      "huella": "0a3d5519e267"
+      "huella": "a8203fac170b"
     },
     {
       "id": "B1-sen-0057",
@@ -1735,7 +1735,7 @@
           "cita": "será de aplicación lo establecido para la señalización en tramos en obras o tareas de conservación, con la salvedad de que se utilizará color naranja en lugar de amarillo."
         }
       ],
-      "huella": "f2b6142715e2"
+      "huella": "445c02084ffc"
     },
     {
       "id": "B1-sen-0058",
@@ -1752,7 +1752,7 @@
           "cita": "Cuando en dichos tramos se dispongan señales de peligro y reglamentación cuyo fondo sea en su versión convencional de color blanco, estas tendrán fondo amarillo."
         }
       ],
-      "huella": "ccb5b4db87b8"
+      "huella": "fb8d8ea619ac"
     },
     {
       "id": "B1-sen-0073",
@@ -1769,7 +1769,7 @@
           "cita": "R-105 Entrada prohibida a ciclomotores Prohibición de acceso a ciclomotores."
         }
       ],
-      "huella": "90ccf3cc40d3"
+      "huella": "0db9def8674c"
     },
     {
       "id": "C-sev-0007",
@@ -1791,7 +1791,7 @@
           "cita": "1. Indica que la carga del vehículo sobresale posteriormente."
         }
       ],
-      "huella": "5fdf65de8ab7"
+      "huella": "a40b22dec517"
     },
     {
       "id": "C-car-0017",
@@ -1967,7 +1967,7 @@
           "cita": "dejando siempre preferencia a los vehículos autorizados a circular por este carril."
         }
       ],
-      "huella": "26a26fe05791"
+      "huella": "5be0e60fcaad"
     },
     {
       "id": "v3-sen-0033",
@@ -1984,7 +1984,7 @@
           "cita": "lo que será determinado por el órgano gestor competente en cada caso."
         }
       ],
-      "huella": "04b3d4e437f6"
+      "huella": "5b1c68e31996"
     },
     {
       "id": "res-sen-0001",
@@ -2111,7 +2111,7 @@
           "cita": "Indica un carril destinado exclusivamente a la circulación de cierto o ciertos tipos de vehículos determinados"
         }
       ],
-      "huella": "52d7d4728e81"
+      "huella": "4515c34f0978"
     },
     {
       "id": "v4b-sen-0001",
@@ -2285,7 +2285,7 @@
         "c": "Es lo contrario de libre: solo para ese fin y durante el tiempo que marque el panel complementario."
       },
       "truco": null,
-      "huella": "54b55cec8acf"
+      "huella": "7c4c24171dc5"
     },
     {
       "id": "v4b-sen-0017",
@@ -2344,7 +2344,7 @@
           "cita": "R-411 Velocidad mínima Obligación para los conductores de vehículos de circular, por lo menos, a la velocidad indicada por la cifra"
         }
       ],
-      "huella": "5063ae8eaa8d"
+      "huella": "6ea70a0e4010"
     },
     {
       "id": "v4b-sen-0039",
@@ -2452,7 +2452,7 @@
           "cita": "destinos de la salida del próximo enlace cuando esta dirige hacia una autopista o una autovía."
         }
       ],
-      "huella": "56987198391f"
+      "huella": "eb47ad8d07a3"
     },
     {
       "id": "v4b-sen-0022",
@@ -2606,7 +2606,7 @@
           "cita": "Indica la longitud en la que existe el peligro o en la que se aplica la prescripción."
         }
       ],
-      "huella": "1ec9b8385de6"
+      "huella": "f3f8471e17ee"
     }
   ]
 }

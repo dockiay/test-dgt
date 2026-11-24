@@ -37,7 +37,7 @@
         "c": "0,30 es la tasa reducida, pero en sangre (gramos por litro), no en aire espirado."
       },
       "truco": "Los «de 0,15» son los novatos y quienes conducen camiones de más de 3.500 kg, autobuses de más de 9 plazas, vehículos de servicio público (como el taxi), transporte escolar y de menores, mercancías peligrosas, urgencias o transportes especiales. La antigüedad del permiso no les cambia la tasa.",
-      "huella": "2fe853d656ff"
+      "huella": "fd7ea946e4eb"
     },
     {
       "id": "E-fre-0002",
@@ -54,7 +54,7 @@
           "cita": "Para frenar de emergencia en un vehículo sin ABS,\ndebes pisar fuerte y a fondo el pedal de freno\nhasta que notes que la rueda se empieza a bloquear.\nEntonces levanta un poco el pie del freno\npara evitar que se bloqueen las ruedas.\nPero no dejes de frenar."
         }
       ],
-      "huella": "e15b3d568c20"
+      "huella": "3d0f53002f5b"
     },
     {
       "id": "res-itv-0004",
@@ -71,7 +71,7 @@
           "cita": "el traslado del vehículo desde la\nestación hasta su destino se realizará por medios ajenos al propio vehículo. Una vez\nsubsanados los defectos, se deberá presentar el vehículo a inspección en un plazo no\nsuperior a dos meses, contados desde la primera inspección negativa."
         }
       ],
-      "huella": "ab40f1d871b3"
+      "huella": "7246e98d1dd4"
     },
     {
       "id": "xe-0089",
@@ -88,7 +88,7 @@
           "cita": "a) Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento.\nb) Las personas provistas de un certificado de exención por razones médicas graves o\ndiscapacitadas."
         }
       ],
-      "huella": "c4543a775230"
+      "huella": "d5160e86162d"
     },
     {
       "id": "C-pun-0016",

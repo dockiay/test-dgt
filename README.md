@@ -30,6 +30,7 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 | `firebase.json`, `firestore.rules`, `.github/workflows/firebase.yml` | Alojamiento, reglas y publicación automática en Firebase |
 | `errores.js`, `data/errores.js` | «¿Por qué?» y errores típicos. `data/errores.js` se genera con `tools/build_errores.py` desde `preguntas/errores-tipicos.json` |
 | `data/preguntas.js` | Banco publicado. Se genera con `tools/build_data.py`; no se edita a mano |
+| `preguntas/lecciones/`, `tools/lecciones.py` | Lecciones al fallar (porqué, por qué no valen las otras opciones, truco y citas de apoyo), fuera de los bancos y atadas a la pregunta por una huella. `tools/lecciones.py` las comprueba y `build_data.py` solo publica las que siguen encajando |
 | `img/` | Imágenes que usa la web (copiadas desde `imagenes/` al generar) |
 | `preguntas/` | Bancos de preguntas (`banco-*.json`), revisiones, formato y scripts de verificación |
 | `imagenes/` | Señales y esquemas preparados para las preguntas, con su índice |

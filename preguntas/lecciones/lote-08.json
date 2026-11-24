@@ -160,7 +160,7 @@
       "id": "res-via-0003",
       "porque": "En autopistas y autovías está prohibida la circulación de animales, y la prohibición no depende de ir por el arcén ni de la hora. Alcanza también a los vehículos de tracción animal.",
       "descartes": {
-        "a": "Ir por el arcén no cambia nada: la prohibición es para toda la autopista o autovía. El arcén de la autovía solo se abre a ciclistas mayores de 14 años, no a animales.",
+        "a": "Que no entorpezcas no cambia nada: la prohibición es para toda la autopista o autovía, arcén incluido. El arcén de la autovía solo se abre a ciclistas mayores de 14 años, no a animales.",
         "b": "La norma no distingue entre el día y la noche: los animales no pueden circular por autopistas ni autovías a ninguna hora."
       },
       "truco": "Autopista y autovía están cerradas a animales, vehículos de tracción animal, bicicletas, ciclomotores, VMP y vehículos para personas de movilidad reducida; los peatones, solo en los casos previstos. La única rendija: bicis de mayores de 14 años por el arcén de la autovía, si no lo prohíbe una señal.",
@@ -191,7 +191,7 @@
           "cita": "Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130"
         }
       ],
-      "huella": "dc8d572e14bf"
+      "huella": "172e640dddd6"
     },
     {
       "id": "xc-0122",
@@ -208,7 +208,7 @@
           "cita": "En los descensos prolongados con curvas, cuando razones de seguridad lo permitan, y salvo en las autovías en las que en todo caso circularán por el arcén, los conductores de bicicletas podrán abandonar el arcén y circular por la parte derecha de la calzada que necesiten."
         }
       ],
-      "huella": "28d5f1a61b2d"
+      "huella": "c7369316f237"
     },
     {
       "id": "via-0003",
@@ -272,7 +272,7 @@
           "cita": "Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130"
         }
       ],
-      "huella": "42d5df482705"
+      "huella": "06416a351246"
     },
     {
       "id": "via-0006",
@@ -336,7 +336,7 @@
         "c": "La definición tampoco habla del arcén; lo único que cuenta es no ser autopista, autovía ni vía para automóviles."
       },
       "truco": "Convencional es «la que no es especial»: si no es autopista, autovía ni vía para automóviles, es convencional.",
-      "huella": "ea5fa0c9b718"
+      "huella": "d4ea8e5f370b"
     },
     {
       "id": "xc-0119",
@@ -363,7 +363,7 @@
           "cita": "aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15 o la tarjeta de estacionamiento de vehículos automóviles para personas con discapacidad que presenten movilidad reducida, por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes"
         }
       ],
-      "huella": "61e8f6a74b5f"
+      "huella": "f0a711551d39"
     },
     {
       "id": "xc-0120",
@@ -446,7 +446,7 @@
           "cita": "Vía urbana. Vía pública situada dentro de poblado, excepto las travesías."
         }
       ],
-      "huella": "47eca69a2ec9"
+      "huella": "c7ecb50442e6"
     },
     {
       "id": "xc-0105",
@@ -537,7 +537,7 @@
         "c": "El alumbrado público no aparece en la definición; lo que define el poblado son los edificios y las señales de entrada y salida."
       },
       "truco": "Poblado = edificios + señal de entrada y señal de salida.",
-      "huella": "7daede8136d2"
+      "huella": "9b2066010a88"
     },
     {
       "id": "xc-0109",
@@ -554,7 +554,7 @@
           "cita": "Travesía. Tramo de carretera que discurre por poblado."
         }
       ],
-      "huella": "ccfa74addf68"
+      "huella": "54b125262351"
     },
     {
       "id": "xc-0110",
@@ -576,7 +576,7 @@
           "cita": "Vía interurbana. Vía pública situada fuera de poblado."
         }
       ],
-      "huella": "dae86bb705a1"
+      "huella": "798a17e94568"
     },
     {
       "id": "v5a-via-0003",
@@ -593,7 +593,7 @@
           "cita": "Travesía. Tramo de carretera que discurre por poblado."
         }
       ],
-      "huella": "b9201c6c76e8"
+      "huella": "ad7c608f05e4"
     },
     {
       "id": "xc-0130",
@@ -610,7 +610,7 @@
           "cita": "Blanco Se puede circular con normalidad. Verde No se puede alcanzar la velocidad máxima permitida en esa vía. Amarillo Hay paros y retenciones de vehículos o el tráfico es lento en algunos tramos. Rojo Hay demasiados vehículos y hay muchos paros y retenciones."
         }
       ],
-      "huella": "7ee25b8aff0b"
+      "huella": "dbf9aec83b2d"
     },
     {
       "id": "xc-0131",
@@ -632,7 +632,7 @@
           "cita": "Negro La carretera está cortada y no se puede circular."
         }
       ],
-      "huella": "999435b3de7b"
+      "huella": "36afbd046ad5"
     },
     {
       "id": "xc-0100",
@@ -642,7 +642,7 @@
         "c": "Es lo contrario: si las vías se cruzan a distinto nivel mediante puentes, no hay intersección."
       },
       "truco": "Intersección: todos los cruces «a ras de suelo». Si las trayectorias se cruzan por un puente o un túnel, eso no es una intersección.",
-      "huella": "213abd76e277"
+      "huella": "e8611cc73633"
     },
     {
       "id": "xc-0101",
@@ -659,7 +659,7 @@
           "cita": "No son glorietas propiamente dichas las denominadas glorietas partidas en las que dos tramos, generalmente opuestos, se conectan directamente a través de la isleta central, por lo que el tráfico pasa de uno a otro y no la rodea."
         }
       ],
-      "huella": "4e1e798ae730"
+      "huella": "86e4dd5fb118"
     },
     {
       "id": "xc-0102",
@@ -669,7 +669,7 @@
         "c": "El número de accesos no cuenta en la definición; lo que la descarta es que el tráfico cruce la isleta en vez de rodearla."
       },
       "truco": "Glorieta: anillo con circulación rotatoria alrededor de una isleta central. Si dos tramos se conectan cruzando la isleta por el medio (glorieta partida), ya no es una glorieta propiamente dicha.",
-      "huella": "442bb601e70a"
+      "huella": "b74a51fe62e9"
     },
     {
       "id": "xc-0103",
@@ -686,7 +686,7 @@
           "cita": "Indica la situación de un paso superior para peatones."
         }
       ],
-      "huella": "f091be64ae71"
+      "huella": "f5fa8a6b3677"
     },
     {
       "id": "via-0002",
@@ -703,7 +703,7 @@
           "cita": "Vía urbana. Vía pública situada dentro de poblado, excepto las travesías."
         }
       ],
-      "huella": "a5d7e90873ad"
+      "huella": "1de563f5e2ff"
     },
     {
       "id": "x1b-0056",
@@ -789,7 +789,7 @@
           "cita": "Carril. Banda longitudinal en que puede estar subdividida la calzada"
         }
       ],
-      "huella": "a70dc3cd2e6c"
+      "huella": "3bafcf8a1b8b"
     },
     {
       "id": "xc-0094",
@@ -846,7 +846,7 @@
         "c": "La Ley no fija ninguna altura mínima; la acera puede no estar elevada."
       },
       "truco": "Acera: «elevada o no». Lo que la define es que está destinada a los peatones.",
-      "huella": "31e81994d44b"
+      "huella": "72601ee887f9"
     },
     {
       "id": "xc-0099",
@@ -868,7 +868,7 @@
           "cita": "La velocidad estará limitada a 30 km/h y únicamente se podrá circular en columna de a uno extremando la precaución. Únicamente estará habilitado este tipo de uso cuando la circulación de los carriles de la vía esté detenida por congestión del tráfico."
         }
       ],
-      "huella": "c810d60097b6"
+      "huella": "326980d9ee73"
     },
     {
       "id": "xc-0126",
@@ -895,7 +895,7 @@
           "cita": "Mediana Espacio entre dos plataformas separadas por el que no circulan los vehículos."
         }
       ],
-      "huella": "e591892b87c1"
+      "huella": "b24f29dd54cb"
     },
     {
       "id": "xc-0127",
@@ -917,7 +917,7 @@
           "cita": "Un cambio de rasante significa que un tramo de la carretera cambia de inclinación."
         }
       ],
-      "huella": "dc1cfe8ed90a"
+      "huella": "154f39239425"
     },
     {
       "id": "xc-0128",
@@ -991,7 +991,7 @@
           "cita": "cuando salgan de éste y ocupen la calzada o el arcén de las vías interurbanas."
         }
       ],
-      "huella": "7ff5c0f0f80f"
+      "huella": "1a87ccd9e871"
     },
     {
       "id": "res-via-0002",
@@ -1001,7 +1001,7 @@
         "c": "Da igual que la explanada no sea calzada: la norma la incluye expresamente en la prohibición."
       },
       "truco": null,
-      "huella": "aeb3d6c27bc0"
+      "huella": "d5a4a202d09c"
     },
     {
       "id": "xc-0132",
@@ -1065,7 +1065,7 @@
           "cita": "Las aceras son el espacio de la vía reservado para la movilidad y estancia de los peatones, estando prohibida la circulación por ellas de cualquier tipo de vehículo."
         }
       ],
-      "huella": "21b4ffe59adc"
+      "huella": "7803dd762c59"
     },
     {
       "id": "via-0001",
@@ -1134,7 +1134,7 @@
           "cita": "Senda ciclable. Vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por espacios abiertos, parques, jardines o bosques."
         }
       ],
-      "huella": "769ca2104825"
+      "huella": "84855ee91dd9"
     },
     {
       "id": "xc-0113",
@@ -1245,7 +1245,7 @@
           "cita": "Senda ciclable. Vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por espacios abiertos, parques, jardines o bosques."
         }
       ],
-      "huella": "6d78f1dba898"
+      "huella": "e23220f9efbd"
     },
     {
       "id": "via-0007",
@@ -1348,7 +1348,7 @@
         "c": "El lado por el que lo haga no cambia nada: entre ciclistas del mismo grupo no se considera adelantamiento."
       },
       "truco": null,
-      "huella": "3c992230d9b5"
+      "huella": "6a3dd5f4bc87"
     },
     {
       "id": "v2-adel-0001",
@@ -1375,7 +1375,7 @@
           "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
         }
       ],
-      "huella": "6ad5b11cfa6b"
+      "huella": "7102369506c8"
     },
     {
       "id": "v2-adel-0002",
@@ -1402,7 +1402,7 @@
           "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
         }
       ],
-      "huella": "53bb379bef79"
+      "huella": "3dc8d99f6b7c"
     },
     {
       "id": "v5b-adel-0002",
@@ -1429,7 +1429,7 @@
           "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
         }
       ],
-      "huella": "b2363910652e"
+      "huella": "6f1fc628da28"
     },
     {
       "id": "x1a-0117",
@@ -1439,7 +1439,7 @@
         "c": "Avisar con el claxon no convierte en segura una maniobra que pone en peligro a quien viene de frente: sigue prohibida."
       },
       "truco": null,
-      "huella": "29a96a2c0ab1"
+      "huella": "3a93c12e93b7"
     },
     {
       "id": "x1a-0118",
@@ -1466,7 +1466,7 @@
           "cita": "Además, si el adelantamiento se efectúa fuera de poblado, antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h"
         }
       ],
-      "huella": "60abc8cd2894"
+      "huella": "40c187208255"
     },
     {
       "id": "B2-cic-0009",
@@ -1549,7 +1549,7 @@
           "cita": "b) No hacer uso de los elementos y prendas reflectantes por parte de los usuarios de bicicletas."
         }
       ],
-      "huella": "7f54b7acb148"
+      "huella": "70549ef212c9"
     },
     {
       "id": "A-dir-0008",
@@ -1571,7 +1571,7 @@
           "cita": "En vías interurbanas, los ciclos y ciclomotores de dos ruedas, si no existe un carril especialmente acondicionado para el giro a la izquierda, deberán situarse a la derecha"
         }
       ],
-      "huella": "02fdfb9216e1"
+      "huella": "7f95c0b030fa"
     },
     {
       "id": "B2-mv-0027",
@@ -1610,7 +1610,7 @@
           "cita": "d) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo. e) Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
         }
       ],
-      "huella": "3c9c253c4635"
+      "huella": "f8098954df43"
     },
     {
       "id": "arc-0004",
@@ -1632,7 +1632,7 @@
           "cita": "deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa de los equipos de protección individual, que sea visible a una distancia mínima de 150 metros, si circulan en vía interurbana."
         }
       ],
-      "huella": "3c1cfbd5716f"
+      "huella": "0f91a527b2cc"
     },
     {
       "id": "arc-0005",
@@ -1801,7 +1801,7 @@
           "cita": "d) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo. e) Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
         }
       ],
-      "huella": "83a4f78ec56d"
+      "huella": "609bd2a9eabd"
     },
     {
       "id": "A-pea-0004",
@@ -1889,7 +1889,7 @@
           "cita": "representados los tres tipos por el pictograma de motocicleta, o ciclos)."
         }
       ],
-      "huella": "aea22f943629"
+      "huella": "b0705d9e424e"
     },
     {
       "id": "B1-sen-0133",
@@ -2006,7 +2006,7 @@
           "cita": "Indica la existencia de una vía para peatones, ciclos y, en su caso, VMP, segregada del tráfico motorizado"
         }
       ],
-      "huella": "17cec0b3e653"
+      "huella": "39123590f6f6"
     },
     {
       "id": "v4b-sen-0008",
@@ -2129,7 +2129,7 @@
           "cita": "Si hay carril bici o vía específica, su uso es preferente, si bien la autoridad competente podrá hacerlo obligatorio mediante la señal R–407a."
         }
       ],
-      "huella": "e32ed4f22d5b"
+      "huella": "913fc9899159"
     },
     {
       "id": "v4b-sen-0009",
@@ -2350,7 +2350,7 @@
           "cita": "En los descensos prolongados con curvas, cuando razones de seguridad lo permitan, y salvo en las autovías en las que en todo caso circularán por el arcén"
         }
       ],
-      "huella": "dd7e135da12d"
+      "huella": "8f013573a792"
     },
     {
       "id": "xd-0065",
@@ -2426,7 +2426,7 @@
         "c": "El manual no sitúa en los carriles bici urbanos el mayor número de muertes; las sitúa en las carreteras fuera de las ciudades."
       },
       "truco": "Ciclistas: más accidentes en la ciudad, más muertes en la carretera.",
-      "huella": "0255968719e5"
+      "huella": "78eb521ad63c"
     },
     {
       "id": "xd-0088",
@@ -2436,7 +2436,7 @@
         "c": "El manual no habla de adherencia: el riesgo es que los ciclistas aparezcan de entre los vehículos aparcados."
       },
       "truco": null,
-      "huella": "0ab10e07b4fd"
+      "huella": "8077084bada4"
     },
     {
       "id": "D-vul-0004",
@@ -2493,7 +2493,7 @@
           "cita": "El ruido que hay en el ambiente no les deja oír a un vehículo cuando se acerca."
         }
       ],
-      "huella": "5ceb2f9aefe0"
+      "huella": "63727770cc32"
     },
     {
       "id": "xd-0086",
@@ -2535,7 +2535,7 @@
           "cita": "Muchas personas mayores de 65 años ven y oyen peor. ■ Algunas personas mayores toman medicamentos que afectan para conducir."
         }
       ],
-      "huella": "1abf868a1175"
+      "huella": "16fd183e6297"
     },
     {
       "id": "xd-0089",
@@ -2545,7 +2545,7 @@
         "c": "Tampoco los alcances por detrás: los más comunes al adelantar son los frontales y laterales."
       },
       "truco": null,
-      "huella": "e7778769d83a"
+      "huella": "99f20e5f6550"
     },
     {
       "id": "xd-0090",
@@ -2596,7 +2596,7 @@
           "cita": "Son más bajos de altura que los adultos. Esto hace que vean menos tramo de carretera y que los conductores los vean peor a ellos. ■ Prestan menos atención a la carretera porque tienen menos sensación de peligro. ■ No conocen las normas de tráfico. La mayoría de los atropellos a niños se da cuando salen de la escuela."
         }
       ],
-      "huella": "89ddf5180f30"
+      "huella": "218afb6a37d1"
     },
     {
       "id": "xd-0049",
@@ -2755,7 +2755,7 @@
           "cita": "deberán hacer uso, al menos, de un elemento luminoso o reflectante conforme a la normativa de equipos de protección individual, que sea visible a una distancia mínima de 150 metros"
         }
       ],
-      "huella": "a9dd3e6969ef"
+      "huella": "8f079047a33f"
     },
     {
       "id": "xd-0082",
@@ -2765,7 +2765,7 @@
         "c": "El manual no dice eso de los pasos para peatones; lo que aumenta el riesgo de morir es la velocidad de las carreteras fuera de la ciudad."
       },
       "truco": null,
-      "huella": "432cf3a32192"
+      "huella": "93c62cb6ce42"
     },
     {
       "id": "xd-0083",
@@ -2817,7 +2817,7 @@
           "cita": "Cuando van con niños son más prudentes para darles buen ejemplo y para protegerles."
         }
       ],
-      "huella": "4966931e049c"
+      "huella": "e4b1c758cb9f"
     },
     {
       "id": "D-vul-0003",
@@ -2854,7 +2854,7 @@
           "cita": "En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir."
         }
       ],
-      "huella": "7117889ce31d"
+      "huella": "e0308b2eb2fe"
     }
   ]
 }

@@ -17,7 +17,7 @@
           "cita": "Indica, bajo la señal vertical correspondiente, que esta se\naplica solamente en el ramal de salida cuya dirección coincide\naproximadamente con la de la flecha."
         }
       ],
-      "huella": "6017f585dcae"
+      "huella": "75abbc2eb5ac"
     },
     {
       "id": "v4b-sen-0031",
@@ -147,7 +147,7 @@
           "cita": "81. Parada. Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin\nque el conductor pueda abandonarlo."
         }
       ],
-      "huella": "98d2f03b7bd4"
+      "huella": "bec4c874b875"
     },
     {
       "id": "v3-sen-0012",
@@ -187,7 +187,7 @@
         "b": "La cifra en metros no es lo que falta hasta un radar: es la separación entre vehículos que se controla."
       },
       "truco": "En estas señales rectangulares de control, las ondas dicen «aquí te vigilan» y el dibujo que las acompaña dice qué se vigila: un semáforo en rojo, el paso en rojo; una señal de distancia entre dos coches, la separación; un helicóptero y un dron, control de velocidad desde el aire.",
-      "huella": "d88eca895a48"
+      "huella": "1a8aa4580f30"
     },
     {
       "id": "v4b-sen-0033",
@@ -292,7 +292,7 @@
           "cita": "S-740 Lugares de interés cultural"
         }
       ],
-      "huella": "bbd08f46fab5"
+      "huella": "7842ced7d8a3"
     },
     {
       "id": "v4b-sen-0027",
@@ -324,7 +324,7 @@
           "cita": "S-720 Lugares de interés deportivo o recreativo"
         }
       ],
-      "huella": "257a6002ee38"
+      "huella": "cc7d966ff123"
     },
     {
       "id": "res-sen-0005",
@@ -424,7 +424,7 @@
         "b": "Sí puede: la propia norma permite a los ciclistas superar los 45 km/h donde las circunstancias de la vía lo permitan."
       },
       "truco": "Ciclos, ciclomotores y cuadriciclos ligeros: 45 fuera de poblado. Solo la bicicleta puede pasar de 45 si la vía lo permite.",
-      "huella": "b34464340795"
+      "huella": "e677896c2bed"
     },
     {
       "id": "x1a-0055",
@@ -434,7 +434,7 @@
         "c": "Pagar peaje no convierte la autopista en un circuito: la prohibición vale para cualquier vía pública."
       },
       "truco": null,
-      "huella": "53b0b3e19ec3"
+      "huella": "9ca4811f27e8"
     },
     {
       "id": "x1a-0033",
@@ -680,7 +680,7 @@
           "cita": "b) Señalización y balizamiento circunstancial que modifique el régimen normal de\nutilización de la vía, dispositivos delimitadores y señales de balizamiento."
         }
       ],
-      "huella": "06b90b969a61"
+      "huella": "5160631b3400"
     },
     {
       "id": "v5a-vel-0005",
@@ -758,7 +758,7 @@
       "porque": "Para calcular el límite genérico urbano, los carriles reservados a ciertos usuarios o al transporte público no se cuentan. Sin el carril bus queda un solo carril por sentido, así que el límite es 30 km/h.",
       "descartes": {
         "b": "Habría que contar el carril bus, y la norma dice expresamente que los carriles reservados no se cuentan.",
-        "c": "40 km/h no es un límite genérico urbano para turismos; es el máximo de los vehículos con mercancías peligrosas en calles de dos o más carriles por sentido."
+        "c": "El carril bus no rebaja el límite a 40 km/h: simplemente no se cuenta. 40 km/h es el máximo de los vehículos con mercancías peligrosas en calles de dos o más carriles por sentido."
       },
       "truco": "En ciudad, cuenta los carriles por sentido sin los reservados: plataforma única, 20; un carril, 30; dos o más, 50.",
       "apoyos": [
@@ -768,7 +768,7 @@
           "cita": "los vehículos\nque transporten mercancías peligrosas circularán como máximo a 40 km/h."
         }
       ],
-      "huella": "5e96bc50f9c1"
+      "huella": "7608781ddfb6"
     },
     {
       "id": "x1a-0044",
@@ -900,7 +900,7 @@
         "b": "La antiniebla trasera no es el aviso que fija la norma para este caso: lo que hay que encender es la señal de emergencia."
       },
       "truco": "Lento y con riesgo de que te alcancen: los cuatro intermitentes a la vez.",
-      "huella": "8f7691d84fed"
+      "huella": "23d456dfa38c"
     },
     {
       "id": "x1a-0017",
@@ -1143,7 +1143,7 @@
           "cita": "1.º Si carecen de señalización de frenado, llevan remolque o son motocultores: 25\nkilómetros por hora."
         }
       ],
-      "huella": "ad3c7334593e"
+      "huella": "26de1fc79501"
     },
     {
       "id": "v5a-vel-0003",
@@ -1170,7 +1170,7 @@
         "c": "70 km/h exige poder superar 60 km/h en llano y cumplir las normas técnicas; este no puede."
       },
       "truco": "Vehículos especiales fuera de poblado: 25 si no tienen señalización de frenado, llevan remolque o son motocultores; 40 los demás; y 70 solo si pueden pasar de 60 en llano y cumplen sus normas técnicas.",
-      "huella": "0cc79da52032"
+      "huella": "c2f30317a852"
     },
     {
       "id": "x1a-0037",
@@ -1214,7 +1214,7 @@
           "cita": "a) En las calzadas con doble sentido de circulación y dos carriles, separados o no por\nmarcas viales, circulará por el de su derecha."
         }
       ],
-      "huella": "f6a4456ba119"
+      "huella": "a92afe3e5ad8"
     },
     {
       "id": "x1a-0008",
@@ -1244,7 +1244,7 @@
         "b": "Solo se descuenta el carril reservado; los otros dos sí cuentan."
       },
       "truco": "Para contar carriles, tacha los reservados (VAO, bus...) y cuenta los que quedan.",
-      "huella": "9faf829349e6"
+      "huella": "8ffc3fdab273"
     },
     {
       "id": "x1a-0001",
@@ -1354,7 +1354,7 @@
         "c": "El manual no sitúa la mayoría de estos accidentes por la noche; los asocia a fines de semana con buen tiempo."
       },
       "truco": null,
-      "huella": "304d7540871c"
+      "huella": "293ae126c8c6"
     },
     {
       "id": "xc-0015",
@@ -1406,7 +1406,7 @@
         "c": "El manual no menciona los caminos rurales sin asfaltar; señala las carreteras, autopistas y autovías."
       },
       "truco": null,
-      "huella": "8c2b6bacd284"
+      "huella": "b1fb1f31ce05"
     },
     {
       "id": "xc-0025",
@@ -1423,7 +1423,7 @@
           "cita": "■ En los viajes de fin de semana y durante el día."
         }
       ],
-      "huella": "489c01ea6a3e"
+      "huella": "22cd8c65d7cc"
     },
     {
       "id": "xc-0026",
@@ -1433,13 +1433,13 @@
         "c": "El manual no lo limita a la noche: el exceso de confianza distrae a cualquier hora."
       },
       "truco": "Carretera conocida, atención doble: la rutina es la que distrae.",
-      "huella": "12f74af1d57b"
+      "huella": "693208e62e37"
     },
     {
       "id": "xc-0027",
       "porque": "Fumar al volante resta atención y control: mientras buscas el cigarro y lo enciendes no miras la carretera, y una mano queda ocupada. El manual añade el humo, que dificulta la visión, y el peor aire dentro del coche.",
       "descartes": {
-        "a": "El manual no atribuye al tabaco ninguna mejora de la reacción; señala la falta de atención y la mano ocupada.",
+        "a": "El manual no relaciona fumar con ir más deprisa; señala la falta de atención, la mano ocupada, el humo y el peor aire.",
         "b": "El manual no habla de ventanillas cerradas; los motivos son la falta de atención, la mano ocupada, el humo y el peor aire."
       },
       "truco": null,
@@ -1450,7 +1450,7 @@
           "cita": "■ Ves peor la carretera por el humo\nque sale del cigarro.\n■ El aire dentro del coche es de peor calidad\ny puede afectar a las capacidades para conducir."
         }
       ],
-      "huella": "c257d71c72a6"
+      "huella": "971fdfb5cb0e"
     },
     {
       "id": "xc-0028",
@@ -1460,7 +1460,7 @@
         "c": "Nueve de cada 10 exagera mucho: la cifra del manual es una de cada 10."
       },
       "truco": null,
-      "huella": "e69b5955d9f4"
+      "huella": "74fc61f8aff5"
     },
     {
       "id": "res-acc-0001",
@@ -1470,7 +1470,7 @@
         "b": "El manual no destaca los martes y miércoles por la mañana; señala fines de semana y festivos, sobre todo de madrugada."
       },
       "truco": null,
-      "huella": "23ce8dbc197b"
+      "huella": "cec1084b338a"
     },
     {
       "id": "D-acc-0003",
@@ -1497,7 +1497,7 @@
           "cita": "Tiene más posibilidad de morir cuando el accidente\nes en una carretera fuera de la ciudad\nporque los vehículos circulan más rápido."
         }
       ],
-      "huella": "3813f3a77161"
+      "huella": "1a386ef0ea5e"
     },
     {
       "id": "D-acc-0005",
@@ -1507,7 +1507,7 @@
         "c": "Se circula más deprisa, pero el manual dice que hay menos accidentes que en el resto de carreteras."
       },
       "truco": null,
-      "huella": "577e7bbdf881"
+      "huella": "3004e379f9a8"
     },
     {
       "id": "D-acc-0006",
@@ -1547,7 +1547,7 @@
         "c": "Entre 10 y 35 de cada 100 es la cifra del estado de la carretera."
       },
       "truco": "Ordena los factores de mayor a menor: humano (70-90 de cada 100), carretera (10-35) y vehículo (4-13). Tú, la vía y, por último, la máquina.",
-      "huella": "04c9f680d40c"
+      "huella": "0efa23d363f7"
     },
     {
       "id": "D-acc-0002",
@@ -1564,7 +1564,7 @@
           "cita": "Factor\nde riesgo\nHumano\n\nAlgunas causas\nExceso de velocidad.\nConsumir alcohol.\nDistracciones."
         }
       ],
-      "huella": "4e36a95b44ec"
+      "huella": "b10f30731f75"
     },
     {
       "id": "xc-0001",
@@ -1591,7 +1591,7 @@
         "c": "El estado de la carretera interviene más que el fallo del vehículo."
       },
       "truco": "Ordena los factores de mayor a menor: humano (70-90 de cada 100), carretera (10-35) y vehículo (4-13). Tú, la vía y, por último, la máquina.",
-      "huella": "56ab46a95827"
+      "huella": "f309d7144f5b"
     },
     {
       "id": "xc-0003",
@@ -1635,7 +1635,7 @@
         "c": "El manual no dice que el café elimine la fatiga; la presenta como uno de los principales riesgos."
       },
       "truco": null,
-      "huella": "4ee3fec30227"
+      "huella": "8e98af2d3ae7"
     },
     {
       "id": "xc-0010",
@@ -1645,7 +1645,7 @@
         "b": "El manual no menciona las carreteras de montaña al hablar de los accidentes de los jóvenes."
       },
       "truco": null,
-      "huella": "133a8ab6531b"
+      "huella": "c8d93704873c"
     },
     {
       "id": "xc-0011",
@@ -1665,7 +1665,7 @@
         "c": "Circular por el carril derecho es lo que pide la norma; no es una causa de accidentes."
       },
       "truco": null,
-      "huella": "01d0103edc6f"
+      "huella": "340a559b8ed6"
     },
     {
       "id": "xc-0013",
@@ -1675,7 +1675,7 @@
         "b": "El manual no se refiere solo a las bebidas alcohólicas, sino a la publicidad que invita a correr riesgos."
       },
       "truco": null,
-      "huella": "21dd0df7b456"
+      "huella": "28b3a034e6ba"
     },
     {
       "id": "xc-0016",
@@ -1702,7 +1702,7 @@
           "cita": "■ Mantener la distancia de seguridad\ncon estos vehículos."
         }
       ],
-      "huella": "e2fc570bf078"
+      "huella": "bb1031669ea2"
     },
     {
       "id": "xc-0005",
@@ -1712,7 +1712,7 @@
         "c": "El manual dice que muchos factores de riesgo se pueden evitar, y pone de ejemplo revisar los neumáticos."
       },
       "truco": null,
-      "huella": "b4c5aa35165e"
+      "huella": "8e72109a52d2"
     },
     {
       "id": "xc-0006",
@@ -1722,7 +1722,7 @@
         "b": "Acercarse al de delante es lo contrario de lo que se pide: con lluvia hace falta más distancia, no menos."
       },
       "truco": "Con lluvia, todo «más»: más despacio y más lejos del de delante.",
-      "huella": "321813b6776a"
+      "huella": "ec43abf15480"
     },
     {
       "id": "xc-0007",
@@ -1732,7 +1732,7 @@
         "c": "El choque frontal entre turismos no es el que el manual señala como más frecuente en ciudad."
       },
       "truco": null,
-      "huella": "a96df25715e1"
+      "huella": "9b5f244efe97"
     },
     {
       "id": "xc-0023",
@@ -1752,7 +1752,7 @@
         "c": "El carril no tiene nada que ver: lo que importa es la velocidad."
       },
       "truco": null,
-      "huella": "561056c8e1dc"
+      "huella": "adc4e9b7f8f1"
     },
     {
       "id": "xc-0019",
@@ -1769,7 +1769,7 @@
           "cita": "Cuando un vehículo circula\na una velocidad menor de la permitida\nlleva una velocidad anormalmente reducida."
         }
       ],
-      "huella": "3b14ab04344e"
+      "huella": "832b4b402a0c"
     },
     {
       "id": "xc-0020",
@@ -1779,7 +1779,7 @@
         "b": "El manual la presenta como una de las principales causas de accidentes, no solo como algo que agrava sus consecuencias."
       },
       "truco": null,
-      "huella": "1a88c1ce8019"
+      "huella": "99d8c27a6f42"
     },
     {
       "id": "xc-0021",
@@ -1811,7 +1811,7 @@
         "c": "El manual no lo limita a las vías urbanas: el riesgo es mayor con velocidad excesiva en cualquier vía."
       },
       "truco": null,
-      "huella": "b2df2e819a6e"
+      "huella": "a9aca9e4725e"
     },
     {
       "id": "bm3-0009",
@@ -1828,7 +1828,7 @@
           "cita": "Salvo en caso de inminente peligro, todo conductor, para reducir considerablemente la\nvelocidad de su vehículo"
         }
       ],
-      "huella": "e0e3000a1a75"
+      "huella": "a617d8583e60"
     },
     {
       "id": "bm3-0008",

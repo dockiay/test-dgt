@@ -78,7 +78,7 @@
           "cita": "las personas con\ndiscapacidad que circulan al paso en una silla de ruedas, con o sin motor."
         }
       ],
-      "huella": "1453075d06f6"
+      "huella": "955c2675adfd"
     },
     {
       "id": "xd-0073",
@@ -134,7 +134,7 @@
           "cita": "En ausencia de carril o vía específica, las bicicletas circularán por la calzada."
         }
       ],
-      "huella": "14ca42b6746d"
+      "huella": "029527072796"
     },
     {
       "id": "B2-via-0012",
@@ -144,7 +144,7 @@
         "c": "Es al revés: si se permite que circulen ciclistas, la prioridad sigue siendo de los peatones."
       },
       "truco": "Acera: solo peatones (salvo niños de hasta 12 años en bicicleta con un adulto a pie, si lo permite la ordenanza). Resto de zonas peatonales: el ayuntamiento puede dejar pasar bicicletas y patinetes, pero el peatón tiene prioridad.",
-      "huella": "570255508cec"
+      "huella": "3837725682c6"
     },
     {
       "id": "v2-vmp-0002",
@@ -183,7 +183,7 @@
           "cita": "deberán utilizar un chaleco reflectante de alta visibilidad, de acuerdo con los requisitos de los\nequipos de protección individual, que figura entre la dotación obligatoria del vehículo, cuando\nsalgan de éste y ocupen la calzada o el arcén de las vías interurbanas."
         }
       ],
-      "huella": "b0b8a3060d4a"
+      "huella": "c66fd86d7cde"
     },
     {
       "id": "v2-vmp-0001",
@@ -222,7 +222,7 @@
           "cita": "Los conductores y pasajeros de motocicletas o motocicletas con sidecar, de vehículos\nde tres ruedas y cuadriciclos, de ciclomotores y de vehículos especiales tipo «quad»,\ndeberán utilizar los siguientes elementos de protección:"
         }
       ],
-      "huella": "fe70304c4eea"
+      "huella": "f00b21da0d87"
     },
     {
       "id": "v2-vmp-0005",
@@ -327,7 +327,7 @@
           "cita": "Hay que procurar estar fuera de la zona\nde ángulo muerto de otros vehículos."
         }
       ],
-      "huella": "28feb11e8cb2"
+      "huella": "302a93498c9a"
     },
     {
       "id": "bm9-0001",
@@ -350,7 +350,7 @@
       "id": "bm9-0005",
       "porque": "El límite de velocidad es un máximo, no una velocidad que siempre puedas llevar. Además hay que adaptarla a tu estado, a la vía, al vehículo y su carga, al tiempo y al tráfico, de forma que siempre puedas detenerte dentro de tu campo de visión y ante cualquier obstáculo.",
       "descartes": {
-        "b": "No superar el límite es necesario, pero no basta: según las circunstancias de la vía, del tiempo o del tráfico, puede que tengas que ir más despacio.",
+        "b": "El límite señalizado es un máximo, no la velocidad a la que haya que ir siempre: según las circunstancias de la vía, del tiempo o del tráfico, puede que tengas que ir más despacio.",
         "c": "Llegar a la hora prevista no es ninguna de las circunstancias a las que la norma obliga a adaptar la velocidad."
       },
       "truco": "Pregúntate: ¿podría parar antes de donde deja de ver? Si la respuesta es no, ve más despacio.",
@@ -361,7 +361,7 @@
           "cita": "sus propias condiciones físicas y psíquicas, las características y el\nestado de la vía, del vehículo y de su carga, las condiciones meteorológicas, ambientales y\nde circulación"
         }
       ],
-      "huella": "60c552a7e30b"
+      "huella": "5a0910b38923"
     },
     {
       "id": "bm9-0014",
@@ -398,7 +398,7 @@
         "c": "La norma no hace ninguna excepción de día: la carga no puede ocultar luces, placas ni distintivos en ningún momento."
       },
       "truco": null,
-      "huella": "39f585d8c344"
+      "huella": "3464afa11a14"
     },
     {
       "id": "bm9-0015",
@@ -432,7 +432,7 @@
           "cita": "La superficie acristalada del vehículo deberá permitir, en todo caso, la visibilidad\ndiáfana del conductor sobre toda la vía por la que circule, sin interferencias de láminas o\nadhesivos."
         }
       ],
-      "huella": "a80dfec8ef77"
+      "huella": "15746b7e3f2a"
     },
     {
       "id": "bm9-0007",
@@ -486,7 +486,7 @@
           "cita": "siempre que no superen el 50 por ciento de la masa en vacío del\nvehículo tractor"
         }
       ],
-      "huella": "73e205c2ec7b"
+      "huella": "84bf1463e3b8"
     },
     {
       "id": "bm9-0006",
@@ -503,7 +503,7 @@
           "cita": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o\nefectuar maniobras que impidan o dificulten el adelantamiento."
         }
       ],
-      "huella": "8ecd176f2020"
+      "huella": "0a7767bb1a3b"
     },
     {
       "id": "bm9-0003",
@@ -537,7 +537,7 @@
           "cita": "porque puede hacer que el vehículo pierda el control,\nvuelque o se salga de la carretera."
         }
       ],
-      "huella": "23c3c1cd2c15"
+      "huella": "9d89c42d03dc"
     },
     {
       "id": "bm9-0004",
@@ -615,7 +615,7 @@
         "b": "La velocidad tampoco cambia nada: la prohibición de llevar carga no depende de ella."
       },
       "truco": null,
-      "huella": "59009bdd93a1"
+      "huella": "ee269e04ea85"
     },
     {
       "id": "x1a-0089",
@@ -642,7 +642,7 @@
         "c": "Las antiniebla no son el sustituto de la V-2; la norma exige la luz de cruce junto con la señal de emergencia."
       },
       "truco": "Vehículo especial a 40 km/h o menos: V-2 encendida de día y de noche. Si se avería, luz de cruce y emergencia.",
-      "huella": "c56161b37d08"
+      "huella": "ef0dbd54f847"
     },
     {
       "id": "x1a-0091",
@@ -740,7 +740,7 @@
           "cita": "en situación de parada o estacionamiento, o a una velocidad que no supere los 40 kilómetros\npor hora."
         }
       ],
-      "huella": "12c60c1e5234"
+      "huella": "7f01121ada97"
     },
     {
       "id": "xd-0111",
@@ -791,7 +791,7 @@
           "cita": "los conductores de camiones o furgones con masa máxima autorizada superior a 3.500\nkilogramos, los de vehículos especiales que no estén obligados a circular por el arcén y los\nde conjuntos de vehículos de más de siete metros de longitud"
         }
       ],
-      "huella": "6d35764232de"
+      "huella": "2071b4ea3164"
     },
     {
       "id": "xd-0101",
@@ -1025,7 +1025,7 @@
           "cita": "La tarjeta de inspección técnica o el certificado de características técnicas en el\nsupuesto de ciclomotores."
         }
       ],
-      "huella": "e080d9ff57c9"
+      "huella": "26f6398ddab0"
     },
     {
       "id": "C-doc-0004",
@@ -1096,7 +1096,7 @@
           "cita": "a) Vehículos de escuela de conductores de las categorías M1 y L:\nAntigüedad:\nHasta dos años: Exento.\nDe dos a cinco años: Anual."
         }
       ],
-      "huella": "853a77d1fb24"
+      "huella": "51e55bf952e6"
     },
     {
       "id": "res-itv-0002",
@@ -1113,7 +1113,7 @@
           "cita": "Resto L: Vehículos de motor de dos o tres ruedas, gemelas o no, y cuadriciclos, destinados a circular\nHasta 4 años: Exento."
         }
       ],
-      "huella": "8eca0e76d980"
+      "huella": "652e5b6e6b3d"
     },
     {
       "id": "res-itv-0003",
@@ -1147,7 +1147,7 @@
           "cita": "Los defectos calificados como graves son defectos que inhabilitan al vehículo para\ncircular por las vías públicas excepto para su traslado al taller"
         }
       ],
-      "huella": "62d21adeaf3c"
+      "huella": "d4ea3be8a161"
     },
     {
       "id": "v5d-itv-0001",
@@ -1213,7 +1213,7 @@
           "cita": "Los vehículos que hayan superado favorablemente la inspección técnica periódica\ndeberán colocar el correspondiente distintivo V-19"
         }
       ],
-      "huella": "6cd571e0b77d"
+      "huella": "eb4ec40fe3ef"
     },
     {
       "id": "res-def-0005",
@@ -1333,7 +1333,7 @@
           "cita": "Dichos automóviles podrán llevar enganchado un\nremolque cuya masa máxima autorizada no exceda de 750 kg."
         }
       ],
-      "huella": "1acf7bdd7263"
+      "huella": "f3a09993b42f"
     },
     {
       "id": "res-seg-0001",
@@ -1350,7 +1350,7 @@
           "cita": "La cobertura del seguro de suscripción obligatoria tampoco alcanzará a los daños en\nlos bienes sufridos por el vehículo asegurado"
         }
       ],
-      "huella": "7639ba51e806"
+      "huella": "b056d93f5417"
     },
     {
       "id": "res-seg-0002",
@@ -1394,7 +1394,7 @@
           "cita": "estará obligado a suscribir y mantener en vigor un contrato de seguro por cada\nvehículo de que sea titular"
         }
       ],
-      "huella": "ab1b302314b3"
+      "huella": "c054329a11d6"
     },
     {
       "id": "C-doc-0006",
@@ -1414,7 +1414,7 @@
         "b": "400 euros sería el doble, que es lo que corresponde cuando la infracción original es leve, no grave."
       },
       "truco": "No identificar al conductor: leve, el doble; grave o muy grave, el triple.",
-      "huella": "4ddb4ad14244"
+      "huella": "2adf9a523eaf"
     },
     {
       "id": "x1b-0118",
@@ -1434,7 +1434,7 @@
         "b": "Siempre hay un responsable: si no se identifica al conductor ni hay conductor habitual, lo es el titular."
       },
       "truco": null,
-      "huella": "ef03ea0d4cb7"
+      "huella": "08f3b1ead35c"
     },
     {
       "id": "x1b-0120",
@@ -1471,7 +1471,7 @@
         "b": "La provincia de matriculación no limita nada: puedes elegir la estación ITV."
       },
       "truco": null,
-      "huella": "acf45453d084"
+      "huella": "6823625c041d"
     },
     {
       "id": "xb-0084",
@@ -1532,7 +1532,7 @@
         "c": "La norma no cuenta los plazos desde el 1 de enero: se cuentan desde la fecha favorable o, en este caso, desde la caducidad anterior."
       },
       "truco": "Pasarla hasta 30 días antes no te quita días: el plazo sigue contando desde la fecha en que caducaba.",
-      "huella": "ce6aa10571c7"
+      "huella": "5cdade242cae"
     },
     {
       "id": "xb-0080",
@@ -1598,7 +1598,7 @@
           "cita": "Motocicletas con una cilindrada máxima de 125 cm3, una potencia máxima\nde 11 kW"
         }
       ],
-      "huella": "a0c57c982411"
+      "huella": "f51230e2f30a"
     },
     {
       "id": "C-perm-0011",
@@ -1669,7 +1669,7 @@
           "cita": "Automóviles distintos de los que autoriza a conducir el permiso de las clases\nD1 o D, cuya masa máxima autorizada exceda de 3.500 kg que estén\ndiseñados y construidos para el transporte de no más de ocho pasajeros"
         }
       ],
-      "huella": "e9e1712abdce"
+      "huella": "68ffbb6c101c"
     },
     {
       "id": "C-perm-0014",
@@ -1686,7 +1686,7 @@
           "cita": "Automóviles cuya masa máxima autorizada no exceda de 3.500 kg que\nestén diseñados y construidos para el transporte de no más de ocho pasajeros\nademás del conductor."
         }
       ],
-      "huella": "2074a436af26"
+      "huella": "e6efa9c003bc"
     },
     {
       "id": "C-perm-0015",
@@ -1720,7 +1720,7 @@
           "cita": "Una vez que hayan concluido los motivos que dieron lugar a su suspensión, el plazo de un año continuará\ncontabilizándose desde el momento en que hubiera quedado antes de la suspensión"
         }
       ],
-      "huella": "932a6dc60d10"
+      "huella": "96630a123d32"
     },
     {
       "id": "xb-0047",
@@ -1935,7 +1935,7 @@
           "cita": "Que no haya transcurrido el plazo de seis meses, como máximo, contado desde que\nsu titular adquiera su residencia normal en España"
         }
       ],
-      "huella": "3323e0bcb0cb"
+      "huella": "67acc655c255"
     },
     {
       "id": "xb-0053",
@@ -1952,7 +1952,7 @@
           "cita": "Cuando se trate de un permiso de conducción no sujeto a un período de vigencia\ndeterminado, su titular deberá proceder a su renovación, una vez transcurridos dos años\ndesde que establezca su residencia normal en España"
         }
       ],
-      "huella": "5694607255b6"
+      "huella": "938cc974cc86"
     },
     {
       "id": "xb-0054",
@@ -1969,7 +1969,7 @@
           "cita": "Cuando se trate de un permiso de conducción no sujeto a un período de vigencia\ndeterminado, su titular deberá proceder a su renovación, una vez transcurridos dos años\ndesde que establezca su residencia normal en España"
         }
       ],
-      "huella": "ed896a99e126"
+      "huella": "1e42a161056a"
     },
     {
       "id": "xb-0050",
@@ -2084,7 +2084,7 @@
           "cita": "que autoriza a conducir el permiso de la clase B y un remolque o\nsemirremolque cuya masa máxima autorizada no exceda de 3.500 kg"
         }
       ],
-      "huella": "67bd751cbc6d"
+      "huella": "80d533b2c437"
     },
     {
       "id": "C-perm-0006",
@@ -2128,7 +2128,7 @@
           "cita": "combinación exceda de 3.500 kg, pero no sobrepase los 4.250 kg."
         }
       ],
-      "huella": "4922836da0b7"
+      "huella": "e7685b04673b"
     },
     {
       "id": "xb-0055",
@@ -2184,7 +2184,7 @@
           "cita": "Para conducir vehículos especiales agrícolas autopropulsados o sus conjuntos, que\ntengan una masa o dimensiones máximas autorizadas superiores a las indicadas en el\npárrafo anterior o cuya velocidad máxima por construcción exceda de 45 km/h, se requerirá\npermiso de la clase B en todo caso."
         }
       ],
-      "huella": "273033c8b681"
+      "huella": "cc930dcdae75"
     },
     {
       "id": "C-perm-0010",
@@ -2444,7 +2444,7 @@
         "c": "La segunda bonificación es de un punto, no de dos, y no se puede pasar de 15."
       },
       "truco": "Con los 12 puntos completos y sin sanciones: +2 a los tres años y +1 a los seis. Tope: 15.",
-      "huella": "b1a2a7c4a6e2"
+      "huella": "e753cd1b5c73"
     },
     {
       "id": "xb-0059",

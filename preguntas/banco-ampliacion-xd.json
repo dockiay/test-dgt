@@ -704,11 +704,11 @@
         "c": "Bajar las ventanillas y no usar el aire acondicionado."
       },
       "correcta": "b",
-      "explicacion": "En días de mucho calor, la DGT recomienda usar el aire acondicionado entre 20 y 23 grados, hacer más descansos durante el viaje y beber mucha agua.",
+      "explicacion": "En días de mucho calor, la DGT recomienda hacer más descansos durante el viaje y beber mucha agua.",
       "fuente": {
         "norma": "MANUAL_DGT",
         "articulo": "Tema 14, Conducir con calor (p. 363)",
-        "cita": "entre 20 y 23 grados.\n■ Haz más descansos durante el viaje.",
+        "cita": "Haz más descansos durante el viaje.",
         "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
         "version_consultada": "2024-10"
       },
@@ -721,7 +721,7 @@
       "imagen_requerida": null,
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "Corregida tras la revisión independiente del 24/11/2026."
     },
     {
       "id": "xd-0025",
@@ -1065,99 +1065,6 @@
       "origen": {
         "tipo": "normativa_relacionada",
         "ref": "RGC art. 97",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0039",
-      "tema": "tuneles",
-      "subtema": "parada",
-      "materia": 6,
-      "enunciado": "¿Está permitido parar un momento dentro de un túnel para consultar el navegador?",
-      "opciones": {
-        "a": "No, está prohibido parar en los túneles.",
-        "b": "Sí, si enciende la señal de emergencia.",
-        "c": "Sí, si la parada dura menos de dos minutos."
-      },
-      "correcta": "a",
-      "explicacion": "En los túneles, pasos inferiores y tramos afectados por la señal «Túnel» está prohibido parar y, por tanto, también estacionar.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "94.1.a",
-        "cita": "En las curvas y cambios de rasante de visibilidad reducida, en sus proximidades y en los túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel».",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 94",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0040",
-      "tema": "luces",
-      "subtema": "antiniebla",
-      "materia": 6,
-      "enunciado": "De noche hay niebla en una carretera sin iluminar y no viene nadie. ¿Puede llevar la luz antiniebla delantera junto con la de largo alcance?",
-      "opciones": {
-        "a": "No, la antiniebla delantera solo puede usarse sin ninguna otra luz.",
-        "b": "Sí, la antiniebla delantera puede usarse incluso con la de largo alcance.",
-        "c": "No, la antiniebla delantera solo puede usarse con la de posición."
-      },
-      "correcta": "b",
-      "explicacion": "Con niebla u otras condiciones que reducen la visibilidad, la luz antiniebla delantera puede usarse sola, con la de corto alcance o incluso con la de largo alcance.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "106.2",
-        "cita": "La luz antiniebla delantera puede utilizarse aislada o simultáneamente con la de corto alcance o, incluso, con la de largo alcance.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 106",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0041",
-      "tema": "luces",
-      "subtema": "infraccion",
-      "materia": 6,
-      "enunciado": "Circular sin alumbrado con una lluvia intensa que disminuye sensiblemente la visibilidad, ¿qué tipo de infracción es?",
-      "opciones": {
-        "a": "Grave.",
-        "b": "Leve.",
-        "c": "Muy grave."
-      },
-      "correcta": "a",
-      "explicacion": "La circulación sin alumbrado en situaciones de falta o disminución de la visibilidad es una infracción grave.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "106.3",
-        "cita": "El hecho de circular sin alumbrado en situaciones de falta o disminución de la\nvisibilidad tendrá la consideración de infracción grave",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 106",
         "minuto": null
       },
       "imagen": null,
@@ -1725,68 +1632,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0062",
-      "tema": "usuarios_vulnerables",
-      "subtema": "ciclistas",
-      "materia": 8,
-      "enunciado": "Un grupo de ciclistas circula junto por una carretera. ¿Deben mantener entre ellos la separación de seguridad exigida a los vehículos?",
-      "opciones": {
-        "a": "No, pueden ir sin mantenerla, extremando la atención para no alcanzarse.",
-        "b": "Sí, al menos 5 metros entre cada una de las bicicletas del grupo.",
-        "c": "Sí, al menos 2 segundos entre cada una de las bicicletas del grupo."
-      },
-      "correcta": "a",
-      "explicacion": "Los ciclistas que circulan en grupo pueden hacerlo sin mantener la separación de seguridad entre ellos, extremando la atención para evitar alcances.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "54.1",
-        "cita": "se permitirá a los conductores de bicicletas circular en grupo sin mantener\ntal separación, extremando en esta ocasión la atención, a fin de evitar alcances entre ellos",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 54",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0063",
-      "tema": "usuarios_vulnerables",
-      "subtema": "ciclistas",
-      "materia": 8,
-      "enunciado": "Quiere adelantar a un ciclista y por el arcén contrario se acerca otro ciclista. Si el adelantamiento le pondría en peligro, ¿qué debe hacer?",
-      "opciones": {
-        "a": "No adelantar, aunque ese ciclista vaya por el arcén.",
-        "b": "Adelantar, porque quien va por el arcén no se ve afectado.",
-        "c": "Adelantar tocando el claxon para avisarle."
-      },
-      "correcta": "a",
-      "explicacion": "El reglamento prohíbe adelantar poniendo en peligro o entorpeciendo a quienes circulan en sentido contrario, incluso si van por el arcén.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "85.4",
-        "cita": "Queda prohibido adelantar poniendo en peligro o entorpeciendo a quienes circulen en sentido contrario, incluso si circulan por el arcén.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 85",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0065",
       "tema": "usuarios_vulnerables",
       "subtema": "ciclistas",
@@ -1989,37 +1834,6 @@
         "norma": "RGC",
         "articulo": "118.3",
         "cita": "todos los conductores de estos vehículos que circulen entre el ocaso y la salida del sol, o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, deberán hacer uso al menos de un elemento luminoso o reflectante",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 118",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0074",
-      "tema": "usuarios_vulnerables",
-      "subtema": "ciclistas",
-      "materia": 8,
-      "enunciado": "Un repartidor adulto trabaja circulando en bicicleta por las calles de una ciudad. ¿Está obligado a llevar casco?",
-      "opciones": {
-        "a": "No, en ciudad el casco solo es obligatorio para menores de 16.",
-        "b": "Sí, por desarrollar su actividad profesional en bicicleta.",
-        "c": "No, salvo que circule de noche o con mala visibilidad."
-      },
-      "correcta": "b",
-      "explicacion": "Quienes desarrollan su actividad profesional en bicicleta deben llevar casco homologado o certificado también en vías urbanas y travesías.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "118.2",
-        "cita": "Los conductores que desarrollen su actividad profesional circulando en bicicletas y demás ciclos, están obligados a utilizar adecuadamente abrochado casco de protección homologado o certificado en vías urbanas y travesías.",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
         "version_consultada": "2026-06-26"
       },
@@ -2407,68 +2221,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0093",
-      "tema": "carga",
-      "subtema": "disposicion",
-      "materia": 9,
-      "enunciado": "La carga de su furgoneta va suelta y hace mucho ruido al circular. ¿Es correcto?",
-      "opciones": {
-        "a": "Sí, siempre que la carga no sobresalga del vehículo.",
-        "b": "No, la carga no debe producir ruidos ni molestias evitables.",
-        "c": "Sí, siempre que circule fuera de poblado."
-      },
-      "correcta": "b",
-      "explicacion": "La carga y sus accesorios deben ir dispuestos y sujetos de modo que no produzcan ruido, polvo u otras molestias que puedan evitarse.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "14.1.c",
-        "cita": "c) Producir ruido, polvo u otras molestias que puedan ser evitadas.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 14",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0094",
-      "tema": "carga",
-      "subtema": "disposicion",
-      "materia": 9,
-      "enunciado": "Lleva en la caja de su furgoneta unas cajas sin sujetar que se desplazan en las curvas. ¿Es correcto?",
-      "opciones": {
-        "a": "Sí, siempre que las cajas no sobresalgan de la caja del vehículo.",
-        "b": "Sí, siempre que circule a velocidad moderada.",
-        "c": "No, la carga debe ir sujeta para que no se desplace peligrosamente."
-      },
-      "correcta": "c",
-      "explicacion": "La carga debe ir dispuesta y, si es necesario, sujeta de forma que no pueda arrastrar, caer ni desplazarse de manera peligrosa.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "14.1.a",
-        "cita": "a) Arrastrar, caer total o parcialmente o desplazarse de manera peligrosa.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 14",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0095",
       "tema": "carga",
       "subtema": "dimensiones",
@@ -2485,68 +2237,6 @@
         "norma": "RGC",
         "articulo": "15.1",
         "cita": "En los de tracción animal, se entiende por proyección la del vehículo propiamente dicho prolongada hacia adelante, con su misma anchura, sin sobrepasar la cabeza del animal de tiro más próximo a aquél.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 15",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0097",
-      "tema": "carga",
-      "subtema": "senalizacion",
-      "materia": 9,
-      "enunciado": "La carga sobresale por detrás ocupando toda la anchura posterior del vehículo. ¿Cómo debe señalizarse con paneles V-20?",
-      "opciones": {
-        "a": "Con un solo panel colocado en el centro de la carga.",
-        "b": "Con dos paneles colocados uno encima del otro en el centro.",
-        "c": "Con dos paneles, uno en cada extremo, en forma de «v» invertida."
-      },
-      "correcta": "c",
-      "explicacion": "Si la carga sobresale por toda la anchura posterior, se colocan dos paneles V-20, uno en cada extremo, formando una «v» invertida.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "15.6",
-        "cita": "se colocarán transversalmente dos paneles de señalización, cada uno en un extremo de la carga o de la anchura del material que sobresalga. Ambos paneles deberán colocarse de tal manera que formen una geometría de “v” invertida.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 15",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0099",
-      "tema": "carga",
-      "subtema": "dimensiones",
-      "materia": 9,
-      "enunciado": "En un turismo, ¿cuánto puede sobresalir por detrás una carga divisible?",
-      "opciones": {
-        "a": "Hasta un 15 % de la longitud del vehículo.",
-        "b": "Hasta un 10 % de la longitud del vehículo.",
-        "c": "Nada; solo puede sobresalir la indivisible."
-      },
-      "correcta": "b",
-      "explicacion": "En los vehículos no destinados exclusivamente al transporte de mercancías, la carga puede sobresalir por detrás hasta un 10 % de su longitud, y un 15 % si es indivisible.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "15.3",
-        "cita": "En el resto de los vehículos no destinados exclusivamente al transporte de mercancías la carga podrá sobresalir por la parte posterior hasta un 10 por ciento de su longitud",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
         "version_consultada": "2026-06-26"
       },
@@ -2646,130 +2336,6 @@
       "origen": {
         "tipo": "normativa_relacionada",
         "ref": "RGC art. 38",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0105",
-      "tema": "vehiculos_especiales",
-      "subtema": "carga",
-      "materia": 9,
-      "enunciado": "Una máquina de obras (vehículo especial) se desplaza por una carretera. ¿Puede llevar carga?",
-      "opciones": {
-        "a": "Sí, siempre que la carga no sobresalga de la máquina.",
-        "b": "No, salvo que esté destinada al transporte especial y autorizada.",
-        "c": "Sí, siempre que lleve encendida la señal luminosa V-2."
-      },
-      "correcta": "b",
-      "explicacion": "Los vehículos especiales no pueden circular con carga, salvo los destinados específicamente a servicios de transporte especial y con la autorización correspondiente.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "71.1",
-        "cita": "Tampoco podrán circular los vehículos especiales\ntransportando carga alguna, salvo los específicamente destinados a prestar servicios de\ntransporte especial",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 71",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0106",
-      "tema": "vehiculos_especiales",
-      "subtema": "uso_via",
-      "materia": 9,
-      "enunciado": "Una cosechadora (vehículo especial) se desplaza por una carretera. ¿Puede hacer en la vía las tareas a las que está destinada?",
-      "opciones": {
-        "a": "No, solo puede usar la vía para desplazarse.",
-        "b": "Sí, si lleva encendida la señal V-2.",
-        "c": "Sí, si circula por el arcén derecho."
-      },
-      "correcta": "a",
-      "explicacion": "Los vehículos especiales solo pueden usar las vías para desplazarse y no pueden realizar en ellas sus tareas, salvo los que trabajan en la construcción, reparación o conservación de esas vías.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "71.1",
-        "cita": "Los vehículos especiales sólo pueden utilizar las vías objeto de la legislación de tráfico\npara desplazarse, no pudiendo realizar las tareas para las que estén destinados",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 71",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0108",
-      "tema": "vehiculos_especiales",
-      "subtema": "v2",
-      "materia": 9,
-      "enunciado": "La señal luminosa V-2 de un vehículo especial que circula a 25 km/h se ha averiado. ¿Qué debe utilizar en su lugar?",
-      "opciones": {
-        "a": "La luz de largo alcance de forma continuada.",
-        "b": "La luz de cruce junto con la señal de emergencia.",
-        "c": "La luz antiniebla trasera de forma continuada."
-      },
-      "correcta": "b",
-      "explicacion": "Si se avería la señal V-2, debe usarse la luz de cruce junto con los intermitentes en modo de señal de emergencia.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "71.3",
-        "cita": "caso de avería de esta señal, deberá utilizarse la luz de cruce junto con las luces\nindicadoras de dirección con señal de emergencia.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 71",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0109",
-      "tema": "vehiculos_especiales",
-      "subtema": "v2",
-      "materia": 9,
-      "enunciado": "¿Cómo advierte un tractor agrícola su presencia en la vía?",
-      "opciones": {
-        "a": "Con la señal luminosa V-1.",
-        "b": "Con la señal luminosa V-2.",
-        "c": "Con el claxon cada 100 metros."
-      },
-      "correcta": "b",
-      "explicacion": "Los tractores y la maquinaria agrícola, los vehículos de obras o servicios, los transportes especiales y los de auxilio en vías públicas advierten su presencia con la señal luminosa V-2.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "113",
-        "cita": "advertirán su presencia mediante la utilización de la señal luminosa V-2 a que se refiere el\nanexo XI del Reglamento General de Vehículos.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 113",
         "minuto": null
       },
       "imagen": null,
@@ -2912,37 +2478,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0115",
-      "tema": "vehiculos_pesados",
-      "subtema": "cruce",
-      "materia": 9,
-      "enunciado": "En una curva de una carretera estrecha va a cruzarse con un camión que viene de frente. ¿Qué debe hacer?",
-      "opciones": {
-        "a": "Acelerar para cruzarse con él cuanto antes.",
-        "b": "Moderar la velocidad y, si es preciso, detenerse.",
-        "c": "Encender la luz de largo alcance para que le vea."
-      },
-      "correcta": "b",
-      "explicacion": "Cuando las circunstancias de la vía, de los vehículos o del tiempo no permiten cruzarse con seguridad con otro vehículo, hay que moderar la velocidad y, si es preciso, detenerse.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "46.1.i",
-        "cita": "En el cruce con otro vehículo, cuando las circunstancias de la vía, de los vehículos o las meteorológicas o ambientales no permitan realizarlo con seguridad.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 46",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0116",
       "tema": "visibilidad",
       "subtema": "angulo_muerto",
@@ -3036,37 +2571,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xd-0121",
-      "tema": "vehiculos_pesados",
-      "subtema": "autobus",
-      "materia": 9,
-      "enunciado": "¿Cómo debe hacer el conductor de un autobús las paradas y las arrancadas?",
-      "opciones": {
-        "a": "Con rapidez, para no entorpecer la circulación.",
-        "b": "En el centro del carril, para que los viajeros bajen mejor.",
-        "c": "Sin sacudidas y lo más cerca posible del borde derecho."
-      },
-      "correcta": "c",
-      "explicacion": "En el transporte colectivo, las paradas y arrancadas se hacen sin sacudidas ni movimientos bruscos y lo más cerca posible del borde derecho de la calzada.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "11.1",
-        "cita": "El conductor deberá efectuar las paradas y arrancadas sin sacudidas ni movimientos bruscos, lo más cerca posible del borde derecho de la calzada",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 11",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xd-0123",
       "tema": "vehiculos_pesados",
       "subtema": "carriles",
@@ -3089,68 +2593,6 @@
       "origen": {
         "tipo": "normativa_relacionada",
         "ref": "RGC art. 31",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0125",
-      "tema": "parada_estacionamiento",
-      "subtema": "colocacion",
-      "materia": 13,
-      "enunciado": "Estaciona en una calle sin plazas delimitadas. ¿Cómo debe dejar su vehículo?",
-      "opciones": {
-        "a": "Dejando al menos un metro libre por delante y por detrás.",
-        "b": "Separado al menos 50 centímetros del bordillo.",
-        "c": "De forma que permita aprovechar mejor el espacio restante."
-      },
-      "correcta": "c",
-      "explicacion": "Quien para o estaciona debe hacerlo de forma que permita la mejor utilización del espacio disponible que queda.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "92.2",
-        "cita": "Todo conductor que pare o estacione su vehículo deberá hacerlo de forma que permita la mejor utilización del restante espacio disponible.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 92",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xd-0126",
-      "tema": "parada_estacionamiento",
-      "subtema": "autocaravanas",
-      "materia": 13,
-      "enunciado": "Estaciona su autocaravana en la vía pública. ¿Puede desplegar el toldo lateral?",
-      "opciones": {
-        "a": "No, no puede extender elementos que desborden su perímetro.",
-        "b": "Sí, si no ocupa más de un metro alrededor del vehículo.",
-        "c": "Sí, pero solo durante el día."
-      },
-      "correcta": "a",
-      "explicacion": "Las autocaravanas estacionadas no pueden extender elementos propios que desborden el perímetro del vehículo, es decir, su proyección en planta.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "92.4.a",
-        "cita": "a) Sin extender elementos propios que desborden el perímetro del vehículo, considerando como tal la proyección en planta del mismo.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 92",
         "minuto": null
       },
       "imagen": null,

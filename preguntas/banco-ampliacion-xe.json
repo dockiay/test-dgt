@@ -1589,16 +1589,16 @@
       "materia": 14,
       "enunciado": "Los frenos se han calentado mucho por usarlos demasiado en poco tiempo y frenan peor. ¿Qué indica el manual de la DGT?",
       "opciones": {
-        "a": "Soltar el pedal para que se enfríen y no acelerar.",
+        "a": "Soltar el pedal de freno para que se enfríen.",
         "b": "Pisar el freno con más fuerza hasta que vuelva a responder.",
         "c": "Poner punto muerto y frenar solo con el freno de mano."
       },
       "correcta": "a",
-      "explicacion": "Según el manual de la DGT, si los frenos se calientan mucho por usarlos demasiado en poco tiempo, hay que soltar el pedal de freno para que se enfríen y no acelerar.",
+      "explicacion": "Según el manual de la DGT, si los frenos se calientan mucho por usarlos demasiado en poco tiempo, hay que soltar el pedal de freno para que se enfríen.",
       "fuente": {
         "norma": "MANUAL_DGT",
         "articulo": "Tema 5, ¿Qué hacer cuando fallan los frenos? (p. 96)",
-        "cita": "Soltar el pedal de freno para que se enfríen. No acelerar.",
+        "cita": "Soltar el pedal de freno\npara que se enfríen.",
         "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
         "version_consultada": "2024-10"
       },
@@ -1611,7 +1611,7 @@
       "imagen_requerida": null,
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "Corregida tras la revisión independiente del 24/11/2026."
     },
     {
       "id": "xe-0059",
@@ -1661,37 +1661,6 @@
         "norma": "MANUAL_DGT",
         "articulo": "Tema 5, Presión de inflado (p. 100)",
         "cita": "Debes controlar la presión de los neumáticos de tu vehículo por lo menos una vez al mes.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 5",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xe-0061",
-      "tema": "neumaticos",
-      "subtema": "presion",
-      "materia": 14,
-      "enunciado": "¿Qué le ocurre a un neumático que circula con menos presión de la recomendada?",
-      "opciones": {
-        "a": "Se calienta, se deforma y se desgasta antes.",
-        "b": "Se agarra mejor a la carretera y dura más.",
-        "c": "Gasta menos combustible y es más estable."
-      },
-      "correcta": "a",
-      "explicacion": "Según el manual de la DGT, con una presión menor de la recomendada el neumático se calienta, se deforma y se desgasta antes; además se gasta más combustible y el vehículo es menos estable.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 5, Presión de inflado (p. 100)",
-        "cita": "El neumático se calienta, se deforma y se desgasta antes.",
         "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
         "version_consultada": "2024-10"
       },
@@ -2263,37 +2232,6 @@
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
-    },
-    {
-      "id": "xe-0080",
-      "tema": "seguridad_pasiva",
-      "subtema": "puntos",
-      "materia": 15,
-      "enunciado": "¿Cuántos puntos pierde el conductor sancionado en firme por no usar, o no usar de forma adecuada, el cinturón de seguridad?",
-      "opciones": {
-        "a": "2 puntos.",
-        "b": "4 puntos.",
-        "c": "6 puntos."
-      },
-      "correcta": "b",
-      "explicacion": "No hacer uso, o no hacerlo de forma adecuada, del cinturón, los sistemas de retención infantil, el casco y demás elementos de protección obligatorios supone la pérdida de 4 puntos.",
-      "fuente": {
-        "norma": "LSV",
-        "articulo": "Anexo II.15",
-        "cita": "15. No hacer uso, o no hacerlo de forma adecuada, del cinturón de seguridad, sistemas de retención infantil, casco y demás elementos de protección obligatorios.",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "LSV anexo II",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": "La detracción (4 puntos) figura en la columna de puntos del anexo II, junto al ordinal 15."
     },
     {
       "id": "xe-0081",
@@ -2994,68 +2932,6 @@
         "norma": "MANUAL_DGT",
         "articulo": "Tema 5, El casco (p. 117)",
         "cita": "Reparte la fuerza del golpe por todo el casco para que no se concentre solo en un punto de la cabeza.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 5",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xe-0106",
-      "tema": "seguridad_activa",
-      "subtema": "adas",
-      "materia": 15,
-      "enunciado": "¿Qué hace el control de tracción?",
-      "opciones": {
-        "a": "Frena la rueda que gira más rápido que las demás para que no patine.",
-        "b": "Mantiene la velocidad elegida sin que el conductor pise los pedales.",
-        "c": "Avisa cuando el vehículo se sale del carril sin poner el intermitente."
-      },
-      "correcta": "a",
-      "explicacion": "El control de tracción detecta si una rueda gira más rápido que las demás y la frena para que no patine, lo que ayuda a conservar la estabilidad en curvas, cuestas o con lluvia.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 5, Control de tracción (p. 104)",
-        "cita": "Sistema de seguridad que identifica si una rueda está girando más rápido que las demás y la frena para que no patine.",
-        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-        "version_consultada": "2024-10"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "Manual DGT tema 5",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "xe-0107",
-      "tema": "seguridad_activa",
-      "subtema": "adas",
-      "materia": 15,
-      "enunciado": "¿Para qué sirve el control electrónico de estabilidad?",
-      "opciones": {
-        "a": "Para que las ruedas no se bloqueen al frenar.",
-        "b": "Para que el vehículo siga la trayectoria que marca el volante.",
-        "c": "Para encender las luces de forma automática."
-      },
-      "correcta": "b",
-      "explicacion": "El control electrónico de estabilidad ayuda a que el vehículo siga el camino que marca el volante y no se desvíe cuando gira menos o más de lo que pide el conductor, por ejemplo al esquivar un obstáculo.",
-      "fuente": {
-        "norma": "MANUAL_DGT",
-        "articulo": "Tema 5, Control electrónico de estabilidad (p. 104)",
-        "cita": "Sistema de seguridad que ayuda al vehículo a seguir en el camino que marca el volante y a no desviarse cuando no gira todo lo que le pide el conductor o gira demasiado.",
         "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
         "version_consultada": "2024-10"
       },

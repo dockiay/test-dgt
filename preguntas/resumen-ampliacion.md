@@ -1,22 +1,24 @@
 # Ampliación del banco (24/11/2026)
 
-**731 preguntas nuevas** escritas desde la norma (no salen de ningún vídeo), en seis bancos `banco-ampliacion-*.json`. El banco pasa de 758 a **1.489** preguntas (unas 1.690 con los vídeos 2-5 del PR #19). Cobertura antes y después: `cobertura-antes.md` y `cobertura.md` (las genera `tools/cobertura.py`).
+**707 preguntas nuevas** escritas desde la norma (no salen de ningún vídeo), en seis bancos `banco-ampliacion-*.json`. El banco pasa de 758 a **1.465** preguntas (unas 1.670 con los vídeos 2-5 del PR #19). Cobertura antes y después: `cobertura-antes.md` y `cobertura.md` (las genera `tools/cobertura.py`).
 
 | Banco | Prefijo | Preguntas | Contenido |
 |---|---|---|---|
 | banco-ampliacion-x1a.json | x1a- | 127 | Materia 1, RGC arts. 1-90: sentido de circulación, velocidades, distancias, prioridad, vehículos prioritarios, incorporaciones, maniobras, adelantamiento |
-| banco-ampliacion-x1b.json | x1b- | 99 | Materia 1, RGC arts. 90-173: parada y estacionamiento, luces, advertencias, señales de agentes, semáforos, obras, catálogo de señales (con imagen), marcas viales; infracciones y multas (LSV 75-82, anexo IV) |
-| banco-ampliacion-xb.json | xb- | 121 | Materias 4 (pruebas de alcohol y drogas, delitos, factores del conductor), 10 (permiso, puntos, documentación del vehículo, ITV, seguro) y 12 (carga, personas, remolques) |
+| banco-ampliacion-x1b.json | x1b- | 98 | Materia 1, RGC arts. 90-173: parada y estacionamiento, luces, advertencias, señales de agentes, semáforos, obras, catálogo de señales (con imagen), marcas viales; infracciones y multas (LSV 75-82, anexo IV) |
+| banco-ampliacion-xb.json | xb- | 120 | Materias 4 (pruebas de alcohol y drogas, delitos, factores del conductor), 10 (permiso, puntos, documentación del vehículo, ITV, seguro) y 12 (carga, personas, remolques) |
 | banco-ampliacion-xc.json | xc- | 131 | Materias 2 (accidentes), 3 (actitudes), 5 (distancias y frenado) y 7 (la vía) |
-| banco-ampliacion-xd.json | xd- | 114 | Materias 6 (meteorología, noche, túneles), 8 (vulnerables), 9 (tipo de vehículo) y 13 (abandonar el vehículo) |
-| banco-ampliacion-xe.json | xe- | 139 | Materias 11 (accidente y primeros auxilios), 14 (mecánica), 15 (equipos de seguridad) y 16 (conducción eficiente) |
+| banco-ampliacion-xd.json | xd- | 96 | Materias 6 (meteorología, noche, túneles), 8 (vulnerables), 9 (tipo de vehículo) y 13 (abandonar el vehículo) |
+| banco-ampliacion-xe.json | xe- | 135 | Materias 11 (accidente y primeros auxilios), 14 (mecánica), 15 (equipos de seguridad) y 16 (conducción eficiente) |
 
-- Fuentes: RGC 322, Manual DGT 240 (solo temas no normativos), LSV 69, RGV 46, catálogo de señales 18, RGCOND 12, ITV 9, CP 8, seguro 7. 29 llevan imagen de la biblioteca (`img/`), ninguna pendiente.
+- Fuentes: RGC 302, Manual DGT 237 (solo temas no normativos), LSV 68, RGV 46, catálogo de señales 18, RGCOND 12, ITV 9, CP 8, seguro 7. 29 llevan imagen de la biblioteca (`img/`), ninguna pendiente.
 - Todas pasan `preguntas/scripts/comprobar_lote.py`: cita literal en el texto consolidado y única, sin duplicar preguntas existentes (se quitaron 21 casi duplicadas entre estos bancos y 60 que coincidían con las de los vídeos 2-5 del PR #19, que tienen preferencia), opciones equilibradas, explicación que se entiende sola. Respuestas correctas repartidas a/b/c.
 - RGC: de 101 a 145 artículos con preguntas.
 
-## Pendiente
-- Revisión independiente de las 791 y de las parejas nuevas del «¿por qué?» (`porques-parejas-ampliacion.json`, 2.012 parejas).
+## Revisión independiente (24/11/2026)
+- Veredictos en `/mnt/project-files/preguntas/revision-ampliacion.json`: de 731, 726 ok, 4 corregir y 1 rechazar (xb-0095: la LSV vigente, art. 76.u, califica de grave la ocupación excesiva). Aplicadas las 4 correcciones (x1b-0012, x1b-0128, xe-0058, xd-0024) y la nota de x1b-0026.
+- Quitadas otras 23 que el revisor encontró duplicadas entre bancos con distintas palabras.
+- Pendiente: revisión de las parejas nuevas del «¿por qué?» (`porques-parejas-ampliacion.json`, 1.960 parejas; 42 marcadas `nueva_tras_revision`).
 
 ## Temas dejados fuera por dudosos (para el revisor)
 - RGC 48.1.a.2º frente a 48.1.h: límites de los vehículos de tres ruedas, se contradicen.

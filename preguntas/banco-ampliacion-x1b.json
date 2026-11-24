@@ -316,7 +316,7 @@
       "tema": "parada_estacionamiento",
       "subtema": "lugares_prohibidos",
       "materia": 1,
-      "enunciado": "¿Puede estacionar un turismo particular en una zona señalizada para carga y descarga?",
+      "enunciado": "Durante el horario señalizado de carga y descarga, ¿puede estacionar un turismo particular en esa zona?",
       "opciones": {
         "a": "No, está prohibido estacionar en las zonas señalizadas para carga y descarga.",
         "b": "Sí, siempre que deje una nota con su teléfono.",
@@ -340,7 +340,7 @@
       "imagen_requerida": null,
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "Corregida tras la revisión independiente del 24/11/2026."
     },
     {
       "id": "x1b-0014",
@@ -657,7 +657,7 @@
       "tema": "infracciones_sanciones",
       "subtema": "calificacion",
       "materia": 6,
-      "enunciado": "Deslumbrar con el alumbrado a otros usuarios de la vía, ¿qué tipo de infracción es?",
+      "enunciado": "Según el Reglamento General de Circulación, deslumbrar con el alumbrado a otros usuarios de la vía, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Leve.",
         "b": "Muy grave.",
@@ -681,7 +681,7 @@
       "imagen_requerida": null,
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "Corregida tras la revisión independiente del 24/11/2026."
     },
     {
       "id": "x1b-0027",
@@ -706,37 +706,6 @@
       "origen": {
         "tipo": "normativa_relacionada",
         "ref": "RGC art. 106",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
-      "id": "x1b-0028",
-      "tema": "advertencias",
-      "subtema": "urgencia",
-      "materia": 1,
-      "enunciado": "Una ambulancia en servicio urgente circula con la señal luminosa encendida, pero sin la sirena. ¿Puede hacerlo?",
-      "opciones": {
-        "a": "No, debe usar siempre las dos señales a la vez.",
-        "b": "Sí, cuando la omisión de las señales acústicas no entrañe peligro alguno para los demás usuarios.",
-        "c": "Sí, pero entonces pierde su condición de vehículo prioritario."
-      },
-      "correcta": "b",
-      "explicacion": "Los vehículos prioritarios en servicio urgente usan a la vez la señal luminosa y la acústica, pero deben usar solo la luminosa cuando omitir las acústicas no entrañe peligro para los demás usuarios.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "112 (68.2)",
-        "cita": "deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 112",
         "minuto": null
       },
       "imagen": null,
@@ -3215,9 +3184,9 @@
       "tema": "infracciones_sanciones",
       "subtema": "sanciones_velocidad",
       "materia": 1,
-      "enunciado": "En un tramo de autovía de acceso a una ciudad limitado a 80 km/h, un radar capta su vehículo a 98 km/h. Además de la multa del cuadro de sanciones, ¿se producen otros efectos administrativos o penales por ese exceso?",
+      "enunciado": "En un tramo de autovía de acceso a una ciudad limitado a 60 km/h, un radar capta su vehículo a 98 km/h. Además de la multa del cuadro de sanciones, ¿se producen otros efectos administrativos o penales por ese exceso?",
       "opciones": {
-        "a": "Sí, los mismos que en cualquier otra vía limitada a 80 km/h.",
+        "a": "Sí, los mismos que en cualquier otra vía limitada a 60 km/h.",
         "b": "No, porque en esos tramos los excesos de velocidad no se sancionan.",
         "c": "No, porque esos efectos solo se producen cuando se superan los 100 km/h."
       },
@@ -3239,7 +3208,7 @@
       "imagen_requerida": null,
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "Corregida tras la revisión independiente del 24/11/2026."
     }
   ]
 }

@@ -1,31 +1,31 @@
 # Cobertura del banco de preguntas
 
-Total verificadas: **1489**. Objetivo orientativo: 1540.
+Total verificadas: **1465**. Objetivo orientativo: 1540.
 
 | Materia | Preguntas | Objetivo | Faltan |
 |---|---|---|---|
-| 1. Normas, señales, prioridad, velocidad | 531 | 560 | 29 |
+| 1. Normas, señales, prioridad, velocidad | 530 | 560 | 30 |
 | 2. Accidentes: factores y causas | 40 | 50 | 10 |
 | 3. Actitudes con los demás usuarios | 45 | 55 | 10 |
 | 4. Percepción, alcohol, drogas, fatiga | 103 | 100 | 0 |
 | 5. Distancias, frenado, estabilidad | 49 | 55 | 6 |
-| 6. Calzada, meteorología, noche, túneles | 82 | 80 | 0 |
+| 6. Calzada, meteorología, noche, túneles | 79 | 80 | 1 |
 | 7. La vía: clases y partes | 52 | 55 | 3 |
-| 8. Usuarios vulnerables | 73 | 70 | 0 |
-| 9. Riesgos según el vehículo | 46 | 50 | 4 |
+| 8. Usuarios vulnerables | 70 | 70 | 0 |
+| 9. Riesgos según el vehículo | 36 | 50 | 14 |
 | 10. Documentación | 111 | 100 | 0 |
 | 11. Accidente y primeros auxilios | 58 | 60 | 2 |
-| 12. Carga y personas | 56 | 60 | 4 |
-| 13. Abandonar el vehículo | 40 | 45 | 5 |
-| 14. Elementos mecánicos | 82 | 80 | 0 |
-| 15. Equipos de seguridad | 67 | 65 | 0 |
+| 12. Carga y personas | 55 | 60 | 5 |
+| 13. Abandonar el vehículo | 38 | 45 | 7 |
+| 14. Elementos mecánicos | 81 | 80 | 0 |
+| 15. Equipos de seguridad | 64 | 65 | 1 |
 | 16. Medio ambiente y conducción eficiente | 54 | 55 | 1 |
 
-## RGC: 145 de 154 artículos con preguntas
+## RGC: 144 de 154 artículos con preguntas
 
-Con preguntas (artículo: nº): 2: 1, 3: 3, 5: 2, 6: 1, 7: 3, 9: 4, 10: 3, 11: 4, 12: 9, 13: 1, 14: 7, 15: 19, 16: 5, 17: 3, 18: 5, 19: 4, 20: 10, 21: 4, 22: 1, 23: 5, 24: 1, 25: 2, 26: 2, 27: 1, 28: 1, 29: 4, 30: 4, 31: 3, 32: 3, 33: 2, 34: 1, 35: 6, 36: 8, 37: 1, 38: 5, 40: 2, 41: 6, 42: 2, 43: 3, 44: 2, 45: 2, 46: 12, 47: 2, 48: 25, 49: 6, 50: 7, 52: 3, 53: 2, 54: 9, 55: 1, 56: 6, 57: 7, 58: 2, 59: 3, 60: 5, 61: 3, 62: 10, 63: 3, 64: 3, 65: 5, 66: 5, 67: 4, 68: 7, 70: 4, 71: 8, 72: 7, 73: 3, 74: 3, 75: 7, 76: 2, 77: 1, 78: 2, 79: 5, 80: 4, 81: 2, 82: 4, 83: 4, 84: 8, 85: 10, 86: 8, 87: 9, 88: 5, 89: 1, 90: 2, 91: 5, 92: 14, 94: 14, 95: 5, 96: 2, 97: 13, 98: 1, 99: 2, 100: 7, 101: 3, 102: 4, 103: 2, 104: 2, 105: 3, 106: 8, 107: 1, 108: 3, 109: 7, 110: 3, 112: 1, 113: 2, 114: 5, 115: 4, 116: 2, 117: 13, 118: 13, 119: 6, 120: 1, 121: 1, 122: 8, 123: 4, 124: 5, 125: 2, 126: 1, 127: 3, 128: 1, 129: 10, 130: 7, 131: 1, 132: 5, 133: 7, 135: 1, 136: 1, 137: 1, 138: 1, 139: 1, 140: 2, 141: 3, 142: 1, 143: 1, 144: 4, 145: 4, 146: 1, 147: 2, 148: 1, 150: 1, 151: 1, 153: 6, 154: 2, 156: 4, 157: 1
+Con preguntas (artículo: nº): 2: 1, 3: 3, 5: 2, 6: 1, 7: 3, 9: 3, 10: 3, 11: 3, 12: 9, 13: 1, 14: 5, 15: 17, 16: 5, 17: 3, 18: 5, 19: 4, 20: 10, 21: 4, 22: 1, 23: 5, 24: 1, 25: 2, 26: 2, 27: 1, 28: 1, 29: 4, 30: 4, 31: 3, 32: 3, 33: 2, 34: 1, 35: 6, 36: 8, 37: 1, 38: 5, 40: 2, 41: 6, 42: 2, 43: 3, 44: 2, 45: 2, 46: 11, 47: 2, 48: 25, 49: 6, 50: 7, 52: 3, 53: 2, 54: 8, 55: 1, 56: 6, 57: 7, 58: 2, 59: 3, 60: 5, 61: 3, 62: 10, 63: 3, 64: 3, 65: 5, 66: 5, 67: 4, 68: 7, 70: 4, 71: 5, 72: 7, 73: 3, 74: 3, 75: 7, 76: 2, 77: 1, 78: 2, 79: 5, 80: 4, 81: 2, 82: 4, 83: 4, 84: 8, 85: 9, 86: 8, 87: 9, 88: 5, 89: 1, 90: 2, 91: 5, 92: 12, 94: 13, 95: 5, 96: 2, 97: 13, 98: 1, 99: 2, 100: 7, 101: 3, 102: 4, 103: 2, 104: 2, 105: 3, 106: 6, 107: 1, 108: 3, 109: 7, 110: 3, 113: 1, 114: 5, 115: 4, 116: 2, 117: 13, 118: 12, 119: 6, 120: 1, 121: 1, 122: 8, 123: 4, 124: 5, 125: 2, 126: 1, 127: 3, 128: 1, 129: 10, 130: 7, 131: 1, 132: 5, 133: 7, 135: 1, 136: 1, 137: 1, 138: 1, 139: 1, 140: 2, 141: 3, 142: 1, 143: 1, 144: 4, 145: 4, 146: 1, 147: 2, 148: 1, 150: 1, 151: 1, 153: 6, 154: 2, 156: 4, 157: 1
 
-Sin preguntas: 1 (Ámbito de aplicación.); 4 (Actividades que afectan a la seguridad de la circulación.); 8 (Carga de vehículos y transporte de personas y mercancías o cosas.); 39 (Limitaciones a la circulación.); 51 (Velocidades máximas en adelantamientos.); 93 (Ordenanzas municipales.); 111 (Normas generales.); 134 (Catálogo oficial de señales de la circulación y marcas viales.); 149 (Uso de señales en obra y otras actuaciones.)
+Sin preguntas: 1 (Ámbito de aplicación.); 4 (Actividades que afectan a la seguridad de la circulación.); 8 (Carga de vehículos y transporte de personas y mercancías o cosas.); 39 (Limitaciones a la circulación.); 51 (Velocidades máximas en adelantamientos.); 93 (Ordenanzas municipales.); 111 (Normas generales.); 112 (Advertencias de los vehículos de servicios de urgencia.); 134 (Catálogo oficial de señales de la circulación y marcas viales.); 149 (Uso de señales en obra y otras actuaciones.)
 
 ## LSV: 15 de 115 artículos con preguntas
 
@@ -131,7 +131,7 @@ Sin preguntas: 1 (Autorizaciones y sus efectos.); 2 (Registro Nacional de Vehíc
 - Anexo II.1: 2
 - Anexo II.10: 1
 - Anexo II.12: 1
-- Anexo II.15: 2
+- Anexo II.15: 1
 - Anexo II.18: 1
 - Anexo II.2: 1
 - Anexo II.20: 1
@@ -178,6 +178,6 @@ Sin preguntas: 1 (Autorizaciones y sus efectos.); 2 (Registro Nacional de Vehíc
 - Tema 17: 51
 - Tema 3: 52
 - Tema 4: 5
-- Tema 5: 60
+- Tema 5: 57
 - Tema 6: 17
 - Tema 9: 7

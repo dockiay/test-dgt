@@ -2869,37 +2869,6 @@
       "notas_revision": ""
     },
     {
-      "id": "xb-0095",
-      "tema": "transporte_personas",
-      "subtema": "ocupacion_excesiva",
-      "materia": 12,
-      "enunciado": "¿Cuándo es infracción muy grave, con inmovilización del vehículo, transportar más personas de las permitidas en un turismo?",
-      "opciones": {
-        "a": "Siempre que se lleve aunque sea una sola persona más de las plazas autorizadas.",
-        "b": "Cuando supone aumentar en un 50 % las plazas autorizadas, sin contar la del conductor.",
-        "c": "Solo cuando se duplica el número de plazas autorizadas."
-      },
-      "correcta": "b",
-      "explicacion": "La ocupación excesiva que aumenta en un 50 % el número de plazas autorizadas, excluida la del conductor, es infracción muy grave, salvo en autobuses de líneas urbanas e interurbanas, y el vehículo queda inmovilizado mientras dure.",
-      "fuente": {
-        "norma": "RGC",
-        "articulo": "9.3",
-        "cita": "una ocupación excesiva del vehículo que suponga aumentar en un 50 por ciento el número de plazas autorizadas, excluida la del conductor",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
-        "version_consultada": "2026-06-26"
-      },
-      "origen": {
-        "tipo": "normativa_relacionada",
-        "ref": "RGC art. 9",
-        "minuto": null
-      },
-      "imagen": null,
-      "imagen_requerida": null,
-      "estado": "verificada",
-      "verificado_el": "2026-11-24",
-      "notas_revision": ""
-    },
-    {
       "id": "xb-0096",
       "tema": "transporte_personas",
       "subtema": "emplazamiento",

@@ -2284,10 +2284,10 @@
         "minuto": null
       },
       "imagen": {
-        "src": "img/marcas/M-6.20.png",
+        "src": "img/marcas-vista/M-6.20.jpg",
         "alt": "Marca vial de la pregunta",
         "alt_detalle": "Marca M-6.20: inscripción de punto kilométrico",
-        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -2324,10 +2324,10 @@
         "minuto": null
       },
       "imagen": {
-        "src": "img/marcas/M-4.5.png",
+        "src": "img/marcas-vista/M-4.5.jpg",
         "alt": "Marca vial de la pregunta",
         "alt_detalle": "Marca M-4.5: reductor de velocidad tipo lomo de asno",
-        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -2364,10 +2364,10 @@
         "minuto": null
       },
       "imagen": {
-        "src": "img/marcas/M-5.8.png",
+        "src": "img/marcas-vista/M-5.8.jpg",
         "alt": "Marca vial de la pregunta",
         "alt_detalle": "Marca M-5.8: flecha en miniglorieta",
-        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -2404,10 +2404,10 @@
         "minuto": null
       },
       "imagen": {
-        "src": "img/marcas/M-6.21.png",
+        "src": "img/marcas-vista/M-6.21.jpg",
         "alt": "Marca vial de la pregunta",
         "alt_detalle": "Marca M-6.21: inscripción de orientación",
-        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",

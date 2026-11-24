@@ -2720,10 +2720,10 @@
         "minuto": "1:53:46"
       },
       "imagen": {
-        "src": "img/marcas/M-7.8.png",
+        "src": "img/marcas-vista/M-7.8.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.8 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.8, vista desde el coche"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -2760,10 +2760,10 @@
         "minuto": "1:54:03"
       },
       "imagen": {
-        "src": "img/marcas/M-7.7.png",
+        "src": "img/marcas-vista/M-7.7.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.7 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.7, vista desde el coche"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -2800,10 +2800,10 @@
         "minuto": "1:53:55"
       },
       "imagen": {
-        "src": "img/marcas/M-7.9.png",
+        "src": "img/marcas-vista/M-7.9.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.9 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.9, vista desde el coche"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5729,10 +5729,10 @@
         "minuto": "2:19:09"
       },
       "imagen": {
-        "src": "img/marcas/M-7.5.png",
+        "src": "img/marcas-vista/M-7.5.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 712 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.5 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 712 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.5, vista desde el coche"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -8999,10 +8999,10 @@
         "minuto": "3:21:07"
       },
       "imagen": {
-        "src": "img/marcas/M-1.1.png",
+        "src": "img/marcas-vista/M-1.1.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 687 del PDF consolidado",
-        "alt_detalle": "Marca vial M-1.1 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 687 del PDF consolidado",
+        "alt_detalle": "Marca vial M-1.1, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9159,10 +9159,10 @@
         "minuto": "3:22:14"
       },
       "imagen": {
-        "src": "img/marcas/M-1.4.png",
+        "src": "img/marcas-vista/M-1.4.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 688 del PDF consolidado",
-        "alt_detalle": "Marca vial M-1.4 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 688 del PDF consolidado",
+        "alt_detalle": "Marca vial M-1.4, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9199,10 +9199,10 @@
         "minuto": "3:21:15"
       },
       "imagen": {
-        "src": "img/marcas/M-1.9.png",
+        "src": "img/marcas-vista/M-1.9.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 687 del PDF consolidado",
-        "alt_detalle": "Marca vial M-1.9 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 687 del PDF consolidado",
+        "alt_detalle": "Marca vial M-1.9, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9270,10 +9270,10 @@
         "minuto": "3:22:41"
       },
       "imagen": {
-        "src": "img/marcas/M-4.2.png",
+        "src": "img/marcas-vista/M-4.2.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 691 del PDF consolidado",
-        "alt_detalle": "Marca vial M-4.2 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 691 del PDF consolidado",
+        "alt_detalle": "Marca vial M-4.2, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9372,10 +9372,10 @@
         "minuto": "3:23:49"
       },
       "imagen": {
-        "src": "img/marcas/M-4.3b.png",
+        "src": "img/marcas-vista/M-4.3b.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 691 del PDF consolidado",
-        "alt_detalle": "Marca vial M-4.3b (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 691 del PDF consolidado",
+        "alt_detalle": "Marca vial M-4.3b, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9443,10 +9443,10 @@
         "minuto": "3:24:56"
       },
       "imagen": {
-        "src": "img/marcas/M-6.6.png",
+        "src": "img/marcas-vista/M-6.6.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 704 del PDF consolidado",
-        "alt_detalle": "Marca vial M-6.6 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 704 del PDF consolidado",
+        "alt_detalle": "Marca vial M-6.6, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9483,10 +9483,10 @@
         "minuto": "3:24:40"
       },
       "imagen": {
-        "src": "img/marcas/M-6.3.png",
+        "src": "img/marcas-vista/M-6.3.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 703 del PDF consolidado",
-        "alt_detalle": "Marca vial M-6.3 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 703 del PDF consolidado",
+        "alt_detalle": "Marca vial M-6.3, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9523,10 +9523,10 @@
         "minuto": "3:24:32"
       },
       "imagen": {
-        "src": "img/marcas/M-6.5.png",
+        "src": "img/marcas-vista/M-6.5.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 703 del PDF consolidado",
-        "alt_detalle": "Marca vial M-6.5 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 703 del PDF consolidado",
+        "alt_detalle": "Marca vial M-6.5, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9563,15 +9563,15 @@
         "minuto": "3:25:14"
       },
       "imagen": {
-        "src": "img/marcas/M-5.2d.png",
+        "src": "img/marcas-vista/M-5.2d.jpg",
         "alt": "Imagen de la pregunta",
-        "alt_detalle": "Marca vial M-5.2d (plano oficial con medidas)",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 696 del PDF consolidado"
+        "alt_detalle": "Marca vial M-5.2d, vista desde el coche",
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 696 del PDF consolidado"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
         "codigo": "M-5.2d",
-        "descripcion": "Marca vial M-5.2d (plano oficial con medidas)"
+        "descripcion": "Marca vial M-5.2d, vista desde el coche"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -9603,10 +9603,10 @@
         "minuto": "3:25:48"
       },
       "imagen": {
-        "src": "img/marcas/M-5.4b.png",
+        "src": "img/marcas-vista/M-5.4b.jpg",
         "alt": "Marca vial de la pregunta",
-        "alt_detalle": "Marca vial M-5.4b (plano oficial con medidas)",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 699 del PDF consolidado"
+        "alt_detalle": "Marca vial M-5.4b, vista desde el coche",
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 699 del PDF consolidado"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9643,10 +9643,10 @@
         "minuto": "3:25:56"
       },
       "imagen": {
-        "src": "img/marcas/M-5.5.png",
+        "src": "img/marcas-vista/M-5.5.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 700 del PDF consolidado",
-        "alt_detalle": "Marca vial M-5.5 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 700 del PDF consolidado",
+        "alt_detalle": "Marca vial M-5.5, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9683,10 +9683,10 @@
         "minuto": "3:26:07"
       },
       "imagen": {
-        "src": "img/marcas/M-7.5.png",
+        "src": "img/marcas-vista/M-7.5.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 712 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.5 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 712 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.5, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9723,10 +9723,10 @@
         "minuto": "3:26:27"
       },
       "imagen": {
-        "src": "img/marcas/M-7.6.png",
+        "src": "img/marcas-vista/M-7.6.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.6 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.6, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9763,10 +9763,10 @@
         "minuto": "3:26:43"
       },
       "imagen": {
-        "src": "img/marcas/M-7.1a.png",
+        "src": "img/marcas-vista/M-7.1a.jpg",
         "alt": "Marca vial de la pregunta",
-        "alt_detalle": "Marca vial M-7.1a (plano oficial con medidas)",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 709 del PDF consolidado"
+        "alt_detalle": "Marca vial M-7.1a, vista desde el coche",
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 709 del PDF consolidado"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9803,10 +9803,10 @@
         "minuto": "3:27:25"
       },
       "imagen": {
-        "src": "img/marcas/M-7.8.png",
+        "src": "img/marcas-vista/M-7.8.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.8 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.8, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9843,10 +9843,10 @@
         "minuto": "3:27:32"
       },
       "imagen": {
-        "src": "img/marcas/M-7.9.png",
+        "src": "img/marcas-vista/M-7.9.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.9 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.9, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9883,10 +9883,10 @@
         "minuto": "3:27:32"
       },
       "imagen": {
-        "src": "img/marcas/M-7.10.png",
+        "src": "img/marcas-vista/M-7.10.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.10 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.10, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9923,10 +9923,10 @@
         "minuto": "3:28:12"
       },
       "imagen": {
-        "src": "img/marcas/M-7.11.png",
+        "src": "img/marcas-vista/M-7.11.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.11 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.11, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9963,10 +9963,10 @@
         "minuto": "3:27:11"
       },
       "imagen": {
-        "src": "img/marcas/M-7.12.png",
+        "src": "img/marcas-vista/M-7.12.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
-        "alt_detalle": "Marca vial M-7.12 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.12, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -10043,10 +10043,10 @@
         "minuto": "3:28:35"
       },
       "imagen": {
-        "src": "img/marcas/M-8.1.png",
+        "src": "img/marcas-vista/M-8.1.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 716 del PDF consolidado",
-        "alt_detalle": "Marca vial M-8.1 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 716 del PDF consolidado",
+        "alt_detalle": "Marca vial M-8.1, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -10083,10 +10083,10 @@
         "minuto": "3:28:53"
       },
       "imagen": {
-        "src": "img/marcas/M-8.2.png",
+        "src": "img/marcas-vista/M-8.2.jpg",
         "alt": "Marca vial de la pregunta",
-        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 717 del PDF consolidado",
-        "alt_detalle": "Marca vial M-8.2 (plano oficial con medidas)"
+        "credito": "Dibujo propio a partir del Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 717 del PDF consolidado",
+        "alt_detalle": "Marca vial M-8.2, vista desde el coche"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",

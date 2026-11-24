@@ -180,6 +180,8 @@ a.fila:active, button.fila:not(:disabled):active { background: var(--celda-pulsa
 .figura.senal img { width: auto; max-width: min(200px, 60vw); max-height: 200px; }
 .figura.senal figcaption { color: #5f6b84; }
 .figura.senal figcaption strong { color: #1b2232; }
+/* Marcas viales dibujadas en perspectiva (img/marcas-vista/): escena a lo ancho, sin recortar */
+.figura img[src*="/marcas-vista/"] { width: 100%; max-width: 520px; max-height: none; aspect-ratio: 8 / 5; border-radius: 12px; }
 .opciones { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
 .opcion {
   width: 100%; display: flex; align-items: center; gap: 14px; min-height: 60px; padding: 12px 14px; text-align: left; font-weight: 700;

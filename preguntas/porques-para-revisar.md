@@ -14256,7 +14256,7 @@ Respuesta: **Al menos la luz de corto alcance o de cruce.**
 
 - ✔ Los vehículos que circulan por los arcenes y por el carril adicional circunstancial deben llevar al menos el alumbrado de corto alcance o de cruce, de día y de noche, a un máximo de 80 km/h y un mínimo de 60 km/h salvo señalización de otros valores inferiores. _(RGC 42.1)_
 - ✘ `v5a-cesp-0001` Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de la vía, pueden utilizar los carriles reservados, incluido el VAO. _(RGC 35.2.c)_
-- ✘ `res-cesp-0002` Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales. _(RGC 41.1)_
+- ✘ `cesp-0003` Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa. _(RGC 41.1)_
 
 ## v5a-vel-0001
 

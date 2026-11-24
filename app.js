@@ -63,6 +63,7 @@
     return { fallos: d.fallos || {}, dudosas: d.dudosas || {}, historial: d.historial || [], vistas: d.vistas || {} };
   }
   function guardar() { try { localStorage.setItem(CLAVE, JSON.stringify(datos)); } catch (e) { /* sin almacenamiento */ } }
+  function seccionActual() { return (location.hash || "#/").slice(2).split("/")[0] || "inicio"; }
   function registrar(p, acierto, modo) {
     const v = datos.vistas[p.id] || { ok: 0, ko: 0 };
     acierto ? v.ok++ : v.ko++;
@@ -117,7 +118,7 @@
     tituloFijo = !!op.fijo;
     const a = op.atras;
     navIzq.replaceChildren(...(a ? [a.href
-      ? h("a", { class: "nav-boton", href: a.href }, a.icono === false ? null : ico("atras"), a.texto)
+      ? h("a", { class: "nav-boton" + (a.href === "#/" ? " atras-raiz" : ""), href: a.href }, a.icono === false ? null : ico("atras"), a.texto)
       : h("button", { class: "nav-boton", onclick: a.accion }, a.icono === false ? null : ico("atras"), a.texto)] : []));
     app.replaceChildren(...hijos.flat(Infinity).filter(c => c != null && c !== false));
     const b = (op.barra || []).filter(Boolean);
@@ -126,6 +127,7 @@
     app.classList.toggle("con-barra", !!b.length);
     document.body.classList.toggle("sesion", !!op.sesion);
     teclas = op.teclas || null;
+    if (typeof pintarLateral === "function" && document.getElementById("lateral").childElementCount) pintarLateral(seccionActual());
     if (!op.mantenerScroll) { window.scrollTo(0, 0); app.focus({ preventScroll: true }); }
     alDesplazar();
   }
@@ -272,11 +274,11 @@
       h("p", { class: "subtitulo" }, `${PREGUNTAS.length} preguntas verificadas, cada una con su fuente oficial.`),
       cifras([`${vistas.length}/${PREGUNTAS.length}`, "Preguntas vistas"], [tot ? Math.round(ok / tot * 100) + " %" : "–", "Aciertos"], [datos.historial.length ? `${aptos}/${datos.historial.length}` : "–", "Exámenes aptos"]),
       cabecera("Practicar"),
-      grupo("con-icono",
+      grupo("con-icono mosaico",
         fila({ icono: "examen", color: "azul", titulo: "Examen final", detalle: "30 preguntas, 30 minutos, máximo 3 fallos", href: "#/examen" }),
         fila({ icono: "libro", color: "indigo", titulo: "Examen por temario", detalle: "16 materias, con la explicación al momento", href: "#/temario" })),
       cabecera("Repasar"),
-      grupo("con-icono",
+      grupo("con-icono mosaico",
         fila({ icono: "repetir", color: "naranja", titulo: "Mis fallos", insignia: nf || null, valor: nf ? null : "0", href: "#/fallos" }),
         fila({ icono: "bandera", color: "rojo", titulo: "Preguntas dudosas", valor: String(nd), href: "#/dudosas" })),
       ult.length ? [cabecera("Últimos exámenes"), grupo("", ult.map(r => h("div", { class: "fila" },
@@ -393,7 +395,7 @@
       h("h1", { class: "titulo-grande" }, "Temario"),
       h("p", { class: "subtitulo" }, "Las 16 materias de la prueba común del permiso B."),
       h("div", { style: "height:8px" }),
-      grupo("con-icono", MATERIAS.map(([n, nombre]) => {
+      grupo("con-icono mosaico", MATERIAS.map(([n, nombre]) => {
         const c = cuenta(n);
         return fila({ numero: n, color: c ? "indigo" : "gris", titulo: nombre, detalle: c ? plural(c, "pregunta", "preguntas") : "Aún sin preguntas verificadas",
           accion: () => { location.hash = `#/temario/${n}`; }, deshabilitada: !c, chevron: !!c });
@@ -533,9 +535,26 @@
 
   // ---------- Rutas ----------
   let sesion = null;
+  // Barra lateral (solo en pantallas anchas, como en las apps de iPad y Mac).
+  const lateral = document.getElementById("lateral");
+  function pintarLateral(seccion) {
+    const nf = fallosActuales().length, nd = Object.keys(datos.dudosas).length;
+    const item = (id, href, icono, color, texto, extra) => h("li", {}, h("a", { class: "lateral-item" + (seccion === id ? " activo" : ""), href, "aria-current": seccion === id ? "page" : null },
+      h("span", { class: "tesela t-" + color }, ico(icono)), h("span", { class: "lateral-texto" }, texto), extra ? h("span", { class: "lateral-cuenta" }, extra) : null));
+    lateral.replaceChildren(
+      h("a", { class: "lateral-marca", href: "#/" }, h("img", { src: "icono.svg", alt: "" }), h("span", {}, "Test permiso B")),
+      h("p", { class: "lateral-cabecera" }, "Practicar"),
+      h("ul", {}, item("inicio", "#/", "lista", "gris", "Resumen"), item("examen", "#/examen", "examen", "azul", "Examen final"), item("temario", "#/temario", "libro", "indigo", "Examen por temario")),
+      h("p", { class: "lateral-cabecera" }, "Repasar"),
+      h("ul", {}, item("fallos", "#/fallos", "repetir", "naranja", "Mis fallos", nf ? String(nf) : null), item("dudosas", "#/dudosas", "bandera", "rojo", "Preguntas dudosas", nd ? String(nd) : null)),
+      h("p", { class: "lateral-cabecera" }, "Información"),
+      h("ul", {}, item("fuentes", "#/fuentes", "info", "gris", "Fuentes y aviso legal")),
+      h("p", { class: "lateral-pie" }, `${PREGUNTAS.length} preguntas verificadas`));
+  }
   function ruta() {
     const d = document.querySelector("dialog[open]"); if (d) d.close();
     const r = (location.hash || "#/").slice(1).split("/").filter(Boolean);
+    pintarLateral(r[0] || "inicio");
     if (r[0] === "examen") return portadaExamen();
     if (r[0] === "temario") return r[1] ? portadaMateria(Number(r[1])) : listaTemario();
     if (r[0] === "fallos") return portadaFallos();

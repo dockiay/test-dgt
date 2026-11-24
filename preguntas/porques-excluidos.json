@@ -1,46 +1,82 @@
 {
- "nota": "Revisión independiente del 24/11/2026 (preguntas/revision-errores-tipicos.json en la carpeta del proyecto). nunca_distractora: explicaciones que no se entienden fuera de su pregunta. excluir: parejas en que la distractora también explica la respuesta.",
- "nunca_distractora": [
-  "A-est-0005",
-  "A-par-0007",
-  "B1-sen-0034",
-  "adel-0003",
-  "vel-0005",
-  "vel-0012",
-  "vel-0015",
-  "arc-0006",
-  "E-aux-0003",
-  "E-mec-0006"
- ],
- "excluir": {
-  "B2-sen-0004": [
-   "B2-sen-0006"
+  "nota": "Revisión independiente del 24/11/2026 (preguntas/revision-errores-tipicos.json en la carpeta del proyecto). nunca_distractora: explicaciones que no se entienden fuera de su pregunta. excluir: parejas en que la distractora también explica la respuesta.",
+  "nunca_distractora": [
+    "A-est-0005",
+    "A-par-0007",
+    "B1-sen-0034",
+    "adel-0003",
+    "vel-0005",
+    "vel-0012",
+    "vel-0015",
+    "arc-0006",
+    "E-aux-0003",
+    "E-mec-0006"
   ],
-  "C-doc-0009": [
-   "C-doc-0007"
-  ],
-  "C-luc-0005": [
-   "C-luc-0003"
-  ],
-  "D-alc-0006": [
-   "D-alc-0003"
-  ],
-  "D-mov-0001": [
-   "D-mov-0007",
-   "D-mov-0006"
-  ],
-  "D-mov-0006": [
-   "D-mov-0007",
-   "D-mov-0001"
-  ],
-  "D-tre-0003": [
-   "D-fat-0003"
-  ],
-  "E-fre-0002": [
-   "E-fre-0001"
-  ],
-  "res-alc-0001": [
-   "D-alc-0017"
-  ]
- }
+  "excluir": {
+    "B2-sen-0004": [
+      "B2-sen-0006"
+    ],
+    "C-doc-0009": [
+      "C-doc-0007"
+    ],
+    "C-luc-0005": [
+      "C-luc-0003"
+    ],
+    "D-alc-0006": [
+      "D-alc-0003"
+    ],
+    "D-mov-0001": [
+      "D-mov-0007",
+      "D-mov-0006"
+    ],
+    "D-mov-0006": [
+      "D-mov-0007",
+      "D-mov-0001"
+    ],
+    "D-tre-0003": [
+      "D-fat-0003"
+    ],
+    "E-fre-0002": [
+      "E-fre-0001"
+    ],
+    "res-alc-0001": [
+      "D-alc-0017"
+    ],
+    "x1a-0101": [
+      "x1a-0099"
+    ],
+    "xd-0012": [
+      "xd-0011"
+    ],
+    "xc-0105": [
+      "xc-0106"
+    ],
+    "xb-0035": [
+      "xb-0034"
+    ],
+    "xb-0056": [
+      "xb-0057"
+    ],
+    "xd-0136": [
+      "xd-0135"
+    ],
+    "xe-0126": [
+      "xe-0125"
+    ],
+    "xb-0027": [
+      "xb-0028"
+    ],
+    "xd-0020": [
+      "xd-0019"
+    ],
+    "xe-0012": [
+      "xe-0011"
+    ],
+    "x1b-0043": [
+      "x1b-0044"
+    ],
+    "xc-0065": [
+      "xc-0066"
+    ]
+  }
 }

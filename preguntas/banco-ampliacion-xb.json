@@ -1,0 +1,3718 @@
+{
+  "version": 1,
+  "preguntas": [
+    {
+      "id": "xb-0001",
+      "tema": "alcohol_drogas",
+      "subtema": "tasas_alcohol",
+      "materia": 4,
+      "enunciado": "Un taxista con quince años de permiso conduce su taxi, que es un vehículo de servicio público. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+      "opciones": {
+        "a": "0,15 miligramos por litro.",
+        "b": "0,25 miligramos por litro.",
+        "c": "0,30 miligramos por litro."
+      },
+      "correcta": "a",
+      "explicacion": "Los conductores de vehículos de servicio público, como los taxis, no pueden superar 0,15 miligramos de alcohol por litro de aire espirado ni 0,3 gramos por litro de sangre, aunque tengan muchos años de permiso.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "20",
+        "cita": "vehículos destinados al transporte de viajeros de más de nueve plazas, o de servicio público, al transporte escolar y de menores, al de mercancías peligrosas o de servicio de urgencia o transportes especiales",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 20",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0002",
+      "tema": "alcohol_drogas",
+      "subtema": "tasas_alcohol",
+      "materia": 4,
+      "enunciado": "Un conductor con diez años de permiso conduce una furgoneta de 3.000 kg de masa máxima autorizada que transporta mercancías peligrosas. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+      "opciones": {
+        "a": "0,25 miligramos por litro.",
+        "b": "0,15 miligramos por litro.",
+        "c": "0,50 miligramos por litro."
+      },
+      "correcta": "b",
+      "explicacion": "Los conductores de vehículos que transportan mercancías peligrosas tienen el límite reducido de 0,15 miligramos de alcohol por litro de aire espirado (0,3 gramos por litro en sangre), cualquiera que sea la masa del vehículo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "20",
+        "cita": "los conductores no podrán hacerlo con una tasa de alcohol en sangre superior a 0,3 gramos por litro, o de alcohol en aire espirado superior a 0,15 miligramos por litro. Los conductores de cualquier vehículo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 20",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "La lista de vehículos con tasa reducida (incluidas mercancías peligrosas) está en la frase anterior del mismo artículo 20."
+    },
+    {
+      "id": "xb-0003",
+      "tema": "alcohol_drogas",
+      "subtema": "pruebas_obligados",
+      "materia": 4,
+      "enunciado": "Un agente le denuncia por saltarse un semáforo en rojo, aunque usted no muestra ningún síntoma de haber bebido. ¿Puede someterle a la prueba de alcoholemia?",
+      "opciones": {
+        "a": "No, porque solo puede hacerla a quien presenta síntomas evidentes de haber bebido.",
+        "b": "No, porque solo puede hacerla a los conductores implicados en un accidente de circulación.",
+        "c": "Sí, pueden hacerla a los conductores denunciados por cualquier infracción."
+      },
+      "correcta": "c",
+      "explicacion": "Los agentes de tráfico pueden someter a la prueba de alcoholemia a los conductores denunciados por cometer alguna infracción del Reglamento General de Circulación, aunque no presenten síntomas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "21.c",
+        "cita": "A los conductores que sean denunciados por la comisión de alguna de las infracciones a las normas contenidas en este reglamento.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 21",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0004",
+      "tema": "alcohol_drogas",
+      "subtema": "pruebas_obligados",
+      "materia": 4,
+      "enunciado": "Circula con normalidad, sin síntomas de haber bebido y sin haber cometido ninguna infracción, y le paran en un control preventivo de alcoholemia. ¿Debe someterse a la prueba?",
+      "opciones": {
+        "a": "Sí, en un control preventivo pueden hacer la prueba a cualquier conductor.",
+        "b": "No, porque no ha cometido ninguna infracción ni ha tenido un accidente.",
+        "c": "No, salvo que el agente aprecie síntomas evidentes de que ha bebido."
+      },
+      "correcta": "a",
+      "explicacion": "Los agentes pueden someter a la prueba de alcoholemia a cualquier conductor requerido dentro de los programas de controles preventivos, aunque circule correctamente y no presente síntomas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "21.d",
+        "cita": "sean requeridos al efecto por la autoridad o sus agentes dentro de los programas de controles preventivos de alcoholemia ordenados por dicha autoridad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 21",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0005",
+      "tema": "alcohol_drogas",
+      "subtema": "pruebas_practica",
+      "materia": 4,
+      "enunciado": "Tras un accidente, un conductor herido es evacuado a un hospital y sus lesiones impiden hacerle la prueba con el etilómetro. ¿Quién decide qué pruebas de alcohol se le hacen?",
+      "opciones": {
+        "a": "El agente de tráfico que instruye el atestado del accidente.",
+        "b": "El personal facultativo del centro médico al que ha sido evacuado.",
+        "c": "El propio conductor o, si no puede, sus familiares."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando las lesiones o la enfermedad de la persona obligada impiden hacer la prueba de alcohol, el personal facultativo del centro médico al que es evacuada decide qué pruebas se le hacen.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "22.2",
+        "cita": "el personal facultativo del centro médico al que fuesen evacuados decidirá las que se hayan de realizar.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 22",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0006",
+      "tema": "alcohol_drogas",
+      "subtema": "pruebas_practica",
+      "materia": 4,
+      "enunciado": "Un conductor con más de dos años de permiso da 0,20 mg/l en la primera prueba de alcoholemia, pero presenta síntomas evidentes de estar bajo la influencia del alcohol. ¿Qué hará el agente?",
+      "opciones": {
+        "a": "Dejarle continuar, porque no supera la tasa de 0,25 mg/l.",
+        "b": "Inmovilizar el vehículo y denunciarle, sin hacer ninguna otra prueba.",
+        "c": "Someterle a una segunda prueba por aire espirado, a efectos de contraste."
+      },
+      "correcta": "c",
+      "explicacion": "El agente debe hacer una segunda prueba de alcoholemia por aire espirado cuando la primera supera la tasa permitida y también cuando, sin superarla, el conductor presenta síntomas evidentes de estar bajo la influencia del alcohol.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "23.1",
+        "cita": "aún sin alcanzar estos límites, presentara la persona examinada síntomas evidentes de encontrarse bajo la influencia de bebidas alcohólicas, el agente someterá al interesado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 23",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0007",
+      "tema": "alcohol_drogas",
+      "subtema": "pruebas_contraste",
+      "materia": 4,
+      "enunciado": "Tras dar positivo en la prueba de aire espirado, el conductor decide contrastar el resultado con un análisis de sangre. ¿Adónde le trasladará el agente?",
+      "opciones": {
+        "a": "Al centro sanitario más próximo al lugar de los hechos.",
+        "b": "Al centro de salud que corresponda a su domicilio.",
+        "c": "A la Jefatura Provincial de Tráfico."
+      },
+      "correcta": "a",
+      "explicacion": "Si el interesado pide análisis de contraste, el agente adopta las medidas para trasladarle al centro sanitario más próximo al lugar de los hechos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "23.4",
+        "cita": "el agente de la autoridad adoptará las medidas más adecuadas para su traslado al centro sanitario más próximo al lugar de los hechos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 23",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0008",
+      "tema": "alcohol_drogas",
+      "subtema": "pruebas_contraste",
+      "materia": 4,
+      "enunciado": "Un conductor pide un análisis de sangre para contrastar la prueba de alcoholemia y deposita su importe. Si el análisis da resultado negativo, ¿qué ocurre con el depósito?",
+      "opciones": {
+        "a": "Lo pierde igualmente, porque fue él quien pidió el análisis.",
+        "b": "Se le devuelve, porque el análisis corre a cargo de la Administración.",
+        "c": "Se le devuelve solo la mitad del importe."
+      },
+      "correcta": "b",
+      "explicacion": "El importe del análisis de contraste se deposita antes; si el resultado es positivo lo paga el interesado y, si es negativo, lo paga la Administración y se devuelve el depósito.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "23.4",
+        "cita": "cuando sea negativo, devolviéndose el depósito en este último caso.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 23",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0009",
+      "tema": "alcohol_drogas",
+      "subtema": "pruebas_practica",
+      "materia": 4,
+      "enunciado": "Durante la práctica de las pruebas de alcoholemia, ¿puede el conductor hacer alegaciones u observaciones?",
+      "opciones": {
+        "a": "No, solo puede alegar más tarde ante el juzgado.",
+        "b": "Solo si la segunda prueba da un resultado negativo.",
+        "c": "Sí, y sus alegaciones se harán constar por diligencia."
+      },
+      "correcta": "c",
+      "explicacion": "El agente debe informar al conductor de su derecho a formular alegaciones u observaciones, por sí o por medio de su acompañante o defensor, que se consignan por diligencia.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "23.3",
+        "cita": "formular cuantas alegaciones u observaciones tenga por conveniente, por sí o por medio de su acompañante o defensor, si lo tuviese, las cuales se consignarán por diligencia",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 23",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0010",
+      "tema": "alcohol_drogas",
+      "subtema": "inmovilizacion",
+      "materia": 4,
+      "enunciado": "Su vehículo ha sido inmovilizado y trasladado a un depósito porque usted dio positivo en alcoholemia. ¿Quién paga los gastos de inmovilización, traslado y depósito?",
+      "opciones": {
+        "a": "El conductor o quien legalmente deba responder por él.",
+        "b": "La Administración que ordenó la inmovilización.",
+        "c": "El seguro obligatorio del vehículo."
+      },
+      "correcta": "a",
+      "explicacion": "Los gastos de inmovilización, traslado y depósito del vehículo por un positivo en alcoholemia corren a cargo del conductor o de quien legalmente deba responder por él.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "25.4",
+        "cita": "Los gastos que pudieran ocasionarse por la inmovilización, traslado y depósito del vehículo serán de cuenta del conductor o de quien legalmente deba responder por él.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 25",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0011",
+      "tema": "alcohol_drogas",
+      "subtema": "personal_sanitario",
+      "materia": 4,
+      "enunciado": "El personal sanitario que realiza un análisis de alcoholemia a un conductor, ¿a quién debe comunicar el resultado?",
+      "opciones": {
+        "a": "Solo al propio interesado, porque lo protege el secreto profesional.",
+        "b": "A la autoridad judicial y a Tráfico y, si procede, a las autoridades municipales.",
+        "c": "Solo a la compañía aseguradora del vehículo que conducía el interesado."
+      },
+      "correcta": "b",
+      "explicacion": "El personal sanitario está obligado a obtener las muestras, remitirlas al laboratorio y dar cuenta del resultado a la autoridad judicial, a la Jefatura de Tráfico y, cuando proceda, a las autoridades municipales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "26.1",
+        "cita": "a dar cuenta, del resultado de las pruebas que se realicen, a la autoridad judicial, a los órganos periféricos del organismo autónomo Jefatura Central de Tráfico",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 26",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0012",
+      "tema": "alcohol_drogas",
+      "subtema": "diligencias",
+      "materia": 4,
+      "enunciado": "Un conductor se niega a someterse a las pruebas de alcoholemia y los hechos revisten carácter de delito. ¿Qué hará el agente?",
+      "opciones": {
+        "a": "Dejarle marchar con una simple denuncia administrativa.",
+        "b": "Esperar a que se le pase el efecto y repetir la prueba al día siguiente.",
+        "c": "Conducirle al juzgado correspondiente."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando los hechos son delictivos, el agente conduce al juzgado correspondiente al conductor sometido a examen o al que se niega a las pruebas de detección alcohólica.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "24.c",
+        "cita": "Conducir al sometido a examen, o al que se negase a someterse a las pruebas de detección alcohólica, en los supuestos en que los hechos revistan caracteres delictivos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 24",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0013",
+      "tema": "alcohol_drogas",
+      "subtema": "inmovilizacion",
+      "materia": 4,
+      "enunciado": "Un conductor se niega a someterse a la prueba de detección de drogas. ¿Qué puede hacer el agente con el vehículo?",
+      "opciones": {
+        "a": "Inmovilizarlo de inmediato.",
+        "b": "Nada; solo puede denunciar la negativa.",
+        "c": "Retirarle la placa de matrícula."
+      },
+      "correcta": "a",
+      "explicacion": "Ante la negativa a hacer las pruebas de detección de drogas, el agente puede inmovilizar inmediatamente el vehículo, igual que en el caso del alcohol.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "28.1.b",
+        "cita": "En los casos de negativa a efectuar dichas pruebas, el agente podrá proceder a la inmediata inmovilización del vehículo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 28",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0014",
+      "tema": "alcohol_drogas",
+      "subtema": "infracciones",
+      "materia": 4,
+      "enunciado": "Conducir con una tasa de alcohol superior a la permitida, sin llegar a ser delito, ¿qué tipo de infracción administrativa es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Muy grave.",
+        "c": "Leve."
+      },
+      "correcta": "b",
+      "explicacion": "Las infracciones relativas a conducir habiendo ingerido bebidas alcohólicas con tasa superior a la permitida, o a no someterse a las pruebas de detección alcohólica, son infracciones muy graves.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "26.2",
+        "cita": "relativas a la conducción habiendo ingerido bebidas alcohólicas o a la obligación de someterse a las pruebas de detección alcohólica, tendrán la consideración de infracciones muy graves",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 26",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0015",
+      "tema": "alcohol_drogas",
+      "subtema": "puntos",
+      "materia": 4,
+      "enunciado": "¿Cuántos puntos pierde el conductor sancionado en firme por no someterse a las pruebas de detección de alcohol o drogas?",
+      "opciones": {
+        "a": "4 puntos.",
+        "b": "3 puntos.",
+        "c": "6 puntos."
+      },
+      "correcta": "c",
+      "explicacion": "Incumplir la obligación de someterse a las pruebas de detección de alcohol o de drogas supone la pérdida de 6 puntos del permiso.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo II.3",
+        "cita": "3. Incumplir la obligación de someterse a las pruebas de detección de alcohol o de la presencia de drogas en el organismo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV Anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El número de puntos (6) figura en la columna 'Puntos' del Anexo II, en la misma fila que la cita."
+    },
+    {
+      "id": "xb-0016",
+      "tema": "delitos",
+      "subtema": "alcohol_drogas",
+      "materia": 4,
+      "enunciado": "Un conductor de turismo da 0,45 mg/l de alcohol en aire espirado, pero circula haciendo eses y con claros síntomas de embriaguez. ¿Puede cometer un delito contra la seguridad vial?",
+      "opciones": {
+        "a": "Sí, conducir bajo la influencia del alcohol es delito aunque no se superen 0,60 mg/l.",
+        "b": "No, porque solo es delito a partir de una tasa superior a 0,60 mg/l.",
+        "c": "No, porque solo sería delito si además causara un accidente con heridos."
+      },
+      "correcta": "a",
+      "explicacion": "El Código Penal castiga a quien conduce un vehículo de motor o un ciclomotor bajo la influencia de bebidas alcohólicas o drogas; por encima de 0,60 mg/l en aire es delito en todo caso, y por debajo también puede serlo si hay influencia.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "379.2",
+        "cita": "Con las mismas penas será castigado el que condujere un vehículo de motor o ciclomotor bajo la influencia de drogas tóxicas, estupefacientes, sustancias psicotrópicas o de bebidas alcohólicas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "CP art. 379",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0017",
+      "tema": "delitos",
+      "subtema": "alcohol_drogas",
+      "materia": 4,
+      "enunciado": "Un ciclista circula con una tasa de 0,70 mg/l de alcohol en aire espirado. ¿Comete el delito de conducción bajo los efectos del alcohol del artículo 379 del Código Penal?",
+      "opciones": {
+        "a": "Sí, como cualquier persona que conduzca con más de 0,60 mg/l.",
+        "b": "No, ese delito se refiere a quien conduce un vehículo de motor o un ciclomotor.",
+        "c": "Sí, pero solo si circula por una vía interurbana o por una autovía."
+      },
+      "correcta": "b",
+      "explicacion": "El delito del artículo 379 del Código Penal se comete conduciendo un vehículo de motor o un ciclomotor; el ciclista con exceso de alcohol comete una infracción administrativa muy grave, no ese delito.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "379.2",
+        "cita": "2. Con las mismas penas será castigado el que condujere un vehículo de motor o ciclomotor bajo la influencia",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "CP art. 379",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Para el ciclista, RGC art. 20 y 26.2 (infracción muy grave). La bicicleta no es vehículo de motor ni ciclomotor (LSV anexo I)."
+    },
+    {
+      "id": "xb-0019",
+      "tema": "delitos",
+      "subtema": "temeridad",
+      "materia": 4,
+      "enunciado": "Un conductor circula a 210 km/h por una autovía limitada a 120 km/h y con una tasa de 0,70 mg/l de alcohol en aire espirado. ¿Cómo considera el Código Penal esa conducción?",
+      "opciones": {
+        "a": "Manifiestamente temeraria.",
+        "b": "Solo una infracción administrativa grave.",
+        "c": "Una imprudencia leve, si no causa daños."
+      },
+      "correcta": "a",
+      "explicacion": "El Código Penal considera manifiestamente temeraria la conducción en la que coinciden un exceso de velocidad constitutivo de delito y una tasa de alcohol superior a 0,60 mg/l en aire espirado o 1,2 g/l en sangre.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "380.2",
+        "cita": "se reputará manifiestamente temeraria la conducción en la que concurrieren las circunstancias previstas en el apartado primero y en el inciso segundo del apartado segundo del artículo anterior.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "CP art. 380",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0020",
+      "tema": "delitos",
+      "subtema": "temeridad",
+      "materia": 4,
+      "enunciado": "Conducir con temeridad manifiesta y con manifiesto desprecio por la vida de los demás, poniendo en concreto peligro la vida de las personas, ¿qué pena de prisión puede suponer?",
+      "opciones": {
+        "a": "De tres a seis meses.",
+        "b": "De dos a cinco años.",
+        "c": "De seis meses a un año."
+      },
+      "correcta": "b",
+      "explicacion": "El Código Penal castiga con prisión de dos a cinco años, multa y privación del derecho a conducir de seis a diez años la conducción temeraria con manifiesto desprecio por la vida de los demás.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "381.1",
+        "cita": "Será castigado con las penas de prisión de dos a cinco años, multa de doce a veinticuatro meses y privación del derecho a conducir vehículos a motor y ciclomotores durante un período de seis a diez años",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "CP art. 381",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0021",
+      "tema": "delitos",
+      "subtema": "conduccion_sin_permiso",
+      "materia": 4,
+      "enunciado": "Un juez le ha privado del derecho a conducir y, aun así, usted conduce su turismo. ¿Qué comete?",
+      "opciones": {
+        "a": "Una infracción administrativa grave.",
+        "b": "Una infracción leve, si no causa daños.",
+        "c": "Un delito contra la seguridad vial."
+      },
+      "correcta": "c",
+      "explicacion": "Conducir tras haber sido privado, cautelar o definitivamente, del permiso por decisión judicial es un delito, castigado igual que conducir sin haber obtenido nunca el permiso.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "384",
+        "cita": "La misma pena se impondrá al que realizare la conducción tras haber sido privado cautelar o definitivamente del permiso o licencia por decisión judicial",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "CP art. 384",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0022",
+      "tema": "delitos",
+      "subtema": "riesgo_circulacion",
+      "materia": 4,
+      "enunciado": "Quien tiene la obligación de restablecer la seguridad de la vía y no lo hace, originando un grave riesgo para la circulación, ¿qué comete?",
+      "opciones": {
+        "a": "Un delito contra la seguridad vial.",
+        "b": "Una infracción administrativa leve.",
+        "c": "Nada, mientras no se produzca un accidente."
+      },
+      "correcta": "a",
+      "explicacion": "El Código Penal castiga a quien origina un grave riesgo para la circulación al no restablecer la seguridad de la vía cuando tiene obligación de hacerlo.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "385.2ª",
+        "cita": "2.ª No restableciendo la seguridad de la vía, cuando haya obligación de hacerlo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "CP art. 385",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El encabezado del artículo exige que se origine un grave riesgo para la circulación."
+    },
+    {
+      "id": "xb-0023",
+      "tema": "delitos",
+      "subtema": "abandono_lugar",
+      "materia": 4,
+      "enunciado": "Un conductor causa de forma fortuita, sin culpa, un accidente con heridos graves y abandona voluntariamente el lugar, sin que haya riesgo para él ni para otros. ¿Comete un delito?",
+      "opciones": {
+        "a": "No, porque solo es delito si el accidente se produjo por su culpa.",
+        "b": "Sí, el abandono también es delito aunque el accidente tenga un origen fortuito.",
+        "c": "No, siempre que avise después a su compañía de seguros."
+      },
+      "correcta": "b",
+      "explicacion": "El abandono del lugar de un accidente con fallecidos o heridos graves es delito tanto si el accidente se debió a una imprudencia del conductor como si fue fortuito; en este último caso la pena es menor.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "382 bis.3",
+        "cita": "Si el origen de los hechos que dan lugar al abandono fuera fortuito le corresponderá una pena de tres a seis meses de prisión",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "CP art. 382 bis",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0024",
+      "tema": "delitos",
+      "subtema": "instrumento_delito",
+      "materia": 4,
+      "enunciado": "En los delitos contra la seguridad vial, ¿qué consideración tiene el vehículo a motor o ciclomotor utilizado?",
+      "opciones": {
+        "a": "Un bien que no puede verse afectado por la condena.",
+        "b": "Una simple prueba que se devuelve al titular tras el juicio.",
+        "c": "Instrumento del delito."
+      },
+      "correcta": "c",
+      "explicacion": "El Código Penal considera instrumento del delito el vehículo a motor o ciclomotor utilizado en los delitos contra la seguridad vial.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "385 bis",
+        "cita": "El vehículo a motor o ciclomotor utilizado en los hechos previstos en este Capítulo se considerará instrumento del delito",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "CP art. 385 bis",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0025",
+      "tema": "factores_riesgo",
+      "subtema": "tiempo_reaccion",
+      "materia": 4,
+      "enunciado": "¿Qué es el tiempo de reacción?",
+      "opciones": {
+        "a": "El tiempo que pasa entre oír o ver algo y reaccionar.",
+        "b": "El tiempo que tarda el vehículo en detenerse del todo al frenar.",
+        "c": "El tiempo que el conductor puede conducir sin descansar."
+      },
+      "correcta": "a",
+      "explicacion": "El tiempo de reacción es el que pasa entre percibir algo, oyéndolo o viéndolo, y reaccionar; por ejemplo, entre ver un semáforo en rojo y parar el coche.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, El tiempo de reacción (p. 44)",
+        "cita": "Es el tiempo que pasa entre oír o ver algo y reaccionar. Por ejemplo, el tiempo que pasa entre que ves un semáforo en rojo y paras el coche.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0026",
+      "tema": "factores_riesgo",
+      "subtema": "estado_animo",
+      "materia": 4,
+      "enunciado": "Acaba de tener una discusión fuerte y va a coger el coche. Según la DGT, ¿qué riesgo tiene?",
+      "opciones": {
+        "a": "Ninguno, siempre que conozca bien el recorrido.",
+        "b": "Perder la concentración y provocar un accidente.",
+        "c": "Solo el de gastar algo más de combustible."
+      },
+      "correcta": "b",
+      "explicacion": "Los cambios en el estado de ánimo, como los que produce una discusión fuerte o una noticia muy triste, pueden hacer que el conductor pierda la concentración y provoque un accidente.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, El estado de ánimo (p. 44)",
+        "cita": "Los cambios en el estado de ánimo pueden hacer que pierdas la concentración y provocar un accidente de tráfico.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0027",
+      "tema": "factores_riesgo",
+      "subtema": "fatiga",
+      "materia": 4,
+      "enunciado": "Según la DGT, la fatiga psicológica...",
+      "opciones": {
+        "a": "solo produce cansancio en los músculos.",
+        "b": "no afecta a la conducción si se ha descansado físicamente.",
+        "c": "hace que al conductor le cueste más concentrarse."
+      },
+      "correcta": "c",
+      "explicacion": "La fatiga puede ser física o psicológica: la física produce sensación de cansancio y la psicológica hace que cueste más concentrarse.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Estar cansado (fatiga) (p. 45)",
+        "cita": "La fatiga física produce sensación de cansancio y la psicológica hace que te cueste más concentrarte.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0028",
+      "tema": "factores_riesgo",
+      "subtema": "fatiga",
+      "materia": 4,
+      "enunciado": "¿Cuál de estos es un síntoma de fatiga que indica que debe dejar de conducir?",
+      "opciones": {
+        "a": "Moverse mucho en el asiento y cambiar de postura.",
+        "b": "Tener más facilidad para concentrarse.",
+        "c": "Reaccionar más rápido de lo habitual ante los imprevistos."
+      },
+      "correcta": "a",
+      "explicacion": "Entre los síntomas de la fatiga están moverse mucho en el asiento y cambiar de postura, tener los ojos pesados, la dificultad para concentrarse y tardar más en reaccionar.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, ¿Cuáles son los síntomas de la fatiga? (p. 47)",
+        "cita": "Te mueves mucho en el asiento y cambias de postura.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0029",
+      "tema": "factores_riesgo",
+      "subtema": "somnolencia",
+      "materia": 4,
+      "enunciado": "¿Es necesario quedarse totalmente dormido al volante para tener un accidente por culpa del sueño?",
+      "opciones": {
+        "a": "Sí, el riesgo solo existe cuando el conductor se duerme.",
+        "b": "No, la somnolencia produce efectos antes de dormirse del todo.",
+        "c": "Solo cuando se conduce de noche y por autopista."
+      },
+      "correcta": "b",
+      "explicacion": "Muchos accidentes están relacionados con conducir con sueño, y no hace falta dormirse del todo para sufrirlos, porque la somnolencia produce sus efectos antes.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Tener sueño (somnolencia) (p. 48)",
+        "cita": "No es necesario quedarse totalmente dormido para tener un accidente por este motivo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0030",
+      "tema": "factores_riesgo",
+      "subtema": "somnolencia",
+      "materia": 4,
+      "enunciado": "¿Cuál de estas situaciones puede causar somnolencia al conducir?",
+      "opciones": {
+        "a": "Haber dormido las horas habituales y bien.",
+        "b": "Haber hecho una parada para descansar durante el viaje.",
+        "c": "Conducir de madrugada o al mediodía, después de comer."
+      },
+      "correcta": "c",
+      "explicacion": "Entre las causas de la somnolencia están dormir menos o peor de lo habitual, conducir por carreteras con poco tráfico y conducir de madrugada o al mediodía, después de comer.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, ¿Qué puede causar somnolencia? (p. 49)",
+        "cita": "Conducir de madrugada o al mediodía, después de comer.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0031",
+      "tema": "factores_riesgo",
+      "subtema": "somnolencia",
+      "materia": 4,
+      "enunciado": "Mientras conduce, se da cuenta de que no recuerda los últimos kilómetros que ha recorrido. ¿Qué puede indicar?",
+      "opciones": {
+        "a": "Que sufre somnolencia y debe dejar de conducir.",
+        "b": "Que conduce bien concentrado, de forma automática.",
+        "c": "Que la carretera está mal señalizada."
+      },
+      "correcta": "a",
+      "explicacion": "La dificultad para recordar los últimos kilómetros recorridos es un síntoma de somnolencia que avisa de que se debe dejar de conducir.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, ¿Cuáles son los síntomas de la somnolencia? (p. 50)",
+        "cita": "Dificultad para recordar los últimos kilómetros que has recorrido.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0032",
+      "tema": "factores_riesgo",
+      "subtema": "fatiga",
+      "materia": 4,
+      "enunciado": "¿Cómo avisa al conductor un detector de fatiga?",
+      "opciones": {
+        "a": "Frenando el vehículo hasta detenerlo en el arcén.",
+        "b": "Con una luz, un sonido o una vibración en el volante.",
+        "c": "Apagando el motor en la siguiente parada."
+      },
+      "correcta": "b",
+      "explicacion": "El detector de fatiga es un sistema con sensores que reconoce si el conductor está muy cansado o a punto de dormirse y le avisa con una luz, un sonido o una vibración en el volante para que pare.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, ¿Cómo puedes evitar la fatiga y la somnolencia? (p. 51)",
+        "cita": "En esos casos te avisa mediante una luz, sonido o vibración en el volante para que pares el vehículo",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0033",
+      "tema": "alcohol_drogas",
+      "subtema": "efectos_alcohol",
+      "materia": 4,
+      "enunciado": "Según la DGT, ¿a qué afecta sobre todo el alcohol?",
+      "opciones": {
+        "a": "A los músculos de las piernas.",
+        "b": "Al oído y al olfato.",
+        "c": "Al cerebro y a la vista."
+      },
+      "correcta": "c",
+      "explicacion": "El alcohol se extiende por todo el cuerpo a través de la sangre y afecta sobre todo al cerebro y a la vista.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Alcohol (p. 52)",
+        "cita": "El alcohol se extiende por todo tu cuerpo a través de la sangre y afecta, sobre todo, al cerebro y a la vista.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0034",
+      "tema": "alcohol_drogas",
+      "subtema": "efectos_alcohol",
+      "materia": 4,
+      "enunciado": "Según la DGT, ¿cuál es la única tasa de alcoholemia segura para conducir?",
+      "opciones": {
+        "a": "0,0, es decir, no beber alcohol.",
+        "b": "Cualquiera que no supere el límite legal.",
+        "c": "Hasta 0,10 mg/l en aire espirado."
+      },
+      "correcta": "a",
+      "explicacion": "Aunque la ley permite ciertas tasas, la DGT advierte de que la única tasa de alcoholemia segura para conducir es 0,0, es decir, no beber alcohol.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Tasa de alcoholemia (p. 53)",
+        "cita": "la única tasa de alcoholemia segura para conducir es 0,0, o sea, no beber alcohol.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0035",
+      "tema": "alcohol_drogas",
+      "subtema": "efectos_alcohol",
+      "materia": 4,
+      "enunciado": "Ha bebido mucho alcohol por la noche y solo ha dormido unas pocas horas. ¿Es seguro conducir por la mañana?",
+      "opciones": {
+        "a": "Sí, porque dormir elimina el alcohol del organismo.",
+        "b": "No, porque el alcohol se elimina más despacio mientras se duerme.",
+        "c": "Sí, siempre que tome un café bien cargado antes de salir."
+      },
+      "correcta": "b",
+      "explicacion": "El alcohol se elimina más despacio durante el sueño; por eso no es seguro conducir después de beber mucho alcohol y dormir pocas horas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (p. 55)",
+        "cita": "El alcohol se elimina más despacio cuando dormimos. Por eso, no es seguro conducir después de beber mucho alcohol y dormir unas pocas horas.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0036",
+      "tema": "alcohol_drogas",
+      "subtema": "efectos_alcohol",
+      "materia": 4,
+      "enunciado": "¿Cómo afecta el alcohol al cálculo de las distancias?",
+      "opciones": {
+        "a": "Lo mejora, porque el conductor se fija más.",
+        "b": "No le afecta; el alcohol solo influye en los reflejos.",
+        "c": "Se calcula peor la distancia a la que están otros vehículos."
+      },
+      "correcta": "c",
+      "explicacion": "El alcohol hace que el conductor vea peor las señales y los semáforos y calcule peor la distancia a la que están otros vehículos.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Efectos del alcohol mientras conduces (p. 57)",
+        "cita": "Calculas peor la distancia a la que están otros vehículos.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0037",
+      "tema": "alcohol_drogas",
+      "subtema": "efectos_drogas",
+      "materia": 4,
+      "enunciado": "¿Qué peligro tienen las anfetaminas para el conductor cuando pasa su efecto?",
+      "opciones": {
+        "a": "Que se sienta de repente muy cansado y se duerma sin querer.",
+        "b": "Ninguno, porque retrasan la fatiga y el sueño del conductor.",
+        "c": "Que mejoren sus reflejos durante varias horas."
+      },
+      "correcta": "a",
+      "explicacion": "Las anfetaminas retrasan la fatiga y el sueño, lo que puede hacer que el conductor se sienta de repente muy cansado y se duerma sin querer cuando pasa su efecto.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Otras drogas (p. 59)",
+        "cita": "Esto puede provocar que la persona se sienta de repente muy cansada y se duerma sin querer cuando pase el efecto de la droga.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0038",
+      "tema": "medicamentos",
+      "subtema": "medicamentos",
+      "materia": 4,
+      "enunciado": "Le han recetado un medicamento nuevo. Según la DGT, ¿qué debe hacer antes de conducir?",
+      "opciones": {
+        "a": "Nada, porque es un medicamento con receta.",
+        "b": "Preguntar al médico si puede conducir con esa medicación.",
+        "c": "Conducir y comprobar sobre la marcha si nota algún efecto."
+      },
+      "correcta": "b",
+      "explicacion": "Algunas enfermedades y medicamentos reducen la capacidad para conducir con seguridad; por eso, quien tiene una enfermedad o toma medicación debe preguntar siempre al médico si puede conducir.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Enfermedades y medicamentos (p. 62)",
+        "cita": "Cuando tienes una enfermedad o tomas medicación siempre debes preguntar a los médicos si puedes conducir.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0039",
+      "tema": "medicamentos",
+      "subtema": "medicamentos",
+      "materia": 4,
+      "enunciado": "Los psicofármacos, que se usan para tratar la depresión, la ansiedad o los trastornos del sueño, pueden producir...",
+      "opciones": {
+        "a": "una mejora de los reflejos y de la visión.",
+        "b": "más atención a la conducción y menos cansancio.",
+        "c": "sueño, pérdida de reflejos y visión borrosa."
+      },
+      "correcta": "c",
+      "explicacion": "Los psicofármacos pueden producir sueño, pérdida de reflejos, mareos, visión borrosa y confusión, efectos peligrosos para conducir.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, ¿Qué medicamentos pueden ser peligrosos para conducir? (p. 65)",
+        "cita": "y los trastornos del sueño. Sueño. Pérdida de reflejos. Mareos. Visión borrosa. Confusión.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0040",
+      "tema": "medicamentos",
+      "subtema": "enfermedades",
+      "materia": 4,
+      "enunciado": "Tiene una enfermedad crónica y hace unos días que se encuentra mejor. ¿Puede dejar el tratamiento por su cuenta?",
+      "opciones": {
+        "a": "No, no debe abandonarlo hasta que lo autorice el médico.",
+        "b": "Sí, si ya no nota ningún síntoma.",
+        "c": "Sí, pero solo los días en que vaya a conducir."
+      },
+      "correcta": "a",
+      "explicacion": "Entre los consejos de la DGT para conductores con enfermedades crónicas están no abandonar el tratamiento hasta que lo autorice el médico y no beber alcohol mientras se toma la medicación.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Enfermedades y medicamentos (p. 63)",
+        "cita": "No abandonar el tratamiento hasta que lo autorice el médico.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0041",
+      "tema": "factores_riesgo",
+      "subtema": "alimentacion",
+      "materia": 4,
+      "enunciado": "Según la DGT, ¿cuánto tiempo es recomendable esperar al terminar de comer antes de conducir?",
+      "opciones": {
+        "a": "Entre 2 y 3 horas.",
+        "b": "Entre 15 y 20 minutos.",
+        "c": "No hace falta esperar nada."
+      },
+      "correcta": "b",
+      "explicacion": "La DGT recomienda esperar entre 15 y 20 minutos al terminar de comer antes de conducir y hacer varias comidas ligeras en vez de una muy fuerte.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Alimentación (p. 66)",
+        "cita": "También es recomendable esperar un tiempo (entre 15 y 20 minutos) al terminar de comer antes de conducir.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0042",
+      "tema": "distracciones",
+      "subtema": "distracciones",
+      "materia": 4,
+      "enunciado": "Según la DGT, ¿en qué conductores son más frecuentes los accidentes por distracciones?",
+      "opciones": {
+        "a": "En los conductores de entre 30 y 50 años.",
+        "b": "En los conductores profesionales con mucha experiencia.",
+        "c": "En los jóvenes de 18 a 25 años y en los mayores de 70."
+      },
+      "correcta": "c",
+      "explicacion": "Los accidentes por distracciones son más frecuentes en los conductores jóvenes, de 18 a 25 años, y en los mayores de 70 años.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Accidentes por distracciones (p. 68)",
+        "cita": "En conductores jóvenes entre 18 y 25 años y en los mayores de 70 años.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0043",
+      "tema": "distracciones",
+      "subtema": "fumar",
+      "materia": 4,
+      "enunciado": "Según la DGT, las personas que fuman mientras conducen...",
+      "opciones": {
+        "a": "sufren el doble de accidentes que las que no fuman.",
+        "b": "tienen el mismo riesgo que las que no fuman.",
+        "c": "sufren menos accidentes, porque fumar las mantiene despiertas."
+      },
+      "correcta": "a",
+      "explicacion": "Fumar al volante duplica los accidentes: distrae al buscar y encender el cigarro, ocupa una mano, el humo dificulta la visión y empeora el aire del habitáculo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Fumar en el vehículo (p. 70)",
+        "cita": "Las personas que fuman mientras conducen sufren el doble de accidentes que las personas que no fuman.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0044",
+      "tema": "distracciones",
+      "subtema": "telefono_movil",
+      "materia": 4,
+      "enunciado": "Necesita hacer una llamada de teléfono durante un viaje. ¿Qué recomienda la DGT?",
+      "opciones": {
+        "a": "Llamar sujetando el móvil entre el hombro y la oreja.",
+        "b": "Parar en un lugar seguro y no seguir hasta acabar la llamada.",
+        "c": "Reducir la velocidad y llamar con el móvil en la mano."
+      },
+      "correcta": "b",
+      "explicacion": "La DGT recomienda parar el vehículo en un lugar seguro cuando se necesite hacer una llamada y no seguir conduciendo hasta que termine.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Recomendaciones para usar el móvil y el dispositivo de manos libres (p. 72)",
+        "cita": "Para el vehículo en un lugar seguro cuando necesites hacer una llamada. Sigue conduciendo solo cuando se acabe la llamada.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0045",
+      "tema": "distracciones",
+      "subtema": "gps",
+      "materia": 4,
+      "enunciado": "¿Dónde conviene colocar el navegador GPS en el vehículo?",
+      "opciones": {
+        "a": "Suelto en el asiento del acompañante, para poder moverlo cuando haga falta.",
+        "b": "En el centro del parabrisas, aunque tape una parte de la visión.",
+        "c": "Fijo, a la vista sin apartarla de la carretera y fuera de la zona de los airbags."
+      },
+      "correcta": "c",
+      "explicacion": "El navegador GPS debe ir fijo, en un lugar donde el conductor lo vea sin apartar la vista de la carretera y que deje abrirse a los airbags si fuera necesario.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, Navegadores GPS (p. 73)",
+        "cita": "Colócalo en un lugar en el que lo puedas ver sin apartar la vista de la carretera.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0046",
+      "tema": "permiso_conduccion",
+      "subtema": "variacion_datos",
+      "materia": 10,
+      "enunciado": "Como titular de un permiso de conducción, cambia de domicilio. ¿En qué plazo debe comunicarlo a la Jefatura Provincial de Tráfico?",
+      "opciones": {
+        "a": "Quince días.",
+        "b": "Tres meses.",
+        "c": "Un año."
+      },
+      "correcta": "a",
+      "explicacion": "El titular de un permiso o licencia de conducción debe comunicar a la Jefatura Provincial de Tráfico cualquier variación de los datos del permiso y el cambio de domicilio en un plazo de quince días.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "10",
+        "cita": "así como la del domicilio de su titular, deberá ser comunicada por éste dentro del plazo de quince días",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 10",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0047",
+      "tema": "permiso_conduccion",
+      "subtema": "duplicados",
+      "materia": 10,
+      "enunciado": "Le expidieron un duplicado del permiso de conducción porque había perdido el original, y ahora lo encuentra. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Quedarse con los dos permisos y usar cualquiera de ellos.",
+        "b": "Devolver el original a la Jefatura Provincial de Tráfico que lo expidió.",
+        "c": "Destruir el duplicado y seguir usando el original."
+      },
+      "correcta": "b",
+      "explicacion": "Quien obtiene un duplicado del permiso de conducción por sustracción o extravío debe devolver el original, cuando lo encuentre, a la Jefatura Provincial de Tráfico que lo hubiera expedido.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "11.3",
+        "cita": "deberá devolver el original de éste, cuando lo encuentre, a la Jefatura Provincial de Tráfico que lo hubiere expedido.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0048",
+      "tema": "permiso_conduccion",
+      "subtema": "vigencia",
+      "materia": 10,
+      "enunciado": "Un camionero de 45 años renueva su permiso de la clase C. ¿Por cuánto tiempo será válido?",
+      "opciones": {
+        "a": "Diez años.",
+        "b": "Tres años.",
+        "c": "Cinco años."
+      },
+      "correcta": "c",
+      "explicacion": "Los permisos de las clases C1, C1+E, C, C+E, D1, D1+E, D y D+E tienen una vigencia de cinco años hasta que su titular cumple 65 años, y de tres años a partir de esa edad.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "12.1",
+        "cita": "tendrá un período de vigencia de cinco años mientras su titular no cumpla los sesenta y cinco años y de tres años a partir de esa edad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 12",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0049",
+      "tema": "permiso_conduccion",
+      "subtema": "vigencia",
+      "materia": 10,
+      "enunciado": "Su permiso de conducción caducó hace una semana y un agente le para en un control. ¿Qué ocurre?",
+      "opciones": {
+        "a": "El permiso caducado no le autoriza a conducir y el agente lo intervendrá.",
+        "b": "Nada, porque hay un período de gracia de tres meses.",
+        "c": "Puede seguir conduciendo hasta recibir el permiso renovado."
+      },
+      "correcta": "a",
+      "explicacion": "Un permiso de conducción cuya vigencia ha vencido no autoriza a conducir, y su uso da lugar a que la autoridad o sus agentes lo intervengan y lo remitan a la Jefatura Provincial de Tráfico.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "12.4",
+        "cita": "El permiso o licencia de conducción cuya vigencia hubiese vencido no autoriza a su titular a conducir y su utilización dará lugar a su intervención inmediata",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 12",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0050",
+      "tema": "permiso_conduccion",
+      "subtema": "prorroga",
+      "materia": 10,
+      "enunciado": "Con carácter general, ¿con qué antelación máxima puede solicitar la prórroga de la vigencia de su permiso de conducción?",
+      "opciones": {
+        "a": "Un año antes de la fecha de caducidad.",
+        "b": "Tres meses antes de la fecha de caducidad.",
+        "c": "Solo una vez que haya caducado."
+      },
+      "correcta": "b",
+      "explicacion": "La prórroga del permiso puede pedirse con una antelación máxima de tres meses a su caducidad, y el nuevo período de vigencia se cuenta desde la fecha de caducidad.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "13.1",
+        "cita": "La solicitud de prórroga de vigencia del permiso o licencia podrá presentarse con una antelación máxima de tres meses a su fecha de caducidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 13",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0051",
+      "tema": "permiso_conduccion",
+      "subtema": "prorroga",
+      "materia": 10,
+      "enunciado": "Su permiso de conducción caducó hace varios meses. ¿Puede solicitar la prórroga de su vigencia?",
+      "opciones": {
+        "a": "No, debe volver a hacer los exámenes teórico y práctico.",
+        "b": "No, debe obtener un permiso nuevo y empezar con 8 puntos.",
+        "c": "Sí, el titular de un permiso caducado puede solicitar su prórroga."
+      },
+      "correcta": "c",
+      "explicacion": "El titular de un permiso o licencia de conducción caducados puede solicitar su prórroga presentando la documentación exigida, aunque no puede conducir mientras el permiso esté caducado.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "13.3",
+        "cita": "El titular de un permiso o licencia de conducción caducados podrá solicitar su prórroga acompañando los documentos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 13",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0052",
+      "tema": "permiso_conduccion",
+      "subtema": "permisos_extranjeros",
+      "materia": 10,
+      "enunciado": "Una persona con un permiso de la clase B expedido en otro Estado de la Unión Europea, conforme a la normativa comunitaria, quiere conducir un turismo en España. ¿Es válido su permiso?",
+      "opciones": {
+        "a": "Sí, mantiene su validez en las condiciones en que fue expedido.",
+        "b": "Solo durante seis meses; después debe canjearlo.",
+        "c": "No, debe obtener un permiso español antes de conducir."
+      },
+      "correcta": "a",
+      "explicacion": "Los permisos expedidos en Estados de la Unión Europea o del Espacio Económico Europeo conforme a la normativa comunitaria son válidos en España en las condiciones de su expedición, con la edad mínima exigida para el permiso español equivalente.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "15.1",
+        "cita": "mantendrán su validez en España, en las condiciones en que hubieran sido expedidos en su lugar de origen",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0053",
+      "tema": "permiso_conduccion",
+      "subtema": "permisos_extranjeros",
+      "materia": 10,
+      "enunciado": "El titular de un permiso expedido en otro Estado de la Unión Europea fija su residencia normal en España. ¿Qué normas se le aplican sobre vigencia, aptitudes psicofísicas y puntos?",
+      "opciones": {
+        "a": "Las del Estado que expidió el permiso, mientras no lo canjee.",
+        "b": "Las españolas.",
+        "c": "Ninguna, hasta que caduque el permiso."
+      },
+      "correcta": "b",
+      "explicacion": "Quien tiene un permiso de otro Estado de la Unión Europea y adquiere su residencia normal en España queda sometido a las normas españolas sobre vigencia, control de aptitudes psicofísicas y crédito de puntos.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "15.4",
+        "cita": "quedará sometido a las disposiciones españolas relativas a su período de vigencia, de control de sus aptitudes psicofísicas y de asignación de un crédito de puntos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0054",
+      "tema": "permiso_conduccion",
+      "subtema": "permisos_extranjeros",
+      "materia": 10,
+      "enunciado": "Un permiso de conducción expedido en un país que no es de la Unión Europea, válido para conducir en España, ¿durante cuánto tiempo puede usarse desde que su titular adquiere la residencia normal en España?",
+      "opciones": {
+        "a": "Dos años como máximo desde que fija su residencia.",
+        "b": "Sin límite, mientras el permiso esté en vigor.",
+        "c": "Seis meses como máximo, salvo que un convenio diga otra cosa."
+      },
+      "correcta": "c",
+      "explicacion": "Los permisos de países no comunitarios válidos en España dejan de serlo, salvo convenio que diga otra cosa, cuando pasan seis meses desde que su titular adquiere la residencia normal en España; después hay que obtener o canjear un permiso español.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "21.2.c",
+        "cita": "Que no haya transcurrido el plazo de seis meses, como máximo, contado desde que su titular adquiera su residencia normal en España",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 21",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0055",
+      "tema": "permiso_conduccion",
+      "subtema": "titularidad_unica",
+      "materia": 10,
+      "enunciado": "¿Puede una persona tener a la vez un permiso de conducción español y otro expedido en otro Estado de la Unión Europea?",
+      "opciones": {
+        "a": "No, nadie puede tener más de un permiso expedido en la UE o el EEE.",
+        "b": "Sí, siempre que los dos permisos sean de clases distintas.",
+        "c": "Sí, si tiene su residencia en los dos países a la vez."
+      },
+      "correcta": "a",
+      "explicacion": "Ninguna persona puede ser titular de más de un permiso de conducción expedido por un Estado de la Unión Europea o del Espacio Económico Europeo; si tiene más de uno, se le retira el que proceda.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "1.4",
+        "cita": "Ninguna persona podrá ser titular de más de un permiso o de una licencia de conducción expedido por un Estado miembro de la Unión Europea",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 1",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0056",
+      "tema": "permiso_conduccion",
+      "subtema": "perdida_vigencia",
+      "materia": 10,
+      "enunciado": "¿Cuándo se declara la pérdida de vigencia del permiso de conducción?",
+      "opciones": {
+        "a": "Cuando su titular comete cualquier infracción grave de tráfico.",
+        "b": "Cuando deja de reunir los requisitos para obtenerlo o pierde todos los puntos.",
+        "c": "Cuando su titular no lo lleva consigo en un control de los agentes."
+      },
+      "correcta": "b",
+      "explicacion": "Se declara la pérdida de vigencia del permiso de conducción cuando su titular no posee los requisitos exigidos para su otorgamiento o ha perdido totalmente su asignación de puntos.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "35.1",
+        "cita": "Se declarará la pérdida de vigencia de las autorizaciones administrativas cuyo titular no posea los requisitos para su otorgamiento o haya perdido totalmente su asignación de puntos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 35",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0057",
+      "tema": "permiso_conduccion",
+      "subtema": "perdida_vigencia",
+      "materia": 10,
+      "enunciado": "Se ha declarado la pérdida de vigencia de su permiso por haber perdido todos los puntos. ¿Qué debe hacer con el permiso?",
+      "opciones": {
+        "a": "Conservarlo hasta que obtenga uno nuevo.",
+        "b": "Destruirlo por su cuenta.",
+        "c": "Entregarlo en la Jefatura Provincial de Tráfico."
+      },
+      "correcta": "c",
+      "explicacion": "Declarada la pérdida de vigencia del permiso por la pérdida total de los puntos, el titular debe entregarlo en la Jefatura Provincial de Tráfico; si no lo hace, los agentes lo retiran.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "37.2",
+        "cita": "Declarada la pérdida de vigencia, el interesado deberá entregar el permiso o licencia de conducción en la Jefatura Provincial de Tráfico",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "version_consultada": "2023-12-06"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGCOND art. 37",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0058",
+      "tema": "permiso_conduccion",
+      "subtema": "conductor_novel",
+      "materia": 10,
+      "enunciado": "Durante su primer año con permiso, una autoridad le interviene el permiso durante tres meses. ¿Qué ocurre con el plazo durante el que debe llevar la señal de conductor novel (V-13)?",
+      "opciones": {
+        "a": "Se suspende y, cuando termina la intervención, sigue contando desde donde se quedó.",
+        "b": "Sigue contando con normalidad mientras dura la intervención del permiso.",
+        "c": "Vuelve a empezar desde cero cuando le devuelven el permiso."
+      },
+      "correcta": "a",
+      "explicacion": "El año durante el que se debe llevar la señal V-13 de conductor novel se suspende mientras el permiso está intervenido, ha perdido su vigencia o hay privación del derecho a conducir, y luego continúa desde donde quedó.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-13",
+        "cita": "El cómputo de este plazo se suspenderá por el período en el que el permiso se encuentre en situación de pérdida de vigencia, así como en el de intervención del permiso",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV Anexo XI, V-13",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0059",
+      "tema": "puntos",
+      "subtema": "credito_unico",
+      "materia": 10,
+      "enunciado": "Es titular de los permisos A2 y B. ¿Cómo se gestionan sus puntos?",
+      "opciones": {
+        "a": "Con un crédito de 12 puntos para cada permiso.",
+        "b": "Con un único crédito de puntos para todos sus permisos.",
+        "c": "Solo tiene puntos el permiso que obtuvo primero."
+      },
+      "correcta": "b",
+      "explicacion": "El crédito de puntos es único para todas las autorizaciones del conductor, y la pérdida o recuperación de puntos afecta al permiso cualquiera que sea su clase.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "63.3",
+        "cita": "El crédito de puntos es único para todas las autorizaciones administrativas de las que sea titular el conductor.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 63",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0060",
+      "tema": "puntos",
+      "subtema": "cursos_conduccion_segura",
+      "materia": 10,
+      "enunciado": "Un conductor con saldo positivo de puntos supera un curso de conducción segura y eficiente, cumpliendo los requisitos. ¿Qué obtiene?",
+      "opciones": {
+        "a": "Seis puntos, sin pasar de un máximo de doce.",
+        "b": "Ningún punto; solo los cursos de sensibilización devuelven puntos.",
+        "c": "Dos puntos adicionales, sin pasar de un máximo de quince."
+      },
+      "correcta": "c",
+      "explicacion": "Superar un curso de conducción segura y eficiente, con saldo positivo de puntos, compensa con dos puntos adicionales hasta un máximo de quince, con un curso de cada tipo cada dos años como máximo.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "63.5",
+        "cita": "compensará con dos puntos adicionales hasta un máximo de quince puntos y con una frecuencia máxima de un curso de cada tipo cada dos años.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 63",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0061",
+      "tema": "puntos",
+      "subtema": "perdida_puntos",
+      "materia": 10,
+      "enunciado": "Un conductor con permiso B comete, mientras circula en bicicleta, una infracción que lleva aparejada la pérdida de puntos. ¿Pierde puntos de su permiso?",
+      "opciones": {
+        "a": "No, porque la bicicleta no exige permiso de conducción.",
+        "b": "Sí, los mismos puntos que si condujera un turismo.",
+        "c": "Sí, pero solo la mitad de los puntos."
+      },
+      "correcta": "a",
+      "explicacion": "La pérdida de puntos solo se produce cuando el hecho sancionado ocurre conduciendo un vehículo para el que se exige permiso o licencia de conducción; con la bicicleta hay multa, pero no se pierden puntos.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "65.3",
+        "cita": "La pérdida de puntos únicamente se producirá cuando el hecho del que se deriva la detracción de puntos se produzca con ocasión de la conducción de un vehículo para el que se exija permiso o licencia de conducción.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 65",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0062",
+      "tema": "puntos",
+      "subtema": "anexo_II",
+      "materia": 10,
+      "enunciado": "¿Cuántos puntos pierde el conductor sancionado en firme por no detenerse ante un semáforo con la luz roja encendida?",
+      "opciones": {
+        "a": "2 puntos.",
+        "b": "4 puntos.",
+        "c": "6 puntos."
+      },
+      "correcta": "b",
+      "explicacion": "Incumplir la preferencia de paso o la obligación de detenerse en la señal de stop, en el ceda el paso o en un semáforo con luz roja supone la pérdida de 4 puntos.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo II.10",
+        "cita": "10. Incumplir las disposiciones legales sobre preferencia de paso, y la obligación de detenerse en la señal de stop, ceda el paso y en los semáforos con luz roja encendida.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV Anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El número de puntos (4) figura en la columna 'Puntos' del Anexo II, en la misma fila que la cita."
+    },
+    {
+      "id": "xb-0063",
+      "tema": "puntos",
+      "subtema": "anexo_II",
+      "materia": 10,
+      "enunciado": "Adelanta a un ciclista sin dejar la separación lateral mínima de 1,5 metros. ¿Cuántos puntos pierde si es sancionado en firme?",
+      "opciones": {
+        "a": "3 puntos.",
+        "b": "4 puntos.",
+        "c": "6 puntos."
+      },
+      "correcta": "c",
+      "explicacion": "Adelantar poniendo en peligro o entorpeciendo a ciclistas, o sin dejar la separación mínima de 1,5 metros, supone la pérdida de 6 puntos.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo II.12",
+        "cita": "12. Adelantar poniendo en peligro o entorpeciendo a ciclistas o sin dejar la separación mínima de 1,5 metros.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV Anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El número de puntos (6) figura en la columna 'Puntos' del Anexo II, en la misma fila que la cita."
+    },
+    {
+      "id": "xb-0064",
+      "tema": "puntos",
+      "subtema": "anexo_II",
+      "materia": 10,
+      "enunciado": "Lleva a su hijo de 4 años en el coche sin sistema de retención infantil. ¿Cuántos puntos pierde si es sancionado en firme?",
+      "opciones": {
+        "a": "4 puntos.",
+        "b": "2 puntos.",
+        "c": "6 puntos."
+      },
+      "correcta": "a",
+      "explicacion": "No usar, o no usar adecuadamente, el cinturón de seguridad, los sistemas de retención infantil, el casco y demás elementos de protección obligatorios supone la pérdida de 4 puntos.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo II.15",
+        "cita": "15. No hacer uso, o no hacerlo de forma adecuada, del cinturón de seguridad, sistemas de retención infantil, casco y demás elementos de protección obligatorios.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV Anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El número de puntos (4) figura en la columna 'Puntos' del Anexo II, en la misma fila que la cita. Un niño de 4 años mide normalmente menos de 135 cm (RGC 117)."
+    },
+    {
+      "id": "xb-0065",
+      "tema": "puntos",
+      "subtema": "anexo_II",
+      "materia": 10,
+      "enunciado": "Se pasa la salida en una autovía y hace marcha atrás por el arcén para tomarla. ¿Cuántos puntos pierde si es sancionado en firme?",
+      "opciones": {
+        "a": "2 puntos.",
+        "b": "4 puntos.",
+        "c": "6 puntos."
+      },
+      "correcta": "b",
+      "explicacion": "Hacer la maniobra de marcha atrás en autopistas y autovías supone la pérdida de 4 puntos.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo II.18",
+        "cita": "18. Realizar la maniobra de marcha atrás en autopistas y autovías.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV Anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El número de puntos (4) figura en la columna 'Puntos' del Anexo II, en la misma fila que la cita."
+    },
+    {
+      "id": "xb-0066",
+      "tema": "puntos",
+      "subtema": "anexo_II",
+      "materia": 10,
+      "enunciado": "¿Cuántos puntos pierde el conductor sancionado en firme por llevar en el vehículo un detector de radares?",
+      "opciones": {
+        "a": "6 puntos.",
+        "b": "Ninguno; solo se sanciona con multa.",
+        "c": "3 puntos."
+      },
+      "correcta": "c",
+      "explicacion": "Conducir un vehículo con mecanismos de detección de radares o cinemómetros supone la pérdida de 3 puntos; los inhibidores de radar, que interfieren en su funcionamiento, suponen 6 puntos.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo II.21",
+        "cita": "21. Conducir vehículos que lleven mecanismos de detección de radares o cinemómetros.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV Anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Los puntos (3 para detectores, ordinal 21; 6 para inhibidores, ordinal 5) figuran en la columna 'Puntos' del Anexo II."
+    },
+    {
+      "id": "xb-0067",
+      "tema": "puntos",
+      "subtema": "anexo_II",
+      "materia": 10,
+      "enunciado": "¿Cuántos puntos pierde el conductor sancionado en firme por arrojar a la vía un objeto que puede producir un incendio, como una colilla encendida?",
+      "opciones": {
+        "a": "6 puntos.",
+        "b": "2 puntos.",
+        "c": "4 puntos."
+      },
+      "correcta": "a",
+      "explicacion": "Arrojar a la vía o a sus inmediaciones objetos que puedan producir incendios o accidentes supone la pérdida de 6 puntos.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo II.9",
+        "cita": "9. Arrojar a la vía o en sus inmediaciones objetos que puedan producir incendios o accidentes.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV Anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El número de puntos (6) figura en la columna 'Puntos' del Anexo II, en la misma fila que la cita."
+    },
+    {
+      "id": "xb-0068",
+      "tema": "documentacion",
+      "subtema": "cambio_titularidad",
+      "materia": 10,
+      "enunciado": "Vende su coche a un particular. ¿En qué plazo debe notificar la venta a la Jefatura de Tráfico?",
+      "opciones": {
+        "a": "Treinta días desde la transmisión.",
+        "b": "Diez días desde la transmisión.",
+        "c": "Tres meses desde la transmisión."
+      },
+      "correcta": "b",
+      "explicacion": "El titular que transmite un vehículo matriculado en España debe notificarlo a la Jefatura de Tráfico en el plazo de diez días desde la transmisión.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "32.1",
+        "cita": "deberá notificarlo a la Jefatura de Tráfico de la provincia en que tenga su domicilio legal o a aquélla en que fue matriculado el vehículo, en el plazo de diez días desde la transmisión",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 32",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0069",
+      "tema": "documentacion",
+      "subtema": "cambio_titularidad",
+      "materia": 10,
+      "enunciado": "Vende su coche y no notifica la venta a Tráfico. Mientras el comprador no lo inscribe a su nombre, ¿quién es considerado titular a efectos de tráfico?",
+      "opciones": {
+        "a": "El comprador, desde el día de la venta.",
+        "b": "Nadie, hasta que se haga el cambio.",
+        "c": "Usted, el vendedor."
+      },
+      "correcta": "c",
+      "explicacion": "Si el vendedor no notifica la transmisión, sigue siendo considerado titular del vehículo a efectos de tráfico hasta que se inscriba a nombre de otra persona, además de poder ser sancionado.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "32.1",
+        "cita": "Si el transmitente incumpliera la obligación de notificación señalada anteriormente, sin perjuicio de que se instruya el correspondiente procedimiento sancionador, seguirá siendo considerado titular del vehículo transmitido",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 32",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0070",
+      "tema": "documentacion",
+      "subtema": "cambio_titularidad",
+      "materia": 10,
+      "enunciado": "Compra un coche usado a un particular. ¿En qué plazo debe solicitar a Tráfico la renovación del permiso de circulación a su nombre?",
+      "opciones": {
+        "a": "Treinta días desde la adquisición.",
+        "b": "Diez días desde la adquisición.",
+        "c": "Seis meses desde la adquisición."
+      },
+      "correcta": "a",
+      "explicacion": "El comprador debe solicitar la renovación del permiso de circulación a su nombre dentro de los treinta días siguientes a la adquisición; si no lo hace, se ordena la inmovilización del vehículo.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "32.3",
+        "cita": "dentro del plazo de treinta días desde la adquisición, la renovación del permiso o licencia de circulación, haciendo constar su identidad y domicilio, así como los del transmitente",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 32",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0071",
+      "tema": "documentacion",
+      "subtema": "cambio_titularidad",
+      "materia": 10,
+      "enunciado": "Fallece el titular de un vehículo. ¿En qué plazo debe notificarlo a Tráfico la persona que lo tiene a su cargo hasta que se adjudique a un heredero?",
+      "opciones": {
+        "a": "En los diez días siguientes a la defunción.",
+        "b": "Antes de que pasen noventa días desde la defunción.",
+        "c": "Cuando termine el reparto de la herencia, sin plazo fijo."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando fallece el titular de un vehículo, quien lo custodia hasta la adjudicación hereditaria debe notificarlo a Tráfico antes de que pasen noventa días desde la defunción, y el heredero adjudicatario tiene otros noventa días para pedir el permiso a su nombre.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "32.6",
+        "cita": "deberá notificarlo a la Jefatura de Tráfico de su domicilio legal antes de transcurrir los noventa días siguientes a la defunción del causante",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 32",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0072",
+      "tema": "documentacion",
+      "subtema": "duplicados_vehiculo",
+      "materia": 10,
+      "enunciado": "Le expidieron un duplicado del permiso de circulación de su coche por extravío y luego encuentra el original. ¿Qué ocurre con el original?",
+      "opciones": {
+        "a": "Recupera su validez y el duplicado queda anulado.",
+        "b": "Puede llevar cualquiera de los dos en el vehículo.",
+        "c": "Quedó anulado al expedirse el duplicado y debe destruirse."
+      },
+      "correcta": "c",
+      "explicacion": "La expedición de un duplicado del permiso o licencia de circulación anula por sí sola el original, que debe destruirse inmediatamente si se recupera.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "30.1",
+        "cita": "Su expedición determinará por sí sola la anulación del original. En consecuencia, y en caso de recuperación posterior del original, se procederá a su inmediata destrucción.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 30",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0073",
+      "tema": "documentacion",
+      "subtema": "bajas",
+      "materia": 10,
+      "enunciado": "Entrega su coche a un establecimiento de compraventa de vehículos para que lo venda. ¿Qué debe solicitar a Tráfico en el plazo de diez días?",
+      "opciones": {
+        "a": "La baja temporal del vehículo.",
+        "b": "La baja definitiva del vehículo.",
+        "c": "El cambio de titularidad a nombre del establecimiento."
+      },
+      "correcta": "a",
+      "explicacion": "Quien entrega su vehículo a un compraventa para su posterior venta debe solicitar, en diez días desde la entrega, la baja temporal del vehículo por transmisión.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "33.1",
+        "cita": "deberá solicitar, en el plazo de diez días desde la entrega, la baja temporal del mismo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 33",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0074",
+      "tema": "documentacion",
+      "subtema": "bajas",
+      "materia": 10,
+      "enunciado": "Pide la baja temporal voluntaria de su turismo porque no va a usarlo. Si no solicita ninguna prórroga, ¿cuánto dura como máximo?",
+      "opciones": {
+        "a": "Seis meses desde la fecha de solicitud.",
+        "b": "Un año desde la fecha de solicitud.",
+        "c": "Sin límite, hasta que pida el alta."
+      },
+      "correcta": "b",
+      "explicacion": "La baja temporal voluntaria de un vehículo dura como máximo un año desde la solicitud, salvo los vehículos agrícolas; pasado ese plazo sin pedir prórroga, el vehículo vuelve a estar en situación activa.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "36.1.a",
+        "cita": "tendrán una duración máxima de un año desde la fecha de solicitud de baja temporal",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 36",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0075",
+      "tema": "documentacion",
+      "subtema": "bajas",
+      "materia": 10,
+      "enunciado": "Le roban el coche. ¿Puede solicitar la baja temporal del vehículo en Tráfico?",
+      "opciones": {
+        "a": "No, solo puede solicitar la baja definitiva.",
+        "b": "Solo si pasa un año sin que aparezca.",
+        "c": "Sí, acreditando que ha presentado la denuncia."
+      },
+      "correcta": "c",
+      "explicacion": "En caso de sustracción, el titular puede pedir la baja temporal del vehículo acreditando haber formulado la denuncia correspondiente.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "36.1.b",
+        "cita": "Por sustracción del vehículo y a petición de su titular, el cual debe acreditar haber formulado la denuncia correspondiente.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 36",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0076",
+      "tema": "documentacion",
+      "subtema": "bajas",
+      "materia": 10,
+      "enunciado": "¿Puede la Jefatura de Tráfico dar de baja definitiva de oficio un vehículo, sin que lo pida su titular?",
+      "opciones": {
+        "a": "Sí, por ejemplo si en diez años no ha pasado la ITV ni ha tenido seguro.",
+        "b": "No, porque solo el titular puede pedir la baja de su vehículo.",
+        "c": "Sí, siempre que no haya pasado la ITV en el último año."
+      },
+      "correcta": "a",
+      "explicacion": "Tráfico puede acordar de oficio la baja definitiva de un vehículo, entre otros casos, cuando se presume que no existe o no circula porque en los últimos diez años no ha cumplido con la ITV ni con el seguro obligatorio.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "35.5",
+        "cita": "al no haberse cumplido las exigencias en materia de inspección ITV obligatoria y de seguro de responsabilidad civil de suscripción obligatoria en los últimos diez años",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 35",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0077",
+      "tema": "itv",
+      "subtema": "resultado",
+      "materia": 10,
+      "enunciado": "En la inspección técnica de su vehículo solo se detectan defectos leves. ¿Cuál es el resultado de la ITV?",
+      "opciones": {
+        "a": "Desfavorable.",
+        "b": "Favorable.",
+        "c": "Negativo."
+      },
+      "correcta": "b",
+      "explicacion": "El resultado de la ITV es favorable si no se detectan defectos o solo hay defectos leves; desfavorable si hay algún defecto grave, y negativo si hay algún defecto muy grave.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "9.4",
+        "cita": "Cuando en una inspección técnica no se detecten defectos o sólo se detecten defectos clasificados leves, el resultado de la inspección técnica será favorable.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 9",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0078",
+      "tema": "itv",
+      "subtema": "resultado",
+      "materia": 10,
+      "enunciado": "En la ITV se detecta en su vehículo un defecto muy grave. ¿Cuál es el resultado de la inspección?",
+      "opciones": {
+        "a": "Desfavorable.",
+        "b": "Favorable, con obligación de reparar.",
+        "c": "Negativo."
+      },
+      "correcta": "c",
+      "explicacion": "Un solo defecto muy grave, que supone un riesgo directo e inmediato para la seguridad vial, hace que el resultado de la ITV sea negativo y el vehículo quede inhabilitado para circular.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "9.4",
+        "cita": "Si en una inspección técnica se detectase algún defecto clasificado como muy grave, el resultado de la inspección técnica será negativo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 9",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0079",
+      "tema": "itv",
+      "subtema": "defectos_leves",
+      "materia": 10,
+      "enunciado": "Su vehículo supera la ITV, pero con un defecto leve. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Repararlo en un plazo máximo de dos meses, sin necesidad de volver a la ITV.",
+        "b": "Volver a la ITV en un mes para que comprueben la reparación.",
+        "c": "Nada, porque los defectos leves no es obligatorio repararlos."
+      },
+      "correcta": "a",
+      "explicacion": "Los defectos leves de la ITV deben repararse en un plazo máximo de dos meses, pero no exigen una nueva inspección, salvo que el vehículo tenga que volver por un resultado desfavorable o negativo.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "11.1",
+        "cita": "Los defectos calificados como leves son defectos que deberán repararse en un plazo máximo de dos meses. No exigen una nueva inspección",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0080",
+      "tema": "itv",
+      "subtema": "requisitos",
+      "materia": 10,
+      "enunciado": "¿Qué se exige antes de realizar cualquier inspección técnica de un vehículo?",
+      "opciones": {
+        "a": "Presentar el permiso de conducción del titular.",
+        "b": "Acreditar que tiene el seguro obligatorio.",
+        "c": "Haber hecho una revisión previa en un taller oficial de la marca."
+      },
+      "correcta": "b",
+      "explicacion": "Para realizar cualquier inspección técnica de un vehículo es condición previa acreditar que tiene el seguro obligatorio.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "8.3",
+        "cita": "Será condición previa a la realización de cualquier inspección técnica la acreditación del seguro obligatorio del vehículo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 8",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0081",
+      "tema": "itv",
+      "subtema": "eleccion_estacion",
+      "materia": 10,
+      "enunciado": "Tras una ITV desfavorable, repara el vehículo. ¿Dónde puede pasar la nueva inspección?",
+      "opciones": {
+        "a": "Solo en la misma estación donde le hicieron la primera inspección.",
+        "b": "Solo en una estación de la provincia donde se matriculó el vehículo.",
+        "c": "En la estación ITV que elija, porque hay libertad de elección."
+      },
+      "correcta": "c",
+      "explicacion": "El titular puede elegir libremente la estación ITV tanto para la primera inspección como para las sucesivas tras reparar los defectos.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "11.8",
+        "cita": "Existe libertad de elección de la estación ITV para efectuar tanto la primera inspección técnica como las inspecciones sucesivas tras la subsanación de defectos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0082",
+      "tema": "itv",
+      "subtema": "plazos",
+      "materia": 10,
+      "enunciado": "Su vehículo sacó una ITV desfavorable y lo lleva a la segunda inspección fuera del plazo de dos meses. ¿Qué ocurre?",
+      "opciones": {
+        "a": "Se le hará una inspección técnica completa, además de las posibles sanciones.",
+        "b": "Solo se revisarán los defectos que se detectaron en la primera inspección.",
+        "c": "Ya no puede volver a pasar la ITV y debe darlo de baja."
+      },
+      "correcta": "a",
+      "explicacion": "Si el vehículo se presenta a la segunda inspección fuera del plazo concedido para repararlo, debe realizarse una inspección técnica completa, sin perjuicio de las sanciones que correspondan.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "11.4",
+        "cita": "Si el vehículo se presentase a la segunda inspección técnica fuera del plazo concedido para su reparación, deberá realizarse una inspección técnica completa del vehículo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0083",
+      "tema": "itv",
+      "subtema": "plazos",
+      "materia": 10,
+      "enunciado": "La ITV de su turismo caduca el 30 de junio y la pasa con resultado favorable el 15 de junio. ¿Desde qué fecha se cuenta el plazo de la siguiente inspección?",
+      "opciones": {
+        "a": "Desde el 15 de junio, fecha en que la ha pasado.",
+        "b": "Desde el 30 de junio, fecha en que caducaba la anterior.",
+        "c": "Desde el 1 de enero del año siguiente."
+      },
+      "correcta": "b",
+      "explicacion": "Si la ITV se supera dentro de los 30 días naturales anteriores a la caducidad de la anterior, el nuevo plazo se cuenta desde la fecha en que esta caducaba, por lo que no se pierden días.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "6.5",
+        "cita": "si dicha fecha está comprendida en los 30 días naturales precedentes a la expiración del plazo de validez de la inspección anterior, el plazo de validez se obtendrá adicionando la frecuencia correspondiente a la citada fecha de expiración.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 6",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0084",
+      "tema": "itv",
+      "subtema": "frecuencias",
+      "materia": 10,
+      "enunciado": "Un ciclomotor de dos ruedas, ¿cuándo tiene que pasar la ITV?",
+      "opciones": {
+        "a": "Está exento hasta los 4 años y después la pasa cada año.",
+        "b": "Nunca, porque los ciclomotores no pasan la ITV.",
+        "c": "Está exento hasta los 3 años y después la pasa cada dos años."
+      },
+      "correcta": "c",
+      "explicacion": "Los ciclomotores de dos ruedas (categoría L1e) están exentos de ITV hasta los 3 años de antigüedad y, a partir de entonces, deben pasarla cada dos años.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "6.1 (tabla)",
+        "cita": "L1e: Ciclomotores: vehículos de dos ruedas con una velocidad máxima por construcción no superior a 45 km/h, de cilindrada inferior a igual a 50 cm3(combustión interna) o potencia continua nominal Hasta 3 años: Exento.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 6",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "En la fila L1e de la tabla del art. 6.1, la segunda columna dice «De más de 3 años: Bienal» (comprobado en itv_layout.txt)."
+    },
+    {
+      "id": "xb-0085",
+      "tema": "itv",
+      "subtema": "frecuencias",
+      "materia": 10,
+      "enunciado": "Un turismo dedicado a taxi tiene 3 años de antigüedad. ¿Cada cuánto debe pasar la ITV?",
+      "opciones": {
+        "a": "Cada año.",
+        "b": "Cada dos años.",
+        "c": "Todavía está exento."
+      },
+      "correcta": "a",
+      "explicacion": "Los turismos usados como taxis o ambulancias, o para transporte escolar y de menores, pasan la ITV cada año hasta los cinco años de antigüedad y cada seis meses a partir de entonces.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "6.1.b",
+        "cita": "b) Vehículos de la categoría M1 utilizados como ambulancias y taxis, y de transporte escolar y de menores. Antigüedad: Hasta cinco años: Anual.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RD 920/2017 art. 6",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0086",
+      "tema": "seguro",
+      "subtema": "limites",
+      "materia": 10,
+      "enunciado": "¿Hasta qué importe cubre el seguro obligatorio los daños a las personas en cada siniestro?",
+      "opciones": {
+        "a": "15 millones de euros por cada una de las víctimas.",
+        "b": "70 millones de euros, cualquiera que sea el número de víctimas.",
+        "c": "6 millones de euros por siniestro, cualquiera que sea el número de víctimas."
+      },
+      "correcta": "b",
+      "explicacion": "El seguro obligatorio cubre, por siniestro, hasta 70 millones de euros en daños a las personas, cualquiera que sea el número de víctimas, y hasta 15 millones de euros en daños en los bienes.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "4.2",
+        "cita": "a) en los daños a las personas, 70 millones de euros por siniestro, cualquiera que sea el número de víctimas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LRCSCVM art. 4",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0087",
+      "tema": "seguro",
+      "subtema": "sin_seguro",
+      "materia": 10,
+      "enunciado": "Un agente comprueba que su coche circula sin el seguro obligatorio. ¿Qué puede acordarse con el vehículo?",
+      "opciones": {
+        "a": "Nada, siempre que el conductor tenga el permiso de conducción en vigor.",
+        "b": "Solo la retirada de la tarjeta de inspección técnica.",
+        "c": "Su depósito o precinto, a cargo del propietario, mientras no se contrate el seguro."
+      },
+      "correcta": "c",
+      "explicacion": "No tener el seguro obligatorio supone la prohibición de circular, el depósito o precinto del vehículo a cargo de su propietario hasta que se contrate el seguro y una multa.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "3.1.b",
+        "cita": "El depósito o precinto público o domiciliario del vehículo, con cargo a su propietario, mientras no sea concertado el seguro.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LRCSCVM art. 3",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0088",
+      "tema": "seguro",
+      "subtema": "exclusiones",
+      "materia": 10,
+      "enunciado": "Una persona sin permiso de conducir causa un accidente con un coche que tiene seguro obligatorio. ¿Puede la aseguradora negarse a indemnizar a las víctimas por ese motivo?",
+      "opciones": {
+        "a": "No, esa exclusión no puede oponerse frente a los perjudicados.",
+        "b": "Sí, el seguro no cubre a conductores sin permiso.",
+        "c": "Sí, salvo que el conductor sea el propietario del coche."
+      },
+      "correcta": "a",
+      "explicacion": "La aseguradora no puede oponer a los perjudicados las cláusulas que excluyen de la cobertura la conducción por personas sin permiso de conducir; debe indemnizar a las víctimas.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "6",
+        "cita": "no podrá hacerlo respecto de aquellas cláusulas contractuales que excluyan de la cobertura la utilización o conducción del vehículo designado en la póliza por quienes carezcan de permiso de conducir",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LRCSCVM art. 6",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "La aseguradora puede luego repetir contra el responsable (art. 10), pero eso no afecta a la respuesta."
+    },
+    {
+      "id": "xb-0089",
+      "tema": "seguro",
+      "subtema": "consorcio",
+      "materia": 10,
+      "enunciado": "Un vehículo que no llega a ser identificado atropella a un peatón y huye. ¿Quién indemniza los daños personales del peatón?",
+      "opciones": {
+        "a": "Nadie, al no conocerse el vehículo causante.",
+        "b": "El Consorcio de Compensación de Seguros.",
+        "c": "El ayuntamiento del lugar del atropello."
+      },
+      "correcta": "b",
+      "explicacion": "El Consorcio de Compensación de Seguros indemniza los daños a las personas causados en España por un vehículo desconocido, dentro de los límites del seguro obligatorio.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "11.1.a",
+        "cita": "Indemnizar a quienes hubieran sufrido daños en sus personas, por siniestros ocurridos en España, en aquellos casos en que el vehículo a motor causante sea desconocido.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LRCSCVM art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0090",
+      "tema": "seguro",
+      "subtema": "culpa_victima",
+      "materia": 10,
+      "enunciado": "Un pasajero adulto que no llevaba puesto el cinturón sufre lesiones más graves en un accidente. ¿Qué puede ocurrir con su indemnización?",
+      "opciones": {
+        "a": "La pierde por completo, en todo caso.",
+        "b": "No puede reducirse, porque no causó el accidente.",
+        "c": "Puede reducirse hasta un máximo del 75 %."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando una víctima con capacidad de culpa agrava el daño por no usar o usar mal el cinturón, el casco u otros elementos de protección, su indemnización puede reducirse hasta un máximo del 75 %.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "1.2",
+        "cita": "en atención a la culpa concurrente hasta un máximo del setenta y cinco por ciento. Se entiende que existe dicha contribución si la víctima, por falta de uso o por uso inadecuado de cinturones, casco u otros elementos protectores",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LRCSCVM art. 1",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0091",
+      "tema": "seguro",
+      "subtema": "responsabilidad_civil",
+      "materia": 10,
+      "enunciado": "Un conductor atropella a un peatón porque le fallan los frenos. ¿Le exonera de responsabilidad por los daños personales alegar fuerza mayor?",
+      "opciones": {
+        "a": "No, el fallo de una pieza del vehículo no es fuerza mayor.",
+        "b": "Sí, porque el fallo mecánico no depende de su voluntad.",
+        "c": "Sí, siempre que el vehículo tuviera la ITV en vigor."
+      },
+      "correcta": "a",
+      "explicacion": "El conductor solo queda exonerado por los daños a las personas si prueba la culpa exclusiva del perjudicado o una fuerza mayor ajena al vehículo; los defectos del vehículo y la rotura o fallo de sus piezas no son fuerza mayor.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "1.1",
+        "cita": "no se considerarán casos de fuerza mayor los defectos del vehículo ni la rotura o fallo de alguna de sus piezas o mecanismos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LRCSCVM art. 1",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0092",
+      "tema": "seguro",
+      "subtema": "exenciones",
+      "materia": 10,
+      "enunciado": "Su coche está dado de baja temporal en Tráfico y no lo utiliza. ¿Está obligado a mantener el seguro obligatorio?",
+      "opciones": {
+        "a": "Sí, todo vehículo matriculado debe estar asegurado.",
+        "b": "No, los vehículos dados de baja que no se usan están exceptuados.",
+        "c": "Sí, aunque solo con la cobertura de daños propios."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos que, sin usarse como medio de transporte, han sido dados de baja temporal o definitiva en el registro de vehículos de la DGT están exceptuados de la obligación de asegurarse.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "2.8.a",
+        "cita": "Los vehículos que requieran autorización administrativa para circular pero que no se usen como medio de transporte, y que hayan sido dados de baja de forma temporal o definitiva",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LRCSCVM art. 2",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0093",
+      "tema": "transporte_personas",
+      "subtema": "plazas",
+      "materia": 12,
+      "enunciado": "En los autobuses y vehículos de servicio público, ¿dónde debe estar indicado el número de plazas autorizadas?",
+      "opciones": {
+        "a": "En un cartel en la parte trasera exterior.",
+        "b": "Solo en el billete de cada viajero.",
+        "c": "En placas colocadas en el interior del vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "El número de personas transportadas no puede superar el de plazas autorizadas, que en los autobuses y vehículos de servicio público debe estar señalado en placas colocadas en su interior.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "9.1",
+        "cita": "en los de servicio público y en los autobuses, deberá estar señalado en placas colocadas en su interior",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 9",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0094",
+      "tema": "transporte_personas",
+      "subtema": "plazas",
+      "materia": 12,
+      "enunciado": "Lleva todas las plazas de su furgoneta ocupadas y el maletero lleno de equipaje. ¿Qué límite no puede sobrepasarse en ningún caso entre viajeros y equipaje?",
+      "opciones": {
+        "a": "La masa máxima autorizada del vehículo.",
+        "b": "La tara del vehículo.",
+        "c": "La masa en vacío del vehículo más 75 kg."
+      },
+      "correcta": "a",
+      "explicacion": "El número de personas transportadas no puede superar el de plazas autorizadas y, en ningún caso, el peso de viajeros y equipaje juntos puede sobrepasar la masa máxima autorizada del vehículo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "9.1",
+        "cita": "sin que, en ningún caso, pueda sobrepasarse, entre viajeros y equipaje, la masa máxima autorizada para el vehículo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 9",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0096",
+      "tema": "transporte_personas",
+      "subtema": "emplazamiento",
+      "materia": 12,
+      "enunciado": "¿Puede llevar a una persona sentada en el maletero de un turismo?",
+      "opciones": {
+        "a": "Sí, siempre que el trayecto sea corto y por vía urbana.",
+        "b": "Sí, siempre que el portón trasero vaya bien cerrado.",
+        "c": "No, las personas solo pueden ir en el lugar acondicionado para ellas."
+      },
+      "correcta": "c",
+      "explicacion": "Está prohibido transportar personas en un emplazamiento distinto del destinado y acondicionado para ellas en el vehículo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "10.1",
+        "cita": "Está prohibido transportar personas en emplazamiento distinto al destinado y acondicionado para ellas en los vehículos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 10",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0097",
+      "tema": "transporte_personas",
+      "subtema": "emplazamiento",
+      "materia": 12,
+      "enunciado": "En un vehículo de transporte de mercancías, ¿pueden viajar personas en el lugar reservado a la carga?",
+      "opciones": {
+        "a": "Sí, en las condiciones que fijan las normas que lo regulan.",
+        "b": "No, en ningún caso pueden viajar personas en la zona de carga.",
+        "c": "Sí, sin condiciones, si la carga va bien sujeta."
+      },
+      "correcta": "a",
+      "explicacion": "Como excepción a la regla general, en los vehículos de transporte de mercancías pueden viajar personas en el lugar reservado a la carga, pero solo en las condiciones que fijan las normas que lo regulan.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "10.2",
+        "cita": "en los vehículos de transporte de mercancías o cosas podrán viajar personas en el lugar reservado a la carga, en las condiciones que se establecen",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 10",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0098",
+      "tema": "transporte_personas",
+      "subtema": "personas_y_carga",
+      "materia": 12,
+      "enunciado": "Un vehículo autorizado para llevar a la vez personas y carga, ¿qué debe tener?",
+      "opciones": {
+        "a": "Un asiento libre que separe siempre a los ocupantes de la carga.",
+        "b": "Una protección para que la carga no dañe a los ocupantes si sale proyectada.",
+        "c": "La carga colocada siempre en una baca, fuera del habitáculo."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos autorizados a transportar a la vez personas y carga deben llevar una protección adecuada a la carga, de modo que no estorbe a los ocupantes ni pueda dañarlos en caso de ser proyectada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "10.3",
+        "cita": "deberán estar provistos de una protección adecuada a la carga que transporten, de manera que no estorbe a los ocupantes ni pueda dañarlos en caso de ser proyectada.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 10",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0099",
+      "tema": "transporte_personas",
+      "subtema": "transporte_colectivo",
+      "materia": 12,
+      "enunciado": "El conductor de un autobús de línea, ¿cómo debe efectuar las paradas?",
+      "opciones": {
+        "a": "En el centro del carril, para reincorporarse antes a la circulación.",
+        "b": "Lo más deprisa posible, aunque haya alguna sacudida.",
+        "c": "Sin sacudidas, lo más cerca posible del borde derecho de la calzada."
+      },
+      "correcta": "c",
+      "explicacion": "En el transporte colectivo de personas, el conductor debe parar y arrancar sin sacudidas ni movimientos bruscos, lo más cerca posible del borde derecho de la calzada, y velar por la seguridad de los viajeros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "11.1",
+        "cita": "El conductor deberá efectuar las paradas y arrancadas sin sacudidas ni movimientos bruscos, lo más cerca posible del borde derecho de la calzada",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0100",
+      "tema": "transporte_personas",
+      "subtema": "transporte_colectivo",
+      "materia": 12,
+      "enunciado": "¿Puede un viajero subir con su perro a un autobús de servicio público?",
+      "opciones": {
+        "a": "Solo si hay sitio destinado a animales, salvo el perro lazarillo de un invidente.",
+        "b": "Sí, cualquier animal, siempre que lo lleve en brazos.",
+        "c": "No; ningún animal, ni siquiera un perro lazarillo."
+      },
+      "correcta": "a",
+      "explicacion": "En el transporte público colectivo está prohibido llevar animales salvo que exista un lugar destinado a ellos; se exceptúan, bajo su responsabilidad, las personas invidentes acompañadas de su perro lazarillo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "11.2.e",
+        "cita": "Se exceptúan de esta prohibición, siempre bajo su responsabilidad, a los invidentes acompañados de perros, especialmente adiestrados como lazarillos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0101",
+      "tema": "transporte_personas",
+      "subtema": "transporte_colectivo",
+      "materia": 12,
+      "enunciado": "El conductor de un autobús urbano ha advertido que el vehículo está completo y un viajero intenta subir. ¿Qué debe hacer el conductor?",
+      "opciones": {
+        "a": "Dejarle subir si va de pie junto a la puerta.",
+        "b": "Prohibirle la entrada.",
+        "c": "Dejarle subir si ya tiene billete."
+      },
+      "correcta": "b",
+      "explicacion": "En el transporte público colectivo se prohíbe a los viajeros entrar cuando se ha advertido que el vehículo está completo, y el conductor o el encargado deben prohibir la entrada a quien incumpla.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "11.2",
+        "cita": "deben prohibir la entrada y ordenar su salida a los viajeros que incumplan los preceptos establecidos en este apartado.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "La prohibición de entrar cuando se ha advertido que está completo es la letra c) del mismo apartado 11.2."
+    },
+    {
+      "id": "xb-0102",
+      "tema": "transporte_personas",
+      "subtema": "motocicletas",
+      "materia": 12,
+      "enunciado": "Quiere llevar un pasajero en su motocicleta, pero en su permiso de circulación no consta que pueda llevarlo. ¿Puede hacerlo?",
+      "opciones": {
+        "a": "Sí, siempre que el pasajero sea mayor de 12 años.",
+        "b": "Sí, siempre que los dos lleven casco homologado.",
+        "c": "No, tiene que constar en el permiso de circulación."
+      },
+      "correcta": "c",
+      "explicacion": "En ciclomotores y motocicletas solo puede viajar un pasajero, además del conductor, si así consta en su licencia o permiso de circulación y el pasajero cumple las demás condiciones.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "12.1",
+        "cita": "puede viajar, siempre que así conste en su licencia o permiso de circulación, un pasajero que sea mayor de doce años",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 12",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0103",
+      "tema": "transporte_personas",
+      "subtema": "motocicletas",
+      "materia": 12,
+      "enunciado": "En una motocicleta, ¿puede el pasajero ir sentado entre el conductor y el manillar?",
+      "opciones": {
+        "a": "No, en ningún caso.",
+        "b": "Sí, si es un niño mayor de 7 años y lleva casco.",
+        "c": "Sí, en trayectos urbanos cortos y a poca velocidad."
+      },
+      "correcta": "a",
+      "explicacion": "El pasajero de una motocicleta o un ciclomotor debe usar el asiento situado detrás del conductor y nunca puede ir entre el conductor y el manillar.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "12.1.b",
+        "cita": "En ningún caso podrá situarse el pasajero en lugar intermedio entre la persona que conduce y el manillar de dirección",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 12",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0104",
+      "tema": "transporte_personas",
+      "subtema": "motocicletas",
+      "materia": 12,
+      "enunciado": "¿Cómo debe ir sentado el pasajero de un ciclomotor?",
+      "opciones": {
+        "a": "De lado, con los dos pies hacia el mismo lado.",
+        "b": "A horcajadas y con los pies apoyados en los reposapiés laterales.",
+        "c": "Como prefiera, siempre que se sujete al conductor."
+      },
+      "correcta": "b",
+      "explicacion": "El pasajero de un ciclomotor o una motocicleta debe ir a horcajadas, con los pies apoyados en los reposapiés laterales y en el asiento situado detrás del conductor.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "12.1.a",
+        "cita": "Que vaya a horcajadas y con los pies apoyados en los reposapiés laterales.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 12",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0105",
+      "tema": "carga",
+      "subtema": "dimensiones",
+      "materia": 12,
+      "enunciado": "Debe transportar una carga indivisible que inevitablemente supera las dimensiones máximas permitidas. ¿Qué necesita?",
+      "opciones": {
+        "a": "Solo señalizarla con la señal V-20.",
+        "b": "Nada especial, por tratarse de una carga indivisible.",
+        "c": "Una autorización complementaria de circulación."
+      },
+      "correcta": "c",
+      "explicacion": "El transporte de cargas indivisibles que rebasan inevitablemente las dimensiones máximas exige autorizaciones complementarias de circulación, reguladas en el Reglamento General de Vehículos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "13.2",
+        "cita": "El transporte de cargas indivisibles que, inevitablemente, rebasen los límites señalados en el apartado anterior deberá realizarse mediante autorizaciones complementarias de circulación",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 13",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0106",
+      "tema": "carga",
+      "subtema": "disposicion",
+      "materia": 12,
+      "enunciado": "La carga de su furgoneta produce un ruido molesto que podría evitarse sujetándola mejor. ¿Es correcto circular así?",
+      "opciones": {
+        "a": "No, la carga no debe producir molestias que puedan evitarse.",
+        "b": "Sí, siempre que la carga no llegue a caerse.",
+        "c": "Sí, siempre que circule solo por vías interurbanas."
+      },
+      "correcta": "a",
+      "explicacion": "La carga y sus accesorios deben ir dispuestos y, si hace falta, sujetos para que no puedan caer, desplazarse peligrosamente, comprometer la estabilidad ni producir ruido, polvo u otras molestias evitables.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "14.1.c",
+        "cita": "Producir ruido, polvo u otras molestias que puedan ser evitadas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0107",
+      "tema": "carga",
+      "subtema": "disposicion",
+      "materia": 12,
+      "enunciado": "En cada curva, la carga de su vehículo se desplaza de un lado a otro, aunque no llega a caerse. ¿Es correcto?",
+      "opciones": {
+        "a": "Sí, mientras no llegue a caerse a la vía.",
+        "b": "No, la carga no puede desplazarse de manera peligrosa.",
+        "c": "Sí, si la carga no sobresale del vehículo."
+      },
+      "correcta": "b",
+      "explicacion": "La carga transportada y sus accesorios deben estar dispuestos y, si es necesario, sujetos de forma que no puedan arrastrar, caer total o parcialmente ni desplazarse de manera peligrosa.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "14.1.a",
+        "cita": "Arrastrar, caer total o parcialmente o desplazarse de manera peligrosa.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0108",
+      "tema": "carga",
+      "subtema": "carga_sobresale",
+      "materia": 12,
+      "enunciado": "Un turismo de 4 metros de longitud lleva una carga divisible que sobresale por detrás. ¿Cuánto puede sobresalir como máximo?",
+      "opciones": {
+        "a": "60 centímetros.",
+        "b": "1 metro.",
+        "c": "40 centímetros."
+      },
+      "correcta": "c",
+      "explicacion": "En los vehículos no destinados exclusivamente al transporte de mercancías, como los turismos, la carga puede sobresalir por detrás hasta un 10 % de la longitud del vehículo, y hasta un 15 % si es indivisible.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "15.3",
+        "cita": "la carga podrá sobresalir por la parte posterior hasta un 10 por ciento de su longitud, y si fuera indivisible, un 15 por ciento.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0109",
+      "tema": "carga",
+      "subtema": "carga_sobresale",
+      "materia": 12,
+      "enunciado": "La carga de su vehículo sobresale dentro de los límites permitidos. Además de señalizarla, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Resguardar el extremo saliente para aminorar un posible roce o choque.",
+        "b": "Circular siempre con las luces de emergencia encendidas.",
+        "c": "Circular como máximo a 40 km/h mientras lleve esa carga."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando la carga sobresale, deben tomarse todas las precauciones para evitar daños o peligros a los demás, y la extremidad saliente debe ir resguardada para aminorar los efectos de un roce o choque.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "15.5",
+        "cita": "deberá ir resguardada en la extremidad saliente para aminorar los efectos de un roce o choque posibles.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0110",
+      "tema": "carga",
+      "subtema": "senal_V20",
+      "materia": 12,
+      "enunciado": "Su furgoneta lleva unos tubos que sobresalen por detrás ocupando toda la anchura posterior del vehículo. ¿Cómo debe señalizarlos con paneles como el de la imagen?",
+      "opciones": {
+        "a": "Con un solo panel, colocado en el centro de la carga.",
+        "b": "Con dos paneles, uno en cada extremo de la carga, formando una V invertida.",
+        "c": "Con un panel en el techo de la cabina, visible desde lejos."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando la carga sobresale por toda la anchura posterior del vehículo, se colocan transversalmente dos paneles V-20, uno en cada extremo, formando una geometría de V invertida.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "15.6",
+        "cita": "Cuando la carga sobresalga longitudinalmente por toda la anchura de la parte posterior del vehículo, se colocarán transversalmente dos paneles de señalización, cada uno en un extremo de la carga",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 15",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/esquemas/senal-V-20-carga-saliente.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Panel cuadrado con franjas diagonales alternas rojas y blancas (señal V-20).",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": null,
+        "descripcion": "Señal V-20 del anexo XI del Reglamento General de Vehículos: panel cuadrado con franjas diagonales alternas rojas y blancas para cargas que sobresalen por detrás."
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0111",
+      "tema": "carga",
+      "subtema": "senal_V20",
+      "materia": 12,
+      "enunciado": "¿Dónde debe colocarse la señal V-20 cuando la carga sobresale por detrás del vehículo?",
+      "opciones": {
+        "a": "En la parte delantera del vehículo, junto a la placa de matrícula.",
+        "b": "En el techo del vehículo, para que se vea desde lejos.",
+        "c": "En el extremo posterior de la carga, perpendicular al eje del vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "La señal V-20 se coloca en el extremo posterior de la carga que sobresale, de manera que quede constantemente perpendicular al eje del vehículo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "15.6",
+        "cita": "Esta señal se deberá colocar en el extremo posterior de la carga de manera que quede constantemente perpendicular al eje del vehículo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0112",
+      "tema": "carga",
+      "subtema": "carga_sobresale",
+      "materia": 12,
+      "enunciado": "De noche, la carga de su vehículo sobresale lateralmente y su extremo queda a más de 0,40 metros del borde exterior de las luces de posición. ¿Cómo debe señalizarse hacia delante?",
+      "opciones": {
+        "a": "Con una luz blanca y un dispositivo reflectante blanco.",
+        "b": "Con una luz roja y un dispositivo reflectante rojo.",
+        "c": "Con la señal V-20."
+      },
+      "correcta": "a",
+      "explicacion": "La carga que sobresale lateralmente más de 0,40 metros del borde de las luces de posición se señaliza de noche o con poca visibilidad, en cada extremo lateral, con luz y reflectante blancos hacia delante y con luz y reflectante rojos hacia atrás.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "15.7",
+        "cita": "hacia adelante, por medio de una luz blanca y un dispositivo reflectante de color blanco, y hacia atrás, por medio de una luz roja y de un dispositivo reflectante de color rojo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0113",
+      "tema": "carga",
+      "subtema": "carga_descarga",
+      "materia": 12,
+      "enunciado": "Como regla general, ¿dónde deben hacerse las operaciones de carga y descarga?",
+      "opciones": {
+        "a": "En la calzada, junto a la acera.",
+        "b": "Fuera de la vía.",
+        "c": "En el arcén."
+      },
+      "correcta": "b",
+      "explicacion": "Las operaciones de carga y descarga deben hacerse fuera de la vía; solo excepcionalmente, cuando es inexcusable, pueden hacerse en ella, sin causar peligros ni perturbaciones graves.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "16",
+        "cita": "Las operaciones de carga o descarga deberán llevarse a cabo fuera de la vía.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0114",
+      "tema": "carga",
+      "subtema": "carga_descarga",
+      "materia": 12,
+      "enunciado": "En poblado, debe descargar mercancía en la vía porque es inexcusable. Además de las normas de parada y estacionamiento, ¿qué debe respetar?",
+      "opciones": {
+        "a": "Ninguna otra norma.",
+        "b": "Solo las indicaciones del destinatario de la mercancía.",
+        "c": "Las normas municipales sobre horas y lugares adecuados."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando la carga o descarga en la vía es inexcusable, deben respetarse las normas sobre paradas y estacionamientos y, en poblado, las que dicten las autoridades municipales sobre horas y lugares adecuados.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "16.a",
+        "cita": "en poblado, las que dicten las autoridades municipales sobre horas y lugares adecuados.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0115",
+      "tema": "carga",
+      "subtema": "carga_descarga",
+      "materia": 12,
+      "enunciado": "Cuando es inexcusable cargar o descargar en la vía, ¿cómo deben realizarse las operaciones?",
+      "opciones": {
+        "a": "Con medios suficientes para acabar cuanto antes y sin ruidos innecesarios.",
+        "b": "Sin prisa, aunque se ocupe la calzada durante varias horas.",
+        "c": "Dejando la mercancía en el arcén o en la acera mientras se reparte."
+      },
+      "correcta": "a",
+      "explicacion": "Las operaciones de carga y descarga en la vía deben hacerse con medios suficientes para conseguir la máxima celeridad, evitando ruidos y molestias innecesarias, y sin depositar la mercancía en la calzada, el arcén ni las zonas peatonales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "16.c",
+        "cita": "Se llevarán a cabo con medios suficientes para conseguir la máxima celeridad, y procurando evitar ruidos y molestias innecesarias.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0116",
+      "tema": "carga",
+      "subtema": "animales",
+      "materia": 12,
+      "enunciado": "Lleva a su perro en el coche. ¿Qué obligación tiene como conductor?",
+      "opciones": {
+        "a": "Ninguna, si el perro es pequeño.",
+        "b": "Colocarlo de forma adecuada para que no interfiera en la conducción.",
+        "c": "Llevarlo en el asiento del acompañante para poder vigilarlo."
+      },
+      "correcta": "b",
+      "explicacion": "El conductor debe cuidar la adecuada colocación de los objetos o animales transportados para que no haya interferencia entre ellos y el conductor.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "18.1",
+        "cita": "la adecuada colocación de los objetos o animales transportados para que no haya interferencia entre el conductor y cualquiera de ellos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 18",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0117",
+      "tema": "carga",
+      "subtema": "exceso_peso",
+      "materia": 12,
+      "enunciado": "Según la DGT, ¿qué puede ocurrir si un vehículo lleva más peso del que debe?",
+      "opciones": {
+        "a": "Que mejore su estabilidad y su agarre en las curvas.",
+        "b": "Que consuma menos combustible en los viajes largos.",
+        "c": "Que se estropeen elementos como los neumáticos y los frenos."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando un vehículo carga más peso del debido se estropean algunos de sus elementos, como los neumáticos, los sistemas de aceleración y los frenos.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 13, Límite de peso (p. 320)",
+        "cita": "Cuando un vehículo carga con más peso del que debe, se estropean algunos de sus elementos como: los neumáticos, los sistemas de aceleración y los de freno.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 13",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0118",
+      "tema": "carga",
+      "subtema": "objetos_habitaculo",
+      "materia": 12,
+      "enunciado": "Debe llevar un objeto fuera del maletero, en el interior del coche. ¿Qué debe asegurar?",
+      "opciones": {
+        "a": "Que no se moverá al frenar o en un choque y que no le tapa la visión.",
+        "b": "Que vaya en el asiento del acompañante, al alcance de la mano.",
+        "c": "Nada, siempre que el trayecto sea corto y urbano."
+      },
+      "correcta": "a",
+      "explicacion": "Los objetos deben ir en el portamaletas; si hay que colocar alguno en otro lugar, hay que asegurarse de que no se moverá en caso de choque o al frenar y de que deja ver bien toda la carretera.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 13, Transportar cargas (p. 326)",
+        "cita": "Cuando sea necesario colocar algún objeto en otro lugar del vehículo, hay que asegurar que ese objeto no se moverá en caso de choque o al frenar.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT, Tema 13",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0119",
+      "tema": "remolques",
+      "subtema": "masa_remolcable",
+      "materia": 12,
+      "enunciado": "Según el Reglamento General de Vehículos, ¿cuál es como máximo la masa remolcable sin freno de un turismo cuya tara es de 1.000 kg?",
+      "opciones": {
+        "a": "750 kg.",
+        "b": "575 kg.",
+        "c": "1.000 kg."
+      },
+      "correcta": "b",
+      "explicacion": "Para arrastrar remolques sin freno, la masa máxima remolcable es la mitad de la tara del vehículo tractor más 75 kg, sin superar en ningún caso 750 kg.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo IX.4.1.2.1",
+        "cita": "Para arrastrar remolques sin freno: la mitad de la tara del vehículo tractor, incrementada en 75 kg., no excediendo en ningún caso de 750 kg.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV Anexo IX",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "1.000 / 2 + 75 = 575 kg. También limita la masa remolcable técnicamente admisible del fabricante (4.1.1), que podría ser menor; por eso se pregunta 'como máximo según el Reglamento'."
+    },
+    {
+      "id": "xb-0120",
+      "tema": "remolques",
+      "subtema": "masa_remolcable",
+      "materia": 12,
+      "enunciado": "Un turismo, que no es todoterreno, tiene 1.800 kg de masa máxima autorizada. Según el Reglamento General de Vehículos, ¿cuál es como máximo su masa remolcable con un remolque que solo tiene freno de inercia?",
+      "opciones": {
+        "a": "750 kg.",
+        "b": "2.700 kg.",
+        "c": "1.800 kg."
+      },
+      "correcta": "c",
+      "explicacion": "Con remolques que solo tienen freno de inercia, la masa remolcable no puede superar la masa máxima autorizada del vehículo tractor (1,5 veces si es todoterreno) ni, en ningún caso, 3.500 kg.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo IX.4.1.2.2",
+        "cita": "Para arrastrar remolques con solo freno de inercia, la masa máxima autorizada del vehículo tractor (1,5 veces la M.M.A. si el vehículo a motor es todo terreno), no excediendo en ningún caso de 3.500 kg.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV Anexo IX",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Además, la masa remolcable técnicamente admisible del fabricante (4.1.1) puede ser menor."
+    },
+    {
+      "id": "xb-0121",
+      "tema": "remolques",
+      "subtema": "numero_remolques",
+      "materia": 12,
+      "enunciado": "Como norma general, ¿cuántos remolques puede arrastrar a la vez un turismo?",
+      "opciones": {
+        "a": "Uno.",
+        "b": "Dos, si los dos son ligeros.",
+        "c": "Dos, si el conjunto no supera 18,75 metros."
+      },
+      "correcta": "a",
+      "explicacion": "Como norma general, y salvo las excepciones reglamentarias, ningún vehículo tractor puede arrastrar a la vez más de un remolque o semirremolque.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "9.2",
+        "cita": "ningún vehículo tractor podrá arrastrar a la vez más de un remolque o semirremolque.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 9",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xb-0122",
+      "tema": "remolques",
+      "subtema": "placa_matricula",
+      "materia": 12,
+      "enunciado": "Un remolque ligero de 600 kg de masa máxima autorizada, ¿qué placa de matrícula lleva?",
+      "opciones": {
+        "a": "Su propia placa de matrícula, con fondo rojo, y otra del vehículo tractor.",
+        "b": "Una sola placa posterior con la misma matrícula que el vehículo que lo remolca.",
+        "c": "Ninguna placa, porque no está matriculado."
+      },
+      "correcta": "b",
+      "explicacion": "Los remolques de hasta 750 kg de masa máxima autorizada no se matriculan y llevan, en el lado izquierdo o en el centro de su parte posterior, una sola placa con la matrícula del vehículo que los remolca.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XVIII.III.4",
+        "cita": "Los restantes remolques, semirremolques, maquinaria agrícola remolcada y de obras y servicios, llevarán en el lado izquierdo o en el centro una sola placa posterior, de igual contenido que la del vehículo remolcador.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV Anexo XVIII",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "«Los restantes» son los de MMA no superior a 750 kg (el párrafo anterior trata los que exceden de 750 kg)."
+    }
+  ]
+}

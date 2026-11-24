@@ -1,0 +1,4190 @@
+{
+  "version": 1,
+  "preguntas": [
+    {
+      "id": "xe-0001",
+      "tema": "accidentes",
+      "subtema": "obligaciones_implicados",
+      "materia": 11,
+      "enunciado": "Se ve implicado en un accidente de tráfico. ¿Cómo debe detener su vehículo?",
+      "opciones": {
+        "a": "De forma que no cree un nuevo peligro para la circulación.",
+        "b": "Siempre en el punto exacto del choque, aunque sea una curva sin visibilidad.",
+        "c": "En el carril izquierdo, para proteger a los heridos con el vehículo."
+      },
+      "correcta": "a",
+      "explicacion": "Todo usuario implicado en un accidente debe, en la medida de lo posible, detenerse de forma que no cree un nuevo peligro para la circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "129.2.a",
+        "cita": "a) Detenerse de forma que no cree un nuevo peligro para la circulación.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 129",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0002",
+      "tema": "accidentes",
+      "subtema": "obligaciones_implicados",
+      "materia": 11,
+      "enunciado": "Tras verse implicado en un accidente, ¿qué le permite establecer un orden de preferencias entre las medidas que debe adoptar?",
+      "opciones": {
+        "a": "Esperar a que el otro conductor decida qué hay que hacer.",
+        "b": "Hacerse una idea de conjunto de las circunstancias y consecuencias del accidente.",
+        "c": "Rellenar antes que nada el parte amistoso de accidente."
+      },
+      "correcta": "b",
+      "explicacion": "El implicado en un accidente debe hacerse una idea de conjunto de sus circunstancias y consecuencias para ordenar las medidas: seguridad de la circulación, auxilio a las víctimas, identificación y colaboración con la autoridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "129.2.b",
+        "cita": "b) Hacerse una idea de conjunto de las circunstancias y consecuencias del accidente, que le permita establecer un orden de preferencias",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 129",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0003",
+      "tema": "accidentes",
+      "subtema": "obligaciones_implicados",
+      "materia": 11,
+      "enunciado": "En un accidente en el que está implicado, aparentemente ha resultado muerta una persona. ¿Qué debe hacer con las huellas y otras pruebas del lugar?",
+      "opciones": {
+        "a": "Fotografiarlas y después borrarlas para dejar la calzada limpia.",
+        "b": "Retirarlas, porque solo interesan a las compañías de seguros.",
+        "c": "Evitar modificarlas, salvo que ello perjudique la seguridad de los heridos o de la circulación."
+      },
+      "correcta": "c",
+      "explicacion": "Si aparentemente hay algún muerto o herido grave, o se ha avisado a la autoridad, los implicados deben evitar modificar el estado de las cosas, las huellas y demás pruebas, salvo que se perjudique la seguridad de los heridos o de la circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "129.2.c",
+        "cita": "evitar la modificación del estado de las cosas y de las huellas u otras pruebas que puedan ser útiles para determinar la responsabilidad, salvo que con ello se perjudique la seguridad de los heridos o de la circulación",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 129",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0004",
+      "tema": "accidentes",
+      "subtema": "obligaciones_implicados",
+      "materia": 11,
+      "enunciado": "Como implicado en un accidente con heridos, ¿qué auxilio debe prestarles?",
+      "opciones": {
+        "a": "El más adecuado según las circunstancias y, especialmente, pedir auxilio sanitario.",
+        "b": "Ninguno, porque solo el personal sanitario puede atender a los heridos.",
+        "c": "Trasladarlos siempre en su propio vehículo al hospital más cercano."
+      },
+      "correcta": "a",
+      "explicacion": "Los implicados en un accidente deben prestar a los heridos el auxilio más adecuado según las circunstancias y, especialmente, recabar auxilio sanitario de los servicios existentes.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "129.2.d",
+        "cita": "d) Prestar a los heridos el auxilio que resulte más adecuado, según las circunstancias, y, especialmente, recabar auxilio sanitario de los servicios que pudieran existir al efecto.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 129",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0005",
+      "tema": "accidentes",
+      "subtema": "obligaciones_implicados",
+      "materia": 11,
+      "enunciado": "En un accidente en el que está implicado solo hay heridas claramente leves, la seguridad de la circulación está restablecida y ningún implicado lo solicita. ¿Debe avisar a los agentes y quedarse en el lugar?",
+      "opciones": {
+        "a": "Sí; con cualquier herido hay que esperar siempre a los agentes.",
+        "b": "No; en ese caso no es necesario avisar ni permanecer en el lugar.",
+        "c": "Sí; debe esperar al menos una hora antes de marcharse."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando solo hay heridas claramente leves, la seguridad de la circulación está restablecida y ninguno de los implicados lo solicita, no es necesario avisar a la autoridad ni permanecer en el lugar del accidente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "129.2.e",
+        "cita": "no será necesario, en cambio, avisar a la autoridad o a sus agentes, ni permanecer en el lugar del hecho, si sólo se han producido heridas claramente leves, la seguridad de la circulación está restablecida y ninguna de las personas implicadas en el accidente lo solicita",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 129",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0006",
+      "tema": "accidentes",
+      "subtema": "obligaciones_implicados",
+      "materia": 11,
+      "enunciado": "Al maniobrar, golpea un turismo estacionado cuyo propietario no está presente. Solo hay daños materiales. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Marcharse, porque sin heridos no tiene ninguna obligación.",
+        "b": "Avisar solo a su compañía de seguros, que se encargará de localizar al dueño.",
+        "c": "Hacerle llegar cuanto antes su nombre y dirección, directamente o por medio de los agentes."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando solo hay daños materiales y alguna parte afectada no está presente, el implicado debe tomar las medidas adecuadas para proporcionarle cuanto antes su nombre y dirección, directamente o por intermedio de los agentes de la autoridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "129.2.f",
+        "cita": "cuando sólo se hubieran ocasionado daños materiales y alguna parte afectada no estuviera presente, tomar las medidas adecuadas para proporcionarle, cuanto antes, su nombre y dirección",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 129",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0007",
+      "tema": "accidentes",
+      "subtema": "obligaciones_implicados",
+      "materia": 11,
+      "enunciado": "Otro conductor implicado en el accidente le pide su identidad y los datos de su vehículo. ¿Debe facilitárselos?",
+      "opciones": {
+        "a": "Sí, si se los pide, debe comunicárselos.",
+        "b": "Solo si en el accidente ha habido heridos.",
+        "c": "No; solo está obligado a dárselos a los agentes."
+      },
+      "correcta": "a",
+      "explicacion": "Todo implicado en un accidente debe comunicar su identidad y facilitar los datos del vehículo a las otras personas implicadas, si se lo piden.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "129.2.f",
+        "cita": "f) Comunicar, en todo caso, su identidad a otras personas implicadas en el accidente, si se lo pidiesen",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 129",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El apartado g) del mismo artículo obliga igualmente a facilitar los datos del vehículo a otros implicados si lo piden."
+    },
+    {
+      "id": "xe-0008",
+      "tema": "accidentes",
+      "subtema": "testigos",
+      "materia": 11,
+      "enunciado": "Es testigo de un accidente, pero no puede hacer nada por ayudar. Según el manual de la DGT, ¿qué es lo mejor?",
+      "opciones": {
+        "a": "Detenerse en el arcén para ver cómo trabajan los equipos de emergencia.",
+        "b": "Seguir circulando para no estorbar en el lugar del accidente.",
+        "c": "Parar en la calzada junto al accidente por si más tarde necesitan ayuda."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, quien es testigo de un accidente pero no puede hacer nada por ayudar, o llega cuando ya están los agentes, debe seguir circulando para no estorbar.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Pasos a seguir (p. 412)",
+        "cita": "Cuando seas testigo de un accidente, pero no puedas hacer nada por ayudar o ya hayan llegado los agentes de tráfico, lo mejor es seguir circulando para no estorbar",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0009",
+      "tema": "primeros_auxilios",
+      "subtema": "momentos_tras_accidente",
+      "materia": 11,
+      "enunciado": "Tras un accidente, ¿cómo se llama el periodo de una o dos horas en el que las labores de reanimación son muy importantes para salvar la vida?",
+      "opciones": {
+        "a": "Muerte inmediata.",
+        "b": "Mortalidad tardía.",
+        "c": "Hora de oro."
+      },
+      "correcta": "c",
+      "explicacion": "La hora de oro es el periodo de una o dos horas después del accidente en el que las labores de reanimación son muy importantes para intentar salvar la vida.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Momentos importantes después de un accidente (p. 414)",
+        "cita": "Una o dos horas después del accidente. En este periodo son muy importantes las labores de reanimación para intentar salvar la vida. Se llama hora de oro.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0010",
+      "tema": "accidentes",
+      "subtema": "conducta_pas",
+      "materia": 11,
+      "enunciado": "Según el manual de la DGT, ¿en qué momento es muy importante seguir la regla PAS?",
+      "opciones": {
+        "a": "En los primeros 10 minutos después del accidente.",
+        "b": "Solo cuando ya han llegado los servicios de emergencia.",
+        "c": "A partir de la primera hora después del accidente."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, la regla PAS (proteger, avisar, socorrer) es muy importante en los primeros 10 minutos después del accidente, porque actuar rápido ayuda a salvar vidas y a evitar más daños.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Regla PAS (p. 415)",
+        "cita": "Es muy importante seguir la regla PAS en los primeros 10 minutos después del accidente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0011",
+      "tema": "accidentes",
+      "subtema": "conducta_pas",
+      "materia": 11,
+      "enunciado": "Al aplicar la regla PAS, en el paso de proteger, ¿debe protegerse también a sí mismo?",
+      "opciones": {
+        "a": "No; las víctimas van siempre primero, aunque se ponga en peligro.",
+        "b": "Sí; no debe ponerse en peligro ni arriesgarse a sufrir un accidente.",
+        "c": "No; proteger consiste solo en señalizar el lugar del accidente."
+      },
+      "correcta": "b",
+      "explicacion": "En la regla PAS hay que protegerse a uno mismo, a las víctimas y el lugar del accidente: quien ayuda no debe ponerse en peligro ni arriesgarse a sufrir otro accidente.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Proteger (p. 416)",
+        "cita": "A ti mismo. No te pongas en peligro ni te arriesgues a sufrir un accidente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0012",
+      "tema": "accidentes",
+      "subtema": "conducta_pas",
+      "materia": 11,
+      "enunciado": "Se detiene para ayudar en un accidente. ¿Dónde debe dejar su vehículo?",
+      "opciones": {
+        "a": "Lo más cerca posible de los vehículos accidentados, aunque ocupe la calzada.",
+        "b": "Atravesado en la calzada para cortar el paso al resto de vehículos.",
+        "c": "En un lugar seguro, dejando paso a los servicios de emergencia."
+      },
+      "correcta": "c",
+      "explicacion": "Para proteger el lugar, quien se detiene a ayudar debe estacionar su vehículo en un lugar seguro dejando paso a los servicios de emergencia, parar el motor y encender las luces de emergencia.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Proteger (p. 417)",
+        "cita": "Detener y estacionar el vehículo en un lugar seguro dejando paso a los servicios de emergencia.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0013",
+      "tema": "accidentes",
+      "subtema": "conducta_pas",
+      "materia": 11,
+      "enunciado": "En un accidente se ha producido un pequeño incendio en un vehículo. Según el manual de la DGT, ¿con qué no se debe intentar apagarlo?",
+      "opciones": {
+        "a": "Con agua.",
+        "b": "Con un extintor.",
+        "c": "Con tierra, arena o mantas."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, un incendio en un accidente se intenta apagar con un extintor o echando tierra, arena o mantas; no se debe echar agua sobre el fuego.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Proteger (p. 418)",
+        "cita": "Si el incendio ya se ha producido, se intentará apagar con un extintor o echando tierra, arena o mantas sobre el fuego. No se debe echar agua sobre el fuego.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0014",
+      "tema": "accidentes",
+      "subtema": "conducta_pas",
+      "materia": 11,
+      "enunciado": "Antes de llamar a los servicios de emergencia por un accidente, ¿qué conviene hacer?",
+      "opciones": {
+        "a": "Mover a los heridos para examinar bien sus lesiones.",
+        "b": "Recoger toda la información posible, como si hay fuego o cuántos heridos hay.",
+        "c": "Esperar a que otro testigo llame primero."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, antes de avisar conviene recoger toda la información posible (si hay fuego, cuántos heridos hay) para que acudan los servicios necesarios y puedan hacer bien su trabajo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Avisar (p. 419)",
+        "cita": "Antes de avisar a los servicios de emergencia hay que intentar recoger toda la información posible",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0015",
+      "tema": "accidentes",
+      "subtema": "conducta_pas",
+      "materia": 11,
+      "enunciado": "Presencia un accidente en una carretera y no tiene teléfono móvil. Según el manual de la DGT, ¿cómo puede avisar?",
+      "opciones": {
+        "a": "No puede: solo se avisa llamando al 112 con un móvil.",
+        "b": "Haciendo ráfagas de luz a los vehículos que pasen.",
+        "c": "Yendo al poste SOS más cercano."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, para pedir ayuda se llama al 112 desde el móvil y, si no se tiene móvil, se puede ir al poste SOS más cercano.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Avisar (p. 419)",
+        "cita": "Si no tienes móvil, puedes ir al poste SOS más cercano para avisar.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0017",
+      "tema": "primeros_auxilios",
+      "subtema": "normas_socorrer",
+      "materia": 11,
+      "enunciado": "Un herido con un fuerte golpe en una pierna le pide un analgésico. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Dárselo, si está consciente.",
+        "b": "No dárselo.",
+        "c": "Dárselo con un poco de agua."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, a los heridos de un accidente no se les deben dar medicamentos, alimentos ni bebidas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Socorrer (p. 421)",
+        "cita": "No darle medicamentos, alimentos o bebidas a los heridos.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0018",
+      "tema": "primeros_auxilios",
+      "subtema": "normas_socorrer",
+      "materia": 11,
+      "enunciado": "No está seguro de cómo atender a un herido. Según el manual de la DGT, ¿qué es lo mejor?",
+      "opciones": {
+        "a": "Moverle a una postura más cómoda.",
+        "b": "Darle de beber para que se tranquilice.",
+        "c": "Hablarle y darle apoyo emocional, sin tocarle ni moverle."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, en caso de duda es mejor hablar a los heridos y darles apoyo emocional, sin tocarlos ni moverlos, porque se podrían empeorar sus heridas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Socorrer (p. 422)",
+        "cita": "En caso de duda sobre cómo actuar habla a los heridos y dales apoyo emocional.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0020",
+      "tema": "primeros_auxilios",
+      "subtema": "mover_heridos",
+      "materia": 11,
+      "enunciado": "Para sacar a un herido de su vehículo, tras pasar los brazos por debajo de sus axilas, ¿qué se sujeta con una mano mientras con la otra se coge su brazo?",
+      "opciones": {
+        "a": "La cintura.",
+        "b": "La barbilla.",
+        "c": "Las piernas."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, para sacar a un herido del vehículo se pasan los brazos bajo sus axilas, se coge su brazo con una mano y se sujeta la barbilla con la otra, manteniendo cabeza, cuello y tronco en línea.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, ¿Cómo debes mover a un herido? (p. 423)",
+        "cita": "Coger su brazo con una mano y sujetar la barbilla con la otra.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0021",
+      "tema": "primeros_auxilios",
+      "subtema": "constantes_vitales",
+      "materia": 11,
+      "enunciado": "Para saber si un herido está consciente le pregunta «¿Estás bien?» y no contesta. ¿Qué indica el manual de la DGT?",
+      "opciones": {
+        "a": "Echarle agua fría en la cara.",
+        "b": "Sacudirle con fuerza por los hombros.",
+        "c": "Darle un pequeño pellizco para ver si reacciona."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, para comprobar la consciencia se pregunta al herido si está bien y, si no contesta, se le da un pequeño pellizco para ver si reacciona con algún movimiento o sonido.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Consciencia (p. 424)",
+        "cita": "Si no contesta, le puedes dar un pequeño pellizco para ver si reacciona con algún movimiento o sonido.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0022",
+      "tema": "primeros_auxilios",
+      "subtema": "constantes_vitales",
+      "materia": 11,
+      "enunciado": "¿Durante cuánto tiempo se comprueba si un herido respira con normalidad?",
+      "opciones": {
+        "a": "Durante 10 segundos.",
+        "b": "Durante 2 segundos.",
+        "c": "Durante 2 minutos."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, la respiración normal de un herido se comprueba durante 10 segundos, mirando su pecho y acercando la cara a su boca.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Respiración (p. 426)",
+        "cita": "Comprobar si hay respiración normal durante 10 segundos.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0023",
+      "tema": "primeros_auxilios",
+      "subtema": "constantes_vitales",
+      "materia": 11,
+      "enunciado": "Para comprobar si respira un herido inconsciente que está boca abajo, ¿qué indica el manual de la DGT?",
+      "opciones": {
+        "a": "Sentarlo y darle palmadas en la espalda.",
+        "b": "Girarlo boca arriba y subirle la barbilla.",
+        "c": "Dejarlo boca abajo y levantarle las piernas."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, si la persona está boca abajo hay que girarla boca arriba y subir su barbilla para abrir sus vías respiratorias y comprobar si respira.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Respiración (p. 425)",
+        "cita": "Cuando la persona esté boca abajo, girarla para ponerla boca arriba y subir su barbilla para abrir sus vías respiratorias.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0024",
+      "tema": "primeros_auxilios",
+      "subtema": "reanimacion",
+      "materia": 11,
+      "enunciado": "En la reanimación cardiopulmonar de un adulto, ¿a qué ritmo aproximado se presiona el tórax?",
+      "opciones": {
+        "a": "Unas 30 veces por minuto.",
+        "b": "Unas 10 veces por minuto.",
+        "c": "Unas 100 veces por minuto."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, en la reanimación cardiopulmonar se empuja el tórax con los codos extendidos unas 100 veces por minuto, con 2 ventilaciones cada 30 compresiones.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Respiración (p. 427)",
+        "cita": "empuja las manos hacia arriba y hacia abajo unas 100 veces por minuto.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0025",
+      "tema": "primeros_auxilios",
+      "subtema": "hemorragias",
+      "materia": 11,
+      "enunciado": "Está haciendo compresión directa sobre una herida con un pañuelo y este se empapa de sangre. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "No quitarlo, aunque esté empapado.",
+        "b": "Quitarlo y poner uno limpio.",
+        "c": "Dejar de presionar para ver si sigue sangrando."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, en la compresión directa no se debe quitar la gasa o el pañuelo aunque se empapen de sangre.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Compresión directa (p. 430)",
+        "cita": "No quitar la gasa o el pañuelo, aunque se empapen de sangre.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0026",
+      "tema": "primeros_auxilios",
+      "subtema": "hemorragias",
+      "materia": 11,
+      "enunciado": "¿Cuándo se usa la compresión arterial para controlar una hemorragia externa?",
+      "opciones": {
+        "a": "Siempre antes que la compresión directa.",
+        "b": "Cuando falla la compresión directa.",
+        "c": "Solo después de haber colocado un torniquete."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, la compresión arterial se usa cuando falla la compresión directa; el torniquete solo se aplica si no han funcionado ni la compresión directa ni la arterial.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Compresión arterial (p. 430)",
+        "cita": "Se usa cuando falla la compresión directa.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0027",
+      "tema": "primeros_auxilios",
+      "subtema": "hemorragias",
+      "materia": 11,
+      "enunciado": "Si hay que aplicar un torniquete en un brazo, ¿dónde se coloca respecto a la herida?",
+      "opciones": {
+        "a": "Por debajo de la herida.",
+        "b": "Sobre la propia herida, tapándola.",
+        "c": "Por encima de la herida."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, el torniquete se hace por encima del lugar en el que está la herida, nunca por debajo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Torniquete (p. 431)",
+        "cita": "Se hace por encima del lugar en el que está la herida. Nunca por debajo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0029",
+      "tema": "primeros_auxilios",
+      "subtema": "shock",
+      "materia": 11,
+      "enunciado": "¿Cuál de estos síntomas puede indicar que un herido está en shock?",
+      "opciones": {
+        "a": "Piel roja y caliente.",
+        "b": "Piel pálida y sudor frío y pegajoso.",
+        "c": "Respiración lenta y profunda."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, la persona en shock respira de forma rápida y poco profunda, tiene el pulso rápido y débil, la piel pálida y el sudor frío y pegajoso.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Hemorragia interna (p. 432)",
+        "cita": "Su piel está pálida y su sudor es frío y pegajoso.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0030",
+      "tema": "primeros_auxilios",
+      "subtema": "shock",
+      "materia": 11,
+      "enunciado": "Un herido presenta síntomas de shock y tiene vómitos. ¿Cómo se le coloca?",
+      "opciones": {
+        "a": "Sentado, con la cabeza entre las rodillas.",
+        "b": "Boca arriba, con la cabeza más alta que los pies.",
+        "c": "De lado, con los pies más altos que la cabeza."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, al herido en shock se le tumba con los pies más altos que la cabeza y, si tiene vómitos, se le coloca de lado manteniendo los pies más altos que la cabeza.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Hemorragia interna (p. 432)",
+        "cita": "Si tiene vómitos, colocarle de lado y mantener los pies más altos que la cabeza.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0031",
+      "tema": "primeros_auxilios",
+      "subtema": "hemorragias",
+      "materia": 11,
+      "enunciado": "A un herido le sale sangre por el oído sin que se vea ninguna herida. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Taparlo con una gasa, sin presionar.",
+        "b": "Taponarlo con fuerza para cortar la hemorragia.",
+        "c": "Lavarlo con agua para ver de dónde sale."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, las hemorragias exteriorizadas (por nariz, oído o boca) no se taponan ni se cortan; si la sangre sale por el oído se tapa con una gasa sin presionar, y el herido se trata como muy grave.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Hemorragia interna (p. 433)",
+        "cita": "Cuando la sangre de la hemorragia sale por el oído hay que taparlo con una gasa, sin presionar.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0032",
+      "tema": "primeros_auxilios",
+      "subtema": "quemaduras",
+      "materia": 11,
+      "enunciado": "Un herido tiene una quemadura con la ropa pegada a la piel. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Despegarla con cuidado para limpiar la quemadura.",
+        "b": "No quitarle la ropa pegada.",
+        "c": "Cortar la ropa y arrancar los restos pegados."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, ante una quemadura no se debe tocar la zona quemada ni quitar la ropa que se haya quedado pegada a ella.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Quemaduras (p. 434)",
+        "cita": "No quitar la ropa que se haya quedado pegada a esa zona.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0033",
+      "tema": "primeros_auxilios",
+      "subtema": "quemaduras",
+      "materia": 11,
+      "enunciado": "Un herido tiene ampollas por una quemadura. ¿Qué debe hacer con ellas?",
+      "opciones": {
+        "a": "Pincharlas para que salga el líquido.",
+        "b": "Cortarlas y cubrir la zona con pomada.",
+        "c": "No cortarlas ni pincharlas."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, en las quemaduras no se cortan ni se pinchan las ampollas, y se coloca un vendaje desinfectado y húmedo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Quemaduras (p. 434)",
+        "cita": "No cortar ni pinchar las ampollas. ■ Colocar un vendaje desinfectado y húmedo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0035",
+      "tema": "primeros_auxilios",
+      "subtema": "traslado",
+      "materia": 11,
+      "enunciado": "Según el manual de la DGT, ¿en qué caso se puede llevar a un herido al hospital sin esperar a la ambulancia?",
+      "opciones": {
+        "a": "Si el herido está consciente y pide que lo lleven.",
+        "b": "Si el accidente ocurre en un lugar aislado donde no se puede pedir ayuda.",
+        "c": "Si la ambulancia tarda más de 10 minutos en llegar."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, siempre hay que esperar a la ambulancia, salvo en un lugar aislado donde no se puede pedir ayuda o si la ayuda tarda más de 30 minutos y el herido está inconsciente o tiene una hemorragia incontrolable.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Trasladar a los heridos (p. 436)",
+        "cita": "El accidente ha ocurrido en un lugar aislado en el que no se puede pedir ayuda a los servicios de emergencias.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0036",
+      "tema": "primeros_auxilios",
+      "subtema": "traslado",
+      "materia": 11,
+      "enunciado": "Si excepcionalmente tiene que trasladar a un herido en un vehículo, ¿cómo debe conducir?",
+      "opciones": {
+        "a": "Lo más rápido posible, con las luces de emergencia.",
+        "b": "Por el arcén, para no detenerse en los atascos.",
+        "c": "Despacio y de forma suave."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, el traslado de un herido se hace, a ser posible, en una furgoneta o camión para poder tumbarlo, conduciendo despacio y de forma suave.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Trasladar a los heridos (p. 436)",
+        "cita": "El traslado se debe hacer, a ser posible, en una furgoneta o camión para poder tumbar al herido. Hay que conducir despacio y de forma suave.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0037",
+      "tema": "mecanica",
+      "subtema": "alimentacion",
+      "materia": 14,
+      "enunciado": "¿Cuál es la función del sistema de alimentación de un vehículo?",
+      "opciones": {
+        "a": "Llevar el aire y el combustible al motor.",
+        "b": "Repartir el aceite entre las piezas del motor.",
+        "c": "Mantener el motor a la temperatura adecuada."
+      },
+      "correcta": "a",
+      "explicacion": "El sistema de alimentación lleva el aire y el combustible al motor para que el vehículo pueda funcionar; tiene un filtro que limpia el aire.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de alimentación (p. 366)",
+        "cita": "Llevar el aire y el combustible al motor para que el vehículo pueda funcionar.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0038",
+      "tema": "mecanica",
+      "subtema": "alimentacion",
+      "materia": 14,
+      "enunciado": "¿Qué efecto tiene circular con el filtro del aire sucio?",
+      "opciones": {
+        "a": "Reduce el consumo, porque entra menos aire.",
+        "b": "Aumenta el consumo de combustible.",
+        "c": "Ninguno, mientras el motor arranque."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, cuando el filtro del aire está sucio el combustible pasa peor y se gasta más combustible que con el filtro limpio.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de alimentación (p. 367)",
+        "cita": "Debes limpiar este filtro de vez en cuando porque, cuando está sucio, el combustible pasa peor por él. Esto hace que gastes más combustible que cuando está limpio.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0040",
+      "tema": "mecanica",
+      "subtema": "electrico",
+      "materia": 14,
+      "enunciado": "Con el motor en marcha, ¿qué pieza produce la electricidad y la guarda en la batería?",
+      "opciones": {
+        "a": "El alternador.",
+        "b": "La bujía.",
+        "c": "El catalizador."
+      },
+      "correcta": "a",
+      "explicacion": "El alternador es la pieza que permite que el vehículo produzca electricidad y la guarde en la batería; se mueve por medio de una correa.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Circuito de carga (p. 369)",
+        "cita": "La pieza que permite que el vehículo produzca electricidad y la guarde en la batería se llama alternador.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0041",
+      "tema": "mecanica",
+      "subtema": "lubricacion",
+      "materia": 14,
+      "enunciado": "Para cambiar el aceite del motor, ¿cómo debe estar el vehículo?",
+      "opciones": {
+        "a": "Inclinado, con el motor en marcha.",
+        "b": "Recto, con el motor parado y caliente.",
+        "c": "Recto, con el motor en marcha al ralentí."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, el cambio de aceite se hace con el vehículo recto y el motor parado y caliente; el nivel, en cambio, se mira con el motor parado y frío.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de lubricación (p. 376)",
+        "cita": "Para cambiarlo, el vehículo debe estar recto y el motor debe estar parado y caliente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0042",
+      "tema": "mecanica",
+      "subtema": "lubricacion",
+      "materia": 14,
+      "enunciado": "Sale humo blanco azulado por el tubo de escape. Según el manual de la DGT, ¿qué indica?",
+      "opciones": {
+        "a": "Que el filtro del aire está sucio.",
+        "b": "Que falta líquido de frenos.",
+        "c": "Que el vehículo lleva demasiado aceite."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, el humo blanco azulado por el tubo de escape indica que el vehículo lleva demasiado aceite.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de lubricación (p. 376)",
+        "cita": "Cuando salga un humo blanco azulado a través del tubo de escape quiere decir que el vehículo lleva demasiado aceite.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0043",
+      "tema": "mecanica",
+      "subtema": "lubricacion",
+      "materia": 14,
+      "enunciado": "En un aceite multigrado 10W/40, ¿qué indica «10W»?",
+      "opciones": {
+        "a": "Que se reparte bien por el motor aunque haya poca temperatura.",
+        "b": "Que soporta temperaturas muy altas sin estropearse.",
+        "c": "Que hay que cambiarlo cada 10.000 kilómetros."
+      },
+      "correcta": "a",
+      "explicacion": "En un aceite multigrado 10W/40, la cifra 10W indica que se reparte bien por el motor aunque haya poca temperatura, y la cifra 40 que soporta temperaturas muy altas sin estropearse.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Clases de aceites (p. 375)",
+        "cita": "10W indica que este aceite se reparte bien por el motor, aunque haya poca temperatura.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0045",
+      "tema": "mecanica",
+      "subtema": "refrigeracion",
+      "materia": 14,
+      "enunciado": "Al arrancar una mañana fría de invierno sale humo blanco por el escape. ¿Qué indica normalmente?",
+      "opciones": {
+        "a": "Que el motor lleva demasiado aceite.",
+        "b": "Que el filtro del aire está roto.",
+        "c": "Es vapor de agua, algo normal al arrancar con frío."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, el humo blanco que sale al arrancar, sobre todo con frío, es vapor de agua y es normal; si sale con el motor ya caliente puede indicar una avería.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
+        "cita": "Ese humo es vapor de agua. Es algo normal al arrancar, sobre todo cuando hace frío.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0046",
+      "tema": "mecanica",
+      "subtema": "refrigeracion",
+      "materia": 14,
+      "enunciado": "El motor lleva un rato funcionando, ya está caliente, y sigue saliendo humo blanco por el escape. ¿Qué puede indicar?",
+      "opciones": {
+        "a": "Alguna pieza rota o una avería.",
+        "b": "Nada: es vapor normal en cualquier situación.",
+        "c": "Que se circula en una marcha demasiado larga."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, el humo blanco con el vehículo caliente y tras un rato de funcionamiento puede indicar alguna pieza rota o una avería.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de refrigeración (p. 378)",
+        "cita": "Sin embargo, puede indicar que hay alguna pieza rota o una avería si el humo blanco sale cuando el vehículo lleva un rato en funcionamiento y el vehículo está caliente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0047",
+      "tema": "mecanica",
+      "subtema": "refrigeracion",
+      "materia": 14,
+      "enunciado": "¿Por qué conviene comprobar al principio del invierno el estado del líquido refrigerante?",
+      "opciones": {
+        "a": "Porque con frío el motor gasta el doble de refrigerante.",
+        "b": "Porque si se congela puede romper el motor o la refrigeración.",
+        "c": "Porque en invierno el refrigerante se mezcla con el aceite."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, si el vehículo está en un lugar muy frío el líquido refrigerante se puede congelar y romper el motor o el sistema de refrigeración.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de refrigeración (p. 378)",
+        "cita": "Si el vehículo está en un lugar muy frío durante el invierno, el líquido se puede congelar y romper el motor o el sistema de refrigeración.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0048",
+      "tema": "mecanica",
+      "subtema": "transmision",
+      "materia": 14,
+      "enunciado": "¿Qué característica tiene la primera marcha?",
+      "opciones": {
+        "a": "Es la más rápida y la que menos fuerza manda.",
+        "b": "Es la que menos combustible consume en carretera.",
+        "c": "Manda más fuerza a las ruedas, pero es la más lenta."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, la primera velocidad es la que manda más fuerza a las ruedas, pero es la más lenta.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de transmisión (p. 379)",
+        "cita": "La primera velocidad es la que manda más fuerza a las ruedas, pero es la más lenta.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0049",
+      "tema": "mecanica",
+      "subtema": "direccion",
+      "materia": 14,
+      "enunciado": "¿Cuál es la función del sistema de dirección?",
+      "opciones": {
+        "a": "Transmitir el movimiento del volante a las ruedas delanteras.",
+        "b": "Llevar la fuerza del motor a las ruedas.",
+        "c": "Mantener el contacto de los neumáticos con la carretera."
+      },
+      "correcta": "a",
+      "explicacion": "El sistema de dirección transmite el movimiento del volante a las ruedas de delante para que el conductor pueda girar el vehículo; la transmisión lleva la fuerza del motor a las ruedas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de dirección (p. 380)",
+        "cita": "Transmitir el movimiento del volante a las ruedas de delante para que el conductor pueda girar el vehículo sin problema.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0050",
+      "tema": "mecanica",
+      "subtema": "direccion",
+      "materia": 14,
+      "enunciado": "En una recta, al soltar el volante el vehículo se desvía hacia un lado. Según el manual de la DGT, ¿qué puede ocurrir?",
+      "opciones": {
+        "a": "Que el filtro del aire esté sucio.",
+        "b": "Que unos neumáticos estén más inflados que otros.",
+        "c": "Que el aceite del motor sea demasiado espeso."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, si el vehículo se desvía hacia un lado al soltar el volante en un terreno recto, puede que unos neumáticos estén más inflados que otros.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de dirección (p. 380)",
+        "cita": "El vehículo se desvía hacia un lado cuando sueltas el volante en un terreno recto. ■ Puede que unos neumáticos estén más inflados que otros.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0051",
+      "tema": "mecanica",
+      "subtema": "direccion",
+      "materia": 14,
+      "enunciado": "El volante vibra mientras conduce. ¿Cuál puede ser la causa?",
+      "opciones": {
+        "a": "Que el depósito de combustible esté casi vacío.",
+        "b": "Que la batería esté descargada.",
+        "c": "Que las ruedas no estén bien equilibradas."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, la vibración del volante durante la marcha puede deberse a que las ruedas no están bien equilibradas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de dirección (p. 380)",
+        "cita": "El volante vibra mientras conduces. Puede que las ruedas no estén bien equilibradas.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0052",
+      "tema": "mecanica",
+      "subtema": "direccion",
+      "materia": 14,
+      "enunciado": "¿Cómo funciona la dirección asistida progresiva?",
+      "opciones": {
+        "a": "El volante gira muy fácil a poca velocidad y cuesta algo más a mayor velocidad.",
+        "b": "El volante cuesta más a poca velocidad y es más ligero a mayor velocidad.",
+        "c": "La ayuda al volante es exactamente la misma a cualquier velocidad."
+      },
+      "correcta": "a",
+      "explicacion": "La dirección asistida progresiva hace que el volante gire muy fácil cuando el vehículo va despacio y cueste un poco más a más velocidad, para controlar mejor el vehículo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Dirección asistida (p. 381)",
+        "cita": "La dirección asistida progresiva ayuda a girar muy fácil el volante cuando el vehículo va despacio y hace que cueste un poco más cuando el vehículo circula a más velocidad.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0053",
+      "tema": "mecanica",
+      "subtema": "suspension",
+      "materia": 14,
+      "enunciado": "¿Qué consecuencia tiene circular con el sistema de suspensión en malas condiciones?",
+      "opciones": {
+        "a": "El vehículo gana estabilidad en las curvas.",
+        "b": "El vehículo necesita más espacio para frenar.",
+        "c": "Disminuye el riesgo de aquaplaning."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, con la suspensión en malas condiciones el vehículo pierde estabilidad, hay más riesgo de aquaplaning y necesita más espacio para frenar, sobre todo con el suelo mojado.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de suspensión (p. 384)",
+        "cita": "El vehículo necesita más espacio para frenar. Sobre todo cuando el suelo está mojado.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0054",
+      "tema": "mecanica",
+      "subtema": "frenos",
+      "materia": 14,
+      "enunciado": "En el sistema de frenado, ¿qué elementos rozan para detener las ruedas?",
+      "opciones": {
+        "a": "Los amortiguadores.",
+        "b": "Las bujías.",
+        "c": "Las pastillas o las zapatas."
+      },
+      "correcta": "c",
+      "explicacion": "Al pisar el freno, la fuerza pasa por el líquido de frenos hasta las pastillas o las zapatas, que rozan con otros elementos de las ruedas y las detienen.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de frenado (p. 385)",
+        "cita": "llega a los elementos que frenan las ruedas, que son las pastillas o las zapatas.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0055",
+      "tema": "mecanica",
+      "subtema": "frenos",
+      "materia": 14,
+      "enunciado": "¿Para qué sirve el frenado de socorro de un vehículo?",
+      "opciones": {
+        "a": "Para frenar el vehículo si falla el frenado de servicio.",
+        "b": "Para mantener inmóvil el vehículo estacionado.",
+        "c": "Para frenar solo las ruedas traseras en las curvas."
+      },
+      "correcta": "a",
+      "explicacion": "El frenado de socorro tiene la misma función que el de servicio (disminuir la velocidad y detener el vehículo) en caso de fallo de este; el de estacionamiento mantiene inmóvil el vehículo.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "12.8.1",
+        "cita": "Frenado de socorro, con la misma función que el frenado de servicio en el caso de fallo de éste.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 12",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0056",
+      "tema": "mecanica",
+      "subtema": "frenos",
+      "materia": 14,
+      "enunciado": "¿Qué dispositivos de frenado debe tener una motocicleta?",
+      "opciones": {
+        "a": "Uno solo, que actúe sobre la rueda trasera.",
+        "b": "Dos: uno para la rueda trasera y otro para la delantera.",
+        "c": "Uno solo, que actúe sobre las dos ruedas a la vez."
+      },
+      "correcta": "b",
+      "explicacion": "Toda motocicleta debe tener dos dispositivos de frenado: uno que actúe al menos sobre la rueda trasera y otro sobre la rueda delantera.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "12.8.4",
+        "cita": "Toda motocicleta debe estar provista de dos dispositivos de frenado, que actúen, uno, por lo menos, sobre la rueda trasera, y el otro, sobre la rueda delantera.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 12",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0057",
+      "tema": "mecanica",
+      "subtema": "frenos",
+      "materia": 14,
+      "enunciado": "Al bajar una cuesta larga, ¿qué recomienda el manual de la DGT para controlar la velocidad?",
+      "opciones": {
+        "a": "Bajar en punto muerto y frenar con el pedal.",
+        "b": "Pisar el freno de forma continua todo el descenso.",
+        "c": "Usar el freno motor."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, el freno motor reduce la velocidad sin usar el freno de las ruedas y se recomienda al bajar cuestas largas; en marchas cortas retiene más.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Freno motor (p. 93)",
+        "cita": "Se recomienda usar el freno motor al bajar cuestas largas.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0058",
+      "tema": "mecanica",
+      "subtema": "frenos",
+      "materia": 14,
+      "enunciado": "Los frenos se han calentado mucho por usarlos demasiado en poco tiempo y frenan peor. ¿Qué indica el manual de la DGT?",
+      "opciones": {
+        "a": "Soltar el pedal de freno para que se enfríen.",
+        "b": "Pisar el freno con más fuerza hasta que vuelva a responder.",
+        "c": "Poner punto muerto y frenar solo con el freno de mano."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, si los frenos se calientan mucho por usarlos demasiado en poco tiempo, hay que soltar el pedal de freno para que se enfríen.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, ¿Qué hacer cuando fallan los frenos? (p. 96)",
+        "cita": "Soltar el pedal de freno\npara que se enfríen.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Corregida tras la revisión independiente del 24/11/2026."
+    },
+    {
+      "id": "xe-0059",
+      "tema": "mecanica",
+      "subtema": "frenos",
+      "materia": 14,
+      "enunciado": "Hace una frenada de emergencia en un vehículo sin ABS. ¿Qué debe hacer cuando nota que las ruedas empiezan a bloquearse?",
+      "opciones": {
+        "a": "Soltar del todo el freno y tirar del freno de mano.",
+        "b": "Levantar un poco el pie del freno, sin dejar de frenar.",
+        "c": "Seguir pisando a fondo aunque las ruedas se bloqueen."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, en una frenada de emergencia sin ABS se pisa fuerte hasta notar que la rueda empieza a bloquearse y entonces se levanta un poco el pie, sin dejar de frenar.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, ¿Cómo se usan los frenos? (p. 96)",
+        "cita": "debes pisar fuerte y a fondo el pedal de freno hasta que notes que la rueda se empieza a bloquear. Entonces levanta un poco el pie del freno para evitar que se bloqueen las ruedas.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0060",
+      "tema": "neumaticos",
+      "subtema": "presion",
+      "materia": 14,
+      "enunciado": "¿Con qué frecuencia mínima aconseja el manual de la DGT comprobar la presión de los neumáticos?",
+      "opciones": {
+        "a": "Solo cuando se pasa la ITV.",
+        "b": "Una vez al año.",
+        "c": "Al menos una vez al mes."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, la presión de los neumáticos se debe controlar por lo menos una vez al mes, y también conviene llevar la rueda de repuesto con la presión correcta.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Presión de inflado (p. 100)",
+        "cita": "Debes controlar la presión de los neumáticos de tu vehículo por lo menos una vez al mes.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0062",
+      "tema": "neumaticos",
+      "subtema": "presion",
+      "materia": 14,
+      "enunciado": "Si los neumáticos llevan más presión de la recomendada, ¿qué ocurre?",
+      "opciones": {
+        "a": "El neumático se agarra mejor a la carretera.",
+        "b": "Hay más posibilidad de que la rueda reviente.",
+        "c": "El neumático se desgasta más por los lados."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, con más presión de la recomendada el neumático tiene menos contacto con el suelo, se desgasta más por el centro, el vehículo vibra más y hay más posibilidad de reventón.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Presión de inflado (p. 100)",
+        "cita": "Hay más posibilidad de que la rueda se reviente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0063",
+      "tema": "neumaticos",
+      "subtema": "dibujo",
+      "materia": 14,
+      "enunciado": "¿Para qué sirven, entre otras cosas, las ranuras de la banda de rodamiento de un neumático?",
+      "opciones": {
+        "a": "Para que el neumático pese menos.",
+        "b": "Para indicar la presión de inflado.",
+        "c": "Para eliminar el agua de la carretera cuando llueve."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, las ranuras del neumático sirven para que no se caliente, sea más flexible, se agarre mejor y elimine el agua de la carretera cuando llueve.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Los neumáticos (p. 99)",
+        "cita": "Elimine el agua que coge de la carretera cuando llueve.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0064",
+      "tema": "neumaticos",
+      "subtema": "dibujo",
+      "materia": 14,
+      "enunciado": "¿Para qué sirven los indicadores de desgaste de los neumáticos de un turismo?",
+      "opciones": {
+        "a": "Para señalar que las ranuras han llegado a la profundidad mínima de dibujo.",
+        "b": "Para indicar la presión de inflado que recomienda el fabricante.",
+        "c": "Para señalar la velocidad máxima que admite el neumático."
+      },
+      "correcta": "a",
+      "explicacion": "Los indicadores de desgaste de los neumáticos de turismos y sus remolques señalan que las ranuras principales de la banda de rodamiento han alcanzado la profundidad mínima de dibujo.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo VII.3",
+        "cita": "Dichos indicadores de desgaste sirven para señalar que las ranuras principales de la banda de rodamiento han alcanzado la profundidad mínima de dibujo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo VII",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0065",
+      "tema": "neumaticos",
+      "subtema": "estado",
+      "materia": 14,
+      "enunciado": "¿Se puede resculturar (rehacer el dibujo) de los neumáticos de un turismo?",
+      "opciones": {
+        "a": "Sí, cuando el dibujo baje de 1,6 milímetros de profundidad.",
+        "b": "No; solo se permite en neumáticos marcados de vehículos de más de 3,5 toneladas.",
+        "c": "Sí, una sola vez a lo largo de la vida del neumático."
+      },
+      "correcta": "b",
+      "explicacion": "El resculturado de neumáticos no está permitido, salvo en los que equipan vehículos de más de 3,5 toneladas de peso máximo autorizado y llevan la marca Regroovable o el símbolo correspondiente.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo VII.4",
+        "cita": "El resculturado no está permitido, excepto en aquellos neumáticos que equipen vehículos de más de 3,5 toneladas de peso máximo autorizado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo VII",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0066",
+      "tema": "neumaticos",
+      "subtema": "estado",
+      "materia": 14,
+      "enunciado": "¿Qué neumáticos puede montar un turismo?",
+      "opciones": {
+        "a": "Cualquiera, siempre que tenga más de 1,6 mm de dibujo.",
+        "b": "Cualquiera que sea más ancho que los originales.",
+        "c": "Los de dimensiones y características previstas por el fabricante, o equivalentes."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos deben llevar neumáticos de las dimensiones y características previstas por el fabricante en la homologación del vehículo, o sus equivalentes.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo VII.1",
+        "cita": "Los vehículos deben estar equipados con neumáticos de las dimensiones y características previstas por el fabricante en la homologación del vehículo, o sus equivalentes",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo VII",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0067",
+      "tema": "neumaticos",
+      "subtema": "invierno",
+      "materia": 14,
+      "enunciado": "Una restricción de movilidad invernal exige neumáticos especiales. Para cumplirla, ¿dónde debe llevar un turismo neumáticos certificados 3PMSF?",
+      "opciones": {
+        "a": "En todos sus ejes.",
+        "b": "Solo en el eje motriz.",
+        "c": "Solo en el eje delantero."
+      },
+      "correcta": "a",
+      "explicacion": "Para cumplir las restricciones de movilidad invernal, los vehículos de hasta 3.500 kg de MMA deben llevar neumáticos certificados 3PMSF en todos sus ejes.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo VII.5",
+        "cita": "en el caso de los vehículos de MMA ≤ 3.500 kg estos deberán equipar neumáticos certificados 3PMSF en todos sus ejes.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo VII",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0068",
+      "tema": "neumaticos",
+      "subtema": "pinchazo",
+      "materia": 14,
+      "enunciado": "Se le pincha una rueda mientras circula. ¿Qué debe hacer primero?",
+      "opciones": {
+        "a": "Frenar a fondo de inmediato para detenerse en el menor espacio.",
+        "b": "Reducir la velocidad poco a poco hasta parar, sin frenar bruscamente.",
+        "c": "Acelerar para llegar cuanto antes a la próxima salida."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, ante un pinchazo hay que reducir la velocidad lentamente hasta parar, sin frenar de forma brusca, e inmovilizar el vehículo en un lugar seguro.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, ¿Qué debes hacer cuando se pincha una rueda? (p. 102)",
+        "cita": "Reducir la velocidad de forma lenta hasta parar el vehículo. No parar de forma brusca.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0069",
+      "tema": "vehiculo",
+      "subtema": "condiciones_tecnicas",
+      "materia": 14,
+      "enunciado": "¿Qué vehículos de motor deben llevar indicador de velocidad?",
+      "opciones": {
+        "a": "Solo los que pueden circular por autopista.",
+        "b": "Solo los de más de 3.500 kg de MMA.",
+        "c": "Los capaces de alcanzar en llano más de 40 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Todo vehículo de motor capaz de superar en llano los 40 km/h debe estar provisto de un indicador de velocidad en kilómetros por hora.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "11.11",
+        "cita": "Todo vehículo de motor capaz de alcanzar en llano una velocidad superior a los 40 kilómetros por hora deberá estar provisto de un indicador de velocidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0070",
+      "tema": "vehiculo",
+      "subtema": "condiciones_tecnicas",
+      "materia": 14,
+      "enunciado": "¿Cuál de estos vehículos no está obligado a disponer de marcha atrás?",
+      "opciones": {
+        "a": "Una motocicleta.",
+        "b": "Un turismo.",
+        "c": "Un camión."
+      },
+      "correcta": "a",
+      "explicacion": "Todo vehículo de motor debe disponer de marcha atrás, excepto las motocicletas, los motocultores conducidos a pie y los vehículos de tres ruedas simétricas.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "11.6",
+        "cita": "Todo vehículo de motor, con excepción de las motocicletas, de los motocultores conducidos a pie y de los vehículos de tres ruedas simétricas",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0071",
+      "tema": "luces",
+      "subtema": "alumbrado_obligatorio",
+      "materia": 14,
+      "enunciado": "¿Cuál de estas luces es obligatoria en un turismo?",
+      "opciones": {
+        "a": "La luz antiniebla delantera.",
+        "b": "La luz de marcha atrás.",
+        "c": "La luz de estacionamiento."
+      },
+      "correcta": "b",
+      "explicacion": "Entre los dispositivos obligatorios de todo automóvil está la luz de marcha atrás; la antiniebla delantera y la luz de estacionamiento son facultativas.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "16.1",
+        "cita": "Todo automóvil, con excepción de los que se reseñan en los apartados siguientes, deberá estar provisto de: Luz de cruce. Luz de carretera. Luz de marcha atrás.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "RGV art. 17.1: antiniebla delantera y luz de estacionamiento son facultativas."
+    },
+    {
+      "id": "xe-0072",
+      "tema": "luces",
+      "subtema": "alumbrado_condiciones",
+      "materia": 14,
+      "enunciado": "¿Puede encenderse la luz antiniebla trasera llevando encendidas solo las luces de posición?",
+      "opciones": {
+        "a": "Sí, siempre que haya niebla espesa.",
+        "b": "Sí, porque funciona de forma independiente del resto.",
+        "c": "No; solo con las de carretera, las de cruce o las antiniebla delanteras."
+      },
+      "correcta": "c",
+      "explicacion": "Las luces antiniebla traseras solo pueden encenderse cuando lo están también las de carretera, las de cruce o las antiniebla delanteras.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "15.3",
+        "cita": "Las luces antiniebla traseras sólo podrán encenderse cuando lo estén también las de carretera, las de cruce o las antiniebla delanteras.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0073",
+      "tema": "luces",
+      "subtema": "alumbrado_condiciones",
+      "materia": 14,
+      "enunciado": "¿Puede instalar en su turismo luces decorativas que no estén autorizadas por el Reglamento?",
+      "opciones": {
+        "a": "No; no se pueden instalar más luces que las autorizadas.",
+        "b": "Sí, si solo las enciende dentro de poblado.",
+        "c": "Sí, si son de color blanco o amarillo."
+      },
+      "correcta": "a",
+      "explicacion": "En los vehículos no se pueden instalar más luces que las autorizadas, y está prohibido usar pinturas o dispositivos luminosos o reflectantes no autorizados.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "15.5",
+        "cita": "No se instalarán en los vehículos más luces que las autorizadas en el presente Reglamento, prohibiéndose expresamente el uso de pinturas o dispositivos luminosos o reflectantes no autorizados",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0074",
+      "tema": "vehiculo",
+      "subtema": "visibilidad",
+      "materia": 14,
+      "enunciado": "¿Por qué no se debe usar el limpiaparabrisas con el cristal seco?",
+      "opciones": {
+        "a": "Porque descarga la batería.",
+        "b": "Porque puede rayar el cristal.",
+        "c": "Porque se estropea el lavaparabrisas."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, el limpiaparabrisas no se debe usar con el cristal seco porque lo puede rayar.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 6, Limpiaparabrisas (p. 126)",
+        "cita": "No hay que usar el limpiaparabrisas cuando el cristal está seco porque lo puede rayar.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 6",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0075",
+      "tema": "mecanica",
+      "subtema": "lubricacion",
+      "materia": 14,
+      "enunciado": "¿Qué ventaja tienen los aceites sintéticos frente a los minerales?",
+      "opciones": {
+        "a": "Se obtienen del petróleo sin ninguna mezcla.",
+        "b": "Hay que cambiarlos con más frecuencia.",
+        "c": "Resisten mejor el frío y el calor."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, los aceites sintéticos resisten mejor el frío y el calor, facilitan el arranque en frío y duran más, por lo que hay que cambiarlos menos veces.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Clases de aceites (p. 374)",
+        "cita": "Porque tienen las siguientes ventajas: ■ Resisten mejor el frio y el calor.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0076",
+      "tema": "mecanica",
+      "subtema": "refrigeracion",
+      "materia": 14,
+      "enunciado": "Una vez enfriado en el radiador, ¿qué impulsa el líquido refrigerante de vuelta al motor?",
+      "opciones": {
+        "a": "Una bomba de agua.",
+        "b": "El alternador.",
+        "c": "La batería."
+      },
+      "correcta": "a",
+      "explicacion": "En el sistema de refrigeración, el líquido refrigerante se enfría en el radiador y vuelve al motor impulsado por una bomba de agua, movida por correas que hay que revisar.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
+        "cita": "Allí se enfría de nuevo y vuelve al motor impulsado por una bomba de agua.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0077",
+      "tema": "mecanica",
+      "subtema": "suspension",
+      "materia": 14,
+      "enunciado": "Con la suspensión en mal estado, ¿qué puede ocurrir con las luces encendidas del vehículo?",
+      "opciones": {
+        "a": "Se apagan solas al pasar por los baches.",
+        "b": "Se mueven arriba y abajo y pueden deslumbrar.",
+        "c": "Pierden potencia y alumbran la mitad."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, con la suspensión en malas condiciones las luces se mueven hacia arriba y hacia abajo y pueden deslumbrar a otros conductores.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de suspensión (p. 384)",
+        "cita": "Las luces se mueven hacia arriba y hacia abajo y pueden deslumbrar a otros conductores.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0078",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon_obligatoriedad",
+      "materia": 15,
+      "enunciado": "Según el Reglamento General de Circulación, ¿quiénes están obligados a usar el cinturón, el casco y demás elementos de protección?",
+      "opciones": {
+        "a": "Solo los conductores, que responden por todos los ocupantes.",
+        "b": "Solo los ocupantes de los asientos delanteros.",
+        "c": "Los conductores y los ocupantes de vehículos a motor y ciclomotores."
+      },
+      "correcta": "c",
+      "explicacion": "Conductores y ocupantes de vehículos a motor y ciclomotores están obligados a usar el cinturón, el casco y demás elementos de protección en los casos y con las excepciones que fija el Reglamento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "116.1",
+        "cita": "Los conductores y ocupantes de vehículos a motor y ciclomotores están obligados a utilizar el cinturón de seguridad, el casco y demás elementos de protección en los casos y condiciones que se determinan en este capítulo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 116",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0079",
+      "tema": "seguridad_pasiva",
+      "subtema": "infracciones",
+      "materia": 15,
+      "enunciado": "Circular en motocicleta sin el casco obligatorio, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Leve.",
+        "c": "Muy grave."
+      },
+      "correcta": "a",
+      "explicacion": "Las infracciones de las normas sobre uso del cinturón, el casco y otros dispositivos de seguridad obligatorios tienen la consideración de graves.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "116.2",
+        "cita": "Las infracciones a las normas de utilización de los cinturones de seguridad, el casco y otros dispositivos de seguridad de uso obligatorio previstos en este capítulo tendrán la consideración de graves",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 116",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0081",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon_responsabilidad",
+      "materia": 15,
+      "enunciado": "Un taxista de servicio lleva a un pasajero adulto que no se abrocha el cinturón. ¿Es responsable el taxista de ese incumplimiento?",
+      "opciones": {
+        "a": "Sí; el conductor responde siempre por todos los ocupantes.",
+        "b": "Sí, pero solo si el pasajero viaja en el asiento delantero.",
+        "c": "No, cuando presta servicio público a terceros."
+      },
+      "correcta": "c",
+      "explicacion": "Los conductores profesionales que prestan servicio público a terceros no se consideran responsables de que los ocupantes incumplan la obligación de usar el cinturón y demás elementos de seguridad.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "13.4",
+        "cita": "Los conductores profesionales, cuando presten servicio público a terceros, no se considerarán responsables del incumplimiento de esta norma por parte de los ocupantes del vehículo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "LSV art. 13",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0082",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon_obligatoriedad",
+      "materia": 15,
+      "enunciado": "Un adulto viaja en un vehículo antiguo que no tiene cinturones de seguridad instalados en los asientos traseros. ¿Incumple la norma por no llevarlo?",
+      "opciones": {
+        "a": "No; la obligación no es exigible si el vehículo no los tiene instalados.",
+        "b": "Sí; tiene que llevar un cinturón portátil homologado.",
+        "c": "Sí, salvo que circule solo por vías urbanas."
+      },
+      "correcta": "a",
+      "explicacion": "La obligación de usar el cinturón no es exigible en los vehículos que no lo tienen instalado; los menores de 135 cm o menos deben usar en todo caso sistema de retención infantil.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "117.1",
+        "cita": "Esta obligación, en lo que se refiere a los cinturones de seguridad, no será exigible en aquellos vehículos que no los tengan instalados.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 117",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0083",
+      "tema": "seguridad_pasiva",
+      "subtema": "sri",
+      "materia": 15,
+      "enunciado": "En un autobús viaja un niño de 6 años que mide 115 cm, y no hay sistemas de retención infantil disponibles. ¿Qué debe utilizar?",
+      "opciones": {
+        "a": "Nada: en los autobuses los niños están exentos.",
+        "b": "El cinturón de seguridad, si es adecuado a su talla y peso.",
+        "c": "Debe viajar sentado en brazos de un adulto."
+      },
+      "correcta": "b",
+      "explicacion": "En vehículos de más de nueve plazas, los menores de 135 cm o menos de tres o más años usan sistemas de retención infantil y, si no los hay, el cinturón de seguridad siempre que sea adecuado a su talla y peso.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "117.2",
+        "cita": "Cuando no se disponga de estos sistemas utilizarán los cinturones de seguridad, siempre que sean adecuados a su talla y peso.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 117",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0084",
+      "tema": "seguridad_pasiva",
+      "subtema": "sri",
+      "materia": 15,
+      "enunciado": "Lleva en un turismo a tres niños de 120 cm y en los asientos traseros solo se pueden instalar dos sistemas de retención infantil. ¿Dónde puede viajar el tercero?",
+      "opciones": {
+        "a": "Detrás, solo con el cinturón de adulto.",
+        "b": "Detrás, en brazos de un adulto.",
+        "c": "Delante, con su sistema de retención adaptado."
+      },
+      "correcta": "c",
+      "explicacion": "Los menores que deben usar sistema de retención infantil pueden ocupar excepcionalmente el asiento delantero, con su sistema adaptado, cuando no sea posible instalar en los asientos traseros todos los sistemas de retención.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "117.3",
+        "cita": "3.º Cuando no sea posible instalar en dichos asientos todos los sistemas de retención infantil.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 117",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0085",
+      "tema": "seguridad_pasiva",
+      "subtema": "sri",
+      "materia": 15,
+      "enunciado": "¿Cómo debe instalarse un sistema de retención infantil en el vehículo?",
+      "opciones": {
+        "a": "Siempre según las instrucciones de su fabricante.",
+        "b": "Como prefiera el conductor, si queda firme.",
+        "c": "Según indique el taller que revisa el vehículo."
+      },
+      "correcta": "a",
+      "explicacion": "Los sistemas de retención infantil se instalan siempre de acuerdo con las instrucciones de su fabricante, que indican cómo y en qué vehículos se pueden usar de forma segura.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "117.4",
+        "cita": "Los sistemas de retención infantil se instalarán en el vehículo siempre de acuerdo con las instrucciones que haya facilitado su fabricante",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 117",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0086",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon_exenciones",
+      "materia": 15,
+      "enunciado": "Un conductor tiene un certificado de exención del cinturón por razones médicas graves expedido en otro Estado de la Unión Europea. ¿Es válido en España?",
+      "opciones": {
+        "a": "No; necesita un certificado expedido en España.",
+        "b": "Sí, acompañado de su traducción oficial.",
+        "c": "Sí, pero solo durante los seis primeros meses."
+      },
+      "correcta": "b",
+      "explicacion": "Los certificados de exención del cinturón por razones médicas graves o discapacidad expedidos por la autoridad competente de un Estado de la Unión Europea son válidos en España acompañados de su traducción oficial.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "119.1.b",
+        "cita": "Todo certificado de este tipo expedido por la autoridad competente de un Estado miembro de la Unión Europea será válido en España acompañado de su traducción oficial.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 119",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0087",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon_exenciones",
+      "materia": 15,
+      "enunciado": "Un sanitario va atendiendo a un paciente en el habitáculo de una ambulancia asistencial en servicio de urgencia, por una autovía. ¿Debe llevar el cinturón?",
+      "opciones": {
+        "a": "Sí; fuera de poblado nadie está exento del cinturón.",
+        "b": "Sí, salvo que la ambulancia vaya a menos de 50 km/h.",
+        "c": "No; en ese caso está exento en todo tipo de vías."
+      },
+      "correcta": "c",
+      "explicacion": "Los pasajeros de ambulancias asistenciales que, en servicio de urgencia, ocupan el habitáculo del paciente para prestarle asistencia en ruta están exentos del cinturón en todo tipo de vías.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "119.2",
+        "cita": "los pasajeros de las ambulancias asistenciales, acondicionadas para permitir asistencia técnico-sanitaria en ruta, estarán exentos de la utilización del cinturón de seguridad en todo tipo de vías",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 119",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0088",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon_exenciones",
+      "materia": 15,
+      "enunciado": "Un taxi circula en tráfico urbano y lleva a un niño de 120 cm sin sistema de retención infantil. ¿Es posible?",
+      "opciones": {
+        "a": "Sí, siempre que el niño ocupe un asiento trasero.",
+        "b": "No, en ningún caso.",
+        "c": "Sí, en cualquier asiento, incluido el delantero."
+      },
+      "correcta": "a",
+      "explicacion": "Los taxis que circulan en tráfico urbano o áreas urbanas de grandes ciudades pueden llevar a personas de menos de 135 cm sin sistema de retención adaptado, siempre que ocupen un asiento trasero.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "119.2",
+        "cita": "Cuando los taxis circulen en tráfico urbano o áreas urbanas de grandes ciudades podrán transportar a personas cuya estatura no alcance los 135 centímetros sin utilizar un dispositivo de retención homologado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 119",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0089",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon_exenciones",
+      "materia": 15,
+      "enunciado": "Un repartidor que baja continuamente de su furgoneta para entregar paquetes circula por ciudad. Según el Reglamento General de Circulación vigente, ¿puede ir sin cinturón?",
+      "opciones": {
+        "a": "Sí, siempre que circule en poblado.",
+        "b": "No; el Reglamento no recoge esa exención.",
+        "c": "Sí, en cualquier tipo de vía."
+      },
+      "correcta": "b",
+      "explicacion": "El conductor y los ocupantes deben llevar el cinturón abrochado en vías urbanas e interurbanas; el artículo 119 vigente no incluye a los repartidores entre las exenciones.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "117.1",
+        "cita": "El conductor y los ocupantes de los vehículos estarán obligados a utilizar, debidamente abrochados, los cinturones de seguridad homologados, tanto en la circulación por vías urbanas como interurbanas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC arts. 117 y 119",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El art. 119 vigente (26/06/2026) solo exime: marcha atrás o estacionamiento, certificado médico, servicios de urgencia en poblado, pasajeros de ambulancias asistenciales y menores en taxis urbanos. El manual DGT 2024 aún cita repartidores, taxistas y profesores de autoescuela."
+    },
+    {
+      "id": "xe-0091",
+      "tema": "seguridad_pasiva",
+      "subtema": "casco_bicicleta",
+      "materia": 15,
+      "enunciado": "Un repartidor de 30 años trabaja en bicicleta por una vía urbana. ¿Debe llevar casco?",
+      "opciones": {
+        "a": "Sí, por desarrollar su actividad profesional en bicicleta.",
+        "b": "No; en vías urbanas solo lo deben llevar los menores de 16 años.",
+        "c": "Solo si la bicicleta tiene pedaleo asistido."
+      },
+      "correcta": "a",
+      "explicacion": "Los conductores que desarrollan su actividad profesional en bicicletas y demás ciclos deben usar casco homologado o certificado, bien abrochado, también en vías urbanas y travesías.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.2",
+        "cita": "Los conductores que desarrollen su actividad profesional circulando en bicicletas y demás ciclos, están obligados a utilizar adecuadamente abrochado casco de protección homologado o certificado en vías urbanas y travesías.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 118",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0092",
+      "tema": "seguridad_pasiva",
+      "subtema": "chaleco",
+      "materia": 15,
+      "enunciado": "Un repartidor trabaja con un ciclomotor por ciudad. ¿Debe llevar chaleco reflectante de alta visibilidad?",
+      "opciones": {
+        "a": "No; solo cuando se baje del vehículo en vías interurbanas.",
+        "b": "Sí, en todo tipo de vías, por circular en él profesionalmente.",
+        "c": "Solo entre la puesta y la salida del sol."
+      },
+      "correcta": "b",
+      "explicacion": "Los conductores que desarrollan su actividad profesional en motocicletas, ciclomotores, bicicletas o vehículos de movilidad personal deben usar chaleco reflectante de alta visibilidad en todo tipo de vías.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.4",
+        "cita": "Los conductores que desarrollen su actividad profesional circulando en los vehículos mencionados en los apartados 1, 2 y 3, deberán utilizar un chaleco reflectante de alta visibilidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 118",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0094",
+      "tema": "seguridad_activa",
+      "subtema": "activa_pasiva",
+      "materia": 15,
+      "enunciado": "¿Cuál de estos elementos es de seguridad activa?",
+      "opciones": {
+        "a": "Los frenos.",
+        "b": "El airbag.",
+        "c": "El cinturón de seguridad."
+      },
+      "correcta": "a",
+      "explicacion": "Los elementos de seguridad activa, como frenos, ruedas y luces, están pensados para evitar accidentes; el cinturón y el airbag son de seguridad pasiva.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Seguridad activa (p. 88)",
+        "cita": "Elementos del vehículo pensados para evitar accidentes. El conductor tiene que utilizarlos para que funcionen. Por ejemplo, frenos, ruedas y sistema de luces.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0095",
+      "tema": "seguridad_activa",
+      "subtema": "activa_pasiva",
+      "materia": 15,
+      "enunciado": "Según el manual de la DGT, ¿por qué los vehículos nuevos, con más sistemas de seguridad, no tienen menos accidentes que los viejos?",
+      "opciones": {
+        "a": "Porque esos sistemas fallan con más frecuencia que los antiguos elementos de seguridad.",
+        "b": "Porque muchos conductores no saben cómo funcionan y otros confían demasiado en ellos.",
+        "c": "Porque los vehículos nuevos son más rápidos y difíciles de conducir que los viejos."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, los vehículos nuevos tienen tantos accidentes como los viejos porque pocos conductores saben cómo funcionan sus sistemas de seguridad y muchos corren más riesgos al confiar demasiado en ellos.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, La importancia del vehículo en los accidentes de tráfico (p. 87)",
+        "cita": "Los conductores corren más riesgos porque confían demasiado en los sistemas de seguridad de su vehículo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0096",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon",
+      "materia": 15,
+      "enunciado": "Según el manual de la DGT, llevar bien puesto el cinturón de seguridad, ¿cómo influye en las posibilidades de sobrevivir a un accidente?",
+      "opciones": {
+        "a": "No influye si el vehículo tiene airbag.",
+        "b": "Solo las aumenta en ciudad.",
+        "c": "Las duplica."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, llevar el cinturón de seguridad bien puesto da el doble de posibilidades de sobrevivir a un accidente.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, El cinturón de seguridad (p. 107)",
+        "cita": "Llevar el cinturón de seguridad bien puesto hace que una persona tenga el doble de posibilidades de sobrevivir a un accidente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0097",
+      "tema": "seguridad_pasiva",
+      "subtema": "cinturon",
+      "materia": 15,
+      "enunciado": "Para evitar el efecto submarino, ¿qué recomienda el manual de la DGT?",
+      "opciones": {
+        "a": "No poner toallas, cojines o fundas que hagan resbalar en el asiento.",
+        "b": "Inclinar bien el respaldo hacia atrás para ir más cómodo.",
+        "c": "Llevar la banda abdominal por encima del estómago."
+      },
+      "correcta": "a",
+      "explicacion": "Para evitar el efecto submarino hay que abrocharse y ajustar bien el cinturón, no inclinar mucho el asiento y no colocar toallas, cojines o fundas que puedan hacer resbalar sobre el asiento.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, El efecto submarino (p. 114)",
+        "cita": "No colocar toallas, cojines o fundas sobre el asiento que puedan hacer que resbale.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0098",
+      "tema": "seguridad_pasiva",
+      "subtema": "airbag",
+      "materia": 15,
+      "enunciado": "Por el airbag delantero, ¿a qué distancia mínima del volante aconseja el manual de la DGT colocar el pecho?",
+      "opciones": {
+        "a": "5 centímetros.",
+        "b": "25 centímetros.",
+        "c": "1 metro."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, el pecho debe quedar a al menos 25 centímetros del volante para que el airbag delantero no golpee al conductor al inflarse.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Los airbags (p. 115)",
+        "cita": "Coloca tu pecho a una distancia de al menos 25 centímetros del volante para que el airbag delantero no te golpee cuando se infla.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0099",
+      "tema": "seguridad_pasiva",
+      "subtema": "airbag",
+      "materia": 15,
+      "enunciado": "Según el manual de la DGT, ¿cuál de estas es una función del airbag?",
+      "opciones": {
+        "a": "Evitar que las ruedas se bloqueen en una frenada brusca.",
+        "b": "Impedir que el vehículo vuelque al tomar una curva.",
+        "c": "Proteger la cara y los ojos de cristales rotos y otros objetos."
+      },
+      "correcta": "c",
+      "explicacion": "Las funciones del airbag son frenar el movimiento brusco del cuerpo, evitar choques violentos contra el vehículo y proteger la cara y los ojos de cristales y otros elementos que se desprenden.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Los airbags (p. 115)",
+        "cita": "Proteger la cara y los ojos de las personas de cristales rotos y otros elementos que se desprenden a causa del accidente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0100",
+      "tema": "seguridad_pasiva",
+      "subtema": "sri",
+      "materia": 15,
+      "enunciado": "Según el manual de la DGT, ¿en qué asiento va más protegido un niño en su sillita?",
+      "opciones": {
+        "a": "En el trasero central.",
+        "b": "En el delantero del acompañante.",
+        "c": "En el trasero, detrás del conductor."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, la sillita en el asiento trasero central protege más al niño, porque queda resguardado si el golpe llega por cualquiera de los dos lados.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Cinturones de seguridad para niños (p. 110)",
+        "cita": "Colocar la sillita en el asiento trasero central. Así irá más protegido en caso de que haya un accidente por cualquiera de los dos lados.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0101",
+      "tema": "seguridad_pasiva",
+      "subtema": "sri",
+      "materia": 15,
+      "enunciado": "Según el manual de la DGT, ¿en qué sentido es más seguro colocar la sillita de un niño pequeño?",
+      "opciones": {
+        "a": "En el sentido de la marcha, mirando hacia delante.",
+        "b": "En sentido contrario a la marcha, mirando hacia atrás.",
+        "c": "De lado, perpendicular al sentido de la marcha."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, para los niños pequeños es más seguro colocar la sillita en sentido contrario a la marcha, mirando hacia atrás.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Cinturones de seguridad para niños (p. 110)",
+        "cita": "Para los niños pequeños, colocar la sillita en el sentido contrario a la marcha del vehículo. Es decir, mirando hacia atrás. Es más seguro.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0102",
+      "tema": "seguridad_pasiva",
+      "subtema": "reposacabezas",
+      "materia": 15,
+      "enunciado": "¿En qué asientos es importante colocar el reposacabezas a la altura de la cabeza?",
+      "opciones": {
+        "a": "Solo en el del conductor.",
+        "b": "Solo en los delanteros.",
+        "c": "En los delanteros y en los traseros."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, el reposacabezas debe colocarse a la altura de la cabeza de los ocupantes tanto en los asientos delanteros como en los traseros.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, El reposacabezas (p. 116)",
+        "cita": "Es muy importante colocar el reposacabezas a la altura de la cabeza de los pasajeros del vehículo, tanto en los asientos de delante como en los de atrás.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0103",
+      "tema": "seguridad_pasiva",
+      "subtema": "casco",
+      "materia": 15,
+      "enunciado": "Según el manual de la DGT, ¿qué puede hacer que un casco pierda propiedades?",
+      "opciones": {
+        "a": "Pintarlo o ponerle pegatinas.",
+        "b": "Guardarlo en un lugar seco.",
+        "c": "Limpiar la pantalla con agua."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, algunos cascos caducan a los pocos años y pueden perder propiedades si se pintan o se les colocan pegatinas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, El casco (p. 118)",
+        "cita": "Algunos cascos caducan a los pocos años y pueden perder propiedades si se pintan o se colocan pegatinas en ellos.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0104",
+      "tema": "seguridad_pasiva",
+      "subtema": "casco",
+      "materia": 15,
+      "enunciado": "¿Qué tipo de casco de moto recomienda el manual de la DGT?",
+      "opciones": {
+        "a": "El abierto, porque deja ver más a los lados.",
+        "b": "El integral, que protege también la mandíbula.",
+        "c": "El más ligero, aunque no cubra la cara."
+      },
+      "correcta": "b",
+      "explicacion": "El manual de la DGT recomienda el casco de modelo integral, que protege también la parte de debajo de la cara y la mandíbula.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, El casco (p. 118)",
+        "cita": "Modelo integral. Es decir, que proteja también la parte de debajo de la cara y la mandíbula.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0105",
+      "tema": "seguridad_pasiva",
+      "subtema": "casco",
+      "materia": 15,
+      "enunciado": "En un accidente, ¿cómo ayuda el casco a evitar lesiones graves en la cabeza?",
+      "opciones": {
+        "a": "Concentra el golpe en la parte más dura de la cabeza.",
+        "b": "Impide que el motorista salga despedido.",
+        "c": "Reparte la fuerza del golpe por todo el casco."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, el casco reparte la fuerza del golpe por toda su superficie para que no se concentre en un solo punto de la cabeza.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, El casco (p. 117)",
+        "cita": "Reparte la fuerza del golpe por todo el casco para que no se concentre solo en un punto de la cabeza.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0108",
+      "tema": "seguridad_activa",
+      "subtema": "adas",
+      "materia": 15,
+      "enunciado": "Activa el limitador de velocidad a 50 km/h. ¿Qué ocurre?",
+      "opciones": {
+        "a": "El vehículo mantendrá 50 km/h sin pisar el acelerador.",
+        "b": "El vehículo frenará solo si se acerca al de delante.",
+        "c": "El vehículo no pasará de 50 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Con el limitador de velocidad activado, el vehículo no pasa de la velocidad máxima elegida por el conductor; mantener una velocidad sin pisar los pedales es función del regulador.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Limitadores de velocidad (p. 105)",
+        "cita": "Al activar el limitador de velocidad, el vehículo no pasará de la velocidad elegida por el conductor.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0109",
+      "tema": "seguridad_activa",
+      "subtema": "adas",
+      "materia": 15,
+      "enunciado": "Circula con el regulador de velocidad activado y pisa el freno. Según el manual de la DGT, ¿qué ocurre?",
+      "opciones": {
+        "a": "El regulador se desactiva.",
+        "b": "El regulador mantiene la velocidad elegida.",
+        "c": "El regulador acelera para compensar."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, el regulador de velocidad se activa desde el volante y se desactiva cuando el conductor acelera o frena; luego hay que volver a elegir la velocidad y activarlo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Regulador de velocidad (p. 105)",
+        "cita": "Este sistema se activa desde el volante. Se desactiva cuando aceleras o frenas.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0110",
+      "tema": "seguridad_activa",
+      "subtema": "adas",
+      "materia": 15,
+      "enunciado": "¿Qué añade el regulador de velocidad adaptativo al regulador normal?",
+      "opciones": {
+        "a": "Impide superar una velocidad máxima elegida.",
+        "b": "Ayuda a mantener la distancia con el vehículo de delante.",
+        "c": "Lee las señales de velocidad y las muestra en el cuadro."
+      },
+      "correcta": "b",
+      "explicacion": "El regulador de velocidad adaptativo, además de controlar la velocidad, ayuda a mantener la distancia con el vehículo de delante, reduciendo la velocidad o frenando si se acerca demasiado.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Regulador de velocidad adaptativo (p. 105)",
+        "cita": "Además de ayudar a controlar la velocidad, este sistema te ayuda a mantener la distancia con el vehículo de delante.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0111",
+      "tema": "seguridad_activa",
+      "subtema": "adas",
+      "materia": 15,
+      "enunciado": "Según el manual de la DGT, ¿cuándo se encienden las luces de carretera automáticas?",
+      "opciones": {
+        "a": "Siempre que se circula de noche, a cualquier velocidad.",
+        "b": "Solo cuando el conductor hace ráfagas con la palanca.",
+        "c": "Con poca luz, a más de 45 km/h y sin otro vehículo cerca."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, las luces de carretera automáticas se encienden con poca luz exterior si el vehículo va a más de 45 km/h y no detecta otro vehículo cerca, y se apagan al detectar uno que viene de frente.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Luces adaptativas (p. 92)",
+        "cita": "Para que estas luces se enciendan tu vehículo tiene que ir a una velocidad mayor de 45 kilómetros por hora y no tiene que detectar otro vehículo cerca.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0112",
+      "tema": "seguridad_activa",
+      "subtema": "adas",
+      "materia": 15,
+      "enunciado": "¿Cuándo se encienden las luces angulares de un vehículo?",
+      "opciones": {
+        "a": "Al girar el volante, iluminando el lado hacia el que se gira.",
+        "b": "Al frenar con fuerza, para avisar al vehículo de detrás.",
+        "c": "Al engranar la marcha atrás, para ver los obstáculos."
+      },
+      "correcta": "a",
+      "explicacion": "Las luces angulares se encienden al girar el volante para marcar el lado hacia el que gira el vehículo; ayudan a ver mejor en las curvas e indican la trayectoria en las rotondas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 5, Luces adaptativas (p. 91)",
+        "cita": "Se encienden cuando giras el volante para marcar el lado hacia el que va a girar tu vehículo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 5",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0113",
+      "tema": "seguridad_activa",
+      "subtema": "adas",
+      "materia": 15,
+      "enunciado": "Usa un asistente de aparcamiento que gira el volante sin su ayuda. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Nada: el sistema es el único responsable de la maniobra.",
+        "b": "Prestar mucha atención; puede parar la maniobra en cualquier momento.",
+        "c": "Soltar los mandos y mirar solo la pantalla central."
+      },
+      "correcta": "b",
+      "explicacion": "Con un asistente de aparcamiento el conductor debe prestar mucha atención para asegurar que los movimientos se hacen de forma segura, y puede parar la maniobra en cualquier momento.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 6, Asistente de aparcamiento (p. 137)",
+        "cita": "El conductor debe prestar mucha atención para asegurar que esos movimientos se pueden hacer de forma segura y puede parar la maniobra en cualquier momento.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 6",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0114",
+      "tema": "seguridad_activa",
+      "subtema": "adas",
+      "materia": 15,
+      "enunciado": "¿Qué hace el sistema detector de peatones si el conductor no reacciona a su aviso?",
+      "opciones": {
+        "a": "Toca el claxon para avisar al peatón.",
+        "b": "Enciende las luces de emergencia sin frenar.",
+        "c": "Activa los frenos y para el vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "El detector de peatones detecta a un peatón delante del vehículo y avisa al conductor; si este no responde, el sistema activa los frenos y para el vehículo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Los peatones (p. 400)",
+        "cita": "Avisa al conductor y, si no responde, el sistema activa los frenos y para el vehículo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0115",
+      "tema": "seguridad_activa",
+      "subtema": "adas",
+      "materia": 15,
+      "enunciado": "Según el manual de la DGT, algunos detectores de ángulo muerto solo avisan en un caso. ¿Cuál?",
+      "opciones": {
+        "a": "Al poner el intermitente con un vehículo en el ángulo muerto.",
+        "b": "Al circular marcha atrás para salir de un aparcamiento.",
+        "c": "Al superar el límite de velocidad de la vía."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, unos detectores de ángulo muerto avisan siempre que hay un vehículo en esa zona y otros solo si se activa el intermitente para cambiar de carril con un vehículo en el ángulo muerto.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Detector de ángulos muertos (BSM) (p. 444)",
+        "cita": "Otros detectores solo se encienden si activas la luz intermitente para cambiar de carril y hay otro vehículo en el ángulo muerto.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0116",
+      "tema": "conduccion_eficiente",
+      "subtema": "beneficios",
+      "materia": 16,
+      "enunciado": "¿Por qué la conducción eficiente hace que los pasajeros viajen más cómodos?",
+      "opciones": {
+        "a": "Porque se circula siempre en marchas cortas, con el motor revolucionado.",
+        "b": "Porque se evitan las frenadas bruscas y los grandes cambios de velocidad.",
+        "c": "Porque se usa más el aire acondicionado y se cierran las ventanillas."
+      },
+      "correcta": "b",
+      "explicacion": "La conducción eficiente hace que los pasajeros viajen más cómodos porque evita las frenadas bruscas y los grandes cambios de velocidad.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Conducción eficiente (p. 449)",
+        "cita": "Conseguir que los pasajeros viajen más cómodos porque se evitan las frenadas bruscas y no hay grandes cambios de velocidad.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0118",
+      "tema": "conduccion_eficiente",
+      "subtema": "arranque",
+      "materia": 16,
+      "enunciado": "Tras arrancar el motor en frío, ¿cuándo conviene empezar a circular?",
+      "opciones": {
+        "a": "Justo después de encender el motor.",
+        "b": "Tras dejarlo varios minutos al ralentí para calentarlo.",
+        "c": "Cuando la temperatura del motor llegue a su valor normal."
+      },
+      "correcta": "a",
+      "explicacion": "En conducción eficiente se empieza a circular justo después de encender el motor, a poca velocidad, y se aumenta cuando el motor se calienta.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 452)",
+        "cita": "Empezar a circular con el vehículo justo después de encender el motor.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0119",
+      "tema": "conduccion_eficiente",
+      "subtema": "arranque",
+      "materia": 16,
+      "enunciado": "¿Qué ocurre si se circula a mucha velocidad con el motor todavía frío?",
+      "opciones": {
+        "a": "El motor se calienta antes y consume menos.",
+        "b": "Se gasta más combustible y el motor se desgasta antes.",
+        "c": "Nada, en los vehículos modernos no tiene efecto."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, circular a mucha velocidad con el motor frío hace que se gaste más combustible y que el motor se desgaste antes.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 452)",
+        "cita": "Circular a mucha velocidad con el motor frío hace que se gaste más combustible y que el motor se desgaste antes.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0121",
+      "tema": "conduccion_eficiente",
+      "subtema": "marchas",
+      "materia": 16,
+      "enunciado": "Circula por ciudad. Según la conducción eficiente, ¿qué marcha conviene usar?",
+      "opciones": {
+        "a": "La más larga posible, respetando los límites de velocidad.",
+        "b": "La más corta posible, para tener siempre más fuerza.",
+        "c": "La segunda en todo momento, para frenar con el motor."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, dentro de la ciudad hay que intentar usar la marcha más larga posible, respetando siempre los límites de velocidad.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 453)",
+        "cita": "Dentro de la ciudad hay que intentar usar la marcha más larga posible, respetando siempre los límites de velocidad.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0122",
+      "tema": "conduccion_eficiente",
+      "subtema": "velocidad",
+      "materia": 16,
+      "enunciado": "Según el manual de la DGT, ¿a partir de qué velocidad aproximada aumentan mucho el consumo y la contaminación?",
+      "opciones": {
+        "a": "A partir de 50 km/h.",
+        "b": "A partir de 80 o 90 km/h.",
+        "c": "A partir de 120 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, a partir de los 80 o 90 km/h el vehículo consume mucho más combustible y contamina más.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Al elegir la velocidad a la que circulas (p. 454)",
+        "cita": "A partir de los 80 o 90 kilómetros por hora, el vehículo consume mucho más combustible y contamina más.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0123",
+      "tema": "conduccion_eficiente",
+      "subtema": "velocidad",
+      "materia": 16,
+      "enunciado": "¿Qué forma de circular favorece la conducción eficiente?",
+      "opciones": {
+        "a": "Acelerando fuerte y luego dejando rodar en punto muerto.",
+        "b": "Cambiando a menudo de velocidad para no cansar el motor.",
+        "c": "A velocidad constante, sin frenadas ni acelerones bruscos."
+      },
+      "correcta": "c",
+      "explicacion": "La conducción eficiente pide viajar a una velocidad constante, evitando frenadas y acelerones bruscos; cambiar mucho de velocidad aumenta el consumo y cansa más al conductor.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Al elegir la velocidad a la que circulas (p. 454)",
+        "cita": "Se debe viajar a una velocidad constante, que no cambie todo el rato y evitando las frenadas y acelerones bruscos.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0124",
+      "tema": "conduccion_eficiente",
+      "subtema": "deceleracion",
+      "materia": 16,
+      "enunciado": "Para reducir la velocidad de forma eficiente, ¿qué debe hacer primero?",
+      "opciones": {
+        "a": "Levantar el pie del acelerador y dejar rodar el vehículo.",
+        "b": "Pisar el embrague y dejar el vehículo en punto muerto.",
+        "c": "Frenar con fuerza en el último momento."
+      },
+      "correcta": "a",
+      "explicacion": "En conducción eficiente, para reducir la velocidad se levanta el pie del acelerador, se deja rodar el vehículo y se usa el freno de forma suave.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Al reducir la velocidad y parar el vehículo (p. 454)",
+        "cita": "Levantar el pie del acelerador y dejar rodar el vehículo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0125",
+      "tema": "conduccion_eficiente",
+      "subtema": "resistencia_aire",
+      "materia": 16,
+      "enunciado": "Según el manual de la DGT, ¿en qué se emplea la mayor parte del combustible que consume un vehículo?",
+      "opciones": {
+        "a": "En hacer funcionar el aire acondicionado.",
+        "b": "En luchar contra el aire que no le deja avanzar.",
+        "c": "En mantener encendidas las luces."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, la mayor parte del combustible se emplea en luchar contra el aire que no deja avanzar al vehículo; por eso la baca o los deflectores aumentan el consumo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, El aire de la calle (p. 455)",
+        "cita": "La mayor parte del combustible que se consume se emplea en luchar contra el aire que no deja avanzar al vehículo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0126",
+      "tema": "conduccion_eficiente",
+      "subtema": "resistencia_aire",
+      "materia": 16,
+      "enunciado": "Para no aumentar el consumo por la resistencia del aire, ¿qué recomienda el manual de la DGT sobre las ventanillas?",
+      "opciones": {
+        "a": "Llevarlas bajadas en carretera.",
+        "b": "Bajarlas solo en autopista.",
+        "c": "No bajarlas mientras se circula."
+      },
+      "correcta": "c",
+      "explicacion": "Entre las medidas para que el aire no aumente el consumo, el manual de la DGT recomienda no bajar las ventanillas mientras se circula y no instalar baca sin necesidad.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, El aire de la calle (p. 456)",
+        "cita": "No bajar las ventanillas del vehículo mientras está circulando.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0127",
+      "tema": "conduccion_eficiente",
+      "subtema": "resistencia_aire",
+      "materia": 16,
+      "enunciado": "Arrastrar un remolque más ancho o más alto que el turismo, ¿cómo influye en el consumo?",
+      "opciones": {
+        "a": "Lo aumenta.",
+        "b": "No influye si va vacío.",
+        "c": "Lo reduce, porque el remolque corta el aire."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, arrastrar un remolque o caravana aumenta el consumo por la resistencia del aire, sobre todo si es más ancho o más alto que el vehículo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, El aire de la calle (p. 456)",
+        "cita": "No arrastrar un remolque o caravana. Sobre todo si el remolque o caravana es más ancho o más alto que el vehículo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0128",
+      "tema": "conduccion_eficiente",
+      "subtema": "mantenimiento",
+      "materia": 16,
+      "enunciado": "Un motor con el ralentí muy alto, ¿qué efecto tiene en el consumo?",
+      "opciones": {
+        "a": "Gasta menos combustible.",
+        "b": "Gasta más combustible.",
+        "c": "No influye en el consumo."
+      },
+      "correcta": "b",
+      "explicacion": "El ralentí es el funcionamiento del motor sin pisar el acelerador; según el manual de la DGT, un ralentí muy alto hace que se gaste más combustible.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, No hacer las revisiones al vehículo (p. 458)",
+        "cita": "Un ralentí muy alto hará que se gaste más combustible.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0129",
+      "tema": "conduccion_eficiente",
+      "subtema": "ciudad",
+      "materia": 16,
+      "enunciado": "Para ahorrar combustible en ciudad, ¿qué aconseja el manual de la DGT?",
+      "opciones": {
+        "a": "Elegir siempre el camino más corto, aunque esté atascado.",
+        "b": "Circular en las horas de más tráfico, cuando se va más despacio.",
+        "c": "No usar el vehículo para distancias cortas."
+      },
+      "correcta": "c",
+      "explicacion": "Para ahorrar combustible en ciudad, el manual de la DGT aconseja no usar el vehículo en distancias cortas, usar el transporte público, evitar las horas de más tráfico y elegir el camino con menos vehículos aunque sea más largo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Circular dentro de pueblos o ciudades (p. 459)",
+        "cita": "No usar el vehículo para distancias cortas. ■ Utilizar el transporte público.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0130",
+      "tema": "conduccion_eficiente",
+      "subtema": "consumo",
+      "materia": 16,
+      "enunciado": "¿Influye en el consumo el uso del aire acondicionado?",
+      "opciones": {
+        "a": "Sí, se gasta más combustible.",
+        "b": "No, solo consume batería.",
+        "c": "Solo cuando el motor está frío."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, al usar el aire acondicionado en el vehículo se gasta más combustible.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Usar el aire acondicionado (p. 460)",
+        "cita": "Al usar el aire acondicionado en el vehículo se gasta más combustible.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0131",
+      "tema": "conduccion_eficiente",
+      "subtema": "falsos_ahorros",
+      "materia": 16,
+      "enunciado": "¿Es una buena técnica de ahorro bajar las cuestas en punto muerto?",
+      "opciones": {
+        "a": "Sí, porque en punto muerto el motor no consume nada.",
+        "b": "No; se puede perder estabilidad y hay que usar demasiado los frenos.",
+        "c": "Sí, siempre que la cuesta sea corta y recta."
+      },
+      "correcta": "b",
+      "explicacion": "Según el manual de la DGT, bajar las cuestas en punto muerto es una falsa medida de ahorro: el vehículo puede perder estabilidad y hay que usar demasiado los frenos.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Medidas para ahorrar combustible que son falsas (p. 461)",
+        "cita": "Bajar las cuestas en punto muerto. El vehículo puede perder la estabilidad y habrá que usar demasiado los frenos.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0133",
+      "tema": "conduccion_eficiente",
+      "subtema": "tecnologia",
+      "materia": 16,
+      "enunciado": "¿Qué hace el modo Eco de un vehículo?",
+      "opciones": {
+        "a": "Reduce la potencia y la velocidad del motor para ahorrar combustible.",
+        "b": "Apaga el motor de forma automática en los semáforos.",
+        "c": "Recarga la batería cada vez que se frena."
+      },
+      "correcta": "a",
+      "explicacion": "El modo Eco pone el motor a menos potencia y velocidad para ahorrar combustible, y se enciende y apaga de forma manual; parar el motor en los semáforos es función del sistema Start-Stop.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Modo Eco (p. 462)",
+        "cita": "Este sistema da la oportunidad de poner el motor a menos potencia y velocidad para ahorrar combustible.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0134",
+      "tema": "medio_ambiente",
+      "subtema": "contaminacion",
+      "materia": 16,
+      "enunciado": "Para no contaminar, ¿dónde debe lavar su vehículo?",
+      "opciones": {
+        "a": "En el arcén, lejos de las casas.",
+        "b": "En los lugares preparados para hacerlo.",
+        "c": "En cualquier calle, si usa poco jabón."
+      },
+      "correcta": "b",
+      "explicacion": "Entre las medidas para contaminar menos, el manual de la DGT indica no lavar el vehículo en la carretera, sino en los lugares preparados para hacerlo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, La contaminación (p. 451)",
+        "cita": "No lavar el vehículo en la carretera. Se debe lavar en los lugares preparados para hacerlo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0135",
+      "tema": "medio_ambiente",
+      "subtema": "contaminacion",
+      "materia": 16,
+      "enunciado": "Se ha agotado la batería. ¿Por qué no conviene arrancar el motor empujando el vehículo?",
+      "opciones": {
+        "a": "Porque se descarga todavía más la batería y ya no se puede recargar.",
+        "b": "Porque se rompen las bujías al girar el motor sin corriente eléctrica.",
+        "c": "Porque el combustible sin quemar puede llegar al catalizador y destruirlo."
+      },
+      "correcta": "c",
+      "explicacion": "Según el manual de la DGT, cuando se agota la batería no hay que arrancar empujando el vehículo, porque el combustible no quemado puede llegar al catalizador y destruirlo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, La contaminación (p. 451)",
+        "cita": "Cuando se agota la batería del vehículo no hay que intentar arrancar el motor empujando el vehículo. El combustible que no se ha quemado puede llegar al catalizador y destruirlo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0136",
+      "tema": "medio_ambiente",
+      "subtema": "contaminacion",
+      "materia": 16,
+      "enunciado": "Al rellenar el aceite del motor se derrama un poco al suelo. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Recogerlo, porque es muy contaminante.",
+        "b": "Dejarlo, porque se evapora solo.",
+        "c": "Echarle agua para diluirlo."
+      },
+      "correcta": "a",
+      "explicacion": "Según el manual de la DGT, hay que evitar que el aceite caiga al suelo porque es muy contaminante y, si cae al rellenar, hay que recogerlo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 15, Sistema de lubricación (p. 376)",
+        "cita": "Hay que evitar que el aceita caiga al suelo porque es muy contaminante. Si cae aceite mientras rellenas el vehículo, debes recogerlo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0137",
+      "tema": "medio_ambiente",
+      "subtema": "emisiones",
+      "materia": 16,
+      "enunciado": "Un agente le pide que colabore en una prueba para comprobar el ruido y los gases que emite su vehículo. ¿Está obligado?",
+      "opciones": {
+        "a": "No; esas comprobaciones solo se hacen en la ITV.",
+        "b": "Sí; todos los conductores deben colaborar en esas pruebas.",
+        "c": "Solo si su vehículo es diésel."
+      },
+      "correcta": "b",
+      "explicacion": "Todos los conductores están obligados a colaborar en las pruebas de detección que permiten comprobar si el vehículo supera los límites de ruido, gases, humos o perturbaciones electromagnéticas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "7.1",
+        "cita": "Todos los conductores de vehículos quedan obligados a colaborar en las pruebas de detección que permitan comprobar las posibles deficiencias indicadas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 7",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0138",
+      "tema": "medio_ambiente",
+      "subtema": "emisiones",
+      "materia": 16,
+      "enunciado": "Su vehículo supera los niveles de gases, humos y ruidos permitidos. ¿Qué pueden hacer los agentes?",
+      "opciones": {
+        "a": "Solo anotar la matrícula para la próxima ITV.",
+        "b": "Nada, porque no es una infracción de tráfico.",
+        "c": "Inmovilizar el vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "Los agentes de la autoridad pueden inmovilizar el vehículo que supere los niveles de gases, humos y ruidos permitidos para su tipo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "7.2",
+        "cita": "Los agentes de la autoridad podrán inmovilizar el vehículo en el caso de que supere los niveles de gases, humos y ruidos permitidos reglamentariamente",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 7",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0141",
+      "tema": "distintivos_ambientales",
+      "subtema": "clasificacion",
+      "materia": 16,
+      "enunciado": "Un turismo diésel clasificado como Euro 6, ¿qué distintivo ambiental obtiene?",
+      "opciones": {
+        "a": "B.",
+        "b": "ECO.",
+        "c": "C."
+      },
+      "correcta": "c",
+      "explicacion": "Los turismos y vehículos N1 de gasolina Euro 4, 5 o 6 y los diésel Euro 6 tienen la clasificación ambiental C.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.E.2.c",
+        "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II.E",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0142",
+      "tema": "distintivos_ambientales",
+      "subtema": "clasificacion",
+      "materia": 16,
+      "enunciado": "Un turismo de gasolina clasificado como Euro 3, ¿qué distintivo ambiental obtiene?",
+      "opciones": {
+        "a": "B.",
+        "b": "C.",
+        "c": "Ninguno."
+      },
+      "correcta": "a",
+      "explicacion": "Los turismos y vehículos N1 de gasolina Euro 3 y los diésel Euro 4 o Euro 5 tienen la clasificación ambiental B.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.E.2.d",
+        "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II.E",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0143",
+      "tema": "distintivos_ambientales",
+      "subtema": "clasificacion",
+      "materia": 16,
+      "enunciado": "Un turismo diésel clasificado como Euro 3, ¿qué distintivo ambiental puede llevar?",
+      "opciones": {
+        "a": "El distintivo B, de fondo amarillo.",
+        "b": "Ninguno: es de categoría A, que no tiene distintivo.",
+        "c": "El distintivo C, de fondo verde."
+      },
+      "correcta": "b",
+      "explicacion": "Un turismo diésel Euro 3 no cumple los requisitos de 0 emisiones, ECO, C ni B, por lo que queda en la categoría A, para la que no se crea distintivo ambiental.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.E.2.e",
+        "cita": "Todo vehículo a motor que por su clasificación en el Registro de Vehículos no cumple las condiciones o requisitos para la obtención de la clasificación 0 emisiones, ECO, C o B.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II.E",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "RGV anexo XI, V-25.1: «No se crea distintivo para la categoría A». En turismos, el diésel solo es B desde Euro 4."
+    },
+    {
+      "id": "xe-0144",
+      "tema": "distintivos_ambientales",
+      "subtema": "clasificacion",
+      "materia": 16,
+      "enunciado": "Un turismo híbrido enchufable con 30 km de autonomía eléctrica (ciclo NEDC), ¿qué distintivo ambiental obtiene?",
+      "opciones": {
+        "a": "0 emisiones.",
+        "b": "C.",
+        "c": "ECO."
+      },
+      "correcta": "c",
+      "explicacion": "Los turismos híbridos enchufables con autonomía inferior a 40 km (ciclo NEDC) tienen la clasificación ECO; con 40 km o más obtienen la de 0 emisiones.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.E.2.b",
+        "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II.E",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0146",
+      "tema": "distintivos_ambientales",
+      "subtema": "clasificacion",
+      "materia": 16,
+      "enunciado": "Una motocicleta clasificada como Euro 3, ¿qué distintivo ambiental obtiene?",
+      "opciones": {
+        "a": "B.",
+        "b": "C.",
+        "c": "ECO."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos de categoría L (motocicletas, ciclomotores) clasificados como Euro 4 o Euro 3 tienen la clasificación C; los Euro 2 tienen la B.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.E.2.c",
+        "cita": "Vehículos L clasificados en el Registro de Vehículos como Euro 4 y Euro 3.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II.E",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0147",
+      "tema": "distintivos_ambientales",
+      "subtema": "clasificacion",
+      "materia": 16,
+      "enunciado": "Un turismo con motor de combustión de hidrógeno (HICEV), ¿qué distintivo ambiental obtiene?",
+      "opciones": {
+        "a": "ECO.",
+        "b": "C.",
+        "c": "0 emisiones."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos eléctricos de batería, de autonomía extendida, de hidrógeno, de pila de combustible y los híbridos enchufables con al menos 40 km de autonomía tienen la clasificación 0 emisiones.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.E.2.a",
+        "cita": "vehículos eléctricos de batería (BEV), vehículo eléctrico de autonomía extendida (REEV), vehículo de hidrógeno (HICEV)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II.E",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0148",
+      "tema": "distintivos_ambientales",
+      "subtema": "distintivo",
+      "materia": 16,
+      "enunciado": "¿De qué color es el fondo del distintivo ambiental B?",
+      "opciones": {
+        "a": "Amarillo.",
+        "b": "Verde.",
+        "c": "Azul."
+      },
+      "correcta": "a",
+      "explicacion": "El distintivo ambiental B tiene fondo amarillo; el C, verde; el ECO, verde y azul; y el 0 emisiones, azul.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-25.5.d",
+        "cita": "Se utilizará por los vehículos clasificados como “B”. Se identifica con el siguiente adhesivo, que tiene fondo de color amarillo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XI, V-25",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0149",
+      "tema": "distintivos_ambientales",
+      "subtema": "distintivo",
+      "materia": 16,
+      "enunciado": "¿Qué distintivo ambiental tiene el fondo de color verde y azul?",
+      "opciones": {
+        "a": "C.",
+        "b": "ECO.",
+        "c": "0 emisiones."
+      },
+      "correcta": "b",
+      "explicacion": "El distintivo ambiental ECO tiene fondo verde y azul; el 0 emisiones es azul, el C verde y el B amarillo.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-25.5.b",
+        "cita": "Se utilizará por los vehículos clasificados como “ECO”. Se identifica con el siguiente adhesivo, que tiene fondo de color verde y azul",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XI, V-25",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0150",
+      "tema": "distintivos_ambientales",
+      "subtema": "distintivo",
+      "materia": 16,
+      "enunciado": "Una motocicleta, que no tiene parabrisas, debe llevar el distintivo ambiental. ¿Dónde se coloca?",
+      "opciones": {
+        "a": "Debajo del asiento.",
+        "b": "En el casco del conductor.",
+        "c": "En un sitio bien visible."
+      },
+      "correcta": "c",
+      "explicacion": "En los vehículos sin parabrisas, el distintivo ambiental se coloca en un sitio bien visible; en los que tienen parabrisas, en el ángulo inferior derecho por su cara interior.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-25.3",
+        "cita": "En el caso de que el vehículo no disponga de parabrisas, el distintivo se colocará en sitio bien visible. En este supuesto, la cara sin imprimir será autoadhesiva. 4. Los distintivos ambientales son circulares",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XI, V-25",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0151",
+      "tema": "vehiculos_electricos",
+      "subtema": "definiciones",
+      "materia": 16,
+      "enunciado": "En un vehículo eléctrico, ¿qué hace el sistema de frenado regenerativo?",
+      "opciones": {
+        "a": "Carga las baterías durante las retenciones y frenadas.",
+        "b": "Impide que las ruedas se bloqueen al frenar.",
+        "c": "Enfría las baterías cuando se frena."
+      },
+      "correcta": "a",
+      "explicacion": "El frenado regenerativo de un vehículo eléctrico carga las baterías durante las retenciones y frenadas.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.A, vehículo eléctrico de baterías (BEV)",
+        "cita": "No se excluye la posibilidad de incluir, además, un sistema de frenado regenerativo que cargue las baterías durante las retenciones y frenadas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0152",
+      "tema": "vehiculos_electricos",
+      "subtema": "definiciones",
+      "materia": 16,
+      "enunciado": "¿Qué es un vehículo eléctrico de autonomía extendida (REEV)?",
+      "opciones": {
+        "a": "Un eléctrico que obtiene toda su energía de una pila de hidrógeno.",
+        "b": "Un eléctrico de baterías que incorpora además un motor de combustión interna.",
+        "c": "Un híbrido de gasolina cuyas baterías no se pueden enchufar."
+      },
+      "correcta": "b",
+      "explicacion": "El vehículo eléctrico de autonomía extendida (REEV) reúne todas las condiciones de un eléctrico de baterías e incorpora además un motor de combustión interna; tiene la clasificación 0 emisiones.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.A, vehículo eléctrico de autonomía extendida (REEV)",
+        "cita": "Vehículo eléctrico que, reuniendo todas las condiciones de un vehículo eléctrico de autonomía extendida baterías, incorpora además un motor de combustión interna.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xe-0153",
+      "tema": "vehiculos_electricos",
+      "subtema": "definiciones",
+      "materia": 16,
+      "enunciado": "¿Qué es un vehículo eléctrico híbrido (HEV)?",
+      "opciones": {
+        "a": "Un vehículo propulsado solo por motores eléctricos y baterías recargables.",
+        "b": "Un vehículo propulsado solo por gas natural comprimido o licuado.",
+        "c": "Un vehículo propulsado por una combinación de motores de combustión y eléctricos."
+      },
+      "correcta": "c",
+      "explicacion": "El vehículo eléctrico híbrido (HEV) se propulsa con una combinación de motores de combustión y eléctricos; si no es enchufable, tiene la clasificación ECO.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.A, vehículo eléctrico híbrido (HEV)",
+        "cita": "Vehículo propulsado por una combinación de motores de combustión y eléctricos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo II",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    }
+  ]
+}

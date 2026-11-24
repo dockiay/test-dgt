@@ -1,0 +1,3008 @@
+{
+  "version": 1,
+  "preguntas": [
+    {
+      "id": "xd-0001",
+      "tema": "meteorologia",
+      "subtema": "lluvia",
+      "materia": 6,
+      "enunciado": "Según la DGT, ¿por qué un vehículo necesita más espacio para frenar cuando llueve mucho?",
+      "opciones": {
+        "a": "Porque los frenos se enfrían con el agua y pierden potencia.",
+        "b": "Porque el motor retiene menos el vehículo sobre suelo mojado.",
+        "c": "Porque los neumáticos se agarran menos a la carretera."
+      },
+      "correcta": "c",
+      "explicacion": "Con lluvia intensa, los neumáticos se agarran menos a la carretera y el vehículo necesita más espacio para frenar.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con lluvia (p. 353)",
+        "cita": "Los neumáticos se agarran menos\na la carretera.\nCuando pasa esto el vehículo necesita\nmás espacio para frenar.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0002",
+      "tema": "meteorologia",
+      "subtema": "lluvia",
+      "materia": 6,
+      "enunciado": "Acaba de atravesar un gran charco. ¿Qué precaución recomienda la DGT?",
+      "opciones": {
+        "a": "Pisar a fondo el freno para secar las pastillas.",
+        "b": "Comprobar que los frenos funcionan bien.",
+        "c": "Acelerar para que el agua salga antes de las ruedas."
+      },
+      "correcta": "b",
+      "explicacion": "Después de pasar por un charco o por una zona con agua, la DGT aconseja comprobar que los frenos funcionan bien.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con lluvia (p. 354)",
+        "cita": "Comprueba que los frenos funcionan bien\ndespués de pasar por un charco.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0003",
+      "tema": "meteorologia",
+      "subtema": "lluvia",
+      "materia": 6,
+      "enunciado": "Circula con lluvia. Según la DGT, ¿cómo conviene frenar?",
+      "opciones": {
+        "a": "De forma suave, para que las ruedas tengan más tiempo de parar.",
+        "b": "Lo más tarde posible, para no ser alcanzado por detrás.",
+        "c": "Con un golpe fuerte de pedal, para detenerse en menos espacio."
+      },
+      "correcta": "a",
+      "explicacion": "Con lluvia, la DGT recomienda frenar de forma suave, mantener más distancia con el vehículo de delante y reducir la velocidad.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con lluvia (p. 354)",
+        "cita": "Frena de forma suave\npara que las ruedas\ntengan más tiempo de parar.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0004",
+      "tema": "meteorologia",
+      "subtema": "lluvia",
+      "materia": 6,
+      "enunciado": "Antes de un viaje en el que se prevé lluvia, ¿qué precaución recomienda la DGT?",
+      "opciones": {
+        "a": "Bajar la presión de los neumáticos para que agarren más.",
+        "b": "Quitar el agua del depósito del limpiaparabrisas.",
+        "c": "Revisar que los limpiaparabrisas funcionan bien."
+      },
+      "correcta": "c",
+      "explicacion": "Para conducir con lluvia, la DGT recomienda mantener los neumáticos en buen estado y revisar que los limpiaparabrisas funcionan bien.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con lluvia (p. 354)",
+        "cita": "Mantén los neumáticos en buen estado.\n■ Revisa que los limpiaparabrisas funcionan bien.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0005",
+      "tema": "meteorologia",
+      "subtema": "lluvia",
+      "materia": 6,
+      "enunciado": "Conduce una motocicleta y está lloviendo. ¿A qué debe prestar especial atención, según la DGT?",
+      "opciones": {
+        "a": "A no circular nunca por el centro del carril.",
+        "b": "A llevar encendida la luz antiniebla trasera en todo momento.",
+        "c": "A las líneas pintadas en la carretera, porque pueden resbalar."
+      },
+      "correcta": "c",
+      "explicacion": "Con lluvia, las líneas pintadas en la carretera resbalan, por lo que los motoristas deben prestarles especial atención.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con lluvia (p. 354)",
+        "cita": "Los conductores de motocicleta deben prestar\natención especial a las líneas de la carretera\ncuando llueve porque pueden resbalar en ellas.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0006",
+      "tema": "meteorologia",
+      "subtema": "aquaplaning",
+      "materia": 6,
+      "enunciado": "¿Qué es el aquaplaning?",
+      "opciones": {
+        "a": "Perder el control porque el neumático no puede echar toda el agua y patina.",
+        "b": "El empañamiento repentino del parabrisas cuando llueve y hay mucha humedad.",
+        "c": "El bloqueo de las ruedas al frenar con fuerza sobre una calzada seca."
+      },
+      "correcta": "a",
+      "explicacion": "El aquaplaning consiste en perder el control del vehículo porque el neumático no puede expulsar toda el agua que recoge de la carretera y patina.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Aquaplaning (p. 355)",
+        "cita": "Perder el control del vehículo porque\nel neumático no puede echar toda el agua\nque recoge de la carretera y patina.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0007",
+      "tema": "meteorologia",
+      "subtema": "nieve",
+      "materia": 6,
+      "enunciado": "Va a arrancar su vehículo sobre una calzada nevada. ¿Cómo recomienda la DGT colocar las ruedas delanteras?",
+      "opciones": {
+        "a": "Rectas.",
+        "b": "Giradas hacia el bordillo.",
+        "c": "Giradas hacia el centro de la calzada."
+      },
+      "correcta": "a",
+      "explicacion": "Sobre nieve, la DGT recomienda arrancar el vehículo con las ruedas rectas y con poca fuerza del motor.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con nieve (p. 356)",
+        "cita": "Las precauciones que debes tomar\npara conducir con nieve son:\n■ Arrancar el vehículo\ncon las ruedas rectas.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0008",
+      "tema": "meteorologia",
+      "subtema": "nieve",
+      "materia": 6,
+      "enunciado": "Circula sobre una calzada con nieve. ¿Cuál de estas precauciones recomienda la DGT?",
+      "opciones": {
+        "a": "Circular por el centro de la calzada, donde hay menos nieve.",
+        "b": "No hacer movimientos bruscos con el volante.",
+        "c": "Frenar con fuerza de vez en cuando para comprobar la adherencia."
+      },
+      "correcta": "b",
+      "explicacion": "Con nieve, la DGT recomienda evitar los movimientos bruscos con el volante y los cambios repentinos de velocidad.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con nieve (p. 357)",
+        "cita": "No hacer movimientos bruscos con el volante\nni cambiar la velocidad de repente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0009",
+      "tema": "meteorologia",
+      "subtema": "nieve",
+      "materia": 6,
+      "enunciado": "Sobre nieve, ¿cómo recomienda la DGT utilizar el freno?",
+      "opciones": {
+        "a": "Lo menos posible y de forma suave.",
+        "b": "Con fuerza y de forma continuada.",
+        "c": "Solo con el freno de estacionamiento."
+      },
+      "correcta": "a",
+      "explicacion": "Sobre nieve, el freno se utiliza lo menos posible y de forma suave, y hay que mantener más distancia de seguridad.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con nieve (p. 357)",
+        "cita": "Utilizar el freno lo menos posible\ny hacerlo de forma suave.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0010",
+      "tema": "meteorologia",
+      "subtema": "nieve",
+      "materia": 6,
+      "enunciado": "Ha dejado de nevar y sale el sol. ¿Qué aconseja la DGT para conducir?",
+      "opciones": {
+        "a": "Usar gafas de sol para que la luz no le deslumbre.",
+        "b": "Encender la luz antiniebla trasera por el reflejo de la nieve.",
+        "c": "Circular más deprisa, porque ya no cae nieve."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando sale el sol después de nevar, la DGT aconseja usar gafas de sol para que la luz no deslumbre.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con nieve (p. 357)",
+        "cita": "Cuando sale el sol después de nevar,\nes conveniente usar gafas de sol\npara que la luz no te deslumbre.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0011",
+      "tema": "meteorologia",
+      "subtema": "cadenas",
+      "materia": 6,
+      "enunciado": "Es obligatorio el uso de cadenas. ¿Dónde debe colocarlas, como mínimo?",
+      "opciones": {
+        "a": "Sobre las cuatro ruedas, sea cual sea la tracción del vehículo.",
+        "b": "Sobre al menos una rueda motriz a cada lado del vehículo.",
+        "c": "Sobre las dos ruedas traseras, aunque no sean las motrices."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando las cadenas son obligatorias o recomendadas, se colocan al menos sobre una rueda motriz a cada lado del vehículo, o bien se usan neumáticos especiales.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "11.5.2",
+        "cita": "bien colocar sobre, al menos, una rueda motriz a\ncada lado del vehículo dichas cadenas o dispositivos antideslizantes",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0012",
+      "tema": "meteorologia",
+      "subtema": "cadenas",
+      "materia": 6,
+      "enunciado": "Su turismo lleva neumáticos especiales de nieve, pero no lleva cadenas. ¿Puede continuar la marcha al llegar a esta señal?",
+      "opciones": {
+        "a": "No, porque solo admite cadenas metálicas en las ruedas motrices.",
+        "b": "Solo si circula a una velocidad inferior a 30 km/h.",
+        "c": "Sí, porque también admite los neumáticos especiales de nieve."
+      },
+      "correcta": "c",
+      "explicacion": "La señal R-412 (cadenas para nieve) obliga a no seguir sin cadenas u otros dispositivos antideslizantes autorizados, o sin neumáticos especiales de nieve.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, R-412 (pág. 118 del PDF consolidado)",
+        "cita": "Obligación de no proseguir la marcha sin cadenas para nieve\nu otros dispositivos antideslizantes autorizados que actúen al\nmenos en una rueda a cada lado del mismo eje motor, o\nneumáticos especiales de nieve.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo I, R-412",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/R-412.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal R-412: Cadenas para nieve",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "R-412",
+        "descripcion": "Círculo azul con un neumático con cadenas en blanco."
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0014",
+      "tema": "meteorologia",
+      "subtema": "neumaticos_invierno",
+      "materia": 6,
+      "enunciado": "¿Cómo se identifican en el costado los neumáticos especiales homologados para nieve extrema?",
+      "opciones": {
+        "a": "Con la letra E en un círculo y el número del país que los ha homologado.",
+        "b": "Con una franja azul pintada alrededor de toda la banda de rodadura.",
+        "c": "Con el marcado M+S junto al pictograma de una montaña con un copo de nieve."
+      },
+      "correcta": "c",
+      "explicacion": "Los neumáticos especiales de nieve llevan en el costado el marcado M+S, M&S o M.S junto con el pictograma 3PMSF: una montaña de tres picos con un copo de nieve.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo VII.5",
+        "cita": "identificados en el costado con el marcado M+S, M&S o M.S, conjuntamente con el\npictograma 3PMSF (montaña de tres picos con un copo de nieve)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo VII",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0015",
+      "tema": "meteorologia",
+      "subtema": "hielo",
+      "materia": 6,
+      "enunciado": "Según la DGT, ¿qué precauciones hay que tomar para conducir sobre hielo?",
+      "opciones": {
+        "a": "Las mismas que para conducir con calor.",
+        "b": "Las mismas que para conducir con nieve.",
+        "c": "Ninguna especial si los neumáticos son nuevos."
+      },
+      "correcta": "b",
+      "explicacion": "Sobre hielo, la DGT recomienda las mismas precauciones que con nieve: conducir despacio y con mucha distancia de seguridad.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con hielo (p. 358)",
+        "cita": "Las precauciones que debes tomar\npara conducir con hielo\nson las mismas que para conducir con nieve.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0016",
+      "tema": "meteorologia",
+      "subtema": "hielo",
+      "materia": 6,
+      "enunciado": "Una madrugada fría de invierno va a pasar por un puente. ¿Por qué debe extremar la precaución?",
+      "opciones": {
+        "a": "Porque en los puentes está prohibido circular a más de 40 km/h.",
+        "b": "Porque en los puentes y pasos elevados puede haber hielo.",
+        "c": "Porque en los puentes está prohibido usar la luz de cruce."
+      },
+      "correcta": "b",
+      "explicacion": "Durante la noche o la madrugada puede haber hielo en zonas húmedas o sin sol, en puentes, en pasos elevados y en badenes.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con hielo (p. 358)",
+        "cita": "En zonas en las que no llega el sol.\n■ En los puentes y pasos elevados.\n■ En los badenes.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0017",
+      "tema": "meteorologia",
+      "subtema": "niebla",
+      "materia": 6,
+      "enunciado": "Circula con niebla. ¿Qué recomienda la DGT sobre los adelantamientos?",
+      "opciones": {
+        "a": "Adelantar deprisa para no quedarse detrás de otro.",
+        "b": "Adelantar solo con la luz de largo alcance encendida.",
+        "c": "Intentar no adelantar si no es necesario."
+      },
+      "correcta": "c",
+      "explicacion": "Con niebla, la DGT recomienda evitar los adelantamientos que no sean necesarios y tener más precaución al acercarse a los cruces.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con niebla (p. 360)",
+        "cita": "Intenta no adelantar a otros vehículos\nsi no es necesario.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0018",
+      "tema": "meteorologia",
+      "subtema": "polvo_humo",
+      "materia": 6,
+      "enunciado": "Además de impedir ver bien la carretera, ¿qué otro peligro tienen las nubes de polvo o de humo?",
+      "opciones": {
+        "a": "Que obligan a usar la luz de largo alcance.",
+        "b": "Que pueden aparecer de repente.",
+        "c": "Que hacen perder potencia al motor."
+      },
+      "correcta": "b",
+      "explicacion": "Las nubes de polvo o de humo impiden ver bien la carretera, las señales y los vehículos, y además pueden aparecer de repente.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con nubes de polvo o de humo (p. 361)",
+        "cita": "Son un peligro porque no permiten ver bien\nla carretera, las señales o a otros vehículos.\nAdemás, pueden aparecer de repente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0019",
+      "tema": "meteorologia",
+      "subtema": "viento",
+      "materia": 6,
+      "enunciado": "¿Cuándo es más peligroso conducir con mucho viento?",
+      "opciones": {
+        "a": "Cuando sopla de lado, porque puede hacer perder el control del vehículo.",
+        "b": "Cuando sopla de frente, porque obliga a pisar más el acelerador.",
+        "c": "Cuando sopla por detrás, porque aumenta la velocidad del vehículo."
+      },
+      "correcta": "a",
+      "explicacion": "El viento es especialmente peligroso cuando sopla de lado, porque puede hacer que el vehículo pierda el control, vuelque o se salga de la carretera.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con mucho viento (p. 361)",
+        "cita": "sobre todo cuando sopla de lado,\nporque puede hacer que el vehículo pierda el control,\nvuelque o se salga de la carretera.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0020",
+      "tema": "meteorologia",
+      "subtema": "viento",
+      "materia": 6,
+      "enunciado": "Circula con fuerte viento lateral por una carretera con edificios y árboles a los lados. ¿Por qué debe extremar la precaución?",
+      "opciones": {
+        "a": "Porque al pasar junto a ellos el viento puede aparecer de repente.",
+        "b": "Porque junto a edificios está prohibido circular a más de 50 km/h.",
+        "c": "Porque los árboles aumentan el riesgo de aquaplaning."
+      },
+      "correcta": "a",
+      "explicacion": "Con viento fuerte, al pasar delante de edificios, árboles u otros objetos el viento puede aparecer de repente y desplazar el vehículo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con mucho viento (p. 362)",
+        "cita": "Al pasar delante de edificios, árboles\ny otros objetos que pueden provocar\nque el viento aparezca de repente.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0021",
+      "tema": "meteorologia",
+      "subtema": "viento",
+      "materia": 6,
+      "enunciado": "Con mucho viento de lado, ¿cómo recomienda la DGT sujetar el volante?",
+      "opciones": {
+        "a": "Con firmeza y en la dirección contraria al viento.",
+        "b": "Con suavidad, dejando que el vehículo siga al viento.",
+        "c": "Con una sola mano, para poder corregir más deprisa."
+      },
+      "correcta": "a",
+      "explicacion": "Con viento lateral, la DGT recomienda conducir más despacio, sujetar el volante con firmeza y en contra del viento y llevar las ventanillas cerradas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con mucho viento (p. 362)",
+        "cita": "Sujeta el volante con firmeza\ny en la dirección en contra del viento.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0022",
+      "tema": "meteorologia",
+      "subtema": "viento",
+      "materia": 6,
+      "enunciado": "Conduce con mucho viento. ¿Qué riesgo debe tener en cuenta, según la DGT?",
+      "opciones": {
+        "a": "Que la luz de cruce deslumbra más con viento.",
+        "b": "Que pueden caer árboles, ramas o piedras.",
+        "c": "Que el viento aumenta el riesgo de aquaplaning."
+      },
+      "correcta": "b",
+      "explicacion": "Con viento fuerte pueden caer árboles, ramas o piedras a la vía, por lo que conviene conducir más despacio y con atención.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con mucho viento (p. 362)",
+        "cita": "Ten en cuenta que pueden caerse\nárboles, ramas o piedras.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0023",
+      "tema": "meteorologia",
+      "subtema": "calor",
+      "materia": 6,
+      "enunciado": "Además del sueño y la fatiga, ¿qué efecto puede tener en el conductor un día de mucho calor?",
+      "opciones": {
+        "a": "Puede mejorar su tiempo de reacción ante imprevistos.",
+        "b": "Puede aumentar su agresividad hacia otros conductores.",
+        "c": "Puede reducir su necesidad de hacer descansos."
+      },
+      "correcta": "b",
+      "explicacion": "El calor hace que aparezcan antes el sueño y la fatiga, puede alargar el tiempo de reacción y puede aumentar la agresividad hacia otros conductores.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con calor (p. 363)",
+        "cita": "Puede aumentar la agresividad\nhacia otros conductores.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0024",
+      "tema": "meteorologia",
+      "subtema": "calor",
+      "materia": 6,
+      "enunciado": "Va a hacer un viaje largo en un día de mucho calor. ¿Qué recomienda la DGT?",
+      "opciones": {
+        "a": "Hacer menos paradas para llegar antes.",
+        "b": "Hacer más descansos durante el viaje.",
+        "c": "Bajar las ventanillas y no usar el aire acondicionado."
+      },
+      "correcta": "b",
+      "explicacion": "En días de mucho calor, la DGT recomienda hacer más descansos durante el viaje y beber mucha agua.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con calor (p. 363)",
+        "cita": "Haz más descansos durante el viaje.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Corregida tras la revisión independiente del 24/11/2026."
+    },
+    {
+      "id": "xd-0025",
+      "tema": "meteorologia",
+      "subtema": "calor",
+      "materia": 6,
+      "enunciado": "En un día de mucho calor, ¿cuándo debe prestar más atención a la conducción, según la DGT?",
+      "opciones": {
+        "a": "A primera hora de la mañana, porque hay más tráfico.",
+        "b": "Después de comer, porque le puede entrar sueño.",
+        "c": "En autopista, porque el asfalto se vuelve deslizante."
+      },
+      "correcta": "b",
+      "explicacion": "Con calor, conducir después de comer exige más atención, porque puede entrar sueño.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con calor (p. 364)",
+        "cita": "Presta más atención\ncuando conduzcas después de comer\nporque te puede entrar sueño.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0026",
+      "tema": "noche",
+      "subtema": "velocidad",
+      "materia": 6,
+      "enunciado": "De noche no ve bien la carretera. ¿Por qué recomienda la DGT conducir más despacio?",
+      "opciones": {
+        "a": "Para que sea más sencillo parar ante un peligro o un imprevisto.",
+        "b": "Para gastar menos batería con las luces encendidas.",
+        "c": "Para no deslumbrar a los vehículos que vienen de frente."
+      },
+      "correcta": "a",
+      "explicacion": "De noche hay que respetar los límites y conducir más despacio si no se ve bien la carretera, para poder parar con facilidad ante un peligro o imprevisto.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir por la noche (p. 348)",
+        "cita": "y conducir más despacio si no ves bien la carretera.\nDe esta manera será más sencillo parar el vehículo\nante un peligro o imprevisto.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0027",
+      "tema": "noche",
+      "subtema": "adelantamiento",
+      "materia": 6,
+      "enunciado": "De noche está adelantando a otro vehículo. Según la DGT, ¿cuándo puede volver a encender la luz de largo alcance?",
+      "opciones": {
+        "a": "Antes de empezar, para ver mejor el carril contrario.",
+        "b": "Solo cuando haya vuelto a su carril y recorrido 200 metros.",
+        "c": "En cuanto ya no pueda deslumbrar al conductor adelantado."
+      },
+      "correcta": "c",
+      "explicacion": "Al adelantar de noche se usa la luz de cruce para no deslumbrar por los retrovisores, y la de largo alcance se recupera en cuanto ya no pueda deslumbrar al conductor adelantado.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Adelantamientos (p. 350)",
+        "cita": "Cuando ya estés adelantando,\nvuelve a encender las luces de largo alcance\ntan pronto como sea posible.\nEs decir, cuando ya no puedas deslumbrar\nal otro conductor.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 14",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0029",
+      "tema": "luces",
+      "subtema": "largo_alcance",
+      "materia": 6,
+      "enunciado": "De noche se detiene en el arcén con la luz de largo alcance encendida. ¿Puede mantenerla?",
+      "opciones": {
+        "a": "Sí, si la vía está insuficientemente iluminada.",
+        "b": "Sí, durante un máximo de dos minutos.",
+        "c": "No, está prohibida con el vehículo parado o estacionado."
+      },
+      "correcta": "c",
+      "explicacion": "La luz de largo alcance o de carretera no puede utilizarse con el vehículo parado o estacionado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "100.2",
+        "cita": "Se prohíbe la utilización de la luz de largo alcance o de carretera siempre que el\nvehículo se encuentre parado o estacionado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 100",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0032",
+      "tema": "tuneles",
+      "subtema": "senal_tunel",
+      "materia": 6,
+      "enunciado": "Circula por una carretera de montaña y encuentra esta señal azul. ¿Qué indica?",
+      "opciones": {
+        "a": "Peligro por la proximidad de un tramo con desprendimientos frecuentes.",
+        "b": "El principio de un túnel, de un paso inferior o de un tramo equiparado a túnel.",
+        "c": "El final de un túnel y de la obligación de llevar el alumbrado encendido."
+      },
+      "correcta": "b",
+      "explicacion": "La señal S-5 (túnel) indica el principio de un túnel, de un paso inferior o de un tramo de vía equiparado a túnel, y puede llevar su nombre y su longitud.",
+      "fuente": {
+        "norma": "RGC_CATALOGO",
+        "articulo": "Anexo I, catálogo de señales, S-5 (pág. 127 del PDF consolidado)",
+        "cita": "Indica el principio y eventualmente el nombre de un túnel, de un\npaso inferior o de un tramo de vía equiparado a túnel.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo I, S-5",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/senales/S-5.png",
+        "alt": "Señal de la pregunta",
+        "alt_detalle": "Señal S-5: Túnel",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 127 del PDF consolidado"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-5",
+        "descripcion": "Señal azul cuadrada con la boca de un túnel en blanco."
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0033",
+      "tema": "tuneles",
+      "subtema": "maniobras",
+      "materia": 6,
+      "enunciado": "Dentro de un túnel, ¿cuál de estas maniobras está prohibida?",
+      "opciones": {
+        "a": "Cambiar el sentido de la marcha.",
+        "b": "Encender la luz de corto alcance.",
+        "c": "Mantener 100 metros con el vehículo de delante."
+      },
+      "correcta": "a",
+      "explicacion": "En túneles y pasos inferiores está prohibido parar, estacionar, cambiar el sentido de la marcha y marchar hacia atrás; el adelantamiento solo se permite en los casos previstos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "95.6",
+        "cita": "especialmente las\nreferidas a la prohibición de parar, estacionar, cambiar el sentido de la marcha, marchar\nhacia atrás y adelantar.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 95",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0034",
+      "tema": "tuneles",
+      "subtema": "adelantamiento",
+      "materia": 6,
+      "enunciado": "Circula por un túnel con circulación en ambos sentidos que tiene dos carriles para su sentido de marcha. ¿Puede adelantar?",
+      "opciones": {
+        "a": "No, en estos túneles nunca se puede adelantar.",
+        "b": "Sí, incluso invadiendo el sentido contrario si está libre.",
+        "c": "Sí, sin invadir el sentido contrario."
+      },
+      "correcta": "c",
+      "explicacion": "En túneles con doble sentido se prohíbe adelantar, salvo que haya más de un carril para el propio sentido, y entonces sin invadir el sentido contrario.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "95.6",
+        "cita": "En los túneles o pasos inferiores con circulación en ambos sentidos, está prohibido el\nadelantamiento, salvo que exista más de un carril para su sentido de circulación",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 95",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0035",
+      "tema": "tuneles",
+      "subtema": "instrucciones",
+      "materia": 6,
+      "enunciado": "Circula por un túnel y escucha instrucciones por megafonía. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Ignorarlas si no se las da un agente en persona.",
+        "b": "Seguirlas, igual que las de los semáforos y paneles.",
+        "c": "Detenerse en el túnel para escucharlas mejor."
+      },
+      "correcta": "b",
+      "explicacion": "Quienes circulan por un túnel deben obedecer semáforos y paneles de mensaje variable y seguir las instrucciones que les lleguen por megafonía o por cualquier otro medio.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "95.7",
+        "cita": "deberán obedecer las indicaciones de los semáforos y los paneles de mensaje variable, y\nseguir las instrucciones que les lleguen a través de megafonía o cualquier otro medio.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 95",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0036",
+      "tema": "tuneles",
+      "subtema": "semaforo",
+      "materia": 6,
+      "enunciado": "Llega con su turismo a la boca de un túnel y el semáforo de entrada no le permite el paso. No viene nadie. ¿Puede entrar?",
+      "opciones": {
+        "a": "Sí, si comprueba que el túnel está vacío.",
+        "b": "Sí, con la luz de largo alcance encendida.",
+        "c": "No, debe esperar a que el semáforo le permita el paso."
+      },
+      "correcta": "c",
+      "explicacion": "Nadie debe entrar en un túnel o paso inferior si el semáforo de la boca no le permite el paso, salvo los equipos de urgencia, de asistencia mecánica y de conservación de carreteras.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "96.3",
+        "cita": "Ningún usuario deberá penetrar en un túnel o paso inferior si en la boca de éste un\nsemáforo no le permite el paso",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 96",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0037",
+      "tema": "tuneles",
+      "subtema": "emergencia",
+      "materia": 6,
+      "enunciado": "Su vehículo ha quedado inmovilizado por una emergencia dentro de un túnel. ¿Cómo debe pedir auxilio, si existe?",
+      "opciones": {
+        "a": "Con señales de brazos desde el centro de la calzada.",
+        "b": "Esperando dentro del vehículo a que pase una patrulla.",
+        "c": "Desde el poste SOS más próximo, siguiendo sus instrucciones."
+      },
+      "correcta": "c",
+      "explicacion": "Quien queda inmovilizado por una emergencia en un túnel debe pedir auxilio sin demora por el poste SOS más próximo, si existe, y seguir las instrucciones que reciba.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3.d",
+        "cita": "Solicitar auxilio sin demora a través del poste de socorro (poste SOS) más próximo, si\nexiste, y seguir las instrucciones que a través de él se le hagan llegar.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 97",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0038",
+      "tema": "tuneles",
+      "subtema": "averia",
+      "materia": 6,
+      "enunciado": "Dentro de un túnel sufre una avería que todavía le permite circular. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Seguir hasta la salida o, si no puede, hasta una zona de emergencia.",
+        "b": "Detenerse en el acto junto al borde derecho del túnel.",
+        "c": "Dar media vuelta y salir por la boca por la que entró."
+      },
+      "correcta": "a",
+      "explicacion": "Si una avería dentro de un túnel permite seguir la marcha, hay que continuar hasta la salida o, si no es posible, hasta una zona reservada para emergencia.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3.f",
+        "cita": "Si se trata de una avería que permite la marcha del vehículo, deberá continuar hasta la\nsalida del túnel o paso inferior y, si ello no fuera posible, hasta una zona reservada para\nemergencia.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 97",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0042",
+      "tema": "luces",
+      "subtema": "matricula",
+      "materia": 6,
+      "enunciado": "De día circula con niebla espesa y lleva el alumbrado encendido. ¿Debe ir iluminada la placa posterior de matrícula?",
+      "opciones": {
+        "a": "No, solo es obligatorio de noche.",
+        "b": "No, solo en túneles mal iluminados.",
+        "c": "Sí, siempre que se circule en esas condiciones."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando el alumbrado es obligatorio, de noche o con condiciones que disminuyen sensiblemente la visibilidad, la placa posterior de matrícula debe ir siempre iluminada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "103",
+        "cita": "Todo vehículo que se encuentre en las circunstancias aludidas en los artículos 99 ó 106 debe llevar siempre iluminada la placa posterior de matrícula",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 103",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0044",
+      "tema": "usuarios_vulnerables",
+      "subtema": "peatones",
+      "materia": 8,
+      "enunciado": "Un peatón camina solo por una carretera sin acera ni zona peatonal. ¿Puede ir por el lado derecho en el sentido de su marcha?",
+      "opciones": {
+        "a": "No, en ningún caso; siempre debe ir por el lado izquierdo.",
+        "b": "Sí, excepcionalmente, si hay razones de seguridad que lo justifiquen.",
+        "c": "Sí, siempre que lo prefiera, sin necesidad de ningún motivo."
+      },
+      "correcta": "b",
+      "explicacion": "Los peatones van, como norma, por el arcén izquierdo o, si no lo hay, por la calzada; excepcionalmente pueden ir por la derecha cuando razones de seguridad lo justifiquen.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "122.1",
+        "cita": "Excepcionalmente, los peatones podrán circular por el lado derecho en el sentido de su marcha cuando existan razones de seguridad que así lo justifiquen.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 122",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0045",
+      "tema": "usuarios_vulnerables",
+      "subtema": "peatones",
+      "materia": 8,
+      "enunciado": "Dos amigos caminan por el arcén de una carretera. ¿Cómo deben hacerlo?",
+      "opciones": {
+        "a": "Uno al lado del otro, para ser más visibles.",
+        "b": "Uno detrás de otro, lo más cerca posible del borde exterior.",
+        "c": "Por el centro del arcén, uno al lado del otro."
+      },
+      "correcta": "b",
+      "explicacion": "Los peatones que transitan por el arcén o la calzada van lo más cerca posible del borde exterior, con precaución, sin entorpecer y marchando unos detrás de otros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "122.3",
+        "cita": "aproximándose cuanto sea posible al borde exterior de éstos, con precaución, sin entorpecer la circulación y marchando unos detrás de otros.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 122",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0046",
+      "tema": "usuarios_vulnerables",
+      "subtema": "peatones",
+      "materia": 8,
+      "enunciado": "Un peatón espera el autobús en una carretera donde hay una zona peatonal junto a la parada. ¿Puede esperar en la calzada?",
+      "opciones": {
+        "a": "Sí, si se coloca junto al bordillo y lleva ropa llamativa.",
+        "b": "No; solo puede invadirla para subir, con el autobús ya a su altura.",
+        "c": "Sí, para que el conductor del autobús le vea con antelación."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando hay refugio o zona peatonal, ningún peatón debe esperar en la calzada ni en el arcén, ni siquiera a un vehículo; solo puede invadir la calzada para subir cuando el vehículo ya está a su altura.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "122.4",
+        "cita": "tan solo podrá invadir la calzada para subir a éste y sólo cuando ya se encontrase a su altura.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 122",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0047",
+      "tema": "usuarios_vulnerables",
+      "subtema": "peatones",
+      "materia": 8,
+      "enunciado": "Un peatón camina por la calzada y oye la sirena de una ambulancia en servicio urgente. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Seguir caminando con normalidad, porque los peatones tienen prioridad.",
+        "b": "Despejar la calzada y quedarse en una zona peatonal o alejarse de la circulación.",
+        "c": "Detenerse sin moverse en el centro de la calzada hasta que la ambulancia pase."
+      },
+      "correcta": "b",
+      "explicacion": "Al percibir las señales de un vehículo prioritario, los peatones deben despejar la calzada y quedarse en refugios o zonas peatonales o, si no existen, alejarse de la zona por donde circulan los vehículos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "122.5",
+        "cita": "los peatones deberán despejar la calzada y permanecer en los refugios o zonas peatonales, si existen, o, en su defecto, alejarse de la zona de circulación de los vehículos.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 122",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0048",
+      "tema": "usuarios_vulnerables",
+      "subtema": "peatones",
+      "materia": 8,
+      "enunciado": "Un peatón camina de día por el arcén de una carretera interurbana con niebla densa. ¿Debe llevar algún elemento luminoso o reflectante?",
+      "opciones": {
+        "a": "Sí, porque la niebla disminuye sensiblemente la visibilidad.",
+        "b": "No, porque la obligación solo existe de noche.",
+        "c": "No, porque solo es obligatorio para los ciclistas."
+      },
+      "correcta": "a",
+      "explicacion": "Los peatones que van por la calzada o el arcén de vías interurbanas deben llevar un elemento luminoso o reflectante visible a 150 metros de noche y también cuando las condiciones disminuyen sensiblemente la visibilidad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "123.1",
+        "cita": "Los peatones que transiten por la calzada o por el arcén en vías interurbanas entre el ocaso y la salida del sol o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 123",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0049",
+      "tema": "usuarios_vulnerables",
+      "subtema": "pasos_peatones",
+      "materia": 8,
+      "enunciado": "Un peatón quiere atravesar la calzada a 15 metros de un paso para peatones. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Cruzar precisamente por el paso para peatones.",
+        "b": "Cruzar por donde está, si no viene ningún vehículo.",
+        "c": "Cruzar por donde está, levantando la mano."
+      },
+      "correcta": "a",
+      "explicacion": "Donde hay pasos para peatones, quien va a atravesar la calzada debe hacerlo precisamente por ellos y no por sus proximidades.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "124.1",
+        "cita": "En zonas donde existen pasos para peatones, los que se dispongan a atravesar la calzada deberán hacerlo precisamente por ellos, sin que puedan efectuarlo por las proximidades",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 124",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0050",
+      "tema": "usuarios_vulnerables",
+      "subtema": "pasos_peatones",
+      "materia": 8,
+      "enunciado": "Un paso para peatones no tiene semáforo para peatones, pero hay un semáforo en verde para los vehículos. ¿Qué deben hacer los peatones?",
+      "opciones": {
+        "a": "Cruzar, porque en un paso para peatones siempre tienen preferencia.",
+        "b": "No entrar en la calzada mientras ese semáforo deje pasar a los vehículos.",
+        "c": "Cruzar deprisa, aprovechando los huecos que dejen los vehículos."
+      },
+      "correcta": "b",
+      "explicacion": "Si no hay semáforo para peatones pero la circulación está regulada por un agente o un semáforo, los peatones no entran en la calzada mientras la señal permita pasar a los vehículos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "124.1.b",
+        "cita": "no penetrarán en la calzada mientras la señal del agente o del semáforo permita la circulación de vehículos por ella.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 124",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0051",
+      "tema": "usuarios_vulnerables",
+      "subtema": "pasos_peatones",
+      "materia": 8,
+      "enunciado": "En un paso para peatones sin semáforo ni agente, ¿cuándo debe entrar el peatón en la calzada?",
+      "opciones": {
+        "a": "Cuando la distancia y la velocidad de los vehículos se lo permitan con seguridad.",
+        "b": "En cualquier momento, porque tiene preferencia y los vehículos deben frenar.",
+        "c": "Solo cuando no se vea ningún vehículo en ninguno de los dos sentidos."
+      },
+      "correcta": "a",
+      "explicacion": "En los pasos para peatones sin semáforo ni agente, los peatones tienen preferencia, pero solo deben entrar en la calzada cuando la distancia y la velocidad de los vehículos permitan hacerlo con seguridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "124.1.c",
+        "cita": "aunque tienen preferencia, sólo deben penetrar en la calzada cuando la distancia y la velocidad de los vehículos que se aproximen permitan hacerlo con seguridad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 124",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0052",
+      "tema": "usuarios_vulnerables",
+      "subtema": "pasos_peatones",
+      "materia": 8,
+      "enunciado": "¿Cómo debe atravesar un peatón la calzada?",
+      "opciones": {
+        "a": "En diagonal, para recorrer la menor distancia posible.",
+        "b": "Despacio, deteniéndose en el centro para mirar.",
+        "c": "Perpendicularmente a su eje, sin detenerse en ella sin necesidad."
+      },
+      "correcta": "c",
+      "explicacion": "Al atravesar la calzada, los peatones caminan perpendicularmente a su eje, sin demorarse ni detenerse sin necesidad y sin entorpecer a los demás.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "124.3",
+        "cita": "Al atravesar la calzada, deben caminar perpendicularmente al eje de ésta, no demorarse ni detenerse en ella sin necesidad",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 124",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0053",
+      "tema": "usuarios_vulnerables",
+      "subtema": "pasos_peatones",
+      "materia": 8,
+      "enunciado": "Un peatón quiere llegar al otro lado de una glorieta que no tiene ningún paso para peatones. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Rodearla, sin atravesar su calzada.",
+        "b": "Atravesarla por el centro, que es más corto.",
+        "c": "Atravesar su calzada si no vienen vehículos."
+      },
+      "correcta": "a",
+      "explicacion": "Los peatones no pueden atravesar plazas y glorietas por su calzada y deben rodearlas, salvo que haya un paso para peatones habilitado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "124.4",
+        "cita": "Los peatones no podrán atravesar las plazas y glorietas por su calzada, debiendo rodearlas, a no ser que exista un paso para peatones habilitado.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 124",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0054",
+      "tema": "usuarios_vulnerables",
+      "subtema": "animales",
+      "materia": 8,
+      "enunciado": "Un pastor quiere llevar su rebaño por una carretera. ¿Cuándo está permitido?",
+      "opciones": {
+        "a": "Cuando no haya itinerario practicable por vía pecuaria y el rebaño vaya custodiado.",
+        "b": "Siempre, porque el ganado tiene preferencia en todas las vías.",
+        "c": "Solo de noche, cuando hay menos vehículos circulando por la carretera."
+      },
+      "correcta": "a",
+      "explicacion": "El tránsito de animales por las vías solo se permite cuando no hay itinerario practicable por vía pecuaria, siempre custodiados y por la vía alternativa con menos circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "126",
+        "cita": "cuando no exista itinerario practicable por vía pecuaria y siempre que vayan custodiados por alguna persona.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 126",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0055",
+      "tema": "usuarios_vulnerables",
+      "subtema": "animales",
+      "materia": 8,
+      "enunciado": "¿Qué edad mínima debe tener la persona que conduce por una vía animales de tiro, carga o silla, o ganado?",
+      "opciones": {
+        "a": "Más de 14 años.",
+        "b": "Más de 18 años.",
+        "c": "Más de 16 años."
+      },
+      "correcta": "b",
+      "explicacion": "Los animales que transitan por la vía deben ir conducidos al menos por una persona mayor de 18 años capaz de dominarlos en todo momento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "127.1",
+        "cita": "deben ir conducidos, al menos, por una persona mayor de 18 años, capaz de dominarlos en todo momento",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 127",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0057",
+      "tema": "usuarios_vulnerables",
+      "subtema": "animales",
+      "materia": 8,
+      "enunciado": "Un rebaño circula por una carretera. ¿Qué parte de la calzada puede ocupar como máximo?",
+      "opciones": {
+        "a": "Toda la calzada, con un conductor.",
+        "b": "Ninguna; solo el arcén derecho.",
+        "c": "La mitad derecha."
+      },
+      "correcta": "c",
+      "explicacion": "Los animales en manada o rebaño van al paso, lo más cerca posible del borde derecho y sin ocupar nunca más de la mitad derecha de la calzada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "127.1.c",
+        "cita": "lo más cerca posible del borde derecho de la vía y de forma que nunca ocupen más de la mitad derecha de la calzada",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 127",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0058",
+      "tema": "usuarios_vulnerables",
+      "subtema": "animales",
+      "materia": 8,
+      "enunciado": "Un ganadero deja sus vacas sin vigilancia junto a una carretera sin vallar, de modo que pueden invadirla. ¿Está permitido?",
+      "opciones": {
+        "a": "Sí, si la carretera tiene la señal de paso de animales domésticos.",
+        "b": "Sí, durante el día y con buena visibilidad.",
+        "c": "No, está prohibido dejar animales sin custodia si pueden invadir la vía."
+      },
+      "correcta": "c",
+      "explicacion": "El reglamento prohíbe dejar animales sin custodia en cualquier vía o en sus inmediaciones cuando puedan invadirla.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "127.2",
+        "cita": "Se prohíbe dejar animales sin custodia en cualquier clase de vía o en sus inmediaciones, siempre que exista la posibilidad de que éstos puedan invadir la vía.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 127",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0059",
+      "tema": "usuarios_vulnerables",
+      "subtema": "animales",
+      "materia": 8,
+      "enunciado": "Un jinete circula por una vía cerca de personas que van a pie. ¿Puede llevar su caballo corriendo?",
+      "opciones": {
+        "a": "Sí, si la vía es recta y con buena visibilidad.",
+        "b": "No, está prohibido cerca de personas que van a pie.",
+        "c": "Sí, si avisa antes a los peatones con la voz."
+      },
+      "correcta": "b",
+      "explicacion": "A quienes conducen caballerías, ganado o vehículos de tracción animal se les prohíbe llevarlos corriendo cerca de otros animales de la misma especie o de personas a pie.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "17.2",
+        "cita": "les está prohibido llevarlos corriendo por la vía en las inmediaciones de otros de la misma especie o de las personas que van a pie",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0060",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ciclistas",
+      "materia": 8,
+      "enunciado": "De día, dos ciclistas circulan en columna de a dos por una carretera sin arcén y llegan a un tramo sin visibilidad. ¿Qué deben hacer?",
+      "opciones": {
+        "a": "Seguir en columna de a dos, pegados al borde.",
+        "b": "Seguir en columna de a dos, pero más despacio.",
+        "c": "Colocarse en hilera, uno detrás de otro."
+      },
+      "correcta": "c",
+      "explicacion": "Los ciclistas pueden ir en columna de a dos, pero deben colocarse en hilera en los tramos sin visibilidad, cuando afecten a la fluidez, de noche o con visibilidad reducida.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "36.2",
+        "cita": "si bien deberán colocarse en hilera en los tramos sin visibilidad, cuando afecten a la fluidez de la circulación",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 36",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0061",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ciclistas",
+      "materia": 8,
+      "enunciado": "Un ciclista va por el arcén de una carretera convencional y empieza un descenso prolongado con curvas. Si la seguridad lo permite, ¿puede dejar el arcén?",
+      "opciones": {
+        "a": "No, los ciclistas deben ir siempre por el arcén si es transitable.",
+        "b": "Sí, y circular por la parte derecha de la calzada que necesite.",
+        "c": "Sí, y ocupar el centro de la calzada para que le vean mejor."
+      },
+      "correcta": "b",
+      "explicacion": "En los descensos prolongados con curvas, si la seguridad lo permite, los ciclistas pueden dejar el arcén y usar la parte derecha de la calzada que necesiten, salvo en autovías.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "36.1",
+        "cita": "los conductores de bicicletas podrán abandonar el arcén y circular por la parte derecha de la calzada que necesiten.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 36",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0065",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ciclistas",
+      "materia": 8,
+      "enunciado": "En ciudad, ¿por qué parte del carril deben circular preferentemente los ciclistas?",
+      "opciones": {
+        "a": "Pegados al bordillo derecho, para no estorbar a nadie.",
+        "b": "Por el centro, si su seguridad y la de los demás lo permite.",
+        "c": "Por la parte izquierda, para que les vean mejor."
+      },
+      "correcta": "b",
+      "explicacion": "En vías urbanas, los ciclistas circulan preferentemente por el centro del carril en la medida en que su seguridad y la de los demás usuarios lo permita.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "153.3",
+        "cita": "Los ciclistas circularán preferentemente por el centro del carril en la medida en que su seguridad y la de los otros usuarios lo permitan.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 153",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0066",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ciclistas",
+      "materia": 8,
+      "enunciado": "En una calle con dos carriles por sentido, ¿por cuál debe circular un ciclista como norma general?",
+      "opciones": {
+        "a": "Por cualquiera de ellos, de forma indistinta y sin ninguna limitación.",
+        "b": "Por el derecho, aunque puede usar los otros para girar o por seguridad.",
+        "c": "Por el izquierdo, para no molestar a los autobuses que paran."
+      },
+      "correcta": "b",
+      "explicacion": "En vías urbanas con al menos dos carriles por sentido, los ciclistas van por el carril derecho y pueden usar los demás para cambiar de dirección o por razones de seguridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "153.3",
+        "cita": "En vías que dispongan de al menos dos carriles de circulación por sentido, los ciclistas\ncircularán por el carril derecho.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 153",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0067",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ciclistas",
+      "materia": 8,
+      "enunciado": "En ciudad, un ciclista quiere adelantar a una furgoneta. ¿Por qué lado puede hacerlo?",
+      "opciones": {
+        "a": "Por la derecha o la izquierda, según convenga a su seguridad.",
+        "b": "Solo por la izquierda, como el resto de los vehículos.",
+        "c": "Solo por la derecha, por el espacio junto al bordillo."
+      },
+      "correcta": "a",
+      "explicacion": "En vías urbanas, los ciclistas pueden adelantar por la derecha o por la izquierda, según sea más conveniente para su seguridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "153.5",
+        "cita": "Los ciclistas podrán adelantar a otros vehículos por la derecha o por la izquierda,\nsegún sea más conveniente para su seguridad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 153",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0068",
+      "tema": "usuarios_vulnerables",
+      "subtema": "vmp",
+      "materia": 8,
+      "enunciado": "¿Puede conducir un patinete eléctrico (vehículo de movilidad personal) un menor de 14 años?",
+      "opciones": {
+        "a": "No, los menores de quince años no pueden conducirlos.",
+        "b": "Sí, si lleva casco y circula por un carril bici.",
+        "c": "Sí, si un adulto le acompaña caminando a su lado."
+      },
+      "correcta": "a",
+      "explicacion": "Los menores de quince años no pueden conducir vehículos de movilidad personal.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "155.3",
+        "cita": "No podrán conducir vehículos de movilidad personal los menores de quince años.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 155",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0069",
+      "tema": "usuarios_vulnerables",
+      "subtema": "vmp",
+      "materia": 8,
+      "enunciado": "El conductor de un patinete eléctrico (vehículo de movilidad personal) va a girar a la izquierda. ¿Cómo debe advertirlo?",
+      "opciones": {
+        "a": "No tiene obligación de advertir sus maniobras.",
+        "b": "Con el timbre, tocándolo dos veces seguidas.",
+        "c": "Con el brazo, como establece el reglamento."
+      },
+      "correcta": "c",
+      "explicacion": "Los conductores de vehículos de movilidad personal deben advertir siempre con el brazo las maniobras que vayan a realizar.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "155.4",
+        "cita": "deberán utilizar siempre el brazo\npara advertir al resto de los usuarios de la vía acerca de las maniobras que vayan a efectuar",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 155",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0071",
+      "tema": "usuarios_vulnerables",
+      "subtema": "vmp",
+      "materia": 8,
+      "enunciado": "Una persona con movilidad reducida se desplaza en un vehículo de movilidad personal al paso de persona. ¿Qué consideración tiene a efectos del reglamento?",
+      "opciones": {
+        "a": "La de ciclista.",
+        "b": "La de conductor de ciclomotor.",
+        "c": "La de peatón."
+      },
+      "correcta": "c",
+      "explicacion": "Las personas con movilidad reducida que se desplazan en vehículos de movilidad personal al paso de persona se consideran peatones.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "155.6",
+        "cita": "las personas con movilidad\nreducida que se desplacen en vehículos de movilidad personal al paso de persona tendrán la\nconsideración de peatones.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 155",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0073",
+      "tema": "usuarios_vulnerables",
+      "subtema": "vmp",
+      "materia": 8,
+      "enunciado": "Conduce de noche un patinete eléctrico (vehículo de movilidad personal) por una vía urbana. ¿Debe llevar un elemento luminoso o reflectante?",
+      "opciones": {
+        "a": "Sí, visible al menos a 150 metros.",
+        "b": "No, solo en vías interurbanas.",
+        "c": "No, basta con el alumbrado del patinete."
+      },
+      "correcta": "a",
+      "explicacion": "Todos los conductores de vehículos de movilidad personal deben llevar, de noche o con visibilidad reducida, un elemento luminoso o reflectante visible a 150 metros, en cualquier tipo de vía.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.3",
+        "cita": "todos los conductores de estos vehículos que circulen entre el ocaso y la salida del sol, o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, deberán hacer uso al menos de un elemento luminoso o reflectante",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 118",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0075",
+      "tema": "usuarios_vulnerables",
+      "subtema": "vmp",
+      "materia": 8,
+      "enunciado": "¿Puede circular por la acera el conductor de un patinete eléctrico (vehículo de movilidad personal)?",
+      "opciones": {
+        "a": "Sí, si lo autoriza una ordenanza municipal.",
+        "b": "Sí, si la acera mide más de tres metros de ancho.",
+        "c": "No, en las aceras está prohibido circular con cualquier vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "Las aceras están reservadas a los peatones y en ellas se prohíbe circular con cualquier tipo de vehículo; solo puede autorizarse a niños de hasta doce años en bicicleta acompañados por un adulto a pie.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "152.1",
+        "cita": "Las aceras son el espacio de la vía reservado para la movilidad y estancia de los\npeatones, estando prohibida la circulación por ellas de cualquier tipo de vehículo.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 152",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0082",
+      "tema": "usuarios_vulnerables",
+      "subtema": "peatones",
+      "materia": 8,
+      "enunciado": "Según la DGT, ¿dónde tiene un peatón atropellado más posibilidades de morir?",
+      "opciones": {
+        "a": "En una calle de la ciudad, porque hay mucho más tráfico.",
+        "b": "En una carretera fuera de la ciudad, porque se circula más rápido.",
+        "c": "En un paso para peatones, porque los peatones se confían."
+      },
+      "correcta": "b",
+      "explicacion": "Un peatón atropellado tiene más posibilidades de morir en carreteras fuera de la ciudad, porque allí los vehículos circulan más rápido.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Los peatones (p. 396)",
+        "cita": "Tiene más posibilidad de morir cuando el accidente\nes en una carretera fuera de la ciudad\nporque los vehículos circulan más rápido.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0083",
+      "tema": "usuarios_vulnerables",
+      "subtema": "peatones",
+      "materia": 8,
+      "enunciado": "¿Por qué recomienda la DGT no hacer cambios en la parte exterior de los vehículos?",
+      "opciones": {
+        "a": "Porque cualquier cambio exterior obliga a contratar otro seguro.",
+        "b": "Porque cualquier cambio exterior impide superar la ITV.",
+        "c": "Porque está preparada para causar menos daños en los atropellos."
+      },
+      "correcta": "c",
+      "explicacion": "La parte exterior de los vehículos actuales está diseñada para causar menos daños a los peatones en caso de atropello.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Los peatones (p. 399)",
+        "cita": "La parte exterior de los vehículos actuales\nestá preparada para causar menos daños\nen los atropellos a peatones.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0084",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ninos",
+      "materia": 8,
+      "enunciado": "Según la DGT, ¿cuándo se producen la mayoría de los atropellos a niños?",
+      "opciones": {
+        "a": "En las vacaciones de verano.",
+        "b": "De noche, en calles sin luz.",
+        "c": "Cuando salen de la escuela."
+      },
+      "correcta": "c",
+      "explicacion": "La mayoría de los atropellos a niños se producen a la salida de la escuela.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Los niños (p. 401)",
+        "cita": "La mayoría de los atropellos a niños\nse da cuando salen de la escuela.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0085",
+      "tema": "usuarios_vulnerables",
+      "subtema": "mayores",
+      "materia": 8,
+      "enunciado": "Según la DGT, ¿qué dificultad pueden tener muchas personas mayores como peatones?",
+      "opciones": {
+        "a": "Ninguna, porque son más prudentes que los jóvenes.",
+        "b": "Que suelen cruzar corriendo sin mirar.",
+        "c": "Calcular a qué velocidad viene un vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "Muchas personas mayores, como peatones, pueden no oír los vehículos por el ruido ambiente, tener dificultad para saber a qué velocidad vienen o para distinguir el color de los semáforos.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Las personas mayores (p. 402)",
+        "cita": "Pueden tener dificultad para saber\na qué velocidad viene un vehículo.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0086",
+      "tema": "usuarios_vulnerables",
+      "subtema": "mayores",
+      "materia": 8,
+      "enunciado": "Según la DGT, los conductores mayores de 65 años suelen ser prudentes. ¿Por qué pueden sufrir más accidentes?",
+      "opciones": {
+        "a": "Porque pueden necesitar más tiempo para reaccionar.",
+        "b": "Porque suelen superar los límites de velocidad.",
+        "c": "Porque no suelen respetar las normas de tráfico."
+      },
+      "correcta": "a",
+      "explicacion": "Los conductores mayores de 65 años pueden tener menos capacidad de atención, necesitar más tiempo para reaccionar, ver y oír peor o tomar medicamentos que afectan a la conducción.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Personas mayores de 65 años (p. 405)",
+        "cita": "Pueden tener menos capacidad\npara prestar atención y necesitar más tiempo\npara reaccionar ante un imprevisto.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0087",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ciclistas",
+      "materia": 8,
+      "enunciado": "Según la DGT, ¿dónde mueren más ciclistas en accidentes de tráfico?",
+      "opciones": {
+        "a": "En carreteras fuera de las ciudades.",
+        "b": "Dentro de las ciudades.",
+        "c": "En los carriles bici urbanos."
+      },
+      "correcta": "a",
+      "explicacion": "Aunque hay más accidentes de ciclistas dentro de las ciudades, mueren más ciclistas en las carreteras fuera de ellas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Bicicletas (p. 407)",
+        "cita": "Hay más accidentes dentro de las ciudades,\npero mueren más ciclistas\nen las carreteras fuera de las ciudades.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0088",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ciclistas",
+      "materia": 8,
+      "enunciado": "Circula junto a una fila de vehículos aparcados en una zona con ciclistas. Según la DGT, ¿por qué debe tener cuidado?",
+      "opciones": {
+        "a": "Porque los ciclistas no pueden circular junto a vehículos aparcados.",
+        "b": "Porque pueden aparecer ciclistas entre los vehículos aparcados.",
+        "c": "Porque los vehículos aparcados reducen la adherencia de la calzada."
+      },
+      "correcta": "b",
+      "explicacion": "Junto a vehículos aparcados hay que extremar la precaución, porque los ciclistas pueden aparecer entre ellos.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Bicicletas (p. 409)",
+        "cita": "Tener cuidado cuando hay vehículos aparcados.\nLos ciclistas pueden aparecer\nentre estos vehículos.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0089",
+      "tema": "usuarios_vulnerables",
+      "subtema": "motoristas",
+      "materia": 8,
+      "enunciado": "Según la DGT, ¿qué accidentes son los más comunes en motocicletas y ciclomotores al adelantar?",
+      "opciones": {
+        "a": "Los choques frontales y laterales.",
+        "b": "Las salidas de la vía en recta.",
+        "c": "Los alcances por detrás."
+      },
+      "correcta": "a",
+      "explicacion": "Al adelantar, los accidentes más comunes de motocicletas y ciclomotores son los choques frontales y laterales.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Motocicletas y ciclomotores (p. 409)",
+        "cita": "Los accidentes más comunes en este tipo\nde vehículos al adelantar son los choques frontales\ny laterales.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0090",
+      "tema": "usuarios_vulnerables",
+      "subtema": "motoristas",
+      "materia": 8,
+      "enunciado": "Va a cambiar de carril en una calle con mucho tráfico de motos. ¿Qué recomienda la DGT?",
+      "opciones": {
+        "a": "Cambiar deprisa para que las motos no tengan tiempo de acercarse.",
+        "b": "Confiar en que los motoristas verán su intermitente.",
+        "c": "Comprobar antes que no circula ningún vehículo de dos ruedas."
+      },
+      "correcta": "c",
+      "explicacion": "Para evitar accidentes con motocicletas y ciclomotores, antes de cambiar de carril hay que comprobar que no circula ningún vehículo de dos ruedas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Motocicletas y ciclomotores (p. 411)",
+        "cita": "Comprobar que no hay vehículos de dos ruedas\ncirculando antes de cambiar de carril.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 16",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0091",
+      "tema": "visibilidad",
+      "subtema": "distintivos",
+      "materia": 9,
+      "enunciado": "Debe colocar en su vehículo un distintivo exigido por la legislación de transportes. ¿Cómo debe hacerlo?",
+      "opciones": {
+        "a": "De forma que no impida la correcta visión del conductor.",
+        "b": "En el centro del parabrisas, a la altura de los ojos.",
+        "c": "En cualquier lugar del parabrisas, porque es obligatorio."
+      },
+      "correcta": "a",
+      "explicacion": "Los distintivos exigidos por la legislación de transportes u otras normas deben colocarse sin impedir la correcta visión del conductor.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "19.1",
+        "cita": "La colocación de los distintivos previstos en la legislación de transportes o en otras disposiciones deberá realizarse de forma que no impidan la correcta visión del conductor.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 19",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0092",
+      "tema": "visibilidad",
+      "subtema": "cristales",
+      "materia": 9,
+      "enunciado": "Los cristales del habitáculo que afectan al campo de visión del conductor, ¿qué requisito deben cumplir?",
+      "opciones": {
+        "a": "Estar tintados en un tono oscuro para reducir el deslumbramiento del sol.",
+        "b": "No deformar apreciablemente los objetos ni confundir los colores de las señales.",
+        "c": "Llevar una lámina adhesiva antirreflejos homologada en toda su superficie."
+      },
+      "correcta": "b",
+      "explicacion": "Los elementos transparentes que afectan al campo de visión del conductor no deben deformar de modo apreciable los objetos ni hacer confundir los colores de la señalización.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "11.3",
+        "cita": "no deben deformar de modo apreciable los objetos vistos a su través, ni producir\nconfusión entre los colores utilizados en la señalización vial.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV art. 11",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0095",
+      "tema": "carga",
+      "subtema": "dimensiones",
+      "materia": 9,
+      "enunciado": "En un carro de tracción animal, ¿hasta dónde puede llegar la carga por delante?",
+      "opciones": {
+        "a": "Hasta un metro por delante del animal de tiro más próximo.",
+        "b": "Sin límite, si se señaliza de noche con una luz blanca.",
+        "c": "Sin sobrepasar la cabeza del animal de tiro más próximo."
+      },
+      "correcta": "c",
+      "explicacion": "En los vehículos de tracción animal, la proyección del vehículo se prolonga hacia delante con su misma anchura, sin sobrepasar la cabeza del animal de tiro más próximo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "15.1",
+        "cita": "En los de tracción animal, se entiende por proyección la del vehículo propiamente dicho prolongada hacia adelante, con su misma anchura, sin sobrepasar la cabeza del animal de tiro más próximo a aquél.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 15",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0101",
+      "tema": "vehiculos_pesados",
+      "subtema": "uso_arcen",
+      "materia": 9,
+      "enunciado": "Conduce un vehículo especial de 5.000 kg de masa máxima autorizada por una carretera con un arcén amplio. ¿Por dónde debe circular?",
+      "opciones": {
+        "a": "Por la calzada, salvo por razones de emergencia.",
+        "b": "Por el arcén derecho, si es transitable y suficiente.",
+        "c": "Por el arcén derecho, solo si circula a menos de 40 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Los automóviles y los vehículos especiales de más de 3.500 kg de masa máxima autorizada circulan por la calzada y no por el arcén, salvo por razones de emergencia.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "30.1",
+        "cita": "circulará por la calzada y no por el arcén, salvo por razones de\nemergencia. Además, deberá atenerse a las reglas siguientes",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 30",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0103",
+      "tema": "vehiculos_dos_ruedas",
+      "subtema": "arcen",
+      "materia": 9,
+      "enunciado": "Un ciclomotor circula por el arcén y quiere adelantar a otro ciclomotor que también va por él. ¿Qué límite debe respetar?",
+      "opciones": {
+        "a": "La marcha en paralelo no puede superar 30 segundos ni 500 metros.",
+        "b": "Ninguno, porque los dos circulan por el arcén.",
+        "c": "La marcha en paralelo no puede superar 15 segundos ni 200 metros."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos obligados a circular por el arcén, salvo las bicicletas, no pueden adelantarse si la marcha en paralelo dura más de 15 segundos o supera los 200 metros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "36.5",
+        "cita": "no podrá adelantar a otro si la duración de la marcha de los vehículos colocados paralelamente excede de los 15 segundos o el recorrido efectuado en dicha forma supera los 200 metros.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 36",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0104",
+      "tema": "vehiculos_especiales",
+      "subtema": "autovia",
+      "materia": 9,
+      "enunciado": "Un vehículo especial que no excede las masas ni las dimensiones reglamentarias, ¿puede circular por una autovía?",
+      "opciones": {
+        "a": "No, los vehículos especiales nunca pueden circular por autovía.",
+        "b": "Sí, siempre que lleve encendida la señal luminosa V-2.",
+        "c": "Sí, si puede superar 60 km/h en llano y cumple el anexo III."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos especiales que no exceden las masas o dimensiones pueden circular por autopistas y autovías si pueden superar 60 km/h en llano y cumplen las condiciones del anexo III del reglamento.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "38.3",
+        "cita": "puedan desarrollar una velocidad\nsuperior a 60 km/h en llano y cumplan las condiciones que se señalan en el anexo III de este\nreglamento.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 38",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0110",
+      "tema": "vehiculos_especiales",
+      "subtema": "v2",
+      "materia": 9,
+      "enunciado": "¿De qué color es la luz de la señal V-2 (vehículo-obstáculo en la vía)?",
+      "opciones": {
+        "a": "Azul.",
+        "b": "Amarillo auto.",
+        "c": "Rojo."
+      },
+      "correcta": "b",
+      "explicacion": "La señal luminosa V-2 es de color amarillo auto y debe verse en todas las direcciones desde 100 metros.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-2.3",
+        "cita": "La señal luminosa V-2 estará constituida por un dispositivo luminoso, con una o varias\nluces, de color amarillo auto",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XI",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0111",
+      "tema": "vehiculos_especiales",
+      "subtema": "v4",
+      "materia": 9,
+      "enunciado": "¿Qué vehículos deben llevar obligatoriamente en su parte posterior la señal V-4 de limitación de velocidad?",
+      "opciones": {
+        "a": "Entre otros, los vehículos especiales.",
+        "b": "Todos los camiones de más de 3.500 kg.",
+        "c": "Los turismos con un remolque ligero."
+      },
+      "correcta": "a",
+      "explicacion": "La señal V-4 es obligatoria, entre otros, para los vehículos especiales y los conjuntos especiales, y para los vehículos que necesitan autorización especial para circular.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-4.2",
+        "cita": "b) Para vehículos especiales y conjuntos de vehículos, también especiales, aunque sólo\ntenga tal naturaleza uno de los que integran el conjunto.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XI",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0112",
+      "tema": "vehiculos_especiales",
+      "subtema": "v5",
+      "materia": 9,
+      "enunciado": "Un tractor que, por construcción, no puede superar los 40 km/h, ¿está obligado a llevar esta señal?",
+      "opciones": {
+        "a": "Sí, es obligatoria para todos los vehículos especiales.",
+        "b": "Sí, pero solo cuando circula de noche.",
+        "c": "No, es optativa para los que deben llevar la señal V-4."
+      },
+      "correcta": "c",
+      "explicacion": "La señal V-5 (vehículo lento) es optativa para los vehículos de motor o conjuntos que deben llevar la señal V-4 de limitación de velocidad.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-5.2",
+        "cita": "Esta señal, que se instalará en la parte posterior del vehículo, será optativa para los\nvehículos de motor o conjuntos de vehículos que deban llevar la señal V-4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XI",
+        "minuto": null
+      },
+      "imagen": {
+        "src": "img/esquemas/senal-V-5-vehiculo-lento.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Placa triangular con los vértices redondeados: borde rojo reflectante y triángulo interior rojo fluorescente.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": null,
+        "descripcion": "Señal V-5 (vehículo lento) del anexo XI del Reglamento General de Vehículos: triángulo con borde rojo reflectante y centro rojo fluorescente."
+      },
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0113",
+      "tema": "vehiculos_pesados",
+      "subtema": "v11",
+      "materia": 9,
+      "enunciado": "¿Dónde se colocan los distintivos V-11 de transporte de mercancías peligrosas?",
+      "opciones": {
+        "a": "Solo en la parte trasera, al lado de la placa de matrícula.",
+        "b": "En la parte delantera y en la trasera de la unidad de transporte.",
+        "c": "Solo en el techo de la cabina, visibles desde lejos."
+      },
+      "correcta": "b",
+      "explicacion": "El distintivo V-11 de mercancías peligrosas se fija en la parte delantera y en la trasera de la unidad de transporte, y en algunos casos también en los costados.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-11.2",
+        "cita": "Este distintivo se fijará en la parte delantera y en la parte trasera de la unidad de\ntransporte, perpendicularmente al eje longitudinal de ésta",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XI",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0116",
+      "tema": "visibilidad",
+      "subtema": "angulo_muerto",
+      "materia": 9,
+      "enunciado": "Lleva los espejos retrovisores bien colocados. ¿Hay alguna zona a los lados del vehículo que no pueda ver con ellos?",
+      "opciones": {
+        "a": "No, si están bien regulados lo ven todo.",
+        "b": "Sí, los ángulos muertos, a ambos lados.",
+        "c": "Solo detrás del vehículo, nunca a los lados."
+      },
+      "correcta": "b",
+      "explicacion": "A los dos lados del vehículo siempre hay un espacio, el ángulo muerto, que no se ve por los retrovisores aunque estén bien colocados.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Visión (p. 443)",
+        "cita": "Debes tener en cuenta que siempre hay\nun espacio a los dos lados del vehículo\nque no puedes ver,\naunque lleves bien colocados los retrovisores.",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "Manual DGT tema 17",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0117",
+      "tema": "vehiculos_especiales",
+      "subtema": "transporte_especial",
+      "materia": 9,
+      "enunciado": "Un vehículo en régimen de transporte especial circula por una carretera y la niebla reduce la visibilidad por debajo de 150 metros. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Suspender la circulación saliendo de la plataforma.",
+        "b": "Continuar con la luz antiniebla y la señal V-2.",
+        "c": "Reducir la velocidad a 40 km/h y continuar."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos en régimen de transporte especial deben suspender la circulación, saliendo de la plataforma, con fenómenos atmosféricos adversos o si la visibilidad baja de 150 metros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo III, sección 1.ª, 6",
+        "cita": "La circulación deberá suspenderse saliendo de la plataforma, con ocasión de la\nexistencia de fenómenos atmosféricos adversos que supongan un riesgo para la circulación,\no cuando no exista una visibilidad de 150 m, como mínimo",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo III",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0118",
+      "tema": "vehiculos_especiales",
+      "subtema": "transporte_especial",
+      "materia": 9,
+      "enunciado": "Un vehículo en régimen de transporte especial, ¿qué separación mínima debe mantener con el vehículo que le precede?",
+      "opciones": {
+        "a": "50 metros.",
+        "b": "100 metros.",
+        "c": "25 metros."
+      },
+      "correcta": "a",
+      "explicacion": "Los vehículos en régimen de transporte especial mantienen una separación mínima de 50 metros con el vehículo precedente y facilitan el adelantamiento a los más rápidos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo III, sección 1.ª, 1",
+        "cita": "Mantendrá una separación mínima de 50 m con el vehículo que le preceda y permitirá\ny facilitará el adelantamiento a los vehículos de marcha más rápida",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC anexo III",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0123",
+      "tema": "vehiculos_pesados",
+      "subtema": "carriles",
+      "materia": 9,
+      "enunciado": "Fuera de poblado, en una autovía con tres carriles por sentido, circula con un turismo y una caravana que miden 9 metros en total. ¿Qué carriles debe usar normalmente?",
+      "opciones": {
+        "a": "Cualquiera de los tres, sin ninguna limitación.",
+        "b": "Solo el de la derecha, en todo caso.",
+        "c": "El de la derecha y, cuando convenga, el inmediato."
+      },
+      "correcta": "c",
+      "explicacion": "En calzadas con tres o más carriles por sentido, los conjuntos de más de siete metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "31.2",
+        "cita": "de conjuntos de vehículos de más de siete metros de longitud circularán normalmente por el\nsituado más a la derecha, y podrán utilizar el inmediato",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 31",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0129",
+      "tema": "parada_estacionamiento",
+      "subtema": "seguridad",
+      "materia": 13,
+      "enunciado": "Al parar o estacionar, ¿qué debe cuidar especialmente, además de no obstaculizar la circulación?",
+      "opciones": {
+        "a": "Que el vehículo no pueda ponerse en movimiento sin conductor.",
+        "b": "Dejar las ventanillas un poco bajadas para ventilar.",
+        "c": "Dejar encendida la señal de emergencia mientras se aleja."
+      },
+      "correcta": "a",
+      "explicacion": "La parada y el estacionamiento deben hacerse sin obstaculizar ni crear riesgo, cuidando la colocación del vehículo y evitando que pueda moverse en ausencia del conductor.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "91.1",
+        "cita": "cuidando especialmente la colocación del vehículo y evitar que pueda ponerse en movimiento en ausencia del conductor",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 91",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0130",
+      "tema": "puertas",
+      "subtema": "circular",
+      "materia": 13,
+      "enunciado": "Circula con una puerta trasera mal cerrada y entreabierta. ¿Está permitido?",
+      "opciones": {
+        "a": "No, se prohíbe llevar abiertas las puertas.",
+        "b": "Sí, si circula a menos de 20 km/h.",
+        "c": "Sí, si es la puerta del lado de la acera."
+      },
+      "correcta": "a",
+      "explicacion": "El reglamento prohíbe llevar abiertas las puertas del vehículo, abrirlas antes de su completa inmovilización y abrirlas o apearse sin comprobar que no hay peligro.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "114.1",
+        "cita": "Se prohíbe llevar abiertas las puertas del vehículo, abrirlas antes de su completa\ninmovilización",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 114",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0131",
+      "tema": "puertas",
+      "subtema": "transporte_colectivo",
+      "materia": 13,
+      "enunciado": "Viaja en un autobús urbano y no trabaja en el servicio. ¿Puede abrir usted las puertas?",
+      "opciones": {
+        "a": "Sí, cuando el autobús esté detenido en una parada.",
+        "b": "No, las personas no autorizadas deben abstenerse.",
+        "c": "Sí, si el conductor tarda en abrirlas."
+      },
+      "correcta": "b",
+      "explicacion": "Las personas no autorizadas deben abstenerse de abrir las puertas de los vehículos de transporte colectivo de viajeros y de cerrarlas en las paradas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "114.3",
+        "cita": "Toda persona no autorizada se abstendrá de abrir las puertas de los vehículos destinados al transporte colectivo de viajeros",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 114",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0132",
+      "tema": "inmovilizacion",
+      "subtema": "preseñalizacion",
+      "materia": 13,
+      "enunciado": "Su turismo queda inmovilizado en la calzada de una carretera por una avería. Además de la luz de emergencia, ¿qué debe usar para advertir a los demás?",
+      "opciones": {
+        "a": "Nada más; la luz de emergencia es suficiente en todos los casos.",
+        "b": "El capó levantado, para que se vea que el vehículo está averiado.",
+        "c": "El dispositivo de preseñalización de peligro reglamentario (V-16)."
+      },
+      "correcta": "c",
+      "explicacion": "Con el vehículo inmovilizado por accidente o avería, además de la luz de emergencia hay que usar el dispositivo de preseñalización de peligro reglamentario, que en los turismos es la señal luminosa V-16.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "130.4",
+        "cita": "todo conductor deberá emplear el dispositivo de preseñalización de peligro reglamentario para advertir dicha circunstancia.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 130",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0133",
+      "tema": "inmovilizacion",
+      "subtema": "averia",
+      "materia": 13,
+      "enunciado": "Tras una avería, su vehículo puede circular pero necesita auxilio y no puede llegar a la primera salida. ¿Dónde debe detenerse?",
+      "opciones": {
+        "a": "En el carril izquierdo, junto a la mediana.",
+        "b": "En su carril, con la señal de emergencia encendida.",
+        "c": "En el arcén derecho o donde cause menos obstáculo."
+      },
+      "correcta": "c",
+      "explicacion": "Si un vehículo averiado que necesita auxilio no puede llegar a la primera salida, debe detenerse en el arcén derecho o donde cause menor obstáculo a la circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "130.2",
+        "cita": "Si ello no fuera posible, deberán detenerse en el arcén derecho de la vía o en el lugar donde cause menor obstáculo a la circulación.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 130",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0135",
+      "tema": "chaleco",
+      "subtema": "urbano",
+      "materia": 13,
+      "enunciado": "Su turismo se avería en una calle de la ciudad (no es una travesía) y sale de él. Según el Reglamento General de Circulación, ¿está obligado a ponerse el chaleco reflectante?",
+      "opciones": {
+        "a": "Sí, en cualquier vía en la que salga del vehículo averiado.",
+        "b": "No, la obligación es para la calzada o el arcén de vías interurbanas.",
+        "c": "Sí, pero solo si es de noche o hay poca visibilidad."
+      },
+      "correcta": "b",
+      "explicacion": "El Reglamento General de Circulación obliga a ponerse el chaleco reflectante al salir del vehículo y ocupar la calzada o el arcén de las vías interurbanas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.4",
+        "cita": "cuando salgan de éste y ocupen la calzada o el arcén de las vías interurbanas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 118",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0136",
+      "tema": "chaleco",
+      "subtema": "dotacion",
+      "materia": 13,
+      "enunciado": "¿Qué prenda de protección forma parte de la dotación obligatoria de un turismo?",
+      "opciones": {
+        "a": "Un casco de protección homologado.",
+        "b": "Un chaleco reflectante de alta visibilidad certificado.",
+        "c": "Unos guantes de protección homologados."
+      },
+      "correcta": "b",
+      "explicacion": "La dotación obligatoria de un turismo incluye el dispositivo luminoso V-16 y un chaleco reflectante de alta visibilidad certificado.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XII.1.b",
+        "cita": "b) Un chaleco reflectante de alta visibilidad, certificado según el Real Decreto 1407/1992",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XII",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0137",
+      "tema": "tuneles",
+      "subtema": "emergencia",
+      "materia": 13,
+      "enunciado": "Por una emergencia debe inmovilizar su vehículo dentro de un túnel. Si es posible, ¿hacia dónde debe dirigirlo?",
+      "opciones": {
+        "a": "Al carril izquierdo, para dejar libre el carril derecho.",
+        "b": "A la zona de emergencia más próxima, aunque sea marcha atrás.",
+        "c": "A la zona de emergencia más próxima en su sentido de marcha."
+      },
+      "correcta": "c",
+      "explicacion": "Quien queda inmovilizado por una emergencia en un túnel debe llevar el vehículo, si es posible, a la zona de emergencia más próxima en su sentido de marcha o, si no existe, junto al borde derecho.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3.b",
+        "cita": "Si es posible, dirigir el vehículo hacia la zona reservada para emergencia más próxima\nen el sentido de su marcha.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 97",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0138",
+      "tema": "tuneles",
+      "subtema": "emergencia",
+      "materia": 13,
+      "enunciado": "Ha quedado inmovilizado por una emergencia dentro de un túnel. ¿Debe colocar y activar el dispositivo luminoso de preseñalización de peligro?",
+      "opciones": {
+        "a": "Sí, además de apagar el motor y conectar la emergencia.",
+        "b": "No, dentro de un túnel basta con la señal de emergencia.",
+        "c": "No, porque los túneles ya tienen su propia señalización."
+      },
+      "correcta": "a",
+      "explicacion": "Inmovilizado por emergencia en un túnel, hay que apagar el motor, conectar la señal de emergencia, mantener las luces de posición y colocar y activar el dispositivo luminoso de preseñalización de peligro.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3.c",
+        "cita": "c) Colocar y activar el dispositivo luminoso de preseñalización de peligro.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 97",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0139",
+      "tema": "tuneles",
+      "subtema": "atasco",
+      "materia": 13,
+      "enunciado": "Queda detenido dentro de un túnel por un atasco. ¿Qué debe hacer con la señal de emergencia?",
+      "opciones": {
+        "a": "No usarla, porque solo sirve para averías y accidentes.",
+        "b": "Conectarla temporalmente para avisar a los que vienen detrás.",
+        "c": "Mantenerla conectada hasta haber salido del túnel."
+      },
+      "correcta": "b",
+      "explicacion": "Detenido en un túnel por necesidades de la circulación, se conecta temporalmente la señal de emergencia para avisar a quienes vienen detrás, se mantienen las luces de posición y se apaga el motor.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3",
+        "cita": "se debe de conectar la señal de emergencia temporalmente para advertir a otros\nconductores que circulen detrás",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 97",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0140",
+      "tema": "paso_nivel",
+      "subtema": "detencion",
+      "materia": 13,
+      "enunciado": "Por causa de fuerza mayor, su vehículo queda detenido dentro de un paso a nivel. ¿Qué está obligado a hacer?",
+      "opciones": {
+        "a": "Desalojar rápido a los ocupantes y dejar libre el paso cuanto antes.",
+        "b": "Quedarse dentro del vehículo con el cinturón de seguridad abrochado.",
+        "c": "Esperar dentro del vehículo hasta que llegue el servicio de grúa."
+      },
+      "correcta": "a",
+      "explicacion": "Si un vehículo queda detenido en un paso a nivel, su conductor debe desalojar rápidamente a los ocupantes y dejar el paso libre lo antes posible.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.1",
+        "cita": "el conductor estará obligado a adoptar las\nmedidas adecuadas para el rápido desalojo de los ocupantes del vehículo y para dejar el\npaso expedito en el menor tiempo posible.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 97",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0141",
+      "tema": "paso_nivel",
+      "subtema": "detencion",
+      "materia": 13,
+      "enunciado": "Su vehículo ha quedado detenido en un paso a nivel y no consigue sacarlo de él. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Avisar del peligro con antelación a los maquinistas y a los demás conductores.",
+        "b": "Marcharse del lugar y avisar después a su compañía de seguros.",
+        "c": "Seguir intentando sacarlo empujando, aunque se acerque un tren."
+      },
+      "correcta": "a",
+      "explicacion": "Si no se consigue dejar libre un paso a nivel, hay que adoptar de inmediato todas las medidas posibles para que los maquinistas y los demás conductores sean advertidos del peligro con antelación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.1",
+        "cita": "todas las medidas a su alcance para que tanto los maquinistas de los vehículos que circulen\npor raíles como los conductores del resto de los vehículos que se aproximen sean advertidos",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 97",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    },
+    {
+      "id": "xd-0142",
+      "tema": "inmovilizacion",
+      "subtema": "v16",
+      "materia": 13,
+      "enunciado": "Para comunicar su posición a la DGT, ¿necesita el dispositivo luminoso V-16 una aplicación del teléfono móvil?",
+      "opciones": {
+        "a": "Sí, debe estar conectado por bluetooth a un teléfono móvil.",
+        "b": "No, lleva dentro todo lo necesario, incluidas las comunicaciones.",
+        "c": "Sí, salvo en las autopistas, que tienen cobertura propia."
+      },
+      "correcta": "b",
+      "explicacion": "El dispositivo V-16 incluye en su carcasa todos los elementos necesarios para funcionar, incluidos los de comunicaciones, sin depender de aplicaciones de móviles.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XI, V-16.6",
+        "cita": "El dispositivo incluirá en el interior de su carcasa todos los elementos necesarios para\nsu operación, incluidos los de comunicaciones, sin depender en ningún caso de elementos\nexternos como aplicaciones de teléfonos móviles",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGV anexo XI",
+        "minuto": null
+      },
+      "imagen": null,
+      "imagen_requerida": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": ""
+    }
+  ]
+}

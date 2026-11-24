@@ -37,7 +37,7 @@
       "tema": "accidentes",
       "subtema": "factores_riesgo",
       "materia": 2,
-      "enunciado": "Según la DGT, de los tres grandes factores de riesgo (humano, estado de la carretera y fallo del vehículo), ¿cuál interviene en menos accidentes?",
+      "enunciado": "De los tres grandes factores de riesgo (humano, estado de la carretera y fallo del vehículo), ¿cuál interviene en menos accidentes?",
       "opciones": {
         "a": "El factor humano.",
         "b": "El fallo del vehículo.",
@@ -130,10 +130,10 @@
       "tema": "accidentes",
       "subtema": "prevencion",
       "materia": 2,
-      "enunciado": "Va a empezar un viaje largo. Según la DGT, ¿qué comprobación ayuda a evitar un accidente por fallo del vehículo?",
+      "enunciado": "Antes de un viaje largo, ¿qué comprobación ayuda a evitar un accidente por fallo del vehículo?",
       "opciones": {
-        "a": "Comprobar que el depósito del limpiaparabrisas está lleno hasta arriba.",
-        "b": "Revisar que los neumáticos están en buen estado para que no sufran un reventón.",
+        "a": "Que el depósito del limpiaparabrisas está lleno hasta arriba.",
+        "b": "Que los neumáticos están en buen estado.",
         "c": "Ninguna, porque los fallos del vehículo no se pueden evitar."
       },
       "correcta": "b",
@@ -161,11 +161,11 @@
       "tema": "accidentes",
       "subtema": "prevencion",
       "materia": 2,
-      "enunciado": "Circula por una carretera con lluvia. Según la DGT, ¿cómo puede reducir el riesgo de accidente?",
+      "enunciado": "Circula por una carretera con lluvia. ¿Cómo puede reducir el riesgo de accidente?",
       "opciones": {
-        "a": "Mantener la velocidad, pero encender las luces antiniebla traseras.",
-        "b": "Acercarse más al vehículo de delante para guiarse por sus luces.",
-        "c": "Reducir la velocidad y dejar más distancia de seguridad con el vehículo de delante."
+        "a": "Manteniendo la velocidad, pero con las luces antiniebla traseras encendidas.",
+        "b": "Acercándose más al vehículo de delante para guiarse por sus luces.",
+        "c": "Reduciendo la velocidad y aumentando la distancia de seguridad."
       },
       "correcta": "c",
       "explicacion": "En una carretera con lluvia se pueden evitar accidentes reduciendo la velocidad y dejando más distancia de seguridad con el vehículo de delante.",
@@ -192,7 +192,7 @@
       "tema": "accidentes",
       "subtema": "tipos_accidente",
       "materia": 2,
-      "enunciado": "Según la DGT, ¿qué tipo de accidente es el más frecuente dentro de las ciudades?",
+      "enunciado": "¿Qué tipo de accidente es el más frecuente dentro de las ciudades?",
       "opciones": {
         "a": "El atropello a peatones.",
         "b": "La salida de la vía.",
@@ -254,7 +254,7 @@
       "tema": "accidentes",
       "subtema": "velocidad",
       "materia": 2,
-      "enunciado": "Según la DGT, si un vehículo atropella a un peatón dentro de una ciudad, ¿qué aumenta las posibilidades de que el peatón sobreviva?",
+      "enunciado": "Si un vehículo atropella a un peatón en ciudad, ¿qué aumenta las posibilidades de que el peatón sobreviva?",
       "opciones": {
         "a": "Que el vehículo circulara a poca velocidad.",
         "b": "Que el vehículo fuera de mayor tamaño.",
@@ -285,11 +285,11 @@
       "tema": "accidentes",
       "subtema": "grupos_riesgo",
       "materia": 2,
-      "enunciado": "Según la DGT, ¿dónde ocurren sobre todo los accidentes de tráfico de los jóvenes?",
+      "enunciado": "¿Dónde ocurren sobre todo los accidentes de tráfico de los jóvenes?",
       "opciones": {
         "a": "En las autopistas de peaje, durante los viajes largos.",
         "b": "En las carreteras de montaña con muchas curvas.",
-        "c": "En las grandes ciudades, en los trayectos de ida y vuelta al trabajo y en los lugares de fiesta."
+        "c": "En las grandes ciudades, al ir y volver del trabajo y de los lugares de fiesta."
       },
       "correcta": "c",
       "explicacion": "Los accidentes de los jóvenes ocurren sobre todo en las grandes ciudades, en los caminos de ida y vuelta al trabajo y en los lugares de fiesta.",
@@ -347,7 +347,7 @@
       "tema": "accidentes",
       "subtema": "grupos_riesgo",
       "materia": 2,
-      "enunciado": "¿Cuál de estas es una de las causas principales de los accidentes de tráfico de los jóvenes, según la DGT?",
+      "enunciado": "¿Cuál de estas es una de las causas principales de los accidentes de tráfico de los jóvenes?",
       "opciones": {
         "a": "Tener demasiada experiencia al volante.",
         "b": "Competir con otros conductores.",
@@ -378,11 +378,11 @@
       "tema": "accidentes",
       "subtema": "grupos_riesgo",
       "materia": 2,
-      "enunciado": "¿Qué papel puede tener la publicidad en los accidentes de los jóvenes, según la DGT?",
+      "enunciado": "¿Qué papel puede tener la publicidad en los accidentes de los jóvenes?",
       "opciones": {
         "a": "Ninguno, porque la publicidad no influye en la forma de conducir.",
         "b": "Solo influye la publicidad de bebidas alcohólicas.",
-        "c": "Seguir los consejos de publicidad que invita a correr riesgos es una causa de accidentes juveniles."
+        "c": "Seguir la publicidad que invita a correr riesgos causa accidentes juveniles."
       },
       "correcta": "c",
       "explicacion": "La DGT incluye entre las causas de accidentes juveniles seguir los consejos de alguna publicidad que invita a los conductores a correr riesgos.",
@@ -412,7 +412,7 @@
       "enunciado": "¿Cuándo ocurren más accidentes de ciclistas?",
       "opciones": {
         "a": "Los días laborables de invierno.",
-        "b": "Los fines de semana, sobre todo cuando llega el buen tiempo.",
+        "b": "Los fines de semana, sobre todo con el buen tiempo.",
         "c": "Por la noche, en las ciudades."
       },
       "correcta": "b",
@@ -502,11 +502,11 @@
       "tema": "accidentes",
       "subtema": "motocicletas",
       "materia": 2,
-      "enunciado": "¿Cuál de estas faltas de los conductores de otros vehículos causa accidentes con motocicletas, según la DGT?",
+      "enunciado": "¿Cuál de estas faltas de los conductores de otros vehículos causa accidentes con motocicletas?",
       "opciones": {
         "a": "No respetar la preferencia de paso de las motocicletas.",
         "b": "Encender la luz de cruce durante el día.",
-        "c": "Dejar demasiada distancia de seguridad con ellas."
+        "c": "Dejarles demasiada distancia de seguridad."
       },
       "correcta": "a",
       "explicacion": "Entre las faltas de los conductores de otros vehículos que causan accidentes con motocicletas están no respetar su preferencia de paso, ocupar el carril contrario y las distracciones.",
@@ -567,7 +567,7 @@
       "enunciado": "Circula a 70 km/h, por debajo del límite de la vía, por una carretera con placas de hielo. ¿Cómo se considera esa velocidad?",
       "opciones": {
         "a": "Adecuada, porque no supera el límite permitido.",
-        "b": "Inadecuada, porque no es apropiada para el estado de la carretera.",
+        "b": "Inadecuada.",
         "c": "Anormalmente reducida."
       },
       "correcta": "b",
@@ -595,7 +595,7 @@
       "tema": "accidentes",
       "subtema": "velocidad",
       "materia": 2,
-      "enunciado": "Según la DGT, ¿qué papel tiene la velocidad inadecuada o excesiva en los accidentes?",
+      "enunciado": "¿Qué papel tiene la velocidad inadecuada o excesiva en los accidentes?",
       "opciones": {
         "a": "Solo influye en los accidentes en autopista.",
         "b": "Influye en la gravedad, pero no en el número de accidentes.",
@@ -657,10 +657,10 @@
       "tema": "accidentes",
       "subtema": "velocidad",
       "materia": 2,
-      "enunciado": "Según la DGT, ¿qué ocurre con el riesgo de morir en un accidente cuando el vehículo circula a velocidad excesiva?",
+      "enunciado": "Cuando un vehículo circula a velocidad excesiva, ¿qué ocurre con el riesgo de morir en un accidente?",
       "opciones": {
-        "a": "Es el mismo que a velocidad adecuada si se lleva el cinturón.",
-        "b": "Es mayor que cuando circula a velocidad adecuada.",
+        "a": "Es el mismo que a velocidad adecuada, si se lleva el cinturón.",
+        "b": "Es mayor que a velocidad adecuada.",
         "c": "Solo aumenta en vías urbanas."
       },
       "correcta": "b",
@@ -723,7 +723,7 @@
       "opciones": {
         "a": "En las calles de las ciudades.",
         "b": "En carreteras más que en ciudad, y en autopistas y autovías.",
-        "c": "En los caminos rurales sin asfaltar."
+        "c": "En los caminos rurales sin asfaltar, por su mal estado."
       },
       "correcta": "b",
       "explicacion": "Los accidentes por distracciones son más frecuentes en carreteras que en ciudad, y en autopistas y autovías.",
@@ -750,7 +750,7 @@
       "tema": "accidentes",
       "subtema": "distracciones",
       "materia": 2,
-      "enunciado": "Según la DGT, ¿cuándo son más frecuentes los accidentes por distracciones?",
+      "enunciado": "¿Cuándo son más frecuentes los accidentes por distracciones?",
       "opciones": {
         "a": "Cuando el conductor viaja solo y de noche.",
         "b": "En los meses de invierno.",
@@ -783,7 +783,7 @@
       "materia": 2,
       "enunciado": "Conoce muy bien la carretera por la que circula a diario. ¿Puede ser eso causa de distracción?",
       "opciones": {
-        "a": "Sí, porque puede confiarse demasiado.",
+        "a": "Sí.",
         "b": "No, conocer la carretera elimina el riesgo de distracción.",
         "c": "Solo si circula de noche."
       },
@@ -814,9 +814,9 @@
       "materia": 2,
       "enunciado": "¿Por qué fumar mientras se conduce aumenta el riesgo de accidente?",
       "opciones": {
-        "a": "Porque el tabaco aumenta la velocidad de reacción.",
+        "a": "Porque obliga a circular a mayor velocidad.",
         "b": "Porque obliga a circular con las ventanillas cerradas.",
-        "c": "Porque al buscar y encender el cigarro se desatiende la carretera y una mano queda ocupada."
+        "c": "Porque al buscar y encender el cigarro se desatiende la carretera."
       },
       "correcta": "c",
       "explicacion": "Fumar mientras se conduce aumenta el riesgo de accidente por la falta de atención al buscar y encender el cigarro, la mano ocupada, el humo que dificulta la visión y el peor aire del habitáculo.",
@@ -843,7 +843,7 @@
       "tema": "accidentes",
       "subtema": "drogas",
       "materia": 2,
-      "enunciado": "Según la DGT, ¿qué proporción de las personas que mueren en un accidente de tráfico había consumido drogas antes de conducir?",
+      "enunciado": "¿Qué proporción de las personas que mueren en un accidente de tráfico había consumido drogas antes de conducir?",
       "opciones": {
         "a": "Una de cada 10.",
         "b": "Una de cada 100.",
@@ -936,7 +936,7 @@
       "tema": "accidentes",
       "subtema": "fatiga",
       "materia": 2,
-      "enunciado": "Según la DGT, ¿qué importancia tiene la fatiga como causa de accidentes?",
+      "enunciado": "¿Qué importancia tiene la fatiga como causa de accidentes?",
       "opciones": {
         "a": "Solo es peligrosa para los conductores profesionales.",
         "b": "Es uno de los principales riesgos que pueden provocar accidentes.",
@@ -998,7 +998,7 @@
       "tema": "actitudes",
       "subtema": "conduccion_defensiva",
       "materia": 3,
-      "enunciado": "Circula por una autovía y ve que el conductor del carril de al lado puede necesitar cambiarse a su carril. Según la conducción defensiva, ¿qué debe hacer?",
+      "enunciado": "En una autovía, ve que el conductor del carril de al lado puede necesitar pasarse a su carril. Conduciendo de forma defensiva, ¿qué debe hacer?",
       "opciones": {
         "a": "Acelerar para que no se le meta delante.",
         "b": "Tenerlo en cuenta y estar preparado por si ocurre.",
@@ -1033,7 +1033,7 @@
       "opciones": {
         "a": "Solo por delante.",
         "b": "Solo por delante y por detrás.",
-        "c": "Por delante, por detrás y a los lados del vehículo."
+        "c": "Por delante, por detrás y por los lados."
       },
       "correcta": "c",
       "explicacion": "La zona de inseguridad es el espacio en el que pueden surgir imprevistos por parte de otros conductores y peatones, y esos imprevistos pueden surgir por delante, por detrás y a los lados del vehículo.",
@@ -1060,7 +1060,7 @@
       "tema": "actitudes",
       "subtema": "convivencia",
       "materia": 3,
-      "enunciado": "Según la DGT, ¿de quién depende la seguridad en la carretera?",
+      "enunciado": "¿De quién depende la seguridad en la carretera?",
       "opciones": {
         "a": "De los conductores y también de los peatones.",
         "b": "Solo de los conductores profesionales.",
@@ -1184,11 +1184,11 @@
       "tema": "actitudes",
       "subtema": "vigilancia",
       "materia": 3,
-      "enunciado": "Según la DGT, ¿cómo debe cambiar la distancia a la que mira hacia delante cuando aumenta la velocidad?",
+      "enunciado": "Cuando aumenta la velocidad, ¿cómo debe cambiar la distancia a la que mira hacia delante?",
       "opciones": {
-        "a": "Debe mirar más cerca para controlar el capó.",
-        "b": "No cambia, se mira siempre a la misma distancia.",
-        "c": "Cuanto más rápido conduce, más lejos debe mirar."
+        "a": "Debe mirar más cerca, para controlar el capó.",
+        "b": "No cambia; se mira siempre a la misma distancia.",
+        "c": "Debe mirar más lejos."
       },
       "correcta": "c",
       "explicacion": "Cuanto más rápido se conduce, más lejos hay que mirar, para prever las situaciones de peligro y evitar frenazos y acelerones bruscos.",
@@ -1250,7 +1250,7 @@
       "opciones": {
         "a": "Solo antes de adelantar.",
         "b": "Durante todo el viaje, aunque no vaya a hacer ninguna maniobra.",
-        "c": "Solo cuando circula marcha atrás."
+        "c": "Solo cuando va a cambiar de carril o circula marcha atrás."
       },
       "correcta": "b",
       "explicacion": "Los retrovisores se deben mirar durante todo el viaje, aunque no se vaya a hacer ninguna maniobra, con una frecuencia que depende del tipo de carretera.",
@@ -1339,7 +1339,7 @@
       "tema": "actitudes",
       "subtema": "comunicacion",
       "materia": 3,
-      "enunciado": "Según la DGT, ¿cómo deben señalarse las maniobras para anticiparse a los imprevistos?",
+      "enunciado": "Para anticiparse a los imprevistos, ¿cómo deben señalizarse las maniobras?",
       "opciones": {
         "a": "Solo cuando haya otros vehículos muy cerca.",
         "b": "Solo en vías interurbanas.",
@@ -1401,10 +1401,10 @@
       "tema": "actitudes",
       "subtema": "espacio",
       "materia": 3,
-      "enunciado": "Se detiene en un atasco dejando dos o tres metros con el vehículo de delante. ¿Qué ventaja tiene, según la DGT?",
+      "enunciado": "En un atasco se detiene dejando dos o tres metros con el vehículo de delante. ¿Qué ventaja tiene?",
       "opciones": {
         "a": "Que el vehículo de delante no podrá cambiar de carril.",
-        "b": "Que podrá adelantar al vehículo de delante si este se queda parado por algún motivo.",
+        "b": "Que podrá rebasarlo si se queda parado por algún motivo.",
         "c": "Que ahorrará combustible al no tener que arrancar."
       },
       "correcta": "b",
@@ -1587,9 +1587,9 @@
       "tema": "actitudes",
       "subtema": "errores_ajenos",
       "materia": 3,
-      "enunciado": "Un peatón cruza la calle mientras habla por el móvil. ¿Qué debe hacer usted?",
+      "enunciado": "Un peatón cruza la calle mientras habla por el móvil. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Tener especial cuidado, porque puede ir distraído.",
+        "a": "Tener especial cuidado.",
         "b": "Tocar el claxon de forma prolongada para que se dé prisa.",
         "c": "Mantener la velocidad, porque es el peatón quien debe estar atento."
       },
@@ -1680,7 +1680,7 @@
       "tema": "actitudes",
       "subtema": "usuarios_vulnerables",
       "materia": 3,
-      "enunciado": "Según la Ley de Tráfico, al usar el vehículo con diligencia para no poner en peligro a nadie, ¿a quiénes debe cuidar especialmente el conductor?",
+      "enunciado": "El conductor debe usar el vehículo con la diligencia necesaria para no poner en peligro a nadie. ¿A quiénes debe cuidar especialmente?",
       "opciones": {
         "a": "A los usuarios cuyas características les hagan más vulnerables.",
         "b": "A los conductores de vehículos más caros.",
@@ -1742,7 +1742,7 @@
       "tema": "actitudes",
       "subtema": "atencion",
       "materia": 3,
-      "enunciado": "Según la DGT, ¿para qué está obligado el conductor a no distraerse?",
+      "enunciado": "¿Para qué está obligado el conductor a no distraerse?",
       "opciones": {
         "a": "Solo para evitar ser denunciado por los agentes de tráfico.",
         "b": "Solo para proteger su propio vehículo de posibles golpes.",
@@ -1870,7 +1870,7 @@
       "opciones": {
         "a": "El estado de los frenos y de los neumáticos.",
         "b": "El color de la carrocería.",
-        "c": "La potencia de la radio."
+        "c": "La potencia del equipo de música."
       },
       "correcta": "a",
       "explicacion": "Las condiciones técnicas del vehículo, como el estado de sus frenos y de los neumáticos, influyen en la distancia de frenado.",
@@ -1932,7 +1932,7 @@
       "opciones": {
         "a": "El espacio que se deja con el vehículo de delante.",
         "b": "La anchura del arcén.",
-        "c": "La distancia necesaria entre dos vehículos que se cruzan o circulan uno al lado del otro."
+        "c": "La distancia entre dos vehículos que se cruzan o circulan uno al lado del otro."
       },
       "correcta": "c",
       "explicacion": "La separación lateral es la distancia necesaria entre dos vehículos que se cruzan o que circulan uno al lado del otro, y siempre debe ser suficiente para evitar cualquier peligro.",
@@ -2023,9 +2023,9 @@
       "materia": 5,
       "enunciado": "¿Qué es la distancia de seguridad?",
       "opciones": {
-        "a": "La distancia que hay entre el conductor y el volante.",
-        "b": "La distancia que recorre el vehículo mientras el conductor reacciona.",
-        "c": "El espacio mínimo que debe dejar con el vehículo de delante para no chocar si frena de forma brusca e inesperada."
+        "a": "La distancia entre el conductor y el volante.",
+        "b": "La distancia que se recorre mientras el conductor reacciona.",
+        "c": "El espacio mínimo con el vehículo de delante para no chocar si frena bruscamente."
       },
       "correcta": "c",
       "explicacion": "La distancia de seguridad es el espacio mínimo que se debe dejar con el vehículo de delante para no chocar con él en caso de un frenado brusco e inesperado.",
@@ -2117,7 +2117,7 @@
       "enunciado": "Fuera de poblado, en una carretera de un carril por sentido donde se puede adelantar, circula detrás de otro vehículo sin intención de adelantarlo. ¿Qué separación debe dejar?",
       "opciones": {
         "a": "La mínima posible, para no ocupar espacio.",
-        "b": "Una que permita al vehículo que le sigue adelantarle con seguridad.",
+        "b": "Una que permita adelantarle con seguridad al que le sigue.",
         "c": "Ninguna en concreto, si circula a la velocidad máxima."
       },
       "correcta": "b",
@@ -2176,7 +2176,7 @@
       "tema": "distancias_frenado",
       "subtema": "abs",
       "materia": 5,
-      "enunciado": "Según la DGT, además de ayudar a mantener el control del vehículo, ¿qué otra ventaja tiene el sistema antibloqueo de frenos (ABS)?",
+      "enunciado": "Además de ayudar a mantener el control del vehículo, ¿qué otra ventaja tiene el sistema antibloqueo de frenos (ABS)?",
       "opciones": {
         "a": "Ayuda a frenar en menos espacio.",
         "b": "Permite frenar sin pisar el pedal.",
@@ -2300,11 +2300,11 @@
       "tema": "distancias_frenado",
       "subtema": "fallo_frenos",
       "materia": 5,
-      "enunciado": "Los frenos fallan mientras baja una cuesta larga y muy inclinada. ¿Qué debe hacer, según la DGT?",
+      "enunciado": "Mientras baja una cuesta larga y muy inclinada, le fallan los frenos. ¿Qué debe hacer?",
       "opciones": {
         "a": "Poner punto muerto para que el vehículo pierda velocidad.",
         "b": "Apagar el motor.",
-        "c": "No acelerar y reducir marchas para que el motor actúe como freno."
+        "c": "No acelerar y reducir marchas."
       },
       "correcta": "c",
       "explicacion": "Si los frenos fallan al bajar una cuesta larga y muy inclinada, hay que dejar de acelerar y reducir marchas para que el motor actúe como freno; si no se puede, tirar suavemente del freno de mano.",
@@ -2331,7 +2331,7 @@
       "tema": "distancias_frenado",
       "subtema": "fallo_frenos",
       "materia": 5,
-      "enunciado": "Le fallan los frenos y no puede reducir marchas. ¿Qué puede hacer, según la DGT?",
+      "enunciado": "Le fallan los frenos y no puede reducir marchas. ¿Qué puede hacer?",
       "opciones": {
         "a": "Girar bruscamente el volante para frenar con los neumáticos.",
         "b": "Tirar de la palanca del freno de mano de forma suave.",
@@ -2365,7 +2365,7 @@
       "enunciado": "¿En qué situaciones ayuda especialmente el control de tracción a conservar la estabilidad?",
       "opciones": {
         "a": "Al aparcar en línea.",
-        "b": "En las curvas, al subir una cuesta o cuando hay lluvia.",
+        "b": "En las curvas, en las subidas o con lluvia.",
         "c": "Solo al circular marcha atrás."
       },
       "correcta": "b",
@@ -2396,7 +2396,7 @@
       "enunciado": "¿En qué situación le ayuda el control electrónico de estabilidad a mantener el control?",
       "opciones": {
         "a": "Al repostar combustible.",
-        "b": "Al arrancar en frío.",
+        "b": "Al arrancar con el motor en frío.",
         "c": "Al esquivar un obstáculo o al tomar una curva."
       },
       "correcta": "c",
@@ -2457,7 +2457,7 @@
       "materia": 5,
       "enunciado": "¿En qué caso es más peligrosa una curva?",
       "opciones": {
-        "a": "Cuando es muy cerrada, el vehículo lleva mucho peso o circula muy rápido.",
+        "a": "Cuando es muy cerrada o se toma con mucho peso o muy rápido.",
         "b": "Cuando es abierta y el vehículo va vacío.",
         "c": "Cuando el vehículo circula despacio."
       },
@@ -2521,7 +2521,7 @@
       "opciones": {
         "a": "Frenando con fuerza para no salirse.",
         "b": "Acelerando a fondo para salir antes.",
-        "c": "Girando el volante de forma suave, sin acelerar ni frenar de manera brusca."
+        "c": "Girando el volante con suavidad, sin acelerar ni frenar bruscamente."
       },
       "correcta": "c",
       "explicacion": "Dentro de la curva hay que girar el volante de forma suave, no acelerar ni frenar de manera brusca y acelerar poco a poco.",
@@ -2737,7 +2737,7 @@
       "enunciado": "Lleva los neumáticos con más presión de la recomendada. ¿Qué ocurre con el agarre?",
       "opciones": {
         "a": "Mejora, porque el neumático está más duro.",
-        "b": "Empeora, porque el neumático tiene menos contacto con el suelo.",
+        "b": "Empeora.",
         "c": "No cambia."
       },
       "correcta": "b",
@@ -2796,7 +2796,7 @@
       "tema": "distancias_frenado",
       "subtema": "velocidad_carga",
       "materia": 5,
-      "enunciado": "Lleva mucho peso en el vehículo. Según la DGT, ¿cómo debe adaptar la velocidad?",
+      "enunciado": "Lleva mucho peso en el vehículo. ¿Cómo debe adaptar la velocidad?",
       "opciones": {
         "a": "Ir más rápido para no perder inercia en las subidas.",
         "b": "Conducir más despacio.",
@@ -2827,7 +2827,7 @@
       "tema": "vias",
       "subtema": "partes_via",
       "materia": 7,
-      "enunciado": "Según la Ley de Tráfico, ¿cómo se llama la zona de la carretera dedicada al uso de vehículos formada por la calzada y los arcenes?",
+      "enunciado": "¿Cómo se llama la zona de la carretera destinada a los vehículos, formada por la calzada y los arcenes?",
       "opciones": {
         "a": "Carril.",
         "b": "Plataforma.",
@@ -2920,9 +2920,9 @@
       "tema": "vias",
       "subtema": "partes_via",
       "materia": 7,
-      "enunciado": "Para que una zona de la carretera sea una acera, ¿tiene que estar elevada?",
+      "enunciado": "Para ser una acera, ¿tiene que estar elevada una zona de la vía?",
       "opciones": {
-        "a": "No, la acera es la zona longitudinal destinada al tránsito de peatones, elevada o no.",
+        "a": "No.",
         "b": "Sí, siempre debe tener bordillo.",
         "c": "Sí, al menos 15 centímetros sobre la calzada."
       },
@@ -3013,7 +3013,7 @@
       "tema": "vias",
       "subtema": "partes_via",
       "materia": 7,
-      "enunciado": "Según la Ley de Tráfico, ¿cuándo está destinado el arcén al uso de los automóviles?",
+      "enunciado": "¿Cuándo está destinado el arcén al uso de los automóviles?",
       "opciones": {
         "a": "Solo en circunstancias excepcionales.",
         "b": "Siempre que el conductor quiera dejar pasar a otro.",
@@ -3044,10 +3044,10 @@
       "tema": "vias",
       "subtema": "intersecciones",
       "materia": 7,
-      "enunciado": "Según la Ley de Tráfico, ¿qué caracteriza a una intersección?",
+      "enunciado": "¿Qué caracteriza a una intersección?",
       "opciones": {
         "a": "Que siempre está regulada por semáforos.",
-        "b": "Que en ella todos los cruces de trayectorias posibles de los vehículos se realizan a nivel.",
+        "b": "Que en ella todos los cruces de trayectorias se hacen a nivel.",
         "c": "Que las vías se cruzan a distinto nivel mediante puentes."
       },
       "correcta": "b",
@@ -3079,7 +3079,7 @@
       "opciones": {
         "a": "Una plaza peatonal con una fuente o un monumento en el centro.",
         "b": "Una intersección regulada siempre por un agente o por semáforos.",
-        "c": "Una intersección cuyos tramos se comunican por un anillo con circulación rotatoria alrededor de una isleta."
+        "c": "Una intersección cuyos tramos se comunican por un anillo de circulación rotatoria."
       },
       "correcta": "c",
       "explicacion": "Una glorieta es un tipo especial de intersección en el que los tramos que confluyen se comunican a través de un anillo con circulación rotatoria alrededor de una isleta central.",
@@ -3108,7 +3108,7 @@
       "materia": 7,
       "enunciado": "En una «glorieta partida», dos tramos opuestos se conectan directamente a través de la isleta central. ¿Es una glorieta propiamente dicha?",
       "opciones": {
-        "a": "No, porque el tráfico pasa de un tramo a otro sin rodear la isleta.",
+        "a": "No.",
         "b": "Sí, porque tiene isleta central.",
         "c": "Sí, siempre que tenga más de cuatro accesos."
       },
@@ -3140,7 +3140,7 @@
       "enunciado": "¿Qué es un paso a nivel?",
       "opciones": {
         "a": "Un paso para peatones elevado sobre la calzada.",
-        "b": "Un cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente.",
+        "b": "Un cruce a nivel entre una vía y una línea de ferrocarril con plataforma independiente.",
         "c": "Un puente por el que una carretera cruza sobre la vía del tren."
       },
       "correcta": "b",
@@ -3168,9 +3168,9 @@
       "tema": "vias",
       "subtema": "clases_vias",
       "materia": 7,
-      "enunciado": "Según la Ley de Tráfico, ¿qué es una carretera?",
+      "enunciado": "¿Qué es una carretera?",
       "opciones": {
-        "a": "Cualquier vía pública, esté dentro o fuera de poblado.",
+        "a": "Cualquier vía pública pavimentada, esté dentro o fuera de poblado.",
         "b": "Una vía sin pavimentar que comunica fincas.",
         "c": "Una vía pública pavimentada situada fuera de poblado, salvo los tramos en travesía."
       },
@@ -3292,11 +3292,11 @@
       "tema": "vias",
       "subtema": "clases_vias",
       "materia": 7,
-      "enunciado": "Según la Ley de Tráfico, ¿qué es un poblado?",
+      "enunciado": "¿Qué es un poblado?",
       "opciones": {
-        "a": "Un espacio con edificios señalizado con señales de entrada y salida de poblado.",
+        "a": "Un espacio con edificios, con señales de entrada y salida de poblado.",
         "b": "Cualquier lugar con al menos diez edificios juntos, aunque no esté señalizado.",
-        "c": "Cualquier tramo de vía que disponga de alumbrado público."
+        "c": "Cualquier tramo de vía con alumbrado público."
       },
       "correcta": "a",
       "explicacion": "Un poblado es el espacio que comprende edificios y en cuyas vías de entrada y de salida están colocadas, respectivamente, las señales de entrada a poblado y de salida de poblado.",
@@ -3326,7 +3326,7 @@
       "enunciado": "Un tramo de carretera atraviesa un pueblo, pero existe una variante a la que tiene acceso. ¿Ese tramo es una travesía?",
       "opciones": {
         "a": "Sí, todo tramo de carretera que pasa por poblado es travesía.",
-        "b": "No, los tramos que disponen de una variante a la que tienen acceso no se consideran travesías.",
+        "b": "No.",
         "c": "Solo si tiene semáforos."
       },
       "correcta": "b",
@@ -3354,11 +3354,11 @@
       "tema": "vias",
       "subtema": "clases_vias",
       "materia": 7,
-      "enunciado": "Según la Ley de Tráfico, ¿es una travesía una vía urbana?",
+      "enunciado": "Una travesía, ¿es una vía urbana?",
       "opciones": {
         "a": "Sí, toda vía dentro de poblado es urbana.",
         "b": "Solo si tiene aceras a ambos lados.",
-        "c": "No, la vía urbana es la situada dentro de poblado, excepto las travesías."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La vía urbana es la vía pública situada dentro de poblado, excepto las travesías.",
@@ -3419,7 +3419,7 @@
       "enunciado": "¿Qué es un carril-bici?",
       "opciones": {
         "a": "Una vía ciclista señalizada sobre la acera.",
-        "b": "Una vía ciclista que discurre adosada a la calzada, en un solo sentido o en doble sentido.",
+        "b": "Una vía ciclista adosada a la calzada, de uno o de doble sentido.",
         "c": "Una vía para peatones y ciclos que discurre por parques."
       },
       "correcta": "b",
@@ -3512,7 +3512,7 @@
       "enunciado": "¿Qué es una pista-bici?",
       "opciones": {
         "a": "Un carril de la calzada reservado a ciclos en horas punta.",
-        "b": "Una vía ciclista segregada del tráfico motorizado, con trazado independiente de las carreteras.",
+        "b": "Una vía ciclista segregada del tráfico motorizado, con trazado independiente.",
         "c": "Una zona de la acera donde se aparcan bicicletas."
       },
       "correcta": "b",
@@ -3633,11 +3633,11 @@
       "tema": "vias",
       "subtema": "carril_vao",
       "materia": 7,
-      "enunciado": "Según el Reglamento, ¿qué se entiende por vehículo con alta ocupación (VAO)?",
+      "enunciado": "¿Qué se entiende por vehículo con alta ocupación (VAO)?",
       "opciones": {
-        "a": "Cualquier vehículo con tres o más ocupantes, incluidos los camiones de más de 3.500 kg.",
-        "b": "El automóvil solo de personas, de hasta 3.500 kg de MMA, con los ocupantes fijados para el tramo.",
-        "c": "Solo el autobús que circula con todas sus plazas ocupadas por viajeros."
+        "a": "Cualquier vehículo con tres o más ocupantes, incluidos los camiones de más de 3.500 kg de masa máxima autorizada.",
+        "b": "El automóvil solo de personas, de hasta 3.500 kg de masa máxima autorizada, con los ocupantes fijados para el tramo.",
+        "c": "Solo el autobús que circula con todas sus plazas ocupadas."
       },
       "correcta": "b",
       "explicacion": "Los vehículos con alta ocupación son los automóviles destinados exclusivamente al transporte de personas, con MMA no superior a 3.500 kg, ocupados por el número de personas fijado para cada tramo.",
@@ -3730,7 +3730,7 @@
       "opciones": {
         "a": "Sí, si la seguridad lo permite.",
         "b": "Sí, por el carril izquierdo.",
-        "c": "No, en las autovías circulará en todo caso por el arcén."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La posibilidad de que los ciclistas abandonen el arcén en descensos prolongados con curvas no se aplica en las autovías, donde circulan en todo caso por el arcén.",
@@ -3852,7 +3852,7 @@
       "materia": 7,
       "enunciado": "¿Qué es la mediana?",
       "opciones": {
-        "a": "El espacio entre dos plataformas separadas, por el que no circulan los vehículos.",
+        "a": "El espacio entre dos plataformas separadas por el que no circulan vehículos.",
         "b": "El carril central de una carretera de tres carriles.",
         "c": "La línea pintada en el centro de la calzada."
       },
@@ -3884,7 +3884,7 @@
       "enunciado": "¿Qué riesgo tiene un cambio de rasante de visibilidad reducida?",
       "opciones": {
         "a": "Que la calzada se estrecha siempre a un solo carril.",
-        "b": "Que no se ve a los vehículos que van delante o que vienen en sentido contrario.",
+        "b": "Que no se ve a los vehículos que van delante o vienen de frente.",
         "c": "Que está prohibido circular a más de 30 km/h."
       },
       "correcta": "b",
@@ -3974,11 +3974,11 @@
       "tema": "vias",
       "subtema": "estado_via",
       "materia": 7,
-      "enunciado": "Según el manual de la DGT, entre los colores que indican el estado de la vía, ¿qué significa el negro?",
+      "enunciado": "En la información sobre el estado de las carreteras, ¿qué significa el color negro?",
       "opciones": {
         "a": "Que hay obras.",
-        "b": "Que la carretera está cortada y no se puede circular.",
-        "c": "Que hay niebla."
+        "b": "Que la carretera está cortada.",
+        "c": "Que hay niebla en la zona."
       },
       "correcta": "b",
       "explicacion": "En la información del estado de las vías, el color negro indica que la carretera está cortada y no se puede circular.",
@@ -4005,11 +4005,11 @@
       "tema": "vias",
       "subtema": "estado_via",
       "materia": 7,
-      "enunciado": "Según el manual de la DGT, entre los colores que indican el estado de la vía, ¿qué significa el verde?",
+      "enunciado": "En la información sobre el estado de las carreteras, ¿qué significa el color verde?",
       "opciones": {
         "a": "Que se circula con total normalidad.",
         "b": "Que la carretera está cortada.",
-        "c": "Que no se puede alcanzar la velocidad máxima permitida en esa vía."
+        "c": "Que no se puede alcanzar la velocidad máxima de la vía."
       },
       "correcta": "c",
       "explicacion": "En la información del estado de las vías, el color verde indica que no se puede alcanzar la velocidad máxima permitida; el blanco indica circulación normal.",

@@ -99,10 +99,10 @@
       "tema": "vias",
       "subtema": "carriles_doble_sentido",
       "materia": 1,
-      "enunciado": "Conduce un camión de 12.000 kg de MMA por una carretera de doble sentido con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?",
+      "enunciado": "Conduce un camión de 12.000 kg de masa máxima autorizada por una carretera con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?",
       "opciones": {
         "a": "Por el arcén, para no entorpecer a los turismos.",
-        "b": "Por el centro de la calzada, para poder ver mejor.",
+        "b": "Por el centro de la calzada, para tener mejor visibilidad.",
         "c": "Por la calzada, en el carril de su derecha."
       },
       "correcta": "c",
@@ -272,7 +272,7 @@
       "tema": "vias",
       "subtema": "computo_carriles",
       "materia": 1,
-      "enunciado": "Fuera de poblado, una autovía tiene tres carriles en su sentido y uno de ellos está reservado a vehículos con alta ocupación (VAO). A efectos de las normas sobre utilización de carriles, ¿cuántos carriles se cuentan?",
+      "enunciado": "Fuera de poblado, una autovía tiene tres carriles en su sentido y uno está reservado a vehículos con alta ocupación (VAO). A efectos de utilización de carriles, ¿cuántos se cuentan?",
       "opciones": {
         "a": "Tres.",
         "b": "Uno.",
@@ -728,7 +728,7 @@
       "opciones": {
         "a": "No, solo obligan las señales verticales fijas.",
         "b": "Solo si hay agentes de tráfico en el tramo.",
-        "c": "Sí; la autoridad de tráfico puede fijar límites temporales con señalización variable."
+        "c": "Sí, aunque no lo indique una señal vertical fija."
       },
       "correcta": "c",
       "explicacion": "La autoridad responsable del tráfico puede fijar limitaciones de velocidad temporales mediante señalización circunstancial o variable cuando las condiciones de la circulación lo aconsejan.",
@@ -1286,7 +1286,7 @@
       "tema": "velocidad",
       "subtema": "minimas",
       "materia": 1,
-      "enunciado": "Su vehículo no puede alcanzar la velocidad mínima exigida en la vía y existe peligro de que le alcancen por detrás. ¿Qué luces debe utilizar mientras circula?",
+      "enunciado": "Su vehículo no puede alcanzar la velocidad mínima exigida en la vía y hay peligro de alcance por detrás. ¿Qué luces debe utilizar?",
       "opciones": {
         "a": "Las de largo alcance.",
         "b": "Las antiniebla traseras.",
@@ -1569,7 +1569,7 @@
       "opciones": {
         "a": "Sí, siempre que circule fuera de poblado.",
         "b": "Sí, salvo que circule de noche.",
-        "c": "No, porque hay más de un carril en su mismo sentido."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La separación mínima de 50 metros para facilitar el adelantamiento no se aplica en poblado, donde está prohibido adelantar, donde hay más de un carril en el mismo sentido ni con circulación saturada; la distancia de seguridad para frenar sí debe mantenerse.",
@@ -1596,7 +1596,7 @@
       "tema": "distancias",
       "subtema": "facilitar_adelantamiento",
       "materia": 5,
-      "enunciado": "Un turismo con caravana, de 11 metros de longitud total, circula por una carretera con un carril por sentido donde se permite adelantar, sin intención de adelantar. ¿Qué separación mínima debe dejar con el vehículo de delante?",
+      "enunciado": "Un turismo con caravana, de 11 metros de longitud total, circula por una carretera con un carril por sentido donde se permite adelantar. Si no va a adelantar, ¿qué separación mínima debe dejar con el vehículo de delante?",
       "opciones": {
         "a": "25 metros.",
         "b": "100 metros.",
@@ -1629,9 +1629,9 @@
       "materia": 1,
       "enunciado": "¿Se pueden entablar competiciones de velocidad en las vías públicas?",
       "opciones": {
-        "a": "No, salvo en vías acotadas para ello excepcionalmente por la autoridad.",
-        "b": "Sí, de madrugada y si no hay otros vehículos.",
-        "c": "Sí, en autopistas de peaje."
+        "a": "No, salvo en vías acotadas excepcionalmente para ello por la autoridad.",
+        "b": "Sí, de madrugada y sin otros vehículos en la vía.",
+        "c": "Sí, en las autopistas de peaje."
       },
       "correcta": "a",
       "explicacion": "Se prohíbe entablar competiciones de velocidad en las vías públicas o de uso público, salvo que, con carácter excepcional, la autoridad competente las haya acotado para ello.",
@@ -1658,7 +1658,7 @@
       "tema": "infracciones",
       "subtema": "competiciones",
       "materia": 1,
-      "enunciado": "Según la Ley de Tráfico, participar en competiciones o carreras de vehículos no autorizadas, cuando no es delito, ¿qué tipo de infracción es?",
+      "enunciado": "Participar en competiciones o carreras de vehículos no autorizadas, cuando no es delito, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Grave.",
         "b": "Muy grave.",
@@ -1689,7 +1689,7 @@
       "tema": "infracciones",
       "subtema": "distancia_seguridad",
       "materia": 1,
-      "enunciado": "Según la Ley de Tráfico, no mantener la distancia de seguridad con el vehículo precedente, ¿qué tipo de infracción es?",
+      "enunciado": "No mantener la distancia de seguridad con el vehículo precedente, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Grave.",
         "b": "Leve.",
@@ -1720,7 +1720,7 @@
       "tema": "infracciones",
       "subtema": "maniobras",
       "materia": 1,
-      "enunciado": "Según la Ley de Tráfico, incumplir las normas sobre preferencia de paso, adelantamientos o cambios de sentido, cuando no es delito, ¿qué tipo de infracción es?",
+      "enunciado": "Incumplir las normas sobre preferencia de paso, adelantamientos o cambios de sentido, cuando no es delito, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Leve.",
         "b": "Muy grave en todo caso.",
@@ -1753,7 +1753,7 @@
       "materia": 1,
       "enunciado": "Debe ceder el paso en una intersección. Hay un hueco, pero si sale, el vehículo que tiene prioridad tendrá que frenar bruscamente. ¿Qué debe hacer?",
       "opciones": {
-        "a": "Esperar, porque no puede obligarle a cambiar bruscamente su velocidad.",
+        "a": "Esperar.",
         "b": "Salir, porque ceder el paso solo obliga a no chocar.",
         "c": "Salir rápidamente, avisando antes con el claxon."
       },
@@ -1968,10 +1968,10 @@
       "tema": "prioridad",
       "subtema": "puentes",
       "materia": 1,
-      "enunciado": "Dos vehículos que necesitan autorización especial para circular se encuentran en un puente cuya calzada mide 5 metros de ancho. ¿Pueden cruzarse en él?",
+      "enunciado": "Dos vehículos que necesitan autorización especial para circular se encuentran en un puente de 5 metros de calzada. ¿Pueden cruzarse en él?",
       "opciones": {
         "a": "Sí, si reducen la velocidad.",
-        "b": "No, porque la calzada mide menos de 6 metros.",
+        "b": "No.",
         "c": "Sí, si cada uno ocupa su mitad de la calzada."
       },
       "correcta": "b",
@@ -2126,7 +2126,7 @@
       "enunciado": "En un estrechamiento, un agente ordena retroceder a un autobús para dejar pasar a un turismo. ¿Qué debe hacer el conductor del autobús?",
       "opciones": {
         "a": "Seguir, porque el autobús tiene preferencia sobre el turismo.",
-        "b": "Retroceder, porque prevalece lo que ordene el agente.",
+        "b": "Retroceder.",
         "c": "Esperar a que retroceda el turismo."
       },
       "correcta": "b",
@@ -2281,7 +2281,7 @@
       "enunciado": "Un vehículo de bomberos en servicio urgente, ¿puede superar los límites de velocidad?",
       "opciones": {
         "a": "No, nunca puede superarlos.",
-        "b": "Sí, en los casos y condiciones que fija el Reglamento.",
+        "b": "Sí, en los casos y condiciones que fija la norma.",
         "c": "Solo dentro de poblado."
       },
       "correcta": "b",
@@ -2312,8 +2312,8 @@
       "enunciado": "Una ambulancia en servicio urgente llega a un semáforo en rojo. ¿Qué debe hacer su conductor antes de pasar?",
       "opciones": {
         "a": "Pasar sin detenerse, porque tiene prioridad en todo caso.",
-        "b": "Detenerse siempre hasta que el semáforo se ponga en verde.",
-        "c": "Extremar las precauciones hasta comprobar que los demás se detienen o le facilitan el paso."
+        "b": "Detenerse siempre hasta que el semáforo cambie a verde.",
+        "c": "Extremar la precaución hasta comprobar que los demás le ceden el paso."
       },
       "correcta": "c",
       "explicacion": "Los conductores de vehículos prioritarios no deben pasar un semáforo o una intersección sin adoptar extremadas precauciones, hasta cerciorarse de que no hay riesgo de atropello y de que los demás conductores se han detenido o van a facilitarles el paso.",
@@ -2437,7 +2437,7 @@
       "opciones": {
         "a": "Una grúa de auxilio en carretera.",
         "b": "Un autobús de transporte escolar.",
-        "c": "Uno de protección civil y salvamento en servicio urgente."
+        "c": "Uno de protección civil en servicio urgente."
       },
       "correcta": "c",
       "explicacion": "Los vehículos prioritarios son los de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria, pública o privada, que circulan en servicio urgente y lo advierten con las señales luminosa y acústica especiales.",
@@ -2498,7 +2498,7 @@
       "enunciado": "Un vehículo de los agentes de tráfico se detiene para auxiliar a un usuario de la vía. ¿Dónde puede situarse?",
       "opciones": {
         "a": "Solo en el arcén.",
-        "b": "En la parte de la vía que resulte necesaria.",
+        "b": "En la parte de la vía que sea necesaria.",
         "c": "Solo fuera de la calzada."
       },
       "correcta": "b",
@@ -2557,7 +2557,7 @@
       "tema": "prioridad",
       "subtema": "urgencia_no_prioritario",
       "materia": 1,
-      "enunciado": "Tiene que llevar urgentemente a un herido en un vehículo que no dispone de luz de emergencia. Además de usar el claxon de forma intermitente, ¿cómo puede advertirlo?",
+      "enunciado": "Lleva urgentemente a un herido en un vehículo sin luz de emergencia. Además de usar el claxon de forma intermitente, ¿cómo puede advertirlo?",
       "opciones": {
         "a": "Agitando un pañuelo o con un procedimiento similar.",
         "b": "Con las luces de largo alcance encendidas de forma continua.",
@@ -2588,7 +2588,7 @@
       "tema": "prioridad",
       "subtema": "urgencia_no_prioritario",
       "materia": 1,
-      "enunciado": "Lleva urgentemente a un herido en su turismo, advirtiéndolo con el claxon y la luz de emergencia. ¿Pueden los agentes pedirle que justifique esa situación?",
+      "enunciado": "Lleva urgentemente a un herido en su turismo y lo advierte con el claxon y la luz de emergencia. ¿Pueden los agentes pedirle que lo justifique?",
       "opciones": {
         "a": "No, porque presta un servicio de urgencia.",
         "b": "Sí, en cualquier momento.",
@@ -2654,7 +2654,7 @@
       "opciones": {
         "a": "Sí, si la carga no sobresale del vehículo.",
         "b": "Sí, si circula a menos de 25 km/h.",
-        "c": "No, salvo los destinados a transporte especial con la autorización oportuna."
+        "c": "No, salvo los destinados a transporte especial con autorización."
       },
       "correcta": "c",
       "explicacion": "Los vehículos especiales no pueden circular transportando carga alguna, salvo los destinados específicamente a servicios de transporte especial, que necesitan la autorización oportuna.",
@@ -2715,7 +2715,7 @@
       "enunciado": "A un vehículo especial que circula a menos de 40 km/h se le avería la señal luminosa V-2. ¿Qué luces debe usar?",
       "opciones": {
         "a": "Solo las luces de largo alcance.",
-        "b": "La luz de cruce junto con la señal de emergencia.",
+        "b": "La de cruce junto con la señal de emergencia.",
         "c": "Las luces antiniebla delanteras."
       },
       "correcta": "b",
@@ -2909,8 +2909,8 @@
       "materia": 1,
       "enunciado": "Va a girar a la izquierda en un cruce. ¿Cuándo debe colocar su vehículo en el lugar adecuado?",
       "opciones": {
-        "a": "Con la necesaria antelación, y girar en el menor espacio y tiempo posibles.",
-        "b": "Justo en el momento de iniciar el giro.",
+        "a": "Con la antelación necesaria.",
+        "b": "Justo al iniciar el giro.",
         "c": "Después de pasar el centro de la intersección."
       },
       "correcta": "a",
@@ -3075,7 +3075,7 @@
       "opciones": {
         "a": "Sí, con las luces antiniebla encendidas.",
         "b": "Sí, si la hace muy despacio.",
-        "c": "No, porque no puede comprobar que no hay peligro."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "Se prohíbe el cambio de sentido en toda situación que impida comprobar que la maniobra no pone en peligro ni obstaculiza a otros usuarios.",
@@ -3102,10 +3102,10 @@
       "tema": "marcha_atras",
       "subtema": "cuando",
       "materia": 1,
-      "enunciado": "En una calle se ha pasado el cruce por el que quería girar, a unos 10 metros. Podría seguir adelante y dar la vuelta más adelante. ¿Puede volver marcha atrás hasta el cruce?",
+      "enunciado": "En una calle se ha pasado unos 10 metros del cruce por el que quería girar, pero puede seguir adelante y dar la vuelta más adelante. ¿Puede volver marcha atrás hasta el cruce?",
       "opciones": {
         "a": "Sí, porque no recorre más de 15 metros.",
-        "b": "No, porque puede seguir hacia delante o cambiar de dirección.",
+        "b": "No.",
         "c": "Sí, si enciende la señal de emergencia."
       },
       "correcta": "b",
@@ -3167,7 +3167,7 @@
       "enunciado": "Mientras hace marcha atrás oye avisos de una persona que está detrás. ¿Qué debe hacer?",
       "opciones": {
         "a": "Terminar la maniobra cuanto antes.",
-        "b": "Detenerse con toda rapidez y, si es preciso, desistir de la maniobra.",
+        "b": "Detenerse rápidamente y, si es preciso, desistir.",
         "c": "Seguir despacio, avisando con el claxon."
       },
       "correcta": "b",
@@ -3195,7 +3195,7 @@
       "tema": "adelantamiento",
       "subtema": "por_la_derecha",
       "materia": 1,
-      "enunciado": "En una calle de sentido único, el vehículo de delante indica claramente que va a parar en el lado izquierdo y queda espacio suficiente. ¿Por dónde debe adelantarlo?",
+      "enunciado": "En una calle de sentido único, el vehículo de delante indica claramente que va a parar a la izquierda y queda espacio suficiente. ¿Por dónde debe adelantarlo?",
       "opciones": {
         "a": "Por la izquierda, como norma general.",
         "b": "No puede adelantarlo; debe esperar.",
@@ -3226,10 +3226,10 @@
       "tema": "adelantamiento",
       "subtema": "varios_carriles",
       "materia": 1,
-      "enunciado": "En una autovía con tres carriles en su sentido acaba de adelantar y enseguida va a adelantar a otro vehículo. ¿Puede seguir en el carril que ha utilizado?",
+      "enunciado": "En una autovía con tres carriles en su sentido, acaba de adelantar y enseguida va a adelantar a otro vehículo. ¿Puede seguir en el mismo carril?",
       "opciones": {
         "a": "Sí, si no molesta indebidamente a los que vienen detrás más rápido.",
-        "b": "No, debe volver siempre al carril derecho entre adelantamientos.",
+        "b": "No, debe volver siempre al carril derecho entre un adelantamiento y otro.",
         "c": "Sí, en cualquier caso, mientras siga adelantando."
       },
       "correcta": "a",
@@ -3430,7 +3430,7 @@
       "tema": "adelantamiento",
       "subtema": "ciclistas_grupo",
       "materia": 8,
-      "enunciado": "Unos ciclistas circulan en grupo y uno de ellos pasa a otro del mismo grupo. ¿Se considera un adelantamiento a efectos de las normas previas a la maniobra?",
+      "enunciado": "En un grupo de ciclistas, uno de ellos pasa a otro del mismo grupo. ¿Se considera adelantamiento a efectos de las normas previas a esa maniobra?",
       "opciones": {
         "a": "Sí, y debe señalizarlo con el brazo.",
         "b": "No.",
@@ -3563,7 +3563,7 @@
       "tema": "adelantamiento",
       "subtema": "vulnerables",
       "materia": 8,
-      "enunciado": "Va a adelantar a un ciclista y, por el arcén del sentido contrario, se acerca de frente otro ciclista. Si la maniobra le pone en peligro, ¿puede adelantar?",
+      "enunciado": "Va a adelantar a un ciclista y por el arcén contrario viene de frente otro ciclista. Si la maniobra le pone en peligro, ¿puede adelantar?",
       "opciones": {
         "a": "Sí, porque el ciclista de frente no va por la calzada.",
         "b": "No, aunque el ciclista de frente circule por el arcén.",
@@ -3594,7 +3594,7 @@
       "tema": "adelantamiento",
       "subtema": "vulnerables",
       "materia": 8,
-      "enunciado": "Fuera de poblado va a adelantar a un ciclista. ¿Durante qué parte de la maniobra debe llevar la velocidad reducida en al menos 20 km/h respecto al límite de la vía?",
+      "enunciado": "Fuera de poblado va a adelantar a un ciclista. ¿Cuándo debe llevar la velocidad reducida en al menos 20 km/h respecto al límite de la vía?",
       "opciones": {
         "a": "Solo mientras vuelve a su carril.",
         "b": "Solo cuando el ciclista circula por la calzada y no por el arcén.",
@@ -3720,7 +3720,7 @@
       "materia": 1,
       "enunciado": "Conduce un vehículo pesado, no puede ceñirse del todo a la derecha y el que le sigue puede adelantarle con seguridad. ¿Cómo puede indicárselo con el brazo?",
       "opciones": {
-        "a": "Extendiéndolo horizontalmente y moviéndolo de atrás adelante, con el dorso de la mano hacia atrás.",
+        "a": "Extendiéndolo horizontalmente y moviéndolo de atrás adelante.",
         "b": "Levantándolo verticalmente con la palma de la mano hacia delante.",
         "c": "Moviéndolo de arriba abajo con movimientos cortos y rápidos."
       },
@@ -3811,11 +3811,11 @@
       "tema": "adelantamiento",
       "subtema": "prohibiciones",
       "materia": 1,
-      "enunciado": "Se acerca a una intersección y delante de usted circula despacio una motocicleta. ¿La prohibición de adelantar en intersecciones le impide adelantarla?",
+      "enunciado": "Se acerca a una intersección y delante circula despacio una motocicleta. ¿Le impide adelantarla la prohibición de adelantar en intersecciones?",
       "opciones": {
         "a": "Sí, en las intersecciones nunca se puede adelantar.",
         "b": "Solo si la motocicleta indica que va a girar a la derecha.",
-        "c": "No, porque se exceptúa el adelantamiento a vehículos de dos ruedas."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La prohibición de adelantar en intersecciones no rige para el adelantamiento a vehículos de dos ruedas, aunque deben cumplirse las demás normas del adelantamiento.",
@@ -3993,7 +3993,7 @@
       "tema": "adelantamiento",
       "subtema": "vehiculos_inmovilizados",
       "materia": 1,
-      "enunciado": "En una carretera limitada a 100 km/h, un vehículo de los agentes de tráfico está detenido regulando la circulación y ocupa parte de su carril. ¿A qué velocidad máxima puede rebasarlo?",
+      "enunciado": "En una carretera limitada a 100 km/h, un vehículo de agentes de tráfico detenido regulando la circulación ocupa parte de su carril. ¿A qué velocidad máxima puede rebasarlo?",
       "opciones": {
         "a": "100 km/h.",
         "b": "80 km/h.",
@@ -4028,7 +4028,7 @@
       "opciones": {
         "a": "Sí, si se cerciora de que no hay peligro.",
         "b": "Sí, si lleva parado más de dos minutos.",
-        "c": "No, porque está detenido por necesidades del tráfico."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "En un tramo con prohibición de adelantar se puede rebasar, ocupando el sentido contrario y sin peligro, a un vehículo inmovilizado que ocupa el carril, salvo que la inmovilización venga impuesta por necesidades del tráfico.",

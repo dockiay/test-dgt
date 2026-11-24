@@ -106,7 +106,7 @@
       "opciones": {
         "a": "De un tramo con escalón lateral.",
         "b": "De una zona con desprendimientos.",
-        "c": "De un resalte o badén en la vía o de pavimento en mal estado."
+        "c": "De un resalte, un badén o pavimento en mal estado."
       },
       "correcta": "c",
       "explicacion": "La señal P-15 «Perfil irregular» advierte de la proximidad de un resalte o badén en la vía o de pavimento en mal estado. Para un resalte o un badén concretos existen las señales P-15a y P-15b.",
@@ -430,11 +430,11 @@
       "id": "v4a-sen-0011",
       "tema": "senales",
       "subtema": "prohibicion_entrada",
-      "enunciado": "Un turismo arrastra un remolque de dos ejes con 3.000 kg de masa máxima autorizada, que va vacío y pesa 900 kg. Encuentra esta señal con la cifra «2 t» sobre la silueta del remolque. ¿Puede entrar?",
+      "enunciado": "Un turismo arrastra un remolque de dos ejes y 3.000 kg de masa máxima autorizada que va vacío y pesa 900 kg. ¿Puede entrar ante esta señal de 2 t?",
       "opciones": {
         "a": "Sí, porque en ese momento el remolque pesa menos de 2 t.",
         "b": "Sí, porque la señal solo afecta a los camiones con remolque.",
-        "c": "No, porque la cifra se refiere a la masa máxima autorizada del remolque, que supera 2 t."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La señal R-112 prohíbe el acceso a los vehículos de motor con remolque, salvo los de un solo eje. Si lleva una cifra de tonelaje, la prohibición se aplica cuando la masa máxima autorizada del remolque supera esa cifra, aunque vaya vacío.",
@@ -555,9 +555,9 @@
       "subtema": "prohibicion_entrada",
       "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Prohibición de entrada a los vehículos que emitan humo visible por una avería.",
-        "b": "Prohibición de entrada a todos los turismos con motor de combustión, sin excepciones.",
-        "c": "Prohibición de acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales, con las condiciones en un panel o cartel."
+        "a": "Prohibida la entrada a vehículos que echan humo por una avería.",
+        "b": "Prohibida la entrada a todos los turismos con motor de combustión.",
+        "c": "Acceso restringido según el distintivo ambiental u otros criterios ambientales."
       },
       "correcta": "c",
       "explicacion": "La señal R-120 prohíbe el acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales. Las condiciones (por ejemplo, qué distintivos pueden entrar) se especifican en un panel complementario o en un cartel que incluya la señal.",
@@ -594,9 +594,9 @@
       "id": "v4a-sen-0015",
       "tema": "senales",
       "subtema": "restriccion_paso",
-      "enunciado": "Conduce un camión de 7,5 t de masa máxima autorizada que va vacío y en ese momento pesa 4,5 t. Encuentra esta señal, con la cifra 5,5 t y sin silueta de vehículo. ¿Puede pasar?",
+      "enunciado": "Conduce un camión de 7,5 t de masa máxima autorizada que va vacío y pesa 4,5 t. Encuentra esta señal de 5,5 t, sin silueta de vehículo. ¿Puede pasar?",
       "opciones": {
-        "a": "Sí, porque la señal limita la masa en carga, es decir, lo que pesa el vehículo en ese momento.",
+        "a": "Sí.",
         "b": "No, porque su masa máxima autorizada supera 5,5 t.",
         "c": "No, porque la señal prohíbe el paso a todos los camiones."
       },
@@ -678,9 +678,9 @@
       "subtema": "prohibiciones",
       "enunciado": "Conduce una furgoneta de 3.000 kg de masa máxima autorizada y encuentra esta señal. ¿Le prohíbe adelantar?",
       "opciones": {
-        "a": "Sí, porque prohíbe adelantar a los camiones y a las furgonetas.",
-        "b": "Sí, pero solo cuando el adelantamiento implique invadir el sentido contrario.",
-        "c": "No, porque solo afecta a los camiones cuya masa máxima autorizada exceda de 3.500 kg."
+        "a": "Sí, porque prohíbe adelantar a camiones y furgonetas.",
+        "b": "Sí, pero solo si tiene que invadir el sentido contrario.",
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La señal R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg. No afecta a una furgoneta de 3.000 kg, que sigue sujeta a las normas generales de adelantamiento.",
@@ -719,9 +719,9 @@
       "subtema": "parada_estacionamiento",
       "enunciado": "Salvo indicación en contrario, ¿dónde rige la prohibición de esta señal?",
       "opciones": {
-        "a": "En el lado de la calzada donde está la señal, desde la vertical de la señal hasta la intersección más próxima en el sentido de la marcha.",
-        "b": "En los dos lados de la calzada, hasta la siguiente señal de fin de prohibiciones.",
-        "c": "En el lado de la calzada donde está la señal, solo en los 50 metros siguientes."
+        "a": "En su lado de la calzada, desde la señal hasta la próxima intersección.",
+        "b": "En los dos lados, hasta la siguiente señal de fin de prohibiciones.",
+        "c": "En su lado de la calzada, solo en los 50 metros siguientes."
       },
       "correcta": "a",
       "explicacion": "La señal R-307 prohíbe la parada y el estacionamiento en el lado de la calzada en que está situada; salvo indicación en contrario, desde la vertical de la señal hasta la intersección más próxima en el sentido de la marcha.",
@@ -762,7 +762,7 @@
       "opciones": {
         "a": "No, la prohibición rige durante todo el día 1.",
         "b": "No; a esa hora solo puede efectuar una parada.",
-        "c": "Sí, porque la prohibición empieza a las 9 horas del día 1."
+        "c": "Sí."
       },
       "correcta": "c",
       "explicacion": "La señal R-308c «Estacionamiento prohibido la primera quincena» prohíbe estacionar desde las 9 horas del día 1 hasta las 9 horas del día 16. A las 8:00 del día 1 aún no rige, así que se puede estacionar (hasta las 9:00).",
@@ -885,7 +885,7 @@
       "opciones": {
         "a": "Sí, porque la señal solo prohíbe el cambio de sentido.",
         "b": "Sí, porque las señales azules obligan pero no prohíben nada.",
-        "c": "No, porque la flecha señala la dirección y sentido que está obligado a seguir."
+        "c": "No."
       },
       "correcta": "c",
       "explicacion": "La señal R-400c «Sentido obligatorio» obliga a seguir la dirección y sentido de la flecha (de frente). Al obligar a seguir de frente, no se puede girar a la derecha ni a la izquierda ni cambiar de sentido.",
@@ -967,7 +967,7 @@
       "opciones": {
         "a": "No, solo obliga a los camiones de más de 3.500 kg.",
         "b": "No, solo obliga a los vehículos que transportan mercancías peligrosas.",
-        "c": "Sí, obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa."
+        "c": "Sí, obliga a camiones, tractocamiones y furgonetas de cualquier masa."
       },
       "correcta": "c",
       "explicacion": "La señal R-406 obliga a toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, a circular por la calzada a cuya entrada está. Solo si lleva una cifra de tonelaje se limita a los que superen esa masa máxima autorizada.",
@@ -1088,7 +1088,7 @@
       "subtema": "obligacion",
       "enunciado": "Va en bicicleta y, al comienzo de una vía, encuentra esta señal. ¿Puede circular por ella?",
       "opciones": {
-        "a": "No, porque es una vía reservada a los vehículos de movilidad personal y prohibida a los demás usuarios.",
+        "a": "No.",
         "b": "Sí, porque las bicicletas pueden usar cualquier vía destinada a vehículos de movilidad personal.",
         "c": "Sí, siempre que no supere los 25 km/h."
       },
@@ -1815,7 +1815,7 @@
       "subtema": "indicaciones_generales",
       "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Estacionamiento autorizado solo para un fin concreto, como acceder a una farmacia, y durante un tiempo determinado.",
+        "a": "Estacionamiento solo para un fin concreto, como ir a una farmacia, y por tiempo limitado.",
         "b": "Estacionamiento reservado a ambulancias y vehículos de urgencia.",
         "c": "Estacionamiento libre y sin límite de tiempo junto a un servicio público."
       },
@@ -2018,7 +2018,7 @@
       "id": "v4b-sen-0021",
       "tema": "senales_verticales",
       "subtema": "orientacion",
-      "enunciado": "Circula por una autovía y encuentra este cartel azul que preseñaliza la próxima salida. ¿Qué sabe, por su color, del tipo de carretera al que lleva la salida?",
+      "enunciado": "En una autovía encuentra este cartel azul que anuncia la próxima salida. ¿Qué le dice su color sobre la carretera a la que lleva?",
       "opciones": {
         "a": "Que es otra autopista o autovía.",
         "b": "Que es una carretera convencional.",
@@ -2217,10 +2217,10 @@
       "id": "v4b-sen-0026",
       "tema": "senales_verticales",
       "subtema": "uso_especifico_poblado",
-      "enunciado": "En poblado, ¿qué tipo de lugares indican las señales de uso específico de fondo marrón, como estas?",
+      "enunciado": "En poblado, ¿qué lugares indican las señales de fondo marrón como estas?",
       "opciones": {
         "a": "Lugares de interés deportivo o recreativo.",
-        "b": "Lugares de carácter geográfico o ecológico y de interés monumental, histórico o artístico.",
+        "b": "Lugares de interés geográfico, ecológico, monumental, histórico o artístico.",
         "c": "Lugares de interés cultural, como universidades o teatros."
       },
       "correcta": "b",
@@ -2291,11 +2291,11 @@
       "id": "v4b-sen-0028",
       "tema": "senales_verticales",
       "subtema": "uso_especifico_poblado",
-      "enunciado": "En poblado, ¿qué tipo de lugares indican las señales de uso específico de fondo amarillo, como esta?",
+      "enunciado": "En poblado, ¿qué lugares indican las señales de fondo amarillo como esta?",
       "opciones": {
         "a": "Lugares de interés deportivo o recreativo.",
         "b": "Calles, avenidas y plazas de la red viaria urbana.",
-        "c": "Lugares de interés para los viajeros, como estaciones, aeropuertos u hoteles."
+        "c": "Lugares de interés para viajeros, como estaciones, aeropuertos u hoteles."
       },
       "correcta": "c",
       "explicacion": "En poblado, las señales de fondo amarillo (S-710) indican lugares de interés para los viajeros: estaciones, aeropuertos, zonas de embarque de los puertos, hoteles, campamentos, oficinas de turismo y automóvil club. Las calles y plazas van en verde (S-700) y los lugares deportivos, en naranja (S-720).",
@@ -2333,7 +2333,7 @@
       "id": "v4b-sen-0029",
       "tema": "senales_verticales",
       "subtema": "paneles_complementarios",
-      "enunciado": "Bajo una señal de peligro por estrechamiento de calzada hay un panel con la inscripción «3 m». Además de la distancia al comienzo del peligro, ¿qué puede indicar ese panel?",
+      "enunciado": "Bajo una señal de estrechamiento de calzada hay un panel que dice «3 m». Además de la distancia al peligro, ¿qué puede indicar?",
       "opciones": {
         "a": "La anchura libre que queda en el estrechamiento.",
         "b": "La longitud del tramo estrechado.",
@@ -2367,7 +2367,7 @@
       "enunciado": "Bajo una señal de velocidad máxima, a la entrada de una salida de autovía, hay este panel complementario. ¿Dónde se aplica la limitación?",
       "opciones": {
         "a": "En toda la calzada de la autovía a partir del panel.",
-        "b": "Solo en el ramal de salida cuya dirección coincide aproximadamente con la de la flecha.",
+        "b": "Solo en el ramal de salida que sigue la dirección de la flecha.",
         "c": "En la calzada principal, pero no en el ramal de salida."
       },
       "correcta": "b",
@@ -2651,11 +2651,11 @@
       "id": "v4b-sen-0037",
       "tema": "senales_verticales",
       "subtema": "indicaciones_generales",
-      "enunciado": "¿Qué indica esta señal cuadrada azul?",
+      "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Velocidad máxima de 70 km/h, de obligado cumplimiento.",
         "b": "Velocidad mínima de 70 km/h.",
-        "c": "Una velocidad que se aconseja no sobrepasar, aunque las condiciones sean favorables."
+        "c": "Una velocidad que se aconseja no superar."
       },
       "correcta": "c",
       "explicacion": "La señal S-7 (velocidad máxima aconsejada) recomienda no sobrepasar la velocidad indicada aunque las condiciones de la vía y de la circulación sean favorables. Es una recomendación, no una obligación. Colocada bajo una señal de peligro, se refiere al tramo en que subsista el peligro.",
@@ -2778,7 +2778,7 @@
       "opciones": {
         "a": "Una salida de emergencia del túnel.",
         "b": "Una zona donde está permitido estacionar dentro del túnel.",
-        "c": "Un lugar donde apartar el vehículo en caso de emergencia, que dispone de teléfono de emergencia."
+        "c": "Un apartadero de emergencia con teléfono de emergencia."
       },
       "correcta": "c",
       "explicacion": "La señal S-34a indica un lugar del túnel donde se puede apartar el vehículo en caso de emergencia, para dejar libre el paso, y que dispone de teléfono de emergencia. Las salidas de emergencia se indican con las señales S-980 y siguientes.",

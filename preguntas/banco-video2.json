@@ -74,10 +74,10 @@
       "id": "v2-vmp-0003",
       "tema": "vmp",
       "subtema": "elementos_reflectantes",
-      "enunciado": "Una persona que no circula por motivos profesionales conduce de noche un patinete eléctrico (vehículo de movilidad personal) por una calle. Además del casco, ¿qué debe llevar puesto?",
+      "enunciado": "Una persona que no circula por motivos profesionales conduce de noche un patinete eléctrico por una calle. Además del casco, ¿qué debe llevar puesto?",
       "opciones": {
-        "a": "Al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros.",
-        "b": "Nada más: los elementos reflectantes solo se exigen en vías interurbanas.",
+        "a": "Un elemento luminoso o reflectante visible a 150 metros.",
+        "b": "Nada más, porque los reflectantes solo se exigen en vías interurbanas.",
         "c": "Guantes de protección y calzado cerrado."
       },
       "correcta": "a",
@@ -107,7 +107,7 @@
       "enunciado": "Un repartidor que trabaja circulando en bicicleta o en patinete eléctrico, ¿cuándo debe llevar un chaleco reflectante de alta visibilidad?",
       "opciones": {
         "a": "Solo entre el ocaso y la salida del sol.",
-        "b": "Siempre que circule desarrollando su actividad profesional, en todo tipo de vías.",
+        "b": "Siempre que trabaje circulando, en todo tipo de vías.",
         "c": "Solo cuando circule por vías interurbanas."
       },
       "correcta": "b",
@@ -254,10 +254,10 @@
       "id": "v2-adel-0001",
       "tema": "adelantamiento",
       "subtema": "vulnerables",
-      "enunciado": "Fuera de poblado, en una carretera limitada a 100 km/h, va a adelantar a una persona que circula montada a caballo. ¿A qué velocidad máxima puede hacerlo?",
+      "enunciado": "Fuera de poblado, en una carretera limitada a 100 km/h, va a adelantar a una persona a caballo. ¿A qué velocidad máxima puede hacerlo?",
       "opciones": {
         "a": "A 80 km/h.",
-        "b": "A 100 km/h, porque la reducción de velocidad solo se exige al adelantar a ciclistas.",
+        "b": "A 100 km/h, porque solo se reduce al adelantar a ciclistas.",
         "c": "A 90 km/h."
       },
       "correcta": "a",
@@ -284,10 +284,10 @@
       "id": "v2-adel-0002",
       "tema": "adelantamiento",
       "subtema": "vulnerables",
-      "enunciado": "Dentro de poblado, en una calle con un solo carril por sentido, va a adelantar a un patinete eléctrico (vehículo de movilidad personal). ¿Qué anchura de seguridad mínima debe guardar?",
+      "enunciado": "Dentro de poblado, en una calle con un carril por sentido, va a adelantar a un patinete eléctrico. ¿Qué separación lateral mínima debe guardar?",
       "opciones": {
         "a": "1 metro, porque circula en poblado.",
-        "b": "La que considere suficiente: la de 1,5 metros solo se exige fuera de poblado.",
+        "b": "La que considere suficiente, porque 1,5 metros solo se exige fuera de poblado.",
         "c": "Al menos 1,5 metros."
       },
       "correcta": "c",

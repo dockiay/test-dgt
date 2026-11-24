@@ -110,9 +110,9 @@
       "id": "def-0004",
       "tema": "definiciones",
       "subtema": "ciclo",
-      "enunciado": "Una bicicleta de pedaleo asistido (con un pequeño motor que ayuda al pedaleo), ¿es un ciclo?",
+      "enunciado": "Una bicicleta de pedaleo asistido, con un pequeño motor que ayuda al pedaleo, ¿es un ciclo?",
       "opciones": {
-        "a": "Sí, los ciclos de pedaleo asistido se incluyen en la definición de ciclo.",
+        "a": "Sí.",
         "b": "No, es un ciclomotor.",
         "c": "No, es un vehículo de movilidad personal."
       },
@@ -172,7 +172,7 @@
       "id": "def-0006",
       "tema": "definiciones",
       "subtema": "ciclomotor",
-      "enunciado": "Un vehículo de cuatro ruedas, con masa en vacío de hasta 350 kg y velocidad máxima por construcción de 45 km/h (cuadriciclo ligero), ¿qué tipo de vehículo es?",
+      "enunciado": "Un cuadriciclo ligero, de cuatro ruedas, hasta 350 kg de masa en vacío y 45 km/h de velocidad máxima por construcción, ¿qué tipo de vehículo es?",
       "opciones": {
         "a": "Un turismo.",
         "b": "Un vehículo especial.",
@@ -203,7 +203,7 @@
       "id": "def-0007",
       "tema": "definiciones",
       "subtema": "vehiculo_de_motor",
-      "enunciado": "Según la Ley de Tráfico, ¿cuál de estos vehículos queda excluido de la definición de «vehículo de motor»?",
+      "enunciado": "¿Cuál de estos vehículos queda excluido de la definición de vehículo de motor?",
       "opciones": {
         "a": "El ciclomotor.",
         "b": "La motocicleta.",
@@ -237,7 +237,7 @@
       "enunciado": "¿Qué es la masa máxima autorizada (MMA)?",
       "opciones": {
         "a": "La masa del vehículo vacío, sin conductor ni carga.",
-        "b": "La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas.",
+        "b": "La masa máxima con la que puede circular un vehículo cargado.",
         "c": "La masa que soporta cada eje del vehículo."
       },
       "correcta": "b",
@@ -265,11 +265,11 @@
       "id": "def-0009",
       "tema": "definiciones",
       "subtema": "tara",
-      "enunciado": "La tara de un vehículo es su masa…",
+      "enunciado": "La tara de un vehículo es su masa...",
       "opciones": {
-        "a": "sin conductor y sin combustible.",
-        "b": "con el conductor y la carga máxima permitida.",
-        "c": "sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios reglamentarios."
+        "a": "Sin conductor y sin combustible.",
+        "b": "Con el conductor y la carga máxima permitida.",
+        "c": "Sin pasajeros ni carga, con combustible, lubricante, herramientas y accesorios reglamentarios."
       },
       "correcta": "c",
       "explicacion": "La tara es la masa sin personas ni carga, pero con la dotación completa de combustible, agua, lubricante, repuestos, herramientas y accesorios.",
@@ -327,7 +327,7 @@
       "id": "def-0011",
       "tema": "definiciones",
       "subtema": "camion",
-      "enunciado": "¿Qué caracteriza a un camión según la Ley de Tráfico?",
+      "enunciado": "¿Qué caracteriza a un camión?",
       "opciones": {
         "a": "Que tiene más de nueve plazas.",
         "b": "Que su cabina no está integrada en el resto de la carrocería.",
@@ -358,11 +358,11 @@
       "id": "def-0012",
       "tema": "definiciones",
       "subtema": "mixto_adaptable",
-      "enunciado": "Un vehículo en el que se puede sustituir la carga, parcial o totalmente, por personas mediante la adición de asientos, es un…",
+      "enunciado": "Un vehículo en el que se puede sustituir la carga, parcial o totalmente, por personas añadiendo asientos, es un...",
       "opciones": {
-        "a": "derivado de turismo.",
-        "b": "furgón.",
-        "c": "vehículo mixto adaptable."
+        "a": "Derivado de turismo.",
+        "b": "Furgón.",
+        "c": "Vehículo mixto adaptable."
       },
       "correcta": "c",
       "explicacion": "Es la definición de vehículo mixto adaptable: transporte simultáneo o no de mercancías y personas, hasta nueve incluido el conductor.",
@@ -420,11 +420,11 @@
       "id": "via-0002",
       "tema": "vias",
       "subtema": "interurbana",
-      "enunciado": "Una vía interurbana es una vía pública situada…",
+      "enunciado": "Una vía interurbana es una vía pública situada...",
       "opciones": {
-        "a": "dentro de poblado.",
-        "b": "fuera de poblado.",
-        "c": "entre dos carriles bici."
+        "a": "Dentro de poblado.",
+        "b": "Fuera de poblado.",
+        "c": "Entre dos carriles bici."
       },
       "correcta": "b",
       "explicacion": "Vía interurbana es la vía pública situada fuera de poblado.",
@@ -489,7 +489,7 @@
       "subtema": "carretera_convencional",
       "enunciado": "¿Qué es una carretera convencional?",
       "opciones": {
-        "a": "La que no reúne las características de autopistas, autovías y vías para automóviles.",
+        "a": "La que no es autopista, autovía ni vía para automóviles.",
         "b": "Cualquier carretera con un solo carril por sentido.",
         "c": "Cualquier carretera sin arcén."
       },
@@ -521,7 +521,7 @@
       "enunciado": "¿Pueden circular las bicicletas por una autovía?",
       "opciones": {
         "a": "No, nunca.",
-        "b": "Sí, por los arcenes, si el ciclista es mayor de 14 años y no lo prohíbe la señalización.",
+        "b": "Sí, por el arcén, si el ciclista es mayor de 14 años y no lo prohíbe una señal.",
         "c": "Sí, por cualquier carril, a partir de 16 años."
       },
       "correcta": "b",
@@ -614,7 +614,7 @@
       "enunciado": "Fuera de poblado, si no hay zona peatonal practicable, ¿por dónde debe circular un peatón que va solo?",
       "opciones": {
         "a": "Por el arcén derecho.",
-        "b": "Por el arcén izquierdo, si existe y es practicable.",
+        "b": "Por el arcén izquierdo, si es practicable.",
         "c": "Siempre por la calzada."
       },
       "correcta": "b",
@@ -707,7 +707,7 @@
       "enunciado": "Un peatón que de noche camina por el arcén de una vía interurbana, ¿qué debe llevar?",
       "opciones": {
         "a": "Nada, si camina por el arcén.",
-        "b": "Al menos un elemento luminoso o reflectante visible a 150 metros.",
+        "b": "Un elemento luminoso o reflectante visible a 150 metros.",
         "c": "Una linterna de luz roja hacia delante."
       },
       "correcta": "b",
@@ -963,7 +963,7 @@
       "subtema": "carril_emergencia",
       "enunciado": "En una autopista con dos carriles por sentido, con la circulación detenida, ¿dónde se forma el carril de emergencia?",
       "opciones": {
-        "a": "En el centro de la vía, entre esos dos carriles.",
+        "a": "Entre esos dos carriles.",
         "b": "En el arcén.",
         "c": "No es obligatorio formarlo."
       },
@@ -1158,7 +1158,7 @@
       "subtema": "sentido_contrario",
       "enunciado": "Si el carril se habilita en sentido contrario al habitual por obras en la calzada, ¿quién puede circular por él?",
       "opciones": {
-        "a": "Todos los tipos de vehículos autorizados a circular por la vía en obra, salvo prohibición expresa.",
+        "a": "Todos los autorizados en la vía en obras, salvo prohibición expresa.",
         "b": "Solo turismos y motocicletas.",
         "c": "Solo vehículos de servicio de las obras."
       },
@@ -1222,7 +1222,7 @@
       "opciones": {
         "a": "Ninguno, si es de día.",
         "b": "Las luces antiniebla traseras.",
-        "c": "Al menos la luz de corto alcance o de cruce, de día y de noche."
+        "c": "Al menos la de cruce, de día y de noche."
       },
       "correcta": "c",
       "explicacion": "En un carril reversible hay que llevar encendida, al menos, la luz de corto alcance o de cruce, tanto de día como de noche.",
@@ -1315,7 +1315,7 @@
       "opciones": {
         "a": "No.",
         "b": "Solo si lleva al menos dos pasajeros.",
-        "c": "Sí, con independencia de su número de ocupantes, si así se indica para ese tramo."
+        "c": "Sí, si así se indica para ese tramo."
       },
       "correcta": "c",
       "explicacion": "Los autobuses de más de 3.500 kg y los articulados pueden usarlo con independencia del número de ocupantes, en las condiciones fijadas para el tramo.",
@@ -1404,7 +1404,7 @@
       "id": "dist-0003",
       "tema": "distancias",
       "subtema": "facilitar_adelantamiento",
-      "enunciado": "Fuera de poblado, en una vía con un solo carril por sentido donde está permitido adelantar, un camión de 12.000 kg que no va a adelantar, ¿qué separación mínima debe dejar con el vehículo de delante para facilitar que le adelanten?",
+      "enunciado": "Fuera de poblado, en una vía con un carril por sentido donde se permite adelantar, un camión de 12.000 kg que no va a adelantar, ¿qué separación mínima debe dejar con el de delante?",
       "opciones": {
         "a": "25 metros.",
         "b": "100 metros.",
@@ -1590,11 +1590,11 @@
       "id": "adel-0004",
       "tema": "adelantamiento",
       "subtema": "vulnerables",
-      "enunciado": "A efectos del adelantamiento, un grupo de ciclistas que circula junto…",
+      "enunciado": "A efectos del adelantamiento, un grupo de ciclistas que circula junto...",
       "opciones": {
-        "a": "se adelanta ciclista a ciclista, volviendo al carril entre ellos.",
-        "b": "no puede ser adelantado.",
-        "c": "se considera una única unidad móvil."
+        "a": "Se adelanta ciclista a ciclista, volviendo al carril entre ellos.",
+        "b": "No puede ser adelantado.",
+        "c": "Se considera una única unidad móvil."
       },
       "correcta": "c",
       "explicacion": "Cuando los ciclistas circulen en grupo, se consideran como una única unidad móvil.",
@@ -1623,7 +1623,7 @@
       "subtema": "inmovilizados",
       "enunciado": "Un vehículo averiado está inmovilizado ocupando parte de su carril. Al rebasarlo, ¿qué debe hacer?",
       "opciones": {
-        "a": "Mantener al menos 1,5 metros y reducir la velocidad al menos 20 km/h respecto al límite de la vía.",
+        "a": "Dejar al menos 1,5 metros y reducir la velocidad al menos 20 km/h respecto al límite.",
         "b": "Basta con poner el intermitente.",
         "c": "Pararse siempre detrás hasta que lo retiren."
       },
@@ -2108,9 +2108,9 @@
       "subtema": "limites_urbanos",
       "enunciado": "Una calle tiene dos carriles en su sentido, pero uno de ellos es un carril bus. ¿Cuál es el límite genérico?",
       "opciones": {
-        "a": "30 km/h, porque los carriles reservados no se cuentan.",
+        "a": "30 km/h.",
         "b": "50 km/h, porque hay dos carriles.",
-        "c": "40 km/h."
+        "c": "40 km/h, por el carril bus."
       },
       "correcta": "a",
       "explicacion": "Los carriles reservados para determinados usuarios o para transporte público no se contabilizan, así que queda un único carril por sentido: 30 km/h.",

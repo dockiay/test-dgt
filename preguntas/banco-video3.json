@@ -346,7 +346,7 @@
       "enunciado": "¿Qué indica esta señal?",
       "opciones": {
         "a": "Una recomendación de usar la bicicleta en ese tramo.",
-        "b": "Una vía destinada a la circulación de ciclos, que los demás usuarios no pueden utilizar.",
+        "b": "Una vía reservada a los ciclos.",
         "c": "Un aparcamiento para bicicletas."
       },
       "correcta": "b",
@@ -383,7 +383,7 @@
       "opciones": {
         "a": "Una zona de coexistencia de peatones y ciclistas.",
         "b": "Una senda reservada a peatones y ciclistas.",
-        "c": "La situación de un paso para peatones adosado o compartido con un paso para ciclistas."
+        "c": "Un paso para peatones junto a un paso para ciclistas."
       },
       "correcta": "c",
       "explicacion": "La señal S-46 indica la situación de un paso para peatones adosado o compartido con un paso para ciclistas.",
@@ -417,7 +417,7 @@
       "subtema": "indicaciones_generales",
       "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Una zona de espera antes de la línea de detención de un cruce con semáforos, reservada a motos, ciclomotores o ciclos.",
+        "a": "Una zona de espera ante un semáforo, reservada a motos, ciclomotores o ciclos.",
         "b": "Un carril reservado a motocicletas y bicicletas a lo largo de toda la calle.",
         "c": "Una zona de estacionamiento para motocicletas y bicicletas."
       },
@@ -454,7 +454,7 @@
       "enunciado": "Esta señal está sobre un carril delimitado por una línea discontinua. ¿Pueden usarlo otros vehículos?",
       "opciones": {
         "a": "Sí, para cualquier maniobra, incluso para parar o estacionar.",
-        "b": "Sí, pero solo para alguna maniobra que no sea parar, estacionar, cambiar de sentido o adelantar.",
+        "b": "Sí, para maniobras que no sean parar, estacionar, cambiar de sentido o adelantar.",
         "c": "No, en ningún caso."
       },
       "correcta": "b",
@@ -491,7 +491,7 @@
       "opciones": {
         "a": "El número de carriles reservados.",
         "b": "La velocidad mínima del carril, en decenas de km/h.",
-        "c": "El número de personas a partir del cual se considera que el vehículo tiene alta ocupación."
+        "c": "El número mínimo de ocupantes para considerar alta la ocupación."
       },
       "correcta": "c",
       "explicacion": "La señal S-51b indica un carril reservado a vehículos con alta ocupación (VAO); la cifra marca el número de personas a partir del cual se considera alta ocupación, que fija el órgano gestor en cada caso.",
@@ -525,7 +525,7 @@
       "subtema": "servicios",
       "enunciado": "¿Qué indica esta señal?",
       "opciones": {
-        "a": "Un surtidor o estación de servicio de carburantes que también tiene estación de recarga eléctrica.",
+        "a": "Una estación de servicio que también tiene recarga eléctrica.",
         "b": "Solo una estación de recarga para vehículos eléctricos.",
         "c": "Un taller de reparación de vehículos eléctricos."
       },
@@ -707,7 +707,7 @@
       "opciones": {
         "a": "Un control de velocidad media en un tramo.",
         "b": "La distancia que falta hasta el próximo radar.",
-        "c": "La existencia de un dispositivo de control de la separación mínima entre vehículos."
+        "c": "Un control de la separación mínima entre vehículos."
       },
       "correcta": "c",
       "explicacion": "La señal S-991e indica la existencia de un dispositivo de control de separación mínima entre vehículos en un punto o tramo de una carretera convencional o multicarril (en autopista o autovía se usa la S-991f).",
@@ -739,7 +739,7 @@
       "id": "v3-mv-0001",
       "tema": "marcas_viales",
       "subtema": "pasos_peatones",
-      "enunciado": "Según el Reglamento General de Circulación, si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros anteriores a un paso para peatones no se permitirá el aparcamiento de automóviles?",
+      "enunciado": "Si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros antes de un paso para peatones no se puede aparcar?",
       "opciones": {
         "a": "En al menos 3 metros.",
         "b": "En al menos 6 metros.",

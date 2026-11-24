@@ -163,7 +163,7 @@
       "materia": 13,
       "enunciado": "Ha estacionado su autocaravana en una calle. ¿Puede desplegar el toldo lateral y sacar mesa y sillas junto al vehículo?",
       "opciones": {
-        "a": "No, porque no puede extender elementos que desborden el perímetro del vehículo.",
+        "a": "No.",
         "b": "Sí, siempre que no ocupe más de un metro de acera.",
         "c": "Sí, durante el día, retirándolo antes de la puesta del sol."
       },
@@ -254,10 +254,10 @@
       "tema": "parada_estacionamiento",
       "subtema": "lugares_prohibidos",
       "materia": 1,
-      "enunciado": "Si al parar su vehículo tapa una señal vertical a los conductores que vienen detrás, ¿es correcto?",
+      "enunciado": "Al parar su vehículo, tapa una señal vertical a los conductores que vienen detrás. ¿Es correcto?",
       "opciones": {
-        "a": "Sí, porque la parada es breve y no constituye estacionamiento.",
-        "b": "No, está prohibido parar donde se impida la visibilidad de la señalización a los usuarios a quienes afecte.",
+        "a": "Sí, porque la parada es breve y no es un estacionamiento.",
+        "b": "No.",
         "c": "Sí, si mantiene encendidas las luces de posición."
       },
       "correcta": "b",
@@ -318,9 +318,9 @@
       "materia": 1,
       "enunciado": "Durante el horario señalizado de carga y descarga, ¿puede estacionar un turismo particular en esa zona?",
       "opciones": {
-        "a": "No, está prohibido estacionar en las zonas señalizadas para carga y descarga.",
-        "b": "Sí, siempre que deje una nota con su teléfono.",
-        "c": "Sí, si el estacionamiento no supera los 30 minutos."
+        "a": "No.",
+        "b": "Sí, si deja una nota con su teléfono.",
+        "c": "Sí, si no supera los 30 minutos."
       },
       "correcta": "a",
       "explicacion": "Estacionar en zonas señalizadas para carga y descarga está prohibido.",
@@ -380,9 +380,9 @@
       "materia": 1,
       "enunciado": "En una zona de estacionamiento limitado, ¿en qué caso puede la ordenanza municipal prever la retirada o inmovilización del vehículo?",
       "opciones": {
-        "a": "Cuando no tenga título que autorice el estacionamiento o rebase el triple del tiempo abonado.",
+        "a": "Cuando no tenga título que lo autorice o rebase el triple del tiempo abonado.",
         "b": "Solo cuando rebase el doble del tiempo abonado.",
-        "c": "Solo cuando el vehículo lleve más de 24 horas estacionado."
+        "c": "Solo cuando lleve más de 24 horas estacionado."
       },
       "correcta": "a",
       "explicacion": "Los Ayuntamientos pueden regular la retirada o inmovilización del vehículo que estaciona en zonas limitadas en tiempo sin título que lo autorice o rebasando el triple del tiempo abonado.",
@@ -598,7 +598,7 @@
       "enunciado": "La luz de largo alcance o de carretera, ¿puede llevarse encendida a la vez que la de corto alcance?",
       "opciones": {
         "a": "No, nunca pueden encenderse a la vez.",
-        "b": "Sí, puede utilizarse aisladamente o con la de corto alcance.",
+        "b": "Sí.",
         "c": "Solo en autopistas y autovías."
       },
       "correcta": "b",
@@ -657,7 +657,7 @@
       "tema": "infracciones_sanciones",
       "subtema": "calificacion",
       "materia": 6,
-      "enunciado": "Según el Reglamento General de Circulación, deslumbrar con el alumbrado a otros usuarios de la vía, ¿qué tipo de infracción es?",
+      "enunciado": "Deslumbrar a otros usuarios de la vía con el alumbrado, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Leve.",
         "b": "Muy grave.",
@@ -690,8 +690,8 @@
       "materia": 6,
       "enunciado": "Con niebla, ¿puede llevar encendida la luz antiniebla delantera junto con la de largo alcance?",
       "opciones": {
-        "a": "Sí, puede utilizarse aislada, con la de corto alcance o incluso con la de largo alcance.",
-        "b": "No, la antiniebla delantera solo puede usarse aislada.",
+        "a": "Sí.",
+        "b": "No, la antiniebla delantera solo puede usarse sola.",
         "c": "No, solo puede combinarse con la de posición."
       },
       "correcta": "a",
@@ -781,11 +781,11 @@
       "tema": "peatones",
       "subtema": "prioridad",
       "materia": 8,
-      "enunciado": "Según el Reglamento General de Circulación, ¿qué deben hacer quienes circulan con cualquier tipo de vehículo respecto a los peatones?",
+      "enunciado": "Respecto a los peatones, ¿qué deben hacer quienes conducen cualquier tipo de vehículo?",
       "opciones": {
         "a": "Cederles el paso únicamente en los pasos para peatones señalizados.",
         "b": "Prestar especial cuidado para no poner en riesgo su integridad física.",
-        "c": "Avisarles siempre con el claxon antes de acercarse a ellos."
+        "c": "Avisarles siempre con el claxon antes de acercarse."
       },
       "correcta": "b",
       "explicacion": "Los peatones gozan de prioridad de paso y estancia en las vías públicas en los términos del reglamento, y quienes circulan con cualquier vehículo deben prestar especial cuidado para no poner en riesgo su integridad física.",
@@ -845,9 +845,9 @@
       "materia": 1,
       "enunciado": "Una señal vertical sin ninguna marca en la calzada que limite su alcance, ¿a qué parte de la calzada se aplica?",
       "opciones": {
-        "a": "A toda la anchura de la calzada que estén autorizados a utilizar los conductores a quienes se dirige.",
-        "b": "Solo al carril junto al que está colocada la señal.",
-        "c": "Solo al carril por el que circulan los vehículos más lentos."
+        "a": "A toda la anchura que puedan utilizar los conductores a quienes se dirige.",
+        "b": "Solo al carril junto al que está colocada.",
+        "c": "Solo al carril de los vehículos más lentos."
       },
       "correcta": "a",
       "explicacion": "Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada.",
@@ -1031,7 +1031,7 @@
       "materia": 1,
       "enunciado": "Una flecha pintada en su carril indica seguir de frente, pero una hilera de conos cierra ese carril más adelante. ¿Qué debe obedecer?",
       "opciones": {
-        "a": "Los conos, porque el balizamiento circunstancial prevalece sobre las marcas viales.",
+        "a": "Los conos.",
         "b": "La flecha, porque está pintada en su propio carril.",
         "c": "La flecha, porque las marcas viales prevalecen sobre el balizamiento."
       },
@@ -1060,11 +1060,11 @@
       "tema": "senales",
       "subtema": "semaforos_carril",
       "materia": 1,
-      "enunciado": "Sobre su carril, un semáforo de carril muestra una flecha verde apuntando hacia abajo y, más adelante, hay una señal de ceda el paso. ¿Qué debe hacer?",
+      "enunciado": "Sobre su carril, un semáforo de carril muestra una flecha verde hacia abajo y, más adelante, hay una señal de ceda el paso. ¿Qué debe hacer?",
       "opciones": {
         "a": "Continuar sin ceder el paso, porque los semáforos prevalecen sobre las señales verticales.",
-        "b": "Ceder el paso, porque la flecha verde del semáforo de carril no exime de obedecer esa señal.",
-        "c": "Detenerse siempre ante el semáforo hasta que se apague la flecha."
+        "b": "Ceder el paso.",
+        "c": "Detenerse ante el semáforo hasta que se apague la flecha."
       },
       "correcta": "b",
       "explicacion": "La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso.",
@@ -1202,10 +1202,10 @@
       "tema": "senales",
       "subtema": "semaforos",
       "materia": 1,
-      "enunciado": "Un semáforo cuadrado (de carril) situado sobre uno de los carriles, ¿a qué vehículos afecta?",
+      "enunciado": "Un semáforo de carril situado sobre uno de los carriles, ¿a qué vehículos afecta?",
       "opciones": {
-        "a": "Exclusivamente a los que circulan por el carril sobre el que está situado.",
-        "b": "A todos los vehículos que circulan por la calzada.",
+        "a": "Solo a los que circulan por ese carril.",
+        "b": "A todos los que circulan por la calzada.",
         "c": "Solo a los vehículos pesados y autobuses."
       },
       "correcta": "a",
@@ -1541,9 +1541,9 @@
       "materia": 12,
       "enunciado": "¿Qué objeto tienen las señales colocadas en los vehículos?",
       "opciones": {
-        "a": "Identificar al propietario del vehículo ante los agentes de la autoridad.",
-        "b": "Dar a conocer circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su conductor.",
-        "c": "Indicar la velocidad máxima a la que circula habitualmente el vehículo."
+        "a": "Identificar al propietario del vehículo ante los agentes.",
+        "b": "Dar a conocer circunstancias del vehículo, de su servicio, de su carga o de su conductor.",
+        "c": "Indicar la velocidad máxima a la que suele circular el vehículo."
       },
       "correcta": "b",
       "explicacion": "Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor.",
@@ -1603,9 +1603,9 @@
       "materia": 16,
       "enunciado": "¿Pueden las autoridades restringir la entrada y circulación de vehículos en una zona de bajas emisiones?",
       "opciones": {
-        "a": "Sí, total o parcialmente, de acuerdo con los criterios medioambientales que se establezcan.",
-        "b": "No, solo pueden restringirla por obras o por accidentes.",
-        "c": "Solo a los vehículos pesados de más de 3.500 kg."
+        "a": "Sí, total o parcialmente, según criterios medioambientales.",
+        "b": "No, solo pueden restringirla por obras o accidentes.",
+        "c": "Solo a los vehículos de más de 3.500 kg."
       },
       "correcta": "a",
       "explicacion": "Las autoridades competentes pueden restringir, total o parcialmente, la entrada y circulación de vehículos en zonas de bajas emisiones, zonas de prioridad residencial u otras vías de su competencia, según criterios medioambientales.",
@@ -1632,7 +1632,7 @@
       "tema": "infracciones_sanciones",
       "subtema": "calificacion",
       "materia": 16,
-      "enunciado": "No respetar las restricciones de circulación de una zona de bajas emisiones, ¿qué tipo de infracción es según la Ley de Tráfico?",
+      "enunciado": "No respetar las restricciones de circulación de una zona de bajas emisiones, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Leve.",
         "b": "Grave.",
@@ -1705,7 +1705,7 @@
       "materia": 1,
       "enunciado": "¿De qué advierte esta señal?",
       "opciones": {
-        "a": "De un puente que puede ser levantado o girado, interrumpiéndose temporalmente la circulación.",
+        "a": "De un puente levadizo o giratorio, que puede interrumpir la circulación.",
         "b": "De un puente estrecho por el que solo cabe un vehículo.",
         "c": "De un muelle donde la vía desemboca en el agua."
       },
@@ -1905,7 +1905,7 @@
       "materia": 12,
       "enunciado": "Su furgoneta mide 2,30 m de ancho, pero la carga sobresale por los lados hasta 2,60 m. ¿Puede pasar ante esta señal?",
       "opciones": {
-        "a": "No, porque la anchura máxima que limita la señal incluye la carga.",
+        "a": "No.",
         "b": "Sí, porque la anchura del vehículo sin carga no supera la indicada.",
         "c": "Sí, si señaliza la carga que sobresale."
       },
@@ -2227,7 +2227,7 @@
       "opciones": {
         "a": "No, porque esa zona está reservada solo a las motocicletas.",
         "b": "No, porque esa zona está reservada solo a las bicicletas.",
-        "c": "Sí, porque el pictograma de motocicleta incluye a los ciclomotores."
+        "c": "Sí."
       },
       "correcta": "c",
       "explicacion": "La señal S-49 avanza moto o bici indica una zona de espera ante la línea de detención reservada a los vehículos indicados; el pictograma de motocicleta representa a motocicletas, vehículos de tres ruedas asimilados y ciclomotores.",
@@ -2306,8 +2306,8 @@
       "enunciado": "¿Qué advierten tres triángulos como estos pintados sobre la calzada?",
       "opciones": {
         "a": "La obligación de ceder el paso.",
-        "b": "La aproximación a un paso para peatones.",
-        "c": "La presencia de un reductor de velocidad tipo «lomo de asno»."
+        "b": "La proximidad de un paso para peatones.",
+        "c": "Un reductor de velocidad tipo «lomo de asno»."
       },
       "correcta": "c",
       "explicacion": "La presencia de un reductor de velocidad tipo «lomo de asno» (M-4.5) se advierte mediante tres triángulos dispuestos sobre su parte ascendente.",
@@ -2423,11 +2423,11 @@
       "tema": "senales",
       "subtema": "marcas_viales",
       "materia": 1,
-      "enunciado": "En un puerto de montaña, la línea que separa los sentidos de circulación es una «línea de separación de sentidos sin regular el adelantamiento». ¿Qué información le da sobre el adelantamiento?",
+      "enunciado": "En un puerto de montaña, los sentidos están separados por una línea de separación de sentidos sin regular el adelantamiento. ¿Qué le indica sobre el adelantamiento?",
       "opciones": {
-        "a": "Que el adelantamiento está prohibido en todo el tramo.",
-        "b": "Que puede adelantar en todo el tramo sin restricciones.",
-        "c": "Ninguna: solo sirve para guiar el tráfico separando los sentidos."
+        "a": "Que está prohibido en todo el tramo.",
+        "b": "Que está permitido en todo el tramo sin restricciones.",
+        "c": "Nada; solo separa los sentidos de circulación."
       },
       "correcta": "c",
       "explicacion": "La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento.",
@@ -2454,7 +2454,7 @@
       "tema": "infracciones_sanciones",
       "subtema": "calificacion",
       "materia": 8,
-      "enunciado": "Circular en bicicleta sin el alumbrado reglamentario, ¿qué tipo de infracción es según la Ley de Tráfico?",
+      "enunciado": "Circular en bicicleta sin el alumbrado reglamentario, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Leve.",
         "b": "Grave.",
@@ -2485,7 +2485,7 @@
       "tema": "infracciones_sanciones",
       "subtema": "calificacion",
       "materia": 1,
-      "enunciado": "No pagar el peaje de una autopista cuando es exigible, ¿qué tipo de infracción es según la Ley de Tráfico?",
+      "enunciado": "No pagar el peaje de una autopista cuando es exigible, ¿qué tipo de infracción es?",
       "opciones": {
         "a": "Grave.",
         "b": "Leve.",
@@ -2826,7 +2826,7 @@
       "tema": "infracciones_sanciones",
       "subtema": "cuantia_multas",
       "materia": 10,
-      "enunciado": "Requerido para ello, el titular de un vehículo no identifica al conductor que cometió con él una infracción grave sancionada con 200 euros. ¿Qué multa le corresponde por no identificarlo?",
+      "enunciado": "El titular de un vehículo, requerido para ello, no identifica al conductor que cometió una infracción grave sancionada con 200 euros. ¿Qué multa le corresponde?",
       "opciones": {
         "a": "200 euros.",
         "b": "400 euros.",
@@ -2950,7 +2950,7 @@
       "tema": "infracciones_sanciones",
       "subtema": "responsables",
       "materia": 10,
-      "enunciado": "Su coche aparece mal estacionado y no tiene designado conductor habitual. Si no indica quién lo conducía, ¿quién es responsable de la infracción por estacionamiento?",
+      "enunciado": "Su coche, sin conductor habitual designado, aparece mal estacionado. Si no indica quién lo conducía, ¿quién responde de la infracción?",
       "opciones": {
         "a": "El último pasajero que viajó en él.",
         "b": "Nadie, si no se identifica al conductor.",
@@ -3229,11 +3229,11 @@
       "tema": "infracciones_sanciones",
       "subtema": "sanciones_velocidad",
       "materia": 1,
-      "enunciado": "En un tramo de autovía de acceso a una ciudad limitado a 60 km/h, un radar capta su vehículo a 98 km/h. Además de la multa del cuadro de sanciones, ¿se producen otros efectos administrativos o penales por ese exceso?",
+      "enunciado": "En una autovía de acceso a una ciudad, limitada a 60 km/h, circula a 98 km/h. Además de la multa, ¿tiene ese exceso otros efectos administrativos o penales?",
       "opciones": {
         "a": "Sí, los mismos que en cualquier otra vía limitada a 60 km/h.",
-        "b": "No, porque en esos tramos los excesos de velocidad no se sancionan.",
-        "c": "No, porque esos efectos solo se producen cuando se superan los 100 km/h."
+        "b": "No, porque en esos tramos no se sancionan los excesos de velocidad.",
+        "c": "No, porque esos efectos solo se producen al superar los 100 km/h."
       },
       "correcta": "c",
       "explicacion": "En los tramos de autovías y autopistas interurbanas de acceso a las ciudades con límites inferiores a 100 km/h, los excesos se sancionan con la multa del cuadro, pero el resto de efectos administrativos y penales solo se produce cuando se superan los 100 km/h.",

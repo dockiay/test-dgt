@@ -1,0 +1,2015 @@
+{
+  "version": 1,
+  "lote": "06",
+  "lecciones": [
+    {
+      "id": "bm3-0013",
+      "porque": "La conducción preventiva se apoya en tres principios: visión, anticipación y espacio. Anticiparse es prever lo que van a hacer los demás conductores y cómo van a reaccionar, para tener tiempo de responder tú antes de que la situación se complique.",
+      "descartes": {
+        "a": "Adelantar cuanto antes no es anticiparse. En la conducción preventiva, «anticipación» significa prever los movimientos de los demás, no adelantar a nadie.",
+        "c": "Salir con tiempo ayuda a ir sin prisas, pero no es lo que la DGT llama anticipación: esta consiste en prever las reacciones de los demás mientras conduces."
+      },
+      "truco": "Los tres principios de la conducción preventiva son visión, anticipación y espacio: mirar, prever y dejar sitio.",
+      "huella": "e1566bd7f58e"
+    },
+    {
+      "id": "bm3-0012",
+      "porque": "Está prohibido arrojar a la vía o a sus inmediaciones cualquier objeto que pueda provocar un incendio, y una colilla encendida es el ejemplo típico. La prohibición no tiene excepciones por el tipo de firme ni por la zona.",
+      "descartes": {
+        "b": "Que la calzada esté asfaltada no cambia nada: la prohibición incluye también las inmediaciones de la vía, donde la colilla puede prender la vegetación.",
+        "c": "La norma no limita la prohibición a las zonas forestales señalizadas: rige en cualquier vía y en sus inmediaciones."
+      },
+      "truco": null,
+      "huella": "c5e35922b74d"
+    },
+    {
+      "id": "xc-0058",
+      "porque": "La obligación de no distraerse existe para prevenir daños o accidentes, y protege a todos: a ti, a quienes viajan contigo, a quienes van en otros vehículos y a los peatones. No es una cuestión de multas ni solo de tu coche.",
+      "descartes": {
+        "a": "Evitar una denuncia puede ser una consecuencia, pero el motivo de la obligación es prevenir accidentes, no esquivar a los agentes.",
+        "b": "La obligación protege sobre todo a personas, empezando por ti y por los demás usuarios, no solo la carrocería de tu vehículo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 4, Obligaciones generales (p. 76)",
+          "cita": "De esta forma, evitarás peligros para ti,\npara las personas que viajan contigo,\nlas que viajan en otros vehículos y los peatones."
+        }
+      ],
+      "huella": "5471ffd422af"
+    },
+    {
+      "id": "bm3-0007",
+      "porque": "Junto a un autobús parado puede haber personas subiendo, bajando o cruzando, y si es escolar serán niños. Por eso es uno de los casos en que la norma obliga a circular a velocidad moderada y, si hace falta, a detenerse.",
+      "descartes": {
+        "a": "Que el autobús esté detenido es justo el motivo para moderar la velocidad, no para mantenerla: la norma lo cita expresamente.",
+        "c": "El claxon solo se usa de forma excepcional, por ejemplo para evitar un posible accidente, y puede asustar a los niños. Lo que se exige es ir despacio y parar si es preciso."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "110.1",
+          "cita": "Excepcionalmente o cuando así lo prevea alguna norma de la legislación sobre tráfico,\ncirculación de vehículos a motor y seguridad vial, podrán emplearse señales acústicas de\nsonido no estridente, y queda prohibido su uso inmotivado o exagerado."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "110.2",
+          "cita": "a) Para evitar un posible accidente y, de modo especial, en vías estrechas con muchas\ncurvas.\nb) Para advertir, fuera de poblado, al conductor de otro vehículo el propósito de\nadelantarlo."
+        }
+      ],
+      "huella": "5a5a19066ee2"
+    },
+    {
+      "id": "bm3-0016",
+      "porque": "Para adelantar tienes que ocupar el carril contrario, justo por donde viene el ciclista, que es más frágil y se ve peor que otros vehículos. Por eso la DGT recomienda no adelantar a otros vehículos mientras vengan ciclistas de frente.",
+      "descartes": {
+        "a": "Hacerlo rápido no elimina el riesgo: mientras adelantas ocupas el espacio por el que viene el ciclista. La recomendación es no adelantar.",
+        "c": "El claxon no le abre hueco al ciclista, y la DGT aconseja precisamente no tocarlo cerca de ellos para no asustarles."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Conductores de vehículos de dos ruedas",
+          "cita": "Los vehículos de dos ruedas son más frágiles\ny se ven peor que el resto de vehículos."
+        }
+      ],
+      "huella": "3619c1a8e069"
+    },
+    {
+      "id": "bm3-0015",
+      "porque": "Un ciclista va en equilibrio y sin carrocería que le proteja, así que un susto puede salirle caro. Por eso la DGT aconseja no tocar el claxon o bocina cerca de ellos.",
+      "descartes": {
+        "b": "Tocarlo al acercarte por detrás es justo lo que la DGT desaconseja: el ciclista no te espera y el susto puede ser peligroso.",
+        "c": "La recomendación no distingue entre poblado y carretera: cerca de ciclistas, no se toca el claxon para no asustarles."
+      },
+      "truco": null,
+      "huella": "b2aefcdcb7eb"
+    },
+    {
+      "id": "bm3-0010",
+      "porque": "El claxon es un recurso excepcional: se usa para evitar un posible accidente, para avisar fuera de poblado de que vas a adelantar o en los casos que prevé la norma. Fuera de eso, su uso inmotivado o exagerado está prohibido en cualquier vía.",
+      "descartes": {
+        "a": "Fuera de poblado se permite usarlo para avisar de que vas a adelantar, pero no sin motivo: la prohibición del uso inmotivado o exagerado vale en todas las vías.",
+        "c": "Mostrar enfado no es ninguno de los motivos que permiten usar el claxon; es justo el uso inmotivado que la norma prohíbe."
+      },
+      "truco": "El claxon sirve para evitar un peligro o para avisar, no para desahogarse.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "110.2",
+          "cita": "a) Para evitar un posible accidente y, de modo especial, en vías estrechas con muchas\ncurvas.\nb) Para advertir, fuera de poblado, al conductor de otro vehículo el propósito de\nadelantarlo."
+        }
+      ],
+      "huella": "95d90ca5190a"
+    },
+    {
+      "id": "bm3-0001",
+      "porque": "Es la norma general de comportamiento y obliga a todos los usuarios de la vía, conductores y peatones: no entorpecer indebidamente la circulación ni causar peligro, perjuicios o molestias innecesarias a las personas, ni daños a los bienes. Cumplir las señales no basta.",
+      "descartes": {
+        "a": "Respetar las señales es necesario, pero no suficiente: la norma general prohíbe también causar molestias innecesarias a los demás.",
+        "c": "La norma habla de «usuarios de la vía», y los peatones también lo son."
+      },
+      "truco": null,
+      "huella": "7cf575203cee"
+    },
+    {
+      "id": "xc-0044",
+      "porque": "En la conducción preventiva las luces no sirven solo para ver: también para que los demás te vean y sepan qué movimiento vas a hacer. Por eso la DGT pide encender en cada momento las que sean necesarias.",
+      "descartes": {
+        "a": "Deslumbrar a quien va detrás le quita visión y es peligroso. Las luces sirven para ver, ser visto y avisar, no para castigar a nadie.",
+        "c": "Ver mejor de noche es una de sus funciones, pero no la única: también sirven para que los demás te vean y entiendan tus maniobras."
+      },
+      "truco": "Luces e intermitentes: no solo para ver, también para ser visto y para avisar de lo que vas a hacer.",
+      "huella": "a23c6623e3cd"
+    },
+    {
+      "id": "xc-0045",
+      "porque": "Señalar una maniobra avisa a todos los que puedan verse afectados, también a quienes tú no has visto. Por eso la DGT pide señalar siempre las maniobras, durante el tiempo que sea necesario, en cualquier tipo de vía.",
+      "descartes": {
+        "a": "Quien más necesita tu aviso puede ser alguien que no has visto, como un peatón o una moto; por eso se señala siempre, no solo con vehículos muy cerca.",
+        "b": "La recomendación vale en cualquier vía: en ciudad también hay peatones, ciclistas y otros vehículos que necesitan saber lo que vas a hacer."
+      },
+      "truco": "Luces e intermitentes: no solo para ver, también para ser visto y para avisar de lo que vas a hacer.",
+      "huella": "720b2c896777"
+    },
+    {
+      "id": "xc-0032",
+      "porque": "Conducir a la defensiva es estar atento para prever qué van a hacer los demás usuarios de la vía, conductores y peatones, y reaccionar de forma adecuada. Se basa en la atención, no en imponerse a los demás.",
+      "descartes": {
+        "b": "Ir siempre por el carril izquierdo no tiene nada que ver con la conducción defensiva, que consiste en prever lo que harán los demás y estar preparado.",
+        "c": "Exigir tu prioridad es lo contrario de conducir a la defensiva: se trata de contar con que el otro puede equivocarse y estar preparado."
+      },
+      "truco": "Conducir a la defensiva es preguntarte «¿y si el otro hace…?» y tener preparada la reacción antes de que ocurra.",
+      "huella": "d267b67cc354"
+    },
+    {
+      "id": "xc-0033",
+      "porque": "Es el ejemplo que pone la DGT de conducción defensiva: si ves que otro conductor puede necesitar pasarse a tu carril, lo tienes en cuenta y estás preparado por si lo hace, en lugar de impedírselo.",
+      "descartes": {
+        "a": "Acelerar para que no se meta convierte una situación previsible en una pelea por el hueco; la conducción defensiva consiste en prepararse por si ocurre.",
+        "c": "El claxon no sirve para impedir maniobras ajenas, y mucho menos de forma continuada: su uso inmotivado o exagerado está prohibido."
+      },
+      "truco": "Conducir a la defensiva es preguntarte «¿y si el otro hace…?» y tener preparada la reacción antes de que ocurra.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "110.1",
+          "cita": "Excepcionalmente o cuando así lo prevea alguna norma de la legislación sobre tráfico,\ncirculación de vehículos a motor y seguridad vial, podrán emplearse señales acústicas de\nsonido no estridente, y queda prohibido su uso inmotivado o exagerado."
+        }
+      ],
+      "huella": "1c6a0032a0a2"
+    },
+    {
+      "id": "xc-0036",
+      "porque": "La conducción preventiva es la forma de conducir que te permite adelantarte a los imprevistos del viaje: recoges información antes de salir, prevés lo que puede pasar y te adaptas a las circunstancias en cada momento.",
+      "descartes": {
+        "a": "La conducción preventiva no pide ir lo más despacio posible, sino a una velocidad adecuada a tus circunstancias, las del vehículo y las de la carretera.",
+        "c": "Gastar menos combustible es el objetivo de la conducción eficiente, que es otro concepto. La preventiva busca adelantarse a los imprevistos."
+      },
+      "truco": "Preventiva: previene imprevistos. Eficiente: ahorra combustible y contamina menos.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Anticipación (p. 445)",
+          "cita": "Mantener una velocidad adecuada\na tus circunstancias, las del vehículo\ny las de la carretera en todo momento."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Conducción eficiente",
+          "cita": "Forma de conducir en la que se gasta\nmenos combustible, se ayuda a contaminar menos\ny a que la conducción sea más segura."
+        }
+      ],
+      "huella": "1ac0785a72fd"
+    },
+    {
+      "id": "xc-0037",
+      "porque": "La conducción preventiva empieza antes de arrancar: el conductor recoge la información necesaria antes del viaje (la ruta, las obras, el tiempo, el tráfico, los descansos) y luego se adelanta a los imprevistos por el camino.",
+      "descartes": {
+        "a": "Esperar a que aparezca el imprevisto es lo contrario de prevenir: la información se recoge antes, para no tener que improvisar.",
+        "b": "Al llegar al destino ya no sirve para ese viaje: la información se recoge antes de empezarlo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Elegir la ruta",
+          "cita": "Es importante elegir el camino más seguro y cómodo\nteniendo en cuenta qué carreteras están en obras,\nel clima y la cantidad de vehículos\nque circulan por cada carretera ese día."
+        }
+      ],
+      "huella": "ed9ec65b921f"
+    },
+    {
+      "id": "xc-0039",
+      "porque": "El principio de visión consiste en mirar hacia todos los lados (a lo lejos, a los lados y, con los retrovisores, detrás) para recoger información, sin quedarte enganchado a lo que pueda distraerte.",
+      "descartes": {
+        "a": "Fijar la mirada en el coche de delante es lo contrario: te quedas sin información de lo que pasa más lejos y a los lados.",
+        "c": "Las luces de largo alcance no se llevan siempre: hay que cambiarlas por las de cruce, sobre todo para no deslumbrar. Además, el principio de visión trata de hacia dónde miras, no de las luces."
+      },
+      "truco": "Los tres principios de la conducción preventiva son visión, anticipación y espacio: mirar, prever y dejar sitio.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "100.1",
+          "cita": "excepto cuando haya de utilizarse la de corto alcance o de cruce, de acuerdo con\nlo previsto en los artículos 101 y 102, especialmente para evitar los deslumbramientos."
+        }
+      ],
+      "huella": "0316bb2123f1"
+    },
+    {
+      "id": "xc-0055",
+      "porque": "Es una obligación básica sin excepciones de lugar ni de velocidad: quien conduce debe estar en todo momento en condiciones de controlar su vehículo, o sus animales si los conduce.",
+      "descartes": {
+        "a": "La obligación no depende del tipo de vía: rige igual en ciudad que en carretera.",
+        "b": "Tampoco depende de la velocidad: a poca velocidad también puedes atropellar a alguien si pierdes el control."
+      },
+      "truco": null,
+      "huella": "6af8ef1c8f99"
+    },
+    {
+      "id": "xc-0035",
+      "porque": "La seguridad vial es cosa de todos: depende de los conductores y también de los peatones. Por eso la DGT pide que todas las personas colaboren respetando a los demás y circulando de forma ordenada, vayan andando o en un vehículo.",
+      "descartes": {
+        "b": "Los profesionales son solo una parte de quienes conducen: la seguridad depende de todos los conductores y también de los peatones.",
+        "c": "Los agentes vigilan y regulan el tráfico, pero la seguridad depende del comportamiento de cada conductor y de cada peatón."
+      },
+      "truco": null,
+      "huella": "e46899fe0e03"
+    },
+    {
+      "id": "xc-0051",
+      "porque": "Si sabes que alguien conduce sin manos libres, tu llamada le empuja a coger el móvil, que es justo lo prohibido y lo peligroso. Por eso la DGT recomienda directamente no llamarle.",
+      "descartes": {
+        "a": "Aunque sea corta, la llamada le obliga a usar el móvil sin manos libres mientras conduce, y eso está prohibido.",
+        "c": "Pedirle que conteste en un semáforo le empuja igualmente a coger el móvil con el coche en la vía. La recomendación de la DGT es no llamarle."
+      },
+      "truco": null,
+      "huella": "9df0f3610d39"
+    },
+    {
+      "id": "xc-0052",
+      "porque": "Si la otra persona sabe que conduces, entenderá que la conversación sea breve y que cortes si hace falta. Por eso la DGT recomienda avisarle, y además no alargar la conversación más de un minuto.",
+      "descartes": {
+        "a": "Ocultarlo hace que la otra persona alargue la charla y te reclame más atención. La DGT aconseja lo contrario: avisarle.",
+        "b": "La DGT recomienda no tener conversaciones de más de un minuto, también con manos libres."
+      },
+      "truco": "Con manos libres: avisa de que conduces y no pases del minuto. Si tienes que llamar tú, para en un lugar seguro.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Recomendaciones para usar el móvil y el dispositivo de manos libres (p. 72)",
+          "cita": "No tengas conversaciones que duren más\nde un minuto."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Recomendaciones para usar el móvil y el dispositivo de manos libres (p. 72)",
+          "cita": "Para el vehículo en un lugar seguro\ncuando necesites hacer una llamada."
+        }
+      ],
+      "huella": "8ca12277c163"
+    },
+    {
+      "id": "bm3-0018",
+      "porque": "Al detenerte en un atasco o en un semáforo, dejar al menos dos o tres metros te da margen: puedes avisar si el de delante echa marcha atrás, adelantarlo si se queda parado y no golpearlo si a ti te golpean por detrás.",
+      "descartes": {
+        "b": "Medio metro no deja margen para nada: si te golpean por detrás acabarás chocando con el de delante, y no podrás salir si se queda parado.",
+        "c": "La DGT fija el mínimo en dos o tres metros. Diez metros no es esa cifra; ni siquiera al último de la fila le pide tanto, sino cinco o seis."
+      },
+      "truco": "Parado en fila: al menos dos o tres metros con el de delante. Si eres el último, cinco o seis, con el freno pisado y las luces de emergencia, vigilando el retrovisor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio al detener el vehículo (p. 448)",
+          "cita": "Mantener una distancia de cinco\no seis metros con el vehículo de delante."
+        }
+      ],
+      "huella": "0fbb869e9e67"
+    },
+    {
+      "id": "bm3-0019",
+      "porque": "El último coche de una fila parada es el más expuesto a que le alcance alguien que llega distraído. Por eso la DGT le aconseja hacerse ver con el freno pisado y las luces de emergencia, vigilar por el retrovisor y dejar cinco o seis metros con el de delante.",
+      "descartes": {
+        "a": "Bajarte del coche en plena calzada te expone a un atropello; la DGT propone hacerte ver desde dentro, con el freno y las luces de emergencia.",
+        "c": "Pegarte al de delante te quita margen y, si te golpean, chocarás con él. La DGT recomienda al último de la fila dejar cinco o seis metros."
+      },
+      "truco": "Parado en fila: al menos dos o tres metros con el de delante. Si eres el último, cinco o seis, con el freno pisado y las luces de emergencia, vigilando el retrovisor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio al detener el vehículo (p. 448)",
+          "cita": "Mantener una distancia de cinco\no seis metros con el vehículo de delante."
+        }
+      ],
+      "huella": "94ec9c2a74fa"
+    },
+    {
+      "id": "bm3-0002",
+      "porque": "La norma pide conducir con la diligencia y precaución necesarias para evitar todo daño, propio o ajeno, sin poner en peligro ni a ti, ni a tus ocupantes, ni al resto de usuarios. No hace distinciones entre personas y cosas.",
+      "descartes": {
+        "a": "La obligación no se limita a las demás personas: incluye todo daño, también el tuyo y el material.",
+        "b": "Tampoco se limita a los daños materiales: cubre todo daño, a personas y a cosas, tuyo o de otros."
+      },
+      "truco": "«Todo daño, propio o ajeno»: si una opción empieza por «solo», desconfía.",
+      "huella": "e4d5c1f39a7e"
+    },
+    {
+      "id": "bm3-0017",
+      "porque": "A tu lado, una moto puede quedar en tu ángulo muerto y es fácil que no la veas al cambiar de carril. Por eso la DGT aconseja no quedarse al lado de un vehículo de dos ruedas, sino ir por delante o por detrás de él, con distancia de seguridad.",
+      "descartes": {
+        "a": "Detrás sí, pero no pegado: la DGT pide también mantener la distancia de seguridad con estos vehículos.",
+        "b": "Ponerse a su lado es justo lo que la DGT desaconseja: ahí es fácil que no la veas."
+      },
+      "truco": "Con motos y ciclomotores: delante o detrás, pero no a su lado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Visión (p. 443)",
+          "cita": "Debes tener en cuenta que siempre hay\nun espacio a los dos lados del vehículo\nque no puedes ver,\naunque lleves bien colocados los retrovisores."
+        }
+      ],
+      "huella": "356787a1705d"
+    },
+    {
+      "id": "xc-0053",
+      "porque": "Un peatón que habla por el móvil puede no darse cuenta de que llegas. Aunque él también deba estar atento, tú tienes que tomar las precauciones necesarias al acercarte a otros usuarios, y la DGT pide tener especial cuidado en este caso.",
+      "descartes": {
+        "b": "Un bocinazo prolongado puede asustarle y hacer que reaccione mal, y el uso inmotivado o exagerado del claxon está prohibido.",
+        "c": "Que el peatón deba estar atento no te libra de tu obligación de tomar precauciones al acercarte a otros usuarios de la vía."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "110.1",
+          "cita": "Excepcionalmente o cuando así lo prevea alguna norma de la legislación sobre tráfico,\ncirculación de vehículos a motor y seguridad vial, podrán emplearse señales acústicas de\nsonido no estridente, y queda prohibido su uso inmotivado o exagerado."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "17.1",
+          "cita": "Al aproximarse a otros usuarios de la vía, deberán adoptar las precauciones necesarias\npara su seguridad, especialmente cuando se trate de niños, ancianos, invidentes u otras\npersonas manifiestamente impedidas"
+        }
+      ],
+      "huella": "b7605b08ea16"
+    },
+    {
+      "id": "xc-0046",
+      "porque": "Si el de detrás va muy pegado, cualquier frenazo tuyo puede acabar en un alcance. Por eso conviene dejar más espacio delante (para no tener que frenar en seco), señalizar antes tus maniobras y frenar suave y con tiempo, para que pueda reaccionar.",
+      "descartes": {
+        "b": "Frenar bruscamente es lo que más riesgo crea con alguien pegado detrás. Salvo peligro inminente, la norma prohíbe reducir la velocidad de forma brusca.",
+        "c": "La antiniebla trasera solo debe encenderse con condiciones especialmente desfavorables, como niebla espesa o lluvia muy intensa; usarla para que el de detrás se aparte no es ninguno de esos casos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "53.1",
+          "cita": "Salvo en caso de inminente peligro, todo conductor, para reducir considerablemente la\nvelocidad de su vehículo, deberá cerciorarse de que puede hacerlo sin riesgo para otros\nconductores y estará obligado a advertirlo previamente del modo previsto en el artículo 109,\nsin que pueda realizarlo de forma brusca"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+        }
+      ],
+      "huella": "8f825ae5f2a0"
+    },
+    {
+      "id": "xc-0047",
+      "porque": "Los dos o tres metros al detenerte tienen tres ventajas según la DGT: puedes avisar si el de delante echa marcha atrás, puedes adelantarlo si se queda parado y no lo golpearás si a ti te golpean por detrás.",
+      "descartes": {
+        "a": "Dejar espacio no impide que el de delante cambie de carril: la ventaja es tu propio margen de maniobra.",
+        "c": "La DGT no relaciona esa distancia con el ahorro de combustible: las ventajas que cita son de seguridad."
+      },
+      "truco": "Parado en fila: al menos dos o tres metros con el de delante. Si eres el último, cinco o seis, con el freno pisado y las luces de emergencia, vigilando el retrovisor.",
+      "huella": "6597832e3b7e"
+    },
+    {
+      "id": "xc-0048",
+      "porque": "Si alguien te golpea por detrás, el golpe te empuja hacia delante. Con dos o tres metros de hueco tienes margen para no acabar chocando contra el vehículo de delante, y además puedes avisarle si echa marcha atrás o adelantarlo si se queda parado.",
+      "descartes": {
+        "a": "Que intervenga o no el seguro depende de los daños. Lo que evitas con esa distancia es el segundo choque, contra el de delante.",
+        "b": "La distancia no tiene que ver con el airbag: lo que te ahorra es que el golpe de atrás te lance contra el coche de delante."
+      },
+      "truco": "Parado en fila: al menos dos o tres metros con el de delante. Si eres el último, cinco o seis, con el freno pisado y las luces de emergencia, vigilando el retrovisor.",
+      "huella": "ef6d1f27b5bc"
+    },
+    {
+      "id": "xc-0049",
+      "porque": "El último de la fila es quien recibe el golpe si llega alguien distraído, así que la DGT le propone más margen: cinco o seis metros con el de delante, además de mantener el freno pisado, encender las luces de emergencia y vigilar por el retrovisor.",
+      "descartes": {
+        "b": "Medio metro no deja ningún margen: si te alcanzan, chocarás también con el de delante.",
+        "c": "La DGT no habla de veinte metros: para el último de la fila propone cinco o seis."
+      },
+      "truco": "Parado en fila: al menos dos o tres metros con el de delante. Si eres el último, cinco o seis, con el freno pisado y las luces de emergencia, vigilando el retrovisor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio al detener el vehículo (p. 448)",
+          "cita": "Mantener el freno pisado\ny encender las luces de emergencia\nen un atasco para que se le vea mejor."
+        }
+      ],
+      "huella": "3ddbb1f11d18"
+    },
+    {
+      "id": "bm3-0003",
+      "porque": "La norma distingue dos escalones: la conducción negligente, por falta del cuidado debido, es infracción grave, y la temeraria es muy grave. Así lo recoge también la Ley de Tráfico, que es la que manda.",
+      "descartes": {
+        "b": "Ninguna norma la considera leve: la conducción negligente figura entre las infracciones graves.",
+        "c": "Muy grave es la conducción temeraria, no la negligente."
+      },
+      "truco": "Negligente, grave; temeraria, muy grave. A más desprecio por el riesgo, un escalón más.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.m",
+          "cita": "m) Conducción negligente."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77.e",
+          "cita": "e) Conducción temeraria."
+        }
+      ],
+      "huella": "e60062777be6"
+    },
+    {
+      "id": "bm3-0004",
+      "porque": "La conducción temeraria, cuando no llega a delito, es infracción muy grave según la Ley de Tráfico. Si además se conduce con temeridad manifiesta y se pone en concreto peligro la vida o la integridad de las personas, ya es delito.",
+      "descartes": {
+        "a": "Grave es la conducción negligente; la temeraria está un escalón por encima.",
+        "c": "No hace falta un accidente para que sea muy grave: la infracción está en la forma de conducir, con o sin consecuencias."
+      },
+      "truco": "Negligente, grave; temeraria, muy grave. A más desprecio por el riesgo, un escalón más.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.e",
+          "cita": "e) Conducción temeraria."
+        },
+        {
+          "norma": "CP",
+          "articulo": "380.1",
+          "cita": "El que condujere un vehículo a motor o un ciclomotor con temeridad manifiesta y\npusiere en concreto peligro la vida o la integridad de las personas"
+        }
+      ],
+      "huella": "969a19a04f6b"
+    },
+    {
+      "id": "bm3-0011",
+      "porque": "Si tú has creado el obstáculo o el peligro, te toca quitarlo lo antes posible y, mientras tanto, tomar las medidas necesarias para que los demás lo adviertan y no se dificulte la circulación.",
+      "descartes": {
+        "a": "La norma no hace excepciones por el tamaño: cualquier obstáculo o peligro creado debe retirarse y, entre tanto, señalizarse.",
+        "b": "Avisar puede ayudar, pero no basta con marcharse: quien lo creó debe hacerlo desaparecer y, mientras tanto, hacer que se vea."
+      },
+      "truco": "Lo creaste, lo quitas; y mientras tanto, lo señalizas de forma que se vea de día y de noche.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "5.1",
+          "cita": "adoptarán entre tanto las medidas necesarias para que\npueda ser advertido por los demás usuarios y para que no se dificulte la circulación"
+        }
+      ],
+      "huella": "f9c57fc9b031"
+    },
+    {
+      "id": "xc-0057",
+      "porque": "La carga caída es un obstáculo que has creado tú, y quien causa un obstáculo debe señalizarlo de forma eficaz, tanto de día como de noche, mientras no lo retire. De día también puede sorprender a quien llega, por ejemplo tras una curva.",
+      "descartes": {
+        "a": "La obligación es de día y de noche: de día un obstáculo también puede no verse a tiempo.",
+        "c": "Llamar al 112 no sustituye la señalización en el lugar, que es obligación de quien causó el obstáculo."
+      },
+      "truco": "Lo creaste, lo quitas; y mientras tanto, lo señalizas de forma que se vea de día y de noche.",
+      "huella": "6b9fbd97141c"
+    },
+    {
+      "id": "bm3-0006",
+      "porque": "No basta con reaccionar cuando el peatón ya está en la calzada: hay que moderar la velocidad, e incluso detenerse, también cuando pueda preverse razonablemente que va a irrumpir en ella, sobre todo si son niños, ancianos, invidentes u otras personas manifiestamente impedidas.",
+      "descartes": {
+        "b": "Esperar a que el peatón esté en la calzada deja poco margen: la norma obliga a moderar antes, cuando su irrupción puede preverse.",
+        "c": "Las proximidades de los pasos de peatones no regulados son uno de los casos en que hay que moderar, pero no el único: también cuando haya peatones en la vía o pueda preverse que van a irrumpir."
+      },
+      "truco": "Modera por lo que ves y por lo que es razonable esperar, como un niño que puede salir detrás de un balón.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "46.1.b",
+          "cita": "en las\nproximidades de vías de uso exclusivo de ciclos y de los pasos de peatones no regulados\npor semáforo o agentes de la circulación"
+        }
+      ],
+      "huella": "c13089d84133"
+    },
+    {
+      "id": "bm3-0005",
+      "porque": "La norma pide tomar las precauciones necesarias al acercarte a cualquier usuario de la vía, y menciona en especial a los más vulnerables: niños, ancianos, invidentes y otras personas manifiestamente impedidas.",
+      "descartes": {
+        "a": "El tamaño del otro vehículo no es lo que destaca la norma: el cuidado especial es para las personas más vulnerables.",
+        "b": "Conviene tener en cuenta a los conductores noveles, pero no están en la lista de usuarios a los que la norma pide extremar las precauciones."
+      },
+      "truco": "Cuidado extra con quien menos puede protegerse: niños, ancianos, invidentes y otras personas con limitaciones evidentes.",
+      "huella": "3ecd0a94c7ae"
+    },
+    {
+      "id": "xc-0056",
+      "porque": "La Ley de Tráfico obliga a conducir con diligencia, precaución y atención para no poner en peligro a nadie, y pide cuidar especialmente a los usuarios cuyas características les hagan más vulnerables, como los niños o los ancianos que cita el reglamento.",
+      "descartes": {
+        "b": "El precio del vehículo no tiene nada que ver: la ley protege a las personas según su vulnerabilidad, no a los vehículos más caros.",
+        "c": "Ir más rápido no da una protección especial: la ley se fija en quién es más vulnerable."
+      },
+      "truco": "Cuidado extra con quien menos puede protegerse: niños, ancianos, invidentes y otras personas con limitaciones evidentes.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "17.1",
+          "cita": "Al aproximarse a otros usuarios de la vía, deberán adoptar las precauciones necesarias\npara su seguridad, especialmente cuando se trate de niños, ancianos, invidentes u otras\npersonas manifiestamente impedidas"
+        }
+      ],
+      "huella": "35b6620f5b60"
+    },
+    {
+      "id": "bm3-0014",
+      "porque": "Quien está dentro de un coche aparcado puede abrir la puerta o bajarse sin mirar. Por eso la DGT pide conducir con más cuidado al pasar junto a vehículos aparcados con personas dentro.",
+      "descartes": {
+        "a": "Es cierto que quien se baja debe mirar antes, pero no puedes contar con que lo haga: la DGT te pide más cuidado a ti también.",
+        "b": "El claxon no sirve para evitar que alguien abra la puerta, y su uso inmotivado está prohibido. Lo recomendado es ir con más cuidado."
+      },
+      "truco": "Coche aparcado con gente dentro: una puerta que se puede abrir en cualquier momento.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Los peatones (p. 397)",
+          "cita": "Comprobar que no viene otro vehículo\nantes de bajarte del tuyo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "110.1",
+          "cita": "Excepcionalmente o cuando así lo prevea alguna norma de la legislación sobre tráfico,\ncirculación de vehículos a motor y seguridad vial, podrán emplearse señales acústicas de\nsonido no estridente, y queda prohibido su uso inmotivado o exagerado."
+        }
+      ],
+      "huella": "f89c9363d511"
+    },
+    {
+      "id": "xc-0040",
+      "porque": "Cuanto más rápido vas, más metros recorres en el mismo tiempo y antes te llegan los peligros. Por eso la DGT pide mirar a lo lejos, al espacio que recorrerás en los siguientes 20 segundos, y más lejos cuanto mayor sea la velocidad.",
+      "descartes": {
+        "a": "Mirar al capó te deja sin tiempo para prever nada: con más velocidad hay que mirar más lejos, no más cerca.",
+        "b": "Sí cambia: a más velocidad, más lejos, porque en el mismo tiempo recorres más distancia."
+      },
+      "truco": "Mira a 20 segundos vista, y más lejos cuanto más rápido vas; con el de delante, deja dos o tres segundos de separación. No confundas una cifra con la otra.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Visión (p. 441)",
+          "cita": "Debes mirar a lo lejos para controlar\nlo que pasa en el espacio que va a recorrer\ntu vehículo en los siguientes 20 segundos."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio delantero (p. 446)",
+          "cita": "Es aconsejable que entre tu vehículo\ny el de delante haya dos o tres segundos\nde separación."
+        }
+      ],
+      "huella": "df333cd7f609"
+    },
+    {
+      "id": "xc-0041",
+      "porque": "Tardamos más en ver lo que pasa a los lados que lo que tenemos delante. Por eso la DGT pide revisar todo el rato lo que ocurre a izquierda y derecha, sobre todo con los retrovisores, que muestran lo que pasa detrás y a los lados.",
+      "descartes": {
+        "b": "Los retrovisores muestran justo lo contrario: lo que pasa detrás y a los lados del vehículo.",
+        "c": "El consumo no tiene nada que ver: el motivo es que tardamos más en ver lo que pasa a los lados."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Visión (p. 442)",
+          "cita": "Esto se hace a través de los espejos retrovisores\nporque permiten ver lo que pasa detrás\ny a los lados del vehículo."
+        }
+      ],
+      "huella": "76aa9497f955"
+    },
+    {
+      "id": "xc-0042",
+      "porque": "Los retrovisores se miran durante todo el viaje, aunque no vayas a hacer ninguna maniobra, para saber siempre qué tienes detrás y a los lados. Cuántas veces depende del tipo de carretera.",
+      "descartes": {
+        "a": "Antes de adelantar hay que mirarlos, pero no solo entonces: la DGT pide hacerlo durante todo el viaje.",
+        "c": "Marcha atrás también, pero la recomendación es mirarlos durante todo el viaje, haya o no maniobra."
+      },
+      "truco": "Retrovisores: durante todo el viaje, aunque no vayas a hacer ninguna maniobra, y con miradas rápidas y breves.",
+      "huella": "6df65df03b4e"
+    },
+    {
+      "id": "xc-0043",
+      "porque": "Mientras miras el espejo no ves lo que pasa delante. Por eso los retrovisores se miran de forma rápida y breve, para seguir atento al resto de la carretera, y esas miradas se repiten durante el viaje.",
+      "descartes": {
+        "a": "Varios segundos mirando el espejo son varios segundos sin ver lo que tienes delante: las miradas deben ser rápidas y breves.",
+        "b": "Se miran circulando, durante todo el viaje: con el vehículo parado no te informan de lo que pasa mientras conduces."
+      },
+      "truco": "Retrovisores: durante todo el viaje, aunque no vayas a hacer ninguna maniobra, y con miradas rápidas y breves.",
+      "huella": "acb74e5683a7"
+    },
+    {
+      "id": "xc-0054",
+      "porque": "Cerca de las zonas de fiesta y diversión suele haber muchos peatones, y no siempre van pendientes del tráfico. Por eso la DGT pide prestar atención a quienes andan por esos lugares.",
+      "descartes": {
+        "a": "Las luces de largo alcance pueden deslumbrar a peatones y conductores; lo que pide la DGT es prestar atención a quienes andan por la zona.",
+        "c": "Circular por el centro de la calzada no protege a nadie y no es lo que recomienda la DGT: lo que pide es atención a los peatones."
+      },
+      "truco": null,
+      "huella": "52c7f7cde49f"
+    },
+    {
+      "id": "xc-0034",
+      "porque": "La zona de inseguridad es el espacio alrededor de tu vehículo en el que pueden surgir imprevistos de otros conductores y peatones, como un niño que sale detrás de una pelota o una bicicleta que se cruza. Pueden aparecer por delante, por detrás y a los lados.",
+      "descartes": {
+        "a": "Delante es donde mejor se ven, pero un imprevisto también puede llegar por detrás o por un lado, como una bicicleta que se cruza.",
+        "b": "Falta lo que pasa a los lados, por donde también puede cruzarse alguien de repente."
+      },
+      "truco": "Zona de inseguridad: todo el contorno del coche, delante, detrás y a los lados.",
+      "huella": "c4185ca57b48"
+    },
+    {
+      "id": "v5f-ada-0001",
+      "porque": "El detector de fatiga reconoce con sensores si estás muy cansado o a punto de dormirte y te avisa para que pares. La DGT dice que obedezcas lo que te indique: parar en un lugar seguro.",
+      "descartes": {
+        "b": "Si el detector avisa es porque ya reconoce que estás muy cansado. Esperar a notar sueño es ignorarlo, y con los primeros síntomas lo indicado es parar y dormir 20 o 30 minutos.",
+        "c": "Desconectar el aviso no te quita el cansancio, y bajar la ventanilla no es ningún remedio que dé la DGT: lo que pide es obedecer al detector y parar."
+      },
+      "truco": "Detector de fatiga: si avisa, paras. Primeros síntomas de sueño: paras en un lugar seguro y duermes 20 o 30 minutos.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Cómo puedes evitar la fatiga y la somnolencia? (p. 51)",
+          "cita": "Para el vehículo en un lugar seguro\ncuando sientas los primeros síntomas\ny duerme 20 o 30 minutos."
+        }
+      ],
+      "huella": "1fdae1d377c4"
+    },
+    {
+      "id": "xb-0012",
+      "porque": "Cuando los hechos pueden ser delito, por ejemplo negarse a las pruebas que pide un agente, que el Código Penal castiga, el agente conduce al juzgado correspondiente tanto a quien ha sido examinado como a quien se niega a hacer la prueba.",
+      "descartes": {
+        "a": "La denuncia administrativa es para cuando no hay delito; aquí el enunciado dice que los hechos son delictivos, y eso va al juzgado.",
+        "b": "La prueba no se aplaza al día siguiente: cuando hay delito, el agente lleva al conductor ante el juzgado."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "383",
+          "cita": "El conductor que, requerido por un agente de la autoridad, se negare a someterse a las\npruebas legalmente establecidas para la comprobación de las tasas de alcoholemia"
+        }
+      ],
+      "huella": "cd4383743292"
+    },
+    {
+      "id": "D-dro-0001",
+      "porque": "Para las drogas la ley no fija una tasa: prohíbe conducir cualquier vehículo con presencia de drogas en el organismo, notes o no sus efectos. La única excepción son las sustancias tomadas con receta médica y finalidad terapéutica, si estás en condiciones de conducir con diligencia.",
+      "descartes": {
+        "b": "Que no notes los efectos da igual: la infracción es la presencia de drogas en el organismo, no sentir sus efectos.",
+        "c": "Haber consumido el día anterior no te libra si la droga sigue en tu organismo, que es lo que prohíbe la ley."
+      },
+      "truco": "Alcohol: hay tasas máximas. Drogas: ninguna presencia, salvo medicamentos recetados con finalidad terapéutica y si estás en condiciones de conducir con seguridad.",
+      "huella": "acd5ec52a02f"
+    },
+    {
+      "id": "D-dro-0005",
+      "porque": "La regla general es que no se puede conducir con presencia de drogas en el organismo, pero la ley excluye las sustancias usadas con prescripción médica y finalidad terapéutica, siempre que estés en condiciones de conducir con diligencia, precaución y sin distracciones.",
+      "descartes": {
+        "a": "No es «en cualquier caso»: la propia ley excluye los medicamentos recetados con finalidad terapéutica si puedes conducir con seguridad.",
+        "c": "La hora no tiene nada que ver: la excepción depende de la receta, de la finalidad terapéutica y de tu estado para conducir."
+      },
+      "truco": "Alcohol: hay tasas máximas. Drogas: ninguna presencia, salvo medicamentos recetados con finalidad terapéutica y si estás en condiciones de conducir con seguridad.",
+      "huella": "c1bd704e49ce"
+    },
+    {
+      "id": "D-alc-0001",
+      "porque": "El alcohol da una falsa seguridad en uno mismo: te sientes capaz cuando en realidad ves y reaccionas peor. Por eso te expones a más riesgos, cometes más faltas que provocan accidentes y puedes tratar de forma más agresiva o impulsiva a otros conductores.",
+      "descartes": {
+        "a": "Es al revés: con alcohol te expones a más riesgos, no eres más prudente.",
+        "b": "También al revés: con alcohol se cometen más faltas que provocan accidentes."
+      },
+      "truco": "El alcohol empeora todo lo que necesitas para conducir: ver, calcular, reaccionar y decidir. Lo único que «sube» es la confianza, y es falsa.",
+      "huella": "808c5a6543a0"
+    },
+    {
+      "id": "D-alc-0002",
+      "porque": "El alcohol afecta sobre todo al cerebro y a la vista: ves peor las señales, calculas peor las distancias, tienes menos capacidad de ver lo que pasa a un lado y a otro y te deslumbras más con las luces de los demás.",
+      "descartes": {
+        "b": "Sí afecta a la visión, y mucho: según la DGT, el alcohol afecta sobre todo al cerebro y a la vista.",
+        "c": "No mejora nada: con alcohol te deslumbras más con las luces de los demás vehículos, lo que empeora la conducción de noche."
+      },
+      "truco": "El alcohol empeora todo lo que necesitas para conducir: ver, calcular, reaccionar y decidir. Lo único que «sube» es la confianza, y es falsa.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Alcohol (p. 52)",
+          "cita": "a través de la sangre y afecta, sobre todo,\nal cerebro y a la vista."
+        }
+      ],
+      "huella": "07aad9f19f23"
+    },
+    {
+      "id": "xb-0033",
+      "porque": "El alcohol pasa a la sangre y se extiende por todo el cuerpo, pero sus efectos más importantes al volante están en el cerebro y en la vista: decides, reaccionas y ves peor.",
+      "descartes": {
+        "a": "Puede afectar a la coordinación de los movimientos, pero la DGT dice que afecta sobre todo al cerebro y a la vista.",
+        "b": "El oído y el olfato no son lo que destaca la DGT: lo principal es el cerebro y la vista."
+      },
+      "truco": "El alcohol empeora todo lo que necesitas para conducir: ver, calcular, reaccionar y decidir. Lo único que «sube» es la confianza, y es falsa.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Efectos del alcohol mientras conduces (p. 57)",
+          "cita": "Dificultad para coordinar\nlos movimientos de tu cuerpo."
+        }
+      ],
+      "huella": "aaaef30a0c17"
+    },
+    {
+      "id": "xb-0034",
+      "porque": "La ley fija unas tasas máximas, pero que algo esté permitido no lo hace seguro: el alcohol es peligroso al volante aunque bebas poca cantidad. Por eso la DGT insiste en que la única tasa segura es 0,0, es decir, no beber.",
+      "descartes": {
+        "b": "Por debajo del límite legal no te sancionan, pero el alcohol ya afecta: la DGT no considera segura ninguna tasa salvo 0,0.",
+        "c": "0,10 mg/l no es ninguna tasa segura ni figura como límite en la norma: la DGT habla de 0,0."
+      },
+      "truco": "Legal no es lo mismo que seguro: la única tasa segura para conducir es 0,0.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Alcohol (p. 52)",
+          "cita": "Es muy peligroso beber alcohol\ncuando vas a conducir, aunque bebas poca cantidad."
+        }
+      ],
+      "huella": "ade9c38761de"
+    },
+    {
+      "id": "xb-0035",
+      "porque": "Dormir no acelera la eliminación del alcohol; al contrario, mientras duermes se elimina más despacio. Por eso, después de beber mucho y dormir pocas horas, por la mañana puedes seguir teniendo alcohol en la sangre.",
+      "descartes": {
+        "a": "Es justo al revés: durante el sueño el alcohol se elimina más despacio.",
+        "c": "El café no aparece en la DGT como remedio: la tasa de alcohol baja muy poco a poco con el tiempo, y un café no cambia eso."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (p. 55)",
+          "cita": "Después los efectos del alcohol van bajando\nmuy poco a poco."
+        }
+      ],
+      "huella": "e356896f3baf"
+    },
+    {
+      "id": "xb-0036",
+      "porque": "Entre los efectos del alcohol sobre la forma de ver el entorno, la DGT cita que calculas peor la distancia a la que están otros vehículos, además de ver peor las señales y tener menos visión hacia los lados.",
+      "descartes": {
+        "a": "El alcohol no hace que te fijes más: da una falsa seguridad y empeora la percepción de las distancias.",
+        "b": "No afecta solo a los reflejos: también a cómo ves el entorno, incluidas las distancias."
+      },
+      "truco": "El alcohol empeora todo lo que necesitas para conducir: ver, calcular, reaccionar y decidir. Lo único que «sube» es la confianza, y es falsa.",
+      "huella": "e5717be9d5c5"
+    },
+    {
+      "id": "D-dro-0006",
+      "porque": "El cannabis puede hacerte ver el entorno de otra manera, calcular peor las distancias, perder la concentración, necesitar más tiempo para reaccionar e incluso dormirte conduciendo.",
+      "descartes": {
+        "a": "Es al revés: con cannabis necesitas más tiempo para reaccionar.",
+        "b": "También al revés: con cannabis se calculan peor las distancias."
+      },
+      "truco": "Según la DGT, todas las drogas son peligrosas para conducir: desconfía de cualquier opción que les atribuya una mejora.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Cómo perjudican las drogas en la conducción? (p. 58)",
+          "cita": "Todas las drogas son peligrosas\ny está prohibido conducir cuando se han consumido."
+        }
+      ],
+      "huella": "506eb2ff4db9"
+    },
+    {
+      "id": "D-dro-0007",
+      "porque": "La cocaína puede volverte más impulsivo o agresivo, hacerte perder la sensación de peligro y llevarte a conducir de forma más peligrosa, además de alterar cómo ves el entorno y hacerte perder la concentración.",
+      "descartes": {
+        "b": "Al contrario: al perder la sensación de peligro y volverse más impulsivo, se conduce de forma más peligrosa.",
+        "c": "Dormirse conduciendo es un efecto que el manual atribuye al cannabis; los de la cocaína son la impulsividad, la agresividad y la pérdida de la sensación de peligro."
+      },
+      "truco": "Según la DGT, todas las drogas son peligrosas para conducir: desconfía de cualquier opción que les atribuya una mejora.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Cómo perjudican las drogas en la conducción? (p. 58)",
+          "cita": "Todas las drogas son peligrosas\ny está prohibido conducir cuando se han consumido."
+        }
+      ],
+      "huella": "ff321089026e"
+    },
+    {
+      "id": "xb-0037",
+      "porque": "Las anfetaminas retrasan la fatiga y el sueño, pero no los eliminan: cuando pasa su efecto, la persona puede sentirse de repente muy cansada y dormirse sin querer.",
+      "descartes": {
+        "b": "Retrasar el sueño es precisamente el peligro: el cansancio aparece de golpe cuando pasa el efecto.",
+        "c": "La DGT no habla de mejores reflejos: entre sus efectos cita perder la paciencia, los comportamientos impulsivos y violentos y la poca sensación de peligro."
+      },
+      "truco": "Según la DGT, todas las drogas son peligrosas para conducir: desconfía de cualquier opción que les atribuya una mejora.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Cómo perjudican las drogas en la conducción? (p. 58)",
+          "cita": "Todas las drogas son peligrosas\ny está prohibido conducir cuando se han consumido."
+        }
+      ],
+      "huella": "9911cac4b59b"
+    },
+    {
+      "id": "xb-0014",
+      "porque": "Conducir con más alcohol del permitido, cuando no llega a delito, es infracción muy grave, igual que negarse a las pruebas. Lo dice el reglamento y lo confirma la Ley de Tráfico.",
+      "descartes": {
+        "a": "Grave es, por ejemplo, la conducción negligente; superar la tasa de alcohol está en la lista de las muy graves.",
+        "c": "Superar la tasa nunca es leve: es muy grave, aunque los puntos y la multa cambien según la cantidad."
+      },
+      "truco": "Alcohol por encima de la tasa, drogas o negarse a las pruebas: si no es delito, es infracción muy grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.c",
+          "cita": "c) Conducir con tasas de alcohol superiores a las que reglamentariamente se\nestablezcan, o con presencia en el organismo de drogas."
+        }
+      ],
+      "huella": "df110ad9fc48"
+    },
+    {
+      "id": "D-alc-0024",
+      "porque": "Con un positivo, el agente puede inmovilizar el vehículo en el acto para que no siga circulando con ese conductor, salvo que otra persona debidamente habilitada pueda hacerse cargo de conducirlo.",
+      "descartes": {
+        "a": "No es «siempre»: si otra persona habilitada puede conducir el vehículo, no hace falta inmovilizarlo.",
+        "c": "Pagar la multa no te habilita para seguir conduciendo con alcohol; precisamente por eso se puede inmovilizar el vehículo."
+      },
+      "truco": "Positivo: el coche se queda, salvo que pueda conducirlo otra persona habilitada.",
+      "huella": "80a4e5849e94"
+    },
+    {
+      "id": "xb-0010",
+      "porque": "La inmovilización, el traslado y el depósito los provoca el positivo del conductor, así que sus gastos corren de su cuenta o de quien legalmente deba responder por él.",
+      "descartes": {
+        "b": "La Administración ordena la inmovilización, pero no la paga: los gastos son del conductor.",
+        "c": "La norma pone estos gastos a cargo del conductor o de quien legalmente deba responder por él, no del seguro."
+      },
+      "truco": "Quien da positivo paga: los gastos de inmovilización y depósito y, si pidió contraste, también el análisis. Si el contraste sale negativo, paga la Administración y se devuelve el depósito.",
+      "huella": "13d1385c69ed"
+    },
+    {
+      "id": "xb-0013",
+      "porque": "Para las drogas, la norma remite a lo previsto para el alcohol: quien está obligado a las pruebas y se niega puede ver su vehículo inmovilizado de inmediato, igual que con la negativa a la prueba de alcoholemia.",
+      "descartes": {
+        "b": "La negativa no solo se denuncia: además, el agente puede inmovilizar el vehículo.",
+        "c": "Retirar la placa de matrícula no es la medida prevista: lo es la inmovilización del vehículo."
+      },
+      "truco": "Positivo o negativa a la prueba, de alcohol o de drogas: en ambos casos el vehículo puede quedar inmovilizado.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "25.2",
+          "cita": "También podrá inmovilizarse el vehículo en los casos de negativa a efectuar las\npruebas de detección alcohólica"
+        }
+      ],
+      "huella": "7942ea79a9a9"
+    },
+    {
+      "id": "D-med-0001",
+      "porque": "La prohibición no depende de que la sustancia sea una droga ilegal: no puedes circular si has tomado sustancias, incluidos los medicamentos, bajo cuyo efecto se altere el estado físico o mental necesario para circular sin peligro.",
+      "descartes": {
+        "b": "El reglamento incluye expresamente los medicamentos: no hace falta que sean drogas.",
+        "c": "El origen natural no importa: lo que cuenta es si altera tu estado para conducir."
+      },
+      "truco": "Con un medicamento, la pregunta no es si es «droga», sino si te altera para conducir. Ante la duda, pregunta al médico.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Enfermedades y medicamentos",
+          "cita": "Cuando tienes una enfermedad\no tomas medicación siempre debes preguntar\na los médicos si puedes conducir."
+        }
+      ],
+      "huella": "22c82113f13b"
+    },
+    {
+      "id": "D-med-0002",
+      "porque": "Los antihistamínicos, que se usan para tratar las alergias, pueden producir sueño, depresión y pérdida de reflejos: justo lo contrario de lo que necesitas al volante.",
+      "descartes": {
+        "a": "No mejoran la visión: sus posibles efectos son sueño, depresión y pérdida de reflejos.",
+        "c": "Al contrario: uno de sus posibles efectos es la pérdida de reflejos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Qué medicamentos pueden ser peligrosos para conducir? (p. 65)",
+          "cita": "Antihistamínicos Tratar las alergias. Sueño.\nDepresión.\nPérdida\nde reflejos."
+        }
+      ],
+      "huella": "692292c1ff6f"
+    },
+    {
+      "id": "xb-0011",
+      "porque": "El resultado de estos análisis tiene consecuencias legales, así que no se queda en la consulta: el personal sanitario está obligado a comunicarlo a la autoridad judicial, a Tráfico y, cuando proceda, a las autoridades municipales.",
+      "descartes": {
+        "a": "El secreto profesional no impide comunicar este resultado: la norma obliga al personal sanitario a darlo a conocer a esas autoridades.",
+        "c": "La aseguradora no figura entre los destinatarios: son la autoridad judicial, Tráfico y, si procede, las autoridades municipales."
+      },
+      "truco": null,
+      "huella": "16046097abba"
+    },
+    {
+      "id": "D-alc-0007",
+      "porque": "Todos los conductores de vehículos y de bicicletas están obligados a someterse a las pruebas. Los demás usuarios, como los peatones, también lo están, pero solo cuando están implicados en un accidente o han cometido una infracción.",
+      "descartes": {
+        "a": "No solo los de vehículos a motor: la norma incluye expresamente a los conductores de bicicletas.",
+        "b": "No es «en cualquier caso»: los usuarios que no conducen solo están obligados si están implicados en un accidente o han cometido una infracción."
+      },
+      "truco": "Conductores, también de bicicleta: obligados siempre que se lo pidan. Peatones y demás usuarios: si están implicados en un accidente o han cometido una infracción.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "14.2",
+          "cita": "Igualmente quedan obligados los demás usuarios de la vía cuando se\nhallen implicados en un accidente de tráfico o hayan cometido una infracción conforme a lo\ntipificado en esta ley."
+        }
+      ],
+      "huella": "45e40a8825a2"
+    },
+    {
+      "id": "D-alc-0008",
+      "porque": "Los conductores están obligados siempre; los demás usuarios de la vía, como los peatones, cuando están implicados en un accidente o han cometido una infracción. Este peatón está implicado en un accidente, así que debe someterse a las pruebas.",
+      "descartes": {
+        "b": "Los conductores no son los únicos: los demás usuarios también lo están si se ven implicados en un accidente.",
+        "c": "No depende de que él lo pida: es una obligación cuando está implicado en un accidente."
+      },
+      "truco": "Conductores, también de bicicleta: obligados siempre que se lo pidan. Peatones y demás usuarios: si están implicados en un accidente o han cometido una infracción.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "14.2",
+          "cita": "Igualmente quedan obligados los demás usuarios de la vía cuando se\nhallen implicados en un accidente de tráfico o hayan cometido una infracción conforme a lo\ntipificado en esta ley."
+        }
+      ],
+      "huella": "ab44d2dcd38c"
+    },
+    {
+      "id": "D-alc-0009",
+      "porque": "La Ley de Tráfico obliga a los demás usuarios de la vía cuando están implicados en un accidente o cuando han cometido una infracción. Aquí no hay accidente, pero sí infracción, y con eso basta.",
+      "descartes": {
+        "a": "No es «nunca»: los peatones están obligados si están implicados en un accidente o han cometido una infracción.",
+        "c": "El accidente no es el único caso: la Ley añade a quien ha cometido una infracción. El reglamento solo menciona el accidente, pero manda la Ley."
+      },
+      "truco": "Conductores, también de bicicleta: obligados siempre que se lo pidan. Peatones y demás usuarios: si están implicados en un accidente o han cometido una infracción.",
+      "huella": "145216f11664"
+    },
+    {
+      "id": "D-alc-0018",
+      "porque": "Si la primera prueba supera la tasa, o hay síntomas evidentes, se hace una segunda por aire espirado, y tienes derecho a controlar que entre las dos pasen al menos 10 minutos.",
+      "descartes": {
+        "a": "Una hora no es el plazo de la norma, que fija un mínimo de 10 minutos.",
+        "c": "Un minuto se queda corto: el mínimo es de 10 minutos."
+      },
+      "truco": "Segunda prueba de aire: al menos 10 minutos después de la primera.",
+      "huella": "d1c76c19f9a1"
+    },
+    {
+      "id": "D-alc-0019",
+      "porque": "Si no estás de acuerdo con el resultado, puedes pedir que se repita la prueba a efectos de contraste, y la ley dice que consistirá preferentemente en un análisis de sangre, salvo causas excepcionales debidamente justificadas.",
+      "descartes": {
+        "a": "La prueba salival es la de detección de drogas, no el contraste preferente del alcohol.",
+        "b": "Una prueba de equilibrio no mide el alcohol; el contraste es preferentemente un análisis de sangre."
+      },
+      "truco": "Sopla para el alcohol, saliva para las drogas y, si pides contraste, preferentemente sangre.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "14.3",
+          "cita": "para la detección de la presencia de drogas en el organismo, en una prueba salival mediante un dispositivo autorizado"
+        }
+      ],
+      "huella": "88a1ae05b589"
+    },
+    {
+      "id": "D-alc-0020",
+      "porque": "El contraste lo pide el propio interesado, así que, si confirma el positivo, lo paga él. Si da negativo, lo paga la Administración y se le devuelve lo que depositó.",
+      "descartes": {
+        "b": "El centro sanitario hace el análisis, pero no lo paga.",
+        "c": "Tráfico solo lo paga si el resultado es negativo; si es positivo, lo abona el interesado."
+      },
+      "truco": "Quien da positivo paga: los gastos de inmovilización y depósito y, si pidió contraste, también el análisis. Si el contraste sale negativo, paga la Administración y se devuelve el depósito.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "23.4",
+          "cita": "será a\ncargo de los órganos periféricos del organismo autónomo Jefatura Central de Tráfico o de las\nautoridades municipales o autonómicas competentes cuando sea negativo, devolviéndose el\ndepósito en este último caso."
+        }
+      ],
+      "huella": "d3c593cffe6a"
+    },
+    {
+      "id": "xb-0007",
+      "porque": "Si pides el análisis de contraste, el agente adopta las medidas para trasladarte al centro sanitario más próximo al lugar de los hechos. Lo que cuenta es la cercanía al lugar, no tu domicilio.",
+      "descartes": {
+        "b": "No se va al centro de salud de tu domicilio, sino al centro sanitario más próximo al lugar de los hechos.",
+        "c": "La Jefatura de Tráfico no hace análisis de sangre: el traslado es a un centro sanitario."
+      },
+      "truco": null,
+      "huella": "898f07c61d9b"
+    },
+    {
+      "id": "xb-0008",
+      "porque": "El importe del análisis se deposita antes. Si da positivo, con ese dinero se paga el análisis; si da negativo, lo paga la Administración y se devuelve el depósito.",
+      "descartes": {
+        "a": "Haberlo pedido tú no te obliga a pagarlo si sale negativo: en ese caso corre a cargo de la Administración.",
+        "c": "La norma no habla de devolver la mitad: si el resultado es negativo, se devuelve el depósito."
+      },
+      "truco": "Quien da positivo paga: los gastos de inmovilización y depósito y, si pidió contraste, también el análisis. Si el contraste sale negativo, paga la Administración y se devuelve el depósito.",
+      "huella": "0fda558b6447"
+    },
+    {
+      "id": "D-dro-0004",
+      "porque": "Para las drogas, la ley prevé una prueba salival con un dispositivo autorizado y, después, el análisis de una muestra de saliva en cantidad suficiente. El etilómetro, en el que se sopla, es para el alcohol.",
+      "descartes": {
+        "b": "Soplar en el etilómetro es la prueba de alcohol, no la de drogas.",
+        "c": "La prueba de drogas no es de equilibrio ni de coordinación: la ley prevé una prueba salival."
+      },
+      "truco": "Sopla para el alcohol, saliva para las drogas y, si pides contraste, preferentemente sangre.",
+      "huella": "ad3092036e33"
+    },
+    {
+      "id": "xb-0003",
+      "porque": "Los agentes pueden hacer la prueba de alcoholemia a los conductores denunciados por cualquier infracción del reglamento, aunque no tengan síntomas. Saltarse un semáforo en rojo es una de esas infracciones.",
+      "descartes": {
+        "a": "Los síntomas son uno de los supuestos, pero no el único: también basta con haber sido denunciado por una infracción.",
+        "b": "El accidente es otro de los supuestos, no el único."
+      },
+      "truco": "Cuatro casos para la prueba de alcohol: accidente, síntomas, denuncia por una infracción y control preventivo. Basta con uno.",
+      "huella": "dab1eb1ab857"
+    },
+    {
+      "id": "xb-0004",
+      "porque": "En un control preventivo ordenado por la autoridad, los agentes pueden hacer la prueba a cualquier conductor al que requieran, aunque circule bien y sin síntomas. Es uno de los cuatro supuestos de la norma, junto con el accidente, los síntomas y la denuncia por infracción.",
+      "descartes": {
+        "b": "La infracción y el accidente son otros supuestos; el control preventivo es uno independiente que no los necesita.",
+        "c": "Los síntomas tampoco son necesarios en un control preventivo."
+      },
+      "truco": "Cuatro casos para la prueba de alcohol: accidente, síntomas, denuncia por una infracción y control preventivo. Basta con uno.",
+      "huella": "cd5a1daed080"
+    },
+    {
+      "id": "xb-0005",
+      "porque": "Si las lesiones impiden hacer la prueba con el etilómetro, la decisión pasa a quien puede valorar el estado del herido: el personal facultativo del centro médico al que lo han evacuado decide qué pruebas se hacen.",
+      "descartes": {
+        "a": "En este caso no decide el agente: la norma deja la elección de las pruebas al personal facultativo del centro médico.",
+        "c": "Ni el conductor ni su familia eligen las pruebas: las decide el personal facultativo del centro médico."
+      },
+      "truco": null,
+      "huella": "7e92f91974ef"
+    },
+    {
+      "id": "xb-0006",
+      "porque": "La segunda prueba no se hace solo cuando la primera supera la tasa: también cuando, sin superarla, la persona presenta síntomas evidentes de estar bajo la influencia del alcohol. En ese caso el agente hace una segunda prueba por aire espirado, a efectos de contraste.",
+      "descartes": {
+        "a": "No superar 0,25 no cierra el asunto: con síntomas evidentes, la norma obliga a una segunda prueba.",
+        "b": "Inmovilizar y denunciar sin más no es el procedimiento: antes se hace la segunda prueba de contraste."
+      },
+      "truco": "Segunda prueba por aire si superas la tasa o si, sin superarla, tienes síntomas evidentes.",
+      "huella": "74be107f4002"
+    },
+    {
+      "id": "xb-0009",
+      "porque": "Durante las pruebas tienes derecho a hacer las alegaciones u observaciones que quieras, tú mismo o por medio de tu acompañante o defensor, y se hacen constar por diligencia. Es una de las garantías del procedimiento.",
+      "descartes": {
+        "a": "No hay que esperar al juzgado: el agente debe informarte de que puedes alegar en ese momento, y queda recogido por diligencia.",
+        "b": "El derecho a hacer alegaciones no depende del resultado de la segunda prueba."
+      },
+      "truco": null,
+      "huella": "cadef60715dd"
+    },
+    {
+      "id": "xb-0015",
+      "porque": "Negarse a las pruebas de alcohol o de drogas cuesta 6 puntos, los mismos que el tramo alto de alcohol o la presencia de drogas. Negarse no sale más barato que dar positivo.",
+      "descartes": {
+        "a": "4 puntos es la pérdida por el tramo bajo de alcohol, no por negarse a las pruebas.",
+        "b": "3 puntos no es lo que fija la ley para quien se niega a las pruebas: son 6."
+      },
+      "truco": "Seis puntos: alcohol en el tramo alto, drogas, negarse a las pruebas y el móvil sujeto con la mano. Cuatro: el tramo bajo de alcohol.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II.1",
+          "cita": "Valores mg/l aire espirado, superior a 0,25 hasta 0,50 (profesionales y titulares de permisos de conducción con menos de dos años de antigüedad más de 0,15 hasta 0,30 mg/l)."
+        }
+      ],
+      "huella": "f86550f39db7"
+    },
+    {
+      "id": "D-alc-0021",
+      "porque": "Para la tasa general hay dos tramos de puntos: más de 0,25 y hasta 0,50 mg/l en aire, 4 puntos; más de 0,50, 6 puntos. Con 0,40 está en el primer tramo.",
+      "descartes": {
+        "a": "Ningún tramo de alcohol quita 2 puntos: son 4 o 6.",
+        "c": "6 puntos son para más de 0,50 mg/l (o más de 0,30 en noveles y profesionales); con 0,40 y más de dos años de permiso se queda en 4."
+      },
+      "truco": "Puntos por alcohol: hasta el doble de tu tasa, 4; por encima del doble, 6. En general, más de 0,25 y hasta 0,50 son 4 y más de 0,50 son 6; para noveles y profesionales, más de 0,15 y hasta 0,30 son 4 y más de 0,30 son 6.",
+      "huella": "a0ada9c206ff"
+    },
+    {
+      "id": "D-alc-0022",
+      "porque": "Para noveles y profesionales los tramos se rebajan: más de 0,15 y hasta 0,30 mg/l en aire, 4 puntos; más de 0,30, 6 puntos. Con 0,35 supera los 0,30, así que pierde 6.",
+      "descartes": {
+        "a": "El límite de 0,50 es el de los conductores en general; para un novel, más de 0,30 ya son 6 puntos.",
+        "b": "Serían 4 puntos si estuviera entre más de 0,15 y 0,30 mg/l; con 0,35 son 6."
+      },
+      "truco": "Puntos por alcohol: hasta el doble de tu tasa, 4; por encima del doble, 6. En general, más de 0,25 y hasta 0,50 son 4 y más de 0,50 son 6; para noveles y profesionales, más de 0,15 y hasta 0,30 son 4 y más de 0,30 son 6.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II.1",
+          "cita": "Valores mg/l aire espirado, superior a 0,25 hasta 0,50 (profesionales y titulares de permisos de conducción con menos de dos años de antigüedad más de 0,15 hasta 0,30 mg/l)."
+        }
+      ],
+      "huella": "e9e4cd0d2a9d"
+    },
+    {
+      "id": "D-alc-0023",
+      "porque": "Superar la tasa es infracción muy grave, y la multa de las muy graves es de 500 euros. Solo sube a 1.000 si ya te sancionaron por alcohol en el año anterior o si superas el doble de tu tasa; aquí, 0,30 no llega al doble de 0,25, que sería 0,50.",
+      "descartes": {
+        "b": "1.000 euros es para quien ya fue sancionado por alcohol en el año anterior o supera el doble de la tasa permitida, y no es el caso.",
+        "c": "200 euros es la multa de las infracciones graves; superar la tasa de alcohol es muy grave."
+      },
+      "truco": "Alcohol: 500 euros, y 1.000 si repites en el año anterior o superas el doble de tu tasa. Drogas y negarse a las pruebas: siempre 1.000.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "80.1",
+          "cita": "Las infracciones leves serán sancionadas con multa de hasta 100 euros; las graves,\ncon multa de 200 euros, y las muy graves, con multa de 500 euros."
+        }
+      ],
+      "huella": "8d0c93c29274"
+    },
+    {
+      "id": "D-dro-0002",
+      "porque": "Conducir con presencia de drogas es infracción muy grave, pero a diferencia del alcohol no tiene escalones: la multa es directamente de 1.000 euros.",
+      "descartes": {
+        "a": "500 euros es la multa general de las muy graves, la que se aplica al alcohol sin agravantes; las drogas van directamente a 1.000.",
+        "c": "200 euros es la multa de las graves; las drogas son muy graves y se sancionan con 1.000."
+      },
+      "truco": "Alcohol: 500 euros, y 1.000 si repites en el año anterior o superas el doble de tu tasa. Drogas y negarse a las pruebas: siempre 1.000.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "80.1",
+          "cita": "Las infracciones leves serán sancionadas con multa de hasta 100 euros; las graves,\ncon multa de 200 euros, y las muy graves, con multa de 500 euros."
+        }
+      ],
+      "huella": "5d8b24c9897d"
+    },
+    {
+      "id": "D-dro-0003",
+      "porque": "Conducir con presencia de drogas en el organismo cuesta 6 puntos, sin tramos: a diferencia del alcohol, la cantidad no cambia la pérdida.",
+      "descartes": {
+        "a": "4 puntos es el tramo bajo del alcohol; las drogas no tienen tramos y cuestan 6.",
+        "b": "3 puntos no es lo que fija la ley para las drogas, que quitan 6."
+      },
+      "truco": "Seis puntos: alcohol en el tramo alto, drogas, negarse a las pruebas y el móvil sujeto con la mano. Cuatro: el tramo bajo de alcohol.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II.1",
+          "cita": "Valores mg/l aire espirado, superior a 0,25 hasta 0,50 (profesionales y titulares de permisos de conducción con menos de dos años de antigüedad más de 0,15 hasta 0,30 mg/l)."
+        }
+      ],
+      "huella": "aaa3449fa629"
+    },
+    {
+      "id": "D-alc-0003",
+      "porque": "El alcohol no afecta a todas las personas igual. Con la misma bebida, la tasa cambia según el peso, el sexo, la edad, si se ha comido o no, la velocidad a la que se bebe y otras circunstancias personales.",
+      "descartes": {
+        "a": "No siempre: con la misma cantidad, dos personas pueden tener tasas distintas por su peso, su sexo, la comida y otros factores.",
+        "c": "La edad es solo uno de los factores: aunque coincida, pueden variar el peso, el sexo, la comida o la forma de beber."
+      },
+      "truco": null,
+      "huella": "cd7a96b7d53a"
+    },
+    {
+      "id": "D-alc-0004",
+      "porque": "El alcohol tarda un tiempo en pasar a la sangre: la tasa llega a su punto más alto aproximadamente una hora después de beber, y luego va bajando muy poco a poco.",
+      "descartes": {
+        "a": "El punto más alto llega hacia la hora; después la tasa va bajando poco a poco, así que a las doce horas ya no está en su máximo.",
+        "b": "Justo después del primer trago el alcohol aún no ha llegado del todo a la sangre: el máximo llega alrededor de una hora después."
+      },
+      "truco": "Máximo a la hora y bajada lenta: haber esperado un rato no significa que la tasa haya bajado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (p. 55)",
+          "cita": "Después los efectos del alcohol van bajando\nmuy poco a poco."
+        }
+      ],
+      "huella": "c92a437097c1"
+    },
+    {
+      "id": "D-alc-0005",
+      "porque": "Con bebidas como la ginebra o el whisky el alcohol llega antes a la sangre que con el vino o la cerveza. Mezclarlo con tónica o algunos refrescos también lo acelera.",
+      "descartes": {
+        "b": "La cerveza es justo el ejemplo contrario: con ella el alcohol llega más despacio a la sangre que con el whisky.",
+        "c": "Con el vino pasa como con la cerveza: el alcohol llega más despacio que con el whisky."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (p. 55)",
+          "cita": "Además, el alcohol llega más rápido a la sangre\ncuando se mezcla con tónica o algunos refrescos."
+        }
+      ],
+      "huella": "70fd037715f4"
+    },
+    {
+      "id": "D-alc-0006",
+      "porque": "Comer hace que el alcohol pase a la sangre más despacio, pero no impide que llegue: acaba en la sangre igualmente. Beber sin comer es uno de los factores que suben la tasa.",
+      "descartes": {
+        "a": "La comida no impide que el alcohol pase a la sangre: solo hace que llegue más despacio.",
+        "c": "Es al revés: con el estómago lleno el alcohol llega más despacio; beber sin comer es lo que empeora la tasa."
+      },
+      "truco": "Comer frena el alcohol, pero no lo para.",
+      "huella": "d724add7d999"
+    },
+    {
+      "id": "D-alc-0010",
+      "porque": "Con más de dos años de permiso, y en un turismo que no sea de servicio público ni de otro grupo especial, se aplica la tasa general: 0,25 mg/l en aire espirado, que equivale a 0,5 g/l en sangre.",
+      "descartes": {
+        "a": "0,5 es la cifra general, pero en sangre (gramos por litro); en aire espirado son 0,25 miligramos por litro.",
+        "b": "0,15 mg/l es la tasa reducida de noveles y de ciertos vehículos profesionales, no la de un conductor con más de dos años de permiso."
+      },
+      "truco": "Dos grupos y dos números: novatos y profesionales, 0,15 en aire; el resto, 0,25. En la norma, la cifra en sangre es el doble que la de aire (0,3 y 0,5): si te preguntan en gramos por litro de sangre, multiplica por dos. Y si el conductor es menor de edad, 0.",
+      "huella": "19de7d113e00"
+    },
+    {
+      "id": "D-alc-0011",
+      "porque": "La tasa general en sangre es 0,5 g/l, que equivale a 0,25 mg/l en aire espirado. Es la que se aplica con más de dos años de permiso y en un turismo que no sea de servicio público.",
+      "descartes": {
+        "b": "0,25 es la cifra general en aire espirado, en miligramos por litro, no en sangre.",
+        "c": "0,3 g/l en sangre es la tasa reducida de noveles y profesionales."
+      },
+      "truco": "Dos grupos y dos números: novatos y profesionales, 0,15 en aire; el resto, 0,25. En la norma, la cifra en sangre es el doble que la de aire (0,3 y 0,5): si te preguntan en gramos por litro de sangre, multiplica por dos. Y si el conductor es menor de edad, 0.",
+      "huella": "3d7ac01df8f4"
+    },
+    {
+      "id": "D-alc-0012",
+      "porque": "La tasa general vale para los conductores de vehículos y también, expresamente, para los de bicicletas: 0,25 mg/l en aire (0,5 g/l en sangre). Siendo mayor de edad y con más de dos años de permiso, no hay motivo para una tasa más baja.",
+      "descartes": {
+        "a": "0,15 es la tasa de noveles y de ciertos vehículos profesionales; un ciclista adulto con más de dos años de permiso tiene la general.",
+        "c": "La norma nombra expresamente a los conductores de bicicletas: no hace falta motor para tener un límite de alcohol."
+      },
+      "truco": "Dos grupos y dos números: novatos y profesionales, 0,15 en aire; el resto, 0,25. En la norma, la cifra en sangre es el doble que la de aire (0,3 y 0,5): si te preguntan en gramos por litro de sangre, multiplica por dos. Y si el conductor es menor de edad, 0.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "20",
+          "cita": "Los conductores de cualquier vehículo no podrán superar la tasa de alcohol en sangre\nde 0,3 gramos por litro ni de alcohol en aire espirado de 0,15 miligramos por litro durante los\ndos años siguientes a la obtención del permiso o licencia que les habilita para conducir."
+        }
+      ],
+      "huella": "a36814e82a6f"
+    },
+    {
+      "id": "D-alc-0013",
+      "porque": "Los vehículos de mercancías de más de 3.500 kg de masa máxima autorizada están en el grupo de la tasa reducida: 0,15 mg/l en aire espirado (0,3 g/l en sangre), tenga quien conduce los años de permiso que tenga.",
+      "descartes": {
+        "a": "0,25 es la tasa general; el camión de más de 3.500 kg está en el grupo de la tasa reducida.",
+        "b": "0,30 es la tasa reducida, pero en sangre (gramos por litro), no en aire espirado."
+      },
+      "truco": "Los «de 0,15» son los novatos y quienes conducen camiones de más de 3.500 kg, autobuses de más de 9 plazas, vehículos de servicio público (como el taxi), transporte escolar y de menores, mercancías peligrosas, urgencias o transportes especiales. La antigüedad del permiso no les cambia la tasa.",
+      "huella": "18f8533a8fd9"
+    },
+    {
+      "id": "D-alc-0014",
+      "porque": "La tasa reducida para mercancías empieza por encima de 3.500 kg de masa máxima autorizada. Con 3.500 kg justos, uso privado, carga no peligrosa y diez años de permiso, no entra en ningún grupo especial y se aplica la tasa general de 0,25 mg/l.",
+      "descartes": {
+        "b": "Llevar mercancías no basta: la norma exige una masa máxima autorizada superior a 3.500 kg, y aquí son 3.500 exactos.",
+        "c": "La tasa 0 es solo para los conductores menores de edad."
+      },
+      "truco": "Mercancías: el corte es «más de 3.500 kg». Con 3.500 exactos y carga normal, tasa general. Las mercancías peligrosas tienen la reducida pese lo que pese el vehículo.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "14.1",
+          "cita": "En ningún caso\nel conductor menor de edad podrá circular por las vías con una tasa de alcohol en sangre\nsuperior a 0 gramos por litro o de alcohol en aire espirado superior a 0 miligramos por litro."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "20",
+          "cita": "Cuando se trate de vehículos destinados al transporte de mercancías con una masa\nmáxima autorizada superior a 3.500 kilogramos, vehículos destinados al transporte de\nviajeros de más de nueve plazas, o de servicio público, al transporte escolar y de menores,\nal de mercancías peligrosas o de servicio de urgencia o transportes especiales, los\nconductores no podrán hacerlo con una tasa de alcohol en sangre superior a 0,3 gramos por\nlitro, o de alcohol en aire espirado superior a 0,15 miligramos por litro."
+        }
+      ],
+      "huella": "e923e02741d9"
+    },
+    {
+      "id": "D-alc-0015",
+      "porque": "El transporte de viajeros de más de nueve plazas está en el grupo de la tasa reducida: 0,3 g/l en sangre, que equivale a 0,15 mg/l en aire espirado.",
+      "descartes": {
+        "a": "0,5 g/l es la tasa general en sangre; el autobús de más de nueve plazas tiene la reducida.",
+        "c": "0,15 es la tasa reducida, pero en aire espirado (miligramos por litro), no en sangre."
+      },
+      "truco": "Los «de 0,15» son los novatos y quienes conducen camiones de más de 3.500 kg, autobuses de más de 9 plazas, vehículos de servicio público (como el taxi), transporte escolar y de menores, mercancías peligrosas, urgencias o transportes especiales. La antigüedad del permiso no les cambia la tasa.",
+      "huella": "3a79c29ebaf0"
+    },
+    {
+      "id": "D-alc-0017",
+      "porque": "La Ley de Tráfico es tajante con los menores de edad: en ningún caso pueden circular con una tasa de alcohol superior a 0, tengan la antigüedad de permiso o licencia que tengan.",
+      "descartes": {
+        "b": "0,25 es la tasa general de los adultos con más de dos años de permiso; para un menor de edad no vale ninguna tasa.",
+        "c": "0,15 es la tasa de noveles y profesionales adultos; un menor tiene que circular con 0."
+      },
+      "truco": "Menor de edad al volante: tasa 0, sin importar los años de permiso o licencia.",
+      "huella": "1b73414bef32"
+    },
+    {
+      "id": "res-alc-0001",
+      "porque": "El patinete eléctrico es un vehículo de movilidad personal, y quien lo conduce es conductor de un vehículo. Por eso, con carácter general, se le aplica la tasa general: 0,25 mg/l en aire espirado (0,5 g/l en sangre). Si fuera menor de edad, sería 0.",
+      "descartes": {
+        "a": "0 es la tasa de los conductores menores de edad; una persona adulta en patinete tiene, con carácter general, la tasa general.",
+        "b": "0,15 es para noveles y para ciertos vehículos profesionales, no la tasa general de quien conduce un patinete."
+      },
+      "truco": "Dos grupos y dos números: novatos y profesionales, 0,15 en aire; el resto, 0,25. En la norma, la cifra en sangre es el doble que la de aire (0,3 y 0,5): si te preguntan en gramos por litro de sangre, multiplica por dos. Y si el conductor es menor de edad, 0.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II, definición de VMP",
+          "cita": "Vehículo de una o más ruedas dotado de una única plaza y propulsado exclusivamente\npor motores eléctricos"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "14.1",
+          "cita": "En ningún caso\nel conductor menor de edad podrá circular por las vías con una tasa de alcohol en sangre\nsuperior a 0 gramos por litro o de alcohol en aire espirado superior a 0 miligramos por litro."
+        }
+      ],
+      "huella": "a639f63b82ac"
+    },
+    {
+      "id": "xb-0002",
+      "porque": "Las mercancías peligrosas están en el grupo de la tasa reducida por lo que se transporta, no por lo que pesa el vehículo: 0,15 mg/l en aire (0,3 g/l en sangre), aunque la furgoneta sea de 3.000 kg y el conductor tenga diez años de permiso.",
+      "descartes": {
+        "a": "0,25 sería la tasa general, pero las mercancías peligrosas tienen la reducida sea cual sea la masa del vehículo.",
+        "c": "0,50 no es ninguna tasa en aire espirado: 0,5 es la cifra general en sangre, en gramos por litro."
+      },
+      "truco": "Los «de 0,15» son los novatos y quienes conducen camiones de más de 3.500 kg, autobuses de más de 9 plazas, vehículos de servicio público (como el taxi), transporte escolar y de menores, mercancías peligrosas, urgencias o transportes especiales. La antigüedad del permiso no les cambia la tasa.",
+      "huella": "fa9510d88d91"
+    },
+    {
+      "id": "E-pre-0002",
+      "porque": "Aunque los retrovisores estén bien colocados, siempre queda a cada lado un espacio que no ves: el ángulo muerto. Para comprobarlo antes de cambiar de carril, gira la cabeza y mira a través de la ventanilla.",
+      "descartes": {
+        "a": "Los retrovisores, también el interior, dejan siempre un espacio a los lados que no ves; por eso hay que girar la cabeza.",
+        "c": "El claxon no te dice si hay alguien en el ángulo muerto: para saberlo hay que mirar."
+      },
+      "truco": "Antes de cambiar de carril: espejos y, además, un vistazo girando la cabeza hacia ese lado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Visión (p. 443)",
+          "cita": "Debes tener en cuenta que siempre hay\nun espacio a los dos lados del vehículo\nque no puedes ver,\naunque lleves bien colocados los retrovisores."
+        }
+      ],
+      "huella": "efe6f5fc4f0e"
+    },
+    {
+      "id": "v5f-pre-0002",
+      "porque": "La técnica de la conducción preventiva se basa en tres principios: visión (mirar a todos lados), anticipación (prever lo que harán los demás) y espacio (guardar la distancia de seguridad en todo momento).",
+      "descartes": {
+        "a": "Velocidad, potencia y frenada no son principios de la conducción preventiva, que se basa en mirar, prever y dejar espacio.",
+        "b": "Proteger, avisar y socorrer es la regla PAS, la forma de actuar ante un accidente, no la técnica de la conducción preventiva."
+      },
+      "truco": "Los tres principios de la conducción preventiva son visión, anticipación y espacio: mirar, prever y dejar sitio.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Regla PAS (p. 415)",
+          "cita": "Es muy importante seguir la regla PAS\nen los primeros 10 minutos después del accidente."
+        }
+      ],
+      "huella": "d6245f71886a"
+    },
+    {
+      "id": "E-pre-0001",
+      "porque": "La DGT pide mirar a lo lejos para controlar lo que pasa en el espacio que recorrerá tu vehículo en los siguientes 20 segundos. Así puedes prever situaciones de peligro y evitar frenazos y acelerones bruscos.",
+      "descartes": {
+        "b": "Mirar solo los primeros metros te deja sin tiempo para prever nada: hay que mirar a lo lejos.",
+        "c": "Dos o tres segundos es la separación aconsejada con el vehículo de delante, no hasta dónde hay que mirar, que son 20 segundos."
+      },
+      "truco": "Mira a 20 segundos vista, y más lejos cuanto más rápido vas; con el de delante, deja dos o tres segundos de separación. No confundas una cifra con la otra.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio delantero (p. 446)",
+          "cita": "Es aconsejable que entre tu vehículo\ny el de delante haya dos o tres segundos\nde separación."
+        }
+      ],
+      "huella": "6623362b2e6f"
+    },
+    {
+      "id": "v5f-pre-0001",
+      "porque": "Para controlar lo que pasa detrás y a los lados, los retrovisores se miran durante todo el viaje, de forma rápida y breve, aunque no vayas a hacer ninguna maniobra. Cuántas veces depende del tipo de carretera.",
+      "descartes": {
+        "b": "Antes de adelantar, cambiar de carril o girar hay que mirarlos, pero no solo entonces: se miran durante todo el viaje.",
+        "c": "Las ráfagas del vehículo de detrás no son la señal para mirar: los espejos se miran siempre, para enterarte antes de lo que pasa."
+      },
+      "truco": "Retrovisores: durante todo el viaje, aunque no vayas a hacer ninguna maniobra, y con miradas rápidas y breves.",
+      "huella": "5e80cddd0048"
+    },
+    {
+      "id": "xb-0023",
+      "porque": "Este delito no castiga haber causado el accidente, sino irse voluntariamente, sin riesgo propio ni ajeno, tras un accidente con fallecidos o con heridos como estos. Por eso es delito aunque el accidente fuera fortuito; en ese caso la pena es menor que cuando hubo imprudencia.",
+      "descartes": {
+        "a": "Que el accidente fuera fortuito solo rebaja la pena: el abandono sigue siendo delito.",
+        "c": "Avisar después al seguro no cambia nada: el delito es abandonar el lugar del accidente."
+      },
+      "truco": "En el abandono del lugar del accidente, lo que se castiga es irse, no haber causado el accidente.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "382 bis.2",
+          "cita": "Los hechos contemplados en este artículo que tuvieran su origen en una acción\nimprudente del conductor, serán castigados con la pena de prisión de seis meses a cuatro\naños"
+        }
+      ],
+      "huella": "d699af5b8248"
+    },
+    {
+      "id": "xb-0016",
+      "porque": "El delito de conducir con alcohol tiene dos vías: superar 0,60 mg/l en aire (o 1,2 g/l en sangre) es delito en todo caso; por debajo de esa cifra también lo es si se conduce bajo la influencia del alcohol, como quien va haciendo eses con claros síntomas.",
+      "descartes": {
+        "b": "0,60 es la cifra a partir de la cual es delito siempre, no la única forma de cometerlo: conducir bajo la influencia del alcohol también lo es.",
+        "c": "No hace falta un accidente: el delito es conducir bajo la influencia del alcohol."
+      },
+      "truco": "Más de 0,60 en aire: delito siempre. Por debajo: delito si se conduce bajo la influencia del alcohol.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "379.2",
+          "cita": "En todo caso será condenado con dichas penas el que condujere\ncon una tasa de alcohol en aire espirado superior a 0,60 miligramos por litro"
+        }
+      ],
+      "huella": "f6b2cdcc28b7"
+    },
+    {
+      "id": "xb-0017",
+      "porque": "El artículo 379 castiga a quien conduce un vehículo de motor o un ciclomotor, y la bicicleta no es ninguna de las dos cosas. El ciclista no comete ese delito, aunque sí una infracción administrativa muy grave por superar la tasa de alcohol.",
+      "descartes": {
+        "a": "La cifra de 0,60 solo convierte en delito la conducción de vehículos de motor y ciclomotores, no la de una bicicleta.",
+        "c": "El tipo de vía no cambia nada: el delito exige conducir un vehículo de motor o un ciclomotor."
+      },
+      "truco": "El delito de alcohol del Código Penal exige vehículo de motor o ciclomotor. En bici, superar la tasa se queda en infracción muy grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.c",
+          "cita": "c) Conducir con tasas de alcohol superiores a las que reglamentariamente se\nestablezcan, o con presencia en el organismo de drogas."
+        }
+      ],
+      "huella": "bbee66decd98"
+    },
+    {
+      "id": "xb-0021",
+      "porque": "Conducir después de que un juez te haya privado del permiso, cautelar o definitivamente, es delito contra la seguridad vial. Se castiga con la misma pena que conducir tras perder todos los puntos o sin haber obtenido nunca el permiso.",
+      "descartes": {
+        "a": "No se queda en infracción administrativa: conducir tras una privación judicial del permiso está castigado en el Código Penal.",
+        "b": "Que no cause daños da igual: el delito es conducir estando privado del permiso por un juez."
+      },
+      "truco": "Sin permiso por decisión de un juez, por haber perdido todos los puntos o por no haberlo tenido nunca: conducir es delito en los tres casos.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "384",
+          "cita": "El que condujere un vehículo de motor o ciclomotor en los casos de pérdida de vigencia\ndel permiso o licencia por pérdida total de los puntos asignados legalmente, será castigado"
+        }
+      ],
+      "huella": "02a727f60494"
+    },
+    {
+      "id": "xb-0024",
+      "porque": "En los delitos contra la seguridad vial, el Código Penal considera el vehículo a motor o ciclomotor utilizado como instrumento del delito. Eso permite aplicarle las reglas del decomiso, de modo que el condenado puede llegar a perderlo.",
+      "descartes": {
+        "a": "Precisamente por ser instrumento del delito, la condena sí puede afectar al vehículo.",
+        "b": "No es una simple prueba: la ley lo califica como instrumento del delito, con las consecuencias que eso supone."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "127.1",
+          "cita": "Toda pena que se imponga por un delito doloso llevará consigo la pérdida de los\nefectos que de él provengan y de los bienes, medios o instrumentos con que se haya\npreparado o ejecutado"
+        }
+      ],
+      "huella": "c62adba68af8"
+    },
+    {
+      "id": "xb-0022",
+      "porque": "El Código Penal castiga a quien origina un grave riesgo para la circulación no restableciendo la seguridad de la vía cuando tiene obligación de hacerlo. Si el deber de retirar y señalizar un peligro se incumple y se crea un grave riesgo, puede ser delito.",
+      "descartes": {
+        "b": "Al originar un grave riesgo para la circulación deja de ser una cuestión administrativa leve: está en el Código Penal.",
+        "c": "No hace falta un accidente: basta con originar el grave riesgo."
+      },
+      "truco": null,
+      "huella": "6b606b22d622"
+    },
+    {
+      "id": "xb-0019",
+      "porque": "El Código Penal considera manifiestamente temeraria la conducción en la que se juntan dos delitos: un exceso de velocidad delictivo (más de 80 km/h por encima del límite en vía interurbana) y más de 0,60 mg/l de alcohol en aire. A 210 en una vía de 120 vas 90 por encima, y con 0,70 se cumplen las dos.",
+      "descartes": {
+        "b": "Cada una de esas dos circunstancias ya es delito por sí sola; juntas, la ley considera la conducción manifiestamente temeraria.",
+        "c": "No es una imprudencia leve: la ley la considera manifiestamente temeraria aunque no cause daños."
+      },
+      "truco": "Delito de velocidad: más de 60 km/h por encima del límite en vía urbana o más de 80 en interurbana. Si se junta con más de 0,60 de alcohol en aire, temeridad manifiesta.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "379.1",
+          "cita": "a velocidad superior en\nsesenta kilómetros por hora en vía urbana o en ochenta kilómetros por hora en vía\ninterurbana a la permitida reglamentariamente"
+        },
+        {
+          "norma": "CP",
+          "articulo": "379.2",
+          "cita": "En todo caso será condenado con dichas penas el que condujere\ncon una tasa de alcohol en aire espirado superior a 0,60 miligramos por litro"
+        }
+      ],
+      "huella": "444c247d1ed8"
+    },
+    {
+      "id": "xb-0020",
+      "porque": "Conducir con temeridad manifiesta poniendo en concreto peligro la vida de las personas ya es delito. Si además se hace con manifiesto desprecio por la vida de los demás, la pena sube a prisión de dos a cinco años, con multa y privación del permiso de seis a diez años.",
+      "descartes": {
+        "a": "De tres a seis meses es una de las penas posibles en los delitos de velocidad o alcohol, no la de este caso.",
+        "c": "De seis meses a un año es la prisión por negarse a las pruebas de alcohol o drogas, no por conducir con manifiesto desprecio por la vida."
+      },
+      "truco": "Escalera de la temeridad: con temeridad manifiesta y peligro concreto, de seis meses a dos años de prisión; si se añade el manifiesto desprecio por la vida de los demás, de dos a cinco.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "380.1",
+          "cita": "con temeridad manifiesta y\npusiere en concreto peligro la vida o la integridad de las personas será castigado con las\npenas de prisión de seis meses a dos años"
+        },
+        {
+          "norma": "CP",
+          "articulo": "379.1",
+          "cita": "será castigado con la pena de prisión de tres\na seis meses o con la de multa de seis a doce meses"
+        },
+        {
+          "norma": "CP",
+          "articulo": "383",
+          "cita": "será castigado con la penas de prisión de seis meses a un año"
+        }
+      ],
+      "huella": "34a3af5a45d9"
+    },
+    {
+      "id": "v5e-del-0002",
+      "porque": "Conducir un vehículo de motor o un ciclomotor bajo la influencia de drogas es delito contra la seguridad vial. Ojo con la diferencia: la simple presencia de drogas en el organismo, sin estar bajo su influencia, es una infracción administrativa muy grave.",
+      "descartes": {
+        "b": "Si se conduce bajo sus efectos ya no es solo una infracción administrativa: es delito. Lo administrativo es la mera presencia de drogas.",
+        "c": "No hace falta un accidente, y en ningún caso es leve: conducir bajo la influencia de drogas es delito."
+      },
+      "truco": "Presencia de drogas en el organismo: infracción muy grave. Conducir bajo su influencia un vehículo de motor o ciclomotor: delito.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.c",
+          "cita": "c) Conducir con tasas de alcohol superiores a las que reglamentariamente se\nestablezcan, o con presencia en el organismo de drogas."
+        }
+      ],
+      "huella": "7ed20d3d31ad"
+    },
+    {
+      "id": "D-mov-0004",
+      "porque": "Está prohibido conducir con cualquier tipo de casco de audio, auriculares o similares conectados a aparatos receptores o reproductores de sonido. La norma no distingue entre uno o dos auriculares ni por el volumen, y sus pocas excepciones no incluyen escuchar música.",
+      "descartes": {
+        "a": "La norma habla de «cualquier tipo» de auriculares: llevar solo uno no lo hace legal.",
+        "c": "El volumen no cambia nada: la prohibición es conducir con auriculares conectados a un reproductor."
+      },
+      "truco": "Al volante, nada en los oídos conectado a un reproductor: ni un solo auricular, ni a volumen bajo.",
+      "huella": "e3343194cc05"
+    },
+    {
+      "id": "xb-0042",
+      "porque": "Según la DGT, los accidentes por distracciones son más frecuentes en los conductores jóvenes, de 18 a 25 años, y en los mayores de 70. También influyen otras circunstancias, como ir varias personas en el vehículo o los meses de verano.",
+      "descartes": {
+        "a": "De 30 a 50 años no es el grupo que destaca la DGT: son los de 18 a 25 y los mayores de 70.",
+        "b": "La DGT no señala a los profesionales con mucha experiencia; habla de jóvenes y de mayores de 70. Eso sí, confiarse demasiado por conocer bien la carretera es una causa de distracción."
+      },
+      "truco": "Distracciones: los dos extremos de edad, de 18 a 25 años y más de 70.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Accidentes por distracciones (p. 68)",
+          "cita": "Conocer bien la carretera\ny confiarse demasiado."
+        }
+      ],
+      "huella": "1411c1423824"
+    },
+    {
+      "id": "xb-0043",
+      "porque": "Fumar al volante duplica los accidentes: te distraes al buscar y encender el cigarro, llevas una mano ocupada, el humo te deja ver peor la carretera y el aire dentro del coche es de peor calidad.",
+      "descartes": {
+        "b": "No es el mismo riesgo: según la DGT, quien fuma conduciendo sufre el doble de accidentes.",
+        "c": "La DGT no le atribuye ningún efecto beneficioso: quienes fuman mientras conducen sufren el doble de accidentes."
+      },
+      "truco": "Cigarro al volante: el doble de accidentes. Móvil en el vehículo: cuatro veces más riesgo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Usar el teléfono móvil (p. 70)",
+          "cita": "El riesgo de accidente cuando se usa el móvil\nen el vehículo es cuatro veces mayor\nque cuando no se utiliza."
+        }
+      ],
+      "huella": "3a6b720ccd43"
+    },
+    {
+      "id": "D-mov-0010",
+      "porque": "Programar el navegador exige mirar la pantalla y usar las manos, algo incompatible con atender a la carretera. Por eso la DGT dice que se programa antes de empezar a conducir, nunca mientras conduces.",
+      "descartes": {
+        "a": "Ir despacio no lo hace seguro: la DGT dice que no se programe mientras se conduce.",
+        "c": "Tampoco en recta: la recomendación es programarlo antes de salir, y usar el navegador manualmente mientras conduces es infracción."
+      },
+      "truco": "Navegador: se programa antes de salir y va fijo, a la vista sin apartarla de la carretera y fuera de la zona de los airbags.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.g",
+          "cita": "conducir utilizando\nmanualmente navegadores o cualquier otro medio o sistema de\ncomunicación"
+        }
+      ],
+      "huella": "392d6edd98d4"
+    },
+    {
+      "id": "xb-0045",
+      "porque": "La DGT pide que el navegador vaya fijo, sin que se mueva ni ruede por el coche, en un sitio donde puedas verlo sin apartar la vista de la carretera y que deje abrirse los airbags si hace falta.",
+      "descartes": {
+        "a": "Suelto en el asiento puede moverse o caerse, y para mirarlo tendrías que apartar la vista: la DGT pide dejarlo fijo.",
+        "b": "Tapar parte de la visión es justo lo que hay que evitar: el parabrisas debe permitir ver con claridad toda la vía."
+      },
+      "truco": "Navegador: se programa antes de salir y va fijo, a la vista sin apartarla de la carretera y fuera de la zona de los airbags.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "19.1",
+          "cita": "La superficie acristalada del vehículo deberá permitir, en todo caso, la visibilidad\ndiáfana del conductor sobre toda la vía por la que circule"
+        }
+      ],
+      "huella": "cf2d75abb081"
+    },
+    {
+      "id": "D-mov-0009",
+      "porque": "Ver una película con el vehículo en movimiento es incompatible con la atención permanente que exige la conducción. La norma solo exceptúa el GPS y los monitores necesarios para ver la subida o bajada de peatones o la cámara de maniobras trasera.",
+      "descartes": {
+        "b": "El tipo de vía no cambia nada: la prohibición vale con el vehículo en movimiento, en cualquier vía.",
+        "c": "Que el monitor esté homologado no lo convierte en una excepción: las únicas son el GPS y los monitores de ayuda a maniobras o de acceso de peatones."
+      },
+      "truco": null,
+      "huella": "d06cce03f122"
+    },
+    {
+      "id": "D-mov-0001",
+      "porque": "La regla general es que no se puede usar el móvil mientras se conduce. La excepción es que la comunicación se haga sin emplear las manos ni usar cascos, auriculares o instrumentos similares, es decir, con un manos libres.",
+      "descartes": {
+        "a": "Sujetarlo con una mano es justo lo prohibido, vayas a la velocidad que vayas, y cuesta 6 puntos.",
+        "c": "Los auriculares quedan fuera de la excepción: la comunicación debe hacerse sin manos y sin auriculares."
+      },
+      "truco": "Móvil en el coche: ni en la mano ni con auriculares. Solo con un manos libres que no los use.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II.8",
+          "cita": "8. Utilizar, sujetando con la mano, dispositivos de telefonía móvil mientras se conduce."
+        }
+      ],
+      "huella": "b09bf8dfb81d"
+    },
+    {
+      "id": "D-mov-0002",
+      "porque": "Usar el móvil sujetándolo con la mano mientras se conduce cuesta 6 puntos. Está entre las infracciones que más puntos quitan, como el tramo alto de alcohol o las drogas.",
+      "descartes": {
+        "a": "3 puntos es lo que cuesta manipular el navegador o usar el móvil de otras formas, no llevarlo sujeto con la mano.",
+        "b": "4 puntos no corresponde al móvil: sujetarlo con la mano cuesta 6."
+      },
+      "truco": "Móvil sujeto con la mano: 6 puntos. Manipular el navegador o el móvil de otra forma, o llevar auriculares conectados: 3.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II.20",
+          "cita": "o utilizando manualmente\nnavegadores o cualquier otro medio o sistema de comunicación, así como dispositivos de telefonía móvil en condiciones distintas a las previstas en el ordinal 8."
+        }
+      ],
+      "huella": "6c9394f3521f"
+    },
+    {
+      "id": "D-mov-0003",
+      "porque": "Llevar el navegador fijo en su soporte está permitido, pero manipularlo con la mano mientras conduces es infracción y cuesta 3 puntos. Los 6 puntos son para el móvil sujeto con la mano.",
+      "descartes": {
+        "b": "6 puntos son para usar el móvil sujetándolo con la mano; manipular el navegador en su soporte cuesta 3.",
+        "c": "Llevar navegador está permitido, pero manipularlo con la mano mientras conduces no."
+      },
+      "truco": "Móvil sujeto con la mano: 6 puntos. Manipular el navegador o el móvil de otra forma, o llevar auriculares conectados: 3.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II.8",
+          "cita": "8. Utilizar, sujetando con la mano, dispositivos de telefonía móvil mientras se conduce."
+        }
+      ],
+      "huella": "e38e0b5ca933"
+    },
+    {
+      "id": "D-mov-0005",
+      "porque": "Según la DGT, usar el móvil en el vehículo multiplica por cuatro el riesgo de accidente: prestas más atención a la conversación que a la carretera, calculas peor las distancias y dejas de ver algunas señales.",
+      "descartes": {
+        "a": "No vas más alerta: tu atención se reparte entre la conversación y la carretera.",
+        "b": "No es igual: la DGT habla de un riesgo cuatro veces mayor."
+      },
+      "truco": "Cigarro al volante: el doble de accidentes. Móvil en el vehículo: cuatro veces más riesgo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Fumar en el vehículo (p. 70)",
+          "cita": "Las personas que fuman mientras conducen\nsufren el doble de accidentes\nque las personas que no fuman."
+        }
+      ],
+      "huella": "0dcb61f94aa1"
+    },
+    {
+      "id": "D-mov-0006",
+      "porque": "El manos libres está permitido porque no usas las manos, pero sigue siendo peligroso: parte de tu atención se va a la conversación y no a la carretera. Por eso la DGT aconseja que las conversaciones no duren más de un minuto.",
+      "descartes": {
+        "b": "No está prohibido: es justo la excepción que permite la norma, siempre que no uses las manos ni auriculares.",
+        "c": "Sí supone un riesgo: la DGT advierte de que parte de la atención se dedica a la conversación."
+      },
+      "truco": "Con manos libres: avisa de que conduces y no pases del minuto. Si tienes que llamar tú, para en un lugar seguro.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Recomendaciones para usar el móvil y el dispositivo de manos libres (p. 72)",
+          "cita": "No tengas conversaciones que duren más\nde un minuto."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Recomendaciones para usar el móvil y el dispositivo de manos libres (p. 72)",
+          "cita": "Para el vehículo en un lugar seguro\ncuando necesites hacer una llamada."
+        }
+      ],
+      "huella": "425528e590f3"
+    },
+    {
+      "id": "D-mov-0007",
+      "porque": "Aunque el manos libres esté permitido, hablar distrae. Por eso la DGT recomienda no tener conversaciones que duren más de un minuto, avisar de que estás conduciendo y, si tienes que llamar, parar en un lugar seguro.",
+      "descartes": {
+        "a": "Una conversación larga es justo lo que hay que evitar: la recomendación es que no pase de un minuto.",
+        "c": "Diez minutos no es lo que dice la DGT: el máximo recomendado es un minuto."
+      },
+      "truco": "Con manos libres: avisa de que conduces y no pases del minuto. Si tienes que llamar tú, para en un lugar seguro.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Recomendaciones para usar el móvil y el dispositivo de manos libres (p. 72)",
+          "cita": "Para el vehículo en un lugar seguro\ncuando necesites hacer una llamada."
+        }
+      ],
+      "huella": "0516cc4b2275"
+    },
+    {
+      "id": "D-mov-0008",
+      "porque": "Cuando la atención se va a la conversación, la DGT advierte de salidas de la carretera e invasiones del carril contrario, además de calcular peor las distancias y dejar de ver algunas señales.",
+      "descartes": {
+        "a": "Es al revés: con la atención en la conversación se calculan peor las distancias.",
+        "b": "También al revés: se dejan de ver algunas señales por falta de atención."
+      },
+      "truco": null,
+      "huella": "20e3ce2afc8b"
+    },
+    {
+      "id": "xb-0044",
+      "porque": "Si necesitas hacer una llamada, la DGT recomienda parar el vehículo en un lugar seguro y no seguir conduciendo hasta que acabe. Así no repartes la atención entre la carretera y la conversación.",
+      "descartes": {
+        "a": "Llevar el móvil entre el hombro y la oreja dificulta manejar el volante, y no es ningún manos libres: la DGT recomienda parar.",
+        "c": "Llamar con el móvil en la mano está prohibido, vayas a la velocidad que vayas."
+      },
+      "truco": "Con manos libres: avisa de que conduces y no pases del minuto. Si tienes que llamar tú, para en un lugar seguro.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Usar el teléfono móvil (p. 71)",
+          "cita": "Dificultad para manejar el volante\ncuando llevas el móvil en la mano o en el hombro."
+        }
+      ],
+      "huella": "9ea94548df78"
+    },
+    {
+      "id": "xb-0041",
+      "porque": "Después de comer conviene esperar un poco antes de conducir: la DGT recomienda entre 15 y 20 minutos. Y mejor varias comidas ligeras que una muy fuerte, que puede dar sueño y fatiga.",
+      "descartes": {
+        "a": "Dos o tres horas es mucho más de lo que pide la DGT, que habla de entre 15 y 20 minutos.",
+        "c": "Sí conviene esperar: la DGT recomienda un rato, entre 15 y 20 minutos."
+      },
+      "truco": null,
+      "huella": "bf25a36ccc68"
+    },
+    {
+      "id": "D-cal-0001",
+      "porque": "Con mucho calor aparecen antes el sueño y la fatiga, que provocan distracciones y errores; puedes necesitar más tiempo para reaccionar ante imprevistos y puede aumentar la agresividad hacia otros conductores.",
+      "descartes": {
+        "a": "Es al revés: con calor el tiempo de reacción aumenta. Disminuir sería reaccionar antes, y eso no es lo que pasa.",
+        "b": "El calor también afecta a quien conduce: le produce sueño, fatiga y reacciones más lentas."
+      },
+      "truco": "Calor: más sueño, más fatiga, reacciones más lentas y más agresividad. Aire acondicionado entre 20 y 23 grados, más descansos y beber agua.",
+      "huella": "07bc3f989505"
+    },
+    {
+      "id": "D-cal-0002",
+      "porque": "En días de mucho calor la DGT aconseja usar el aire acondicionado y mantenerlo entre 20 y 23 grados, hacer más descansos y beber mucha agua o zumos.",
+      "descartes": {
+        "b": "Entre 26 y 28 grados sigue haciendo demasiado calor dentro del coche; la DGT recomienda entre 20 y 23.",
+        "c": "Entre 15 y 17 grados es más frío de lo que aconseja la DGT, que habla de entre 20 y 23."
+      },
+      "truco": "Calor: más sueño, más fatiga, reacciones más lentas y más agresividad. Aire acondicionado entre 20 y 23 grados, más descansos y beber agua.",
+      "huella": "1fb14a508338"
+    },
+    {
+      "id": "xb-0026",
+      "porque": "Una discusión fuerte o una noticia muy triste alteran el estado de ánimo, y eso puede hacerte perder la concentración y provocar un accidente. Además, un estado de ánimo alterado es uno de los factores que alargan el tiempo de reacción.",
+      "descartes": {
+        "a": "Conocer el recorrido no compensa la falta de concentración; de hecho, conocer bien la carretera y confiarse demasiado es una causa de distracción.",
+        "c": "El problema no es el combustible: es que la alteración del estado de ánimo te quita concentración."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, El tiempo de reacción (p. 45)",
+          "cita": "Estado de ánimo alterado."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Accidentes por distracciones (p. 68)",
+          "cita": "Conocer bien la carretera\ny confiarse demasiado."
+        }
+      ],
+      "huella": "a4d7748756ac"
+    },
+    {
+      "id": "xb-0027",
+      "porque": "La fatiga puede ser física o psicológica. La física se nota como sensación de cansancio; la psicológica, en que te cuesta más concentrarte.",
+      "descartes": {
+        "a": "La sensación de cansancio es la fatiga física; la psicológica se nota en que te cuesta más concentrarte.",
+        "b": "No notar cansancio en el cuerpo no significa que estés bien: la fatiga psicológica afecta a la concentración, y eso sí afecta a la conducción."
+      },
+      "truco": "Fatiga física: cuerpo cansado. Fatiga psicológica: cabeza que no se concentra.",
+      "huella": "d7f3b06bb37b"
+    },
+    {
+      "id": "xb-0028",
+      "porque": "Moverte mucho en el asiento y cambiar de postura es una de las señales de fatiga, junto con los ojos pesados, la dificultad para concentrarte o tardar más en reaccionar. Cuando aparecen, toca dejar de conducir.",
+      "descartes": {
+        "b": "Es al revés: la fatiga produce dificultad para concentrarse.",
+        "c": "También al revés: con fatiga tardas más en reaccionar."
+      },
+      "truco": null,
+      "huella": "42c37f2d9470"
+    },
+    {
+      "id": "xb-0032",
+      "porque": "El detector de fatiga usa sensores para reconocer si estás muy cansado o a punto de dormirte, y te avisa con una luz, un sonido o una vibración en el volante para que pares el vehículo.",
+      "descartes": {
+        "a": "Según la DGT, el detector no detiene el coche: te avisa para que pares tú.",
+        "c": "Tampoco apaga el motor: su función es avisarte con una luz, un sonido o una vibración."
+      },
+      "truco": "Detector de fatiga: si avisa, paras. Primeros síntomas de sueño: paras en un lugar seguro y duermes 20 o 30 minutos.",
+      "huella": "cd1137acb72b"
+    },
+    {
+      "id": "D-fat-0001",
+      "porque": "La DGT recomienda descansar 20 o 30 minutos cada dos horas o cada 200 kilómetros, aunque no sientas fatiga ni somnolencia. Se descansa antes de estar cansado, no después.",
+      "descartes": {
+        "a": "500 kilómetros es demasiado: la recomendación es parar cada dos horas o cada 200 kilómetros.",
+        "b": "Esperar a los primeros síntomas es llegar tarde: los descansos se hacen aunque no notes nada. Si aparecen, hay que parar y dormir 20 o 30 minutos."
+      },
+      "truco": "Cada dos horas o 200 km, descanso de 20 o 30 minutos. Y si llega el sueño, paras y duermes 20 o 30 minutos.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Cómo puedes evitar la fatiga y la somnolencia? (p. 51)",
+          "cita": "Para el vehículo en un lugar seguro\ncuando sientas los primeros síntomas\ny duerme 20 o 30 minutos."
+        }
+      ],
+      "huella": "f83cc83b2b69"
+    },
+    {
+      "id": "D-fat-0002",
+      "porque": "La somnolencia hace que tardes más en reaccionar, que te cueste tomar decisiones y moverte, y puede hacer que te duermas unos segundos sin darte cuenta.",
+      "descartes": {
+        "b": "Es al revés: con somnolencia tardas más de lo normal en reaccionar.",
+        "c": "También al revés: la somnolencia dificulta tomar decisiones sobre la conducción."
+      },
+      "truco": null,
+      "huella": "74b7388da3e7"
+    },
+    {
+      "id": "D-fat-0003",
+      "porque": "Una comida abundante o difícil de digerir antes de conducir puede provocar sueño y fatiga. Por eso la DGT aconseja varias comidas ligeras en vez de una muy fuerte, sin irse al otro extremo, porque comer muy poco puede dar mareos.",
+      "descartes": {
+        "a": "Sí influye: según la DGT, una comida pesada puede provocar sueño y fatiga.",
+        "c": "Al contrario: en lugar de mejorar la atención, puede dar sueño."
+      },
+      "truco": null,
+      "huella": "6c343b413bce"
+    },
+    {
+      "id": "D-fat-0004",
+      "porque": "Entre las causas de fatiga relacionadas con la carretera, la DGT cita el mucho tráfico, el suelo en mal estado, no conocer la carretera y las dificultades por el clima. Una vía bien señalizada, con buen firme y buena iluminación no está en esa lista.",
+      "descartes": {
+        "a": "Una buena señalización facilita la conducción: no figura entre las causas de fatiga.",
+        "b": "El buen firme y la buena iluminación son lo contrario de lo que cansa, que es el suelo en mal estado o conducir de noche con poca luz."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Qué puede causar fatiga? (p. 46)",
+          "cita": "Conduces de noche con poca iluminación."
+        }
+      ],
+      "huella": "14838abaa237"
+    },
+    {
+      "id": "res-fat-0001",
+      "porque": "Con los primeros síntomas de sueño, el manual de la DGT es claro: para en un lugar seguro y duerme 20 o 30 minutos. Además, conviene descansar 20 o 30 minutos cada dos horas o cada 200 kilómetros, aunque no notes nada.",
+      "descartes": {
+        "b": "El café no aparece en el manual como solución: lo que pide es parar y dormir 20 o 30 minutos.",
+        "c": "Abrir la ventanilla y seguir no es lo que indica la DGT: con los primeros síntomas, hay que parar en un lugar seguro y dormir 20 o 30 minutos."
+      },
+      "truco": "Detector de fatiga: si avisa, paras. Primeros síntomas de sueño: paras en un lugar seguro y duermes 20 o 30 minutos.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, ¿Cómo puedes evitar la fatiga y la somnolencia? (p. 51)",
+          "cita": "Descansa 20 o 30 minutos cada dos horas\no cada 200 kilómetros,\naunque no sientas fatiga ni somnolencia."
+        }
+      ],
+      "huella": "e5a71b29977a"
+    },
+    {
+      "id": "xb-0029",
+      "porque": "No hace falta dormirse del todo para tener un accidente por sueño: los síntomas de la somnolencia aparecen antes y ya hacen que reacciones más tarde, te cueste decidir o te salgas del carril.",
+      "descartes": {
+        "a": "El riesgo empieza antes: la somnolencia produce efectos peligrosos sin llegar a dormirse.",
+        "c": "No depende de la hora ni del tipo de vía: la somnolencia produce efectos peligrosos en cualquier carretera."
+      },
+      "truco": null,
+      "huella": "19312e420bc2"
+    },
+    {
+      "id": "xb-0030",
+      "porque": "Entre las causas de somnolencia, la DGT cita conducir de madrugada o al mediodía, después de comer, además de dormir menos o peor de lo habitual, conducir por carreteras con poco tráfico o tomar alcohol o medicamentos antes de conducir.",
+      "descartes": {
+        "a": "Dormir bien las horas habituales es lo que previene la somnolencia; las causas son dormir menos, peor o cambiar los horarios de sueño.",
+        "b": "Parar a descansar es una de las medidas que recomienda la DGT para evitar la fatiga y la somnolencia, no una causa."
+      },
+      "truco": null,
+      "huella": "3289006cda96"
+    },
+    {
+      "id": "xb-0031",
+      "porque": "No recordar los últimos kilómetros recorridos es uno de los síntomas de somnolencia que cita la DGT, junto con bostezar muchas veces, ver borroso o salirte del carril. Es una señal de que debes dejar de conducir.",
+      "descartes": {
+        "b": "Conducir «en automático» sin recordar el trayecto no es estar concentrado: es un síntoma de somnolencia.",
+        "c": "La señalización no tiene nada que ver: el problema es tu estado, no la carretera."
+      },
+      "truco": null,
+      "huella": "c72ef38d151c"
+    },
+    {
+      "id": "D-tre-0001",
+      "porque": "El tiempo de reacción es el que pasa entre ver u oír algo y reaccionar, por ejemplo entre que ves un semáforo en rojo y reaccionas para parar. En condiciones normales está entre medio segundo y un segundo.",
+      "descartes": {
+        "a": "Dos o tres segundos es la separación aconsejada con el vehículo de delante, no el tiempo de reacción normal.",
+        "b": "Es mucho menos de lo normal: según la DGT, en condiciones normales se tarda entre medio segundo y un segundo."
+      },
+      "truco": "Reacción normal: entre medio segundo y un segundo. La fatiga, el sueño, la enfermedad, el alcohol, algunos medicamentos o el calor la alargan.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio delantero (p. 446)",
+          "cita": "Es aconsejable que entre tu vehículo\ny el de delante haya dos o tres segundos\nde separación."
+        }
+      ],
+      "huella": "f7ae15e2e5d5"
+    },
+    {
+      "id": "D-tre-0002",
+      "porque": "La enfermedad y el cansancio están entre los factores que hacen que una persona tarde más en reaccionar, junto con el sueño, la edad avanzada, oír o ver mal, algunos medicamentos, el alcohol y las drogas.",
+      "descartes": {
+        "b": "No es igual: la enfermedad y la fatiga alargan el tiempo de reacción.",
+        "c": "Al contrario: un tiempo más corto sería reaccionar más rápido, y la fatiga y la enfermedad hacen que se tarde más."
+      },
+      "truco": "Reacción normal: entre medio segundo y un segundo. La fatiga, el sueño, la enfermedad, el alcohol, algunos medicamentos o el calor la alargan.",
+      "huella": "2af28ad12b0d"
+    }
+  ]
+}

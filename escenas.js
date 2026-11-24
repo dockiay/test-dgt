@@ -919,9 +919,8 @@
       contador.textContent = `${i + 1} de ${n}`;
       const poner = () => {
         texto.textContent = p.texto;
-        cita.replaceChildren(op.citaYa === p.cita.articulo && p.cita.norma === "RGC"
-          ? el("p", { class: "esc-cita-corta" }, enlaceCita(p.cita))
-          : el("blockquote", { class: "esc-cita-larga" }, `«${p.cita.texto}» `, enlaceCita(p.cita)));
+        // Solo el enlace a la norma; el texto literal sigue en los datos para las comprobaciones.
+        cita.replaceChildren(el("p", { class: "esc-cita-corta" }, enlaceCita(p.cita)));
       };
       if (animado && !MOV.matches) { raizUI.classList.add("cambiando"); setTimeout(() => { poner(); raizUI.classList.remove("cambiando"); }, 140); } else poner();
       bAnt.disabled = i === 0; bSig.disabled = i >= n - 1;
@@ -950,7 +949,7 @@
     function pausar() { sesion++; escena.parar(); jugando = false; botonPlay(); }
     pintarTexto(false); botonPlay(); pintarBarras(0); escena.fotograma(0);
     // Reproduce solo cuando el bloque se ve en pantalla (la explicación puede quedar debajo).
-    if (op.autoplay) {
+    if (op.autoplay && !MOV.matches) { // con «reducir movimiento», se avanza a mano
       if ("IntersectionObserver" in raiz) {
         const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); setTimeout(() => raizUI.isConnected && !jugando && !hecho && todo(0), 250); } }, { threshold: .55 });
         io.observe(marco);
@@ -970,12 +969,12 @@
     try { return el("figure", { class: "figura esc-figura", "data-escena": p.id }, crear(e, { titulo: e.titulo }).svg); }
     catch (err) { console.error("Escena", p.id, err); return null; } // si algo falla, se ve la imagen de siempre
   }
-  // Al final del cuerpo de la explicación, tras las citas del BOE.
+  // Arriba del todo del cuerpo de la explicación, antes del texto.
   function enExplicacion(nodo, p, elegida, animada) {
     const e = datos()[p.id];
     if (!e || !nodo) return;
     const cuerpo = nodo.querySelector(".explicacion-cuerpo") || nodo;
-    try { cuerpo.append(reproductor(e, { autoplay: animada && elegida !== p.correcta, citaYa: p.fuente && p.fuente.norma === "RGC" ? p.fuente.articulo : null })); }
+    try { cuerpo.prepend(reproductor(e, { autoplay: animada, citaYa: p.fuente && p.fuente.norma === "RGC" ? p.fuente.articulo : null })); }
     catch (err) { console.error("Escena", p.id, err); }
   }
   // #/escenas: practica solo las preguntas que tienen escena (para probarlas).

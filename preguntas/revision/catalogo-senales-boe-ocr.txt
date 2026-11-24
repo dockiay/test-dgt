@@ -1,0 +1,4423 @@
+=== p-089.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+PA Intersección con prioridad
+
+Peligro por la proximidad de una intersección con una vía, cuyos
+usuarios deben ceder el paso.
+
+P-1a Intersección con prioridad sobre vía a la derecha
+
+Peligro por la proximidad de una intersección con una vía a la
+derecha, cuyos usuarios deben ceder el paso.
+
+P-1b Intersección con prioridad sobre vía a la izquierda
+
+Peligro por la proximidad de una intersección con una vía a la
+izquierda, cuyos usuarios deben ceder el paso.
+
+Ptc Intersección con prioridad sobre incorporación por la
+derecha
+
+Peligro por la proximidad de una incorporación por la derecha de
+una vía, cuyos usuarios deben ceder el paso.
+
+P-1d Intersección con prioridad sobre incorporación por la
+izquierda
+
+Peligro por la proximidad de una incorporación por la izquierda de
+una vía, cuyos usuarios deben ceder el paso.
+
+P-1e Tramo con accesos directos
+
+Peligro por la proximidad de un tramo en el que existen varios
+accesos directos a la vía, debiendo ceder el paso los usuarios de
+dichos accesos directos.
+
+P-2 Intersección con prioridad de la derecha
+
+Peligro por la proximidad de una intersección en la que rige la regla
+general de prioridad de paso.
+
+Página 89
+=== p-090.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+P-3 Semáforos
+
+Peligro por la proximidad de una intersección aislada o tramo con
+la circulación regulada por semáforos.
+
+P-4 Glorieta
+
+Peligro por la proximidad de una glorieta con circulación en el
+sentido indicado por las flechas.
+
+P5 Puente móvil
+
+Peligro ante la proximidad de un puente que puede ser levantado
+O girado, interrumpiéndose así temporalmente la circulación
+
+P-6 Cruce de tranvía
+
+uy Peligro por la proximidad de cruce con una línea de tranvía, que
+tiene prioridad de paso.
+
+P-7 Paso a nivel con barreras
+
+Peligro por la proximidad de un paso a nivel provisto de barreras o
+semibarreras.
+
+P-8 Paso a nivel sin barreras
+
+(=] Peligro por la proximidad de un paso a nivel no provisto de barreras
+o semibarreras.
+
+P-9a Aproximación a un paso a nivel, puente móvil o muelle
+(200 m, lado derecho)
+
+Indica la existencia de un paso a nivel, un puente móvil o un muelle
+a una distancia de 200 m. Esta baliza se sitúa en el lado derecho
+de la calzada y va siempre acompañada de la señal P-5, P-7, P-8
+oP-27.
+
+Página 90
+=== p-091.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+P-9b Aproximación a un paso a nivel, puente móvil o muelle
+(150 m, lado derecho)
+
+Indica la existencia de un paso a nivel, un puente móvil o un muelle
+a una distancia de 150 m. Esta baliza se sitúa en el lado derecho
+de la calzada.
+
+P-9c Aproximación a un paso a nivel, puente móvil o muelle
+(100 m, lado derecho)
+
+Indica la existencia de un paso a nivel, un puente móvil o un muelle
+a una distancia de 100 m. Esta baliza se sitúa en el lado derecho
+de la calzada.
+
+P-10a Aproximación a un paso a nivel, puente móvil o muelle
+(200 m, lado izquierdo)
+
+Indica la existencia de un paso a nivel, un puente móvil o un muelle
+a una distancia de 200 m. Esta baliza se sitúa en el lado izquierdo
+de la calzada y va siempre acompañada de la señal P-5, P-7, P-8
+oP-27.
+
+P-10b || Aproximación a un paso a nivel, puente móvil o muelle
+(150 m, lado izquierdo)
+
+Indica la existencia de un paso a nivel, un puente móvil o un muelle
+a una distancia de 150 m. Esta baliza se sitúa en el lado izquierdo
+de la calzada.
+
+P-10c Aproximación a un paso a nivel, puente móvil o muelle
+(100 m, lado izquierdo)
+
+Indica la existencia de un paso a nivel, un puente móvil o un muelle
+a una distancia de 100 m. Esta baliza se sitúa en el lado izquierdo
+de la calzada.
+
+P-11 Situación de un paso a nivel sin barreras
+
+Peligro por la presencia inmediata de un paso a nivel sin barreras
+
+Página 91
+=== p-092.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+P-11a Situación de un paso a nivel sin barreras de más de
+una vía férrea
+
+Peligro por la presencia inmediata de un paso a nivel sin barreras
+con más de una vía férrea.
+
+P-12 Aeropuerto
+
+Peligro por la proximidad de un lugar donde frecuentemente vuelan
+aeronaves a baja altura sobre la vía y que pueden originar ruidos
+imprevistos.
+
+P-13a Curva peligrosa hacia la derecha
+
+Peligro por la proximidad de una curva peligrosa hacia la derecha.
+
+P-13b || Curva peligrosa hacia la izquierda
+
+Peligro por la proximidad de una curva peligrosa hacia la izquierda.
+
+P-14a Curvas peligrosas hacia la derecha
+
+Peligro por la proximidad de una sucesión de curvas peligrosas
+próximas entre sí, siendo la primera de ellas hacia la derecha.
+
+P-14b Curvas peligrosas hacia la izquierda
+
+Peligro por la proximidad de una sucesión de curvas peligrosas
+próximas entre sí, siendo la primera de ellas hacia la izquierda.
+
+PA15 Perfil irregular
+
+Peligro por la proximidad de un resalte o badén en la vía o
+pavimento en mal estado.
+
+Página 92
+=== p-093.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+P-15a Resalte
+
+Peligro por la proximidad de un resalte en la vía.
+
+P-15b Badén
+
+Peligro por la proximidad de un badén en la vía
+
+P-16a Bajada con fuerte pendiente
+
+Peligro por la existencia de un tramo de vía con fuerte pendiente
+descendente. La cifra indica la inclinación de la pendiente en
+porcentaje.
+
+P-16b Subida con fuerte pendiente
+
+Peligro por la existencia de un tramo de vía con fuerte pendiente
+ascendente. La cifra indica la inclinación de la pendiente en
+porcentaje.
+
+P-17 Estrechamiento de calzada
+
+Peligro por la proximidad de una zona de la vía en la que se
+estrecha la calzada. También puede ser utilizada cuando se
+reduzca la anchura de los arcenes de la calzada. No se utilizará
+cuando, tras una reducción del número de carriles de la calzada, la
+anchura de los carriles restantes y de los arcenes no haya variado.
+
+P-17a Estrechamiento de calzada por la derecha
+
+Peligro por la proximidad de una zona de la vía en la que la calzada
+se estrecha por el lado de la derecha. También puede ser utilizada
+cuando se reduzca la anchura del arcén derecho de la calzada. No
+se utilizará cuando, tras una reducción del número de carriles de la
+calzada por la derecha, la anchura de los carriles restantes y de los
+arcenes no haya variado.
+
+Página 93
+=== p-094.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+P-17b Estrechamiento de calzada por la izquierda
+
+Peligro por la proximidad de una zona de la vía en la que la
+calzada se estrecha por el lado de la izquierda. También puede
+ser utilizada cuando se reduzca la anchura del arcén izquierdo de
+la calzada cuando esta sea de un solo sentido de circulación. No
+se utilizará cuando, tras una reducción del número de carriles de
+la calzada por la izquierda, la anchura de los carriles restantes y
+de los arcenes no haya variado.
+
+P-18 Obras
+
+Peligro por la proximidad de un tramo de vía en obras.
+
+P-19 Pavimento deslizante
+
+Peligro por la proximidad de una zona de la calzada cuyo
+pavimento puede resultar deslizante.
+
+P-20a Paso para peatones
+
+Peligro por la proximidad de uno o varios pasos para peatones
+
+P-20b Peatones
+
+Peligro porla proximidad de un lugar o tramo con elevado tránsito
+de peatones.
+
+P-20c Pasos para peatones y ciclistas
+
+Peligro por la proximidad de un paso para peatones adosado o
+compartido con un paso para ciclistas.
+
+Página 94
+=== p-095.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+P-21a Niños
+
+Peligro por la proximidad de un lugar frecuentado por niños, como
+una escuela, una zona de juegos, etc.
+
+P-21b Personas con dificultades motrices
+
+Peligro por la proximidad de un lugar frecuentado por personas con
+dificultades motrices o sensoriales.
+
+P-22a Paso para ciclistas
+
+Peligro por la proximidad de uno o varios pasos para ciclistas.
+
+P-22b Ciclistas.
+
+E Peligro por la proximidad de un tramo con circulación frecuente de
+ciclistas.
+P-23 Paso de animales domésticos o ganado
+
+Peligro por la proximidad de un lugar donde frecuentemente la vía
+puede ser atravesada por animales domésticos o ganado,
+
+P-24 Paso de animales en libertad
+
+Peligro por la proximidad de un lugar donde frecuentemente la vía
+puede ser atravesada por animales en libertad.
+
+P-24a Paso de animales en libertad (jabalíes)
+
+Peligro por la proximidad de un lugar donde frecuentemente la vía
+puede ser atravesada por animales en libertad, tratándose en una
+proporción muy significativa de jabalíes.
+
+Página 95
+=== p-096.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+P-25 Circulación en los dos sentidos
+
+Peligro por la proximidad de un tramo con circulación en ambos
+sentidos.
+
+P-26 Desprendimiento
+
+Peligro por la proximidad a una zona con desprendimientos
+frecuentes y la consiguiente posible presencia de obstáculos en la
+Calzada.
+
+P-27 Muelle
+
+Peligro debido a que la vía desemboca en un muelle o en una
+corriente de agua.
+
+P-28 Proyección de gravilla
+
+Peligro por la proximidad de un tramo de vía donde existe el riesgo
+de que se proyecte gravilla al pasar los vehículos.
+
+P-29 Viento transversal
+
+Peligro por la proximidad de una zona donde sopla frecuentemente
+viento fuerte en dirección transversal.
+
+P-30 Escalón lateral
+
+Peligro por la existencia de un desnivel a lo largo de la vía en el
+lado que indique el símbolo.
+
+P-31 Congestión
+
+Peligro por la proximidad de un tramo en el que frecuentemente la
+circulación se encuentra detenida o dificultada por congestión del
+tráfico.
+
+Página 96
+=== p-097.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE ADVERTENCIA DE PELIGRO
+
+P-32 Obstrucción en la calzada
+
+Peligro por la proximidad de un lugar en que hay vehículos que
+obstruyen la calzada debido a avería, accidente u otras causas.
+
+P-33 Visibilidad reducida
+
+Peligro por la proximidad de un tramo en el que frecuentemente la
+circulación se ve dificultada por una pérdida notable de visibilidad
+debida a niebla, lluvia, nieve, humos, etc.
+
+P-34 Presencia de hielo o nieve
+
+Peligro por la proximidad de un tramo en el que frecuentemente,
+durante la época invernal, hay presencia de hielo o nieve y los
+consiguientes peligros asociados.
+
+LJ)
+
+P-35 Trenzado
+
+Peligro por la proximidad de un tramo comprendido entre una
+confluencia y una bifurcación donde se producen distintos
+movimientos de cambio de carril por parte de los vehículos,
+cruzándose sus trayectorias y aumentando por ello el riesgo de que
+se produzcan colisiones.
+
+P-50 Otros peligros
+
+Indica la proximidad de un peligro distinto de los advertidos por
+otras señales.
+
+Página 97
+=== p-098.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.2 Señales de prioridad.
+
+Página 98
+=== p-099.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRIORIDAD
+
+R-1 Ceda el paso
+
+Obligación para todo conductor de ceder el paso en la próxima
+intersección a los vehículos que circulen por la vía a la que se
+aproxime o al carril al que pretende incorporarse.
+
+R2 Detención obligatoria o stop
+
+Obligación para todo conductor de detener su vehículo ante la
+próxima línea de detención o, si no existe, inmediatamente antes
+de la intersección, y ceder el paso en ella a los vehículos que
+circulen por la vía a la que se aproxime.
+
+Si, por circunstancias excepcionales, desde el lugar donde se ha
+efectuado la detención no existe visibilidad suficiente, el conductor
+deberá detenerse de nuevo en el lugar desde donde tenga
+visibilidad, sin poner en peligro a ningún usuario de la vía.
+
+R3 Calzada con prioridad
+
+Indica a los conductores de los vehículos que circulen por una
+calzada su prioridad en las intersecciones sobre los vehículos que
+circulen por otra calzada o procedan de ella
+
+R4 Fin de prioridad
+
+Indica la proximidad del lugar en que la calzada por la que se circula
+pierde su prioridad respecto a otra calzada.
+
+R5 Prioridad del sentido contrario
+
+Prohibición de entrada en un paso estrecho mientras no sea
+posible atravesarlo sin obligar a los vehículos que circulen en
+sentido contrario a detenerse.
+
+Página 99
+=== p-100.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRIORIDAD
+
+R6 Prioridad respecto al sentido contrario
+
+Indica a los conductores que, en un próximo paso estrecho, tienen
+prioridad con relación a los vehículos que circulen en sentido
+contrario.
+
+Página 100
+=== p-101.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.3 Señales de prohibición de entrada.
+
+Página 101
+=== p-102.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PROHIBICIÓN DE ENTRADA
+
+R-100 Circulación prohibida
+
+Prohibición de circulación de toda clase de vehículos en ambos
+sentidos.
+
+R-101 Entrada prohibida
+
+Prohibición de acceso a toda clase de vehículos.
+
+R-102 Entrada prohibida a vehículos de motor
+
+Prohibición de acceso a vehículos de motor.
+
+R-103 Entrada prohibida a vehículos de motor, excepto
+motocicletas de dos ruedas
+
+Prohibición de acceso a vehículos de motor. No prohíbe el acceso
+a motocicletas de dos ruedas ni a vehículos de tres ruedas
+asimilados a motocicletas.
+
+R-104 Entrada prohibida a motocicletas
+
+Prohibición de acceso a motocicletas y a vehículos de tres ruedas
+asimilados a motocicletas.
+
+R-105 Entrada prohibida a ciclomotores
+
+Prohibición de acceso a ciclomotores. Igualmente prohíbe la
+entrada a vehículos para personas de movilidad reducida.
+
+Página 102
+=== p-103.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PROHIBICIÓN DE ENTRADA
+
+R-106 Entrada prohibida a vehículos destinados al
+transporte de mercancías
+
+Prohibición de acceso a vehículos destinados al transporte de
+mercancías, entendiéndose como tales camiones, tractocamiones
+y furgones o furgonetas, independientemente de su masa.
+
+R-107 Entrada prohibida a vehículos destinados al
+transporte de mercancías con mayor masa
+autorizada que la indicada
+
+Prohibición de acceso a toda clase de vehículos destinados al
+transporte de mercancías si su masa máxima autorizada es
+superior a la indicada en la señal, entendiéndose como tales los
+camiones, tractocamiones y furgones o furgonetas con mayor
+masa autorizada que la indicada en la señal. Prohíbe el acceso
+aunque circulen vacíos.
+
+R-108 Entrada prohibida a vehículos que transporten
+mercancías peligrosas
+
+Prohibición de acceso a toda clase de vehículos que transporten
+mercancías peligrosas y requieran estar señalizados de acuerdo
+con su normativa específica.
+
+R-109 Entrada prohibida a vehículos que transporten
+mercancías explosivas o inflamables
+
+Prohibición de acceso a toda clase de vehículos que transporten
+mercancías explosivas o fácilmente inflamables y requieran estar
+señalizados de acuerdo con su normativa específica
+
+Página 103
+=== p-104.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PROHIBICIÓN DE ENTRADA
+
+R-110 Entrada prohibida a vehículos que transporten
+productos contaminantes del agua
+
+Prohibición de acceso a toda clase de vehículos que transporten
+más de 1.000 litros de productos capaces de contaminar el agua.
+
+R-111 Entrada prohibida a vehículos agrícolas de motor
+
+Prohibición de acceso a tractores y otras máquinas agrícolas
+autopropulsadas.
+
+R-112 Entrada prohibida a vehículos de motor con
+remolque exceptuando los de un solo eje
+
+Prohibición de acceso a vehículos de motor con remolque
+exceptuando los de un solo eje. La inscripción de una cifra de
+tonelaje, sobre la silueta del remolque o en una placa
+suplementaria, significa que la prohibición de paso solo se aplica
+cuando la masa máxima autorizada del remolque supere dicha
+cifra.
+
+R-113 Entrada prohibida a vehículos de tracción animal
+
+Prohibición de acceso a vehículos de tracción animal.
+
+R-114 Entrada prohibida a ciclos
+
+Prohibición de acceso a ciclos.
+
+R-115 Entrada prohibida a carros de mano
+
+Prohibición de acceso a carros de mano.
+
+Página 104
+=== p-105.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PROHIBICIÓN DE ENTRADA
+
+R-116 Entrada prohibida a peatones
+
+Prohibición de acceso a peatones.
+
+R-117 Entrada prohibida a animales de montura
+
+Prohibición de acceso a animales de montura.
+
+R-118 Entrada prohibida a vehículos de movilidad
+personal
+
+Prohibición de acceso a vehículos de movilidad personal.
+
+R-119 Entrada prohibida a ciclos y a vehículos de
+A movilidad personal
+ES) Prohibición de acceso a ciclos y a vehículos de movilidad
+personal.
+R-120 Entrada prohibida a vehículos en función de su
+
+distintivo ambiental u otros criterios ambientales
+
+Prohibición de acceso a vehículos en función de su distintivo
+ambiental u otros criterios ambientales que se establezcan. Las
+condiciones se especificarán en un panel complementario S-860
+o en un cartel en el que se incluya la señal, haciendo referencia
+en su caso a la clasificación de cada vehículo en función de su
+distintivo ambiental, según lo establecido reglamentariamente.
+
+Página 105
+=== p-106.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.4 Señales de restricción de paso.
+
+Página 106
+=== p-107.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE RESTRICCIÓN DE PASO
+
+R-200 Prohibición de pasar sin detenerse
+
+Indica el lugar donde es obligatoria la detención por la
+proximidad, según la inscripción que contenga, de un puesto de
+aduana, de policía, de peaje u otro, tras los cuales pueden estar
+instalados medios mecánicos de detención. En todo caso, el
+conductor así detenido no podrá reanudar su marcha hasta
+haber cumplido la prescripción que la señal establece.
+
+R-201 Limitación de masa
+
+Prohibición de paso a los vehículos cuya masa en carga supere
+la indicada en toneladas.
+
+R-202 Limitación de masa por eje
+
+Prohibición de paso a los vehículos cuya masa por eje
+transmitida por la totalidad de las ruedas acopladas a algún eje
+supere a la indicada en la señal
+
+R-203 Limitación de longitud
+
+Prohibición de paso a los vehículos o conjunto de vehículos cuya
+longitud máxima, incluida la carga, supere la indicada.
+
+R-204 Limitación de anchura
+
+Prohibición de paso a los vehículos cuya anchura máxima,
+incluida la carga, supere la indicada.
+
+R-205 Limitación de altura
+
+¡ón de paso a los vehículos cuya altura máxima, incluida
+la carga, supere la indicada.
+
+Página 107
+=== p-108.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.5 Otras señales de prohibición y restricción
+
+Página 108
+=== p-109.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES DE PROHIBICIÓN Y RESTRICCIÓN
+
+R-300 Separación mínima
+
+Prohibición de circular sin mantener con el vehículo
+precedente una separación igual o mayor a la indicada en la
+señal, excepto cuando se vaya a efectuar la maniobra de
+adelantamiento. Sino aparece ninguna cifra recuerda de forma
+genérica que debe guardare la distancia de seguridad entre
+vehículos establecida reglamentariamente.
+
+R-301 Velocidad máxima
+
+Prohibición de circular a velocidad superior, expresada en
+kilómetros por hora, a la indicada en la señal. Obliga desde el
+lugar en que esté situada hasta la próxima señal «Fin de
+limitación de velocidad», de «Fin de prohibiciones» u otra de
+«Velocidad máxima», salvo que esté colocada en el mismo
+poste que una señal de advertencia de peligro o en el mismo
+panel que esta, en cuyo caso la prohibición finaliza cuando
+termine el peligro señalado. Situada en una vía sin prioridad,
+deja de tener vigencia al salir de una intersección con una vía
+con prioridad. Si el límite indicado por la señal coincide con la
+velocidad máxima permitida para el tipo de vía, recuerda de
+forma genérica la prohibición de superarla.
+
+R-302 Giro a la derecha prohibido
+
+Prohibición de girar a la derecha
+
+R-303 Giro a la izquierda prohibido
+
+Prohibición de girar a la izquierda. Incluye, también, la
+prohibición del cambio de sentido de marcha.
+
+R-304 Cambio de sentido prohibido
+
+Prohibición de efectuar la maniobra de cambio de sentido de
+la marcha.
+
+Página 109
+=== p-110.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES DE PROHIBICIÓN Y RESTRICCIÓN
+
+(=)
+
+R-305 Adelantamiento prohibido
+
+Por añadidura a los principios generales sobre adelantamiento,
+indica la prohibición a todos los vehículos de adelantar a los
+vehículos a motor que circulen por la calzada cuando dicha
+maniobra implique invadir la zona reservada al sentido contrario
+de circulación. La prohibición se aplica desde el lugar en que
+esté situada la señal hasta la siguiente señal de “Fin de
+prohibición de adelantamiento” o “Fin de prohibiciones”.
+Colocada en aquellos lugares donde por norma esté prohibido
+el adelantamiento, recuerda de forma genérica la prohibición de
+efectuar esta maniobra.
+
+R-306 Adelantamiento prohibido para camiones
+
+Prohibición a los camiones cuya masa máxima autorizada
+exceda de 3.500 kilogramos de adelantar a los vehículos a
+motor que circulen por la calzada, incluso cuando dicha
+maniobra no implique invadir la zona reservada al sentido
+contrario de circulación. La prohibición se aplica desde el lugar
+en que esté situada la señal hasta la siguiente señal de “Fin de
+prohibición de adelantamiento” o “Fin de prohibiciones”.
+
+R-307 Parada y estacionamiento prohibido
+
+Prohibición de parada y estacionamiento en el lado de la calzada
+en que esté situada la señal. Salvo indicación en contrario, la
+prohibición comienza en la vertical de la señal y termina en la
+intersección más próxima en el sentido de la marcha.
+
+R-307a Parada y estacionamiento prohibido hacia ambos
+lados de la señal
+
+Prohibición de parada y estacionamiento en el lado de la calzada
+en que esté situada la señal, en el tramo comprendido entre las
+intersecciones o las señales R-307b y R-307c más próximas
+hacia ambos lados de la señal.
+
+Página 110
+=== p-111.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES DE PROHIBICIÓN Y RESTRICCIÓN
+
+R-307b || Parada y estacionamiento prohibido hacia el lado
+de la señal indicado por la flecha
+
+Prohibición de parada y estacionamiento en el lado de la
+calzada en que esté situada la señal, en el tramo comprendido
+entre la señal y la intersección o la señal R-307c más próximas
+en el sentido que indica la flecha.
+
+R-3070 — | Parada y estacionamiento prohibido hacia el lado
+de la señal indicado por la flecha
+
+Prohibición de parada y estacionamiento en el lado de la
+calzada en que esté situada la señal, en el tramo comprendido
+entre la señal y la intersección o la señal R-307b más próximas
+en el sentido que indica la flecha.
+
+R-308 Estacionamiento prohibido
+
+Prohibición de estacionamiento en el lado de la calzada en que
+esté situada la señal. Salvo indicación en contrario, la
+prohibición comienza en la vertical de la señal y termina en la
+intersección más próxima en el sentido de la marcha. No
+prohíbe la parada.
+
+R-308c || Estacionamiento prohibido la primera quincena
+
+Prohibición de estacionamiento en el lado de la calzada en que
+esté situada la señal, desde las 9 horas del día 1 hasta las 9
+horas del día 16. Salvo indicación en contrario, la prohibición
+comienza en la vertical de la señal y termina en la intersección
+más próxima en sentido de la marcha. No prohíbe la parada
+
+R-308d || Estacionamiento prohibido la segunda quincena
+
+Prohibición de estacionamiento en el lado de la calzada en que
+esté situada la señal, desde las 9 horas del día 16 hasta las 9
+horas del día 1. Salvo indicación en contrario, la prohibición
+comienza en la vertical de la señal y termina en la intersección
+más próxima en sentido de la marcha. No prohíbe la parada.
+
+Página 111
+=== p-112.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES DE PROHIBICIÓN Y RESTRICCIÓN
+
+R-308e Estacionamiento prohibido en vado
+O Prohíbe el estacionamiento delante de un vado.
+
+VADO
+
+R-308f Estacionamiento prohibido hacia ambos lados de
+la señal
+
+Prohibición de estacionamiento en el lado de la calzada en que
+esté situada la señal, en el tramo comprendido entre las
+intersecciones o las señales R-308g y R-308h más próximas
+hacia ambos lados de la señal. No prohíbe la parada.
+
+R-308g || Estacionamiento prohibido hacia el lado de la
+señal indicado por la flecha
+
+Prohibición de estacionamiento en el lado de la calzada en que
+esté situada la señal, en el tramo comprendido entre la señal y
+la intersección o la señal R-308h más próximas en el sentido
+que indica la flecha. No prohíbe la parada
+
+R-308h || Estacionamiento prohibido hacia el lado de la
+señal indicado por la flecha
+
+Prohibición de estacionamiento en el lado de la calzada en que
+esté situada la señal, en el tramo comprendido entre la señal y
+la intersección o la señal R-308g más próximas en el sentido
+que indica la flecha. No prohíbe la parada.
+
+R-309 Zona de estacionamiento limitado
+
+Zona de estacionamiento de duración limitada y obligación
+para el conductor de indicar, de forma reglamentaria, la hora
+
+y del comienzo del estacionamiento. Se podrá incluir, dentro de
+la propia señal, en un cartel o en un panel complementario, el
+tiempo máximo autorizado de estacionamiento y el horario de
+vigencia de la limitación. También se podrá incluir si el
+estacionamiento está sujeto a pago.
+
+Página 112
+=== p-113.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES DE PROHIBICIÓN Y RESTRICCIÓN
+
+R-310 Advertencias acústicas prohibidas
+
+Recuerda la prohibición general de efectuar señales acústicas,
+salvo para evitar un accidente.
+
+Página 113
+=== p-114.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.6 Señales de obligación.
+
+Página 114
+=== p-115.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE OBLIGACIÓN
+
+R-400a Sentido obligatorio
+
+La flecha señala la dirección y sentido que los vehículos tienen
+la obligación de seguir.
+
+R-400b Sentido obligatorio
+
+La flecha señala la dirección y sentido que los vehículos tienen
+la obligación de seguir.
+
+R-400c Sentido obligatorio
+
+La flecha señala la dirección y sentido que los vehículos tienen
+la obligación de seguir.
+
+R-400d Sentido obligatorio
+
+La flecha señala la dirección y sentido que los vehículos tienen
+la obligación de seguir.
+
+R-400e Sentido obligatorio
+
+La flecha señala la dirección y sentido que los vehículos tienen
+la obligación de seguir.
+
+R-401a Paso obligatorio
+
+La flecha señala el lado del refugio, de la isleta o del obstáculo
+por el que los vehículos han de pasar obligatoriamente.
+
+R-401b Paso obligatorio
+
+La flecha señala el lado del refugio, de la isleta o del obstáculo
+por el que los vehículos han de pasar obligatoriamente.
+
+Página 115
+=== p-116.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE OBLIGACIÓN
+
+R-401c - || Paso obligatorio
+
+Las flechas señalan los lados del refugio, de la isleta o del
+obstáculo por uno de los cuales los vehículos han de pasar
+obligatoriamente.
+
+R-402 — || Sentido obligatorio en glorieta
+
+Las flechas señalan la dirección y sentido del movimiento
+giratorio que los vehículos deben seguir.
+
+R-403a || Únicas direcciones y sentidos permitidos
+
+Las flechas señalan las únicas direcciones y sentidos que los
+vehículos pueden tomar.
+
+R-403b || Únicas direcciones y sentidos permitidos
+
+Las flechas señalan las únicas direcciones y sentidos que los
+vehículos pueden tomar.
+
+R-403c - || Única dirección y sentidos permitidos
+
+Las flechas señalan la única dirección y sentidos que los
+vehículos pueden tomar.
+
+R-404 — || Calzada obligatoria para automóviles, excepto
+motocicletas de dos ruedas
+
+Obligación para los conductores de automóviles, excepto
+motocicletas de dos ruedas y vehículos de tres ruedas
+asimilados a motocicletas, de circular por la calzada a cuya
+entrada esté situada.
+
+Página 116
+=== p-117.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE OBLIGACIÓN
+R-405 Calzada obligatoria para motocicletas de dos
+ruedas
+
+Obligación para los conductores de motocicletas de dos
+ruedas y vehículos de tres ruedas asimilados a motocicletas
+de circular por la calzada a cuya entrada esté situada.
+
+R-406 Calzada obligatoria para camiones,
+tractocamiones y furgones o furgonetas
+
+Obligación para los conductores de toda clase de camiones,
+tractocamiones y furgones o furgonetas, independientemente
+de su masa, de circular por la calzada a cuya entrada esté
+situada. La inscripción de una cifra de tonelaje sobre la silueta
+del vehículo o en una placa suplementaria, significa que la
+obligación solo se aplica cuando la masa máxima autorizada
+del vehículo o del conjunto de vehículos supere la citada cifra.
+
+R-407a Vía reservada y obligatoria para ciclos
+
+Obligación para los conductores de ciclos de circular por la
+vía a cuya entrada esté situada y prohibición a los demás
+usuarios de la vía de utilizarla.
+
+R-407b — || Vía reservada y obligatoria para ciclomotores
+
+Obligación para los conductores de ciclomotores de circular
+por la vía a cuya entrada esté situada y prohibición a los
+demás usuarios de la vía de utilizarla.
+
+R-408 Camino obligatorio para vehículos de tracción
+animal
+
+Obligación para los conductores de vehículos de tracción
+animal de utilizar el camino a cuya entrada esté situada.
+
+Página 117
+=== p-118.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE OBLIGACIÓN
+R-409 Camino reservado y obligatorio para animales
+de montura
+
+Obligación para los jinetes de utilizar con sus animales de
+montura el camino a cuya entrada esté situada y prohibición
+alos demás usuarios de la vía de utilizarlo
+
+R-410 Camino reservado y obligatorio para peatones
+
+Obligación para los peatones de transitar por el camino a
+cuya entrada esté situada y prohibición a los demás usuarios
+de la vía de utilizarlo.
+
+R-411 Velocidad mínima
+
+Obligación para los conductores de vehículos de circular, por
+lo menos, a la velocidad indicada por la cifra, en kilómetros
+por hora, que figure en la señal, desde el lugar en que esté
+situada hasta otra de velocidad mínima diferente, o de fin de
+velocidad mínima o de velocidad máxima de valor igual o
+inferior.
+
+R-412 Cadenas para nieve
+
+Obligación de no proseguir la marcha sin cadenas para nieve
+u otros dispositivos antideslizantes autorizados que actúen al
+menos en una rueda a cada lado del mismo eje motor, o
+neumáticos especiales de nieve.
+
+R-412b Neumáticos de invierno
+
+Obligación de no proseguir la marcha sin neumáticos
+especiales de invierno
+
+Página 118
+=== p-119.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE OBLIGACIÓN
+
+R-413 Alumbrado de corto alcance
+
+Obligación para los conductores de circular con el alumbrado
+al menos de corto alcance, con independencia de las
+condiciones de visibilidad e iluminación de la vía, desde el
+lugar en que esté situada la señal hasta otra de fin de esta
+obligación.
+
+R-414 — | Calzada obligatoria para vehículos que
+transporten mercancías peligrosas
+
+Obligación para los conductores de toda clase de vehículos
+que transporten mercancías peligrosas y requieran estar
+señalizados de acuerdo con su normativa específica de
+circular por la calzada a cuya entrada esté situada.
+
+R-415 || Calzada obligatoria para vehículos que
+transporten productos contaminantes del agua
+
+Obligación para los conductores de toda clase de vehículos
+que transporten más de 1.000 litros de productos capaces de
+contaminar el agua de circular por la calzada a cuya entrada
+esté situada.
+
+R-416 || Calzada obligatoria para vehículos que
+transporten — mercancias explosivas e
+inflamables
+
+Obligación para los conductores de toda clase de vehículos
+que transporten mercancías explosivas O fácilmente
+inflamables y requieran estar señalizados de acuerdo con su
+normativa específica de circular por la calzada a cuya entrada
+esté situada.
+
+R-417 Uso obligatorio del cinturón de seguridad
+
+Recuerda la obligación de utilizar el cinturón de seguridad.
+
+Página 119
+=== p-120.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE OBLIGACIÓN
+
+R-418 — || Vía exclusiva para vehículos dotados de equipo
+de telepeaje operativo. Telepeaje obligatorio.
+
+Obligación de efectuar el pago del peaje mediante el sistema
+de peaje dinámico o telepeaje; el vehículo que circule por el
+carril o carriles así señalizados deberá estar provisto del
+medio técnico que posibilite su uso en condiciones operativas
+de acuerdo con las disposiciones legales en la materia
+
+R-419 Camino obligatorio para tractores
+
+Obligación para los conductores de tractores de utilizar el
+camino a cuya entrada esté situada.
+
+R-420 — || Vía reservada y obligatoria para vehículos de
+movilidad personal
+
+Obligación para los conductores de vehículos de movilidad
+personal de circular por la vía a cuya entrada esté situada y
+prohibición a los demás usuarios de la vía de utilizarla.
+
+R-421 — || Vía reservada y obligatoria para ciclos y para
+vehículos de movilidad personal
+
+Obligación para los conductores de ciclos y de vehículos de
+movilidad personal de circular por la vía a cuya entrada esté
+situada y prohibición a los demás usuarios de la vía de
+utilizarla
+
+R-422 Desmontar y continuar a pie
+
+Obligación para los usuarios de ciclos de continuar a pie. Si
+dicha obligación se limita a ciertos periodos, se indicará
+mediante un panel complementario.
+
+Página 120
+=== p-121.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.7 Señales de fin de prohibición, restricción u obligación.
+
+Página 121
+=== p-122.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE FIN DE PROHIBICIÓN, RESTRICCIÓN U OBLIGACIÓN
+
+R-500 Fin de prohibiciones
+
+Señala el lugar desde el que todas las prohibiciones
+específicas indicadas por señales anteriores de prohibición
+para vehículos en movimiento dejan de tener aplicación.
+
+R-501 Fin de la limitación de velocidad
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de velocidad máxima.
+
+R-502 Fin de la prohibición de adelantamiento
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de adelantamiento prohibido.
+
+R-503 Fin de la prohibición de adelantamiento para
+camiones
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de adelantamiento prohibido para camiones.
+
+R-504 Fin de zona de estacionamiento limitado.
+
+Señala el lugar desde donde deja de ser aplicable una
+anterior señal de zona de estacionamiento limitado.
+
+R-505 Fin de vía reservada y obligatoria para ciclos.
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de vía reservada y obligatoria para ciclos.
+
+R-506 Fin de velocidad mínima
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de velocidad mínima.
+
+Página 122
+=== p-123.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE FIN DE PROHIBICIÓN, RESTRICCIÓN U OBLIGACIÓN
+
+R-507 Fin de calzada obligatoria para automóviles,
+excepto motocicletas de dos ruedas.
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de calzada obligatoria para automóviles, excepto
+motocicletas de dos ruedas y vehículos de tres ruedas
+asimilados a motocicletas.
+
+R-508 Fin de calzada obligatoria para motocicletas de
+dos ruedas.
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de calzada obligatoria para motocicletas de dos
+ruedas y vehículos de tres ruedas asimilados a motocicletas.
+
+R-509 Fin de calzada obligatoria para camiones,
+tractocamiones y furgones o furgonetas
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de calzada obligatoria para camiones,
+tractocamiones y furgones o furgonetas.
+
+R-510 Fin de vía reservada y obligatoria para
+ciclomotores
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de vía reservada y obligatoria para ciclomotores
+
+R-511 Fin de camino obligatorio para vehículos de
+tracción animal
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de camino obligatorio para vehículos de tracción
+animal.
+
+Página 123
+=== p-124.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE FIN DE PROHIBICIÓN, RESTRICCIÓN U OBLIGACIÓN
+
+R-512 Fin de camino reservado y obligatorio para
+animales de montura
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de camino reservado y obligatorio para animales de
+montura.
+
+R-513 Fin de camino reservado y obligatorio para
+peatones
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de camino reservado y obligatorio para peatones.
+
+R-514 Fin de camino obligatorio para tractores
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de camino obligatorio para tractores.
+
+R-515 Fin de vía reservada y obligatoria para vehículos
+de movilidad personal
+
+Señala el lugar desde donde deja de ser aplicable una señal
+anterior de vía reservada y obligatoria para vehículos de
+movilidad personal
+
+R-516 Fin de vía reservada y obligatoria para ciclos y
+h para vehículos de movilidad personal
+5) Señala el lugar desde donde deja de ser aplicable una señal
+
+anterior de vía reservada y obligatoria para ciclos y vehículos
+de movilidad personal.
+
+Página 124
+=== p-125.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.8 Señales de indicaciones generales.
+
+Página 125
+=== p-126.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-1 Autopista
+alii Indica el principio de una autopista y, por tanto, el lugar a partir
+] l del cual se aplican las reglas especiales de circulación en este
+
+tipo de vía. Puede indicar también el ramal de un nudo que
+conduce a una autopista.
+
+S-la Autovía
+
+AUTOVÍA
+
+Indica el principio de una autovía y, por tanto, el lugar a partir
+del cual se aplican las reglas especiales de circulación en este
+tipo de vía. Puede indicar también el ramal de un nudo que
+conduce a una autovía.
+
+S-1b Carretera multicarril
+
+Indica el principio de una carretera multicarril y, por tanto, el
+lugar a partir del cual se aplican las reglas especiales de
+circulación en este tipo de vía. Esta señal puede indicar el
+ramal de un nudo que conduce a una carretera multicarril.
+
+S-1c Carretera 2+1
+
+(Eran) Indica el principio de una carretera 2+1, es decir, aquella que
+consta de tres carriles de circulación y permite la circulación en
+ambos sentidos. El carril central se destina a facilitar la
+maniobra de adelantamiento, estando reservado de manera
+alterna a uno y otro sentido de circulación. Esta señal pude
+indicar también el ramal de un nudo que conduce a una
+carretera 2+1.
+
+MT Ss-2 Fin de autopista
+“A a
+ú Í Indica el final de una autopista.
+
+Página 126
+=== p-127.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+AUTOW” S-2a Fin de autovía
+
+/ Ñ Indica el final de una autovía.
+AN
+
+S-2b Fin de carretera multicarril
+
+Indica el final de una carretera multicarril.
+
+S-2c Fin de carretera 2+1
+
+Indica el final de una carretera 2+1
+
+s-3 Vía reservada para automóviles
+q Indica el principio de una vía reservada a la circulación de
+automóviles.
+S-4 Fin de vía reservada para automóviles
+2 Indica el final de una vía reservada para automóviles.
+S-5 Túnel
+
+Indica el principio y eventualmente el nombre de un túnel, de un
+paso inferior o de un tramo de vía equiparado a túnel. Podrá
+llevar en su parte inferior la indicación de la longitud del túnel en
+metros,
+
+Página 127
+=== p-128.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-7 Velocidad máxima aconsejada
+
+Recomienda una velocidad de circulación, en kilómetros por
+
+70 hora, que se aconseja no sobrepasar aunque las condiciones
+meteorológicas y ambientales de la vía y de la circulación sean
+favorables. Cuando está colocada bajo una señal de
+advertencia de peligro, la recomendación se refiere al tramo en
+que dicho peligro subsista.
+
+s-8 Fin de velocidad máxima aconsejada
+
+y£) Indica el final de un tramo en el que se recomienda circular a la
+velocidad, en kilómetros por hora, indicada en la señal.
+
+Ss-9 Intervalo aconsejado de velocidades
+
+Recomienda mantener la velocidad entre los valores indicados,
+siempre que las condiciones meteorológicas y ambientales de
+la vía y de la circulación sean favorables. Cuando está colocada
+debajo de una señal de advertencia de peligro, la
+recomendación se refiere al tramo en que dicho peligro subsista.
+
+s-10 Fin de intervalo aconsejado de velocidades
+
+Indica el lugar desde donde deja de ser aplicable una señal
+anterior de intervalo aconsejado de velocidades.
+
+S-11 Calzada de un carril de sentido único
+
+Indica que en la calzada de un carril que se prolonga en la
+dirección de la flecha los vehículos deben circular en el sentido
+indicado por esta, y que está prohibida la circulación en sentido
+contrario.
+
+Página 128
+=== p-129.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-11a Calzada de dos carriles de sentido único
+
+Indica que en la calzada de dos carriles que se prolonga en la
+dirección de las flechas los vehículos deben circular en el
+sentido indicado por estas, y que está prohibida la circulación en
+sentido contrario.
+
+S-11b Calzada de tres carriles de sentido único
+
+dirección de las flechas los vehículos deben circular en el
+sentido indicado por estas, y que está prohibida la circulación en
+sentido contrario. En caso de mayor número de carriles el
+número de flechas se adaptará a los mismos.
+
+1 1 1 Indica que en la calzada de tres carriles que se prolonga en la
+
+S-12a Tramo de calzada de sentido único
+
+Indica que en el tramo de calzada que se prolonga en la
+dirección de la flecha, los vehículos deben circular en el sentido
+indicado por esta, y que está prohibida la circulación en sentido
+contrario.
+
+S-12b Tramo de calzada de sentido único
+
+Indica que en el tramo de calzada que se prolonga en la
+dirección de la flecha, los vehículos deben circular en el sentido
+indicado por esta, y que está prohibida la circulación en sentido
+
+contrario.
+S-13 Situación de un paso para peatones
+ÁN Indica la situación de un paso para peatones.
+A S-14a Paso superior para peatones
+2 Indica la situación de un paso superior para peatones.
+
+Página 129
+=== p-130.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+. S-14b Paso inferior para peatones
+ya Indica la situación de un paso inferior para peatones.
+S-14c Paso superior para peatones con rampa
+
+Indica la situación de un paso superior para peatones
+acondicionado con rampa.
+
+S-14d Paso inferior para peatones con rampa
+
+Indica la situación de un paso inferior para peatones
+acondicionado con rampa.
+
+S-14e Paso superior para peatones con rail o rampa
+para ciclos
+Indica la situación de un paso superior para peatones
+acondicionado con rail o rampa para ciclos.
+S-14f Paso inferior para peatones con rail o rampa
+. para ciclos
+qe Indica la situación de un paso inferior para peatones
+acondicionado con rail o rampa para ciclos.
+S-15a Calzada sin salida
+l Indica que la calzada que figura en la señal con un recuadro en
+
+rojo no tiene salida
+
+Página 130
+=== p-131.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-15b Preseñalización de calzada sin salida
+
+Ú Indica que la calzada que figura en la señal con un recuadro en
+rojo no tiene salida. Se podrá utilizar la figura simétrica para
+adaptarse al trazado real
+
+S-15c Preseñalización de calzada sin salida
+
+Indica que la calzada que figura en la señal con un recuadro en
+rojo no tiene salida. Se podrá utilizar la figura simétrica para
+adaptarse al trazado real.
+
+S-15d Preseñalización de calzada sin salida
+
+Indica que la calzada que figura en la señal con un recuadro en
+rojo no tiene salida.
+
+S-15e Calzada sin salida excepto para peatones o
+ciclos
+
+Indica que la calzada que figura en la señal con un recuadro en
+rojo no tiene salida excepto para peatones o ciclos. Figurarán el
+o los pictogramas de los usuarios a los que afecte la excepción.
+
+S-16 Zona de frenado de emergencia
+
+Indica la situación de una zona de escape de la calzada
+acondicionada para que un vehículo pueda ser detenido en caso
+de fallo de su sistema de frenado.
+
+S-17 Estacionamiento
+
+Indica el lugar donde está autorizado el estacionamiento de
+vehículos. Una inscripción o un símbolo representando ciertas
+clases de vehículos indica que el estacionamiento está
+reservado a esas clases. Una inscripción con indicaciones de
+tiempo limita la duración del estacionamiento al señalado.
+
+Página 131
+=== p-132.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-17a Estacionamiento de necesidad
+
+Indica el lugar donde está autorizado el estacionamiento de
+vehículos únicamente para un fin concreto (acceso a una
+farmacia, hospital, etc.) cuyo pictograma se incluirá en la señal,
+y durante un tiempo determinado. La duración de dicho tiempo
+será indicada en un panel complementario
+
+S-18 Lugar reservado para taxis
+
+TAXI Indica el lugar reservado a la parada y al estacionamiento de
+taxis libres y en servicio. La inscripción de un número indica el
+número total de espacios reservados a este fin.
+
+S-19 Parada de autobuses
+
+==
+
+Indica el lugar reservado para parada de autobuses.
+
+ES S-20 Parada de tranvías
+
+Indica el lugar reservado para parada de tranvías.
+
+EPT s-21 Transitabilidad en tramo o puerto de montaña.
+
+y 22 Indica la situación de transitabilidad del puerto o tramo definido
+
+en la parte superior de la señal.
+
+E
+Ceajares _)
+
+Página 132
+=== p-133.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-22 Cambio de sentido al mismo nivel
+
+NEON | Indica la proximidad de un lugar en el que se puede efectuar un
+cambio de sentido al mismo nivel.
+
+S-23 Hospital
+
+Indica la situación de un hospital, así como la conveniencia de
+E=sp tomar las precauciones que requiere la proximidad de centros
+médicos, especialmente la de evitar la producción de ruido.
+
+Ss-24 Fin de obligación de alumbrado de corto alcance
+(cruce)
+
+Indica el final de un tramo en el que es obligatorio el alumbrado
+al menos de cruce o corto alcance y recuerda la posibilidad de
+prescindir de este, siempre que no venga impuesto por
+circunstancias de visibilidad, horario o iluminación de la vía.
+
+S-25 Cambio de sentido a distinto nivel
+
+/ Indica la proximidad de una salida a través de la cual se puede
+efectuar un cambio de sentido a distinto nivel.
+
+S-26a Panel de aproximación a salida (300 m)
+E Indica, en una autopista o en una autovía, que la próxima salida
+Za está situada aproximadamente a 300 m. Si la salida fuera por la
+
+izquierda la diagonal sería descendente de izquierda a derecha
+y la señal se situaría a la izquierda de la calzada.
+
+S-26b Panel de aproximación a salida (200 m)
+
+está situada aproximadamente a 200 m. Si la salida fuera por la
+izquierda la diagonal sería descendente de izquierda a derecha
+y la señal se situaría a la izquierda de la calzada.
+
+P» Indica, en una autopista o en una autovía, que la próxima salida
+
+Página 133
+=== p-134.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-26c Panel de aproximación a salida (100 m)
+p Indica, en una autopista o en una autovía, que la próxima salida
+3 está situada aproximadamente a 100 m. Si la salida fuera por la
+
+izquierda la diagonal sería descendente de izquierda a derecha
+y la señal se situaría a la izquierda de la calzada.
+
+S-27 Auxilio en carretera
+
+Indica la situación del poste o puesto de socorro más próximo
+desde el que se puede solicitar auxilio en caso de accidente o
+avería. La señal puede indicar la distancia a la que este se halla.
+
+S-28 Zona de estancia y juego
+
+Indica las zonas de circulación que están destinadas en primer
+
+lugar a los peatones y en las que se aplican las normas
+
+especiales de circulación siguientes: la velocidad máxima de los
+
+vehículos está fijada en 10 kilómetros por hora y los conductores
+
+==] A deben conceder prioridad a los peatones; los vehículos pueden
+
+4 SS estacionarse únicamente en los lugares designados por señales
+
+o por marcas; los ciclos y, en su caso, los VMP, pueden circular
+
+en ambos sentidos, salvo que la autoridad competente
+
+establezca lo contrario; los peatones pueden utilizar toda la zona
+
+de circulación y por tanto no se señalizan los pasos peatonales;
+
+los juegos y los deportes están autorizados en ella. Irá siempre
+
+acompañada de la señal R-301 que limitará la velocidad a 10
+km/h.
+
+S-29 Fin de zona de estancia y juego
+
+Indica que se aplican de nuevo las normas generales de
+circulación.
+
+S-30a Zona peatonal
+
+Indica una zona reservada para el uso peatonal.
+
+Página 134
+=== p-135.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-31a Fin de zona peatonal
+
+Indica el fin de una zona reservada para el uso peatonal.
+
+s-32 Telepeaje
+
+señalizados, además de por otros medios, puede efectuar el
+pago del peaje mediante el sistema de peaje dinámico o
+telepeaje, siempre que esté provisto del medio técnico que
+posibilite su uso.
+
+1 Indica que el vehículo que circule por el carril o carriles así
+
+S-33 Senda ciclopeatonal
+
+Indica la existencia de una vía para peatones, ciclos y, en su
+caso, VMP, segregada del tráfico motorizado, y que discurre
+
+N habitualmente por espacios abiertos, parques, jardines o
+bosques, si bien fuera de poblado puede discurrir también
+(0x3) paralela a la carretera. En presencia de personas caminando,
+
+los ciclos y, en su caso, los VMP deberán reducir su velocidad
+para garantizar la seguridad y la convivencia. Asimismo, las
+personas viandantes facilitarán el paso de los ciclos y, en su
+caso, los VMP.
+
+S-34 Apartadero
+
+Indica la situación de un lugar donde se puede apartar el
+vehículo en caso de emergencia a fin de dejar libre el paso.
+
+S-34a Apartadero en túneles con teléfono de
+emergencia
+
+Indica la situación de un lugar donde se puede apartar el
+vehículo en un túnel en caso de emergencia a fin de dejar libre
+el paso y que dispone de teléfono de emergencia.
+
+Página 135
+=== p-136.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-35 Vía reservada para ciclos
+
+Indica la existencia de una vía destinada a la circulación de ciclos
+y prohibición a los demás usuarios de la vía de utilizarla.
+
+S-36 Fin de vía reservada para ciclos
+
+Indica el final de una vía destinada a la circulación de ciclos.
+
+S-37 Vía reservada para vehículos de movilidad personal
+
+Indica la existencia de una vía destinada a la circulación de
+vehículos de movilidad personal y prohibición a los demás
+usuarios de la vía de utilizarla.
+
+S-38 Vía reservada para ciclos y vehículos de movilidad
+personal
+
+Indica la existencia de una vía destinada a la circulación de ciclos
+y vehículos de movilidad personal y prohibición a los demás
+usuarios de la vía de utilizarla.
+
+S-39 Fin de vía reservada para vehículos de movilidad
+personal
+
+Indica el final de una vía destinada a la circulación de vehículos
+de movilidad personal y prohibición a los demás usuarios de la vía
+de utilizarla.
+
+b.
+BE)
+
+S-40 Fin de vía reservada para ciclos y vehículos de
+movilidad personal
+
+Indica el final de una vía destinada a la circulación de ciclos y
+vehículos de movilidad personal y prohibición a los demás
+usuarios de la vía de utilizarla.
+
+Página 136
+=== p-137.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-41 Vía reservada para ciclos y peatones con espacio
+de circulación diferenciado entre ellos
+
+$e A Indica la existencia de una vía destinada a la circulación de ciclos
+y peatones con espacio diferenciado entre ambos. El diseño de la
+señal podrá adaptarse a la situación real de los espacios en cada
+vía.
+
+S-42 Fin de vía reservada para ciclos y peatones con
+espacio de circulación diferenciado entre ellos
+
+IR Indica el final de una vía destinada a la circulación de ciclos y
+peatones con espacio diferenciado entre ambos. El diseño de la
+señal podrá adaptarse a la situación real de los espacios en cada
+vía.
+
+S-43 Vía reservada para ciclos, vehículos de movilidad
+personal y peatones, con espacio de circulación
+diferenciado entre los dos primeros y los terceros.
+
+A Indica la existencia de una vía destinada a la circulación de ciclos,
+$e vehículos de movilidad personal y peatones con espacio
+diferenciado entre los dos primeros y los terceros. El diseño de la
+
+señal podrá adaptarse a la situación real de los espacios en cada
+vía.
+
+S-44 Fin de vía reservada para ciclos, vehículos de
+movilidad personal y peatones, con espacio de
+circulación diferenciado entre los dos primeros y
+los terceros.
+
+Indica el final de una vía destinada a la circulación de ciclos,
+vehículos de movilidad personal y peatones con espacio
+diferenciado entre los dos primeros y los terceros. El diseño de la
+señal podrá adaptarse a la situación real de los espacios en cada
+vía.
+
+Página 137
+=== p-138.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE INDICACIONES GENERALES
+
+S-45 Situación de un paso para ciclistas
+
+Indica la situación de un paso para ciclistas.
+
+S-46 Situación de un paso para peatones y ciclistas
+
+Indica la situación de un paso para peatones adosado o
+compartido con un paso para ciclistas.
+
+S-47 Zona de coexistencia
+
+Indica una zona de circulación que está destinada en primer lugar
+a los peatones y en las que se aplican las normas especiales de
+circulación siguientes: la velocidad máxima de los vehículos será
+de 20 kmíh; la circulación está compartida entre vehículos,
+ciclistas y peatones; los peatones tienen prioridad, pueden usar
+toda la zona de circulación y por tanto no se señalizan pasos
+peatonales; los ciclos y, en su caso, los VMP pueden circular en
+ambos sentidos, salvo que la autoridad competente establezca lo
+contrario; los vehículos pueden estacionarse únicamente en los
+lugares designados por señales o por marcas; los juegos y los
+deportes no están autorizados.
+
+S-48 Fin de zona de coexistencia
+
+Indica que se aplican de nuevo las normas generales de
+circulación
+
+S-49 Avanza moto o bici
+
+Indica la existencia de una zona de espera previa a la línea de
+detención de una intersección regulada por semáforos reservada
+a los vehículos indicados en la señal (motocicletas, vehículos de
+tres ruedas asimilados a motocicletas y ciclomotores,
+representados los tres tipos por el pictograma de motocicleta, o
+ciclos).
+
+Página 138
+=== p-139.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.9 Señales de carriles.
+
+Página 139
+=== p-140.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+S-50a Carriles reservados en función de la velocidad
+
+señalizada
++ Indica, en una calzada de doble sentido de circulación, la
+20) ampliación de un carril por la izquierda que solo puede ser
+
+utilizado por los vehículos que circulen a velocidad igual o
+superior a la indicada, aunque si las circunstancias lo permiten
+deben circular por el carril de la derecha. El final de la
+obligatoriedad de velocidad mínima vendrá establecido por la
+señal R-506 o el tipo de señal S-52 correspondiente.
+
+S-50b Carriles reservados en función de la velocidad
+señalizada
+
+Indica, en una calzada de doble sentido de circulación, la
+ampliación de un carril por la derecha. El carril sobre el que está
+situada la señal de velocidad mínima solo podrá ser utilizado por
+los vehículos que circulen a velocidad igual o superior a la
+indicada, aunque si las circunstancias lo permiten deben circular
+por el carril de la derecha. El final de la obligatoriedad de
+velocidad mínima vendrá establecido por la señal R-506 o el tipo
+de señal S-52 correspondiente.
+
+E
+70)
+
+S-50c Carriles reservados en función de la velocidad
+señalizada
+
+Indica, en una calzada de un único sentido de circulación, la
+
+E ampliación de un carril por la derecha. Los carriles sobre los que
+está situada la señal de velocidad mínima solo podrán ser
+utilizados por los vehículos que circulen a velocidad igual o
+superior a la indicada, aunque si las circunstancias lo permiten
+deben circular por el carril de la derecha. El final de la
+obligatoriedad de velocidad mínima vendrá establecido por la
+señal R-506 o el tipo de señal S-52 correspondiente.
+
+Página 140
+=== p-141.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+S-50d Carriles reservados en función de la velocidad
+señalizada
+
+Indica, en una calzada de doble sentido de circulación, que el
+4 carril sobre el que está situada la señal de velocidad mínima solo
+40) puede ser utilizado por los vehículos que circulen a velocidad
+y igual o superior a la indicada, aunque si las circunstancias lo
+permiten deben circular por el carril de la derecha. El final de la
+obligatoriedad de velocidad mínima vendrá establecido por la
+
+señal R-506 o el tipo de señal S-52 correspondiente.
+
+S-50e Carriles reservados en función de la velocidad
+señalizada
+
+Indica, en una calzada de un único sentido de circulación, que los
+
+24 carriles sobre los que están situadas las señales de velocidad
+4040 mínima solo pueden ser utilizados por los vehículos que circulen
+A a velocidad igual o superior a la indicada, aunque si las
+
+circunstancias lo permiten deben circular por el carril de la
+derecha. El final de la obligatoriedad de velocidad mínima vendrá
+establecido por la señal R-506 o el tipo de señal S-52
+
+correspondiente,
+S-51a Carril reservado para tipos específicos de
+vehículos
+
+Indica un carril destinado exclusivamente a la circulación de cierto
+o ciertos tipos de vehículos determinados (autobuses,
+motocicletas, vehículos de tres ruedas asimilados a motocicletas,
+
+AU taxis, ciclos, etc.). Se incluirá en la señal el pictograma
+Ro representativo del tipo o tipos de vehículos autorizados. En
+TAXI tramos en que la marca vial longitudinal delimitadora del carril
+
+esté constituida por una línea discontinua, se permite su
+utilización al resto de vehículos únicamente para realizar alguna
+maniobra que no sea la de parar, estacionar, cambiar el sentido
+de la marcha o adelantar, dejando siempre preferencia a los
+vehículos autorizados a circular por este carril.
+
+Página 141
+=== p-142.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+VAN
+
+S-51b Carril reservado para vehículos con alta ocupación
+(VAO)
+
+Indica uno o varios carriles destinados exclusivamente a la
+circulación de vehículos con alta ocupación. En la imagen figurará
+el número de personas a partir de las cuales se considera alta
+ocupación, lo que será determinado por el órgano gestor
+competente en cada caso. Si el carril o carriles está reservado no
+solo a VAO sino también a otro u otros tipos específicos de
+vehículos, se podrán combinar las imágenes correspondientes
+del mismo modo que en la señal S-51a.
+
+S-52 Final de carril destinado a la circulación
+
+Indica en una calzada de tres carriles con un único sentido de
+circulación la desaparición del carril derecho y el cambio de carril
+preciso.
+
+S-52a Final de carril destinado a la circulación
+
+Indica, en una calzada de doble sentido de circulación con dos
+carriles de circulación en el sentido de la marcha la desaparición
+del carril derecho y el cambio de carril preciso.
+
+S-52b Final de carril destinado a la circulación
+
+Indica, en una calzada de doble sentido de circulación con dos
+carriles de circulación en el sentido de la marcha, la desaparición
+del carril izquierdo y el cambio de carril preciso.
+
+S-52c Final de carril destinado a la circulación
+
+Indica, en una calzada de dos carriles con un único sentido de
+circulación, la desaparición del carril derecho y el cambio de carril
+preciso.
+
+Página 142
+=== p-143.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+S-52d Final de carril destinado a la circulación
+
+Indica, en una calzada de dos carriles con un único sentido de
+circulación, la desaparición del carril izquierdo y el cambio de
+carril preciso.
+
+S-52e Final de carril destinado a la circulación
+
+Indica, en una calzada de tres carriles con un único sentido de
+circulación, la desaparición del carril izquierdo y el cambio de
+carril preciso.
+
+S-52f Final de carril destinado a la circulación
+
+Indica, en una calzada de cuatro carriles con un único sentido de
+circulación, la desaparición del carril izquierdo y el cambio de
+carril preciso.
+
+S-529 Final de carril destinado a la circulación
+
+Indica, en una calzada de cuatro carriles con un único sentido de
+circulación, la desaparición del carril derecho y el cambio de carril
+preciso.
+
+S-53 Paso de uno a dos carriles de circulación
+
+Indica, en un tramo con un solo carril, que se va a pasar a
+disponer de dos carriles en el mismo sentido de la circulación.
+
++4
+
+S-53a Paso de uno a dos carriles de circulación con
+especificación de la velocidad máxima en cada
+uno de ellos
+
+Indica, en un tramo con un solo carril de circulación, que se va a
+pasar a disponer de dos carriles en el mismo sentido de
+circulación. También indica la velocidad máxima que está
+permitido alcanzar en cada uno de ellos.
+
+Página 143
+=== p-144.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+S-53b Paso de dos a tres carriles de circulación
+
+Indica, en un tramo con dos carriles en un sentido de circulación,
+que se va a pasar a disponer de tres carriles en el mismo sentido
+de circulación.
+
+S-53c Paso de dos a tres carriles de circulación con
+especificación de la velocidad máxima en cada uno
+de ellos
+
+Indica, en un tramo con dos carriles en un sentido de circulación,
+que se va a pasar a disponer de tres carriles en el mismo sentido
+de circulación. También indica la velocidad máxima que está
+permitido alcanzar en cada uno de ellos.
+
+S-60a Bifurcación hacia la izquierda en calzada de dos
+carriles
+
+Indica, en una calzada con dos carriles de circulación en el mismo
+sentido, que se producirá una bifurcación con cambio de dirección
+en el carril izquierdo.
+
+S-60b Bifurcación hacia la derecha en calzada de dos
+carriles
+
+Indica, en una calzada con dos carriles de circulación en el mismo
+sentido, que se producirá una bifurcación con cambio de dirección
+en el carril derecho.
+
+S-61a Bifurcación hacia la izquierda en calzada de tres
+carriles
+
+Indica, en una calzada con tres carriles de circulación en el mismo
+sentido, que se producirá una bifurcación con cambio de dirección
+en el carril izquierdo.
+
+Página 144
+=== p-145.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+S-61b Bifurcación hacia la derecha en calzada de tres
+carriles
+
+( Indica, en una calzada con tres carriles de circulación en el mismo
+sentido, que se producirá una bifurcación con cambio de dirección
+en el carril derecho.
+
+S-61c Bifurcación hacia la derecha en calzada de dos
+carriles en el sentido propio de circulación y un
+carril en sentido opuesto
+
+( Indica, en una calzada de doble sentido de circulación con dos
+carriles de circulación en el sentido de la marcha, que se
+producirá una bifurcación con cambio de dirección en el carril
+
+derecho.
+S-62a Bifurcación hacia la izquierda en calzada de
+cuatro carriles
+y 111 Indica, en una calzada con cuatro carriles de circulación en el
+
+mismo sentido, que se producirá una bifurcación con cambio de
+dirección en el carril izquierdo.
+
+S-62b Bifurcación hacia la derecha en calzada de cuatro
+carriles
+NT Indica, en una calzada con cuatro carriles de circulación en el
+
+mismo sentido, que se producirá una bifurcación con cambio de
+dirección en el carril derecho.
+
+S-63a Bifurcación en calzada de cuatro carriles
+
+Indica, en una calzada con cuatro carriles de circulación en el
+mismo sentido, que se producirá una bifurcación con cambio de
+dirección de dos carriles hacia la izquierda y dos carriles hacia la
+derecha.
+
+Página 145
+=== p-146.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+S-63b Bifurcación en calzada de tres carriles
+
+Indica, en una calzada con tres carriles de circulación en el mismo
+sentido, que se producirá una bifurcación en el carril central con
+cambio de dirección de los cuatro carriles resultantes, dos hacia
+la izquierda y dos hacia la derecha.
+
+S-63c Bifurcación de dos carriles hacia la izquierda en
+calzada de cuatro carriles
+
+Indica, en una calzada con cuatro carriles de circulación en el
+mismo sentido, que se producirá una bifurcación con cambio de
+dirección en los dos carriles izquierdos.
+
+S-63d Bifurcación de dos carriles hacia la derecha en
+calzada de cuatro carriles
+
+Indica, en una calzada con cuatro carriles de circulación en el
+mismo sentido, que se producirá una bifurcación con cambio de
+dirección en los dos carriles derechos.
+
+S-64a Vía reservada y obligatoria para ciclos adosada a
+calzada de un único sentido de circulación
+
+Indica, en calzadas de un único sentido de circulación, la
+obligación para los conductores de ciclos de circular por el carril
+sobre el que está situada la señal y la prohibición a los demás
+usuarios de la vía de utilizarlo. Las flechas indicarán el número de
+carriles de la calzada.
+
+S-64b Vía reservada y obligatoria para ciclos adosada a
+calzada de doble sentido de circulación
+
+Indica, en calzadas de doble sentido de circulación, la obligación
+para los conductores de ciclos de circular por el carril sobre el que
+está situada la señal y la prohibición a los demás usuarios de la
+vía de utilizarlo. Las flechas indicarán el número de carriles de la
+calzada, así como el sentido de circulación.
+
+Página 146
+=== p-147.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+S-65a Vía reservada para ciclos adosada a calzada de
+un único sentido de circulación
+
+Indica, en calzadas de un único sentido de circulación, que el
+carril sobre el que está situada la señal está reservado a la
+circulación de ciclos, quedando prohibida su utilización a los
+demás usuarios de la vía. Las flechas indicarán el número de
+carriles de la calzada.
+
+S-65b Vía reservada para ciclos adosada a calzada de
+doble sentido de circulación
+
+Indica, en calzadas de doble sentido de circulación, que el carril
+sobre el que está situada la señal está reservado a la circulación
+de ciclos, quedando prohibida su utilización a los demás usuarios
+de la vía. Las flechas indicarán el número de carriles de la
+calzada, así como el sentido de circulación.
+
+S-66 Carril bici en sentido opuesto
+
+Indica la existencia de un carril obligatorio para ciclos cuyo sentido
+de circulación es el opuesto al del carril contiguo.
+
+S-68 Tramo de calzada con un carril para el sentido
+propio de circulación y dos carriles para el sentido
+opuesto
+
+| | 1 Indica, en una calzada de doble sentido de circulación, que se
+
+dispone de un solo carril, mientras que el sentido opuesto dispone
+de dos. Se especificará la longitud en la que se mantiene esta
+configuración mediante un panel complementario S-810.
+
+S-70a Confluencia de un carril por la izquierda en
+calzada de un carril
+
+Indica, en una calzada con un carril de circulación, que se
+producirá la confluencia de un carril por el lado izquierdo.
+
+Página 147
+=== p-148.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+S-70b Confluencia de un carril por la derecha en calzada
+de un carril
+
+Indica, en una calzada con un carril de circulación, que se
+producirá la confluencia de un carril por el lado derecho.
+
+S-71a Confluencia de un carril por la izquierda en
+calzada de dos carriles
+
+Indica, en una calzada con dos carriles de circulación en el mismo
+sentido, que se producirá la confluencia de un carril por el lado
+izquierdo.
+
+S-71b Confluencia de un carril por la derecha en calzada
+de dos carriles
+
+Indica, en una calzada con dos carriles de circulación en el mismo
+sentido, que se producirá la confluencia de un carril por el lado
+derecho.
+
+S-72a Confluencia de un carril por la izquierda en
+calzada de tres carriles
+
+Indica, en una calzada con tres carriles de circulación en el mismo
+sentido, que se producirá la confluencia de un carril por el lado
+izquierdo.
+
+S-72b Confluencia de un carril por la derecha en calzada
+de tres carriles
+
+Indica, en una calzada con tres carriles de circulación en el mismo
+sentido, que se producirá la confluencia de un carril por el lado
+derecho.
+
+Página 148
+=== p-149.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CARRILES
+
+Confluencia de dos carriles por la izquierda en
+
+oa calzada de dos carriles
+
+Indica, en una calzada con dos carriles de circulación en el mismo
+sentido, que se producirá la confluencia de dos carriles por el lado
+izquierdo.
+
+Confluencia de dos carriles por la derecha en
+
+a calzada de dos carriles
+
+Indica, en una calzada con dos carriles de circulación en el mismo
+sentido, que se producirá la confluencia de dos carriles por el lado
+derecho.
+
+Página 149
+=== p-150.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.10 Señales de servicio.
+
+Página 150
+=== p-151.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE SERVICIO
+
+S-100 Puesto de socorro
+
+Indica la situación de un centro, oficialmente reconocido, donde
+puede realizarse una cura de urgencia.
+
+S-101 Base de ambulancia
+
+Indica la situación de una ambulancia en servicio permanente
+para cura y traslado de heridos en accidentes de circulación.
+
+S-102 Servicio de inspección técnica de vehículos
+
+Indica la situación de una estación de inspección técnica de
+vehículos.
+
+S-103 Taller de reparación
+
+Indica la situación de un taller de reparación de automóviles.
+
+S-104 Teléfono
+
+Indica la situación de un aparato telefónico. En caso de incluir la
+inscripción “S.O.S”, indica la situación de un teléfono de uso
+permanente para advertir a las autoridades de la existencia de un
+accidente o emergencia en la vía.
+
+S-105 Surtidor de carburante
+
+Indica la situación de un surtidor o estación de servicio de
+carburante.
+
+S-105b Surtidor de carburante y GLP
+
+Indica la situación de un surtidor o estación de servicio de
+carburantes con disponibilidad de gas licuado de petróleo (GLP)
+o autogás.
+
+Página 151
+=== p-152.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE SERVICIO
+
+S-105c Surtidor de GLP
+
+Indica la situación de un surtidor o estación de servicio de gas
+licuado de petróleo (GLP) o autogás.
+
+S-105d Surtidor de carburante y estación de recarga
+
+eléctrica
+
+Indica la situación de un surtidor o estación de servicio de
+carburantes con disponibilidad de estación de recarga eléctrica.
+
+El S-105e Estación de recarga eléctrica
+
+Indica la situación de una estación de recarga eléctrica.
+
+S-105f Surtidor de carburante, GLP y estación de recarga
+eléctrica
+
+Indica la situación de un surtidor o estación de servicio de
+carburantes con disponibilidad de gas licuado de petróleo (GLP)
+o autogás y estación de recarga eléctrica
+
+S-106 Taller de reparación y surtidor de carburante
+
+Indica la situación de una instalación que dispone de taller de
+reparación y surtidor de carburante.
+
+S-107 Campamento
+
+Indica la situación de un lugar donde está permitida la acampada.
+
+S-108 Agua
+
+Indica la situación de una fuente con agua.
+
+Página 152
+=== p-153.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE SERVICIO
+
+S-109 Lugar pintoresco
+
+Indica un sitio pintoresco o el lugar desde el que se divisa. Su
+nombre podrá figurar inscrito en la señal.
+
+S-110 Hotel o motel
+
+Indica la situación de un hotel o motel.
+
+S-111 Restauración
+
+Indica la situación de un restaurante.
+
+S-112 Cafetería
+
+Indica la situación de un bar o cafetería.
+
+S-113 Terreno para remolques-vivienda
+
+Indica la situación de un terreno en el que puede acamparse con
+remolque-vivienda (caravana).
+
+S-114 Merendero
+
+Indica el lugar que puede utilizarse para el consumo de comidas
+o bebidas.
+
+S-115 Punto de partida para excursiones a pie
+
+Indica un lugar apropiado para iniciar excursiones a pie.
+
+Página 153
+=== p-154.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE SERVICIO
+
+S-116 Campamento y terreno para remolques-vivienda
+
+Indica la situación de un lugar donde puede acamparse con
+tienda de campaña o con remolque-vivienda.
+
+S-117 Albergue juvenil
+
+Indica la situación de un albergue juvenil.
+
+S-118 Información turística
+
+Indica la situación de una oficina de información turística.
+
+S-119 Coto de pesca
+
+Indica un lago o tramo de río en el que la pesca está sujeta a
+autorización especial.
+
+coto
+
+S-120 Parque o espacio natural
+
+Indica la situación de un parque o espacio natural. Su nombre
+podrá figurar inscrito en la señal.
+
+S-121 Monumento
+
+Indica la situación de una obra histórica o artística declarada
+monumento.
+
+S-122 Otros servicios
+
+Señal genérica para cualquier otro servicio, que se inscribirá en
+el recuadro blanco.
+
+Página 154
+=== p-155.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE SERVICIO
+
+S-123 Área de descanso
+
+Indica la situación de un área de descanso.
+
+S-124 Estacionamiento para usuarios del ferrocarril
+
+Indica la situación de una zona de estacionamiento conectada
+con una estación de ferrocarril, y destinada principalmente para
+los vehículos de los usuarios que realizan una parte de su viaje
+en vehículo privado y la otra en ferrocarril.
+
+S-125 Estacionamiento para usuarios del metro
+
+Indica la situación de una zona de estacionamiento, conectada
+con una estación de metro, y destinada principalmente para los
+vehículos de los usuarios que realizan una parte de su viaje en
+vehículo privado y la otra en metro.
+
+S-126 Estacionamiento para usuarios de autobús
+
+Indica la situación de una zona de estacionamiento, conectada
+
+con una estación o una terminal de autobuses, y destinada
+principalmente para los vehículos privados de los usuarios que
+realizan una parte de su viaje en vehículo privado y la otra en
+autobús.
+
+S-128 Punto de vaciado de caravanas y autocaravanas
+
+Indica la situación de un punto de vaciado de aguas residuales
+para caravanas y autocaravanas.
+
+P S-129 Estacionamiento de emergencia por nevadas
+y Indica la situación de un estacionamiento de emergencia por
+nevadas y, excepcionalmente, para incidencias.
+
+Página 155
+=== p-156.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.11 Señales de preseñalización
+
+Página 156
+=== p-157.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+S-200 Preseñalización de glorieta
+ALMANSA
+
+Indica las direcciones de las distintas salidas de la próxima
+153] pa glorieta. Si alguna inscripción figura sobre fondo azul, indica
+PTAS REQUENA que la salida conduce hacia una autopista o una autovía.
+
+S-201 | Preseñalización de glorieta partida desde la
+calzada principal
+
+a eAsTo
+JUESCA Indica las direcciones de las distintas salidas de una
+
+intersección cuya planta es similar a una glorieta pero la
+co Al Po... calzada principal, por la que en este caso el vehículo circula,
+no pierde continuidad. Si alguna inscripción figura sobre
+fondo azul, indica que la salida conduce hacia una autopista
+o una autovía.
+
+S-202 Preseñalización de glorieta partida desde las
+calzadas secundarias
+
+Indica las direcciones de las distintas salidas de una
+intersección cuya planta es similar a una glorieta pero la
+HUESCA Calzada principal, por la que en este caso el vehículo no
+———— circula, no pierde continuidad. Si alguna inscripción figura
+sobre fondo azul, indica que la salida conduce hacia una
+autopista o una autovía.
+
+S-203 Preseñalización de glorieta con selección de
+
+cr: carriles en función del movimiento a efectuar.
+pS ua ae | || Indica las direcciones de las distintas salidas de la próxima
+SS a glorieta y el carril por el que acceder a cada una de ellas.
+
+Página 157
+=== p-158.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+S-220 Preseñalización, con cartel lateral, en
+carretera convencional oO carretera
+multicarril hacia carretera convencional
+
+O carrlera mica
+
+[N-126] ES Indica, en una carretera convencional o una
+
+HARO carretera multicarril, los destinos de las salidas del
+próximo nudo cuando estas dirigen hacia una
+carretera convencional o una carretera multicarril,
+así como la distancia a la que se encuentran dichas
+salidas.
+
+S-220a || Preseñalización, con cartel lateral, en
+carretera convencional O carretera
+multicarril hacia carretera convencional
+o carretera multicarril y dirección propia
+
+Indica, en una carretera convencional o una
+carretera multicarril, la dirección propia de la
+carretera por la que se circula y los destinos de las
+salidas del próximo nudo cuando estas dirigen hacia
+Una carretera convencional oO una carretera
+multicarril, así como la distancia a la que se
+encuentran dichas salidas.
+
+S-222 Preseñalización, con cartel lateral, en
+carretera convencional O carretera
+
+(600 m) multicarril hacia autopista o autovía
+Indica, en una carretera convencional o una
+Valencia carretera multicarril, los destinos de las salidas del
+
+próximo nudo cuando estas dirigen hacia una
+autopista o una autovía, así como la distancia a la
+que se encuentran dichas salidas.
+
+Página 158
+=== p-159.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+S-222a || Preseñalización, con cartel lateral, en
+carretera convencional O carretera
+multicarril hacia autopista o autovía y
+dirección propia
+
+Indica, en una carretera convencional o una
+carretera multicarril, la dirección propia de la
+carretera por la que se circula y los destinos de las
+salidas del próximo nudo cuando estas dirigen hacia
+una autopista o una autovía, así como la distancia a
+la que se encuentran dichas salidas.
+
+S-225 | Preseñalización, con cartel lateral, en
+autopista o autovía hacia cualquier tipo
+
+de carretera
+
+Indica, en una autopista o una autovía, los destinos
+de la salida del próximo enlace. También indica la
+distancia a dicha salida, su número y, en su caso, la
+letra.
+
+Ataquines
+
+S-230 Preseñalización, con cartel sobre la
+calzada, en carretera convencional o
+carretera multicarril hacia carretera
+
+convencional o carretera multicarril
+1000 m
+
+BESALÚ Y [E Indica, en una carretera convencional o una
+carretera multicarril, los destinos de la salida del
+próximo nudo cuando esta dirige hacia una carretera
+
+convencional o una carretera multicarril, así como la
+distancia a la que se encuentra dicha salida.
+
+Página 159
+=== p-160.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+S-230a | Preseñalización, con carteles sobre la
+calzada, en carretera convencional o
+carretera multicarril hacia carretera
+convencional o carretera multicarril y
+dirección propia.
+
+En
+“lescenes || merneruea «| || Indica, en una carretera convencional o una
+-_y |- || carretera multicarril, la dirección propia de la
+
+carretera por la que se circula y los destinos de la
+salida del próximo nudo cuando esta dirige hacia
+una carretera convencional o una carretera
+
+multicarril, así como la distancia a la que se
+encuentra dicha salida.
+
+S-232 Preseñalización, con cartel sobre la
+calzada, en carretera convencional o
+
+carretera multicarril hacia autopista o
+autovia
+
+a Indica, en una carretera convencional o una
+METETE carretera multicarril, los destinos de la salida del
+próximo nudo cuando esta dirige hacia una
+autopista o una autovía, así como la distancia a la
+que se encuentra dicha salida.
+
+S-232a Preseñalización, con carteles sobre la
+Calzada, en carretera convencional o
+carretera multicarril hacia autopista o
+autovía y dirección propia
+
+BARBASTRO Indica, en una carretera convencional o una
+
+carretera multicarril, la dirección propia de la
+carretera por la que se circula y los destinos de la
+salida del próximo nudo cuando esta dirige hacia
+una autopista o una autovía, así como la distancia a
+la que se encuentra dicha salida.
+
+Página 160
+=== p-161.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+S-235 Preseñalización, con cartel sobre la
+calzada, en autopista o autovía hacia
+
+cualquier tipo de carretera.
+
+Jumilla xs Indica, en una autopista o una autovía, los destinos
+de la salida del próximo enlace. También indica la
+distancia a dicha salida, su número y, en su caso, la
+letra.
+
+S-235a || Preseñalización, con carteles sobre la
+calzada, en autopista o autovía hacia
+cualquier tipo de carretera y dirección
+propia.
+
+Almazán
+
+Indica, en una autopista o una autovía, la dirección
+propia de la carretera por la que se circula y los
+destinos de la salida del próximo enlace. También
+indica la distancia a dicha salida, su número y, en su
+caso, la letra
+
+S-242 Preseñalización, con cartel sobre la
+calzada en autopista o autovía, de
+dos salidas muy próximas hacia
+cualquier tipo de carretera
+
+Indica las direcciones de los ramales de las dos
+salidas consecutivas en una autopista o una autovía.
+También indica la distancia a dichas salidas, los
+números o el número y letras de cada una de ellas.
+
+Página 161
+=== p-162.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+S-242a Preseñalización, con carteles sobre la
+calzada en autopista o autovía, de
+dos salidas muy próximas hacia
+cualquier tipo de carretera y dirección
+propia
+
+Indica, en una autopista o una autovía, la dirección
+propia de la carretera por la que se circula y las
+direcciones de los ramales de dos salidas
+consecutivas. También indica la distancia a dichas
+salidas, los números o el número y letras de cada
+
+Una de ellas.
+S-245 Preseñalización complementaria de
+poblaciones en carretera
+BENIDORM convencional o carretera multicarril.
+
+LALFAS DEL PI
+
+LA NUCIA 3 ,
+CALLOSA Indica poblaciones cercanas de más de 5.000
+
+POLOP habitantes a las que se puede acceder por el
+GUADALEST siguiente nudo y la distancia a la que este se
+encuentra.
+
+S-246 Preseñalización complementaria de
+
+poblaciones en autopista o autovía.
+Móstoles
+
+Villaviciosa de 04ón > ; ñ
+Bossa $e Monte Indica poblaciones cercanas de más de 5.000
+Es
+
+Villanueva de la Cañada habitantes a las que se puede acceder desde la
+
+Fuenlabrada salida que figura en el subcartel superior, así como
+
+la distancia hasta esta.
+
+S-247 Preseñalización de salidas en
+variante de población.
+
+Indica el número de las distintas salidas de la
+variante de una población acompañado por el
+nombre de la vía de penetración o el punto cardinal.
+
+Página 162
+=== p-163.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+e S-250 Preseñalización de itinerario
+
+Indica el itinerario que es preciso seguir para tomar la
+dirección que señala la flecha.
+
+S-260 Preseñalización de carriles
+
+Indica las únicas direcciones permitidas en el próximo
+[4-30] nudo a los usuarios que circulan por los carriles
+señalizados. Sobre las flechas que indican los carriles
+
+de permanencia en la carretera por la que se circula se
+
+dispondrá el cajetín indicativo de la misma. Se limitará
+
+su uso a situaciones excepcionales donde la línea
+
+continua de separación de carriles no implique la
+
+divergencia respecto de los carriles situados a la
+
+izquierda, o a enlaces o bifurcaciones entre dos
+
+autovías o autopistas con alta intensidad de tráfico en
+
+ambas.
+S-261 Preseñalización de servicios en carreteras
+
+(500 m) convencionales con elevada intensidad de
+15 km tráfico y en todas las carreteras multicarril.
+
+24 h
+
+Sta. Clara A
+
+Indica en carreteras convencionales con tráfico elevado
+
+ICIEIREIAL y en todas las carreteras multicarril, la proximidad de
+una salida hacia los servicios señalizados. Si estos se
+
+nan 4 encuentran ubicados en una población, el nombre de la
+misma podrá figurar en la primera línea del cartel y si
+
+están emplazados en una vía de servicio figurará la
+
+inscripción “vía de servicio”. En caso de que entre los
+A servicios exista una estación de servicio y/o una
+24 h A estación de recarga, se indicará la distancia hasta la
+ala (Xx) misma así como su horario de apertura, En el subcartel
+inferior figurará la distancia y horario de apertura de la
+siguiente estación de servicio y/o estación de recarga
+en el sentido de la marcha. En el cajetín superior
+figurará la distancia a la salida.
+
+vía de servicio
+
+y 10 km
+Elan t
+
+Página 163
+=== p-164.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+S-263 Preseñalización de servicios en autopista
+o autovía.
+
+Indica, en una autopista o una autovía, la proximidad
+de una salida hacia los servicios señalizados. Si estos
+se encuentran ubicados en una población, el nombre
+de la misma podrá figurar en la primera línea del cartel
+y si están emplazados en una vía de servicio figurará la
+inscripción "vía de servicio”. En caso de que entre los
+servicios exista una estación de servicio y/o una
+estación de recarga, se indicará la distancia hasta la
+vía de servicio misma así como su horario de apertura. En el subcartel
+Lo, ee 0 inferior figurará la distancia y horario de apertura de la
+
+a siguiente estación de servicio y/o estación de recarga
+gasa en el sentido de la marcha. En los subcarteles
+superiores figurará el número de salida y la distancia
+
+hasta esta.
+
+S-267 Preseñalización de servicios varios en
+carretera convencional O carretera
+multicarril
+
+£ Romeral
+«La Cartuja A
+
+$6 Am servicios señalizados tales como urbanización, puerto
+deportivo, zona deportiva, zona comercial, polígono
+industrial, parque empresarial y zona de ocio. En el
+cajetín superior figurará la distancia a la salida.
+
+Indica, en una carretera convencional o una carretera
+multicarril, la proximidad de una salida hacia los
+
+S-268 Preseñalización de servicios varios en
+autopista o autovía
+
+E Villuercas Indica, en una autopista o una autovía, la proximidad
+La Alborada Al de una salida hacia los servicios señalizados tales
+
+como urbanización, puerto deportivo, zona deportiva,
+5005 zona comercial, polígono industrial, parque empresarial
+y zona de ocio. En los subcarteles superiores figurará
+el número de salida y la distancia hasta esta.
+
+Página 164
+=== p-165.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE PRESEÑALIZACIÓN
+
+S-271 Preseñalización de área de servicio
+
+g Penedés Indica, en una autopista o una autovía, la proximidad
+21 de una salida hacia un área de servicio, figurando su
+Enca nombre y horario de apertura además de los
+
+pictogramas de los servicios que ofrece. En el cajetín
+superior figurará la distancia a la salida. En el subcartel
+inferior figurará la distancia y el horario de apertura de
+la siguiente área de servicio en el sentido de la marcha.
+
+Página 165
+=== p-166.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.12 Señales de dirección
+
+Página 166
+=== p-167.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-300 | Poblaciones de uno o varios itinerarios
+por carretera convencional o carretera
+multicarril
+
+Indica los nombres de poblaciones situadas en uno
+
+2 ZAFRA oa mea
+98 BADAJOZ o varios itinerarios constituidos por una carretera
+convencional o una carretera multicarril y el sentido
+
+[MEE HUELVA 104 por el que aquéllas se alcanzan. Dentro de la señal
+
+(ES SEVILLA_107 puede figurar uno o varios cajetines acompañando a
+
+los destinos, que definen la categoría y número de la
+carretera. Las cifras alineadas con los destinos
+indican la distancia existente a los mismos
+expresada en kilómetros.
+
+S-301 | Poblaciones de un itinerario por
+autopista o autovía.
+
+Indica los nombres de poblaciones situadas en un
+Logroño 10 itinerario constituido por una autopista o una autovía
+
+y el sentido en el que aquéllas se alcanzan. El cajetín
+situado dentro de la señal define la categoría y
+número de la carretera. Las cifras alineadas con los
+destinos indican la distancia existente a los mismos
+expresada en kilómetros.
+
+S-320 | Lugares de interés por carretera
+
+convencional o carretera multicarril
+playa 3)>
+
+Indica lugares de interés que no son poblaciones
+situados en un itinerario constituido por una
+
+2 puerto 8)» carretera convencional o una carretera multicarril.
+Las cifras alineadas con los destinos indican la
+distancia existente a los mismos expresada en
+kilómetros.
+
+Página 167
+=== p-168.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-321 [| Lugares de interés por autopista o
+
+autovía
+aeropuerto 3
+
+Indica lugares de interés que no son poblaciones
+
+situados en un itinerario constituido por una
+autopista o una autovía. Las cifras alineadas con los
+destinos indican la distancia existente a los mismos
+expresada en kilómetros.
+
+S-322 Señal de destino hacia una vía ciclista o
+
+(EJ via ciclista 02) via ciclista 02 senda ciclopeatonal
+
+Indica la existencia en la dirección apuntada por la
+flecha de una vía ciclista o una senda ciclopeatonal.
+
+senda o. Las cifras alineadas con los destinos indican la
+ciclopeatonal ño A a
+distancia existente a los mismos expresada en
+kilómetros.
+S-341 || Señales de destino de salida inmediata
+hacia carretera convencional o carretera
+multicarril
+
+1 22 > Indica el lugar de salida de una autopista o una
+
+autovía hacia una carretera convencional o una
+carretera multicarril. La cifra indica el número del
+enlace, que se corresponde con el punto kilométrico
+de la carretera.
+
+S-342 Señales de destino de salida inmediata
+hacia autopista o autovía
+
+UK 224 Indica el lugar de salida de una autopista o una
+
+autovía hacia una autopista o una autovía. La cifra
+indica el número del enlace, que se corresponde con
+el punto kilométrico de la carretera.
+
+Página 168
+=== p-169.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-344 Señales de destino de salida inmediata,
+exclusiva o compartida con carretera
+convencional O carretera multicarril,
+
+hacia los servicios indicados.
+at=-x>
+Indica el lugar de salida hacia los servicios
+
+señalizados, pudiendo esta ser coincidente con una
+salida hacia una carretera convencional o una
+carretera multicarril.
+
+S-347 — || Señales de destino de salida inmediata
+hacia los servicios indicados, con salida
+compartida hacia autopista o autovía
+
+Indica el lugar de salida hacia una zona, área o vía
+de servicios, siendo esta coincidente con una salida
+hacia una autopista o una autovía.
+
+S-348 Señalización de salida inmediata, con
+cartel lateral, en carretera convencional
+o carretera multicarril hacia carretera
+IN-126] convencional o carretera multicarril
+
+HARO >
+
+Indica, en una carretera convencional o una
+carretera multicarril, los destinos de las salidas del
+próximo nudo cuando estas dirigen hacia una
+carretera convencional o una carretera multicarril.
+
+Página 169
+=== p-170.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-348a | Señalización de salida inmediata, con
+cartel lateral, en carretera convencional
+o carretera multicarril hacia carretera
+
+convencional o carretera multicarril y
+dirección propia
+JADESELLA
+
+Indica, en una carretera convencional o una
+CANGAS lticarri, la d e ST
+DETONIS carretera multicarril, la dirección propia de la
+
+carretera por la que se circula y los destinos de las
+
+salidas del próximo nudo cuando estas dirigen hacia
+una carretera convencional o una carretera
+multicarril.
+
+S-349 || Señalización de salida inmediata, con
+cartel lateral, en carretera convencional
+o carretera multicarril hacia autopista o
+
+> autovía
+
+Valencia
+
+Indica, en una carretera convencional o una
+carretera multicarril, los destinos de las salidas del
+próximo nudo cuando estas dirigen hacia una
+autopista o una autovía.
+
+S-349a || Señalización de salida inmediata, con
+cartel lateral, en carretera convencional
+
+E o carretera multicarril hacia autopista o
+% TORRELAVEGA autovía y dirección propia
+Indica, en una carretera convencional o una
+s tand A carretera multicarril, la dirección propia de la
+antander
+
+carretera por la que se circula y los destinos de las
+salidas del próximo nudo cuando estas dirigen hacia
+una autopista o una autovía.
+
+Página 170
+=== p-171.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-350 Señalización de salida inmediata, con
+cartel sobre la calzada, en carretera
+convencional o carretera multicarril
+hacia carretera convencional o carretera
+multicarril
+
+Indica, en una carretera convencional o una
+carretera multicarril, los destinos de la salida del
+próximo nudo cuando esta dirige hacia una carretera
+convencional o una carretera multicarril.
+
+S-350a || Señalización de salida inmediata, con
+Carteles sobre la calzada, en carretera
+convencional o carretera multicarril
+hacia carretera convencional o carretera
+multicarril y dirección propia.
+
+— ME
+CÁCERES E
++ H Indica, en una carretera convencional o una
+
+carretera multicarril, la dirección propia de la
+carretera por la que se circula y los destinos de la
+salida del próximo nudo cuando esta dirige hacia
+una carretera convencional o una carretera
+multicarril.
+
+S-351 || Señalización de salida inmediata, con
+cartel sobre la calzada, en carretera
+convencional o carretera multicarril
+hacia autopista o autovia
+
+Indica, en una carretera convencional o una
+carretera mulicarril, los destinos de la salida del
+próximo nudo cuando esta dirige hacia una autopista
+O Una autovía.
+
+Página 171
+=== p-172.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-351a || Señalización de salida inmediata, con
+carteles sobre la calzada, en carretera
+convencional o carretera multicarril
+hacia autopista o autovía y dirección
+
+—- ma | propia.
+BARBASTRO
+A Indica, en una carretera convencional o una
+
+carretera multicarril, la dirección propia de la
+carretera por la que se circula y los destinos de la
+salida del próximo nudo cuando esta dirige hacia
+una autopista o una autovía.
+
+S-352 Señalización de salida inmediata, con
+cartel sobre la calzada, en autopista o
+
+autovía hacia carretera convencional o
+
+ATAQUINES Indica, en una autopista o una autovía, los
+MA ul destinos de la salida del próximo enlace cuando
+esta dirige hacia una carretera convencional o
+hacia una carretera multicarril. También indica el
+número de salida y en su caso la letra.
+
+S-352a || Señalización de salida inmediata, con
+carteles sobre la calzada, en autopista
+o autovía hacia carretera convencional
+o carretera multicarril y dirección propia
+
+Indica, en una autopista o una autovía, la dirección
+propia de la carretera por la que se circula y los
+destinos de la salida del próximo enlace cuando
+esta dirige hacia una carretera convencional o una
+carretera multicarril. También indica el número de
+salida y en su caso la letra
+
+Página 172
+=== p-173.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-353 | Señalización de salida inmediata,
+con cartel sobre la calzada, en
+autopista o autovía hacia autopista
+
+o autovía.
+A-33]
+
+Jumilla Indica, en una autopista o una autovía, los
+y destinos de la salida del próximo enlace
+
+cuando esta dirige hacia una autopista o una
+autovía. También indica el número de salida y
+en su caso la letra.
+
+S-353a || Señalización de salida inmediata,
+con carteles sobre la calzada, en
+autopista o autovía hacia autopista
+o autovia y dirección propia
+
+4-43) e [Ap-38]
+Ciudad Real Indica, en una autopista o una autovía, la
+
+Madrid
+Albacete dirección propia de la carretera por la que se
+y y “ circula y los destinos de la salida del próximo
+enlace cuando esta dirige hacia una autopista
+o una autovía. También indica el número de
+
+salida y en su caso la letra.
+
+Página 173
+=== p-174.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-373 || Señalización de la primera salida
+inmediata de dos muy próximas,
+con carteles sobre la calzada, en
+autopista o autovía hacia carretera
+convencional o carretera multicarril,
+destinos de la segunda salida y
+dirección propia
+
+Indica, en la primera salida de dos muy
+próximas en una autopista o una autovía, la
+dirección propia de la carretera por la que se
+circula (cartel izquierdo y central), los destinos
+de la segunda salida (cartel central) y los
+destinos de la primera salida cuando esta
+dirige hacia una carretera convencional o una
+carretera multicarril (cartel derecho). También
+indica el número de salida y en su caso la letra.
+
+S-375 | Señalización de la primera salida
+inmediata de dos muy próximas, con
+carteles sobre la calzada, en
+autopista o autovía hacia autopista o
+autovía, destinos de la segunda
+salida y dirección propia
+
+Indica, en la primera salida de dos muy
+próximas en una autopista o una autovía, la
+dirección propia de la carretera por la que se
+circula (cartel izquierdo y central), los destinos
+de la segunda salida (cartel central) y los
+destinos de la primera salida cuando esta
+dirige hacia una autopista o una autovía (cartel
+derecho). También indica el número de salida
+y en su caso la letra.
+
+Página 174
+=== p-175.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+
+S-376 | Señalización de salida inmediata a
+servicios en carreteras
+convencionales con elevada
+intensidad de tráfico y en todas las
+carreteras multicarril.
+
+e, Indica en carreteras convencionales con
+— e me
+ráfico elevado y en todas las carreteras
+10 km y Ñ
+4 multicarril, la salida hacia los servicios
+
+A) señalizados. Si estos se encuentran ubicados
+en una población, el nombre de la misma
+podrá figurar en la primera línea del cartel y si
+están emplazados en una vía de servicio
+figurará la inscripción “vía de servicio”. En
+
+ja de servicio
+
+A A caso de que entre los servicios exista una
+=8-20h y :
+
+estación de servicio y/o una estación de
+
+Xx recarga, se indicará la distancia hasta la
+
+misma así como su horario de apertura. En el
+
+10 km 4 subcartel inferior figurará la distancia y horario
+
+SH 24 h de apertura de la siguiente estación de servicio
+
+ylo estación de recarga en el sentido de la
+marcha.
+
+S-377 || Señalización de salida inmediata a
+servicios en el resto de carreteras
+convencionales
+
+Indica, en el resto de carreteras
+convencionales, la salida hacia los servicios
+señalizados. En caso de que entre ellos exista
+una estación de servicio y/o una estación de
+recarga se indicará su horario de apertura.
+
+Página 175
+=== p-176.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE DIRECCIÓN
+A S-378 | Señalización de salida inmediata a
+AX 134 servicios en autopista o autovia
+715 km y
+O Indica, en una autopista o una autovía, la
+salida hacia los servicios señalizados. Si estos
+3) [x] bm 11] se encuentran ubicados en una población, el
+
+nombre de la misma podrá figurar en la
+primera línea del cartel y si están emplazados
+en una vía de servicio figurará la inscripción
+“vía de servicio”. En caso de que entre los
+servicios exista una estación de servicio y/o
+una estación de recarga, se indicará la
+distancia hasta la misma, así como su horario
+de apertura. En el subcartel inferior figurará la
+distancia y horario de apertura de la siguiente
+estación de servicio y/o estación de recarga en
+el sentido de la marcha. En el subcartel
+superior figurará el número de salida.
+
+S-379 | Señalización de salida inmediata
+hacia un área de servicios
+
+¡S| Penedés
+
+El an?
+
+Indica, en una autopista o una autovía, la
+salida hacia un área de servicio, figurando su
+nombre y horario de apertura además de los
+ES pictogramas de los servicios que ofrece. En el
+Si7-20n  * subcartel inferior figurará la distancia y el
+horario de apertura de la siguiente área de
+servicio en el sentido de la marcha.
+
+S-380 | Señal de destino de salida
+Ss Penedés inmediata hacia un área de servicios
+
+EME Indica el lugar de salida de una autopista o una
+autovía hacia un área de servicios.
+
+Página 176
+=== p-177.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.13 Señales de identificación de carreteras.
+
+Página 177
+=== p-178.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE IDENTIFICACIÓN DE CARRETERAS
+
+S-400 Itinerario de la red internacional «E»
+
+Identifica un itinerario de la red internacional «E».
+
+S-410 Autopista y autovía
+
+Identifica una autopista o una autovía. Cuando esta pertenezca a
+una administración autonómica, además de la letra A y a
+continuación del número correspondiente o bien encima de la
+
+[A-30| señal con un panel complementario, pueden incluirse las siglas
+de identificación de la comunidad autónoma. Ninguna carretera
+que no tenga características de autopista o autovía podrá ser
+identificada con la letra A. Cuando la autopista o autovía sea una
+ronda o circunvalación, la letra A podrá sustituirse por las letras
+indicativas de la ciudad, de acuerdo con el código establecido al
+efecto por el Ministerio de Fomento.
+
+S-410a Autopista de peaje
+
+¡[AP-6| Identifica una autopista de peaje. A las autopistas de peaje
+pertenecientes a una administración autonómica se les aplicará
+en cuanto a su nomenclatura las mismas reglas que las
+
+establecidas para la señal S-410.
+
+S-420 Carretera convencional o carretera multicarril de la
+red del Estado
+
+Identifica una carretera de la red del Estado que no sea autopista
+o autovía.
+
+S-430 Carretera de primer nivel perteneciente a una red
+diferente de la del Estado.
+
+EX-100
+Identifica una carretera de primer nivel, que no sea autopista o
+autovía, perteneciente a una red diferente de la del Estado.
+
+Página 178
+=== p-179.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE IDENTIFICACIÓN DE CARRETERAS
+
+S-440 Carretera de segundo nivel perteneciente a una
+red diferente de la del Estado.
+
+|ZA-320|
+
+Identifica una carretera de segundo nivel, que no sea autopista o
+autovía, perteneciente a una red diferente de la del Estado.
+
+S-450 Carretera de tercer nivel perteneciente a una red
+diferente de la del Estado.
+
+Identifica una carretera de tercer nivel, que no sea autopista o
+autovía, perteneciente a una red diferente de la del Estado.
+
+Página 179
+=== p-180.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.14 Señales de localización.
+
+Página 180
+=== p-181.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE LOCALIZACIÓN
+
+S-500 Entrada a poblado
+
+Indica el nombre de la población a la que se accede, así
+como el lugar a partir del cual rigen las normas de
+circulación en poblado. El subcartel superior refuerza el
+mensaje de que debe adaptarse la conducción ante la
+presencia de peatones, ciclistas u otras personas usuarias
+
+vulnerables. Además, podrá incluirse la velocidad máxima
+
+permitida en esa vía a partir de ese punto, con
+
+independencia de que en otras vías del poblado puedan
+existir límites diferentes.
+
+S-510 Fin de poblado
+
+PUÉRIOTÓPE) Indica el nombre de la población de la que se sale, así
+
+como el lugar desde donde dejan de ser aplicables las
+normas de circulación en poblado.
+
+S-520 || Localización de puntos geográficos
+
+atravesados por la vía
+puerto de
+[emos 1700 m
+
+Indica el lugar donde la vía atraviesa un punto geográfico
+
+[Es montrague IA DA
+
+S-530 Localización de un túnel en carretera
+convencional O carretera multicarril con
+
+TÚNEL DE VIELHA información sobre sus instalaciones de
+
+seguridad
+
+Indica la localización de un túnel en una carretera
+convencional o una carretera multicarril incluyendo
+información sobre sus instalaciones de seguridad, así
+como su longitud.
+
+Página 181
+=== p-182.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE LOCALIZACIÓN
+
+S-531 | Localización de un túnel en autopista o autovía
+con información sobre sus instalaciones de
+seguridad
+
+L 1250 m
+II Ol || incica ta localización de un túnel en una autopista o una
+
+autovía incluyendo información sobre sus instalaciones de
+seguridad, así como su longitud.
+
+S-532 Localización de túnel en carretera
+convencional oO carretera multicarril con
+
+TÚNEL DE VIELHA información sobre las obligaciones específicas
+
+(o) O de circulación dentro del mismo
+
+Indica la localización de un túnel en una carretera
+convencional o una carretera multicarril incluyendo la
+información sobre las obligaciones específicas de
+circulación dentro del mismo.
+
+S-533 Localización de túnel en autopista o autovía
+
+con información sobre las obligaciones
+TÚNEL DE BOADILI 4 á JA A
+específicas de circulación dentro del mismo
+
+h00) L Indica la localización de un túnel en una autopista o una
+autovía incluyendo la información sobre las obligaciones
+específicas de circulación dentro del mismo.
+
+S-540 Situación de límite de provincia
+
+PROVINCIA DE
+LUGO Indica el lugar a partir del cual la vía entra en la provincia
+
+indicada
+
+S-550 Situación de límite de comunidad autónoma
+
+COMUNIDAD DE
+CANTABRIA Indica el lugar a partir del cual la vía entra en la comunidad
+
+autónoma indicada
+
+Página 182
+=== p-183.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE LOCALIZACIÓN
+
+S-551 || Situación de límite de demarcación
+Demarcación hidrográfica
+ES hidrográfica
+COMP LGOS) | indica el lugar a partir del cual la vía entra en la
+
+demarcación hidrográfica indicada
+
+$-560 | Situación de límite de comunidad autónoma y
+provincia
+
+Indica el lugar a partir del cual la vía entra en la comunidad
+autónoma y provincia indicadas.
+
+S-561 Cartel institucional en carretera convencional o
+carretera multicarril
+
+(ines se careers a taco) Señal indicativa de la titularidad, numeración y
+denominación de la carretera convencional o la carretera
+
+multicarril a la que se accede. Si la carretera no tiene
+denominación, el cartel contendrá el texto “Carretera”
+seguido del cajetín identificativo.
+
+S-562 Cartel institucional en autopista o autovía
+
+||| Señal indicativa de la titularidad, numeración y
+
+denominación de la autopista o la autovía a la que se
+accede. Si la autopista o la autovía no tienen
+denominación, el cartel contendrá el texto “Autopista” o
+“Autovía” seguido del cajetín identificativo.
+
+S-570 Hito kilométrico en autopista o autovía
+
+Indica el punto kilométrico de la autopista o la autovía cuya
+identificación aparece en la parte superior.
+
+Página 183
+=== p-184.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE LOCALIZACIÓN
+
+Pap-7) S-570a || Hito kilométrico en autopista de peaje
+
+1235] Indica el punto kilométrico de la autopista de peaje cuya
+identificación aparece en la parte superior.
+
+S-571 | Hito kilométrico en autopista o autovía
+perteneciente a un itinerario internacional
+
+Indica el punto kilométrico de la autopista o la autovía
+perteneciente a un itinerario internacional cuya
+identificación aparece en la parte superior de la señal.
+
+S-572 || Hito kilométrico en carretera convencional o
+N-204| carretera multicarril
+[43] Indica el punto kilométrico de una carretera convencional
+
+o Una carretera multicarril cuya identificación aparece en
+la parte superior sobre el fondo del color que corresponda
+
+[ZA-320 .
+a la categoría de la carretera.
+
+LU-234
+km
+
+S-573 — || Hito kilométrico en carretera convencional o
+carretera multicarril. perteneciente a un
+itinerario internacional
+
+Indica el punto kilométrico de una carretera convencional
+o una carretera multicarril perteneciente a un itinerario
+internacional, cuyas letras y números aparecen en la parte
+superior de la señal.
+
+Página 184
+=== p-185.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE LOCALIZACIÓN
+
+S-574 Hito miriamétrico en carretera convencional o
+carretera multicarril
+
+Indica el punto kilométrico de una carretera convencional
+o una carretera multicarril cuando aquel es múltiplo de
+diez.
+
+S-574a || Hito miriamétrico en autopista o autovía
+
+Indica el punto kilométrico de una autopista o una autovía
+cuando aquel es múltiplo de diez
+
+S-574b Hito miriamétrico en autopista de peaje
+
+Indica el punto kilométrico de una autopista de peaje
+cuando aquel es múltiplo de diez.
+
+S-574c | Hito miriamétrico en carretera convencional
+o carretera multicarril perteneciente a un
+itinerario internacional
+
+Indica el punto kilométrico cuando aquel es múltiplo de
+diez en una carretera convencional o una carretera
+multicarril perteneciente a un itinerario internacional, cuya
+identificación aparece en la parte superior de la señal.
+
+Página 185
+=== p-186.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE LOCALIZACIÓN
+
+S-574d || Hito miriamétrico en autopista o autovía
+perteneciente a un itinerario internacional
+
+Indica el punto kilométrico cuando aquel es múltiplo de
+diez en una autopista o una autovía perteneciente a un
+itinerario internacional, cuya identificación aparece en la
+parte superior de la señal
+
+S-574e | Hito miriamétrico en autopista de peaje
+perteneciente a un itinerario internacional
+
+Indica el punto kilométrico cuando aquel es múltiplo de
+diez en una autopista de peaje que, además, forma parte
+de un itinerario internacional, cuya identificación aparece
+en la parte superior de la señal.
+
+S-575 [Hito miriamétrico en carreteras no
+era] pertenecientes a la red del Estado
+km
+10 Indica el punto kilométrico de una carretera que no es
+
+autopista ni autovía, perteneciente a una red diferente a
+la del Estado, cuando aquel es múltiplo de diez. Su color
+se corresponderá con el de la categoría de dicha
+carretera.
+
+Página 186
+=== p-187.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.15 Señales de confirmación.
+
+Página 187
+=== p-188.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE CONFIRMACIÓN
+
+S-600 Confirmación de poblaciones en un
+itinerario por carretera convencional o
+[N-420] carretera multicarril
+ALCAÑIZ 13
+TERUEL 157 | | indica, en una carretera convencional o una carretera
+
+multicarril, los nombres de poblaciones de ese itinerario
+y las correspondientes distancias en kilómetros.
+
+S-602 Confirmación de poblaciones en un
+
+itinerario por autopista o autovía
+
+Pola de Siero 18
+
+Oviedo 37
+
+Indica, en una autopista o una autovía, los nombres de
+poblaciones de ese itinerario y las correspondientes
+distancias en kilómetros.
+
+S-603 Confirmación complementaria con
+preseñalización de salida.
+
+Indica en una autopista o una autovía los nombres de
+capitales de provincia no adyacentes a la autopista o a
+la autovía por la que se circula y las correspondientes
+
+POPURRTES| | distancias en kilómetros. Asimismo, figurarán los
+[A-52] Ourense LES) || cajetines identificativos de las autovías o las autopistas
+por las que se accede a dichas poblaciones. En los
+subcarteles superiores figurará además el número de
+salida correspondiente y la distancia existente a dicha
+salida.
+
+Página 188
+=== p-189.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.16 Señales de uso específico en poblado.
+
+Página 189
+=== p-190.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE USO ESPECÍFICO EN POBLADO
+
+S-700 Lugares de la red viaria urbana
+
+Indica los nombres de calles, avenidas, plazas, glorietas o de
+cualquier otro punto de la red viaria.
+
+S-710 Lugares de interés para viajeros
+
+ción . . .
+€Esz  cñamartin| || Indica los lugares de interés para los viajeros, tales como
+estaciones, aeropuertos, zonas de embarque de los puertos,
+hoteles, campamentos, oficinas de turismo y automóvil club.
+
+S-720 Lugares de interés deportivo o recreativo
+
+Indica los lugares en que predomina un interés deportivo o
+recreativo.
+
+S-730 — | Lugares de carácter geográfico o ecológico y de
+interés monumental, histórico o artístico
+
+Indica lugares de tipo geográfico, de interés ecológico o de
+interés monumental, histórico o artístico tales como
+monumentos, castillos, monasterios, museos, palacios, etc.
+
+S-740 Lugares de interés cultural
+
+ao
+Esmpoamor_ (9) Indica los lugares de interés cultural tales como
+universidades, centros culturales, bibliotecas, teatros, etc.
+
+S-750 Zonas de uso industrial
+
+Indica las zonas de importante atracción de camiones,
+mercancías y, en general, tráfico industrial pesado.
+
+S-760 | Autopistas y autovías
+
+Indica las autopistas y autovías y los lugares a los que por
+ellas puede accederse.
+
+Página 190
+=== p-191.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+SEÑALES DE USO ESPECÍFICO EN POBLADO
+
+$S-770 || Otros lugares y vías
+
+Indica las carreteras que no sean autopistas o autovías y los
+
+ma TOLEDO :
+poblados a los que por ellas pueda accederse, así como otros
+
+lugares de interés público no comprendidos en las señales S-
+700 a S-760.
+
+Página 191
+=== p-192.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.17 Paneles complementarios.
+
+Página 192
+=== p-193.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+PANELES COMPLEMENTARIOS
+
+$S-800 - || Distancia al comienzo del peligro o prescripción
+
+Indica la distancia desde el lugar donde está la señal a aquel
+1000 m en que comienza el peligro o comienza a regir la prescripción
+de aquella. En el caso de que esté colocada bajo la señal de
+
+advertencia de peligro por estrechamiento de calzada, puede
+indicar la anchura libre del citado estrechamiento.
+
+S-810 Longitud del tramo peligroso o sujeto a
+
+prescripción
+A800má4
+Indica la longitud en la que existe el peligro o en la que se
+
+aplica la prescripción.
+
+S-820 Extensión de la prohibición, a un lado
+
+10m
+— Colocada bajo una señal de prohibición, indica la distancia
+en que se aplica esta prohibición en el sentido de la flecha.
+S-821 Extensión de la prohibición, a un lado
+10 m
+— Colocada bajo una señal de prohibición, indica la distancia
+en que se aplica esta prohibición en el sentido de la flecha.
+S-830 | Extensión de la prohibición, a ambos lados
+10 m [25m Colocada bajo una señal de prohibición, indica las distancias
+—|— >
+
+en que se aplica esta prohibición en cada sentido indicado
+por las flechas,
+
+S-840 Preseñalización de detención obligatoria
+
+( STOP 150 m Colocada bajo la señal de ceda el paso, indica la distancia a
+que se encuentra la señal de detención obligatoria o stop de
+
+la próxima intersección.
+
+Página 193
+=== p-194.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+PANELES COMPLEMENTARIOS
+
+S-850 Itinerario con prioridad
+
+Panel adicional de la señal R-3, que indica el itinerario con
+prioridad.
+
+S-851 Itinerario con prioridad
+
+Panel adicional de la señal R-3, que indica el itinerario con
+prioridad.
+
+S-852 — || Itinerario con prioridad
+
+Panel adicional de la señal R-3, que indica el itinerario con
+prioridad
+
+S-853 — || Itinerario con prioridad
+
+Panel adicional de la señal R-3, que indica el itinerario con
+prioridad.
+
+S-860 Genérico
+
+Panel para cualquier otra aclaración o delimitación de la señal
+o semáforo bajo el que esté colocado.
+
+S-870a || Aplicación de la señalización
+
+Indica, bajo la señal vertical correspondiente, que esta se
+aplica solamente en el ramal de salida cuya dirección coincide
+aproximadamente con la de la flecha.
+
+S-870b || Aplicación de la señalización
+
+Indica, bajo la señal vertical correspondiente, que esta se
+aplica solamente en el ramal de salida cuya dirección coincide
+aproximadamente con la de la flecha.
+
+Página 194
+=== p-195.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+PANELES COMPLEMENTARIOS
+
+S-880a || Aplicación de señalización a camiones
+
+Indica, bajo la señal vertical correspondiente, que esta se
+refiere exclusivamente a camiones.
+
+S-880b | Aplicación de señalización a vehículos con
+remolque exceptuando los de un solo eje
+
+Indica, bajo la señal vertical correspondiente, que esta se
+refiere exclusivamente a vehículos con remolque a excepción
+de los de un solo eje.
+
+S-880c || Aplicación de señalización a autobuses
+
+Indica, bajo la señal vertical correspondiente, que esta se
+refiere exclusivamente a autobuses.
+
+S-880d || Aplicación de señalización a ciclos
+
+Indica, bajo la señal vertical correspondiente, que esta se
+refiere exclusivamente a ciclos.
+
+S-880e || Aplicación de señalización a vehículos de
+movilidad personal
+
+Indica, bajo la señal vertical correspondiente, que esta se
+refiere exclusivamente a vehículos de movilidad personal.
+
+he TO
+
+S-880f || Aplicación de señalización a ciclos y vehículos de
+movilidad personal
+
+Indica, bajo la señal vertical correspondiente, que esta se
+refiere exclusivamente a ciclos y vehículos de movilidad
+personal.
+
+Página 195
+=== p-196.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+PANELES COMPLEMENTARIOS
+
+S-890a || Aplicación de la señalización a circunstancias de
+nieve
+
+Indica, bajo la señal vertical correspondiente, que esta se
+aplica únicamente cuando se den circunstancias de nieve.
+
+S-890b || Aplicación de la señalización a circunstancias de
+lluvia
+
+Indica, bajo la señal vertical correspondiente, que esta se
+aplica únicamente cuando se den circunstancias de lluvia.
+
+S-890c || Aplicación de la señalización a circunstancias de
+niebla
+
+RR Indica, bajo la señal vertical correspondiente, que esta se
+aplica únicamente cuando se den circunstancias de niebla
+
+S-891 Distancia lateral en adelantamiento a ciclo o
+ciclomotor
+
+Recuerda, bajo la señal vertical correspondiente, la anchura
+de seguridad mínima que debe guardarse en caso de
+adelantamiento a un ciclo o ciclomotor, o, en ambos casos,
+conjunto de ellos. Cuando se trate de un conjunto de ciclos o
+ciclomotores, la anchura se refiere al que circula más
+escorado a la izquierda.
+
+S-892 Vigilancia por medios automáticos
+
+Y, Indica la vigilancia mediante medios de captación y denuncia
+automáticos, del cumplimiento de lo establecido por la señal
+vertical a la que acompaña.
+
+Página 196
+=== p-197.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+3.18 Otras señales.
+
+Página 197
+=== p-198.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES
+
+S-900 Peligro de incendio
+
+Advierte del peligro que representa encender un fuego.
+
+S-910 Extintor
+
+Indica la situación de un extintor de incendios.
+
+S-920 Entrada a España
+
+**x
+
+* *
+
+ae Indica que se ha entrado en territorio español por una
+* yx carretera procedente de otro país.
+
+S-930 Confirmación del país
+
+Indica el nombre del país hacia el que se dirige la carretera.
+La cifra en la parte inferior indica la distancia a la que se
+
+encuentra la frontera.
+1 km
+
+S-940 Limitaciones de velocidad en España
+
+Indica los límites genéricos de velocidad en las distintas
+clases de carreteras y en zona urbana en España.
+
+Página 198
+=== p-199.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES
+
+S-950 Radiofrecuencia de emisoras especificas de
+
+Radi información sobre carreteras
+RDS
+
+036 Indica la frecuencia a que hay que conectar el receptor de
+4, radiofrecuencia para recibir información.
+
+S-960 Teléfono de emergencia
+
+Indica la situación de un teléfono de emergencia.
+
+S-970 Teléfono de emergencia y extintor de incendios
+
+Indica la situación de un extintor de incendios y teléfono de
+emergencia.
+
+S-980 Salida de emergencia
+
+Indica la situación de una salida de emergencia.
+
+S-980a Salida de emergencia contigua
+
+Q
+Ñ > Indica la posición en que se encuentra la salida de
+emergencia más cercana.
+S-980b Salida de emergencia contigua
+. Ñ . .
+el Indica la posición en que se encuentra la salida de
+emergencia más cercana.
+
+Página 199
+=== p-200.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES
+
+S-990a Salida de emergencia próxima
+
+Indica la dirección en que se encuentra la salida de
+emergencia más cercana y la distancia que resta hasta
+alcanzarla.
+
+S-990b Salida de emergencia próxima
+
+Indica la dirección en que se encuentra la salida de
+emergencia más cercana y la distancia que resta hasta
+alcanzarla.
+
+S-991a Control de velocidad en carretera convencional
+o carretera multicarril
+
+o) Indica la existencia de un dispositivo de control de velocidad
+en un punto o tramo de una carretera convencional o una
+(Ro carretera multicarril. Podrá incluir una señal R-301 con el
+
+valor de la velocidad correspondiente, así como añadirse
+subcarteles superiores o inferiores con información adicional.
+
+S-991b Control de velocidad en autopista o autovía
+
+Indica la existencia de un dispositivo de control de velocidad
+en punto o tramo de una autopista o una autovía. Podrá
+incluir una señal R-301 con el valor de la velocidad
+correspondiente, así como añadirse subcarteles superiores o
+inferiores con información adicional.
+
+S-991c — || Control de semáforo en rojo
+
+Indica la existencia de un dispositivo de control de paso con
+semáforo en rojo. Se podrán añadir subcarteles superiores o
+inferiores con información adicional.
+
+Página 200
+=== p-201.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES
+
+S-991d Control de STOP
+
+STOP. Se podrán añadir subcarteles superiores o inferiores
+con información adicional
+
+D Jj Indica la existencia de un dispositivo de control de paso con
+(Ro
+
+S-991e Control de separación mínima en carretera
+convencional o carretera multicarril
+
+mínima entre vehículos en un punto o tramo de una carretera
+convencional o una carretera multicarril. Se podrán añadir
+subcarteles superiores o inferiores con información adicional.
+
+e Indica la existencia de un dispositivo de control de separación
+
+S-991f Control de separación mínima en autopista o
+autovía
+
+Indica la existencia de un dispositivo de control de separación
+mínima entre vehículos en un punto o tramo de una autopista
+o autovía. Se podrán añadir subcarteles superiores o
+inferiores con información adicional
+
+S-991g Control de velocidad mediante medios aéreos
+
+velocidad mediante medios aéreos, como helicóptero o dron.
+En caso de que dichos controles tengan como objeto un tipo
+de vehículo en concreto, la señal podrá incluir únicamente el
+pictograma correspondiente a dicho vehículo.
+
++ Indica la posible existencia en el tramo de controles de
+O)
+Ro
+
+S-992a Señal informativa de la distancia mínima entre
+vehículos en carretera convencional O
+carretera multicarril
+
+distancia mínima
+Indica, en un tramo de carretera convencional o una carretera
+
+multicarril donde se dan frecuentemente colisiones por
+alcance, el número de marcas viales de galón que debe dejar
+un vehículo entre él y el que le precede.
+
+Página 201
+=== p-202.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES
+
+S-992b Señal informativa de la distancia mínima entre
+vehículos dentro de un túnel en carretera
+convencional o carretera multicarril
+
+distancia mínima
+
+entre vehículos
+
+Indica el número de marcas viales de galón que debe dejar
+un vehículo entre él y el que le precede dentro de un túnel
+en una carretera convencional o una carretera multicarril.
+
+S-992c Señal informativa de la distancia mínima entre
+vehículos en autopista o autovía
+
+PRECAUCIÓN
+COLISIONES
+POR ALCANCES
+
+distancia mínima
+
+a Indica, en un tramo de una autopista o una autovía donde
+
+se dan frecuentemente colisiones por alcance, el número de
+marcas viales de galón que debe que dejar un vehículo
+entre él y el que le precede,
+
+PRECAUCIÓN S-992d || Señal informativa de la distancia mínima entre
+AO vehículos dentro de un túnel en autopista o
+
+distancia mínima autovía
+
+entr ículos
+
+Indica el número de marcas viales de galón que debe dejar
+un vehículo entre él y el que le precede dentro de un túnel
+en una autopista o una autovía
+
+S-992e Señal informativa de la distancia mínima entre
+vehículos indicada mediante balizas
+luminosas
+
+Indica, en un tramo donde es frecuente la pérdida de
+visibilidad debido a la niebla, el número de balizas
+luminosas que debe dejar un vehículo entre el y el que le
+precede.
+
+Página 202
+=== p-203.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+OTRAS SEÑALES
+S-993 Advertencia de riesgo de alcances en tramo de
+ATENCIÓN autopista o autovía en pendiente ascendente
+
+autovía debido a que la pendiente ascendente provoca que
+los camiones circulen a una velocidad sensiblemente menor
+que los turismos.
+
+40
+Advierte del riesgo por alcances en un tramo de autopista o
+a
+
+Página 203
+=== p-204.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+4. Pictogramas.
+
+Página 204
+=== p-205.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+PTOGRAMAS
+mm :
+U
+UN h
+LN 1
+CARRETERA CARRETERA CON
+AUTOPISTA AUTOVÍA nea CARRETERA 291 pi
+CARRETERA SIN EA Lon au RCULACIÓN
+RETERA POBLADO sauoaDERcÍA | sauDamautRoA | CACULACÓN
+a Tra y py UTE
+Estación De | summistro DeGiPo | — SUMINISTRO DE ESTACIÓN DE SUMINISTRO DE
+oO pit GASOLNAYGIP | RECARGA FLÉCTAICA. | GASOLINA Y ESTACIÓN
+OAUTOGÁS DE RECARGA ELÉCTRICA
+
+a ME E
+
+SUMINISTRA DE GASOUNA,
+
+occ RESTAURANTE BARO CAFETERÍA | HOTELOMOTEL HOSPITAL
+
+BÁSCULA PARA = TAUER AREADE
+
+sa CAMIONES o MECÁNICO sERVICO
+
+APARCAMIENTO ZONA DE DESCANSO | “OMDLESTACOMaNENO| PARQUE
+EMERGENCIA NEVADAS re e
+
+E O
+
+ZONA DE OCIO ZONACOMERCIAL | URBANIZACIÓN — | PUERTODEPORTIVO | CENTROURBANO
+
+Página 205
+=== p-206.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+PIOGIAMAS
+_— 7
+DN !
+(Ro 7]
+. L
+z SALIDA DE
+1uoaR maNGUERA APARTADERO runa oa.
+Í TARJETA A)
+sos EXTINTOR TELEPEAJE pios but
+; TARTA. ECUSVAMONTE
+HIELO O MIVE rocaLA asa autos
+64
+¿SURGIDO PUE HELP AERÓORC FERRY
+AS eto uPuERTO ERGOROmO m
+Er ERA AOETO | Areco camón ao
+ano VEÁCULO DE a Pen verdcunos con
+DE CARGA MOVILIDAD PERSONAL OCA E REMOLQUE
+er TRANVÍ m MERDE deiopecd
+mero. aa O A
+
+Página 206
+=== p-207.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+PICTOGRAMAS
+
+p)
+(xo!
+
+F . MOTOCICLETA Y
+LAVADO o amaron] FUNICULAR. TELEFÉRICO
+
+ELECTRICOS
+
+ud, 29 ¿E da
+
+PUNTO DE VACIADO
+
+cameIno CAMPING.CARAVANa | PUNTO DEVACIADO,
+
+AUTOCARAVANAS — | ALBERGUE JUVENIL.
+
+ak
+
+ALBERGUE | ALOJAMIENTORURAL PEATÓN ZONAPEATONAL | > ZONADENINOS
+2 L ej.
+PERSONAS CON PERSONAS CON INFORMACIÓN
+DIFICULTADES MOVILIDAD ASEOS ci BALNEARIO
+MOTAICES REDUCIDA
+MONUMENTO INDUSTRIA
+pi must caso ARTESANÍA Lia
+RA
+senoa PARQUE NACIONAL O VISTA
+CCLOPEATOMAL — | ESPACIO NATURAL. e panorámica — | BECURSONESAPE
+
+==
+
+= mm 4 lo
+
+CAMINO DE
+
+Facto río EMBARCADERO AREA ICC PESCA
+
+Página 207
+=== p-208.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+E
+ES $e
+=== ñ
+=
+
+ACUEDUCTO CLA: INCENDIO: PARQUE MONTE
+
+ñ y dp
+rn NY
+
+bisrA DE esaul reatrono comncos canmacia ron
+la
+aun
+surenuencaDo poucia buoTECA vnvensos | mo un
+
+símbolo representativo
+dela religión ala que
+esté dedicado
+
+4H >
+
+CAMARA DE UMITACIÓN
+
+CEMENTERIO APARCAMIENTO anos ei CAPO DE FÚTEOL
+Y no.
+
+POLIDEPORTIVO — | PLAZADETOROS TEATRO CAMPO DE GOLF PLANETARIO.
+
+LL Zoo
+
+PARQUE DE
+ATRACCIONES ZOOLÓGICO. CIRCUITO
+
+Página 208
+=== p-209.png.txt
+BOLETÍN OFICIAL DEL ESTADO
+LEGISLACIÓN CONSOLIDADA
+
+PICTOGRAMAS DEL SISTHO
+UNESCO SISTHO, SISTHO, SIsTHO.
+CULTURAL NATURALEZA. PLAYA
+
+PICTOGRAMAS DE SEÑALIZACIÓN DEL CAMINO DE SANTIAGO
+
+Camino Pe id
+
+de * *
+
+Santiago * *
+Modo Ce kk
+
+PICTOGRAMA DE SEÑALIZACIÓN DE LÍMITES DE DEMARCACIÓN HIDROGRÁFICA.
+
+La]
+
+ES
+
+Página 209

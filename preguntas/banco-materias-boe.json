@@ -1,0 +1,2353 @@
+{
+  "version": 1,
+  "descripcion": "Preguntas escritas directamente desde la norma para materias con poca cobertura en los vídeos (3, 6, 9, 13) y delitos contra la seguridad vial.",
+  "normativa_consultada": {
+    "RGC": {
+      "ref": "BOE-A-2003-23514",
+      "nombre": "Reglamento General de Circulación (RD 1428/2003)",
+      "ultima_actualizacion": "2026-06-26"
+    },
+    "LSV": {
+      "ref": "BOE-A-2015-11722",
+      "nombre": "Ley de Tráfico y Seguridad Vial (RDL 6/2015)",
+      "ultima_actualizacion": "2026-06-26"
+    },
+    "CP": {
+      "ref": "BOE-A-1995-25444",
+      "nombre": "Código Penal (LO 10/1995), arts. 379 a 385 ter",
+      "ultima_actualizacion": "2026-04-09"
+    },
+    "MANUAL_DGT": {
+      "ref": "DGT Manual Permiso B Lectura Fácil",
+      "nombre": "Manual del permiso B en Lectura Fácil (DGT)",
+      "ultima_actualizacion": "2024-10"
+    }
+  },
+  "preguntas": [
+    {
+      "id": "bm13-0001",
+      "tema": "abandonar_vehiculo",
+      "subtema": "motor_y_arranque",
+      "enunciado": "Para un turismo y tiene que dejar su puesto de conductor. ¿Qué debe hacer con el motor?",
+      "opciones": {
+        "a": "Pararlo y desconectar el sistema de arranque.",
+        "b": "Puede dejarlo en marcha si va a volver en menos de dos minutos.",
+        "c": "Dejarlo en marcha, siempre que deje accionado el freno de estacionamiento."
+      },
+      "correcta": "a",
+      "explicacion": "Si el conductor de un vehículo a motor tiene que dejar su puesto, debe parar el motor y desconectar el sistema de arranque.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.3.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a92",
+        "cita": "Parar el motor y desconectar el sistema de arranque",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0002",
+      "tema": "abandonar_vehiculo",
+      "subtema": "uso_sin_autorizacion",
+      "enunciado": "Si, además de dejar su puesto, se aleja del vehículo, ¿qué obligación añadida tiene?",
+      "opciones": {
+        "a": "Ninguna, basta con parar el motor.",
+        "b": "Adoptar las precauciones necesarias para impedir su uso sin autorización.",
+        "c": "Encender la luz de emergencia mientras esté fuera."
+      },
+      "correcta": "b",
+      "explicacion": "Cuando el conductor se aleja del vehículo debe adoptar las precauciones necesarias para impedir que otra persona lo use sin autorización (por ejemplo, cerrarlo y llevarse la llave).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.3.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a92",
+        "cita": "si se alejara del vehículo, adoptar las precauciones necesarias para impedir su uso sin autorización",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0003",
+      "tema": "abandonar_vehiculo",
+      "subtema": "cambio_automatico",
+      "enunciado": "Estaciona un turismo con cambio automático. Además del freno de estacionamiento, ¿qué debe dejar seleccionado?",
+      "opciones": {
+        "a": "La posición de marcha adelante.",
+        "b": "El punto muerto, para no forzar la transmisión.",
+        "c": "La posición de estacionamiento."
+      },
+      "correcta": "c",
+      "explicacion": "El reglamento pide dejar la primera o la marcha atrás en los vehículos con caja de cambios manual, «o, en su caso, la posición de estacionamiento» (la P de los cambios automáticos).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.3.c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a92",
+        "cita": "y la marcha hacia atrás, en descendente, o, en su caso, la posición de estacionamiento",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0004",
+      "tema": "abandonar_vehiculo",
+      "subtema": "calzos",
+      "enunciado": "El conductor de un camión que calzó su vehículo para estacionar en una pendiente va a reanudar la marcha. ¿Qué debe hacer con los calzos?",
+      "opciones": {
+        "a": "Retirarlos de la vía.",
+        "b": "Puede dejarlos en la vía, porque no son un obstáculo.",
+        "c": "Dejarlos junto al bordillo para que los use el siguiente vehículo."
+      },
+      "correcta": "a",
+      "explicacion": "Los calzos, una vez utilizados, deben retirarse de la vía al reanudar la marcha.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "92.3.d",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a92",
+        "cita": "Los calzos, una vez utilizados, deberán ser retirados de las vías al reanudar la marcha.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0005",
+      "tema": "abandonar_vehiculo",
+      "subtema": "puertas",
+      "enunciado": "Antes de abrir la puerta para bajar del vehículo, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Nada, si el vehículo está correctamente estacionado.",
+        "b": "Asegurarse de que no supone peligro ni entorpecimiento para otros usuarios, especialmente ciclistas.",
+        "c": "Encender la luz de emergencia; así los demás deben esperar."
+      },
+      "correcta": "b",
+      "explicacion": "Se prohíbe abrir las puertas o apearse sin haberse cerciorado antes de que no implica peligro o entorpecimiento para otros usuarios, especialmente para los ciclistas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "114.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a114",
+        "cita": "abrirlas o apearse de aquél sin haberse cerciorado previamente de que ello no implica peligro o entorpecimiento para otros usuarios, especialmente cuando se refiere a conductores de bicicletas",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0006",
+      "tema": "abandonar_vehiculo",
+      "subtema": "puertas",
+      "enunciado": "Un pasajero quiere abrir la puerta cuando el vehículo aún avanza muy despacio, a punto de detenerse. ¿Está permitido?",
+      "opciones": {
+        "a": "Sí, si la velocidad es inferior a 10 km/h.",
+        "b": "Sí, si mira antes por el retrovisor.",
+        "c": "No, se prohíbe abrir las puertas antes de la completa inmovilización del vehículo."
+      },
+      "correcta": "c",
+      "explicacion": "Está prohibido abrir las puertas del vehículo antes de su completa inmovilización.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "114.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a114",
+        "cita": "Se prohíbe llevar abiertas las puertas del vehículo, abrirlas antes de su completa inmovilización",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0007",
+      "tema": "abandonar_vehiculo",
+      "subtema": "lado_salida",
+      "enunciado": "Como norma general, ¿por qué lado se debe entrar y salir del vehículo?",
+      "opciones": {
+        "a": "Por el lado más próximo al borde de la vía, y solo con el vehículo parado.",
+        "b": "Por el lado del conductor.",
+        "c": "Por cualquier lado, siempre que el vehículo esté parado."
+      },
+      "correcta": "a",
+      "explicacion": "Como norma general se entra y se sale por el lado más próximo al borde de la vía y solo cuando el vehículo está parado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "114.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a114",
+        "cita": "se entrará y saldrá del vehículo por el lado más próximo al borde de la vía y sólo cuando aquél se halle parado",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0008",
+      "tema": "abandonar_vehiculo",
+      "subtema": "apagado_motor",
+      "enunciado": "Aunque no vaya a abandonar su puesto, ¿en cuál de estos casos debe parar el motor?",
+      "opciones": {
+        "a": "Al detenerse en un semáforo en rojo.",
+        "b": "Durante la carga de combustible.",
+        "c": "Al detenerse en un paso para peatones."
+      },
+      "correcta": "b",
+      "explicacion": "Aun cuando el conductor no abandone su puesto, debe parar el motor cuando el vehículo esté detenido dentro de un túnel o en un lugar cerrado y durante la carga de combustible.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "115.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115",
+        "cita": "deberá parar el motor siempre que el vehículo se encuentre detenido en el interior de un túnel o en lugar cerrado y durante la carga de combustible",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0009",
+      "tema": "abandonar_vehiculo",
+      "subtema": "apagado_motor",
+      "enunciado": "Debe permanecer detenido dentro de un túnel más de dos minutos. Al parar el motor, ¿qué alumbrado debe conservar encendido?",
+      "opciones": {
+        "a": "Ninguno, para no gastar batería.",
+        "b": "El de largo alcance o carretera.",
+        "c": "El de posición."
+      },
+      "correcta": "c",
+      "explicacion": "Si debe permanecer detenido en un túnel u otro lugar cerrado más de dos minutos, ha de interrumpir el funcionamiento del motor, conservando encendido el alumbrado de posición.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "115.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115",
+        "cita": "deberá interrumpir el funcionamiento del motor hasta que pueda proseguir la marcha, conservando encendido el alumbrado de posición",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0010",
+      "tema": "abandonar_vehiculo",
+      "subtema": "repostaje",
+      "enunciado": "Para cargar combustible en una gasolinera, ¿qué debe estar apagado?",
+      "opciones": {
+        "a": "El motor, las luces, los sistemas eléctricos como la radio y los teléfonos móviles.",
+        "b": "Solo el motor.",
+        "c": "El motor y el aire acondicionado; la radio puede seguir encendida."
+      },
+      "correcta": "a",
+      "explicacion": "No se puede facilitar combustible si no están parados el motor y apagadas las luces, los sistemas eléctricos como la radio y los dispositivos que emiten radiación electromagnética, como los móviles. Si no hay empleados, el conductor debe cumplir lo mismo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "115.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115",
+        "cita": "si no está parado el motor y apagadas las luces de los vehículos, los sistemas eléctricos como la radio y los dispositivos emisores de radiación electromagnética como los teléfonos móviles",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0011",
+      "tema": "abandonar_vehiculo",
+      "subtema": "repostaje",
+      "enunciado": "En una gasolinera sin empleados, ¿quién debe asegurarse de que el motor, las luces, la radio y los móviles estén apagados al repostar?",
+      "opciones": {
+        "a": "Nadie, porque esa obligación solo afecta a los empleados.",
+        "b": "El conductor o la persona que vaya a cargar el combustible.",
+        "c": "El titular de la gasolinera, de forma remota."
+      },
+      "correcta": "b",
+      "explicacion": "En ausencia de empleados, el conductor o la persona que vaya a cargar el combustible debe cumplir los mismos requisitos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "115.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115",
+        "cita": "el conductor del vehículo o, en su caso, la persona que vaya a cargar el combustible en el vehículo deberá cumplir los mismos requisitos establecidos en el apartado anterior",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0012",
+      "tema": "abandonar_vehiculo",
+      "subtema": "tunel_emergencia",
+      "enunciado": "Por una emergencia, su vehículo queda inmovilizado dentro de un túnel. ¿Qué debe hacer con el motor y las luces?",
+      "opciones": {
+        "a": "Apagar el motor y todas las luces para no deslumbrar.",
+        "b": "Dejar el motor en marcha y encender la luz de largo alcance.",
+        "c": "Apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición."
+      },
+      "correcta": "c",
+      "explicacion": "Si un conductor queda inmovilizado en un túnel por una emergencia, debe apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+        "cita": "Apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0013",
+      "tema": "abandonar_vehiculo",
+      "subtema": "tunel_emergencia",
+      "enunciado": "Su vehículo queda inmovilizado por una emergencia dentro de un túnel. ¿Qué deben hacer usted y sus pasajeros?",
+      "opciones": {
+        "a": "Abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si hay zonas excluidas a la circulación.",
+        "b": "Permanecer dentro del vehículo con el cinturón abrochado hasta que llegue la ayuda.",
+        "c": "Salir y caminar por la calzada en sentido contrario a la circulación para avisar a los demás."
+      },
+      "correcta": "a",
+      "explicacion": "Tanto el conductor como los demás ocupantes deben abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si existen zonas excluidas a la circulación de vehículos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3.e",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+        "cita": "Tanto el conductor como los demás ocupantes abandonarán el vehículo, dirigiéndose rápidamente al refugio o salida más próximos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0014",
+      "tema": "abandonar_vehiculo",
+      "subtema": "tunel_incendio",
+      "enunciado": "Su vehículo se incendia dentro de un túnel. Tras acercarlo a la derecha y apagar el motor, ¿qué debe hacer con la llave y las puertas antes de abandonarlo?",
+      "opciones": {
+        "a": "Llevarse la llave y cerrar las puertas para evitar robos.",
+        "b": "Dejar la llave puesta y las puertas abiertas.",
+        "c": "Llevarse la llave y dejar las puertas abiertas."
+      },
+      "correcta": "b",
+      "explicacion": "En caso de incendio en un túnel, el conductor apaga el motor y deja la llave puesta y las puertas abiertas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+        "cita": "Apagará el motor y dejará la llave puesta y las puertas abiertas.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0015",
+      "tema": "abandonar_vehiculo",
+      "subtema": "tunel_incendio",
+      "enunciado": "Hay un incendio dentro de un túnel y debe abandonar su vehículo. ¿Hacia dónde debe dirigirse?",
+      "opciones": {
+        "a": "Hacia la salida por la que entró, caminando por el centro de la calzada.",
+        "b": "Hacia el fuego, para ayudar a apagarlo con el extintor.",
+        "c": "Hacia el refugio o salida más próximos, en sentido contrario al del fuego."
+      },
+      "correcta": "c",
+      "explicacion": "En caso de incendio, el conductor y los ocupantes abandonan el vehículo y se dirigen rápidamente al refugio o salida más próximos, en sentido contrario al del fuego.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+        "cita": "abandonarán el vehículo dirigiéndose rápidamente al refugio o salida más próximos, en sentido contrario al del fuego",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0016",
+      "tema": "abandonar_vehiculo",
+      "subtema": "tunel_atasco",
+      "enunciado": "Queda detenido dentro de un túnel por un atasco (por necesidades de la circulación). ¿Deben abandonar el vehículo usted y sus pasajeros?",
+      "opciones": {
+        "a": "No, no deben abandonar el vehículo.",
+        "b": "Solo los pasajeros; el conductor debe quedarse.",
+        "c": "Sí, siempre que el vehículo esté detenido en un túnel."
+      },
+      "correcta": "a",
+      "explicacion": "Si un vehículo queda inmovilizado en un túnel por necesidades de la circulación, el conductor y los pasajeros no deben abandonarlo; deben conectar temporalmente la señal de emergencia, mantener las luces de posición y apagar el motor.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+        "cita": "el conductor y los pasajeros no deben abandonar el vehículo",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0017",
+      "tema": "abandonar_vehiculo",
+      "subtema": "tunel_atasco",
+      "enunciado": "Queda detenido por un atasco dentro de un túnel. ¿Dónde debe detenerse respecto al vehículo que le precede?",
+      "opciones": {
+        "a": "Lo más cerca posible, para ocupar menos espacio.",
+        "b": "Lo más lejos posible del vehículo que le precede.",
+        "c": "A un metro exacto, para poder salir si es necesario."
+      },
+      "correcta": "b",
+      "explicacion": "En un túnel, si queda inmovilizado por necesidades de la circulación, debe detenerse lo más lejos posible del vehículo que le precede.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "97.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+        "cita": "Deberá detenerse lo más lejos posible del vehículo que le precede.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0018",
+      "tema": "abandonar_vehiculo",
+      "subtema": "averia_retirar",
+      "enunciado": "Su vehículo averiado obstaculiza la calzada. Después de señalizarlo, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Esperar dentro del vehículo hasta que llegue la grúa, sin moverlo.",
+        "b": "Dejarlo donde está; la señalización basta.",
+        "c": "Adoptar las medidas necesarias para que sea retirado cuanto antes y, si es factible, sacarlo de la calzada y situarlo cumpliendo las normas de estacionamiento."
+      },
+      "correcta": "c",
+      "explicacion": "Si por accidente o avería el vehículo o su carga obstaculizan la calzada, tras señalizar hay que retirarlo en el menor tiempo posible y, siempre que sea factible, sacarlo de la calzada y estacionarlo correctamente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "130.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a130",
+        "cita": "deberán sacarlo de la calzada y situarlo cumpliendo las normas de estacionamiento siempre que sea factible",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm13-0019",
+      "tema": "abandonar_vehiculo",
+      "subtema": "averia_continuar",
+      "enunciado": "Tras una avería, su vehículo puede seguir circulando pero necesita un servicio de auxilio. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Abandonar cuanto antes los carriles de circulación y dirigirse a la primera salida disponible usando el arcén derecho.",
+        "b": "Detenerse inmediatamente en el carril izquierdo.",
+        "c": "Detenerse en el carril por el que circula y encender la luz de emergencia."
+      },
+      "correcta": "a",
+      "explicacion": "Si el vehículo puede continuar pero necesita auxilio, debe abandonar lo antes posible los carriles de circulación y dirigirse hacia la primera salida usando el arcén derecho; si no es posible, detenerse en el arcén derecho o donde cause menor obstáculo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "130.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a130",
+        "cita": "deberán abandonar lo antes posible los carriles de circulación y dirigirse hacia la primera salida disponible utilizando para ello el arcén derecho",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 13,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0001",
+      "tema": "actitudes",
+      "subtema": "comportamiento_general",
+      "enunciado": "¿Cómo deben comportarse todos los usuarios de la vía?",
+      "opciones": {
+        "a": "Basta con que respeten las señales; las molestias a los demás no están reguladas.",
+        "b": "De forma que no entorpezcan indebidamente la circulación ni causen peligro, perjuicios o molestias innecesarias a las personas, o daños a los bienes.",
+        "c": "Esta obligación solo afecta a los conductores, no a los peatones."
+      },
+      "correcta": "b",
+      "explicacion": "La norma general obliga a todos los usuarios de la vía (no solo a los conductores) a no entorpecer indebidamente ni causar peligro, perjuicios o molestias innecesarias, ni daños a los bienes.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a2",
+        "cita": "Los usuarios de la vía están obligados a comportarse de forma que no entorpezcan indebidamente la circulación ni causen peligro, perjuicios o molestias innecesarias a las personas, o daños a los bienes",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0002",
+      "tema": "actitudes",
+      "subtema": "diligencia",
+      "enunciado": "Se debe conducir con la diligencia y precaución necesarias para evitar…",
+      "opciones": {
+        "a": "solo los daños a otras personas.",
+        "b": "solo los daños materiales a otros vehículos.",
+        "c": "todo daño, propio o ajeno."
+      },
+      "correcta": "c",
+      "explicacion": "Hay que conducir con la diligencia y precaución necesarias para evitar todo daño, propio o ajeno, sin poner en peligro al conductor, a los ocupantes ni al resto de usuarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "3.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3",
+        "cita": "Se deberá conducir con la diligencia y precaución necesarias para evitar todo daño, propio o ajeno",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0003",
+      "tema": "actitudes",
+      "subtema": "negligente_temeraria",
+      "enunciado": "La conducción negligente, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Leve.",
+        "c": "Muy grave."
+      },
+      "correcta": "a",
+      "explicacion": "La conducción negligente es infracción grave; la temeraria, muy grave (también en la Ley de Tráfico, arts. 76.m y 77.e).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "3.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3",
+        "cita": "Las conductas referidas a la conducción negligente tendrán la consideración de infracciones graves",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0004",
+      "tema": "actitudes",
+      "subtema": "negligente_temeraria",
+      "enunciado": "La conducción temeraria, cuando no es delito, ¿qué tipo de infracción es?",
+      "opciones": {
+        "a": "Grave.",
+        "b": "Muy grave.",
+        "c": "Leve, si no hay accidente."
+      },
+      "correcta": "b",
+      "explicacion": "La conducción temeraria tiene la consideración de infracción muy grave (Ley de Tráfico, art. 77.e). Si además pone en concreto peligro la vida o la integridad de las personas, es delito (Código Penal, art. 380).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "3.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3",
+        "cita": "las referidas a la conducción temeraria tendrán la consideración de infracciones muy graves",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0005",
+      "tema": "actitudes",
+      "subtema": "usuarios_vulnerables",
+      "enunciado": "Al aproximarse a otros usuarios de la vía, ¿con quiénes debe extremar especialmente las precauciones?",
+      "opciones": {
+        "a": "Con los vehículos de mayor tamaño.",
+        "b": "Con los conductores noveles que llevan la «L».",
+        "c": "Con los niños, los ancianos, los invidentes y otras personas manifiestamente impedidas."
+      },
+      "correcta": "c",
+      "explicacion": "El reglamento obliga a adoptar las precauciones necesarias al aproximarse a otros usuarios, especialmente niños, ancianos, invidentes u otras personas manifiestamente impedidas.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "17.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a17",
+        "cita": "especialmente cuando se trate de niños, ancianos, invidentes u otras personas manifiestamente impedidas",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0006",
+      "tema": "actitudes",
+      "subtema": "prever_peatones",
+      "enunciado": "¿Hay que moderar la velocidad solo cuando ya hay peatones en la calzada?",
+      "opciones": {
+        "a": "No, también cuando pueda preverse racionalmente su irrupción en ella.",
+        "b": "Sí; si no hay peatones en la calzada se puede mantener la velocidad.",
+        "c": "No, solo hay que moderarla cerca de los pasos para peatones."
+      },
+      "correcta": "a",
+      "explicacion": "Se circula a velocidad moderada, e incluso se detiene el vehículo, cuando hay peatones en la vía o pueda preverse racionalmente su irrupción en ella, principalmente si se trata de niños, ancianos o personas con discapacidad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+        "cita": "Cuando haya peatones en la parte de la vía que se esté utilizando o pueda preverse racionalmente su irrupción en ella",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0007",
+      "tema": "actitudes",
+      "subtema": "autobus_escolar",
+      "enunciado": "Se aproxima a un autobús de transporte escolar detenido en una parada. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Mantener la velocidad, porque el autobús está detenido.",
+        "b": "Circular a velocidad moderada y, si fuera preciso, detenerse.",
+        "c": "Tocar el claxon para avisar a los niños de que se acerca."
+      },
+      "correcta": "b",
+      "explicacion": "Al aproximarse a un autobús en situación de parada, principalmente si es de transporte escolar, hay que circular a velocidad moderada y detenerse si fuera preciso.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.e",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+        "cita": "Al aproximarse a un autobús en situación de parada, principalmente si se trata de un autobús de transporte escolar.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0008",
+      "tema": "actitudes",
+      "subtema": "advertir_maniobras",
+      "enunciado": "¿Están obligados los conductores a advertir a los demás usuarios de las maniobras que van a efectuar?",
+      "opciones": {
+        "a": "Solo fuera de poblado.",
+        "b": "Solo si hay otros vehículos detrás.",
+        "c": "Sí, siempre."
+      },
+      "correcta": "c",
+      "explicacion": "Los conductores están obligados a advertir al resto de usuarios de las maniobras que vayan a efectuar; como norma general, con la señalización luminosa o, en su defecto, con el brazo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "108.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a108",
+        "cita": "Los conductores están obligados a advertir al resto de los usuarios de la vía acerca de las maniobras que vayan a efectuar con sus vehículos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0009",
+      "tema": "actitudes",
+      "subtema": "advertir_frenado",
+      "enunciado": "Va a frenar de modo considerable por las circunstancias del tráfico. ¿Debe advertirlo?",
+      "opciones": {
+        "a": "Sí, siempre que sea posible, con el empleo reiterado de las luces de frenado o con el brazo.",
+        "b": "No, solo se advierten los desplazamientos laterales.",
+        "c": "Sí, con el intermitente derecho."
+      },
+      "correcta": "a",
+      "explicacion": "La intención de inmovilizar el vehículo o de frenar de modo considerable, aunque la impongan las circunstancias del tráfico, debe advertirse, siempre que sea posible, con el empleo reiterado de las luces de frenado o moviendo el brazo de arriba abajo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "109.2.c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a109",
+        "cita": "mediante el empleo reiterado de las luces de frenado o bien moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0010",
+      "tema": "actitudes",
+      "subtema": "claxon",
+      "enunciado": "¿Está permitido usar el claxon de forma inmotivada o exagerada?",
+      "opciones": {
+        "a": "Sí, en vías fuera de poblado.",
+        "b": "No, está prohibido.",
+        "c": "Sí, para mostrar el enfado con otro conductor."
+      },
+      "correcta": "b",
+      "explicacion": "Las señales acústicas solo se usan excepcionalmente o cuando lo prevea una norma, de sonido no estridente, y queda prohibido su uso inmotivado o exagerado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "110.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a110",
+        "cita": "queda prohibido su uso inmotivado o exagerado",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0011",
+      "tema": "actitudes",
+      "subtema": "obstaculos",
+      "enunciado": "Quien ha creado un obstáculo o peligro en la vía, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Nada, si el obstáculo es pequeño.",
+        "b": "Avisar a las autoridades y marcharse.",
+        "c": "Hacerlo desaparecer lo antes posible y, mientras tanto, adoptar las medidas para que los demás lo adviertan."
+      },
+      "correcta": "c",
+      "explicacion": "Quien crea un obstáculo o peligro en la vía debe hacerlo desaparecer lo antes posible y, mientras tanto, tomar las medidas necesarias para que lo adviertan los demás usuarios y no se dificulte la circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "5.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a5",
+        "cita": "deberán hacerlo desaparecer lo antes posible, y adoptarán entre tanto las medidas necesarias para que pueda ser advertido por los demás usuarios",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0012",
+      "tema": "actitudes",
+      "subtema": "arrojar_objetos",
+      "enunciado": "¿Puede arrojar una colilla encendida por la ventanilla?",
+      "opciones": {
+        "a": "No, se prohíbe arrojar a la vía o sus inmediaciones cualquier objeto que pueda producir incendios.",
+        "b": "Sí, si la vía está asfaltada.",
+        "c": "Sí, salvo en zonas forestales señalizadas."
+      },
+      "correcta": "a",
+      "explicacion": "Se prohíbe arrojar a la vía o a sus inmediaciones cualquier objeto que pueda dar lugar a incendios o poner en peligro la seguridad vial. Es infracción grave.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "6.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a6",
+        "cita": "Se prohíbe arrojar a la vía o en sus inmediaciones cualquier objeto que pueda dar lugar a la producción de incendios",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0013",
+      "tema": "actitudes",
+      "subtema": "anticipacion",
+      "enunciado": "En la conducción preventiva, ¿en qué consiste la «anticipación»?",
+      "opciones": {
+        "a": "En adelantar a los vehículos lentos lo antes posible.",
+        "b": "En prever los movimientos y reacciones de los demás conductores para poder reaccionar a tiempo.",
+        "c": "En salir de viaje con tiempo de sobra."
+      },
+      "correcta": "b",
+      "explicacion": "La conducción preventiva se basa en visión, anticipación y espacio. Anticiparse es prever los movimientos y reacciones de los demás para reaccionar a tiempo.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Conducción preventiva (p. 441)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Prever los movimientos y reacciones de los demás conductores para poder reaccionar a tiempo.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0014",
+      "tema": "actitudes",
+      "subtema": "vehiculos_aparcados",
+      "enunciado": "Circula junto a vehículos aparcados con personas dentro. ¿Qué precaución recomienda la DGT?",
+      "opciones": {
+        "a": "Ninguna especial; quienes salen deben mirar antes.",
+        "b": "Tocar el claxon para que no abran la puerta.",
+        "c": "Conducir con más cuidado, porque alguna de esas personas puede bajarse sin mirar."
+      },
+      "correcta": "c",
+      "explicacion": "La DGT recomienda conducir con más cuidado cerca de vehículos aparcados con personas dentro, porque alguna puede bajarse sin mirar.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Los peatones (p. 397)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Alguna de estas personas puede bajarse del vehículo sin mirar.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0015",
+      "tema": "actitudes",
+      "subtema": "ciclistas_claxon",
+      "enunciado": "Para evitar accidentes con ciclistas, ¿qué recomienda la DGT sobre el claxon?",
+      "opciones": {
+        "a": "No tocarlo cerca de ellos para no asustarles.",
+        "b": "Tocarlo siempre al acercarse por detrás.",
+        "c": "Tocarlo solo dentro de poblado."
+      },
+      "correcta": "a",
+      "explicacion": "La DGT aconseja no tocar el claxon cerca de los ciclistas para no asustarles.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Bicicletas (p. 409)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "No tocar el claxon o bocina cerca de ciclistas para no asustarles.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0016",
+      "tema": "actitudes",
+      "subtema": "ciclistas_adelantar",
+      "enunciado": "Vienen ciclistas en sentido contrario. ¿Qué recomienda la DGT sobre adelantar a otros vehículos en ese momento?",
+      "opciones": {
+        "a": "Adelantar rápido para terminar cuanto antes.",
+        "b": "No adelantar.",
+        "c": "Adelantar tocando el claxon para avisarles."
+      },
+      "correcta": "b",
+      "explicacion": "Entre las medidas para evitar atropellos a ciclistas, la DGT indica no adelantar a otros vehículos si vienen ciclistas en sentido contrario.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Bicicletas (p. 408)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "No adelantar a otros vehículos si vienen ciclistas en sentido contrario.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0017",
+      "tema": "actitudes",
+      "subtema": "dos_ruedas",
+      "enunciado": "Circula cerca de una motocicleta. ¿Dónde recomienda la DGT situarse?",
+      "opciones": {
+        "a": "Lo más cerca posible por detrás.",
+        "b": "A su lado, para que el motorista le vea.",
+        "c": "Delante o detrás de ella, no a su lado."
+      },
+      "correcta": "c",
+      "explicacion": "La DGT aconseja no quedarse al lado de un vehículo de dos ruedas, sino circular por delante o por detrás de él, y mantener la distancia de seguridad.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16, Motocicletas y ciclomotores (p. 411)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "No quedarse al lado de un vehículo de dos ruedas. Circular por delante de él o por detrás.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0018",
+      "tema": "actitudes",
+      "subtema": "detencion_atasco",
+      "enunciado": "Se detiene en un atasco o en un semáforo. ¿Qué distancia recomienda la DGT dejar como mínimo con el vehículo de delante?",
+      "opciones": {
+        "a": "Dos o tres metros.",
+        "b": "Unos 50 centímetros.",
+        "c": "Diez metros."
+      },
+      "correcta": "a",
+      "explicacion": "La DGT recomienda dejar al menos dos o tres metros al detenerse: así se puede avisar si el de delante echa marcha atrás, rodearlo si se queda parado y no golpearlo si a usted le golpean por detrás.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Espacio al detener el vehículo (p. 448)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "debes mantener una distancia de, al menos, dos o tres metros con el vehículo de delante.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm3-0019",
+      "tema": "actitudes",
+      "subtema": "detencion_atasco",
+      "enunciado": "Es el último vehículo de una fila detenida en un atasco. Según la DGT, ¿qué puede hacer para evitar que le alcancen por detrás?",
+      "opciones": {
+        "a": "Bajarse del vehículo para avisar a los que llegan.",
+        "b": "Mantener el freno pisado, encender las luces de emergencia y vigilar por el retrovisor a los que vienen detrás.",
+        "c": "Pegarse al vehículo de delante para dejar más espacio detrás."
+      },
+      "correcta": "b",
+      "explicacion": "El último de la fila puede dejar cinco o seis metros con el de delante, mantener el freno pisado y encender las luces de emergencia para que se le vea mejor, y vigilar por el retrovisor.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Espacio al detener el vehículo (p. 448)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Mantener el freno pisado y encender las luces de emergencia en un atasco para que se le vea mejor.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 3,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0001",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "atencion_vision",
+      "enunciado": "¿Qué está obligado a mantener el conductor para garantizar su seguridad y la de los demás?",
+      "opciones": {
+        "a": "Las manos en el volante; la posición del resto de ocupantes no le afecta.",
+        "b": "Solo la atención permanente; el campo de visión depende del vehículo.",
+        "c": "Su propia libertad de movimientos, el campo necesario de visión y la atención permanente a la conducción."
+      },
+      "correcta": "c",
+      "explicacion": "El conductor debe mantener su libertad de movimientos, el campo necesario de visión y la atención permanente a la conducción, y cuidar de la posición de los pasajeros y de los objetos o animales transportados.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "18.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a18",
+        "cita": "El conductor de un vehículo está obligado a mantener su propia libertad de movimientos, el campo necesario de visión y la atención permanente a la conducción",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0002",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "laminas",
+      "enunciado": "¿Cuándo se permite circular con láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores?",
+      "opciones": {
+        "a": "Cuando el vehículo lleve dos espejos retrovisores exteriores que cumplan las especificaciones técnicas.",
+        "b": "Nunca.",
+        "c": "Solo de día."
+      },
+      "correcta": "a",
+      "explicacion": "Las láminas o cortinillas en las ventanillas posteriores solo se permiten si el vehículo lleva dos espejos retrovisores exteriores reglamentarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "19.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a19",
+        "cita": "Únicamente se permitirá circular con láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores cuando el vehículo lleve dos espejos retrovisores exteriores",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0003",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "vidrios_tintados",
+      "enunciado": "¿Se pueden colocar vidrios tintados o coloreados no homologados?",
+      "opciones": {
+        "a": "Sí, si solo afectan a las ventanillas traseras.",
+        "b": "No, está prohibido en todo caso.",
+        "c": "Sí, si el vehículo tiene dos retrovisores exteriores."
+      },
+      "correcta": "b",
+      "explicacion": "Queda prohibida, en todo caso, la colocación de vidrios tintados o coloreados no homologados.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "19.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a19",
+        "cita": "Queda prohibida, en todo caso, la colocación de vidrios tintados o coloreados no homologados.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0004",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "visibilidad_cristales",
+      "enunciado": "La superficie acristalada del vehículo, ¿cómo debe permitir la visión del conductor?",
+      "opciones": {
+        "a": "Puede tener adhesivos siempre que no tapen más de la mitad de la luna.",
+        "b": "Basta con que el parabrisas esté limpio en la zona del conductor.",
+        "c": "De forma diáfana sobre toda la vía, sin interferencias de láminas o adhesivos."
+      },
+      "correcta": "c",
+      "explicacion": "La superficie acristalada debe permitir en todo caso la visibilidad diáfana del conductor sobre toda la vía, sin interferencias de láminas o adhesivos (salvo las excepciones reglamentarias).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "19.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a19",
+        "cita": "La superficie acristalada del vehículo deberá permitir, en todo caso, la visibilidad diáfana del conductor sobre toda la vía por la que circule, sin interferencias de láminas o adhesivos.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0005",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "campo_vision",
+      "enunciado": "Además de respetar los límites, ¿cómo debe adecuar la velocidad?",
+      "opciones": {
+        "a": "De manera que siempre pueda detener el vehículo dentro de los límites de su campo de visión y ante cualquier obstáculo.",
+        "b": "Basta con no superar el límite señalizado.",
+        "c": "De manera que no tarde más de lo previsto en llegar a su destino."
+      },
+      "correcta": "a",
+      "explicacion": "Además de los límites, hay que adecuar la velocidad a las circunstancias (propias, de la vía, del vehículo, meteorológicas…) para poder detenerse siempre dentro del campo de visión y ante cualquier obstáculo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "45",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a45",
+        "cita": "de manera que siempre pueda detenerlo dentro de los límites de su campo de visión y ante cualquier obstáculo que pueda presentarse",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0006",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "vehiculos_pesados",
+      "enunciado": "Conduce un vehículo pesado y le siguen otros que no pueden adelantarle con facilidad ni sin peligro por la anchura de la calzada. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Mantener su velocidad; son los demás quienes deben esperar.",
+        "b": "Aminorar la marcha o apartarse cuanto antes al arcén, si es practicable, para dejarles paso.",
+        "c": "Acelerar para no entorpecer."
+      },
+      "correcta": "b",
+      "explicacion": "Los conductores de vehículos pesados, de grandes dimensiones u obligados a un límite específico de velocidad deben aminorar la marcha o apartarse al arcén practicable para dejar paso cuando no puedan ser adelantados con facilidad y sin peligro.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "86.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a86",
+        "cita": "deberán bien aminorar la marcha o apartarse cuanto antes al arcén, si resulta practicable, para dejar paso a los que le siguen",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0007",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "moto_remolque",
+      "enunciado": "Una motocicleta quiere arrastrar un remolque. ¿Qué masa máxima puede tener el remolque?",
+      "opciones": {
+        "a": "Hasta 750 kg, sea cual sea la motocicleta.",
+        "b": "Hasta el 100 % de la masa en vacío de la motocicleta.",
+        "c": "Hasta el 50 % de la masa en vacío de la motocicleta."
+      },
+      "correcta": "c",
+      "explicacion": "Motocicletas, vehículos de tres ruedas y ciclomotores pueden arrastrar un remolque que no supere el 50 % de la masa en vacío del vehículo tractor, de día, sin transportar personas y con la velocidad reducida un 10 %.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "12.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a12",
+        "cita": "siempre que no superen el 50 por ciento de la masa en vacío del vehículo tractor",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0008",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "moto_remolque",
+      "enunciado": "Una motocicleta con remolque circula por una carretera. ¿Cómo afecta el remolque a su velocidad máxima?",
+      "opciones": {
+        "a": "Debe reducirla un 10 % respecto a la velocidad genérica de la motocicleta.",
+        "b": "No le afecta.",
+        "c": "No puede superar los 45 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Con remolque, la velocidad queda reducida en un 10 % respecto a la genérica para esos vehículos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "12.3.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a12",
+        "cita": "Que la velocidad a que se circule en estas condiciones quede reducida en un 10 por ciento respecto a las velocidades genéricas",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0009",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "carga_visibilidad",
+      "enunciado": "La carga que transporta tapa parcialmente las luces traseras y la placa de matrícula. ¿Es correcto?",
+      "opciones": {
+        "a": "Sí, si la carga está bien sujeta.",
+        "b": "No, la carga no puede ocultar los dispositivos de alumbrado o señalización ni las placas o distintivos obligatorios.",
+        "c": "Sí, si circula de día."
+      },
+      "correcta": "b",
+      "explicacion": "La carga debe ir dispuesta de forma que no oculte los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios ni las advertencias manuales del conductor.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "14.1.d",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a14",
+        "cita": "Ocultar los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios y las advertencias manuales de sus conductores.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0010",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "carga_polvo",
+      "enunciado": "Transporta en un camión arena que puede producir polvo o caer. ¿Cómo debe llevarla?",
+      "opciones": {
+        "a": "Mojándola antes de salir.",
+        "b": "Sin cubrir, si no supera la altura de la caja.",
+        "c": "Cubriéndola total y eficazmente."
+      },
+      "correcta": "c",
+      "explicacion": "El transporte de materias que produzcan polvo o puedan caer se efectúa siempre cubriéndolas total y eficazmente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "14.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a14",
+        "cita": "El transporte de materias que produzcan polvo o puedan caer se efectuará siempre cubriéndolas total y eficazmente.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0011",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "alumbrado_averiado",
+      "enunciado": "De noche se le avería en ruta el alumbrado y solo puede circular con uno de menor intensidad. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Reducir la velocidad hasta la que le permita detener el vehículo dentro de la zona iluminada.",
+        "b": "Encender la luz de emergencia y mantener la velocidad.",
+        "c": "Circular a un máximo de 40 km/h, sea cual sea la zona iluminada."
+      },
+      "correcta": "a",
+      "explicacion": "Si por avería irreparable en ruta se ha de circular con alumbrado de intensidad inferior, se debe reducir la velocidad hasta la que permita detener el vehículo dentro de la zona iluminada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "107",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a107",
+        "cita": "se deberá reducir la velocidad hasta la que permita la detención del vehículo dentro de la zona iluminada",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0012",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "angulo_muerto",
+      "enunciado": "Según la DGT, ¿qué debe evitar respecto al ángulo muerto de los retrovisores de otros vehículos?",
+      "opciones": {
+        "a": "Nada; el ángulo muerto solo afecta al conductor del otro vehículo.",
+        "b": "Estar mucho tiempo en él, en especial al lado o detrás de un vehículo muy grande.",
+        "c": "Circular por delante del otro vehículo."
+      },
+      "correcta": "b",
+      "explicacion": "Para anticiparse a los riesgos, la DGT aconseja no permanecer mucho tiempo en el ángulo muerto de otro vehículo, sobre todo si es muy grande.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Anticipación (p. 445)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "No estar mucho tiempo en el ángulo muerto de los retrovisores de otro vehículo. En especial si circulas al lado o detrás de un vehículo muy grande.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0013",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "viento",
+      "enunciado": "Según la DGT, ¿a qué vehículos afecta más el viento fuerte?",
+      "opciones": {
+        "a": "A los turismos de gran cilindrada.",
+        "b": "A todos por igual.",
+        "c": "A los vehículos de dos ruedas y a los que llevan un remolque."
+      },
+      "correcta": "c",
+      "explicacion": "El viento, sobre todo lateral, puede hacer perder el control; afecta más a los vehículos de dos ruedas y a los que llevan remolque.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con mucho viento (p. 361)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "El viento afecta más a los vehículos de dos ruedas y a los que llevan un remolque.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0014",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "carga_luces",
+      "enunciado": "Lleva mucho peso en la parte de atrás del vehículo. ¿Qué riesgo señala la DGT respecto a las luces?",
+      "opciones": {
+        "a": "Que la luz de cruce quede muy alta y deslumbre.",
+        "b": "Que las luces de freno dejen de funcionar.",
+        "c": "Ninguno; el peso no influye en las luces."
+      },
+      "correcta": "a",
+      "explicacion": "Si hay demasiado peso atrás, la luz de cruce puede quedar muy alta y deslumbrar. Por eso hay que repartir bien la carga y mantener las luces bien reguladas.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Deslumbramientos (p. 348)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "La luz de cruce puede quedar muy alta y deslumbrar porque hay demasiado peso en la parte de atrás del vehículo.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm9-0015",
+      "tema": "riesgos_vehiculo_visibilidad",
+      "subtema": "hielo_cristales",
+      "enunciado": "Hay hielo en los cristales de su vehículo. ¿Qué debe hacer antes de empezar a conducir?",
+      "opciones": {
+        "a": "Basta con limpiar la parte del parabrisas que queda delante del conductor.",
+        "b": "Rascar el hielo de todos los cristales, sin rayarlos, y limpiar los retrovisores.",
+        "c": "Arrancar y dejar que se derrita mientras circula."
+      },
+      "correcta": "b",
+      "explicacion": "Antes de conducir hay que rascar el hielo de todos los cristales, sin rayarlos, y limpiar los espejos retrovisores.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con hielo (p. 359)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Rascar el hielo de todos los cristales, sin rayarlos.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 9,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0001",
+      "tema": "meteorologia_noche",
+      "subtema": "moderar_velocidad",
+      "enunciado": "Circula por una calzada con charcos y hay peatones en la acera. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Mantener la velocidad; mojar a los peatones no es una infracción.",
+        "b": "Pasar rápido para no estar mucho tiempo junto a ellos.",
+        "c": "Circular a velocidad moderada para no salpicarles."
+      },
+      "correcta": "c",
+      "explicacion": "Hay que circular a velocidad moderada al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.g",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+        "cita": "Al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios de la vía.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0002",
+      "tema": "meteorologia_noche",
+      "subtema": "moderar_velocidad",
+      "enunciado": "¿En cuál de estas situaciones obliga el reglamento a circular a velocidad moderada?",
+      "opciones": {
+        "a": "En caso de niebla densa, lluvia intensa, nevada o nubes de polvo o humo.",
+        "b": "Solo cuando una señal lo indique.",
+        "c": "Solo de noche."
+      },
+      "correcta": "a",
+      "explicacion": "Entre los casos en que se circula a velocidad moderada y, si es preciso, se detiene el vehículo, están la niebla densa, la lluvia intensa, la nevada y las nubes de polvo o humo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.k",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+        "cita": "En los casos de niebla densa, lluvia intensa, nevada o nubes de polvo o humo.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0003",
+      "tema": "meteorologia_noche",
+      "subtema": "visibilidad_nula",
+      "enunciado": "Se acerca a una intersección debidamente señalizada y la visibilidad de la vía es prácticamente nula. ¿Qué velocidad no debe superar?",
+      "opciones": {
+        "a": "30 km/h.",
+        "b": "50 km/h.",
+        "c": "70 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Si las intersecciones están debidamente señalizadas y la visibilidad de la vía es prácticamente nula, la velocidad no deberá exceder de 50 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.h",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+        "cita": "la velocidad de los vehículos no deberá exceder de 50 kilómetros por hora",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0004",
+      "tema": "meteorologia_noche",
+      "subtema": "visibilidad_reducida",
+      "enunciado": "Al aproximarse a un lugar de reducida visibilidad o a un estrechamiento, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Encender la luz antiniebla trasera.",
+        "b": "Tocar el claxon y mantener la velocidad.",
+        "c": "Circular a velocidad moderada y, si fuera preciso, detenerse."
+      },
+      "correcta": "c",
+      "explicacion": "Al aproximarse a pasos a nivel, glorietas e intersecciones sin prioridad, lugares de reducida visibilidad o estrechamientos se circula a velocidad moderada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "46.1.h",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+        "cita": "a lugares de reducida visibilidad o a estrechamientos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0005",
+      "tema": "meteorologia_noche",
+      "subtema": "alumbrado_dia",
+      "enunciado": "Es de día y una nube de humo disminuye sensiblemente la visibilidad. ¿Es obligatorio llevar el alumbrado encendido?",
+      "opciones": {
+        "a": "Sí, es obligatorio en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad.",
+        "b": "No, el alumbrado solo es obligatorio de noche.",
+        "c": "Solo en autopistas y autovías."
+      },
+      "correcta": "a",
+      "explicacion": "Es obligatorio usar el alumbrado cuando las condiciones meteorológicas o ambientales disminuyan sensiblemente la visibilidad: niebla, lluvia intensa, nevada, nubes de humo o de polvo…",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "106.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a106",
+        "cita": "También será obligatorio utilizar el alumbrado cuando existan condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como en caso de niebla, lluvia intensa, nevada, nubes de humo o de polvo",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0006",
+      "tema": "meteorologia_noche",
+      "subtema": "noche_peligro",
+      "enunciado": "Según la DGT, ¿por qué es más peligroso conducir de noche?",
+      "opciones": {
+        "a": "Porque hay más vehículos en la carretera.",
+        "b": "Porque la carretera está menos iluminada, se ven peor las distancias, personas y vehículos, y otros pueden deslumbrarle.",
+        "c": "Porque los límites de velocidad son más altos."
+      },
+      "correcta": "b",
+      "explicacion": "De noche la vía está menos iluminada, se calculan peor las distancias y se ven peor personas, objetos y vehículos, y además hay riesgo de deslumbramiento.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir por la noche (p. 347)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Se ven peor las distancias, las personas, los objetos y los vehículos.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0007",
+      "tema": "meteorologia_noche",
+      "subtema": "adaptacion_ojos",
+      "enunciado": "De noche pasa de una zona bien iluminada a otra mal iluminada. ¿Por qué debe extremar la atención?",
+      "opciones": {
+        "a": "Porque debe apagar todas las luces.",
+        "b": "Porque cambia el límite de velocidad.",
+        "c": "Porque a los ojos les cuesta unos segundos acostumbrarse al cambio de luz."
+      },
+      "correcta": "c",
+      "explicacion": "Al pasar de una zona iluminada a otra oscura, los ojos tardan unos segundos en adaptarse al cambio de luz.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir por la noche (p. 347)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "A los ojos les cuesta unos segundos acostumbrarse al cambio de luz.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0008",
+      "tema": "meteorologia_noche",
+      "subtema": "deslumbramiento",
+      "enunciado": "Le deslumbra un vehículo que viene de frente y reduce la velocidad. ¿Por dónde recomienda guiarse la DGT?",
+      "opciones": {
+        "a": "Por la línea del borde derecho.",
+        "b": "Por las luces del vehículo que le deslumbra.",
+        "c": "Por la línea central, cambiando de carril si hace falta."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando le deslumbren, reduzca la velocidad o incluso pare con precaución, sin moverse a otros carriles; puede guiarse por la línea del borde derecho.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Deslumbramientos (p. 349)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Puedes guiarte por la línea del borde derecho.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0009",
+      "tema": "meteorologia_noche",
+      "subtema": "gafas_sol_noche",
+      "enunciado": "¿Es aconsejable usar gafas de sol por la noche para evitar los deslumbramientos?",
+      "opciones": {
+        "a": "Sí, siempre.",
+        "b": "No, porque se ve mucho peor la carretera.",
+        "c": "Sí, pero solo en autopista."
+      },
+      "correcta": "b",
+      "explicacion": "La DGT desaconseja las gafas oscuras o de sol de noche: pueden reducir el deslumbramiento, pero se ve mucho peor la carretera.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Deslumbramientos (p. 349)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "No uses gafas oscuras o de sol por la noche.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0010",
+      "tema": "meteorologia_noche",
+      "subtema": "niebla_precauciones",
+      "enunciado": "Circula con niebla. ¿Cuál de estas precauciones recomienda la DGT?",
+      "opciones": {
+        "a": "Circular pegado al vehículo de delante para guiarse por sus luces.",
+        "b": "Adelantar cuanto antes a los vehículos lentos.",
+        "c": "Mantener el vehículo bien ventilado para que no se empañen los cristales."
+      },
+      "correcta": "c",
+      "explicacion": "Con niebla: ventilar el vehículo para que no se empañen los cristales, encender las luces de cruce y antiniebla, ir despacio, mantener mucha distancia, evitar adelantar si no es necesario y extremar la precaución en los cruces.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con niebla (p. 360)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Mantén el vehículo bien ventilado para que no se empañen los cristales.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0011",
+      "tema": "meteorologia_noche",
+      "subtema": "polvo_humo",
+      "enunciado": "Según la DGT, ¿qué precauciones se toman con nubes de polvo o de humo?",
+      "opciones": {
+        "a": "Las mismas que para conducir con niebla.",
+        "b": "Ninguna especial, porque desaparecen enseguida.",
+        "c": "Acelerar para salir cuanto antes de la nube."
+      },
+      "correcta": "a",
+      "explicacion": "Las nubes de polvo y humo impiden ver bien y pueden aparecer de repente; hay que tomar las mismas precauciones que con niebla.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 14, Conducir con nubes de polvo o de humo (p. 361)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "debes tomar las mismas precauciones que para conducir con niebla.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bm6-0012",
+      "tema": "meteorologia_noche",
+      "subtema": "invierno",
+      "enunciado": "Va a viajar en invierno. ¿Cuál de estas precauciones recomienda la DGT?",
+      "opciones": {
+        "a": "Viajar preferentemente de noche, cuando hay menos tráfico.",
+        "b": "Llevar el depósito lleno de combustible y cadenas en el vehículo.",
+        "c": "Desinflar un poco los neumáticos para que agarren más."
+      },
+      "correcta": "b",
+      "explicacion": "En invierno: llevar cadenas, evitar conducir de noche, viajar con el depósito lleno y llevar ropa de abrigo, agua, comida y linterna.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Elegir la ruta (p. 439)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Viaja con el depósito lleno de combustible.",
+        "version_consultada": "2024-10"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0001",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "velocidad",
+      "enunciado": "En vía urbana, ¿en cuánto hay que superar la velocidad permitida para que el exceso sea delito?",
+      "opciones": {
+        "a": "En más de 30 km/h.",
+        "b": "En más de 50 km/h.",
+        "c": "En más de 60 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Es delito conducir a velocidad superior en 60 km/h en vía urbana o en 80 km/h en vía interurbana a la permitida.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "379.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a379",
+        "cita": "a velocidad superior en sesenta kilómetros por hora en vía urbana o en ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0002",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "velocidad",
+      "enunciado": "En una autovía limitada a 120 km/h, ¿a partir de qué velocidad el exceso constituye delito?",
+      "opciones": {
+        "a": "A partir de más de 200 km/h.",
+        "b": "A partir de más de 180 km/h.",
+        "c": "A partir de más de 150 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "En vía interurbana es delito superar en 80 km/h la velocidad permitida: con límite de 120 km/h, circular a más de 200 km/h.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "379.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a379",
+        "cita": "ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0003",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "alcohol",
+      "enunciado": "¿A partir de qué tasa de alcohol en aire espirado se comete en todo caso delito?",
+      "opciones": {
+        "a": "Superior a 0,25 mg/l.",
+        "b": "Superior a 0,60 mg/l.",
+        "c": "Superior a 0,50 mg/l."
+      },
+      "correcta": "b",
+      "explicacion": "En todo caso es delito conducir con una tasa de alcohol en aire espirado superior a 0,60 mg/l o en sangre superior a 1,2 g/l. Con tasas menores también puede ser delito si se conduce bajo la influencia del alcohol.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "379.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a379",
+        "cita": "En todo caso será condenado con dichas penas el que condujere con una tasa de alcohol en aire espirado superior a 0,60 miligramos por litro",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0004",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "alcohol",
+      "enunciado": "¿A partir de qué tasa de alcohol en sangre se comete en todo caso delito?",
+      "opciones": {
+        "a": "Superior a 0,5 g/l.",
+        "b": "Superior a 0,8 g/l.",
+        "c": "Superior a 1,2 g/l."
+      },
+      "correcta": "c",
+      "explicacion": "Es delito en todo caso conducir con una tasa de alcohol en sangre superior a 1,2 g/l (o en aire espirado superior a 0,60 mg/l).",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "379.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a379",
+        "cita": "o con una tasa de alcohol en sangre superior a 1,2 gramos por litro",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0005",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "negativa_pruebas",
+      "enunciado": "El conductor que, requerido por un agente, se niega a someterse a las pruebas de alcohol o drogas…",
+      "opciones": {
+        "a": "comete un delito castigado con prisión de seis meses a un año y privación del derecho a conducir.",
+        "b": "solo comete una infracción leve.",
+        "c": "no comete ninguna infracción si después demuestra que no había bebido."
+      },
+      "correcta": "a",
+      "explicacion": "Negarse a las pruebas legalmente establecidas de alcohol y drogas es delito, con prisión de seis meses a un año y privación del derecho a conducir de más de uno y hasta cuatro años.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "383",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a383",
+        "cita": "será castigado con la penas de prisión de seis meses a un año y privación del derecho a conducir vehículos a motor y ciclomotores",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0006",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "sin_permiso",
+      "enunciado": "Conducir un turismo sin haber obtenido nunca el permiso de conducción, ¿qué es?",
+      "opciones": {
+        "a": "Una infracción administrativa leve.",
+        "b": "Un delito.",
+        "c": "Una infracción grave sin consecuencias penales."
+      },
+      "correcta": "b",
+      "explicacion": "El Código Penal castiga a quien conduce un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia, y también a quien conduce tras perder todos los puntos o estando privado del permiso por decisión judicial.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "384",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a384",
+        "cita": "al que condujere un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia de conducción",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0007",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "sin_puntos",
+      "enunciado": "Ha perdido la vigencia de su permiso por pérdida total de los puntos y sigue conduciendo. ¿Qué comete?",
+      "opciones": {
+        "a": "Nada, mientras no le retiren físicamente el permiso.",
+        "b": "Una infracción leve.",
+        "c": "Un delito."
+      },
+      "correcta": "c",
+      "explicacion": "Conducir con el permiso sin vigencia por pérdida total de los puntos es delito, castigado con prisión de tres a seis meses, multa o trabajos en beneficio de la comunidad.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "384",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a384",
+        "cita": "en los casos de pérdida de vigencia del permiso o licencia por pérdida total de los puntos asignados legalmente",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0008",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "temeridad",
+      "enunciado": "Conducir con temeridad manifiesta poniendo en concreto peligro la vida o la integridad de las personas, ¿qué es?",
+      "opciones": {
+        "a": "Un delito castigado con prisión de seis meses a dos años y privación del derecho a conducir.",
+        "b": "Una infracción grave.",
+        "c": "Solo una infracción muy grave sin consecuencias penales."
+      },
+      "correcta": "a",
+      "explicacion": "La conducción con temeridad manifiesta que pone en concreto peligro la vida o la integridad de las personas es delito, con prisión de seis meses a dos años y privación del derecho a conducir de más de uno y hasta seis años.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "380.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a380",
+        "cita": "con temeridad manifiesta y pusiere en concreto peligro la vida o la integridad de las personas",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0009",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "abandono_accidente",
+      "enunciado": "El conductor que, voluntariamente y sin riesgo propio o ajeno, abandona el lugar tras causar un accidente con fallecidos o heridos graves, ¿qué comete?",
+      "opciones": {
+        "a": "Una infracción leve, si después se presenta ante la policía.",
+        "b": "Un delito de abandono del lugar del accidente.",
+        "c": "Nada, si el accidente fue fortuito."
+      },
+      "correcta": "b",
+      "explicacion": "Es delito de abandono del lugar del accidente, también si el origen fue fortuito (en ese caso con pena de tres a seis meses de prisión y privación del derecho a conducir de seis meses a dos años).",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "382 bis.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a382",
+        "cita": "será castigado como autor de un delito de abandono del lugar del accidente",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "bmp-0010",
+      "tema": "delitos_seguridad_vial",
+      "subtema": "obstaculos",
+      "enunciado": "Colocar en la vía obstáculos imprevisibles o derramar sustancias deslizantes, originando un grave riesgo para la circulación, ¿qué es?",
+      "opciones": {
+        "a": "Una infracción leve.",
+        "b": "Una infracción grave sin consecuencias penales.",
+        "c": "Un delito."
+      },
+      "correcta": "c",
+      "explicacion": "Quien origina un grave riesgo para la circulación colocando obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o alterando la señalización comete un delito.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "385",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a385",
+        "cita": "Colocando en la vía obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o mutando, sustrayendo o anulando la señalización",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    }
+  ]
+}

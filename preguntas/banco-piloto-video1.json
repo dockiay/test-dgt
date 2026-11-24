@@ -1,0 +1,2212 @@
+{
+  "version": 1,
+  "normativa_consultada": {
+    "RGC": {
+      "ref": "BOE-A-2003-23514",
+      "nombre": "Reglamento General de Circulación (RD 1428/2003)",
+      "ultima_actualizacion": "2026-06-26"
+    },
+    "LSV": {
+      "ref": "BOE-A-2015-11722",
+      "nombre": "Ley de Tráfico y Seguridad Vial (RDL 6/2015)",
+      "ultima_actualizacion": "2026-06-26"
+    }
+  },
+  "preguntas": [
+    {
+      "id": "def-0001",
+      "tema": "definiciones",
+      "subtema": "peaton",
+      "enunciado": "Una persona con discapacidad que circula al paso en una silla de ruedas con motor, ¿tiene la consideración de peatón?",
+      "opciones": {
+        "a": "Sí, con o sin motor.",
+        "b": "No, porque la silla tiene motor; es un vehículo para personas de movilidad reducida.",
+        "c": "Solo si la silla no tiene motor."
+      },
+      "correcta": "a",
+      "explicacion": "La Ley de Tráfico considera peatones a las personas con discapacidad que circulan al paso en silla de ruedas, tenga o no motor.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "y las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:52"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0002",
+      "tema": "definiciones",
+      "subtema": "peaton",
+      "enunciado": "Quien conduce a pie una bicicleta, sin ir montado en ella, ¿qué consideración tiene?",
+      "opciones": {
+        "a": "Conductor de un ciclo.",
+        "b": "Peatón.",
+        "c": "Conductor de un vehículo de tracción humana."
+      },
+      "correcta": "b",
+      "explicacion": "Los que conducen a pie un ciclo o un ciclomotor de dos ruedas tienen la consideración de peatones.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "los que conducen a pie un ciclo o ciclomotor de dos ruedas",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:52"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0003",
+      "tema": "definiciones",
+      "subtema": "conductor",
+      "enunciado": "¿Quién es el conductor de un rebaño de animales que circula por la vía?",
+      "opciones": {
+        "a": "Nadie; solo se considera conductor a quien maneja un vehículo.",
+        "b": "El propietario de los animales, aunque no esté presente.",
+        "c": "La persona a cuyo cargo están los animales."
+      },
+      "correcta": "c",
+      "explicacion": "Es conductor también la persona a cuyo cargo está un animal o animales.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "va al mando de un vehículo, o a cuyo cargo está un animal o animales",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:28"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0004",
+      "tema": "definiciones",
+      "subtema": "ciclo",
+      "enunciado": "Una bicicleta de pedaleo asistido (con un pequeño motor que ayuda al pedaleo), ¿es un ciclo?",
+      "opciones": {
+        "a": "Sí, los ciclos de pedaleo asistido se incluyen en la definición de ciclo.",
+        "b": "No, es un ciclomotor.",
+        "c": "No, es un vehículo de movilidad personal."
+      },
+      "correcta": "a",
+      "explicacion": "La definición de ciclo incluye expresamente los ciclos de pedaleo asistido.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.7",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "Se incluyen en esta definición los ciclos de pedaleo asistido.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "7:17"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0005",
+      "tema": "definiciones",
+      "subtema": "ciclomotor",
+      "enunciado": "¿Cuál es la velocidad máxima por construcción de un ciclomotor de dos ruedas?",
+      "opciones": {
+        "a": "No superior a 50 km/h.",
+        "b": "No superior a 45 km/h.",
+        "c": "No superior a 60 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Un ciclomotor de dos ruedas tiene una velocidad máxima por construcción no superior a 45 km/h.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.9.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "Vehículo de dos ruedas, con una velocidad máxima por construcción no superior a 45 km/h",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "8:08"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0006",
+      "tema": "definiciones",
+      "subtema": "ciclomotor",
+      "enunciado": "Un vehículo de cuatro ruedas, con masa en vacío de hasta 350 kg y velocidad máxima por construcción de 45 km/h (cuadriciclo ligero), ¿qué tipo de vehículo es?",
+      "opciones": {
+        "a": "Un turismo.",
+        "b": "Un vehículo especial.",
+        "c": "Un ciclomotor."
+      },
+      "correcta": "c",
+      "explicacion": "La Ley de Tráfico incluye entre los ciclomotores a los vehículos de cuatro ruedas de masa en vacío hasta 350 kg y velocidad máxima de 45 km/h.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.9.c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "Vehículos de cuatro ruedas, cuya masa en vacío sea inferior o igual a 350 kilogramos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "9:21"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0007",
+      "tema": "definiciones",
+      "subtema": "vehiculo_de_motor",
+      "enunciado": "Según la Ley de Tráfico, ¿cuál de estos vehículos queda excluido de la definición de «vehículo de motor»?",
+      "opciones": {
+        "a": "El ciclomotor.",
+        "b": "La motocicleta.",
+        "c": "El camión."
+      },
+      "correcta": "a",
+      "explicacion": "La definición de vehículo de motor excluye los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.12",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "Se excluyen de esta definición los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "8:28"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0008",
+      "tema": "definiciones",
+      "subtema": "mma",
+      "enunciado": "¿Qué es la masa máxima autorizada (MMA)?",
+      "opciones": {
+        "a": "La masa del vehículo vacío, sin conductor ni carga.",
+        "b": "La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas.",
+        "c": "La masa que soporta cada eje del vehículo."
+      },
+      "correcta": "b",
+      "explicacion": "La MMA es la masa máxima con la que un vehículo cargado puede circular por las vías públicas.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.37",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "11:52"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0009",
+      "tema": "definiciones",
+      "subtema": "tara",
+      "enunciado": "La tara de un vehículo es su masa…",
+      "opciones": {
+        "a": "sin conductor y sin combustible.",
+        "b": "con el conductor y la carga máxima permitida.",
+        "c": "sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios reglamentarios."
+      },
+      "correcta": "c",
+      "explicacion": "La tara es la masa sin personas ni carga, pero con la dotación completa de combustible, agua, lubricante, repuestos, herramientas y accesorios.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.35",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "11:30"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0010",
+      "tema": "definiciones",
+      "subtema": "turismo",
+      "enunciado": "¿Cuántas plazas puede tener como máximo un turismo, además del asiento del conductor?",
+      "opciones": {
+        "a": "Ocho.",
+        "b": "Seis.",
+        "c": "Nueve."
+      },
+      "correcta": "a",
+      "explicacion": "Un turismo tiene, además del asiento del conductor, ocho plazas como máximo.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.15",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "además del asiento del conductor, ocho plazas como máximo",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "3:09"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0011",
+      "tema": "definiciones",
+      "subtema": "camion",
+      "enunciado": "¿Qué caracteriza a un camión según la Ley de Tráfico?",
+      "opciones": {
+        "a": "Que tiene más de nueve plazas.",
+        "b": "Que su cabina no está integrada en el resto de la carrocería.",
+        "c": "Que su masa máxima autorizada supera siempre los 3.500 kg."
+      },
+      "correcta": "b",
+      "explicacion": "El camión es un automóvil para transporte de mercancías cuya cabina no está integrada en el resto de la carrocería.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.18",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "cuya cabina no está integrada en el resto de la carrocería",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "4:31"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "def-0012",
+      "tema": "definiciones",
+      "subtema": "mixto_adaptable",
+      "enunciado": "Un vehículo en el que se puede sustituir la carga, parcial o totalmente, por personas mediante la adición de asientos, es un…",
+      "opciones": {
+        "a": "derivado de turismo.",
+        "b": "furgón.",
+        "c": "vehículo mixto adaptable."
+      },
+      "correcta": "c",
+      "explicacion": "Es la definición de vehículo mixto adaptable: transporte simultáneo o no de mercancías y personas, hasta nueve incluido el conductor.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.19",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "se puede sustituir eventualmente la carga, parcial o totalmente, por personas mediante la adición de asientos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "3:38"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "via-0001",
+      "tema": "vias",
+      "subtema": "travesia",
+      "enunciado": "¿Qué es una travesía?",
+      "opciones": {
+        "a": "Un tramo de carretera que discurre por poblado.",
+        "b": "Una vía urbana con un solo carril por sentido.",
+        "c": "Un camino rural que une dos poblaciones."
+      },
+      "correcta": "a",
+      "explicacion": "La travesía es el tramo de carretera que discurre por poblado.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.71",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "Tramo de carretera que discurre por poblado.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "15:36"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7,
+      "imagen_requerida": null
+    },
+    {
+      "id": "via-0002",
+      "tema": "vias",
+      "subtema": "interurbana",
+      "enunciado": "Una vía interurbana es una vía pública situada…",
+      "opciones": {
+        "a": "dentro de poblado.",
+        "b": "fuera de poblado.",
+        "c": "entre dos carriles bici."
+      },
+      "correcta": "b",
+      "explicacion": "Vía interurbana es la vía pública situada fuera de poblado.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.72",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "Vía interurbana. Vía pública situada fuera de poblado.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "14:46"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7,
+      "imagen_requerida": null
+    },
+    {
+      "id": "via-0003",
+      "tema": "vias",
+      "subtema": "autopista_autovia",
+      "enunciado": "¿Cuál es la diferencia entre autopista y autovía respecto a las propiedades colindantes?",
+      "opciones": {
+        "a": "Ninguna; en ambas tienen acceso libre.",
+        "b": "En la autovía no tienen acceso; en la autopista tienen acceso limitado.",
+        "c": "En la autopista no tienen acceso; en la autovía tienen acceso limitado."
+      },
+      "correcta": "c",
+      "explicacion": "La autopista no permite el acceso de las propiedades colindantes; la autovía lo tiene limitado.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.66",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "No tener acceso a la misma las propiedades colindantes.",
+        "version_consultada": "2026-06-26",
+        "cita_adicional": {
+          "norma": "LSV",
+          "articulo": "Anexo I.67",
+          "cita": "Tener acceso limitado a ella las propiedades colindantes."
+        }
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "18:56"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7,
+      "imagen_requerida": null
+    },
+    {
+      "id": "via-0004",
+      "tema": "vias",
+      "subtema": "carretera_convencional",
+      "enunciado": "¿Qué es una carretera convencional?",
+      "opciones": {
+        "a": "La que no reúne las características de autopistas, autovías y vías para automóviles.",
+        "b": "Cualquier carretera con un solo carril por sentido.",
+        "c": "Cualquier carretera sin arcén."
+      },
+      "correcta": "a",
+      "explicacion": "Carretera convencional es la que no reúne las características propias de autopistas, autovías y vías para automóviles.",
+      "fuente": {
+        "norma": "LSV",
+        "articulo": "Anexo I.69",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+        "cita": "Carretera que no reúne las características propias de las autopistas, autovías y vías para automóviles.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "15:06"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7,
+      "imagen_requerida": null
+    },
+    {
+      "id": "via-0005",
+      "tema": "vias",
+      "subtema": "autopista_autovia",
+      "enunciado": "¿Pueden circular las bicicletas por una autovía?",
+      "opciones": {
+        "a": "No, nunca.",
+        "b": "Sí, por los arcenes, si el ciclista es mayor de 14 años y no lo prohíbe la señalización.",
+        "c": "Sí, por cualquier carril, a partir de 16 años."
+      },
+      "correcta": "b",
+      "explicacion": "Está prohibido circular en bicicleta por autopistas y autovías, pero los mayores de 14 años pueden ir por los arcenes de las autovías salvo prohibición señalizada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "38.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a38",
+        "cita": "los conductores de bicicletas mayores de 14 años podrán circular por los arcenes de las autovías",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "20:46"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7,
+      "imagen_requerida": null
+    },
+    {
+      "id": "via-0006",
+      "tema": "vias",
+      "subtema": "autopista_autovia",
+      "enunciado": "¿Puede circular un ciclomotor por una autopista o autovía?",
+      "opciones": {
+        "a": "Sí, por el arcén.",
+        "b": "Sí, si no supera los 45 km/h.",
+        "c": "No, está prohibido."
+      },
+      "correcta": "c",
+      "explicacion": "Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "38.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a38",
+        "cita": "Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "20:13"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7,
+      "imagen_requerida": null
+    },
+    {
+      "id": "via-0007",
+      "tema": "vias",
+      "subtema": "vmp",
+      "enunciado": "¿Puede circular un patinete eléctrico (vehículo de movilidad personal) por una travesía?",
+      "opciones": {
+        "a": "No, está prohibido.",
+        "b": "Sí, porque la travesía está dentro de poblado.",
+        "c": "Sí, pero solo por el arcén."
+      },
+      "correcta": "a",
+      "explicacion": "Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "38.4.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a38",
+        "cita": "Se prohíbe circular con vehículos de movilidad personal: a) Por autopistas y autovías. b) Por travesías.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "23:02"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0001",
+      "tema": "por_donde_circular",
+      "subtema": "arcen",
+      "enunciado": "Fuera de poblado, si no hay zona peatonal practicable, ¿por dónde debe circular un peatón que va solo?",
+      "opciones": {
+        "a": "Por el arcén derecho.",
+        "b": "Por el arcén izquierdo, si existe y es practicable.",
+        "c": "Siempre por la calzada."
+      },
+      "correcta": "b",
+      "explicacion": "Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "122.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a122",
+        "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "25:53"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0002",
+      "tema": "por_donde_circular",
+      "subtema": "arcen",
+      "enunciado": "Una persona que arrastra su bicicleta por una carretera, ¿por qué lado debe circular?",
+      "opciones": {
+        "a": "Por la izquierda.",
+        "b": "Por el lado que prefiera.",
+        "c": "Por la derecha."
+      },
+      "correcta": "c",
+      "explicacion": "Es obligatorio circular por la derecha para quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas o VMP.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "122.2.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a122",
+        "cita": "Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "26:32"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0003",
+      "tema": "por_donde_circular",
+      "subtema": "arcen",
+      "enunciado": "Un grupo de peatones dirigido por una persona que circula por una carretera, ¿por qué lado debe ir?",
+      "opciones": {
+        "a": "Por la derecha.",
+        "b": "Por la izquierda.",
+        "c": "Por el centro de la calzada."
+      },
+      "correcta": "a",
+      "explicacion": "Todo grupo de peatones dirigido por una persona debe circular por la derecha.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "122.2.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a122",
+        "cita": "Todo grupo de peatones dirigido por una persona.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "26:32"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0004",
+      "tema": "por_donde_circular",
+      "subtema": "visibilidad_peaton",
+      "enunciado": "Un peatón que de noche camina por el arcén de una vía interurbana, ¿qué debe llevar?",
+      "opciones": {
+        "a": "Nada, si camina por el arcén.",
+        "b": "Al menos un elemento luminoso o reflectante visible a 150 metros.",
+        "c": "Una linterna de luz roja hacia delante."
+      },
+      "correcta": "b",
+      "explicacion": "Entre el ocaso y la salida del sol, o con poca visibilidad, deben llevar al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "123.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a123",
+        "cita": "deberán hacer uso, al menos, de un elemento luminoso o reflectante conforme a la normativa de equipos de protección individual, que sea visible a una distancia mínima de 150 metros para los conductores que se les aproximen",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "25:21"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0005",
+      "tema": "por_donde_circular",
+      "subtema": "visibilidad_peaton",
+      "enunciado": "Un grupo de peatones que circula de noche por una vía interurbana debe llevar luces. ¿De qué color hacia atrás?",
+      "opciones": {
+        "a": "Blanco.",
+        "b": "Amarillo.",
+        "c": "Rojo."
+      },
+      "correcta": "c",
+      "explicacion": "Las luces del grupo serán de color blanco o amarillo hacia adelante y rojo hacia atrás, en el lado más próximo al centro de la calzada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "123.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a123",
+        "cita": "que serán de color blanco o amarillo hacia adelante y rojo hacia atrás",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "28:14"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0006",
+      "tema": "por_donde_circular",
+      "subtema": "visibilidad_peaton",
+      "enunciado": "Las luces que debe llevar de noche un grupo de peatones en vía interurbana, ¿en qué lado se llevan?",
+      "opciones": {
+        "a": "En el lado más próximo al centro de la calzada.",
+        "b": "En el lado más alejado de la calzada.",
+        "c": "Da igual el lado."
+      },
+      "correcta": "a",
+      "explicacion": "Se llevan en el lado más próximo al centro de la calzada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "123.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a123",
+        "cita": "en el lado más próximo al centro de la calzada, las luces necesarias para precisar su situación y dimensiones",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "28:06"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0007",
+      "tema": "por_donde_circular",
+      "subtema": "arcen",
+      "enunciado": "¿Por dónde debe circular un vehículo especial de 3.000 kg de MMA fuera de poblado, si el arcén es transitable y suficiente?",
+      "opciones": {
+        "a": "Por el carril derecho de la calzada.",
+        "b": "Por el arcén de su derecha.",
+        "c": "Por el carril izquierdo."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "36.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a36",
+        "cita": "vehículos especiales con masa máxima autorizada no superior a 3.500 kilogramos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "29:24"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0008",
+      "tema": "por_donde_circular",
+      "subtema": "ciclistas",
+      "enunciado": "Los ciclistas que circulan por el arcén, ¿pueden ir en columna de a dos?",
+      "opciones": {
+        "a": "No, nunca.",
+        "b": "Solo dentro de poblado.",
+        "c": "Sí."
+      },
+      "correcta": "c",
+      "explicacion": "Los conductores de bicicletas pueden circular en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, deben ponerse en hilera en tramos sin visibilidad, si afectan a la fluidez, de noche o con poca visibilidad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "36.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a36",
+        "cita": "los conductores de bicicletas podrán circular en columna de a dos por el arcén",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "28:34"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0009",
+      "tema": "por_donde_circular",
+      "subtema": "ciclistas",
+      "enunciado": "Dos ciclistas circulan de noche por la calzada de una carretera sin arcén. ¿Cómo deben ir?",
+      "opciones": {
+        "a": "En hilera, uno detrás de otro.",
+        "b": "En columna de a dos.",
+        "c": "Como prefieran."
+      },
+      "correcta": "a",
+      "explicacion": "Deben colocarse en hilera, entre otros casos, cuando circulen entre el ocaso y la salida del sol.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "36.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a36",
+        "cita": "cuando circulen entre el ocaso y la salida del sol",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "28:41"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0010",
+      "tema": "por_donde_circular",
+      "subtema": "motos_arcen",
+      "enunciado": "En un tramo señalizado para ello, con la circulación detenida por congestión, ¿a qué velocidad máxima puede circular una motocicleta por el arcén?",
+      "opciones": {
+        "a": "20 km/h.",
+        "b": "30 km/h.",
+        "c": "50 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "En los tramos habilitados y señalizados, y solo con la circulación detenida por congestión, la velocidad por el arcén está limitada a 30 km/h, en columna de a uno.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "36.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a36",
+        "cita": "La velocidad estará limitada a 30 km/h y únicamente se podrá circular en columna de a uno",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "32:05"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0011",
+      "tema": "por_donde_circular",
+      "subtema": "carril_emergencia",
+      "enunciado": "En una autovía con tres carriles por sentido hay una retención. ¿Dónde debe formarse el carril de emergencia?",
+      "opciones": {
+        "a": "Entre el carril derecho y el arcén.",
+        "b": "En el centro, entre el segundo y el tercer carril contando desde la izquierda.",
+        "c": "Entre el carril situado más a la izquierda y el carril contiguo a él."
+      },
+      "correcta": "c",
+      "explicacion": "Con tres o más carriles en el mismo sentido, el carril de emergencia se forma entre el carril más a la izquierda y su contiguo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "32.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a32",
+        "cita": "el carril de emergencia deberá formarse entre el carril situado más a la izquierda y el carril contiguo a él",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "33:32"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0012",
+      "tema": "por_donde_circular",
+      "subtema": "carril_emergencia",
+      "enunciado": "En una autopista con dos carriles por sentido, con la circulación detenida, ¿dónde se forma el carril de emergencia?",
+      "opciones": {
+        "a": "En el centro de la vía, entre esos dos carriles.",
+        "b": "En el arcén.",
+        "c": "No es obligatorio formarlo."
+      },
+      "correcta": "a",
+      "explicacion": "Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "32.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a32",
+        "cita": "el carril de emergencia deberá formarse en el centro de la vía, entre esos dos carriles",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "32:56"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0013",
+      "tema": "por_donde_circular",
+      "subtema": "nieve",
+      "enunciado": "En una autopista con dos carriles por sentido y la circulación dificultada por la nieve, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Circular por el carril izquierdo, que suele estar más limpio.",
+        "b": "Circular por el carril más a la derecha; está prohibido adelantar.",
+        "c": "Adelantar solo a los vehículos pesados."
+      },
+      "correcta": "b",
+      "explicacion": "Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "32.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a32",
+        "cita": "estará prohibido adelantar y será obligatorio circular por el carril situado más a la derecha",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "37:11"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0014",
+      "tema": "por_donde_circular",
+      "subtema": "carriles",
+      "enunciado": "Fuera de poblado, en una calzada con tres carriles para su sentido, ¿qué carriles puede usar normalmente un camión de más de 3.500 kg de MMA?",
+      "opciones": {
+        "a": "Cualquiera de los tres.",
+        "b": "Solo el situado más a la derecha, sin poder adelantar.",
+        "c": "El situado más a la derecha y el inmediato."
+      },
+      "correcta": "c",
+      "explicacion": "Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "31.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a31",
+        "cita": "circularán normalmente por el situado más a la derecha, y podrán utilizar el inmediato",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "36:30"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "arc-0015",
+      "tema": "por_donde_circular",
+      "subtema": "carriles",
+      "enunciado": "Dentro de poblado, en una calzada con dos carriles para su sentido delimitados por marcas, ¿qué carril puede utilizar un turismo?",
+      "opciones": {
+        "a": "El que mejor convenga a su destino.",
+        "b": "Obligatoriamente el de la derecha.",
+        "c": "El de la izquierda, salvo para girar a la derecha."
+      },
+      "correcta": "a",
+      "explicacion": "En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "33",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a33",
+        "cita": "podrá utilizar el que mejor convenga a su destino",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "34:17"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "cesp-0001",
+      "tema": "carriles_especiales",
+      "subtema": "sentido_contrario",
+      "enunciado": "¿Qué vehículos pueden circular por un carril habilitado en sentido contrario al habitual por razones de fluidez?",
+      "opciones": {
+        "a": "Todos los vehículos.",
+        "b": "Solo motocicletas y turismos (sin remolque).",
+        "c": "Turismos, furgonetas y autobuses."
+      },
+      "correcta": "b",
+      "explicacion": "Su utilización queda limitada a motocicletas y turismos, y está prohibida al resto, incluidos los turismos con remolque.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "41.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a41",
+        "cita": "queda limitada a las motocicletas y turismos, y está prohibida, por lo tanto, al resto de los vehículos, incluidos los turismos con remolque",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "39:32"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "cesp-0002",
+      "tema": "carriles_especiales",
+      "subtema": "sentido_contrario",
+      "enunciado": "¿A qué velocidad se circula por un carril habilitado en sentido contrario al habitual, salvo que se señalice otra inferior?",
+      "opciones": {
+        "a": "Máxima 100 km/h y mínima 60 km/h.",
+        "b": "Máxima 120 km/h, como en la autopista.",
+        "c": "Máxima 80 km/h y mínima 60 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Se circula con al menos la luz de cruce, de día y de noche, a un máximo de 80 km/h y un mínimo de 60 km/h, o inferiores si así se señaliza.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "41.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a41",
+        "cita": "a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "39:50"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "cesp-0003",
+      "tema": "carriles_especiales",
+      "subtema": "sentido_contrario",
+      "enunciado": "Si el carril se habilita en sentido contrario al habitual por obras en la calzada, ¿quién puede circular por él?",
+      "opciones": {
+        "a": "Todos los tipos de vehículos autorizados a circular por la vía en obra, salvo prohibición expresa.",
+        "b": "Solo turismos y motocicletas.",
+        "c": "Solo vehículos de servicio de las obras."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "41.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a41",
+        "cita": "podrán circular por dichos carriles todos los tipos de vehículos que estén autorizados a circular por la vía en obra",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "41:08"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "cesp-0004",
+      "tema": "carriles_especiales",
+      "subtema": "adicional_circunstancial",
+      "enunciado": "¿A qué velocidad máxima se circula por un carril adicional circunstancial, salvo que se señalice otra inferior?",
+      "opciones": {
+        "a": "60 km/h.",
+        "b": "80 km/h.",
+        "c": "90 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos que circulen por los arcenes y por el carril adicional lo harán a un máximo de 80 km/h y un mínimo de 60 km/h, con al menos la luz de cruce.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "42.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a42",
+        "cita": "Los vehículos que circulen por los arcenes y por dicho carril adicional lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "41:41"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "cesp-0005",
+      "tema": "carriles_especiales",
+      "subtema": "reversible",
+      "enunciado": "Al circular por un carril reversible, ¿qué alumbrado debe llevar?",
+      "opciones": {
+        "a": "Ninguno, si es de día.",
+        "b": "Las luces antiniebla traseras.",
+        "c": "Al menos la luz de corto alcance o de cruce, de día y de noche."
+      },
+      "correcta": "c",
+      "explicacion": "En un carril reversible hay que llevar encendida, al menos, la luz de corto alcance o de cruce, tanto de día como de noche.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "40.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a40",
+        "cita": "deberán llevar encendida, al menos, la luz de corto alcance o de cruce en sus vehículos tanto de día como de noche",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "43:20"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "cesp-0006",
+      "tema": "carriles_especiales",
+      "subtema": "vao",
+      "enunciado": "¿Puede circular un turismo con remolque por un carril VAO?",
+      "opciones": {
+        "a": "No, está prohibido.",
+        "b": "Sí, si lleva el número mínimo de ocupantes.",
+        "c": "Sí, si el remolque es ligero."
+      },
+      "correcta": "a",
+      "explicacion": "El uso del carril VAO se limita a motocicletas, turismos y mixtos adaptables, y está prohibido al resto, incluidos los turismos con remolque.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "35.2.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a35",
+        "cita": "está prohibida, por tanto, al resto de los vehículos y conjuntos de vehículos, incluidos los turismos con remolque",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "45:26"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "cesp-0007",
+      "tema": "carriles_especiales",
+      "subtema": "vao",
+      "enunciado": "¿Puede usar un carril VAO un turismo ocupado solo por su conductor que lleva la señal V-15?",
+      "opciones": {
+        "a": "No, debe llevar siempre el número mínimo de ocupantes.",
+        "b": "Sí, si así se indica para ese tramo.",
+        "c": "Solo si es un vehículo eléctrico."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos autorizados pueden usar el VAO aun cuando solo lo ocupe el conductor si ostentan la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad. Siempre que así se indique en la relación de tramos de ese carril VAO.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "35.2.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a35",
+        "cita": "aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "46:21"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "cesp-0008",
+      "tema": "carriles_especiales",
+      "subtema": "vao",
+      "enunciado": "Un autobús de más de 3.500 kg de MMA, ¿puede usar un carril VAO aunque vaya vacío?",
+      "opciones": {
+        "a": "No.",
+        "b": "Solo si lleva al menos dos pasajeros.",
+        "c": "Sí, con independencia de su número de ocupantes, si así se indica para ese tramo."
+      },
+      "correcta": "c",
+      "explicacion": "Los autobuses de más de 3.500 kg y los articulados pueden usarlo con independencia del número de ocupantes, en las condiciones fijadas para el tramo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "35.2.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a35",
+        "cita": "por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "47:12"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "dist-0001",
+      "tema": "distancias",
+      "subtema": "tunel",
+      "enunciado": "Dentro de un túnel, sin intención de adelantar, ¿qué distancia mínima debe mantener un turismo con el vehículo precedente?",
+      "opciones": {
+        "a": "100 metros o 4 segundos.",
+        "b": "50 metros o 2 segundos.",
+        "c": "150 metros o 6 segundos."
+      },
+      "correcta": "a",
+      "explicacion": "En túneles o pasos inferiores hay que mantener al menos 100 metros o un intervalo mínimo de cuatro segundos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "95.6",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a95",
+        "cita": "de, al menos, 100 metros o un intervalo mínimo de cuatro segundos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "52:47"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "dist-0002",
+      "tema": "distancias",
+      "subtema": "tunel",
+      "enunciado": "Dentro de un túnel, ¿qué distancia mínima debe mantener un vehículo de más de 3.500 kg de MMA con el precedente?",
+      "opciones": {
+        "a": "100 metros o 4 segundos.",
+        "b": "150 metros o 6 segundos.",
+        "c": "200 metros o 8 segundos."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos de MMA superior a 3.500 kg deben guardar al menos 150 metros o seis segundos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "95.6",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a95",
+        "cita": "será de, al menos, 150 metros o un intervalo mínimo de seguridad de seis segundos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "53:08"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6,
+      "imagen_requerida": null
+    },
+    {
+      "id": "dist-0003",
+      "tema": "distancias",
+      "subtema": "facilitar_adelantamiento",
+      "enunciado": "Fuera de poblado, en una vía con un solo carril por sentido donde está permitido adelantar, un camión de 12.000 kg que no va a adelantar, ¿qué separación mínima debe dejar con el vehículo de delante para facilitar que le adelanten?",
+      "opciones": {
+        "a": "25 metros.",
+        "b": "100 metros.",
+        "c": "50 metros."
+      },
+      "correcta": "c",
+      "explicacion": "Los vehículos de más de 3.500 kg y los de más de 10 m deben guardar una separación mínima de 50 metros para que puedan adelantarles con seguridad. No se aplica en poblado, donde está prohibido adelantar o donde hay más de un carril por sentido.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "54.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+        "cita": "deberán guardar, a estos efectos, una separación mínima de 50 metros",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "52:19"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 5,
+      "imagen_requerida": null
+    },
+    {
+      "id": "dist-0004",
+      "tema": "distancias",
+      "subtema": "facilitar_adelantamiento",
+      "enunciado": "La obligación de dejar una separación extra para que otro pueda adelantarle, ¿se aplica en una vía donde está prohibido adelantar?",
+      "opciones": {
+        "a": "No.",
+        "b": "Sí, siempre.",
+        "c": "Solo a los turismos."
+      },
+      "correcta": "a",
+      "explicacion": "Esa obligación no se aplica en poblado, donde esté prohibido adelantar, donde haya más de un carril en el mismo sentido o con circulación muy saturada.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "54.3.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+        "cita": "Donde estuviese prohibido el adelantamiento.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "55:31"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 5,
+      "imagen_requerida": null
+    },
+    {
+      "id": "dist-0005",
+      "tema": "distancias",
+      "subtema": "ciclistas",
+      "enunciado": "En vía urbana, un turismo circula detrás de un ciclista en el mismo carril. ¿Qué separación mínima debe dejar?",
+      "opciones": {
+        "a": "1,5 metros.",
+        "b": "5 metros.",
+        "c": "3 metros."
+      },
+      "correcta": "b",
+      "explicacion": "Los conductores de vehículos a motor deben dejar una separación mínima de cinco metros con los ciclistas que les precedan en el mismo carril.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "153.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a153",
+        "cita": "deberán dejar una separación mínima de cinco metros con los ciclistas que les precedan en el mismo carril",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:00:13"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 5,
+      "imagen_requerida": null
+    },
+    {
+      "id": "adel-0001",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "enunciado": "Al adelantar a un ciclista, ¿qué anchura de seguridad mínima hay que guardar?",
+      "opciones": {
+        "a": "1 metro.",
+        "b": "2 metros.",
+        "c": "1,5 metros."
+      },
+      "correcta": "c",
+      "explicacion": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, VMP o ciclistas hay que guardar una anchura de seguridad de al menos 1,5 metros.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
+        "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "58:34"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "adel-0002",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "enunciado": "Va a adelantar a un ciclista en una calzada con dos carriles para su sentido. ¿Qué debe hacer?",
+      "opciones": {
+        "a": "Cambiar completamente de carril.",
+        "b": "Basta con dejar 1,5 metros, aunque no cambie de carril.",
+        "c": "Tocar el claxon y adelantar por el mismo carril."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando la calzada tiene más de un carril por sentido, es obligatorio el cambio completo de carril.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
+        "cita": "salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:00:34"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "adel-0003",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "enunciado": "Fuera de poblado, en una vía limitada a 90 km/h, va a adelantar a un ciclista. ¿A qué velocidad máxima puede hacerlo?",
+      "opciones": {
+        "a": "90 km/h.",
+        "b": "70 km/h.",
+        "c": "80 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Fuera de poblado hay que reducir la velocidad al menos 20 km/h respecto al límite de la vía, antes y durante todo el adelantamiento: 90 − 20 = 70 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
+        "cita": "deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "59:34"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "adel-0004",
+      "tema": "adelantamiento",
+      "subtema": "vulnerables",
+      "enunciado": "A efectos del adelantamiento, un grupo de ciclistas que circula junto…",
+      "opciones": {
+        "a": "se adelanta ciclista a ciclista, volviendo al carril entre ellos.",
+        "b": "no puede ser adelantado.",
+        "c": "se considera una única unidad móvil."
+      },
+      "correcta": "c",
+      "explicacion": "Cuando los ciclistas circulen en grupo, se consideran como una única unidad móvil.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "85.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
+        "cita": "Cuando los conductores de bicicletas circulen en grupo, se considerarán como una única unidad móvil.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:00:26"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "adel-0005",
+      "tema": "adelantamiento",
+      "subtema": "inmovilizados",
+      "enunciado": "Un vehículo averiado está inmovilizado ocupando parte de su carril. Al rebasarlo, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Mantener al menos 1,5 metros y reducir la velocidad al menos 20 km/h respecto al límite de la vía.",
+        "b": "Basta con poner el intermitente.",
+        "c": "Pararse siempre detrás hasta que lo retiren."
+      },
+      "correcta": "a",
+      "explicacion": "Al rebasar un vehículo inmovilizado por avería, accidente o servicio de urgencia o auxilio que ocupe la calzada, hay que mantener al menos 1,5 m y reducir la velocidad al menos 20 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "88.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a88",
+        "cita": "deben mantener una anchura de seguridad de al menos 1,5 metros",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:00:00"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0001",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un turismo en una autopista?",
+      "opciones": {
+        "a": "100 km/h.",
+        "b": "120 km/h.",
+        "c": "130 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Para turismos, motocicletas, autocaravanas de hasta 3.500 kg y pick-up, el límite genérico en autopista y autovía es 120 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+        "version_consultada": "2026-06-26",
+        "tabla": {
+          "columna": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+          "fila": "Autopista y autovía",
+          "valor": "120"
+        }
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:01:15"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla (comprobado en el PDF).",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0002",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un turismo en una carretera convencional?",
+      "opciones": {
+        "a": "80 km/h.",
+        "b": "100 km/h.",
+        "c": "90 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "El límite genérico de turismos y motocicletas en carretera convencional es 90 km/h (el titular de la vía puede fijar 100 km/h si hay separación física de sentidos).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+        "version_consultada": "2026-06-26",
+        "tabla": {
+          "columna": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+          "fila": "Convencional",
+          "valor": "90"
+        }
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:03:10"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla (comprobado en el PDF).",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0003",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un autobús en una autovía?",
+      "opciones": {
+        "a": "100 km/h.",
+        "b": "90 km/h.",
+        "c": "120 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Autobuses, derivados de turismo y mixtos adaptables: 100 km/h en autopista y autovía y 90 km/h en convencional.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "Camiones, tractocamiones, Autobuses,",
+        "version_consultada": "2026-06-26",
+        "tabla": {
+          "columna": "Autobuses, vehículos derivados de turismo y vehículos mixtos adaptables",
+          "fila": "Autopista y autovía",
+          "valor": "100"
+        }
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:02:05"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla (comprobado en el PDF).",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0004",
+      "tema": "velocidad",
+      "subtema": "limites_fuera_poblado",
+      "enunciado": "¿Cuál es la velocidad máxima genérica de un turismo con remolque en una autopista?",
+      "opciones": {
+        "a": "80 km/h.",
+        "b": "90 km/h.",
+        "c": "100 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Los automóviles con remolque están en el grupo de camiones, furgonetas y vehículos articulados: 90 km/h en autopista y autovía y 80 km/h en convencional.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "automóviles con remolque y resto",
+        "version_consultada": "2026-06-26",
+        "tabla": {
+          "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
+          "fila": "Autopista y autovía",
+          "valor": "90"
+        }
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:02:21"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Cifra de la tabla del art. 48.1.a del RGC: en el texto extraído las celdas no son contiguas, por eso la cita es un fragmento de la tabla y el valor va en fuente.tabla (comprobado en el PDF).",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0005",
+      "tema": "velocidad",
+      "subtema": "reducciones",
+      "enunciado": "Un autobús que realiza transporte escolar circula por una autopista. ¿Cuál es su velocidad máxima genérica?",
+      "opciones": {
+        "a": "80 km/h.",
+        "b": "100 km/h.",
+        "c": "90 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "El transporte escolar y de menores reduce en 10 km/h la velocidad máxima de su vehículo y vía: 100 − 10 = 90 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "Para los vehículos que realicen transporte escolar y de menores o que transporten mercancías peligrosas, se reducirá en 10 kilómetros por hora",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:05:13"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0006",
+      "tema": "velocidad",
+      "subtema": "reducciones",
+      "enunciado": "Un camión que transporta mercancías peligrosas circula por una carretera convencional. ¿Cuál es su velocidad máxima genérica?",
+      "opciones": {
+        "a": "70 km/h.",
+        "b": "60 km/h.",
+        "c": "80 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "El límite del camión en convencional es 80 km/h y se reduce 10 km/h por llevar mercancías peligrosas: 70 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "que transporten mercancías peligrosas, se reducirá en 10 kilómetros por hora",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:04:45"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0007",
+      "tema": "velocidad",
+      "subtema": "especiales",
+      "enunciado": "¿Cuál es la velocidad máxima de un tractor agrícola que lleva remolque, fuera de poblado?",
+      "opciones": {
+        "a": "40 km/h.",
+        "b": "25 km/h.",
+        "c": "70 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos especiales que carecen de señalización de frenado, llevan remolque o son motocultores tienen un máximo de 25 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "Si carecen de señalización de frenado, llevan remolque o son motocultores: 25",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:06:43"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0008",
+      "tema": "velocidad",
+      "subtema": "ciclomotores",
+      "enunciado": "¿Cuál es la velocidad máxima de un cuadriciclo ligero fuera de poblado?",
+      "opciones": {
+        "a": "70 km/h.",
+        "b": "90 km/h.",
+        "c": "45 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Ciclos, ciclomotores de dos y tres ruedas y cuadriciclos ligeros: 45 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.e",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "Para ciclos, ciclomotores de dos y tres ruedas y cuadriciclos ligeros: 45 kilómetros por",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:07:29"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0009",
+      "tema": "velocidad",
+      "subtema": "cuadriciclos",
+      "enunciado": "¿Cuál es la velocidad máxima de un cuadriciclo (no ligero) en una carretera convencional?",
+      "opciones": {
+        "a": "70 km/h.",
+        "b": "45 km/h.",
+        "c": "90 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "A los vehículos de tres ruedas y cuadriciclos se les aplica el límite de 70 km/h en cualquier vía donde esté permitida su circulación.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.h",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "A los vehículos de tres ruedas y cuadriciclos en cualquier tipo de vía donde esté permitida su circulación se aplica el límite de 70",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:07:38"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0010",
+      "tema": "velocidad",
+      "subtema": "sin_pavimentar",
+      "enunciado": "¿Cuál es el límite de velocidad máximo en una vía sin pavimentar?",
+      "opciones": {
+        "a": "20 km/h.",
+        "b": "30 km/h.",
+        "c": "40 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "En las vías sin pavimentar el límite de velocidad máximo es de 30 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.f",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+        "cita": "En las vías sin pavimentar el límite de velocidad máximo será de 30 km/h.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:08:37"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0011",
+      "tema": "velocidad",
+      "subtema": "minimas",
+      "enunciado": "¿Cuál es la velocidad mínima en autopistas y autovías para los vehículos a motor?",
+      "opciones": {
+        "a": "40 km/h.",
+        "b": "50 km/h.",
+        "c": "60 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "49.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49",
+        "cita": "se prohíbe la circulación en autopistas y autovías de vehículos a motor a una velocidad inferior a 60 kilómetros por hora",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:04:00"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0012",
+      "tema": "velocidad",
+      "subtema": "minimas",
+      "enunciado": "¿Cuál es la velocidad mínima de un turismo en una carretera convencional, en condiciones normales?",
+      "opciones": {
+        "a": "45 km/h.",
+        "b": "60 km/h.",
+        "c": "No hay velocidad mínima."
+      },
+      "correcta": "a",
+      "explicacion": "En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "49.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49",
+        "cita": "a una velocidad inferior a la mitad de la genérica señalada para cada categoría de vehículos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:04:09"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0013",
+      "tema": "velocidad",
+      "subtema": "limites_urbanos",
+      "enunciado": "¿Cuál es el límite genérico de velocidad en una vía urbana con un único carril por sentido?",
+      "opciones": {
+        "a": "20 km/h.",
+        "b": "30 km/h.",
+        "c": "50 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "El límite genérico en vías urbanas de un único carril por sentido es 30 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "50.1.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+        "cita": "30 km/h en vías de un único carril por sentido de circulación.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:10:04"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0014",
+      "tema": "velocidad",
+      "subtema": "limites_urbanos",
+      "enunciado": "¿Cuál es el límite genérico de velocidad en una vía urbana con plataforma única de calzada y acera?",
+      "opciones": {
+        "a": "10 km/h.",
+        "b": "30 km/h.",
+        "c": "20 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "En vías con plataforma única de calzada y acera el límite genérico es 20 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "50.1.a",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+        "cita": "20 km/h en vías que dispongan de plataforma única de calzada y acera.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:10:08"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0015",
+      "tema": "velocidad",
+      "subtema": "limites_urbanos",
+      "enunciado": "Una calle tiene dos carriles en su sentido, pero uno de ellos es un carril bus. ¿Cuál es el límite genérico?",
+      "opciones": {
+        "a": "30 km/h, porque los carriles reservados no se cuentan.",
+        "b": "50 km/h, porque hay dos carriles.",
+        "c": "40 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Los carriles reservados para determinados usuarios o para transporte público no se contabilizan, así que queda un único carril por sentido: 30 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "50.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+        "cita": "los carriles reservados para la circulación de determinados usuarios o uso exclusivo de transporte público no serán contabilizados",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:12:13"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0016",
+      "tema": "velocidad",
+      "subtema": "travesias",
+      "enunciado": "¿Cuál es el límite genérico de velocidad en una travesía?",
+      "opciones": {
+        "a": "30 km/h si tiene un solo carril por sentido.",
+        "b": "50 km/h para todo tipo de vehículos.",
+        "c": "40 km/h para todo tipo de vehículos."
+      },
+      "correcta": "b",
+      "explicacion": "El límite genérico en travesías es 50 km/h para todo tipo de vehículos.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "50.5",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+        "cita": "El límite genérico de velocidad en travesías es de 50 km/h para todo tipo de vehículos.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:14:28"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0017",
+      "tema": "velocidad",
+      "subtema": "autopista_en_poblado",
+      "enunciado": "¿Cuál es el límite genérico de velocidad en una autopista que transcurre dentro de poblado?",
+      "opciones": {
+        "a": "50 km/h.",
+        "b": "120 km/h para turismos.",
+        "c": "80 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "El límite genérico en autopistas y autovías que transcurren dentro de poblado es 80 km/h (ampliable con señalización específica).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "50.6",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+        "cita": "El límite genérico de velocidad en autopistas y autovías que transcurren dentro de poblado será de 80 km/h",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:15:03"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1,
+      "imagen_requerida": null
+    },
+    {
+      "id": "vel-0018",
+      "tema": "velocidad",
+      "subtema": "mercancias_peligrosas_urbano",
+      "enunciado": "¿Cuál es la velocidad máxima de un vehículo que transporta mercancías peligrosas en una travesía?",
+      "opciones": {
+        "a": "40 km/h.",
+        "b": "30 km/h.",
+        "c": "50 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "En travesías y en vías urbanas de dos o más carriles por sentido, los vehículos con mercancías peligrosas circulan como máximo a 40 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "50.4",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+        "cita": "los vehículos que transporten mercancías peligrosas circularán como máximo a 40 km/h",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": "RGC art. 50.4",
+        "minuto": null
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "No sale del vídeo: se añade para corregir el matiz de rev-0016.",
+      "materia": 1,
+      "imagen_requerida": null
+    }
+  ]
+}

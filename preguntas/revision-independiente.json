@@ -1,0 +1,4705 @@
+{
+ "version": 3,
+ "revisor": "Revisión independiente (hilo «Revisar preguntas de forma independiente»)",
+ "fecha": "2026-11-24",
+ "metodo": "Cada pregunta se ha contrastado con el texto de los PDF consolidados de /mnt/project-files/fuentes/ (RGC y Ley de Tráfico, última modificación 26/06/2026), leyendo el artículo completo y no solo la cita: respuesta correcta, falsedad de las otras dos opciones, literalidad y suficiencia de la cita, y ambigüedad del enunciado.",
+ "ficheros_revisados": [
+  {
+   "fichero": "banco-piloto-video1.json",
+   "preguntas": 70,
+   "resumen": {
+    "ok": 59,
+    "corregir": 11
+   },
+   "correcciones_comprobadas": "Las 11 correcciones propuestas al piloto están aplicadas y son correctas (comprobado el 24/11/2026). Letras: a24/b23/c23."
+  },
+  {
+   "fichero": "banco-video1-cap09-38.json",
+   "preguntas": 565,
+   "resumen": {
+    "ok": 558,
+    "corregir": 6,
+    "rechazar": 1
+   }
+  },
+  {
+   "fichero": "banco-materias-boe.json",
+   "preguntas": 75,
+   "resumen": {
+    "ok": 75
+   }
+  },
+  {
+   "fichero": "banco-dudosas-video1.json",
+   "preguntas": 56,
+   "resumen": {
+    "ok": 56
+   },
+   "aviso": "Reparto de letras desequilibrado: b es la correcta en 36 de 56 (a 13, c 7). Hay que barajar opciones antes de publicar."
+  }
+ ],
+ "conclusiones_generales": [
+  "Ninguna de las 70 preguntas tiene la respuesta marcada equivocada ni dos opciones correctas. No hay ninguna para rechazar.",
+  "11 necesitan retoque menor: 8 por la cita (no respalda por sí sola la respuesta o no es unívoca) y 3 por redacción (cesp-0007, arc-0008, vel-0016).",
+  "Sesgo de posición: la correcta es «b» en 45 de 70 preguntas, «a» en 19 y «c» en 6. La web baraja las preguntas pero no las opciones. Conviene repartir las letras en el banco o barajar las opciones en la web.",
+  "build.py comprueba que la cita exista, pero no que sea única ni que esté en el artículo indicado. Recomendación: exigir que la cita aparezca una sola vez (o dentro del artículo citado) y admitir un tipo «tabla» para el art. 48.1.a.",
+  "Banco de los capítulos 9-38 (565): una respuesta errónea (B1-sen-0131, señal R-408), seis correcciones de código, explicación o redacción en preguntas de señales, y el resto correcto. Los bloques de normas, prioridad, maniobras, permisos, alcohol, puntos, seguridad, mecánica, accidentes y medio ambiente no tienen errores; las citas en tablas (art. 48 RGC, art. 4.2 RGCOND, anexo II LSV, anexos RGV) se han comprobado a mano.",
+  "Señales: el Manual DGT 2024 no es fuente fiable para códigos ni para definiciones finas, porque el catálogo del RGC cambió después (P-35 ahora es Trenzado, otros peligros es P-50, niños es P-21a, S-991 tiene subcódigos, R-305 ya no tiene la excepción de motocicletas, R-408 no excluye a otros usuarios). Recomendación: en todas las B1-sen-* que citan el manual, cambiar la fuente a la ficha literal del catálogo; el texto por OCR está en preguntas/revision/catalogo-senales-boe-ocr.txt (revisar cada ficha contra la imagen al copiarla). Las imágenes deben recortarse del catálogo, porque varios dibujos han cambiado (P-32, P-33).",
+  "Hay 9 parejas de preguntas casi duplicadas entre bloques (anotadas en cada veredicto); conviene que la web no las saque en el mismo test.",
+  "Banco de materias BOE (75): todas correctas, citas literales y artículos completos leídos (RGC, Manual DGT y Código Penal arts. 379-385). Una observación de redacción en bmp-0009.",
+  "Reparto de letras correcto en los tres bancos (piloto a24/b23/c23; 565: a195/b186/c184; materias 25/25/25).",
+  "Banco de dudosas (56): todas correctas contra el BOE (RGC, RGV, RD 920/2017 de ITV, RDL 8/2004 del seguro, Orden INT/2596/2005, Reglamento de Conductores, Código Penal) y el catálogo de señales, con tablas y colores comprobados a mano. Dos defectos de forma: la respuesta correcta es la b en 36 de 56, y 6 preguntas de delitos repiten las del banco de materias (res-del-0004 y res-del-0006 son idénticas a bmp-0006 y bmp-0010)."
+ ],
+ "veredictos": [
+  {
+   "id": "def-0001",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0002",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0003",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0004",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0005",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0006",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0007",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0008",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0009",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0010",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0011",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "def-0012",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "via-0001",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "via-0002",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "via-0003",
+   "veredicto": "corregir",
+   "afecta_a": "cita",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La cita solo respalda la mitad de la respuesta (autopista). Falta la parte de la autovía, que está en el Anexo I.67 de la Ley y confirma la respuesta.",
+   "propuesta": "Añadir segunda cita (LSV Anexo I.67): «Tener acceso limitado a ella las propiedades colindantes.»"
+  },
+  {
+   "id": "via-0004",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "via-0005",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "via-0006",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "via-0007",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0001",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "El art. 122.1 no dice «fuera de poblado», pero no cambia la respuesta (en zona urbana rige el título VI)."
+  },
+  {
+   "id": "arc-0002",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0003",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0004",
+   "veredicto": "corregir",
+   "afecta_a": "cita",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La cita aparece 3 veces en el RGC y las dos primeras son del art. 118 (ciclistas y VMP), no del 123.1. El art. 123.1 confirma la respuesta.",
+   "propuesta": "deberán hacer uso, al menos, de un elemento luminoso o reflectante conforme a la normativa de equipos de protección individual, que sea visible a una distancia mínima de 150 metros para los conductores que se les aproximen"
+  },
+  {
+   "id": "arc-0005",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0006",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0007",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0008",
+   "veredicto": "corregir",
+   "afecta_a": "explicacion",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La respuesta es correcta (art. 36.2: por el arcén pueden ir en columna de a dos). Pero el paréntesis de la explicación atribuye al arcén la obligación de ir en hilera, y el texto la liga a cuando circulan por la calzada por no haber arcén transitable.",
+   "propuesta": "Explicación: «Los conductores de bicicletas pueden circular en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, deben ponerse en hilera en tramos sin visibilidad, si afectan a la fluidez, de noche o con poca visibilidad.»"
+  },
+  {
+   "id": "arc-0009",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0010",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0011",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0012",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0013",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0014",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "arc-0015",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "cesp-0001",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "cesp-0002",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "La cita aparece 3 veces en el RGC (dos en el 41.1 y una en el 42.1), todas con el mismo valor. Sería mejor alargarla: «circularán siempre, al menos, con la luz de corto alcance o de cruce encendida, tanto de día como de noche, a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60»."
+  },
+  {
+   "id": "cesp-0003",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "cesp-0004",
+   "veredicto": "corregir",
+   "afecta_a": "cita",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La cita aparece 2 veces y la primera coincidencia es del art. 41.1, no del 42.1. El art. 42.1 confirma la respuesta.",
+   "propuesta": "Los vehículos que circulen por los arcenes y por dicho carril adicional lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60"
+  },
+  {
+   "id": "cesp-0005",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "cesp-0006",
+   "veredicto": "corregir",
+   "afecta_a": "cita",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La cita «incluidos los turismos con remolque» aparece 2 veces (arts. 35.2.a y 41.1) y por sí sola no dice qué se prohíbe. El art. 35.2.a confirma la respuesta.",
+   "propuesta": "está prohibida, por tanto, al resto de los vehículos y conjuntos de vehículos, incluidos los turismos con remolque"
+  },
+  {
+   "id": "cesp-0007",
+   "veredicto": "corregir",
+   "afecta_a": "enunciado",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La respuesta «Sí» es correcta en lo esencial, pero el art. 35.2.a termina con «de forma simultánea si así se indica en la relación de tramos», condición que cesp-0008 sí recoge y esta no. Conviene tratarlas igual.",
+   "propuesta": "Opción a: «Sí, si así se indica para ese tramo.» y añadirlo a la explicación."
+  },
+  {
+   "id": "cesp-0008",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "dist-0001",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "dist-0002",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "dist-0003",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "dist-0004",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "dist-0005",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Correcta. El art. 153 está en el título VI (zonas urbanas), así que el «En vía urbana» del enunciado es necesario; no quitarlo."
+  },
+  {
+   "id": "adel-0001",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "adel-0002",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "adel-0003",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "adel-0004",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "adel-0005",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0001",
+   "veredicto": "corregir",
+   "afecta_a": "cita",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La cita actual es un fragmento de la cabecera de la tabla del art. 48.1.a) y no contiene la cifra, así que no respalda la respuesta. La respuesta sí es correcta: comprobado en la tabla del PDF (Turismos, motocicletas, autocaravanas ≤3.500 kg y pick-up: 120 / 90; Camiones, tractocamiones, furgonetas, autocaravanas >3.500 kg, articulados, automóviles con remolque y resto: 90 / 80; Autobuses, derivados de turismo y mixtos adaptables: 100 / 90).",
+   "propuesta": "Tabla del art. 48.1.a): columna «Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up», fila «Autopista y autovía»: 120. (Marcar como cita de tabla: en el texto extraído las celdas no son contiguas; las filas «Autopista y 120 90 100 autovía» y «Convencional 90 80 90» sí aparecen literales.)"
+  },
+  {
+   "id": "vel-0002",
+   "veredicto": "corregir",
+   "afecta_a": "cita",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La cita habla de la excepción de 100 km/h con separación física, no del límite genérico de 90 km/h. La cita actual es un fragmento de la cabecera de la tabla del art. 48.1.a) y no contiene la cifra, así que no respalda la respuesta. La respuesta sí es correcta: comprobado en la tabla del PDF (Turismos, motocicletas, autocaravanas ≤3.500 kg y pick-up: 120 / 90; Camiones, tractocamiones, furgonetas, autocaravanas >3.500 kg, articulados, automóviles con remolque y resto: 90 / 80; Autobuses, derivados de turismo y mixtos adaptables: 100 / 90).",
+   "propuesta": "Tabla del art. 48.1.a): columna «Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up», fila «Convencional»: 90. (Marcar como cita de tabla: en el texto extraído las celdas no son contiguas; las filas «Autopista y 120 90 100 autovía» y «Convencional 90 80 90» sí aparecen literales.)"
+  },
+  {
+   "id": "vel-0003",
+   "veredicto": "corregir",
+   "afecta_a": "cita",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La cita «vehículos derivados» ni menciona autobuses ni la cifra, y además aparece 2 veces en el RGC. La cita actual es un fragmento de la cabecera de la tabla del art. 48.1.a) y no contiene la cifra, así que no respalda la respuesta. La respuesta sí es correcta: comprobado en la tabla del PDF (Turismos, motocicletas, autocaravanas ≤3.500 kg y pick-up: 120 / 90; Camiones, tractocamiones, furgonetas, autocaravanas >3.500 kg, articulados, automóviles con remolque y resto: 90 / 80; Autobuses, derivados de turismo y mixtos adaptables: 100 / 90).",
+   "propuesta": "Tabla del art. 48.1.a): columna «Autobuses, vehículos derivados de turismo y vehículos mixtos adaptables», fila «Autopista y autovía»: 100. (Marcar como cita de tabla: en el texto extraído las celdas no son contiguas; las filas «Autopista y 120 90 100 autovía» y «Convencional 90 80 90» sí aparecen literales.)"
+  },
+  {
+   "id": "vel-0004",
+   "veredicto": "corregir",
+   "afecta_a": "cita",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La cita actual es un fragmento de la cabecera de la tabla del art. 48.1.a) y no contiene la cifra, así que no respalda la respuesta. La respuesta sí es correcta: comprobado en la tabla del PDF (Turismos, motocicletas, autocaravanas ≤3.500 kg y pick-up: 120 / 90; Camiones, tractocamiones, furgonetas, autocaravanas >3.500 kg, articulados, automóviles con remolque y resto: 90 / 80; Autobuses, derivados de turismo y mixtos adaptables: 100 / 90).",
+   "propuesta": "Tabla del art. 48.1.a): columna «Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos», fila «Autopista y autovía»: 90. (Marcar como cita de tabla: en el texto extraído las celdas no son contiguas; las filas «Autopista y 120 90 100 autovía» y «Convencional 90 80 90» sí aparecen literales.)"
+  },
+  {
+   "id": "vel-0005",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Correcta (100 − 10). Recordatorio para futuras preguntas: si el autobús lleva pasajeros de pie o no tiene cinturones, el máximo es 80 km/h (art. 48.1.b, párrafo 2.º)."
+  },
+  {
+   "id": "vel-0006",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0007",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0008",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0009",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0010",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0011",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0012",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0013",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0014",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0015",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0016",
+   "veredicto": "corregir",
+   "afecta_a": "opciones",
+   "gravedad": "menor",
+   "respuesta_correcta_confirmada": true,
+   "motivo": "La respuesta es correcta y literal (art. 50.5). Pero la opción c «Depende del tipo de vehículo» es discutible, porque el art. 50.4 fija 40 km/h en travesías para mercancías peligrosas; un alumno puede defenderla.",
+   "propuesta": "Cambiar la opción c por una cifra, por ejemplo «40 km/h para todo tipo de vehículos.»"
+  },
+  {
+   "id": "vel-0017",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "vel-0018",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pri-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pri-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pri-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pri-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pri-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pri-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B1-pri-0061."
+  },
+  {
+   "id": "A-pri-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B2-mv-0042."
+  },
+  {
+   "id": "A-pri-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pri-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pea-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pea-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pea-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pea-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-pea-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-cic-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-cic-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-cic-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-ani-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B1-pri-0069."
+  },
+  {
+   "id": "A-urg-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-urg-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-urg-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-urg-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-urg-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-urg-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-est-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B1-pri-0072."
+  },
+  {
+   "id": "A-adv-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de C-luc-0018."
+  },
+  {
+   "id": "A-adv-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adv-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adv-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adv-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adv-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adv-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adv-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adv-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adv-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-inc-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-inc-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-inc-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-inc-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-inc-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-adel-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-dir-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-dir-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-dir-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-dir-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-dir-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-dir-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-dir-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-dir-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-sen-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-sen-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-sen-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-sen-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-ma-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-ma-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-ma-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B2-mv-0039."
+  },
+  {
+   "id": "A-par-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B2-mv-0041."
+  },
+  {
+   "id": "A-par-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0017",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0018",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0019",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0020",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "A-par-0021",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0017",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0018",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0019",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0020",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0021",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0022",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0023",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0024",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0025",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0026",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0027",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0028",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0029",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0030",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0031",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0032",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0033",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0034",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0035",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0036",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0037",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0038",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0039",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0040",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0041",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0042",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0043",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0044",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0045",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0046",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0047",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0048",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0049",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0050",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0051",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0052",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0054",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0055",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0056",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0057",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0058",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0059",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0060",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0061",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de A-pri-0006."
+  },
+  {
+   "id": "B1-pri-0062",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0063",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0064",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B2-mv-0031."
+  },
+  {
+   "id": "B1-pri-0065",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0066",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0067",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0068",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B2-mv-0036."
+  },
+  {
+   "id": "B1-pri-0069",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de A-ani-0001."
+  },
+  {
+   "id": "B1-pri-0070",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0071",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-pri-0072",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de A-est-0010."
+  },
+  {
+   "id": "B1-sen-0073",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0074",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0075",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0076",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0077",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0078",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0079",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0080",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0081",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0082",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0083",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0084",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0085",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0086",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0087",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "corregir",
+   "respuesta_correcta_confirmada": true,
+   "gravedad": "menor",
+   "motivo": "En el catálogo vigente la señal de niños es P-21a («Niños. Peligro por la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc.»); P-21b es «Personas con dificultades motrices». El código P-21 a secas ya no existe.",
+   "propuesta": "Cambiar el código a P-21a en imagen_requerida y explicación."
+  },
+  {
+   "id": "B1-sen-0088",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0089",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0090",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0091",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0092",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0093",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0094",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0095",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0096",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "El dibujo vigente de P-32 es un vehículo volcado, no un turismo con triángulo: recortar la imagen del catálogo, no dibujarla según la descripción."
+  },
+  {
+   "id": "B1-sen-0097",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "El dibujo de P-33 ha cambiado y la ficha vigente incluye también la lluvia. Recortar la imagen del catálogo."
+  },
+  {
+   "id": "B1-sen-0098",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0099",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "corregir",
+   "respuesta_correcta_confirmada": true,
+   "gravedad": "media",
+   "motivo": "El código P-35 ya no es «otros peligros»: en el catálogo vigente P-35 es «Trenzado» (dos coches con trayectorias cruzadas) y el signo de admiración es P-50 «Otros peligros». Si la imagen se recorta por código saldría una señal distinta de la que se pregunta.",
+   "propuesta": "Cambiar imagen_requerida.codigo y la explicación a P-50; cita: «P-50 Otros peligros. Indica la proximidad de un peligro distinto de los advertidos por otras señales»."
+  },
+  {
+   "id": "B1-sen-0100",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0101",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0102",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0103",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0104",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0105",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0106",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "La ficha R-103 vigente añade que tampoco prohíbe el acceso a los vehículos de tres ruedas asimilados a motocicletas. La respuesta no cambia."
+  },
+  {
+   "id": "B1-sen-0107",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0108",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0109",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0110",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0111",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0112",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0113",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "corregir",
+   "respuesta_correcta_confirmada": true,
+   "gravedad": "menor",
+   "motivo": "La respuesta es correcta (un remolque de un solo eje puede entrar), pero la opción b y la explicación mencionan los semirremolques, que la ficha vigente ya no cita: «R-112 Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje».",
+   "propuesta": "Opción b: «Sí, porque la señal exceptúa los remolques de un solo eje». Cita del catálogo."
+  },
+  {
+   "id": "B1-sen-0114",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0115",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0116",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0117",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0118",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0119",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0120",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0121",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0122",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0123",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "corregir",
+   "respuesta_correcta_confirmada": true,
+   "gravedad": "media",
+   "motivo": "La respuesta b sigue siendo correcta, pero la explicación usa la definición antigua (excepción para motocicletas). La ficha R-305 vigente dice: «indica la prohibición a todos los vehículos de adelantar a los vehículos a motor que circulen por la calzada cuando dicha maniobra implique invadir la zona reservada al sentido contrario de circulación». Es decir, sin invadir el sentido contrario se puede adelantar a cualquier vehículo, no solo a motocicletas.",
+   "propuesta": "Reescribir explicación y cita con la ficha R-305 del catálogo. Mejor aún, preguntar directamente qué prohíbe la señal (adelantar a vehículos a motor cuando haya que invadir el sentido contrario)."
+  },
+  {
+   "id": "B1-sen-0124",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0125",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0126",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0127",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Terminología: el catálogo vigente dice «excepto motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas», no «sin sidecar». La respuesta no cambia."
+  },
+  {
+   "id": "B1-sen-0128",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Terminología: la ficha R-405 vigente habla de «motocicletas de dos ruedas y vehículos de tres ruedas asimilados», no «sin sidecar». La respuesta no cambia."
+  },
+  {
+   "id": "B1-sen-0129",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Confirmada con la ficha R-407a vigente («prohibición a los demás usuarios de la vía de utilizarla»)."
+  },
+  {
+   "id": "B1-sen-0130",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Confirmada con la ficha R-407b vigente."
+  },
+  {
+   "id": "B1-sen-0131",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "rechazar",
+   "respuesta_correcta_confirmada": false,
+   "gravedad": "grave",
+   "motivo": "La respuesta marcada (c: nadie más puede circular) contradice el BOE vigente. La ficha R-408 del catálogo dice solo: «Camino obligatorio para vehículos de tracción animal. Obligación para los conductores de vehículos de tracción animal de utilizar el camino a cuya entrada esté situada», sin prohibición para los demás. Las R-407a, R-407b, R-409 y R-410 sí añaden «y prohibición a los demás usuarios de la vía de utilizarla»; la R-408 no. El Manual DGT 2024 (p. 182) lo simplifica mal y el profesor del vídeo tenía razón. Catálogo oficial de señales verticales (RGC, anexo I; PDF consolidado 26/06/2026, págs. 89-209, leído en imagen y por OCR: preguntas/revision/catalogo-senales-boe-ocr.txt)",
+   "propuesta": "Retirarla, o rehacerla con correcta = a (la señal solo obliga a los vehículos de tracción animal; no prohíbe el camino a los demás) y cita literal de la ficha R-408 del catálogo. Quitar la nota «corrige al vídeo»."
+  },
+  {
+   "id": "B1-sen-0132",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Confirmada con la ficha R-409 vigente (reservado y obligatorio)."
+  },
+  {
+   "id": "B1-sen-0133",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Confirmada con la ficha R-410 vigente (reservado y obligatorio)."
+  },
+  {
+   "id": "B1-sen-0134",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0135",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0136",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "corregir",
+   "respuesta_correcta_confirmada": true,
+   "gravedad": "menor",
+   "motivo": "Respuesta correcta pero incompleta respecto a la ficha vigente: «R-412 Cadenas para nieve. Obligación de no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados (…) o neumáticos especiales de nieve». Existe además la R-412b «Neumáticos de invierno».",
+   "propuesta": "Opción b: «Obligación de no proseguir la marcha sin cadenas para nieve, otros dispositivos antideslizantes autorizados o neumáticos especiales de nieve»."
+  },
+  {
+   "id": "B1-sen-0137",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B1-sen-0138",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-sen-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-luz-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-sen-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-sen-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-sen-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-sen-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-sen-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "corregir",
+   "respuesta_correcta_confirmada": true,
+   "gravedad": "menor",
+   "motivo": "El código S-991 a secas no existe en el catálogo vigente: S-991a (control de velocidad en convencional o multicarril), S-991b (en autopista o autovía), S-991c (semáforo en rojo), S-991d (STOP), S-991e/f (separación mínima), S-991g (medios aéreos).",
+   "propuesta": "Usar S-991a en imagen_requerida (versión de carretera convencional) y citar su ficha."
+  },
+  {
+   "id": "B2-cic-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-cic-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-via-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-via-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-via-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-sen-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0017",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0018",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0019",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0020",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0021",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0022",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "El enunciado añade una descripción física que no está en la fuente; no altera la respuesta."
+  },
+  {
+   "id": "B2-mv-0023",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0025",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0026",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0027",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0028",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0029",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Regla de diseño de la vía, poco probable en examen."
+  },
+  {
+   "id": "B2-mv-0030",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0031",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B1-pri-0064."
+  },
+  {
+   "id": "B2-mv-0032",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0033",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0034",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0035",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0036",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de B1-pri-0068."
+  },
+  {
+   "id": "B2-mv-0037",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0038",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0039",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de A-par-0004."
+  },
+  {
+   "id": "B2-mv-0041",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de A-par-0006."
+  },
+  {
+   "id": "B2-mv-0042",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de A-pri-0007."
+  },
+  {
+   "id": "B2-mv-0043",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0044",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0045",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0046",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "B2-mv-0047",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0017",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-luc-0018",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de A-adv-0001."
+  },
+  {
+   "id": "C-luc-0019",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-per-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-car-0017",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-sev-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-sev-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-sev-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-sev-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-sev-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-sev-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-sev-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-doc-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "La cita aparece también en la fila del C1 de la tabla del art. 4.2 del Reglamento de Conductores; conviene añadir fuente.tabla como en el piloto."
+  },
+  {
+   "id": "C-perm-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-perm-0017",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "C-pun-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-acc-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Tabla del Manual DGT comprobada a mano (humano 70-90, vehículo 4-13, vía 10-35)."
+  },
+  {
+   "id": "D-acc-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-acc-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-acc-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-acc-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-acc-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-acc-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-acc-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-vul-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-vul-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-vul-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-vul-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-vul-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-vel-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-tre-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-tre-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-tre-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dis-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dis-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dis-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-fat-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-fat-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-fat-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-fat-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-med-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-med-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-cal-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-cal-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-mov-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0017",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0018",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0019",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0020",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0021",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0022",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0023",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-alc-0024",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-nov-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dro-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dro-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dro-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dro-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dro-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dro-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-dro-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-pos-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-pos-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-pos-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-pos-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-pos-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-man-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-man-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-man-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-man-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "D-man-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-seg-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-seg-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-neu-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-neu-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-neu-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-neu-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-neu-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-neu-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-fre-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-fre-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-seg-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0014",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0015",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0016",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pas-0017",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ada-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-ent-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Correcta con el anexo XII del RGV vigente (solo V-16). El Manual DGT 2024 (p. 438) aún menciona los triángulos; prevalece el BOE."
+  },
+  {
+   "id": "E-acc-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-acc-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-aux-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0010",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0011",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0012",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-mec-0013",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pre-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pre-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-pre-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-efi-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-efi-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-efi-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-efi-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-efi-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-efi-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0001",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0002",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0003",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0004",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0005",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0006",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0007",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0008",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "E-amb-0009",
+   "fichero": "banco-video1-cap09-38.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0001",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0002",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0003",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0004",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0005",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0006",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0007",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0008",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0009",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0010",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0011",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0012",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0013",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0014",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0015",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0016",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0017",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0018",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm13-0019",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0001",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0002",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0003",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0004",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0005",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0006",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0007",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0008",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0009",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0010",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0011",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0012",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0013",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0014",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0015",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0016",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0017",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0018",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm3-0019",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0001",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0002",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0003",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0004",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0005",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0006",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0007",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0008",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0009",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0010",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0011",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0012",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0013",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0014",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm9-0015",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0001",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0002",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0003",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0004",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0005",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0006",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0007",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0008",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0009",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0010",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0011",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bm6-0012",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0001",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0002",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0003",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0004",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0005",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0006",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0007",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0008",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "bmp-0009",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "El art. 382 bis remite a las lesiones de los arts. 147.1, 149 y 150, que no son solo «graves»; sería más exacto «con fallecidos o heridos». La respuesta no cambia."
+  },
+  {
+   "id": "bmp-0010",
+   "fichero": "banco-materias-boe.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-def-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-def-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-def-0003",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-def-0004",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-def-0005",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-def-0006",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-via-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-via-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-via-0003",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-arc-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Deducción correcta: la lista del art. 122.2 de quién va por la derecha no incluye las sillas de ruedas y el 122.1 es la regla general. Añadir como cita_adicional la definición de peatón del anexo I de la LSV."
+  },
+  {
+   "id": "res-arc-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de arc-0013."
+  },
+  {
+   "id": "res-cesp-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Correcta según el RGC 35.2 (el VAO se define por el número de ocupantes fijado para cada tramo y la exención solo cita V-15, tarjeta de discapacidad y autobuses) y el Manual DGT p. 233. Aviso: en algunos tramos reales la autoridad admite motos con solo el conductor; eso lo fija la relación de tramos (35.2.d), no contradice la respuesta."
+  },
+  {
+   "id": "res-cesp-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de cesp-0004 (mismo límite, otro carril)."
+  },
+  {
+   "id": "res-cesp-0003",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-cesp-0004",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-dist-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-dist-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-vel-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-vel-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-adel-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de A-adel-0013."
+  },
+  {
+   "id": "res-luc-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-luc-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-veh-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Fila de la tabla del anexo III.3 comprobada."
+  },
+  {
+   "id": "res-car-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-car-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-itv-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Tabla del art. 6.1 comprobada en formato de tabla."
+  },
+  {
+   "id": "res-itv-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Tabla del art. 6.1 comprobada en formato de tabla."
+  },
+  {
+   "id": "res-itv-0003",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Tabla del art. 6.1 comprobada en formato de tabla (ciclomotores: 3 años)."
+  },
+  {
+   "id": "res-itv-0004",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-itv-0005",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-seg-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-seg-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-seg-0003",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-veh-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Correcta por lectura literal de dos textos del RGV (anexo XII.2 «conjuntos de vehículos no especiales» y anexo II «tren de carretera: vehículo de motor enganchado a un remolque»; «conjunto de vehículos: un tren de carretera o un vehículo articulado»). Es una deducción, no una frase literal: conviene añadir la segunda cita en fuente.cita_adicional."
+  },
+  {
+   "id": "res-perm-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Fila A = 20 de la tabla del art. 4.2 comprobada."
+  },
+  {
+   "id": "res-perm-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Fila AM = 15 comprobada."
+  },
+  {
+   "id": "res-perm-0003",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-pun-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-pun-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-del-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de bmp-0001."
+  },
+  {
+   "id": "res-del-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de bmp-0003."
+  },
+  {
+   "id": "res-del-0003",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de bmp-0005."
+  },
+  {
+   "id": "res-del-0004",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de bmp-0006 (idéntica)."
+  },
+  {
+   "id": "res-del-0005",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de bmp-0007."
+  },
+  {
+   "id": "res-del-0006",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Casi duplicada de bmp-0010 (idéntica)."
+  },
+  {
+   "id": "res-del-0007",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-alc-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Correcta: RGC 20 fija 0,25 mg/l para conductores de vehículos y la tasa reducida va ligada al permiso o licencia; LSV 14.1 fija 0 para el conductor menor de edad."
+  },
+  {
+   "id": "res-fat-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-seg-0004",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-acc-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-ref-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-sen-0001",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Color comprobado en la imagen en color del catálogo (pág. 179): S-440 marrón, S-450 amarillo."
+  },
+  {
+   "id": "res-sen-0002",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Color comprobado en la imagen en color del catálogo (pág. 178): S-400 verde, S-410 azul, S-420 rojo, S-430 naranja."
+  },
+  {
+   "id": "res-sen-0003",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true,
+   "observacion": "Ficha P-9a leída: 200 m (P-9b 150 m, P-9c 100 m)."
+  },
+  {
+   "id": "res-sen-0004",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  },
+  {
+   "id": "res-sen-0005",
+   "fichero": "banco-dudosas-video1.json",
+   "veredicto": "ok",
+   "respuesta_correcta_confirmada": true
+  }
+ ]
+}

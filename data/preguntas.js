@@ -1,0 +1,14577 @@
+// Generado por tools/build_data.py. No editar a mano.
+window.BANCO = {
+ "generado": "2026-11-24",
+ "normativa": {
+  "RGC": {
+   "ref": "BOE-A-2003-23514",
+   "nombre": "Reglamento General de Circulación (RD 1428/2003)",
+   "ultima_actualizacion": "2026-06-26"
+  },
+  "LSV": {
+   "ref": "BOE-A-2015-11722",
+   "nombre": "Ley de Tráfico y Seguridad Vial (RDL 6/2015)",
+   "ultima_actualizacion": "2026-06-26"
+  },
+  "RGV": {
+   "ref": "BOE-A-1999-1826",
+   "nombre": "Reglamento General de Vehículos (RD 2822/1998)",
+   "ultima_actualizacion": "2026-06-26"
+  },
+  "RGCOND": {
+   "ref": "BOE-A-2009-9481",
+   "nombre": "Reglamento General de Conductores (RD 818/2009)",
+   "ultima_actualizacion": "2023-12-06"
+  },
+  "MANUAL_DGT": {
+   "ref": "Manual básico permiso B en Lectura Fácil (DGT)",
+   "ultima_actualizacion": "2024-10"
+  },
+  "CP": {
+   "ref": "BOE-A-1995-25444",
+   "nombre": "Código Penal (LO 10/1995), arts. 379 a 385 ter",
+   "ultima_actualizacion": "2026-04-09"
+  },
+  "ITV": {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+   "nombre": "RD 920/2017, inspección técnica de vehículos",
+   "ultima_actualizacion": "2024-09-18"
+  },
+  "LRCSCVM": {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911",
+   "nombre": "Ley de responsabilidad civil y seguro en la circulación (RDL 8/2004)",
+   "ultima_actualizacion": "2026-02-18"
+  },
+  "OCURSOS": {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-13723",
+   "nombre": "Orden INT/2596/2005, cursos de sensibilización y reeducación vial",
+   "ultima_actualizacion": "2024-09-04"
+  }
+ },
+ "preguntas": [
+  {
+   "id": "res-def-0001",
+   "tema": "definiciones",
+   "subtema": "masa_orden_marcha",
+   "materia": 1,
+   "enunciado": "¿Qué es la masa en orden de marcha de un turismo?",
+   "opciones": {
+    "a": "La tara más la masa estándar del conductor, de 75 kg.",
+    "b": "La masa mínima para poder circular: el vehículo con un poco de combustible y el conductor.",
+    "c": "La masa máxima con la que puede circular cargado."
+   },
+   "correcta": "a",
+   "explicacion": "La masa en orden de marcha es la tara (que ya incluye el depósito de combustible lleno, agua, lubricante, repuestos y herramientas) más 75 kg del conductor.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo IX.1.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "se considera como masa en orden de marcha el resultado de sumar a la tara la masa estándar del conductor de 75 kg",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-def-0002",
+   "tema": "definiciones",
+   "subtema": "furgoneta",
+   "materia": 1,
+   "enunciado": "¿Qué diferencia a una furgoneta de un camión?",
+   "opciones": {
+    "a": "Que la furgoneta tiene la cabina integrada en el resto de la carrocería.",
+    "b": "Que la furgoneta puede llevar más de 9 plazas.",
+    "c": "Que la furgoneta no puede transportar mercancías."
+   },
+   "correcta": "a",
+   "explicacion": "Los dos transportan mercancías y tienen como máximo 9 plazas incluido el conductor. En la furgoneta la cabina está integrada en la carrocería; en el camión, no.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo II.A",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "cuya cabina está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluido el conductor",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-def-0003",
+   "tema": "definiciones",
+   "subtema": "derivado_turismo",
+   "materia": 1,
+   "enunciado": "¿Qué es un vehículo derivado de turismo?",
+   "opciones": {
+    "a": "Un turismo con más de nueve plazas.",
+    "b": "Un automóvil para servicios o transporte exclusivo de mercancías que conserva la carrocería del turismo del que deriva y tiene una sola fila de asientos.",
+    "c": "Una furgoneta con dos filas de asientos."
+   },
+   "correcta": "b",
+   "explicacion": "El derivado de turismo sale de un turismo, conserva su carrocería y solo tiene una fila de asientos; se destina a servicios o a transporte de mercancías.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo II.A",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "derivado de un turismo del cual conserva la carrocería y dispone únicamente de una fila de asientos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-def-0004",
+   "tema": "definiciones",
+   "subtema": "vmp",
+   "materia": 1,
+   "enunciado": "Según el Reglamento General de Vehículos, un patinete eléctrico (vehículo de movilidad personal), ¿es un «vehículo a motor»?",
+   "opciones": {
+    "a": "Sí, porque tiene motor eléctrico.",
+    "b": "No: aunque tiene motor, el Reglamento lo excluye expresamente de la definición de vehículo a motor.",
+    "c": "Solo cuando circula por vías interurbanas."
+   },
+   "correcta": "b",
+   "explicacion": "El Reglamento General de Vehículos excluye de «vehículo a motor» a ciclomotores, tranvías, vehículos para personas de movilidad reducida, bicicletas de pedaleo asistido y vehículos de movilidad personal. El manual de la DGT los incluye entre los «vehículos no considerados a motor».",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo II.A",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "ciclos de pedales con pedaleo asistido y los vehículos de movilidad personal.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-def-0005",
+   "tema": "documentacion",
+   "subtema": "placa_matricula",
+   "materia": 10,
+   "enunciado": "¿De qué color es el fondo de la placa de matrícula de un ciclomotor?",
+   "opciones": {
+    "a": "Blanco.",
+    "b": "Amarillo.",
+    "c": "Rojo."
+   },
+   "correcta": "b",
+   "explicacion": "Las placas de ciclomotores y ciclos de motor tienen fondo amarillo retrorreflectante y caracteres negros.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XVIII.A.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "d) Ciclomotores y ciclos de motor: El fondo de las placas será retrorreflectante, de color amarillo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-def-0006",
+   "tema": "documentacion",
+   "subtema": "placa_matricula",
+   "materia": 10,
+   "enunciado": "¿De qué color es el fondo de la placa de matrícula de un remolque?",
+   "opciones": {
+    "a": "Rojo.",
+    "b": "Amarillo.",
+    "c": "Blanco."
+   },
+   "correcta": "a",
+   "explicacion": "Las placas de remolques y semirremolques tienen fondo rojo retrorreflectante y caracteres negros.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XVIII.A.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "c) Remolques y semirremolques: El fondo de las placas será retrorreflectante, de color rojo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-via-0001",
+   "tema": "vias",
+   "subtema": "peatones_autopista",
+   "materia": 7,
+   "enunciado": "¿Puede un peatón circular por una autovía?",
+   "opciones": {
+    "a": "Sí, por el arcén y de día.",
+    "b": "No, salvo en los casos y condiciones que fija el reglamento (por ejemplo, al salir del vehículo por una emergencia).",
+    "c": "Sí, si lleva chaleco reflectante."
+   },
+   "correcta": "b",
+   "explicacion": "Los peatones no pueden circular por autopistas ni autovías, salvo en los casos y condiciones del artículo 130 (inmovilización del vehículo por emergencia).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "125.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-via-0002",
+   "tema": "vias",
+   "subtema": "peatones_autopista",
+   "materia": 7,
+   "enunciado": "En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop (pedir que te lleven)?",
+   "opciones": {
+    "a": "Sí, porque la explanada no es calzada.",
+    "b": "Sí, si se hace fuera de los carriles de pago.",
+    "c": "No, está prohibido pedir pasaje en cualquier tramo de la autopista, incluidas las explanadas de peaje."
+   },
+   "correcta": "c",
+   "explicacion": "Los peatones no pueden hacer peticiones de pasaje en ningún tramo de autopistas y autovías, incluidas las explanadas de las estaciones de peaje.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "125.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "no podrán hacer peticiones de pasaje en ningún tramo de ellas, incluidas las explanadas de estaciones de peaje",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-via-0003",
+   "tema": "vias",
+   "subtema": "animales_autopista",
+   "materia": 7,
+   "enunciado": "¿Puede circular una persona a caballo por el arcén de una autovía?",
+   "opciones": {
+    "a": "Sí, siempre que vaya por el arcén.",
+    "b": "No, está prohibida la circulación de animales por autopistas y autovías.",
+    "c": "Solo de día."
+   },
+   "correcta": "b",
+   "explicacion": "Se prohíbe la circulación de animales por autopistas y autovías; la prohibición incluye también los vehículos de tracción animal.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "128",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Se prohíbe la circulación de animales por autopistas o autovías",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-arc-0001",
+   "tema": "por_donde_circular",
+   "subtema": "silla_ruedas",
+   "materia": 1,
+   "enunciado": "Una persona en silla de ruedas circula sola por una carretera sin acera ni zona peatonal practicable. Como norma general, ¿por dónde debe ir?",
+   "opciones": {
+    "a": "Por el arcén derecho, como los vehículos.",
+    "b": "Por el arcén izquierdo en el sentido de su marcha (o por la calzada si no hay arcén), lo más alejada posible de los vehículos.",
+    "c": "Por el centro de la calzada, para que la vean."
+   },
+   "correcta": "b",
+   "explicacion": "Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "122.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-arc-0002",
+   "tema": "condiciones_adversas",
+   "subtema": "nieve",
+   "materia": 6,
+   "enunciado": "En una autovía con tres carriles por sentido, la circulación está dificultada por la nieve. ¿Qué carriles puede utilizar?",
+   "opciones": {
+    "a": "Solo el de la derecha.",
+    "b": "El de la derecha y su contiguo, dejando libres los de la izquierda para emergencias y quitanieves.",
+    "c": "Cualquiera, con cadenas."
+   },
+   "correcta": "b",
+   "explicacion": "Con nieve está prohibido adelantar y hay que ir por el carril derecho, pudiendo usar el contiguo si hay tres o más carriles por sentido.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "32.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "pudiendo utilizar su contiguo en tramos con tres o más carriles por sentido, dejando expeditos para la circulación de vehículos de emergencia y quitanieves el resto de carriles a la izquierda",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-cesp-0001",
+   "tema": "carriles_especiales",
+   "subtema": "vao",
+   "materia": 1,
+   "enunciado": "Una motocicleta ocupada solo por su conductor, ¿puede circular por un carril VAO?",
+   "opciones": {
+    "a": "Sí, siempre: las motos no necesitan cumplir el número mínimo de ocupantes.",
+    "b": "Solo si cumple el número mínimo de ocupantes que se haya fijado para ese carril VAO.",
+    "c": "No, las motocicletas nunca pueden usar el carril VAO."
+   },
+   "correcta": "b",
+   "explicacion": "Las motos pueden usar el VAO, pero, como los turismos, deben cumplir los requisitos de alta ocupación del tramo. Solo se libran del número mínimo de ocupantes los vehículos con la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad y los autobuses de más de 3.500 kg.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 9, Carril VAO (p. 233)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Motocicletas, turismos o vehículos mixtos adaptables cuando cumplan los tres requisitos necesarios para automóviles VAO",
+    "version_consultada": "2024"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-cesp-0002",
+   "tema": "carriles_especiales",
+   "subtema": "sentido_contrario",
+   "materia": 1,
+   "enunciado": "Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. ¿A qué velocidad debe circular, salvo señal de otra inferior?",
+   "opciones": {
+    "a": "Entre 60 y 80 km/h.",
+    "b": "A la velocidad genérica de la vía.",
+    "c": "Como máximo a 50 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "41.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "si disponen de un solo carril en su sentido de circulación, lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-cesp-0003",
+   "tema": "carriles_especiales",
+   "subtema": "sentido_contrario",
+   "materia": 1,
+   "enunciado": "Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido dispone de dos carriles. ¿A qué velocidad puede circular?",
+   "opciones": {
+    "a": "Obligatoriamente entre 60 y 80 km/h.",
+    "b": "A las velocidades genéricas de la vía (máximas y mínimas).",
+    "c": "Como máximo a 60 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "41.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "si disponen de más de un carril en su sentido de circulación, lo harán a las velocidades que se establecen en los artículos 48.1.a).1.ª y 2.a, 49 y 50",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-cesp-0004",
+   "tema": "carriles_especiales",
+   "subtema": "sentido_contrario",
+   "materia": 1,
+   "enunciado": "Los vehículos que circulan por el carril contiguo a uno habilitado en sentido contrario al habitual, ¿qué alumbrado deben llevar?",
+   "opciones": {
+    "a": "Ninguno especial de día.",
+    "b": "Al menos la luz de corto alcance o de cruce, de día y de noche.",
+    "c": "La luz de largo alcance."
+   },
+   "correcta": "b",
+   "explicacion": "Deben llevar encendida al menos la luz de cruce, tanto de día como de noche, y no pueden invadir el carril habilitado en sentido contrario.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "41.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "llevarán encendida la luz de corto alcance o cruce, al menos, tanto de día como de noche",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-dist-0001",
+   "tema": "distancias",
+   "subtema": "distancia_frontal",
+   "materia": 5,
+   "enunciado": "Según el manual de la DGT, ¿qué separación es aconsejable dejar con el vehículo de delante en condiciones normales?",
+   "opciones": {
+    "a": "Un segundo.",
+    "b": "Dos o tres segundos.",
+    "c": "Cinco segundos."
+   },
+   "correcta": "b",
+   "explicacion": "El manual aconseja dos o tres segundos de separación, y al menos un segundo más con lluvia, nieve, niebla, de noche o si el de atrás se acerca demasiado. El reglamento no fija segundos: exige un espacio que permita detenerse sin chocar (RGC 54.1).",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Espacio delantero (p. 446)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Es aconsejable que entre tu vehículo y el de delante haya dos o tres segundos de separación.",
+    "version_consultada": "2024"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-dist-0002",
+   "tema": "distancias",
+   "subtema": "distancia_frontal",
+   "materia": 5,
+   "enunciado": "Según el manual de la DGT, si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?",
+   "opciones": {
+    "a": "Al menos un segundo más.",
+    "b": "No hace falta aumentarla.",
+    "c": "Hay que duplicarla siempre."
+   },
+   "correcta": "a",
+   "explicacion": "El manual indica dejar al menos un segundo más de espacio con lluvia, nieve, niebla, de noche o cuando el vehículo de atrás se acerca demasiado.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Espacio delantero (p. 446)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "hay circunstancias en las que se debe dejar, al menos, un segundo más de espacio.",
+    "version_consultada": "2024"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-vel-0001",
+   "tema": "velocidad",
+   "subtema": "vehiculos_especiales",
+   "materia": 1,
+   "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción puede superar los 60 km/h en llano y cumple sus normas técnicas, ¿a qué velocidad máxima puede circular?",
+   "opciones": {
+    "a": "40 km/h.",
+    "b": "70 km/h.",
+    "c": "25 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Los vehículos especiales tienen 40 km/h, salvo que puedan superar 60 km/h en llano y cumplan las normas de los vehículos: entonces 70 km/h. Si no tienen señalización de frenado, llevan remolque o son motocultores, 25 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.c.2º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "salvo cuando puedan desarrollar una velocidad superior a los 60 kilómetros por hora en llano con arreglo a sus características, y cumplan las condiciones que se señalan en las normas reguladoras de los vehículos; en tal caso, la velocidad máxima será de 70 kilómetros por hora",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-vel-0002",
+   "tema": "velocidad",
+   "subtema": "ciclos",
+   "materia": 1,
+   "enunciado": "Fuera de poblado, el límite de velocidad de los ciclos es de 45 km/h. ¿Puede un ciclista superarlo?",
+   "opciones": {
+    "a": "No, nunca.",
+    "b": "Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior.",
+    "c": "Solo en bajadas, hasta 60 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "El límite de 45 km/h es para ciclos, ciclomotores y cuadriciclos ligeros, pero los conductores de bicicletas pueden superarlo donde las circunstancias de la vía lo permitan.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los conductores de bicicletas podrán superar dicha velocidad máxima en aquellos tramos en los que las circunstancias de la vía permitan desarrollar una velocidad superior",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-adel-0001",
+   "tema": "adelantamiento",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "¿Está permitido adelantar en una intersección con una vía para ciclistas?",
+   "opciones": {
+    "a": "Sí, si no hay ciclistas a la vista.",
+    "b": "No, está prohibido adelantar en las intersecciones con vías para ciclistas y en sus proximidades.",
+    "c": "Solo a vehículos de dos ruedas."
+   },
+   "correcta": "b",
+   "explicacion": "Está prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas, en los pasos a nivel y en sus proximidades.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "87.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-luc-0001",
+   "tema": "luces",
+   "subtema": "tuneles",
+   "materia": 6,
+   "enunciado": "A media mañana entra en un túnel insuficientemente iluminado, a 80 km/h y sin nadie a quien deslumbrar. ¿Qué alumbrado debe llevar?",
+   "opciones": {
+    "a": "El de corto alcance o cruce, porque es un túnel.",
+    "b": "El de largo alcance o carretera.",
+    "c": "Solo las luces de posición, porque es de día."
+   },
+   "correcta": "b",
+   "explicacion": "En túneles insuficientemente iluminados, a más de 40 km/h, hay que llevar la luz de carretera salvo que haya que usar la de cruce (por ejemplo, para no deslumbrar). En túneles suficientemente iluminados, la de cruce.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "100.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "a cualquier hora del día por túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5) insuficientemente iluminados, la llevará encendida",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-luc-0002",
+   "tema": "vehiculo",
+   "subtema": "alumbrado_obligatorio",
+   "materia": 14,
+   "enunciado": "En un turismo, ¿qué luces antiniebla son obligatorias?",
+   "opciones": {
+    "a": "Las delanteras y las traseras.",
+    "b": "Solo la trasera; la delantera es opcional.",
+    "c": "Ninguna; las dos son opcionales."
+   },
+   "correcta": "b",
+   "explicacion": "Todo automóvil debe llevar luz antiniebla trasera. La antiniebla delantera es un dispositivo facultativo.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "17.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Todo automóvil, con excepción de los que se reseñan en los apartados siguientes, puede llevar: Luz antiniebla delantera.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-veh-0001",
+   "tema": "vehiculo",
+   "subtema": "retrovisores",
+   "materia": 14,
+   "enunciado": "Una motocicleta cuya velocidad máxima por construcción es superior a 100 km/h, ¿qué retrovisores exteriores debe llevar?",
+   "opciones": {
+    "a": "Solo el izquierdo.",
+    "b": "El izquierdo y el derecho.",
+    "c": "Ninguno es obligatorio."
+   },
+   "correcta": "b",
+   "explicacion": "En las motocicletas de más de 100 km/h son obligatorios los dos retrovisores exteriores; si no superan 100 km/h, solo el izquierdo (el derecho es optativo).",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo III.3 (tabla)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Si la velocidad máxima es mayor de […] 1 oblig. 1 oblig. […] 100 Km/h",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-car-0001",
+   "tema": "carga",
+   "subtema": "dimensiones",
+   "materia": 12,
+   "enunciado": "¿Cuál es la longitud máxima de un camión rígido (vehículo de motor que no es autobús), incluida la carga?",
+   "opciones": {
+    "a": "12 metros.",
+    "b": "16,50 metros.",
+    "c": "18,75 metros."
+   },
+   "correcta": "a",
+   "explicacion": "La longitud máxima de los vehículos de motor (excepto autobuses) es 12 m. Los vehículos articulados llegan a 16,50 m y los trenes de carretera a 18,75 m. La carga no puede hacer que se superen estas medidas (RGC 13.1).",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo IX.3.1, tabla 3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Vehículos de motor excepto autobuses (1). 12,00",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-car-0002",
+   "tema": "carga",
+   "subtema": "dimensiones",
+   "materia": 12,
+   "enunciado": "Como norma general, ¿cuál es la altura máxima de un vehículo, incluida la carga?",
+   "opciones": {
+    "a": "3,50 metros.",
+    "b": "4,00 metros.",
+    "c": "4,50 metros."
+   },
+   "correcta": "b",
+   "explicacion": "La altura máxima general de los vehículos, incluida la carga, es de 4 metros (los autobuses urbanos de clase I, 4,20 m). La anchura máxima general es de 2,55 m.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo IX.3.1, tabla 3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Altura máxima de los vehículos incluida la carga, como norma general. 4,00",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-itv-0001",
+   "tema": "documentacion",
+   "subtema": "itv",
+   "materia": 10,
+   "enunciado": "Un turismo particular, ¿con qué frecuencia debe pasar la ITV?",
+   "opciones": {
+    "a": "Exento hasta los 4 años; cada dos años hasta los 10; y después, cada año.",
+    "b": "Cada año desde la matriculación.",
+    "c": "Exento hasta los 2 años; después, cada año."
+   },
+   "correcta": "a",
+   "explicacion": "Turismos (M1): exentos hasta 4 años, bienal de 4 a 10 años y anual a partir de 10. No se aplica a taxis, ambulancias, autoescuelas ni transporte escolar, que tienen plazos más cortos.",
+   "fuente": {
+    "norma": "ITV",
+    "articulo": "6.1 (tabla)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+    "cita": "M1: vehículos de motor concebidos y fabricados principalmente para el transporte de personas y de […] De más de 4 años: Bienal. […] Hasta 4 años: Exento. […] sus equipajes, con un máximo de ocho plazas, excluida la del conductor. […] De más de 10 años: Anual.",
+    "version_consultada": "2024-09-18"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-itv-0002",
+   "tema": "documentacion",
+   "subtema": "itv",
+   "materia": 10,
+   "enunciado": "Una furgoneta de 3.500 kg de MMA o menos (categoría N1), ¿con qué frecuencia debe pasar la ITV?",
+   "opciones": {
+    "a": "Exenta hasta 4 años y después cada dos años.",
+    "b": "Exenta hasta 2 años; cada dos años de 2 a 6; cada año de 6 a 10; y cada seis meses a partir de 10.",
+    "c": "Cada año desde la matriculación."
+   },
+   "correcta": "b",
+   "explicacion": "N1 (mercancías hasta 3,5 t): exenta hasta 2 años, bienal de 2 a 6, anual de 6 a 10 y semestral a partir de 10 años.",
+   "fuente": {
+    "norma": "ITV",
+    "articulo": "6.1 (tabla)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+    "cita": "De 2 a 6 años: Bienal. […] N1: Vehículos de motor concebidos y fabricados principalmente para el transporte de mercancías y […] Hasta 2 años: Exento. […] De 6 a 10 años: Anual. […] cuya masa máxima no sea superior a 3,5 toneladas. […] De más de 10 años: Semestral.",
+    "version_consultada": "2024-09-18"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-itv-0003",
+   "tema": "documentacion",
+   "subtema": "itv",
+   "materia": 10,
+   "enunciado": "Una motocicleta, ¿con qué frecuencia debe pasar la ITV?",
+   "opciones": {
+    "a": "Exenta hasta 4 años y después cada dos años.",
+    "b": "Cada año desde la matriculación.",
+    "c": "Nunca, las motos no pasan ITV."
+   },
+   "correcta": "a",
+   "explicacion": "Motocicletas (resto de categoría L): exentas hasta 4 años y después bienal. Los ciclomotores: exentos hasta 3 años y después bienal.",
+   "fuente": {
+    "norma": "ITV",
+    "articulo": "6.1 (tabla)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+    "cita": "Resto L: Vehículos de motor de dos o tres ruedas, gemelas o no, y cuadriciclos, destinados a circular […] Hasta 4 años: Exento. […] De más de 4 años: Bienal.",
+    "version_consultada": "2024-09-18"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-itv-0004",
+   "tema": "documentacion",
+   "subtema": "itv",
+   "materia": 10,
+   "enunciado": "Su turismo saca una ITV desfavorable (defectos graves). ¿Puede circular con él?",
+   "opciones": {
+    "a": "Sí, con normalidad durante dos meses.",
+    "b": "Solo para llevarlo al taller y volver a la ITV, en un plazo no superior a dos meses.",
+    "c": "No, debe trasladarse en grúa."
+   },
+   "correcta": "b",
+   "explicacion": "Los defectos graves inhabilitan para circular, salvo para ir al taller o regularizar la situación y volver a la ITV en un plazo no superior a dos meses.",
+   "fuente": {
+    "norma": "ITV",
+    "articulo": "11.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+    "cita": "Los defectos calificados como graves son defectos que inhabilitan al vehículo para circular por las vías públicas excepto para su traslado al taller",
+    "version_consultada": "2024-09-18"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-itv-0005",
+   "tema": "documentacion",
+   "subtema": "itv",
+   "materia": 10,
+   "enunciado": "Si la ITV es negativa (defectos muy graves), ¿cómo se traslada el vehículo desde la estación?",
+   "opciones": {
+    "a": "Conduciéndolo directamente al taller.",
+    "b": "Por medios ajenos al propio vehículo (por ejemplo, en grúa).",
+    "c": "Conduciéndolo, pero solo de día."
+   },
+   "correcta": "b",
+   "explicacion": "Los defectos muy graves inhabilitan al vehículo para circular: el traslado se hace por medios ajenos al vehículo. Una vez reparado, debe volver a la ITV en un plazo no superior a dos meses.",
+   "fuente": {
+    "norma": "ITV",
+    "articulo": "11.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+    "cita": "el traslado del vehículo desde la estación hasta su destino se realizará por medios ajenos al propio vehículo",
+    "version_consultada": "2024-09-18"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-seg-0001",
+   "tema": "documentacion",
+   "subtema": "seguro_obligatorio",
+   "materia": 10,
+   "enunciado": "El seguro obligatorio del vehículo causante de un accidente, ¿cubre las lesiones de su propio conductor?",
+   "opciones": {
+    "a": "Sí, siempre.",
+    "b": "No, el seguro obligatorio no cubre las lesiones ni el fallecimiento del conductor del vehículo causante.",
+    "c": "Solo si llevaba puesto el cinturón."
+   },
+   "correcta": "b",
+   "explicacion": "El seguro obligatorio cubre los daños a terceros (personas y bienes), pero no las lesiones o el fallecimiento del conductor causante ni los daños de su propio vehículo.",
+   "fuente": {
+    "norma": "LRCSCVM",
+    "articulo": "5.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911",
+    "cita": "no alcanzará a los daños y perjuicios ocasionados por las lesiones o fallecimiento del conductor del vehículo causante del accidente",
+    "version_consultada": "2026-02-18"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-seg-0002",
+   "tema": "documentacion",
+   "subtema": "seguro_obligatorio",
+   "materia": 10,
+   "enunciado": "¿Cubre el seguro obligatorio los daños sufridos por el propio vehículo asegurado?",
+   "opciones": {
+    "a": "Sí.",
+    "b": "No.",
+    "c": "Solo si el accidente fue culpa del otro conductor."
+   },
+   "correcta": "b",
+   "explicacion": "La cobertura del seguro obligatorio no alcanza a los daños en el propio vehículo asegurado ni en las cosas transportadas en él. Si el otro conductor tiene la culpa, paga el seguro del otro, no el propio.",
+   "fuente": {
+    "norma": "LRCSCVM",
+    "articulo": "5.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911",
+    "cita": "tampoco alcanzará a los daños en los bienes sufridos por el vehículo asegurado",
+    "version_consultada": "2026-02-18"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-seg-0003",
+   "tema": "documentacion",
+   "subtema": "seguro_obligatorio",
+   "materia": 10,
+   "enunciado": "Un remolque de 600 kg de masa máxima autorizada, ¿necesita su propio seguro obligatorio?",
+   "opciones": {
+    "a": "No, los remolques de hasta 750 kg de MMA están exceptuados.",
+    "b": "Sí, todos los remolques.",
+    "c": "Solo si circula de noche."
+   },
+   "correcta": "a",
+   "explicacion": "Están exceptuados de la obligación de asegurarse los remolques y semirremolques que no excedan de 750 kg de MMA.",
+   "fuente": {
+    "norma": "LRCSCVM",
+    "articulo": "2.8.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911",
+    "cita": "Los remolques y semirremolques que no excedan de 750 kilogramos de masa máxima autorizada.",
+    "version_consultada": "2026-02-18"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-veh-0002",
+   "tema": "accesorios_obligatorios",
+   "subtema": "extintor",
+   "materia": 14,
+   "enunciado": "Un turismo arrastra un remolque ligero. ¿Debe llevar extintor?",
+   "opciones": {
+    "a": "No, solo los camiones y autobuses.",
+    "b": "Sí, porque turismo y remolque forman un conjunto de vehículos, y los conjuntos no especiales deben llevar extintor.",
+    "c": "Solo si el remolque supera 750 kg."
+   },
+   "correcta": "b",
+   "explicacion": "Un vehículo de motor enganchado a un remolque es un tren de carretera, es decir, un conjunto de vehículos. Los conjuntos de vehículos no especiales deben llevar un extintor homologado, además del V-16 y el chaleco.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XII.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "y los conjuntos de vehículos no especiales, deberán llevar, además de la dotación que se establece en el apartado 1 a) y b), un equipo homologado de extinción de incendios",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-perm-0001",
+   "tema": "permiso_conduccion",
+   "subtema": "edades",
+   "materia": 10,
+   "enunciado": "¿A qué edad mínima se puede obtener el permiso de la clase A (motocicletas sin límite de potencia)?",
+   "opciones": {
+    "a": "18 años.",
+    "b": "20 años.",
+    "c": "21 años."
+   },
+   "correcta": "b",
+   "explicacion": "El permiso A se obtiene con 20 años cumplidos (y dos años de antigüedad en el A2). Hasta los 21 no autoriza a conducir triciclos de más de 15 kW.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (tabla)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "A Motocicletas y triciclos de motor. 20",
+    "version_consultada": "consolidado descargado 2026-11-24"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-perm-0002",
+   "tema": "permiso_conduccion",
+   "subtema": "edades",
+   "materia": 10,
+   "enunciado": "¿A qué edad mínima se puede obtener el permiso AM (ciclomotores)?",
+   "opciones": {
+    "a": "14 años.",
+    "b": "15 años.",
+    "c": "16 años."
+   },
+   "correcta": "b",
+   "explicacion": "El permiso AM se obtiene con 15 años cumplidos. El A1, con 16; el A2 y el B, con 18; el A, con 20.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (tabla)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Ciclomotores de dos o tres ruedas y cuatriciclos ligeros. […] Podrá estar limitado a la conducción de ciclomotores de tres ruedas y […] AM 15",
+    "version_consultada": "consolidado descargado 2026-11-24"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-perm-0003",
+   "tema": "permiso_conduccion",
+   "subtema": "a2",
+   "materia": 10,
+   "enunciado": "¿Qué limita el permiso A2?",
+   "opciones": {
+    "a": "La cilindrada de la moto, como máximo 500 cm³.",
+    "b": "La potencia de la moto: como máximo 35 kW y 0,2 kW/kg, y que no derive de un vehículo con más del doble de potencia.",
+    "c": "Nada: autoriza cualquier motocicleta."
+   },
+   "correcta": "b",
+   "explicacion": "El A2 se define por la potencia (máximo 35 kW y relación potencia/peso de 0,2 kW/kg), no por la cilindrada.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (tabla)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Motocicletas con una potencia máxima de 35 kW y una relación potencia/peso",
+    "version_consultada": "consolidado descargado 2026-11-24"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-pun-0001",
+   "tema": "puntos",
+   "subtema": "cursos",
+   "materia": 10,
+   "enunciado": "¿Cuánto dura el curso de recuperación parcial de puntos?",
+   "opciones": {
+    "a": "10 horas.",
+    "b": "12 horas.",
+    "c": "20 horas."
+   },
+   "correcta": "b",
+   "explicacion": "El curso de recuperación parcial dura 12 horas y el de recuperación del permiso (pérdida total), 24 horas. La Ley fija un máximo de 15 horas para el parcial.",
+   "fuente": {
+    "norma": "OCURSOS",
+    "articulo": "Cuarto",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-13723",
+    "cita": "Estos cursos tendrán una duración de doce horas.",
+    "version_consultada": "2024-09-04"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-pun-0002",
+   "tema": "puntos",
+   "subtema": "cursos",
+   "materia": 10,
+   "enunciado": "¿Cuánto dura el curso para recuperar el permiso tras perder todos los puntos?",
+   "opciones": {
+    "a": "12 horas.",
+    "b": "20 horas.",
+    "c": "24 horas."
+   },
+   "correcta": "c",
+   "explicacion": "El curso de recuperación del permiso o licencia dura 24 horas; el de recuperación parcial, 12.",
+   "fuente": {
+    "norma": "OCURSOS",
+    "articulo": "Quinto",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-13723",
+    "cita": "Estos cursos tendrán una duración de veinticuatro horas",
+    "version_consultada": "2024-09-04"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-del-0001",
+   "tema": "infracciones_sanciones",
+   "subtema": "delitos",
+   "materia": 1,
+   "enunciado": "Circular a 140 km/h en una vía urbana limitada a 50 km/h (90 km/h por encima del límite), ¿qué es?",
+   "opciones": {
+    "a": "Una infracción grave.",
+    "b": "Una infracción muy grave, pero no delito.",
+    "c": "Un delito contra la seguridad vial."
+   },
+   "correcta": "c",
+   "explicacion": "Es delito superar en más de 60 km/h el límite en vía urbana o en más de 80 km/h en vía interurbana.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "379.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+    "cita": "a velocidad superior en sesenta kilómetros por hora en vía urbana o en ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-del-0002",
+   "tema": "alcohol_drogas",
+   "subtema": "delitos",
+   "materia": 4,
+   "enunciado": "¿A partir de qué tasa de alcohol en aire espirado conducir es, en todo caso, delito?",
+   "opciones": {
+    "a": "Más de 0,25 mg/l.",
+    "b": "Más de 0,50 mg/l.",
+    "c": "Más de 0,60 mg/l."
+   },
+   "correcta": "c",
+   "explicacion": "Siempre es delito conducir con más de 0,60 mg/l en aire espirado o más de 1,2 g/l en sangre. Con tasas menores también puede ser delito si se conduce bajo la influencia del alcohol.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "379.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+    "cita": "con una tasa de alcohol en aire espirado superior a 0,60 miligramos por litro",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-del-0003",
+   "tema": "alcohol_drogas",
+   "subtema": "delitos",
+   "materia": 4,
+   "enunciado": "Un agente le pide a usted, que conduce, que se someta a la prueba de alcoholemia y usted se niega. ¿Qué comete?",
+   "opciones": {
+    "a": "Nada, si no ha bebido.",
+    "b": "Un delito.",
+    "c": "Una infracción leve."
+   },
+   "correcta": "b",
+   "explicacion": "El conductor que, requerido por un agente, se niega a someterse a las pruebas de alcohol o drogas comete un delito castigado con prisión de seis meses a un año y privación del permiso de uno a cuatro años.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "383",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+    "cita": "El conductor que, requerido por un agente de la autoridad, se negare a someterse a las pruebas legalmente establecidas para la comprobación de las tasas de alcoholemia",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-del-0004",
+   "tema": "infracciones_sanciones",
+   "subtema": "delitos",
+   "materia": 1,
+   "enunciado": "Conducir un turismo sin haber obtenido nunca el permiso de conducción, ¿qué es?",
+   "opciones": {
+    "a": "Una infracción grave.",
+    "b": "Una infracción muy grave.",
+    "c": "Un delito."
+   },
+   "correcta": "c",
+   "explicacion": "Es delito conducir sin haber obtenido nunca permiso, tras perder todos los puntos, o tras ser privado del permiso por un juez.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "384",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+    "cita": "al que condujere un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia de conducción",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-del-0005",
+   "tema": "infracciones_sanciones",
+   "subtema": "delitos",
+   "materia": 1,
+   "enunciado": "Conducir cuando el permiso ha perdido su vigencia por haber perdido todos los puntos, ¿qué es?",
+   "opciones": {
+    "a": "Un delito.",
+    "b": "Una infracción leve.",
+    "c": "Nada, si se está haciendo el curso de recuperación."
+   },
+   "correcta": "a",
+   "explicacion": "Conducir con el permiso sin vigencia por pérdida total de los puntos es delito.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "384",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+    "cita": "en los casos de pérdida de vigencia del permiso o licencia por pérdida total de los puntos asignados legalmente",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-del-0006",
+   "tema": "infracciones_sanciones",
+   "subtema": "delitos",
+   "materia": 1,
+   "enunciado": "Colocar en la vía obstáculos imprevisibles o derramar sustancias deslizantes, originando un grave riesgo para la circulación, ¿qué es?",
+   "opciones": {
+    "a": "Un delito.",
+    "b": "Solo una infracción leve.",
+    "c": "Una infracción grave sin pérdida de puntos."
+   },
+   "correcta": "a",
+   "explicacion": "Es delito originar un grave riesgo para la circulación colocando obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o alterando la señalización.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "385",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+    "cita": "Colocando en la vía obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o mutando, sustrayendo o anulando la señalización",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-del-0007",
+   "tema": "accidentes",
+   "subtema": "omision_socorro",
+   "materia": 11,
+   "enunciado": "No socorrer a una persona herida en un accidente, desamparada y en peligro grave, pudiendo hacerlo sin riesgo propio ni de terceros, ¿qué es?",
+   "opciones": {
+    "a": "Una infracción leve.",
+    "b": "Un delito de omisión del deber de socorro.",
+    "c": "No es nada si no se ha causado el accidente."
+   },
+   "correcta": "b",
+   "explicacion": "Es delito no socorrer a quien está desamparado y en peligro manifiesto y grave, si se puede hacer sin riesgo. Si no se puede ayudar, hay que pedir auxilio con urgencia.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "195.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+    "cita": "El que no socorriere a una persona que se halle desamparada y en peligro manifiesto y grave, cuando pudiere hacerlo sin riesgo propio ni de terceros",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-alc-0001",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "Una persona adulta que conduce un patinete eléctrico (vehículo de movilidad personal), con carácter general, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+   "opciones": {
+    "a": "0 mg/l.",
+    "b": "0,15 mg/l.",
+    "c": "0,25 mg/l."
+   },
+   "correcta": "c",
+   "explicacion": "El VMP es un vehículo y la tasa general para conductores de vehículos es 0,25 mg/l en aire espirado (0,5 g/l en sangre). Los conductores menores de edad no pueden tener ninguna tasa (0).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los conductores de vehículos ni los conductores de bicicletas con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-fat-0001",
+   "tema": "factores_riesgo",
+   "subtema": "somnolencia",
+   "materia": 4,
+   "enunciado": "Al volante empieza a notar los primeros síntomas de sueño. Según el manual de la DGT, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Abrir la ventanilla y seguir hasta el destino.",
+    "b": "Parar en un lugar seguro y dormir 20 o 30 minutos.",
+    "c": "Tomar un café y seguir conduciendo."
+   },
+   "correcta": "b",
+   "explicacion": "El manual de la DGT dice que, con los primeros síntomas, hay que parar en un lugar seguro y dormir 20 o 30 minutos, y descansar 20 o 30 minutos cada dos horas o 200 km.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, fatiga y somnolencia (p. 51)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "cuando sientas los primeros síntomas y duerme 20 o 30 minutos.",
+    "version_consultada": "2024"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-seg-0004",
+   "tema": "conduccion_segura",
+   "subtema": "volante",
+   "materia": 14,
+   "enunciado": "Según el manual de la DGT, al girar el volante, ¿se deben cruzar las manos?",
+   "opciones": {
+    "a": "Sí, para girar más rápido.",
+    "b": "No: el volante se coge sin cruzar las manos al girarlo.",
+    "c": "Solo en las curvas cerradas."
+   },
+   "correcta": "b",
+   "explicacion": "El manual de la DGT indica coger el volante con las dos manos, por la parte exterior, con firmeza pero sin mucha fuerza y sin cruzar las manos al girar.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, cómo coger el volante (p. 123)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Sin cruzar las manos al girar el volante.",
+    "version_consultada": "2024"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-acc-0001",
+   "tema": "accidentes",
+   "subtema": "estadistica",
+   "materia": 2,
+   "enunciado": "Según el manual de la DGT, ¿cuándo hay más accidentes?",
+   "opciones": {
+    "a": "Los martes y miércoles por la mañana.",
+    "b": "Los fines de semana y los días de fiesta, en especial de madrugada.",
+    "c": "Los lunes laborables a mediodía."
+   },
+   "correcta": "b",
+   "explicacion": "El manual de la DGT indica que hay más accidentes los fines de semana y los días de fiesta, en especial en las horas de la madrugada.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16 (p. 391)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Hay más accidentes los fines de semana y los días de fiesta.",
+    "version_consultada": "2024"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-ref-0001",
+   "tema": "usuarios_vulnerables",
+   "subtema": "ciclistas",
+   "materia": 8,
+   "enunciado": "Un ciclista circula de noche por una vía interurbana. ¿A qué distancia mínima debe ser visible el elemento luminoso o reflectante que debe llevar?",
+   "opciones": {
+    "a": "50 metros.",
+    "b": "100 metros.",
+    "c": "150 metros."
+   },
+   "correcta": "c",
+   "explicacion": "Entre el ocaso y la salida del sol o con poca visibilidad, en vía interurbana, el ciclista debe llevar al menos un elemento luminoso o reflectante visible a 150 m. El chaleco del conductor de un turismo no tiene esa exigencia de distancia: debe ser de alta visibilidad certificado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "118.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa de los equipos de protección individual, que sea visible a una distancia mínima de 150 metros, si circulan en vía interurbana",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-sen-0001",
+   "tema": "senales_verticales",
+   "subtema": "identificacion_carreteras",
+   "materia": 1,
+   "enunciado": "¿De qué color es el fondo del cartel que identifica una carretera autonómica de segundo nivel (por ejemplo, ZA-320)?",
+   "opciones": {
+    "a": "Verde.",
+    "b": "Marrón.",
+    "c": "Amarillo."
+   },
+   "correcta": "b",
+   "explicacion": "En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "S-440 Carretera de segundo nivel perteneciente a una red diferente de la del Estado.",
+    "version_consultada": "2026-06-26",
+    "tipo_cita": "imagen_catalogo",
+    "pagina_pdf": 179
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-sen-0002",
+   "tema": "senales_verticales",
+   "subtema": "identificacion_carreteras",
+   "materia": 1,
+   "enunciado": "¿De qué color es el fondo del cartel que identifica una carretera de la red del Estado que no es autopista ni autovía (por ejemplo, N-401)?",
+   "opciones": {
+    "a": "Rojo.",
+    "b": "Azul.",
+    "c": "Naranja."
+   },
+   "correcta": "a",
+   "explicacion": "Las carreteras convencionales o multicarril de la red del Estado se identifican con fondo rojo (S-420). Las autopistas y autovías, con fondo azul (S-410).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-420)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "S-420 Carretera convencional o carretera multicarril de la red del Estado",
+    "version_consultada": "2026-06-26",
+    "tipo_cita": "imagen_catalogo",
+    "pagina_pdf": 178
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-sen-0003",
+   "tema": "senales_verticales",
+   "subtema": "balizas_paso_nivel",
+   "materia": 1,
+   "enunciado": "Antes de un paso a nivel, una baliza rectangular con tres franjas rojas en el lado derecho indica que el paso a nivel está a...",
+   "opciones": {
+    "a": "300 metros.",
+    "b": "200 metros.",
+    "c": "100 metros."
+   },
+   "correcta": "b",
+   "explicacion": "La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.1 (P-9a)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 200 m. Esta baliza se sitúa en el lado derecho de la calzada y va siempre acompañada de la señal P-5, P-7, P-8 o P-27.",
+    "version_consultada": "2026-06-26",
+    "tipo_cita": "imagen_catalogo",
+    "pagina_pdf": 90
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-sen-0004",
+   "tema": "senales_verticales",
+   "subtema": "limitacion_velocidad",
+   "materia": 1,
+   "enunciado": "Una señal de velocidad máxima está en el mismo poste que una señal de peligro. ¿Hasta dónde obliga la limitación?",
+   "opciones": {
+    "a": "Hasta la próxima intersección.",
+    "b": "Hasta que termine el peligro señalado.",
+    "c": "Hasta que aparezca una señal de fin de limitación, aunque haya terminado el peligro."
+   },
+   "correcta": "b",
+   "explicacion": "Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "salvo que esté colocada en el mismo poste que una señal de advertencia de peligro o en el mismo panel que esta, en cuyo caso la prohibición finaliza cuando termine el peligro señalado.",
+    "version_consultada": "2026-06-26",
+    "tipo_cita": "imagen_catalogo",
+    "pagina_pdf": 109
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "res-sen-0005",
+   "tema": "senales_verticales",
+   "subtema": "zona_estancia_juego",
+   "materia": 1,
+   "enunciado": "En una zona de estancia y juego, ¿cuál es la velocidad máxima de los vehículos?",
+   "opciones": {
+    "a": "10 km/h.",
+    "b": "20 km/h.",
+    "c": "30 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "la velocidad máxima de los vehículos está fijada en 10 kilómetros por hora y los conductores deben conceder prioridad a los peatones",
+    "version_consultada": "2026-06-26",
+    "tipo_cita": "imagen_catalogo",
+    "pagina_pdf": 134
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0001",
+   "tema": "abandonar_vehiculo",
+   "subtema": "motor_y_arranque",
+   "materia": 13,
+   "enunciado": "Para un turismo y tiene que dejar su puesto de conductor. ¿Qué debe hacer con el motor?",
+   "opciones": {
+    "a": "Pararlo y desconectar el sistema de arranque.",
+    "b": "Puede dejarlo en marcha si va a volver en menos de dos minutos.",
+    "c": "Dejarlo en marcha, siempre que deje accionado el freno de estacionamiento."
+   },
+   "correcta": "a",
+   "explicacion": "Si el conductor de un vehículo a motor tiene que dejar su puesto, debe parar el motor y desconectar el sistema de arranque.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a92",
+    "cita": "Parar el motor y desconectar el sistema de arranque",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0002",
+   "tema": "abandonar_vehiculo",
+   "subtema": "uso_sin_autorizacion",
+   "materia": 13,
+   "enunciado": "Si, además de dejar su puesto, se aleja del vehículo, ¿qué obligación añadida tiene?",
+   "opciones": {
+    "a": "Ninguna, basta con parar el motor.",
+    "b": "Adoptar las precauciones necesarias para impedir su uso sin autorización.",
+    "c": "Encender la luz de emergencia mientras esté fuera."
+   },
+   "correcta": "b",
+   "explicacion": "Cuando el conductor se aleja del vehículo debe adoptar las precauciones necesarias para impedir que otra persona lo use sin autorización (por ejemplo, cerrarlo y llevarse la llave).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a92",
+    "cita": "si se alejara del vehículo, adoptar las precauciones necesarias para impedir su uso sin autorización",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0003",
+   "tema": "abandonar_vehiculo",
+   "subtema": "cambio_automatico",
+   "materia": 13,
+   "enunciado": "Estaciona un turismo con cambio automático. Además del freno de estacionamiento, ¿qué debe dejar seleccionado?",
+   "opciones": {
+    "a": "La posición de marcha adelante.",
+    "b": "El punto muerto, para no forzar la transmisión.",
+    "c": "La posición de estacionamiento."
+   },
+   "correcta": "c",
+   "explicacion": "El reglamento pide dejar la primera o la marcha atrás en los vehículos con caja de cambios manual, «o, en su caso, la posición de estacionamiento» (la P de los cambios automáticos).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a92",
+    "cita": "y la marcha hacia atrás, en descendente, o, en su caso, la posición de estacionamiento",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0004",
+   "tema": "abandonar_vehiculo",
+   "subtema": "calzos",
+   "materia": 13,
+   "enunciado": "El conductor de un camión que calzó su vehículo para estacionar en una pendiente va a reanudar la marcha. ¿Qué debe hacer con los calzos?",
+   "opciones": {
+    "a": "Retirarlos de la vía.",
+    "b": "Puede dejarlos en la vía, porque no son un obstáculo.",
+    "c": "Dejarlos junto al bordillo para que los use el siguiente vehículo."
+   },
+   "correcta": "a",
+   "explicacion": "Los calzos, una vez utilizados, deben retirarse de la vía al reanudar la marcha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a92",
+    "cita": "Los calzos, una vez utilizados, deberán ser retirados de las vías al reanudar la marcha.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0005",
+   "tema": "abandonar_vehiculo",
+   "subtema": "puertas",
+   "materia": 13,
+   "enunciado": "Antes de abrir la puerta para bajar del vehículo, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Nada, si el vehículo está correctamente estacionado.",
+    "b": "Asegurarse de que no supone peligro ni entorpecimiento para otros usuarios, especialmente ciclistas.",
+    "c": "Encender la luz de emergencia; así los demás deben esperar."
+   },
+   "correcta": "b",
+   "explicacion": "Se prohíbe abrir las puertas o apearse sin haberse cerciorado antes de que no implica peligro o entorpecimiento para otros usuarios, especialmente para los ciclistas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "114.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a114",
+    "cita": "abrirlas o apearse de aquél sin haberse cerciorado previamente de que ello no implica peligro o entorpecimiento para otros usuarios, especialmente cuando se refiere a conductores de bicicletas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0006",
+   "tema": "abandonar_vehiculo",
+   "subtema": "puertas",
+   "materia": 13,
+   "enunciado": "Un pasajero quiere abrir la puerta cuando el vehículo aún avanza muy despacio, a punto de detenerse. ¿Está permitido?",
+   "opciones": {
+    "a": "Sí, si la velocidad es inferior a 10 km/h.",
+    "b": "Sí, si mira antes por el retrovisor.",
+    "c": "No, se prohíbe abrir las puertas antes de la completa inmovilización del vehículo."
+   },
+   "correcta": "c",
+   "explicacion": "Está prohibido abrir las puertas del vehículo antes de su completa inmovilización.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "114.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a114",
+    "cita": "Se prohíbe llevar abiertas las puertas del vehículo, abrirlas antes de su completa inmovilización",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0007",
+   "tema": "abandonar_vehiculo",
+   "subtema": "lado_salida",
+   "materia": 13,
+   "enunciado": "Como norma general, ¿por qué lado se debe entrar y salir del vehículo?",
+   "opciones": {
+    "a": "Por el lado más próximo al borde de la vía, y solo con el vehículo parado.",
+    "b": "Por el lado del conductor.",
+    "c": "Por cualquier lado, siempre que el vehículo esté parado."
+   },
+   "correcta": "a",
+   "explicacion": "Como norma general se entra y se sale por el lado más próximo al borde de la vía y solo cuando el vehículo está parado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "114.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a114",
+    "cita": "se entrará y saldrá del vehículo por el lado más próximo al borde de la vía y sólo cuando aquél se halle parado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0008",
+   "tema": "abandonar_vehiculo",
+   "subtema": "apagado_motor",
+   "materia": 13,
+   "enunciado": "Aunque no vaya a abandonar su puesto, ¿en cuál de estos casos debe parar el motor?",
+   "opciones": {
+    "a": "Al detenerse en un semáforo en rojo.",
+    "b": "Durante la carga de combustible.",
+    "c": "Al detenerse en un paso para peatones."
+   },
+   "correcta": "b",
+   "explicacion": "Aun cuando el conductor no abandone su puesto, debe parar el motor cuando el vehículo esté detenido dentro de un túnel o en un lugar cerrado y durante la carga de combustible.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "115.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115",
+    "cita": "deberá parar el motor siempre que el vehículo se encuentre detenido en el interior de un túnel o en lugar cerrado y durante la carga de combustible",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0009",
+   "tema": "abandonar_vehiculo",
+   "subtema": "apagado_motor",
+   "materia": 13,
+   "enunciado": "Debe permanecer detenido dentro de un túnel más de dos minutos. Al parar el motor, ¿qué alumbrado debe conservar encendido?",
+   "opciones": {
+    "a": "Ninguno, para no gastar batería.",
+    "b": "El de largo alcance o carretera.",
+    "c": "El de posición."
+   },
+   "correcta": "c",
+   "explicacion": "Si debe permanecer detenido en un túnel u otro lugar cerrado más de dos minutos, ha de interrumpir el funcionamiento del motor, conservando encendido el alumbrado de posición.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "115.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115",
+    "cita": "deberá interrumpir el funcionamiento del motor hasta que pueda proseguir la marcha, conservando encendido el alumbrado de posición",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0010",
+   "tema": "abandonar_vehiculo",
+   "subtema": "repostaje",
+   "materia": 13,
+   "enunciado": "Para cargar combustible en una gasolinera, ¿qué debe estar apagado?",
+   "opciones": {
+    "a": "El motor, las luces, los sistemas eléctricos como la radio y los teléfonos móviles.",
+    "b": "Solo el motor.",
+    "c": "El motor y el aire acondicionado; la radio puede seguir encendida."
+   },
+   "correcta": "a",
+   "explicacion": "No se puede facilitar combustible si no están parados el motor y apagadas las luces, los sistemas eléctricos como la radio y los dispositivos que emiten radiación electromagnética, como los móviles. Si no hay empleados, el conductor debe cumplir lo mismo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "115.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115",
+    "cita": "si no está parado el motor y apagadas las luces de los vehículos, los sistemas eléctricos como la radio y los dispositivos emisores de radiación electromagnética como los teléfonos móviles",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0011",
+   "tema": "abandonar_vehiculo",
+   "subtema": "repostaje",
+   "materia": 13,
+   "enunciado": "En una gasolinera sin empleados, ¿quién debe asegurarse de que el motor, las luces, la radio y los móviles estén apagados al repostar?",
+   "opciones": {
+    "a": "Nadie, porque esa obligación solo afecta a los empleados.",
+    "b": "El conductor o la persona que vaya a cargar el combustible.",
+    "c": "El titular de la gasolinera, de forma remota."
+   },
+   "correcta": "b",
+   "explicacion": "En ausencia de empleados, el conductor o la persona que vaya a cargar el combustible debe cumplir los mismos requisitos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "115.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115",
+    "cita": "el conductor del vehículo o, en su caso, la persona que vaya a cargar el combustible en el vehículo deberá cumplir los mismos requisitos establecidos en el apartado anterior",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0012",
+   "tema": "abandonar_vehiculo",
+   "subtema": "tunel_emergencia",
+   "materia": 13,
+   "enunciado": "Por una emergencia, su vehículo queda inmovilizado dentro de un túnel. ¿Qué debe hacer con el motor y las luces?",
+   "opciones": {
+    "a": "Apagar el motor y todas las luces para no deslumbrar.",
+    "b": "Dejar el motor en marcha y encender la luz de largo alcance.",
+    "c": "Apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición."
+   },
+   "correcta": "c",
+   "explicacion": "Si un conductor queda inmovilizado en un túnel por una emergencia, debe apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "97.3.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+    "cita": "Apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0013",
+   "tema": "abandonar_vehiculo",
+   "subtema": "tunel_emergencia",
+   "materia": 13,
+   "enunciado": "Su vehículo queda inmovilizado por una emergencia dentro de un túnel. ¿Qué deben hacer usted y sus pasajeros?",
+   "opciones": {
+    "a": "Abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si hay zonas excluidas a la circulación.",
+    "b": "Permanecer dentro del vehículo con el cinturón abrochado hasta que llegue la ayuda.",
+    "c": "Salir y caminar por la calzada en sentido contrario a la circulación para avisar a los demás."
+   },
+   "correcta": "a",
+   "explicacion": "Tanto el conductor como los demás ocupantes deben abandonar el vehículo y dirigirse rápidamente al refugio o salida más próximos, sin transitar por la calzada si existen zonas excluidas a la circulación de vehículos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "97.3.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+    "cita": "Tanto el conductor como los demás ocupantes abandonarán el vehículo, dirigiéndose rápidamente al refugio o salida más próximos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0014",
+   "tema": "abandonar_vehiculo",
+   "subtema": "tunel_incendio",
+   "materia": 13,
+   "enunciado": "Su vehículo se incendia dentro de un túnel. Tras acercarlo a la derecha y apagar el motor, ¿qué debe hacer con la llave y las puertas antes de abandonarlo?",
+   "opciones": {
+    "a": "Llevarse la llave y cerrar las puertas para evitar robos.",
+    "b": "Dejar la llave puesta y las puertas abiertas.",
+    "c": "Llevarse la llave y dejar las puertas abiertas."
+   },
+   "correcta": "b",
+   "explicacion": "En caso de incendio en un túnel, el conductor apaga el motor y deja la llave puesta y las puertas abiertas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "97.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+    "cita": "Apagará el motor y dejará la llave puesta y las puertas abiertas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0015",
+   "tema": "abandonar_vehiculo",
+   "subtema": "tunel_incendio",
+   "materia": 13,
+   "enunciado": "Hay un incendio dentro de un túnel y debe abandonar su vehículo. ¿Hacia dónde debe dirigirse?",
+   "opciones": {
+    "a": "Hacia la salida por la que entró, caminando por el centro de la calzada.",
+    "b": "Hacia el fuego, para ayudar a apagarlo con el extintor.",
+    "c": "Hacia el refugio o salida más próximos, en sentido contrario al del fuego."
+   },
+   "correcta": "c",
+   "explicacion": "En caso de incendio, el conductor y los ocupantes abandonan el vehículo y se dirigen rápidamente al refugio o salida más próximos, en sentido contrario al del fuego.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "97.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+    "cita": "abandonarán el vehículo dirigiéndose rápidamente al refugio o salida más próximos, en sentido contrario al del fuego",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0016",
+   "tema": "abandonar_vehiculo",
+   "subtema": "tunel_atasco",
+   "materia": 13,
+   "enunciado": "Queda detenido dentro de un túnel por un atasco (por necesidades de la circulación). ¿Deben abandonar el vehículo usted y sus pasajeros?",
+   "opciones": {
+    "a": "No, no deben abandonar el vehículo.",
+    "b": "Solo los pasajeros; el conductor debe quedarse.",
+    "c": "Sí, siempre que el vehículo esté detenido en un túnel."
+   },
+   "correcta": "a",
+   "explicacion": "Si un vehículo queda inmovilizado en un túnel por necesidades de la circulación, el conductor y los pasajeros no deben abandonarlo; deben conectar temporalmente la señal de emergencia, mantener las luces de posición y apagar el motor.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "97.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+    "cita": "el conductor y los pasajeros no deben abandonar el vehículo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0017",
+   "tema": "abandonar_vehiculo",
+   "subtema": "tunel_atasco",
+   "materia": 13,
+   "enunciado": "Queda detenido por un atasco dentro de un túnel. ¿Dónde debe detenerse respecto al vehículo que le precede?",
+   "opciones": {
+    "a": "Lo más cerca posible, para ocupar menos espacio.",
+    "b": "Lo más lejos posible del vehículo que le precede.",
+    "c": "A un metro exacto, para poder salir si es necesario."
+   },
+   "correcta": "b",
+   "explicacion": "En un túnel, si queda inmovilizado por necesidades de la circulación, debe detenerse lo más lejos posible del vehículo que le precede.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "97.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a97",
+    "cita": "Deberá detenerse lo más lejos posible del vehículo que le precede.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0018",
+   "tema": "abandonar_vehiculo",
+   "subtema": "averia_retirar",
+   "materia": 13,
+   "enunciado": "Su vehículo averiado obstaculiza la calzada. Después de señalizarlo, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Esperar dentro del vehículo hasta que llegue la grúa, sin moverlo.",
+    "b": "Dejarlo donde está; la señalización basta.",
+    "c": "Adoptar las medidas necesarias para que sea retirado cuanto antes y, si es factible, sacarlo de la calzada y situarlo cumpliendo las normas de estacionamiento."
+   },
+   "correcta": "c",
+   "explicacion": "Si por accidente o avería el vehículo o su carga obstaculizan la calzada, tras señalizar hay que retirarlo en el menor tiempo posible y, siempre que sea factible, sacarlo de la calzada y estacionarlo correctamente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "130.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a130",
+    "cita": "deberán sacarlo de la calzada y situarlo cumpliendo las normas de estacionamiento siempre que sea factible",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm13-0019",
+   "tema": "abandonar_vehiculo",
+   "subtema": "averia_continuar",
+   "materia": 13,
+   "enunciado": "Tras una avería, su vehículo puede seguir circulando pero necesita un servicio de auxilio. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Abandonar cuanto antes los carriles de circulación y dirigirse a la primera salida disponible usando el arcén derecho.",
+    "b": "Detenerse inmediatamente en el carril izquierdo.",
+    "c": "Detenerse en el carril por el que circula y encender la luz de emergencia."
+   },
+   "correcta": "a",
+   "explicacion": "Si el vehículo puede continuar pero necesita auxilio, debe abandonar lo antes posible los carriles de circulación y dirigirse hacia la primera salida usando el arcén derecho; si no es posible, detenerse en el arcén derecho o donde cause menor obstáculo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "130.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a130",
+    "cita": "deberán abandonar lo antes posible los carriles de circulación y dirigirse hacia la primera salida disponible utilizando para ello el arcén derecho",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0001",
+   "tema": "actitudes",
+   "subtema": "comportamiento_general",
+   "materia": 3,
+   "enunciado": "¿Cómo deben comportarse todos los usuarios de la vía?",
+   "opciones": {
+    "a": "Basta con que respeten las señales; las molestias a los demás no están reguladas.",
+    "b": "De forma que no entorpezcan indebidamente la circulación ni causen peligro, perjuicios o molestias innecesarias a las personas, o daños a los bienes.",
+    "c": "Esta obligación solo afecta a los conductores, no a los peatones."
+   },
+   "correcta": "b",
+   "explicacion": "La norma general obliga a todos los usuarios de la vía (no solo a los conductores) a no entorpecer indebidamente ni causar peligro, perjuicios o molestias innecesarias, ni daños a los bienes.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a2",
+    "cita": "Los usuarios de la vía están obligados a comportarse de forma que no entorpezcan indebidamente la circulación ni causen peligro, perjuicios o molestias innecesarias a las personas, o daños a los bienes",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0002",
+   "tema": "actitudes",
+   "subtema": "diligencia",
+   "materia": 3,
+   "enunciado": "Se debe conducir con la diligencia y precaución necesarias para evitar…",
+   "opciones": {
+    "a": "solo los daños a otras personas.",
+    "b": "solo los daños materiales a otros vehículos.",
+    "c": "todo daño, propio o ajeno."
+   },
+   "correcta": "c",
+   "explicacion": "Hay que conducir con la diligencia y precaución necesarias para evitar todo daño, propio o ajeno, sin poner en peligro al conductor, a los ocupantes ni al resto de usuarios.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "3.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3",
+    "cita": "Se deberá conducir con la diligencia y precaución necesarias para evitar todo daño, propio o ajeno",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0003",
+   "tema": "actitudes",
+   "subtema": "negligente_temeraria",
+   "materia": 3,
+   "enunciado": "La conducción negligente, ¿qué tipo de infracción es?",
+   "opciones": {
+    "a": "Grave.",
+    "b": "Leve.",
+    "c": "Muy grave."
+   },
+   "correcta": "a",
+   "explicacion": "La conducción negligente es infracción grave; la temeraria, muy grave (también en la Ley de Tráfico, arts. 76.m y 77.e).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "3.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3",
+    "cita": "Las conductas referidas a la conducción negligente tendrán la consideración de infracciones graves",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0004",
+   "tema": "actitudes",
+   "subtema": "negligente_temeraria",
+   "materia": 3,
+   "enunciado": "La conducción temeraria, cuando no es delito, ¿qué tipo de infracción es?",
+   "opciones": {
+    "a": "Grave.",
+    "b": "Muy grave.",
+    "c": "Leve, si no hay accidente."
+   },
+   "correcta": "b",
+   "explicacion": "La conducción temeraria tiene la consideración de infracción muy grave (Ley de Tráfico, art. 77.e). Si además pone en concreto peligro la vida o la integridad de las personas, es delito (Código Penal, art. 380).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "3.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3",
+    "cita": "las referidas a la conducción temeraria tendrán la consideración de infracciones muy graves",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0005",
+   "tema": "actitudes",
+   "subtema": "usuarios_vulnerables",
+   "materia": 3,
+   "enunciado": "Al aproximarse a otros usuarios de la vía, ¿con quiénes debe extremar especialmente las precauciones?",
+   "opciones": {
+    "a": "Con los vehículos de mayor tamaño.",
+    "b": "Con los conductores noveles que llevan la «L».",
+    "c": "Con los niños, los ancianos, los invidentes y otras personas manifiestamente impedidas."
+   },
+   "correcta": "c",
+   "explicacion": "El reglamento obliga a adoptar las precauciones necesarias al aproximarse a otros usuarios, especialmente niños, ancianos, invidentes u otras personas manifiestamente impedidas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "17.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a17",
+    "cita": "especialmente cuando se trate de niños, ancianos, invidentes u otras personas manifiestamente impedidas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0006",
+   "tema": "actitudes",
+   "subtema": "prever_peatones",
+   "materia": 3,
+   "enunciado": "¿Hay que moderar la velocidad solo cuando ya hay peatones en la calzada?",
+   "opciones": {
+    "a": "No, también cuando pueda preverse racionalmente su irrupción en ella.",
+    "b": "Sí; si no hay peatones en la calzada se puede mantener la velocidad.",
+    "c": "No, solo hay que moderarla cerca de los pasos para peatones."
+   },
+   "correcta": "a",
+   "explicacion": "Se circula a velocidad moderada, e incluso se detiene el vehículo, cuando hay peatones en la vía o pueda preverse racionalmente su irrupción en ella, principalmente si se trata de niños, ancianos o personas con discapacidad.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "46.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "cita": "Cuando haya peatones en la parte de la vía que se esté utilizando o pueda preverse racionalmente su irrupción en ella",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0007",
+   "tema": "actitudes",
+   "subtema": "autobus_escolar",
+   "materia": 3,
+   "enunciado": "Se aproxima a un autobús de transporte escolar detenido en una parada. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Mantener la velocidad, porque el autobús está detenido.",
+    "b": "Circular a velocidad moderada y, si fuera preciso, detenerse.",
+    "c": "Tocar el claxon para avisar a los niños de que se acerca."
+   },
+   "correcta": "b",
+   "explicacion": "Al aproximarse a un autobús en situación de parada, principalmente si es de transporte escolar, hay que circular a velocidad moderada y detenerse si fuera preciso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "46.1.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "cita": "Al aproximarse a un autobús en situación de parada, principalmente si se trata de un autobús de transporte escolar.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0008",
+   "tema": "actitudes",
+   "subtema": "advertir_maniobras",
+   "materia": 3,
+   "enunciado": "¿Están obligados los conductores a advertir a los demás usuarios de las maniobras que van a efectuar?",
+   "opciones": {
+    "a": "Solo fuera de poblado.",
+    "b": "Solo si hay otros vehículos detrás.",
+    "c": "Sí, siempre."
+   },
+   "correcta": "c",
+   "explicacion": "Los conductores están obligados a advertir al resto de usuarios de las maniobras que vayan a efectuar; como norma general, con la señalización luminosa o, en su defecto, con el brazo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "108.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a108",
+    "cita": "Los conductores están obligados a advertir al resto de los usuarios de la vía acerca de las maniobras que vayan a efectuar con sus vehículos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0009",
+   "tema": "actitudes",
+   "subtema": "advertir_frenado",
+   "materia": 3,
+   "enunciado": "Va a frenar de modo considerable por las circunstancias del tráfico. ¿Debe advertirlo?",
+   "opciones": {
+    "a": "Sí, siempre que sea posible, con el empleo reiterado de las luces de frenado o con el brazo.",
+    "b": "No, solo se advierten los desplazamientos laterales.",
+    "c": "Sí, con el intermitente derecho."
+   },
+   "correcta": "a",
+   "explicacion": "La intención de inmovilizar el vehículo o de frenar de modo considerable, aunque la impongan las circunstancias del tráfico, debe advertirse, siempre que sea posible, con el empleo reiterado de las luces de frenado o moviendo el brazo de arriba abajo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "109.2.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a109",
+    "cita": "mediante el empleo reiterado de las luces de frenado o bien moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0010",
+   "tema": "actitudes",
+   "subtema": "claxon",
+   "materia": 3,
+   "enunciado": "¿Está permitido usar el claxon de forma inmotivada o exagerada?",
+   "opciones": {
+    "a": "Sí, en vías fuera de poblado.",
+    "b": "No, está prohibido.",
+    "c": "Sí, para mostrar el enfado con otro conductor."
+   },
+   "correcta": "b",
+   "explicacion": "Las señales acústicas solo se usan excepcionalmente o cuando lo prevea una norma, de sonido no estridente, y queda prohibido su uso inmotivado o exagerado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "110.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a110",
+    "cita": "queda prohibido su uso inmotivado o exagerado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0011",
+   "tema": "actitudes",
+   "subtema": "obstaculos",
+   "materia": 3,
+   "enunciado": "Quien ha creado un obstáculo o peligro en la vía, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Nada, si el obstáculo es pequeño.",
+    "b": "Avisar a las autoridades y marcharse.",
+    "c": "Hacerlo desaparecer lo antes posible y, mientras tanto, adoptar las medidas para que los demás lo adviertan."
+   },
+   "correcta": "c",
+   "explicacion": "Quien crea un obstáculo o peligro en la vía debe hacerlo desaparecer lo antes posible y, mientras tanto, tomar las medidas necesarias para que lo adviertan los demás usuarios y no se dificulte la circulación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "5.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a5",
+    "cita": "deberán hacerlo desaparecer lo antes posible, y adoptarán entre tanto las medidas necesarias para que pueda ser advertido por los demás usuarios",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0012",
+   "tema": "actitudes",
+   "subtema": "arrojar_objetos",
+   "materia": 3,
+   "enunciado": "¿Puede arrojar una colilla encendida por la ventanilla?",
+   "opciones": {
+    "a": "No, se prohíbe arrojar a la vía o sus inmediaciones cualquier objeto que pueda producir incendios.",
+    "b": "Sí, si la vía está asfaltada.",
+    "c": "Sí, salvo en zonas forestales señalizadas."
+   },
+   "correcta": "a",
+   "explicacion": "Se prohíbe arrojar a la vía o a sus inmediaciones cualquier objeto que pueda dar lugar a incendios o poner en peligro la seguridad vial. Es infracción grave.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "6.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a6",
+    "cita": "Se prohíbe arrojar a la vía o en sus inmediaciones cualquier objeto que pueda dar lugar a la producción de incendios",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0013",
+   "tema": "actitudes",
+   "subtema": "anticipacion",
+   "materia": 3,
+   "enunciado": "En la conducción preventiva, ¿en qué consiste la «anticipación»?",
+   "opciones": {
+    "a": "En adelantar a los vehículos lentos lo antes posible.",
+    "b": "En prever los movimientos y reacciones de los demás conductores para poder reaccionar a tiempo.",
+    "c": "En salir de viaje con tiempo de sobra."
+   },
+   "correcta": "b",
+   "explicacion": "La conducción preventiva se basa en visión, anticipación y espacio. Anticiparse es prever los movimientos y reacciones de los demás para reaccionar a tiempo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Conducción preventiva (p. 441)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Prever los movimientos y reacciones de los demás conductores para poder reaccionar a tiempo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0014",
+   "tema": "actitudes",
+   "subtema": "vehiculos_aparcados",
+   "materia": 3,
+   "enunciado": "Circula junto a vehículos aparcados con personas dentro. ¿Qué precaución recomienda la DGT?",
+   "opciones": {
+    "a": "Ninguna especial; quienes salen deben mirar antes.",
+    "b": "Tocar el claxon para que no abran la puerta.",
+    "c": "Conducir con más cuidado, porque alguna de esas personas puede bajarse sin mirar."
+   },
+   "correcta": "c",
+   "explicacion": "La DGT recomienda conducir con más cuidado cerca de vehículos aparcados con personas dentro, porque alguna puede bajarse sin mirar.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Los peatones (p. 397)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Alguna de estas personas puede bajarse del vehículo sin mirar.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0015",
+   "tema": "actitudes",
+   "subtema": "ciclistas_claxon",
+   "materia": 3,
+   "enunciado": "Para evitar accidentes con ciclistas, ¿qué recomienda la DGT sobre el claxon?",
+   "opciones": {
+    "a": "No tocarlo cerca de ellos para no asustarles.",
+    "b": "Tocarlo siempre al acercarse por detrás.",
+    "c": "Tocarlo solo dentro de poblado."
+   },
+   "correcta": "a",
+   "explicacion": "La DGT aconseja no tocar el claxon cerca de los ciclistas para no asustarles.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Bicicletas (p. 409)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "No tocar el claxon o bocina cerca de ciclistas para no asustarles.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0016",
+   "tema": "actitudes",
+   "subtema": "ciclistas_adelantar",
+   "materia": 3,
+   "enunciado": "Vienen ciclistas en sentido contrario. ¿Qué recomienda la DGT sobre adelantar a otros vehículos en ese momento?",
+   "opciones": {
+    "a": "Adelantar rápido para terminar cuanto antes.",
+    "b": "No adelantar.",
+    "c": "Adelantar tocando el claxon para avisarles."
+   },
+   "correcta": "b",
+   "explicacion": "Entre las medidas para evitar atropellos a ciclistas, la DGT indica no adelantar a otros vehículos si vienen ciclistas en sentido contrario.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Bicicletas (p. 408)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "No adelantar a otros vehículos si vienen ciclistas en sentido contrario.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0017",
+   "tema": "actitudes",
+   "subtema": "dos_ruedas",
+   "materia": 3,
+   "enunciado": "Circula cerca de una motocicleta. ¿Dónde recomienda la DGT situarse?",
+   "opciones": {
+    "a": "Lo más cerca posible por detrás.",
+    "b": "A su lado, para que el motorista le vea.",
+    "c": "Delante o detrás de ella, no a su lado."
+   },
+   "correcta": "c",
+   "explicacion": "La DGT aconseja no quedarse al lado de un vehículo de dos ruedas, sino circular por delante o por detrás de él, y mantener la distancia de seguridad.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Motocicletas y ciclomotores (p. 411)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "No quedarse al lado de un vehículo de dos ruedas. Circular por delante de él o por detrás.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0018",
+   "tema": "actitudes",
+   "subtema": "detencion_atasco",
+   "materia": 3,
+   "enunciado": "Se detiene en un atasco o en un semáforo. ¿Qué distancia recomienda la DGT dejar como mínimo con el vehículo de delante?",
+   "opciones": {
+    "a": "Dos o tres metros.",
+    "b": "Unos 50 centímetros.",
+    "c": "Diez metros."
+   },
+   "correcta": "a",
+   "explicacion": "La DGT recomienda dejar al menos dos o tres metros al detenerse: así se puede avisar si el de delante echa marcha atrás, rodearlo si se queda parado y no golpearlo si a usted le golpean por detrás.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Espacio al detener el vehículo (p. 448)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "debes mantener una distancia de, al menos, dos o tres metros con el vehículo de delante.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm3-0019",
+   "tema": "actitudes",
+   "subtema": "detencion_atasco",
+   "materia": 3,
+   "enunciado": "Es el último vehículo de una fila detenida en un atasco. Según la DGT, ¿qué puede hacer para evitar que le alcancen por detrás?",
+   "opciones": {
+    "a": "Bajarse del vehículo para avisar a los que llegan.",
+    "b": "Mantener el freno pisado, encender las luces de emergencia y vigilar por el retrovisor a los que vienen detrás.",
+    "c": "Pegarse al vehículo de delante para dejar más espacio detrás."
+   },
+   "correcta": "b",
+   "explicacion": "El último de la fila puede dejar cinco o seis metros con el de delante, mantener el freno pisado y encender las luces de emergencia para que se le vea mejor, y vigilar por el retrovisor.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Espacio al detener el vehículo (p. 448)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Mantener el freno pisado y encender las luces de emergencia en un atasco para que se le vea mejor.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0001",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "atencion_vision",
+   "materia": 9,
+   "enunciado": "¿Qué está obligado a mantener el conductor para garantizar su seguridad y la de los demás?",
+   "opciones": {
+    "a": "Las manos en el volante; la posición del resto de ocupantes no le afecta.",
+    "b": "Solo la atención permanente; el campo de visión depende del vehículo.",
+    "c": "Su propia libertad de movimientos, el campo necesario de visión y la atención permanente a la conducción."
+   },
+   "correcta": "c",
+   "explicacion": "El conductor debe mantener su libertad de movimientos, el campo necesario de visión y la atención permanente a la conducción, y cuidar de la posición de los pasajeros y de los objetos o animales transportados.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "18.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a18",
+    "cita": "El conductor de un vehículo está obligado a mantener su propia libertad de movimientos, el campo necesario de visión y la atención permanente a la conducción",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0002",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "laminas",
+   "materia": 9,
+   "enunciado": "¿Cuándo se permite circular con láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores?",
+   "opciones": {
+    "a": "Cuando el vehículo lleve dos espejos retrovisores exteriores que cumplan las especificaciones técnicas.",
+    "b": "Nunca.",
+    "c": "Solo de día."
+   },
+   "correcta": "a",
+   "explicacion": "Las láminas o cortinillas en las ventanillas posteriores solo se permiten si el vehículo lleva dos espejos retrovisores exteriores reglamentarios.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "19.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a19",
+    "cita": "Únicamente se permitirá circular con láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores cuando el vehículo lleve dos espejos retrovisores exteriores",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0003",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "vidrios_tintados",
+   "materia": 9,
+   "enunciado": "¿Se pueden colocar vidrios tintados o coloreados no homologados?",
+   "opciones": {
+    "a": "Sí, si solo afectan a las ventanillas traseras.",
+    "b": "No, está prohibido en todo caso.",
+    "c": "Sí, si el vehículo tiene dos retrovisores exteriores."
+   },
+   "correcta": "b",
+   "explicacion": "Queda prohibida, en todo caso, la colocación de vidrios tintados o coloreados no homologados.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "19.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a19",
+    "cita": "Queda prohibida, en todo caso, la colocación de vidrios tintados o coloreados no homologados.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0004",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "visibilidad_cristales",
+   "materia": 9,
+   "enunciado": "La superficie acristalada del vehículo, ¿cómo debe permitir la visión del conductor?",
+   "opciones": {
+    "a": "Puede tener adhesivos siempre que no tapen más de la mitad de la luna.",
+    "b": "Basta con que el parabrisas esté limpio en la zona del conductor.",
+    "c": "De forma diáfana sobre toda la vía, sin interferencias de láminas o adhesivos."
+   },
+   "correcta": "c",
+   "explicacion": "La superficie acristalada debe permitir en todo caso la visibilidad diáfana del conductor sobre toda la vía, sin interferencias de láminas o adhesivos (salvo las excepciones reglamentarias).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "19.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a19",
+    "cita": "La superficie acristalada del vehículo deberá permitir, en todo caso, la visibilidad diáfana del conductor sobre toda la vía por la que circule, sin interferencias de láminas o adhesivos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0005",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "campo_vision",
+   "materia": 9,
+   "enunciado": "Además de respetar los límites, ¿cómo debe adecuar la velocidad?",
+   "opciones": {
+    "a": "De manera que siempre pueda detener el vehículo dentro de los límites de su campo de visión y ante cualquier obstáculo.",
+    "b": "Basta con no superar el límite señalizado.",
+    "c": "De manera que no tarde más de lo previsto en llegar a su destino."
+   },
+   "correcta": "a",
+   "explicacion": "Además de los límites, hay que adecuar la velocidad a las circunstancias (propias, de la vía, del vehículo, meteorológicas…) para poder detenerse siempre dentro del campo de visión y ante cualquier obstáculo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "45",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a45",
+    "cita": "de manera que siempre pueda detenerlo dentro de los límites de su campo de visión y ante cualquier obstáculo que pueda presentarse",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0006",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "vehiculos_pesados",
+   "materia": 9,
+   "enunciado": "Conduce un vehículo pesado y le siguen otros que no pueden adelantarle con facilidad ni sin peligro por la anchura de la calzada. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Mantener su velocidad; son los demás quienes deben esperar.",
+    "b": "Aminorar la marcha o apartarse cuanto antes al arcén, si es practicable, para dejarles paso.",
+    "c": "Acelerar para no entorpecer."
+   },
+   "correcta": "b",
+   "explicacion": "Los conductores de vehículos pesados, de grandes dimensiones u obligados a un límite específico de velocidad deben aminorar la marcha o apartarse al arcén practicable para dejar paso cuando no puedan ser adelantados con facilidad y sin peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "86.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a86",
+    "cita": "deberán bien aminorar la marcha o apartarse cuanto antes al arcén, si resulta practicable, para dejar paso a los que le siguen",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0007",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "moto_remolque",
+   "materia": 9,
+   "enunciado": "Una motocicleta quiere arrastrar un remolque. ¿Qué masa máxima puede tener el remolque?",
+   "opciones": {
+    "a": "Hasta 750 kg, sea cual sea la motocicleta.",
+    "b": "Hasta el 100 % de la masa en vacío de la motocicleta.",
+    "c": "Hasta el 50 % de la masa en vacío de la motocicleta."
+   },
+   "correcta": "c",
+   "explicacion": "Motocicletas, vehículos de tres ruedas y ciclomotores pueden arrastrar un remolque que no supere el 50 % de la masa en vacío del vehículo tractor, de día, sin transportar personas y con la velocidad reducida un 10 %.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "12.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a12",
+    "cita": "siempre que no superen el 50 por ciento de la masa en vacío del vehículo tractor",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0008",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "moto_remolque",
+   "materia": 9,
+   "enunciado": "Una motocicleta con remolque circula por una carretera. ¿Cómo afecta el remolque a su velocidad máxima?",
+   "opciones": {
+    "a": "Debe reducirla un 10 % respecto a la velocidad genérica de la motocicleta.",
+    "b": "No le afecta.",
+    "c": "No puede superar los 45 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "Con remolque, la velocidad queda reducida en un 10 % respecto a la genérica para esos vehículos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "12.3.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a12",
+    "cita": "Que la velocidad a que se circule en estas condiciones quede reducida en un 10 por ciento respecto a las velocidades genéricas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0009",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "carga_visibilidad",
+   "materia": 9,
+   "enunciado": "La carga que transporta tapa parcialmente las luces traseras y la placa de matrícula. ¿Es correcto?",
+   "opciones": {
+    "a": "Sí, si la carga está bien sujeta.",
+    "b": "No, la carga no puede ocultar los dispositivos de alumbrado o señalización ni las placas o distintivos obligatorios.",
+    "c": "Sí, si circula de día."
+   },
+   "correcta": "b",
+   "explicacion": "La carga debe ir dispuesta de forma que no oculte los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios ni las advertencias manuales del conductor.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "14.1.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a14",
+    "cita": "Ocultar los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios y las advertencias manuales de sus conductores.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0010",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "carga_polvo",
+   "materia": 9,
+   "enunciado": "Transporta en un camión arena que puede producir polvo o caer. ¿Cómo debe llevarla?",
+   "opciones": {
+    "a": "Mojándola antes de salir.",
+    "b": "Sin cubrir, si no supera la altura de la caja.",
+    "c": "Cubriéndola total y eficazmente."
+   },
+   "correcta": "c",
+   "explicacion": "El transporte de materias que produzcan polvo o puedan caer se efectúa siempre cubriéndolas total y eficazmente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "14.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a14",
+    "cita": "El transporte de materias que produzcan polvo o puedan caer se efectuará siempre cubriéndolas total y eficazmente.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0011",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "alumbrado_averiado",
+   "materia": 9,
+   "enunciado": "De noche se le avería en ruta el alumbrado y solo puede circular con uno de menor intensidad. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Reducir la velocidad hasta la que le permita detener el vehículo dentro de la zona iluminada.",
+    "b": "Encender la luz de emergencia y mantener la velocidad.",
+    "c": "Circular a un máximo de 40 km/h, sea cual sea la zona iluminada."
+   },
+   "correcta": "a",
+   "explicacion": "Si por avería irreparable en ruta se ha de circular con alumbrado de intensidad inferior, se debe reducir la velocidad hasta la que permita detener el vehículo dentro de la zona iluminada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "107",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a107",
+    "cita": "se deberá reducir la velocidad hasta la que permita la detención del vehículo dentro de la zona iluminada",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0012",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "angulo_muerto",
+   "materia": 9,
+   "enunciado": "Según la DGT, ¿qué debe evitar respecto al ángulo muerto de los retrovisores de otros vehículos?",
+   "opciones": {
+    "a": "Nada; el ángulo muerto solo afecta al conductor del otro vehículo.",
+    "b": "Estar mucho tiempo en él, en especial al lado o detrás de un vehículo muy grande.",
+    "c": "Circular por delante del otro vehículo."
+   },
+   "correcta": "b",
+   "explicacion": "Para anticiparse a los riesgos, la DGT aconseja no permanecer mucho tiempo en el ángulo muerto de otro vehículo, sobre todo si es muy grande.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Anticipación (p. 445)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "No estar mucho tiempo en el ángulo muerto de los retrovisores de otro vehículo. En especial si circulas al lado o detrás de un vehículo muy grande.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0013",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "viento",
+   "materia": 9,
+   "enunciado": "Según la DGT, ¿a qué vehículos afecta más el viento fuerte?",
+   "opciones": {
+    "a": "A los turismos de gran cilindrada.",
+    "b": "A todos por igual.",
+    "c": "A los vehículos de dos ruedas y a los que llevan un remolque."
+   },
+   "correcta": "c",
+   "explicacion": "El viento, sobre todo lateral, puede hacer perder el control; afecta más a los vehículos de dos ruedas y a los que llevan remolque.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con mucho viento (p. 361)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "El viento afecta más a los vehículos de dos ruedas y a los que llevan un remolque.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0014",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "carga_luces",
+   "materia": 9,
+   "enunciado": "Lleva mucho peso en la parte de atrás del vehículo. ¿Qué riesgo señala la DGT respecto a las luces?",
+   "opciones": {
+    "a": "Que la luz de cruce quede muy alta y deslumbre.",
+    "b": "Que las luces de freno dejen de funcionar.",
+    "c": "Ninguno; el peso no influye en las luces."
+   },
+   "correcta": "a",
+   "explicacion": "Si hay demasiado peso atrás, la luz de cruce puede quedar muy alta y deslumbrar. Por eso hay que repartir bien la carga y mantener las luces bien reguladas.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Deslumbramientos (p. 348)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "La luz de cruce puede quedar muy alta y deslumbrar porque hay demasiado peso en la parte de atrás del vehículo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm9-0015",
+   "tema": "riesgos_vehiculo_visibilidad",
+   "subtema": "hielo_cristales",
+   "materia": 9,
+   "enunciado": "Hay hielo en los cristales de su vehículo. ¿Qué debe hacer antes de empezar a conducir?",
+   "opciones": {
+    "a": "Basta con limpiar la parte del parabrisas que queda delante del conductor.",
+    "b": "Rascar el hielo de todos los cristales, sin rayarlos, y limpiar los retrovisores.",
+    "c": "Arrancar y dejar que se derrita mientras circula."
+   },
+   "correcta": "b",
+   "explicacion": "Antes de conducir hay que rascar el hielo de todos los cristales, sin rayarlos, y limpiar los espejos retrovisores.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con hielo (p. 359)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Rascar el hielo de todos los cristales, sin rayarlos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0001",
+   "tema": "meteorologia_noche",
+   "subtema": "moderar_velocidad",
+   "materia": 6,
+   "enunciado": "Circula por una calzada con charcos y hay peatones en la acera. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Mantener la velocidad; mojar a los peatones no es una infracción.",
+    "b": "Pasar rápido para no estar mucho tiempo junto a ellos.",
+    "c": "Circular a velocidad moderada para no salpicarles."
+   },
+   "correcta": "c",
+   "explicacion": "Hay que circular a velocidad moderada al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "46.1.g",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "cita": "Al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios de la vía.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0002",
+   "tema": "meteorologia_noche",
+   "subtema": "moderar_velocidad",
+   "materia": 6,
+   "enunciado": "¿En cuál de estas situaciones obliga el reglamento a circular a velocidad moderada?",
+   "opciones": {
+    "a": "En caso de niebla densa, lluvia intensa, nevada o nubes de polvo o humo.",
+    "b": "Solo cuando una señal lo indique.",
+    "c": "Solo de noche."
+   },
+   "correcta": "a",
+   "explicacion": "Entre los casos en que se circula a velocidad moderada y, si es preciso, se detiene el vehículo, están la niebla densa, la lluvia intensa, la nevada y las nubes de polvo o humo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "46.1.k",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "cita": "En los casos de niebla densa, lluvia intensa, nevada o nubes de polvo o humo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0003",
+   "tema": "meteorologia_noche",
+   "subtema": "visibilidad_nula",
+   "materia": 6,
+   "enunciado": "Se acerca a una intersección debidamente señalizada y la visibilidad de la vía es prácticamente nula. ¿Qué velocidad no debe superar?",
+   "opciones": {
+    "a": "30 km/h.",
+    "b": "50 km/h.",
+    "c": "70 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Si las intersecciones están debidamente señalizadas y la visibilidad de la vía es prácticamente nula, la velocidad no deberá exceder de 50 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "46.1.h",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "cita": "la velocidad de los vehículos no deberá exceder de 50 kilómetros por hora",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0004",
+   "tema": "meteorologia_noche",
+   "subtema": "visibilidad_reducida",
+   "materia": 6,
+   "enunciado": "Al aproximarse a un lugar de reducida visibilidad o a un estrechamiento, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Encender la luz antiniebla trasera.",
+    "b": "Tocar el claxon y mantener la velocidad.",
+    "c": "Circular a velocidad moderada y, si fuera preciso, detenerse."
+   },
+   "correcta": "c",
+   "explicacion": "Al aproximarse a pasos a nivel, glorietas e intersecciones sin prioridad, lugares de reducida visibilidad o estrechamientos se circula a velocidad moderada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "46.1.h",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "cita": "a lugares de reducida visibilidad o a estrechamientos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0005",
+   "tema": "meteorologia_noche",
+   "subtema": "alumbrado_dia",
+   "materia": 6,
+   "enunciado": "Es de día y una nube de humo disminuye sensiblemente la visibilidad. ¿Es obligatorio llevar el alumbrado encendido?",
+   "opciones": {
+    "a": "Sí, es obligatorio en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad.",
+    "b": "No, el alumbrado solo es obligatorio de noche.",
+    "c": "Solo en autopistas y autovías."
+   },
+   "correcta": "a",
+   "explicacion": "Es obligatorio usar el alumbrado cuando las condiciones meteorológicas o ambientales disminuyan sensiblemente la visibilidad: niebla, lluvia intensa, nevada, nubes de humo o de polvo…",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "106.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a106",
+    "cita": "También será obligatorio utilizar el alumbrado cuando existan condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como en caso de niebla, lluvia intensa, nevada, nubes de humo o de polvo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0006",
+   "tema": "meteorologia_noche",
+   "subtema": "noche_peligro",
+   "materia": 6,
+   "enunciado": "Según la DGT, ¿por qué es más peligroso conducir de noche?",
+   "opciones": {
+    "a": "Porque hay más vehículos en la carretera.",
+    "b": "Porque la carretera está menos iluminada, se ven peor las distancias, personas y vehículos, y otros pueden deslumbrarle.",
+    "c": "Porque los límites de velocidad son más altos."
+   },
+   "correcta": "b",
+   "explicacion": "De noche la vía está menos iluminada, se calculan peor las distancias y se ven peor personas, objetos y vehículos, y además hay riesgo de deslumbramiento.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir por la noche (p. 347)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Se ven peor las distancias, las personas, los objetos y los vehículos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0007",
+   "tema": "meteorologia_noche",
+   "subtema": "adaptacion_ojos",
+   "materia": 6,
+   "enunciado": "De noche pasa de una zona bien iluminada a otra mal iluminada. ¿Por qué debe extremar la atención?",
+   "opciones": {
+    "a": "Porque debe apagar todas las luces.",
+    "b": "Porque cambia el límite de velocidad.",
+    "c": "Porque a los ojos les cuesta unos segundos acostumbrarse al cambio de luz."
+   },
+   "correcta": "c",
+   "explicacion": "Al pasar de una zona iluminada a otra oscura, los ojos tardan unos segundos en adaptarse al cambio de luz.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir por la noche (p. 347)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "A los ojos les cuesta unos segundos acostumbrarse al cambio de luz.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0008",
+   "tema": "meteorologia_noche",
+   "subtema": "deslumbramiento",
+   "materia": 6,
+   "enunciado": "Le deslumbra un vehículo que viene de frente y reduce la velocidad. ¿Por dónde recomienda guiarse la DGT?",
+   "opciones": {
+    "a": "Por la línea del borde derecho.",
+    "b": "Por las luces del vehículo que le deslumbra.",
+    "c": "Por la línea central, cambiando de carril si hace falta."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando le deslumbren, reduzca la velocidad o incluso pare con precaución, sin moverse a otros carriles; puede guiarse por la línea del borde derecho.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Deslumbramientos (p. 349)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Puedes guiarte por la línea del borde derecho.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0009",
+   "tema": "meteorologia_noche",
+   "subtema": "gafas_sol_noche",
+   "materia": 6,
+   "enunciado": "¿Es aconsejable usar gafas de sol por la noche para evitar los deslumbramientos?",
+   "opciones": {
+    "a": "Sí, siempre.",
+    "b": "No, porque se ve mucho peor la carretera.",
+    "c": "Sí, pero solo en autopista."
+   },
+   "correcta": "b",
+   "explicacion": "La DGT desaconseja las gafas oscuras o de sol de noche: pueden reducir el deslumbramiento, pero se ve mucho peor la carretera.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Deslumbramientos (p. 349)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "No uses gafas oscuras o de sol por la noche.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0010",
+   "tema": "meteorologia_noche",
+   "subtema": "niebla_precauciones",
+   "materia": 6,
+   "enunciado": "Circula con niebla. ¿Cuál de estas precauciones recomienda la DGT?",
+   "opciones": {
+    "a": "Circular pegado al vehículo de delante para guiarse por sus luces.",
+    "b": "Adelantar cuanto antes a los vehículos lentos.",
+    "c": "Mantener el vehículo bien ventilado para que no se empañen los cristales."
+   },
+   "correcta": "c",
+   "explicacion": "Con niebla: ventilar el vehículo para que no se empañen los cristales, encender las luces de cruce y antiniebla, ir despacio, mantener mucha distancia, evitar adelantar si no es necesario y extremar la precaución en los cruces.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con niebla (p. 360)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Mantén el vehículo bien ventilado para que no se empañen los cristales.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0011",
+   "tema": "meteorologia_noche",
+   "subtema": "polvo_humo",
+   "materia": 6,
+   "enunciado": "Según la DGT, ¿qué precauciones se toman con nubes de polvo o de humo?",
+   "opciones": {
+    "a": "Las mismas que para conducir con niebla.",
+    "b": "Ninguna especial, porque desaparecen enseguida.",
+    "c": "Acelerar para salir cuanto antes de la nube."
+   },
+   "correcta": "a",
+   "explicacion": "Las nubes de polvo y humo impiden ver bien y pueden aparecer de repente; hay que tomar las mismas precauciones que con niebla.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con nubes de polvo o de humo (p. 361)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "debes tomar las mismas precauciones que para conducir con niebla.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bm6-0012",
+   "tema": "meteorologia_noche",
+   "subtema": "invierno",
+   "materia": 6,
+   "enunciado": "Va a viajar en invierno. ¿Cuál de estas precauciones recomienda la DGT?",
+   "opciones": {
+    "a": "Viajar preferentemente de noche, cuando hay menos tráfico.",
+    "b": "Llevar el depósito lleno de combustible y cadenas en el vehículo.",
+    "c": "Desinflar un poco los neumáticos para que agarren más."
+   },
+   "correcta": "b",
+   "explicacion": "En invierno: llevar cadenas, evitar conducir de noche, viajar con el depósito lleno y llevar ropa de abrigo, agua, comida y linterna.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Elegir la ruta (p. 439)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Viaja con el depósito lleno de combustible.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0001",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "velocidad",
+   "materia": 1,
+   "enunciado": "En vía urbana, ¿en cuánto hay que superar la velocidad permitida para que el exceso sea delito?",
+   "opciones": {
+    "a": "En más de 30 km/h.",
+    "b": "En más de 50 km/h.",
+    "c": "En más de 60 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "Es delito conducir a velocidad superior en 60 km/h en vía urbana o en 80 km/h en vía interurbana a la permitida.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "379.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a379",
+    "cita": "a velocidad superior en sesenta kilómetros por hora en vía urbana o en ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0002",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "velocidad",
+   "materia": 1,
+   "enunciado": "En una autovía limitada a 120 km/h, ¿a partir de qué velocidad el exceso constituye delito?",
+   "opciones": {
+    "a": "A partir de más de 200 km/h.",
+    "b": "A partir de más de 180 km/h.",
+    "c": "A partir de más de 150 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "En vía interurbana es delito superar en 80 km/h la velocidad permitida: con límite de 120 km/h, circular a más de 200 km/h.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "379.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a379",
+    "cita": "ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0003",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "alcohol",
+   "materia": 1,
+   "enunciado": "¿A partir de qué tasa de alcohol en aire espirado se comete en todo caso delito?",
+   "opciones": {
+    "a": "Superior a 0,25 mg/l.",
+    "b": "Superior a 0,60 mg/l.",
+    "c": "Superior a 0,50 mg/l."
+   },
+   "correcta": "b",
+   "explicacion": "En todo caso es delito conducir con una tasa de alcohol en aire espirado superior a 0,60 mg/l o en sangre superior a 1,2 g/l. Con tasas menores también puede ser delito si se conduce bajo la influencia del alcohol.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "379.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a379",
+    "cita": "En todo caso será condenado con dichas penas el que condujere con una tasa de alcohol en aire espirado superior a 0,60 miligramos por litro",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0004",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "alcohol",
+   "materia": 1,
+   "enunciado": "¿A partir de qué tasa de alcohol en sangre se comete en todo caso delito?",
+   "opciones": {
+    "a": "Superior a 0,5 g/l.",
+    "b": "Superior a 0,8 g/l.",
+    "c": "Superior a 1,2 g/l."
+   },
+   "correcta": "c",
+   "explicacion": "Es delito en todo caso conducir con una tasa de alcohol en sangre superior a 1,2 g/l (o en aire espirado superior a 0,60 mg/l).",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "379.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a379",
+    "cita": "o con una tasa de alcohol en sangre superior a 1,2 gramos por litro",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0005",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "negativa_pruebas",
+   "materia": 1,
+   "enunciado": "El conductor que, requerido por un agente, se niega a someterse a las pruebas de alcohol o drogas…",
+   "opciones": {
+    "a": "comete un delito castigado con prisión de seis meses a un año y privación del derecho a conducir.",
+    "b": "solo comete una infracción leve.",
+    "c": "no comete ninguna infracción si después demuestra que no había bebido."
+   },
+   "correcta": "a",
+   "explicacion": "Negarse a las pruebas legalmente establecidas de alcohol y drogas es delito, con prisión de seis meses a un año y privación del derecho a conducir de más de uno y hasta cuatro años.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "383",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a383",
+    "cita": "será castigado con la penas de prisión de seis meses a un año y privación del derecho a conducir vehículos a motor y ciclomotores",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0006",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "sin_permiso",
+   "materia": 1,
+   "enunciado": "Conducir un turismo sin haber obtenido nunca el permiso de conducción, ¿qué es?",
+   "opciones": {
+    "a": "Una infracción administrativa leve.",
+    "b": "Un delito.",
+    "c": "Una infracción grave sin consecuencias penales."
+   },
+   "correcta": "b",
+   "explicacion": "El Código Penal castiga a quien conduce un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia, y también a quien conduce tras perder todos los puntos o estando privado del permiso por decisión judicial.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "384",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a384",
+    "cita": "al que condujere un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia de conducción",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0007",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "sin_puntos",
+   "materia": 1,
+   "enunciado": "Ha perdido la vigencia de su permiso por pérdida total de los puntos y sigue conduciendo. ¿Qué comete?",
+   "opciones": {
+    "a": "Nada, mientras no le retiren físicamente el permiso.",
+    "b": "Una infracción leve.",
+    "c": "Un delito."
+   },
+   "correcta": "c",
+   "explicacion": "Conducir con el permiso sin vigencia por pérdida total de los puntos es delito, castigado con prisión de tres a seis meses, multa o trabajos en beneficio de la comunidad.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "384",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a384",
+    "cita": "en los casos de pérdida de vigencia del permiso o licencia por pérdida total de los puntos asignados legalmente",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0008",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "temeridad",
+   "materia": 1,
+   "enunciado": "Conducir con temeridad manifiesta poniendo en concreto peligro la vida o la integridad de las personas, ¿qué es?",
+   "opciones": {
+    "a": "Un delito castigado con prisión de seis meses a dos años y privación del derecho a conducir.",
+    "b": "Una infracción grave.",
+    "c": "Solo una infracción muy grave sin consecuencias penales."
+   },
+   "correcta": "a",
+   "explicacion": "La conducción con temeridad manifiesta que pone en concreto peligro la vida o la integridad de las personas es delito, con prisión de seis meses a dos años y privación del derecho a conducir de más de uno y hasta seis años.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "380.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a380",
+    "cita": "con temeridad manifiesta y pusiere en concreto peligro la vida o la integridad de las personas",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0009",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "abandono_accidente",
+   "materia": 1,
+   "enunciado": "El conductor que, voluntariamente y sin riesgo propio o ajeno, abandona el lugar tras causar un accidente con fallecidos o heridos graves, ¿qué comete?",
+   "opciones": {
+    "a": "Una infracción leve, si después se presenta ante la policía.",
+    "b": "Un delito de abandono del lugar del accidente.",
+    "c": "Nada, si el accidente fue fortuito."
+   },
+   "correcta": "b",
+   "explicacion": "Es delito de abandono del lugar del accidente, también si el origen fue fortuito (en ese caso con pena de tres a seis meses de prisión y privación del derecho a conducir de seis meses a dos años).",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "382 bis.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a382",
+    "cita": "será castigado como autor de un delito de abandono del lugar del accidente",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "bmp-0010",
+   "tema": "delitos_seguridad_vial",
+   "subtema": "obstaculos",
+   "materia": 1,
+   "enunciado": "Colocar en la vía obstáculos imprevisibles o derramar sustancias deslizantes, originando un grave riesgo para la circulación, ¿qué es?",
+   "opciones": {
+    "a": "Una infracción leve.",
+    "b": "Una infracción grave sin consecuencias penales.",
+    "c": "Un delito."
+   },
+   "correcta": "c",
+   "explicacion": "Quien origina un grave riesgo para la circulación colocando obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o alterando la señalización comete un delito.",
+   "fuente": {
+    "norma": "CP",
+    "articulo": "385",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444#a385",
+    "cita": "Colocando en la vía obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o mutando, sustrayendo o anulando la señalización",
+    "version_consultada": "2026-04-09"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0001",
+   "tema": "definiciones",
+   "subtema": "peaton",
+   "materia": 1,
+   "enunciado": "Una persona con discapacidad que circula al paso en una silla de ruedas con motor, ¿tiene la consideración de peatón?",
+   "opciones": {
+    "a": "Sí, con o sin motor.",
+    "b": "No, porque la silla tiene motor; es un vehículo para personas de movilidad reducida.",
+    "c": "Solo si la silla no tiene motor."
+   },
+   "correcta": "a",
+   "explicacion": "La Ley de Tráfico considera peatones a las personas con discapacidad que circulan al paso en silla de ruedas, tenga o no motor.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "y las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0002",
+   "tema": "definiciones",
+   "subtema": "peaton",
+   "materia": 1,
+   "enunciado": "Quien conduce a pie una bicicleta, sin ir montado en ella, ¿qué consideración tiene?",
+   "opciones": {
+    "a": "Conductor de un ciclo.",
+    "b": "Peatón.",
+    "c": "Conductor de un vehículo de tracción humana."
+   },
+   "correcta": "b",
+   "explicacion": "Los que conducen a pie un ciclo o un ciclomotor de dos ruedas tienen la consideración de peatones.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "los que conducen a pie un ciclo o ciclomotor de dos ruedas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0003",
+   "tema": "definiciones",
+   "subtema": "conductor",
+   "materia": 1,
+   "enunciado": "¿Quién es el conductor de un rebaño de animales que circula por la vía?",
+   "opciones": {
+    "a": "Nadie; solo se considera conductor a quien maneja un vehículo.",
+    "b": "El propietario de los animales, aunque no esté presente.",
+    "c": "La persona a cuyo cargo están los animales."
+   },
+   "correcta": "c",
+   "explicacion": "Es conductor también la persona a cuyo cargo está un animal o animales.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "va al mando de un vehículo, o a cuyo cargo está un animal o animales",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0004",
+   "tema": "definiciones",
+   "subtema": "ciclo",
+   "materia": 1,
+   "enunciado": "Una bicicleta de pedaleo asistido (con un pequeño motor que ayuda al pedaleo), ¿es un ciclo?",
+   "opciones": {
+    "a": "Sí, los ciclos de pedaleo asistido se incluyen en la definición de ciclo.",
+    "b": "No, es un ciclomotor.",
+    "c": "No, es un vehículo de movilidad personal."
+   },
+   "correcta": "a",
+   "explicacion": "La definición de ciclo incluye expresamente los ciclos de pedaleo asistido.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "Se incluyen en esta definición los ciclos de pedaleo asistido.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0005",
+   "tema": "definiciones",
+   "subtema": "ciclomotor",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima por construcción de un ciclomotor de dos ruedas?",
+   "opciones": {
+    "a": "No superior a 50 km/h.",
+    "b": "No superior a 45 km/h.",
+    "c": "No superior a 60 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Un ciclomotor de dos ruedas tiene una velocidad máxima por construcción no superior a 45 km/h.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.9.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "Vehículo de dos ruedas, con una velocidad máxima por construcción no superior a 45 km/h",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0006",
+   "tema": "definiciones",
+   "subtema": "ciclomotor",
+   "materia": 1,
+   "enunciado": "Un vehículo de cuatro ruedas, con masa en vacío de hasta 350 kg y velocidad máxima por construcción de 45 km/h (cuadriciclo ligero), ¿qué tipo de vehículo es?",
+   "opciones": {
+    "a": "Un turismo.",
+    "b": "Un vehículo especial.",
+    "c": "Un ciclomotor."
+   },
+   "correcta": "c",
+   "explicacion": "La Ley de Tráfico incluye entre los ciclomotores a los vehículos de cuatro ruedas de masa en vacío hasta 350 kg y velocidad máxima de 45 km/h.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.9.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "Vehículos de cuatro ruedas, cuya masa en vacío sea inferior o igual a 350 kilogramos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0007",
+   "tema": "definiciones",
+   "subtema": "vehiculo_de_motor",
+   "materia": 1,
+   "enunciado": "Según la Ley de Tráfico, ¿cuál de estos vehículos queda excluido de la definición de «vehículo de motor»?",
+   "opciones": {
+    "a": "El ciclomotor.",
+    "b": "La motocicleta.",
+    "c": "El camión."
+   },
+   "correcta": "a",
+   "explicacion": "La definición de vehículo de motor excluye los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.12",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "Se excluyen de esta definición los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0008",
+   "tema": "definiciones",
+   "subtema": "mma",
+   "materia": 1,
+   "enunciado": "¿Qué es la masa máxima autorizada (MMA)?",
+   "opciones": {
+    "a": "La masa del vehículo vacío, sin conductor ni carga.",
+    "b": "La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas.",
+    "c": "La masa que soporta cada eje del vehículo."
+   },
+   "correcta": "b",
+   "explicacion": "La MMA es la masa máxima con la que un vehículo cargado puede circular por las vías públicas.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.37",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0009",
+   "tema": "definiciones",
+   "subtema": "tara",
+   "materia": 1,
+   "enunciado": "La tara de un vehículo es su masa…",
+   "opciones": {
+    "a": "sin conductor y sin combustible.",
+    "b": "con el conductor y la carga máxima permitida.",
+    "c": "sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios reglamentarios."
+   },
+   "correcta": "c",
+   "explicacion": "La tara es la masa sin personas ni carga, pero con la dotación completa de combustible, agua, lubricante, repuestos, herramientas y accesorios.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.35",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "sin personal de servicio, pasajeros ni carga, y con su dotación completa de agua, combustible, lubricante",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0010",
+   "tema": "definiciones",
+   "subtema": "turismo",
+   "materia": 1,
+   "enunciado": "¿Cuántas plazas puede tener como máximo un turismo, además del asiento del conductor?",
+   "opciones": {
+    "a": "Ocho.",
+    "b": "Seis.",
+    "c": "Nueve."
+   },
+   "correcta": "a",
+   "explicacion": "Un turismo tiene, además del asiento del conductor, ocho plazas como máximo.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.15",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "además del asiento del conductor, ocho plazas como máximo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0011",
+   "tema": "definiciones",
+   "subtema": "camion",
+   "materia": 1,
+   "enunciado": "¿Qué caracteriza a un camión según la Ley de Tráfico?",
+   "opciones": {
+    "a": "Que tiene más de nueve plazas.",
+    "b": "Que su cabina no está integrada en el resto de la carrocería.",
+    "c": "Que su masa máxima autorizada supera siempre los 3.500 kg."
+   },
+   "correcta": "b",
+   "explicacion": "El camión es un automóvil para transporte de mercancías cuya cabina no está integrada en el resto de la carrocería.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.18",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "cuya cabina no está integrada en el resto de la carrocería",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "def-0012",
+   "tema": "definiciones",
+   "subtema": "mixto_adaptable",
+   "materia": 1,
+   "enunciado": "Un vehículo en el que se puede sustituir la carga, parcial o totalmente, por personas mediante la adición de asientos, es un…",
+   "opciones": {
+    "a": "derivado de turismo.",
+    "b": "furgón.",
+    "c": "vehículo mixto adaptable."
+   },
+   "correcta": "c",
+   "explicacion": "Es la definición de vehículo mixto adaptable: transporte simultáneo o no de mercancías y personas, hasta nueve incluido el conductor.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.19",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "se puede sustituir eventualmente la carga, parcial o totalmente, por personas mediante la adición de asientos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "via-0001",
+   "tema": "vias",
+   "subtema": "travesia",
+   "materia": 7,
+   "enunciado": "¿Qué es una travesía?",
+   "opciones": {
+    "a": "Un tramo de carretera que discurre por poblado.",
+    "b": "Una vía urbana con un solo carril por sentido.",
+    "c": "Un camino rural que une dos poblaciones."
+   },
+   "correcta": "a",
+   "explicacion": "La travesía es el tramo de carretera que discurre por poblado.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.71",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "Tramo de carretera que discurre por poblado.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "via-0002",
+   "tema": "vias",
+   "subtema": "interurbana",
+   "materia": 7,
+   "enunciado": "Una vía interurbana es una vía pública situada…",
+   "opciones": {
+    "a": "dentro de poblado.",
+    "b": "fuera de poblado.",
+    "c": "entre dos carriles bici."
+   },
+   "correcta": "b",
+   "explicacion": "Vía interurbana es la vía pública situada fuera de poblado.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.72",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "Vía interurbana. Vía pública situada fuera de poblado.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "via-0003",
+   "tema": "vias",
+   "subtema": "autopista_autovia",
+   "materia": 7,
+   "enunciado": "¿Cuál es la diferencia entre autopista y autovía respecto a las propiedades colindantes?",
+   "opciones": {
+    "a": "Ninguna; en ambas tienen acceso libre.",
+    "b": "En la autovía no tienen acceso; en la autopista tienen acceso limitado.",
+    "c": "En la autopista no tienen acceso; en la autovía tienen acceso limitado."
+   },
+   "correcta": "c",
+   "explicacion": "La autopista no permite el acceso de las propiedades colindantes; la autovía lo tiene limitado.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.66",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "No tener acceso a la misma las propiedades colindantes.",
+    "version_consultada": "2026-06-26",
+    "cita_adicional": {
+     "norma": "LSV",
+     "articulo": "Anexo I.67",
+     "cita": "Tener acceso limitado a ella las propiedades colindantes."
+    }
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "via-0004",
+   "tema": "vias",
+   "subtema": "carretera_convencional",
+   "materia": 7,
+   "enunciado": "¿Qué es una carretera convencional?",
+   "opciones": {
+    "a": "La que no reúne las características de autopistas, autovías y vías para automóviles.",
+    "b": "Cualquier carretera con un solo carril por sentido.",
+    "c": "Cualquier carretera sin arcén."
+   },
+   "correcta": "a",
+   "explicacion": "Carretera convencional es la que no reúne las características propias de autopistas, autovías y vías para automóviles.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.69",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+    "cita": "Carretera que no reúne las características propias de las autopistas, autovías y vías para automóviles.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "via-0005",
+   "tema": "vias",
+   "subtema": "autopista_autovia",
+   "materia": 7,
+   "enunciado": "¿Pueden circular las bicicletas por una autovía?",
+   "opciones": {
+    "a": "No, nunca.",
+    "b": "Sí, por los arcenes, si el ciclista es mayor de 14 años y no lo prohíbe la señalización.",
+    "c": "Sí, por cualquier carril, a partir de 16 años."
+   },
+   "correcta": "b",
+   "explicacion": "Está prohibido circular en bicicleta por autopistas y autovías, pero los mayores de 14 años pueden ir por los arcenes de las autovías salvo prohibición señalizada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "38.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a38",
+    "cita": "los conductores de bicicletas mayores de 14 años podrán circular por los arcenes de las autovías",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "via-0006",
+   "tema": "vias",
+   "subtema": "autopista_autovia",
+   "materia": 7,
+   "enunciado": "¿Puede circular un ciclomotor por una autopista o autovía?",
+   "opciones": {
+    "a": "Sí, por el arcén.",
+    "b": "Sí, si no supera los 45 km/h.",
+    "c": "No, está prohibido."
+   },
+   "correcta": "c",
+   "explicacion": "Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "38.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a38",
+    "cita": "Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "via-0007",
+   "tema": "vias",
+   "subtema": "vmp",
+   "materia": 7,
+   "enunciado": "¿Puede circular un patinete eléctrico (vehículo de movilidad personal) por una travesía?",
+   "opciones": {
+    "a": "No, está prohibido.",
+    "b": "Sí, porque la travesía está dentro de poblado.",
+    "c": "Sí, pero solo por el arcén."
+   },
+   "correcta": "a",
+   "explicacion": "Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "38.4.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a38",
+    "cita": "Se prohíbe circular con vehículos de movilidad personal: a) Por autopistas y autovías. b) Por travesías.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0001",
+   "tema": "por_donde_circular",
+   "subtema": "arcen",
+   "materia": 1,
+   "enunciado": "Fuera de poblado, si no hay zona peatonal practicable, ¿por dónde debe circular un peatón que va solo?",
+   "opciones": {
+    "a": "Por el arcén derecho.",
+    "b": "Por el arcén izquierdo, si existe y es practicable.",
+    "c": "Siempre por la calzada."
+   },
+   "correcta": "b",
+   "explicacion": "Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "122.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a122",
+    "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0002",
+   "tema": "por_donde_circular",
+   "subtema": "arcen",
+   "materia": 1,
+   "enunciado": "Una persona que arrastra su bicicleta por una carretera, ¿por qué lado debe circular?",
+   "opciones": {
+    "a": "Por la izquierda.",
+    "b": "Por el lado que prefiera.",
+    "c": "Por la derecha."
+   },
+   "correcta": "c",
+   "explicacion": "Es obligatorio circular por la derecha para quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas o VMP.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "122.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a122",
+    "cita": "Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0003",
+   "tema": "por_donde_circular",
+   "subtema": "arcen",
+   "materia": 1,
+   "enunciado": "Un grupo de peatones dirigido por una persona que circula por una carretera, ¿por qué lado debe ir?",
+   "opciones": {
+    "a": "Por la derecha.",
+    "b": "Por la izquierda.",
+    "c": "Por el centro de la calzada."
+   },
+   "correcta": "a",
+   "explicacion": "Todo grupo de peatones dirigido por una persona debe circular por la derecha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "122.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a122",
+    "cita": "Todo grupo de peatones dirigido por una persona.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0004",
+   "tema": "por_donde_circular",
+   "subtema": "visibilidad_peaton",
+   "materia": 8,
+   "enunciado": "Un peatón que de noche camina por el arcén de una vía interurbana, ¿qué debe llevar?",
+   "opciones": {
+    "a": "Nada, si camina por el arcén.",
+    "b": "Al menos un elemento luminoso o reflectante visible a 150 metros.",
+    "c": "Una linterna de luz roja hacia delante."
+   },
+   "correcta": "b",
+   "explicacion": "Entre el ocaso y la salida del sol, o con poca visibilidad, deben llevar al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "123.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a123",
+    "cita": "deberán hacer uso, al menos, de un elemento luminoso o reflectante conforme a la normativa de equipos de protección individual, que sea visible a una distancia mínima de 150 metros para los conductores que se les aproximen",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0005",
+   "tema": "por_donde_circular",
+   "subtema": "visibilidad_peaton",
+   "materia": 8,
+   "enunciado": "Un grupo de peatones que circula de noche por una vía interurbana debe llevar luces. ¿De qué color hacia atrás?",
+   "opciones": {
+    "a": "Blanco.",
+    "b": "Amarillo.",
+    "c": "Rojo."
+   },
+   "correcta": "c",
+   "explicacion": "Las luces del grupo serán de color blanco o amarillo hacia adelante y rojo hacia atrás, en el lado más próximo al centro de la calzada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "123.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a123",
+    "cita": "que serán de color blanco o amarillo hacia adelante y rojo hacia atrás",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0006",
+   "tema": "por_donde_circular",
+   "subtema": "visibilidad_peaton",
+   "materia": 8,
+   "enunciado": "Las luces que debe llevar de noche un grupo de peatones en vía interurbana, ¿en qué lado se llevan?",
+   "opciones": {
+    "a": "En el lado más próximo al centro de la calzada.",
+    "b": "En el lado más alejado de la calzada.",
+    "c": "Da igual el lado."
+   },
+   "correcta": "a",
+   "explicacion": "Se llevan en el lado más próximo al centro de la calzada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "123.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a123",
+    "cita": "en el lado más próximo al centro de la calzada, las luces necesarias para precisar su situación y dimensiones",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0007",
+   "tema": "por_donde_circular",
+   "subtema": "arcen",
+   "materia": 1,
+   "enunciado": "¿Por dónde debe circular un vehículo especial de 3.000 kg de MMA fuera de poblado, si el arcén es transitable y suficiente?",
+   "opciones": {
+    "a": "Por el carril derecho de la calzada.",
+    "b": "Por el arcén de su derecha.",
+    "c": "Por el carril izquierdo."
+   },
+   "correcta": "b",
+   "explicacion": "Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "36.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a36",
+    "cita": "vehículos especiales con masa máxima autorizada no superior a 3.500 kilogramos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0008",
+   "tema": "por_donde_circular",
+   "subtema": "ciclistas",
+   "materia": 1,
+   "enunciado": "Los ciclistas que circulan por el arcén, ¿pueden ir en columna de a dos?",
+   "opciones": {
+    "a": "No, nunca.",
+    "b": "Solo dentro de poblado.",
+    "c": "Sí."
+   },
+   "correcta": "c",
+   "explicacion": "Los conductores de bicicletas pueden circular en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, deben ponerse en hilera en tramos sin visibilidad, si afectan a la fluidez, de noche o con poca visibilidad.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "36.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a36",
+    "cita": "los conductores de bicicletas podrán circular en columna de a dos por el arcén",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0009",
+   "tema": "por_donde_circular",
+   "subtema": "ciclistas",
+   "materia": 1,
+   "enunciado": "Dos ciclistas circulan de noche por la calzada de una carretera sin arcén. ¿Cómo deben ir?",
+   "opciones": {
+    "a": "En hilera, uno detrás de otro.",
+    "b": "En columna de a dos.",
+    "c": "Como prefieran."
+   },
+   "correcta": "a",
+   "explicacion": "Deben colocarse en hilera, entre otros casos, cuando circulen entre el ocaso y la salida del sol.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "36.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a36",
+    "cita": "cuando circulen entre el ocaso y la salida del sol",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0010",
+   "tema": "por_donde_circular",
+   "subtema": "motos_arcen",
+   "materia": 1,
+   "enunciado": "En un tramo señalizado para ello, con la circulación detenida por congestión, ¿a qué velocidad máxima puede circular una motocicleta por el arcén?",
+   "opciones": {
+    "a": "20 km/h.",
+    "b": "30 km/h.",
+    "c": "50 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "En los tramos habilitados y señalizados, y solo con la circulación detenida por congestión, la velocidad por el arcén está limitada a 30 km/h, en columna de a uno.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "36.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a36",
+    "cita": "La velocidad estará limitada a 30 km/h y únicamente se podrá circular en columna de a uno",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0011",
+   "tema": "por_donde_circular",
+   "subtema": "carril_emergencia",
+   "materia": 1,
+   "enunciado": "En una autovía con tres carriles por sentido hay una retención. ¿Dónde debe formarse el carril de emergencia?",
+   "opciones": {
+    "a": "Entre el carril derecho y el arcén.",
+    "b": "En el centro, entre el segundo y el tercer carril contando desde la izquierda.",
+    "c": "Entre el carril situado más a la izquierda y el carril contiguo a él."
+   },
+   "correcta": "c",
+   "explicacion": "Con tres o más carriles en el mismo sentido, el carril de emergencia se forma entre el carril más a la izquierda y su contiguo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "32.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a32",
+    "cita": "el carril de emergencia deberá formarse entre el carril situado más a la izquierda y el carril contiguo a él",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0012",
+   "tema": "por_donde_circular",
+   "subtema": "carril_emergencia",
+   "materia": 1,
+   "enunciado": "En una autopista con dos carriles por sentido, con la circulación detenida, ¿dónde se forma el carril de emergencia?",
+   "opciones": {
+    "a": "En el centro de la vía, entre esos dos carriles.",
+    "b": "En el arcén.",
+    "c": "No es obligatorio formarlo."
+   },
+   "correcta": "a",
+   "explicacion": "Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "32.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a32",
+    "cita": "el carril de emergencia deberá formarse en el centro de la vía, entre esos dos carriles",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0013",
+   "tema": "por_donde_circular",
+   "subtema": "nieve",
+   "materia": 1,
+   "enunciado": "En una autopista con dos carriles por sentido y la circulación dificultada por la nieve, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Circular por el carril izquierdo, que suele estar más limpio.",
+    "b": "Circular por el carril más a la derecha; está prohibido adelantar.",
+    "c": "Adelantar solo a los vehículos pesados."
+   },
+   "correcta": "b",
+   "explicacion": "Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "32.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a32",
+    "cita": "estará prohibido adelantar y será obligatorio circular por el carril situado más a la derecha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0014",
+   "tema": "por_donde_circular",
+   "subtema": "carriles",
+   "materia": 1,
+   "enunciado": "Fuera de poblado, en una calzada con tres carriles para su sentido, ¿qué carriles puede usar normalmente un camión de más de 3.500 kg de MMA?",
+   "opciones": {
+    "a": "Cualquiera de los tres.",
+    "b": "Solo el situado más a la derecha, sin poder adelantar.",
+    "c": "El situado más a la derecha y el inmediato."
+   },
+   "correcta": "c",
+   "explicacion": "Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "31.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a31",
+    "cita": "circularán normalmente por el situado más a la derecha, y podrán utilizar el inmediato",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "arc-0015",
+   "tema": "por_donde_circular",
+   "subtema": "carriles",
+   "materia": 1,
+   "enunciado": "Dentro de poblado, en una calzada con dos carriles para su sentido delimitados por marcas, ¿qué carril puede utilizar un turismo?",
+   "opciones": {
+    "a": "El que mejor convenga a su destino.",
+    "b": "Obligatoriamente el de la derecha.",
+    "c": "El de la izquierda, salvo para girar a la derecha."
+   },
+   "correcta": "a",
+   "explicacion": "En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "33",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a33",
+    "cita": "podrá utilizar el que mejor convenga a su destino",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "cesp-0001",
+   "tema": "carriles_especiales",
+   "subtema": "sentido_contrario",
+   "materia": 1,
+   "enunciado": "¿Qué vehículos pueden circular por un carril habilitado en sentido contrario al habitual por razones de fluidez?",
+   "opciones": {
+    "a": "Todos los vehículos.",
+    "b": "Solo motocicletas y turismos (sin remolque).",
+    "c": "Turismos, furgonetas y autobuses."
+   },
+   "correcta": "b",
+   "explicacion": "Su utilización queda limitada a motocicletas y turismos, y está prohibida al resto, incluidos los turismos con remolque.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "41.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a41",
+    "cita": "queda limitada a las motocicletas y turismos, y está prohibida, por lo tanto, al resto de los vehículos, incluidos los turismos con remolque",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "cesp-0002",
+   "tema": "carriles_especiales",
+   "subtema": "sentido_contrario",
+   "materia": 1,
+   "enunciado": "¿A qué velocidad se circula por un carril habilitado en sentido contrario al habitual, salvo que se señalice otra inferior?",
+   "opciones": {
+    "a": "Máxima 100 km/h y mínima 60 km/h.",
+    "b": "Máxima 120 km/h, como en la autopista.",
+    "c": "Máxima 80 km/h y mínima 60 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "Se circula con al menos la luz de cruce, de día y de noche, a un máximo de 80 km/h y un mínimo de 60 km/h, o inferiores si así se señaliza.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "41.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a41",
+    "cita": "a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "cesp-0003",
+   "tema": "carriles_especiales",
+   "subtema": "sentido_contrario",
+   "materia": 1,
+   "enunciado": "Si el carril se habilita en sentido contrario al habitual por obras en la calzada, ¿quién puede circular por él?",
+   "opciones": {
+    "a": "Todos los tipos de vehículos autorizados a circular por la vía en obra, salvo prohibición expresa.",
+    "b": "Solo turismos y motocicletas.",
+    "c": "Solo vehículos de servicio de las obras."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "41.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a41",
+    "cita": "podrán circular por dichos carriles todos los tipos de vehículos que estén autorizados a circular por la vía en obra",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "cesp-0004",
+   "tema": "carriles_especiales",
+   "subtema": "adicional_circunstancial",
+   "materia": 1,
+   "enunciado": "¿A qué velocidad máxima se circula por un carril adicional circunstancial, salvo que se señalice otra inferior?",
+   "opciones": {
+    "a": "60 km/h.",
+    "b": "80 km/h.",
+    "c": "90 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Los vehículos que circulen por los arcenes y por el carril adicional lo harán a un máximo de 80 km/h y un mínimo de 60 km/h, con al menos la luz de cruce.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "42.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a42",
+    "cita": "Los vehículos que circulen por los arcenes y por dicho carril adicional lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "cesp-0005",
+   "tema": "carriles_especiales",
+   "subtema": "reversible",
+   "materia": 1,
+   "enunciado": "Al circular por un carril reversible, ¿qué alumbrado debe llevar?",
+   "opciones": {
+    "a": "Ninguno, si es de día.",
+    "b": "Las luces antiniebla traseras.",
+    "c": "Al menos la luz de corto alcance o de cruce, de día y de noche."
+   },
+   "correcta": "c",
+   "explicacion": "En un carril reversible hay que llevar encendida, al menos, la luz de corto alcance o de cruce, tanto de día como de noche.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "40.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a40",
+    "cita": "deberán llevar encendida, al menos, la luz de corto alcance o de cruce en sus vehículos tanto de día como de noche",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "cesp-0006",
+   "tema": "carriles_especiales",
+   "subtema": "vao",
+   "materia": 1,
+   "enunciado": "¿Puede circular un turismo con remolque por un carril VAO?",
+   "opciones": {
+    "a": "No, está prohibido.",
+    "b": "Sí, si lleva el número mínimo de ocupantes.",
+    "c": "Sí, si el remolque es ligero."
+   },
+   "correcta": "a",
+   "explicacion": "El uso del carril VAO se limita a motocicletas, turismos y mixtos adaptables, y está prohibido al resto, incluidos los turismos con remolque.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "35.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a35",
+    "cita": "está prohibida, por tanto, al resto de los vehículos y conjuntos de vehículos, incluidos los turismos con remolque",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "cesp-0007",
+   "tema": "carriles_especiales",
+   "subtema": "vao",
+   "materia": 1,
+   "enunciado": "¿Puede usar un carril VAO un turismo ocupado solo por su conductor que lleva la señal V-15?",
+   "opciones": {
+    "a": "No, debe llevar siempre el número mínimo de ocupantes.",
+    "b": "Sí, si así se indica para ese tramo.",
+    "c": "Solo si es un vehículo eléctrico."
+   },
+   "correcta": "b",
+   "explicacion": "Los vehículos autorizados pueden usar el VAO aun cuando solo lo ocupe el conductor si ostentan la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad. Siempre que así se indique en la relación de tramos de ese carril VAO.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "35.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a35",
+    "cita": "aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "cesp-0008",
+   "tema": "carriles_especiales",
+   "subtema": "vao",
+   "materia": 1,
+   "enunciado": "Un autobús de más de 3.500 kg de MMA, ¿puede usar un carril VAO aunque vaya vacío?",
+   "opciones": {
+    "a": "No.",
+    "b": "Solo si lleva al menos dos pasajeros.",
+    "c": "Sí, con independencia de su número de ocupantes, si así se indica para ese tramo."
+   },
+   "correcta": "c",
+   "explicacion": "Los autobuses de más de 3.500 kg y los articulados pueden usarlo con independencia del número de ocupantes, en las condiciones fijadas para el tramo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "35.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a35",
+    "cita": "por autobuses con masa máxima autorizada superior a 3.500 kilogramos y autobuses articulados, con independencia de su número de ocupantes",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "dist-0001",
+   "tema": "distancias",
+   "subtema": "tunel",
+   "materia": 6,
+   "enunciado": "Dentro de un túnel, sin intención de adelantar, ¿qué distancia mínima debe mantener un turismo con el vehículo precedente?",
+   "opciones": {
+    "a": "100 metros o 4 segundos.",
+    "b": "50 metros o 2 segundos.",
+    "c": "150 metros o 6 segundos."
+   },
+   "correcta": "a",
+   "explicacion": "En túneles o pasos inferiores hay que mantener al menos 100 metros o un intervalo mínimo de cuatro segundos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "95.6",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a95",
+    "cita": "de, al menos, 100 metros o un intervalo mínimo de cuatro segundos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "dist-0002",
+   "tema": "distancias",
+   "subtema": "tunel",
+   "materia": 6,
+   "enunciado": "Dentro de un túnel, ¿qué distancia mínima debe mantener un vehículo de más de 3.500 kg de MMA con el precedente?",
+   "opciones": {
+    "a": "100 metros o 4 segundos.",
+    "b": "150 metros o 6 segundos.",
+    "c": "200 metros o 8 segundos."
+   },
+   "correcta": "b",
+   "explicacion": "Los vehículos de MMA superior a 3.500 kg deben guardar al menos 150 metros o seis segundos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "95.6",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a95",
+    "cita": "será de, al menos, 150 metros o un intervalo mínimo de seguridad de seis segundos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "dist-0003",
+   "tema": "distancias",
+   "subtema": "facilitar_adelantamiento",
+   "materia": 5,
+   "enunciado": "Fuera de poblado, en una vía con un solo carril por sentido donde está permitido adelantar, un camión de 12.000 kg que no va a adelantar, ¿qué separación mínima debe dejar con el vehículo de delante para facilitar que le adelanten?",
+   "opciones": {
+    "a": "25 metros.",
+    "b": "100 metros.",
+    "c": "50 metros."
+   },
+   "correcta": "c",
+   "explicacion": "Los vehículos de más de 3.500 kg y los de más de 10 m deben guardar una separación mínima de 50 metros para que puedan adelantarles con seguridad. No se aplica en poblado, donde está prohibido adelantar o donde hay más de un carril por sentido.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "54.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+    "cita": "deberán guardar, a estos efectos, una separación mínima de 50 metros",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "dist-0004",
+   "tema": "distancias",
+   "subtema": "facilitar_adelantamiento",
+   "materia": 5,
+   "enunciado": "La obligación de dejar una separación extra para que otro pueda adelantarle, ¿se aplica en una vía donde está prohibido adelantar?",
+   "opciones": {
+    "a": "No.",
+    "b": "Sí, siempre.",
+    "c": "Solo a los turismos."
+   },
+   "correcta": "a",
+   "explicacion": "Esa obligación no se aplica en poblado, donde esté prohibido adelantar, donde haya más de un carril en el mismo sentido o con circulación muy saturada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "54.3.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+    "cita": "Donde estuviese prohibido el adelantamiento.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "dist-0005",
+   "tema": "distancias",
+   "subtema": "ciclistas",
+   "materia": 5,
+   "enunciado": "En vía urbana, un turismo circula detrás de un ciclista en el mismo carril. ¿Qué separación mínima debe dejar?",
+   "opciones": {
+    "a": "1,5 metros.",
+    "b": "5 metros.",
+    "c": "3 metros."
+   },
+   "correcta": "b",
+   "explicacion": "Los conductores de vehículos a motor deben dejar una separación mínima de cinco metros con los ciclistas que les precedan en el mismo carril.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "153.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a153",
+    "cita": "deberán dejar una separación mínima de cinco metros con los ciclistas que les precedan en el mismo carril",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "adel-0001",
+   "tema": "adelantamiento",
+   "subtema": "vulnerables",
+   "materia": 1,
+   "enunciado": "Al adelantar a un ciclista, ¿qué anchura de seguridad mínima hay que guardar?",
+   "opciones": {
+    "a": "1 metro.",
+    "b": "2 metros.",
+    "c": "1,5 metros."
+   },
+   "correcta": "c",
+   "explicacion": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, VMP o ciclistas hay que guardar una anchura de seguridad de al menos 1,5 metros.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "85.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
+    "cita": "guardando una anchura de seguridad de, al menos, 1,5 metros",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "adel-0002",
+   "tema": "adelantamiento",
+   "subtema": "vulnerables",
+   "materia": 1,
+   "enunciado": "Va a adelantar a un ciclista en una calzada con dos carriles para su sentido. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Cambiar completamente de carril.",
+    "b": "Basta con dejar 1,5 metros, aunque no cambie de carril.",
+    "c": "Tocar el claxon y adelantar por el mismo carril."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando la calzada tiene más de un carril por sentido, es obligatorio el cambio completo de carril.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "85.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
+    "cita": "salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "adel-0003",
+   "tema": "adelantamiento",
+   "subtema": "vulnerables",
+   "materia": 1,
+   "enunciado": "Fuera de poblado, en una vía limitada a 90 km/h, va a adelantar a un ciclista. ¿A qué velocidad máxima puede hacerlo?",
+   "opciones": {
+    "a": "90 km/h.",
+    "b": "70 km/h.",
+    "c": "80 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Fuera de poblado hay que reducir la velocidad al menos 20 km/h respecto al límite de la vía, antes y durante todo el adelantamiento: 90 − 20 = 70 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "85.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
+    "cita": "deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "adel-0004",
+   "tema": "adelantamiento",
+   "subtema": "vulnerables",
+   "materia": 1,
+   "enunciado": "A efectos del adelantamiento, un grupo de ciclistas que circula junto…",
+   "opciones": {
+    "a": "se adelanta ciclista a ciclista, volviendo al carril entre ellos.",
+    "b": "no puede ser adelantado.",
+    "c": "se considera una única unidad móvil."
+   },
+   "correcta": "c",
+   "explicacion": "Cuando los ciclistas circulen en grupo, se consideran como una única unidad móvil.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "85.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
+    "cita": "Cuando los conductores de bicicletas circulen en grupo, se considerarán como una única unidad móvil.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "adel-0005",
+   "tema": "adelantamiento",
+   "subtema": "inmovilizados",
+   "materia": 1,
+   "enunciado": "Un vehículo averiado está inmovilizado ocupando parte de su carril. Al rebasarlo, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Mantener al menos 1,5 metros y reducir la velocidad al menos 20 km/h respecto al límite de la vía.",
+    "b": "Basta con poner el intermitente.",
+    "c": "Pararse siempre detrás hasta que lo retiren."
+   },
+   "correcta": "a",
+   "explicacion": "Al rebasar un vehículo inmovilizado por avería, accidente o servicio de urgencia o auxilio que ocupe la calzada, hay que mantener al menos 1,5 m y reducir la velocidad al menos 20 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "88.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a88",
+    "cita": "deben mantener una anchura de seguridad de al menos 1,5 metros",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0001",
+   "tema": "velocidad",
+   "subtema": "limites_fuera_poblado",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima genérica de un turismo en una autopista?",
+   "opciones": {
+    "a": "100 km/h.",
+    "b": "120 km/h.",
+    "c": "130 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Para turismos, motocicletas, autocaravanas de hasta 3.500 kg y pick-up, el límite genérico en autopista y autovía es 120 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+    "version_consultada": "2026-06-26",
+    "tabla": {
+     "columna": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+     "fila": "Autopista y autovía",
+     "valor": "120"
+    }
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0002",
+   "tema": "velocidad",
+   "subtema": "limites_fuera_poblado",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima genérica de un turismo en una carretera convencional?",
+   "opciones": {
+    "a": "80 km/h.",
+    "b": "100 km/h.",
+    "c": "90 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "El límite genérico de turismos y motocicletas en carretera convencional es 90 km/h (el titular de la vía puede fijar 100 km/h si hay separación física de sentidos).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+    "version_consultada": "2026-06-26",
+    "tabla": {
+     "columna": "Turismos, motocicletas, autocaravanas de masa máxima autorizada igual o inferior a 3.500 kg, Pick-up",
+     "fila": "Convencional",
+     "valor": "90"
+    }
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0003",
+   "tema": "velocidad",
+   "subtema": "limites_fuera_poblado",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima genérica de un autobús en una autovía?",
+   "opciones": {
+    "a": "100 km/h.",
+    "b": "90 km/h.",
+    "c": "120 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "Autobuses, derivados de turismo y mixtos adaptables: 100 km/h en autopista y autovía y 90 km/h en convencional.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "Camiones, tractocamiones, Autobuses,",
+    "version_consultada": "2026-06-26",
+    "tabla": {
+     "columna": "Autobuses, vehículos derivados de turismo y vehículos mixtos adaptables",
+     "fila": "Autopista y autovía",
+     "valor": "100"
+    }
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0004",
+   "tema": "velocidad",
+   "subtema": "limites_fuera_poblado",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima genérica de un turismo con remolque en una autopista?",
+   "opciones": {
+    "a": "80 km/h.",
+    "b": "90 km/h.",
+    "c": "100 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Los automóviles con remolque están en el grupo de camiones, furgonetas y vehículos articulados: 90 km/h en autopista y autovía y 80 km/h en convencional.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "automóviles con remolque y resto",
+    "version_consultada": "2026-06-26",
+    "tabla": {
+     "columna": "Camiones, tractocamiones, furgonetas, autocaravanas de masa máxima autorizada superior a 3.500 kg, vehículos articulados, automóviles con remolque y resto de vehículos",
+     "fila": "Autopista y autovía",
+     "valor": "90"
+    }
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0005",
+   "tema": "velocidad",
+   "subtema": "reducciones",
+   "materia": 1,
+   "enunciado": "Un autobús que realiza transporte escolar circula por una autopista. ¿Cuál es su velocidad máxima genérica?",
+   "opciones": {
+    "a": "80 km/h.",
+    "b": "100 km/h.",
+    "c": "90 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "El transporte escolar y de menores reduce en 10 km/h la velocidad máxima de su vehículo y vía: 100 − 10 = 90 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "Para los vehículos que realicen transporte escolar y de menores o que transporten mercancías peligrosas, se reducirá en 10 kilómetros por hora",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0006",
+   "tema": "velocidad",
+   "subtema": "reducciones",
+   "materia": 1,
+   "enunciado": "Un camión que transporta mercancías peligrosas circula por una carretera convencional. ¿Cuál es su velocidad máxima genérica?",
+   "opciones": {
+    "a": "70 km/h.",
+    "b": "60 km/h.",
+    "c": "80 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "El límite del camión en convencional es 80 km/h y se reduce 10 km/h por llevar mercancías peligrosas: 70 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "que transporten mercancías peligrosas, se reducirá en 10 kilómetros por hora",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0007",
+   "tema": "velocidad",
+   "subtema": "especiales",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima de un tractor agrícola que lleva remolque, fuera de poblado?",
+   "opciones": {
+    "a": "40 km/h.",
+    "b": "25 km/h.",
+    "c": "70 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Los vehículos especiales que carecen de señalización de frenado, llevan remolque o son motocultores tienen un máximo de 25 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "Si carecen de señalización de frenado, llevan remolque o son motocultores: 25",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0008",
+   "tema": "velocidad",
+   "subtema": "ciclomotores",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima de un cuadriciclo ligero fuera de poblado?",
+   "opciones": {
+    "a": "70 km/h.",
+    "b": "90 km/h.",
+    "c": "45 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "Ciclos, ciclomotores de dos y tres ruedas y cuadriciclos ligeros: 45 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "Para ciclos, ciclomotores de dos y tres ruedas y cuadriciclos ligeros: 45 kilómetros por",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0009",
+   "tema": "velocidad",
+   "subtema": "cuadriciclos",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima de un cuadriciclo (no ligero) en una carretera convencional?",
+   "opciones": {
+    "a": "70 km/h.",
+    "b": "45 km/h.",
+    "c": "90 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "A los vehículos de tres ruedas y cuadriciclos se les aplica el límite de 70 km/h en cualquier vía donde esté permitida su circulación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.h",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "A los vehículos de tres ruedas y cuadriciclos en cualquier tipo de vía donde esté permitida su circulación se aplica el límite de 70",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0010",
+   "tema": "velocidad",
+   "subtema": "sin_pavimentar",
+   "materia": 1,
+   "enunciado": "¿Cuál es el límite de velocidad máximo en una vía sin pavimentar?",
+   "opciones": {
+    "a": "20 km/h.",
+    "b": "30 km/h.",
+    "c": "40 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "En las vías sin pavimentar el límite de velocidad máximo es de 30 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "48.1.f",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "cita": "En las vías sin pavimentar el límite de velocidad máximo será de 30 km/h.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0011",
+   "tema": "velocidad",
+   "subtema": "minimas",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad mínima en autopistas y autovías para los vehículos a motor?",
+   "opciones": {
+    "a": "40 km/h.",
+    "b": "50 km/h.",
+    "c": "60 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "49.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49",
+    "cita": "se prohíbe la circulación en autopistas y autovías de vehículos a motor a una velocidad inferior a 60 kilómetros por hora",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0012",
+   "tema": "velocidad",
+   "subtema": "minimas",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad mínima de un turismo en una carretera convencional, en condiciones normales?",
+   "opciones": {
+    "a": "45 km/h.",
+    "b": "60 km/h.",
+    "c": "No hay velocidad mínima."
+   },
+   "correcta": "a",
+   "explicacion": "En las vías que no son autopista o autovía, la mínima es la mitad de la genérica de cada vehículo: 90 / 2 = 45 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "49.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49",
+    "cita": "a una velocidad inferior a la mitad de la genérica señalada para cada categoría de vehículos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0013",
+   "tema": "velocidad",
+   "subtema": "limites_urbanos",
+   "materia": 1,
+   "enunciado": "¿Cuál es el límite genérico de velocidad en una vía urbana con un único carril por sentido?",
+   "opciones": {
+    "a": "20 km/h.",
+    "b": "30 km/h.",
+    "c": "50 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "El límite genérico en vías urbanas de un único carril por sentido es 30 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "50.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "cita": "30 km/h en vías de un único carril por sentido de circulación.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0014",
+   "tema": "velocidad",
+   "subtema": "limites_urbanos",
+   "materia": 1,
+   "enunciado": "¿Cuál es el límite genérico de velocidad en una vía urbana con plataforma única de calzada y acera?",
+   "opciones": {
+    "a": "10 km/h.",
+    "b": "30 km/h.",
+    "c": "20 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "En vías con plataforma única de calzada y acera el límite genérico es 20 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "50.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "cita": "20 km/h en vías que dispongan de plataforma única de calzada y acera.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0015",
+   "tema": "velocidad",
+   "subtema": "limites_urbanos",
+   "materia": 1,
+   "enunciado": "Una calle tiene dos carriles en su sentido, pero uno de ellos es un carril bus. ¿Cuál es el límite genérico?",
+   "opciones": {
+    "a": "30 km/h, porque los carriles reservados no se cuentan.",
+    "b": "50 km/h, porque hay dos carriles.",
+    "c": "40 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "Los carriles reservados para determinados usuarios o para transporte público no se contabilizan, así que queda un único carril por sentido: 30 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "50.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "cita": "los carriles reservados para la circulación de determinados usuarios o uso exclusivo de transporte público no serán contabilizados",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0016",
+   "tema": "velocidad",
+   "subtema": "travesias",
+   "materia": 1,
+   "enunciado": "¿Cuál es el límite genérico de velocidad en una travesía?",
+   "opciones": {
+    "a": "30 km/h si tiene un solo carril por sentido.",
+    "b": "50 km/h para todo tipo de vehículos.",
+    "c": "40 km/h para todo tipo de vehículos."
+   },
+   "correcta": "b",
+   "explicacion": "El límite genérico en travesías es 50 km/h para todo tipo de vehículos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "50.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "cita": "El límite genérico de velocidad en travesías es de 50 km/h para todo tipo de vehículos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0017",
+   "tema": "velocidad",
+   "subtema": "autopista_en_poblado",
+   "materia": 1,
+   "enunciado": "¿Cuál es el límite genérico de velocidad en una autopista que transcurre dentro de poblado?",
+   "opciones": {
+    "a": "50 km/h.",
+    "b": "120 km/h para turismos.",
+    "c": "80 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "El límite genérico en autopistas y autovías que transcurren dentro de poblado es 80 km/h (ampliable con señalización específica).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "50.6",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "cita": "El límite genérico de velocidad en autopistas y autovías que transcurren dentro de poblado será de 80 km/h",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "vel-0018",
+   "tema": "velocidad",
+   "subtema": "mercancias_peligrosas_urbano",
+   "materia": 1,
+   "enunciado": "¿Cuál es la velocidad máxima de un vehículo que transporta mercancías peligrosas en una travesía?",
+   "opciones": {
+    "a": "40 km/h.",
+    "b": "30 km/h.",
+    "c": "50 km/h."
+   },
+   "correcta": "a",
+   "explicacion": "En travesías y en vías urbanas de dos o más carriles por sentido, los vehículos con mercancías peligrosas circulan como máximo a 40 km/h.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "50.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "cita": "los vehículos que transporten mercancías peligrosas circularán como máximo a 40 km/h",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pri-0002",
+   "tema": "prioridad",
+   "subtema": "interseccion_sin_senalizar",
+   "materia": 1,
+   "enunciado": "Circula por una vía pavimentada y llega a un cruce sin señalizar. Por su derecha se acerca un vehículo que sale de un camino sin pavimentar. ¿Quién tiene preferencia de paso?",
+   "opciones": {
+    "a": "El otro vehículo, porque se aproxima por su derecha.",
+    "b": "El que llegue primero al cruce.",
+    "c": "Usted, porque circula por la vía pavimentada."
+   },
+   "correcta": "c",
+   "explicacion": "En las intersecciones sin señalizar, los vehículos que circulan por una vía pavimentada tienen preferencia sobre los que proceden de otra sin pavimentar, aunque estos vengan por la derecha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "57.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Tendrán derecho de preferencia de paso los vehículos que circulen por una vía pavimentada frente a los procedentes de otra sin pavimentar.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pri-0003",
+   "tema": "prioridad",
+   "subtema": "interseccion_sin_senalizar",
+   "materia": 1,
+   "enunciado": "En una intersección sin señales ni semáforos se acerca un tranvía por su izquierda. ¿Quién tiene prioridad de paso?",
+   "opciones": {
+    "a": "El tranvía, porque circula por raíles.",
+    "b": "Usted, porque el tranvía se aproxima por su izquierda.",
+    "c": "El que haya entrado antes en la intersección."
+   },
+   "correcta": "a",
+   "explicacion": "Los vehículos que circulan por raíles tienen prioridad de paso sobre los demás usuarios en las intersecciones sin señalizar.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "57.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pri-0004",
+   "tema": "prioridad",
+   "subtema": "glorietas",
+   "materia": 1,
+   "enunciado": "En una glorieta sin señalizar, ¿quién tiene preferencia de paso?",
+   "opciones": {
+    "a": "Los vehículos que ya se hallan dentro de la vía circular.",
+    "b": "Los que pretenden acceder a la glorieta, si vienen por la derecha.",
+    "c": "Los vehículos de mayores dimensiones."
+   },
+   "correcta": "a",
+   "explicacion": "En las glorietas, los que se hallan dentro de la vía circular tienen preferencia sobre los que pretenden acceder a ella.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "57.1.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso sobre los que pretendan acceder a aquéllas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pri-0005",
+   "tema": "prioridad",
+   "subtema": "interseccion_sin_senalizar",
+   "materia": 1,
+   "enunciado": "En ausencia de señalización, un vehículo que circula por una autopista y otro que pretende acceder a ella, ¿quién tiene preferencia?",
+   "opciones": {
+    "a": "El que pretende acceder, si se aproxima por la derecha.",
+    "b": "El que circule a mayor velocidad.",
+    "c": "El que circula por la autopista."
+   },
+   "correcta": "c",
+   "explicacion": "Los vehículos que circulan por una autopista o autovía tienen preferencia de paso sobre los que pretenden acceder a ella.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "57.1.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso sobre los que pretenden acceder a aquélla.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pri-0006",
+   "tema": "prioridad",
+   "subtema": "interseccion_senalizada",
+   "materia": 1,
+   "enunciado": "Ante una señal de «ceda el paso» o de «stop» en una intersección, ¿a quién debe ceder el paso?",
+   "opciones": {
+    "a": "Solo a los vehículos que se aproximen por su derecha.",
+    "b": "Solo a los vehículos que se aproximen por su izquierda.",
+    "c": "A los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen."
+   },
+   "correcta": "c",
+   "explicacion": "En las intersecciones con «ceda el paso» o «stop», se cede siempre el paso a los vehículos de la vía preferente, vengan por el lado que vengan.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "56.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los conductores cederán siempre el paso a los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pri-0007",
+   "tema": "prioridad",
+   "subtema": "interseccion_bloqueo",
+   "materia": 1,
+   "enunciado": "Tiene el semáforo en verde, pero la circulación está tan densa que previsiblemente quedará detenido dentro del cruce, obstruyendo la circulación transversal. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "No entrar en la intersección, aunque goce de prioridad de paso.",
+    "b": "Entrar, porque el semáforo en verde le da prioridad.",
+    "c": "Entrar con la luz de emergencia encendida."
+   },
+   "correcta": "a",
+   "explicacion": "Aun gozando de prioridad, ningún conductor debe entrar en una intersección si previsiblemente puede quedar detenido impidiendo u obstruyendo la circulación transversal.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "59.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pri-0008",
+   "tema": "prioridad",
+   "subtema": "giro_izquierda",
+   "materia": 1,
+   "enunciado": "Va a girar a la izquierda en un cruce y de frente se acerca, a poca distancia, un vehículo que sigue recto. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Girar antes de que llegue, porque quien gira a la izquierda tiene preferencia.",
+    "b": "Girar, porque el otro vehículo debe reducir la velocidad.",
+    "c": "Abstenerse de girar hasta que la velocidad y la distancia del otro vehículo le permitan hacerlo sin peligro."
+   },
+   "correcta": "c",
+   "explicacion": "Quien va a girar debe cerciorarse de que la velocidad y la distancia de los vehículos que se acercan en sentido contrario le permiten hacer la maniobra sin peligro y, si no es así, abstenerse.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "74.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "cerciorarse de que la velocidad y la distancia de los vehículos que se acerquen en sentido contrario le permiten efectuar la maniobra sin peligro, absteniéndose de realizarla de no darse estas circunstancias",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pri-0009",
+   "tema": "prioridad",
+   "subtema": "salida_propiedad_privada",
+   "materia": 1,
+   "enunciado": "Va a salir a una vía pública desde un camino exclusivamente privado (por ejemplo, el de su casa). ¿A quién debe ceder el paso?",
+   "opciones": {
+    "a": "Solo a los vehículos que se acerquen por su derecha.",
+    "b": "A los vehículos que circulen por la vía, cualquiera que sea el sentido en que lo hagan.",
+    "c": "A nadie, si la salida no está señalizada."
+   },
+   "correcta": "b",
+   "explicacion": "Quien sale a una vía pública por un camino exclusivamente privado debe ceder el paso a los vehículos que circulen por ella, sea cual sea su sentido.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "72.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "cediendo el paso a los vehículos que circulen por aquélla, cualquiera que sea el sentido en que lo hagan",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pea-0001",
+   "tema": "prioridad",
+   "subtema": "peatones",
+   "materia": 8,
+   "enunciado": "Al girar para entrar en otra calle encuentra peatones cruzándola, aunque allí no hay paso para peatones. ¿Quién tiene prioridad?",
+   "opciones": {
+    "a": "Usted, porque no hay paso para peatones.",
+    "b": "Los peatones.",
+    "c": "Usted, si el giro es a la derecha."
+   },
+   "correcta": "b",
+   "explicacion": "Los peatones tienen prioridad cuando un vehículo va a girar para entrar en otra vía y hay peatones cruzándola, aunque no exista paso para ellos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "65.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pea-0002",
+   "tema": "prioridad",
+   "subtema": "peatones",
+   "materia": 8,
+   "enunciado": "Va a cruzar con su vehículo un arcén por el que circulan peatones que no disponen de zona peatonal. ¿Quién tiene prioridad?",
+   "opciones": {
+    "a": "Los peatones.",
+    "b": "Usted, porque el peatón debe circular por la calzada.",
+    "c": "Usted, si advierte la maniobra con el intermitente."
+   },
+   "correcta": "a",
+   "explicacion": "Los peatones tienen prioridad cuando el vehículo cruza un arcén por el que circulan peatones que no disponen de zona peatonal.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "65.1.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pea-0003",
+   "tema": "prioridad",
+   "subtema": "peatones",
+   "materia": 8,
+   "enunciado": "Unos peatones acaban de bajar de un autobús en una parada señalizada y se encuentran entre el autobús y la acera. ¿Tienen prioridad respecto a los vehículos?",
+   "opciones": {
+    "a": "No, salvo que crucen por un paso para peatones.",
+    "b": "Sí, mientras se encuentren entre el autobús y la zona peatonal o refugio más próximo.",
+    "c": "Solo si el autobús tiene encendida la luz de emergencia."
+   },
+   "correcta": "b",
+   "explicacion": "Los peatones que vayan a subir o hayan bajado de un vehículo de transporte colectivo, en una parada señalizada, tienen prioridad mientras estén entre el vehículo y la zona peatonal o refugio más próximo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "65.1.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pea-0004",
+   "tema": "prioridad",
+   "subtema": "peatones",
+   "materia": 8,
+   "enunciado": "Sale de un garaje y tiene que atravesar la acera para llegar a la calzada. Por la acera camina un peatón. ¿Quién tiene prioridad?",
+   "opciones": {
+    "a": "Usted, porque está saliendo de un garaje con vado.",
+    "b": "El peatón.",
+    "c": "Usted, si avisa con el claxon."
+   },
+   "correcta": "b",
+   "explicacion": "Los peatones tienen prioridad de paso en los pasos para peatones señalizados, en las aceras y en las demás zonas peatonales.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "65.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-pea-0005",
+   "tema": "prioridad",
+   "subtema": "peatones",
+   "materia": 8,
+   "enunciado": "Una fila escolar cruza la calzada fuera de un paso para peatones. ¿Quién tiene prioridad?",
+   "opciones": {
+    "a": "Los vehículos, porque no cruzan por un paso para peatones.",
+    "b": "Los vehículos, salvo que un agente ordene detenerse.",
+    "c": "La fila escolar."
+   },
+   "correcta": "c",
+   "explicacion": "Los peatones tienen prioridad cuando transitan unidades militares a pie, filas escolares y comitivas organizadas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "65.1.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-cic-0001",
+   "tema": "prioridad",
+   "subtema": "ciclistas",
+   "materia": 8,
+   "enunciado": "Un grupo de ciclistas cruza una intersección y el primero de ellos ya ha iniciado el cruce. ¿Qué debe hacer usted?",
+   "opciones": {
+    "a": "Dejar pasar a todo el grupo.",
+    "b": "Dejar pasar solo al primer ciclista y continuar.",
+    "c": "Pasar entre los ciclistas si queda un hueco suficiente."
+   },
+   "correcta": "a",
+   "explicacion": "Los ciclistas que circulan en grupo tienen prioridad cuando el primero ha iniciado ya el cruce o ha entrado en una glorieta; el grupo se trata como una unidad.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "64.2.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-cic-0002",
+   "tema": "prioridad",
+   "subtema": "ciclistas",
+   "materia": 8,
+   "enunciado": "Va a girar a la derecha para entrar en otra vía y hay un ciclista en sus proximidades que sigue recto. ¿Quién tiene prioridad?",
+   "opciones": {
+    "a": "El ciclista.",
+    "b": "Usted, porque el ciclista debe ceder al vehículo de motor.",
+    "c": "Usted, si ha señalizado el giro con antelación."
+   },
+   "correcta": "a",
+   "explicacion": "Los ciclistas tienen prioridad cuando, para entrar en otra vía, el vehículo de motor gira a la derecha o a la izquierda y hay un ciclista en sus proximidades.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "64.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-cic-0003",
+   "tema": "prioridad",
+   "subtema": "ciclistas",
+   "materia": 8,
+   "enunciado": "Un ciclista cruza por un paso para ciclistas debidamente señalizado, sin semáforo. ¿Quién tiene prioridad?",
+   "opciones": {
+    "a": "Usted, por conducir un vehículo de motor.",
+    "b": "El que se aproxime por la derecha.",
+    "c": "El ciclista."
+   },
+   "correcta": "c",
+   "explicacion": "Los conductores de bicicletas tienen prioridad de paso cuando circulan por un carril bici, paso para ciclistas o arcén debidamente señalizados.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "64.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-urg-0001",
+   "tema": "prioridad",
+   "subtema": "vehiculos_prioritarios",
+   "materia": 1,
+   "enunciado": "Como regla general, ¿cómo advierte de su presencia un vehículo prioritario (policía, bomberos, ambulancia) que circula en servicio urgente?",
+   "opciones": {
+    "a": "Utilizando solo la luz de emergencia (los cuatro intermitentes).",
+    "b": "Utilizando ráfagas de luz de carretera y el claxon.",
+    "c": "Utilizando a la vez la señal luminosa y el aparato emisor de señales acústicas especiales."
+   },
+   "correcta": "c",
+   "explicacion": "Tienen carácter de prioritarios estos vehículos cuando circulan en servicio urgente y advierten su presencia con la utilización simultánea de la señal luminosa y de las señales acústicas especiales. Solo pueden usar la luminosa aislada cuando omitir la acústica no entrañe peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "68.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "mediante la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-urg-0002",
+   "tema": "prioridad",
+   "subtema": "vehiculos_prioritarios",
+   "materia": 1,
+   "enunciado": "El conductor de un vehículo prioritario en servicio urgente puede dejar de cumplir algunas normas de circulación. ¿Qué debe cumplir siempre?",
+   "opciones": {
+    "a": "Los semáforos.",
+    "b": "Los límites de velocidad.",
+    "c": "Las órdenes y señales de los agentes."
+   },
+   "correcta": "c",
+   "explicacion": "Los conductores de vehículos prioritarios, si se han cerciorado de que no ponen en peligro a nadie, pueden dejar de cumplir bajo su responsabilidad determinadas normas, salvo las órdenes y señales de los agentes, que son siempre obligatorias.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "68.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "salvo las órdenes y señales de los agentes, que son siempre de obligado cumplimiento",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-urg-0003",
+   "tema": "prioridad",
+   "subtema": "vehiculos_prioritarios",
+   "materia": 1,
+   "enunciado": "Percibe las señales especiales de una ambulancia en servicio urgente que se aproxima. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Adoptar las medidas adecuadas para facilitarle el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso.",
+    "b": "Detenerse siempre en el acto, en el carril por el que circula.",
+    "c": "Acelerar para alejarse de ella."
+   },
+   "correcta": "a",
+   "explicacion": "Al percibir las señales de un vehículo prioritario, los demás conductores deben facilitarle el paso según las circunstancias, apartándose normalmente a la derecha o deteniéndose si fuera preciso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "69",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-urg-0004",
+   "tema": "prioridad",
+   "subtema": "vehiculos_prioritarios",
+   "materia": 1,
+   "enunciado": "Un vehículo de policía con sus señales luminosas y acústicas se sitúa detrás de usted y activa una luz roja intermitente hacia delante. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Detenerse con precaución en el lado derecho, delante del vehículo policial, y permanecer en el interior.",
+    "b": "Apartarse a la derecha y dejarle pasar sin detenerse.",
+    "c": "Detenerse y bajar del vehículo para identificarse."
+   },
+   "correcta": "a",
+   "explicacion": "Ante esa señal, el conductor debe detenerse con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar sin riesgos, permanecer en su interior y seguir las instrucciones del agente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "69",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberá detenerlo con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios, y permanecerá en su interior.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-urg-0005",
+   "tema": "prioridad",
+   "subtema": "no_prioritario_urgencia",
+   "materia": 1,
+   "enunciado": "Por una circunstancia especialmente grave tiene que llevar urgentemente a un herido en su turismo, sin poder recurrir a otro medio. ¿Cómo advertirá a los demás usuarios?",
+   "opciones": {
+    "a": "Con las luces antiniebla delanteras y traseras encendidas.",
+    "b": "No puede advertirlo de ningún modo; debe circular como cualquier otro vehículo.",
+    "c": "Con el avisador acústico de forma intermitente y la luz de emergencia, o agitando un pañuelo o similar."
+   },
+   "correcta": "c",
+   "explicacion": "El conductor de un vehículo no prioritario que realiza un servicio de urgencia procurará que los demás lo adviertan usando el claxon de forma intermitente y la luz de emergencia, o agitando un pañuelo o procedimiento similar.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "70.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "utilizando para ello el avisador acústico en forma intermitente y conectando la luz de emergencia, si se dispusiera de ella, o agitando un pañuelo o procedimiento similar.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-urg-0006",
+   "tema": "prioridad",
+   "subtema": "no_prioritario_urgencia",
+   "materia": 1,
+   "enunciado": "Un turismo no prioritario que realiza un servicio de urgencia (lleva a un herido), ¿puede saltarse un semáforo en rojo?",
+   "opciones": {
+    "a": "Sí, siempre que lleve la luz de emergencia encendida.",
+    "b": "No, debe respetar las normas de circulación, sobre todo en las intersecciones.",
+    "c": "Sí, si toca el claxon de forma intermitente."
+   },
+   "correcta": "b",
+   "explicacion": "Los vehículos no prioritarios en servicio de urgencia deben respetar las normas de circulación, sobre todo en las intersecciones; los demás usuarios deben facilitarles el paso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "70.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberán respetar las normas de circulación, sobre todo en las intersecciones",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0001",
+   "tema": "prioridad",
+   "subtema": "estrechamientos",
+   "materia": 1,
+   "enunciado": "En un tramo estrecho sin señalización, donde no caben dos vehículos en sentido contrario, ¿quién tiene preferencia de paso?",
+   "opciones": {
+    "a": "El que circule por la derecha.",
+    "b": "El que hubiese entrado primero.",
+    "c": "El vehículo de menor tamaño."
+   },
+   "correcta": "b",
+   "explicacion": "En los tramos donde por su estrechez es imposible o muy difícil el paso simultáneo y no hay señalización, tiene preferencia el que hubiese entrado primero.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "60.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "donde no haya señalización expresa al efecto, tendrá derecho de preferencia de paso el que hubiese entrado primero",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0002",
+   "tema": "prioridad",
+   "subtema": "estrechamientos",
+   "materia": 1,
+   "enunciado": "Un camión y un turismo se encuentran en un estrechamiento sin señalizar y hay duda sobre cuál entró primero. ¿Quién tiene la preferencia?",
+   "opciones": {
+    "a": "El que tenga mayores dificultades de maniobra según el orden del reglamento: el camión.",
+    "b": "El que tenga que dar marcha atrás mayor distancia, sea cual sea el tipo de vehículo.",
+    "c": "El que se aproxime por la derecha."
+   },
+   "correcta": "a",
+   "explicacion": "En caso de duda sobre quién entró primero, tiene preferencia el vehículo con mayores dificultades de maniobra según el orden del artículo 62 (los camiones van antes que los turismos). La distancia de marcha atrás solo decide entre vehículos del mismo tipo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "60.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con mayores dificultades de maniobra, de acuerdo con lo que se determina en el artículo 62.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0003",
+   "tema": "prioridad",
+   "subtema": "estrechamientos",
+   "materia": 1,
+   "enunciado": "Dos turismos entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero) y uno de ellos tiene que dar marcha atrás. ¿Cuál tiene la preferencia?",
+   "opciones": {
+    "a": "El que tuviera que dar marcha atrás menor distancia.",
+    "b": "El que circule en sentido descendente, aunque la pendiente sea mínima.",
+    "c": "El que tuviera que dar marcha atrás mayor distancia."
+   },
+   "correcta": "c",
+   "explicacion": "Entre vehículos del mismo tipo, la preferencia se decide a favor del que tuviera que dar marcha atrás mayor distancia y, en caso de igualdad, del de mayor anchura, longitud o masa máxima autorizada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "62.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0004",
+   "tema": "prioridad",
+   "subtema": "estrechamientos",
+   "materia": 1,
+   "enunciado": "Un autobús y un camión entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero) y uno debe dar marcha atrás. ¿Cuál tiene preferencia de paso?",
+   "opciones": {
+    "a": "El camión.",
+    "b": "El que tenga mayor masa máxima autorizada.",
+    "c": "El autobús."
+   },
+   "correcta": "c",
+   "explicacion": "En el orden de preferencia, los vehículos destinados al transporte colectivo de viajeros van por delante de los camiones, tractocamiones y furgones.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "62.1.e y f",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "e) Vehículos destinados al transporte colectivo de viajeros. f) Camiones, tractocamiones y furgones.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0005",
+   "tema": "prioridad",
+   "subtema": "estrechamientos",
+   "materia": 1,
+   "enunciado": "Un turismo que arrastra un remolque de 500 kg de MMA y un autobús entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Cuál de ellos debe dar marcha atrás?",
+   "opciones": {
+    "a": "El turismo con remolque.",
+    "b": "El autobús.",
+    "c": "El que haya recorrido menos metros dentro del estrechamiento."
+   },
+   "correcta": "b",
+   "explicacion": "Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "62.1.d y e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "d) Turismos que arrastran remolques de hasta 750 kilogramos de masa máxima autorizada y autocaravanas. e) Vehículos destinados al transporte colectivo de viajeros.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0006",
+   "tema": "prioridad",
+   "subtema": "estrechamientos",
+   "materia": 1,
+   "enunciado": "Un vehículo de tracción animal y un turismo con un remolque de 600 kg de MMA entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Cuál tiene preferencia de paso?",
+   "opciones": {
+    "a": "El turismo con remolque.",
+    "b": "El que circule por la derecha.",
+    "c": "El vehículo de tracción animal."
+   },
+   "correcta": "c",
+   "explicacion": "En el orden de preferencia, los vehículos de tracción animal van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "62.1.c y d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "c) Vehículos de tracción animal. d) Turismos que arrastran remolques de hasta 750 kilogramos de masa máxima autorizada y autocaravanas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0007",
+   "tema": "prioridad",
+   "subtema": "estrechamientos",
+   "materia": 1,
+   "enunciado": "Un camión y un turismo sin remolque entran a la vez en un estrechamiento sin señalizar (no se puede saber quién entró primero). ¿Quién debe dar marcha atrás?",
+   "opciones": {
+    "a": "El camión.",
+    "b": "El turismo.",
+    "c": "El que circule en sentido descendente."
+   },
+   "correcta": "b",
+   "explicacion": "Los camiones, tractocamiones y furgones tienen preferencia sobre los turismos y vehículos derivados de turismos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "62.1.f y g",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "f) Camiones, tractocamiones y furgones. g) Turismos y vehículos derivados de turismos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0008",
+   "tema": "prioridad",
+   "subtema": "gran_pendiente",
+   "materia": 1,
+   "enunciado": "En un tramo estrecho de gran pendiente sin señalizar, ¿quién tiene, como norma general, la preferencia de paso?",
+   "opciones": {
+    "a": "El vehículo que circula en sentido ascendente, salvo que pueda llegar antes a un apartadero.",
+    "b": "El vehículo que circula en sentido descendente.",
+    "c": "El vehículo de menor tamaño."
+   },
+   "correcta": "a",
+   "explicacion": "En los tramos estrechos de gran pendiente, tiene preferencia el vehículo que sube, salvo si este puede llegar antes a un apartadero establecido al efecto.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "63.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0009",
+   "tema": "prioridad",
+   "subtema": "gran_pendiente",
+   "materia": 1,
+   "enunciado": "A efectos de la preferencia de paso, ¿qué se considera un tramo de gran pendiente?",
+   "opciones": {
+    "a": "El que tiene una inclinación mínima del 7 %.",
+    "b": "El que tiene una inclinación mínima del 5 %.",
+    "c": "El que tiene una inclinación mínima del 10 %."
+   },
+   "correcta": "a",
+   "explicacion": "Se entienden por tramos de gran pendiente los que tienen una inclinación mínima del siete por ciento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "63.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Se entienden por tramos de gran pendiente los que tienen una inclinación mínima del siete por ciento.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0001",
+   "tema": "maniobras",
+   "subtema": "advertencias_opticas",
+   "materia": 1,
+   "enunciado": "Un vehículo lleva encendido el intermitente derecho, pero su conductor indica con el brazo que va a desplazarse a la izquierda. ¿A qué indicación debe hacer caso?",
+   "opciones": {
+    "a": "Al intermitente, porque prevalece sobre el brazo.",
+    "b": "A la del brazo, que anula cualquier otra indicación óptica que la contradiga.",
+    "c": "A ninguna de las dos; debe detenerse."
+   },
+   "correcta": "b",
+   "explicacion": "Las advertencias hechas con el brazo, si son perceptibles y se hacen conforme al reglamento, anulan cualquier otra indicación óptica que las contradiga.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "108.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "y anularán cualquier otra indicación óptica que las contradiga.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0002",
+   "tema": "maniobras",
+   "subtema": "advertencias_brazo",
+   "materia": 1,
+   "enunciado": "El conductor de un turismo saca el brazo izquierdo por la ventanilla, doblado hacia arriba y con la palma de la mano extendida. ¿Qué indica?",
+   "opciones": {
+    "a": "Que va a desplazarse hacia la izquierda.",
+    "b": "Que va a frenar de modo considerable.",
+    "c": "Que va a desplazarse hacia la derecha."
+   },
+   "correcta": "c",
+   "explicacion": "El desplazamiento lateral hacia el lado contrario al que indica la mano se advierte con el brazo doblado hacia arriba y la palma extendida. Con el brazo izquierdo, indica desplazamiento a la derecha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "109.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "o doblado hacia arriba, también con la palma de la mano extendida, si va a ser hacia el contrario.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0003",
+   "tema": "maniobras",
+   "subtema": "advertencias_brazo",
+   "materia": 1,
+   "enunciado": "Para advertir con el brazo que va a desplazarse hacia el lado que indica la mano, ¿cómo debe colocarlo?",
+   "opciones": {
+    "a": "En posición horizontal, con la palma de la mano extendida hacia abajo.",
+    "b": "Doblado hacia arriba, con la palma de la mano extendida.",
+    "c": "Moviéndolo de arriba abajo con movimientos cortos y rápidos."
+   },
+   "correcta": "a",
+   "explicacion": "El desplazamiento lateral hacia el lado que la mano indica se advierte con el brazo en posición horizontal y la palma extendida hacia abajo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "109.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "el brazo, en posición horizontal con la palma de la mano extendida hacia abajo, si el desplazamiento va a ser hacia el lado que la mano indica",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0004",
+   "tema": "maniobras",
+   "subtema": "advertencias_brazo",
+   "materia": 1,
+   "enunciado": "Si las luces de frenado no funcionan, ¿cómo puede advertir con el brazo que va a frenar de modo considerable?",
+   "opciones": {
+    "a": "Extendiendo el brazo horizontalmente con la palma de la mano hacia atrás.",
+    "b": "Moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos.",
+    "c": "Con el brazo doblado hacia arriba y la palma extendida."
+   },
+   "correcta": "b",
+   "explicacion": "La intención de inmovilizar el vehículo o frenar de modo considerable se advierte con las luces de frenado o moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "109.2.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0005",
+   "tema": "maniobras",
+   "subtema": "advertencias_brazo",
+   "materia": 1,
+   "enunciado": "Un vehículo sin luz de marcha atrás va a circular hacia atrás. ¿Cómo debe advertirlo su conductor?",
+   "opciones": {
+    "a": "Moviendo el brazo de arriba abajo con movimientos cortos y rápidos.",
+    "b": "Con el brazo doblado hacia arriba y la palma extendida.",
+    "c": "Extendiendo el brazo horizontalmente con la palma de la mano hacia atrás."
+   },
+   "correcta": "c",
+   "explicacion": "La marcha hacia atrás se advierte con la luz de marcha atrás o, si no se dispone de ella, extendiendo el brazo horizontalmente con la palma de la mano hacia atrás.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "109.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "extendiendo el brazo horizontalmente con la palma de la mano hacia atrás",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0006",
+   "tema": "maniobras",
+   "subtema": "advertencias_opticas",
+   "materia": 1,
+   "enunciado": "En una maniobra de desplazamiento lateral, como un cambio de carril, ¿cuándo debe dejar de funcionar el intermitente?",
+   "opciones": {
+    "a": "Cuando haya recorrido al menos 100 metros por el nuevo carril.",
+    "b": "Puede mantenerlo encendido mientras circule por el nuevo carril.",
+    "c": "Tan pronto como el vehículo haya adoptado su nueva trayectoria."
+   },
+   "correcta": "c",
+   "explicacion": "En los desplazamientos laterales solo se avisa el desplazamiento, por lo que la advertencia debe concluir en cuanto el vehículo ha adoptado su nueva trayectoria.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "109.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "la advertencia deberá concluir tan pronto como el vehículo haya adoptado su nueva trayectoria",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0007",
+   "tema": "maniobras",
+   "subtema": "advertencias_acusticas",
+   "materia": 1,
+   "enunciado": "Dentro de poblado, el conductor de un vehículo no prioritario, ¿para qué puede utilizar el claxon?",
+   "opciones": {
+    "a": "Para avisar al vehículo de delante de que va a adelantarlo.",
+    "b": "Para evitar un posible accidente.",
+    "c": "Para saludar a un conocido."
+   },
+   "correcta": "b",
+   "explicacion": "Las advertencias acústicas solo se pueden hacer para evitar un posible accidente, para advertir fuera de poblado el propósito de adelantar y en los servicios de urgencia de vehículos no prioritarios. Avisar del adelantamiento con el claxon solo vale fuera de poblado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "110.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "a) Para evitar un posible accidente y, de modo especial, en vías estrechas con muchas curvas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0008",
+   "tema": "maniobras",
+   "subtema": "advertencias_acusticas",
+   "materia": 1,
+   "enunciado": "¿Dónde puede utilizar el claxon para advertir a otro conductor de su propósito de adelantarlo?",
+   "opciones": {
+    "a": "Solo fuera de poblado.",
+    "b": "Tanto dentro como fuera de poblado.",
+    "c": "En ningún caso; el claxon solo sirve para evitar accidentes."
+   },
+   "correcta": "a",
+   "explicacion": "Las advertencias acústicas pueden hacerse para advertir, fuera de poblado, al conductor de otro vehículo el propósito de adelantarlo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "110.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "b) Para advertir, fuera de poblado, al conductor de otro vehículo el propósito de adelantarlo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0009",
+   "tema": "maniobras",
+   "subtema": "advertencias_luminosas",
+   "materia": 1,
+   "enunciado": "Las ráfagas de luz (alumbrado de corto o largo alcance de forma intermitente), usadas para sustituir a las advertencias acústicas, ¿pueden emplearse dentro de poblado?",
+   "opciones": {
+    "a": "No, solo fuera de poblado.",
+    "b": "Sí, incluso en poblado, a intervalos muy cortos y evitando el deslumbramiento.",
+    "c": "Solo entre la puesta y la salida del sol."
+   },
+   "correcta": "b",
+   "explicacion": "Con la misma finalidad que las acústicas y para sustituirlas, pueden hacerse advertencias luminosas incluso en poblado, con las luces de corto o largo alcance de forma intermitente y evitando el deslumbramiento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "109.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "podrán efectuarse advertencias luminosas, incluso en poblado, utilizando en forma intermitente los alumbrados de corto o de largo alcance",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adv-0010",
+   "tema": "vehiculo",
+   "subtema": "retrovisores",
+   "materia": 14,
+   "enunciado": "En un turismo, si el retrovisor interior no permite ver la carretera por detrás con el campo de visión reglamentario, ¿qué debe llevar además del retrovisor exterior izquierdo?",
+   "opciones": {
+    "a": "Nada más; basta con el exterior izquierdo.",
+    "b": "Un segundo retrovisor interior.",
+    "c": "Un segundo retrovisor exterior, en el lado derecho."
+   },
+   "correcta": "c",
+   "explicacion": "En los turismos (M1), cuando el retrovisor interior no permite la visión del campo reglamentario hacia atrás, este pasa a ser opcional y debe colocarse un segundo retrovisor exterior en el lado derecho.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo III.2, nota (1)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "éste será opcional y deberá colocarse un segundo retrovisor exterior en el lado derecho",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-inc-0001",
+   "tema": "maniobras",
+   "subtema": "incorporacion",
+   "materia": 1,
+   "enunciado": "El conductor de un vehículo estacionado que va a incorporarse a la circulación, ¿debe ceder el paso a los vehículos que circulan?",
+   "opciones": {
+    "a": "No, los demás conductores están obligados a dejarle pasar.",
+    "b": "Solo si se aproximan por su derecha.",
+    "c": "Sí, debe cerciorarse de que puede hacerlo sin peligro y ceder el paso a otros vehículos."
+   },
+   "correcta": "c",
+   "explicacion": "Quien se incorpora a la circulación debe cerciorarse de que puede hacerlo sin peligro, cediendo el paso a otros vehículos y teniendo en cuenta su posición, trayectoria y velocidad, y advertirlo con las señales obligatorias.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "72.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "de que puede hacerlo sin peligro para los demás usuarios, cediendo el paso a otros vehículos y teniendo en cuenta la posición, trayectoria y velocidad de éstos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-inc-0002",
+   "tema": "maniobras",
+   "subtema": "carril_aceleracion",
+   "materia": 1,
+   "enunciado": "Va a utilizar un carril de aceleración para incorporarse a una autovía. ¿Dónde debe cerciorarse de que puede hacerlo sin peligro, deteniéndose si fuera necesario?",
+   "opciones": {
+    "a": "Al final del carril de aceleración.",
+    "b": "Al principio del carril de aceleración.",
+    "c": "Ya dentro de la calzada principal."
+   },
+   "correcta": "b",
+   "explicacion": "En el carril de aceleración, el conductor debe cerciorarse al principio del carril de que puede incorporarse sin peligro, incluso deteniéndose si es necesario, y después acelerar hasta la velocidad adecuada al final del carril.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "72.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberá cerciorarse, al principio de dicho carril, de que puede hacerlo sin peligro para los demás usuarios",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-inc-0003",
+   "tema": "maniobras",
+   "subtema": "incorporacion",
+   "materia": 1,
+   "enunciado": "Al salir a una vía de uso público por un camino exclusivamente privado, ¿a qué velocidad debe hacerlo?",
+   "opciones": {
+    "a": "A la velocidad máxima permitida en la vía a la que se incorpora.",
+    "b": "A una velocidad que le permita detenerse en el acto.",
+    "c": "A no más de 30 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Quien sale a una vía pública por un camino exclusivamente privado debe asegurarse de que puede hacerlo sin peligro y hacerlo a una velocidad que le permita detenerse en el acto.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "72.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "efectuarlo a una velocidad que le permita detenerse en el acto",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-inc-0004",
+   "tema": "maniobras",
+   "subtema": "incorporacion_autobus",
+   "materia": 1,
+   "enunciado": "Dentro de poblado, un autobús va a salir de una parada señalizada para proseguir su marcha. ¿Qué deben hacer los demás conductores?",
+   "opciones": {
+    "a": "Detenerse siempre, en todo caso.",
+    "b": "Desplazarse lateralmente si es posible o reducir la velocidad, llegando a detenerse si fuera preciso.",
+    "c": "Mantener su velocidad, porque es el autobús el que debe ceder el paso."
+   },
+   "correcta": "b",
+   "explicacion": "En poblado, para facilitar la salida de los autobuses de las paradas señalizadas, los demás conductores deben desplazarse lateralmente, siempre que sea posible, o reducir su velocidad, llegando a detenerse si fuera preciso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "73.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los conductores de los demás vehículos deberán desplazarse lateralmente, siempre que fuera posible, o reducir su velocidad",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-inc-0005",
+   "tema": "maniobras",
+   "subtema": "desplazamiento_lateral",
+   "materia": 1,
+   "enunciado": "Va a cambiar de carril. ¿Quién tiene la prioridad?",
+   "opciones": {
+    "a": "Usted, si ha señalizado el cambio con antelación.",
+    "b": "El vehículo que circule más rápido de los dos.",
+    "c": "El que circula por el carril que usted pretende ocupar."
+   },
+   "correcta": "c",
+   "explicacion": "Toda maniobra de desplazamiento lateral que implique cambio de carril debe hacerse respetando la prioridad del que circula por el carril que se pretende ocupar.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "74.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberá llevarse a efecto respetando la prioridad del que circule por el carril que se pretende ocupar",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0001",
+   "tema": "adelantamiento",
+   "subtema": "no_es_adelantamiento",
+   "materia": 1,
+   "enunciado": "Con circulación densa, los vehículos ocupan todos los carriles y los de un carril avanzan más rápido que los de otro. ¿Se considera adelantamiento?",
+   "opciones": {
+    "a": "No, no se considera adelantamiento.",
+    "b": "Sí, es un adelantamiento por la derecha.",
+    "c": "Sí, y está prohibido."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando la densidad del tráfico es tal que los vehículos ocupan toda la anchura de la calzada y su velocidad depende de la del que les precede, que los de un carril circulen más rápido que los de otro no se considera adelantamiento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "83.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "el hecho de que los de un carril circulen más rápidamente que los de otro no será considerado como un adelantamiento.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0002",
+   "tema": "adelantamiento",
+   "subtema": "no_es_adelantamiento",
+   "materia": 1,
+   "enunciado": "Un vehículo que circula por el carril de aceleración avanza más rápido que los que circulan por el carril contiguo de la calzada. ¿Se considera adelantamiento?",
+   "opciones": {
+    "a": "Sí, es un adelantamiento por la derecha.",
+    "b": "Solo si supera en más de 20 km/h a los de la calzada.",
+    "c": "No, no se considera adelantamiento."
+   },
+   "correcta": "c",
+   "explicacion": "En los tramos con carriles de aceleración o deceleración, o reservados a determinados vehículos, avanzar más rápido por ellos que por los normales de circulación (o viceversa) no se considera adelantamiento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "83.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "tampoco se considerará adelantamiento el hecho de que se avance más rápidamente por aquellos que por los normales de circulación",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0003",
+   "tema": "adelantamiento",
+   "subtema": "antes_de_adelantar",
+   "materia": 1,
+   "enunciado": "Quiere adelantar, pero el conductor que le precede en el mismo carril ya ha indicado su propósito de desplazarse hacia el mismo lado. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Adelantar rápidamente antes de que él inicie la maniobra.",
+    "b": "Respetar la preferencia del vehículo de delante.",
+    "c": "Avisarle con el claxon y adelantar enseguida."
+   },
+   "correcta": "b",
+   "explicacion": "Antes de adelantar hay que cerciorarse de que el vehículo que precede no ha indicado su propósito de desplazarse hacia el mismo lado; si lo ha hecho, hay que respetar su preferencia.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "84.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "no ha indicado su propósito de desplazamiento hacia el mismo lado; en tal caso, deberá respetar la preferencia que le asiste",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0004",
+   "tema": "adelantamiento",
+   "subtema": "antes_de_adelantar",
+   "materia": 1,
+   "enunciado": "Antes de iniciar un adelantamiento, ¿de qué debe asegurarse respecto a los vehículos que le siguen por el mismo carril?",
+   "opciones": {
+    "a": "De que ninguno ha iniciado ya la maniobra de adelantar a su vehículo.",
+    "b": "De que todos han encendido el intermitente izquierdo.",
+    "c": "De nada; solo debe fijarse en los vehículos que circulan de frente."
+   },
+   "correcta": "a",
+   "explicacion": "El que va a adelantar debe asegurarse de que ningún conductor que le siga por el mismo carril ha iniciado la maniobra de adelantarle, y de que tiene espacio para volver a su carril.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "84.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberá asegurarse de que ningún conductor que le siga por el mismo carril ha iniciado la maniobra de adelantar a su vehículo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0005",
+   "tema": "adelantamiento",
+   "subtema": "adelantar_al_que_adelanta",
+   "materia": 1,
+   "enunciado": "En una autovía con tres carriles en su sentido, ¿puede adelantar a un vehículo que, a su vez, está adelantando a otro?",
+   "opciones": {
+    "a": "No, está prohibido en todo caso adelantar a quien está adelantando.",
+    "b": "Sí, porque para hacerlo no tiene que invadir la parte de la calzada reservada al sentido contrario.",
+    "c": "Solo si avisa con el claxon."
+   },
+   "correcta": "b",
+   "explicacion": "Solo se prohíbe adelantar a un vehículo que ya está adelantando a otro si, para hacerlo, hay que invadir la parte de la calzada reservada al sentido contrario.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "84.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Se prohíbe, en todo caso, adelantar a los vehículos que ya estén adelantando a otro si el conductor del tercer vehículo, para efectuar dicha maniobra, ha de invadir la parte de la calzada reservada a la circulación en sentido contrario.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0006",
+   "tema": "adelantamiento",
+   "subtema": "vehiculo_adelantado",
+   "materia": 1,
+   "enunciado": "Advierte que el vehículo que le sigue quiere adelantarle. Usted no va a girar a la izquierda ni a parar en ese lado. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Ceñirse al borde derecho de la calzada.",
+    "b": "Aumentar la velocidad para no entorpecer.",
+    "c": "Desplazarse hacia el centro de la calzada para que le vea mejor."
+   },
+   "correcta": "a",
+   "explicacion": "El conductor que va a ser adelantado debe ceñirse al borde derecho de la calzada (salvo si va a girar o parar a la izquierda) y tiene prohibido aumentar la velocidad o dificultar el adelantamiento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "86.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "estará obligado a ceñirse al borde derecho de la calzada",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0007",
+   "tema": "adelantamiento",
+   "subtema": "vehiculo_adelantado",
+   "materia": 1,
+   "enunciado": "Le están adelantando y, ya iniciada la maniobra, aparece un vehículo de frente que crea una situación de peligro. El que le adelanta sigue con la maniobra. ¿Qué debe hacer usted?",
+   "opciones": {
+    "a": "Disminuir la velocidad.",
+    "b": "Mantener la velocidad constante; el problema es del que adelanta.",
+    "c": "Aumentar la velocidad para que el otro vuelva detrás."
+   },
+   "correcta": "a",
+   "explicacion": "El conductor adelantado está obligado a disminuir su velocidad cuando, iniciada la maniobra, se produce una situación de peligro para cualquiera de los implicados.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "86.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "También estará obligado a disminuir la velocidad de su vehículo cuando, una vez iniciada la maniobra de adelantamiento, se produzca alguna situación que entrañe peligro",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0008",
+   "tema": "adelantamiento",
+   "subtema": "vehiculo_adelantado",
+   "materia": 1,
+   "enunciado": "Un camión que no puede ceñirse por completo al borde derecho quiere indicarle que puede adelantarle con seguridad, pero no cree conveniente hacer la señal con el brazo. ¿Qué señal utilizará?",
+   "opciones": {
+    "a": "El intermitente derecho.",
+    "b": "El intermitente izquierdo.",
+    "c": "La luz de emergencia."
+   },
+   "correcta": "a",
+   "explicacion": "Los vehículos pesados o de grandes dimensiones que no puedan ceñirse por completo a la derecha indican al que se acerca que puede adelantar con el brazo o, si no lo creen conveniente, con el intermitente derecho.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "86.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "o poniendo en funcionamiento el intermitente derecho, cuando no crea conveniente hacer la señal con el brazo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0009",
+   "tema": "adelantamiento",
+   "subtema": "por_la_derecha",
+   "materia": 1,
+   "enunciado": "El vehículo que le precede indica claramente que va a girar a la izquierda y deja espacio suficiente. ¿Por dónde debe adelantarlo?",
+   "opciones": {
+    "a": "Por la izquierda, como norma general.",
+    "b": "Por la derecha, adoptando las máximas precauciones.",
+    "c": "No puede adelantarlo hasta que termine el giro."
+   },
+   "correcta": "b",
+   "explicacion": "Por excepción, si hay espacio suficiente, el adelantamiento se hace por la derecha cuando el vehículo de delante indica claramente que va a girar a la izquierda o a parar en ese lado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "82.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "el adelantamiento se efectuará por la derecha y adoptando las máximas precauciones, cuando el conductor del vehículo al que se pretenda adelantar esté indicando claramente su propósito de cambiar de dirección a la izquierda",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0010",
+   "tema": "adelantamiento",
+   "subtema": "por_la_derecha",
+   "materia": 1,
+   "enunciado": "Dentro de poblado, en una calzada con dos carriles para su sentido delimitados por marcas longitudinales, ¿puede adelantar por la derecha?",
+   "opciones": {
+    "a": "No, en poblado siempre se adelanta por la izquierda.",
+    "b": "Solo si el vehículo adelantado va a girar a la izquierda.",
+    "c": "Sí, siempre que se cerciore previamente de que puede hacerlo sin peligro."
+   },
+   "correcta": "c",
+   "explicacion": "Dentro de poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas longitudinales, se permite adelantar por la derecha si se comprueba antes que no hay peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "82.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "se permite el adelantamiento por la derecha a condición de que el conductor del vehículo que lo efectúe se cerciore previamente de que puede hacerlo sin peligro para los demás usuarios",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0011",
+   "tema": "adelantamiento",
+   "subtema": "por_la_derecha",
+   "materia": 1,
+   "enunciado": "En una vía con circulación en ambos sentidos, un tranvía marcha por la zona central. ¿Por dónde debe adelantarlo?",
+   "opciones": {
+    "a": "Por la izquierda, invadiendo el sentido contrario si es necesario.",
+    "b": "Por la derecha, si hay espacio suficiente y con las máximas precauciones.",
+    "c": "No se puede adelantar a un tranvía."
+   },
+   "correcta": "b",
+   "explicacion": "Por excepción, en vías con circulación en ambos sentidos, a los tranvías que marchan por la zona central se les adelanta por la derecha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "82.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "en las vías con circulación en ambos sentidos, a los tranvías que marchen por la zona central",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0012",
+   "tema": "adelantamiento",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "En una curva de visibilidad reducida, ¿puede adelantar?",
+   "opciones": {
+    "a": "No, en ningún caso.",
+    "b": "Sí, si los dos sentidos están claramente delimitados y puede hacerlo sin invadir la zona del sentido contrario.",
+    "c": "Sí, siempre que avise con el claxon antes de la curva."
+   },
+   "correcta": "b",
+   "explicacion": "Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida, salvo que los dos sentidos estén claramente delimitados y la maniobra pueda hacerse sin invadir la zona del sentido contrario.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "87.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "a no ser que los dos sentidos de la circulación estén claramente delimitados y la maniobra pueda efectuarse sin invadir la zona reservada al sentido contrario",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0013",
+   "tema": "adelantamiento",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "¿Puede adelantar a un turismo en un paso para peatones señalizado?",
+   "opciones": {
+    "a": "Sí, si no hay ningún peatón cruzando.",
+    "b": "No, está prohibido adelantar en los pasos para peatones señalizados y en sus proximidades.",
+    "c": "Sí, si es dentro de poblado y a menos de 50 km/h."
+   },
+   "correcta": "b",
+   "explicacion": "Queda prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas, en los pasos a nivel y en sus proximidades.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "87.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0014",
+   "tema": "adelantamiento",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "En un túnel que solo dispone de un carril para su sentido de circulación, ¿puede adelantar?",
+   "opciones": {
+    "a": "Sí, si el túnel está bien iluminado.",
+    "b": "No, está prohibido.",
+    "c": "Sí, si el vehículo adelantado circula por debajo de la velocidad mínima."
+   },
+   "correcta": "b",
+   "explicacion": "Está prohibido adelantar en los túneles, pasos inferiores y tramos afectados por la señal «Túnel» (S-5) en los que solo se disponga de un carril para el sentido de circulación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "87.1.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "en los que sólo se disponga de un carril para el sentido de circulación del vehículo que pretende adelantar",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0015",
+   "tema": "adelantamiento",
+   "subtema": "linea_continua",
+   "materia": 1,
+   "enunciado": "En un tramo con prohibición de adelantar, circula detrás de un ciclomotor que va muy despacio. ¿Puede adelantarlo aunque tenga que ocupar el sentido contrario?",
+   "opciones": {
+    "a": "No, en un tramo con prohibición de adelantar nunca se puede ocupar el sentido contrario.",
+    "b": "Sí, en cualquier caso y sin necesidad de comprobar nada, por ser un vehículo lento.",
+    "c": "Sí, si por su velocidad puede ser adelantado sin riesgo y se ha cerciorado de que la maniobra puede hacerse sin peligro."
+   },
+   "correcta": "c",
+   "explicacion": "En tramos donde está prohibido adelantar se puede adelantar, ocupando el sentido contrario y tras cerciorarse de que no hay peligro, a bicicletas, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas, cuando por su velocidad puedan ser adelantados sin riesgo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "88.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Con idénticos requisitos se podrá adelantar a conductores de bicicletas y demás ciclos, ciclomotores, vehículos de movilidad personal, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas y sus conjuntos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-adel-0016",
+   "tema": "adelantamiento",
+   "subtema": "linea_continua",
+   "materia": 1,
+   "enunciado": "En un tramo con prohibición de adelantar, ¿a cuál de estos vehículos se permite adelantar ocupando el sentido contrario, si por su velocidad puede hacerse sin riesgo y tras cerciorarse de que no hay peligro?",
+   "opciones": {
+    "a": "A un turismo que circula despacio.",
+    "b": "A un camión que circula despacio.",
+    "c": "A un tractor agrícola."
+   },
+   "correcta": "c",
+   "explicacion": "La excepción del artículo 88.2 incluye a los vehículos especiales agrícolas y sus conjuntos (además de ciclos, ciclomotores, VMP, peatones, animales y vehículos de tracción animal), pero no a turismos ni camiones.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "88.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "vehículos de tracción animal y vehículos especiales agrícolas y sus conjuntos cuando por la velocidad a que circulen puedan ser adelantados sin riesgo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-dir-0001",
+   "tema": "maniobras",
+   "subtema": "cambio_direccion",
+   "materia": 1,
+   "enunciado": "Va a girar a la izquierda y hay niebla espesa, de modo que no tiene visibilidad suficiente. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Girar con precaución y a velocidad moderada.",
+    "b": "Girar con la luz antiniebla trasera encendida.",
+    "c": "Abstenerse de realizar el giro."
+   },
+   "correcta": "c",
+   "explicacion": "El conductor debe abstenerse de realizar un cambio de dirección a la izquierda cuando no exista visibilidad suficiente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "74.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "También deberá abstenerse de realizar la maniobra cuando se trate de un cambio de dirección a la izquierda y no exista visibilidad suficiente",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-dir-0002",
+   "tema": "maniobras",
+   "subtema": "cambio_direccion",
+   "materia": 1,
+   "enunciado": "Si la vía no está acondicionada ni señalizada para hacerlo de otra manera, ¿cómo debe colocarse para girar a la derecha?",
+   "opciones": {
+    "a": "Situándose en el centro de la calzada.",
+    "b": "Abriéndose primero hacia la izquierda para tomar mejor la curva.",
+    "c": "Ciñéndose todo lo posible al borde derecho de la calzada."
+   },
+   "correcta": "c",
+   "explicacion": "Para girar a la derecha hay que ceñirse todo lo posible al borde derecho de la calzada, colocándose con antelación y haciendo la maniobra en el menor espacio y tiempo posibles.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "75.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-dir-0003",
+   "tema": "maniobras",
+   "subtema": "cambio_direccion",
+   "materia": 1,
+   "enunciado": "Circula por una calzada de sentido único y va a girar a la izquierda. Si la vía no está señalizada de otra manera, ¿cómo debe colocarse?",
+   "opciones": {
+    "a": "Ciñéndose al borde derecho de la calzada.",
+    "b": "Ciñéndose todo lo posible al borde izquierdo de la calzada.",
+    "c": "Situándose en el centro de la calzada."
+   },
+   "correcta": "b",
+   "explicacion": "Si el giro es a la izquierda y la calzada es de un solo sentido, hay que ceñirse todo lo posible al borde izquierdo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "75.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "y al borde izquierdo, si es a la izquierda y la calzada es de un solo sentido",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-dir-0004",
+   "tema": "maniobras",
+   "subtema": "cambio_direccion",
+   "materia": 1,
+   "enunciado": "Circula por una calzada de doble sentido (un carril por sentido) y va a girar a la izquierda. ¿Cómo debe colocarse?",
+   "opciones": {
+    "a": "Ciñéndose a la marca de separación entre sentidos o, si no existe, al eje de la calzada, sin invadir el sentido contrario.",
+    "b": "Ciñéndose al borde derecho de la calzada.",
+    "c": "Invadiendo parcialmente el carril contrario para facilitar el giro."
+   },
+   "correcta": "a",
+   "explicacion": "Si el giro es a la izquierda en una calzada de doble sentido, hay que ceñirse a la marca longitudinal de separación entre sentidos o, si no existe, al eje de la calzada, sin invadir la zona del sentido contrario.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "75.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "se ceñirá a la marca longitudinal de separación entre sentidos o, si ésta no existiera, al eje de la calzada, sin invadir la zona destinada al sentido contrario",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-dir-0005",
+   "tema": "maniobras",
+   "subtema": "cambio_direccion",
+   "materia": 1,
+   "enunciado": "En una calzada de doble sentido con tres carriles separados por líneas discontinuas, ¿dónde debe colocarse para girar a la izquierda?",
+   "opciones": {
+    "a": "En el carril derecho.",
+    "b": "En el carril central.",
+    "c": "En el carril izquierdo."
+   },
+   "correcta": "b",
+   "explicacion": "Cuando la calzada es de doble sentido y tres carriles separados por líneas discontinuas, para girar a la izquierda hay que colocarse en el carril central.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "75.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "cuando la calzada sea de doble sentido de circulación y tres carriles, separados por líneas longitudinales discontinuas, deberá colocarse en el carril central",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-dir-0006",
+   "tema": "maniobras",
+   "subtema": "cambio_direccion",
+   "materia": 1,
+   "enunciado": "Al girar a la izquierda en una intersección que no está acondicionada ni señalizada de otro modo, ¿cómo debe dejar el centro de la intersección?",
+   "opciones": {
+    "a": "A su izquierda.",
+    "b": "A su derecha.",
+    "c": "Debe pasar por encima del centro de la intersección."
+   },
+   "correcta": "a",
+   "explicacion": "En el cambio de dirección a la izquierda hay que dejar a la izquierda el centro de la intersección, salvo que esté acondicionada o señalizada para dejarlo a la derecha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "75.1.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "dejará a la izquierda el centro de la intersección, a no ser que ésta esté acondicionada o señalizada para dejarlo a su derecha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-dir-0007",
+   "tema": "maniobras",
+   "subtema": "cambio_direccion",
+   "materia": 1,
+   "enunciado": "Por las dimensiones de su vehículo no puede girar ajustándose estrictamente a las normas de colocación. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Adoptar las precauciones necesarias para evitar todo peligro al realizarlo.",
+    "b": "Renunciar siempre al giro.",
+    "c": "Realizarlo sin más, porque los demás deben apartarse."
+   },
+   "correcta": "a",
+   "explicacion": "Si por las dimensiones del vehículo u otras circunstancias no es posible girar con estricta sujeción a las normas, el conductor debe adoptar las precauciones necesarias para evitar todo peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "76.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "el conductor deberá adoptar las precauciones necesarias para evitar todo peligro al llevarlo a cabo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-dir-0008",
+   "tema": "maniobras",
+   "subtema": "cambio_direccion",
+   "materia": 8,
+   "enunciado": "En una vía interurbana sin carril especialmente acondicionado para el giro a la izquierda, ¿cómo debe girar a la izquierda un ciclista?",
+   "opciones": {
+    "a": "Situándose a la derecha, fuera de la calzada siempre que sea posible, e iniciando el giro desde ese lugar.",
+    "b": "Situándose junto al eje de la calzada.",
+    "c": "Desde el carril izquierdo, como cualquier otro vehículo."
+   },
+   "correcta": "a",
+   "explicacion": "En vías interurbanas, los ciclos y ciclomotores de dos ruedas, si no hay un carril acondicionado para el giro a la izquierda, deben situarse a la derecha, fuera de la calzada si es posible, e iniciar el giro desde allí.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "76.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberán situarse a la derecha, fuera de la calzada siempre que sea posible, e iniciarlo desde ese lugar",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-sen-0001",
+   "tema": "maniobras",
+   "subtema": "cambio_sentido",
+   "materia": 1,
+   "enunciado": "Espera para cambiar de sentido y su permanencia en la calzada impide continuar a los vehículos que circulan detrás. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Salir de la calzada por su lado derecho, si es posible, hasta que pueda realizar la maniobra.",
+    "b": "Seguir esperando en la calzada con el intermitente izquierdo.",
+    "c": "Realizar el cambio de sentido inmediatamente."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando la espera en la calzada para cambiar de sentido impide la marcha de los que vienen detrás, hay que salir de ella por el lado derecho, si es posible, hasta que las condiciones permitan hacerlo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "78.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberá salir de ella por su lado derecho, si fuera posible, hasta que las condiciones de la circulación le permitan efectuarlo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-sen-0002",
+   "tema": "maniobras",
+   "subtema": "cambio_sentido",
+   "materia": 1,
+   "enunciado": "¿En cuál de estos lugares está prohibido el cambio de sentido?",
+   "opciones": {
+    "a": "En una vía de doble sentido con línea discontinua y buena visibilidad.",
+    "b": "En un paso a nivel.",
+    "c": "En una calle urbana sin ninguna señal que lo prohíba y con buena visibilidad."
+   },
+   "correcta": "b",
+   "explicacion": "Se prohíbe el cambio de sentido en toda situación que impida comprobar que no hay peligro, en los pasos a nivel, en túneles y pasos inferiores, en autopistas y autovías (salvo lugares habilitados) y en los tramos donde está prohibido adelantar, salvo autorización expresa.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "79.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior, en los pasos a nivel",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-sen-0003",
+   "tema": "maniobras",
+   "subtema": "cambio_sentido",
+   "materia": 1,
+   "enunciado": "¿Puede cambiar de sentido en una autopista atravesando la mediana?",
+   "opciones": {
+    "a": "Sí, si no viene nadie en ninguno de los dos sentidos.",
+    "b": "Sí, si lo hace en una sola maniobra.",
+    "c": "No; en autopistas y autovías solo se puede en los lugares habilitados al efecto."
+   },
+   "correcta": "c",
+   "explicacion": "Se prohíbe el cambio de sentido en autopistas y autovías, salvo en los lugares habilitados al efecto.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "79.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "así como en las autopistas y autovías, salvo en los lugares habilitados al efecto",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-sen-0004",
+   "tema": "maniobras",
+   "subtema": "cambio_sentido",
+   "materia": 1,
+   "enunciado": "En un tramo en el que está prohibido adelantar, ¿se puede cambiar de sentido?",
+   "opciones": {
+    "a": "Sí, siempre que no venga nadie.",
+    "b": "No, salvo que el cambio de sentido esté expresamente autorizado.",
+    "c": "Sí, si se hace en una sola maniobra."
+   },
+   "correcta": "b",
+   "explicacion": "Se prohíbe el cambio de sentido en todos los tramos en que está prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "79.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-ma-0001",
+   "tema": "maniobras",
+   "subtema": "marcha_atras",
+   "materia": 1,
+   "enunciado": "Como maniobra complementaria de la parada, el estacionamiento o la incorporación a la circulación, ¿qué recorrido máximo puede hacer marcha atrás?",
+   "opciones": {
+    "a": "15 metros, sin invadir un cruce de vías.",
+    "b": "25 metros, sin invadir un cruce de vías.",
+    "c": "15 metros, aunque invada un cruce de vías."
+   },
+   "correcta": "a",
+   "explicacion": "El recorrido hacia atrás como maniobra complementaria de la parada, el estacionamiento o la incorporación no puede superar 15 metros ni invadir un cruce de vías.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "80.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "no podrá ser superior a 15 metros ni invadir un cruce de vías",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-ma-0002",
+   "tema": "maniobras",
+   "subtema": "marcha_atras",
+   "materia": 1,
+   "enunciado": "Ha entrado en una calle sin salida tan estrecha que no puede seguir hacia delante ni dar la vuelta. ¿Puede salir marcha atrás?",
+   "opciones": {
+    "a": "No, la marcha atrás solo se permite como maniobra complementaria de otra.",
+    "b": "Sí, pero nunca más de 15 metros.",
+    "c": "Sí, con el recorrido mínimo indispensable."
+   },
+   "correcta": "c",
+   "explicacion": "Se permite circular hacia atrás cuando no sea posible marchar hacia delante ni cambiar de dirección o sentido, y siempre con el recorrido mínimo indispensable. El límite de 15 m se refiere a la marcha atrás complementaria de la parada, el estacionamiento o la incorporación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "80.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-ma-0003",
+   "tema": "maniobras",
+   "subtema": "marcha_atras",
+   "materia": 1,
+   "enunciado": "¿Está permitida la maniobra de marcha atrás en una autovía para volver a una salida que se ha pasado?",
+   "opciones": {
+    "a": "No, está prohibida la marcha atrás en autovías y autopistas.",
+    "b": "Sí, por el arcén y con la luz de emergencia.",
+    "c": "Sí, si no supera 15 metros."
+   },
+   "correcta": "a",
+   "explicacion": "Se prohíbe la maniobra de marcha atrás en autovías y autopistas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "80.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Se prohíbe la maniobra de marcha atrás en autovías y autopistas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0001",
+   "tema": "parada_estacionamiento",
+   "subtema": "definiciones",
+   "materia": 1,
+   "enunciado": "Según la Ley de Tráfico, ¿qué es una parada?",
+   "opciones": {
+    "a": "La inmovilización de un vehículo durante menos de cinco minutos, aunque el conductor se aleje.",
+    "b": "La inmovilización de un vehículo durante menos de dos minutos, sin que el conductor pueda abandonarlo.",
+    "c": "La inmovilización de un vehículo por necesidades de la circulación."
+   },
+   "correcta": "b",
+   "explicacion": "Parada es la inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.81",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0002",
+   "tema": "parada_estacionamiento",
+   "subtema": "definiciones",
+   "materia": 1,
+   "enunciado": "Se inmoviliza ante un semáforo en rojo. ¿Qué tipo de inmovilización realiza?",
+   "opciones": {
+    "a": "Una detención.",
+    "b": "Una parada.",
+    "c": "Un estacionamiento."
+   },
+   "correcta": "a",
+   "explicacion": "Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.80",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0003",
+   "tema": "parada_estacionamiento",
+   "subtema": "definiciones",
+   "materia": 1,
+   "enunciado": "Inmoviliza su vehículo voluntariamente y se aleja de él durante un minuto para entrar en una tienda. ¿Qué maniobra ha realizado?",
+   "opciones": {
+    "a": "Una parada, porque ha durado menos de dos minutos.",
+    "b": "Una detención.",
+    "c": "Un estacionamiento, porque ha abandonado el vehículo."
+   },
+   "correcta": "c",
+   "explicacion": "La parada exige que el conductor no pueda abandonar el vehículo. Si lo abandona, aunque sea menos de dos minutos, la inmovilización no es detención ni parada y, por tanto, es estacionamiento.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.82",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Inmovilización de un vehículo que no se encuentra en situación de detención o parada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0007",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugares_peligrosos",
+   "materia": 1,
+   "enunciado": "Una parada o estacionamiento se considera que obstaculiza gravemente la circulación cuando la distancia entre el vehículo y el borde opuesto de la calzada (o una marca longitudinal que prohíba atravesarla) es inferior a…",
+   "opciones": {
+    "a": "3 metros.",
+    "b": "2 metros.",
+    "c": "4 metros."
+   },
+   "correcta": "a",
+   "explicacion": "Se consideran paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación, entre otros, cuando esa distancia es inferior a tres metros o no permite el paso de otros vehículos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "91.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando la distancia entre el vehículo y el borde opuesto de la calzada o una marca longitudinal sobre ella que indique prohibición de atravesarla sea inferior a tres metros",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0008",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugares_prohibidos",
+   "materia": 1,
+   "enunciado": "¿En cuál de estos lugares está prohibido parar?",
+   "opciones": {
+    "a": "En una calle de sentido único, junto al bordillo del lado izquierdo.",
+    "b": "En un paso para peatones.",
+    "c": "Junto a una marca vial amarilla discontinua."
+   },
+   "correcta": "b",
+   "explicacion": "Está prohibido parar, entre otros lugares, en pasos a nivel, pasos para ciclistas y pasos para peatones. En las calles de sentido único se puede parar también en el lado izquierdo, y la línea amarilla discontinua solo prohíbe estacionar.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "94.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En pasos a nivel, pasos para ciclistas y pasos para peatones.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0009",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugares_prohibidos",
+   "materia": 1,
+   "enunciado": "¿Puede hacer una breve parada en un carril destinado al uso exclusivo del transporte público urbano?",
+   "opciones": {
+    "a": "No, está prohibido parar en esos carriles.",
+    "b": "Sí, si dura menos de dos minutos.",
+    "c": "Sí, si el conductor no abandona el vehículo."
+   },
+   "correcta": "a",
+   "explicacion": "Queda prohibido parar en los carriles destinados al uso exclusivo del transporte público urbano y en los reservados para las bicicletas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "94.1.h",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En los carriles destinados al uso exclusivo del transporte público urbano, o en los reservados para las bicicletas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0010",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugares_prohibidos",
+   "materia": 1,
+   "enunciado": "¿Está permitido parar en una zona señalizada para uso exclusivo de personas con discapacidad, si no se está autorizado a usarla?",
+   "opciones": {
+    "a": "Sí, si es una parada de menos de dos minutos.",
+    "b": "No, está prohibido parar y, por tanto, también estacionar.",
+    "c": "Sí, si deja encendida la luz de emergencia."
+   },
+   "correcta": "b",
+   "explicacion": "Queda prohibido parar en zonas señalizadas para uso exclusivo de minusválidos; en todos los lugares donde está prohibida la parada también lo está el estacionamiento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "94.1.j",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En zonas señalizadas para uso exclusivo de minusválidos y pasos para peatones",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0011",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugares_prohibidos",
+   "materia": 1,
+   "enunciado": "¿Cuándo está prohibido parar en una intersección o en sus proximidades?",
+   "opciones": {
+    "a": "Nunca, si la parada dura menos de dos minutos.",
+    "b": "Cuando se dificulte el giro a otros vehículos.",
+    "c": "Solo si la intersección está regulada por semáforos."
+   },
+   "correcta": "b",
+   "explicacion": "Está prohibido parar en las intersecciones y sus proximidades si se dificulta el giro a otros vehículos o, en vías interurbanas, si se genera peligro por falta de visibilidad.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "94.1.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En las intersecciones y en sus proximidades si se dificulta el giro a otros vehículos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0012",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugares_prohibidos",
+   "materia": 1,
+   "enunciado": "Va por una autopista y quiere parar un momento para descansar. ¿Puede hacerlo en el arcén?",
+   "opciones": {
+    "a": "Sí, si la parada dura menos de dos minutos.",
+    "b": "Sí, si enciende la luz de emergencia.",
+    "c": "No, en autopistas y autovías está prohibido parar, salvo en las zonas habilitadas para ello."
+   },
+   "correcta": "c",
+   "explicacion": "Queda prohibido parar en autopistas y autovías, salvo en las zonas habilitadas para ello.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "94.1.g",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En autopistas y autovías, salvo en las zonas habilitadas para ello.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0013",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugares_prohibidos",
+   "materia": 1,
+   "enunciado": "¿Está permitido estacionar en doble fila?",
+   "opciones": {
+    "a": "No, está prohibido estacionar en doble fila.",
+    "b": "Sí, si deja al menos 3 metros libres para los demás vehículos.",
+    "c": "Sí, si deja encendida la luz de emergencia."
+   },
+   "correcta": "a",
+   "explicacion": "Queda prohibido estacionar en doble fila.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "94.2.g",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En doble fila (artículo 39.2 del texto articulado).",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0014",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugares_prohibidos",
+   "materia": 1,
+   "enunciado": "¿Está permitido estacionar delante de un vado señalizado correctamente?",
+   "opciones": {
+    "a": "No, está prohibido.",
+    "b": "Sí, si el estacionamiento es de corta duración.",
+    "c": "Sí, si deja una nota con su teléfono."
+   },
+   "correcta": "a",
+   "explicacion": "Queda prohibido estacionar delante de los vados señalizados correctamente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "94.2.f",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Delante de los vados señalizados correctamente.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0015",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugar_y_lado",
+   "materia": 1,
+   "enunciado": "En una vía interurbana, ¿dónde debe efectuarse la parada o el estacionamiento?",
+   "opciones": {
+    "a": "En el arcén, en cualquiera de los dos lados.",
+    "b": "Fuera de la calzada, en el lado derecho, dejando libre la parte transitable del arcén.",
+    "c": "En la calzada, lo más cerca posible del borde derecho."
+   },
+   "correcta": "b",
+   "explicacion": "En vías interurbanas, la parada o el estacionamiento debe hacerse siempre fuera de la calzada, en el lado derecho y dejando libre la parte transitable del arcén.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "90.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberá efectuarse siempre fuera de la calzada, en el lado derecho de ésta y dejando libre la parte transitable del arcén",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0016",
+   "tema": "parada_estacionamiento",
+   "subtema": "lugar_y_lado",
+   "materia": 1,
+   "enunciado": "En una calle urbana de sentido único, si tiene que parar o estacionar en la calzada, ¿en qué lado puede hacerlo?",
+   "opciones": {
+    "a": "En el lado derecho o también en el izquierdo.",
+    "b": "Solo en el lado derecho.",
+    "c": "Solo en el lado izquierdo."
+   },
+   "correcta": "a",
+   "explicacion": "En vías urbanas, el vehículo se sitúa lo más cerca posible del borde derecho, salvo en las vías de único sentido, en las que también puede situarse en el lado izquierdo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "90.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "salvo en las vías de único sentido, en las que se podrá situar también en el lado izquierdo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0017",
+   "tema": "parada_estacionamiento",
+   "subtema": "inmovilizacion_pendiente",
+   "materia": 13,
+   "enunciado": "Estaciona un turismo con caja de cambios manual en una pendiente ascendente. Además de accionar el freno de estacionamiento, ¿qué marcha debe dejar colocada?",
+   "opciones": {
+    "a": "La marcha atrás.",
+    "b": "Punto muerto.",
+    "c": "La primera."
+   },
+   "correcta": "c",
+   "explicacion": "En un vehículo con caja de cambios hay que dejar colocada la primera velocidad en pendiente ascendente y la marcha atrás en descendente (o, en su caso, la posición de estacionamiento).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "dejar colocada la primera velocidad, en pendiente ascendente, y la marcha hacia atrás, en descendente",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0018",
+   "tema": "parada_estacionamiento",
+   "subtema": "inmovilizacion_pendiente",
+   "materia": 13,
+   "enunciado": "Estaciona un turismo con caja de cambios manual en una pendiente descendente. Además de accionar el freno de estacionamiento, ¿qué marcha debe dejar colocada?",
+   "opciones": {
+    "a": "La primera.",
+    "b": "La marcha atrás.",
+    "c": "La quinta."
+   },
+   "correcta": "b",
+   "explicacion": "En pendiente descendente hay que dejar colocada la marcha hacia atrás; en ascendente, la primera.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "dejar colocada la primera velocidad, en pendiente ascendente, y la marcha hacia atrás, en descendente",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0019",
+   "tema": "parada_estacionamiento",
+   "subtema": "inmovilizacion_pendiente",
+   "materia": 13,
+   "enunciado": "¿Qué vehículos, además de las otras precauciones, deben quedar debidamente calzados cuando paran o estacionan en un lugar con sensible pendiente?",
+   "opciones": {
+    "a": "Todos los turismos y motocicletas.",
+    "b": "Los de más de 3.500 kg de MMA, los autobuses y los conjuntos de vehículos.",
+    "c": "Solo los vehículos especiales agrícolas."
+   },
+   "correcta": "b",
+   "explicacion": "Cuando se trate de un vehículo de más de 3.500 kg de MMA, de un autobús o de un conjunto de vehículos y se pare o estacione en sensible pendiente, el conductor debe dejarlo debidamente calzado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando se trate de un vehículo de más de 3.500 kilogramos de masa máxima autorizada, de un autobús o de un conjunto de vehículos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0020",
+   "tema": "parada_estacionamiento",
+   "subtema": "inmovilizacion_pendiente",
+   "materia": 13,
+   "enunciado": "El conductor de un camión de más de 3.500 kg que estaciona en una sensible pendiente no lleva calzos. ¿Puede utilizar una piedra como calzo?",
+   "opciones": {
+    "a": "No, no pueden emplearse piedras ni otros elementos no destinados expresamente a esa función.",
+    "b": "Sí, si no dispone de calzos.",
+    "c": "Sí, siempre que la retire de la vía al reanudar la marcha."
+   },
+   "correcta": "a",
+   "explicacion": "Estos vehículos deben quedar calzados con calzos, sin que puedan emplearse piedras u otros elementos no destinados expresamente a esa función, o apoyando una rueda directriz en el bordillo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "sin que puedan emplear a tales fines elementos como piedras u otros no destinados de modo expreso a dicha función",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0021",
+   "tema": "parada_estacionamiento",
+   "subtema": "inmovilizacion_pendiente",
+   "materia": 13,
+   "enunciado": "Un camión de más de 3.500 kg estaciona en una pendiente ascendente sensible y, en lugar de calzos, apoya una rueda directriz en el bordillo. ¿Hacia dónde debe inclinar las ruedas directrices?",
+   "opciones": {
+    "a": "Hacia fuera de la calzada (hacia la acera).",
+    "b": "Deben quedar rectas.",
+    "c": "Hacia el centro de la calzada."
+   },
+   "correcta": "c",
+   "explicacion": "Si se calza apoyando una rueda directriz en el bordillo, las ruedas se inclinan hacia el centro de la calzada en las pendientes ascendentes y hacia fuera en las descendentes.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "92.3.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "inclinando aquéllas hacia el centro de la calzada en las pendientes ascendentes, y hacia fuera en las pendientes descendentes",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0001",
+   "tema": "senales",
+   "subtema": "orden_preferencia",
+   "materia": 1,
+   "enunciado": "Un agente de la autoridad le ordena detenerse en una intersección cuyo semáforo está en verde para usted. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Pasar, porque el semáforo en verde le da prioridad.",
+    "b": "Detenerse, porque las órdenes del agente prevalecen sobre los semáforos.",
+    "c": "Pasar con precaución, ya que ambas indicaciones tienen el mismo valor."
+   },
+   "correcta": "b",
+   "explicacion": "Las señales y órdenes de los agentes encabezan el orden de preferencia entre señales, por delante de los semáforos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "133.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico en el ejercicio de las funciones que tengan encomendadas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0002",
+   "tema": "senales",
+   "subtema": "orden_preferencia",
+   "materia": 1,
+   "enunciado": "En una intersección hay un semáforo en verde para usted y, a la vez, una señal vertical de STOP. ¿A qué indicación debe obedecer?",
+   "opciones": {
+    "a": "Al semáforo en verde.",
+    "b": "A la señal de STOP, por ser más restrictiva.",
+    "c": "A la señal de STOP, porque las señales verticales prevalecen sobre los semáforos."
+   },
+   "correcta": "a",
+   "explicacion": "En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "133.1.c-d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "c) Semáforos. d) Señales verticales de circulación.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0003",
+   "tema": "senales",
+   "subtema": "orden_preferencia",
+   "materia": 1,
+   "enunciado": "Hay una señal vertical de ceda el paso y, pintada en la calzada, una marca de STOP. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Detenerse siempre, porque el STOP es más restrictivo.",
+    "b": "Obedecer a la marca vial, porque está más cerca del conductor.",
+    "c": "Ceder el paso, porque las señales verticales prevalecen sobre las marcas viales."
+   },
+   "correcta": "c",
+   "explicacion": "Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "133.1.d-e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "d) Señales verticales de circulación. e) Marcas viales.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0004",
+   "tema": "senales",
+   "subtema": "orden_preferencia",
+   "materia": 1,
+   "enunciado": "Si dos señales verticales de circulación parecen contradecirse entre sí, ¿cuál prevalece?",
+   "opciones": {
+    "a": "La más restrictiva.",
+    "b": "La que esté colocada más alta.",
+    "c": "La que se haya instalado más recientemente."
+   },
+   "correcta": "a",
+   "explicacion": "Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "133.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "prevalecerá la preferente, según el orden a que se refiere el apartado anterior, o la más restrictiva, si se trata de señales del mismo tipo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0005",
+   "tema": "senales",
+   "subtema": "orden_preferencia",
+   "materia": 1,
+   "enunciado": "¿Qué prevalece sobre los semáforos según el orden de preferencia entre señales?",
+   "opciones": {
+    "a": "Las señales verticales de circulación.",
+    "b": "La señalización y el balizamiento circunstancial que modifique el régimen normal de utilización de la vía.",
+    "c": "Las marcas viales."
+   },
+   "correcta": "b",
+   "explicacion": "El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "133.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "b) Señalización y balizamiento circunstancial que modifique el régimen normal de utilización de la vía, dispositivos delimitadores y señales de balizamiento.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0010",
+   "tema": "senales",
+   "subtema": "senales_verticales",
+   "materia": 1,
+   "enunciado": "¿Desde dónde rigen, como norma general, las obligaciones o prohibiciones de una señal de reglamentación?",
+   "opciones": {
+    "a": "Desde la sección transversal donde está colocada la señal, salvo que un panel complementario indique la distancia a la que empiezan a regir.",
+    "b": "Desde 100 metros después de la señal.",
+    "c": "Desde la siguiente intersección."
+   },
+   "correcta": "a",
+   "explicacion": "Rigen a partir de la sección transversal donde están colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "145.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "regirán a partir de la sección transversal donde estén colocadas dichas señales, salvo que mediante un panel complementario colocado debajo de ellas se indique la distancia a la sección donde empiecen a regir las citadas señales",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0012",
+   "tema": "senales",
+   "subtema": "obediencia",
+   "materia": 1,
+   "enunciado": "Para utilizar un carril de telepeaje (peaje dinámico), ¿qué requisito debe cumplir el vehículo?",
+   "opciones": {
+    "a": "Ninguno; basta con reducir la velocidad.",
+    "b": "Detenerse para pagar en efectivo.",
+    "c": "Estar provisto del medio técnico que posibilite su uso en condiciones operativas."
+   },
+   "correcta": "c",
+   "explicacion": "Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "132.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En los peajes dinámicos o telepeajes, los vehículos que los utilicen deberán estar provistos del medio técnico que posibilite su uso en condiciones operativas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0013",
+   "tema": "senales",
+   "subtema": "obediencia",
+   "materia": 1,
+   "enunciado": "Las indicaciones de una señal parecen contradecir una norma general de comportamiento en la circulación. Salvo circunstancias especiales que lo justifiquen, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Obedecer la señal.",
+    "b": "Cumplir la norma general e ignorar la señal.",
+    "c": "Elegir la opción que considere más segura."
+   },
+   "correcta": "a",
+   "explicacion": "Salvo circunstancias especiales que lo justifiquen, hay que obedecer las señales aun cuando parezcan contradecir las normas de comportamiento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "132.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los usuarios deben obedecer las prescripciones indicadas por las señales, aun cuando parezcan estar en contradicción con las normas de comportamiento en la circulación",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0015",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "Ya ha entrado en una intersección cuando el agente que la regula levanta el brazo verticalmente. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Detenerse inmediatamente dentro de la intersección.",
+    "b": "Dar marcha atrás hasta la línea de detención.",
+    "c": "Continuar, porque esa señal no obliga a detenerse a quienes ya han entrado en la intersección."
+   },
+   "correcta": "c",
+   "explicacion": "Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Si esta señal se efectúa en una intersección, no obligará a detenerse a los conductores que hayan entrado ya en ella.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0017",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "El agente, tras extender los brazos horizontalmente, los baja sin cambiar de posición ni hacer otra señal. ¿Sigue en vigor su indicación?",
+   "opciones": {
+    "a": "No, la señal termina en cuanto baja los brazos.",
+    "b": "Solo durante 10 segundos.",
+    "c": "Sí, permanece en vigor mientras no cambie de posición o efectúe otra señal."
+   },
+   "correcta": "c",
+   "explicacion": "La señal de brazos extendidos horizontalmente permanece en vigor aunque el agente los baje, siempre que no cambie de posición o efectúe otra señal.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Esta señal permanece en vigor aunque el agente baje el brazo o los brazos, siempre que no cambie de posición o efectúe otra señal.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0019",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "Un agente balancea una luz roja o amarilla dirigiéndola hacia usted. ¿Qué significa?",
+   "opciones": {
+    "a": "Que debe detenerse.",
+    "b": "Que debe circular con precaución sin detenerse.",
+    "c": "Que debe encender el alumbrado de cruce."
+   },
+   "correcta": "a",
+   "explicacion": "El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.1.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Balanceo de una luz roja o amarilla: obliga a detenerse a los usuarios de la vía hacia los que el agente dirija la luz.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0020",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "Un agente da un toque largo de silbato. ¿Qué ordena?",
+   "opciones": {
+    "a": "La detención de los vehículos.",
+    "b": "La reanudación de la marcha.",
+    "c": "Que los peatones crucen."
+   },
+   "correcta": "b",
+   "explicacion": "El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.1.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Toque largo de silbato: ordena la reanudación de la marcha.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0021",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "¿Qué ordena un agente mediante una serie de toques de silbato cortos y frecuentes?",
+   "opciones": {
+    "a": "La reanudación de la marcha.",
+    "b": "Que se ceda el paso a los vehículos de la derecha.",
+    "c": "La detención de los vehículos."
+   },
+   "correcta": "c",
+   "explicacion": "La serie de toques de silbato cortos y frecuentes ordena la detención de vehículos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.1.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Serie de toques de silbato cortos y frecuentes: ordena la detención de vehículos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0023",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "Durante una prueba ciclista, desde un vehículo se muestra una bandera verde. ¿Qué indica?",
+   "opciones": {
+    "a": "Que hay que extremar la atención.",
+    "b": "Que, a partir del paso de ese vehículo, la calzada queda de nuevo abierta al tráfico.",
+    "c": "Que la calzada queda cerrada al tráfico."
+   },
+   "correcta": "b",
+   "explicacion": "La bandera verde indica que, a partir del paso del vehículo que la porta, la calzada queda de nuevo abierta al tráfico.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Bandera verde: indica que, a partir del paso del vehículo que la porta, la calzada queda de nuevo abierta al tráfico.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0024",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "¿Qué indica una bandera amarilla mostrada desde un vehículo durante una marcha ciclista?",
+   "opciones": {
+    "a": "Que la calzada queda abierta al tráfico.",
+    "b": "Que la calzada queda cerrada al tráfico.",
+    "c": "La necesidad de extremar la atención o la proximidad de un peligro."
+   },
+   "correcta": "c",
+   "explicacion": "La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.2.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Bandera amarilla: indica al resto de los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0025",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "Un vehículo policial que circula detrás de usted le hace señales con una luz roja intermitente o destellante hacia delante. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Acelerar para dejarle pasar.",
+    "b": "Detenerse inmediatamente en el carril por el que circula.",
+    "c": "Detener el vehículo en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias."
+   },
+   "correcta": "c",
+   "explicacion": "Esa señal indica al conductor que le precede que debe detenerse en el lado derecho, delante del vehículo policial, en un lugar sin mayores riesgos o molestias y siguiendo las instrucciones por megafonía.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.2.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "el agente desde un vehículo indica al conductor del que le precede que debe detener el vehículo en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0027",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "¿Puede una patrulla escolar invitar a los conductores a que detengan su marcha?",
+   "opciones": {
+    "a": "No, solo pueden hacerlo los agentes de la autoridad.",
+    "b": "Sí, mediante las señales del catálogo oficial incorporadas a una paleta.",
+    "c": "Sí, pero solo con un silbato."
+   },
+   "correcta": "b",
+   "explicacion": "Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "141.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "por este mismo medio, las patrullas escolares invitar a los usuarios de la vía a que detengan su marcha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0028",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "El personal de obras que regula el paso de vehículos debe usar prendas de colores llamativos y elementos retrorreflectantes que permitan distinguirlo a una distancia mínima de...",
+   "opciones": {
+    "a": "50 metros.",
+    "b": "100 metros.",
+    "c": "150 metros."
+   },
+   "correcta": "c",
+   "explicacion": "Deben poder ser distinguidos a una distancia mínima de 150 metros.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "141.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberán utilizar prendas de colores llamativos y dispositivos o elementos retrorreflectantes que permitan a los conductores y demás usuarios de la vía que se aproximen distinguirlos a una distancia mínima de 150 metros",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0032",
+   "tema": "senales",
+   "subtema": "balizamiento",
+   "materia": 1,
+   "enunciado": "En el balizamiento de la vía, ¿qué indica una luz roja fija?",
+   "opciones": {
+    "a": "Que la calzada está totalmente cerrada al tránsito.",
+    "b": "Que hay que reducir la velocidad.",
+    "c": "Que se puede pasar con precaución."
+   },
+   "correcta": "a",
+   "explicacion": "Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.3.1.1.5º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Luz roja fija: indica que la calzada está totalmente cerrada al tránsito.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0033",
+   "tema": "senales",
+   "subtema": "balizamiento",
+   "materia": 1,
+   "enunciado": "Unos captafaros horizontales luminosos colocados sobre la calzada separan dos carriles. ¿De qué color tienen que estar para poder franquearlos?",
+   "opciones": {
+    "a": "Naranja.",
+    "b": "Rojo.",
+    "c": "Verde."
+   },
+   "correcta": "c",
+   "explicacion": "Los captafaros horizontales luminosos emiten luz verde, naranja o roja, y el único franqueable es el verde.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.3.1.4.1º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Emitirá luz de color verde, naranja o rojo, siendo el único franqueable el verde.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0034",
+   "tema": "senales",
+   "subtema": "balizamiento",
+   "materia": 1,
+   "enunciado": "¿Hasta cuándo rigen las modificaciones que la señalización circunstancial introduce respecto de la señalización vertical y horizontal habitual?",
+   "opciones": {
+    "a": "Hasta el final de la jornada.",
+    "b": "Hasta que lo establezca la propia señalización o cesen las causas que motivaron su imposición.",
+    "c": "Siempre durante un máximo de 24 horas."
+   },
+   "correcta": "b",
+   "explicacion": "Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "142.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las modificaciones que la señalización circunstancial introduce respecto de la habitual señalización vertical y horizontal terminan cuando lo establezca la propia señalización, o las causas que motivaron su imposición",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0035",
+   "tema": "senales",
+   "subtema": "paso_a_nivel",
+   "materia": 1,
+   "enunciado": "Llega a un paso a nivel cuya barrera se está levantando, pero todavía está en movimiento. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Pasar, ya que la barrera se está abriendo.",
+    "b": "Pasar si no se ve ningún tren.",
+    "c": "No penetrar en el paso a nivel mientras la barrera esté en movimiento."
+   },
+   "correcta": "c",
+   "explicacion": "Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "96.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Ningún usuario de la vía deberá penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas en la vía o en movimiento para levantarse o colocarse atravesadas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0036",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Se enciende la luz amarilla fija de un semáforo cuando usted está tan cerca que no podría detenerse antes del semáforo con seguridad suficiente. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Continuar la marcha.",
+    "b": "Frenar bruscamente para detenerse.",
+    "c": "Acelerar para pasar antes de que se encienda la roja."
+   },
+   "correcta": "a",
+   "explicacion": "La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "a no ser que, cuando se encienda, el vehículo se encuentre tan cerca del lugar de detención que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0037",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "¿Qué significa una luz amarilla fija (no intermitente) en un semáforo circular para vehículos?",
+   "opciones": {
+    "a": "Que se puede pasar con precaución cediendo el paso.",
+    "b": "Que hay que detenerse en las mismas condiciones que ante la luz roja fija, salvo que no se pueda hacer con seguridad suficiente.",
+    "c": "Que se puede pasar con prioridad."
+   },
+   "correcta": "b",
+   "explicacion": "La luz amarilla no intermitente obliga a detenerse como ante la luz roja fija, salvo que no sea posible con seguridad suficiente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una luz amarilla no intermitente significa que los vehículos deben detenerse en las mismas condiciones que si se tratara de una luz roja fija",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0038",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 8,
+   "enunciado": "En un semáforo para peatones, la luz verde en forma de peatón pasa a ser intermitente. ¿Qué indica?",
+   "opciones": {
+    "a": "Que el tiempo para terminar de atravesar la calzada está a punto de finalizar y se va a encender la luz roja.",
+    "b": "Que los vehículos tienen prioridad sobre los peatones que están cruzando.",
+    "c": "Que el semáforo está averiado."
+   },
+   "correcta": "a",
+   "explicacion": "La luz verde intermitente indica que el tiempo para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la roja.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "significa que el tiempo de que aún disponen para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la luz roja",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0039",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 8,
+   "enunciado": "¿Qué indica a los peatones una luz roja no intermitente en forma de peatón inmóvil?",
+   "opciones": {
+    "a": "Que pueden cruzar si no vienen vehículos.",
+    "b": "Que deben cruzar corriendo.",
+    "c": "Que no deben comenzar a cruzar la calzada."
+   },
+   "correcta": "c",
+   "explicacion": "La luz roja no intermitente en forma de peatón inmóvil indica a los peatones que no deben comenzar a cruzar la calzada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una luz roja no intermitente, en forma de peatón inmóvil, indica a los peatones que no deben comenzar a cruzar la calzada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0043",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "En un semáforo para tranvías y autobuses, la franja blanca vertical se ilumina de forma intermitente. ¿Qué indica?",
+   "opciones": {
+    "a": "Que pueden pasar con prioridad.",
+    "b": "Que el semáforo está averiado y deben seguir las normas generales de prioridad.",
+    "c": "Que deben detenerse en las mismas condiciones que ante una luz amarilla fija."
+   },
+   "correcta": "c",
+   "explicacion": "La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.4.2.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una franja blanca, vertical u oblicua, iluminada intermitentemente, indica que los citados vehículos deben detenerse en las mismas condiciones que si se tratara de una luz amarilla fija.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0045",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Además de en los pasos a nivel, ¿dónde puede encontrar dos luces rojas alternativamente intermitentes que prohíben temporalmente el paso?",
+   "opciones": {
+    "a": "En las proximidades de una salida de vehículos de extinción de incendios.",
+    "b": "En la entrada de los aparcamientos públicos.",
+    "c": "En los pasos para peatones."
+   },
+   "correcta": "a",
+   "explicacion": "Estas luces se usan antes de un paso a nivel, de un puente móvil o pontón transbordador, cerca de una salida de vehículos de extinción de incendios o ante la aproximación de una aeronave a escasa altura.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "en las proximidades de una salida de vehículos de extinción de incendios o con motivo de la aproximación de una aeronave a escasa altura",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0046",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "¿Qué obliga a hacer una luz amarilla intermitente en un semáforo circular para vehículos?",
+   "opciones": {
+    "a": "A detenerse siempre.",
+    "b": "A extremar la precaución y, en su caso, ceder el paso.",
+    "c": "Nada: equivale a un semáforo apagado sin ninguna obligación."
+   },
+   "correcta": "b",
+   "explicacion": "La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una luz amarilla intermitente o dos luces amarillas alternativamente intermitentes obligan a los conductores a extremar la precaución y, en su caso, ceder el paso.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0054",
+   "tema": "senales",
+   "subtema": "senales_verticales",
+   "materia": 1,
+   "enunciado": "¿Qué objeto tienen las señales de advertencia de peligro?",
+   "opciones": {
+    "a": "Indicar la proximidad y naturaleza de un peligro difícil de ser percibido a tiempo.",
+    "b": "Indicar obligaciones o prohibiciones especiales.",
+    "c": "Facilitar indicaciones de utilidad, como servicios u orientación."
+   },
+   "correcta": "a",
+   "explicacion": "Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "144.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las señales de advertencia de peligro tienen por objeto indicar a los usuarios de la vía la proximidad y naturaleza de un peligro difícil de ser percibido a tiempo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0055",
+   "tema": "senales",
+   "subtema": "senales_verticales",
+   "materia": 1,
+   "enunciado": "Las señales que indican a los usuarios las obligaciones, limitaciones o prohibiciones especiales que deben observar son las señales de...",
+   "opciones": {
+    "a": "Indicación.",
+    "b": "Advertencia de peligro.",
+    "c": "Reglamentación."
+   },
+   "correcta": "c",
+   "explicacion": "Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "145.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las señales de reglamentación tienen por objeto indicar a los usuarios de la vía las obligaciones, limitaciones o prohibiciones especiales que deben observar.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0056",
+   "tema": "senales",
+   "subtema": "senales_verticales",
+   "materia": 1,
+   "enunciado": "Bajo una señal de advertencia de peligro hay un panel complementario con una cifra en metros. ¿Qué puede indicar?",
+   "opciones": {
+    "a": "La velocidad máxima recomendada.",
+    "b": "La anchura de la calzada.",
+    "c": "La distancia entre la señal y el principio del tramo peligroso."
+   },
+   "correcta": "c",
+   "explicacion": "Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "144.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "La distancia entre la señal y el principio del tramo peligroso podrá indicarse en un panel complementario.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0058",
+   "tema": "senales",
+   "subtema": "senales_verticales",
+   "materia": 1,
+   "enunciado": "Cuando la señalización circunstancial se debe a causas distintas de las obras (por ejemplo, un accidente), ¿de qué color es el fondo de las señales que en su versión convencional lo tienen blanco?",
+   "opciones": {
+    "a": "Naranja.",
+    "b": "Amarillo.",
+    "c": "Azul."
+   },
+   "correcta": "a",
+   "explicacion": "Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5 (Catálogo, tomo I, 2.6)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "será de aplicación lo establecido para la señalización en tramos en obras o tareas de conservación, con la salvedad de que se utilizará color naranja en lugar de amarillo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0065",
+   "tema": "prioridad",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Se ha detenido en la línea de detención de un STOP, pero desde ese lugar no tiene visibilidad suficiente. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Incorporarse despacio con el claxon.",
+    "b": "Detenerse de nuevo en el lugar desde donde tenga visibilidad, sin poner en peligro a nadie.",
+    "c": "Esperar en la línea hasta que otro conductor le ceda el paso."
+   },
+   "correcta": "b",
+   "explicacion": "Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (marcas viales, 4.2, M-4.1)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Si desde el lugar donde se ha efectuado la detención no existe visibilidad suficiente, la persona conductora deberá detenerse de nuevo en el lugar desde donde tenga visibilidad",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0066",
+   "tema": "prioridad",
+   "subtema": "interseccion_sin_senalizar",
+   "materia": 1,
+   "enunciado": "Llega a una intersección donde no hay ninguna señal que regule la preferencia de paso (ni semáforo, ni agente, ni ceda el paso, ni STOP). Como norma general, ¿a quién debe ceder el paso?",
+   "opciones": {
+    "a": "A los vehículos que se aproximen por su izquierda.",
+    "b": "Al vehículo de mayor tamaño.",
+    "c": "A los vehículos que se aproximen por su derecha."
+   },
+   "correcta": "c",
+   "explicacion": "En defecto de señal que regule la preferencia de paso, el conductor debe cederlo a los vehículos que se aproximen por su derecha, salvo las excepciones previstas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "57.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En defecto de señal que regule la preferencia de paso, el conductor está obligado a cederlo a los vehículos que se aproximen por su derecha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0067",
+   "tema": "prioridad",
+   "subtema": "paso_a_nivel",
+   "materia": 1,
+   "enunciado": "En un paso a nivel, ¿quién tiene prioridad de paso?",
+   "opciones": {
+    "a": "Los vehículos que circulan por raíles.",
+    "b": "Los vehículos que circulan por la carretera.",
+    "c": "El que llegue primero."
+   },
+   "correcta": "a",
+   "explicacion": "Los vehículos que circulan por raíles tienen derecho de prioridad de paso sobre los demás usuarios.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "57.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0073",
+   "tema": "senales",
+   "subtema": "senales_verticales",
+   "materia": 1,
+   "enunciado": "Una prohibición de entrada se refiere a los 'vehículos de motor'. ¿Afecta a los ciclomotores?",
+   "opciones": {
+    "a": "Sí, porque el ciclomotor tiene motor.",
+    "b": "Solo a los ciclomotores de tres ruedas.",
+    "c": "No, porque los ciclomotores están excluidos de la definición de vehículo de motor."
+   },
+   "correcta": "c",
+   "explicacion": "La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.12",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Vehículo provisto de motor para su propulsión. Se excluyen de esta definición los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-sen-0003",
+   "tema": "senales_verticales",
+   "subtema": "presenalizacion",
+   "materia": 1,
+   "enunciado": "Como norma general, ¿a qué distancia de la intersección se colocan las señales de preseñalización en autopistas y autovías?",
+   "opciones": {
+    "a": "A unos 50 metros.",
+    "b": "A unos 150 metros.",
+    "c": "A 500 metros."
+   },
+   "correcta": "c",
+   "explicacion": "En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "146.2.d).1ª",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Esta distancia podrá reducirse a unos 50 metros en los poblados mientras que en autopistas y autovías será, como norma general de 500 metros",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-sen-0004",
+   "tema": "senales_verticales",
+   "subtema": "paneles_complementarios",
+   "materia": 1,
+   "enunciado": "Un panel complementario colocado bajo una señal de advertencia de peligro, ¿qué puede indicar?",
+   "opciones": {
+    "a": "La cuantía de la multa por no respetar la señal.",
+    "b": "La distancia entre la señal y el principio del tramo peligroso.",
+    "c": "El organismo titular de la vía."
+   },
+   "correcta": "b",
+   "explicacion": "Mediante un panel complementario puede indicarse la distancia entre la señal y el principio del tramo peligroso y también la longitud a lo largo de la cual existe el peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "144.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "La distancia entre la señal y el principio del tramo peligroso podrá indicarse en un panel complementario.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-sen-0005",
+   "tema": "senales_verticales",
+   "subtema": "paneles_complementarios",
+   "materia": 1,
+   "enunciado": "¿Puede un panel complementario indicar la longitud del tramo a lo largo del cual existe el peligro que anuncia la señal?",
+   "opciones": {
+    "a": "No, solo puede indicar la distancia hasta el peligro.",
+    "b": "Solo en las señales luminosas.",
+    "c": "Sí."
+   },
+   "correcta": "c",
+   "explicacion": "Además de la distancia hasta el principio del peligro, un panel complementario puede indicar la longitud a lo largo de la cual existe el peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "144.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Asimismo mediante un panel complementario podrá indicarse la longitud a lo largo de la cual existe el peligro indicado por la señal.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-sen-0006",
+   "tema": "senales_verticales",
+   "subtema": "paneles_complementarios",
+   "materia": 1,
+   "enunciado": "Una señal de prohibición sin ningún panel complementario debajo, ¿a partir de dónde rige?",
+   "opciones": {
+    "a": "A partir de la sección transversal donde está colocada.",
+    "b": "100 metros después de la señal.",
+    "c": "A partir de la siguiente intersección."
+   },
+   "correcta": "a",
+   "explicacion": "Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "145.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "regirán a partir de la sección transversal donde estén colocadas dichas señales, salvo que mediante un panel complementario colocado debajo de ellas se indique la distancia a la sección donde empiecen a regir",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-cic-0009",
+   "tema": "ciclos",
+   "subtema": "carril_bici",
+   "materia": 8,
+   "enunciado": "Hay un carril bici junto a la calzada y al inicio no hay ninguna señal que obligue a usarlo. Para un ciclista, el uso de ese carril bici es...",
+   "opciones": {
+    "a": "Preferente.",
+    "b": "Obligatorio.",
+    "c": "Prohibido."
+   },
+   "correcta": "a",
+   "explicacion": "Si hay carril bici o vía específica, su uso por las bicicletas es preferente; la autoridad competente puede hacerlo obligatorio mediante la señal R-407a.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "153.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Si hay carril bici o vía específica, su uso es preferente, si bien la autoridad competente podrá hacerlo obligatorio mediante la señal R–407a.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-via-0011",
+   "tema": "vias",
+   "subtema": "senda_ciclable",
+   "materia": 7,
+   "enunciado": "Según la Ley de Tráfico, ¿qué es una senda ciclable?",
+   "opciones": {
+    "a": "Una vía para peatones y ciclos, segregada del tráfico motorizado, que discurre por espacios abiertos, parques, jardines o bosques.",
+    "b": "Un carril bici que discurre adosado a la calzada.",
+    "c": "Una acera por la que pueden circular ciclomotores."
+   },
+   "correcta": "a",
+   "explicacion": "La senda ciclable es una vía para peatones y ciclos, segregada del tráfico motorizado, que discurre por espacios abiertos, parques, jardines o bosques.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.79",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Senda ciclable. Vía para peatones y ciclos, segregada del tráfico motorizado, y que discurre por espacios abiertos, parques, jardines o bosques.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-via-0012",
+   "tema": "vias",
+   "subtema": "zona_peatonal",
+   "materia": 8,
+   "enunciado": "En una zona peatonal que no sea acera, ¿puede la autoridad municipal permitir la circulación de ciclistas y usuarios de vehículos de movilidad personal?",
+   "opciones": {
+    "a": "No, en ningún caso.",
+    "b": "Sí, mediante ordenanza y respetando la prioridad de los peatones.",
+    "c": "Sí, y en ese caso los ciclistas tienen prioridad sobre los peatones."
+   },
+   "correcta": "b",
+   "explicacion": "En las zonas peatonales distintas de las aceras, la autoridad municipal puede autorizar mediante ordenanza la coexistencia de peatones con ciclistas y usuarios de VMP, respetando la prioridad de los peatones.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "152.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En el resto de zonas peatonales, la autoridad municipal podrá autorizar, mediante ordenanza, la coexistencia de peatones con ciclistas y usuarios de vehículos de movilidad personal, respetando la prioridad de los peatones.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-via-0013",
+   "tema": "vias",
+   "subtema": "aceras",
+   "materia": 8,
+   "enunciado": "¿Qué pueden permitir las ordenanzas municipales respecto a la circulación por las aceras?",
+   "opciones": {
+    "a": "Que circulen ciclomotores a la velocidad de un peatón.",
+    "b": "Que circulen bicicletas de adultos si no hay carril bici.",
+    "c": "Que circulen niños de hasta doce años en bicicleta, siempre que vayan a cargo de un adulto que circule a pie."
+   },
+   "correcta": "c",
+   "explicacion": "En las aceras está prohibida la circulación de cualquier tipo de vehículo, pero las ordenanzas pueden permitir que circulen niños de hasta doce años en bicicleta a cargo de un adulto que vaya a pie.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "152.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las ordenanzas municipales podrán permitir la circulación por las aceras de niños de hasta doce años en bicicletas, siempre que vayan a cargo de un adulto que circule a pie.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-sen-0016",
+   "tema": "senales_verticales",
+   "subtema": "prelacion",
+   "materia": 1,
+   "enunciado": "Si lo que indica una marca vial parece contradecir lo que indica una señal vertical, ¿a cuál debe obedecer?",
+   "opciones": {
+    "a": "A la marca vial.",
+    "b": "A la señal vertical.",
+    "c": "A la que se encuentre más cerca."
+   },
+   "correcta": "b",
+   "explicacion": "En el orden de prioridad las marcas viales van detrás de semáforos y señales verticales; en caso de contradicción prevalece la preferente según ese orden.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "133",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "c) Semáforos. d) Señales verticales de circulación. e) Marcas viales. 2. En el caso de que las prescripciones indicadas por diferentes señales parezcan estar en contradicción entre sí, prevalecerá la preferente",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0020",
+   "tema": "marcas_viales",
+   "subtema": "longitudinales",
+   "materia": 1,
+   "enunciado": "En una marca continua adosada a discontinua que separa sentidos opuestos, usted inició un adelantamiento desde el carril contiguo a la línea discontinua. ¿Puede atravesar después la línea continua para volver a su carril?",
+   "opciones": {
+    "a": "No, nunca puede atravesar una línea continua.",
+    "b": "Sí, para volver a su carril tras realizar el adelantamiento o desistir de él.",
+    "c": "Solo si se lo indica un agente."
+   },
+   "correcta": "b",
+   "explicacion": "Quien inició el adelantamiento desde el carril contiguo a la línea discontinua puede atravesar la continua y volver a su carril tras adelantar o desistir del adelantamiento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "un vehículo que haya iniciado una maniobra de adelantamiento en un tramo con este tipo de marca desde el carril contiguo a la línea discontinua, podrá atravesar la línea continua y volver a su carril tras realizar el adelantamiento o desistir de él",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0023",
+   "tema": "marcas_viales",
+   "subtema": "longitudinales",
+   "materia": 1,
+   "enunciado": "Que la línea de borde de calzada sea continua o discontinua, ¿supone alguna diferencia en el uso del arcén?",
+   "opciones": {
+    "a": "Sí: si es continua está prohibido entrar en el arcén en cualquier caso.",
+    "b": "Sí: si es discontinua es obligatorio circular por el arcén.",
+    "c": "No conlleva ninguna diferencia respecto al uso del arcén reglamentariamente establecido."
+   },
+   "correcta": "c",
+   "explicacion": "Las líneas de borde de calzada delimitan el borde de la calzada; que sean continuas o discontinuas no conlleva diferencia respecto al uso del arcén reglamentariamente establecido.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "El hecho de que sean continuas o discontinuas no conlleva ninguna diferencia con respecto al uso del arcén reglamentariamente establecido.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0026",
+   "tema": "marcas_viales",
+   "subtema": "transversales",
+   "materia": 1,
+   "enunciado": "¿En qué caso puede señalizarse un paso para peatones solo con dos líneas transversales discontinuas y paralelas, sin las franjas blancas?",
+   "opciones": {
+    "a": "Cuando el paso sea muy ancho, para ahorrar pintura.",
+    "b": "Cuando el paso para peatones esté regulado por semáforo.",
+    "c": "En cualquier paso situado en vía urbana."
+   },
+   "correcta": "b",
+   "explicacion": "En los pasos para peatones regulados por semáforo podrá utilizarse la marca constituida por dos líneas transversales discontinuas y paralelas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En pasos para peatones regulados por semáforo, podrá utilizarse la marca constituida por dos líneas transversales discontinuas y paralelas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0027",
+   "tema": "marcas_viales",
+   "subtema": "transversales",
+   "materia": 8,
+   "enunciado": "En un paso para ciclistas señalizado con marca vial, ¿qué deben hacer los vehículos que circulan por la calzada?",
+   "opciones": {
+    "a": "Tienen prioridad sobre los ciclistas.",
+    "b": "Deben dejar paso a los ciclistas.",
+    "c": "Solo deben ceder el paso si hay un semáforo."
+   },
+   "correcta": "b",
+   "explicacion": "La marca de paso para ciclistas (dos líneas transversales discontinuas y paralelas) indica un paso en el que los vehículos que circulan por la calzada deben dejarles paso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "una marca consistente en dos líneas transversales discontinuas y paralelas sobre la calzada indica un paso para ciclistas en el cual los vehículos que circulan por esta deben dejarles paso",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0029",
+   "tema": "marcas_viales",
+   "subtema": "transversales",
+   "materia": 1,
+   "enunciado": "Si la acera está alineada con el límite exterior de la banda de estacionamiento, ¿en cuántos metros anteriores al paso para peatones, como mínimo, no se permitirá aparcar automóviles?",
+   "opciones": {
+    "a": "En 3 metros.",
+    "b": "En 6 metros.",
+    "c": "En 1 metro."
+   },
+   "correcta": "b",
+   "explicacion": "No se permitirá aparcar automóviles en al menos los 6 m anteriores al paso si la acera está alineada con el límite exterior de la banda de estacionamiento, o en los 3 m anteriores si está alineada con el límite interior.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "no se permitirá el aparcamiento de automóviles en al menos los 6 m anteriores al paso de peatones si la acera está alineada con el límite exterior de la banda de estacionamiento",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0033",
+   "tema": "marcas_viales",
+   "subtema": "flechas",
+   "materia": 1,
+   "enunciado": "En un carril con una flecha de selección que incluye la dirección de frente, ¿puede cambiarse de carril?",
+   "opciones": {
+    "a": "No, la flecha prohíbe cualquier cambio de carril.",
+    "b": "Solo para adelantar a vehículos de dos ruedas.",
+    "c": "Sí, siempre que se mantenga la dirección de circulación y las marcas longitudinales lo permitan."
+   },
+   "correcta": "c",
+   "explicacion": "Las flechas que incluyen la dirección de frente no impiden el cambio de carril, siempre que se mantenga la dirección de circulación y las marcas longitudinales lo permitan.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las flechas que incluyan la dirección de frente no impiden el cambio de carril, siempre que se mantenga la dirección de circulación y que las marcas longitudinales lo permitan.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0001",
+   "tema": "luces",
+   "subtema": "galibo",
+   "materia": 1,
+   "enunciado": "¿Qué vehículos deben llevar encendido, además de las luces de posición, el alumbrado de gálibo cuando es obligatorio usar el alumbrado?",
+   "opciones": {
+    "a": "Los que tengan una anchura superior a 2,10 metros.",
+    "b": "Los que tengan una longitud superior a 12 metros.",
+    "c": "Los que tengan una masa máxima autorizada superior a 3.500 kg."
+   },
+   "correcta": "a",
+   "explicacion": "Las luces de gálibo son obligatorias, junto con las de posición, si la anchura del vehículo excede de 2,10 metros.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "99.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberá llevar encendidas las luces de posición y, si la anchura del vehículo excede de 2,10 metros, también la de gálibo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0002",
+   "tema": "luces",
+   "subtema": "via_insuficientemente_iluminada",
+   "materia": 6,
+   "enunciado": "Se considera vía insuficientemente iluminada aquella en la que, con vista normal, en algún punto de su calzada...",
+   "opciones": {
+    "a": "no pueda leerse la placa de matrícula a 50 metros o no se distinga un vehículo pintado de oscuro a 100 metros.",
+    "b": "no pueda leerse la placa de matrícula a 10 metros o no se distinga un vehículo pintado de oscuro a 50 metros.",
+    "c": "no pueda leerse la placa de matrícula a 20 metros o no se distinga un vehículo pintado de oscuro a 150 metros."
+   },
+   "correcta": "b",
+   "explicacion": "El Reglamento define la vía insuficientemente iluminada con dos referencias: matrícula ilegible a 10 metros o vehículo oscuro no distinguible a 50 metros.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "100.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "no pueda leerse la placa de matrícula a 10 metros o no se distinga un vehículo pintado de oscuro a 50 metros de distancia",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0003",
+   "tema": "luces",
+   "subtema": "largo_alcance",
+   "materia": 6,
+   "enunciado": "De noche circula a 80 km/h por una carretera fuera de poblado insuficientemente iluminada y no hay ningún usuario al que pueda deslumbrar. ¿Qué alumbrado debe llevar encendido?",
+   "opciones": {
+    "a": "Únicamente el de corto alcance o cruce.",
+    "b": "Únicamente el de posición.",
+    "c": "El de largo alcance o carretera."
+   },
+   "correcta": "c",
+   "explicacion": "La luz de largo alcance es obligatoria a más de 40 km/h, de noche, fuera de poblado y en vías insuficientemente iluminadas, salvo cuando haya que usar la de cruce (por ejemplo, para no deslumbrar).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "100.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Todo vehículo equipado con luz de largo alcance o carretera que circule a más de 40 kilómetros por hora, entre el ocaso y la salida del sol, fuera de poblado, por vías insuficientemente iluminadas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0004",
+   "tema": "luces",
+   "subtema": "largo_alcance",
+   "materia": 1,
+   "enunciado": "¿Está permitido llevar encendida la luz de largo alcance o de carretera con el vehículo estacionado?",
+   "opciones": {
+    "a": "No, está prohibido siempre que el vehículo esté parado o estacionado.",
+    "b": "Sí, si la vía está insuficientemente iluminada.",
+    "c": "Sí, pero solo fuera de poblado."
+   },
+   "correcta": "a",
+   "explicacion": "El Reglamento prohíbe utilizar la luz de largo alcance siempre que el vehículo se encuentre parado o estacionado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "100.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Se prohíbe la utilización de la luz de largo alcance o de carretera siempre que el vehículo se encuentre parado o estacionado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0005",
+   "tema": "luces",
+   "subtema": "deslumbramiento",
+   "materia": 6,
+   "enunciado": "Circula de noche con la luz de largo alcance. ¿Cuándo debe sustituirla por la de corto alcance o cruce?",
+   "opciones": {
+    "a": "Solo cuando el vehículo que viene de frente cambie antes sus luces.",
+    "b": "Tan pronto como aprecie la posibilidad de deslumbrar a otros usuarios, aunque el que viene de frente no la cambie.",
+    "c": "Solo cuando el otro vehículo esté a menos de 50 metros."
+   },
+   "correcta": "b",
+   "explicacion": "La luz de carretera debe sustituirse por la de cruce en cuanto exista posibilidad de deslumbrar, especialmente a quienes circulan en sentido contrario, aunque estos no cumplan la norma.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "102.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "muy especialmente a los conductores de vehículos que circulen en sentido contrario y aunque éstos no cumplan esta prescripción",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0006",
+   "tema": "luces",
+   "subtema": "deslumbramiento",
+   "materia": 6,
+   "enunciado": "Circula con la luz de largo alcance detrás de otro vehículo que va en su mismo sentido. ¿Debe cambiar a la luz de cruce?",
+   "opciones": {
+    "a": "No, la obligación solo existe frente a vehículos que circulan en sentido contrario.",
+    "b": "Solo si circula por autopista o autovía.",
+    "c": "Sí, si su conductor puede ser deslumbrado a través del espejo retrovisor."
+   },
+   "correcta": "c",
+   "explicacion": "La misma precaución que con los vehículos de frente se guarda con los que circulan en el mismo sentido y pueden ser deslumbrados por el retrovisor.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "102.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "La misma precaución se guardará respecto a los vehículos que circulen en el mismo sentido y cuyos conductores puedan ser deslumbrados a través del espejo retrovisor",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0007",
+   "tema": "luces",
+   "subtema": "deslumbramiento",
+   "materia": 6,
+   "enunciado": "Si sufre un deslumbramiento mientras conduce, ¿qué debe hacer?",
+   "opciones": {
+    "a": "Reducir la velocidad lo necesario, incluso hasta detenerse por completo.",
+    "b": "Encender la luz de largo alcance para ver mejor.",
+    "c": "Mantener la velocidad y mirar hacia el centro de la calzada."
+   },
+   "correcta": "a",
+   "explicacion": "El conductor deslumbrado debe reducir la velocidad lo necesario, incluso hasta la detención total, para no alcanzar a vehículos o peatones que vayan en su mismo sentido.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "102.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "el conductor que lo sufra reducirá la velocidad lo necesario, incluso hasta la detención total",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0008",
+   "tema": "luces",
+   "subtema": "inmovilizaciones",
+   "materia": 1,
+   "enunciado": "De noche deja su turismo estacionado en línea en la calzada de una travesía insuficientemente iluminada. ¿Qué alumbrado debe dejar encendido?",
+   "opciones": {
+    "a": "Las luces de corto alcance o cruce.",
+    "b": "Las luces de posición, que puede sustituir por las de estacionamiento.",
+    "c": "Ninguno, porque es una vía urbana."
+   },
+   "correcta": "b",
+   "explicacion": "En una travesía insuficientemente iluminada el vehículo parado o estacionado de noche debe llevar las luces de posición, sustituibles por las de estacionamiento o por las dos de posición del lado de la calzada si está en línea.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "105.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberá tener encendidas las luces de posición, que podrá sustituir por las de estacionamiento, o por las dos de posición del lado correspondiente a la calzada, cuando se halle estacionado en línea",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0009",
+   "tema": "luces",
+   "subtema": "inmovilizaciones",
+   "materia": 1,
+   "enunciado": "De noche estaciona en una calle urbana (que no es travesía) con buena iluminación, que permite a los demás distinguir su vehículo a distancia suficiente. ¿Debe dejar encendidas las luces de posición?",
+   "opciones": {
+    "a": "Sí, siempre que sea de noche.",
+    "b": "Sí, y además las luces de emergencia.",
+    "c": "No es obligatorio."
+   },
+   "correcta": "c",
+   "explicacion": "En vías urbanas que no sean travesías no es obligatorio dejar las luces de posición si la iluminación permite a otros usuarios distinguir el vehículo a distancia suficiente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "105.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En vías urbanas que no sean travesías no será obligatorio que los vehículos estacionados tengan encendidas las luces de posición cuando la iluminación permita a otros usuarios distinguirlos a una distancia suficiente",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0010",
+   "tema": "luces",
+   "subtema": "inmovilizaciones",
+   "materia": 1,
+   "enunciado": "Su vehículo queda inmovilizado por avería en el arcén de una carretera durante la noche. ¿Qué luces debe tener encendidas como mínimo?",
+   "opciones": {
+    "a": "Las de posición y, en su caso, las de gálibo.",
+    "b": "Solo las luces de emergencia.",
+    "c": "Las de corto alcance o cruce."
+   },
+   "correcta": "a",
+   "explicacion": "Todo vehículo inmovilizado de noche en calzada o arcén debe tener encendidas las luces de posición y, en su caso, las de gálibo. Además, en autopista o autovía o con visibilidad reducida debe usar la luz de emergencia (art. 109.2.c).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "105.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "se encuentre inmovilizado entre la puesta y la salida del sol o bajo las condiciones a que se refiere el artículo 106, en calzada o arcén de una vía, deberá tener encendidas las luces de posición y, en su caso, las de gálibo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0011",
+   "tema": "luces",
+   "subtema": "placa_matricula",
+   "materia": 1,
+   "enunciado": "Cuando circula de noche con el alumbrado encendido, ¿qué placa de matrícula debe ir iluminada?",
+   "opciones": {
+    "a": "La delantera y la posterior.",
+    "b": "La placa posterior.",
+    "c": "Ninguna, las placas son reflectantes."
+   },
+   "correcta": "b",
+   "explicacion": "En las circunstancias en que es obligatorio el alumbrado, el vehículo debe llevar siempre iluminada la placa posterior de matrícula.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "103",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "debe llevar siempre iluminada la placa posterior de matrícula",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0012",
+   "tema": "luces",
+   "subtema": "alumbrado_diurno",
+   "materia": 1,
+   "enunciado": "Circula de día por un carril reversible. ¿Qué alumbrado debe llevar encendido?",
+   "opciones": {
+    "a": "Ninguno, porque es de día.",
+    "b": "La luz antiniebla trasera.",
+    "c": "La luz de corto alcance o cruce."
+   },
+   "correcta": "c",
+   "explicacion": "Durante el día deben llevar encendida la luz de cruce todos los vehículos que circulen por un carril reversible, por un carril adicional circunstancial o por un carril habilitado en sentido contrario al habitual.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "104.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Todos los vehículos que circulen por un carril reversible, por un carril adicional circunstancial o por un carril habilitado para circular en sentido contrario",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0013",
+   "tema": "luces",
+   "subtema": "alumbrado_diurno",
+   "materia": 1,
+   "enunciado": "Las motocicletas, ¿deben llevar encendida durante el día la luz de corto alcance o cruce?",
+   "opciones": {
+    "a": "Sí, por cualquier vía.",
+    "b": "Solo cuando circulen por autopistas y autovías.",
+    "c": "No, solo es obligatoria de noche y en túneles."
+   },
+   "correcta": "a",
+   "explicacion": "Las motocicletas deben llevar encendida durante el día la luz de cruce cuando circulen por cualquier vía.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "104.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las motocicletas que circulen por cualquier vía objeto de la legislación sobre tráfico",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0014",
+   "tema": "luces",
+   "subtema": "condiciones_adversas",
+   "materia": 6,
+   "enunciado": "Durante el día empieza a llover de forma intensa y la visibilidad disminuye sensiblemente. ¿Qué alumbrado debe utilizar?",
+   "opciones": {
+    "a": "Únicamente la luz antiniebla trasera.",
+    "b": "La luz antiniebla delantera o la luz de corto o largo alcance.",
+    "c": "Únicamente las luces de posición."
+   },
+   "correcta": "b",
+   "explicacion": "Cuando condiciones como la lluvia intensa disminuyen sensiblemente la visibilidad, es obligatorio el alumbrado: la antiniebla delantera o la luz de corto o largo alcance.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "106.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En los casos a que se refiere el apartado anterior deberá utilizarse la luz antiniebla delantera o la luz de corto o largo alcance",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0015",
+   "tema": "luces",
+   "subtema": "antiniebla_delantera",
+   "materia": 6,
+   "enunciado": "Sin niebla, lluvia ni otras condiciones adversas, ¿en qué tramos se permite utilizar la luz antiniebla delantera?",
+   "opciones": {
+    "a": "En cualquier vía interurbana entre el ocaso y la salida del sol.",
+    "b": "En vías urbanas insuficientemente iluminadas.",
+    "c": "En vías estrechas con muchas curvas señalizadas, con calzada de 6,50 metros de anchura o inferior."
+   },
+   "correcta": "c",
+   "explicacion": "Aparte de las condiciones que disminuyen la visibilidad, la antiniebla delantera solo puede usarse en tramos de vías estrechas (calzada de 6,50 m o menos) señalizados con sucesión de curvas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "106.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "en tramos de vías estrechas con muchas curvas, entendiéndose por tales las que, teniendo una calzada de 6,50 metros de anchura o inferior",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0016",
+   "tema": "luces",
+   "subtema": "antiniebla_trasera",
+   "materia": 6,
+   "enunciado": "¿En cuál de estas situaciones debe llevarse encendida la luz antiniebla trasera?",
+   "opciones": {
+    "a": "Con lluvia muy intensa.",
+    "b": "Con lluvia intensa.",
+    "c": "En un tramo estrecho con muchas curvas señalizadas."
+   },
+   "correcta": "a",
+   "explicacion": "La antiniebla trasera solo debe encenderse con condiciones especialmente desfavorables: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "106.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones meteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla espesa, lluvia muy intensa",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0017",
+   "tema": "luces",
+   "subtema": "antiniebla_trasera",
+   "materia": 6,
+   "enunciado": "Circula con niebla espesa. ¿Debe llevar encendida la luz antiniebla trasera?",
+   "opciones": {
+    "a": "No, solo es obligatoria con lluvia muy intensa.",
+    "b": "Sí.",
+    "c": "No, solo se utiliza dentro de los túneles."
+   },
+   "correcta": "b",
+   "explicacion": "La niebla espesa es una de las condiciones especialmente desfavorables en las que debe llevarse encendida la antiniebla trasera.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "106.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "especialmente desfavorables, como en caso de niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0018",
+   "tema": "luces",
+   "subtema": "advertencias_opticas",
+   "materia": 1,
+   "enunciado": "Un conductor indica una maniobra con el brazo y, a la vez, con el intermitente en sentido contrario. ¿Qué indicación prevalece?",
+   "opciones": {
+    "a": "La del intermitente.",
+    "b": "Ninguna; ambas quedan anuladas.",
+    "c": "La realizada con el brazo."
+   },
+   "correcta": "c",
+   "explicacion": "Las advertencias con el brazo, si son perceptibles y correctas, anulan cualquier otra indicación óptica que las contradiga.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "108.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "y anularán cualquier otra indicación óptica que las contradiga",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-luc-0019",
+   "tema": "luces",
+   "subtema": "corto_alcance",
+   "materia": 6,
+   "enunciado": "De noche circula por una vía urbana suficientemente iluminada. ¿Qué alumbrado debe llevar?",
+   "opciones": {
+    "a": "El de posición y el de corto alcance o cruce.",
+    "b": "Solo el de posición.",
+    "c": "El de largo alcance o carretera."
+   },
+   "correcta": "a",
+   "explicacion": "De noche, en vías urbanas o interurbanas suficientemente iluminadas, se lleva el alumbrado de cruce además del de posición; nunca solo el de posición.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "101.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Todo vehículo de motor y ciclomotor que circule entre el ocaso y la salida del sol por vías urbanas o interurbanas suficientemente iluminadas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0001",
+   "tema": "transporte_personas",
+   "subtema": "numero_plazas",
+   "materia": 12,
+   "enunciado": "Un turismo tiene 5 plazas autorizadas. ¿Cuántas personas puede transportar, incluido el conductor?",
+   "opciones": {
+    "a": "Seis, si una de ellas es un niño.",
+    "b": "Cinco como máximo.",
+    "c": "Seis, siempre que no se supere la masa máxima autorizada."
+   },
+   "correcta": "b",
+   "explicacion": "El número de personas transportadas no puede ser superior al de plazas autorizadas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "9.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "El número de personas transportadas en un vehículo no podrá ser superior al de las plazas que tenga autorizadas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0002",
+   "tema": "seguridad_pasiva",
+   "subtema": "sistemas_retencion_infantil",
+   "materia": 15,
+   "enunciado": "¿Qué ocupantes de un turismo deben utilizar un sistema de retención infantil?",
+   "opciones": {
+    "a": "Todos los menores de 12 años, cualquiera que sea su estatura.",
+    "b": "Solo los menores de 3 años.",
+    "c": "Los menores de edad de estatura igual o inferior a 135 centímetros."
+   },
+   "correcta": "c",
+   "explicacion": "El criterio es la estatura: los menores de edad que midan 135 cm o menos deben usar sistemas de retención infantil.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "117.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0003",
+   "tema": "seguridad_pasiva",
+   "subtema": "sistemas_retencion_infantil",
+   "materia": 15,
+   "enunciado": "En un turismo, un menor de 125 cm de estatura, ¿puede viajar en el asiento delantero?",
+   "opciones": {
+    "a": "Sí, de forma excepcional, por ejemplo si todos los asientos traseros ya están ocupados por menores de esa estatura, y usando su sistema de retención infantil.",
+    "b": "No, en ningún caso.",
+    "c": "Sí, siempre que lleve el cinturón de seguridad de adulto."
+   },
+   "correcta": "a",
+   "explicacion": "Estos menores deben ir detrás, pero excepcionalmente pueden ir delante con su sistema de retención homologado si no hay asientos traseros, si todos están ocupados por menores de 135 cm o si no caben todos los sistemas de retención.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "117.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando todos los asientos traseros estén ya ocupados por los menores a que se refiere el párrafo segundo del apartado 1",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0004",
+   "tema": "seguridad_pasiva",
+   "subtema": "sistemas_retencion_infantil",
+   "materia": 15,
+   "enunciado": "Un bebé viaja en el asiento delantero en un sistema de retención orientado hacia atrás. El vehículo dispone de airbag frontal para ese asiento. ¿Es correcto?",
+   "opciones": {
+    "a": "Sí, siempre que el sistema esté homologado.",
+    "b": "Solo si el airbag ha sido desactivado.",
+    "c": "No, ni siquiera con el airbag desactivado."
+   },
+   "correcta": "b",
+   "explicacion": "En asientos delanteros con airbag frontal solo pueden usarse sistemas de retención orientados hacia atrás si el airbag ha sido desactivado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "117.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "únicamente podrán utilizar sistemas de retención orientados hacia atrás si el airbag ha sido desactivado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0005",
+   "tema": "seguridad_pasiva",
+   "subtema": "sistemas_retencion_infantil",
+   "materia": 15,
+   "enunciado": "Su vehículo no dispone de asientos traseros. ¿Puede llevar a un niño de 110 cm de estatura?",
+   "opciones": {
+    "a": "No, está prohibido llevarlo en ese vehículo.",
+    "b": "Sí, en el asiento delantero, y basta con el cinturón de seguridad.",
+    "c": "Sí, en el asiento delantero, utilizando un sistema de retención infantil homologado adaptado a su talla y peso."
+   },
+   "correcta": "c",
+   "explicacion": "Cuando el vehículo no dispone de asientos traseros, el menor puede ir delante, siempre con un sistema de retención homologado adaptado a su talla y peso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "117.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Excepcionalmente podrán ocupar el asiento delantero, siempre que utilicen sistemas de retención infantil homologados debidamente adaptados a su talla y peso",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0006",
+   "tema": "seguridad_pasiva",
+   "subtema": "cinturon_exenciones",
+   "materia": 15,
+   "enunciado": "Los conductores y pasajeros de vehículos en servicio de urgencia, ¿pueden circular sin cinturón de seguridad?",
+   "opciones": {
+    "a": "Sí, cuando circulen en poblado, pero nunca por autopistas, autovías o carreteras convencionales.",
+    "b": "Sí, en cualquier tipo de vía.",
+    "c": "No, en ningún caso."
+   },
+   "correcta": "a",
+   "explicacion": "La exención para vehículos en servicio de urgencia solo alcanza a la circulación en poblado. (Los pasajeros que asisten al paciente en ambulancias asistenciales tienen una exención propia.)",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "119.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0007",
+   "tema": "seguridad_pasiva",
+   "subtema": "cinturon_exenciones",
+   "materia": 15,
+   "enunciado": "¿Puede el conductor circular sin el cinturón abrochado mientras realiza la maniobra de marcha atrás?",
+   "opciones": {
+    "a": "Solo dentro de poblado.",
+    "b": "Sí, al efectuar la maniobra de marcha atrás o de estacionamiento.",
+    "c": "No, nunca."
+   },
+   "correcta": "b",
+   "explicacion": "Los conductores pueden circular sin cinturón al efectuar la maniobra de marcha atrás o de estacionamiento.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "119.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0008",
+   "tema": "seguridad_pasiva",
+   "subtema": "cinturon_exenciones",
+   "materia": 15,
+   "enunciado": "Una mujer embarazada, ¿está exenta de usar el cinturón de seguridad?",
+   "opciones": {
+    "a": "Sí, por el hecho de estar embarazada.",
+    "b": "Sí, pero solo dentro de poblado.",
+    "c": "No, salvo que disponga de un certificado de exención por razones médicas graves."
+   },
+   "correcta": "c",
+   "explicacion": "El embarazo no exime por sí solo. Solo están exentas las personas con certificado de exención por razones médicas graves o con discapacidad.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "119.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las personas provistas de un certificado de exención por razones médicas graves o discapacitadas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0009",
+   "tema": "seguridad_pasiva",
+   "subtema": "cinturon_exenciones",
+   "materia": 15,
+   "enunciado": "Un taxista que circula de servicio por una vía urbana, ¿está obligado a llevar abrochado el cinturón de seguridad?",
+   "opciones": {
+    "a": "Sí.",
+    "b": "No, los taxistas de servicio en vía urbana están exentos.",
+    "c": "Solo cuando lleva pasajeros."
+   },
+   "correcta": "a",
+   "explicacion": "Conductor y ocupantes deben usar el cinturón en vías urbanas e interurbanas. Las exenciones vigentes del art. 119 (marcha atrás o estacionamiento, certificado médico y urgencias en poblado) no incluyen a los taxistas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "117.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "El conductor y los ocupantes de los vehículos estarán obligados a utilizar, debidamente abrochados, los cinturones de seguridad homologados, tanto en la circulación por vías urbanas como interurbanas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0010",
+   "tema": "transporte_personas",
+   "subtema": "motocicletas_pasajeros",
+   "materia": 12,
+   "enunciado": "Como regla general, ¿qué edad debe tener una persona para viajar como pasajero en una motocicleta?",
+   "opciones": {
+    "a": "Más de 7 años.",
+    "b": "Más de 12 años.",
+    "c": "Más de 16 años."
+   },
+   "correcta": "b",
+   "explicacion": "Puede viajar un pasajero mayor de doce años, con casco homologado, a horcajadas y detrás del conductor, si así consta en el permiso o licencia de circulación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "12.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "un pasajero que sea mayor de doce años, utilice casco de protección homologado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0011",
+   "tema": "transporte_personas",
+   "subtema": "motocicletas_pasajeros",
+   "materia": 12,
+   "enunciado": "Un niño de 9 años, ¿puede viajar como pasajero en un ciclomotor?",
+   "opciones": {
+    "a": "No, en ningún caso.",
+    "b": "Sí, con cualquier conductor, si lleva casco homologado.",
+    "c": "Sí, si conduce su padre, madre, tutor o una persona mayor de edad autorizada por ellos, y lleva casco homologado."
+   },
+   "correcta": "c",
+   "explicacion": "Excepcionalmente, los mayores de siete años pueden ir en motocicleta o ciclomotor si conduce el padre, la madre, el tutor o una persona mayor de edad autorizada por ellos, con casco homologado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "12.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los mayores de siete años podrán circular en motocicletas o ciclomotores conducidos por su padre, madre o tutor o por personas mayores de edad por ellos autorizadas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0012",
+   "tema": "seguridad_pasiva",
+   "subtema": "casco",
+   "materia": 15,
+   "enunciado": "¿Cuándo pueden el conductor y el pasajero de una motocicleta circular sin casco?",
+   "opciones": {
+    "a": "Cuando la moto cuente con estructura de autoprotección y cinturones, conste así en la tarjeta ITV y usen el cinturón.",
+    "b": "En vías urbanas, si circulan a menos de 30 km/h.",
+    "c": "Nunca, en ningún caso."
+   },
+   "correcta": "a",
+   "explicacion": "Quedan exentos del casco (y de guantes y calzado cerrado) si el vehículo tiene estructura de autoprotección y cinturones, así consta en la tarjeta ITV, y usan el cinturón.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "118.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando los vehículos citados en el párrafo anterior cuenten con estructuras de autoprotección y estén dotados de cinturones de seguridad y así conste en la correspondiente tarjeta de inspección técnica",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0013",
+   "tema": "seguridad_pasiva",
+   "subtema": "casco",
+   "materia": 15,
+   "enunciado": "Un ciclista de 30 años, que no circula por motivos profesionales, va en bicicleta por una vía urbana. ¿Está obligado a llevar casco?",
+   "opciones": {
+    "a": "Sí, en todo tipo de vías.",
+    "b": "No. El casco es obligatorio en vías interurbanas y, para los menores de 16 años, en todo tipo de vías.",
+    "c": "Solo entre el ocaso y la salida del sol."
+   },
+   "correcta": "b",
+   "explicacion": "Para ciclistas el casco es obligatorio en vías interurbanas y, en todo tipo de vías, para los menores de dieciséis años. Los ciclistas profesionales también deben llevarlo en vías urbanas y travesías.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "118.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "en las vías interurbanas, siendo obligatorio su uso por los menores de dieciséis años en todo tipo de vías",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0014",
+   "tema": "transporte_personas",
+   "subtema": "bicicletas_pasajeros",
+   "materia": 12,
+   "enunciado": "En una bicicleta construida para una sola persona, se puede llevar a un menor en un asiento adicional que cumpla las especificaciones técnicas. ¿Hasta qué peso puede tener el menor?",
+   "opciones": {
+    "a": "Hasta 15 kg.",
+    "b": "Hasta 35 kg.",
+    "c": "Hasta 22 kg, si es capaz de sentarse por sí solo."
+   },
+   "correcta": "c",
+   "explicacion": "Las bicicletas para una sola persona pueden llevar menores de hasta 22 kg capaces de sentarse solos en asientos adicionales que cumplan las especificaciones del Ministerio del Interior.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "154.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las bicicletas y demás ciclos que, por construcción, no puedan ser ocupados por más de una persona, podrán transportar menores de hasta 22 kg que sean capaces de sentarse",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-per-0015",
+   "tema": "transporte_personas",
+   "subtema": "bicicletas_pasajeros",
+   "materia": 12,
+   "enunciado": "Para transportar un pasajero en una bicicleta, ¿qué requisito debe cumplir su conductor?",
+   "opciones": {
+    "a": "Ser mayor de edad.",
+    "b": "Ser mayor de 16 años.",
+    "c": "Ser titular de un permiso de conducción."
+   },
+   "correcta": "a",
+   "explicacion": "En bicicletas y ciclos se puede transportar carga y pasajeros si el conductor es mayor de edad y se cumplen los requisitos técnicos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "154.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "se podrá transportar carga y pasajeros si el conductor es mayor de edad",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0001",
+   "tema": "carga",
+   "subtema": "remolque_motocicleta",
+   "materia": 12,
+   "enunciado": "Una motocicleta arrastra un remolque. ¿Puede transportar personas en él?",
+   "opciones": {
+    "a": "Sí, si circula de día.",
+    "b": "No, en ningún caso.",
+    "c": "Sí, si son mayores de 12 años y llevan casco."
+   },
+   "correcta": "b",
+   "explicacion": "Las motocicletas, vehículos de tres ruedas y ciclomotores que arrastran remolque no pueden transportar personas en el vehículo remolcado en ningún caso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "12.3.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Que en ningún caso transporten personas en el vehículo remolcado.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0002",
+   "tema": "carga",
+   "subtema": "remolque_motocicleta",
+   "materia": 12,
+   "enunciado": "Un ciclomotor que arrastra un remolque, ¿cuándo puede circular?",
+   "opciones": {
+    "a": "También de noche, si el remolque lleva luces.",
+    "b": "Nunca: los ciclomotores no pueden arrastrar remolques.",
+    "c": "Solo de día y en condiciones que no disminuyan la visibilidad."
+   },
+   "correcta": "c",
+   "explicacion": "Motocicletas, vehículos de tres ruedas y ciclomotores pueden arrastrar remolque solo de día y sin condiciones que disminuyan la visibilidad (entre otras condiciones).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "12.3.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Que la circulación sea de día y en condiciones que no disminuyan la visibilidad.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0003",
+   "tema": "carga",
+   "subtema": "disposicion_carga",
+   "materia": 12,
+   "enunciado": "Lleva toda la carga colocada en un mismo lado de la caja de su furgoneta, bien sujeta. ¿Es correcto?",
+   "opciones": {
+    "a": "No, si compromete la estabilidad del vehículo.",
+    "b": "Sí, porque va bien sujeta.",
+    "c": "Sí, en vehículos de menos de 3.500 kg."
+   },
+   "correcta": "a",
+   "explicacion": "La carga debe ir dispuesta y, si es necesario, sujeta de modo que no pueda caer, desplazarse peligrosamente ni comprometer la estabilidad del vehículo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "14.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "a) Arrastrar, caer total o parcialmente o desplazarse de manera peligrosa. b) Comprometer la estabilidad del vehículo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0004",
+   "tema": "carga",
+   "subtema": "carga_descarga",
+   "materia": 12,
+   "enunciado": "Cuando sea inexcusable descargar mercancía en la vía, ¿dónde puede depositarla?",
+   "opciones": {
+    "a": "En la acera, si no impide el paso de los peatones.",
+    "b": "En ninguno de estos lugares: está prohibido depositarla en la calzada, en el arcén y en las zonas peatonales.",
+    "c": "En el arcén, si está señalizada."
+   },
+   "correcta": "b",
+   "explicacion": "Las operaciones deben hacerse sin depositar la mercancía en la calzada, el arcén ni las zonas peatonales.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "16.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Queda prohibido depositar la mercancía en la calzada, arcén y zonas peatonales.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0005",
+   "tema": "carga",
+   "subtema": "carga_descarga",
+   "materia": 12,
+   "enunciado": "Cuando sea inexcusable cargar o descargar en la vía, ¿por qué lado del vehículo se hará, en lo posible?",
+   "opciones": {
+    "a": "Por el lado más alejado del borde de la calzada.",
+    "b": "Siempre por la parte trasera.",
+    "c": "Por el lado más próximo al borde de la calzada."
+   },
+   "correcta": "c",
+   "explicacion": "La carga y descarga se efectuará, en lo posible, por el lado del vehículo más próximo al borde de la calzada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "16.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Se efectuarán, en lo posible, por el lado del vehículo más próximo al borde de la calzada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0006",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "Como norma general, ¿puede la carga sobresalir de la proyección en planta del vehículo?",
+   "opciones": {
+    "a": "No, salvo en los casos y condiciones previstos en el Reglamento.",
+    "b": "Sí, siempre que se señalice adecuadamente.",
+    "c": "Sí, hasta 1 metro por cualquier lado."
+   },
+   "correcta": "a",
+   "explicacion": "La regla general es que la carga no sobresalga de la proyección en planta, con las excepciones del propio artículo 15.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "La carga no sobresaldrá de la proyección en planta del vehículo, salvo en los casos y condiciones previstos en los apartados siguientes.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0007",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "Una furgoneta destinada exclusivamente al transporte de mercancías, de 4 metros de longitud, lleva un tubo de longitud indivisible. ¿Cuánto puede sobresalir como máximo por delante?",
+   "opciones": {
+    "a": "2 metros.",
+    "b": "Un tercio de la longitud del vehículo.",
+    "c": "El 10 % de la longitud del vehículo."
+   },
+   "correcta": "b",
+   "explicacion": "En vehículos exclusivamente de mercancías de longitud igual o inferior a 5 m, la carga indivisible puede sobresalir el tercio de la longitud del vehículo por cada extremo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.2.a.2º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En vehículos de longitud igual o inferior a cinco metros, el tercio de la longitud del vehículo por cada extremo anterior y posterior.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0008",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "Un camión de 8 metros de longitud, destinado exclusivamente al transporte de mercancías, transporta una viga indivisible. ¿Cuánto puede sobresalir la carga como máximo por la parte posterior?",
+   "opciones": {
+    "a": "2 metros.",
+    "b": "Un tercio de la longitud del camión.",
+    "c": "3 metros."
+   },
+   "correcta": "c",
+   "explicacion": "En vehículos exclusivamente de mercancías de más de 5 m, la carga indivisible puede sobresalir 2 m por delante y 3 m por detrás.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.2.a.1º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En vehículos de longitud superior a cinco metros, dos metros por la parte anterior y tres metros por la posterior.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0009",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "En un autobús, ¿cuánto puede sobresalir la carga por su parte delantera?",
+   "opciones": {
+    "a": "Nada.",
+    "b": "2 metros, si la carga es indivisible.",
+    "c": "Un tercio de la longitud del vehículo."
+   },
+   "correcta": "a",
+   "explicacion": "En los vehículos no destinados exclusivamente al transporte de mercancías la carga solo puede sobresalir por la parte posterior (10 %, o 15 % si es indivisible).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En el resto de los vehículos no destinados exclusivamente al transporte de mercancías la carga podrá sobresalir por la parte posterior hasta un 10 por ciento de su longitud, y si fuera indivisible, un 15 por ciento.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0010",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "En un turismo, ¿cuánto puede sobresalir por detrás una carga indivisible?",
+   "opciones": {
+    "a": "Hasta un 10 % de la longitud del vehículo.",
+    "b": "Hasta un 15 % de la longitud del vehículo.",
+    "c": "Hasta 3 metros."
+   },
+   "correcta": "b",
+   "explicacion": "En vehículos no destinados exclusivamente a mercancías, la carga puede sobresalir por detrás hasta el 10 % de su longitud, o el 15 % si es indivisible.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "la carga podrá sobresalir por la parte posterior hasta un 10 por ciento de su longitud, y si fuera indivisible, un 15 por ciento",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0011",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "En un turismo, ¿puede sobresalir la carga por los laterales?",
+   "opciones": {
+    "a": "Sí, hasta 0,40 metros por cada lado.",
+    "b": "Sí, hasta 0,50 metros por cada lado.",
+    "c": "No."
+   },
+   "correcta": "c",
+   "explicacion": "En los vehículos no destinados exclusivamente al transporte de mercancías la carga solo puede sobresalir por la parte posterior.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En el resto de los vehículos no destinados exclusivamente al transporte de mercancías la carga podrá sobresalir por la parte posterior",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0012",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "Un camión transporta una carga indivisible cuya dimensión menor es superior al ancho del vehículo. ¿Cuánto puede sobresalir por cada lateral?",
+   "opciones": {
+    "a": "Hasta 0,40 metros por cada lateral, siempre que el ancho total no supere 2,55 metros.",
+    "b": "Hasta 0,50 metros por cada lateral, sin otro límite.",
+    "c": "Hasta 1 metro por cada lateral."
+   },
+   "correcta": "a",
+   "explicacion": "En vehículos exclusivamente de mercancías, si la dimensión menor de la carga indivisible supera el ancho del vehículo, puede sobresalir 0,40 m por cada lateral con un ancho total máximo de 2,55 m.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "podrá sobresalir hasta 0,40 metros por cada lateral, siempre que el ancho total no sea superior a 2,55 metros",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0013",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "En una motocicleta de anchura inferior a 1 metro, ¿cuánto puede sobresalir la carga por la parte posterior?",
+   "opciones": {
+    "a": "0,50 metros como máximo.",
+    "b": "0,25 metros como máximo.",
+    "c": "El 10 % de su longitud."
+   },
+   "correcta": "b",
+   "explicacion": "En vehículos de anchura inferior a 1 m la carga no puede sobresalir por delante ni más de 0,25 m por detrás.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "No podrá sobresalir por la extremidad anterior, ni más de 0,25 metros por la posterior.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0014",
+   "tema": "carga",
+   "subtema": "dimensiones_carga",
+   "materia": 12,
+   "enunciado": "En un vehículo de anchura inferior a 1 metro, ¿cuánto puede sobresalir lateralmente la carga?",
+   "opciones": {
+    "a": "No más de 0,25 metros a cada lado de su eje longitudinal.",
+    "b": "No más de 0,40 metros desde el borde exterior del vehículo.",
+    "c": "No más de 0,50 metros a cada lado de su eje longitudinal."
+   },
+   "correcta": "c",
+   "explicacion": "En vehículos de anchura inferior a 1 m la carga no debe sobresalir lateralmente más de 0,50 m a cada lado de su eje longitudinal.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "la carga no deberá sobresalir lateralmente más de 0,50 metros a cada lado de su eje longitudinal",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0015",
+   "tema": "carga",
+   "subtema": "senalizacion_carga",
+   "materia": 12,
+   "enunciado": "La carga sobresale por detrás de su turismo, dentro de los límites permitidos. ¿Cómo debe señalizarla?",
+   "opciones": {
+    "a": "Con la señal V-20 en todo caso y, además, de noche o con visibilidad reducida, con una luz roja.",
+    "b": "Solo de noche, con una luz roja.",
+    "c": "Con la señal V-20, pero solo entre la puesta y la salida del sol."
+   },
+   "correcta": "a",
+   "explicacion": "La carga que sobresale por detrás debe señalizarse siempre con la señal V-20; de noche o con visibilidad sensiblemente reducida se añade una luz roja.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.6",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "la carga que sobresalga por detrás de los vehículos a que se refieren los apartados 2 y 3 deberá ser señalizada por medio de la señal V-20",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0016",
+   "tema": "carga",
+   "subtema": "senalizacion_carga",
+   "materia": 12,
+   "enunciado": "De noche, ¿cómo debe señalizarse la carga que sobresale por delante del vehículo?",
+   "opciones": {
+    "a": "Con una luz roja.",
+    "b": "Con una luz blanca.",
+    "c": "Con una luz amarilla auto intermitente."
+   },
+   "correcta": "b",
+   "explicacion": "Entre la puesta y la salida del sol, si la carga sobresale por delante, se señaliza con luz blanca; si sobresale por detrás, con luz roja además de la V-20.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "15.6",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando la carga sobresalga por delante, la señalización deberá hacerse por medio de una luz blanca.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-sev-0002",
+   "tema": "senales_vehiculo",
+   "subtema": "v6_vehiculo_largo",
+   "materia": 1,
+   "enunciado": "La señal V-6 de «vehículo largo» indica que el vehículo o conjunto de vehículos tiene una longitud superior a...",
+   "opciones": {
+    "a": "10 metros.",
+    "b": "12 metros.",
+    "c": "18,75 metros."
+   },
+   "correcta": "b",
+   "explicacion": "La V-6 indica que el vehículo o conjunto tiene una longitud superior a 12 metros.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-6",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Indica que el vehículo o conjunto de vehículos tiene una longitud superior a 12 metros.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-sev-0003",
+   "tema": "senales_vehiculo",
+   "subtema": "v9_servicio_publico",
+   "materia": 1,
+   "enunciado": "¿Qué indica la placa con las letras «S.P.» (señal V-9) colocada junto a la matrícula?",
+   "opciones": {
+    "a": "Que el vehículo es de servicio particular.",
+    "b": "Que el vehículo es prioritario en servicio de urgencia.",
+    "c": "Que el vehículo está dedicado a prestar servicios públicos."
+   },
+   "correcta": "c",
+   "explicacion": "La señal V-9 indica que el vehículo está dedicado a prestar servicios públicos.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-9",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Indica que el vehículo está dedicado a prestar servicios públicos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-sev-0004",
+   "tema": "senales_vehiculo",
+   "subtema": "v13_conductor_novel",
+   "materia": 10,
+   "enunciado": "¿Durante cuánto tiempo debe llevar la señal V-13 (L de conductor novel) quien obtiene por primera vez un permiso de conducción?",
+   "opciones": {
+    "a": "Un año.",
+    "b": "Dos años.",
+    "c": "Tres años."
+   },
+   "correcta": "a",
+   "explicacion": "Deben llevar la señal V-13 los vehículos cuyos conductores hayan obtenido por primera vez un permiso de conducción, durante el período de un año.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-13",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Deberán llevar esta señal los vehículos cuyos conductores hayan obtenido por primera vez un permiso de conducción durante el período de un año.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-sev-0005",
+   "tema": "senales_vehiculo",
+   "subtema": "v13_conductor_novel",
+   "materia": 10,
+   "enunciado": "¿Dónde debe colocarse la señal V-13 de conductor novel en un turismo?",
+   "opciones": {
+    "a": "En la parte posterior derecha.",
+    "b": "En la parte posterior izquierda, en sitio visible.",
+    "c": "En el ángulo superior derecho del parabrisas."
+   },
+   "correcta": "b",
+   "explicacion": "La V-13 se coloca en la parte posterior izquierda del vehículo, en sitio visible (en motos basta con la parte posterior).",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-13",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Esta señal deberá estar colocada en la parte posterior izquierda del vehículo, en sitio visible.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-sev-0006",
+   "tema": "senales_vehiculo",
+   "subtema": "v13_conductor_novel",
+   "materia": 10,
+   "enunciado": "¿Qué dimensiones tiene la placa V-13 de conductor novel para un turismo?",
+   "opciones": {
+    "a": "195 mm de anchura y 150 mm de altura.",
+    "b": "100 mm de anchura y 130 mm de altura.",
+    "c": "150 mm de anchura y 195 mm de altura."
+   },
+   "correcta": "c",
+   "explicacion": "Para vehículos distintos de motocicletas, vehículos de tres ruedas, cuadriciclos y de movilidad reducida, la placa mide 150 mm de ancho por 195 mm de alto (100 x 130 mm es la medida para motocicletas).",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-13",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Anchura de la placa Altura de la placa Altura de la letra L Anchura de la letra L Anchura del trazo de la letra L Motocicletas, vehículos para personas de movilidad reducida y Demás vehículos vehículos de tres ruedas y cuatriciclos 100 150 130 195",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-sev-0007",
+   "tema": "senales_vehiculo",
+   "subtema": "v16_presenalizacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica el dispositivo luminoso V-16 colocado sobre un vehículo?",
+   "opciones": {
+    "a": "Que el vehículo ha quedado inmovilizado en la calzada o que su carga ha caído sobre ella.",
+    "b": "Que el vehículo es lento y no supera los 40 km/h.",
+    "c": "Que el vehículo transporta una carga que sobresale."
+   },
+   "correcta": "a",
+   "explicacion": "La V-16 indica que el vehículo está inmovilizado en la calzada o que su carga ha caído sobre la misma.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-16",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Indica que el vehículo ha quedado inmovilizado en la calzada o que su carga se encuentra caída sobre la misma.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0001",
+   "tema": "documentacion",
+   "subtema": "itv_distintivo",
+   "materia": 10,
+   "enunciado": "En un turismo, ¿dónde debe colocarse el distintivo de la inspección técnica periódica (V-19)?",
+   "opciones": {
+    "a": "En el ángulo inferior izquierdo del parabrisas, por su cara exterior.",
+    "b": "En el ángulo superior derecho del parabrisas, por su cara interior.",
+    "c": "En la luneta trasera."
+   },
+   "correcta": "b",
+   "explicacion": "En vehículos con parabrisas, el distintivo de ITV se coloca en el ángulo superior derecho del parabrisas por su cara interior.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-19",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "el distintivo se colocará en el ángulo superior derecho del parabrisas por su cara interior",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0002",
+   "tema": "documentacion",
+   "subtema": "itv_distintivo",
+   "materia": 10,
+   "enunciado": "¿Qué indica el distintivo de inspección técnica periódica (V-19)?",
+   "opciones": {
+    "a": "La clasificación ambiental del vehículo.",
+    "b": "Que el vehículo tiene en vigor el seguro obligatorio.",
+    "c": "Que el vehículo ha superado favorablemente la ITV periódica y la fecha en que debe pasar la próxima."
+   },
+   "correcta": "c",
+   "explicacion": "El distintivo V-19 indica que el vehículo ha superado favorablemente la ITV periódica y la fecha de la próxima inspección.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-19",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Indica que el vehículo ha superado favorablemente la inspección técnica periódica, así como la fecha en que debe pasar la próxima inspección.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0003",
+   "tema": "documentacion",
+   "subtema": "documentacion_vehiculo",
+   "materia": 10,
+   "enunciado": "¿Qué documentos del vehículo debe llevar consigo el conductor de un turismo, según el Reglamento General de Vehículos?",
+   "opciones": {
+    "a": "El permiso de circulación y la tarjeta de inspección técnica.",
+    "b": "Solo el permiso de circulación.",
+    "c": "La factura de compra y la tarjeta de inspección técnica."
+   },
+   "correcta": "a",
+   "explicacion": "El conductor debe llevar y exhibir el permiso de circulación (o autorización provisional) y la tarjeta de inspección técnica.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "26.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "El permiso de circulación o licencia de circulación en el caso de ciclomotores. El permiso de circulación podrá ser sustituido por una autorización provisional expedida por la Jefatura de Tráfico, que surtirá los mismos efectos. b) La tarjeta de inspección técnica",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0004",
+   "tema": "documentacion",
+   "subtema": "documentacion_vehiculo",
+   "materia": 10,
+   "enunciado": "En el caso de un ciclomotor, ¿qué documento sustituye a la tarjeta de inspección técnica?",
+   "opciones": {
+    "a": "El permiso de circulación.",
+    "b": "El certificado de características técnicas.",
+    "c": "Ninguno; los ciclomotores no necesitan documentación técnica."
+   },
+   "correcta": "b",
+   "explicacion": "Los ciclomotores llevan licencia de circulación y certificado de características técnicas en lugar de permiso de circulación y tarjeta ITV.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "26.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "La tarjeta de inspección técnica o el certificado de características técnicas en el supuesto de ciclomotores.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0005",
+   "tema": "documentacion",
+   "subtema": "documentacion_vehiculo",
+   "materia": 10,
+   "enunciado": "¿Pueden llevarse en el vehículo fotocopias de su documentación en lugar de los originales?",
+   "opciones": {
+    "a": "No, siempre deben ser los originales.",
+    "b": "Sí, cualquier fotocopia es válida.",
+    "c": "Sí, si están debidamente cotejadas."
+   },
+   "correcta": "c",
+   "explicacion": "Los documentos deben ser originales, aunque pueden sustituirse por fotocopias debidamente cotejadas.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "26.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "serán originales, pudiendo ser sustituidos por fotocopias si están debidamente cotejadas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0006",
+   "tema": "documentacion",
+   "subtema": "tarjeta_itv",
+   "materia": 10,
+   "enunciado": "Usted instala en su vehículo una reforma que debe ser autorizada. ¿Dónde debe constar?",
+   "opciones": {
+    "a": "En la tarjeta de inspección técnica.",
+    "b": "En el permiso de conducción.",
+    "c": "En la póliza del seguro obligatorio."
+   },
+   "correcta": "a",
+   "explicacion": "La tarjeta de inspección técnica documenta las características técnicas esenciales del vehículo y en ella se hacen constar las reformas autorizadas.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "67.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "tendrán documentadas sus características técnicas esenciales en la tarjeta de inspección técnica, en la que se harán constar las reformas que se autoricen",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0007",
+   "tema": "documentacion",
+   "subtema": "remolques",
+   "materia": 10,
+   "enunciado": "Se considera remolque ligero aquel cuya masa máxima autorizada no excede de...",
+   "opciones": {
+    "a": "500 kg.",
+    "b": "750 kg.",
+    "c": "3.500 kg."
+   },
+   "correcta": "b",
+   "explicacion": "Remolque ligero es aquel cuya masa máxima autorizada no excede de 750 kg (se excluyen los agrícolas).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.21",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Remolque ligero. Aquél cuya masa máxima autorizada no exceda de 750 kg.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0008",
+   "tema": "documentacion",
+   "subtema": "remolques",
+   "materia": 10,
+   "enunciado": "Un turismo arrastra un remolque de 600 kg de masa máxima autorizada. ¿Qué documento del remolque debe llevar el conductor?",
+   "opciones": {
+    "a": "El permiso de circulación del remolque.",
+    "b": "Ninguno, porque es un remolque ligero.",
+    "c": "La tarjeta de inspección técnica del remolque."
+   },
+   "correcta": "c",
+   "explicacion": "En conjuntos con remolque de MMA igual o inferior a 750 kg se lleva la tarjeta de inspección técnica del remolque, y en la del automóvil debe constar que tiene un enganche compatible.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "26.1.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "cuya masa máxima autorizada sea inferior o igual a 750 kilogramos, la tarjeta de inspección técnica del remolque o semirremolque",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-doc-0009",
+   "tema": "documentacion",
+   "subtema": "remolques",
+   "materia": 10,
+   "enunciado": "¿Es preciso matricular un remolque de 600 kg de masa máxima autorizada?",
+   "opciones": {
+    "a": "No; solo hay que matricular los remolques de masa máxima autorizada superior a 750 kg.",
+    "b": "Sí, todos los remolques deben matricularse.",
+    "c": "Solo si lo arrastra un vehículo distinto de un turismo."
+   },
+   "correcta": "a",
+   "explicacion": "Deben matricularse los vehículos de motor y los remolques y semirremolques de MMA superior a 750 kg.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "25.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "así como remolques y semirremolques de masa máxima autorizada superior a 750 kilogramos, será preciso matricularlos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0001",
+   "tema": "permiso_conduccion",
+   "subtema": "permiso_b",
+   "materia": 10,
+   "enunciado": "¿Qué automóviles autoriza a conducir el permiso de la clase B?",
+   "opciones": {
+    "a": "Los de MMA no superior a 7.500 kg y hasta 8 pasajeros además del conductor.",
+    "b": "Los de MMA no superior a 3.500 kg diseñados para transportar no más de 8 pasajeros además del conductor.",
+    "c": "Los de MMA no superior a 3.500 kg y hasta 9 pasajeros además del conductor."
+   },
+   "correcta": "b",
+   "explicacion": "El B autoriza automóviles de MMA no superior a 3.500 kg para no más de ocho pasajeros además del conductor (nueve plazas en total).",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase B)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Automóviles cuya masa máxima autorizada no exceda de 3.500 kg que estén diseñados y construidos para el transporte de no más de ocho pasajeros además del conductor.",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0002",
+   "tema": "permiso_conduccion",
+   "subtema": "permiso_b",
+   "materia": 10,
+   "enunciado": "Un camión de reparto de 3.200 kg de masa máxima autorizada, con plazas para el conductor y dos pasajeros, ¿se puede conducir con permiso B?",
+   "opciones": {
+    "a": "No, necesita el permiso C1.",
+    "b": "No, necesita el permiso C.",
+    "c": "Sí."
+   },
+   "correcta": "c",
+   "explicacion": "El permiso B autoriza cualquier automóvil de MMA no superior a 3.500 kg diseñado para no más de 8 pasajeros además del conductor, también si es un camión.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase B)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Automóviles cuya masa máxima autorizada no exceda de 3.500 kg que estén diseñados y construidos para el transporte de no más de ocho pasajeros además del conductor.",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0003",
+   "tema": "permiso_conduccion",
+   "subtema": "remolques",
+   "materia": 10,
+   "enunciado": "Con un turismo arrastra un remolque de 700 kg de MMA. ¿Qué permiso necesita?",
+   "opciones": {
+    "a": "El B.",
+    "b": "El B+E.",
+    "c": "El B con la prueba específica para conjuntos (código 96)."
+   },
+   "correcta": "a",
+   "explicacion": "Los automóviles que autoriza el B pueden llevar enganchado un remolque de MMA no superior a 750 kg sin más requisitos.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase B)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Dichos automóviles podrán llevar enganchado un remolque cuya masa máxima autorizada no exceda de 750 kg.",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0004",
+   "tema": "permiso_conduccion",
+   "subtema": "remolques",
+   "materia": 10,
+   "enunciado": "Un turismo de 2.000 kg de MMA arrastra un remolque de 1.000 kg de MMA (conjunto de 3.000 kg). ¿Qué permiso necesita?",
+   "opciones": {
+    "a": "El B, tras superar la prueba específica para conjuntos (código 96).",
+    "b": "El B, sin requisitos adicionales.",
+    "c": "El C1."
+   },
+   "correcta": "b",
+   "explicacion": "Con remolque de más de 750 kg, el B basta si el conjunto no supera 3.500 kg; la prueba adicional solo se exige si el conjunto excede de 3.500 kg (hasta 4.250 kg).",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "5.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Para conducir un conjunto formado por un vehículo tractor de la categoría B y un remolque cuya masa máxima autorizada sea superior a 750 kg, en el caso de que el conjunto así formado exceda de 3.500 kg, será necesario superar la prueba",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0005",
+   "tema": "permiso_conduccion",
+   "subtema": "remolques",
+   "materia": 10,
+   "enunciado": "Un turismo de 3.000 kg de MMA arrastra un remolque de 1.000 kg de MMA (conjunto de 4.000 kg). ¿Qué necesita para conducirlo?",
+   "opciones": {
+    "a": "El permiso B, sin ningún requisito adicional.",
+    "b": "El permiso C1.",
+    "c": "El permiso B, habiendo superado la prueba específica para estos conjuntos (código 96)."
+   },
+   "correcta": "c",
+   "explicacion": "Si el remolque supera 750 kg y el conjunto excede de 3.500 kg sin pasar de 4.250 kg, se puede conducir con B tras superar la prueba o formación específica (código comunitario 96).",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "Anexo I (código 96)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Vehículos de categoría B que lleven enganchado un remolque cuya masa máxima autorizada sea superior a 750 kg, siempre que la masa máxima autorizada de esta combinación exceda de 3.500 kg, pero no sobrepase los 4.250 kg.",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0006",
+   "tema": "permiso_conduccion",
+   "subtema": "remolques",
+   "materia": 10,
+   "enunciado": "Un turismo de 3.500 kg de MMA arrastra un remolque de 1.000 kg de MMA (conjunto de 4.500 kg). ¿Qué permiso necesita?",
+   "opciones": {
+    "a": "El B+E.",
+    "b": "El B con la prueba específica para conjuntos (código 96).",
+    "c": "Solo el B."
+   },
+   "correcta": "a",
+   "explicacion": "Con el B (incluso con el código 96) el conjunto no puede superar 4.250 kg. El B+E autoriza un tractor de clase B con remolque de hasta 3.500 kg de MMA.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase B+E)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Conjuntos de vehículos acoplados compuestos por un vehículo tractor de los que autoriza a conducir el permiso de la clase B y un remolque o semirremolque cuya masa máxima autorizada no exceda de 3.500 kg",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0007",
+   "tema": "permiso_conduccion",
+   "subtema": "permiso_b",
+   "materia": 10,
+   "enunciado": "Con un permiso B de más de tres años de antigüedad, ¿puede conducir en España una motocicleta de 125 cm³ de las que autoriza el A1?",
+   "opciones": {
+    "a": "No, necesita el permiso A1.",
+    "b": "Sí, dentro del territorio nacional.",
+    "c": "Sí, y además cualquier motocicleta de más de 125 cm³."
+   },
+   "correcta": "b",
+   "explicacion": "Con el permiso B con antigüedad superior a tres años se pueden conducir en España las motocicletas que autoriza el A1.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase B, excepciones)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "con una antigüedad superior a tres años, las motocicletas cuya conducción autoriza el permiso de la clase A1",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0008",
+   "tema": "permiso_conduccion",
+   "subtema": "permiso_b",
+   "materia": 10,
+   "enunciado": "¿Autoriza el permiso de la clase B a conducir ciclomotores?",
+   "opciones": {
+    "a": "No, siempre se necesita el permiso AM.",
+    "b": "Solo después de tres años de antigüedad.",
+    "c": "Sí."
+   },
+   "correcta": "c",
+   "explicacion": "Entre los vehículos que autoriza el permiso B están los ciclomotores.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase B)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "3. Triciclos y cuatriciclos de motor. 4. Ciclomotores. 5. Vehículos para personas de movilidad reducida.",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0009",
+   "tema": "permiso_conduccion",
+   "subtema": "vehiculos_especiales",
+   "materia": 10,
+   "enunciado": "¿Qué vehículos especiales no agrícolas se pueden conducir con el permiso B?",
+   "opciones": {
+    "a": "Los que no superen 40 km/h de velocidad máxima autorizada y tampoco superen 3.500 kg de MMA.",
+    "b": "Los que no superen 40 km/h, cualquiera que sea su masa.",
+    "c": "Todos, cualquiera que sea su masa y velocidad."
+   },
+   "correcta": "a",
+   "explicacion": "Para vehículos especiales no agrícolas basta el B si no superan 40 km/h ni 3.500 kg de MMA; si superan cualquiera de los límites se requiere el permiso correspondiente a su MMA.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "5.8",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Para conducir vehículos especiales no agrícolas o sus conjuntos cuya velocidad máxima autorizada no exceda de 40 km/h, y su masa máxima autorizada no exceda de 3.500 kg, se requerirá permiso de la clase B.",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0010",
+   "tema": "permiso_conduccion",
+   "subtema": "vehiculos_especiales",
+   "materia": 10,
+   "enunciado": "Con el permiso B, ¿puede conducir un tractor agrícola de 4.500 kg de masa máxima autorizada?",
+   "opciones": {
+    "a": "No, necesita el permiso C1.",
+    "b": "Sí.",
+    "c": "No, necesita el permiso C."
+   },
+   "correcta": "b",
+   "explicacion": "Los vehículos especiales agrícolas autopropulsados pueden conducirse con el B (o licencia); si superan los límites de masa o dimensiones de los vehículos ordinarios o 45 km/h, se requiere el B en todo caso.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "5.9",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "se podrán conducir con el permiso de la clase B, o con la licencia de conducción a que se refiere el artículo 6.1.b)",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0011",
+   "tema": "permiso_conduccion",
+   "subtema": "clases_permiso",
+   "materia": 10,
+   "enunciado": "¿Qué requisito de permiso previo se exige para obtener el permiso de la clase A?",
+   "opciones": {
+    "a": "Ser titular del permiso A1 con, al menos, un año de antigüedad.",
+    "b": "Ser titular del permiso B con, al menos, tres años de antigüedad.",
+    "c": "Ser titular del permiso A2 con, al menos, dos años de antigüedad."
+   },
+   "correcta": "c",
+   "explicacion": "El permiso A solo puede expedirse a titulares de un A2 en vigor con al menos dos años de antigüedad (y superando una formación).",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "5.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "El permiso de la clase A sólo podrá expedirse a conductores que ya sean titulares de un permiso en vigor de la clase A2 con, al menos, dos años de antigüedad.",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0012",
+   "tema": "permiso_conduccion",
+   "subtema": "clases_permiso",
+   "materia": 10,
+   "enunciado": "El permiso de la clase A1 autoriza a conducir motocicletas con una cilindrada máxima de...",
+   "opciones": {
+    "a": "125 cm³.",
+    "b": "50 cm³.",
+    "c": "250 cm³."
+   },
+   "correcta": "a",
+   "explicacion": "El A1 autoriza motocicletas de hasta 125 cm³, 11 kW y 0,1 kW/kg, y triciclos de motor de hasta 15 kW.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase A1)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Motocicletas con una cilindrada máxima de 125 cm3, una potencia máxima de 11 kW",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0013",
+   "tema": "permiso_conduccion",
+   "subtema": "clases_permiso",
+   "materia": 10,
+   "enunciado": "El permiso C1 autoriza a conducir automóviles cuya masa máxima autorizada...",
+   "opciones": {
+    "a": "no exceda de 3.500 kg.",
+    "b": "exceda de 3.500 kg y no sobrepase los 7.500 kg.",
+    "c": "exceda de 7.500 kg."
+   },
+   "correcta": "b",
+   "explicacion": "El C1 autoriza automóviles (distintos de los de D1 y D) de MMA superior a 3.500 kg y no superior a 7.500 kg, para no más de ocho pasajeros además del conductor.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase C1)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "cuya masa máxima autorizada exceda de 3.500 kg y no sobrepase los 7.500 kg",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0014",
+   "tema": "permiso_conduccion",
+   "subtema": "clases_permiso",
+   "materia": 10,
+   "enunciado": "El permiso D1 autoriza a conducir automóviles diseñados para el transporte de...",
+   "opciones": {
+    "a": "no más de 8 pasajeros además del conductor.",
+    "b": "cualquier número de pasajeros, sin límite de longitud.",
+    "c": "no más de 16 pasajeros además del conductor, con una longitud máxima de 8 metros."
+   },
+   "correcta": "c",
+   "explicacion": "El D1 autoriza automóviles para no más de dieciséis pasajeros además del conductor (17 plazas) y de longitud no superior a ocho metros.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase D1)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "Automóviles diseñados y construidos para el transporte de no más de dieciséis pasajeros además del conductor y cuya longitud máxima no exceda de ocho metros.",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0015",
+   "tema": "permiso_conduccion",
+   "subtema": "clases_permiso",
+   "materia": 10,
+   "enunciado": "¿Qué permiso se necesita para conducir un camión de la clase C con un remolque de más de 750 kg de MMA?",
+   "opciones": {
+    "a": "El C+E.",
+    "b": "El C, sin más.",
+    "c": "El B+E."
+   },
+   "correcta": "a",
+   "explicacion": "El C+E autoriza conjuntos formados por un tractor de la clase C y un remolque o semirremolque de MMA superior a 750 kg.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "4.2 (clase C+E)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "que autoriza a conducir el permiso de la clase C y un remolque o semirremolque cuya masa máxima autorizada exceda de 750 kg",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0016",
+   "tema": "permiso_conduccion",
+   "subtema": "vigencia",
+   "materia": 10,
+   "enunciado": "¿Cuál es el período de vigencia del permiso B de un titular de 40 años?",
+   "opciones": {
+    "a": "Cinco años.",
+    "b": "Diez años.",
+    "c": "Quince años."
+   },
+   "correcta": "b",
+   "explicacion": "El permiso B tiene una vigencia de diez años hasta que el titular cumple 65 años, y de cinco a partir de esa edad.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "12.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "tendrán un período de vigencia de diez años mientras su titular no cumpla los sesenta y cinco años y de cinco años a partir de esa edad",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-perm-0017",
+   "tema": "permiso_conduccion",
+   "subtema": "vigencia",
+   "materia": 10,
+   "enunciado": "¿Cuál es el período de vigencia del permiso B de un titular de 70 años?",
+   "opciones": {
+    "a": "Diez años.",
+    "b": "Dos años.",
+    "c": "Cinco años."
+   },
+   "correcta": "c",
+   "explicacion": "A partir de los 65 años, la vigencia del permiso B es de cinco años (puede reducirse por motivos médicos).",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "12.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "tendrán un período de vigencia de diez años mientras su titular no cumpla los sesenta y cinco años y de cinco años a partir de esa edad",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0001",
+   "tema": "puntos",
+   "subtema": "saldo_inicial",
+   "materia": 10,
+   "enunciado": "Con carácter general, ¿cuál es el crédito inicial de puntos asignado al titular de un permiso de conducción?",
+   "opciones": {
+    "a": "12 puntos.",
+    "b": "8 puntos.",
+    "c": "15 puntos."
+   },
+   "correcta": "a",
+   "explicacion": "Al titular de un permiso se le asigna un crédito inicial de doce puntos; ocho en los casos excepcionales de la ley.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "63.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Al titular de un permiso o licencia de conducción se le asignará un crédito inicial de doce puntos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0002",
+   "tema": "puntos",
+   "subtema": "saldo_inicial",
+   "materia": 10,
+   "enunciado": "¿Con cuántos puntos empieza quien obtiene su primer permiso de conducción?",
+   "opciones": {
+    "a": "12 puntos.",
+    "b": "8 puntos.",
+    "c": "6 puntos."
+   },
+   "correcta": "b",
+   "explicacion": "Se asignan 8 puntos al titular de un permiso con antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso con esa antigüedad.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "63.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0003",
+   "tema": "puntos",
+   "subtema": "recuperacion",
+   "materia": 10,
+   "enunciado": "Un conductor novel empezó con 8 puntos. ¿Cuándo pasa a disponer de 12 puntos?",
+   "opciones": {
+    "a": "Al cumplir un año de antigüedad, cuando deja de llevar la L.",
+    "b": "A los tres años, aunque haya sido sancionado.",
+    "c": "Cuando transcurren dos años sin ser sancionado en firme por infracciones que impliquen pérdida de puntos."
+   },
+   "correcta": "c",
+   "explicacion": "Los titulares con 8 puntos iniciales pasan a tener 12 si en dos años no son sancionados en firme por infracciones que impliquen pérdida de puntos.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "65.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "transcurrido el plazo de dos años sin haber sido sancionados en firme en vía administrativa por la comisión de infracciones que impliquen la pérdida de puntos, pasarán a disponer de un total de doce puntos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0004",
+   "tema": "puntos",
+   "subtema": "recuperacion",
+   "materia": 10,
+   "enunciado": "Un conductor tiene 5 puntos y pasan dos años sin ser sancionado en firme por infracciones que lleven pérdida de puntos. ¿Qué ocurre?",
+   "opciones": {
+    "a": "Recupera la totalidad del crédito inicial de 12 puntos.",
+    "b": "Recupera 2 puntos.",
+    "c": "Recupera 4 puntos."
+   },
+   "correcta": "a",
+   "explicacion": "Transcurridos dos años sin sanciones firmes que lleven aparejada pérdida de puntos, se recupera la totalidad del crédito inicial de doce puntos.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "65.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "afectado por la pérdida parcial de puntos recuperará la totalidad del crédito inicial de doce puntos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0005",
+   "tema": "puntos",
+   "subtema": "curso_recuperacion_parcial",
+   "materia": 10,
+   "enunciado": "¿Cuántos puntos se pueden recuperar como máximo con un curso de sensibilización y reeducación vial de recuperación parcial?",
+   "opciones": {
+    "a": "4 puntos.",
+    "b": "6 puntos.",
+    "c": "8 puntos."
+   },
+   "correcta": "b",
+   "explicacion": "La recuperación parcial mediante curso permite recuperar hasta un máximo de seis puntos.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "65.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0006",
+   "tema": "puntos",
+   "subtema": "curso_recuperacion_parcial",
+   "materia": 10,
+   "enunciado": "Un conductor no profesional, ¿con qué frecuencia máxima puede realizar el curso de recuperación parcial de puntos?",
+   "opciones": {
+    "a": "Una vez al año.",
+    "b": "Sin límite, siempre que tenga saldo positivo.",
+    "c": "Una sola vez cada dos años."
+   },
+   "correcta": "c",
+   "explicacion": "El curso de recuperación parcial puede hacerse una sola vez cada dos años; los conductores profesionales, con frecuencia anual.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "65.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "hasta un máximo de seis puntos, por una sola vez cada dos años",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0007",
+   "tema": "puntos",
+   "subtema": "curso_recuperacion_parcial",
+   "materia": 10,
+   "enunciado": "Los conductores profesionales, ¿con qué frecuencia pueden realizar el curso de recuperación parcial de puntos?",
+   "opciones": {
+    "a": "Con frecuencia anual.",
+    "b": "Una vez cada dos años, como el resto.",
+    "c": "Una vez cada tres años."
+   },
+   "correcta": "a",
+   "explicacion": "Los conductores profesionales son la excepción: pueden hacer el curso de recuperación parcial con frecuencia anual.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "65.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "con la excepción de los conductores profesionales que podrán realizar el citado curso con frecuencia anual",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0008",
+   "tema": "puntos",
+   "subtema": "curso_recuperacion_parcial",
+   "materia": 10,
+   "enunciado": "Según la Ley de Tráfico, ¿cuál es la duración máxima de los cursos de recuperación parcial de puntos?",
+   "opciones": {
+    "a": "Diez horas.",
+    "b": "Quince horas.",
+    "c": "Veinticuatro horas."
+   },
+   "correcta": "b",
+   "explicacion": "La ley fija que la duración de los cursos de recuperación parcial será como máximo de quince horas.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "65.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "En todo caso, la duración de los citados cursos será como máximo de quince horas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0009",
+   "tema": "puntos",
+   "subtema": "perdida_vigencia",
+   "materia": 10,
+   "enunciado": "Un conductor no profesional pierde todos sus puntos por primera vez. ¿Cuánto tiempo debe pasar, desde la notificación, para que pueda obtener un nuevo permiso?",
+   "opciones": {
+    "a": "Tres meses.",
+    "b": "Doce meses.",
+    "c": "Seis meses."
+   },
+   "correcta": "c",
+   "explicacion": "Tras la pérdida de vigencia por falta de puntos no se puede obtener un nuevo permiso hasta pasados seis meses desde la notificación (tres para profesionales; doce si se reincide en los tres años siguientes).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "71.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "no podrá obtener un nuevo permiso o una nueva licencia de conducción hasta transcurridos seis meses desde la notificación del acuerdo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0010",
+   "tema": "puntos",
+   "subtema": "perdida_vigencia",
+   "materia": 10,
+   "enunciado": "En el caso de un conductor profesional que pierde todos sus puntos por primera vez, ¿cuál es el plazo para obtener un nuevo permiso?",
+   "opciones": {
+    "a": "Tres meses.",
+    "b": "Seis meses.",
+    "c": "Un mes."
+   },
+   "correcta": "a",
+   "explicacion": "Para los conductores profesionales el plazo de seis meses se reduce a tres meses.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "71.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Este plazo se reducirá a tres meses en el caso de conductores profesionales.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0011",
+   "tema": "puntos",
+   "subtema": "perdida_vigencia",
+   "materia": 10,
+   "enunciado": "¿Qué debe hacer el titular cuyo permiso ha perdido vigencia por la pérdida total de puntos para obtener de nuevo un permiso, una vez cumplido el plazo?",
+   "opciones": {
+    "a": "Volver a hacer el examen teórico y el práctico, sin ningún curso.",
+    "b": "Superar un curso de sensibilización y reeducación vial de recuperación del permiso y después la prueba de control de conocimientos.",
+    "c": "Nada; basta con esperar el plazo."
+   },
+   "correcta": "b",
+   "explicacion": "Puede obtener un permiso de la misma clase y con la misma antigüedad tras superar el curso de recuperación del permiso y la prueba de control de conocimientos.",
+   "fuente": {
+    "norma": "RGCOND",
+    "articulo": "38.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+    "cita": "previa realización y superación con aprovechamiento de un curso de sensibilización y reeducación vial de recuperación del permiso o la licencia de conducción, y posterior superación de la prueba de control de conocimientos",
+    "version_consultada": "2023-12-06"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0012",
+   "tema": "puntos",
+   "subtema": "perdida_vigencia",
+   "materia": 10,
+   "enunciado": "¿Con cuántos puntos empieza quien obtiene de nuevo el permiso tras haber perdido la totalidad de los puntos?",
+   "opciones": {
+    "a": "12 puntos.",
+    "b": "6 puntos.",
+    "c": "8 puntos."
+   },
+   "correcta": "c",
+   "explicacion": "Se asigna un crédito inicial de ocho puntos al titular que, tras perder todos sus puntos, obtiene nuevamente el permiso.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "63.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0013",
+   "tema": "puntos",
+   "subtema": "perdida_vigencia",
+   "materia": 10,
+   "enunciado": "Al obtener de nuevo el permiso tras haber perdido todos los puntos, ¿se conserva la antigüedad del permiso anterior?",
+   "opciones": {
+    "a": "Sí, la antigüedad permanece.",
+    "b": "No, la antigüedad se cuenta desde la nueva obtención.",
+    "c": "Solo si es conductor profesional."
+   },
+   "correcta": "a",
+   "explicacion": "La antigüedad permanece en los permisos obtenidos tras la total extinción de los puntos.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "64.6",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "La antigüedad permanece en los posteriores permisos o licencias de conducción obtenidos a consecuencia de la total extinción de los puntos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0014",
+   "tema": "puntos",
+   "subtema": "bonificacion",
+   "materia": 10,
+   "enunciado": "¿Cuál es el número máximo de puntos que puede llegar a acumular un conductor gracias a las bonificaciones?",
+   "opciones": {
+    "a": "12 puntos.",
+    "b": "15 puntos.",
+    "c": "14 puntos."
+   },
+   "correcta": "b",
+   "explicacion": "Quien mantiene todos sus puntos sin ser sancionado recibe 2 puntos durante los tres primeros años y 1 punto por los tres siguientes, hasta un máximo de quince.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "63.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "pudiendo llegar a acumular hasta un máximo de quince puntos en lugar de los doce iniciales",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0015",
+   "tema": "puntos",
+   "subtema": "bonificacion",
+   "materia": 10,
+   "enunciado": "Un conductor con 12 puntos mantiene la totalidad de sus puntos durante tres años, sin ser sancionado en firme. ¿Qué bonificación recibe?",
+   "opciones": {
+    "a": "Un punto.",
+    "b": "Tres puntos.",
+    "c": "Dos puntos."
+   },
+   "correcta": "c",
+   "explicacion": "La bonificación es de dos puntos durante los tres primeros años y de un punto por los tres siguientes.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "63.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "recibirán como bonificación dos puntos durante los tres primeros años y un punto por los tres siguientes",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-pun-0016",
+   "tema": "puntos",
+   "subtema": "perdida_puntos",
+   "materia": 10,
+   "enunciado": "Como norma general, ¿cuántos puntos como máximo puede perder un conductor por acumulación de infracciones en un solo día?",
+   "opciones": {
+    "a": "8 puntos.",
+    "b": "6 puntos.",
+    "c": "12 puntos."
+   },
+   "correcta": "a",
+   "explicacion": "No se pierden más de ocho puntos al día por acumulación de infracciones, salvo que concurran determinadas infracciones muy graves del art. 77, en cuyo caso se pierden todos los que correspondan.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "64.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Los conductores no perderán más de ocho puntos por acumulación de infracciones en un solo día, salvo que concurra alguna de las infracciones muy graves",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-acc-0001",
+   "tema": "accidentes",
+   "subtema": "factores_accidente",
+   "materia": 2,
+   "enunciado": "Según la DGT, ¿en qué proporción aproximada de los accidentes de tráfico interviene el factor humano?",
+   "opciones": {
+    "a": "Entre 70 y 90 de cada 100.",
+    "b": "Entre 4 y 13 de cada 100.",
+    "c": "Entre 10 y 35 de cada 100."
+   },
+   "correcta": "a",
+   "explicacion": "El factor humano (exceso de velocidad, alcohol, distracciones...) interviene en la mayoría de los accidentes: entre 70 y 90 de cada 100. El estado de la carretera interviene en 10-35 de cada 100 y los fallos del vehículo en 4-13 de cada 100.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Factores de riesgo (pág. 390)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Número de accidentes Entre 70 y 90 de cada 100. Entre 10 y 35 de cada 100. Entre 4 y 13 de cada 100.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-acc-0002",
+   "tema": "accidentes",
+   "subtema": "factores_accidente",
+   "materia": 2,
+   "enunciado": "La mayoría de los accidentes de tráfico...",
+   "opciones": {
+    "a": "solo se pueden evitar si se deben a un fallo del vehículo.",
+    "b": "se pueden evitar.",
+    "c": "se deben al azar y no se pueden prevenir."
+   },
+   "correcta": "b",
+   "explicacion": "La mayoría de los accidentes se pueden evitar, sobre todo actuando sobre el factor humano (no beber, moderar la velocidad, no distraerse).",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Evitar accidentes de tráfico (pág. 389)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "La mayoría de los accidentes de tráfico se pueden evitar.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-acc-0003",
+   "tema": "accidentes",
+   "subtema": "estadistica_accidentes",
+   "materia": 2,
+   "enunciado": "¿Dónde se producen la mayoría de los accidentes de tráfico?",
+   "opciones": {
+    "a": "En los túneles.",
+    "b": "En las curvas.",
+    "c": "En las rectas."
+   },
+   "correcta": "c",
+   "explicacion": "Según la DGT, la mayoría de los accidentes se producen en rectas y no en curvas: en las rectas aparecen más fácilmente la somnolencia y las distracciones.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, ¿Dónde y cuándo hay más accidentes? (pág. 391)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "La mayoría de los accidentes se producen en rectas y no en curvas.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-acc-0004",
+   "tema": "accidentes",
+   "subtema": "estadistica_accidentes",
+   "materia": 2,
+   "enunciado": "¿Dónde se producen la mayoría de los accidentes mortales?",
+   "opciones": {
+    "a": "En carreteras fuera de pueblos o ciudades.",
+    "b": "Dentro de las ciudades.",
+    "c": "En los aparcamientos."
+   },
+   "correcta": "a",
+   "explicacion": "La mayoría de los accidentes mortales se producen en carreteras fuera de poblado, donde se circula a más velocidad y los accidentes son más graves.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, ¿Dónde y cuándo hay más accidentes? (pág. 391)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "La mayoría de los accidentes mortales se producen en carreteras fuera de pueblos o ciudades.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-acc-0005",
+   "tema": "accidentes",
+   "subtema": "estadistica_accidentes",
+   "materia": 2,
+   "enunciado": "Comparadas con el resto de carreteras, en las autopistas y autovías...",
+   "opciones": {
+    "a": "hay el mismo número de accidentes.",
+    "b": "hay menos accidentes.",
+    "c": "hay más accidentes, porque se circula más deprisa."
+   },
+   "correcta": "b",
+   "explicacion": "Hay menos accidentes en autopistas y autovías que en el resto de carreteras: tienen calzadas separadas para cada sentido y no tienen cruces a nivel.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, ¿Dónde y cuándo hay más accidentes? (pág. 391)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Hay menos accidentes en autopistas y autovías que en el resto de carreteras.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-acc-0006",
+   "tema": "accidentes",
+   "subtema": "estadistica_accidentes",
+   "materia": 2,
+   "enunciado": "Durante el día, ¿cuándo se produce la mayor parte de los accidentes?",
+   "opciones": {
+    "a": "A primera hora de la tarde, después de comer.",
+    "b": "A media mañana, cuando hay poco tráfico.",
+    "c": "A las horas de entrar y salir del trabajo."
+   },
+   "correcta": "c",
+   "explicacion": "Durante el día, la mayor parte de los accidentes se producen a las horas de entrar y salir del trabajo, en especial al final de la jornada laboral.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, ¿Dónde y cuándo hay más accidentes? (pág. 391)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Durante el día, la mayor parte de accidentes se producen a las horas de entrar y salir del trabajo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-acc-0007",
+   "tema": "accidentes",
+   "subtema": "estadistica_accidentes",
+   "materia": 2,
+   "enunciado": "¿En qué épocas del año hay más accidentes de tráfico?",
+   "opciones": {
+    "a": "En Semana Santa, diciembre y verano.",
+    "b": "En febrero y noviembre.",
+    "c": "En primavera y otoño, por la lluvia."
+   },
+   "correcta": "a",
+   "explicacion": "Las épocas con más accidentes son Semana Santa, diciembre y verano, cuando hay más desplazamientos.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, ¿Dónde y cuándo hay más accidentes? (pág. 391)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Las épocas del año en las que hay más accidentes son: Semana Santa, diciembre y verano.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-acc-0008",
+   "tema": "accidentes",
+   "subtema": "consecuencias_accidentes",
+   "materia": 2,
+   "enunciado": "¿Cómo considera la Organización Mundial de la Salud los accidentes de tráfico?",
+   "opciones": {
+    "a": "Como un problema que solo afecta a los conductores implicados.",
+    "b": "Como un problema de salud que afecta a toda la sociedad.",
+    "c": "Como un problema exclusivamente económico de las aseguradoras."
+   },
+   "correcta": "b",
+   "explicacion": "La OMS considera los accidentes de tráfico un problema de salud que afecta a toda la sociedad, por sus consecuencias humanas, materiales, sanitarias y de recursos de seguridad.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Consecuencias de los accidentes (pág. 394)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "la Organización Mundial de la Salud considera que los accidentes de tráfico son un problema de salud que afecta a toda la sociedad.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-vul-0001",
+   "tema": "usuarios_vulnerables",
+   "subtema": "personas_mayores",
+   "materia": 8,
+   "enunciado": "Según los estudios de la DGT, las personas mayores, como peatones, tienen más accidentes...",
+   "opciones": {
+    "a": "por igual, vayan solas o acompañadas.",
+    "b": "cuando van acompañadas por niños.",
+    "c": "cuando van solas."
+   },
+   "correcta": "c",
+   "explicacion": "Las personas mayores tienen más accidentes cuando van solas que cuando van acompañadas por niños: con niños son más prudentes para darles buen ejemplo y protegerles.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Las personas mayores (pág. 402)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Las personas mayores tienen más accidentes cuando van solos que cuando van acompañadas por niños.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-vul-0002",
+   "tema": "usuarios_vulnerables",
+   "subtema": "ninos",
+   "materia": 8,
+   "enunciado": "¿Por qué los niños peatones tienen un riesgo especial?",
+   "opciones": {
+    "a": "Porque, al ser más bajos, ven menos tramo de carretera y los conductores los ven peor.",
+    "b": "Porque siempre cruzan por los pasos de peatones.",
+    "c": "Porque conocen las normas mejor que los adultos y se confían."
+   },
+   "correcta": "a",
+   "explicacion": "Los niños son más bajos que los adultos: ven menos tramo de carretera y los conductores los ven peor. Además prestan menos atención y no conocen las normas de tráfico.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Los niños (pág. 401)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Son más bajos de altura que los adultos. Esto hace que vean menos tramo de carretera y que los conductores los vean peor a ellos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-vul-0003",
+   "tema": "usuarios_vulnerables",
+   "subtema": "personas_mayores",
+   "materia": 8,
+   "enunciado": "En caso de accidente, las personas mayores...",
+   "opciones": {
+    "a": "sufren lesiones más leves gracias a su prudencia.",
+    "b": "tienen lesiones más graves y menos posibilidades de sobrevivir.",
+    "c": "se recuperan antes que los jóvenes."
+   },
+   "correcta": "b",
+   "explicacion": "En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Personas mayores de 65 años (pág. 406)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "En caso de accidente las personas mayores tienen lesiones más graves y menos posibilidades de sobrevivir.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-vul-0004",
+   "tema": "usuarios_vulnerables",
+   "subtema": "jovenes",
+   "materia": 8,
+   "enunciado": "En España, ¿qué lugar ocupan los accidentes de tráfico entre las causas de muerte de los jóvenes de 15 a 29 años?",
+   "opciones": {
+    "a": "Son una causa de muerte poco frecuente en esa edad.",
+    "b": "Solo son la primera causa en mayores de 65 años.",
+    "c": "Son la primera causa de muerte."
+   },
+   "correcta": "c",
+   "explicacion": "Los accidentes de tráfico son la primera causa de muerte de los jóvenes de entre 15 y 29 años en España.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Conductores jóvenes (pág. 403)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "En España, los accidentes de tráfico son la primera causa de muerte de jóvenes entre los 15 y los 29 años.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-vul-0005",
+   "tema": "usuarios_vulnerables",
+   "subtema": "vehiculos_dos_ruedas",
+   "materia": 8,
+   "enunciado": "¿Por qué los conductores de vehículos de dos ruedas son un grupo de especial riesgo?",
+   "opciones": {
+    "a": "Porque sus vehículos son más frágiles y se ven peor que el resto de vehículos.",
+    "b": "Porque circulan siempre a más velocidad que los turismos.",
+    "c": "Porque no están obligados a respetar las señales."
+   },
+   "correcta": "a",
+   "explicacion": "Los vehículos de dos ruedas son más frágiles y se ven peor que el resto de vehículos, por lo que sus conductores deben circular con especial cuidado.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Conductores de vehículos de dos ruedas (pág. 407)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Los vehículos de dos ruedas son más frágiles y se ven peor que el resto de vehículos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-vel-0001",
+   "tema": "factores_riesgo",
+   "subtema": "velocidad",
+   "materia": 4,
+   "enunciado": "Al aumentar la velocidad, la capacidad del conductor de ver lo que pasa a los lados...",
+   "opciones": {
+    "a": "no cambia.",
+    "b": "disminuye; es la llamada visión túnel.",
+    "c": "aumenta."
+   },
+   "correcta": "b",
+   "explicacion": "Cuanto más rápido se circula, menos se ve lo que pasa a los lados: solo se ve lo que hay enfrente, como en un túnel (visión o efecto túnel). Hay que tener especial cuidado en las intersecciones.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 10, Cosas que pueden pasar si conduces muy rápido (pág. 260)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Tienes menos capacidad de ver lo que pasa a los lados. A este efecto se le llama visión túnel",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-tre-0001",
+   "tema": "factores_riesgo",
+   "subtema": "tiempo_reaccion",
+   "materia": 4,
+   "enunciado": "En condiciones normales, el tiempo de reacción de un conductor es de...",
+   "opciones": {
+    "a": "entre dos y tres segundos.",
+    "b": "menos de una décima de segundo.",
+    "c": "entre medio segundo y un segundo."
+   },
+   "correcta": "c",
+   "explicacion": "El tiempo de reacción es el que pasa entre ver u oír algo y reaccionar. En condiciones normales está entre medio segundo y un segundo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, El tiempo de reacción (pág. 44)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "En condiciones normales, el tiempo de reacción de una persona que está conduciendo es entre medio segundo y un segundo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-tre-0002",
+   "tema": "factores_riesgo",
+   "subtema": "tiempo_reaccion",
+   "materia": 4,
+   "enunciado": "Un conductor que está enfermo o muy cansado, ¿cómo tendrá su tiempo de reacción?",
+   "opciones": {
+    "a": "Más largo de lo normal.",
+    "b": "Igual que en condiciones normales.",
+    "c": "Más corto de lo normal."
+   },
+   "correcta": "a",
+   "explicacion": "La fatiga, el sueño, la edad avanzada, oír o ver mal y las enfermedades son factores que hacen que se tarde más tiempo en reaccionar.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, El tiempo de reacción (pág. 45)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "tarde más tiempo en reaccionar: ■ Estar cansado (fatiga). ■ Tener sueño. ■ Tener muchos años. ■ Oír o ver mal. ■ Las enfermedades.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-tre-0003",
+   "tema": "factores_riesgo",
+   "subtema": "tiempo_reaccion",
+   "materia": 4,
+   "enunciado": "¿Cuál de estos factores hace que un conductor tarde más tiempo en reaccionar?",
+   "opciones": {
+    "a": "Circular con buena visibilidad.",
+    "b": "Haber comido mucho antes de conducir.",
+    "c": "Llevar la temperatura del habitáculo entre 20 y 23 grados."
+   },
+   "correcta": "b",
+   "explicacion": "Comer mucho antes de conducir, el mucho calor en el coche, el alcohol, las drogas o algunos medicamentos aumentan el tiempo de reacción.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, El tiempo de reacción (pág. 45)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ El alcohol y las drogas. ■ Comer mucho antes de conducir. ■ Mucho calor en el coche.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dis-0001",
+   "tema": "distancias",
+   "subtema": "distancia_detencion",
+   "materia": 5,
+   "enunciado": "La distancia de detención es...",
+   "opciones": {
+    "a": "la distancia de frenado menos la distancia de reacción.",
+    "b": "solo la distancia que recorre el vehículo mientras se frena.",
+    "c": "la suma de la distancia de reacción y la distancia de frenado."
+   },
+   "correcta": "c",
+   "explicacion": "La distancia de detención es el espacio recorrido desde que se detecta el obstáculo hasta que el vehículo se para por completo: la suma de la distancia de reacción y la de frenado.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 10, Distancia de detención (pág. 263)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "La distancia de detención es la suma de la distancia de reacción y la de frenado.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dis-0002",
+   "tema": "distancias",
+   "subtema": "distancia_frenado",
+   "materia": 5,
+   "enunciado": "Con el suelo mojado, ¿qué distancia puede aumentar?",
+   "opciones": {
+    "a": "La distancia de frenado.",
+    "b": "Ninguna; el suelo mojado solo afecta a la visibilidad.",
+    "c": "Solo la separación lateral con otros vehículos."
+   },
+   "correcta": "a",
+   "explicacion": "El clima y el estado del suelo influyen en la distancia de frenado: en un suelo mojado el vehículo puede necesitar más distancia para frenar.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 10, Distancia de frenado (pág. 262)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "En un suelo mojado el vehículo puede necesitar más distancia de frenado.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dis-0003",
+   "tema": "distancias",
+   "subtema": "distancia_reaccion",
+   "materia": 5,
+   "enunciado": "La distancia de reacción es el espacio que recorre el vehículo...",
+   "opciones": {
+    "a": "desde que se pisa el freno hasta que se para.",
+    "b": "desde que el conductor detecta un imprevisto hasta que puede reaccionar a él.",
+    "c": "desde que el vehículo se para hasta que vuelve a arrancar."
+   },
+   "correcta": "b",
+   "explicacion": "La distancia de reacción es el espacio recorrido desde que se detecta un imprevisto (un obstáculo, una señal, un ruido) hasta que se puede reaccionar, por ejemplo hasta que se pisa el freno.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 10, Distancia de reacción (pág. 261)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Espacio que recorres con el vehículo desde que detectas un imprevisto, como un obstáculo, una señal o un ruido, hasta que puedes reaccionar al imprevisto.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-fat-0001",
+   "tema": "factores_riesgo",
+   "subtema": "fatiga_sueno",
+   "materia": 4,
+   "enunciado": "Para evitar la fatiga y la somnolencia en un viaje largo, la DGT recomienda descansar...",
+   "opciones": {
+    "a": "una vez cada 500 kilómetros.",
+    "b": "solo cuando se noten los primeros síntomas de sueño.",
+    "c": "20 o 30 minutos cada dos horas o cada 200 kilómetros, aunque no se sienta fatiga."
+   },
+   "correcta": "c",
+   "explicacion": "Se recomienda descansar 20 o 30 minutos cada dos horas o cada 200 kilómetros aunque no se sienta fatiga ni somnolencia; y, si aparecen los primeros síntomas, parar en un lugar seguro y dormir 20 o 30 minutos.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, ¿Cómo puedes evitar la fatiga y la somnolencia? (pág. 51)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Descansa 20 o 30 minutos cada dos horas o cada 200 kilómetros, aunque no sientas fatiga ni somnolencia.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-fat-0002",
+   "tema": "factores_riesgo",
+   "subtema": "fatiga_sueno",
+   "materia": 4,
+   "enunciado": "¿Cuál de los siguientes es un efecto de la somnolencia al volante?",
+   "opciones": {
+    "a": "Dormirse durante unos segundos sin darse cuenta.",
+    "b": "Reaccionar más rápido de lo normal.",
+    "c": "Tomar decisiones con más facilidad."
+   },
+   "correcta": "a",
+   "explicacion": "La somnolencia hace que se tarde más en reaccionar, cueste tomar decisiones, los movimientos sean más lentos y el conductor pueda dormirse unos segundos sin darse cuenta.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Efectos de la somnolencia (pág. 50)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Sentir que te cuesta hacer movimientos con el cuerpo o los haces más lentos. ■ Dormirte durante unos segundos sin darte cuenta.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-fat-0003",
+   "tema": "factores_riesgo",
+   "subtema": "fatiga_sueno",
+   "materia": 4,
+   "enunciado": "Comer mucha cantidad y alimentos difíciles de digerir antes de conducir...",
+   "opciones": {
+    "a": "no influye en la conducción.",
+    "b": "puede provocar sueño y fatiga.",
+    "c": "mejora la atención durante el viaje."
+   },
+   "correcta": "b",
+   "explicacion": "Una comida abundante o pesada antes de conducir puede provocar sueño y fatiga; es mejor hacer varias comidas ligeras.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Alimentación (pág. 66)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Comer mucha cantidad y alimentos difíciles de digerir antes de conducir puede provocar sueño y fatiga.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-fat-0004",
+   "tema": "factores_riesgo",
+   "subtema": "fatiga_sueno",
+   "materia": 4,
+   "enunciado": "¿Cuál de estas circunstancias de la carretera puede causar fatiga al conductor?",
+   "opciones": {
+    "a": "Que la carretera esté bien señalizada.",
+    "b": "Que la carretera tenga buen pavimento y buena iluminación.",
+    "c": "Que el suelo de la carretera esté en mal estado."
+   },
+   "correcta": "c",
+   "explicacion": "Entre las causas de fatiga relacionadas con la carretera están el mucho tráfico, el suelo en mal estado, no conocer la carretera y el mal tiempo o el calor excesivo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, ¿Qué puede causar fatiga? (pág. 46)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cómo está la carretera: ■ Carretera con mucho tráfico. ■ El suelo de la carretera está en mal estado. ■ No conoces la carretera.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-med-0001",
+   "tema": "alcohol_drogas",
+   "subtema": "medicamentos",
+   "materia": 4,
+   "enunciado": "¿Puede circular un conductor bajo el efecto de un medicamento que altera el estado físico o mental apropiado para circular sin peligro?",
+   "opciones": {
+    "a": "No, está prohibido.",
+    "b": "Sí, siempre que el medicamento no sea una droga.",
+    "c": "Sí, si el medicamento es de origen natural."
+   },
+   "correcta": "a",
+   "explicacion": "El Reglamento General de Circulación prohíbe circular a los conductores de vehículos o bicicletas que hayan incorporado a su organismo sustancias, incluidos los medicamentos, bajo cuyo efecto se altere el estado físico o mental apropiado para circular sin peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "27.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "entre las que se incluirán, en cualquier caso, los medicamentos u otras sustancias bajo cuyo efecto se altere el estado físico o mental apropiado para circular sin peligro.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-med-0002",
+   "tema": "alcohol_drogas",
+   "subtema": "medicamentos",
+   "materia": 4,
+   "enunciado": "Los antihistamínicos, que se toman para tratar las alergias, pueden producir...",
+   "opciones": {
+    "a": "una visión más nítida.",
+    "b": "sueño.",
+    "c": "una mejora de los reflejos."
+   },
+   "correcta": "b",
+   "explicacion": "Según la DGT, los antihistamínicos pueden producir sueño, depresión y pérdida de reflejos.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, ¿Qué medicamentos pueden ser peligrosos para conducir? (pág. 65)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Antihistamínicos Tratar las alergias. Sueño.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-cal-0001",
+   "tema": "factores_riesgo",
+   "subtema": "calor",
+   "materia": 4,
+   "enunciado": "¿Por qué es peligroso conducir con mucho calor?",
+   "opciones": {
+    "a": "Porque disminuye el tiempo de reacción.",
+    "b": "Porque el calor solo afecta al motor, no al conductor.",
+    "c": "Porque aparecen antes el sueño y la fatiga y se puede necesitar más tiempo para reaccionar."
+   },
+   "correcta": "c",
+   "explicacion": "Con calor aparecen antes el sueño y la fatiga, se puede necesitar más tiempo para reaccionar ante imprevistos y puede aumentar la agresividad hacia otros conductores.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con calor (pág. 363)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Aparecen antes el sueño y la fatiga que pueden provocar distracciones y errores. ■ Puedes necesitar más tiempo para reaccionar ante imprevistos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-cal-0002",
+   "tema": "factores_riesgo",
+   "subtema": "calor",
+   "materia": 4,
+   "enunciado": "Un día de mucho calor, ¿a qué temperatura aconseja la DGT mantener el aire acondicionado del vehículo?",
+   "opciones": {
+    "a": "Entre 20 y 23 grados.",
+    "b": "Entre 26 y 28 grados.",
+    "c": "Entre 15 y 17 grados."
+   },
+   "correcta": "a",
+   "explicacion": "En días de mucho calor se aconseja usar el aire acondicionado a una temperatura de entre 20 y 23 grados, hacer más descansos y beber agua.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con calor (pág. 363)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Utiliza el aire acondicionado del vehículo y mantenlo a una temperatura entre 20 y 23 grados.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0001",
+   "tema": "distracciones",
+   "subtema": "telefono_movil",
+   "materia": 4,
+   "enunciado": "¿Está permitido a un conductor de turismo utilizar el teléfono móvil mientras conduce?",
+   "opciones": {
+    "a": "Sí, si se sujeta con una sola mano y se conduce despacio.",
+    "b": "Solo si la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares.",
+    "c": "Sí, con auriculares en los dos oídos."
+   },
+   "correcta": "b",
+   "explicacion": "Se prohíbe utilizar el móvil durante la conducción. Se exceptúa cuando la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares (manos libres).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "18.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "b) cuando el desarrollo de la comunicación tenga lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0002",
+   "tema": "distracciones",
+   "subtema": "telefono_movil",
+   "materia": 4,
+   "enunciado": "¿Cuántos puntos pierde el conductor sancionado en firme por utilizar, sujetándolo con la mano, el teléfono móvil mientras conduce?",
+   "opciones": {
+    "a": "3 puntos.",
+    "b": "4 puntos.",
+    "c": "6 puntos."
+   },
+   "correcta": "c",
+   "explicacion": "Utilizar el móvil sujetándolo con la mano mientras se conduce supone la pérdida de 6 puntos (LSV, Anexo II, apartado 8).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo II.8",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "8. Utilizar, sujetando con la mano, dispositivos de telefonía móvil mientras se conduce.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0003",
+   "tema": "distracciones",
+   "subtema": "telefono_movil",
+   "materia": 4,
+   "enunciado": "Un conductor manipula con la mano el navegador GPS, que está fijo en su soporte, mientras conduce. ¿Cuántos puntos pierde si es sancionado en firme?",
+   "opciones": {
+    "a": "3 puntos.",
+    "b": "6 puntos.",
+    "c": "Ninguno; el GPS está permitido en cualquier caso."
+   },
+   "correcta": "a",
+   "explicacion": "Utilizar manualmente navegadores u otros sistemas de comunicación, o el móvil en condiciones distintas a sujetarlo con la mano, supone la pérdida de 3 puntos (LSV, Anexo II, apartado 20).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo II.20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "o utilizando manualmente navegadores o cualquier otro medio o sistema de comunicación, así como dispositivos de telefonía móvil en condiciones distintas a las previstas en el ordinal 8.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0004",
+   "tema": "distracciones",
+   "subtema": "auriculares",
+   "materia": 4,
+   "enunciado": "¿Puede un conductor de turismo circular escuchando música con auriculares conectados al teléfono?",
+   "opciones": {
+    "a": "Sí, si solo lleva un auricular.",
+    "b": "No, está prohibido.",
+    "c": "Sí, si el volumen es bajo."
+   },
+   "correcta": "b",
+   "explicacion": "Está prohibido conducir utilizando cualquier tipo de casco de audio, auriculares o instrumentos similares conectados a aparatos receptores o reproductores de sonido.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "18.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Queda prohibido conducir utilizando cualquier tipo de casco de audio, auriculares o instrumentos similares conectados a aparatos receptores o reproductores de sonido",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0005",
+   "tema": "distracciones",
+   "subtema": "telefono_movil",
+   "materia": 4,
+   "enunciado": "Según la DGT, el riesgo de accidente cuando se usa el móvil en el vehículo es...",
+   "opciones": {
+    "a": "menor, porque el conductor va más alerta.",
+    "b": "igual que cuando no se usa.",
+    "c": "cuatro veces mayor que cuando no se usa."
+   },
+   "correcta": "c",
+   "explicacion": "El riesgo de accidente al usar el móvil en el vehículo es cuatro veces mayor que cuando no se utiliza.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Usar el teléfono móvil (pág. 70)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "El riesgo de accidente cuando se usa el móvil en el vehículo es cuatro veces mayor que cuando no se utiliza.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0006",
+   "tema": "distracciones",
+   "subtema": "telefono_movil",
+   "materia": 4,
+   "enunciado": "Hablar por teléfono con un dispositivo de manos libres mientras se conduce...",
+   "opciones": {
+    "a": "está permitido, pero también es peligroso porque parte de la atención se dedica a la conversación.",
+    "b": "está prohibido en cualquier caso.",
+    "c": "no supone ningún riesgo."
+   },
+   "correcta": "a",
+   "explicacion": "El manos libres está permitido, pero también es peligroso porque el conductor presta parte de su atención a la conversación. La DGT aconseja no tener conversaciones de más de un minuto.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Usar el teléfono móvil (pág. 71)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Sin embargo, los dispositivos de manos libres también son peligrosos porque la persona que conduce presta parte de su atención a la conversación",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0007",
+   "tema": "distracciones",
+   "subtema": "telefono_movil",
+   "materia": 4,
+   "enunciado": "Si habla por el móvil con un dispositivo de manos libres mientras conduce, la DGT recomienda que la conversación...",
+   "opciones": {
+    "a": "sea larga, para no tener que volver a llamar.",
+    "b": "no dure más de un minuto.",
+    "c": "dure como máximo diez minutos."
+   },
+   "correcta": "b",
+   "explicacion": "Entre las recomendaciones para usar el manos libres está no tener conversaciones que duren más de un minuto, avisar al interlocutor de que se está conduciendo y, si hay que hacer una llamada, parar en un lugar seguro.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Recomendaciones para usar el móvil (pág. 72)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ No tengas conversaciones que duren más de un minuto.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0008",
+   "tema": "distracciones",
+   "subtema": "telefono_movil",
+   "materia": 4,
+   "enunciado": "¿Cuál de estas consecuencias puede tener prestar atención a una conversación telefónica mientras se conduce?",
+   "opciones": {
+    "a": "Calcular mejor las distancias.",
+    "b": "Ver mejor las señales.",
+    "c": "Salirse de la carretera o invadir el carril contrario."
+   },
+   "correcta": "c",
+   "explicacion": "Al prestar atención a la conversación se calculan peor las distancias, se dejan de ver señales y se producen salidas de la carretera e invasiones del carril contrario.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Usar el teléfono móvil (pág. 71)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Salidas de la carretera e invasión del carril contrario por prestar atención a la conversación.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0009",
+   "tema": "distracciones",
+   "subtema": "pantallas",
+   "materia": 4,
+   "enunciado": "Con el vehículo en movimiento, ¿puede el conductor ver una película en un monitor o reproductor de vídeo?",
+   "opciones": {
+    "a": "No, se considera incompatible con la atención permanente a la conducción.",
+    "b": "Sí, en autopistas y autovías.",
+    "c": "Sí, si el monitor está homologado."
+   },
+   "correcta": "a",
+   "explicacion": "Se considera incompatible con la obligatoria atención permanente a la conducción el uso por el conductor, con el vehículo en movimiento, de pantallas con acceso a internet, monitores de televisión y reproductores de vídeo o DVD. Se exceptúan el GPS y los monitores de ayuda a maniobras o de acceso de peatones.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "18.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "el uso por el conductor con el vehículo en movimiento de dispositivos tales como pantallas con acceso a internet, monitores de televisión y reproductores de vídeo o DVD.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-mov-0010",
+   "tema": "distracciones",
+   "subtema": "gps",
+   "materia": 4,
+   "enunciado": "Según la DGT, ¿cuándo se debe programar el navegador GPS?",
+   "opciones": {
+    "a": "Mientras se conduce, siempre que se circule despacio.",
+    "b": "Antes de empezar a conducir.",
+    "c": "Mientras se conduce, en tramos rectos."
+   },
+   "correcta": "b",
+   "explicacion": "El GPS se debe programar antes de empezar a conducir, nunca mientras se conduce; debe quedar fijo y en un lugar visible sin apartar la vista de la carretera.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Navegadores GPS (pág. 73)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Programa el dispositivo antes de empezar a conducir. No lo hagas mientras conduces.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0001",
+   "tema": "alcohol_drogas",
+   "subtema": "efectos_alcohol",
+   "materia": 4,
+   "enunciado": "¿Cuál de estos es un efecto del alcohol en el comportamiento del conductor?",
+   "opciones": {
+    "a": "Una mayor prudencia.",
+    "b": "Una menor tendencia a cometer faltas.",
+    "c": "Una falsa seguridad en sí mismo."
+   },
+   "correcta": "c",
+   "explicacion": "El alcohol produce falsa seguridad en uno mismo, más exposición a riesgos, más faltas y un trato más agresivo o impulsivo hacia otros conductores.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Efectos del alcohol mientras conduces (pág. 56)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Falsa seguridad en ti mismo. ■ Te expones a más riesgos. ■ Cometes más faltas que provocan accidentes.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0002",
+   "tema": "alcohol_drogas",
+   "subtema": "efectos_alcohol",
+   "materia": 4,
+   "enunciado": "¿Cómo afecta el alcohol a la visión del conductor?",
+   "opciones": {
+    "a": "Reduce la capacidad de ver lo que pasa a los lados y hace que se deslumbre más.",
+    "b": "No afecta a la visión, solo a los reflejos.",
+    "c": "Mejora la visión nocturna."
+   },
+   "correcta": "a",
+   "explicacion": "El alcohol hace que se vean peor las señales, se calculen peor las distancias, se tenga menos capacidad de ver lo que pasa a un lado y a otro y que el conductor se deslumbre más.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Efectos del alcohol mientras conduces (pág. 57)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Menos capacidad de ver lo que pasa a un lado y a otro. ■ Te deslumbras más con las luces de los vehículos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0003",
+   "tema": "alcohol_drogas",
+   "subtema": "tasa_alcoholemia",
+   "materia": 4,
+   "enunciado": "Dos personas beben exactamente la misma cantidad de la misma bebida. ¿Tendrán necesariamente la misma tasa de alcoholemia?",
+   "opciones": {
+    "a": "Sí, siempre.",
+    "b": "No; influyen factores como el peso, el sexo, la edad o haber comido.",
+    "c": "Sí, si tienen la misma edad."
+   },
+   "correcta": "b",
+   "explicacion": "El alcohol no afecta a todas las personas igual: influyen la cantidad, el peso, el sexo, el tiempo transcurrido, el tipo de bebida, la velocidad a la que se bebe, beber sin comer, la edad y las circunstancias personales.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 54)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "El alcohol no afecta a todas las personas de la misma forma.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0004",
+   "tema": "alcohol_drogas",
+   "subtema": "tasa_alcoholemia",
+   "materia": 4,
+   "enunciado": "¿Cuándo alcanza la tasa de alcoholemia su valor más alto?",
+   "opciones": {
+    "a": "Unas doce horas después de beber.",
+    "b": "Inmediatamente después del primer trago.",
+    "c": "Aproximadamente una hora después de beber."
+   },
+   "correcta": "c",
+   "explicacion": "El momento en que la tasa de alcoholemia es más alta es aproximadamente una hora después de beber; después baja muy poco a poco.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 55)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "El momento en el que la tasa de alcoholemia es más alta es una hora después de beber alcohol.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0005",
+   "tema": "alcohol_drogas",
+   "subtema": "tasa_alcoholemia",
+   "materia": 4,
+   "enunciado": "¿Con cuál de estas bebidas llega el alcohol más rápido a la sangre?",
+   "opciones": {
+    "a": "Whisky.",
+    "b": "Cerveza.",
+    "c": "Vino."
+   },
+   "correcta": "a",
+   "explicacion": "El alcohol llega más rápido a la sangre con bebidas como la ginebra o el whisky (destiladas) que con el vino o la cerveza (fermentadas).",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 55)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "El alcohol llega más rápido a la sangre después de beber algunas bebidas como ginebra o whisky que después de beber otras bebidas como vino o cerveza.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0006",
+   "tema": "alcohol_drogas",
+   "subtema": "tasa_alcoholemia",
+   "materia": 4,
+   "enunciado": "Beber alcohol con el estómago lleno...",
+   "opciones": {
+    "a": "impide que el alcohol pase a la sangre.",
+    "b": "hace que el alcohol llegue a la sangre de forma más lenta.",
+    "c": "hace que el alcohol llegue a la sangre más rápido."
+   },
+   "correcta": "b",
+   "explicacion": "La comida ayuda a que el alcohol llegue a la sangre de forma más lenta, pero no impide que llegue.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (pág. 55)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "La comida ayuda a que el alcohol llegue a la sangre de forma más lenta.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0007",
+   "tema": "alcohol_drogas",
+   "subtema": "pruebas_alcoholemia",
+   "materia": 4,
+   "enunciado": "¿Quién está obligado a someterse a las pruebas de detección de alcohol?",
+   "opciones": {
+    "a": "Solo los conductores de vehículos a motor.",
+    "b": "Todos los usuarios de la vía, en cualquier caso.",
+    "c": "Los conductores de vehículos y de bicicletas, entre otros."
+   },
+   "correcta": "c",
+   "explicacion": "Todos los conductores de vehículos y de bicicletas están obligados. Los demás usuarios (por ejemplo, los peatones) solo lo están cuando se hallan implicados en un accidente o han cometido una infracción; por eso no es correcto decir 'todos los usuarios en cualquier caso'.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "21",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Todos los conductores de vehículos y de bicicletas quedan obligados a someterse a las pruebas que se establezcan para la detección de las posibles intoxicaciones por alcohol.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0008",
+   "tema": "alcohol_drogas",
+   "subtema": "pruebas_alcoholemia",
+   "materia": 4,
+   "enunciado": "Un peatón implicado en un accidente de circulación, ¿está obligado a someterse a las pruebas de detección de alcohol?",
+   "opciones": {
+    "a": "Sí.",
+    "b": "No, solo están obligados los conductores.",
+    "c": "Solo si él mismo lo solicita."
+   },
+   "correcta": "a",
+   "explicacion": "Además de los conductores, quedan obligados los demás usuarios de la vía, como los peatones, cuando se hallen implicados en algún accidente de circulación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "21",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Igualmente quedan obligados los demás usuarios de la vía cuando se hallen implicados en algún accidente de circulación",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0009",
+   "tema": "alcohol_drogas",
+   "subtema": "pruebas_alcoholemia",
+   "materia": 4,
+   "enunciado": "Un peatón que no está implicado en ningún accidente comete una infracción de tráfico. ¿Está obligado a someterse a las pruebas de alcohol y drogas si se lo requiere un agente?",
+   "opciones": {
+    "a": "No, los peatones nunca están obligados.",
+    "b": "Sí, la Ley obliga también a los usuarios que hayan cometido una infracción.",
+    "c": "No, los peatones solo están obligados si hay un accidente."
+   },
+   "correcta": "b",
+   "explicacion": "La Ley de Tráfico obliga a los conductores y, además, a los demás usuarios de la vía cuando se hallen implicados en un accidente de tráfico o hayan cometido una infracción. Esto matiza lo que dice el vídeo (solo en caso de accidente).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "14.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Igualmente quedan obligados los demás usuarios de la vía cuando se hallen implicados en un accidente de tráfico o hayan cometido una infracción conforme a lo tipificado en esta ley.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0010",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "¿Cuál es la tasa máxima de alcohol en aire espirado para el conductor de un turismo con más de dos años de antigüedad de permiso?",
+   "opciones": {
+    "a": "0,50 miligramos por litro.",
+    "b": "0,15 miligramos por litro.",
+    "c": "0,25 miligramos por litro."
+   },
+   "correcta": "c",
+   "explicacion": "La tasa general es 0,5 gramos por litro en sangre o 0,25 miligramos por litro en aire espirado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0011",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "¿Cuál es la tasa máxima de alcohol en sangre para el conductor de un turismo con más de dos años de antigüedad de permiso?",
+   "opciones": {
+    "a": "0,5 gramos por litro.",
+    "b": "0,25 gramos por litro.",
+    "c": "0,3 gramos por litro."
+   },
+   "correcta": "a",
+   "explicacion": "La tasa general en sangre es 0,5 gramos por litro (el doble de la cifra en aire, 0,25 mg/l).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0012",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "Un ciclista mayor de edad, con permiso de conducir de más de dos años de antigüedad, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+   "opciones": {
+    "a": "0,15 miligramos por litro.",
+    "b": "0,25 miligramos por litro.",
+    "c": "No tiene límite, porque la bicicleta no es un vehículo a motor."
+   },
+   "correcta": "b",
+   "explicacion": "La tasa general (0,5 g/l en sangre o 0,25 mg/l en aire) se aplica a los conductores de vehículos y también a los conductores de bicicletas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los conductores de vehículos ni los conductores de bicicletas con una tasa de alcohol en sangre superior a 0,5 gramos por litro",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0013",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "El conductor de un camión de transporte de mercancías de más de 3.500 kg de masa máxima autorizada, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+   "opciones": {
+    "a": "0,25 miligramos por litro.",
+    "b": "0,30 miligramos por litro.",
+    "c": "0,15 miligramos por litro."
+   },
+   "correcta": "c",
+   "explicacion": "En vehículos de transporte de mercancías de más de 3.500 kg de MMA, la tasa máxima es 0,3 g/l en sangre o 0,15 mg/l en aire espirado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando se trate de vehículos destinados al transporte de mercancías con una masa máxima autorizada superior a 3.500 kilogramos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0014",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "Un conductor con diez años de permiso conduce una furgoneta particular, de uso privado, de 3.500 kg de masa máxima autorizada, con carga general (no peligrosa). ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+   "opciones": {
+    "a": "0,25 miligramos por litro.",
+    "b": "0,15 miligramos por litro, por ser transporte de mercancías.",
+    "c": "0 miligramos por litro."
+   },
+   "correcta": "a",
+   "explicacion": "La tasa reducida para mercancías solo se aplica a vehículos de más de 3.500 kg de MMA (o mercancías peligrosas, transportes especiales, etc.). Con 3.500 kg exactos y carga general rige la tasa general de 0,25 mg/l.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando se trate de vehículos destinados al transporte de mercancías con una masa máxima autorizada superior a 3.500 kilogramos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0015",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "El conductor de un autobús de más de nueve plazas, ¿qué tasa máxima de alcohol en sangre puede tener?",
+   "opciones": {
+    "a": "0,5 gramos por litro.",
+    "b": "0,3 gramos por litro.",
+    "c": "0,15 gramos por litro."
+   },
+   "correcta": "b",
+   "explicacion": "Para vehículos de transporte de viajeros de más de nueve plazas, de servicio público, transporte escolar y de menores, mercancías peligrosas, urgencias o transportes especiales: 0,3 g/l en sangre o 0,15 mg/l en aire.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "vehículos destinados al transporte de viajeros de más de nueve plazas, o de servicio público, al transporte escolar y de menores",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0016",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "Durante los dos años siguientes a la obtención del permiso, ¿qué tasa máxima de alcohol en aire espirado puede tener un conductor mayor de edad?",
+   "opciones": {
+    "a": "0,25 miligramos por litro.",
+    "b": "0,50 miligramos por litro.",
+    "c": "0,15 miligramos por litro."
+   },
+   "correcta": "c",
+   "explicacion": "Los conductores de cualquier vehículo no pueden superar 0,3 g/l en sangre ni 0,15 mg/l en aire espirado durante los dos años siguientes a la obtención del permiso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "no podrán superar la tasa de alcohol en sangre de 0,3 gramos por litro ni de alcohol en aire espirado de 0,15 miligramos por litro durante los dos años siguientes a la obtención del permiso",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0017",
+   "tema": "alcohol_drogas",
+   "subtema": "tasas",
+   "materia": 4,
+   "enunciado": "Un conductor de ciclomotor de 17 años, con dos años de antigüedad en su permiso, ¿qué tasa máxima de alcohol puede tener?",
+   "opciones": {
+    "a": "0; el conductor menor de edad no puede circular con ninguna tasa de alcohol.",
+    "b": "0,25 miligramos por litro en aire espirado.",
+    "c": "0,15 miligramos por litro en aire espirado."
+   },
+   "correcta": "a",
+   "explicacion": "En ningún caso el conductor menor de edad puede circular con una tasa de alcohol superior a 0 g/l en sangre o 0 mg/l en aire espirado, tenga la antigüedad de permiso que tenga.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "14.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "En ningún caso el conductor menor de edad podrá circular por las vías con una tasa de alcohol en sangre superior a 0 gramos por litro",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0018",
+   "tema": "alcohol_drogas",
+   "subtema": "pruebas_alcoholemia",
+   "materia": 4,
+   "enunciado": "Entre la primera y la segunda prueba de alcoholemia por aire espirado, ¿qué tiempo mínimo debe transcurrir?",
+   "opciones": {
+    "a": "1 hora.",
+    "b": "10 minutos.",
+    "c": "1 minuto."
+   },
+   "correcta": "b",
+   "explicacion": "El agente debe advertir al interesado de su derecho a controlar que entre la primera y la segunda prueba medie un tiempo mínimo de 10 minutos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "23.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "que entre la realización de la primera y de la segunda prueba medie un tiempo mínimo de 10 minutos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0019",
+   "tema": "alcohol_drogas",
+   "subtema": "pruebas_alcoholemia",
+   "materia": 4,
+   "enunciado": "Si el interesado pide repetir la prueba de alcohol a efectos de contraste, ¿en qué consistirá preferentemente?",
+   "opciones": {
+    "a": "En una nueva prueba de saliva.",
+    "b": "En una prueba de equilibrio.",
+    "c": "En un análisis de sangre."
+   },
+   "correcta": "c",
+   "explicacion": "Las pruebas de contraste a petición del interesado consistirán preferentemente en análisis de sangre, salvo causas excepcionales justificadas. Si da positivo, la paga el interesado.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "14.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "se podrán repetir las pruebas para la detección de alcohol o de drogas, que consistirán preferentemente en análisis de sangre",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0020",
+   "tema": "alcohol_drogas",
+   "subtema": "pruebas_alcoholemia",
+   "materia": 4,
+   "enunciado": "Si la prueba de contraste solicitada por el interesado da resultado positivo, ¿quién la paga?",
+   "opciones": {
+    "a": "El interesado.",
+    "b": "El centro sanitario.",
+    "c": "La Jefatura de Tráfico."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando la prueba de contraste arroja un resultado positivo, la abona el interesado.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "14.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Cuando la prueba de contraste arroje un resultado positivo será abonada por el interesado.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0021",
+   "tema": "alcohol_drogas",
+   "subtema": "sanciones_alcohol",
+   "materia": 4,
+   "enunciado": "Un conductor con permiso de más de dos años da 0,40 mg/l de alcohol en aire espirado. ¿Cuántos puntos pierde si es sancionado en firme en vía administrativa?",
+   "opciones": {
+    "a": "2 puntos.",
+    "b": "4 puntos.",
+    "c": "6 puntos."
+   },
+   "correcta": "b",
+   "explicacion": "Para conductores en general, una tasa superior a 0,25 y hasta 0,50 mg/l en aire supone la pérdida de 4 puntos; más de 0,50 mg/l, 6 puntos.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo II.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Valores mg/l aire espirado, superior a 0,25 hasta 0,50 (profesionales y titulares de permisos de conducción con menos de dos años de antigüedad más de 0,15 hasta 0,30 mg/l).",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0022",
+   "tema": "alcohol_drogas",
+   "subtema": "sanciones_alcohol",
+   "materia": 4,
+   "enunciado": "Un conductor novel, con menos de dos años de permiso, da 0,35 mg/l de alcohol en aire espirado. ¿Cuántos puntos pierde si es sancionado en firme en vía administrativa?",
+   "opciones": {
+    "a": "Ninguno, porque no supera 0,50 mg/l.",
+    "b": "4 puntos.",
+    "c": "6 puntos."
+   },
+   "correcta": "c",
+   "explicacion": "Para profesionales y titulares de permisos con menos de dos años de antigüedad, más de 0,30 mg/l en aire supone la pérdida de 6 puntos (de más de 0,15 hasta 0,30 mg/l, 4 puntos).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo II.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Valores mg/l aire espirado, más de 0,50 (profesionales y titulares de permisos de conducción con menos de dos años de antigüedad más de 0,30 mg/l).",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0023",
+   "tema": "alcohol_drogas",
+   "subtema": "sanciones_alcohol",
+   "materia": 4,
+   "enunciado": "Un conductor con permiso de más de dos años, que no ha sido sancionado por alcohol en el año anterior, da 0,30 mg/l en aire espirado. ¿Qué multa le corresponde?",
+   "opciones": {
+    "a": "500 euros.",
+    "b": "1.000 euros.",
+    "c": "200 euros."
+   },
+   "correcta": "a",
+   "explicacion": "Conducir con una tasa superior a la permitida es infracción muy grave (LSV 77.c), sancionada con 500 euros (80.1). La multa de 1.000 euros solo se impone si ya fue sancionado en el año anterior por alcohol o si supera el doble de la tasa permitida (0,50 mg/l en este caso).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "80.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "esta sanción únicamente se impondrá al conductor que ya hubiera sido sancionado en el año inmediatamente anterior por exceder la tasa de alcohol permitida, así como al que circule con una tasa que supere el doble de la permitida.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-alc-0024",
+   "tema": "alcohol_drogas",
+   "subtema": "inmovilizacion",
+   "materia": 4,
+   "enunciado": "Si la prueba de alcoholemia de un conductor da positivo, ¿qué puede hacer el agente con el vehículo?",
+   "opciones": {
+    "a": "Retirarlo siempre al depósito municipal, aunque haya otra persona habilitada para conducirlo.",
+    "b": "Inmovilizarlo, salvo que pueda hacerse cargo de su conducción otra persona debidamente habilitada.",
+    "c": "Nada; el conductor puede seguir circulando tras pagar la multa."
+   },
+   "correcta": "b",
+   "explicacion": "Si el resultado es positivo, el agente puede inmovilizar inmediatamente el vehículo, a no ser que pueda hacerse cargo de su conducción otra persona debidamente habilitada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "25.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "el agente podrá proceder, además, a la inmediata inmovilización del vehículo, mediante su precinto u otro procedimiento efectivo que impida su circulación, a no ser que pueda hacerse cargo de su conducción otra persona debidamente habilitada",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-nov-0001",
+   "tema": "documentacion",
+   "subtema": "distintivo_l",
+   "materia": 1,
+   "enunciado": "Una persona tiene desde hace tres años el permiso AM de ciclomotor y acaba de obtener el permiso B. ¿Debe llevar la señal de conductor novel (L) en el turismo?",
+   "opciones": {
+    "a": "Sí, durante un año.",
+    "b": "Sí, durante dos años.",
+    "c": "No, porque ya ha sido titular de otro permiso durante al menos un año."
+   },
+   "correcta": "c",
+   "explicacion": "La señal V-13 la llevan quienes obtienen por primera vez un permiso de conducción, durante un año. No se considera que lo obtienen por primera vez quienes han sido titulares, con posesión efectiva durante al menos un año, de otro permiso de cualquier clase.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-13.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "No se considerará que hayan obtenido permiso de conducción por primera vez aquellos conductores que hubieran sido titulares, con posesión efectiva por un período mínimo de un año, de otro permiso",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dro-0001",
+   "tema": "alcohol_drogas",
+   "subtema": "drogas",
+   "materia": 4,
+   "enunciado": "¿Puede conducir una persona que tiene presencia de drogas en el organismo, aunque ya no note sus efectos?",
+   "opciones": {
+    "a": "No, está prohibido conducir con presencia de drogas en el organismo.",
+    "b": "Sí, si no nota los efectos.",
+    "c": "Sí, si consumió el día anterior."
+   },
+   "correcta": "a",
+   "explicacion": "No puede circular el conductor de cualquier vehículo con presencia de drogas en el organismo. Se excluyen solo las sustancias usadas bajo prescripción facultativa y con finalidad terapéutica, si se está en condiciones de conducir con diligencia.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "14.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Tampoco puede hacerlo el conductor de cualquier vehículo con presencia de drogas en el organismo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dro-0002",
+   "tema": "alcohol_drogas",
+   "subtema": "sanciones_drogas",
+   "materia": 4,
+   "enunciado": "¿Con qué multa se sanciona conducir con presencia de drogas en el organismo, cuando no es delito?",
+   "opciones": {
+    "a": "500 euros.",
+    "b": "1.000 euros.",
+    "c": "200 euros."
+   },
+   "correcta": "b",
+   "explicacion": "Conducir con presencia de drogas en el organismo es infracción muy grave (LSV 77.c) y se sanciona con multa de 1.000 euros (80.2.a).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "80.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "a) Las infracciones previstas en el artículo 77. c) y d) serán sancionadas con multa de 1.000 euros.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dro-0003",
+   "tema": "alcohol_drogas",
+   "subtema": "sanciones_drogas",
+   "materia": 4,
+   "enunciado": "¿Cuántos puntos pierde el conductor sancionado en firme por conducir con presencia de drogas en el organismo?",
+   "opciones": {
+    "a": "4 puntos.",
+    "b": "3 puntos.",
+    "c": "6 puntos."
+   },
+   "correcta": "c",
+   "explicacion": "Conducir con presencia de drogas en el organismo supone la pérdida de 6 puntos (LSV, Anexo II, apartado 2).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo II.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "2. Conducir con presencia de drogas en el organismo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dro-0004",
+   "tema": "alcohol_drogas",
+   "subtema": "pruebas_drogas",
+   "materia": 4,
+   "enunciado": "¿En qué consiste normalmente la prueba de detección de drogas que realizan los agentes de tráfico?",
+   "opciones": {
+    "a": "En una prueba salival mediante un dispositivo autorizado y un posterior análisis de una muestra salival.",
+    "b": "En soplar en un etilómetro.",
+    "c": "En una prueba de equilibrio y coordinación."
+   },
+   "correcta": "a",
+   "explicacion": "La detección de la presencia de drogas consiste en una prueba salival mediante dispositivo autorizado y un posterior análisis de una muestra salival en cantidad suficiente.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "14.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "para la detección de la presencia de drogas en el organismo, en una prueba salival mediante un dispositivo autorizado y en un posterior análisis de una muestra salival en cantidad suficiente.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dro-0005",
+   "tema": "alcohol_drogas",
+   "subtema": "drogas",
+   "materia": 4,
+   "enunciado": "Un conductor toma un medicamento con una sustancia considerada droga, recetado por su médico con finalidad terapéutica, y está en condiciones de conducir con seguridad. ¿Comete la infracción de conducir con presencia de drogas?",
+   "opciones": {
+    "a": "Sí, en cualquier caso.",
+    "b": "No, esas sustancias están excluidas si se está en condiciones de conducir con diligencia.",
+    "c": "Solo si conduce de noche."
+   },
+   "correcta": "b",
+   "explicacion": "La prohibición de conducir con presencia de drogas excluye las sustancias usadas bajo prescripción facultativa y con finalidad terapéutica, siempre que se esté en condiciones de utilizar el vehículo con diligencia, precaución y sin distracción.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "14.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "de las que se excluyen aquellas sustancias que se utilicen bajo prescripción facultativa y con una finalidad terapéutica, siempre que se esté en condiciones de utilizar el vehículo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dro-0006",
+   "tema": "alcohol_drogas",
+   "subtema": "efectos_drogas",
+   "materia": 4,
+   "enunciado": "¿Cuál de estos es un posible efecto del cannabis en la conducción?",
+   "opciones": {
+    "a": "Reaccionar más rápido.",
+    "b": "Calcular mejor las distancias.",
+    "c": "Necesitar más tiempo para reaccionar y poder dormirse conduciendo."
+   },
+   "correcta": "c",
+   "explicacion": "El cannabis puede alterar la percepción del entorno, hacer calcular peor las distancias, perder la concentración, necesitar más tiempo para reaccionar y dormirse conduciendo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Otras drogas (pág. 58)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Perder la concentración. ■ Necesitar más tiempo para reaccionar. ■ Dormirse conduciendo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-dro-0007",
+   "tema": "alcohol_drogas",
+   "subtema": "efectos_drogas",
+   "materia": 4,
+   "enunciado": "¿Qué efecto puede producir la cocaína en el conductor?",
+   "opciones": {
+    "a": "Volverse más impulsivo o agresivo y perder la sensación de peligro.",
+    "b": "Más prudencia al volante.",
+    "c": "Somnolencia y relajación profunda como efecto principal."
+   },
+   "correcta": "a",
+   "explicacion": "La cocaína puede volver al conductor más impulsivo o agresivo, hacerle perder la sensación de peligro y conducir de forma más peligrosa.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 3, Otras drogas (pág. 59)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cocaína ■ Volverse más impulsivo o agresivo. ■ Perder la sensación de peligro.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-pos-0001",
+   "tema": "seguridad_pasiva",
+   "subtema": "efecto_submarino",
+   "materia": 15,
+   "enunciado": "¿Qué es el efecto submarino?",
+   "opciones": {
+    "a": "Que el airbag se infla antes de tiempo.",
+    "b": "Que, en un accidente, el cuerpo se desliza hacia abajo, por debajo del cinturón.",
+    "c": "Que el vehículo pierde adherencia al circular sobre agua."
+   },
+   "correcta": "b",
+   "explicacion": "El efecto submarino se produce cuando en un accidente el cuerpo se desliza por debajo del cinturón; ocurre porque el asiento está inclinado hacia atrás y el cinturón mal colocado.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, El efecto submarino (pág. 114)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Este efecto se produce cuando en un accidente el cuerpo se desliza hacia abajo, por debajo del cinturón.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-pos-0002",
+   "tema": "seguridad_pasiva",
+   "subtema": "efecto_submarino",
+   "materia": 15,
+   "enunciado": "¿Qué favorece que se produzca el efecto submarino?",
+   "opciones": {
+    "a": "Llevar el reposacabezas a la altura de la cabeza.",
+    "b": "Llevar el respaldo recto.",
+    "c": "Llevar el respaldo del asiento muy inclinado hacia atrás y el cinturón mal colocado."
+   },
+   "correcta": "c",
+   "explicacion": "El efecto submarino ocurre porque el asiento está inclinado hacia atrás y el cinturón mal colocado. Para evitarlo hay que abrocharse bien el cinturón y no inclinar mucho el asiento.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, El efecto submarino (pág. 114)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Esto ocurre porque el asiento está inclinado hacia atrás y el cinturón mal colocado.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-pos-0003",
+   "tema": "conduccion_segura",
+   "subtema": "postura",
+   "materia": 14,
+   "enunciado": "¿Cómo puede comprobar si el respaldo está a la distancia adecuada del volante?",
+   "opciones": {
+    "a": "Con la espalda apoyada en el respaldo y los brazos estirados, las muñecas deben poder apoyarse sobre la parte de arriba del volante.",
+    "b": "Los brazos deben quedar completamente estirados al coger el volante por la parte de abajo.",
+    "c": "El pecho debe quedar tocando el volante."
+   },
+   "correcta": "a",
+   "explicacion": "Apoyando la espalda en el respaldo y estirando los brazos, las muñecas deben poder apoyarse sobre la parte de arriba del volante. Las piernas deben quedar ligeramente dobladas.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Reglas para conducir turismos (pág. 130)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "apoya la espalda en el respaldo estira los brazos y comprueba que tus muñecas se pueden apoyar sobre la parte de arriba del volante.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-pos-0004",
+   "tema": "conduccion_segura",
+   "subtema": "postura",
+   "materia": 14,
+   "enunciado": "Con el asiento bien ajustado, las piernas del conductor deben quedar...",
+   "opciones": {
+    "a": "totalmente extendidas.",
+    "b": "ligeramente dobladas.",
+    "c": "dobladas en ángulo recto, con las rodillas tocando el volante."
+   },
+   "correcta": "b",
+   "explicacion": "El asiento está bien ajustado cuando se llega bien a los pedales pudiendo pisarlos a fondo y las piernas no están extendidas del todo, sino ligeramente dobladas.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Reglas para conducir turismos (pág. 130)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Las piernas no están extendidas del todo. Están ligeramente dobladas y no rozan con ningún elemento del vehículo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-pos-0005",
+   "tema": "conduccion_segura",
+   "subtema": "volante",
+   "materia": 14,
+   "enunciado": "¿Cómo debe cogerse el volante?",
+   "opciones": {
+    "a": "Con las dos manos, por la parte interior del aro.",
+    "b": "Con una sola mano, por la parte de abajo.",
+    "c": "Con las dos manos, por la parte exterior."
+   },
+   "correcta": "c",
+   "explicacion": "El volante se coge con las dos manos (soltando una solo el tiempo justo para manejar otros mandos), por la parte exterior y con firmeza, pero sin hacer mucha fuerza.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, ¿Cómo debes coger el volante? (pág. 123)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "■ Con las dos manos. Solo debes soltar una mano el tiempo justo para manejar otros mandos del coche. ■ Por la parte exterior.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-man-0001",
+   "tema": "mecanica",
+   "subtema": "embrague",
+   "materia": 14,
+   "enunciado": "Cuando se pisa a fondo el pedal de embrague...",
+   "opciones": {
+    "a": "el movimiento del motor no se transmite a la caja de cambios ni a las ruedas.",
+    "b": "el vehículo frena con las cuatro ruedas.",
+    "c": "entra más combustible en el motor."
+   },
+   "correcta": "a",
+   "explicacion": "Al pisar a fondo el embrague, el movimiento del motor no se transmite a la caja de cambios ni a las ruedas, lo que permite cambiar de velocidad.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Pedal de embrague (pág. 122)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cuando pisas a fondo el pedal de embrague el movimiento del motor no se transmite a la caja de cambios ni a las ruedas.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-man-0002",
+   "tema": "mecanica",
+   "subtema": "mandos",
+   "materia": 14,
+   "enunciado": "En un turismo, ¿con qué pie se pisa el pedal del freno?",
+   "opciones": {
+    "a": "Con el pie izquierdo.",
+    "b": "Con el pie derecho.",
+    "c": "Con cualquiera de los dos, indistintamente."
+   },
+   "correcta": "b",
+   "explicacion": "Tanto el acelerador como el freno se pisan con el pie derecho; el embrague, con el izquierdo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Pedal del freno (pág. 121)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Este pedal se pisa con el pie derecho y hay que pisarlo de forma suave.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-man-0003",
+   "tema": "mecanica",
+   "subtema": "mandos_motocicleta",
+   "materia": 14,
+   "enunciado": "En una motocicleta, ¿con qué se acciona normalmente el freno de la rueda de atrás?",
+   "opciones": {
+    "a": "Con una palanca de la mano izquierda.",
+    "b": "Con un pedal en la parte izquierda.",
+    "c": "Con un pedal, normalmente en la parte derecha."
+   },
+   "correcta": "c",
+   "explicacion": "El freno de la rueda trasera se acciona con un pedal que suele estar en la parte derecha de la motocicleta. El freno delantero y el acelerador están en el lado derecho del manillar; el embrague, en la mano izquierda, y el pedal de cambio suele estar a la izquierda.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Mandos de las motocicletas (pág. 125)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Con los pies Pedal de freno. Activa el freno de la rueda de atrás. Suele estar en la parte derecha de la motocicleta.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-man-0004",
+   "tema": "mecanica",
+   "subtema": "mandos_motocicleta",
+   "materia": 14,
+   "enunciado": "En una motocicleta, ¿con qué mano se acciona el freno de la rueda delantera?",
+   "opciones": {
+    "a": "Con la mano derecha.",
+    "b": "No se acciona con la mano, sino con el pie izquierdo.",
+    "c": "Con la mano izquierda."
+   },
+   "correcta": "a",
+   "explicacion": "El freno delantero es una palanca que se acciona con la mano derecha, en el mismo lado que el acelerador.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Mandos de las motocicletas (pág. 124)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Con la mano Freno delantero. derecha Palanca para frenar la rueda delantera.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "D-man-0005",
+   "tema": "mecanica",
+   "subtema": "mandos_motocicleta",
+   "materia": 14,
+   "enunciado": "En una motocicleta, ¿con qué mano se acciona el embrague?",
+   "opciones": {
+    "a": "Con el pie derecho.",
+    "b": "Con la mano izquierda.",
+    "c": "Con la mano derecha."
+   },
+   "correcta": "b",
+   "explicacion": "El embrague de la motocicleta es una palanca de la mano izquierda; el cambio de marchas se hace con un pedal que suele estar a la izquierda.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Mandos de las motocicletas (pág. 124)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Con la mano Embrague. izquierda Funciona apretando una palanca.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-seg-0001",
+   "tema": "seguridad_activa",
+   "subtema": "concepto",
+   "materia": 15,
+   "enunciado": "¿Qué son los elementos de seguridad activa de un vehículo?",
+   "opciones": {
+    "a": "Los elementos pensados para evitar que se produzca un accidente, como los frenos, las ruedas o las luces.",
+    "b": "Los elementos que reducen los daños una vez producido el accidente, como el airbag.",
+    "c": "Los elementos que sirven solo para la comodidad del conductor."
+   },
+   "correcta": "a",
+   "explicacion": "La seguridad activa la forman los elementos del vehículo pensados para evitar accidentes (frenos, ruedas, alumbrado).",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Seguridad activa (p. 88)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Elementos del vehículo pensados para evitar accidentes. El conductor tiene que utilizarlos para que funcionen. Por ejemplo, frenos, ruedas y sistema de luces.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-seg-0002",
+   "tema": "seguridad_pasiva",
+   "subtema": "concepto",
+   "materia": 15,
+   "enunciado": "El reposacabezas, ¿a qué tipo de seguridad del vehículo pertenece?",
+   "opciones": {
+    "a": "A la seguridad activa, porque ayuda a evitar el accidente.",
+    "b": "A ninguna; es un elemento de confort.",
+    "c": "A la seguridad pasiva, porque ayuda a que los ocupantes sufran menos daños en un accidente."
+   },
+   "correcta": "c",
+   "explicacion": "El reposacabezas, igual que el cinturón y el airbag, es un elemento de seguridad pasiva: reduce los daños cuando el accidente ya se ha producido.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Seguridad pasiva (p. 88)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Elementos que ayudan a que los pasajeros y otros usuarios sufran menos daños en un accidente. Funcionan de forma automática. Por ejemplo, cinturón de seguridad, airbag y reposacabezas.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-neu-0001",
+   "tema": "vehiculo",
+   "subtema": "neumaticos_profundidad",
+   "materia": 14,
+   "enunciado": "¿Cuál es la profundidad mínima de las ranuras principales de la banda de rodadura de los neumáticos de un turismo?",
+   "opciones": {
+    "a": "1 mm.",
+    "b": "2 mm.",
+    "c": "1,6 mm."
+   },
+   "correcta": "c",
+   "explicacion": "Los neumáticos de las categorías M1, N1, O1 y O2 (turismos, furgonetas ligeras y remolques ligeros) deben tener como mínimo 1,6 mm de profundidad en las ranuras principales.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo VII.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "M1, N1, O1 y O2 deben presentar, durante toda su utilización en las vías públicas, una profundidad en las ranuras principales de la banda de rodadura que, como mínimo, debe ser de 1,6 mm.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-neu-0002",
+   "tema": "vehiculo",
+   "subtema": "neumaticos_profundidad",
+   "materia": 14,
+   "enunciado": "¿Cuál es la profundidad mínima del dibujo de los neumáticos de un autobús o de un camión de más de 3.500 kg?",
+   "opciones": {
+    "a": "1,6 mm.",
+    "b": "3 mm.",
+    "c": "1,0 mm."
+   },
+   "correcta": "c",
+   "explicacion": "Para las categorías M2, M3, N2, N3, O3 y O4 (autobuses, camiones de más de 3.500 kg y remolques pesados) el mínimo es 1,0 mm; el de 1,6 mm es para turismos y vehículos ligeros.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo VII.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Los neumáticos de los vehículos comprendidos en las categorías M2, M3, N2 y N3, O3 y O4 deben presentar, durante toda su utilización en las vías públicas, una profundidad en las ranuras principales de la banda de rodadura que, como mínimo, debe ser de 1,0 mm.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-neu-0003",
+   "tema": "vehiculo",
+   "subtema": "presion_inflado",
+   "materia": 14,
+   "enunciado": "¿Quién establece la presión de inflado que deben llevar los neumáticos de un turismo?",
+   "opciones": {
+    "a": "El fabricante del neumático.",
+    "b": "El fabricante del vehículo.",
+    "c": "El taller que monta los neumáticos."
+   },
+   "correcta": "b",
+   "explicacion": "Es el fabricante de cada vehículo quien marca la presión de inflado de sus neumáticos (suele indicarse en una etiqueta en el marco de la puerta o en el manual).",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Presión de inflado (p. 98)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "El fabricante de cada vehículo es quién marca qué cantidad de aire deben llevar los neumáticos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-neu-0004",
+   "tema": "vehiculo",
+   "subtema": "presion_inflado",
+   "materia": 14,
+   "enunciado": "Si un neumático lleva una presión de inflado mayor de la recomendada, ¿por dónde se desgasta más?",
+   "opciones": {
+    "a": "Por los dos laterales.",
+    "b": "Por un solo lateral.",
+    "c": "Por el centro de la banda de rodadura."
+   },
+   "correcta": "c",
+   "explicacion": "Con exceso de presión el neumático apoya peor, se agarra menos y se desgasta más por el centro que por los lados.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Presión de inflado (p. 99)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Presión de inflado mayor a la recomendada El neumático tiene menos contacto con el suelo. Por lo tanto, se agarra menos a la carretera. Se desgasta más el centro del neumático que los lados.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-neu-0005",
+   "tema": "vehiculo",
+   "subtema": "neumaticos_estado",
+   "materia": 14,
+   "enunciado": "Un neumático presenta un bulto (ampolla) en su costado, aunque el dibujo tiene más de 1,6 mm. ¿Puede seguir usándose?",
+   "opciones": {
+    "a": "No; un neumático no debe presentar ampollas ni deformaciones anormales.",
+    "b": "Sí, porque la profundidad del dibujo es correcta.",
+    "c": "Sí, pero solo en vías urbanas."
+   },
+   "correcta": "a",
+   "explicacion": "El Reglamento de Vehículos exige que los neumáticos no presenten ampollas, deformaciones anormales ni roturas, con independencia de la profundidad del dibujo.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo VII.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "no deben presentar ampollas, deformaciones anormales, roturas u otros signos que evidencien el despegue de alguna capa o de la banda de rodamiento",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-neu-0006",
+   "tema": "vehiculo",
+   "subtema": "neumaticos_estado",
+   "materia": 14,
+   "enunciado": "Según el manual de la DGT, ¿cada cuánto tiempo conviene cambiar los neumáticos, aunque parezcan en buen estado?",
+   "opciones": {
+    "a": "Cada diez años.",
+    "b": "Solo cuando el dibujo llegue a 1,6 mm.",
+    "c": "Cada cinco años."
+   },
+   "correcta": "c",
+   "explicacion": "La goma envejece: el manual de la DGT indica cambiar los neumáticos cada cinco años aunque estén en buen estado.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Desgaste de los neumáticos (p. 100)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "debes cambiar los neumáticos de tu vehículo cada cinco años, aunque estén en buen estado.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-fre-0001",
+   "tema": "seguridad_activa",
+   "subtema": "abs",
+   "materia": 14,
+   "enunciado": "¿Qué hace el sistema ABS?",
+   "opciones": {
+    "a": "Frena el vehículo automáticamente si detecta un obstáculo.",
+    "b": "Reparte la fuerza de frenado para que el vehículo frene en menos tiempo aunque se bloqueen las ruedas.",
+    "c": "Evita que las ruedas se bloqueen al frenar, lo que ayuda a mantener el control del vehículo."
+   },
+   "correcta": "c",
+   "explicacion": "El ABS (sistema antibloqueo de frenos) evita el bloqueo de las ruedas al frenar, de modo que se conserva el control de la dirección y se frena en menos espacio.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Sistema antibloqueo de frenos (ABS) (p. 93)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Dispositivo que evita que las ruedas se bloqueen al frenar. Este sistema es muy importante porque te ayuda a mantener el control del vehículo y a frenar en menos espacio.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-fre-0002",
+   "tema": "seguridad_activa",
+   "subtema": "abs",
+   "materia": 14,
+   "enunciado": "En una frenada de emergencia con un vehículo que tiene ABS, notas que el pedal del freno vibra. ¿Qué debes hacer?",
+   "opciones": {
+    "a": "Levantar el pie del freno y volver a pisarlo varias veces.",
+    "b": "Soltar el freno, porque la vibración indica una avería.",
+    "c": "Seguir pisando el freno fuerte y a fondo hasta que el vehículo se pare."
+   },
+   "correcta": "c",
+   "explicacion": "Con ABS, en una frenada de emergencia hay que pisar fuerte y a fondo y mantener el pedal pisado hasta la detención; la vibración es el funcionamiento normal del sistema.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, ¿Cómo se usan los frenos? (p. 95)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Para frenar de emergencia en un vehículo con ABS, debes pisar fuerte y a fondo el pedal de freno hasta que el vehículo se pare del todo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0001",
+   "tema": "vehiculo",
+   "subtema": "suspension",
+   "materia": 14,
+   "enunciado": "¿Cuál es la función principal del sistema de suspensión?",
+   "opciones": {
+    "a": "Transmitir el movimiento del volante a las ruedas.",
+    "b": "Mantener el contacto entre los neumáticos y la carretera en todo momento.",
+    "c": "Llevar la fuerza del motor a las ruedas."
+   },
+   "correcta": "b",
+   "explicacion": "La suspensión mantiene los neumáticos en contacto con la carretera, lo que da estabilidad y además comodidad.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 15, Sistema de suspensión (p. 382)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Mantener el contacto entre los neumáticos y la carretera en todo momento. Gracias a este sistema, el vehículo no pierde su estabilidad",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-seg-0003",
+   "tema": "seguridad_activa",
+   "subtema": "luces_adaptativas",
+   "materia": 14,
+   "enunciado": "¿Qué hacen las luces adaptativas?",
+   "opciones": {
+    "a": "Se encienden solas cuando oscurece, sin cambiar la zona que iluminan.",
+    "b": "Aumentan siempre la potencia de las luces de cruce.",
+    "c": "Ajustan la intensidad de las luces y el lugar donde alumbran según las necesidades de cada momento, por ejemplo en las curvas."
+   },
+   "correcta": "c",
+   "explicacion": "Las luces adaptativas ajustan intensidad y zona iluminada; las angulares iluminan hacia el lado al que se gira, lo que ayuda a ver en las curvas.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Luces adaptativas (p. 90)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Sistema que ajusta la intensidad de las luces y el lugar donde alumbran dependiendo de las necesidades de cada momento.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0001",
+   "tema": "seguridad_pasiva",
+   "subtema": "chasis_carroceria",
+   "materia": 15,
+   "enunciado": "¿Por qué la carrocería de un vehículo está diseñada para deformarse en un choque?",
+   "opciones": {
+    "a": "Para que la reparación sea más barata.",
+    "b": "Para que los ocupantes sufran menos daños.",
+    "c": "Para que el vehículo pese menos y consuma menos."
+   },
+   "correcta": "b",
+   "explicacion": "En un accidente el chasis y la carrocería se deforman para proteger a los ocupantes, que así sufren menos daños.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, El chasis y la carrocería (p. 106)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "En caso de accidente, el chasis y la carrocería se deforman y protegen al vehículo para que los pasajeros que van dentro sufran menos daños.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0002",
+   "tema": "seguridad_pasiva",
+   "subtema": "cinturon_colocacion",
+   "materia": 15,
+   "enunciado": "¿Por dónde debe pasar la banda torácica (la del pecho) del cinturón de seguridad?",
+   "opciones": {
+    "a": "Por encima del cuello, para sujetar mejor la cabeza.",
+    "b": "Por el extremo del hombro, junto al brazo.",
+    "c": "Por la clavícula, entre el hombro y el cuello, bajando por el centro del pecho."
+   },
+   "correcta": "c",
+   "explicacion": "La cinta torácica debe pasar por la clavícula, entre hombro y cuello, y bajar por el centro del pecho. Sobre el cuello puede causar lesiones graves y sobre el hombro puede resbalar.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, ¿Cómo se abrocha el cinturón de seguridad? (p. 113)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Debe pasar por la clavícula, entre el hombro y el cuello, y bajar por el centro del pecho.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0003",
+   "tema": "seguridad_pasiva",
+   "subtema": "cinturon_colocacion",
+   "materia": 15,
+   "enunciado": "¿Dónde debe colocarse la banda abdominal del cinturón de seguridad?",
+   "opciones": {
+    "a": "Sobre el estómago.",
+    "b": "Sobre los huesos de la cadera, siempre por debajo del estómago.",
+    "c": "Por encima del ombligo, para que no se suba."
+   },
+   "correcta": "b",
+   "explicacion": "La cinta abdominal va sobre los huesos de la cadera, por debajo del estómago; por encima puede causar lesiones internas graves.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, ¿Cómo se abrocha el cinturón de seguridad? (p. 113)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Siempre por debajo del estómago. Si se coloca por encima, puede provocar lesiones graves dentro del cuerpo en caso de accidente.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0004",
+   "tema": "seguridad_pasiva",
+   "subtema": "cinturon_infraccion",
+   "materia": 15,
+   "enunciado": "Según la Ley de Tráfico, no hacer uso del cinturón de seguridad, o no hacerlo de forma adecuada (por ejemplo, llevarlo flojo con una pinza), ¿qué tipo de infracción es?",
+   "opciones": {
+    "a": "Leve.",
+    "b": "Muy grave.",
+    "c": "Grave."
+   },
+   "correcta": "c",
+   "explicacion": "La Ley de Tráfico califica como infracción grave no usar, o no usar de forma adecuada, el cinturón, los sistemas de retención infantil, el casco y demás elementos de protección obligatorios.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "76.h",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "h) No hacer uso, o no hacerlo de forma adecuada, del cinturón de seguridad, sistemas de retención infantil, casco y demás elementos de protección obligatorios.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0005",
+   "tema": "seguridad_pasiva",
+   "subtema": "airbag",
+   "materia": 15,
+   "enunciado": "El airbag frontal, ¿hace innecesario el cinturón de seguridad?",
+   "opciones": {
+    "a": "Sí, en los asientos delanteros que tienen airbag.",
+    "b": "No; hay que llevar siempre el cinturón, también para que el impacto contra el airbag sea menor.",
+    "c": "Solo en trayectos urbanos."
+   },
+   "correcta": "b",
+   "explicacion": "El airbag es un complemento del cinturón: hay que usar siempre el cinturón para que el impacto contra el airbag sea menor.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Los airbags (p. 115)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Usa siempre el cinturón de seguridad para que el impacto contra el airbag sea menor.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0007",
+   "tema": "seguridad_pasiva",
+   "subtema": "sistemas_retencion_infantil",
+   "materia": 15,
+   "enunciado": "En un turismo, un menor de 1,20 m de estatura, ¿dónde debe viajar como norma general?",
+   "opciones": {
+    "a": "En el asiento delantero, siempre que use un sistema de retención infantil.",
+    "b": "En los asientos traseros, con un sistema de retención infantil adaptado a su talla y peso.",
+    "c": "En cualquier asiento, con el cinturón del vehículo."
+   },
+   "correcta": "b",
+   "explicacion": "En vehículos de hasta nueve plazas estos menores deben ir en los asientos traseros con SRI homologado; solo excepcionalmente pueden ir delante.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "117.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Dichos ocupantes deberán situarse en los asientos traseros. Excepcionalmente podrán ocupar el asiento delantero",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0008",
+   "tema": "seguridad_pasiva",
+   "subtema": "sistemas_retencion_infantil",
+   "materia": 15,
+   "enunciado": "Un menor que debe usar sistema de retención infantil viaja excepcionalmente en el asiento delantero, que tiene airbag frontal. ¿Puede usar una silla orientada hacia atrás?",
+   "opciones": {
+    "a": "Sí, siempre.",
+    "b": "No, nunca.",
+    "c": "Solo si el airbag ha sido desactivado."
+   },
+   "correcta": "c",
+   "explicacion": "Si el asiento delantero tiene airbag frontal, los sistemas orientados hacia atrás solo pueden usarse con el airbag desactivado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "117.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "únicamente podrán utilizar sistemas de retención orientados hacia atrás si el airbag ha sido desactivado.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0009",
+   "tema": "seguridad_pasiva",
+   "subtema": "sistemas_retencion_infantil",
+   "materia": 15,
+   "enunciado": "¿En qué caso puede un menor de 135 cm o menos ocupar el asiento delantero de un turismo (siempre con su sistema de retención)?",
+   "opciones": {
+    "a": "Cuando el trayecto sea corto y urbano.",
+    "b": "Cuando todos los asientos traseros estén ya ocupados por menores que deben usar sistema de retención.",
+    "c": "Cuando lo autorice por escrito el padre o la madre."
+   },
+   "correcta": "b",
+   "explicacion": "Excepciones: que no haya asientos traseros, que estén todos ocupados por menores en esa situación o que no se puedan instalar en ellos todos los SRI.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "117.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "2.º Cuando todos los asientos traseros estén ya ocupados por los menores a que se refiere el párrafo segundo del apartado 1.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0010",
+   "tema": "seguridad_pasiva",
+   "subtema": "reposacabezas",
+   "materia": 15,
+   "enunciado": "¿Qué distancia aproximada debe haber entre la cabeza y el reposacabezas?",
+   "opciones": {
+    "a": "Cuatro centímetros o menos.",
+    "b": "Entre 10 y 15 centímetros.",
+    "c": "Al menos 25 centímetros."
+   },
+   "correcta": "a",
+   "explicacion": "El manual de la DGT recomienda que la distancia entre la cabeza y el reposacabezas sea de cuatro centímetros o menos.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, El reposacabezas (p. 116)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Debes intentar que la distancia entre tu cabeza y el reposacabezas sea de cuatro centímetros o menos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0011",
+   "tema": "seguridad_pasiva",
+   "subtema": "reposacabezas",
+   "materia": 15,
+   "enunciado": "¿A qué altura debe quedar la parte de arriba del reposacabezas?",
+   "opciones": {
+    "a": "A la altura de los hombros.",
+    "b": "A la altura de la nuca, por debajo de la base del cráneo.",
+    "c": "A la misma altura que la parte de arriba de la cabeza."
+   },
+   "correcta": "c",
+   "explicacion": "La parte superior del reposacabezas debe quedar a la misma altura que la parte superior de la cabeza.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, El reposacabezas (p. 116)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "La parte de arriba del reposacabezas debe estar a la misma altura que la parte de arriba de tu cabeza.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0012",
+   "tema": "seguridad_pasiva",
+   "subtema": "reposacabezas",
+   "materia": 15,
+   "enunciado": "¿Para qué sirve principalmente el reposacabezas?",
+   "opciones": {
+    "a": "Para proteger el cuello y las cervicales en caso de un golpe brusco, como un alcance por detrás.",
+    "b": "Para que el conductor descanse la cabeza durante la conducción.",
+    "c": "Para mejorar la postura del conductor y evitar la fatiga."
+   },
+   "correcta": "a",
+   "explicacion": "El reposacabezas es un elemento de seguridad pasiva que protege el cuello y las cervicales en un golpe brusco.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, El reposacabezas (p. 116)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Dispositivo que protege el cuello y las cervicales en caso de un golpe brusco.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0013",
+   "tema": "seguridad_pasiva",
+   "subtema": "casco",
+   "materia": 15,
+   "enunciado": "En cuanto al color del casco, ¿cuáles se consideran más seguros?",
+   "opciones": {
+    "a": "Los oscuros y mates, porque no reflejan la luz.",
+    "b": "Los claros y brillantes.",
+    "c": "El color no influye en la seguridad."
+   },
+   "correcta": "b",
+   "explicacion": "Los cascos claros y brillantes son más seguros porque se ven mejor, sobre todo con poca visibilidad.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, El casco (p. 118)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Los cascos claros y brillantes son más seguros.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0014",
+   "tema": "seguridad_pasiva",
+   "subtema": "casco",
+   "materia": 15,
+   "enunciado": "¿En qué vías deben usar casco homologado los conductores y pasajeros de motocicletas y ciclomotores?",
+   "opciones": {
+    "a": "Solo en vías interurbanas.",
+    "b": "Solo en autopistas y autovías.",
+    "c": "En todo tipo de vías."
+   },
+   "correcta": "c",
+   "explicacion": "Conductores y pasajeros de motocicletas, ciclomotores, vehículos de tres ruedas, cuadriciclos y quads deben usar casco homologado abrochado en todo tipo de vías (salvo vehículos con estructura de autoprotección y cinturón).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "118.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "a) Cascos de protección homologados conforme al Reglamento UNECE R22, adecuadamente abrochados, cuando circulen en todo tipo de vías.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0015",
+   "tema": "seguridad_pasiva",
+   "subtema": "casco",
+   "materia": 15,
+   "enunciado": "El conductor de una motocicleta, ¿cuándo está obligado a usar guantes de protección?",
+   "opciones": {
+    "a": "Cuando circule por vías interurbanas.",
+    "b": "Nunca; son solo recomendables.",
+    "c": "Solo cuando circule de noche."
+   },
+   "correcta": "a",
+   "explicacion": "Tras la reforma del Reglamento General de Circulación, conductores y pasajeros de motocicletas, ciclomotores y similares deben llevar guantes de protección en vías interurbanas, y calzado cerrado en todo tipo de vías.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "118.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "b) Guantes de protección cuando circulen por vías interurbanas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0016",
+   "tema": "seguridad_pasiva",
+   "subtema": "casco",
+   "materia": 15,
+   "enunciado": "¿Hasta qué edad es obligatorio el casco en bicicleta en todo tipo de vías, también en ciudad?",
+   "opciones": {
+    "a": "Para los menores de 16 años.",
+    "b": "Para los menores de 18 años.",
+    "c": "Para los menores de 12 años."
+   },
+   "correcta": "a",
+   "explicacion": "El casco en bicicleta es obligatorio en vías interurbanas y, para los menores de dieciséis años, en todo tipo de vías.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "118.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "siendo obligatorio su uso por los menores de dieciséis años en todo tipo de vías.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pas-0017",
+   "tema": "seguridad_pasiva",
+   "subtema": "casco",
+   "materia": 15,
+   "enunciado": "El conductor de un patinete eléctrico (vehículo de movilidad personal), ¿debe llevar casco?",
+   "opciones": {
+    "a": "Sí, casco de protección homologado o certificado, adecuadamente abrochado.",
+    "b": "Solo si es menor de 16 años.",
+    "c": "Solo cuando circule por vías interurbanas."
+   },
+   "correcta": "a",
+   "explicacion": "Los conductores de vehículos de movilidad personal están obligados a utilizar casco homologado o certificado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "118.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los conductores de vehículos de movilidad personal están obligados a utilizar adecuadamente abrochado casco de protección homologado o certificado.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0001",
+   "tema": "adas",
+   "subtema": "aeb",
+   "materia": 14,
+   "enunciado": "¿Qué hace el sistema de frenado autónomo de emergencia (AEB)?",
+   "opciones": {
+    "a": "Hace parpadear las luces de freno cuando frenas fuerte.",
+    "b": "Evita que las ruedas se bloqueen cuando el conductor frena a fondo.",
+    "c": "Avisa al conductor si se acerca demasiado al vehículo de delante y, si no reacciona y hay peligro de accidente, realiza un frenado de emergencia."
+   },
+   "correcta": "c",
+   "explicacion": "El AEB calcula la distancia con el vehículo de delante, avisa con voz y sonido y, si el conductor no hace caso y hay peligro, frena de emergencia.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Frenado autónomo de emergencia (AEB) (p. 93)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Si no haces caso a estas señales y hay peligro de accidente el sistema hará un frenado de emergencia.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0002",
+   "tema": "adas",
+   "subtema": "ebd",
+   "materia": 14,
+   "enunciado": "Según el manual de la DGT, ¿qué hace el sistema de aviso de frenada de emergencia (EBD)?",
+   "opciones": {
+    "a": "Hace parpadear las luces de freno del vehículo que frena de forma brusca, para avisar al de detrás.",
+    "b": "Frena el vehículo por sí solo ante un obstáculo.",
+    "c": "Mide la presión de los neumáticos."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando el conductor pisa el freno de forma firme y rápida, las luces de freno parpadean para que el de detrás tenga más tiempo para frenar.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Aviso de frenada de emergencia (EBD) (p. 94)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cuando el conductor de delante pisa el freno de manera firme y rápida las luces de frenado de su vehículo parpadean.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0003",
+   "tema": "adas",
+   "subtema": "ldw",
+   "materia": 14,
+   "enunciado": "¿Qué hace el sistema de aviso de salida de carril (LDW)?",
+   "opciones": {
+    "a": "Mueve el volante para devolver el vehículo al centro del carril.",
+    "b": "Detecta las señales de límite de velocidad.",
+    "c": "Avisa al conductor cuando hace un cambio de carril imprevisto, por ejemplo por distracción o sueño."
+   },
+   "correcta": "c",
+   "explicacion": "El LDW avisa (luz, sonido o vibración) cuando el vehículo cambia de carril de forma imprevista.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Aviso de salida de carril (LDW) (p. 135)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Este sistema avisa al conductor cuando hace un cambio de carril imprevisto porque va distraído o porque se ha dormido.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0004",
+   "tema": "adas",
+   "subtema": "lka",
+   "materia": 14,
+   "enunciado": "¿Qué sistema detecta las líneas de la carretera para ayudar al conductor a guiar el vehículo y no salirse de su carril?",
+   "opciones": {
+    "a": "El asistente de mantenimiento de carril (LKA).",
+    "b": "El sistema de alerta de tráfico cruzado (RCTA).",
+    "c": "El detector de ángulo muerto (BSM)."
+   },
+   "correcta": "a",
+   "explicacion": "El LKA detecta las líneas y ayuda a guiar el coche para no salirse del carril.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Asistencia de mantenimiento de carril (LKA) (p. 135)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Sistema que detecta las líneas blancas de la carretera para ayudar al conductor a guiar su coche y a no salirse de su carril.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0005",
+   "tema": "adas",
+   "subtema": "rcta",
+   "materia": 14,
+   "enunciado": "¿En qué maniobra ayuda el sistema de alerta de tráfico cruzado (RCTA)?",
+   "opciones": {
+    "a": "Al adelantar en carretera convencional.",
+    "b": "Al incorporarse a una autopista.",
+    "c": "Al circular marcha atrás, por ejemplo al salir de un aparcamiento."
+   },
+   "correcta": "c",
+   "explicacion": "El RCTA avisa si hay otros vehículos detrás cuando se circula marcha atrás, por ejemplo al salir de una plaza de aparcamiento.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Sistema de alerta de tráfico cruzado (RCTA) (p. 138)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Este sistema avisa al conductor si hay otros vehículos detrás cuando va marcha atrás.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0006",
+   "tema": "adas",
+   "subtema": "camara_360",
+   "materia": 14,
+   "enunciado": "La imagen que muestra la cámara de 360 grados de un vehículo, ¿de dónde procede?",
+   "opciones": {
+    "a": "De un satélite, a través del navegador.",
+    "b": "De las cámaras de tráfico de la vía.",
+    "c": "De las cámaras del propio vehículo, que captan lo que hay a su alrededor."
+   },
+   "correcta": "c",
+   "explicacion": "La cámara de 360 grados capta todo lo que hay alrededor del vehículo y lo muestra en la pantalla delantera.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Cámara de marcha atrás y cámara de 360 grados (p. 136)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "La cámara 360 grados capta todo lo que hay alrededor del vehículo y lo proyecta en la pantalla de la parte delantera.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0007",
+   "tema": "adas",
+   "subtema": "tsr",
+   "materia": 14,
+   "enunciado": "¿Qué hace el sistema de reconocimiento de señales de tráfico (TSR)?",
+   "opciones": {
+    "a": "Detecta las señales de límite de velocidad de la carretera y las muestra al conductor.",
+    "b": "Detecta si el conductor tiene sueño.",
+    "c": "Avisa si hay un vehículo en el ángulo muerto."
+   },
+   "correcta": "a",
+   "explicacion": "El TSR detecta las señales de límite de velocidad; en algunos vehículos muestra el límite en el cuadro y en otros reduce también la velocidad.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Sistema de reconocimiento de señales de tráfico (TSR) (p. 134)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Detecta las señales de límite de velocidad que hay en la carretera para que la persona que conduce pueda reducir la velocidad del vehículo si es necesario.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0008",
+   "tema": "adas",
+   "subtema": "salida_pendiente",
+   "materia": 14,
+   "enunciado": "¿Para qué sirve el sistema de ayuda de salida en pendiente (hill holder)?",
+   "opciones": {
+    "a": "Para bajar pendientes sin usar el freno.",
+    "b": "Para que el vehículo no se vaya hacia atrás al arrancar en una cuesta.",
+    "c": "Para reducir el consumo en las subidas."
+   },
+   "correcta": "b",
+   "explicacion": "Evita que el vehículo retroceda al arrancar en pendiente o al pasar el pie del freno al acelerador.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 6, Sistema de ayuda de salida en pendiente (p. 137)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Este sistema ayuda a que el vehículo no se vaya para atrás cuando el conductor arranca en una pendiente muy inclinada.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0009",
+   "tema": "adas",
+   "subtema": "angulo_muerto",
+   "materia": 14,
+   "enunciado": "¿Cómo avisa normalmente el detector de ángulo muerto (BSM) de que hay un vehículo en esa zona?",
+   "opciones": {
+    "a": "Frenando el vehículo.",
+    "b": "Con una vibración en el pedal del acelerador.",
+    "c": "Encendiendo una luz colocada en el espejo retrovisor."
+   },
+   "correcta": "c",
+   "explicacion": "El BSM enciende una luz en el retrovisor cuando hay otro vehículo en la zona de ángulo muerto.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Detector de ángulos muertos (BSM) (p. 444)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "En esos casos se enciende una luz que está colocada en el espejo retrovisor.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0010",
+   "tema": "adas",
+   "subtema": "start_stop",
+   "materia": 16,
+   "enunciado": "¿Qué efecto positivo tiene el sistema Start-Stop?",
+   "opciones": {
+    "a": "Reduce el consumo de combustible y la contaminación, porque detiene el motor cuando el vehículo se para un momento.",
+    "b": "Mejora la frenada en pendientes.",
+    "c": "Aumenta la potencia del motor al arrancar."
+   },
+   "correcta": "a",
+   "explicacion": "El Start-Stop detiene el motor en paradas breves (semáforo, atasco): parado no gasta combustible ni emite gases.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Función Start-Stop (p. 462)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "cuando el vehículo está parado no gasta combustible y no lanza gases que contaminan el medioambiente.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0011",
+   "tema": "adas",
+   "subtema": "ecall",
+   "materia": 11,
+   "enunciado": "En caso de accidente, ¿qué sistema envía automáticamente un aviso al 112, aunque nadie llame?",
+   "opciones": {
+    "a": "El eCall.",
+    "b": "El EBD.",
+    "c": "El TSR."
+   },
+   "correcta": "a",
+   "explicacion": "El eCall envía un mensaje automático al 112 en caso de accidente para que acudan los servicios de emergencia.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Avisar (p. 420)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Este sistema envía un mensaje de forma automática al 112 en caso de accidente para que los servicios de emergencia vayan al lugar",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ada-0012",
+   "tema": "adas",
+   "subtema": "alumbrado_automatico",
+   "materia": 14,
+   "enunciado": "¿Qué hace el sistema de activación automática del alumbrado?",
+   "opciones": {
+    "a": "Cambia solo de luz de carretera a luz de cruce al cruzarse con otro vehículo.",
+    "b": "Mide la luz exterior y enciende o apaga las luces automáticamente.",
+    "c": "Enciende los antiniebla cuando detecta niebla."
+   },
+   "correcta": "b",
+   "explicacion": "Mide la luz exterior y enciende o apaga las luces de forma automática.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Activación automática de alumbrado (p. 90)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Sistema que mide la luz que hay en el exterior y enciende o apaga las luces de forma automática",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0001",
+   "tema": "condiciones_adversas",
+   "subtema": "curvas",
+   "materia": 5,
+   "enunciado": "¿Cuándo se debe reducir la velocidad para tomar una curva?",
+   "opciones": {
+    "a": "Antes de entrar en la curva.",
+    "b": "En el centro de la curva.",
+    "c": "A la salida de la curva."
+   },
+   "correcta": "a",
+   "explicacion": "Antes de entrar en la curva hay que reducir la velocidad o frenar si es necesario; dentro, no acelerar ni frenar bruscamente, y a la salida aumentar poco a poco.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Pasos para tomar bien una curva (p. 343)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Antes de entrar en la curva debes: ■ Reducir la velocidad o frenar si es necesario.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0002",
+   "tema": "condiciones_adversas",
+   "subtema": "viento",
+   "materia": 6,
+   "enunciado": "Con viento lateral fuerte, ¿en qué situación hay más peligro?",
+   "opciones": {
+    "a": "Al circular detrás de un turismo a distancia de seguridad.",
+    "b": "Al adelantar a un vehículo que ocupa mucho espacio, como un camión.",
+    "c": "Al circular por el carril derecho de una autopista sin tráfico."
+   },
+   "correcta": "b",
+   "explicacion": "El viento es más peligroso al cruzarse con otro vehículo, al adelantar a un vehículo voluminoso o al pasar junto a edificios u obstáculos.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con mucho viento (p. 362)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "El viento tiene más peligro para conducir en las siguientes situaciones: ■ Al cruzarte con otro vehículo. ■ Al adelantar a un vehículo que ocupa mucho espacio.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0003",
+   "tema": "condiciones_adversas",
+   "subtema": "aquaplaning",
+   "materia": 6,
+   "enunciado": "¿Cuál es la mejor forma de prevenir el aquaplaning?",
+   "opciones": {
+    "a": "Circular despacio por las zonas en las que hay agua.",
+    "b": "Frenar con fuerza al pasar por un charco.",
+    "c": "Llevar los neumáticos con menos presión de la recomendada."
+   },
+   "correcta": "a",
+   "explicacion": "El aquaplaning es más probable a mucha velocidad y con neumáticos muy anchos o desgastados; la mejor prevención es circular despacio donde hay agua.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Aquaplaning (p. 355)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "la mejor forma de prevenir el aquaplaning es circular despacio por las zonas en las que hay agua.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0004",
+   "tema": "condiciones_adversas",
+   "subtema": "aquaplaning",
+   "materia": 6,
+   "enunciado": "¿Cuál de estas circunstancias facilita que se produzca aquaplaning?",
+   "opciones": {
+    "a": "Circular a poca velocidad.",
+    "b": "Llevar neumáticos nuevos con el dibujo profundo.",
+    "c": "Llevar neumáticos muy desgastados."
+   },
+   "correcta": "c",
+   "explicacion": "Es más fácil hacer aquaplaning a mucha velocidad y con neumáticos muy anchos o muy desgastados.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Aquaplaning (p. 355)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Es más fácil hacer aquaplaning y perder el control cuando el vehículo circula a mucha velocidad y cuando los neumáticos son muy anchos o están muy desgastados.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0005",
+   "tema": "condiciones_adversas",
+   "subtema": "lluvia",
+   "materia": 6,
+   "enunciado": "Con el suelo mojado, las ruedas de tu vehículo empiezan a patinar. ¿Qué debes hacer?",
+   "opciones": {
+    "a": "Frenar a fondo.",
+    "b": "Levantar el pie del acelerador, pero sin frenar.",
+    "c": "Acelerar para recuperar la tracción."
+   },
+   "correcta": "b",
+   "explicacion": "Cuando las ruedas patinan hay que levantar el pie del acelerador sin frenar.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con lluvia (p. 354)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cuando las ruedas patinan debes levantar el pie del acelerador, pero sin frenar.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0006",
+   "tema": "condiciones_adversas",
+   "subtema": "lluvia",
+   "materia": 6,
+   "enunciado": "¿Por qué hay que tener especial cuidado cuando empiezan a caer las primeras gotas de lluvia?",
+   "opciones": {
+    "a": "Porque el agua se mezcla con el polvo, la grasa y la suciedad de la carretera y forma un barro deslizante.",
+    "b": "Porque los limpiaparabrisas aún no funcionan bien.",
+    "c": "Porque la visibilidad es peor que con lluvia intensa."
+   },
+   "correcta": "a",
+   "explicacion": "Las primeras gotas se mezclan con polvo, grasa y suciedad y forman un barro que puede hacer patinar el vehículo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con lluvia (p. 354)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Debes tener cuidado de forma especial cuando empiezan a caer las primeras gotas de agua. Estas gotas se mezclan con el polvo, la grasa y otras suciedades de la carretera formando un barro",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0007",
+   "tema": "condiciones_adversas",
+   "subtema": "niebla",
+   "materia": 6,
+   "enunciado": "Además de la visibilidad, ¿por qué es peligrosa la niebla?",
+   "opciones": {
+    "a": "Porque aumenta la fuerza del viento.",
+    "b": "Porque obliga a circular siempre con luz de carretera.",
+    "c": "Porque el suelo está húmedo y los neumáticos se agarran menos."
+   },
+   "correcta": "c",
+   "explicacion": "Con niebla se ve peor y, además, el suelo húmedo reduce la adherencia de los neumáticos.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con niebla (p. 360)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Los neumáticos se agarran menos a la carretera porque el suelo está húmedo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0008",
+   "tema": "condiciones_adversas",
+   "subtema": "nieve",
+   "materia": 6,
+   "enunciado": "Para arrancar y circular en llano sobre nieve, ¿qué marcha conviene usar?",
+   "opciones": {
+    "a": "Una marcha más larga (por ejemplo, segunda), que dé poca fuerza a las ruedas para que no patinen.",
+    "b": "Siempre primera, para tener la máxima fuerza.",
+    "c": "Punto muerto, para que el vehículo ruede libremente."
+   },
+   "correcta": "a",
+   "explicacion": "Con nieve se elige una marcha que permita arrancar con poca fuerza del motor (marcha más larga), para que las ruedas no patinen.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con nieve (p. 356)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Elegir una velocidad en la caja de cambios que permita que el vehículo arranque a más velocidad, pero con poca fuerza del motor.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0009",
+   "tema": "condiciones_adversas",
+   "subtema": "nieve",
+   "materia": 6,
+   "enunciado": "¿Cómo debes bajar una pendiente con la calzada nevada?",
+   "opciones": {
+    "a": "En una marcha larga, para no forzar el motor.",
+    "b": "En una marcha corta (primera o segunda), para que el motor retenga el vehículo.",
+    "c": "En punto muerto, frenando suavemente."
+   },
+   "correcta": "b",
+   "explicacion": "En bajada con nieve hay que ir más despacio de lo normal y usar marchas cortas para que el motor retenga el vehículo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con nieve (p. 357)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cuando se baja en cuesta hay que hacerlo de forma más lenta de lo normal y elegir velocidades cortas (primera o segunda) para que retengan el vehículo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0010",
+   "tema": "condiciones_adversas",
+   "subtema": "nieve",
+   "materia": 6,
+   "enunciado": "Al circular sobre nieve, ¿por dónde es aconsejable llevar las ruedas?",
+   "opciones": {
+    "a": "Por la zona sin pisar, donde la nieve está más blanda.",
+    "b": "Por la línea de borde de la calzada.",
+    "c": "Por encima de las marcas que han dejado las ruedas de otros vehículos."
+   },
+   "correcta": "c",
+   "explicacion": "Es aconsejable circular por encima de las rodadas que han dejado otros vehículos.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con nieve (p. 357)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Circular por encima de las marcas que han hecho otros vehículos con sus ruedas.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-ent-0011",
+   "tema": "condiciones_adversas",
+   "subtema": "hielo",
+   "materia": 6,
+   "enunciado": "¿En qué lugares es más probable encontrar placas de hielo?",
+   "opciones": {
+    "a": "En zonas húmedas o en las que no llega el sol.",
+    "b": "En los tramos más soleados de la carretera.",
+    "c": "En las rectas largas, lejos de ríos y puentes."
+   },
+   "correcta": "a",
+   "explicacion": "Puede haber hielo en zonas húmedas, zonas donde no llega el sol, puentes, pasos elevados y badenes.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 14, Conducir con hielo (p. 358)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "En zonas húmedas. ■ En zonas en las que no llega el sol.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0001",
+   "tema": "accidentes",
+   "subtema": "obligacion_auxilio",
+   "materia": 11,
+   "enunciado": "Presencias un accidente de tráfico en el que no estás implicado. ¿Tienes obligación de auxiliar o solicitar auxilio?",
+   "opciones": {
+    "a": "No, esa obligación solo es de los implicados.",
+    "b": "Sí; quienes se vean implicados, lo presencien o tengan conocimiento de él están obligados a auxiliar o solicitar auxilio.",
+    "c": "Solo si tienes formación en primeros auxilios."
+   },
+   "correcta": "b",
+   "explicacion": "La obligación de auxiliar o pedir auxilio alcanza a los implicados, a quienes presencian el accidente y a quienes tienen conocimiento de él.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "129.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los usuarios de las vías que se vean implicados en un accidente de tráfico, lo presencien o tengan conocimiento de él estarán obligados a auxiliar o solicitar auxilio",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0002",
+   "tema": "accidentes",
+   "subtema": "obligacion_auxilio",
+   "materia": 11,
+   "enunciado": "Llegas a un accidente en el que no estás implicado y ya se encuentran allí los agentes de la autoridad. ¿Estás obligado a cumplir las medidas que se exigen a los implicados?",
+   "opciones": {
+    "a": "Sí, siempre.",
+    "b": "Sí, y además debes esperar hasta que se retiren los vehículos.",
+    "c": "No, porque la autoridad o sus agentes ya se han personado en el lugar."
+   },
+   "correcta": "c",
+   "explicacion": "El usuario no implicado debe cumplir esas prescripciones salvo que manifiestamente no sea necesaria su colaboración o que la autoridad o sus agentes ya estén en el lugar.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "129.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "a no ser que se hubieran personado en el lugar del hecho la autoridad o sus agentes.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0003",
+   "tema": "accidentes",
+   "subtema": "obligacion_auxilio",
+   "materia": 11,
+   "enunciado": "Si como implicado en un accidente aparentemente hay algún herido, ¿qué debes hacer?",
+   "opciones": {
+    "a": "Avisar a la autoridad o a sus agentes y permanecer o volver al lugar hasta su llegada, salvo que te autoricen a irte o debas atender a heridos.",
+    "b": "Marcharte si el otro conductor te ha dado sus datos.",
+    "c": "Retirar inmediatamente los vehículos aunque haya pruebas en la calzada."
+   },
+   "correcta": "a",
+   "explicacion": "Si aparentemente hay heridos o muertos, el implicado debe avisar a la autoridad y permanecer o volver al lugar hasta su llegada, salvo las excepciones del artículo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "129.2.e",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "e) Avisar a la autoridad o a sus agentes si, aparentemente, hubiera resultado herida o muerta alguna persona, así como permanecer o volver al lugar del accidente hasta su llegada",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0004",
+   "tema": "accidentes",
+   "subtema": "regla_pas",
+   "materia": 11,
+   "enunciado": "¿En qué orden se aplica la conducta PAS ante un accidente?",
+   "opciones": {
+    "a": "Avisar, proteger y socorrer.",
+    "b": "Socorrer, avisar y proteger.",
+    "c": "Proteger, avisar y socorrer."
+   },
+   "correcta": "c",
+   "explicacion": "PAS: primero Proteger (a uno mismo, a las víctimas y el lugar), después Avisar a emergencias y por último Socorrer.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Proteger, Avisar, Socorrer (p. 416)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Proteger Avisar Socorrer Proteger ¿Qué debes proteger? ■ A ti mismo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0005",
+   "tema": "accidentes",
+   "subtema": "chaleco",
+   "materia": 11,
+   "enunciado": "El conductor de un turismo inmovilizado en una carretera interurbana, ¿cuándo debe ponerse el chaleco reflectante de alta visibilidad?",
+   "opciones": {
+    "a": "Cuando salga del vehículo y ocupe la calzada o el arcén.",
+    "b": "Solo de noche.",
+    "c": "Solo si va a colocar la señal de peligro a pie."
+   },
+   "correcta": "a",
+   "explicacion": "Los conductores de turismos deben usar el chaleco reflectante de alta visibilidad cuando salgan del vehículo y ocupen la calzada o el arcén de las vías interurbanas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "118.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberán utilizar un chaleco reflectante de alta visibilidad, de acuerdo con los requisitos de los equipos de protección individual, que figura entre la dotación obligatoria del vehículo, cuando salgan de éste y ocupen la calzada o el arcén de las vías interurbanas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0006",
+   "tema": "accidentes",
+   "subtema": "avisar",
+   "materia": 11,
+   "enunciado": "¿A qué número de teléfono hay que llamar para pedir ayuda en caso de accidente?",
+   "opciones": {
+    "a": "Al 091.",
+    "b": "Al 112.",
+    "c": "Al 060."
+   },
+   "correcta": "b",
+   "explicacion": "Para pedir ayuda se llama al número de emergencias 112 (o se usa el poste SOS si no hay móvil).",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Avisar (p. 419)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Para pedir ayuda debes llamar al número de emergencias 112 desde tu móvil.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0007",
+   "tema": "accidentes",
+   "subtema": "inmovilizacion",
+   "materia": 11,
+   "enunciado": "Tu vehículo queda inmovilizado en la vía tras una avería, sin poder reemprender la marcha, y existe un lugar seguro fuera de la plataforma. ¿Qué deben hacer los ocupantes?",
+   "opciones": {
+    "a": "Quedarse dentro con el cinturón abrochado en todo caso.",
+    "b": "Abandonar el vehículo por el lado contrario al flujo del tráfico, sin transitar ni permanecer en carriles y arcenes.",
+    "c": "Salir por el lado más cómodo y esperar en el arcén junto al vehículo."
+   },
+   "correcta": "b",
+   "explicacion": "Como norma general los ocupantes deben abandonar el vehículo si hay un lugar seguro fuera de la plataforma, saliendo por el lado contrario al tráfico y sin quedarse en carriles ni arcenes. Si no pueden salir con seguridad, permanecerán dentro con el cinturón abrochado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "130.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "deberán salir del vehículo por el lado contrario al flujo de tráfico sin transitar o permanecer en los carriles y arcenes que conforman dicha plataforma.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0008",
+   "tema": "accidentes",
+   "subtema": "inmovilizacion",
+   "materia": 11,
+   "enunciado": "Tras un accidente, si las condiciones de circulación no permiten a los ocupantes abandonar el vehículo con seguridad, ¿qué deben hacer?",
+   "opciones": {
+    "a": "Salir igualmente y situarse en el arcén.",
+    "b": "Permanecer en el habitáculo con el cinturón abrochado.",
+    "c": "Permanecer dentro, pero desabrochados para poder salir rápido."
+   },
+   "correcta": "b",
+   "explicacion": "Si no pueden abandonar el vehículo con seguridad, los ocupantes permanecerán en el habitáculo con el cinturón abrochado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "130.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Si las condiciones de circulación no permitieran a los ocupantes abandonar el vehículo con seguridad, permanecerán en el habitáculo con el cinturón abrochado.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0009",
+   "tema": "accidentes",
+   "subtema": "parte_amistoso",
+   "materia": 11,
+   "enunciado": "¿Dónde se puede rellenar el parte de accidente tras un siniestro?",
+   "opciones": {
+    "a": "En el arcén, junto a los vehículos, con el chaleco puesto.",
+    "b": "En un lugar seguro fuera de la vía; está prohibido hacerlo en la plataforma de circulación.",
+    "c": "En la calzada, si se ha señalizado el accidente con la V-16."
+   },
+   "correcta": "b",
+   "explicacion": "Se prohíbe cumplimentar el parte de accidente en la plataforma de circulación; debe hacerse en un lugar seguro fuera de la vía.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "130.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Se prohíbe a los usuarios de las vías cuyo vehículo haya sufrido un accidente cumplimentar el parte de accidente en la plataforma de circulación. Este proceso se llevará a cabo en un lugar seguro fuera de la vía.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0010",
+   "tema": "accidentes",
+   "subtema": "senalizacion_v16",
+   "materia": 11,
+   "enunciado": "¿Qué dispositivo de preseñalización de peligro forma parte de la dotación obligatoria de un turismo?",
+   "opciones": {
+    "a": "Dos triángulos de preseñalización.",
+    "b": "Un triángulo o la señal V-16, a elección del conductor.",
+    "c": "El dispositivo luminoso de preseñalización de peligro V-16."
+   },
+   "correcta": "c",
+   "explicacion": "La dotación obligatoria de turismos (y de mixtos y mercancías de hasta 3.500 kg) incluye el dispositivo luminoso V-16, el chaleco reflectante y la rueda de repuesto o sistema alternativo. Los triángulos ya no forman parte de ella.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XII.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "llevarán la siguiente dotación: a) El dispositivo luminoso de preseñalización de peligro V-16.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0011",
+   "tema": "accidentes",
+   "subtema": "senalizacion_v16",
+   "materia": 11,
+   "enunciado": "¿Dónde se debe colocar el dispositivo luminoso V-16 en un vehículo inmovilizado?",
+   "opciones": {
+    "a": "En la calzada, a 50 metros por detrás del vehículo.",
+    "b": "En la parte más alta posible del vehículo, para garantizar su máxima visibilidad.",
+    "c": "En el interior, junto al parabrisas."
+   },
+   "correcta": "b",
+   "explicacion": "La V-16, de color amarillo auto, se coloca en la parte más alta posible del vehículo inmovilizado para que sea lo más visible posible; así no hay que caminar por la calzada.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-16.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "se colocará en la parte más alta posible del vehículo inmovilizado garantizado su máxima visibilidad.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0012",
+   "tema": "accidentes",
+   "subtema": "senalizacion_v16",
+   "materia": 11,
+   "enunciado": "Además de emitir luz, ¿qué hace el dispositivo V-16 cuando se activa?",
+   "opciones": {
+    "a": "Comunica su activación, desactivación y geoposicionamiento al punto de acceso nacional en materia de tráfico y movilidad (DGT).",
+    "b": "Hace sonar una alarma acústica para avisar a otros conductores.",
+    "c": "Funciona solo si se conecta a una aplicación del teléfono móvil."
+   },
+   "correcta": "a",
+   "explicacion": "La V-16 comunica su activación, desactivación y ubicación al punto de acceso nacional de la DGT, sin depender del móvil ni de aplicaciones.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-16.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Este dispositivo comunicará, en todo caso, su activación, desactivación y geoposicionamiento, al punto de acceso nacional en materia de tráfico y movilidad.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-acc-0013",
+   "tema": "accidentes",
+   "subtema": "inmovilizacion",
+   "materia": 11,
+   "enunciado": "Si por accidente o avería tu vehículo obstaculiza la calzada, ¿qué debes hacer?",
+   "opciones": {
+    "a": "Dejarlo donde está hasta que llegue la grúa, aunque se pudiera mover.",
+    "b": "Señalizarlo convenientemente y adoptar las medidas para que sea retirado cuanto antes, sacándolo de la calzada siempre que sea factible.",
+    "c": "Retirarlo sin señalizarlo, para ganar tiempo."
+   },
+   "correcta": "b",
+   "explicacion": "El conductor debe señalizar el vehículo o el obstáculo y procurar que se retire en el menor tiempo posible, sacándolo de la calzada y situándolo conforme a las normas de estacionamiento siempre que sea factible.",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "51.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "el conductor, tras señalizar convenientemente el vehículo o el obstáculo creado, adoptará las medidas necesarias para que sea retirado en el menor tiempo posible",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0001",
+   "tema": "primeros_auxilios",
+   "subtema": "socorrer",
+   "materia": 11,
+   "enunciado": "Como norma general, ¿se debe mover a un herido de un accidente?",
+   "opciones": {
+    "a": "Sí, siempre hay que sacarlo del vehículo.",
+    "b": "No, salvo que sea necesario para ponerlo a salvo.",
+    "c": "Sí, para colocarlo en una postura cómoda."
+   },
+   "correcta": "b",
+   "explicacion": "No hay que mover a los heridos salvo que sea necesario para ponerlos a salvo, y siempre protegiendo el cuello.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Socorrer (p. 421)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "No mover a los heridos a no ser que sea necesario para ponerles a salvo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0002",
+   "tema": "primeros_auxilios",
+   "subtema": "casco",
+   "materia": 11,
+   "enunciado": "Un motorista herido en un accidente lleva puesto el casco. ¿Qué debes hacer?",
+   "opciones": {
+    "a": "Quitarle el casco para que respire mejor.",
+    "b": "Aflojarle la correa y quitárselo con cuidado.",
+    "c": "No quitarle el casco."
+   },
+   "correcta": "c",
+   "explicacion": "No se debe quitar el casco a la persona herida.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Socorrer (p. 421)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "No quitar el casco a la persona herida.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0003",
+   "tema": "primeros_auxilios",
+   "subtema": "constantes_vitales",
+   "materia": 11,
+   "enunciado": "Al valorar a un herido, ¿qué constantes vitales se comprueban y en qué orden?",
+   "opciones": {
+    "a": "Primero la consciencia y después la respiración.",
+    "b": "Primero la respiración y después el pulso.",
+    "c": "Primero si hay hemorragias y después la consciencia."
+   },
+   "correcta": "a",
+   "explicacion": "Se comprueban siempre en el mismo orden: primero consciencia y después respiración.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Constantes vitales (p. 424)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "comprobar sus constantes vitales siguiendo siempre el mismo orden. Consciencia Respiración",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0004",
+   "tema": "primeros_auxilios",
+   "subtema": "rcp",
+   "materia": 11,
+   "enunciado": "En la reanimación cardiopulmonar de un adulto que no respira, ¿qué secuencia se recomienda?",
+   "opciones": {
+    "a": "15 compresiones y 1 ventilación.",
+    "b": "30 compresiones en el tórax y 2 ventilaciones boca a boca.",
+    "c": "2 compresiones y 30 ventilaciones."
+   },
+   "correcta": "b",
+   "explicacion": "Se hacen 30 compresiones en el centro del tórax (unas 100 por minuto, con los codos extendidos) y 2 ventilaciones, hasta que llegue la ayuda médica.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Respiración (p. 427)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Haz 2 ventilaciones boca a boca cada 30 compresiones en el tórax",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0005",
+   "tema": "primeros_auxilios",
+   "subtema": "posicion_lateral",
+   "materia": 11,
+   "enunciado": "Un herido inconsciente respira con normalidad y tienes que dejarlo solo para atender a otros heridos. ¿Cómo debes dejarlo?",
+   "opciones": {
+    "a": "Colocado de lado.",
+    "b": "Boca arriba con la cabeza sobre una almohada.",
+    "c": "Sentado y apoyado en el vehículo."
+   },
+   "correcta": "a",
+   "explicacion": "Si respira con normalidad y hay que dejarlo solo, se le coloca de lado (posición lateral de seguridad), lo que evita que se ahogue si vomita.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Respiración (p. 427)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Colocarle de lado si hay que dejarle solo para atender a otros heridos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0006",
+   "tema": "primeros_auxilios",
+   "subtema": "hemorragias",
+   "materia": 11,
+   "enunciado": "¿Cuándo se puede aplicar un torniquete?",
+   "opciones": {
+    "a": "Siempre que haya una herida que sangre.",
+    "b": "En cualquier parte del cuerpo, como primera medida.",
+    "c": "Solo en brazos y piernas, cuando no han funcionado la compresión directa ni la arterial."
+   },
+   "correcta": "c",
+   "explicacion": "El torniquete es el último recurso: solo en extremidades y cuando han fallado la compresión directa y la arterial.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Torniquete (p. 431)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Solo se aplica en hemorragias en brazos y piernas cuando no han funcionado la compresión directa y la arterial.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0007",
+   "tema": "primeros_auxilios",
+   "subtema": "hemorragias",
+   "materia": 11,
+   "enunciado": "Si se aplica un torniquete, ¿qué es importante anotar?",
+   "opciones": {
+    "a": "La hora a la que se hizo y el lugar en el que se ha colocado.",
+    "b": "Solo el nombre del herido.",
+    "c": "La matrícula del vehículo implicado."
+   },
+   "correcta": "a",
+   "explicacion": "Hay que escribir la hora a la que se hizo el torniquete y dónde se ha colocado; solo el personal médico puede quitarlo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Torniquete (p. 431)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Hay que escribir en un papel la hora a la que se hizo el torniquete y el lugar en el que se ha colocado.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0008",
+   "tema": "primeros_auxilios",
+   "subtema": "hemorragias",
+   "materia": 11,
+   "enunciado": "Un herido tiene un objeto clavado en el cuerpo que le provoca una hemorragia. ¿Qué debes hacer con el objeto?",
+   "opciones": {
+    "a": "Sacarlo con cuidado y presionar la herida.",
+    "b": "No intentar sacarlo.",
+    "c": "Sacarlo solo si es pequeño."
+   },
+   "correcta": "b",
+   "explicacion": "Si la hemorragia se debe a un objeto clavado, no hay que intentar sacarlo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Hemorragias (p. 428)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cuando la hemorragia se produce porque un objeto se ha clavado en el cuerpo de la persona, no hay que intentar sacar el objeto.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0009",
+   "tema": "primeros_auxilios",
+   "subtema": "quemaduras",
+   "materia": 11,
+   "enunciado": "Ante una quemadura, ¿cuál de estas acciones es correcta?",
+   "opciones": {
+    "a": "Quitar la ropa que se haya quedado pegada a la zona quemada.",
+    "b": "Echar agua fría sobre la zona quemada.",
+    "c": "Aplicar una pomada y pinchar las ampollas."
+   },
+   "correcta": "b",
+   "explicacion": "Con una quemadura: no tocar la zona, no quitar la ropa pegada, echar agua fría y no pinchar las ampollas.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Quemaduras (p. 434)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "No quitar la ropa que se haya quedado pegada a esa zona. ■ Echar agua fría sobre la zona quemada.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0010",
+   "tema": "primeros_auxilios",
+   "subtema": "shock",
+   "materia": 11,
+   "enunciado": "¿En qué posición se coloca a un herido que presenta síntomas de shock?",
+   "opciones": {
+    "a": "Sentado, con la cabeza entre las piernas.",
+    "b": "Tumbado boca arriba, con la cabeza más alta que los pies.",
+    "c": "Tumbado, con los pies más altos que la cabeza."
+   },
+   "correcta": "c",
+   "explicacion": "Al herido en shock se le coloca tumbado con los pies más altos que la cabeza (si vomita, de lado y con los pies elevados).",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 16, Hemorragia interna (p. 432)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "En estos casos hay que colocar al herido tumbado con los pies más altos que la cabeza.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-aux-0011",
+   "tema": "accesorios_obligatorios",
+   "subtema": "botiquin",
+   "materia": 11,
+   "enunciado": "¿Es obligatorio llevar botiquín de primeros auxilios en un turismo particular?",
+   "opciones": {
+    "a": "Sí, forma parte de la dotación obligatoria.",
+    "b": "No es obligatorio, pero sí conveniente.",
+    "c": "Solo en viajes por vías interurbanas."
+   },
+   "correcta": "b",
+   "explicacion": "El botiquín no figura en la dotación obligatoria del turismo (RGV, Anexo XII), pero el manual de la DGT aconseja llevarlo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Comprobaciones de seguridad (p. 438)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "También es conveniente que lleves un botiquín de primeros auxilios.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0002",
+   "tema": "vehiculo",
+   "subtema": "sistema_escape",
+   "materia": 16,
+   "enunciado": "¿Está permitido circular con un turismo o una motocicleta con el escape libre, sin silenciador?",
+   "opciones": {
+    "a": "Sí, en vías interurbanas.",
+    "b": "Sí, si el vehículo ha pasado la ITV.",
+    "c": "No, está prohibido tanto en vías urbanas como interurbanas."
+   },
+   "correcta": "c",
+   "explicacion": "Se prohíbe la circulación de vehículos a motor y ciclomotores con escape libre, sin el preceptivo silenciador, en vías urbanas e interurbanas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "7.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Tanto en las vías públicas urbanas como en las interurbanas se prohíbe la circulación de vehículos a motor y ciclomotores con el llamado escape libre, sin el preceptivo dispositivo silenciador de las explosiones.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0003",
+   "tema": "vehiculo",
+   "subtema": "sistema_escape",
+   "materia": 16,
+   "enunciado": "¿Qué función tiene el catalizador?",
+   "opciones": {
+    "a": "Reducir el ruido de las explosiones del motor.",
+    "b": "Reducir la contaminación de los gases que salen por el tubo de escape.",
+    "c": "Refrigerar el motor."
+   },
+   "correcta": "b",
+   "explicacion": "El catalizador, situado en el tubo de escape, reduce la contaminación de los gases de escape; el ruido lo reduce el silenciador.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, La contaminación (p. 451)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "El catalizador se encarga de reducir la contaminación que producen los gases que salen por el tubo de escape.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0004",
+   "tema": "vehiculo",
+   "subtema": "sistema_alimentacion",
+   "materia": 14,
+   "enunciado": "Sale humo negro por el tubo de escape. ¿Qué puede indicar?",
+   "opciones": {
+    "a": "Que el filtro del aire está muy sucio o roto.",
+    "b": "Que el motor lleva demasiado aceite.",
+    "c": "Que el motor está frío y es vapor de agua."
+   },
+   "correcta": "a",
+   "explicacion": "Con el filtro del aire muy sucio o roto puede salir humo negro y se gasta más combustible. El humo blanco azulado indica exceso de aceite y el blanco al arrancar en frío es vapor de agua.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 15, Sistema de alimentación (p. 367)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "cuando el filtro está muy sucio o roto, puede salir humo negro del combustible por el tubo de escape.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0005",
+   "tema": "vehiculo",
+   "subtema": "lubricacion",
+   "materia": 14,
+   "enunciado": "¿Cuándo se debe comprobar el nivel de aceite con la varilla?",
+   "opciones": {
+    "a": "Con el motor parado y frío.",
+    "b": "Con el motor en marcha y caliente.",
+    "c": "Justo después de un viaje largo, con el motor en marcha."
+   },
+   "correcta": "a",
+   "explicacion": "El nivel se mira con la varilla con el motor parado y frío, y debe estar entre las marcas de mínimo y máximo.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 15, Sistema de lubricación (p. 372)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Para comprobar el nivel de aceite debes mirar la varilla indicadora cuando el motor esté parado y frío. El nivel de aceite debe estar entre las marcas de mínimo y máximo.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0006",
+   "tema": "vehiculo",
+   "subtema": "lubricacion",
+   "materia": 14,
+   "enunciado": "Durante la marcha se enciende el testigo luminoso de presión de aceite. ¿Qué debes hacer?",
+   "opciones": {
+    "a": "Seguir circulando y revisarlo en la próxima revisión.",
+    "b": "Parar el vehículo y no continuar hasta conocer el problema y arreglarlo.",
+    "c": "Acelerar para que suba la presión."
+   },
+   "correcta": "b",
+   "explicacion": "El testigo indica poco aceite o falta de presión: hay que parar y no continuar hasta conocer y arreglar el problema.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 15, Sistema de lubricación (p. 372)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cuando el testigo luminoso se enciende quiere decir que hay poco aceite o que no tiene la presión que necesita. En ese caso debes parar el vehículo",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0007",
+   "tema": "vehiculo",
+   "subtema": "refrigeracion",
+   "materia": 14,
+   "enunciado": "En el sistema de refrigeración, ¿dónde se enfría el líquido refrigerante antes de volver al motor?",
+   "opciones": {
+    "a": "En el radiador.",
+    "b": "En el cárter.",
+    "c": "En el depósito de combustible."
+   },
+   "correcta": "a",
+   "explicacion": "El líquido refrigerante absorbe el calor del motor, se enfría en el radiador y vuelve al motor impulsado por la bomba de agua.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Después este líquido va a una pieza llamada radiador. Allí se enfría de nuevo y vuelve al motor impulsado por una bomba de agua.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0008",
+   "tema": "vehiculo",
+   "subtema": "sistema_electrico",
+   "materia": 14,
+   "enunciado": "¿Qué elemento proporciona la energía necesaria para arrancar el motor?",
+   "opciones": {
+    "a": "La batería.",
+    "b": "El radiador.",
+    "c": "El catalizador."
+   },
+   "correcta": "a",
+   "explicacion": "La batería proporciona la energía para arrancar el motor y alimenta otros elementos cuando es necesario.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 15, Sistema eléctrico (p. 368)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Proporciona la energía necesaria para arrancar el motor.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0009",
+   "tema": "vehiculo",
+   "subtema": "transmision",
+   "materia": 14,
+   "enunciado": "¿Qué sistema se encarga de llevar la fuerza del motor a las ruedas?",
+   "opciones": {
+    "a": "El sistema de dirección.",
+    "b": "El sistema de suspensión.",
+    "c": "El sistema de transmisión."
+   },
+   "correcta": "c",
+   "explicacion": "La transmisión lleva la fuerza del motor a las ruedas (motrices) para que el vehículo se mueva.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 15, Sistema de transmisión (p. 379)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Llevar la fuerza del motor a las ruedas para que el vehículo se pueda mover.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0010",
+   "tema": "vehiculo",
+   "subtema": "transmision",
+   "materia": 14,
+   "enunciado": "Un vehículo en el que el motor da impulso solo a las ruedas traseras, ¿cómo se denomina?",
+   "opciones": {
+    "a": "De tracción.",
+    "b": "De propulsión.",
+    "c": "De tracción total."
+   },
+   "correcta": "b",
+   "explicacion": "Si el impulso llega a las ruedas delanteras es de tracción; a las traseras, de propulsión; a todas, de tracción total.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 15, Sistema de transmisión (p. 379)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "De tracción A las de delante. De propulsión A las de atrás.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0011",
+   "tema": "accesorios_obligatorios",
+   "subtema": "dotacion",
+   "materia": 14,
+   "enunciado": "Respecto a la rueda de repuesto, ¿qué debe llevar un turismo?",
+   "opciones": {
+    "a": "Siempre una rueda completa de repuesto, sin alternativa posible.",
+    "b": "Una rueda de repuesto o de uso temporal con las herramientas para el cambio, o un sistema alternativo que garantice la movilidad.",
+    "c": "Nada; la rueda de repuesto es opcional."
+   },
+   "correcta": "b",
+   "explicacion": "La dotación incluye una rueda completa de repuesto o de uso temporal con las herramientas para cambiarla, o un sistema alternativo con garantías suficientes (por ejemplo, un kit antipinchazos).",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XII.1.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "c) Una rueda completa de repuesto o una rueda de uso temporal, con las herramientas necesarias para el cambio de ruedas, o un sistema alternativo al cambio de las mismas que ofrezca suficientes garantías para la movilidad del vehículo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0012",
+   "tema": "accesorios_obligatorios",
+   "subtema": "dotacion",
+   "materia": 14,
+   "enunciado": "¿Cuál de estos vehículos está obligado a llevar un equipo homologado de extinción de incendios (extintor)?",
+   "opciones": {
+    "a": "Un turismo.",
+    "b": "Una motocicleta.",
+    "c": "Un autobús."
+   },
+   "correcta": "c",
+   "explicacion": "Autobuses, mixtos y vehículos de mercancías de más de 3.500 kg de MMA y los conjuntos de vehículos no especiales deben llevar extintor homologado; los turismos no.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XII.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Los autobuses, así como los vehículos mixtos y los automóviles destinados al transporte de mercancías, estos dos últimos de masa máxima autorizada superior a 3.500 kg, y los conjuntos de vehículos no especiales, deberán llevar, además de la dotación que se establece en el apartado 1 a) y b), un equipo homologado de extinción de incendios",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-mec-0013",
+   "tema": "accesorios_obligatorios",
+   "subtema": "dotacion",
+   "materia": 14,
+   "enunciado": "¿Qué elemento de la dotación obligatoria deben llevar las motocicletas?",
+   "opciones": {
+    "a": "Un chaleco reflectante de alta visibilidad.",
+    "b": "La señal V-16 y una rueda de repuesto.",
+    "c": "Un extintor."
+   },
+   "correcta": "a",
+   "explicacion": "Las motocicletas deben llevar un chaleco reflectante de alta visibilidad.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XII.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Las motocicletas deberán llevar un chaleco reflectante de alta visibilidad que reúna los requisitos de los equipos de protección individual.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pre-0001",
+   "tema": "conduccion_preventiva",
+   "subtema": "vision",
+   "materia": 4,
+   "enunciado": "En la conducción preventiva, ¿hasta dónde conviene mirar a lo lejos?",
+   "opciones": {
+    "a": "Hasta el espacio que recorrerá el vehículo en los siguientes 20 segundos.",
+    "b": "Solo los primeros metros por delante del capó.",
+    "c": "Hasta el espacio que recorrerá en los siguientes 2 segundos."
+   },
+   "correcta": "a",
+   "explicacion": "Hay que mirar a lo lejos para controlar lo que pasa en el espacio que recorrerá el vehículo en los siguientes 20 segundos; cuanto más rápido, más lejos.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Visión (p. 441)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Debes mirar a lo lejos para controlar lo que pasa en el espacio que va a recorrer tu vehículo en los siguientes 20 segundos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pre-0002",
+   "tema": "conduccion_preventiva",
+   "subtema": "angulo_muerto",
+   "materia": 4,
+   "enunciado": "Antes de cambiar de carril, ¿cómo puedes comprobar que no hay ningún vehículo en el ángulo muerto?",
+   "opciones": {
+    "a": "Solo mirando el retrovisor interior.",
+    "b": "Girando la cabeza y mirando a través de la ventanilla.",
+    "c": "Tocando el claxon."
+   },
+   "correcta": "b",
+   "explicacion": "Siempre hay zonas que los retrovisores no cubren; para comprobarlas se puede girar la cabeza y mirar por la ventanilla.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Visión (p. 443)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Para asegurar que no hay otro vehículo en la zona de ángulo muerto, puedes girar la cabeza y mirar a través de la ventanilla.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-pre-0003",
+   "tema": "conduccion_preventiva",
+   "subtema": "espacio_trasero",
+   "materia": 5,
+   "enunciado": "El vehículo que circula detrás de ti se acerca demasiado. ¿Qué es lo más aconsejable?",
+   "opciones": {
+    "a": "Frenar de golpe para que se aparte.",
+    "b": "Dejar más distancia de seguridad con el vehículo de delante.",
+    "c": "Acelerar para alejarte de él."
+   },
+   "correcta": "b",
+   "explicacion": "Si el de detrás se acerca mucho, hay que dejar más distancia con el de delante para no tener que frenar bruscamente, señalizar con más tiempo y frenar con suavidad.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Espacio trasero (p. 447)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Dejar más distancia de seguridad con el vehículo de delante para no frenar brusco ante un imprevisto.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-efi-0001",
+   "tema": "conduccion_eficiente",
+   "subtema": "concepto",
+   "materia": 16,
+   "enunciado": "¿Qué se consigue con la conducción eficiente?",
+   "opciones": {
+    "a": "Gastar menos combustible, contaminar menos y una conducción más segura.",
+    "b": "Llegar antes al destino aunque aumente el consumo.",
+    "c": "Mayor rendimiento del motor a altas revoluciones."
+   },
+   "correcta": "a",
+   "explicacion": "La conducción eficiente gasta menos combustible, contamina menos y es más segura y cómoda.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Conducción eficiente (p. 449)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Forma de conducir en la que se gasta menos combustible, se ayuda a contaminar menos y a que la conducción sea más segura.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-efi-0002",
+   "tema": "conduccion_eficiente",
+   "subtema": "cambio_marchas",
+   "materia": 16,
+   "enunciado": "En conducción eficiente, después de iniciar la marcha en primera, ¿cuándo conviene cambiar a segunda?",
+   "opciones": {
+    "a": "A los pocos segundos.",
+    "b": "Cuando el motor esté a revoluciones muy altas.",
+    "c": "Después de recorrer al menos 100 metros."
+   },
+   "correcta": "a",
+   "explicacion": "Se arranca en primera y se pasa a segunda a los pocos segundos; las marchas largas son las que menos consumen.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Técnicas para conducir de forma eficiente (p. 453)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Cambiar a la segunda marcha a los pocos segundos.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-efi-0003",
+   "tema": "conduccion_eficiente",
+   "subtema": "parado",
+   "materia": 16,
+   "enunciado": "En conducción eficiente, ¿cuándo es aconsejable apagar el motor?",
+   "opciones": {
+    "a": "Nunca, porque al arrancar se gasta más.",
+    "b": "Cuando el vehículo vaya a estar parado más de un minuto.",
+    "c": "Solo cuando se va a estar parado más de diez minutos."
+   },
+   "correcta": "b",
+   "explicacion": "Se aconseja apagar el motor cuando el vehículo vaya a estar más de un minuto parado, por ejemplo en un atasco prolongado.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Al reducir la velocidad y parar el vehículo (p. 454)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Apagar el motor cuando el vehículo vaya a estar más de un minuto parado.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-efi-0004",
+   "tema": "conduccion_eficiente",
+   "subtema": "aerodinamica",
+   "materia": 16,
+   "enunciado": "Llevar instalada la baca en el techo sin necesidad, ¿cómo influye en el consumo?",
+   "opciones": {
+    "a": "No influye.",
+    "b": "Lo reduce, porque mejora la estabilidad.",
+    "c": "Lo aumenta, porque al vehículo le cuesta más vencer la resistencia del aire."
+   },
+   "correcta": "c",
+   "explicacion": "Elementos como la baca o los deflectores aumentan la resistencia al aire y el consumo; es mejor llevar el equipaje en el maletero.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, El aire de la calle (p. 455)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Algunos de los elementos que se ponen en el vehículo hacen que le cueste más luchar contra el aire y, por lo tanto, gaste más combustible. Por ejemplo la baca o los deflectores.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-efi-0005",
+   "tema": "conduccion_eficiente",
+   "subtema": "carga",
+   "materia": 16,
+   "enunciado": "Llevar en el maletero peso innecesario durante meses, ¿qué efecto tiene?",
+   "opciones": {
+    "a": "Aumenta el consumo de combustible.",
+    "b": "Reduce el consumo, porque el coche es más estable.",
+    "c": "No tiene ningún efecto en el consumo."
+   },
+   "correcta": "a",
+   "explicacion": "Un vehículo consume más cuanto más peso lleva; hay que llevar solo la carga necesaria.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 17, Cargar mucho peso (p. 460)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Un vehículo consume más combustible cuando carga con mucho peso.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-efi-0006",
+   "tema": "conduccion_eficiente",
+   "subtema": "neumaticos",
+   "materia": 16,
+   "enunciado": "¿Qué ocurre con el consumo si los neumáticos llevan una presión inferior a la recomendada?",
+   "opciones": {
+    "a": "Disminuye.",
+    "b": "No cambia.",
+    "c": "Aumenta."
+   },
+   "correcta": "c",
+   "explicacion": "Con presión menor de la recomendada el neumático se calienta, se desgasta antes y se gasta más combustible.",
+   "fuente": {
+    "norma": "MANUAL_DGT",
+    "articulo": "Tema 5, Presión de inflado (p. 99)",
+    "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+    "cita": "Presión de inflado menor a la recomendada El neumático se calienta, se deforma y se desgasta antes. Se gasta más combustible.",
+    "version_consultada": "2024-10"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0001",
+   "tema": "distintivos_ambientales",
+   "subtema": "tipos",
+   "materia": 16,
+   "enunciado": "¿Cuáles son los distintivos ambientales que existen para los vehículos?",
+   "opciones": {
+    "a": "A, B, C y D.",
+    "b": "0 emisiones, ECO, C y B.",
+    "c": "0 emisiones, ECO, B y A."
+   },
+   "correcta": "b",
+   "explicacion": "Los distintivos identifican la clasificación ambiental del Registro: 0 emisiones, ECO, C y B. No se crea distintivo para la categoría A.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-25.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Identifica la clasificación ambiental que el vehículo tiene en el Registro de Vehículos: 0 emisiones, ECO, C y B. No se crea distintivo para la categoría A.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0002",
+   "tema": "distintivos_ambientales",
+   "subtema": "clasificacion",
+   "materia": 16,
+   "enunciado": "¿En función de qué se clasifican los vehículos para asignarles un distintivo ambiental?",
+   "opciones": {
+    "a": "De su antigüedad únicamente.",
+    "b": "De su potencia y cilindrada.",
+    "c": "De su nivel de emisiones y el combustible empleado (potencial contaminante)."
+   },
+   "correcta": "c",
+   "explicacion": "Los vehículos se clasifican en el Registro según su potencial contaminante, en relación con su nivel de emisiones y el combustible empleado.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo II.E.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Todo vehículo matriculado en el Registro de Vehículos será clasificado en el mismo en relación a su nivel de emisiones y combustible empleado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0003",
+   "tema": "distintivos_ambientales",
+   "subtema": "cero_emisiones",
+   "materia": 16,
+   "enunciado": "¿Qué distintivo corresponde a un turismo eléctrico de batería o a un híbrido enchufable con una autonomía mínima de 40 km?",
+   "opciones": {
+    "a": "0 emisiones.",
+    "b": "ECO.",
+    "c": "C."
+   },
+   "correcta": "a",
+   "explicacion": "Son 0 emisiones los eléctricos de batería (BEV), de autonomía extendida (REEV), de hidrógeno, de pila de combustible y los híbridos enchufables (PHEV) con autonomía mínima de 40 km.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo II.E.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "vehículos eléctricos de batería (BEV), vehículo eléctrico de autonomía extendida (REEV), vehículo de hidrógeno (HICEV), vehículo eléctrico híbrido enchufable (PHEV) con una autonomía mínima de 40 kilómetros (ciclo NEDC)",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0004",
+   "tema": "distintivos_ambientales",
+   "subtema": "eco",
+   "materia": 16,
+   "enunciado": "Un turismo híbrido no enchufable (HEV), ¿qué distintivo ambiental obtiene?",
+   "opciones": {
+    "a": "0 emisiones.",
+    "b": "ECO.",
+    "c": "B."
+   },
+   "correcta": "b",
+   "explicacion": "Los turismos híbridos no enchufables, los enchufables con autonomía menor de 40 km y los de gas natural, GNC o GLP (que cumplan los criterios C) son ECO.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo II.E.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC), vehículos híbridos no enchufables (HEV)",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0005",
+   "tema": "distintivos_ambientales",
+   "subtema": "c_b",
+   "materia": 16,
+   "enunciado": "Un turismo de gasolina clasificado como Euro 4, ¿qué distintivo ambiental obtiene?",
+   "opciones": {
+    "a": "B.",
+    "b": "C.",
+    "c": "Ninguno."
+   },
+   "correcta": "b",
+   "explicacion": "Son C los turismos de gasolina Euro 4, 5 o 6 y los diésel Euro 6. Los de gasolina Euro 3 y los diésel Euro 4 o 5 son B.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo II.E.2.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0006",
+   "tema": "distintivos_ambientales",
+   "subtema": "c_b",
+   "materia": 16,
+   "enunciado": "Un turismo diésel clasificado como Euro 5, ¿qué distintivo ambiental obtiene?",
+   "opciones": {
+    "a": "C.",
+    "b": "ECO.",
+    "c": "B."
+   },
+   "correcta": "c",
+   "explicacion": "Los turismos diésel Euro 4 o 5 y los de gasolina Euro 3 obtienen el distintivo B; los diésel solo son C si son Euro 6.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo II.E.2.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0007",
+   "tema": "distintivos_ambientales",
+   "subtema": "colocacion",
+   "materia": 16,
+   "enunciado": "Si un vehículo con parabrisas delantero debe llevar el distintivo ambiental, ¿dónde se coloca?",
+   "opciones": {
+    "a": "En el ángulo inferior derecho del parabrisas, por su cara interior.",
+    "b": "En el ángulo superior izquierdo del parabrisas, por fuera.",
+    "c": "En la luneta trasera."
+   },
+   "correcta": "a",
+   "explicacion": "El distintivo ambiental va en el ángulo inferior derecho del parabrisas, por la cara interior; sin parabrisas, en un sitio bien visible.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-25.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Si el vehículo dispone de parabrisas delantero, el distintivo irá colocado en el ángulo inferior derecho del mismo, por su cara interior.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0008",
+   "tema": "distintivos_ambientales",
+   "subtema": "uso_compartido",
+   "materia": 16,
+   "enunciado": "El distintivo de uso compartido (V-26), en un vehículo con parabrisas, ¿dónde se coloca preferentemente?",
+   "opciones": {
+    "a": "En el ángulo inferior derecho del parabrisas.",
+    "b": "En el ángulo superior izquierdo del parabrisas, por su cara interior.",
+    "c": "En la parte trasera del vehículo."
+   },
+   "correcta": "b",
+   "explicacion": "El distintivo de uso compartido va preferentemente en el ángulo superior izquierdo del parabrisas, por la cara interior (el ambiental va en el inferior derecho).",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-26.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Si el vehículo dispone de parabrisas delantero, el distintivo irá colocado preferentemente en el ángulo superior izquierdo del mismo, por su cara interior.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": null,
+   "verificado_el": "2026-11-24"
+  }
+ ]
+};

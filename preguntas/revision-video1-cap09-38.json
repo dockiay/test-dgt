@@ -1,0 +1,1685 @@
+{
+  "version": 1,
+  "revision": [
+    {
+      "id": "A-rev-0001",
+      "tema": "prioridad",
+      "afirmacion_del_video": "Si han entrado los dos en el estrechamiento, pasa primero el que más metros tenga que dar marcha atrás (1:27:58).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "ERROR DEL VÍDEO. RGC 60.1: en caso de duda sobre quién entró primero, tiene preferencia el vehículo con mayores dificultades de maniobra según el orden del art. 62. La mayor distancia de marcha atrás solo decide entre vehículos del mismo tipo o no enumerados (62.1, último párrafo).",
+      "sugerencia": "Ya se ha creado la pregunta correcta (A-est-0002 y A-est-0003)."
+    },
+    {
+      "id": "A-rev-0002",
+      "tema": "parada_estacionamiento",
+      "afirmacion_del_video": "La parada es inferior a 2 minutos «sin abandonar el vehículo», pero eso no significa que no te puedas bajar (1:52:49).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "DISCUTIBLE. LSV Anexo I.81: parada es la inmovilización inferior a dos minutos «sin que el conductor pueda abandonarlo». La norma no aclara si bajarse junto al coche es «abandonarlo»; no se debe afirmar que se puede bajar.",
+      "sugerencia": "No crear pregunta sobre si el conductor puede bajarse. Usar solo la definición literal (A-par-0001)."
+    },
+    {
+      "id": "A-rev-0003",
+      "tema": "parada_estacionamiento",
+      "afirmacion_del_video": "El estacionamiento es cuando has estado dos o más minutos parado (1:53:05).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "INCOMPLETO. LSV Anexo I.82: estacionamiento es toda inmovilización que no sea detención ni parada; también lo es la de menos de 2 minutos si el conductor abandona el vehículo.",
+      "sugerencia": "Pregunta correcta creada (A-par-0003)."
+    },
+    {
+      "id": "A-rev-0004",
+      "tema": "parada_estacionamiento",
+      "afirmacion_del_video": "Para calzar un vehículo pesado en cuesta, si no tienes calzos pones una piedra grande (2:01:54).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "ERROR DEL VÍDEO. RGC 92.3.d prohíbe expresamente emplear «elementos como piedras u otros no destinados de modo expreso a dicha función»; la alternativa a los calzos es apoyar una rueda directriz en el bordillo.",
+      "sugerencia": "Pregunta correcta creada (A-par-0020)."
+    },
+    {
+      "id": "A-rev-0005",
+      "tema": "adelantamiento",
+      "afirmacion_del_video": "Con línea continua se puede adelantar también a un «vehículo especial pequeño de hasta 3.500 kg» a partir de octubre de 2026 (1:43:21).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "ERROR DEL VÍDEO. RGC 88.2 (vigente) dice «vehículos especiales agrícolas y sus conjuntos», sin límite de masa. La lista incluye también los vehículos de movilidad personal, que el vídeo no menciona.",
+      "sugerencia": "Pregunta correcta creada (A-adel-0016)."
+    },
+    {
+      "id": "A-rev-0006",
+      "tema": "adelantamiento",
+      "afirmacion_del_video": "Prohibido adelantar en los pasos para ciclistas (1:46:17).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "MATIZ. RGC 87.1.b dice «en las intersecciones con vías para ciclistas», no «pasos para ciclistas». Se ha evitado preguntar por los pasos para ciclistas.",
+      "sugerencia": "Si se quiere pregunta, usar la expresión literal del 87.1.b."
+    },
+    {
+      "id": "A-rev-0007",
+      "tema": "maniobras",
+      "afirmacion_del_video": "El cambio de sentido está bien hecho si se hace «de una sola maniobra»; si hay que parar y echar marcha atrás ya no se puede (1:50:07).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "NO ESTÁ EN LA NORMA. RGC 78.1 exige elegir un lugar adecuado para que se intercepte la vía el menor tiempo posible, advertirlo y no poner en peligro ni obstaculizar; no exige hacerlo en una sola maniobra ni prohíbe maniobras complementarias.",
+      "sugerencia": "No crear pregunta con «una sola maniobra»."
+    },
+    {
+      "id": "A-rev-0008",
+      "tema": "maniobras",
+      "afirmacion_del_video": "Está prohibido cambiar de sentido en los pasos para peatones y pasos para ciclistas (1:50:48).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "MATIZ. RGC 79.1 no los nombra: prohíbe el cambio de sentido en los tramos donde esté prohibido adelantar (y 87.1.b incluye los pasos para peatones y las intersecciones con vías para ciclistas), salvo que esté expresamente autorizado. Se ha preguntado solo por paso a nivel, autopista y tramo con adelantamiento prohibido.",
+      "sugerencia": ""
+    },
+    {
+      "id": "A-rev-0009",
+      "tema": "maniobras",
+      "afirmacion_del_video": "Para girar a la izquierda en una calle de doble sentido «lo haré desde el derecho» (1:47:40).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "CONTRADICE RGC 75.1.b: en calzada de doble sentido hay que ceñirse a la marca de separación entre sentidos o al eje, sin invadir el sentido contrario (el propio vídeo lo dice justo después).",
+      "sugerencia": "Pregunta correcta creada (A-dir-0004)."
+    },
+    {
+      "id": "A-rev-0010",
+      "tema": "parada_estacionamiento",
+      "afirmacion_del_video": "En el zigzag amarillo se puede hacer una parada para bajar las maletas (1:53:55).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "DISCUTIBLE. La marca M-7.9 (Anexo I RGC, 4.7) solo prohíbe el estacionamiento, pero indica un lugar reservado a un uso especial (paradas de autobús, carga y descarga). Si es zona de parada de transporte público urbano, el art. 94.1.i prohíbe también parar.",
+      "sugerencia": "No crear pregunta afirmando que se puede parar en el zigzag."
+    },
+    {
+      "id": "A-rev-0011",
+      "tema": "parada_estacionamiento",
+      "afirmacion_del_video": "Delante de un vado permanente se puede hacer una parada de menos de 2 minutos (1:57:15).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "DISCUTIBLE. RGC 94.2.f prohíbe estacionar delante de vados; la parada no está en la lista del 94.1, pero el 91.2.c considera parada en lugar peligroso u obstaculizador la que impida el uso normal del vado. Depende de si se obstaculiza.",
+      "sugerencia": "No crear pregunta sobre parada en vado."
+    },
+    {
+      "id": "A-rev-0012",
+      "tema": "parada_estacionamiento",
+      "afirmacion_del_video": "Señales verticales de prohibido estacionar / prohibido parar y estacionar (dos aspas), su alcance hasta el próximo cruce, paneles complementarios, estacionamiento quincenal (9:00 del día 1 al 16 y del 16 al 1), estacionamiento con limitación horaria (zona azul) y señal de vado (1:54:10 a 1:57:15).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "SIN TEXTO CITABLE. El rgc_full.txt no recoge el significado de las señales R-307, R-308, R-308a a R-308e ni el de la señal de vado (el catálogo está en imágenes). No se ha podido verificar la regla de las 9:00 de las señales quincenales ni el alcance «hasta el próximo cruce».",
+      "sugerencia": "Verificar con el catálogo oficial de señales (BOE en PDF) y redactar preguntas con imagen de la señal."
+    },
+    {
+      "id": "A-rev-0013",
+      "tema": "vehiculo",
+      "afirmacion_del_video": "Las motocicletas que no superen 100 km/h por construcción solo necesitan el retrovisor izquierdo; las de más de 100 km/h, los dos (1:32:08).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "NO VERIFICABLE CON LA CITA. Hay tabla en el RGV, Anexo III.3, pero la extracción a texto la desordena y no se puede sacar una cita literal útil.",
+      "sugerencia": "Revisar la tabla en el PDF del BOE (RGV Anexo III.3)."
+    },
+    {
+      "id": "A-rev-0014",
+      "tema": "vehiculo",
+      "afirmacion_del_video": "Los turismos tienen que llevar tres luces de freno (dos laterales y una central); los retrovisores exteriores son convexos y el interior plano; hay un ángulo muerto (1:33:04 y 1:34:34).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "NO VERIFICADO. No se ha localizado texto citable en el RGV/RGC para la tercera luz de freno ni para la convexidad de los retrovisores. El ángulo muerto es contenido no normativo.",
+      "sugerencia": "Si se quiere, buscar en el Manual DGT (contenido no normativo) o en la reglamentación técnica."
+    },
+    {
+      "id": "A-rev-0015",
+      "tema": "maniobras",
+      "afirmacion_del_video": "Definición de maniobra («cualquier cambio voluntario que altere las circunstancias normales de circulación») y orden fijo: observar, señalizar y ejecutar (1:30:16 y 1:31:00).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "SIN NORMA LITERAL. No aparece esta definición en el Anexo I de la LSV ni en el RGC. El art. 108.1 RGC solo obliga a advertir las maniobras.",
+      "sugerencia": "Buscar en el Manual DGT si se quiere preguntar como contenido didáctico."
+    },
+    {
+      "id": "A-rev-0016",
+      "tema": "prioridad",
+      "afirmacion_del_video": "El vehículo no prioritario en servicio de urgencia puede avisar también con ráfagas de luces (1:26:58).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "MATIZ. RGC 70.1 cita el avisador acústico intermitente, la luz de emergencia y agitar un pañuelo «o procedimiento similar»; no nombra las ráfagas. Se han evitado como opción en A-urg-0005.",
+      "sugerencia": ""
+    },
+    {
+      "id": "A-rev-0017",
+      "tema": "prioridad",
+      "afirmacion_del_video": "Los peatones tienen prioridad en los pasos para peatones «salvo que haya semáforos»; los ciclistas, igual en los pasos para ciclistas; también las manifestaciones con autorización (1:24:09 a 1:25:09).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "MATIZ. RGC 65.1.a habla de pasos «debidamente señalizados» y 65.1.e de «unidades militares a pie, filas escolares y comitivas organizadas»; no dice «manifestación autorizada». Lo del semáforo se deduce de 56.1 y 56.3, pero el art. 65 no lo dice así. En arcén, el ciclista tiene prioridad solo si está «debidamente señalizado» (64.2.a).",
+      "sugerencia": "Las preguntas creadas usan la redacción literal."
+    },
+    {
+      "id": "A-rev-0018",
+      "tema": "maniobras",
+      "afirmacion_del_video": "Las ráfagas de luces sirven, dentro y fuera de poblado, para avisar de que vas a adelantar (1:36:10).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "AMBIGUO. RGC 109.3 permite advertencias luminosas «incluso en poblado» con la misma finalidad que las acústicas, pero la acústica para avisar del adelantamiento solo se permite fuera de poblado (110.2.b). No está claro si en poblado se puede avisar con ráfagas de que se va a adelantar.",
+      "sugerencia": "La pregunta A-adv-0009 se limita a lo literal del 109.3, sin la finalidad del adelantamiento."
+    },
+    {
+      "id": "A-rev-0019",
+      "tema": "parada_estacionamiento",
+      "afirmacion_del_video": "Parar en la acera es muy grave (1:58:01).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "9-10 (Prioridad; Maniobras)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "MATIZ. RGC 94.1 (lugares prohibidos para parar) no menciona las aceras, que aparecen en 94.2.e solo para el estacionamiento. Que no se puede circular por las aceras sale del 152.1, pero no hay un texto que diga «prohibido parar en la acera».",
+      "sugerencia": "No crear pregunta sobre parada en acera sin otra fuente."
+    },
+    {
+      "id": "B1-rev-0001",
+      "tema": "senales",
+      "afirmacion_del_video": "(Clip DGT, 2:07:17) Con el brazo extendido horizontalmente, el agente actúa como barrera y 'únicamente deberán detenerse los vehículos que se acerquen por ese carril'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC Anexo I.1.1.b: obliga a detenerse a quienes se acerquen desde direcciones que corten la indicada por el brazo o los brazos, cualquiera que sea el sentido de su marcha. No habla de 'ese carril'.",
+      "sugerencia": "Pregunta creada según la norma (B1-sen agentes, brazos horizontales). No usar la frase del vídeo."
+    },
+    {
+      "id": "B1-rev-0002",
+      "tema": "senales",
+      "afirmacion_del_video": "Silbato: 'tres cortos que me pare y uno largo que siga' (también el clip: 'tres pitidos cortos obligan al conductor a detenerse').",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC Anexo I.1.1.e: 'Serie de toques de silbato cortos y frecuentes: ordena la detención'. No fija el número de tres.",
+      "sugerencia": "Pregunta creada con la redacción de la norma."
+    },
+    {
+      "id": "B1-rev-0003",
+      "tema": "senales",
+      "afirmacion_del_video": "El amarillo intermitente 'es como un ceda': hay que ceder el paso a los que vengan tanto por la derecha como por la izquierda; y es como si el semáforo estuviera apagado o estropeado, por eso con STOP hay que parar.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC Anexo I.4.2.d: obliga a 'extremar la precaución y, en su caso, ceder el paso' y 'no eximen del cumplimiento de otras señales que obliguen a detenerse'. No dice que equivalga a ceda el paso ni a semáforo apagado; a quién se cede depende de las demás normas y señales. La conclusión práctica (con STOP hay que parar) sí es correcta.",
+      "sugerencia": "No preguntar 'ceder a derecha e izquierda'. Preguntas creadas con la redacción literal."
+    },
+    {
+      "id": "B1-rev-0004",
+      "tema": "senales",
+      "afirmacion_del_video": "Con flecha verde a la derecha y el coche queriendo seguir de frente: 'si no tiene nadie detrás puede estar esperando'; solo debe ir a la derecha si viene alguien detrás.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC Anexo I.4.2.g: el vehículo que al encenderse la flecha verde esté en un carril reservado exclusivamente para esa dirección, o que sin estar reservado sea el que esa circulación tenga que utilizar, 'deberá avanzar en dicha dirección y sentido'. La norma no condiciona la obligación a que haya alguien detrás.",
+      "sugerencia": "Pregunta creada según la norma; corregir la explicación del vídeo."
+    },
+    {
+      "id": "B1-rev-0005",
+      "tema": "senales",
+      "afirmacion_del_video": "Peatón con verde intermitente: 'si aún no has empezado a pasar y ya está verde intermitente, no puedes empezar a pasar'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC Anexo I.4.1.b solo dice que el tiempo para terminar de cruzar está a punto de finalizar y se va a encender la roja; la prohibición expresa de 'no comenzar a cruzar' es de la luz roja (I.4.1.a). Es un consejo prudente, no una prohibición literal.",
+      "sugerencia": "No preguntar como prohibición; preguntas creadas sobre el significado literal."
+    },
+    {
+      "id": "B1-rev-0006",
+      "tema": "senales",
+      "afirmacion_del_video": "Paneles direccionales: 'cuantos más paneles hay, más pronunciada es la curva'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC Anexo I.3.1.2.3º solo dice que marcan el trazado de la curva 'en relación con la reducción de velocidad' e indican el sentido. El número de paneles no está en el texto extraído (puede estar en las fichas gráficas del catálogo o en la Instrucción 8.1-IC).",
+      "sugerencia": "Verificar en el catálogo (imágenes del PDF) o en la norma técnica de balizamiento antes de preguntar."
+    },
+    {
+      "id": "B1-rev-0007",
+      "tema": "senales",
+      "afirmacion_del_video": "Balizas de aproximación a paso a nivel (o puente móvil/muelle): tres franjas a 200 m, dos a 150 m, una a 100 m, a derecha e izquierda.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "CONTRADICCIÓN: el Manual DGT 2024 (p. 167) dice 'P-9a y P-10a ... a unos 300 metros', 'P-9b y P-10b ... a unos 200 metros', 'P-9c y P-10c ... a unos 100 metros' (300/200/100), no 200/150/100 como el vídeo. El RGC vigente no tiene texto de estas señales.",
+      "sugerencia": "Comprobar en la ficha gráfica del catálogo vigente; si confirma 300/200/100, crear pregunta que corrija al vídeo."
+    },
+    {
+      "id": "B1-rev-0008",
+      "tema": "senales",
+      "afirmacion_del_video": "La marca 'PN' en el suelo 'está siempre', tenga o no barreras el paso a nivel.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC Anexo I.5.2, M-7.5 define su significado (proximidad de un paso a nivel donde hay que ceder el paso al tren o tranvía), pero no dice que sea obligatoria en todos los pasos a nivel.",
+      "sugerencia": "Pregunta creada solo sobre el significado de M-7.5."
+    },
+    {
+      "id": "B1-rev-0009",
+      "tema": "senales",
+      "afirmacion_del_video": "Formas de las señales: triangulares advierten de peligro; redondas con orla roja prohíben; redondas azules obligan; cuadradas/rectangulares informan.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Los arts. 144-146 RGC definen el objeto de cada tipo pero no su forma ni color; forma/color están en las fichas gráficas del catálogo (Anexo I.5). Hay excepciones (p. ej. ceda el paso triangular invertido, STOP octogonal, calzada con prioridad) que hacen arriesgado preguntar la regla general sin fuente textual.",
+      "sugerencia": "Usar preguntas sobre el objeto (arts. 144.1, 145.1) ya creadas; para las formas, citar una fuente textual si se encuentra."
+    },
+    {
+      "id": "B1-rev-0010",
+      "tema": "senales",
+      "afirmacion_del_video": "Señal de masa con la cifra sola (5,5 t): se refiere a la masa en carga real, lo que pesa el vehículo en ese momento, y afecta a todos los vehículos.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "La R-107 (camión con cifra) está verificada con el Manual DGT ('aunque vayan vacíos'). Para la señal con la cifra sola (R-201 en el manual), el Manual DGT dice 'Prohibido el paso de vehículos que llevan una carga que pesa más que el número de toneladas': redacción ambigua (¿carga o masa total en carga?). El RGC vigente no tiene texto del catálogo.",
+      "sugerencia": "Verificar en la ficha gráfica de R-201 del catálogo vigente antes de preguntar la distinción."
+    },
+    {
+      "id": "B1-rev-0011",
+      "tema": "velocidad",
+      "afirmacion_del_video": "Una limitación de velocidad colocada en el mismo poste que una señal de peligro termina cuando termina el peligro; esto solo vale para la velocidad, no para prohibido adelantar.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No se encuentra en rgc_full.txt ninguna regla textual sobre la limitación de velocidad en el mismo poste que una señal de peligro (en el catálogo antiguo figuraba en la definición de R-301). La marca vial M-6.6/6.7 dice que la limitación se aplica hasta la siguiente señal de fin o de otro valor, sin esa excepción.",
+      "sugerencia": "Verificar en la definición gráfica de R-301 del catálogo vigente."
+    },
+    {
+      "id": "B1-rev-0012",
+      "tema": "senales",
+      "afirmacion_del_video": "Señales del vídeo que no figuran en el Manual DGT 2024 ni tienen texto en el RGC vigente: peligro por carril trenzado; prohibida la entrada a VMP, a VMP y ciclos, y por clasificación ambiental (ZBE); obligación para VMP, para VMP y ciclos; cinturón obligatorio; obligación de bajarse de la bicicleta; neumáticos de invierno.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Son señales nuevas o no recogidas en el manual de 2024; el catálogo vigente del RGC (Anexo I.5) solo está en imágenes. No se pueden citar.",
+      "sugerencia": "OCR de las fichas del catálogo en rgc.pdf o fuente oficial textual del catálogo 2026."
+    },
+    {
+      "id": "B1-rev-0013",
+      "tema": "senales",
+      "afirmacion_del_video": "Las señales con fondo amarillo 'significan lo mismo que si estuvieran con fondo blanco'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El catálogo (tomo I, 2.5) dice que en obras las señales de fondo blanco tendrán fondo amarillo, pero no lo afirma con la frase 'significan lo mismo'. Es una deducción razonable, no cita literal.",
+      "sugerencia": "Pregunta creada solo sobre el motivo del fondo amarillo."
+    },
+    {
+      "id": "B1-rev-0014",
+      "tema": "senales",
+      "afirmacion_del_video": "Policía 'delante con la moto' nos indica que nos paremos en un lateral.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "11 (Señales: jerarquía, agentes, balizamiento, semáforos) y 12 parte 1 (Señales verticales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC Anexo I.1.2.d/e regula el brazo extendido hacia abajo inclinado y fijo (detenerse en el lado derecho) y la luz roja intermitente hacia delante desde el vehículo que va detrás. No menciona expresamente la moto delante.",
+      "sugerencia": "Pregunta creada sobre la luz roja intermitente hacia delante."
+    },
+    {
+      "id": "B2-rev-0001",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[2:46:48-2:47:18] La señal redonda de telepeaje obliga a entrar por ese carril a quien tenga telepeaje; otra obliga a bajarse de la bici e ir andando; otra obliga solo a los tractores; las tachadas son 'fin de'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. El art. 132.1 RGC solo exige llevar el medio técnico para usar el telepeaje (pregunta B2 creada).",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0002",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[2:47:36-2:50:28] La señal de prohibición abarca a todos los vehículos de motor (menos motos sin sidecar) y la de obligación con el mismo dibujo solo a los automóviles; la de prohibición de vehículos agrícolas abarca a todos ellos y la de obligación solo a los tractores.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. El 'truco' del profesor depende de las definiciones exactas de cada señal (R-102/R-106 y señales de obligación), que no están en texto. Ojo: no está comprobado que exista una señal de obligación 'solo automóviles' con el mismo dibujo.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0003",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[2:51:17-2:51:40] La señal cuadrada de 70 recomienda una velocidad máxima 'haga el tiempo que haga'; 'si fuera redonda sería que como mínimo tienes que ir a esa velocidad'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. Además, la frase es imprecisa: una señal redonda de borde rojo con cifra es velocidad máxima (R-301); solo la redonda azul (R-411) es velocidad mínima. El 'haga el tiempo que haga' no tiene apoyo textual.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0004",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[2:51:40-2:52:15] Señal cuadrada de sentido único (S-13?): permite girar a derecha o izquierda pero no cambiar de sentido; la redonda de sentido obligatorio prohíbe girar.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. El RGC (art. 79) prohíbe el cambio de sentido en ciertos lugares pero no menciona la señal de calzada de sentido único.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0005",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[2:52:42-2:53:50] S-16 zona de frenado de emergencia; calle sin salida excepto peatones y bicis (nueva); estacionamiento 'por necesidad' de 10 minutos en farmacias de guardia; transitabilidad en puerto de montaña; hospital; fin de obligación de alumbrado; cambio de sentido al mismo/distinto nivel.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. La marca M-7.11 (damero de acceso a lecho de frenado) sí está en texto y tiene pregunta. El 'estacionamiento por necesidad de 10 minutos' no aparece en el texto.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0006",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[2:54:54-2:55:21] Salida de autopista/autovía: tres rayas a 300 m, dos a 200 m, una a 100 m; en el paso a nivel tres rayas a 200 m, dos a 150 m y una a 100 m.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. Distancias no comprobables en el .txt; las del paso a nivel en particular conviene verificarlas (señales P-7 a P-10).",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0007",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[2:55:36-2:56:48] Zona de estancia y juegos: prioridad peatonal, juegos y deportes autorizados, máximo 10 km/h. Zona de coexistencia: prioridad peatonal, sin juegos, máximo 20 km/h.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. El texto del RGC no menciona 'zona de estancia y juegos' ni 'zona de coexistencia'. El art. 50.1.a fija 20 km/h en vías con plataforma única de calzada y acera, que no es lo mismo. Hay que confirmar los límites en la definición de la señal.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0008",
+      "tema": "vias",
+      "afirmacion_del_video": "[2:57:00-2:57:24] En una zona peatonal 'no puede meterse nadie más': ni ciclos, ni VMP, ni turismos.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matizado por la norma: el art. 152.1 RGC permite que la autoridad municipal autorice por ordenanza la coexistencia de peatones con ciclistas y VMP en las zonas peatonales que no sean aceras, y la LSV (Anexo I.59) define la zona peatonal como de tránsito 'prioritario', no exclusivo, de los peatones. Se ha creado la pregunta correcta (B2-via-0012).",
+      "sugerencia": "No redactar preguntas que afirmen la exclusividad absoluta de la zona peatonal."
+    },
+    {
+      "id": "B2-rev-0009",
+      "tema": "vias",
+      "afirmacion_del_video": "[2:57:35-2:58:25] Carretera multicarril y carretera 2+1 (carril central para adelantar, repartido por tramos entre ambos sentidos).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. Ni el RGC ni la LSV consolidados definen la 'carretera 2+1' en texto.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0010",
+      "tema": "carriles",
+      "afirmacion_del_video": "[3:00:42-3:01:31] En la señal de carriles con '70' en los carriles izquierdos: se circula por el derecho y si adelantas debes hacerlo como mínimo a 70.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. El Tomo I (2.7) solo dice que las señales S-50a-S-53c llevan señales R-411 (velocidad mínima) o R-301 (velocidad máxima) por carril. La explicación del profesor sobre cuándo usar cada carril no está apoyada literalmente.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0011",
+      "tema": "carriles",
+      "afirmacion_del_video": "[3:04:06-3:04:31] En el carril VAO pueden ir solos: las motos, el de la V-15, el autobús de línea regular aunque vaya vacío y el de la etiqueta cero si lo indica el panel.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Art. 35.2.a RGC: pueden ir solo con el conductor los vehículos autorizados que lleven V-15 o la tarjeta de estacionamiento PMR, y los autobuses de MMA superior a 3.500 kg y los articulados, sin importar los ocupantes (la norma no dice 'de línea regular'). Que las motos puedan ir solas no está dicho de forma literal, y la etiqueta 'cero' no aparece (solo que la autoridad puede permitir el uso a otros vehículos, art. 35.2.b). Se han creado preguntas sobre la V-15 y el turismo con remolque.",
+      "sugerencia": "Comprobar la relación de tramos VAO publicada por la DGT antes de preguntar por las motos o por la etiqueta cero."
+    },
+    {
+      "id": "B2-rev-0012",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[3:04:31-3:07:30] Señales de servicio: puesto de socorro, ITV, taller, gasolinera, acampada, fuente ('no tiene por qué ser potable'), mirador, hotel, restaurante, cafetería, merendero, albergue, coto de pesca, área de descanso, estacionamiento para usuarios del autobús, metro o ferrocarril ('no es parking para los autobuses'), electrolinera, vaciado de caravanas, estacionamiento de emergencia por nevada.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0013",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[3:07:30-3:11:53] Preseñalización de glorietas y de áreas o vías de servicio con salida compartida o exclusiva; cartel blanco si es hacia una carretera convencional, azul si es hacia autopista o autovía.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. El art. 146.2.d RGC solo define los tipos de señales de orientación y la distancia de preseñalización (pregunta creada). Los colores según el tipo de vía no están en texto.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0014",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[3:12:12-3:14:32] Identificación de carreteras: autopista/autovía azul, itinerario europeo verde, nacional rojo, autonómicas de primer nivel naranja, de segundo marrón y de tercero amarillo; hitos kilométricos y miriamétricos (cada 10 km).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. POSIBLE ERROR: por lo que recordamos del catálogo, las autonómicas de segundo nivel se identifican en verde, no en marrón. Hay que comprobarlo antes de usar el truco 'N-M-A' del vídeo. 'Miriamétrico' no aparece en el texto.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal. Prioridad alta por el posible error de color."
+    },
+    {
+      "id": "B2-rev-0015",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[3:14:37-3:16:16] Entrada y fin de poblado; colores de la señalización dentro del poblado (verde barrios, amarillo viajes, naranja deportes, marrón geografía, morado cultura, gris industria, azul autopista, blanco carretera convencional).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. La LSV (Anexo I.70) solo define el poblado por las señales de entrada y salida.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0016",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[3:16:27-3:17:52] Panel '3 m' bajo un estrechamiento = anchura mínima disponible; cifra entre flechas = longitud del peligro; flecha bajo la limitación = solo afecta al ramal de salida; paneles que indican a quién afecta o por qué (hielo, lluvia, niebla).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Los arts. 144.2-3 y 145.4 RGC confirman que los paneles pueden indicar la distancia hasta el peligro, su longitud y la distancia hasta donde empieza a regir la señal (preguntas creadas). El significado concreto de cada panel (S-800, S-810, anchura, ramal de salida, S-880) está solo en imágenes del Tomo I.",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0017",
+      "tema": "senales_verticales",
+      "afirmacion_del_video": "[3:18:22-3:19:52] Control de paso por semáforo en rojo y por STOP, control de velocidad por medios aéreos, control de separación mínima (blanca en convencional, azul en autopista); peligro de incendio, extintor, teléfono SOS, salida de emergencia en túneles.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "En rgc_full.txt el Tomo I del Catálogo de señales verticales (Anexo I.5.1, apartados 3.1-3.18) está solo en imágenes: no hay texto con el código, nombre ni definición de cada señal, así que no se puede citar literalmente. Solo la existencia de la señal S-991 (control de velocidad, semáforo en rojo o STOP) está en el Tomo I 2.9 (pregunta creada).",
+      "sugerencia": "Verificar con el PDF del BOE (Anexo I, Catálogo de señales verticales, Tomo I) o con el catálogo de la DGT y redactar entonces la pregunta con la imagen de la señal."
+    },
+    {
+      "id": "B2-rev-0018",
+      "tema": "marcas_viales",
+      "afirmacion_del_video": "[3:20:41-3:20:49] La doble línea continua 'divide los dos sentidos de circulación siempre'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El catálogo de marcas viales (Anexo I.5.2, 4.1) solo dice que dos líneas continuas paralelas significan lo mismo que una sola continua; no dice que separen siempre los sentidos.",
+      "sugerencia": "No preguntar por el 'siempre'."
+    },
+    {
+      "id": "B2-rev-0019",
+      "tema": "marcas_viales",
+      "afirmacion_del_video": "[3:21:31-3:21:51] Si el carril bus está separado por línea discontinua, solo se puede entrar en él para girar a la derecha, y para nada más.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El catálogo (Anexo I.5.2, 4.1, M-1.6 y M-1.7) dice que los demás vehículos pueden usar el carril reservado 'para realizar determinadas maniobras permitidas', sin enumerarlas. El 'solo para girar a la derecha' no tiene apoyo literal (puede depender de la ordenanza municipal).",
+      "sugerencia": "Buscar otra fuente normativa (ordenanzas o un artículo específico) o preguntar solo lo literal."
+    },
+    {
+      "id": "B2-rev-0020",
+      "tema": "marcas_viales",
+      "afirmacion_del_video": "[3:26:53-3:27:01] La línea de borde de calzada 'sí se podría atravesar' para ir a un camino o a mi huerta.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Anexo I.5.2, 4.1: las líneas continuas de borde se excluyen del significado de las continuas porque 'pueden ser ocasionalmente atravesadas cuando resulte necesario invadir este [el arcén] por razones de emergencia', y que sean continuas o discontinuas no cambia el uso del arcén. El ejemplo de entrar en un camino no está tratado literalmente. Pregunta creada sobre el uso del arcén.",
+      "sugerencia": ""
+    },
+    {
+      "id": "B2-rev-0021",
+      "tema": "marcas_viales",
+      "afirmacion_del_video": "[3:23:08-3:23:30] Un paso de peatones puede marcarse solo con dos líneas discontinuas si es muy grande, para gastar menos pintura y que resbale menos.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "CORRIGE AL VÍDEO: el Anexo I.5.2, 4.2 solo lo admite en pasos para peatones regulados por semáforo. Pregunta correcta creada.",
+      "sugerencia": ""
+    },
+    {
+      "id": "B2-rev-0022",
+      "tema": "marcas_viales",
+      "afirmacion_del_video": "[3:26:43-3:26:53] En el cebreado no te puedes meter 'a no ser que haya algún obstáculo o algo que te obligue'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El art. 147.2.d y el Anexo I.5.2, 4.6 solo exceptúan a los obligados a circular por el arcén. La excepción del obstáculo no aparece. Pregunta correcta creada.",
+      "sugerencia": ""
+    },
+    {
+      "id": "B2-rev-0023",
+      "tema": "marcas_viales",
+      "afirmacion_del_video": "[3:27:59-3:28:07] Las marcas azules, naranjas y verdes son zona azul u ORA, de pago.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El Anexo I.5.2, 4.7 solo dice que las marcas de estacionamiento pueden ser de otros colores para indicar limitaciones temporales, por tipo de usuario o para un fin concreto; no dice que sean de pago, porque eso depende de cada ordenanza municipal.",
+      "sugerencia": "No preguntar."
+    },
+    {
+      "id": "B2-rev-0024",
+      "tema": "marcas_viales",
+      "afirmacion_del_video": "[3:25:14-3:25:31] Con flechas de selección de carril, desde el carril central 'por poder podría [girar a la izquierda], pero no debo'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "12 (segunda parte, señales verticales de indicación) y 13 (marcas viales)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Impreciso: según el Anexo I.5.2, 4.3 la flecha indica los movimientos 'permitidos u obligados' a los vehículos de ese carril, así que girar desde un carril cuya flecha no lo permite es incumplir la marca, no una mera recomendación.",
+      "sugerencia": "Si se pregunta, decir que la flecha obliga."
+    },
+    {
+      "id": "C-rev-0001",
+      "tema": "luces",
+      "afirmacion_del_video": "Dentro de poblado no se pueden usar las luces largas.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El RGC no contiene una prohibición expresa de la luz de largo alcance en poblado. El art. 100.1 la hace obligatoria fuera de poblado en vías insuficientemente iluminadas a más de 40 km/h, y el art. 101.1 exige la de cruce en poblado si la vía está insuficientemente iluminada. La 'prohibición' es una deducción, no un texto literal.",
+      "sugerencia": "Preguntar solo por lo literal: qué alumbrado es obligatorio en poblado (art. 101.1)."
+    },
+    {
+      "id": "C-rev-0002",
+      "tema": "luces",
+      "afirmacion_del_video": "En una curva deslumbra primero el que va por el interior y es el primero que debe quitar las largas.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No hay norma que lo diga (RGC art. 102 solo obliga a cambiar a cruce en cuanto exista posibilidad de deslumbrar). Es una explicación técnica sin fuente oficial entre las consultadas.",
+      "sugerencia": "Si se quiere, buscar apoyo en el manual DGT; si no, descartar."
+    },
+    {
+      "id": "C-rev-0003",
+      "tema": "luces",
+      "afirmacion_del_video": "Dentro de un túnel hay que llevar las luces cortas o de cruce.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matiz: el RGC art. 101 exige la de cruce en túneles suficientemente iluminados; en túneles insuficientemente iluminados, el art. 100.1 obliga a la de largo alcance si se va a más de 40 km/h y no se deslumbra (art. 101.2 fija cuándo usar la de cruce).",
+      "sugerencia": "Redactar una pregunta que distinga túnel suficientemente o insuficientemente iluminado."
+    },
+    {
+      "id": "C-rev-0004",
+      "tema": "luces",
+      "afirmacion_del_video": "Las antiniebla traseras las llevan obligatoriamente todos los turismos; las delanteras son voluntarias. Catadióptricos: rojos detrás y naranjas en los laterales.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Son requisitos de equipamiento (RGV, anexos de alumbrado y homologación) que no se han verificado en el texto consultado con una cita literal clara.",
+      "sugerencia": "Verificar en el anexo X del RGV o en el manual DGT."
+    },
+    {
+      "id": "C-rev-0005",
+      "tema": "carga",
+      "afirmacion_del_video": "Un camión puede medir como mucho 12 m de longitud incluida la carga, 2,55 m de ancho y 4 m de alto; por eso un camión de 10 m solo puede sacar 2 m de carga por detrás.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Las cifras están en la tabla 3 del anexo IX del RGV (vehículos de motor excepto autobuses 12,00 m; anchura general 2,55 m; altura general 4,00 m), pero la extracción de texto separa etiquetas y valores y no permite una cita literal que una cada valor con su etiqueta. Además, 12 m se aplica a vehículos de motor rígidos; los articulados (16,50 m) y trenes de carretera (18,75 m) tienen otros límites, y el vídeo habla de 'camiones y furgonetas' sin distinguir. La pregunta-trampa del camión de 10 m depende de esa simplificación.",
+      "sugerencia": "Verificar con el PDF del RGV (anexo IX, tabla 3) y redactar la pregunta para 'vehículo de motor rígido (no autobús)'."
+    },
+    {
+      "id": "C-rev-0006",
+      "tema": "itv",
+      "afirmacion_del_video": "Periodicidad de la ITV: turismos 4, 6, 8, 10 años y después anual; motos 4 años y después cada 2; furgonetas y camiones hasta 3.500 kg: 2, 4, 6, anual hasta 10 y después semestral; camiones de más de 3.500 kg: anual hasta 10 y después semestral.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "La periodicidad no está en el RGV consultado: el art. 10 RGV remite a la reglamentación del anexo I (RD 920/2017), que no está entre las fuentes. No se puede verificar ninguna de estas cifras.",
+      "sugerencia": "Añadir el RD 920/2017 a las fuentes y verificar cada plazo."
+    },
+    {
+      "id": "C-rev-0007",
+      "tema": "itv",
+      "afirmacion_del_video": "ITV desfavorable: 2 meses para volver y puedo llevar el coche conduciendo; ITV negativa: 2 meses, pero el coche debe ir en grúa.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No está en las fuentes vigentes consultadas. El RGV solo recoge una antigua modificación del RD 2042/1994 (derogado) sobre la inspección desfavorable ('plazo inferior a dos meses'); la regulación vigente es el RD 920/2017, que no está entre las fuentes.",
+      "sugerencia": "Verificar en el RD 920/2017 (resultado favorable, desfavorable, negativo)."
+    },
+    {
+      "id": "C-rev-0008",
+      "tema": "itv",
+      "afirmacion_del_video": "Solo hay que llevar la última pegatina de la ITV; llevar varias puede ser multado.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El anexo XI del RGV (V-19) regula dónde se coloca el distintivo, pero no encuentro el texto literal sobre retirar los anteriores ni sobre la sanción.",
+      "sugerencia": ""
+    },
+    {
+      "id": "C-rev-0009",
+      "tema": "documentacion",
+      "afirmacion_del_video": "El seguro obligatorio cubre los daños físicos y materiales a terceros; al responsable no le cubre nada, como mucho los daños físicos de sus acompañantes.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "La cobertura del seguro obligatorio está en el texto refundido de la Ley de responsabilidad civil y seguro en la circulación de vehículos a motor (RDL 8/2004), que no está entre las fuentes. La LSV solo remite a esa legislación (art. 78).",
+      "sugerencia": "Añadir el RDL 8/2004 a las fuentes."
+    },
+    {
+      "id": "C-rev-0010",
+      "tema": "documentacion",
+      "afirmacion_del_video": "Los remolques ligeros no necesitan seguro; los pesados necesitan tarjeta ITV, permiso de circulación y seguro.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "La parte del seguro no se puede verificar (RDL 8/2004 no consultado). La tarjeta ITV del remolque ligero sí se verifica (RGV 26.1.c) y está en el banco (C-doc-0008), igual que la matriculación solo por encima de 750 kg (RGV 25.1, C-doc-0009).",
+      "sugerencia": ""
+    },
+    {
+      "id": "C-rev-0011",
+      "tema": "documentacion",
+      "afirmacion_del_video": "Todos los remolques y semirremolques tienen que llevar extintor y no tienen obligación de llevar rueda de repuesto.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No encuentro ninguna norma en RGC, RGV ni LSV que obligue a todos los remolques a llevar extintor. La afirmación parece dudosa y no se puede verificar.",
+      "sugerencia": "Descartar salvo que se encuentre la norma."
+    },
+    {
+      "id": "C-rev-0012",
+      "tema": "documentacion",
+      "afirmacion_del_video": "La app miDGT es válida solo en España y lo que muestra vale igual que el documento en papel.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No está en las fuentes consultadas (RGV 26.2 solo habla de originales o fotocopias cotejadas).",
+      "sugerencia": ""
+    },
+    {
+      "id": "C-rev-0013",
+      "tema": "permiso_conduccion",
+      "afirmacion_del_video": "Edades mínimas: AM a los 15 años, A2 a los 18, A a los 20 (tras 2 años con A2).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Las edades están en la tabla del art. 4.2 del RGCOND, pero la extracción de texto separa la columna de edades de las clases, así que no hay cita literal que una clase y edad. El requisito de 2 años con A2 sí está verificado (C-perm-0011).",
+      "sugerencia": "Verificar con el PDF y citar el art. 4.2."
+    },
+    {
+      "id": "C-rev-0014",
+      "tema": "permiso_conduccion",
+      "afirmacion_del_video": "El permiso 'E' es para remolques pesados.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matiz: no hay una clase 'E' independiente; existen B+E, C1+E, C+E, D1+E y D+E (RGCOND art. 4.2), que se expiden a titulares de B, C1, C, D1 o D (art. 5.1.c).",
+      "sugerencia": ""
+    },
+    {
+      "id": "C-rev-0015",
+      "tema": "permiso_conduccion",
+      "afirmacion_del_video": "El A2 es para motos más grandes 'de cualquier cilindrada'.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matiz: el A2 no se define por la cilindrada sino por la potencia (máximo 35 kW y 0,2 kW/kg, no derivadas de un vehículo con más del doble de potencia; RGCOND art. 4.2).",
+      "sugerencia": ""
+    },
+    {
+      "id": "C-rev-0016",
+      "tema": "permiso_conduccion",
+      "afirmacion_del_video": "El reconocimiento médico hay que hacerlo antes del examen teórico.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No se ha verificado el orden exacto en el RGCOND; es un aspecto de procedimiento no imprescindible.",
+      "sugerencia": ""
+    },
+    {
+      "id": "C-rev-0017",
+      "tema": "puntos",
+      "afirmacion_del_video": "El curso de recuperación total dura 20 horas y el parcial 10 horas.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "La LSV (art. 65.4) solo fija que el curso parcial dura como máximo 15 horas; la duración concreta de los cursos parcial y total la fija la normativa de desarrollo (no consultada). Además, el vídeo dice que en el parcial se recuperan 4 puntos y la LSV dice hasta 6 (corregido en C-pun-0005).",
+      "sugerencia": "Verificar en la orden de cursos de sensibilización y reeducación vial."
+    },
+    {
+      "id": "C-rev-0018",
+      "tema": "puntos",
+      "afirmacion_del_video": "Si te sacas hoy el permiso, tendrás 15 puntos dentro de 8 años.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Es un cálculo del profesor (2 años para llegar a 12, más 3 y 3 de bonificación), no un texto de la norma. El art. 63.4 LSV habla de bonificar a 'quienes mantengan la totalidad de los puntos', y no está claro de forma literal cómo se computa para un novel.",
+      "sugerencia": "No convertir en pregunta."
+    },
+    {
+      "id": "C-rev-0019",
+      "tema": "transporte_personas",
+      "afirmacion_del_video": "El cinturón cambió en octubre de 2026: ya no pueden ir sin cinturón taxistas, repartidores ni profesores de autoescuela.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "14-18"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El texto consolidado del RGC (art. 119.1) solo recoge las exenciones a) y b), sin taxistas, repartidores ni profesores, y se ha creado la pregunta C-per-0009. No he podido comprobar en la fuente la fecha de entrada en vigor del cambio que menciona el vídeo.",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0001",
+      "tema": "infracciones_sanciones",
+      "afirmacion_del_video": "[4:51:05] Superar en 60 km/h el límite en vía urbana o en 80 km/h en interurbana es delito penal.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Los umbrales penales están en el Código Penal (art. 379.1), que no está entre las fuentes disponibles. La LSV solo dice que las infracciones muy graves lo son 'cuando no sean constitutivas de delito' (art. 77).",
+      "sugerencia": "Verificar con el Código Penal consolidado (art. 379.1) antes de crear preguntas."
+    },
+    {
+      "id": "D-rev-0002",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:52:29] Superar 0,60 mg/l de alcohol en aire espirado es delito.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Umbral del Código Penal (art. 379.2), no incluido en las fuentes. El Anexo II LSV solo distingue 0,25-0,50 (4 puntos) y más de 0,50 (6 puntos).",
+      "sugerencia": "Verificar con el Código Penal (art. 379.2)."
+    },
+    {
+      "id": "D-rev-0003",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:44:06] y [4:53:03] Negarse a las pruebas de alcohol o drogas es siempre delito penal.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matiz: la LSV tipifica como infracción muy grave el incumplimiento de la obligación de someterse a las pruebas (art. 77.d, 'cuando no sean constitutivas de delito'), con multa de 1.000 euros (art. 80.2.a) y 6 puntos (Anexo II.3). El delito de negativa está en el Código Penal (art. 383), no disponible. La afirmación absoluta del vídeo no se puede verificar con las fuentes.",
+      "sugerencia": "Si se confirma el CP, redactar la pregunta para un conductor requerido por un agente y no para cualquier usuario."
+    },
+    {
+      "id": "D-rev-0004",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:50:14] Conducir bajo los efectos de las drogas es delito penal.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Código Penal (art. 379.2), no disponible. La LSV solo regula la presencia de drogas como infracción administrativa (arts. 14.1, 77.c, 80.2.a).",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0005",
+      "tema": "infracciones_sanciones",
+      "afirmacion_del_video": "[4:53:18] Conducir con el permiso sin puntos, suspendido o sin permiso es delito.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Código Penal (art. 384), no disponible. Matiz: la LSV Anexo II.17 prevé la pérdida de 4 puntos por 'Conducir un vehículo teniendo suspendida la autorización administrativa para conducir', es decir, hay supuestos de suspensión que son infracción administrativa, no delito.",
+      "sugerencia": "No usar la afirmación general sin el Código Penal."
+    },
+    {
+      "id": "D-rev-0006",
+      "tema": "infracciones_sanciones",
+      "afirmacion_del_video": "[4:53:37] Colocar obstáculos, derramar sustancias o deteriorar la señalización es delito.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Código Penal (art. 385), no disponible. La LSV Anexo II.9 sanciona administrativamente con 6 puntos 'Arrojar a la vía o en sus inmediaciones objetos que puedan producir incendios o accidentes'.",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0007",
+      "tema": "infracciones_sanciones",
+      "afirmacion_del_video": "[4:52:08] Una infracción o es puntos o es delito, nunca las dos cosas; cuando el juez devuelve el permiso lo devuelve con los puntos que tenía; luego hay que hacer el curso de recuperación.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Las fuentes solo dicen que se pierden puntos por sanción firme 'en vía administrativa' (LSV Anexo II, encabezado; art. 64). Las consecuencias penales (privación del derecho a conducir, puntos al recuperarlo, curso obligatorio) no están en las fuentes disponibles; la frase 'luego tienes que hacer el curso de recuperación de puntos' es además confusa.",
+      "sugerencia": "Revisar LSV arts. 63-65 y 47 y el Código Penal."
+    },
+    {
+      "id": "D-rev-0008",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:44:22] Los peatones solo están obligados a las pruebas de alcoholemia si están implicados en un accidente.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Incompleto. RGC art. 21 dice solo 'implicados en algún accidente', pero LSV art. 14.2 (y 77.d) añade 'o hayan cometido una infracción conforme a lo tipificado en esta ley'. Se ha creado la pregunta correcta D-alc-0009 según la LSV.",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0009",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:46:28] Los profesores de autoescuela tienen la tasa reducida de 0,15 mg/l.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC art. 20 no menciona a profesores ni vehículos de autoescuela. Tasa reducida: mercancías de más de 3.500 kg de MMA, viajeros de más de 9 plazas, servicio público, transporte escolar y de menores, mercancías peligrosas, servicio de urgencia, transportes especiales y noveles. Los taxis (servicio público) y los autobuses sí están incluidos.",
+      "sugerencia": "No crear pregunta sobre profesores de autoescuela salvo que se encuentre otra norma."
+    },
+    {
+      "id": "D-rev-0010",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:47:56] Al conductor de patinete eléctrico (monopatín eléctrico) se le aplica la tasa general de 0,25 mg/l.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC art. 20 habla de 'conductores de vehículos' y 'conductores de bicicletas'. No se ha comprobado en las fuentes que el VMP tenga la consideración de vehículo a estos efectos (definición en el Anexo I LSV o en el RGV), ni el caso de menores (tasa 0, LSV 14.1).",
+      "sugerencia": "Comprobar la definición de VMP en el Anexo I de la LSV / RGV antes de crear la pregunta."
+    },
+    {
+      "id": "D-rev-0011",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:47:17] Quien tiene desde hace 3 años el permiso de ciclomotor y saca el B tiene la tasa general de 0,25 mg/l (no la de novel).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGC art. 20 dice 'durante los dos años siguientes a la obtención del permiso o licencia que les habilita para conducir' y que solo se computa la antigüedad de la licencia para vehículos para los que baste dicha licencia. No dice literalmente si la antigüedad del permiso AM cuenta para conducir un turismo con el B. Interpretación razonable pero no literal.",
+      "sugerencia": "Consultar criterio oficial DGT. Sobre la L en este caso sí hay pregunta (D-nov-0001, RGV Anexo XI V-13)."
+    },
+    {
+      "id": "D-rev-0012",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:42:57] El 90 % del alcohol lo elimina el hígado y hasta un 10 % se elimina por sudor y orina; hacer ejercicio, tomar café, chicle, aceite, agua o fumar no baja la tasa.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual de la DGT (Lectura Fácil 2024) no da estos porcentajes ni habla de estas falsas creencias. Solo dice que el alcohol se elimina más despacio cuando dormimos y mejor si se bebe despacio.",
+      "sugerencia": "Buscar fuente oficial DGT (manual completo o web DGT) antes de usarlo."
+    },
+    {
+      "id": "D-rev-0013",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:42:03] El alcohol fermentado se produce por fermentación de unas bacterias; el destilado se obtiene evaporando el agua.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No está en el manual. Además, la fermentación alcohólica la hacen levaduras, no bacterias, y en la destilación lo que se evapora y se recoge es el alcohol. El manual solo dice que el alcohol llega antes a la sangre con ginebra o whisky que con vino o cerveza (pregunta D-alc-0005).",
+      "sugerencia": "No crear preguntas sobre el proceso de fabricación."
+    },
+    {
+      "id": "D-rev-0014",
+      "tema": "factores_riesgo",
+      "afirmacion_del_video": "[4:31:21] El tiempo de reacción siempre aumenta, nunca disminuye ('por mucho Red Bull que te tomes'); la capacidad de reacción siempre disminuye.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual enumera factores que aumentan el tiempo de reacción (Tema 3), pero no dice literalmente que 'nunca disminuye' ni habla de la 'capacidad de reacción'. Ojo: el manual (Tema 10, pág. 262) dice que 'Cuanto más rápido va un vehículo menos distancia de reacción tendrá', frase confusa que no debe usarse.",
+      "sugerencia": "Truco didáctico válido, pero no apto para el banco sin fuente literal."
+    },
+    {
+      "id": "D-rev-0015",
+      "tema": "distancias",
+      "afirmacion_del_video": "[4:32:11] Que la calzada esté mojada no influye en la distancia de reacción.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual no lo dice literalmente; solo dice que con suelo mojado puede aumentar la distancia de frenado (pregunta D-dis-0002).",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0016",
+      "tema": "factores_riesgo",
+      "afirmacion_del_video": "[4:35:23] Si cierras los ojos un segundo en autopista recorres 33 metros (microsueños).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Ni el dato de 33 m ni el término 'microsueño' están en el manual (equivale a 120 km/h ≈ 33,3 m/s). El manual solo cita como efecto de la somnolencia 'Dormirte durante unos segundos sin darte cuenta' (pregunta D-fat-0002).",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0017",
+      "tema": "factores_riesgo",
+      "afirmacion_del_video": "[4:36:07] Si hace falta, dormir 15 minutos.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT dice parar en un lugar seguro y dormir '20 o 30 minutos' cuando aparezcan los primeros síntomas, y descansar 20 o 30 minutos cada dos horas o 200 km.",
+      "sugerencia": "Corregir: 20-30 minutos."
+    },
+    {
+      "id": "D-rev-0018",
+      "tema": "distracciones",
+      "afirmacion_del_video": "[4:38:41] Con manos libres, si la conversación pasa de minuto, minuto y medio, nos absorbe demasiado.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual dice 'No tengas conversaciones que duren más de un minuto'. Se ha creado D-mov-0007 con la cifra del manual.",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0019",
+      "tema": "conduccion_segura",
+      "afirmacion_del_video": "[4:55:22] Al girar el volante sí se pueden cruzar las manos; lo que no se puede es conducir con las manos cruzadas.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Contradice al manual DGT (Tema 6, pág. 123), que dice cómo coger el volante: 'Sin cruzar las manos al girar el volante'.",
+      "sugerencia": "No usar la afirmación del vídeo; si se crea pregunta, seguir al manual."
+    },
+    {
+      "id": "D-rev-0020",
+      "tema": "conduccion_segura",
+      "afirmacion_del_video": "[4:55:13] El volante se coge como las 10:10 o las 2 menos 10 del reloj.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT no menciona esta posición; solo dice con las dos manos, por la parte exterior y con firmeza pero sin mucha fuerza.",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0021",
+      "tema": "alcohol_drogas",
+      "afirmacion_del_video": "[4:49:18] El éxtasis o el LSD provocan alteraciones emocionales y 'nos activan'; el cannabis relaja.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual atribuye al éxtasis alucinaciones, sensibilidad a la luz, pérdida de concentración, depresión o ansiedad; al LSD alucinaciones, agresividad, ansiedad y pánico. No usa 'activan' ni 'relaja'. Solo se han creado preguntas de cannabis y cocaína con el texto del manual.",
+      "sugerencia": ""
+    },
+    {
+      "id": "D-rev-0022",
+      "tema": "accidentes",
+      "afirmacion_del_video": "[4:25:28] Hay más accidentes a lo largo de la semana el fin de semana.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "19-29 (factores del accidente, grupos vulnerables, factores de riesgo, velocidad, fatiga, enfermedades, calor, distracciones, alcohol, drogas, factor vehículo)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual dice 'Hay más accidentes los fines de semana y los días de fiesta. En especial, en las horas de la madrugada.' Coincide; no se ha creado pregunta para no duplicar las de épocas y horas. Se puede añadir.",
+      "sugerencia": "Posible pregunta adicional con cita del Tema 16, pág. 391."
+    },
+    {
+      "id": "E-rev-0001",
+      "tema": "vehiculo",
+      "afirmacion_del_video": "Código de velocidad del neumático: se puede poner otro igual o superior, pero inferior no (4:59:46).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGV Anexo VII.1 solo exige neumáticos de las dimensiones y características previstas por el fabricante 'o sus equivalentes'. El Anexo VII.5 permite neumáticos de nieve (M+S con 3PMSF) con código de velocidad inferior al de la ficha técnica si se recuerda la velocidad límite en un lugar visible del interior. El 'inferior nunca' tiene excepción.",
+      "sugerencia": "Si se pregunta, plantearlo como regla general y sin opción que contradiga la excepción de invierno."
+    },
+    {
+      "id": "E-rev-0002",
+      "tema": "seguridad_pasiva",
+      "afirmacion_del_video": "Reposacabezas 'a la altura de los ojos más o menos' (5:10:26).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT (Tema 5, p. 116) dice que la parte de arriba del reposacabezas debe estar a la misma altura que la parte de arriba de la cabeza. Se ha creado la pregunta E-pas-0011 según el manual.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0003",
+      "tema": "seguridad_pasiva",
+      "afirmacion_del_video": "Cristales templados (se hacen añicos) y laminados (lámina de plástico) (5:07:19).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Ni el manual DGT ni el RGV del kit lo recogen. Además el vídeo mezcla los conceptos: dice que 'eso lo hacen templado y laminado' al explicar los añicos, que es propio del templado.",
+      "sugerencia": "Buscar fuente (p. ej. homologación de vidrios) antes de preguntar."
+    },
+    {
+      "id": "E-rev-0004",
+      "tema": "seguridad_activa",
+      "afirmacion_del_video": "Existe una 'seguridad preventiva', ni activa ni pasiva: limpiaparabrisas, luneta térmica, ergonomía (5:11:31).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT solo distingue seguridad activa y pasiva y no usa el término 'seguridad preventiva' para elementos del vehículo. No hay norma en el kit.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0005",
+      "tema": "vehiculo",
+      "afirmacion_del_video": "Frenos de disco más eficientes que los de tambor porque se ventilan antes (5:03:30); procedimiento de cambio de rueda (aflojar tuercas antes de levantar con el gato) (5:02:01).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No aparece en el manual DGT 2024 ni en el BOE del kit.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0006",
+      "tema": "adas",
+      "afirmacion_del_video": "Los ADAS se pueden desconectar temporal y permanentemente (5:12:40, 5:23:25).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No hay norma en el kit sobre la desconexión de los ADAS (la regulación está en el Reglamento (UE) 2019/2144, que no está en el kit, y distingue por sistema: algunos solo se desconectan temporalmente y se reactivan al arrancar). Es una afirmación discutible.",
+      "sugerencia": "No preguntar sin la fuente UE."
+    },
+    {
+      "id": "E-rev-0007",
+      "tema": "adas",
+      "afirmacion_del_video": "Definiciones de TPMS (presión de neumáticos), DDR/ADR (somnolencia y distracción), EDR (registrador de datos tras un siniestro), ISA (asistente de velocidad inteligente) y detector de marcha atrás que pita a menos de 1 m (5:12:51-5:21:48).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Estos sistemas no aparecen en el manual DGT 2024 ni en el BOE del kit. No hay cita literal posible.",
+      "sugerencia": "Añadir fuente oficial (Reglamento (UE) 2019/2144 o material DGT sobre ADAS) y crear las preguntas entonces."
+    },
+    {
+      "id": "E-rev-0008",
+      "tema": "adas",
+      "afirmacion_del_video": "El RCTA 'incluso detiene el propio coche' y actúa como máximo a 15 km/h (5:15:06, 5:24:39).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT (Tema 6, p. 138) solo dice que avisa con un sonido. La cifra de 15 km/h y la frenada no aparecen en ninguna fuente del kit.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0009",
+      "tema": "adas",
+      "afirmacion_del_video": "Se pueden instalar ADAS 'aftermarket' siempre que no actúen sobre los sistemas de seguridad del vehículo (5:22:32).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No hay norma en el kit que lo regule (sería materia de reformas de vehículos/homologación).",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0010",
+      "tema": "adas",
+      "afirmacion_del_video": "Las siglas EBD (5:20:18).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT usa EBD para el 'aviso de frenada de emergencia' (luces de freno que parpadean). En la terminología técnica habitual EBD es el reparto electrónico de frenada y la señal de frenada de emergencia es ESS. Se ha hecho la pregunta E-ada-0002 diciendo 'según el manual de la DGT'.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0011",
+      "tema": "accidentes",
+      "afirmacion_del_video": "El chaleco reflectante 'tiene que ser visible a 150 m' (5:50:58).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Error del vídeo. RGC 118.4 y RGV Anexo XII.1.b exigen un chaleco de alta visibilidad certificado (UNE EN 471, mínimo clase 2), sin distancia. Los 150 m son para el elemento luminoso o reflectante de ciclistas en vía interurbana y de conductores de VMP de noche o con poca visibilidad (RGC 118.2 y 118.3).",
+      "sugerencia": "Posible pregunta correcta: ¿a qué distancia debe ser visible el elemento reflectante de un ciclista de noche en vía interurbana? -> 150 m (RGC 118.2)."
+    },
+    {
+      "id": "E-rev-0012",
+      "tema": "accidentes",
+      "afirmacion_del_video": "Chaleco y V-16 'al alcance del conductor', en la guantera (5:50:49).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El RGV Anexo XII y el RGC 118.4 exigen llevarlos en la dotación, pero no dicen que estén al alcance del conductor. Es un consejo práctico, no una norma.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0013",
+      "tema": "vehiculo",
+      "afirmacion_del_video": "Los remolques, aunque sean ligeros, también tienen que llevar extintor (5:51:40).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "RGV Anexo XII.2 exige extintor a autobuses, mixtos y mercancías de más de 3.500 kg y a 'los conjuntos de vehículos no especiales'. La obligación recae sobre el conjunto (tractor y remolque), no sobre el remolque por sí solo. Habría que confirmar cómo lo pregunta la DGT.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0014",
+      "tema": "accidentes",
+      "afirmacion_del_video": "No auxiliar es delito de omisión del deber de socorro (5:34:39).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Es Código Penal (art. 195), que no está en el kit. El RGC 129 solo establece la obligación de auxiliar o solicitar auxilio.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0015",
+      "tema": "primeros_auxilios",
+      "afirmacion_del_video": "Proteger: 'primero a ti, luego la zona, luego a los heridos' (5:35:22).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT (Tema 16, p. 416) enumera qué proteger (a ti mismo, a las víctimas y el lugar del accidente) sin fijar ese orden entre víctimas y lugar.",
+      "sugerencia": "Preguntar solo 'protegerse a uno mismo primero / ponerse el chaleco antes de salir'."
+    },
+    {
+      "id": "E-rev-0016",
+      "tema": "primeros_auxilios",
+      "afirmacion_del_video": "Taponar una hemorragia 'no con las manos, con una chaqueta o algo' (5:38:35); torniquete 'con un cinturón' (5:38:49); botiquín con alcohol (5:39:54).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT dice presionar la herida con la mano o el puño usando una gasa o un pañuelo lo más limpio posible, y que los torniquetes se suelen hacer con un pañuelo doblado, sin objetos muy finos. Además indica no echar pomadas ni alcohol en las heridas.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0017",
+      "tema": "conduccion_preventiva",
+      "afirmacion_del_video": "Mirar los retrovisores cada 5-10 segundos en ciudad y cada 10-15 fuera de poblado (5:53:29).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT (Tema 17, p. 442) dice que la frecuencia depende del tipo de carretera, sin cifras. No hay norma.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0018",
+      "tema": "conduccion_eficiente",
+      "afirmacion_del_video": "Cambiar de marcha en diésel entre 1.000 y 2.000 rpm (el vídeo dice 'entre 100 y 2000') y en gasolina entre 2.000 y 2.500 rpm (5:56:25).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El manual DGT 2024 no da cifras de revoluciones; solo habla de cambiar a segunda a los pocos segundos y de usar marchas largas. Sin fuente en el kit.",
+      "sugerencia": "Buscar material DGT/IDAE de conducción eficiente."
+    },
+    {
+      "id": "E-rev-0019",
+      "tema": "distintivos_ambientales",
+      "afirmacion_del_video": "Distintivo B: gasolina matriculados desde 2000 y diésel desde 2006; C: gasolina desde 2006 y diésel desde 2014 (5:58:42).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Error del vídeo. El RGV (Anexo II.E.2) clasifica por norma Euro, no por año: C = turismos gasolina Euro 4, 5 o 6 o diésel Euro 6; B = gasolina Euro 3 o diésel Euro 4 o 5. Además el vídeo da años distintos para gasolina C (2006) que no encajan con los habituales. Se han creado E-amb-0005 y E-amb-0006 según la norma.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0020",
+      "tema": "distintivos_ambientales",
+      "afirmacion_del_video": "ECO: híbridos enchufables con autonomía eléctrica de 'como mucho 40 km o menos'; 0 emisiones: '40 o más' (6:00:30).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El vídeo se contradice en el caso de 40 km exactos. RGV Anexo II.E.2: 0 emisiones = PHEV con autonomía mínima de 40 km; ECO = híbridos enchufables con autonomía <40 km. Con 40 km exactos, el distintivo es 0 emisiones.",
+      "sugerencia": "No usar 40 km exactos como caso de pregunta."
+    },
+    {
+      "id": "E-rev-0021",
+      "tema": "distintivos_ambientales",
+      "afirmacion_del_video": "En las zonas de bajas emisiones está prohibido entrar a los coches de combustión salvo que tengan una pegatina específica (5:57:52).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Generalización. El acceso lo fija la administración competente (RGV V-25.2, el ayuntamiento), y según el manual DGT solo pueden entrar los vehículos con el distintivo que indica la señal. No es una regla única.",
+      "sugerencia": ""
+    },
+    {
+      "id": "E-rev-0022",
+      "tema": "vehiculo",
+      "afirmacion_del_video": "Funcionamiento del motor: se comprime el aire, se calienta, entra el carburante y explota (5:41:14).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "30-38 (seguridad activa y pasiva, ADAS, factor vía, accidente, mecánica, conducción preventiva y eficiente, distintivos)"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Así funciona el motor diésel (autoencendido). El de gasolina enciende la mezcla con la chispa de la bujía (manual DGT, Tema 15, circuito de encendido, p. 369). Tampoco hay cita para los 'cuatro tiempos'.",
+      "sugerencia": ""
+    }
+  ]
+}

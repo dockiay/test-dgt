@@ -420,6 +420,7 @@
     const ex = { lista, resp: {}, i: 0, inicio: Date.now(), limite: lista.length * SEGUNDOS_POR_PREGUNTA, acabado: false,
       tipo: op.tipo || "final", titulo: op.titulo || "Examen final", alTerminar: op.alTerminar || null, op };
     sesion = ex;
+    if (window.Celebracion) Celebracion.empezar();
     reloj.hidden = false;
     const hora = h("span", {});
     reloj.replaceChildren(ico("reloj"), hora);
@@ -487,7 +488,6 @@
     try { window.dispatchEvent(new CustomEvent("examen-corregido", { detail: entrada })); } catch (e) { /* sin eventos */ }
     const extra = ex.alTerminar ? ex.alTerminar(entrada) : null;
     sumarAlDia(Object.keys(ex.resp).length);
-    setTimeout(() => { sonar(apto ? "aprobado" : "suspenso"); if (apto && window.Animo) Animo.confeti(); }, 150);
     const lista = h("div", {});
     const pintarLista = soloFallos => {
       const items = ex.lista.map((p, j) => ({ p, j })).filter(({ p }) => !soloFallos || ex.resp[p.id] !== p.correcta);
@@ -511,6 +511,9 @@
       cabecera("Corrección"),
       segmentos([[false, `Todas (${total})`], [true, `Solo fallos (${fallos})`]], false, pintarLista),
       h("div", { style: "height:20px" }), lista);
+    // Celebración a pantalla completa (celebracion.js) por encima del resultado; si no la hay, sonido y confeti de siempre.
+    const celebrada = window.Celebracion && Celebracion.terminar({ tipo: "examen", aciertos: total - fallos, hechas: total, fallos, apto, max, segundos, completa: true });
+    if (!celebrada) setTimeout(() => { sonar(apto ? "aprobado" : "suspenso"); if (apto && window.Animo) Animo.confeti(); }, 150);
   }
 
   // ---------- Práctica (temario y fallos) ----------
@@ -593,8 +596,9 @@
   function practicar(lista, modo, titulo, vuelta, op) {
     pararReloj();
     ordenes = new Map();
-    const s = { lista, modo, titulo, vuelta, i: 0, resp: {}, aciertos: 0, seguidas: 0, mejorSerie: 0, alTerminar: (op && op.alTerminar) || null };
+    const s = { lista, modo, titulo, vuelta, i: 0, resp: {}, aciertos: 0, seguidas: 0, mejorSerie: 0, alTerminar: (op && op.alTerminar) || null, inicio: Date.now() };
     sesion = s;
+    if (window.Celebracion) Celebracion.empezar();
     pintarPractica(s);
   }
   function pintarPractica(s, recien) {
@@ -670,7 +674,10 @@
           : h("button", { class: "boton ancho", onclick: () => practicar(barajar(s.lista), s.modo, s.titulo, s.vuelta, { alTerminar: s.alTerminar }) }, "Repetir estas preguntas"),
         s.modo !== "fallos" && fallos ? h("a", { class: "boton ancho gris", href: "#/fallos" }, "Repasar mis fallos") : null,
         h("a", { class: "boton ancho gris", href: s.modo === "fallos" ? "#/" : s.vuelta, onclick: () => setTimeout(ruta) }, s.modo === "temario" ? "Cambiar la selección" : "Volver al inicio")));
-    if (hechas && window.Animo) {
+    // Celebración a pantalla completa (celebracion.js); si no la hay, la animación sencilla de siempre.
+    const celebrada = window.Celebracion && Celebracion.terminar({ tipo: "practica", modo: s.modo, aciertos: s.aciertos, hechas, fallos, completa: hechas === s.lista.length,
+      segundos: Math.round((Date.now() - s.inicio) / 1000), mejorSerie: s.mejorSerie, destino: s.modo === "paso" ? "#/temario" : null });
+    if (hechas && window.Animo && !celebrada) {
       Animo.contar(cifraPct, pct, { formato: v => `${v} %` });
       setTimeout(() => { if (bien || !fallos) Animo.sonar("aprobado"); else if (pct >= 70) Animo.sonar("meta"); if (bien) Animo.confeti(); }, 150);
     }

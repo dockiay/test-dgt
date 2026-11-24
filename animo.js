@@ -110,6 +110,18 @@
     serie: (c, n = 3) => { const base = 523 * Math.pow(2, Math.min(n, 12) / 24); [0, 4, 7, 12].forEach((s, i) => nota(c, base * Math.pow(2, s / 12), i * 0.06, 0.14, { tipo: "triangle", vol: 0.1 })); },
     meta: c => { [0, 4, 7, 12, 16].forEach((s, i) => nota(c, 523 * Math.pow(2, s / 12), i * 0.08, 0.3, { tipo: "triangle", vol: 0.11 })); },
     aprobado: c => { [0, 4, 7].forEach((s, i) => nota(c, 523 * Math.pow(2, s / 12), i * 0.11, 0.2, { tipo: "triangle", vol: 0.12 })); [0, 4, 7, 12].forEach(s => nota(c, 523 * Math.pow(2, (s + 12) / 12), 0.36, 0.7, { tipo: "triangle", vol: 0.06 })); },
+    // Fin de lección (celebracion.js): fanfarria, tictac de los contadores, golpe de cada cifra, brillo final,
+    // subida de la racha y logro.
+    fanfarria: c => {
+      [0, 4, 7, 12].forEach((s, i) => nota(c, 523 * Math.pow(2, s / 12), i * 0.09, 0.18, { tipo: "triangle", vol: 0.12 }));
+      [0, 4, 7, 12, 16].forEach(s => nota(c, 523 * Math.pow(2, (s + 12) / 12), 0.4, 0.9, { tipo: "triangle", vol: 0.05 }));
+      [0, 0.07, 0.14].forEach((t, i) => nota(c, 3136 + i * 400, 0.44 + t, 0.18, { vol: 0.025 }));
+    },
+    tic: (c, k = 0) => nota(c, 1250 + k * 500, 0, 0.03, { vol: 0.03 }),
+    golpe: (c, i = 0) => { const f = 659 * Math.pow(2, [0, 3, 7, 12][i % 4] / 12); nota(c, f, 0, 0.12, { tipo: "triangle", vol: 0.11 }); nota(c, f * 2, 0, 0.08, { vol: 0.03 }); },
+    brillo: c => [0, 0.06, 0.12, 0.18].forEach((t, i) => nota(c, 1568 * Math.pow(2, [0, 4, 7, 12][i] / 12), t, 0.16, { vol: 0.04 })),
+    racha: c => { nota(c, 262, 0, 0.5, { tipo: "triangle", vol: 0.08, hasta: 784 }); [0, 4, 7, 12].forEach((s, i) => nota(c, 784 * Math.pow(2, s / 12), 0.45 + i * 0.07, 0.35, { tipo: "triangle", vol: 0.09 })); },
+    logro: c => { [0, 7, 12, 16, 19].forEach((s, i) => nota(c, 587 * Math.pow(2, s / 12), i * 0.07, 0.4, { tipo: "triangle", vol: 0.09 })); nota(c, 2349, 0.36, 0.5, { vol: 0.03 }); },
     suspenso: c => { [7, 3, 0].forEach((s, i) => nota(c, 330 * Math.pow(2, s / 12), i * 0.16, 0.3, { tipo: "triangle", vol: 0.1 })); },
   };
   function sonar(nombre, arg) { const c = audio(); if (c && SONIDOS[nombre]) { try { SONIDOS[nombre](c, arg); } catch (e) { /* sin audio */ } } }

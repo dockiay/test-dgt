@@ -23,10 +23,45 @@
   // ---------- Carga, migración y guardado ----------
   // borradas: {id: ms} dudosas desmarcadas; vaciado: ms en que se vació el repaso. Sirven para que,
   // al combinar con otro dispositivo o con la nube, lo borrado no vuelva a aparecer.
-  function vacio() { return { v: 2, preguntas: {}, dudosas: {}, borradas: {}, vaciado: 0, historial: [], dias: {} }; }
+  function vacio() {
+    const n = { v: 2, preguntas: {}, dudosas: {}, borradas: {}, vaciado: 0, historial: [], dias: {} };
+    for (const [k, def] of Object.entries(EXTENSIONES)) n[k] = def.normalizar(undefined);
+    return n;
+  }
+
+  // ---------- Extensiones ----------
+  // Cada función nueva (sesión diaria, errores, logros...) guarda sus datos en una clave propia de primer
+  // nivel y la registra con Progreso.extender(clave, { normalizar(v), combinar(a, b) }).
+  // normalizar(undefined) debe devolver el valor vacío; combinar recibe dos valores ya normalizados.
+  // Las claves que nadie ha registrado (por ejemplo, de una versión más nueva de la web en otro
+  // dispositivo) se conservan tal cual, para no perder datos al combinar o guardar.
+  const PROPIAS = new Set(["v", "preguntas", "dudosas", "borradas", "vaciado", "historial", "dias"]);
+  const EXTENSIONES = {};
+  function extender(clave, def) {
+    if (PROPIAS.has(clave)) throw new Error(`La clave «${clave}» ya es del progreso`);
+    EXTENSIONES[clave] = def;
+    if (actual) actual[clave] = def.normalizar(actual[clave]);
+  }
+  function normalizarExtensiones(d, n) {
+    for (const [k, v] of Object.entries(d)) if (!PROPIAS.has(k) && !EXTENSIONES[k] && v !== undefined) n[k] = v;
+    for (const [k, def] of Object.entries(EXTENSIONES)) n[k] = def.normalizar(d[k]);
+  }
+  // Resultado de un examen. tipo: "final" (examen final) o "semanal" (simulacro semanal), opcional.
+  // materias: { "1": [aciertos, preguntas], ... }, opcional (los exámenes antiguos no lo tienen).
+  function normalizarExamen(r) {
+    const n = { fecha: String(r.fecha), total: +r.total || 0, fallos: +r.fallos || 0, apto: !!r.apto, segundos: +r.segundos || 0 };
+    if (r.tipo === "final" || r.tipo === "semanal") n.tipo = r.tipo;
+    if (r.materias && typeof r.materias === "object") {
+      const m = {};
+      for (const [k, v] of Object.entries(r.materias)) if (/^\d{1,2}$/.test(k) && Array.isArray(v) && +v[1] > 0) m[k] = [Math.min(+v[0] || 0, +v[1]), +v[1]];
+      if (Object.keys(m).length) n.materias = m;
+    }
+    return n;
+  }
   function normalizar(d) {
     const n = vacio();
     if (!d || typeof d !== "object") return n;
+    normalizarExtensiones(d, n);
     for (const [id, r] of Object.entries(d.preguntas || {})) {
       if (!r || typeof r !== "object") continue;
       n.preguntas[id] = { ok: +r.ok || 0, ko: +r.ko || 0, h: String(r.h || "").replace(/[^01]/g, "").slice(-8),
@@ -35,8 +70,7 @@
     for (const [id, m] of Object.entries(d.dudosas || {})) if (m && typeof m === "object") n.dudosas[id] = { nota: String(m.nota || ""), fecha: String(m.fecha || ""), ms: +m.ms || Date.parse(m.fecha) || 0 };
     for (const [id, ms] of Object.entries(d.borradas || {})) if (+ms > 0) n.borradas[id] = +ms;
     n.vaciado = +d.vaciado || 0;
-    n.historial = (Array.isArray(d.historial) ? d.historial : []).filter(r => r && r.fecha)
-      .map(r => ({ fecha: String(r.fecha), total: +r.total || 0, fallos: +r.fallos || 0, apto: !!r.apto, segundos: +r.segundos || 0 }));
+    n.historial = (Array.isArray(d.historial) ? d.historial : []).filter(r => r && r.fecha).map(normalizarExamen);
     for (const [k, v] of Object.entries(d.dias || {})) if (/^\d{4}-\d\d-\d\d$/.test(k) && v) n.dias[k] = { r: +v.r || 0, a: +v.a || 0 };
     return n;
   }
@@ -186,6 +220,11 @@
       const x = a.dias[k] || { r: 0, a: 0 }, y = b.dias[k] || { r: 0, a: 0 };
       n.dias[k] = { r: Math.max(x.r, y.r), a: Math.max(x.a, y.a) };
     }
+    for (const k of new Set([...Object.keys(a), ...Object.keys(b)])) {
+      if (PROPIAS.has(k)) continue;
+      const def = EXTENSIONES[k];
+      n[k] = def ? def.combinar(a[k], b[k]) : (a[k] !== undefined ? a[k] : b[k]);
+    }
     return n;
   }
 
@@ -245,7 +284,7 @@
 
   window.Progreso = {
     get actual() { return actual; },
-    INTERVALO_DIAS, CRITERIOS, cargar, delDia, guardar, vacio, normalizar, migrarV1,
+    INTERVALO_DIAS, CRITERIOS, extender, cargar, delDia, guardar, vacio, normalizar, migrarV1,
     registrar, registrarExamen, vaciarRepaso, marcarDudosa, quitarDudosa, quitarDudosas,
     enRepaso, paraHoy, proximoRepaso, estado, resumen, dominioPorMateria, racha, preparacion,
     combinar, combinarAnimo, mezclarAnimo, leerAnimo, exportarCodigo, importarCodigo, leerPaquete, exportarFichero, claveDia,

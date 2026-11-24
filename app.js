@@ -224,6 +224,8 @@
   }
   // La descripción detallada y el crédito pueden revelar la respuesta: solo se muestran tras responder.
   function figura(p, corregida) {
+    const escena = window.Escenas && Escenas.figura(p); // fotograma quieto de la escena animada (escenas.js)
+    if (escena) return escena;
     const i = p.imagen;
     if (!i || !i.src) return null;
     const senal = /\/senales\//.test(i.src);
@@ -273,7 +275,9 @@
       return h("li", {}, h("button", { class: cls, disabled: corregida, "aria-pressed": corregida ? null : String(k === elegida), "aria-label": `${"ABC"[pos]}. ${p.opciones[k]}${voz}`, onclick: () => alElegir && alElegir(k) },
         h("span", { class: "letra" }, "ABC"[pos]), h("span", { class: "texto" }, p.opciones[k]), h("span", { class: "estado" }, estado)));
     }));
-    return [figura(p, corregida), h("p", { class: "enunciado" }, p.enunciado), lista, corregida ? bloqueExplicacion(p, elegida, animada, orden) : null];
+    const ex = corregida ? bloqueExplicacion(p, elegida, animada, orden) : null;
+    if (ex && window.Escenas) Escenas.enExplicacion(ex, p, elegida, animada); // escena paso a paso al final de la explicación
+    return [figura(p, corregida), h("p", { class: "enunciado" }, p.enunciado), lista, ex];
   }
   // La barra arranca en el ancho anterior y crece hasta el nuevo, para que se vea avanzar.
   let anchoAvance = 0;

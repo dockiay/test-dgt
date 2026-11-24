@@ -29,6 +29,7 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 | `vendor/firebase.js` | SDK de Firebase empaquetado (ver `vendor/LEEME.md`) |
 | `firebase.json`, `firestore.rules`, `.github/workflows/firebase.yml` | Alojamiento, reglas y publicación automática en Firebase |
 | `errores.js`, `data/errores.js` | «¿Por qué?» y errores típicos. `data/errores.js` se genera con `tools/build_errores.py` desde `preguntas/errores-tipicos.json` |
+| `escenas.js`, `escenas.css`, `data/escenas.js` | Escenas animadas de cruces y glorietas: fotograma quieto antes de responder y explicación paso a paso con cita del BOE. `data/escenas.js` se genera con `node tools/build_escenas.mjs` desde `preguntas/escenas.json` (ver `preguntas/formato-escenas.md`). `#/escenas` practica solo esas preguntas |
 | `data/preguntas.js` | Banco publicado. Se genera con `tools/build_data.py`; no se edita a mano |
 | `img/` | Imágenes que usa la web (copiadas desde `imagenes/` al generar) |
 | `preguntas/` | Bancos de preguntas (`banco-*.json`), revisiones, formato y scripts de verificación |
@@ -40,7 +41,8 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 1. Deja el banco nuevo como `preguntas/banco-<nombre>.json` (formato en `preguntas/formato-preguntas.md`).
 2. Ejecuta `python3 tools/build_data.py` y después `python3 tools/build_errores.py` (comprueba las citas de las mini lecciones contra los textos del BOE de `FUENTES_TXT` y vuelve a elegir las opciones del «¿por qué?»; deja la lista para revisar en `preguntas/porques-para-revisar.md`).
 3. Para poner imagen a preguntas que ya existen, añade su id y el `src` en `preguntas/imagenes-nuevas-ids.json` y ejecuta `python3 imagenes/asignar_imagenes.py` (solo toca `imagen` e `imagen_requerida`). Los esquemas nuevos se dibujan en `imagenes/esquemas/plantilla_esquemas.py`.
-4. Sube los cambios. Cambia `VERSION` en `sw.js` para que los móviles con la app instalada recojan las preguntas nuevas.
+4. Si cambian las preguntas con escena, ejecuta también `node tools/build_escenas.mjs`.
+5. Sube los cambios. Cambia `VERSION` en `sw.js` para que los móviles con la app instalada recojan las preguntas nuevas.
 
 El script solo publica preguntas con `estado: "verificada"`, tres opciones, respuesta válida, materia de 1 a 16 y fuente completa (norma, artículo, URL oficial del BOE o la DGT y cita literal). Las preguntas cuya imagen está `"pendiente"` se aplazan hasta que la imagen exista. Si alguna pregunta no cumple, el script la lista y termina con error.
 

@@ -1,0 +1,56 @@
+{
+  "hosting": {
+    "public": ".",
+    "cleanUrls": false,
+    "ignore": [
+      "firebase.json",
+      "firestore.rules",
+      ".firebaserc",
+      "**/.*",
+      "**/node_modules/**",
+      "preguntas/**",
+      "imagenes/**",
+      "tools/**",
+      "pruebas/**",
+      "**/*.md",
+      "**/*.py",
+      "**/__pycache__/**"
+    ],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          },
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          }
+        ]
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": false
+    }
+  }
+}

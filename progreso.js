@@ -21,7 +21,9 @@
   const claveDia = ms => { const d = new Date(ms); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
 
   // ---------- Carga, migración y guardado ----------
-  function vacio() { return { v: 2, preguntas: {}, dudosas: {}, historial: [], dias: {} }; }
+  // borradas: {id: ms} dudosas desmarcadas; vaciado: ms en que se vació el repaso. Sirven para que,
+  // al combinar con otro dispositivo o con la nube, lo borrado no vuelva a aparecer.
+  function vacio() { return { v: 2, preguntas: {}, dudosas: {}, borradas: {}, vaciado: 0, historial: [], dias: {} }; }
   function normalizar(d) {
     const n = vacio();
     if (!d || typeof d !== "object") return n;
@@ -30,7 +32,9 @@
       n.preguntas[id] = { ok: +r.ok || 0, ko: +r.ko || 0, h: String(r.h || "").replace(/[^01]/g, "").slice(-8),
         c: Math.min(ULTIMA_CAJA, Math.max(0, +r.c || 0)), p: +r.p || 0, t: +r.t || 0, f: +r.f || 0 };
     }
-    for (const [id, m] of Object.entries(d.dudosas || {})) if (m && typeof m === "object") n.dudosas[id] = { nota: String(m.nota || ""), fecha: String(m.fecha || "") };
+    for (const [id, m] of Object.entries(d.dudosas || {})) if (m && typeof m === "object") n.dudosas[id] = { nota: String(m.nota || ""), fecha: String(m.fecha || ""), ms: +m.ms || Date.parse(m.fecha) || 0 };
+    for (const [id, ms] of Object.entries(d.borradas || {})) if (+ms > 0) n.borradas[id] = +ms;
+    n.vaciado = +d.vaciado || 0;
     n.historial = (Array.isArray(d.historial) ? d.historial : []).filter(r => r && r.fecha)
       .map(r => ({ fecha: String(r.fecha), total: +r.total || 0, fallos: +r.fallos || 0, apto: !!r.apto, segundos: +r.segundos || 0 }));
     for (const [k, v] of Object.entries(d.dias || {})) if (/^\d{4}-\d\d-\d\d$/.test(k) && v) n.dias[k] = { r: +v.r || 0, a: +v.a || 0 };
@@ -59,7 +63,12 @@
     try { v1 = JSON.parse(localStorage.getItem(CLAVE_V1)); } catch (e) { /* sin almacenamiento */ }
     return v1 ? migrarV1(v1) : vacio();
   }
-  function guardar(datos) { actual = datos; try { localStorage.setItem(CLAVE, JSON.stringify(datos)); } catch (e) { /* sin almacenamiento */ } }
+  // Avisa con el evento "progreso-guardado" (lo usa nube.js para subir los cambios).
+  function guardar(datos) {
+    actual = datos;
+    try { localStorage.setItem(CLAVE, JSON.stringify(datos)); } catch (e) { /* sin almacenamiento */ }
+    try { window.dispatchEvent(new Event("progreso-guardado")); } catch (e) { /* sin eventos */ }
+  }
 
   // ---------- Registrar una respuesta ----------
   function registrar(datos, id, acierto, ahora = Date.now()) {
@@ -83,7 +92,10 @@
     datos.historial.sort((a, b) => a.fecha < b.fecha ? -1 : 1);
     datos.historial = datos.historial.slice(-100);
   }
-  function vaciarRepaso(datos) { for (const r of Object.values(datos.preguntas)) { r.c = 0; r.p = 0; } }
+  function vaciarRepaso(datos, ahora = Date.now()) { for (const r of Object.values(datos.preguntas)) { r.c = 0; r.p = 0; } datos.vaciado = ahora; }
+  function marcarDudosa(datos, id, nota, ahora = Date.now()) { datos.dudosas[id] = { nota, fecha: new Date(ahora).toISOString().slice(0, 10), ms: ahora }; delete datos.borradas[id]; }
+  function quitarDudosa(datos, id, ahora = Date.now()) { delete datos.dudosas[id]; datos.borradas[id] = ahora; }
+  function quitarDudosas(datos, ahora = Date.now()) { for (const id of Object.keys(datos.dudosas)) quitarDudosa(datos, id, ahora); }
 
   // ---------- Consultas ----------
   const enRepaso = (datos, ids) => ids.filter(id => (datos.preguntas[id] || {}).c > 0);
@@ -157,8 +169,16 @@
       const nuevo = y.t > x.t ? y : x;
       n.preguntas[id] = Object.assign({}, nuevo, { ok: Math.max(x.ok, y.ok), ko: Math.max(x.ko, y.ko), f: Math.min(x.f || Infinity, y.f || Infinity) === Infinity ? 0 : Math.min(x.f || Infinity, y.f || Infinity) });
     }
-    n.dudosas = Object.assign({}, b.dudosas, a.dudosas);
-    for (const [id, m] of Object.entries(b.dudosas)) if (a.dudosas[id] && m.fecha > a.dudosas[id].fecha) n.dudosas[id] = m;
+    // Dudosas: gana lo último que se hizo con cada una, marcarla o desmarcarla.
+    for (const id of new Set([...Object.keys(a.dudosas), ...Object.keys(b.dudosas), ...Object.keys(a.borradas), ...Object.keys(b.borradas)])) {
+      const x = a.dudosas[id], y = b.dudosas[id], marca = x && y ? (y.ms > x.ms ? y : x) : (x || y);
+      const borrada = Math.max(a.borradas[id] || 0, b.borradas[id] || 0);
+      if (marca && marca.ms > borrada) n.dudosas[id] = Object.assign({}, marca);
+      else if (borrada) n.borradas[id] = borrada;
+    }
+    // Si se vació el repaso en un dispositivo, salen de él las preguntas que no se han vuelto a responder después.
+    n.vaciado = Math.max(a.vaciado, b.vaciado);
+    if (n.vaciado) for (const r of Object.values(n.preguntas)) if (r.c > 0 && r.t <= n.vaciado) { r.c = 0; r.p = 0; }
     const vistos = new Map();
     for (const r of [...a.historial, ...b.historial]) vistos.set(r.fecha, r);
     n.historial = [...vistos.values()].sort((p, q) => p.fecha < q.fecha ? -1 : 1).slice(-100);
@@ -207,22 +227,27 @@
   const exportarFichero = datos => JSON.stringify(paquete(datos));
   // Combina las preferencias de ánimo importadas con las locales: las locales mandan,
   // y en "dias" (si existe) se queda el máximo por fecha.
-  function combinarAnimo(importado) {
-    if (!importado) return;
-    const local = leerAnimo() || {};
+  function mezclarAnimo(local, importado) {
+    if (!importado) return local || null;
+    local = local || {};
     const n = Object.assign({}, importado, local);
     if (importado.dias || local.dias) {
       n.dias = Object.assign({}, importado.dias);
       for (const [k, v] of Object.entries(local.dias || {})) n.dias[k] = Math.max(+v || 0, +(n.dias[k]) || 0);
     }
+    return n;
+  }
+  function combinarAnimo(importado) {
+    if (!importado) return;
+    const n = mezclarAnimo(leerAnimo(), importado);
     try { localStorage.setItem(CLAVE_ANIMO, JSON.stringify(n)); } catch (e) { /* sin almacenamiento */ }
   }
 
   window.Progreso = {
     get actual() { return actual; },
     INTERVALO_DIAS, CRITERIOS, cargar, delDia, guardar, vacio, normalizar, migrarV1,
-    registrar, registrarExamen, vaciarRepaso,
+    registrar, registrarExamen, vaciarRepaso, marcarDudosa, quitarDudosa, quitarDudosas,
     enRepaso, paraHoy, proximoRepaso, estado, resumen, dominioPorMateria, racha, preparacion,
-    combinar, combinarAnimo, exportarCodigo, importarCodigo, leerPaquete, exportarFichero, claveDia,
+    combinar, combinarAnimo, mezclarAnimo, leerAnimo, exportarCodigo, importarCodigo, leerPaquete, exportarFichero, claveDia,
   };
 })();

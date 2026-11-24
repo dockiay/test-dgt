@@ -9,6 +9,7 @@ Es una web estática (HTML, CSS y JavaScript, sin dependencias ni compilación).
 - **Examen final**: 30 preguntas al azar, 30 minutos, apto con 3 fallos como máximo (RD 818/2009, anexo VI). Corrección al final con explicación y cita.
 - **Examen por temario**: práctica por cada una de las 16 materias del anexo V.B.1 del Reglamento General de Conductores, con explicación y cita tras cada respuesta.
 - **Mis fallos** y **Preguntas dudosas**: se guardan en el navegador (localStorage). Las dudosas se pueden copiar para revisarlas.
+- **Guardado en la nube**: en Firebase Hosting, iniciando sesión con Google el progreso se sincroniza solo entre dispositivos (ver [FIREBASE.md](FIREBASE.md)). Sin sesión o sin conexión, todo sigue funcionando en local.
 
 El orden de las opciones se baraja en cada sesión para que no se pueda acertar por posición.
 
@@ -17,6 +18,9 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 | Ruta | Qué es |
 |---|---|
 | `index.html`, `app.js`, `estilos.css`, `sw.js`, `manifest.webmanifest`, `icono.svg` | La web |
+| `progreso.js`, `nube.js` | Modelo del progreso y sincronización con Firebase |
+| `vendor/firebase.js` | SDK de Firebase empaquetado (ver `vendor/LEEME.md`) |
+| `firebase.json`, `firestore.rules`, `.github/workflows/firebase.yml` | Alojamiento, reglas y publicación automática en Firebase |
 | `data/preguntas.js` | Banco publicado. Se genera con `tools/build_data.py`; no se edita a mano |
 | `img/` | Imágenes que usa la web (copiadas desde `imagenes/` al generar) |
 | `preguntas/` | Bancos de preguntas (`banco-*.json`), revisiones, formato y scripts de verificación |
@@ -33,7 +37,9 @@ El script solo publica preguntas con `estado: "verificada"`, tres opciones, resp
 
 ## Publicar
 
-Con GitHub Pages: *Settings → Pages → Deploy from a branch → `main` / raíz*. En cuentas gratuitas, Pages solo está disponible para repositorios públicos.
+En Firebase Hosting, automáticamente con cada cambio en `main` (configuración en [FIREBASE.md](FIREBASE.md)).
+
+También funciona con GitHub Pages, sin el guardado en la nube: *Settings → Pages → Deploy from a branch → `main` / raíz*. En cuentas gratuitas, Pages solo está disponible para repositorios públicos.
 
 ## Fuentes
 

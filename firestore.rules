@@ -1,0 +1,18 @@
+rules_version = '2';
+// Cada persona solo puede leer y escribir su propio progreso: usuarios/{su uid}.
+// Todo lo demás está cerrado.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /usuarios/{uid} {
+      allow read, delete: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(["v", "datos", "animo", "actualizado"])
+        && request.resource.data.v == 2
+        && request.resource.data.datos is string
+        && request.resource.data.datos.size() < 900000
+        && (request.resource.data.animo == null
+            || (request.resource.data.animo is string && request.resource.data.animo.size() < 100000))
+        && request.resource.data.actualizado == request.time;
+    }
+  }
+}

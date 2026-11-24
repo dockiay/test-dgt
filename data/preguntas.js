@@ -1196,7 +1196,15 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "La distancia de seguridad no es una cifra fija: es el hueco que te permite parar sin chocar si el de delante frena de golpe. Por eso crece con la velocidad y cuando el suelo agarra menos.",
+    "descartes": {
+     "b": "La norma no fija metros: la distancia depende sobre todo de la velocidad y de la adherencia, porque lo que tiene que garantizar es que puedas frenar sin chocar.",
+     "c": "La norma no mide la distancia por lo que ves del otro vehículo, sino por el espacio que necesitas para frenar sin chocar."
+    },
+    "truco": "Pregúntate: «si frena de golpe, ¿paro sin tocarle?». Si la respuesta es sí, la distancia es buena."
+   }
   },
   {
    "id": "x1a-0052",
@@ -5473,7 +5481,15 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "El taxi es un vehículo de servicio público, y quien lo conduce tiene la tasa reducida de los profesionales: 0,15 mg/l en aire espirado. Los años de permiso no cambian nada, porque lo que cuenta aquí es el tipo de vehículo.",
+    "descartes": {
+     "b": "0,25 mg/l es la tasa general de un conductor particular con más de dos años de permiso; no vale cuando el vehículo es de servicio público.",
+     "c": "0,30 es la tasa reducida, pero en sangre (gramos por litro), no en aire espirado."
+    },
+    "truco": "Los «de 0,15» son los novatos y quienes conducen camiones de más de 3.500 kg, autobuses de más de 9 plazas, vehículos de servicio público (como el taxi), transporte escolar y de menores, mercancías peligrosas, urgencias o transportes especiales. La antigüedad del permiso no les cambia la tasa."
+   }
   },
   {
    "id": "xb-0002",
@@ -15313,7 +15329,22 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "El cinturón es obligatorio en ciudad y en carretera, y las exenciones son una lista cerrada: la marcha atrás o el estacionamiento, el certificado médico y algunos casos de servicios de urgencia. Los repartidores no están en esa lista.",
+    "descartes": {
+     "a": "El reglamento vigente no recoge ninguna exención para repartidores, y el cinturón es obligatorio tanto en vías urbanas como interurbanas, así que circular en poblado no le exime.",
+     "c": "Si ni siquiera en poblado está exento, menos aún en cualquier vía."
+    },
+    "truco": "Si te suena que «antes» había excepciones para repartidores, taxistas o profesores de autoescuela, olvídalo: hoy llevan cinturón. Sin cinturón solo maniobrando marcha atrás o aparcando, con certificado médico o en servicios de urgencia.",
+    "apoyos": [
+     {
+      "norma": "RGC",
+      "articulo": "119.1.a y 119.1.b",
+      "cita": "a) Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento. b) Las personas provistas de un certificado de exención por razones médicas graves o discapacitadas."
+     }
+    ]
+   }
   },
   {
    "id": "xe-0091",
@@ -17184,7 +17215,22 @@ window.BANCO = {
     "version_consultada": "2024-09-18"
    },
    "imagen": null,
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "Con defectos graves la ITV es desfavorable: el coche no puede usarse con normalidad, pero sí puedes conducirlo tú mismo para ir al taller y volver a la ITV, y tienes dos meses desde la primera inspección.",
+    "descartes": {
+     "a": "Los dos meses son el plazo para reparar y volver a la ITV, no un permiso para circular con normalidad.",
+     "b": "La grúa es para la ITV negativa (defectos muy graves), en la que el vehículo no puede moverse por sí mismo."
+    },
+    "truco": "Desfavorable: vas tú al taller. Negativa: ni conduciendo al taller, grúa. En los dos casos, dos meses para volver.",
+    "apoyos": [
+     {
+      "norma": "ITV",
+      "articulo": "11.3",
+      "cita": "el traslado del vehículo desde la estación hasta su destino se realizará por medios ajenos al propio vehículo. Una vez subsanados los defectos, se deberá presentar el vehículo a inspección en un plazo no superior a dos meses, contados desde la primera inspección negativa."
+     }
+    ]
+   }
   },
   {
    "id": "res-itv-0005",
@@ -21177,7 +21223,22 @@ window.BANCO = {
     "alt_detalle": "Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada.",
     "credito": "Esquema propio del proyecto"
    },
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "La regla general en un cruce sin señales es ceder el paso a quien viene por la derecha, pero la glorieta es una de las excepciones que fija la propia norma: manda quien ya está dando la vuelta, y quien quiere entrar espera.",
+    "descartes": {
+     "b": "Venir por la derecha da preferencia en un cruce normal sin señales, pero no al entrar en una glorieta: ahí el que entra cede siempre al que ya está dentro.",
+     "c": "El tamaño del vehículo no da preferencia en una intersección; solo cuenta la regla de la glorieta."
+    },
+    "truco": "Glorieta: «el de dentro manda». Como dentro se circula dejando el centro a la izquierda, los que ya están dando la vuelta te llegan por la izquierda: mira hacia ese lado antes de entrar.",
+    "apoyos": [
+     {
+      "norma": "RGC",
+      "articulo": "43.2",
+      "cita": "En las plazas, glorietas y encuentros de vías los vehículos circularán dejando a su izquierda el centro de aquéllas."
+     }
+    ]
+   }
   },
   {
    "id": "A-pri-0005",
@@ -26520,7 +26581,15 @@ window.BANCO = {
     "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 105 del PDF consolidado",
     "alt_detalle": "Señal R-117: Entrada prohibida a animales de montura"
    },
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "En las señales de «entrada prohibida a…», el dibujo muestra a quién se le prohíbe entrar. Aquí se ve a una persona montada a caballo, así que la prohibición es para los animales de montura.",
+    "descartes": {
+     "a": "Los vehículos de tracción animal tienen su propia señal, la R-113, que dibuja un carro tirado por un caballo.",
+     "b": "La señal no habla de ganado suelto; se refiere a animales que llevan a alguien montado."
+    },
+    "truco": "En las de entrada prohibida, «prohibido para lo que ves»: jinete, animales de montura; carro con caballo, vehículos de tracción animal."
+   }
   },
   {
    "id": "B1-sen-0116",
@@ -30595,7 +30664,22 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "La ley pone un tope a lo que se pierde en un solo día sumando infracciones: como mucho 8 puntos. La excepción son algunas infracciones muy graves, con las que se pierden todos los puntos que correspondan.",
+    "descartes": {
+     "b": "6 puntos es lo máximo que quita una sola infracción de la lista de puntos (anexo II), no el tope de un día.",
+     "c": "12 puntos es el saldo inicial general de un permiso, no lo que se pierde en un día como regla general."
+    },
+    "truco": "El 8 sale dos veces: es el tope de puntos que se pierden en un día y es el saldo con el que empieza quien tiene el permiso desde hace tres años o menos.",
+    "apoyos": [
+     {
+      "norma": "LSV",
+      "articulo": "63.1 y 63.2.a",
+      "cita": "1. Al titular de un permiso o licencia de conducción se le asignará un crédito inicial de doce puntos. 2. Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años"
+     }
+    ]
+   }
   },
   {
    "id": "D-acc-0001",
@@ -31837,7 +31921,15 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "Durante los dos primeros años de permiso la norma rebaja la tasa al mismo nivel que la de los profesionales: 0,15 mg/l en aire espirado (0,3 g/l en sangre), para cualquier vehículo.",
+    "descartes": {
+     "a": "0,25 mg/l en aire es la tasa general, la de quien tiene más de dos años de permiso y no es profesional.",
+     "b": "0,50 mg/l no es ninguna tasa máxima permitida; es el doble de la general y, en sangre, 0,5 g/l es la general."
+    },
+    "truco": "Dos grupos y dos números: novatos y profesionales, 0,15 en aire; el resto, 0,25. En la norma, la cifra en sangre es el doble que la de aire (0,3 y 0,5): si te preguntan en gramos por litro de sangre, multiplica por dos."
+   }
   },
   {
    "id": "D-alc-0017",
@@ -32670,7 +32762,22 @@ window.BANCO = {
     "version_consultada": "2024-10"
    },
    "imagen": null,
-   "verificado_el": "2026-11-24"
+   "verificado_el": "2026-11-24",
+   "leccion": {
+    "porque": "El ABS existe precisamente para que puedas pisar a fondo sin que las ruedas se bloqueen. Por eso, con ABS, la frenada de emergencia es pisar fuerte y no soltar hasta que el coche se pare del todo.",
+    "descartes": {
+     "a": "Levantar un poco el pie para que las ruedas no se bloqueen es lo que el manual indica para un vehículo sin ABS. Con ABS eso ya lo hace el sistema por ti.",
+     "b": "La instrucción para un vehículo con ABS es justo la contraria: pisar fuerte y a fondo hasta que se pare del todo, sin soltar."
+    },
+    "truco": "Con ABS: pisa y aguanta. Sin ABS: pisa y, si se bloquea, afloja un poco sin dejar de frenar.",
+    "apoyos": [
+     {
+      "norma": "MANUAL_DGT",
+      "articulo": "Tema 5, ¿Cómo se usan los frenos? (p. 95)",
+      "cita": "Para frenar de emergencia en un vehículo sin ABS, debes pisar fuerte y a fondo el pedal de freno hasta que notes que la rueda se empieza a bloquear. Entonces levanta un poco el pie del freno para evitar que se bloqueen las ruedas. Pero no dejes de frenar."
+     }
+    ]
+   }
   },
   {
    "id": "E-mec-0001",

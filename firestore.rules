@@ -1,8 +1,12 @@
 rules_version = '2';
-// Cada persona permitida solo puede leer y escribir su propio progreso: usuarios/{su uid}.
+// - usuarios/{uid}: el progreso de cada persona. Solo lo lee y escribe ella misma.
+// - compartidos/{uid}: resumen que una persona decide compartir con sus compañeros de estudio.
+//   Solo ella lo escribe o lo borra; los correos de la lista "companeros" solo pueden leerlo.
+// - animos/{id}: mensajes de ánimo de un compañero. Solo puede mandarlos alguien con quien la
+//   destinataria comparte su resumen en ese momento; los leen quien los manda y quien los recibe.
 // Todo lo demás está cerrado.
 service cloud.firestore {
-  // Quién puede guardar su progreso en la nube. La lista NO está en el repositorio (es público):
+  // Quién puede usar la nube. La lista NO está en el repositorio (es público):
   // al publicar, GitHub sustituye la marca de abajo por los correos del secreto
   // CORREOS_PERMITIDOS (separados por comas). Ver FIREBASE.md. Cualquier otra cuenta puede
   // iniciar sesión, pero no leer ni guardar nada.
@@ -11,11 +15,18 @@ service cloud.firestore {
   }
 
   match /databases/{database}/documents {
-    function permitido(uid) {
-      return request.auth != null && request.auth.uid == uid
-        && request.auth.token.email_verified == true
-        && request.auth.token.email.lower() in correosPermitidos();
+    function miCorreo() {
+      return request.auth.token.email.lower();
     }
+    function autorizado() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && miCorreo() in correosPermitidos();
+    }
+    function permitido(uid) {
+      return autorizado() && request.auth.uid == uid;
+    }
+
     match /usuarios/{uid} {
       allow read, delete: if permitido(uid);
       allow create, update: if permitido(uid)
@@ -26,6 +37,62 @@ service cloud.firestore {
         && (request.resource.data.animo == null
             || (request.resource.data.animo is string && request.resource.data.animo.size() < 100000))
         && request.resource.data.actualizado == request.time;
+    }
+
+    match /compartidos/{uid} {
+      function esCompanero() {
+        return autorizado() && miCorreo() in resource.data.companeros;
+      }
+      // La dueña lee el suyo; un compañero lee los que le incluyen (también con una consulta
+      // where("companeros", "array-contains", su correo)).
+      allow get: if permitido(uid) || esCompanero();
+      allow list: if esCompanero();
+      // Solo la dueña lo crea, lo cambia o lo borra (dejar de compartir).
+      allow delete: if permitido(uid);
+      allow create, update: if permitido(uid)
+        && request.resource.data.keys().hasOnly(["v", "nombre", "companeros", "resumen", "actualizado"])
+        && request.resource.data.keys().hasAll(["v", "nombre", "companeros", "resumen", "actualizado"])
+        && request.resource.data.v == 1
+        && request.resource.data.nombre is string
+        && request.resource.data.nombre.size() <= 60
+        && request.resource.data.companeros is list
+        && request.resource.data.companeros.size() >= 1
+        && request.resource.data.companeros.size() <= 5
+        && !(miCorreo() in request.resource.data.companeros)
+        && request.resource.data.resumen is string
+        && request.resource.data.resumen.size() < 20000
+        && request.resource.data.actualizado == request.time;
+    }
+
+    match /animos/{id} {
+      function compartidoConmigo(para) {
+        return miCorreo() in get(/databases/$(database)/documents/compartidos/$(para)).data.companeros;
+      }
+      allow create: if autorizado()
+        && request.resource.data.keys().hasOnly(["de", "deNombre", "para", "texto", "creado", "leido"])
+        && request.resource.data.keys().hasAll(["de", "deNombre", "para", "texto", "creado", "leido"])
+        && request.resource.data.de == request.auth.uid
+        && request.resource.data.para is string
+        && request.resource.data.para != request.auth.uid
+        && request.resource.data.deNombre is string
+        && request.resource.data.deNombre.size() <= 60
+        && request.resource.data.texto is string
+        && request.resource.data.texto.size() >= 1
+        && request.resource.data.texto.size() <= 300
+        && request.resource.data.leido == false
+        && request.resource.data.creado == request.time
+        && compartidoConmigo(request.resource.data.para);
+      // Lo leen quien lo recibe y quien lo mandó (para ver si ya lo ha leído).
+      allow read: if autorizado()
+        && (resource.data.para == request.auth.uid || resource.data.de == request.auth.uid);
+      // Quien lo recibe solo puede marcarlo como leído.
+      allow update: if autorizado()
+        && resource.data.para == request.auth.uid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(["leido"])
+        && request.resource.data.leido == true;
+      // Lo pueden borrar quien lo recibe y quien lo mandó.
+      allow delete: if autorizado()
+        && (resource.data.para == request.auth.uid || resource.data.de == request.auth.uid);
     }
   }
 }

@@ -19,6 +19,8 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 |---|---|
 | `index.html`, `app.js`, `estilos.css`, `sw.js`, `manifest.webmanifest`, `icono.svg` | La web |
 | `progreso.js`, `nube.js` | Modelo del progreso y sincronización con Firebase |
+| `companero.js` | Compañero de estudio: compartir un resumen del progreso y recibir ánimos (ver [FIREBASE.md](FIREBASE.md)) |
+| `pruebas/reglas/` | Pruebas de `firestore.rules` con el emulador |
 | `vendor/firebase.js` | SDK de Firebase empaquetado (ver `vendor/LEEME.md`) |
 | `firebase.json`, `firestore.rules`, `.github/workflows/firebase.yml` | Alojamiento, reglas y publicación automática en Firebase |
 | `data/preguntas.js` | Banco publicado. Se genera con `tools/build_data.py`; no se edita a mano |

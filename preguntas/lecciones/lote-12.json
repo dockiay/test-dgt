@@ -1,0 +1,2407 @@
+{
+  "version": 1,
+  "lote": "12",
+  "lecciones": [
+    {
+      "id": "xe-0108",
+      "porque": "El limitador solo pone un techo: eliges una velocidad máxima y el vehículo no pasa de ella, pero sigues acelerando y frenando tú. Con el limitador a 50 km/h, el coche no superará los 50 km/h.",
+      "descartes": {
+        "a": "Mantener una velocidad sin pisar el acelerador es lo que hace el regulador de velocidad, no el limitador.",
+        "b": "Frenar al acercarse al vehículo de delante es propio del regulador de velocidad adaptativo, que ayuda a mantener la distancia; el limitador no hace eso."
+      },
+      "truco": "Limitador: pone un techo y no deja pasar de la velocidad elegida. Regulador: mantiene la velocidad sin que pises los pedales. Regulador adaptativo: además, guarda la distancia con el vehículo de delante.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Regulador de velocidad (p. 105)",
+          "cita": "Sistema que te ayuda a mantener la velocidad que elijas para conducir sin necesidad de pisar los pedales para acelerar o bajar la velocidad."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Regulador de velocidad adaptativo (p. 106)",
+          "cita": "Tu vehículo bajará la velocidad o frenará si no guardas esa distancia y te acercas demasiado al vehículo de delante."
+        }
+      ],
+      "huella": "7ebb91636ab7"
+    },
+    {
+      "id": "xe-0109",
+      "porque": "El regulador mantiene la velocidad elegida mientras no tocas los pedales. En cuanto aceleras o frenas, se desactiva y el control vuelve a ti; después tienes que volver a elegir la velocidad y activarlo.",
+      "descartes": {
+        "b": "Si siguiera manteniendo la velocidad mientras frenas, iría contra lo que haces. Por eso, según el manual, el regulador se desactiva al frenar.",
+        "c": "Ningún regulador acelera para compensar una frenada: al pisar el freno, se desactiva."
+      },
+      "truco": "Pedal pisado, regulador apagado: tanto el freno como el acelerador lo desactivan.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Regulador de velocidad (p. 105)",
+          "cita": "Luego tienes que volver a elegir la velocidad y activarlo."
+        }
+      ],
+      "huella": "d704d562c7be"
+    },
+    {
+      "id": "xe-0110",
+      "porque": "El regulador normal solo mantiene la velocidad que eliges. El adaptativo añade la distancia: si te acercas demasiado al vehículo de delante, baja la velocidad o frena por ti.",
+      "descartes": {
+        "a": "Impedir que se supere una velocidad máxima elegida es la función del limitador de velocidad, no lo que añade el regulador adaptativo.",
+        "c": "Leer las señales y mostrarlas en el cuadro no es lo que añade el regulador adaptativo; lo que añade es ayudar a mantener la distancia con el vehículo de delante."
+      },
+      "truco": "Limitador: pone un techo y no deja pasar de la velocidad elegida. Regulador: mantiene la velocidad sin que pises los pedales. Regulador adaptativo: además, guarda la distancia con el vehículo de delante.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Regulador de velocidad adaptativo (p. 106)",
+          "cita": "Tu vehículo bajará la velocidad o frenará si no guardas esa distancia y te acercas demasiado al vehículo de delante."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Limitadores de velocidad (p. 105)",
+          "cita": "Sistema que te permite elegir la velocidad máxima que puede alcanzar tu vehículo."
+        }
+      ],
+      "huella": "ff92737628df"
+    },
+    {
+      "id": "xe-0111",
+      "porque": "Son luces que iluminan más espacio de la carretera cuando hay poca luz. Para encenderse, el vehículo tiene que ir a más de 45 km/h y no detectar otro vehículo cerca; y se apagan cuando detectan a otro que viene de frente por el carril contrario.",
+      "descartes": {
+        "a": "Que sea de noche no basta: además, el vehículo tiene que ir a más de 45 km/h y no detectar otro vehículo cerca.",
+        "b": "Son automáticas: se encienden solas cuando se cumplen las condiciones de luz, velocidad y ausencia de vehículos cerca, sin que tengas que hacer ráfagas."
+      },
+      "truco": "Tres condiciones: poca luz, más de 45 km/h y ningún vehículo cerca.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Luces adaptativas (p. 92)",
+          "cita": "Sistema para encender unas luces del vehículo que iluminan más espacio de la carretera cuando hay poca luz en el exterior."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Luces adaptativas (p. 92)",
+          "cita": "Estas luces se apagan cuando detectan a otro vehículo en la carretera que viene de frente por el carril contrario."
+        }
+      ],
+      "huella": "fe597a714d07"
+    },
+    {
+      "id": "xe-0112",
+      "porque": "Las luces angulares son un tipo de luz adaptativa que se enciende al girar el volante e ilumina el lado hacia el que va a girar el vehículo. Así ves mejor en las curvas y, en las rotondas, los demás saben por dónde vas a girar.",
+      "descartes": {
+        "b": "Avisar al vehículo de detrás al frenar no es tarea de las luces angulares: dependen del giro del volante, no del freno.",
+        "c": "No están ligadas a la marcha atrás: se encienden al girar el volante para alumbrar hacia donde gira el vehículo."
+      },
+      "truco": "Angular, de ángulo de giro: giras el volante y la luz alumbra hacia ese lado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Luces adaptativas (p. 91)",
+          "cita": "Esta luz te ayuda a ver mejor en las curvas. En las rotondas permite a los demás conductores saber por dónde vas a girar."
+        }
+      ],
+      "huella": "1ce86410f4ee"
+    },
+    {
+      "id": "xe-0113",
+      "porque": "Aunque el asistente gire el volante por ti, no conduce en tu lugar: debes prestar mucha atención para asegurarte de que los movimientos se pueden hacer de forma segura, y puedes parar la maniobra en cualquier momento.",
+      "descartes": {
+        "a": "El sistema ayuda, pero el manual pide al conductor prestar mucha atención durante la maniobra; no deja todo en manos del asistente.",
+        "c": "Soltar los mandos y mirar solo la pantalla es lo contrario de la atención que pide el manual; además, tienes que poder parar la maniobra en cualquier momento."
+      },
+      "truco": null,
+      "huella": "e0dc55d0046b"
+    },
+    {
+      "id": "xe-0114",
+      "porque": "El detector de peatones detecta cuándo hay un peatón delante del vehículo y primero avisa al conductor. Si el conductor no responde al aviso, el sistema actúa por su cuenta: activa los frenos y para el vehículo.",
+      "descartes": {
+        "a": "El sistema no avisa al peatón con el claxon: avisa al conductor y, si no reacciona, frena.",
+        "b": "Encender las luces de emergencia sin frenar no evitaría el atropello; lo que hace el sistema es activar los frenos y parar el vehículo."
+      },
+      "truco": "Primero avisa al conductor; si no hay respuesta, frena y para.",
+      "huella": "e2ddf4ccc06b"
+    },
+    {
+      "id": "xe-0115",
+      "porque": "El detector de ángulo muerto enciende una luz en el retrovisor cuando hay otro vehículo en esa zona. Hay dos tipos: unos avisan siempre que haya un vehículo en el ángulo muerto y otros solo si pones el intermitente para cambiar de carril y hay un vehículo ahí.",
+      "descartes": {
+        "b": "El manual no describe este detector para la marcha atrás: los que solo avisan en un caso lo hacen cuando pones el intermitente para cambiar de carril.",
+        "c": "El detector de ángulo muerto vigila si hay vehículos en esa zona, no la velocidad a la que circulas."
+      },
+      "truco": "El ángulo muerto importa sobre todo al cambiar de carril: por eso algunos detectores esperan a que pongas el intermitente para avisarte.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Detector de ángulos muertos (BSM) (p. 444)",
+          "cita": "En esos casos se enciende una luz que está colocada en el espejo retrovisor."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Detector de ángulos muertos (BSM) (p. 444)",
+          "cita": "Algunos detectores de ángulos muertos se encienden siempre que otro vehículo está en la zona de ángulo muerto."
+        }
+      ],
+      "huella": "38bb9dc51005"
+    },
+    {
+      "id": "E-seg-0001",
+      "porque": "La seguridad activa reúne los elementos que sirven para evitar el accidente, como los frenos, las ruedas o las luces, y el conductor tiene que utilizarlos para que funcionen. Lo que reduce los daños cuando el accidente ya ha ocurrido es la seguridad pasiva.",
+      "descartes": {
+        "b": "Reducir los daños una vez producido el accidente, como hace el airbag, es la seguridad pasiva, no la activa.",
+        "c": "Frenos, ruedas o luces no son elementos de comodidad: sirven para evitar accidentes."
+      },
+      "truco": "Activa: la usas tú para evitar el accidente (frenos, ruedas, luces). Pasiva: funciona sola para que el accidente haga menos daño (cinturón, airbag, reposacabezas).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Seguridad pasiva (p. 88)",
+          "cita": "Elementos que ayudan a que los pasajeros y otros usuarios sufran menos daños en un accidente. Funcionan de forma automática. Por ejemplo, cinturón de seguridad, airbag y reposacabezas."
+        }
+      ],
+      "huella": "8755c41a6799"
+    },
+    {
+      "id": "E-pas-0005",
+      "porque": "El airbag no sustituye al cinturón: lo complementa. El manual pide usar siempre el cinturón, entre otras cosas para que el impacto contra el airbag sea menor. Y la norma obliga a conductor y ocupantes a llevarlo abrochado en vías urbanas e interurbanas.",
+      "descartes": {
+        "a": "Tener airbag no está entre las exenciones del cinturón: es obligatorio en vías urbanas e interurbanas, también en los asientos con airbag.",
+        "c": "El cinturón es obligatorio tanto en vías urbanas como interurbanas; ir por ciudad no lo hace innecesario."
+      },
+      "truco": "El airbag es un complemento, no un sustituto: sin cinturón, el golpe contra el airbag es mayor.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.1",
+          "cita": "El conductor y los ocupantes de los vehículos estarán obligados a utilizar, debidamente abrochados, los cinturones de seguridad homologados, tanto en la circulación por vías urbanas como interurbanas."
+        }
+      ],
+      "huella": "7faf5a6aff7d"
+    },
+    {
+      "id": "xe-0098",
+      "porque": "Si vas demasiado cerca del volante, el airbag delantero puede golpearte al inflarse. Por eso el manual aconseja dejar al menos 25 centímetros entre el pecho y el volante.",
+      "descartes": {
+        "a": "5 centímetros es demasiado cerca: el airbag podría golpearte al inflarse. El mínimo que da el manual es 25.",
+        "c": "Un metro no es la cifra del manual: lo que pide es al menos 25 centímetros entre el pecho y el volante."
+      },
+      "truco": "25 centímetros como mínimo del pecho al volante, por el airbag; 4 centímetros o menos de la cabeza al reposacabezas.",
+      "huella": "01df67b36047"
+    },
+    {
+      "id": "xe-0099",
+      "porque": "El airbag es seguridad pasiva: actúa cuando el accidente ya se ha producido. Sus funciones son frenar el movimiento brusco del cuerpo, evitar choques violentos contra partes del vehículo y proteger la cara y los ojos de cristales rotos y otros objetos.",
+      "descartes": {
+        "a": "Evitar que las ruedas se bloqueen al frenar es lo que hace el ABS, un sistema de los frenos, no el airbag.",
+        "b": "Impedir un vuelco sería evitar el accidente; el airbag no lo evita, actúa para reducir los daños cuando el accidente ya se ha producido."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Los airbags (p. 115)",
+          "cita": "Frenar el movimiento brusco del cuerpo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Los airbags (p. 115)",
+          "cita": "Evitar que las personas choquen de forma violenta contra alguna parte del vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Sistema antibloqueo de frenos (ABS) (p. 94)",
+          "cita": "Dispositivo que evita que las ruedas se bloqueen al frenar."
+        }
+      ],
+      "huella": "a98221ab1fad"
+    },
+    {
+      "id": "v2-moto-0001",
+      "porque": "Conductores y pasajeros de motos, ciclomotores, vehículos de tres ruedas, cuadriciclos y quads deben llevar calzado cerrado que cubra todo el pie en todo tipo de vías, también en ciudad. Lo que solo se exige en vías interurbanas son los guantes.",
+      "descartes": {
+        "b": "Lo que solo es obligatorio en vías interurbanas son los guantes. El calzado cerrado se exige en todo tipo de vías.",
+        "c": "La obligación es para conductores y pasajeros por igual: el pasajero también debe llevar calzado cerrado."
+      },
+      "truco": "Moto, ciclomotor y similares: casco y calzado cerrado en todo tipo de vías; guantes, solo en vías interurbanas. Y todo vale igual para el conductor que para el pasajero.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.1.b",
+          "cita": "b) Guantes de protección cuando circulen por vías interurbanas."
+        }
+      ],
+      "huella": "292829643103"
+    },
+    {
+      "id": "C-per-0012",
+      "porque": "La regla general es que conductor y pasajero lleven casco en todo tipo de vías. La excepción: que el vehículo tenga estructura de autoprotección y cinturones, que así conste en la tarjeta ITV y que usen ese cinturón. Entonces quedan exentos del casco, los guantes y el calzado cerrado.",
+      "descartes": {
+        "b": "Ninguna norma permite ir sin casco en moto por ir despacio en ciudad: el casco es obligatorio en todo tipo de vías.",
+        "c": "Sí hay un caso: el vehículo con estructura de autoprotección y cinturones, si así consta en la tarjeta ITV y se usa el cinturón."
+      },
+      "truco": "Si el vehículo te protege como un coche (estructura de autoprotección y cinturones, y así consta en la ITV), te abrochas el cinturón como en un coche y puedes ir sin casco.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.1.a",
+          "cita": "Cascos de protección homologados conforme al Reglamento UNECE R22, adecuadamente abrochados, cuando circulen en todo tipo de vías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.1",
+          "cita": "sus conductores y pasajeros quedarán exentos de utilizar el casco de protección, los guantes de protección y el calzado cerrado, viniendo obligados a usar el referido cinturón de seguridad cuando circulen en todo tipo de vías."
+        }
+      ],
+      "huella": "40bee274062a"
+    },
+    {
+      "id": "C-per-0013",
+      "porque": "En bicicleta, el casco es obligatorio en vías interurbanas. En vías urbanas solo deben llevarlo los menores de 16 años y quienes circulan en bici por motivos profesionales. Un adulto que no circula por trabajo y va por ciudad no está obligado.",
+      "descartes": {
+        "a": "En todo tipo de vías solo deben llevarlo los menores de 16 años; para un adulto, la obligación es en vías interurbanas, o también en ciudad si circula por trabajo.",
+        "c": "Circular entre el ocaso y la salida del sol no cambia lo del casco; lo que exige la norma en esas horas, en vía interurbana, es un elemento luminoso o reflectante visible a 150 metros."
+      },
+      "truco": "Bici: casco en vías interurbanas. En ciudad, solo si tienes menos de 16 años o si circulas en bici por trabajo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.2",
+          "cita": "Los conductores que desarrollen su actividad profesional circulando en bicicletas y demás ciclos, están obligados a utilizar adecuadamente abrochado casco de protección homologado o certificado en vías urbanas y travesías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.2",
+          "cita": "Los conductores de bicicletas que circulen entre el ocaso y la salida del sol, o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa de los equipos de protección individual, que sea visible a una distancia mínima de 150 metros, si circulan en vía interurbana."
+        }
+      ],
+      "huella": "1a6878b5e6ef"
+    },
+    {
+      "id": "E-pas-0013",
+      "porque": "Un casco claro y brillante se ve mejor que uno oscuro y mate. Por eso el manual dice que los cascos claros y brillantes son más seguros.",
+      "descartes": {
+        "a": "Es al revés: un casco oscuro y mate se ve menos. El manual considera más seguros los claros y brillantes.",
+        "c": "Según el manual, el color sí influye: los cascos claros y brillantes son más seguros."
+      },
+      "truco": null,
+      "huella": "8df5368f723c"
+    },
+    {
+      "id": "E-pas-0014",
+      "porque": "El casco homologado y bien abrochado es obligatorio para conductores y pasajeros de motos y ciclomotores en todo tipo de vías, en ciudad y fuera de ella. Solo se libran si el vehículo tiene estructura de autoprotección y cinturones, así consta en la tarjeta ITV y usan el cinturón.",
+      "descartes": {
+        "a": "Lo que solo se exige en vías interurbanas son los guantes, no el casco.",
+        "b": "Ninguna norma limita el casco de moto a autopistas y autovías: es obligatorio en todo tipo de vías."
+      },
+      "truco": "Moto, ciclomotor y similares: casco y calzado cerrado en todo tipo de vías; guantes, solo en vías interurbanas. Y todo vale igual para el conductor que para el pasajero.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.1.b",
+          "cita": "b) Guantes de protección cuando circulen por vías interurbanas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.1",
+          "cita": "sus conductores y pasajeros quedarán exentos de utilizar el casco de protección, los guantes de protección y el calzado cerrado, viniendo obligados a usar el referido cinturón de seguridad cuando circulen en todo tipo de vías."
+        }
+      ],
+      "huella": "3253a6bb28ed"
+    },
+    {
+      "id": "E-pas-0015",
+      "porque": "Los guantes de protección son obligatorios para conductores y pasajeros de motos y ciclomotores cuando circulan por vías interurbanas. A diferencia del casco y del calzado cerrado, que se exigen en todo tipo de vías, en ciudad los guantes no son obligatorios.",
+      "descartes": {
+        "b": "Ya no son solo recomendables: el Reglamento General de Circulación los exige en vías interurbanas.",
+        "c": "La obligación depende del tipo de vía, no de la hora: guantes en vías interurbanas, sea de día o de noche."
+      },
+      "truco": "Moto, ciclomotor y similares: casco y calzado cerrado en todo tipo de vías; guantes, solo en vías interurbanas. Y todo vale igual para el conductor que para el pasajero.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.1.a",
+          "cita": "Cascos de protección homologados conforme al Reglamento UNECE R22, adecuadamente abrochados, cuando circulen en todo tipo de vías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.1.c",
+          "cita": "c) Calzado cerrado, que cubra todo el pie, cuando circulen en todo tipo de vías."
+        }
+      ],
+      "huella": "2aa326085d12"
+    },
+    {
+      "id": "E-pas-0016",
+      "porque": "La regla general de la bici es casco en vías interurbanas. La excepción por edad: los menores de 16 años deben llevarlo en todo tipo de vías, también en ciudad.",
+      "descartes": {
+        "b": "18 años es la mayoría de edad, pero la norma del casco en bici pone el corte en los 16.",
+        "c": "12 años no es la cifra: la obligación de llevar casco en todo tipo de vías alcanza a los menores de 16."
+      },
+      "truco": "Bici: casco en vías interurbanas. En ciudad, solo si tienes menos de 16 años o si circulas en bici por trabajo.",
+      "huella": "0fc27bcfa11b"
+    },
+    {
+      "id": "E-pas-0017",
+      "porque": "Para los vehículos de movilidad personal, como el patinete eléctrico, la norma no distingue edad ni tipo de vía: todo conductor debe llevar casco homologado o certificado, bien abrochado.",
+      "descartes": {
+        "b": "El corte de los 16 años es el de las bicicletas en ciudad; en patinete eléctrico el casco es obligatorio a cualquier edad.",
+        "c": "Llevar casco solo en vías interurbanas es la regla general de la bicicleta, no la del patinete eléctrico, que lo exige siempre."
+      },
+      "truco": "Patinete eléctrico: casco siempre, para todos. Bici: depende de la vía, de la edad y de si circulas por trabajo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.2",
+          "cita": "en las vías interurbanas, siendo obligatorio su uso por los menores de dieciséis años en todo tipo de vías."
+        }
+      ],
+      "huella": "80622dae96e7"
+    },
+    {
+      "id": "xe-0103",
+      "porque": "El manual advierte de que algunos cascos caducan a los pocos años y de que pueden perder propiedades si se pintan o se les ponen pegatinas. Así que pintarlo o decorarlo con pegatinas puede restarle protección.",
+      "descartes": {
+        "b": "Guardarlo en un lugar seco no es lo que el manual señala como causa de que pierda propiedades.",
+        "c": "Limpiar la pantalla con agua no es lo que señala el manual; lo que puede hacerle perder propiedades es pintarlo o ponerle pegatinas."
+      },
+      "truco": null,
+      "huella": "e45f3b0c88af"
+    },
+    {
+      "id": "xe-0104",
+      "porque": "El manual recomienda el casco integral porque protege también la parte de debajo de la cara y la mandíbula. Ojo: la norma exige un casco homologado; el integral es la recomendación del manual, no el único casco legal.",
+      "descartes": {
+        "a": "Ver más a los lados no es el criterio del manual: recomienda el integral, que protege también la mandíbula.",
+        "c": "Ser ligero no es el criterio del manual; lo que pide es que proteja también la parte de debajo de la cara y la mandíbula."
+      },
+      "truco": "Integral, de íntegro: cubre la cabeza entera, mandíbula incluida.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.1.a",
+          "cita": "Cascos de protección homologados conforme al Reglamento UNECE R22, adecuadamente abrochados, cuando circulen en todo tipo de vías."
+        }
+      ],
+      "huella": "f94eec0e50b9"
+    },
+    {
+      "id": "xe-0105",
+      "porque": "El casco reparte la fuerza del golpe por toda su superficie, para que no se concentre en un solo punto de la cabeza. Eso es lo que evita lesiones graves.",
+      "descartes": {
+        "a": "Es justo lo contrario: el casco evita que el golpe se concentre en un punto; lo reparte por todo el casco.",
+        "b": "El casco protege la cabeza, pero no sujeta al motorista ni evita que salga despedido."
+      },
+      "truco": null,
+      "huella": "d786bd293634"
+    },
+    {
+      "id": "xe-0091",
+      "porque": "La regla general de la bici es casco en vías interurbanas y, para los menores de 16 años, en todas las vías. Pero quien circula en bicicleta por su trabajo también debe llevarlo en vías urbanas y travesías, tenga la edad que tenga.",
+      "descartes": {
+        "b": "La de los menores de 16 es una de las obligaciones en ciudad, pero no la única: quien circula en bici por trabajo también debe llevar casco en vías urbanas.",
+        "c": "La norma no pone como condición el pedaleo asistido: lo que obliga aquí es circular en bici por motivos profesionales."
+      },
+      "truco": "Bici: casco en vías interurbanas. En ciudad, solo si tienes menos de 16 años o si circulas en bici por trabajo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.2",
+          "cita": "en las vías interurbanas, siendo obligatorio su uso por los menores de dieciséis años en todo tipo de vías."
+        }
+      ],
+      "huella": "93a39f2d1d90"
+    },
+    {
+      "id": "xe-0092",
+      "porque": "Quien circula por trabajo en moto, ciclomotor, bicicleta o vehículo de movilidad personal debe llevar chaleco reflectante de alta visibilidad en todo tipo de vías, también en ciudad. Es una obligación distinta de la de ponérselo al salir del vehículo en una vía interurbana.",
+      "descartes": {
+        "a": "Ponerse el chaleco al salir del vehículo y ocupar la calzada o el arcén de una vía interurbana es otra obligación, la de los conductores de motocicletas, turismos y otros vehículos. A quien trabaja en ciclomotor se le exige mientras circula, en todo tipo de vías.",
+        "c": "La obligación de quien circula por trabajo no depende de la hora: es en todo tipo de vías, sin distinguir entre el día y la noche."
+      },
+      "truco": "Si conduces por trabajo una moto, un ciclomotor, una bici o un patinete eléctrico, chaleco de alta visibilidad siempre que circules, en cualquier vía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.4",
+          "cita": "Los conductores de motocicletas, turismos, autobuses, automóviles destinados al transporte de mercancías, vehículos mixtos, conjuntos de vehículos no agrícolas"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.4",
+          "cita": "cuando salgan de éste y ocupen la calzada o el arcén de las vías interurbanas."
+        }
+      ],
+      "huella": "ace1bc4534f3"
+    },
+    {
+      "id": "E-pas-0001",
+      "porque": "El chasis y la carrocería son elementos de seguridad pasiva: en un accidente se deforman para que los pasajeros que van dentro sufran menos daños.",
+      "descartes": {
+        "a": "El objetivo no es abaratar la reparación, sino proteger a quienes van dentro.",
+        "c": "Que se deformen en un choque no tiene que ver con el peso ni con el consumo; busca que los ocupantes sufran menos daños."
+      },
+      "truco": null,
+      "huella": "136fddce936f"
+    },
+    {
+      "id": "v5f-pas-0001",
+      "porque": "El chasis es la estructura interna sobre la que se colocan todas las piezas: el esqueleto del vehículo, que no se ve a simple vista. Lo que cubre el vehículo por fuera y sí se ve es la carrocería.",
+      "descartes": {
+        "a": "Esa es la carrocería: la estructura externa de metal que cubre el vehículo. El chasis es la estructura interna.",
+        "c": "Parabrisas, ventanillas y luneta son los cristales del vehículo, no su estructura interna."
+      },
+      "truco": "Chasis, el esqueleto, por dentro; carrocería, la piel de metal, por fuera.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El chasis y la carrocería (p. 106)",
+          "cita": "La carrocería es la estructura externa de metal que cubre el vehículo."
+        }
+      ],
+      "huella": "30c2ad637ddc"
+    },
+    {
+      "id": "xe-0096",
+      "porque": "Según el manual, llevar el cinturón bien puesto da el doble de posibilidades de sobrevivir a un accidente. El cinturón ayuda a que no te muevas del asiento y a que no salgas despedido del vehículo.",
+      "descartes": {
+        "a": "El airbag no sustituye al cinturón: el manual pide usar siempre el cinturón, también para que el impacto contra el airbag sea menor.",
+        "b": "El dato del manual no distingue tipo de vía: llevarlo bien puesto duplica las posibilidades de sobrevivir a un accidente."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El cinturón de seguridad (p. 106)",
+          "cita": "el cinturón ayuda a que las personas no se muevan de sus asientos y a que no salgan despedidas fuera del vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Los airbags (p. 115)",
+          "cita": "Usa siempre el cinturón de seguridad para que el impacto contra el airbag sea menor."
+        }
+      ],
+      "huella": "410af887f2de"
+    },
+    {
+      "id": "xe-0097",
+      "porque": "El efecto submarino es que, en un choque, el cuerpo se desliza hacia abajo por debajo del cinturón. Todo lo que te haga resbalar en el asiento lo favorece; por eso el manual aconseja no poner toallas, cojines o fundas que puedan hacerte resbalar.",
+      "descartes": {
+        "b": "Es al revés: el asiento muy inclinado hacia atrás es una de las causas del efecto submarino.",
+        "c": "La banda abdominal va sobre los huesos de la cadera, siempre por debajo del estómago; por encima puede provocar lesiones graves dentro del cuerpo."
+      },
+      "truco": "Submarino: el cuerpo se hunde por debajo del cinturón. Lo evitan el cinturón bien ajustado, el respaldo sin inclinar mucho y nada en el asiento que te haga resbalar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El efecto submarino (p. 114)",
+          "cita": "Este efecto se produce cuando en un accidente el cuerpo se desliza hacia abajo, por debajo del cinturón. Esto ocurre porque el asiento está inclinado hacia atrás y el cinturón mal colocado."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Cómo se abrocha el cinturón de seguridad? (p. 113)",
+          "cita": "Siempre por debajo del estómago. Si se coloca por encima, puede provocar lesiones graves dentro del cuerpo en caso de accidente."
+        }
+      ],
+      "huella": "7851ff597e54"
+    },
+    {
+      "id": "E-pas-0002",
+      "porque": "La cinta del pecho debe pasar por la clavícula, entre el hombro y el cuello, y bajar por el centro del pecho. Sobre el cuello puede provocar lesiones graves en un accidente, y sobre el hombro puede resbalar y proteger menos.",
+      "descartes": {
+        "a": "Sobre el cuello, la cinta puede provocar lesiones graves en caso de accidente; no está para sujetar la cabeza.",
+        "b": "En el extremo del hombro, la cinta puede resbalar y proteger menos."
+      },
+      "truco": "Ni cuello ni hombro: por la clavícula, justo entre los dos, y bajando por el centro del pecho.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Cómo se abrocha el cinturón de seguridad? (p. 113)",
+          "cita": "Colocar la cinta torácica sobre el cuello o sobre un pecho puede provocar lesiones graves en caso de accidente. Colocarla sobre el hombro puede hacer que el cinturón se resbale y proteja menos."
+        }
+      ],
+      "huella": "38df2ae06524"
+    },
+    {
+      "id": "E-pas-0003",
+      "porque": "La cinta abdominal debe ir sobre los huesos de la cadera, siempre por debajo del estómago. Colocada por encima, puede provocar lesiones graves dentro del cuerpo en caso de accidente.",
+      "descartes": {
+        "a": "Sobre el estómago, la cinta puede provocar lesiones graves dentro del cuerpo en un accidente.",
+        "c": "Por encima del ombligo quedaría sobre el estómago, justo donde puede causar lesiones internas graves; debe ir más abajo, sobre la cadera."
+      },
+      "truco": "Cinta abdominal: sobre el hueso de la cadera, nunca sobre la barriga.",
+      "huella": "7e84b8038e23"
+    },
+    {
+      "id": "C-per-0006",
+      "porque": "Los conductores y pasajeros de vehículos en servicio de urgencia pueden ir sin cinturón, pero solo cuando circulan en poblado; en autopistas, autovías y carreteras convencionales deben llevarlo. De los servicios de urgencia, fuera de poblado solo se libran los pasajeros que atienden al paciente en el habitáculo de una ambulancia asistencial.",
+      "descartes": {
+        "b": "La exención de los servicios de urgencia no vale en cualquier vía: la norma la excluye expresamente en autopistas, autovías y carreteras convencionales.",
+        "c": "Sí hay exención para ellos, aunque limitada a la circulación en poblado."
+      },
+      "truco": "Exenciones del cinturón: maniobra de marcha atrás o de estacionamiento; certificado por razones médicas graves o discapacidad; servicio de urgencia, solo en poblado; y quien atiende al paciente en una ambulancia asistencial, en cualquier vía. Taxistas, repartidores y profesores de autoescuela no figuran.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "119.2",
+          "cita": "los pasajeros de las ambulancias asistenciales, acondicionadas para permitir asistencia técnico-sanitaria en ruta, estarán exentos de la utilización del cinturón de seguridad en todo tipo de vías cuando, en servicio de urgencia, ocupen el habitáculo del paciente para prestar asistencia sanitaria en ruta."
+        }
+      ],
+      "huella": "c14b7ee2df52"
+    },
+    {
+      "id": "C-per-0007",
+      "porque": "La norma permite a los conductores ir sin cinturón mientras hacen la maniobra de marcha atrás o la de estacionamiento, sin limitarlo a un tipo de vía. Terminada la maniobra, vuelve la obligación de llevarlo.",
+      "descartes": {
+        "a": "La exención por la maniobra de marcha atrás no se limita a poblado; lo que solo vale en poblado es la exención de los servicios de urgencia.",
+        "c": "Sí hay excepción: el conductor puede ir sin cinturón mientras hace la maniobra de marcha atrás o la de estacionamiento."
+      },
+      "truco": "Exenciones del cinturón: maniobra de marcha atrás o de estacionamiento; certificado por razones médicas graves o discapacidad; servicio de urgencia, solo en poblado; y quien atiende al paciente en una ambulancia asistencial, en cualquier vía. Taxistas, repartidores y profesores de autoescuela no figuran.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "119.2",
+          "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
+        }
+      ],
+      "huella": "e2143aa9bdd1"
+    },
+    {
+      "id": "C-per-0008",
+      "porque": "El embarazo no está entre las exenciones del cinturón. Solo puede ir sin él quien tenga un certificado de exención por razones médicas graves o una discapacidad, y debe presentarlo si se lo pide un agente. Sin ese certificado, la embarazada debe llevarlo como cualquier ocupante.",
+      "descartes": {
+        "a": "Estar embarazada no exime por sí solo; haría falta un certificado de exención por razones médicas graves.",
+        "b": "En poblado solo se suma la exención de los servicios de urgencia; el embarazo no da exención en ningún tipo de vía."
+      },
+      "truco": "Exenciones del cinturón: maniobra de marcha atrás o de estacionamiento; certificado por razones médicas graves o discapacidad; servicio de urgencia, solo en poblado; y quien atiende al paciente en una ambulancia asistencial, en cualquier vía. Taxistas, repartidores y profesores de autoescuela no figuran.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "119.1.b",
+          "cita": "Este certificado deberá ser presentado cuando lo requiera cualquier agente de la autoridad responsable del tráfico."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "119.2",
+          "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
+        }
+      ],
+      "huella": "e45d37ae29f2"
+    },
+    {
+      "id": "C-per-0009",
+      "porque": "El cinturón es obligatorio para el conductor y los ocupantes en vías urbanas e interurbanas. Las exenciones del Reglamento son la maniobra de marcha atrás o de estacionamiento, el certificado médico o la discapacidad y los servicios de urgencia en poblado: ir de servicio en un taxi no está entre ellas.",
+      "descartes": {
+        "b": "Esa exención no está en el Reglamento vigente, aunque algunos materiales, incluido el manual de la DGT, aún la citen. Lo que conserva el taxi en ciudad es poder llevar detrás a menores de 135 cm sin sistema de retención.",
+        "c": "Llevar o no pasajeros no cambia la obligación del taxista de llevar su cinturón."
+      },
+      "truco": "Exenciones del cinturón: maniobra de marcha atrás o de estacionamiento; certificado por razones médicas graves o discapacidad; servicio de urgencia, solo en poblado; y quien atiende al paciente en una ambulancia asistencial, en cualquier vía. Taxistas, repartidores y profesores de autoescuela no figuran.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "119.1.a",
+          "cita": "a) Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "119.1.b",
+          "cita": "b) Las personas provistas de un certificado de exención por razones médicas graves o discapacitadas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "119.2",
+          "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El cinturón de seguridad (p. 108)",
+          "cita": "Taxistas que están de servicio."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "119.2",
+          "cita": "Cuando los taxis circulen en tráfico urbano o áreas urbanas de grandes ciudades podrán transportar a personas cuya estatura no alcance los 135 centímetros sin utilizar un dispositivo de retención homologado adaptado a su talla y a su peso, siempre que ocupen un asiento trasero."
+        }
+      ],
+      "huella": "16fa73582fc1"
+    },
+    {
+      "id": "v5d-cin-0001",
+      "porque": "El Reglamento obliga a conductor y ocupantes a llevar el cinturón en vías urbanas e interurbanas, y los repartidores no figuran entre las exenciones. Parar a menudo para cargar y descargar no cambia nada: entre una entrega y otra hay que circular con el cinturón abrochado.",
+      "descartes": {
+        "a": "La exención de los repartidores en recorridos cortos no está en el Reglamento vigente, aunque el manual de la DGT aún la recoja.",
+        "c": "Ninguna exención del cinturón depende de circular a menos de 30 km/h."
+      },
+      "truco": "Exenciones del cinturón: maniobra de marcha atrás o de estacionamiento; certificado por razones médicas graves o discapacidad; servicio de urgencia, solo en poblado; y quien atiende al paciente en una ambulancia asistencial, en cualquier vía. Taxistas, repartidores y profesores de autoescuela no figuran.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "119.1.a",
+          "cita": "a) Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "119.1.b",
+          "cita": "b) Las personas provistas de un certificado de exención por razones médicas graves o discapacitadas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "119.2",
+          "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El cinturón de seguridad (p. 108)",
+          "cita": "Repartidores que tienen que bajar de forma continua del vehículo para recoger y entregar pedidos."
+        }
+      ],
+      "huella": "2d4c7cda66df"
+    },
+    {
+      "id": "v5d-cin-0002",
+      "porque": "De las tres personas, solo la que tiene un certificado de exención por razones médicas graves puede ir sin cinturón, y debe enseñarlo si un agente se lo pide. Profesores de autoescuela y taxistas no figuran entre las exenciones del Reglamento vigente.",
+      "descartes": {
+        "b": "La exención de los profesores de autoescuela no está en el Reglamento vigente, aunque el manual de la DGT aún la recoja: deben llevar el cinturón.",
+        "c": "Los taxistas de servicio tampoco están exentos en el Reglamento vigente, aunque el manual de la DGT aún los mencione."
+      },
+      "truco": "Exenciones del cinturón: maniobra de marcha atrás o de estacionamiento; certificado por razones médicas graves o discapacidad; servicio de urgencia, solo en poblado; y quien atiende al paciente en una ambulancia asistencial, en cualquier vía. Taxistas, repartidores y profesores de autoescuela no figuran.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "119.1.b",
+          "cita": "Este certificado deberá ser presentado cuando lo requiera cualquier agente de la autoridad responsable del tráfico."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "119.1.a",
+          "cita": "a) Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "119.2",
+          "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El cinturón de seguridad (p. 109)",
+          "cita": "Profesores de autoescuela que llevan a un alumno y están a cargo de los mandos adicionales del vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El cinturón de seguridad (p. 108)",
+          "cita": "Taxistas que están de servicio."
+        }
+      ],
+      "huella": "19c8ad2cca29"
+    },
+    {
+      "id": "xe-0086",
+      "porque": "El Reglamento reconoce en España los certificados de exención del cinturón por razones médicas graves o discapacidad expedidos por la autoridad competente de otro Estado de la Unión Europea. La condición es que vayan acompañados de su traducción oficial.",
+      "descartes": {
+        "a": "No hace falta un certificado español: vale el de otro Estado de la Unión Europea, con su traducción oficial.",
+        "c": "La norma no pone ningún plazo de seis meses; el certificado vale si va acompañado de su traducción oficial."
+      },
+      "truco": null,
+      "huella": "e2be9e4088b3"
+    },
+    {
+      "id": "xe-0087",
+      "porque": "En general, la exención de los servicios de urgencia solo vale en poblado. Pero hay una excepción para los pasajeros de ambulancias asistenciales: cuando, en servicio de urgencia, van en el habitáculo del paciente para atenderlo en ruta, están exentos en todo tipo de vías, autovías incluidas.",
+      "descartes": {
+        "a": "Fuera de poblado se acaba la exención general de los servicios de urgencia, pero no la de quien atiende al paciente dentro de una ambulancia asistencial.",
+        "b": "La norma no pone ningún límite de velocidad a esta exención; depende de ir atendiendo al paciente en servicio de urgencia."
+      },
+      "truco": "Exenciones del cinturón: maniobra de marcha atrás o de estacionamiento; certificado por razones médicas graves o discapacidad; servicio de urgencia, solo en poblado; y quien atiende al paciente en una ambulancia asistencial, en cualquier vía. Taxistas, repartidores y profesores de autoescuela no figuran.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "119.2",
+          "cita": "La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia."
+        }
+      ],
+      "huella": "5f2319844ca8"
+    },
+    {
+      "id": "xe-0088",
+      "porque": "La regla general es que los menores de 135 cm o menos usen sistema de retención infantil. Pero los taxis que circulan en tráfico urbano o áreas urbanas de grandes ciudades pueden llevarlos sin él, siempre que vayan en un asiento trasero.",
+      "descartes": {
+        "b": "Sí hay un caso permitido: el taxi en tráfico urbano, con el menor en un asiento trasero.",
+        "c": "La excepción del taxi exige que el menor ocupe un asiento trasero; delante no."
+      },
+      "truco": "Taxi en ciudad: el menor de 135 cm puede ir sin sistema de retención, pero siempre en un asiento trasero.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.1",
+          "cita": "En todo caso, los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil"
+        }
+      ],
+      "huella": "c14dda66c042"
+    },
+    {
+      "id": "E-pas-0004",
+      "porque": "La Ley de Tráfico clasifica como grave no usar, o no usar de forma adecuada, el cinturón, los sistemas de retención infantil, el casco y demás elementos de protección obligatorios. Llevarlo flojo con una pinza es usarlo de forma inadecuada, así que cuenta igual que no llevarlo.",
+      "descartes": {
+        "a": "Leves son las infracciones que la Ley no califica expresamente como graves o muy graves, y esta aparece de forma expresa entre las graves.",
+        "b": "No usar el cinturón, o usarlo mal, está tipificado entre las graves, no entre las muy graves."
+      },
+      "truco": "No usar, o usar mal, el cinturón, el casco o el sistema de retención infantil: infracción grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "75.c",
+          "cita": "Incumplir las normas contenidas en esta Ley que no se califiquen expresamente como infracciones graves o muy graves en los artículos siguientes"
+        }
+      ],
+      "huella": "ad089e7bf94f"
+    },
+    {
+      "id": "xe-0078",
+      "porque": "El Reglamento obliga a usar cinturón, casco y demás elementos de protección a los conductores y a los ocupantes de vehículos a motor y ciclomotores. Cada ocupante tiene su propia obligación, no solo quien conduce, con las excepciones que fija el propio Reglamento.",
+      "descartes": {
+        "a": "Los ocupantes también están obligados, no solo el conductor. Y la Ley aclara que el conductor profesional que presta servicio público no responde de que los ocupantes incumplan.",
+        "b": "La obligación no se limita a los asientos delanteros: alcanza a todos los ocupantes."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "13.4",
+          "cita": "Los conductores profesionales, cuando presten servicio público a terceros, no se considerarán responsables del incumplimiento de esta norma por parte de los ocupantes del vehículo."
+        }
+      ],
+      "huella": "b17bb33a978f"
+    },
+    {
+      "id": "xe-0082",
+      "porque": "Conductor y ocupantes deben usar el cinturón, pero la norma aclara que esa obligación no se puede exigir en vehículos que no lo tienen instalado. Ojo con los niños: los menores de edad de 135 cm o menos deben usar en todo caso un sistema de retención infantil.",
+      "descartes": {
+        "b": "La norma no obliga a llevar un cinturón portátil: si el vehículo no tiene cinturones instalados, no se exige.",
+        "c": "El tipo de vía no cambia nada: si el vehículo no tiene cinturones instalados, no se exige en ninguna vía."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.1",
+          "cita": "En todo caso, los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil"
+        }
+      ],
+      "huella": "cd6b04ae0589"
+    },
+    {
+      "id": "xe-0081",
+      "porque": "Cada ocupante está obligado a usar su cinturón. La Ley añade que los conductores profesionales que prestan servicio público a terceros, como el taxista de servicio, no son responsables de que los ocupantes incumplan esa obligación.",
+      "descartes": {
+        "a": "No cuando presta servicio público: en ese caso la Ley dice que el conductor profesional no responde del incumplimiento de los ocupantes.",
+        "b": "La Ley no distingue asientos: el conductor profesional en servicio público no responde de ningún ocupante, vaya delante o detrás."
+      },
+      "truco": null,
+      "huella": "af73983cca88"
+    },
+    {
+      "id": "E-seg-0002",
+      "porque": "El reposacabezas no evita el accidente: protege el cuello y las cervicales cuando ya se ha producido un golpe brusco. Por eso es seguridad pasiva, igual que el cinturón y el airbag.",
+      "descartes": {
+        "a": "No ayuda a evitar el accidente; actúa cuando ya se ha producido, y eso es seguridad pasiva.",
+        "b": "No es un simple elemento de confort: protege el cuello y las cervicales en un golpe brusco."
+      },
+      "truco": "Activa: la usas tú para evitar el accidente (frenos, ruedas, luces). Pasiva: funciona sola para que el accidente haga menos daño (cinturón, airbag, reposacabezas).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El reposacabezas (p. 116)",
+          "cita": "Dispositivo que protege el cuello y las cervicales en caso de un golpe brusco."
+        }
+      ],
+      "huella": "b1dc451f139a"
+    },
+    {
+      "id": "v5f-pas-0002",
+      "porque": "La seguridad pasiva reúne los elementos que reducen los daños de los ocupantes y de otros usuarios cuando el accidente ya se ha producido, y funcionan de forma automática: cinturón, airbag, reposacabezas. Evitar el accidente es el papel de la seguridad activa.",
+      "descartes": {
+        "a": "Esa es la seguridad activa: elementos para evitar el accidente que el conductor tiene que utilizar, como los frenos, las ruedas o las luces.",
+        "b": "El cinturón y el airbag no están para la comodidad: sirven para que el accidente haga menos daño."
+      },
+      "truco": "Activa: la usas tú para evitar el accidente (frenos, ruedas, luces). Pasiva: funciona sola para que el accidente haga menos daño (cinturón, airbag, reposacabezas).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Seguridad pasiva (p. 88)",
+          "cita": "Elementos que ayudan a que los pasajeros y otros usuarios sufran menos daños en un accidente. Funcionan de forma automática. Por ejemplo, cinturón de seguridad, airbag y reposacabezas."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Seguridad activa (p. 88)",
+          "cita": "Elementos del vehículo pensados para evitar accidentes. El conductor tiene que utilizarlos para que funcionen. Por ejemplo, frenos, ruedas y sistema de luces."
+        }
+      ],
+      "huella": "b087f52faf53"
+    },
+    {
+      "id": "D-pos-0001",
+      "porque": "Se llama efecto submarino a que, en un accidente, el cuerpo se deslice hacia abajo y pase por debajo del cinturón. Ocurre cuando el asiento va inclinado hacia atrás y el cinturón está mal colocado.",
+      "descartes": {
+        "a": "No tiene que ver con el airbag; es un movimiento del cuerpo por debajo del cinturón.",
+        "c": "Perder adherencia al pasar sobre agua es un problema de los neumáticos; el efecto submarino es el cuerpo deslizándose por debajo del cinturón."
+      },
+      "truco": "Submarino: el cuerpo se hunde por debajo del cinturón. Lo evitan el cinturón bien ajustado, el respaldo sin inclinar mucho y nada en el asiento que te haga resbalar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El efecto submarino (p. 114)",
+          "cita": "Esto ocurre porque el asiento está inclinado hacia atrás y el cinturón mal colocado."
+        }
+      ],
+      "huella": "bbe3bae9449a"
+    },
+    {
+      "id": "D-pos-0002",
+      "porque": "El efecto submarino aparece cuando el respaldo va muy inclinado hacia atrás y el cinturón está mal colocado: en el choque, el cuerpo resbala hacia abajo por debajo del cinturón. Por eso el manual pide no inclinar mucho el asiento y llevar el cinturón bien ajustado.",
+      "descartes": {
+        "a": "Llevar el reposacabezas a la altura de la cabeza es lo correcto y no favorece el efecto submarino.",
+        "b": "Un respaldo sin inclinar mucho ayuda a evitarlo; lo que lo favorece es inclinarlo mucho hacia atrás."
+      },
+      "truco": "Submarino: el cuerpo se hunde por debajo del cinturón. Lo evitan el cinturón bien ajustado, el respaldo sin inclinar mucho y nada en el asiento que te haga resbalar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El efecto submarino (p. 114)",
+          "cita": "Tener una postura adecuada al conducir, sin inclinar mucho el asiento hacia atrás."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El efecto submarino (p. 114)",
+          "cita": "Comprobar que el cinturón está bien ajustado al cuerpo."
+        }
+      ],
+      "huella": "0ce84e5d9f7b"
+    },
+    {
+      "id": "v2-moto-0002",
+      "porque": "Los elementos de protección de la moto los deben llevar el conductor y el pasajero por igual. Así que, en vía interurbana, el pasajero también debe llevar guantes de protección.",
+      "descartes": {
+        "a": "La norma habla de conductores y pasajeros: la obligación de los guantes alcanza a los dos.",
+        "b": "La cilindrada no cuenta: los guantes se exigen en vías interurbanas en cualquier motocicleta, y también en ciclomotores, vehículos de tres ruedas, cuadriciclos y quads."
+      },
+      "truco": "Moto, ciclomotor y similares: casco y calzado cerrado en todo tipo de vías; guantes, solo en vías interurbanas. Y todo vale igual para el conductor que para el pasajero.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.1.b",
+          "cita": "b) Guantes de protección cuando circulen por vías interurbanas."
+        }
+      ],
+      "huella": "7ba6e109b783"
+    },
+    {
+      "id": "xe-0079",
+      "porque": "No usar el casco obligatorio, igual que no usar el cinturón o el sistema de retención infantil, es una infracción grave. Lo dicen tanto el Reglamento General de Circulación como la Ley de Tráfico.",
+      "descartes": {
+        "b": "No es leve: el Reglamento y la Ley califican expresamente como graves las infracciones sobre el uso del casco.",
+        "c": "No figura entre las muy graves; la Ley la recoge entre las graves."
+      },
+      "truco": "No usar, o usar mal, el cinturón, el casco o el sistema de retención infantil: infracción grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.h",
+          "cita": "h) No hacer uso, o no hacerlo de forma adecuada, del cinturón de seguridad, sistemas de retención infantil, casco y demás elementos de protección obligatorios."
+        }
+      ],
+      "huella": "0046fcd44fc8"
+    },
+    {
+      "id": "E-pas-0010",
+      "porque": "Para que el reposacabezas proteja el cuello en un golpe, la cabeza tiene que estar cerca de él. El manual pide que la distancia entre la cabeza y el reposacabezas sea de cuatro centímetros o menos.",
+      "descartes": {
+        "b": "Entre 10 y 15 centímetros la cabeza quedaría demasiado lejos; el manual pide cuatro centímetros o menos.",
+        "c": "25 centímetros es la distancia mínima entre el pecho y el volante por el airbag, no la del reposacabezas."
+      },
+      "truco": "25 centímetros como mínimo del pecho al volante, por el airbag; 4 centímetros o menos de la cabeza al reposacabezas.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Los airbags (p. 115)",
+          "cita": "Coloca tu pecho a una distancia de al menos 25 centímetros del volante para que el airbag delantero no te golpee cuando se infla."
+        }
+      ],
+      "huella": "a097103cbeff"
+    },
+    {
+      "id": "E-pas-0011",
+      "porque": "La parte de arriba del reposacabezas debe quedar a la misma altura que la parte de arriba de tu cabeza. Así puede proteger el cuello y las cervicales en un golpe brusco.",
+      "descartes": {
+        "a": "A la altura de los hombros quedaría demasiado bajo; su parte de arriba debe llegar a la parte de arriba de la cabeza.",
+        "b": "A la altura de la nuca quedaría demasiado bajo: su parte de arriba debe coincidir con la parte de arriba de la cabeza."
+      },
+      "truco": "Reposacabezas: su borde de arriba, a la altura de lo alto de tu cabeza (no de los ojos), y a cuatro centímetros o menos de ella.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, El reposacabezas (p. 116)",
+          "cita": "Dispositivo que protege el cuello y las cervicales en caso de un golpe brusco."
+        }
+      ],
+      "huella": "7f9954805ce0"
+    },
+    {
+      "id": "E-pas-0012",
+      "porque": "El reposacabezas es un elemento de seguridad pasiva: su función es proteger el cuello y las cervicales en un golpe brusco, por ejemplo cuando te golpean por detrás.",
+      "descartes": {
+        "b": "No está para descansar la cabeza mientras conduces, sino para proteger el cuello en un golpe.",
+        "c": "No es un elemento de postura ni contra la fatiga: protege el cuello y las cervicales en un golpe brusco."
+      },
+      "truco": null,
+      "huella": "d849e8e31601"
+    },
+    {
+      "id": "xe-0102",
+      "porque": "El reposacabezas protege el cuello de cualquier ocupante, no solo del conductor. Por eso el manual insiste en colocarlo a la altura de la cabeza tanto en los asientos de delante como en los de atrás.",
+      "descartes": {
+        "a": "No solo el del conductor: todos los ocupantes necesitan el reposacabezas bien colocado.",
+        "b": "Los de atrás también: el manual pide colocarlo bien tanto en los asientos delanteros como en los traseros."
+      },
+      "truco": null,
+      "huella": "a119da0a61a6"
+    },
+    {
+      "id": "C-per-0002",
+      "porque": "El criterio es la estatura, no la edad: los menores de edad que miden 135 centímetros o menos deben usar un sistema de retención infantil.",
+      "descartes": {
+        "a": "La edad de 12 años no es el criterio; lo que cuenta es medir 135 centímetros o menos.",
+        "b": "No solo los bebés: cualquier menor de edad que mida 135 centímetros o menos debe usarlo."
+      },
+      "truco": "Sistema de retención: manda la altura, no la edad. Menor de edad con 135 cm o menos, sistema de retención.",
+      "huella": "b9d248e9d3ef"
+    },
+    {
+      "id": "C-per-0003",
+      "porque": "Como norma, los menores de 135 cm o menos van detrás. Excepcionalmente pueden ir delante, siempre con su sistema de retención, en tres casos: si no hay asientos traseros, si todos están ya ocupados por menores en su misma situación o si no se pueden instalar detrás todos los sistemas.",
+      "descartes": {
+        "b": "Sí se permite, aunque solo de forma excepcional y en los casos que fija la norma.",
+        "c": "El cinturón de adulto no basta: delante solo puede ir de forma excepcional y siempre con su sistema de retención infantil."
+      },
+      "truco": "Menor de 135 cm o menos: detrás y con su sistema de retención. Delante, solo si no hay asientos traseros, si ya están todos ocupados por menores así o si no caben detrás todos los sistemas; y siempre con el suyo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "1.º Cuando el vehículo no disponga de asientos traseros."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "3.º Cuando no sea posible instalar en dichos asientos todos los sistemas de retención infantil."
+        }
+      ],
+      "huella": "b6aecde3363b"
+    },
+    {
+      "id": "C-per-0004",
+      "porque": "Con airbag frontal, la norma solo permite una silla orientada hacia atrás en el asiento delantero si el airbag se ha desactivado; el manual aconseja incluso no instalar la sillita en un asiento con airbag enfrente. Además, el menor solo puede ir delante en los casos excepcionales que fija la norma.",
+      "descartes": {
+        "a": "Que el sistema esté homologado no basta: con el airbag frontal activo no se puede usar una silla orientada hacia atrás.",
+        "c": "La norma sí lo admite con el airbag desactivado, siempre que se dé alguno de los casos en que el menor puede ir delante."
+      },
+      "truco": "Silla mirando hacia atrás en un asiento delantero con airbag frontal: solo con el airbag desactivado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Cinturones de seguridad para niños (p. 110)",
+          "cita": "No instalar la sillita en un asiento que tenga airbag enfrente."
+        }
+      ],
+      "huella": "caa75bceec03"
+    },
+    {
+      "id": "C-per-0005",
+      "porque": "La regla general es que estos menores viajen detrás. Si el vehículo no tiene asientos traseros, la norma permite que vayan delante, pero siempre con un sistema de retención infantil homologado adaptado a su talla y peso.",
+      "descartes": {
+        "a": "No está prohibido: no tener asientos traseros es justo uno de los casos en que el menor puede ir delante.",
+        "b": "El cinturón no basta: con 110 cm debe usar un sistema de retención infantil, también delante."
+      },
+      "truco": "Menor de 135 cm o menos: detrás y con su sistema de retención. Delante, solo si no hay asientos traseros, si ya están todos ocupados por menores así o si no caben detrás todos los sistemas; y siempre con el suyo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "1.º Cuando el vehículo no disponga de asientos traseros."
+        }
+      ],
+      "huella": "1ae8d81a852a"
+    },
+    {
+      "id": "E-pas-0007",
+      "porque": "En vehículos de hasta nueve plazas, los menores de 135 cm o menos deben ir en los asientos traseros con un sistema de retención adaptado a su talla y peso. El asiento delantero es solo una excepción para casos concretos.",
+      "descartes": {
+        "a": "Delante solo puede ir de forma excepcional: sin asientos traseros, con todos ocupados por menores en su situación o sin sitio para instalar los sistemas. Como norma general, detrás.",
+        "c": "Con 1,20 m el cinturón del vehículo no basta: necesita un sistema de retención infantil adaptado a su talla y peso."
+      },
+      "truco": "Menor de 135 cm o menos: detrás y con su sistema de retención. Delante, solo si no hay asientos traseros, si ya están todos ocupados por menores así o si no caben detrás todos los sistemas; y siempre con el suyo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "En los vehículos de hasta nueve plazas, incluido el conductor"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "1.º Cuando el vehículo no disponga de asientos traseros."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "2.º Cuando todos los asientos traseros estén ya ocupados por los menores a que se refiere el párrafo segundo del apartado 1."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "3.º Cuando no sea posible instalar en dichos asientos todos los sistemas de retención infantil."
+        }
+      ],
+      "huella": "22680d563f6c"
+    },
+    {
+      "id": "E-pas-0008",
+      "porque": "Cuando el menor va excepcionalmente en el asiento delantero y ese asiento tiene airbag frontal, solo puede usar una silla orientada hacia atrás si el airbag ha sido desactivado.",
+      "descartes": {
+        "a": "No siempre: con el airbag frontal activo no se puede usar una silla orientada hacia atrás.",
+        "b": "Sí se puede, con una condición: que el airbag se haya desactivado."
+      },
+      "truco": "Silla mirando hacia atrás en un asiento delantero con airbag frontal: solo con el airbag desactivado.",
+      "huella": "39e1cefb14f3"
+    },
+    {
+      "id": "E-pas-0009",
+      "porque": "Como norma general, estos menores van detrás. Una de las excepciones es que todos los asientos traseros estén ya ocupados por menores que también deben usar sistema de retención; entonces uno puede ir delante, con el suyo.",
+      "descartes": {
+        "a": "La duración o el tipo de trayecto no son una excepción: delante solo en los casos que fija la norma.",
+        "c": "Una autorización de los padres no cambia la norma; las excepciones son tres y ninguna depende de un permiso."
+      },
+      "truco": "Menor de 135 cm o menos: detrás y con su sistema de retención. Delante, solo si no hay asientos traseros, si ya están todos ocupados por menores así o si no caben detrás todos los sistemas; y siempre con el suyo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "1.º Cuando el vehículo no disponga de asientos traseros."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "117.3",
+          "cita": "3.º Cuando no sea posible instalar en dichos asientos todos los sistemas de retención infantil."
+        }
+      ],
+      "huella": "becc2d8d80cc"
+    },
+    {
+      "id": "xe-0083",
+      "porque": "En vehículos de más de nueve plazas, como un autobús, los menores de 135 cm o menos de tres o más años deben usar sistema de retención infantil. Si no lo hay, deben usar el cinturón de seguridad, siempre que sea adecuado a su talla y peso.",
+      "descartes": {
+        "a": "En el autobús no están exentos: deben usar sistema de retención y, si no lo hay, el cinturón.",
+        "c": "Ir en brazos de un adulto no es una alternativa que admita la norma; sin sistema de retención, el cinturón adecuado a su talla y peso."
+      },
+      "truco": "Autobús: sistema de retención si lo hay; si no, el cinturón, siempre que sea adecuado a su talla y peso.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.2",
+          "cita": "En estos vehículos, los ocupantes a que se refiere el párrafo segundo del apartado 1 de tres o más años deberán utilizar sistemas de retención infantil homologados debidamente adaptados a su talla y peso."
+        }
+      ],
+      "huella": "17b575848fa1"
+    },
+    {
+      "id": "xe-0084",
+      "porque": "Tres niños de 120 cm deben ir detrás, cada uno con su sistema de retención. Pero si en los asientos traseros solo caben dos sistemas, la norma permite que el tercero vaya delante, con su sistema adaptado a su talla y peso.",
+      "descartes": {
+        "a": "Con 120 cm no puede ir solo con el cinturón de adulto: necesita su sistema de retención, aunque para eso tenga que ir delante.",
+        "b": "Ir en brazos de un adulto no es una forma válida de viajar: el menor debe usar en todo caso su sistema de retención infantil."
+      },
+      "truco": "Menor de 135 cm o menos: detrás y con su sistema de retención. Delante, solo si no hay asientos traseros, si ya están todos ocupados por menores así o si no caben detrás todos los sistemas; y siempre con el suyo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.1",
+          "cita": "En todo caso, los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil"
+        }
+      ],
+      "huella": "aff950307737"
+    },
+    {
+      "id": "xe-0085",
+      "porque": "Un sistema de retención solo protege si está bien instalado. Por eso la norma exige instalarlo siempre según las instrucciones de su fabricante, que indican de qué forma y en qué vehículos se puede usar con seguridad.",
+      "descartes": {
+        "b": "Que quede firme no basta: debe instalarse siempre según las instrucciones del fabricante.",
+        "c": "No manda el taller: la norma remite a las instrucciones del fabricante del sistema de retención."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "117.4",
+          "cita": "Las instrucciones indicarán de qué forma y en qué tipo de vehículos se pueden utilizar de forma segura."
+        }
+      ],
+      "huella": "87c77566264b"
+    },
+    {
+      "id": "xe-0100",
+      "porque": "El asiento trasero central es el que queda más lejos de los dos laterales del vehículo. Por eso el manual dice que ahí el niño va más protegido si el accidente llega por cualquiera de los dos lados.",
+      "descartes": {
+        "b": "El delantero no es la buena opción: como norma, los niños deben ir detrás, y el manual aconseja no poner la sillita en un asiento con airbag enfrente.",
+        "c": "Es un asiento trasero, pero lateral: el manual prefiere el central porque protege ante un golpe por cualquiera de los dos lados."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Cinturones de seguridad para niños (p. 110)",
+          "cita": "No instalar la sillita en un asiento que tenga airbag enfrente."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Cinturones de seguridad para niños (p. 110)",
+          "cita": "En vehículos de nueve plazas o menos los niños deben viajar en el asiento de atrás"
+        }
+      ],
+      "huella": "1d8084b6fb1d"
+    },
+    {
+      "id": "xe-0101",
+      "porque": "Para los niños pequeños, el manual dice que lo más seguro es colocar la sillita en sentido contrario a la marcha, es decir, mirando hacia atrás.",
+      "descartes": {
+        "a": "Mirando hacia delante no es lo que recomienda el manual para los niños pequeños: lo más seguro es mirando hacia atrás.",
+        "c": "De lado no es una colocación que recoja el manual; recomienda mirando hacia atrás."
+      },
+      "truco": "Niño pequeño, mirando hacia atrás. Y si va delante con airbag frontal, el airbag desactivado.",
+      "huella": "ae3972a43905"
+    },
+    {
+      "id": "E-ada-0010",
+      "porque": "El Start-Stop apaga el motor automáticamente cuando el vehículo se para un momento, por ejemplo en un semáforo o en un atasco. Mientras está parado no gasta combustible ni lanza gases contaminantes.",
+      "descartes": {
+        "b": "No interviene en la frenada: actúa cuando el vehículo ya está parado.",
+        "c": "No da más potencia; su ventaja es no gastar combustible ni contaminar mientras el coche está parado."
+      },
+      "truco": "Start-Stop: apaga el motor en las paradas cortas. Modo Eco: menos potencia y velocidad mientras circulas, y lo enciendes tú.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Función Start-Stop (p. 462)",
+          "cita": "Este sistema se activa y detiene el motor de forma automática cuando el vehículo se para un momento en un semáforo, en un atasco o por otras causas."
+        }
+      ],
+      "huella": "410da265b67e"
+    },
+    {
+      "id": "E-efi-0004",
+      "porque": "Según el manual, la mayor parte del combustible se gasta en luchar contra el aire. La baca aumenta esa resistencia, así que llevarla sin necesidad hace gastar más; es mejor llevar el equipaje en el maletero.",
+      "descartes": {
+        "a": "Sí influye: con la baca, al vehículo le cuesta más vencer el aire y gasta más.",
+        "b": "El manual no dice que la baca mejore nada; la pone como ejemplo de elemento que hace gastar más combustible."
+      },
+      "truco": "Todo lo que hace que el vehículo choque más con el aire (baca, deflectores, ventanillas bajadas, remolque o caravana) aumenta el consumo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, El aire de la calle (p. 455)",
+          "cita": "La mayor parte del combustible que se consume se emplea en luchar contra el aire que no deja avanzar al vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, El aire de la calle (p. 456)",
+          "cita": "Es mejor que el equipaje y otras cargas vayan en el maletero."
+        }
+      ],
+      "huella": "d0cd7e39c069"
+    },
+    {
+      "id": "v5f-efi-0001",
+      "porque": "En conducción eficiente se arranca el motor sin pisar el acelerador y se empieza a circular justo después, a poca velocidad hasta que el motor se caliente.",
+      "descartes": {
+        "b": "Pisar a fondo al arrancar es justo lo contrario de lo que indica el manual: arrancar sin pisar el acelerador.",
+        "c": "Acelerar en vacío gasta combustible sin mover el coche; el manual pide arrancar sin pisar el acelerador."
+      },
+      "truco": "Arranque eficiente: sin tocar el acelerador, sin esperar a que se caliente y sin correr hasta que el motor coja temperatura.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al arrancar y empezar a circular (p. 452)",
+          "cita": "Empezar circulando a poca velocidad y aumentarla cuando el motor se caliente."
+        }
+      ],
+      "huella": "485674d0eb9a"
+    },
+    {
+      "id": "xe-0118",
+      "porque": "La conducción eficiente pide empezar a circular justo después de encender el motor, sin esperar, y hacerlo a poca velocidad hasta que el motor se caliente.",
+      "descartes": {
+        "b": "Dejarlo varios minutos al ralentí no es lo que aconseja el manual: hay que salir enseguida, despacio.",
+        "c": "No hace falta esperar a que el motor esté caliente; se sale enseguida y se aumenta la velocidad cuando se caliente."
+      },
+      "truco": "Arranque eficiente: sin tocar el acelerador, sin esperar a que se caliente y sin correr hasta que el motor coja temperatura.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al arrancar y empezar a circular (p. 452)",
+          "cita": "Empezar circulando a poca velocidad y aumentarla cuando el motor se caliente."
+        }
+      ],
+      "huella": "da445056d892"
+    },
+    {
+      "id": "xe-0119",
+      "porque": "Con el motor frío hay que empezar despacio. Según el manual, circular a mucha velocidad con el motor frío hace que se gaste más combustible y que el motor se desgaste antes.",
+      "descartes": {
+        "a": "Es al revés: con el motor frío y mucha velocidad se gasta más combustible.",
+        "c": "El manual no hace ninguna excepción con los vehículos modernos: se gasta más combustible y el motor se desgasta antes."
+      },
+      "truco": "Arranque eficiente: sin tocar el acelerador, sin esperar a que se caliente y sin correr hasta que el motor coja temperatura.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al arrancar y empezar a circular (p. 452)",
+          "cita": "Empezar circulando a poca velocidad y aumentarla cuando el motor se caliente."
+        }
+      ],
+      "huella": "e5682a649a6c"
+    },
+    {
+      "id": "xe-0116",
+      "porque": "La conducción eficiente busca una velocidad constante, sin frenadas bruscas ni grandes cambios de velocidad. Eso, además de ahorrar combustible, hace que los pasajeros viajen más cómodos.",
+      "descartes": {
+        "a": "Ir en marchas cortas con el motor revolucionado es lo contrario: la conducción eficiente busca las marchas largas, que son las que menos gastan.",
+        "c": "Usar más el aire acondicionado hace gastar más combustible, y la comodidad de la que habla el manual viene de evitar frenadas bruscas y grandes cambios de velocidad."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 453)",
+          "cita": "El vehículo gasta menos combustible en la cuarta y quinta marcha, que es cuando el motor va a más velocidad y tiene menos potencia."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Usar el aire acondicionado (p. 460)",
+          "cita": "Al usar el aire acondicionado en el vehículo se gasta más combustible."
+        }
+      ],
+      "huella": "335b64d8e5a2"
+    },
+    {
+      "id": "E-efi-0002",
+      "porque": "En conducción eficiente se arranca en primera, que tiene mucha potencia pero va a muy poca velocidad, y se pasa a segunda a los pocos segundos. Después se va aumentando la velocidad de forma suave, porque las marchas largas son las que menos gastan.",
+      "descartes": {
+        "b": "Apurar la marcha hasta revoluciones muy altas es lo contrario de la conducción eficiente, que pide acelerar poco a poco y cambiar pronto.",
+        "c": "El manual no habla de metros: se cambia a segunda a los pocos segundos."
+      },
+      "truco": "Primera para arrancar, segunda a los pocos segundos y después subir de marcha con suavidad: cuarta y quinta son las que menos gastan.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 452)",
+          "cita": "Comenzar a circular en la primera marcha. En esta velocidad el motor tiene mucha potencia, pero va a muy poca velocidad."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 453)",
+          "cita": "El vehículo gasta menos combustible en la cuarta y quinta marcha, que es cuando el motor va a más velocidad y tiene menos potencia."
+        }
+      ],
+      "huella": "60802cfc530e"
+    },
+    {
+      "id": "E-efi-0005",
+      "porque": "Cuanto más peso carga un vehículo, más combustible consume. Por eso el manual aconseja llevar solo el equipaje y las cargas necesarios, y repartirlos bien.",
+      "descartes": {
+        "b": "El peso de más no ahorra nada; el manual dice que hace gastar más combustible.",
+        "c": "Sí tiene efecto: más peso, más consumo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Cargar mucho peso (p. 460)",
+          "cita": "Por eso hay que intentar llevar solo la cantidad de equipaje y cargas necesarios."
+        }
+      ],
+      "huella": "4aa0b347e1f0"
+    },
+    {
+      "id": "xe-0129",
+      "porque": "En ciudad se gasta más por los atascos, las paradas y los cambios de velocidad. Por eso el manual aconseja no usar el vehículo en distancias cortas, usar el transporte público, evitar las horas de más tráfico y elegir el camino con menos vehículos, aunque sea más largo.",
+      "descartes": {
+        "a": "Es al revés: el manual aconseja el camino con menos vehículos, aunque sea más largo.",
+        "b": "Es al revés: el manual aconseja evitar las horas de más tráfico. Ir más despacio en un atasco no ahorra, porque el vehículo para más veces y cambia más la velocidad."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Circular dentro de pueblos o ciudades (p. 459)",
+          "cita": "Evitar conducir a las horas de más tráfico."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Circular dentro de pueblos o ciudades (p. 459)",
+          "cita": "Elegir el camino en el que haya menos vehículos, aunque sea el camino más largo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Circular dentro de pueblos o ciudades (p. 459)",
+          "cita": "el vehículo se tiene que parar más veces, hay que cambiar más la velocidad y se fuerza más el motor."
+        }
+      ],
+      "huella": "d73e2234635a"
+    },
+    {
+      "id": "E-efi-0001",
+      "porque": "La conducción eficiente es la forma de conducir en la que se gasta menos combustible, se contamina menos y la conducción es más segura. Además ahorra dinero y hace el viaje más cómodo.",
+      "descartes": {
+        "b": "No busca llegar antes a costa de gastar más; su objetivo es justo gastar menos combustible.",
+        "c": "Llevar el motor a altas revoluciones es lo contrario: se busca la marcha más larga posible."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Conducción eficiente (p. 449)",
+          "cita": "Ahorrar dinero porque se gasta menos en combustible y en el mantenimiento del vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 453)",
+          "cita": "Dentro de la ciudad hay que intentar usar la marcha más larga posible, respetando siempre los límites de velocidad."
+        }
+      ],
+      "huella": "ea2ba8f74f6b"
+    },
+    {
+      "id": "xe-0130",
+      "porque": "Usar el aire acondicionado hace gastar más combustible. Por eso el manual aconseja mantener dentro del vehículo una temperatura de 23 o 24 grados.",
+      "descartes": {
+        "b": "Según el manual, el aire acondicionado hace gastar más combustible; no es algo que solo afecte a la batería.",
+        "c": "El manual no lo limita al motor frío: usar el aire acondicionado hace gastar más combustible."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Usar el aire acondicionado (p. 460)",
+          "cita": "Lo aconsejable es tener una temperatura dentro del vehículo de 23 o 24 grados."
+        }
+      ],
+      "huella": "6d85c1f843d3"
+    },
+    {
+      "id": "xe-0124",
+      "porque": "Para reducir la velocidad de forma eficiente, lo primero es levantar el pie del acelerador y dejar rodar el vehículo; después se usa el freno de forma suave para bajar la velocidad poco a poco.",
+      "descartes": {
+        "b": "Ir en punto muerto no es la técnica del manual; además, bajar las cuestas en punto muerto es una de las medidas de ahorro falsas.",
+        "c": "Frenar con fuerza en el último momento es lo contrario: la conducción eficiente evita las frenadas bruscas."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al reducir la velocidad y parar el vehículo (p. 454)",
+          "cita": "Usar el freno de forma suave para reducir la velocidad poco a poco."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Medidas para ahorrar combustible que son falsas (p. 461)",
+          "cita": "Bajar las cuestas en punto muerto. El vehículo puede perder la estabilidad y habrá que usar demasiado los frenos."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al elegir la velocidad a la que circulas (p. 454)",
+          "cita": "Se debe viajar a una velocidad constante, que no cambie todo el rato y evitando las frenadas y acelerones bruscos."
+        }
+      ],
+      "huella": "c19273722bb8"
+    },
+    {
+      "id": "xe-0131",
+      "porque": "Bajar las cuestas en punto muerto parece ahorrar, pero el manual lo cita entre las medidas de ahorro falsas: el vehículo puede perder la estabilidad y hay que usar demasiado los frenos.",
+      "descartes": {
+        "a": "El manual la considera una medida falsa, porque se puede perder estabilidad y hay que abusar de los frenos.",
+        "c": "Que la cuesta sea corta y recta no la convierte en buena técnica; el manual no hace esa excepción."
+      },
+      "truco": null,
+      "huella": "222213d08d17"
+    },
+    {
+      "id": "xe-0128",
+      "porque": "El ralentí es el funcionamiento del motor sin pisar el acelerador. Si está muy alto, se gasta más combustible; por eso el manual aconseja mantenerlo en su valor correcto.",
+      "descartes": {
+        "a": "Es al revés: un ralentí muy alto hace gastar más combustible.",
+        "c": "Sí influye: un ralentí muy alto hace gastar más."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, No hacer las revisiones al vehículo (p. 458)",
+          "cita": "mantener el ralentí en el valor correcto."
+        }
+      ],
+      "huella": "252add0738f6"
+    },
+    {
+      "id": "v5f-efi-0002",
+      "porque": "Según el manual, el vehículo gasta menos combustible en cuarta y quinta, cuando el motor va a más velocidad y con menos potencia. Por eso se arranca en primera, se pasa pronto a segunda y en ciudad se usa la marcha más larga posible, respetando los límites.",
+      "descartes": {
+        "a": "Primera y segunda son marchas de mucha potencia y poca velocidad: sirven para arrancar, no para ahorrar.",
+        "c": "Tercera es una marcha intermedia; el manual dice que se gasta menos en cuarta y quinta."
+      },
+      "truco": "Primera para arrancar, segunda a los pocos segundos y después subir de marcha con suavidad: cuarta y quinta son las que menos gastan.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 452)",
+          "cita": "Comenzar a circular en la primera marcha. En esta velocidad el motor tiene mucha potencia, pero va a muy poca velocidad."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 453)",
+          "cita": "Dentro de la ciudad hay que intentar usar la marcha más larga posible, respetando siempre los límites de velocidad."
+        }
+      ],
+      "huella": "6100bc15d094"
+    },
+    {
+      "id": "xe-0121",
+      "porque": "Dentro de la ciudad, el manual pide usar la marcha más larga posible, respetando siempre los límites de velocidad, porque las marchas largas son las que menos combustible gastan.",
+      "descartes": {
+        "b": "Las marchas cortas tienen más potencia, pero las que menos gastan son las largas; en conducción eficiente se busca la más larga posible.",
+        "c": "Ir siempre en segunda va contra la conducción eficiente, que pide la marcha más larga posible."
+      },
+      "truco": "Primera para arrancar, segunda a los pocos segundos y después subir de marcha con suavidad: cuarta y quinta son las que menos gastan.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 453)",
+          "cita": "El vehículo gasta menos combustible en la cuarta y quinta marcha, que es cuando el motor va a más velocidad y tiene menos potencia."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 452)",
+          "cita": "Comenzar a circular en la primera marcha. En esta velocidad el motor tiene mucha potencia, pero va a muy poca velocidad."
+        }
+      ],
+      "huella": "1f94315e98b1"
+    },
+    {
+      "id": "v5f-efi-0003",
+      "porque": "Echar un combustible distinto del que marca el fabricante es una de las medidas de ahorro falsas que cita el manual: un combustible inadecuado romperá el motor del vehículo.",
+      "descartes": {
+        "a": "Que sea más barato o que el motor arranque no cambia nada: el combustible inadecuado romperá el motor.",
+        "b": "Mezclarlo con el indicado sigue siendo echar un combustible distinto del que marca el fabricante."
+      },
+      "truco": null,
+      "huella": "895a645ef6ad"
+    },
+    {
+      "id": "E-efi-0006",
+      "porque": "Con menos presión de la recomendada, el neumático se calienta, se deforma y se desgasta antes, y el vehículo gasta más combustible. Además, el vehículo es menos estable y tiene más riesgo de patinar con el suelo mojado.",
+      "descartes": {
+        "a": "Es al revés: con menos presión de la recomendada se gasta más combustible.",
+        "b": "Sí cambia: con el neumático poco inflado se gasta más combustible."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 99)",
+          "cita": "El vehículo es menos estable. El vehículo tiene más riesgo de patinar cuando el suelo está mojado."
+        }
+      ],
+      "huella": "8d36d2685060"
+    },
+    {
+      "id": "E-efi-0003",
+      "porque": "La conducción eficiente aconseja apagar el motor cuando el vehículo vaya a estar parado más de un minuto, por ejemplo en un atasco largo.",
+      "descartes": {
+        "a": "No es cierto que no compense nunca: el manual aconseja apagarlo si vas a estar parado más de un minuto.",
+        "c": "Diez minutos no es la cifra del manual; basta con que vayas a estar parado más de un minuto."
+      },
+      "truco": "Más de un minuto parado, motor apagado.",
+      "huella": "9d498c647f54"
+    },
+    {
+      "id": "xe-0125",
+      "porque": "Según el manual, la mayor parte del combustible se emplea en luchar contra el aire que no deja avanzar al vehículo. Por eso todo lo que aumenta esa resistencia, como la baca o las ventanillas bajadas, hace gastar más.",
+      "descartes": {
+        "a": "El aire acondicionado hace gastar más, pero la mayor parte del combustible se va en vencer la resistencia del aire.",
+        "c": "Según el manual, la mayor parte del combustible no se va en las luces, sino en luchar contra el aire."
+      },
+      "truco": "Todo lo que hace que el vehículo choque más con el aire (baca, deflectores, ventanillas bajadas, remolque o caravana) aumenta el consumo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, El aire de la calle (p. 456)",
+          "cita": "No bajar las ventanillas del vehículo mientras está circulando."
+        }
+      ],
+      "huella": "c38b0d3c5e31"
+    },
+    {
+      "id": "xe-0126",
+      "porque": "La mayor parte del combustible se gasta en luchar contra el aire, y con las ventanillas bajadas al vehículo le cuesta más. Por eso el manual recomienda no bajarlas mientras se circula.",
+      "descartes": {
+        "a": "Llevarlas bajadas es justo lo que el manual desaconseja mientras se circula.",
+        "b": "El manual no hace excepción con la autopista: recomienda no bajarlas mientras se circula."
+      },
+      "truco": "Todo lo que hace que el vehículo choque más con el aire (baca, deflectores, ventanillas bajadas, remolque o caravana) aumenta el consumo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, El aire de la calle (p. 455)",
+          "cita": "La mayor parte del combustible que se consume se emplea en luchar contra el aire que no deja avanzar al vehículo."
+        }
+      ],
+      "huella": "30c2c1391aaf"
+    },
+    {
+      "id": "xe-0127",
+      "porque": "Arrastrar un remolque o caravana aumenta la resistencia del aire y, con ella, el consumo. El manual lo desaconseja, sobre todo si el remolque o la caravana es más ancho o más alto que el vehículo.",
+      "descartes": {
+        "b": "Aunque vaya vacío, sigue ofreciendo resistencia al aire; el manual no hace esa excepción.",
+        "c": "El remolque no corta el aire: si es más ancho o más alto que el vehículo, empeora las cosas."
+      },
+      "truco": "Todo lo que hace que el vehículo choque más con el aire (baca, deflectores, ventanillas bajadas, remolque o caravana) aumenta el consumo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, El aire de la calle (p. 455)",
+          "cita": "La mayor parte del combustible que se consume se emplea en luchar contra el aire que no deja avanzar al vehículo."
+        }
+      ],
+      "huella": "e72676cd7d27"
+    },
+    {
+      "id": "xe-0133",
+      "porque": "El modo Eco pone el motor a menos potencia y velocidad para ahorrar combustible, y se enciende y se apaga manualmente. No hay que confundirlo con el Start-Stop, que es el que apaga el motor en las paradas.",
+      "descartes": {
+        "b": "Apagar el motor en los semáforos es lo que hace el Start-Stop, no el modo Eco.",
+        "c": "Cargar la batería al frenar es lo que hace el frenado regenerativo que pueden incluir los vehículos eléctricos, no el modo Eco."
+      },
+      "truco": "Start-Stop: apaga el motor en las paradas cortas. Modo Eco: menos potencia y velocidad mientras circulas, y lo enciendes tú.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Modo Eco (p. 462)",
+          "cita": "El modo Eco se enciende y se apaga de forma manual en cada vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Función Start-Stop (p. 462)",
+          "cita": "Este sistema se activa y detiene el motor de forma automática cuando el vehículo se para un momento en un semáforo, en un atasco o por otras causas."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.A, vehículo eléctrico de baterías (BEV)",
+          "cita": "No se excluye la posibilidad de incluir, además, un sistema de frenado regenerativo que cargue las baterías durante las retenciones y frenadas."
+        }
+      ],
+      "huella": "4867cd3bd755"
+    },
+    {
+      "id": "xe-0122",
+      "porque": "Según el manual, a partir de 80 o 90 km/h el vehículo consume mucho más combustible y contamina más.",
+      "descartes": {
+        "a": "A 50 km/h todavía no se da ese gran aumento; el manual lo sitúa a partir de 80 o 90 km/h.",
+        "c": "El manual sitúa el gran aumento bastante antes, a partir de 80 o 90 km/h."
+      },
+      "truco": null,
+      "huella": "6b84ef31d3fb"
+    },
+    {
+      "id": "xe-0123",
+      "porque": "Cambiar muchas veces de velocidad hace consumir más combustible y cansa más al conductor. Por eso la conducción eficiente pide una velocidad constante, sin frenadas ni acelerones bruscos.",
+      "descartes": {
+        "a": "Acelerar fuerte es lo contrario de acelerar poco a poco, y el manual cita bajar las cuestas en punto muerto como una medida de ahorro falsa.",
+        "b": "El manual dice lo contrario: cambiar muchas veces la velocidad hace consumir más y cansa más al conductor."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al elegir la velocidad a la que circulas (p. 454)",
+          "cita": "Cambiar muchas veces la velocidad también hace que se consuma más combustible. Además, provoca que el conductor se canse más."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Al acelerar y cambiar la velocidad (p. 452)",
+          "cita": "Acelerar poco a poco pisando el pedal de forma suave."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Medidas para ahorrar combustible que son falsas (p. 461)",
+          "cita": "Bajar las cuestas en punto muerto. El vehículo puede perder la estabilidad y habrá que usar demasiado los frenos."
+        }
+      ],
+      "huella": "d0b34d7b6744"
+    },
+    {
+      "id": "E-amb-0005",
+      "porque": "En turismos, el distintivo depende del combustible y de la norma Euro. En gasolina, Euro 4, 5 o 6 da el distintivo C, y Euro 3 da el distintivo B. Por eso un gasolina Euro 4 es C.",
+      "descartes": {
+        "a": "El distintivo B es para gasolina Euro 3 (o diésel Euro 4 o 5); un gasolina Euro 4 ya llega al distintivo C.",
+        "c": "Sin distintivo se quedan solo los de categoría A, los que no llegan a B; un gasolina Euro 4 llega a C."
+      },
+      "truco": "Turismos de gasolina: Euro 3 es B; Euro 4, 5 o 6, C. Turismos diésel: Euro 4 o 5 es B; Euro 6, C. Lo que no llega a B es categoría A, sin distintivo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.d",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.e",
+          "cita": "Todo vehículo a motor que por su clasificación en el Registro de Vehículos no cumple las condiciones o requisitos para la obtención de la clasificación 0 emisiones, ECO, C o B."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.1",
+          "cita": "No se crea distintivo para la categoría A."
+        }
+      ],
+      "huella": "243dc7671bea"
+    },
+    {
+      "id": "E-amb-0006",
+      "porque": "En turismos diésel, el distintivo C exige Euro 6. Los diésel Euro 4 o 5 se quedan en el distintivo B. Por eso un diésel Euro 5 es B.",
+      "descartes": {
+        "a": "El distintivo C exige en diésel Euro 6; un Euro 5 se queda en B.",
+        "b": "ECO es para híbridos y vehículos de gas que cumplan los criterios de la clasificación C, no para un diésel convencional."
+      },
+      "truco": "Turismos de gasolina: Euro 3 es B; Euro 4, 5 o 6, C. Turismos diésel: Euro 4 o 5 es B; Euro 6, C. Lo que no llega a B es categoría A, sin distintivo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.c",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.b",
+          "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC), vehículos híbridos no enchufables (HEV), vehículos propulsados por gas natural, vehículos propulsados por gas natural comprimido (GNC), o gas licuado del petróleo (GLP). En todo caso, deberán cumplir los criterios de la clasificación C."
+        }
+      ],
+      "huella": "ad35ef264e52"
+    },
+    {
+      "id": "v5f-amb-0001",
+      "porque": "Lo que no cumple los requisitos de 0 emisiones, ECO, C ni B queda en la categoría A. Para esa categoría no se crea distintivo: los distintivos son solo cuatro.",
+      "descartes": {
+        "a": "El distintivo B no es el de los vehículos que más contaminan: por debajo está la categoría A, la de quienes no cumplen ni los requisitos del distintivo B.",
+        "c": "No existe distintivo A: la norma dice expresamente que no se crea distintivo para esa categoría."
+      },
+      "truco": "Distintivos solo hay cuatro: 0 emisiones, ECO, C y B. La categoría A existe, pero no tiene distintivo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.e",
+          "cita": "Todo vehículo a motor que por su clasificación en el Registro de Vehículos no cumple las condiciones o requisitos para la obtención de la clasificación 0 emisiones, ECO, C o B."
+        }
+      ],
+      "huella": "75b331c71220"
+    },
+    {
+      "id": "E-amb-0003",
+      "porque": "Son 0 emisiones los eléctricos de batería, los de autonomía extendida, los de hidrógeno, los de pila de combustible y los híbridos enchufables con al menos 40 km de autonomía (ciclo NEDC).",
+      "descartes": {
+        "b": "En turismos, ECO es para los enchufables con menos de 40 km de autonomía, los híbridos no enchufables y los de gas, no para un enchufable de 40 km o un eléctrico.",
+        "c": "En turismos, el distintivo C es para gasolina y diésel según su norma Euro, no para eléctricos ni enchufables."
+      },
+      "truco": "Turismo enchufable: 40 km de autonomía o más, 0 emisiones; menos de 40 km, ECO. Híbrido no enchufable o de gas (GNC, GLP): ECO, si cumple los criterios de la clasificación C.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.b",
+          "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC), vehículos híbridos no enchufables (HEV), vehículos propulsados por gas natural, vehículos propulsados por gas natural comprimido (GNC), o gas licuado del petróleo (GLP). En todo caso, deberán cumplir los criterios de la clasificación C."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.c",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI."
+        }
+      ],
+      "huella": "c5487084fcd3"
+    },
+    {
+      "id": "E-amb-0002",
+      "porque": "La clasificación ambiental mide el potencial contaminante del vehículo: se basa en su nivel de emisiones y en el combustible que usa. Por eso dos turismos con la misma norma Euro pueden tener distintivos distintos si uno es de gasolina y otro diésel.",
+      "descartes": {
+        "a": "La antigüedad no es el criterio: cuentan la norma de emisiones y el combustible, no el año.",
+        "b": "Potencia y cilindrada no intervienen; lo que cuenta es el nivel de emisiones y el combustible."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.c",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.d",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V."
+        }
+      ],
+      "huella": "b6d50173ae71"
+    },
+    {
+      "id": "xe-0141",
+      "porque": "En turismos diésel, el distintivo C exige Euro 6. Un diésel Euro 6 lo cumple, igual que los de gasolina Euro 4, 5 o 6.",
+      "descartes": {
+        "a": "El distintivo B es para los diésel Euro 4 o 5; un Euro 6 ya llega al C.",
+        "b": "ECO es para híbridos y vehículos de gas que cumplan los criterios de la clasificación C, no para un diésel convencional."
+      },
+      "truco": "Turismos de gasolina: Euro 3 es B; Euro 4, 5 o 6, C. Turismos diésel: Euro 4 o 5 es B; Euro 6, C. Lo que no llega a B es categoría A, sin distintivo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.d",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.b",
+          "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC), vehículos híbridos no enchufables (HEV), vehículos propulsados por gas natural, vehículos propulsados por gas natural comprimido (GNC), o gas licuado del petróleo (GLP). En todo caso, deberán cumplir los criterios de la clasificación C."
+        }
+      ],
+      "huella": "2745a3788adb"
+    },
+    {
+      "id": "xe-0142",
+      "porque": "En turismos de gasolina, Euro 3 es el escalón del distintivo B; desde Euro 4 ya es C. Un gasolina Euro 3 es B.",
+      "descartes": {
+        "b": "El distintivo C exige en gasolina Euro 4, 5 o 6; un Euro 3 se queda en B.",
+        "c": "Sin distintivo se quedan los de categoría A, los que no llegan a B; un gasolina Euro 3 sí llega."
+      },
+      "truco": "Turismos de gasolina: Euro 3 es B; Euro 4, 5 o 6, C. Turismos diésel: Euro 4 o 5 es B; Euro 6, C. Lo que no llega a B es categoría A, sin distintivo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.c",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.e",
+          "cita": "Todo vehículo a motor que por su clasificación en el Registro de Vehículos no cumple las condiciones o requisitos para la obtención de la clasificación 0 emisiones, ECO, C o B."
+        }
+      ],
+      "huella": "f30d1c5c8351"
+    },
+    {
+      "id": "xe-0143",
+      "porque": "En turismos diésel, el distintivo B empieza en Euro 4. Un diésel Euro 3 no cumple los requisitos de 0 emisiones, ECO, C ni B, así que queda en la categoría A, para la que no se crea distintivo.",
+      "descartes": {
+        "a": "El distintivo B, de fondo amarillo, exige en diésel al menos Euro 4; con Euro 3 solo llega al B un turismo de gasolina.",
+        "c": "El distintivo C, de fondo verde, solo lo obtienen los turismos diésel Euro 6."
+      },
+      "truco": "Turismos de gasolina: Euro 3 es B; Euro 4, 5 o 6, C. Turismos diésel: Euro 4 o 5 es B; Euro 6, C. Lo que no llega a B es categoría A, sin distintivo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.d",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.c",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.1",
+          "cita": "No se crea distintivo para la categoría A."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.d",
+          "cita": "Se utilizará por los vehículos clasificados como “B”. Se identifica con el siguiente adhesivo, que tiene fondo de color amarillo"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.c",
+          "cita": "Se utilizará por los vehículos clasificados como “C”. Se identifica con el siguiente adhesivo, que tiene fondo de color verde"
+        }
+      ],
+      "huella": "36850b3c5e0b"
+    },
+    {
+      "id": "xe-0144",
+      "porque": "En turismos, el híbrido enchufable se clasifica por su autonomía eléctrica (ciclo NEDC): con 40 km o más es 0 emisiones; con menos de 40 km es ECO. Con 30 km, le corresponde ECO.",
+      "descartes": {
+        "a": "El distintivo 0 emisiones exige al híbrido enchufable al menos 40 km de autonomía; con 30 se queda en ECO.",
+        "b": "En turismos, el distintivo C es para gasolina y diésel según su norma Euro; un híbrido enchufable con menos de 40 km es ECO."
+      },
+      "truco": "Turismo enchufable: 40 km de autonomía o más, 0 emisiones; menos de 40 km, ECO. Híbrido no enchufable o de gas (GNC, GLP): ECO, si cumple los criterios de la clasificación C.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.a",
+          "cita": "vehículos eléctricos de batería (BEV), vehículo eléctrico de autonomía extendida (REEV), vehículo de hidrógeno (HICEV), vehículo eléctrico híbrido enchufable (PHEV) con una autonomía mínima de 40 kilómetros (ciclo NEDC) o vehículos de pila de combustible."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.c",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI."
+        }
+      ],
+      "huella": "a425674fbc2b"
+    },
+    {
+      "id": "xe-0146",
+      "porque": "Las motos (vehículos de categoría L) tienen su propia escala, distinta de la de los turismos: Euro 3 y Euro 4 dan el distintivo C, y Euro 2 el B. Por eso una moto Euro 3 es C, aunque un turismo de gasolina Euro 3 sería B.",
+      "descartes": {
+        "a": "En motos, el distintivo B es para Euro 2. Es un turismo de gasolina Euro 3 el que sería B, de ahí la confusión.",
+        "c": "En motos, ECO es para los híbridos enchufables con menos de 40 km de autonomía y los híbridos no enchufables, no para una moto Euro 3."
+      },
+      "truco": "Motos: Euro 3 o 4, C; Euro 2, B. Es una escala propia: no la mezcles con la de los turismos.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.d",
+          "cita": "Vehículos L clasificados en el Registro de Vehículos como Euro 2."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.b",
+          "cita": "Vehículos L clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC) y vehículos híbridos no enchufables (HEV)."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.d",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V."
+        }
+      ],
+      "huella": "168cc6174254"
+    },
+    {
+      "id": "xe-0147",
+      "porque": "El vehículo de hidrógeno (HICEV), aunque su motor sea de combustión, está entre los que la norma clasifica como 0 emisiones, junto con los eléctricos de batería, los de autonomía extendida, los de pila de combustible y los enchufables con al menos 40 km de autonomía.",
+      "descartes": {
+        "a": "En turismos, ECO es para híbridos (enchufables de menos de 40 km y no enchufables) y vehículos de gas natural o GLP, no para los de hidrógeno.",
+        "b": "En turismos, el distintivo C es para gasolina y diésel según su norma Euro, no para los de hidrógeno."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.A, vehículo de hidrógeno (HICEV)",
+          "cita": "Vehículo propulsado por motor(es) de combustión de hidrógeno."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.a",
+          "cita": "vehículos eléctricos de batería (BEV), vehículo eléctrico de autonomía extendida (REEV), vehículo de hidrógeno (HICEV), vehículo eléctrico híbrido enchufable (PHEV) con una autonomía mínima de 40 kilómetros (ciclo NEDC) o vehículos de pila de combustible."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.b",
+          "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC), vehículos híbridos no enchufables (HEV), vehículos propulsados por gas natural, vehículos propulsados por gas natural comprimido (GNC), o gas licuado del petróleo (GLP). En todo caso, deberán cumplir los criterios de la clasificación C."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.c",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 4/IV, 5/V o 6/VI o diésel Euro 6/VI."
+        }
+      ],
+      "huella": "9cb2d9ce22f6"
+    },
+    {
+      "id": "E-amb-0007",
+      "porque": "Si el vehículo tiene parabrisas delantero, el distintivo ambiental va pegado en el ángulo inferior derecho, por la cara interior. Si no tiene parabrisas, se coloca en un sitio bien visible.",
+      "descartes": {
+        "b": "El ángulo superior izquierdo es el sitio preferente del distintivo de uso compartido, no del ambiental. Y los dos van por dentro, no por fuera.",
+        "c": "La norma lo coloca en el parabrisas delantero, no en la luneta trasera."
+      },
+      "truco": "Los dos van por dentro del parabrisas, en esquinas opuestas: el ambiental, abajo a la derecha; el de uso compartido, preferentemente arriba a la izquierda.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-26.3",
+          "cita": "Si el vehículo dispone de parabrisas delantero, el distintivo irá colocado preferentemente en el ángulo superior izquierdo del mismo, por su cara interior."
+        }
+      ],
+      "huella": "f4da2d36159d"
+    },
+    {
+      "id": "xe-0148",
+      "porque": "Cada distintivo ambiental tiene su color de fondo: 0 emisiones, azul; ECO, verde y azul; C, verde; y B, amarillo.",
+      "descartes": {
+        "b": "El fondo verde es el del distintivo C.",
+        "c": "El fondo azul es el del distintivo 0 emisiones."
+      },
+      "truco": "Colores: 0 emisiones, azul; C, verde; ECO mezcla los dos, verde y azul; B, amarillo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.a",
+          "cita": "Se utilizará por los vehículos clasificados como “0 emisiones”. Se identifica con el siguiente adhesivo, que tiene fondo de color azul"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.b",
+          "cita": "Se utilizará por los vehículos clasificados como “ECO”. Se identifica con el siguiente adhesivo, que tiene fondo de color verde y azul"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.c",
+          "cita": "Se utilizará por los vehículos clasificados como “C”. Se identifica con el siguiente adhesivo, que tiene fondo de color verde"
+        }
+      ],
+      "huella": "bed3de34dc94"
+    },
+    {
+      "id": "xe-0149",
+      "porque": "El distintivo ECO combina los colores de sus dos vecinos: tiene fondo verde y azul. El 0 emisiones es azul, el C verde y el B amarillo.",
+      "descartes": {
+        "a": "El distintivo C tiene fondo solo verde.",
+        "c": "El distintivo 0 emisiones tiene fondo solo azul."
+      },
+      "truco": "Colores: 0 emisiones, azul; C, verde; ECO mezcla los dos, verde y azul; B, amarillo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.a",
+          "cita": "Se utilizará por los vehículos clasificados como “0 emisiones”. Se identifica con el siguiente adhesivo, que tiene fondo de color azul"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.c",
+          "cita": "Se utilizará por los vehículos clasificados como “C”. Se identifica con el siguiente adhesivo, que tiene fondo de color verde"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.d",
+          "cita": "Se utilizará por los vehículos clasificados como “B”. Se identifica con el siguiente adhesivo, que tiene fondo de color amarillo"
+        }
+      ],
+      "huella": "d1dfd682e043"
+    },
+    {
+      "id": "xe-0150",
+      "porque": "Si el vehículo no tiene parabrisas, como una moto, el distintivo ambiental se coloca en un sitio bien visible; en ese caso, la cara autoadhesiva es la que no lleva nada impreso.",
+      "descartes": {
+        "a": "Debajo del asiento no se vería; la norma pide un sitio bien visible.",
+        "b": "El distintivo identifica la clasificación del vehículo, así que va en el vehículo, en un sitio bien visible, no en el casco."
+      },
+      "truco": null,
+      "huella": "d7feedacbdf0"
+    },
+    {
+      "id": "E-amb-0004",
+      "porque": "En turismos, los híbridos no enchufables (HEV) tienen el distintivo ECO, igual que los enchufables con menos de 40 km de autonomía y los de gas, siempre que cumplan los criterios de la clasificación C.",
+      "descartes": {
+        "a": "0 emisiones es para eléctricos de batería, de autonomía extendida, de hidrógeno, de pila de combustible y enchufables con 40 km o más; un híbrido no enchufable no está entre ellos.",
+        "c": "El distintivo B es para turismos de gasolina Euro 3 o diésel Euro 4 o 5; un híbrido no enchufable tiene ECO."
+      },
+      "truco": "Turismo enchufable: 40 km de autonomía o más, 0 emisiones; menos de 40 km, ECO. Híbrido no enchufable o de gas (GNC, GLP): ECO, si cumple los criterios de la clasificación C.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.a",
+          "cita": "vehículos eléctricos de batería (BEV), vehículo eléctrico de autonomía extendida (REEV), vehículo de hidrógeno (HICEV), vehículo eléctrico híbrido enchufable (PHEV) con una autonomía mínima de 40 kilómetros (ciclo NEDC) o vehículos de pila de combustible."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.d",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V."
+        }
+      ],
+      "huella": "45a9faa4f022"
+    },
+    {
+      "id": "v5f-amb-0002",
+      "porque": "Los turismos de gas licuado del petróleo (GLP) o de gas natural obtienen el distintivo ECO, siempre que cumplan también los criterios de la clasificación C.",
+      "descartes": {
+        "b": "0 emisiones es para eléctricos de batería, de autonomía extendida, de hidrógeno, de pila de combustible y enchufables con 40 km o más; el GLP no está en esa lista.",
+        "c": "El distintivo B es para turismos de gasolina Euro 3 o diésel Euro 4 o 5; un turismo de GLP que cumple los criterios de la clasificación C es ECO."
+      },
+      "truco": "Turismo enchufable: 40 km de autonomía o más, 0 emisiones; menos de 40 km, ECO. Híbrido no enchufable o de gas (GNC, GLP): ECO, si cumple los criterios de la clasificación C.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.a",
+          "cita": "vehículos eléctricos de batería (BEV), vehículo eléctrico de autonomía extendida (REEV), vehículo de hidrógeno (HICEV), vehículo eléctrico híbrido enchufable (PHEV) con una autonomía mínima de 40 kilómetros (ciclo NEDC) o vehículos de pila de combustible."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.d",
+          "cita": "Vehículos M1 y N1 clasificados en el Registro de Vehículos como gasolina Euro 3/III o diésel Euro 4/IV o 5/V."
+        }
+      ],
+      "huella": "661d3a17d740"
+    },
+    {
+      "id": "E-amb-0001",
+      "porque": "Los distintivos son cuatro: 0 emisiones, ECO, C y B. Existe además la categoría A, para los vehículos que no cumplen los requisitos de ninguna de las otras, pero para ella no se crea distintivo.",
+      "descartes": {
+        "a": "No hay distintivo A ni D: los distintivos son 0 emisiones, ECO, C y B.",
+        "c": "La A es una categoría sin distintivo, y en esa lista falta el distintivo C."
+      },
+      "truco": "Distintivos solo hay cuatro: 0 emisiones, ECO, C y B. La categoría A existe, pero no tiene distintivo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.e",
+          "cita": "Todo vehículo a motor que por su clasificación en el Registro de Vehículos no cumple las condiciones o requisitos para la obtención de la clasificación 0 emisiones, ECO, C o B."
+        }
+      ],
+      "huella": "dc1c3efa4e28"
+    },
+    {
+      "id": "E-amb-0008",
+      "porque": "El distintivo de uso compartido (V-26) va preferentemente en el ángulo superior izquierdo del parabrisas, por su cara interior. Es la esquina opuesta a la del distintivo ambiental, que va en el ángulo inferior derecho.",
+      "descartes": {
+        "a": "El ángulo inferior derecho es el sitio del distintivo ambiental, no del de uso compartido.",
+        "c": "Si el vehículo tiene parabrisas, el distintivo va en el parabrisas; solo sin parabrisas se coloca en otro sitio bien visible."
+      },
+      "truco": "Los dos van por dentro del parabrisas, en esquinas opuestas: el ambiental, abajo a la derecha; el de uso compartido, preferentemente arriba a la izquierda.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.3",
+          "cita": "Si el vehículo dispone de parabrisas delantero, el distintivo irá colocado en el ángulo inferior derecho del mismo, por su cara interior."
+        }
+      ],
+      "huella": "e6ef06c5966e"
+    },
+    {
+      "id": "E-amb-0009",
+      "porque": "Es el distintivo V-26, de uso compartido: un círculo azul con un turismo y varias personas. Identifica que el vehículo está clasificado en el Registro de Vehículos como de uso compartido, es decir, de alquiler sin conductor para uso intensivo por un número indeterminado de usuarios.",
+      "descartes": {
+        "b": "El distintivo 0 emisiones también tiene fondo azul, pero es un distintivo ambiental; este, con el turismo y las personas, es el de uso compartido.",
+        "c": "La norma no da al V-26 ningún derecho sobre el carril VAO: solo identifica la clasificación del vehículo como de uso compartido."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.A, vehículo de uso compartido",
+          "cita": "Vehículo destinado al alquiler sin conductor dedicado a su uso concatenado e intensivo por un número indeterminado de usuarios dentro de una zona de servicio delimitada."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-25.5.a",
+          "cita": "Se utilizará por los vehículos clasificados como “0 emisiones”. Se identifica con el siguiente adhesivo, que tiene fondo de color azul"
+        }
+      ],
+      "huella": "190a1f83cd0a"
+    },
+    {
+      "id": "x1b-0058",
+      "porque": "La Ley de Tráfico califica como grave no respetar las restricciones de circulación de las zonas de bajas emisiones y las de los protocolos ante episodios de contaminación.",
+      "descartes": {
+        "a": "Leves son las infracciones que la Ley no califica expresamente como graves o muy graves, y esta aparece de forma expresa entre las graves.",
+        "c": "No figura entre las muy graves; la Ley la sitúa entre las graves."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "75.c",
+          "cita": "Incumplir las normas contenidas en esta Ley que no se califiquen expresamente como infracciones graves o muy graves en los artículos siguientes"
+        }
+      ],
+      "huella": "f709f236dcc5"
+    },
+    {
+      "id": "x1b-0112",
+      "porque": "Arrojar a la vía o sus inmediaciones objetos que puedan producir incendios o accidentes es infracción muy grave. Una colilla encendida puede provocar un incendio, así que entra de lleno en ese caso.",
+      "descartes": {
+        "a": "No es leve: la Ley la recoge expresamente entre las muy graves.",
+        "c": "Es grave arrojar objetos que puedan obstaculizar la circulación; si el objeto puede producir un incendio o un accidente, como una colilla encendida, es muy grave."
+      },
+      "truco": "Objeto que estorba: grave. Objeto que puede provocar un incendio o un accidente: muy grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.n",
+          "cita": "n) Arrojar a la vía o en sus inmediaciones objetos que puedan obstaculizar la libre circulación."
+        }
+      ],
+      "huella": "376ce9a16717"
+    },
+    {
+      "id": "xe-0134",
+      "porque": "Entre las medidas para contaminar menos, el manual indica no lavar el vehículo en la carretera, sino en los lugares preparados para hacerlo.",
+      "descartes": {
+        "a": "El arcén sigue siendo parte de la carretera: es justo donde el manual dice que no se lave.",
+        "c": "Usar poco jabón no cambia nada: el manual dice que se lave en los lugares preparados para ello."
+      },
+      "truco": null,
+      "huella": "f0d751aca130"
+    },
+    {
+      "id": "xe-0135",
+      "porque": "Si arrancas empujando el vehículo, el combustible que no se ha quemado puede llegar al catalizador y destruirlo. El catalizador es el dispositivo del tubo de escape que reduce la contaminación de los gases.",
+      "descartes": {
+        "a": "El manual no da ese motivo; el problema es que el combustible sin quemar puede llegar al catalizador.",
+        "b": "El motivo que da el manual no son las bujías, sino el catalizador."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, La contaminación (p. 451)",
+          "cita": "El catalizador se encarga de reducir la contaminación que producen los gases que salen por el tubo de escape."
+        }
+      ],
+      "huella": "975fd98a72d5"
+    },
+    {
+      "id": "xe-0136",
+      "porque": "El aceite del motor es muy contaminante, así que hay que evitar que caiga al suelo. Si se derrama al rellenar, hay que recogerlo.",
+      "descartes": {
+        "b": "Dejarlo ahí no vale: el manual dice que es muy contaminante y que hay que recogerlo.",
+        "c": "Echarle agua no lo elimina; lo que pide el manual es recogerlo."
+      },
+      "truco": null,
+      "huella": "bc6753e739f8"
+    },
+    {
+      "id": "xe-0137",
+      "porque": "Los vehículos no pueden circular si superan los límites de ruido, gases, humos o perturbaciones electromagnéticas. Para comprobarlo, todos los conductores están obligados a colaborar en las pruebas de detección.",
+      "descartes": {
+        "a": "Estas pruebas no se limitan a la ITV: el Reglamento obliga a todo conductor a colaborar en ellas.",
+        "c": "La obligación es de todos los conductores, sea cual sea el combustible del vehículo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "7.1",
+          "cita": "Los vehículos no podrán circular por las vías o terrenos objeto de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial si emiten perturbaciones electromagnéticas, con niveles de emisión de ruido superiores a los límites establecidos"
+        }
+      ],
+      "huella": "253a753db8ec"
+    },
+    {
+      "id": "xe-0138",
+      "porque": "Si un vehículo supera los niveles permitidos de gases, humos y ruidos para su tipo, los agentes de la autoridad pueden inmovilizarlo.",
+      "descartes": {
+        "a": "Los agentes no tienen que esperar a la ITV: pueden inmovilizar el vehículo.",
+        "b": "Sí es un asunto de tráfico: el Reglamento General de Circulación prohíbe circular superando esos límites y permite a los agentes inmovilizar el vehículo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "7.1",
+          "cita": "tampoco podrán emitir gases o humos en valores superiores a los límites establecidos"
+        }
+      ],
+      "huella": "2e1b190235f0"
+    },
+    {
+      "id": "v2-par-0002",
+      "porque": "Una autocaravana estacionada en la vía pública debe estarlo sin verter fluidos procedentes del habitáculo, sin extender elementos que desborden su perímetro y apoyada solo sobre sus neumáticos. Las aguas sucias se vacían en puntos preparados, como los que indica la señal S-128.",
+      "descartes": {
+        "a": "Un sumidero de la calle sigue estando en la vía pública: allí no se pueden verter fluidos del habitáculo.",
+        "b": "La norma no distingue entre vías urbanas e interurbanas: no se pueden verter fluidos del habitáculo en ninguna."
+      },
+      "truco": "Autocaravana estacionada: nada que sobresalga, apoyada solo en sus ruedas (con calzos si hace falta) y nada que salga de dentro.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "92.4.a",
+          "cita": "a) Sin extender elementos propios que desborden el perímetro del vehículo, considerando como tal la proyección en planta del mismo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "92.4.b",
+          "cita": "b) Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-128",
+          "cita": "Indica la situación de un punto de vaciado de aguas residuales para caravanas y autocaravanas."
+        }
+      ],
+      "huella": "e1090204a6ef"
+    },
+    {
+      "id": "x1b-0018",
+      "porque": "Los Ayuntamientos pueden cobrar el estacionamiento en función de las dimensiones del vehículo y de su clasificación ambiental. Así pueden fijar tarifas distintas para un vehículo grande y uno pequeño, o según su distintivo ambiental.",
+      "descartes": {
+        "b": "La antigüedad del permiso no es un criterio de la tarifa: cuenta el vehículo, no quien lo conduce.",
+        "c": "El número de ocupantes no está entre los criterios que da la norma para la tarifa: dimensiones y clasificación ambiental."
+      },
+      "truco": null,
+      "huella": "2f5b98a189e8"
+    },
+    {
+      "id": "v3-sen-0034",
+      "porque": "Es una señal de servicio, de fondo azul, que muestra un surtidor de carburante junto a un punto de recarga eléctrica. Es la S-105d: indica una estación de servicio de carburantes que además tiene estación de recarga eléctrica.",
+      "descartes": {
+        "b": "Una estación que solo tiene recarga eléctrica se indica con otra señal, la S-105e, que no lleva el surtidor de carburante.",
+        "c": "El taller de reparación tiene su propia señal, la S-103; esta muestra un surtidor y un punto de recarga."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-105e",
+          "cita": "Indica la situación de una estación de recarga eléctrica."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-103",
+          "cita": "S-103 Taller de reparación"
+        }
+      ],
+      "huella": "6bb4818b4de7"
+    },
+    {
+      "id": "v3-sen-0035",
+      "porque": "Es la señal S-128: una autocaravana sobre el símbolo de un desagüe. Indica un punto de vaciado de aguas residuales para caravanas y autocaravanas, que es donde deben vaciarse, porque una autocaravana estacionada en la vía no puede verter fluidos del habitáculo.",
+      "descartes": {
+        "a": "El campamento tiene sus propias señales, como la S-107 o la S-116; esta indica dónde vaciar las aguas residuales.",
+        "c": "No indica un estacionamiento, sino un punto de vaciado de aguas residuales."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "92.4.c",
+          "cita": "c) Sin verter fluidos procedentes del habitáculo."
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-107",
+          "cita": "S-107 Campamento"
+        },
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-116",
+          "cita": "S-116 Campamento y terreno para remolques-vivienda"
+        }
+      ],
+      "huella": "5fc8b6d562a1"
+    },
+    {
+      "id": "E-mec-0002",
+      "porque": "Está prohibido circular con vehículos a motor y ciclomotores con escape libre, sin silenciador, tanto en vías urbanas como interurbanas. También se prohíbe con un silenciador incompleto, inadecuado o deteriorado.",
+      "descartes": {
+        "a": "La prohibición alcanza por igual a las vías urbanas y a las interurbanas.",
+        "b": "Haber pasado la ITV no autoriza a circular sin silenciador: la prohibición es en todas las vías."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "7.2",
+          "cita": "salgan desde el motor a través de uno incompleto, inadecuado, deteriorado o a través de tubos resonadores"
+        }
+      ],
+      "huella": "49af39bce7d9"
+    },
+    {
+      "id": "E-mec-0003",
+      "porque": "El catalizador es un dispositivo del tubo de escape que reduce la contaminación de los gases que salen por él. El ruido de las explosiones del motor lo reduce el silenciador.",
+      "descartes": {
+        "a": "Reducir el ruido de las explosiones es la función del silenciador, no del catalizador.",
+        "c": "Refrigerar el motor no es su función; el catalizador trabaja sobre los gases del escape."
+      },
+      "truco": "Catalizador, contra la contaminación de los gases; silenciador, contra el ruido.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "7.2",
+          "cita": "Tanto en las vías públicas urbanas como en las interurbanas se prohíbe la circulación de vehículos a motor y ciclomotores con el llamado escape libre, sin el preceptivo dispositivo silenciador de las explosiones."
+        }
+      ],
+      "huella": "65b25892b2e7"
+    },
+    {
+      "id": "xe-0151",
+      "porque": "El frenado regenerativo aprovecha las retenciones y frenadas para cargar las baterías del vehículo eléctrico.",
+      "descartes": {
+        "b": "Evitar que las ruedas se bloqueen al frenar es lo que hace el ABS, no el frenado regenerativo.",
+        "c": "No enfría las baterías: las carga durante las retenciones y frenadas."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Sistema antibloqueo de frenos (ABS) (p. 94)",
+          "cita": "Dispositivo que evita que las ruedas se bloqueen al frenar."
+        }
+      ],
+      "huella": "a7042bd70f47"
+    },
+    {
+      "id": "xe-0152",
+      "porque": "El vehículo eléctrico de autonomía extendida (REEV) cumple todas las condiciones de un eléctrico de baterías e incorpora además un motor de combustión interna. Tiene la clasificación 0 emisiones.",
+      "descartes": {
+        "a": "El que usa solo energía de una pila de combustible de hidrógeno es el vehículo eléctrico de células de combustible (FCV).",
+        "c": "El híbrido cuyas baterías no se enchufan es el híbrido no enchufable (HEV), que en turismos tiene la clasificación ECO."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.A, vehículo eléctrico de células de combustible (FCV)",
+          "cita": "Vehículo eléctrico que utiliza exclusivamente energía eléctrica procedente de una pila"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.A, vehículo eléctrico de células de combustible (FCV)",
+          "cita": "de combustible de hidrógeno embarcado."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.a",
+          "cita": "vehículos eléctricos de batería (BEV), vehículo eléctrico de autonomía extendida (REEV), vehículo de hidrógeno (HICEV), vehículo eléctrico híbrido enchufable (PHEV) con una autonomía mínima de 40 kilómetros (ciclo NEDC) o vehículos de pila de combustible."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.b",
+          "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC), vehículos híbridos no enchufables (HEV), vehículos propulsados por gas natural, vehículos propulsados por gas natural comprimido (GNC), o gas licuado del petróleo (GLP). En todo caso, deberán cumplir los criterios de la clasificación C."
+        }
+      ],
+      "huella": "4d72cabe3e40"
+    },
+    {
+      "id": "xe-0153",
+      "porque": "El vehículo eléctrico híbrido (HEV) se mueve con una combinación de motores de combustión y eléctricos. Si no es enchufable, en turismos tiene la clasificación ECO.",
+      "descartes": {
+        "a": "Propulsión solo con motor eléctrico y baterías recargables desde una fuente exterior es la del eléctrico de baterías (BEV), no la del híbrido.",
+        "b": "El gas natural es un combustible, no un tipo de híbrido; el híbrido combina motor de combustión y motor eléctrico."
+      },
+      "truco": "Híbrido: dos tipos de motor a la vez, de combustión y eléctrico.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.E.2.b",
+          "cita": "Vehículos M1 y N1, clasificados en el Registro de Vehículos como vehículos híbridos enchufables con autonomía <40km (ciclo NEDC), vehículos híbridos no enchufables (HEV), vehículos propulsados por gas natural, vehículos propulsados por gas natural comprimido (GNC), o gas licuado del petróleo (GLP). En todo caso, deberán cumplir los criterios de la clasificación C."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo II.A, vehículo eléctrico de baterías (BEV)",
+          "cita": "exclusivamente baterías eléctricas recargables desde una fuente de energía"
+        }
+      ],
+      "huella": "8b0de3040946"
+    },
+    {
+      "id": "x1b-0057",
+      "porque": "Las autoridades competentes pueden restringir, total o parcialmente, la entrada y circulación de vehículos en zonas de bajas emisiones, zonas de prioridad residencial u otras vías de su competencia, según los criterios medioambientales que se establezcan. Quién puede entrar lo decide cada autoridad.",
+      "descartes": {
+        "b": "Además de las obras o los accidentes, la norma permite restringir la circulación por motivos medioambientales.",
+        "c": "La norma no limita estas restricciones a los vehículos pesados; dependen de los criterios medioambientales que se establezcan."
+      },
+      "truco": null,
+      "huella": "3ac03fc5e52d"
+    }
+  ]
+}

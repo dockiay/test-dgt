@@ -54,6 +54,13 @@ def main():
                     os.makedirs(os.path.dirname(os.path.join(web, "img", rel)), exist_ok=True)
                     shutil.copyfile(os.path.join(raiz, nombre), os.path.join(web, "img", rel))
 
+    # Lecciones al fallar (preguntas/lecciones/*.json): solo se publican si la pregunta no ha
+    # cambiado desde que se escribieron (misma huella). Ver tools/lecciones.py.
+    sys.path.insert(0, aqui)
+    import lecciones as lec
+    lecs = lec.cargar() if os.path.isdir(os.path.join(carpeta, "lecciones")) else {}
+    desfasadas = []
+
     preguntas, normas, descartes, aplazadas, ids = [], {}, [], [], set()
     for f in ficheros:
         d = json.load(open(f, encoding="utf-8"))
@@ -76,11 +83,18 @@ def main():
                 "explicacion": p.get("explicacion", ""), "fuente": p["fuente"],
                 "imagen": p.get("imagen"), "verificado_el": p.get("verificado_el", ""),
             })
+            l = lecs.get(pid)
+            if l and l.get("huella") == lec.huella(p) and not lec.problemas(l, p, comprobar_citas=False):
+                preguntas[-1]["leccion"] = lec.para_web(l)
+            elif l:
+                desfasadas.append(pid)
 
     for x in aplazadas:
         print("APLAZADA", x)
     for x in descartes:
         print("DESCARTADA", x)
+    if desfasadas:
+        print(f"LECCIONES SIN PUBLICAR (pregunta cambiada o lección con fallos; ver tools/lecciones.py): {', '.join(desfasadas)}")
     salida = {
         "generado": datetime.date.today().isoformat(),
         "normativa": normas,
@@ -92,7 +106,7 @@ def main():
         o.write("window.BANCO = ")
         json.dump(salida, o, ensure_ascii=False, indent=1)
         o.write(";\n")
-    print(f"{len(preguntas)} preguntas publicadas en {destino}; {len(aplazadas)} aplazadas por imagen pendiente; {len(descartes)} descartadas.")
+    print(f"{len(preguntas)} preguntas publicadas en {destino}; {len(aplazadas)} aplazadas por imagen pendiente; {len(descartes)} descartadas; {sum(1 for q in preguntas if "leccion" in q)} con lección.")
     if descartes and not permitir:
         sys.exit(1)
 

@@ -1,0 +1,2111 @@
+{
+  "version": 1,
+  "lote": "11",
+  "lecciones": [
+    {
+      "id": "C-per-0001",
+      "porque": "El límite de personas es el número de plazas autorizadas, y el conductor ocupa una de ellas. Con 5 plazas pueden ir 5 personas en total, sea cual sea su edad o su peso.",
+      "descartes": {
+        "a": "Un niño ocupa una plaza igual que un adulto: la norma no permite sumar plazas por llevar menores. Solo el transporte escolar y de menores tiene su propia normativa para contar las plazas.",
+        "c": "No superar la masa máxima autorizada es un límite que se suma al de las plazas, no una forma de saltárselo: hay que cumplir los dos a la vez."
+      },
+      "truco": "Dos límites que se cumplen a la vez: personas, como mucho las plazas autorizadas, conductor incluido; y viajeros más equipaje, nunca por encima de la masa máxima autorizada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "9.1",
+          "cita": "sin que, en ningún caso, pueda\nsobrepasarse, entre viajeros y equipaje, la masa máxima autorizada para el vehículo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "9.2",
+          "cita": "A efectos de cómputo del número de personas transportadas en los vehículos\nautorizados para transporte escolar y de menores, se estará a lo establecido en la normativa\nespecífica sobre la materia."
+        }
+      ],
+      "huella": "12164bef7bc3"
+    },
+    {
+      "id": "xb-0098",
+      "porque": "Si un vehículo lleva a la vez personas y carga, el riesgo es que la carga salga disparada hacia los ocupantes en un frenazo o un choque. Por eso la norma exige una protección adecuada a esa carga, que no estorbe a quienes viajan ni pueda dañarlos si sale proyectada.",
+      "descartes": {
+        "a": "La norma no exige dejar un asiento libre como separación: lo que pide es una protección adecuada a la carga.",
+        "c": "No se obliga a llevar la carga en una baca fuera del habitáculo; precisamente la protección existe para que personas y carga puedan ir juntas con seguridad."
+      },
+      "truco": null,
+      "huella": "9e233fa03864"
+    },
+    {
+      "id": "xb-0093",
+      "porque": "En los autobuses y en los vehículos de servicio público, el número de plazas autorizadas tiene que estar a la vista de quien viaja, en placas colocadas en el interior. Así cualquiera puede comprobar que no se supera.",
+      "descartes": {
+        "a": "La norma no pide un cartel exterior trasero: las placas van dentro del vehículo.",
+        "b": "El billete no es donde se indican las plazas autorizadas; la norma exige placas en el interior del vehículo."
+      },
+      "truco": "Las plazas se anuncian donde las ven los viajeros: dentro.",
+      "huella": "dc69319facd7"
+    },
+    {
+      "id": "xb-0094",
+      "porque": "Además de no llevar más personas que plazas autorizadas, el peso de viajeros y equipaje juntos nunca puede hacer que el vehículo supere su masa máxima autorizada, que es el máximo con el que puede circular cargado.",
+      "descartes": {
+        "b": "La tara es lo que pesa el propio vehículo vacío, con su combustible y equipo pero sin personas ni carga. Con solo subir alguien ya se supera, así que no puede ser el límite.",
+        "c": "La tara más los 75 kg del conductor es la masa en orden de marcha: el vehículo listo con su conductor. Tampoco deja sitio para pasajeros ni equipaje, así que no es el límite."
+      },
+      "truco": "La masa máxima autorizada es el techo del vehículo cargado: personas y equipaje caben solo hasta ahí.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo IX.1.1",
+          "cita": "Tara: masa del vehículo, con su equipo fijo autorizado, sin personal de Servicio,\npasajeros ni carga, y con su dotación completa de agua, combustible, lubricante, repuestos,\nherramientas y accesorios necesarios."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo IX.1.2",
+          "cita": "se considera como masa en orden de marcha el\nresultado de sumar a la tara la masa estándar del conductor de 75 kg"
+        }
+      ],
+      "huella": "4f2c1614ff95"
+    },
+    {
+      "id": "xb-0099",
+      "porque": "En el transporte colectivo, quien conduce es responsable de la seguridad de los viajeros, muchos de ellos de pie. Por eso para y arranca sin sacudidas ni movimientos bruscos, y lo hace lo más cerca posible del borde derecho de la calzada.",
+      "descartes": {
+        "a": "Parar en el centro del carril es justo lo contrario de lo que pide la norma, que es acercarse lo más posible al borde derecho.",
+        "b": "La norma exige parar y arrancar sin sacudidas; la prisa no justifica un movimiento brusco que pueda tirar a un viajero."
+      },
+      "truco": "Autobús: suave y a la derecha.",
+      "huella": "849adcd24db5"
+    },
+    {
+      "id": "xb-0100",
+      "porque": "En el transporte público colectivo la regla general es que no se pueden llevar animales, salvo que el vehículo tenga un lugar destinado a ellos. La excepción son las personas invidentes con su perro lazarillo, que pueden viajar con él bajo su responsabilidad.",
+      "descartes": {
+        "b": "Llevar al animal en brazos no cambia nada: la prohibición es llevar consigo cualquier animal si no hay lugar destinado para su transporte.",
+        "c": "Prohibirlo todo olvida la excepción expresa del perro lazarillo de una persona invidente."
+      },
+      "truco": "Animales en el autobús: solo si hay sitio para ellos. El lazarillo, siempre.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "11.2.e",
+          "cita": "Llevar consigo cualquier animal, salvo que exista en el vehículo lugar destinado para\nsu transporte."
+        }
+      ],
+      "huella": "81354d3cb64c"
+    },
+    {
+      "id": "xb-0101",
+      "porque": "Una vez avisado de que el vehículo está completo, los viajeros tienen prohibido entrar. Quien conduce, o el encargado si lo hay, no solo puede sino que debe prohibir la entrada a quien lo intente.",
+      "descartes": {
+        "a": "Ir de pie junto a la puerta no crea una plaza nueva: si se ha advertido que está completo, no se puede entrar.",
+        "c": "Tener billete no da derecho a subir a un vehículo que ya está completo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "11.2.c",
+          "cita": "Entrar en el vehículo cuando se haya hecho la advertencia de que está completo."
+        }
+      ],
+      "huella": "62fa0e41587c"
+    },
+    {
+      "id": "bm13-0008",
+      "porque": "Aunque quien conduce siga en su puesto, hay situaciones en que el motor debe pararse: con el vehículo detenido dentro de un túnel o en un lugar cerrado, y mientras se carga combustible. Repostar es una de ellas.",
+      "descartes": {
+        "a": "Ninguna norma obliga a parar el motor en cada semáforo en rojo; no está entre los casos de apagado obligatorio.",
+        "c": "Detenerse en un paso para peatones no figura entre los casos en que hay que parar el motor."
+      },
+      "truco": "Motor apagado aunque no te bajes: repostando, y detenido en un túnel o en un lugar cerrado.",
+      "huella": "0163e578da54"
+    },
+    {
+      "id": "bm13-0009",
+      "porque": "Si vas a estar más de dos minutos detenido en un túnel o lugar cerrado, apagas el motor para no llenarlo de humos, pero el vehículo tiene que seguir siendo visible: por eso mantienes encendidas las luces de posición.",
+      "descartes": {
+        "a": "Apagarlo todo te deja invisible dentro del túnel; la norma exige conservar el alumbrado de posición.",
+        "b": "La luz de largo alcance no es la que pide la norma y deslumbraría a los demás; basta con las de posición."
+      },
+      "truco": "En el túnel, motor fuera y posición encendida: que no te respiren, pero que te vean.",
+      "huella": "28659ceaa155"
+    },
+    {
+      "id": "bm13-0019",
+      "porque": "Si tras una avería el vehículo puede seguir pero necesita auxilio, lo primero es quitarse de los carriles cuanto antes y buscar la primera salida usando el arcén derecho. Solo si eso no es posible se detiene en el arcén derecho o donde menos estorbe.",
+      "descartes": {
+        "b": "Pararse en el carril izquierdo te deja en plena circulación, en el peor sitio, cuando lo que pide la norma es salir de los carriles por el arcén derecho.",
+        "c": "Si el vehículo puede moverse, quedarse parado en el carril no vale: la norma pide abandonar los carriles cuanto antes. La luz de emergencia avisa, pero no sustituye a quitarse de en medio."
+      },
+      "truco": "Si el coche anda, sácalo: arcén derecho y primera salida.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "130.2",
+          "cita": "Si ello no\nfuera posible, deberán detenerse en el arcén derecho de la vía o en el lugar donde cause\nmenor obstáculo a la circulación."
+        }
+      ],
+      "huella": "17005a2ca6e3"
+    },
+    {
+      "id": "bm13-0018",
+      "porque": "Señalizar es el primer paso, pero no el último: si el vehículo o su carga obstaculizan la calzada, hay que procurar que se retire cuanto antes y, si se puede, sacarlo de la calzada y dejarlo bien estacionado.",
+      "descartes": {
+        "a": "Esperar dentro es lo que se hace solo si no se puede salir con seguridad. Lo general es salir por el lado contrario al tráfico hacia un lugar seguro fuera de la vía, y además procurar retirar el vehículo.",
+        "b": "La señalización avisa del obstáculo, pero la norma obliga además a retirarlo en el menor tiempo posible."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "130.3",
+          "cita": "si el vehículo está inmovilizado\nsin posibilidad de reemprender la marcha, los ocupantes deberán abandonar el vehículo,\nsiempre que exista un lugar seguro fuera de la plataforma de circulación"
+        }
+      ],
+      "huella": "240b85adac23"
+    },
+    {
+      "id": "bm13-0004",
+      "porque": "Los calzos sirven para que un vehículo pesado no se mueva mientras está estacionado en pendiente. En cuanto reanudas la marcha ya no hacen nada ahí y serían un obstáculo, así que la norma obliga a retirarlos de la vía.",
+      "descartes": {
+        "b": "Un calzo abandonado en la vía sí es un obstáculo, y la norma ordena expresamente retirarlo al reanudar la marcha.",
+        "c": "La norma no prevé dejarlos para otro vehículo: hay que retirarlos de la vía."
+      },
+      "truco": "Los calzos se van contigo.",
+      "huella": "8cf4c4329ef5"
+    },
+    {
+      "id": "bm13-0003",
+      "porque": "Al dejar el puesto hay que impedir que el vehículo se mueva: freno de estacionamiento y, con caja de cambios, una marcha metida. En un cambio automático eso es la posición de estacionamiento, la P, que bloquea la transmisión.",
+      "descartes": {
+        "a": "La posición de marcha adelante de un automático no deja el vehículo bloqueado. La norma habla de primera o marcha atrás en los cambios manuales y, en su caso, de la posición de estacionamiento.",
+        "b": "El punto muerto no retiene nada: es justo lo que la norma quiere evitar al pedir que se deje una marcha o la posición de estacionamiento."
+      },
+      "truco": "Manual: cuesta arriba, primera; cuesta abajo, marcha atrás. Automático: P.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "92.3.c",
+          "cita": "En un vehículo provisto de caja de cambios, dejar colocada la primera velocidad, en\npendiente ascendente, y la marcha hacia atrás, en descendente, o, en su caso, la posición\nde estacionamiento."
+        }
+      ],
+      "huella": "8a93f6b3266e"
+    },
+    {
+      "id": "bm13-0007",
+      "porque": "La regla general es subir y bajar por el lado más cercano al borde de la vía, que es el que te aleja del tráfico, y solo con el vehículo parado.",
+      "descartes": {
+        "b": "El lado del conductor puede ser justo el que da a la circulación; la norma no habla del conductor, sino del lado más próximo al borde de la vía.",
+        "c": "Que el vehículo esté parado es necesario, pero no basta: además hay que usar el lado más próximo al borde de la vía."
+      },
+      "truco": "Se baja por el lado de la acera o del arcén, no por el del tráfico.",
+      "huella": "9431bbfc99de"
+    },
+    {
+      "id": "bm13-0001",
+      "porque": "Cuando quien conduce deja su puesto, la norma exige parar el motor y desconectar el sistema de arranque. Además, si se aleja, debe tomar precauciones para que nadie lo use sin permiso.",
+      "descartes": {
+        "b": "La norma no da ningún margen de tiempo para dejar el motor en marcha al abandonar el puesto. Los dos minutos son el plazo para apagar el motor estando detenido dentro de un túnel.",
+        "c": "El freno de estacionamiento es una medida más que hay que tomar, no una alternativa a parar el motor."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "92.3.a y b",
+          "cita": "a) Parar el motor y desconectar el sistema de arranque y, si se alejara del vehículo,\nadoptar las precauciones necesarias para impedir su uso sin autorización.\nb) Dejar accionado el freno de estacionamiento."
+        }
+      ],
+      "huella": "8893cc056847"
+    },
+    {
+      "id": "bm13-0005",
+      "porque": "Abrir la puerta puede cortar el paso o golpear a quien pasa al lado, sobre todo a ciclistas. Por eso, aunque estés bien estacionado, antes de abrir o bajar hay que asegurarse de que no supone peligro ni entorpecimiento.",
+      "descartes": {
+        "a": "Estar bien estacionado no te libra de mirar: la prohibición es abrir o apearse sin haberse asegurado antes.",
+        "c": "La luz de emergencia no da preferencia ni obliga a nadie a esperar; lo que exige la norma es comprobar antes que abrir no causa peligro."
+      },
+      "truco": "Antes de abrir, mira atrás: el ciclista que viene pegado a los coches es el que más se juega.",
+      "huella": "121a35823e5c"
+    },
+    {
+      "id": "bm13-0006",
+      "porque": "Las puertas no se pueden abrir hasta que el vehículo esté completamente inmovilizado. Mientras se mueva, aunque sea muy despacio, abrir está prohibido, lo haga quien lo haga.",
+      "descartes": {
+        "a": "No existe ninguna velocidad mínima que lo permita: la norma exige la completa inmovilización.",
+        "b": "Mirar por el retrovisor es necesario después, pero no autoriza a abrir con el vehículo todavía en marcha."
+      },
+      "truco": "Puerta: primero parado del todo, después mirar, y solo entonces abrir.",
+      "huella": "619c802121cd"
+    },
+    {
+      "id": "bm13-0010",
+      "porque": "Para repostar el motor tiene que estar parado. Además, a quien suministra no se le permite servir combustible si no están también apagadas las luces, los sistemas eléctricos como la radio y los aparatos que emiten radiación electromagnética, como los móviles.",
+      "descartes": {
+        "b": "El motor parado es obligatorio, pero no basta: también deben ir apagadas las luces, la radio y los teléfonos móviles.",
+        "c": "La radio aparece expresamente entre lo que debe estar apagado, así que no puede seguir encendida."
+      },
+      "truco": "En la gasolinera, apagado todo lo que arranca, alumbra, suena o llama: motor, luces, radio y móvil.",
+      "huella": "7855360982d3"
+    },
+    {
+      "id": "bm13-0011",
+      "porque": "Cuando no hay empleados, nadie más puede vigilar que se cumpla. Por eso la norma traslada la misma obligación al conductor o a la persona que vaya a cargar el combustible: motor parado y luces, radio y móviles apagados.",
+      "descartes": {
+        "a": "La obligación no desaparece por no haber empleados: pasa a quien conduce o a quien reposta.",
+        "c": "La norma no encarga nada al titular de la gasolinera a distancia: en ausencia de empleados, responde quien carga el combustible o el conductor."
+      },
+      "truco": "Sin empleados, el empleado eres tú.",
+      "huella": "1690d74da7f7"
+    },
+    {
+      "id": "bm13-0016",
+      "porque": "Si te quedas parado en un túnel por el tráfico, no por una emergencia, lo seguro es quedarse dentro: salir a pie entre coches que pueden arrancar es más peligroso. Conectas la emergencia un momento para avisar a quien viene detrás, mantienes las luces de posición y apagas el motor.",
+      "descartes": {
+        "b": "La norma no distingue: ni el conductor ni los pasajeros deben abandonar el vehículo en un atasco dentro del túnel.",
+        "c": "Estar en un túnel no basta para salir. Abandonar el vehículo es lo que se hace ante una emergencia o un incendio, no en un atasco."
+      },
+      "truco": "En un túnel, pregúntate por qué estás parado. Si es por el tráfico, todos se quedan dentro, con la emergencia un momento para avisar, luces de posición y motor apagado. Si es por una emergencia o un incendio, todos salen hacia el refugio o la salida más próximos.",
+      "huella": "2d98c70b9744"
+    },
+    {
+      "id": "bm13-0017",
+      "porque": "Detenido por el tráfico dentro de un túnel, la norma pide quedarse lo más lejos posible del vehículo de delante. Ese hueco deja margen de maniobra si hay que moverse.",
+      "descartes": {
+        "a": "Pegarse al de delante es justo lo contrario de lo que pide la norma: lo más lejos posible.",
+        "c": "La norma no fija ninguna distancia exacta, y un metro es muy poco; pide la mayor distancia posible."
+      },
+      "truco": "En un túnel, pregúntate por qué estás parado. Si es por el tráfico, todos se quedan dentro, con la emergencia un momento para avisar, luces de posición y motor apagado. Si es por una emergencia o un incendio, todos salen hacia el refugio o la salida más próximos.",
+      "huella": "7ccb00fab3e4"
+    },
+    {
+      "id": "bm13-0012",
+      "porque": "Inmovilizado en un túnel por una emergencia, se apaga el motor para no añadir humos, se conecta la señal de emergencia para avisar y se mantienen las luces de posición para que el vehículo siga siendo visible.",
+      "descartes": {
+        "a": "Apagar todas las luces te haría invisible dentro del túnel; las de posición se mantienen encendidas.",
+        "b": "El motor se apaga, no se deja en marcha, y la luz de largo alcance no es la que pide la norma."
+      },
+      "truco": "Túnel con emergencia: motor apagado, emergencia conectada y luces de posición encendidas.",
+      "huella": "64a390a7b219"
+    },
+    {
+      "id": "bm13-0013",
+      "porque": "Ante una emergencia dentro de un túnel, quedarse en el vehículo es peligroso, sobre todo si hay humo o fuego. Por eso todos los ocupantes salen y van rápido al refugio o a la salida más próximos, sin caminar por la calzada si hay zonas excluidas a la circulación.",
+      "descartes": {
+        "b": "Quedarse dentro con el cinturón es lo que se hace en un túnel solo cuando la parada es por el tráfico, o fuera de él cuando no se puede salir con seguridad; en una emergencia en túnel la norma manda abandonar el vehículo.",
+        "c": "La norma prohíbe transitar por la calzada si existen zonas excluidas a la circulación; además, caminar por ella te pone delante de los vehículos."
+      },
+      "truco": "En un túnel, pregúntate por qué estás parado. Si es por el tráfico, todos se quedan dentro, con la emergencia un momento para avisar, luces de posición y motor apagado. Si es por una emergencia o un incendio, todos salen hacia el refugio o la salida más próximos.",
+      "huella": "5779bf18169d"
+    },
+    {
+      "id": "bm13-0014",
+      "porque": "En un incendio en un túnel, la norma pide dejar la llave puesta y las puertas abiertas, de modo que el vehículo pueda moverse si hace falta. Por eso, tras arrimarlo a la derecha y apagar el motor, se deja así antes de salir.",
+      "descartes": {
+        "a": "Llevarse la llave y cerrar es lo contrario de lo que pide la norma; en un incendio, la seguridad va por delante de evitar un robo.",
+        "c": "Las puertas abiertas no bastan: sin la llave puesta no se puede mover el vehículo."
+      },
+      "truco": "Incendio en túnel: el coche se queda listo para que otro lo mueva, con llave puesta y puertas abiertas.",
+      "huella": "750f3744d89e"
+    },
+    {
+      "id": "bm13-0015",
+      "porque": "Con un incendio en un túnel, el peligro es el fuego y sobre todo el humo. Por eso se sale del vehículo y se va rápido al refugio o salida más próximos, alejándose del fuego y sin caminar por la calzada si hay zonas excluidas a la circulación.",
+      "descartes": {
+        "a": "No se vuelve necesariamente por donde se entró, sino al refugio o salida más próximos en sentido contrario al fuego, y no por la calzada si hay zonas excluidas a la circulación.",
+        "b": "Ir hacia el fuego es justo lo contrario de lo que manda la norma, que es alejarse de él."
+      },
+      "truco": "En un túnel, pregúntate por qué estás parado. Si es por el tráfico, todos se quedan dentro, con la emergencia un momento para avisar, luces de posición y motor apagado. Si es por una emergencia o un incendio, todos salen hacia el refugio o la salida más próximos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "97.3",
+          "cita": "en\nsentido contrario al del fuego, sin que en ningún caso se transite por la calzada si existen\nzonas excluidas a la circulación de vehículos."
+        }
+      ],
+      "huella": "d1ad694dfbfe"
+    },
+    {
+      "id": "bm13-0002",
+      "porque": "Al dejar el puesto ya hay que parar el motor y desconectar el arranque. Si además te alejas del vehículo, la norma añade otra obligación: tomar las precauciones necesarias para que nadie lo use sin permiso, por ejemplo cerrarlo y llevarte la llave.",
+      "descartes": {
+        "a": "Parar el motor es obligatorio en cuanto dejas el puesto, pero al alejarte no basta: hay que impedir además que se use sin autorización.",
+        "c": "La norma no pide encender la luz de emergencia por alejarse del vehículo; lo que exige es evitar que alguien lo use sin permiso."
+      },
+      "truco": null,
+      "huella": "cd2184394427"
+    },
+    {
+      "id": "xd-0136",
+      "porque": "La dotación obligatoria de un turismo incluye el dispositivo luminoso V-16, un chaleco reflectante de alta visibilidad certificado y una rueda de repuesto o un sistema alternativo. De las tres prendas que se proponen, solo el chaleco está en esa lista.",
+      "descartes": {
+        "a": "El casco homologado lo deben usar quienes van en motocicleta, ciclomotor y vehículos parecidos; no forma parte de la dotación de un turismo.",
+        "c": "Los guantes de protección son para quienes van en moto, ciclomotor y vehículos parecidos por vías interurbanas, no parte de la dotación de un turismo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XII.1.a",
+          "cita": "a) El dispositivo luminoso de preseñalización de peligro V-16."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.1",
+          "cita": "1. Los conductores y pasajeros de motocicletas o motocicletas con sidecar, de vehículos\nde tres ruedas y cuadriciclos, de ciclomotores y de vehículos especiales tipo «quad»,\ndeberán utilizar los siguientes elementos de protección:\na) Cascos de protección homologados conforme al Reglamento UNECE R22,\nadecuadamente abrochados, cuando circulen en todo tipo de vías.\nb) Guantes de protección cuando circulen por vías interurbanas."
+        }
+      ],
+      "huella": "636f3dec268f"
+    },
+    {
+      "id": "xd-0135",
+      "porque": "El chaleco hay que llevarlo siempre en el turismo, pero la obligación de ponérselo es para cuando sales del vehículo y ocupas la calzada o el arcén de una vía interurbana. Una calle de ciudad que no es travesía es vía urbana, así que el reglamento no te obliga, aunque ponértelo nunca está de más.",
+      "descartes": {
+        "a": "La obligación no es para cualquier vía: el reglamento la limita a la calzada o el arcén de las vías interurbanas.",
+        "c": "La norma no depende de la hora ni de la visibilidad, sino del tipo de vía: en interurbana es obligatorio también de día."
+      },
+      "truco": "Chaleco: se lleva siempre; ponérselo es obligatorio al pisar calzada o arcén fuera de poblado.",
+      "huella": "58a9c9f9b972"
+    },
+    {
+      "id": "xd-0133",
+      "porque": "Si el vehículo puede moverse pero necesita auxilio, lo primero es dejar los carriles y buscar la primera salida por el arcén derecho. Cuando eso no es posible, se detiene en el arcén derecho o en el lugar donde cause menos obstáculo.",
+      "descartes": {
+        "a": "Junto a la mediana te quedas en el carril izquierdo, en plena circulación rápida; la norma manda al arcén derecho.",
+        "b": "Quedarse en el carril estorba y es peligroso. La luz de emergencia avisa, pero la norma pide detenerse en el arcén derecho o donde menos estorbe."
+      },
+      "truco": "Si el coche anda, sácalo: arcén derecho y primera salida.",
+      "huella": "639183e206c6"
+    },
+    {
+      "id": "xd-0132",
+      "porque": "Con el vehículo inmovilizado por avería o accidente, la luz de emergencia no basta: la norma obliga además a usar el dispositivo de preseñalización de peligro reglamentario, que en un turismo es la luz V-16, colocada en la parte más alta posible del vehículo.",
+      "descartes": {
+        "a": "La luz de emergencia se enciende «sin perjuicio» de lo demás: la norma exige además el dispositivo de preseñalización.",
+        "b": "Levantar el capó no es ninguna señal reglamentaria; el aviso obligatorio es el dispositivo de preseñalización de peligro."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-16.2",
+          "cita": "Este dispositivo de color amarillo auto se colocará en la parte más alta posible del\nvehículo inmovilizado garantizado su máxima visibilidad."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XII.1.a",
+          "cita": "a) El dispositivo luminoso de preseñalización de peligro V-16."
+        }
+      ],
+      "huella": "09db0ebe7425"
+    },
+    {
+      "id": "xd-0142",
+      "porque": "La V-16 conectada comunica su activación, su desactivación y su posición por sí sola. La norma exige que lleve dentro de su carcasa todo lo necesario, comunicaciones incluidas, sin depender nunca de elementos externos como una aplicación del móvil.",
+      "descartes": {
+        "a": "La norma dice justo lo contrario: no puede depender de aplicaciones de teléfonos móviles ni de elementos externos parecidos.",
+        "c": "No hay ninguna excepción para autopistas: la V-16 tiene que comunicar por sí misma en cualquier vía."
+      },
+      "truco": "La V-16 se basta sola: luz, batería y conexión van dentro.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-16.4",
+          "cita": "Este dispositivo comunicará, en todo caso, su activación, desactivación y\ngeoposicionamiento, al punto de acceso nacional en materia de tráfico y movilidad."
+        }
+      ],
+      "huella": "26d8a3350a92"
+    },
+    {
+      "id": "x1b-0006",
+      "porque": "Una autocaravana estacionada en la calle es un vehículo estacionado, no un camping. Por eso no puede extender nada que sobresalga de su perímetro visto desde arriba: ni toldo, ni mesa, ni sillas.",
+      "descartes": {
+        "b": "La norma no da ningún margen de un metro: prohíbe extender cualquier elemento que desborde el perímetro del vehículo.",
+        "c": "La prohibición no depende de la hora: no hay ningún permiso para hacerlo de día."
+      },
+      "truco": "Autocaravana aparcada: nada fuera de su silueta, nada sobre el suelo salvo las ruedas y nada vertido.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "92.4.b y c",
+          "cita": "b) Descansando sólo sobre neumáticos, con posibilidad de calzos o cuñas de seguridad.\nc) Sin verter fluidos procedentes del habitáculo."
+        }
+      ],
+      "huella": "b97cf5b45088"
+    },
+    {
+      "id": "A-par-0017",
+      "porque": "Mirando cuesta arriba, el coche tendería a irse hacia atrás. Por eso, además del freno de estacionamiento, se deja metida la primera: así la marcha se opone a ese movimiento.",
+      "descartes": {
+        "a": "La marcha atrás es la que se deja cuesta abajo, no cuesta arriba.",
+        "b": "El punto muerto no retiene el vehículo: la norma pide dejar una marcha colocada."
+      },
+      "truco": "Manual: cuesta arriba, primera; cuesta abajo, marcha atrás. Automático: P.",
+      "huella": "8a25f857764a"
+    },
+    {
+      "id": "A-par-0018",
+      "porque": "Mirando cuesta abajo, el coche tendería a irse hacia delante. Por eso, además del freno de estacionamiento, se deja metida la marcha atrás, que se opone a ese movimiento.",
+      "descartes": {
+        "a": "La primera es la que se deja cuesta arriba, no cuesta abajo.",
+        "c": "La norma no menciona la quinta: en pendiente descendente pide la marcha atrás."
+      },
+      "truco": "Manual: cuesta arriba, primera; cuesta abajo, marcha atrás. Automático: P.",
+      "huella": "664ef79502af"
+    },
+    {
+      "id": "A-par-0019",
+      "porque": "Los vehículos pesados o largos son los que más difícil tienen quedarse quietos en una cuesta solo con el freno y la marcha. Por eso la norma obliga a calzar a los de más de 3.500 kg de masa máxima autorizada, a los autobuses y a los conjuntos de vehículos cuando paran o estacionan en sensible pendiente.",
+      "descartes": {
+        "a": "A los turismos y las motocicletas la norma les pide freno de estacionamiento y, en su caso, marcha colocada, pero no calzos.",
+        "c": "La norma no habla de los vehículos especiales agrícolas como grupo; nombra a los de más de 3.500 kg, los autobuses y los conjuntos de vehículos."
+      },
+      "truco": "Calzo obligatorio en sensible pendiente: los «grandes», es decir, más de 3.500 kg, autobuses y conjuntos.",
+      "huella": "4d5cd69d7a2a"
+    },
+    {
+      "id": "A-par-0020",
+      "porque": "Un camión de más de 3.500 kg en sensible pendiente tiene que quedar calzado, pero solo de dos maneras: con calzos de verdad o apoyando una rueda directriz en el bordillo. La norma prohíbe expresamente usar piedras u otros objetos que no estén hechos para eso.",
+      "descartes": {
+        "b": "No llevar calzos no permite usar una piedra: la alternativa que da la norma es apoyar una rueda directriz en el bordillo.",
+        "c": "Retirar los calzos al reanudar la marcha es obligatorio, pero eso no convierte una piedra en un calzo permitido."
+      },
+      "truco": "Sin calzos, bordillo; nunca piedra.",
+      "huella": "4b3da9418efa"
+    },
+    {
+      "id": "A-par-0021",
+      "porque": "Al calzar apoyando una rueda directriz en el bordillo, la norma indica que, cuesta arriba, las ruedas se giran hacia el centro de la calzada. Así, si el vehículo retrocediera, la rueda acabaría contra el bordillo.",
+      "descartes": {
+        "a": "Hacia fuera es como se colocan en una pendiente descendente, no en la ascendente.",
+        "b": "Con las ruedas rectas no se apoya ninguna rueda en el bordillo de forma que frene el vehículo; la norma pide inclinarlas."
+      },
+      "truco": "Cuesta arriba, ruedas hacia el centro de la calzada; cuesta abajo, hacia fuera. En los dos casos, si el vehículo empezara a moverse, la rueda directriz iría contra el bordillo y no hacia la calzada.",
+      "huella": "0e6074900f28"
+    },
+    {
+      "id": "v5b-par-0004",
+      "porque": "Al calzar apoyando una rueda directriz en el bordillo, la norma indica que, cuesta abajo, las ruedas se giran hacia fuera. Así, si el vehículo avanzara, la rueda acabaría contra el bordillo.",
+      "descartes": {
+        "a": "Hacia el centro de la calzada es como se colocan en una pendiente ascendente, no en la descendente.",
+        "b": "Con las ruedas rectas no se apoya ninguna rueda en el bordillo de forma que frene el vehículo; la norma pide inclinarlas."
+      },
+      "truco": "Cuesta arriba, ruedas hacia el centro de la calzada; cuesta abajo, hacia fuera. En los dos casos, si el vehículo empezara a moverse, la rueda directriz iría contra el bordillo y no hacia la calzada.",
+      "huella": "e6013b8595a4"
+    },
+    {
+      "id": "xd-0129",
+      "porque": "Al parar o estacionar hay que hacerlo sin estorbar ni crear riesgo, y la norma pide cuidar especialmente dos cosas: cómo queda colocado el vehículo y que no pueda ponerse en movimiento sin nadie al volante.",
+      "descartes": {
+        "b": "Dejar las ventanillas bajadas no es ninguna obligación de la norma sobre parada y estacionamiento.",
+        "c": "La norma no pide dejar la emergencia encendida al alejarse; lo que exige es que el vehículo no pueda moverse solo."
+      },
+      "truco": null,
+      "huella": "9088a38e645b"
+    },
+    {
+      "id": "xd-0140",
+      "porque": "Un vehículo detenido en un paso a nivel corre el riesgo de que llegue un tren que no puede frenar a tiempo. Por eso la obligación es sacar rápido a los ocupantes y dejar el paso libre cuanto antes.",
+      "descartes": {
+        "b": "Quedarse dentro con el cinturón es lo peor en un paso a nivel: la norma ordena desalojar rápido a los ocupantes.",
+        "c": "Esperar a la grúa dentro del vehículo es contrario a lo que pide la norma: desalojar y despejar el paso en el menor tiempo posible."
+      },
+      "truco": "Paso a nivel: primero fuera las personas, después fuera el coche y, si no sale, avisa al tren y a los coches.",
+      "huella": "ce24685daa13"
+    },
+    {
+      "id": "xd-0141",
+      "porque": "Si no logras dejar libre el paso a nivel, la norma pasa a otra prioridad: tomar de inmediato todas las medidas a tu alcance para que los maquinistas y los demás conductores sepan del peligro con tiempo suficiente.",
+      "descartes": {
+        "b": "Marcharse sin avisar deja el peligro sin señalizar; la norma exige advertir de inmediato a maquinistas y conductores.",
+        "c": "Seguir empujando con un tren acercándose te pone en peligro y no avisa a nadie; si no se consigue despejar el paso, toca avisar."
+      },
+      "truco": "Paso a nivel: primero fuera las personas, después fuera el coche y, si no sale, avisa al tren y a los coches.",
+      "huella": "117013168c1e"
+    },
+    {
+      "id": "xd-0130",
+      "porque": "La norma prohíbe circular con las puertas abiertas, y una puerta entreabierta está abierta: puede abrirse del todo, golpear a alguien o dejar caer a un ocupante.",
+      "descartes": {
+        "b": "No hay ninguna velocidad a la que se permita circular con una puerta abierta.",
+        "c": "La prohibición vale para cualquier puerta, también la del lado de la acera."
+      },
+      "truco": null,
+      "huella": "32ca44a3a51c"
+    },
+    {
+      "id": "xd-0131",
+      "porque": "En el transporte colectivo de viajeros, las puertas las maneja quien está autorizado. Cualquier otra persona debe abstenerse de abrirlas, y también de cerrarlas en las paradas si eso dificulta que suban los viajeros.",
+      "descartes": {
+        "a": "Que el autobús esté en una parada no autoriza a un viajero a abrir las puertas: la prohibición es para toda persona no autorizada.",
+        "c": "Que el conductor tarde no te autoriza: la norma no prevé ninguna excepción por eso."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "114.3",
+          "cita": "así como cerrarlas en las paradas,\nentorpeciendo la entrada de viajeros."
+        }
+      ],
+      "huella": "4b9bcf62a184"
+    },
+    {
+      "id": "xd-0139",
+      "porque": "Detenido en un túnel por un atasco, la norma pide conectar la señal de emergencia durante un tiempo, para avisar a quienes vienen detrás de que hay vehículos parados, y además mantener las luces de posición y apagar el motor.",
+      "descartes": {
+        "a": "La emergencia no sirve solo para averías y accidentes: en un atasco dentro de un túnel la norma pide expresamente conectarla.",
+        "c": "La norma dice «temporalmente», para avisar a los de detrás, no que se mantenga conectada hasta salir del túnel."
+      },
+      "truco": "En un túnel, pregúntate por qué estás parado. Si es por el tráfico, todos se quedan dentro, con la emergencia un momento para avisar, luces de posición y motor apagado. Si es por una emergencia o un incendio, todos salen hacia el refugio o la salida más próximos.",
+      "huella": "3be6c6bcc2de"
+    },
+    {
+      "id": "xd-0137",
+      "porque": "Si por una emergencia tienes que inmovilizar el vehículo en un túnel, primero intentas llevarlo a la zona reservada para emergencias más próxima en tu sentido de marcha. Si no hay, lo dejas lo más cerca posible del borde derecho de la calzada.",
+      "descartes": {
+        "a": "La norma no manda al carril izquierdo; si no hay zona de emergencia, el vehículo se deja junto al borde derecho.",
+        "b": "La zona tiene que estar en tu sentido de marcha: ir marcha atrás dentro de un túnel es justo lo que la norma evita."
+      },
+      "truco": "Emergencia en túnel: hacia delante, a la zona de emergencia; si no la hay, a la derecha.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "97.3.b",
+          "cita": "De no existir, inmovilizará el vehículo lo más cerca posible al\nborde derecho de la calzada."
+        }
+      ],
+      "huella": "ad9a645ec7a2"
+    },
+    {
+      "id": "xd-0138",
+      "porque": "Inmovilizado por una emergencia en un túnel, la norma pide una serie de pasos: apagar el motor, conectar la emergencia y mantener las luces de posición, llevar el vehículo si se puede a la zona de emergencia, y también colocar y activar el dispositivo luminoso de preseñalización de peligro.",
+      "descartes": {
+        "b": "La señal de emergencia no basta: el dispositivo de preseñalización es un paso más que la norma exige también dentro del túnel.",
+        "c": "Que el túnel tenga su señalización no te exime: la norma obliga igualmente a colocar y activar el dispositivo."
+      },
+      "truco": null,
+      "huella": "1d96e66654e7"
+    },
+    {
+      "id": "E-mec-0011",
+      "porque": "Un turismo tiene que poder seguir moviéndose tras un pinchazo. Por eso su dotación incluye una rueda completa de repuesto o una de uso temporal, con las herramientas para cambiarla, o bien un sistema alternativo que dé suficientes garantías de movilidad.",
+      "descartes": {
+        "a": "La norma sí admite alternativas a la rueda completa: una rueda de uso temporal o un sistema alternativo que garantice la movilidad.",
+        "c": "No es opcional: forma parte de la dotación obligatoria, aunque se pueda sustituir por una de las alternativas admitidas."
+      },
+      "truco": "Rueda completa, rueda de uso temporal o sistema alternativo: alguna de las tres tiene que ir en el coche.",
+      "huella": "0d106c455f29"
+    },
+    {
+      "id": "E-mec-0012",
+      "porque": "El extintor homologado es obligatorio para los autobuses, para los vehículos mixtos y de mercancías de más de 3.500 kg y para los conjuntos de vehículos no especiales. Un autobús está en esa lista siempre.",
+      "descartes": {
+        "a": "Un turismo por sí solo no está obligado a llevar extintor; solo lo necesita si arrastra un remolque, porque entonces forma un conjunto de vehículos.",
+        "b": "A las motocicletas la norma solo les exige un chaleco reflectante de alta visibilidad, no un extintor."
+      },
+      "truco": "Extintor: autobuses, mercancías y mixtos de más de 3.500 kg, y cualquier conjunto (también el coche con remolque).",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XII.3",
+          "cita": "Las motocicletas deberán llevar un chaleco reflectante de alta visibilidad que reúna los\nrequisitos de los equipos de protección individual."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.24.b",
+          "cita": "b) Tren de carretera. Automóvil constituido por un vehículo de motor enganchado a un\nremolque."
+        }
+      ],
+      "huella": "3a0a0678ad06"
+    },
+    {
+      "id": "E-mec-0013",
+      "porque": "La dotación de una motocicleta es mucho más corta que la de un turismo: la norma solo le exige un chaleco reflectante de alta visibilidad.",
+      "descartes": {
+        "b": "La V-16 y la rueda de repuesto están en la dotación de turismos y otros automóviles, pero no en la de las motocicletas, que solo incluye el chaleco.",
+        "c": "El extintor es para autobuses, vehículos de mercancías y mixtos de más de 3.500 kg y conjuntos de vehículos, no para motos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XII.1",
+          "cita": "Los turismos, así como los vehículos mixtos y los automóviles destinados al transporte\nde mercancías, estos dos últimos de masa máxima autorizada no superior a 3.500 kg,\nexcepto los vehículos de tres ruedas y cuatriciclos, llevarán la siguiente dotación:\na) El dispositivo luminoso de preseñalización de peligro V-16."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XII.2",
+          "cita": "Los autobuses, así como los vehículos mixtos y los automóviles destinados al\ntransporte de mercancías, estos dos últimos de masa máxima autorizada superior a 3.500\nkg, y los conjuntos de vehículos no especiales, deberán llevar, además de la dotación que se\nestablece en el apartado 1 a) y b), un equipo homologado de extinción de incendios"
+        }
+      ],
+      "huella": "3623ea4c3f80"
+    },
+    {
+      "id": "res-veh-0002",
+      "porque": "Un vehículo de motor enganchado a un remolque es un tren de carretera, que la ley considera un conjunto de vehículos. Y los conjuntos de vehículos no especiales tienen que llevar extintor homologado, además de la V-16 y el chaleco, sea cual sea el tamaño del remolque.",
+      "descartes": {
+        "a": "Los 750 kg son la frontera entre remolque ligero y pesado, pero la norma del extintor no distingue: cualquier conjunto de vehículos no especial debe llevarlo.",
+        "c": "No solo camiones y autobuses: la norma incluye también a los conjuntos de vehículos no especiales, como un turismo con remolque."
+      },
+      "truco": "Extintor: autobuses, mercancías y mixtos de más de 3.500 kg, y cualquier conjunto (también el coche con remolque).",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.24.b",
+          "cita": "b) Tren de carretera. Automóvil constituido por un vehículo de motor enganchado a un\nremolque."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.21",
+          "cita": "Remolque ligero. Aquél cuya masa máxima autorizada no exceda de 750 kg."
+        }
+      ],
+      "huella": "74c18044ff9b"
+    },
+    {
+      "id": "E-ada-0001",
+      "porque": "El AEB mide con un radar la distancia con el vehículo de delante. Si te acercas demasiado, primero te avisa con una voz y un sonido; si no haces caso y hay peligro de accidente, frena él de emergencia.",
+      "descartes": {
+        "b": "Evitar que las ruedas se bloqueen al frenar a fondo es lo que hace el ABS, no el AEB.",
+        "a": "Hacer parpadear las luces de freno al frenar fuerte es el aviso de frenada de emergencia (EBD), un sistema distinto."
+      },
+      "truco": "Tres siglas que se confunden: el ABS evita que las ruedas se bloqueen al frenar; el AEB frena por ti si no reaccionas ante el de delante; el EBD hace parpadear tus luces de freno para avisar al de detrás.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Sistema antibloqueo de frenos (ABS) (p. 93)",
+          "cita": "Sistema antibloqueo de frenos (ABS)\nDispositivo que evita que las ruedas\nse bloqueen al frenar."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Aviso de frenada de emergencia (EBD) (p. 94)",
+          "cita": "Cuando el conductor de delante pisa el freno\nde manera firme y rápida las luces de frenado\nde su vehículo parpadean."
+        }
+      ],
+      "huella": "b74ad999edc1"
+    },
+    {
+      "id": "E-ada-0012",
+      "porque": "Este sistema reacciona a la luz que hay fuera: mide la luz exterior y enciende o apaga las luces del vehículo de forma automática, para que se vea mejor.",
+      "descartes": {
+        "a": "Apagar la luz larga al detectar un vehículo que viene de frente lo hacen las luces de carretera automáticas, otro sistema distinto. La activación automática del alumbrado responde a la luz exterior.",
+        "c": "Este sistema mide la luz exterior, no la niebla; no es un encendido automático de los antiniebla."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Luces de carretera automáticas (p. 92)",
+          "cita": "Estas luces se apagan cuando detectan\na otro vehículo en la carretera que viene de frente\npor el carril contrario."
+        }
+      ],
+      "huella": "b4ec30965ac5"
+    },
+    {
+      "id": "E-ada-0009",
+      "porque": "El detector de ángulo muerto te avisa cuando hay otro vehículo en esa zona que no ves por los espejos. El aviso es una luz colocada en el propio espejo retrovisor, justo donde miras antes de cambiar de carril.",
+      "descartes": {
+        "a": "El detector de ángulo muerto no frena el vehículo: avisa con una luz en el retrovisor.",
+        "b": "La vibración en el acelerador no es el aviso de este sistema; el manual describe una luz en el espejo retrovisor."
+      },
+      "truco": "Ángulo muerto: la luz aparece donde miras antes de cambiar de carril, en el retrovisor.",
+      "huella": "3a85f31d65f0"
+    },
+    {
+      "id": "v5f-ada-0004",
+      "porque": "Hay dos tipos de detector de ángulo muerto: unos se encienden siempre que hay un vehículo en esa zona, y otros solo cuando pones el intermitente para cambiar de carril y hay un vehículo en el ángulo muerto.",
+      "descartes": {
+        "b": "Avisar de vehículos cuando vas marcha atrás, por ejemplo al salir de un aparcamiento, es la función del sistema de alerta de tráfico cruzado (RCTA).",
+        "c": "El manual no hace depender este aviso de la noche ni de la lluvia: depende de que haya un vehículo en el ángulo muerto y, en algunos modelos, de que pongas el intermitente."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Sistema de alerta de tráfico cruzado (RCTA) (p. 138)",
+          "cita": "Este sistema avisa al conductor\nsi hay otros vehículos detrás cuando va marcha atrás."
+        }
+      ],
+      "huella": "4f7ebe5d221c"
+    },
+    {
+      "id": "E-ada-0006",
+      "porque": "La cámara de 360 grados es del propio vehículo: capta lo que hay a su alrededor y lo muestra en la pantalla delantera, lo que ayuda mucho al aparcar.",
+      "descartes": {
+        "a": "La imagen no viene de ningún satélite ni del navegador: la captan las cámaras del propio vehículo.",
+        "b": "Las cámaras de tráfico de la vía no alimentan esa pantalla; la imagen es del propio vehículo."
+      },
+      "truco": null,
+      "huella": "149b97265ef2"
+    },
+    {
+      "id": "v5f-ada-0002",
+      "porque": "El detector de peatones funciona en dos pasos: primero avisa a quien conduce de que hay un peatón delante y, si no responde, activa él mismo los frenos y para el vehículo.",
+      "descartes": {
+        "a": "El sistema no avisa al peatón con el claxon: avisa a quien conduce y, si no reacciona, frena.",
+        "c": "Encender la emergencia no evitaría el atropello; lo que hace el sistema es activar los frenos y parar el vehículo."
+      },
+      "truco": "Detector de peatones: primero avisa, y si no reaccionas, frena.",
+      "huella": "f401c7e2df67"
+    },
+    {
+      "id": "E-ada-0002",
+      "porque": "El EBD sirve para avisar al vehículo de detrás. Cuando quien conduce pisa el freno de forma firme y rápida, las luces de freno parpadean, y así el de atrás tiene más tiempo para frenar y no chocar.",
+      "descartes": {
+        "b": "Frenar por sí solo ante un obstáculo es lo que hace el frenado autónomo de emergencia (AEB), no el EBD.",
+        "c": "Medir la presión de los neumáticos no tiene nada que ver con este sistema, que trabaja con las luces de freno."
+      },
+      "truco": "Tres siglas que se confunden: el ABS evita que las ruedas se bloqueen al frenar; el AEB frena por ti si no reaccionas ante el de delante; el EBD hace parpadear tus luces de freno para avisar al de detrás.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Frenado autónomo de emergencia (AEB) (p. 93)",
+          "cita": "Si no haces caso a estas señales\ny hay peligro de accidente\nel sistema hará un frenado de emergencia."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Sistema antibloqueo de frenos (ABS) (p. 93)",
+          "cita": "Sistema antibloqueo de frenos (ABS)\nDispositivo que evita que las ruedas\nse bloqueen al frenar."
+        }
+      ],
+      "huella": "644e8d09f33c"
+    },
+    {
+      "id": "E-ada-0003",
+      "porque": "El LDW es un sistema de aviso: si cambias de carril sin querer, por ir distraído o por haberte dormido, te avisa con una luz en el cuadro, un sonido o una vibración del asiento o del volante.",
+      "descartes": {
+        "a": "Ayudar a guiar el vehículo para no salirse del carril es la función del asistente de mantenimiento de carril (LKA); el LDW solo avisa.",
+        "b": "Detectar las señales de límite de velocidad es lo que hace el sistema de reconocimiento de señales (TSR)."
+      },
+      "truco": "LDW, solo avisa si te sales del carril sin querer; LKA, además te ayuda a guiar para no salirte.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Asistencia de mantenimiento de carril (LKA) (p. 135)",
+          "cita": "Sistema que detecta las líneas blancas\nde la carretera para ayudar al conductor a guiar su coche\ny a no salirse de su carril."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Sistema de reconocimiento de señales de tráfico (TSR) (p. 134)",
+          "cita": "Detecta las señales de límite de velocidad\nque hay en la carretera"
+        }
+      ],
+      "huella": "be25244e6319"
+    },
+    {
+      "id": "E-ada-0004",
+      "porque": "El asistente de mantenimiento de carril (LKA) detecta las líneas blancas de la carretera y ayuda a guiar el vehículo para no salirse del carril; además avisa si te sales.",
+      "descartes": {
+        "b": "El RCTA avisa de los vehículos que hay detrás cuando vas marcha atrás; no tiene que ver con las líneas del carril.",
+        "c": "El BSM avisa de los vehículos que hay en el ángulo muerto, no de las líneas de la carretera."
+      },
+      "truco": "LDW, solo avisa si te sales del carril sin querer; LKA, además te ayuda a guiar para no salirte.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Sistema de alerta de tráfico cruzado (RCTA) (p. 138)",
+          "cita": "Este sistema avisa al conductor\nsi hay otros vehículos detrás cuando va marcha atrás."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Detector de ángulos muertos (BSM) (p. 444)",
+          "cita": "Hay un sistema que se encarga de avisarte\ncuando hay otro vehículo en la zona de ángulo muerto\nque avanza hacia tu vehículo."
+        }
+      ],
+      "huella": "d59db585790d"
+    },
+    {
+      "id": "E-ada-0005",
+      "porque": "El RCTA te ayuda cuando vas marcha atrás, por ejemplo al salir de una plaza de aparcamiento: avisa con un sonido si hay un vehículo detrás demasiado cerca y puede haber choque.",
+      "descartes": {
+        "a": "Adelantar no es la maniobra de este sistema, que trabaja cuando vas marcha atrás.",
+        "b": "Al incorporarte a una autopista no circulas marcha atrás, que es cuando actúa el RCTA."
+      },
+      "truco": "RCTA: el tráfico que te cruza por detrás cuando sales marcha atrás.",
+      "huella": "7fbb447b34a6"
+    },
+    {
+      "id": "v5f-ada-0003",
+      "porque": "El TSR detecta las señales de límite de velocidad. En algunos vehículos solo muestra el límite en el cuadro; en otros, además de avisar, reduce la velocidad por sí solo cuando vas más rápido de lo que debes.",
+      "descartes": {
+        "a": "El sistema no para el vehículo en cada señal: lo que puede hacer es reducir la velocidad si vas por encima del límite.",
+        "b": "El TSR trabaja con las señales de límite de velocidad; no cambia de carril ni sigue flechas pintadas en la calzada."
+      },
+      "truco": null,
+      "huella": "b203ccfd7f4f"
+    },
+    {
+      "id": "E-ada-0008",
+      "porque": "Al arrancar en una cuesta muy inclinada, o al pasar el pie del freno al acelerador, el vehículo tiende a irse hacia atrás. El sistema de ayuda de salida en pendiente evita ese retroceso.",
+      "descartes": {
+        "a": "Este sistema actúa al arrancar en subida, no al bajar. Para bajar cuestas largas, lo que recomienda el manual es usar el freno motor.",
+        "c": "El manual no lo presenta como un sistema para ahorrar combustible, sino para que el vehículo no se vaya hacia atrás."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Freno motor (p. 93)",
+          "cita": "Se recomienda usar el freno motor\nal bajar cuestas largas."
+        }
+      ],
+      "huella": "e564d4863ebd"
+    },
+    {
+      "id": "E-ada-0007",
+      "porque": "El TSR lee las señales de límite de velocidad de la carretera y te las muestra, para que puedas ajustar la velocidad si hace falta. En algunos vehículos, además, la reduce por sí solo.",
+      "descartes": {
+        "b": "El TSR no vigila el sueño de quien conduce. Lo más parecido es el aviso de salida de carril (LDW), que avisa si te sales del carril por ir distraído o dormido.",
+        "c": "Avisar de un vehículo en el ángulo muerto es la función del detector de ángulo muerto (BSM)."
+      },
+      "truco": "TSR: «traffic sign», lee las señales de velocidad.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Aviso de salida de carril (LDW) (p. 135)",
+          "cita": "Este sistema avisa al conductor\ncuando hace un cambio de carril imprevisto\nporque va distraído o porque se ha dormido."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Detector de ángulos muertos (BSM) (p. 444)",
+          "cita": "Hay un sistema que se encarga de avisarte\ncuando hay otro vehículo en la zona de ángulo muerto\nque avanza hacia tu vehículo."
+        }
+      ],
+      "huella": "ab994293d4e0"
+    },
+    {
+      "id": "D-pos-0003",
+      "porque": "El respaldo está bien cuando te deja llegar a todos los mandos. La comprobación es sencilla: con la espalda apoyada y los brazos estirados, las muñecas tienen que poder apoyarse en la parte de arriba del volante.",
+      "descartes": {
+        "b": "La referencia no es coger el volante por abajo con los brazos rectos, sino apoyar las muñecas en la parte de arriba con la espalda pegada al respaldo.",
+        "c": "Con el pecho tocando el volante vas demasiado cerca: la referencia es poder apoyar las muñecas sobre el volante con los brazos estirados y la espalda en el respaldo."
+      },
+      "truco": "Espalda pegada, brazos estirados y muñecas sobre el volante.",
+      "huella": "6446b1a0b671"
+    },
+    {
+      "id": "D-pos-0004",
+      "porque": "Con el asiento bien ajustado llegas a los pedales y puedes pisarlos a fondo sin forzar los tobillos. Para eso las piernas no van estiradas del todo, sino ligeramente dobladas y sin rozar nada del vehículo.",
+      "descartes": {
+        "a": "Con las piernas totalmente estiradas vas demasiado lejos; el manual dice expresamente que no deben estar extendidas del todo.",
+        "c": "Con las rodillas tocando el volante vas demasiado cerca; el manual pide que las piernas no rocen con ningún elemento del vehículo."
+      },
+      "truco": null,
+      "huella": "3052e36f842d"
+    },
+    {
+      "id": "D-pos-0005",
+      "porque": "El volante se coge con las dos manos y por la parte exterior del aro, con firmeza pero sin hacer mucha fuerza. Solo se suelta una mano el tiempo justo para manejar otros mandos.",
+      "descartes": {
+        "a": "El manual dice que nunca hay que coger el volante por la parte interior.",
+        "b": "Con una sola mano no: se usan las dos, y una se suelta solo el tiempo justo para manejar otros mandos."
+      },
+      "truco": "Volante: dos manos, por fuera, firmes sin apretar y sin cruzarlas al girar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, ¿Cómo debes coger el volante? (p. 123)",
+          "cita": "Nunca hay que coger el volante\npor la parte interior."
+        }
+      ],
+      "huella": "2711be27bf8f"
+    },
+    {
+      "id": "res-seg-0004",
+      "porque": "El manual de la DGT es claro: el volante se coge con las dos manos, por la parte exterior, con firmeza pero sin mucha fuerza y sin cruzar las manos al girar.",
+      "descartes": {
+        "a": "Girar más rápido no es motivo: el manual pide no cruzar las manos al girar el volante.",
+        "c": "El manual no hace ninguna excepción para las curvas cerradas."
+      },
+      "truco": "Volante: dos manos, por fuera, firmes sin apretar y sin cruzarlas al girar.",
+      "huella": "c93d4a0bc0b5"
+    },
+    {
+      "id": "xe-0072",
+      "porque": "La antiniebla trasera solo puede ir encendida junto con una luz que alumbre hacia delante: la de carretera, la de cruce o las antiniebla delanteras. Con solo las de posición no está permitido.",
+      "descartes": {
+        "a": "Ni con niebla espesa: la condición técnica es que esté encendida también la de carretera, la de cruce o la antiniebla delantera.",
+        "b": "No funciona de forma independiente: la norma ata su encendido al de la luz de carretera, la de cruce o las antiniebla delanteras."
+      },
+      "truco": "Antiniebla trasera, nunca sola con las de posición: necesita carretera, cruce o antiniebla delantera.",
+      "huella": "b43301f7e04c"
+    },
+    {
+      "id": "xe-0073",
+      "porque": "En un vehículo solo pueden instalarse las luces que autoriza el Reglamento. Además, está prohibido expresamente usar pinturas o dispositivos luminosos o reflectantes no autorizados, salvo los casos que prevén sus anexos.",
+      "descartes": {
+        "b": "La prohibición es de instalarlas, no de encenderlas en un sitio u otro: no hay excepción para circular en poblado.",
+        "c": "El color no las convierte en autorizadas: lo que cuenta es que estén permitidas por el Reglamento."
+      },
+      "truco": null,
+      "huella": "a56f21a55c8a"
+    },
+    {
+      "id": "xe-0071",
+      "porque": "El Reglamento separa las luces obligatorias de las facultativas. Entre las obligatorias de todo automóvil están la de cruce, la de carretera y la de marcha atrás; la antiniebla delantera y la de estacionamiento son facultativas.",
+      "descartes": {
+        "a": "La antiniebla delantera es facultativa: un turismo puede llevarla, pero no está obligado.",
+        "c": "La luz de estacionamiento también es facultativa, y solo se permite en vehículos de no más de 6 m de largo y 2 m de ancho."
+      },
+      "truco": "En un automóvil, la antiniebla trasera es obligatoria y la delantera, opcional.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "17.1",
+          "cita": "Luz antiniebla delantera.\nLuz de estacionamiento, si la longitud del vehículo no es mayor de 6 metros y su anchura\nno es mayor de 2 metros."
+        }
+      ],
+      "huella": "480edaa3cc7b"
+    },
+    {
+      "id": "xe-0037",
+      "porque": "Para funcionar, el motor necesita aire y combustible. El sistema de alimentación es el que se los lleva, y tiene un filtro que limpia el aire antes de que llegue al motor.",
+      "descartes": {
+        "b": "Repartir el aceite entre las piezas del motor es la función del sistema de lubricación.",
+        "c": "Mantener el motor a buena temperatura es la función del sistema de refrigeración."
+      },
+      "truco": "Alimentación, aire y combustible; lubricación, aceite; refrigeración, temperatura.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de lubricación (p. 371)",
+          "cita": "Repartir el aceite a todas las parte\ndel motor del vehículo"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de refrigeración (p. 376)",
+          "cita": "Conseguir que el motor se mantenga\na buena temperatura para seguir funcionando"
+        }
+      ],
+      "huella": "6671346e092f"
+    },
+    {
+      "id": "xe-0038",
+      "porque": "El filtro del aire limpia la suciedad que entra al motor. Según el manual de la DGT, cuando está sucio el vehículo gasta más combustible que con el filtro limpio; y si está muy sucio o roto, puede salir humo negro por el escape.",
+      "descartes": {
+        "a": "Que entre menos aire no ahorra nada: el manual dice que con el filtro sucio se gasta más combustible, no menos.",
+        "c": "Que el motor arranque no significa que todo vaya bien: el filtro sucio aumenta el consumo aunque el coche funcione."
+      },
+      "truco": "Filtro sucio, más gasto: revísalo más en verano y por caminos con polvo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de alimentación (p. 367)",
+          "cita": "Debes revisar el filtro más veces\nen verano que en invierno\ny cuando conduces por caminos con mucho polvo."
+        }
+      ],
+      "huella": "953855a66154"
+    },
+    {
+      "id": "xe-0049",
+      "porque": "El sistema de dirección es el que convierte el giro del volante en giro de las ruedas de delante, para que puedas girar el vehículo sin problema.",
+      "descartes": {
+        "b": "Llevar la fuerza del motor a las ruedas es la función del sistema de transmisión, no de la dirección.",
+        "c": "Mantener el contacto de los neumáticos con la carretera es la función del sistema de suspensión."
+      },
+      "truco": "Dirección: del volante a las ruedas de delante. Transmisión: la fuerza del motor a las ruedas. Suspensión: las ruedas pegadas a la carretera.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de transmisión (p. 379)",
+          "cita": "Llevar la fuerza del motor a las ruedas\npara que el vehículo se pueda mover."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de suspensión (p. 382)",
+          "cita": "Mantener el contacto entre los neumáticos\ny la carretera en todo momento."
+        }
+      ],
+      "huella": "4f7f44f34277"
+    },
+    {
+      "id": "xe-0050",
+      "porque": "Si en una recta el vehículo tira hacia un lado al soltar el volante, el manual lo cuenta entre los síntomas de que algo falla en la dirección, y señala como posible causa que unos neumáticos estén más inflados que otros.",
+      "descartes": {
+        "a": "El filtro del aire sucio se nota en el consumo de combustible y, si está muy sucio, en humo negro por el escape, no en que el coche se desvíe.",
+        "c": "El manual no relaciona el espesor del aceite con que el vehículo se desvíe; lo relaciona con lo bien que circula por el motor según la temperatura."
+      },
+      "truco": "Si el coche tira hacia un lado, mira primero la presión de los neumáticos.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de alimentación (p. 367)",
+          "cita": "Además, cuando el filtro está muy sucio o roto,\npuede salir humo negro del combustible\npor el tubo de escape."
+        }
+      ],
+      "huella": "6635503ae88d"
+    },
+    {
+      "id": "xe-0051",
+      "porque": "El manual recoge la vibración del volante durante la marcha como síntoma de un problema en la dirección, y apunta como posible causa que las ruedas no estén bien equilibradas.",
+      "descartes": {
+        "a": "Que el depósito esté casi vacío no hace vibrar el volante; el manual no lo da como causa.",
+        "b": "La batería da la energía para arrancar y para otros elementos; el manual no la relaciona con que vibre el volante."
+      },
+      "truco": "Volante que vibra, ruedas mal equilibradas; coche que tira hacia un lado, neumáticos con presiones distintas.",
+      "huella": "81717804be12"
+    },
+    {
+      "id": "xe-0052",
+      "porque": "La dirección asistida reduce la fuerza que hay que hacer con el volante. La progresiva ajusta esa ayuda a la velocidad: mucha ayuda cuando vas despacio, por ejemplo al maniobrar, y algo menos a más velocidad, para que el vehículo sea más fácil de controlar.",
+      "descartes": {
+        "b": "Es justo al revés: la ayuda es mayor despacio y menor a más velocidad.",
+        "c": "Si la ayuda fuera igual a cualquier velocidad no sería progresiva: lo que la caracteriza es que cambia con la velocidad."
+      },
+      "truco": "Progresiva: despacio, volante ligero; deprisa, volante más firme.",
+      "huella": "85708495788b"
+    },
+    {
+      "id": "xe-0040",
+      "porque": "Con el motor en marcha, el circuito de carga lleva corriente a la batería y a los sistemas que la necesitan. La pieza que produce esa electricidad y la guarda en la batería es el alternador, que se mueve con una correa.",
+      "descartes": {
+        "b": "La bujía es donde salta la chispa del circuito de encendido; no produce la electricidad que carga la batería.",
+        "c": "El catalizador está en el tubo de escape y sirve para reducir la contaminación de los gases; no produce electricidad."
+      },
+      "truco": "Bujía, la chispa; alternador, la electricidad; radiador, enfría el refrigerante; bomba de agua, lo devuelve al motor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Circuito de encendido (p. 369)",
+          "cita": "Esta chispa de electricidad se enciende\nen una pieza del motor que se llama bujía."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17 (p. 451)",
+          "cita": "El catalizador se encarga de reducir la contaminación\nque producen los gases\nque salen por el tubo de escape."
+        }
+      ],
+      "huella": "0c7e2cd5ea01"
+    },
+    {
+      "id": "D-man-0001",
+      "porque": "El embrague conecta y desconecta el motor de la caja de cambios. Al pisarlo a fondo, el movimiento del motor deja de llegar a la caja de cambios y a las ruedas, y por eso es el momento de cambiar de velocidad.",
+      "descartes": {
+        "b": "Frenar con todas las ruedas es lo que hace el pedal del freno, no el del embrague.",
+        "c": "La cantidad de combustible que entra en el motor la regula el pedal del acelerador."
+      },
+      "truco": "Embrague a fondo: motor desconectado de las ruedas, momento de cambiar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Pedal del freno (p. 121)",
+          "cita": "El pedal de freno actúa\nsobre todas las ruedas del coche."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Pedal del acelerador (p. 121)",
+          "cita": "Sirve para regular la cantidad de combustible\nque entra en el motor del vehículo."
+        }
+      ],
+      "huella": "2607ab34ec64"
+    },
+    {
+      "id": "xe-0054",
+      "porque": "Al pisar el freno, la fuerza viaja por el líquido de frenos hasta las pastillas o las zapatas, que rozan con otros elementos de las ruedas y consiguen detenerlas.",
+      "descartes": {
+        "a": "Los amortiguadores no son los elementos que frenan las ruedas: el manual dice que son las pastillas o las zapatas.",
+        "b": "Las bujías son donde salta la chispa del encendido del motor; no tienen nada que ver con el frenado."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Circuito de encendido (p. 369)",
+          "cita": "Esta chispa de electricidad se enciende\nen una pieza del motor que se llama bujía."
+        }
+      ],
+      "huella": "ad6c4f9962b5"
+    },
+    {
+      "id": "xe-0055",
+      "porque": "El sistema de frenado puede tener tres funciones: el de servicio frena y detiene el vehículo; el de socorro hace lo mismo cuando falla el de servicio; y el de estacionamiento mantiene el vehículo inmóvil.",
+      "descartes": {
+        "b": "Mantener el vehículo inmóvil es la función del frenado de estacionamiento, no del de socorro.",
+        "c": "Ninguna de las funciones de frenado consiste en frenar solo las ruedas traseras en las curvas; el de socorro sustituye al de servicio si este falla."
+      },
+      "truco": "Servicio, el de siempre; socorro, el de repuesto si falla; estacionamiento, el que lo deja quieto.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "12.8.1",
+          "cita": "Frenado de estacionamiento, utilizado para mantener inmóvil el vehículo"
+        }
+      ],
+      "huella": "c8df77d11434"
+    },
+    {
+      "id": "xe-0056",
+      "porque": "Una motocicleta tiene que llevar dos dispositivos de frenado: uno que actúe por lo menos sobre la rueda trasera y otro sobre la delantera. Si lleva sidecar, no se exige frenar la rueda del sidecar.",
+      "descartes": {
+        "a": "Uno solo no basta: la norma exige dos dispositivos, uno de ellos sobre la rueda delantera.",
+        "c": "Aunque actuara sobre las dos ruedas, sería un solo dispositivo, y la norma exige dos."
+      },
+      "truco": "Moto: dos ruedas, dos frenos.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "12.8.4",
+          "cita": "Si la\nmotocicleta estuviera dotada de sidecar, no se exige el frenado de la rueda de éste."
+        }
+      ],
+      "huella": "8c0b03b2c402"
+    },
+    {
+      "id": "xe-0057",
+      "porque": "El freno motor reduce la velocidad sin usar el freno de las ruedas: al dejar de acelerar con una marcha metida, es el motor el que retiene, y más en marchas cortas. Por eso el manual lo recomienda al bajar cuestas largas.",
+      "descartes": {
+        "a": "En punto muerto el motor no retiene el vehículo, así que todo el trabajo recae en el pedal de freno, justo lo que conviene evitar en una bajada larga.",
+        "b": "Usar el freno demasiado lo calienta y hace que frene peor; en una cuesta larga eso es peligroso."
+      },
+      "truco": "Cuesta abajo larga: marcha corta y deja que frene el motor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Freno motor (p. 93)",
+          "cita": "Funciona cuando dejas de acelerar\ny, así, es el motor el que retiene el vehículo.\nSi se circula en marchas cortas (1ª o 2ª)\nel motor frena más el vehículo."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Cómo se usan los frenos? (p. 95)",
+          "cita": "No usar el freno demasiado porque se calentará\ny frenará peor."
+        }
+      ],
+      "huella": "9ba7d0a65a89"
+    },
+    {
+      "id": "xe-0058",
+      "porque": "Si los frenos frenan peor porque se han calentado de tanto usarlos, el remedio que da el manual es dejar de pisarlos: soltar el pedal para que se enfríen.",
+      "descartes": {
+        "b": "Pisar más fuerte los calienta todavía más; el manual indica soltar el pedal.",
+        "c": "El manual reserva el freno de mano, tirando de forma suave, para cuando fallan los frenos en una cuesta larga y no se pueden reducir marchas; no propone poner punto muerto."
+      },
+      "truco": "Frenos calientes, pie fuera del freno.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Qué hacer cuando fallan los frenos? (p. 96)",
+          "cita": "Si no se pueden reducir\nmarchas\ntirar de la palanca del freno\nde mano de forma suave."
+        }
+      ],
+      "huella": "c712dbb6e737"
+    },
+    {
+      "id": "xe-0059",
+      "porque": "Sin ABS, si las ruedas se bloquean pierdes el control del vehículo. Por eso el manual dice que se pisa fuerte y a fondo y, cuando notas que la rueda empieza a bloquearse, se levanta un poco el pie, pero sin dejar de frenar.",
+      "descartes": {
+        "a": "Soltar del todo el freno es justo lo que el manual dice que no hagas: hay que seguir frenando.",
+        "c": "Pisar a fondo sin soltar hasta parar es la técnica para un vehículo con ABS, que ya evita el bloqueo por sí solo."
+      },
+      "truco": "Con ABS: pisa y aguanta. Sin ABS: pisa y, si se bloquea, afloja un poco sin dejar de frenar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Cómo se usan los frenos? (p. 96)",
+          "cita": "Para frenar de emergencia en un vehículo con ABS,\ndebes pisar fuerte y a fondo el pedal de freno\nhasta que el vehículo se pare del todo."
+        }
+      ],
+      "huella": "62d9bf904ae5"
+    },
+    {
+      "id": "v5f-mec-0004",
+      "porque": "El aceite se vuelve más espeso con el frío. Por eso, con temperaturas bajas conviene un aceite más líquido, que circule bien por el motor al arrancar aunque haga mucho frío.",
+      "descartes": {
+        "a": "Un aceite más espeso es lo que conviene con el motor caliente; con frío circularía peor al arrancar.",
+        "b": "El espesor sí importa: el manual explica qué aceite conviene según la temperatura."
+      },
+      "truco": "Frío, aceite más líquido; calor, más espeso. El multigrado sirve para las dos cosas.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Clases de aceites (p. 375)",
+          "cita": "En cambio, cuando el motor está caliente\nes mejor usar un aceite más espeso."
+        }
+      ],
+      "huella": "5f3dc58f86cc"
+    },
+    {
+      "id": "xe-0041",
+      "porque": "Según el manual, el aceite se cambia con el vehículo recto y el motor parado y caliente. No hay que confundirlo con la comprobación del nivel, que se hace con el motor parado y frío.",
+      "descartes": {
+        "a": "Ni inclinado ni con el motor en marcha: el manual pide el vehículo recto y el motor parado.",
+        "c": "Recto sí, pero el motor tiene que estar parado, no al ralentí."
+      },
+      "truco": "Aceite: el nivel, con el motor parado y frío; el cambio, con el vehículo recto y el motor parado y caliente.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de lubricación (p. 372)",
+          "cita": "Para comprobar el nivel de aceite\ndebes mirar la varilla indicadora\ncuando el motor esté parado y frío."
+        }
+      ],
+      "huella": "ba0a2cce59f2"
+    },
+    {
+      "id": "xe-0042",
+      "porque": "El color del humo del escape da pistas. Según el manual, el humo blanco azulado indica que el vehículo lleva demasiado aceite.",
+      "descartes": {
+        "a": "El filtro del aire muy sucio o roto se asocia en el manual al humo negro, no al blanco azulado.",
+        "b": "La falta de líquido de frenos afecta a la frenada; el manual no la relaciona con ningún humo por el escape."
+      },
+      "truco": "Humo negro, filtro del aire muy sucio o roto. Blanco azulado, demasiado aceite. Blanco al arrancar en frío, vapor de agua normal; si sigue con el motor caliente, posible avería.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de alimentación (p. 367)",
+          "cita": "Además, cuando el filtro está muy sucio o roto,\npuede salir humo negro del combustible\npor el tubo de escape."
+        }
+      ],
+      "huella": "e8e2cedb7fb9"
+    },
+    {
+      "id": "xe-0043",
+      "porque": "Un aceite multigrado se adapta al frío y al calor, y su etiqueta lo dice con dos cifras. En 10W/40, la parte 10W indica que se reparte bien por el motor aunque haya poca temperatura.",
+      "descartes": {
+        "b": "Soportar temperaturas muy altas sin estropearse es lo que indica la segunda cifra, el 40.",
+        "c": "La etiqueta no indica ningún plazo de cambio en kilómetros; describe cómo se comporta el aceite con el frío y con el calor."
+      },
+      "truco": "La W va con el frío: 10W, bien con poca temperatura; 40, aguanta el calor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Clases de aceites (p. 375)",
+          "cita": "40 indica que puede soportar temperaturas\nmuy altas sin estropearse."
+        }
+      ],
+      "huella": "8b4abbe07bb3"
+    },
+    {
+      "id": "xe-0075",
+      "porque": "Según el manual, los aceites sintéticos resisten mejor el frío y el calor, ayudan a arrancar con mucho frío y duran más, así que hay que cambiarlos menos veces.",
+      "descartes": {
+        "a": "El aceite que sale del petróleo es el mineral. El sintético se hace en un laboratorio mezclando sustancias del petróleo y de otras materias.",
+        "b": "Es al revés: duran más, así que hay que cambiar el aceite menos veces."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Clases de aceites (p. 373)",
+          "cita": "Se hace en un laboratorio\nmezclando sustancias\ndel petróleo y de otras materias."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Clases de aceites (p. 374)",
+          "cita": "■ Dura más tiempo.\nPor lo tanto, hay que cambiar\nmenos veces el aceite del vehículo."
+        }
+      ],
+      "huella": "600ca5505326"
+    },
+    {
+      "id": "D-man-0002",
+      "porque": "En un turismo, el pie derecho se encarga del acelerador y del freno, y el izquierdo del embrague. Por eso el freno se pisa con el pie derecho, y de forma suave.",
+      "descartes": {
+        "a": "El pie izquierdo es para el embrague, no para el freno.",
+        "c": "No es indistinto: el manual indica que el freno se pisa con el pie derecho."
+      },
+      "truco": "Pie derecho, acelerar y frenar; pie izquierdo, embrague.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Pedal del acelerador (p. 121)",
+          "cita": "Este pedal se pisa con el pie derecho."
+        }
+      ],
+      "huella": "3b551ce03eed"
+    },
+    {
+      "id": "D-man-0003",
+      "porque": "En la moto, el freno de la rueda de atrás se acciona con el pie, con un pedal que suele estar en la parte derecha. El de la rueda delantera va en la mano derecha.",
+      "descartes": {
+        "a": "La palanca de la mano izquierda es el embrague, no el freno trasero.",
+        "b": "El pedal de la parte izquierda suele ser el del cambio de marchas."
+      },
+      "truco": "En la moto, el lado derecho es para acelerar y frenar (acelerador y freno delantero en la mano; freno trasero, normalmente en el pie) y el izquierdo para cambiar (embrague en la mano; cambio, normalmente en el pie).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Mandos de las motocicletas (p. 124)",
+          "cita": "Con la mano Embrague.\nizquierda\nFunciona apretando una palanca."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Mandos de las motocicletas (p. 125)",
+          "cita": "Pedal del cambio.\nSirve para cambiar la velocidad.\nSuele estar en la parte izquierda\nde la motocicleta."
+        }
+      ],
+      "huella": "9793bcb9177c"
+    },
+    {
+      "id": "D-man-0004",
+      "porque": "En la moto, el freno de la rueda delantera es una palanca de la mano derecha, en el mismo lado del manillar que el acelerador.",
+      "descartes": {
+        "b": "Con el pie se acciona el freno trasero, que suele estar a la derecha; a la izquierda suele estar el pedal del cambio.",
+        "c": "La palanca de la mano izquierda es el embrague."
+      },
+      "truco": "En la moto, el lado derecho es para acelerar y frenar (acelerador y freno delantero en la mano; freno trasero, normalmente en el pie) y el izquierdo para cambiar (embrague en la mano; cambio, normalmente en el pie).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Mandos de las motocicletas (p. 124)",
+          "cita": "Con la mano Embrague.\nizquierda\nFunciona apretando una palanca."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Mandos de las motocicletas (p. 125)",
+          "cita": "Pedal del cambio.\nSirve para cambiar la velocidad.\nSuele estar en la parte izquierda\nde la motocicleta."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Mandos de las motocicletas (p. 125)",
+          "cita": "Con los pies Pedal de freno.\nActiva el freno de la rueda de atrás.\nSuele estar en la parte derecha\nde la motocicleta."
+        }
+      ],
+      "huella": "7c0693aff4f4"
+    },
+    {
+      "id": "D-man-0005",
+      "porque": "En la moto, el embrague es una palanca que se acciona con la mano izquierda, apretándola.",
+      "descartes": {
+        "a": "El pedal que suele estar a la derecha es el freno de la rueda de atrás, no el embrague.",
+        "c": "En la mano derecha van el freno delantero y el acelerador."
+      },
+      "truco": "En la moto, el lado derecho es para acelerar y frenar (acelerador y freno delantero en la mano; freno trasero, normalmente en el pie) y el izquierdo para cambiar (embrague en la mano; cambio, normalmente en el pie).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Mandos de las motocicletas (p. 124)",
+          "cita": "Con la mano Freno delantero.\nderecha\nPalanca para frenar la rueda delantera."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 6, Mandos de las motocicletas (p. 125)",
+          "cita": "Con los pies Pedal de freno.\nActiva el freno de la rueda de atrás.\nSuele estar en la parte derecha\nde la motocicleta."
+        }
+      ],
+      "huella": "b639fa58bc24"
+    },
+    {
+      "id": "v5f-mec-0003",
+      "porque": "El nivel del líquido refrigerante tiene que estar entre las marcas de mínimo y máximo, y esa comprobación se hace con el motor frío.",
+      "descartes": {
+        "a": "El manual indica comprobarlo con el motor frío, no justo después de circular.",
+        "c": "Con el motor en marcha no es como lo indica el manual: el nivel se mira con el motor frío."
+      },
+      "truco": "Niveles de aceite y refrigerante: siempre con el motor frío.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de lubricación (p. 372)",
+          "cita": "Para comprobar el nivel de aceite\ndebes mirar la varilla indicadora\ncuando el motor esté parado y frío."
+        }
+      ],
+      "huella": "1993294d95e4"
+    },
+    {
+      "id": "xe-0045",
+      "porque": "Al arrancar en frío es normal ver humo blanco por el escape: según el manual, es vapor de agua. Solo sería mala señal si siguiera saliendo cuando el motor ya lleva un rato funcionando y está caliente.",
+      "descartes": {
+        "a": "Demasiado aceite se asocia en el manual al humo blanco azulado, no al humo blanco al arrancar en frío.",
+        "b": "El filtro del aire muy sucio o roto se asocia en el manual al humo negro."
+      },
+      "truco": "Humo negro, filtro del aire muy sucio o roto. Blanco azulado, demasiado aceite. Blanco al arrancar en frío, vapor de agua normal; si sigue con el motor caliente, posible avería.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de lubricación (p. 376)",
+          "cita": "Cuando salga un humo blanco azulado\na través del tubo de escape quiere decir\nque el vehículo lleva demasiado aceite."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de alimentación (p. 367)",
+          "cita": "Además, cuando el filtro está muy sucio o roto,\npuede salir humo negro del combustible\npor el tubo de escape."
+        }
+      ],
+      "huella": "10c51aac39e0"
+    },
+    {
+      "id": "xe-0046",
+      "porque": "El humo blanco es normal al arrancar, sobre todo con frío, porque es vapor de agua. Pero si sale cuando el motor lleva un rato funcionando y ya está caliente, el manual dice que puede indicar alguna pieza rota o una avería.",
+      "descartes": {
+        "b": "No es normal en cualquier situación: solo al arrancar, sobre todo con frío. Con el motor caliente puede ser una avería.",
+        "c": "El manual no relaciona el humo blanco con circular en una marcha demasiado larga."
+      },
+      "truco": "Humo negro, filtro del aire muy sucio o roto. Blanco azulado, demasiado aceite. Blanco al arrancar en frío, vapor de agua normal; si sigue con el motor caliente, posible avería.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
+          "cita": "Ese humo es vapor de agua.\nEs algo normal al arrancar,\nsobre todo cuando hace frío."
+        }
+      ],
+      "huella": "e884184360a7"
+    },
+    {
+      "id": "xe-0047",
+      "porque": "Si el vehículo pasa el invierno en un lugar muy frío, el líquido refrigerante se puede congelar y romper el motor o el sistema de refrigeración. Por eso conviene comprobar al principio del invierno que está en buen estado y no se va a congelar.",
+      "descartes": {
+        "a": "El manual no dice que con frío se gaste más refrigerante; el riesgo es que se congele.",
+        "c": "El manual no habla de que el refrigerante se mezcle con el aceite en invierno; el peligro es la congelación."
+      },
+      "truco": null,
+      "huella": "10e8e17ddf1e"
+    },
+    {
+      "id": "xe-0076",
+      "porque": "El líquido refrigerante recorre el motor absorbiendo su calor, se enfría en el radiador y vuelve al motor impulsado por una bomba de agua, movida por correas que hay que revisar.",
+      "descartes": {
+        "b": "El alternador produce electricidad y la guarda en la batería; no mueve el refrigerante.",
+        "c": "La batería da la energía para arrancar y alimenta otros elementos; no impulsa el refrigerante."
+      },
+      "truco": "Bujía, la chispa; alternador, la electricidad; radiador, enfría el refrigerante; bomba de agua, lo devuelve al motor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Circuito de carga (p. 369)",
+          "cita": "La pieza que permite que el vehículo\nproduzca electricidad y la guarde en la batería\nse llama alternador."
+        }
+      ],
+      "huella": "b936e8563f2f"
+    },
+    {
+      "id": "v5f-mec-0001",
+      "porque": "El circuito de encendido produce la chispa que hace que el aire y el combustible se conviertan en energía. Esa chispa salta en la bujía, por eso hay que revisarlas y cambiarlas cuando haga falta.",
+      "descartes": {
+        "b": "El radiador es donde se enfría el líquido refrigerante; no produce chispas.",
+        "c": "El alternador produce la electricidad que carga la batería, pero la chispa salta en la bujía."
+      },
+      "truco": "Bujía, la chispa; alternador, la electricidad; radiador, enfría el refrigerante; bomba de agua, lo devuelve al motor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Circuito de carga (p. 369)",
+          "cita": "La pieza que permite que el vehículo\nproduzca electricidad y la guarde en la batería\nse llama alternador."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
+          "cita": "Después este líquido va a una pieza llamada radiador.\nAllí se enfría de nuevo"
+        }
+      ],
+      "huella": "88702f6bd952"
+    },
+    {
+      "id": "v5f-mec-0002",
+      "porque": "La batería da la energía para arrancar el motor y alimenta el resto del vehículo cuando hace falta. Para que funcione bien, el manual pide mantenerla limpia, seca y bien encajada en su lugar.",
+      "descartes": {
+        "b": "El manual no habla de cubrirla de grasa: pide mantenerla limpia y seca.",
+        "c": "Con el motor en marcha, el circuito de carga lleva corriente a la batería; desconectarla no es ningún mantenimiento que indique el manual."
+      },
+      "truco": "Batería: limpia, seca y bien sujeta.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Circuito de carga (p. 369)",
+          "cita": "Se encarga de llevar la corriente eléctrica\na la batería y a todos los sistemas que lo necesitan\nmientras el motor del vehículo está en marcha."
+        }
+      ],
+      "huella": "964bf7a7e547"
+    },
+    {
+      "id": "xe-0053",
+      "porque": "La suspensión mantiene los neumáticos en contacto con la carretera. Si está en mal estado, ese contacto empeora: el vehículo pierde estabilidad, hay más riesgo de aquaplaning y necesita más espacio para frenar, sobre todo con el suelo mojado.",
+      "descartes": {
+        "a": "Es al revés: con la suspensión en mal estado el vehículo pierde estabilidad, en especial en las curvas y con viento.",
+        "c": "Es al revés: el manual dice que hay más riesgo de aquaplaning, no menos."
+      },
+      "truco": "Suspensión mala, peor contacto con el suelo: todo lo que depende del agarre empeora (estabilidad, frenada, aquaplaning).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de suspensión (p. 384)",
+          "cita": "■ El vehículo pierde estabilidad.\nEn especial en las curvas\ny cuando hay viento.\n\n■ Hay más riesgo de hacer aquaplaning."
+        }
+      ],
+      "huella": "164ab37660ee"
+    },
+    {
+      "id": "xe-0077",
+      "porque": "Entre las consecuencias de una suspensión en mal estado, el manual señala que las luces se mueven hacia arriba y hacia abajo y pueden deslumbrar a otros conductores.",
+      "descartes": {
+        "a": "El manual no dice que las luces se apaguen: dice que se mueven hacia arriba y hacia abajo.",
+        "c": "El problema no es que pierdan potencia, sino que se mueven y pueden deslumbrar."
+      },
+      "truco": null,
+      "huella": "c35d31785e52"
+    },
+    {
+      "id": "xe-0048",
+      "porque": "La primera es la marcha que manda más fuerza a las ruedas, pero también la más lenta.",
+      "descartes": {
+        "a": "Es justo al revés: la primera es la más lenta y la que más fuerza manda.",
+        "b": "El manual no la presenta como la marcha que menos consume; lo que dice es que manda más fuerza a las ruedas y es la más lenta."
+      },
+      "truco": "Primera: mucha fuerza, poca velocidad.",
+      "huella": "5c767a5ee793"
+    },
+    {
+      "id": "xe-0063",
+      "porque": "Las ranuras del dibujo hacen que el neumático no se caliente, sea más flexible, se agarre mejor y, cuando llueve, elimine el agua que coge de la carretera.",
+      "descartes": {
+        "a": "Las ranuras no están para aligerar el neumático: el manual explica que sirven para refrigerar, agarrar mejor y evacuar el agua.",
+        "b": "Las ranuras no indican la presión de inflado; esa la marca el fabricante del vehículo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 99)",
+          "cita": "El fabricante de cada vehículo es quién marca\nqué cantidad de aire deben llevar los neumáticos."
+        }
+      ],
+      "huella": "188ce4d41f5d"
+    },
+    {
+      "id": "xe-0064",
+      "porque": "Los neumáticos de los turismos y sus remolques llevan indicadores de desgaste. Su función es avisar de que las ranuras principales han llegado a la profundidad mínima de dibujo, que en un turismo es de 1,6 mm.",
+      "descartes": {
+        "b": "La presión de inflado la marca el fabricante del vehículo; los indicadores de desgaste no dicen nada de ella.",
+        "c": "Los indicadores de desgaste se refieren a la profundidad del dibujo, no a la velocidad que admite el neumático."
+      },
+      "truco": "Indicador de desgaste a ras del dibujo: has llegado al mínimo legal.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo VII.2",
+          "cita": "Los neumáticos de los vehículos comprendidos en las categorías M1, N1, O1 y O2\ndeben presentar, durante toda su utilización en las vías públicas, una profundidad en las\nranuras principales de la banda de rodadura que, como mínimo, debe ser de 1,6 mm."
+        }
+      ],
+      "huella": "03882521b9df"
+    },
+    {
+      "id": "xe-0065",
+      "porque": "Rehacer el dibujo de un neumático está prohibido como regla general. La única excepción es para los neumáticos de vehículos de más de 3,5 toneladas que vengan marcados con la palabra Regroovable o su símbolo. Un turismo no entra en esa excepción.",
+      "descartes": {
+        "a": "Bajar de 1,6 mm no da permiso para resculturar: significa que el neumático ya no cumple el mínimo y hay que cambiarlo.",
+        "c": "No hay permiso para hacerlo «una vez»: en un turismo el resculturado no está permitido."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo VII.4",
+          "cita": "y que vayan marcados con\nla palabra Regroovable o el símbolo ∪"
+        }
+      ],
+      "huella": "aaa906ae6faa"
+    },
+    {
+      "id": "xe-0066",
+      "porque": "Un vehículo debe llevar neumáticos de las dimensiones y características que previó el fabricante en su homologación, o sus equivalentes. No vale montar cualquier neumático, aunque tenga buen dibujo.",
+      "descartes": {
+        "a": "Tener más de 1,6 mm de dibujo es otra exigencia distinta; no convierte en válido un neumático de dimensiones o características no previstas.",
+        "b": "Ser más ancho que el original no es ningún criterio de la norma: lo que cuenta es que coincida con lo previsto por el fabricante o sea equivalente."
+      },
+      "truco": "Neumático válido: el que puso el fabricante en la homologación, o uno equivalente.",
+      "huella": "fc957c48fa75"
+    },
+    {
+      "id": "xe-0067",
+      "porque": "Cuando hay una restricción de movilidad invernal, los vehículos de hasta 3.500 kg de masa máxima autorizada, como un turismo, tienen que llevar neumáticos certificados 3PMSF en todos sus ejes.",
+      "descartes": {
+        "b": "Basta con los ejes de dirección y motor solo para los vehículos de más de 3.500 kg; un turismo tiene que llevarlos en todos.",
+        "c": "Solo en el eje delantero no vale: un turismo los necesita en todos sus ejes."
+      },
+      "truco": "Restricción invernal: hasta 3.500 kg, en todos los ejes; más de 3.500 kg, como mínimo en el de dirección y en los motores.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo VII.5",
+          "cita": "en el caso de los vehículos\ncon MMA > 3.500 kg estos deberán equipar neumáticos certificados 3PMSF o POR como\nmínimo en el eje de dirección y en los ejes motor."
+        }
+      ],
+      "huella": "19e9b5d69812"
+    },
+    {
+      "id": "xe-0068",
+      "porque": "Ante un pinchazo, el manual pide reducir la velocidad poco a poco hasta parar y luego inmovilizar el vehículo en un lugar seguro.",
+      "descartes": {
+        "a": "Frenar a fondo es justo lo que el manual dice que no hagas: no hay que parar de forma brusca.",
+        "c": "Acelerar es lo contrario de lo que indica el manual, que es reducir la velocidad de forma lenta hasta parar."
+      },
+      "truco": "Pinchazo: nada de frenazos; reduce poco a poco y para en un lugar seguro.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Qué debes hacer cuando se pincha una rueda? (p. 102)",
+          "cita": "■ Inmovilizar el vehículo en un lugar seguro.\nFuera de la carretera y del arcén si es posible."
+        }
+      ],
+      "huella": "185a35a806f5"
+    },
+    {
+      "id": "xe-0060",
+      "porque": "El manual aconseja controlar la presión de los neumáticos por lo menos una vez al mes, y llevar también la rueda de repuesto con la presión correcta.",
+      "descartes": {
+        "a": "Esperar a la ITV es demasiado tiempo: el manual dice como mínimo una vez al mes.",
+        "b": "Una vez al año se queda muy corto; el manual indica al menos una vez al mes."
+      },
+      "truco": "Presión: una vez al mes, y la de repuesto también.",
+      "huella": "b093a5157d90"
+    },
+    {
+      "id": "xe-0062",
+      "porque": "Según el manual, con más presión de la recomendada el neumático tiene menos contacto con el suelo, se agarra menos, el vehículo vibra más y hay más posibilidad de que la rueda reviente.",
+      "descartes": {
+        "a": "Es al revés: con exceso de presión el neumático tiene menos contacto con el suelo y se agarra menos.",
+        "c": "Con exceso de presión se desgasta más el centro que los lados."
+      },
+      "truco": "Poco aire: se calienta, se deforma, se gasta antes y consume más. Mucho aire: menos agarre, desgaste por el centro y más riesgo de reventón.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 100)",
+          "cita": "El neumático tiene menos\ncontacto con el suelo.\nPor lo tanto, se agarra\nmenos a la carretera.\nSe desgasta más\nel centro del neumático\nque los lados."
+        }
+      ],
+      "huella": "72024632c6b7"
+    },
+    {
+      "id": "E-fre-0001",
+      "porque": "El ABS es un sistema antibloqueo: evita que las ruedas se bloqueen al frenar. Así mantienes el control del vehículo y, además, frenas en menos espacio.",
+      "descartes": {
+        "a": "Frenar automáticamente ante un obstáculo es lo que hace el frenado autónomo de emergencia (AEB), no el ABS.",
+        "b": "El ABS existe precisamente para que las ruedas no se bloqueen; no frena «aunque se bloqueen»."
+      },
+      "truco": "Tres siglas que se confunden: el ABS evita que las ruedas se bloqueen al frenar; el AEB frena por ti si no reaccionas ante el de delante; el EBD hace parpadear tus luces de freno para avisar al de detrás.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Frenado autónomo de emergencia (AEB) (p. 93)",
+          "cita": "Si no haces caso a estas señales\ny hay peligro de accidente\nel sistema hará un frenado de emergencia."
+        }
+      ],
+      "huella": "688a1e23e68b"
+    },
+    {
+      "id": "v5e-fre-0001",
+      "porque": "Usar el freno demasiado lo calienta, y un freno caliente frena peor. Por eso, en las bajadas largas, el manual recomienda reducir marchas y usar el freno motor.",
+      "descartes": {
+        "a": "Es al revés: el calor por exceso de uso hace que el freno frene peor, no mejor.",
+        "b": "El freno no funciona igual: el manual dice que se calienta y frena peor."
+      },
+      "truco": "Cuesta abajo larga: marcha corta y deja que frene el motor.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Freno motor (p. 93)",
+          "cita": "Se recomienda usar el freno motor\nal bajar cuestas largas."
+        }
+      ],
+      "huella": "937db58f1293"
+    },
+    {
+      "id": "E-seg-0003",
+      "porque": "Las luces adaptativas ajustan su intensidad y la zona que iluminan según el momento: tienen en cuenta el vehículo que viene de frente, el tipo de carretera y la velocidad. Por ejemplo, las luces angulares alumbran hacia el lado al que giras y ayudan a ver en las curvas.",
+      "descartes": {
+        "a": "Encenderse solas cuando oscurece es lo que hace la activación automática del alumbrado, y además las adaptativas sí cambian la zona que iluminan.",
+        "b": "No aumentan siempre la potencia: la ajustan según lo que haga falta en cada momento."
+      },
+      "truco": "Adaptativas: se adaptan a dónde hace falta luz y cuánta.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Activación automática de alumbrado (p. 91)",
+          "cita": "Sistema que mide la luz que hay en el exterior\ny enciende o apaga las luces de forma automática"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Luces adaptativas (p. 91)",
+          "cita": "Se encienden cuando giras el volante\npara marcar el lado hacia el que va a girar\ntu vehículo.\nEsta luz te ayuda a ver mejor en las curvas."
+        }
+      ],
+      "huella": "eacaf72a373f"
+    },
+    {
+      "id": "res-luc-0002",
+      "porque": "El Reglamento de Vehículos pone la luz antiniebla trasera entre los dispositivos obligatorios de todo automóvil, mientras que la antiniebla delantera aparece entre los facultativos, que el vehículo puede llevar o no.",
+      "descartes": {
+        "a": "La trasera no es opcional: está en la lista de luces obligatorias de todo automóvil.",
+        "c": "La delantera no es obligatoria: es un dispositivo facultativo."
+      },
+      "truco": "En un automóvil, la antiniebla trasera es obligatoria y la delantera, opcional.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "16.1",
+          "cita": "Luz antiniebla trasera."
+        }
+      ],
+      "huella": "2b28414566d6"
+    },
+    {
+      "id": "xe-0069",
+      "porque": "El criterio para exigir el indicador de velocidad es lo rápido que puede ir el vehículo: todo vehículo de motor capaz de superar en llano los 40 km/h debe llevarlo, en kilómetros por hora.",
+      "descartes": {
+        "a": "La norma no lo liga a poder circular por autopista, sino a superar los 40 km/h en llano.",
+        "b": "La masa no es el criterio: lo es la velocidad que puede alcanzar en llano."
+      },
+      "truco": "Si pasa de 40 en llano, lleva velocímetro.",
+      "huella": "60eeb9010a9c"
+    },
+    {
+      "id": "xe-0070",
+      "porque": "Todo vehículo de motor debe poder ir marcha atrás, con tres excepciones: las motocicletas, los motocultores conducidos a pie y los vehículos de tres ruedas simétricas. De las opciones, solo la motocicleta está exenta.",
+      "descartes": {
+        "b": "Un turismo no está entre las excepciones: debe disponer de marcha atrás.",
+        "c": "Un camión tampoco está entre las excepciones: debe disponer de marcha atrás."
+      },
+      "truco": "Sin marcha atrás obligatoria: motos, motocultores conducidos a pie y vehículos de tres ruedas simétricas.",
+      "huella": "697962c5f199"
+    },
+    {
+      "id": "E-mec-0005",
+      "porque": "El nivel de aceite se mira con la varilla cuando el motor está parado y frío, y debe quedar entre las marcas de mínimo y máximo.",
+      "descartes": {
+        "b": "Con el motor en marcha no se mide el nivel: el manual pide el motor parado y frío.",
+        "c": "Justo después de un viaje largo el motor está caliente, y además en marcha; el manual pide comprobarlo con el motor parado y frío."
+      },
+      "truco": "Aceite: el nivel, con el motor parado y frío; el cambio, con el vehículo recto y el motor parado y caliente.",
+      "huella": "0c54d47a7542"
+    },
+    {
+      "id": "E-mec-0006",
+      "porque": "El testigo de aceite se enciende cuando hay poco aceite o no tiene la presión que necesita. Sin buena lubricación las piezas del motor se rozan, así que hay que parar y no seguir hasta saber cuál es el problema y arreglarlo.",
+      "descartes": {
+        "a": "Seguir circulando es justo lo que el manual dice que no hagas: hay que parar el vehículo.",
+        "c": "Acelerar no soluciona la falta de aceite o de presión; el manual manda parar."
+      },
+      "truco": "Testigo de aceite encendido: para ya.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de lubricación (p. 371)",
+          "cita": "para crear una capa\nque cubra las piezas del motor para protegerlas\ny evitar que se rocen unas con otras."
+        }
+      ],
+      "huella": "97a13d5f2640"
+    },
+    {
+      "id": "E-neu-0005",
+      "porque": "La profundidad del dibujo no es lo único que se exige. Un neumático tampoco puede presentar ampollas, deformaciones anormales, roturas ni signos de que se despega alguna capa. Un bulto en el costado lo deja fuera de uso aunque el dibujo esté bien.",
+      "descartes": {
+        "b": "Cumplir la profundidad mínima no basta: el neumático además no puede tener ampollas ni deformaciones.",
+        "c": "La norma no hace ninguna excepción para las vías urbanas."
+      },
+      "truco": "Dibujo bien no basta: ni bultos, ni grietas, ni cables a la vista.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo VII.4",
+          "cita": "Asimismo, no deben presentar cables al descubierto,\ngrietas o síntomas de rotura o dislocación de la carcasa."
+        }
+      ],
+      "huella": "650c69bc06c5"
+    },
+    {
+      "id": "E-neu-0006",
+      "porque": "La goma de los neumáticos se desgasta con el uso. Por eso el manual aconseja cambiarlos cada cinco años, aunque parezcan en buen estado.",
+      "descartes": {
+        "a": "Diez años es el doble de lo que indica el manual, que habla de cada cinco años.",
+        "b": "1,6 mm es la profundidad mínima legal de un turismo, pero el manual aconseja además cambiar los neumáticos cada cinco años aunque estén en buen estado."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo VII.2",
+          "cita": "Los neumáticos de los vehículos comprendidos en las categorías M1, N1, O1 y O2\ndeben presentar, durante toda su utilización en las vías públicas, una profundidad en las\nranuras principales de la banda de rodadura que, como mínimo, debe ser de 1,6 mm."
+        }
+      ],
+      "huella": "7960b832a4cd"
+    },
+    {
+      "id": "E-neu-0001",
+      "porque": "Para los turismos, las furgonetas ligeras y los remolques ligeros (categorías M1, N1, O1 y O2), el dibujo de las ranuras principales tiene que tener al menos 1,6 mm de profundidad durante toda su utilización.",
+      "descartes": {
+        "a": "1 mm es el mínimo para los vehículos pesados, como autobuses y camiones de más de 3.500 kg, no para un turismo.",
+        "b": "2 mm no es ningún mínimo legal; el de un turismo es 1,6 mm."
+      },
+      "truco": "Profundidad mínima: ligeros (turismos, furgonetas ligeras y remolques ligeros), 1,6 mm; pesados (autobuses, camiones de más de 3.500 kg y remolques pesados), 1,0 mm.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo VII.2",
+          "cita": "Los neumáticos de los vehículos comprendidos en las categorías M2, M3, N2 y N3, O3 y\nO4 deben presentar, durante toda su utilización en las vías públicas, una profundidad en las\nranuras principales de la banda de rodadura que, como mínimo, debe ser de 1,0 mm."
+        }
+      ],
+      "huella": "bdf4e2927faf"
+    },
+    {
+      "id": "E-neu-0002",
+      "porque": "Para autobuses, camiones de más de 3.500 kg y remolques pesados (categorías M2, M3, N2, N3, O3 y O4), la profundidad mínima del dibujo es 1,0 mm. El mínimo de 1,6 mm es para los vehículos ligeros.",
+      "descartes": {
+        "a": "1,6 mm es el mínimo de turismos, furgonetas ligeras y remolques ligeros, no de autobuses y camiones pesados.",
+        "b": "3 mm no es ningún mínimo legal en la norma."
+      },
+      "truco": "Profundidad mínima: ligeros (turismos, furgonetas ligeras y remolques ligeros), 1,6 mm; pesados (autobuses, camiones de más de 3.500 kg y remolques pesados), 1,0 mm.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo VII.2",
+          "cita": "Los neumáticos de los vehículos comprendidos en las categorías M1, N1, O1 y O2\ndeben presentar, durante toda su utilización en las vías públicas, una profundidad en las\nranuras principales de la banda de rodadura que, como mínimo, debe ser de 1,6 mm."
+        }
+      ],
+      "huella": "a572595e516e"
+    },
+    {
+      "id": "E-neu-0003",
+      "porque": "Los neumáticos se inflan para soportar la carga y el peso del vehículo, y es el fabricante de cada vehículo quien marca qué cantidad de aire deben llevar.",
+      "descartes": {
+        "a": "No es el fabricante del neumático: según el manual, lo marca el fabricante del vehículo.",
+        "c": "El taller no decide la presión; debe respetar la que marca el fabricante del vehículo."
+      },
+      "truco": null,
+      "huella": "abc81ebb47e6"
+    },
+    {
+      "id": "E-neu-0004",
+      "porque": "Según el manual, con exceso de presión el neumático tiene menos contacto con el suelo, se agarra menos y se desgasta más el centro que los lados.",
+      "descartes": {
+        "a": "El manual dice que con exceso de presión se desgasta más el centro que los lados, no los dos laterales.",
+        "b": "El manual no asocia el exceso de presión con el desgaste de un solo lateral; lo que se desgasta más es el centro."
+      },
+      "truco": "Poco aire: se calienta, se deforma, se gasta antes y consume más. Mucho aire: menos agarre, desgaste por el centro y más riesgo de reventón.",
+      "huella": "a5c347a7f7b3"
+    },
+    {
+      "id": "v5e-neu-0001",
+      "porque": "Con menos presión de la recomendada, el neumático se calienta, se deforma y se desgasta antes. Además se gasta más combustible, el vehículo es menos estable y tiene más riesgo de patinar con el suelo mojado.",
+      "descartes": {
+        "b": "Es al revés: con poca presión se gasta más combustible y el vehículo es menos estable.",
+        "c": "El desgaste por el centro es propio del exceso de presión, no de la falta."
+      },
+      "truco": "Poco aire: se calienta, se deforma, se gasta antes y consume más. Mucho aire: menos agarre, desgaste por el centro y más riesgo de reventón.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 100)",
+          "cita": "Se gasta más combustible.\nEl vehículo es menos\nestable."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 100)",
+          "cita": "Se desgasta más\nel centro del neumático\nque los lados."
+        }
+      ],
+      "huella": "da22047c9d22"
+    },
+    {
+      "id": "E-mec-0007",
+      "porque": "El líquido refrigerante pasa por el motor y absorbe su calor. Después va al radiador, donde se enfría, y vuelve al motor impulsado por la bomba de agua.",
+      "descartes": {
+        "b": "El cárter no es la pieza donde se enfría el refrigerante: según el manual, eso ocurre en el radiador.",
+        "c": "El depósito de combustible no forma parte del sistema de refrigeración; el refrigerante se enfría en el radiador."
+      },
+      "truco": "Bujía, la chispa; alternador, la electricidad; radiador, enfría el refrigerante; bomba de agua, lo devuelve al motor.",
+      "huella": "c63cfc7bd73d"
+    },
+    {
+      "id": "A-adv-0010",
+      "porque": "Un turismo lleva obligatoriamente retrovisor interior y exterior izquierdo. Pero si el interior no da la visión hacia atrás que exige la norma pasa a ser opcional y hay que poner un segundo retrovisor exterior en el lado derecho.",
+      "descartes": {
+        "a": "El exterior izquierdo solo no basta: cuando el interior no cubre el campo de visión, hay que añadir uno exterior derecho.",
+        "b": "Si el interior no da la visión necesaria, otro interior tampoco la daría; la solución que fija la norma es un retrovisor exterior derecho."
+      },
+      "truco": "Si por el retrovisor de dentro no ves, pon otro fuera, a la derecha.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo III.2, nota (1)",
+          "cita": "(1) Cuando el retrovisor no permita la visión de una parte de la carretera plana y horizontal desde el horizonte\nhasta una distancia de 60 m por detrás y en una anchura de 20 m, éste será opcional y deberá colocarse un\nsegundo retrovisor exterior en el lado derecho"
+        }
+      ],
+      "huella": "44f1d7a24f6f"
+    },
+    {
+      "id": "res-veh-0001",
+      "porque": "En las motocicletas, el número de retrovisores obligatorios depende de su velocidad máxima por construcción. Si supera los 100 km/h, la tabla del Reglamento exige los dos retrovisores exteriores, el izquierdo y el derecho.",
+      "descartes": {
+        "a": "Solo el izquierdo no basta para una moto de más de 100 km/h: la tabla exige también el derecho.",
+        "b": "Las motocicletas sí tienen retrovisores obligatorios; para las de más de 100 km/h, los dos exteriores."
+      },
+      "truco": "Moto de más de 100 km/h, dos espejos.",
+      "huella": "809a960374d8"
+    },
+    {
+      "id": "E-mec-0004",
+      "porque": "El filtro del aire limpia el aire que llega al motor. Según el manual, cuando está muy sucio o roto puede salir humo negro por el tubo de escape, y además se gasta más combustible.",
+      "descartes": {
+        "b": "Demasiado aceite se asocia en el manual al humo blanco azulado, no al negro.",
+        "c": "El vapor de agua al arrancar en frío es humo blanco, no negro."
+      },
+      "truco": "Humo negro, filtro del aire muy sucio o roto. Blanco azulado, demasiado aceite. Blanco al arrancar en frío, vapor de agua normal; si sigue con el motor caliente, posible avería.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de lubricación (p. 376)",
+          "cita": "Cuando salga un humo blanco azulado\na través del tubo de escape quiere decir\nque el vehículo lleva demasiado aceite."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
+          "cita": "Ese humo es vapor de agua.\nEs algo normal al arrancar,\nsobre todo cuando hace frío."
+        }
+      ],
+      "huella": "b531f1932b61"
+    },
+    {
+      "id": "E-mec-0008",
+      "porque": "La batería es la que proporciona la energía necesaria para arrancar el motor y, cuando hace falta, también alimenta el resto del vehículo.",
+      "descartes": {
+        "b": "El radiador es donde se enfría el líquido refrigerante; no da energía para arrancar.",
+        "c": "El catalizador está en el tubo de escape y sirve para reducir la contaminación de los gases."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de refrigeración (p. 377)",
+          "cita": "Después este líquido va a una pieza llamada radiador.\nAllí se enfría de nuevo"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17 (p. 451)",
+          "cita": "El catalizador se encarga de reducir la contaminación\nque producen los gases\nque salen por el tubo de escape."
+        }
+      ],
+      "huella": "0083081a8b7d"
+    },
+    {
+      "id": "E-mec-0001",
+      "porque": "La suspensión mantiene el contacto entre los neumáticos y la carretera en todo momento. Gracias a ella el vehículo no pierde estabilidad y los pasajeros viajan más cómodos.",
+      "descartes": {
+        "a": "Transmitir el movimiento del volante a las ruedas es la función del sistema de dirección.",
+        "c": "Llevar la fuerza del motor a las ruedas es la función del sistema de transmisión."
+      },
+      "truco": "Dirección: del volante a las ruedas de delante. Transmisión: la fuerza del motor a las ruedas. Suspensión: las ruedas pegadas a la carretera.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de dirección (p. 380)",
+          "cita": "Transmitir el movimiento del volante\na las ruedas de delante"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de transmisión (p. 379)",
+          "cita": "Llevar la fuerza del motor a las ruedas\npara que el vehículo se pueda mover."
+        }
+      ],
+      "huella": "5c39072cc771"
+    },
+    {
+      "id": "E-mec-0009",
+      "porque": "El sistema de transmisión es el que lleva la fuerza del motor a las ruedas para que el vehículo se pueda mover.",
+      "descartes": {
+        "a": "La dirección transmite el movimiento del volante a las ruedas de delante, no la fuerza del motor.",
+        "b": "La suspensión mantiene los neumáticos en contacto con la carretera; no lleva la fuerza del motor."
+      },
+      "truco": "Dirección: del volante a las ruedas de delante. Transmisión: la fuerza del motor a las ruedas. Suspensión: las ruedas pegadas a la carretera.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de dirección (p. 380)",
+          "cita": "Transmitir el movimiento del volante\na las ruedas de delante"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de suspensión (p. 382)",
+          "cita": "Mantener el contacto entre los neumáticos\ny la carretera en todo momento."
+        }
+      ],
+      "huella": "88f711609967"
+    },
+    {
+      "id": "E-mec-0010",
+      "porque": "Según a qué ruedas llegue el impulso del motor, el vehículo es de tracción (a las de delante), de propulsión (a las de atrás) o de tracción total (a todas). Si solo llega a las traseras, es de propulsión.",
+      "descartes": {
+        "a": "Un vehículo de tracción es el que recibe el impulso en las ruedas de delante.",
+        "c": "La tracción total lleva el impulso a todas las ruedas, no solo a las de atrás."
+      },
+      "truco": "Tracción tira desde delante; propulsión empuja desde atrás; tracción total, a todas.",
+      "huella": "a1a0d748971b"
+    },
+    {
+      "id": "v5f-veh-0001",
+      "porque": "La luneta térmica son las líneas que se ven en el cristal trasero. Quitan el hielo y el vaho que se forman en ese cristal, para que puedas ver bien hacia atrás.",
+      "descartes": {
+        "b": "La luneta térmica actúa sobre el cristal trasero, no sirve para calentar el interior del vehículo.",
+        "c": "No reduce el deslumbramiento: su función es quitar el hielo y el vaho del cristal trasero."
+      },
+      "truco": null,
+      "huella": "d429aef25a39"
+    },
+    {
+      "id": "xe-0074",
+      "porque": "El manual es claro: el limpiaparabrisas no se usa con el cristal seco porque lo puede rayar.",
+      "descartes": {
+        "a": "El motivo que da el manual no es la batería, sino que puede rayar el cristal.",
+        "c": "El lavaparabrisas es el depósito y el chorro de líquido; usar el limpiaparabrisas en seco no lo estropea, lo que puede rayarse es el cristal."
+      },
+      "truco": null,
+      "huella": "b9dfaf705022"
+    },
+    {
+      "id": "x1b-0117",
+      "porque": "La regla general es que responde quien comete la infracción, pero la Ley de Tráfico hace una excepción: en los vehículos que exigen casco a conductor y pasajero, quien conduce es responsable de que el pasajero no lo lleve.",
+      "descartes": {
+        "b": "No responde solo el pasajero: la ley hace responsable expresamente al conductor de que el pasajero no use el casco.",
+        "c": "El seguro no tiene nada que ver con la responsabilidad por esta infracción; la ley señala al conductor."
+      },
+      "truco": "En la moto, quien conduce responde por el casco de quien va detrás, y también por llevar a alguien sin la edad mínima.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "82",
+          "cita": "La responsabilidad por las infracciones a lo dispuesto en esta ley recaerá directamente\nen el autor del hecho en que consista la infracción."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "82.a",
+          "cita": "así\ncomo por transportar pasajeros que no cuenten con la edad mínima exigida."
+        }
+      ],
+      "huella": "757cfc35f32c"
+    },
+    {
+      "id": "xe-0094",
+      "porque": "Los elementos de seguridad activa sirven para evitar el accidente, y es quien conduce quien los usa: frenos, ruedas y luces. Los de seguridad pasiva reducen los daños cuando el accidente ya ocurre.",
+      "descartes": {
+        "b": "El airbag es de seguridad pasiva: no evita el accidente, reduce los daños y funciona de forma automática.",
+        "c": "El cinturón es de seguridad pasiva: protege en el accidente, no lo evita."
+      },
+      "truco": "Activa, para no chocar (frenos, ruedas, luces); pasiva, para hacerte menos daño si chocas (cinturón, airbag, reposacabezas).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Seguridad pasiva (p. 88)",
+          "cita": "Elementos que ayudan a que los pasajeros\ny otros usuarios sufran menos daños en un accidente.\nFuncionan de forma automática.\nPor ejemplo, cinturón de seguridad, airbag\ny reposacabezas."
+        }
+      ],
+      "huella": "133ff7c87a7c"
+    },
+    {
+      "id": "xe-0095",
+      "porque": "Los vehículos nuevos traen más sistemas de seguridad, pero tienen tantos accidentes como los viejos. El manual da dos motivos: pocos conductores saben para qué sirven y cómo funcionan, y muchos corren más riesgos porque confían demasiado en ellos sin ver sus límites.",
+      "descartes": {
+        "a": "El manual no culpa a que los sistemas fallen más, sino a cómo los usan los conductores.",
+        "c": "El manual no habla de que los vehículos nuevos sean más rápidos o difíciles de conducir; señala el desconocimiento y el exceso de confianza."
+      },
+      "truco": "Un sistema de seguridad ayuda, pero no conduce por ti: conoce cómo funciona y sus límites.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, La importancia del vehículo en los accidentes de tráfico (p. 87)",
+          "cita": "1. Pocos conductores saben para qué sirven\ny cómo funcionan los sistemas de seguridad\nde su vehículo."
+        }
+      ],
+      "huella": "66d1d03508f1"
+    }
+  ]
+}

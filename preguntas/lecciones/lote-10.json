@@ -1,0 +1,2127 @@
+{
+  "version": 1,
+  "lote": "10",
+  "lecciones": [
+    {
+      "id": "C-pun-0008",
+      "porque": "La Ley de Tráfico no fija la duración exacta del curso de recuperación parcial: pone un techo de quince horas. Dentro de ese techo, la orden que regula los cursos los fija en doce horas.",
+      "descartes": {
+        "a": "Diez horas no es ninguna cifra de la norma: ni el máximo legal (quince) ni la duración real del curso (doce).",
+        "c": "Veinticuatro horas es lo que dura el curso para recuperar el permiso cuando se han perdido todos los puntos, no el de recuperación parcial."
+      },
+      "truco": "Cursos de puntos: el de recuperación parcial dura 12 horas (la ley le pone un tope de 15) y el de recuperación del permiso, 24 horas (la ley lo limita a 30). Perder todo el permiso pide el doble de horas que perder parte de los puntos: 12 y 24.",
+      "apoyos": [
+        {
+          "norma": "OCURSOS",
+          "articulo": "Cuarto",
+          "cita": "Estos cursos tendrán una duración de doce horas."
+        },
+        {
+          "norma": "OCURSOS",
+          "articulo": "Quinto",
+          "cita": "Estos cursos tendrán una duración de veinticuatro horas"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "71.3",
+          "cita": "La duración de los cursos de sensibilización y reeducación vial será como máximo de 30 horas, cuando se pretenda obtener un nuevo permiso o licencia de conducción."
+        }
+      ],
+      "huella": "924c945edb05"
+    },
+    {
+      "id": "v5e-pun-0002",
+      "porque": "El curso de recuperación parcial tiene un tope de puntos, pero además nunca devuelve más de los que se han perdido. Quien ha perdido 2 puntos solo puede recuperar esos 2, y vuelve a sus 12.",
+      "descartes": {
+        "a": "6 es el máximo que permite recuperar la Ley de Tráfico con este curso, pero es un tope, no lo que se recupera siempre: nunca se recuperan más puntos de los perdidos.",
+        "b": "4 es el máximo que aún figura en la orden de 2005 (la ley lo ha subido a 6). En cualquier caso, quien ha perdido 2 no puede recuperar más de 2."
+      },
+      "truco": "El curso parcial rellena lo perdido, no regala puntos: como mucho 6 y nunca más de los que te quitaron.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "65.4",
+          "cita": "podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años"
+        },
+        {
+          "norma": "OCURSOS",
+          "articulo": "Tercero.a",
+          "cita": "permitirá al titular de la autorización para conducir la recuperación de un máximo de cuatro puntos"
+        }
+      ],
+      "huella": "9ff97097ebe7"
+    },
+    {
+      "id": "res-pun-0001",
+      "porque": "La orden que regula los cursos de sensibilización y reeducación vial fija doce horas para el de recuperación parcial de puntos. La Ley de Tráfico solo dice que no puede pasar de quince, y doce cumple ese límite.",
+      "descartes": {
+        "a": "Veinte horas no corresponde a ningún curso: el de recuperación parcial dura 12 y el de recuperación del permiso, 24.",
+        "b": "Diez horas no es la duración del curso; es una cifra que se oye a menudo, pero la orden fija doce."
+      },
+      "truco": "Cursos de puntos: el de recuperación parcial dura 12 horas (la ley le pone un tope de 15) y el de recuperación del permiso, 24 horas (la ley lo limita a 30). Perder todo el permiso pide el doble de horas que perder parte de los puntos: 12 y 24.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "65.4",
+          "cita": "En todo caso, la duración de los citados cursos será como máximo de quince horas."
+        },
+        {
+          "norma": "OCURSOS",
+          "articulo": "Quinto",
+          "cita": "Estos cursos tendrán una duración de veinticuatro horas"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "71.3",
+          "cita": "La duración de los cursos de sensibilización y reeducación vial será como máximo de 30 horas, cuando se pretenda obtener un nuevo permiso o licencia de conducción."
+        }
+      ],
+      "huella": "d41b43166a68"
+    },
+    {
+      "id": "res-pun-0002",
+      "porque": "Quien ha perdido todos los puntos necesita el curso de recuperación del permiso, que es más largo que el parcial: la orden lo fija en veinticuatro horas, dentro del máximo de 30 que permite la ley.",
+      "descartes": {
+        "b": "Doce horas es la duración del curso de recuperación parcial, para quien conserva puntos y quiere recuperar algunos.",
+        "c": "Veinte horas no es la duración de ningún curso de puntos; el de recuperación del permiso dura 24."
+      },
+      "truco": "Cursos de puntos: el de recuperación parcial dura 12 horas (la ley le pone un tope de 15) y el de recuperación del permiso, 24 horas (la ley lo limita a 30). Perder todo el permiso pide el doble de horas que perder parte de los puntos: 12 y 24.",
+      "apoyos": [
+        {
+          "norma": "OCURSOS",
+          "articulo": "Cuarto",
+          "cita": "Estos cursos tendrán una duración de doce horas."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "71.3",
+          "cita": "La duración de los cursos de sensibilización y reeducación vial será como máximo de 30 horas, cuando se pretenda obtener un nuevo permiso o licencia de conducción."
+        }
+      ],
+      "huella": "f63c4c41b8d6"
+    },
+    {
+      "id": "xb-0060",
+      "porque": "Los cursos de conducción segura y eficiente son un premio para quien tiene saldo positivo: suman dos puntos, sin pasar de quince, y como mucho se puede hacer un curso de cada tipo cada dos años.",
+      "descartes": {
+        "a": "Seis puntos es el máximo del curso de recuperación parcial, que es otro curso y sirve para recuperar puntos perdidos, no para sumar puntos extra.",
+        "b": "Es falso que solo devuelvan puntos los cursos de sensibilización: la ley da expresamente dos puntos por superar un curso de conducción segura y eficiente."
+      },
+      "truco": "Los 15 puntos son el techo de todo lo que se suma de más: la bonificación por no tener sanciones y los +2 de los cursos de conducción segura.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "65.4",
+          "cita": "podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "63.4",
+          "cita": "recibirán como bonificación dos puntos durante los tres primeros años y un punto por los tres siguientes, pudiendo llegar a acumular hasta un máximo de quince puntos en lugar de los doce iniciales."
+        }
+      ],
+      "huella": "8363ffe541cc"
+    },
+    {
+      "id": "xb-0061",
+      "porque": "Los puntos están ligados al permiso, así que solo se pierden cuando la infracción se comete conduciendo un vehículo para el que se exige permiso o licencia. La bicicleta no lo exige: habrá multa, pero no pérdida de puntos.",
+      "descartes": {
+        "b": "Tener permiso B no hace que los puntos se pierdan con cualquier vehículo: cuenta el vehículo con el que se comete la infracción, y la bicicleta no requiere permiso.",
+        "c": "No existe ninguna regla de «mitad de puntos»: o el vehículo exige permiso y se pierden los puntos del baremo, o no lo exige y no se pierde ninguno."
+      },
+      "truco": "Pregúntate: «¿para llevar este vehículo hace falta permiso o licencia?». Si la respuesta es no, como en la bicicleta, no hay puntos en juego.",
+      "huella": "124956a53d5d"
+    },
+    {
+      "id": "C-pun-0009",
+      "porque": "Perder todos los puntos deja el permiso sin vigencia, y la ley impone una espera antes de poder obtener otro. Para un conductor no profesional que lo pierde por primera vez son seis meses desde la notificación.",
+      "descartes": {
+        "a": "Tres meses es el plazo reducido de los conductores profesionales, no el de un conductor no profesional.",
+        "b": "Doce meses es para quien vuelve a perder todos los puntos en los tres años siguientes a obtener el nuevo permiso, no para la primera vez."
+      },
+      "truco": "Tras perder todos los puntos: 6 meses de espera la primera vez y 12 si vuelve a ocurrir en los tres años siguientes al nuevo permiso. Para profesionales, la mitad: 3 y 6 meses. Siempre contados desde la notificación.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "71.1",
+          "cita": "hasta transcurridos seis meses desde la notificación del acuerdo. Este plazo se reducirá a tres meses en el caso de conductores profesionales."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "71.1",
+          "cita": "no se podrá obtener un nuevo permiso o licencia de conducción hasta transcurridos doce meses desde la notificación del acuerdo. Este plazo se reducirá a seis meses en el caso de conductores profesionales."
+        }
+      ],
+      "huella": "e84636b69f8d"
+    },
+    {
+      "id": "C-pun-0010",
+      "porque": "La regla general es esperar seis meses desde la notificación, pero la ley reduce ese plazo a tres meses para los conductores profesionales.",
+      "descartes": {
+        "b": "Seis meses es el plazo general de un conductor no profesional que pierde los puntos por primera vez; para un profesional se reduce a tres.",
+        "c": "Un mes no aparece en la norma: el plazo más corto que contempla es el de tres meses de los profesionales."
+      },
+      "truco": "Tras perder todos los puntos: 6 meses de espera la primera vez y 12 si vuelve a ocurrir en los tres años siguientes al nuevo permiso. Para profesionales, la mitad: 3 y 6 meses. Siempre contados desde la notificación.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "71.1",
+          "cita": "no se podrá obtener un nuevo permiso o licencia de conducción hasta transcurridos doce meses desde la notificación del acuerdo. Este plazo se reducirá a seis meses en el caso de conductores profesionales."
+        }
+      ],
+      "huella": "cda982fd5f3d"
+    },
+    {
+      "id": "C-pun-0011",
+      "porque": "Pasado el plazo de espera, el permiso no vuelve solo: hay que hacer y superar el curso de sensibilización y reeducación vial de recuperación del permiso y después aprobar una prueba de control de conocimientos.",
+      "descartes": {
+        "a": "No se exige repetir todo el proceso de obtención del permiso sin curso: la norma pide precisamente el curso de recuperación del permiso y después la prueba de control de conocimientos.",
+        "c": "Esperar el plazo es necesario, pero no basta: sin el curso y la prueba posterior no se obtiene el nuevo permiso."
+      },
+      "truco": "Recuperar el permiso: esperar el plazo, hacer el curso de recuperación del permiso (24 horas) y aprobar la prueba de control de conocimientos. Vuelves con 8 puntos, pero con la misma clase de permiso y la misma antigüedad.",
+      "apoyos": [
+        {
+          "norma": "OCURSOS",
+          "articulo": "Quinto",
+          "cita": "Estos cursos tendrán una duración de veinticuatro horas"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "38.1",
+          "cita": "podrá obtener nuevamente un permiso o licencia de conducción de la misma clase de la que era titular y con la misma antigüedad"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "63.2",
+          "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
+        }
+      ],
+      "huella": "ca601014a6ac"
+    },
+    {
+      "id": "C-pun-0012",
+      "porque": "Quien recupera el permiso tras perder todos los puntos está en uno de los dos casos en que la ley da solo ocho puntos de partida, igual que los conductores con poca antigüedad.",
+      "descartes": {
+        "a": "12 puntos es el crédito inicial general, pero quien vuelve tras perderlos todos es una de las excepciones y empieza con 8. Llegará a 12 si pasan dos años sin sanciones firmes que quiten puntos.",
+        "b": "6 puntos no es ningún saldo inicial; es el máximo que se puede recuperar con un curso de recuperación parcial."
+      },
+      "truco": "Empiezan con 8 puntos quienes tienen el permiso desde hace tres años o menos (sin otro anterior con esa antigüedad) y quienes lo recuperan tras perderlos todos. Si pasan dos años sin sanciones firmes que quiten puntos, suben a 12.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "63.2",
+          "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "65.2",
+          "cita": "transcurrido el plazo de dos años sin haber sido sancionados en firme en vía administrativa por la comisión de infracciones que impliquen la pérdida de puntos, pasarán a disponer de un total de doce puntos"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "65.4",
+          "cita": "podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años"
+        }
+      ],
+      "huella": "4db1ec844af9"
+    },
+    {
+      "id": "C-pun-0013",
+      "porque": "Perder todos los puntos hace perder la vigencia del permiso, pero no su historia: la ley dice expresamente que la antigüedad permanece en el permiso que se obtiene después.",
+      "descartes": {
+        "b": "La antigüedad no se reinicia: la ley mantiene la del permiso anterior en los permisos obtenidos tras la pérdida total de puntos.",
+        "c": "La ley no distingue aquí entre profesionales y no profesionales; la antigüedad se conserva para cualquier titular."
+      },
+      "truco": "Recuperar el permiso: esperar el plazo, hacer el curso de recuperación del permiso (24 horas) y aprobar la prueba de control de conocimientos. Vuelves con 8 puntos, pero con la misma clase de permiso y la misma antigüedad.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "63.2",
+          "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
+        }
+      ],
+      "huella": "37dc43e753fd"
+    },
+    {
+      "id": "v5e-pun-0003",
+      "porque": "Repetir la pérdida total de puntos en los tres años siguientes a obtener el nuevo permiso alarga la espera: para un conductor no profesional pasa de seis a doce meses desde la notificación.",
+      "descartes": {
+        "a": "Seis meses es la espera de la primera pérdida total (o la de un profesional que reincide), no la de un no profesional que reincide en esos tres años.",
+        "c": "Tres meses es la espera de un conductor profesional que pierde los puntos por primera vez."
+      },
+      "truco": "Tras perder todos los puntos: 6 meses de espera la primera vez y 12 si vuelve a ocurrir en los tres años siguientes al nuevo permiso. Para profesionales, la mitad: 3 y 6 meses. Siempre contados desde la notificación.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "71.1",
+          "cita": "hasta transcurridos seis meses desde la notificación del acuerdo. Este plazo se reducirá a tres meses en el caso de conductores profesionales."
+        }
+      ],
+      "huella": "d52461e28582"
+    },
+    {
+      "id": "C-pun-0003",
+      "porque": "El conductor novel empieza con 8 puntos y pasa a 12 cuando lleva dos años sin ser sancionado en firme por infracciones que quiten puntos. Lo que cuenta es ese tiempo sin sanciones, no llevar o no llevar la L.",
+      "descartes": {
+        "a": "Al año deja de llevar la L, pero eso es una cuestión de la señal V-13, no de los puntos: para llegar a 12 hacen falta dos años sin sanciones firmes que quiten puntos.",
+        "b": "Los tres años son la antigüedad del permiso que da derecho a empezar con 8 puntos; y si ha habido sanciones firmes que quiten puntos, no se pasa a 12."
+      },
+      "truco": "Cada número, a lo suyo: 1 año con la L de novel; 3 años o menos de antigüedad para empezar con 8 puntos; 2 años sin sanciones firmes que quiten puntos para pasar de 8 a 12.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-13",
+          "cita": "Deberán llevar esta señal los vehículos cuyos conductores hayan obtenido por primera vez un permiso de conducción durante el período de un año."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "63.2",
+          "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
+        }
+      ],
+      "huella": "cd0bee375058"
+    },
+    {
+      "id": "C-pun-0004",
+      "porque": "Si conservas parte de tus puntos y pasas dos años sin sanciones firmes por infracciones que los quiten, la ley te devuelve de golpe todo el crédito inicial de doce puntos, tengas los que tengas.",
+      "descartes": {
+        "b": "2 puntos es lo que suma un curso de conducción segura o la bonificación por mantener todos los puntos, no lo que se recupera por dos años sin sanciones.",
+        "c": "4 puntos es el máximo de recuperación parcial que aún recoge la orden de cursos; aquí no hace falta curso: dos años sin sanciones devuelven el saldo completo."
+      },
+      "truco": "Dos años sin sanciones firmes que quiten puntos lo arreglan todo: con 5 o con 11, vuelves a 12.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "63.4",
+          "cita": "recibirán como bonificación dos puntos durante los tres primeros años y un punto por los tres siguientes, pudiendo llegar a acumular hasta un máximo de quince puntos en lugar de los doce iniciales."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "63.5",
+          "cita": "compensará con dos puntos adicionales hasta un máximo de quince puntos"
+        },
+        {
+          "norma": "OCURSOS",
+          "articulo": "Tercero.a",
+          "cita": "permitirá al titular de la autorización para conducir la recuperación de un máximo de cuatro puntos"
+        }
+      ],
+      "huella": "efca76590d32"
+    },
+    {
+      "id": "C-pun-0001",
+      "porque": "La regla general es que todo titular de un permiso o licencia empieza con doce puntos. Solo en dos casos excepcionales se empieza con ocho.",
+      "descartes": {
+        "b": "8 puntos es la excepción: para quien tiene el permiso desde hace tres años o menos y para quien lo recupera tras perder todos los puntos.",
+        "c": "15 puntos es el máximo que se puede acumular con las bonificaciones por no tener sanciones, no el crédito inicial."
+      },
+      "truco": "Empiezan con 8 puntos quienes tienen el permiso desde hace tres años o menos (sin otro anterior con esa antigüedad) y quienes lo recuperan tras perderlos todos. Si pasan dos años sin sanciones firmes que quiten puntos, suben a 12.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "63.2",
+          "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "63.4",
+          "cita": "recibirán como bonificación dos puntos durante los tres primeros años y un punto por los tres siguientes, pudiendo llegar a acumular hasta un máximo de quince puntos en lugar de los doce iniciales."
+        }
+      ],
+      "huella": "f3b59042a370"
+    },
+    {
+      "id": "C-pun-0002",
+      "porque": "Quien obtiene su primer permiso tiene, por definición, una antigüedad no superior a tres años, y ese es uno de los casos excepcionales en que la ley da solo ocho puntos de partida.",
+      "descartes": {
+        "a": "12 puntos es el crédito inicial general; el conductor que acaba de obtener su primer permiso es una de las excepciones y llegará a 12 tras dos años sin sanciones firmes que quiten puntos.",
+        "c": "6 puntos no es ningún saldo inicial; es el máximo que se puede recuperar con un curso de recuperación parcial."
+      },
+      "truco": "Empiezan con 8 puntos quienes tienen el permiso desde hace tres años o menos (sin otro anterior con esa antigüedad) y quienes lo recuperan tras perderlos todos. Si pasan dos años sin sanciones firmes que quiten puntos, suben a 12.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "63.1",
+          "cita": "Al titular de un permiso o licencia de conducción se le asignará un crédito inicial de doce puntos."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "65.2",
+          "cita": "transcurrido el plazo de dos años sin haber sido sancionados en firme en vía administrativa por la comisión de infracciones que impliquen la pérdida de puntos, pasarán a disponer de un total de doce puntos"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "65.4",
+          "cita": "podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años"
+        }
+      ],
+      "huella": "92d439d06b15"
+    },
+    {
+      "id": "xb-0089",
+      "porque": "Para que las víctimas no queden desprotegidas cuando no hay a quién reclamar, la ley encarga al Consorcio de Compensación de Seguros indemnizar los daños personales causados en España por un vehículo desconocido.",
+      "descartes": {
+        "a": "Que no se identifique al culpable no deja a la víctima sin indemnización: para ese caso existe precisamente el Consorcio de Compensación de Seguros.",
+        "c": "Ninguna norma pone esta indemnización a cargo del ayuntamiento; la ley se la atribuye al Consorcio de Compensación de Seguros."
+      },
+      "truco": "Si quien causa el daño no tiene seguro o ni siquiera se le identifica, quien indemniza es el Consorcio de Compensación de Seguros, dentro de los límites del seguro obligatorio. Con un vehículo desconocido, cubre sobre todo los daños a las personas.",
+      "apoyos": [
+        {
+          "norma": "LRCSCVM",
+          "articulo": "11.1.b.i",
+          "cita": "en ambos casos cuando dicho vehículo a motor no esté asegurado."
+        }
+      ],
+      "huella": "fb01db9d11e8"
+    },
+    {
+      "id": "xb-0090",
+      "porque": "No llevar el cinturón no causa el accidente, pero sí puede agravar las lesiones. La ley lo trata como contribución de la víctima al daño y permite reducir su indemnización, como máximo un 75 %.",
+      "descartes": {
+        "a": "La ley no quita toda la indemnización por no llevar el cinturón: permite reducirla, con un tope del 75 %.",
+        "b": "No hace falta causar el accidente: basta con haber contribuido a agravar el daño por no usar el cinturón, y eso permite reducir la indemnización."
+      },
+      "truco": "Sin cinturón o sin casco, una víctima adulta no pierde la indemnización, pero se la pueden recortar: como mucho, tres cuartas partes.",
+      "huella": "f034c4b36f77"
+    },
+    {
+      "id": "xb-0088",
+      "porque": "El seguro obligatorio protege a las víctimas, así que frente a ellas la aseguradora no puede usar las cláusulas que excluyen al conductor sin permiso: tiene que indemnizar. Lo que la ley le permite es repetir después contra el tomador o asegurado, si el contrato lo prevé.",
+      "descartes": {
+        "b": "Esa exclusión puede estar en la póliza, pero la ley prohíbe oponerla a los perjudicados; como mucho sirve para que la aseguradora repita después.",
+        "c": "La ley no hace ninguna excepción según quién sea el propietario: la cláusula de conductor sin permiso no puede oponerse a las víctimas en ningún caso."
+      },
+      "truco": "Frente a las víctimas, el seguro paga primero y reclama después: la conducción sin permiso no le libra de indemnizar.",
+      "apoyos": [
+        {
+          "norma": "LRCSCVM",
+          "articulo": "10.c",
+          "cita": "Contra el tomador del seguro o asegurado, por las causas previstas en la Ley 50/1980, de 8 de octubre, de Contrato de Seguro, y, conforme a lo previsto en el contrato, en el caso de conducción del vehículo por quien carezca del permiso de conducir."
+        }
+      ],
+      "huella": "83086ee6ad00"
+    },
+    {
+      "id": "xb-0092",
+      "porque": "La regla general es que todo vehículo a motor esté asegurado, pero la ley exceptúa al que está dado de baja, temporal o definitiva, en el registro de la DGT y no se usa como medio de transporte.",
+      "descartes": {
+        "a": "La obligación tiene excepciones expresas, y una de ellas es justo la del vehículo dado de baja que no se usa como medio de transporte.",
+        "c": "Los daños propios no forman parte del seguro obligatorio, y un vehículo dado de baja que no se usa está exceptuado de asegurarse."
+      },
+      "truco": null,
+      "huella": "dea7aaecb6a6"
+    },
+    {
+      "id": "xb-0086",
+      "porque": "El seguro obligatorio tiene dos topes por siniestro: 70 millones de euros para los daños a las personas, sin importar cuántas víctimas haya, y 15 millones para los daños en los bienes.",
+      "descartes": {
+        "a": "15 millones es el tope de los daños en los bienes, y además se cuenta por siniestro, no por cada víctima.",
+        "c": "6 millones no es el tope vigente del seguro obligatorio: para daños a las personas la ley fija 70 millones por siniestro."
+      },
+      "truco": "70 para las personas, 15 para las cosas, y siempre por siniestro: las personas valen más.",
+      "apoyos": [
+        {
+          "norma": "LRCSCVM",
+          "articulo": "4.2.b",
+          "cita": "b) en los daños en los bienes, 15 millones de euros por siniestro."
+        }
+      ],
+      "huella": "6aec31981fca"
+    },
+    {
+      "id": "xb-0091",
+      "porque": "Con daños a las personas, el conductor solo se libra si prueba la culpa exclusiva del perjudicado o una fuerza mayor ajena a la conducción y al vehículo. La ley dice expresamente que los defectos del vehículo y el fallo de sus piezas no son fuerza mayor.",
+      "descartes": {
+        "b": "Que no dependa de su voluntad no basta: la fuerza mayor tiene que ser extraña al funcionamiento del vehículo, y un fallo de frenos no lo es.",
+        "c": "Tener la ITV en vigor no cambia nada: la ley excluye en todo caso los defectos y fallos de piezas del vehículo como fuerza mayor."
+      },
+      "truco": "La fuerza mayor tiene que venir de fuera del coche. Si falla algo del propio vehículo (frenos, ruedas, cualquier pieza), responde el conductor.",
+      "apoyos": [
+        {
+          "norma": "LRCSCVM",
+          "articulo": "1.1",
+          "cita": "solo quedará exonerado cuando pruebe que los daños fueron debidos a la culpa exclusiva del perjudicado o a fuerza mayor extraña a la conducción o al funcionamiento del vehículo"
+        }
+      ],
+      "huella": "380239448826"
+    },
+    {
+      "id": "xb-0087",
+      "porque": "Circular sin seguro obligatorio prohíbe circular con ese vehículo y lleva a su depósito o precinto, a cargo del propietario, hasta que se contrate el seguro, además de una multa.",
+      "descartes": {
+        "a": "El permiso del conductor no tiene que ver con el seguro del vehículo: aunque esté en vigor, el vehículo sin seguro no puede circular y puede ser depositado o precintado.",
+        "b": "La ley no prevé retirar la tarjeta de inspección técnica por no tener seguro; prevé la prohibición de circular, el depósito o precinto y una multa."
+      },
+      "truco": "Sin seguro: no circula, se queda depositado o precintado (pagando el propietario) hasta que se asegure, y además hay multa.",
+      "apoyos": [
+        {
+          "norma": "LRCSCVM",
+          "articulo": "3.1",
+          "cita": "a) La prohibición de circulación por territorio nacional de los vehículos no asegurados."
+        },
+        {
+          "norma": "LRCSCVM",
+          "articulo": "3.1.c",
+          "cita": "Una sanción pecuniaria de 601 a 3.005 euros de multa"
+        }
+      ],
+      "huella": "d870e5125a7d"
+    },
+    {
+      "id": "v5d-sev-0001",
+      "porque": "La señal de transporte escolar tiene que verse tanto por quien viene de frente como por quien va detrás. Por eso se coloca dentro del vehículo, en la parte frontal y en la posterior, de modo que se vea desde fuera.",
+      "descartes": {
+        "a": "La norma no la coloca en el lateral ni por fuera: va por dentro, delante y detrás.",
+        "c": "No basta con la parte trasera: la V-10 va delante y detrás. La posición trasera izquierda es la de la señal V-13 de conductor novel."
+      },
+      "truco": "Escolar: por dentro, delante y detrás.",
+      "huella": "900a458b2a22"
+    },
+    {
+      "id": "C-sev-0004",
+      "porque": "La L verde de conductor novel acompaña solo el primer año desde que se obtiene por primera vez un permiso de conducción.",
+      "descartes": {
+        "b": "Dos años es el plazo sin sanciones firmes que quiten puntos para pasar de 8 a 12 puntos, no el de la señal V-13.",
+        "c": "Tres años es la antigüedad de permiso con la que se empieza con 8 puntos, no el tiempo de llevar la L."
+      },
+      "truco": "Cada número, a lo suyo: 1 año con la L de novel; 3 años o menos de antigüedad para empezar con 8 puntos; 2 años sin sanciones firmes que quiten puntos para pasar de 8 a 12.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "65.2",
+          "cita": "transcurrido el plazo de dos años sin haber sido sancionados en firme en vía administrativa por la comisión de infracciones que impliquen la pérdida de puntos, pasarán a disponer de un total de doce puntos"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "63.2",
+          "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos: a) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad. b) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción."
+        }
+      ],
+      "huella": "c1ba208c99e7"
+    },
+    {
+      "id": "C-sev-0005",
+      "porque": "La señal V-13 se pone en la parte posterior izquierda del vehículo, en un sitio visible. Solo en motocicletas, vehículos de tres ruedas y vehículos para personas de movilidad reducida basta con que vaya visible en la parte posterior.",
+      "descartes": {
+        "a": "El lado que fija la norma es el izquierdo, no el derecho.",
+        "c": "La V-13 no va en el parabrisas ni delante: va detrás, en la parte izquierda."
+      },
+      "truco": "La L, en el lado del conductor y mirando hacia atrás: detrás a la izquierda.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-13",
+          "cita": "Por excepción, en las motocicletas, vehículos para personas de movilidad reducida y vehículos de tres ruedas, será suficiente que la señal vaya colocada en sitio visible de la parte posterior."
+        }
+      ],
+      "huella": "85e9cc1a2a6b"
+    },
+    {
+      "id": "C-sev-0006",
+      "porque": "La norma da dos tamaños de placa V-13: uno pequeño para motocicletas, vehículos de tres ruedas, cuadriciclos y de movilidad reducida, y otro para los demás. Un turismo lleva el grande: 150 mm de ancho y 195 mm de alto.",
+      "descartes": {
+        "a": "Son las mismas cifras, pero al revés: la placa es más alta que ancha, 150 de ancho por 195 de alto.",
+        "b": "100 por 130 mm es la placa pequeña, la de motocicletas, vehículos de tres ruedas, cuadriciclos y de movilidad reducida."
+      },
+      "truco": "La placa es más alta que ancha, como la propia L: 150 de ancho por 195 de alto en turismos y 100 por 130 en motos.",
+      "huella": "9d674f1223bb"
+    },
+    {
+      "id": "v5d-sev-0002",
+      "porque": "Los vehículos de autoescuela llevan la V-14 delante y detrás, pero solo debe verse cuando el vehículo circula en función de la enseñanza o de las pruebas de aptitud. Cuando se usa para otra cosa, no debe estar a la vista.",
+      "descartes": {
+        "b": "Solo detrás y a la izquierda es la colocación de la L de conductor novel; la V-14 va delante y detrás, y no siempre visible.",
+        "c": "La V-14 no va en el techo, y si el profesor conduce sin dar clase ni examen, la señal no debe ser visible."
+      },
+      "truco": "V-14, la de «PRÁCTICAS»: delante y detrás, y a la vista solo mientras hay clase o examen.",
+      "huella": "3fdbda2c1bc3"
+    },
+    {
+      "id": "E-aux-0011",
+      "porque": "La dotación obligatoria de un turismo es una lista cerrada (dispositivo V-16, chaleco reflectante y rueda de repuesto o alternativa) y el botiquín no está en ella. Aun así, el manual de la DGT aconseja llevarlo.",
+      "descartes": {
+        "a": "El botiquín no figura en la dotación obligatoria del turismo; se recomienda, pero no se exige.",
+        "c": "Ninguna norma lo hace obligatorio según el tipo de vía; es recomendable en cualquier viaje."
+      },
+      "truco": "Dotación obligatoria de un turismo: la V-16, el chaleco reflectante y la rueda de repuesto (o una alternativa). El botiquín es recomendable, pero no obligatorio.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XII.1",
+          "cita": "a) El dispositivo luminoso de preseñalización de peligro V-16. b) Un chaleco reflectante de alta visibilidad"
+        }
+      ],
+      "huella": "43b0f76308b0"
+    },
+    {
+      "id": "E-acc-0006",
+      "porque": "El número de emergencias para pedir ayuda en un accidente es el 112, que sirve para activar los servicios que hagan falta. Si no tienes móvil, el manual de la DGT indica ir al poste SOS más cercano.",
+      "descartes": {
+        "a": "El manual de la DGT no indica el 091 para un accidente: indica el número de emergencias 112.",
+        "c": "El 060 no es el número de emergencias que indica el manual; para un accidente se llama al 112."
+      },
+      "truco": "Un solo número para pedir ayuda: el 112. Si no tienes móvil, el poste SOS más cercano.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Avisar (p. 419)",
+          "cita": "Si no tienes móvil, puedes ir al poste SOS más cercano para avisar."
+        }
+      ],
+      "huella": "19447df5b777"
+    },
+    {
+      "id": "E-acc-0005",
+      "porque": "El chaleco sirve para que te vean cuando estás a pie en la vía. Por eso es obligatorio en cuanto el conductor sale del turismo y ocupa la calzada o el arcén de una vía interurbana, sea de día o de noche.",
+      "descartes": {
+        "b": "La norma no distingue entre día y noche: el chaleco es obligatorio siempre que salgas y ocupes la calzada o el arcén de una interurbana.",
+        "c": "No es solo para colocar una señal: la obligación nace al salir del vehículo y pisar la calzada o el arcén de una interurbana, para lo que sea."
+      },
+      "truco": "Pie en la calzada o en el arcén de una interurbana, chaleco puesto. El manual aconseja ponértelo antes de bajarte.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Proteger (p. 417)",
+          "cita": "Ponerte el chaleco reflectante antes de salir del vehículo."
+        }
+      ],
+      "huella": "3b41fc80fd79"
+    },
+    {
+      "id": "xe-0010",
+      "porque": "La regla PAS sirve para actuar bien en los primeros momentos, antes de que llegue la ayuda profesional. Por eso el manual de la DGT insiste en aplicarla en los primeros 10 minutos: actuar rápido ayuda a salvar vidas y a evitar más daños.",
+      "descartes": {
+        "b": "Cuando llegan los servicios de emergencia, son ellos quienes se ocupan; la regla PAS es para lo que haces tú hasta entonces.",
+        "c": "La primera hora no es el momento de empezar: la regla es muy importante en los primeros 10 minutos. Una o dos horas después es la llamada hora de oro, otro concepto."
+      },
+      "truco": "10 minutos para la regla PAS; una o dos horas para la hora de oro.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Momentos importantes después de un accidente (p. 414)",
+          "cita": "Una o dos horas después del accidente. En este periodo son muy importantes las labores de reanimación para intentar salvar la vida. Se llama hora de oro."
+        }
+      ],
+      "huella": "855cca0893d9"
+    },
+    {
+      "id": "xe-0011",
+      "porque": "Proteger tiene tres destinatarios y el primero eres tú: quien ayuda no debe ponerse en peligro, porque si sufre otro accidente deja de poder ayudar y hay una víctima más.",
+      "descartes": {
+        "a": "El manual dice lo contrario: lo primero que hay que proteger es a uno mismo, sin ponerse en peligro.",
+        "c": "Señalizar el lugar es parte de proteger, pero no lo único: también hay que protegerse uno mismo y proteger a las víctimas."
+      },
+      "truco": "Proteger tiene tres destinatarios: tú, las víctimas y el lugar del accidente.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Proteger (p. 416)",
+          "cita": "A las víctimas. ■ El lugar del accidente."
+        }
+      ],
+      "huella": "f8d18f1edc5c"
+    },
+    {
+      "id": "xe-0012",
+      "porque": "Para proteger el lugar, quien se detiene a ayudar no puede convertirse en otro obstáculo: el manual pide estacionar en un lugar seguro y dejar paso a los servicios de emergencia, parar el motor y encender las luces de emergencia.",
+      "descartes": {
+        "a": "Dejarlo pegado a los accidentados ocupando la calzada crea un nuevo peligro y estorba a ambulancias y bomberos.",
+        "b": "Cruzar el vehículo en la calzada corta el paso también a los servicios de emergencia y crea otro peligro; el manual pide un lugar seguro que les deje paso."
+      },
+      "truco": "Aparca para ayudar, no para estorbar: en lugar seguro y con hueco para que lleguen las emergencias.",
+      "huella": "1e3e40f59c54"
+    },
+    {
+      "id": "xe-0013",
+      "porque": "El manual de la DGT indica que un incendio en un accidente se intenta apagar con un extintor o sofocándolo con tierra, arena o mantas, y advierte expresamente que no se debe echar agua sobre el fuego.",
+      "descartes": {
+        "b": "El extintor es justo el primer medio que indica el manual para apagar el fuego.",
+        "c": "Echar tierra, arena o mantas es uno de los métodos que el manual recomienda para sofocar el fuego."
+      },
+      "truco": "Fuego en un accidente: extintor, o sofocarlo con tierra, arena o mantas. Agua, no.",
+      "huella": "10e2120a96b5"
+    },
+    {
+      "id": "xe-0014",
+      "porque": "Cuanta mejor información des al llamar, mejor sabrán qué enviar: si hay fuego, irán bomberos; si sabes cuántos heridos hay, sabrán cuántas ambulancias mandar. Por eso conviene recogerla antes de avisar.",
+      "descartes": {
+        "a": "Mover a los heridos para examinarlos puede empeorar sus lesiones; la norma general es no moverlos salvo que sea necesario para ponerlos a salvo.",
+        "c": "Esperar a que llame otro retrasa la ayuda; avisar es uno de los pasos de la regla PAS que te corresponden."
+      },
+      "truco": "Antes de marcar el 112, piensa qué vas a contar: si hay fuego y cuántos heridos hay.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Socorrer (p. 421)",
+          "cita": "No mover a los heridos a no ser que sea necesario para ponerles a salvo."
+        }
+      ],
+      "huella": "4544c71837bc"
+    },
+    {
+      "id": "xe-0015",
+      "porque": "Sin móvil también se puede avisar: el manual de la DGT indica ir al poste SOS más cercano para pedir ayuda.",
+      "descartes": {
+        "a": "El 112 desde el móvil es lo habitual, pero no la única vía: el manual menciona el poste SOS para quien no tiene móvil.",
+        "b": "Hacer ráfagas a otros vehículos no avisa a los servicios de emergencia; el manual indica el poste SOS."
+      },
+      "truco": "Un solo número para pedir ayuda: el 112. Si no tienes móvil, el poste SOS más cercano.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Avisar (p. 419)",
+          "cita": "Para pedir ayuda debes llamar al número de emergencias 112 desde tu móvil."
+        }
+      ],
+      "huella": "7eb8ff52124b"
+    },
+    {
+      "id": "v5f-acc-0001",
+      "porque": "Si ya hay fuego, el manual de la DGT indica intentar apagarlo con un extintor o sofocarlo echando tierra, arena o mantas. Se trata de quitarle aire al fuego, no de mojarlo.",
+      "descartes": {
+        "a": "El manual dice expresamente que no se debe echar agua sobre el fuego.",
+        "c": "El manual sí indica intentar apagarlo, con extintor o con tierra, arena o mantas; no se limita a esperar a los bomberos."
+      },
+      "truco": "Fuego en un accidente: extintor, o sofocarlo con tierra, arena o mantas. Agua, no.",
+      "huella": "199b4f387c7e"
+    },
+    {
+      "id": "E-acc-0007",
+      "porque": "Como norma general, si el vehículo no puede seguir y hay un lugar seguro fuera de la plataforma, los ocupantes deben salir. Se hace por el lado contrario al flujo del tráfico y sin caminar ni quedarse en los carriles ni en los arcenes.",
+      "descartes": {
+        "a": "Quedarse dentro con el cinturón es la solución cuando no se puede salir con seguridad; si hay un lugar seguro fuera de la plataforma, la norma general es salir.",
+        "c": "No vale cualquier lado: hay que salir por el contrario al tráfico. Y el arcén forma parte de la plataforma, así que no se debe esperar en él."
+      },
+      "truco": "Coche inmovilizado sin poder seguir: si hay un lugar seguro fuera de la plataforma, sal por el lado contrario al tráfico y no te quedes en carriles ni arcenes. Si no se puede salir con seguridad, dentro y con el cinturón abrochado.",
+      "huella": "247ae75c33dd"
+    },
+    {
+      "id": "E-acc-0008",
+      "porque": "La regla general es salir del vehículo inmovilizado hacia un lugar seguro, pero si el tráfico no permite hacerlo con seguridad, lo más seguro es quedarse en el habitáculo con el cinturón abrochado.",
+      "descartes": {
+        "a": "Si no se puede salir con seguridad, no hay que salir; y aunque se pudiera, no se debe permanecer en el arcén.",
+        "c": "La norma pide quedarse dentro con el cinturón abrochado, no desabrochado para salir antes."
+      },
+      "truco": "Coche inmovilizado sin poder seguir: si hay un lugar seguro fuera de la plataforma, sal por el lado contrario al tráfico y no te quedes en carriles ni arcenes. Si no se puede salir con seguridad, dentro y con el cinturón abrochado.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "130.3",
+          "cita": "sin transitar o permanecer en los carriles y arcenes que conforman dicha plataforma"
+        }
+      ],
+      "huella": "f81081341e87"
+    },
+    {
+      "id": "E-acc-0013",
+      "porque": "Un vehículo que obstaculiza la calzada es un peligro para los demás. Por eso hay que señalizarlo primero y después procurar que se retire cuanto antes, sacándolo de la calzada y dejándolo según las normas de estacionamiento siempre que sea factible.",
+      "descartes": {
+        "a": "Si se puede mover, hay que sacarlo de la calzada cuanto antes; esperar a la grúa sin necesidad mantiene el obstáculo.",
+        "c": "Hay que retirarlo, pero tras señalizarlo convenientemente: saltarse la señalización expone a los demás al obstáculo."
+      },
+      "truco": "Primero se señaliza; después se quita de en medio, si se puede.",
+      "huella": "06ca942eaedb"
+    },
+    {
+      "id": "E-acc-0001",
+      "porque": "La obligación de auxiliar o pedir auxilio no es solo de quien está implicado: alcanza también a quien presencia el accidente y a quien tiene conocimiento de él.",
+      "descartes": {
+        "a": "La norma incluye expresamente a quienes presencian el accidente o tienen conocimiento de él, no solo a los implicados.",
+        "c": "No hace falta formación: si no sabes prestar primeros auxilios, cumples pidiendo auxilio."
+      },
+      "truco": "Implicado, testigo o enterado: los tres tienen que auxiliar o pedir auxilio.",
+      "huella": "c9e0a0379541"
+    },
+    {
+      "id": "E-acc-0002",
+      "porque": "Quien no está implicado tiene que colaborar en lo que le afecte, pero la norma le libera cuando su colaboración manifiestamente no es necesaria o cuando la autoridad o sus agentes ya están en el lugar.",
+      "descartes": {
+        "a": "No es «siempre»: la propia norma exceptúa los casos en que ya han llegado la autoridad o sus agentes, o en que claramente no hace falta tu ayuda.",
+        "b": "Con los agentes ya en el lugar no hay obligación de quedarse, y menos de esperar a que se retiren los vehículos."
+      },
+      "truco": "Si no estás implicado, ayuda mientras haga falta. Si ya están los agentes o no puedes hacer nada, sigue circulando para no estorbar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Pasos a seguir (p. 412)",
+          "cita": "Cuando seas testigo de un accidente, pero no puedas hacer nada por ayudar o ya hayan llegado los agentes de tráfico, lo mejor es seguir circulando para no estorbar"
+        }
+      ],
+      "huella": "d2bdc72cc41e"
+    },
+    {
+      "id": "E-acc-0003",
+      "porque": "Si parece que hay algún herido, el implicado debe avisar a la autoridad o a sus agentes y permanecer o volver al lugar hasta que lleguen. Solo puede irse si le autorizan, si tiene que atender a heridos o si él mismo necesita atención.",
+      "descartes": {
+        "b": "Dar los datos es obligatorio, pero con heridos no basta: hay que avisar a la autoridad y esperar su llegada.",
+        "c": "Avisada la autoridad, hay que evitar modificar las huellas y pruebas, salvo que se perjudique la seguridad de los heridos o de la circulación."
+      },
+      "truco": "Con heridos: avisa a la autoridad y quédate (o vuelve) hasta que llegue. Solo te libras si las heridas son claramente leves, la circulación ya es segura y nadie te pide que te quedes.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "129.2.c",
+          "cita": "si, aparentemente, hubiera resultado muerta o gravemente herida alguna persona o se hubiera avisado a la autoridad o sus agentes, evitar la modificación del estado de las cosas y de las huellas u otras pruebas"
+        }
+      ],
+      "huella": "55afc382158f"
+    },
+    {
+      "id": "xe-0001",
+      "porque": "Tras un accidente lo primero es no provocar otro: el implicado debe detenerse de forma que no cree un nuevo peligro para la circulación.",
+      "descartes": {
+        "b": "Parar en el punto exacto del choque no es obligatorio, y hacerlo en una curva sin visibilidad crea justo el nuevo peligro que la norma quiere evitar.",
+        "c": "Parar en el carril izquierdo para hacer de escudo crea un nuevo peligro para la circulación; la norma no lo pide."
+      },
+      "truco": null,
+      "huella": "cc6ec7819939"
+    },
+    {
+      "id": "xe-0002",
+      "porque": "En un accidente hay muchas cosas que hacer a la vez. Hacerse primero una idea de conjunto de las circunstancias y consecuencias es lo que permite decidir qué va antes: la seguridad de la circulación, el auxilio a las víctimas, la identificación o la colaboración con la autoridad.",
+      "descartes": {
+        "a": "Cada implicado tiene sus propias obligaciones; no puede dejar en manos del otro conductor qué hacer.",
+        "c": "El parte amistoso no es lo primero; además, está prohibido rellenarlo en la plataforma de circulación."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "130.5",
+          "cita": "Se prohíbe a los usuarios de las vías cuyo vehículo haya sufrido un accidente cumplimentar el parte de accidente en la plataforma de circulación."
+        }
+      ],
+      "huella": "631d3297ca72"
+    },
+    {
+      "id": "xe-0003",
+      "porque": "Si parece que hay algún muerto o herido grave, las huellas y demás pruebas sirven para aclarar las responsabilidades, así que hay que evitar modificarlas. Solo se tocan si dejarlas perjudica la seguridad de los heridos o de la circulación.",
+      "descartes": {
+        "a": "Borrar las huellas es justo lo que hay que evitar, aunque antes se fotografíen.",
+        "b": "Las pruebas no son solo cosa de las aseguradoras: sirven para determinar la responsabilidad, y la norma pide no modificarlas."
+      },
+      "truco": "Con muertos o heridos graves, o con la autoridad ya avisada, el lugar se deja como está, salvo para proteger a los heridos o el tráfico.",
+      "huella": "e8654013732a"
+    },
+    {
+      "id": "xe-0004",
+      "porque": "El implicado debe prestar a los heridos el auxilio más adecuado según las circunstancias y, sobre todo, conseguir auxilio sanitario de los servicios que existan.",
+      "descartes": {
+        "b": "La norma obliga a prestar auxilio: sin formación, al menos protegiendo, avisando y pidiendo auxilio sanitario.",
+        "c": "Trasladarlos tú mismo es la excepción, no la regla: el manual indica esperar a la ambulancia salvo casos muy concretos."
+      },
+      "truco": "Al hospital, en ambulancia. Sin esperarla solo en un lugar aislado sin poder pedir ayuda, o si tarda más de 30 minutos y el herido está inconsciente o tiene una hemorragia que no se controla.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Trasladar a los heridos (p. 436)",
+          "cita": "Siempre hay que esperar a que llegue la ambulancia para trasladar a los heridos al hospital."
+        }
+      ],
+      "huella": "ec9b1579e3c4"
+    },
+    {
+      "id": "xe-0005",
+      "porque": "Con heridos la regla es avisar a la autoridad y quedarse, pero la norma tiene una excepción que exige tres condiciones a la vez: heridas claramente leves, circulación ya segura y que ninguna persona implicada pida que se avise o se espere. Aquí se cumplen las tres.",
+      "descartes": {
+        "a": "No es «siempre»: la norma libera de avisar y de esperar cuando se cumplen a la vez las tres condiciones del enunciado.",
+        "c": "La norma no fija ninguna espera de una hora; si se cumplen las tres condiciones, no hay que quedarse."
+      },
+      "truco": "Con heridos: avisa a la autoridad y quédate (o vuelve) hasta que llegue. Solo te libras si las heridas son claramente leves, la circulación ya es segura y nadie te pide que te quedes.",
+      "huella": "2c5b562e9d6d"
+    },
+    {
+      "id": "xe-0006",
+      "porque": "Aunque solo haya daños materiales, quien causa el golpe no puede desentenderse: si el afectado no está, debe tomar medidas para hacerle llegar cuanto antes su nombre y dirección, directamente o a través de los agentes.",
+      "descartes": {
+        "a": "Que no haya heridos no elimina todas las obligaciones: hay que hacer llegar nombre y dirección al dueño ausente.",
+        "b": "La norma no lo deja en manos de la aseguradora: el implicado debe hacer llegar sus datos al afectado, directamente o por medio de los agentes."
+      },
+      "truco": "Golpe a un coche sin su dueño delante: no te vas sin hacerle llegar tu nombre y tu dirección, tú mismo o a través de los agentes.",
+      "huella": "0c521ca1347d"
+    },
+    {
+      "id": "xe-0007",
+      "porque": "Todo implicado en un accidente debe comunicar su identidad y los datos de su vehículo a las otras personas implicadas que se lo pidan, haya o no heridos.",
+      "descartes": {
+        "b": "La obligación de identificarse ante los demás implicados existe «en todo caso», no solo cuando hay heridos.",
+        "c": "No es solo ante los agentes: la norma obliga a dar identidad y datos del vehículo a las otras personas implicadas que lo pidan."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "129.2.g",
+          "cita": "Facilitar los datos del vehículo a otras personas implicadas en el accidente, si lo pidiesen."
+        }
+      ],
+      "huella": "e29bf2de76f7"
+    },
+    {
+      "id": "res-del-0007",
+      "porque": "El Código Penal castiga como delito no socorrer a quien está desamparado y en peligro manifiesto y grave cuando se puede hacer sin riesgo propio ni de terceros. Quien no pueda socorrer debe pedir auxilio con urgencia; si no lo hace, comete el mismo delito.",
+      "descartes": {
+        "a": "No hace falta haber causado el accidente para cometer este delito; si además lo causó quien no socorre, la pena es mayor.",
+        "c": "No es una simple infracción administrativa: el Código Penal lo castiga como delito de omisión del deber de socorro."
+      },
+      "truco": "Si puedes ayudar sin riesgo, ayudas; si no puedes, pides ayuda urgente. No hacer ninguna de las dos cosas es delito.",
+      "apoyos": [
+        {
+          "norma": "CP",
+          "articulo": "195.2",
+          "cita": "En las mismas penas incurrirá el que, impedido de prestar socorro, no demande con urgencia auxilio ajeno."
+        },
+        {
+          "norma": "CP",
+          "articulo": "195.3",
+          "cita": "Si la víctima lo fuere por accidente ocasionado fortuitamente por el que omitió el auxilio, la pena será de prisión de seis meses a 18 meses"
+        }
+      ],
+      "huella": "c5a8fabb6312"
+    },
+    {
+      "id": "E-acc-0009",
+      "porque": "Rellenar el parte obliga a pararse un rato con papeles en la mano, y hacerlo en la vía es peligroso. Por eso está prohibido hacerlo en la plataforma de circulación y debe hacerse en un lugar seguro fuera de la vía.",
+      "descartes": {
+        "a": "El arcén forma parte de la plataforma de circulación, y en ella está prohibido rellenar el parte, aunque se lleve chaleco.",
+        "c": "Señalizar con la V-16 avisa del peligro, pero no permite rellenar el parte en la calzada: está prohibido en toda la plataforma."
+      },
+      "truco": "El parte, nunca en la plataforma (ni carriles ni arcén): primero a un lugar seguro fuera de la vía, después los papeles.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "130.3",
+          "cita": "sin transitar o permanecer en los carriles y arcenes que conforman dicha plataforma"
+        }
+      ],
+      "huella": "1d2fb2eedf63"
+    },
+    {
+      "id": "E-acc-0004",
+      "porque": "El orden tiene lógica: primero proteger, para que no haya más víctimas (empezando por ti); después avisar, para que la ayuda profesional llegue cuanto antes; y por último socorrer a los heridos.",
+      "descartes": {
+        "a": "Avisar va en segundo lugar: antes hay que proteger el lugar, a las víctimas y a ti mismo.",
+        "b": "Socorrer es el último paso; hacerlo sin haber protegido el lugar ni avisado puede causar más víctimas y retrasar la ayuda."
+      },
+      "truco": "PAS se dice en el orden en que se hace: Proteger, Avisar, Socorrer.",
+      "huella": "7700dcd5ca52"
+    },
+    {
+      "id": "E-acc-0010",
+      "porque": "En la dotación obligatoria vigente, los turismos llevan como dispositivo de preseñalización de peligro el V-16 luminoso, junto con el chaleco reflectante y la rueda de repuesto o un sistema alternativo. Los triángulos no están en esa lista.",
+      "descartes": {
+        "a": "Los triángulos no figuran en la dotación obligatoria vigente del turismo; el dispositivo que exige es la V-16.",
+        "b": "La norma no deja elegir: la dotación del turismo incluye la V-16, sin alternativa de triángulo."
+      },
+      "truco": "Dotación obligatoria de un turismo: la V-16, el chaleco reflectante y la rueda de repuesto (o una alternativa). El botiquín es recomendable, pero no obligatorio.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XII.1.b",
+          "cita": "Un chaleco reflectante de alta visibilidad"
+        }
+      ],
+      "huella": "0bddc634d666"
+    },
+    {
+      "id": "E-acc-0011",
+      "porque": "La V-16 se pone sobre el propio vehículo, en la parte más alta posible, para que se vea lo mejor posible. Así no hace falta caminar por la calzada para señalizar.",
+      "descartes": {
+        "a": "La V-16 no se coloca en el suelo a una distancia: va en la parte más alta posible del vehículo inmovilizado.",
+        "c": "En el interior, junto al parabrisas, no queda en la parte más alta posible ni garantiza su máxima visibilidad."
+      },
+      "truco": "V-16: arriba del todo, en la parte más alta que puedas del vehículo, para que se vea desde lejos.",
+      "huella": "76214f49bd61"
+    },
+    {
+      "id": "E-acc-0012",
+      "porque": "La V-16 no solo avisa con su luz a quien se acerca: también comunica su activación, desactivación y posición al punto de acceso nacional de la DGT. Todo eso lo hace por sí misma, sin depender de aplicaciones del móvil.",
+      "descartes": {
+        "b": "La norma no le exige ninguna alarma sonora; además de la luz, lo que hace es comunicar su activación y posición a la DGT.",
+        "c": "La norma dice lo contrario: el dispositivo lleva dentro todo lo necesario para comunicar, sin depender de aplicaciones del teléfono móvil."
+      },
+      "truco": "La V-16 avisa a dos públicos: con su luz, a quien se acerca; con su posición, a la DGT. Y no necesita el móvil.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-16.6",
+          "cita": "El dispositivo incluirá en el interior de su carcasa todos los elementos necesarios para su operación, incluidos los de comunicaciones, sin depender en ningún caso de elementos externos como aplicaciones de teléfonos móviles u otros similares."
+        }
+      ],
+      "huella": "21e5d057d099"
+    },
+    {
+      "id": "xe-0008",
+      "porque": "Si no puedes ayudar, quedarte solo añade vehículos y personas en un lugar ya complicado. Por eso el manual indica que lo mejor es seguir circulando para no estorbar.",
+      "descartes": {
+        "a": "Pararse a mirar estorba a los equipos de emergencia y puede crear nuevos peligros; si no puedes ayudar, lo indicado es seguir.",
+        "c": "Parar en la calzada junto al accidente crea un peligro y un estorbo; si no puedes ayudar ahora, sigue circulando."
+      },
+      "truco": "Si no estás implicado, ayuda mientras haga falta. Si ya están los agentes o no puedes hacer nada, sigue circulando para no estorbar.",
+      "huella": "f3904fb36644"
+    },
+    {
+      "id": "E-ada-0011",
+      "porque": "El eCall es el sistema que, en caso de accidente, envía de forma automática un mensaje al 112 para que vayan los servicios de emergencia, aunque nadie les avise.",
+      "descartes": {
+        "b": "El EBD es el aviso de frenada de emergencia: avisa a quien va detrás de que el vehículo de delante frena de golpe. No llama al 112.",
+        "c": "El TSR es el reconocimiento de señales de tráfico: detecta las señales de límite de velocidad. No avisa a emergencias."
+      },
+      "truco": "eCall: la «e» de emergencia y «call», llamada. Es el coche que llama solo al 112.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Aviso de frenada de emergencia (EBD)",
+          "cita": "Sistema que avisa al conductor de un vehículo de que el vehículo de delante tiene que hacer una frenada de emergencia."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Sistema de reconocimiento de señales de tráfico (TSR)",
+          "cita": "Detecta las señales de límite de velocidad que hay en la carretera"
+        }
+      ],
+      "huella": "43451791b765"
+    },
+    {
+      "id": "E-aux-0002",
+      "porque": "Entre las normas generales para socorrer, el manual de la DGT dice claramente que no se quita el casco a la persona herida. Quitarlo obliga a mover la cabeza y el cuello, que hay que proteger de movimientos bruscos.",
+      "descartes": {
+        "a": "El manual no hace excepción para que respire mejor: indica no quitar el casco.",
+        "b": "Aflojar la correa y sacarlo sigue siendo quitar el casco, y eso es lo que el manual dice que no se haga."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Socorrer (p. 421)",
+          "cita": "Mantener el cuello protegido de movimientos bruscos."
+        }
+      ],
+      "huella": "069a5e1ee598"
+    },
+    {
+      "id": "E-aux-0003",
+      "porque": "Para saber la gravedad de un herido, el manual indica comprobar sus constantes vitales siempre en el mismo orden: primero si está consciente y después si respira.",
+      "descartes": {
+        "b": "El manual no empieza por la respiración ni incluye el pulso en este orden: primero la consciencia y después la respiración.",
+        "c": "Las hemorragias, quemaduras y fracturas se comprueban después de las constantes vitales, no antes de la consciencia."
+      },
+      "truco": "Constantes vitales, siempre en el mismo orden: primero la consciencia («¿estás bien?» y, si no contesta, un pequeño pellizco) y después la respiración (10 segundos mirando el pecho y acercando la cara a su boca).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Conocer el estado de los heridos (p. 428)",
+          "cita": "Cuando el herido está consciente y respira hay que comprobar si tiene otro tipo de lesiones o heridas."
+        }
+      ],
+      "huella": "d52577698f7c"
+    },
+    {
+      "id": "xe-0021",
+      "porque": "Para comprobar la consciencia, el manual propone algo sencillo y suave: preguntar «¿Estás bien?» y, si no contesta, darle un pequeño pellizco para ver si reacciona con algún movimiento o sonido.",
+      "descartes": {
+        "a": "Echar agua en la cara no es lo que indica el manual; propone preguntar y, si no hay respuesta, un pequeño pellizco.",
+        "b": "Sacudirle con fuerza va contra la norma de proteger el cuello de movimientos bruscos; el manual propone un pequeño pellizco."
+      },
+      "truco": "Constantes vitales, siempre en el mismo orden: primero la consciencia («¿estás bien?» y, si no contesta, un pequeño pellizco) y después la respiración (10 segundos mirando el pecho y acercando la cara a su boca).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Socorrer (p. 421)",
+          "cita": "Mantener el cuello protegido de movimientos bruscos."
+        }
+      ],
+      "huella": "42f5933ddb3e"
+    },
+    {
+      "id": "xe-0022",
+      "porque": "El manual de la DGT indica comprobar durante 10 segundos si hay respiración normal: mirando si el pecho se mueve y acercando la cara a la boca para oír y sentir el aire.",
+      "descartes": {
+        "b": "Dos segundos es demasiado poco para saber si la respiración es normal; el manual fija 10 segundos.",
+        "c": "Dos minutos es mucho más de lo que indica el manual, que fija 10 segundos; si no respira con normalidad, hay que empezar cuanto antes la reanimación."
+      },
+      "truco": "Constantes vitales, siempre en el mismo orden: primero la consciencia («¿estás bien?» y, si no contesta, un pequeño pellizco) y después la respiración (10 segundos mirando el pecho y acercando la cara a su boca).",
+      "huella": "bc9e5fa109fa"
+    },
+    {
+      "id": "xe-0023",
+      "porque": "Para comprobar si respira hay que poder abrir sus vías respiratorias. Por eso, si está boca abajo, el manual indica girarlo boca arriba y subirle la barbilla.",
+      "descartes": {
+        "a": "Sentarlo y darle palmadas no está en el manual y mueve su cuello; hay que ponerlo boca arriba y subirle la barbilla.",
+        "c": "Boca abajo no se le pueden abrir bien las vías respiratorias ni comprobar la respiración como indica el manual."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Socorrer (p. 421)",
+          "cita": "Mantener el cuello protegido de movimientos bruscos."
+        }
+      ],
+      "huella": "057fb0ba3612"
+    },
+    {
+      "id": "v5f-aux-0001",
+      "porque": "Ante una fractura, lo que se busca es que el hueso roto no se mueva y no empeore la lesión: dejar inmóvil la zona, evitar que el herido la mueva y tapar la herida si la hay.",
+      "descartes": {
+        "a": "Colocar el hueso no es tarea de quien socorre; el manual indica dejar la zona inmóvil.",
+        "c": "Pedirle que la mueva es justo lo contrario de lo que indica el manual: evitar que el herido mueva esa zona."
+      },
+      "truco": "Hueso roto: quieto, como está, y tapar la herida si la hay.",
+      "huella": "41ec3f3fd7b5"
+    },
+    {
+      "id": "E-aux-0006",
+      "porque": "El torniquete es el último recurso para una hemorragia externa: solo se usa en brazos y piernas y cuando no han funcionado ni la compresión directa ni la compresión arterial.",
+      "descartes": {
+        "a": "No vale para cualquier herida que sangre: antes hay que intentar la compresión directa y, si falla, la arterial.",
+        "b": "No es la primera medida ni sirve para cualquier parte del cuerpo: solo en brazos y piernas y cuando han fallado las dos compresiones."
+      },
+      "truco": "Hemorragia externa, de menos a más: primero compresión directa; si falla, compresión arterial; y solo si fallan las dos, torniquete, en brazo o pierna y por encima de la herida.",
+      "huella": "505ae063f3db"
+    },
+    {
+      "id": "E-aux-0007",
+      "porque": "Quien atienda después al herido necesita saber cuándo y dónde se puso el torniquete. Por eso hay que escribir en un papel la hora a la que se hizo y el lugar en el que se ha colocado.",
+      "descartes": {
+        "b": "El manual no pide anotar el nombre, sino la hora a la que se hizo el torniquete y el lugar donde se ha colocado.",
+        "c": "La matrícula no sirve al personal médico; lo que hay que anotar es la hora y el lugar del torniquete."
+      },
+      "truco": "Torniquete: por encima de la herida, apuntar en un papel la hora y el lugar, y que solo lo quite el personal médico.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Torniquete (p. 431)",
+          "cita": "El torniquete solo lo puede quitar el personal médico."
+        }
+      ],
+      "huella": "ee822bdb8d7c"
+    },
+    {
+      "id": "E-aux-0008",
+      "porque": "Si la hemorragia se debe a un objeto clavado, el manual de la DGT indica no intentar sacarlo: hay que dejarlo donde está.",
+      "descartes": {
+        "a": "Sacarlo, aunque sea con cuidado, es lo que el manual dice que no se haga.",
+        "c": "El manual no distingue por el tamaño del objeto: no hay que intentar sacarlo."
+      },
+      "truco": "Objeto clavado: no se saca, sea grande o pequeño.",
+      "huella": "95f7654c0630"
+    },
+    {
+      "id": "v5f-aux-0002",
+      "porque": "El manual de la DGT es claro: el torniquete solo lo puede quitar el personal médico. Quien lo pone debe anotar la hora y el lugar, pero no quitarlo ni aflojarlo.",
+      "descartes": {
+        "a": "El manual no prevé que quien lo coloca lo afloje ni lo quite: eso solo lo hace el personal médico.",
+        "b": "El herido tampoco debe quitárselo, aunque deje de sangrar: solo puede hacerlo el personal médico."
+      },
+      "truco": "Torniquete: por encima de la herida, apuntar en un papel la hora y el lugar, y que solo lo quite el personal médico.",
+      "huella": "9fb622067d91"
+    },
+    {
+      "id": "xe-0025",
+      "porque": "En la compresión directa, el manual indica no quitar la gasa o el pañuelo aunque se empape de sangre: hay que seguir presionando.",
+      "descartes": {
+        "b": "Quitarlo es justo lo que el manual dice que no se haga, aunque esté empapado.",
+        "c": "Dejar de presionar es lo contrario de lo que pide la compresión directa: presionar sobre la herida sin quitar la gasa o el pañuelo."
+      },
+      "truco": "Compresión directa: presiona y no levantes, aunque el pañuelo se empape.",
+      "huella": "c0164f91d8f8"
+    },
+    {
+      "id": "xe-0026",
+      "porque": "Para una hemorragia externa se va de menos a más: primero compresión directa. Solo cuando falla se pasa a la compresión arterial, que presiona la arteria principal del brazo o la pierna.",
+      "descartes": {
+        "a": "Es al revés: primero se intenta la compresión directa, y la arterial solo cuando la directa falla.",
+        "c": "El torniquete va después de la compresión arterial, no antes: solo se aplica cuando han fallado la directa y la arterial."
+      },
+      "truco": "Hemorragia externa, de menos a más: primero compresión directa; si falla, compresión arterial; y solo si fallan las dos, torniquete, en brazo o pierna y por encima de la herida.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Torniquete (p. 431)",
+          "cita": "Solo se aplica en hemorragias en brazos y piernas cuando no han funcionado la compresión directa y la arterial."
+        }
+      ],
+      "huella": "77447a719d41"
+    },
+    {
+      "id": "xe-0027",
+      "porque": "El torniquete se hace por encima del lugar en el que está la herida, es decir, entre la herida y el resto del cuerpo. El manual insiste: nunca por debajo.",
+      "descartes": {
+        "a": "Por debajo es justo donde el manual dice que nunca se coloca.",
+        "b": "Sobre la propia herida no: el torniquete va por encima del lugar de la herida."
+      },
+      "truco": "Torniquete: por encima de la herida, apuntar en un papel la hora y el lugar, y que solo lo quite el personal médico.",
+      "huella": "7b9b14e8a6f3"
+    },
+    {
+      "id": "xe-0031",
+      "porque": "Cuando la sangre sale por el oído, la nariz o la boca sin herida visible, es una hemorragia interna exteriorizada: el herido se trata como muy grave y la hemorragia no se tapona ni se corta. En el oído, se tapa con una gasa sin presionar.",
+      "descartes": {
+        "b": "El manual dice que estas hemorragias no se taponan ni se cortan; en el oído, gasa sin presionar.",
+        "c": "Lavar el oído no está entre lo que indica el manual; lo indicado es taparlo con una gasa sin presionar."
+      },
+      "truco": "Sangre por oído, nariz o boca sin herida a la vista: herido muy grave, no se tapona, y en el oído, gasa sin apretar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Hemorragia interna (p. 433)",
+          "cita": "No taponar ni cortar estas hemorragias."
+        }
+      ],
+      "huella": "46f914c9267e"
+    },
+    {
+      "id": "xe-0009",
+      "porque": "El manual distingue tres momentos de riesgo tras un accidente. El de una o dos horas después, en el que la reanimación puede salvar vidas, se llama hora de oro.",
+      "descartes": {
+        "a": "Muerte inmediata es el primer momento: los primeros segundos después del accidente.",
+        "b": "Mortalidad tardía es el último momento: días o semanas después del accidente."
+      },
+      "truco": "Tres momentos: segundos (muerte inmediata), una o dos horas (hora de oro) y días o semanas (mortalidad tardía).",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Momentos importantes después de un accidente (p. 414)",
+          "cita": "Primeros segundos después del accidente. Se llama muerte inmediata."
+        }
+      ],
+      "huella": "b80242d81dbc"
+    },
+    {
+      "id": "v5f-aux-0003",
+      "porque": "Mover a un herido sin cuidado puede empeorar sus heridas, así que solo se hace si en ese lugar corre peligro su vida. Y entonces, entre tres personas coordinadas, como si fuera un solo bloque, para no mover su cuello.",
+      "descartes": {
+        "a": "Tirar de los brazos doblándole el cuello es justo lo que hay que evitar: el manual pide mantener cabeza, cuello y cuerpo alineados.",
+        "b": "Sentarlo o hacerle caminar mueve su cuello y su columna; el manual indica moverlo entre tres personas, como un solo bloque."
+      },
+      "truco": "Al herido no se le mueve salvo que corra peligro donde está. Si hay que hacerlo, entre tres personas y como un solo bloque, con cabeza, cuello y cuerpo alineados.",
+      "huella": "50bc8d546dad"
+    },
+    {
+      "id": "xe-0020",
+      "porque": "Para sacar a un herido del vehículo, el manual indica pasar los brazos bajo sus axilas, coger su brazo con una mano y sujetarle la barbilla con la otra. Así se mantiene la cabeza, el cuello y el tronco en la misma línea.",
+      "descartes": {
+        "a": "Lo que se sujeta con la otra mano es la barbilla, para que la cabeza no se mueva; no la cintura.",
+        "c": "Las piernas no se sujetan en este paso: con una mano se coge su brazo y con la otra, la barbilla."
+      },
+      "truco": "Axilas, brazo y barbilla: la barbilla sujeta para que la cabeza vaya en línea con el cuerpo.",
+      "huella": "a54dadd83a3e"
+    },
+    {
+      "id": "v5f-aux-0004",
+      "porque": "Para que el cuello no sufra movimientos bruscos, el manual indica colocar ropa, arena o las manos a los lados del cuello, y avisa expresamente: nunca debajo del cuello.",
+      "descartes": {
+        "a": "Debajo del cuello es justo donde el manual dice que no se coloca nada.",
+        "c": "Empujar la cabeza hacia atrás mueve el cuello; lo que se busca es inmovilizarlo con apoyos a los lados."
+      },
+      "truco": "El cuello se sujeta por los lados, nunca por debajo.",
+      "huella": "4323f8a16e67"
+    },
+    {
+      "id": "xe-0017",
+      "porque": "Entre las normas generales para socorrer, el manual de la DGT dice que no se den medicamentos, alimentos ni bebidas a los heridos. Que lo pida o que esté consciente no cambia esa regla.",
+      "descartes": {
+        "a": "Estar consciente no permite darle medicamentos: el manual indica no darle ninguno.",
+        "c": "Dárselo con agua sigue siendo darle un medicamento, y además una bebida; el manual dice que no."
+      },
+      "truco": "Al herido, ni medicamentos, ni comida, ni bebida. La única salvedad del manual es el agua para quien tiene quemaduras, está consciente, no vomita y no tiene otras lesiones.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Quemaduras (p. 434)",
+          "cita": "Se puede dar agua para beber al herido siempre que no tenga otras lesiones, esté consciente y no vomite."
+        }
+      ],
+      "huella": "cc295aaa8956"
+    },
+    {
+      "id": "xe-0018",
+      "porque": "Mover o tocar a un herido sin saber cómo puede empeorar sus heridas. Por eso, en caso de duda, el manual indica hablarle y darle apoyo emocional, sin tocarle ni moverle.",
+      "descartes": {
+        "a": "Moverle sin saber cómo es lo que el manual desaconseja: podrías empeorar sus heridas.",
+        "b": "Como norma general no se da de beber a los heridos; en caso de duda, lo indicado es hablarles y apoyarles."
+      },
+      "truco": "En la duda, habla y acompaña; no toques ni muevas.",
+      "huella": "01c80dab917a"
+    },
+    {
+      "id": "E-aux-0005",
+      "porque": "Si respira con normalidad pero está inconsciente y tienes que dejarlo solo para atender a otros heridos, el manual indica colocarle de lado.",
+      "descartes": {
+        "b": "Boca arriba con una almohada no es lo que indica el manual para dejarle solo: hay que colocarle de lado.",
+        "c": "Sentarlo apoyado en el vehículo no está en el manual y obliga a moverle; la indicación es colocarle de lado."
+      },
+      "truco": null,
+      "huella": "8a6a700379af"
+    },
+    {
+      "id": "E-aux-0009",
+      "porque": "Ante una quemadura, lo que el manual indica hacer es echar agua fría sobre la zona quemada. Lo demás de las opciones son cosas que dice expresamente que no se hagan.",
+      "descartes": {
+        "a": "La ropa que se ha quedado pegada a la quemadura no se quita: el manual lo dice expresamente.",
+        "c": "Ni pomadas ni pinchar ampollas: el manual dice que no se echen pomadas en las heridas y que no se corten ni pinchen las ampollas."
+      },
+      "truco": "Quemadura: agua fría y vendaje desinfectado y húmedo. Y nada de tocar la zona, despegar la ropa pegada, pinchar o cortar ampollas ni echar pomadas.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Socorrer (p. 421)",
+          "cita": "No echar pomadas o alcohol en sus heridas."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Quemaduras (p. 434)",
+          "cita": "No cortar ni pinchar las ampollas."
+        }
+      ],
+      "huella": "cc7eb7f22a1d"
+    },
+    {
+      "id": "xe-0032",
+      "porque": "Si la ropa se ha quedado pegada a la quemadura, el manual indica no quitarla, igual que indica no tocar la zona quemada.",
+      "descartes": {
+        "a": "Despegarla, aunque sea con cuidado, es quitarla, y el manual dice que la ropa pegada no se quita.",
+        "c": "Cortar la ropa de alrededor no está en el manual, y arrancar los restos pegados es justo lo que no se debe hacer."
+      },
+      "truco": "Quemadura: agua fría y vendaje desinfectado y húmedo. Y nada de tocar la zona, despegar la ropa pegada, pinchar o cortar ampollas ni echar pomadas.",
+      "huella": "36c15bfa9e7f"
+    },
+    {
+      "id": "xe-0033",
+      "porque": "Las ampollas de una quemadura no se cortan ni se pinchan; el manual indica cubrir la zona con un vendaje desinfectado y húmedo.",
+      "descartes": {
+        "a": "Pincharlas es lo que el manual dice que no se haga.",
+        "b": "Ni cortarlas ni poner pomada: el manual dice que no se corten las ampollas y que no se echen pomadas en las heridas."
+      },
+      "truco": "Quemadura: agua fría y vendaje desinfectado y húmedo. Y nada de tocar la zona, despegar la ropa pegada, pinchar o cortar ampollas ni echar pomadas.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Socorrer (p. 421)",
+          "cita": "No echar pomadas o alcohol en sus heridas."
+        }
+      ],
+      "huella": "d5b5424e65dc"
+    },
+    {
+      "id": "E-aux-0004",
+      "porque": "Si un adulto no respira con normalidad, se empieza la reanimación cardiopulmonar: 30 compresiones en el tórax y 2 ventilaciones boca a boca, y se repite hasta que llegue la ayuda médica.",
+      "descartes": {
+        "a": "15 compresiones y 1 ventilación no es la pauta del manual; son 30 compresiones y 2 ventilaciones.",
+        "c": "Son las mismas cifras al revés: son 30 compresiones y 2 ventilaciones, no 2 compresiones y 30 ventilaciones."
+      },
+      "truco": "RCP: 30 y 2. Treinta compresiones en el centro del pecho, con los codos extendidos y a unas 100 por minuto, y dos ventilaciones boca a boca. Así hasta que llegue la ayuda médica.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Respiración (p. 427)",
+          "cita": "Continuar así hasta que llegue la ayuda médica."
+        }
+      ],
+      "huella": "cc4af890c211"
+    },
+    {
+      "id": "xe-0024",
+      "porque": "En la reanimación cardiopulmonar el ritmo es alto: se empuja el tórax con los codos extendidos unas 100 veces por minuto, con 2 ventilaciones cada 30 compresiones.",
+      "descartes": {
+        "a": "30 es el número de compresiones de cada serie antes de las 2 ventilaciones, no el ritmo por minuto.",
+        "b": "10 es el número de segundos durante los que se comprueba la respiración, no el ritmo de las compresiones."
+      },
+      "truco": "RCP: 30 y 2. Treinta compresiones en el centro del pecho, con los codos extendidos y a unas 100 por minuto, y dos ventilaciones boca a boca. Así hasta que llegue la ayuda médica.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Respiración (p. 427)",
+          "cita": "Haz 2 ventilaciones boca a boca cada 30 compresiones en el tórax"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Respiración (p. 426)",
+          "cita": "Comprobar si hay respiración normal durante 10 segundos."
+        }
+      ],
+      "huella": "60366982e001"
+    },
+    {
+      "id": "E-aux-0010",
+      "porque": "En el shock el cuerpo no recibe la sangre que necesita. Por eso el manual indica tumbar al herido con los pies más altos que la cabeza y, si vomita, ponerlo de lado manteniendo los pies elevados.",
+      "descartes": {
+        "a": "Sentado con la cabeza entre las piernas no es la posición que indica el manual para el shock; va tumbado con los pies elevados.",
+        "b": "Es al revés: los pies más altos que la cabeza, no la cabeza más alta."
+      },
+      "truco": "Shock: respiración rápida y poco profunda, pulso rápido y débil, piel pálida y sudor frío. Se le tumba con los pies más altos que la cabeza y, si vomita, de lado sin bajar los pies.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Hemorragia interna (p. 432)",
+          "cita": "Si tiene vómitos, colocarle de lado y mantener los pies más altos que la cabeza."
+        }
+      ],
+      "huella": "34a3247ecfcc"
+    },
+    {
+      "id": "xe-0029",
+      "porque": "Entre los síntomas de shock que da el manual están la piel pálida y el sudor frío y pegajoso, además de una respiración muy rápida y poco profunda y un pulso rápido y débil.",
+      "descartes": {
+        "a": "En el shock la piel está pálida, no roja, y el sudor es frío.",
+        "c": "En el shock la respiración es muy rápida y poco profunda, justo lo contrario de lenta y profunda."
+      },
+      "truco": "Shock: respiración rápida y poco profunda, pulso rápido y débil, piel pálida y sudor frío. Se le tumba con los pies más altos que la cabeza y, si vomita, de lado sin bajar los pies.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Hemorragia interna (p. 432)",
+          "cita": "Respira de forma muy rápida y poco profunda."
+        }
+      ],
+      "huella": "172e07e861db"
+    },
+    {
+      "id": "xe-0030",
+      "porque": "La posición del shock es tumbado con los pies más altos que la cabeza. Si además vomita, se le pone de lado, pero sin bajar los pies.",
+      "descartes": {
+        "a": "Sentado con la cabeza entre las rodillas no es lo que indica el manual; va de lado con los pies elevados.",
+        "b": "Es al revés: los pies más altos que la cabeza. Y si vomita, de lado, no boca arriba."
+      },
+      "truco": "Shock: respiración rápida y poco profunda, pulso rápido y débil, piel pálida y sudor frío. Se le tumba con los pies más altos que la cabeza y, si vomita, de lado sin bajar los pies.",
+      "huella": "80e3181792d2"
+    },
+    {
+      "id": "E-aux-0001",
+      "porque": "La regla general es no mover a los heridos, porque se pueden empeorar sus lesiones. Solo se les mueve si es necesario para ponerlos a salvo, y siempre protegiendo el cuello.",
+      "descartes": {
+        "a": "No hay que sacarlo siempre: solo se le mueve si es necesario para ponerle a salvo.",
+        "c": "Buscarle una postura cómoda no justifica moverle; la norma general es no hacerlo."
+      },
+      "truco": "Al herido no se le mueve salvo que corra peligro donde está. Si hay que hacerlo, entre tres personas y como un solo bloque, con cabeza, cuello y cuerpo alineados.",
+      "huella": "95081b980bbe"
+    },
+    {
+      "id": "xe-0035",
+      "porque": "La regla es esperar siempre a la ambulancia. El manual solo admite llevar al herido sin esperarla en dos casos: si el accidente ocurre en un lugar aislado donde no se puede pedir ayuda, o si la ayuda tarda más de 30 minutos y el herido está inconsciente o tiene una hemorragia que no se puede controlar.",
+      "descartes": {
+        "a": "Que esté consciente y lo pida no es una de las excepciones del manual; hay que esperar a la ambulancia.",
+        "c": "El manual habla de más de 30 minutos, no de 10, y además exige que el herido esté inconsciente o con una hemorragia que no se controla."
+      },
+      "truco": "Al hospital, en ambulancia. Sin esperarla solo en un lugar aislado sin poder pedir ayuda, o si tarda más de 30 minutos y el herido está inconsciente o tiene una hemorragia que no se controla.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 16, Trasladar a los heridos (p. 436)",
+          "cita": "Los servicios de emergencias tardan más de 30 minutos en llegar y el herido está inconsciente o tiene una hemorragia que no se puede controlar."
+        }
+      ],
+      "huella": "2909213c996d"
+    },
+    {
+      "id": "xe-0036",
+      "porque": "Si de forma excepcional hay que trasladar a un herido, el manual pide conducir despacio y de forma suave y, a ser posible, en una furgoneta o un camión para poder llevarlo tumbado.",
+      "descartes": {
+        "a": "El manual pide lo contrario: despacio y de forma suave, no lo más rápido posible.",
+        "b": "El manual no autoriza a circular por el arcén para saltarse los atascos; lo que pide es conducir despacio y de forma suave."
+      },
+      "truco": "Al hospital, en ambulancia. Sin esperarla solo en un lugar aislado sin poder pedir ayuda, o si tarda más de 30 minutos y el herido está inconsciente o tiene una hemorragia que no se controla.",
+      "huella": "05cbf7f917f8"
+    },
+    {
+      "id": "xb-0116",
+      "porque": "El conductor debe cuidar que los objetos y animales que lleva estén bien colocados, de modo que no interfieran con él. Con un perro, eso significa llevarlo de forma que no pueda molestarte ni llegar hasta ti mientras conduces.",
+      "descartes": {
+        "a": "La norma no exime a los animales pequeños: cualquier animal transportado debe ir colocado de forma que no interfiera en la conducción.",
+        "c": "Vigilarlo no es la obligación: lo que se pide es que no interfiera, y el manual indica que los animales viajen en la parte de atrás y sujetos al asiento."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 13, Transportar animales (p. 320)",
+          "cita": "Los animales tienen que viajar en la parte de atrás del vehículo e ir sujetos al asiento."
+        }
+      ],
+      "huella": "631044c27c8f"
+    },
+    {
+      "id": "C-car-0004",
+      "porque": "Cuando no queda más remedio que cargar o descargar en la vía, la mercancía no puede quedarse en el suelo de la vía: está prohibido depositarla en la calzada, en el arcén y en las zonas peatonales.",
+      "descartes": {
+        "a": "La acera es una zona peatonal, y ahí está prohibido depositar la mercancía aunque quede sitio para pasar.",
+        "c": "El arcén está expresamente incluido en la prohibición, con o sin señalización."
+      },
+      "truco": "Carga y descarga: fuera de la vía. Si es inexcusable hacerlo en ella: respetar paradas y estacionamientos (y en poblado, horas y lugares municipales), por el lado más cercano al borde, deprisa, sin ruidos innecesarios y sin dejar la mercancía en calzada, arcén ni zonas peatonales.",
+      "huella": "2667b321d383"
+    },
+    {
+      "id": "C-car-0005",
+      "porque": "Si hay que cargar o descargar en la vía, se hace, en lo posible, por el lado del vehículo más próximo al borde de la calzada, que es el que queda más lejos del tráfico.",
+      "descartes": {
+        "a": "Es justo al revés: por el lado más próximo al borde, para no ocupar ni pisar la zona por la que circulan los demás.",
+        "b": "La norma no obliga a hacerlo siempre por detrás; pide, en lo posible, el lado más próximo al borde de la calzada."
+      },
+      "truco": "Carga y descarga: fuera de la vía. Si es inexcusable hacerlo en ella: respetar paradas y estacionamientos (y en poblado, horas y lugares municipales), por el lado más cercano al borde, deprisa, sin ruidos innecesarios y sin dejar la mercancía en calzada, arcén ni zonas peatonales.",
+      "huella": "a9d280e87967"
+    },
+    {
+      "id": "xb-0113",
+      "porque": "La regla general es que la carga y descarga se haga fuera de la vía. Solo cuando es inexcusable puede hacerse en ella, y entonces con condiciones: sin causar peligros ni perturbaciones graves al tráfico.",
+      "descartes": {
+        "a": "Hacerlo en la calzada es una excepción para cuando es inexcusable, no la regla general.",
+        "c": "El arcén forma parte de la vía, así que tampoco es la regla general; y en ningún caso se puede dejar la mercancía en él."
+      },
+      "truco": "Carga y descarga: fuera de la vía. Si es inexcusable hacerlo en ella: respetar paradas y estacionamientos (y en poblado, horas y lugares municipales), por el lado más cercano al borde, deprisa, sin ruidos innecesarios y sin dejar la mercancía en calzada, arcén ni zonas peatonales.",
+      "huella": "a4b778517a09"
+    },
+    {
+      "id": "xb-0114",
+      "porque": "Cuando la carga o descarga en la vía es inexcusable, hay que respetar las normas de parada y estacionamiento y, además, en poblado, las normas municipales sobre horas y lugares adecuados.",
+      "descartes": {
+        "a": "Sí hay otras normas: en poblado hay que respetar las que dictan las autoridades municipales sobre horas y lugares.",
+        "b": "Lo que mande el destinatario no sustituye a las normas: en poblado mandan las autoridades municipales sobre horas y lugares."
+      },
+      "truco": "Carga y descarga: fuera de la vía. Si es inexcusable hacerlo en ella: respetar paradas y estacionamientos (y en poblado, horas y lugares municipales), por el lado más cercano al borde, deprisa, sin ruidos innecesarios y sin dejar la mercancía en calzada, arcén ni zonas peatonales.",
+      "huella": "f4652845c388"
+    },
+    {
+      "id": "xb-0115",
+      "porque": "Si la carga o descarga se hace en la vía, debe durar lo menos posible y molestar lo menos posible: con medios suficientes para conseguir la máxima rapidez, evitando ruidos y molestias innecesarias y sin dejar la mercancía en calzada, arcén ni zonas peatonales.",
+      "descartes": {
+        "b": "La norma pide lo contrario: medios suficientes para conseguir la máxima celeridad, no ocupar la calzada durante horas.",
+        "c": "Está expresamente prohibido depositar la mercancía en el arcén y en las zonas peatonales, como la acera."
+      },
+      "truco": "Carga y descarga: fuera de la vía. Si es inexcusable hacerlo en ella: respetar paradas y estacionamientos (y en poblado, horas y lugares municipales), por el lado más cercano al borde, deprisa, sin ruidos innecesarios y sin dejar la mercancía en calzada, arcén ni zonas peatonales.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "16.c",
+          "cita": "Queda prohibido depositar la mercancía en la calzada, arcén y zonas peatonales."
+        }
+      ],
+      "huella": "b95cac7db625"
+    },
+    {
+      "id": "xb-0108",
+      "porque": "Un turismo no es un vehículo exclusivo de mercancías, así que la carga solo puede sobresalir por detrás: un 10 % de su longitud si es divisible, o un 15 % si es indivisible. Con carga divisible y 4 metros, el 10 % son 40 centímetros.",
+      "descartes": {
+        "a": "60 centímetros es el 15 % de 4 metros, el límite para una carga indivisible; esta carga es divisible, así que el límite es el 10 %.",
+        "b": "1 metro no sale de ninguna regla para turismos: su límite es un porcentaje de la longitud, aquí 40 centímetros."
+      },
+      "truco": "Turismos y demás vehículos que no son exclusivamente de mercancías: la carga solo puede sobresalir por detrás, hasta el 10 % de la longitud del vehículo (15 % si es indivisible). Por delante y por los lados, nada.",
+      "huella": "8ad065827c9f"
+    },
+    {
+      "id": "xb-0109",
+      "porque": "Cuando la carga sobresale, aunque esté dentro de los límites, hay que tomar precauciones para no dañar a los demás y resguardar el extremo que sobresale para aminorar los efectos de un posible roce o choque.",
+      "descartes": {
+        "b": "La norma no exige llevar las luces de emergencia por la carga que sobresale; pide señalizarla y resguardar su extremo.",
+        "c": "La norma no fija una velocidad máxima de 40 km/h por llevar carga saliente; pide precauciones y resguardar el extremo."
+      },
+      "truco": null,
+      "huella": "29c9caf4edca"
+    },
+    {
+      "id": "xb-0112",
+      "porque": "Si la carga sobresale por un lado más de 0,40 metros del borde de las luces de posición, de noche o con poca visibilidad hay que señalizar cada extremo lateral: hacia delante con luz blanca y reflectante blanco, y hacia atrás con luz roja y reflectante rojo.",
+      "descartes": {
+        "b": "La luz y el reflectante rojos son para la señalización hacia atrás, no hacia delante.",
+        "c": "La V-20 es el panel para la carga que sobresale por detrás; la carga lateral se señaliza con luces y reflectantes."
+      },
+      "truco": "Como en las luces del propio vehículo: blanco hacia delante, rojo hacia atrás.",
+      "huella": "660dbf2c900e"
+    },
+    {
+      "id": "res-car-0001",
+      "porque": "Un camión rígido es un vehículo de motor que no es autobús, y para ellos la longitud máxima, incluida la carga, es de 12 metros. Las longitudes mayores son para conjuntos: un vehículo articulado o uno con remolque.",
+      "descartes": {
+        "b": "18,75 metros es la longitud máxima de los vehículos con remolque (trenes de carretera), no la de un camión solo.",
+        "c": "16,50 metros es la longitud máxima de los vehículos articulados, es decir, de una cabeza tractora con semirremolque."
+      },
+      "truco": "Camión solo, 12 metros; articulado (con semirremolque), 16,50; con remolque, 18,75. Cuantas más piezas, más largo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 13, Medidas permitidas (p. 328)",
+          "cita": "Vehículos con remolque 18,75 m"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 13, Medidas permitidas (p. 328)",
+          "cita": "Vehículos articulados, 16,50 metros que llevan un semirremolque"
+        }
+      ],
+      "huella": "48c30e812690"
+    },
+    {
+      "id": "res-car-0002",
+      "porque": "La altura máxima de los vehículos, incluida la carga, es como norma general de 4 metros. Hay excepciones más altas, como los autobuses urbanos, pero la regla general es esa.",
+      "descartes": {
+        "a": "3,50 metros no es ningún límite general de altura.",
+        "c": "4,50 metros es la altura que el manual da para las grúas que retiran vehículos, una excepción, no la norma general."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 13, Medidas permitidas (p. 328)",
+          "cita": "Grúas que retiran vehículos 4,50 metros"
+        }
+      ],
+      "huella": "94fb8a09b8ae"
+    },
+    {
+      "id": "xb-0105",
+      "porque": "Si una carga indivisible no puede llevarse sin superar las dimensiones máximas, no basta con señalizarla: el transporte necesita una autorización complementaria de circulación, regulada en el Reglamento General de Vehículos.",
+      "descartes": {
+        "a": "La V-20 solo señaliza la carga que sobresale por detrás; no permite superar las dimensiones máximas.",
+        "b": "Ser indivisible no exime de nada: precisamente las cargas indivisibles que superan los límites necesitan autorización complementaria."
+      },
+      "truco": null,
+      "huella": "f4aef821faec"
+    },
+    {
+      "id": "C-car-0006",
+      "porque": "La regla general es que la carga no sobresalga de la proyección en planta del vehículo, es decir, de su silueta vista desde arriba. Solo puede sobresalir en los casos y condiciones concretos que fija el propio Reglamento.",
+      "descartes": {
+        "b": "Señalizar es obligatorio cuando la carga sobresale, pero no permite que sobresalga: solo puede hacerlo en los casos previstos.",
+        "c": "No hay ningún margen general de 1 metro por cualquier lado; los márgenes dependen del tipo de vehículo y de la carga."
+      },
+      "truco": null,
+      "huella": "d624bb671883"
+    },
+    {
+      "id": "C-car-0007",
+      "porque": "Para vehículos exclusivamente de mercancías con carga indivisible larga, el límite depende de su longitud. Si mide 5 metros o menos, como esta furgoneta de 4, la carga puede sobresalir un tercio de la longitud del vehículo por cada extremo.",
+      "descartes": {
+        "a": "2 metros por delante es el límite de los vehículos de mercancías de más de 5 metros, no de los de 5 metros o menos.",
+        "c": "El 10 % es el límite por detrás de los vehículos que no son exclusivamente de mercancías, como los turismos."
+      },
+      "truco": "Vehículo exclusivo de mercancías con carga larga indivisible: si mide más de 5 m, 2 m por delante y 3 m por detrás; si mide 5 m o menos, un tercio de su longitud por cada extremo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.2.a.1º",
+          "cita": "En vehículos de longitud superior a cinco metros, dos metros por la parte anterior y tres metros por la posterior."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "15.3",
+          "cita": "la carga podrá sobresalir por la parte posterior hasta un 10 por ciento de su longitud"
+        }
+      ],
+      "huella": "6883fa6ba38b"
+    },
+    {
+      "id": "C-car-0008",
+      "porque": "Un camión de 8 metros es un vehículo de mercancías de más de 5 metros, así que una carga indivisible larga puede sobresalir 2 metros por delante y 3 metros por detrás.",
+      "descartes": {
+        "a": "2 metros es el límite por la parte delantera; por detrás son 3 metros.",
+        "b": "El tercio de la longitud es el límite de los vehículos de mercancías de 5 metros o menos."
+      },
+      "truco": "Vehículo exclusivo de mercancías con carga larga indivisible: si mide más de 5 m, 2 m por delante y 3 m por detrás; si mide 5 m o menos, un tercio de su longitud por cada extremo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.2.a.2º",
+          "cita": "En vehículos de longitud igual o inferior a cinco metros, el tercio de la longitud del vehículo por cada extremo anterior y posterior."
+        }
+      ],
+      "huella": "04dc7190ad90"
+    },
+    {
+      "id": "C-car-0009",
+      "porque": "Un autobús no es un vehículo destinado exclusivamente a mercancías, así que la carga solo puede sobresalir por detrás. Por delante, nada.",
+      "descartes": {
+        "b": "2 metros por delante es el límite de los vehículos exclusivamente de mercancías de más de 5 metros con carga indivisible, no el de un autobús.",
+        "c": "El tercio de la longitud es para vehículos exclusivamente de mercancías de 5 metros o menos."
+      },
+      "truco": "Turismos y demás vehículos que no son exclusivamente de mercancías: la carga solo puede sobresalir por detrás, hasta el 10 % de la longitud del vehículo (15 % si es indivisible). Por delante y por los lados, nada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.2",
+          "cita": "En los vehículos destinados exclusivamente al transporte de mercancías, tratándose de cargas indivisibles"
+        }
+      ],
+      "huella": "bbb982e4f4db"
+    },
+    {
+      "id": "C-car-0010",
+      "porque": "En un turismo la carga solo puede sobresalir por detrás: hasta un 10 % de su longitud como regla general, y hasta un 15 % si la carga es indivisible.",
+      "descartes": {
+        "a": "El 10 % es el límite para una carga divisible; si es indivisible, se permite el 15 %.",
+        "c": "3 metros por detrás es el límite de los vehículos exclusivamente de mercancías de más de 5 metros, no el de un turismo."
+      },
+      "truco": "Turismos y demás vehículos que no son exclusivamente de mercancías: la carga solo puede sobresalir por detrás, hasta el 10 % de la longitud del vehículo (15 % si es indivisible). Por delante y por los lados, nada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.2.a.1º",
+          "cita": "En vehículos de longitud superior a cinco metros, dos metros por la parte anterior y tres metros por la posterior."
+        }
+      ],
+      "huella": "33d72c465bf0"
+    },
+    {
+      "id": "C-car-0011",
+      "porque": "Para los vehículos que no son exclusivamente de mercancías, como el turismo, la norma solo permite que la carga sobresalga por la parte posterior. Por los laterales, no.",
+      "descartes": {
+        "a": "Los 0,40 metros por lateral son para vehículos exclusivamente de mercancías con una carga indivisible más ancha que ellos.",
+        "b": "Los 0,50 metros son para vehículos de menos de 1 metro de ancho, y se cuentan desde su eje, no para un turismo."
+      },
+      "truco": "Turismos y demás vehículos que no son exclusivamente de mercancías: la carga solo puede sobresalir por detrás, hasta el 10 % de la longitud del vehículo (15 % si es indivisible). Por delante y por los lados, nada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.2.b",
+          "cita": "podrá sobresalir hasta 0,40 metros por cada lateral, siempre que el ancho total no sea superior a 2,55 metros"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "15.4",
+          "cita": "En los vehículos de anchura inferior a un metro la carga no deberá sobresalir lateralmente más de 0,50 metros a cada lado de su eje longitudinal."
+        }
+      ],
+      "huella": "bc91a5493f5d"
+    },
+    {
+      "id": "C-car-0012",
+      "porque": "En un vehículo exclusivamente de mercancías, si la dimensión menor de la carga indivisible es más ancha que el vehículo, puede sobresalir hasta 0,40 metros por cada lado, pero con un límite total: el conjunto no puede superar 2,55 metros de ancho.",
+      "descartes": {
+        "b": "Los 0,50 metros son para vehículos de menos de 1 metro de ancho, medidos desde el eje; y aquí además hay un tope total de 2,55 metros.",
+        "c": "1 metro por lateral no está en la norma: son 0,40 metros y sin superar 2,55 metros de ancho total."
+      },
+      "truco": "0,40 por cada lado, pero sin pasar nunca de 2,55 metros de ancho en total.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.4",
+          "cita": "En los vehículos de anchura inferior a un metro la carga no deberá sobresalir lateralmente más de 0,50 metros a cada lado de su eje longitudinal."
+        }
+      ],
+      "huella": "37bd0e075cf5"
+    },
+    {
+      "id": "C-car-0013",
+      "porque": "Los vehículos de menos de 1 metro de ancho, como una motocicleta, tienen su propia regla: la carga no puede sobresalir nada por delante y, por detrás, como mucho 0,25 metros.",
+      "descartes": {
+        "a": "0,50 metros es lo máximo que puede sobresalir por cada lado, medido desde el eje, no por detrás.",
+        "c": "El 10 % de la longitud es la regla de vehículos como los turismos; los de menos de 1 metro de ancho tienen su propio límite por detrás: 0,25 metros."
+      },
+      "truco": "Vehículos de menos de 1 metro de ancho: nada por delante, como mucho 0,25 m por detrás y 0,50 m a cada lado contados desde su eje, no desde su borde.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.4",
+          "cita": "En los vehículos de anchura inferior a un metro la carga no deberá sobresalir lateralmente más de 0,50 metros a cada lado de su eje longitudinal."
+        }
+      ],
+      "huella": "6445c3592459"
+    },
+    {
+      "id": "C-car-0014",
+      "porque": "En los vehículos de menos de 1 metro de ancho, el límite lateral se mide desde el eje longitudinal, la línea central del vehículo: la carga no puede quedar a más de 0,50 metros a cada lado de ese eje.",
+      "descartes": {
+        "a": "0,25 metros es lo máximo que puede sobresalir por detrás, no por los lados.",
+        "b": "0,40 metros es el límite lateral de los vehículos exclusivamente de mercancías con carga indivisible ancha, no el de los de menos de 1 metro."
+      },
+      "truco": "Vehículos de menos de 1 metro de ancho: nada por delante, como mucho 0,25 m por detrás y 0,50 m a cada lado contados desde su eje, no desde su borde.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.4",
+          "cita": "No podrá sobresalir por la extremidad anterior, ni más de 0,25 metros por la posterior."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "15.2.b",
+          "cita": "podrá sobresalir hasta 0,40 metros por cada lateral, siempre que el ancho total no sea superior a 2,55 metros"
+        }
+      ],
+      "huella": "53cc49a3a3c1"
+    },
+    {
+      "id": "xb-0106",
+      "porque": "La carga tiene que ir colocada y, si hace falta, sujeta, no solo para que no se caiga, sino también para que no produzca ruido, polvo u otras molestias que se puedan evitar. Si sujetándola mejor deja de sonar, hay que hacerlo.",
+      "descartes": {
+        "b": "Que no se caiga es solo una de las condiciones; la norma también prohíbe que produzca ruido evitable.",
+        "c": "La norma no distingue entre tipos de vía: el ruido evitable de la carga está prohibido en cualquiera."
+      },
+      "truco": "La carga, bien colocada y sujeta: que no se caiga, no arrastre ni se mueva peligrosamente, que no desequilibre el vehículo, que no haga ruido ni polvo evitables y que no tape luces, placas ni señales.",
+      "huella": "47dc33f32e08"
+    },
+    {
+      "id": "xb-0107",
+      "porque": "No basta con que la carga no se caiga: también tiene que ir dispuesta y sujeta de forma que no pueda desplazarse de manera peligrosa. Una carga que va de un lado a otro en cada curva incumple esa regla.",
+      "descartes": {
+        "a": "Que no se caiga no es suficiente: la norma también prohíbe que se desplace de manera peligrosa.",
+        "c": "Que no sobresalga es otra cuestión: aunque quepa en el vehículo, no puede desplazarse de forma peligrosa."
+      },
+      "truco": "La carga, bien colocada y sujeta: que no se caiga, no arrastre ni se mueva peligrosamente, que no desequilibre el vehículo, que no haga ruido ni polvo evitables y que no tape luces, placas ni señales.",
+      "huella": "028584dfa77e"
+    },
+    {
+      "id": "C-car-0003",
+      "porque": "Ir bien sujeta no basta: la carga también tiene que estar dispuesta de forma que no comprometa la estabilidad del vehículo. Si toda la carga en un lado desequilibra la furgoneta, no es correcto.",
+      "descartes": {
+        "b": "La sujeción evita que se mueva o caiga, pero la norma pide además que la carga no comprometa la estabilidad del vehículo.",
+        "c": "La norma no hace ninguna excepción por masa: la carga no puede comprometer la estabilidad de ningún vehículo."
+      },
+      "truco": "La carga, bien colocada y sujeta: que no se caiga, no arrastre ni se mueva peligrosamente, que no desequilibre el vehículo, que no haga ruido ni polvo evitables y que no tape luces, placas ni señales.",
+      "huella": "3fdb00dfa569"
+    },
+    {
+      "id": "xb-0117",
+      "porque": "Cada vehículo está preparado para un peso máximo. Según el manual de la DGT, si carga más del que debe se estropean elementos como los neumáticos, los sistemas de aceleración y los frenos.",
+      "descartes": {
+        "a": "El exceso de peso no mejora la estabilidad ni el agarre; el manual lo relaciona con que se estropeen neumáticos y frenos.",
+        "b": "El manual no atribuye al exceso de peso ningún ahorro de combustible; lo que dice es que se estropean elementos del vehículo."
+      },
+      "truco": null,
+      "huella": "aa933b521c5f"
+    },
+    {
+      "id": "xb-0118",
+      "porque": "Los objetos deben ir en el maletero. Si alguno tiene que ir en otro sitio, el manual pide asegurarse de que no se moverá al frenar o en caso de choque y de que te deja ver bien toda la carretera.",
+      "descartes": {
+        "b": "Tenerlo a mano no es el criterio: lo importante es que no se mueva al frenar o en un choque y que no tape la visión.",
+        "c": "No hay excepción por trayectos cortos o urbanos: un frenazo o un choque pueden ocurrir en cualquier trayecto."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 13, Transportar cargas (p. 326)",
+          "cita": "El conductor también debe asegurar que el objeto le deja ver bien toda la carretera."
+        }
+      ],
+      "huella": "24b7c68058fc"
+    },
+    {
+      "id": "C-car-0001",
+      "porque": "Las motocicletas, vehículos de tres ruedas y ciclomotores pueden arrastrar un remolque, pero con condiciones, y una de ellas es tajante: en ningún caso pueden transportar personas en el vehículo remolcado.",
+      "descartes": {
+        "a": "Circular de día es otra de las condiciones para llevar remolque, pero no permite llevar personas en él.",
+        "c": "Los 12 años y el casco son requisitos del pasajero que va en la propia moto, no permiten llevar a nadie en el remolque."
+      },
+      "truco": "Moto, ciclomotor o vehículo de tres ruedas con remolque: solo de día y sin poca visibilidad, un 10 % más despacio, remolque de no más del 50 % de la masa en vacío del vehículo y nunca con personas en el remolque.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "12.3.a",
+          "cita": "Que la circulación sea de día y en condiciones que no disminuyan la visibilidad."
+        }
+      ],
+      "huella": "5ae62ce2f7d0"
+    },
+    {
+      "id": "C-car-0002",
+      "porque": "Los ciclomotores sí pueden arrastrar un remolque, pero solo si circulan de día y en condiciones que no disminuyan la visibilidad, además de las demás condiciones de la norma.",
+      "descartes": {
+        "a": "De noche no se permite, aunque el remolque lleve luces: la condición es circular de día y con buena visibilidad.",
+        "b": "La norma sí permite a los ciclomotores arrastrar un remolque o semirremolque, con condiciones."
+      },
+      "truco": "Moto, ciclomotor o vehículo de tres ruedas con remolque: solo de día y sin poca visibilidad, un 10 % más despacio, remolque de no más del 50 % de la masa en vacío del vehículo y nunca con personas en el remolque.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "12.3",
+          "cita": "Las motocicletas, los vehículos de tres ruedas y los ciclomotores podrán arrastrar un remolque o semirremolque, siempre que no superen el 50 por ciento de la masa en vacío del vehículo tractor"
+        }
+      ],
+      "huella": "408ac59f6812"
+    },
+    {
+      "id": "xb-0110",
+      "porque": "Cuando la carga sobresale por toda la anchura de la parte posterior, un solo panel no marca bien hasta dónde llega por los lados. Por eso se colocan transversalmente dos paneles V-20, uno en cada extremo, formando una V invertida.",
+      "descartes": {
+        "a": "Un panel en el centro no indica los extremos de una carga que ocupa toda la anchura; la norma exige dos, uno en cada extremo.",
+        "c": "La V-20 se coloca en el extremo posterior de la carga, no en el techo de la cabina."
+      },
+      "truco": "Panel V-20: en el extremo de la carga que sobresale por detrás, perpendicular al eje del vehículo. Si la carga ocupa todo el ancho trasero, dos paneles, uno en cada extremo, formando una V invertida. De noche o con poca visibilidad, además, luz roja.",
+      "huella": "14a4901429e8"
+    },
+    {
+      "id": "xb-0111",
+      "porque": "La V-20 avisa a quien viene detrás de que la carga sobresale, así que se pone en el extremo posterior de la carga, de forma que quede siempre perpendicular al eje del vehículo.",
+      "descartes": {
+        "a": "La V-20 es para la carga que sobresale por detrás; va en el extremo de esa carga, no en la parte delantera.",
+        "b": "En el techo no marca dónde termina la carga; va en su extremo posterior."
+      },
+      "truco": "Panel V-20: en el extremo de la carga que sobresale por detrás, perpendicular al eje del vehículo. Si la carga ocupa todo el ancho trasero, dos paneles, uno en cada extremo, formando una V invertida. De noche o con poca visibilidad, además, luz roja.",
+      "huella": "e8224f64ec73"
+    },
+    {
+      "id": "C-car-0015",
+      "porque": "La carga que sobresale por detrás se señaliza en todo caso con la V-20, de día y de noche. Entre la puesta y la salida del sol, o con visibilidad sensiblemente reducida, se añade además una luz roja.",
+      "descartes": {
+        "b": "La V-20 es obligatoria en todo caso, también de día; la luz roja de noche es un añadido, no un sustituto.",
+        "c": "La V-20 no es solo para la noche: es obligatoria siempre. De noche o con poca visibilidad se añade una luz roja."
+      },
+      "truco": "Panel V-20: en el extremo de la carga que sobresale por detrás, perpendicular al eje del vehículo. Si la carga ocupa todo el ancho trasero, dos paneles, uno en cada extremo, formando una V invertida. De noche o con poca visibilidad, además, luz roja.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.6",
+          "cita": "Cuando el vehículo circule entre la puesta y la salida del sol o bajo condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, la carga deberá ir señalizada, además, con una luz roja."
+        }
+      ],
+      "huella": "608e628604bb"
+    },
+    {
+      "id": "C-car-0016",
+      "porque": "De noche o con poca visibilidad, la carga que sobresale se señaliza con el mismo color que las luces del vehículo en ese lado: luz roja si sobresale por detrás y luz blanca si sobresale por delante.",
+      "descartes": {
+        "a": "La luz roja es para la carga que sobresale por detrás.",
+        "c": "La norma no prevé luz amarilla auto intermitente para la carga que sobresale por delante; prevé luz blanca."
+      },
+      "truco": "Como en las luces del propio vehículo: blanco hacia delante, rojo hacia atrás.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.6",
+          "cita": "la carga deberá ir señalizada, además, con una luz roja."
+        }
+      ],
+      "huella": "a9800725ff43"
+    },
+    {
+      "id": "x1b-0110",
+      "porque": "Las plazas se cuentan sin el conductor: un turismo de 5 plazas tiene 4 para pasajeros. Llevar 6 supone aumentar en un 50 % las plazas autorizadas, y la Ley de Tráfico califica esa ocupación excesiva como infracción grave.",
+      "descartes": {
+        "a": "La ocupación excesiva que aumenta en un 50 % las plazas autorizadas está en la lista de infracciones graves, no entre las leves.",
+        "b": "La ley no la incluye entre las muy graves: la recoge expresamente como grave."
+      },
+      "truco": "Haz la cuenta sin el conductor: 4 plazas más su mitad son 6 pasajeros. Ese exceso del 50 % está en la lista de graves.",
+      "huella": "e26cfdf2e92d"
+    },
+    {
+      "id": "xb-0119",
+      "porque": "Sin freno en el remolque, la masa remolcable se calcula con la tara del tractor: la mitad más 75 kg, sin superar nunca 750 kg. Con una tara de 1.000 kg: 500 + 75 = 575 kg, que no llega al tope.",
+      "descartes": {
+        "a": "750 kg es el tope que nunca se puede superar, pero aquí la fórmula da menos: 575 kg.",
+        "c": "1.000 kg es la tara del turismo, no su masa remolcable; además, sin freno nunca se pueden superar 750 kg."
+      },
+      "truco": "Remolque sin freno: la mitad de la tara del vehículo tractor más 75 kg, sin pasar nunca de 750 kg. Con solo freno de inercia: la MMA del tractor (1,5 veces si es todoterreno), sin pasar nunca de 3.500 kg.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo IX.4.1.2.2",
+          "cita": "Para arrastrar remolques con solo freno de inercia, la masa máxima autorizada del vehículo tractor (1,5 veces la M.M.A. si el vehículo a motor es todo terreno), no excediendo en ningún caso de 3.500 kg."
+        }
+      ],
+      "huella": "ea2ec575775b"
+    },
+    {
+      "id": "xb-0120",
+      "porque": "Con un remolque que solo tiene freno de inercia, la masa remolcable no puede superar la masa máxima autorizada del tractor (1,5 veces si es todoterreno), con un tope de 3.500 kg. Si no es todoterreno y su MMA es de 1.800 kg, el máximo es 1.800 kg.",
+      "descartes": {
+        "a": "750 kg es el tope de los remolques sin freno, no de los que tienen freno de inercia.",
+        "b": "2.700 kg sería 1,5 veces la MMA, y eso solo se aplica a los todoterreno."
+      },
+      "truco": "Remolque sin freno: la mitad de la tara del vehículo tractor más 75 kg, sin pasar nunca de 750 kg. Con solo freno de inercia: la MMA del tractor (1,5 veces si es todoterreno), sin pasar nunca de 3.500 kg.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo IX.4.1.2.1",
+          "cita": "Para arrastrar remolques sin freno: la mitad de la tara del vehículo tractor, incrementada en 75 kg., no excediendo en ningún caso de 750 kg."
+        }
+      ],
+      "huella": "dfc0d1392397"
+    },
+    {
+      "id": "xb-0121",
+      "porque": "Como norma general, y salvo las excepciones que fija el reglamento, ningún vehículo tractor puede arrastrar a la vez más de un remolque o semirremolque. Un turismo, por tanto, solo uno.",
+      "descartes": {
+        "b": "Que sean ligeros no cambia la regla general: un solo remolque o semirremolque.",
+        "c": "18,75 metros es la longitud máxima de un vehículo con remolque; no permite llevar dos remolques."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 13, Medidas permitidas (p. 328)",
+          "cita": "Vehículos con remolque 18,75 m"
+        }
+      ],
+      "huella": "1c083075bc90"
+    },
+    {
+      "id": "xb-0122",
+      "porque": "Los remolques de hasta 750 kg de masa máxima autorizada no se matriculan, así que no tienen matrícula propia: llevan una sola placa posterior, en el lado izquierdo o en el centro, con la misma matrícula que el vehículo que los remolca.",
+      "descartes": {
+        "a": "La placa propia de fondo rojo más otra con la matrícula del tractor es para los remolques de más de 750 kg, que sí se matriculan.",
+        "c": "Aunque no se matricule, lleva placa: una sola, detrás, con la matrícula del vehículo que lo remolca."
+      },
+      "truco": "Remolque de hasta 750 kg: «se viste» con la matrícula del coche. De más de 750 kg: matrícula propia, de fondo rojo, y además la del coche.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "25.1",
+          "cita": "así como remolques y semirremolques de masa máxima autorizada superior a 750 kilogramos, será preciso matricularlos"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XVIII",
+          "cita": "cuya masa máxima autorizada exceda de 750 kilogramos, deberán ir provistos en la parte posterior de su placa de matrícula situada en posición vertical o casi vertical y en el plano longitudinal mediano del vehículo y, además, en el lado derecho, de otra placa con la matrícula del vehículo remolcador."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XVIII",
+          "cita": "Remolques y semirremolques: El fondo de las placas será retrorreflectante, de color rojo."
+        }
+      ],
+      "huella": "ec6ade880356"
+    },
+    {
+      "id": "x1b-0075",
+      "porque": "La señal R-204 prohíbe el paso a los vehículos cuya anchura máxima, incluida la carga, supere la indicada. Lo que cuenta es la medida total que ocupa el vehículo cargado, aquí 2,60 metros.",
+      "descartes": {
+        "b": "La señal no mide el vehículo vacío: cuenta la anchura incluida la carga.",
+        "c": "Señalizar la carga no la hace más estrecha: si con ella se supera la anchura de la señal, no se puede pasar."
+      },
+      "truco": "En las señales que limitan anchura, altura o longitud, la medida que cuenta incluye la carga.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-205",
+          "cita": "R-205 Limitación de altura Prohibición de paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada."
+        }
+      ],
+      "huella": "d2dace0c5c71"
+    },
+    {
+      "id": "x1b-0055",
+      "porque": "Las señales que se colocan en los vehículos sirven para informar a los demás usuarios de la vía de circunstancias o características del vehículo, del servicio que presta, de la carga que lleva o de su conductor, como la L de novel o el panel de carga saliente.",
+      "descartes": {
+        "a": "No sirven para identificar al propietario; informan a los demás usuarios sobre el vehículo, el servicio, la carga o el conductor.",
+        "c": "No indican a qué velocidad circula habitualmente el vehículo; su objeto es dar a conocer circunstancias o características del vehículo, el servicio, la carga o el conductor."
+      },
+      "truco": null,
+      "huella": "d19614e669fd"
+    },
+    {
+      "id": "C-per-0014",
+      "porque": "En una bicicleta de una sola plaza se puede llevar a un menor de hasta 22 kg, siempre que sea capaz de sentarse por sí solo y vaya en un asiento adicional que cumpla las especificaciones técnicas.",
+      "descartes": {
+        "a": "15 kg es el límite para los animales que se llevan en remolques o semirremolques de bicicleta, no para los menores en asiento adicional.",
+        "b": "35 kg no aparece en la norma; el límite para el menor es de 22 kg."
+      },
+      "truco": "Bici de una plaza: niño de hasta 22 kg que se siente solo, en un asiento adicional que cumpla las especificaciones. El 15 es para animales en remolque.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "154.4",
+          "cita": "para el transporte de personas, de animales de hasta 15 kg de peso o de carga"
+        }
+      ],
+      "huella": "da0eac64832c"
+    },
+    {
+      "id": "C-per-0015",
+      "porque": "Para llevar carga o pasajeros en una bicicleta, la norma exige que quien conduce sea mayor de edad y que se cumplan los requisitos técnicos.",
+      "descartes": {
+        "b": "La norma no habla de 16 años: exige ser mayor de edad.",
+        "c": "Para conducir una bicicleta no se exige permiso, y la norma no lo pide para llevar pasajeros: exige ser mayor de edad."
+      },
+      "truco": null,
+      "huella": "39b3d7e77734"
+    },
+    {
+      "id": "xb-0096",
+      "porque": "Las personas solo pueden viajar en el lugar destinado y acondicionado para ellas, y el maletero de un turismo no lo es, por corto que sea el trayecto o bien cerrado que vaya el portón.",
+      "descartes": {
+        "a": "La prohibición no depende de la distancia ni del tipo de vía: el maletero no está acondicionado para personas.",
+        "b": "Que el portón vaya cerrado no convierte el maletero en un lugar acondicionado para viajar."
+      },
+      "truco": null,
+      "huella": "f639b34135bd"
+    },
+    {
+      "id": "xb-0097",
+      "porque": "La regla general es que las personas solo viajan en el lugar acondicionado para ellas, pero hay una excepción: en los vehículos de mercancías pueden ir en la zona de carga, en las condiciones que fijan las normas específicas que lo regulan.",
+      "descartes": {
+        "b": "No es «en ningún caso»: la propia norma prevé esta excepción para los vehículos de mercancías.",
+        "c": "No es «sin condiciones»: hay que cumplir las que fijan las disposiciones que regulan la materia."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "10.1",
+          "cita": "Está prohibido transportar personas en emplazamiento distinto al destinado y acondicionado para ellas en los vehículos."
+        }
+      ],
+      "huella": "1aa80ff1f048"
+    },
+    {
+      "id": "xb-0102",
+      "porque": "Para llevar un pasajero en moto no basta con que el pasajero cumpla los requisitos: además tiene que constar en el permiso de circulación de la moto que puede llevarlo.",
+      "descartes": {
+        "a": "Ser mayor de 12 años es un requisito del pasajero, pero sin que conste en el permiso de circulación no se puede llevar.",
+        "b": "El casco homologado es obligatorio, pero no suple que conste en el permiso de circulación."
+      },
+      "truco": "Pasajero de moto o ciclomotor: que conste en el permiso de circulación, mayor de 12 años (o de 7 si conduce su padre, madre, tutor o un adulto autorizado por ellos), con casco, a horcajadas, pies en los reposapiés y detrás del conductor. Nunca entre el conductor y el manillar.",
+      "huella": "a37d49aa26f1"
+    },
+    {
+      "id": "xb-0103",
+      "porque": "El pasajero de una moto o un ciclomotor tiene que ir en el asiento de detrás del conductor. La norma lo dice sin excepciones: nunca puede situarse entre quien conduce y el manillar.",
+      "descartes": {
+        "b": "La excepción de los mayores de 7 años es de edad, no de posición: también ellos deben ir detrás del conductor.",
+        "c": "La prohibición es «en ningún caso», así que no depende del trayecto ni de la velocidad."
+      },
+      "truco": "Pasajero de moto o ciclomotor: que conste en el permiso de circulación, mayor de 12 años (o de 7 si conduce su padre, madre, tutor o un adulto autorizado por ellos), con casco, a horcajadas, pies en los reposapiés y detrás del conductor. Nunca entre el conductor y el manillar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "12.2",
+          "cita": "Excepcionalmente, los mayores de siete años podrán circular en motocicletas o ciclomotores conducidos por su padre, madre o tutor o por personas mayores de edad por ellos autorizadas"
+        }
+      ],
+      "huella": "7e0fbb1d92d9"
+    },
+    {
+      "id": "xb-0104",
+      "porque": "El pasajero de un ciclomotor o una motocicleta debe ir a horcajadas, con los pies apoyados en los reposapiés laterales, en el asiento situado detrás del conductor.",
+      "descartes": {
+        "a": "De lado no se va a horcajadas ni con los pies en los reposapiés laterales, que es lo que exige la norma.",
+        "c": "No es a elección del pasajero: la norma exige ir a horcajadas y con los pies en los reposapiés."
+      },
+      "truco": "Pasajero de moto o ciclomotor: que conste en el permiso de circulación, mayor de 12 años (o de 7 si conduce su padre, madre, tutor o un adulto autorizado por ellos), con casco, a horcajadas, pies en los reposapiés y detrás del conductor. Nunca entre el conductor y el manillar.",
+      "huella": "f370ef71b9f3"
+    },
+    {
+      "id": "C-per-0010",
+      "porque": "La regla general es que el pasajero de una moto sea mayor de doce años. Solo excepcionalmente pueden ir los mayores de siete, si conduce su padre, su madre, su tutor o un adulto autorizado por ellos.",
+      "descartes": {
+        "a": "Más de 7 años es la excepción, solo si conduce su padre, madre, tutor o un adulto autorizado por ellos, no la regla general.",
+        "c": "La norma no exige 16 años al pasajero; la edad general es más de 12."
+      },
+      "truco": "Pasajero de moto o ciclomotor: que conste en el permiso de circulación, mayor de 12 años (o de 7 si conduce su padre, madre, tutor o un adulto autorizado por ellos), con casco, a horcajadas, pies en los reposapiés y detrás del conductor. Nunca entre el conductor y el manillar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "12.2",
+          "cita": "Excepcionalmente, los mayores de siete años podrán circular en motocicletas o ciclomotores conducidos por su padre, madre o tutor o por personas mayores de edad por ellos autorizadas"
+        }
+      ],
+      "huella": "c8e724bda0e9"
+    },
+    {
+      "id": "C-per-0011",
+      "porque": "La regla general son más de 12 años, pero hay una excepción: los mayores de siete pueden ir si conduce su padre, madre o tutor, o una persona mayor de edad autorizada por ellos, con casco homologado y cumpliendo las demás condiciones.",
+      "descartes": {
+        "a": "No es «en ningún caso»: la norma admite expresamente a los mayores de siete años con su padre, madre, tutor o un adulto autorizado.",
+        "b": "Con cualquier conductor no: la excepción exige que conduzca su padre, madre, tutor o un adulto autorizado por ellos."
+      },
+      "truco": "Pasajero de moto o ciclomotor: que conste en el permiso de circulación, mayor de 12 años (o de 7 si conduce su padre, madre, tutor o un adulto autorizado por ellos), con casco, a horcajadas, pies en los reposapiés y detrás del conductor. Nunca entre el conductor y el manillar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "12.1",
+          "cita": "puede viajar, siempre que así conste en su licencia o permiso de circulación, un pasajero que sea mayor de doce años, utilice casco de protección homologado"
+        }
+      ],
+      "huella": "08c471e4aebb"
+    }
+  ]
+}

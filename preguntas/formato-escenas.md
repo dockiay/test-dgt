@@ -14,14 +14,16 @@ El script termina con error y no publica nada si: el id no existe; en un cruce s
 
 | Campo | Qué es |
 |---|---|
-| `tipo` | `cruce` o `glorieta` |
+| `tipo` | `cruce`, `glorieta` o `estrecho` (tramo de un solo carril o puente, vía horizontal; los vehículos entran por `O` o `E`) |
 | `antes` | Qué se ve antes de responder: `escena` (fotograma quieto que sustituye a la imagen), `imagen` (la imagen de siempre, por ejemplo la señal) o `nada` |
 | `titulo` | Texto alternativo. No debe dar pistas de la respuesta |
-| `vehiculos` | `[{letra: "A"-"D", desde: "N"/"S"/"E"/"O", hacia, inicio?, tu?}]`. En glorieta, `dentro: ángulo` para un vehículo que ya circula por el anillo. `inicio`: `lejos`, `cerca`, `espera` (por defecto, parado antes de la línea) o `dentro` |
-| `vias` | Por brazo: `{senal: "stop"/"ceda", firme: "tierra"}` |
-| `entorno` | `campo` (sin aceras ni casas) |
+| `vehiculos` | `[{letra: "A"-"D" o id, tipo?, desde: "N"/"S"/"E"/"O", hacia, inicio?, tu?}]`. `tipo`: `turismo` (por defecto), `autocaravana`, `camion` (con `largo` opcional), `autobus`, `moto`, `bici`, `peaton`, `carro`, `turismo+remolque`, `camion+remolque`. Sin letra hace falta `id` (por ejemplo, ciclistas). `grupo: n` dibuja n en fila (`separacion` en px); `lat` cambia la distancia al eje; `puntos: [[x,y],…]` da un trayecto a medida (peatones); `color: "A"-"D"` para los que no llevan letra. En glorieta, `dentro: ángulo` para un vehículo que ya circula por el anillo. `inicio`: `lejos`, `cerca`, `espera` (por defecto, parado antes de la línea), `borde` (justo antes de la calzada), `dentro` o `medio` (centro, solo recto). En `estrecho`: `lejos`, `cerca`, `antes` (fuera del tramo), `dentro`, `encuentro` |
+| `vias` | Por brazo: `{senal: "stop"/"ceda", linea: false (sin línea de detención), poste: false (sin señal vertical), pintada: true (STOP o triángulo en el suelo), cartel: "P-1" (imagen de img/senales), firme: "tierra", cerrada: true (intersección en T)}` |
+| `entorno` | `campo` (sin aceras ni casas); en `estrecho`, `puente` |
+| `edificios` | `[[x, y, ancho, alto]]` en lugar de las casas de siempre (por ejemplo, uno que tapa la vista) |
+| `encuentro`, `senales`, `retrocede`, `criterio` | Solo `estrecho`: x del encuentro (200 por defecto); señales en los extremos `[{cod: "R-5", extremo: "O"}]`; quién da marcha atrás y por qué norma (`62.1`, `62.1-distancia`, `62.1-tamano`, `61.2`). El script comprueba que retrocede quien manda esa norma |
 | `centro` | `true` marca el centro de la intersección |
 | `orden` | Cruces automáticos: grupos que pasan, por ejemplo `[["C"],["B"],["A"]]`. Se comprueba contra el cálculo |
-| `pasos` | Opcional. Si falta, en los cruces se generan solos (regla de la derecha, vía pavimentada, STOP y ceda el paso). Cada paso: `texto`, `cita {norma, articulo, texto literal}`, `mover [{v, hasta: marca o fracción, modo: arranca/frena/sigue/suave/valle, retraso?, dura?}]`, `etiquetas {letra: "Pasa"/"Espera"/"Cede"/"STOP"/...}`, `foco [letras]`, `ms` |
+| `pasos` | Opcional. Si falta, en los cruces se generan solos (regla de la derecha, vía pavimentada, STOP y ceda el paso). Cada paso: `texto`, `cita {norma, articulo, texto literal}`, `mover [{v (letra o id), hasta: marca o fracción, modo: arranca/frena/sigue/suave/valle, retraso?, dura?}]`, `etiquetas {letra: "Pasa"/"Espera"/"Cede"/"STOP"/...}`, `foco [letras]`, `ms` |
 
 Los giros a la izquierda no se calculan solos: hay que escribir los pasos. Las escenas escritas a mano pasan por la revisión independiente como cualquier pregunta.

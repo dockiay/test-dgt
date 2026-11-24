@@ -44,14 +44,40 @@ for (const [id, esc] of Object.entries(datos)) {
   const p = porId.get(id);
   const mal = m => errores.push(`${id}: ${m}`);
   if (!p) { mal("no existe en data/preguntas.js"); continue; }
-  if (!["cruce", "glorieta"].includes(esc.tipo)) mal(`tipo desconocido «${esc.tipo}»`);
+  if (!["cruce", "glorieta", "estrecho"].includes(esc.tipo)) mal(`tipo desconocido «${esc.tipo}»`);
   if (!["escena", "imagen", "nada"].includes(esc.antes)) mal("«antes» debe ser escena, imagen o nada");
   if (esc.antes === "imagen" && !(p.imagen && p.imagen.src)) mal("«antes» es imagen pero la pregunta no tiene imagen");
   if (!esc.titulo) mal("falta el título (texto alternativo)");
+  const claves = new Map();
   for (const v of esc.vehiculos || []) {
-    if (!LETRAS.test(v.letra)) mal(`letra de vehículo no válida «${v.letra}»`);
-    if (v.dentro == null && !BRAZOS.includes(v.desde)) mal(`${v.letra}: «desde» no válido`);
-    if (!BRAZOS.includes(v.hacia)) mal(`${v.letra}: «hacia» no válido`);
+    const k = v.id || v.letra;
+    if (v.letra != null && !LETRAS.test(v.letra)) mal(`letra de vehículo no válida «${v.letra}»`);
+    if (!k) { mal("vehículo sin letra ni id"); continue; }
+    if (claves.has(k)) mal(`vehículo repetido «${k}»`);
+    claves.set(k, v);
+    if (v.tipo && !E.MEDIDAS[v.tipo]) mal(`${k}: tipo de vehículo desconocido «${v.tipo}»`);
+    if (esc.tipo === "estrecho") { if (!["O", "E"].includes(v.desde)) mal(`${k}: en un estrechamiento «desde» es O o E`); continue; }
+    if (v.puntos) { if (v.puntos.filter(Array.isArray).length < 2) mal(`${k}: «puntos» necesita al menos dos puntos`); continue; }
+    if (v.dentro == null && !BRAZOS.includes(v.desde)) mal(`${k}: «desde» no válido`);
+    if (!BRAZOS.includes(v.hacia)) mal(`${k}: «hacia» no válido`);
+  }
+  // Estrechamientos: quien retrocede debe ser el que manda la norma citada.
+  if (esc.tipo === "estrecho" && esc.retrocede) {
+    const r = claves.get(esc.retrocede), otros = [...claves.values()].filter(v => v !== r && !/peaton/.test(v.tipo || ""));
+    if (!r) mal(`«retrocede» no es ningún vehículo: ${esc.retrocede}`);
+    else if (esc.criterio === "62.1") {
+      const rr = E.RANGO62[r.tipo || "turismo"];
+      for (const o of otros) { const ro = E.RANGO62[o.tipo || "turismo"]; if (!(rr > ro)) mal(`según el art. 62.1 (${ro} frente a ${rr}) no debe retroceder ${esc.retrocede}`); }
+    } else if (esc.criterio === "62.1-distancia") {
+      // Mismo tipo: retrocede el que tiene que dar marcha atrás menos distancia (está más cerca de su entrada).
+      const X = esc.encuentro != null ? esc.encuentro : 200, entra = v => v.desde === "O" ? X - 145 : 255 - X;
+      for (const o of otros) { if ((o.tipo || "turismo") !== (r.tipo || "turismo")) mal("62.1-distancia es para vehículos del mismo tipo"); if (!(entra(r) < entra(o))) mal(`${esc.retrocede} no es el que tendría que retroceder menos`); }
+    } else if (esc.criterio === "62.1-tamano") {
+      for (const o of otros) if (!((r.largo || E.MEDIDAS[r.tipo || "turismo"].L) < (o.largo || E.MEDIDAS[o.tipo || "turismo"].L))) mal(`${esc.retrocede} no es el más pequeño`);
+    } else if (esc.criterio === "61.2") {
+      const s = (esc.senales || []).find(x => ["R-5", "R-1"].includes(x.cod));
+      if (!s || s.extremo !== r.desde) mal("según el art. 61.2 retrocede quien llega por el extremo con R-5 o ceda el paso");
+    } else mal(`criterio desconocido «${esc.criterio}»`);
   }
   let pasos = esc.pasos;
   if (!pasos || !pasos.length) {
@@ -66,6 +92,8 @@ for (const [id, esc] of Object.entries(datos)) {
   }
   for (const [i, ps] of pasos.entries()) {
     if (!ps.texto) mal(`paso ${i + 1} sin texto`);
+    for (const m of ps.mover || []) if (!claves.has(m.v)) mal(`paso ${i + 1}: mueve un vehículo que no existe «${m.v}»`);
+    for (const k of [...(ps.foco || []), ...Object.keys(ps.etiquetas || {})]) if (!claves.has(k)) mal(`paso ${i + 1}: «${k}» no es ningún vehículo`);
     if (!ps.cita || !ps.cita.texto) { mal(`paso ${i + 1} sin cita`); continue; }
     if (!aparece(ps.cita)) mal(`paso ${i + 1}: la cita de ${ps.cita.norma} ${ps.cita.articulo} no aparece literal en el BOE: «${ps.cita.texto}»`);
   }

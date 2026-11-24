@@ -599,5 +599,2963 @@ window.ESCENAS = {
     ]
    }
   ]
+ },
+ "x1a-0067": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega una autocaravana (A); por la derecha, un camión (B).",
+  "retrocede": "B",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "autocaravana",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "camion",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos y no se sabe quién entró primero.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "60.1",
+     "texto": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con mayores dificultades de maniobra, de acuerdo con lo que se determina en el artículo 62."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: la autocaravana (A) va en la letra d) y el camión (B), en la f). Por eso el camión (B) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa primero",
+     "B": "Marcha atrás"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "La autocaravana (A) pasa y después el camión (B) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "d) Turismos que arrastran remolques de hasta 750 kilogramos de masa máxima autorizada y autocaravanas."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "x1a-0068": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega una motocicleta (A); por la derecha, un turismo (B).",
+  "retrocede": "A",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "moto",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "turismo",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos y no se sabe quién entró primero.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "60.1",
+     "texto": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con mayores dificultades de maniobra, de acuerdo con lo que se determina en el artículo 62."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: el turismo (B) va en la letra g) y la motocicleta (A), en la j). Por eso la motocicleta (A) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa primero",
+     "A": "Marcha atrás"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "El turismo (B) pasa y después la motocicleta (A) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "g) Turismos y vehículos derivados de turismos."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "x1a-0069": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega un camión con remolque (A); por la derecha, un autobús (B).",
+  "retrocede": "B",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "camion+remolque",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "autobus",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos y no se sabe quién entró primero.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "60.1",
+     "texto": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con mayores dificultades de maniobra, de acuerdo con lo que se determina en el artículo 62."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: el camión con remolque (A) va en la letra b) y el autobús (B), en la e). Por eso el autobús (B) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa primero",
+     "B": "Marcha atrás"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "El camión con remolque (A) pasa y después el autobús (B) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "b) Conjunto de vehículos, excepto los contemplados en el párrafo d)."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "A-est-0002": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega un turismo (A); por la derecha, un camión (B).",
+  "retrocede": "A",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "turismo",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "camion",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos y no se sabe quién entró primero.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "60.1",
+     "texto": "En caso de duda sobre dicha circunstancia, tendrá la preferencia el vehículo con mayores dificultades de maniobra, de acuerdo con lo que se determina en el artículo 62."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: el camión (B) va en la letra f) y el turismo (A), en la g). Por eso el turismo (A) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa primero",
+     "A": "Marcha atrás"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "El camión (B) pasa y después el turismo (A) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "f) Camiones, tractocamiones y furgones."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "A-est-0004": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega un autobús (A); por la derecha, un camión (B).",
+  "retrocede": "B",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "autobus",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "camion",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos, así que uno tiene que dar marcha atrás.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: el autobús (A) va en la letra e) y el camión (B), en la f). Por eso el camión (B) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa primero",
+     "B": "Marcha atrás"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "El autobús (A) pasa y después el camión (B) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "e) Vehículos destinados al transporte colectivo de viajeros."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "A-est-0005": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega un autobús (A); por la derecha, un turismo con remolque (B).",
+  "retrocede": "A",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "autobus",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "turismo+remolque",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos, así que uno tiene que dar marcha atrás.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: el turismo con remolque (B) va en la letra d) y el autobús (A), en la e). Por eso el autobús (A) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa primero",
+     "A": "Marcha atrás"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "El turismo con remolque (B) pasa y después el autobús (A) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "d) Turismos que arrastran remolques de hasta 750 kilogramos de masa máxima autorizada y autocaravanas."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "A-est-0006": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega un vehículo de tracción animal (A); por la derecha, un turismo con remolque (B).",
+  "retrocede": "B",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "carro",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "turismo+remolque",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos, así que uno tiene que dar marcha atrás.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: el vehículo de tracción animal (A) va en la letra c) y el turismo con remolque (B), en la d). Por eso el turismo con remolque (B) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa primero",
+     "B": "Marcha atrás"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "El vehículo de tracción animal (A) pasa y después el turismo con remolque (B) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "c) Vehículos de tracción animal."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "A-est-0007": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega un turismo (A); por la derecha, un camión (B).",
+  "retrocede": "A",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "turismo",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "camion",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos, así que uno tiene que dar marcha atrás.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: el camión (B) va en la letra f) y el turismo (A), en la g). Por eso el turismo (A) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa primero",
+     "A": "Marcha atrás"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "El camión (B) pasa y después el turismo (A) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "f) Camiones, tractocamiones y furgones."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "v5a-est-0001": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega un turismo con remolque (A); por la derecha, un camión con remolque (B).",
+  "retrocede": "A",
+  "criterio": "62.1",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "turismo+remolque",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "camion+remolque",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B entran a la vez en el tramo estrecho y se encuentran: no caben los dos, así que uno tiene que dar marcha atrás.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Manda el orden del artículo 62: el camión con remolque (B) va en la letra b) y el turismo con remolque (A), en la d). Por eso el turismo con remolque (A) da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa primero",
+     "A": "Marcha atrás"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "El camión con remolque (B) pasa y después el turismo con remolque (A) sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "b) Conjunto de vehículos, excepto los contemplados en el párrafo d)."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "x1a-0070": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega un camión (A); por la derecha, otro camión (B).",
+  "retrocede": "B",
+  "criterio": "62.1-tamano",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tipo": "camion",
+    "largo": 84,
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "tipo": "camion",
+    "largo": 60,
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Los dos camiones se encuentran en el centro del tramo: los dos tendrían que retroceder la misma distancia.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "Cuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "A es más largo que B, así que tiene la preferencia: B da marcha atrás hasta salir del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa primero",
+     "B": "Marcha atrás"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "A pasa y después B sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "A-est-0003": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. Por la izquierda llega el turismo A y por la derecha, el turismo B.",
+  "retrocede": "B",
+  "criterio": "62.1-distancia",
+  "encuentro": 226,
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A y B se encuentran dentro del tramo. A ya ha recorrido casi todo; B acaba de entrar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "Cuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "A tendría que retroceder mucho más que B, así que tiene la preferencia: B da marcha atrás, que para él es poco.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "Cuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa primero",
+     "B": "Marcha atrás"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "A pasa y después B sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "62.1",
+     "texto": "Cuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2000
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1300,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3600
+   }
+  ]
+ },
+ "A-est-0001": {
+  "tipo": "estrecho",
+  "antes": "escena",
+  "titulo": "Tramo estrecho visto desde arriba, donde solo cabe un vehículo. El turismo A se acerca por la izquierda.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "O",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "A entra en el tramo estrecho. B llega después por el otro lado y se encuentra el tramo ocupado.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "60.1",
+     "texto": "tendrá derecho de preferencia de paso el que hubiese entrado primero"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "antes",
+      "modo": "frena",
+      "retraso": 500
+     }
+    ],
+    "etiquetas": {
+     "A": "Entró primero",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Tiene la preferencia el que entró primero: A termina de pasar y B espera fuera del tramo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "60.1",
+     "texto": "tendrá derecho de preferencia de paso el que hubiese entrado primero"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa",
+     "B": "Espera"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Con el tramo libre, B entra.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "60.1",
+     "texto": "tendrá derecho de preferencia de paso el que hubiese entrado primero"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2600
+   }
+  ]
+ },
+ "A-est-0010": {
+  "tipo": "estrecho",
+  "antes": "imagen",
+  "entorno": "puente",
+  "titulo": "Puente estrecho visto desde arriba, donde solo cabe un vehículo. Usted (A) entra por el extremo izquierdo; por el derecho llega B.",
+  "retrocede": "A",
+  "criterio": "61.2",
+  "senales": [
+   {
+    "cod": "R-5",
+    "extremo": "O"
+   },
+   {
+    "cod": "R-6",
+    "extremo": "E"
+   }
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "O",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) entra en el puente por el extremo de la señal de prioridad en sentido contrario y se encuentra con B: no caben los dos.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "61.1",
+     "texto": "El orden de preferencia de paso por puentes u obras de paso cuya anchura no permita el cruce de vehículos se realizará conforme a la señalización que lo regule."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Quien ha llegado por el extremo de esa señal es quien retrocede: usted da marcha atrás hasta salir del puente.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "61.2",
+     "texto": "el que llegue por ese extremo habrá de retroceder para dejar paso al otro"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "A": "Marcha atrás",
+     "B": "Pasa primero"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "B cruza el puente y después usted sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "61.2",
+     "texto": "el que llegue por ese extremo habrá de retroceder para dejar paso al otro"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "B1-pri-0072": {
+  "tipo": "estrecho",
+  "antes": "imagen",
+  "entorno": "puente",
+  "titulo": "Puente estrecho visto desde arriba, donde solo cabe un vehículo. Usted (A) entra por el extremo izquierdo; por el derecho llega B.",
+  "retrocede": "A",
+  "criterio": "61.2",
+  "senales": [
+   {
+    "cod": "R-5",
+    "extremo": "O"
+   },
+   {
+    "cod": "R-6",
+    "extremo": "E"
+   }
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "O",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) entra en el puente por el extremo de la señal de prioridad en sentido contrario y se encuentra con B: no caben los dos.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "61.1",
+     "texto": "El orden de preferencia de paso por puentes u obras de paso cuya anchura no permita el cruce de vehículos se realizará conforme a la señalización que lo regule."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "encuentro",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "encuentro",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Espera"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Quien ha llegado por el extremo de esa señal es quien retrocede: usted da marcha atrás hasta salir del puente.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "61.2",
+     "texto": "el que llegue por ese extremo habrá de retroceder para dejar paso al otro"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "antes"
+     }
+    ],
+    "etiquetas": {
+     "A": "Marcha atrás",
+     "B": "Pasa primero"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "B cruza el puente y después usted sigue su camino.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "61.2",
+     "texto": "el que llegue por ese extremo habrá de retroceder para dejar paso al otro"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "dura": 2200
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500,
+      "dura": 2300
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 3800
+   }
+  ]
+ },
+ "x1a-0059": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Usted (A) está parado en un ceda el paso; por la vía preferente se acerca B.",
+  "vias": {
+   "S": {
+    "senal": "ceda"
+   }
+  },
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Hay un hueco, pero B ya está muy cerca: si usted (A) sale ahora, B tendría que frenar de golpe.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "58.1",
+     "texto": "hasta haberse asegurado de que con ello no fuerza al conductor del vehículo que tiene la prioridad a modificar bruscamente la trayectoria o la velocidad de éste"
+    },
+    "mover": [],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Preferente"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2000
+   },
+   {
+    "texto": "Usted espera y B pasa sin tener que frenar ni cambiar su trayectoria.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.5",
+     "texto": "los conductores cederán siempre el paso a los vehículos que transiten por la vía preferente"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2200
+   },
+   {
+    "texto": "Ahora sí: sale sin obligar a nadie a frenar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "58.1",
+     "texto": "hasta haberse asegurado de que con ello no fuerza al conductor del vehículo que tiene la prioridad a modificar bruscamente la trayectoria o la velocidad de éste"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "x1a-0096": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Usted (A) se acerca a un cruce y va a girar a la izquierda.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "O",
+    "inicio": "lejos",
+    "tu": true
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Con antelación, usted pone el intermitente izquierdo y se va arrimando al eje de la calzada antes de llegar al cruce.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.b",
+     "texto": "la colocación del vehículo en el lugar adecuado se efectuará con la necesaria antelación"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Se coloca"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Ya colocado, gira en el menor espacio y tiempo posibles, dejando el centro de la intersección a su izquierda.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.b",
+     "texto": "la maniobra en el menor espacio y tiempo posibles"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Gira"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600
+   }
+  ]
+ },
+ "A-dir-0002": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Usted (A) se acerca a un cruce y va a girar a la derecha.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "E",
+    "inicio": "lejos",
+    "tu": true
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Antes de girar a la derecha, usted se ciñe todo lo posible al borde derecho de la calzada.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.b",
+     "texto": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Se coloca"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Desde ahí gira pegado al borde, sin abrirse, en el menor espacio y tiempo posibles.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.b",
+     "texto": "la maniobra en el menor espacio y tiempo posibles"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Gira"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "A-dir-0004": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Usted (A) circula por una calzada de doble sentido y va a girar a la izquierda; de frente viene B.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "O",
+    "inicio": "lejos",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "N",
+    "hacia": "S",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted se coloca junto a la marca central, sin pasar al carril contrario, por donde viene B.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.b",
+     "texto": "se ceñirá a la marca longitudinal de separación entre sentidos o, si ésta no existiera, al eje de la calzada, sin invadir la zona destinada al sentido contrario"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue",
+      "retraso": 900,
+      "dura": 2600
+     }
+    ],
+    "etiquetas": {
+     "A": "Se coloca",
+     "B": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3500
+   },
+   {
+    "texto": "Con el carril contrario libre, gira dejando el centro de la intersección a su izquierda.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.c",
+     "texto": "dejará a la izquierda el centro de la intersección"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Gira"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600
+   }
+  ]
+ },
+ "A-pri-0009": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "entorno": "campo",
+  "titulo": "Usted (A) va a salir a una carretera desde el camino privado de su casa. Por la carretera circulan B y C.",
+  "vias": {
+   "N": {
+    "cerrada": true
+   },
+   "S": {
+    "firme": "tierra"
+   }
+  },
+  "edificios": [
+   [
+    268,
+    296,
+    86,
+    62
+   ]
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "E",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "lejos"
+   },
+   {
+    "letra": "C",
+    "desde": "O",
+    "hacia": "E",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) sale despacio del camino privado de su casa, asegurándose de que puede hacerlo sin peligro.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "72.2",
+     "texto": "debe asegurarse previamente de que puede hacerlo sin peligro para nadie y efectuarlo a una velocidad que le permita detenerse en el acto"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "borde",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Despacio"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Cede el paso a todos los que circulan por la vía, vengan por la izquierda (C) o por la derecha (B).",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "72.2",
+     "texto": "cediendo el paso a los vehículos que circulen por aquélla, cualquiera que sea el sentido en que lo hagan"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     },
+     {
+      "v": "C",
+      "hasta": "fin",
+      "modo": "sigue",
+      "retraso": 500
+     }
+    ],
+    "etiquetas": {
+     "A": "Cede",
+     "B": "Pasa",
+     "C": "Pasa"
+    },
+    "foco": [
+     "B",
+     "C"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Con la carretera libre, se incorpora.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "72.1",
+     "texto": "de que puede hacerlo sin peligro para los demás usuarios"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Sale"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "A-inc-0003": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "entorno": "campo",
+  "titulo": "Usted (A) va a salir a una carretera desde el camino privado de su casa. Por la carretera circulan B y C.",
+  "vias": {
+   "N": {
+    "cerrada": true
+   },
+   "S": {
+    "firme": "tierra"
+   }
+  },
+  "edificios": [
+   [
+    268,
+    296,
+    86,
+    62
+   ]
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "E",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "lejos"
+   },
+   {
+    "letra": "C",
+    "desde": "O",
+    "hacia": "E",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) se acerca a la vía tan despacio que podría detenerse en el acto en cualquier momento.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "72.2",
+     "texto": "debe asegurarse previamente de que puede hacerlo sin peligro para nadie y efectuarlo a una velocidad que le permita detenerse en el acto"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "borde",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Despacio"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Se detiene y deja pasar a B y a C, que circulan por la vía en los dos sentidos.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "72.2",
+     "texto": "cediendo el paso a los vehículos que circulen por aquélla, cualquiera que sea el sentido en que lo hagan"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     },
+     {
+      "v": "C",
+      "hasta": "fin",
+      "modo": "sigue",
+      "retraso": 500
+     }
+    ],
+    "etiquetas": {
+     "A": "Cede",
+     "B": "Pasa",
+     "C": "Pasa"
+    },
+    "foco": [
+     "B",
+     "C"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Con la carretera libre, se incorpora.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "72.1",
+     "texto": "de que puede hacerlo sin peligro para los demás usuarios"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Sale"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "B1-pri-0059": {
+  "tipo": "cruce",
+  "antes": "imagen",
+  "titulo": "Usted (A) se acerca a un cruce; por la vía que cruza se acerca B.",
+  "vias": {
+   "S": {
+    "cartel": "P-1"
+   },
+   "E": {
+    "senal": "ceda"
+   },
+   "O": {
+    "senal": "ceda"
+   }
+  },
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "La señal avisa de una intersección con prioridad para usted (A): la vía que cruza tiene ceda el paso.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.4",
+     "texto": "Los conductores de los vehículos que se aproximen a una intersección señalizada con señal de intersección con prioridad"
+    },
+    "mover": [],
+    "etiquetas": {
+     "A": "Preferente",
+     "B": "Cede"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2000
+   },
+   {
+    "texto": "B viene por su derecha, pero es quien debe cederle el paso: usted pasa primero.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.4",
+     "texto": "tendrán prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa",
+     "B": "Espera"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Después pasa B.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.4",
+     "texto": "tendrán prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "B1-pri-0060": {
+  "tipo": "cruce",
+  "antes": "imagen",
+  "titulo": "Usted (A) circula por una calzada con la señal R-3; desde la vía que cruza quieren pasar B y C.",
+  "vias": {
+   "S": {
+    "cartel": "R-3"
+   },
+   "E": {
+    "senal": "ceda"
+   },
+   "O": {
+    "senal": "ceda"
+   }
+  },
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "O",
+    "hacia": "E"
+   },
+   {
+    "letra": "C",
+    "desde": "E",
+    "hacia": "O"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) circula por una calzada con prioridad.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.4",
+     "texto": "o que circulen por una vía señalizada con señal de calzada con prioridad"
+    },
+    "mover": [],
+    "etiquetas": {
+     "A": "Preferente",
+     "B": "Cede",
+     "C": "Cede"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2000
+   },
+   {
+    "texto": "Tiene prioridad sobre quien viene de la otra vía, tanto por la derecha (C) como por la izquierda (B): usted pasa primero.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.4",
+     "texto": "tendrán prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa",
+     "B": "Espera",
+     "C": "Espera"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Cuando usted ha pasado, salen B y C, que no se cortan entre sí.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.4",
+     "texto": "tendrán prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca"
+     },
+     {
+      "v": "C",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa",
+     "C": "Pasa"
+    },
+    "foco": [
+     "B",
+     "C"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "B1-sen-0075": {
+  "tipo": "cruce",
+  "antes": "imagen",
+  "titulo": "Usted (A) llega a un cruce sin otras señales; por su derecha llega B.",
+  "vias": {
+   "S": {
+    "cartel": "P-2"
+   }
+  },
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O"
+   }
+  ],
+  "orden": [
+   [
+    "B"
+   ],
+   [
+    "A"
+   ]
+  ]
+ },
+ "B1-pri-0064": {
+  "tipo": "cruce",
+  "antes": "imagen",
+  "entorno": "campo",
+  "titulo": "Usted (A) llega por un camino con señal de STOP a una carretera; no hay línea pintada en el suelo. Por la carretera se acerca B.",
+  "vias": {
+   "N": {
+    "cerrada": true
+   },
+   "S": {
+    "senal": "stop",
+    "linea": false
+   }
+  },
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "E",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "No hay línea de detención: usted (A) se detiene justo antes de la calzada a la que se aproxima.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "anexo I, 4.4 (M-6.3)",
+     "texto": "indica la obligación de detener el vehículo ante una línea de detención (M-4.1) o, si esta no existiera, inmediatamente antes de la calzada a la que se aproxima"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "borde",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "STOP"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Una vez detenido, cede el paso a B, que circula por esa calzada.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "anexo I, 4.4 (M-6.3)",
+     "texto": "y, una vez detenido el vehículo, ceder el paso a los vehículos que circulen por ella"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "STOP",
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Con la carretera libre, sale.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.5",
+     "texto": "los conductores cederán siempre el paso a los vehículos que transiten por la vía preferente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Sale"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "B1-pri-0065": {
+  "tipo": "cruce",
+  "antes": "imagen",
+  "titulo": "Usted (A) llega a un STOP; un edificio en la esquina le tapa la vista hacia la derecha. Por la derecha se acerca B.",
+  "vias": {
+   "N": {
+    "cerrada": true
+   },
+   "S": {
+    "senal": "stop"
+   }
+  },
+  "edificios": [
+   [
+    258,
+    258,
+    150,
+    150
+   ]
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "O",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) se detiene por completo en la línea de detención, pero el edificio no le deja ver quién viene por la derecha.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.5",
+     "texto": "llegando a detener por completo su marcha cuando sea preciso y, en todo caso, cuando así lo indique la señal correspondiente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "STOP"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Avanza muy despacio hasta donde ya ve la vía y se detiene de nuevo: ahora ve que se acerca B.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "anexo I, 4.2 (M-4.1)",
+     "texto": "Si desde el lugar donde se ha efectuado la detención no existe visibilidad suficiente, la persona conductora deberá detenerse de nuevo en el lugar desde donde tenga visibilidad, sin poner en peligro a ninguna persona usuaria de la vía."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "borde",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "cerca",
+      "modo": "sigue",
+      "retraso": 600,
+      "dura": 1800
+     }
+    ],
+    "etiquetas": {
+     "A": "Para otra vez"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Cede el paso a B, que circula por la vía preferente.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.5",
+     "texto": "los conductores cederán siempre el paso a los vehículos que transiten por la vía preferente"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Cede",
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2000
+   },
+   {
+    "texto": "Con la vía libre, gira dejando el centro de la intersección a su izquierda.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.c",
+     "texto": "dejará a la izquierda el centro de la intersección"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Gira"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600
+   }
+  ]
+ },
+ "B2-mv-0031": {
+  "tipo": "cruce",
+  "antes": "imagen",
+  "titulo": "Usted (A) llega a un cruce con una marca pintada en su carril; por la otra vía se acerca B.",
+  "vias": {
+   "S": {
+    "senal": "stop",
+    "pintada": true,
+    "poste": false
+   }
+  },
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "inicio": "lejos",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "La marca STOP obliga a detenerse ante la línea de detención (o, si no la hubiera, justo antes de la calzada).",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "anexo I, 4.4 (M-6.3)",
+     "texto": "indica la obligación de detener el vehículo ante una línea de detención (M-4.1) o, si esta no existiera, inmediatamente antes de la calzada a la que se aproxima"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "STOP"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Ya detenido, usted (A) cede el paso a B, que circula por la calzada a la que se aproxima.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "anexo I, 4.4 (M-6.3)",
+     "texto": "y, una vez detenido el vehículo, ceder el paso a los vehículos que circulen por ella"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "STOP",
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Con la vía libre, sigue.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.5",
+     "texto": "los conductores cederán siempre el paso a los vehículos que transiten por la vía preferente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "B2-mv-0032": {
+  "tipo": "cruce",
+  "antes": "imagen",
+  "titulo": "Usted (A) llega a un cruce con un triángulo pintado en su carril; por la otra vía se acerca B.",
+  "vias": {
+   "S": {
+    "senal": "ceda",
+    "pintada": true,
+    "poste": false
+   }
+  },
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "inicio": "lejos",
+    "tu": true
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "El triángulo obliga a ceder el paso a quien circula por la calzada a la que se aproxima. Como se acerca B, usted (A) se detiene en la línea de ceda el paso.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "anexo I, 4.4 (M-6.5)",
+     "texto": "indica a las personas conductoras la obligación de ceder el paso a los vehículos que circulen por la calzada a la que se aproxima, deteniéndose si es preciso ante la línea de ceda el paso (M-4.2)"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Cede"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "B pasa sin tener que frenar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.5",
+     "texto": "los conductores cederán siempre el paso a los vehículos que transiten por la vía preferente"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "B": "Pasa"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2200
+   },
+   {
+    "texto": "Con la vía libre, sigue.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "56.5",
+     "texto": "los conductores cederán siempre el paso a los vehículos que transiten por la vía preferente"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "A-cic-0001": {
+  "tipo": "cruce",
+  "antes": "imagen",
+  "titulo": "Cruce visto desde arriba. Un grupo de ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; usted (A) llega por el sur.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "tu": true
+   },
+   {
+    "id": "ciclistas",
+    "tipo": "bici",
+    "grupo": 5,
+    "separacion": 27,
+    "color": "D",
+    "desde": "O",
+    "hacia": "E",
+    "inicio": "medio"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "El primer ciclista ya ha entrado en el cruce: todo el grupo tiene prioridad, aunque venga por la izquierda de usted (A).",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "64.2.c",
+     "texto": "Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta."
+    },
+    "mover": [],
+    "etiquetas": {
+     "A": "Espera"
+    },
+    "foco": [
+     "ciclistas"
+    ],
+    "ms": 2200
+   },
+   {
+    "texto": "Usted espera a que pase el grupo entero, sin meterse entre los ciclistas.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "64.2.c",
+     "texto": "Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta."
+    },
+    "mover": [
+     {
+      "v": "ciclistas",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera"
+    },
+    "foco": [
+     "ciclistas"
+    ],
+    "ms": 3600
+   },
+   {
+    "texto": "Cuando ha pasado el último ciclista, sigue.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "64.2.c",
+     "texto": "Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "A-cic-0002": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Usted (A) va a girar a la derecha; delante, junto al borde, va un ciclista que sigue recto.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "E",
+    "inicio": "lejos",
+    "tu": true
+   },
+   {
+    "id": "ciclista",
+    "tipo": "bici",
+    "color": "D",
+    "desde": "S",
+    "hacia": "N",
+    "lat": 34,
+    "inicio": "cerca"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) quiere girar a la derecha y el ciclista, a su lado, va a seguir recto.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "64.2.b",
+     "texto": "Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades."
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": "dentro",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera"
+    },
+    "foco": [
+     "ciclista"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "El ciclista tiene prioridad: usted le deja pasar antes de girar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "64.2.b",
+     "texto": "Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades."
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera",
+     "ciclista": "Pasa"
+    },
+    "foco": [
+     "ciclista"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Ahora gira, ciñéndose al borde derecho.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.b",
+     "texto": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Gira"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "A-pea-0001": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Usted (A) va a girar a la derecha; en la calle a la que entra hay dos peatones cruzando, donde no hay paso para peatones.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "E",
+    "inicio": "cerca",
+    "tu": true
+   },
+   {
+    "id": "p1",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      262,
+      150
+     ],
+     [
+      262,
+      246
+     ]
+    ]
+   },
+   {
+    "id": "p2",
+    "tipo": "peaton",
+    "color": "C",
+    "puntos": [
+     [
+      276,
+      142
+     ],
+     [
+      275,
+      244
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) va a girar a la derecha y en la calle a la que entra hay peatones cruzando, aunque allí no hay paso para peatones.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "65.1.b",
+     "texto": "Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "p1",
+      "hasta": 0.45,
+      "modo": "sigue"
+     },
+     {
+      "v": "p2",
+      "hasta": 0.4,
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera"
+    },
+    "foco": [
+     "p1",
+     "p2"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Los peatones tienen prioridad: usted espera hasta que terminan de cruzar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "65.1.b",
+     "texto": "Cuando un vehículo vaya a girar para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos."
+    },
+    "mover": [
+     {
+      "v": "p1",
+      "hasta": 0.99,
+      "modo": "sigue"
+     },
+     {
+      "v": "p2",
+      "hasta": 0.99,
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera"
+    },
+    "foco": [
+     "p1",
+     "p2"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Con la calle libre, gira ciñéndose al borde derecho.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "75.1.b",
+     "texto": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "A": "Gira"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   }
+  ]
  }
 };

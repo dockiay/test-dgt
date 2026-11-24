@@ -42,6 +42,11 @@
         for (let i = 1; i <= n; i++) { const t = i / n, u = 1 - t; pts.push([u * u * x0 + 2 * u * t * c[0] + t * t * p[0], u * u * y0 + 2 * u * t * c[1] + t * t * p[1]]); }
         return api;
       },
+      cubica(c1, c2, p, n = 24) {
+        const [x0, y0] = pts[pts.length - 1];
+        for (let i = 1; i <= n; i++) { const t = i / n, u = 1 - t; pts.push([u * u * u * x0 + 3 * u * u * t * c1[0] + 3 * u * t * t * c2[0] + t * t * t * p[0], u * u * u * y0 + 3 * u * u * t * c1[1] + 3 * u * t * t * c2[1] + t * t * t * p[1]]); }
+        return api;
+      },
       arco(cx, cy, r, a0, a1, paso = 3) {
         const n = Math.max(2, Math.ceil(Math.abs(a1 - a0) / paso));
         for (let i = 1; i <= n; i++) { const a = (a0 + (a1 - a0) * i / n) * Math.PI / 180; pts.push([cx + r * Math.cos(a), cy + r * Math.sin(a)]); }
@@ -65,7 +70,12 @@
           const d = f * L, [x, y] = punto(d), a = punto(d - 10), b = punto(d + 4);
           return { x, y, ang: Math.atan2(b[1] - a[1], b[0] - a[0]) * 180 / Math.PI + 90 };
         };
-        return { en, fr, L };
+        // Fracción del recorrido en la que el trayecto (que avanza hacia x crecientes) pasa por x = X.
+        const fracX = X => {
+          for (let i = 1; i < pts.length; i++) if (pts[i][0] >= X) { const t = (X - pts[i - 1][0]) / ((pts[i][0] - pts[i - 1][0]) || 1); return (acum[i - 1] + (acum[i] - acum[i - 1]) * t) / L; }
+          return 1;
+        };
+        return { en, fr, L, fracX };
       }
     };
     return api;
@@ -74,18 +84,46 @@
   function trayectoCruce(v) {
     const g = giroDe(v.desde, v.hacia);
     // Antes de girar se ciñe: a la izquierda, junto al eje; a la derecha, al borde derecho (RGC 75.1.b).
-    const lat = g === "izquierda" ? 11 : g === "derecha" ? 26 : 20;
-    const c = camino(...enBrazo(v.desde, 230, 20)).marca("lejos")
-      .a(enBrazo(v.desde, 160, lat)).marca("cerca").a(enBrazo(v.desde, 90, lat)).marca("espera");
-    if (g === "recto") return c.a(enBrazo(v.desde, 40, lat)).marca("dentro").a(enBrazo(v.hacia, 250, -20)).fin();
+    if (v.puntos) return trayectoLibre(v.puntos);
+    const lat = v.lat != null ? v.lat : g === "izquierda" ? 11 : g === "derecha" ? 26 : 20;
+    // El cambio de posición lateral se ve en pantalla (entre d = 196 y d = 150).
+    const c = camino(...enBrazo(v.desde, 330, v.lat != null ? v.lat : 20)).a(enBrazo(v.desde, 230, v.lat != null ? v.lat : 20)).marca("lejos").a(enBrazo(v.desde, 196, v.lat != null ? v.lat : 20))
+      .a(enBrazo(v.desde, 150, lat)).marca("cerca").a(enBrazo(v.desde, 90, lat)).marca("espera").a(enBrazo(v.desde, 63, lat)).marca("borde");
+    if (g === "recto") return c.a(enBrazo(v.desde, 40, lat)).marca("dentro").a(enBrazo(v.desde, 0, lat)).marca("medio").a(enBrazo(v.hacia, 380, -lat)).fin();
     if (g === "derecha") {
       const ctrl = interseccion(v.desde, 26, v.hacia, -26);
-      return c.a(enBrazo(v.desde, 52, lat)).marca("dentro").curva(ctrl, enBrazo(v.hacia, 52, -26)).a(enBrazo(v.hacia, 250, -20)).fin();
+      return c.a(enBrazo(v.desde, 52, lat)).marca("dentro").curva(ctrl, enBrazo(v.hacia, 52, -26)).a(enBrazo(v.hacia, 380, -20)).fin();
     }
     // Izquierda: avanza hasta el centro y gira dejándolo a su izquierda (RGC 75.1.c).
     const ctrl = interseccion(v.desde, 11, v.hacia, -14);
-    return c.a(enBrazo(v.desde, 6, lat)).marca("dentro").curva(ctrl, enBrazo(v.hacia, 44, -16), 26).a(enBrazo(v.hacia, 250, -20)).fin();
+    return c.a(enBrazo(v.desde, 6, lat)).marca("dentro").curva(ctrl, enBrazo(v.hacia, 44, -16), 26).a(enBrazo(v.hacia, 380, -20)).fin();
   }
+  // Trayecto a medida (peatones, ciclistas): lista de puntos; las marcas se nombran con {marca: "nombre"}.
+  function trayectoLibre(puntos) {
+    const [p0, ...resto] = puntos.filter(p => Array.isArray(p));
+    const c = camino(p0[0], p0[1]);
+    for (const p of puntos.slice(1)) { if (Array.isArray(p)) c.a(p); else if (p.marca) c.marca(p.marca); }
+    return c.fin();
+  }
+  // Estrechamiento o puente de un solo carril entre x = 145 y x = 255, en una vía horizontal.
+  // Se calcula para quien entra por el oeste (hacia el este); el que entra por el este es el mismo
+  // trayecto girado 180 grados. Las marcas sitúan el frontal: «antes» (fuera del tramo estrecho),
+  // «dentro» (acaba de entrar) y «encuentro» (frente a frente con el otro, en x = esc.encuentro).
+  function trayectoEstrecho(v, esc) {
+    const mitad = (v.largo || MEDIDAS[v.tipo || "turismo"].L) / 2;
+    const t = camino(-360, 220).a([76, 220]).cubica([112, 220], [109, 200], [145, 200]).a([255, 200]).cubica([291, 200], [288, 220], [324, 220]).a([760, 220]).fin();
+    const espejo = v.desde === "E", X = esc.encuentro != null ? esc.encuentro : 200;
+    const xs = { lejos: -16 - mitad, cerca: 84 - mitad, antes: 96 - mitad, dentro: 166 - mitad, encuentro: (espejo ? 400 - X : X) - 7 - mitad };
+    const fr = Object.assign({}, t.fr); for (const k in xs) fr[k] = t.fracX(xs[k]);
+    const en = espejo ? f => { const p = t.en(f); return { x: 400 - p.x, y: 400 - p.y, ang: p.ang + 180 }; } : t.en;
+    return { en, fr, L: t.L };
+  }
+  // Medidas de cada tipo (ancho, largo) en px; un turismo de 22 x 42 equivale a unos 1,8 x 4,4 m.
+  const MEDIDAS = {
+    turismo: { w: 22, L: 42 }, autocaravana: { w: 24, L: 56 }, camion: { w: 26, L: 66 }, autobus: { w: 26, L: 74 },
+    moto: { w: 10, L: 24 }, bici: { w: 8, L: 20 }, peaton: { w: 13, L: 8 }, carro: { w: 20, L: 52 },
+    "turismo+remolque": { w: 22, L: 42, rem: { w: 20, L: 24, sep: 6 } }, "camion+remolque": { w: 26, L: 62, rem: { w: 26, L: 42, sep: 6 } }
+  };
   // Punto donde se cruzan la línea del carril de un brazo y la del otro (para la curva del giro).
   function interseccion(b1, lat1, b2, lat2) {
     const p1 = enBrazo(b1, 0, lat1), p2 = enBrazo(b2, 0, lat2);
@@ -161,7 +199,9 @@
     return pasos;
   }
 
-  const api = { ordenCruce, pasosCruce, giroDe, CITAS };
+  // Orden del RGC 62.1 (de más a menos preferencia) para los tipos que se dibujan.
+  const RANGO62 = { "camion+remolque": "b", carro: "c", "turismo+remolque": "d", autocaravana: "d", autobus: "e", camion: "f", turismo: "g", moto: "j", bici: "j" };
+  const api = { ordenCruce, pasosCruce, giroDe, CITAS, MEDIDAS, RANGO62 };
   if (!enNavegador) { if (typeof module !== "undefined") module.exports = api; return; }
 
   // ===================================================================
@@ -174,9 +214,9 @@
     return e;
   }
   let nId = 0;
-  function lienzo(titulo) {
+  function lienzo(titulo, vista) {
     const id = "esc" + (++nId);
-    const svg = s("svg", { viewBox: "0 0 400 400", role: "img", "aria-label": titulo || "Escena de tráfico", class: "esc-svg" });
+    const svg = s("svg", { viewBox: vista || "0 0 400 400", role: "img", "aria-label": titulo || "Escena de tráfico", class: "esc-svg" });
     // Textura de césped y sombra común.
     svg.append(s("defs", {},
       s("pattern", { id: id + "-cesped", width: 22, height: 22, patternUnits: "userSpaceOnUse" },
@@ -192,40 +232,123 @@
   const casa = (x, y, w, h) => s("g", {}, s("rect", { x: x + 3, y: y + 4, width: w, height: h, rx: 4, class: "e-sombra" }), s("rect", { x, y, width: w, height: h, rx: 4, class: "e-tejado" }), s("line", { x1: x + 4, y1: y + h / 2, x2: x + w - 4, y2: y + h / 2, class: "e-cumbrera" }));
 
   // Vehículo visto desde arriba, con el frente hacia y negativa. La letra va en una placa que no gira.
-  function vehiculo(letra) {
-    const [c, oscuro, claro] = COLOR[letra] || ["#6b7690", "#4f5970", "#a4afc6"];
-    const cuerpo = s("g", { class: "e-cuerpo" },
-      s("rect", { x: -11.5, y: -19, width: 25, height: 42, rx: 8, class: "e-sombra-coche" }),
-      s("rect", { x: -13.5, y: -10, width: 3, height: 5, rx: 1.5, fill: oscuro }), s("rect", { x: 10.5, y: -10, width: 3, height: 5, rx: 1.5, fill: oscuro }),
-      s("rect", { x: -11, y: -21, width: 22, height: 42, rx: 7.5, fill: c, stroke: oscuro, "stroke-width": 1.2 }),
-      s("path", { d: "M-8,-19.5 Q0,-21.5 8,-19.5 L8,-14 Q0,-15 -8,-14 Z", fill: claro, opacity: .55 }),
-      s("path", { d: "M-8.5,-11 Q0,-13.5 8.5,-11 L7,-4.5 Q0,-5.5 -7,-4.5 Z", class: "e-cristal" }),
-      s("rect", { x: -7, y: -4, width: 14, height: 13, rx: 3, fill: claro, opacity: .35 }),
-      s("path", { d: "M-7,10 Q0,11 7,10 L8,15 Q0,16.5 -8,15 Z", class: "e-cristal" }),
-      s("rect", { x: -9, y: -21.2, width: 4.5, height: 2.4, rx: 1.2, class: "e-faro" }), s("rect", { x: 4.5, y: -21.2, width: 4.5, height: 2.4, rx: 1.2, class: "e-faro" }),
-      s("rect", { x: -9, y: 19, width: 5, height: 2.2, rx: 1.1, class: "e-piloto" }), s("rect", { x: 4, y: 19, width: 5, height: 2.2, rx: 1.1, class: "e-piloto" }),
-      s("rect", { x: -9.5, y: 18.6, width: 6, height: 3, rx: 1.5, class: "e-freno" }), s("rect", { x: 3.5, y: 18.6, width: 6, height: 3, rx: 1.5, class: "e-freno" }),
-      s("circle", { cx: -10, cy: -18.5, r: 2.2, class: "e-intermitente izq" }), s("circle", { cx: -10, cy: 18.5, r: 2.2, class: "e-intermitente izq" }),
-      s("circle", { cx: 10, cy: -18.5, r: 2.2, class: "e-intermitente der" }), s("circle", { cx: 10, cy: 18.5, r: 2.2, class: "e-intermitente der" }));
-    const halo = s("ellipse", { rx: 21, ry: 21, class: "e-halo" });
-    const placa = s("g", { class: "e-placa" }, s("circle", { r: 9.5, fill: "#fff", stroke: oscuro, "stroke-width": 2 }), s("text", { y: 4.6, "text-anchor": "middle", "font-size": 13, "font-weight": 900, fill: oscuro }, letra));
+  // Tipos: turismo, autocaravana, camion, autobus, moto, bici, peaton, carro y los conjuntos con remolque.
+  const GRIS = ["#6b7690", "#4f5970", "#a4afc6"];
+  function luces(w, L, conFreno = true) {
+    const x = w / 2, y = L / 2, k = [];
+    k.push(s("rect", { x: -x + 2, y: -y - .2, width: w * .2, height: 2.4, rx: 1.2, class: "e-faro" }), s("rect", { x: x - 2 - w * .2, y: -y - .2, width: w * .2, height: 2.4, rx: 1.2, class: "e-faro" }));
+    if (conFreno) k.push(
+      s("rect", { x: -x + 2, y: y - 2.2, width: w * .22, height: 2.2, rx: 1.1, class: "e-piloto" }), s("rect", { x: x - 2 - w * .22, y: y - 2.2, width: w * .22, height: 2.2, rx: 1.1, class: "e-piloto" }),
+      s("rect", { x: -x + 1.5, y: y - 2.6, width: w * .26, height: 3, rx: 1.5, class: "e-freno" }), s("rect", { x: x - 1.5 - w * .26, y: y - 2.6, width: w * .26, height: 3, rx: 1.5, class: "e-freno" }),
+      s("rect", { x: -w * .14, y: y - 2.4, width: w * .28, height: 2.6, rx: 1.3, class: "e-atras" }));
+    k.push(s("circle", { cx: -x + 1, cy: -y + 2.5, r: 2.2, class: "e-intermitente izq" }), s("circle", { cx: x - 1, cy: -y + 2.5, r: 2.2, class: "e-intermitente der" }));
+    if (conFreno) k.push(s("circle", { cx: -x + 1, cy: y - 2.5, r: 2.2, class: "e-intermitente izq" }), s("circle", { cx: x - 1, cy: y - 2.5, r: 2.2, class: "e-intermitente der" }));
+    return k;
+  }
+  function carroceria(tipo, w, L, [c, oscuro, claro]) {
+    const x = w / 2, y = L / 2, sombra = s("rect", { x: -x + .5, y: -y + 2, width: w + 3, height: L, rx: Math.min(8, w / 3), class: "e-sombra-coche" });
+    const caja = (yy, hh, r, fill, extra) => s("rect", Object.assign({ x: -x, y: yy, width: w, height: hh, rx: r, fill, stroke: oscuro, "stroke-width": 1.2 }, extra || {}));
+    switch (tipo) {
+      case "camion": case "camion+remolque": {
+        const cab = 18;
+        return [sombra, caja(-y + cab + 2, L - cab - 2, 2.5, "#eef1f5"), s("line", { x1: -x + 4, y1: -y + cab + 8, x2: x - 4, y2: -y + cab + 8, stroke: "#c9ced8", "stroke-width": 1.4 }),
+          s("line", { x1: -x + 4, y1: y - 8, x2: x - 4, y2: y - 8, stroke: "#c9ced8", "stroke-width": 1.4 }),
+          caja(-y, cab, 5, c), s("path", { d: `M${-x + 3},${-y + 3} Q0,${-y + 1} ${x - 3},${-y + 3} L${x - 4},${-y + 8} Q0,${-y + 7} ${-x + 4},${-y + 8} Z`, class: "e-cristal" }),
+          s("rect", { x: -x + 3, y: -y + 10, width: w - 6, height: 6, rx: 2, fill: claro, opacity: .45 }), ...luces(w, L)];
+      }
+      case "autobus":
+        return [sombra, caja(-y, L, 5, c), s("path", { d: `M${-x + 2.5},${-y + 3} Q0,${-y + 1} ${x - 2.5},${-y + 3} L${x - 3},${-y + 9} Q0,${-y + 8} ${-x + 3},${-y + 9} Z`, class: "e-cristal" }),
+          s("rect", { x: -x + 4, y: -y + 14, width: w - 8, height: L - 22, rx: 3, fill: claro, opacity: .4 }),
+          s("rect", { x: -6, y: -y + 20, width: 12, height: 10, rx: 2, fill: oscuro, opacity: .35 }), s("rect", { x: -6, y: y - 24, width: 12, height: 10, rx: 2, fill: oscuro, opacity: .35 }), ...luces(w, L)];
+      case "autocaravana":
+        return [sombra, caja(-y, L, 7, "#f3efe6"), s("path", { d: `M${-x + 2},${-y + 6} Q0,${-y + 1} ${x - 2},${-y + 6} L${x - 2},${-y + 15} L${-x + 2},${-y + 15} Z`, fill: c }),
+          s("path", { d: `M${-x + 4},${-y + 5} Q0,${-y + 2.5} ${x - 4},${-y + 5} L${x - 5},${-y + 11} Q0,${-y + 10} ${-x + 5},${-y + 11} Z`, class: "e-cristal" }),
+          s("rect", { x: -5, y: -4, width: 10, height: 9, rx: 2, fill: "#c9d4e2", stroke: "#9aa6b8" }), s("rect", { x: -x, y: y - 12, width: w, height: 3, fill: c, opacity: .8 }), ...luces(w, L)];
+      case "moto":
+        return [s("ellipse", { cx: 1.5, cy: 3, rx: 5.5, ry: 12, class: "e-sombra-coche" }), s("rect", { x: -2.2, y: -y, width: 4.4, height: L, rx: 2.2, fill: "#2a2f38" }),
+          s("rect", { x: -5, y: -y + 4, width: 10, height: 3, rx: 1.5, fill: "#2a2f38" }), s("ellipse", { cx: 0, cy: 1, rx: 4.6, ry: 7.5, fill: c, stroke: oscuro }),
+          s("circle", { cx: 0, cy: -1, r: 4.2, fill: claro, stroke: oscuro, "stroke-width": 1.2 }), s("rect", { x: -1.6, y: -y - .3, width: 3.2, height: 2.2, rx: 1.1, class: "e-faro" }),
+          s("rect", { x: -2, y: y - 2.5, width: 4, height: 3, rx: 1.5, class: "e-freno" }), s("rect", { x: -1.5, y: y - 2.2, width: 3, height: 2.4, rx: 1.2, class: "e-atras" })];
+      case "bici":
+        return [s("g", { transform: "scale(1.25)" },s("ellipse", { cx: 1.5, cy: 3, rx: 4.5, ry: 10, class: "e-sombra-coche" }), s("line", { x1: 0, y1: -y, x2: 0, y2: y, stroke: "#2a2f38", "stroke-width": 2.2, "stroke-linecap": "round" }),
+          s("line", { x1: -4.5, y1: -y + 4, x2: 4.5, y2: -y + 4, stroke: "#2a2f38", "stroke-width": 1.8, "stroke-linecap": "round" }),
+          s("ellipse", { cx: 0, cy: 1, rx: 5, ry: 4, fill: c, stroke: oscuro }), s("circle", { cx: 0, cy: -1.5, r: 3, fill: claro, stroke: oscuro }))];
+      case "peaton":
+        return [s("g", { transform: "scale(1.45)" },s("ellipse", { cx: 1.5, cy: 2, rx: 7, ry: 5, class: "e-sombra-coche" }), s("ellipse", { cx: 0, cy: 0, rx: 6.5, ry: 4, fill: c, stroke: oscuro }), s("circle", { cx: 0, cy: 0, r: 3.2, fill: "#5a3b26" }))];
+      case "carro":
+        return [s("ellipse", { cx: 1.5, cy: 3, rx: 11, ry: 26, class: "e-sombra-coche" }),
+          s("ellipse", { cx: 0, cy: -y + 12, rx: 4.6, ry: 10, fill: "#8a5a35", stroke: "#5e3a1f" }), s("ellipse", { cx: 0, cy: -y + 1.5, rx: 2.4, ry: 3.6, fill: "#7a4c2b" }),
+          s("line", { x1: -3.5, y1: -y + 16, x2: -3.5, y2: -y + 26, stroke: "#6b4a2a", "stroke-width": 1.6 }), s("line", { x1: 3.5, y1: -y + 16, x2: 3.5, y2: -y + 26, stroke: "#6b4a2a", "stroke-width": 1.6 }),
+          s("rect", { x: -x - 2, y: -y + 34, width: 3, height: 9, rx: 1, fill: "#3a2a1a" }), s("rect", { x: x - 1, y: -y + 34, width: 3, height: 9, rx: 1, fill: "#3a2a1a" }),
+          s("rect", { x: -x, y: -y + 25, width: w, height: L - 25, rx: 2.5, fill: "#c79a63", stroke: "#8a6238", "stroke-width": 1.2 }),
+          s("line", { x1: -x + 3, y1: -y + 33, x2: x - 3, y2: -y + 33, stroke: "#a87d4c", "stroke-width": 1.2 }), s("line", { x1: -x + 3, y1: -y + 41, x2: x - 3, y2: -y + 41, stroke: "#a87d4c", "stroke-width": 1.2 }),
+          s("rect", { x: -x + 3, y: y - 3, width: 4, height: 2.4, rx: 1.2, class: "e-freno" }), s("rect", { x: x - 7, y: y - 3, width: 4, height: 2.4, rx: 1.2, class: "e-freno" })];
+      default: // turismo
+        return [sombra, s("rect", { x: -x - 2.5, y: -10, width: 3, height: 5, rx: 1.5, fill: oscuro }), s("rect", { x: x - .5, y: -10, width: 3, height: 5, rx: 1.5, fill: oscuro }),
+          caja(-y, L, 7.5, c),
+          s("path", { d: "M-8,-19.5 Q0,-21.5 8,-19.5 L8,-14 Q0,-15 -8,-14 Z", fill: claro, opacity: .55 }),
+          s("path", { d: "M-8.5,-11 Q0,-13.5 8.5,-11 L7,-4.5 Q0,-5.5 -7,-4.5 Z", class: "e-cristal" }),
+          s("rect", { x: -7, y: -4, width: 14, height: 13, rx: 3, fill: claro, opacity: .35 }),
+          s("path", { d: "M-7,10 Q0,11 7,10 L8,15 Q0,16.5 -8,15 Z", class: "e-cristal" }), ...luces(w, L)];
+    }
+  }
+  // Remolque: va detrás, con su propio giro (sigue el mismo trayecto a una distancia fija).
+  function remolque(r, color) {
+    const x = r.w / 2, y = r.L / 2;
+    const cuerpo = s("g", { class: "e-cuerpo" }, s("line", { x1: 0, y1: -y - r.sep - 1, x2: 0, y2: -y, stroke: "#2a2f38", "stroke-width": 2.4 }),
+      s("rect", { x: -x + .5, y: -y + 2, width: r.w + 3, height: r.L, rx: 3, class: "e-sombra-coche" }),
+      s("rect", { x: -x - 2, y: -4, width: 2.5, height: 8, rx: 1, fill: "#2a2f38" }), s("rect", { x: x - .5, y: -4, width: 2.5, height: 8, rx: 1, fill: "#2a2f38" }),
+      s("rect", { x: -x, y: -y, width: r.w, height: r.L, rx: 3, fill: "#e3e7ee", stroke: color[1], "stroke-width": 1.2 }),
+      s("rect", { x: -x + 3, y: -y + 3, width: r.w - 6, height: r.L - 6, rx: 2, fill: color[2], opacity: .3 }),
+      s("rect", { x: -x + 1.5, y: y - 2.6, width: r.w * .26, height: 3, rx: 1.5, class: "e-freno" }), s("rect", { x: x - 1.5 - r.w * .26, y: y - 2.6, width: r.w * .26, height: 3, rx: 1.5, class: "e-freno" }),
+      s("rect", { x: -r.w * .14, y: y - 2.4, width: r.w * .28, height: 2.6, rx: 1.3, class: "e-atras" }));
+    const g = s("g", { class: "e-vehiculo e-remolque" }, cuerpo); g._cuerpo = cuerpo;
+    return g;
+  }
+  function vehiculo(v) {
+    const tipo = v.tipo || "turismo", m = MEDIDAS[tipo] || MEDIDAS.turismo, w = m.w, L = v.largo || m.L, letra = v.letra;
+    const color = COLOR[letra] || (v.color && COLOR[v.color]) || GRIS;
+    const halo = s("ellipse", { rx: w / 2 + 10, ry: L / 2 + 10, class: "e-halo" });
+    const cuerpo = s("g", { class: "e-cuerpo" }, halo, ...carroceria(tipo, w, L, color));
+    const placa = letra ? s("g", { class: "e-placa" }, s("circle", { r: 9.5, fill: "#fff", stroke: color[1], "stroke-width": 2 }), s("text", { y: 4.6, "text-anchor": "middle", "font-size": 13, "font-weight": 900, fill: color[1] }, letra)) : null;
     const etiqueta = s("g", { class: "e-etiqueta", opacity: 0 }, s("rect", { x: -30, y: -12, width: 60, height: 22, rx: 11 }), s("text", { y: 4, "text-anchor": "middle", "font-size": 11.5, "font-weight": 900 }));
-    const g = s("g", { class: "e-vehiculo", "data-letra": letra }, halo, cuerpo, placa, etiqueta);
-    g._cuerpo = cuerpo; g._etiqueta = etiqueta;
+    const g = s("g", { class: "e-vehiculo e-" + tipo.replace("+", "-"), "data-v": v.id || letra }, cuerpo, placa, etiqueta);
+    g._cuerpo = cuerpo; g._etiqueta = etiqueta; g._largo = L;
+    // Distancia de la etiqueta al centro: detrás del vehículo (o del remolque).
+    g._detras = L / 2 + 19 + (m.rem ? m.rem.L + m.rem.sep : 0);
+    if (m.rem) { g._remolque = remolque(m.rem, color); g._remK = L / 2 + m.rem.sep + m.rem.L / 2; g._engancheK = L / 2 + m.rem.sep; g._remMitad = m.rem.L / 2; }
+    // Grupo (por ejemplo, ciclistas en fila): copias que siguen el mismo trayecto, una detrás de otra.
+    if (v.grupo > 1) {
+      g._seguidores = [];
+      for (let k = 1; k < v.grupo; k++) {
+        const c = s("g", { class: "e-cuerpo" }, ...carroceria(tipo, w, L, color));
+        const sg = s("g", { class: "e-vehiculo e-" + tipo }, c); sg._cuerpo = c; g._seguidores.push(sg);
+      }
+      g._sep = v.separacion || L + 8;
+      g._detras = L / 2 + 19;
+    }
     return g;
   }
   function colocar(g, p) {
     g.setAttribute("transform", `translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})`);
     g._cuerpo.setAttribute("transform", `rotate(${p.ang.toFixed(1)})`);
-    // La etiqueta se coloca detrás del vehículo (hacia donde viene), para no tapar el cruce.
+    g._ultimo = p;
     const a = (p.ang - 90) * Math.PI / 180;
-    g._etiqueta.setAttribute("transform", `translate(${(-Math.cos(a) * 40).toFixed(1)} ${(-Math.sin(a) * 40).toFixed(1)})`);
+    // Detrás del vehículo (hacia donde viene), o debajo/encima en el estrechamiento; siempre dentro del encuadre.
+    const k = g._detras || 40;
+    let dx = g._lado ? 0 : -Math.cos(a) * k, dy = g._lado ? g._lado * 34 : -Math.sin(a) * k;
+    const [x0, y0, x1, y1] = g._vista || [0, 0, 400, 400], m = (g._etqAncho || 60) / 2 + 4;
+    dx = Math.min(x1 - m, Math.max(x0 + m, p.x + dx)) - p.x; dy = Math.min(y1 - 14, Math.max(y0 + 14, p.y + dy)) - p.y;
+    g._etiqueta.setAttribute("transform", `translate(${dx.toFixed(1)} ${dy.toFixed(1)})`);
   }
   function etiquetar(g, texto) {
     const e = g._etiqueta;
     if (!texto) { e.setAttribute("opacity", 0); return; }
     e.querySelector("text").textContent = texto;
-    e.setAttribute("class", "e-etiqueta " + ({ Pasa: "pasa", Preferente: "pasa", Espera: "espera", Cede: "espera", STOP: "stop" }[texto] || ""));
+    const ancho = Math.max(44, Math.round(texto.length * 7.4 + 18));
+    const r = e.querySelector("rect"); r.setAttribute("x", -ancho / 2); r.setAttribute("width", ancho); g._etqAncho = ancho;
+    if (g._ultimo) colocar(g, g._ultimo);
+    e.setAttribute("class", "e-etiqueta " + ({ Pasa: "pasa", Preferente: "pasa", "Pasa primero": "pasa", Espera: "espera", Cede: "espera", "Marcha atrás": "espera", Retrocede: "espera", STOP: "stop", "Para otra vez": "stop" }[texto] || ""));
     e.setAttribute("opacity", 1);
   }
 
@@ -239,6 +362,9 @@
     if (esc.entorno !== "campo") esquinas.forEach(([x, y]) => g.append(s("rect", { x: x - 10, y: y - 10, width: 170, height: 170, rx: 0, class: "e-acera" })));
     g.append(s("rect", { x: 150, y: 0, width: 100, height: 400, class: esc.entorno === "campo" ? "e-arcen" : "e-acera" }), s("rect", { x: 0, y: 150, width: 400, height: 100, class: esc.entorno === "campo" ? "e-arcen" : "e-acera" }));
     esquinas.forEach(([x, y]) => g.append(s("rect", { x: x === 0 ? -20 : 250, y: y === 0 ? -20 : 250, width: 170, height: 170, rx: 18, fill: `url(#${id}-cesped)` })));
+    // Brazo que no existe (intersección en T): césped en su lugar.
+    const hueco = { N: [140, -20, 120, 170], S: [140, 250, 120, 170], E: [250, 140, 170, 120], O: [-20, 140, 170, 120] };
+    for (const b in hueco) if ((vias[b] || {}).cerrada) { const [x, y, w, h] = hueco[b]; g.append(s("rect", { x, y, width: w, height: h, fill: `url(#${id}-cesped)` })); }
     // Calzadas: asfalto, o tierra en el brazo sin pavimentar.
     const tramo = { N: [160, 0, 80, 160], S: [160, 240, 80, 160], E: [240, 160, 160, 80], O: [0, 160, 160, 80] };
     g.append(s("rect", { x: 160, y: 160, width: 80, height: 80, class: "e-asfalto" }));
@@ -253,14 +379,23 @@
       }
     }
     // Entorno.
-    if (esc.entorno !== "campo") {
-      g.append(casa(40, 30, 64, 46), casa(300, 300, 58, 52), arbol(122, 120, 13), arbol(282, 120, 11), arbol(118, 286, 12), arbol(330, 70, 15), arbol(60, 330, 15));
-    } else g.append(arbol(70, 80, 16), arbol(320, 320, 18), arbol(330, 90, 13), arbol(90, 320, 12));
+    // Edificios a medida (por ejemplo, uno que tapa la vista): sustituyen a las casas de siempre.
+    const libre = (x, y) => !(esc.edificios || []).some(([ex, ey, ew, eh]) => x > ex - 16 && x < ex + ew + 16 && y > ey - 16 && y < ey + eh + 16);
+    const arboles = esc.entorno !== "campo" ? [[122, 120, 13], [282, 120, 11], [118, 286, 12], [330, 70, 15], [60, 330, 15]] : [[70, 80, 16], [320, 320, 18], [330, 90, 13], [90, 320, 12]];
+    if (esc.edificios) esc.edificios.forEach(([x, y, w, h]) => g.append(casa(x, y, w, h)));
+    else if (esc.entorno !== "campo") g.append(casa(40, 30, 64, 46), casa(300, 300, 58, 52));
+    arboles.forEach(([x, y, r]) => libre(x, y) && g.append(arbol(x, y, r)));
     // Señales: línea de detención (STOP, continua) o de ceda el paso (discontinua), y la señal vertical.
     for (const b in vias) {
-      const via = vias[b]; if (!via.senal) continue;
-      const a = enBrazo(b, 66, 1), z = enBrazo(b, 66, 39);
-      g.append(s("line", { x1: a[0], y1: a[1], x2: z[0], y2: z[1], class: "e-marca", "stroke-width": via.senal === "stop" ? 6 : 5, "stroke-dasharray": via.senal === "ceda" ? "7 5" : null }));
+      const via = vias[b];
+      if (via.cartel) { const p = enBrazo(b, via.senal ? 150 : 96, 56); g.append(cartel(via.cartel, p[0], p[1])); }
+      if (!via.senal) continue;
+      if (via.linea !== false) {
+        const a = enBrazo(b, 66, 1), z = enBrazo(b, 66, 39);
+        g.append(s("line", { x1: a[0], y1: a[1], x2: z[0], y2: z[1], class: "e-marca", "stroke-width": via.senal === "stop" ? 6 : 5, "stroke-dasharray": via.senal === "ceda" ? "7 5" : null }));
+      }
+      if (via.pintada) g.append(marcaPintada(b, via.senal));
+      if (via.poste === false) continue;
       const p = enBrazo(b, 78, 56);
       g.append(s("line", { x1: p[0] + 2, y1: p[1] + 2, x2: p[0] + 2, y2: p[1] + 20, class: "e-poste" }));
       g.append(via.senal === "stop" ? senalStop(p[0], p[1]) : senalCeda(p[0], p[1]));
@@ -268,12 +403,50 @@
     if (esc.centro) g.append(s("g", { class: "e-centro" }, s("circle", { cx: 200, cy: 200, r: 5 }), s("text", { x: 200, y: 222, "text-anchor": "middle", "font-size": 11, "font-weight": 900 }, "centro")));
     svg.append(g);
   }
+  // Marca pintada en el carril (M-6.3 STOP o M-6.5 triángulo), legible para quien se acerca.
+  function marcaPintada(b, senal) {
+    const [x, y] = enBrazo(b, 108, 20), giro = { S: 0, N: 180, E: -90, O: 90 }[b];
+    const dibujo = senal === "stop"
+      ? s("text", { x: 0, y: 7, "text-anchor": "middle", "font-size": 12.5, "font-weight": 900, "letter-spacing": "-.3", class: "e-pintura", transform: "scale(1 1.7)" }, "STOP")
+      : s("polygon", { points: "-12,-22 12,-22 0,22", class: "e-pintura-linea" });
+    return s("g", { transform: `translate(${x} ${y}) rotate(${giro})` }, dibujo);
+  }
+  // Señal del catálogo (imagen recortada del BOE) sobre un poste.
+  function cartel(cod, x, y) {
+    return s("g", { class: "e-senal" }, s("line", { x1: x, y1: y + 4, x2: x, y2: y + 24, class: "e-poste" }),
+      s("circle", { cx: x, cy: y, r: 15.5, fill: "#fff", opacity: .9 }), s("image", { href: `img/senales/${cod}.png`, x: x - 14, y: y - 14, width: 28, height: 28 }));
+  }
   function senalStop(x, y) {
     const p = []; for (let i = 0; i < 8; i++) { const a = (22.5 + 45 * i) * Math.PI / 180; p.push((x + 13 * Math.cos(a)).toFixed(1) + "," + (y + 13 * Math.sin(a)).toFixed(1)); }
     return s("g", { class: "e-senal" }, s("polygon", { points: p.join(" "), fill: "#c8102e", stroke: "#fff", "stroke-width": 1.8 }), s("text", { x, y: y + 3.4, "text-anchor": "middle", "font-size": 8.5, "font-weight": 900, fill: "#fff" }, "STOP"));
   }
   function senalCeda(x, y) {
     return s("g", { class: "e-senal" }, s("polygon", { points: `${x - 14},${y - 10} ${x + 14},${y - 10} ${x},${y + 14}`, fill: "#fff", stroke: "#c8102e", "stroke-width": 4, "stroke-linejoin": "round" }));
+  }
+
+  // ---------- Escenario del estrechamiento o del puente ----------
+  function fondoEstrecho(svg, esc) {
+    const id = svg._id, g = s("g", { class: "e-fondo" }), puente = esc.entorno === "puente";
+    g.append(s("rect", { width: 400, height: 400, fill: `url(#${id}-cesped)` }));
+    if (puente) {
+      g.append(s("path", { d: "M150,-10 C140,120 170,260 148,410 L262,410 C240,260 268,130 252,-10 Z", class: "e-agua" }));
+      for (const y of [40, 110, 300, 360]) g.append(s("path", { d: `M${170 + (y % 3) * 6},${y} q10,-5 20,0 t20,0`, class: "e-ola" }));
+    }
+    // Calzada de dos carriles que se estrecha a uno entre x = 145 y x = 255.
+    const borde = "M-10,152 L82,152 C116,152 114,170 148,170 L252,170 C286,170 284,152 318,152 L410,152 L410,248 L318,248 C284,248 286,230 252,230 L148,230 C114,230 116,248 82,248 L-10,248 Z";
+    g.append(s("path", { d: borde, class: puente ? "e-acera" : "e-arcen" }));
+    g.append(s("path", { d: "M-10,160 L78,160 C112,160 111,177 145,177 L255,177 C289,177 288,160 322,160 L410,160 L410,240 L322,240 C288,240 289,223 255,223 L145,223 C111,223 112,240 78,240 L-10,240 Z", class: "e-asfalto" }));
+    g.append(s("line", { x1: -10, y1: 200, x2: 80, y2: 200, class: "e-marca", "stroke-dasharray": "16 12", "stroke-width": 3 }),
+      s("line", { x1: 320, y1: 200, x2: 410, y2: 200, class: "e-marca", "stroke-dasharray": "16 12", "stroke-width": 3 }));
+    if (puente) {
+      for (const y of [170, 230]) g.append(s("rect", { x: 140, y: y - 4, width: 120, height: 8, rx: 3, class: "e-pretil" }));
+      g.append(arbol(60, 90, 16), arbol(345, 320, 18), arbol(330, 80, 12), arbol(70, 330, 13));
+    } else {
+      g.append(casa(132, 60, 136, 104), casa(132, 236, 136, 104), arbol(60, 90, 16), arbol(345, 320, 18), arbol(330, 80, 12), arbol(70, 330, 13));
+    }
+    // Señales en los extremos: {cod: "R-5", extremo: "O"} se coloca a la derecha de quien entra por ese extremo.
+    for (const c of esc.senales || []) g.append(c.extremo === "E" ? cartel(c.cod, 300, 132) : cartel(c.cod, 100, 268));
+    svg.append(g);
   }
 
   // ---------- Escenario de la glorieta ----------
@@ -344,35 +517,49 @@
   // Escena: monta el dibujo y los pasos a partir de los datos
   // ===================================================================
   function crear(esc, op = {}) {
-    const svg = lienzo(op.titulo || esc.titulo);
-    if (esc.tipo === "glorieta") fondoGlorieta(svg); else fondoCruce(svg, esc);
+    const svg = lienzo(op.titulo || esc.titulo, esc.tipo === "estrecho" ? "40 40 320 320" : null);
+    if (esc.tipo === "glorieta") fondoGlorieta(svg); else if (esc.tipo === "estrecho") fondoEstrecho(svg, esc); else fondoCruce(svg, esc);
     const capaRastro = s("g", { class: "e-rastros" }), capaV = s("g");
     svg.append(capaRastro, capaV);
     const veh = {}, tray = {}, pos = {};
-    for (const v of esc.vehiculos) {
-      tray[v.letra] = esc.tipo === "glorieta" ? trayectoGlorieta(v) : trayectoCruce(v);
-      const g = vehiculo(v.letra); veh[v.letra] = g; capaV.append(g);
-      const giro = esc.tipo === "glorieta" ? "derecha" : giroDe(v.desde, v.hacia);
+    // Los peatones y ciclistas van debajo de los coches; cada vehículo se identifica por su id o su letra.
+    const orden = esc.vehiculos.slice().sort((a, b) => (/peaton|bici/.test(b.tipo || "") ? 1 : 0) - (/peaton|bici/.test(a.tipo || "") ? 1 : 0));
+    for (const v of orden) {
+      const k = v.id || v.letra;
+      tray[k] = esc.tipo === "glorieta" ? trayectoGlorieta(v) : esc.tipo === "estrecho" ? trayectoEstrecho(v, esc) : trayectoCruce(v);
+      const g = vehiculo(v); veh[k] = g; g._vista = svg.getAttribute("viewBox").split(" ").map(Number).map((n, i, a) => i < 2 ? n : n + a[i - 2]);
+      if (esc.tipo === "estrecho") g._lado = v.desde === "O" ? 1 : -1; // etiqueta debajo o encima: detrás se saldría del dibujo
+      if (g._remolque) capaV.append(g._remolque);
+      (g._seguidores || []).forEach(x => capaV.append(x));
+      capaV.append(g);
+      const giro = esc.tipo === "glorieta" ? "derecha" : esc.tipo === "estrecho" || v.puntos ? "recto" : giroDe(v.desde, v.hacia);
       g._giro = v.intermitente || (giro === "recto" ? null : giro);
     }
     const fr = (l, m) => typeof m === "number" ? m : tray[l].fr[m] != null ? tray[l].fr[m] : 0;
     function situar(l, f) {
-      pos[l] = f; const g = veh[l];
-      colocar(g, tray[l].en(f));
-      g.style.opacity = f >= .995 ? 0 : 1;
+      pos[l] = f; const g = veh[l], t = tray[l], fuera = f >= .995 ? 0 : 1;
+      colocar(g, t.en(f)); g.style.opacity = fuera;
+      if (g._remolque) {
+        // El remolque cuelga del enganche (detrás del vehículo) y apunta hacia él desde su punto del trayecto.
+        const r = g._remolque, p = t.en(f), q = t.en(Math.max(0, f - g._remK / t.L)), a = (p.ang - 90) * Math.PI / 180;
+        const hx = p.x - Math.cos(a) * g._engancheK, hy = p.y - Math.sin(a) * g._engancheK;
+        const dx = hx - q.x, dy = hy - q.y, d = Math.hypot(dx, dy) || 1, cx = hx - dx / d * g._remMitad, cy = hy - dy / d * g._remMitad;
+        r.setAttribute("transform", `translate(${cx.toFixed(1)} ${cy.toFixed(1)})`); r._cuerpo.setAttribute("transform", `rotate(${(Math.atan2(dy, dx) * 180 / Math.PI + 90).toFixed(1)})`); r.style.opacity = fuera;
+      }
+      (g._seguidores || []).forEach((x, i) => { const q = t.en(Math.max(0, f - (i + 1) * g._sep / t.L)); x.setAttribute("transform", `translate(${q.x.toFixed(1)} ${q.y.toFixed(1)})`); x._cuerpo.setAttribute("transform", `rotate(${q.ang.toFixed(1)})`); x.style.opacity = f - (i + 1) * g._sep / t.L >= .995 ? 0 : 1; });
     }
     // Estado inicial: cada vehículo en su marca de inicio (por defecto, parado en la línea).
-    const inicial = {}; esc.vehiculos.forEach(v => inicial[v.letra] = fr(v.letra, v.inicio || "espera"));
+    const inicial = {}; esc.vehiculos.forEach(v => { const k = v.id || v.letra; inicial[k] = fr(k, v.inicio || (esc.tipo === "estrecho" ? "lejos" : "espera")); });
     const pasos = (esc.pasos && esc.pasos.length ? esc.pasos : pasosCruce(esc)).map(p => Object.assign({}, p, { mover: (p.mover || []).map(m => Object.assign({}, m, { hasta: fr(m.v, m.hasta) })) }));
     const estados = [Object.assign({}, inicial)];
     pasos.forEach((p, i) => { const e = Object.assign({}, estados[i]); p.mover.forEach(m => e[m.v] = m.hasta); estados.push(e); });
 
-    function luces(intermitente, frenos) {
+    function luces(intermitente, frenos, atras) {
       for (const l in veh) {
-        const g = veh[l];
+        const g = veh[l], partes = [g, g._remolque].filter(Boolean);
         g.classList.toggle("int-izq", intermitente && g._giro === "izquierda" && pos[l] < .97);
         g.classList.toggle("int-der", intermitente && g._giro === "derecha" && pos[l] < .97);
-        g.classList.toggle("frenando", !!(frenos && frenos.includes(l)));
+        partes.forEach(x => { x.classList.toggle("frenando", !!(frenos && frenos.includes(l))); x.classList.toggle("atras", !!(atras && atras.includes(l))); });
       }
     }
     function resaltar(p) {
@@ -398,18 +585,21 @@
         const movs = p.mover.map(m => ({ l: m.v, a: desde[m.v], b: m.hasta, curva: CURVA[m.modo || (m.hasta >= .99 ? "arranca" : "frena")] || CURVA.suave,
           t0: (m.retraso || 0) / (p.ms || 2200), t1: m.dura ? ((m.retraso || 0) + m.dura) / (p.ms || 2200) : 1, frena: m.modo === "valle" ? (u => u > .1 && u < .3) : m.modo === "frena" || (m.modo == null && m.hasta < .99) ? (u => u > .35) : null }));
         const frenos = (p.frenos || []).slice();
+        // Marcha atrás: se mueve hacia una fracción menor del trayecto (luz blanca de marcha atrás).
+        movs.forEach(m => { m.atras = m.b < m.a - .001; if (m.atras) { m.curva = CURVA.suave; m.frena = null; } });
         luces(true, frenos);
         const ok = await animar(ms, t => {
-          const fren = frenos.slice();
+          const fren = frenos.slice(), atras = [];
           for (const m of movs) {
             const u = Math.max(0, Math.min(1, (t - m.t0) / Math.max(.01, m.t1 - m.t0)));
             situar(m.l, m.a + (m.b - m.a) * m.curva(u));
             if (m.frena && m.frena(u)) fren.push(m.l);
+            if (m.atras && u > 0 && u < 1) atras.push(m.l);
           }
-          luces(true, fren);
+          luces(true, fren, atras);
           if (alAvanzar) alAvanzar(t);
         }, f);
-        if (ok) { pintarEstado(i + 1); luces(true, p.mover.filter(m => m.hasta < .99 && m.modo !== "valle").map(m => m.v).concat(frenos)); if (alAvanzar) alAvanzar(1); }
+        if (ok) { pintarEstado(i + 1); luces(true, movs.filter(m => m.b < .99 && m.modo !== "valle").map(m => m.l).concat(frenos)); if (alAvanzar) alAvanzar(1); }
         return ok;
       }
     };
@@ -435,7 +625,8 @@
     return e;
   }
   const BOE = { RGC: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514", LSV: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722" };
-  const enlaceCita = c => el("a", { class: "esc-ref", href: c.url || (BOE[c.norma] ? `${BOE[c.norma]}#a${String(c.articulo).split(".")[0]}` : "#"), target: "_blank", rel: "noopener" }, `${c.norma}, art. ${c.articulo}`);
+  const esArticulo = c => /^\d/.test(String(c.articulo));
+  const enlaceCita = c => el("a", { class: "esc-ref", href: c.url || (BOE[c.norma] ? BOE[c.norma] + (esArticulo(c) ? `#a${String(c.articulo).split(".")[0]}` : "") : "#"), target: "_blank", rel: "noopener" }, `${c.norma}, ${esArticulo(c) ? "art. " : ""}${c.articulo}`);
 
   // op: { autoplay, citaYa: artículo ya citado arriba (no se repite el texto) }
   function reproductor(esc, op = {}) {

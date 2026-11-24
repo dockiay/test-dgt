@@ -16,7 +16,8 @@ Firestore y lo sincroniza sola entre el móvil y el ordenador. Todo cabe en el p
 - Desmarcar una dudosa o vaciar el repaso también se sincroniza (no reaparece desde el otro dispositivo).
 - Cada persona tiene un documento `usuarios/{uid}`. Las reglas (`firestore.rules`) solo dejan leer y
   escribir el propio, con un formato fijo.
-- **Solo entran los correos de la lista.** Al principio de `firestore.rules` está `correosPermitidos()`.
+- **Solo entran los correos de la lista.** La lista no está en el repositorio (es público): vive en el
+  secreto `CORREOS_PERMITIDOS` de GitHub y el workflow la escribe en `firestore.rules` al publicar.
   Cualquiera puede pulsar «Iniciar sesión con Google», pero si su correo no está en la lista la nube no le
   deja leer ni guardar nada: la web cierra su sesión y le explica que no tiene permiso (su progreso
   local no se toca).
@@ -50,6 +51,9 @@ Firestore y lo sincroniza sola entre el móvil y el ordenador. Todo cabe en el p
 6. **Darle los datos a GitHub.** En el repositorio → *Settings → Secrets and variables → Actions*:
    - pestaña *Secrets* → *New repository secret*: nombre `FIREBASE_SERVICE_ACCOUNT`, valor: todo el
      contenido del `.json`.
+   - otro secreto: nombre `CORREOS_PERMITIDOS`, valor: los correos que pueden entrar, separados por
+     comas (por ejemplo `uno@gmail.com, otra@hotmail.com`). Cada uno tiene que ser una cuenta de
+     Google: un Gmail, o un correo de otro proveedor con el que se haya creado una cuenta de Google.
    - pestaña *Variables* → *New repository variable*: nombre `FIREBASE_PROJECT_ID`, valor: el id del
      paso 1.
 
@@ -60,9 +64,8 @@ Con eso ya se puede borrar el `.json` descargado.
 
 ## Dar o quitar acceso
 
-Edita la lista `correosPermitidos()` al principio de `firestore.rules` (correos de Google, en
-minúsculas, entre comillas y separados por comas) y súbelo a `main`. GitHub publica las reglas nuevas
-en un minuto. Quitar un correo no borra su progreso; solo deja de poder leerlo y guardarlo.
+Cambia el secreto `CORREOS_PERMITIDOS` (*Settings → Secrets and variables → Actions*, editar) y luego
+*Actions → Publicar en Firebase → Run workflow*. En un minuto rigen las reglas nuevas. Quitar un correo no borra su progreso; solo deja de poder leerlo y guardarlo.
 
 ## Probar en local
 

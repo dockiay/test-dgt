@@ -2,6 +2,7 @@
 # Necesita, en Settings → Secrets and variables → Actions del repositorio:
 #   - variable FIREBASE_PROJECT_ID: el id del proyecto de Firebase (por ejemplo, test-permiso-b)
 #   - secreto FIREBASE_SERVICE_ACCOUNT: el JSON de la clave de la cuenta de servicio
+#   - secreto CORREOS_PERMITIDOS: los correos de Google que pueden guardar en la nube, separados por comas
 # Mientras falte la variable, el trabajo se salta (no falla).
 name: Publicar en Firebase
 
@@ -32,6 +33,25 @@ jobs:
           if [ -z "$CLAVE" ]; then echo "::error::Falta el secreto FIREBASE_SERVICE_ACCOUNT"; exit 1; fi
           printf '%s' "$CLAVE" > "$RUNNER_TEMP/clave.json"
           echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/clave.json" >> "$GITHUB_ENV"
+      - name: Poner la lista de correos permitidos en las reglas
+        env:
+          CORREOS: ${{ secrets.CORREOS_PERMITIDOS }}
+        run: |
+          python3 - <<'PY'
+          import os, re, sys, json
+          correos = [c.strip().lower() for c in re.split(r"[,;\s]+", os.environ.get("CORREOS", "")) if c.strip()]
+          if not correos:
+              sys.exit("::error::Falta el secreto CORREOS_PERMITIDOS (correos separados por comas)")
+          malos = [c for c in correos if not re.fullmatch(r"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}", c)]
+          if malos:
+              sys.exit(f"::error::Hay {len(malos)} correo(s) mal escritos en CORREOS_PERMITIDOS")
+          reglas = open("firestore.rules").read()
+          marca = 'return ["__CORREOS_PERMITIDOS__"];'
+          if reglas.count(marca) != 1:
+              sys.exit("::error::No se encuentra la marca de la lista en firestore.rules")
+          open("firestore.rules", "w").write(reglas.replace(marca, "return [" + ", ".join(json.dumps(c) for c in correos) + "];"))
+          print(f"{len(correos)} correo(s) permitidos")
+          PY
       - name: Publicar web y reglas
         run: npx --yes firebase-tools@14.24.0 deploy --only hosting,firestore:rules --project "${{ vars.FIREBASE_PROJECT_ID }}" --non-interactive
       - name: Borrar credenciales

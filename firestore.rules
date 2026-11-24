@@ -2,14 +2,12 @@ rules_version = '2';
 // Cada persona permitida solo puede leer y escribir su propio progreso: usuarios/{su uid}.
 // Todo lo demás está cerrado.
 service cloud.firestore {
-  // Quién puede guardar su progreso en la nube.
-  // Para dar o quitar acceso, edita esta lista (correos de Google, en minúsculas) y súbelo a main:
-  // GitHub publica las reglas solo. Cualquier otra cuenta puede iniciar sesión, pero no leer ni guardar nada.
+  // Quién puede guardar su progreso en la nube. La lista NO está en el repositorio (es público):
+  // al publicar, GitHub sustituye la marca de abajo por los correos del secreto
+  // CORREOS_PERMITIDOS (separados por comas). Ver FIREBASE.md. Cualquier otra cuenta puede
+  // iniciar sesión, pero no leer ni guardar nada.
   function correosPermitidos() {
-    return [
-      "cambiar-por-el-correo-de-denisse@gmail.com",
-      "cambiar-por-tu-correo@gmail.com"
-    ];
+    return ["__CORREOS_PERMITIDOS__"];
   }
 
   match /databases/{database}/documents {

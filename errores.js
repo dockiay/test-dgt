@@ -5,6 +5,7 @@
   const A = window.App, P = window.Progreso, E = window.ERRORES;
   if (!A || !P || !E) return;
   const { h, ico, fila, grupo, cabecera, cifras, pantalla, vacio, barajar, plural } = A;
+  const priorizar = A.priorizar || barajar;
 
   Object.assign(A.ICONOS, {
     bombilla: "M9 18h6M10 21h4M12 3a6 6 0 00-3.6 10.8c.7.6 1.1 1.4 1.1 2.2h5c0-.8.4-1.6 1.1-2.2A6 6 0 0012 3z",
@@ -75,7 +76,7 @@
     const practicar = (lista, titulo) => A.practicar(lista, "errores", titulo, vuelta);
     const repaso = e.pendientes.length ? e.pendientes : e.falladas;
     pantalla({ titulo: g.titulo, atras: { texto: "Errores típicos", href: "#/errores" },
-      barra: [h("button", { class: "boton", onclick: () => practicar(barajar(repaso.length ? repaso : e.ps).slice(0, 10), g.titulo) },
+      barra: [h("button", { class: "boton", onclick: () => practicar(priorizar(repaso.length ? repaso : e.ps).slice(0, 10), g.titulo) },
         repaso.length ? `Repasar ${plural(Math.min(10, repaso.length), "fallo", "fallos")}` : "Practicar 10 preguntas")] },
       h("h1", { class: "titulo-grande" }, g.titulo),
       h("div", { class: "trampa" }, h("span", { class: "trampa-etiqueta" }, ico("diana"), "La trampa"), h("p", {}, g.trampa)),
@@ -88,7 +89,7 @@
           h("blockquote", { class: "cita" }, h("small", {}, "Texto literal del BOE"), `«${pt.cita}»`),
           h("a", { class: "enlace-boe", href: pt.url, target: "_blank", rel: "noopener" }, "Abrir en el BOE", ico("enlace")))))),
       repaso.length && e.ps.length > repaso.length ? grupo("con-icono", fila({ icono: "libro", color: "indigo", titulo: "Practicar todo el tema", detalle: plural(e.ps.length, "pregunta", "preguntas"),
-        accion: () => practicar(barajar(e.ps).slice(0, 20), g.titulo) })) : null,
+        accion: () => practicar(priorizar(e.ps).slice(0, 20), g.titulo) })) : null,
       h("p", { class: "nota-pie" }, `Texto consolidado del BOE, versión del ${A.fechaES(E.lecciones.version_consultada.RGC)}. Pulsa cada norma para ver la cita literal.`));
   }
 

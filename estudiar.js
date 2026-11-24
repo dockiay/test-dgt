@@ -8,6 +8,8 @@
   const P = window.Progreso, A = window.App;
   if (!P || !A) return;
   const { h, ico, fila, grupo, cabecera, cifras, pantalla, hoja, plural, barajar, materia } = A;
+  // Prioridad visual en la sesión diaria (no en el simulacro semanal, que mantiene el reparto real).
+  const priorizar = A.priorizar || barajar;
   const DIA = 86400000;
   const SESION = { min: 10, max: 30 };            // tamaño de una tanda de «Estudiar hoy»
   const REPARTO = { repaso: 0.5, flojas: 0.3 };   // como mucho, la parte de repasos; la de materias flojas
@@ -166,10 +168,10 @@
       for (const id of ids) { if (k >= cupo || lista.length >= n) break; if (usadas.has(id)) continue; usadas.add(id); lista.push({ id, parte }); k++; }
       return k;
     };
-    const repasos = barajar(P.paraHoy(d, A.TODAS));
+    const repasos = priorizar(P.paraHoy(d, A.TODAS));
     const flojas = materiasFlojas();
     const sinDominar = m => {
-      const ids = barajar(A.POR_MATERIA[m] || []);
+      const ids = priorizar(A.POR_MATERIA[m] || []);
       // Primero las vistas sin dominar (ya sabe que le cuestan); luego nuevas de esa materia.
       return [...ids.filter(id => P.estado(d, id) === "vista"), ...ids.filter(id => P.estado(d, id) === "nueva")];
     };
@@ -180,10 +182,10 @@
     // Nuevas: por turnos, empezando por las materias con menos preguntas vistas (en proporción).
     const cobertura = Object.keys(A.POR_MATERIA).map(Number).map(m => ({ m, r: P.resumen(d, A.POR_MATERIA[m]) }))
       .sort((a, b) => a.r.vistas / a.r.total - b.r.vistas / b.r.total);
-    const colasNuevas = cobertura.map(({ m }) => barajar(A.POR_MATERIA[m].filter(id => P.estado(d, id) === "nueva")));
+    const colasNuevas = cobertura.map(({ m }) => priorizar(A.POR_MATERIA[m].filter(id => P.estado(d, id) === "nueva")));
     const nuevas = [];
     for (let i = 0; colasNuevas.some(c => c.length); i++) { const c = colasNuevas[i % colasNuevas.length]; if (c.length) nuevas.push(c.shift()); }
-    const vistas = barajar(A.TODAS.filter(id => P.estado(d, id) === "vista"));
+    const vistas = priorizar(A.TODAS.filter(id => P.estado(d, id) === "vista"));
 
     const partes = { repaso: 0, flojas: 0, nuevas: 0, otras: 0 };
     partes.repaso += tomar(repasos, Math.ceil(n * REPARTO.repaso), "repaso");
@@ -193,7 +195,7 @@
     partes.repaso += tomar(repasos, n, "repaso");
     partes.flojas += tomar(deFlojas, n, "flojas");
     partes.otras += tomar(vistas, n, "otras");
-    partes.otras += tomar(barajar(A.TODAS.filter(id => P.estado(d, id) === "dominada")), n, "otras");
+    partes.otras += tomar(priorizar(A.TODAS.filter(id => P.estado(d, id) === "dominada")), n, "otras");
     // Las preguntas de cada parte quedan mezcladas, pero se empieza por un repaso si hay.
     let orden = barajar(lista);
     const primero = orden.findIndex(x => x.parte === "repaso");

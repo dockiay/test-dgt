@@ -171,6 +171,22 @@
   }
 
   function barajar(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+  // Prioridad visual para práctica (temario, Estudiar hoy, repasos), nunca para los exámenes: barajado
+  // ponderado (Efraimidis-Spirakis). Peso 3 si la pregunta tiene escena animada o «Explóralo», 2 si tiene
+  // imagen y 1 el resto, así que las visuales salen antes y más a menudo sin dejar fuera a las demás.
+  // Una pregunta ya dominada vuelve a peso 1 para que la prioridad pase a las visuales que aún cuestan.
+  // Acepta ids o preguntas y devuelve una copia del mismo tipo.
+  const PESO_ANIMADA = 3, PESO_IMAGEN = 2;
+  function pesoVisual(p) {
+    if (!p || P.estado(datos, p.id) === "dominada") return 1;
+    const exp = window.EXPLORA && window.EXPLORA.explora;
+    if ((window.ESCENAS && window.ESCENAS[p.id]) || (exp && exp[p.id])) return PESO_ANIMADA;
+    return p.imagen ? PESO_IMAGEN : 1;
+  }
+  function priorizar(a) {
+    return a.map(x => ({ x, k: Math.random() ** (1 / pesoVisual(typeof x === "string" ? POR_ID.get(x) : x)) }))
+      .sort((u, v) => v.k - u.k).map(u => u.x);
+  }
   function fechaES(iso) { if (!iso) return ""; const [y, m, d] = iso.slice(0, 10).split("-"); return [d, m, y].filter(Boolean).join("/"); }
   function fechaCorta(ms) {
     const d = new Date(ms), hoy0 = new Date(); hoy0.setHours(0, 0, 0, 0);
@@ -529,7 +545,7 @@
     let cuantas = 10;
     const listaTemas = h("div", {}), info = h("p", { class: "nota-pie", role: "status" });
     const disponibles = () => todas.filter(p => activos.has(p.tema));
-    const empezar = () => { const d = disponibles(); if (d.length) practicar(barajar(d).slice(0, cuantas || undefined), "temario", `Materia ${n}`, `#/temario/${n}`); };
+    const empezar = () => { const d = disponibles(); if (d.length) practicar(priorizar(d).slice(0, cuantas || undefined), "temario", `Materia ${n}`, `#/temario/${n}`); };
     const boton = h("button", { class: "boton", onclick: empezar }, "Empezar");
     const pintar = () => {
       listaTemas.replaceChildren(grupo("", temas.map(t => h("button", { class: "fila", role: "checkbox", "aria-checked": String(activos.has(t)), onclick: () => { activos.has(t) ? activos.delete(t) : activos.add(t); pintar(); } },
@@ -556,7 +572,7 @@
     const todas = fallosActuales(), hoyIds = fallosDeHoy();
     const atras = { texto: "Inicio", href: "#/" };
     if (!todas.length) return pantalla({ titulo: "Mis fallos", atras }, vacio("check", "Sin fallos pendientes", "Cuando falles una pregunta en cualquier modo, aparecerá aquí para que la repases."));
-    const empezar = ids => practicar(barajar(ids.map(id => POR_ID.get(id))), "fallos", "Mis fallos", "#/fallos");
+    const empezar = ids => practicar(priorizar(ids.map(id => POR_ID.get(id))), "fallos", "Mis fallos", "#/fallos");
     const prox = P.proximoRepaso(datos, todas);
     const porMateria = {};
     for (const id of todas) { const m = POR_ID.get(id).materia; porMateria[m] = (porMateria[m] || 0) + 1; }
@@ -892,7 +908,7 @@
   // ---------- API para extensiones (estudiar.js, errores.js, camino.js, companero.js) ----------
   // Se cargan después de app.js; la primera pantalla se pinta cuando ya están todas (DOMContentLoaded).
   window.App = {
-    h, ico, ICONOS, fila, grupo, cabecera, cifras, segmentos, pantalla, hoja, vacio, avance, pregunta, barajar, plural, fechaES, fechaCorta, mmss,
+    h, ico, ICONOS, fila, grupo, cabecera, cifras, segmentos, pantalla, hoja, vacio, avance, pregunta, barajar, priorizar, plural, fechaES, fechaCorta, mmss,
     materia, nombreTema, tarjetaRacha, sonar, seccionNube, textoNube, repintarSiSeguro, practicar, empezarExamen, pararReloj, repintar: () => ruta(),
     MATERIAS, PREGUNTAS, POR_ID, POR_MATERIA, TODAS, EXAMEN_PREGUNTAS, PROPORCION_FALLOS,
     get datos() { return datos; }, guardar,

@@ -10,7 +10,10 @@
   const P = window.Progreso;
   const ESPERA_SUBIDA = 3000; // ms de calma tras un cambio antes de subirlo
   const estado = { disponible: false, usuario: null, sincronizando: false, ultima: null, error: null, pendiente: false };
-  let fb = null, auth = null, db = null, temporizador = null, enCurso = null, otraVez = false, ultimoSubido = null;
+  let fb = null, auth = null, db = null, temporizador = null, enCurso = null, otraVez = false, ultimoSubido = null, aviso = null;
+  // Solo pueden guardar en la nube los correos de la lista de firestore.rules. Si una cuenta no está,
+  // la nube responde "permission-denied" desde el primer acceso: se cierra la sesión y se explica.
+  const sinPermiso = correo => `La cuenta ${correo || "con la que has entrado"} no tiene permiso para guardar en la nube. Entra con una cuenta autorizada o pide acceso a quien gestiona la web. Mientras, tu progreso sigue guardado en este dispositivo.`;
 
   const avisar = () => window.dispatchEvent(new CustomEvent("nube-estado", { detail: estado }));
   // JSON con las claves ordenadas, para comparar dos progresos sin que importe el orden.
@@ -24,7 +27,7 @@
     if (c === "auth/popup-closed-by-user" || c === "auth/cancelled-popup-request") return null;
     if (c === "auth/network-request-failed" || c === "unavailable") return "Sin conexión. Se guardará en la nube cuando vuelva.";
     if (c === "auth/unauthorized-domain") return "Esta dirección no está autorizada para iniciar sesión.";
-    if (c === "permission-denied") return "La nube ha rechazado el guardado. Vuelve a iniciar sesión.";
+    if (c === "permission-denied") return "La nube ha rechazado el guardado. Prueba a cerrar sesión y volver a entrar.";
     return "No se ha podido conectar con la nube. Se reintentará más tarde.";
   }
 
@@ -52,7 +55,7 @@
     fb.getRedirectResult(auth).catch(e => { estado.error = mensaje(e); avisar(); });
     fb.onAuthStateChanged(auth, u => {
       estado.usuario = u ? { nombre: u.displayName || "", correo: u.email || "", foto: u.photoURL || "" } : null;
-      estado.error = null; ultimoSubido = null; avisar();
+      estado.error = aviso; aviso = null; ultimoSubido = null; estado.ultima = null; avisar();
       if (u) sincronizar();
     });
   }
@@ -91,8 +94,13 @@
         if (res.texto !== canonico(local)) window.dispatchEvent(new CustomEvent("progreso-nube", { detail: res.datos }));
         estado.ultima = Date.now(); estado.error = null; estado.pendiente = false;
       } catch (e) {
+        if (e && e.code === "permission-denied" && !estado.ultima) {
+          // Nunca ha podido leer su copia: la cuenta no está en la lista de permitidas.
+          aviso = sinPermiso(u.email); estado.pendiente = false;
+          fb.signOut(auth).catch(() => {});
+          return;
+        }
         estado.error = mensaje(e); estado.pendiente = true;
-        if (e && e.code === "permission-denied") console.warn("Nube:", e);
       } finally {
         estado.sincronizando = false; enCurso = null; avisar();
         if (otraVez) { otraVez = false; programar(); }

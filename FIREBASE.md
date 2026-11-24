@@ -16,6 +16,10 @@ Firestore y lo sincroniza sola entre el móvil y el ordenador. Todo cabe en el p
 - Desmarcar una dudosa o vaciar el repaso también se sincroniza (no reaparece desde el otro dispositivo).
 - Cada persona tiene un documento `usuarios/{uid}`. Las reglas (`firestore.rules`) solo dejan leer y
   escribir el propio, con un formato fijo.
+- **Solo entran los correos de la lista.** Al principio de `firestore.rules` está `correosPermitidos()`.
+  Cualquiera puede pulsar «Iniciar sesión con Google», pero si su correo no está en la lista la nube no le
+  deja leer ni guardar nada: la web cierra su sesión y le explica que no tiene permiso (su progreso
+  local no se toca).
 - La configuración pública la sirve Firebase Hosting en `/__/firebase/init.json`, así que no hay
   claves en el repositorio. Fuera de Firebase Hosting (por ejemplo, GitHub Pages) la web funciona
   como antes, sin la opción de la nube.
@@ -53,6 +57,12 @@ Firestore y lo sincroniza sola entre el móvil y el ordenador. Todo cabe en el p
    publica solo. La web queda en `https://<id-del-proyecto>.web.app`.
 
 Con eso ya se puede borrar el `.json` descargado.
+
+## Dar o quitar acceso
+
+Edita la lista `correosPermitidos()` al principio de `firestore.rules` (correos de Google, en
+minúsculas, entre comillas y separados por comas) y súbelo a `main`. GitHub publica las reglas nuevas
+en un minuto. Quitar un correo no borra su progreso; solo deja de poder leerlo y guardarlo.
 
 ## Probar en local
 

@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "fecha": "2026-11-24",
+  "video": "video2",
+  "leyenda": {
+    "error": "El vídeo se equivoca",
+    "matiz": "Hay que matizarlo",
+    "correcta": "El vídeo acierta",
+    "no_norma": "No es una norma (consejo o explicación)",
+    "sin_fuente": "No se puede confirmar con las fuentes oficiales"
+  },
+  "resoluciones": [
+    {
+      "id": "v2-rev-0001",
+      "afirmacion_del_video": "Las luces del vehículo de movilidad personal son obligatorias de noche y solo a partir de 2027 lo serán también de día.",
+      "minuto": "0:26",
+      "veredicto": "error",
+      "lo_correcto": "El alumbrado del VMP debe ir encendido siempre, de día y de noche. Lo que llega en 2027 tiene que ver con la certificación y el registro de los VMP (Reglamento General de Vehículos), no con el uso de las luces.",
+      "fuente": "Reglamento General de Circulación, art. 155.5",
+      "norma": "RGC",
+      "cita": "Los vehículos de movilidad personal deberán llevar siempre encendido el alumbrado.",
+      "preguntas_nuevas": [
+        "v2-vmp-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v2-rev-0002",
+      "afirmacion_del_video": "Si circulamos de noche en vehículo de movilidad personal hay que llevar un chaleco reflectante; y en la batería de preguntas, que el chaleco solo es obligatorio para los repartidores (de día y de noche).",
+      "minuto": "0:34",
+      "veredicto": "matiz",
+      "lo_correcto": "De noche o con poca visibilidad, todo conductor de VMP debe llevar al menos un elemento luminoso o reflectante visible a 150 metros (no necesariamente un chaleco). El chaleco reflectante de alta visibilidad es obligatorio siempre, en todo tipo de vías, para quien circula por trabajo en moto, ciclomotor, bici o VMP.",
+      "fuente": "Reglamento General de Circulación, art. 118.3 y 118.4",
+      "norma": "RGC",
+      "cita": "sensiblemente la visibilidad, deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa de los equipos de protección individual, que sea visible a una distancia mínima de 150 metros.",
+      "preguntas_nuevas": [
+        "v2-vmp-0003",
+        "v2-vmp-0004"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v2-rev-0003",
+      "afirmacion_del_video": "Los VMP no pueden circular fuera de poblado, ni por travesías, ni por túneles o pasos inferiores; la excepción nueva es una vía segregada del tráfico, como un carril bici.",
+      "minuto": "0:37",
+      "veredicto": "matiz",
+      "lo_correcto": "Los VMP no pueden ir por autopistas, autovías ni travesías. Por vías interurbanas y túneles urbanos solo si se trata de vías ciclistas, carriles bici, pistas bici, sendas ciclables o vías cerradas a los vehículos de motor, y si la señalización no lo prohíbe. La norma habla de túneles urbanos, no de «pasos inferiores».",
+      "fuente": "Reglamento General de Circulación, art. 38.4",
+      "norma": "RGC",
+      "cita": "c) Por vías interurbanas y por túneles urbanos, salvo que se trate de vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías en las que esté prohibida la circulación de vehículos de motor",
+      "preguntas_nuevas": [
+        "v2-vmp-0005"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "via-0007"
+      ]
+    },
+    {
+      "id": "v2-rev-0004",
+      "afirmacion_del_video": "Al adelantar a vehículos inmovilizados por avería (o a la grúa) hay que dejar 1,5 metros y bajar 20 km/h la máxima de la vía.",
+      "minuto": "1:50",
+      "veredicto": "matiz",
+      "lo_correcto": "Es correcto cuando el vehículo inmovilizado ocupa en todo o en parte la calzada en el carril del sentido de la marcha. Si está totalmente fuera de la calzada (por ejemplo, en el arcén), la norma no impone esa reducción de 20 km/h.",
+      "fuente": "Reglamento General de Circulación, art. 88.1",
+      "norma": "RGC",
+      "cita": "y, en todo o en parte, ocupe la calzada en el carril del sentido de la marcha, los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "adel-0005"
+      ]
+    },
+    {
+      "id": "v2-rev-0005",
+      "afirmacion_del_video": "Al ir detrás de un ciclista sin adelantarlo hay que dejar como mínimo 5 metros (lo explica en general, junto a las normas de fuera de poblado).",
+      "minuto": "1:57",
+      "veredicto": "matiz",
+      "lo_correcto": "La separación mínima de 5 metros con el ciclista que va delante en el mismo carril está en las normas específicas de zonas urbanas. Fuera de poblado rige la regla general: un espacio que permita detenerse sin chocar en caso de frenado brusco.",
+      "fuente": "Reglamento General de Circulación, art. 153.4 (título VI, zonas urbanas) y art. 54.1",
+      "norma": "RGC",
+      "cita": "Los conductores de vehículos a motor deberán dejar una separación mínima de cinco metros con los ciclistas que les precedan en el mismo carril",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "dist-0005"
+      ]
+    },
+    {
+      "id": "v2-rev-0006",
+      "afirmacion_del_video": "Hay que dejar metro y medio a peatones, ciclistas, ciclomotores, animales de montura, vehículos de tracción animal y VMP, tanto dentro como fuera de poblado.",
+      "minuto": "2:21",
+      "veredicto": "matiz",
+      "lo_correcto": "Correcto, con un añadido: si la calzada tiene más de un carril por sentido, no basta con 1,5 metros, hay que cambiar completamente de carril. Y fuera de poblado, además, hay que bajar al menos 20 km/h respecto al límite de la vía.",
+      "fuente": "Reglamento General de Circulación, art. 85.4",
+      "norma": "RGC",
+      "cita": "salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril",
+      "preguntas_nuevas": [
+        "v2-adel-0001",
+        "v2-adel-0002"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "adel-0001",
+        "adel-0002",
+        "adel-0003"
+      ]
+    },
+    {
+      "id": "v2-rev-0007",
+      "afirmacion_del_video": "La moto tiene que dejar metro y medio con respecto a nosotros cuando nos adelante.",
+      "minuto": "3:31",
+      "veredicto": "matiz",
+      "lo_correcto": "Solo fuera de poblado: el conductor de un vehículo de dos ruedas que adelanta fuera de poblado debe dejar un espacio no inferior a 1,50 metros.",
+      "fuente": "Reglamento General de Circulación, art. 85.5",
+      "norma": "RGC",
+      "cita": "El conductor de un vehículo de dos ruedas que pretenda adelantar fuera de poblado a otro cualquiera lo hará de forma que entre aquél y las partes más salientes del vehículo que adelanta quede un espacio no inferior a 1,50 metros.",
+      "preguntas_nuevas": [
+        "v2-adel-0003"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v2-rev-0008",
+      "afirmacion_del_video": "Lo nuevo es que a los vehículos agrícolas lentos también se les puede adelantar pisando la línea continua, si es seguro.",
+      "minuto": "3:50",
+      "veredicto": "correcta",
+      "lo_correcto": "En un tramo con prohibición de adelantar se puede adelantar, ocupando el sentido contrario y tras comprobar que no hay peligro, a ciclos, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas y sus conjuntos, cuando por su velocidad puedan ser adelantados sin riesgo.",
+      "fuente": "Reglamento General de Circulación, art. 88.2",
+      "norma": "RGC",
+      "cita": "animal y vehículos especiales agrícolas y sus conjuntos cuando por la velocidad a que circulen puedan ser adelantados sin riesgo para ellos ni para la circulación en general.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0016"
+      ]
+    },
+    {
+      "id": "v2-rev-0009",
+      "afirmacion_del_video": "Con nieve en la carretera solo se puede usar el carril derecho (o los dos de la derecha si hay más de dos carriles); el izquierdo queda libre.",
+      "minuto": "4:03",
+      "veredicto": "matiz",
+      "lo_correcto": "La regla es para autopistas y autovías: con nieve está prohibido adelantar y hay que circular por el carril de la derecha; con tres o más carriles por sentido se puede usar también su contiguo. Los demás carriles de la izquierda quedan libres para emergencias y quitanieves.",
+      "fuente": "Reglamento General de Circulación, art. 32.2",
+      "norma": "RGC",
+      "cita": "En autopistas y autovías, cuando la circulación se vea dificultada por las condiciones de la calzada a causa de la nieve, estará prohibido adelantar",
+      "preguntas_nuevas": [
+        "v2-nieve-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "arc-0013"
+      ]
+    },
+    {
+      "id": "v2-rev-0010",
+      "afirmacion_del_video": "En un atasco hay que formar el pasillo de emergencia: los del lado derecho tienen que invadir el arcén; con varios carriles se forma entre el penúltimo y el último carril de la izquierda.",
+      "minuto": "4:27",
+      "veredicto": "matiz",
+      "lo_correcto": "El carril de emergencia se exige en autopistas y autovías cuando, por una retención, se circula a paso de peatón o se para. Con dos carriles se forma en el centro; con tres o más, entre el carril de más a la izquierda y su contiguo. Los de la izquierda se mueven lo más a la izquierda posible y los demás lo más a la derecha posible; la norma no dice que haya que invadir el arcén.",
+      "fuente": "Reglamento General de Circulación, art. 32.1",
+      "norma": "RGC",
+      "cita": "Los vehículos que circulen en el carril situado más a la izquierda deberán moverse lo más a la izquierda posible y los vehículos que circulen en los demás carriles deberán moverse lo más a la derecha posible.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "arc-0011",
+        "arc-0012"
+      ]
+    },
+    {
+      "id": "v2-rev-0011",
+      "afirmacion_del_video": "Profesores de autoescuela, repartidores y taxistas ya no están exentos del cinturón. Pueden ir sin él, dentro de poblado, los de servicios de emergencia y, en cualquier vía, quien tenga certificado médico o «cuando aparcamos marcha atrás».",
+      "minuto": "5:07",
+      "veredicto": "matiz",
+      "lo_correcto": "Las exenciones son: al hacer la maniobra de marcha atrás o la de estacionamiento (son dos supuestos distintos), las personas con certificado de exención por razones médicas graves o con discapacidad, y en poblado los conductores y pasajeros de vehículos en servicio de urgencia. Taxistas, repartidores y profesores de autoescuela no tienen exención.",
+      "fuente": "Reglamento General de Circulación, art. 119",
+      "norma": "RGC",
+      "cita": "a) Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-per-0006",
+        "C-per-0007",
+        "C-per-0008",
+        "C-per-0009"
+      ]
+    },
+    {
+      "id": "v2-rev-0012",
+      "afirmacion_del_video": "Las autocaravanas tienen que estacionar «en su sitio», donde haya vaciado de aguas residuales, y está prohibido extender toldos o sacar sillas.",
+      "minuto": "5:37",
+      "veredicto": "matiz",
+      "lo_correcto": "La norma no obliga a estacionar la autocaravana en un lugar especial: fija cómo debe hacerse el estacionamiento en la vía. Sin extender elementos propios que desborden el perímetro del vehículo (toldos, por ejemplo), descansando solo sobre los neumáticos (se permiten calzos) y sin verter fluidos del habitáculo. Las sillas no se mencionan expresamente.",
+      "fuente": "Reglamento General de Circulación, art. 92.4",
+      "norma": "RGC",
+      "cita": "4. El estacionamiento de autocaravanas y otros vehículos acondicionados como vivienda deberá efectuarse en las siguientes condiciones:",
+      "preguntas_nuevas": [
+        "v2-par-0001",
+        "v2-par-0002",
+        "v2-par-0003"
+      ],
+      "preguntas_que_ya_lo_cubren": []
+    },
+    {
+      "id": "v2-rev-0013",
+      "afirmacion_del_video": "Ya no hay ninguna excepción: está prohibido adelantar en los pasos para peatones y en los pasos a nivel y sus proximidades, aunque sea a un vehículo de dos ruedas.",
+      "minuto": "5:49",
+      "veredicto": "correcta",
+      "lo_correcto": "Correcto. Además, la misma prohibición se aplica en las intersecciones con vías para ciclistas y sus proximidades.",
+      "fuente": "Reglamento General de Circulación, art. 87.1.b",
+      "norma": "RGC",
+      "cita": "b) En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
+      "preguntas_nuevas": [
+        "v2-adel-0004",
+        "v2-adel-0005"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "A-adel-0013"
+      ]
+    },
+    {
+      "id": "v2-rev-0014",
+      "afirmacion_del_video": "Batería de preguntas: «¿A qué velocidad adelantaremos a un ciclista fuera de poblado? A 20 km/h menos de la máxima de la vía».",
+      "minuto": "7:50",
+      "veredicto": "matiz",
+      "lo_correcto": "Hay que reducir «al menos» 20 km/h respecto al límite de la vía: es una velocidad máxima, se puede ir más despacio. Y no solo con ciclistas: también al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores y VMP.",
+      "fuente": "Reglamento General de Circulación, art. 85.4",
+      "norma": "RGC",
+      "cita": "el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h",
+      "preguntas_nuevas": [
+        "v2-adel-0001"
+      ],
+      "preguntas_que_ya_lo_cubren": [
+        "adel-0003"
+      ]
+    },
+    {
+      "id": "v2-rev-0015",
+      "afirmacion_del_video": "Batería de preguntas: «¿Quién puede ir sin cinturón dentro de poblado? Vehículos en servicio de urgencia».",
+      "minuto": "8:17",
+      "veredicto": "matiz",
+      "lo_correcto": "En poblado pueden ir sin cinturón los conductores y pasajeros de vehículos en servicio de urgencia, pero también, en cualquier vía, quien efectúa la maniobra de marcha atrás o de estacionamiento y quien tiene certificado de exención por razones médicas graves o discapacidad.",
+      "fuente": "Reglamento General de Circulación, art. 119.2",
+      "norma": "RGC",
+      "cita": "2. La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia.",
+      "preguntas_nuevas": [],
+      "preguntas_que_ya_lo_cubren": [
+        "C-per-0006",
+        "C-per-0007"
+      ]
+    }
+  ]
+}

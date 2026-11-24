@@ -163,9 +163,9 @@
       "materia": 6,
       "enunciado": "¿Qué es el aquaplaning?",
       "opciones": {
-        "a": "A perder el control porque el neumático no puede evacuar el agua y patina.",
-        "b": "Al empañamiento repentino del parabrisas cuando llueve.",
-        "c": "Al bloqueo de las ruedas al frenar con fuerza en seco."
+        "a": "Perder el control porque el neumático no puede evacuar el agua y patina.",
+        "b": "El empañamiento repentino del parabrisas cuando llueve.",
+        "c": "El bloqueo de las ruedas al frenar con fuerza en seco."
       },
       "correcta": "a",
       "explicacion": "El aquaplaning consiste en perder el control del vehículo porque el neumático no puede expulsar toda el agua que recoge de la carretera y patina.",

@@ -31,7 +31,7 @@ Respuesta: **Muy grave.**
 
 ## x1a-0004
 
-Conduce un camión de 12.000 kg por una carretera con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?  
+Conduce un camión de 12.000 kg de masa máxima autorizada por una carretera con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?  
 Respuesta: **Por la calzada, en el carril de su derecha.**
 
 - ✔ Los automóviles circulan por la calzada y no por el arcén, salvo por razones de emergencia; en una calzada de doble sentido con dos carriles, por el de su derecha. _(RGC 30.1.a)_
@@ -4163,7 +4163,7 @@ Respuesta: **Un conjunto de vías acondicionadas para que los niños vayan al co
 ## xc-0119
 
 ¿Qué se entiende por vehículo con alta ocupación (VAO)?  
-Respuesta: **El automóvil solo de personas, de hasta 3.500 kg, con los ocupantes fijados para el tramo.**
+Respuesta: **El automóvil solo de personas, de hasta 3.500 kg de masa máxima autorizada, con los ocupantes fijados para el tramo.**
 
 - ✔ Los vehículos con alta ocupación son los automóviles destinados exclusivamente al transporte de personas, con MMA no superior a 3.500 kg, ocupados por el número de personas fijado para cada tramo. _(RGC 35.2)_
 - ✘ `xc-0123` El conductor que por emergencia tenga que circular por una autopista o autovía a velocidad anormalmente reducida debe abandonarla por la primera salida. _(RGC 38.2)_
@@ -4226,7 +4226,7 @@ Respuesta: **Usando ambos arcenes, dos carriles en un sentido y uno en el otro.*
 ## xc-0126
 
 ¿Qué es la mediana?  
-Respuesta: **El espacio entre dos calzadas separadas por el que no circulan vehículos.**
+Respuesta: **El espacio entre dos plataformas separadas por el que no circulan vehículos.**
 
 - ✔ La mediana es el espacio entre dos plataformas separadas por el que no circulan los vehículos. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 217))_
 - ✘ `xc-0096` La acera es la zona longitudinal de la carretera, elevada o no, destinada al tránsito de peatones. _(LSV Anexo I.58)_
@@ -4334,7 +4334,7 @@ Respuesta: **A las líneas pintadas en la carretera.**
 ## xd-0006
 
 ¿Qué es el aquaplaning?  
-Respuesta: **A perder el control porque el neumático no puede evacuar el agua y patina.**
+Respuesta: **Perder el control porque el neumático no puede evacuar el agua y patina.**
 
 - ✔ El aquaplaning consiste en perder el control del vehículo porque el neumático no puede expulsar toda el agua que recoge de la carretera y patina. _(MANUAL_DGT Tema 14, Aquaplaning (p. 355))_
 - ✘ `xd-0021` Con viento lateral, la DGT recomienda conducir más despacio, sujetar el volante con firmeza y en contra del viento y llevar las ventanillas cerradas. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 362))_
@@ -6394,7 +6394,7 @@ Respuesta: **Un automóvil de mercancías que conserva la carrocería del turism
 
 ## res-def-0004
 
-Un patinete eléctrico (vehículo de movilidad personal), ¿es un vehículo de motor?  
+Un patinete eléctrico (vehículo de movilidad personal), ¿se considera un vehículo a motor?  
 Respuesta: **No.**
 
 - ✔ El Reglamento General de Vehículos excluye de «vehículo a motor» a ciclomotores, tranvías, vehículos para personas de movilidad reducida, bicicletas de pedaleo asistido y vehículos de movilidad personal. El manual de la DGT los incluye entre los «vehículos no considerados a motor». _(RGV Anexo II.A)_
@@ -8356,7 +8356,7 @@ Respuesta: **El autobús.**
 
 ## A-est-0005
 
-Un turismo con un remolque de 500 kg y un autobús entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?  
+Un turismo con un remolque de 500 kg de masa máxima autorizada y un autobús entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?  
 Respuesta: **El autobús.**
 
 - ✔ Los turismos que arrastran remolques de hasta 750 kg de MMA tienen preferencia sobre los vehículos de transporte colectivo de viajeros, por lo que es el autobús el que debe retroceder. _(RGC 62.1.d y e)_
@@ -8365,7 +8365,7 @@ Respuesta: **El autobús.**
 
 ## A-est-0006
 
-Un vehículo de tracción animal y un turismo con un remolque de 600 kg entran a la vez en un estrechamiento sin señalizar. ¿Cuál tiene preferencia?  
+Un vehículo de tracción animal y un turismo con un remolque de 600 kg de masa máxima autorizada entran a la vez en un estrechamiento sin señalizar. ¿Cuál tiene preferencia?  
 Respuesta: **El vehículo de tracción animal.**
 
 - ✔ En el orden de preferencia, los vehículos de tracción animal van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA. _(RGC 62.1.c y d)_
@@ -8384,7 +8384,7 @@ Respuesta: **El turismo.**
 ## A-est-0008
 
 En un tramo estrecho de gran pendiente sin señalizar, ¿quién tiene, como norma general, la preferencia de paso?  
-Respuesta: **El que sube, salvo que el otro pueda llegar antes a un apartadero.**
+Respuesta: **El que sube, salvo que pueda llegar antes a un apartadero.**
 
 - ✔ En los tramos estrechos de gran pendiente, tiene preferencia el vehículo que sube, salvo si este puede llegar antes a un apartadero establecido al efecto. _(RGC 63.1)_
 - ✘ `x1a-0063` Cuando en una vía se hacen obras de reparación, los vehículos, caballerías y ganado deben pasar por el sitio señalado al efecto. _(RGC 60.2)_
@@ -8987,7 +8987,7 @@ Respuesta: **La marcha atrás.**
 ## A-par-0019
 
 Cuando paran o estacionan en un lugar con sensible pendiente, ¿qué vehículos deben quedar además calzados?  
-Respuesta: **Los de más de 3.500 kg, los autobuses y los conjuntos de vehículos.**
+Respuesta: **Los de más de 3.500 kg de masa máxima autorizada, los autobuses y los conjuntos de vehículos.**
 
 - ✔ Cuando se trate de un vehículo de más de 3.500 kg de MMA, de un autobús o de un conjunto de vehículos y se pare o estacione en sensible pendiente, el conductor debe dejarlo debidamente calzado. _(RGC 92.3.d)_
 - ✘ `v5b-par-0005` Se consideran paradas o estacionamientos que obstaculizan gravemente la circulación los que impiden la utilización normal del paso de vehículos en un vado señalizado correctamente. Es una infracción grave aunque se trate de una parada. _(RGC 91.2.c)_
@@ -9149,7 +9149,7 @@ Respuesta: **Continuar.**
 ## B1-sen-0016
 
 Un agente tiene los brazos extendidos horizontalmente. ¿Quiénes deben detenerse?  
-Respuesta: **A los que se acerquen desde direcciones que corten la que indican los brazos.**
+Respuesta: **Los que se acerquen desde direcciones que corten la que indican los brazos.**
 
 - ✔ Los brazos extendidos horizontalmente obligan a detenerse a quienes se acerquen desde direcciones que corten la indicada por los brazos, cualquiera que sea su sentido de marcha. _(RGC Anexo I.1.1.b)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
@@ -9959,7 +9959,7 @@ Respuesta: **Sí.**
 ## B1-sen-0107
 
 ¿A quién prohíbe la entrada esta señal?  
-Respuesta: **A los ciclomotores y a los vehículos de movilidad reducida.**
+Respuesta: **A los ciclomotores y a los vehículos para personas de movilidad reducida.**
 
 - ✔ La R-105 («Entrada prohibida a ciclomotores») prohíbe el acceso a ciclomotores e igualmente a vehículos para personas de movilidad reducida. _(RGC_CATALOGO Anexo I, catálogo de señales, R-105 (pág. 102 del PDF consolidado))_
 - ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
@@ -10841,7 +10841,7 @@ Respuesta: **Sí, delante, con un sistema de retención infantil adaptado a su t
 ## C-per-0006
 
 Los conductores y pasajeros de vehículos en servicio de urgencia, ¿pueden circular sin cinturón de seguridad?  
-Respuesta: **Sí, en poblado, pero nunca fuera de poblado.**
+Respuesta: **Sí, en poblado, pero nunca en autopistas, autovías ni carreteras convencionales.**
 
 - ✔ La exención para vehículos en servicio de urgencia solo alcanza a la circulación en poblado. (Los pasajeros que asisten al paciente en ambulancias asistenciales tienen una exención propia.) _(RGC 119.2)_
 - ✘ `xe-0089` El conductor y los ocupantes deben llevar el cinturón abrochado en vías urbanas e interurbanas; el artículo 119 vigente no incluye a los repartidores entre las exenciones. _(RGC 117.1)_
@@ -11263,7 +11263,7 @@ Respuesta: **El B, sin requisitos adicionales.**
 
 ## C-perm-0005
 
-Un turismo de 3.000 kg arrastra un remolque de 1.000 kg, un conjunto de 4.000 kg. ¿Qué necesita para conducirlo?  
+Un turismo de 3.000 kg de masa máxima autorizada arrastra un remolque de 1.000 kg de masa máxima autorizada. ¿Qué necesita para conducir este conjunto de 4.000 kg?  
 Respuesta: **El permiso B con la prueba específica para estos conjuntos.**
 
 - ✔ Si el remolque supera 750 kg y el conjunto excede de 3.500 kg sin pasar de 4.250 kg, se puede conducir con B tras superar la prueba o formación específica (código comunitario 96). _(RGCOND Anexo I (código 96))_
@@ -11300,7 +11300,7 @@ Respuesta: **Sí.**
 ## C-perm-0009
 
 ¿Qué vehículos especiales no agrícolas se pueden conducir con el permiso B?  
-Respuesta: **Los de hasta 40 km/h y hasta 3.500 kg.**
+Respuesta: **Los de hasta 40 km/h y hasta 3.500 kg de masa máxima autorizada.**
 
 - ✔ Para vehículos especiales no agrícolas basta el B si no superan 40 km/h ni 3.500 kg de MMA; si superan cualquiera de los límites se requiere el permiso correspondiente a su MMA. _(RGCOND 5.8)_
 - ✘ `C-perm-0005` Si el remolque supera 750 kg y el conjunto excede de 3.500 kg sin pasar de 4.250 kg, se puede conducir con B tras superar la prueba o formación específica (código comunitario 96). _(RGCOND Anexo I (código 96))_
@@ -11974,7 +11974,7 @@ Respuesta: **0,25 miligramos por litro.**
 
 ## D-alc-0013
 
-El conductor de un camión de mercancías de más de 3.500 kg, ¿qué tasa máxima de alcohol en aire espirado puede tener?  
+El conductor de un camión de mercancías de más de 3.500 kg de masa máxima autorizada, ¿qué tasa máxima de alcohol en aire espirado puede tener?  
 Respuesta: **0,15 miligramos por litro.**
 
 - ✔ En vehículos de transporte de mercancías de más de 3.500 kg de MMA, la tasa máxima es 0,3 g/l en sangre o 0,15 mg/l en aire espirado. _(RGC 20)_
@@ -11983,7 +11983,7 @@ Respuesta: **0,15 miligramos por litro.**
 
 ## D-alc-0014
 
-Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?  
+Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg de masa máxima autorizada con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?  
 Respuesta: **0,25 miligramos por litro.**
 
 - ✔ La tasa reducida para mercancías solo se aplica a vehículos de más de 3.500 kg de MMA (o mercancías peligrosas, transportes especiales, etc.). Con 3.500 kg exactos y carga general rige la tasa general de 0,25 mg/l. _(RGC 20)_
@@ -13621,7 +13621,7 @@ Respuesta: **A los vehículos que transporten mercancías peligrosas y deban ir 
 
 ## v4a-sen-0011
 
-Un turismo arrastra un remolque de 3.000 kg de masa máxima autorizada que va vacío y pesa 900 kg. ¿Puede entrar ante esta señal de 2 t?  
+Un turismo arrastra un remolque de dos ejes y 3.000 kg de masa máxima autorizada que va vacío y pesa 900 kg. ¿Puede entrar ante esta señal de 2 t?  
 Respuesta: **No.**
 
 - ✔ La señal R-112 prohíbe el acceso a los vehículos de motor con remolque, salvo los de un solo eje. Si lleva una cifra de tonelaje, la prohibición se aplica cuando la masa máxima autorizada del remolque supera esa cifra, aunque vaya vacío. _(RGC_CATALOGO Anexo I, señal R-112)_
@@ -14206,7 +14206,7 @@ Respuesta: **Por el arcén del lado derecho.**
 
 ## v5a-arc-0003
 
-Un vehículo especial de 6.000 kg circula por una carretera con arcén transitable y suficiente. Salvo emergencia, ¿por dónde debe circular?  
+Un vehículo especial de 6.000 kg de masa máxima autorizada circula por una carretera con arcén transitable y suficiente. Salvo emergencia, ¿por dónde debe circular?  
 Respuesta: **Por la calzada, no por el arcén.**
 
 - ✔ Entre los vehículos especiales, los de hasta 3.500 kg de MMA son los que deben ir por el arcén de su derecha, si es transitable y suficiente. Los vehículos especiales de más de 3.500 kg de MMA circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 31.1)_
@@ -14323,7 +14323,7 @@ Respuesta: **Con la señal luminosa aisladamente.**
 
 ## v5a-est-0001
 
-Un camión con remolque y un turismo con un remolque de 600 kg entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?  
+Un camión con remolque y un turismo con un remolque de 600 kg de masa máxima autorizada entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?  
 Respuesta: **El turismo con remolque.**
 
 - ✔ En caso de duda en un estrechamiento sin señalizar, tiene preferencia el vehículo con más dificultades de maniobra según el orden del reglamento: los conjuntos de vehículos van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA. La distancia de marcha atrás solo decide entre vehículos del mismo tipo o no enumerados. _(RGC 62.1)_

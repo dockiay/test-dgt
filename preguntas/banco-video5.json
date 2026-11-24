@@ -212,7 +212,7 @@
       "tema": "por_donde_circular",
       "subtema": "arcen",
       "materia": 1,
-      "enunciado": "Un vehículo especial de 6.000 kg circula por una carretera con arcén transitable y suficiente. Salvo emergencia, ¿por dónde debe circular?",
+      "enunciado": "Un vehículo especial de 6.000 kg de masa máxima autorizada circula por una carretera con arcén transitable y suficiente. Salvo emergencia, ¿por dónde debe circular?",
       "opciones": {
         "a": "Por la calzada, no por el arcén.",
         "b": "Por el arcén de su derecha, porque es un vehículo lento.",
@@ -612,7 +612,7 @@
       "tema": "prioridad",
       "subtema": "estrechamientos",
       "materia": 1,
-      "enunciado": "Un camión con remolque y un turismo con un remolque de 600 kg entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
+      "enunciado": "Un camión con remolque y un turismo con un remolque de 600 kg de masa máxima autorizada entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
       "opciones": {
         "a": "El camión con remolque.",
         "b": "El turismo con remolque.",

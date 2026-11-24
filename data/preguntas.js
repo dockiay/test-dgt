@@ -136,7 +136,7 @@ window.BANCO = {
    "tema": "vias",
    "subtema": "carriles_doble_sentido",
    "materia": 1,
-   "enunciado": "Conduce un camión de 12.000 kg por una carretera con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?",
+   "enunciado": "Conduce un camión de 12.000 kg de masa máxima autorizada por una carretera con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?",
    "opciones": {
     "a": "Por el arcén, para no entorpecer a los turismos.",
     "b": "Por el centro de la calzada, para tener mejor visibilidad.",
@@ -8816,7 +8816,7 @@ window.BANCO = {
    "materia": 2,
    "enunciado": "¿Por qué fumar mientras se conduce aumenta el riesgo de accidente?",
    "opciones": {
-    "a": "Porque el tabaco reduce los reflejos de forma inmediata.",
+    "a": "Porque obliga a circular a mayor velocidad.",
     "b": "Porque obliga a circular con las ventanillas cerradas.",
     "c": "Porque al buscar y encender el cigarro se desatiende la carretera."
    },
@@ -10909,8 +10909,8 @@ window.BANCO = {
    "materia": 7,
    "enunciado": "¿Qué se entiende por vehículo con alta ocupación (VAO)?",
    "opciones": {
-    "a": "Cualquier vehículo con tres o más ocupantes, incluidos los camiones de más de 3.500 kg.",
-    "b": "El automóvil solo de personas, de hasta 3.500 kg, con los ocupantes fijados para el tramo.",
+    "a": "Cualquier vehículo con tres o más ocupantes, incluidos los camiones de más de 3.500 kg de masa máxima autorizada.",
+    "b": "El automóvil solo de personas, de hasta 3.500 kg de masa máxima autorizada, con los ocupantes fijados para el tramo.",
     "c": "Solo el autobús que circula con todas sus plazas ocupadas."
    },
    "correcta": "b",
@@ -11070,7 +11070,7 @@ window.BANCO = {
    "materia": 7,
    "enunciado": "¿Qué es la mediana?",
    "opciones": {
-    "a": "El espacio entre dos calzadas separadas por el que no circulan vehículos.",
+    "a": "El espacio entre dos plataformas separadas por el que no circulan vehículos.",
     "b": "El carril central de una carretera de tres carriles.",
     "c": "La línea pintada en el centro de la calzada."
    },
@@ -11351,9 +11351,9 @@ window.BANCO = {
    "materia": 6,
    "enunciado": "¿Qué es el aquaplaning?",
    "opciones": {
-    "a": "A perder el control porque el neumático no puede evacuar el agua y patina.",
-    "b": "Al empañamiento repentino del parabrisas cuando llueve.",
-    "c": "Al bloqueo de las ruedas al frenar con fuerza en seco."
+    "a": "Perder el control porque el neumático no puede evacuar el agua y patina.",
+    "b": "El empañamiento repentino del parabrisas cuando llueve.",
+    "c": "El bloqueo de las ruedas al frenar con fuerza en seco."
    },
    "correcta": "a",
    "explicacion": "El aquaplaning consiste en perder el control del vehículo porque el neumático no puede expulsar toda el agua que recoge de la carretera y patina.",
@@ -16631,7 +16631,7 @@ window.BANCO = {
    "tema": "definiciones",
    "subtema": "vmp",
    "materia": 1,
-   "enunciado": "Un patinete eléctrico (vehículo de movilidad personal), ¿es un vehículo de motor?",
+   "enunciado": "Un patinete eléctrico (vehículo de movilidad personal), ¿se considera un vehículo a motor?",
    "opciones": {
     "a": "No.",
     "b": "Solo cuando circula por vías interurbanas.",
@@ -21751,7 +21751,7 @@ window.BANCO = {
    "tema": "prioridad",
    "subtema": "estrechamientos",
    "materia": 1,
-   "enunciado": "Un turismo con un remolque de 500 kg y un autobús entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
+   "enunciado": "Un turismo con un remolque de 500 kg de masa máxima autorizada y un autobús entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
    "opciones": {
     "a": "El turismo con remolque.",
     "b": "El autobús.",
@@ -21774,7 +21774,7 @@ window.BANCO = {
    "tema": "prioridad",
    "subtema": "estrechamientos",
    "materia": 1,
-   "enunciado": "Un vehículo de tracción animal y un turismo con un remolque de 600 kg entran a la vez en un estrechamiento sin señalizar. ¿Cuál tiene preferencia?",
+   "enunciado": "Un vehículo de tracción animal y un turismo con un remolque de 600 kg de masa máxima autorizada entran a la vez en un estrechamiento sin señalizar. ¿Cuál tiene preferencia?",
    "opciones": {
     "a": "El turismo con remolque.",
     "b": "El que circule por la derecha.",
@@ -21822,7 +21822,7 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "En un tramo estrecho de gran pendiente sin señalizar, ¿quién tiene, como norma general, la preferencia de paso?",
    "opciones": {
-    "a": "El que sube, salvo que el otro pueda llegar antes a un apartadero.",
+    "a": "El que sube, salvo que pueda llegar antes a un apartadero.",
     "b": "El que baja.",
     "c": "El de menor tamaño."
    },
@@ -23394,7 +23394,7 @@ window.BANCO = {
    "enunciado": "Cuando paran o estacionan en un lugar con sensible pendiente, ¿qué vehículos deben quedar además calzados?",
    "opciones": {
     "a": "Todos los turismos y motocicletas.",
-    "b": "Los de más de 3.500 kg, los autobuses y los conjuntos de vehículos.",
+    "b": "Los de más de 3.500 kg de masa máxima autorizada, los autobuses y los conjuntos de vehículos.",
     "c": "Solo los vehículos especiales agrícolas."
    },
    "correcta": "b",
@@ -23857,9 +23857,9 @@ window.BANCO = {
    "materia": 1,
    "enunciado": "Un agente tiene los brazos extendidos horizontalmente. ¿Quiénes deben detenerse?",
    "opciones": {
-    "a": "A los que se acerquen desde direcciones que corten la que indican los brazos.",
-    "b": "Solo a los vehículos del carril al que apunta el brazo.",
-    "c": "A todos los usuarios, vengan de donde vengan."
+    "a": "Los que se acerquen desde direcciones que corten la que indican los brazos.",
+    "b": "Solo los vehículos del carril al que apunta el brazo.",
+    "c": "Todos los usuarios, vengan de donde vengan."
    },
    "correcta": "a",
    "explicacion": "Los brazos extendidos horizontalmente obligan a detenerse a quienes se acerquen desde direcciones que corten la indicada por los brazos, cualquiera que sea su sentido de marcha.",
@@ -26279,7 +26279,7 @@ window.BANCO = {
    "opciones": {
     "a": "A las motocicletas.",
     "b": "A los ciclos.",
-    "c": "A los ciclomotores y a los vehículos de movilidad reducida."
+    "c": "A los ciclomotores y a los vehículos para personas de movilidad reducida."
    },
    "correcta": "c",
    "explicacion": "La R-105 («Entrada prohibida a ciclomotores») prohíbe el acceso a ciclomotores e igualmente a vehículos para personas de movilidad reducida.",
@@ -28836,7 +28836,7 @@ window.BANCO = {
    "materia": 15,
    "enunciado": "Los conductores y pasajeros de vehículos en servicio de urgencia, ¿pueden circular sin cinturón de seguridad?",
    "opciones": {
-    "a": "Sí, en poblado, pero nunca fuera de poblado.",
+    "a": "Sí, en poblado, pero nunca en autopistas, autovías ni carreteras convencionales.",
     "b": "Sí, en cualquier tipo de vía.",
     "c": "No, en ningún caso."
    },
@@ -29935,7 +29935,7 @@ window.BANCO = {
    "tema": "permiso_conduccion",
    "subtema": "remolques",
    "materia": 10,
-   "enunciado": "Un turismo de 3.000 kg arrastra un remolque de 1.000 kg, un conjunto de 4.000 kg. ¿Qué necesita para conducirlo?",
+   "enunciado": "Un turismo de 3.000 kg de masa máxima autorizada arrastra un remolque de 1.000 kg de masa máxima autorizada. ¿Qué necesita para conducir este conjunto de 4.000 kg?",
    "opciones": {
     "a": "El permiso B, sin ningún requisito adicional.",
     "b": "El permiso C1.",
@@ -30029,7 +30029,7 @@ window.BANCO = {
    "materia": 10,
    "enunciado": "¿Qué vehículos especiales no agrícolas se pueden conducir con el permiso B?",
    "opciones": {
-    "a": "Los de hasta 40 km/h y hasta 3.500 kg.",
+    "a": "Los de hasta 40 km/h y hasta 3.500 kg de masa máxima autorizada.",
     "b": "Los que no superen 40 km/h, cualquiera que sea su masa.",
     "c": "Todos, cualquiera que sea su masa y velocidad."
    },
@@ -31752,7 +31752,7 @@ window.BANCO = {
    "tema": "alcohol_drogas",
    "subtema": "tasas",
    "materia": 4,
-   "enunciado": "El conductor de un camión de mercancías de más de 3.500 kg, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+   "enunciado": "El conductor de un camión de mercancías de más de 3.500 kg de masa máxima autorizada, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
    "opciones": {
     "a": "0,25 miligramos por litro.",
     "b": "0,30 miligramos por litro.",
@@ -31775,7 +31775,7 @@ window.BANCO = {
    "tema": "alcohol_drogas",
    "subtema": "tasas",
    "materia": 4,
-   "enunciado": "Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+   "enunciado": "Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg de masa máxima autorizada con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
    "opciones": {
     "a": "0,25 miligramos por litro.",
     "b": "0,15 miligramos por litro, por ser transporte de mercancías.",
@@ -36151,7 +36151,7 @@ window.BANCO = {
    "tema": "senales",
    "subtema": "prohibicion_entrada",
    "materia": 1,
-   "enunciado": "Un turismo arrastra un remolque de 3.000 kg de masa máxima autorizada que va vacío y pesa 900 kg. ¿Puede entrar ante esta señal de 2 t?",
+   "enunciado": "Un turismo arrastra un remolque de dos ejes y 3.000 kg de masa máxima autorizada que va vacío y pesa 900 kg. ¿Puede entrar ante esta señal de 2 t?",
    "opciones": {
     "a": "Sí, porque en ese momento el remolque pesa menos de 2 t.",
     "b": "Sí, porque la señal solo afecta a los camiones con remolque.",
@@ -37992,7 +37992,7 @@ window.BANCO = {
    "tema": "por_donde_circular",
    "subtema": "arcen",
    "materia": 1,
-   "enunciado": "Un vehículo especial de 6.000 kg circula por una carretera con arcén transitable y suficiente. Salvo emergencia, ¿por dónde debe circular?",
+   "enunciado": "Un vehículo especial de 6.000 kg de masa máxima autorizada circula por una carretera con arcén transitable y suficiente. Salvo emergencia, ¿por dónde debe circular?",
    "opciones": {
     "a": "Por la calzada, no por el arcén.",
     "b": "Por el arcén de su derecha, porque es un vehículo lento.",
@@ -38301,7 +38301,7 @@ window.BANCO = {
    "tema": "prioridad",
    "subtema": "estrechamientos",
    "materia": 1,
-   "enunciado": "Un camión con remolque y un turismo con un remolque de 600 kg entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
+   "enunciado": "Un camión con remolque y un turismo con un remolque de 600 kg de masa máxima autorizada entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
    "opciones": {
     "a": "El camión con remolque.",
     "b": "El turismo con remolque.",

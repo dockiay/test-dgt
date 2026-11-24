@@ -967,7 +967,7 @@
       "id": "A-est-0005",
       "tema": "prioridad",
       "subtema": "estrechamientos",
-      "enunciado": "Un turismo con un remolque de 500 kg y un autobús entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
+      "enunciado": "Un turismo con un remolque de 500 kg de masa máxima autorizada y un autobús entran a la vez en un estrechamiento sin señalizar. ¿Cuál debe dar marcha atrás?",
       "opciones": {
         "a": "El turismo con remolque.",
         "b": "El autobús.",
@@ -998,7 +998,7 @@
       "id": "A-est-0006",
       "tema": "prioridad",
       "subtema": "estrechamientos",
-      "enunciado": "Un vehículo de tracción animal y un turismo con un remolque de 600 kg entran a la vez en un estrechamiento sin señalizar. ¿Cuál tiene preferencia?",
+      "enunciado": "Un vehículo de tracción animal y un turismo con un remolque de 600 kg de masa máxima autorizada entran a la vez en un estrechamiento sin señalizar. ¿Cuál tiene preferencia?",
       "opciones": {
         "a": "El turismo con remolque.",
         "b": "El que circule por la derecha.",
@@ -1062,7 +1062,7 @@
       "subtema": "gran_pendiente",
       "enunciado": "En un tramo estrecho de gran pendiente sin señalizar, ¿quién tiene, como norma general, la preferencia de paso?",
       "opciones": {
-        "a": "El que sube, salvo que el otro pueda llegar antes a un apartadero.",
+        "a": "El que sube, salvo que pueda llegar antes a un apartadero.",
         "b": "El que baja.",
         "c": "El de menor tamaño."
       },
@@ -3194,7 +3194,7 @@
       "enunciado": "Cuando paran o estacionan en un lugar con sensible pendiente, ¿qué vehículos deben quedar además calzados?",
       "opciones": {
         "a": "Todos los turismos y motocicletas.",
-        "b": "Los de más de 3.500 kg, los autobuses y los conjuntos de vehículos.",
+        "b": "Los de más de 3.500 kg de masa máxima autorizada, los autobuses y los conjuntos de vehículos.",
         "c": "Solo los vehículos especiales agrícolas."
       },
       "correcta": "b",
@@ -3841,9 +3841,9 @@
       "subtema": "agentes",
       "enunciado": "Un agente tiene los brazos extendidos horizontalmente. ¿Quiénes deben detenerse?",
       "opciones": {
-        "a": "A los que se acerquen desde direcciones que corten la que indican los brazos.",
-        "b": "Solo a los vehículos del carril al que apunta el brazo.",
-        "c": "A todos los usuarios, vengan de donde vengan."
+        "a": "Los que se acerquen desde direcciones que corten la que indican los brazos.",
+        "b": "Solo los vehículos del carril al que apunta el brazo.",
+        "c": "Todos los usuarios, vengan de donde vengan."
       },
       "correcta": "a",
       "explicacion": "Los brazos extendidos horizontalmente obligan a detenerse a quienes se acerquen desde direcciones que corten la indicada por los brazos, cualquiera que sea su sentido de marcha.",
@@ -7263,7 +7263,7 @@
       "opciones": {
         "a": "A las motocicletas.",
         "b": "A los ciclos.",
-        "c": "A los ciclomotores y a los vehículos de movilidad reducida."
+        "c": "A los ciclomotores y a los vehículos para personas de movilidad reducida."
       },
       "correcta": "c",
       "explicacion": "La R-105 («Entrada prohibida a ciclomotores») prohíbe el acceso a ciclomotores e igualmente a vehículos para personas de movilidad reducida.",
@@ -10848,7 +10848,7 @@
       "subtema": "cinturon_exenciones",
       "enunciado": "Los conductores y pasajeros de vehículos en servicio de urgencia, ¿pueden circular sin cinturón de seguridad?",
       "opciones": {
-        "a": "Sí, en poblado, pero nunca fuera de poblado.",
+        "a": "Sí, en poblado, pero nunca en autopistas, autovías ni carreteras convencionales.",
         "b": "Sí, en cualquier tipo de vía.",
         "c": "No, en ningún caso."
       },
@@ -12339,7 +12339,7 @@
       "id": "C-perm-0005",
       "tema": "permiso_conduccion",
       "subtema": "remolques",
-      "enunciado": "Un turismo de 3.000 kg arrastra un remolque de 1.000 kg, un conjunto de 4.000 kg. ¿Qué necesita para conducirlo?",
+      "enunciado": "Un turismo de 3.000 kg de masa máxima autorizada arrastra un remolque de 1.000 kg de masa máxima autorizada. ¿Qué necesita para conducir este conjunto de 4.000 kg?",
       "opciones": {
         "a": "El permiso B, sin ningún requisito adicional.",
         "b": "El permiso C1.",
@@ -12465,7 +12465,7 @@
       "subtema": "vehiculos_especiales",
       "enunciado": "¿Qué vehículos especiales no agrícolas se pueden conducir con el permiso B?",
       "opciones": {
-        "a": "Los de hasta 40 km/h y hasta 3.500 kg.",
+        "a": "Los de hasta 40 km/h y hasta 3.500 kg de masa máxima autorizada.",
         "b": "Los que no superen 40 km/h, cualquiera que sea su masa.",
         "c": "Todos, cualquiera que sea su masa y velocidad."
       },
@@ -14788,7 +14788,7 @@
       "id": "D-alc-0013",
       "tema": "alcohol_drogas",
       "subtema": "tasas",
-      "enunciado": "El conductor de un camión de mercancías de más de 3.500 kg, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+      "enunciado": "El conductor de un camión de mercancías de más de 3.500 kg de masa máxima autorizada, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
       "opciones": {
         "a": "0,25 miligramos por litro.",
         "b": "0,30 miligramos por litro.",
@@ -14819,7 +14819,7 @@
       "id": "D-alc-0014",
       "tema": "alcohol_drogas",
       "subtema": "tasas",
-      "enunciado": "Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+      "enunciado": "Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg de masa máxima autorizada con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
       "opciones": {
         "a": "0,25 miligramos por litro.",
         "b": "0,15 miligramos por litro, por ser transporte de mercancías.",

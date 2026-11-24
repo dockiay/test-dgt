@@ -99,7 +99,7 @@
       "tema": "vias",
       "subtema": "carriles_doble_sentido",
       "materia": 1,
-      "enunciado": "Conduce un camión de 12.000 kg por una carretera con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?",
+      "enunciado": "Conduce un camión de 12.000 kg de masa máxima autorizada por una carretera con un carril para cada sentido y un arcén amplio. ¿Por dónde debe circular normalmente?",
       "opciones": {
         "a": "Por el arcén, para no entorpecer a los turismos.",
         "b": "Por el centro de la calzada, para tener mejor visibilidad.",

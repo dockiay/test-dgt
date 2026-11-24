@@ -5,6 +5,8 @@ Uso:
   python3 tools/aplicar_redaccion.py importar <lote.txt>   añade/actualiza cambios desde un lote de texto
   python3 tools/aplicar_redaccion.py aplicar               escribe enunciado y opciones nuevos en los bancos
   python3 tools/aplicar_redaccion.py comprobar             comprueba el registro contra los bancos
+  python3 tools/aplicar_redaccion.py corregir <lote.txt>   corrige preguntas ya aplicadas: parte del texto
+                                                           de después y lo escribe también en los bancos
 
 Formato del lote de texto (solo hace falta escribir lo que cambia):
   @<id>
@@ -46,8 +48,9 @@ def guardar(r):
     open(REG, "a").write("\n")
 
 
-def importar(ruta):
-    qs = por_id(bancos())
+def importar(ruta, corregir=False):
+    bs = bancos()
+    qs = por_id(bs)
     r = cargar()
     idx = {c["id"]: c for c in r["cambios"]}
     texto = open(ruta, encoding="utf-8").read()
@@ -59,21 +62,33 @@ def importar(ruta):
             sys.exit(f"id desconocido: {pid}")
         p = qs[pid]
         antes = idx[pid]["antes"] if pid in idx else {"enunciado": p["enunciado"], "opciones": dict(p["opciones"])}
-        desp = {"enunciado": antes["enunciado"], "opciones": dict(antes["opciones"])}
-        dc = False
+        base = idx[pid]["despues"] if corregir else antes
+        if corregir and (p["enunciado"] != base["enunciado"] or p["opciones"] != base["opciones"]):
+            sys.exit(f"{pid}: el banco no tiene el texto de después; no se corrige")
+        desp = {"enunciado": base["enunciado"], "opciones": dict(base["opciones"])}
+        dc = idx[pid]["distractora_cambiada"] if corregir else False
         for l in lineas[1:]:
             l = l.rstrip()
             if not l: continue
             if l == "D": dc = True; continue
+            if l == "-D": dc = False; continue
             m = re.match(r"^(E|a|b|c): (.+)$", l)
             if not m: sys.exit(f"{pid}: línea no válida: {l}")
             if m.group(1) == "E": desp["enunciado"] = m.group(2).strip()
             else: desp["opciones"][m.group(1)] = m.group(2).strip()
         idx[pid] = {"id": pid, "correcta": p["correcta"], "reglas": reglas({**p, **antes}),
                     "distractora_cambiada": dc, "antes": antes, "despues": desp}
+        if corregir:
+            p["enunciado"] = desp["enunciado"]
+            p["opciones"] = dict(desp["opciones"])
         n += 1
     r["cambios"] = list(idx.values())
     guardar(r)
+    if corregir:
+        for f, d in bs.items():
+            orig = open(f, encoding="utf-8").read()
+            s = json.dumps(d, ensure_ascii=False, indent=2) + ("\n" if orig.endswith("\n") else "")
+            if s != orig: open(f, "w", encoding="utf-8").write(s)
     print(f"{n} cambios importados; {len(idx)} en el registro")
 
 
@@ -126,6 +141,7 @@ def aplicar():
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     if cmd == "importar": importar(sys.argv[2])
+    elif cmd == "corregir": importar(sys.argv[2], corregir=True)
     elif cmd == "aplicar": aplicar()
     elif cmd == "comprobar": sys.exit(0 if comprobar() else 1)
     else: sys.exit(__doc__)

@@ -1,0 +1,672 @@
+// Generado por tools/build_explora.mjs desde preguntas/explora.json. No editar a mano.
+window.EXPLORA = {
+ "citas": {
+  "m-reaccion-rango": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 3, El tiempo de reacción (p. 44)",
+   "texto": "En condiciones normales, el tiempo de reacción de una persona que está conduciendo es entre medio segundo y un segundo."
+  },
+  "m-reaccion-factores": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 3, El tiempo de reacción (p. 45)",
+   "texto": "Factores que hacen que una persona tarde más tiempo en reaccionar: ■ Estar cansado (fatiga). ■ Tener sueño. ■ Tener muchos años. ■ Oír o ver mal. ■ Las enfermedades. ■ Algunos medicamentos. ■ El alcohol y las drogas. ■ Comer mucho antes de conducir. ■ Mucho calor en el coche. ■ Estado de ánimo alterado. ■ Poner poca atención a la conducción."
+  },
+  "m-reaccion-definicion": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 3, El tiempo de reacción (p. 44)",
+   "texto": "Es el tiempo que pasa entre oír o ver algo y reaccionar."
+  },
+  "m-reaccion-075": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de reacción (p. 261)",
+   "texto": "El tiempo de reacción normal de una persona ante un imprevisto suele ser de 0,75 segundos, casi un segundo."
+  },
+  "m-distancia-reaccion": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de reacción (p. 261)",
+   "texto": "Espacio que recorres con el vehículo desde que detectas un imprevisto, como un obstáculo, una señal o un ruido, hasta que puedes reaccionar al imprevisto."
+  },
+  "m-distancia-frenado": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de frenado (p. 262)",
+   "texto": "Espacio que recorre el vehículo desde que pisas el freno hasta que se para por completo."
+  },
+  "m-frenado-velocidad": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de frenado (p. 262)",
+   "texto": "Cuanto más rápido vaya el vehículo necesitará más espacio para frenar."
+  },
+  "m-frenado-carga": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de frenado (p. 262)",
+   "texto": "Un vehículo con mucha carga tarda más en parar."
+  },
+  "m-frenado-tecnicas": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de frenado (p. 262)",
+   "texto": "Estado de sus frenos y de otras partes del vehículo, como los neumáticos."
+  },
+  "m-frenado-mojado": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de frenado (p. 262)",
+   "texto": "En un suelo mojado el vehículo puede necesitar más distancia de frenado."
+  },
+  "m-detencion": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de detención (p. 263)",
+   "texto": "La distancia de detención es la suma de la distancia de reacción y la de frenado."
+  },
+  "m-distancia-seguridad": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de seguridad (p. 264)",
+   "texto": "Espacio mínimo que debes dejar con el vehículo que tienes delante para no chocar en caso de un frenado brusco e inesperado."
+  },
+  "m-mas-seguridad": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 10, Distancia de seguridad (p. 265)",
+   "texto": "Debes dejar más distancia de seguridad con el conductor de delante cuando: ■ Aumentas la velocidad. ■ La carretera se ve mal. ■ El vehículo no se agarra bien a la carretera. ■ No estás en buena forma física o psicológica."
+  },
+  "m-dos-tres-seg": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 17, Espacio delantero (p. 446)",
+   "texto": "Es aconsejable que entre tu vehículo y el de delante haya dos o tres segundos de separación. Es decir, que te cueste dos o tres segundos alcanzarle a la velocidad a la que vas."
+  },
+  "m-un-segundo-mas": {
+   "norma": "MANUAL_DGT",
+   "articulo": "Tema 17, Espacio delantero (p. 446)",
+   "texto": "Sin embargo, hay circunstancias en las que se debe dejar, al menos, un segundo más de espacio. Estas circunstancias son: ■ Hay lluvia, nieve, niebla o es de noche."
+  },
+  "rgc-54.1": {
+   "norma": "RGC",
+   "articulo": "54.1",
+   "texto": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un espacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él, teniendo en cuenta especialmente la velocidad y las condiciones de adherencia y frenado."
+  },
+  "rgc-54.2": {
+   "norma": "RGC",
+   "articulo": "54.2",
+   "texto": "Los vehículos con masa máxima autorizada superior a 3.500 kilogramos y los vehículos y conjuntos de vehículos de más de 10 metros de longitud total deberán guardar, a estos efectos, una separación mínima de 50 metros"
+  },
+  "rgc-54.2-adelantar": {
+   "norma": "RGC",
+   "articulo": "54.2",
+   "texto": "la separación que debe guardar todo conductor de vehículo que circule detrás de otro sin señalar su propósito de adelantamiento deberá ser tal que permita al que a su vez le siga adelantarlo con seguridad"
+  },
+  "rgc-54.3": {
+   "norma": "RGC",
+   "articulo": "54.3",
+   "texto": "Lo dispuesto en el apartado anterior no será de aplicación: a) En poblado. b) Donde estuviese prohibido el adelantamiento. c) Donde hubiese más de un carril destinado a la circulación en su mismo sentido."
+  },
+  "rgc-95.6": {
+   "norma": "RGC",
+   "articulo": "95.6",
+   "texto": "Cuando no se pretenda adelantar, deberá mantenerse en todo momento una distancia de seguridad con el vehículo precedente de, al menos, 100 metros o un intervalo mínimo de cuatro segundos."
+  },
+  "rgc-95.6-pesado": {
+   "norma": "RGC",
+   "articulo": "95.6",
+   "texto": "En el caso de vehículos cuya masa máxima autorizada sea superior a 3.500 kilogramos, la distancia de seguridad que deberá guardar con el vehículo precedente será de, al menos, 150 metros o un intervalo mínimo de seguridad de seis segundos."
+  },
+  "rgc-48.1.a": {
+   "norma": "RGC",
+   "articulo": "48.1.a",
+   "texto": "Las velocidades máximas que no deberán ser rebasadas, salvo en los supuestos previstos en el artículo 51, son las siguientes:",
+   "tabla": true
+  },
+  "rgc-50.1.a": {
+   "norma": "RGC",
+   "articulo": "50.1.a",
+   "texto": "20 km/h en vías que dispongan de plataforma única de calzada y acera."
+  },
+  "rgc-50.1.b": {
+   "norma": "RGC",
+   "articulo": "50.1.b",
+   "texto": "30 km/h en vías de un único carril por sentido de circulación."
+  },
+  "rgc-50.1.c": {
+   "norma": "RGC",
+   "articulo": "50.1.c",
+   "texto": "50 km/h en vías de dos o más carriles por sentido de circulación. A estos efectos, los carriles reservados para la circulación de determinados usuarios o uso exclusivo de transporte público no serán contabilizados."
+  },
+  "rgc-50.4": {
+   "norma": "RGC",
+   "articulo": "50.4",
+   "texto": "En las vías urbanas a las que se refiere el apartado 1 c) y en travesías, los vehículos que transporten mercancías peligrosas circularán como máximo a 40 km/h."
+  },
+  "rgc-50.5": {
+   "norma": "RGC",
+   "articulo": "50.5",
+   "texto": "El límite genérico de velocidad en travesías es de 50 km/h para todo tipo de vehículos."
+  },
+  "rgc-50.6": {
+   "norma": "RGC",
+   "articulo": "50.6",
+   "texto": "El límite genérico de velocidad en autopistas y autovías que transcurren dentro de poblado será de 80 km/h"
+  }
+ },
+ "explora": {
+  "D-dis-0001": {
+   "tipo": "detencion",
+   "titulo": "Detención = reacción + frenado",
+   "inicial": {
+    "velocidad": 50
+   },
+   "destacar": "detencion",
+   "reto": {
+    "texto": "Sube la velocidad a 90 km/h y pulsa «Frenar»: mira cómo se suman la barra ámbar y la roja.",
+    "si": {
+     "velocidad": {
+      "min": 90
+     }
+    }
+   }
+  },
+  "D-dis-0002": {
+   "tipo": "detencion",
+   "titulo": "¿Qué cambia con el suelo mojado?",
+   "inicial": {
+    "velocidad": 70
+   },
+   "destacar": "frenado",
+   "reto": {
+    "texto": "Activa «Suelo mojado» y fíjate en qué barra crece y cuál se queda igual.",
+    "si": {
+     "mojado": true
+    }
+   }
+  },
+  "D-dis-0003": {
+   "tipo": "detencion",
+   "titulo": "La distancia de reacción",
+   "inicial": {
+    "velocidad": 50
+   },
+   "destacar": "reaccion",
+   "reto": {
+    "texto": "Alarga el tiempo de reacción hasta 1,5 s: el coche sigue a la misma velocidad sin frenar durante más metros.",
+    "si": {
+     "reaccion": {
+      "min": 1.5
+     }
+    }
+   }
+  },
+  "xc-0059": {
+   "tipo": "detencion",
+   "titulo": "La distancia de frenado",
+   "inicial": {
+    "velocidad": 60
+   },
+   "destacar": "frenado",
+   "reto": {
+    "texto": "Pulsa «Frenar»: la barra roja empieza justo cuando se encienden las luces de freno.",
+    "si": {
+     "frenado": true
+    }
+   }
+  },
+  "xc-0060": {
+   "tipo": "detencion",
+   "titulo": "Más velocidad, más espacio para frenar",
+   "inicial": {
+    "velocidad": 40
+   },
+   "destacar": "frenado",
+   "reto": {
+    "texto": "Lleva la velocidad de 40 a 120 km/h y mira cuánto crece la barra roja.",
+    "si": {
+     "velocidad": {
+      "min": 120
+     }
+    }
+   }
+  },
+  "xc-0061": {
+   "tipo": "detencion",
+   "titulo": "La carga también frena peor",
+   "inicial": {
+    "velocidad": 70
+   },
+   "destacar": "frenado",
+   "reto": {
+    "texto": "Activa «Mucha carga» y compara la barra roja.",
+    "si": {
+     "carga": true
+    }
+   }
+  },
+  "xc-0062": {
+   "tipo": "detencion",
+   "titulo": "Frenos y neumáticos",
+   "inicial": {
+    "velocidad": 70
+   },
+   "destacar": "frenado",
+   "reto": {
+    "texto": "Activa «Frenos o neumáticos en mal estado» y pulsa «Frenar».",
+    "si": {
+     "frenos": true
+    }
+   }
+  },
+  "xc-0063": {
+   "tipo": "detencion",
+   "titulo": "Desde que lo ves hasta que paras",
+   "inicial": {
+    "velocidad": 80
+   },
+   "destacar": "detencion",
+   "reto": {
+    "texto": "Pulsa «Frenar» y sigue el coche desde que ve el semáforo hasta que se para.",
+    "si": {
+     "frenado": true
+    }
+   }
+  },
+  "xb-0025": {
+   "tipo": "detencion",
+   "titulo": "El tiempo de reacción",
+   "inicial": {
+    "velocidad": 50
+   },
+   "destacar": "reaccion",
+   "reto": {
+    "texto": "Pulsa «Frenar»: el tramo ámbar es lo que pasa entre ver el semáforo y pisar el freno.",
+    "si": {
+     "frenado": true
+    }
+   }
+  },
+  "D-tre-0001": {
+   "tipo": "detencion",
+   "titulo": "Entre medio segundo y un segundo",
+   "inicial": {
+    "velocidad": 50,
+    "reaccion": 0.5
+   },
+   "destacar": "reaccion",
+   "reto": {
+    "texto": "Mueve el tiempo de reacción de 0,5 s a 1 s: es la franja normal.",
+    "si": {
+     "reaccion": {
+      "min": 1
+     }
+    }
+   }
+  },
+  "D-tre-0002": {
+   "tipo": "detencion",
+   "titulo": "Cansancio y enfermedad",
+   "inicial": {
+    "velocidad": 90
+   },
+   "destacar": "reaccion",
+   "reto": {
+    "texto": "Saca el tiempo de reacción de la franja normal (más de 1 s) y mira cuántos metros recorres sin frenar.",
+    "si": {
+     "reaccion": {
+      "min": 1.25
+     }
+    }
+   }
+  },
+  "D-tre-0003": {
+   "tipo": "detencion",
+   "titulo": "Lo que te hace reaccionar tarde",
+   "inicial": {
+    "velocidad": 50
+   },
+   "destacar": "reaccion",
+   "reto": {
+    "texto": "El sueño o comer mucho antes de conducir te hacen reaccionar más tarde. Lleva el tiempo de reacción a 2 s y mira cuántos metros recorres sin frenar.",
+    "si": {
+     "reaccion": {
+      "min": 2
+     }
+    }
+   }
+  },
+  "x1a-0051": {
+   "tipo": "seguimiento",
+   "titulo": "Un hueco para poder pararte",
+   "inicial": {
+    "velocidad": 90,
+    "segundos": 1
+   },
+   "reto": {
+    "texto": "Sube la separación hasta 2 segundos y pulsa «Contar»: así cuentas el hueco con el de delante.",
+    "si": {
+     "segundos": {
+      "min": 2
+     },
+     "contado": true
+    }
+   }
+  },
+  "xc-0067": {
+   "tipo": "seguimiento",
+   "titulo": "La distancia de seguridad",
+   "inicial": {
+    "velocidad": 70,
+    "segundos": 2
+   },
+   "reto": {
+    "texto": "Pulsa «Contar» y cuenta los segundos desde que el de delante pasa la farola hasta que llegas tú.",
+    "si": {
+     "contado": true
+    }
+   }
+  },
+  "xc-0068": {
+   "tipo": "seguimiento",
+   "titulo": "Más velocidad, más metros",
+   "inicial": {
+    "velocidad": 50,
+    "segundos": 2
+   },
+   "reto": {
+    "texto": "Con 2 segundos fijos, sube la velocidad a 120 km/h: los metros de hueco crecen solos.",
+    "si": {
+     "velocidad": {
+      "min": 120
+     }
+    }
+   }
+  },
+  "xc-0069": {
+   "tipo": "seguimiento",
+   "titulo": "Si no estás en forma, más hueco",
+   "inicial": {
+    "velocidad": 90,
+    "segundos": 2
+   },
+   "reto": {
+    "texto": "Dale un segundo más de margen: sube la separación a 3 segundos.",
+    "si": {
+     "segundos": {
+      "min": 3
+     }
+    }
+   }
+  },
+  "res-dist-0001": {
+   "tipo": "seguimiento",
+   "titulo": "La regla de los dos o tres segundos",
+   "inicial": {
+    "velocidad": 90,
+    "segundos": 1
+   },
+   "reto": {
+    "texto": "Busca la separación aconsejable (dos o tres segundos) y pulsa «Contar».",
+    "si": {
+     "segundos": {
+      "min": 2,
+      "max": 3
+     },
+     "contado": true
+    }
+   }
+  },
+  "res-dist-0002": {
+   "tipo": "seguimiento",
+   "titulo": "Lluvia o noche: un segundo más",
+   "inicial": {
+    "velocidad": 90,
+    "segundos": 2
+   },
+   "reto": {
+    "texto": "Activa «Lluvia, nieve, niebla o noche» y ajusta la separación hasta que vuelva a estar en verde.",
+    "si": {
+     "lluvia": true,
+     "segundos": {
+      "min": 3
+     }
+    }
+   }
+  },
+  "dist-0001": {
+   "tipo": "seguimiento",
+   "titulo": "En un túnel, con un turismo",
+   "inicial": {
+    "velocidad": 80,
+    "segundos": 2,
+    "tunel": true
+   },
+   "reto": {
+    "texto": "Dentro del túnel, deja al menos 100 metros o cuatro segundos.",
+    "si": {
+     "tunel": true,
+     "cumpleTunel": true
+    }
+   }
+  },
+  "dist-0002": {
+   "tipo": "seguimiento",
+   "titulo": "En un túnel, con más de 3.500 kg",
+   "inicial": {
+    "velocidad": 80,
+    "segundos": 4,
+    "tunel": true,
+    "vehiculo": "pesado"
+   },
+   "reto": {
+    "texto": "Con más de 3.500 kg, el mínimo sube: ajusta la separación hasta que el túnel quede en verde.",
+    "si": {
+     "vehiculo": "pesado",
+     "tunel": true,
+     "cumpleTunel": true
+    }
+   }
+  },
+  "dist-0003": {
+   "tipo": "seguimiento",
+   "titulo": "Camión que no va a adelantar",
+   "inicial": {
+    "velocidad": 80,
+    "segundos": 1,
+    "vehiculo": "pesado",
+    "unCarril": true
+   },
+   "reto": {
+    "texto": "Deja al que te sigue sitio para adelantarte: llega a 50 metros.",
+    "si": {
+     "vehiculo": "pesado",
+     "unCarril": true,
+     "cumple50": true
+    }
+   }
+  },
+  "x1a-0054": {
+   "tipo": "seguimiento",
+   "titulo": "Conjunto de más de 10 metros",
+   "inicial": {
+    "velocidad": 80,
+    "segundos": 1,
+    "vehiculo": "largo",
+    "unCarril": true
+   },
+   "reto": {
+    "texto": "Con la caravana, el conjunto mide más de 10 m: deja al menos 50 metros.",
+    "si": {
+     "vehiculo": "largo",
+     "unCarril": true,
+     "cumple50": true
+    }
+   }
+  },
+  "vel-0001": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "convencional"
+   },
+   "reto": {
+    "texto": "Elige «Autopista o autovía» con el turismo.",
+    "si": {
+     "vehiculo": "turismo",
+     "via": "autopista"
+    }
+   }
+  },
+  "vel-0002": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "autopista"
+   },
+   "reto": {
+    "texto": "Cambia a «Carretera convencional» con el turismo.",
+    "si": {
+     "vehiculo": "turismo",
+     "via": "convencional"
+    }
+   }
+  },
+  "vel-0003": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "autopista"
+   },
+   "reto": {
+    "texto": "Cambia el vehículo a «Autobús» en la autovía.",
+    "si": {
+     "vehiculo": "autobus",
+     "via": "autopista"
+    }
+   }
+  },
+  "vel-0004": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "autopista"
+   },
+   "reto": {
+    "texto": "Engancha el remolque: elige «Camión, furgoneta o con remolque».",
+    "si": {
+     "vehiculo": "camion",
+     "via": "autopista"
+    }
+   }
+  },
+  "v5a-vel-0001": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "convencional"
+   },
+   "reto": {
+    "texto": "Cambia a «Camión, furgoneta o con remolque» en la carretera convencional.",
+    "si": {
+     "vehiculo": "camion",
+     "via": "convencional"
+    }
+   }
+  },
+  "x1a-0024": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "autopista"
+   },
+   "reto": {
+    "texto": "Cambia a «Camión, furgoneta o con remolque» en la autovía.",
+    "si": {
+     "vehiculo": "camion",
+     "via": "autopista"
+    }
+   }
+  },
+  "x1a-0031": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "convencional"
+   },
+   "reto": {
+    "texto": "Engancha el remolque en la carretera convencional.",
+    "si": {
+     "vehiculo": "camion",
+     "via": "convencional"
+    }
+   }
+  },
+  "vel-0013": {
+   "tipo": "limites",
+   "titulo": "Límites en ciudad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "urbana2"
+   },
+   "reto": {
+    "texto": "Elige «Calle de un carril por sentido».",
+    "si": {
+     "via": "urbana1"
+    }
+   }
+  },
+  "vel-0014": {
+   "tipo": "limites",
+   "titulo": "Límites en ciudad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "urbana1"
+   },
+   "reto": {
+    "texto": "Elige «Plataforma única (calzada y acera al mismo nivel)».",
+    "si": {
+     "via": "plataforma"
+    }
+   }
+  },
+  "x1a-0044": {
+   "tipo": "limites",
+   "titulo": "Límites en ciudad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "urbana1"
+   },
+   "reto": {
+    "texto": "Elige «Calle de dos o más carriles por sentido».",
+    "si": {
+     "via": "urbana2"
+    }
+   }
+  },
+  "vel-0016": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "convencional"
+   },
+   "reto": {
+    "texto": "Entra en el pueblo: elige «Travesía».",
+    "si": {
+     "via": "travesia"
+    }
+   }
+  },
+  "vel-0017": {
+   "tipo": "limites",
+   "titulo": "Límites genéricos de velocidad",
+   "inicial": {
+    "vehiculo": "turismo",
+    "via": "autopista"
+   },
+   "reto": {
+    "texto": "Elige «Autopista o autovía dentro de poblado».",
+    "si": {
+     "via": "autopistaPoblado"
+    }
+   }
+  }
+ }
+};

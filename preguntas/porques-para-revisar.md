@@ -872,8 +872,8 @@ Hay niebla densa y no puede comprobar que al cambiar de sentido no pondrá en pe
 Respuesta: **No, porque no puede comprobar que no hay peligro.**
 
 - ✔ Se prohíbe el cambio de sentido en toda situación que impida comprobar que la maniobra no pone en peligro ni obstaculiza a otros usuarios. _(RGC 79.1)_
-- ✘ `x1a-0099` Quien va a cambiar de sentido debe elegir un lugar adecuado para interceptar la vía el menor tiempo posible, advertirlo con antelación y cerciorarse de que no pone en peligro ni obstaculiza a nadie. _(RGC 78.1)_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
+- ✘ `adel-0001` Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, VMP o ciclistas hay que guardar una anchura de seguridad de al menos 1,5 metros. _(RGC 85.4)_
 
 ## x1a-0102
 
@@ -1475,8 +1475,8 @@ Respuesta: **Inmediatamente antes del agente.**
 Respuesta: **Sí, cuando las circunstancias lo exijan, siempre que las hagan de forma clara.**
 
 - ✔ Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
-- ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
 - ✘ `B1-sen-0043` La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
+- ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
 
 ## x1b-0044
 
@@ -2258,8 +2258,8 @@ Según la DGT, la fatiga psicológica...
 Respuesta: **hace que al conductor le cueste más concentrarse.**
 
 - ✔ La fatiga puede ser física o psicológica: la física produce sensación de cansancio y la psicológica hace que cueste más concentrarse. _(MANUAL_DGT Tema 3, Estar cansado (fatiga) (p. 45))_
-- ✘ `xb-0028` Entre los síntomas de la fatiga están moverse mucho en el asiento y cambiar de postura, tener los ojos pesados, la dificultad para concentrarse y tardar más en reaccionar. _(MANUAL_DGT Tema 3, ¿Cuáles son los síntomas de la fatiga? (p. 47))_
 - ✘ `xb-0032` El detector de fatiga es un sistema con sensores que reconoce si el conductor está muy cansado o a punto de dormirse y le avisa con una luz, un sonido o una vibración en el volante para que pare. _(MANUAL_DGT Tema 3, ¿Cómo puedes evitar la fatiga y la somnolencia? (p. 51))_
+- ✘ `D-cal-0002` En días de mucho calor se aconseja usar el aire acondicionado a una temperatura de entre 20 y 23 grados, hacer más descansos y beber agua. _(MANUAL_DGT Tema 14, Conducir con calor (pág. 363))_
 
 ## xb-0028
 
@@ -2330,8 +2330,8 @@ Ha bebido mucho alcohol por la noche y solo ha dormido unas pocas horas. ¿Es se
 Respuesta: **No, porque el alcohol se elimina más despacio mientras se duerme.**
 
 - ✔ El alcohol se elimina más despacio durante el sueño; por eso no es seguro conducir después de beber mucho alcohol y dormir pocas horas. _(MANUAL_DGT Tema 3, ¿Qué factores influyen en la tasa de alcoholemia? (p. 55))_
-- ✘ `xb-0034` Aunque la ley permite ciertas tasas, la DGT advierte de que la única tasa de alcoholemia segura para conducir es 0,0, es decir, no beber alcohol. _(MANUAL_DGT Tema 3, Tasa de alcoholemia (p. 53))_
 - ✘ `xb-0036` El alcohol hace que el conductor vea peor las señales y los semáforos y calcule peor la distancia a la que están otros vehículos. _(MANUAL_DGT Tema 3, Efectos del alcohol mientras conduces (p. 57))_
+- ✘ `D-alc-0001` El alcohol produce falsa seguridad en uno mismo, más exposición a riesgos, más faltas y un trato más agresivo o impulsivo hacia otros conductores. _(MANUAL_DGT Tema 3, Efectos del alcohol mientras conduces (pág. 56))_
 
 ## xb-0036
 
@@ -2519,8 +2519,8 @@ Respuesta: **No, nadie puede tener más de un permiso expedido en la UE o el EEE
 Respuesta: **Cuando deja de reunir los requisitos para obtenerlo o pierde todos los puntos.**
 
 - ✔ Se declara la pérdida de vigencia del permiso de conducción cuando su titular no posee los requisitos exigidos para su otorgamiento o ha perdido totalmente su asignación de puntos. _(RGCOND 35.1)_
-- ✘ `xb-0057` Declarada la pérdida de vigencia del permiso por la pérdida total de los puntos, el titular debe entregarlo en la Jefatura Provincial de Tráfico; si no lo hace, los agentes lo retiran. _(RGCOND 37.2)_
 - ✘ `xb-0049` Un permiso de conducción cuya vigencia ha vencido no autoriza a conducir, y su uso da lugar a que la autoridad o sus agentes lo intervengan y lo remitan a la Jefatura Provincial de Tráfico. _(RGCOND 12.4)_
+- ✘ `C-perm-0010` Los vehículos especiales agrícolas autopropulsados pueden conducirse con el B (o licencia); si superan los límites de masa o dimensiones de los vehículos ordinarios o 45 km/h, se requiere el B en todo caso. _(RGCOND 5.9)_
 
 ## xb-0057
 
@@ -3680,7 +3680,7 @@ Hay fuerte viento y se cruza con muchos vehículos. ¿Qué debe hacer con la sep
 Respuesta: **Aumentarla.**
 
 - ✔ Hay que guardar más separación lateral cuando se conduce rápido, la carretera está en mal estado, se cruzan muchos vehículos o hay lluvia, nieve, niebla, viento o humo. _(MANUAL_DGT Tema 10, Separación lateral (p. 264))_
-- ✘ `xc-0066` Los vehículos circulan por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para realizar el cruce con seguridad. _(RGC 29.1)_
+- ✘ `xc-0082` Antes de entrar en una curva hay que reducir la velocidad o frenar si es necesario y acercarse lo más posible al borde derecho de la calzada. _(MANUAL_DGT Tema 14, Pasos para tomar bien una curva (p. 343))_
 - ✘ `xc-0087` Si derrapan las ruedas delanteras de un vehículo de propulsión, hay que dejar de acelerar y poner recto el volante hasta que las ruedas dejen de derrapar. _(MANUAL_DGT Tema 14, Derrapar en las curvas (p. 345))_
 
 ## xc-0066
@@ -4040,8 +4040,8 @@ Respuesta: **Una vía pública pavimentada situada fuera de poblado, salvo los t
 Respuesta: **No, ni cruza a nivel ninguna vía ni es cruzada a nivel por ninguna.**
 
 - ✔ Una autopista no cruza a nivel ninguna otra senda, vía, línea de ferrocarril o tranvía, ni es cruzada a nivel por ninguna vía de comunicación o servidumbre de paso. _(LSV Anexo I.66.b)_
-- ✘ `xc-0106` Tanto la autopista como la autovía constan de distintas calzadas para cada sentido de circulación, separadas entre sí, y no tienen cruces a nivel; se diferencian en el acceso de las propiedades colindantes. _(LSV Anexo I.67.c)_
 - ✘ `xc-0107` La vía para automóviles está reservada exclusivamente a la circulación de automóviles, tiene una sola calzada y limitación total de accesos a las propiedades colindantes. _(LSV Anexo I.68)_
+- ✘ `xc-0108` Un poblado es el espacio que comprende edificios y en cuyas vías de entrada y de salida están colocadas, respectivamente, las señales de entrada a poblado y de salida de poblado. _(LSV Anexo I.70)_
 
 ## xc-0106
 
@@ -4391,8 +4391,8 @@ Su turismo lleva neumáticos especiales de nieve, pero no lleva cadenas. ¿Puede
 Respuesta: **Sí, porque también admite los neumáticos especiales de nieve.**
 
 - ✔ La señal R-412 (cadenas para nieve) obliga a no seguir sin cadenas u otros dispositivos antideslizantes autorizados, o sin neumáticos especiales de nieve. _(RGC_CATALOGO Anexo I, catálogo de señales, R-412 (pág. 118 del PDF consolidado))_
-- ✘ `xd-0011` Cuando las cadenas son obligatorias o recomendadas, se colocan al menos sobre una rueda motriz a cada lado del vehículo, o bien se usan neumáticos especiales. _(RGV 11.5.2)_
 - ✘ `xd-0023` El calor hace que aparezcan antes el sueño y la fatiga, puede alargar el tiempo de reacción y puede aumentar la agresividad hacia otros conductores. _(MANUAL_DGT Tema 14, Conducir con calor (p. 363))_
+- ✘ `xd-0017` Con niebla, la DGT recomienda evitar los adelantamientos que no sean necesarios y tener más precaución al acercarse a los cruces. _(MANUAL_DGT Tema 14, Conducir con niebla (p. 360))_
 
 ## xd-0014
 
@@ -4454,8 +4454,8 @@ Circula con fuerte viento lateral por una carretera con edificios y árboles a l
 Respuesta: **Porque al pasar junto a ellos el viento puede aparecer de repente.**
 
 - ✔ Con viento fuerte, al pasar delante de edificios, árboles u otros objetos el viento puede aparecer de repente y desplazar el vehículo. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 362))_
-- ✘ `xd-0019` El viento es especialmente peligroso cuando sopla de lado, porque puede hacer que el vehículo pierda el control, vuelque o se salga de la carretera. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 361))_
 - ✘ `xd-0009` Sobre nieve, el freno se utiliza lo menos posible y de forma suave, y hay que mantener más distancia de seguridad. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
+- ✘ `xd-0024` En días de mucho calor, la DGT recomienda hacer más descansos durante el viaje y beber mucha agua. _(MANUAL_DGT Tema 14, Conducir con calor (p. 363))_
 
 ## xd-0021
 
@@ -5093,8 +5093,8 @@ Respuesta: **No, la obligación es para la calzada o el arcén de vías interurb
 Respuesta: **Un chaleco reflectante de alta visibilidad certificado.**
 
 - ✔ La dotación obligatoria de un turismo incluye el dispositivo luminoso V-16 y un chaleco reflectante de alta visibilidad certificado. _(RGV Anexo XII.1.b)_
-- ✘ `xd-0135` El Reglamento General de Circulación obliga a ponerse el chaleco reflectante al salir del vehículo y ocupar la calzada o el arcén de las vías interurbanas. _(RGC 118.4)_
 - ✘ `A-par-0018` En pendiente descendente hay que dejar colocada la marcha hacia atrás; en ascendente, la primera. _(RGC 92.3.c)_
+- ✘ `bm13-0009` Si debe permanecer detenido en un túnel u otro lugar cerrado más de dos minutos, ha de interrumpir el funcionamiento del motor, conservando encendido el alumbrado de posición. _(RGC 115.2)_
 
 ## xd-0137
 
@@ -5256,7 +5256,7 @@ Respuesta: **En un lugar seguro, dejando paso a los servicios de emergencia.**
 
 - ✔ Para proteger el lugar, quien se detiene a ayudar debe estacionar su vehículo en un lugar seguro dejando paso a los servicios de emergencia, parar el motor y encender las luces de emergencia. _(MANUAL_DGT Tema 16, Proteger (p. 417))_
 - ✘ `xe-0014` Según el manual de la DGT, antes de avisar conviene recoger toda la información posible (si hay fuego, cuántos heridos hay) para que acudan los servicios necesarios y puedan hacer bien su trabajo. _(MANUAL_DGT Tema 16, Avisar (p. 419))_
-- ✘ `xe-0011` En la regla PAS hay que protegerse a uno mismo, a las víctimas y el lugar del accidente: quien ayuda no debe ponerse en peligro ni arriesgarse a sufrir otro accidente. _(MANUAL_DGT Tema 16, Proteger (p. 416))_
+- ✘ `xe-0010` Según el manual de la DGT, la regla PAS (proteger, avisar, socorrer) es muy importante en los primeros 10 minutos después del accidente, porque actuar rápido ayuda a salvar vidas y a evitar más daños. _(MANUAL_DGT Tema 16, Regla PAS (p. 415))_
 
 ## xe-0013
 
@@ -6155,7 +6155,7 @@ Para no aumentar el consumo por la resistencia del aire, ¿qué recomienda el ma
 Respuesta: **No bajarlas mientras se circula.**
 
 - ✔ Entre las medidas para que el aire no aumente el consumo, el manual de la DGT recomienda no bajar las ventanillas mientras se circula y no instalar baca sin necesidad. _(MANUAL_DGT Tema 17, El aire de la calle (p. 456))_
-- ✘ `xe-0125` Según el manual de la DGT, la mayor parte del combustible se emplea en luchar contra el aire que no deja avanzar al vehículo; por eso la baca o los deflectores aumentan el consumo. _(MANUAL_DGT Tema 17, El aire de la calle (p. 455))_
+- ✘ `E-efi-0004` Elementos como la baca o los deflectores aumentan la resistencia al aire y el consumo; es mejor llevar el equipaje en el maletero. _(MANUAL_DGT Tema 17, El aire de la calle (p. 455))_
 - ✘ `E-efi-0002` Se arranca en primera y se pasa a segunda a los pocos segundos; las marchas largas son las que menos consumen. _(MANUAL_DGT Tema 17, Técnicas para conducir de forma eficiente (p. 453))_
 
 ## xe-0127

@@ -18,7 +18,8 @@
 ## Revisión independiente (24/11/2026)
 - Veredictos en `/mnt/project-files/preguntas/revision-ampliacion.json`: de 731, 726 ok, 4 corregir y 1 rechazar (xb-0095: la LSV vigente, art. 76.u, califica de grave la ocupación excesiva). Aplicadas las 4 correcciones (x1b-0012, x1b-0128, xe-0058, xd-0024) y la nota de x1b-0026.
 - Quitadas otras 23 que el revisor encontró duplicadas entre bancos con distintas palabras.
-- Pendiente: revisión de las parejas nuevas del «¿por qué?» (`porques-parejas-ampliacion.json`, 1.960 parejas; 42 marcadas `nueva_tras_revision`).
+- Parejas del «¿por qué?»: de 1.960, 1.948 ok y 12 excluidas en `porques-excluidos.json` (la distractora también justificaba la respuesta). Las 24 parejas que las sustituyen, leídas a mano.
+- Aparte: la explicación existente de D-cal-0002 repite el dato de 20-23 °C del aire acondicionado, que el manual contradice en la p. 460.
 
 ## Temas dejados fuera por dudosos (para el revisor)
 - RGC 48.1.a.2º frente a 48.1.h: límites de los vehículos de tres ruedas, se contradicen.

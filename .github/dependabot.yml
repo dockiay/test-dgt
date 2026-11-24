@@ -1,0 +1,7 @@
+# Dependabot propone una PR cuando sale una versión nueva de las acciones de GitHub que usa el workflow.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

@@ -1,9 +1,12 @@
 # Publica la web en Firebase Hosting y las reglas de Firestore en cada cambio de main.
-# Necesita, en Settings → Secrets and variables → Actions del repositorio:
-#   - variable FIREBASE_PROJECT_ID: el id del proyecto de Firebase (por ejemplo, test-permiso-b)
-#   - secreto FIREBASE_SERVICE_ACCOUNT: el JSON de la clave de la cuenta de servicio
-#   - secreto CORREOS_PERMITIDOS: los correos de Google que pueden guardar en la nube, separados por comas
-# Mientras falte la variable, el trabajo se salta (no falla).
+# Necesita, en Settings del repositorio:
+#   - variable FIREBASE_PROJECT_ID (Secrets and variables → Actions → Variables, del repositorio:
+#     el "if" del trabajo no ve las variables del entorno): el id del proyecto de Firebase
+#   - en Environments → produccion (entorno que solo admite la rama main), los secretos
+#     FIREBASE_SERVICE_ACCOUNT (el JSON de la clave de la cuenta de servicio) y
+#     CORREOS_PERMITIDOS (los correos de Google que pueden guardar en la nube, separados por comas)
+# Mientras falte la variable, el trabajo se salta (no falla). Si los secretos siguen como secretos
+# del repositorio también funciona, pero entonces cualquier rama podría usarlos: muévelos al entorno.
 name: Publicar en Firebase
 
 on:
@@ -19,11 +22,13 @@ jobs:
   publicar:
     if: ${{ vars.FIREBASE_PROJECT_ID != '' }}
     runs-on: ubuntu-latest
+    # Los secretos viven en el entorno produccion, que solo admite main: otra rama no puede publicar.
+    environment: produccion
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
       - name: Credenciales

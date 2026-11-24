@@ -19,7 +19,7 @@ import json, os, re, sys
 TXT = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("FUENTES_TXT", "/mnt/project-files/fuentes/txt")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "banco-dudosas-video1.json")
 HOY = "2026-11-24"
-VID = "YyTF43W4wOo"
+VID = "video1"
 
 FUENTES = {
     # norma: (fichero base, url, version consolidada consultada, nombre)
@@ -432,7 +432,7 @@ q("res-del-0004", 1, "infracciones_sanciones", "delitos",
   "c", "Es delito conducir sin haber obtenido nunca permiso, tras perder todos los puntos, o tras ser privado del permiso por un juez.",
   F("CP", "384", "al que condujere un vehículo de motor o ciclomotor sin haber obtenido nunca permiso o licencia de conducción"),
   "D-rev-0005", "4:53:18",
-  "Matiz para Denisse: conducir con el permiso suspendido por la Administración (no por un juez) es infracción administrativa con pérdida de 4 puntos (LSV anexo II.17), no delito.")
+  "Matiz: conducir con el permiso suspendido por la Administración (no por un juez) es infracción administrativa con pérdida de 4 puntos (LSV anexo II.17), no delito.")
 
 q("res-del-0005", 1, "infracciones_sanciones", "delitos",
   "Conducir cuando el permiso ha perdido su vigencia por haber perdido todos los puntos, ¿qué es?",
@@ -662,7 +662,7 @@ if errs:
     sys.exit(1)
 
 doc = {"version": 1,
-       "descripcion": "Preguntas nuevas que salen de resolver las afirmaciones dudosas del vídeo YyTF43W4wOo. Cada pregunta indica en origen.resuelve qué afirmación de revisión resuelve.",
+       "descripcion": "Preguntas nuevas que salen de resolver las afirmaciones dudosas del vídeo video1. Cada pregunta indica en origen.resuelve qué afirmación de revisión resuelve.",
        "normativa_consultada": {k: {"url": v[1], "nombre": v[3], "ultima_actualizacion": v[2]} for k, v in FUENTES.items()},
        "preguntas": Q}
 json.dump(doc, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)

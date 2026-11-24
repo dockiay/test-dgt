@@ -3,7 +3,7 @@ import json, re, sys
 RGC_URL = "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514"
 LSV_URL = "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722"
 V = "2026-06-26"
-VID = "YyTF43W4wOo"
+VID = "video1"
 
 def F(norma, art, cita):
     url = (RGC_URL if norma == "RGC" else LSV_URL)

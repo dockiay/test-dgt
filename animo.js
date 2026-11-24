@@ -19,7 +19,7 @@
 
   const sinMovimiento = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // ---------- Fechas (hora local, no UTC: el día acaba a medianoche de Denisse) ----------
+  // ---------- Fechas (hora local, no UTC: el día acaba a medianoche en el dispositivo) ----------
   function fecha(d) { return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
   function haceDias(n) { const d = new Date(); d.setHours(12, 0, 0, 0); d.setDate(d.getDate() - n); return d; }
   const hoy = () => fecha(new Date());

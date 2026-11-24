@@ -32,7 +32,7 @@ Las dudosas van a `revision.json` con el mismo formato y `estado: "pendiente_rev
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "12:34"
       },
       "imagen": null,

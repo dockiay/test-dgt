@@ -1,0 +1,957 @@
+{
+  "version": 1,
+  "pendientes": [
+    {
+      "id": "A-pri-0001",
+      "tipo": "esquema",
+      "codigo": null,
+      "descripcion": "Cruce de cuatro brazos, todos pavimentados, sin ninguna señal ni marca vial ni semáforo. Vehículo A (turismo) llega por el brazo SUR y va a seguir recto hacia el norte. Vehículo B (turismo) llega por el brazo ESTE y va a seguir recto hacia el oeste. Vehículo C (turismo) llega por el brazo NORTE y va a seguir recto hacia el sur. El brazo OESTE está vacío. Los tres están detenidos a la entrada del cruce, rotulados A, B y C.",
+      "enunciado": "En la intersección sin señalizar del esquema, ¿qué vehículo pasa primero?"
+    },
+    {
+      "id": "A-ani-0001",
+      "tipo": "senal",
+      "codigo": "P-23",
+      "descripcion": "Señal de peligro P-23 «Paso de animales domésticos» (triángulo de borde rojo con una vaca en negro) con un panel complementario rectangular debajo con la inscripción «CAÑADA».",
+      "enunciado": "Esta señal lleva debajo un panel complementario con la inscripción «Cañada». Si hay ganado cruzando la vía, ¿quién tiene prioridad?"
+    },
+    {
+      "id": "A-est-0010",
+      "tipo": "senal",
+      "codigo": "R-5",
+      "descripcion": "Señal R-5 «Prioridad en sentido contrario», tal como aparece en el catálogo oficial de señales del RGC (copiar el diseño oficial).",
+      "enunciado": "Llega a un puente estrecho por el extremo en el que está colocada esta señal y, ya en el puente, se encuentra con otro vehículo con el que no puede cruzarse. ¿Qué debe hacer?"
+    },
+    {
+      "id": "A-par-0004",
+      "tipo": "marca_vial",
+      "codigo": "M-7.8",
+      "descripcion": "Calle urbana con una línea amarilla CONTINUA pintada sobre el bordillo (o en la calzada junto a él) a lo largo de un tramo, sin ninguna señal vertical.",
+      "enunciado": "¿Qué indica esta marca vial amarilla continua junto al bordillo?"
+    },
+    {
+      "id": "A-par-0005",
+      "tipo": "marca_vial",
+      "codigo": "M-7.7",
+      "descripcion": "Calle urbana con una línea amarilla DISCONTINUA pintada sobre el bordillo (o en la calzada junto a él) a lo largo de un tramo, sin ninguna señal vertical.",
+      "enunciado": "¿Qué indica esta marca vial amarilla discontinua junto al bordillo?"
+    },
+    {
+      "id": "A-par-0006",
+      "tipo": "marca_vial",
+      "codigo": "M-7.9",
+      "descripcion": "Tramo de calzada junto al bordillo con una línea amarilla en zigzag, sin ninguna señal vertical.",
+      "enunciado": "¿Qué indica esta marca vial amarilla en zigzag?"
+    },
+    {
+      "id": "B1-sen-0006",
+      "tipo": "esquema",
+      "codigo": null,
+      "descripcion": "Acceso a una intersección con un semáforo circular en amarillo intermitente y, en el mismo poste o junto a él, una señal vertical de STOP (R-2).",
+      "enunciado": "Un semáforo emite luz amarilla intermitente y en el mismo acceso hay una señal de STOP. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B1-sen-0007",
+      "tipo": "esquema",
+      "codigo": null,
+      "descripcion": "Intersección vista desde el conductor: a la derecha de la calzada una señal de ceda el paso (R-1) y a la izquierda una señal de STOP (R-2). Una flecha indica que el turismo quiere seguir de frente.",
+      "enunciado": "Va a seguir de frente y hay señales verticales con indicaciones distintas a la derecha y a la izquierda de la calzada. ¿A cuáles debe obedecer?"
+    },
+    {
+      "id": "B1-sen-0008",
+      "tipo": "esquema",
+      "codigo": null,
+      "descripcion": "Intersección vista desde el conductor: a la derecha una señal de ceda el paso (R-1) y a la izquierda una señal de STOP (R-2). Una flecha indica que el turismo quiere girar a la derecha.",
+      "enunciado": "Va a girar a la derecha y hay señales verticales con indicaciones distintas a la derecha y a la izquierda de la calzada. ¿A cuáles debe obedecer?"
+    },
+    {
+      "id": "B1-sen-0009",
+      "tipo": "senal",
+      "codigo": null,
+      "descripcion": "Señal de localización con el nombre de un poblado (p. ej. 'Toledo') y, en el mismo poste, encima, una señal circular de velocidad máxima 40.",
+      "enunciado": "Una señal de limitación de velocidad está colocada en el mismo poste que la señal con el nombre de un poblado. ¿Dónde se aplica esa limitación?"
+    },
+    {
+      "id": "B1-sen-0011",
+      "tipo": "senal",
+      "codigo": "R-200",
+      "descripcion": "Señal R-200 'Prohibición de pasar sin detenerse' con el diseño del catálogo vigente (circular de orla roja con inscripción central, p. ej. PEAJE); comprobar el diseño exacto en la ficha del catálogo.",
+      "enunciado": "Una señal le obliga a detenerse. ¿Cuándo puede reanudar la marcha?"
+    },
+    {
+      "id": "B1-sen-0014",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Agente de tráfico uniformado, de frente, con un brazo levantado verticalmente.",
+      "enunciado": "Un agente que regula el tráfico levanta el brazo verticalmente. ¿A quién obliga a detenerse?"
+    },
+    {
+      "id": "B1-sen-0016",
+      "tipo": "esquema",
+      "codigo": null,
+      "descripcion": "Vista cenital de una intersección con un agente en el centro con los brazos extendidos horizontalmente en dirección este-oeste; vehículos aproximándose desde el norte, el sur, el este y el oeste.",
+      "enunciado": "Un agente tiene los brazos extendidos horizontalmente. ¿Quiénes deben detenerse?"
+    },
+    {
+      "id": "B1-sen-0018",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Agente de tráfico con un brazo extendido lateralmente, con flechas que indican movimiento de arriba abajo.",
+      "enunciado": "El agente mueve el brazo extendido alternativamente de arriba abajo. ¿Qué indica a los conductores que se acercan por el lado de ese brazo?"
+    },
+    {
+      "id": "B1-sen-0022",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Motocicleta de agentes de tráfico en carretera con el agente mostrando una bandera roja.",
+      "enunciado": "Desde un vehículo de los agentes se muestra una bandera roja. ¿Qué indica?"
+    },
+    {
+      "id": "B1-sen-0026",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Operario de obras con chaleco reflectante sosteniendo una paleta con la señal de STOP en un estrechamiento por obras.",
+      "enunciado": "En un tramo en obras, un operario regula el paso de vehículos con una paleta. ¿Está obligado a seguir sus indicaciones?"
+    },
+    {
+      "id": "B1-sen-0029",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Carretera con una hilera de conos naranjas y blancos que separa un carril cerrado por obras del carril abierto.",
+      "enunciado": "Una hilera de conos delimita una zona de la calzada. ¿Qué significa?"
+    },
+    {
+      "id": "B1-sen-0030",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Panel direccional provisional de obras (fondo amarillo/naranja con franjas o flechas blancas) cerrando un carril y desviando hacia la izquierda.",
+      "enunciado": "¿Qué indica un panel direccional provisional colocado en una zona de obras?"
+    },
+    {
+      "id": "B1-sen-0031",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Curva a la izquierda en carretera convencional con paneles direccionales permanentes (fondo azul y flechas blancas) en el exterior de la curva.",
+      "enunciado": "¿Cuál es la finalidad de los paneles direccionales permanentes colocados en el exterior de una curva?"
+    },
+    {
+      "id": "B1-sen-0040",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Semáforo de tres luces cuyas lentes muestran la silueta de una bicicleta, con la luz roja encendida.",
+      "enunciado": "Un semáforo muestra luces con la silueta iluminada de un ciclo. ¿A quién se refieren sus indicaciones?"
+    },
+    {
+      "id": "B1-sen-0041",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Semáforo de fondo circular negro con una franja blanca iluminada (vertical), junto a una vía de tranvía.",
+      "enunciado": "Un semáforo consistente en una franja blanca iluminada sobre fondo circular negro, sin que exista carril reservado, ¿a qué vehículos se refiere?"
+    },
+    {
+      "id": "B1-sen-0042",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Semáforo de fondo circular negro con una franja blanca horizontal iluminada.",
+      "enunciado": "En un semáforo para tranvías y autobuses, ¿qué significa una franja blanca horizontal iluminada?"
+    },
+    {
+      "id": "B1-sen-0044",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Semáforo de paso a nivel con dos luces rojas dispuestas horizontalmente, una encendida, junto a una cruz de San Andrés.",
+      "enunciado": "¿Qué significan dos luces rojas alternativamente intermitentes antes de un paso a nivel?"
+    },
+    {
+      "id": "B1-sen-0047",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Semáforo circular con la luz roja encendida que contiene una flecha negra apuntando a la derecha.",
+      "enunciado": "Un semáforo circular muestra una flecha negra sobre la luz roja encendida. ¿Qué significa?"
+    },
+    {
+      "id": "B1-sen-0048",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Semáforo con la luz roja circular encendida y, en un módulo adicional, una flecha verde iluminada apuntando a la derecha.",
+      "enunciado": "El semáforo tiene la luz roja circular encendida y, a la vez, una flecha verde iluminada hacia la derecha. ¿Puede girar a la derecha?"
+    },
+    {
+      "id": "B1-sen-0049",
+      "tipo": "esquema",
+      "codigo": null,
+      "descripcion": "Calzada con dos carriles ante un semáforo: el derecho con flecha pintada de giro a la derecha; un turismo gris detenido en el carril derecho; semáforo con luz roja circular y flecha verde hacia la derecha encendida.",
+      "enunciado": "Está detenido ante un semáforo en rojo, en un carril reservado exclusivamente para girar a la derecha, aunque usted quería seguir de frente. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B1-sen-0050",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Pórtico sobre una calzada de varios carriles con semáforos de carril cuadrados: aspa roja sobre un carril y flecha verde hacia abajo sobre los demás.",
+      "enunciado": "Un semáforo de carril (cuadrado) sobre su carril muestra un aspa roja. ¿Qué significa?"
+    },
+    {
+      "id": "B1-sen-0051",
+      "tipo": "esquema",
+      "codigo": null,
+      "descripcion": "Calzada con carril reversible: semáforo de carril cuadrado con flecha verde hacia abajo sobre el carril y, más adelante, un semáforo circular con luz roja.",
+      "enunciado": "Circula por un carril con un semáforo de carril que muestra una flecha verde apuntando hacia abajo. Más adelante, un semáforo circular está en rojo. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B1-sen-0052",
+      "tipo": "foto",
+      "codigo": null,
+      "descripcion": "Semáforo de carril cuadrado con una flecha amarilla oblicua apuntando hacia abajo a la izquierda.",
+      "enunciado": "Un semáforo de carril muestra una flecha amarilla o blanca oblicua apuntando hacia abajo. ¿Qué indica?"
+    },
+    {
+      "id": "B1-sen-0057",
+      "tipo": "senal",
+      "codigo": "P-17",
+      "descripcion": "Señal P-17 'Estrechamiento de calzada' (por ambos lados) con fondo amarillo y orla roja, en un tramo en obras.",
+      "enunciado": "En un tramo con obras encuentra una señal de peligro con fondo amarillo en lugar de blanco. ¿Por qué tiene ese color?"
+    },
+    {
+      "id": "B1-pri-0059",
+      "tipo": "senal",
+      "codigo": "P-1",
+      "descripcion": "Señal P-1 (intersección con prioridad): triángulo con orla roja, trazo vertical grueso cruzado por un trazo horizontal fino.",
+      "enunciado": "Se aproxima a una intersección señalizada con la señal de advertencia de 'intersección con prioridad'. ¿Quién tiene prioridad de paso?"
+    },
+    {
+      "id": "B1-pri-0060",
+      "tipo": "senal",
+      "codigo": "R-3",
+      "descripcion": "Señal R-3 (calzada con prioridad): cuadrado blanco apoyado en un vértice (rombo) con un cuadrado amarillo en el centro.",
+      "enunciado": "Circula por una vía señalizada con la señal de 'calzada con prioridad'. ¿Qué significa?"
+    },
+    {
+      "id": "B1-pri-0061",
+      "tipo": "senal",
+      "codigo": "R-1",
+      "descripcion": "Señal R-1 'Ceda el paso': triángulo con el vértice hacia abajo, fondo blanco y orla roja.",
+      "enunciado": "Llega a una intersección con señal de ceda el paso. ¿A quién debe ceder el paso?"
+    },
+    {
+      "id": "B1-pri-0062",
+      "tipo": "senal",
+      "codigo": "R-1",
+      "descripcion": "Señal R-1 'Ceda el paso': triángulo con el vértice hacia abajo, fondo blanco y orla roja.",
+      "enunciado": "Ante una señal de ceda el paso, si no se aproxima ningún vehículo por la vía preferente, ¿está obligado a detenerse?"
+    },
+    {
+      "id": "B1-pri-0063",
+      "tipo": "senal",
+      "codigo": "R-2",
+      "descripcion": "Señal R-2 'Detención obligatoria o STOP': octógono rojo con la palabra STOP en blanco.",
+      "enunciado": "Llega a una intersección con señal de STOP y no se aproxima ningún vehículo. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B1-pri-0064",
+      "tipo": "senal",
+      "codigo": "R-2",
+      "descripcion": "Señal R-2 'Detención obligatoria o STOP' en una intersección sin línea de detención pintada.",
+      "enunciado": "Ante una señal de STOP, ¿dónde debe detener el vehículo si no hay línea de detención?"
+    },
+    {
+      "id": "B1-pri-0068",
+      "tipo": "marca_vial",
+      "codigo": "M-7.5",
+      "descripcion": "Marca vial M-7.5 de paso a nivel pintada en blanco sobre el carril: un aspa con las letras P y N.",
+      "enunciado": "¿Qué indica la marca vial de paso a nivel (M-7.5) pintada en la calzada?"
+    },
+    {
+      "id": "B1-pri-0069",
+      "tipo": "senal",
+      "codigo": "P-23",
+      "descripcion": "Señal P-23 'Paso de animales domésticos' (silueta de una vaca) con un panel complementario rectangular debajo con la palabra 'CAÑADA'.",
+      "enunciado": "Ve la señal de peligro 'paso de animales domésticos' con un panel complementario que dice 'cañada'. Si hay ganado cruzando, ¿quién tiene prioridad?"
+    },
+    {
+      "id": "B1-pri-0070",
+      "tipo": "senal",
+      "codigo": "P-23",
+      "descripcion": "Señal P-23 'Paso de animales domésticos' (silueta de una vaca), sin panel complementario.",
+      "enunciado": "Encuentra la señal de peligro 'paso de animales domésticos' sin ningún panel complementario. Como norma general, ¿quién tiene prioridad de paso?"
+    },
+    {
+      "id": "B1-pri-0071",
+      "tipo": "esquema",
+      "codigo": null,
+      "descripcion": "Autopista de dos carriles con un carril de aceleración a la derecha por el que se incorpora un turismo; un turismo circula por el carril derecho a la altura de la incorporación, con el carril izquierdo libre.",
+      "enunciado": "Circula por una autopista y, por la derecha, otros vehículos se incorporan desde el carril de aceleración. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B1-pri-0072",
+      "tipo": "senal",
+      "codigo": "R-5",
+      "descripcion": "Señal R-5 de orla roja y fondo blanco 'Prioridad en sentido contrario': flecha roja hacia arriba y flecha negra hacia abajo.",
+      "enunciado": "Ha entrado en un puente estrecho, donde no pueden cruzarse dos vehículos, por el extremo en el que hay colocada una señal de prioridad en sentido contrario. Si se encuentra con otro vehículo dentro del puente, ¿quién debe retroceder?"
+    },
+    {
+      "id": "B1-sen-0074",
+      "tipo": "senal",
+      "codigo": "P-1c",
+      "descripcion": "Señal P-1c «Intersección con prioridad sobre incorporación por la derecha» recortada del catálogo oficial del RGC, pág. 89",
+      "enunciado": "¿Qué indica esta señal?"
+    },
+    {
+      "id": "B1-sen-0075",
+      "tipo": "senal",
+      "codigo": "P-2",
+      "descripcion": "Señal P-2 «Intersección con prioridad de la derecha» recortada del catálogo oficial del RGC, pág. 89",
+      "enunciado": "Esta señal advierte de una intersección. ¿Qué prioridad rige en ella?"
+    },
+    {
+      "id": "B1-sen-0076",
+      "tipo": "senal",
+      "codigo": "P-4",
+      "descripcion": "Señal P-4 «Glorieta» recortada del catálogo oficial del RGC, pág. 90",
+      "enunciado": "¿Qué indica esta señal?"
+    },
+    {
+      "id": "B1-sen-0077",
+      "tipo": "senal",
+      "codigo": "P-6",
+      "descripcion": "Señal P-6 «Cruce de tranvía» recortada del catálogo oficial del RGC, pág. 90",
+      "enunciado": "¿Qué indica esta señal?"
+    },
+    {
+      "id": "B1-sen-0078",
+      "tipo": "senal",
+      "codigo": "P-7",
+      "descripcion": "Señal P-7 «Paso a nivel con barreras» recortada del catálogo oficial del RGC, pág. 90",
+      "enunciado": "¿Qué indica esta señal con el dibujo de una valla?"
+    },
+    {
+      "id": "B1-sen-0079",
+      "tipo": "senal",
+      "codigo": "P-8",
+      "descripcion": "Señal P-8 «Paso a nivel sin barreras» recortada del catálogo oficial del RGC, pág. 90",
+      "enunciado": "¿Qué indica esta señal con el dibujo de un tren visto de frente?"
+    },
+    {
+      "id": "B1-sen-0080",
+      "tipo": "senal",
+      "codigo": "P-11",
+      "descripcion": "Señal P-11 «Situación de un paso a nivel sin barreras» recortada del catálogo oficial del RGC, pág. 91",
+      "enunciado": "¿Qué indica esta señal con forma de aspa (cruz de San Andrés) de borde rojo?"
+    },
+    {
+      "id": "B1-sen-0081",
+      "tipo": "senal",
+      "codigo": "P-11a",
+      "descripcion": "Señal P-11a «Situación de un paso a nivel sin barreras de más de una vía férrea» recortada del catálogo oficial del RGC, pág. 92",
+      "enunciado": "¿Qué indica esta señal formada por un aspa doble?"
+    },
+    {
+      "id": "B1-sen-0082",
+      "tipo": "senal",
+      "codigo": "P-12",
+      "descripcion": "Señal P-12 «Aeropuerto» recortada del catálogo oficial del RGC, pág. 92",
+      "enunciado": "¿De qué advierte esta señal con la silueta de un avión?"
+    },
+    {
+      "id": "B1-sen-0083",
+      "tipo": "senal",
+      "codigo": "P-15a",
+      "descripcion": "Señal P-15a «Resalte» recortada del catálogo oficial del RGC, pág. 93",
+      "enunciado": "¿Qué anuncia esta señal de peligro?"
+    },
+    {
+      "id": "B1-sen-0084",
+      "tipo": "senal",
+      "codigo": "P-15b",
+      "descripcion": "Señal P-15b «Badén» recortada del catálogo oficial del RGC, pág. 93",
+      "enunciado": "¿Qué anuncia esta señal de peligro?"
+    },
+    {
+      "id": "B1-sen-0085",
+      "tipo": "senal",
+      "codigo": "P-17a",
+      "descripcion": "Señal P-17a «Estrechamiento de calzada por la derecha» recortada del catálogo oficial del RGC, pág. 93",
+      "enunciado": "¿Qué indica esta señal?"
+    },
+    {
+      "id": "B1-sen-0086",
+      "tipo": "senal",
+      "codigo": "P-19",
+      "descripcion": "Señal P-19 «Pavimento deslizante» recortada del catálogo oficial del RGC, pág. 94",
+      "enunciado": "¿Qué indica esta señal con un vehículo derrapando?"
+    },
+    {
+      "id": "B1-sen-0087",
+      "tipo": "senal",
+      "codigo": "P-21a",
+      "descripcion": "Señal P-21a «Niños» recortada del catálogo oficial del RGC, pág. 95",
+      "enunciado": "¿De qué advierte esta señal?"
+    },
+    {
+      "id": "B1-sen-0088",
+      "tipo": "senal",
+      "codigo": "P-24",
+      "descripcion": "Señal P-24 «Paso de animales en libertad» recortada del catálogo oficial del RGC, pág. 95",
+      "enunciado": "¿De qué advierte esta señal con un ciervo?"
+    },
+    {
+      "id": "B1-sen-0089",
+      "tipo": "senal",
+      "codigo": "P-25",
+      "descripcion": "Señal P-25 «Circulación en los dos sentidos» recortada del catálogo oficial del RGC, pág. 96",
+      "enunciado": "¿Qué indica esta señal con dos flechas de sentidos opuestos?"
+    },
+    {
+      "id": "B1-sen-0090",
+      "tipo": "senal",
+      "codigo": "P-26",
+      "descripcion": "Señal P-26 «Desprendimiento» recortada del catálogo oficial del RGC, pág. 96",
+      "enunciado": "¿De qué advierte esta señal?"
+    },
+    {
+      "id": "B1-sen-0091",
+      "tipo": "senal",
+      "codigo": "P-27",
+      "descripcion": "Señal P-27 «Muelle» recortada del catálogo oficial del RGC, pág. 96",
+      "enunciado": "¿De qué advierte esta señal con un vehículo cayendo al agua?"
+    },
+    {
+      "id": "B1-sen-0092",
+      "tipo": "senal",
+      "codigo": "P-28",
+      "descripcion": "Señal P-28 «Proyección de gravilla» recortada del catálogo oficial del RGC, pág. 96",
+      "enunciado": "¿De qué advierte esta señal?"
+    },
+    {
+      "id": "B1-sen-0093",
+      "tipo": "senal",
+      "codigo": "P-29",
+      "descripcion": "Señal P-29 'Viento lateral' (triángulo con orla roja y una manga de viento) junto a una manga de viento real en el margen.",
+      "enunciado": "¿Qué elemento complementa la advertencia de la señal P-29 (viento lateral), informando sobre la existencia, sentido e intensidad del viento?"
+    },
+    {
+      "id": "B1-sen-0094",
+      "tipo": "senal",
+      "codigo": "P-30",
+      "descripcion": "Señal P-30 «Escalón lateral» recortada del catálogo oficial del RGC, pág. 96",
+      "enunciado": "¿De qué advierte esta señal?"
+    },
+    {
+      "id": "B1-sen-0095",
+      "tipo": "senal",
+      "codigo": "P-31",
+      "descripcion": "Señal P-31 «Congestión» recortada del catálogo oficial del RGC, pág. 96",
+      "enunciado": "¿De qué advierte esta señal?"
+    },
+    {
+      "id": "B1-sen-0096",
+      "tipo": "senal",
+      "codigo": "P-32",
+      "descripcion": "Señal P-32 «Obstrucción en la calzada» recortada del catálogo oficial del RGC, pág. 97",
+      "enunciado": "¿De qué advierte esta señal?"
+    },
+    {
+      "id": "B1-sen-0097",
+      "tipo": "senal",
+      "codigo": "P-33",
+      "descripcion": "Señal P-33 «Visibilidad reducida» recortada del catálogo oficial del RGC, pág. 97",
+      "enunciado": "¿De qué advierte esta señal?"
+    },
+    {
+      "id": "B1-sen-0098",
+      "tipo": "senal",
+      "codigo": "P-34",
+      "descripcion": "Señal P-34 «Presencia de hielo o nieve» recortada del catálogo oficial del RGC, pág. 97",
+      "enunciado": "¿De qué advierte esta señal con un copo de nieve?"
+    },
+    {
+      "id": "B1-sen-0099",
+      "tipo": "senal",
+      "codigo": "P-50",
+      "descripcion": "Señal P-50 «Otros peligros» recortada del catálogo oficial del RGC, pág. 97",
+      "enunciado": "¿Qué significa esta señal con un signo de admiración?"
+    },
+    {
+      "id": "B1-sen-0100",
+      "tipo": "senal",
+      "codigo": "R-4",
+      "descripcion": "Señal R-4 «Fin de prioridad» recortada del catálogo oficial del RGC, pág. 99",
+      "enunciado": "¿Qué indica esta señal (rombo blanco con el centro amarillo cruzado por una franja negra)?"
+    },
+    {
+      "id": "B1-sen-0101",
+      "tipo": "senal",
+      "codigo": "R-5",
+      "descripcion": "Señal R-5 «Prioridad del sentido contrario» recortada del catálogo oficial del RGC, pág. 99",
+      "enunciado": "Ante un paso estrecho encuentra esta señal (flecha roja y flecha negra). ¿Qué indica?"
+    },
+    {
+      "id": "B1-sen-0102",
+      "tipo": "senal",
+      "codigo": "R-6",
+      "descripcion": "Señal R-6 «Prioridad respecto al sentido contrario» recortada del catálogo oficial del RGC, pág. 100",
+      "enunciado": "Ante un paso estrecho encuentra esta señal cuadrada azul. ¿Qué indica?"
+    },
+    {
+      "id": "B1-sen-0103",
+      "tipo": "senal",
+      "codigo": "R-100",
+      "descripcion": "Señal R-100 «Circulación prohibida» recortada del catálogo oficial del RGC, pág. 102",
+      "enunciado": "¿Qué indica esta señal (círculo blanco con orla roja, sin símbolo)?"
+    },
+    {
+      "id": "B1-sen-0104",
+      "tipo": "senal",
+      "codigo": "R-101",
+      "descripcion": "Señal R-101 «Entrada prohibida» recortada del catálogo oficial del RGC, pág. 102",
+      "enunciado": "¿Qué indica esta señal (círculo rojo con una franja horizontal blanca)?"
+    },
+    {
+      "id": "B1-sen-0105",
+      "tipo": "senal",
+      "codigo": "R-102",
+      "descripcion": "Señal R-102 «Entrada prohibida a vehículos de motor» recortada del catálogo oficial del RGC, pág. 102",
+      "enunciado": "¿A quién prohíbe el acceso esta señal?"
+    },
+    {
+      "id": "B1-sen-0106",
+      "tipo": "senal",
+      "codigo": "R-103",
+      "descripcion": "Señal R-103 «Entrada prohibida a vehículos de motor, excepto motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 102",
+      "enunciado": "¿Puede entrar con una motocicleta de dos ruedas ante esta señal?"
+    },
+    {
+      "id": "B1-sen-0107",
+      "tipo": "senal",
+      "codigo": "R-105",
+      "descripcion": "Señal R-105 «Entrada prohibida a ciclomotores» recortada del catálogo oficial del RGC, pág. 102",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?"
+    },
+    {
+      "id": "B1-sen-0108",
+      "tipo": "senal",
+      "codigo": "R-106",
+      "descripcion": "Señal R-106 «Entrada prohibida a vehículos destinados al transporte de mercancías» recortada del catálogo oficial del RGC, pág. 103",
+      "enunciado": "¿A quién prohíbe la entrada esta señal con la silueta de un camión, sin ninguna cifra?"
+    },
+    {
+      "id": "B1-sen-0109",
+      "tipo": "senal",
+      "codigo": "R-107",
+      "descripcion": "Señal R-107 «Entrada prohibida a vehículos destinados al transporte de mercancías con mayor masa autorizada que la indicada» recortada del catálogo oficial del RGC, pág. 103",
+      "enunciado": "Conduce un camión cuya masa máxima autorizada es 7,5 t; va vacío y pesa 4,5 t. Encuentra esta señal (camión con la cifra 5,5 t). ¿Puede entrar?"
+    },
+    {
+      "id": "B1-sen-0110",
+      "tipo": "senal",
+      "codigo": "R-109",
+      "descripcion": "Señal R-109 «Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables» recortada del catálogo oficial del RGC, pág. 103",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?"
+    },
+    {
+      "id": "B1-sen-0111",
+      "tipo": "senal",
+      "codigo": "R-110",
+      "descripcion": "Señal R-110 «Entrada prohibida a vehículos que transporten productos contaminantes del agua» recortada del catálogo oficial del RGC, pág. 104",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?"
+    },
+    {
+      "id": "B1-sen-0112",
+      "tipo": "senal",
+      "codigo": "R-111",
+      "descripcion": "Señal R-111 «Entrada prohibida a vehículos agrícolas de motor» recortada del catálogo oficial del RGC, pág. 104",
+      "enunciado": "¿A quién prohíbe la entrada esta señal con la silueta de un tractor?"
+    },
+    {
+      "id": "B1-sen-0113",
+      "tipo": "senal",
+      "codigo": "R-112",
+      "descripcion": "Señal R-112 «Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje» recortada del catálogo oficial del RGC, pág. 104",
+      "enunciado": "Conduce un turismo que arrastra un remolque de un solo eje y encuentra esta señal. ¿Puede entrar?"
+    },
+    {
+      "id": "B1-sen-0114",
+      "tipo": "senal",
+      "codigo": "R-115",
+      "descripcion": "Señal R-115 «Entrada prohibida a carros de mano» recortada del catálogo oficial del RGC, pág. 104",
+      "enunciado": "¿A quién prohíbe la entrada esta señal?"
+    },
+    {
+      "id": "B1-sen-0115",
+      "tipo": "senal",
+      "codigo": "R-117",
+      "descripcion": "Señal R-117 «Entrada prohibida a animales de montura» recortada del catálogo oficial del RGC, pág. 105",
+      "enunciado": "¿A quién prohíbe la entrada esta señal con un jinete?"
+    },
+    {
+      "id": "B1-sen-0116",
+      "tipo": "senal",
+      "codigo": "R-202",
+      "descripcion": "Señal R-202 «Limitación de masa por eje» recortada del catálogo oficial del RGC, pág. 107",
+      "enunciado": "¿Qué prohíbe esta señal con la cifra 2,4 t sobre un eje?"
+    },
+    {
+      "id": "B1-sen-0117",
+      "tipo": "senal",
+      "codigo": "R-203",
+      "descripcion": "Señal R-203 «Limitación de longitud» recortada del catálogo oficial del RGC, pág. 107",
+      "enunciado": "Conduce un turismo con remolque y el conjunto mide 11 metros de largo. Encuentra esta señal con la cifra 10 m. ¿Puede pasar?"
+    },
+    {
+      "id": "B1-sen-0118",
+      "tipo": "senal",
+      "codigo": "R-205",
+      "descripcion": "Señal R-205 «Limitación de altura» recortada del catálogo oficial del RGC, pág. 107",
+      "enunciado": "¿Qué prohíbe esta señal con la cifra 4,5 m entre dos puntas de flecha verticales?"
+    },
+    {
+      "id": "B1-sen-0119",
+      "tipo": "senal",
+      "codigo": "R-300",
+      "descripcion": "Señal R-300 «Separación mínima» recortada del catálogo oficial del RGC, pág. 109",
+      "enunciado": "¿Qué indica esta señal con dos vehículos y la cifra 70 m?"
+    },
+    {
+      "id": "B1-sen-0120",
+      "tipo": "senal",
+      "codigo": "R-301",
+      "descripcion": "Señal R-301 «Velocidad máxima» recortada del catálogo oficial del RGC, pág. 109",
+      "enunciado": "Circula por una vía con prioridad y encuentra esta señal, sola en su poste (sin ninguna señal de peligro). ¿Hasta dónde obliga?"
+    },
+    {
+      "id": "B1-sen-0121",
+      "tipo": "senal",
+      "codigo": "R-303",
+      "descripcion": "Señal R-303 «Giro a la izquierda prohibido» recortada del catálogo oficial del RGC, pág. 109",
+      "enunciado": "Esta señal prohíbe girar a la izquierda. ¿Puede cambiar de sentido de la marcha?"
+    },
+    {
+      "id": "B1-sen-0122",
+      "tipo": "senal",
+      "codigo": "R-304",
+      "descripcion": "Señal R-304 «Cambio de sentido prohibido» recortada del catálogo oficial del RGC, pág. 109",
+      "enunciado": "¿Qué prohíbe esta señal (flecha en U tachada)?"
+    },
+    {
+      "id": "B1-sen-0123",
+      "tipo": "senal",
+      "codigo": "R-305",
+      "descripcion": "Señal R-305 «Adelantamiento prohibido» recortada del catálogo oficial del RGC, pág. 110",
+      "enunciado": "¿Qué prohíbe esta señal?"
+    },
+    {
+      "id": "B1-sen-0124",
+      "tipo": "senal",
+      "codigo": "R-306",
+      "descripcion": "Señal R-306 «Adelantamiento prohibido para camiones» recortada del catálogo oficial del RGC, pág. 110",
+      "enunciado": "Conduce un autobús y encuentra esta señal (camión rojo y turismo negro). ¿Le afecta la prohibición de esta señal?"
+    },
+    {
+      "id": "B1-sen-0125",
+      "tipo": "senal",
+      "codigo": "R-400c",
+      "descripcion": "Señal R-400c «Sentido obligatorio» recortada del catálogo oficial del RGC, pág. 115",
+      "enunciado": "Encuentra esta señal (círculo azul con flecha blanca hacia delante) a la entrada de una intersección. ¿Puede girar a la derecha en ella?"
+    },
+    {
+      "id": "B1-sen-0126",
+      "tipo": "senal",
+      "codigo": "R-403a",
+      "descripcion": "Señal R-403a «Únicas direcciones y sentidos permitidos» recortada del catálogo oficial del RGC, pág. 116",
+      "enunciado": "¿Qué indica esta señal (círculo azul con flechas blancas hacia delante y hacia la derecha)?"
+    },
+    {
+      "id": "B1-sen-0127",
+      "tipo": "senal",
+      "codigo": "R-404",
+      "descripcion": "Señal R-404 «Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 116",
+      "enunciado": "Esta señal azul con la silueta de un turismo indica una calzada obligatoria para automóviles. ¿Están obligadas a circular por ella las motocicletas de dos ruedas?"
+    },
+    {
+      "id": "B1-sen-0128",
+      "tipo": "senal",
+      "codigo": "R-405",
+      "descripcion": "Señal R-405 «Calzada obligatoria para motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 117",
+      "enunciado": "Circula en una motocicleta de dos ruedas y encuentra esta señal azul con una motocicleta. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B1-sen-0129",
+      "tipo": "senal",
+      "codigo": "R-407a",
+      "descripcion": "Señal R-407a «Vía reservada y obligatoria para ciclos» recortada del catálogo oficial del RGC, pág. 117",
+      "enunciado": "¿Puede circular un turismo por una vía señalizada con esta señal azul con una bicicleta?"
+    },
+    {
+      "id": "B1-sen-0130",
+      "tipo": "senal",
+      "codigo": "R-407b",
+      "descripcion": "Señal R-407b «Vía reservada y obligatoria para ciclomotores» recortada del catálogo oficial del RGC, pág. 117",
+      "enunciado": "¿Qué indica esta señal azul con un ciclomotor?"
+    },
+    {
+      "id": "B1-sen-0131",
+      "tipo": "senal",
+      "codigo": "R-408",
+      "descripcion": "Señal R-408 «Camino obligatorio para vehículos de tracción animal» recortada del catálogo oficial del RGC, pág. 117",
+      "enunciado": "¿Qué indica esta señal azul con un carro tirado por un caballo?"
+    },
+    {
+      "id": "B1-sen-0132",
+      "tipo": "senal",
+      "codigo": "R-409",
+      "descripcion": "Señal R-409 «Camino reservado y obligatorio para animales de montura» recortada del catálogo oficial del RGC, pág. 118",
+      "enunciado": "¿Qué indica esta señal azul con una persona a caballo?"
+    },
+    {
+      "id": "B1-sen-0133",
+      "tipo": "senal",
+      "codigo": "R-410",
+      "descripcion": "Señal R-410 «Camino reservado y obligatorio para peatones» recortada del catálogo oficial del RGC, pág. 118",
+      "enunciado": "¿Qué indica esta señal azul con un peatón?"
+    },
+    {
+      "id": "B1-sen-0134",
+      "tipo": "senal",
+      "codigo": "R-411",
+      "descripcion": "Señal R-411 «Velocidad mínima» recortada del catálogo oficial del RGC, pág. 118",
+      "enunciado": "¿Qué indica esta señal azul con la cifra 40?"
+    },
+    {
+      "id": "B1-sen-0135",
+      "tipo": "senal",
+      "codigo": "R-413",
+      "descripcion": "Señal R-413 «Alumbrado de corto alcance» recortada del catálogo oficial del RGC, pág. 119",
+      "enunciado": "¿Qué indica esta señal azul con un faro?"
+    },
+    {
+      "id": "B1-sen-0136",
+      "tipo": "senal",
+      "codigo": "R-412",
+      "descripcion": "Señal R-412 «Cadenas para nieve» recortada del catálogo oficial del RGC, pág. 118",
+      "enunciado": "¿Qué indica esta señal azul con un neumático con cadenas?"
+    },
+    {
+      "id": "B1-sen-0137",
+      "tipo": "senal",
+      "codigo": "R-415",
+      "descripcion": "Señal R-415 «Calzada obligatoria para vehículos que transporten productos contaminantes del agua» recortada del catálogo oficial del RGC, pág. 119",
+      "enunciado": "Transporta 5.000 litros de un producto capaz de contaminar el agua y encuentra esta señal azul. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B1-sen-0138",
+      "tipo": "senal",
+      "codigo": "R-418",
+      "descripcion": "Señal R-418 «Vía exclusiva para vehículos dotados de equipo de telepeaje operativo. Telepeaje obligatorio.» recortada del catálogo oficial del RGC, pág. 120",
+      "enunciado": "¿Qué indica esta señal sobre uno de los carriles de un peaje?"
+    },
+    {
+      "id": "B2-sen-0001",
+      "tipo": "senal",
+      "codigo": "S-3",
+      "descripcion": "Señal cuadrada azul de indicación general 'Vía para automóviles': silueta blanca de un turismo visto de frente sobre fondo azul.",
+      "enunciado": "Esta señal indica el comienzo de una vía para automóviles. ¿Qué vehículos pueden circular por ella?"
+    },
+    {
+      "id": "B2-luz-0002",
+      "tipo": "senal",
+      "codigo": "S-5",
+      "descripcion": "Señal cuadrada azul 'Túnel': silueta blanca de la boca de un túnel con la calzada entrando en él.",
+      "enunciado": "De día, entra en un tramo afectado por esta señal (Túnel) que está suficientemente iluminado. ¿Qué alumbrado debe llevar encendido su turismo?"
+    },
+    {
+      "id": "B2-sen-0007",
+      "tipo": "senal",
+      "codigo": "S-991a",
+      "descripcion": "Señal S-991a «Control de velocidad en carretera convencional o carretera multicarril» recortada del catálogo oficial del RGC, pág. 200",
+      "enunciado": "¿Qué indica esta señal?"
+    },
+    {
+      "id": "B2-cic-0010",
+      "tipo": "senal",
+      "codigo": "R-407a",
+      "descripcion": "Señal redonda azul de obligación con una bicicleta blanca (vía reservada para ciclos, de uso obligatorio).",
+      "enunciado": "Al comienzo de un carril bici está colocada esta señal. ¿Qué supone para el ciclista?"
+    },
+    {
+      "id": "B2-mv-0017",
+      "tipo": "marca_vial",
+      "codigo": "M-1.1",
+      "descripcion": "Calzada con dos carriles del mismo sentido separados por una línea longitudinal blanca discontinua (M-1.1 a M-1.3).",
+      "enunciado": "¿Qué significa esta marca longitudinal discontinua que separa dos carriles?"
+    },
+    {
+      "id": "B2-mv-0018",
+      "tipo": "marca_vial",
+      "codigo": null,
+      "descripcion": "Eje de calzada de doble sentido marcado con dos líneas longitudinales blancas continuas y paralelas (marcas continuas M-2.1 a M-2.3).",
+      "enunciado": "Una marca longitudinal formada por dos líneas continuas y paralelas, ¿qué significa?"
+    },
+    {
+      "id": "B2-mv-0019",
+      "tipo": "marca_vial",
+      "codigo": null,
+      "descripcion": "Eje de calzada de doble sentido con una línea continua adosada a una discontinua (M-3.1 a M-3.3); el turismo del usuario circula por el carril contiguo a la línea discontinua.",
+      "enunciado": "Circula junto a una marca formada por una línea continua adosada a otra discontinua. ¿Qué línea debe tener en cuenta?"
+    },
+    {
+      "id": "B2-mv-0021",
+      "tipo": "marca_vial",
+      "codigo": "M-1.4",
+      "descripcion": "Calzada con un carril central delimitado a ambos lados por dobles líneas blancas discontinuas (M-1.4/M-1.5) y semáforos de carril encima.",
+      "enunciado": "Un carril está delimitado a ambos lados por marcas longitudinales discontinuas dobles. ¿Qué tipo de carril es?"
+    },
+    {
+      "id": "B2-mv-0022",
+      "tipo": "marca_vial",
+      "codigo": "M-1.9",
+      "descripcion": "Eje de calzada con línea discontinua de preaviso (M-1.9: huecos entre trazos más cortos que en la línea normal) que termina en una línea continua.",
+      "enunciado": "Una línea longitudinal discontinua de preaviso, con separaciones entre trazos más cortas que las de una línea discontinua normal, ¿qué anuncia?"
+    },
+    {
+      "id": "B2-mv-0025",
+      "tipo": "marca_vial",
+      "codigo": "M-4.2",
+      "descripcion": "Acceso a una intersección con el triángulo invertido de ceda el paso pintado (M-6.5) y una línea blanca discontinua transversal (M-4.2).",
+      "enunciado": "Una línea discontinua transversal acompañada de un triángulo invertido pintado en el carril, ¿qué indica?"
+    },
+    {
+      "id": "B2-mv-0028",
+      "tipo": "marca_vial",
+      "codigo": "M-4.3b",
+      "descripcion": "Paso para peatones de franjas blancas en el que cada franja termina en un triángulo blanco en el lado de aproximación de los vehículos.",
+      "enunciado": "Un paso para peatones cuyas franjas se prolongan cada una con un triángulo indica que el paso..."
+    },
+    {
+      "id": "B2-mv-0030",
+      "tipo": "marca_vial",
+      "codigo": "M-6.6",
+      "descripcion": "Calzada de dos carriles del mismo sentido separados por línea discontinua; en el carril derecho está pintada la cifra 80 (limitación de velocidad).",
+      "enunciado": "Una limitación de velocidad pintada en un carril delimitado por marcas longitudinales, ¿a quién afecta?"
+    },
+    {
+      "id": "B2-mv-0031",
+      "tipo": "marca_vial",
+      "codigo": "M-6.3",
+      "descripcion": "Inscripción STOP pintada en blanco sobre el carril, delante de una línea continua transversal.",
+      "enunciado": "La marca STOP pintada en la calzada, ¿qué obligación impone?"
+    },
+    {
+      "id": "B2-mv-0032",
+      "tipo": "marca_vial",
+      "codigo": "M-6.5",
+      "descripcion": "Triángulo blanco alargado con el vértice hacia el conductor (punta hacia abajo en la imagen) pintado en el carril, antes de una línea transversal discontinua.",
+      "enunciado": "¿Qué significa este triángulo pintado en la calzada?"
+    },
+    {
+      "id": "B2-mv-0034",
+      "tipo": "marca_vial",
+      "codigo": "M-5.4",
+      "descripcion": "Flecha de fin de carril pintada en el carril derecho: flecha curvada que se desvía hacia el carril de la izquierda.",
+      "enunciado": "¿Qué indica esta flecha pintada en su carril?"
+    },
+    {
+      "id": "B2-mv-0035",
+      "tipo": "marca_vial",
+      "codigo": "M-5.5",
+      "descripcion": "Flecha de retorno pintada junto al eje de una calzada de doble sentido, curvada hacia el carril derecho, antes de que la línea discontinua pase a continua.",
+      "enunciado": "Ve esta flecha en el eje de una calzada de doble sentido mientras está adelantando. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B2-mv-0036",
+      "tipo": "marca_vial",
+      "codigo": "M-7.5",
+      "descripcion": "Aspa (cruz de San Andrés) blanca pintada en el carril con las letras P y N a los lados.",
+      "enunciado": "¿Qué indica esta marca pintada en la calzada (aspa con las letras PN)?"
+    },
+    {
+      "id": "B2-mv-0037",
+      "tipo": "marca_vial",
+      "codigo": "M-7.6",
+      "descripcion": "Marca de comienzo de carril reservado en el carril derecho, con la inscripción BUS.",
+      "enunciado": "¿Qué indica esta marca?"
+    },
+    {
+      "id": "B2-mv-0038",
+      "tipo": "marca_vial",
+      "codigo": "M-7.1",
+      "descripcion": "Zona de cebreado: franjas blancas oblicuas y paralelas enmarcadas por una línea continua, en la divergencia de una salida.",
+      "enunciado": "¿Puede entrar con su vehículo en una zona marcada con franjas oblicuas paralelas enmarcadas por una línea continua (cebreado)?"
+    },
+    {
+      "id": "B2-mv-0039",
+      "tipo": "marca_vial",
+      "codigo": "M-7.8",
+      "descripcion": "Línea amarilla continua pintada en el bordillo o en la calzada junto a él.",
+      "enunciado": "¿Qué indica una línea amarilla continua pintada junto al bordillo?"
+    },
+    {
+      "id": "B2-mv-0041",
+      "tipo": "marca_vial",
+      "codigo": "M-7.9",
+      "descripcion": "Línea amarilla en zigzag pintada en la calzada junto al bordillo, en una parada de autobús.",
+      "enunciado": "¿Qué indica una marca amarilla en zigzag junto al bordillo?"
+    },
+    {
+      "id": "B2-mv-0042",
+      "tipo": "marca_vial",
+      "codigo": "M-7.10",
+      "descripcion": "Intersección con una cuadrícula de líneas amarillas pintada sobre su superficie y un semáforo en verde.",
+      "enunciado": "Una intersección tiene pintada una cuadrícula amarilla. El semáforo está en verde, pero hay retención a la salida. ¿Qué debe hacer?"
+    },
+    {
+      "id": "B2-mv-0043",
+      "tipo": "marca_vial",
+      "codigo": "M-7.11",
+      "descripcion": "Damero de cuadrados blancos y rojos pintado a la entrada de un lecho de frenado (zona de grava) junto a una bajada.",
+      "enunciado": "¿Qué indica un damero de cuadrados blancos y rojos pintado en la calzada?"
+    },
+    {
+      "id": "B2-mv-0044",
+      "tipo": "marca_vial",
+      "codigo": "M-7.12",
+      "descripcion": "Serie de galones blancos (forma de punta de flecha) pintados a lo largo del carril, a intervalos regulares.",
+      "enunciado": "¿Para qué sirven estas marcas en forma de galón (punta de flecha) pintadas en el carril?"
+    },
+    {
+      "id": "B2-mv-0045",
+      "tipo": "marca_vial",
+      "codigo": null,
+      "descripcion": "Avanza-motos: espacio delimitado por dos líneas transversales continuas separadas 4 m antes de un paso de peatones con semáforo, con pictogramas de moto y bici en su interior.",
+      "enunciado": "En un espacio avanza-motos o avanza-bici delante de un semáforo, cuando el semáforo está en rojo, ¿quién puede ocupar ese espacio?"
+    },
+    {
+      "id": "B2-mv-0046",
+      "tipo": "marca_vial",
+      "codigo": "M-8.1",
+      "descripcion": "Serie de triángulos blancos ('dientes de dragón') pintados a ambos bordes del carril a la entrada de un poblado.",
+      "enunciado": "¿Qué advierten las marcas llamadas 'dientes de dragón'?"
+    },
+    {
+      "id": "B2-mv-0047",
+      "tipo": "marca_vial",
+      "codigo": "M-8.2",
+      "descripcion": "Carril con líneas de borde blancas en zigzag (quebradas) a ambos lados, antes de un paso para peatones.",
+      "enunciado": "Las líneas de borde quebradas (en zigzag blanco a los lados del carril), ¿de qué advierten?"
+    },
+    {
+      "id": "C-car-0017",
+      "tipo": "senal",
+      "codigo": null,
+      "descripcion": "Señal V-20 del anexo XI del Reglamento General de Vehículos: panel cuadrado con franjas diagonales alternas rojas y blancas reflectantes, colocado en el extremo posterior de una carga (por ejemplo, unas tablas) que sobresale por detrás de un turismo.",
+      "enunciado": "¿Qué indica esta señal colocada en la parte trasera de un vehículo?"
+    },
+    {
+      "id": "C-sev-0001",
+      "tipo": "senal",
+      "codigo": null,
+      "descripcion": "Señal V-5 (vehículo lento) del anexo XI del Reglamento General de Vehículos: triángulo equilátero con el vértice hacia arriba, con centro fluorescente rojo y borde reflectante rojo, en la parte trasera de un vehículo agrícola o una barredora.",
+      "enunciado": "¿Qué indica esta señal colocada en la parte posterior de un vehículo?"
+    },
+    {
+      "id": "E-amb-0009",
+      "tipo": "senal",
+      "codigo": null,
+      "descripcion": "Distintivo de uso compartido V-26 del Anexo XI del Reglamento General de Vehículos: adhesivo circular de fondo azul (modelo oficial de la DGT).",
+      "enunciado": "¿Qué identifica este distintivo colocado en el parabrisas de un vehículo?"
+    }
+  ]
+}

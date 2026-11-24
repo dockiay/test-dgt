@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "revision": [
+    {
+      "id": "rev-0001",
+      "tema": "definiciones",
+      "afirmacion_del_video": "La tara es lo que pesa el coche sin conductor y sin combustible.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "CONTRADICHO por la Ley de Tráfico (Anexo I.35): la tara incluye la dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios.",
+      "sugerencia": "Usar la definición legal (pregunta def-0009)."
+    },
+    {
+      "id": "rev-0002",
+      "tema": "definiciones",
+      "afirmacion_del_video": "La masa en orden de marcha es lo mínimo que necesita pesar para circular (algo de carburante y el conductor).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No aparece en el Anexo I de la Ley de Tráfico. Está definida en el Reglamento General de Vehículos, que no se ha consultado en este piloto.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0003",
+      "tema": "definiciones",
+      "afirmacion_del_video": "Furgoneta y derivado de turismo: definiciones y diferencias.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No están definidos en el Anexo I de la Ley de Tráfico; hay que comprobarlos en el Reglamento General de Vehículos (Anexo II).",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0004",
+      "tema": "definiciones",
+      "afirmacion_del_video": "Los vehículos de movilidad personal son «vehículos de no motor».",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "La Ley de Tráfico excluye de «vehículo de motor» a ciclomotores, tranvías y vehículos para personas de movilidad reducida, pero no menciona los VMP en esa exclusión. No confirmado.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0005",
+      "tema": "definiciones",
+      "afirmacion_del_video": "La matrícula amarilla identifica a un ciclomotor.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "No se ha comprobado en la normativa consultada (está en el Reglamento General de Vehículos).",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0006",
+      "tema": "vias",
+      "afirmacion_del_video": "Autopistas y autovías tienen al menos dos carriles por sentido.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "La definición legal (Anexo I.66 y 67) exige calzadas distintas para cada sentido, pero no fija un número mínimo de carriles.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0007",
+      "tema": "vias",
+      "afirmacion_del_video": "Peatones y animales de montura no pueden circular por autopistas ni autovías.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El art. 38.1 del RGC no menciona a peatones ni animales; la prohibición debe de estar en la Ley de Tráfico (art. 18) o en el art. 121 y siguientes del RGC. Pendiente de localizar la cita.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0008",
+      "tema": "por_donde_circular",
+      "afirmacion_del_video": "Una persona en silla de ruedas que va sola debe ir por el arcén derecho.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El art. 122.2 del RGC obliga a ir por la derecha a quien arrastra un ciclo, ciclomotor o VMP y a los grupos dirigidos, pero no menciona las sillas de ruedas. El propio profesor lo presenta como un truco. No confirmado.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0009",
+      "tema": "por_donde_circular",
+      "afirmacion_del_video": "El peatón debe llevar chaleco reflectante de noche.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matiz: el art. 123.1 exige «al menos, un elemento luminoso o reflectante» visible a 150 m, no específicamente un chaleco. Se usa la redacción legal en arc-0004.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0010",
+      "tema": "por_donde_circular",
+      "afirmacion_del_video": "Con nieve y tres o más carriles se pueden usar los dos de la derecha.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "CONFIRMADO por el art. 32.2 («pudiendo utilizar su contiguo en tramos con tres o más carriles por sentido»), pero solo para autopistas y autovías. Se puede convertir en pregunta si se quiere.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0011",
+      "tema": "carriles_especiales",
+      "afirmacion_del_video": "Las motocicletas pueden ir por el carril VAO aunque solo vaya el conductor.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El art. 35.2.a permite motocicletas en el VAO, pero solo exime del número mínimo de ocupantes a vehículos con V-15 y a autobuses de más de 3.500 kg. No se ha encontrado la exención para motos en el texto consultado.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0012",
+      "tema": "carriles_especiales",
+      "afirmacion_del_video": "Por un carril adicional circunstancial pueden ir todos (también turismos con remolque).",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El art. 42 no restringe tipos de vehículos, pero remite a las normas del art. 41 «en cuanto sean aplicables». No es concluyente.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0013",
+      "tema": "carriles_especiales",
+      "afirmacion_del_video": "Los vehículos del carril contiguo a uno habilitado en sentido contrario también deben ir entre 60 y 80 km/h.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matiz: según el art. 41.1, solo si disponen de un solo carril en su sentido; si tienen más de uno, se aplican los límites normales. Siempre con luz de cruce.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0014",
+      "tema": "distancias",
+      "afirmacion_del_video": "Dejar 2 o 3 segundos de distancia frontal.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El art. 54.1 no fija segundos: exige un espacio que permita detenerse sin colisionar. Es una recomendación práctica, no una norma.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0015",
+      "tema": "adelantamiento",
+      "afirmacion_del_video": "Al rebasar un vehículo detenido en el arcén hay que reducir 20 km/h.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "El art. 88.1 se refiere a un vehículo inmovilizado que «ocupe la calzada en el carril del sentido de la marcha», no al que está en el arcén. Se usa la redacción legal en adel-0005.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0016",
+      "tema": "velocidad",
+      "afirmacion_del_video": "Mercancías peligrosas: restar 10 km/h tanto dentro como fuera de poblado.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matiz: la reducción de 10 km/h (art. 48.1.b) es para vías fuera de poblado. Dentro de poblado, el art. 50.4 fija un máximo de 40 km/h en vías de dos o más carriles por sentido y travesías. Ver vel-0006 y vel-0018.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0017",
+      "tema": "velocidad",
+      "afirmacion_del_video": "Vehículos especiales que superan 60 km/h: límite 70; si no, 40.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "CONFIRMADO por el art. 48.1.c.2º, con la condición de que cumplan las normas reguladoras de los vehículos. Se puede convertir en pregunta.",
+      "sugerencia": ""
+    },
+    {
+      "id": "rev-0018",
+      "tema": "velocidad",
+      "afirmacion_del_video": "Ciclomotor, triciclo ligero: 45 km/h donde sea.",
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "capitulos": "1-8"
+      },
+      "estado": "pendiente_revision",
+      "motivo": "Matiz: el art. 48.1.e incluye a los ciclos, pero permite a las bicicletas superar los 45 km/h donde la vía lo permita.",
+      "sugerencia": ""
+    }
+  ]
+}

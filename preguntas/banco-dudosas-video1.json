@@ -1,0 +1,1567 @@
+{
+  "version": 1,
+  "descripcion": "Preguntas nuevas que salen de resolver las afirmaciones dudosas del vídeo YyTF43W4wOo. Cada pregunta indica en origen.resuelve qué afirmación de revisión resuelve.",
+  "normativa_consultada": {
+    "RGC": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      "nombre": "Reglamento General de Circulación (RD 1428/2003)",
+      "ultima_actualizacion": "2026-06-26"
+    },
+    "LSV": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+      "nombre": "Ley de Tráfico y Seguridad Vial (RDL 6/2015)",
+      "ultima_actualizacion": "2026-06-26"
+    },
+    "RGV": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+      "nombre": "Reglamento General de Vehículos (RD 2822/1998)",
+      "ultima_actualizacion": "2026-06-26"
+    },
+    "RGCOND": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+      "nombre": "Reglamento General de Conductores (RD 818/2009)",
+      "ultima_actualizacion": "consolidado descargado 2026-11-24"
+    },
+    "MANUAL_DGT": {
+      "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+      "nombre": "Manual DGT permiso B, lectura fácil",
+      "ultima_actualizacion": "2024"
+    },
+    "CP": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "nombre": "Código Penal (LO 10/1995)",
+      "ultima_actualizacion": "2026-04-09"
+    },
+    "ITV": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+      "nombre": "RD 920/2017, inspección técnica de vehículos",
+      "ultima_actualizacion": "2024-09-18"
+    },
+    "LRCSCVM": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911",
+      "nombre": "Ley de responsabilidad civil y seguro en la circulación (RDL 8/2004)",
+      "ultima_actualizacion": "2026-02-18"
+    },
+    "OCURSOS": {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-13723",
+      "nombre": "Orden INT/2596/2005, cursos de sensibilización y reeducación vial",
+      "ultima_actualizacion": "2024-09-04"
+    }
+  },
+  "preguntas": [
+    {
+      "id": "res-def-0001",
+      "tema": "definiciones",
+      "subtema": "masa_orden_marcha",
+      "enunciado": "¿Qué es la masa en orden de marcha de un turismo?",
+      "opciones": {
+        "a": "La tara más la masa estándar del conductor, de 75 kg.",
+        "b": "La masa mínima para poder circular: el vehículo con un poco de combustible y el conductor.",
+        "c": "La masa máxima con la que puede circular cargado."
+      },
+      "correcta": "a",
+      "explicacion": "La masa en orden de marcha es la tara (que ya incluye el depósito de combustible lleno, agua, lubricante, repuestos y herramientas) más 75 kg del conductor.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo IX.1.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "se considera como masa en orden de marcha el resultado de sumar a la tara la masa estándar del conductor de 75 kg",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "8:10",
+        "resuelve": "rev-0002"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Ojo: el anexo de VMP del mismo RGV usa otra definición de masa en orden de marcha (sin conductor) solo para esos vehículos. Para turismos vale la del anexo IX.",
+      "materia": 1
+    },
+    {
+      "id": "res-def-0002",
+      "tema": "definiciones",
+      "subtema": "furgoneta",
+      "enunciado": "¿Qué diferencia a una furgoneta de un camión?",
+      "opciones": {
+        "a": "Que la furgoneta no puede transportar mercancías.",
+        "b": "Que la furgoneta tiene la cabina integrada en el resto de la carrocería.",
+        "c": "Que la furgoneta puede llevar más de 9 plazas."
+      },
+      "correcta": "b",
+      "explicacion": "Los dos transportan mercancías y tienen como máximo 9 plazas incluido el conductor. En la furgoneta la cabina está integrada en la carrocería; en el camión, no.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.A",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "cuya cabina está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluido el conductor",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "3:00",
+        "resuelve": "rev-0003"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "res-def-0003",
+      "tema": "definiciones",
+      "subtema": "derivado_turismo",
+      "enunciado": "¿Qué es un vehículo derivado de turismo?",
+      "opciones": {
+        "a": "Un turismo con más de nueve plazas.",
+        "b": "Una furgoneta con dos filas de asientos.",
+        "c": "Un automóvil para servicios o transporte exclusivo de mercancías que conserva la carrocería del turismo del que deriva y tiene una sola fila de asientos."
+      },
+      "correcta": "c",
+      "explicacion": "El derivado de turismo sale de un turismo, conserva su carrocería y solo tiene una fila de asientos; se destina a servicios o a transporte de mercancías.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.A",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "derivado de un turismo del cual conserva la carrocería y dispone únicamente de una fila de asientos",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "3:00",
+        "resuelve": "rev-0003"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "res-def-0004",
+      "tema": "definiciones",
+      "subtema": "vmp",
+      "enunciado": "Según el Reglamento General de Vehículos, un patinete eléctrico (vehículo de movilidad personal), ¿es un «vehículo a motor»?",
+      "opciones": {
+        "a": "No: aunque tiene motor, el Reglamento lo excluye expresamente de la definición de vehículo a motor.",
+        "b": "Solo cuando circula por vías interurbanas.",
+        "c": "Sí, porque tiene motor eléctrico."
+      },
+      "correcta": "a",
+      "explicacion": "El Reglamento General de Vehículos excluye de «vehículo a motor» a ciclomotores, tranvías, vehículos para personas de movilidad reducida, bicicletas de pedaleo asistido y vehículos de movilidad personal. El manual de la DGT los incluye entre los «vehículos no considerados a motor».",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo II.A",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "ciclos de pedales con pedaleo asistido y los vehículos de movilidad personal.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "6:40",
+        "resuelve": "rev-0004"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "La cita es el final de la definición de «Vehículo a motor» del anexo II. Comprobado también en el manual DGT (Tema 1, «Vehículos no considerados a motor»).",
+      "materia": 1
+    },
+    {
+      "id": "res-def-0005",
+      "tema": "documentacion",
+      "subtema": "placa_matricula",
+      "enunciado": "¿De qué color es el fondo de la placa de matrícula de un ciclomotor?",
+      "opciones": {
+        "a": "Blanco.",
+        "b": "Amarillo.",
+        "c": "Rojo."
+      },
+      "correcta": "b",
+      "explicacion": "Las placas de ciclomotores y ciclos de motor tienen fondo amarillo retrorreflectante y caracteres negros.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XVIII.A.d",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "d) Ciclomotores y ciclos de motor: El fondo de las placas será retrorreflectante, de color amarillo.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "5:40",
+        "resuelve": "rev-0005"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El vídeo acierta. Matiz: también son amarillas las placas especiales del personal técnico-administrativo de misiones diplomáticas (TA).",
+      "materia": 10
+    },
+    {
+      "id": "res-def-0006",
+      "tema": "documentacion",
+      "subtema": "placa_matricula",
+      "enunciado": "¿De qué color es el fondo de la placa de matrícula de un remolque?",
+      "opciones": {
+        "a": "Blanco.",
+        "b": "Amarillo.",
+        "c": "Rojo."
+      },
+      "correcta": "c",
+      "explicacion": "Las placas de remolques y semirremolques tienen fondo rojo retrorreflectante y caracteres negros.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XVIII.A.c",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "c) Remolques y semirremolques: El fondo de las placas será retrorreflectante, de color rojo.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null,
+        "resuelve": "rev-0005"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-via-0001",
+      "tema": "vias",
+      "subtema": "peatones_autopista",
+      "enunciado": "¿Puede un peatón circular por una autovía?",
+      "opciones": {
+        "a": "No, salvo en los casos y condiciones que fija el reglamento (por ejemplo, al salir del vehículo por una emergencia).",
+        "b": "Sí, por el arcén y de día.",
+        "c": "Sí, si lleva chaleco reflectante."
+      },
+      "correcta": "a",
+      "explicacion": "Los peatones no pueden circular por autopistas ni autovías, salvo en los casos y condiciones del artículo 130 (inmovilización del vehículo por emergencia).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "125.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "15:30",
+        "resuelve": "rev-0007"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7
+    },
+    {
+      "id": "res-via-0002",
+      "tema": "vias",
+      "subtema": "peatones_autopista",
+      "enunciado": "En la explanada de una estación de peaje de una autopista, ¿se puede hacer autostop (pedir que te lleven)?",
+      "opciones": {
+        "a": "Sí, si se hace fuera de los carriles de pago.",
+        "b": "No, está prohibido pedir pasaje en cualquier tramo de la autopista, incluidas las explanadas de peaje.",
+        "c": "Sí, porque la explanada no es calzada."
+      },
+      "correcta": "b",
+      "explicacion": "Los peatones no pueden hacer peticiones de pasaje en ningún tramo de autopistas y autovías, incluidas las explanadas de las estaciones de peaje.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "125.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "no podrán hacer peticiones de pasaje en ningún tramo de ellas, incluidas las explanadas de estaciones de peaje",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "normativa_relacionada",
+        "ref": null,
+        "minuto": null,
+        "resuelve": "rev-0007"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7
+    },
+    {
+      "id": "res-via-0003",
+      "tema": "vias",
+      "subtema": "animales_autopista",
+      "enunciado": "¿Puede circular una persona a caballo por el arcén de una autovía?",
+      "opciones": {
+        "a": "Sí, siempre que vaya por el arcén.",
+        "b": "Solo de día.",
+        "c": "No, está prohibida la circulación de animales por autopistas y autovías."
+      },
+      "correcta": "c",
+      "explicacion": "Se prohíbe la circulación de animales por autopistas y autovías; la prohibición incluye también los vehículos de tracción animal.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "128",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Se prohíbe la circulación de animales por autopistas o autovías",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "15:30",
+        "resuelve": "rev-0007"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 7
+    },
+    {
+      "id": "res-arc-0001",
+      "tema": "por_donde_circular",
+      "subtema": "silla_ruedas",
+      "enunciado": "Una persona en silla de ruedas circula sola por una carretera sin acera ni zona peatonal practicable. Como norma general, ¿por dónde debe ir?",
+      "opciones": {
+        "a": "Por el arcén izquierdo en el sentido de su marcha (o por la calzada si no hay arcén), lo más alejada posible de los vehículos.",
+        "b": "Por el centro de la calzada, para que la vean.",
+        "c": "Por el arcén derecho, como los vehículos."
+      },
+      "correcta": "a",
+      "explicacion": "Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "122.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada",
+        "version_consultada": "2026-06-26",
+        "citas_adicionales": [
+          {
+            "norma": "LSV",
+            "articulo": "Anexo I.4",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+            "cita": "y las personas con discapacidad que circulan al paso en una silla de ruedas, con o sin motor."
+          }
+        ]
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "20:50",
+        "resuelve": "rev-0008"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Pregunta deducida de dos normas: LSV anexo I.4 (silla de ruedas al paso = peatón, ver def-0001) y RGC 122.1. La lista del 122.2 de quién debe ir por la derecha es cerrada y no incluye las sillas de ruedas. Conviene que lo revise una persona.",
+      "materia": 1
+    },
+    {
+      "id": "res-cesp-0001",
+      "tema": "carriles_especiales",
+      "subtema": "vao",
+      "enunciado": "Una motocicleta ocupada solo por su conductor, ¿puede circular por un carril VAO?",
+      "opciones": {
+        "a": "Sí, siempre: las motos no necesitan cumplir el número mínimo de ocupantes.",
+        "b": "Solo si cumple el número mínimo de ocupantes que se haya fijado para ese carril VAO.",
+        "c": "No, las motocicletas nunca pueden usar el carril VAO."
+      },
+      "correcta": "b",
+      "explicacion": "Las motos pueden usar el VAO, pero, como los turismos, deben cumplir los requisitos de alta ocupación del tramo. Solo se libran del número mínimo de ocupantes los vehículos con la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad y los autobuses de más de 3.500 kg.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 9, Carril VAO (p. 233)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Motocicletas, turismos o vehículos mixtos adaptables cuando cumplan los tres requisitos necesarios para automóviles VAO",
+        "version_consultada": "2024"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "46:04",
+        "resuelve": "rev-0011"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "RGC 35.2.a: la exención del número de ocupantes solo es para V-15/tarjeta PMR y autobuses de más de 3.500 kg. El número de ocupantes lo fija la autoridad para cada tramo (35.2.d).",
+      "materia": 1
+    },
+    {
+      "id": "res-cesp-0002",
+      "tema": "carriles_especiales",
+      "subtema": "sentido_contrario",
+      "enunciado": "Circula por el carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido solo queda ese carril. ¿A qué velocidad debe circular, salvo señal de otra inferior?",
+      "opciones": {
+        "a": "Como máximo a 50 km/h.",
+        "b": "A la velocidad genérica de la vía.",
+        "c": "Entre 60 y 80 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "41.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "si disponen de un solo carril en su sentido de circulación, lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "40:13",
+        "resuelve": "rev-0013"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "res-cesp-0003",
+      "tema": "carriles_especiales",
+      "subtema": "sentido_contrario",
+      "enunciado": "Circula por un carril contiguo a uno habilitado en sentido contrario al habitual y en su sentido dispone de dos carriles. ¿A qué velocidad puede circular?",
+      "opciones": {
+        "a": "A las velocidades genéricas de la vía (máximas y mínimas).",
+        "b": "Obligatoriamente entre 60 y 80 km/h.",
+        "c": "Como máximo a 60 km/h."
+      },
+      "correcta": "a",
+      "explicacion": "Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "41.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "si disponen de más de un carril en su sentido de circulación, lo harán a las velocidades que se establecen en los artículos 48.1.a).1.ª y 2.a, 49 y 50",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "40:13",
+        "resuelve": "rev-0013"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "res-cesp-0004",
+      "tema": "carriles_especiales",
+      "subtema": "sentido_contrario",
+      "enunciado": "Los vehículos que circulan por el carril contiguo a uno habilitado en sentido contrario al habitual, ¿qué alumbrado deben llevar?",
+      "opciones": {
+        "a": "La luz de largo alcance.",
+        "b": "Al menos la luz de corto alcance o de cruce, de día y de noche.",
+        "c": "Ninguno especial de día."
+      },
+      "correcta": "b",
+      "explicacion": "Deben llevar encendida al menos la luz de cruce, tanto de día como de noche, y no pueden invadir el carril habilitado en sentido contrario.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "41.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "llevarán encendida la luz de corto alcance o cruce, al menos, tanto de día como de noche",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "40:13",
+        "resuelve": "rev-0013"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "res-dist-0001",
+      "tema": "distancias",
+      "subtema": "distancia_frontal",
+      "enunciado": "Según el manual de la DGT, ¿qué separación es aconsejable dejar con el vehículo de delante en condiciones normales?",
+      "opciones": {
+        "a": "Un segundo.",
+        "b": "Cinco segundos.",
+        "c": "Dos o tres segundos."
+      },
+      "correcta": "c",
+      "explicacion": "El manual aconseja dos o tres segundos de separación, y al menos un segundo más con lluvia, nieve, niebla, de noche o si el de atrás se acerca demasiado. El reglamento no fija segundos: exige un espacio que permita detenerse sin chocar (RGC 54.1).",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Espacio delantero (p. 446)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Es aconsejable que entre tu vehículo y el de delante haya dos o tres segundos de separación.",
+        "version_consultada": "2024"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "51:37",
+        "resuelve": "rev-0014"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Es una recomendación del manual de la DGT, no una norma del reglamento.",
+      "materia": 5
+    },
+    {
+      "id": "res-dist-0002",
+      "tema": "distancias",
+      "subtema": "distancia_frontal",
+      "enunciado": "Según el manual de la DGT, si llueve o es de noche, ¿cuánto conviene aumentar la separación con el vehículo de delante?",
+      "opciones": {
+        "a": "Al menos un segundo más.",
+        "b": "Hay que duplicarla siempre.",
+        "c": "No hace falta aumentarla."
+      },
+      "correcta": "a",
+      "explicacion": "El manual indica dejar al menos un segundo más de espacio con lluvia, nieve, niebla, de noche o cuando el vehículo de atrás se acerca demasiado.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 17, Espacio delantero (p. 446)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "hay circunstancias en las que se debe dejar, al menos, un segundo más de espacio.",
+        "version_consultada": "2024"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "51:37",
+        "resuelve": "rev-0014"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 5
+    },
+    {
+      "id": "res-vel-0001",
+      "tema": "velocidad",
+      "subtema": "vehiculos_especiales",
+      "enunciado": "Fuera de poblado, un vehículo especial sin remolque, con señalización de frenado, que por construcción puede superar los 60 km/h en llano y cumple sus normas técnicas, ¿a qué velocidad máxima puede circular?",
+      "opciones": {
+        "a": "40 km/h.",
+        "b": "70 km/h.",
+        "c": "25 km/h."
+      },
+      "correcta": "b",
+      "explicacion": "Los vehículos especiales tienen 40 km/h, salvo que puedan superar 60 km/h en llano y cumplan las normas de los vehículos: entonces 70 km/h. Si no tienen señalización de frenado, llevan remolque o son motocultores, 25 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.c.2º",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "salvo cuando puedan desarrollar una velocidad superior a los 60 kilómetros por hora en llano con arreglo a sus características, y cumplan las condiciones que se señalan en las normas reguladoras de los vehículos; en tal caso, la velocidad máxima será de 70 kilómetros por hora",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:06:51",
+        "resuelve": "rev-0017"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "res-vel-0002",
+      "tema": "velocidad",
+      "subtema": "ciclos",
+      "enunciado": "Fuera de poblado, el límite de velocidad de los ciclos es de 45 km/h. ¿Puede un ciclista superarlo?",
+      "opciones": {
+        "a": "Solo en bajadas, hasta 60 km/h.",
+        "b": "No, nunca.",
+        "c": "Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior."
+      },
+      "correcta": "c",
+      "explicacion": "El límite de 45 km/h es para ciclos, ciclomotores y cuadriciclos ligeros, pero los conductores de bicicletas pueden superarlo donde las circunstancias de la vía lo permitan.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "48.1.e",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "los conductores de bicicletas podrán superar dicha velocidad máxima en aquellos tramos en los que las circunstancias de la vía permitan desarrollar una velocidad superior",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:08:29",
+        "resuelve": "rev-0018"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 1
+    },
+    {
+      "id": "res-luc-0001",
+      "tema": "luces",
+      "subtema": "tuneles",
+      "enunciado": "A media mañana entra en un túnel insuficientemente iluminado, a 80 km/h y sin nadie a quien deslumbrar. ¿Qué alumbrado debe llevar?",
+      "opciones": {
+        "a": "El de largo alcance o carretera.",
+        "b": "El de corto alcance o cruce, porque es un túnel.",
+        "c": "Solo las luces de posición, porque es de día."
+      },
+      "correcta": "a",
+      "explicacion": "En túneles insuficientemente iluminados, a más de 40 km/h, hay que llevar la luz de carretera salvo que haya que usar la de cruce (por ejemplo, para no deslumbrar). En túneles suficientemente iluminados, la de cruce.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "100.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "a cualquier hora del día por túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5) insuficientemente iluminados, la llevará encendida",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0003"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 6
+    },
+    {
+      "id": "res-luc-0002",
+      "tema": "vehiculo",
+      "subtema": "alumbrado_obligatorio",
+      "enunciado": "En un turismo, ¿qué luces antiniebla son obligatorias?",
+      "opciones": {
+        "a": "Ninguna; las dos son opcionales.",
+        "b": "Solo la trasera; la delantera es opcional.",
+        "c": "Las delanteras y las traseras."
+      },
+      "correcta": "b",
+      "explicacion": "Todo automóvil debe llevar luz antiniebla trasera. La antiniebla delantera es un dispositivo facultativo.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "17.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "Todo automóvil, con excepción de los que se reseñan en los apartados siguientes, puede llevar: Luz antiniebla delantera.",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0004"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "La cita (art. 17.1, dispositivos facultativos) muestra que la delantera es opcional. Que la trasera es obligatoria sale del art. 16.1 (dispositivos obligatorios de todo automóvil), que la incluye en su lista: «deberá estar provisto de: [...] Luz antiniebla trasera».",
+      "materia": 14
+    },
+    {
+      "id": "res-veh-0001",
+      "tema": "vehiculo",
+      "subtema": "retrovisores",
+      "enunciado": "Una motocicleta cuya velocidad máxima por construcción es superior a 100 km/h, ¿qué retrovisores exteriores debe llevar?",
+      "opciones": {
+        "a": "Solo el izquierdo.",
+        "b": "Ninguno es obligatorio.",
+        "c": "El izquierdo y el derecho."
+      },
+      "correcta": "c",
+      "explicacion": "En las motocicletas de más de 100 km/h son obligatorios los dos retrovisores exteriores; si no superan 100 km/h, solo el izquierdo (el derecho es optativo).",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo III.3 (tabla)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "Si la velocidad máxima es mayor de […] 1 oblig. 1 oblig. […] 100 Km/h",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "1:32:08",
+        "resuelve": "A-rev-0013"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Tabla del anexo III.3, comprobada en el texto extraído con -layout (fila «Motocicletas / Si la velocidad máxima es mayor de 100 Km/h / 1 oblig. / 1 oblig.»).",
+      "materia": 14
+    },
+    {
+      "id": "res-car-0001",
+      "tema": "carga",
+      "subtema": "dimensiones",
+      "enunciado": "¿Cuál es la longitud máxima de un camión rígido (vehículo de motor que no es autobús), incluida la carga?",
+      "opciones": {
+        "a": "12 metros.",
+        "b": "18,75 metros.",
+        "c": "16,50 metros."
+      },
+      "correcta": "a",
+      "explicacion": "La longitud máxima de los vehículos de motor (excepto autobuses) es 12 m. Los vehículos articulados llegan a 16,50 m y los trenes de carretera a 18,75 m. La carga no puede hacer que se superen estas medidas (RGC 13.1).",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo IX.3.1, tabla 3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "Vehículos de motor excepto autobuses (1). 12,00",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0005"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Fila de la tabla 3, citada desde el texto extraído con -layout.",
+      "materia": 12
+    },
+    {
+      "id": "res-car-0002",
+      "tema": "carga",
+      "subtema": "dimensiones",
+      "enunciado": "Como norma general, ¿cuál es la altura máxima de un vehículo, incluida la carga?",
+      "opciones": {
+        "a": "3,50 metros.",
+        "b": "4,00 metros.",
+        "c": "4,50 metros."
+      },
+      "correcta": "b",
+      "explicacion": "La altura máxima general de los vehículos, incluida la carga, es de 4 metros (los autobuses urbanos de clase I, 4,20 m). La anchura máxima general es de 2,55 m.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo IX.3.1, tabla 3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "Altura máxima de los vehículos incluida la carga, como norma general. 4,00",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0005"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Fila de la tabla 3, citada desde el texto extraído con -layout.",
+      "materia": 12
+    },
+    {
+      "id": "res-itv-0001",
+      "tema": "documentacion",
+      "subtema": "itv",
+      "enunciado": "Un turismo particular, ¿con qué frecuencia debe pasar la ITV?",
+      "opciones": {
+        "a": "Exento hasta los 2 años; después, cada año.",
+        "b": "Cada año desde la matriculación.",
+        "c": "Exento hasta los 4 años; cada dos años hasta los 10; y después, cada año."
+      },
+      "correcta": "c",
+      "explicacion": "Turismos (M1): exentos hasta 4 años, bienal de 4 a 10 años y anual a partir de 10. No se aplica a taxis, ambulancias, autoescuelas ni transporte escolar, que tienen plazos más cortos.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "6.1 (tabla)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "cita": "M1: vehículos de motor concebidos y fabricados principalmente para el transporte de personas y de […] De más de 4 años: Bienal. […] Hasta 4 años: Exento. […] sus equipajes, con un máximo de ocho plazas, excluida la del conductor. […] De más de 10 años: Anual.",
+        "version_consultada": "2024-09-18"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0006"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Tabla del art. 6.1. Filas comprobadas en el texto extraído con -layout.",
+      "materia": 10
+    },
+    {
+      "id": "res-itv-0002",
+      "tema": "documentacion",
+      "subtema": "itv",
+      "enunciado": "Una furgoneta de 3.500 kg de MMA o menos (categoría N1), ¿con qué frecuencia debe pasar la ITV?",
+      "opciones": {
+        "a": "Exenta hasta 2 años; cada dos años de 2 a 6; cada año de 6 a 10; y cada seis meses a partir de 10.",
+        "b": "Exenta hasta 4 años y después cada dos años.",
+        "c": "Cada año desde la matriculación."
+      },
+      "correcta": "a",
+      "explicacion": "N1 (mercancías hasta 3,5 t): exenta hasta 2 años, bienal de 2 a 6, anual de 6 a 10 y semestral a partir de 10 años.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "6.1 (tabla)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "cita": "De 2 a 6 años: Bienal. […] N1: Vehículos de motor concebidos y fabricados principalmente para el transporte de mercancías y […] Hasta 2 años: Exento. […] De 6 a 10 años: Anual. […] cuya masa máxima no sea superior a 3,5 toneladas. […] De más de 10 años: Semestral.",
+        "version_consultada": "2024-09-18"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0006"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Tabla del art. 6.1. Filas comprobadas en el texto extraído con -layout.",
+      "materia": 10
+    },
+    {
+      "id": "res-itv-0003",
+      "tema": "documentacion",
+      "subtema": "itv",
+      "enunciado": "Una motocicleta, ¿con qué frecuencia debe pasar la ITV?",
+      "opciones": {
+        "a": "Nunca, las motos no pasan ITV.",
+        "b": "Exenta hasta 4 años y después cada dos años.",
+        "c": "Cada año desde la matriculación."
+      },
+      "correcta": "b",
+      "explicacion": "Motocicletas (resto de categoría L): exentas hasta 4 años y después bienal. Los ciclomotores: exentos hasta 3 años y después bienal.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "6.1 (tabla)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "cita": "Resto L: Vehículos de motor de dos o tres ruedas, gemelas o no, y cuadriciclos, destinados a circular […] Hasta 4 años: Exento. […] De más de 4 años: Bienal.",
+        "version_consultada": "2024-09-18"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0006"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Tabla del art. 6.1. Filas comprobadas en el texto extraído con -layout.",
+      "materia": 10
+    },
+    {
+      "id": "res-itv-0004",
+      "tema": "documentacion",
+      "subtema": "itv",
+      "enunciado": "Su turismo saca una ITV desfavorable (defectos graves). ¿Puede circular con él?",
+      "opciones": {
+        "a": "Sí, con normalidad durante dos meses.",
+        "b": "No, debe trasladarse en grúa.",
+        "c": "Solo para llevarlo al taller y volver a la ITV, en un plazo no superior a dos meses."
+      },
+      "correcta": "c",
+      "explicacion": "Los defectos graves inhabilitan para circular, salvo para ir al taller o regularizar la situación y volver a la ITV en un plazo no superior a dos meses.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "11.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "cita": "Los defectos calificados como graves son defectos que inhabilitan al vehículo para circular por las vías públicas excepto para su traslado al taller",
+        "version_consultada": "2024-09-18"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0007"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-itv-0005",
+      "tema": "documentacion",
+      "subtema": "itv",
+      "enunciado": "Si la ITV es negativa (defectos muy graves), ¿cómo se traslada el vehículo desde la estación?",
+      "opciones": {
+        "a": "Por medios ajenos al propio vehículo (por ejemplo, en grúa).",
+        "b": "Conduciéndolo, pero solo de día.",
+        "c": "Conduciéndolo directamente al taller."
+      },
+      "correcta": "a",
+      "explicacion": "Los defectos muy graves inhabilitan al vehículo para circular: el traslado se hace por medios ajenos al vehículo. Una vez reparado, debe volver a la ITV en un plazo no superior a dos meses.",
+      "fuente": {
+        "norma": "ITV",
+        "articulo": "11.3",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "cita": "el traslado del vehículo desde la estación hasta su destino se realizará por medios ajenos al propio vehículo",
+        "version_consultada": "2024-09-18"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0007"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-seg-0001",
+      "tema": "documentacion",
+      "subtema": "seguro_obligatorio",
+      "enunciado": "El seguro obligatorio del vehículo causante de un accidente, ¿cubre las lesiones de su propio conductor?",
+      "opciones": {
+        "a": "Sí, siempre.",
+        "b": "No, el seguro obligatorio no cubre las lesiones ni el fallecimiento del conductor del vehículo causante.",
+        "c": "Solo si llevaba puesto el cinturón."
+      },
+      "correcta": "b",
+      "explicacion": "El seguro obligatorio cubre los daños a terceros (personas y bienes), pero no las lesiones o el fallecimiento del conductor causante ni los daños de su propio vehículo.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "5.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911",
+        "cita": "no alcanzará a los daños y perjuicios ocasionados por las lesiones o fallecimiento del conductor del vehículo causante del accidente",
+        "version_consultada": "2026-02-18"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0009"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-seg-0002",
+      "tema": "documentacion",
+      "subtema": "seguro_obligatorio",
+      "enunciado": "¿Cubre el seguro obligatorio los daños sufridos por el propio vehículo asegurado?",
+      "opciones": {
+        "a": "Solo si el accidente fue culpa del otro conductor.",
+        "b": "Sí.",
+        "c": "No."
+      },
+      "correcta": "c",
+      "explicacion": "La cobertura del seguro obligatorio no alcanza a los daños en el propio vehículo asegurado ni en las cosas transportadas en él. Si el otro conductor tiene la culpa, paga el seguro del otro, no el propio.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "5.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911",
+        "cita": "tampoco alcanzará a los daños en los bienes sufridos por el vehículo asegurado",
+        "version_consultada": "2026-02-18"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0009"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-seg-0003",
+      "tema": "documentacion",
+      "subtema": "seguro_obligatorio",
+      "enunciado": "Un remolque de 600 kg de masa máxima autorizada, ¿necesita su propio seguro obligatorio?",
+      "opciones": {
+        "a": "No, los remolques de hasta 750 kg de MMA están exceptuados.",
+        "b": "Sí, todos los remolques.",
+        "c": "Solo si circula de noche."
+      },
+      "correcta": "a",
+      "explicacion": "Están exceptuados de la obligación de asegurarse los remolques y semirremolques que no excedan de 750 kg de MMA.",
+      "fuente": {
+        "norma": "LRCSCVM",
+        "articulo": "2.8.b",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-18911",
+        "cita": "Los remolques y semirremolques que no excedan de 750 kilogramos de masa máxima autorizada.",
+        "version_consultada": "2026-02-18"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0010"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-veh-0002",
+      "tema": "accesorios_obligatorios",
+      "subtema": "extintor",
+      "enunciado": "Un turismo arrastra un remolque ligero. ¿Debe llevar extintor?",
+      "opciones": {
+        "a": "Solo si el remolque supera 750 kg.",
+        "b": "Sí, porque turismo y remolque forman un conjunto de vehículos, y los conjuntos no especiales deben llevar extintor.",
+        "c": "No, solo los camiones y autobuses."
+      },
+      "correcta": "b",
+      "explicacion": "Un vehículo de motor enganchado a un remolque es un tren de carretera, es decir, un conjunto de vehículos. Los conjuntos de vehículos no especiales deben llevar un extintor homologado, además del V-16 y el chaleco.",
+      "fuente": {
+        "norma": "RGV",
+        "articulo": "Anexo XII.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+        "cita": "y los conjuntos de vehículos no especiales, deberán llevar, además de la dotación que se establece en el apartado 1 a) y b), un equipo homologado de extinción de incendios",
+        "version_consultada": "2026-06-26",
+        "citas_adicionales": [
+          {
+            "norma": "LSV",
+            "articulo": "Anexo I.24",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+            "cita": "b) Tren de carretera. Automóvil constituido por un vehículo de motor enganchado a un remolque."
+          }
+        ]
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "5:51:40",
+        "resuelve": "E-rev-0013"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Deducción con dos citas del RGV: anexo XII.2 y anexo II («Tren de carretera: Automóvil constituido por un vehículo de motor enganchado a un remolque»; «Conjunto de vehículos: Un tren de carretera, o un vehículo articulado»). La obligación es del conjunto, no del remolque suelto.",
+      "materia": 14
+    },
+    {
+      "id": "res-perm-0001",
+      "tema": "permiso_conduccion",
+      "subtema": "edades",
+      "enunciado": "¿A qué edad mínima se puede obtener el permiso de la clase A (motocicletas sin límite de potencia)?",
+      "opciones": {
+        "a": "18 años.",
+        "b": "21 años.",
+        "c": "20 años."
+      },
+      "correcta": "c",
+      "explicacion": "El permiso A se obtiene con 20 años cumplidos (y dos años de antigüedad en el A2). Hasta los 21 no autoriza a conducir triciclos de más de 15 kW.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "4.2 (tabla)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "cita": "A Motocicletas y triciclos de motor. 20",
+        "version_consultada": "consolidado descargado 2026-11-24"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0013"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Fila de la tabla del art. 4.2, citada desde el texto extraído con -layout.",
+      "materia": 10
+    },
+    {
+      "id": "res-perm-0002",
+      "tema": "permiso_conduccion",
+      "subtema": "edades",
+      "enunciado": "¿A qué edad mínima se puede obtener el permiso AM (ciclomotores)?",
+      "opciones": {
+        "a": "15 años.",
+        "b": "16 años.",
+        "c": "14 años."
+      },
+      "correcta": "a",
+      "explicacion": "El permiso AM se obtiene con 15 años cumplidos. El A1, con 16; el A2 y el B, con 18; el A, con 20.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "4.2 (tabla)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "cita": "Ciclomotores de dos o tres ruedas y cuatriciclos ligeros. […] Podrá estar limitado a la conducción de ciclomotores de tres ruedas y […] AM 15",
+        "version_consultada": "consolidado descargado 2026-11-24"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0013"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Fila de la tabla del art. 4.2 comprobada en el texto extraído con -layout.",
+      "materia": 10
+    },
+    {
+      "id": "res-perm-0003",
+      "tema": "permiso_conduccion",
+      "subtema": "a2",
+      "enunciado": "¿Qué limita el permiso A2?",
+      "opciones": {
+        "a": "La cilindrada de la moto, como máximo 500 cm³.",
+        "b": "La potencia de la moto: como máximo 35 kW y 0,2 kW/kg, y que no derive de un vehículo con más del doble de potencia.",
+        "c": "Nada: autoriza cualquier motocicleta."
+      },
+      "correcta": "b",
+      "explicacion": "El A2 se define por la potencia (máximo 35 kW y relación potencia/peso de 0,2 kW/kg), no por la cilindrada.",
+      "fuente": {
+        "norma": "RGCOND",
+        "articulo": "4.2 (tabla)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+        "cita": "Motocicletas con una potencia máxima de 35 kW y una relación potencia/peso",
+        "version_consultada": "consolidado descargado 2026-11-24"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0015"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-pun-0001",
+      "tema": "puntos",
+      "subtema": "cursos",
+      "enunciado": "¿Cuánto dura el curso de recuperación parcial de puntos?",
+      "opciones": {
+        "a": "20 horas.",
+        "b": "10 horas.",
+        "c": "12 horas."
+      },
+      "correcta": "c",
+      "explicacion": "El curso de recuperación parcial dura 12 horas y el de recuperación del permiso (pérdida total), 24 horas. La Ley fija un máximo de 15 horas para el parcial.",
+      "fuente": {
+        "norma": "OCURSOS",
+        "articulo": "Cuarto",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-13723",
+        "cita": "Estos cursos tendrán una duración de doce horas.",
+        "version_consultada": "2024-09-04"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0017"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-pun-0002",
+      "tema": "puntos",
+      "subtema": "cursos",
+      "enunciado": "¿Cuánto dura el curso para recuperar el permiso tras perder todos los puntos?",
+      "opciones": {
+        "a": "24 horas.",
+        "b": "12 horas.",
+        "c": "20 horas."
+      },
+      "correcta": "a",
+      "explicacion": "El curso de recuperación del permiso o licencia dura 24 horas; el de recuperación parcial, 12.",
+      "fuente": {
+        "norma": "OCURSOS",
+        "articulo": "Quinto",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-13723",
+        "cita": "Estos cursos tendrán una duración de veinticuatro horas",
+        "version_consultada": "2024-09-04"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "C-rev-0017"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 10
+    },
+    {
+      "id": "res-del-0007",
+      "tema": "accidentes",
+      "subtema": "omision_socorro",
+      "enunciado": "No socorrer a una persona herida en un accidente, desamparada y en peligro grave, pudiendo hacerlo sin riesgo propio ni de terceros, ¿qué es?",
+      "opciones": {
+        "a": "No es nada si no se ha causado el accidente.",
+        "b": "Un delito de omisión del deber de socorro.",
+        "c": "Una infracción leve."
+      },
+      "correcta": "b",
+      "explicacion": "Es delito no socorrer a quien está desamparado y en peligro manifiesto y grave, si se puede hacer sin riesgo. Si no se puede ayudar, hay que pedir auxilio con urgencia.",
+      "fuente": {
+        "norma": "CP",
+        "articulo": "195.1",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+        "cita": "El que no socorriere a una persona que se halle desamparada y en peligro manifiesto y grave, cuando pudiere hacerlo sin riesgo propio ni de terceros",
+        "version_consultada": "2026-04-09"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "5:34:39",
+        "resuelve": "E-rev-0014"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 11
+    },
+    {
+      "id": "res-alc-0001",
+      "tema": "alcohol_drogas",
+      "subtema": "tasas",
+      "enunciado": "Una persona adulta que conduce un patinete eléctrico (vehículo de movilidad personal), con carácter general, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+      "opciones": {
+        "a": "0 mg/l.",
+        "b": "0,15 mg/l.",
+        "c": "0,25 mg/l."
+      },
+      "correcta": "c",
+      "explicacion": "El VMP es un vehículo y la tasa general para conductores de vehículos es 0,25 mg/l en aire espirado (0,5 g/l en sangre). Los conductores menores de edad no pueden tener ninguna tasa (0).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "20",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "los conductores de vehículos ni los conductores de bicicletas con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "4:47:56",
+        "resuelve": "D-rev-0010"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El RGV (anexo II) define el VMP como vehículo. La tasa reducida de noveles va ligada a la obtención de un permiso o licencia, que el VMP no exige. Conviene que lo revise una persona.",
+      "materia": 4
+    },
+    {
+      "id": "res-fat-0001",
+      "tema": "factores_riesgo",
+      "subtema": "somnolencia",
+      "enunciado": "Al volante empieza a notar los primeros síntomas de sueño. Según el manual de la DGT, ¿qué debe hacer?",
+      "opciones": {
+        "a": "Parar en un lugar seguro y dormir 20 o 30 minutos.",
+        "b": "Tomar un café y seguir conduciendo.",
+        "c": "Abrir la ventanilla y seguir hasta el destino."
+      },
+      "correcta": "a",
+      "explicacion": "El manual de la DGT dice que, con los primeros síntomas, hay que parar en un lugar seguro y dormir 20 o 30 minutos, y descansar 20 o 30 minutos cada dos horas o 200 km.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 3, fatiga y somnolencia (p. 51)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "cuando sientas los primeros síntomas y duerme 20 o 30 minutos.",
+        "version_consultada": "2024"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "4:36:07",
+        "resuelve": "D-rev-0017"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 4
+    },
+    {
+      "id": "res-seg-0004",
+      "tema": "conduccion_segura",
+      "subtema": "volante",
+      "enunciado": "Según el manual de la DGT, al girar el volante, ¿se deben cruzar las manos?",
+      "opciones": {
+        "a": "Sí, para girar más rápido.",
+        "b": "No: el volante se coge sin cruzar las manos al girarlo.",
+        "c": "Solo en las curvas cerradas."
+      },
+      "correcta": "b",
+      "explicacion": "El manual de la DGT indica coger el volante con las dos manos, por la parte exterior, con firmeza pero sin mucha fuerza y sin cruzar las manos al girar.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 6, cómo coger el volante (p. 123)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Sin cruzar las manos al girar el volante.",
+        "version_consultada": "2024"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "4:55:22",
+        "resuelve": "D-rev-0019"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 14
+    },
+    {
+      "id": "res-acc-0001",
+      "tema": "accidentes",
+      "subtema": "estadistica",
+      "enunciado": "Según el manual de la DGT, ¿cuándo hay más accidentes?",
+      "opciones": {
+        "a": "Los lunes laborables a mediodía.",
+        "b": "Los martes y miércoles por la mañana.",
+        "c": "Los fines de semana y los días de fiesta, en especial de madrugada."
+      },
+      "correcta": "c",
+      "explicacion": "El manual de la DGT indica que hay más accidentes los fines de semana y los días de fiesta, en especial en las horas de la madrugada.",
+      "fuente": {
+        "norma": "MANUAL_DGT",
+        "articulo": "Tema 16 (p. 391)",
+        "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+        "cita": "Hay más accidentes los fines de semana y los días de fiesta.",
+        "version_consultada": "2024"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "4:25:28",
+        "resuelve": "D-rev-0022"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 2
+    },
+    {
+      "id": "res-ref-0001",
+      "tema": "usuarios_vulnerables",
+      "subtema": "ciclistas",
+      "enunciado": "Un ciclista circula de noche por una vía interurbana. ¿A qué distancia mínima debe ser visible el elemento luminoso o reflectante que debe llevar?",
+      "opciones": {
+        "a": "150 metros.",
+        "b": "50 metros.",
+        "c": "100 metros."
+      },
+      "correcta": "a",
+      "explicacion": "Entre el ocaso y la salida del sol o con poca visibilidad, en vía interurbana, el ciclista debe llevar al menos un elemento luminoso o reflectante visible a 150 m. El chaleco del conductor de un turismo no tiene esa exigencia de distancia: debe ser de alta visibilidad certificado.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "118.2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa de los equipos de protección individual, que sea visible a una distancia mínima de 150 metros, si circulan en vía interurbana",
+        "version_consultada": "2026-06-26"
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "5:50:58",
+        "resuelve": "E-rev-0011"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "",
+      "materia": 8
+    },
+    {
+      "id": "res-sen-0001",
+      "tema": "senales_verticales",
+      "subtema": "identificacion_carreteras",
+      "enunciado": "¿De qué color es el fondo del cartel que identifica una carretera autonómica de segundo nivel (por ejemplo, ZA-320)?",
+      "opciones": {
+        "a": "Amarillo.",
+        "b": "Marrón.",
+        "c": "Verde."
+      },
+      "correcta": "b",
+      "explicacion": "En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "S-440 Carretera de segundo nivel perteneciente a una red diferente de la del Estado.",
+        "version_consultada": "2026-06-26",
+        "tipo_cita": "imagen_catalogo",
+        "pagina_pdf": 179
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "3:12:12",
+        "resuelve": "B2-rev-0014"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El color solo se ve en el dibujo de la señal (página 179 del PDF consolidado del RGC). Comprobado mirando la página. Conviene añadir la imagen de la S-440 cuando esté recortada.",
+      "materia": 1
+    },
+    {
+      "id": "res-sen-0002",
+      "tema": "senales_verticales",
+      "subtema": "identificacion_carreteras",
+      "enunciado": "¿De qué color es el fondo del cartel que identifica una carretera de la red del Estado que no es autopista ni autovía (por ejemplo, N-401)?",
+      "opciones": {
+        "a": "Azul.",
+        "b": "Naranja.",
+        "c": "Rojo."
+      },
+      "correcta": "c",
+      "explicacion": "Las carreteras convencionales o multicarril de la red del Estado se identifican con fondo rojo (S-420). Las autopistas y autovías, con fondo azul (S-410).",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-420)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "S-420 Carretera convencional o carretera multicarril de la red del Estado",
+        "version_consultada": "2026-06-26",
+        "tipo_cita": "imagen_catalogo",
+        "pagina_pdf": 178
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "3:12:12",
+        "resuelve": "B2-rev-0014"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "El color solo se ve en el dibujo de la señal (página 178 del PDF consolidado del RGC). Comprobado mirando la página.",
+      "materia": 1
+    },
+    {
+      "id": "res-sen-0003",
+      "tema": "senales_verticales",
+      "subtema": "balizas_paso_nivel",
+      "enunciado": "Antes de un paso a nivel, una baliza rectangular con tres franjas rojas en el lado derecho indica que el paso a nivel está a...",
+      "opciones": {
+        "a": "200 metros.",
+        "b": "100 metros.",
+        "c": "300 metros."
+      },
+      "correcta": "a",
+      "explicacion": "La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.1 (P-9a)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 200 m. Esta baliza se sitúa en el lado derecho de la calzada y va siempre acompañada de la señal P-5, P-7, P-8 o P-27.",
+        "version_consultada": "2026-06-26",
+        "tipo_cita": "imagen_catalogo",
+        "pagina_pdf": 90
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "B1-rev-0007"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Texto leído en la ficha P-9a (página 90 del PDF consolidado del RGC). Ojo: el manual de la DGT de 2024 da 300/200/100 m para el paso a nivel; manda el catálogo del BOE.",
+      "materia": 1
+    },
+    {
+      "id": "res-sen-0004",
+      "tema": "senales_verticales",
+      "subtema": "limitacion_velocidad",
+      "enunciado": "Una señal de velocidad máxima está en el mismo poste que una señal de peligro. ¿Hasta dónde obliga la limitación?",
+      "opciones": {
+        "a": "Hasta la próxima intersección.",
+        "b": "Hasta que termine el peligro señalado.",
+        "c": "Hasta que aparezca una señal de fin de limitación, aunque haya terminado el peligro."
+      },
+      "correcta": "b",
+      "explicacion": "Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "salvo que esté colocada en el mismo poste que una señal de advertencia de peligro o en el mismo panel que esta, en cuyo caso la prohibición finaliza cuando termine el peligro señalado.",
+        "version_consultada": "2026-06-26",
+        "tipo_cita": "imagen_catalogo",
+        "pagina_pdf": 109
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": null,
+        "resuelve": "B1-rev-0011"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Texto leído en la ficha R-301 (página 109 del PDF consolidado del RGC).",
+      "materia": 1
+    },
+    {
+      "id": "res-sen-0005",
+      "tema": "senales_verticales",
+      "subtema": "zona_estancia_juego",
+      "enunciado": "En una zona de estancia y juego, ¿cuál es la velocidad máxima de los vehículos?",
+      "opciones": {
+        "a": "30 km/h.",
+        "b": "20 km/h.",
+        "c": "10 km/h."
+      },
+      "correcta": "c",
+      "explicacion": "En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h.",
+      "fuente": {
+        "norma": "RGC",
+        "articulo": "Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "cita": "la velocidad máxima de los vehículos está fijada en 10 kilómetros por hora y los conductores deben conceder prioridad a los peatones",
+        "version_consultada": "2026-06-26",
+        "tipo_cita": "imagen_catalogo",
+        "pagina_pdf": 134
+      },
+      "origen": {
+        "tipo": "video_clase",
+        "ref": "YyTF43W4wOo",
+        "minuto": "2:55:36",
+        "resuelve": "B2-rev-0007"
+      },
+      "imagen": null,
+      "estado": "verificada",
+      "verificado_el": "2026-11-24",
+      "notas_revision": "Texto leído en la ficha S-28 (página 134 del PDF consolidado del RGC).",
+      "materia": 1
+    }
+  ]
+}

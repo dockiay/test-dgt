@@ -1,0 +1,40 @@
+/* Estilos de estudiar.js: tarjeta «Estudiar hoy», cuenta atrás al examen e informe del simulacro semanal.
+   Usa los mismos colores, radios y relieves que estilos.css. */
+.tarjeta.hoy { margin-top: 14px; display: grid; gap: 14px; border-color: var(--tinte); box-shadow: 0 var(--relieve) 0 var(--tinte-borde); }
+.tarjeta.hoy.hecho { border-color: var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); }
+.tarjeta.hoy .boton { margin-bottom: var(--relieve); }
+.hoy-cabecera { display: flex; gap: 14px; align-items: center; }
+.hoy-cabecera .tesela { width: 48px; height: 48px; border-radius: 15px; }
+.hoy-cabecera .tesela svg.ico { width: 28px; height: 28px; }
+.hoy-cabecera h2 { margin: 0; font-size: 1.375rem; font-weight: 900; line-height: 1.15; }
+.hoy-cabecera p { margin: 2px 0 0; font-size: .875rem; color: var(--texto2); font-weight: 700; }
+.hoy-partes { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-weight: 700; font-size: .9375rem; }
+.hoy-partes li { display: flex; gap: 10px; align-items: center; }
+.hoy-partes .punto { flex: none; width: 26px; height: 26px; border-radius: 8px; display: grid; place-items: center; color: #fff; }
+.hoy-partes .punto svg.ico { width: 16px; height: 16px; stroke-width: 2.8; vertical-align: 0; }
+.hoy-fecha { display: flex; gap: 12px; align-items: center; width: 100%; text-align: left; padding: 10px 12px; border-radius: 14px;
+  background: var(--relleno); color: var(--texto); font: inherit; font-weight: 700; font-size: .9375rem; min-height: 52px; }
+.hoy-fecha:hover { background: var(--relleno-fuerte); }
+.hoy-fecha:active { transform: scale(.99); }
+.hoy-fecha > svg.ico { flex: none; width: 24px; height: 24px; color: var(--tinte-texto); }
+.hoy-fecha strong { display: block; font-weight: 900; }
+.hoy-fecha small { display: block; color: var(--texto2); font-size: .8125rem; font-weight: 700; margin-top: 1px; }
+.hoy-fecha small:first-letter { text-transform: uppercase; }
+.hoy-dias { flex: none; width: 54px; height: 54px; border-radius: 14px; background: var(--celda); border: 2px solid var(--borde); display: grid; place-content: center; text-align: center;
+  font-size: .6875rem; font-weight: 800; color: var(--texto2); text-transform: uppercase; line-height: 1.1; }
+.hoy-dias b { display: block; font-size: 1.375rem; font-weight: 900; color: var(--tinte-texto); font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.hoy-fecha.cerca .hoy-dias { border-color: var(--ambar); background: var(--ambar-suave); }
+.hoy-fecha.cerca .hoy-dias b { color: var(--ambar-texto); }
+section > .hoy-fecha, main > .hoy-fecha { background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); border-radius: var(--radio); }
+.campo-fecha { display: block; width: 100%; min-height: 52px; font: inherit; font-weight: 800; font-size: 1.0625rem; color: var(--texto); background: var(--relleno);
+  border: 2px solid var(--borde); border-radius: 12px; padding: 10px 12px; margin: 4px 0 6px; }
+.campo-fecha:focus { outline: none; border-color: var(--tinte); }
+.tendencia { display: inline-flex; align-items: center; gap: 2px; font-variant-numeric: tabular-nums; }
+.tendencia svg.ico { width: 1em; height: 1em; stroke-width: 3; vertical-align: 0; }
+.tendencia.sube { color: var(--verde-texto); } .tendencia.baja { color: var(--rojo-texto); } .tendencia.igual { color: var(--texto3); }
+.aviso.aviso-toca { background: var(--tinte-suave); }
+.aviso.aviso-toca svg.ico { color: var(--tinte-texto); }
+a.aviso-foco { color: var(--texto); text-decoration: none; background: var(--rojo-suave); }
+a.aviso-foco svg.ico { color: var(--rojo-texto); flex: none; }
+a.aviso-foco:hover { filter: brightness(.98); }
+.informe .grupo { margin-top: 0; }

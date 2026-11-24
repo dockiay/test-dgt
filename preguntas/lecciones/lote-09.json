@@ -1,0 +1,2502 @@
+{
+  "version": 1,
+  "lote": "09",
+  "lecciones": [
+    {
+      "id": "D-vul-0005",
+      "porque": "El manual de la DGT da dos razones por las que quienes conducen vehículos de dos ruedas corren más riesgo: sus vehículos son más frágiles y los demás los ven peor que al resto de vehículos. Por eso deben conducir con especial cuidado.",
+      "descartes": {
+        "b": "Ni la norma ni el manual dicen que estos vehículos vayan siempre más deprisa que los turismos; el riesgo viene de su fragilidad y de lo mal que se ven.",
+        "c": "Las señales obligan a todos los usuarios de la vía, también a quienes conducen vehículos de dos ruedas."
+      },
+      "truco": "Dos ruedas, dos motivos: frágiles y poco visibles.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "132.1",
+          "cita": "Todos los usuarios de las vías objeto de la ley están obligados a obedecer las señales\nde la circulación"
+        }
+      ],
+      "huella": "df825a223e4f"
+    },
+    {
+      "id": "xd-0068",
+      "porque": "La norma fija una edad mínima para conducir un vehículo de movilidad personal: no pueden hacerlo los menores de 15 años. Con 14 no se puede, y la norma no prevé ninguna excepción por llevar casco, ir por un carril bici o ir con un adulto.",
+      "descartes": {
+        "b": "El casco es obligatorio para cualquier conductor de patinete eléctrico, pero ni el casco ni el carril bici permiten conducirlo con menos de 15 años.",
+        "c": "Ir acompañado no cambia la edad mínima. La compañía de un adulto a pie es la condición de otra regla distinta: la que permite a niños de hasta 12 años ir en bicicleta por la acera si lo autoriza una ordenanza."
+      },
+      "truco": "Patinete eléctrico y ciclomotor, el mismo número: 15 años (para conducir el patinete y para obtener el permiso AM).",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.3",
+          "cita": "Los conductores de vehículos de movilidad personal están obligados a utilizar\nadecuadamente abrochado casco de protección homologado o certificado."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "152.1",
+          "cita": "Las ordenanzas municipales podrán permitir la circulación por las aceras de niños de\nhasta doce años en bicicletas, siempre que vayan a cargo de un adulto que circule a pie."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (tabla, clases AM, A1 y A2)",
+          "cita": "Edad: años\ncumplidos\n15\n\n16\n\n18"
+        }
+      ],
+      "huella": "06fb187446c6"
+    },
+    {
+      "id": "xd-0069",
+      "porque": "Todo conductor debe avisar sus maniobras. Como regla general se hace con los intermitentes y, si no los hay, con el brazo; pero a quien conduce un vehículo de movilidad personal la norma le pide expresamente usar siempre el brazo, en la forma que fija el reglamento.",
+      "descartes": {
+        "a": "Quien conduce un patinete eléctrico sí está obligado a avisar sus maniobras, como cualquier conductor, y además con el brazo.",
+        "b": "La norma no prevé avisar un giro con el timbre: para los vehículos de movilidad personal exige el brazo."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "108.2",
+          "cita": "Como norma general, dichas advertencias se harán utilizando la señalización\nluminosa del vehículo o, en su defecto, con el brazo"
+        }
+      ],
+      "huella": "98c3d7fbbf90"
+    },
+    {
+      "id": "xd-0071",
+      "porque": "Lo que decide es ir al paso de persona: una persona con movilidad reducida que se desplaza así en un vehículo de movilidad personal tiene, para el reglamento, la consideración de peatón. Es la misma idea que la de quien va al paso en una silla de ruedas, con o sin motor.",
+      "descartes": {
+        "a": "El reglamento no la equipara a un ciclista: al desplazarse al paso de persona, la trata como peatón.",
+        "b": "Desplazarse en un vehículo de movilidad personal al paso de persona no la convierte en conductora de ciclomotor: la norma le da la consideración de peatón."
+      },
+      "truco": "Movilidad reducida y al paso de persona: peatón, vaya en silla de ruedas o en un vehículo de movilidad personal.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.4",
+          "cita": "las personas con\ndiscapacidad que circulan al paso en una silla de ruedas, con o sin motor."
+        }
+      ],
+      "huella": "1453075d06f6"
+    },
+    {
+      "id": "xd-0073",
+      "porque": "Todos los conductores de vehículos de movilidad personal que circulen de noche o con poca visibilidad deben llevar al menos un elemento luminoso o reflectante visible a 150 metros. Para ellos la norma no distingue entre vías urbanas e interurbanas, así que también en una calle.",
+      "descartes": {
+        "b": "Limitarlo a las vías interurbanas es la regla de las bicicletas, no la de los vehículos de movilidad personal, a quienes se les exige en cualquier vía.",
+        "c": "El alumbrado del patinete debe ir siempre encendido, pero es otra obligación distinta: además, de noche, quien lo conduce debe llevar el elemento luminoso o reflectante."
+      },
+      "truco": "Bicicleta: elemento reflectante de noche solo en vía interurbana. Patinete eléctrico: de noche, en cualquier vía. En los dos casos, visible a 150 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.2",
+          "cita": "deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa\nde los equipos de protección individual, que sea visible a una distancia mínima de 150\nmetros, si circulan en vía interurbana."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "155.5",
+          "cita": "Los vehículos de movilidad personal deberán llevar siempre encendido el alumbrado."
+        }
+      ],
+      "huella": "caff7a498531"
+    },
+    {
+      "id": "xd-0075",
+      "porque": "Las aceras están reservadas a los peatones y en ellas está prohibida la circulación de cualquier tipo de vehículo, también de los de movilidad personal. La única excepción que el reglamento deja abrir a las ordenanzas es la de niños de hasta 12 años en bicicleta a cargo de un adulto a pie.",
+      "descartes": {
+        "a": "Una ordenanza puede permitir patinetes en otras zonas peatonales que no sean aceras, o niños de hasta 12 años en bicicleta por la acera, pero no patinetes eléctricos por la acera.",
+        "b": "La anchura no cambia nada: la prohibición vale para cualquier acera."
+      },
+      "truco": "Acera: solo peatones (salvo niños de hasta 12 años en bicicleta con un adulto a pie, si lo permite la ordenanza). Resto de zonas peatonales: el ayuntamiento puede dejar pasar bicicletas y patinetes, pero el peatón tiene prioridad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "152.1",
+          "cita": "Las ordenanzas municipales podrán permitir la circulación por las aceras de niños de\nhasta doce años en bicicletas, siempre que vayan a cargo de un adulto que circule a pie."
+        }
+      ],
+      "huella": "e8085e2d5948"
+    },
+    {
+      "id": "B2-via-0013",
+      "porque": "La regla general es que por la acera no circula ningún vehículo. La única excepción que el reglamento permite a las ordenanzas municipales es la de niños de hasta 12 años en bicicleta, y solo si van a cargo de un adulto que vaya a pie.",
+      "descartes": {
+        "a": "La única excepción que puede abrir una ordenanza en las aceras es la de niños en bicicleta; para ciclomotores no hay ninguna, vayan a la velocidad que vayan.",
+        "b": "Los adultos en bicicleta no pueden ir por la acera aunque no haya carril bici: sin carril o vía específica, la bicicleta circula por la calzada."
+      },
+      "truco": "Acera: solo peatones (salvo niños de hasta 12 años en bicicleta con un adulto a pie, si lo permite la ordenanza). Resto de zonas peatonales: el ayuntamiento puede dejar pasar bicicletas y patinetes, pero el peatón tiene prioridad.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "153.1",
+          "cita": "En ausencia de carril o vía específica, las bicicletas circularán por la calzada."
+        }
+      ],
+      "huella": "14ca42b6746d"
+    },
+    {
+      "id": "B2-via-0012",
+      "porque": "Hay que distinguir la acera del resto de zonas peatonales. En la acera no circula ningún vehículo, pero en las demás zonas peatonales el ayuntamiento puede autorizar por ordenanza que convivan peatones, ciclistas y usuarios de vehículos de movilidad personal, siempre respetando la prioridad de los peatones.",
+      "descartes": {
+        "a": "La prohibición casi total es la de las aceras. En las demás zonas peatonales el ayuntamiento sí puede autorizar esa convivencia mediante ordenanza.",
+        "c": "Es al revés: si se permite que circulen ciclistas, la prioridad sigue siendo de los peatones."
+      },
+      "truco": "Acera: solo peatones (salvo niños de hasta 12 años en bicicleta con un adulto a pie, si lo permite la ordenanza). Resto de zonas peatonales: el ayuntamiento puede dejar pasar bicicletas y patinetes, pero el peatón tiene prioridad.",
+      "huella": "570255508cec"
+    },
+    {
+      "id": "v2-vmp-0002",
+      "porque": "Para los vehículos de movilidad personal la norma no distingue entre día y noche ni entre tipos de vía: deben llevar siempre encendido el alumbrado.",
+      "descartes": {
+        "a": "De noche o con poca visibilidad es cuando quien conduce el patinete debe llevar además un elemento luminoso o reflectante. El alumbrado del vehículo va encendido siempre, también de día.",
+        "b": "Los vehículos de movilidad personal solo pueden ir por vías interurbanas en casos concretos, como las vías ciclistas, y en todo caso la obligación del alumbrado no depende del tipo de vía: es siempre."
+      },
+      "truco": "Patinete eléctrico: luz encendida siempre, de día y de noche.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.3",
+          "cita": "todos los conductores de estos vehículos que circulen entre el ocaso y la\nsalida del sol, o en condiciones meteorológicas o ambientales que disminuyan\nsensiblemente la visibilidad, deberán hacer uso al menos de un elemento luminoso o\nreflectante"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "38.4.c",
+          "cita": "Por vías interurbanas y por túneles urbanos, salvo que se trate de vías ciclistas,\ncarriles bici, carriles bici protegidos, pistas bici, sendas ciclables"
+        }
+      ],
+      "huella": "3b60f7a72760"
+    },
+    {
+      "id": "v2-vmp-0004",
+      "porque": "Quienes trabajan circulando en moto, ciclomotor, bicicleta u otro ciclo, o en un vehículo de movilidad personal, deben llevar chaleco reflectante de alta visibilidad cuando circulen trabajando, en todo tipo de vías. La norma no lo limita a la noche ni a un tipo de vía.",
+      "descartes": {
+        "a": "La norma no limita esta obligación a la noche: el chaleco se exige siempre que se circule trabajando.",
+        "c": "Para estos profesionales vale en todo tipo de vías. Lo de las vías interurbanas es la regla del chaleco de turismos y otros vehículos, que se pone al salir del vehículo y ocupar la calzada o el arcén."
+      },
+      "truco": "Si conduces trabajando en moto, bicicleta o patinete, chaleco puesto en cualquier vía y a cualquier hora.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.4",
+          "cita": "deberán utilizar un chaleco reflectante de alta visibilidad, de acuerdo con los requisitos de los\nequipos de protección individual, que figura entre la dotación obligatoria del vehículo, cuando\nsalgan de éste y ocupen la calzada o el arcén de las vías interurbanas."
+        }
+      ],
+      "huella": "b0b8a3060d4a"
+    },
+    {
+      "id": "v2-vmp-0001",
+      "porque": "La norma prohíbe conducir vehículos de movilidad personal a los menores de 15 años, así que la edad mínima es 15.",
+      "descartes": {
+        "a": "Con 14 años todavía no se puede: la prohibición alcanza a todos los menores de 15.",
+        "c": "16 años no es la edad del patinete eléctrico; es, por ejemplo, la edad mínima del permiso A1."
+      },
+      "truco": "Patinete eléctrico y ciclomotor, el mismo número: 15 años (para conducir el patinete y para obtener el permiso AM).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (tabla, clases AM, A1 y A2)",
+          "cita": "Edad: años\ncumplidos\n15\n\n16\n\n18"
+        }
+      ],
+      "huella": "b5060c45d2dd"
+    },
+    {
+      "id": "v2-vmp-0003",
+      "porque": "Todos los conductores de vehículos de movilidad personal que circulen de noche o con poca visibilidad deben llevar, además del casco, al menos un elemento luminoso o reflectante visible a 150 metros como mínimo. Para ellos la norma no distingue entre vías urbanas e interurbanas.",
+      "descartes": {
+        "b": "Limitarlo a las vías interurbanas es la regla de las bicicletas, no la de los vehículos de movilidad personal, a quienes se les exige en cualquier vía.",
+        "c": "Los guantes y el calzado cerrado se exigen a quienes van en moto, ciclomotor y vehículos parecidos, no a quienes conducen un patinete eléctrico."
+      },
+      "truco": "Bicicleta: elemento reflectante de noche solo en vía interurbana. Patinete eléctrico: de noche, en cualquier vía. En los dos casos, visible a 150 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "118.2",
+          "cita": "deberán hacer uso al menos de un elemento luminoso o reflectante conforme a la normativa\nde los equipos de protección individual, que sea visible a una distancia mínima de 150\nmetros, si circulan en vía interurbana."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "118.1",
+          "cita": "Los conductores y pasajeros de motocicletas o motocicletas con sidecar, de vehículos\nde tres ruedas y cuadriciclos, de ciclomotores y de vehículos especiales tipo «quad»,\ndeberán utilizar los siguientes elementos de protección:"
+        }
+      ],
+      "huella": "fe70304c4eea"
+    },
+    {
+      "id": "v2-vmp-0005",
+      "porque": "Los vehículos de movilidad personal tienen prohibido circular por vías interurbanas, salvo que sean vías ciclistas (carriles bici, pistas bici, sendas ciclables…) o vías en las que esté prohibida la circulación de vehículos de motor, y siempre que la señalización no lo prohíba. Una carretera convencional no es nada de eso, ni por la calzada ni por el arcén.",
+      "descartes": {
+        "a": "Ir por el arcén derecho es la regla de ciclos, ciclomotores y otros vehículos lentos; a los vehículos de movilidad personal la norma les prohíbe directamente la vía interurbana.",
+        "b": "El casco y el alumbrado son obligatorios para estos vehículos, pero no les abren las carreteras: la prohibición de circular por vías interurbanas se mantiene."
+      },
+      "truco": "Patinete fuera de poblado: solo por vías ciclistas o vías cerradas a los vehículos de motor. Y nunca por autopista, autovía ni travesía.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "38.4",
+          "cita": "Se prohíbe circular con vehículos de movilidad personal:\na) Por autopistas y autovías.\nb) Por travesías."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "Los conductores de vehículos de tracción animal, vehículos especiales con masa\nmáxima autorizada no superior a 3.500 kilogramos, ciclos, ciclomotores, vehículos para\npersonas de movilidad reducida o vehículos en seguimiento de ciclistas"
+        }
+      ],
+      "huella": "3e194d8f1555"
+    },
+    {
+      "id": "x1b-0029",
+      "porque": "La V-2 es la señal luminosa de vehículo-obstáculo en la vía. Con ella advierten su presencia los vehículos de obras o servicios, los tractores y la maquinaria agrícola, los transportes especiales y los vehículos de auxilio en vías públicas.",
+      "descartes": {
+        "a": "La V-1 es la señal de vehículo prioritario, de luz azul, que usan policía, bomberos, protección civil y salvamento o asistencia sanitaria en servicio urgente; no la de tractores ni vehículos de auxilio.",
+        "b": "El avisador acústico no es lo que fija la norma para estos vehículos: advierten su presencia con la señal luminosa V-2."
+      },
+      "truco": "V-1, azul: vehículo prioritario. V-2, amarillo auto: vehículo-obstáculo (trabajando, parado o a 40 km/h como mucho).",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-1.1",
+          "cita": "La utilización de la señal V-1 en un vehículo indica la prestación de un servicio de\npolicía, extinción de incendios, protección civil y salvamento, o de asistencia sanitaria, en\nservicio urgente."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-1.3",
+          "cita": "La señal luminosa de vehículo prioritario V-1 estará constituida por un dispositivo\nluminoso, con una o varias luces, de color azul"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-2.1",
+          "cita": "en situación de parada o estacionamiento, o a una velocidad que no supere los 40 kilómetros\npor hora."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-2.3",
+          "cita": "La señal luminosa V-2 estará constituida por un dispositivo luminoso, con una o varias\nluces, de color amarillo auto"
+        }
+      ],
+      "huella": "8e2a5cd028af"
+    },
+    {
+      "id": "xd-0095",
+      "porque": "La carga no puede sobresalir de la proyección en planta del vehículo. En un carro de tracción animal esa proyección se alarga hacia delante, con la misma anchura del carro, pero solo hasta la cabeza del animal de tiro más próximo: de ahí no puede pasar la carga.",
+      "descartes": {
+        "a": "No hay ningún margen de un metro por delante del animal: el límite es su cabeza.",
+        "b": "La norma prevé una luz blanca para señalizar de noche la carga que sobresale por delante, pero señalizarla no permite pasar de los límites."
+      },
+      "truco": "En un carro, la carga llega como mucho hasta la cabeza del animal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "15.6",
+          "cita": "Cuando la carga sobresalga por delante, la\nseñalización deberá hacerse por medio de una luz blanca."
+        }
+      ],
+      "huella": "4d92712c5edd"
+    },
+    {
+      "id": "bm9-0011",
+      "porque": "Con un alumbrado más débil ves menos distancia, así que la velocidad tiene que bajar hasta la que te permita detenerte dentro de la zona iluminada. Es la misma idea general de ir siempre a una velocidad con la que puedas parar dentro de tu campo de visión.",
+      "descartes": {
+        "b": "La luz de emergencia no te deja ver más lejos, y mantener la velocidad es justo lo contrario de lo que pide la norma: reducirla.",
+        "c": "La norma no fija una cifra: la velocidad depende de lo que alumbre la luz que te queda, de forma que puedas parar dentro de la zona iluminada."
+      },
+      "truco": "Pregúntate: ¿podría parar antes de donde deja de llegar mi luz? Si la respuesta es no, ve más despacio.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "45",
+          "cita": "de manera que siempre pueda detenerlo dentro\nde los límites de su campo de visión y ante cualquier obstáculo que pueda presentarse"
+        }
+      ],
+      "huella": "c6bd8aa115bb"
+    },
+    {
+      "id": "bm9-0012",
+      "porque": "Quien conduce otro vehículo no te ve por sus retrovisores si estás en su ángulo muerto. Por eso la DGT aconseja no quedarse mucho tiempo ahí, sobre todo al lado o detrás de un vehículo muy grande.",
+      "descartes": {
+        "a": "El ángulo muerto del otro vehículo también es un riesgo para ti: si no te ve, puede hacer una maniobra sin saber que estás ahí. Por eso el manual aconseja estar fuera de esa zona.",
+        "c": "Lo que el manual aconseja evitar no es ir por delante del otro vehículo, sino quedarse mucho tiempo en el ángulo muerto de sus retrovisores."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Conducción preventiva (p. 447)",
+          "cita": "Hay que procurar estar fuera de la zona\nde ángulo muerto de otros vehículos."
+        }
+      ],
+      "huella": "28feb11e8cb2"
+    },
+    {
+      "id": "bm9-0001",
+      "porque": "La norma pide al conductor tres cosas a la vez: libertad de movimientos, el campo de visión necesario y atención permanente a la conducción. Además debe cuidar de que los pasajeros mantengan una posición adecuada y de que los objetos o animales transportados no interfieran.",
+      "descartes": {
+        "a": "Los demás ocupantes sí le afectan: el conductor debe cuidar de que mantengan la posición adecuada para que no interfieran en la conducción.",
+        "b": "La atención no basta: también debe mantener el campo de visión necesario y su libertad de movimientos."
+      },
+      "truco": "Tres cosas: moverte con libertad, ver bien y estar atento.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "18.1",
+          "cita": "deberá cuidar especialmente de mantener la posición\nadecuada y que la mantengan el resto de los pasajeros, y la adecuada colocación de los\nobjetos o animales transportados"
+        }
+      ],
+      "huella": "d081a481dbdd"
+    },
+    {
+      "id": "bm9-0005",
+      "porque": "El límite de velocidad es un máximo, no una velocidad que siempre puedas llevar. Además hay que adaptarla a tu estado, a la vía, al vehículo y su carga, al tiempo y al tráfico, de forma que siempre puedas detenerte dentro de tu campo de visión y ante cualquier obstáculo.",
+      "descartes": {
+        "b": "No superar el límite es necesario, pero no basta: según las circunstancias de la vía, del tiempo o del tráfico, puede que tengas que ir más despacio.",
+        "c": "Llegar a la hora prevista no es ninguna de las circunstancias a las que la norma obliga a adaptar la velocidad."
+      },
+      "truco": "Pregúntate: ¿podría parar antes de donde deja de ver? Si la respuesta es no, ve más despacio.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "45",
+          "cita": "sus propias condiciones físicas y psíquicas, las características y el\nestado de la vía, del vehículo y de su carga, las condiciones meteorológicas, ambientales y\nde circulación"
+        }
+      ],
+      "huella": "60c552a7e30b"
+    },
+    {
+      "id": "bm9-0014",
+      "porque": "Si hay demasiado peso en la parte de atrás, la luz de cruce puede quedar muy alta y deslumbrar a otros conductores. Por eso el manual aconseja repartir bien el peso que llevas y mantener las luces bien reguladas.",
+      "descartes": {
+        "b": "El manual no relaciona el peso con que fallen las luces de freno; el riesgo que señala es que la luz de cruce quede alta y deslumbre.",
+        "c": "Sí influye: con mucho peso atrás, la luz de cruce puede quedar muy alta y deslumbrar."
+      },
+      "truco": "Mucho peso atrás, faros arriba: riesgo de deslumbrar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Deslumbramientos (p. 348)",
+          "cita": "Mantén bien reguladas las luces."
+        }
+      ],
+      "huella": "8daab836daec"
+    },
+    {
+      "id": "bm9-0010",
+      "porque": "Las materias que pueden producir polvo o caer, como la arena, se transportan siempre cubiertas total y eficazmente. La norma no admite otra forma de llevarlas.",
+      "descartes": {
+        "a": "Mojar la arena no es lo que pide la norma: hay que cubrirla total y eficazmente.",
+        "b": "Que no supere la altura de la caja no basta: la arena puede levantar polvo o caer igualmente, y por eso debe ir siempre cubierta."
+      },
+      "truco": "Si vuela o se cae, va tapada.",
+      "huella": "a46fde5d9ab1"
+    },
+    {
+      "id": "bm9-0009",
+      "porque": "La carga debe ir colocada de forma que no oculte los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios ni las advertencias que el conductor hace con el brazo. Tapar las luces traseras y la matrícula no está permitido.",
+      "descartes": {
+        "a": "Que la carga vaya bien sujeta es otra obligación distinta; aunque vaya bien sujeta, tampoco puede tapar luces ni placas.",
+        "c": "La norma no hace ninguna excepción de día: la carga no puede ocultar luces, placas ni distintivos en ningún momento."
+      },
+      "truco": null,
+      "huella": "39f585d8c344"
+    },
+    {
+      "id": "bm9-0015",
+      "porque": "Antes de empezar a conducir con hielo en los cristales, el manual indica rascarlo de todos los cristales, sin rayarlos, y limpiar los espejos retrovisores. Necesitas ver bien por todos lados desde el primer metro.",
+      "descartes": {
+        "a": "Limpiar solo la zona del conductor no basta: el manual dice rascar el hielo de todos los cristales.",
+        "c": "El manual indica quitar el hielo antes de empezar a conducir, no ir esperando a que se derrita."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con hielo (p. 359)",
+          "cita": "Limpiar los espejos retrovisores."
+        }
+      ],
+      "huella": "3a2756219095"
+    },
+    {
+      "id": "bm9-0002",
+      "porque": "La regla general es que los cristales deben permitir una visión diáfana, sin láminas ni adhesivos. Por eso las láminas o cortinillas contra el sol en las ventanillas de atrás solo se permiten si el vehículo lleva dos espejos retrovisores exteriores que cumplan las especificaciones técnicas: así se compensa la visión que se pierde por detrás.",
+      "descartes": {
+        "b": "Sí se permiten en un caso: cuando el vehículo lleva dos retrovisores exteriores que cumplen las especificaciones técnicas.",
+        "c": "La norma no lo condiciona a que sea de día, sino a llevar dos retrovisores exteriores reglamentarios."
+      },
+      "truco": "Si tapas la visión de atrás, necesitas dos espejos exteriores.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "19.1",
+          "cita": "La superficie acristalada del vehículo deberá permitir, en todo caso, la visibilidad\ndiáfana del conductor sobre toda la vía por la que circule, sin interferencias de láminas o\nadhesivos."
+        }
+      ],
+      "huella": "a80dfec8ef77"
+    },
+    {
+      "id": "bm9-0007",
+      "porque": "Las motocicletas, los vehículos de tres ruedas y los ciclomotores pueden arrastrar un remolque, pero su masa no puede superar el 50 % de la masa en vacío del vehículo que lo arrastra. Además, solo de día y con buena visibilidad, sin llevar personas en el remolque y reduciendo un 10 % la velocidad genérica.",
+      "descartes": {
+        "a": "750 kg es la cifra del remolque ligero; para una moto el límite no es una cifra fija, sino el 50 % de su masa en vacío.",
+        "b": "El 100 % es el doble de lo permitido: el remolque de una moto no puede superar la mitad de su masa en vacío."
+      },
+      "truco": "Moto con remolque, regla de la mitad: el remolque, como mucho, la mitad de la moto en vacío; y la velocidad, un 10 % menos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "12.3",
+          "cita": "a) Que la circulación sea de día y en condiciones que no disminuyan la visibilidad."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "12.3.c",
+          "cita": "Que en ningún caso transporten personas en el vehículo remolcado."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo I.21",
+          "cita": "Remolque ligero. Aquél cuya masa máxima autorizada no exceda de 750 kg."
+        }
+      ],
+      "huella": "a4730a2cd455"
+    },
+    {
+      "id": "bm9-0008",
+      "porque": "Cuando una motocicleta arrastra un remolque, la velocidad máxima queda reducida en un 10 % respecto a la velocidad genérica fijada para ella. Además solo puede hacerlo de día, con buena visibilidad y sin llevar personas en el remolque.",
+      "descartes": {
+        "b": "Sí le afecta: la norma obliga a reducir un 10 % la velocidad genérica.",
+        "c": "45 km/h no es el límite de una moto con remolque; la norma no fija una cifra, sino un 10 % menos que su velocidad genérica."
+      },
+      "truco": "Moto con remolque, regla de la mitad: el remolque, como mucho, la mitad de la moto en vacío; y la velocidad, un 10 % menos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "12.3",
+          "cita": "a) Que la circulación sea de día y en condiciones que no disminuyan la visibilidad."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "12.3.c",
+          "cita": "Que en ningún caso transporten personas en el vehículo remolcado."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "12.3",
+          "cita": "siempre que no superen el 50 por ciento de la masa en vacío del\nvehículo tractor"
+        }
+      ],
+      "huella": "73e205c2ec7b"
+    },
+    {
+      "id": "bm9-0006",
+      "porque": "Quien conduce un vehículo pesado, de grandes dimensiones u obligado a un límite específico de velocidad no puede limitarse a esperar: si por el tráfico de frente, la anchura o el estado de la calzada no pueden adelantarle con facilidad y sin peligro, debe aminorar la marcha o apartarse cuanto antes al arcén, si es practicable, para dejar paso.",
+      "descartes": {
+        "a": "La norma obliga precisamente al vehículo pesado a facilitar el paso; no puede limitarse a mantener la velocidad.",
+        "c": "Acelerar no es lo que pide la norma, que obliga a aminorar la marcha o apartarse. Además, a quien va a ser adelantado se le prohíbe aumentar la velocidad."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "86.2",
+          "cita": "Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o\nefectuar maniobras que impidan o dificulten el adelantamiento."
+        }
+      ],
+      "huella": "8ecd176f2020"
+    },
+    {
+      "id": "bm9-0003",
+      "porque": "Los vidrios tintados o coloreados que no estén homologados están prohibidos en todo caso: la norma no admite ninguna excepción, ni por la ventanilla ni por llevar retrovisores.",
+      "descartes": {
+        "a": "La prohibición no depende de la ventanilla: los vidrios no homologados están prohibidos en todo caso.",
+        "c": "Los dos retrovisores exteriores son la condición para llevar láminas o cortinillas en las ventanillas de atrás, no para poner vidrios no homologados, que están prohibidos en todo caso."
+      },
+      "truco": "Láminas o cortinillas atrás: sí, con dos retrovisores exteriores. Vidrios no homologados: no, en ningún caso.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "19.1",
+          "cita": "Únicamente se permitirá circular con láminas adhesivas o cortinillas contra el sol en las\nventanillas posteriores cuando el vehículo lleve dos espejos retrovisores exteriores que\ncumplan las especificaciones técnicas necesarias."
+        }
+      ],
+      "huella": "1103a0bdd308"
+    },
+    {
+      "id": "bm9-0013",
+      "porque": "El viento fuerte, sobre todo de lado, puede hacer que el vehículo pierda el control, vuelque o se salga de la carretera. Según el manual, afecta más a los vehículos de dos ruedas y a los que llevan un remolque.",
+      "descartes": {
+        "a": "La cilindrada no es lo que señala el manual: los más afectados son los vehículos de dos ruedas y los que llevan remolque.",
+        "b": "No afecta a todos por igual: el manual señala expresamente a los vehículos de dos ruedas y a los que llevan remolque."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con mucho viento (p. 361)",
+          "cita": "porque puede hacer que el vehículo pierda el control,\nvuelque o se salga de la carretera."
+        }
+      ],
+      "huella": "23c3c1cd2c15"
+    },
+    {
+      "id": "bm9-0004",
+      "porque": "La regla general es que los cristales del vehículo deben permitir en todo caso que el conductor vea de forma diáfana toda la vía, sin interferencias de láminas o adhesivos. Las excepciones son concretas y las fija la norma, como las láminas en las ventanillas de atrás con dos retrovisores exteriores.",
+      "descartes": {
+        "a": "La norma no permite adhesivos «hasta la mitad» de la luna: exige una visión diáfana, sin interferencias de láminas o adhesivos, salvo excepciones concretas.",
+        "b": "No basta con la zona del conductor: la visión diáfana debe ser sobre toda la vía por la que se circula."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "19.1",
+          "cita": "Únicamente se permitirá circular con láminas adhesivas o cortinillas contra el sol en las\nventanillas posteriores cuando el vehículo lleve dos espejos retrovisores exteriores que\ncumplan las especificaciones técnicas necesarias."
+        }
+      ],
+      "huella": "f47e31a25cd9"
+    },
+    {
+      "id": "x1b-0085",
+      "porque": "La R-503 es una señal de fin de prohibición: marca el lugar desde el que deja de aplicarse una señal anterior de adelantamiento prohibido para camiones. A partir de ahí, un camión de más de 3.500 kg vuelve a poder adelantar, siempre que se cumplan las normas generales del adelantamiento.",
+      "descartes": {
+        "a": "El comienzo de esa prohibición lo marca la R-306, la señal de adelantamiento prohibido para camiones. La R-503 marca su final.",
+        "c": "La R-503 no se refiere al resto de vehículos: solo pone fin a la prohibición de adelantar para camiones."
+      },
+      "truco": "Es el mismo dibujo de la R-306 (camión y turismo), pero sin el borde rojo y cruzado por franjas diagonales: las franjas indican el fin de esa prohibición.",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, catálogo de señales, R-306",
+          "cita": "R-306 Adelantamiento prohibido para camiones\n\nProhibición a los camiones cuya masa máxima autorizada\nexceda de 3.500 kilogramos de adelantar"
+        }
+      ],
+      "huella": "ef2bdf189afb"
+    },
+    {
+      "id": "xd-0103",
+      "porque": "Los vehículos que deben circular por el arcén, como los ciclomotores, solo pueden adelantarse entre sí si la marcha en paralelo no dura más de 15 segundos ni supera los 200 metros. La excepción son las bicicletas, a las que no se aplica este límite.",
+      "descartes": {
+        "a": "30 segundos y 500 metros no son las cifras de la norma: el límite es de 15 segundos y 200 metros.",
+        "b": "Sí hay límite precisamente porque los dos van por el arcén: 15 segundos o 200 metros en paralelo como máximo."
+      },
+      "truco": "Adelantar en el arcén: 15 segundos o 200 metros, lo que llegue antes. Las bicicletas no tienen este límite.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.5",
+          "cita": "El conductor de cualquiera de los vehículos enumerados en el párrafo primero del\napartado 1 del presente artículo, excepto las bicicletas"
+        }
+      ],
+      "huella": "49966fe7c55b"
+    },
+    {
+      "id": "xd-0104",
+      "porque": "Un vehículo especial que no excede las masas ni las dimensiones reglamentarias puede circular por autopistas y autovías si, por sus características, puede superar 60 km/h en llano y cumple las condiciones del anexo III del reglamento. Si las excede, solo excepcionalmente y cuando lo indique su autorización complementaria.",
+      "descartes": {
+        "a": "No es un «nunca»: pueden hacerlo si superan 60 km/h en llano y cumplen el anexo III, o si lo indica su autorización cuando exceden masas o dimensiones.",
+        "b": "La señal V-2 indica la presencia del vehículo en la vía, pero no le da acceso a la autovía; lo que cuenta es que pueda superar 60 km/h en llano y cumpla el anexo III."
+      },
+      "truco": "Vehículo especial en autovía: o pasa de 60 km/h en llano, o necesita autorización que lo diga.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "38.3",
+          "cita": "podrán circular,\nexcepcionalmente, por autopistas y autovías cuando así se indique en la autorización\ncomplementaria de la que deben ir provistos"
+        }
+      ],
+      "huella": "1e6a7896190d"
+    },
+    {
+      "id": "x1a-0088",
+      "porque": "Los vehículos especiales solo pueden usar la vía para desplazarse y no pueden circular transportando carga alguna. La excepción son los destinados específicamente a servicios de transporte especial, que necesitan la autorización oportuna.",
+      "descartes": {
+        "a": "Que la carga no sobresalga no cambia nada: la regla es que el vehículo especial no puede llevar carga alguna.",
+        "b": "La velocidad tampoco cambia nada: la prohibición de llevar carga no depende de ella."
+      },
+      "truco": null,
+      "huella": "59009bdd93a1"
+    },
+    {
+      "id": "x1a-0089",
+      "porque": "Los vehículos especiales o en régimen de transporte especial que circulan por vías públicas a 40 km/h o menos deben llevar encendida la señal luminosa V-2 tanto de día como de noche. A 35 km/h, por tanto, siempre.",
+      "descartes": {
+        "b": "La norma no limita la V-2 a la noche: a 40 km/h o menos va encendida también de día.",
+        "c": "La niebla o la lluvia no son la condición: lo que cuenta es circular a 40 km/h o menos, y entonces la V-2 va encendida de día y de noche."
+      },
+      "truco": "Vehículo especial a 40 km/h o menos: V-2 encendida de día y de noche. Si se avería, luz de cruce y emergencia.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "71.3",
+          "cita": "En\ncaso de avería de esta señal, deberá utilizarse la luz de cruce junto con las luces indicadoras\nde dirección con señal de emergencia."
+        }
+      ],
+      "huella": "69bef4ddfd70"
+    },
+    {
+      "id": "x1a-0090",
+      "porque": "Un vehículo especial que circula a 40 km/h o menos debe advertir su presencia con la V-2. Si esa señal se avería, la norma fija el sustituto: la luz de cruce junto con los intermitentes en señal de emergencia.",
+      "descartes": {
+        "a": "Las luces de largo alcance no son el sustituto que fija la norma y podrían deslumbrar; lo que se usa es la luz de cruce con la señal de emergencia.",
+        "c": "Las antiniebla no son el sustituto de la V-2; la norma exige la luz de cruce junto con la señal de emergencia."
+      },
+      "truco": "Vehículo especial a 40 km/h o menos: V-2 encendida de día y de noche. Si se avería, luz de cruce y emergencia.",
+      "huella": "c56161b37d08"
+    },
+    {
+      "id": "x1a-0091",
+      "porque": "Una grúa que interrumpe u obstaculiza la circulación mientras retira un vehículo enciende la V-2 únicamente para indicar su situación a los demás usuarios. La V-2 es la señal de vehículo-obstáculo: avisa de que está ahí, no le da ninguna prioridad.",
+      "descartes": {
+        "b": "La V-2 no convierte a la grúa en vehículo prioritario. La señal de los prioritarios es la V-1, de luz azul.",
+        "c": "Los adelantamientos se avisan con los intermitentes o con el brazo, no con la V-2, que solo indica la situación del vehículo."
+      },
+      "truco": "V-1, azul: vehículo prioritario. V-2, amarillo auto: vehículo-obstáculo (trabajando, parado o a 40 km/h como mucho).",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-1.3",
+          "cita": "La señal luminosa de vehículo prioritario V-1 estará constituida por un dispositivo\nluminoso, con una o varias luces, de color azul"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-2.1",
+          "cita": "en situación de parada o estacionamiento, o a una velocidad que no supere los 40 kilómetros\npor hora."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "108.2",
+          "cita": "Como norma general, dichas advertencias se harán utilizando la señalización\nluminosa del vehículo o, en su defecto, con el brazo"
+        }
+      ],
+      "huella": "d453ce1c611b"
+    },
+    {
+      "id": "xd-0117",
+      "porque": "Un vehículo en régimen de transporte especial debe suspender la circulación saliendo de la plataforma cuando hay fenómenos atmosféricos adversos que supongan un riesgo o cuando la visibilidad no llega a 150 metros, tanto hacia delante como hacia atrás. Con niebla por debajo de 150 metros no puede seguir.",
+      "descartes": {
+        "b": "Con menos de 150 metros de visibilidad no se trata de encender más luces: la norma obliga a suspender la circulación.",
+        "c": "Reducir la velocidad no basta: por debajo de 150 metros de visibilidad la circulación debe suspenderse."
+      },
+      "truco": "Transporte especial: si no ves 150 metros, fuera de la carretera.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo III, sección 1.ª, 6",
+          "cita": "o cuando no exista una visibilidad de 150 m, como mínimo, tanto hacia delante como hacia\natrás."
+        }
+      ],
+      "huella": "1e1dbc13fd55"
+    },
+    {
+      "id": "xd-0118",
+      "porque": "Los vehículos especiales y los de transporte especial deben mantener una separación mínima de 50 metros con el vehículo que les precede y facilitar el adelantamiento a los más rápidos, deteniéndose si hace falta. Así, quien los quiere adelantar tiene hueco para volver a su carril.",
+      "descartes": {
+        "b": "100 metros no es la cifra de la norma: la separación mínima es de 50 metros.",
+        "c": "25 metros es menos de lo exigido: la separación mínima es de 50 metros."
+      },
+      "truco": null,
+      "huella": "253b058fa1d2"
+    },
+    {
+      "id": "x1a-0087",
+      "porque": "La regla general es que los vehículos especiales solo pueden usar la vía para desplazarse, no para trabajar. Las excepciones son los que trabajan en la construcción, reparación o conservación de la propia vía, solo en la zona de las obras, y los destinados a remolcar vehículos accidentados, averiados o mal estacionados.",
+      "descartes": {
+        "a": "La V-2 avisa de la presencia del vehículo, pero no le autoriza a trabajar en la vía; eso depende de que sea uno de los casos de excepción.",
+        "b": "Situarse en el arcén no cambia la regla: fuera de las excepciones, el vehículo especial solo puede usar la vía para desplazarse."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "71.1",
+          "cita": "con excepción de los que realicen trabajo de construcción,"
+        }
+      ],
+      "huella": "2b54cab63694"
+    },
+    {
+      "id": "xd-0110",
+      "porque": "La V-2 (vehículo-obstáculo en la vía) es de color amarillo auto y debe verse en todas las direcciones desde 100 metros. La llevan vehículos que trabajan en la vía, parados o a 40 km/h como mucho.",
+      "descartes": {
+        "a": "El azul es el color de la V-1, la señal de vehículo prioritario (policía, bomberos, ambulancias en servicio urgente).",
+        "c": "El rojo no es el color de la V-2, que es amarillo auto."
+      },
+      "truco": "V-1, azul: vehículo prioritario. V-2, amarillo auto: vehículo-obstáculo (trabajando, parado o a 40 km/h como mucho).",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-2.3",
+          "cita": "Deberá ser visible en todas las direcciones, desde una distancia de 100 metros."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-1.3",
+          "cita": "La señal luminosa de vehículo prioritario V-1 estará constituida por un dispositivo\nluminoso, con una o varias luces, de color azul"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-2.1",
+          "cita": "en situación de parada o estacionamiento, o a una velocidad que no supere los 40 kilómetros\npor hora."
+        }
+      ],
+      "huella": "12c60c1e5234"
+    },
+    {
+      "id": "xd-0111",
+      "porque": "La V-4 indica la velocidad que el vehículo no debe superar. Es obligatoria en la parte de atrás en tres casos: para ciertos conductores por sus circunstancias personales, para los vehículos especiales y sus conjuntos, y para los vehículos que necesitan autorización especial para circular.",
+      "descartes": {
+        "b": "La norma no exige la V-4 a todos los camiones de más de 3.500 kg; la exige a vehículos especiales, a los que necesitan autorización especial y a ciertos conductores.",
+        "c": "Llevar un remolque ligero no está entre los casos en que la norma exige la V-4."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-4.2",
+          "cita": "a) Para determinados conductores, en razón a sus circunstancias personales."
+        }
+      ],
+      "huella": "c420ca183308"
+    },
+    {
+      "id": "xd-0112",
+      "porque": "La V-5 (vehículo lento) indica que el vehículo, por construcción, no puede pasar de 40 km/h. La norma la hace optativa para los vehículos que deben llevar la V-4 de limitación de velocidad, como los vehículos especiales; un tractor es uno de ellos.",
+      "descartes": {
+        "a": "Lo obligatorio para todos los vehículos especiales es la V-4 de limitación de velocidad, no la V-5, que para ellos es optativa.",
+        "b": "La norma no la hace obligatoria de noche: para estos vehículos es optativa, sin distinguir día y noche."
+      },
+      "truco": "V-4 (la cifra de velocidad): obligatoria para los vehículos especiales. V-5 (el triángulo de vehículo lento): optativa para quien ya lleva la V-4.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-4.2",
+          "cita": "b) Para vehículos especiales y conjuntos de vehículos, también especiales, aunque sólo\ntenga tal naturaleza uno de los que integran el conjunto."
+        }
+      ],
+      "huella": "d88174e0e582"
+    },
+    {
+      "id": "xd-0123",
+      "porque": "Fuera de poblado, en calzadas con tres o más carriles en tu sentido, los conjuntos de más de 7 metros (como turismo con caravana de 9 metros) circulan normalmente por el carril de la derecha y pueden usar el inmediato cuando el tráfico o la vía lo aconsejen, sin entorpecer a quien venga detrás.",
+      "descartes": {
+        "a": "La limitación existe precisamente para estos conjuntos de más de 7 metros: no pueden usar con normalidad el carril de la izquierda.",
+        "b": "No es solo el de la derecha: también pueden usar el inmediato en las mismas condiciones."
+      },
+      "truco": "Tres carriles o más: camiones y furgones de más de 3.500 kg, vehículos especiales que no deban ir por el arcén y conjuntos de más de 7 metros usan los dos de la derecha.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "31.2",
+          "cita": "los conductores de camiones o furgones con masa máxima autorizada superior a 3.500\nkilogramos, los de vehículos especiales que no estén obligados a circular por el arcén y los\nde conjuntos de vehículos de más de siete metros de longitud"
+        }
+      ],
+      "huella": "6d35764232de"
+    },
+    {
+      "id": "xd-0101",
+      "porque": "La frontera está en 3.500 kg. Los vehículos especiales de hasta 3.500 kg de masa máxima autorizada van por el arcén derecho si es transitable y suficiente; los de más de 3.500 kg, como uno de 5.000 kg, circulan por la calzada y no por el arcén, salvo por razones de emergencia.",
+      "descartes": {
+        "b": "Ir por el arcén derecho es la regla de los vehículos especiales de hasta 3.500 kg, no de uno de 5.000 kg.",
+        "c": "La norma no usa aquí la velocidad: lo que decide es la masa máxima autorizada, y con 5.000 kg se circula por la calzada."
+      },
+      "truco": "Vehículo especial: hasta 3.500 kg, al arcén; de más de 3.500 kg, a la calzada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "36.1",
+          "cita": "Los conductores de vehículos de tracción animal, vehículos especiales con masa\nmáxima autorizada no superior a 3.500 kilogramos"
+        }
+      ],
+      "huella": "69cc27e96276"
+    },
+    {
+      "id": "xd-0113",
+      "porque": "El distintivo V-11 de mercancías peligrosas se fija en la parte delantera y en la trasera de la unidad de transporte, perpendicular a su eje y bien visible. Algunos vehículos, como las cisternas, llevan además otros dos en los costados.",
+      "descartes": {
+        "a": "No va solo detrás: el V-11 se coloca delante y detrás de la unidad de transporte.",
+        "c": "La norma no lo coloca en el techo de la cabina, sino delante y detrás de la unidad de transporte."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-11.2",
+          "cita": "a) Los vehículos cisterna o las unidades de transporte que consten de una o varias\ncisternas"
+        }
+      ],
+      "huella": "9fbd5085303f"
+    },
+    {
+      "id": "xd-0116",
+      "porque": "Aunque lleves bien colocados los retrovisores, a los dos lados del vehículo siempre hay una zona que no ves con ellos: el ángulo muerto. Por eso, antes de cambiar de carril, conviene girar la cabeza y mirar por la ventanilla.",
+      "descartes": {
+        "a": "Ni con los espejos bien regulados se ve todo: a los dos lados queda siempre el ángulo muerto.",
+        "c": "El ángulo muerto está precisamente a los lados del vehículo, a los dos."
+      },
+      "truco": "Antes de cambiar de carril: espejo y, además, giro de cabeza.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Visión (p. 443)",
+          "cita": "puedes girar la cabeza y mirar a través\nde la ventanilla."
+        }
+      ],
+      "huella": "faa9b263ef6d"
+    },
+    {
+      "id": "xd-0092",
+      "porque": "Los cristales del habitáculo que afectan al campo de visión del conductor no deben deformar apreciablemente los objetos que se ven a través de ellos ni hacer confundir los colores de las señales. Tienen que dejarte ver la vía y las señales tal como son.",
+      "descartes": {
+        "a": "La norma no exige ningún tintado oscuro; al contrario, los vidrios tintados no homologados están prohibidos en todo caso.",
+        "c": "No se exige ninguna lámina antirreflejos; la regla general es que la visión sea diáfana, sin interferencias de láminas o adhesivos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "19.2",
+          "cita": "Queda prohibida, en todo caso, la colocación de vidrios tintados o coloreados no\nhomologados."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "19.1",
+          "cita": "La superficie acristalada del vehículo deberá permitir, en todo caso, la visibilidad\ndiáfana del conductor sobre toda la vía por la que circule, sin interferencias de láminas o\nadhesivos."
+        }
+      ],
+      "huella": "403bbfa8ddca"
+    },
+    {
+      "id": "xd-0091",
+      "porque": "Los distintivos que exige la legislación de transportes u otras normas son obligatorios, pero se colocan de forma que no impidan la correcta visión del conductor. Que sean obligatorios no permite ponerlos en cualquier sitio.",
+      "descartes": {
+        "b": "El centro del parabrisas a la altura de los ojos es justo donde más estorbaría la visión del conductor.",
+        "c": "Que el distintivo sea obligatorio no permite ponerlo en cualquier sitio: debe colocarse sin impedir la correcta visión del conductor."
+      },
+      "truco": null,
+      "huella": "37bc75c4e21b"
+    },
+    {
+      "id": "xb-0073",
+      "porque": "Cuando entregas tu coche a un compraventa para que lo venda, no lo transmites todavía a un comprador concreto. La norma te pide solicitar en diez días desde la entrega la baja temporal del vehículo; el compraventa figura como poseedor hasta que se venda.",
+      "descartes": {
+        "b": "La baja definitiva es para retirar el vehículo permanentemente de la circulación, no para dejarlo en venta.",
+        "c": "Si el compraventa quiere figurar como titular puede pedirlo, pero lo que la norma exige a quien entrega el coche en diez días es la baja temporal."
+      },
+      "truco": "Diez días para quien se desprende del coche: notificar la venta a un particular o pedir la baja temporal si lo deja en un compraventa.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "33.6",
+          "cita": "Si el compraventa solicita figurar como titular del vehículo en el Registro, se seguirá la\ntramitación establecida en el artículo 32 del presente Reglamento."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "35.1",
+          "cita": "manifiesten expresamente la voluntad de retirarlos permanentemente de la circulación."
+        }
+      ],
+      "huella": "98df167cfc05"
+    },
+    {
+      "id": "xb-0074",
+      "porque": "La baja temporal voluntaria dura como máximo un año desde la solicitud (salvo los vehículos agrícolas). Si pasa ese año sin pedir prórroga, la baja termina y el vehículo vuelve a estar en situación activa.",
+      "descartes": {
+        "a": "Seis meses no es el plazo de la norma: la baja temporal voluntaria dura como máximo un año.",
+        "c": "Sí tiene límite: un año. Sin límite solo están los vehículos agrícolas, que siguen de baja hasta que su titular cambie la situación."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "36.1.a",
+          "cita": "excepto en los vehículos agrícolas cuya duración será hasta que\nel titular cambie su situación a baja definitiva, alta, o se produzca un cambio de titularidad."
+        }
+      ],
+      "huella": "ba083a28131e"
+    },
+    {
+      "id": "xb-0075",
+      "porque": "Si te roban el coche, puedes pedir su baja temporal en Tráfico, siempre que acredites que has presentado la denuncia. Es una baja temporal porque el vehículo puede aparecer.",
+      "descartes": {
+        "a": "La norma prevé expresamente la baja temporal por sustracción; la definitiva no es la única opción.",
+        "b": "No hay que esperar un año: basta con acreditar que se ha presentado la denuncia."
+      },
+      "truco": null,
+      "huella": "0d198919add9"
+    },
+    {
+      "id": "xb-0076",
+      "porque": "La baja definitiva no la pide siempre el titular: Tráfico puede acordarla de oficio en algunos casos. Uno es cuando se presume que el vehículo no existe o no circula porque en los últimos diez años no ha pasado la ITV obligatoria ni ha tenido seguro obligatorio. Si después cumple los requisitos, puede rehabilitarse.",
+      "descartes": {
+        "b": "Tráfico también puede acordar la baja de oficio, por ejemplo por diez años sin ITV ni seguro o por vehículos abandonados.",
+        "c": "Un año sin ITV no basta para esta baja de oficio: hacen falta diez años sin ITV ni seguro obligatorio."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "35.5",
+          "cita": "Esta baja\ndefinitiva de oficio, en cualquier caso, no impide que si el vehículo cumple a posteriori las\ncondiciones para poder volver a obtener la autorización administrativa para circular, pueda\nser rehabilitado."
+        }
+      ],
+      "huella": "b363a899094b"
+    },
+    {
+      "id": "xb-0068",
+      "porque": "Quien vende un vehículo matriculado en España debe notificarlo a Tráfico en diez días desde la transmisión. Si no lo hace, sigue siendo considerado titular a efectos de tráfico hasta que el vehículo se inscriba a nombre de otra persona.",
+      "descartes": {
+        "a": "Treinta días es el plazo del comprador para pedir el permiso de circulación a su nombre, no el del vendedor.",
+        "c": "Tres meses no es ningún plazo de la venta: el vendedor tiene diez días y el comprador treinta."
+      },
+      "truco": "Quien vende, diez días; quien compra, treinta. El que se desprende del coche tiene menos plazo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "32.3",
+          "cita": "dentro del plazo de treinta días desde la adquisición, la renovación del permiso o licencia de circulación"
+        }
+      ],
+      "huella": "aba65e349963"
+    },
+    {
+      "id": "xb-0069",
+      "porque": "Si el vendedor no notifica la venta, sigue siendo considerado titular del vehículo a efectos de tráfico mientras no se inscriba a nombre de otra persona, y además puede ser sancionado. Por eso interesa notificarla en los diez días.",
+      "descartes": {
+        "a": "Para Tráfico, el comprador no es titular desde el día de la venta: mientras no se inscriba a su nombre, la norma sigue considerando titular al vendedor que no notificó.",
+        "b": "Siempre hay un titular: si no se notifica la venta, lo sigue siendo el vendedor."
+      },
+      "truco": "Quien vende, diez días; quien compra, treinta. El que se desprende del coche tiene menos plazo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "32.1",
+          "cita": "en el plazo de diez días desde la transmisión"
+        }
+      ],
+      "huella": "14895bea1cc1"
+    },
+    {
+      "id": "xb-0070",
+      "porque": "El comprador debe pedir en Tráfico la renovación del permiso de circulación a su nombre dentro de los treinta días desde la adquisición, y mientras no lo tenga el vehículo no puede circular. Si pasan los treinta días sin pedirlo, se ordena su inmovilización y se abre un procedimiento sancionador.",
+      "descartes": {
+        "b": "Diez días es el plazo del vendedor para notificar la venta, no el del comprador.",
+        "c": "Seis meses no es ningún plazo de la compraventa: el comprador tiene treinta días."
+      },
+      "truco": "Quien vende, diez días; quien compra, treinta. El que se desprende del coche tiene menos plazo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "32.1",
+          "cita": "en el plazo de diez días desde la transmisión"
+        }
+      ],
+      "huella": "40a577d8205f"
+    },
+    {
+      "id": "xb-0071",
+      "porque": "Cuando fallece el titular, la persona que custodia el vehículo hasta que se adjudique a un heredero debe notificarlo a Tráfico antes de que pasen noventa días desde la defunción. Después, quien resulte adjudicatario tiene otros noventa días para pedir el permiso de circulación a su nombre.",
+      "descartes": {
+        "a": "Diez días es el plazo para notificar una venta, no el del fallecimiento del titular, que es de noventa días.",
+        "c": "Sí hay plazo fijo: noventa días desde la defunción, sin esperar al reparto de la herencia."
+      },
+      "truco": "Fallecimiento: noventa días para avisar y noventa para el heredero que se queda el vehículo.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "32.6",
+          "cita": "El que resulte adjudicatario definitivo del vehículo quedará obligado a solicitar, en el\nplazo de noventa días"
+        }
+      ],
+      "huella": "a651fa7d4761"
+    },
+    {
+      "id": "C-doc-0003",
+      "porque": "Quien conduce debe llevar y enseñar a los agentes que se lo pidan dos documentos del vehículo: el permiso de circulación (o la autorización provisional de Tráfico) y la tarjeta de inspección técnica. Si lleva un remolque de hasta 750 kg, también la tarjeta ITV del remolque.",
+      "descartes": {
+        "b": "El permiso de circulación solo no basta: también hay que llevar la tarjeta de inspección técnica.",
+        "c": "La factura de compra no está entre los documentos que la norma obliga a llevar; el que falta es el permiso de circulación."
+      },
+      "truco": "Coche: permiso de circulación y tarjeta ITV. Ciclomotor: licencia de circulación y certificado de características.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "26.1.b",
+          "cita": "La tarjeta de inspección técnica o el certificado de características técnicas en el\nsupuesto de ciclomotores."
+        }
+      ],
+      "huella": "e080d9ff57c9"
+    },
+    {
+      "id": "C-doc-0004",
+      "porque": "Los ciclomotores tienen sus propios documentos: en lugar de la tarjeta de inspección técnica llevan el certificado de características técnicas, y en lugar del permiso de circulación, la licencia de circulación.",
+      "descartes": {
+        "a": "En un ciclomotor, el permiso de circulación tampoco existe como tal: se sustituye por la licencia de circulación. Y ese documento no sustituye a la tarjeta ITV.",
+        "c": "Los ciclomotores sí necesitan documentación técnica: el certificado de características técnicas."
+      },
+      "truco": "Coche: permiso de circulación y tarjeta ITV. Ciclomotor: licencia de circulación y certificado de características.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "26.1.a",
+          "cita": "El permiso de circulación o licencia de circulación en el caso de ciclomotores."
+        }
+      ],
+      "huella": "a785d0a93a2e"
+    },
+    {
+      "id": "C-doc-0005",
+      "porque": "La regla general es llevar los documentos originales, pero la norma admite sustituirlos por fotocopias si están debidamente cotejadas. Una fotocopia normal, sin cotejar, no vale.",
+      "descartes": {
+        "a": "No siempre hace falta el original: la norma admite fotocopias debidamente cotejadas.",
+        "b": "No vale cualquier fotocopia: tiene que estar debidamente cotejada."
+      },
+      "truco": null,
+      "huella": "3b6f36f66bc3"
+    },
+    {
+      "id": "xb-0072",
+      "porque": "Al expedirse un duplicado del permiso de circulación, el original queda anulado por sí solo. Si después lo encuentras, no recupera su validez: debe destruirse de inmediato.",
+      "descartes": {
+        "a": "Es al revés: el que queda anulado es el original, desde el momento en que se expide el duplicado.",
+        "b": "El original ya no vale, porque quedó anulado al expedirse el duplicado. Solo sirve el duplicado."
+      },
+      "truco": "Permiso de circulación del coche: el original aparecido se destruye. Permiso de conducir: el original aparecido se devuelve a Tráfico.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "11.3",
+          "cita": "deberá devolver el original de éste, cuando lo encuentre, a la Jefatura Provincial de Tráfico que lo hubiere expedido."
+        }
+      ],
+      "huella": "7f39db3e9cff"
+    },
+    {
+      "id": "res-itv-0001",
+      "porque": "Un turismo particular está exento de ITV sus primeros 4 años, la pasa cada dos años entre los 4 y los 10, y cada año a partir de los 10. La antigüedad se cuenta desde la primera matriculación. Taxis, ambulancias, autoescuelas y transporte escolar tienen plazos más cortos.",
+      "descartes": {
+        "a": "Exento hasta los 2 años y luego cada año se parece al calendario de los coches de autoescuela, no al de un turismo particular.",
+        "b": "Cada año desde la matriculación no es el calendario de ningún turismo particular; los taxis, por ejemplo, la pasan cada año hasta los cinco."
+      },
+      "truco": "Turismo particular: 4 libres, de 4 a 10 cada dos años, más de 10 cada año.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "6.1",
+          "cita": "b) Vehículos de la categoría M1 utilizados como ambulancias y taxis, y de transporte\nescolar y de menores.\nAntigüedad:\nHasta cinco años: Anual."
+        },
+        {
+          "norma": "ITV",
+          "articulo": "6.1",
+          "cita": "la antigüedad del vehículo deberá ser\ncomputada a partir de la fecha de primera matriculación"
+        },
+        {
+          "norma": "ITV",
+          "articulo": "6.1.a",
+          "cita": "a) Vehículos de escuela de conductores de las categorías M1 y L:\nAntigüedad:\nHasta dos años: Exento.\nDe dos a cinco años: Anual."
+        }
+      ],
+      "huella": "853a77d1fb24"
+    },
+    {
+      "id": "res-itv-0002",
+      "porque": "Las furgonetas y demás vehículos de mercancías de hasta 3,5 toneladas (N1) se usan más y su calendario es más exigente que el del turismo: exentas hasta 2 años, cada dos años de 2 a 6, cada año de 6 a 10 y cada seis meses a partir de 10.",
+      "descartes": {
+        "b": "Exenta hasta 4 años y luego cada dos años se parece al calendario de las motos; no es el de las furgonetas N1.",
+        "c": "Cada año desde la matriculación no es el calendario de la N1, que está exenta los dos primeros años."
+      },
+      "truco": "Furgoneta N1, la escalera 2-6-10: exenta hasta 2; cada dos años hasta 6; cada año hasta 10; después, cada seis meses.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "6.1 (tabla)",
+          "cita": "Resto L: Vehículos de motor de dos o tres ruedas, gemelas o no, y cuadriciclos, destinados a circular\nHasta 4 años: Exento."
+        }
+      ],
+      "huella": "8eca0e76d980"
+    },
+    {
+      "id": "res-itv-0003",
+      "porque": "Las motocicletas pasan ITV: están exentas los primeros 4 años y después la pasan cada dos años. Los ciclomotores de dos ruedas tienen otro calendario: exentos hasta 3 años y después cada dos.",
+      "descartes": {
+        "a": "Las motos sí pasan ITV, a partir de los 4 años y cada dos años.",
+        "c": "Cada año desde la matriculación no es el calendario de las motos: están exentas los cuatro primeros años."
+      },
+      "truco": "Dos ruedas, cada dos años: la moto empieza a los 4 y el ciclomotor a los 3.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "6.1 (tabla)",
+          "cita": "L1e: Ciclomotores: vehículos de dos ruedas con una velocidad máxima por construcción no superior\na 45 km/h, de cilindrada inferior a igual a 50 cm3(combustión interna) o potencia continua nominal\nHasta 3 años: Exento."
+        }
+      ],
+      "huella": "13b1350926d2"
+    },
+    {
+      "id": "res-itv-0005",
+      "porque": "Con defectos muy graves la ITV es negativa y el vehículo queda inhabilitado para circular: ni siquiera puede ir conduciendo al taller, así que sale de la estación por medios ajenos, como una grúa. Una vez reparado, tiene dos meses desde la primera inspección para volver.",
+      "descartes": {
+        "b": "Ir conduciendo, de día o de noche, no está permitido con una ITV negativa: el vehículo queda inhabilitado para circular.",
+        "c": "Ir conduciendo al taller es lo que se permite con la ITV desfavorable (defectos graves), no con la negativa."
+      },
+      "truco": "Desfavorable: vas tú al taller. Negativa: ni conduciendo al taller, grúa. En los dos casos, dos meses para volver.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "11.2",
+          "cita": "Los defectos calificados como graves son defectos que inhabilitan al vehículo para\ncircular por las vías públicas excepto para su traslado al taller"
+        }
+      ],
+      "huella": "62d21adeaf3c"
+    },
+    {
+      "id": "v5d-itv-0001",
+      "porque": "Los camiones de más de 3,5 toneladas (N2 y N3) no tienen ningún periodo exento: pasan la ITV cada año hasta los 10 años y cada seis meses a partir de ahí. La antigüedad se cuenta desde la primera matriculación.",
+      "descartes": {
+        "a": "Exento hasta 2 años y luego cada dos años es el comienzo del calendario de las furgonetas N1 (hasta 3,5 toneladas), no el de los camiones pesados.",
+        "c": "Exento hasta 4 años y luego cada dos años se parece al calendario de las motos, no al de un camión de más de 3.500 kg."
+      },
+      "truco": "Camión de más de 3.500 kg: sin años libres. Cada año hasta 10; después, cada seis meses.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "6.1",
+          "cita": "la antigüedad del vehículo deberá ser\ncomputada a partir de la fecha de primera matriculación"
+        },
+        {
+          "norma": "ITV",
+          "articulo": "6.1 (tabla)",
+          "cita": "N1: Vehículos de motor concebidos y fabricados principalmente para el transporte de mercancías y\ncuya masa máxima no sea superior a 3,5 toneladas."
+        },
+        {
+          "norma": "ITV",
+          "articulo": "6.1 (tabla)",
+          "cita": "De 2 a 6 años: Bienal."
+        },
+        {
+          "norma": "ITV",
+          "articulo": "6.1 (tabla)",
+          "cita": "Resto L: Vehículos de motor de dos o tres ruedas, gemelas o no, y cuadriciclos, destinados a circular\nHasta 4 años: Exento."
+        }
+      ],
+      "huella": "2ade6737684d"
+    },
+    {
+      "id": "C-doc-0001",
+      "porque": "En los vehículos con parabrisas, el distintivo V-19 de la ITV se pega en el ángulo superior derecho del parabrisas, por su cara interior. En los vehículos sin parabrisas se coloca en un sitio bien visible.",
+      "descartes": {
+        "a": "Ni es el ángulo inferior izquierdo ni va por fuera: la norma dice ángulo superior derecho y por la cara interior.",
+        "c": "La luneta trasera no es el lugar que fija la norma: va en el parabrisas, arriba a la derecha, por dentro."
+      },
+      "truco": "ITV, arriba a la derecha y por dentro.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-19.2",
+          "cita": "En el resto de los vehículos, el distintivo se colocará en sitio bien visible."
+        }
+      ],
+      "huella": "428a7c0d4432"
+    },
+    {
+      "id": "C-doc-0002",
+      "porque": "El V-19 es la prueba de la ITV: indica que el vehículo ha superado favorablemente la inspección técnica periódica y la fecha en que debe pasar la próxima.",
+      "descartes": {
+        "a": "La clasificación ambiental se acredita con otros distintivos, los ambientales; el V-19 es el de la ITV.",
+        "b": "El V-19 no dice nada del seguro obligatorio: solo acredita la ITV periódica y su próxima fecha."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "12.1",
+          "cita": "Los vehículos que hayan superado favorablemente la inspección técnica periódica\ndeberán colocar el correspondiente distintivo V-19"
+        }
+      ],
+      "huella": "6cd571e0b77d"
+    },
+    {
+      "id": "res-def-0005",
+      "porque": "Las placas de matrícula de ciclomotores y ciclos de motor tienen el fondo retrorreflectante de color amarillo, con los caracteres en negro.",
+      "descartes": {
+        "a": "El fondo blanco es el de los automóviles (y el de los vehículos especiales, con letras rojas), no el de los ciclomotores.",
+        "c": "El fondo rojo es el de los remolques y semirremolques."
+      },
+      "truco": "Placas con fondo de color: rojo para remolques y amarillo para ciclomotores. Blanco para automóviles y vehículos especiales.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XVIII.A.a",
+          "cita": "El fondo de la placas será retrorreflectante de color blanco y los caracteres irán pintados\nen color negro mate"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XVIII.A.b",
+          "cita": "b) Vehículos especiales:\nEl fondo de las placas será retrorreflectante, de color blanco. Los caracteres estampados\nen relieve irán pintados en color rojo mate."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XVIII.A.c",
+          "cita": "c) Remolques y semirremolques:\nEl fondo de las placas será retrorreflectante, de color rojo."
+        }
+      ],
+      "huella": "2abf50fe6596"
+    },
+    {
+      "id": "res-def-0006",
+      "porque": "Las placas de matrícula de remolques y semirremolques tienen el fondo retrorreflectante de color rojo, con los caracteres en negro.",
+      "descartes": {
+        "a": "El fondo blanco es el de los automóviles y el de los vehículos especiales, no el de los remolques.",
+        "b": "El fondo amarillo es el de los ciclomotores y ciclos de motor."
+      },
+      "truco": "Placas con fondo de color: rojo para remolques y amarillo para ciclomotores. Blanco para automóviles y vehículos especiales.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XVIII.A.a",
+          "cita": "El fondo de la placas será retrorreflectante de color blanco y los caracteres irán pintados\nen color negro mate"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XVIII.A.b",
+          "cita": "b) Vehículos especiales:\nEl fondo de las placas será retrorreflectante, de color blanco. Los caracteres estampados\nen relieve irán pintados en color rojo mate."
+        },
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XVIII.A.d",
+          "cita": "d) Ciclomotores y ciclos de motor:\nEl fondo de las placas será retrorreflectante, de color amarillo."
+        }
+      ],
+      "huella": "9758dffab046"
+    },
+    {
+      "id": "C-doc-0007",
+      "porque": "La Ley de Tráfico define el remolque ligero como aquel cuya masa máxima autorizada no excede de 750 kg. Es una cifra clave: por encima de 750 kg el remolque necesita matrícula y su propio seguro, y cambian los requisitos del permiso.",
+      "descartes": {
+        "a": "500 kg no es la cifra de la definición: el límite del remolque ligero es 750 kg.",
+        "c": "3.500 kg es el límite de masa de los automóviles del permiso B y de los remolques del B+E, no el del remolque ligero."
+      },
+      "truco": "750 kg es la frontera de los remolques: hasta ahí, sin matrícula ni seguro propio y con el permiso B sin más requisitos.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "25.1",
+          "cita": "así como remolques y semirremolques\nde masa máxima autorizada superior a 750 kilogramos, será preciso matricularlos"
+        },
+        {
+          "norma": "LRCSCVM",
+          "articulo": "2.8.b",
+          "cita": "Los remolques y semirremolques que no excedan de 750 kilogramos de masa máxima\nautorizada."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Dichos automóviles podrán llevar enganchado un\nremolque cuya masa máxima autorizada no exceda de 750 kg."
+        }
+      ],
+      "huella": "d56afec4e03e"
+    },
+    {
+      "id": "C-doc-0008",
+      "porque": "Un remolque de hasta 750 kg no se matricula, así que no tiene permiso de circulación propio. Lo que hay que llevar es su tarjeta de inspección técnica, y en el reverso de la tarjeta ITV del coche debe figurar que lleva un enganche compatible con el del remolque.",
+      "descartes": {
+        "a": "Un remolque de 600 kg no tiene permiso de circulación propio, porque solo se matriculan los de más de 750 kg.",
+        "b": "Ser remolque ligero no le libra de documentos: hay que llevar su tarjeta de inspección técnica."
+      },
+      "truco": "750 kg es la frontera de los remolques: hasta ahí, sin matrícula ni seguro propio y con el permiso B sin más requisitos.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "25.1",
+          "cita": "así como remolques y semirremolques\nde masa máxima autorizada superior a 750 kilogramos, será preciso matricularlos"
+        }
+      ],
+      "huella": "197c150cf971"
+    },
+    {
+      "id": "C-doc-0009",
+      "porque": "Se matriculan los vehículos de motor y los remolques y semirremolques de más de 750 kg de masa máxima autorizada. Un remolque de 600 kg queda por debajo, así que no hace falta matricularlo.",
+      "descartes": {
+        "b": "No todos los remolques se matriculan: solo los de más de 750 kg de masa máxima autorizada.",
+        "c": "La obligación no depende del vehículo que lo arrastra, sino de la masa máxima autorizada del propio remolque."
+      },
+      "truco": "750 kg es la frontera de los remolques: hasta ahí, sin matrícula ni seguro propio y con el permiso B sin más requisitos.",
+      "apoyos": [
+        {
+          "norma": "LRCSCVM",
+          "articulo": "2.8.b",
+          "cita": "Los remolques y semirremolques que no excedan de 750 kilogramos de masa máxima\nautorizada."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Dichos automóviles podrán llevar enganchado un\nremolque cuya masa máxima autorizada no exceda de 750 kg."
+        }
+      ],
+      "huella": "1acf7bdd7263"
+    },
+    {
+      "id": "res-seg-0001",
+      "porque": "El seguro obligatorio cubre los daños que el vehículo causa a otros, no a quien lo conduce. Por eso no alcanza a las lesiones ni al fallecimiento del conductor del vehículo causante del accidente; para eso hay que contratar coberturas voluntarias.",
+      "descartes": {
+        "a": "No las cubre nunca: la ley excluye expresamente las lesiones o la muerte del conductor del vehículo causante.",
+        "c": "El cinturón no cambia nada: la exclusión del conductor causante es general."
+      },
+      "truco": "El seguro obligatorio paga lo que tu vehículo hace a otros: ni el conductor causante ni su propio vehículo.",
+      "apoyos": [
+        {
+          "norma": "LRCSCVM",
+          "articulo": "5.2",
+          "cita": "La cobertura del seguro de suscripción obligatoria tampoco alcanzará a los daños en\nlos bienes sufridos por el vehículo asegurado"
+        }
+      ],
+      "huella": "7639ba51e806"
+    },
+    {
+      "id": "res-seg-0002",
+      "porque": "El seguro obligatorio cubre la responsabilidad frente a otros, no los daños propios. Por eso no alcanza a los daños del propio vehículo asegurado ni a las cosas que se transportan en él.",
+      "descartes": {
+        "a": "Si la culpa es del otro conductor, quien responde es el seguro del otro vehículo; el tuyo obligatorio no cubre nunca los daños de tu propio vehículo.",
+        "b": "La ley lo excluye expresamente: el seguro obligatorio no cubre los daños del vehículo asegurado."
+      },
+      "truco": "El seguro obligatorio paga lo que tu vehículo hace a otros: ni el conductor causante ni su propio vehículo.",
+      "apoyos": [
+        {
+          "norma": "LRCSCVM",
+          "articulo": "5.1",
+          "cita": "no alcanzará a los daños y\nperjuicios ocasionados por las lesiones o fallecimiento del conductor del vehículo causante\ndel accidente."
+        }
+      ],
+      "huella": "8707d9b34d82"
+    },
+    {
+      "id": "res-seg-0003",
+      "porque": "La regla general es que el propietario de un vehículo debe tener contratado el seguro obligatorio por cada vehículo, pero la ley exceptúa a los remolques y semirremolques de hasta 750 kg de masa máxima autorizada. Un remolque de 600 kg está por debajo, así que no necesita seguro propio.",
+      "descartes": {
+        "b": "No todos los remolques: los de hasta 750 kg de masa máxima autorizada están exceptuados.",
+        "c": "La excepción no depende de la hora: depende solo de la masa máxima autorizada del remolque."
+      },
+      "truco": "750 kg es la frontera de los remolques: hasta ahí, sin matrícula ni seguro propio y con el permiso B sin más requisitos.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "25.1",
+          "cita": "así como remolques y semirremolques\nde masa máxima autorizada superior a 750 kilogramos, será preciso matricularlos"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Dichos automóviles podrán llevar enganchado un\nremolque cuya masa máxima autorizada no exceda de 750 kg."
+        },
+        {
+          "norma": "LRCSCVM",
+          "articulo": "2.1",
+          "cita": "estará obligado a suscribir y mantener en vigor un contrato de seguro por cada\nvehículo de que sea titular"
+        }
+      ],
+      "huella": "ab1b302314b3"
+    },
+    {
+      "id": "C-doc-0006",
+      "porque": "La tarjeta de inspección técnica es el documento que recoge las características técnicas esenciales del vehículo. Por eso las reformas que se autorizan se hacen constar en ella.",
+      "descartes": {
+        "b": "El permiso de conducción es un documento de la persona que conduce, no del vehículo: no recoge sus características ni sus reformas.",
+        "c": "La póliza del seguro no es el documento en el que la ley ordena hacer constar las reformas; eso va en la tarjeta de inspección técnica."
+      },
+      "truco": "Si cambia el vehículo por dentro o por fuera, lo apunta su tarjeta ITV.",
+      "huella": "9b44e8d90fb8"
+    },
+    {
+      "id": "x1b-0115",
+      "porque": "No identificar al conductor cuando te lo piden es una infracción propia, y su multa se calcula sobre la de la infracción original: el doble si era leve y el triple si era grave o muy grave. Aquí la original es grave y de 200 euros, así que el triple: 600 euros.",
+      "descartes": {
+        "a": "200 euros es la multa de la infracción original; por no identificar al conductor se paga el triple, porque es grave.",
+        "b": "400 euros sería el doble, que es lo que corresponde cuando la infracción original es leve, no grave."
+      },
+      "truco": "No identificar al conductor: leve, el doble; grave o muy grave, el triple.",
+      "huella": "4ddb4ad14244"
+    },
+    {
+      "id": "x1b-0118",
+      "porque": "Los menores de 18 años sí pueden ser multados. Cuando el autor es menor, responden solidariamente con él de la multa sus padres, tutores, acogedores y guardadores legales o de hecho, por este orden, porque tenían el deber de prevenir la infracción.",
+      "descartes": {
+        "a": "Los menores sí pueden ser multados; lo que añade la ley es que sus padres, tutores o guardadores responden de la multa con ellos.",
+        "b": "La autoescuela no aparece entre los responsables de la multa de un menor: la ley nombra a padres, tutores, acogedores y guardadores."
+      },
+      "truco": null,
+      "huella": "549542856304"
+    },
+    {
+      "id": "x1b-0119",
+      "porque": "De las infracciones por estacionamiento responde el titular del vehículo (o el arrendatario que conste en el Registro de Vehículos), salvo que el vehículo tenga designado un conductor habitual o se indique quién lo conducía. Si no ocurre nada de eso, la responsabilidad es del titular.",
+      "descartes": {
+        "a": "La ley no hace responsable a ningún pasajero: responde el titular, salvo conductor habitual o conductor identificado.",
+        "b": "Siempre hay un responsable: si no se identifica al conductor ni hay conductor habitual, lo es el titular."
+      },
+      "truco": null,
+      "huella": "ef03ea0d4cb7"
+    },
+    {
+      "id": "x1b-0120",
+      "porque": "Cuando la infracción se detecta sin detener el vehículo y este tiene designado un conductor habitual, la responsabilidad recae en ese conductor habitual. Puede librarse si demuestra que conducía otra persona o que el vehículo había sido sustraído.",
+      "descartes": {
+        "b": "Precisamente designar un conductor habitual hace que la responsabilidad recaiga en él y no en el titular.",
+        "c": "La ley no incluye a la aseguradora entre los responsables de las infracciones de tráfico."
+      },
+      "truco": null,
+      "huella": "d16177d6f9ae"
+    },
+    {
+      "id": "xb-0079",
+      "porque": "Con solo defectos leves la ITV es favorable. Esos defectos deben repararse en un plazo máximo de dos meses, pero no hace falta volver a la ITV para demostrarlo, salvo que el vehículo tenga que volver por otro resultado desfavorable o negativo.",
+      "descartes": {
+        "b": "Los defectos leves no exigen una nueva inspección; volver a la ITV es lo que toca con defectos graves o muy graves.",
+        "c": "Sí es obligatorio repararlos, en dos meses como máximo; lo que no exigen es volver a la ITV."
+      },
+      "truco": "Leve: arreglas en dos meses y no vuelves. Grave: vas tú al taller y vuelves en dos meses. Muy grave: grúa y vuelves en dos meses.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "9.4",
+          "cita": "Cuando en una inspección técnica no se detecten defectos o sólo se detecten\ndefectos clasificados leves, el resultado de la inspección técnica será favorable."
+        }
+      ],
+      "huella": "40529532405f"
+    },
+    {
+      "id": "xb-0081",
+      "porque": "Hay libertad de elección de la estación ITV, tanto para la primera inspección como para las que vienen después de reparar los defectos. Puedes volver a la misma o ir a otra.",
+      "descartes": {
+        "a": "No estás atado a la primera estación: la norma reconoce libertad de elección también para la segunda inspección.",
+        "b": "La provincia de matriculación no limita nada: puedes elegir la estación ITV."
+      },
+      "truco": null,
+      "huella": "acf45453d084"
+    },
+    {
+      "id": "xb-0084",
+      "porque": "Los ciclomotores de dos ruedas sí pasan la ITV: están exentos hasta los 3 años de antigüedad y a partir de entonces la pasan cada dos años.",
+      "descartes": {
+        "a": "Exento hasta los 4 años es lo de las motocicletas, que luego la pasan cada dos años, no cada año.",
+        "b": "Los ciclomotores sí pasan la ITV, a partir de los 3 años."
+      },
+      "truco": "Dos ruedas, cada dos años: la moto empieza a los 4 y el ciclomotor a los 3.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "6.1 (tabla)",
+          "cita": "Resto L: Vehículos de motor de dos o tres ruedas, gemelas o no, y cuadriciclos, destinados a circular\nHasta 4 años: Exento."
+        }
+      ],
+      "huella": "06ffd5fb7a0a"
+    },
+    {
+      "id": "xb-0085",
+      "porque": "Los turismos que se usan como taxi o ambulancia, o para transporte escolar y de menores, no siguen el calendario de los turismos particulares: pasan la ITV cada año hasta los cinco años de antigüedad y cada seis meses a partir de ahí. Con 3 años, cada año.",
+      "descartes": {
+        "b": "Cada dos años es lo de un turismo particular de 4 a 10 años, no lo de un taxi.",
+        "c": "La exención de los primeros 4 años es para los turismos particulares; el taxi no tiene años exentos."
+      },
+      "truco": "Taxi, ambulancia y transporte escolar: cada año hasta los 5; después, cada seis meses.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "6.1",
+          "cita": "La citada tabla no será aplicable a los vehículos de las categorías L y M1 destinados al\nservicio de escuela de conductores, ni a los vehículos de la categoría M1 utilizados como\nambulancias y taxis"
+        }
+      ],
+      "huella": "4290da491754"
+    },
+    {
+      "id": "xb-0082",
+      "porque": "Tras una ITV desfavorable tienes dos meses para reparar y volver, y entonces solo se revisa lo que estaba mal. Si llegas fuera de plazo, pierdes esa ventaja: te hacen una inspección técnica completa, y además pueden sancionarte.",
+      "descartes": {
+        "b": "Revisar solo los defectos anteriores es lo que se hace si vuelves dentro del plazo; fuera de plazo, la inspección es completa.",
+        "c": "No hace falta dar el vehículo de baja: puede volver a la ITV, pero con una inspección completa."
+      },
+      "truco": "Dentro de los dos meses, solo lo que falló; fuera de plazo, ITV completa.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "11.6",
+          "cita": "En el caso de defectos calificados como graves o muy graves, una vez subsanados,\ndeberán someterse a inspección los elementos defectuosos."
+        }
+      ],
+      "huella": "c40bc2d219a5"
+    },
+    {
+      "id": "xb-0083",
+      "porque": "Por regla general, el plazo de la siguiente ITV se cuenta desde el día en que la pasas con resultado favorable. Pero si la pasas en los 30 días naturales anteriores a la caducidad de la anterior, se cuenta desde la fecha de caducidad. El 15 de junio está dentro de esos 30 días, así que se cuenta desde el 30 de junio.",
+      "descartes": {
+        "a": "Contar desde el día en que la pasas es la regla general, pero no se aplica si la pasas en los 30 días anteriores a la caducidad, como aquí.",
+        "c": "La norma no cuenta los plazos desde el 1 de enero: se cuentan desde la fecha favorable o, en este caso, desde la caducidad anterior."
+      },
+      "truco": "Pasarla hasta 30 días antes no te quita días: el plazo sigue contando desde la fecha en que caducaba.",
+      "huella": "ce6aa10571c7"
+    },
+    {
+      "id": "xb-0080",
+      "porque": "Antes de cualquier inspección técnica hay que acreditar que el vehículo tiene el seguro obligatorio. Sin seguro, no hay ITV.",
+      "descartes": {
+        "a": "El permiso de conducción es un documento de la persona, no del vehículo, y no es lo que se exige para hacer la ITV.",
+        "c": "La norma no exige ninguna revisión previa en un taller oficial: la condición previa es el seguro obligatorio."
+      },
+      "truco": "Sin seguro, no hay ITV.",
+      "huella": "b3b14675265b"
+    },
+    {
+      "id": "xb-0077",
+      "porque": "El resultado de la ITV depende del defecto más grave que se encuentre. Si no hay defectos o solo hay leves, es favorable; con algún defecto grave, desfavorable; con alguno muy grave, negativo.",
+      "descartes": {
+        "a": "Desfavorable es el resultado cuando hay algún defecto grave, no solo leves.",
+        "c": "Negativo es el resultado cuando hay algún defecto muy grave."
+      },
+      "truco": "Leve, favorable; grave, desfavorable; muy grave, negativo. Manda el peor defecto.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "9.4",
+          "cita": "Si en una inspección técnica se detectase algún defecto clasificado como grave el\nresultado de la inspección técnica será desfavorable."
+        }
+      ],
+      "huella": "df9f31772c2a"
+    },
+    {
+      "id": "xb-0078",
+      "porque": "Basta un solo defecto muy grave para que el resultado de la ITV sea negativo. Esos defectos suponen un riesgo directo e inmediato para la seguridad vial, y el vehículo queda inhabilitado para circular.",
+      "descartes": {
+        "a": "Desfavorable es el resultado con algún defecto grave; con uno muy grave es negativo.",
+        "b": "Favorable solo puede ser sin defectos o con defectos leves; un defecto muy grave lo descarta."
+      },
+      "truco": "Leve, favorable; grave, desfavorable; muy grave, negativo. Manda el peor defecto.",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "9.4",
+          "cita": "Si en una inspección técnica se detectase algún defecto clasificado como grave el\nresultado de la inspección técnica será desfavorable."
+        },
+        {
+          "norma": "ITV",
+          "articulo": "11.3",
+          "cita": "Los defectos calificados como muy graves son defectos que inhabilitan al vehículo\npara circular por las vías públicas."
+        }
+      ],
+      "huella": "d3e53334dc7d"
+    },
+    {
+      "id": "res-perm-0003",
+      "porque": "El permiso A2 no se define por la cilindrada, sino por la potencia: motocicletas de hasta 35 kW, con una relación potencia/peso de 0,2 kW/kg como máximo y que no deriven de un vehículo con más del doble de su potencia.",
+      "descartes": {
+        "a": "El A2 no pone límite de cilindrada; la cilindrada máxima (125 cm³) aparece en el A1.",
+        "c": "El A2 sí tiene límites, de potencia. La moto sin esos límites es la del permiso A."
+      },
+      "truco": "A1 se mide en cm³ (125) y en kW; A2, solo en kW (35).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase A1)",
+          "cita": "Motocicletas con una cilindrada máxima de 125 cm3, una potencia máxima\nde 11 kW"
+        }
+      ],
+      "huella": "a0c57c982411"
+    },
+    {
+      "id": "C-perm-0011",
+      "porque": "El permiso A es la escalera final de las motos: solo se puede expedir a quien ya tiene un A2 en vigor con al menos dos años de antigüedad, y además debe superar una formación.",
+      "descartes": {
+        "a": "El A1 no da acceso directo al A: el paso previo es el A2, con dos años de antigüedad.",
+        "b": "El permiso B no da acceso al A, aunque tenga tres años; con esos tres años solo permite conducir en España las motos del A1."
+      },
+      "truco": "Escalera de la moto: A1 a los 16, A2 a los 18 y A a los 20, con dos años de A2.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "5.4",
+          "cita": "deberá superar una formación en los términos que se establezcan mediante Orden del\nMinistro del Interior."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B, excepciones)",
+          "cita": "con una antigüedad superior a tres años, las motocicletas cuya conducción\nautoriza el permiso de la clase A1"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (tabla, clases AM, A1 y A2)",
+          "cita": "Edad: años\ncumplidos\n15\n\n16\n\n18"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (tabla, clase A)",
+          "cita": "Motocicletas y triciclos de motor.\n\n20"
+        }
+      ],
+      "huella": "586a656c459c"
+    },
+    {
+      "id": "C-perm-0012",
+      "porque": "El permiso A1 autoriza motocicletas de hasta 125 cm³, con una potencia máxima de 11 kW y una relación potencia/peso de 0,1 kW/kg como máximo, y triciclos de motor de hasta 15 kW.",
+      "descartes": {
+        "b": "50 cm³ es la cilindrada máxima de los ciclomotores de combustión, que se conducen con el AM.",
+        "c": "250 cm³ no es ningún límite de los permisos de moto; el A1 se queda en 125 cm³."
+      },
+      "truco": "A1 se mide en cm³ (125) y en kW; A2, solo en kW (35).",
+      "apoyos": [
+        {
+          "norma": "ITV",
+          "articulo": "6.1 (tabla)",
+          "cita": "L1e: Ciclomotores: vehículos de dos ruedas con una velocidad máxima por construcción no superior\na 45 km/h, de cilindrada inferior a igual a 50 cm3(combustión interna)"
+        }
+      ],
+      "huella": "932f01f19833"
+    },
+    {
+      "id": "C-perm-0013",
+      "porque": "El C1 cubre el tramo intermedio de masa: automóviles de más de 3.500 kg y no más de 7.500 kg de masa máxima autorizada, para no más de ocho pasajeros además del conductor. Por debajo está el B y por encima el C.",
+      "descartes": {
+        "a": "Hasta 3.500 kg es el tramo del permiso B.",
+        "c": "Más de 7.500 kg es el tramo del permiso C."
+      },
+      "truco": "B hasta 3.500 kg; C1 de 3.500 a 7.500; C por encima de 3.500, sin tope.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Automóviles cuya masa máxima autorizada no exceda de 3.500 kg que\nestén diseñados y construidos para el transporte de no más de ocho pasajeros\nademás del conductor."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase C)",
+          "cita": "Automóviles distintos de los que autoriza a conducir el permiso de las clases\nD1 o D, cuya masa máxima autorizada exceda de 3.500 kg que estén\ndiseñados y construidos para el transporte de no más de ocho pasajeros"
+        }
+      ],
+      "huella": "e9e1712abdce"
+    },
+    {
+      "id": "C-perm-0014",
+      "porque": "El D1 es el permiso de los autobuses pequeños: automóviles para no más de 16 pasajeros además del conductor y de 8 metros de longitud como máximo.",
+      "descartes": {
+        "a": "No más de 8 pasajeros además del conductor es el límite del permiso B, no el del D1.",
+        "b": "Sin límite de pasajeros ni de longitud es lo que corresponde al permiso D, no al D1."
+      },
+      "truco": "D1: 16 pasajeros más el conductor y 8 metros como máximo.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Automóviles cuya masa máxima autorizada no exceda de 3.500 kg que\nestén diseñados y construidos para el transporte de no más de ocho pasajeros\nademás del conductor."
+        }
+      ],
+      "huella": "2074a436af26"
+    },
+    {
+      "id": "C-perm-0015",
+      "porque": "Los permisos «+E» son para llevar remolques de más de 750 kg. Para un camión de la clase C con un remolque de más de 750 kg hace falta el C+E.",
+      "descartes": {
+        "b": "El C solo permite llevar enganchado un remolque de hasta 750 kg.",
+        "c": "El B+E es para un vehículo tractor de los del permiso B, no para un camión de la clase C."
+      },
+      "truco": "La «E» se añade cuando el remolque pasa de 750 kg, y va detrás de la clase del vehículo que tira: B+E, C+E, D+E…",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase C)",
+          "cita": "Dichos automóviles podrán llevar enganchado un\nremolque cuya masa máxima autorizada no exceda de 750 kg.\nConjuntos de vehículos acoplados compuestos por un vehículo tractor de los\nque autoriza a conducir el permiso de la clase C"
+        }
+      ],
+      "huella": "55934a4ddaf5"
+    },
+    {
+      "id": "xb-0058",
+      "porque": "La señal V-13 se lleva durante el primer año de permiso. Ese año se suspende mientras el permiso está intervenido, ha perdido su vigencia o hay privación del derecho a conducir, y al terminar sigue contando desde donde se quedó hasta completar el año.",
+      "descartes": {
+        "b": "El plazo no sigue corriendo mientras el permiso está intervenido: la norma lo suspende.",
+        "c": "No vuelve a empezar de cero: se reanuda desde el punto en que se quedó."
+      },
+      "truco": "El año de la L es un año conduciendo: lo que estés sin poder conducir no cuenta, y luego sigues donde lo dejaste.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "Anexo XI, V-13.2",
+          "cita": "Una vez que hayan concluido los motivos que dieron lugar a su suspensión, el plazo de un año continuará\ncontabilizándose desde el momento en que hubiera quedado antes de la suspensión"
+        }
+      ],
+      "huella": "932a6dc60d10"
+    },
+    {
+      "id": "xb-0047",
+      "porque": "Si te expidieron un duplicado del permiso de conducción por sustracción o extravío y después aparece el original, debes devolver el original a la Jefatura Provincial de Tráfico que lo expidió. Tener a la vez el original y el duplicado da lugar a que se recoja el original.",
+      "descartes": {
+        "a": "No se pueden conservar los dos: la norma obliga a devolver el original, y si se tienen ambos se recoge el original.",
+        "c": "El que sigue valiendo es el duplicado; el original es el que se devuelve a Tráfico."
+      },
+      "truco": "Permiso de circulación del coche: el original aparecido se destruye. Permiso de conducir: el original aparecido se devuelve a Tráfico.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "11.4",
+          "cita": "La posesión del permiso o licencia original y de un duplicado de éstos dará lugar a la\nrecogida inmediata del original"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "30.1",
+          "cita": "En consecuencia, y en caso de recuperación posterior del\noriginal, se procederá a su inmediata destrucción."
+        }
+      ],
+      "huella": "602c5e3d8f7b"
+    },
+    {
+      "id": "res-perm-0001",
+      "porque": "El permiso A, para motocicletas sin límite de potencia, exige 20 años cumplidos. Además hay que tener el A2 con al menos dos años de antigüedad, y hasta los 21 no autoriza triciclos de motor de más de 15 kW.",
+      "descartes": {
+        "a": "18 años es la edad del A2 (y del B), no la del A.",
+        "b": "21 años no es la edad para obtener el A; es la edad hasta la que el A no autoriza triciclos de más de 15 kW."
+      },
+      "truco": "Escalera de la moto: A1 a los 16, A2 a los 18 y A a los 20, con dos años de A2.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (tabla, clases AM, A1 y A2)",
+          "cita": "Edad: años\ncumplidos\n15\n\n16\n\n18"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "5.1.a",
+          "cita": "El permiso de la clase A sólo podrá expedirse a conductores que ya sean titulares de\nun permiso en vigor de la clase A2 con, al menos, dos años de antigüedad."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase A, excepciones)",
+          "cita": "Hasta los 21 años cumplidos no autorizará a conducir triciclos de motor cuya\npotencia máxima exceda de 15 kW."
+        }
+      ],
+      "huella": "8f725421b237"
+    },
+    {
+      "id": "res-perm-0002",
+      "porque": "El permiso AM, de ciclomotores, se obtiene con 15 años cumplidos. Es el primer escalón: después vienen el A1 a los 16 y el A2 y el B a los 18.",
+      "descartes": {
+        "b": "16 años es la edad del A1, no la del AM.",
+        "c": "Con 14 años no se puede obtener el AM. 14 es la edad mínima de la licencia para vehículos de personas de movilidad reducida."
+      },
+      "truco": "Patinete eléctrico y ciclomotor, el mismo número: 15 años (para conducir el patinete y para obtener el permiso AM).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (tabla, clases AM, A1 y A2)",
+          "cita": "Edad: años\ncumplidos\n15\n\n16\n\n18"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "6.1.a",
+          "cita": "La edad mínima para obtenerla será de catorce años cumplidos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "155.3",
+          "cita": "No podrán conducir vehículos de movilidad personal los menores de quince años."
+        }
+      ],
+      "huella": "3931b426d44e"
+    },
+    {
+      "id": "v5e-perm-0001",
+      "porque": "El permiso A1, para motocicletas de hasta 125 cm³ y 11 kW, se puede obtener con 16 años cumplidos. Es el segundo escalón: AM a los 15, A1 a los 16 y A2 a los 18.",
+      "descartes": {
+        "a": "15 años es la edad del AM (ciclomotores), no la del A1.",
+        "c": "18 años es la edad del A2, no la del A1."
+      },
+      "truco": "Escalera de la moto: A1 a los 16, A2 a los 18 y A a los 20, con dos años de A2.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (tabla, clase A)",
+          "cita": "Motocicletas y triciclos de motor.\n\n20"
+        }
+      ],
+      "huella": "946653e707ba"
+    },
+    {
+      "id": "v5e-perm-0002",
+      "porque": "El permiso A2, para motocicletas de hasta 35 kW, se puede obtener con 18 años cumplidos. Para el A hay que esperar a los 20 y tener dos años de A2.",
+      "descartes": {
+        "b": "16 años es la edad del A1, no la del A2.",
+        "c": "20 años es la edad del permiso A, al que se llega desde el A2."
+      },
+      "truco": "Escalera de la moto: A1 a los 16, A2 a los 18 y A a los 20, con dos años de A2.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (tabla, clase A)",
+          "cita": "Motocicletas y triciclos de motor.\n\n20"
+        }
+      ],
+      "huella": "73f757d7563d"
+    },
+    {
+      "id": "xb-0056",
+      "porque": "Se declara la pérdida de vigencia del permiso en dos casos: cuando su titular ya no reúne los requisitos que se exigieron para darlo (por ejemplo, las aptitudes psicofísicas) o cuando ha perdido todos sus puntos.",
+      "descartes": {
+        "a": "Una infracción grave puede costar multa y puntos, pero no hace perder por sí sola la vigencia del permiso; eso ocurre al perder todos los puntos o los requisitos.",
+        "c": "No llevar el permiso encima no hace perder su vigencia."
+      },
+      "truco": "Pérdida de vigencia: o te quedas sin puntos, o dejas de cumplir los requisitos.",
+      "huella": "ad45e6b4a9a1"
+    },
+    {
+      "id": "xb-0057",
+      "porque": "Una vez declarada la pérdida de vigencia por haber perdido todos los puntos, hay que entregar el permiso en la Jefatura Provincial de Tráfico. Si no se entrega, Tráfico ordena que lo retiren los agentes.",
+      "descartes": {
+        "a": "No se puede conservar: la norma obliga a entregarlo en la Jefatura.",
+        "b": "No se destruye por cuenta propia: hay que entregarlo en la Jefatura Provincial de Tráfico."
+      },
+      "truco": null,
+      "huella": "c6ab2f900679"
+    },
+    {
+      "id": "C-perm-0001",
+      "porque": "El permiso B autoriza automóviles de hasta 3.500 kg de masa máxima autorizada diseñados para no más de ocho pasajeros además del conductor: nueve plazas en total contando a quien conduce.",
+      "descartes": {
+        "a": "7.500 kg es el límite superior del C1, no del B, que se queda en 3.500 kg.",
+        "c": "Nueve pasajeros además del conductor son diez plazas; el B admite como máximo ocho pasajeros más el conductor."
+      },
+      "truco": "B: 3.500 kg y 8+1 (ocho pasajeros más el conductor).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase C1)",
+          "cita": "cuya masa máxima autorizada exceda de 3.500 kg y no sobrepase los\n7.500 kg"
+        }
+      ],
+      "huella": "48eaaad89966"
+    },
+    {
+      "id": "C-perm-0002",
+      "porque": "El permiso B no distingue entre turismos y camiones: autoriza cualquier automóvil de hasta 3.500 kg de masa máxima autorizada diseñado para no más de ocho pasajeros además del conductor. Un camión de reparto de 3.200 kg con tres plazas cumple las dos condiciones.",
+      "descartes": {
+        "a": "El C1 hace falta a partir de 3.500 kg; con 3.200 kg basta el B.",
+        "b": "El C es para camiones de más de 3.500 kg; este no llega."
+      },
+      "truco": "B: 3.500 kg y 8+1 (ocho pasajeros más el conductor).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase C1)",
+          "cita": "cuya masa máxima autorizada exceda de 3.500 kg y no sobrepase los\n7.500 kg"
+        }
+      ],
+      "huella": "1e8ced91371c"
+    },
+    {
+      "id": "C-perm-0007",
+      "porque": "Como regla general, el B no autoriza a conducir motocicletas. La excepción: con más de tres años de antigüedad, permite conducir dentro de España las motocicletas que autoriza el A1.",
+      "descartes": {
+        "a": "Con más de tres años de B no hace falta el A1 para conducir esas motos dentro de España; la excepción no vale fuera.",
+        "c": "La excepción se limita a las motos del A1 (hasta 125 cm³ y 11 kW); las mayores exigen el A2 o el A."
+      },
+      "truco": "B con más de 3 años = motos de 125, pero solo en España.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "5.7",
+          "cita": "El permiso de las clases B, B+E, C1, C1+E, C, C+E, D1, D1+E, D y D+E no autoriza a\nconducir motocicletas con o sin sidecar."
+        }
+      ],
+      "huella": "0d3f0b7aa252"
+    },
+    {
+      "id": "C-perm-0008",
+      "porque": "El permiso B incluye entre los vehículos que autoriza los ciclomotores, además de los triciclos y cuatriciclos de motor. No hace falta tener el AM ni esperar ningún plazo.",
+      "descartes": {
+        "a": "Con el B no hace falta el AM: los ciclomotores están en la lista de lo que autoriza el B.",
+        "b": "Los tres años de antigüedad son para las motos del A1, no para los ciclomotores, que se pueden conducir desde el primer día."
+      },
+      "truco": "B con más de 3 años = motos de 125, pero solo en España. Ciclomotores, desde el primer día.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B, excepciones)",
+          "cita": "con una antigüedad superior a tres años, las motocicletas cuya conducción\nautoriza el permiso de la clase A1"
+        }
+      ],
+      "huella": "0fea47ee2905"
+    },
+    {
+      "id": "xb-0052",
+      "porque": "Los permisos expedidos en un Estado de la Unión Europea o del Espacio Económico Europeo conforme a la normativa comunitaria siguen siendo válidos en España en las condiciones en que se expidieron. Solo se exige tener la edad mínima del permiso español equivalente.",
+      "descartes": {
+        "b": "El límite de seis meses es para los permisos de países que no son de la Unión Europea, no para los comunitarios.",
+        "c": "No hace falta un permiso español: el permiso comunitario es válido en España."
+      },
+      "truco": "Permiso de la UE: vale en España sin plazo. Permiso de fuera de la UE: seis meses desde que fijas la residencia, salvo convenio.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "21.2.c",
+          "cita": "Que no haya transcurrido el plazo de seis meses, como máximo, contado desde que\nsu titular adquiera su residencia normal en España"
+        }
+      ],
+      "huella": "3323e0bcb0cb"
+    },
+    {
+      "id": "xb-0053",
+      "porque": "El permiso comunitario sigue siendo válido, pero quien fija su residencia normal en España queda sometido a las normas españolas sobre vigencia, control de aptitudes psicofísicas y crédito de puntos. Si su permiso no tiene vigencia determinada, debe renovarlo a los dos años de fijar la residencia.",
+      "descartes": {
+        "a": "Al fijar su residencia en España se le aplican las normas españolas sobre vigencia, aptitudes psicofísicas y puntos, no las del Estado que expidió el permiso.",
+        "c": "Sí se aplican normas desde que fija la residencia: las españolas."
+      },
+      "truco": "Permiso de la UE: vale en España sin plazo. Permiso de fuera de la UE: seis meses desde que fijas la residencia, salvo convenio.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "15.4",
+          "cita": "Cuando se trate de un permiso de conducción no sujeto a un período de vigencia\ndeterminado, su titular deberá proceder a su renovación, una vez transcurridos dos años\ndesde que establezca su residencia normal en España"
+        }
+      ],
+      "huella": "5694607255b6"
+    },
+    {
+      "id": "xb-0054",
+      "porque": "Un permiso de un país de fuera de la Unión Europea que sea válido en España solo sirve, como máximo, durante seis meses desde que su titular adquiere la residencia normal en España, salvo que un convenio internacional diga otra cosa. Pasado ese plazo deja de ser válido para conducir aquí.",
+      "descartes": {
+        "a": "Dos años no es el plazo de estos permisos, que es de seis meses. Los dos años aparecen en otra regla: la renovación de los permisos comunitarios sin vigencia fija.",
+        "b": "Sí hay límite, aunque el permiso siga en vigor en su país: seis meses desde que se fija la residencia, salvo convenio."
+      },
+      "truco": "Permiso de la UE: vale en España sin plazo. Permiso de fuera de la UE: seis meses desde que fijas la residencia, salvo convenio.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "15.4",
+          "cita": "Cuando se trate de un permiso de conducción no sujeto a un período de vigencia\ndeterminado, su titular deberá proceder a su renovación, una vez transcurridos dos años\ndesde que establezca su residencia normal en España"
+        }
+      ],
+      "huella": "ed896a99e126"
+    },
+    {
+      "id": "xb-0050",
+      "porque": "Con carácter general, la prórroga del permiso puede pedirse con una antelación máxima de tres meses a su caducidad, y el nuevo periodo de vigencia se cuenta desde la fecha de caducidad, así que no pierdes tiempo. Solo en casos excepcionales y justificados se admite más antelación.",
+      "descartes": {
+        "a": "Un año antes es más antelación de la permitida con carácter general, que es de tres meses.",
+        "c": "No hay que esperar a que caduque: puede pedirse hasta tres meses antes. Que también se pueda pedir ya caducado no significa que sea la única opción."
+      },
+      "truco": "Renueva en los tres meses antes de caducar: no pierdes ni un día, porque el nuevo periodo cuenta desde la caducidad.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "13.3",
+          "cita": "El titular de un permiso o licencia de conducción caducados podrá solicitar su prórroga"
+        }
+      ],
+      "huella": "0893c2079f69"
+    },
+    {
+      "id": "xb-0051",
+      "porque": "Un permiso caducado no se pierde: su titular puede pedir la prórroga presentando la documentación exigida, sin repetir exámenes. Eso sí, mientras esté caducado no autoriza a conducir.",
+      "descartes": {
+        "a": "La caducidad no obliga a repetir los exámenes: basta con solicitar la prórroga con la documentación exigida.",
+        "b": "Empezar con 8 puntos es lo de los noveles o de quien vuelve a obtener el permiso tras perder todos los puntos, no lo de un permiso caducado, que puede prorrogarse."
+      },
+      "truco": "Caducado no es perdido: se prorroga, pero hasta entonces no se conduce.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "12.4",
+          "cita": "El permiso o licencia de conducción cuya vigencia hubiese vencido no autoriza a su\ntitular a conducir"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "63.2",
+          "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes\ncasos:"
+        }
+      ],
+      "huella": "e12b4e06c4f9"
+    },
+    {
+      "id": "C-perm-0003",
+      "porque": "Los automóviles que autoriza el permiso B pueden llevar enganchado un remolque de hasta 750 kg de masa máxima autorizada sin ningún requisito más. Uno de 700 kg está por debajo, así que basta el B.",
+      "descartes": {
+        "b": "El B+E solo hace falta con un remolque de más de 750 kg cuando el conjunto supera 4.250 kg.",
+        "c": "La prueba específica (código 96) es para remolques de más de 750 kg con un conjunto de más de 3.500 kg y hasta 4.250 kg; con 700 kg no hace falta."
+      },
+      "truco": "Remolque de hasta 750 kg: basta el B. Si pasa de 750 kg, suma el conjunto: hasta 3.500 kg, B; de 3.500 a 4.250 kg, B con prueba (código 96); más de 4.250 kg, B+E (remolque de hasta 3.500 kg).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "Anexo I (código 96)",
+          "cita": "combinación exceda de 3.500 kg, pero no sobrepase los 4.250 kg."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Conjuntos de vehículos acoplados compuestos por un vehículo tractor de\nlos que autoriza a conducir el permiso de la clase B y un remolque cuya masa\nmáxima autorizada exceda de 750 kg, siempre que la masa máxima\nautorizada del conjunto no exceda de 4.250 kg"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B+E)",
+          "cita": "que autoriza a conducir el permiso de la clase B y un remolque o\nsemirremolque cuya masa máxima autorizada no exceda de 3.500 kg"
+        }
+      ],
+      "huella": "d93d1bae5cf8"
+    },
+    {
+      "id": "C-perm-0004",
+      "porque": "Con un remolque de más de 750 kg hay que sumar las masas máximas autorizadas del conjunto. Aquí son 2.000 + 1.000 = 3.000 kg: como no pasa de 3.500 kg, basta el permiso B, sin prueba adicional.",
+      "descartes": {
+        "a": "La prueba específica (código 96) solo se exige cuando el conjunto supera 3.500 kg; este se queda en 3.000.",
+        "c": "El C1 es para automóviles de más de 3.500 kg; ni el turismo ni el conjunto llegan a eso."
+      },
+      "truco": "Remolque de hasta 750 kg: basta el B. Si pasa de 750 kg, suma el conjunto: hasta 3.500 kg, B; de 3.500 a 4.250 kg, B con prueba (código 96); más de 4.250 kg, B+E (remolque de hasta 3.500 kg).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Conjuntos de vehículos acoplados compuestos por un vehículo tractor de\nlos que autoriza a conducir el permiso de la clase B y un remolque cuya masa\nmáxima autorizada exceda de 750 kg, siempre que la masa máxima\nautorizada del conjunto no exceda de 4.250 kg"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B+E)",
+          "cita": "que autoriza a conducir el permiso de la clase B y un remolque o\nsemirremolque cuya masa máxima autorizada no exceda de 3.500 kg"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase C1)",
+          "cita": "cuya masa máxima autorizada exceda de 3.500 kg y no sobrepase los\n7.500 kg"
+        }
+      ],
+      "huella": "b744dc300b76"
+    },
+    {
+      "id": "C-perm-0005",
+      "porque": "El remolque pasa de 750 kg, así que se suma el conjunto: 3.000 + 1.000 = 4.000 kg. Está entre 3.500 y 4.250 kg, el tramo en el que el B sirve, pero solo después de superar la prueba o formación específica (código 96).",
+      "descartes": {
+        "a": "Sin requisitos adicionales solo vale si el conjunto no pasa de 3.500 kg; este llega a 4.000.",
+        "b": "El C1 es para automóviles de más de 3.500 kg; el turismo tiene 3.000 kg, y el conjunto se resuelve con el B y la prueba."
+      },
+      "truco": "Remolque de hasta 750 kg: basta el B. Si pasa de 750 kg, suma el conjunto: hasta 3.500 kg, B; de 3.500 a 4.250 kg, B con prueba (código 96); más de 4.250 kg, B+E (remolque de hasta 3.500 kg).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "5.5",
+          "cita": "Esta prueba podrá\nsustituirse por la superación de una formación en los términos que se establezcan mediante\nOrden del Ministro del Interior."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B+E)",
+          "cita": "que autoriza a conducir el permiso de la clase B y un remolque o\nsemirremolque cuya masa máxima autorizada no exceda de 3.500 kg"
+        }
+      ],
+      "huella": "67bd751cbc6d"
+    },
+    {
+      "id": "C-perm-0006",
+      "porque": "El remolque pasa de 750 kg y el conjunto suma 3.500 + 1.000 = 4.500 kg. Con el B, ni siquiera con la prueba del código 96, se puede pasar de 4.250 kg, así que hace falta el B+E, que permite enganchar a un vehículo del B un remolque de hasta 3.500 kg.",
+      "descartes": {
+        "b": "La prueba del código 96 solo cubre conjuntos de hasta 4.250 kg; este llega a 4.500.",
+        "c": "El B solo, sin más, vale con remolques de hasta 750 kg o con conjuntos de hasta 3.500 kg; este los supera."
+      },
+      "truco": "Remolque de hasta 750 kg: basta el B. Si pasa de 750 kg, suma el conjunto: hasta 3.500 kg, B; de 3.500 a 4.250 kg, B con prueba (código 96); más de 4.250 kg, B+E (remolque de hasta 3.500 kg).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "Anexo I (código 96)",
+          "cita": "combinación exceda de 3.500 kg, pero no sobrepase los 4.250 kg."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Conjuntos de vehículos acoplados compuestos por un vehículo tractor de\nlos que autoriza a conducir el permiso de la clase B y un remolque cuya masa\nmáxima autorizada exceda de 750 kg, siempre que la masa máxima\nautorizada del conjunto no exceda de 4.250 kg"
+        }
+      ],
+      "huella": "2eead74caeba"
+    },
+    {
+      "id": "v5e-perm-0003",
+      "porque": "El B+E autoriza conjuntos formados por un vehículo de los que permite el B y un remolque o semirremolque de hasta 3.500 kg de masa máxima autorizada. Es el permiso para los remolques que ya no caben en el B.",
+      "descartes": {
+        "a": "750 kg es el remolque que puede llevar el B sin más; el B+E va mucho más allá.",
+        "b": "4.250 kg es el límite del conjunto (no del remolque) que se puede llevar con el B y la prueba del código 96."
+      },
+      "truco": "Remolque de hasta 750 kg: basta el B. Si pasa de 750 kg, suma el conjunto: hasta 3.500 kg, B; de 3.500 a 4.250 kg, B con prueba (código 96); más de 4.250 kg, B+E (remolque de hasta 3.500 kg).",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "4.2 (clase B)",
+          "cita": "Dichos automóviles podrán llevar enganchado un\nremolque cuya masa máxima autorizada no exceda de 750 kg."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "Anexo I (código 96)",
+          "cita": "combinación exceda de 3.500 kg, pero no sobrepase los 4.250 kg."
+        }
+      ],
+      "huella": "4922836da0b7"
+    },
+    {
+      "id": "xb-0055",
+      "porque": "Nadie puede tener más de un permiso de conducción expedido por un Estado de la Unión Europea o del Espacio Económico Europeo. Si alguien tiene más de uno, se le retira el que corresponda.",
+      "descartes": {
+        "b": "La norma no hace ninguna excepción por clases: la prohibición es tener más de un permiso, sean de las clases que sean.",
+        "c": "La norma no prevé ninguna excepción por residir en dos países: nadie puede tener más de un permiso expedido en la UE o el EEE."
+      },
+      "truco": "En la UE, una persona, un permiso.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "1.4",
+          "cita": "En el supuesto de que alguna persona esté en posesión de más de un permiso de\nconducción, le será retirado el que proceda"
+        }
+      ],
+      "huella": "dbab045161a2"
+    },
+    {
+      "id": "xb-0046",
+      "porque": "Cualquier cambio en los datos del permiso de conducción, y también el cambio de domicilio, debe comunicarse a la Jefatura Provincial de Tráfico en quince días desde que se produce.",
+      "descartes": {
+        "b": "Tres meses no es el plazo para comunicar el cambio de domicilio; es la antelación máxima con la que se puede pedir la prórroga del permiso.",
+        "c": "Un año no es ningún plazo para comunicar cambios de datos: son quince días."
+      },
+      "truco": "Cambio de datos, quince días: los del permiso de conducción y también los del vehículo en el Registro.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "13.1",
+          "cita": "La solicitud de prórroga de vigencia del permiso o licencia podrá presentarse con una\nantelación máxima de tres meses a su fecha de caducidad"
+        },
+        {
+          "norma": "RGV",
+          "articulo": "30.2",
+          "cita": "El titular de un vehículo que hubiera sufrido variación en cualquiera de los datos que\nconsten en el Registro de Vehículos dispondrá de un plazo de 15 días desde que se\nprodujera para comunicarla."
+        }
+      ],
+      "huella": "7b9b6491f2a1"
+    },
+    {
+      "id": "C-perm-0009",
+      "porque": "Para los vehículos especiales no agrícolas basta el permiso B si cumplen las dos condiciones: velocidad máxima autorizada de hasta 40 km/h y masa máxima autorizada de hasta 3.500 kg. Si superan cualquiera de los dos límites, hace falta el permiso que corresponda a su masa.",
+      "descartes": {
+        "b": "No basta con la velocidad: también deben no superar los 3.500 kg. Si pesan más, se requiere el permiso que corresponda a su masa.",
+        "c": "No todos: los no agrícolas solo se conducen con el B dentro de los límites de 40 km/h y 3.500 kg."
+      },
+      "truco": "Tractor agrícola: con el B, aunque pase de 3.500 kg. Vehículo especial no agrícola: con el B solo hasta 40 km/h y 3.500 kg.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "5.9",
+          "cita": "Para conducir vehículos especiales agrícolas autopropulsados o sus conjuntos, que\ntengan una masa o dimensiones máximas autorizadas superiores a las indicadas en el\npárrafo anterior o cuya velocidad máxima por construcción exceda de 45 km/h, se requerirá\npermiso de la clase B en todo caso."
+        }
+      ],
+      "huella": "273033c8b681"
+    },
+    {
+      "id": "C-perm-0010",
+      "porque": "Los vehículos especiales agrícolas autopropulsados, como un tractor, se conducen con el permiso B. Si no superan los límites de masa o dimensiones de los vehículos ordinarios, vale también la licencia de conducción; si los superan o pasan de 45 km/h, se requiere el B en todo caso. Su masa no obliga a tener el C1 ni el C.",
+      "descartes": {
+        "a": "El C1 se exige a automóviles de más de 3.500 kg, pero para los vehículos especiales agrícolas la norma fija el permiso B.",
+        "c": "Tampoco el C: aunque el tractor pase de 3.500 kg, la norma permite conducirlo con el B."
+      },
+      "truco": "Tractor agrícola: con el B, aunque pase de 3.500 kg. Vehículo especial no agrícola: con el B solo hasta 40 km/h y 3.500 kg.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "5.9",
+          "cita": "Para conducir vehículos especiales agrícolas autopropulsados o sus conjuntos, que\ntengan una masa o dimensiones máximas autorizadas superiores a las indicadas en el\npárrafo anterior o cuya velocidad máxima por construcción exceda de 45 km/h, se requerirá\npermiso de la clase B en todo caso."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "5.8",
+          "cita": "Para conducir vehículos especiales no agrícolas o sus conjuntos cuya velocidad\nmáxima autorizada no exceda de 40 km/h, y su masa máxima autorizada no exceda de\n3.500 kg, se requerirá permiso de la clase B."
+        }
+      ],
+      "huella": "a9d993d85874"
+    },
+    {
+      "id": "C-perm-0016",
+      "porque": "El permiso B dura diez años mientras su titular no cumpla 65, y cinco años a partir de esa edad. Con 40 años, diez años. La vigencia puede reducirse si hay una enfermedad que pueda agravarse.",
+      "descartes": {
+        "a": "Cinco años es la vigencia del B a partir de los 65, o la de los permisos C y D antes de esa edad.",
+        "c": "Quince años no es la vigencia de ningún permiso."
+      },
+      "truco": "B: 10 años hasta los 65 y 5 después. C y D: 5 años hasta los 65 y 3 después. Por motivos médicos puede ser menos.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "12.1",
+          "cita": "tendrá un período de vigencia de cinco años mientras su titular no cumpla los sesenta y\ncinco años y de tres años a partir de esa edad."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "12.3",
+          "cita": "se comprueba que su titular padece enfermedad o deficiencia que,\nsi bien de momento no impide aquélla, es susceptible de agravarse."
+        }
+      ],
+      "huella": "4cb5c93e4a59"
+    },
+    {
+      "id": "C-perm-0017",
+      "porque": "A partir de los 65 años, la vigencia del permiso B baja de diez a cinco años. Con 70 años son cinco, aunque puede reducirse por motivos médicos.",
+      "descartes": {
+        "a": "Diez años es la vigencia del B antes de cumplir 65.",
+        "b": "Dos años no es la vigencia general de ningún permiso; a partir de los 65 el B dura cinco."
+      },
+      "truco": "B: 10 años hasta los 65 y 5 después. C y D: 5 años hasta los 65 y 3 después. Por motivos médicos puede ser menos.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "12.1",
+          "cita": "tendrá un período de vigencia de cinco años mientras su titular no cumpla los sesenta y\ncinco años y de tres años a partir de esa edad."
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "12.3",
+          "cita": "se comprueba que su titular padece enfermedad o deficiencia que,\nsi bien de momento no impide aquélla, es susceptible de agravarse."
+        }
+      ],
+      "huella": "da2c80fbc03c"
+    },
+    {
+      "id": "xb-0048",
+      "porque": "Los permisos de camión y autobús (C1, C, D1, D y sus «+E») duran menos que el B: cinco años mientras el titular no cumpla 65, y tres a partir de esa edad. Un camionero de 45 años lo renueva por cinco.",
+      "descartes": {
+        "a": "Diez años es la vigencia del B y de los demás permisos no profesionales antes de los 65, no la del C.",
+        "b": "Tres años es la vigencia del C a partir de los 65; con 45 son cinco."
+      },
+      "truco": "B: 10 años hasta los 65 y 5 después. C y D: 5 años hasta los 65 y 3 después. Por motivos médicos puede ser menos.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "12.2",
+          "cita": "El permiso de las clases restantes y la licencia de conducción, cualquiera que sea su\nclase, tendrán un período de vigencia de diez años mientras su titular no cumpla los sesenta\ny cinco años"
+        }
+      ],
+      "huella": "c2743edfc7cf"
+    },
+    {
+      "id": "xb-0049",
+      "porque": "Un permiso caducado no autoriza a conducir, ni siquiera unos días después de vencer. Si lo usas, la autoridad o sus agentes lo intervienen de inmediato y lo envían a la Jefatura Provincial de Tráfico. Se puede prorrogar, pero no conducir mientras tanto.",
+      "descartes": {
+        "b": "No hay periodo de gracia. Los tres meses son la antelación máxima con la que se puede pedir la prórroga antes de caducar.",
+        "c": "Mientras no tenga el permiso prorrogado, no puede conducir: el caducado no le autoriza."
+      },
+      "truco": "Caducado no es perdido: se prorroga, pero hasta entonces no se conduce.",
+      "apoyos": [
+        {
+          "norma": "RGCOND",
+          "articulo": "13.1",
+          "cita": "La solicitud de prórroga de vigencia del permiso o licencia podrá presentarse con una\nantelación máxima de tres meses a su fecha de caducidad"
+        },
+        {
+          "norma": "RGCOND",
+          "articulo": "13.3",
+          "cita": "El titular de un permiso o licencia de conducción caducados podrá solicitar su prórroga"
+        }
+      ],
+      "huella": "11f80d6e83c6"
+    },
+    {
+      "id": "xb-0062",
+      "porque": "No detenerse ante un semáforo en rojo está en el mismo grupo que saltarse un stop o un ceda el paso o no respetar la preferencia de paso: 4 puntos.",
+      "descartes": {
+        "a": "2 puntos no es lo que fija la ley para esta infracción: son 4.",
+        "c": "6 puntos se reservan para infracciones como conducir con drogas en el organismo, de forma temeraria o usando el móvil sujetándolo con la mano."
+      },
+      "truco": "Rojo, stop, ceda el paso y preferencia: 4 puntos.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "2. Conducir con presencia de drogas en el organismo."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "8. Utilizar, sujetando con la mano, dispositivos de telefonía móvil mientras se conduce."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "4. Conducir de forma temeraria"
+        }
+      ],
+      "huella": "14211e8e8433"
+    },
+    {
+      "id": "xb-0063",
+      "porque": "Adelantar a un ciclista poniéndolo en peligro, entorpeciéndolo o sin dejar al menos 1,5 metros de separación lateral cuesta 6 puntos. La ley lo castiga más que otros adelantamientos indebidos porque el ciclista es especialmente vulnerable.",
+      "descartes": {
+        "a": "3 puntos no es lo que fija la ley para esta infracción: son 6.",
+        "b": "4 puntos son para otros adelantamientos indebidos, como poner en peligro a quien viene de frente o adelantar con visibilidad reducida. Con ciclistas son 6."
+      },
+      "truco": "Ciclista mal adelantado: 6 puntos, más que otros adelantamientos indebidos.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "11. Incumplir las disposiciones legales sobre adelantamiento poniendo en peligro o\nentorpeciendo a quienes circulen en sentido contrario y adelantar en lugares o\ncircunstancias de visibilidad reducida."
+        }
+      ],
+      "huella": "326885d8ca04"
+    },
+    {
+      "id": "xb-0064",
+      "porque": "No usar, o usar mal, el cinturón, los sistemas de retención infantil, el casco y demás elementos de protección obligatorios supone perder 4 puntos. Además, de no usar el sistema de retención infantil responde el conductor.",
+      "descartes": {
+        "b": "2 puntos no es lo que fija la ley para esta infracción: son 4.",
+        "c": "6 puntos se reservan para infracciones como conducir con drogas en el organismo, de forma temeraria o usando el móvil sujetándolo con la mano."
+      },
+      "truco": "Cinturón, sillita o casco: los tres, 4 puntos.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "82.a",
+          "cita": "Asimismo, el conductor del vehículo será responsable por la no utilización de los\nsistemas de retención infantil"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "2. Conducir con presencia de drogas en el organismo."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "8. Utilizar, sujetando con la mano, dispositivos de telefonía móvil mientras se conduce."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "4. Conducir de forma temeraria"
+        }
+      ],
+      "huella": "2a0bd738fa59"
+    },
+    {
+      "id": "xb-0065",
+      "porque": "Hacer marcha atrás en una autopista o autovía cuesta 4 puntos, aunque sea por el arcén y para tomar una salida que te has pasado. Lo correcto es seguir hasta la siguiente salida.",
+      "descartes": {
+        "a": "2 puntos no es lo que fija la ley para esta infracción: son 4.",
+        "c": "6 puntos son para circular en sentido contrario o conducir de forma temeraria; la marcha atrás en autopista o autovía tiene su propia línea en la ley, con 4."
+      },
+      "truco": "Te has pasado la salida: sigue a la siguiente. La marcha atrás en autovía cuesta 4 puntos.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "4. Conducir de forma temeraria, circular en sentido contrario al establecido o participar en\ncarreras o competiciones no autorizadas."
+        }
+      ],
+      "huella": "51569308179d"
+    },
+    {
+      "id": "xb-0066",
+      "porque": "Llevar un detector de radares cuesta 3 puntos. Un inhibidor, que interfiere en el funcionamiento del radar, es más grave y cuesta 6. Lo que sí está permitido son los avisadores que informan de la posición de los sistemas de vigilancia del tráfico.",
+      "descartes": {
+        "a": "6 puntos son para los inhibidores, que interfieren en el radar; el detector se queda en 3.",
+        "b": "No es solo multa: conducir con un detector de radares está en la lista de infracciones que quitan puntos, 3."
+      },
+      "truco": "Detector: 3 puntos. Inhibidor (interfiere en el radar): 6 puntos. Avisador de la posición de los radares: permitido.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "Anexo II",
+          "cita": "5. Conducir vehículos que tengan instalados inhibidores de radares o cinemómetros o\ncualesquiera otros mecanismos encaminados a interferir en el correcto funcionamiento de\nlos sistemas de vigilancia del tráfico."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "18.3",
+          "cita": "Quedan excluidos de esta prohibición los mecanismos de aviso que informan de la\nposición de los sistemas de vigilancia del tráfico."
+        }
+      ],
+      "huella": "04778035431b"
+    },
+    {
+      "id": "xb-0067",
+      "porque": "Arrojar a la vía o a sus inmediaciones objetos que puedan producir incendios o accidentes, como una colilla encendida, cuesta 6 puntos: está entre las infracciones más castigadas por el riesgo que crea.",
+      "descartes": {
+        "b": "2 puntos no es lo que fija la ley para esta infracción: son 6.",
+        "c": "4 puntos no es lo que fija la ley para esta infracción: son 6, el máximo de la lista."
+      },
+      "truco": "Si puede provocar un incendio o un accidente, 6 puntos.",
+      "huella": "ee4dc20ffc2f"
+    },
+    {
+      "id": "C-pun-0014",
+      "porque": "El crédito inicial general es de 12 puntos. Quien los mantiene todos sin ser sancionado en firme recibe 2 de bonificación por los tres primeros años (14) y 1 más por los tres siguientes, hasta un máximo de 15.",
+      "descartes": {
+        "a": "12 es el crédito inicial, no el máximo: con las bonificaciones se puede llegar a 15.",
+        "c": "14 es lo que se tiene tras la primera bonificación de dos puntos; todavía se puede sumar uno más, hasta 15."
+      },
+      "truco": "Con los 12 puntos completos y sin sanciones: +2 a los tres años y +1 a los seis. Tope: 15.",
+      "huella": "47883a74498c"
+    },
+    {
+      "id": "C-pun-0015",
+      "porque": "Quien mantiene todos sus puntos sin ser sancionado en firme recibe 2 puntos de bonificación por los tres primeros años. Por los tres años siguientes recibe 1 más, hasta un máximo de 15.",
+      "descartes": {
+        "a": "Un punto es la bonificación de los tres años siguientes, no la de los tres primeros.",
+        "b": "Tres puntos es lo que suman las dos bonificaciones juntas (2 + 1) a lo largo de seis años, no lo que se recibe a los tres."
+      },
+      "truco": "Con los 12 puntos completos y sin sanciones: +2 a los tres años y +1 a los seis. Tope: 15.",
+      "huella": "6a6555e28027"
+    },
+    {
+      "id": "v5e-pun-0001",
+      "porque": "Tras la primera bonificación de 2 puntos (de 12 a 14), si mantiene todos sus puntos los tres años siguientes recibe 1 punto más y llega a 15, que es el máximo.",
+      "descartes": {
+        "a": "14 no es el máximo: todavía queda la bonificación de un punto por los tres años siguientes, hasta 15.",
+        "c": "La segunda bonificación es de un punto, no de dos, y no se puede pasar de 15."
+      },
+      "truco": "Con los 12 puntos completos y sin sanciones: +2 a los tres años y +1 a los seis. Tope: 15.",
+      "huella": "b1a2a7c4a6e2"
+    },
+    {
+      "id": "xb-0059",
+      "porque": "El crédito de puntos es único para todas las autorizaciones de un conductor. Aunque tengas el A2 y el B, tienes una sola cuenta de puntos, y lo que pierdes o recuperas afecta a todos tus permisos.",
+      "descartes": {
+        "a": "No hay una cuenta de puntos por permiso: la ley establece un crédito único.",
+        "c": "Los puntos no van ligados al primer permiso: el crédito es único para todos."
+      },
+      "truco": "Una persona, una cuenta de puntos, tenga los permisos que tenga.",
+      "huella": "562d1450ab88"
+    },
+    {
+      "id": "C-pun-0005",
+      "porque": "Quien ha perdido parte de sus puntos puede recuperar hasta 6 con un curso de sensibilización y reeducación vial, siempre que lo supere con aprovechamiento. Nunca se recuperan más puntos de los perdidos.",
+      "descartes": {
+        "a": "4 puntos es lo que aún dice la Orden de cursos, pero manda la Ley de Tráfico, que fija un máximo de 6.",
+        "c": "8 puntos es el crédito inicial de los noveles y de quien vuelve a obtener el permiso tras perderlos todos, no lo que se recupera con el curso."
+      },
+      "truco": "Curso parcial: hasta 6 puntos, una vez cada dos años (cada año los profesionales).",
+      "apoyos": [
+        {
+          "norma": "OCURSOS",
+          "articulo": "Tercero.a",
+          "cita": "máximo de cuatro puntos, sin que en ningún caso se puedan recuperar más puntos de los\nque se hubieran perdido."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "63.2",
+          "cita": "Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes\ncasos:"
+        }
+      ],
+      "huella": "39ca4bb9bfb3"
+    },
+    {
+      "id": "C-pun-0006",
+      "porque": "El curso de recuperación parcial de puntos solo puede hacerse una vez cada dos años. La excepción son los conductores profesionales, que pueden hacerlo cada año.",
+      "descartes": {
+        "a": "Una vez al año es la frecuencia de los conductores profesionales, no la del resto.",
+        "b": "Sí hay límite: una vez cada dos años, aunque se tenga saldo positivo."
+      },
+      "truco": "Curso parcial: hasta 6 puntos, una vez cada dos años (cada año los profesionales).",
+      "huella": "65e26d8cca59"
+    },
+    {
+      "id": "C-pun-0007",
+      "porque": "La regla general es que el curso de recuperación parcial solo se puede hacer una vez cada dos años, pero los conductores profesionales son la excepción: pueden hacerlo con frecuencia anual.",
+      "descartes": {
+        "b": "Una vez cada dos años es la regla general, pero la ley hace una excepción precisamente para los profesionales.",
+        "c": "Cada tres años no es ninguna frecuencia de la ley para este curso."
+      },
+      "truco": "Curso parcial: hasta 6 puntos, una vez cada dos años (cada año los profesionales).",
+      "huella": "9f9b170d2eb6"
+    }
+  ]
+}

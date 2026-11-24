@@ -1491,11 +1491,21 @@
         "minuto": null,
         "resuelve": "B1-rev-0007"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/senales/P-9a.png",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Señal P-9a: Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado derecho)",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "Texto leído en la ficha P-9a (página 90 del PDF consolidado del RGC). Ojo: el manual de la DGT de 2024 da 300/200/100 m para el paso a nivel; manda el catálogo del BOE.",
-      "materia": 1
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "P-9a",
+        "descripcion": "Señal P-9a: Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado derecho)"
+      }
     },
     {
       "id": "res-sen-0004",
@@ -1557,11 +1567,21 @@
         "minuto": "2:55:36",
         "resuelve": "B2-rev-0007"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/senales/S-28.png",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Señal S-28: Zona de estancia y juego",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 134 del PDF consolidado"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "Texto leído en la ficha S-28 (página 134 del PDF consolidado del RGC).",
-      "materia": 1
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "senal",
+        "codigo": "S-28",
+        "descripcion": "Señal S-28: Zona de estancia y juego"
+      }
     }
   ]
 }

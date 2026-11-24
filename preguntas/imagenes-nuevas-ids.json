@@ -1,0 +1,188 @@
+{
+  "descripcion": "Preguntas a las que se ha puesto imagen después de redactarlas (24/11/2026). Solo cambian los campos imagen e imagen_requerida; el enunciado, las opciones, la respuesta y la explicación no se tocan. Se aplica con imagenes/asignar_imagenes.py.",
+  "preguntas": [
+    {
+      "id": "x1b-0041",
+      "src": "img/fotos-boe/agente-brazo-levantado.jpg"
+    },
+    {
+      "id": "B1-sen-0015",
+      "src": "img/fotos-boe/agente-brazo-levantado.jpg"
+    },
+    {
+      "id": "B1-sen-0017",
+      "src": "img/esquemas/agente-brazos-horizontales.svg"
+    },
+    {
+      "id": "x1b-0045",
+      "src": "img/fotos-boe/semaforos-carril-aspa-flecha.jpg"
+    },
+    {
+      "id": "B1-sen-0043",
+      "src": "img/esquemas/semaforo-tranvia-franja-vertical-intermitente.svg"
+    },
+    {
+      "id": "res-sen-0003",
+      "src": "img/senales/P-9a.png"
+    },
+    {
+      "id": "v5c-pn-0001",
+      "src": "img/senales/P-9a.png"
+    },
+    {
+      "id": "res-sen-0005",
+      "src": "img/senales/S-28.png"
+    },
+    {
+      "id": "v4b-sen-0006",
+      "src": "img/senales/S-47.png"
+    },
+    {
+      "id": "B2-mv-0020",
+      "src": "img/esquemas/marca-continua-adosada-discontinua.svg"
+    },
+    {
+      "id": "B2-mv-0033",
+      "src": "img/marcas/M-5.2d.png"
+    },
+    {
+      "id": "B1-pri-0065",
+      "src": "img/esquemas/interseccion-t-stop.svg"
+    },
+    {
+      "id": "x1a-0093",
+      "src": "img/esquemas/incorporacion-autovia-sin-trayectorias.svg"
+    },
+    {
+      "id": "A-inc-0002",
+      "src": "img/esquemas/incorporacion-autovia.svg"
+    },
+    {
+      "id": "x1a-0111",
+      "src": "img/esquemas/adelantamiento-linea-discontinua.svg"
+    },
+    {
+      "id": "x1a-0115",
+      "src": "img/esquemas/adelantamiento-linea-discontinua.svg"
+    },
+    {
+      "id": "xb-0111",
+      "src": "img/esquemas/senal-V-20-carga-saliente.svg"
+    },
+    {
+      "id": "B1-sen-0036",
+      "src": "img/esquemas/semaforo-ambar-fijo.svg"
+    },
+    {
+      "id": "B1-sen-0037",
+      "src": "img/esquemas/semaforo-ambar-fijo.svg"
+    },
+    {
+      "id": "B1-sen-0046",
+      "src": "img/esquemas/semaforo-ambar-intermitente.svg"
+    },
+    {
+      "id": "B1-sen-0002",
+      "src": "img/esquemas/semaforo-verde-y-stop.svg",
+      "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+    },
+    {
+      "id": "B1-sen-0038",
+      "src": "img/esquemas/semaforo-peatones-verde-intermitente.svg"
+    },
+    {
+      "id": "B1-sen-0039",
+      "src": "img/esquemas/semaforo-peatones-rojo.svg"
+    },
+    {
+      "id": "x1b-0048",
+      "src": "img/esquemas/semaforo-tranvia-franja-oblicua-derecha.svg"
+    },
+    {
+      "id": "x1b-0040",
+      "src": "img/esquemas/semaforo-carril-flecha-y-ceda.svg",
+      "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+    },
+    {
+      "id": "B1-sen-0003",
+      "src": "img/esquemas/ceda-vertical-y-stop-marca.svg",
+      "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+    },
+    {
+      "id": "B1-sen-0001",
+      "src": "img/esquemas/agente-y-semaforo-verde.svg"
+    },
+    {
+      "id": "x1a-0005",
+      "src": "img/esquemas/tres-carriles-doble-sentido.svg"
+    },
+    {
+      "id": "x1a-0006",
+      "src": "img/esquemas/tres-carriles-doble-sentido.svg"
+    },
+    {
+      "id": "x1a-0109",
+      "src": "img/esquemas/tres-carriles-doble-sentido.svg"
+    },
+    {
+      "id": "A-dir-0005",
+      "src": "img/esquemas/tres-carriles-doble-sentido.svg"
+    },
+    {
+      "id": "arc-0012",
+      "src": "img/esquemas/retencion-dos-carriles.svg"
+    },
+    {
+      "id": "arc-0011",
+      "src": "img/esquemas/retencion-tres-carriles.svg"
+    },
+    {
+      "id": "A-pri-0004",
+      "src": "img/esquemas/glorieta-sin-senalizar.svg"
+    },
+    {
+      "id": "x1b-0046",
+      "src": "img/esquemas/semaforo-otro-lado-cruce.svg"
+    },
+    {
+      "id": "A-pri-0003",
+      "src": "img/esquemas/cruce-tranvia-izquierda.svg"
+    },
+    {
+      "id": "A-pri-0002",
+      "src": "img/esquemas/cruce-camino-sin-pavimentar.svg"
+    },
+    {
+      "id": "A-pri-0008",
+      "src": "img/esquemas/giro-izquierda-vehiculo-de-frente.svg"
+    },
+    {
+      "id": "x1a-0012",
+      "src": "img/esquemas/refugio-peatones-sentido-unico.svg"
+    },
+    {
+      "id": "A-cic-0001",
+      "src": "img/esquemas/grupo-ciclistas-cruce.svg"
+    },
+    {
+      "id": "C-sev-0004",
+      "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+      "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "C-sev-0005",
+      "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+      "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "D-nov-0001",
+      "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+      "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "xb-0058",
+      "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+      "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    }
+  ]
+}

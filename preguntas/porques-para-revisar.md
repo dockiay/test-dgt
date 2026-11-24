@@ -8,8 +8,8 @@ Circula por una carretera de doble sentido sin marcas viales y llega a una curva
 Respuesta: **Por la derecha, dejando completamente libre la mitad de la calzada del sentido contrario.**
 
 - ✔ En las curvas y cambios de rasante de reducida visibilidad, aunque no haya marcas que lo delimiten, el conductor debe dejar completamente libre la mitad de la calzada que corresponde al sentido contrario. _(RGC 29.1)_
-- ✘ `x1a-0012` Los refugios, isletas o dispositivos de guía situados en una vía de sentido único, o dentro de la parte correspondiente a un solo sentido, pueden rebasarse por cualquiera de los dos lados. _(RGC 43.1)_
 - ✘ `via-0006` Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida. _(RGC 38.1)_
+- ✘ `xc-0108` Un poblado es el espacio que comprende edificios y en cuyas vías de entrada y de salida están colocadas, respectivamente, las señales de entrada a poblado y de salida de poblado. _(LSV Anexo I.70)_
 
 ## x1a-0002
 
@@ -116,8 +116,8 @@ Entra en una glorieta señalizada con esta señal. ¿Cómo debe circular por ell
 Respuesta: **Dejando a su izquierda el centro de la glorieta.**
 
 - ✔ En las plazas, glorietas y encuentros de vías los vehículos circulan dejando a su izquierda el centro de aquellos. _(RGC 43.2)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
-- ✘ `B1-sen-0001` Las señales y órdenes de los agentes encabezan el orden de preferencia entre señales, por delante de los semáforos. _(RGC 133.1.a)_
+- ✘ `x1a-0063` Cuando en una vía se hacen obras de reparación, los vehículos, caballerías y ganado deben pasar por el sitio señalado al efecto. _(RGC 60.2)_
+- ✘ `x1b-0123` Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 50 km/h, circular entre 81 y 90 km/h se sanciona con 400 euros. _(LSV Anexo IV)_
 
 ## x1a-0014
 
@@ -485,8 +485,8 @@ Según la Ley de Tráfico, incumplir las normas sobre preferencia de paso, adela
 Respuesta: **Grave.**
 
 - ✔ Incumplir las disposiciones sobre preferencia de paso, adelantamientos, cambios de dirección o sentido, marcha atrás y utilización de carriles y arcenes es una infracción grave, cuando no constituye delito. _(LSV 76.c)_
-- ✘ `x1a-0012` Los refugios, isletas o dispositivos de guía situados en una vía de sentido único, o dentro de la parte correspondiente a un solo sentido, pueden rebasarse por cualquiera de los dos lados. _(RGC 43.1)_
 - ✘ `A-adel-0013` Queda prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas, en los pasos a nivel y en sus proximidades. _(RGC 87.1.b)_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 
 ## x1a-0059
 
@@ -494,8 +494,8 @@ Debe ceder el paso en una intersección. Hay un hueco, pero si sale, el vehícul
 Respuesta: **Esperar, porque no puede obligarle a cambiar bruscamente su velocidad.**
 
 - ✔ Quien debe ceder el paso no puede iniciar ni continuar su maniobra hasta asegurarse de que no fuerza al conductor con prioridad a modificar bruscamente su trayectoria o su velocidad. _(RGC 58.1)_
-- ✘ `A-pri-0002` En las intersecciones sin señalizar, los vehículos que circulan por una vía pavimentada tienen preferencia sobre los que proceden de otra sin pavimentar, aunque estos vengan por la derecha. _(RGC 57.1.a)_
 - ✘ `x1a-0078` Los conductores de vehículos de servicios de urgencia solo deben hacer uso, de forma ponderada, de su régimen especial cuando circulan prestando un servicio urgente. _(RGC 67.2)_
+- ✘ `A-urg-0006` Los vehículos no prioritarios en servicio de urgencia deben respetar las normas de circulación, sobre todo en las intersecciones; los demás usuarios deben facilitarles el paso. _(RGC 70.2)_
 
 ## x1a-0060
 
@@ -585,7 +585,7 @@ Respuesta: **El camión con remolque.**
 
 - ✔ En el orden de preferencia de los estrechamientos, los conjuntos de vehículos (salvo turismos con remolque ligero) solo van detrás de los vehículos especiales y de transporte especial que exceden masas o dimensiones. _(RGC 62.1.b y e)_
 - ✘ `x1a-0078` Los conductores de vehículos de servicios de urgencia solo deben hacer uso, de forma ponderada, de su régimen especial cuando circulan prestando un servicio urgente. _(RGC 67.2)_
-- ✘ `A-pri-0008` Quien va a girar debe cerciorarse de que la velocidad y la distancia de los vehículos que se acercan en sentido contrario le permiten hacer la maniobra sin peligro y, si no es así, abstenerse. _(RGC 74.1)_
+- ✘ `x1a-0086` Los agentes de la autoridad pueden exigir en cualquier momento la justificación de las circunstancias graves por las que un vehículo no prioritario presta un servicio de urgencia. _(RGC 70.3)_
 
 ## x1a-0070
 
@@ -629,8 +629,8 @@ Para entrar en una finca tiene que cruzar un arcén por el que van unas vacas, y
 Respuesta: **Las vacas.**
 
 - ✔ Cuando un vehículo cruza un arcén por el que circulan animales que no disponen de cañada, los animales tienen prioridad. _(RGC 66.1.c)_
-- ✘ `A-pri-0003` Los vehículos que circulan por raíles tienen prioridad de paso sobre los demás usuarios en las intersecciones sin señalizar. _(RGC 57.1.b)_
-- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
+- ✘ `x1a-0063` Cuando en una vía se hacen obras de reparación, los vehículos, caballerías y ganado deben pasar por el sitio señalado al efecto. _(RGC 60.2)_
+- ✘ `A-pri-0006` En las intersecciones con «ceda el paso» o «stop», se cede siempre el paso a los vehículos de la vía preferente, vengan por el lado que vengan. _(RGC 56.5)_
 
 ## x1a-0075
 
@@ -728,8 +728,8 @@ Tiene que llevar urgentemente a un herido en un vehículo que no dispone de luz 
 Respuesta: **Agitando un pañuelo o con un procedimiento similar.**
 
 - ✔ El conductor de un vehículo no prioritario que presta un servicio de urgencia advierte su situación con el avisador acústico intermitente y la luz de emergencia, si dispone de ella, o agitando un pañuelo o procedimiento similar. _(RGC 70.1)_
-- ✘ `A-pri-0008` Quien va a girar debe cerciorarse de que la velocidad y la distancia de los vehículos que se acercan en sentido contrario le permiten hacer la maniobra sin peligro y, si no es así, abstenerse. _(RGC 74.1)_
 - ✘ `x1a-0080` Con carácter excepcional, los vehículos prioritarios en servicio urgente por autopista o autovía pueden dar media vuelta o marcha atrás y entrar en la mediana o sus pasos transversales, si no comprometen la seguridad de ningún usuario. _(RGC 68.1)_
+- ✘ `A-urg-0003` Al percibir las señales de un vehículo prioritario, los demás conductores deben facilitarle el paso según las circunstancias, apartándose normalmente a la derecha o deteniéndose si fuera preciso. _(RGC 69)_
 
 ## x1a-0086
 
@@ -801,7 +801,7 @@ Respuesta: **Acelerar hasta la velocidad adecuada al final del carril.**
 
 - ✔ Tras cerciorarse al principio del carril de aceleración de que puede incorporarse sin peligro, el conductor acelera hasta alcanzar la velocidad adecuada al final del carril para incorporarse a la calzada. _(RGC 72.4)_
 - ✘ `x1a-0095` Aunque los demás conductores deban facilitar la salida de los autobuses de las paradas en poblado, el conductor del autobús sigue obligado a adoptar las precauciones necesarias para evitar todo riesgo de accidente. _(RGC 73.3)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `x1a-0069` En el orden de preferencia de los estrechamientos, los conjuntos de vehículos (salvo turismos con remolque ligero) solo van detrás de los vehículos especiales y de transporte especial que exceden masas o dimensiones. _(RGC 62.1.b y e)_
 
 ## x1a-0094
 
@@ -890,8 +890,8 @@ Respuesta: **No, porque puede seguir hacia delante o cambiar de dirección.**
 Respuesta: **Lentamente, tras advertirlo y comprobar que no hay peligro, incluso bajándose.**
 
 - ✔ La marcha atrás se hace lentamente, después de advertirla y de cerciorarse, incluso apeándose o siguiendo las indicaciones de otra persona, de que no supone peligro para los demás. _(RGC 81.1)_
-- ✘ `x1a-0115` Tras adelantar, hay que reintegrarse al propio carril tan pronto como sea posible y de modo gradual, sin obligar a otros a modificar su trayectoria o velocidad, y advertirlo con las señales preceptivas. _(RGC 85.3)_
 - ✘ `A-adv-0002` El desplazamiento lateral hacia el lado contrario al que indica la mano se advierte con el brazo doblado hacia arriba y la palma extendida. Con el brazo izquierdo, indica desplazamiento a la derecha. _(RGC 109.2.a)_
+- ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
 
 ## x1a-0104
 
@@ -1007,8 +1007,8 @@ Va a adelantar a un ciclista y, por el arcén del sentido contrario, se acerca d
 Respuesta: **No, aunque el ciclista de frente circule por el arcén.**
 
 - ✔ Al adelantar a ciclistas y otros usuarios vulnerables queda prohibido poner en peligro o entorpecer a quienes circulan en sentido contrario, incluso si circulan por el arcén. _(RGC 85.4)_
-- ✘ `x1a-0111` Antes de adelantar, el conductor debe asegurarse de que nadie que le sigue ha iniciado la maniobra de adelantarle y de que dispone de espacio suficiente para reintegrarse a su carril al terminar. _(RGC 84.3)_
 - ✘ `A-adel-0002` En los tramos con carriles de aceleración o deceleración, o reservados a determinados vehículos, avanzar más rápido por ellos que por los normales de circulación (o viceversa) no se considera adelantamiento. _(RGC 83.3)_
+- ✘ `A-adel-0004` El que va a adelantar debe asegurarse de que ningún conductor que le siga por el mismo carril ha iniciado la maniobra de adelantarle, y de que tiene espacio para volver a su carril. _(RGC 84.3)_
 
 ## x1a-0118
 
@@ -1061,8 +1061,8 @@ Un camión que va delante de usted está adelantando y su tamaño le impide ver 
 Respuesta: **No, está prohibido.**
 
 - ✔ Se prohíbe adelantar detrás de un vehículo que hace la misma maniobra cuando sus dimensiones impiden ver la parte delantera de la vía al que le sigue. _(RGC 87.1.a)_
-- ✘ `x1a-0109` En calzadas de doble sentido con tres carriles separados por marcas discontinuas, solo se puede adelantar cuando los conductores del sentido contrario no han ocupado el carril central para adelantar a su vez. _(RGC 84.1)_
 - ✘ `x1a-0121` Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o hacer maniobras que impidan o dificulten el adelantamiento. _(RGC 86.2)_
+- ✘ `x1a-0113` Durante el adelantamiento, el conductor debe llevar una velocidad notoriamente superior a la del vehículo adelantado y dejar una separación lateral suficiente. _(RGC 85.1)_
 
 ## x1a-0126
 
@@ -1071,7 +1071,7 @@ Respuesta: **No, en las glorietas no rige esa prohibición.**
 
 - ✔ La prohibición de adelantar en las intersecciones y sus proximidades no se aplica en las plazas de circulación giratoria o glorietas, entre otras excepciones. _(RGC 87.1.c.1º)_
 - ✘ `adel-0005` Al rebasar un vehículo inmovilizado por avería, accidente o servicio de urgencia o auxilio que ocupe la calzada, hay que mantener al menos 1,5 m y reducir la velocidad al menos 20 km/h. _(RGC 88.1)_
-- ✘ `x1a-0115` Tras adelantar, hay que reintegrarse al propio carril tan pronto como sea posible y de modo gradual, sin obligar a otros a modificar su trayectoria o velocidad, y advertirlo con las señales preceptivas. _(RGC 85.3)_
+- ✘ `x1a-0113` Durante el adelantamiento, el conductor debe llevar una velocidad notoriamente superior a la del vehículo adelantado y dejar una separación lateral suficiente. _(RGC 85.1)_
 
 ## x1a-0127
 
@@ -1088,8 +1088,8 @@ Circula por una vía que tiene prioridad en la próxima intersección y hay señ
 Respuesta: **Sí, si se cumplen las demás normas del adelantamiento.**
 
 - ✔ Entre las excepciones a la prohibición de adelantar en intersecciones está que la calzada por la que se adelanta goce de prioridad en la intersección y haya señal expresa que lo indique. _(RGC 87.1.c.3º)_
-- ✘ `x1a-0115` Tras adelantar, hay que reintegrarse al propio carril tan pronto como sea posible y de modo gradual, sin obligar a otros a modificar su trayectoria o velocidad, y advertirlo con las señales preceptivas. _(RGC 85.3)_
 - ✘ `A-adel-0010` Dentro de poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas longitudinales, se permite adelantar por la derecha si se comprueba antes que no hay peligro. _(RGC 82.3)_
+- ✘ `A-adel-0002` En los tramos con carriles de aceleración o deceleración, o reservados a determinados vehículos, avanzar más rápido por ellos que por los normales de circulación (o viceversa) no se considera adelantamiento. _(RGC 83.3)_
 
 ## x1a-0129
 
@@ -1385,8 +1385,8 @@ Según el reglamento, ¿cuál de estos elementos forma parte de la señalizació
 Respuesta: **Las órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico.**
 
 - ✔ La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
-- ✘ `B1-sen-0038` La luz verde intermitente indica que el tiempo para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la roja. _(RGC Anexo I.4.1.b)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
+- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
 
 ## x1b-0033
 
@@ -1395,7 +1395,7 @@ Respuesta: **A toda la anchura de la calzada que estén autorizados a utilizar l
 
 - ✔ Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
 - ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
-- ✘ `x1b-0040` La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
+- ✘ `x1b-0055` Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
 
 ## x1b-0034
 
@@ -1404,7 +1404,7 @@ Respuesta: **Para que sean más visibles y legibles por la noche.**
 
 - ✔ Las señales viales llevan materiales o dispositivos retrorreflectantes para que sean más visibles y legibles por la noche. _(RGC 136)_
 - ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
-- ✘ `B1-sen-0001` Las señales y órdenes de los agentes encabezan el orden de preferencia entre señales, por delante de los semáforos. _(RGC 133.1.a)_
+- ✘ `B1-sen-0033` Los captafaros horizontales luminosos emiten luz verde, naranja o roja, y el único franqueable es el verde. _(RGC Anexo I.3.1.4.1º)_
 
 ## x1b-0035
 
@@ -1430,8 +1430,8 @@ Un comercio quiere colocar un cartel publicitario junto a una señal de tráfico
 Respuesta: **No, está prohibido colocar junto a las señales objetos que reduzcan su visibilidad.**
 
 - ✔ Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## x1b-0038
 
@@ -1467,7 +1467,7 @@ Respuesta: **Inmediatamente antes del agente.**
 
 - ✔ Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
 - ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
-- ✘ `B1-sen-0043` La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
+- ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
 
 ## x1b-0043
 
@@ -1475,8 +1475,8 @@ Respuesta: **Inmediatamente antes del agente.**
 Respuesta: **Sí, cuando las circunstancias lo exijan, siempre que las hagan de forma clara.**
 
 - ✔ Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
-- ✘ `B1-sen-0043` La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
+- ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
 
 ## x1b-0044
 
@@ -1484,8 +1484,8 @@ Un vehículo de policía con la señal V-1 encendida le da instrucciones por meg
 Respuesta: **Sí, los agentes pueden dar órdenes a través de la megafonía mientras usan la señal V-1.**
 
 - ✔ Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
 - ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
+- ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
 
 ## x1b-0045
 
@@ -1493,8 +1493,8 @@ Un semáforo cuadrado (de carril) situado sobre uno de los carriles, ¿a qué ve
 Respuesta: **Exclusivamente a los que circulan por el carril sobre el que está situado.**
 
 - ✔ Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
-- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
-- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
+- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
 
 ## x1b-0046
 
@@ -1502,8 +1502,8 @@ Un semáforo en rojo está situado al otro lado de una intersección y no hay l�
 Respuesta: **Antes de entrar en la intersección.**
 
 - ✔ Si el semáforo en rojo está dentro o al lado opuesto de una intersección, los vehículos no deben internarse en esta ni rebasar la línea de detención situada antes de ella, si existe. _(RGC Anexo I.4.2.a)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
+- ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
 
 ## x1b-0047
 
@@ -1511,8 +1511,8 @@ Como norma general, en un paso para peatones con semáforo para peatones, ¿qué
 Respuesta: **La roja no intermitente.**
 
 - ✔ Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## x1b-0048
 
@@ -1520,8 +1520,8 @@ En un semáforo para tranvías y autobuses de líneas regulares, ¿qué indica u
 Respuesta: **Que está permitido el paso para girar a la derecha.**
 
 - ✔ En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
-- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
+- ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## x1b-0049
 
@@ -1548,7 +1548,7 @@ Respuesta: **De fondo amarillo y caracteres negros, sea cual sea el tipo de carr
 
 - ✔ Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
-- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
+- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
 
 ## x1b-0052
 
@@ -1557,7 +1557,7 @@ Respuesta: **Amarillo.**
 
 - ✔ Las nuevas marcas viales en tramos en obras son de color amarillo; las marcas previas que sigan siendo de aplicación pueden mantenerse blancas. _(RGC Anexo I.5.2 (Catálogo de marcas viales, 2))_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
-- ✘ `B1-sen-0043` La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
+- ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
 
 ## x1b-0053
 
@@ -1574,8 +1574,8 @@ Debajo de una señal de prohibición hay un panel con la silueta de un camión y
 Respuesta: **Que la señal afecta a todos los vehículos salvo a los camiones.**
 
 - ✔ Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
-- ✘ `x1b-0048` En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
 - ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
+- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
 
 ## x1b-0055
 
@@ -1583,8 +1583,8 @@ Respuesta: **Que la señal afecta a todos los vehículos salvo a los camiones.**
 Respuesta: **Dar a conocer circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su conductor.**
 
 - ✔ Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
+- ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
+- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
 
 ## x1b-0056
 
@@ -1628,8 +1628,8 @@ Respuesta: **La proximidad de una intersección o tramo regulado por semáforos.
 Respuesta: **De un puente que puede ser levantado o girado, interrumpiéndose temporalmente la circulación.**
 
 - ✔ La señal P-5 advierte de la proximidad de un puente móvil, que puede levantarse o girarse e interrumpir temporalmente la circulación. _(RGC_CATALOGO Anexo I, catálogo de señales, P-5)_
-- ✘ `x1b-0048` En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
 - ✘ `B1-sen-0033` Los captafaros horizontales luminosos emiten luz verde, naranja o roja, y el único franqueable es el verde. _(RGC Anexo I.3.1.4.1º)_
+- ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
 
 ## x1b-0061
 
@@ -1646,8 +1646,8 @@ Respuesta: **Una sucesión de curvas peligrosas próximas entre sí, la primera 
 Respuesta: **Porque la señal P-18 Obras únicamente puede utilizarse con fondo amarillo.**
 
 - ✔ La señal P-18 Obras únicamente puede utilizarse con fondo amarillo; en los tramos en obras, otras señales de peligro y reglamentación de fondo blanco pasan también a tenerlo amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
-- ✘ `B1-sen-0017` La señal de brazos extendidos horizontalmente permanece en vigor aunque el agente los baje, siempre que no cambie de posición o efectúe otra señal. _(RGC Anexo I.1.1.b)_
+- ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
+- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 
 ## x1b-0064
 
@@ -1655,8 +1655,8 @@ Respuesta: **Porque la señal P-18 Obras únicamente puede utilizarse con fondo 
 Respuesta: **De un lugar o tramo con elevado tránsito de peatones.**
 
 - ✔ La señal P-20b advierte de la proximidad de un lugar o tramo con elevado tránsito de peatones; el paso para peatones se advierte con la P-20a. _(RGC_CATALOGO Anexo I, catálogo de señales, P-20b)_
-- ✘ `B1-sen-0043` La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
 - ✘ `B1-sen-0023` La bandera verde indica que, a partir del paso del vehículo que la porta, la calzada queda de nuevo abierta al tráfico. _(RGC Anexo I.1.2.b)_
+- ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
 
 ## x1b-0070
 
@@ -1665,7 +1665,7 @@ Respuesta: **A las motocicletas y a los vehículos de tres ruedas asimilados a m
 
 - ✔ La señal R-104 prohíbe el acceso a motocicletas y a vehículos de tres ruedas asimilados a motocicletas. _(RGC_CATALOGO Anexo I, catálogo de señales, R-104)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
+- ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
 
 ## x1b-0075
 
@@ -1674,7 +1674,7 @@ Respuesta: **No, porque la anchura máxima que limita la señal incluye la carga
 
 - ✔ La señal R-204 prohíbe el paso a los vehículos cuya anchura máxima, incluida la carga, supere la indicada. _(RGC_CATALOGO Anexo I, catálogo de señales, R-204)_
 - ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
-- ✘ `B1-sen-0039` La luz roja no intermitente en forma de peatón inmóvil indica a los peatones que no deben comenzar a cruzar la calzada. _(RGC Anexo I.4.1.a)_
+- ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
 
 ## x1b-0079
 
@@ -1701,7 +1701,7 @@ Respuesta: **Que deja de aplicarse la prohibición de adelantamiento para camion
 
 - ✔ La señal R-503 señala el lugar desde donde deja de ser aplicable una señal anterior de adelantamiento prohibido para camiones. _(RGC_CATALOGO Anexo I, catálogo de señales, R-503)_
 - ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
+- ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
 
 ## x1b-0086
 
@@ -1709,8 +1709,8 @@ Respuesta: **Que deja de aplicarse la prohibición de adelantamiento para camion
 Respuesta: **El fin de la obligación de circular a una velocidad mínima.**
 
 - ✔ La señal R-506 señala el lugar desde donde deja de ser aplicable una señal anterior de velocidad mínima. _(RGC_CATALOGO Anexo I, catálogo de señales, R-506)_
-- ✘ `B1-sen-0038` La luz verde intermitente indica que el tiempo para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la roja. _(RGC Anexo I.4.1.b)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
+- ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
 
 ## x1b-0091
 
@@ -1728,7 +1728,7 @@ Respuesta: **La conveniencia de tomar precauciones, especialmente evitar produci
 
 - ✔ La señal S-23 indica la situación de un hospital y la conveniencia de tomar las precauciones que requiere la proximidad de centros médicos, especialmente evitar la producción de ruido. _(RGC_CATALOGO Anexo I, catálogo de señales, S-23)_
 - ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
+- ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
 
 ## x1b-0093
 
@@ -1754,8 +1754,8 @@ Ve esta inscripción pintada en el arcén, junto a la línea de borde. ¿A quié
 Respuesta: **A los equipos de salvamento aéreo, para indicarles el punto kilométrico.**
 
 - ✔ La inscripción de punto kilométrico (M-6.20) indica el punto kilométrico de la carretera y está dirigida a equipos de salvamento aéreo. _(RGC Anexo I.5.2 (marcas viales, 4.5, M-6.20))_
-- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
 - ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
+- ✘ `B1-sen-0005` El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
 
 ## x1b-0098
 
@@ -1763,8 +1763,8 @@ Respuesta: **A los equipos de salvamento aéreo, para indicarles el punto kilom�
 Respuesta: **La presencia de un reductor de velocidad tipo «lomo de asno».**
 
 - ✔ La presencia de un reductor de velocidad tipo «lomo de asno» (M-4.5) se advierte mediante tres triángulos dispuestos sobre su parte ascendente. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.5))_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
+- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 
 ## x1b-0099
 
@@ -1782,7 +1782,7 @@ Respuesta: **El lugar que puede alcanzar si sigue por ese carril.**
 
 - ✔ Las inscripciones de orientación (M-6.21 y M-6.22) indican la carretera, población u otro lugar que se puede alcanzar si se sigue por el carril en que están situadas. _(RGC Anexo I.5.2 (marcas viales, 4.5, M-6.21))_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
-- ✘ `B1-sen-0003` Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
 
 ## x1b-0101
 
@@ -2430,7 +2430,7 @@ Respuesta: **Quince días.**
 
 - ✔ El titular de un permiso o licencia de conducción debe comunicar a la Jefatura Provincial de Tráfico cualquier variación de los datos del permiso y el cambio de domicilio en un plazo de quince días. _(RGCOND 10)_
 - ✘ `xb-0048` Los permisos de las clases C1, C1+E, C, C+E, D1, D1+E, D y D+E tienen una vigencia de cinco años hasta que su titular cumple 65 años, y de tres años a partir de esa edad. _(RGCOND 12.1)_
-- ✘ `xb-0058` El año durante el que se debe llevar la señal V-13 de conductor novel se suspende mientras el permiso está intervenido, ha perdido su vigencia o hay privación del derecho a conducir, y luego continúa desde donde quedó. _(RGV Anexo XI, V-13)_
+- ✘ `xb-0053` Quien tiene un permiso de otro Estado de la Unión Europea y adquiere su residencia normal en España queda sometido a las normas españolas sobre vigencia, control de aptitudes psicofísicas y crédito de puntos. _(RGCOND 15.4)_
 
 ## xb-0047
 
@@ -2439,7 +2439,7 @@ Respuesta: **Devolver el original a la Jefatura Provincial de Tráfico que lo ex
 
 - ✔ Quien obtiene un duplicado del permiso de conducción por sustracción o extravío debe devolver el original, cuando lo encuentre, a la Jefatura Provincial de Tráfico que lo hubiera expedido. _(RGCOND 11.3)_
 - ✘ `xb-0055` Ninguna persona puede ser titular de más de un permiso de conducción expedido por un Estado de la Unión Europea o del Espacio Económico Europeo; si tiene más de uno, se le retira el que proceda. _(RGCOND 1.4)_
-- ✘ `xb-0058` El año durante el que se debe llevar la señal V-13 de conductor novel se suspende mientras el permiso está intervenido, ha perdido su vigencia o hay privación del derecho a conducir, y luego continúa desde donde quedó. _(RGV Anexo XI, V-13)_
+- ✘ `xb-0051` El titular de un permiso o licencia de conducción caducados puede solicitar su prórroga presentando la documentación exigida, aunque no puede conducir mientras el permiso esté caducado. _(RGCOND 13.3)_
 
 ## xb-0048
 
@@ -2484,7 +2484,7 @@ Respuesta: **Sí, mantiene su validez en las condiciones en que fue expedido.**
 
 - ✔ Los permisos expedidos en Estados de la Unión Europea o del Espacio Económico Europeo conforme a la normativa comunitaria son válidos en España en las condiciones de su expedición, con la edad mínima exigida para el permiso español equivalente. _(RGCOND 15.1)_
 - ✘ `xb-0047` Quien obtiene un duplicado del permiso de conducción por sustracción o extravío debe devolver el original, cuando lo encuentre, a la Jefatura Provincial de Tráfico que lo hubiera expedido. _(RGCOND 11.3)_
-- ✘ `xb-0058` El año durante el que se debe llevar la señal V-13 de conductor novel se suspende mientras el permiso está intervenido, ha perdido su vigencia o hay privación del derecho a conducir, y luego continúa desde donde quedó. _(RGV Anexo XI, V-13)_
+- ✘ `xb-0049` Un permiso de conducción cuya vigencia ha vencido no autoriza a conducir, y su uso da lugar a que la autoridad o sus agentes lo intervengan y lo remitan a la Jefatura Provincial de Tráfico. _(RGCOND 12.4)_
 
 ## xb-0053
 
@@ -3059,7 +3059,7 @@ Según la DGT, ¿qué puede ocurrir si un vehículo lleva más peso del que debe
 Respuesta: **Que se estropeen elementos como los neumáticos y los frenos.**
 
 - ✔ Cuando un vehículo carga más peso del debido se estropean algunos de sus elementos, como los neumáticos, los sistemas de aceleración y los frenos. _(MANUAL_DGT Tema 13, Límite de peso (p. 320))_
-- ✘ `xb-0111` La señal V-20 se coloca en el extremo posterior de la carga que sobresale, de manera que quede constantemente perpendicular al eje del vehículo. _(RGC 15.6)_
+- ✘ `C-car-0011` En los vehículos no destinados exclusivamente al transporte de mercancías la carga solo puede sobresalir por la parte posterior. _(RGC 15.3)_
 - ✘ `C-car-0004` Las operaciones deben hacerse sin depositar la mercancía en la calzada, el arcén ni las zonas peatonales. _(RGC 16.c)_
 
 ## xb-0118
@@ -4176,7 +4176,7 @@ Respuesta: **Sí, igual que los vehículos de policía, bomberos y mantenimiento
 
 - ✔ Los vehículos de policía, extinción de incendios, protección civil y salvamento, asistencia sanitaria en servicio de urgencia y los equipos de mantenimiento de la vía pueden utilizar los carriles reservados. _(RGC 35.2.c)_
 - ✘ `xc-0116` En la zona con plataforma única de calzada y acera, diseñada para favorecer el tránsito peatonal, el peatón goza de prioridad de paso en cualquier punto de la calzada. _(LSV Anexo I.83)_
-- ✘ `x1a-0005` En las calzadas de doble sentido con tres carriles separados por marcas discontinuas se circula por el carril de la derecha y en ningún caso por el situado más a la izquierda. _(RGC 30.1.b)_
+- ✘ `x1a-0002` Los vehículos circulan por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para cruzarse con seguridad, muy especialmente en curvas y cambios de rasante. _(RGC 29.1)_
 
 ## xc-0121
 
@@ -7632,7 +7632,7 @@ Respuesta: **No, está prohibido.**
 
 - ✔ Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida. _(RGC 38.1)_
 - ✘ `via-0003` La autopista no permite el acceso de las propiedades colindantes; la autovía lo tiene limitado. _(LSV Anexo I.66)_
-- ✘ `x1a-0006` En las calzadas de doble sentido con tres carriles separados por marcas discontinuas, el carril central solo se utiliza para los adelantamientos precisos y para cambiar de dirección a la izquierda. _(RGC 30.1.b)_
+- ✘ `B2-via-0013` En las aceras está prohibida la circulación de cualquier tipo de vehículo, pero las ordenanzas pueden permitir que circulen niños de hasta doce años en bicicleta a cargo de un adulto que vaya a pie. _(RGC 152.1)_
 
 ## via-0007
 
@@ -7659,7 +7659,7 @@ Respuesta: **Por la derecha.**
 
 - ✔ Es obligatorio circular por la derecha para quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas o VMP. _(RGC 122.2.a)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
-- ✘ `arc-0012` Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. _(RGC 32.1)_
+- ✘ `arc-0015` En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo. _(RGC 33)_
 
 ## arc-0003
 
@@ -7668,7 +7668,7 @@ Respuesta: **Por la derecha.**
 
 - ✔ Todo grupo de peatones dirigido por una persona debe circular por la derecha. _(RGC 122.2.b)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
-- ✘ `arc-0012` Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. _(RGC 32.1)_
+- ✘ `arc-0005` Las luces del grupo serán de color blanco o amarillo hacia adelante y rojo hacia atrás, en el lado más próximo al centro de la calzada. _(RGC 123.2)_
 
 ## arc-0004
 
@@ -7695,7 +7695,7 @@ Respuesta: **En el lado más próximo al centro de la calzada.**
 
 - ✔ Se llevan en el lado más próximo al centro de la calzada. _(RGC 123.2)_
 - ✘ `arc-0003` Todo grupo de peatones dirigido por una persona debe circular por la derecha. _(RGC 122.2.b)_
-- ✘ `arc-0012` Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. _(RGC 32.1)_
+- ✘ `arc-0014` Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato. _(RGC 31.2)_
 
 ## arc-0007
 
@@ -7721,7 +7721,7 @@ Dos ciclistas circulan de noche por la calzada de una carretera sin arcén. ¿C�
 Respuesta: **En hilera, uno detrás de otro.**
 
 - ✔ Deben colocarse en hilera, entre otros casos, cuando circulen entre el ocaso y la salida del sol. _(RGC 36.2)_
-- ✘ `arc-0011` Con tres o más carriles en el mismo sentido, el carril de emergencia se forma entre el carril más a la izquierda y su contiguo. _(RGC 32.1)_
+- ✘ `arc-0013` Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha. _(RGC 32.2)_
 - ✘ `arc-0014` Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato. _(RGC 31.2)_
 
 ## arc-0010
@@ -7730,8 +7730,8 @@ En un tramo señalizado para ello, con la circulación detenida por congestión,
 Respuesta: **30 km/h.**
 
 - ✔ En los tramos habilitados y señalizados, y solo con la circulación detenida por congestión, la velocidad por el arcén está limitada a 30 km/h, en columna de a uno. _(RGC 36.3)_
-- ✘ `arc-0011` Con tres o más carriles en el mismo sentido, el carril de emergencia se forma entre el carril más a la izquierda y su contiguo. _(RGC 32.1)_
 - ✘ `arc-0014` Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato. _(RGC 31.2)_
+- ✘ `arc-0001` Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada. _(RGC 122.1)_
 
 ## arc-0011
 
@@ -7901,8 +7901,8 @@ Al adelantar a un ciclista, ¿qué anchura de seguridad mínima hay que guardar?
 Respuesta: **1,5 metros.**
 
 - ✔ Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, VMP o ciclistas hay que guardar una anchura de seguridad de al menos 1,5 metros. _(RGC 85.4)_
-- ✘ `x1a-0109` En calzadas de doble sentido con tres carriles separados por marcas discontinuas, solo se puede adelantar cuando los conductores del sentido contrario no han ocupado el carril central para adelantar a su vez. _(RGC 84.1)_
 - ✘ `A-adel-0013` Queda prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas, en los pasos a nivel y en sus proximidades. _(RGC 87.1.b)_
+- ✘ `A-adel-0004` El que va a adelantar debe asegurarse de que ningún conductor que le siga por el mismo carril ha iniciado la maniobra de adelantarle, y de que tiene espacio para volver a su carril. _(RGC 84.3)_
 
 ## adel-0002
 
@@ -8118,7 +8118,7 @@ Respuesta: **Usted, porque circula por la vía pavimentada.**
 
 - ✔ En las intersecciones sin señalizar, los vehículos que circulan por una vía pavimentada tienen preferencia sobre los que proceden de otra sin pavimentar, aunque estos vengan por la derecha. _(RGC 57.1.a)_
 - ✘ `x1a-0086` Los agentes de la autoridad pueden exigir en cualquier momento la justificación de las circunstancias graves por las que un vehículo no prioritario presta un servicio de urgencia. _(RGC 70.3)_
-- ✘ `A-cic-0001` Los ciclistas que circulan en grupo tienen prioridad cuando el primero ha iniciado ya el cruce o ha entrado en una glorieta; el grupo se trata como una unidad. _(RGC 64.2.c)_
+- ✘ `x1a-0078` Los conductores de vehículos de servicios de urgencia solo deben hacer uso, de forma ponderada, de su régimen especial cuando circulan prestando un servicio urgente. _(RGC 67.2)_
 
 ## A-pri-0003
 
@@ -8153,8 +8153,8 @@ Ante una señal de «ceda el paso» o de «stop» en una intersección, ¿a qui�
 Respuesta: **A los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen.**
 
 - ✔ En las intersecciones con «ceda el paso» o «stop», se cede siempre el paso a los vehículos de la vía preferente, vengan por el lado que vengan. _(RGC 56.5)_
-- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
 - ✘ `x1a-0070` Entre vehículos del mismo tipo, la preferencia es del que tendría que dar marcha atrás mayor distancia y, en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada. _(RGC 62.1)_
+- ✘ `A-urg-0003` Al percibir las señales de un vehículo prioritario, los demás conductores deben facilitarle el paso según las circunstancias, apartándose normalmente a la derecha o deteniéndose si fuera preciso. _(RGC 69)_
 
 ## A-pri-0007
 
@@ -8162,8 +8162,8 @@ Tiene el semáforo en verde, pero la circulación está tan densa que previsible
 Respuesta: **No entrar en la intersección, aunque goce de prioridad de paso.**
 
 - ✔ Aun gozando de prioridad, ningún conductor debe entrar en una intersección si previsiblemente puede quedar detenido impidiendo u obstruyendo la circulación transversal. _(RGC 59.1)_
-- ✘ `A-pri-0002` En las intersecciones sin señalizar, los vehículos que circulan por una vía pavimentada tienen preferencia sobre los que proceden de otra sin pavimentar, aunque estos vengan por la derecha. _(RGC 57.1.a)_
 - ✘ `x1a-0060` Quien debe ceder el paso tiene que mostrar con suficiente antelación, por su forma de circular y especialmente reduciendo paulatinamente la velocidad, que efectivamente va a cederlo. _(RGC 58.1)_
+- ✘ `x1a-0069` En el orden de preferencia de los estrechamientos, los conjuntos de vehículos (salvo turismos con remolque ligero) solo van detrás de los vehículos especiales y de transporte especial que exceden masas o dimensiones. _(RGC 62.1.b y e)_
 
 ## A-pri-0008
 
@@ -8370,7 +8370,7 @@ Respuesta: **El vehículo de tracción animal.**
 
 - ✔ En el orden de preferencia, los vehículos de tracción animal van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA. _(RGC 62.1.c y d)_
 - ✘ `A-est-0001` En los tramos donde por su estrechez es imposible o muy difícil el paso simultáneo y no hay señalización, tiene preferencia el que hubiese entrado primero. _(RGC 60.1)_
-- ✘ `A-pri-0008` Quien va a girar debe cerciorarse de que la velocidad y la distancia de los vehículos que se acercan en sentido contrario le permiten hacer la maniobra sin peligro y, si no es así, abstenerse. _(RGC 74.1)_
+- ✘ `x1a-0082` Los vehículos prioritarios deben usar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entraña peligro alguno para los demás usuarios. _(RGC 68.2)_
 
 ## A-est-0007
 
@@ -8388,7 +8388,7 @@ Respuesta: **El vehículo que circula en sentido ascendente, salvo que pueda lle
 
 - ✔ En los tramos estrechos de gran pendiente, tiene preferencia el vehículo que sube, salvo si este puede llegar antes a un apartadero establecido al efecto. _(RGC 63.1)_
 - ✘ `x1a-0063` Cuando en una vía se hacen obras de reparación, los vehículos, caballerías y ganado deben pasar por el sitio señalado al efecto. _(RGC 60.2)_
-- ✘ `A-pri-0004` En las glorietas, los que se hallan dentro de la vía circular tienen preferencia sobre los que pretenden acceder a ella. _(RGC 57.1.c)_
+- ✘ `A-est-0006` En el orden de preferencia, los vehículos de tracción animal van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA. _(RGC 62.1.c y d)_
 
 ## A-est-0009
 
@@ -8415,7 +8415,7 @@ Respuesta: **A la del brazo, que anula cualquier otra indicación óptica que la
 
 - ✔ Las advertencias hechas con el brazo, si son perceptibles y se hacen conforme al reglamento, anulan cualquier otra indicación óptica que las contradiga. _(RGC 108.2)_
 - ✘ `A-adv-0006` En los desplazamientos laterales solo se avisa el desplazamiento, por lo que la advertencia debe concluir en cuanto el vehículo ha adoptado su nueva trayectoria. _(RGC 109.2.a)_
-- ✘ `A-dir-0005` Cuando la calzada es de doble sentido y tres carriles separados por líneas discontinuas, para girar a la izquierda hay que colocarse en el carril central. _(RGC 75.1.b)_
+- ✘ `A-dir-0003` Si el giro es a la izquierda y la calzada es de un solo sentido, hay que ceñirse todo lo posible al borde izquierdo. _(RGC 75.1.b)_
 
 ## A-adv-0002
 
@@ -8441,8 +8441,8 @@ Si las luces de frenado no funcionan, ¿cómo puede advertir con el brazo que va
 Respuesta: **Moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos.**
 
 - ✔ La intención de inmovilizar el vehículo o frenar de modo considerable se advierte con las luces de frenado o moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos. _(RGC 109.2.c)_
-- ✘ `A-inc-0002` En el carril de aceleración, el conductor debe cerciorarse al principio del carril de que puede incorporarse sin peligro, incluso deteniéndose si es necesario, y después acelerar hasta la velocidad adecuada al final del carril. _(RGC 72.4)_
 - ✘ `A-inc-0005` Toda maniobra de desplazamiento lateral que implique cambio de carril debe hacerse respetando la prioridad del que circula por el carril que se pretende ocupar. _(RGC 74.2)_
+- ✘ `A-sen-0004` Se prohíbe el cambio de sentido en todos los tramos en que está prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado. _(RGC 79.1)_
 
 ## A-adv-0005
 
@@ -8486,8 +8486,8 @@ Las ráfagas de luz (alumbrado de corto o largo alcance de forma intermitente), 
 Respuesta: **Sí, incluso en poblado, a intervalos muy cortos y evitando el deslumbramiento.**
 
 - ✔ Con la misma finalidad que las acústicas y para sustituirlas, pueden hacerse advertencias luminosas incluso en poblado, con las luces de corto o largo alcance de forma intermitente y evitando el deslumbramiento. _(RGC 109.3)_
-- ✘ `A-inc-0002` En el carril de aceleración, el conductor debe cerciorarse al principio del carril de que puede incorporarse sin peligro, incluso deteniéndose si es necesario, y después acelerar hasta la velocidad adecuada al final del carril. _(RGC 72.4)_
-- ✘ `A-dir-0005` Cuando la calzada es de doble sentido y tres carriles separados por líneas discontinuas, para girar a la izquierda hay que colocarse en el carril central. _(RGC 75.1.b)_
+- ✘ `A-dir-0006` En el cambio de dirección a la izquierda hay que dejar a la izquierda el centro de la intersección, salvo que esté acondicionada o señalizada para dejarlo a la derecha. _(RGC 75.1.c)_
+- ✘ `A-adv-0001` Las advertencias hechas con el brazo, si son perceptibles y se hacen conforme al reglamento, anulan cualquier otra indicación óptica que las contradiga. _(RGC 108.2)_
 
 ## A-adv-0010
 
@@ -8558,8 +8558,8 @@ Un vehículo que circula por el carril de aceleración avanza más rápido que l
 Respuesta: **No, no se considera adelantamiento.**
 
 - ✔ En los tramos con carriles de aceleración o deceleración, o reservados a determinados vehículos, avanzar más rápido por ellos que por los normales de circulación (o viceversa) no se considera adelantamiento. _(RGC 83.3)_
-- ✘ `x1a-0109` En calzadas de doble sentido con tres carriles separados por marcas discontinuas, solo se puede adelantar cuando los conductores del sentido contrario no han ocupado el carril central para adelantar a su vez. _(RGC 84.1)_
 - ✘ `A-adel-0012` Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida, salvo que los dos sentidos estén claramente delimitados y la maniobra pueda hacerse sin invadir la zona del sentido contrario. _(RGC 87.1.a)_
+- ✘ `adel-0001` Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, VMP o ciclistas hay que guardar una anchura de seguridad de al menos 1,5 metros. _(RGC 85.4)_
 
 ## A-adel-0003
 
@@ -8594,8 +8594,8 @@ Advierte que el vehículo que le sigue quiere adelantarle. Usted no va a girar a
 Respuesta: **Ceñirse al borde derecho de la calzada.**
 
 - ✔ El conductor que va a ser adelantado debe ceñirse al borde derecho de la calzada (salvo si va a girar o parar a la izquierda) y tiene prohibido aumentar la velocidad o dificultar el adelantamiento. _(RGC 86.1)_
-- ✘ `x1a-0109` En calzadas de doble sentido con tres carriles separados por marcas discontinuas, solo se puede adelantar cuando los conductores del sentido contrario no han ocupado el carril central para adelantar a su vez. _(RGC 84.1)_
 - ✘ `v5b-adel-0004` Está prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas y en los pasos a nivel, y también en sus proximidades. El Reglamento no prevé ninguna excepción por ir despacio. _(RGC 87.1.b)_
+- ✘ `A-adel-0003` Antes de adelantar hay que cerciorarse de que el vehículo que precede no ha indicado su propósito de desplazarse hacia el mismo lado; si lo ha hecho, hay que respetar su preferencia. _(RGC 84.2)_
 
 ## A-adel-0007
 
@@ -8675,8 +8675,8 @@ En un tramo con prohibición de adelantar, circula detrás de un ciclomotor que 
 Respuesta: **Sí, si por su velocidad puede ser adelantado sin riesgo y se ha cerciorado de que la maniobra puede hacerse sin peligro.**
 
 - ✔ En tramos donde está prohibido adelantar se puede adelantar, ocupando el sentido contrario y tras cerciorarse de que no hay peligro, a bicicletas, ciclomotores, VMP, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas, cuando por su velocidad puedan ser adelantados sin riesgo. _(RGC 88.2)_
-- ✘ `x1a-0111` Antes de adelantar, el conductor debe asegurarse de que nadie que le sigue ha iniciado la maniobra de adelantarle y de que dispone de espacio suficiente para reintegrarse a su carril al terminar. _(RGC 84.3)_
 - ✘ `A-adel-0012` Está prohibido adelantar en curvas y cambios de rasante de visibilidad reducida, salvo que los dos sentidos estén claramente delimitados y la maniobra pueda hacerse sin invadir la zona del sentido contrario. _(RGC 87.1.a)_
+- ✘ `A-adel-0010` Dentro de poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas longitudinales, se permite adelantar por la derecha si se comprueba antes que no hay peligro. _(RGC 82.3)_
 
 ## A-adel-0016
 
@@ -8747,7 +8747,7 @@ Por las dimensiones de su vehículo no puede girar ajustándose estrictamente a 
 Respuesta: **Adoptar las precauciones necesarias para evitar todo peligro al realizarlo.**
 
 - ✔ Si por las dimensiones del vehículo u otras circunstancias no es posible girar con estricta sujeción a las normas, el conductor debe adoptar las precauciones necesarias para evitar todo peligro. _(RGC 76.1)_
-- ✘ `A-dir-0005` Cuando la calzada es de doble sentido y tres carriles separados por líneas discontinuas, para girar a la izquierda hay que colocarse en el carril central. _(RGC 75.1.b)_
+- ✘ `A-dir-0002` Para girar a la derecha hay que ceñirse todo lo posible al borde derecho de la calzada, colocándose con antelación y haciendo la maniobra en el menor espacio y tiempo posibles. _(RGC 75.1.b)_
 - ✘ `A-dir-0001` El conductor debe abstenerse de realizar un cambio de dirección a la izquierda cuando no exista visibilidad suficiente. _(RGC 74.1)_
 
 ## A-dir-0008
@@ -9053,8 +9053,8 @@ Respuesta: **La más restrictiva.**
 Respuesta: **La señalización y el balizamiento circunstancial que modifique el régimen normal de utilización de la vía.**
 
 - ✔ El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
-- ✘ `B1-sen-0017` La señal de brazos extendidos horizontalmente permanece en vigor aunque el agente los baje, siempre que no cambie de posición o efectúe otra señal. _(RGC Anexo I.1.1.b)_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
+- ✘ `B1-sen-0021` La serie de toques de silbato cortos y frecuentes ordena la detención de vehículos. _(RGC Anexo I.1.1.e)_
 
 ## B1-sen-0006
 
@@ -9062,7 +9062,7 @@ Un semáforo emite luz amarilla intermitente y en el mismo acceso hay una señal
 Respuesta: **Detenerse, porque el amarillo intermitente no exime del cumplimiento de otras señales que obliguen a detenerse.**
 
 - ✔ La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso, y no exime de cumplir otras señales que obliguen a detenerse, como el STOP. _(RGC Anexo I.4.2.d)_
-- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
+- ✘ `B1-sen-0005` El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
 
 ## B1-sen-0007
@@ -9108,7 +9108,7 @@ Respuesta: **Cuando haya cumplido la prescripción que la señal establece.**
 
 - ✔ Cuando una señal impone detenerse, el conductor no puede reanudar la marcha hasta haber cumplido la prescripción que la señal establece (por ejemplo, en un control o peaje). _(RGC 132.1)_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
-- ✘ `x1b-0048` En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
+- ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
 
 ## B1-sen-0012
 
@@ -9117,7 +9117,7 @@ Respuesta: **Estar provisto del medio técnico que posibilite su uso en condicio
 
 - ✔ Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas. _(RGC 132.1)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
-- ✘ `x1b-0046` Si el semáforo en rojo está dentro o al lado opuesto de una intersección, los vehículos no deben internarse en esta ni rebasar la línea de detención situada antes de ella, si existe. _(RGC Anexo I.4.2.a)_
+- ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
 
 ## B1-sen-0013
 
@@ -9162,7 +9162,7 @@ Respuesta: **Sí, permanece en vigor mientras no cambie de posición o efectúe 
 
 - ✔ La señal de brazos extendidos horizontalmente permanece en vigor aunque el agente los baje, siempre que no cambie de posición o efectúe otra señal. _(RGC Anexo I.1.1.b)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
-- ✘ `x1b-0046` Si el semáforo en rojo está dentro o al lado opuesto de una intersección, los vehículos no deben internarse en esta ni rebasar la línea de detención situada antes de ella, si existe. _(RGC Anexo I.4.2.a)_
+- ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0018
 
@@ -9189,7 +9189,7 @@ Respuesta: **La reanudación de la marcha.**
 
 - ✔ El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
-- ✘ `B1-sen-0039` La luz roja no intermitente en forma de peatón inmóvil indica a los peatones que no deben comenzar a cruzar la calzada. _(RGC Anexo I.4.1.a)_
+- ✘ `x1b-0052` Las nuevas marcas viales en tramos en obras son de color amarillo; las marcas previas que sigan siendo de aplicación pueden mantenerse blancas. _(RGC Anexo I.5.2 (Catálogo de marcas viales, 2))_
 
 ## B1-sen-0021
 
@@ -9225,7 +9225,7 @@ Respuesta: **La necesidad de extremar la atención o la proximidad de un peligro
 
 - ✔ La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
-- ✘ `B1-sen-0001` Las señales y órdenes de los agentes encabezan el orden de preferencia entre señales, por delante de los semáforos. _(RGC 133.1.a)_
+- ✘ `B1-sen-0005` El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
 
 ## B1-sen-0025
 
@@ -9242,8 +9242,8 @@ En un tramo en obras, el personal de la obra regula el paso de vehículos con pa
 Respuesta: **Sí, los usuarios están obligados a seguir las indicaciones del personal que regula el paso de vehículos en las obras.**
 
 - ✔ Los usuarios de la vía están obligados a seguir las indicaciones del personal destinado a la regulación del paso de vehículos en las obras. _(RGC 139.3)_
-- ✘ `B1-sen-0017` La señal de brazos extendidos horizontalmente permanece en vigor aunque el agente los baje, siempre que no cambie de posición o efectúe otra señal. _(RGC Anexo I.1.1.b)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
+- ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
 
 ## B1-sen-0027
 
@@ -9252,7 +9252,7 @@ Respuesta: **Sí, mediante las señales del catálogo oficial incorporadas a una
 
 - ✔ Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
 - ✘ `B1-sen-0023` La bandera verde indica que, a partir del paso del vehículo que la porta, la calzada queda de nuevo abierta al tráfico. _(RGC Anexo I.1.2.b)_
-- ✘ `B1-sen-0003` Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
+- ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 
 ## B1-sen-0028
 
@@ -9287,8 +9287,8 @@ Respuesta: **Prohíbe el paso e informa, además, sobre el sentido de la circula
 Respuesta: **Marcar el trazado de la curva en relación con la reducción de velocidad necesaria y señalar el sentido de circulación.**
 
 - ✔ Los paneles direccionales permanentes marcan el trazado de una curva en relación con la reducción de velocidad necesaria para circular por ella con seguridad, además de indicar el sentido de circulación. _(RGC Anexo I.3.1.2.3º)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
+- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
 
 ## B1-sen-0032
 
@@ -9315,7 +9315,7 @@ Respuesta: **Hasta que lo establezca la propia señalización o cesen las causas
 
 - ✔ Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
-- ✘ `x1b-0040` La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
 
 ## B1-sen-0035
 
@@ -9323,8 +9323,8 @@ Llega a un paso a nivel cuya barrera se está levantando, pero todavía está en
 Respuesta: **No penetrar en el paso a nivel mientras la barrera esté en movimiento.**
 
 - ✔ Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
-- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
+- ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
 
 ## B1-sen-0036
 
@@ -9332,8 +9332,8 @@ Se enciende la luz amarilla fija de un semáforo cuando usted está tan cerca qu
 Respuesta: **Continuar la marcha.**
 
 - ✔ La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
+- ✘ `x1b-0055` Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
 
 ## B1-sen-0037
 
@@ -9341,8 +9341,8 @@ Respuesta: **Continuar la marcha.**
 Respuesta: **Que hay que detenerse en las mismas condiciones que ante la luz roja fija, salvo que no se pueda hacer con seguridad suficiente.**
 
 - ✔ La luz amarilla no intermitente obliga a detenerse como ante la luz roja fija, salvo que no sea posible con seguridad suficiente. _(RGC Anexo I.4.2.c)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## B1-sen-0038
 
@@ -9350,8 +9350,8 @@ En un semáforo para peatones, la luz verde en forma de peatón pasa a ser inter
 Respuesta: **Que el tiempo para terminar de atravesar la calzada está a punto de finalizar y se va a encender la luz roja.**
 
 - ✔ La luz verde intermitente indica que el tiempo para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la roja. _(RGC Anexo I.4.1.b)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
+- ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 
 ## B1-sen-0039
 
@@ -9359,8 +9359,8 @@ Respuesta: **Que el tiempo para terminar de atravesar la calzada está a punto d
 Respuesta: **Que no deben comenzar a cruzar la calzada.**
 
 - ✔ La luz roja no intermitente en forma de peatón inmóvil indica a los peatones que no deben comenzar a cruzar la calzada. _(RGC Anexo I.4.1.a)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
+- ✘ `B1-sen-0021` La serie de toques de silbato cortos y frecuentes ordena la detención de vehículos. _(RGC Anexo I.1.1.e)_
 
 ## B1-sen-0040
 
@@ -9368,8 +9368,8 @@ Un semáforo muestra luces con la silueta iluminada de un ciclo. ¿A quién se r
 Respuesta: **Exclusivamente a los ciclos.**
 
 - ✔ Cuando las luces del semáforo presentan la silueta iluminada de un ciclo, sus indicaciones se refieren exclusivamente a ellos. _(RGC Anexo I.4.4.1)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
+- ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
 
 ## B1-sen-0041
 
@@ -9377,8 +9377,8 @@ Un semáforo consistente en una franja blanca iluminada sobre fondo circular neg
 Respuesta: **A los tranvías y autobuses de líneas regulares.**
 
 - ✔ Este semáforo se refiere exclusivamente a tranvías y autobuses de líneas regulares, salvo que exista un carril reservado, en cuyo caso solo se refiere a los que circulen por él. _(RGC Anexo I.4.4.2)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0042
 
@@ -9386,8 +9386,8 @@ En un semáforo para tranvías y autobuses, ¿qué significa una franja blanca h
 Respuesta: **Que prohíbe el paso en las mismas condiciones que la luz roja no intermitente.**
 
 - ✔ La franja blanca horizontal iluminada prohíbe el paso en las mismas condiciones que la luz roja no intermitente. _(RGC Anexo I.4.4.2.a)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
+- ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
 
 ## B1-sen-0043
 
@@ -9395,8 +9395,8 @@ En un semáforo para tranvías y autobuses, la franja blanca vertical se ilumina
 Respuesta: **Que deben detenerse en las mismas condiciones que ante una luz amarilla fija.**
 
 - ✔ La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
 
 ## B1-sen-0044
 
@@ -9404,8 +9404,8 @@ Respuesta: **Que deben detenerse en las mismas condiciones que ante una luz amar
 Respuesta: **Que el paso está prohibido temporalmente.**
 
 - ✔ Una luz roja intermitente o dos luces rojas alternativamente intermitentes prohíben temporalmente el paso antes de un paso a nivel, un puente móvil, un pontón transbordador, una salida de vehículos de extinción de incendios o ante la aproximación de una aeronave a escasa altura. _(RGC Anexo I.4.2.b)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
+- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
 
 ## B1-sen-0045
 
@@ -9413,8 +9413,8 @@ Además de en los pasos a nivel, ¿dónde puede encontrar dos luces rojas altern
 Respuesta: **En las proximidades de una salida de vehículos de extinción de incendios.**
 
 - ✔ Estas luces se usan antes de un paso a nivel, de un puente móvil o pontón transbordador, cerca de una salida de vehículos de extinción de incendios o ante la aproximación de una aeronave a escasa altura. _(RGC Anexo I.4.2.b)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
+- ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0046
 
@@ -9422,8 +9422,8 @@ Respuesta: **En las proximidades de una salida de vehículos de extinción de in
 Respuesta: **A extremar la precaución y, en su caso, ceder el paso.**
 
 - ✔ La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0052` Las nuevas marcas viales en tramos en obras son de color amarillo; las marcas previas que sigan siendo de aplicación pueden mantenerse blancas. _(RGC Anexo I.5.2 (Catálogo de marcas viales, 2))_
+- ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
 
 ## B1-sen-0047
 
@@ -9431,8 +9431,8 @@ Un semáforo circular muestra una flecha negra sobre la luz amarilla encendida. 
 Respuesta: **Que el significado de la luz amarilla se limita exclusivamente al movimiento indicado por la flecha.**
 
 - ✔ Una flecha negra sobre una luz roja o amarilla no cambia su significado, pero lo limita exclusivamente al movimiento indicado por la flecha. _(RGC Anexo I.4.2.f)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
+- ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
 
 ## B1-sen-0048
 
@@ -9440,8 +9440,8 @@ El semáforo tiene la luz roja circular encendida y, a la vez, una flecha verde 
 Respuesta: **Sí, pero con precaución, dejando pasar a los vehículos que circulen por el carril al que se incorpora y sin poner en peligro a quien esté cruzando la calzada.**
 
 - ✔ La flecha verde permite tomar la dirección indicada cualquiera que sea la otra luz encendida, pero con precaución, dejando pasar a quienes circulan por el carril al que se incorpora y sin poner en peligro a quien cruza. _(RGC Anexo I.4.2.g)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
+- ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
 
 ## B1-sen-0049
 
@@ -9449,8 +9449,8 @@ Está detenido ante un semáforo en rojo, en un carril reservado exclusivamente 
 Respuesta: **Avanzar en la dirección y sentido indicados por la flecha.**
 
 - ✔ Cualquier vehículo que, al encenderse la flecha verde, se encuentre en un carril reservado exclusivamente para la dirección indicada por ella deberá avanzar en esa dirección y sentido. _(RGC Anexo I.4.2.g)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
-- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
+- ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
+- ✘ `B1-sen-0012` Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas. _(RGC 132.1)_
 
 ## B1-sen-0050
 
@@ -9458,8 +9458,8 @@ Un semáforo de carril (cuadrado) sobre su carril muestra un aspa roja. ¿Qué s
 Respuesta: **Prohibición de ocupar ese carril; si circula por él, debe abandonarlo en el tiempo más breve posible.**
 
 - ✔ La luz roja en forma de aspa prohíbe ocupar el carril y quienes circulen por él deben abandonarlo en el tiempo más breve posible. _(RGC Anexo I.4.3.a)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
+- ✘ `B1-sen-0033` Los captafaros horizontales luminosos emiten luz verde, naranja o roja, y el único franqueable es el verde. _(RGC Anexo I.3.1.4.1º)_
 
 ## B1-sen-0051
 
@@ -9467,8 +9467,8 @@ Circula por un carril con un semáforo de carril que muestra una flecha verde ap
 Respuesta: **Detenerse ante el semáforo circular en rojo.**
 
 - ✔ La flecha verde de carril solo autoriza a circular por ese carril y no exime de detenerse ante una luz roja circular ni de obedecer otras señales que obliguen a detenerse o ceder el paso. _(RGC Anexo I.4.3.b)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
+- ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 
 ## B1-sen-0052
 
@@ -9476,8 +9476,8 @@ Un semáforo de carril muestra una flecha amarilla o blanca oblicua apuntando ha
 Respuesta: **Que debe irse incorporando con seguridad al carril hacia el que apunta la flecha, porque el suyo va a quedar cerrado en corto espacio.**
 
 - ✔ Indica la necesidad de irse incorporando con seguridad al carril hacia el que apunta la flecha, ya que el carril por el que se circula va a quedar cerrado en corto espacio. _(RGC Anexo I.4.3.c)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `B1-sen-0024` La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
+- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 
 ## B1-sen-0054
 
@@ -9530,8 +9530,8 @@ Se aproxima a una intersección señalizada con la señal de advertencia de 'int
 Respuesta: **Usted, sobre los vehículos que circulen por la otra vía o procedan de ella.**
 
 - ✔ Los conductores que se aproximen a una intersección señalizada con señal de intersección con prioridad tienen prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella. _(RGC 56.4)_
-- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
 - ✘ `A-cic-0003` Los conductores de bicicletas tienen prioridad de paso cuando circulan por un carril bici, paso para ciclistas o arcén debidamente señalizados. _(RGC 64.2.a)_
+- ✘ `A-est-0006` En el orden de preferencia, los vehículos de tracción animal van por delante de los turismos que arrastran remolques de hasta 750 kg de MMA. _(RGC 62.1.c y d)_
 
 ## B1-pri-0060
 
@@ -9539,8 +9539,8 @@ Circula por una vía señalizada con la señal de 'calzada con prioridad'. ¿Qu�
 Respuesta: **Que tiene prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella.**
 
 - ✔ Quienes circulen por una vía señalizada con señal de calzada con prioridad tienen prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella. _(RGC 56.4)_
-- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
 - ✘ `x1a-0069` En el orden de preferencia de los estrechamientos, los conjuntos de vehículos (salvo turismos con remolque ligero) solo van detrás de los vehículos especiales y de transporte especial que exceden masas o dimensiones. _(RGC 62.1.b y e)_
+- ✘ `x1a-0084` Tan pronto perciben las señales especiales de un vehículo prioritario, los demás conductores deben adoptar las medidas adecuadas para facilitarle el paso. _(RGC 69)_
 
 ## B1-pri-0061
 
@@ -9548,8 +9548,8 @@ Llega a una intersección con señal de ceda el paso. ¿A quién debe ceder el p
 Respuesta: **A los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen.**
 
 - ✔ Ante ceda el paso o STOP se cede siempre el paso a los vehículos de la vía preferente, cualquiera que sea el lado por el que se aproximen. _(RGC 56.5)_
-- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
 - ✘ `B1-pri-0066` En defecto de señal que regule la preferencia de paso, el conductor debe cederlo a los vehículos que se aproximen por su derecha, salvo las excepciones previstas. _(RGC 57.1)_
+- ✘ `x1a-0060` Quien debe ceder el paso tiene que mostrar con suficiente antelación, por su forma de circular y especialmente reduciendo paulatinamente la velocidad, que efectivamente va a cederlo. _(RGC 58.1)_
 
 ## B1-pri-0062
 
@@ -9557,8 +9557,8 @@ Ante una señal de ceda el paso, si no se aproxima ningún vehículo por la vía
 Respuesta: **No; solo debe detenerse cuando sea preciso para ceder el paso.**
 
 - ✔ Ante ceda el paso hay que detener la marcha cuando sea preciso; la detención en todo caso solo es obligatoria cuando así lo indique la señal (STOP). _(RGC 56.5)_
-- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
 - ✘ `x1a-0073` Los conductores tienen prioridad sobre los animales, salvo en cañadas señalizadas, al girar para entrar en otra vía con animales cruzándola y al cruzar un arcén por el que circulan animales sin cañada. _(RGC 66.1.b)_
+- ✘ `B1-pri-0067` Los vehículos que circulan por raíles tienen derecho de prioridad de paso sobre los demás usuarios. _(RGC 57.1.b)_
 
 ## B1-pri-0063
 
@@ -9566,8 +9566,8 @@ Llega a una intersección con señal de STOP y no se aproxima ningún vehículo.
 Respuesta: **Detenerse por completo igualmente.**
 
 - ✔ La señal de detención obligatoria o STOP obliga a detener por completo la marcha en todo caso, venga o no algún vehículo, y después ceder el paso. _(RGC 56.5)_
-- ✘ `B1-pri-0065` Si desde el lugar de detención no hay visibilidad suficiente, el conductor debe detenerse de nuevo donde tenga visibilidad, sin poner en peligro a ningún usuario. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.1))_
 - ✘ `A-est-0007` Los camiones, tractocamiones y furgones tienen preferencia sobre los turismos y vehículos derivados de turismos. _(RGC 62.1.f y g)_
+- ✘ `A-cic-0002` Los ciclistas tienen prioridad cuando, para entrar en otra vía, el vehículo de motor gira a la derecha o a la izquierda y hay un ciclista en sus proximidades. _(RGC 64.2.b)_
 
 ## B1-pri-0064
 
@@ -9575,8 +9575,8 @@ Ante una señal de STOP, ¿dónde debe detener el vehículo si no hay línea de 
 Respuesta: **Inmediatamente antes de la calzada a la que se aproxima.**
 
 - ✔ La obligación de detención es ante la línea de detención o, si no existe, inmediatamente antes de la calzada a la que se aproxima; después hay que ceder el paso. _(RGC Anexo I.5.2 (marcas viales, 4.4, M-6.3))_
-- ✘ `A-cic-0001` Los ciclistas que circulan en grupo tienen prioridad cuando el primero ha iniciado ya el cruce o ha entrado en una glorieta; el grupo se trata como una unidad. _(RGC 64.2.c)_
 - ✘ `A-pri-0009` Quien sale a una vía pública por un camino exclusivamente privado debe ceder el paso a los vehículos que circulen por ella, sea cual sea su sentido. _(RGC 72.2)_
+- ✘ `A-cic-0003` Los conductores de bicicletas tienen prioridad de paso cuando circulan por un carril bici, paso para ciclistas o arcén debidamente señalizados. _(RGC 64.2.a)_
 
 ## B1-pri-0065
 
@@ -9630,7 +9630,7 @@ Respuesta: **Los conductores, salvo en los supuestos que establece el Reglamento
 
 - ✔ Los conductores tienen prioridad de paso respecto de los animales, salvo en las cañadas debidamente señalizadas y en los demás supuestos del art. 66.1; la señal sola solo advierte del peligro. _(RGC 66.1)_
 - ✘ `x1a-0067` En el orden de preferencia en ausencia de señalización, los turismos con remolque de hasta 750 kg y las autocaravanas van por delante de los vehículos de transporte colectivo y de los camiones, tractocamiones y furgones. _(RGC 62.1.d y f)_
-- ✘ `A-pri-0008` Quien va a girar debe cerciorarse de que la velocidad y la distancia de los vehículos que se acercan en sentido contrario le permiten hacer la maniobra sin peligro y, si no es así, abstenerse. _(RGC 74.1)_
+- ✘ `x1a-0081` Los vehículos prioritarios son los de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria, pública o privada, que circulan en servicio urgente y lo advierten con las señales luminosa y acústica especiales. _(RGC 68.2)_
 
 ## B1-pri-0071
 
@@ -9674,8 +9674,8 @@ Esta señal advierte de una intersección. ¿Qué prioridad rige en ella?
 Respuesta: **La regla general de prioridad de paso: la de los vehículos que vienen por la derecha.**
 
 - ✔ La P-2 («Intersección con prioridad de la derecha») advierte de una intersección en la que rige la regla general de prioridad de paso: ceder el paso a los que se aproximan por la derecha (art. 57.1 RGC). _(RGC_CATALOGO Anexo I, catálogo de señales, P-2 (pág. 89 del PDF consolidado))_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
+- ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
 
 ## B1-sen-0076
 
@@ -9683,8 +9683,8 @@ Respuesta: **La regla general de prioridad de paso: la de los vehículos que vie
 Respuesta: **La proximidad de una glorieta con circulación en el sentido indicado por las flechas.**
 
 - ✔ La P-4 («Glorieta») advierte de la proximidad de una glorieta con circulación en el sentido indicado por las flechas. _(RGC_CATALOGO Anexo I, catálogo de señales, P-4 (pág. 90 del PDF consolidado))_
-- ✘ `x1b-0048` En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
-- ✘ `B1-sen-0015` Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
+- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 
 ## B1-sen-0077
 
@@ -9692,8 +9692,8 @@ Respuesta: **La proximidad de una glorieta con circulación en el sentido indica
 Respuesta: **La proximidad de un cruce con una línea de tranvía, que tiene prioridad de paso.**
 
 - ✔ La P-6 («Cruce de tranvía») advierte de la proximidad de un cruce con una línea de tranvía, que tiene prioridad de paso. _(RGC_CATALOGO Anexo I, catálogo de señales, P-6 (pág. 90 del PDF consolidado))_
-- ✘ `B1-sen-0038` La luz verde intermitente indica que el tiempo para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la roja. _(RGC Anexo I.4.1.b)_
 - ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
+- ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
 
 ## B1-sen-0078
 
@@ -9710,8 +9710,8 @@ Respuesta: **La proximidad de un paso a nivel provisto de barreras o semibarrera
 Respuesta: **La proximidad de un paso a nivel no provisto de barreras o semibarreras.**
 
 - ✔ La P-8 («Paso a nivel sin barreras») advierte de la proximidad de un paso a nivel no provisto de barreras o semibarreras. _(RGC_CATALOGO Anexo I, catálogo de señales, P-8 (pág. 90 del PDF consolidado))_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
-- ✘ `B1-sen-0015` Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
+- ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0080
 
@@ -9755,8 +9755,8 @@ Respuesta: **Un resalte en la vía.**
 Respuesta: **Un badén en la vía.**
 
 - ✔ La P-15b («Badén») advierte de la proximidad de un badén en la vía; el resalte es la P-15a y el escalón lateral, la P-30. _(RGC_CATALOGO Anexo I, catálogo de señales, P-15b (pág. 93 del PDF consolidado))_
-- ✘ `B1-sen-0003` Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
+- ✘ `B1-sen-0033` Los captafaros horizontales luminosos emiten luz verde, naranja o roja, y el único franqueable es el verde. _(RGC Anexo I.3.1.4.1º)_
 
 ## B1-sen-0085
 
@@ -9764,8 +9764,8 @@ Respuesta: **Un badén en la vía.**
 Respuesta: **Que la calzada se estrecha por el lado de la derecha.**
 
 - ✔ La P-17a advierte de la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la derecha (por la izquierda es la P-17b). _(RGC_CATALOGO Anexo I, catálogo de señales, P-17a (pág. 93 del PDF consolidado))_
-- ✘ `x1b-0046` Si el semáforo en rojo está dentro o al lado opuesto de una intersección, los vehículos no deben internarse en esta ni rebasar la línea de detención situada antes de ella, si existe. _(RGC Anexo I.4.2.a)_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
 
 ## B1-sen-0086
 
@@ -9773,8 +9773,8 @@ Respuesta: **Que la calzada se estrecha por el lado de la derecha.**
 Respuesta: **La proximidad de una zona de la calzada cuyo pavimento puede resultar deslizante.**
 
 - ✔ La P-19 («Pavimento deslizante») advierte de una zona de la calzada cuyo pavimento puede resultar deslizante, sin limitarse a una causa; la de hielo o nieve es la P-34. _(RGC_CATALOGO Anexo I, catálogo de señales, P-19 (pág. 94 del PDF consolidado))_
-- ✘ `B1-sen-0001` Las señales y órdenes de los agentes encabezan el orden de preferencia entre señales, por delante de los semáforos. _(RGC 133.1.a)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
+- ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
 
 ## B1-sen-0087
 
@@ -9783,7 +9783,7 @@ Respuesta: **De la proximidad de un lugar frecuentado por niños, como una escue
 
 - ✔ La P-21a («Niños») advierte de la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc. _(RGC_CATALOGO Anexo I, catálogo de señales, P-21a (pág. 95 del PDF consolidado))_
 - ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
-- ✘ `B1-sen-0043` La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
+- ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
 
 ## B1-sen-0088
 
@@ -9792,7 +9792,7 @@ Respuesta: **De un lugar donde frecuentemente la vía puede ser atravesada por a
 
 - ✔ La P-24 («Paso de animales en libertad») advierte de la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad. _(RGC_CATALOGO Anexo I, catálogo de señales, P-24 (pág. 95 del PDF consolidado))_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
-- ✘ `B1-sen-0037` La luz amarilla no intermitente obliga a detenerse como ante la luz roja fija, salvo que no sea posible con seguridad suficiente. _(RGC Anexo I.4.2.c)_
+- ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
 
 ## B1-sen-0089
 
@@ -9801,7 +9801,7 @@ Respuesta: **La proximidad de un tramo con circulación en ambos sentidos.**
 
 - ✔ La P-25 («Circulación en los dos sentidos») advierte de la proximidad de un tramo con circulación en ambos sentidos. _(RGC_CATALOGO Anexo I, catálogo de señales, P-25 (pág. 96 del PDF consolidado))_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
-- ✘ `B1-sen-0037` La luz amarilla no intermitente obliga a detenerse como ante la luz roja fija, salvo que no sea posible con seguridad suficiente. _(RGC Anexo I.4.2.c)_
+- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 
 ## B1-sen-0090
 
@@ -9827,8 +9827,8 @@ Respuesta: **De que la vía desemboca en un muelle o en una corriente de agua.**
 Respuesta: **Del riesgo de que se proyecte gravilla al pasar los vehículos.**
 
 - ✔ La P-28 («Proyección de gravilla») advierte de un tramo de vía donde existe el riesgo de que se proyecte gravilla al pasar los vehículos; los desprendimientos son la P-26. _(RGC_CATALOGO Anexo I, catálogo de señales, P-28 (pág. 96 del PDF consolidado))_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
-- ✘ `x1b-0040` La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
+- ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
 
 ## B1-sen-0093
 
@@ -9836,7 +9836,7 @@ Respuesta: **Del riesgo de que se proyecte gravilla al pasar los vehículos.**
 Respuesta: **Una manga de viento.**
 
 - ✔ La manga de viento complementa la señal P-29 informando de la existencia, sentido e intensidad de un viento continuo o racheado. _(RGC Anexo I.3.1.3.1º)_
-- ✘ `B1-sen-0015` Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
 
 ## B1-sen-0094
@@ -9845,8 +9845,8 @@ Respuesta: **Una manga de viento.**
 Respuesta: **De un desnivel a lo largo de la vía en el lado que indique el símbolo (escalón lateral).**
 
 - ✔ La P-30 («Escalón lateral») advierte de la existencia de un desnivel a lo largo de la vía en el lado que indique el símbolo; el resalte es la P-15a. _(RGC_CATALOGO Anexo I, catálogo de señales, P-30 (pág. 96 del PDF consolidado))_
-- ✘ `B1-sen-0037` La luz amarilla no intermitente obliga a detenerse como ante la luz roja fija, salvo que no sea posible con seguridad suficiente. _(RGC Anexo I.4.2.c)_
-- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
+- ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
+- ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
 
 ## B1-sen-0095
 
@@ -9854,8 +9854,8 @@ Respuesta: **De un desnivel a lo largo de la vía en el lado que indique el sím
 Respuesta: **De un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico.**
 
 - ✔ La P-31 («Congestión») advierte de un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico. _(RGC_CATALOGO Anexo I, catálogo de señales, P-31 (pág. 96 del PDF consolidado))_
-- ✘ `x1b-0046` Si el semáforo en rojo está dentro o al lado opuesto de una intersección, los vehículos no deben internarse en esta ni rebasar la línea de detención situada antes de ella, si existe. _(RGC Anexo I.4.2.a)_
 - ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0096
 
@@ -9872,8 +9872,8 @@ Respuesta: **De un lugar en que hay vehículos que obstruyen la calzada debido a
 Respuesta: **De un tramo en el que frecuentemente hay una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc.**
 
 - ✔ La P-33 («Visibilidad reducida») advierte de un tramo en el que frecuentemente la circulación se ve dificultada por una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc. _(RGC_CATALOGO Anexo I, catálogo de señales, P-33 (pág. 97 del PDF consolidado))_
-- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
+- ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
 
 ## B1-sen-0098
 
@@ -9900,7 +9900,7 @@ Respuesta: **La proximidad del lugar en que la calzada por la que circula pierde
 
 - ✔ La R-4 («Fin de prioridad») indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada; la de calzada con prioridad es la R-3. _(RGC_CATALOGO Anexo I, catálogo de señales, R-4 (pág. 99 del PDF consolidado))_
 - ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `x1b-0053` Los dispositivos LED que pueden incorporar las señales verticales, en sus bordes o en su interior, son de color blanco, amarillo o ámbar. _(RGC Anexo I.5 (Catálogo, tomo I, 2.4))_
 
 ## B1-sen-0101
 
@@ -9918,7 +9918,7 @@ Respuesta: **Que en el próximo paso estrecho tiene prioridad con relación a lo
 
 - ✔ La R-6 («Prioridad respecto al sentido contrario») indica que, en un próximo paso estrecho, usted tiene prioridad con relación a los vehículos que circulen en sentido contrario. _(RGC_CATALOGO Anexo I, catálogo de señales, R-6 (pág. 100 del PDF consolidado))_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
-- ✘ `B1-sen-0043` La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
+- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
 
 ## B1-sen-0103
 
@@ -9953,8 +9953,8 @@ Respuesta: **A los vehículos de motor.**
 Respuesta: **Sí: prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas.**
 
 - ✔ La R-103 prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas. La prohibición de acceso a motocicletas es la R-104. _(RGC_CATALOGO Anexo I, catálogo de señales, R-103 (pág. 102 del PDF consolidado))_
-- ✘ `x1b-0040` La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
 - ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
+- ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
 
 ## B1-sen-0107
 
@@ -9963,7 +9963,7 @@ Respuesta: **A los ciclomotores y a los vehículos para personas de movilidad re
 
 - ✔ La R-105 («Entrada prohibida a ciclomotores») prohíbe el acceso a ciclomotores e igualmente a vehículos para personas de movilidad reducida. _(RGC_CATALOGO Anexo I, catálogo de señales, R-105 (pág. 102 del PDF consolidado))_
 - ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
-- ✘ `B1-sen-0038` La luz verde intermitente indica que el tiempo para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la roja. _(RGC Anexo I.4.1.b)_
+- ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
 
 ## B1-sen-0108
 
@@ -9999,7 +9999,7 @@ Respuesta: **A los vehículos que transporten más de 1.000 litros de productos 
 
 - ✔ La R-110 prohíbe el acceso a toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua. _(RGC_CATALOGO Anexo I, catálogo de señales, R-110 (pág. 104 del PDF consolidado))_
 - ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
-- ✘ `B1-sen-0015` Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
 
 ## B1-sen-0112
 
@@ -10034,8 +10034,8 @@ Respuesta: **A los carros de mano.**
 Respuesta: **A los animales de montura.**
 
 - ✔ La R-117 («Entrada prohibida a animales de montura») prohíbe el acceso a animales de montura; la de vehículos de tracción animal es la R-113. _(RGC_CATALOGO Anexo I, catálogo de señales, R-117 (pág. 105 del PDF consolidado))_
-- ✘ `x1b-0048` En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
 - ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
+- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
 
 ## B1-sen-0116
 
@@ -10044,7 +10044,7 @@ Respuesta: **El paso de los vehículos cuya masa por eje supere 2,4 toneladas.**
 
 - ✔ La R-202 («Limitación de masa por eje») prohíbe el paso a los vehículos cuya masa por eje, transmitida por la totalidad de las ruedas acopladas a algún eje, supere la indicada; la de masa total es la R-201. _(RGC_CATALOGO Anexo I, catálogo de señales, R-202 (pág. 107 del PDF consolidado))_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
-- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
+- ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
 
 ## B1-sen-0117
 
@@ -10061,8 +10061,8 @@ Respuesta: **No, porque prohíbe el paso a los vehículos o conjuntos de vehícu
 Respuesta: **El paso de los vehículos cuya altura máxima, incluida la carga, supere 4,5 m.**
 
 - ✔ La R-205 («Limitación de altura») prohíbe el paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada; la de anchura es la R-204. _(RGC_CATALOGO Anexo I, catálogo de señales, R-205 (pág. 107 del PDF consolidado))_
-- ✘ `x1b-0048` En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
-- ✘ `B1-sen-0003` Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
+- ✘ `B1-sen-0012` Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas. _(RGC 132.1)_
 
 ## B1-sen-0119
 
@@ -10070,8 +10070,8 @@ Respuesta: **El paso de los vehículos cuya altura máxima, incluida la carga, s
 Respuesta: **Prohibición de circular a menos de 70 m del vehículo precedente, excepto cuando se vaya a adelantar.**
 
 - ✔ La R-300 («Separación mínima») prohíbe circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada, excepto cuando se vaya a efectuar la maniobra de adelantamiento. _(RGC_CATALOGO Anexo I, catálogo de señales, R-300 (pág. 109 del PDF consolidado))_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
 - ✘ `x1b-0052` Las nuevas marcas viales en tramos en obras son de color amarillo; las marcas previas que sigan siendo de aplicación pueden mantenerse blancas. _(RGC Anexo I.5.2 (Catálogo de marcas viales, 2))_
+- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
 
 ## B1-sen-0120
 
@@ -10115,8 +10115,8 @@ Conduce un autobús y encuentra esta señal (camión rojo y turismo negro). ¿Le
 Respuesta: **No, porque se dirige a los camiones cuya masa máxima autorizada exceda de 3.500 kg.**
 
 - ✔ La R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg (incluso sin invadir el sentido contrario); no se dirige a los autobuses, que siguen sujetos a las normas generales de adelantamiento. _(RGC_CATALOGO Anexo I, catálogo de señales, R-306 (pág. 110 del PDF consolidado))_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
-- ✘ `x1b-0040` La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
+- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
 
 ## B1-sen-0125
 
@@ -10124,8 +10124,8 @@ Encuentra esta señal (círculo azul con flecha blanca hacia delante) a la entra
 Respuesta: **No, porque la flecha señala la dirección y sentido que está obligado a seguir: recto.**
 
 - ✔ En la R-400c («Sentido obligatorio») la flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir: hacia delante. _(RGC_CATALOGO Anexo I, catálogo de señales, R-400c (pág. 115 del PDF consolidado))_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 
 ## B1-sen-0126
 
@@ -10142,8 +10142,8 @@ Esta señal azul con la silueta de un turismo indica una calzada obligatoria par
 Respuesta: **No, la obligación exceptúa a las motocicletas de dos ruedas y a los vehículos de tres ruedas asimilados a motocicletas.**
 
 - ✔ La R-404 obliga a los conductores de automóviles a circular por la calzada a cuya entrada está situada, excepto a las motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas. _(RGC_CATALOGO Anexo I, catálogo de señales, R-404 (pág. 116 del PDF consolidado))_
-- ✘ `x1b-0046` Si el semáforo en rojo está dentro o al lado opuesto de una intersección, los vehículos no deben internarse en esta ni rebasar la línea de detención situada antes de ella, si existe. _(RGC Anexo I.4.2.a)_
-- ✘ `B1-sen-0003` Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
+- ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
 
 ## B1-sen-0128
 
@@ -10152,7 +10152,7 @@ Respuesta: **Circular por esa calzada, porque es obligatoria para las motociclet
 
 - ✔ La R-405 obliga a los conductores de motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas a circular por la calzada a cuya entrada está situada. _(RGC_CATALOGO Anexo I, catálogo de señales, R-405 (pág. 117 del PDF consolidado))_
 - ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
-- ✘ `B1-sen-0003` Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
+- ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
 
 ## B1-sen-0129
 
@@ -10160,8 +10160,8 @@ Respuesta: **Circular por esa calzada, porque es obligatoria para las motociclet
 Respuesta: **No, porque es una vía reservada a los ciclos y prohibida a los demás usuarios.**
 
 - ✔ La R-407a («Vía reservada y obligatoria para ciclos») obliga a los conductores de ciclos a circular por esa vía y prohíbe a los demás usuarios utilizarla. _(RGC_CATALOGO Anexo I, catálogo de señales, R-407a (pág. 117 del PDF consolidado))_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
 - ✘ `B1-sen-0005` El orden es: agentes; señalización y balizamiento circunstancial; semáforos; señales verticales; marcas viales. _(RGC 133.1.b)_
+- ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
 
 ## B1-sen-0130
 
@@ -10188,7 +10188,7 @@ Respuesta: **Camino reservado y obligatorio para animales de montura; los demás
 
 - ✔ La R-409 obliga a los jinetes a utilizar con sus animales de montura ese camino y prohíbe a los demás usuarios de la vía utilizarlo. La prohibición de entrada a animales de montura es la R-117. _(RGC_CATALOGO Anexo I, catálogo de señales, R-409 (pág. 118 del PDF consolidado))_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
-- ✘ `B1-sen-0038` La luz verde intermitente indica que el tiempo para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la roja. _(RGC Anexo I.4.1.b)_
+- ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 
 ## B1-sen-0133
 
@@ -10215,7 +10215,7 @@ Respuesta: **Obligación de circular con el alumbrado al menos de corto alcance,
 
 - ✔ La R-413 («Alumbrado de corto alcance») obliga a circular con el alumbrado al menos de corto alcance, con independencia de las condiciones de visibilidad e iluminación, desde la señal hasta otra de fin de esta obligación. _(RGC_CATALOGO Anexo I, catálogo de señales, R-413 (pág. 119 del PDF consolidado))_
 - ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
-- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
 
 ## B1-sen-0136
 
@@ -10233,7 +10233,7 @@ Respuesta: **Circular por esa calzada, porque es obligatoria para su vehículo.*
 
 - ✔ La R-415 obliga a los conductores de toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua a circular por la calzada a cuya entrada está situada. _(RGC_CATALOGO Anexo I, catálogo de señales, R-415 (pág. 119 del PDF consolidado))_
 - ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0138
 
@@ -10241,8 +10241,8 @@ Respuesta: **Circular por esa calzada, porque es obligatoria para su vehículo.*
 Respuesta: **Vía exclusiva para vehículos dotados de equipo de telepeaje operativo: telepeaje obligatorio.**
 
 - ✔ La R-418 indica una vía exclusiva para vehículos dotados de equipo de telepeaje operativo: el pago del peaje debe hacerse mediante telepeaje y el vehículo debe llevar el medio técnico operativo. _(RGC_CATALOGO Anexo I, catálogo de señales, R-418 (pág. 120 del PDF consolidado))_
-- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
 - ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
+- ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
 
 ## B2-sen-0001
 
@@ -10269,7 +10269,7 @@ Respuesta: **A 500 metros.**
 
 - ✔ En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros. _(RGC 146.2.d).1ª)_
 - ✘ `v4b-sen-0025` Los hitos miriamétricos (S-574 y siguientes) indican el punto kilométrico de la carretera cuando es múltiplo de diez. Los hitos kilométricos indican cada punto kilométrico. _(RGC_CATALOGO Anexo I, señal S-574)_
-- ✘ `res-sen-0003` La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.1 (P-9a))_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 
 ## B2-sen-0004
 
@@ -10377,7 +10377,7 @@ Respuesta: **Lo mismo que una sola línea continua: no se debe atravesar ni circ
 
 - ✔ Una marca longitudinal de dos líneas continuas y paralelas tiene el mismo significado que la formada por una sola línea continua. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.1)_
 - ✘ `x1b-0015` Los Ayuntamientos pueden regular la retirada o inmovilización del vehículo que estaciona en zonas limitadas en tiempo sin título que lo autorice o rebasando el triple del tiempo abonado. _(RGC 156.1.b)_
-- ✘ `B1-sen-0037` La luz amarilla no intermitente obliga a detenerse como ante la luz roja fija, salvo que no sea posible con seguridad suficiente. _(RGC Anexo I.4.2.c)_
+- ✘ `x1a-0042` Los vehículos especiales y los vehículos en régimen de transporte especial pueden circular por debajo de los límites mínimos de velocidad. _(RGC 49.2)_
 
 ## B2-mv-0019
 
@@ -10395,7 +10395,7 @@ Respuesta: **Sí, para volver a su carril tras realizar el adelantamiento o desi
 
 - ✔ Quien inició el adelantamiento desde el carril contiguo a la línea discontinua puede atravesar la continua y volver a su carril tras adelantar o desistir del adelantamiento. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.1)_
 - ✘ `x1a-0017` Al acercarse a pasos para peatones no regulados por semáforo o agentes, a intersecciones y a lugares donde es previsible la presencia de niños, se circula a velocidad moderada y, si es preciso, se detiene el vehículo. _(RGC 46.1.b)_
-- ✘ `B1-sen-0037` La luz amarilla no intermitente obliga a detenerse como ante la luz roja fija, salvo que no sea posible con seguridad suficiente. _(RGC Anexo I.4.2.c)_
+- ✘ `def-0009` La tara es la masa sin personas ni carga, pero con la dotación completa de combustible, agua, lubricante, repuestos, herramientas y accesorios. _(LSV Anexo I.35)_
 
 ## B2-mv-0021
 
@@ -10430,8 +10430,8 @@ Una línea discontinua transversal acompañada de un triángulo invertido pintad
 Respuesta: **Que no debe franquearla cuando tenga que ceder el paso.**
 
 - ✔ La marca transversal discontinua indica que, salvo circunstancias anormales que reduzcan la visibilidad, ningún vehículo debe franquearla cuando tenga que ceder el paso. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.2)_
-- ✘ `A-pri-0008` Quien va a girar debe cerciorarse de que la velocidad y la distancia de los vehículos que se acercan en sentido contrario le permiten hacer la maniobra sin peligro y, si no es así, abstenerse. _(RGC 74.1)_
 - ✘ `bmp-0010` Quien origina un grave riesgo para la circulación colocando obstáculos imprevisibles, derramando sustancias deslizantes o inflamables o alterando la señalización comete un delito. _(CP 385)_
+- ✘ `x1b-0124` Según el cuadro de sanciones por exceso de velocidad, en una vía limitada a 30 km/h, circular entre 51 y 60 km/h se sanciona con 300 euros. _(LSV Anexo IV)_
 
 ## B2-mv-0026
 
@@ -10439,8 +10439,8 @@ Respuesta: **Que no debe franquearla cuando tenga que ceder el paso.**
 Respuesta: **Cuando el paso para peatones esté regulado por semáforo.**
 
 - ✔ En los pasos para peatones regulados por semáforo podrá utilizarse la marca constituida por dos líneas transversales discontinuas y paralelas. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.2)_
-- ✘ `B1-sen-0017` La señal de brazos extendidos horizontalmente permanece en vigor aunque el agente los baje, siempre que no cambie de posición o efectúe otra señal. _(RGC Anexo I.1.1.b)_
 - ✘ `x1a-0021` Cuando hay animales en la parte de la vía que se utiliza, o puede preverse racionalmente que irrumpan en ella, se circula a velocidad moderada y, si es preciso, se detiene el vehículo. _(RGC 46.1.c)_
+- ✘ `B1-sen-0024` La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
 
 ## B2-mv-0027
 
@@ -10503,7 +10503,7 @@ Respuesta: **Sí, siempre que se mantenga la dirección de circulación y las ma
 
 - ✔ Las flechas que incluyen la dirección de frente no impiden el cambio de carril, siempre que se mantenga la dirección de circulación y las marcas longitudinales lo permitan. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.3)_
 - ✘ `A-par-0011` Está prohibido parar en las intersecciones y sus proximidades si se dificulta el giro a otros vehículos o, en vías interurbanas, si se genera peligro por falta de visibilidad. _(RGC 94.1.d)_
-- ✘ `B1-sen-0015` Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `v5b-adel-0004` Está prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas y en los pasos a nivel, y también en sus proximidades. El Reglamento no prevé ninguna excepción por ir despacio. _(RGC 87.1.b)_
 
 ## B2-mv-0034
 
@@ -10943,8 +10943,8 @@ Un ciclomotor que arrastra un remolque, ¿cuándo puede circular?
 Respuesta: **Solo de día y en condiciones que no disminuyan la visibilidad.**
 
 - ✔ Motocicletas, vehículos de tres ruedas y ciclomotores pueden arrastrar remolque solo de día y sin condiciones que disminuyan la visibilidad (entre otras condiciones). _(RGC 12.3.a)_
-- ✘ `xb-0111` La señal V-20 se coloca en el extremo posterior de la carga que sobresale, de manera que quede constantemente perpendicular al eje del vehículo. _(RGC 15.6)_
 - ✘ `xb-0105` El transporte de cargas indivisibles que rebasan inevitablemente las dimensiones máximas exige autorizaciones complementarias de circulación, reguladas en el Reglamento General de Vehículos. _(RGC 13.2)_
+- ✘ `xb-0118` Los objetos deben ir en el portamaletas; si hay que colocar alguno en otro lugar, hay que asegurarse de que no se moverá en caso de choque o al frenar y de que deja ver bien toda la carretera. _(MANUAL_DGT Tema 13, Transportar cargas (p. 326))_
 
 ## C-car-0003
 
@@ -11106,7 +11106,7 @@ Respuesta: **Que el vehículo está dedicado a prestar servicios públicos.**
 
 - ✔ La señal V-9 indica que el vehículo está dedicado a prestar servicios públicos. _(RGV Anexo XI, V-9)_
 - ✘ `def-0004` La definición de ciclo incluye expresamente los ciclos de pedaleo asistido. _(LSV Anexo I.7)_
-- ✘ `arc-0012` Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. _(RGC 32.1)_
+- ✘ `vel-0016` El límite genérico en travesías es 50 km/h para todo tipo de vehículos. _(RGC 50.5)_
 
 ## C-sev-0004
 
@@ -11304,7 +11304,7 @@ Respuesta: **Los que no superen 40 km/h de velocidad máxima autorizada y tampoc
 
 - ✔ Para vehículos especiales no agrícolas basta el B si no superan 40 km/h ni 3.500 kg de MMA; si superan cualquiera de los límites se requiere el permiso correspondiente a su MMA. _(RGCOND 5.8)_
 - ✘ `C-perm-0005` Si el remolque supera 750 kg y el conjunto excede de 3.500 kg sin pasar de 4.250 kg, se puede conducir con B tras superar la prueba o formación específica (código comunitario 96). _(RGCOND Anexo I (código 96))_
-- ✘ `xb-0058` El año durante el que se debe llevar la señal V-13 de conductor novel se suspende mientras el permiso está intervenido, ha perdido su vigencia o hay privación del derecho a conducir, y luego continúa desde donde quedó. _(RGV Anexo XI, V-13)_
+- ✘ `C-perm-0002` El permiso B autoriza cualquier automóvil de MMA no superior a 3.500 kg diseñado para no más de 8 pasajeros además del conductor, también si es un camión. _(RGCOND 4.2 (clase B))_
 
 ## C-perm-0010
 
@@ -11313,7 +11313,7 @@ Respuesta: **Sí.**
 
 - ✔ Los vehículos especiales agrícolas autopropulsados pueden conducirse con el B (o licencia); si superan los límites de masa o dimensiones de los vehículos ordinarios o 45 km/h, se requiere el B en todo caso. _(RGCOND 5.9)_
 - ✘ `xb-0051` El titular de un permiso o licencia de conducción caducados puede solicitar su prórroga presentando la documentación exigida, aunque no puede conducir mientras el permiso esté caducado. _(RGCOND 13.3)_
-- ✘ `xb-0058` El año durante el que se debe llevar la señal V-13 de conductor novel se suspende mientras el permiso está intervenido, ha perdido su vigencia o hay privación del derecho a conducir, y luego continúa desde donde quedó. _(RGV Anexo XI, V-13)_
+- ✘ `xb-0057` Declarada la pérdida de vigencia del permiso por la pérdida total de los puntos, el titular debe entregarlo en la Jefatura Provincial de Tráfico; si no lo hace, los agentes lo retiran. _(RGCOND 37.2)_
 
 ## C-perm-0011
 
@@ -13374,7 +13374,7 @@ Respuesta: **Vía reservada y obligatoria para ciclos y vehículos de movilidad 
 
 - ✔ La señal R-421 obliga a los conductores de ciclos y de vehículos de movilidad personal a circular por la vía a cuya entrada está situada y prohíbe a los demás usuarios utilizarla. _(RGC_CATALOGO Anexo I, señal R-421)_
 - ✘ `B2-sen-0004` Mediante un panel complementario puede indicarse la distancia entre la señal y el principio del tramo peligroso y también la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `B2-sen-0003` En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros. _(RGC 146.2.d).1ª)_
 
 ## v3-sen-0019
 
@@ -13418,8 +13418,8 @@ Respuesta: **Zona reservada para el uso peatonal.**
 Respuesta: **Una vía para peatones, ciclos y, en su caso, VMP, segregada del tráfico motorizado.**
 
 - ✔ La señal S-33 «Senda ciclopeatonal» indica una vía para peatones, ciclos y, en su caso, vehículos de movilidad personal, segregada del tráfico motorizado, que suele discurrir por espacios abiertos, parques, jardines o bosques. _(RGC_CATALOGO Anexo I, señal S-33)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
 - ✘ `B2-sen-0004` Mediante un panel complementario puede indicarse la distancia entre la señal y el principio del tramo peligroso y también la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
+- ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v3-sen-0029
 
@@ -13445,8 +13445,8 @@ Respuesta: **La situación de un paso para peatones adosado o compartido con un 
 Respuesta: **Una zona de espera antes de la línea de detención de un cruce con semáforos, reservada a motos, ciclomotores o ciclos.**
 
 - ✔ La señal S-49 «Avanza moto o bici» indica una zona de espera previa a la línea de detención de una intersección regulada por semáforos, reservada a los vehículos indicados en la señal (motocicletas, vehículos de tres ruedas asimilados y ciclomotores, o ciclos). _(RGC_CATALOGO Anexo I, señal S-49)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 
 ## v3-sen-0032
 
@@ -13455,7 +13455,7 @@ Respuesta: **Sí, pero solo para alguna maniobra que no sea parar, estacionar, c
 
 - ✔ La señal S-51a indica un carril destinado exclusivamente a ciertos tipos de vehículos. Si la línea que lo delimita es discontinua, los demás vehículos pueden usarlo solo para alguna maniobra que no sea parar, estacionar, cambiar el sentido de la marcha o adelantar, dejando siempre preferencia a los vehículos autorizados. _(RGC_CATALOGO Anexo I, señal S-51a)_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
 
 ## v3-sen-0033
 
@@ -13517,8 +13517,8 @@ Respuesta: **La anchura de seguridad mínima que debe guardarse al adelantar a u
 Respuesta: **La existencia de un dispositivo de control de la separación mínima entre vehículos.**
 
 - ✔ La señal S-991e indica la existencia de un dispositivo de control de separación mínima entre vehículos en un punto o tramo de una carretera convencional o multicarril (en autopista o autovía se usa la S-991f). _(RGC_CATALOGO Anexo I, señal S-991e)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
 - ✘ `B2-sen-0016` En el orden de prioridad las marcas viales van detrás de semáforos y señales verticales; en caso de contradicción prevalece la preferente según ese orden. _(RGC 133)_
+- ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v3-mv-0001
 
@@ -13526,8 +13526,8 @@ Según el Reglamento General de Circulación, si la acera está alineada con el 
 Respuesta: **En al menos 6 metros.**
 
 - ✔ Para que los conductores vean a los peatones que van a cruzar, no se permite aparcar automóviles en al menos los 6 m anteriores al paso de peatones si la acera está alineada con el límite exterior de la banda de estacionamiento, o en los 3 m anteriores si está alineada con el límite del carril de circulación. _(RGC Anexo I, marcas viales, M-4.3)_
-- ✘ `x1a-0111` Antes de adelantar, el conductor debe asegurarse de que nadie que le sigue ha iniciado la maniobra de adelantarle y de que dispone de espacio suficiente para reintegrarse a su carril al terminar. _(RGC 84.3)_
 - ✘ `x1a-0134` Quien encuentra en su camino un obstáculo que le obliga a ocupar el espacio del sentido contrario puede rebasarlo tras cerciorarse de que puede hacerlo sin peligro, también en tramos con prohibición de adelantar. _(RGC 89.1)_
+- ✘ `x1a-0092` Quien se incorpora a la circulación desde una propiedad colindante debe cerciorarse antes de que puede hacerlo sin peligro, incluso siguiendo las indicaciones de otra persona si es necesario, y ceder el paso. _(RGC 72.1)_
 
 ## v4a-sen-0001
 
@@ -13536,7 +13536,7 @@ Respuesta: **De un tramo con varios accesos directos a la vía, cuyos usuarios d
 
 - ✔ La señal P-1e «Tramo con accesos directos» advierte de un tramo con varios accesos directos a la vía; quienes salen de esos accesos deben ceder el paso a quien circula por la vía. _(RGC_CATALOGO Anexo I, señal P-1e)_
 - ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## v4a-sen-0002
 
@@ -13554,7 +13554,7 @@ Respuesta: **De un resalte o badén en la vía o de pavimento en mal estado.**
 
 - ✔ La señal P-15 «Perfil irregular» advierte de la proximidad de un resalte o badén en la vía o de pavimento en mal estado. Para un resalte o un badén concretos existen las señales P-15a y P-15b. _(RGC_CATALOGO Anexo I, señal P-15)_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
-- ✘ `B1-sen-0003` Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
+- ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
 
 ## v4a-sen-0004
 
@@ -13563,7 +13563,7 @@ Respuesta: **Un tramo con fuerte pendiente descendente; la cifra indica la incli
 
 - ✔ La señal P-16a «Bajada con fuerte pendiente», con la flecha hacia abajo, advierte de un tramo con fuerte pendiente descendente; la cifra es la inclinación de la pendiente en porcentaje. La subida es la P-16b. _(RGC_CATALOGO Anexo I, señal P-16a)_
 - ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
-- ✘ `B1-sen-0002` En el orden de preferencia los semáforos van antes que las señales verticales; la regla de la señal más restrictiva solo se aplica entre señales del mismo tipo. _(RGC 133.1.c-d)_
+- ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
 
 ## v4a-sen-0005
 
@@ -13572,7 +13572,7 @@ Respuesta: **De un paso para peatones adosado o compartido con un paso para cicl
 
 - ✔ La señal P-20c «Pasos para peatones y ciclistas» advierte de la proximidad de un paso para peatones adosado o compartido con un paso para ciclistas. _(RGC_CATALOGO Anexo I, señal P-20c)_
 - ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
-- ✘ `B1-sen-0003` Las señales verticales están por delante de las marcas viales en el orden de preferencia; la más restrictiva solo prevalece si las señales son del mismo tipo. _(RGC 133.1.d-e)_
+- ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
 
 ## v4a-sen-0006
 
@@ -13580,8 +13580,8 @@ Respuesta: **De un paso para peatones adosado o compartido con un paso para cicl
 Respuesta: **De un lugar frecuentado por personas con dificultades motrices o sensoriales.**
 
 - ✔ La señal P-21b «Personas con dificultades motrices» advierte de un lugar frecuentado por personas con dificultades motrices o sensoriales. No se refiere solo a personas mayores. Los niños tienen su propia señal, la P-21a. _(RGC_CATALOGO Anexo I, señal P-21b)_
-- ✘ `x1b-0040` La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
+- ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
 
 ## v4a-sen-0007
 
@@ -13589,8 +13589,8 @@ Respuesta: **De un lugar frecuentado por personas con dificultades motrices o se
 Respuesta: **De un tramo con circulación frecuente de ciclistas.**
 
 - ✔ La señal P-22b «Ciclistas» advierte de la proximidad de un tramo con circulación frecuente de ciclistas. El paso para ciclistas tiene su propia señal, la P-22a. _(RGC_CATALOGO Anexo I, señal P-22b)_
-- ✘ `B1-sen-0046` La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso; además, no exime de cumplir otras señales que obliguen a detenerse. _(RGC Anexo I.4.2.d)_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
+- ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
 
 ## v4a-sen-0008
 
@@ -13599,7 +13599,7 @@ Respuesta: **De un lugar donde la vía puede ser atravesada por animales en libe
 
 - ✔ La señal P-24a «Paso de animales en libertad (jabalíes)» advierte de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad, que en una proporción muy significativa son jabalíes. _(RGC_CATALOGO Anexo I, señal P-24a)_
 - ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## v4a-sen-0009
 
@@ -13607,8 +13607,8 @@ Respuesta: **De un lugar donde la vía puede ser atravesada por animales en libe
 Respuesta: **De un tramo con cambios de carril en el que se cruzan las trayectorias de los vehículos.**
 
 - ✔ La señal P-35 «Trenzado» advierte de un tramo entre una confluencia y una bifurcación en el que unos vehículos se incorporan y otros salen, con cambios de carril que cruzan sus trayectorias y aumentan el riesgo de colisión. _(RGC_CATALOGO Anexo I, señal P-35)_
-- ✘ `x1b-0040` La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
 - ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
 
 ## v4a-sen-0010
 
@@ -13617,7 +13617,7 @@ Respuesta: **A los vehículos que transporten mercancías peligrosas y deban ir 
 
 - ✔ La señal R-108 prohíbe el acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica. La de productos contaminantes del agua es la R-110. _(RGC_CATALOGO Anexo I, señal R-108)_
 - ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
-- ✘ `x1b-0048` En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
+- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 
 ## v4a-sen-0011
 
@@ -13634,8 +13634,8 @@ Respuesta: **No, porque la cifra se refiere a la masa máxima autorizada del rem
 Respuesta: **A los vehículos de movilidad personal.**
 
 - ✔ La señal R-118 prohíbe el acceso a los vehículos de movilidad personal (patinetes eléctricos y similares). La que prohíbe a la vez ciclos y vehículos de movilidad personal es la R-119. _(RGC_CATALOGO Anexo I, señal R-118)_
-- ✘ `x1b-0041` Ante el brazo levantado verticalmente, la detención se efectúa ante la línea de detención más cercana o, en su defecto, inmediatamente antes del agente; en una intersección, antes de entrar en ella. _(RGC Anexo I.1.1.a)_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
 
 ## v4a-sen-0013
 
@@ -13679,8 +13679,8 @@ Conduce una furgoneta de 3.000 kg de masa máxima autorizada y encuentra esta se
 Respuesta: **No, porque solo afecta a los camiones cuya masa máxima autorizada exceda de 3.500 kg.**
 
 - ✔ La señal R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg. No afecta a una furgoneta de 3.000 kg, que sigue sujeta a las normas generales de adelantamiento. _(RGC_CATALOGO Anexo I, señal R-306)_
-- ✘ `B1-sen-0036` La luz amarilla fija obliga a detenerse como si fuera roja, salvo que el vehículo esté tan cerca que no pueda detenerse antes del semáforo en condiciones de seguridad suficientes. _(RGC Anexo I.4.2.c)_
 - ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
+- ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
 
 ## v4a-sen-0018
 
@@ -13733,8 +13733,8 @@ Respuesta: **No, porque la flecha señala la dirección y sentido que está obli
 Respuesta: **Que puede pasar por cualquiera de los dos lados del refugio, la isleta o el obstáculo.**
 
 - ✔ La señal R-401c «Paso obligatorio» indica con sus flechas los lados del refugio, la isleta o el obstáculo por uno de los cuales los vehículos han de pasar obligatoriamente: se puede pasar por cualquiera de los dos. _(RGC_CATALOGO Anexo I, señal R-401c)_
-- ✘ `x1b-0048` En los semáforos de franja blanca para tranvías y autobuses, la franja oblicua hacia la izquierda o hacia la derecha permite el paso para girar en ese sentido. _(RGC Anexo I.4.4.2.c)_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
 
 ## v4a-sen-0024
 
@@ -13752,7 +13752,7 @@ Respuesta: **Obligación de no proseguir la marcha sin neumáticos especiales de
 
 - ✔ La señal R-412b «Neumáticos de invierno» obliga a no proseguir la marcha sin neumáticos especiales de invierno. Al ser una señal de obligación, no es una simple recomendación. _(RGC_CATALOGO Anexo I, señal R-412b)_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
-- ✘ `B1-sen-0015` Si la señal de brazo levantado se efectúa en una intersección, no obliga a detenerse a los conductores que ya hayan entrado en ella. _(RGC Anexo I.1.1.a)_
+- ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## v4a-sen-0026
 
@@ -13778,8 +13778,8 @@ Respuesta: **No, porque es una vía reservada a los vehículos de movilidad pers
 Respuesta: **Obligación para los usuarios de ciclos de continuar a pie.**
 
 - ✔ La señal R-422 «Desmontar y continuar a pie» obliga a los usuarios de ciclos a bajarse y continuar a pie. Si la obligación se limita a ciertos periodos, se indica con un panel complementario. _(RGC_CATALOGO Anexo I, señal R-422)_
-- ✘ `B1-sen-0038` La luz verde intermitente indica que el tiempo para terminar de atravesar la calzada está a punto de finalizar y que se va a encender la roja. _(RGC Anexo I.4.1.b)_
 - ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
+- ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
 
 ## v4a-sen-0029
 
@@ -13796,7 +13796,7 @@ Respuesta: **Las prohibiciones específicas indicadas por señales anteriores pa
 Respuesta: **Una carretera de tres carriles cuyo carril central sirve para adelantar y se reserva de forma alterna a cada sentido.**
 
 - ✔ La carretera 2+1 (señal S-1c) consta de tres carriles con circulación en ambos sentidos. El carril central se destina a facilitar el adelantamiento y se reserva de manera alterna a uno y otro sentido, nunca a los dos a la vez. _(RGC_CATALOGO Anexo I, señal S-1c)_
-- ✘ `res-sen-0003` La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.1 (P-9a))_
+- ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
 - ✘ `B2-sen-0004` Mediante un panel complementario puede indicarse la distancia entre la señal y el principio del tramo peligroso y también la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## v4b-sen-0002
@@ -13832,8 +13832,8 @@ En una zona señalizada con esta señal, ¿dónde pueden estacionar los vehícul
 Respuesta: **Únicamente en los lugares designados por señales o por marcas.**
 
 - ✔ En la zona de coexistencia (S-47), igual que en la zona de estancia y juego (S-28), los vehículos solo pueden estacionarse en los lugares designados por señales o por marcas. _(RGC_CATALOGO Anexo I, señal S-47)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
 - ✘ `B2-sen-0003` En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros. _(RGC 146.2.d).1ª)_
+- ✘ `res-sen-0002` Las carreteras convencionales o multicarril de la red del Estado se identifican con fondo rojo (S-420). Las autopistas y autovías, con fondo azul (S-410). _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-420))_
 
 ## v4b-sen-0006
 
@@ -13841,7 +13841,7 @@ En una zona de coexistencia, ¿en qué sentido pueden circular los ciclos?
 Respuesta: **En ambos sentidos, salvo que la autoridad competente establezca lo contrario.**
 
 - ✔ En la zona de coexistencia (S-47) la circulación está compartida entre vehículos, ciclistas y peatones, y los ciclos y, en su caso, los vehículos de movilidad personal pueden circular en ambos sentidos, salvo que la autoridad competente establezca lo contrario. _(RGC_CATALOGO Anexo I, señal S-47)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v4b-sen-0007
@@ -13850,8 +13850,8 @@ En la zona que comienza con esta señal, ¿por dónde pueden caminar los peatone
 Respuesta: **Por toda la zona de circulación; por eso no se señalizan pasos para peatones.**
 
 - ✔ En la zona de estancia y juego (S-28) los peatones pueden utilizar toda la zona de circulación y tienen prioridad, por lo que no se señalizan pasos peatonales. Los vehículos no pueden superar los 10 km/h. _(RGC_CATALOGO Anexo I, señal S-28)_
-- ✘ `res-sen-0003` La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.1 (P-9a))_
 - ✘ `B2-sen-0003` En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros. _(RGC 146.2.d).1ª)_
+- ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v4b-sen-0008
 
@@ -13860,7 +13860,7 @@ Respuesta: **Reducir la velocidad para garantizar la seguridad y la convivencia.
 
 - ✔ La senda ciclopeatonal (S-33) es una vía para peatones, ciclos y, en su caso, VMP, segregada del tráfico motorizado. En presencia de personas caminando, los ciclos deben reducir su velocidad; a su vez, los peatones facilitarán el paso de los ciclos. _(RGC_CATALOGO Anexo I, señal S-33)_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
-- ✘ `res-sen-0003` La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.1 (P-9a))_
+- ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
 
 ## v4b-sen-0009
 
@@ -13868,8 +13868,8 @@ Circula en bicicleta y al comienzo de una vía ciclista encuentra esta señal cu
 Respuesta: **No: su uso es preferente, pero no obligatorio.**
 
 - ✔ Si hay carril bici o vía específica para ciclos, su uso es preferente para el ciclista. Solo es obligatorio cuando la autoridad lo impone con la señal redonda R-407a (vía reservada y obligatoria para ciclos). La señal cuadrada S-35 indica una vía reservada para ciclos y prohibida a los demás usuarios. _(RGC 153.1)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
+- ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
 
 ## v4b-sen-0010
 
@@ -13877,7 +13877,7 @@ Respuesta: **No: su uso es preferente, pero no obligatorio.**
 Respuesta: **Que los ciclos están obligados a circular por el carril derecho y los demás usuarios no pueden usarlo.**
 
 - ✔ La señal S-64a (vía reservada y obligatoria para ciclos adosada a calzada de un único sentido) obliga a los conductores de ciclos a circular por el carril señalado y prohíbe a los demás usuarios utilizarlo. La S-65a, con la bicicleta dentro de un cuadrado, indica un carril reservado a ciclos sin imponerles su uso. _(RGC_CATALOGO Anexo I, señal S-64a)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v4b-sen-0011
@@ -13887,7 +13887,7 @@ Respuesta: **Que el carril que se añade por la izquierda solo puede usarse circ
 
 - ✔ La señal S-50a anuncia la ampliación de un carril por la izquierda que solo pueden utilizar los vehículos que circulen a una velocidad igual o superior a la indicada. Aun así, si las circunstancias lo permiten, se debe circular por el carril de la derecha. _(RGC_CATALOGO Anexo I, señal S-50a)_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 
 ## v4b-sen-0012
 
@@ -13914,7 +13914,7 @@ Respuesta: **Que en ese carril se puede pagar con telepeaje si el vehículo llev
 
 - ✔ La señal cuadrada S-32 (telepeaje) informa de que en ese carril se puede pagar mediante telepeaje si el vehículo lleva el medio técnico necesario, además de por otros medios. El carril exclusivo para vehículos con telepeaje se señaliza con la señal redonda R-418. _(RGC_CATALOGO Anexo I, señal S-32)_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
 
 ## v4b-sen-0015
 
@@ -13959,7 +13959,7 @@ Respuesta: **Que la próxima salida está aproximadamente a 300 m.**
 
 - ✔ Los paneles de aproximación a salida (S-26a, S-26b y S-26c) indican, en autopistas y autovías, que la próxima salida está aproximadamente a 300, 200 o 100 m. _(RGC_CATALOGO Anexo I, señal S-26a)_
 - ✘ `B2-sen-0003` En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros. _(RGC 146.2.d).1ª)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 
 ## v4b-sen-0020
 
@@ -13985,7 +13985,7 @@ Circula por una autovía y, en el punto de salida, ve este cartel blanco. ¿Haci
 Respuesta: **Hacia una carretera convencional o una carretera multicarril.**
 
 - ✔ En una autopista o autovía, la señal de salida inmediata con cartel blanco (S-352) indica que la salida conduce hacia una carretera convencional o una carretera multicarril. Si la salida conduce a otra autopista o autovía, el cartel es azul (S-353). _(RGC_CATALOGO Anexo I, señal S-352)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v4b-sen-0023
@@ -14012,8 +14012,8 @@ Respuesta: **Una carretera de tercer nivel de una red distinta de la del Estado.
 Respuesta: **El punto kilométrico de la carretera, cuando es múltiplo de diez.**
 
 - ✔ Los hitos miriamétricos (S-574 y siguientes) indican el punto kilométrico de la carretera cuando es múltiplo de diez. Los hitos kilométricos indican cada punto kilométrico. _(RGC_CATALOGO Anexo I, señal S-574)_
-- ✘ `res-sen-0003` La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.1 (P-9a))_
 - ✘ `B2-sen-0003` En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros. _(RGC 146.2.d).1ª)_
+- ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v4b-sen-0026
 
@@ -14030,7 +14030,7 @@ En poblado, ¿de qué color es el fondo de las señales de uso específico que i
 Respuesta: **Blanco.**
 
 - ✔ En poblado, las zonas de uso industrial se indican con fondo blanco y caracteres negros (S-750). En las señales de uso específico en poblado, el verde se usa para calles y plazas, el amarillo para lugares de interés para viajeros, el naranja para lugares deportivos o recreativos, el marrón para lugares geográficos o monumentales, el blanco para lugares culturales y zonas industriales, y el azul para autopistas y autovías. _(RGC_CATALOGO Anexo I, señal S-750)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v4b-sen-0028
@@ -14129,8 +14129,8 @@ Al salir de un túnel encuentra esta señal. ¿Puede apagar el alumbrado de cruc
 Respuesta: **Sí, siempre que no lo exijan las condiciones de visibilidad, la hora o la iluminación de la vía.**
 
 - ✔ La señal S-24 indica el final de un tramo en el que es obligatorio el alumbrado al menos de cruce y recuerda que se puede prescindir de él, siempre que no lo impongan las circunstancias de visibilidad, horario o iluminación de la vía. _(RGC_CATALOGO Anexo I, señal S-24)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 
 ## v4b-sen-0039
 
@@ -14147,7 +14147,7 @@ Circula por un túnel y encuentra esta señal. ¿Qué indica?
 Respuesta: **Un lugar donde apartar el vehículo en caso de emergencia, que dispone de teléfono de emergencia.**
 
 - ✔ La señal S-34a indica un lugar del túnel donde se puede apartar el vehículo en caso de emergencia, para dejar libre el paso, y que dispone de teléfono de emergencia. Las salidas de emergencia se indican con las señales S-980 y siguientes. _(RGC_CATALOGO Anexo I, señal S-34a)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 - ✘ `B2-sen-0006` Las prohibiciones de las señales de reglamentación rigen a partir de la sección transversal donde estén colocadas, salvo que un panel complementario debajo indique la distancia a la sección donde empiezan a regir. _(RGC 145.4)_
 
 ## v4b-sen-0041
@@ -14157,7 +14157,7 @@ Respuesta: **Una zona de escape para detener un vehículo cuyos frenos han falla
 
 - ✔ La señal S-16 (zona de frenado de emergencia) indica una zona de escape de la calzada acondicionada para que un vehículo pueda ser detenido en caso de fallo de su sistema de frenado. _(RGC_CATALOGO Anexo I, señal S-16)_
 - ✘ `B2-sen-0003` En autopistas y autovías la distancia de las señales de preseñalización será, como norma general, de 500 metros; en poblado puede reducirse a unos 50 metros. _(RGC 146.2.d).1ª)_
-- ✘ `res-sen-0003` La baliza de tres franjas (P-9a) está a 200 m; la de dos franjas (P-9b) a 150 m, y la de una franja (P-9c) a 100 m. Las de 300, 200 y 100 m son las de aproximación a una salida de autopista o autovía. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.1 (P-9a))_
+- ✘ `res-sen-0001` En el catálogo vigente de señales: itinerario europeo (E) en verde; autopistas y autovías en azul; carreteras del Estado en rojo; autonómicas de primer nivel en naranja, de segundo nivel en marrón y de tercer nivel en amarillo. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.13 (S-440))_
 
 ## v5a-via-0001
 
@@ -14471,8 +14471,8 @@ En el balizamiento de la carretera, ¿qué indica un hito de vértice?
 Respuesta: **El punto en el que se separan dos corrientes de tráfico.**
 
 - ✔ El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
 
 ## v5c-bal-0002
 
@@ -14481,7 +14481,7 @@ Respuesta: **Balizar los bordes de la carretera, sobre todo de noche o con baja 
 
 - ✔ Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 - ✘ `B1-sen-0021` La serie de toques de silbato cortos y frecuentes ordena la detención de vehículos. _(RGC Anexo I.1.1.e)_
-- ✘ `x1b-0040` La flecha verde de un semáforo de carril permite circular por ese carril, pero no exime de obedecer cualquier otra señal o marca vial que obligue a detenerse o a ceder el paso. _(RGC Anexo I.4.3.b)_
+- ✘ `B1-sen-0012` Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas. _(RGC 132.1)_
 
 ## v5c-age-0001
 
@@ -14498,8 +14498,8 @@ Está detenido ante un semáforo en rojo, en el carril derecho (no reservado), q
 Respuesta: **Avanzar en la dirección y sentido de la flecha.**
 
 - ✔ Cuando se enciende una flecha verde, debe avanzar en la dirección y sentido indicados cualquier vehículo que esté en un carril reservado para ese movimiento o, aunque no esté reservado, en el carril que ese movimiento tenga que utilizar. La norma no condiciona esta obligación a que haya otros vehículos detrás. _(RGC Anexo I.4.2.g)_
-- ✘ `x1b-0045` Los semáforos de carril afectan exclusivamente a los vehículos que circulan por el carril sobre el que están situados o por el que indique el panel de señalización variable. _(RGC 143.1.c y anexo I.4.3)_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
+- ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
 
 ## v5c-pn-0001
 
@@ -14579,7 +14579,7 @@ En poblado, ¿de qué color es el fondo de la señal de orientación que indica 
 Respuesta: **Marrón.**
 
 - ✔ En el catálogo vigente, la señal S-730 (lugares de carácter geográfico o ecológico y de interés monumental, histórico o artístico, como monumentos, castillos, monasterios, museos o palacios) tiene fondo marrón. Los lugares de interés cultural (S-740: universidades, teatros, bibliotecas) y las zonas industriales (S-750) tienen fondo blanco. _(RGC_CATALOGO Anexo I, señal S-730)_
-- ✘ `res-sen-0005` En la zona de estancia y juego (S-28) la velocidad máxima es 10 km/h, los peatones tienen prioridad y los juegos y deportes están autorizados. No hay que confundirla con la zona de coexistencia, que es de 20 km/h. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.8 (S-28))_
+- ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
 - ✘ `B2-sen-0004` Mediante un panel complementario puede indicarse la distancia entre la señal y el principio del tramo peligroso y también la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## v5d-luz-0001

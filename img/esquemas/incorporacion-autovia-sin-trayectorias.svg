@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Carril de aceleración</title>
+<desc id="d">El vehículo A está al principio del carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="140" y="0" width="80" height="400" fill="#5f646b" />
+<line x1="180" y1="0" x2="180" y2="400" stroke="#ffffff" stroke-width="3" stroke-dasharray="16 14"/>
+<path d="M220,400 L260,400 L260,190 L220,90 Z" fill="#5f646b"/>
+<line x1="220" y1="400" x2="220" y2="190" stroke="#ffffff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="140" y1="0" x2="140" y2="400" stroke="#ffffff" stroke-width="3"/>
+<line x1="220" y1="0" x2="220" y2="90" stroke="#ffffff" stroke-width="3"/>
+<g transform="translate(240.0 320.0) rotate(0.0)"><rect x="-11.0" y="-20.0" width="22" height="40" rx="6" fill="#d43d3d" stroke="#1b1b1b" stroke-width="1.5"/><rect x="-8.0" y="-14.0" width="16" height="8" rx="2" fill="#20262e"/><rect x="-8.0" y="11.0" width="16" height="5" rx="2" fill="#20262e"/><text x="0" y="5" transform="rotate(0.0)" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" fill="#fff">A</text></g>
+<g transform="translate(200.0 250.0) rotate(0.0)"><rect x="-11.0" y="-20.0" width="22" height="40" rx="6" fill="#2a66cc" stroke="#1b1b1b" stroke-width="1.5"/><rect x="-8.0" y="-14.0" width="16" height="8" rx="2" fill="#20262e"/><rect x="-8.0" y="11.0" width="16" height="5" rx="2" fill="#20262e"/><text x="0" y="5" transform="rotate(0.0)" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" fill="#fff">B</text></g>
+</svg>

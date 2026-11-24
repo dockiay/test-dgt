@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Semáforo con franja blanca vertical intermitente</title>
+<desc id="d">Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical que parpadea.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#cfe6f5" />
+<rect x="0" y="300" width="400" height="100" fill="#5f646b" />
+<path d="M150,400 L185,300 M250,400 L215,300" stroke="#b9bec4" stroke-width="5"/>
+<rect x="317.5" y="120" width="5" height="210" fill="#8a8f96"/>
+<rect x="285" y="40" width="70" height="200" rx="8" fill="#1f2328"/>
+<circle cx="320" cy="75" r="26" fill="#0b0d10"/>
+<circle cx="320" cy="140" r="26" fill="#0b0d10"/>
+<circle cx="320" cy="205" r="26" fill="#0b0d10"/>
+<rect x="315" y="55" width="10" height="40" rx="3" fill="#ffffff"/>
+<line x1="351.0" y1="75.0" x2="359.0" y2="75.0" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="341.9" y1="96.9" x2="347.6" y2="102.6" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="106.0" x2="320.0" y2="114.0" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="298.1" y1="96.9" x2="292.4" y2="102.6" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="289.0" y1="75.0" x2="281.0" y2="75.0" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="298.1" y1="53.1" x2="292.4" y2="47.4" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="44.0" x2="320.0" y2="36.0" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+<line x1="341.9" y1="53.1" x2="347.6" y2="47.4" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</svg>

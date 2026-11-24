@@ -1,0 +1,1166 @@
+[
+ {
+  "codigo": "M-1.1",
+  "texto_ocr": "Autopistas y autovías",
+  "pagina_pdf": 687,
+  "fichero": "M-1.1.png",
+  "px": [
+   834,
+   80
+  ]
+ },
+ {
+  "codigo": "M-1.2",
+  "texto_ocr": "Carreteras multicarril y carreteras convencionales A",
+  "pagina_pdf": 687,
+  "fichero": "M-1.2.png",
+  "px": [
+   834,
+   75
+  ]
+ },
+ {
+  "codigo": "M-1.3",
+  "texto_ocr": "Vías urbanas",
+  "pagina_pdf": 687,
+  "fichero": "M-1.3.png",
+  "px": [
+   801,
+   75
+  ]
+ },
+ {
+  "codigo": "M-1.3a",
+  "texto_ocr": "Travesías",
+  "pagina_pdf": 687,
+  "fichero": "M-1.3a.png",
+  "px": [
+   801,
+   74
+  ]
+ },
+ {
+  "codigo": "M-1.6",
+  "texto_ocr": ": Autopistas y autovías Separar carriles o cuñas de cambio de velocidad,",
+  "pagina_pdf": 687,
+  "fichero": "M-1.6.png",
+  "px": [
+   803,
+   95
+  ]
+ },
+ {
+  "codigo": "M-1.7",
+  "texto_ocr": "carriles de M d Carreteras renzado O e Ñ y multicarril, carriles ializad carreteras cializados. : especializados convencionales, travesías y vías urbanas",
+  "pagina_pdf": 687,
+  "fichero": "M-1.7.png",
+  "px": [
+   801,
+   82
+  ]
+ },
+ {
+  "codigo": "M-1.8",
+  "texto_ocr": "Preavisar . Ñ : Todo tipo de bifurcaciones o . carreteras confluencias",
+  "pagina_pdf": 687,
+  "fichero": "M-1.8.png",
+  "px": [
+   819,
+   124
+  ]
+ },
+ {
+  "codigo": "M-1.9",
+  "texto_ocr": "Carreteras multicarril y Carreteras convencionales",
+  "pagina_pdf": 687,
+  "fichero": "M-1.9.png",
+  "px": [
+   788,
+   79
+  ]
+ },
+ {
+  "codigo": "M-1.10",
+  "texto_ocr": "Preavisar una marca continua en eje de calzada Vías urbanas u otras circunstancias",
+  "pagina_pdf": 687,
+  "fichero": "M-1.10.png",
+  "px": [
+   774,
+   72
+  ]
+ },
+ {
+  "codigo": "M-1.4",
+  "texto_ocr": "Autopistas, autovías, carreteras multicarril y carreteras convencionales",
+  "pagina_pdf": 688,
+  "fichero": "M-1.4.png",
+  "px": [
+   895,
+   111
+  ]
+ },
+ {
+  "codigo": "M-1.5",
+  "texto_ocr": "Delimitar carriles reversibles Vías urbanas",
+  "pagina_pdf": 688,
+  "fichero": "M-1.5.png",
+  "px": [
+   886,
+   107
+  ]
+ },
+ {
+  "codigo": "M-1.5a",
+  "texto_ocr": "Travesías",
+  "pagina_pdf": 688,
+  "fichero": "M-1.5a.png",
+  "px": [
+   887,
+   105
+  ]
+ },
+ {
+  "codigo": "M-2.1",
+  "texto_ocr": "Autopistas, autovías, carreteras multicarril, carreteras convencionales y : travesí Separar carriles avesias",
+  "pagina_pdf": 688,
+  "fichero": "M-2.1.png",
+  "px": [
+   817,
+   30
+  ]
+ },
+ {
+  "codigo": "M-2.2",
+  "texto_ocr": "Vías urbanas",
+  "pagina_pdf": 688,
+  "fichero": "M-2.2.png",
+  "px": [
+   817,
+   28
+  ]
+ },
+ {
+  "codigo": "M-2.4a",
+  "texto_ocr": "Separar carriles o | Autopistas y autovías cuñas de cambio de velocidad.",
+  "pagina_pdf": 688,
+  "fichero": "M-2.4a.png",
+  "px": [
+   812,
+   46
+  ]
+ },
+ {
+  "codigo": "M-2.8",
+  "texto_ocr": "Separar calzadas Ñ P . Ñ Todo tipo de en bifurcaciones : carreteras y confluencias",
+  "pagina_pdf": 688,
+  "fichero": "M-2.8.png",
+  "px": [
+   811,
+   51
+  ]
+ },
+ {
+  "codigo": "M-3.1a",
+  "texto_ocr": "Separar carriles en el mismo : o Autopistas y",
+  "pagina_pdf": 689,
+  "fichero": "M-3.1a.png",
+  "px": [
+   855,
+   133
+  ]
+ },
+ {
+  "codigo": "M-3.1b",
+  "texto_ocr": "A , o autovias el cambio de carril",
+  "pagina_pdf": 689,
+  "fichero": "M-3.1b.png",
+  "px": [
+   852,
+   142
+  ]
+ },
+ {
+  "codigo": "M-3.2a",
+  "texto_ocr": "Carreteras multicarril y A",
+  "pagina_pdf": 689,
+  "fichero": "M-3.2a.png",
+  "px": [
+   901,
+   134
+  ]
+ },
+ {
+  "codigo": "M-3.3",
+  "texto_ocr": "adelantamiento a vehículos , situados en el Vías urbanas carril contiguo a la línea continua A A A |",
+  "pagina_pdf": 689,
+  "fichero": "M-3.3.png",
+  "px": [
+   866,
+   104
+  ]
+ },
+ {
+  "codigo": "M-3.3b",
+  "texto_ocr": "Travesías",
+  "pagina_pdf": 689,
+  "fichero": "M-3.3b.png",
+  "px": [
+   866,
+   145
+  ]
+ },
+ {
+  "codigo": "M-1.12",
+  "texto_ocr": "Interrumpir una : P . Todo tipo de marca continua o , , carreteras y vías hacer de guía en : o urbanas una intersección.",
+  "pagina_pdf": 689,
+  "fichero": "M-1.12.png",
+  "px": [
+   820,
+   105
+  ]
+ },
+ {
+  "codigo": "M-1.13",
+  "texto_ocr": "Indicar el eje de Carreteras la calzada convencionales",
+  "pagina_pdf": 689,
+  "fichero": "M-1.13.png",
+  "px": [
+   843,
+   91
+  ]
+ },
+ {
+  "codigo": "M-2.5",
+  "texto_ocr": "Autopistas y autovías",
+  "pagina_pdf": 690,
+  "fichero": "M-2.5.png",
+  "px": [
+   819,
+   34
+  ]
+ },
+ {
+  "codigo": "M-2.6",
+  "texto_ocr": "Carreteras Delimitar los multicarril, bordes de la carreteras calzada convencionales y travesías",
+  "pagina_pdf": 690,
+  "fichero": "M-2.6.png",
+  "px": [
+   820,
+   31
+  ]
+ },
+ {
+  "codigo": "M-2.7",
+  "texto_ocr": "Vías urbanas",
+  "pagina_pdf": 690,
+  "fichero": "M-2.7.png",
+  "px": [
+   825,
+   28
+  ]
+ },
+ {
+  "codigo": "M-4.1",
+  "texto_ocr": "Indicar la línea donde el vehículo debe — detenerse",
+  "pagina_pdf": 691,
+  "fichero": "M-4.1.png",
+  "px": [
+   817,
+   45
+  ]
+ },
+ {
+  "codigo": "M-4.2",
+  "texto_ocr": "Indicar la línea que ningún vehículo debe rebasar cuando tenga - que ceder el paso",
+  "pagina_pdf": 691,
+  "fichero": "M-4.2.png",
+  "px": [
+   869,
+   108
+  ]
+ },
+ {
+  "codigo": "M-4.3",
+  "texto_ocr": "Indicar una zona en la que los vehículos deben dejar paso a - los peatones",
+  "pagina_pdf": 691,
+  "fichero": "M-4.3.png",
+  "px": [
+   451,
+   450
+  ]
+ },
+ {
+  "codigo": "M-4.3a",
+  "texto_ocr": "Indicar una zona en la que los vehículos - deben dejar paso a los peatones",
+  "pagina_pdf": 691,
+  "fichero": "M-4.3a.png",
+  "px": [
+   347,
+   382
+  ]
+ },
+ {
+  "codigo": "M-4.3b",
+  "texto_ocr": "Indicar una zona en la que los vehículos deben dejar paso a los peatones cuando - dicho paso se ejecuta sobreelevado",
+  "pagina_pdf": 691,
+  "fichero": "M-4.3b.png",
+  "px": [
+   534,
+   528
+  ]
+ },
+ {
+  "codigo": "M-4.4",
+  "texto_ocr": "Indicar una zona en la que los vehículos deben dejar paso a - los ciclistas",
+  "pagina_pdf": 692,
+  "fichero": "M-4.4.png",
+  "px": [
+   459,
+   476
+  ]
+ },
+ {
+  "codigo": "M-4.4a",
+  "texto_ocr": "Indicar una zona en la que los vehículos deben dejar paso a - los ciclistas",
+  "pagina_pdf": 692,
+  "fichero": "M-4.4a.png",
+  "px": [
+   341,
+   370
+  ]
+ },
+ {
+  "codigo": "M-4.5",
+  "texto_ocr": "Indicar un reductor de velocidad tipo - “lomo de asno”",
+  "pagina_pdf": 692,
+  "fichero": "M-4.5.png",
+  "px": [
+   404,
+   404
+  ]
+ },
+ {
+  "codigo": "M-5.1a",
+  "texto_ocr": "Indicar que desde el carril donde se Autopistas, autovías, sitúa se puede circular únicamente de carreteras multicarril y frente carreteras convencionales",
+  "pagina_pdf": 693,
+  "fichero": "M-5.1a.png",
+  "px": [
+   162,
+   697
+  ]
+ },
+ {
+  "codigo": "M-5.1b",
+  "texto_ocr": "Indicar que desde el carril donde se Autopistas, autovías, sitúa se puede circular únicamente carreteras multicarril y hacia la derecha carreteras convencionales",
+  "pagina_pdf": 693,
+  "fichero": "M-5.1b.png",
+  "px": [
+   199,
+   701
+  ]
+ },
+ {
+  "codigo": "M-5.1c",
+  "texto_ocr": "Indicar que desde el carril donde se Autopistas, autovías, sitúa se puede circular únicamente carreteras multicarril y hacia la izquierda carreteras convencionales",
+  "pagina_pdf": 693,
+  "fichero": "M-5.1c.png",
+  "px": [
+   204,
+   696
+  ]
+ },
+ {
+  "codigo": "M-5.1d",
+  "texto_ocr": "Indicar que desde el carril donde se Autopistas, autovías, sitúa se puede circular únicamente de carreteras multicarril y frente y hacia la derecha carreteras convencionales",
+  "pagina_pdf": 694,
+  "fichero": "M-5.1d.png",
+  "px": [
+   231,
+   697
+  ]
+ },
+ {
+  "codigo": "M-5.1e",
+  "texto_ocr": "Indicar que desde el carril donde se Autopistas, autovías, sitúa se puede circular únicamente de carreteras multicarril y frente y hacia la izquierda carreteras convencionales",
+  "pagina_pdf": 694,
+  "fichero": "M-5.1e.png",
+  "px": [
+   243,
+   701
+  ]
+ },
+ {
+  "codigo": "M-5.1f",
+  "texto_ocr": "Indicar que desde el carril donde se Autopistas, autovías, sitúa se puede circular únicamente carreteras multicarril y hacia la derecha y hacia la izquierda carreteras convencionales",
+  "pagina_pdf": 694,
+  "fichero": "M-5.1f.png",
+  "px": [
+   280,
+   709
+  ]
+ },
+ {
+  "codigo": "M-5.1g",
+  "texto_ocr": "Indicar que desde el carril donde se Autopistas, autovías, sitúa se puede circular de frente, hacia carreteras multicarril y la derecha y hacia la izquierda carreteras convencionales",
+  "pagina_pdf": 695,
+  "fichero": "M-5.1g.png",
+  "px": [
+   305,
+   698
+  ],
+  "nota_correccion": "OCR leyó M-5.18; corregido a M-5.1g por la secuencia a…h"
+ },
+ {
+  "codigo": "M-5.1h",
+  "texto_ocr": "Autopistas, autovías, Indicar un carril reversible carreteras multicarril y carreteras convencionales",
+  "pagina_pdf": 695,
+  "fichero": "M-5.1h.png",
+  "px": [
+   195,
+   699
+  ]
+ },
+ {
+  "codigo": "M-5.2a",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente de Travesías y vías urbanas frente",
+  "pagina_pdf": 695,
+  "fichero": "M-5.2a.png",
+  "px": [
+   180,
+   555
+  ]
+ },
+ {
+  "codigo": "M-5.2b",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente Travesías y vías urbanas hacia la derecha",
+  "pagina_pdf": 696,
+  "fichero": "M-5.2b.png",
+  "px": [
+   202,
+   497
+  ]
+ },
+ {
+  "codigo": "M-5.2c",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente Travesías y vías urbanas hacia la izquierda",
+  "pagina_pdf": 696,
+  "fichero": "M-5.2c.png",
+  "px": [
+   194,
+   497
+  ]
+ },
+ {
+  "codigo": "M-5.2d",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente de Travesías y vías urbanas frente y hacia la derecha",
+  "pagina_pdf": 696,
+  "fichero": "M-5.2d.png",
+  "px": [
+   209,
+   499
+  ]
+ },
+ {
+  "codigo": "M-5.2e",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente de Travesías y vías urbanas frente y hacia la izquierda",
+  "pagina_pdf": 696,
+  "fichero": "M-5.2e.png",
+  "px": [
+   205,
+   501
+  ]
+ },
+ {
+  "codigo": "M-5.2f",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente Travesías y vías urbanas hacia la derecha y hacia la izquierda",
+  "pagina_pdf": 697,
+  "fichero": "M-5.2f.png",
+  "px": [
+   253,
+   518
+  ]
+ },
+ {
+  "codigo": "M-5.2g",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular de frente, hacia Travesías y vías urbanas la derecha y hacia la izquierda",
+  "pagina_pdf": 697,
+  "fichero": "M-5.2g.png",
+  "px": [
+   262,
+   519
+  ],
+  "nota_correccion": "OCR leyó M-5.28; corregido a M-5.2g por la secuencia a…h"
+ },
+ {
+  "codigo": "M-5.2h",
+  "texto_ocr": "Indicar un carril reversible Travesías y vías urbanas",
+  "pagina_pdf": 697,
+  "fichero": "M-5.2h.png",
+  "px": [
+   174,
+   517
+  ]
+ },
+ {
+  "codigo": "M-5.6a",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente de Travesías y vías urbanas frente",
+  "pagina_pdf": 697,
+  "fichero": "M-5.6a.png",
+  "px": [
+   151,
+   402
+  ]
+ },
+ {
+  "codigo": "M-5.6b",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente Travesías y vías urbanas hacia la derecha",
+  "pagina_pdf": 698,
+  "fichero": "M-5.6b.png",
+  "px": [
+   196,
+   402
+  ]
+ },
+ {
+  "codigo": "M-5.6c",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente Travesías y vías urbanas hacia la izquierda",
+  "pagina_pdf": 698,
+  "fichero": "M-5.6c.png",
+  "px": [
+   184,
+   407
+  ]
+ },
+ {
+  "codigo": "M-5.6d",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente de Travesías y vías urbanas frente y hacia la derecha",
+  "pagina_pdf": 698,
+  "fichero": "M-5.6d.png",
+  "px": [
+   192,
+   404
+  ]
+ },
+ {
+  "codigo": "M-5.6e",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente de Travesías y vías urbanas frente y hacia la izquierda",
+  "pagina_pdf": 698,
+  "fichero": "M-5.6e.png",
+  "px": [
+   193,
+   428
+  ]
+ },
+ {
+  "codigo": "M-5.6f",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular únicamente Travesías y vías urbanas hacia la derecha y hacia la izquierda",
+  "pagina_pdf": 698,
+  "fichero": "M-5.6f.png",
+  "px": [
+   240,
+   404
+  ]
+ },
+ {
+  "codigo": "M-5.6g",
+  "texto_ocr": "Indicar que desde el carril donde se sitúa se puede circular de frente, hacia Travesías y vías urbanas la derecha y hacia la izquierda",
+  "pagina_pdf": 699,
+  "fichero": "M-5.6g.png",
+  "px": [
+   233,
+   404
+  ],
+  "nota_correccion": "OCR leyó M-5.68; corregido a M-5.6g por la secuencia a…h"
+ },
+ {
+  "codigo": "M-5.6h",
+  "texto_ocr": "Indicar un carril reversible Travesías y vías urbanas",
+  "pagina_pdf": 699,
+  "fichero": "M-5.6h.png",
+  "px": [
+   136,
+   406
+  ]
+ },
+ {
+  "codigo": "M-5.4a",
+  "texto_ocr": "Indicar la pérdida de carril por la Todo tipo de carreteras y vías izquierda urbanas",
+  "pagina_pdf": 699,
+  "fichero": "M-5.4a.png",
+  "px": [
+   401,
+   607
+  ]
+ },
+ {
+  "codigo": "M-5.4b",
+  "texto_ocr": "Indicar la pérdida de carril por la Todo tipo de carreteras y vías derecha urbanas",
+  "pagina_pdf": 699,
+  "fichero": "M-5.4b.png",
+  "px": [
+   423,
+   631
+  ]
+ },
+ {
+  "codigo": "M-5.5",
+  "texto_ocr": "Indicar que se debe desistir de iniciar el adelantamiento o que se debe finalizar en Carreteras convencionales caso de que ya se haya iniciado.",
+  "pagina_pdf": 700,
+  "fichero": "M-5.5.png",
+  "px": [
+   174,
+   617
+  ]
+ },
+ {
+  "codigo": "M-5.7a",
+  "texto_ocr": "Indicar que por el carril de o o. Carreteras multicarril, carreteras acceso donde está pintada se . , , . . convencionales, travesías y vías podrá acceder a la salida de . urbanas frente de la glorieta.",
+  "pagina_pdf": 700,
+  "fichero": "M-5.7a.png",
+  "px": [
+   163,
+   600
+  ]
+ },
+ {
+  "codigo": "M-5.7b",
+  "texto_ocr": "Indicar que por el carril de acceso donde está pintada se | Carreteras multicarril, carreteras podrá acceder a las salidas convencionales, travesías y vías de la zona derecha de la urbanas glorieta",
+  "pagina_pdf": 700,
+  "fichero": "M-5.7b.png",
+  "px": [
+   221,
+   604
+  ]
+ },
+ {
+  "codigo": "M-5.7c",
+  "texto_ocr": "Indicar que por el carril de acceso donde está pintada se | Carreteras multicarril, carreteras podrá acceder a las salidas convencionales, travesías y vías de la zona izquierda de la urbanas glorieta",
+  "pagina_pdf": 701,
+  "fichero": "M-5.7c.png",
+  "px": [
+   201,
+   605
+  ]
+ },
+ {
+  "codigo": "M-5.7d",
+  "texto_ocr": "Indicar que por el carril de acceso donde está pintada se | Carreteras multicarril, carreteras podrá acceder a la salida de |convencionales, travesías y vías frente y a las de la zona urbanas derecha de la glorieta",
+  "pagina_pdf": 701,
+  "fichero": "M-5.7d.png",
+  "px": [
+   209,
+   600
+  ]
+ },
+ {
+  "codigo": "M-5.7e",
+  "texto_ocr": "Indicar que por el carril de acceso donde está pintada se | Carreteras multicarril, carreteras podrá acceder a la salida de |convencionales, travesías y vías frente y a las de la zona urbanas izquierda de la glorieta",
+  "pagina_pdf": 701,
+  "fichero": "M-5.7e.png",
+  "px": [
+   209,
+   604
+  ]
+ },
+ {
+  "codigo": "M-5.7f",
+  "texto_ocr": "Indicar que por el carril de acceso donde está pintada se | Carreteras multicarril, carreteras podrá acceder a las salidas convencionales, travesías y vías de la zona derecha e urbanas izquierda de la glorieta",
+  "pagina_pdf": 702,
+  "fichero": "M-5.7f.png",
+  "px": [
+   254,
+   603
+  ]
+ },
+ {
+  "codigo": "M-5.7g",
+  "texto_ocr": "Indicar que por el carril de o o. Carreteras multicarril, carreteras acceso donde está pintada se . , , , . convencionales, travesías y vías podrá acceder a cualquiera Ñ . urbanas de las salidas de la glorieta",
+  "pagina_pdf": 702,
+  "fichero": "M-5.7g.png",
+  "px": [
+   252,
+   604
+  ],
+  "nota_correccion": "OCR leyó M-5.78; corregido a M-5.7g por la secuencia a…h"
+ },
+ {
+  "codigo": "M-5.8",
+  "texto_ocr": "Indicar el sentido de circulación giratoria dentro de una miniglorieta con Travesías y vías urbanas isleta central de diámetro comprendido entre 2,5 y 4 m",
+  "pagina_pdf": 702,
+  "fichero": "M-5.8.png",
+  "px": [
+   615,
+   283
+  ]
+ },
+ {
+  "codigo": "M-5.9",
+  "texto_ocr": "Indicar el sentido de circulación giratoria dentro de una miniglorieta con Travesías y vías urbanas isleta central de diámetro menor de 2,5 m",
+  "pagina_pdf": 702,
+  "fichero": "M-5.9.png",
+  "px": [
+   424,
+   205
+  ]
+ },
+ {
+  "codigo": "M-6.1",
+  "texto_ocr": "Autopistas, autovías, carreteras multicarril y carreteras convencionales Indicar que un carril o una zona de la vía está reservado temporal o permanentemente, para la circulación, estacionamiento o",
+  "pagina_pdf": 703,
+  "fichero": "M-6.1.png",
+  "px": [
+   249,
+   427
+  ]
+ },
+ {
+  "codigo": "M-6.2",
+  "texto_ocr": "parada de determinados veniculos como autobuses (BUS) y taxis (TAXI) Travesías y vías urbanas",
+  "pagina_pdf": 703,
+  "fichero": "M-6.2.png",
+  "px": [
+   252,
+   233
+  ]
+ },
+ {
+  "codigo": "M-6.3",
+  "texto_ocr": ". oo Carreteras multicarril y Indicar al conductor la obligación carreteras convencionales de detener su vehículo ante una línea de detención (M-4.1) inmediatamente antes de la ralsara ala mua ca anravirm\"a 1/1",
+  "pagina_pdf": 703,
+  "fichero": "M-6.3.png",
+  "px": [
+   251,
+   348
+  ]
+ },
+ {
+  "codigo": "M-6.4",
+  "texto_ocr": "una vez detenido el vehículo, ceder el paso a los vehículos que circulen por ella. Travesías y vías urbanas",
+  "pagina_pdf": 703,
+  "fichero": "M-6.4.png",
+  "px": [
+   229,
+   183
+  ]
+ },
+ {
+  "codigo": "M-6.5",
+  "texto_ocr": "Carreteras multicarril, carreteras convencionales, travesías y vías urbanas Indicar al conductor la obligación de ceder el paso a los vehículos que circulen por la calzada a la que se avnroxima deteniéndose si es",
+  "pagina_pdf": 703,
+  "fichero": "M-6.5.png",
+  "px": [
+   199,
+   399
+  ]
+ },
+ {
+  "codigo": "M-6.5a",
+  "texto_ocr": "preciso ante la línea de CEDA EL PASO Vías urbanas",
+  "pagina_pdf": 703,
+  "fichero": "M-6.5a.png",
+  "px": [
+   143,
+   246
+  ]
+ },
+ {
+  "codigo": "M-6.6",
+  "texto_ocr": "Autopistas, autovías, carreteras multicarril y carreteras convencionales Indicar la velocidad de circulación máxima permitida, expresada en km/h",
+  "pagina_pdf": 704,
+  "fichero": "M-6.6.png",
+  "px": [
+   311,
+   883
+  ]
+ },
+ {
+  "codigo": "M-6.7",
+  "texto_ocr": "Travesías y vías urbanas",
+  "pagina_pdf": 704,
+  "fichero": "M-6.7.png",
+  "px": [
+   314,
+   372
+  ]
+ },
+ {
+  "codigo": "M-6.8",
+  "texto_ocr": "Indicar zonas reservadas o con prioridad para personas con movilidad reducida",
+  "pagina_pdf": 704,
+  "fichero": "M-6.8.png",
+  "px": [
+   801,
+   222
+  ]
+ },
+ {
+  "codigo": "M-6.9",
+  "texto_ocr": "Indicar zonas reservadas o con prioridad para peatones",
+  "pagina_pdf": 704,
+  "fichero": "M-6.9.png",
+  "px": [
+   367,
+   441
+  ]
+ },
+ {
+  "codigo": "M-6.10a",
+  "texto_ocr": "",
+  "pagina_pdf": 705,
+  "fichero": "M-6.10a.png",
+  "px": [
+   391,
+   361
+  ]
+ },
+ {
+  "codigo": "M-6.10b",
+  "texto_ocr": "Indicar zonas reservadas o con prioridad para ciclos o reforzar el mensaje de su posible circulación en vías compartidas con otros vehículos u otras personas usuarias del espacio público.",
+  "pagina_pdf": 705,
+  "fichero": "M-6.10b.png",
+  "px": [
+   307,
+   190
+  ]
+ },
+ {
+  "codigo": "M-6.10c",
+  "texto_ocr": "",
+  "pagina_pdf": 705,
+  "fichero": "M-6.10c.png",
+  "px": [
+   563,
+   503
+  ]
+ },
+ {
+  "codigo": "M-6.11",
+  "texto_ocr": "Indicar zonas reservadas o con prioridad para bicicletas de carga",
+  "pagina_pdf": 705,
+  "fichero": "M-6.11.png",
+  "px": [
+   496,
+   307
+  ]
+ },
+ {
+  "codigo": "M-6.13",
+  "texto_ocr": "Indicar zonas reservadas o con prioridad para motocicletas y ciclomotores",
+  "pagina_pdf": 706,
+  "fichero": "M-6.13.png",
+  "px": [
+   490,
+   401
+  ]
+ },
+ {
+  "codigo": "M-6.14",
+  "texto_ocr": "Indicar zonas reservadas o con prioridad para motocicletas y ciclomotores eléctricos",
+  "pagina_pdf": 707,
+  "fichero": "M-6.14.png",
+  "px": [
+   416,
+   311
+  ]
+ },
+ {
+  "codigo": "M-6.15",
+  "texto_ocr": "Indicar zonas reservadas o con prioridad para vehículos eléctricos",
+  "pagina_pdf": 707,
+  "fichero": "M-6.15.png",
+  "px": [
+   376,
+   349
+  ]
+ },
+ {
+  "codigo": "M-6.16",
+  "texto_ocr": "Indicar un carril reservado a vehículos con alta ocupación",
+  "pagina_pdf": 707,
+  "fichero": "M-6.16.png",
+  "px": [
+   374,
+   1106
+  ]
+ },
+ {
+  "codigo": "M-6.20",
+  "texto_ocr": "Indicar el punto Autopistas, autovías, kilométrico de la carretera | carreteras multicarril a los equipos de y carreteras salvamento aéreo convencionales",
+  "pagina_pdf": 708,
+  "fichero": "M-6.20.png",
+  "px": [
+   881,
+   286
+  ]
+ },
+ {
+  "codigo": "M-6.21",
+  "texto_ocr": "Autopistas, autovías, carreteras multicarril y carreteras convencionales Indicar lugares que se puedan alcanzar si se sigue por el carril en que estén situadas las inscripciones",
+  "pagina_pdf": 708,
+  "fichero": "M-6.21.png",
+  "px": [
+   822,
+   908
+  ]
+ },
+ {
+  "codigo": "M-6.22",
+  "texto_ocr": "Travesías y vías urbanas",
+  "pagina_pdf": 708,
+  "fichero": "M-6.22.png",
+  "px": [
+   445,
+   384
+  ]
+ },
+ {
+  "codigo": "M-7.1a",
+  "texto_ocr": "Autopistas, autovías, carreteras multicarril y carreteras convencionales Incrementar la visibilidad de la zona del pavimento excluida a la circulación de",
+  "pagina_pdf": 709,
+  "fichero": "M-7.1a.png",
+  "px": [
+   810,
+   307
+  ]
+ },
+ {
+  "codigo": "M-7.2a",
+  "texto_ocr": "vehículos entre carriles de circulación en doble sentido Travesías y vías urbanas",
+  "pagina_pdf": 709,
+  "fichero": "M-7.2a.png",
+  "px": [
+   797,
+   329
+  ]
+ },
+ {
+  "codigo": "M-7.1b",
+  "texto_ocr": "Autopistas, autovías, carreteras multicarril y carreteras convencionales Incrementar la visibilidad de la zona del pavimento excluida a la circulación de vehírilac entre carrilac dae",
+  "pagina_pdf": 709,
+  "fichero": "M-7.1b.png",
+  "px": [
+   795,
+   749
+  ]
+ },
+ {
+  "codigo": "M-7.2b",
+  "texto_ocr": "circulación en sentido único divergente y en sentido único convergente Travesías y vías urbanas",
+  "pagina_pdf": 709,
+  "fichero": "M-7.2b.png",
+  "px": [
+   776,
+   707
+  ]
+ },
+ {
+  "codigo": "M-7.3a",
+  "texto_ocr": "Delimitar la zona en la que se permite el estacionamiento de vehículos en línea.",
+  "pagina_pdf": 710,
+  "fichero": "M-7.3a.png",
+  "px": [
+   954,
+   323
+  ]
+ },
+ {
+  "codigo": "M-7.3b",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en línea.",
+  "pagina_pdf": 710,
+  "fichero": "M-7.3b.png",
+  "px": [
+   955,
+   740
+  ]
+ },
+ {
+  "codigo": "M-7.4a",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en batería recta.",
+  "pagina_pdf": 710,
+  "fichero": "M-7.4a.png",
+  "px": [
+   739,
+   497
+  ]
+ },
+ {
+  "codigo": "M-7.4b",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en batería recta.",
+  "pagina_pdf": 710,
+  "fichero": "M-7.4b.png",
+  "px": [
+   747,
+   513
+  ]
+ },
+ {
+  "codigo": "M-7.4c",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en batería recta.",
+  "pagina_pdf": 711,
+  "fichero": "M-7.4c.png",
+  "px": [
+   754,
+   510
+  ]
+ },
+ {
+  "codigo": "M-7.4d",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en batería oblicua.",
+  "pagina_pdf": 711,
+  "fichero": "M-7.4d.png",
+  "px": [
+   774,
+   462
+  ]
+ },
+ {
+  "codigo": "M-7.4e",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en batería oblicua.",
+  "pagina_pdf": 711,
+  "fichero": "M-7.4e.png",
+  "px": [
+   776,
+   506
+  ]
+ },
+ {
+  "codigo": "M-7.4f",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en batería oblicua.",
+  "pagina_pdf": 711,
+  "fichero": "M-7.4f.png",
+  "px": [
+   775,
+   495
+  ]
+ },
+ {
+  "codigo": "M-7.4g",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en doble batería recta.",
+  "pagina_pdf": 712,
+  "fichero": "M-7.4g.png",
+  "px": [
+   759,
+   518
+  ]
+ },
+ {
+  "codigo": "M-7.4h",
+  "texto_ocr": "Delimitar las plazas en las que se permite el estacionamiento de vehículos en batería en diente de sierra.",
+  "pagina_pdf": 712,
+  "fichero": "M-7.4h.png",
+  "px": [
+   754,
+   523
+  ]
+ },
+ {
+  "codigo": "M-7.5",
+  "texto_ocr": "Indicar la proximidad de un paso a nivel",
+  "pagina_pdf": 712,
+  "fichero": "M-7.5.png",
+  "px": [
+   783,
+   994
+  ]
+ },
+ {
+  "codigo": "M-7.6",
+  "texto_ocr": "Indicar el principio de un carril reservado a determinados vehículos (autobuses, taxis, ciclos, etc.).",
+  "pagina_pdf": 713,
+  "fichero": "M-7.6.png",
+  "px": [
+   578,
+   1015
+  ]
+ },
+ {
+  "codigo": "M-7.7",
+  "texto_ocr": "Indicar la prohibición del estacionamiento en el lado de la calzada donde está situada",
+  "pagina_pdf": 713,
+  "fichero": "M-7.7.png",
+  "px": [
+   1184,
+   926
+  ]
+ },
+ {
+  "codigo": "M-7.8",
+  "texto_ocr": "Indicar la prohibición de la parada y, por tanto, también el estacionamiento en el lado de la calzada donde está situada.",
+  "pagina_pdf": 714,
+  "fichero": "M-7.8.png",
+  "px": [
+   1154,
+   922
+  ]
+ },
+ {
+  "codigo": "M-7.9",
+  "texto_ocr": "Indicar el lugar de la calzada en que el estacionamiento está prohibido a los vehículos en general, por estar reservado para algún uso especial que no implique larga permanencia de ningún vehículo. Generalmente se utilizará en zonas reservadas (no estacionamiento) de autobuses o destinadas a la carga o descarga de vehículos.",
+  "pagina_pdf": 714,
+  "fichero": "M-7.9.png",
+  "px": [
+   1105,
+   1355
+  ]
+ },
+ {
+  "codigo": "M-7.10",
+  "texto_ocr": "Recordar la prohibición de penetrar en una intersección, aun cuando el semáforo lo permita o gocen de prioridad, si la situación de la circulación es tal que previsiblemente puedan quedar detenidos de forma que impidan u obstruyan la circulación transversal.",
+  "pagina_pdf": 715,
+  "fichero": "M-7.10.png",
+  "px": [
+   1252,
+   582
+  ]
+ },
+ {
+  "codigo": "M-7.11",
+  "texto_ocr": "Indicar el lugar donde empieza una zona de frenado de emergencia, y prohibir la parada, el estacionamiento o la utilización de esta superficie con otros fines.",
+  "pagina_pdf": 715,
+  "fichero": "M-7.11.png",
+  "px": [
+   425,
+   604
+  ]
+ },
+ {
+  "codigo": "M-7.12",
+  "texto_ocr": "Facilitar, sirviendo como referencia, el mantenimiento de la separación mínima de seguridad entre un vehículo y el que le precede en túneles, secciones especiales y tramos de mayor riesgo de accidentes por alcance.",
+  "pagina_pdf": 715,
+  "fichero": "M-7.12.png",
+  "px": [
+   511,
+   552
+  ]
+ },
+ {
+  "codigo": "M-8.1",
+  "texto_ocr": "Indicar la llegada a un tramo de la vía en el que debe reducirse la velocidad de circulación notablemente con respecto al tramo precedente, y en el que los conductores deberán adaptar su conducción a las nuevas circunstancias del entorno de la carretera.",
+  "pagina_pdf": 716,
+  "fichero": "M-8.1.png",
+  "px": [
+   1375,
+   2010
+  ]
+ },
+ {
+  "codigo": "M-8.2",
+  "texto_ocr": "Indicar la presencia de un paso para peatones o para ciclistas en un tramo en el que las circunstancias del entorno hacen recomendable resaltar su existencia con el fin de que los vehículos reduzcan su velocidad y extremen la atención.",
+  "pagina_pdf": 717,
+  "fichero": "M-8.2.png",
+  "px": [
+   1349,
+   1240
+  ]
+ },
+ {
+  "codigo": "M-8.3",
+  "texto_ocr": "Indicar la necesidad de extremar la atención en la aproximación a un tramo en el que existe un riesgo vial superior al percibido subjetivamente.",
+  "pagina_pdf": 717,
+  "fichero": "M-8.3.png",
+  "px": [
+   1071,
+   768
+  ]
+ }
+]

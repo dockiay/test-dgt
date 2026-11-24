@@ -24,7 +24,7 @@ TEMA_A_MATERIA = {
     "vias": 7, "documentacion": 10, "primeros_auxilios": 11, "carga": 12, "vehiculo": 14,
     "seguridad_pasiva": 15, "conduccion_eficiente": 16,
 }
-NORMAS_VALIDAS = {"CP", "ITV", "LRCSCVM", "LSV", "MANUAL_DGT", "OCURSOS", "RGC", "RGCOND", "RGCond", "RGV"}
+NORMAS_VALIDAS = {"CP", "ITV", "LRCSCVM", "LSV", "MANUAL_DGT", "OCURSOS", "RGC", "RGC_CATALOGO", "RGCOND", "RGCond", "RGV"}
 URLS_OFICIALES = ("https://www.boe.es/", "https://www.dgt.es/", "https://sede.dgt.gob.es/")
 
 def main():

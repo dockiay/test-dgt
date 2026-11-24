@@ -37,7 +37,7 @@
     condiciones_adversas: "Condiciones adversas", conduccion_preventiva: "Conducción preventiva", conduccion_segura: "Conducción segura", distracciones: "Distracciones",
     factores_riesgo: "Factores de riesgo", transporte_personas: "Transporte de personas", usuarios_vulnerables: "Usuarios vulnerables", alcohol: "Alcohol", drogas: "Drogas", mecanica: "Mecánica", accidente: "Accidentes",
   };
-  const NOMBRE_NORMA_CORTO = { RGC: "Reglamento General de Circulación", LSV: "Ley de Tráfico", RGCond: "Reglamento General de Conductores", RGCOND: "Reglamento General de Conductores", MANUAL_DGT: "Manual del permiso B (DGT)", ITV: "Reglamento de ITV (RD 920/2017)", LRCSCVM: "Ley del seguro obligatorio (RDL 8/2004)", OCURSOS: "Orden de cursos del permiso por puntos (INT/2596/2005)", RGV: "Reglamento General de Vehículos", CP: "Código Penal" };
+  const NOMBRE_NORMA_CORTO = { RGC: "Reglamento General de Circulación", LSV: "Ley de Tráfico", RGCond: "Reglamento General de Conductores", RGCOND: "Reglamento General de Conductores", MANUAL_DGT: "Manual del permiso B (DGT)", RGC_CATALOGO: "Catálogo de señales del Reglamento General de Circulación", ITV: "Reglamento de ITV (RD 920/2017)", LRCSCVM: "Ley del seguro obligatorio (RDL 8/2004)", OCURSOS: "Orden de cursos del permiso por puntos (INT/2596/2005)", RGV: "Reglamento General de Vehículos", CP: "Código Penal" };
   // Examen (RD 818/2009, anexo VI): 30 preguntas, 30 minutos, aprobado con un máximo de 3 errores.
   const EXAMEN_PREGUNTAS = 30, SEGUNDOS_POR_PREGUNTA = 60, PROPORCION_FALLOS = 0.1;
 
@@ -63,6 +63,7 @@
     return { fallos: d.fallos || {}, dudosas: d.dudosas || {}, historial: d.historial || [], vistas: d.vistas || {} };
   }
   function guardar() { try { localStorage.setItem(CLAVE, JSON.stringify(datos)); } catch (e) { /* sin almacenamiento */ } }
+  function seccionActual() { return (location.hash || "#/").slice(2).split("/")[0] || "inicio"; }
   function registrar(p, acierto, modo) {
     const v = datos.vistas[p.id] || { ok: 0, ko: 0 };
     acierto ? v.ok++ : v.ko++;
@@ -117,7 +118,7 @@
     tituloFijo = !!op.fijo;
     const a = op.atras;
     navIzq.replaceChildren(...(a ? [a.href
-      ? h("a", { class: "nav-boton", href: a.href }, a.icono === false ? null : ico("atras"), a.texto)
+      ? h("a", { class: "nav-boton" + (a.href === "#/" ? " atras-raiz" : ""), href: a.href }, a.icono === false ? null : ico("atras"), a.texto)
       : h("button", { class: "nav-boton", onclick: a.accion }, a.icono === false ? null : ico("atras"), a.texto)] : []));
     app.replaceChildren(...hijos.flat(Infinity).filter(c => c != null && c !== false));
     const b = (op.barra || []).filter(Boolean);
@@ -126,6 +127,7 @@
     app.classList.toggle("con-barra", !!b.length);
     document.body.classList.toggle("sesion", !!op.sesion);
     teclas = op.teclas || null;
+    if (typeof pintarLateral === "function" && document.getElementById("lateral").childElementCount) pintarLateral(seccionActual());
     if (!op.mantenerScroll) { window.scrollTo(0, 0); app.focus({ preventScroll: true }); }
     alDesplazar();
   }
@@ -204,10 +206,14 @@
     const norma = NOMBRE_NORMA_CORTO[f.norma] || (BANCO.normativa[f.norma] || {}).nombre || f.norma;
     return `${norma}, ${/^(anexo|disposici)/i.test(f.articulo) ? f.articulo : "art. " + f.articulo}`;
   }
-  function figura(p) {
+  // La descripción detallada y el crédito pueden revelar la respuesta: solo se muestran tras responder.
+  function figura(p, corregida) {
     const i = p.imagen;
     if (!i || !i.src) return null;
-    return h("figure", { class: "figura" }, h("img", { src: i.src, alt: i.alt || "" }), i.credito ? h("figcaption", {}, i.credito) : null);
+    const senal = /\/senales\//.test(i.src);
+    return h("figure", { class: "figura" + (senal ? " senal" : "") },
+      h("img", { src: i.src, alt: (corregida && i.alt_detalle) || i.alt || "Imagen de la pregunta", decoding: "async" }),
+      corregida && (i.alt_detalle || i.credito) ? h("figcaption", {}, i.alt_detalle ? h("strong", {}, i.alt_detalle) : null, i.alt_detalle && i.credito ? h("br") : null, i.credito || null) : null);
   }
   function bloqueExplicacion(p, elegida, animada, orden) {
     const ok = elegida === p.correcta, f = p.fuente, letra = letraVista(p, p.correcta, orden);
@@ -251,7 +257,7 @@
       return h("li", {}, h("button", { class: cls, disabled: corregida, "aria-pressed": corregida ? null : String(k === elegida), "aria-label": `${"ABC"[pos]}. ${p.opciones[k]}${voz}`, onclick: () => alElegir && alElegir(k) },
         h("span", { class: "letra" }, "ABC"[pos]), h("span", { class: "texto" }, p.opciones[k]), h("span", { class: "estado" }, estado)));
     }));
-    return [figura(p), h("p", { class: "enunciado" }, p.enunciado), lista, corregida ? bloqueExplicacion(p, elegida, animada, orden) : null];
+    return [figura(p, corregida), h("p", { class: "enunciado" }, p.enunciado), lista, corregida ? bloqueExplicacion(p, elegida, animada, orden) : null];
   }
   function avance(izq, der, hecho, total) {
     return [h("div", { class: "avance" }, h("strong", {}, izq), h("span", {}, der)),
@@ -272,11 +278,11 @@
       h("p", { class: "subtitulo" }, `${PREGUNTAS.length} preguntas verificadas, cada una con su fuente oficial.`),
       cifras([`${vistas.length}/${PREGUNTAS.length}`, "Preguntas vistas"], [tot ? Math.round(ok / tot * 100) + " %" : "–", "Aciertos"], [datos.historial.length ? `${aptos}/${datos.historial.length}` : "–", "Exámenes aptos"]),
       cabecera("Practicar"),
-      grupo("con-icono",
+      grupo("con-icono mosaico",
         fila({ icono: "examen", color: "azul", titulo: "Examen final", detalle: "30 preguntas, 30 minutos, máximo 3 fallos", href: "#/examen" }),
         fila({ icono: "libro", color: "indigo", titulo: "Examen por temario", detalle: "16 materias, con la explicación al momento", href: "#/temario" })),
       cabecera("Repasar"),
-      grupo("con-icono",
+      grupo("con-icono mosaico",
         fila({ icono: "repetir", color: "naranja", titulo: "Mis fallos", insignia: nf || null, valor: nf ? null : "0", href: "#/fallos" }),
         fila({ icono: "bandera", color: "rojo", titulo: "Preguntas dudosas", valor: String(nd), href: "#/dudosas" })),
       ult.length ? [cabecera("Últimos exámenes"), grupo("", ult.map(r => h("div", { class: "fila" },
@@ -393,7 +399,7 @@
       h("h1", { class: "titulo-grande" }, "Temario"),
       h("p", { class: "subtitulo" }, "Las 16 materias de la prueba común del permiso B."),
       h("div", { style: "height:8px" }),
-      grupo("con-icono", MATERIAS.map(([n, nombre]) => {
+      grupo("con-icono mosaico", MATERIAS.map(([n, nombre]) => {
         const c = cuenta(n);
         return fila({ numero: n, color: c ? "indigo" : "gris", titulo: nombre, detalle: c ? plural(c, "pregunta", "preguntas") : "Aún sin preguntas verificadas",
           accion: () => { location.hash = `#/temario/${n}`; }, deshabilitada: !c, chevron: !!c });
@@ -525,17 +531,34 @@
         h("p", {}, "Basado en datos de la Agencia Estatal Boletín Oficial del Estado. Los textos consolidados tienen valor informativo; solo hace fe la publicación oficial en el BOE.")),
       cabecera("Normas consultadas"),
       grupo("", normas.map(([k, v]) => fila({ titulo: v.nombre || NOMBRE_NORMA_CORTO[k] || k,
-        detalle: [/^BOE-/.test(v.ref) ? null : v.ref, v.ultima_actualizacion ? `Versión del ${fechaES(v.ultima_actualizacion)}` : null].filter(Boolean).join(" · "),
-        href: /^BOE-/.test(v.ref) ? `https://www.boe.es/buscar/act.php?id=${v.ref}` : null, externo: true })),
+        detalle: [/^BOE-[A-Z]-\d{4}-\d+$/.test(v.ref) ? null : v.ref, v.ultima_actualizacion ? `Versión del ${fechaES(v.ultima_actualizacion)}` : null].filter(Boolean).join(" · "),
+        href: /BOE-[A-Z]-\d{4}-\d+/.test(v.ref || "") ? `https://www.boe.es/buscar/act.php?id=${v.ref.match(/BOE-[A-Z]-\d{4}-\d+/)[0]}` : null, externo: true })),
         normas.some(([, v]) => v.ref === "BOE-A-2009-9481") ? null : fila({ titulo: "Reglamento General de Conductores (RD 818/2009)", detalle: "Anexos V y VI: materias y formato del examen", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481", externo: true })),
       h("p", { class: "nota-pie" }, `Banco de preguntas generado el ${fechaES(BANCO.generado)}. Tus resultados, fallos y marcas se guardan solo en este navegador.`));
   }
 
   // ---------- Rutas ----------
   let sesion = null;
+  // Barra lateral (solo en pantallas anchas, como en las apps de iPad y Mac).
+  const lateral = document.getElementById("lateral");
+  function pintarLateral(seccion) {
+    const nf = fallosActuales().length, nd = Object.keys(datos.dudosas).length;
+    const item = (id, href, icono, color, texto, extra) => h("li", {}, h("a", { class: "lateral-item" + (seccion === id ? " activo" : ""), href, "aria-current": seccion === id ? "page" : null },
+      h("span", { class: "tesela t-" + color }, ico(icono)), h("span", { class: "lateral-texto" }, texto), extra ? h("span", { class: "lateral-cuenta" }, extra) : null));
+    lateral.replaceChildren(
+      h("a", { class: "lateral-marca", href: "#/" }, h("img", { src: "icono.svg", alt: "" }), h("span", {}, "Test permiso B")),
+      h("p", { class: "lateral-cabecera" }, "Practicar"),
+      h("ul", {}, item("inicio", "#/", "lista", "gris", "Resumen"), item("examen", "#/examen", "examen", "azul", "Examen final"), item("temario", "#/temario", "libro", "indigo", "Examen por temario")),
+      h("p", { class: "lateral-cabecera" }, "Repasar"),
+      h("ul", {}, item("fallos", "#/fallos", "repetir", "naranja", "Mis fallos", nf ? String(nf) : null), item("dudosas", "#/dudosas", "bandera", "rojo", "Preguntas dudosas", nd ? String(nd) : null)),
+      h("p", { class: "lateral-cabecera" }, "Información"),
+      h("ul", {}, item("fuentes", "#/fuentes", "info", "gris", "Fuentes y aviso legal")),
+      h("p", { class: "lateral-pie" }, `${PREGUNTAS.length} preguntas verificadas`));
+  }
   function ruta() {
     const d = document.querySelector("dialog[open]"); if (d) d.close();
     const r = (location.hash || "#/").slice(1).split("/").filter(Boolean);
+    pintarLateral(r[0] || "inicio");
     if (r[0] === "examen") return portadaExamen();
     if (r[0] === "temario") return r[1] ? portadaMateria(Number(r[1])) : listaTemario();
     if (r[0] === "fallos") return portadaFallos();

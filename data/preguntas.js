@@ -4912,6 +4912,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "A-ani-0001",
+   "tema": "prioridad",
+   "subtema": "animales",
+   "materia": 8,
+   "enunciado": "Esta señal lleva debajo un panel complementario con la inscripción «Cañada». Si hay ganado cruzando la vía, ¿quién tiene prioridad?",
+   "opciones": {
+    "a": "Los animales.",
+    "b": "Los vehículos, porque la señal solo advierte del peligro.",
+    "c": "Los vehículos, salvo de noche."
+   },
+   "correcta": "a",
+   "explicacion": "Las cañadas se señalizan con un panel «cañada» bajo la señal de paso de animales domésticos. En las cañadas debidamente señalizadas, los animales tienen prioridad sobre los vehículos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "66.1.a y 66.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las cañadas o pasos de ganado de carácter general se señalizarán por medio de paneles complementarios con la inscripción “cañada”, que se colocarán debajo de la señal “paso de animales domésticos”",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-23.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+    "alt_detalle": "Señal P-23: Paso de animales domésticos o ganado"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "A-urg-0001",
    "tema": "prioridad",
    "subtema": "vehiculos_prioritarios",
@@ -5254,6 +5282,34 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-est-0010",
+   "tema": "prioridad",
+   "subtema": "puentes_senalizados",
+   "materia": 1,
+   "enunciado": "Llega a un puente estrecho por el extremo en el que está colocada esta señal y, ya en el puente, se encuentra con otro vehículo con el que no puede cruzarse. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Continuar, porque la señal le da prioridad.",
+    "b": "Esperar a que retroceda el vehículo de mayor tamaño.",
+    "c": "Retroceder para dejar paso al otro vehículo."
+   },
+   "correcta": "c",
+   "explicacion": "Si en uno de los extremos del puente está la señal de prioridad en sentido contrario o la de ceda el paso, el que llega por ese extremo debe retroceder para dejar paso al otro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "61.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "en uno de cuyos extremos se hubiera colocado la señal de prioridad en sentido contrario o la de ceda el paso, el que llegue por ese extremo habrá de retroceder para dejar paso al otro.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-5.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-5: Prioridad del sentido contrario"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -6384,6 +6440,90 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "A-par-0004",
+   "tema": "parada_estacionamiento",
+   "subtema": "marcas_amarillas",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta marca vial amarilla continua junto al bordillo?",
+   "opciones": {
+    "a": "Prohibición solo de estacionamiento en ese lado de la calzada.",
+    "b": "Prohibición de parada y de estacionamiento en ese lado de la calzada.",
+    "c": "Zona reservada para carga y descarga."
+   },
+   "correcta": "b",
+   "explicacion": "La marca longitudinal continua amarilla (M-7.8) indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde está situada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I, apdo. 4.7 (M-7.8)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Marca longitudinal continua de prohibición de parada (M-7.8): indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.8.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.8 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0005",
+   "tema": "parada_estacionamiento",
+   "subtema": "marcas_amarillas",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta marca vial amarilla discontinua junto al bordillo?",
+   "opciones": {
+    "a": "Prohibición de parada y de estacionamiento en ese lado de la calzada.",
+    "b": "Prohibición de estacionamiento en ese lado de la calzada.",
+    "c": "Estacionamiento con limitación horaria."
+   },
+   "correcta": "b",
+   "explicacion": "La marca longitudinal discontinua amarilla (M-7.7) indica la prohibición del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde está situada; no prohíbe la parada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I, apdo. 4.7 (M-7.7)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Marca longitudinal discontinua de prohibición de estacionamiento (M-7.7): indica la prohibición del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.7.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.7 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "A-par-0006",
+   "tema": "parada_estacionamiento",
+   "subtema": "marcas_amarillas",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta marca vial amarilla en zigzag?",
+   "opciones": {
+    "a": "Un lugar donde se permite estacionar a cualquier vehículo durante un máximo de dos horas.",
+    "b": "Un lugar donde el estacionamiento está prohibido por estar reservado a algún uso especial, como una parada de autobús o carga y descarga.",
+    "c": "Una zona en la que está prohibido circular."
+   },
+   "correcta": "b",
+   "explicacion": "La marca en zigzag (M-7.9) indica el lugar de la calzada en que el estacionamiento está prohibido a los vehículos en general, por estar reservado para algún uso especial que no implique larga permanencia, como paradas de autobús o carga y descarga.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I, apdo. 4.7 (M-7.9)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "indica el lugar de la calzada en que el estacionamiento está prohibido a los vehículos en general, por estar reservado para algún uso especial",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.9.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.9 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "A-par-0007",
    "tema": "parada_estacionamiento",
    "subtema": "lugares_peligrosos",
@@ -6864,6 +7004,34 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0011",
+   "tema": "senales",
+   "subtema": "obediencia",
+   "materia": 1,
+   "enunciado": "Una señal le obliga a detenerse. ¿Cuándo puede reanudar la marcha?",
+   "opciones": {
+    "a": "En cuanto se haya detenido, aunque sea un instante.",
+    "b": "Cuando el vehículo de detrás le avise.",
+    "c": "Cuando haya cumplido la prescripción que la señal establece."
+   },
+   "correcta": "c",
+   "explicacion": "Cuando una señal impone detenerse, el conductor no puede reanudar la marcha hasta haber cumplido la prescripción que la señal establece (por ejemplo, en un control o peaje).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "132.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "cuando la señal imponga una obligación de detención, no podrá reanudar su marcha el conductor del vehículo así detenido hasta haber cumplido la prescripción que la señal establece",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-200.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado",
+    "alt_detalle": "Señal R-200: Prohibición de pasar sin detenerse"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7465,6 +7633,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0057",
+   "tema": "senales",
+   "subtema": "senales_verticales",
+   "materia": 1,
+   "enunciado": "En un tramo con obras encuentra una señal de peligro con fondo amarillo en lugar de blanco. ¿Por qué tiene ese color?",
+   "opciones": {
+    "a": "Porque el peligro es más grave de lo habitual.",
+    "b": "Porque en los tramos con obras o tareas de conservación las señales de peligro que normalmente tienen fondo blanco llevan fondo amarillo.",
+    "c": "Porque es una señal meramente informativa que no hay que cumplir."
+   },
+   "correcta": "b",
+   "explicacion": "En tramos con obras o tareas de conservación, las señales de peligro y de reglamentación cuyo fondo convencional es blanco tienen fondo amarillo.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5 (Catálogo, tomo I, 2.5)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando en dichos tramos se dispongan señales de peligro y reglamentación cuyo fondo sea en su versión convencional de color blanco, estas tendrán fondo amarillo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-17.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado",
+    "alt_detalle": "Señal P-17: Estrechamiento de calzada"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0058",
    "tema": "senales",
    "subtema": "senales_verticales",
@@ -7485,6 +7681,174 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0059",
+   "tema": "prioridad",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Se aproxima a una intersección señalizada con la señal de advertencia de 'intersección con prioridad'. ¿Quién tiene prioridad de paso?",
+   "opciones": {
+    "a": "Los vehículos que se aproximen por la derecha.",
+    "b": "El primero que llegue a la intersección.",
+    "c": "Usted, sobre los vehículos que circulen por la otra vía o procedan de ella."
+   },
+   "correcta": "c",
+   "explicacion": "Los conductores que se aproximen a una intersección señalizada con señal de intersección con prioridad tienen prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "56.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los conductores de los vehículos que se aproximen a una intersección señalizada con señal de intersección con prioridad",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-1.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 89 del PDF consolidado",
+    "alt_detalle": "Señal P-1: Intersección con prioridad"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0060",
+   "tema": "prioridad",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Circula por una vía señalizada con la señal de 'calzada con prioridad'. ¿Qué significa?",
+   "opciones": {
+    "a": "Que tiene prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella.",
+    "b": "Que debe ceder el paso a los que se incorporen por la derecha.",
+    "c": "Que la vía es de sentido único."
+   },
+   "correcta": "a",
+   "explicacion": "Quienes circulen por una vía señalizada con señal de calzada con prioridad tienen prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "56.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "tendrán prioridad de paso sobre los vehículos que circulen por otra vía o procedan de ella",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-3.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-3: Calzada con prioridad"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0061",
+   "tema": "prioridad",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Llega a una intersección con señal de ceda el paso. ¿A quién debe ceder el paso?",
+   "opciones": {
+    "a": "Solo a los vehículos que se aproximen por la derecha.",
+    "b": "A los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen.",
+    "c": "Solo a los vehículos pesados."
+   },
+   "correcta": "b",
+   "explicacion": "Ante ceda el paso o STOP se cede siempre el paso a los vehículos de la vía preferente, cualquiera que sea el lado por el que se aproximen.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "56.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los conductores cederán siempre el paso a los vehículos que transiten por la vía preferente, cualquiera que sea el lado por el que se aproximen",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-1.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-1: Ceda el paso"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0062",
+   "tema": "prioridad",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Ante una señal de ceda el paso, si no se aproxima ningún vehículo por la vía preferente, ¿está obligado a detenerse?",
+   "opciones": {
+    "a": "Sí, siempre.",
+    "b": "Solo si es de noche.",
+    "c": "No; solo debe detenerse cuando sea preciso para ceder el paso."
+   },
+   "correcta": "c",
+   "explicacion": "Ante ceda el paso hay que detener la marcha cuando sea preciso; la detención en todo caso solo es obligatoria cuando así lo indique la señal (STOP).",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "56.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "llegando a detener por completo su marcha cuando sea preciso y, en todo caso, cuando así lo indique la señal correspondiente",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-1.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-1: Ceda el paso"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0063",
+   "tema": "prioridad",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Llega a una intersección con señal de STOP y no se aproxima ningún vehículo. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Detenerse por completo igualmente.",
+    "b": "Pasar sin detenerse, reduciendo la velocidad.",
+    "c": "Detenerse solo si hay línea de detención pintada."
+   },
+   "correcta": "a",
+   "explicacion": "La señal de detención obligatoria o STOP obliga a detener por completo la marcha en todo caso, venga o no algún vehículo, y después ceder el paso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "56.5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "llegando a detener por completo su marcha cuando sea preciso y, en todo caso, cuando así lo indique la señal correspondiente",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-2.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-2: Detención obligatoria o stop"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0064",
+   "tema": "prioridad",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Ante una señal de STOP, ¿dónde debe detener el vehículo si no hay línea de detención?",
+   "opciones": {
+    "a": "Inmediatamente antes de la calzada a la que se aproxima.",
+    "b": "Junto al poste de la señal, aunque esté a varios metros de la calzada.",
+    "c": "Dentro de la intersección, en el punto de mejor visibilidad."
+   },
+   "correcta": "a",
+   "explicacion": "La obligación de detención es ante la línea de detención o, si no existe, inmediatamente antes de la calzada a la que se aproxima; después hay que ceder el paso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (marcas viales, 4.4, M-6.3)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "indica la obligación de detener el vehículo ante una línea de detención (M-4.1) o, si esta no existiera, inmediatamente antes de la calzada a la que se aproxima",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-2.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-2: Detención obligatoria o stop"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7557,6 +7921,118 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-pri-0068",
+   "tema": "prioridad",
+   "subtema": "paso_a_nivel",
+   "materia": 1,
+   "enunciado": "¿Qué indica la marca vial de paso a nivel (M-7.5) pintada en la calzada?",
+   "opciones": {
+    "a": "La proximidad de un paso a nivel en el que los vehículos de la calzada deben ceder el paso cuando se aproxime un tren o tranvía.",
+    "b": "Una zona de parada para el transporte público.",
+    "c": "Un aparcamiento reservado."
+   },
+   "correcta": "a",
+   "explicacion": "La marca M-7.5 indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía, en el que los vehículos de la calzada deben ceder el paso cuando se aproxime un tren o tranvía.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (marcas viales, M-7.5)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Marca de paso a nivel (M-7.5): indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía, en el que los vehículos que circulen por la calzada deben ceder el paso cuando se aproxime un tren o tranvía.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.5.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 712 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.5 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0069",
+   "tema": "prioridad",
+   "subtema": "prioridad_animales",
+   "materia": 1,
+   "enunciado": "Ve la señal de peligro 'paso de animales domésticos' con un panel complementario que dice 'cañada'. Si hay ganado cruzando, ¿quién tiene prioridad?",
+   "opciones": {
+    "a": "Los animales, porque se trata de una cañada debidamente señalizada.",
+    "b": "Usted, porque los conductores siempre tienen prioridad sobre los animales.",
+    "c": "El que llegue primero."
+   },
+   "correcta": "a",
+   "explicacion": "Los conductores tienen prioridad sobre los animales salvo, entre otros casos, en las cañadas debidamente señalizadas, que se indican con el panel 'cañada' bajo la señal de paso de animales domésticos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "66.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "se señalizarán por medio de paneles complementarios con la inscripción “cañada”, que se colocarán debajo de la señal “paso de animales domésticos”",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-23.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+    "alt_detalle": "Señal P-23: Paso de animales domésticos o ganado"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0070",
+   "tema": "prioridad",
+   "subtema": "prioridad_animales",
+   "materia": 1,
+   "enunciado": "Encuentra la señal de peligro 'paso de animales domésticos' sin ningún panel complementario. Como norma general, ¿quién tiene prioridad de paso?",
+   "opciones": {
+    "a": "Los animales, en todo caso.",
+    "b": "Los conductores, salvo en los supuestos que establece el Reglamento (cañadas señalizadas, giros con animales cruzando, cruce de arcén por el que circulan animales sin cañada).",
+    "c": "Nadie; se aplica la regla de la derecha."
+   },
+   "correcta": "b",
+   "explicacion": "Los conductores tienen prioridad de paso respecto de los animales, salvo en las cañadas debidamente señalizadas y en los demás supuestos del art. 66.1; la señal sola solo advierte del peligro.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "66.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los conductores tienen prioridad de paso para sus vehículos, respecto de los animales, salvo en los casos siguientes",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-23.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+    "alt_detalle": "Señal P-23: Paso de animales domésticos o ganado"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0072",
+   "tema": "prioridad",
+   "subtema": "estrechamientos",
+   "materia": 1,
+   "enunciado": "Ha entrado en un puente estrecho, donde no pueden cruzarse dos vehículos, por el extremo en el que hay colocada una señal de prioridad en sentido contrario. Si se encuentra con otro vehículo dentro del puente, ¿quién debe retroceder?",
+   "opciones": {
+    "a": "El que haya llegado por el extremo donde está la señal de prioridad en sentido contrario, es decir, usted.",
+    "b": "El vehículo de menor tamaño.",
+    "c": "El que venga en sentido contrario."
+   },
+   "correcta": "a",
+   "explicacion": "En caso de encuentro en puentes u obras de paso con señal de prioridad en sentido contrario o de ceda el paso en uno de sus extremos, el que llegue por ese extremo debe retroceder.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "61.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "en uno de cuyos extremos se hubiera colocado la señal de prioridad en sentido contrario o la de ceda el paso, el que llegue por ese extremo habrá de retroceder para dejar paso al otro",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-5.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-5: Prioridad del sentido contrario"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0073",
    "tema": "senales",
    "subtema": "senales_verticales",
@@ -7577,6 +8053,1882 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0074",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal?",
+   "opciones": {
+    "a": "La proximidad de una incorporación por la derecha de una vía cuyos usuarios deben ceder el paso.",
+    "b": "Que debe ceder el paso a los vehículos que se incorporan por la derecha.",
+    "c": "Que la vía por la que circula termina y debe incorporarse a otra."
+   },
+   "correcta": "a",
+   "explicacion": "La P-1c advierte de la proximidad de una incorporación por la derecha de una vía cuyos usuarios deben ceder el paso: usted tiene prioridad.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-1c (pág. 89 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-1c Intersección con prioridad sobre incorporación por la derecha Peligro por la proximidad de una incorporación por la derecha de una vía, cuyos usuarios deben ceder el paso.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-1c.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 89 del PDF consolidado",
+    "alt_detalle": "Señal P-1c: Intersección con prioridad sobre incorporación por la derecha"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0075",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "Esta señal advierte de una intersección. ¿Qué prioridad rige en ella?",
+   "opciones": {
+    "a": "Usted tiene prioridad, por circular por la vía principal.",
+    "b": "Tienen prioridad los vehículos que vienen por la izquierda.",
+    "c": "La regla general de prioridad de paso: la de los vehículos que vienen por la derecha."
+   },
+   "correcta": "c",
+   "explicacion": "La P-2 («Intersección con prioridad de la derecha») advierte de una intersección en la que rige la regla general de prioridad de paso: ceder el paso a los que se aproximan por la derecha (art. 57.1 RGC).",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-2 (pág. 89 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-2 Intersección con prioridad de la derecha Peligro por la proximidad de una intersección en la que rige la regla general de prioridad de paso.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-2.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 89 del PDF consolidado",
+    "alt_detalle": "Señal P-2: Intersección con prioridad de la derecha"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0076",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal?",
+   "opciones": {
+    "a": "La proximidad de una glorieta con circulación en el sentido indicado por las flechas.",
+    "b": "Obligación de dar la vuelta completa a la glorieta.",
+    "c": "La proximidad de un tramo con curvas sucesivas."
+   },
+   "correcta": "a",
+   "explicacion": "La P-4 («Glorieta») advierte de la proximidad de una glorieta con circulación en el sentido indicado por las flechas.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-4 (pág. 90 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-4 Glorieta Peligro por la proximidad de una glorieta con circulación en el sentido indicado por las flechas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-4.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado",
+    "alt_detalle": "Señal P-4: Glorieta"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0077",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal?",
+   "opciones": {
+    "a": "Que hay un aparcamiento de tranvías.",
+    "b": "La proximidad de un cruce con una línea de tranvía, que tiene prioridad de paso.",
+    "c": "Que usted tiene prioridad sobre el tranvía."
+   },
+   "correcta": "b",
+   "explicacion": "La P-6 («Cruce de tranvía») advierte de la proximidad de un cruce con una línea de tranvía, que tiene prioridad de paso.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-6 (pág. 90 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-6 Cruce de tranvía Peligro por la proximidad de cruce con una línea de tranvía, que tiene prioridad de paso.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-6.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado",
+    "alt_detalle": "Señal P-6: Cruce de tranvía"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0078",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal con el dibujo de una valla?",
+   "opciones": {
+    "a": "Paso a nivel sin barreras.",
+    "b": "Obras en la vía.",
+    "c": "La proximidad de un paso a nivel provisto de barreras o semibarreras."
+   },
+   "correcta": "c",
+   "explicacion": "La P-7 («Paso a nivel con barreras») advierte de la proximidad de un paso a nivel provisto de barreras o semibarreras.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-7 (pág. 90 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-7 Paso a nivel con barreras Peligro por la proximidad de un paso a nivel provisto de barreras o semibarreras.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-7.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado",
+    "alt_detalle": "Señal P-7: Paso a nivel con barreras"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0079",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal con el dibujo de un tren visto de frente?",
+   "opciones": {
+    "a": "La proximidad de un paso a nivel no provisto de barreras o semibarreras.",
+    "b": "La proximidad de un paso a nivel con barreras.",
+    "c": "Una estación de ferrocarril próxima."
+   },
+   "correcta": "a",
+   "explicacion": "La P-8 («Paso a nivel sin barreras») advierte de la proximidad de un paso a nivel no provisto de barreras o semibarreras.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-8 (pág. 90 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-8 Paso a nivel sin barreras Peligro por la proximidad de un paso a nivel no provisto de barreras o semibarreras.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-8.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado",
+    "alt_detalle": "Señal P-8: Paso a nivel sin barreras"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0080",
+   "tema": "senales",
+   "subtema": "paso_a_nivel",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal con forma de aspa (cruz de San Andrés) de borde rojo?",
+   "opciones": {
+    "a": "Un paso a nivel con barreras.",
+    "b": "La presencia inmediata de un paso a nivel sin barreras.",
+    "c": "Prohibido el paso a todos los vehículos."
+   },
+   "correcta": "b",
+   "explicacion": "La P-11 («Situación de un paso a nivel sin barreras») advierte de la presencia inmediata de un paso a nivel sin barreras.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-11 (pág. 91 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-11 Situación de un paso a nivel sin barreras Peligro por la presencia inmediata de un paso a nivel sin barreras",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-11.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 91 del PDF consolidado",
+    "alt_detalle": "Señal P-11: Situación de un paso a nivel sin barreras"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0081",
+   "tema": "senales",
+   "subtema": "paso_a_nivel",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal formada por un aspa doble?",
+   "opciones": {
+    "a": "La presencia inmediata de un paso a nivel sin barreras con más de una vía férrea.",
+    "b": "Un paso a nivel con dos barreras.",
+    "c": "El cruce de dos líneas de tranvía con prioridad para usted."
+   },
+   "correcta": "a",
+   "explicacion": "La P-11a advierte de la presencia inmediata de un paso a nivel sin barreras con más de una vía férrea.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-11a (pág. 92 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-11a Situación de un paso a nivel sin barreras de más de una vía férrea Peligro por la presencia inmediata de un paso a nivel sin barreras con más de una vía férrea.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-11a.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 92 del PDF consolidado",
+    "alt_detalle": "Señal P-11a: Situación de un paso a nivel sin barreras de más de una vía férrea"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0082",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal con la silueta de un avión?",
+   "opciones": {
+    "a": "De una zona en la que está prohibido circular.",
+    "b": "De un puesto de control aduanero.",
+    "c": "De un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía, que pueden originar ruidos imprevistos."
+   },
+   "correcta": "c",
+   "explicacion": "La P-12 («Aeropuerto») advierte de la proximidad de un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía y que pueden originar ruidos imprevistos.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-12 (pág. 92 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-12 Aeropuerto Peligro por la proximidad de un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía y que pueden originar ruidos imprevistos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-12.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 92 del PDF consolidado",
+    "alt_detalle": "Señal P-12: Aeropuerto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0083",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué anuncia esta señal de peligro?",
+   "opciones": {
+    "a": "Un resalte en la vía.",
+    "b": "Un badén en la vía.",
+    "c": "Una subida con fuerte pendiente."
+   },
+   "correcta": "a",
+   "explicacion": "La P-15a («Resalte») advierte de la proximidad de un resalte en la vía; el badén es la P-15b y la subida con fuerte pendiente, la P-16b.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-15a (pág. 93 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-15a Resalte Peligro por la proximidad de un resalte en la vía.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-15a.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado",
+    "alt_detalle": "Señal P-15a: Resalte"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0084",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué anuncia esta señal de peligro?",
+   "opciones": {
+    "a": "Un resalte en la vía.",
+    "b": "Un escalón lateral.",
+    "c": "Un badén en la vía."
+   },
+   "correcta": "c",
+   "explicacion": "La P-15b («Badén») advierte de la proximidad de un badén en la vía; el resalte es la P-15a y el escalón lateral, la P-30.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-15b (pág. 93 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-15b Badén Peligro por la proximidad de un badén en la vía",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-15b.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado",
+    "alt_detalle": "Señal P-15b: Badén"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0085",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal?",
+   "opciones": {
+    "a": "Que la calzada se estrecha por el lado de la derecha.",
+    "b": "Que la calzada se estrecha por el lado de la izquierda.",
+    "c": "Que hay un carril adicional a la derecha."
+   },
+   "correcta": "a",
+   "explicacion": "La P-17a advierte de la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la derecha (por la izquierda es la P-17b).",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-17a (pág. 93 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-17a Estrechamiento de calzada por la derecha Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la derecha.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-17a.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado",
+    "alt_detalle": "Señal P-17a: Estrechamiento de calzada por la derecha"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0086",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal con un vehículo derrapando?",
+   "opciones": {
+    "a": "La proximidad de una zona de la calzada cuyo pavimento puede resultar deslizante.",
+    "b": "Prohibido derrapar.",
+    "c": "Presencia de hielo o nieve en la calzada, exclusivamente."
+   },
+   "correcta": "a",
+   "explicacion": "La P-19 («Pavimento deslizante») advierte de una zona de la calzada cuyo pavimento puede resultar deslizante, sin limitarse a una causa; la de hielo o nieve es la P-34.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-19 (pág. 94 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-19 Pavimento deslizante Peligro por la proximidad de una zona de la calzada cuyo pavimento puede resultar deslizante.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-19.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 94 del PDF consolidado",
+    "alt_detalle": "Señal P-19: Pavimento deslizante"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0087",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal?",
+   "opciones": {
+    "a": "De un paso para peatones regulado por semáforo.",
+    "b": "De la proximidad de un lugar frecuentado por niños, como una escuela o una zona de juegos.",
+    "c": "De una zona peatonal en la que no pueden entrar vehículos."
+   },
+   "correcta": "b",
+   "explicacion": "La P-21a («Niños») advierte de la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-21a (pág. 95 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-21a Niños Peligro por la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-21a.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+    "alt_detalle": "Señal P-21a: Niños"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0088",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal con un ciervo?",
+   "opciones": {
+    "a": "De un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad.",
+    "b": "De una cañada con prioridad para los animales.",
+    "c": "De un coto de caza en el que está prohibido parar."
+   },
+   "correcta": "a",
+   "explicacion": "La P-24 («Paso de animales en libertad») advierte de la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-24 (pág. 95 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-24 Paso de animales en libertad Peligro por la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-24.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+    "alt_detalle": "Señal P-24: Paso de animales en libertad"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0089",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal con dos flechas de sentidos opuestos?",
+   "opciones": {
+    "a": "Calzada de sentido único.",
+    "b": "La proximidad de un tramo con circulación en ambos sentidos.",
+    "c": "Carril reversible."
+   },
+   "correcta": "b",
+   "explicacion": "La P-25 («Circulación en los dos sentidos») advierte de la proximidad de un tramo con circulación en ambos sentidos.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-25 (pág. 96 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-25 Circulación en los dos sentidos Peligro por la proximidad de un tramo con circulación en ambos sentidos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-25.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+    "alt_detalle": "Señal P-25: Circulación en los dos sentidos"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0090",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal?",
+   "opciones": {
+    "a": "De una zona con desprendimientos frecuentes y la consiguiente posible presencia de obstáculos en la calzada.",
+    "b": "De que está prohibido detenerse por riesgo de caída de rocas, sin que haya obstáculos en la calzada.",
+    "c": "De una cantera próxima."
+   },
+   "correcta": "a",
+   "explicacion": "La P-26 («Desprendimiento») advierte de la proximidad a una zona con desprendimientos frecuentes y la consiguiente posible presencia de obstáculos en la calzada.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-26 (pág. 96 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-26 Desprendimiento Peligro por la proximidad a una zona con desprendimientos frecuentes y la consiguiente posible presencia de obstáculos en la calzada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-26.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+    "alt_detalle": "Señal P-26: Desprendimiento"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0091",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal con un vehículo cayendo al agua?",
+   "opciones": {
+    "a": "De un puente móvil.",
+    "b": "De una zona inundable en caso de lluvia.",
+    "c": "De que la vía desemboca en un muelle o en una corriente de agua."
+   },
+   "correcta": "c",
+   "explicacion": "La P-27 («Muelle») advierte de que la vía desemboca en un muelle o en una corriente de agua; el puente móvil es la P-5.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-27 (pág. 96 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-27 Muelle Peligro debido a que la vía desemboca en un muelle o en una corriente de agua.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-27.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+    "alt_detalle": "Señal P-27: Muelle"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0092",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal?",
+   "opciones": {
+    "a": "Del riesgo de que se proyecte gravilla al pasar los vehículos.",
+    "b": "De desprendimientos de rocas.",
+    "c": "De un firme sin pavimentar en el que se prohíbe circular."
+   },
+   "correcta": "a",
+   "explicacion": "La P-28 («Proyección de gravilla») advierte de un tramo de vía donde existe el riesgo de que se proyecte gravilla al pasar los vehículos; los desprendimientos son la P-26.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-28 (pág. 96 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-28 Proyección de gravilla Peligro por la proximidad de un tramo de vía donde existe el riesgo de que se proyecte gravilla al pasar los vehículos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-28.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+    "alt_detalle": "Señal P-28: Proyección de gravilla"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0093",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué elemento complementa la advertencia de la señal P-29 (viento lateral), informando sobre la existencia, sentido e intensidad del viento?",
+   "opciones": {
+    "a": "Un panel de mensaje variable.",
+    "b": "Una baliza luminosa ámbar.",
+    "c": "Una manga de viento."
+   },
+   "correcta": "c",
+   "explicacion": "La manga de viento complementa la señal P-29 informando de la existencia, sentido e intensidad de un viento continuo o racheado.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.3.1.3.1º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "complementa la advertencia de peligro indicada por la señal P-29, informando al conductor sobre la existencia, sentido e intensidad de un viento continuo o racheado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-29.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+    "alt_detalle": "Señal P-29: Viento transversal"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0094",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal?",
+   "opciones": {
+    "a": "De un desnivel a lo largo de la vía en el lado que indique el símbolo (escalón lateral).",
+    "b": "De un resalte transversal en la calzada.",
+    "c": "De una subida con fuerte pendiente."
+   },
+   "correcta": "a",
+   "explicacion": "La P-30 («Escalón lateral») advierte de la existencia de un desnivel a lo largo de la vía en el lado que indique el símbolo; el resalte es la P-15a.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-30 (pág. 96 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-30 Escalón lateral Peligro por la existencia de un desnivel a lo largo de la vía en el lado que indique el símbolo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-30.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+    "alt_detalle": "Señal P-30: Escalón lateral"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0095",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal?",
+   "opciones": {
+    "a": "De una zona de aparcamiento.",
+    "b": "De un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico.",
+    "c": "De un tramo con prohibición de adelantar."
+   },
+   "correcta": "b",
+   "explicacion": "La P-31 («Congestión») advierte de un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-31 (pág. 96 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-31 Congestión Peligro por la proximidad de un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-31.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+    "alt_detalle": "Señal P-31: Congestión"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0096",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal?",
+   "opciones": {
+    "a": "De un control policial.",
+    "b": "De un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas.",
+    "c": "De un tramo con circulación prohibida."
+   },
+   "correcta": "b",
+   "explicacion": "La P-32 («Obstrucción en la calzada») advierte de la proximidad de un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-32 (pág. 97 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-32 Obstrucción en la calzada Peligro por la proximidad de un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-32.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado",
+    "alt_detalle": "Señal P-32: Obstrucción en la calzada"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0097",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal?",
+   "opciones": {
+    "a": "De un tramo en el que frecuentemente hay una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc.",
+    "b": "De la proximidad de un túnel.",
+    "c": "De que es obligatorio encender las luces de largo alcance."
+   },
+   "correcta": "a",
+   "explicacion": "La P-33 («Visibilidad reducida») advierte de un tramo en el que frecuentemente la circulación se ve dificultada por una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-33 (pág. 97 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-33 Visibilidad reducida Peligro por la proximidad de un tramo en el que frecuentemente la circulación se ve dificultada por una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-33.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado",
+    "alt_detalle": "Señal P-33: Visibilidad reducida"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0098",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿De qué advierte esta señal con un copo de nieve?",
+   "opciones": {
+    "a": "De la obligación de usar cadenas.",
+    "b": "De una estación de esquí.",
+    "c": "De un tramo en el que frecuentemente, durante la época invernal, hay presencia de hielo o nieve."
+   },
+   "correcta": "c",
+   "explicacion": "La P-34 («Presencia de hielo o nieve») advierte de un tramo en el que frecuentemente, durante la época invernal, hay hielo o nieve; la obligación de cadenas es una señal de obligación distinta (R-412).",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-34 (pág. 97 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-34 Presencia de hielo o nieve Peligro por la proximidad de un tramo en el que frecuentemente, durante la época invernal, hay presencia de hielo o nieve y los consiguientes peligros asociados.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-34.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado",
+    "alt_detalle": "Señal P-34: Presencia de hielo o nieve"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0099",
+   "tema": "senales",
+   "subtema": "senales_peligro",
+   "materia": 1,
+   "enunciado": "¿Qué significa esta señal con un signo de admiración?",
+   "opciones": {
+    "a": "Prohibido el paso.",
+    "b": "La proximidad de un peligro distinto de los advertidos por otras señales.",
+    "c": "Zona de accidentes frecuentes con velocidad limitada."
+   },
+   "correcta": "b",
+   "explicacion": "La P-50 («Otros peligros») indica la proximidad de un peligro distinto de los advertidos por otras señales.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, P-50 (pág. 97 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "P-50 Otros peligros Indica la proximidad de un peligro distinto de los advertidos por otras señales.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/P-50.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado",
+    "alt_detalle": "Señal P-50: Otros peligros"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0100",
+   "tema": "senales",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal (rombo blanco con el centro amarillo cruzado por una franja negra)?",
+   "opciones": {
+    "a": "Calzada con prioridad.",
+    "b": "La proximidad del lugar en que la calzada por la que circula pierde su prioridad respecto a otra calzada.",
+    "c": "Prohibido el paso de vehículos sin prioridad."
+   },
+   "correcta": "b",
+   "explicacion": "La R-4 («Fin de prioridad») indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada; la de calzada con prioridad es la R-3.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-4 (pág. 99 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-4 Fin de prioridad Indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-4.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-4: Fin de prioridad"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0101",
+   "tema": "senales",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Ante un paso estrecho encuentra esta señal (flecha roja y flecha negra). ¿Qué indica?",
+   "opciones": {
+    "a": "Que tiene prioridad sobre los vehículos que vienen de frente.",
+    "b": "Que el paso es de sentido único.",
+    "c": "Que no puede entrar en el paso estrecho mientras no sea posible atravesarlo sin obligar a detenerse a los que vienen en sentido contrario."
+   },
+   "correcta": "c",
+   "explicacion": "La R-5 («Prioridad del sentido contrario») prohíbe entrar en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-5 (pág. 99 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-5 Prioridad del sentido contrario Prohibición de entrada en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-5.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+    "alt_detalle": "Señal R-5: Prioridad del sentido contrario"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0102",
+   "tema": "senales",
+   "subtema": "senales_prioridad",
+   "materia": 1,
+   "enunciado": "Ante un paso estrecho encuentra esta señal cuadrada azul. ¿Qué indica?",
+   "opciones": {
+    "a": "Que debe ceder el paso a los que vienen de frente.",
+    "b": "Que es obligatorio detenerse antes del paso.",
+    "c": "Que en el próximo paso estrecho tiene prioridad con relación a los vehículos que circulen en sentido contrario."
+   },
+   "correcta": "c",
+   "explicacion": "La R-6 («Prioridad respecto al sentido contrario») indica que, en un próximo paso estrecho, usted tiene prioridad con relación a los vehículos que circulen en sentido contrario.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-6 (pág. 100 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-6 Prioridad respecto al sentido contrario Indica a los conductores que, en un próximo paso estrecho, tienen prioridad con relación a los vehículos que circulen en sentido contrario.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-6.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 100 del PDF consolidado",
+    "alt_detalle": "Señal R-6: Prioridad respecto al sentido contrario"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0103",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal (círculo blanco con orla roja, sin símbolo)?",
+   "opciones": {
+    "a": "Entrada prohibida solo a vehículos de motor.",
+    "b": "Fin de todas las prohibiciones.",
+    "c": "Prohibición de circulación de toda clase de vehículos en ambos sentidos."
+   },
+   "correcta": "c",
+   "explicacion": "La R-100 («Circulación prohibida») prohíbe la circulación de toda clase de vehículos en ambos sentidos.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-100 (pág. 102 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-100 Circulación prohibida Prohibición de circulación de toda clase de vehículos en ambos sentidos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-100.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+    "alt_detalle": "Señal R-100: Circulación prohibida"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0104",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal (círculo rojo con una franja horizontal blanca)?",
+   "opciones": {
+    "a": "Prohibición de circulación de toda clase de vehículos en ambos sentidos.",
+    "b": "Prohibición de acceso a toda clase de vehículos.",
+    "c": "Prohibición de acceso solo a vehículos de motor."
+   },
+   "correcta": "b",
+   "explicacion": "La R-101 («Entrada prohibida») prohíbe el acceso a toda clase de vehículos. La prohibición de circular en ambos sentidos es la R-100 y la de acceso a vehículos de motor, la R-102.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-101 (pág. 102 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-101 Entrada prohibida Prohibición de acceso a toda clase de vehículos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-101.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+    "alt_detalle": "Señal R-101: Entrada prohibida"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0105",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿A quién prohíbe el acceso esta señal?",
+   "opciones": {
+    "a": "Solo a los turismos y a las motocicletas.",
+    "b": "A los vehículos de motor.",
+    "c": "A toda clase de vehículos."
+   },
+   "correcta": "b",
+   "explicacion": "La R-102 («Entrada prohibida a vehículos de motor») prohíbe el acceso a vehículos de motor, no solo a los turismos y motocicletas del dibujo. La prohibición de acceso a toda clase de vehículos es la R-101.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-102 (pág. 102 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-102 Entrada prohibida a vehículos de motor Prohibición de acceso a vehículos de motor.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-102.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+    "alt_detalle": "Señal R-102: Entrada prohibida a vehículos de motor"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0106",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿Puede entrar con una motocicleta de dos ruedas ante esta señal?",
+   "opciones": {
+    "a": "Sí: prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas.",
+    "b": "No, prohíbe la entrada a todos los vehículos de motor.",
+    "c": "No, prohíbe solo la entrada de motocicletas."
+   },
+   "correcta": "a",
+   "explicacion": "La R-103 prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas. La prohibición de acceso a motocicletas es la R-104.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-103 (pág. 102 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-103 Entrada prohibida a vehículos de motor, excepto motocicletas de dos ruedas Prohibición de acceso a vehículos de motor. No prohíbe el acceso a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-103.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+    "alt_detalle": "Señal R-103: Entrada prohibida a vehículos de motor, excepto motocicletas de dos ruedas"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0107",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿A quién prohíbe la entrada esta señal?",
+   "opciones": {
+    "a": "A las motocicletas.",
+    "b": "A los ciclos.",
+    "c": "A los ciclomotores y a los vehículos para personas de movilidad reducida."
+   },
+   "correcta": "c",
+   "explicacion": "La R-105 («Entrada prohibida a ciclomotores») prohíbe el acceso a ciclomotores e igualmente a vehículos para personas de movilidad reducida.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-105 (pág. 102 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-105 Entrada prohibida a ciclomotores Prohibición de acceso a ciclomotores. Igualmente prohíbe la entrada a vehículos para personas de movilidad reducida.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-105.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+    "alt_detalle": "Señal R-105: Entrada prohibida a ciclomotores"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0108",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿A quién prohíbe la entrada esta señal con la silueta de un camión, sin ninguna cifra?",
+   "opciones": {
+    "a": "A los vehículos destinados al transporte de mercancías (camiones, tractocamiones y furgones o furgonetas), independientemente de su masa.",
+    "b": "Solo a los camiones de más de 3.500 kg.",
+    "c": "A todos los vehículos de motor."
+   },
+   "correcta": "a",
+   "explicacion": "La R-106 prohíbe el acceso a vehículos destinados al transporte de mercancías, entendiéndose como tales camiones, tractocamiones y furgones o furgonetas, independientemente de su masa.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-106 (pág. 103 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "Prohibición de acceso a vehículos destinados al transporte de mercancías, entendiéndose como tales camiones, tractocamiones y furgones o furgonetas, independientemente de su masa.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-106.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 103 del PDF consolidado",
+    "alt_detalle": "Señal R-106: Entrada prohibida a vehículos destinados al transporte de mercancías"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0109",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "Conduce un camión cuya masa máxima autorizada es 7,5 t; va vacío y pesa 4,5 t. Encuentra esta señal (camión con la cifra 5,5 t). ¿Puede entrar?",
+   "opciones": {
+    "a": "Sí, porque en ese momento pesa menos de 5,5 t.",
+    "b": "No, porque su masa máxima autorizada es superior a 5,5 t, aunque vaya vacío.",
+    "c": "Sí, porque la señal solo afecta a vehículos cargados."
+   },
+   "correcta": "b",
+   "explicacion": "La R-107 prohíbe el acceso a los vehículos destinados al transporte de mercancías cuya masa máxima autorizada sea superior a la indicada en la señal, aunque circulen vacíos.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-107 (pág. 103 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "si su masa máxima autorizada es superior a la indicada en la señal, entendiéndose como tales los camiones, tractocamiones y furgones o furgonetas con mayor masa autorizada que la indicada en la señal. Prohíbe el acceso aunque circulen vacíos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-107.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 103 del PDF consolidado",
+    "alt_detalle": "Señal R-107: Entrada prohibida a vehículos destinados al transporte de mercancías con mayor masa autorizada que la indicada"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0110",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿A quién prohíbe la entrada esta señal?",
+   "opciones": {
+    "a": "A los vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica.",
+    "b": "A todos los vehículos con motor de combustión.",
+    "c": "A los vehículos que transporten productos que pueden contaminar el agua."
+   },
+   "correcta": "a",
+   "explicacion": "La R-109 prohíbe el acceso a toda clase de vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica. La de productos contaminantes del agua es la R-110.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-109 (pág. 103 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-109 Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables Prohibición de acceso a toda clase de vehículos que transporten mercancías explosivas o fácilmente inflamables",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-109.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 103 del PDF consolidado",
+    "alt_detalle": "Señal R-109: Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0111",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿A quién prohíbe la entrada esta señal?",
+   "opciones": {
+    "a": "A cualquier vehículo que transporte líquidos.",
+    "b": "A los vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua.",
+    "c": "A los vehículos cisterna de más de 3.500 kg."
+   },
+   "correcta": "b",
+   "explicacion": "La R-110 prohíbe el acceso a toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-110 (pág. 104 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-110 Entrada prohibida a vehículos que transporten productos contaminantes del agua Prohibición de acceso a toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-110.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado",
+    "alt_detalle": "Señal R-110: Entrada prohibida a vehículos que transporten productos contaminantes del agua"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0112",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿A quién prohíbe la entrada esta señal con la silueta de un tractor?",
+   "opciones": {
+    "a": "Solo a los tractores de más de 3.500 kg.",
+    "b": "A los vehículos especiales de obras.",
+    "c": "A los tractores y otras máquinas agrícolas autopropulsadas."
+   },
+   "correcta": "c",
+   "explicacion": "La R-111 («Entrada prohibida a vehículos agrícolas de motor») prohíbe el acceso a tractores y otras máquinas agrícolas autopropulsadas.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-111 (pág. 104 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-111 Entrada prohibida a vehículos agrícolas de motor Prohibición de acceso a tractores y otras máquinas agrícolas autopropulsadas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-111.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado",
+    "alt_detalle": "Señal R-111: Entrada prohibida a vehículos agrícolas de motor"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0113",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "Conduce un turismo que arrastra un remolque de un solo eje y encuentra esta señal. ¿Puede entrar?",
+   "opciones": {
+    "a": "No, la señal prohíbe la entrada a todos los vehículos con remolque.",
+    "b": "Sí, porque la señal exceptúa los remolques de un solo eje.",
+    "c": "Solo si el remolque no supera 750 kg."
+   },
+   "correcta": "b",
+   "explicacion": "La R-112 prohíbe el acceso a vehículos de motor con remolque, exceptuando los de un solo eje. Si lleva una cifra de tonelaje, la prohibición solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-112 (pág. 104 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-112 Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje Prohibición de acceso a vehículos de motor con remolque exceptuando los de un solo eje.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-112.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado",
+    "alt_detalle": "Señal R-112: Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0114",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿A quién prohíbe la entrada esta señal?",
+   "opciones": {
+    "a": "A los carros de mano.",
+    "b": "A los vehículos de tracción animal.",
+    "c": "A los carritos de la compra en zonas peatonales, exclusivamente."
+   },
+   "correcta": "a",
+   "explicacion": "La R-115 («Entrada prohibida a carros de mano») prohíbe el acceso a carros de mano; la de vehículos de tracción animal es la R-113.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-115 (pág. 104 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-115 Entrada prohibida a carros de mano Prohibición de acceso a carros de mano.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-115.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado",
+    "alt_detalle": "Señal R-115: Entrada prohibida a carros de mano"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0115",
+   "tema": "senales",
+   "subtema": "prohibicion_entrada",
+   "materia": 1,
+   "enunciado": "¿A quién prohíbe la entrada esta señal con un jinete?",
+   "opciones": {
+    "a": "A los vehículos de tracción animal.",
+    "b": "Al ganado suelto.",
+    "c": "A los animales de montura."
+   },
+   "correcta": "c",
+   "explicacion": "La R-117 («Entrada prohibida a animales de montura») prohíbe el acceso a animales de montura; la de vehículos de tracción animal es la R-113.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-117 (pág. 105 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-117 Entrada prohibida a animales de montura Prohibición de acceso a animales de montura.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-117.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 105 del PDF consolidado",
+    "alt_detalle": "Señal R-117: Entrada prohibida a animales de montura"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0116",
+   "tema": "senales",
+   "subtema": "restriccion_paso",
+   "materia": 1,
+   "enunciado": "¿Qué prohíbe esta señal con la cifra 2,4 t sobre un eje?",
+   "opciones": {
+    "a": "El paso de los vehículos cuya masa por eje supere 2,4 toneladas.",
+    "b": "El paso de los vehículos de más de 2,4 toneladas de masa total.",
+    "c": "El paso de los vehículos de más de dos ejes."
+   },
+   "correcta": "a",
+   "explicacion": "La R-202 («Limitación de masa por eje») prohíbe el paso a los vehículos cuya masa por eje, transmitida por la totalidad de las ruedas acopladas a algún eje, supere la indicada; la de masa total es la R-201.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-202 (pág. 107 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-202 Limitación de masa por eje Prohibición de paso a los vehículos cuya masa por eje transmitida por la totalidad de las ruedas acopladas a algún eje supere a la indicada en la señal.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-202.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado",
+    "alt_detalle": "Señal R-202: Limitación de masa por eje"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0117",
+   "tema": "senales",
+   "subtema": "restriccion_paso",
+   "materia": 1,
+   "enunciado": "Conduce un turismo con remolque y el conjunto mide 11 metros de largo. Encuentra esta señal con la cifra 10 m. ¿Puede pasar?",
+   "opciones": {
+    "a": "Sí, porque la señal solo afecta a los camiones.",
+    "b": "Sí, porque el turismo por sí solo mide menos de 10 m.",
+    "c": "No, porque prohíbe el paso a los vehículos o conjuntos de vehículos de longitud superior a la indicada."
+   },
+   "correcta": "c",
+   "explicacion": "La R-203 prohíbe el paso a los vehículos o conjunto de vehículos cuya longitud máxima, incluida la carga, supere la indicada.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-203 (pág. 107 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-203 Limitación de longitud Prohibición de paso a los vehículos o conjunto de vehículos cuya longitud máxima, incluida la carga, supere la indicada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-203.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado",
+    "alt_detalle": "Señal R-203: Limitación de longitud"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0118",
+   "tema": "senales",
+   "subtema": "restriccion_paso",
+   "materia": 1,
+   "enunciado": "¿Qué prohíbe esta señal con la cifra 4,5 m entre dos puntas de flecha verticales?",
+   "opciones": {
+    "a": "El paso de los vehículos cuya anchura máxima supere 4,5 m.",
+    "b": "El paso de los vehículos cuya altura máxima, incluida la carga, supere 4,5 m.",
+    "c": "Circular a menos de 4,5 m del vehículo de delante."
+   },
+   "correcta": "b",
+   "explicacion": "La R-205 («Limitación de altura») prohíbe el paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada; la de anchura es la R-204.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-205 (pág. 107 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-205 Limitación de altura Prohibición de paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-205.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado",
+    "alt_detalle": "Señal R-205: Limitación de altura"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0119",
+   "tema": "senales",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal con dos vehículos y la cifra 70 m?",
+   "opciones": {
+    "a": "Velocidad máxima de 70 km/h.",
+    "b": "Prohibición de circular a menos de 70 m del vehículo precedente, excepto cuando se vaya a adelantar.",
+    "c": "Prohibido adelantar en los próximos 70 metros."
+   },
+   "correcta": "b",
+   "explicacion": "La R-300 («Separación mínima») prohíbe circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada, excepto cuando se vaya a efectuar la maniobra de adelantamiento.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-300 (pág. 109 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-300 Separación mínima Prohibición de circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada en la señal, excepto cuando se vaya a efectuar la maniobra de adelantamiento.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-300.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 109 del PDF consolidado",
+    "alt_detalle": "Señal R-300: Separación mínima"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0120",
+   "tema": "senales",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "Circula por una vía con prioridad y encuentra esta señal, sola en su poste (sin ninguna señal de peligro). ¿Hasta dónde obliga?",
+   "opciones": {
+    "a": "Hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima.",
+    "b": "Durante los 500 metros siguientes.",
+    "c": "Hasta la siguiente intersección."
+   },
+   "correcta": "a",
+   "explicacion": "La R-301 obliga desde el lugar en que esté situada hasta la próxima señal «Fin de limitación de velocidad», de «Fin de prohibiciones» u otra de «Velocidad máxima». Las excepciones de la ficha (señal en el mismo poste o panel que una de peligro, o situada en una vía sin prioridad) quedan fuera por el enunciado.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-301 (pág. 109 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "Obliga desde el lugar en que esté situada hasta la próxima señal «Fin de limitación de velocidad», de «Fin de prohibiciones» u otra de «Velocidad máxima», salvo que esté colocada en el mismo poste que una señal de advertencia de peligro",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-301.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 109 del PDF consolidado",
+    "alt_detalle": "Señal R-301: Velocidad máxima"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0121",
+   "tema": "senales",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "Esta señal prohíbe girar a la izquierda. ¿Puede cambiar de sentido de la marcha?",
+   "opciones": {
+    "a": "Sí, porque solo prohíbe el giro.",
+    "b": "Sí, si no viene nadie de frente.",
+    "c": "No, porque la señal incluye también la prohibición del cambio de sentido de marcha."
+   },
+   "correcta": "c",
+   "explicacion": "La R-303 («Giro a la izquierda prohibido») prohíbe girar a la izquierda e incluye también la prohibición del cambio de sentido de marcha.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-303 (pág. 109 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-303 Giro a la izquierda prohibido Prohibición de girar a la izquierda. Incluye, también, la prohibición del cambio de sentido de marcha.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-303.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 109 del PDF consolidado",
+    "alt_detalle": "Señal R-303: Giro a la izquierda prohibido"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0122",
+   "tema": "senales",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "¿Qué prohíbe esta señal (flecha en U tachada)?",
+   "opciones": {
+    "a": "Girar a la izquierda y cambiar de sentido.",
+    "b": "Efectuar la maniobra de cambio de sentido de la marcha.",
+    "c": "Dar marcha atrás."
+   },
+   "correcta": "b",
+   "explicacion": "La R-304 («Cambio de sentido prohibido») prohíbe efectuar la maniobra de cambio de sentido de la marcha; la que prohíbe girar a la izquierda (y con ello cambiar de sentido) es la R-303.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-304 (pág. 109 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-304 Cambio de sentido prohibido Prohibición de efectuar la maniobra de cambio de sentido de la marcha.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-304.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 109 del PDF consolidado",
+    "alt_detalle": "Señal R-304: Cambio de sentido prohibido"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0123",
+   "tema": "senales",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "¿Qué prohíbe esta señal?",
+   "opciones": {
+    "a": "Adelantar a cualquier usuario, incluidos peatones y animales, en todo caso.",
+    "b": "Solo que los camiones adelanten a otros vehículos.",
+    "c": "Adelantar a los vehículos a motor cuando la maniobra implique invadir la zona reservada al sentido contrario de circulación."
+   },
+   "correcta": "c",
+   "explicacion": "La R-305 («Adelantamiento prohibido») prohíbe a todos los vehículos adelantar a los vehículos a motor que circulen por la calzada cuando la maniobra implique invadir la zona reservada al sentido contrario; rige hasta la señal de «Fin de prohibición de adelantamiento» o «Fin de prohibiciones». La de camiones es la R-306.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-305 (pág. 110 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "indica la prohibición a todos los vehículos de adelantar a los vehículos a motor que circulen por la calzada cuando dicha maniobra implique invadir la zona reservada al sentido contrario de circulación.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-305.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 110 del PDF consolidado",
+    "alt_detalle": "Señal R-305: Adelantamiento prohibido"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0124",
+   "tema": "senales",
+   "subtema": "prohibiciones",
+   "materia": 1,
+   "enunciado": "Conduce un autobús y encuentra esta señal (camión rojo y turismo negro). ¿Le afecta la prohibición de esta señal?",
+   "opciones": {
+    "a": "Sí, porque prohíbe adelantar a todos los vehículos pesados.",
+    "b": "Sí, porque prohíbe adelantar a los camiones.",
+    "c": "No, porque se dirige a los camiones cuya masa máxima autorizada exceda de 3.500 kg."
+   },
+   "correcta": "c",
+   "explicacion": "La R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg (incluso sin invadir el sentido contrario); no se dirige a los autobuses, que siguen sujetos a las normas generales de adelantamiento.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-306 (pág. 110 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kilogramos de adelantar a los vehículos a motor que circulen por la calzada, incluso cuando dicha maniobra no implique invadir la zona reservada al sentido contrario",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-306.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 110 del PDF consolidado",
+    "alt_detalle": "Señal R-306: Adelantamiento prohibido para camiones"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0125",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "Encuentra esta señal (círculo azul con flecha blanca hacia delante) a la entrada de una intersección. ¿Puede girar a la derecha en ella?",
+   "opciones": {
+    "a": "Sí, porque es una señal de obligación, no de prohibición.",
+    "b": "No, porque la flecha señala la dirección y sentido que está obligado a seguir: recto.",
+    "c": "Sí, si señaliza con antelación."
+   },
+   "correcta": "b",
+   "explicacion": "En la R-400c («Sentido obligatorio») la flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir: hacia delante.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-400c (pág. 115 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-400c Sentido obligatorio La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-400c.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 115 del PDF consolidado",
+    "alt_detalle": "Señal R-400c: Sentido obligatorio"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0126",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal (círculo azul con flechas blancas hacia delante y hacia la derecha)?",
+   "opciones": {
+    "a": "Que las únicas direcciones y sentidos permitidos son seguir recto o girar a la derecha.",
+    "b": "Recomendación de girar a la derecha.",
+    "c": "Que puede elegir cualquier dirección, incluido el cambio de sentido."
+   },
+   "correcta": "a",
+   "explicacion": "En la R-403a («Únicas direcciones y sentidos permitidos») las flechas señalan las únicas direcciones y sentidos que los vehículos pueden tomar: recto o a la derecha.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-403a (pág. 116 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-403a Únicas direcciones y sentidos permitidos Las flechas señalan las únicas direcciones y sentidos que los vehículos pueden tomar.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-403a.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 116 del PDF consolidado",
+    "alt_detalle": "Señal R-403a: Únicas direcciones y sentidos permitidos"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0127",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "Esta señal azul con la silueta de un turismo indica una calzada obligatoria para automóviles. ¿Están obligadas a circular por ella las motocicletas de dos ruedas?",
+   "opciones": {
+    "a": "Sí, porque son automóviles.",
+    "b": "No, la obligación exceptúa a las motocicletas de dos ruedas y a los vehículos de tres ruedas asimilados a motocicletas.",
+    "c": "Solo las de más de 125 cm³."
+   },
+   "correcta": "b",
+   "explicacion": "La R-404 obliga a los conductores de automóviles a circular por la calzada a cuya entrada está situada, excepto a las motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-404 (pág. 116 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "Obligación para los conductores de automóviles, excepto motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas, de circular por la calzada a cuya entrada esté situada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-404.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 116 del PDF consolidado",
+    "alt_detalle": "Señal R-404: Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0128",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "Circula en una motocicleta de dos ruedas y encuentra esta señal azul con una motocicleta. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Puede elegir si circula o no por esa calzada.",
+    "b": "No entrar, porque está reservada a otros vehículos.",
+    "c": "Circular por esa calzada, porque es obligatoria para las motocicletas de dos ruedas."
+   },
+   "correcta": "c",
+   "explicacion": "La R-405 obliga a los conductores de motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas a circular por la calzada a cuya entrada está situada.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-405 (pág. 117 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-405 Calzada obligatoria para motocicletas de dos ruedas Obligación para los conductores de motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas de circular por la calzada a cuya entrada esté situada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-405.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+    "alt_detalle": "Señal R-405: Calzada obligatoria para motocicletas de dos ruedas"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0129",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Puede circular un turismo por una vía señalizada con esta señal azul con una bicicleta?",
+   "opciones": {
+    "a": "Sí, si circula despacio.",
+    "b": "Sí, porque solo obliga a los ciclos sin excluir a los demás.",
+    "c": "No, porque es una vía reservada a los ciclos y prohibida a los demás usuarios."
+   },
+   "correcta": "c",
+   "explicacion": "La R-407a («Vía reservada y obligatoria para ciclos») obliga a los conductores de ciclos a circular por esa vía y prohíbe a los demás usuarios utilizarla.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-407a (pág. 117 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-407a Vía reservada y obligatoria para ciclos Obligación para los conductores de ciclos de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-407a.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+    "alt_detalle": "Señal R-407a: Vía reservada y obligatoria para ciclos"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0130",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal azul con un ciclomotor?",
+   "opciones": {
+    "a": "Vía reservada y obligatoria para ciclomotores; los demás usuarios no pueden utilizarla.",
+    "b": "Vía obligatoria para ciclomotores, por la que también pueden circular otros vehículos.",
+    "c": "Prohibida la entrada a ciclomotores."
+   },
+   "correcta": "a",
+   "explicacion": "La R-407b obliga a los conductores de ciclomotores a circular por esa vía y prohíbe a los demás usuarios utilizarla.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-407b (pág. 117 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-407b Vía reservada y obligatoria para ciclomotores Obligación para los conductores de ciclomotores de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-407b.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+    "alt_detalle": "Señal R-407b: Vía reservada y obligatoria para ciclomotores"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0131",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal azul con un carro tirado por un caballo?",
+   "opciones": {
+    "a": "Prohibida la entrada a vehículos de tracción animal.",
+    "b": "Obligación para los conductores de vehículos de tracción animal de utilizar el camino a cuya entrada está situada.",
+    "c": "Camino reservado a jinetes con animales de montura."
+   },
+   "correcta": "b",
+   "explicacion": "La R-408 («Camino obligatorio para vehículos de tracción animal») obliga a los conductores de vehículos de tracción animal a utilizar ese camino. La prohibición de entrada a estos vehículos es la R-113 (círculo blanco con orla roja) y el camino para animales de montura, la R-409.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-408 (pág. 117 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-408 Camino obligatorio para vehículos de tracción animal Obligación para los conductores de vehículos de tracción animal de utilizar el camino a cuya entrada esté situada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-408.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+    "alt_detalle": "Señal R-408: Camino obligatorio para vehículos de tracción animal"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0132",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal azul con una persona a caballo?",
+   "opciones": {
+    "a": "Camino reservado y obligatorio para animales de montura; los demás usuarios no pueden utilizarlo.",
+    "b": "Prohibida la entrada a animales de montura.",
+    "c": "Peligro por animales sueltos."
+   },
+   "correcta": "a",
+   "explicacion": "La R-409 obliga a los jinetes a utilizar con sus animales de montura ese camino y prohíbe a los demás usuarios de la vía utilizarlo. La prohibición de entrada a animales de montura es la R-117.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-409 (pág. 118 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-409 Camino reservado y obligatorio para animales de montura Obligación para los jinetes de utilizar con sus animales de montura el camino a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarlo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-409.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado",
+    "alt_detalle": "Señal R-409: Camino reservado y obligatorio para animales de montura"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0133",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 8,
+   "enunciado": "¿Qué indica esta señal azul con un peatón?",
+   "opciones": {
+    "a": "Paso para peatones.",
+    "b": "Camino reservado y obligatorio para peatones; los demás usuarios no pueden utilizarlo.",
+    "c": "Zona de prioridad para peatones abierta a todos los vehículos."
+   },
+   "correcta": "b",
+   "explicacion": "La R-410 obliga a los peatones a transitar por ese camino y prohíbe a los demás usuarios de la vía utilizarlo.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-410 (pág. 118 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-410 Camino reservado y obligatorio para peatones Obligación para los peatones de transitar por el camino a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarlo.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-410.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado",
+    "alt_detalle": "Señal R-410: Camino reservado y obligatorio para peatones"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0134",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal azul con la cifra 40?",
+   "opciones": {
+    "a": "Velocidad máxima de 40 km/h.",
+    "b": "Velocidad recomendada de 40 km/h.",
+    "c": "Velocidad mínima: obligación de circular, por lo menos, a 40 km/h."
+   },
+   "correcta": "c",
+   "explicacion": "La R-411 («Velocidad mínima») obliga a circular, por lo menos, a la velocidad indicada en kilómetros por hora.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-411 (pág. 118 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-411 Velocidad mínima Obligación para los conductores de vehículos de circular, por lo menos, a la velocidad indicada por la cifra, en kilómetros por hora, que figure en la señal",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-411.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado",
+    "alt_detalle": "Señal R-411: Velocidad mínima"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0135",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal azul con un faro?",
+   "opciones": {
+    "a": "Obligación de circular con el alumbrado al menos de corto alcance, con independencia de la visibilidad, hasta una señal de fin de esta obligación.",
+    "b": "Obligación de encender las luces de largo alcance.",
+    "c": "Recomendación de encender las luces solo en caso de niebla."
+   },
+   "correcta": "a",
+   "explicacion": "La R-413 («Alumbrado de corto alcance») obliga a circular con el alumbrado al menos de corto alcance, con independencia de las condiciones de visibilidad e iluminación, desde la señal hasta otra de fin de esta obligación.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-413 (pág. 119 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "Obligación para los conductores de circular con el alumbrado al menos de corto alcance, con independencia de las condiciones de visibilidad e iluminación de la vía, desde el lugar en que esté situada la señal hasta otra de fin de esta obligación.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-413.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 119 del PDF consolidado",
+    "alt_detalle": "Señal R-413: Alumbrado de corto alcance"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0136",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal azul con un neumático con cadenas?",
+   "opciones": {
+    "a": "Peligro por nieve.",
+    "b": "Obligación de no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados, o neumáticos especiales de nieve.",
+    "c": "Prohibido circular con cadenas."
+   },
+   "correcta": "b",
+   "explicacion": "La R-412 («Cadenas para nieve») obliga a no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados que actúen al menos en una rueda a cada lado del mismo eje motor, o neumáticos especiales de nieve.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-412 (pág. 118 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-412 Cadenas para nieve Obligación de no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados que actúen al menos en una rueda a cada lado del mismo eje motor, o neumáticos especiales de nieve.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-412.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado",
+    "alt_detalle": "Señal R-412: Cadenas para nieve"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0137",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "Transporta 5.000 litros de un producto capaz de contaminar el agua y encuentra esta señal azul. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Circular por esa calzada, porque es obligatoria para su vehículo.",
+    "b": "No entrar en esa calzada.",
+    "c": "Puede elegir, porque la señal es una recomendación."
+   },
+   "correcta": "a",
+   "explicacion": "La R-415 obliga a los conductores de toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua a circular por la calzada a cuya entrada está situada.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-415 (pág. 119 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-415 Calzada obligatoria para vehículos que transporten productos contaminantes del agua Obligación para los conductores de toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-415.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 119 del PDF consolidado",
+    "alt_detalle": "Señal R-415: Calzada obligatoria para vehículos que transporten productos contaminantes del agua"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0138",
+   "tema": "senales",
+   "subtema": "obligacion",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal sobre uno de los carriles de un peaje?",
+   "opciones": {
+    "a": "Vía exclusiva para vehículos dotados de equipo de telepeaje operativo: telepeaje obligatorio.",
+    "b": "Carril para pago en efectivo.",
+    "c": "Carril reservado a vehículos pesados."
+   },
+   "correcta": "a",
+   "explicacion": "La R-418 indica una vía exclusiva para vehículos dotados de equipo de telepeaje operativo: el pago del peaje debe hacerse mediante telepeaje y el vehículo debe llevar el medio técnico operativo.",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, R-418 (pág. 120 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "R-418 Vía exclusiva para vehículos dotados de equipo de telepeaje operativo. Telepeaje obligatorio. Obligación de efectuar el pago del peaje mediante el sistema de peaje dinámico o telepeaje;",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-418.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 120 del PDF consolidado",
+    "alt_detalle": "Señal R-418: Vía exclusiva para vehículos dotados de equipo de telepeaje operativo. Telepeaje obligatorio"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-sen-0001",
+   "tema": "senales_verticales",
+   "subtema": "indicaciones_generales",
+   "materia": 1,
+   "enunciado": "Esta señal indica el comienzo de una vía para automóviles. ¿Qué vehículos pueden circular por ella?",
+   "opciones": {
+    "a": "Todos los vehículos de motor, incluidos los ciclomotores.",
+    "b": "Exclusivamente los automóviles.",
+    "c": "Automóviles y bicicletas, si no hay arcén."
+   },
+   "correcta": "b",
+   "explicacion": "La vía para automóviles está reservada exclusivamente a la circulación de automóviles, tiene una sola calzada y limitación total de accesos a las propiedades colindantes; se señaliza con S-3 (comienzo) y S-4 (fin).",
+   "fuente": {
+    "norma": "LSV",
+    "articulo": "Anexo I.68",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+    "cita": "Vía reservada exclusivamente a la circulación de automóviles, con una sola calzada y con limitación total de accesos a las propiedades colindantes, y señalizada con las señales S-3 y S-4",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/S-3.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 127 del PDF consolidado",
+    "alt_detalle": "Señal S-3: Vía reservada para automóviles"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-luz-0002",
+   "tema": "luces",
+   "subtema": "tunel",
+   "materia": 6,
+   "enunciado": "De día, entra en un tramo afectado por esta señal (Túnel) que está suficientemente iluminado. ¿Qué alumbrado debe llevar encendido su turismo?",
+   "opciones": {
+    "a": "El de posición y el de corto alcance o de cruce.",
+    "b": "Ninguno, porque es de día y el túnel está iluminado.",
+    "c": "Solo el de posición."
+   },
+   "correcta": "a",
+   "explicacion": "A cualquier hora del día, en túneles, pasos inferiores y tramos afectados por la señal S-5 suficientemente iluminados, los vehículos de motor y ciclomotores llevarán, además del alumbrado de posición, el de cruce. Si el túnel está insuficientemente iluminado, deberá llevar el de carretera salvo que deba usar el de cruce para no deslumbrar.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "101.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "o a cualquier hora del día por túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel» (S-5) suficientemente iluminados, llevará encendido, además del alumbrado de posición, el alumbrado de corto alcance o de cruce",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/S-5.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 127 del PDF consolidado",
+    "alt_detalle": "Señal S-5: Túnel"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7672,6 +10024,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B2-sen-0007",
+   "tema": "senales_verticales",
+   "subtema": "senales_de_control",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal?",
+   "opciones": {
+    "a": "Que hay cobertura de wifi para los usuarios de la vía.",
+    "b": "Que hay una emisora de información de tráfico.",
+    "c": "La existencia de un dispositivo de control de velocidad."
+   },
+   "correcta": "c",
+   "explicacion": "La S-991a indica la existencia de un dispositivo de control de velocidad en un punto o tramo de una carretera convencional o una carretera multicarril (en autopista o autovía es la S-991b, de fondo azul).",
+   "fuente": {
+    "norma": "RGC_CATALOGO",
+    "articulo": "Anexo I, catálogo de señales, S-991a (pág. 200 del PDF consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani",
+    "cita": "S-991a Control de velocidad en carretera convencional o carretera multicarril Indica la existencia de un dispositivo de control de velocidad en un punto o tramo de una carretera convencional o una carretera multicarril.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/S-991a.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 200 del PDF consolidado",
+    "alt_detalle": "Señal S-991a: Control de velocidad en carretera convencional o carretera multicarril"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B2-cic-0009",
    "tema": "ciclos",
    "subtema": "carril_bici",
@@ -7692,6 +10072,34 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-cic-0010",
+   "tema": "ciclos",
+   "subtema": "carril_bici",
+   "materia": 8,
+   "enunciado": "Al comienzo de un carril bici está colocada esta señal. ¿Qué supone para el ciclista?",
+   "opciones": {
+    "a": "Que puede elegir entre la calzada y el carril bici.",
+    "b": "Que tiene prohibido circular por ese carril.",
+    "c": "Que el uso del carril bici es obligatorio."
+   },
+   "correcta": "c",
+   "explicacion": "La señal R-407a convierte en obligatorio para los ciclos el uso del carril o vía ciclista, que de otro modo solo es de uso preferente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "153.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "su uso es preferente, si bien la autoridad competente podrá hacerlo obligatorio mediante la señal R–407a.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/senales/R-407a.png",
+    "alt": "Señal de la pregunta",
+    "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+    "alt_detalle": "Señal R-407a: Vía reservada y obligatoria para ciclos"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7787,6 +10195,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B2-mv-0017",
+   "tema": "marcas_viales",
+   "subtema": "longitudinales",
+   "materia": 1,
+   "enunciado": "¿Qué significa esta marca longitudinal discontinua que separa dos carriles?",
+   "opciones": {
+    "a": "Que puede atravesarse para maniobras permitidas, como cambiar de carril, respetando la prioridad del vehículo que circula por el carril que se pretende ocupar.",
+    "b": "Que no puede atravesarse en ningún caso.",
+    "c": "Que solo pueden atravesarla los vehículos prioritarios."
+   },
+   "correcta": "a",
+   "explicacion": "Las marcas longitudinales discontinuas delimitan carriles y pueden atravesarse para maniobras permitidas, como giros o cambios de carril, respetando la prioridad del vehículo que circula por el carril que se quiere ocupar.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Estas marcas podrán ser atravesadas para realizar ciertas maniobras permitidas, como giros o cambios de carril, respetando en cualquier caso la prioridad del vehículo que circula por el carril que se pretende ocupar.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-1.1.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 687 del PDF consolidado",
+    "alt_detalle": "Marca vial M-1.1 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B2-mv-0020",
    "tema": "marcas_viales",
    "subtema": "longitudinales",
@@ -7810,6 +10246,62 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B2-mv-0021",
+   "tema": "marcas_viales",
+   "subtema": "longitudinales",
+   "materia": 1,
+   "enunciado": "Un carril está delimitado a ambos lados por marcas longitudinales discontinuas dobles. ¿Qué tipo de carril es?",
+   "opciones": {
+    "a": "Un carril reservado para autobuses.",
+    "b": "Un carril para vehículos lentos.",
+    "c": "Un carril reversible."
+   },
+   "correcta": "c",
+   "explicacion": "Las marcas longitudinales discontinuas dobles delimitan por ambos lados los carriles reversibles, cuyo sentido se regula con semáforos de carril u otros medios.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Delimitan por ambos lados los carriles reversibles, en los que el sentido de circulación está reglamentado en uno u otro sentido mediante semáforos de carril u otros medios.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-1.4.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 688 del PDF consolidado",
+    "alt_detalle": "Marca vial M-1.4 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0022",
+   "tema": "marcas_viales",
+   "subtema": "longitudinales",
+   "materia": 1,
+   "enunciado": "Una línea longitudinal discontinua de preaviso, con separaciones entre trazos más cortas que las de una línea discontinua normal, ¿qué anuncia?",
+   "opciones": {
+    "a": "La proximidad de una marca longitudinal continua o de un tramo con un riesgo especial.",
+    "b": "El final de la prohibición de adelantar.",
+    "c": "El comienzo de un carril para vehículos lentos."
+   },
+   "correcta": "a",
+   "explicacion": "Las marcas de preaviso (M-1.9 y M-1.10) anuncian la proximidad de una marca longitudinal continua y la prohibición que implica, o de un tramo de vía con un riesgo especial.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "anuncian la proximidad de una marca longitudinal continua y la prohibición que ello implica, o la proximidad de un tramo de vía que presenta un riesgo especial",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-1.9.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 687 del PDF consolidado",
+    "alt_detalle": "Marca vial M-1.9 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B2-mv-0023",
    "tema": "marcas_viales",
    "subtema": "longitudinales",
@@ -7830,6 +10322,34 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0025",
+   "tema": "marcas_viales",
+   "subtema": "transversales",
+   "materia": 1,
+   "enunciado": "Una línea discontinua transversal acompañada de un triángulo invertido pintado en el carril, ¿qué indica?",
+   "opciones": {
+    "a": "Que no debe franquearla cuando tenga que ceder el paso.",
+    "b": "Que debe detenerse siempre, venga o no alguien.",
+    "c": "El fin de la prohibición de adelantar."
+   },
+   "correcta": "a",
+   "explicacion": "La marca transversal discontinua indica que, salvo circunstancias anormales que reduzcan la visibilidad, ningún vehículo debe franquearla cuando tenga que ceder el paso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "ningún vehículo o animal ni su carga debe franquearla cuando tenga que ceder el paso en cumplimiento de la obligación impuesta por cualquiera de las siguientes señales o elementos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-4.2.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 691 del PDF consolidado",
+    "alt_detalle": "Marca vial M-4.2 (plano oficial con medidas)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7879,6 +10399,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B2-mv-0028",
+   "tema": "marcas_viales",
+   "subtema": "transversales",
+   "materia": 1,
+   "enunciado": "Un paso para peatones cuyas franjas se prolongan cada una con un triángulo indica que el paso...",
+   "opciones": {
+    "a": "Está sobreelevado.",
+    "b": "Está regulado por semáforo.",
+    "c": "Es compartido con ciclistas."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando el paso para peatones es sobreelevado se usa la marca M-4.3b, que tiene un triángulo como prolongación de cada una de las franjas.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando el paso para peatones se ejecute sobreelevado, se utilizará la marca M-4.3b, la cual consta de un triángulo como prolongación de cada una de las franjas.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-4.3b.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 691 del PDF consolidado",
+    "alt_detalle": "Marca vial M-4.3b (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B2-mv-0029",
    "tema": "marcas_viales",
    "subtema": "transversales",
@@ -7902,6 +10450,90 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B2-mv-0030",
+   "tema": "marcas_viales",
+   "subtema": "senales_horizontales",
+   "materia": 1,
+   "enunciado": "Una limitación de velocidad pintada en un carril delimitado por marcas longitudinales, ¿a quién afecta?",
+   "opciones": {
+    "a": "A todos los vehículos que circulan por la calzada.",
+    "b": "Solo a los camiones y autobuses.",
+    "c": "Exclusivamente a los vehículos que circulen por ese carril."
+   },
+   "correcta": "c",
+   "explicacion": "Las señales horizontales tienen el mismo significado que sus homólogas verticales, pero si están en un carril delimitado por líneas longitudinales solo obligan a los vehículos que circulan por ese carril.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "147.2.e)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "La obligación de las señales horizontales situadas en un carril delimitado por líneas longitudinales se aplica exclusivamente a los vehículos que circulen por dicho carril.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-6.6.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 704 del PDF consolidado",
+    "alt_detalle": "Marca vial M-6.6 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0031",
+   "tema": "marcas_viales",
+   "subtema": "senales_horizontales",
+   "materia": 1,
+   "enunciado": "La marca STOP pintada en la calzada, ¿qué obligación impone?",
+   "opciones": {
+    "a": "Detenerse ante la línea de detención (o, si no existe, inmediatamente antes de la calzada a la que se aproxima) y ceder el paso.",
+    "b": "Reducir la velocidad y detenerse solo si se aproximan otros vehículos.",
+    "c": "Ninguna, si no hay también una señal vertical de STOP."
+   },
+   "correcta": "a",
+   "explicacion": "La marca STOP tiene el mismo significado que la señal vertical: obliga a detener el vehículo ante la línea de detención o, si no existe, inmediatamente antes de la calzada a la que se aproxima, y después ceder el paso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "indica la obligación de detener el vehículo ante una línea de detención (M-4.1) o, si esta no existiera, inmediatamente antes de la calzada a la que se aproxima, y, una vez detenido el vehículo, ceder el paso",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-6.3.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 703 del PDF consolidado",
+    "alt_detalle": "Marca vial M-6.3 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0032",
+   "tema": "marcas_viales",
+   "subtema": "senales_horizontales",
+   "materia": 1,
+   "enunciado": "¿Qué significa este triángulo pintado en la calzada?",
+   "opciones": {
+    "a": "Que tiene prioridad en la próxima intersección.",
+    "b": "Obligación de ceder el paso a los vehículos que circulen por la calzada a la que se aproxima, deteniéndose si es preciso.",
+    "c": "Obligación de detenerse siempre, aunque no se acerque nadie."
+   },
+   "correcta": "b",
+   "explicacion": "La marca de ceda el paso (M-6.5) obliga a ceder el paso a los vehículos que circulen por la calzada a la que se aproxima, deteniéndose si es preciso ante la línea de ceda el paso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.4",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "indica a las personas conductoras la obligación de ceder el paso a los vehículos que circulen por la calzada a la que se aproxima, deteniéndose si es preciso ante la línea de ceda el paso (M-4.2)",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-6.5.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 703 del PDF consolidado",
+    "alt_detalle": "Marca vial M-6.5 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B2-mv-0033",
    "tema": "marcas_viales",
    "subtema": "flechas",
@@ -7922,6 +10554,286 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0035",
+   "tema": "marcas_viales",
+   "subtema": "flechas",
+   "materia": 1,
+   "enunciado": "Ve esta flecha en el eje de una calzada de doble sentido mientras está adelantando. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Finalizar el adelantamiento lo antes posible, porque se aproxima una línea continua.",
+    "b": "Continuar con normalidad: indica que comienza un tramo con dos carriles en su sentido.",
+    "c": "Detenerse en el arcén."
+   },
+   "correcta": "a",
+   "explicacion": "La flecha de retorno anuncia la proximidad de una línea continua que prohíbe circular por su izquierda; hay que desistir de iniciar el adelantamiento o finalizarlo lo antes posible.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "anuncia la proximidad de una línea continua que implica la prohibición de circular por su izquierda, por lo que se debe desistir de iniciar la maniobra de adelantamiento o finalizarla lo antes posible",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-5.5.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 700 del PDF consolidado",
+    "alt_detalle": "Marca vial M-5.5 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0036",
+   "tema": "marcas_viales",
+   "subtema": "otras_marcas",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta marca pintada en la calzada (aspa con las letras PN)?",
+   "opciones": {
+    "a": "Un paso para peatones próximo.",
+    "b": "Una zona de parada prohibida.",
+    "c": "La proximidad de un paso a nivel."
+   },
+   "correcta": "c",
+   "explicacion": "La marca de paso a nivel indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía, en el que los vehículos deben ceder el paso cuando se aproxime un tren o tranvía.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Marca de paso a nivel (M-7.5): indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.5.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 712 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.5 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0037",
+   "tema": "marcas_viales",
+   "subtema": "otras_marcas",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta marca?",
+   "opciones": {
+    "a": "El comienzo de un carril reservado a determinados vehículos, como autobuses o taxis.",
+    "b": "El final de un carril reservado.",
+    "c": "Una parada de autobús en la que pueden estacionar los turismos."
+   },
+   "correcta": "a",
+   "explicacion": "La marca de comienzo de carril reservado indica el comienzo de un carril reservado a determinados vehículos, como autobuses, taxis o ciclos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Marca de comienzo de carril reservado (M-7.6): indica el comienzo de un carril reservado a determinados vehículos, tales como autobuses, taxis, ciclos, etc.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.6.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.6 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0039",
+   "tema": "marcas_viales",
+   "subtema": "amarillas",
+   "materia": 1,
+   "enunciado": "¿Qué indica una línea amarilla continua pintada junto al bordillo?",
+   "opciones": {
+    "a": "Prohibición de parar y de estacionar a lo largo de toda su longitud en ese lado de la calzada.",
+    "b": "Prohibición de estacionar, pero se permite parar.",
+    "c": "Zona reservada para carga y descarga."
+   },
+   "correcta": "a",
+   "explicacion": "La marca longitudinal continua amarilla indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde está situada.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "indica la prohibición de la parada y del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde esté situada",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.8.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.8 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0041",
+   "tema": "marcas_viales",
+   "subtema": "amarillas",
+   "materia": 1,
+   "enunciado": "¿Qué indica una marca amarilla en zigzag junto al bordillo?",
+   "opciones": {
+    "a": "Que está prohibido parar y estacionar a todos los vehículos, incluidos los autobuses.",
+    "b": "Que el estacionamiento está prohibido por estar ese lugar reservado a un uso especial, como una parada de autobuses o la carga y descarga.",
+    "c": "Que es una zona de estacionamiento de pago."
+   },
+   "correcta": "b",
+   "explicacion": "La marca amarilla en zigzag indica el lugar en que el estacionamiento está prohibido a los vehículos en general por estar reservado a un uso especial que no implique larga permanencia, como paradas de autobús o carga y descarga.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "indica el lugar de la calzada en que el estacionamiento está prohibido a los vehículos en general, por estar reservado para algún uso especial que no implique larga permanencia de ningún vehículo",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.9.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.9 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0042",
+   "tema": "marcas_viales",
+   "subtema": "amarillas",
+   "materia": 1,
+   "enunciado": "Una intersección tiene pintada una cuadrícula amarilla. El semáforo está en verde, pero hay retención a la salida. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "No entrar en la intersección si previsiblemente va a quedar detenido obstruyendo la circulación transversal.",
+    "b": "Entrar, porque el semáforo verde se lo permite.",
+    "c": "Entrar y detenerse sobre la cuadrícula hasta que avance la fila."
+   },
+   "correcta": "a",
+   "explicacion": "La cuadrícula recuerda la prohibición de penetrar en una intersección, aun con semáforo que lo permita o con prioridad, si previsiblemente se va a quedar detenido impidiendo u obstruyendo la circulación transversal.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "recuerda la prohibición de penetrar en una intersección, aun cuando el semáforo lo permita o gocen de prioridad, si la situación de la circulación es tal que previsiblemente puedan quedar detenidos",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.10.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.10 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0043",
+   "tema": "marcas_viales",
+   "subtema": "otras_marcas",
+   "materia": 1,
+   "enunciado": "¿Qué indica un damero de cuadrados blancos y rojos pintado en la calzada?",
+   "opciones": {
+    "a": "Una zona de estacionamiento reservado a vehículos de emergencia.",
+    "b": "El lugar donde empieza una zona de frenado de emergencia, en la que está prohibido parar y estacionar.",
+    "c": "El comienzo de una zona de bajas emisiones."
+   },
+   "correcta": "b",
+   "explicacion": "La marca de acceso a un lecho de frenado es un damero de cuadrados blancos y rojos que indica dónde empieza una zona de frenado de emergencia, prohibiendo la parada, el estacionamiento o el uso de esa superficie con otros fines.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "damero formado por cuadrados de colores blanco y rojo que indica el lugar donde empieza una zona de frenado de emergencia, prohibiendo la parada, el estacionamiento",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.11.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.11 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0044",
+   "tema": "marcas_viales",
+   "subtema": "otras_marcas",
+   "materia": 5,
+   "enunciado": "¿Para qué sirven estas marcas en forma de galón (punta de flecha) pintadas en el carril?",
+   "opciones": {
+    "a": "Para indicar el sentido de circulación en una glorieta.",
+    "b": "Para señalar un carril reservado a motocicletas.",
+    "c": "Como referencia para mantener la separación mínima con el vehículo que le precede."
+   },
+   "correcta": "c",
+   "explicacion": "La marca de separación de seguridad entre vehículos sirve como referencia para mantener la separación mínima con el vehículo precedente en túneles, secciones especiales y tramos con mayor riesgo de alcance.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Marca de separación de seguridad entre vehículos (M-7.12): facilita, sirviendo como referencia, el mantenimiento de la separación mínima entre un vehículo y el que le precede",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.12.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+    "alt_detalle": "Marca vial M-7.12 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0046",
+   "tema": "marcas_viales",
+   "subtema": "calmado_trafico",
+   "materia": 1,
+   "enunciado": "¿Qué advierten las marcas llamadas 'dientes de dragón'?",
+   "opciones": {
+    "a": "La aproximación a una travesía o vía urbana en la que debe reducirse sensiblemente la velocidad.",
+    "b": "La proximidad de un paso a nivel.",
+    "c": "El comienzo de una zona de estacionamiento."
+   },
+   "correcta": "a",
+   "explicacion": "Los dientes de dragón advierten de la aproximación a una travesía o vía urbana en la que debe reducirse la velocidad sensiblemente y extremar la precaución.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Dientes de dragón (M-8.1): advierten de la aproximación a una travesía o vía urbana en la cual debe reducirse la velocidad de circulación sensiblemente",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-8.1.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 716 del PDF consolidado",
+    "alt_detalle": "Marca vial M-8.1 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0047",
+   "tema": "marcas_viales",
+   "subtema": "calmado_trafico",
+   "materia": 1,
+   "enunciado": "Las líneas de borde quebradas (en zigzag blanco a los lados del carril), ¿de qué advierten?",
+   "opciones": {
+    "a": "De la proximidad de una parada de autobús.",
+    "b": "De la aproximación a un paso para peatones o para ciclistas.",
+    "c": "Del final de la calzada."
+   },
+   "correcta": "b",
+   "explicacion": "Las líneas de borde quebradas advierten de la aproximación a un paso para peatones o para ciclistas, con la necesidad de disminuir la velocidad y aumentar la atención.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Líneas de borde quebradas (M-8.2): advierten de la aproximación a un paso para peatones o para ciclistas",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-8.2.png",
+    "alt": "Marca vial de la pregunta",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 717 del PDF consolidado",
+    "alt_detalle": "Marca vial M-8.2 (plano oficial con medidas)"
+   },
    "verificado_el": "2026-11-24"
   },
   {

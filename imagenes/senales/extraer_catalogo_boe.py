@@ -55,7 +55,7 @@ def agrupar(idx, sep=3):
 
 
 def ocr(img):
-    tmp = "/tmp/_ocr.png"
+    tmp = f"/tmp/_ocr{os.getpid()}.png"
     img.save(tmp)
     out = subprocess.run(["tesseract", tmp, "-", "-l", "spa", "--psm", "6"],
                          capture_output=True, text=True).stdout
@@ -64,7 +64,7 @@ def ocr(img):
 
 def leer_codigo(celda):
     """OCR de la celda del código, con corrección de confusiones típicas (S/5, O/0, l/1)."""
-    tmp = "/tmp/_cod.png"
+    tmp = f"/tmp/_cod{os.getpid()}.png"
     w, h = celda.size
     celda.crop((min(18, w // 4), min(8, h // 4), max(w - 18, w * 3 // 4), max(h - 8, h * 3 // 4))).save(tmp)
     txt = subprocess.run(["tesseract", tmp, "-", "-l", "spa", "--psm", "7"],
@@ -203,7 +203,10 @@ def main():
         pagina = int(os.path.basename(ruta).split("-")[1])
         if os.environ.get("PAGINAS") and str(pagina) not in os.environ["PAGINAS"].split(","):
             continue
-        procesar_pagina(ruta, pagina, salida, registros, sin_codigo)
+        try:
+            procesar_pagina(ruta, pagina, salida, registros, sin_codigo)
+        except Exception as e:  # una página rara no debe parar el resto
+            sin_codigo.append({"pagina_pdf": pagina, "error": repr(e)})
         print(pagina, len(registros), flush=True)
     with open(os.path.join(salida, "catalogo_ocr.json"), "w", encoding="utf-8") as f:
         json.dump(registros, f, ensure_ascii=False, indent=1)

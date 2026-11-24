@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Test teórico permiso B</title>
 <meta name="description" content="Práctica del examen teórico del permiso B con preguntas verificadas contra el BOE.">
-<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f4f6fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#10141c" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -14,6 +14,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icono.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icono.svg">
+<link rel="preload" href="fuentes-web/nunito.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
 <header class="nav" id="nav">
   <div class="nav-izq" id="nav-izq"></div>
   <div class="nav-titulo" id="nav-titulo" aria-hidden="true"></div>
-  <div class="nav-der"><span id="reloj" class="reloj" hidden role="timer" aria-label="Tiempo restante"></span></div>
+  <div class="nav-der"><span id="reloj" class="reloj" hidden role="timer" aria-label="Tiempo restante"></span><button id="sonido" class="nav-sonido" type="button"></button></div>
 </header>
 <main id="app" tabindex="-1"></main>
 <div id="barra" class="barra-inferior" hidden></div>
@@ -31,6 +32,7 @@
 <noscript><p style="padding:16px">Esta web necesita JavaScript.</p></noscript>
 <script src="data/preguntas.js"></script>
 <script src="progreso.js"></script>
+<script src="animo.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

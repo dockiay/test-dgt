@@ -90,6 +90,8 @@
     enlace: "M14 5h5v5M19 5l-8 8M10 6.5H5.5v12h12V14",
     aviso: "M12 4.5l8.5 15h-17zM12 10.5v4M12 17.2v.1",
     lista: "M9 7h10M9 12h10M9 17h10M5 7h.1M5 12h.1M5 17h.1",
+    llama: "M12.6 2.2c.7 3.4-1.3 5.2-3.1 7.2C7.8 11.2 6 13.2 6 15.9 6 19.3 8.7 22 12 22s6-2.7 6-6.1c0-2.6-1.2-4.6-2.6-6-.2 1.7-1 2.9-2.2 3.5.5-3.7-.2-8.1-.6-11.2z",
+    trofeo: "M8 4h8v5a4 4 0 01-8 0zM8 6H5a3 3 0 003 4M16 6h3a3 3 0 01-3 4M12 13v4M8.5 20h7M9.5 17h5",
   };
   function ico(nombre, clase) {
     const NS = "http://www.w3.org/2000/svg";
@@ -112,14 +114,18 @@
       ? h("a", { class: "nav-boton" + (a.href === "#/" ? " atras-raiz" : ""), href: a.href }, a.icono === false ? null : ico("atras"), a.texto)
       : h("button", { class: "nav-boton", onclick: a.accion }, a.icono === false ? null : ico("atras"), a.texto)] : []));
     app.replaceChildren(...hijos.flat(Infinity).filter(c => c != null && c !== false));
-    const b = (op.barra || []).filter(Boolean);
+    const b = (op.barra || []).filter(Boolean), fb = op.feedback;
     barra.hidden = !b.length;
-    barra.replaceChildren(h("div", {}, b));
+    // Franja de respuesta (práctica): verde o roja, con el veredicto y el botón de continuar.
+    barra.className = "barra-inferior" + (fb ? " feedback " + (fb.ok ? "ok" : "ko") : "");
+    barra.replaceChildren(h("div", {}, fb ? h("div", { class: "feedback-texto" }, h("span", { class: "sello" }, ico(fb.ok ? "check" : "x")),
+      h("span", {}, h("strong", {}, fb.titulo), fb.detalle ? h("span", {}, fb.detalle) : null)) : null, b));
     app.classList.toggle("con-barra", !!b.length);
+    app.classList.toggle("con-feedback", !!fb);
     document.body.classList.toggle("sesion", !!op.sesion);
     teclas = op.teclas || null;
     if (typeof pintarLateral === "function" && document.getElementById("lateral").childElementCount) pintarLateral(seccionActual());
-    if (!op.mantenerScroll) { window.scrollTo(0, 0); app.focus({ preventScroll: true }); }
+    if (!op.mantenerScroll) { window.scrollTo(0, 0); app.focus({ preventScroll: true }); if (window.Animo) Animo.limpiar(); }
     alDesplazar();
   }
   function alDesplazar() {
@@ -245,7 +251,7 @@
   }
   // Pinta una pregunta. Si corregida, marca correcta/incorrecta (con icono, no solo color) y bloquea.
   function pregunta(p, elegida, corregida, alElegir, animada, orden = NATURAL) {
-    const lista = h("ul", { class: "opciones" }, orden.map((k, pos) => {
+    const lista = h("ul", { class: "opciones" + (animada ? " recien" : "") }, orden.map((k, pos) => {
       let cls = "opcion", estado = null, voz = "";
       if (corregida) {
         if (k === p.correcta) { cls += " correcta"; estado = ico("check"); voz = ", respuesta correcta"; }
@@ -257,10 +263,55 @@
     }));
     return [figura(p, corregida), h("p", { class: "enunciado" }, p.enunciado), lista, corregida ? bloqueExplicacion(p, elegida, animada, orden) : null];
   }
-  function avance(izq, der, hecho, total) {
+  // La barra arranca en el ancho anterior y crece hasta el nuevo, para que se vea avanzar.
+  let anchoAvance = 0;
+  function avance(izq, der, hecho, total, clase) {
+    const ancho = total ? (hecho / total) * 100 : 0, desde = ancho >= anchoAvance ? anchoAvance : ancho;
+    const barraAvance = h("i", { style: `width:${desde}%` });
+    anchoAvance = ancho;
+    if (desde !== ancho) requestAnimationFrame(() => requestAnimationFrame(() => { barraAvance.style.width = ancho + "%"; }));
     return [h("div", { class: "avance" }, h("strong", {}, izq), h("span", {}, der)),
-      h("div", { class: "progreso", role: "progressbar", "aria-valuemin": 0, "aria-valuemax": total, "aria-valuenow": hecho }, h("i", { style: `width:${total ? (hecho / total) * 100 : 0}%` }))];
+      h("div", { class: "progreso" + (clase ? " " + clase : ""), role: "progressbar", "aria-valuemin": 0, "aria-valuemax": total, "aria-valuenow": hecho }, barraAvance)];
   }
+
+  // ---------- Racha y objetivo diario (datos en animo.js) ----------
+  const FRASES_ACIERTO = ["¡Correcto!", "¡Muy bien!", "¡Eso es!", "¡Perfecto!", "¡Bien visto!"];
+  const elegirFrase = l => l[Math.floor(Math.random() * l.length)];
+  function tarjetaRacha(clase) {
+    if (!window.Animo) return null;
+    const r = Animo.racha(), pct = Math.min(100, Math.round(r.hoy / r.objetivo * 100));
+    const viva = r.dias > 0;
+    const titulo = viva ? [h("b", {}, plural(r.dias, "día", "días")), " de racha"] : "Empieza tu racha";
+    const texto = r.cumplidoHoy ? "Objetivo de hoy cumplido. ¡Así se hace!"
+      : r.hoy ? `Te ${r.objetivo - r.hoy === 1 ? "falta 1 pregunta" : `faltan ${r.objetivo - r.hoy} preguntas`} para el objetivo de hoy.`
+      : viva ? "Responde hoy para no perder la racha." : "Responde preguntas cada día para sumar días seguidos.";
+    return h("section", { class: "tarjeta racha " + (viva ? "viva" : "apagada") + (clase ? " " + clase : ""), "aria-label": "Racha y objetivo diario" },
+      h("div", { class: "racha-llama" }, ico("llama")),
+      h("div", { class: "racha-titulo" }, titulo),
+      h("div", { class: "racha-texto" }, texto),
+      h("div", { class: "semana", "aria-label": "Últimos 7 días" }, r.semana.map(d => h("span", { class: (d.hecho ? "hecho" : "") + (d.meta ? " cumplido" : "") + (d.hoy ? " hoy" : ""),
+        "aria-label": `${d.hoy ? "Hoy" : fechaES(d.fecha)}: ${d.meta ? "objetivo cumplido" : d.hecho ? "practicado" : "sin practicar"}` },
+        h("i", {}, d.hecho ? ico("check") : null), d.hoy ? "Hoy" : d.letra))),
+      h("div", { class: "meta" + (r.cumplidoHoy ? " cumplida" : "") },
+        h("div", { class: "meta-cabecera" }, h("span", {}, `Hoy: ${Math.min(r.hoy, r.objetivo)}/${r.objetivo} preguntas`),
+          h("button", { class: "boton plano", onclick: elegirObjetivo }, "Cambiar objetivo")),
+        h("div", { class: "progreso", role: "progressbar", "aria-label": "Objetivo de hoy", "aria-valuemin": 0, "aria-valuemax": r.objetivo, "aria-valuenow": Math.min(r.hoy, r.objetivo) }, h("i", { style: `width:${pct}%` }))));
+  }
+  function elegirObjetivo() {
+    let d;
+    const actual = Animo.racha().objetivo;
+    d = hoja({ titulo: "Objetivo diario", mensaje: "¿Cuántas preguntas quieres responder cada día?", cancelar: "Cancelar",
+      contenido: h("div", { class: "opciones-objetivo" }, Animo.OBJETIVOS.map(n => h("button", { class: "boton " + (n === actual ? "" : "gris"), "aria-pressed": String(n === actual),
+        onclick: () => { Animo.cambiarObjetivo(n); Animo.sonar("toque"); d.close(); ruta(); } }, `${n}`))) });
+  }
+  // Anota respuestas para la racha y celebra si se acaba de cumplir el objetivo del día.
+  function sumarAlDia(n) {
+    if (!window.Animo || !n) return false;
+    const cumplido = Animo.sumar(n);
+    if (cumplido) setTimeout(() => { Animo.sonar("meta"); Animo.aviso("¡Objetivo de hoy cumplido!", "meta"); }, 450);
+    return cumplido;
+  }
+  const sonar = (nombre, arg) => window.Animo && Animo.sonar(nombre, arg);
 
   // ---------- Inicio ----------
   function inicio() {
@@ -271,6 +322,7 @@
     pantalla({ titulo: "Test permiso B" },
       h("h1", { class: "titulo-grande" }, "Test permiso B"),
       h("p", { class: "subtitulo" }, `${PREGUNTAS.length} preguntas verificadas, cada una con su fuente oficial.`),
+      tarjetaRacha(),
       cifras([`${prep.global.vistas}/${PREGUNTAS.length}`, "Preguntas vistas"], [`${Math.floor(prep.global.dominio * 100)} %`, "Dominadas"], [`${Math.round(prep.avance * 100)} %`, "Preparación"]),
       grupo("con-icono", fila({ icono: prep.lista ? "check" : "examen", color: prep.lista ? "verde" : "azul", titulo: prep.lista ? "Todo listo para el examen" : "Preparación para el examen",
         detalle: prep.lista ? "Cumples todos los criterios" : `${prep.criterios.filter(c => c.cumple).length} de ${prep.criterios.length} criterios cumplidos · dominio por materia`, href: "#/progreso" })),
@@ -326,7 +378,10 @@
     const p = ex.lista[ex.i], n = ex.lista.length, hechas = Object.keys(ex.resp).length;
     const ir = j => { if (j >= 0 && j < n) { ex.i = j; pintarExamen(ex); } };
     const o = ordenDe(p);
-    const elegir = k => { ex.resp[p.id] = k; pintarExamen(ex, true); };
+    const elegir = k => {
+      ex.resp[p.id] = k; sonar("toque"); pintarExamen(ex, true);
+      const b = app.querySelector(".opcion.elegida"); if (b) b.classList.add("pulsada");
+    };
     const ultima = ex.i === n - 1;
     pantalla({ titulo: "Examen final", fijo: true, sesion: true, mantenerScroll: mantener,
       atras: { texto: "Salir", icono: false, accion: () => hoja({ titulo: "¿Salir del examen?", mensaje: "Se perderán las respuestas de este examen.", cancelar: "Seguir con el examen",
@@ -337,7 +392,7 @@
         ultima ? h("button", { class: "boton", onclick: () => confirmarFin(ex) }, "Terminar") : h("button", { class: "boton", onclick: () => ir(ex.i + 1) }, "Siguiente")],
       teclas: { a: () => elegir(o[0]), b: () => elegir(o[1]), c: () => elegir(o[2]), 1: () => elegir(o[0]), 2: () => elegir(o[1]), 3: () => elegir(o[2]),
         arrowright: () => ir(ex.i + 1), arrowleft: () => ir(ex.i - 1), enter: () => ultima ? confirmarFin(ex) : ir(ex.i + 1) } },
-      avance(`Pregunta ${ex.i + 1} de ${n}`, `${hechas} respondidas`, ex.i + 1, n),
+      avance(`Pregunta ${ex.i + 1} de ${n}`, `${hechas} respondidas`, ex.i + 1, n, "examen"),
       pregunta(p, ex.resp[p.id], false, elegir, false, o));
   }
   function rejillaExamen(ex) {
@@ -366,6 +421,8 @@
     const total = ex.lista.length, max = Math.floor(total * PROPORCION_FALLOS), apto = fallos <= max;
     P.registrarExamen(datos, { fecha: new Date().toISOString(), total, fallos, apto, segundos }); guardar();
     sesion = null;
+    sumarAlDia(Object.keys(ex.resp).length);
+    setTimeout(() => { sonar(apto ? "aprobado" : "suspenso"); if (apto && window.Animo) Animo.confeti(); }, 150);
     const lista = h("div", {});
     const pintarLista = soloFallos => {
       const items = ex.lista.map((p, j) => ({ p, j })).filter(({ p }) => !soloFallos || ex.resp[p.id] !== p.correcta);
@@ -377,9 +434,11 @@
     pantalla({ titulo: "Resultado", atras: { texto: "Inicio", href: "#/" } },
       h("div", { class: "resultado " + (apto ? "apto" : "noapto") },
         h("div", { class: "simbolo" }, ico(apto ? "check" : "x")),
-        h("h1", {}, apto ? "Apto" : "No apto"),
+        h("h1", {}, apto ? "¡Apto!" : "No apto"),
+        h("p", { class: "animo-frase" }, apto ? (fallos === 0 ? "¡Sin un solo fallo!" : "Así se aprueba el examen de verdad.") : "Cada fallo es una pregunta que ya no se te escapará."),
         h("p", {}, porTiempo ? "Se ha acabado el tiempo. " : "", apto ? `Has aprobado con ${plural(fallos, "fallo", "fallos")}.` : `Has tenido ${plural(fallos, "fallo", "fallos")} y el máximo es ${max}.`)),
       cifras([String(total - fallos), "Aciertos"], [String(fallos), "Fallos"], [mmss(segundos), "Tiempo"]),
+      tarjetaRacha("racha-resultado"),
       h("div", { class: "pila" },
         h("button", { class: "boton ancho", onclick: empezarExamen }, "Hacer otro examen"),
         fallos ? h("a", { class: "boton ancho gris", href: "#/fallos" }, "Repasar mis fallos") : null),
@@ -467,7 +526,7 @@
   function practicar(lista, modo, titulo, vuelta) {
     pararReloj();
     ordenes = new Map();
-    const s = { lista, modo, titulo, vuelta, i: 0, resp: {}, aciertos: 0 };
+    const s = { lista, modo, titulo, vuelta, i: 0, resp: {}, aciertos: 0, seguidas: 0, mejorSerie: 0 };
     sesion = s;
     pintarPractica(s);
   }
@@ -480,14 +539,25 @@
       s.resp[p.id] = k;
       const ok = k === p.correcta; if (ok) s.aciertos++;
       registrar(p, ok);
+      s.seguidas = ok ? s.seguidas + 1 : 0; s.mejorSerie = Math.max(s.mejorSerie, s.seguidas);
+      s.frase = ok ? elegirFrase(FRASES_ACIERTO) : "";
       pintarPractica(s, true);
+      if (ok) sonar("acierto"); else { sonar("fallo"); if (window.Animo) Animo.vibrar(60); }
+      const cumplido = sumarAlDia(1);
+      // Series de aciertos seguidos: 3, 5, 10 y cada 5 más.
+      if (ok && !cumplido && (s.seguidas === 3 || (s.seguidas >= 5 && s.seguidas % 5 === 0)) && window.Animo) {
+        setTimeout(() => { Animo.sonar("serie", s.seguidas); Animo.aviso(`¡${s.seguidas} seguidas!`); }, 380);
+      }
       const ex = app.querySelector(".explicacion");
       if (ex) ex.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
     };
     const seguir = () => { if (s.resp[p.id]) { s.i++; pintarPractica(s); } };
+    const acerto = corregida && elegida === p.correcta;
     pantalla({ titulo: s.titulo, fijo: true, sesion: true, mantenerScroll: recien,
       atras: { texto: "Terminar", icono: false, accion: () => hechas ? finPractica(s) : (sesion = null, location.hash = s.vuelta, ruta()) },
-      barra: [h("button", { class: "boton", disabled: !corregida, onclick: seguir }, s.i < n - 1 ? "Siguiente" : "Ver resultado")],
+      feedback: corregida ? { ok: acerto, titulo: acerto ? (s.frase || "¡Correcto!") : "No es esa",
+        detalle: acerto ? (s.seguidas >= 3 ? `${s.seguidas} aciertos seguidos` : null) : `La correcta es la ${letraVista(p, p.correcta, o)}. Lee la explicación.` } : null,
+      barra: [h("button", { class: "boton" + (corregida ? (acerto ? " verde" : " rojo") : ""), disabled: !corregida, onclick: seguir }, corregida ? (s.i < n - 1 ? "Continuar" : "Ver resultado") : "Elige una respuesta")],
       teclas: { a: () => elegir(o[0]), b: () => elegir(o[1]), c: () => elegir(o[2]), 1: () => elegir(o[0]), 2: () => elegir(o[1]), 3: () => elegir(o[2]), enter: seguir, arrowright: seguir } },
       avance(`Pregunta ${s.i + 1} de ${n}`, `${plural(s.aciertos, "acierto", "aciertos")} · ${plural(hechas - s.aciertos, "fallo", "fallos")}`, s.i + (corregida ? 1 : 0), n),
       pregunta(p, elegida, corregida, elegir, recien, o));
@@ -497,18 +567,26 @@
     const hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
     const pct = hechas ? Math.round(s.aciertos / hechas * 100) : 0;
     const pendientes = fallosDeHoy().length;
+    const bien = hechas >= 5 && pct >= 90, frase = !hechas ? "" : pct === 100 ? "¡Todas bien! Impecable." : pct >= 90 ? "¡Nivel de examen!" : pct >= 70 ? "¡Buen trabajo! Vas por buen camino." : "Repasa los fallos y verás cómo sube.";
+    const cifraPct = h("h1", {}, `${pct} %`);
     pantalla({ titulo: "Resultado", atras: { texto: s.modo === "fallos" ? "Inicio" : "Temario", href: s.modo === "fallos" ? "#/" : "#/temario" } },
-      h("div", { class: "resultado " + (fallos ? "neutro" : "apto") },
-        h("div", { class: "simbolo" }, ico(fallos ? "lista" : "check")),
-        h("h1", {}, `${pct} %`),
-        h("p", {}, `Has acertado ${s.aciertos} de ${plural(hechas, "pregunta", "preguntas")}.`)),
+      h("div", { class: "resultado " + (fallos ? (bien ? "apto" : "neutro") : "apto") },
+        h("div", { class: "simbolo" }, ico(bien || !fallos ? "trofeo" : "lista")),
+        cifraPct,
+        frase ? h("p", { class: "animo-frase" }, frase) : null,
+        h("p", {}, `Has acertado ${s.aciertos} de ${plural(hechas, "pregunta", "preguntas")}.`, s.mejorSerie >= 3 ? ` Mejor serie: ${s.mejorSerie} seguidas.` : "")),
       cifras([String(s.aciertos), "Aciertos"], [String(fallos), "Fallos"], [String(s.lista.length - hechas), "Sin hacer"]),
+      tarjetaRacha("racha-resultado"),
       h("div", { class: "pila" },
         s.modo === "fallos"
           ? (pendientes ? h("a", { class: "boton ancho", href: "#/fallos", onclick: () => setTimeout(ruta) }, `Seguir repasando (${pendientes})`) : null)
           : h("button", { class: "boton ancho", onclick: () => practicar(barajar(s.lista), s.modo, s.titulo, s.vuelta) }, "Repetir estas preguntas"),
         s.modo !== "fallos" && fallos ? h("a", { class: "boton ancho gris", href: "#/fallos" }, "Repasar mis fallos") : null,
         h("a", { class: "boton ancho gris", href: s.modo === "fallos" ? "#/" : s.vuelta, onclick: () => setTimeout(ruta) }, s.modo === "fallos" ? "Volver al inicio" : "Cambiar la selección")));
+    if (hechas && window.Animo) {
+      Animo.contar(cifraPct, pct, { formato: v => `${v} %` });
+      setTimeout(() => { if (bien || !fallos) Animo.sonar("aprobado"); else if (pct >= 70) Animo.sonar("meta"); if (bien) Animo.confeti(); }, 150);
+    }
   }
 
   // ---------- Dudosas ----------

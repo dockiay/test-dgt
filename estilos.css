@@ -288,3 +288,9 @@ textarea.lista { display: block; width: 100%; min-height: 150px; font: .8125rem/
   dialog.hoja { width: 460px; }
   dialog.hoja:has(.rejilla-preg) { width: 620px; }
 }
+
+/* ---- progreso: dominio por materia (hilo de datos; el diseño puede reestilizarlo) ---- */
+.dominio { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--relleno-fuerte); margin-top: 6px; }
+.dominio i, .leyenda i.d-dominada, .leyenda i.d-vista, .leyenda i.d-repaso { display: block; height: 100%; }
+.d-dominada, .leyenda i.d-dominada { background: var(--verde); } .d-vista, .leyenda i.d-vista { background: var(--tinte); opacity: .45; } .d-repaso, .leyenda i.d-repaso { background: var(--naranja); }
+.leyenda i.d-dominada, .leyenda i.d-vista, .leyenda i.d-repaso { display: inline-block; height: 10px; }

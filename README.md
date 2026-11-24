@@ -8,6 +8,8 @@ Es una web estática (HTML, CSS y JavaScript, sin dependencias ni compilación).
 
 - **Examen final**: 30 preguntas al azar, 30 minutos, apto con 3 fallos como máximo (RD 818/2009, anexo VI). Corrección al final con explicación y cita.
 - **Examen por temario**: práctica por cada una de las 16 materias del anexo V.B.1 del Reglamento General de Conductores, con explicación y cita tras cada respuesta.
+- **Camino del temario y logros**: las 16 materias como etapas de una carretera. Una etapa se supera al dominar el 60 % de sus preguntas y se corona con el 80 %; es una guía, cualquier materia se puede practicar siempre. Los logros premian lo aprendido (preguntas dominadas, fallos superados, materias coronadas, exámenes aprobados).
+- **Racha con protector**: un día sin estudiar por semana (de lunes a domingo) no rompe la racha.
 - **Mis fallos** y **Preguntas dudosas**: se guardan en el navegador (localStorage). Las dudosas se pueden copiar para revisarlas.
 - **Guardado en la nube**: en Firebase Hosting, iniciando sesión con Google el progreso se sincroniza solo entre dispositivos (ver [FIREBASE.md](FIREBASE.md)). Sin sesión o sin conexión, todo sigue funcionando en local.
 
@@ -19,6 +21,7 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 |---|---|
 | `index.html`, `app.js`, `estilos.css`, `sw.js`, `manifest.webmanifest`, `icono.svg` | La web |
 | `progreso.js`, `nube.js` | Modelo del progreso y sincronización con Firebase |
+| `camino.js`, `camino.css` | Camino del temario (etapas que se superan con el 60 % y se coronan con el 80 %), logros y estilos del protector de racha |
 | `vendor/firebase.js` | SDK de Firebase empaquetado (ver `vendor/LEEME.md`) |
 | `firebase.json`, `firestore.rules`, `.github/workflows/firebase.yml` | Alojamiento, reglas y publicación automática en Firebase |
 | `data/preguntas.js` | Banco publicado. Se genera con `tools/build_data.py`; no se edita a mano |

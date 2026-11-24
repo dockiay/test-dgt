@@ -1,0 +1,85 @@
+/* Camino del temario, logros y protector de racha (camino.js y la tarjeta de racha).
+   Mismo estilo "Carretera": la ruta es una carretera con arcén y línea discontinua. */
+
+/* ---- Protector de racha (tarjeta de racha) ---- */
+.protector { grid-column: 1 / -1; display: flex; align-items: center; gap: 8px; margin-top: 12px; padding: 8px 12px; border-radius: 12px; font-size: .8125rem; font-weight: 700; color: var(--texto2); background: var(--relleno); }
+.protector svg.ico { width: 20px; height: 20px; color: var(--tinte); flex: none; }
+.protector b { color: var(--texto); font-weight: 900; }
+.protector.usado svg.ico { color: var(--texto3); }
+.semana .descanso i { background: var(--tinte-suave); color: var(--tinte-texto); box-shadow: inset 0 0 0 2px var(--tinte); }
+
+/* ---- Camino ---- */
+.camino { position: relative; list-style: none; margin: 18px auto 8px; padding: 0; max-width: 560px; }
+.camino-via { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.camino-via path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.camino-via .arcen { stroke: var(--borde); stroke-width: 34px; }
+.camino-via .asfalto { stroke: var(--relleno-fuerte); stroke-width: 26px; }
+.camino-via .recorrido { stroke: var(--verde-suave); stroke-width: 26px; }
+.camino-via .linea { stroke: var(--celda); stroke-width: 3px; stroke-dasharray: 10 12; }
+
+.etapa { position: absolute; left: 0; right: 0; top: calc(var(--y) - 58px); height: 116px; }
+.etapa-boton { position: absolute; left: calc(var(--x) - 38px); top: 20px; width: 76px; height: 76px; border-radius: 50%; display: grid; place-items: center; text-decoration: none !important; -webkit-user-select: none; user-select: none; }
+.etapa-anillo { width: 76px; height: 76px; border-radius: 50%; padding: 5px; display: grid; place-items: center;
+  background: conic-gradient(var(--anillo, var(--verde)) calc(var(--p, 0) * 1%), var(--celda) 0); box-shadow: 0 0 0 2px var(--borde); }
+.etapa-disco { width: 62px; height: 62px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 1.5rem;
+  background: var(--fondo-etapa, var(--violeta)); box-shadow: 0 5px 0 var(--borde-etapa, var(--violeta-borde)); transform: translateY(-3px); transition: transform .08s, box-shadow .08s; }
+.etapa-disco b { font-variant-numeric: tabular-nums; }
+.etapa-disco svg.ico { width: 32px; height: 32px; stroke-width: 2.4; }
+.etapa-boton:active .etapa-disco { transform: translateY(2px); box-shadow: 0 0 0 var(--borde-etapa, var(--violeta-borde)); }
+@media (hover: hover) { .etapa-boton:hover .etapa-disco { filter: brightness(1.08); } }
+
+/* Estados: sin empezar (gris azulado), empezada (violeta), superada (verde), coronada (ámbar), siguiente (azul) */
+.etapa.n0 { --fondo-etapa: var(--gris); --borde-etapa: var(--gris-borde); }
+.etapa.n0.adelante .etapa-disco { --fondo-etapa: var(--relleno-fuerte); --borde-etapa: var(--borde); color: var(--texto3); }
+.etapa.n2 { --fondo-etapa: var(--verde); --borde-etapa: var(--verde-borde); }
+.etapa.coronada { --fondo-etapa: var(--ambar); --borde-etapa: var(--ambar-borde); --anillo: var(--ambar); }
+.etapa.coronada .etapa-disco svg.ico { fill: rgba(255,255,255,.35); }
+.etapa.coronada.bajo { --anillo: var(--naranja); }
+.etapa.siguiente:not(.coronada) { --fondo-etapa: var(--tinte); --borde-etapa: var(--tinte-borde); --anillo: var(--tinte); }
+.etapa.siguiente .etapa-anillo { box-shadow: 0 0 0 2px var(--tinte), 0 0 0 8px var(--tinte-suave); animation: latido 2.2s ease-in-out infinite; }
+.etapa-globo { position: absolute; left: var(--x); top: -16px; transform: translateX(-50%); white-space: nowrap; padding: 5px 12px; border-radius: 12px; font-size: .8125rem; font-weight: 900; text-transform: uppercase; letter-spacing: .04em;
+  color: var(--tinte-texto); background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 3px 0 var(--borde); animation: bote 1.6s ease-in-out infinite; z-index: 1; }
+.etapa-globo::after { content: ""; position: absolute; left: 50%; bottom: -8px; width: 12px; height: 12px; background: var(--celda); border: 2px solid var(--borde); border-top: 0; border-left: 0; transform: translateX(-50%) rotate(45deg); }
+@keyframes bote { 50% { transform: translateX(-50%) translateY(-5px); } }
+
+.etapa-texto { position: absolute; top: 50%; transform: translateY(-50%); display: grid; gap: 1px; color: var(--texto); text-decoration: none !important; line-height: 1.2; }
+.etapa.izq .etapa-texto { left: calc(var(--x) + 50px); right: 0; text-align: left; }
+.etapa.der .etapa-texto { left: 0; right: calc(100% - var(--x) + 50px); text-align: right; }
+.etapa-texto small { font-size: .75rem; font-weight: 800; color: var(--texto3); text-transform: uppercase; letter-spacing: .04em; }
+.etapa-texto strong { font-size: .9375rem; font-weight: 900; }
+.etapa-texto span { font-size: .8125rem; font-weight: 700; color: var(--texto2); }
+.etapa.coronada .etapa-texto span { color: var(--ambar-texto); }
+.etapa.coronada.bajo .etapa-texto span { color: var(--naranja-texto); }
+.etapa.n2:not(.coronada) .etapa-texto span { color: var(--verde-texto); }
+.etapa.meta-final .etapa-disco { --fondo-etapa: var(--rojo); --borde-etapa: var(--rojo-borde); }
+.etapa.meta-final.coronada .etapa-disco { --fondo-etapa: var(--verde); --borde-etapa: var(--verde-borde); }
+.etapa.meta-final .etapa-boton { left: calc(var(--x) - 31px); top: 27px; width: 62px; height: 62px; }
+.etapa-texto.centro { left: 0; right: 0; top: 100px; transform: none; text-align: center; }
+
+/* Aviso en la portada de una materia */
+.guia-etapa { position: static; width: auto; height: auto; display: flex; gap: 12px; align-items: center; margin: 12px 0 4px; padding: 12px 14px; border-radius: var(--radio); background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); font-size: .875rem; color: var(--texto2); font-weight: 700; }
+.guia-etapa > span:last-child { display: grid; gap: 2px; }
+.guia-etapa strong { color: var(--texto); font-size: 1rem; font-weight: 900; }
+.etapa-disco.mini { flex: none; width: 44px; height: 44px; font-size: 1.125rem; transform: none; box-shadow: 0 3px 0 var(--borde-etapa, var(--violeta-borde)); }
+.etapa-disco.mini svg.ico { width: 24px; height: 24px; }
+
+/* ---- Logros ---- */
+.logros { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+@media (min-width: 640px) { .logros { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } }
+.logro { display: flex; gap: 12px; align-items: flex-start; padding: 14px; border-radius: var(--radio); background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); }
+.logro-sello { flex: none; width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; color: var(--texto3); background: var(--relleno-fuerte); }
+.logro-sello svg.ico { width: 28px; height: 28px; stroke-width: 2.4; }
+.logro.conseguido .logro-sello { color: #fff; background: var(--ambar); box-shadow: inset 0 -4px 0 var(--ambar-borde); }
+.logro.conseguido .logro-sello svg.ico { fill: rgba(255,255,255,.25); }
+.logro-cuerpo { display: grid; gap: 2px; min-width: 0; flex: 1; }
+.logro-cuerpo strong { font-weight: 900; font-size: 1rem; }
+.logro-cuerpo > span { font-size: .8125rem; color: var(--texto2); font-weight: 700; }
+.logro-cuerpo small { font-size: .75rem; color: var(--ambar-texto); font-weight: 800; }
+.logro:not(.conseguido) .logro-cuerpo strong { color: var(--texto2); }
+.logro-avance { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+.logro-avance .progreso { flex: 1; height: 10px; margin: 0; }
+.logro-avance .progreso > i { min-width: 0; background: var(--ambar); }
+.logro-avance .progreso > i::after { display: none; }
+.logro-avance small { color: var(--texto3); font-variant-numeric: tabular-nums; }
+
+.aviso-flotante.corona, .aviso-flotante.logro { background: var(--ambar-borde); }

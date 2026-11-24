@@ -35,16 +35,26 @@
     if (pr) { const d = (pr.actual.dias || {})[k]; return d ? (d.r || 0) : 0; }
     return estado.dias[k] || 0;
   }
+  // Con progreso.js, la racha incluye el protector: un día de descanso por semana (de lunes a domingo)
+  // no la rompe. Sin progreso.js, racha simple de días seguidos.
   function racha() {
-    const hechasHoy = respuestasDe(clave(0));
-    let dias = 0, n = hechasHoy > 0 ? 0 : 1;
-    while (respuestasDe(clave(n)) > 0) { dias++; n++; }
+    const hechasHoy = respuestasDe(clave(0)), pr = P();
+    let dias = 0, descansos = [], protector = null;
+    if (pr && typeof pr.rachaDetalle === "function") {
+      const r = pr.rachaDetalle(pr.actual);
+      dias = r.dias; descansos = r.descansos;
+      protector = { disponible: r.protectorDisponible, usado: r.descansoSemana };
+    } else {
+      let n = hechasHoy > 0 ? 0 : 1;
+      while (respuestasDe(clave(n)) > 0) { dias++; n++; }
+    }
     const semana = [];
     for (let i = 6; i >= 0; i--) {
-      const d = haceDias(i), r = respuestasDe(clave(i));
-      semana.push({ fecha: fecha(d), letra: "DLMXJVS"[d.getDay()], hecho: r > 0, meta: r >= estado.objetivo, hoy: i === 0 });
+      const d = haceDias(i), k = clave(i), r = respuestasDe(k);
+      semana.push({ fecha: fecha(d), letra: "DLMXJVS"[d.getDay()], hecho: r > 0, meta: r >= estado.objetivo, hoy: i === 0, descanso: descansos.includes(k) });
     }
-    return { dias, hoy: hechasHoy, objetivo: estado.objetivo, cumplidoHoy: hechasHoy >= estado.objetivo, semana };
+    const ayer = clave(1);
+    return { dias, hoy: hechasHoy, objetivo: estado.objetivo, cumplidoHoy: hechasHoy >= estado.objetivo, semana, protector, descansoAyer: descansos.includes(ayer) };
   }
   // Anota n respuestas de hoy (después de que app.js las registre). Devuelve true si con ellas se acaba
   // de cumplir el objetivo diario.

@@ -192,9 +192,10 @@
   }
 
   // Orden de las opciones: se baraja en cada sesión para que no se pueda acertar por posición.
-  // No se baraja si alguna opción se refiere a la posición de otra ("las dos anteriores", "a y b"...).
+  // No se baraja si alguna opción se refiere a la posición de otra ("las dos anteriores", "a y b"...)
+  // o nombra elementos con letras ("el vehículo A"), para que no choquen con las letras de las opciones.
   const NATURAL = ["a", "b", "c"];
-  const DEPENDE_DEL_ORDEN = /anterior|ambas|las dos\b|los dos\b|ninguna de|todas las (respuestas|opciones)|\b[abc]\)|\b[ab] y [bc]\b|opci[oó]n(es)? [abc]\b|respuestas? [abc]\b/i;
+  const DEPENDE_DEL_ORDEN = /anterior|ambas|las dos\b|los dos\b|ninguna de|todas las (respuestas|opciones)|\b[abc]\)|\b[ab] y [bc]\b|opci[oó]n(es)? [abc]\b|respuestas? [abc]\b|\b(veh[ií]culos?|turismos?|coches?|motos?|conductor(es)?) [ABC]\b/i;
   let ordenes = new Map();
   function ordenDe(p) {
     if (!ordenes.has(p.id)) ordenes.set(p.id, NATURAL.some(k => DEPENDE_DEL_ORDEN.test(p.opciones[k])) ? NATURAL : barajar(NATURAL));

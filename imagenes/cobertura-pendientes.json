@@ -3,7 +3,9 @@
   "id": "A-pri-0001",
   "tipo": "esquema",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/cruce-sin-senalizar-tres-vehiculos.svg"
+  ]
  },
  {
   "id": "A-ani-0001",
@@ -49,25 +51,33 @@
   "id": "B1-sen-0006",
   "tipo": "esquema",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/semaforo-ambar-intermitente-stop.svg"
+  ]
  },
  {
   "id": "B1-sen-0007",
   "tipo": "esquema",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/ceda-y-stop-recto.svg"
+  ]
  },
  {
   "id": "B1-sen-0008",
   "tipo": "esquema",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/ceda-y-stop-derecha.svg"
+  ]
  },
  {
   "id": "B1-sen-0009",
   "tipo": "senal",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/poblado-y-limite-velocidad.svg"
+  ]
  },
  {
   "id": "B1-sen-0011",
@@ -87,7 +97,9 @@
   "id": "B1-sen-0016",
   "tipo": "esquema",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/agente-brazos-horizontales.svg"
+  ]
  },
  {
   "id": "B1-sen-0018",
@@ -165,7 +177,9 @@
   "id": "B1-sen-0049",
   "tipo": "esquema",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/semaforo-flecha-verde-derecha.svg"
+  ]
  },
  {
   "id": "B1-sen-0050",
@@ -177,7 +191,9 @@
   "id": "B1-sen-0051",
   "tipo": "esquema",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/carril-reversible-semaforos.svg"
+  ]
  },
  {
   "id": "B1-sen-0052",
@@ -276,7 +292,9 @@
   "id": "B1-pri-0071",
   "tipo": "esquema",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/incorporacion-autopista.svg"
+  ]
  },
  {
   "id": "B1-pri-0072",
@@ -853,13 +871,17 @@
   "id": "B2-mv-0018",
   "tipo": "marca_vial",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/marca-doble-continua.svg"
+  ]
  },
  {
   "id": "B2-mv-0019",
   "tipo": "marca_vial",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/marca-continua-adosada-discontinua.svg"
+  ]
  },
  {
   "id": "B2-mv-0021",
@@ -1004,7 +1026,9 @@
   "id": "B2-mv-0045",
   "tipo": "marca_vial",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/avanza-motos.svg"
+  ]
  },
  {
   "id": "B2-mv-0046",

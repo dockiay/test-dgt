@@ -57,8 +57,10 @@
         "minuto": "1:22:24"
       },
       "imagen": {
-        "pendiente": "Cruce de cuatro brazos, todos pavimentados, sin ninguna señal ni marca vial ni semáforo. Vehículo A (turismo) llega por el brazo SUR y va a seguir recto hacia el norte. Vehículo B (turismo) llega por el brazo ESTE y va a seguir recto hacia el oeste. Vehículo C (turismo) llega por el brazo NORTE y va a seguir recto hacia el sur. El brazo OESTE está vacío. Los tres están detenidos a la entrada del cruce, rotulados A, B y C.",
-        "codigo": null
+        "src": "img/esquemas/cruce-sin-senalizar-tres-vehiculos.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Cruce de cuatro brazos sin señales, marcas ni semáforos. El vehículo A llega por el sur, el B por el este y el C por el norte; los tres quieren seguir recto. El brazo oeste está vacío.",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -3395,8 +3397,10 @@
         "minuto": "2:05:18"
       },
       "imagen": {
-        "pendiente": "Acceso a una intersección con un semáforo circular en amarillo intermitente y, en el mismo poste o junto a él, una señal vertical de STOP (R-2).",
-        "codigo": null
+        "src": "img/esquemas/semaforo-ambar-intermitente-stop.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz amarilla intermitente y, en el mismo poste, una señal de STOP.",
+        "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -3433,8 +3437,10 @@
         "minuto": "2:06:24"
       },
       "imagen": {
-        "pendiente": "Intersección vista desde el conductor: a la derecha de la calzada una señal de ceda el paso (R-1) y a la izquierda una señal de STOP (R-2). Una flecha indica que el turismo quiere seguir de frente.",
-        "codigo": null
+        "src": "img/esquemas/ceda-y-stop-recto.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a seguir de frente.",
+        "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -3471,8 +3477,10 @@
         "minuto": "2:06:16"
       },
       "imagen": {
-        "pendiente": "Intersección vista desde el conductor: a la derecha una señal de ceda el paso (R-1) y a la izquierda una señal de STOP (R-2). Una flecha indica que el turismo quiere girar a la derecha.",
-        "codigo": null
+        "src": "img/esquemas/ceda-y-stop-derecha.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a girar a la derecha.",
+        "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -3509,8 +3517,10 @@
         "minuto": "2:04:19"
       },
       "imagen": {
-        "pendiente": "Señal de localización con el nombre de un poblado (p. ej. 'Toledo') y, en el mismo poste, encima, una señal circular de velocidad máxima 40.",
-        "codigo": null
+        "src": "img/esquemas/poblado-y-limite-velocidad.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Carretera que llega a un poblado: en el mismo poste hay una señal de velocidad máxima 40 y, debajo, la señal de entrada a poblado con su nombre.",
+        "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -3749,8 +3759,10 @@
         "minuto": "2:07:17"
       },
       "imagen": {
-        "pendiente": "Vista cenital de una intersección con un agente en el centro con los brazos extendidos horizontalmente en dirección este-oeste; vehículos aproximándose desde el norte, el sur, el este y el oeste.",
-        "codigo": null
+        "src": "img/esquemas/agente-brazos-horizontales.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde arriba de una intersección con un agente en el centro con los brazos extendidos horizontalmente hacia el este y el oeste. Se acercan vehículos por el sur (A), el norte (B), el este (C) y el oeste (D).",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4863,8 +4875,10 @@
         "minuto": "2:13:45"
       },
       "imagen": {
-        "pendiente": "Calzada con dos carriles ante un semáforo: el derecho con flecha pintada de giro a la derecha; un turismo gris detenido en el carril derecho; semáforo con luz roja circular y flecha verde hacia la derecha encendida.",
-        "codigo": null
+        "src": "img/esquemas/semaforo-flecha-verde-derecha.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de dos carriles ante un semáforo. En el carril derecho hay una flecha pintada de giro a la derecha y un turismo detenido ante la línea; en el izquierdo, una flecha de frente. El semáforo tiene la luz roja encendida y una flecha verde de giro a la derecha encendida.",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -4939,8 +4953,10 @@
         "minuto": "2:14:22"
       },
       "imagen": {
-        "pendiente": "Calzada con carril reversible: semáforo de carril cuadrado con flecha verde hacia abajo sobre el carril y, más adelante, un semáforo circular con luz roja.",
-        "codigo": null
+        "src": "img/esquemas/carril-reversible-semaforos.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante hay un semáforo circular con la luz roja encendida.",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5632,8 +5648,10 @@
         "minuto": "2:16:59"
       },
       "imagen": {
-        "pendiente": "Autopista de dos carriles con un carril de aceleración a la derecha por el que se incorpora un turismo; un turismo circula por el carril derecho a la altura de la incorporación, con el carril izquierdo libre.",
-        "codigo": null
+        "src": "img/esquemas/incorporacion-autopista.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Autopista de dos carriles. El vehículo A circula por el carril derecho a la altura del carril de aceleración; el vehículo B se incorpora por el carril de aceleración. El carril izquierdo está libre.",
+        "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -8820,8 +8838,10 @@
         "minuto": "3:20:49"
       },
       "imagen": {
-        "pendiente": "Eje de calzada de doble sentido marcado con dos líneas longitudinales blancas continuas y paralelas (marcas continuas M-2.1 a M-2.3).",
-        "codigo": null
+        "src": "img/esquemas/marca-doble-continua.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Calzada de doble sentido cuyo eje está marcado con dos líneas blancas continuas y paralelas. El vehículo A circula hacia la derecha y el B en sentido contrario.",
+        "credito": "Esquema propio del proyecto"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -8858,8 +8878,10 @@
         "minuto": "3:21:51"
       },
       "imagen": {
-        "pendiente": "Eje de calzada de doble sentido con una línea continua adosada a una discontinua (M-3.1 a M-3.3); el turismo del usuario circula por el carril contiguo a la línea discontinua.",
-        "codigo": null
+        "src": "img/esquemas/marca-continua-adosada-discontinua.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Calzada de doble sentido cuyo eje está formado por una línea continua adosada a una discontinua. El vehículo A circula por el carril contiguo a la línea discontinua; el B, en sentido contrario, junto a la continua.",
+        "credito": "Esquema propio del proyecto"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9362,8 +9384,10 @@
         "minuto": "3:25:48"
       },
       "imagen": {
-        "pendiente": "Flecha de fin de carril pintada en el carril derecho: flecha curvada que se desvía hacia el carril de la izquierda.",
-        "codigo": "M-5.4"
+        "src": "img/marcas/M-5.4b.png",
+        "alt": "Marca vial de la pregunta",
+        "alt_detalle": "Marca vial M-5.4b (plano oficial con medidas)",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 699 del PDF consolidado"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9520,13 +9544,15 @@
         "minuto": "3:26:43"
       },
       "imagen": {
-        "pendiente": "Zona de cebreado: franjas blancas oblicuas y paralelas enmarcadas por una línea continua, en la divergencia de una salida.",
-        "codigo": "M-7.1"
+        "src": "img/marcas/M-7.1a.png",
+        "alt": "Marca vial de la pregunta",
+        "alt_detalle": "Marca vial M-7.1a (plano oficial con medidas)",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 709 del PDF consolidado"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
         "codigo": "M-7.1",
-        "descripcion": "Zona de cebreado: franjas blancas oblicuas y paralelas enmarcadas por una línea continua, en la divergencia de una salida."
+        "descripcion": "Zona de cebreado: franjas blancas oblicuas y paralelas enmarcadas por una línea continua."
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -9758,8 +9784,10 @@
         "minuto": "3:02:53"
       },
       "imagen": {
-        "pendiente": "Avanza-motos: espacio delimitado por dos líneas transversales continuas separadas 4 m antes de un paso de peatones con semáforo, con pictogramas de moto y bici en su interior.",
-        "codigo": null
+        "src": "img/esquemas/avanza-motos.svg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Calle con un semáforo en rojo y un paso de peatones. Antes del paso hay un espacio de 4 m delimitado por dos líneas de detención, con pictogramas de motocicleta y bicicleta. Los turismos A y B esperan detrás.",
+        "credito": "Esquema propio del proyecto"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",

@@ -15777,6 +15777,162 @@
    },
    "licencia": "Propia del proyecto (sin derechos de terceros)",
    "formato": "svg"
+  },
+  {
+   "id": "cruce-sin-senalizar-tres-vehiculos",
+   "tipo": "esquema",
+   "src": "img/esquemas/cruce-sin-senalizar-tres-vehiculos.svg",
+   "nombre": "Cruce sin señalizar con tres vehículos",
+   "alt": "Cruce de cuatro brazos sin señales, marcas ni semáforos. El vehículo A llega por el sur, el B por el este y el C por el norte; los tres quieren seguir recto. El brazo oeste está vacío.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-ambar-intermitente-stop",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-ambar-intermitente-stop.svg",
+   "nombre": "Semáforo ámbar intermitente con STOP",
+   "alt": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz amarilla intermitente y, en el mismo poste, una señal de STOP.",
+   "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "ceda-y-stop-recto",
+   "tipo": "esquema",
+   "src": "img/esquemas/ceda-y-stop-recto.svg",
+   "nombre": "Señales distintas a cada lado (recto)",
+   "alt": "Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a seguir de frente.",
+   "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "ceda-y-stop-derecha",
+   "tipo": "esquema",
+   "src": "img/esquemas/ceda-y-stop-derecha.svg",
+   "nombre": "Señales distintas a cada lado (giro a la derecha)",
+   "alt": "Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a girar a la derecha.",
+   "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "agente-brazos-horizontales",
+   "tipo": "esquema",
+   "src": "img/esquemas/agente-brazos-horizontales.svg",
+   "nombre": "Agente con los brazos extendidos",
+   "alt": "Vista desde arriba de una intersección con un agente en el centro con los brazos extendidos horizontalmente hacia el este y el oeste. Se acercan vehículos por el sur (A), el norte (B), el este (C) y el oeste (D).",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "semaforo-flecha-verde-derecha",
+   "tipo": "esquema",
+   "src": "img/esquemas/semaforo-flecha-verde-derecha.svg",
+   "nombre": "Rojo con flecha verde de giro",
+   "alt": "Calzada de dos carriles ante un semáforo. En el carril derecho hay una flecha pintada de giro a la derecha y un turismo detenido ante la línea; en el izquierdo, una flecha de frente. El semáforo tiene la luz roja encendida y una flecha verde de giro a la derecha encendida.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "carril-reversible-semaforos",
+   "tipo": "esquema",
+   "src": "img/esquemas/carril-reversible-semaforos.svg",
+   "nombre": "Semáforo de carril y semáforo en rojo",
+   "alt": "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante hay un semáforo circular con la luz roja encendida.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "incorporacion-autopista",
+   "tipo": "esquema",
+   "src": "img/esquemas/incorporacion-autopista.svg",
+   "nombre": "Incorporación a una autopista",
+   "alt": "Autopista de dos carriles. El vehículo A circula por el carril derecho a la altura del carril de aceleración; el vehículo B se incorpora por el carril de aceleración. El carril izquierdo está libre.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "marca-doble-continua",
+   "tipo": "esquema",
+   "src": "img/esquemas/marca-doble-continua.svg",
+   "nombre": "Doble línea continua",
+   "alt": "Calzada de doble sentido cuyo eje está marcado con dos líneas blancas continuas y paralelas. El vehículo A circula hacia la derecha y el B en sentido contrario.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "marca-continua-adosada-discontinua",
+   "tipo": "esquema",
+   "src": "img/esquemas/marca-continua-adosada-discontinua.svg",
+   "nombre": "Línea continua adosada a discontinua",
+   "alt": "Calzada de doble sentido cuyo eje está formado por una línea continua adosada a una discontinua. El vehículo A circula por el carril contiguo a la línea discontinua; el B, en sentido contrario, junto a la continua.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "avanza-motos",
+   "tipo": "esquema",
+   "src": "img/esquemas/avanza-motos.svg",
+   "nombre": "Avanza-motos ante un semáforo",
+   "alt": "Calle con un semáforo en rojo y un paso de peatones. Antes del paso hay un espacio de 4 m delimitado por dos líneas de detención, con pictogramas de motocicleta y bicicleta. Los turismos A y B esperan detrás.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "poblado-y-limite-velocidad",
+   "tipo": "esquema",
+   "src": "img/esquemas/poblado-y-limite-velocidad.svg",
+   "nombre": "Límite de velocidad junto a la señal de poblado",
+   "alt": "Carretera que llega a un poblado: en el mismo poste hay una señal de velocidad máxima 40 y, debajo, la señal de entrada a poblado con su nombre.",
+   "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
   }
  ]
 }

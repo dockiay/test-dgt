@@ -698,7 +698,7 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `figuras-boe/anexoI-pag083-010.jpg` | Semáforos cuadrados o de carril | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3 |
 | `figuras-boe/anexoI-pag084-011.jpg` | Semáforos reservados a determinados vehículos (ciclos, tranvías y autobuses) | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4 |
 
-## Esquemas propios (5)
+## Esquemas propios (17)
 
 | Fichero | Qué muestra | Fuente |
 |---|---|---|
@@ -707,4 +707,16 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `esquemas/adelantamiento-linea-discontinua.svg` | Vía de doble sentido con línea central discontinua. El vehículo A adelanta al vehículo B; el vehículo C circula de frente por el carril contrario. | Esquema propio del proyecto |
 | `esquemas/incorporacion-autovia.svg` | El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía. | Esquema propio del proyecto |
 | `esquemas/interseccion-t-stop.svg` | Intersección en T. El vehículo A está en la vía secundaria, ante una línea de detención con la marca STOP, y quiere girar a la izquierda; el vehículo B circula por la vía principal acercándose desde la derecha de A. | Esquema propio del proyecto |
+| `esquemas/cruce-sin-senalizar-tres-vehiculos.svg` | Cruce de cuatro brazos sin señales, marcas ni semáforos. El vehículo A llega por el sur, el B por el este y el C por el norte; los tres quieren seguir recto. El brazo oeste está vacío. | Esquema propio del proyecto |
+| `esquemas/semaforo-ambar-intermitente-stop.svg` | Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz amarilla intermitente y, en el mismo poste, una señal de STOP. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
+| `esquemas/ceda-y-stop-recto.svg` | Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a seguir de frente. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
+| `esquemas/ceda-y-stop-derecha.svg` | Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a girar a la derecha. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
+| `esquemas/agente-brazos-horizontales.svg` | Vista desde arriba de una intersección con un agente en el centro con los brazos extendidos horizontalmente hacia el este y el oeste. Se acercan vehículos por el sur (A), el norte (B), el este (C) y el oeste (D). | Esquema propio del proyecto |
+| `esquemas/semaforo-flecha-verde-derecha.svg` | Calzada de dos carriles ante un semáforo. En el carril derecho hay una flecha pintada de giro a la derecha y un turismo detenido ante la línea; en el izquierdo, una flecha de frente. El semáforo tiene la luz roja encendida y una flecha verde de giro a la derecha encendida. | Esquema propio del proyecto |
+| `esquemas/carril-reversible-semaforos.svg` | Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante hay un semáforo circular con la luz roja encendida. | Esquema propio del proyecto |
+| `esquemas/incorporacion-autopista.svg` | Autopista de dos carriles. El vehículo A circula por el carril derecho a la altura del carril de aceleración; el vehículo B se incorpora por el carril de aceleración. El carril izquierdo está libre. | Esquema propio del proyecto |
+| `esquemas/marca-doble-continua.svg` | Calzada de doble sentido cuyo eje está marcado con dos líneas blancas continuas y paralelas. El vehículo A circula hacia la derecha y el B en sentido contrario. | Esquema propio del proyecto |
+| `esquemas/marca-continua-adosada-discontinua.svg` | Calzada de doble sentido cuyo eje está formado por una línea continua adosada a una discontinua. El vehículo A circula por el carril contiguo a la línea discontinua; el B, en sentido contrario, junto a la continua. | Esquema propio del proyecto |
+| `esquemas/avanza-motos.svg` | Calle con un semáforo en rojo y un paso de peatones. Antes del paso hay un espacio de 4 m delimitado por dos líneas de detención, con pictogramas de motocicleta y bicicleta. Los turismos A y B esperan detrás. | Esquema propio del proyecto |
+| `esquemas/poblado-y-limite-velocidad.svg` | Carretera que llega a un poblado: en el mismo poste hay una señal de velocidad máxima 40 y, debajo, la señal de entrada a poblado con su nombre. | Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514) |
 

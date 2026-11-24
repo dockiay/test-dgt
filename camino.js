@@ -1,7 +1,12 @@
 /* Camino del temario, logros y celebraciones de coronas.
-   - Camino: las 16 materias como etapas de una carretera. Una etapa se «supera» al dominar el 60 % de sus
-     preguntas (desbloquea la siguiente) y se «corona» al dominar el 80 %. El desbloqueo es solo una guía:
-     cualquier materia se puede practicar siempre.
+   - Camino: las 16 materias partidas en unidades por tema. Cada unidad tiene de 2 a 5 niveles de 10
+     preguntas (7 de la unidad y 3 de repaso escondido de unidades anteriores), un cofre a mitad y un test de
+     paso final (20 preguntas, máximo 3 fallos). Aprobar el test de una unidad más adelante («saltar aquí»)
+     da por hechas las anteriores de la misma materia. Con la unidad superada, el reto legendario (20 sin
+     ningún fallo) la pone en oro. Lo hecho va en datos.camino. Quien ya dominaba el 60 % de una materia o
+     unidad (regla anterior) la conserva superada. Una materia se «corona» al dominar el 80 %. Todo es una
+     guía: cualquier paso o materia se puede practicar siempre.
+   - Al completar un paso, la próxima vez que se abre el camino se anima el avance (animarAvance).
    - Logros: premian aprender (preguntas dominadas, fallos convertidos en aciertos, materias coronadas,
      exámenes aprobados), no el tiempo ni puntos sin sentido. Una vez conseguidos se conservan.
    Los logros se guardan en datos.logros ({id: ms en que se consiguió}) y viajan con el progreso
@@ -30,23 +35,98 @@
   if (typeof P.extender === "function") P.extender("logros", { vacio: () => ({}), normalizar: normalizarLogros, combinar: combinarLogros });
   const logrosDe = d => (d.logros && typeof d.logros === "object") ? d.logros : (d.logros = {});
 
-  // ---------- Etapas del camino ----------
-  // nivel: 0 sin empezar, 1 empezada, 2 superada, 3 coronada. La corona, una vez ganada, se conserva,
-  // pero si el dominio baja del 80 % se avisa para repasarla.
+  // ---------- Unidades y niveles ----------
+  // Cada materia se parte en unidades por tema; cada unidad tiene de 2 a 5 niveles de 10 preguntas y
+  // termina con un test de paso (20 preguntas, máximo 3 fallos). Lo hecho se guarda en datos.camino
+  // ({clave: ms}): "nv-m1u3-2" (nivel 2 de la unidad 3 de la materia 1) y "paso-m1u3".
+  const NIVEL_N = 10, NIVEL_REPASO = 3, PASO_N = 20, PASO_FALLOS = 3;
+  if (typeof P.extender === "function") P.extender("camino", { vacio: () => ({}), normalizar: normalizarLogros, combinar: combinarLogros });
+  const caminoDe = d => (d.camino && typeof d.camino === "object") ? d.camino : (d.camino = {});
+
+  // Materia 1 (654 preguntas): por tema, subtema y código de la señal de la imagen.
+  const M1 = [["vias", "Vías, carriles y definiciones"], ["s-normas", "Señales: normas, agentes y semáforos"], ["s-peligro", "Señales de peligro y de prioridad"],
+    ["s-reglas", "Señales de prohibición y obligación"], ["s-indicacion", "Señales de indicación"], ["marcas", "Marcas viales"], ["prioridad", "Prioridad de paso"],
+    ["velocidad", "Velocidad"], ["maniobras", "Incorporarse, girar, cambiar de sentido y marcha atrás"], ["adelantamiento", "Adelantamiento"],
+    ["parada", "Parada, estacionamiento y luces"], ["sanciones", "Infracciones, sanciones y delitos"]];
+  function unidadM1(p) {
+    const t = p.tema, s = p.subtema || "", txt = (p.enunciado || "").toLowerCase();
+    const m = String((p.imagen && p.imagen.src) || "").match(/\/([A-Z]{1,2})-(\d+)/), c = m ? [m[1], +m[2]] : null;
+    if (["vias", "definiciones", "por_donde_circular", "carriles_especiales", "glorietas"].includes(t)) return "vias";
+    if (t === "velocidad" || (s.includes("velocidad") && t !== "senales_verticales")) return "velocidad";
+    if (["prioridad", "incorporacion"].includes(t)) return "prioridad";
+    if (["maniobras", "cambio_direccion", "cambio_sentido", "marcha_atras"].includes(t)) return "maniobras";
+    if (t === "adelantamiento") return "adelantamiento";
+    if (["parada_estacionamiento", "luces", "senales_vehiculo", "documentacion"].includes(t)) return "parada";
+    if (["infracciones", "infracciones_sanciones", "delitos_seguridad_vial", "distracciones"].includes(t)) return "sanciones";
+    if (t === "marcas_viales" || (c && c[0] === "M") || s.includes("marcas")) return "marcas";
+    if (/agente|semaforo|balizamiento|obras|paso_a_nivel|orden_pref|prelacion|obediencia|concepto|aplicacion|inscripciones|idioma|obligaciones|catalogo|paneles/.test(s) || /agente|semáforo/.test(txt)) return "s-normas";
+    if ((c && c[0] === "P") || /peligro|advertencia|senales_prioridad|restriccion/.test(s) || (c && c[0] === "R" && c[1] < 100)) return "s-peligro";
+    if ((c && c[0] === "R") || /prohib|obligacion/.test(s)) return "s-reglas";
+    if ((c && c[0] === "S") || /indicacion/.test(s)) return "s-indicacion";
+    return "s-normas";
+  }
+  // Materias que se parten en dos: [nombre y temas de la primera unidad, nombre de la segunda (el resto)].
+  const DOS = {
+    4: ["Alcohol, drogas y medicamentos", ["alcohol_drogas", "medicamentos", "delitos", "delitos_seguridad_vial", "infracciones_sanciones", "normas_generales"], "Percepción, fatiga y distracciones"],
+    6: ["Luces, noche y túneles", ["luces", "noche", "tuneles", "senales", "senales_verticales", "infracciones_sanciones", "por_donde_circular", "carriles_especiales"], "Lluvia, niebla y otras condiciones adversas"],
+    8: ["Peatones, ciclistas y otros usuarios vulnerables", ["usuarios_vulnerables", "peatones", "vmp", "ciclos"], "Normas de circulación con usuarios vulnerables"],
+    10: ["Permiso de conducción y puntos", ["permiso_conduccion", "puntos", "infracciones_sanciones"], "Documentación, ITV y seguro"],
+    11: ["Qué hacer en un accidente", ["accidentes", "adas", "accesorios_obligatorios"], "Primeros auxilios"],
+    14: ["Mecánica, neumáticos y mantenimiento", ["mecanica", "neumaticos", "vehiculo"], "Seguridad activa y asistentes (ADAS)"],
+  };
+  let UNIDADES = null, NODOS = null;
+  // Se construyen una vez, a partir del banco: UNIDADES en orden y NODOS (niveles y tests) en el orden del camino.
+  function construir() {
+    if (UNIDADES) return;
+    const A = window.App;
+    if (!A || !A.PREGUNTAS) return;
+    UNIDADES = []; NODOS = [];
+    for (const [n, nombreM] of A.MATERIAS) {
+      const ps = A.PREGUNTAS.filter(p => p.materia === n);
+      if (!ps.length) continue;
+      let grupos;
+      if (n === 1) grupos = M1.map(([k, t]) => [t, ps.filter(p => unidadM1(p) === k)]);
+      else if (DOS[n]) grupos = [[DOS[n][0], ps.filter(p => DOS[n][1].includes(p.tema))], [DOS[n][2], ps.filter(p => !DOS[n][1].includes(p.tema))]];
+      else grupos = [[nombreM, ps]];
+      grupos = grupos.filter(g => g[1].length);
+      grupos.forEach(([titulo, lista], i) => {
+        const u = { id: `m${n}u${i + 1}`, materia: n, k: i + 1, de: grupos.length, titulo, ids: lista.map(p => p.id), nodos: [] };
+        u.niveles = Math.max(2, Math.min(5, Math.ceil(u.ids.length / 20)));
+        const cofre = Math.ceil(u.niveles / 2); // cofre de recompensa a mitad de unidad
+        for (let j = 1; j <= u.niveles; j++) {
+          u.nodos.push({ tipo: "nivel", clave: `nv-${u.id}-${j}`, unidad: u, i: j });
+          if (j === cofre) u.nodos.push({ tipo: "cofre", clave: `cofre-${u.id}`, unidad: u });
+        }
+        u.nodos.push({ tipo: "paso", clave: `paso-${u.id}`, unidad: u });
+        u.nodos.forEach(x => { x.orden = NODOS.length; NODOS.push(x); });
+        UNIDADES.push(u);
+      });
+    }
+  }
+  const hechoN = (datos, x) => !!caminoDe(datos)[x.clave];
+  const unidadSuperada = (datos, u) => hechoN(datos, u.nodos[u.nodos.length - 1]);
+  // Nodo actual: el primero sin hacer en el orden del camino.
+  const nodoActual = datos => { construir(); return (NODOS || []).find(x => !hechoN(datos, x)) || null; };
+
+  // ---------- Etapas (materias) del camino ----------
+  // nivel: 0 sin empezar, 1 empezada, 2 superada (todas sus unidades), 3 coronada (80 % dominado). La corona,
+  // una vez ganada, se conserva, pero si el dominio baja del 80 % se avisa para repasarla.
   function etapas(datos, porMateria) {
-    const lg = logrosDe(datos), out = [];
+    construir();
+    const lg = logrosDe(datos), out = [], act = nodoActual(datos);
     let anteriorSuperada = true;
     for (let n = 1; n <= 16; n++) {
       const ids = porMateria[n] || [];
       const r = P.resumen(datos, ids);
+      const us = (UNIDADES || []).filter(u => u.materia === n), nodos = us.flatMap(u => u.nodos);
+      const hechos = nodos.filter(x => hechoN(datos, x)).length, superadas = us.filter(u => unidadSuperada(datos, u)).length;
       const coronada = !!lg["corona-m" + n], corona = ids.length > 0 && r.dominio >= CORONADA;
-      const nivel = coronada || corona ? 3 : r.dominio >= SUPERADA ? 2 : r.vistas > 0 ? 1 : 0;
+      const nivel = coronada || corona ? 3 : us.length && superadas === us.length ? 2 : (hechos || r.vistas > 0) ? 1 : 0;
       out.push({ n, total: ids.length, resumen: r, dominio: r.dominio, nivel, coronada: coronada || corona, bajo: coronada && !corona,
-        desbloqueada: anteriorSuperada || r.vistas > 0 });
+        unidades: us.length, superadas, legendaria: us.length > 0 && us.every(u => !!caminoDe(datos)["oro-" + u.id]), nodos: nodos.length, hechos, desbloqueada: anteriorSuperada || r.vistas > 0 || hechos > 0 });
       anteriorSuperada = nivel >= 2 || !ids.length;
     }
-    // Siguiente etapa recomendada: la primera sin superar; si están todas superadas, la primera sin corona.
-    const sig = out.find(e => e.total && e.nivel < 2) || out.find(e => e.total && !e.coronada);
+    const sig = (act && out[act.unidad.materia - 1]) || out.find(e => e.total && !e.coronada);
     if (sig) sig.siguiente = true;
     return out;
   }
@@ -65,6 +145,10 @@
     { id: "coronas-4", grupo: "Temario", icono: "corona", titulo: "Cuatro coronas", texto: "Corona 4 materias.", avance: c => [c.coronas, 4] },
     { id: "coronas-8", grupo: "Temario", icono: "corona", titulo: "Medio temario coronado", texto: "Corona 8 materias.", avance: c => [c.coronas, 8] },
     { id: "coronas-16", grupo: "Temario", icono: "corona", titulo: "Temario completo", texto: "Corona las 16 materias.", avance: c => [c.coronas, c.conPreguntas] },
+    { id: "unidades-5", grupo: "Temario", icono: "mapa", titulo: "Cinco unidades superadas", texto: "Aprueba el test de paso de 5 unidades del camino.", avance: c => [c.unidades, 5] },
+    { id: "cofres-5", grupo: "Temario", icono: "medalla", titulo: "Cinco cofres", texto: "Abre 5 cofres del camino.", avance: c => [c.cofres, 5] },
+    { id: "legendaria-1", grupo: "Temario", icono: "corona", titulo: "Unidad legendaria", texto: "Supera el reto legendario de una unidad: 20 preguntas sin ningún fallo.", avance: c => [c.legendarias, 1] },
+    { id: "legendaria-5", grupo: "Temario", icono: "corona", titulo: "Cinco unidades en oro", texto: "Consigue el oro en 5 unidades.", avance: c => [c.legendarias, 5] },
     { id: "aptos-1", grupo: "Examen", icono: "examen", titulo: "Primer apto", texto: "Aprueba un examen final.", avance: c => [c.aptos, 1] },
     { id: "perfecto", grupo: "Examen", icono: "trofeo", titulo: "Examen perfecto", texto: "Aprueba un examen final sin ningún fallo.", avance: c => [c.perfectos, 1] },
     { id: "seguidos-5", grupo: "Examen", icono: "examen", titulo: "Cinco aptos seguidos", texto: "Aprueba 5 exámenes finales seguidos.", avance: c => [c.mejorSerie, 5] },
@@ -82,8 +166,9 @@
     const exs = datos.historial.filter(r => r.total >= EXAMEN_MIN);
     let serie = 0, mejorSerie = 0;
     for (const r of exs) { serie = r.apto ? serie + 1 : 0; mejorSerie = Math.max(mejorSerie, serie); }
-    const mats = Object.keys(porMateria);
+    const mats = Object.keys(porMateria), cm = Object.keys(caminoDe(datos));
     return {
+      unidades: cm.filter(k => /^paso-/.test(k)).length, cofres: cm.filter(k => /^cofre-/.test(k)).length, legendarias: cm.filter(k => /^oro-/.test(k)).length,
       g: prep.global, superados, mejorSerie,
       aptos: exs.filter(r => r.apto).length, perfectos: exs.filter(r => r.apto && r.fallos === 0).length,
       conPreguntas: mats.length, tocadas: mats.filter(m => prep.materias[m].vistas > 0).length,
@@ -99,6 +184,14 @@
   // Apunta coronas y logros nuevos. Devuelve lo nuevo, en orden (primero las coronas).
   function revisar(datos, todas, porMateria, ahora = Date.now()) {
     const lg = logrosDe(datos), nuevos = [];
+    // Regla anterior (superar con el 60 % dominado): se respeta marcando hechos sus niveles y tests.
+    construir();
+    const cm = caminoDe(datos);
+    for (const u of UNIDADES || []) {
+      if (unidadSuperada(datos, u)) continue;
+      const mat = P.resumen(datos, porMateria[u.materia] || []), uni = P.resumen(datos, u.ids);
+      if (mat.dominio >= SUPERADA || uni.dominio >= SUPERADA) for (const x of u.nodos) if (!cm[x.clave]) cm[x.clave] = ahora;
+    }
     for (const e of etapas(datos, porMateria)) {
       const k = "corona-m" + e.n;
       if (e.total && e.dominio >= CORONADA && !lg[k]) { lg[k] = ahora; nuevos.push({ tipo: "corona", materia: e.n }); }
@@ -122,98 +215,337 @@
 
   function textoEtapa(e) {
     if (!e.total) return "Aún sin preguntas verificadas";
+    if (e.legendaria) return `Legendaria: todas sus unidades en oro · ${pct(e.dominio)} dominado`;
     if (e.coronada) return e.bajo ? `Coronada · ha bajado al ${pct(e.dominio)}, repásala` : `Coronada · ${pct(e.dominio)} dominado`;
-    if (e.nivel === 2) return `Superada · ${pct(e.dominio)}, corónala con el 80 %`;
-    if (e.nivel === 1) return `${pct(e.dominio)} dominado · supérala con el 60 %`;
-    return plural(e.total, "pregunta", "preguntas");
+    if (e.nivel === 2) return `Superada · ${pct(e.dominio)} dominado, corónala con el 80 %`;
+    if (e.nivel === 1) return `${e.superadas} de ${plural(e.unidades, "unidad superada", "unidades superadas")} · ${e.hechos}/${e.nodos} pasos`;
+    return `${plural(e.unidades, "unidad", "unidades")} · ${plural(e.total, "pregunta", "preguntas")}`;
   }
   function claseEtapa(e) {
     return "etapa n" + e.nivel + (e.coronada ? " coronada" : "") + (e.siguiente ? " siguiente" : "") + (e.desbloqueada ? "" : " adelante") + (e.bajo ? " bajo" : "");
   }
+  const reducido = () => (window.Animo && Animo.sinMovimiento && Animo.sinMovimiento()) || matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const sonar = (n, a) => { if (window.Animo) Animo.sonar(n, a); };
 
-  // Vista del camino: carretera con curvas y una etapa por materia, alternando izquierda y derecha.
-  const FILA = 116; // alto de cada etapa en px
-  function carretera(lista) {
-    const xs = lista.map((_, i) => i % 2 ? 70 : 30), ys = lista.map((_, i) => FILA / 2 + i * FILA);
-    const alto = lista.length * FILA + FILA * 0.9; // y la meta
-    xs.push(50); ys.push(lista.length * FILA + FILA * 0.35);
-    let d = `M${xs[0]} 0 L${xs[0]} ${ys[0]}`;
-    for (let i = 1; i < xs.length; i++) { const ym = (ys[i - 1] + ys[i]) / 2; d += ` C${xs[i - 1]} ${ym} ${xs[i]} ${ym} ${xs[i]} ${ys[i]}`; }
-    const NS = "http://www.w3.org/2000/svg", svg = document.createElementNS(NS, "svg");
-    svg.setAttribute("viewBox", `0 0 100 ${alto}`); svg.setAttribute("preserveAspectRatio", "none"); svg.setAttribute("class", "camino-via"); svg.setAttribute("aria-hidden", "true");
-    for (const c of ["arcen", "asfalto", "linea"]) { const p = document.createElementNS(NS, "path"); p.setAttribute("d", d); p.setAttribute("class", c); p.setAttribute("vector-effect", "non-scaling-stroke"); svg.append(p); }
-    // Tramo ya recorrido: hasta la última etapa superada seguida desde el principio.
-    let hecho = 0; while (hecho < lista.length && (lista[hecho].nivel >= 2 || !lista[hecho].total)) hecho++;
-    if (hecho) {
-      let dh = `M${xs[0]} 0 L${xs[0]} ${ys[0]}`;
-      for (let i = 1; i < Math.min(hecho + (hecho === lista.length ? 1 : 0), xs.length); i++) { const ym = (ys[i - 1] + ys[i]) / 2; dh += ` C${xs[i - 1]} ${ym} ${xs[i]} ${ym} ${xs[i]} ${ys[i]}`; }
-      const p = document.createElementNS(NS, "path"); p.setAttribute("d", dh); p.setAttribute("class", "recorrido"); p.setAttribute("vector-effect", "non-scaling-stroke"); svg.insertBefore(p, svg.lastChild);
-    }
-    return { svg, xs, ys, alto };
+  // ---------- Preguntas de cada paso ----------
+  const objs = ids => ids.map(id => A.POR_ID.get(id)).filter(Boolean);
+  // Nivel: 10 preguntas, 7 de la unidad (primero las que aún no domina) y 3 de repaso mezclado de unidades
+  // anteriores ya vistas (primero las del repaso de fallos, luego las vistas sin dominar).
+  function preguntasNivel(u) {
+    const d = A.datos, est = p => P.estado(d, p.id);
+    const propias = objs(u.ids);
+    const antes = objs(UNIDADES.slice(0, UNIDADES.indexOf(u)).flatMap(x => x.ids)).filter(p => est(p) !== "nueva");
+    const repaso = [...A.priorizar(antes.filter(p => est(p) === "repaso")), ...A.priorizar(antes.filter(p => est(p) === "vista")), ...A.barajar(antes.filter(p => est(p) === "dominada"))].slice(0, NIVEL_REPASO);
+    const nuevas = [...A.priorizar(propias.filter(p => est(p) !== "dominada")), ...A.barajar(propias.filter(p => est(p) === "dominada"))].slice(0, NIVEL_N - repaso.length);
+    return A.barajar(nuevas.concat(repaso));
   }
-  function mapa(lista) {
-    const { svg, xs, ys, alto } = carretera(lista);
-    const caja = h("ol", { class: "camino", style: `height:${alto}px`, "aria-label": "Camino del temario" });
+  const preguntasPaso = u => A.barajar(objs(u.ids)).slice(0, PASO_N);
+
+  // Marca hechos varios nodos. Devuelve cuántos eran nuevos.
+  function marcar(nodos) {
+    const cm = caminoDe(A.datos), ahora = Date.now();
+    let n = 0;
+    for (const x of nodos) if (!cm[x.clave]) { cm[x.clave] = ahora; n++; }
+    if (n) A.guardar();
+    return n;
+  }
+  // Avance pendiente de animar la próxima vez que se abre el camino.
+  let pendiente = null;
+  function apuntarAvance(clave) { pendiente = clave; try { sessionStorage.setItem("testB.avance", clave); } catch (e) { /* sin almacenamiento */ } }
+  function tomarAvance() {
+    let c = pendiente; pendiente = null;
+    try { c = c || sessionStorage.getItem("testB.avance"); sessionStorage.removeItem("testB.avance"); } catch (e) { /* sin almacenamiento */ }
+    return c;
+  }
+
+  function tarjeta(tipo, icono, titulo, texto, boton) {
+    return h("div", { class: "camino-tarjeta " + tipo },
+      h("span", { class: "camino-tarjeta-sello" }, ico(icono)),
+      h("span", { class: "camino-tarjeta-texto" }, h("strong", {}, titulo), h("span", {}, texto)),
+      boton || null);
+  }
+  // El camino lanza la práctica sin cambiar de ruta (#/temario), así que hay que repintar a mano.
+  const botonCamino = texto => h("a", { class: "boton ancho", href: "#/temario", onclick: () => setTimeout(A.repintar) }, texto);
+
+  function finNivel(x, s) {
+    const u = x.unidad, hechas = Object.keys(s.resp).length;
+    if (hechas < s.lista.length) return tarjeta("neutro", "lista", "Nivel sin terminar", `Responde las ${s.lista.length} preguntas para completar el nivel.`);
+    const nuevo = marcar([x]);
+    if (nuevo) apuntarAvance(x.clave);
+    return tarjeta("ok", "check", nuevo ? "¡Nivel completado!" : "Nivel repasado", `${u.titulo} · nivel ${x.i} de ${u.niveles}.`, botonCamino(nuevo ? "Seguir por el camino" : "Volver al camino"));
+  }
+  function finPaso(x, s) {
+    const u = x.unidad, hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
+    if (hechas < s.lista.length) return tarjeta("neutro", "lista", "Test de paso sin terminar", `Para aprobarlo hay que responder las ${s.lista.length} preguntas.`);
+    if (fallos > PASO_FALLOS) return tarjeta("ko", "repetir", `Esta vez no: ${plural(fallos, "fallo", "fallos")}`,
+      `Para pasar se admiten ${PASO_FALLOS} como máximo, como en el examen. Tus fallos ya están en «Mis fallos»: repásalos y vuelve a intentarlo.`,
+      h("button", { class: "boton ancho", onclick: () => empezarNodo(x) }, "Intentarlo otra vez"));
+    const ya = hechoN(A.datos, x);
+    // Aprobar el test de una unidad da por hechas sus etapas y las de las unidades anteriores de la misma materia («saltar aquí»).
+    const antes = NODOS.filter(y => y.unidad.materia === u.materia && y.orden <= x.orden);
+    marcar(antes);
+    if (!ya) apuntarAvance(x.clave);
+    return tarjeta("ok", "trofeo", ya ? "Test de paso aprobado otra vez" : "¡Test de paso aprobado!",
+      `${plural(fallos, "fallo", "fallos")} de ${s.lista.length} preguntas. ${ya ? "" : `Has superado «${u.titulo}».`}`, botonCamino(ya ? "Volver al camino" : "Ver mi avance en el camino"));
+  }
+  function empezarNodo(x) {
+    const u = x.unidad;
+    if (x.tipo === "nivel") return A.practicar(preguntasNivel(u), "nivel", `Nivel ${x.i} de ${u.niveles}`, "#/temario", { alTerminar: s => finNivel(x, s), repetir: () => empezarNodo(x) });
+    if (x.tipo === "paso") return A.practicar(preguntasPaso(u), "paso", "Test de paso", "#/temario", { alTerminar: s => finPaso(x, s), repetir: () => empezarNodo(x) });
+  }
+  // Reto legendario: con la unidad superada, otras 20 preguntas de la unidad sin ningún fallo. La unidad pasa a oro.
+  const legendaria = (datos, u) => !!caminoDe(datos)["oro-" + u.id];
+  function empezarLegendario(u) {
+    A.practicar(preguntasPaso(u), "legendario", "Reto legendario", "#/temario", { alTerminar: s => finLegendario(u, s), repetir: () => empezarLegendario(u) });
+  }
+  function finLegendario(u, s) {
+    const hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
+    if (hechas < s.lista.length) return tarjeta("neutro", "lista", "Reto sin terminar", `Para conseguir el oro hay que responder las ${s.lista.length} preguntas sin fallar ninguna.`);
+    if (fallos) return tarjeta("ko", "corona", `Casi: ${plural(fallos, "fallo", "fallos")}`, "El reto legendario no admite ningún fallo. Repasa esos fallos y vuelve a por el oro.",
+      h("button", { class: "boton ancho", onclick: () => empezarLegendario(u) }, "Intentarlo otra vez"));
+    const cm = caminoDe(A.datos), ya = !!cm["oro-" + u.id];
+    if (!ya) { cm["oro-" + u.id] = Date.now(); A.guardar(); apuntarAvance("oro-" + u.id); }
+    return tarjeta("oro", "corona", ya ? "Perfecto otra vez" : "¡Unidad legendaria!", `${s.lista.length} de ${s.lista.length} sin un solo fallo en «${u.titulo}».`, botonCamino(ya ? "Volver al camino" : "Ver mi unidad en oro"));
+  }
+  function abrirCofre(x) {
+    if (!marcar([x])) return;
+    const r = P.resumen(A.datos, x.unidad.ids);
+    apuntarAvance(x.clave);
+    pantallaCamino();
+    setTimeout(() => { if (window.Animo) Animo.aviso(`¡Cofre abierto! Dominas ${r.dominada} de ${x.unidad.ids.length} en esta unidad`, "logro"); }, reducido() ? 0 : 900);
+  }
+  function tocarNodo(x) {
+    const act = nodoActual(A.datos), hecho = hechoN(A.datos, x), u = x.unidad;
+    if (x.tipo === "cofre") {
+      if (hecho) return A.hoja({ titulo: "Cofre ya abierto", mensaje: "Sigue avanzando: en cada unidad hay un cofre a mitad de camino.", cancelar: "Vale" });
+      if (act && act.orden < x.orden) return A.hoja({ titulo: "Cofre cerrado", mensaje: "Completa los niveles anteriores de esta unidad para abrirlo.", cancelar: "Vale" });
+      return abrirCofre(x);
+    }
+    if (x.tipo === "paso" && hecho) return A.hoja({ titulo: legendaria(A.datos, u) ? "Unidad legendaria" : "Unidad superada",
+      mensaje: legendaria(A.datos, u) ? `Ya tienes el oro en «${u.titulo}». Puedes repetir el reto cuando quieras para repasar.`
+        : `¿Vas a por el oro? El reto legendario son ${PASO_N} preguntas de «${u.titulo}» sin ningún fallo.`,
+      acciones: [{ texto: "Reto legendario", clase: "ambar", accion: () => empezarLegendario(u) }, { texto: "Repetir el test de paso", clase: "gris", accion: () => empezarNodo(x) }] });
+    if (hecho || !act || act.orden >= x.orden) return empezarNodo(x);
+    if (x.tipo === "paso") return A.hoja({ titulo: "¿Saltar aquí?",
+      mensaje: `Si ya sabes esta parte, haz el test de paso de «${u.titulo}»: ${PASO_N} preguntas y ${PASO_FALLOS} fallos como máximo. Si lo apruebas, se dan por hechas esta unidad y las anteriores de la materia ${u.materia}.`,
+      acciones: [{ texto: "Hacer el test de paso", accion: () => empezarNodo(x) }] });
+    return A.hoja({ titulo: "Este nivel va más adelante", mensaje: "Te recomendamos seguir el camino en orden, pero puedes hacerlo ya si quieres.",
+      acciones: [{ texto: "Empezar igualmente", accion: () => empezarNodo(x) }] });
+  }
+
+  // ---------- Vista del camino ----------
+  const FILA = 96, XS = [50, 68, 76, 68, 50, 32, 24, 32]; // zigzag suave
+  const NS = "http://www.w3.org/2000/svg";
+  const GEOM = new WeakMap(); // ol de cada unidad -> { xs, ys, svg }
+  const COFRE = '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path class="tapa" d="M4 10V8a3 3 0 013-3h10a3 3 0 013 3v2z"/><path d="M4 10h16v8a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M10.5 10v3h3v-3"/></svg>';
+  function iconoNodo(x, estado) {
+    if (x.tipo === "cofre") { const s = h("span", { class: "nodo-cofre" }); s.innerHTML = COFRE; return s; }
+    if (x.tipo === "paso") return ico(legendaria(A.datos, x.unidad) ? "corona" : "trofeo");
+    return estado === "hecho" ? ico("check") : h("b", {}, x.i);
+  }
+  function tramo(xs, ys, i) { const ym = (ys[i - 1] + ys[i]) / 2; return [[xs[i - 1], ys[i - 1]], [xs[i - 1], ym], [xs[i], ym], [xs[i], ys[i]]]; }
+  function bloqueUnidad(u, act, animar) {
+    const d = A.datos, n = u.nodos.length;
+    const xs = u.nodos.map((_, i) => XS[i % XS.length]), ys = u.nodos.map((_, i) => FILA / 2 + i * FILA);
+    const hechos = u.nodos.map(x => hechoN(d, x));
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", `0 0 100 ${n * FILA}`); svg.setAttribute("preserveAspectRatio", "none"); svg.setAttribute("class", "camino-via"); svg.setAttribute("aria-hidden", "true");
+    const ruta = (desde, hasta, saltar) => { // trazado de los tramos desde..hasta (índices de nodo), sin el tramo «saltar»
+      let s = desde === 0 ? `M${xs[0]} 0 L${xs[0]} ${ys[0]}` : `M${xs[desde]} ${ys[desde]}`;
+      for (let i = Math.max(1, desde + 1); i <= hasta; i++) {
+        const t = tramo(xs, ys, i);
+        s += i === saltar ? ` M${t[3][0]} ${t[3][1]}` : ` C${t[1][0]} ${t[1][1]} ${t[2][0]} ${t[2][1]} ${t[3][0]} ${t[3][1]}`;
+      }
+      return s;
+    };
+    const capa = (cls, dd) => { const p = document.createElementNS(NS, "path"); p.setAttribute("d", dd); p.setAttribute("class", cls); p.setAttribute("vector-effect", "non-scaling-stroke"); svg.append(p); return p; };
+    capa("arcen", ruta(0, n - 1)); capa("asfalto", ruta(0, n - 1));
+    // Recorrido: hasta el último nodo hecho seguido desde el principio de la unidad (el tramo al siguiente también).
+    let k = 0; while (k < n && hechos[k]) k++;
+    const saltar = animar != null && animar + 1 < n ? animar + 1 : -1;
+    if (k) capa("recorrido", ruta(0, Math.min(k, n - 1), saltar));
+    capa("linea", ruta(0, n - 1));
+    const caja = h("ol", { class: "camino", style: `height:${n * FILA}px`, "aria-label": `Pasos de ${u.titulo}` });
     caja.append(svg);
-    lista.forEach((e, i) => {
-      const izq = xs[i] < 50;
-      const voz = `Materia ${e.n}: ${nombre(e.n)}. ${textoEtapa(e)}${e.siguiente ? ". Siguiente etapa recomendada" : ""}${e.desbloqueada ? "" : ". Más adelante en el camino, puedes practicarla igualmente"}`;
-      caja.append(h("li", { class: claseEtapa(e) + (izq ? " izq" : " der"), style: `--x:${xs[i]}%;--y:${ys[i]}px;--p:${Math.round(Math.min(1, e.dominio / CORONADA) * 100)}` },
-        e.siguiente ? h("span", { class: "etapa-globo", "aria-hidden": "true" }, e.nivel ? "Sigue aquí" : "Empieza aquí") : null,
-        h("a", { class: "etapa-boton", href: `#/temario/${e.n}`, "aria-label": voz, "aria-disabled": e.total ? null : "true", tabindex: e.total ? null : "-1" },
-          h("span", { class: "etapa-anillo" }, h("span", { class: "etapa-disco" }, e.coronada ? ico("corona") : h("b", {}, e.n)))),
-        h("a", { class: "etapa-texto", href: `#/temario/${e.n}`, tabindex: "-1", "aria-hidden": "true" },
-          h("small", {}, `Materia ${e.n}`), h("strong", {}, nombre(e.n)), h("span", {}, textoEtapa(e)))));
+    GEOM.set(caja, { xs, ys, svg });
+    u.nodos.forEach((x, i) => {
+      const estado = hechos[i] ? "hecho" : act === x ? "actual" : act && act.orden < x.orden ? "bloqueado" : "pendiente";
+      const nom = x.tipo === "nivel" ? `Nivel ${x.i} de ${u.niveles}` : x.tipo === "cofre" ? "Cofre" : "Test de paso";
+      const voz = `${nom} de ${u.titulo}. ${estado === "hecho" ? "Hecho" : estado === "actual" ? "Siguiente paso" : estado === "bloqueado" ? "Más adelante" : "Pendiente"}`;
+      caja.append(h("li", { class: `nodo ${x.tipo} ${estado}`, style: `--x:${xs[i]}%;--y:${ys[i]}px`, "data-clave": x.clave, "data-orden": x.orden, "data-i": i },
+        estado === "actual" ? h("span", { class: "etapa-globo", "aria-hidden": "true" }, x.orden === 0 ? "Empieza aquí" : x.tipo === "cofre" ? "¡Ábrelo!" : x.tipo === "paso" ? "Test de paso" : "Sigue aquí") : null,
+        h("button", { class: "nodo-boton", type: "button", "aria-label": voz, onclick: () => tocarNodo(x) }, h("span", { class: "nodo-disco" }, iconoNodo(x, estado)))));
     });
-    const meta = lista.every(e => e.coronada || !e.total);
-    caja.append(h("li", { class: "etapa meta-final" + (meta ? " coronada" : ""), style: `--x:50%;--y:${ys[ys.length - 1]}px` },
-      h("a", { class: "etapa-boton", href: "#/examen", "aria-label": "Meta: examen final" }, h("span", { class: "etapa-disco" }, ico("bandera"))),
-      h("span", { class: "etapa-texto centro", "aria-hidden": "true" }, h("strong", {}, "Meta: examen final"))));
+    const hechosN = hechos.filter(Boolean).length, superada = hechos[n - 1];
+    const enCurso = act && act.unidad === u;
+    const oro = legendaria(d, u);
+    return h("section", { class: "unidad" + (oro ? " legendaria" : "") + (superada ? " superada" : enCurso ? " en-curso" : ""), "data-unidad": u.id },
+      h("header", { class: "unidad-banner" },
+        h("span", { class: "unidad-banner-texto" },
+          h("small", {}, `Materia ${u.materia} · Unidad ${u.k} de ${u.de}`),
+          h("strong", {}, u.titulo),
+          h("span", {}, oro ? "Legendaria: sin fallos" : superada ? "Superada · ve a por el oro en el test" : `${hechosN} de ${n} pasos · ${plural(u.ids.length, "pregunta", "preguntas")}`)),
+        superada ? h("span", { class: "unidad-banner-sello" }, ico(oro ? "corona" : "check")) : null),
+      caja);
+  }
+  function mapa(lista, animar) {
+    construir();
+    const act = nodoActual(A.datos), caja = h("div", { class: "camino-unidades" });
+    const nAnim = animar ? NODOS.find(x => x.clave === animar) : null;
+    let mat = 0;
+    for (const u of UNIDADES) {
+      if (u.materia !== mat) {
+        mat = u.materia;
+        const e = lista[mat - 1];
+        caja.append(h("h2", { class: "materia-titulo" + (e.legendaria ? " legendaria" : e.coronada ? " coronada" : e.nivel === 2 ? " superada" : "") },
+          h("span", { class: "materia-num" }, e.legendaria || e.coronada ? ico("corona") : String(mat)),
+          h("span", {}, h("small", {}, `Materia ${mat}`), h("strong", {}, nombre(mat)), h("span", {}, textoEtapa(e)))));
+      }
+      caja.append(bloqueUnidad(u, act, nAnim && nAnim.unidad === u ? u.nodos.indexOf(nAnim) : null));
+    }
+    const meta = lista.every(e => e.nivel >= 2 || !e.total);
+    caja.append(h("div", { class: "camino-meta" + (meta ? " lograda" : "") },
+      h("a", { class: "nodo-boton", href: "#/examen", "aria-label": "Meta: examen final" }, h("span", { class: "nodo-disco" }, ico("bandera"))),
+      h("strong", {}, "Meta: examen final")));
     return caja;
   }
+
+  // ---------- Animación del avance ----------
+  // Sello en el paso hecho, la carretera se pinta hasta el siguiente, este se abre con un pulso y el globo
+  // «Sigue aquí» se desplaza. Con «reducir movimiento», solo el sonido y el estado final.
+  function dibujarTramo(svg, pts, ms, listo) {
+    const p = document.createElementNS(NS, "path");
+    p.setAttribute("class", "recorrido nuevo"); p.setAttribute("vector-effect", "non-scaling-stroke");
+    svg.insertBefore(p, svg.querySelector(".linea"));
+    const L = (a, b, t) => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
+    const t0 = performance.now(), suave = t => t < .5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    (function paso(ahora) {
+      const t = suave(Math.min(1, (ahora - t0) / ms));
+      const [a, b, c, d] = pts, q1 = L(a, b, t), m = L(b, c, t), q2 = L(q1, m, t), r = L(m, L(c, d, t), t), q3 = L(q2, r, t);
+      p.setAttribute("d", `M${a[0]} ${a[1]} C${q1[0]} ${q1[1]} ${q2[0]} ${q2[1]} ${q3[0]} ${q3[1]}`);
+      if (t < 1) requestAnimationFrame(paso); else if (listo) listo();
+    })(t0);
+  }
+  function verCentro(el, suave) {
+    const r = el.getBoundingClientRect();
+    if (r.top < 80 || r.bottom > innerHeight - 120) el.scrollIntoView({ block: "center", behavior: suave ? "smooth" : "auto" });
+  }
+  function animarAvance(raiz, clave) {
+    if (clave.startsWith("oro-")) {
+      const sec = raiz.querySelector(`.unidad[data-unidad="${clave.slice(4)}"]`);
+      if (!sec) return;
+      verCentro(sec, false);
+      sonar("aprobado");
+      if (reducido()) return;
+      sec.classList.add("av-oro");
+      setTimeout(() => { if (window.Animo) Animo.confeti(140); }, 300);
+      setTimeout(() => sec.classList.remove("av-oro"), 1600);
+      return;
+    }
+    const o = raiz.querySelector(`.nodo[data-clave="${clave}"]`);
+    if (!o) return;
+    const d = raiz.querySelector(`.nodo[data-orden="${+o.dataset.orden + 1}"]`);
+    const tipo = o.classList.contains("paso") ? "paso" : o.classList.contains("cofre") ? "cofre" : "nivel";
+    const mismo = d && d.parentNode === o.parentNode;
+    if (reducido()) {
+      sonar(tipo === "paso" ? "aprobado" : "acierto");
+      if (d) verCentro(d, false);
+      return;
+    }
+    const globo = d && d.querySelector(".etapa-globo");
+    o.classList.add("av-origen");
+    if (d) d.classList.add("av-destino");
+    if (globo) {
+      globo.style.animation = "none";
+      if (mismo) {
+        const ancho = o.parentNode.clientWidth, g = GEOM.get(o.parentNode), io = +o.dataset.i, id = +d.dataset.i;
+        globo.style.transform = `translate(calc(-50% + ${(g.xs[io] - g.xs[id]) / 100 * ancho}px), ${g.ys[io] - g.ys[id]}px)`;
+      } else globo.style.opacity = "0";
+    }
+    verCentro(o, false);
+    const T = [350, 1000];
+    setTimeout(() => {
+      o.classList.remove("av-origen"); o.classList.add("av-sello");
+      if (tipo === "paso") { sonar("aprobado"); if (window.Animo) Animo.confeti(120); }
+      else if (tipo === "cofre") { sonar("meta"); if (window.Animo) Animo.confeti(60); }
+      else sonar("acierto");
+      if (window.Animo) Animo.vibrar(25);
+    }, T[0]);
+    if (!d) return;
+    const abrir = () => {
+      d.classList.remove("av-destino"); d.classList.add("av-abre");
+      sonar("serie", 5);
+      if (globo) {
+        const fin = () => { globo.style.transform = ""; globo.style.animation = ""; globo.style.opacity = ""; };
+        if (mismo && globo.animate) {
+          const desde = globo.style.transform; globo.style.transform = "translateX(-50%)";
+          globo.animate([{ transform: desde }, { transform: "translateX(-50%)" }], { duration: 600, easing: "cubic-bezier(.34,1.56,.64,1)" }).onfinish = fin;
+        } else { globo.style.opacity = ""; globo.classList.add("av-globo-entra"); setTimeout(() => { globo.classList.remove("av-globo-entra"); fin(); }, 600); }
+      }
+      setTimeout(() => { o.classList.remove("av-sello"); d.classList.remove("av-abre"); }, 1200);
+    };
+    setTimeout(() => {
+      verCentro(d, true);
+      if (mismo) {
+        const g = GEOM.get(o.parentNode);
+        sonar("serie", 2);
+        dibujarTramo(g.svg, tramo(g.xs, g.ys, +d.dataset.i), 650, abrir);
+      } else setTimeout(abrir, 650);
+    }, T[1]);
+  }
+
   function listaSimple(lista) {
-    return grupo("con-icono mosaico", lista.map(e => fila({ numero: e.coronada ? null : e.n, icono: e.coronada ? "corona" : null,
-      color: !e.total ? "gris" : e.coronada ? "ambar" : e.nivel === 2 ? "verde" : e.siguiente ? "azul" : "indigo",
+    return grupo("con-icono mosaico", lista.map(e => fila({ numero: e.coronada || e.legendaria ? null : e.n, icono: e.coronada || e.legendaria ? "corona" : null,
+      color: !e.total ? "gris" : e.coronada || e.legendaria ? "ambar" : e.nivel === 2 ? "verde" : e.siguiente ? "azul" : "indigo",
       titulo: nombre(e.n), detalle: `${e.siguiente ? "Siguiente etapa · " : ""}${textoEtapa(e)}`,
       accion: () => { location.hash = `#/temario/${e.n}`; }, deshabilitada: !e.total, chevron: !!e.total })));
   }
   let vista = "camino";
   try { vista = localStorage.getItem("testB.vistaTemario") === "lista" ? "lista" : "camino"; } catch (e) { /* sin almacenamiento */ }
   function pantallaCamino() {
-    const lista = etapas(A.datos, MATS()), coronas = lista.filter(e => e.coronada).length, superadas = lista.filter(e => e.nivel >= 2).length;
-    const sig = lista.find(e => e.siguiente);
+    construir();
+    const lista = etapas(A.datos, MATS()), coronas = lista.filter(e => e.coronada).length;
+    const unidadesOk = UNIDADES.filter(u => unidadSuperada(A.datos, u)).length, pasos = NODOS.filter(x => hechoN(A.datos, x)).length;
     const cuerpo = h("div", {});
+    let animar = tomarAvance();
     const pintar = () => {
-      cuerpo.replaceChildren(vista === "lista" ? listaSimple(lista) : mapa(lista));
+      cuerpo.replaceChildren(vista === "lista" ? listaSimple(lista) : mapa(lista, animar));
       try { localStorage.setItem("testB.vistaTemario", vista); } catch (e) { /* sin almacenamiento */ }
     };
     pantalla({ titulo: "Temario", atras: { texto: "Inicio", href: "#/" } },
       h("h1", { class: "titulo-grande" }, "Temario"),
-      h("p", { class: "subtitulo" }, "Tu camino por las 16 materias. Supera cada etapa dominando el 60 % de sus preguntas y corónala con el 80 %. Es una guía: puedes practicar cualquier materia cuando quieras."),
-      cifras([`${coronas}/16`, "Coronadas"], [`${superadas}/16`, "Superadas"], [sig ? String(sig.n) : "–", "Siguiente materia"]),
-      A.segmentos([["camino", "Camino"], ["lista", "Lista"]], vista, v => { vista = v; pintar(); }),
+      h("p", { class: "subtitulo" }, `Tu camino por las 16 materias, en ${UNIDADES.length} unidades. Cada nivel son ${NIVEL_N} preguntas (con ${NIVEL_REPASO} de repaso de lo anterior) y cada unidad termina con un test de paso: ${PASO_N} preguntas, ${PASO_FALLOS} fallos como máximo, como en el examen. Si ya dominas una parte, puedes saltar a su test de paso. Es una guía: puedes practicar cualquier materia cuando quieras.`),
+      cifras([`${pasos}/${NODOS.length}`, "Pasos"], [`${unidadesOk}/${UNIDADES.length}`, "Unidades"], [`${coronas}/16`, "Coronas"]),
+      A.segmentos([["camino", "Camino"], ["lista", "Lista"]], vista, v => { vista = v; animar = null; pintar(); }),
       cuerpo,
-      h("p", { class: "nota-pie" }, "Materias según el Reglamento General de Conductores (RD 818/2009), anexo V.B.1. Una pregunta está dominada cuando aciertas las dos últimas veces que la respondes y no está en el repaso de fallos."));
+      h("p", { class: "nota-pie" }, "Materias según el Reglamento General de Conductores (RD 818/2009), anexo V.B.1. Una materia se corona al dominar el 80 % de sus preguntas: una pregunta está dominada cuando aciertas las dos últimas veces que la respondes y no está en el repaso de fallos."));
     pintar();
-    // Lleva la vista a la etapa en la que va, si queda fuera de la pantalla.
-    const el = vista === "camino" && cuerpo.querySelector(".etapa.siguiente");
-    if (el) requestAnimationFrame(() => { if (el.getBoundingClientRect().bottom > innerHeight - 40) el.scrollIntoView({ block: "center", behavior: "auto" }); });
+    if (vista !== "camino") return;
+    requestAnimationFrame(() => {
+      if (animar) return animarAvance(cuerpo, animar);
+      const el = cuerpo.querySelector(".nodo.actual");
+      if (el) verCentro(el, false);
+    });
   }
-  // Portada de una materia: la de siempre, con su estado en el camino.
+  // Portada de una materia: la de siempre, con su avance en el camino y un botón para seguir.
   function guiaMateria(n) {
     A.pantallas.portadaMateria(n);
+    construir();
     const lista = etapas(A.datos, MATS()), e = lista[n - 1];
     if (!e || !e.total) return;
     const sub = document.querySelector("#app .subtitulo");
     if (!sub) return;
-    const previa = !e.desbloqueada ? lista.slice(0, n - 1).reverse().find(x => x.total && x.nivel < 2) : null;
-    const falta = e.coronada ? null : Math.max(0, Math.ceil((e.nivel >= 2 ? CORONADA : SUPERADA) * e.total) - e.resumen.dominada);
+    const sig = NODOS.find(x => x.unidad.materia === n && !hechoN(A.datos, x) && x.tipo !== "cofre");
+    const texto = e.coronada ? (e.bajo ? `Dominas el ${pct(e.dominio)}. Repásala para volver al 80 %.` : `Dominas el ${pct(e.dominio)} de sus preguntas.`)
+      : e.nivel === 2 ? `Todas sus unidades superadas. Dominas el ${pct(e.dominio)}; corónala con el 80 %.`
+      : `${e.superadas} de ${plural(e.unidades, "unidad superada", "unidades superadas")}. ${sig ? `Siguiente: ${sig.tipo === "paso" ? "test de paso" : `nivel ${sig.i}`} de «${sig.unidad.titulo}», ${sig.tipo === "paso" ? `${PASO_N} preguntas` : `${NIVEL_N} preguntas`}.` : ""}`;
     sub.after(h("div", { class: "guia-etapa " + claseEtapa(e) },
       h("span", { class: "etapa-disco mini" }, e.coronada ? ico("corona") : h("b", {}, n)),
-      h("span", {}, h("strong", {}, e.coronada ? (e.bajo ? "Coronada, pero ha bajado" : "Materia coronada") : e.nivel === 2 ? "Etapa superada" : e.siguiente ? "Tu siguiente etapa" : "Etapa del camino"),
-        h("span", {}, e.coronada ? (e.bajo ? `Dominas el ${pct(e.dominio)}. Repásala para volver al 80 %.` : `Dominas el ${pct(e.dominio)} de sus preguntas.`)
-          : `Dominas ${e.resumen.dominada} de ${e.total}. ${falta ? `Te ${falta === 1 ? "falta 1 pregunta" : `faltan ${falta} preguntas`} para ${e.nivel >= 2 ? "coronarla" : "superarla"}.` : ""}`,
-          previa ? ` En el camino va antes la materia ${previa.n}, pero puedes practicar esta ya.` : ""))));
+      h("span", {}, h("strong", {}, e.coronada ? (e.bajo ? "Coronada, pero ha bajado" : "Materia coronada") : e.nivel === 2 ? "Materia superada" : "Tu camino en esta materia"),
+        h("span", {}, texto),
+        sig && e.nivel < 2 ? h("span", { class: "guia-acciones" },
+          h("button", { class: "boton pequeno", onclick: () => empezarNodo(sig) }, sig.tipo === "paso" ? "Hacer el test de paso" : `Empezar nivel ${sig.i}`),
+          h("a", { class: "enlace", href: "#/temario" }, "Ver el camino")) : null)));
   }
 
   // ---------- Pantalla de logros ----------
@@ -240,12 +572,12 @@
 
   // ---------- Portada: resumen del camino y de los logros ----------
   function bloqueInicio() {
-    const lista = etapas(A.datos, MATS()), coronas = lista.filter(e => e.coronada).length, sig = lista.find(e => e.siguiente);
+    const lista = etapas(A.datos, MATS()), coronas = lista.filter(e => e.coronada).length, act = nodoActual(A.datos);
     const ls = estadoLogros(A.datos, TODAS(), MATS()), n = ls.filter(l => l.conseguido).length;
     const proximo = ls.filter(l => !l.conseguido).sort((a, b) => b.valor / b.meta - a.valor / a.meta)[0];
     return grupo("con-icono mosaico",
-      fila({ icono: "mapa", color: "ambar", titulo: sig ? `Camino: sigue en la materia ${sig.n}` : "Camino completado",
-        detalle: `${plural(coronas, "materia coronada", "materias coronadas")} de 16${sig ? ` · ${nombre(sig.n)}` : ""}`, href: sig ? `#/temario/${sig.n}` : "#/temario" }),
+      fila({ icono: "mapa", color: "ambar", titulo: act ? `Camino: ${act.tipo === "paso" ? "test de paso" : act.tipo === "cofre" ? "abre el cofre" : `nivel ${act.i}`} · materia ${act.unidad.materia}` : "Camino completado",
+        detalle: act ? act.unidad.titulo : `${plural(coronas, "materia coronada", "materias coronadas")} de 16`, href: "#/temario" }),
       fila({ icono: "medalla", color: "verde", titulo: `Logros: ${n} de ${ls.length}`, detalle: proximo ? `Próximo: ${proximo.titulo} (${proximo.valor}/${proximo.meta})` : "¡Los tienes todos!", href: "#/logros" }));
   }
 
@@ -283,5 +615,5 @@
   A.inicioExtra(bloqueInicio, "arriba");
   A.lateralExtra({ id: "logros", href: "#/logros", icono: "medalla", color: "verde", texto: "Logros" });
 
-  window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };
+  window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, construir, get UNIDADES() { construir(); return UNIDADES; }, get NODOS() { construir(); return NODOS; }, nodoActual, animarAvance, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };
 })();

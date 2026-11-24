@@ -8,25 +8,133 @@
 .protector.usado svg.ico { color: var(--texto3); }
 .semana .descanso i { background: var(--tinte-suave); color: var(--tinte-texto); box-shadow: inset 0 0 0 2px var(--tinte); }
 
-/* ---- Camino ---- */
-.camino { position: relative; list-style: none; margin: 18px auto 8px; padding: 0; max-width: 560px; }
+/* ---- Camino por unidades ---- */
+.camino-unidades { max-width: 560px; margin: 18px auto 8px; }
+.materia-titulo { display: flex; gap: 12px; align-items: center; margin: 28px 0 10px; font-size: 1rem; }
+.materia-titulo:first-child { margin-top: 4px; }
+.materia-num { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font-weight: 900; color: #fff; background: var(--violeta); box-shadow: 0 3px 0 var(--violeta-borde); }
+.materia-num svg.ico { width: 22px; height: 22px; }
+.materia-titulo.superada .materia-num { background: var(--verde); box-shadow: 0 3px 0 var(--verde-borde); }
+.materia-titulo.coronada .materia-num { background: var(--ambar); box-shadow: 0 3px 0 var(--ambar-borde); }
+.materia-titulo > span:last-child { display: grid; gap: 1px; line-height: 1.2; }
+.materia-titulo small { font-size: .75rem; font-weight: 800; color: var(--texto3); text-transform: uppercase; letter-spacing: .04em; }
+.materia-titulo strong { font-size: 1.0625rem; font-weight: 900; }
+.materia-titulo span span { font-size: .8125rem; font-weight: 700; color: var(--texto2); }
+
+.unidad { margin: 0 0 6px; }
+.unidad-banner { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: var(--radio); color: var(--texto); background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); }
+.unidad-banner-texto { display: grid; gap: 1px; flex: 1; min-width: 0; line-height: 1.25; }
+.unidad-banner small { font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; color: var(--texto3); }
+.unidad-banner strong { font-size: 1rem; font-weight: 900; }
+.unidad-banner-texto > span { font-size: .8125rem; font-weight: 700; color: var(--texto2); }
+.unidad-banner-sello { flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; color: #fff; background: var(--verde); }
+.unidad-banner-sello svg.ico { width: 22px; height: 22px; stroke-width: 2.6; }
+.unidad.en-curso .unidad-banner { color: #fff; background: var(--tinte); border-color: var(--tinte-borde); box-shadow: 0 var(--relieve) 0 var(--tinte-borde); }
+.unidad.en-curso .unidad-banner small, .unidad.en-curso .unidad-banner-texto > span { color: rgba(255,255,255,.85); }
+.unidad.superada .unidad-banner { border-color: var(--verde-claro); }
+.unidad.legendaria .unidad-banner { background: linear-gradient(135deg, var(--ambar-suave), var(--celda) 70%); border-color: var(--ambar); box-shadow: 0 var(--relieve) 0 var(--ambar-borde); }
+.unidad.legendaria .unidad-banner-sello { background: var(--ambar); }
+.unidad.legendaria .unidad-banner-texto > span { color: var(--ambar-texto); }
+
+.camino { position: relative; list-style: none; margin: 30px auto 0; padding: 0; }
 .camino-via { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
 .camino-via path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
-.camino-via .arcen { stroke: var(--borde); stroke-width: 34px; }
-.camino-via .asfalto { stroke: var(--relleno-fuerte); stroke-width: 26px; }
-.camino-via .recorrido { stroke: var(--verde-suave); stroke-width: 26px; }
-.camino-via .linea { stroke: var(--celda); stroke-width: 3px; stroke-dasharray: 10 12; }
+.camino-via .arcen { stroke: var(--borde); stroke-width: 30px; }
+.camino-via .asfalto { stroke: var(--relleno-fuerte); stroke-width: 22px; }
+.camino-via .recorrido { stroke: var(--verde-suave); stroke-width: 22px; }
+.camino-via .linea { stroke: var(--celda); stroke-width: 3px; stroke-dasharray: 9 11; }
 
-.etapa { position: absolute; left: 0; right: 0; top: calc(var(--y) - 58px); height: 116px; }
-.etapa-boton { position: absolute; left: calc(var(--x) - 38px); top: 20px; width: 76px; height: 76px; border-radius: 50%; display: grid; place-items: center; text-decoration: none !important; -webkit-user-select: none; user-select: none; }
-.etapa-anillo { width: 76px; height: 76px; border-radius: 50%; padding: 5px; display: grid; place-items: center;
-  background: conic-gradient(var(--anillo, var(--verde)) calc(var(--p, 0) * 1%), var(--celda) 0); box-shadow: 0 0 0 2px var(--borde); }
+.nodo { position: absolute; left: 0; right: 0; top: calc(var(--y) - 48px); height: 96px; pointer-events: none; }
+.nodo-boton { pointer-events: auto; position: absolute; left: calc(var(--x) - 34px); top: 14px; width: 68px; height: 68px; padding: 0; border: 0; border-radius: 50%; background: none; display: grid; place-items: center; cursor: pointer; text-decoration: none !important; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+.nodo-disco { width: 60px; height: 60px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 1.375rem;
+  background: var(--fondo-nodo, var(--tinte)); box-shadow: 0 5px 0 var(--borde-nodo, var(--tinte-borde)); transform: translateY(-3px);
+  transition: transform .08s, box-shadow .08s, background-color .3s, color .3s; }
+.nodo-disco b { font-variant-numeric: tabular-nums; }
+.nodo-disco svg.ico { width: 30px; height: 30px; stroke-width: 2.6; }
+.nodo-boton:active .nodo-disco { transform: translateY(2px); box-shadow: 0 0 0 var(--borde-nodo, var(--tinte-borde)); }
+@media (hover: hover) { .nodo-boton:hover .nodo-disco { filter: brightness(1.08); } }
+.nodo-boton:focus-visible { outline: 3px solid var(--tinte); outline-offset: 4px; }
+.nodo.hecho { --fondo-nodo: var(--verde); --borde-nodo: var(--verde-borde); }
+.nodo.pendiente, .nodo.bloqueado { --fondo-nodo: var(--relleno-fuerte); --borde-nodo: var(--borde); }
+.nodo.pendiente .nodo-disco, .nodo.bloqueado .nodo-disco { color: var(--texto3); }
+.nodo.actual .nodo-disco { box-shadow: 0 5px 0 var(--tinte-borde), 0 0 0 7px var(--fondo), 0 0 0 11px var(--tinte-suave); }
+.nodo.actual .nodo-boton { animation: latido 2.2s ease-in-out infinite; }
+/* Test de paso: más grande, con trofeo; cofre: ámbar */
+.nodo.paso .nodo-boton { left: calc(var(--x) - 40px); top: 8px; width: 80px; height: 80px; }
+.nodo.paso .nodo-disco { width: 72px; height: 72px; border-radius: 24px; }
+.nodo.paso.hecho { --fondo-nodo: var(--ambar); --borde-nodo: var(--ambar-borde); }
+/* Unidad legendaria (reto sin fallos): todos sus pasos en oro con un destello que pasa de vez en cuando. */
+.unidad.legendaria .nodo.hecho { --fondo-nodo: var(--ambar); --borde-nodo: var(--ambar-borde); }
+.unidad.legendaria .nodo.hecho .nodo-disco { position: relative; overflow: hidden; background: linear-gradient(145deg, #ffe08a, var(--ambar) 55%, #e08e00); box-shadow: 0 5px 0 var(--ambar-borde), 0 0 0 3px rgba(255, 200, 60, .35), 0 0 18px rgba(255, 190, 40, .45); }
+.unidad.legendaria .nodo.hecho .nodo-disco::after { content: ""; position: absolute; inset: -20%; background: linear-gradient(115deg, transparent 35%, rgba(255,255,255,.75) 50%, transparent 65%); transform: translateX(-120%); animation: destello 3.6s ease-in-out infinite; }
+.unidad.legendaria .nodo.hecho:nth-child(3n) .nodo-disco::after { animation-delay: .5s; }
+.unidad.legendaria .nodo.hecho:nth-child(3n+1) .nodo-disco::after { animation-delay: 1s; }
+.unidad.legendaria .nodo.paso .nodo-disco svg.ico { fill: rgba(255,255,255,.45); }
+@keyframes destello { 0%, 60% { transform: translateX(-120%); } 85%, 100% { transform: translateX(120%); } }
+.materia-titulo.legendaria .materia-num { background: linear-gradient(145deg, #ffe08a, var(--ambar) 55%, #e08e00); box-shadow: 0 3px 0 var(--ambar-borde), 0 0 14px rgba(255, 190, 40, .5); }
+.materia-titulo.legendaria span span { color: var(--ambar-texto); }
+.nodo.cofre .nodo-disco { border-radius: 18px; }
+.nodo.cofre.actual, .nodo.cofre.hecho { --fondo-nodo: var(--ambar); --borde-nodo: var(--ambar-borde); }
+.nodo-cofre { display: grid; place-items: center; }
+.nodo-cofre svg.ico { width: 32px; height: 32px; fill: rgba(255,255,255,.25); }
+.nodo-cofre .tapa { transform-origin: 4px 10px; transition: transform .3s; }
+.nodo.cofre.hecho .tapa { transform: rotate(-24deg) translate(-1px, -2px); }
+.nodo .etapa-globo { left: var(--x); top: -22px; }
+
+.camino-meta { display: grid; justify-items: center; gap: 6px; margin: 26px 0 8px; font-weight: 900; }
+.camino-meta .nodo-boton { position: static; --fondo-nodo: var(--rojo); --borde-nodo: var(--rojo-borde); }
+.camino-meta.lograda .nodo-boton { --fondo-nodo: var(--verde); --borde-nodo: var(--verde-borde); }
+
+/* ---- Animación del avance ---- */
+/* Estado de antes: el paso recién hecho aún parece el actual y el siguiente aún está cerrado. */
+.nodo.av-origen { --fondo-nodo: var(--tinte) !important; --borde-nodo: var(--tinte-borde) !important; }
+.nodo.av-origen.paso, .nodo.av-origen.cofre { --fondo-nodo: var(--ambar) !important; --borde-nodo: var(--ambar-borde) !important; }
+.nodo.av-origen:not(.cofre) .nodo-disco > * { opacity: 0; transform: scale(.3); }
+.nodo.cofre.av-origen .tapa { transform: none; }
+.nodo.av-destino { --fondo-nodo: var(--relleno-fuerte) !important; --borde-nodo: var(--borde) !important; }
+.nodo.av-destino .nodo-disco { color: var(--texto3) !important; box-shadow: 0 5px 0 var(--borde) !important; }
+.nodo.av-destino .nodo-boton { animation: none !important; }
+/* Sello: el disco rebota y el icono aparece con muelle; una onda sale del nodo. */
+.nodo.av-sello .nodo-disco { animation: av-sello .6s cubic-bezier(.34,1.56,.64,1); }
+.nodo.av-sello:not(.cofre) .nodo-disco > * { animation: av-icono .5s .12s cubic-bezier(.34,1.8,.64,1) backwards; }
+.nodo.av-sello.cofre .nodo-disco { animation: av-cofre .7s ease-in-out; }
+.nodo.av-sello .nodo-boton::after, .nodo.av-abre .nodo-boton::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 4px solid var(--onda, var(--verde-claro)); animation: av-onda .8s ease-out forwards; pointer-events: none; }
+.nodo.av-sello.paso .nodo-boton::after, .nodo.av-sello.cofre .nodo-boton::after { --onda: var(--ambar); border-radius: 26px; }
+.nodo.av-abre { --onda: var(--tinte); }
+.nodo.av-abre .nodo-disco { animation: av-abre .55s cubic-bezier(.34,1.56,.64,1); }
+.etapa-globo.av-globo-entra { animation: av-globo .5s cubic-bezier(.34,1.56,.64,1) !important; }
+.unidad.av-oro .unidad-banner { animation: av-oro 1.2s ease-out; }
+@keyframes av-sello { 0% { transform: translateY(-3px) scale(1); } 35% { transform: translateY(-3px) scale(1.22); } 65% { transform: translateY(-3px) scale(.94); } 100% { transform: translateY(-3px) scale(1); } }
+@keyframes av-icono { from { opacity: 0; transform: scale(.2) rotate(-20deg); } to { opacity: 1; transform: none; } }
+@keyframes av-cofre { 0%, 100% { transform: translateY(-3px) rotate(0); } 15% { transform: translateY(-3px) rotate(-8deg); } 30% { transform: translateY(-3px) rotate(8deg); } 45% { transform: translateY(-3px) rotate(-6deg); } 60% { transform: translateY(-8px) scale(1.15); } }
+@keyframes av-onda { from { transform: scale(.9); opacity: .9; } to { transform: scale(1.9); opacity: 0; } }
+@keyframes av-abre { 0% { transform: translateY(-3px) scale(.85); } 50% { transform: translateY(-3px) scale(1.15); } 100% { transform: translateY(-3px) scale(1); } }
+@keyframes av-globo { from { opacity: 0; transform: translateX(-50%) translateY(12px) scale(.6); } to { opacity: 1; transform: translateX(-50%); } }
+@keyframes av-oro { 0% { transform: scale(1); box-shadow: 0 var(--relieve) 0 var(--ambar-borde); } 30% { transform: scale(1.03); box-shadow: 0 var(--relieve) 0 var(--ambar-borde), 0 0 0 10px var(--ambar-suave); } 100% { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { .nodo.actual .nodo-boton, .nodo .etapa-globo, .unidad.legendaria .nodo-disco::after { animation: none; } }
+
+/* Tarjeta del resultado de un nivel, test de paso o reto legendario */
+.camino-tarjeta { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: center; margin: 12px 0; padding: 14px; border-radius: var(--radio); background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); }
+.camino-tarjeta > .boton { grid-column: 1 / -1; }
+.camino-tarjeta-sello { width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center; color: #fff; background: var(--gris); }
+.camino-tarjeta-sello svg.ico { width: 28px; height: 28px; stroke-width: 2.5; }
+.camino-tarjeta.ok .camino-tarjeta-sello { background: var(--verde); }
+.camino-tarjeta.ko .camino-tarjeta-sello { background: var(--naranja); }
+.camino-tarjeta.oro .camino-tarjeta-sello { background: var(--ambar); }
+.camino-tarjeta.oro { border-color: var(--ambar); }
+.camino-tarjeta-texto { display: grid; gap: 2px; }
+.camino-tarjeta-texto strong { font-size: 1.0625rem; font-weight: 900; }
+.camino-tarjeta-texto span { font-size: .875rem; font-weight: 700; color: var(--texto2); }
+.boton.ambar { --b: var(--ambar); --bb: var(--ambar-borde); }
+.guia-acciones { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 8px; }
+.guia-acciones .boton { width: auto; min-height: 40px; padding: 8px 16px; font-size: .9375rem; }
+.guia-acciones .enlace { font-weight: 800; color: var(--tinte-texto); }
+
+/* ---- Antiguo camino por materias (estilos que sigue usando la ficha de materia) ---- */
 .etapa-disco { width: 62px; height: 62px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 1.5rem;
-  background: var(--fondo-etapa, var(--violeta)); box-shadow: 0 5px 0 var(--borde-etapa, var(--violeta-borde)); transform: translateY(-3px); transition: transform .08s, box-shadow .08s; }
+  background: var(--fondo-etapa, var(--violeta)); box-shadow: 0 5px 0 var(--borde-etapa, var(--violeta-borde)); transform: translateY(-3px); }
 .etapa-disco b { font-variant-numeric: tabular-nums; }
 .etapa-disco svg.ico { width: 32px; height: 32px; stroke-width: 2.4; }
-.etapa-boton:active .etapa-disco { transform: translateY(2px); box-shadow: 0 0 0 var(--borde-etapa, var(--violeta-borde)); }
-@media (hover: hover) { .etapa-boton:hover .etapa-disco { filter: brightness(1.08); } }
 
 /* Estados: sin empezar (gris azulado), empezada (violeta), superada (verde), coronada (ámbar), siguiente (azul) */
 .etapa.n0 { --fondo-etapa: var(--gris); --borde-etapa: var(--gris-borde); }
@@ -83,3 +191,4 @@
 .logro-avance small { color: var(--texto3); font-variant-numeric: tabular-nums; }
 
 .aviso-flotante.corona, .aviso-flotante.logro { background: var(--ambar-borde); }
+.unidad.legendaria .camino-via .recorrido { stroke: var(--ambar-suave); }

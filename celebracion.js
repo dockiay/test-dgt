@@ -241,7 +241,7 @@
     const siguiente = () => {
       limpiarTiempos();
       i++;
-      if (i >= pasos.length) { cerrar(); if (destino) location.hash = destino; return; }
+      if (i >= pasos.length) { cerrar(); if (destino) { if (location.hash === destino && window.App) window.App.repintar(); else location.hash = destino; } return; }
       const p = pasos[i]();
       escena.replaceChildren(p.nodo);
       escena.scrollTop = 0;

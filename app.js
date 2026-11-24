@@ -592,11 +592,12 @@
         h("button", { class: "boton plano destructivo", onclick: () => hoja({ titulo: "¿Vaciar la lista de fallos?", mensaje: "Las preguntas saldrán del repaso. Esta acción no se puede deshacer.",
           acciones: [{ texto: "Vaciar la lista", clase: "gris destructivo", accion: () => { P.vaciarRepaso(datos); guardar(); portadaFallos(); } }] }) }, "Vaciar la lista")));
   }
-  // op (opcional, para extensiones): { alTerminar(sesion) } devuelve nodos para la pantalla de resultado.
+  // op (opcional, para extensiones): { alTerminar(sesion) } devuelve nodos para la pantalla de resultado;
+  // { repetir() } sustituye a «Repetir estas preguntas» (por ejemplo, para sacar preguntas nuevas).
   function practicar(lista, modo, titulo, vuelta, op) {
     pararReloj();
     ordenes = new Map();
-    const s = { lista, modo, titulo, vuelta, i: 0, resp: {}, aciertos: 0, seguidas: 0, mejorSerie: 0, alTerminar: (op && op.alTerminar) || null, inicio: Date.now() };
+    const s = { lista, modo, titulo, vuelta, i: 0, resp: {}, aciertos: 0, seguidas: 0, mejorSerie: 0, alTerminar: (op && op.alTerminar) || null, repetir: (op && op.repetir) || null, inicio: Date.now() };
     sesion = s;
     if (window.Celebracion) Celebracion.empezar();
     pintarPractica(s);
@@ -658,7 +659,7 @@
     const pendientes = fallosDeHoy().length;
     const bien = hechas >= 5 && pct >= 90, frase = !hechas ? "" : pct === 100 ? "¡Todas bien! Impecable." : pct >= 90 ? "¡Nivel de examen!" : pct >= 70 ? "¡Buen trabajo! Vas por buen camino." : "Repasa los fallos y verás cómo sube.";
     const cifraPct = h("h1", {}, `${pct} %`);
-    const aInicio = s.modo !== "temario";
+    const alCamino = s.vuelta === "#/temario", aInicio = s.modo !== "temario" && !alCamino;
     pantalla({ titulo: "Resultado", atras: { texto: aInicio ? "Inicio" : "Temario", href: aInicio ? "#/" : "#/temario" } },
       h("div", { class: "resultado " + (fallos ? (bien ? "apto" : "neutro") : "apto") },
         h("div", { class: "simbolo" }, ico(bien || !fallos ? "trofeo" : "lista")),
@@ -671,9 +672,9 @@
       h("div", { class: "pila" },
         s.modo === "fallos"
           ? (pendientes ? h("a", { class: "boton ancho", href: "#/fallos", onclick: () => setTimeout(ruta) }, `Seguir repasando (${pendientes})`) : null)
-          : h("button", { class: "boton ancho", onclick: () => practicar(barajar(s.lista), s.modo, s.titulo, s.vuelta, { alTerminar: s.alTerminar }) }, "Repetir estas preguntas"),
+          : h("button", { class: "boton ancho" + (alCamino ? " gris" : ""), onclick: () => s.repetir ? s.repetir() : practicar(barajar(s.lista), s.modo, s.titulo, s.vuelta, { alTerminar: s.alTerminar }) }, s.repetir ? "Otra vez, con otras preguntas" : "Repetir estas preguntas"),
         s.modo !== "fallos" && fallos ? h("a", { class: "boton ancho gris", href: "#/fallos" }, "Repasar mis fallos") : null,
-        h("a", { class: "boton ancho gris", href: s.modo === "fallos" ? "#/" : s.vuelta, onclick: () => setTimeout(ruta) }, s.modo === "temario" ? "Cambiar la selección" : "Volver al inicio")));
+        h("a", { class: "boton ancho gris", href: s.modo === "fallos" ? "#/" : s.vuelta, onclick: () => setTimeout(ruta) }, s.modo === "temario" ? "Cambiar la selección" : alCamino ? "Volver al camino" : "Volver al inicio")));
     // Celebración a pantalla completa (celebracion.js); si no la hay, la animación sencilla de siempre.
     const celebrada = window.Celebracion && Celebracion.terminar({ tipo: "practica", modo: s.modo, aciertos: s.aciertos, hechas, fallos, completa: hechas === s.lista.length,
       segundos: Math.round((Date.now() - s.inicio) / 1000), mejorSerie: s.mejorSerie, destino: s.vuelta === "#/temario" ? "#/temario" : null });

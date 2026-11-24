@@ -676,7 +676,7 @@
         h("a", { class: "boton ancho gris", href: s.modo === "fallos" ? "#/" : s.vuelta, onclick: () => setTimeout(ruta) }, s.modo === "temario" ? "Cambiar la selección" : "Volver al inicio")));
     // Celebración a pantalla completa (celebracion.js); si no la hay, la animación sencilla de siempre.
     const celebrada = window.Celebracion && Celebracion.terminar({ tipo: "practica", modo: s.modo, aciertos: s.aciertos, hechas, fallos, completa: hechas === s.lista.length,
-      segundos: Math.round((Date.now() - s.inicio) / 1000), mejorSerie: s.mejorSerie, destino: s.modo === "paso" ? "#/temario" : null });
+      segundos: Math.round((Date.now() - s.inicio) / 1000), mejorSerie: s.mejorSerie, destino: s.vuelta === "#/temario" ? "#/temario" : null });
     if (hechas && window.Animo && !celebrada) {
       Animo.contar(cifraPct, pct, { formato: v => `${v} %` });
       setTimeout(() => { if (bien || !fallos) Animo.sonar("aprobado"); else if (pct >= 70) Animo.sonar("meta"); if (bien) Animo.confeti(); }, 150);

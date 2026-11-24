@@ -34864,7 +34864,7 @@ window.BANCO = {
      "a": "Puede pasar un semáforo, aunque solo tras extremar las precauciones y comprobar que no hay riesgo y que los demás se detienen o le facilitan el paso.",
      "b": "En servicio urgente puede circular por encima de los límites de velocidad."
     },
-    "truco": "Para un prioritario, el agente manda siempre: sus órdenes y señales son lo único que nunca puede saltarse.",
+    "truco": "Para un prioritario, el agente manda siempre: sus órdenes y señales son obligatorias aunque vaya en servicio urgente.",
     "apoyos": [
      {
       "norma": "RGC",
@@ -35572,7 +35572,7 @@ window.BANCO = {
    "imagen": null,
    "verificado_el": "2026-11-24",
    "leccion": {
-    "porque": "La intención de frenar de modo considerable o de inmovilizar el vehículo se avisa con las luces de frenado o, si no funcionan, moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos. Es el único gesto del brazo que se mueve, como imitando el gesto de «frena».",
+    "porque": "La intención de frenar de modo considerable o de inmovilizar el vehículo se avisa con las luces de frenado o, si no funcionan, moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos. De las tres advertencias de maniobra con el brazo (desplazamiento, marcha atrás y frenado), es la única en la que el brazo se mueve, como imitando el gesto de «frena».",
     "descartes": {
      "a": "El brazo extendido horizontalmente con la palma hacia atrás es la señal de marcha atrás, no la de frenar.",
      "c": "El brazo doblado hacia arriba con la palma extendida indica un desplazamiento lateral hacia el lado contrario al que indica la mano."

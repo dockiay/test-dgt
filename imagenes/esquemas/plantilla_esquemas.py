@@ -487,6 +487,91 @@ ESQUEMAS_EXTRA = [
      poblado_y_velocidad),
 ]
 
+# ---------------------------------------------------------------- señales en vehículos (RGV, anexo XI) y semáforos especiales
+FONDO_NEUTRO = "#eef1f4"
+
+
+def v5_vehiculo_lento():
+    """V-5 según el plano del anexo XI del RGV: triángulo de vértices redondeados, borde reflectante
+    rojo (1) y triángulo interior fluorescente rojo (2) separado por una franja fina."""
+    cx, cy = 200, 225
+    def tri(r):
+        pts = [(cx + r * math.cos(math.radians(a)), cy - r * math.sin(math.radians(a))) for a in (90, 210, 330)]
+        return " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    return [rect(0, 0, W, W, FONDO_NEUTRO),
+            f'<polygon points="{tri(170)}" fill="#b5121b" stroke="#b5121b" stroke-width="22" stroke-linejoin="round"/>',
+            f'<polygon points="{tri(116)}" fill="#ffffff"/>',
+            f'<polygon points="{tri(108)}" fill="#ff3b1f"/>']
+
+
+def v20_carga_saliente():
+    """V-20 según el plano del anexo XI del RGV: panel cuadrado con franjas diagonales alternas rojas y blancas."""
+    els = [rect(0, 0, W, W, FONDO_NEUTRO), '<clipPath id="v20"><rect x="60" y="60" width="280" height="280" rx="6"/></clipPath>',
+           '<g clip-path="url(#v20)">', rect(60, 60, 280, 280, "#ffffff")]
+    paso = 66  # anchura de cada franja medida en diagonal
+    for i in range(-6, 8, 2):
+        o = i * paso
+        els.append(f'<polygon points="{60 + o},{340} {60 + o + paso},{340} {340 + o + paso},{60} {340 + o},{60}" fill="#d0021b"/>')
+    els += ['</g>', '<rect x="60" y="60" width="280" height="280" rx="6" fill="none" stroke="#555" stroke-width="3"/>']
+    return els
+
+
+def semaforo_tranvia(barra):
+    """Semáforo de fondo circular negro con una franja blanca iluminada (vertical u horizontal)."""
+    els = [rect(0, 0, W, W, CIELO), rect(0, 300, W, 100, ASFALTO),
+           # carriles del tranvía
+           '<path d="M150,400 L185,300 M250,400 L215,300" stroke="#b9bec4" stroke-width="5"/>',
+           poste(320, 120, 330),
+           '<rect x="285" y="40" width="70" height="200" rx="8" fill="#1f2328"/>']
+    for i, cy in enumerate((75, 140, 205)):
+        els.append(f'<circle cx="320" cy="{cy}" r="26" fill="#0b0d10"/>')
+    if barra == "vertical":
+        els.append('<rect x="315" y="55" width="10" height="40" rx="3" fill="#ffffff"/>')
+    else:
+        els.append('<rect x="300" y="70" width="40" height="10" rx="3" fill="#ffffff"/>')
+    return els
+
+
+def semaforo_paso_nivel():
+    """Dos luces rojas en horizontal (una encendida) bajo la cruz de paso a nivel (P-11 del catálogo)."""
+    els = [rect(0, 0, W, W, CIELO), rect(0, 300, W, 100, ENTORNO),
+           f'<polygon points="80,400 320,400 230,300 170,300" fill="{ASFALTO}"/>',
+           '<path d="M0,318 L400,318 M0,330 L400,330" stroke="#7a6a58" stroke-width="5"/>',
+           poste(300, 60, 320)]
+    img, h = senal_img("P-11", 245, 40, 110)
+    els.append(img)
+    y = 40 + h + 20
+    els += [f'<rect x="250" y="{y}" width="100" height="46" rx="23" fill="#1f2328"/>',
+            f'<circle cx="275" cy="{y + 23}" r="16" fill="#e0322b"/>',
+            f'<circle cx="325" cy="{y + 23}" r="16" fill="#4a1a18"/>']
+    for ang in range(0, 360, 45):
+        a = math.radians(ang)
+        els.append(f'<line x1="{275 + 20 * math.cos(a):.1f}" y1="{y + 23 + 20 * math.sin(a):.1f}" '
+                   f'x2="{275 + 27 * math.cos(a):.1f}" y2="{y + 23 + 27 * math.sin(a):.1f}" stroke="#e0322b" '
+                   f'stroke-width="3" stroke-linecap="round"/>')
+    return els
+
+
+ESQUEMAS_EXTRA2 = [
+    ("senal-V-5-vehiculo-lento.svg", "Señal en la parte trasera de un vehículo (triángulo rojo)",
+     "Placa triangular con los vértices redondeados: borde rojo reflectante y triángulo interior rojo fluorescente.",
+     v5_vehiculo_lento),
+    ("senal-V-20-carga-saliente.svg", "Panel cuadrado de franjas rojas y blancas",
+     "Panel cuadrado con franjas diagonales alternas rojas y blancas.",
+     v20_carga_saliente),
+    ("semaforo-tranvia-franja-vertical.svg", "Semáforo con franja blanca vertical",
+     "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical iluminada.",
+     lambda: semaforo_tranvia("vertical")),
+    ("semaforo-tranvia-franja-horizontal.svg", "Semáforo con franja blanca horizontal",
+     "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca horizontal iluminada.",
+     lambda: semaforo_tranvia("horizontal")),
+    ("semaforo-paso-a-nivel.svg", "Semáforo de paso a nivel",
+     "Carretera que cruza una vía férrea. En el poste, la señal de situación de paso a nivel y debajo dos luces rojas en horizontal, con una de ellas encendida.",
+     semaforo_paso_nivel),
+]
+
+ESQUEMAS += ESQUEMAS_EXTRA2
+
 ESQUEMAS += ESQUEMAS_EXTRA
 
 if __name__ == "__main__":

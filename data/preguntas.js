@@ -7221,6 +7221,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0014",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "Un agente que regula el tráfico levanta el brazo verticalmente. ¿A quién obliga a detenerse?",
+   "opciones": {
+    "a": "Solo a los vehículos que circulan por el carril al que mira el agente.",
+    "b": "A todos los usuarios de la vía que se acerquen al agente, salvo los que no puedan hacerlo en condiciones de seguridad suficiente.",
+    "c": "Solo a los peatones."
+   },
+   "correcta": "b",
+   "explicacion": "El brazo levantado verticalmente obliga a detenerse a todos los usuarios que se acerquen al agente, salvo a los conductores que no puedan hacerlo con seguridad suficiente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.1.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Brazo levantado verticalmente: obliga a detenerse a todos los usuarios de la vía que se acerquen al agente, salvo a los conductores que no puedan hacerlo en condiciones de seguridad suficiente.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/agente-brazo-levantado.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Agente con un brazo levantado verticalmente",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0015",
    "tema": "senales",
    "subtema": "agentes",
@@ -7295,6 +7323,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0018",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "El agente mueve el brazo extendido alternativamente de arriba abajo. ¿Qué indica a los conductores que se acercan por el lado de ese brazo?",
+   "opciones": {
+    "a": "Que aceleren para despejar la intersección.",
+    "b": "Que se detengan.",
+    "c": "Que disminuyan la velocidad."
+   },
+   "correcta": "c",
+   "explicacion": "Esta señal obliga a disminuir la velocidad a los conductores que se acerquen por el lado del brazo que la ejecuta y perpendicularmente a él.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.1.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Brazo extendido moviéndolo alternativamente de arriba abajo: esta señal obliga a disminuir la velocidad de su vehículo a los conductores que se acerquen al agente por el lado correspondiente al brazo que ejecuta la señal",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/agente-brazo-arriba-abajo.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Agente con un brazo extendido que mueve alternativamente de arriba abajo",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0019",
    "tema": "senales",
    "subtema": "agentes",
@@ -7361,6 +7417,34 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0022",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "Desde un vehículo de los agentes se muestra una bandera roja. ¿Qué indica?",
+   "opciones": {
+    "a": "Que, a partir del paso de ese vehículo, la calzada queda temporalmente cerrada al tráfico, salvo para quienes vayan acompañados o escoltados por los agentes.",
+    "b": "Que hay que extremar la atención por la proximidad de un peligro.",
+    "c": "Que la calzada queda de nuevo abierta al tráfico."
+   },
+   "correcta": "a",
+   "explicacion": "La bandera roja indica que, a partir del paso del vehículo que la porta, la calzada queda temporalmente cerrada al tráfico de todos los vehículos y usuarios, excepto los acompañados o escoltados por agentes.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Bandera roja: indica que a partir del paso del vehículo que la porta, la calzada queda temporalmente cerrada al tráfico de todos los vehículos y usuarios",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/agente-moto-bandera-roja.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Agente en motocicleta mostrando una bandera roja",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7433,6 +7517,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0026",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "En un tramo en obras, el personal de la obra regula el paso de vehículos con paletas como estas. ¿Está obligado a seguir sus indicaciones?",
+   "opciones": {
+    "a": "No, solo hay que obedecer a los agentes de la autoridad.",
+    "b": "Solo si no hay semáforo provisional.",
+    "c": "Sí, los usuarios están obligados a seguir las indicaciones del personal que regula el paso de vehículos en las obras."
+   },
+   "correcta": "c",
+   "explicacion": "Los usuarios de la vía están obligados a seguir las indicaciones del personal destinado a la regulación del paso de vehículos en las obras.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "139.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los usuarios de la vía están obligados a seguir las indicaciones del personal destinado a la regulación del paso de vehículos en dichas obras",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/regulacion-paso-paletas.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Paletas para regular el paso: una con la señal de entrada prohibida y otra con la de sentido obligatorio",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 1.1"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0027",
    "tema": "senales",
    "subtema": "agentes",
@@ -7476,6 +7588,90 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0029",
+   "tema": "senales",
+   "subtema": "balizamiento",
+   "materia": 1,
+   "enunciado": "Una hilera de conos delimita una zona de la calzada. ¿Qué significa?",
+   "opciones": {
+    "a": "Que se recomienda no cruzar la línea que forman, aunque está permitido.",
+    "b": "Que solo pueden atravesarla los vehículos de dos ruedas.",
+    "c": "Que está prohibido el paso a través de la línea real o imaginaria que los une."
+   },
+   "correcta": "c",
+   "explicacion": "Las balizas de borde provisionales, conos o dispositivos análogos prohíben el paso a través de la línea real o imaginaria que los une.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.3.1.1.4º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Balizas de borde provisionales, conos o dispositivos análogos: prohíben el paso a través de la línea real o imaginaria que los une.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/conos.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Hilera de conos sobre la calzada",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 2"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0030",
+   "tema": "senales",
+   "subtema": "balizamiento",
+   "materia": 1,
+   "enunciado": "¿Qué indica un panel direccional provisional colocado en una zona de obras?",
+   "opciones": {
+    "a": "Prohíbe el paso e informa, además, sobre el sentido de la circulación.",
+    "b": "Solo recomienda reducir la velocidad.",
+    "c": "Indica la distancia hasta el final de las obras."
+   },
+   "correcta": "a",
+   "explicacion": "El panel direccional provisional prohíbe el paso e informa sobre el sentido de la circulación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.3.1.1.3º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Panel direccional provisional: prohíbe el paso e informa, además, sobre el sentido de la circulación.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/panel-direccional-provisional.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Panel direccional provisional de franjas rojas y blancas",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 2"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0031",
+   "tema": "senales",
+   "subtema": "balizamiento",
+   "materia": 1,
+   "enunciado": "¿Cuál es la finalidad de los paneles direccionales permanentes colocados en el exterior de una curva?",
+   "opciones": {
+    "a": "Indicar que está prohibido adelantar en toda la curva.",
+    "b": "Señalizar la proximidad de un paso a nivel.",
+    "c": "Marcar el trazado de la curva en relación con la reducción de velocidad necesaria y señalar el sentido de circulación."
+   },
+   "correcta": "c",
+   "explicacion": "Los paneles direccionales permanentes marcan el trazado de una curva en relación con la reducción de velocidad necesaria para circular por ella con seguridad, además de indicar el sentido de circulación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.3.1.2.3º",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Paneles direccionales permanentes: elementos cuya finalidad es la de marcar el trazado de una curva en relación con la reducción de velocidad que se tenga que realizar",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/panel-direccional-permanente.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Panel direccional permanente azul y blanco en el borde de la carretera",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3.1.2"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7663,6 +7859,90 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0040",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Un semáforo muestra luces con la silueta iluminada de un ciclo. ¿A quién se refieren sus indicaciones?",
+   "opciones": {
+    "a": "A ciclos y ciclomotores.",
+    "b": "A todos los vehículos de dos ruedas.",
+    "c": "Exclusivamente a los ciclos."
+   },
+   "correcta": "c",
+   "explicacion": "Cuando las luces del semáforo presentan la silueta iluminada de un ciclo, sus indicaciones se refieren exclusivamente a ellos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.4.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cuando las luces de los semáforos presentan la silueta iluminada de un ciclo, sus indicaciones se refieren exclusivamente a ellos.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/semaforos-ciclos.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Semáforos con la silueta de una bicicleta en las luces",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0041",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Un semáforo consistente en una franja blanca iluminada sobre fondo circular negro, sin que exista carril reservado, ¿a qué vehículos se refiere?",
+   "opciones": {
+    "a": "A los taxis.",
+    "b": "A los tranvías y autobuses de líneas regulares.",
+    "c": "A los vehículos prioritarios."
+   },
+   "correcta": "b",
+   "explicacion": "Este semáforo se refiere exclusivamente a tranvías y autobuses de líneas regulares, salvo que exista un carril reservado, en cuyo caso solo se refiere a los que circulen por él.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.4.2",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "sus indicaciones se refieren exclusivamente a los tranvías y a los autobuses de líneas regulares, a no ser que exista un carril reservado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/semaforo-tranvia-franja-vertical.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca vertical iluminada.",
+    "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0042",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "En un semáforo para tranvías y autobuses, ¿qué significa una franja blanca horizontal iluminada?",
+   "opciones": {
+    "a": "Que está permitido el paso de frente.",
+    "b": "Que prohíbe el paso en las mismas condiciones que la luz roja no intermitente.",
+    "c": "Que se puede girar a la derecha."
+   },
+   "correcta": "b",
+   "explicacion": "La franja blanca horizontal iluminada prohíbe el paso en las mismas condiciones que la luz roja no intermitente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.4.2.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una franja blanca horizontal iluminada prohíbe el paso en las mismas condiciones que la luz roja no intermitente.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/semaforo-tranvia-franja-horizontal.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Semáforo de luces circulares negras junto a unas vías de tranvía; la luz superior muestra una franja blanca horizontal iluminada.",
+    "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0043",
    "tema": "senales",
    "subtema": "semaforos",
@@ -7683,6 +7963,34 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0044",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "¿Qué significan dos luces rojas alternativamente intermitentes antes de un paso a nivel?",
+   "opciones": {
+    "a": "Que el paso está prohibido temporalmente.",
+    "b": "Que hay que pasar con precaución.",
+    "c": "Que el semáforo está averiado."
+   },
+   "correcta": "a",
+   "explicacion": "Una luz roja intermitente o dos luces rojas alternativamente intermitentes prohíben temporalmente el paso antes de un paso a nivel, un puente móvil, un pontón transbordador, una salida de vehículos de extinción de incendios o ante la aproximación de una aeronave a escasa altura.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una luz roja intermitente, o dos luces rojas alternativamente intermitentes, prohíben temporalmente el paso a los vehículos antes de un paso a nivel",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/semaforo-paso-a-nivel.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Carretera que cruza una vía férrea. En el poste, la señal de situación de paso a nivel y debajo dos luces rojas en horizontal, con una de ellas encendida.",
+    "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7732,6 +8040,62 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0047",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Un semáforo circular muestra una flecha negra sobre la luz amarilla encendida. ¿Qué significa?",
+   "opciones": {
+    "a": "Que la luz amarilla no afecta al movimiento indicado por la flecha.",
+    "b": "Que el significado de la luz amarilla se limita exclusivamente al movimiento indicado por la flecha.",
+    "c": "Que el semáforo está en fase de mantenimiento."
+   },
+   "correcta": "b",
+   "explicacion": "Una flecha negra sobre una luz roja o amarilla no cambia su significado, pero lo limita exclusivamente al movimiento indicado por la flecha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.f",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una flecha negra sobre una luz roja no intermitente o sobre una luz amarilla no cambia el significado de dichas luces, pero lo limita exclusivamente al movimiento indicado por la flecha.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/semaforo-flecha-negra.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Semáforo con una flecha negra sobre la luz encendida",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.2"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0048",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "El semáforo tiene la luz roja circular encendida y, a la vez, una flecha verde iluminada hacia la derecha. ¿Puede girar a la derecha?",
+   "opciones": {
+    "a": "Sí, pero con precaución, dejando pasar a los vehículos que circulen por el carril al que se incorpora y sin poner en peligro a quien esté cruzando la calzada.",
+    "b": "No, la luz roja prevalece sobre la flecha verde.",
+    "c": "Sí, y con prioridad absoluta sobre peatones y otros vehículos."
+   },
+   "correcta": "a",
+   "explicacion": "La flecha verde permite tomar la dirección indicada cualquiera que sea la otra luz encendida, pero con precaución, dejando pasar a quienes circulan por el carril al que se incorpora y sin poner en peligro a quien cruza.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.g",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los vehículos que avancen siguiendo la indicación de una flecha verde deben hacerlo con precaución, dejando pasar a los vehículos que circulen por el carril al que se incorporen y no poniendo en peligro a ningún usuario de la vía que esté cruzando la calzada.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/semaforo-flecha-verde.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Semáforo con la luz roja encendida y un módulo con una flecha verde iluminada",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.2"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0049",
    "tema": "senales",
    "subtema": "semaforos",
@@ -7760,6 +8124,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0050",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Un semáforo de carril (cuadrado) sobre su carril muestra un aspa roja. ¿Qué significa?",
+   "opciones": {
+    "a": "Prohibición de ocupar ese carril; si circula por él, debe abandonarlo en el tiempo más breve posible.",
+    "b": "Que debe detenerse en ese carril hasta que se encienda la flecha verde.",
+    "c": "Que el carril está reservado a vehículos prioritarios."
+   },
+   "correcta": "a",
+   "explicacion": "La luz roja en forma de aspa prohíbe ocupar el carril y quienes circulen por él deben abandonarlo en el tiempo más breve posible.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.3.a",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una luz roja en forma de aspa determina la prohibición de ocupar el carril indicado. Los conductores de los vehículos que circulen por este carril deberán abandonarlo en el tiempo más breve posible.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/semaforos-carril-aspa-flecha.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Pórtico con semáforos de carril: aspa roja y flecha verde hacia abajo",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0051",
    "tema": "senales",
    "subtema": "semaforos",
@@ -7784,6 +8176,34 @@ window.BANCO = {
     "alt": "Esquema de la pregunta",
     "alt_detalle": "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante hay un semáforo circular con la luz roja encendida.",
     "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0052",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Un semáforo de carril muestra una flecha amarilla o blanca oblicua apuntando hacia abajo. ¿Qué indica?",
+   "opciones": {
+    "a": "Que el carril está abierto con prioridad.",
+    "b": "Que debe irse incorporando con seguridad al carril hacia el que apunta la flecha, porque el suyo va a quedar cerrado en corto espacio.",
+    "c": "Que debe detenerse inmediatamente."
+   },
+   "correcta": "b",
+   "explicacion": "Indica la necesidad de irse incorporando con seguridad al carril hacia el que apunta la flecha, ya que el carril por el que se circula va a quedar cerrado en corto espacio.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.3.c",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "indica a los usuarios del carril correspondiente la necesidad de irse incorporando en condiciones de seguridad al carril hacia el que apunta la flecha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/semaforo-carril-flecha-oblicua.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Semáforo de carril con una flecha oblicua iluminada hacia abajo",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3"
    },
    "verificado_el": "2026-11-24"
   },
@@ -12376,6 +12796,62 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-car-0017",
+   "tema": "senales_vehiculo",
+   "subtema": "v20_carga_sobresale",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal colocada en la parte trasera de un vehículo?",
+   "opciones": {
+    "a": "Que se trata de un vehículo largo, de más de 12 metros.",
+    "b": "Que el vehículo no puede superar los 40 km/h por construcción.",
+    "c": "Que la carga del vehículo sobresale posteriormente."
+   },
+   "correcta": "c",
+   "explicacion": "La señal V-20 (panel de franjas rojas y blancas) indica que la carga sobresale por detrás.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-20",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Indica que la carga del vehículo sobresale posteriormente.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/senal-V-20-carga-saliente.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Panel cuadrado con franjas diagonales alternas rojas y blancas.",
+    "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "C-sev-0001",
+   "tema": "senales_vehiculo",
+   "subtema": "v5_vehiculo_lento",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta señal colocada en la parte posterior de un vehículo?",
+   "opciones": {
+    "a": "Que el vehículo, por construcción, no puede sobrepasar los 40 km/h.",
+    "b": "Que el vehículo transporta mercancías peligrosas.",
+    "c": "Que el vehículo está inmovilizado en la calzada."
+   },
+   "correcta": "a",
+   "explicacion": "La señal V-5 de vehículo lento indica que, por construcción, no puede superar los 40 km/h.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-5",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "que, por construcción, no puede sobrepasar la velocidad de 40 kilómetros por hora",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/senal-V-5-vehiculo-lento.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Placa triangular con los vértices redondeados: borde rojo reflectante y triángulo interior rojo fluorescente.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -17712,6 +18188,34 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "E-amb-0009",
+   "tema": "distintivos_ambientales",
+   "subtema": "uso_compartido",
+   "materia": 16,
+   "enunciado": "¿Qué identifica este distintivo colocado en el parabrisas de un vehículo?",
+   "opciones": {
+    "a": "Que el vehículo está clasificado en el Registro de Vehículos como vehículo de uso compartido.",
+    "b": "Que el vehículo tiene la clasificación ambiental 0 emisiones.",
+    "c": "Que el vehículo puede circular por el carril VAO con un solo ocupante."
+   },
+   "correcta": "a",
+   "explicacion": "El distintivo V-26 identifica la clasificación del vehículo en el Registro de Vehículos como vehículo de uso compartido.",
+   "fuente": {
+    "norma": "RGV",
+    "articulo": "Anexo XI, V-26.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
+    "cita": "Identifica la clasificación del vehículo en el Registro de Vehículos como vehículo de uso compartido.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/fotos-boe/V-26.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Distintivo circular azul con un turismo y varias personas",
+    "credito": "Anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826), señal V-26"
+   },
    "verificado_el": "2026-11-24"
   }
  ]

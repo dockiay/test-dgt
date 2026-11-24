@@ -91,7 +91,9 @@
   "id": "B1-sen-0014",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/agente-brazo-levantado.jpg"
+  ]
  },
  {
   "id": "B1-sen-0016",
@@ -105,73 +107,97 @@
   "id": "B1-sen-0018",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/agente-brazo-arriba-abajo.jpg"
+  ]
  },
  {
   "id": "B1-sen-0022",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/agente-moto-bandera-roja.jpg"
+  ]
  },
  {
   "id": "B1-sen-0026",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/regulacion-paso-paletas.jpg"
+  ]
  },
  {
   "id": "B1-sen-0029",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/conos.jpg"
+  ]
  },
  {
   "id": "B1-sen-0030",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/panel-direccional-provisional.jpg"
+  ]
  },
  {
   "id": "B1-sen-0031",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/panel-direccional-permanente.jpg"
+  ]
  },
  {
   "id": "B1-sen-0040",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/semaforos-ciclos.jpg"
+  ]
  },
  {
   "id": "B1-sen-0041",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/semaforo-tranvia-franja-vertical.svg"
+  ]
  },
  {
   "id": "B1-sen-0042",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/semaforo-tranvia-franja-horizontal.svg"
+  ]
  },
  {
   "id": "B1-sen-0044",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/semaforo-paso-a-nivel.svg"
+  ]
  },
  {
   "id": "B1-sen-0047",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/semaforo-flecha-negra.jpg"
+  ]
  },
  {
   "id": "B1-sen-0048",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/semaforo-flecha-verde.jpg"
+  ]
  },
  {
   "id": "B1-sen-0049",
@@ -185,7 +211,9 @@
   "id": "B1-sen-0050",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/semaforos-carril-aspa-flecha.jpg"
+  ]
  },
  {
   "id": "B1-sen-0051",
@@ -199,7 +227,9 @@
   "id": "B1-sen-0052",
   "tipo": "foto",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/semaforo-carril-flecha-oblicua.jpg"
+  ]
  },
  {
   "id": "B1-sen-0057",
@@ -1050,18 +1080,24 @@
   "id": "C-car-0017",
   "tipo": "senal",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/senal-V-20-carga-saliente.svg"
+  ]
  },
  {
   "id": "C-sev-0001",
   "tipo": "senal",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/esquemas/senal-V-5-vehiculo-lento.svg"
+  ]
  },
  {
   "id": "E-amb-0009",
   "tipo": "senal",
   "codigo": null,
-  "src_disponibles": null
+  "src_disponibles": [
+   "img/fotos-boe/V-26.jpg"
+  ]
  }
 ]

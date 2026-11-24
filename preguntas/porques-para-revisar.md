@@ -5418,7 +5418,7 @@ Respuesta: **Solo si la comunicación tiene lugar sin emplear las manos ni usar 
 
 - ✔ Se prohíbe utilizar el móvil durante la conducción. Se exceptúa cuando la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares (manos libres). _(RGC 18.2)_
 - ✘ `D-mov-0003` Utilizar manualmente navegadores u otros sistemas de comunicación, o el móvil en condiciones distintas a sujetarlo con la mano, supone la pérdida de 3 puntos (LSV, Anexo II, apartado 20). _(LSV Anexo II.20)_
-- ✘ `D-mov-0006` El manos libres está permitido, pero también es peligroso porque el conductor presta parte de su atención a la conversación. La DGT aconseja no tener conversaciones de más de un minuto. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 71))_
+- ✘ `D-mov-0008` Al prestar atención a la conversación se calculan peor las distancias, se dejan de ver señales y se producen salidas de la carretera e invasiones del carril contrario. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 71))_
 
 ## D-mov-0002
 
@@ -5463,7 +5463,7 @@ Respuesta: **está permitido, pero también es peligroso porque parte de la aten
 
 - ✔ El manos libres está permitido, pero también es peligroso porque el conductor presta parte de su atención a la conversación. La DGT aconseja no tener conversaciones de más de un minuto. _(MANUAL_DGT Tema 3, Usar el teléfono móvil (pág. 71))_
 - ✘ `D-mov-0003` Utilizar manualmente navegadores u otros sistemas de comunicación, o el móvil en condiciones distintas a sujetarlo con la mano, supone la pérdida de 3 puntos (LSV, Anexo II, apartado 20). _(LSV Anexo II.20)_
-- ✘ `D-mov-0001` Se prohíbe utilizar el móvil durante la conducción. Se exceptúa cuando la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares (manos libres). _(RGC 18.2)_
+- ✘ `D-mov-0002` Utilizar el móvil sujetándolo con la mano mientras se conduce supone la pérdida de 6 puntos (LSV, Anexo II, apartado 8). _(LSV Anexo II.8)_
 
 ## D-mov-0007
 

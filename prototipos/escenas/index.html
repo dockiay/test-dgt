@@ -1,0 +1,403 @@
+<meta charset="utf-8">
+<title>Escenas en movimiento</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap">
+<style>
+/* Prototipo: tarjeta de pregunta como en la web (estilo propio con relieve), con la escena debajo del enunciado. */
+:root {
+  --fondo: #f4f6fb; --celda: #ffffff; --celda-pulsada: #eef2fa; --borde: #dfe4ee; --relleno: #eef1f7; --relleno-fuerte: #e1e6f0;
+  --texto: #1b2232; --texto2: #5f6b84; --texto3: #8a94aa; --separador: #e4e8f0;
+  --tinte: #2563eb; --tinte-borde: #1a46b0; --tinte-texto: #1d4ed8; --tinte-suave: #e8efff;
+  --verde: #12943f; --verde-borde: #0c6e2e; --verde-texto: #136c33; --verde-suave: #e3f7e9; --verde-claro: #58d68d;
+  --rojo: #dc2f37; --rojo-borde: #a8222a; --rojo-texto: #b4232b; --rojo-suave: #fde7e8;
+  --ambar: #f5a000; --ambar-texto: #7a4b00; --ambar-suave: #fff1d6;
+  --radio: 16px; --relieve: 4px;
+  --letra: "Nunito", ui-rounded, "SF Pro Rounded", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --fondo: #10141c; --celda: #1a2030; --celda-pulsada: #222a3d; --borde: #2c3549; --relleno: #232b3d; --relleno-fuerte: #2e374c;
+  --texto: #f1f4fa; --texto2: #a4afc6; --texto3: #7a859c; --separador: #2a3245;
+  --tinte-texto: #7aa7ff; --tinte-suave: #1b2a4d; --tinte-borde: #163a92; --verde-texto: #5ee08f; --verde-suave: #143322; --verde-borde: #0a5a26;
+  --rojo-texto: #ff8a8f; --rojo-suave: #3b1a1f; --rojo-borde: #8a1b22; --ambar-texto: #ffc95c; --ambar-suave: #3a2c0f; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --fondo: #10141c; --celda: #1a2030; --celda-pulsada: #222a3d; --borde: #2c3549; --relleno: #232b3d; --relleno-fuerte: #2e374c;
+  --texto: #f1f4fa; --texto2: #a4afc6; --texto3: #7a859c; --separador: #2a3245;
+  --tinte-texto: #7aa7ff; --tinte-suave: #1b2a4d; --tinte-borde: #163a92; --verde-texto: #5ee08f; --verde-suave: #143322; --verde-borde: #0a5a26;
+  --rojo-texto: #ff8a8f; --rojo-suave: #3b1a1f; --rojo-borde: #8a1b22; --ambar-texto: #ffc95c; --ambar-suave: #3a2c0f; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--fondo); color: var(--texto); font: 600 1.0625rem/1.45 var(--letra); -webkit-font-smoothing: antialiased; }
+.pagina { max-width: 680px; margin: 0 auto; padding-block: 20px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 28px; }
+.pagina > * { min-width: 0; }
+h1 { font-size: 2.125rem; line-height: 1.12; font-weight: 900; letter-spacing: -.02em; margin: 0 0 8px; text-wrap: balance; }
+h2 { font-size: 1.375rem; line-height: 1.2; font-weight: 900; letter-spacing: -.01em; margin: 0; text-wrap: balance; }
+p { margin: 0; }
+.entradilla { color: var(--texto2); max-width: 62ch; }
+.cabecera { font-size: .8125rem; color: var(--texto2); font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin: 0 4px 10px; }
+a { color: var(--tinte-texto); font-weight: 800; text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { font: inherit; color: inherit; border: 0; background: none; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--tinte); outline-offset: 3px; border-radius: 12px; }
+
+.grupo { background: var(--celda); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 0 var(--relieve) 0 var(--borde); }
+.ideas { list-style: none; margin: 0; padding: 0; }
+.ideas li { display: grid; grid-template-columns: 7.2rem 1fr; gap: 4px 14px; padding: 12px 16px; border-top: 2px solid var(--separador); }
+.ideas li:first-child { border-top: 0; }
+.ideas b { font-weight: 900; }
+.ideas span { color: var(--texto2); font-size: .9688rem; min-width: 0; }
+@media (max-width: 460px) { .ideas li { grid-template-columns: 1fr; } }
+
+.proto { display: grid; gap: 14px; }
+.proto-cab { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: .8125rem; font-weight: 800; padding: 3px 10px; border-radius: 999px; background: var(--relleno); color: var(--texto2); }
+.enunciado { font-size: 1.1875rem; font-weight: 800; line-height: 1.35; }
+.escena { margin: 0; border-radius: var(--radio); overflow: hidden; border: 2px solid var(--borde); background: #cfe0b8; position: relative; }
+.escena-svg { display: block; width: 100%; height: auto; font-family: var(--letra); }
+.escena .pista { position: absolute; left: 10px; top: 10px; font-size: .8125rem; font-weight: 800; padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,.92); color: #1b2232; }
+.opciones { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.opcion { position: relative; width: 100%; display: flex; align-items: center; gap: 14px; min-height: 58px; padding: 12px 14px; text-align: left; font-weight: 700;
+  background: var(--celda); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 0 var(--relieve) 0 var(--borde); transition: transform .08s, box-shadow .08s; }
+.opcion:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 var(--borde); }
+.opcion .letra { flex: none; width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; font-weight: 900; border: 2px solid var(--borde); color: var(--texto2); }
+.opcion:disabled { cursor: default; }
+.opcion.correcta { border-color: var(--verde); background: var(--verde-suave); box-shadow: 0 var(--relieve) 0 var(--verde); color: var(--verde-texto); }
+.opcion.correcta .letra { background: var(--verde); border-color: var(--verde); color: #fff; }
+.opcion.incorrecta { border-color: var(--rojo); background: var(--rojo-suave); box-shadow: 0 var(--relieve) 0 var(--rojo); color: var(--rojo-texto); }
+.opcion.incorrecta .letra { background: var(--rojo); border-color: var(--rojo); color: #fff; }
+.opcion.apagada .texto, .opcion.apagada .letra { opacity: .5; }
+
+.explicacion { border-radius: var(--radio); border: 2px solid var(--borde); background: var(--celda); overflow: hidden; animation: aparecer .3s ease both; }
+.veredicto { font-weight: 900; padding: 12px 16px; color: var(--verde-texto); background: var(--verde-suave); }
+.explicacion.mal .veredicto { color: var(--rojo-texto); background: var(--rojo-suave); }
+.cuerpo { padding: 14px 16px 16px; display: grid; gap: 14px; }
+.cita { margin: 0; padding: 10px 14px; border-left: 4px solid var(--tinte); background: var(--relleno); border-radius: 0 12px 12px 0; font-size: .9375rem; color: var(--texto); }
+.cita small { display: block; font-size: .75rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--texto2); margin-bottom: 2px; }
+.aviso { font-size: .875rem; color: var(--texto2); }
+
+/* Reproductor de pasos */
+.pasos { display: grid; gap: 10px; }
+.pasos-cab { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.puntos { display: flex; gap: 6px; }
+.puntos i { width: 10px; height: 10px; border-radius: 50%; background: var(--relleno-fuerte); transition: background-color .2s, transform .2s; }
+.puntos i.hecho { background: var(--tinte); }
+.puntos i.ahora { background: var(--tinte); transform: scale(1.35); }
+.paso-texto { font-weight: 800; min-height: 3em; }
+.botonera { display: flex; flex-wrap: wrap; gap: 10px; }
+.boton { --b: var(--tinte); --bb: var(--tinte-borde); display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 46px; padding: 0 18px; border-radius: 14px;
+  background: var(--b); color: #fff; font-weight: 900; box-shadow: 0 4px 0 var(--bb); transition: transform .08s, box-shadow .08s; }
+.boton:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 var(--bb); }
+.boton.gris { --b: var(--celda); --bb: var(--borde); color: var(--tinte-texto); border: 2px solid var(--borde); }
+.boton:disabled { opacity: .45; cursor: default; }
+.segmentos { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px; border-radius: 14px; background: var(--relleno); }
+.segmentos button { flex: 1 1 auto; min-height: 40px; padding: 0 12px; border-radius: 10px; font-weight: 800; font-size: .9375rem; color: var(--texto2); }
+.segmentos button[aria-pressed="true"] { background: var(--celda); color: var(--texto); box-shadow: 0 2px 0 var(--borde); }
+.control { display: grid; gap: 4px; }
+.control label { display: flex; justify-content: space-between; gap: 12px; font-weight: 800; font-size: .9375rem; }
+.control output { font-variant-numeric: tabular-nums; color: var(--tinte-texto); }
+input[type="range"] { width: 100%; accent-color: var(--tinte); min-height: 32px; }
+.lecturas { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 8px; }
+.lectura { padding: 10px 12px; border-radius: 12px; background: var(--relleno); font-size: .9375rem; font-weight: 800; min-width: 0; }
+.lectura strong { display: block; font-size: 1.25rem; font-variant-numeric: tabular-nums; }
+.lectura.ok { background: var(--verde-suave); color: var(--verde-texto); }
+.lectura.mal { background: var(--rojo-suave); color: var(--rojo-texto); }
+.lectura.reac { background: var(--ambar-suave); color: var(--ambar-texto); }
+.resultado-toque { font-weight: 800; }
+.recom ol { margin: 0; padding-left: 1.3em; display: grid; gap: 10px; }
+.recom li { padding-left: 4px; min-width: 0; }
+.recom li span { color: var(--texto2); }
+.recom .grupo { padding: 16px 18px; }
+code { font-size: .875em; background: var(--relleno); padding: 1px 6px; border-radius: 6px; }
+pre { margin: 0; overflow-x: auto; background: var(--relleno); border-radius: 12px; padding: 12px 14px; font-size: .8125rem; line-height: 1.5; }
+
+/* Animaciones de la escena */
+.vehiculo.latido { animation: latido .7s ease 2; }
+.vehiculo rect:first-child { transition: filter .2s; }
+.vehiculo.latido rect:first-child { filter: drop-shadow(0 0 6px #fff); }
+.foco-giro { animation: girar 3s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes latido { 50% { filter: brightness(1.25); } }
+@keyframes girar { to { transform: rotate(360deg); } }
+@keyframes aparecer { from { opacity: 0; transform: translateY(8px); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+
+<main class="pagina">
+  <header>
+    <h1>Escenas en movimiento</h1>
+    <p class="entradilla">Cuatro prototipos para sustituir los esquemas fijos por escenas hechas con código. Antes de responder se ve una imagen quieta que no da pistas. Al responder, la escena se mueve paso a paso y cada paso cita el artículo del BOE que lo justifica. Responde mal a propósito para ver la animación.</p>
+  </header>
+
+  <section>
+    <p class="cabecera">Qué hacen otras apps de aprendizaje</p>
+    <ul class="ideas grupo">
+      <li><b>Brilliant</b><span>Aprender haciendo: cada concepto es algo que se toca, se arrastra o se ajusta, con respuesta inmediata.</span></li>
+      <li><b>Duolingo</b><span>Microanimaciones y celebraciones muy cortas que premian el acierto y suavizan el fallo.</span></li>
+      <li><b>PhET</b><span>Simuladores de la Universidad de Colorado con deslizadores para ver la causa y el efecto, por ejemplo velocidad y distancia.</span></li>
+      <li><b>Explicaciones explorables</b><span>Textos de Bret Victor o Nicky Case en los que la escena y la explicación avanzan juntas, paso a paso.</span></li>
+      <li><b>Examen británico</b><span>La prueba de percepción de riesgos de la DVSA usa clips animados por ordenador en lugar de fotos.</span></li>
+    </ul>
+    <p class="aviso" style="margin:10px 4px 0">De ahí salen las tres ideas de los prototipos: escenas generadas por código (ligeras y fáciles de cambiar), explicación paso a paso y escenas que se pueden manipular.</p>
+  </section>
+
+  <section class="proto" id="p-cruce"></section>
+  <section class="proto" id="p-glorieta"></section>
+  <section class="proto" id="p-adelantar"></section>
+  <section class="proto" id="p-frenar"></section>
+
+  <section class="recom">
+    <p class="cabecera">Cómo llevarlo a muchas preguntas</p>
+    <div class="grupo">
+      <ol>
+        <li><b>Un campo <code>escena</code> en la pregunta</b>, al lado de <code>imagen</code>. <span>Describe la situación con datos, no con dibujos. Con eso la web pinta el fotograma quieto antes de responder y la animación después.</span>
+<pre>"escena": { "tipo": "cruce", "stop": null,
+  "vehiculos": [{"letra":"A","desde":"S","hacia":"N"},
+                {"letra":"B","desde":"E","hacia":"O"},
+                {"letra":"C","desde":"N","hacia":"S"}] }</pre></li>
+        <li><b>Pocas familias de escenas cubren casi todo lo situacional.</b> <span>Cruce, glorieta, estrechamiento, incorporación, adelantamiento, distancias y velocidad, y «señal en su sitio» (semáforo, agente o señal vista en la vía). En el banco hay unas 270 preguntas de prioridad, adelantamiento, velocidad y distancias que encajan.</span></li>
+        <li><b>El orden lo calcula el código, no la persona que escribe.</b> <span>En el cruce, el orden sale de la regla de la derecha (art. 57.1) y del STOP (art. 56.5). Si los datos de la escena no cuadran con la respuesta correcta, la pregunta no se publica. Donde no hay regla calculable, como en la glorieta, los pasos van escritos en los datos con su cita literal y pasan la revisión independiente.</span></li>
+        <li><b>Las señales siguen siendo las del catálogo oficial.</b> <span>Para «¿qué significa esta señal?» la imagen del BOE es lo correcto. La escena sirve para enseñar su efecto, como el STOP del primer prototipo.</span></li>
+        <li><b>Ligero y accesible.</b> <span>Unos 20 KB de código sin librerías, solo se anima lo que está en pantalla, y con «reducir movimiento» los pasos cambian sin animación.</span></li>
+        <li><b>Orden propuesto.</b> <span>Primero el cruce y la glorieta (prioridad, unas 80 preguntas) dentro de la explicación al fallar; luego distancias y adelantamiento como «Explóralo»; y el resto de familias según funcione con Denisse.</span></li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<script src="escenas.js"></script>
+<script>
+(function () {
+  "use strict";
+  const IMG_STOP = "../../img/senales/R-2.png";
+  const BOE_RGC = "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514";
+  const MANUAL = "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf";
+  const E = window.Escenas;
+  const reducido = E.reduceMovimiento();
+
+  function h(tag, at, ...hijos) {
+    const e = document.createElement(tag);
+    for (const k in at || {}) { const v = at[k]; if (v == null || v === false) continue; if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else e.setAttribute(k, v === true ? "" : v); }
+    for (const c of hijos.flat()) if (c != null && c !== false) e.append(c.nodeType ? c : document.createTextNode(c));
+    return e;
+  }
+  const anclaBOE = (c) => h("a", { href: c.url || (c.norma === "MANUAL_DGT" ? MANUAL : `${BOE_RGC}#a${String(c.articulo).split(".")[0]}`), target: "_blank", rel: "noopener" },
+    c.norma === "MANUAL_DGT" ? `Manual de la DGT, ${c.articulo}` : `${c.norma}, art. ${c.articulo}`);
+  const bloqueCita = c => h("blockquote", { class: "cita" }, h("small", {}, c.norma === "MANUAL_DGT" ? "Texto literal del manual de la DGT" : "Texto literal del BOE"), `«${c.texto}» `, anclaBOE(c));
+
+  // Tarjeta de pregunta con escena. alResponder(ok, contenedor) pinta lo de después.
+  function tarjeta(raiz, cfg) {
+    const opciones = h("ul", { class: "opciones" });
+    const despues = h("div", {});
+    raiz.append(
+      h("div", { class: "proto-cab" }, h("h2", {}, cfg.titulo), h("span", { class: "chip" }, cfg.chip)),
+      h("p", { class: "enunciado" }, cfg.enunciado),
+      h("figure", { class: "escena" }, cfg.escena.svg),
+      opciones, despues);
+    const letras = "ABC";
+    const botones = cfg.opciones.map((t, i) => h("button", { class: "opcion", onclick: () => responder(i) }, h("span", { class: "letra" }, letras[i]), h("span", { class: "texto" }, t)));
+    botones.forEach(b => opciones.append(h("li", {}, b)));
+    function responder(i) {
+      const ok = i === cfg.correcta;
+      botones.forEach((b, j) => { b.disabled = true; b.classList.add(j === cfg.correcta ? "correcta" : j === i ? "incorrecta" : "apagada"); });
+      const cuerpo = h("div", { class: "cuerpo" }, h("p", {}, cfg.explicacion), bloqueCita(cfg.cita));
+      despues.append(h("div", { class: "explicacion" + (ok ? "" : " mal"), role: "status" },
+        h("p", { class: "veredicto" }, ok ? "Correcto" : `Incorrecto. La correcta es la ${letras[cfg.correcta]}`), cuerpo));
+      cfg.despues(cuerpo, ok);
+    }
+  }
+
+  // Reproductor visual de pasos (anterior, reproducir, siguiente).
+  function panelPasos(contenedor, escena, autoplay, citaYa) {
+    let rep = escena.nuevoReproductor(), i = 0;
+    const puntos = h("div", { class: "puntos", "aria-hidden": "true" });
+    const contador = h("span", { class: "chip" });
+    const texto = h("p", { class: "paso-texto", "aria-live": "polite" });
+    const cita = h("div", {});
+    const ant = h("button", { class: "boton gris", onclick: () => ir(i - 1) }, "Anterior");
+    const sig = h("button", { class: "boton", onclick: () => ir(i + 1) }, "Siguiente");
+    const otra = h("button", { class: "boton gris", onclick: () => { i = 0; rep.fotograma(0); todo(); } }, "Ver todo seguido");
+    const panel = h("div", { class: "pasos" }, h("div", { class: "pasos-cab" }, puntos, contador), texto, cita, h("div", { class: "botonera" }, ant, sig, otra),
+      reducido ? h("p", { class: "aviso" }, "Tienes activado «reducir movimiento»: los pasos cambian sin animación.") : null);
+    contenedor.append(panel);
+    function pintar() {
+      puntos.replaceChildren(...rep.pasos.map((_, k) => h("i", { class: k < i ? "hecho" : k === i ? "ahora" : "" })));
+      contador.textContent = `Paso ${i + 1} de ${rep.total}`;
+      const p = rep.pasos[i];
+      texto.textContent = p.texto;
+      cita.replaceChildren(citaYa && citaYa.articulo === p.cita.articulo ? h("p", { class: "aviso" }, `Ver la cita de arriba (${p.cita.norma}, art. ${p.cita.articulo}).`) : bloqueCita(p.cita));
+      ant.disabled = i === 0; sig.disabled = i >= rep.total - 1;
+    }
+    async function ir(k) {
+      if (k < 0 || k >= rep.total) return;
+      i = k; pintar(); await rep.reproducir(i);
+    }
+    async function todo() {
+      for (let k = 0; k < rep.total; k++) { i = k; pintar(); const seguir = await rep.reproducir(k); if (!seguir) return; await new Promise(r => setTimeout(r, reducido ? 0 : 350)); }
+    }
+    pintar(); rep.fotograma(0);
+    if (autoplay) todo(); else rep.reproducir(0);
+    return { reiniciar() { rep = escena.nuevoReproductor(); i = 0; pintar(); rep.fotograma(0); } };
+  }
+
+  // ---------------- 1. Cruce sin señalizar ----------------
+  const datosCruce = { stop: null, vehiculos: [{ letra: "A", desde: "S", hacia: "N" }, { letra: "B", desde: "E", hacia: "O" }, { letra: "C", desde: "N", hacia: "S" }] };
+  const cruce = E.cruce(JSON.parse(JSON.stringify(datosCruce)), { titulo: "Cruce de cuatro brazos sin señales. A llega por el sur, B por el este y C por el norte; los tres siguen recto.", imagenStop: IMG_STOP });
+  // Comprobación: el orden calculado debe empezar por la respuesta correcta (C).
+  console.assert(E.ordenCruce(datosCruce.vehiculos, null).grupos[0][0].letra === "C", "La escena no cuadra con la respuesta");
+  tarjeta(document.getElementById("p-cruce"), {
+    titulo: "1. Cruce con prioridad", chip: "Pregunta A-pri-0001",
+    enunciado: "En la intersección sin señalizar del esquema, ¿qué vehículo pasa primero?",
+    escena: cruce, opciones: ["El vehículo C.", "El vehículo A.", "El vehículo B."], correcta: 0,
+    explicacion: "Sin señal que regule la preferencia, se cede el paso a los vehículos que se aproximan por la derecha. C es el único que no tiene ningún vehículo a su derecha; después pasa B y, por último, A.",
+    cita: { norma: "RGC", articulo: "57.1", texto: "En defecto de señal que regule la preferencia de paso, el conductor está obligado a cederlo a los vehículos que se aproximen por su derecha" },
+    despues(cuerpo, ok) {
+      panelPasos(cuerpo, cruce, !ok, { articulo: "57.1" });
+      cuerpo.append(laboratorioCruce());
+    }
+  });
+
+  // «Pruébalo tú»: cambia las señales y los coches, y ordénalos tocando.
+  function laboratorioCruce() {
+    const estado = { stop: null, D: false };
+    let toques = [];
+    const res = h("p", { class: "resultado-toque", "aria-live": "polite" }, "Toca los coches en el orden en que pasan.");
+    const esc = E.cruce(montarDatos(), { titulo: "Cruce para practicar: toca los vehículos en orden", imagenStop: IMG_STOP, alTocar: tocar });
+    const marco = h("figure", { class: "escena" }, esc.svg);
+    function montarDatos() {
+      const v = datosCruce.vehiculos.map(x => Object.assign({}, x));
+      if (estado.D) v.push({ letra: "D", desde: "O", hacia: "E" });
+      return { stop: estado.stop, vehiculos: v };
+    }
+    const contPasos = h("div", {});
+    let panel = null;
+    function rehacer() {
+      esc.montar(montarDatos()); toques = []; contPasos.replaceChildren(); panel = null;
+      res.textContent = "Toca los coches en el orden en que pasan.";
+    }
+    function tocar(l) {
+      const d = esc.datos(); if (toques.includes(l) || panel) return;
+      toques.push(l); res.textContent = "Tu orden: " + toques.join(" → ");
+      if (toques.length < d.vehiculos.length) return;
+      const { grupos, bloqueo } = E.ordenCruce(d.vehiculos, d.stop);
+      let k = 0, bien = !bloqueo;
+      for (const g of grupos) { const tramo = toques.slice(k, k + g.length); if (!g.every(v => tramo.includes(v.letra))) bien = false; k += g.length; }
+      const correcto = grupos.map(g => g.map(v => v.letra).join(" y ")).join(" → ");
+      res.textContent = bloqueo ? "Aquí la regla de la derecha no da un orden. Mira por qué:" : bien ? `¡Bien! ${toques.join(" → ")} es correcto.` : `Casi. El orden es ${correcto}.`;
+      panel = panelPasos(contPasos, esc, true);
+    }
+    const seg = (opts, clave) => {
+      const caja = h("div", { class: "segmentos", role: "group" });
+      opts.forEach(([val, txt]) => caja.append(h("button", { "aria-pressed": String(estado[clave] === val), onclick: e => { estado[clave] = val; caja.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b === e.currentTarget))); rehacer(); } }, txt)));
+      return caja;
+    };
+    return h("div", { class: "pasos" },
+      h("p", { class: "cabecera", style: "margin:6px 0 0" }, "Pruébalo tú: pon una señal y mira cómo cambia el orden"),
+      seg([[null, "Sin señales"], ["NS", "STOP norte y sur"], ["EO", "STOP este y oeste"]], "stop"),
+      seg([[false, "3 coches"], [true, "4 coches"]], "D"),
+      marco, res, contPasos);
+  }
+
+  // ---------------- 2. Glorieta paso a paso ----------------
+  const glorieta = E.glorieta({
+    vehiculos: [{ letra: "A", trayecto: "sur_norte" }, { letra: "B", trayecto: "oeste_este" }],
+    pasos: [
+      { texto: "A se acerca a la glorieta y reduce la velocidad poco a poco: así deja claro que va a ceder el paso.", foco: ["A"], ms: 1800,
+        cita: { norma: "RGC", articulo: "58.1", texto: "debe mostrar con suficiente antelación, por su forma de circular y especialmente con la reducción paulatina de la velocidad que efectivamente va a cederlo" },
+        mover: [{ v: "A", hasta: "espera" }, { v: "B", hasta: 0.24 }] },
+      { texto: "B ya circula dentro de la glorieta, así que tiene preferencia. A espera en la entrada hasta que B pasa.", foco: ["B"], ms: 2200,
+        cita: { norma: "RGC", articulo: "57.1.c", texto: "En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso sobre los que pretendan acceder a aquéllas" },
+        mover: [{ v: "B", hasta: 1 }] },
+      { texto: "Con el anillo libre, A entra y circula dejando a su izquierda el centro de la glorieta.", foco: ["A"], ms: 3200, flechaCentro: true,
+        cita: { norma: "RGC", articulo: "43.2", texto: "En las plazas, glorietas y encuentros de vías los vehículos circularán dejando a su izquierda el centro de aquéllas." },
+        mover: [{ v: "A", hasta: 1 }] }
+    ]
+  }, { titulo: "Glorieta de cuatro brazos sin señales. A llega por el sur; B ya circula por el anillo." });
+  tarjeta(document.getElementById("p-glorieta"), {
+    titulo: "2. Glorieta paso a paso", chip: "Pregunta A-pri-0004",
+    enunciado: "En una glorieta sin señalizar, ¿quién tiene preferencia de paso?",
+    escena: glorieta, opciones: ["Los vehículos que ya se hallan dentro de la vía circular.", "Los que pretenden acceder a la glorieta, si vienen por la derecha.", "Los vehículos de mayores dimensiones."], correcta: 0,
+    explicacion: "En las glorietas, los que se hallan dentro de la vía circular tienen preferencia sobre los que pretenden acceder a ella.",
+    cita: { norma: "RGC", articulo: "57.1.c", texto: "En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso sobre los que pretendan acceder a aquéllas" },
+    despues(cuerpo, ok) { panelPasos(cuerpo, glorieta, !ok, { articulo: "57.1.c" }); }
+  });
+
+  // ---------------- 3. Adelantar a un ciclista ----------------
+  const adel = E.adelantamiento({ separacion: 1.0, velocidad: 85, limite: 90 });
+  tarjeta(document.getElementById("p-adelantar"), {
+    titulo: "3. Adelantar a un ciclista", chip: "Pregunta x1a-0118",
+    enunciado: "Fuera de poblado va a adelantar a un ciclista. ¿Durante qué parte de la maniobra debe llevar la velocidad reducida en al menos 20 km/h respecto al límite de la vía?",
+    escena: adel, opciones: ["Solo mientras vuelve a su carril.", "Solo cuando el ciclista circula por la calzada y no por el arcén.", "Antes de iniciarla y durante toda su ejecución."], correcta: 2,
+    explicacion: "Fuera de poblado, quien adelanta a ciclistas y otros usuarios vulnerables debe reducir la velocidad al menos 20 km/h respecto al límite de la vía antes de iniciar la maniobra y durante toda su ejecución.",
+    cita: { norma: "RGC", articulo: "85.4", texto: "antes de iniciar la maniobra, y durante toda su ejecución, el conductor que adelanta deberá reducir la velocidad respecto al límite existente en la vía en al menos 20 km/h" },
+    despues(cuerpo) {
+      const sep = h("input", { type: "range", id: "adel-sep", min: 0.5, max: 3, step: 0.1, value: 1.0 });
+      const vel = h("input", { type: "range", id: "adel-vel", min: 50, max: 90, step: 5, value: 85 });
+      const oSep = h("output", { for: "adel-sep" }), oVel = h("output", { for: "adel-vel" });
+      const lect = h("div", { class: "lecturas" });
+      let dos = false;
+      const tipo = h("div", { class: "segmentos", role: "group" },
+        h("button", { "aria-pressed": "true", onclick: e => { dos = false; marcar(e); actualizar(); } }, "Un carril por sentido"),
+        h("button", { "aria-pressed": "false", onclick: e => { dos = true; marcar(e); actualizar(); } }, "Dos carriles por sentido"));
+      const marcar = e => tipo.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b === e.currentTarget)));
+      const play = h("button", { class: "boton", onclick: () => { if (adel.corriendo()) { adel.parar(); play.textContent = "Ver la maniobra"; } else { adel.iniciar(); play.textContent = "Parar"; } } }, "Ver la maniobra");
+      const fmt = n => n.toFixed(1).replace(".", ",");
+      function actualizar() {
+        const r = adel.fijar({ separacion: +sep.value, velocidad: +vel.value, dosCarriles: dos, revelado: true });
+        oSep.textContent = fmt(r.separacion) + " m"; oVel.textContent = r.velocidad + " km/h";
+        lect.replaceChildren(
+          h("div", { class: "lectura " + (r.okSep ? "ok" : "mal") }, dos ? "Cambio de carril" : "Separación lateral", h("strong", {}, dos ? (r.okSep ? "Completo" : "Incompleto") : fmt(r.separacion) + " m"), dos ? "con dos carriles hay que cambiar del todo" : "mínimo 1,5 m"),
+          h("div", { class: "lectura " + (r.okVel ? "ok" : "mal") }, "Velocidad", h("strong", {}, r.velocidad + " km/h"), `máximo ${r.maxV} km/h (90 − 20)`));
+      }
+      sep.addEventListener("input", actualizar); vel.addEventListener("input", actualizar);
+      cuerpo.append(h("div", { class: "pasos" },
+        h("p", { class: "cabecera", style: "margin:6px 0 0" }, "Explóralo: ajusta la maniobra"),
+        tipo,
+        h("div", { class: "control" }, h("label", { for: "adel-sep" }, "Separación con el ciclista", oSep), sep),
+        h("div", { class: "control" }, h("label", { for: "adel-vel" }, "Tu velocidad (límite de la vía: 90 km/h)", oVel), vel),
+        lect, h("div", { class: "botonera" }, play),
+        bloqueCita({ norma: "RGC", articulo: "85.4", texto: "guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril" }),
+        h("p", { class: "aviso" }, "Límite de 90 km/h para turismos en carretera convencional: RGC, art. 48.1.a. Escala del dibujo: un carril de 3,5 m.")));
+      actualizar();
+      if (!reducido) { adel.iniciar(); play.textContent = "Parar"; }
+    }
+  });
+
+  // ---------------- 4. Distancia de detención ----------------
+  const fren = E.detencion({ velocidad: 50 });
+  tarjeta(document.getElementById("p-frenar"), {
+    titulo: "4. Frenar a tiempo", chip: "Pregunta D-dis-0001",
+    enunciado: "La distancia de detención es...",
+    escena: fren, opciones: ["la distancia de frenado menos la distancia de reacción.", "solo la distancia que recorre el vehículo mientras se frena.", "la suma de la distancia de reacción y la distancia de frenado."], correcta: 2,
+    explicacion: "La distancia de detención es el espacio recorrido desde que se detecta el obstáculo hasta que el vehículo se para por completo: la suma de la distancia de reacción y la de frenado.",
+    cita: { norma: "MANUAL_DGT", articulo: "tema 10, p. 263", texto: "La distancia de detención es la suma de la distancia de reacción y la de frenado." },
+    despues(cuerpo, ok) {
+      const vel = h("input", { type: "range", id: "fren-vel", min: 30, max: 120, step: 10, value: 50 });
+      const rea = h("input", { type: "range", id: "fren-rea", min: 0.5, max: 2, step: 0.25, value: 0.75 });
+      const oVel = h("output", { for: "fren-vel" }), oRea = h("output", { for: "fren-rea" });
+      const lect = h("div", { class: "lecturas" });
+      let suelo = "seco";
+      const tipo = h("div", { class: "segmentos", role: "group" },
+        h("button", { "aria-pressed": "true", onclick: e => { suelo = "seco"; marcar(e); actualizar(); } }, "Suelo seco"),
+        h("button", { "aria-pressed": "false", onclick: e => { suelo = "mojado"; marcar(e); actualizar(); } }, "Suelo mojado"));
+      const marcar = e => tipo.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b === e.currentTarget)));
+      const fmt = n => n < 10 ? n.toFixed(1).replace(".", ",") : String(Math.round(n));
+      function actualizar() {
+        const c = fren.fijar({ velocidad: +vel.value, reaccion: +rea.value, suelo, revelado: true });
+        oVel.textContent = vel.value + " km/h"; oRea.textContent = String(rea.value).replace(".", ",") + " s";
+        lect.replaceChildren(
+          h("div", { class: "lectura reac" }, "Reacción", h("strong", {}, fmt(c.reaccion) + " m")),
+          h("div", { class: "lectura mal" }, "Frenado", h("strong", {}, fmt(c.frenado) + " m")),
+          h("div", { class: "lectura" }, "Detención", h("strong", {}, fmt(c.total) + " m")));
+      }
+      vel.addEventListener("input", actualizar); rea.addEventListener("input", actualizar);
+      cuerpo.append(h("div", { class: "pasos" },
+        h("p", { class: "cabecera", style: "margin:6px 0 0" }, "Explóralo: cambia la velocidad y el suelo"),
+        tipo,
+        h("div", { class: "control" }, h("label", { for: "fren-vel" }, "Velocidad", oVel), vel),
+        h("div", { class: "control" }, h("label", { for: "fren-rea" }, "Tiempo de reacción", oRea), rea),
+        lect, h("div", { class: "botonera" }, h("button", { class: "boton", onclick: () => fren.frenar() }, "Frenar")),
+        bloqueCita({ norma: "MANUAL_DGT", articulo: "tema 10, p. 261", texto: "El tiempo de reacción normal de una persona ante un imprevisto suele ser de 0,75 segundos, casi un segundo." }),
+        h("p", { class: "aviso" }, "El manual (tema 3, p. 44) dice que el cansancio, el sueño, el alcohol o algunos medicamentos alargan el tiempo de reacción, y que la distancia de frenado crece con la velocidad y en suelo mojado (p. 262), pero no da cifras de frenado. Los metros de frenado son un cálculo físico orientativo (deceleración supuesta de 7 m/s² en seco y 4 m/s² en mojado) y no salen en el examen.")));
+      actualizar();
+      if (!ok || !reducido) fren.frenar();
+    }
+  });
+})();
+</script>

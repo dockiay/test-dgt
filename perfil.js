@@ -226,6 +226,16 @@
     if (e && e.usuario) filas.push(Object.assign(fila({ icono: "salir", color: "rojo", titulo: "Cerrar sesión", chevron: false, accion: () => hoja({ titulo: "¿Cerrar sesión?",
       mensaje: "Lo que has estudiado sigue guardado en tu cuenta y en este dispositivo. Para seguir estudiando tendrás que volver a iniciar sesión.",
       acciones: [{ texto: "Cerrar sesión", clase: "gris destructivo", accion: () => { escribir(CLAVE_SIN_CUENTA, null); window.Nube.salir(); location.hash = "#/"; } }] }) }), { className: "fila destructiva" }));
+    filas.push(Object.assign(fila({ icono: "repetir", color: "rojo", titulo: "Borrar mi progreso", detalle: "Empezar desde cero en todos tus dispositivos", chevron: false, accion: () => hoja({ titulo: "¿Borrar todo tu progreso?",
+      mensaje: e && e.usuario ? "Se borran tus respuestas, fallos, exámenes, racha, camino y logros, aquí y en tu cuenta. Tus otros dispositivos también empezarán de cero al conectarse. No se puede deshacer: si quieres guardarlo, haz antes una copia de seguridad."
+        : "Se borran tus respuestas, fallos, exámenes, racha, camino y logros de este navegador. No se puede deshacer: si quieres guardarlo, haz antes una copia de seguridad.",
+      acciones: [{ texto: "Borrar mi progreso", clase: "gris destructivo", accion: () => {
+        P.reiniciar();
+        try { sessionStorage.removeItem("testB.avance"); } catch (x) { /* sin almacenamiento */ }
+        const nb = window.Nube, fin = () => { location.hash = "#/"; location.reload(); };
+        // Sube el borrado a la nube antes de recargar (si no hay conexión, se subirá al volver).
+        if (e && e.usuario && nb && nb.sincronizar) Promise.race([nb.sincronizar(), new Promise(r => setTimeout(r, 4000))]).then(fin, fin); else fin();
+      } }] }) }), { className: "fila destructiva" }));
     return [cabecera(e && e.usuario ? "Cuenta y copia" : "Copia de seguridad"), grupo("con-icono", filas)];
   }
 

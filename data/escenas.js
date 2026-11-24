@@ -3558,6 +3558,4739 @@ window.ESCENAS = {
    }
   ]
  },
+ "x1a-0017": {
+  "tipo": "recta",
+  "antes": "escena",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Usted (A) circula por una calle y se acerca a un paso para peatones sin semáforo. En la acera, junto al paso, hay una persona.",
+  "elementos": [
+   {
+    "tipo": "cebra",
+    "x": 252,
+    "ancho": 26,
+    "desde": 162,
+    "hasta": 240
+   }
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "O",
+    "tu": true,
+    "marcas": {
+     "cerca": 150,
+     "linea": 240
+    }
+   },
+   {
+    "id": "peaton",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      265,
+      262
+     ],
+     [
+      265,
+      250
+     ],
+     [
+      265,
+      140
+     ],
+     [
+      265,
+      126
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) se acerca a un paso para peatones que no regula ningún semáforo ni agente: modera la velocidad.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.b",
+     "texto": "en las proximidades de vías de uso exclusivo de ciclos y de los pasos de peatones no regulados por semáforo o agentes de la circulación"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "cerca",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Modera"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "La persona empieza a cruzar. Usted se detiene antes del paso: en él, el peatón tiene prioridad.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "65.1.a",
+     "texto": "En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "linea",
+      "modo": "frena"
+     },
+     {
+      "v": "peaton",
+      "hasta": 0.45,
+      "modo": "sigue",
+      "retraso": 300
+     }
+    ],
+    "etiquetas": {
+     "A": "Se detiene",
+     "peaton": "Cruza"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Cuando ha terminado de cruzar, sigue su marcha.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1",
+     "texto": "Se circulará a velocidad moderada y, si fuera preciso, se detendrá el vehículo cuando las circunstancias lo exijan"
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": 0.99,
+      "modo": "sigue",
+      "dura": 1600
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1100
+     }
+    ],
+    "etiquetas": {
+     "A": "Sigue"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   }
+  ]
+ },
+ "bm3-0006": {
+  "tipo": "recta",
+  "antes": "escena",
+  "via": {
+   "urbana": true,
+   "sentidoUnico": true
+  },
+  "titulo": "Calle de sentido único con coches aparcados a la derecha. En la acera, entre los coches, juegan unos niños. Usted (A) circula por el carril izquierdo.",
+  "elementos": [
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": -10,
+    "y": 199,
+    "w": 420,
+    "h": 2
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "ap0",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      150,
+      222
+     ],
+     [
+      151,
+      222
+     ]
+    ]
+   },
+   {
+    "id": "ap1",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      200,
+      222
+     ],
+     [
+      201,
+      222
+     ]
+    ]
+   },
+   {
+    "id": "ap2",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      300,
+      222
+     ],
+     [
+      301,
+      222
+     ]
+    ]
+   },
+   {
+    "id": "ap3",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      350,
+      222
+     ],
+     [
+      351,
+      222
+     ]
+    ]
+   },
+   {
+    "letra": "A",
+    "desde": "O",
+    "tu": true,
+    "y": 180,
+    "marcas": {
+     "modera": 120,
+     "para": 222
+    }
+   },
+   {
+    "id": "nino",
+    "tipo": "nino",
+    "color": "C",
+    "puntos": [
+     [
+      250,
+      262
+     ],
+     [
+      250,
+      240
+     ],
+     [
+      250,
+      194
+     ],
+     {
+      "marca": "calzada"
+     },
+     [
+      252,
+      230
+     ],
+     [
+      254,
+      262
+     ],
+     [
+      254,
+      263
+     ]
+    ]
+   },
+   {
+    "id": "nino2",
+    "tipo": "nino",
+    "color": "B",
+    "puntos": [
+     [
+      226,
+      258
+     ],
+     [
+      227,
+      258
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Todavía no hay nadie en la calzada, pero hay niños jugando junto a los coches aparcados: es previsible que alguno salga. Usted (A) modera la velocidad.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.a",
+     "texto": "Cuando haya peatones en la parte de la vía que se esté utilizando o pueda preverse racionalmente su irrupción en ella, principalmente si se trata de niños, ancianos, invidentes u otras personas manifiestamente impedidas."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "modera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Modera"
+    },
+    "foco": [
+     "nino",
+     "nino2"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Un niño sale de pronto entre dos coches. Como ya iba despacio, puede detenerse a tiempo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.a",
+     "texto": "Cuando haya peatones en la parte de la vía que se esté utilizando o pueda preverse racionalmente su irrupción en ella, principalmente si se trata de niños, ancianos, invidentes u otras personas manifiestamente impedidas."
+    },
+    "mover": [
+     {
+      "v": "nino",
+      "hasta": "calzada",
+      "modo": "suave",
+      "dura": 1500
+     },
+     {
+      "v": "A",
+      "hasta": "para",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Se detiene"
+    },
+    "foco": [
+     "nino"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "El niño vuelve a la acera y usted sigue con precaución.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1",
+     "texto": "Se circulará a velocidad moderada y, si fuera preciso, se detendrá el vehículo cuando las circunstancias lo exijan"
+    },
+    "mover": [
+     {
+      "v": "nino",
+      "hasta": 0.99,
+      "modo": "suave",
+      "dura": 1500
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1000
+     }
+    ],
+    "etiquetas": {
+     "A": "Sigue"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   }
+  ]
+ },
+ "xd-0049": {
+  "tipo": "recta",
+  "antes": "escena",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Una persona quiere cruzar la calle. A pocos metros hay un paso para peatones.",
+  "elementos": [
+   {
+    "tipo": "cebra",
+    "x": 300,
+    "ancho": 26,
+    "desde": 162,
+    "hasta": 240
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "peaton",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      140,
+      258
+     ],
+     [
+      140,
+      257
+     ],
+     {
+      "marca": "quiere"
+     },
+     [
+      300,
+      257
+     ],
+     {
+      "marca": "llega"
+     },
+     [
+      313,
+      252
+     ],
+     [
+      313,
+      140
+     ],
+     {
+      "marca": "cruzado"
+     },
+     [
+      313,
+      124
+     ]
+    ]
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "marcas": {
+     "pasa": -60
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Esta persona quiere cruzar. Como hay un paso para peatones muy cerca, no cruza por donde está: va hasta el paso.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.1",
+     "texto": "En zonas donde existen pasos para peatones, los que se dispongan a atravesar la calzada deberán hacerlo precisamente por ellos, sin que puedan efectuarlo por las proximidades"
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": "llega",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Va al paso"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 3200
+   },
+   {
+    "texto": "En el paso espera a que el coche B, que ya está muy cerca, pase.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.1.c",
+     "texto": "En los restantes pasos para peatones señalizados mediante la correspondiente marca vial, aunque tienen preferencia, sólo deben penetrar en la calzada cuando la distancia y la velocidad de los vehículos que se aproximen permitan hacerlo con seguridad."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "pasa",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Espera"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2200
+   },
+   {
+    "texto": "Con la calle libre, cruza por el paso.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.1",
+     "texto": "En zonas donde existen pasos para peatones, los que se dispongan a atravesar la calzada deberán hacerlo precisamente por ellos, sin que puedan efectuarlo por las proximidades"
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": "cruzado",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Cruza"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 2800
+   }
+  ]
+ },
+ "xd-0050": {
+  "tipo": "recta",
+  "antes": "escena",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Paso para peatones con un semáforo solo para los vehículos, en verde. En la acera hay una persona que quiere cruzar.",
+  "elementos": [
+   {
+    "tipo": "cebra",
+    "x": 252,
+    "ancho": 26,
+    "desde": 162,
+    "hasta": 240
+   },
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": 242,
+    "y": 201,
+    "w": 4,
+    "h": 38
+   },
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": 284,
+    "y": 161,
+    "w": 4,
+    "h": 38
+   },
+   {
+    "tipo": "semaforo",
+    "id": "s",
+    "x": 240,
+    "y": 258,
+    "ang": 90,
+    "color": "verde"
+   },
+   {
+    "tipo": "semaforo",
+    "id": "s2",
+    "x": 290,
+    "y": 142,
+    "ang": -90,
+    "color": "verde"
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "peaton",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      265,
+      262
+     ],
+     [
+      265,
+      250
+     ],
+     [
+      265,
+      140
+     ],
+     [
+      265,
+      126
+     ]
+    ]
+   },
+   {
+    "letra": "A",
+    "desde": "O",
+    "marcas": {
+     "cerca": 60
+    }
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "marcas": {
+     "cerca": 460,
+     "linea": 290
+    }
+   },
+   {
+    "letra": "C",
+    "desde": "O",
+    "marcas": {
+     "linea": 240
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "El semáforo de los vehículos está en verde: les permite pasar. La persona no entra en la calzada, aunque haya hueco.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.1.b",
+     "texto": "Si no existiera semáforo para peatones pero la circulación de vehículos estuviera regulada por agente o semáforo, no penetrarán en la calzada mientras la señal del agente o del semáforo permita la circulación de vehículos por ella."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Espera",
+     "A": "Pasa"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "El semáforo pasa a ámbar y luego a rojo. Los coches que llegan se detienen.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.1.b",
+     "texto": "Si no existiera semáforo para peatones pero la circulación de vehículos estuviera regulada por agente o semáforo, no penetrarán en la calzada mientras la señal del agente o del semáforo permita la circulación de vehículos por ella."
+    },
+    "mover": [
+     {
+      "v": "C",
+      "hasta": "linea",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "linea",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Espera",
+     "B": "Se detiene",
+     "C": "Se detiene"
+    },
+    "foco": [
+     "B",
+     "C"
+    ],
+    "ms": 2800,
+    "semaforos": {
+     "s": "ambar",
+     "s2": "ambar"
+    }
+   },
+   {
+    "texto": "Ahora el semáforo ya no permite pasar a los vehículos y la persona cruza.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.1.b",
+     "texto": "Si no existiera semáforo para peatones pero la circulación de vehículos estuviera regulada por agente o semáforo, no penetrarán en la calzada mientras la señal del agente o del semáforo permita la circulación de vehículos por ella."
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": 0.99,
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Cruza",
+     "B": "Espera",
+     "C": "Espera"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 2800,
+    "semaforos": {
+     "s": "rojo",
+     "s2": "rojo"
+    }
+   }
+  ]
+ },
+ "xd-0051": {
+  "tipo": "recta",
+  "antes": "escena",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Paso para peatones sin semáforo ni agente. Una persona espera en la acera; se acercan dos coches, A muy cerca y B más lejos.",
+  "elementos": [
+   {
+    "tipo": "cebra",
+    "x": 252,
+    "ancho": 26,
+    "desde": 162,
+    "hasta": 240
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "peaton",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      265,
+      262
+     ],
+     [
+      265,
+      250
+     ],
+     [
+      265,
+      140
+     ],
+     [
+      265,
+      126
+     ]
+    ]
+   },
+   {
+    "letra": "A",
+    "desde": "O",
+    "inicio": "cerca",
+    "marcas": {
+     "cerca": 200
+    }
+   },
+   {
+    "letra": "B",
+    "desde": "O",
+    "marcas": {
+     "lejos": -150,
+     "linea": 240
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "El coche A ya está encima del paso: no le daría tiempo a pararse con seguridad. La persona, aunque tiene preferencia, espera.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.1.c",
+     "texto": "En los restantes pasos para peatones señalizados mediante la correspondiente marca vial, aunque tienen preferencia, sólo deben penetrar en la calzada cuando la distancia y la velocidad de los vehículos que se aproximen permitan hacerlo con seguridad."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Espera"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 1800
+   },
+   {
+    "texto": "B viene lejos y despacio: hay distancia de sobra. La persona entra en el paso y B se detiene.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.1.c",
+     "texto": "En los restantes pasos para peatones señalizados mediante la correspondiente marca vial, aunque tienen preferencia, sólo deben penetrar en la calzada cuando la distancia y la velocidad de los vehículos que se aproximen permitan hacerlo con seguridad."
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": 0.5,
+      "modo": "sigue",
+      "retraso": 200
+     },
+     {
+      "v": "B",
+      "hasta": "linea",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Cruza",
+     "B": "Se detiene"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Termina de cruzar y B sigue.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "65.1.a",
+     "texto": "En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales."
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": 0.99,
+      "modo": "sigue",
+      "dura": 1500
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1000
+     }
+    ],
+    "etiquetas": {
+     "B": "Sigue"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 2800
+   }
+  ]
+ },
+ "xd-0052": {
+  "tipo": "recta",
+  "antes": "nada",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Una persona cruza una calle en la que no hay paso para peatones.",
+  "elementos": [],
+  "vehiculos": [
+   {
+    "id": "peaton",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      200,
+      262
+     ],
+     [
+      200,
+      250
+     ],
+     [
+      200,
+      140
+     ],
+     [
+      200,
+      126
+     ]
+    ]
+   },
+   {
+    "letra": "A",
+    "desde": "O",
+    "marcas": {
+     "pasa": 470
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Antes de cruzar fuera de un paso para peatones, se asegura de que puede hacerlo sin riesgo: deja pasar al coche A.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.2",
+     "texto": "Para atravesar la calzada fuera de un paso para peatones, deberán cerciorarse de que pueden hacerlo sin riesgo ni entorpecimiento indebido."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "pasa",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Espera"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Cruza en línea recta, perpendicular al eje de la calzada, el camino más corto, sin pararse en medio.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.3",
+     "texto": "Al atravesar la calzada, deben caminar perpendicularmente al eje de ésta, no demorarse ni detenerse en ella sin necesidad y no entorpecer el paso a los demás."
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": 0.99,
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Recto"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 3000
+   }
+  ]
+ },
+ "xd-0053": {
+  "tipo": "glorieta",
+  "antes": "escena",
+  "titulo": "Una persona quiere llegar al otro lado de una glorieta. No hay ningún paso para peatones.",
+  "vehiculos": [
+   {
+    "id": "peaton",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      104,
+      304
+     ],
+     [
+      106,
+      302
+     ],
+     [
+      109.5,
+      290.5
+     ],
+     [
+      117.7,
+      298.1
+     ],
+     [
+      126.6,
+      304.9
+     ],
+     [
+      136,
+      310.9
+     ],
+     [
+      145.9,
+      316
+     ],
+     [
+      156.2,
+      320.3
+     ],
+     [
+      166.9,
+      323.6
+     ],
+     [
+      177.8,
+      326.1
+     ],
+     [
+      188.8,
+      327.5
+     ],
+     [
+      200,
+      328
+     ],
+     [
+      211.2,
+      327.5
+     ],
+     [
+      222.2,
+      326.1
+     ],
+     [
+      233.1,
+      323.6
+     ],
+     [
+      243.8,
+      320.3
+     ],
+     [
+      254.1,
+      316
+     ],
+     [
+      264,
+      310.9
+     ],
+     [
+      273.4,
+      304.9
+     ],
+     [
+      282.3,
+      298.1
+     ],
+     [
+      290.5,
+      290.5
+     ],
+     [
+      298.1,
+      282.3
+     ],
+     [
+      304.9,
+      273.4
+     ],
+     [
+      310.9,
+      264
+     ],
+     [
+      316,
+      254.1
+     ],
+     [
+      320.3,
+      243.8
+     ],
+     [
+      323.6,
+      233.1
+     ],
+     [
+      326.1,
+      222.2
+     ],
+     [
+      327.5,
+      211.2
+     ],
+     [
+      328,
+      200
+     ],
+     [
+      327.5,
+      188.8
+     ],
+     [
+      326.1,
+      177.8
+     ],
+     [
+      323.6,
+      166.9
+     ],
+     [
+      320.3,
+      156.2
+     ],
+     [
+      316,
+      145.9
+     ],
+     [
+      310.9,
+      136
+     ],
+     [
+      304.9,
+      126.6
+     ],
+     [
+      298.1,
+      117.7
+     ],
+     [
+      290.5,
+      109.5
+     ],
+     [
+      296,
+      104
+     ]
+    ]
+   },
+   {
+    "letra": "A",
+    "dentro": 150,
+    "hacia": "N"
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "S"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Los coches circulan por la calzada de la glorieta. El peatón no la atraviesa por el medio aunque sea más corto.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.4",
+     "texto": "Los peatones no podrán atravesar las plazas y glorietas por su calzada, debiendo rodearlas, a no ser que exista un paso para peatones habilitado."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "No cruza"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "La rodea por fuera y cruza cada calle que encuentra después de asegurarse de que no viene nadie.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "124.4",
+     "texto": "Los peatones no podrán atravesar las plazas y glorietas por su calzada, debiendo rodearlas, a no ser que exista un paso para peatones habilitado."
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": 0.99,
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 2600
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Rodea"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 5200
+   }
+  ]
+ },
+ "xd-0047": {
+  "tipo": "recta",
+  "antes": "escena",
+  "titulo": "Carretera sin acera ni arcén practicable. Una persona camina por la calzada, por la izquierda, de cara a los coches. Se acerca una ambulancia en servicio urgente.",
+  "vehiculos": [
+   {
+    "id": "peaton",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      140,
+      172
+     ],
+     [
+      141,
+      172
+     ],
+     {
+      "marca": "oye"
+     },
+     [
+      180,
+      172
+     ],
+     {
+      "marca": "aparta"
+     },
+     [
+      190,
+      160
+     ],
+     [
+      196,
+      140
+     ],
+     {
+      "marca": "fuera"
+     },
+     [
+      198,
+      136
+     ]
+    ]
+   },
+   {
+    "id": "ambulancia",
+    "tipo": "ambulancia",
+    "desde": "E",
+    "marcas": {
+     "cerca": 330
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "La persona camina por la calzada y oye la sirena: se acerca una ambulancia.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "122.5",
+     "texto": "Al apercibirse de las señales ópticas o acústicas de los vehículos prioritarios, los peatones deberán despejar la calzada y permanecer en los refugios o zonas peatonales, si existen, o, en su defecto, alejarse de la zona de circulación de los vehículos."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "cerca",
+      "modo": "sigue"
+     },
+     {
+      "v": "peaton",
+      "hasta": "aparta",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Urgencia"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Despeja la calzada: como no hay zona peatonal, se aparta lejos de la circulación.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "122.5",
+     "texto": "Al apercibirse de las señales ópticas o acústicas de los vehículos prioritarios, los peatones deberán despejar la calzada y permanecer en los refugios o zonas peatonales, si existen, o, en su defecto, alejarse de la zona de circulación de los vehículos."
+    },
+    "mover": [
+     {
+      "v": "peaton",
+      "hasta": "fuera",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "peaton": "Se aparta"
+    },
+    "foco": [
+     "peaton"
+    ],
+    "ms": 2000
+   },
+   {
+    "texto": "La ambulancia pasa con la calzada libre.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.1",
+     "texto": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Pasa"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2200
+   }
+  ]
+ },
+ "xd-0065": {
+  "tipo": "recta",
+  "antes": "nada",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Un ciclista circula por una calle; detrás, en el mismo carril, va usted (A).",
+  "vehiculos": [
+   {
+    "id": "ciclista",
+    "tipo": "bici",
+    "color": "D",
+    "desde": "O",
+    "marcas": {
+     "medio": 200,
+     "sigue": 350
+    }
+   },
+   {
+    "letra": "A",
+    "desde": "O",
+    "tu": true,
+    "marcas": {
+     "lejos": -120,
+     "medio": 132,
+     "sigue": 282
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "En ciudad, el ciclista va por el centro del carril: así se le ve mejor y nadie intenta pasar rozándole.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "153.3",
+     "texto": "Los ciclistas circularán preferentemente por el centro del carril en la medida en que su seguridad y la de los otros usuarios lo permitan."
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": "medio",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "medio",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {},
+    "foco": [
+     "ciclista"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Usted (A) va detrás, en el mismo carril, y deja al menos 5 metros de separación.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "153.4",
+     "texto": "Los conductores de vehículos a motor deberán dejar una separación mínima de cinco metros con los ciclistas que les precedan en el mismo carril"
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": "sigue",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "sigue",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "5 m"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3400
+   }
+  ]
+ },
+ "xd-0066": {
+  "tipo": "recta",
+  "antes": "nada",
+  "via": {
+   "urbana": true,
+   "sentidoUnico": true,
+   "carriles": 2
+  },
+  "titulo": "Calle con dos carriles en el mismo sentido. Circulan un ciclista y un coche (A).",
+  "vehiculos": [
+   {
+    "id": "ciclista",
+    "tipo": "bici",
+    "color": "D",
+    "intermitente": "izquierda",
+    "puntos": [
+     [
+      -30,
+      220
+     ],
+     [
+      130,
+      220
+     ],
+     {
+      "marca": "derecho"
+     },
+     [
+      200,
+      210
+     ],
+     [
+      250,
+      184
+     ],
+     [
+      280,
+      180
+     ],
+     {
+      "marca": "izquierdo"
+     },
+     [
+      440,
+      180
+     ]
+    ]
+   },
+   {
+    "letra": "A",
+    "desde": "O",
+    "y": 180,
+    "marcas": {
+     "lejos": -80,
+     "pasa": 380
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Con dos carriles en su sentido, el ciclista circula por el carril derecho. A pasa por el izquierdo.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "153.3",
+     "texto": "En vías que dispongan de al menos dos carriles de circulación por sentido, los ciclistas circularán por el carril derecho."
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": "derecho",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "pasa",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ciclista": "Derecho"
+    },
+    "foco": [
+     "ciclista"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Puede usar el otro carril cuando va a cambiar de dirección (o por seguridad): aquí se cambia al izquierdo para girar más adelante.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "153.3",
+     "texto": "Podrán circular por los otros carriles cuando vayan a cambiar de dirección, o cuando lo precisen por razones de seguridad."
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": "izquierdo",
+      "modo": "suave"
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ciclista": "Va a girar"
+    },
+    "foco": [
+     "ciclista"
+    ],
+    "ms": 3000
+   }
+  ]
+ },
+ "xd-0067": {
+  "tipo": "recta",
+  "antes": "nada",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "En una calle, un ciclista circula detrás de una furgoneta que va muy despacio. Por el otro carril vienen coches de frente.",
+  "vehiculos": [
+   {
+    "id": "furgoneta",
+    "tipo": "furgoneta",
+    "desde": "O",
+    "y": 214,
+    "marcas": {
+     "lejos": 210,
+     "lenta": 260,
+     "despacio": 300
+    }
+   },
+   {
+    "id": "ciclista",
+    "tipo": "bici",
+    "color": "D",
+    "puntos": [
+     [
+      60,
+      214
+     ],
+     [
+      120,
+      214
+     ],
+     {
+      "marca": "detras"
+     },
+     [
+      170,
+      228
+     ],
+     [
+      200,
+      233
+     ],
+     [
+      330,
+      233
+     ],
+     [
+      365,
+      226
+     ],
+     {
+      "marca": "pasa"
+     },
+     [
+      390,
+      218
+     ],
+     [
+      440,
+      214
+     ]
+    ]
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "marcas": {
+     "lejos": 520,
+     "cruza": 60
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Por la izquierda vienen coches de frente: adelantar por ese lado no sería seguro.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "153.5",
+     "texto": "Los ciclistas podrán adelantar a otros vehículos por la derecha o por la izquierda, según sea más conveniente para su seguridad."
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": "detras",
+      "modo": "sigue"
+     },
+     {
+      "v": "furgoneta",
+      "hasta": "lenta",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "cruza",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "B": "De frente"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "El ciclista puede adelantar por la derecha o por la izquierda, según le resulte más seguro: aquí, por la derecha.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "153.5",
+     "texto": "Los ciclistas podrán adelantar a otros vehículos por la derecha o por la izquierda, según sea más conveniente para su seguridad."
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": "pasa",
+      "modo": "sigue"
+     },
+     {
+      "v": "furgoneta",
+      "hasta": "despacio",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ciclista": "Derecha"
+    },
+    "foco": [
+     "ciclista"
+    ],
+    "ms": 3200
+   }
+  ]
+ },
+ "B2-mv-0027": {
+  "tipo": "recta",
+  "antes": "escena",
+  "titulo": "Un carril bici cruza la carretera por un paso para ciclistas, marcado con dos líneas de cuadros blancos. Se acerca un ciclista; usted (A) circula por la carretera.",
+  "elementos": [
+   {
+    "tipo": "zona",
+    "clase": "tierra",
+    "x": 252,
+    "y": 240,
+    "w": 22,
+    "h": 160
+   },
+   {
+    "tipo": "zona",
+    "clase": "tierra",
+    "x": 252,
+    "y": 0,
+    "w": 22,
+    "h": 160
+   },
+   {
+    "tipo": "pasoCiclistas",
+    "x": 252,
+    "ancho": 22,
+    "desde": 160,
+    "hasta": 240
+   }
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "O",
+    "tu": true,
+    "marcas": {
+     "cerca": 140,
+     "linea": 240
+    }
+   },
+   {
+    "id": "ciclista",
+    "tipo": "bici",
+    "color": "D",
+    "puntos": [
+     [
+      263,
+      410
+     ],
+     [
+      263,
+      300
+     ],
+     {
+      "marca": "llega"
+     },
+     [
+      263,
+      -20
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) se acerca a un paso para ciclistas y un ciclista va a cruzar por él.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.b",
+     "texto": "en las proximidades de vías de uso exclusivo de ciclos y de los pasos de peatones no regulados por semáforo o agentes de la circulación"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "cerca",
+      "modo": "frena"
+     },
+     {
+      "v": "ciclista",
+      "hasta": "llega",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Modera"
+    },
+    "foco": [
+     "ciclista"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Las dos líneas de cuadros indican que los vehículos de la calzada deben dejar paso a los ciclistas: usted se detiene.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "Anexo I, marcas viales",
+     "texto": "una marca consistente en dos líneas transversales discontinuas y paralelas sobre la calzada indica un paso para ciclistas en el cual los vehículos que circulan por esta deben dejarles paso"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "linea",
+      "modo": "frena"
+     },
+     {
+      "v": "ciclista",
+      "hasta": 0.75,
+      "modo": "sigue",
+      "retraso": 400
+     }
+    ],
+    "etiquetas": {
+     "A": "Deja paso",
+     "ciclista": "Cruza"
+    },
+    "foco": [
+     "ciclista"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Cuando el ciclista ha cruzado, sigue.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1",
+     "texto": "Se circulará a velocidad moderada y, si fuera preciso, se detendrá el vehículo cuando las circunstancias lo exijan"
+    },
+    "mover": [
+     {
+      "v": "ciclista",
+      "hasta": 0.99,
+      "modo": "sigue",
+      "dura": 1200
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 900
+     }
+    ],
+    "etiquetas": {
+     "A": "Sigue"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600
+   }
+  ]
+ },
+ "bm6-0001": {
+  "tipo": "recta",
+  "antes": "escena",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Calle con charcos junto al bordillo derecho. En la acera hay dos personas. Por el carril circulan B y, detrás, usted (A).",
+  "elementos": [
+   {
+    "tipo": "charco",
+    "x": 236,
+    "y": 232,
+    "rx": 30,
+    "ry": 7
+   },
+   {
+    "tipo": "charco",
+    "x": 92,
+    "y": 234,
+    "rx": 16,
+    "ry": 5
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "p1",
+    "tipo": "peaton",
+    "color": "D",
+    "puntos": [
+     [
+      238,
+      256
+     ],
+     [
+      239,
+      256
+     ]
+    ]
+   },
+   {
+    "id": "p2",
+    "tipo": "peaton",
+    "color": "C",
+    "puntos": [
+     [
+      262,
+      258
+     ],
+     [
+      263,
+      258
+     ]
+    ]
+   },
+   {
+    "letra": "B",
+    "desde": "O",
+    "marcas": {
+     "lejos": 120,
+     "salpica": 340
+    }
+   },
+   {
+    "letra": "A",
+    "desde": "O",
+    "tu": true,
+    "marcas": {
+     "lejos": -40,
+     "modera": 150,
+     "charco": 280
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "B pasa deprisa por el charco y salpica a las personas de la acera. Eso es lo que hay que evitar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.g",
+     "texto": "Al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios de la vía."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "salpica",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "B": "Salpica"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 1400,
+    "avisos": {
+     "B": {
+      "salpica": true
+     }
+    }
+   },
+   {
+    "texto": "Usted (A) ve el agua y a los peatones: modera la velocidad antes de llegar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.g",
+     "texto": "Al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios de la vía."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "modera",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Modera"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400,
+    "avisos": {
+     "B": {
+      "salpica": false
+     }
+    }
+   },
+   {
+    "texto": "Pasa despacio junto al charco, sin salpicarles, y luego sigue.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.g",
+     "texto": "Al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios de la vía."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "valle"
+     }
+    ],
+    "etiquetas": {
+     "A": "Despacio"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 4200
+   }
+  ]
+ },
+ "A-urg-0001": {
+  "tipo": "recta",
+  "antes": "nada",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Una ambulancia en servicio urgente se acerca por detrás a usted (A).",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tu": true,
+    "puntos": [
+     [
+      110,
+      220
+     ],
+     [
+      170,
+      220
+     ],
+     {
+      "marca": "oye"
+     },
+     [
+      230,
+      220
+     ],
+     [
+      270,
+      230
+     ],
+     [
+      300,
+      231
+     ],
+     {
+      "marca": "aparta"
+     },
+     [
+      340,
+      231
+     ],
+     [
+      380,
+      222
+     ],
+     [
+      460,
+      220
+     ]
+    ]
+   },
+   {
+    "id": "ambulancia",
+    "tipo": "ambulancia",
+    "puntos": [
+     [
+      -80,
+      220
+     ],
+     [
+      60,
+      220
+     ],
+     {
+      "marca": "detras"
+     },
+     [
+      150,
+      216
+     ],
+     [
+      230,
+      192
+     ],
+     [
+      330,
+      190
+     ],
+     [
+      390,
+      200
+     ],
+     [
+      480,
+      210
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "La ambulancia avisa de que va en servicio urgente con la señal luminosa (los rotativos azules) y, a la vez, con la acústica (la sirena).",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "68.2",
+     "texto": "cuyos conductores adviertan de su presencia mediante la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales"
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "detras",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "oye",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Luz y sirena"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Al percibirlas, usted (A) se aparta a su derecha y le deja sitio para pasar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "aparta",
+      "modo": "frena"
+     },
+     {
+      "v": "ambulancia",
+      "hasta": 0.38,
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Se aparta"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "La ambulancia pasa y usted sigue su marcha.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.1",
+     "texto": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "fin",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1200
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Pasa"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2800
+   }
+  ]
+ },
+ "v5a-pri-0001": {
+  "tipo": "recta",
+  "antes": "nada",
+  "titulo": "Una ambulancia en servicio urgente circula por una carretera despejada.",
+  "vehiculos": [
+   {
+    "id": "ambulancia",
+    "tipo": "ambulancia",
+    "desde": "O",
+    "avisos": {
+     "sirena": false
+    },
+    "marcas": {
+     "despejada": 150,
+     "cerca": 230
+    }
+   },
+   {
+    "letra": "B",
+    "puntos": [
+     [
+      480,
+      180
+     ],
+     [
+      400,
+      180
+     ],
+     {
+      "marca": "aparece"
+     },
+     [
+      300,
+      180
+     ],
+     [
+      260,
+      174
+     ],
+     [
+      236,
+      170
+     ],
+     {
+      "marca": "aparta"
+     },
+     [
+      150,
+      170
+     ],
+     [
+      90,
+      178
+     ],
+     [
+      -80,
+      180
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "La carretera está despejada: no hay nadie a quien poner en peligro si no suena la sirena. La ambulancia usa solo la señal luminosa.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "68.2",
+     "texto": "los conductores de los vehículos prioritarios deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno para los demás usuarios."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "despejada",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Solo luz"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Aparece otro vehículo (B). Ahora sí hace falta avisar con la luz y con la sirena a la vez.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "68.2",
+     "texto": "cuyos conductores adviertan de su presencia mediante la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "aparece",
+      "modo": "sigue"
+     },
+     {
+      "v": "ambulancia",
+      "hasta": "cerca",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Luz y sirena"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2400,
+    "avisos": {
+     "ambulancia": {
+      "sirena": true
+     }
+    }
+   },
+   {
+    "texto": "B, al percibirlas, se aparta a su derecha y la ambulancia sigue.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "aparta",
+      "modo": "frena"
+     },
+     {
+      "v": "ambulancia",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "B": "Se aparta"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2800
+   }
+  ]
+ },
+ "x1a-0082": {
+  "tipo": "recta",
+  "antes": "nada",
+  "titulo": "Una ambulancia en servicio urgente circula por una carretera sin otros usuarios a la vista.",
+  "vehiculos": [
+   {
+    "id": "ambulancia",
+    "tipo": "ambulancia",
+    "desde": "O",
+    "avisos": {
+     "sirena": false
+    },
+    "marcas": {
+     "despejada": 150,
+     "cerca": 230
+    }
+   },
+   {
+    "letra": "B",
+    "puntos": [
+     [
+      480,
+      180
+     ],
+     [
+      400,
+      180
+     ],
+     {
+      "marca": "aparece"
+     },
+     [
+      300,
+      180
+     ],
+     [
+      260,
+      174
+     ],
+     [
+      236,
+      170
+     ],
+     {
+      "marca": "aparta"
+     },
+     [
+      150,
+      170
+     ],
+     [
+      90,
+      178
+     ],
+     [
+      -80,
+      180
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "La carretera está despejada: no hay nadie a quien poner en peligro si no suena la sirena. La ambulancia usa solo la señal luminosa.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "68.2",
+     "texto": "los conductores de los vehículos prioritarios deberán utilizar la señal luminosa aisladamente cuando la omisión de las señales acústicas especiales no entrañe peligro alguno para los demás usuarios."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "despejada",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Solo luz"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Aparece otro vehículo (B). Ahora sí hace falta avisar con la luz y con la sirena a la vez.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "68.2",
+     "texto": "cuyos conductores adviertan de su presencia mediante la utilización simultánea de la señal luminosa y del aparato emisor de señales acústicas especiales"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "aparece",
+      "modo": "sigue"
+     },
+     {
+      "v": "ambulancia",
+      "hasta": "cerca",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Luz y sirena"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2400,
+    "avisos": {
+     "ambulancia": {
+      "sirena": true
+     }
+    }
+   },
+   {
+    "texto": "B, al percibirlas, se aparta a su derecha y la ambulancia sigue.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "aparta",
+      "modo": "frena"
+     },
+     {
+      "v": "ambulancia",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "B": "Se aparta"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2800
+   }
+  ]
+ },
+ "A-urg-0003": {
+  "tipo": "recta",
+  "antes": "escena",
+  "titulo": "Carretera de doble sentido. Usted (A) circula detrás de B; por detrás se acerca una ambulancia en servicio urgente, y de frente viene C.",
+  "vehiculos": [
+   {
+    "letra": "B",
+    "puntos": [
+     [
+      170,
+      220
+     ],
+     [
+      171,
+      220
+     ],
+     {
+      "marca": "oye"
+     },
+     [
+      250,
+      220
+     ],
+     [
+      290,
+      231
+     ],
+     [
+      310,
+      232
+     ],
+     {
+      "marca": "aparta"
+     },
+     [
+      330,
+      232
+     ],
+     {
+      "marca": "para"
+     },
+     [
+      380,
+      224
+     ],
+     [
+      470,
+      220
+     ]
+    ]
+   },
+   {
+    "letra": "A",
+    "tu": true,
+    "puntos": [
+     [
+      100,
+      220
+     ],
+     [
+      101,
+      220
+     ],
+     {
+      "marca": "oye"
+     },
+     [
+      170,
+      220
+     ],
+     [
+      210,
+      231
+     ],
+     [
+      230,
+      232
+     ],
+     {
+      "marca": "aparta"
+     },
+     [
+      250,
+      232
+     ],
+     {
+      "marca": "para"
+     },
+     [
+      300,
+      224
+     ],
+     [
+      470,
+      220
+     ]
+    ]
+   },
+   {
+    "id": "ambulancia",
+    "tipo": "ambulancia",
+    "puntos": [
+     [
+      -80,
+      220
+     ],
+     [
+      20,
+      220
+     ],
+     {
+      "marca": "detras"
+     },
+     [
+      130,
+      220
+     ],
+     {
+      "marca": "espera"
+     },
+     [
+      190,
+      200
+     ],
+     [
+      260,
+      190
+     ],
+     [
+      360,
+      192
+     ],
+     [
+      420,
+      206
+     ],
+     [
+      520,
+      216
+     ]
+    ]
+   },
+   {
+    "letra": "C",
+    "desde": "E",
+    "marcas": {
+     "lejos": 430,
+     "cruza": -80
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) y B perciben las señales de la ambulancia: se apartan a su derecha.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso"
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "detras",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "aparta",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "aparta",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Se aparta"
+    },
+    "foco": [
+     "A",
+     "B"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Viene C de frente y la ambulancia aún no puede pasar: ustedes se detienen junto al borde derecho y C se para.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso"
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "A",
+      "hasta": "para",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "para",
+      "modo": "frena"
+     },
+     {
+      "v": "C",
+      "hasta": 0.5,
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Se detiene",
+     "C": "Para"
+    },
+    "foco": [
+     "A",
+     "B",
+     "C"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Con sitio libre, la ambulancia pasa. Después siguen todos.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.1",
+     "texto": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "fin",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1500
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1800
+     },
+     {
+      "v": "C",
+      "hasta": "cruza",
+      "modo": "arranca",
+      "retraso": 1500
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Pasa"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 3600
+   }
+  ]
+ },
+ "x1a-0084": {
+  "tipo": "cruce",
+  "antes": "escena",
+  "titulo": "Usted (A) se acerca a un cruce sin señales. Por la calle de su izquierda, todavía lejos, se acerca una ambulancia en servicio urgente.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "tu": true,
+    "inicio": "lejos"
+   },
+   {
+    "id": "ambulancia",
+    "tipo": "ambulancia",
+    "desde": "O",
+    "hacia": "E",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) oye la sirena y ve los rotativos, aunque la ambulancia todavía está lejos. Desde ese momento ya actúa para facilitarle el paso.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "cerca",
+      "modo": "frena"
+     },
+     {
+      "v": "ambulancia",
+      "hasta": "cerca",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Reduce"
+    },
+    "foco": [
+     "A",
+     "ambulancia"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Se detiene antes del cruce. Por la regla de la derecha tendría preferencia, pero los vehículos prioritarios en servicio urgente la tienen sobre todos.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.1",
+     "texto": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "ambulancia",
+      "hasta": "dentro",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Cede",
+     "ambulancia": "Prioridad"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Pasa la ambulancia; después cruza usted.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.1",
+     "texto": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "fin",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 1400
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Pasa"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 3000
+   }
+  ]
+ },
+ "x1a-0075": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Una ambulancia de una empresa privada, en servicio urgente, llega a un cruce. Por los lados se acercan B y C.",
+  "elementos": [
+   {
+    "tipo": "texto",
+    "x": 268,
+    "y": 384,
+    "t": "Privada",
+    "tam": 12
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "ambulancia",
+    "tipo": "ambulancia",
+    "desde": "S",
+    "hacia": "N",
+    "inicio": "cerca"
+   },
+   {
+    "letra": "B",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "lejos"
+   },
+   {
+    "letra": "C",
+    "desde": "O",
+    "hacia": "E",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Que la ambulancia sea pública o privada no importa: en servicio urgente tiene prioridad. B y C se detienen.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.1",
+     "texto": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "C",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "ambulancia",
+      "hasta": "espera",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "B": "Cede",
+     "C": "Cede"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "La ambulancia cruza.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.1",
+     "texto": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Pasa",
+     "B": "Espera",
+     "C": "Espera"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2200
+   },
+   {
+    "texto": "Después, B y C siguen: sus trayectorias no se cortan.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca"
+     },
+     {
+      "v": "C",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa",
+     "C": "Pasa"
+    },
+    "foco": [
+     "B",
+     "C"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "A-urg-0004": {
+  "tipo": "recta",
+  "antes": "escena",
+  "via": {},
+  "titulo": "Usted (A) circula por una carretera. Por detrás se acerca un coche de policía con las señales encendidas.",
+  "elementos": [],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tu": true,
+    "puntos": [
+     [
+      40,
+      220
+     ],
+     [
+      190,
+      220
+     ],
+     {
+      "marca": "va"
+     },
+     [
+      250,
+      220
+     ],
+     {
+      "marca": "senal"
+     },
+     [
+      310,
+      229
+     ],
+     [
+      332,
+      232
+     ],
+     {
+      "marca": "parado"
+     },
+     [
+      350,
+      232
+     ]
+    ]
+   },
+   {
+    "id": "policia",
+    "tipo": "policia",
+    "puntos": [
+     [
+      -140,
+      220
+     ],
+     [
+      100,
+      220
+     ],
+     {
+      "marca": "llega"
+     },
+     [
+      165,
+      220
+     ],
+     {
+      "marca": "senal"
+     },
+     [
+      212,
+      229
+     ],
+     [
+      234,
+      232
+     ],
+     {
+      "marca": "parado"
+     },
+     [
+      252,
+      232
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Un coche de policía, con sus señales encendidas, se coloca detrás de usted (A).",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "se sitúa detrás de cualquier otro vehículo y activa además un dispositivo de emisión de luz roja hacia adelante de forma intermitente o destellante"
+    },
+    "mover": [
+     {
+      "v": "policia",
+      "hasta": "llega",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "va",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "policia": "Detrás"
+    },
+    "foco": [
+     "policia"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Además enciende la luz roja intermitente hacia delante: le indica que se detenga.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "se sitúa detrás de cualquier otro vehículo y activa además un dispositivo de emisión de luz roja hacia adelante de forma intermitente o destellante"
+    },
+    "mover": [
+     {
+      "v": "policia",
+      "hasta": "senal",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "senal",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "policia": "Luz roja"
+    },
+    "foco": [
+     "policia"
+    ],
+    "ms": 2600,
+    "avisos": {
+     "policia": {
+      "roja": true
+     }
+    }
+   },
+   {
+    "texto": "Usted se detiene con precaución en el lado derecho, delante del coche de policía, donde no estorba, y se queda dentro del coche.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "deberá detenerlo con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios, y permanecerá en su interior."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "parado",
+      "modo": "frena"
+     },
+     {
+      "v": "policia",
+      "hasta": "parado",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Se detiene"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000,
+    "avisos": {
+     "policia": {
+      "sirena": false
+     }
+    }
+   }
+  ]
+ },
+ "B1-sen-0025": {
+  "tipo": "recta",
+  "antes": "escena",
+  "via": {
+   "urbana": true
+  },
+  "titulo": "Usted (A) circula por una calle. Por detrás se acerca un coche de policía.",
+  "elementos": [
+   {
+    "tipo": "cebra",
+    "x": 200,
+    "ancho": 26,
+    "desde": 162,
+    "hasta": 240
+   }
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tu": true,
+    "puntos": [
+     [
+      40,
+      220
+     ],
+     [
+      190,
+      220
+     ],
+     {
+      "marca": "va"
+     },
+     [
+      250,
+      220
+     ],
+     {
+      "marca": "senal"
+     },
+     [
+      332,
+      229
+     ],
+     [
+      354,
+      232
+     ],
+     {
+      "marca": "parado"
+     },
+     [
+      372,
+      232
+     ]
+    ]
+   },
+   {
+    "id": "policia",
+    "tipo": "policia",
+    "puntos": [
+     [
+      -140,
+      220
+     ],
+     [
+      100,
+      220
+     ],
+     {
+      "marca": "llega"
+     },
+     [
+      165,
+      220
+     ],
+     {
+      "marca": "senal"
+     },
+     [
+      236,
+      229
+     ],
+     [
+      258,
+      232
+     ],
+     {
+      "marca": "parado"
+     },
+     [
+      276,
+      232
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Un coche de policía, con sus señales encendidas, se coloca detrás de usted (A).",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "se sitúa detrás de cualquier otro vehículo y activa además un dispositivo de emisión de luz roja hacia adelante de forma intermitente o destellante"
+    },
+    "mover": [
+     {
+      "v": "policia",
+      "hasta": "llega",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "va",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "policia": "Detrás"
+    },
+    "foco": [
+     "policia"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Además enciende la luz roja intermitente hacia delante: le indica que se detenga.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "Anexo I.1.2.e",
+     "texto": "Luz roja intermitente o destellante hacia delante: el agente desde un vehículo indica al conductor del que le precede que debe detener el vehículo en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios"
+    },
+    "mover": [
+     {
+      "v": "policia",
+      "hasta": "senal",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "senal",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "policia": "Luz roja"
+    },
+    "foco": [
+     "policia"
+    ],
+    "ms": 2600,
+    "avisos": {
+     "policia": {
+      "roja": true
+     }
+    }
+   },
+   {
+    "texto": "Usted se detiene con precaución en el lado derecho, delante del coche de policía, donde no estorba (pasado el paso para peatones), y se queda dentro del coche.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "Anexo I.1.2.e",
+     "texto": "Luz roja intermitente o destellante hacia delante: el agente desde un vehículo indica al conductor del que le precede que debe detener el vehículo en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "parado",
+      "modo": "frena"
+     },
+     {
+      "v": "policia",
+      "hasta": "parado",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Se detiene"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000,
+    "avisos": {
+     "policia": {
+      "sirena": false
+     }
+    }
+   }
+  ]
+ },
+ "x1b-0044": {
+  "tipo": "recta",
+  "antes": "nada",
+  "titulo": "Un coche de policía con la señal V-1 (rotativos) encendida circula detrás de usted (A).",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tu": true,
+    "puntos": [
+     [
+      40,
+      220
+     ],
+     [
+      190,
+      220
+     ],
+     {
+      "marca": "va"
+     },
+     [
+      250,
+      220
+     ],
+     {
+      "marca": "senal"
+     },
+     [
+      310,
+      229
+     ],
+     [
+      332,
+      232
+     ],
+     {
+      "marca": "parado"
+     },
+     [
+      350,
+      232
+     ]
+    ]
+   },
+   {
+    "id": "policia",
+    "tipo": "policia",
+    "avisos": {
+     "sirena": false
+    },
+    "puntos": [
+     [
+      -140,
+      220
+     ],
+     [
+      100,
+      220
+     ],
+     {
+      "marca": "llega"
+     },
+     [
+      165,
+      220
+     ],
+     {
+      "marca": "senal"
+     },
+     [
+      212,
+      229
+     ],
+     [
+      234,
+      232
+     ],
+     {
+      "marca": "parado"
+     },
+     [
+      252,
+      232
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "El coche de policía circula detrás de usted (A) con la señal V-1 encendida.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "141.3",
+     "texto": "podrán dar órdenes o indicaciones a los usuarios mientras hacen uso de la señal V-1 que establece el Reglamento General de Vehículos, a través de la megafonía"
+    },
+    "mover": [
+     {
+      "v": "policia",
+      "hasta": "llega",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "va",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "policia": "V-1"
+    },
+    "foco": [
+     "policia"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Le da indicaciones por megafonía: por ejemplo, que se detenga a la derecha. Esas órdenes son válidas y hay que cumplirlas.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "141.3",
+     "texto": "podrán dar órdenes o indicaciones a los usuarios mientras hacen uso de la señal V-1 que establece el Reglamento General de Vehículos, a través de la megafonía"
+    },
+    "mover": [
+     {
+      "v": "policia",
+      "hasta": "senal",
+      "modo": "sigue"
+     },
+     {
+      "v": "A",
+      "hasta": "senal",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "policia": "Megafonía"
+    },
+    "foco": [
+     "policia"
+    ],
+    "ms": 2800,
+    "avisos": {
+     "policia": {
+      "megafonia": true
+     }
+    }
+   },
+   {
+    "texto": "Usted ajusta lo que hace a esas instrucciones y se detiene a la derecha.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "En todo momento el conductor ajustará su comportamiento a las instrucciones que imparta el agente a través de la megafonía o por cualquier otro medio que pueda ser percibido claramente por aquel."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "parado",
+      "modo": "frena"
+     },
+     {
+      "v": "policia",
+      "hasta": "parado",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Obedece"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   }
+  ]
+ },
+ "A-urg-0005": {
+  "tipo": "recta",
+  "antes": "nada",
+  "titulo": "Usted (A) lleva urgentemente a un herido en su turismo porque no hay otro medio. Delante circula B.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tu": true,
+    "avisos": {
+     "emergencia": true,
+     "claxon": true
+    },
+    "puntos": [
+     [
+      -60,
+      220
+     ],
+     [
+      60,
+      220
+     ],
+     {
+      "marca": "avisa"
+     },
+     [
+      140,
+      220
+     ],
+     {
+      "marca": "detras"
+     },
+     [
+      200,
+      212
+     ],
+     [
+      260,
+      192
+     ],
+     [
+      330,
+      192
+     ],
+     [
+      365,
+      206
+     ],
+     {
+      "marca": "delante"
+     },
+     [
+      400,
+      214
+     ],
+     [
+      480,
+      218
+     ]
+    ]
+   },
+   {
+    "letra": "B",
+    "puntos": [
+     [
+      210,
+      220
+     ],
+     [
+      211,
+      220
+     ],
+     {
+      "marca": "va"
+     },
+     [
+      250,
+      220
+     ],
+     [
+      290,
+      231
+     ],
+     [
+      310,
+      232
+     ],
+     {
+      "marca": "aparta"
+     },
+     [
+      340,
+      232
+     ],
+     [
+      390,
+      222
+     ],
+     [
+      470,
+      220
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) avisa de la urgencia tocando el claxon de forma intermitente y con la luz de emergencia encendida.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.1",
+     "texto": "utilizando para ello el avisador acústico en forma intermitente y conectando la luz de emergencia, si se dispusiera de ella, o agitando un pañuelo o procedimiento similar."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "avisa",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "va",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Claxon y emergencia"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Los demás, al darse cuenta, le facilitan el paso como harían con un vehículo prioritario: B se aparta a la derecha.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.2",
+     "texto": "deberán respetar las normas de circulación, sobre todo en las intersecciones, y los demás usuarios de la vía darán cumplimiento a lo dispuesto en el artículo 69."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "detras",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "aparta",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "B": "Se aparta"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Aun así, usted (A) no es un vehículo prioritario: adelanta con precaución y respeta las normas.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.2",
+     "texto": "deberán respetar las normas de circulación, sobre todo en las intersecciones, y los demás usuarios de la vía darán cumplimiento a lo dispuesto en el artículo 69."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "delante",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": 0.75,
+      "modo": "arranca",
+      "retraso": 1400
+     }
+    ],
+    "etiquetas": {
+     "A": "Con precaución"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   }
+  ]
+ },
+ "x1a-0085": {
+  "tipo": "recta",
+  "antes": "nada",
+  "titulo": "Usted (A) lleva urgentemente a un herido en un coche que no tiene luz de emergencia. Delante circula B.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tu": true,
+    "avisos": {
+     "panuelo": true,
+     "claxon": true
+    },
+    "puntos": [
+     [
+      -60,
+      220
+     ],
+     [
+      60,
+      220
+     ],
+     {
+      "marca": "avisa"
+     },
+     [
+      140,
+      220
+     ],
+     {
+      "marca": "detras"
+     },
+     [
+      200,
+      212
+     ],
+     [
+      260,
+      192
+     ],
+     [
+      330,
+      192
+     ],
+     [
+      365,
+      206
+     ],
+     {
+      "marca": "delante"
+     },
+     [
+      400,
+      214
+     ],
+     [
+      480,
+      218
+     ]
+    ]
+   },
+   {
+    "letra": "B",
+    "puntos": [
+     [
+      210,
+      220
+     ],
+     [
+      211,
+      220
+     ],
+     {
+      "marca": "va"
+     },
+     [
+      250,
+      220
+     ],
+     [
+      290,
+      231
+     ],
+     [
+      310,
+      232
+     ],
+     {
+      "marca": "aparta"
+     },
+     [
+      340,
+      232
+     ],
+     [
+      390,
+      222
+     ],
+     [
+      470,
+      220
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Su coche no tiene luz de emergencia: además del claxon intermitente, avisa agitando un pañuelo por la ventanilla.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.1",
+     "texto": "utilizando para ello el avisador acústico en forma intermitente y conectando la luz de emergencia, si se dispusiera de ella, o agitando un pañuelo o procedimiento similar."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "avisa",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "va",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Claxon y pañuelo"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Los demás, al darse cuenta, le facilitan el paso como harían con un vehículo prioritario: B se aparta a la derecha.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.2",
+     "texto": "deberán respetar las normas de circulación, sobre todo en las intersecciones, y los demás usuarios de la vía darán cumplimiento a lo dispuesto en el artículo 69."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "detras",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": "aparta",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "B": "Se aparta"
+    },
+    "foco": [
+     "B"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Aun así, usted (A) no es un vehículo prioritario: adelanta con precaución y respeta las normas.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.2",
+     "texto": "deberán respetar las normas de circulación, sobre todo en las intersecciones, y los demás usuarios de la vía darán cumplimiento a lo dispuesto en el artículo 69."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "delante",
+      "modo": "sigue"
+     },
+     {
+      "v": "B",
+      "hasta": 0.75,
+      "modo": "arranca",
+      "retraso": 1400
+     }
+    ],
+    "etiquetas": {
+     "A": "Con precaución"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   }
+  ]
+ },
+ "A-urg-0006": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Usted (A) lleva urgentemente a un herido, con la luz de emergencia y el claxon. Llega a un cruce regulado por semáforos.",
+  "elementos": [
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": 201,
+    "y": 262,
+    "w": 38,
+    "h": 4
+   },
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": 134,
+    "y": 201,
+    "w": 4,
+    "h": 38
+   },
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": 262,
+    "y": 161,
+    "w": 4,
+    "h": 38
+   },
+   {
+    "tipo": "semaforo",
+    "id": "sur",
+    "x": 262,
+    "y": 268,
+    "ang": 0,
+    "color": "rojo"
+   },
+   {
+    "tipo": "semaforo",
+    "id": "oeste",
+    "x": 132,
+    "y": 262,
+    "ang": 90,
+    "color": "verde"
+   },
+   {
+    "tipo": "semaforo",
+    "id": "este",
+    "x": 268,
+    "y": 138,
+    "ang": -90,
+    "color": "verde"
+   }
+  ],
+  "vehiculos": [
+   {
+    "letra": "A",
+    "desde": "S",
+    "hacia": "N",
+    "tu": true,
+    "inicio": "lejos",
+    "avisos": {
+     "emergencia": true,
+     "claxon": true
+    }
+   },
+   {
+    "letra": "B",
+    "desde": "O",
+    "hacia": "E",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Su semáforo está en rojo. Usted (A) no es un vehículo prioritario: debe respetar las normas, sobre todo en las intersecciones. Se detiene.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.2",
+     "texto": "deberán respetar las normas de circulación, sobre todo en las intersecciones, y los demás usuarios de la vía darán cumplimiento a lo dispuesto en el artículo 69."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "sigue",
+      "retraso": 600
+     }
+    ],
+    "etiquetas": {
+     "A": "Rojo: para",
+     "B": "Pasa"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000
+   },
+   {
+    "texto": "Cuando su semáforo se pone en verde, sigue, sin dejar de avisar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.1",
+     "texto": "utilizando para ello el avisador acústico en forma intermitente y conectando la luz de emergencia, si se dispusiera de ella, o agitando un pañuelo o procedimiento similar."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "arranca",
+      "retraso": 500
+     }
+    ],
+    "etiquetas": {
+     "A": "Verde"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2600,
+    "semaforos": {
+     "sur": "verde",
+     "oeste": "rojo",
+     "este": "rojo"
+    }
+   }
+  ]
+ },
+ "x1a-0077": {
+  "tipo": "cruce",
+  "antes": "nada",
+  "titulo": "Una ambulancia en servicio urgente llega a un cruce con su semáforo en rojo. Por los lados se acercan B y C con el semáforo en verde.",
+  "elementos": [
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": 201,
+    "y": 262,
+    "w": 38,
+    "h": 4
+   },
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": 134,
+    "y": 201,
+    "w": 4,
+    "h": 38
+   },
+   {
+    "tipo": "zona",
+    "clase": "pintura",
+    "x": 262,
+    "y": 161,
+    "w": 4,
+    "h": 38
+   },
+   {
+    "tipo": "semaforo",
+    "id": "sur",
+    "x": 262,
+    "y": 268,
+    "ang": 0,
+    "color": "rojo"
+   },
+   {
+    "tipo": "semaforo",
+    "id": "oeste",
+    "x": 132,
+    "y": 262,
+    "ang": 90,
+    "color": "verde"
+   },
+   {
+    "tipo": "semaforo",
+    "id": "este",
+    "x": 268,
+    "y": 138,
+    "ang": -90,
+    "color": "verde"
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "ambulancia",
+    "tipo": "ambulancia",
+    "desde": "S",
+    "hacia": "N",
+    "inicio": "lejos"
+   },
+   {
+    "letra": "B",
+    "desde": "O",
+    "hacia": "E",
+    "inicio": "lejos"
+   },
+   {
+    "letra": "C",
+    "desde": "E",
+    "hacia": "O",
+    "inicio": "lejos"
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "La ambulancia llega con el semáforo en rojo. No pasa sin más: extrema las precauciones y reduce mucho la velocidad.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.2",
+     "texto": "cuidarán de no vulnerar la prioridad de paso en las intersecciones de vías o las señales de los semáforos, sin antes adoptar extremadas precauciones"
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "B",
+      "hasta": "cerca",
+      "modo": "sigue"
+     },
+     {
+      "v": "C",
+      "hasta": "cerca",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Precaución"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Espera hasta asegurarse de que B y C la han visto y se han detenido.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.2",
+     "texto": "hasta cerciorarse de que no existe riesgo de atropello a peatones y de que los conductores de otros vehículos han detenido su marcha o se disponen a facilitar la suya."
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "C",
+      "hasta": "espera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "B": "Se detiene",
+     "C": "Se detiene",
+     "ambulancia": "Comprueba"
+    },
+    "foco": [
+     "B",
+     "C"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Con los demás parados, la ambulancia cruza.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "67.1",
+     "texto": "Tendrán prioridad de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicios de urgencia, públicos o privados, cuando se hallen en servicio de tal carácter."
+    },
+    "mover": [
+     {
+      "v": "ambulancia",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "ambulancia": "Pasa",
+     "B": "Espera",
+     "C": "Espera"
+    },
+    "foco": [
+     "ambulancia"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Después, B y C siguen con su semáforo en verde.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "Tan pronto perciban las señales especiales que anuncien la proximidad de un vehículo prioritario, los demás conductores adoptarán las medidas adecuadas, según las circunstancias del momento y lugar, para facilitarles el paso, apartándose normalmente a su derecha o deteniéndose si fuera preciso"
+    },
+    "mover": [
+     {
+      "v": "B",
+      "hasta": "fin",
+      "modo": "arranca"
+     },
+     {
+      "v": "C",
+      "hasta": "fin",
+      "modo": "arranca"
+     }
+    ],
+    "etiquetas": {
+     "B": "Pasa",
+     "C": "Pasa"
+    },
+    "foco": [
+     "B",
+     "C"
+    ],
+    "ms": 2400
+   }
+  ]
+ },
+ "xc-0120": {
+  "tipo": "recta",
+  "antes": "nada",
+  "via": {
+   "sentidoUnico": true,
+   "carriles": 2
+  },
+  "titulo": "Una ambulancia en servicio de urgencia llega a una vía con un carril reservado (VAO) y retención en el carril normal.",
+  "elementos": [
+   {
+    "tipo": "carrilReservado",
+    "y": 200,
+    "rotulo": "VAO",
+    "rombo": true,
+    "rotulos": [
+     70,
+     290
+    ]
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "c1",
+    "tipo": "camion",
+    "puntos": [
+     [
+      120,
+      180
+     ],
+     [
+      121,
+      180
+     ]
+    ]
+   },
+   {
+    "id": "c2",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      210,
+      180
+     ],
+     [
+      211,
+      180
+     ]
+    ]
+   },
+   {
+    "id": "c3",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      270,
+      180
+     ],
+     [
+      271,
+      180
+     ]
+    ]
+   },
+   {
+    "id": "c4",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      330,
+      180
+     ],
+     [
+      331,
+      180
+     ]
+    ]
+   },
+   {
+    "id": "urgencia",
+    "tipo": "ambulancia",
+    "desde": "O",
+    "y": 220,
+    "marcas": {
+     "cerca": 100,
+     "pasa": 390
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Hay retención en el carril normal. El de la derecha está reservado para vehículos de alta ocupación (VAO).",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "35.2.c",
+     "texto": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+    },
+    "mover": [
+     {
+      "v": "urgencia",
+      "hasta": "cerca",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "urgencia": "Urgencia"
+    },
+    "foco": [
+     "urgencia"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Los vehículos de urgencia en servicio urgente pueden usar los carriles reservados: pasa por el VAO.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "35.2.c",
+     "texto": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+    },
+    "mover": [
+     {
+      "v": "urgencia",
+      "hasta": "pasa",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "urgencia": "Por el VAO"
+    },
+    "foco": [
+     "urgencia"
+    ],
+    "ms": 2800
+   }
+  ]
+ },
+ "v5a-cesp-0001": {
+  "tipo": "recta",
+  "antes": "nada",
+  "via": {
+   "sentidoUnico": true,
+   "carriles": 2
+  },
+  "titulo": "Un camión de bomberos en servicio de urgencia llega a una vía con un carril VAO y retención en el carril normal.",
+  "elementos": [
+   {
+    "tipo": "carrilReservado",
+    "y": 200,
+    "rotulo": "VAO",
+    "rombo": true,
+    "rotulos": [
+     70,
+     290
+    ]
+   }
+  ],
+  "vehiculos": [
+   {
+    "id": "c1",
+    "tipo": "camion",
+    "puntos": [
+     [
+      120,
+      180
+     ],
+     [
+      121,
+      180
+     ]
+    ]
+   },
+   {
+    "id": "c2",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      210,
+      180
+     ],
+     [
+      211,
+      180
+     ]
+    ]
+   },
+   {
+    "id": "c3",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      270,
+      180
+     ],
+     [
+      271,
+      180
+     ]
+    ]
+   },
+   {
+    "id": "c4",
+    "tipo": "turismo",
+    "puntos": [
+     [
+      330,
+      180
+     ],
+     [
+      331,
+      180
+     ]
+    ]
+   },
+   {
+    "id": "urgencia",
+    "tipo": "bomberos",
+    "desde": "O",
+    "y": 220,
+    "marcas": {
+     "cerca": 100,
+     "pasa": 390
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Hay retención en el carril normal. El de la derecha está reservado para vehículos de alta ocupación (VAO).",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "35.2.c",
+     "texto": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+    },
+    "mover": [
+     {
+      "v": "urgencia",
+      "hasta": "cerca",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "urgencia": "Urgencia"
+    },
+    "foco": [
+     "urgencia"
+    ],
+    "ms": 2600
+   },
+   {
+    "texto": "Los vehículos de urgencia en servicio urgente pueden usar los carriles reservados: pasa por el VAO.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "35.2.c",
+     "texto": "Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía, podrán utilizar los carriles reservados."
+    },
+    "mover": [
+     {
+      "v": "urgencia",
+      "hasta": "pasa",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "urgencia": "Por el VAO"
+    },
+    "foco": [
+     "urgencia"
+    ],
+    "ms": 2800
+   }
+  ]
+ },
+ "x1a-0083": {
+  "tipo": "recta",
+  "antes": "escena",
+  "titulo": "Carretera de doble sentido. Un coche averiado está parado en su carril con la luz de emergencia; detrás, un coche de los agentes con los rotativos encendidos. Usted (A) se acerca.",
+  "vehiculos": [
+   {
+    "id": "averiado",
+    "tipo": "turismo",
+    "avisos": {
+     "emergencia": true
+    },
+    "puntos": [
+     [
+      290,
+      226
+     ],
+     [
+      291,
+      226
+     ]
+    ]
+   },
+   {
+    "id": "policia",
+    "tipo": "policia",
+    "avisos": {
+     "sirena": false
+    },
+    "puntos": [
+     [
+      236,
+      222
+     ],
+     [
+      237,
+      222
+     ]
+    ]
+   },
+   {
+    "letra": "A",
+    "tu": true,
+    "puntos": [
+     [
+      -60,
+      220
+     ],
+     [
+      40,
+      220
+     ],
+     {
+      "marca": "modera"
+     },
+     [
+      150,
+      220
+     ],
+     {
+      "marca": "espera"
+     },
+     [
+      190,
+      214
+     ],
+     [
+      230,
+      190
+     ],
+     [
+      330,
+      190
+     ],
+     [
+      380,
+      210
+     ],
+     [
+      470,
+      220
+     ]
+    ]
+   },
+   {
+    "letra": "C",
+    "desde": "E",
+    "marcas": {
+     "lejos": 440
+    }
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Los agentes han detenido su coche en el carril, protegiendo al averiado: pueden situarse en la parte de la vía que haga falta para auxiliar.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "68.1",
+     "texto": "podrán utilizar o situar sus vehículos en la parte de la vía que resulte necesaria cuando presten auxilio a los usuarios de ésta"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "modera",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "policia": "Auxilio"
+    },
+    "foco": [
+     "policia"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Usted (A) modera la velocidad y, como viene C de frente, espera detrás.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.f",
+     "texto": "Fuera de poblado al acercarse a vehículos inmovilizados en la calzada, a vehículos de auxilio prestando servicio"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "espera",
+      "modo": "frena"
+     },
+     {
+      "v": "C",
+      "hasta": "fin",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Espera"
+    },
+    "foco": [
+     "A",
+     "C"
+    ],
+    "ms": 2800
+   },
+   {
+    "texto": "Con el otro carril libre, los rebasa despacio y vuelve a su carril.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "46.1.f",
+     "texto": "Fuera de poblado al acercarse a vehículos inmovilizados en la calzada, a vehículos de auxilio prestando servicio"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "fin",
+      "modo": "suave"
+     }
+    ],
+    "etiquetas": {
+     "A": "Despacio"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3600
+   }
+  ]
+ },
+ "x1a-0086": {
+  "tipo": "recta",
+  "antes": "nada",
+  "titulo": "Usted (A) lleva urgentemente a un herido, con la luz de emergencia y tocando el claxon. Le sigue un coche de policía.",
+  "vehiculos": [
+   {
+    "letra": "A",
+    "tu": true,
+    "avisos": {
+     "emergencia": true,
+     "claxon": true
+    },
+    "puntos": [
+     [
+      40,
+      220
+     ],
+     [
+      190,
+      220
+     ],
+     {
+      "marca": "va"
+     },
+     [
+      250,
+      220
+     ],
+     {
+      "marca": "senal"
+     },
+     [
+      310,
+      229
+     ],
+     [
+      332,
+      232
+     ],
+     {
+      "marca": "parado"
+     },
+     [
+      350,
+      232
+     ]
+    ]
+   },
+   {
+    "id": "policia",
+    "tipo": "policia",
+    "puntos": [
+     [
+      -140,
+      220
+     ],
+     [
+      100,
+      220
+     ],
+     {
+      "marca": "llega"
+     },
+     [
+      165,
+      220
+     ],
+     {
+      "marca": "senal"
+     },
+     [
+      212,
+      229
+     ],
+     [
+      234,
+      232
+     ],
+     {
+      "marca": "parado"
+     },
+     [
+      252,
+      232
+     ]
+    ]
+   }
+  ],
+  "pasos": [
+   {
+    "texto": "Usted (A) avisa de que lleva un herido con el claxon intermitente y la luz de emergencia.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.1",
+     "texto": "utilizando para ello el avisador acústico en forma intermitente y conectando la luz de emergencia, si se dispusiera de ella, o agitando un pañuelo o procedimiento similar."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "va",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "A": "Urgencia"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 2400
+   },
+   {
+    "texto": "Se le acerca por detrás un coche de policía y le indica que se detenga.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "69",
+     "texto": "se sitúa detrás de cualquier otro vehículo y activa además un dispositivo de emisión de luz roja hacia adelante de forma intermitente o destellante"
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "senal",
+      "modo": "sigue"
+     },
+     {
+      "v": "policia",
+      "hasta": "senal",
+      "modo": "sigue"
+     }
+    ],
+    "etiquetas": {
+     "policia": "Luz roja"
+    },
+    "foco": [
+     "policia"
+    ],
+    "ms": 2400,
+    "avisos": {
+     "policia": {
+      "roja": true
+     }
+    }
+   },
+   {
+    "texto": "Se detiene a la derecha. Los agentes pueden pedirle en cualquier momento que justifique la urgencia.",
+    "cita": {
+     "norma": "RGC",
+     "articulo": "70.3",
+     "texto": "En cualquier momento, los agentes de la autoridad podrán exigir la justificación de las circunstancias a que se alude en el apartado 1."
+    },
+    "mover": [
+     {
+      "v": "A",
+      "hasta": "parado",
+      "modo": "frena"
+     },
+     {
+      "v": "policia",
+      "hasta": "parado",
+      "modo": "frena"
+     }
+    ],
+    "etiquetas": {
+     "A": "Justifica"
+    },
+    "foco": [
+     "A"
+    ],
+    "ms": 3000,
+    "avisos": {
+     "A": {
+      "claxon": false
+     },
+     "policia": {
+      "sirena": false
+     }
+    }
+   }
+  ]
+ },
  "A-est-0008": {
   "tipo": "estrecho",
   "antes": "escena",

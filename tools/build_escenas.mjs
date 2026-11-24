@@ -44,6 +44,7 @@ function aparece(c) {
   return textos[f].includes(norm(c.texto));
 }
 
+const AVISOS = ["rotativo", "sirena", "roja", "emergencia", "claxon", "panuelo", "megafonia", "salpica"];
 const LETRAS = /^[A-D]$/, BRAZOS = ["N", "S", "E", "O"];
 const salida = {};
 for (const [id, esc] of Object.entries(datos)) {
@@ -104,6 +105,10 @@ for (const [id, esc] of Object.entries(datos)) {
     if (!ps.texto) mal(`paso ${i + 1} sin texto`);
     for (const m of ps.mover || []) if (!claves.has(m.v)) mal(`paso ${i + 1}: mueve un vehículo que no existe «${m.v}»`);
     for (const k of [...(ps.foco || []), ...Object.keys(ps.etiquetas || {})]) if (!claves.has(k)) mal(`paso ${i + 1}: «${k}» no es ningún vehículo`);
+    for (const [k, a] of Object.entries(ps.avisos || {})) {
+      if (!claves.has(k)) mal(`paso ${i + 1}: avisos de «${k}», que no es ningún vehículo`);
+      for (const n in a) if (!AVISOS.includes(n)) mal(`paso ${i + 1}: aviso desconocido «${n}»`);
+    }
     if (!ps.cita || !ps.cita.texto) { mal(`paso ${i + 1} sin cita`); continue; }
     if (!aparece(ps.cita)) mal(`paso ${i + 1}: la cita de ${ps.cita.norma} ${ps.cita.articulo} no aparece literal en el BOE: «${ps.cita.texto}»`);
   }

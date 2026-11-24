@@ -126,7 +126,9 @@
     turismo: { w: 22, L: 42 }, autocaravana: { w: 24, L: 56 }, camion: { w: 26, L: 66 }, autobus: { w: 26, L: 74 },
     moto: { w: 10, L: 24 }, bici: { w: 8, L: 20 }, peaton: { w: 13, L: 8 }, carro: { w: 20, L: 52 },
     "turismo+remolque": { w: 22, L: 42, rem: { w: 20, L: 24, sep: 6 } }, "camion+remolque": { w: 26, L: 62, rem: { w: 26, L: 42, sep: 6 } },
-    tranvia: { w: 26, L: 130 }, tren: { w: 28, L: 74 }, oveja: { w: 10, L: 14 }, vaca: { w: 14, L: 28 }, nino: { w: 10, L: 6 }
+    tranvia: { w: 26, L: 130 }, tren: { w: 28, L: 74 }, oveja: { w: 10, L: 14 }, vaca: { w: 14, L: 28 }, nino: { w: 10, L: 6 },
+    // Vehículos de urgencia (bloque «Urgencias y avisos», más abajo) y furgoneta.
+    ambulancia: { w: 24, L: 52 }, policia: { w: 22, L: 44 }, bomberos: { w: 27, L: 72 }, furgoneta: { w: 23, L: 50 }
   };
   // Vía recta horizontal: trayecto por un carril (y) de oeste a este (desde O) o al revés (desde E),
   // o a medida con «puntos». Las marcas de «marcas» dan la x del frontal: {parada: 180}.
@@ -319,6 +321,8 @@
           s("rect", { x: -x, y: -y + 25, width: w, height: L - 25, rx: 2.5, fill: "#c79a63", stroke: "#8a6238", "stroke-width": 1.2 }),
           s("line", { x1: -x + 3, y1: -y + 33, x2: x - 3, y2: -y + 33, stroke: "#a87d4c", "stroke-width": 1.2 }), s("line", { x1: -x + 3, y1: -y + 41, x2: x - 3, y2: -y + 41, stroke: "#a87d4c", "stroke-width": 1.2 }),
           s("rect", { x: -x + 3, y: y - 3, width: 4, height: 2.4, rx: 1.2, class: "e-freno" }), s("rect", { x: x - 7, y: y - 3, width: 4, height: 2.4, rx: 1.2, class: "e-freno" })];
+      case "ambulancia": case "policia": case "bomberos": case "furgoneta":
+        return carroceriaUrgencia(tipo, w, L, [c, oscuro, claro], sombra, caja);
       default: // turismo
         return [sombra, s("rect", { x: -x - 2.5, y: -10, width: 3, height: 5, rx: 1.5, fill: oscuro }), s("rect", { x: x - .5, y: -10, width: 3, height: 5, rx: 1.5, fill: oscuro }),
           caja(-y, L, 7.5, c),
@@ -596,6 +600,7 @@
             s("mask", { id: nid, maskUnits: "userSpaceOnUse", x: -20, y: -20, width: 440, height: 440 }, s("rect", { x: -20, y: -20, width: 440, height: 440, fill: `url(#${nid}-g)` })));
           svg._niebla = s("rect", { x: -20, y: -20, width: 440, height: 440, mask: `url(#${nid})`, class: "e-niebla" }); break;
         }
+        case "charco": case "carrilReservado": elementoAviso(g, e, id); break;
         case "pendiente": { // sombreado: más oscuro hacia la parte alta (e.alto: "E" u "O")
           const nid = id + "-pend";
           svg.querySelector("defs").append(s("linearGradient", { id: nid, x1: e.alto === "E" ? 0 : 1, x2: e.alto === "E" ? 1 : 0, y1: 0, y2: 0 },
@@ -607,6 +612,83 @@
       }
     }
     return semaforos;
+  }
+
+  // ---------- Urgencias y avisos (vehículos prioritarios, luz de emergencia, claxon, pañuelo) ----------
+  // Cada vehículo puede llevar «avisos»: {rotativo, sirena, roja, emergencia, claxon, panuelo, megafonia, salpica}.
+  // Se encienden y apagan por pasos con paso.avisos {id: {sirena: false, ...}} (como los semáforos:
+  // el cambio se ve al empezar el paso). Con «reducir movimiento» se ven fijos, sin destellos.
+  const URGENCIA = { ambulancia: ["#ffffff", "#c8102e", "#ffd23f"], policia: ["#ffffff", "#1a46b0", "#7aa7ff"], bomberos: ["#d32f2f", "#8e1b1f", "#ffd23f"] };
+  function carroceriaUrgencia(tipo, w, L, color, sombra, caja) {
+    const x = w / 2, y = L / 2;
+    // Barra de rotativos en el techo: dos luces azules que destellan alternas.
+    const barra = yy => [s("rect", { x: -x + 3, y: yy, width: w - 6, height: 5, rx: 2.5, fill: "#1b2232" }),
+      s("rect", { x: -x + 3.5, y: yy + .5, width: w / 2 - 4, height: 4, rx: 2, class: "e-rotativo uno" }), s("rect", { x: .5, y: yy + .5, width: w / 2 - 4, height: 4, rx: 2, class: "e-rotativo dos" })];
+    if (tipo === "furgoneta") {
+      return [sombra, caja(-y, L, 5, color[0]), s("path", { d: `M${-x + 2.5},${-y + 4} Q0,${-y + 1.5} ${x - 2.5},${-y + 4} L${x - 3},${-y + 11} Q0,${-y + 10} ${-x + 3},${-y + 11} Z`, class: "e-cristal" }),
+        s("rect", { x: -x + 3, y: -y + 14, width: w - 6, height: L - 18, rx: 3, fill: color[2], opacity: .35 }), ...luces(w, L)];
+    }
+    const [base, franja, detalle] = URGENCIA[tipo];
+    if (tipo === "bomberos") {
+      const cab = 20;
+      return [sombra, caja(-y + cab + 1, L - cab - 1, 3, base), s("rect", { x: -x + 3, y: -y + cab + 6, width: w - 6, height: L - cab - 12, rx: 2, fill: "#b3b9c4", opacity: .8 }),
+        ...[0, 1, 2, 3].map(k => s("line", { x1: -x + 5, y1: -y + cab + 10 + k * 10, x2: x - 5, y2: -y + cab + 10 + k * 10, stroke: "#8a909b", "stroke-width": 1.4 })), // escalera
+        caja(-y, cab, 5, base), s("path", { d: `M${-x + 3},${-y + 3} Q0,${-y + 1} ${x - 3},${-y + 3} L${x - 4},${-y + 8} Q0,${-y + 7} ${-x + 4},${-y + 8} Z`, class: "e-cristal" }),
+        ...barra(-y + 11), s("rect", { x: -x, y: y - 6, width: w, height: 3, fill: detalle, opacity: .9 }), ...luces(w, L)];
+    }
+    const r = tipo === "policia" ? 7.5 : 5;
+    return [sombra, s("rect", { x: -x - 2.5, y: -y + 11, width: 3, height: 5, rx: 1.5, fill: franja }), s("rect", { x: x - .5, y: -y + 11, width: 3, height: 5, rx: 1.5, fill: franja }),
+      caja(-y, L, r, base), s("rect", { x: -x, y: -y + L * .55, width: w, height: 4, fill: franja }), s("rect", { x: -x, y: -y + L * .55 + 5, width: w, height: 2, fill: detalle }),
+      s("path", { d: `M${-x + 3},${-y + 6} Q0,${-y + 3.5} ${x - 3},${-y + 6} L${x - 4},${-y + 12} Q0,${-y + 11} ${-x + 4},${-y + 12} Z`, class: "e-cristal" }),
+      ...barra(-y + 15),
+      tipo === "ambulancia" ? s("path", { d: "M-2,-3 h4 v3 h3 v4 h-3 v3 h-4 v-3 h-3 v-4 h3 Z", transform: `translate(0 ${y - 14})`, fill: franja }) : s("rect", { x: -x + 4, y: y - 16, width: w - 8, height: 6, rx: 2, fill: franja, opacity: .85 }),
+      ...luces(w, L)];
+  }
+  // Capas de aviso de un vehículo: se crean una vez y se muestran u ocultan con clases.
+  function capasAviso(g, v) {
+    const m = MEDIDAS[v.tipo || "turismo"] || MEDIDAS.turismo, L = v.largo || m.L, w = m.w, c = g._cuerpo;
+    const ondas = (clase, n, r0) => s("g", { class: "e-ondas " + clase }, ...Array.from({ length: n }, (_, k) => s("circle", { r: r0, class: "e-onda", style: `animation-delay:${(k * .45).toFixed(2)}s` })));
+    // Las ondas no giran con el vehículo: van en el grupo exterior, detrás de la carrocería.
+    const sirena = ondas("sirena", 3, L / 2 + 6), claxon = ondas("claxon", 2, L / 2 + 2);
+    g.insertBefore(sirena, c); g.insertBefore(claxon, c);
+    // Luz roja hacia delante (policía): destello en el frontal.
+    const roja = s("g", { class: "e-roja" }, s("circle", { cx: 0, cy: -L / 2 - 2, r: 7, class: "e-roja-halo" }), s("circle", { cx: 0, cy: -L / 2 + 1, r: 2.6, class: "e-roja-luz" }));
+    // Pañuelo blanco agitado por la ventanilla izquierda.
+    const panuelo = s("g", { class: "e-panuelo", transform: `translate(${-w / 2 - 1} ${-3})` }, s("line", { x1: 0, y1: 0, x2: -5, y2: 0, stroke: "#e8c9b0", "stroke-width": 2.4, "stroke-linecap": "round" }),
+      s("path", { d: "M-5,-1 q-5,-4 -10,0 q-2,3 0,6 q5,-3 10,0 Z", class: "e-panuelo-tela" }));
+    // Agua que salpica hacia la derecha (acera) al pisar un charco.
+    const salpica = s("g", { class: "e-salpica", transform: `translate(${w / 2 + 2} ${L / 4})` }, ...[[6, -8, 2.4], [12, -2, 3], [8, 6, 2.2], [16, 8, 1.8], [18, -10, 1.6], [4, 12, 1.8]].map(([cx, cy, r]) => s("circle", { cx, cy, r, class: "e-gota" })));
+    c.append(roja, panuelo, salpica);
+    return { sirena, claxon, megafonia: sirena, roja, panuelo, salpica };
+  }
+  const PRIORITARIO = /^(ambulancia|policia|bomberos)$/;
+  function prepararAvisos(esc, veh, pasos) {
+    const ids = esc.vehiculos.filter(v => v.avisos || PRIORITARIO.test(v.tipo || "") || pasos.some(p => p.avisos && p.avisos[v.id || v.letra]));
+    if (!ids.length) return () => {};
+    const capas = {}, estado = [{}];
+    for (const v of ids) {
+      const k = v.id || v.letra; capas[k] = capasAviso(veh[k], v);
+      // Por defecto, un prioritario lleva encendidos rotativos y sirena.
+      estado[0][k] = Object.assign(PRIORITARIO.test(v.tipo || "") ? { rotativo: true, sirena: true } : {}, v.avisos || {});
+    }
+    pasos.forEach((p, i) => { const e = {}; for (const k in estado[i]) e[k] = Object.assign({}, estado[i][k], (p.avisos || {})[k] || {}); estado.push(e); });
+    return i => {
+      const e = estado[Math.max(0, Math.min(i, estado.length - 1))];
+      for (const k in e) {
+        const g = veh[k], a = e[k];
+        for (const n of ["rotativo", "sirena", "roja", "emergencia", "claxon", "panuelo", "megafonia", "salpica"]) g.classList.toggle("av-" + n, !!a[n]);
+      }
+    };
+  }
+  // Elementos de esta parte: charco en la calzada y carril reservado (bus, VAO) pintado.
+  function elementoAviso(g, e, id) {
+    if (e.tipo === "charco") g.append(s("ellipse", { cx: e.x, cy: e.y, rx: e.rx || 22, ry: e.ry || 8, class: "e-charco" }), s("ellipse", { cx: e.x - (e.rx || 22) * .3, cy: e.y - 2, rx: (e.rx || 22) * .35, ry: 1.6, class: "e-charco-brillo" }));
+    if (e.tipo === "carrilReservado") { // línea continua que lo separa y el rótulo (BUS, VAO) pintado en el carril, legible para quien circula hacia el este
+      g.append(s("line", { x1: e.desde != null ? e.desde : -10, y1: e.y, x2: e.hasta != null ? e.hasta : 410, y2: e.y, class: "e-marca", "stroke-width": 4 }));
+      const yc = e.yTexto || e.y + 20;
+      for (const x of e.rotulos || [90, 300]) g.append(s("text", { x, y: yc + 5, "text-anchor": "middle", "font-size": 14, "font-weight": 900, "letter-spacing": "1", class: "e-pintura", transform: `rotate(90 ${x} ${yc}) scale(1 1)` }, e.rotulo || "BUS"));
+      if (e.rombo) for (const x of e.rotulos || [90, 300]) g.append(s("path", { d: `M${x + 30},${yc} l12,-9 l12,9 l-12,9 Z`, class: "e-pintura-linea" }));
+    }
   }
 
   // ---------- Escenario de la glorieta ----------
@@ -689,7 +771,7 @@
     const orden = esc.vehiculos.slice().sort((a, b) => (/peaton|bici/.test(b.tipo || "") ? 1 : 0) - (/peaton|bici/.test(a.tipo || "") ? 1 : 0));
     for (const v of orden) {
       const k = v.id || v.letra;
-      tray[k] = esc.tipo === "glorieta" ? trayectoGlorieta(v) : esc.tipo === "estrecho" ? trayectoEstrecho(v, esc) : esc.tipo === "recta" ? trayectoRecta(v) : trayectoCruce(v);
+      tray[k] = v.puntos ? trayectoLibre(v.puntos) : esc.tipo === "glorieta" ? trayectoGlorieta(v) : esc.tipo === "estrecho" ? trayectoEstrecho(v, esc) : esc.tipo === "recta" ? trayectoRecta(v) : trayectoCruce(v);
       const g = vehiculo(v); veh[k] = g; g._vista = svg.getAttribute("viewBox").split(" ").map(Number).map((n, i, a) => i < 2 ? n : n + a[i - 2]);
       if (esc.tipo === "estrecho") g._lado = v.desde === "O" ? 1 : -1; // etiqueta debajo o encima: detrás se saldría del dibujo
       if (g._remolque) capaV.append(g._remolque);
@@ -719,6 +801,7 @@
     // Color de cada semáforo antes de cada paso (el cambio de un paso se ve al empezarlo).
     const luzSem = [{}]; for (const k in semaforos) luzSem[0][k] = semaforos[k].inicial;
     pasos.forEach((p, i) => luzSem.push(Object.assign({}, luzSem[i], p.semaforos || {})));
+    const avisos = prepararAvisos(esc, veh, pasos);
     function pintarSem(i) {
       for (const k in semaforos) { const sm = semaforos[k], c = luzSem[i][k]; sm.r.setAttribute("class", "e-luz r" + (c === "rojo" ? " on" : "")); sm.a.setAttribute("class", "e-luz a" + (c === "ambar" ? " on" : "")); sm.v.setAttribute("class", "e-luz v" + (c === "verde" ? " on" : "")); }
     }
@@ -734,7 +817,7 @@
     function resaltar(p) {
       for (const l in veh) { veh[l].classList.toggle("foco", !!(p && p.foco && p.foco.includes(l))); etiquetar(veh[l], p && p.etiquetas ? p.etiquetas[l] : null); }
     }
-    function pintarEstado(i) { const e = estados[i]; for (const l in e) situar(l, e[l]); pintarSem(i); }
+    function pintarEstado(i) { const e = estados[i]; for (const l in e) situar(l, e[l]); pintarSem(i); avisos(i); }
     let ficha = { cancelada: true };
     const escena = {
       svg, pasos,
@@ -746,7 +829,7 @@
         ficha.cancelada = true;
         const f = ficha = { cancelada: false };
         svg.classList.remove("quieta");
-        pintarEstado(i); pintarSem(i + 1);
+        pintarEstado(i); pintarSem(i + 1); avisos(i + 1);
         const p = pasos[i], desde = estados[i];
         resaltar(p);
         const ms = MOV.matches ? 0 : (p.ms || 2200);

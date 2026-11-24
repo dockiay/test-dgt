@@ -1,6 +1,6 @@
 # Publica la web en Firebase Hosting y las reglas de Firestore en cada cambio de main.
-# Necesita, en Settings → Secrets and variables → Actions del repositorio:
-#   - variable FIREBASE_PROJECT_ID: el id del proyecto de Firebase (por ejemplo, test-permiso-b)
+# Necesita la variable de repositorio FIREBASE_PROJECT_ID y dos secretos
+# en el entorno de GitHub Actions produccion:
 #   - secreto FIREBASE_SERVICE_ACCOUNT: el JSON de la clave de la cuenta de servicio
 #   - secreto CORREOS_PERMITIDOS: los correos de Google que pueden guardar en la nube, separados por comas
 # Mientras falte la variable, el trabajo se salta (no falla).
@@ -19,6 +19,7 @@ jobs:
   publicar:
     if: ${{ vars.FIREBASE_PROJECT_ID != '' }}
     runs-on: ubuntu-latest
+    environment: produccion
     permissions:
       contents: read
     steps:

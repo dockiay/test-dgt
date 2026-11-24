@@ -98,6 +98,25 @@ def main():
             "px": r["px"],
             "texto_revisado": r.get("texto_revisado", False),
         })
+    mpath = os.path.join(AQUI, "marcas", "marcas_ocr.json")
+    for r in (json.load(open(mpath, encoding="utf-8")) if os.path.exists(mpath) else []):
+        cod = r["codigo"]
+        entradas.append({
+            "id": cod,
+            "tipo": "marca_vial",
+            "src": f"img/marcas/{r['fichero']}",
+            "codigo": cod,
+            "nombre": f"Marca vial {cod}",
+            "definicion": r["texto_ocr"],
+            "alt": f"Marca vial {cod} (plano oficial con medidas)",
+            "credito": f"Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. {r['pagina_pdf']} del PDF consolidado",
+            "fuente": dict(FUENTE_RGC, apartado="5.2 Catálogo de marcas viales", pagina_pdf=r["pagina_pdf"]),
+            "licencia": LICENCIA_BOE,
+            "formato": "png",
+            "px": r["px"],
+            "texto_revisado": False,
+            "nota": "Plano técnico del catálogo (geometría y medidas). Para preguntas de situación conviene un esquema propio.",
+        })
     for fichero, (desc, apartado) in FIGURAS.items():
         if not os.path.exists(os.path.join(AQUI, "figuras-boe", fichero)):
             continue
@@ -137,17 +156,23 @@ def main():
               f"Generado el {HOY} con `construir_indice.py`. El fichero de datos es `indice.json`.", "",
               "## Origen y licencia", "",
               f"- **Señales** (`senales/`): recortadas del {CREDITO_BOE}, versión consolidada del 26/06/2026. " + LICENCIA_BOE,
+              "- **Marcas viales** (`marcas/`): planos del Catálogo de marcas viales del mismo anexo I (apartado 5.2). Misma licencia.",
               "- **Figuras del BOE** (`figuras-boe/`): láminas del mismo anexo I (agentes, balizamiento, semáforos). Misma licencia.",
               "- **Esquemas** (`esquemas/`): dibujos propios en SVG, hechos con `esquemas/plantilla_esquemas.py`.",
               "- No se usan imágenes de los tests de la DGT ni de webs comerciales.", ""]
     por_tipo = {}
     for e in entradas:
         por_tipo.setdefault(e["tipo"], []).append(e)
-    titulos = {"senal": "Señales", "figura_boe": "Figuras del anexo I", "esquema": "Esquemas propios"}
-    for t in ("senal", "figura_boe", "esquema"):
+    titulos = {"senal": "Señales", "marca_vial": "Marcas viales", "figura_boe": "Figuras del anexo I", "esquema": "Esquemas propios"}
+    for t in ("senal", "marca_vial", "figura_boe", "esquema"):
         es = por_tipo.get(t, [])
         lineas += [f"## {titulos[t]} ({len(es)})", ""]
-        if t == "senal":
+        if t in ("senal", "marca_vial") and t == "marca_vial":
+            lineas += ["| Código | Fichero | Pág. PDF |", "|---|---|---|"]
+            for e in es:
+                lineas.append(f"| {e['codigo']} | `{e['src'][4:]}` | {e['fuente']['pagina_pdf']} |")
+            lineas.append("")
+        elif t == "senal":
             g_actual = None
             for e in es:
                 if e["grupo"] != g_actual:

@@ -1,0 +1,5030 @@
+[
+ {
+  "codigo": "P-1",
+  "nombre_ocr": "Intersección con prioridad",
+  "texto_ocr": "Peligro por la proximidad de una intersección con una vía, cuyos usuarios deben ceder el paso.",
+  "pagina_pdf": 89,
+  "fichero": "P-1.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-1a",
+  "nombre_ocr": "Intersección con prioridad sobre vía a la derecha",
+  "texto_ocr": "Peligro por la proximidad de una intersección con una vía a la derecha, cuyos usuarios deben ceder el paso.",
+  "pagina_pdf": 89,
+  "fichero": "P-1a.png",
+  "px": [
+   269,
+   235
+  ]
+ },
+ {
+  "codigo": "P-1b",
+  "nombre_ocr": "Intersección con prioridad sobre vía a la izquierda",
+  "texto_ocr": "Peligro por la proximidad de una intersección con una vía a la izquierda, cuyos usuarios deben ceder el paso.",
+  "pagina_pdf": 89,
+  "fichero": "P-1b.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-1c",
+  "nombre_ocr": "Intersección con prioridad sobre incorporación por la derecha",
+  "texto_ocr": "Peligro por la proximidad de una incorporación por la derecha de una vía, cuyos usuarios deben ceder el paso.",
+  "pagina_pdf": 89,
+  "fichero": "P-1c.png",
+  "px": [
+   267,
+   235
+  ]
+ },
+ {
+  "codigo": "P-1d",
+  "nombre_ocr": "Intersección con prioridad sobre incorporación por la izquierda",
+  "texto_ocr": "Peligro por la proximidad de una incorporación por la izquierda de una vía, cuyos usuarios deben ceder el paso.",
+  "pagina_pdf": 89,
+  "fichero": "P-1d.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-1e",
+  "nombre_ocr": "Tramo con accesos directos",
+  "texto_ocr": "Peligro por la proximidad de un tramo en el que existen varios accesos directos a la vía, debiendo ceder el paso los usuarios de dichos accesos directos.",
+  "pagina_pdf": 89,
+  "fichero": "P-1e.png",
+  "px": [
+   280,
+   248
+  ]
+ },
+ {
+  "codigo": "P-2",
+  "nombre_ocr": "Intersección con prioridad de la derecha",
+  "texto_ocr": "Peligro por la proximidad de una intersección en la que rige la regla general de prioridad de paso.",
+  "pagina_pdf": 89,
+  "fichero": "P-2.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-3",
+  "nombre_ocr": "Semáforos",
+  "texto_ocr": "Peligro por la proximidad de una intersección aislada o tramo con la circulación regulada por semáforos.",
+  "pagina_pdf": 90,
+  "fichero": "P-3.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-4",
+  "nombre_ocr": "Glorieta",
+  "texto_ocr": "Peligro por la proximidad de una glorieta con circulación en el sentido indicado por las flechas.",
+  "pagina_pdf": 90,
+  "fichero": "P-4.png",
+  "px": [
+   269,
+   236
+  ]
+ },
+ {
+  "codigo": "P-5",
+  "nombre_ocr": "Puente móvil",
+  "texto_ocr": "Peligro ante la proximidad de un puente que puede ser levantado O girado, interrumpiéndose así temporalmente la circulación.",
+  "pagina_pdf": 90,
+  "fichero": "P-5.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-6",
+  "nombre_ocr": "Cruce de tranvía",
+  "texto_ocr": "Peligro por la proximidad de cruce con una línea de tranvía, que tiene prioridad de paso.",
+  "pagina_pdf": 90,
+  "fichero": "P-6.png",
+  "px": [
+   268,
+   236
+  ]
+ },
+ {
+  "codigo": "P-7",
+  "nombre_ocr": "Paso a nivel con barreras",
+  "texto_ocr": "Peligro por la proximidad de un paso a nivel provisto de barreras o semibarreras.",
+  "pagina_pdf": 90,
+  "fichero": "P-7.png",
+  "px": [
+   268,
+   234
+  ]
+ },
+ {
+  "codigo": "P-8",
+  "nombre_ocr": "Paso a nivel sin barreras",
+  "texto_ocr": "Peligro por la proximidad de un paso a nivel no provisto de barreras o semibarreras.",
+  "pagina_pdf": 90,
+  "fichero": "P-8.png",
+  "px": [
+   282,
+   250
+  ]
+ },
+ {
+  "codigo": "P-9a",
+  "nombre_ocr": "Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado derecho)",
+  "texto_ocr": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 200 m. Esta baliza se sitúa en el lado derecho de la calzada y va siempre acompañada de la señal P-5, P-7, P-8 o P-27.",
+  "pagina_pdf": 90,
+  "fichero": "P-9a.png",
+  "px": [
+   58,
+   225
+  ]
+ },
+ {
+  "codigo": "P-10a",
+  "nombre_ocr": "Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado izquierdo)",
+  "texto_ocr": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 200 m. Esta baliza se sitúa en el lado izquierdo de la calzada y va siempre acompañada de la señal P-5, P-7, P-8 o P-27.",
+  "pagina_pdf": 91,
+  "fichero": "P-10a.png",
+  "px": [
+   59,
+   231
+  ]
+ },
+ {
+  "codigo": "P-10b",
+  "nombre_ocr": "Aproximación a un paso a nivel, puente móvil o muelle (150 m, lado izquierdo)",
+  "texto_ocr": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 150 m. Esta baliza se sitúa en el lado izquierdo de la calzada.",
+  "pagina_pdf": 91,
+  "fichero": "P-10b.png",
+  "px": [
+   59,
+   231
+  ]
+ },
+ {
+  "codigo": "P-10c",
+  "nombre_ocr": "Aproximación a un paso a nivel, puente móvil o muelle (100 m, lado izquierdo)",
+  "texto_ocr": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 100 m. Esta baliza se sitúa en el lado izquierdo de la calzada.",
+  "pagina_pdf": 91,
+  "fichero": "P-10c.png",
+  "px": [
+   59,
+   231
+  ]
+ },
+ {
+  "codigo": "P-11",
+  "nombre_ocr": "Situación de un paso a nivel sin barreras",
+  "texto_ocr": "Peligro por la presencia inmediata de un paso a nivel sin barreras",
+  "pagina_pdf": 91,
+  "fichero": "P-11.png",
+  "px": [
+   258,
+   161
+  ]
+ },
+ {
+  "codigo": "P-9b",
+  "nombre_ocr": "Aproximación a un paso a nivel, puente móvil o muelle (150 m, lado derecho)",
+  "texto_ocr": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 150 m. Esta baliza se sitúa en el lado derecho de la calzada.",
+  "pagina_pdf": 91,
+  "fichero": "P-9b.png",
+  "px": [
+   58,
+   225
+  ]
+ },
+ {
+  "codigo": "P-9c",
+  "nombre_ocr": "Aproximación a un paso a nivel, puente móvil o muelle (100 m, lado derecho)",
+  "texto_ocr": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 100 m. Esta baliza se sitúa en el lado derecho de la calzada.",
+  "pagina_pdf": 91,
+  "fichero": "P-9c.png",
+  "px": [
+   58,
+   226
+  ]
+ },
+ {
+  "codigo": "P-11a",
+  "nombre_ocr": "Situación de un paso a nivel sin barreras de más de una vía férrea",
+  "texto_ocr": "Peligro por la presencia inmediata de un paso a nivel sin barreras con más de una vía férrea.",
+  "pagina_pdf": 92,
+  "fichero": "P-11a.png",
+  "px": [
+   273,
+   252
+  ]
+ },
+ {
+  "codigo": "P-12",
+  "nombre_ocr": "Aeropuerto",
+  "texto_ocr": "Peligro por la proximidad de un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía y que pueden originar ruidos imprevistos.",
+  "pagina_pdf": 92,
+  "fichero": "P-12.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-13a",
+  "nombre_ocr": "Curva peligrosa hacia la derecha",
+  "texto_ocr": "Peligro por la proximidad de una curva peligrosa hacia la derecha.",
+  "pagina_pdf": 92,
+  "fichero": "P-13a.png",
+  "px": [
+   268,
+   236
+  ]
+ },
+ {
+  "codigo": "P-13b",
+  "nombre_ocr": "Curva peligrosa hacia la izquierda",
+  "texto_ocr": "Peligro por la proximidad de una curva peligrosa hacia la izquierda.",
+  "pagina_pdf": 92,
+  "fichero": "P-13b.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-14a",
+  "nombre_ocr": "Curvas peligrosas hacia la derecha",
+  "texto_ocr": "Peligro por la proximidad de una sucesión de curvas peligrosas próximas entre sí, siendo la primera de ellas hacia la derecha.",
+  "pagina_pdf": 92,
+  "fichero": "P-14a.png",
+  "px": [
+   268,
+   234
+  ]
+ },
+ {
+  "codigo": "P-14b",
+  "nombre_ocr": "Curvas peligrosas hacia la izquierda",
+  "texto_ocr": "Peligro por la proximidad de una sucesión de curvas peligrosas próximas entre sí, siendo la primera de ellas hacia la izquierda.",
+  "pagina_pdf": 92,
+  "fichero": "P-14b.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-15",
+  "nombre_ocr": "Perfil irregular",
+  "texto_ocr": "Peligro por la proximidad de un resalte o badén en la vía o pavimento en mal estado.",
+  "pagina_pdf": 92,
+  "fichero": "P-15.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-15a",
+  "nombre_ocr": "Resalte",
+  "texto_ocr": "Peligro por la proximidad de un resalte en la vía.",
+  "pagina_pdf": 93,
+  "fichero": "P-15a.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-15b",
+  "nombre_ocr": "Badén",
+  "texto_ocr": "Peligro por la proximidad de un badén en la vía",
+  "pagina_pdf": 93,
+  "fichero": "P-15b.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-16a",
+  "nombre_ocr": "Bajada con fuerte pendiente",
+  "texto_ocr": "Peligro por la existencia de un tramo de vía con fuerte pendiente descendente. La cifra indica la inclinación de la pendiente en porcentaje.",
+  "pagina_pdf": 93,
+  "fichero": "P-16a.png",
+  "px": [
+   277,
+   247
+  ]
+ },
+ {
+  "codigo": "P-16b",
+  "nombre_ocr": "Subida con fuerte pendiente",
+  "texto_ocr": "Peligro por la existencia de un tramo de vía con fuerte pendiente ascendente. La cifra indica la inclinación de la pendiente en porcentaje.",
+  "pagina_pdf": 93,
+  "fichero": "P-16b.png",
+  "px": [
+   281,
+   250
+  ]
+ },
+ {
+  "codigo": "P-17",
+  "nombre_ocr": "Estrechamiento de calzada",
+  "texto_ocr": "Peligro por la proximidad de una zona de la vía en la que se estrecha la calzada. También puede ser utilizada cuando se reduzca la anchura de los arcenes de la calzada. No se utilizará cuando, tras una reducción del número de carriles de la calzada, la anchura de los carriles restantes y de los arcenes no haya variado.",
+  "pagina_pdf": 93,
+  "fichero": "P-17.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-17a",
+  "nombre_ocr": "Estrechamiento de calzada por la derecha",
+  "texto_ocr": "Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la derecha. También puede ser utilizada cuando se reduzca la anchura del arcén derecho de la calzada. No se utilizará cuando, tras una reducción del número de carriles de la calzada por la derecha, la anchura de los carriles restantes y de los arcenes no haya variado.",
+  "pagina_pdf": 93,
+  "fichero": "P-17a.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-17b",
+  "nombre_ocr": "Estrechamiento de calzada por la izquierda",
+  "texto_ocr": "Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la izquierda. También puede ser utilizada cuando se reduzca la anchura del arcén izquierdo de la calzada cuando esta sea de un solo sentido de circulación. No se utilizará cuando, tras una reducción del número de carriles de la calzada por la izquierda, la anchura de los carriles restantes y de los arcenes no haya variado.",
+  "pagina_pdf": 94,
+  "fichero": "P-17b.png",
+  "px": [
+   269,
+   235
+  ]
+ },
+ {
+  "codigo": "P-18",
+  "nombre_ocr": "Obras",
+  "texto_ocr": "Peligro por la proximidad de un tramo de vía en obras.",
+  "pagina_pdf": 94,
+  "fichero": "P-18.png",
+  "px": [
+   269,
+   234
+  ]
+ },
+ {
+  "codigo": "P-19",
+  "nombre_ocr": "Pavimento deslizante",
+  "texto_ocr": "Peligro por la proximidad de una zona de la calzada cuyo pavimento puede resultar deslizante.",
+  "pagina_pdf": 94,
+  "fichero": "P-19.png",
+  "px": [
+   282,
+   251
+  ]
+ },
+ {
+  "codigo": "P-20a",
+  "nombre_ocr": "Paso para peatones",
+  "texto_ocr": "Peligro por la proximidad de uno o varios pasos para peatones",
+  "pagina_pdf": 94,
+  "fichero": "P-20a.png",
+  "px": [
+   270,
+   241
+  ]
+ },
+ {
+  "codigo": "P-20b",
+  "nombre_ocr": "Peatones",
+  "texto_ocr": "Peligro por la proximidad de un lugar o tramo con elevado tránsito de peatones.",
+  "pagina_pdf": 94,
+  "fichero": "P-20b.png",
+  "px": [
+   285,
+   252
+  ]
+ },
+ {
+  "codigo": "P-20c",
+  "nombre_ocr": "Pasos para peatones y ciclistas",
+  "texto_ocr": "Peligro por la proximidad de un paso para peatones adosado o compartido con un paso para ciclistas.",
+  "pagina_pdf": 94,
+  "fichero": "P-20c.png",
+  "px": [
+   284,
+   253
+  ]
+ },
+ {
+  "codigo": "P-21a",
+  "nombre_ocr": "Niños",
+  "texto_ocr": "Peligro por la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc.",
+  "pagina_pdf": 95,
+  "fichero": "P-21a.png",
+  "px": [
+   283,
+   250
+  ]
+ },
+ {
+  "codigo": "P-21b",
+  "nombre_ocr": "Personas con dificultades motrices",
+  "texto_ocr": "Peligro por la proximidad de un lugar frecuentado por personas con dificultades motrices o sensoriales.",
+  "pagina_pdf": 95,
+  "fichero": "P-21b.png",
+  "px": [
+   283,
+   251
+  ]
+ },
+ {
+  "codigo": "P-22a",
+  "nombre_ocr": "Paso para ciclistas",
+  "texto_ocr": "Peligro por la proximidad de uno o varios pasos para ciclistas.",
+  "pagina_pdf": 95,
+  "fichero": "P-22a.png",
+  "px": [
+   279,
+   249
+  ]
+ },
+ {
+  "codigo": "P-22b",
+  "nombre_ocr": "Ciclistas",
+  "texto_ocr": "Peligro por la proximidad de un tramo con circulación frecuente de ciclistas.",
+  "pagina_pdf": 95,
+  "fichero": "P-22b.png",
+  "px": [
+   283,
+   253
+  ]
+ },
+ {
+  "codigo": "P-23",
+  "nombre_ocr": "Paso de animales domésticos o ganado",
+  "texto_ocr": "Peligro por la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales domésticos o ganado.",
+  "pagina_pdf": 95,
+  "fichero": "P-23.png",
+  "px": [
+   268,
+   234
+  ]
+ },
+ {
+  "codigo": "P-24",
+  "nombre_ocr": "Paso de animales en libertad",
+  "texto_ocr": "Peligro por la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad.",
+  "pagina_pdf": 95,
+  "fichero": "P-24.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-24a",
+  "nombre_ocr": "Paso de animales en libertad (jabalíes)",
+  "texto_ocr": "Peligro por la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad, tratándose en una proporción muy significativa de jabalíes.",
+  "pagina_pdf": 95,
+  "fichero": "P-24a.png",
+  "px": [
+   280,
+   251
+  ]
+ },
+ {
+  "codigo": "P-25",
+  "nombre_ocr": "Circulación en los dos sentidos",
+  "texto_ocr": "Peligro por la proximidad de un tramo con circulación en ambos sentidos.",
+  "pagina_pdf": 96,
+  "fichero": "P-25.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-26",
+  "nombre_ocr": "Desprendimiento",
+  "texto_ocr": "Peligro por la proximidad a una zona con desprendimientos frecuentes y la consiguiente posible presencia de obstáculos en la calzada.",
+  "pagina_pdf": 96,
+  "fichero": "P-26.png",
+  "px": [
+   269,
+   235
+  ]
+ },
+ {
+  "codigo": "P-27",
+  "nombre_ocr": "Muelle",
+  "texto_ocr": "Peligro debido a que la vía desemboca en un muelle o en una corriente de agua.",
+  "pagina_pdf": 96,
+  "fichero": "P-27.png",
+  "px": [
+   268,
+   234
+  ]
+ },
+ {
+  "codigo": "P-28",
+  "nombre_ocr": "Proyección de gravilla",
+  "texto_ocr": "Peligro por la proximidad de un tramo de vía donde existe el riesgo de que se proyecte gravilla al pasar los vehículos.",
+  "pagina_pdf": 96,
+  "fichero": "P-28.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-29",
+  "nombre_ocr": "Viento transversal",
+  "texto_ocr": "Peligro por la proximidad de una zona donde sopla frecuentemente viento fuerte en dirección transversal.",
+  "pagina_pdf": 96,
+  "fichero": "P-29.png",
+  "px": [
+   285,
+   254
+  ]
+ },
+ {
+  "codigo": "P-30",
+  "nombre_ocr": "Escalón lateral",
+  "texto_ocr": "Peligro por la existencia de un desnivel a lo largo de la vía en el lado que indique el símbolo.",
+  "pagina_pdf": 96,
+  "fichero": "P-30.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-31",
+  "nombre_ocr": "Congestión",
+  "texto_ocr": "Peligro por la proximidad de un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico.",
+  "pagina_pdf": 96,
+  "fichero": "P-31.png",
+  "px": [
+   285,
+   253
+  ]
+ },
+ {
+  "codigo": "P-32",
+  "nombre_ocr": "Obstrucción en la calzada",
+  "texto_ocr": "Peligro por la proximidad de un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas.",
+  "pagina_pdf": 97,
+  "fichero": "P-32.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-33",
+  "nombre_ocr": "Visibilidad reducida",
+  "texto_ocr": "Peligro por la proximidad de un tramo en el que frecuentemente la circulación se ve dificultada por una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc.",
+  "pagina_pdf": 97,
+  "fichero": "P-33.png",
+  "px": [
+   276,
+   244
+  ]
+ },
+ {
+  "codigo": "P-34",
+  "nombre_ocr": "Presencia de hielo o nieve",
+  "texto_ocr": "Peligro por la proximidad de un tramo en el que frecuentemente, durante la época invernal, hay presencia de hielo o nieve y los consiguientes peligros asociados.",
+  "pagina_pdf": 97,
+  "fichero": "P-34.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "P-35",
+  "nombre_ocr": "Trenzado",
+  "texto_ocr": "Peligro por la proximidad de un tramo comprendido entre una confluencia y una bifurcación donde se producen distintos movimientos de cambio de carril por parte de los vehículos, cruzándose sus trayectorias y aumentando por ello el riesgo de que se produzcan colisiones.",
+  "pagina_pdf": 97,
+  "fichero": "P-35.png",
+  "px": [
+   278,
+   247
+  ]
+ },
+ {
+  "codigo": "P-50",
+  "nombre_ocr": "Otros peligros",
+  "texto_ocr": "Indica la proximidad de un peligro distinto de los advertidos por otras señales.",
+  "pagina_pdf": 97,
+  "fichero": "P-50.png",
+  "px": [
+   268,
+   235
+  ]
+ },
+ {
+  "codigo": "R-1",
+  "nombre_ocr": "Ceda el paso",
+  "texto_ocr": "Obligación para todo conductor de ceder el paso en la próxima intersección a los vehículos que circulen por la vía a la que se aproxime o al carril al que pretende incorporarse.",
+  "pagina_pdf": 99,
+  "fichero": "R-1.png",
+  "px": [
+   268,
+   234
+  ]
+ },
+ {
+  "codigo": "R-2",
+  "nombre_ocr": "Detención obligatoria o stop",
+  "texto_ocr": "Obligación para todo conductor de detener su vehículo ante la próxima línea de detención o, si no existe, inmediatamente antes de la intersección, y ceder el paso en ella a los vehículos que circulen por la vía a la que se aproxime. Si, por circunstancias excepcionales, desde el lugar donde se ha efectuado la detención no existe visibilidad suficiente, el conductor deberá detenerse de nuevo en el lugar desde donde tenga visibilidad, sin poner en peligro a ningún usuario de la vía.",
+  "pagina_pdf": 99,
+  "fichero": "R-2.png",
+  "px": [
+   258,
+   258
+  ]
+ },
+ {
+  "codigo": "R-3",
+  "nombre_ocr": "Calzada con prioridad",
+  "texto_ocr": "Indica a los conductores de los vehículos que circulen por una calzada su prioridad en las intersecciones sobre los vehículos que circulen por otra calzada o procedan de ella.",
+  "pagina_pdf": 99,
+  "fichero": "R-3.png",
+  "px": [
+   287,
+   289
+  ]
+ },
+ {
+  "codigo": "R-4",
+  "nombre_ocr": "Fin de prioridad",
+  "texto_ocr": "Indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada.",
+  "pagina_pdf": 99,
+  "fichero": "R-4.png",
+  "px": [
+   287,
+   288
+  ]
+ },
+ {
+  "codigo": "R-5",
+  "nombre_ocr": "Prioridad del sentido contrario",
+  "texto_ocr": "Prohibición de entrada en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse.",
+  "pagina_pdf": 99,
+  "fichero": "R-5.png",
+  "px": [
+   251,
+   252
+  ]
+ },
+ {
+  "codigo": "R-6",
+  "nombre_ocr": "Prioridad respecto al sentido contrario",
+  "texto_ocr": "Indica a los conductores que, en un próximo paso estrecho, tienen prioridad con relación a los vehículos que circulen en sentido contrario.",
+  "pagina_pdf": 100,
+  "fichero": "R-6.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-100",
+  "nombre_ocr": "Circulación prohibida",
+  "texto_ocr": "Prohibición de circulación de toda clase de vehículos en ambos sentidos.",
+  "pagina_pdf": 102,
+  "fichero": "R-100.png",
+  "px": [
+   251,
+   252
+  ]
+ },
+ {
+  "codigo": "R-101",
+  "nombre_ocr": "Entrada prohibida",
+  "texto_ocr": "Prohibición de acceso a toda clase de vehículos.",
+  "pagina_pdf": 102,
+  "fichero": "R-101.png",
+  "px": [
+   251,
+   252
+  ]
+ },
+ {
+  "codigo": "R-102",
+  "nombre_ocr": "Entrada prohibida a vehículos de motor",
+  "texto_ocr": "Prohibición de acceso a vehículos de motor.",
+  "pagina_pdf": 102,
+  "fichero": "R-102.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-103",
+  "nombre_ocr": "Entrada prohibida a vehículos de motor, excepto motocicletas de dos ruedas",
+  "texto_ocr": "Prohibición de acceso a vehículos de motor. No prohíbe el acceso a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas.",
+  "pagina_pdf": 102,
+  "fichero": "R-103.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-104",
+  "nombre_ocr": "Entrada prohibida a motocicletas",
+  "texto_ocr": "Prohibición de acceso a motocicletas y a vehículos de tres ruedas asimilados a motocicletas.",
+  "pagina_pdf": 102,
+  "fichero": "R-104.png",
+  "px": [
+   251,
+   252
+  ]
+ },
+ {
+  "codigo": "R-105",
+  "nombre_ocr": "Entrada prohibida a ciclomotores",
+  "texto_ocr": "Prohibición de acceso a ciclomotores. Igualmente prohíbe la entrada a vehículos para personas de movilidad reducida.",
+  "pagina_pdf": 102,
+  "fichero": "R-105.png",
+  "px": [
+   250,
+   251
+  ]
+ },
+ {
+  "codigo": "R-106",
+  "nombre_ocr": "Entrada prohibida a vehículos destinados al transporte de mercancías",
+  "texto_ocr": "Prohibición de acceso a vehículos destinados al transporte de mercancías, entendiéndose como tales camiones, tractocamiones y furgones o furgonetas, independientemente de su masa.",
+  "pagina_pdf": 103,
+  "fichero": "R-106.png",
+  "px": [
+   245,
+   245
+  ]
+ },
+ {
+  "codigo": "R-107",
+  "nombre_ocr": "Entrada prohibida a vehículos destinados al transporte de mercancías con mayor masa autorizada que la indicada",
+  "texto_ocr": "Prohibición de acceso a toda clase de vehículos destinados al transporte de mercancías si su masa máxima autorizada es superior a la indicada en la señal, entendiéndose como tales los camiones, tractocamiones y furgones o furgonetas con mayor masa autorizada que la indicada en la señal. Prohíbe el acceso aunque circulen vacíos.",
+  "pagina_pdf": 103,
+  "fichero": "R-107.png",
+  "px": [
+   251,
+   249
+  ]
+ },
+ {
+  "codigo": "R-108",
+  "nombre_ocr": "Entrada prohibida a vehículos que transporten mercancías peligrosas",
+  "texto_ocr": "Prohibición de acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica.",
+  "pagina_pdf": 103,
+  "fichero": "R-108.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-109",
+  "nombre_ocr": "Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables",
+  "texto_ocr": "Prohibición de acceso a toda clase de vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica.",
+  "pagina_pdf": 103,
+  "fichero": "R-109.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-110",
+  "nombre_ocr": "Entrada prohibida a vehículos que transporten productos contaminantes del agua",
+  "texto_ocr": "Prohibición de acceso a toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua.",
+  "pagina_pdf": 104,
+  "fichero": "R-110.png",
+  "px": [
+   252,
+   252
+  ]
+ },
+ {
+  "codigo": "R-111",
+  "nombre_ocr": "Entrada prohibida a vehículos agrícolas de motor",
+  "texto_ocr": "Prohibición de acceso a tractores y otras máquinas agrícolas autopropulsadas.",
+  "pagina_pdf": 104,
+  "fichero": "R-111.png",
+  "px": [
+   246,
+   247
+  ]
+ },
+ {
+  "codigo": "R-112",
+  "nombre_ocr": "Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje",
+  "texto_ocr": "Prohibición de acceso a vehículos de motor con remolque exceptuando los de un solo eje. La inscripción de una cifra de tonelaje, sobre la silueta del remolque o en una placa suplementaria, significa que la prohibición de paso solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra.",
+  "pagina_pdf": 104,
+  "fichero": "R-112.png",
+  "px": [
+   252,
+   251
+  ]
+ },
+ {
+  "codigo": "R-113",
+  "nombre_ocr": "Entrada prohibida a vehículos de tracción animal",
+  "texto_ocr": "Prohibición de acceso a vehículos de tracción animal.",
+  "pagina_pdf": 104,
+  "fichero": "R-113.png",
+  "px": [
+   252,
+   251
+  ]
+ },
+ {
+  "codigo": "R-114",
+  "nombre_ocr": "Entrada prohibida a ciclos",
+  "texto_ocr": "Prohibición de acceso a ciclos.",
+  "pagina_pdf": 104,
+  "fichero": "R-114.png",
+  "px": [
+   246,
+   247
+  ]
+ },
+ {
+  "codigo": "R-115",
+  "nombre_ocr": "Entrada prohibida a carros de mano",
+  "texto_ocr": "Prohibición de acceso a carros de mano.",
+  "pagina_pdf": 104,
+  "fichero": "R-115.png",
+  "px": [
+   252,
+   252
+  ]
+ },
+ {
+  "codigo": "R-116",
+  "nombre_ocr": "Entrada prohibida a peatones",
+  "texto_ocr": "Prohibición de acceso a peatones.",
+  "pagina_pdf": 105,
+  "fichero": "R-116.png",
+  "px": [
+   252,
+   252
+  ]
+ },
+ {
+  "codigo": "R-117",
+  "nombre_ocr": "Entrada prohibida a animales de montura",
+  "texto_ocr": "Prohibición de acceso a animales de montura.",
+  "pagina_pdf": 105,
+  "fichero": "R-117.png",
+  "px": [
+   252,
+   250
+  ]
+ },
+ {
+  "codigo": "R-118",
+  "nombre_ocr": "Entrada prohibida a vehículos de movilidad personal",
+  "texto_ocr": "Prohibición de acceso a vehículos de movilidad personal.",
+  "pagina_pdf": 105,
+  "fichero": "R-118.png",
+  "px": [
+   246,
+   246
+  ]
+ },
+ {
+  "codigo": "R-119",
+  "nombre_ocr": "Entrada prohibida a ciclos y a vehículos de movilidad personal",
+  "texto_ocr": "Prohibición de acceso a ciclos y a vehículos de movilidad personal.",
+  "pagina_pdf": 105,
+  "fichero": "R-119.png",
+  "px": [
+   245,
+   245
+  ]
+ },
+ {
+  "codigo": "R-120",
+  "nombre_ocr": "Entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios ambientales",
+  "texto_ocr": "Prohibición de acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales que se establezcan. Las condiciones se especificarán en un panel complementario S-860 o en un cartel en el que se incluya la señal, haciendo referencia en su caso a la clasificación de cada vehículo en función de su distintivo ambiental, según lo establecido reglamentariamente.",
+  "pagina_pdf": 105,
+  "fichero": "R-120.png",
+  "px": [
+   245,
+   246
+  ]
+ },
+ {
+  "codigo": "R-200",
+  "nombre_ocr": "Prohibición de pasar sin detenerse",
+  "texto_ocr": "Indica el lugar donde es obligatoria la detención por la proximidad, según la inscripción que contenga, de un puesto de aduana, de policía, de peaje u otro, tras los cuales pueden estar instalados medios mecánicos de detención. En todo caso, el conductor así detenido no podrá reanudar su marcha hasta haber cumplido la prescripción que la señal establece.",
+  "pagina_pdf": 107,
+  "fichero": "R-200.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-201",
+  "nombre_ocr": "Limitación de masa",
+  "texto_ocr": "Prohibición de paso a los vehículos cuya masa en carga supere la indicada en toneladas.",
+  "pagina_pdf": 107,
+  "fichero": "R-201.png",
+  "px": [
+   251,
+   250
+  ]
+ },
+ {
+  "codigo": "R-202",
+  "nombre_ocr": "Limitación de masa por eje",
+  "texto_ocr": "Prohibición de paso a los vehículos cuya masa por eje transmitida por la totalidad de las ruedas acopladas a algún eje supere a la indicada en la señal.",
+  "pagina_pdf": 107,
+  "fichero": "R-202.png",
+  "px": [
+   246,
+   247
+  ]
+ },
+ {
+  "codigo": "R-203",
+  "nombre_ocr": "Limitación de longitud",
+  "texto_ocr": "Prohibición de paso a los vehículos o conjunto de vehículos cuya longitud máxima, incluida la carga, supere la indicada.",
+  "pagina_pdf": 107,
+  "fichero": "R-203.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-204",
+  "nombre_ocr": "Limitación de anchura",
+  "texto_ocr": "Prohibición de paso a los vehículos cuya anchura máxima, incluida la carga, supere la indicada.",
+  "pagina_pdf": 107,
+  "fichero": "R-204.png",
+  "px": [
+   247,
+   249
+  ]
+ },
+ {
+  "codigo": "R-205",
+  "nombre_ocr": "Limitación de altura",
+  "texto_ocr": "Prohibición de paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada.",
+  "pagina_pdf": 107,
+  "fichero": "R-205.png",
+  "px": [
+   248,
+   250
+  ]
+ },
+ {
+  "codigo": "R-300",
+  "nombre_ocr": "Separación mínima",
+  "texto_ocr": "Prohibición de circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada en la señal, excepto cuando se vaya a efectuar la maniobra de adelantamiento. Si no aparece ninguna cifra recuerda de forma genérica que debe guardare la distancia de seguridad entre vehículos establecida reglamentariamente.",
+  "pagina_pdf": 109,
+  "fichero": "R-300.png",
+  "px": [
+   252,
+   251
+  ]
+ },
+ {
+  "codigo": "R-301",
+  "nombre_ocr": "Velocidad máxima",
+  "texto_ocr": "Prohibición de circular a velocidad superior, expresada en kilómetros por hora, a la indicada en la señal. Obliga desde el lugar en que esté situada hasta la próxima señal «Fin de limitación de velocidad», de «Fin de prohibiciones» u otra de «Velocidad máxima», salvo que esté colocada en el mismo poste que una señal de advertencia de peligro o en el mismo panel que esta, en cuyo caso la prohibición finaliza cuando termine el peligro señalado. Situada en una vía sin prioridad, deja de tener vigencia al salir de una intersección con una vía con prioridad. Si el límite indicado por la señal coincide con la velocidad máxima permitida para el tipo de vía, recuerda de forma genérica la prohibición de superarla.",
+  "pagina_pdf": 109,
+  "fichero": "R-301.png",
+  "px": [
+   252,
+   252
+  ]
+ },
+ {
+  "codigo": "R-302",
+  "nombre_ocr": "Giro a la derecha prohibido",
+  "texto_ocr": "Prohibición de girar a la derecha",
+  "pagina_pdf": 109,
+  "fichero": "R-302.png",
+  "px": [
+   252,
+   251
+  ]
+ },
+ {
+  "codigo": "R-303",
+  "nombre_ocr": "Giro a la izquierda prohibido",
+  "texto_ocr": "Prohibición de girar a la izquierda. Incluye, también, la prohibición del cambio de sentido de marcha.",
+  "pagina_pdf": 109,
+  "fichero": "R-303.png",
+  "px": [
+   252,
+   252
+  ]
+ },
+ {
+  "codigo": "R-304",
+  "nombre_ocr": "Cambio de sentido prohibido",
+  "texto_ocr": "Prohibición de efectuar la maniobra de cambio de sentido de la marcha.",
+  "pagina_pdf": 109,
+  "fichero": "R-304.png",
+  "px": [
+   252,
+   251
+  ]
+ },
+ {
+  "codigo": "R-305",
+  "nombre_ocr": "Adelantamiento prohibido",
+  "texto_ocr": "Por añadidura a los principios generales sobre adelantamiento, indica la prohibición a todos los vehículos de adelantar a los vehículos a motor que circulen por la calzada cuando dicha maniobra implique invadir la zona reservada al sentido contrario de circulación. La prohibición se aplica desde el lugar en que esté situada la señal hasta la siguiente señal de “Fin de prohibición de adelantamiento” o *Fin de prohibiciones”. Colocada en aquellos lugares donde por norma esté prohibido el adelantamiento, recuerda de forma genérica la prohibición de efectuar esta maniobra.",
+  "pagina_pdf": 110,
+  "fichero": "R-305.png",
+  "px": [
+   245,
+   245
+  ]
+ },
+ {
+  "codigo": "R-306",
+  "nombre_ocr": "Adelantamiento prohibido para camiones",
+  "texto_ocr": "Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kilogramos de adelantar a los vehículos a motor que circulen por la calzada, incluso cuando dicha maniobra no implique invadir la zona reservada al sentido contrario de circulación. La prohibición se aplica desde el lugar en que esté situada la señal hasta la siguiente señal de “Fin de prohibición de adelantamiento” o “Fin de prohibiciones”.",
+  "pagina_pdf": 110,
+  "fichero": "R-306.png",
+  "px": [
+   245,
+   245
+  ]
+ },
+ {
+  "codigo": "R-307",
+  "nombre_ocr": "Parada y estacionamiento prohibido",
+  "texto_ocr": "Prohibición de parada y estacionamiento en el lado de la calzada en que esté situada la señal. Salvo indicación en contrario, la prohibición comienza en la vertical de la señal y termina en la intersección más próxima en el sentido de la marcha.",
+  "pagina_pdf": 110,
+  "fichero": "R-307.png",
+  "px": [
+   251,
+   252
+  ]
+ },
+ {
+  "codigo": "R-307a",
+  "nombre_ocr": "Parada y estacionamiento prohibido hacia ambos lados de la señal",
+  "texto_ocr": "Prohibición de parada y estacionamiento en el lado de la calzada en que esté situada la señal, en el tramo comprendido entre las intersecciones o las señales R-307b y R-307c más próximas hacia ambos lados de la señal.",
+  "pagina_pdf": 110,
+  "fichero": "R-307a.png",
+  "px": [
+   240,
+   240
+  ]
+ },
+ {
+  "codigo": "R-307b",
+  "nombre_ocr": "Parada y estacionamiento prohibido hacia el lado de la señal indicado por la flecha",
+  "texto_ocr": "Prohibición de parada y estacionamiento en el lado de la calzada en que esté situada la señal, en el tramo comprendido entre la señal y la intersección o la señal R-307c más próximas en el sentido que indica la flecha.",
+  "pagina_pdf": 111,
+  "fichero": "R-307b.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-307c",
+  "nombre_ocr": "Parada y estacionamiento prohibido hacia el lado de la señal indicado por la flecha",
+  "texto_ocr": "Prohibición de parada y estacionamiento en el lado de la calzada en que esté situada la señal, en el tramo comprendido entre la señal y la intersección o la señal R-307b más próximas en el sentido que indica la flecha.",
+  "pagina_pdf": 111,
+  "fichero": "R-307c.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-308",
+  "nombre_ocr": "Estacionamiento prohibido",
+  "texto_ocr": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal. Salvo indicación en contrario, la prohibición comienza en la vertical de la señal y termina en la intersección más próxima en el sentido de la marcha. No prohíbe la parada.",
+  "pagina_pdf": 111,
+  "fichero": "R-308.png",
+  "px": [
+   251,
+   252
+  ]
+ },
+ {
+  "codigo": "R-308c",
+  "nombre_ocr": "Estacionamiento prohibido la primera quincena",
+  "texto_ocr": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 1 hasta las 9 horas del día 16. Salvo indicación en contrario, la prohibición comienza en la vertical de la señal y termina en la intersección más próxima en sentido de la marcha. No prohíbe la parada.",
+  "pagina_pdf": 111,
+  "fichero": "R-308c.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-308d",
+  "nombre_ocr": "Estacionamiento prohibido la segunda quincena",
+  "texto_ocr": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 16 hasta las 9 horas del día 1. Salvo indicación en contrario, la prohibición comienza en la vertical de la señal y termina en la intersección más próxima en sentido de la marcha. No prohíbe la parada.",
+  "pagina_pdf": 111,
+  "fichero": "R-308d.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-308e",
+  "nombre_ocr": "Estacionamiento prohibido en vado",
+  "texto_ocr": "Prohíbe el estacionamiento delante de un vado.",
+  "pagina_pdf": 112,
+  "fichero": "R-308e.png",
+  "px": [
+   237,
+   238
+  ]
+ },
+ {
+  "codigo": "R-308f",
+  "nombre_ocr": "Estacionamiento prohibido hacia ambos lados de la señal",
+  "texto_ocr": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, en el tramo comprendido entre las intersecciones o las señales R-308g y R-308h más próximas hacia ambos lados de la señal. No prohíbe la parada.",
+  "pagina_pdf": 112,
+  "fichero": "R-308f.png",
+  "px": [
+   240,
+   240
+  ]
+ },
+ {
+  "codigo": "R-308g",
+  "nombre_ocr": "Estacionamiento prohibido hacia el lado de la señal indicado por la flecha",
+  "texto_ocr": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, en el tramo comprendido entre la señal y la intersección o la señal R-308h más próximas en el sentido que indica la flecha. No prohíbe la parada.",
+  "pagina_pdf": 112,
+  "fichero": "R-308g.png",
+  "px": [
+   240,
+   240
+  ]
+ },
+ {
+  "codigo": "R-308h",
+  "nombre_ocr": "Estacionamiento prohibido hacia el lado de la señal indicado por la flecha",
+  "texto_ocr": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, en el tramo comprendido entre la señal y la intersección o la señal R-308g más próximas en el sentido que indica la flecha. No prohíbe la parada.",
+  "pagina_pdf": 112,
+  "fichero": "R-308h.png",
+  "px": [
+   240,
+   240
+  ]
+ },
+ {
+  "codigo": "R-309",
+  "nombre_ocr": "Zona de estacionamiento limitado",
+  "texto_ocr": "Zona de estacionamiento de duración limitada y obligación para el conductor de indicar, de forma reglamentaria, la hora del comienzo del estacionamiento. Se podrá incluir, dentro de la propia señal, en un cartel o en un panel complementario, el tiempo máximo autorizado de estacionamiento y el horario de vigencia de la limitación. También se podrá incluir si el estacionamiento está sujeto a pago.",
+  "pagina_pdf": 112,
+  "fichero": "R-309.png",
+  "px": [
+   228,
+   229
+  ]
+ },
+ {
+  "codigo": "R-310",
+  "nombre_ocr": "Advertencias acústicas prohibidas",
+  "texto_ocr": "Recuerda la prohibición general de efectuar señales acústicas, salvo para evitar un accidente.",
+  "pagina_pdf": 113,
+  "fichero": "R-310.png",
+  "px": [
+   252,
+   252
+  ]
+ },
+ {
+  "codigo": "R-400a",
+  "nombre_ocr": "Sentido obligatorio",
+  "texto_ocr": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir.",
+  "pagina_pdf": 115,
+  "fichero": "R-400a.png",
+  "px": [
+   240,
+   240
+  ]
+ },
+ {
+  "codigo": "R-400b",
+  "nombre_ocr": "Sentido obligatorio",
+  "texto_ocr": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir.",
+  "pagina_pdf": 115,
+  "fichero": "R-400b.png",
+  "px": [
+   240,
+   240
+  ]
+ },
+ {
+  "codigo": "R-400c",
+  "nombre_ocr": "Sentido obligatorio",
+  "texto_ocr": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir.",
+  "pagina_pdf": 115,
+  "fichero": "R-400c.png",
+  "px": [
+   240,
+   239
+  ]
+ },
+ {
+  "codigo": "R-400d",
+  "nombre_ocr": "Sentido obligatorio",
+  "texto_ocr": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir.",
+  "pagina_pdf": 115,
+  "fichero": "R-400d.png",
+  "px": [
+   240,
+   239
+  ]
+ },
+ {
+  "codigo": "R-400e",
+  "nombre_ocr": "Sentido obligatorio",
+  "texto_ocr": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir.",
+  "pagina_pdf": 115,
+  "fichero": "R-400e.png",
+  "px": [
+   240,
+   239
+  ]
+ },
+ {
+  "codigo": "R-401a",
+  "nombre_ocr": "Paso obligatorio",
+  "texto_ocr": "La flecha señala el lado del refugio, de la isleta o del obstáculo por el que los vehículos han de pasar obligatoriamente.",
+  "pagina_pdf": 115,
+  "fichero": "R-401a.png",
+  "px": [
+   240,
+   239
+  ]
+ },
+ {
+  "codigo": "R-401b",
+  "nombre_ocr": "Paso obligatorio",
+  "texto_ocr": "La flecha señala el lado del refugio, de la isleta o del obstáculo por el que los vehículos han de pasar obligatoriamente.",
+  "pagina_pdf": 115,
+  "fichero": "R-401b.png",
+  "px": [
+   240,
+   240
+  ]
+ },
+ {
+  "codigo": "R-401c",
+  "nombre_ocr": "Paso obligatorio",
+  "texto_ocr": "Las flechas señalan los lados del refugio, de la isleta o del obstáculo por uno de los cuales los vehículos han de pasar obligatoriamente.",
+  "pagina_pdf": 116,
+  "fichero": "R-401c.png",
+  "px": [
+   239,
+   238
+  ]
+ },
+ {
+  "codigo": "R-402",
+  "nombre_ocr": "Sentido obligatorio en glorieta",
+  "texto_ocr": "Las flechas señalan la dirección y sentido del movimiento giratorio que los vehículos deben seguir.",
+  "pagina_pdf": 116,
+  "fichero": "R-402.png",
+  "px": [
+   257,
+   257
+  ]
+ },
+ {
+  "codigo": "R-403a",
+  "nombre_ocr": "Únicas direcciones y sentidos permitidos",
+  "texto_ocr": "Las flechas señalan las únicas direcciones y sentidos que los vehículos pueden tomar.",
+  "pagina_pdf": 116,
+  "fichero": "R-403a.png",
+  "px": [
+   239,
+   239
+  ]
+ },
+ {
+  "codigo": "R-403b",
+  "nombre_ocr": "Únicas direcciones y sentidos permitidos",
+  "texto_ocr": "Las flechas señalan las únicas direcciones y sentidos que los vehículos pueden tomar.",
+  "pagina_pdf": 116,
+  "fichero": "R-403b.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-403c",
+  "nombre_ocr": "Única dirección y sentidos permitidos",
+  "texto_ocr": "Las flechas señalan la única dirección y sentidos que los vehículos pueden tomar.",
+  "pagina_pdf": 116,
+  "fichero": "R-403c.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-404",
+  "nombre_ocr": "Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas",
+  "texto_ocr": "Obligación para los conductores de automóviles, excepto motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas, de circular por la calzada a cuya entrada esté situada.",
+  "pagina_pdf": 116,
+  "fichero": "R-404.png",
+  "px": [
+   239,
+   239
+  ]
+ },
+ {
+  "codigo": "R-405",
+  "nombre_ocr": "Calzada obligatoria para motocicletas de dos ruedas",
+  "texto_ocr": "Obligación para los conductores de motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas de circular por la calzada a cuya entrada esté situada.",
+  "pagina_pdf": 117,
+  "fichero": "R-405.png",
+  "px": [
+   239,
+   239
+  ]
+ },
+ {
+  "codigo": "R-406",
+  "nombre_ocr": "Calzada obligatoria para camiones, tractocamiones y furgones o furgonetas",
+  "texto_ocr": "Obligación para los conductores de toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, de circular por la calzada a cuya entrada esté situada. La inscripción de una cifra de tonelaje sobre la silueta del vehículo o en una placa suplementaria, significa que la obligación solo se aplica cuando la masa máxima autorizada del vehículo o del conjunto de vehículos supere la citada cifra.",
+  "pagina_pdf": 117,
+  "fichero": "R-406.png",
+  "px": [
+   250,
+   249
+  ]
+ },
+ {
+  "codigo": "R-407a",
+  "nombre_ocr": "Vía reservada y obligatoria para ciclos",
+  "texto_ocr": "Obligación para los conductores de ciclos de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla.",
+  "pagina_pdf": 117,
+  "fichero": "R-407a.png",
+  "px": [
+   225,
+   225
+  ]
+ },
+ {
+  "codigo": "R-407b",
+  "nombre_ocr": "Vía reservada y obligatoria para ciclomotores",
+  "texto_ocr": "Obligación para los conductores de ciclomotores de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla.",
+  "pagina_pdf": 117,
+  "fichero": "R-407b.png",
+  "px": [
+   232,
+   232
+  ]
+ },
+ {
+  "codigo": "R-408",
+  "nombre_ocr": "Camino obligatorio para vehículos de tracción animal",
+  "texto_ocr": "Obligación para los conductores de vehículos de tracción animal de utilizar el camino a cuya entrada esté situada.",
+  "pagina_pdf": 117,
+  "fichero": "R-408.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-409",
+  "nombre_ocr": "Camino reservado y obligatorio para animales de montura",
+  "texto_ocr": "Obligación para los jinetes de utilizar con sus animales de montura el camino a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarlo",
+  "pagina_pdf": 118,
+  "fichero": "R-409.png",
+  "px": [
+   239,
+   239
+  ]
+ },
+ {
+  "codigo": "R-410",
+  "nombre_ocr": "Camino reservado y obligatorio para peatones",
+  "texto_ocr": "Obligación para los peatones de transitar por el camino a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarlo.",
+  "pagina_pdf": 118,
+  "fichero": "R-410.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-411",
+  "nombre_ocr": "Velocidad mínima",
+  "texto_ocr": "Obligación para los conductores de vehículos de circular, por lo menos, a la velocidad indicada por la cifra, en kilómetros por hora, que figure en la señal, desde el lugar en que esté situada hasta otra de velocidad mínima diferente, o de fin de velocidad mínima o de velocidad máxima de valor igual o inferior.",
+  "pagina_pdf": 118,
+  "fichero": "R-411.png",
+  "px": [
+   235,
+   235
+  ]
+ },
+ {
+  "codigo": "R-412",
+  "nombre_ocr": "Cadenas para nieve",
+  "texto_ocr": "Obligación de no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados que actúen al menos en una rueda a cada lado del mismo eje motor, o neumáticos especiales de nieve.",
+  "pagina_pdf": 118,
+  "fichero": "R-412.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-412b",
+  "nombre_ocr": "Neumáticos de invierno",
+  "texto_ocr": "Obligación de no proseguir la marcha sin neumáticos especiales de invierno",
+  "pagina_pdf": 118,
+  "fichero": "R-412b.png",
+  "px": [
+   241,
+   243
+  ]
+ },
+ {
+  "codigo": "R-413",
+  "nombre_ocr": "Alumbrado de corto alcance",
+  "texto_ocr": "Obligación para los conductores de circular con el alumbrado al menos de corto alcance, con independencia de las condiciones de visibilidad e iluminación de la vía, desde el lugar en que esté situada la señal hasta otra de fin de esta obligación.",
+  "pagina_pdf": 119,
+  "fichero": "R-413.png",
+  "px": [
+   239,
+   240
+  ]
+ },
+ {
+  "codigo": "R-414",
+  "nombre_ocr": "Calzada obligatoria para vehículos que transporten mercancías peligrosas",
+  "texto_ocr": "Obligación para los conductores de toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica de circular por la calzada a cuya entrada esté situada.",
+  "pagina_pdf": 119,
+  "fichero": "R-414.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-415",
+  "nombre_ocr": "Calzada obligatoria para vehículos que transporten productos contaminantes del agua",
+  "texto_ocr": "Obligación para los conductores de toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua de circular por la calzada a cuya entrada esté situada.",
+  "pagina_pdf": 119,
+  "fichero": "R-415.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-416",
+  "nombre_ocr": "Calzada obligatoria para vehículos que transporten mercancías explosivas e inflamables",
+  "texto_ocr": "Obligación para los conductores de toda clase de vehículos que transporten mercancías explosivas oO fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica de circular por la calzada a cuya entrada esté situada.",
+  "pagina_pdf": 119,
+  "fichero": "R-416.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-417",
+  "nombre_ocr": "Uso obligatorio del cinturón de seguridad",
+  "texto_ocr": "Recuerda la obligación de utilizar el cinturón de seguridad.",
+  "pagina_pdf": 119,
+  "fichero": "R-417.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "R-418",
+  "nombre_ocr": "Vía exclusiva para vehículos dotados de equipo de telepeaje operativo. Telepeaje obligatorio",
+  "texto_ocr": "Obligación de efectuar el pago del peaje mediante el sistema de peaje dinámico o telepeaje; el vehículo que circule por el carril o carriles así señalizados deberá estar provisto del medio técnico que posibilite su uso en condiciones operativas de acuerdo con las disposiciones legales en la materia",
+  "pagina_pdf": 120,
+  "fichero": "R-418.png",
+  "px": [
+   251,
+   252
+  ]
+ },
+ {
+  "codigo": "R-419",
+  "nombre_ocr": "Camino obligatorio para tractores",
+  "texto_ocr": "Obligación para los conductores de tractores de utilizar el camino a cuya entrada esté situada.",
+  "pagina_pdf": 120,
+  "fichero": "R-419.png",
+  "px": [
+   245,
+   246
+  ]
+ },
+ {
+  "codigo": "R-420",
+  "nombre_ocr": "Vía reservada y obligatoria para vehículos de movilidad personal",
+  "texto_ocr": "Obligación para los conductores de vehículos de movilidad personal de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla.",
+  "pagina_pdf": 120,
+  "fichero": "R-420.png",
+  "px": [
+   245,
+   245
+  ]
+ },
+ {
+  "codigo": "R-421",
+  "nombre_ocr": "Vía reservada y obligatoria para ciclos y para vehículos de movilidad personal",
+  "texto_ocr": "Obligación para los conductores de ciclos y de vehículos de movilidad personal de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla",
+  "pagina_pdf": 120,
+  "fichero": "R-421.png",
+  "px": [
+   247,
+   247
+  ]
+ },
+ {
+  "codigo": "R-422",
+  "nombre_ocr": "Desmontar y continuar a pie",
+  "texto_ocr": "Obligación para los usuarios de ciclos de continuar a pie. Si dicha obligación se limita a ciertos periodos, se indicará mediante un panel complementario.",
+  "pagina_pdf": 120,
+  "fichero": "R-422.png",
+  "px": [
+   248,
+   249
+  ]
+ },
+ {
+  "codigo": "R-500",
+  "nombre_ocr": "Fin de prohibiciones",
+  "texto_ocr": "Señala el lugar desde el que todas las prohibiciones específicas indicadas por señales anteriores de prohibición para vehículos en movimiento dejan de tener aplicación.",
+  "pagina_pdf": 122,
+  "fichero": "R-500.png",
+  "px": [
+   231,
+   230
+  ]
+ },
+ {
+  "codigo": "R-501",
+  "nombre_ocr": "Fin de la limitación de velocidad",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de velocidad máxima.",
+  "pagina_pdf": 122,
+  "fichero": "R-501.png",
+  "px": [
+   231,
+   230
+  ]
+ },
+ {
+  "codigo": "R-502",
+  "nombre_ocr": "Fin de la prohibición de adelantamiento",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de adelantamiento prohibido.",
+  "pagina_pdf": 122,
+  "fichero": "R-502.png",
+  "px": [
+   235,
+   234
+  ]
+ },
+ {
+  "codigo": "R-503",
+  "nombre_ocr": "Fin de la prohibición de adelantamiento para camiones",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de adelantamiento prohibido para camiones.",
+  "pagina_pdf": 122,
+  "fichero": "R-503.png",
+  "px": [
+   235,
+   235
+  ]
+ },
+ {
+  "codigo": "R-504",
+  "nombre_ocr": "Fin de zona de estacionamiento limitado",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una anterior señal de zona de estacionamiento limitado.",
+  "pagina_pdf": 122,
+  "fichero": "R-504.png",
+  "px": [
+   240,
+   240
+  ]
+ },
+ {
+  "codigo": "R-505",
+  "nombre_ocr": "Fin de vía reservada y obligatoria para ciclos",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de vía reservada y obligatoria para ciclos.",
+  "pagina_pdf": 122,
+  "fichero": "R-505.png",
+  "px": [
+   230,
+   229
+  ]
+ },
+ {
+  "codigo": "R-506",
+  "nombre_ocr": "Fin de velocidad mínima",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de velocidad mínima.",
+  "pagina_pdf": 122,
+  "fichero": "R-506.png",
+  "px": [
+   235,
+   235
+  ]
+ },
+ {
+  "codigo": "R-507",
+  "nombre_ocr": "Fin de calzada obligatoria para automóviles, excepto motocicletas de dos ruedas",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de calzada obligatoria para automóviles, excepto motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas.",
+  "pagina_pdf": 123,
+  "fichero": "R-507.png",
+  "px": [
+   235,
+   236
+  ]
+ },
+ {
+  "codigo": "R-508",
+  "nombre_ocr": "Fin de calzada obligatoria para motocicletas de dos ruedas",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de calzada obligatoria para motocicletas de dos ruedas y vehículos de tres ruedas asimilados a motocicletas.",
+  "pagina_pdf": 123,
+  "fichero": "R-508.png",
+  "px": [
+   236,
+   237
+  ]
+ },
+ {
+  "codigo": "R-509",
+  "nombre_ocr": "Fin de calzada obligatoria para camiones, tractocamiones y furgones o furgonetas",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de calzada obligatoria para camiones, tractocamiones y furgones o furgonetas.",
+  "pagina_pdf": 123,
+  "fichero": "R-509.png",
+  "px": [
+   233,
+   236
+  ]
+ },
+ {
+  "codigo": "R-510",
+  "nombre_ocr": "Fin de vía reservada y obligatoria para ciclomotores",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de vía reservada y obligatoria para ciclomotores",
+  "pagina_pdf": 123,
+  "fichero": "R-510.png",
+  "px": [
+   228,
+   229
+  ]
+ },
+ {
+  "codigo": "R-511",
+  "nombre_ocr": "Fin de camino obligatorio para vehículos de tracción animal",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de camino obligatorio para vehículos de tracción animal.",
+  "pagina_pdf": 123,
+  "fichero": "R-511.png",
+  "px": [
+   231,
+   232
+  ]
+ },
+ {
+  "codigo": "R-512",
+  "nombre_ocr": "Fin de camino reservado y obligatorio para animales de montura",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de camino reservado y obligatorio para animales de montura.",
+  "pagina_pdf": 124,
+  "fichero": "R-512.png",
+  "px": [
+   237,
+   237
+  ]
+ },
+ {
+  "codigo": "R-513",
+  "nombre_ocr": "Fin de camino reservado y obligatorio para peatones",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de camino reservado y obligatorio para peatones.",
+  "pagina_pdf": 124,
+  "fichero": "R-513.png",
+  "px": [
+   232,
+   231
+  ]
+ },
+ {
+  "codigo": "R-514",
+  "nombre_ocr": "Fin de camino obligatorio para tractores",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de camino obligatorio para tractores.",
+  "pagina_pdf": 124,
+  "fichero": "R-514.png",
+  "px": [
+   233,
+   234
+  ]
+ },
+ {
+  "codigo": "R-515",
+  "nombre_ocr": "Fin de vía reservada y obligatoria para vehículos de movilidad personal",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de vía reservada y obligatoria para vehículos de movilidad personal.",
+  "pagina_pdf": 124,
+  "fichero": "R-515.png",
+  "px": [
+   226,
+   226
+  ]
+ },
+ {
+  "codigo": "R-516",
+  "nombre_ocr": "Fin de vía reservada y obligatoria para ciclos y para vehículos de movilidad personal",
+  "texto_ocr": "Señala el lugar desde donde deja de ser aplicable una señal anterior de vía reservada y obligatoria para ciclos y vehículos de movilidad personal.",
+  "pagina_pdf": 124,
+  "fichero": "R-516.png",
+  "px": [
+   235,
+   236
+  ]
+ },
+ {
+  "codigo": "S-1",
+  "nombre_ocr": "Autopista",
+  "texto_ocr": "Indica el principio de una autopista y, por tanto, el lugar a partir del cual se aplican las reglas especiales de circulación en este tipo de vía. Puede indicar también el ramal de un nudo que conduce a una autopista.",
+  "pagina_pdf": 126,
+  "fichero": "S-1.png",
+  "px": [
+   184,
+   267
+  ]
+ },
+ {
+  "codigo": "S-1a",
+  "nombre_ocr": "Autovía",
+  "texto_ocr": "Indica el principio de una autovía y, por tanto, el lugar a partir del cual se aplican las reglas especiales de circulación en este tipo de vía. Puede indicar también el ramal de un nudo que conduce a una autovía.",
+  "pagina_pdf": 126,
+  "fichero": "S-1a.png",
+  "px": [
+   184,
+   267
+  ]
+ },
+ {
+  "codigo": "S-1b",
+  "nombre_ocr": "Carretera multicarril",
+  "texto_ocr": "Indica el principio de una carretera multicarril y, por tanto, el lugar a partir del cual se aplican las reglas especiales de circulación en este tipo de vía. Esta señal puede indicar el ramal de un nudo que conduce a una carretera multicarril.",
+  "pagina_pdf": 126,
+  "fichero": "S-1b.png",
+  "px": [
+   178,
+   259
+  ]
+ },
+ {
+  "codigo": "S-1c",
+  "nombre_ocr": "Carretera 2+1",
+  "texto_ocr": "Indica el principio de una carretera 2+1, es decir, aquella que consta de tres carriles de circulación y permite la circulación en ambos sentidos. El carril central se destina a facilitar la maniobra de adelantamiento, estando reservado de manera alterna a uno y otro sentido de circulación. Esta señal pude indicar también el ramal de un nudo que conduce a una carretera 2+1.",
+  "pagina_pdf": 126,
+  "fichero": "S-1c.png",
+  "px": [
+   170,
+   256
+  ]
+ },
+ {
+  "codigo": "S-2",
+  "nombre_ocr": "Fin de autopista",
+  "texto_ocr": "Indica el final de una autopista.",
+  "pagina_pdf": 126,
+  "fichero": "S-2.png",
+  "px": [
+   184,
+   268
+  ]
+ },
+ {
+  "codigo": "S-2a",
+  "nombre_ocr": "Fin de autovía",
+  "texto_ocr": "Indica el final de una autovía.",
+  "pagina_pdf": 127,
+  "fichero": "S-2a.png",
+  "px": [
+   178,
+   260
+  ]
+ },
+ {
+  "codigo": "S-2b",
+  "nombre_ocr": "Fin de carretera multicarril",
+  "texto_ocr": "Indica el final de una carretera multicarril.",
+  "pagina_pdf": 127,
+  "fichero": "S-2b.png",
+  "px": [
+   177,
+   259
+  ]
+ },
+ {
+  "codigo": "S-2c",
+  "nombre_ocr": "Fin de carretera 2+1",
+  "texto_ocr": "Indica el final de una carretera 2+1",
+  "pagina_pdf": 127,
+  "fichero": "S-2c.png",
+  "px": [
+   181,
+   261
+  ]
+ },
+ {
+  "codigo": "S-3",
+  "nombre_ocr": "Vía reservada para automóviles",
+  "texto_ocr": "Indica el principio de una vía reservada a la circulación de automóviles.",
+  "pagina_pdf": 127,
+  "fichero": "S-3.png",
+  "px": [
+   182,
+   269
+  ]
+ },
+ {
+  "codigo": "S-4",
+  "nombre_ocr": "Fin de vía reservada para automóviles",
+  "texto_ocr": "Indica el final de una vía reservada para automóviles.",
+  "pagina_pdf": 127,
+  "fichero": "S-4.png",
+  "px": [
+   182,
+   267
+  ]
+ },
+ {
+  "codigo": "S-5",
+  "nombre_ocr": "Túnel",
+  "texto_ocr": "Indica el principio y eventualmente el nombre de un túnel, de un paso inferior o de un tramo de vía equiparado a túnel. Podrá llevar en su parte inferior la indicación de la longitud del túnel en metros.",
+  "pagina_pdf": 127,
+  "fichero": "S-5.png",
+  "px": [
+   182,
+   267
+  ]
+ },
+ {
+  "codigo": "S-10",
+  "nombre_ocr": "Fin de intervalo aconsejado de velocidades",
+  "texto_ocr": "Indica el lugar desde donde deja de ser aplicable una señal anterior de intervalo aconsejado de velocidades.",
+  "pagina_pdf": 128,
+  "fichero": "S-10.png",
+  "px": [
+   284,
+   150
+  ]
+ },
+ {
+  "codigo": "S-11",
+  "nombre_ocr": "Calzada de un carril de sentido único",
+  "texto_ocr": "Indica que en la calzada de un carril que se prolonga en la dirección de la flecha los vehículos deben circular en el sentido indicado por esta, y que está prohibida la circulación en sentido contrario.",
+  "pagina_pdf": 128,
+  "fichero": "S-11.png",
+  "px": [
+   217,
+   216
+  ]
+ },
+ {
+  "codigo": "S-7",
+  "nombre_ocr": "Velocidad máxima aconsejada",
+  "texto_ocr": "Recomienda una velocidad de circulación, en kilómetros por hora, que se aconseja no sobrepasar aunque las condiciones meteorológicas y ambientales de la vía y de la circulación sean favorables. Cuando está colocada bajo una señal de advertencia de peligro, la recomendación se refiere al tramo en que dicho peligro subsista.",
+  "pagina_pdf": 128,
+  "fichero": "S-7.png",
+  "px": [
+   217,
+   217
+  ]
+ },
+ {
+  "codigo": "S-8",
+  "nombre_ocr": "Fin de velocidad máxima aconsejada",
+  "texto_ocr": "Indica el final de un tramo en el que se recomienda circular a la velocidad, en kilómetros por hora, indicada en la señal.",
+  "pagina_pdf": 128,
+  "fichero": "S-8.png",
+  "px": [
+   217,
+   216
+  ]
+ },
+ {
+  "codigo": "S-9",
+  "nombre_ocr": "Intervalo aconsejado de velocidades",
+  "texto_ocr": "Recomienda mantener la velocidad entre los valores indicados, siempre que las condiciones meteorológicas y ambientales de la vía y de la circulación sean favorables. Cuando está colocada debajo de una señal de advertencia de peligro, la recomendación se refiere al tramo en que dicho peligro subsista.",
+  "pagina_pdf": 128,
+  "fichero": "S-9.png",
+  "px": [
+   284,
+   149
+  ]
+ },
+ {
+  "codigo": "S-11a",
+  "nombre_ocr": "Calzada de dos carriles de sentido único",
+  "texto_ocr": "Indica que en la calzada de dos carriles que se prolonga en la dirección de las flechas los vehículos deben circular en el sentido indicado por estas, y que está prohibida la circulación en sentido contrario.",
+  "pagina_pdf": 129,
+  "fichero": "S-11a.png",
+  "px": [
+   217,
+   218
+  ]
+ },
+ {
+  "codigo": "S-11b",
+  "nombre_ocr": "Calzada de tres carriles de sentido único",
+  "texto_ocr": "Indica que en la calzada de tres carriles que se prolonga en la dirección de las flechas los vehículos deben circular en el sentido indicado por estas, y que está prohibida la circulación en sentido contrario. En caso de mayor número de carriles el número de flechas se adaptará a los mismos.",
+  "pagina_pdf": 129,
+  "fichero": "S-11b.png",
+  "px": [
+   269,
+   182
+  ]
+ },
+ {
+  "codigo": "S-12a",
+  "nombre_ocr": "Tramo de calzada de sentido único",
+  "texto_ocr": "Indica que en el tramo de calzada que se prolonga en la dirección de la flecha, los vehículos deben circular en el sentido indicado por esta, y que está prohibida la circulación en sentido contrario.",
+  "pagina_pdf": 129,
+  "fichero": "S-12a.png",
+  "px": [
+   258,
+   136
+  ]
+ },
+ {
+  "codigo": "S-12b",
+  "nombre_ocr": "Tramo de calzada de sentido único",
+  "texto_ocr": "Indica que en el tramo de calzada que se prolonga en la dirección de la flecha, los vehículos deben circular en el sentido indicado por esta, y que está prohibida la circulación en sentido contrario.",
+  "pagina_pdf": 129,
+  "fichero": "S-12b.png",
+  "px": [
+   257,
+   135
+  ]
+ },
+ {
+  "codigo": "S-13",
+  "nombre_ocr": "Situación de un paso para peatones",
+  "texto_ocr": "Indica la situación de un paso para peatones.",
+  "pagina_pdf": 129,
+  "fichero": "S-13.png",
+  "px": [
+   214,
+   215
+  ]
+ },
+ {
+  "codigo": "S-14a",
+  "nombre_ocr": "Paso superior para peatones",
+  "texto_ocr": "Indica la situación de un paso superior para peatones.",
+  "pagina_pdf": 129,
+  "fichero": "S-14a.png",
+  "px": [
+   182,
+   268
+  ]
+ },
+ {
+  "codigo": "S-14b",
+  "nombre_ocr": "Paso inferior para peatones",
+  "texto_ocr": "Indica la situación de un paso inferior para peatones.",
+  "pagina_pdf": 130,
+  "fichero": "S-14b.png",
+  "px": [
+   182,
+   268
+  ]
+ },
+ {
+  "codigo": "S-14c",
+  "nombre_ocr": "Paso superior para peatones con rampa",
+  "texto_ocr": "Indica la situación de un paso superior para peatones acondicionado con rampa.",
+  "pagina_pdf": 130,
+  "fichero": "S-14c.png",
+  "px": [
+   180,
+   261
+  ]
+ },
+ {
+  "codigo": "S-14d",
+  "nombre_ocr": "Paso inferior para peatones con rampa",
+  "texto_ocr": "Indica la situación de un paso inferior para peatones acondicionado con rampa.",
+  "pagina_pdf": 130,
+  "fichero": "S-14d.png",
+  "px": [
+   181,
+   263
+  ]
+ },
+ {
+  "codigo": "S-14e",
+  "nombre_ocr": "Paso superior para peatones con rail o rampa para ciclos",
+  "texto_ocr": "Indica la situación de un paso superior para peatones acondicionado con rail o rampa para ciclos.",
+  "pagina_pdf": 130,
+  "fichero": "S-14e.png",
+  "px": [
+   180,
+   264
+  ]
+ },
+ {
+  "codigo": "S-14f",
+  "nombre_ocr": "Paso inferior para peatones con rail o rampa para ciclos",
+  "texto_ocr": "Indica la situación de un paso inferior para peatones acondicionado con rail o rampa para ciclos.",
+  "pagina_pdf": 130,
+  "fichero": "S-14f.png",
+  "px": [
+   181,
+   264
+  ]
+ },
+ {
+  "codigo": "S-15a",
+  "nombre_ocr": "Calzada sin salida",
+  "texto_ocr": "Indica que la calzada que figura en la señal con un recuadro en rojo no tiene salida.",
+  "pagina_pdf": 130,
+  "fichero": "S-15a.png",
+  "px": [
+   217,
+   216
+  ]
+ },
+ {
+  "codigo": "S-15b",
+  "nombre_ocr": "Preseñalización de calzada sin salida",
+  "texto_ocr": "Indica que la calzada que figura en la señal con un recuadro en rojo no tiene salida. Se podrá utilizar la figura simétrica para adaptarse al trazado real.",
+  "pagina_pdf": 131,
+  "fichero": "S-15b.png",
+  "px": [
+   171,
+   250
+  ]
+ },
+ {
+  "codigo": "S-15c",
+  "nombre_ocr": "Preseñalización de calzada sin salida",
+  "texto_ocr": "Indica que la calzada que figura en la señal con un recuadro en rojo no tiene salida. Se podrá utilizar la figura simétrica para adaptarse al trazado real.",
+  "pagina_pdf": 131,
+  "fichero": "S-15c.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-15d",
+  "nombre_ocr": "Preseñalización de calzada sin salida",
+  "texto_ocr": "Indica que la calzada que figura en la señal con un recuadro en rojo no tiene salida.",
+  "pagina_pdf": 131,
+  "fichero": "S-15d.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-15e",
+  "nombre_ocr": "Calzada sin salida excepto para peatones o ciclos",
+  "texto_ocr": "Indica que la calzada que figura en la señal con un recuadro en rojo no tiene salida excepto para peatones o ciclos. Figurarán el o los pictogramas de los usuarios a los que afecte la excepción.",
+  "pagina_pdf": 131,
+  "fichero": "S-15e.png",
+  "px": [
+   210,
+   212
+  ]
+ },
+ {
+  "codigo": "S-16",
+  "nombre_ocr": "Zona de frenado de emergencia",
+  "texto_ocr": "Indica la situación de una zona de escape de la calzada acondicionada para que un vehículo pueda ser detenido en caso de fallo de su sistema de frenado.",
+  "pagina_pdf": 131,
+  "fichero": "S-16.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-17",
+  "nombre_ocr": "Estacionamiento",
+  "texto_ocr": "Indica el lugar donde está autorizado el estacionamiento de vehículos. Una inscripción o un símbolo representando ciertas clases de vehículos indica que el estacionamiento está reservado a esas clases. Una inscripción con indicaciones de tiempo limita la duración del estacionamiento al señalado.",
+  "pagina_pdf": 131,
+  "fichero": "S-17.png",
+  "px": [
+   217,
+   217
+  ]
+ },
+ {
+  "codigo": "S-17a",
+  "nombre_ocr": "Estacionamiento de necesidad",
+  "texto_ocr": "Indica el lugar donde está autorizado el estacionamiento de vehículos únicamente para un fin concreto (acceso a una farmacia, hospital, etc.) cuyo pictograma se incluirá en la señal, y durante un tiempo determinado. La duración de dicho tiempo será indicada en un panel complementario.",
+  "pagina_pdf": 132,
+  "fichero": "S-17a.png",
+  "px": [
+   215,
+   213
+  ]
+ },
+ {
+  "codigo": "S-18",
+  "nombre_ocr": "Lugar reservado para taxis",
+  "texto_ocr": "Indica el lugar reservado a la parada y al estacionamiento de taxis libres y en servicio. La inscripción de un número indica el número total de espacios reservados a este fin.",
+  "pagina_pdf": 132,
+  "fichero": "S-18.png",
+  "px": [
+   217,
+   216
+  ]
+ },
+ {
+  "codigo": "S-19",
+  "nombre_ocr": "Parada de autobuses",
+  "texto_ocr": "Indica el lugar reservado para parada de autobuses.",
+  "pagina_pdf": 132,
+  "fichero": "S-19.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-20",
+  "nombre_ocr": "Parada de tranvías",
+  "texto_ocr": "Indica el lugar reservado para parada de tranvías.",
+  "pagina_pdf": 132,
+  "fichero": "S-20.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-21",
+  "nombre_ocr": "Transitabilidad en tramo o puerto de montaña",
+  "texto_ocr": "Indica la situación de transitabilidad del puerto o tramo definido en la parte superior de la señal.",
+  "pagina_pdf": 132,
+  "fichero": "S-21.png",
+  "px": [
+   343,
+   686
+  ]
+ },
+ {
+  "codigo": "S-22",
+  "nombre_ocr": "Cambio de sentido al mismo nivel",
+  "texto_ocr": "Indica la proximidad de un lugar en el que se puede efectuar un cambio de sentido al mismo nivel.",
+  "pagina_pdf": 133,
+  "fichero": "S-22.png",
+  "px": [
+   216,
+   217
+  ]
+ },
+ {
+  "codigo": "S-23",
+  "nombre_ocr": "Hospital",
+  "texto_ocr": "Indica la situación de un hospital, así como la conveniencia de tomar las precauciones que requiere la proximidad de centros médicos, especialmente la de evitar la producción de ruido.",
+  "pagina_pdf": 133,
+  "fichero": "S-23.png",
+  "px": [
+   217,
+   217
+  ]
+ },
+ {
+  "codigo": "S-24",
+  "nombre_ocr": "Fin de obligación de alumbrado de corto alcance (cruce)",
+  "texto_ocr": "Indica el final de un tramo en el que es obligatorio el alumbrado al menos de cruce o corto alcance y recuerda la posibilidad de prescindir de este, siempre que no venga impuesto por circunstancias de visibilidad, horario o iluminación de la vía.",
+  "pagina_pdf": 133,
+  "fichero": "S-24.png",
+  "px": [
+   269,
+   183
+  ]
+ },
+ {
+  "codigo": "S-25",
+  "nombre_ocr": "Cambio de sentido a distinto nivel",
+  "texto_ocr": "Indica la proximidad de una salida a través de la cual se puede efectuar un cambio de sentido a distinto nivel.",
+  "pagina_pdf": 133,
+  "fichero": "S-25.png",
+  "px": [
+   217,
+   216
+  ]
+ },
+ {
+  "codigo": "S-26a",
+  "nombre_ocr": "Panel de aproximación a salida (300 m)",
+  "texto_ocr": "Indica, en una autopista o en una autovía, que la próxima salida está situada aproximadamente a 300 m. Si la salida fuera por la izquierda la diagonal sería descendente de izquierda a derecha y la señal se situaría a la izquierda de la calzada.",
+  "pagina_pdf": 133,
+  "fichero": "S-26a.png",
+  "px": [
+   115,
+   217
+  ]
+ },
+ {
+  "codigo": "S-26b",
+  "nombre_ocr": "Panel de aproximación a salida (200 m)",
+  "texto_ocr": "Indica, en una autopista o en una autovía, que la próxima salida está situada aproximadamente a 200 m. Si la salida fuera por la izquierda la diagonal sería descendente de izquierda a derecha y la señal se situaría a la izquierda de la calzada.",
+  "pagina_pdf": 133,
+  "fichero": "S-26b.png",
+  "px": [
+   115,
+   217
+  ]
+ },
+ {
+  "codigo": "S-26c",
+  "nombre_ocr": "Panel de aproximación a salida (100 m)",
+  "texto_ocr": "Indica, en una autopista o en una autovía, que la próxima salida está situada aproximadamente a 100 m. Si la salida fuera por la izquierda la diagonal sería descendente de izquierda a derecha y la señal se situaría a la izquierda de la calzada.",
+  "pagina_pdf": 134,
+  "fichero": "S-26c.png",
+  "px": [
+   115,
+   217
+  ]
+ },
+ {
+  "codigo": "S-27",
+  "nombre_ocr": "Auxilio en carretera",
+  "texto_ocr": "Indica la situación del poste o puesto de socorro más próximo desde el que se puede solicitar auxilio en caso de accidente o avería. La señal puede indicar la distancia a la que este se halla.",
+  "pagina_pdf": 134,
+  "fichero": "S-27.png",
+  "px": [
+   182,
+   181
+  ]
+ },
+ {
+  "codigo": "S-28",
+  "nombre_ocr": "Zona de estancia y juego",
+  "texto_ocr": "Indica las zonas de circulación que están destinadas en primer lugar a los peatones y en las que se aplican las normas especiales de circulación siguientes: la velocidad máxima de los vehículos está fijada en 10 kilómetros por hora y los conductores deben conceder prioridad a los peatones; los vehículos pueden estacionarse únicamente en los lugares designados por señales O por marcas; los ciclos y, en su caso, los VMP, pueden circular en ambos sentidos, salvo que la autoridad competente establezca lo contrario; los peatones pueden utilizar toda la zona de circulación y por tanto no se señalizan los pasos peatonales; los juegos y los deportes están autorizados en ella. Irá siempre acompañada de la señal R-301 que limitará la velocidad a 10 km/h.",
+  "pagina_pdf": 134,
+  "fichero": "S-28.png",
+  "px": [
+   269,
+   182
+  ]
+ },
+ {
+  "codigo": "S-29",
+  "nombre_ocr": "Fin de zona de estancia y juego",
+  "texto_ocr": "Indica que se aplican de nuevo las normas generales de circulación.",
+  "pagina_pdf": 134,
+  "fichero": "S-29.png",
+  "px": [
+   269,
+   182
+  ]
+ },
+ {
+  "codigo": "S-30a",
+  "nombre_ocr": "Zona peatonal",
+  "texto_ocr": "Indica una zona reservada para el uso peatonal.",
+  "pagina_pdf": 134,
+  "fichero": "S-30a.png",
+  "px": [
+   203,
+   202
+  ]
+ },
+ {
+  "codigo": "S-31a",
+  "nombre_ocr": "Fin de zona peatonal",
+  "texto_ocr": "Indica el fin de una zona reservada para el uso peatonal.",
+  "pagina_pdf": 135,
+  "fichero": "S-31a.png",
+  "px": [
+   209,
+   207
+  ]
+ },
+ {
+  "codigo": "S-32",
+  "nombre_ocr": "Telepeaje",
+  "texto_ocr": "Indica que el vehículo que circule por el carril o carriles así señalizados, además de por otros medios, puede efectuar el pago del peaje mediante el sistema de peaje dinámico o telepeaje, siempre que esté provisto del medio técnico que posibilite su uso.",
+  "pagina_pdf": 135,
+  "fichero": "S-32.png",
+  "px": [
+   217,
+   218
+  ]
+ },
+ {
+  "codigo": "S-33",
+  "nombre_ocr": "Senda ciclopeatonal",
+  "texto_ocr": "Indica la existencia de una vía para peatones, ciclos y, en su caso, VMP, segregada del tráfico motorizado, y que discurre habitualmente por espacios abiertos, parques, jardines o bosques, si bien fuera de poblado puede discurrir también paralela a la carretera. En presencia de personas caminando, los ciclos y, en su caso, los VMP deberán reducir su velocidad para garantizar la seguridad y la convivencia. Asimismo, las personas viandantes facilitarán el paso de los ciclos y, en su caso, los VMP.",
+  "pagina_pdf": 135,
+  "fichero": "S-33.png",
+  "px": [
+   210,
+   211
+  ]
+ },
+ {
+  "codigo": "S-34",
+  "nombre_ocr": "Apartadero",
+  "texto_ocr": "Indica la situación de un lugar donde se puede apartar el vehículo en caso de emergencia a fin de dejar libre el paso.",
+  "pagina_pdf": 135,
+  "fichero": "S-34.png",
+  "px": [
+   217,
+   217
+  ]
+ },
+ {
+  "codigo": "S-34a",
+  "nombre_ocr": "Apartadero en túneles con teléfono de emergencia",
+  "texto_ocr": "Indica la situación de un lugar donde se puede apartar el vehículo en un túnel en caso de emergencia a fin de dejar libre el paso y que dispone de teléfono de emergencia.",
+  "pagina_pdf": 135,
+  "fichero": "S-34a.png",
+  "px": [
+   174,
+   257
+  ]
+ },
+ {
+  "codigo": "S-35",
+  "nombre_ocr": "Vía reservada para ciclos",
+  "texto_ocr": "Indica la existencia de una vía destinada a la circulación de ciclos y prohibición a los demás usuarios de la vía de utilizarla.",
+  "pagina_pdf": 136,
+  "fichero": "S-35.png",
+  "px": [
+   208,
+   210
+  ]
+ },
+ {
+  "codigo": "S-36",
+  "nombre_ocr": "Fin de vía reservada para ciclos",
+  "texto_ocr": "Indica el final de una vía destinada a la circulación de ciclos.",
+  "pagina_pdf": 136,
+  "fichero": "S-36.png",
+  "px": [
+   209,
+   211
+  ]
+ },
+ {
+  "codigo": "S-37",
+  "nombre_ocr": "Vía reservada para vehículos de movilidad personal",
+  "texto_ocr": "Indica la existencia de una vía destinada a la circulación de vehículos de movilidad personal y prohibición a los demás usuarios de la vía de utilizarla.",
+  "pagina_pdf": 136,
+  "fichero": "S-37.png",
+  "px": [
+   213,
+   213
+  ]
+ },
+ {
+  "codigo": "S-38",
+  "nombre_ocr": "Vía reservada para ciclos y vehículos de movilidad personal",
+  "texto_ocr": "Indica la existencia de una vía destinada a la circulación de ciclos y vehículos de movilidad personal y prohibición a los demás usuarios de la vía de utilizarla.",
+  "pagina_pdf": 136,
+  "fichero": "S-38.png",
+  "px": [
+   213,
+   214
+  ]
+ },
+ {
+  "codigo": "S-39",
+  "nombre_ocr": "Fin de vía reservada para vehículos de movilidad personal",
+  "texto_ocr": "Indica el final de una vía destinada a la circulación de vehículos de movilidad personal y prohibición a los demás usuarios de la vía de utilizarla.",
+  "pagina_pdf": 136,
+  "fichero": "S-39.png",
+  "px": [
+   213,
+   214
+  ]
+ },
+ {
+  "codigo": "S-40",
+  "nombre_ocr": "Fin de vía reservada para ciclos y vehículos de movilidad personal",
+  "texto_ocr": "Indica el final de una vía destinada a la circulación de ciclos y vehículos de movilidad personal y prohibición a los demás usuarios de la vía de utilizarla.",
+  "pagina_pdf": 136,
+  "fichero": "S-40.png",
+  "px": [
+   213,
+   214
+  ]
+ },
+ {
+  "codigo": "S-41",
+  "nombre_ocr": "Vía reservada para ciclos y peatones con espacio de circulación diferenciado entre ellos",
+  "texto_ocr": "Indica la existencia de una vía destinada a la circulación de ciclos y peatones con espacio diferenciado entre ambos. El diseño de la señal podrá adaptarse a la situación real de los espacios en cada vía.",
+  "pagina_pdf": 137,
+  "fichero": "S-41.png",
+  "px": [
+   212,
+   212
+  ]
+ },
+ {
+  "codigo": "S-42",
+  "nombre_ocr": "Fin de vía reservada para ciclos y peatones con espacio de circulación diferenciado entre ellos",
+  "texto_ocr": "Indica el final de una vía destinada a la circulación de ciclos y peatones con espacio diferenciado entre ambos. El diseño de la señal podrá adaptarse a la situación real de los espacios en cada vía.",
+  "pagina_pdf": 137,
+  "fichero": "S-42.png",
+  "px": [
+   213,
+   214
+  ]
+ },
+ {
+  "codigo": "S-43",
+  "nombre_ocr": "Vía reservada para ciclos, vehículos de movilidad personal y peatones, con espacio de circulación diferenciado entre los dos primeros y los terceros",
+  "texto_ocr": "Indica la existencia de una vía destinada a la circulación de ciclos, vehículos de movilidad personal y peatones con espacio diferenciado entre los dos primeros y los terceros. El diseño de la señal podrá adaptarse a la situación real de los espacios en cada vía.",
+  "pagina_pdf": 137,
+  "fichero": "S-43.png",
+  "px": [
+   213,
+   213
+  ]
+ },
+ {
+  "codigo": "S-44",
+  "nombre_ocr": "Fin de vía reservada para ciclos, vehículos de movilidad personal y peatones, con espacio de circulación diferenciado entre los dos primeros y los terceros",
+  "texto_ocr": "Indica el final de una vía destinada a la circulación de ciclos, vehículos de movilidad personal y peatones con espacio diferenciado entre los dos primeros y los terceros. El diseño de la señal podrá adaptarse a la situación real de los espacios en cada vía.",
+  "pagina_pdf": 137,
+  "fichero": "S-44.png",
+  "px": [
+   211,
+   210
+  ]
+ },
+ {
+  "codigo": "S-45",
+  "nombre_ocr": "Situación de un paso para ciclistas",
+  "texto_ocr": "Indica la situación de un paso para ciclistas.",
+  "pagina_pdf": 138,
+  "fichero": "S-45.png",
+  "px": [
+   215,
+   213
+  ]
+ },
+ {
+  "codigo": "S-46",
+  "nombre_ocr": "Situación de un paso para peatones y ciclistas",
+  "texto_ocr": "Indica la situación de un paso para peatones adosado o compartido con un paso para ciclistas.",
+  "pagina_pdf": 138,
+  "fichero": "S-46.png",
+  "px": [
+   212,
+   213
+  ]
+ },
+ {
+  "codigo": "S-47",
+  "nombre_ocr": "Zona de coexistencia",
+  "texto_ocr": "Indica una zona de circulación que está destinada en primer lugar a los peatones y en las que se aplican las normas especiales de circulación siguientes: la velocidad máxima de los vehículos será de 20 km/h; la circulación está compartida entre vehículos, ciclistas y peatones; los peatones tienen prioridad, pueden usar toda la zona de circulación y por tanto no se señalizan pasos peatonales; los ciclos y, en su caso, los VMP pueden circular en ambos sentidos, salvo que la autoridad competente establezca lo contrario; los vehículos pueden estacionarse únicamente en los lugares designados por señales o por marcas; los juegos y los deportes no están autorizados.",
+  "pagina_pdf": 138,
+  "fichero": "S-47.png",
+  "px": [
+   214,
+   215
+  ]
+ },
+ {
+  "codigo": "S-48",
+  "nombre_ocr": "Fin de zona de coexistencia",
+  "texto_ocr": "Indica que se aplican de nuevo las normas generales de circulación.",
+  "pagina_pdf": 138,
+  "fichero": "S-48.png",
+  "px": [
+   214,
+   215
+  ]
+ },
+ {
+  "codigo": "S-49",
+  "nombre_ocr": "Avanza moto o bici",
+  "texto_ocr": "Indica la existencia de una zona de espera previa a la línea de detención de una intersección regulada por semáforos reservada a los vehículos indicados en la señal (motocicletas, vehículos de tres ruedas asimilados a motocicletas y ciclomotores, representados los tres tipos por el pictograma de motocicleta, o ciclos).",
+  "pagina_pdf": 138,
+  "fichero": "S-49.png",
+  "px": [
+   212,
+   212
+  ]
+ },
+ {
+  "codigo": "S-50a",
+  "nombre_ocr": "Carriles reservados en función de la velocidad señalizada",
+  "texto_ocr": "Indica, en una calzada de doble sentido de circulación, la ampliación de un carril por la izquierda que solo puede ser utilizado por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
+  "pagina_pdf": 140,
+  "fichero": "S-50a.png",
+  "px": [
+   188,
+   274
+  ]
+ },
+ {
+  "codigo": "S-50b",
+  "nombre_ocr": "Carriles reservados en función de la velocidad señalizada",
+  "texto_ocr": "Indica, en una calzada de doble sentido de circulación, la ampliación de un carril por la derecha. El carril sobre el que está situada la señal de velocidad mínima solo podrá ser utilizado por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
+  "pagina_pdf": 140,
+  "fichero": "S-50b.png",
+  "px": [
+   186,
+   273
+  ]
+ },
+ {
+  "codigo": "S-50c",
+  "nombre_ocr": "Carriles reservados en función de la velocidad señalizada",
+  "texto_ocr": "Indica, en una calzada de un único sentido de circulación, la ampliación de un carril por la derecha. Los carriles sobre los que está situada la señal de velocidad mínima solo podrán ser utilizados por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
+  "pagina_pdf": 140,
+  "fichero": "S-50c.png",
+  "px": [
+   190,
+   276
+  ]
+ },
+ {
+  "codigo": "S-50d",
+  "nombre_ocr": "Carriles reservados en función de la velocidad señalizada",
+  "texto_ocr": "Indica, en una calzada de doble sentido de circulación, que el carril sobre el que está situada la señal de velocidad mínima solo puede ser utilizado por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
+  "pagina_pdf": 141,
+  "fichero": "S-50d.png",
+  "px": [
+   298,
+   203
+  ]
+ },
+ {
+  "codigo": "S-50e",
+  "nombre_ocr": "Carriles reservados en función de la velocidad señalizada",
+  "texto_ocr": "Indica, en una calzada de un único sentido de circulación, que los carriles sobre los que están situadas las señales de velocidad mínima solo pueden ser utilizados por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
+  "pagina_pdf": 141,
+  "fichero": "S-50e.png",
+  "px": [
+   297,
+   201
+  ]
+ },
+ {
+  "codigo": "S-51a",
+  "nombre_ocr": "Carril reservado para tipos específicos de vehículos",
+  "texto_ocr": "Indica un carril destinado exclusivamente a la circulación de cierto o ciertos tipos de vehículos determinados (autobuses, motocicletas, vehículos de tres ruedas asimilados a motocicletas, taxis, ciclos, etc.). Se incluirá en la señal el pictograma representativo del tipo o tipos de vehículos autorizados. En tramos en que la marca vial longitudinal delimitadora del carril esté constituida por una línea discontinua, se permite su utilización al resto de vehículos únicamente para realizar alguna maniobra que no sea la de parar, estacionar, cambiar el sentido de la marcha o adelantar, dejando siempre preferencia a los vehículos autorizados a circular por este carril.",
+  "pagina_pdf": 141,
+  "fichero": "S-51a.png",
+  "px": [
+   235,
+   235
+  ]
+ },
+ {
+  "codigo": "S-51b",
+  "nombre_ocr": "Carril reservado para vehículos con alta ocupación (VAO)",
+  "texto_ocr": "Indica uno o varios carriles destinados exclusivamente a la circulación de vehículos con alta ocupación. En la imagen figurará el número de personas a partir de las cuales se considera alta ocupación, lo que será determinado por el órgano gestor competente en cada caso. Si el carril o carriles está reservado no solo a VAO sino también a otro u otros tipos específicos de vehículos, se podrán combinar las imágenes correspondientes del mismo modo que en la señal S-51a.",
+  "pagina_pdf": 142,
+  "fichero": "S-51b.png",
+  "px": [
+   272,
+   271
+  ]
+ },
+ {
+  "codigo": "S-52",
+  "nombre_ocr": "Final de carril destinado a la circulación",
+  "texto_ocr": "Indica en una calzada de tres carriles con un único sentido de circulación la desaparición del carril derecho y el cambio de carril preciso.",
+  "pagina_pdf": 142,
+  "fichero": "S-52.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-52a",
+  "nombre_ocr": "Final de carril destinado a la circulación",
+  "texto_ocr": "Indica, en una calzada de doble sentido de circulación con dos carriles de circulación en el sentido de la marcha la desaparición del carril derecho y el cambio de carril preciso.",
+  "pagina_pdf": 142,
+  "fichero": "S-52a.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-52b",
+  "nombre_ocr": "Final de carril destinado a la circulación",
+  "texto_ocr": "Indica, en una calzada de doble sentido de circulación con dos carriles de circulación en el sentido de la marcha, la desaparición del carril izquierdo y el cambio de carril preciso.",
+  "pagina_pdf": 142,
+  "fichero": "S-52b.png",
+  "px": [
+   177,
+   259
+  ]
+ },
+ {
+  "codigo": "S-52c",
+  "nombre_ocr": "Final de carril destinado a la circulación",
+  "texto_ocr": "Indica, en una calzada de dos carriles con un único sentido de circulación, la desaparición del carril derecho y el cambio de carril preciso.",
+  "pagina_pdf": 142,
+  "fichero": "S-52c.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-52d",
+  "nombre_ocr": "Final de carril destinado a la circulación",
+  "texto_ocr": "Indica, en una calzada de dos carriles con un único sentido de circulación, la desaparición del carril izquierdo y el cambio de carril preciso.",
+  "pagina_pdf": 143,
+  "fichero": "S-52d.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-52e",
+  "nombre_ocr": "Final de carril destinado a la circulación",
+  "texto_ocr": "Indica, en una calzada de tres carriles con un único sentido de circulación, la desaparición del carril izquierdo y el cambio de carril preciso.",
+  "pagina_pdf": 143,
+  "fichero": "S-52e.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-52f",
+  "nombre_ocr": "Final de carril destinado a la circulación",
+  "texto_ocr": "Indica, en una calzada de cuatro carriles con un único sentido de circulación, la desaparición del carril izquierdo y el cambio de carril preciso.",
+  "pagina_pdf": 143,
+  "fichero": "S-52f.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "S-52g",
+  "nombre_ocr": "Final de carril destinado a la circulación",
+  "texto_ocr": "Indica, en una calzada de cuatro carriles con un único sentido de circulación, la desaparición del carril derecho y el cambio de carril preciso.",
+  "pagina_pdf": 143,
+  "fichero": "S-52g.png",
+  "px": [
+   251,
+   251
+  ]
+ },
+ {
+  "codigo": "S-53",
+  "nombre_ocr": "Paso de uno a dos carriles de circulación",
+  "texto_ocr": "Indica, en un tramo con un solo carril, que se va a pasar a disponer de dos carriles en el mismo sentido de la circulación.",
+  "pagina_pdf": 143,
+  "fichero": "S-53.png",
+  "px": [
+   170,
+   249
+  ]
+ },
+ {
+  "codigo": "S-53a",
+  "nombre_ocr": "Paso de uno a dos carriles de circulación con especificación de la velocidad máxima en cada uno de ellos",
+  "texto_ocr": "Indica, en un tramo con un solo carril de circulación, que se va a pasar a disponer de dos carriles en el mismo sentido de circulación. También indica la velocidad máxima que está permitido alcanzar en cada uno de ellos.",
+  "pagina_pdf": 143,
+  "fichero": "S-53a.png",
+  "px": [
+   167,
+   244
+  ]
+ },
+ {
+  "codigo": "S-53b",
+  "nombre_ocr": "Paso de dos a tres carriles de circulación",
+  "texto_ocr": "Indica, en un tramo con dos carriles en un sentido de circulación, que se va a pasar a disponer de tres carriles en el mismo sentido de circulación.",
+  "pagina_pdf": 144,
+  "fichero": "S-53b.png",
+  "px": [
+   166,
+   242
+  ]
+ },
+ {
+  "codigo": "S-53c",
+  "nombre_ocr": "Paso de dos a tres carriles de circulación con especificación de la velocidad máxima en cada uno de ellos",
+  "texto_ocr": "Indica, en un tramo con dos carriles en un sentido de circulación, que se va a pasar a disponer de tres carriles en el mismo sentido de circulación. También indica la velocidad máxima que está permitido alcanzar en cada uno de ellos.",
+  "pagina_pdf": 144,
+  "fichero": "S-53c.png",
+  "px": [
+   167,
+   244
+  ]
+ },
+ {
+  "codigo": "S-60a",
+  "nombre_ocr": "Bifurcación hacia la izquierda en calzada de dos carriles",
+  "texto_ocr": "Indica, en una calzada con dos carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en el carril izquierdo.",
+  "pagina_pdf": 144,
+  "fichero": "S-60a.png",
+  "px": [
+   165,
+   234
+  ]
+ },
+ {
+  "codigo": "S-60b",
+  "nombre_ocr": "Bifurcación hacia la derecha en calzada de dos carriles",
+  "texto_ocr": "Indica, en una calzada con dos carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en el carril derecho.",
+  "pagina_pdf": 144,
+  "fichero": "S-60b.png",
+  "px": [
+   166,
+   237
+  ]
+ },
+ {
+  "codigo": "S-61a",
+  "nombre_ocr": "Bifurcación hacia la izquierda en calzada de tres carriles",
+  "texto_ocr": "Indica, en una calzada con tres carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en el carril izquierdo.",
+  "pagina_pdf": 144,
+  "fichero": "S-61a.png",
+  "px": [
+   236,
+   231
+  ]
+ },
+ {
+  "codigo": "S-61b",
+  "nombre_ocr": "Bifurcación hacia la derecha en calzada de tres carriles",
+  "texto_ocr": "Indica, en una calzada con tres carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en el carril derecho.",
+  "pagina_pdf": 145,
+  "fichero": "S-61b.png",
+  "px": [
+   228,
+   227
+  ]
+ },
+ {
+  "codigo": "S-61c",
+  "nombre_ocr": "Bifurcación hacia la derecha en calzada de dos carriles en el sentido propio de circulación y un carril en sentido opuesto",
+  "texto_ocr": "Indica, en una calzada de doble sentido de circulación con dos carriles de circulación en el sentido de la marcha, que se producirá una bifurcación con cambio de dirección en el carril derecho.",
+  "pagina_pdf": 145,
+  "fichero": "S-61c.png",
+  "px": [
+   237,
+   237
+  ]
+ },
+ {
+  "codigo": "S-62a",
+  "nombre_ocr": "Bifurcación hacia la izquierda en calzada de cuatro carriles",
+  "texto_ocr": "Indica, en una calzada con cuatro carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en el carril izquierdo.",
+  "pagina_pdf": 145,
+  "fichero": "S-62a.png",
+  "px": [
+   235,
+   208
+  ]
+ },
+ {
+  "codigo": "S-62b",
+  "nombre_ocr": "Bifurcación hacia la derecha en calzada de cuatro carriles",
+  "texto_ocr": "Indica, en una calzada con cuatro carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en el carril derecho.",
+  "pagina_pdf": 145,
+  "fichero": "S-62b.png",
+  "px": [
+   235,
+   209
+  ]
+ },
+ {
+  "codigo": "S-63a",
+  "nombre_ocr": "Bifurcación en calzada de cuatro carriles",
+  "texto_ocr": "Indica, en una calzada con cuatro carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección de dos carriles hacia la izquierda y dos carriles hacia la derecha.",
+  "pagina_pdf": 145,
+  "fichero": "S-63a.png",
+  "px": [
+   247,
+   192
+  ]
+ },
+ {
+  "codigo": "S-63b",
+  "nombre_ocr": "Bifurcación en calzada de tres carriles",
+  "texto_ocr": "Indica, en una calzada con tres carriles de circulación en el mismo sentido, que se producirá una bifurcación en el carril central con cambio de dirección de los cuatro carriles resultantes, dos hacia la izquierda y dos hacia la derecha.",
+  "pagina_pdf": 146,
+  "fichero": "S-63b.png",
+  "px": [
+   236,
+   209
+  ]
+ },
+ {
+  "codigo": "S-63c",
+  "nombre_ocr": "Bifurcación de dos carriles hacia la izquierda en calzada de cuatro carriles",
+  "texto_ocr": "Indica, en una calzada con cuatro carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en los dos carriles izquierdos.",
+  "pagina_pdf": 146,
+  "fichero": "S-63c.png",
+  "px": [
+   238,
+   210
+  ]
+ },
+ {
+  "codigo": "S-63d",
+  "nombre_ocr": "Bifurcación de dos carriles hacia la derecha en calzada de cuatro carriles",
+  "texto_ocr": "Indica, en una calzada con cuatro carriles de circulación en el mismo sentido, que se producirá una bifurcación con cambio de dirección en los dos carriles derechos.",
+  "pagina_pdf": 146,
+  "fichero": "S-63d.png",
+  "px": [
+   243,
+   215
+  ]
+ },
+ {
+  "codigo": "S-64a",
+  "nombre_ocr": "Vía reservada y obligatoria para ciclos adosada a calzada de un único sentido de circulación",
+  "texto_ocr": "Indica, en calzadas de un único sentido de circulación, la obligación para los conductores de ciclos de circular por el carril sobre el que está situada la señal y la prohibición a los demás usuarios de la vía de utilizarlo. Las flechas indicarán el número de carriles de la calzada.",
+  "pagina_pdf": 146,
+  "fichero": "S-64a.png",
+  "px": [
+   314,
+   215
+  ]
+ },
+ {
+  "codigo": "S-64b",
+  "nombre_ocr": "Vía reservada y obligatoria para ciclos adosada a calzada de doble sentido de circulación",
+  "texto_ocr": "Indica, en calzadas de doble sentido de circulación, la obligación para los conductores de ciclos de circular por el carril sobre el que está situada la señal y la prohibición a los demás usuarios de la vía de utilizarlo. Las flechas indicarán el número de carriles de la calzada, así como el sentido de circulación.",
+  "pagina_pdf": 146,
+  "fichero": "S-64b.png",
+  "px": [
+   320,
+   218
+  ]
+ },
+ {
+  "codigo": "S-65a",
+  "nombre_ocr": "Vía reservada para ciclos adosada a calzada de un único sentido de circulación",
+  "texto_ocr": "Indica, en calzadas de un único sentido de circulación, que el carril sobre el que está situada la señal está reservado a la circulación de ciclos, quedando prohibida su utilización a los demás usuarios de la vía. Las flechas indicarán el número de carriles de la calzada.",
+  "pagina_pdf": 147,
+  "fichero": "S-65a.png",
+  "px": [
+   315,
+   214
+  ]
+ },
+ {
+  "codigo": "S-65b",
+  "nombre_ocr": "Vía reservada para ciclos adosada a calzada de doble sentido de circulación",
+  "texto_ocr": "Indica, en calzadas de doble sentido de circulación, que el carril sobre el que está situada la señal está reservado a la circulación de ciclos, quedando prohibida su utilización a los demás usuarios de la vía. Las flechas indicarán el número de carriles de la calzada, así como el sentido de circulación.",
+  "pagina_pdf": 147,
+  "fichero": "S-65b.png",
+  "px": [
+   314,
+   212
+  ]
+ },
+ {
+  "codigo": "S-66",
+  "nombre_ocr": "Carril bici en sentido opuesto",
+  "texto_ocr": "Indica la existencia de un carril obligatorio para ciclos cuyo sentido de circulación es el opuesto al del carril contiguo.",
+  "pagina_pdf": 147,
+  "fichero": "S-66.png",
+  "px": [
+   235,
+   234
+  ]
+ },
+ {
+  "codigo": "S-68",
+  "nombre_ocr": "Tramo de calzada con un carril para el sentido propio de circulación y dos carriles para el sentido opuesto",
+  "texto_ocr": "Indica, en una calzada de doble sentido de circulación, que se dispone de un solo carril, mientras que el sentido opuesto dispone de dos. Se especificará la longitud en la que se mantiene esta configuración mediante un panel complementario S-810.",
+  "pagina_pdf": 147,
+  "fichero": "S-68.png",
+  "px": [
+   290,
+   197
+  ]
+ },
+ {
+  "codigo": "S-70a",
+  "nombre_ocr": "Confluencia de un carril por la izquierda en calzada de un carril",
+  "texto_ocr": "Indica, en una calzada con un carril de circulación, que se producirá la confluencia de un carril por el lado izquierdo.",
+  "pagina_pdf": 147,
+  "fichero": "S-70a.png",
+  "px": [
+   178,
+   259
+  ]
+ },
+ {
+  "codigo": "S-70b",
+  "nombre_ocr": "Confluencia de un carril por la derecha en calzada de un carril",
+  "texto_ocr": "Indica, en una calzada con un carril de circulación, que se producirá la confluencia de un carril por el lado derecho.",
+  "pagina_pdf": 148,
+  "fichero": "S-70b.png",
+  "px": [
+   177,
+   258
+  ]
+ },
+ {
+  "codigo": "S-71a",
+  "nombre_ocr": "Confluencia de un carril por la izquierda en calzada de dos carriles",
+  "texto_ocr": "Indica, en una calzada con dos carriles de circulación en el mismo sentido, que se producirá la confluencia de un carril por el lado izquierdo.",
+  "pagina_pdf": 148,
+  "fichero": "S-71a.png",
+  "px": [
+   244,
+   236
+  ]
+ },
+ {
+  "codigo": "S-71b",
+  "nombre_ocr": "Confluencia de un carril por la derecha en calzada de dos carriles",
+  "texto_ocr": "Indica, en una calzada con dos carriles de circulación en el mismo sentido, que se producirá la confluencia de un carril por el lado derecho.",
+  "pagina_pdf": 148,
+  "fichero": "S-71b.png",
+  "px": [
+   243,
+   236
+  ]
+ },
+ {
+  "codigo": "S-72a",
+  "nombre_ocr": "Confluencia de un carril por la izquierda en calzada de tres carriles",
+  "texto_ocr": "Indica, en una calzada con tres carriles de circulación en el mismo sentido, que se producirá la confluencia de un carril por el lado izquierdo.",
+  "pagina_pdf": 148,
+  "fichero": "S-72a.png",
+  "px": [
+   267,
+   237
+  ]
+ },
+ {
+  "codigo": "S-72b",
+  "nombre_ocr": "Confluencia de un carril por la derecha en calzada de tres carriles",
+  "texto_ocr": "Indica, en una calzada con tres carriles de circulación en el mismo sentido, que se producirá la confluencia de un carril por el lado derecho.",
+  "pagina_pdf": 148,
+  "fichero": "S-72b.png",
+  "px": [
+   268,
+   238
+  ]
+ },
+ {
+  "codigo": "S-73a",
+  "nombre_ocr": "Confluencia de dos carriles por la izquierda en calzada de dos carriles",
+  "texto_ocr": "Indica, en una calzada con dos carriles de circulación en el mismo sentido, que se producirá la confluencia de dos carriles por el lado izquierdo.",
+  "pagina_pdf": 149,
+  "fichero": "S-73a.png",
+  "px": [
+   268,
+   237
+  ]
+ },
+ {
+  "codigo": "S-73b",
+  "nombre_ocr": "Confluencia de dos carriles por la derecha en calzada de dos carriles",
+  "texto_ocr": "Indica, en una calzada con dos carriles de circulación en el mismo sentido, que se producirá la confluencia de dos carriles por el lado derecho.",
+  "pagina_pdf": 149,
+  "fichero": "S-73b.png",
+  "px": [
+   267,
+   235
+  ]
+ },
+ {
+  "codigo": "S-100",
+  "nombre_ocr": "Puesto de socorro",
+  "texto_ocr": "Indica la situación de un centro, oficialmente reconocido, donde puede realizarse una cura de urgencia.",
+  "pagina_pdf": 151,
+  "fichero": "S-100.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-101",
+  "nombre_ocr": "Base de ambulancia",
+  "texto_ocr": "Indica la situación de una ambulancia en servicio permanente para cura y traslado de heridos en accidentes de circulación.",
+  "pagina_pdf": 151,
+  "fichero": "S-101.png",
+  "px": [
+   166,
+   287
+  ]
+ },
+ {
+  "codigo": "S-102",
+  "nombre_ocr": "Servicio de inspección técnica de vehículos",
+  "texto_ocr": "Indica la situación de una estación de inspección técnica de vehículos.",
+  "pagina_pdf": 151,
+  "fichero": "S-102.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-103",
+  "nombre_ocr": "Taller de reparación",
+  "texto_ocr": "Indica la situación de un taller de reparación de automóviles.",
+  "pagina_pdf": 151,
+  "fichero": "S-103.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-104",
+  "nombre_ocr": "Teléfono",
+  "texto_ocr": "Indica la situación de un aparato telefónico. En caso de incluir la inscripción “S.O.S”, indica la situación de un teléfono de uso permanente para advertir a las autoridades de la existencia de un accidente o emergencia en la vía.",
+  "pagina_pdf": 151,
+  "fichero": "S-104.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-105",
+  "nombre_ocr": "Surtidor de carburante",
+  "texto_ocr": "Indica la situación de un surtidor o estación de servicio de carburante.",
+  "pagina_pdf": 151,
+  "fichero": "S-105.png",
+  "px": [
+   171,
+   250
+  ]
+ },
+ {
+  "codigo": "S-105b",
+  "nombre_ocr": "Surtidor de carburante y GLP",
+  "texto_ocr": "Indica la situación de un surtidor o estación de servicio de carburantes con disponibilidad de gas licuado de petróleo (GLP) o autogás.",
+  "pagina_pdf": 151,
+  "fichero": "S-105b.png",
+  "px": [
+   165,
+   241
+  ]
+ },
+ {
+  "codigo": "S-105c",
+  "nombre_ocr": "Surtidor de GLP",
+  "texto_ocr": "Indica la situación de un surtidor o estación de servicio de gas licuado de petróleo (GLP) o autogás.",
+  "pagina_pdf": 152,
+  "fichero": "S-105c.png",
+  "px": [
+   167,
+   244
+  ]
+ },
+ {
+  "codigo": "S-105d",
+  "nombre_ocr": "Surtidor de carburante y estación de recarga eléctrica",
+  "texto_ocr": "Indica la situación de un surtidor o estación de servicio de carburantes con disponibilidad de estación de recarga eléctrica.",
+  "pagina_pdf": 152,
+  "fichero": "S-105d.png",
+  "px": [
+   165,
+   244
+  ]
+ },
+ {
+  "codigo": "S-105e",
+  "nombre_ocr": "Estación de recarga eléctrica",
+  "texto_ocr": "Indica la situación de una estación de recarga eléctrica.",
+  "pagina_pdf": 152,
+  "fichero": "S-105e.png",
+  "px": [
+   165,
+   239
+  ]
+ },
+ {
+  "codigo": "S-105f",
+  "nombre_ocr": "Surtidor de carburante, GLP y estación de recarga eléctrica",
+  "texto_ocr": "Indica la situación de un surtidor o estación de servicio de carburantes con disponibilidad de gas licuado de petróleo (GLP) o autogás y estación de recarga eléctrica.",
+  "pagina_pdf": 152,
+  "fichero": "S-105f.png",
+  "px": [
+   165,
+   242
+  ]
+ },
+ {
+  "codigo": "S-106",
+  "nombre_ocr": "Taller de reparación y surtidor de carburante",
+  "texto_ocr": "Indica la situación de una instalación que dispone de taller de reparación y surtidor de carburante.",
+  "pagina_pdf": 152,
+  "fichero": "S-106.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-107",
+  "nombre_ocr": "Campamento",
+  "texto_ocr": "Indica la situación de un lugar donde está permitida la acampada.",
+  "pagina_pdf": 152,
+  "fichero": "S-107.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-108",
+  "nombre_ocr": "Agua",
+  "texto_ocr": "Indica la situación de una fuente con agua.",
+  "pagina_pdf": 152,
+  "fichero": "S-108.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-109",
+  "nombre_ocr": "Lugar pintoresco",
+  "texto_ocr": "Indica un sitio pintoresco o el lugar desde el que se divisa. Su nombre podrá figurar inscrito en la señal.",
+  "pagina_pdf": 153,
+  "fichero": "S-109.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-110",
+  "nombre_ocr": "Hotel o motel",
+  "texto_ocr": "Indica la situación de un hotel o motel.",
+  "pagina_pdf": 153,
+  "fichero": "S-110.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-111",
+  "nombre_ocr": "Restauración",
+  "texto_ocr": "Indica la situación de un restaurante.",
+  "pagina_pdf": 153,
+  "fichero": "S-111.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-112",
+  "nombre_ocr": "Cafetería",
+  "texto_ocr": "Indica la situación de un bar o cafetería.",
+  "pagina_pdf": 153,
+  "fichero": "S-112.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-113",
+  "nombre_ocr": "Terreno para remolques-vivienda",
+  "texto_ocr": "Indica la situación de un terreno en el que puede acamparse con remolque-vivienda (caravana).",
+  "pagina_pdf": 153,
+  "fichero": "S-113.png",
+  "px": [
+   171,
+   250
+  ]
+ },
+ {
+  "codigo": "S-114",
+  "nombre_ocr": "Merendero",
+  "texto_ocr": "Indica el lugar que puede utilizarse para el consumo de comidas O bebidas.",
+  "pagina_pdf": 153,
+  "fichero": "S-114.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-115",
+  "nombre_ocr": "Punto de partida para excursiones a pie",
+  "texto_ocr": "Indica un lugar apropiado para iniciar excursiones a pie.",
+  "pagina_pdf": 153,
+  "fichero": "S-115.png",
+  "px": [
+   171,
+   250
+  ]
+ },
+ {
+  "codigo": "S-116",
+  "nombre_ocr": "Campamento y terreno para remolques-vivienda",
+  "texto_ocr": "Indica la situación de un lugar donde puede acamparse con tienda de campaña o con remolque-vivienda.",
+  "pagina_pdf": 154,
+  "fichero": "S-116.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-117",
+  "nombre_ocr": "Albergue juvenil",
+  "texto_ocr": "Indica la situación de un albergue juvenil.",
+  "pagina_pdf": 154,
+  "fichero": "S-117.png",
+  "px": [
+   171,
+   250
+  ]
+ },
+ {
+  "codigo": "S-118",
+  "nombre_ocr": "Información turística",
+  "texto_ocr": "Indica la situación de una oficina de información turística.",
+  "pagina_pdf": 154,
+  "fichero": "S-118.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-119",
+  "nombre_ocr": "Coto de pesca",
+  "texto_ocr": "Indica un lago o tramo de río en el que la pesca está sujeta a autorización especial.",
+  "pagina_pdf": 154,
+  "fichero": "S-119.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-120",
+  "nombre_ocr": "Parque o espacio natural",
+  "texto_ocr": "Indica la situación de un parque o espacio natural. Su nombre podrá figurar inscrito en la señal.",
+  "pagina_pdf": 154,
+  "fichero": "S-120.png",
+  "px": [
+   165,
+   243
+  ]
+ },
+ {
+  "codigo": "S-121",
+  "nombre_ocr": "Monumento",
+  "texto_ocr": "Indica la situación de una obra histórica o artística declarada monumento.",
+  "pagina_pdf": 154,
+  "fichero": "S-121.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-122",
+  "nombre_ocr": "Otros servicios",
+  "texto_ocr": "Señal genérica para cualquier otro servicio, que se inscribirá en el recuadro blanco.",
+  "pagina_pdf": 154,
+  "fichero": "S-122.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-123",
+  "nombre_ocr": "Área de descanso",
+  "texto_ocr": "Indica la situación de un área de descanso.",
+  "pagina_pdf": 155,
+  "fichero": "S-123.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-124",
+  "nombre_ocr": "Estacionamiento para usuarios del ferrocarril",
+  "texto_ocr": "Indica la situación de una zona de estacionamiento conectada con una estación de ferrocarril, y destinada principalmente para los vehículos de los usuarios que realizan una parte de su viaje en vehículo privado y la otra en ferrocarril.",
+  "pagina_pdf": 155,
+  "fichero": "S-124.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-125",
+  "nombre_ocr": "Estacionamiento para usuarios del metro",
+  "texto_ocr": "Indica la situación de una zona de estacionamiento, conectada con una estación de metro, y destinada principalmente para los vehículos de los usuarios que realizan una parte de su viaje en vehículo privado y la otra en metro.",
+  "pagina_pdf": 155,
+  "fichero": "S-125.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-126",
+  "nombre_ocr": "Estacionamiento para usuarios de autobús",
+  "texto_ocr": "Indica la situación de una zona de estacionamiento, conectada con una estación o una terminal de autobuses, y destinada principalmente para los vehículos privados de los usuarios que realizan una parte de su viaje en vehículo privado y la otra en autobús.",
+  "pagina_pdf": 155,
+  "fichero": "S-126.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-128",
+  "nombre_ocr": "Punto de vaciado de caravanas y autocaravanas",
+  "texto_ocr": "Indica la situación de un punto de vaciado de aguas residuales para caravanas y autocaravanas.",
+  "pagina_pdf": 155,
+  "fichero": "S-128.png",
+  "px": [
+   171,
+   251
+  ]
+ },
+ {
+  "codigo": "S-129",
+  "nombre_ocr": "Estacionamiento de emergencia por nevadas",
+  "texto_ocr": "Indica la situación de un estacionamiento de emergencia por nevadas y, excepcionalmente, para incidencias.",
+  "pagina_pdf": 155,
+  "fichero": "S-129.png",
+  "px": [
+   171,
+   249
+  ]
+ },
+ {
+  "codigo": "S-200",
+  "nombre_ocr": "Preseñalización de glorieta",
+  "texto_ocr": "Indica las direcciones de las distintas salidas de la próxima glorieta. Si alguna inscripción figura sobre fondo azul, indica que la salida conduce hacia una autopista o una autovía.",
+  "pagina_pdf": 157,
+  "fichero": "S-200.png",
+  "px": [
+   406,
+   297
+  ]
+ },
+ {
+  "codigo": "S-201",
+  "nombre_ocr": "Preseñalización de glorieta partida desde la calzada principal",
+  "texto_ocr": "Indica las direcciones de las distintas salidas de una intersección cuya planta es similar a una glorieta pero la calzada principal, por la que en este caso el vehículo circula, no pierde continuidad. Si alguna inscripción figura sobre fondo azul, indica que la salida conduce hacia una autopista o una autovía.",
+  "pagina_pdf": 157,
+  "fichero": "S-201.png",
+  "px": [
+   409,
+   256
+  ]
+ },
+ {
+  "codigo": "S-202",
+  "nombre_ocr": "Preseñalización de glorieta partida desde las calzadas secundarias",
+  "texto_ocr": "Indica las direcciones de las distintas salidas de una intersección cuya planta es similar a una glorieta pero la calzada principal, por la que en este caso el vehículo no circula, no pierde continuidad. Si alguna inscripción figura sobre fondo azul, indica que la salida conduce hacia una autopista o una autovía.",
+  "pagina_pdf": 157,
+  "fichero": "S-202.png",
+  "px": [
+   409,
+   275
+  ]
+ },
+ {
+  "codigo": "S-203",
+  "nombre_ocr": "Preseñalización de glorieta con selección de carriles en función del movimiento a efectuar",
+  "texto_ocr": "Indica las direcciones de las distintas salidas de la próxima glorieta y el carril por el que acceder a cada una de ellas.",
+  "pagina_pdf": 157,
+  "fichero": "S-203.png",
+  "px": [
+   403,
+   323
+  ]
+ },
+ {
+  "codigo": "S-220",
+  "nombre_ocr": "Preseñalización, con cartel lateral, en carretera convencional oO carretera multicarril hacia carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, los destinos de las salidas del próximo nudo cuando estas dirigen hacia una carretera convencional o una carretera multicarril, así como la distancia a la que se encuentran dichas salidas.",
+  "pagina_pdf": 158,
+  "fichero": "S-220.png",
+  "px": [
+   385,
+   303
+  ]
+ },
+ {
+  "codigo": "S-220a",
+  "nombre_ocr": "Preseñalización, con cartel lateral, en carretera convencional oO carretera multicarril hacia carretera convencional Oo carretera multicarril y dirección propia",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de las salidas del próximo nudo cuando estas dirigen hacia una carretera convencional o una carretera multicarril, así como la distancia a la que se encuentran dichas salidas.",
+  "pagina_pdf": 158,
+  "fichero": "S-220a.png",
+  "px": [
+   427,
+   330
+  ]
+ },
+ {
+  "codigo": "S-222",
+  "nombre_ocr": "Preseñalización, con cartel lateral, en carretera convencional o carretera multicarril hacia autopista o autovía",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, los destinos de las salidas del próximo nudo cuando estas dirigen hacia una autopista o una autovía, así como la distancia a la que se encuentran dichas salidas.",
+  "pagina_pdf": 158,
+  "fichero": "S-222.png",
+  "px": [
+   451,
+   297
+  ]
+ },
+ {
+  "codigo": "S-222a",
+  "nombre_ocr": "Preseñalización, con cartel lateral, en carretera convencional oO carretera multicarril hacia autopista o autovía y dirección propia",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de las salidas del próximo nudo cuando estas dirigen hacia una autopista o una autovía, así como la distancia a la que se encuentran dichas salidas.",
+  "pagina_pdf": 159,
+  "fichero": "S-222a.png",
+  "px": [
+   411,
+   370
+  ]
+ },
+ {
+  "codigo": "S-225",
+  "nombre_ocr": "Preseñalización, con cartel lateral, en autopista o autovía hacia cualquier tipo de carretera",
+  "texto_ocr": "Indica, en una autopista o una autovía, los destinos de la salida del próximo enlace. También indica la distancia a dicha salida, su número y, en su caso, la letra.",
+  "pagina_pdf": 159,
+  "fichero": "S-225.png",
+  "px": [
+   424,
+   210
+  ]
+ },
+ {
+  "codigo": "S-230",
+  "nombre_ocr": "Preseñalización, con cartel sobre la calzada, en carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, los destinos de la salida del próximo nudo cuando esta dirige hacia una carretera convencional o una carretera multicarril, así como la distancia a la que se encuentra dicha salida.",
+  "pagina_pdf": 159,
+  "fichero": "S-230.png",
+  "px": [
+   445,
+   229
+  ]
+ },
+ {
+  "codigo": "S-230a",
+  "nombre_ocr": "Preseñalización, con carteles sobre la calzada, en carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril y dirección propia",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo nudo cuando esta dirige hacia una carretera convencional o una carretera multicarril, así como la distancia a la que se encuentra dicha salida.",
+  "pagina_pdf": 160,
+  "fichero": "S-230a.png",
+  "px": [
+   660,
+   213
+  ]
+ },
+ {
+  "codigo": "S-232",
+  "nombre_ocr": "Preseñalización, con cartel sobre la calzada, en carretera convencional o carretera multicarril hacia autopista o autovía",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, los destinos de la salida del próximo nudo cuando esta dirige hacia una autopista o una autovía, así como la distancia a la que se encuentra dicha salida.",
+  "pagina_pdf": 160,
+  "fichero": "S-232.png",
+  "px": [
+   467,
+   315
+  ]
+ },
+ {
+  "codigo": "S-232a",
+  "nombre_ocr": "Preseñalización, con carteles sobre la calzada, en carretera convencional o carretera multicarril hacia autopista o autovía y dirección propia",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo nudo cuando esta dirige hacia una autopista o una autovía, así como la distancia a la que se encuentra dicha salida.",
+  "pagina_pdf": 160,
+  "fichero": "S-232a.png",
+  "px": [
+   660,
+   239
+  ]
+ },
+ {
+  "codigo": "S-235",
+  "nombre_ocr": "Preseñalización, con cartel sobre la calzada, en autopista o autovía hacia cualquier tipo de carretera",
+  "texto_ocr": "Indica, en una autopista o una autovía, los destinos de la salida del próximo enlace. También indica la distancia a dicha salida, su número y, en su caso, la letra.",
+  "pagina_pdf": 161,
+  "fichero": "S-235.png",
+  "px": [
+   546,
+   233
+  ]
+ },
+ {
+  "codigo": "S-235a",
+  "nombre_ocr": "Preseñalización, con carteles sobre la calzada, en autopista o autovía hacia cualquier tipo de carretera y dirección propia",
+  "texto_ocr": "Indica, en una autopista o una autovía, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo enlace. También indica la distancia a dicha salida, su número y, en su caso, la letra.",
+  "pagina_pdf": 161,
+  "fichero": "S-235a.png",
+  "px": [
+   659,
+   188
+  ]
+ },
+ {
+  "codigo": "S-242",
+  "nombre_ocr": "Preseñalización, con cartel sobre la calzada en autopista o autovía, de dos salidas muy próximas hacia cualquier tipo de carretera",
+  "texto_ocr": "Indica las direcciones de los ramales de las dos salidas consecutivas en una autopista o una autovía. También indica la distancia a dichas salidas, los números o el número y letras de cada una de ellas.",
+  "pagina_pdf": 161,
+  "fichero": "S-242.png",
+  "px": [
+   533,
+   278
+  ]
+ },
+ {
+  "codigo": "S-242a",
+  "nombre_ocr": "Preseñalización, con carteles sobre la calzada en autopista o autovía, de dos salidas muy próximas hacia cualquier tipo de carretera y dirección propia",
+  "texto_ocr": "Vurense Indica, en una autopista o una autovía, la dirección propia de la carretera por la que se circula y las direcciones de los ramales de dos salidas consecutivas. También indica la distancia a dichas salidas, los números o el número y letras de cada una de ellas.",
+  "pagina_pdf": 162,
+  "fichero": "S-242a.png",
+  "px": [
+   415,
+   184
+  ]
+ },
+ {
+  "codigo": "S-245",
+  "nombre_ocr": "Preseñalización complementaria de poblaciones en carretera convencional o carretera multicarril",
+  "texto_ocr": "A Indica poblaciones cercanas de más de 5.000 habitantes a las que se puede acceder por el siguiente nudo y la distancia a la que este se encuentra.",
+  "pagina_pdf": 162,
+  "fichero": "S-245.png",
+  "px": [
+   292,
+   390
+  ]
+ },
+ {
+  "codigo": "S-246",
+  "nombre_ocr": "Preseñalización complementaria de poblaciones en autopista o autovía",
+  "texto_ocr": "A Indica poblaciones cercanas de más de 5.000 ada habitantes a las que se puede acceder desde la salida que figura en el subcartel superior, así como la distancia hasta esta.",
+  "pagina_pdf": 162,
+  "fichero": "S-246.png",
+  "px": [
+   318,
+   365
+  ]
+ },
+ {
+  "codigo": "S-247",
+  "nombre_ocr": "Preseñalización de salidas en variante de población",
+  "texto_ocr": "onte IK 493 . » ar . os Indica el número de las distintas salidas de la variante de una población acompañado por el nombre de la vía de penetración o el punto cardinal.",
+  "pagina_pdf": 162,
+  "fichero": "S-247.png",
+  "px": [
+   398,
+   273
+  ]
+ },
+ {
+  "codigo": "S-250",
+  "nombre_ocr": "Preseñalización de itinerario",
+  "texto_ocr": "Indica el itinerario que es preciso seguir para tomar la dirección que señala la flecha.",
+  "pagina_pdf": 163,
+  "fichero": "S-250.png",
+  "px": [
+   318,
+   213
+  ]
+ },
+ {
+  "codigo": "S-260",
+  "nombre_ocr": "Preseñalización de carriles l",
+  "texto_ocr": "Ñ Indica las únicas direcciones permitidas en el próximo nudo a los usuarios que circulan por los carriles señalizados. Sobre las flechas que indican los carriles de permanencia en la carretera por la que se circula se dispondrá el cajetín indicativo de la misma. Se limitará su uso a situaciones excepcionales donde la línea continua de separación de carriles no implique la ) divergencia respecto de los carriles situados a la izquierda, o a enlaces o bifurcaciones entre dos autovías o autopistas con alta intensidad de tráfico en ambas.",
+  "pagina_pdf": 163,
+  "fichero": "S-260.png",
+  "px": [
+   450,
+   438
+  ]
+ },
+ {
+  "codigo": "S-261",
+  "nombre_ocr": "Preseñalización de servicios en carreteras convencionales con elevada intensidad de tráfico y en todas las carreteras multicarril",
+  "texto_ocr": "Indica en carreteras convencionales con tráfico elevado y en todas las carreteras multicarril, la proximidad de una salida hacia los servicios señalizados. Si estos se encuentran ubicados en una población, el nombre de la misma podrá figurar en la primera línea del cartel y si están emplazados en una vía de servicio figurará la inscripción “vía de servicio”. En caso de que entre los servicios exista una estación de servicio y/o una estación de recarga, se indicará la distancia hasta la misma así como su horario de apertura. En el subcartel inferior figurará la distancia y horario de apertura de la siguiente estación de servicio y/o estación de recarga en el sentido de la marcha. En el cajetín superior figurará la distancia a la salida.",
+  "pagina_pdf": 163,
+  "fichero": "S-261.png",
+  "px": [
+   433,
+   1044
+  ]
+ },
+ {
+  "codigo": "S-263",
+  "nombre_ocr": "Preseñalización de servicios en autopista o autovía",
+  "texto_ocr": "Indica, en una autopista o una autovía, la proximidad de una salida hacia los servicios señalizados. Si estos se encuentran ubicados en una población, el nombre de la misma podrá figurar en la primera línea del cartel y si están emplazados en una vía de servicio figurará la inscripción “vía de servicio”. En caso de que entre los servicios exista una estación de servicio y/o una estación de recarga, se indicará la distancia hasta la misma así como su horario de apertura. En el subcartel inferior figurará la distancia y horario de apertura de la siguiente estación de servicio y/o estación de recarga en el sentido de la marcha. En los subcarteles superiores figurará el número de salida y la distancia hasta esta.",
+  "pagina_pdf": 164,
+  "fichero": "S-263.png",
+  "px": [
+   400,
+   928
+  ]
+ },
+ {
+  "codigo": "S-267",
+  "nombre_ocr": "Preseñalización de servicios varios en carretera convencional oO carretera multicarril",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, la proximidad de una salida hacia los servicios señalizados tales como urbanización, puerto deportivo, zona deportiva, zona comercial, polígono industrial, parque empresarial y zona de ocio. En el cajetín superior figurará la distancia a la salida.",
+  "pagina_pdf": 164,
+  "fichero": "S-267.png",
+  "px": [
+   466,
+   345
+  ]
+ },
+ {
+  "codigo": "S-268",
+  "nombre_ocr": "Preseñalización de servicios varios en autopista o autovía",
+  "texto_ocr": "Indica, en una autopista o una autovía, la proximidad de una salida hacia los servicios señalizados tales como urbanización, puerto deportivo, zona deportiva, zona comercial, polígono industrial, parque empresarial y zona de ocio. En los subcarteles superiores figurará el número de salida y la distancia hasta esta.",
+  "pagina_pdf": 164,
+  "fichero": "S-268.png",
+  "px": [
+   529,
+   370
+  ]
+ },
+ {
+  "codigo": "S-271",
+  "nombre_ocr": "Preseñalización de área de servicio",
+  "texto_ocr": "Indica, en una autopista o una autovía, la proximidad de una salida hacia un área de servicio, figurando su nombre y horario de apertura además de los pictogramas de los servicios que ofrece. En el cajetín superior figurará la distancia a la salida. En el subcartel inferior figurará la distancia y el horario de apertura de la siguiente área de servicio en el sentido de la marcha.",
+  "pagina_pdf": 165,
+  "fichero": "S-271.png",
+  "px": [
+   452,
+   440
+  ]
+ },
+ {
+  "codigo": "S-300",
+  "nombre_ocr": "Poblaciones de uno o varios itinerarios por carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica los nombres de poblaciones situadas en uno O varios itinerarios constituidos por una carretera convencional o una carretera multicarril y el sentido por el que aquéllas se alcanzan. Dentro de la señal puede figurar uno o varios cajetines acompañando a los destinos, que definen la categoría y número de la carretera. Las cifras alineadas con los destinos indican la distancia existente a los mismos expresada en kilómetros.",
+  "pagina_pdf": 167,
+  "fichero": "S-300.png",
+  "px": [
+   466,
+   294
+  ]
+ },
+ {
+  "codigo": "S-301",
+  "nombre_ocr": "Poblaciones de un itinerario por autopista o autovía",
+  "texto_ocr": "Indica los nombres de poblaciones situadas en un itinerario constituido por una autopista o una autovía y el sentido en el que aquéllas se alcanzan. El cajetín situado dentro de la señal define la categoría y número de la carretera. Las cifras alineadas con los destinos indican la distancia existente a los mismos expresada en kilómetros.",
+  "pagina_pdf": 167,
+  "fichero": "S-301.png",
+  "px": [
+   463,
+   146
+  ]
+ },
+ {
+  "codigo": "S-320",
+  "nombre_ocr": "Lugares de interés por carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica lugares de interés que no son poblaciones situados en un itinerario constituido por una carretera convencional o una carretera multicarril. Las cifras alineadas con los destinos indican la distancia existente a los mismos expresada en kilómetros.",
+  "pagina_pdf": 167,
+  "fichero": "S-320.png",
+  "px": [
+   419,
+   309
+  ]
+ },
+ {
+  "codigo": "S-321",
+  "nombre_ocr": "Lugares de interés por autopista o autovía",
+  "texto_ocr": "Indica lugares de interés que no son poblaciones situados en un itinerario constituido por una autopista o una autovía. Las cifras alineadas con los destinos indican la distancia existente a los mismos expresada en kilómetros.",
+  "pagina_pdf": 168,
+  "fichero": "S-321.png",
+  "px": [
+   488,
+   271
+  ]
+ },
+ {
+  "codigo": "S-322",
+  "nombre_ocr": "Señal de destino hacia una vía ciclista o senda ciclopeatonal",
+  "texto_ocr": "Indica la existencia en la dirección apuntada por la flecha de una vía ciclista o una senda ciclopeatonal. Las cifras alineadas con los destinos indican la distancia existente a los mismos expresada en kilómetros.",
+  "pagina_pdf": 168,
+  "fichero": "S-322.png",
+  "px": [
+   554,
+   349
+  ]
+ },
+ {
+  "codigo": "S-341",
+  "nombre_ocr": "Señales de destino de salida inmediata hacia carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica el lugar de salida de una autopista o una autovía hacia una carretera convencional o una carretera multicarril. La cifra indica el número del enlace, que se corresponde con el punto kilométrico de la carretera.",
+  "pagina_pdf": 168,
+  "fichero": "S-341.png",
+  "px": [
+   467,
+   161
+  ]
+ },
+ {
+  "codigo": "S-342",
+  "nombre_ocr": "Señales de destino de salida inmediata hacia autopista o autovía",
+  "texto_ocr": "Indica el lugar de salida de una autopista o una autovía hacia una autopista o una autovía. La cifra indica el número del enlace, que se corresponde con el punto kilométrico de la carretera.",
+  "pagina_pdf": 168,
+  "fichero": "S-342.png",
+  "px": [
+   466,
+   160
+  ]
+ },
+ {
+  "codigo": "S-344",
+  "nombre_ocr": "Señales de destino de salida inmediata, exclusiva o compartida con carretera convencional o carretera multicarril, hacia los servicios indicados",
+  "texto_ocr": "Indica el lugar de salida hacia los servicios señalizados, pudiendo esta ser coincidente con una salida hacia una carretera convencional o una carretera multicarril.",
+  "pagina_pdf": 169,
+  "fichero": "S-344.png",
+  "px": [
+   534,
+   136
+  ]
+ },
+ {
+  "codigo": "S-347",
+  "nombre_ocr": "Señales de destino de salida inmediata hacia los servicios indicados, con salida compartida hacia autopista o autovía",
+  "texto_ocr": "Indica el lugar de salida hacia una zona, área o vía de servicios, siendo esta coincidente con una salida hacia una autopista o una autovía.",
+  "pagina_pdf": 169,
+  "fichero": "S-347.png",
+  "px": [
+   557,
+   139
+  ]
+ },
+ {
+  "codigo": "S-348",
+  "nombre_ocr": "Señalización de salida inmediata, con cartel lateral, en carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, los destinos de las salidas del próximo nudo cuando estas dirigen hacia una carretera convencional o una carretera multicarril.",
+  "pagina_pdf": 169,
+  "fichero": "S-348.png",
+  "px": [
+   437,
+   243
+  ]
+ },
+ {
+  "codigo": "S-348a",
+  "nombre_ocr": "Señalización de salida inmediata, con cartel lateral, en carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril y dirección propia",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de las salidas del próximo nudo cuando estas dirigen hacia una carretera convencional o una carretera multicarril.",
+  "pagina_pdf": 170,
+  "fichero": "S-348a.png",
+  "px": [
+   533,
+   343
+  ]
+ },
+ {
+  "codigo": "S-349",
+  "nombre_ocr": "Señalización de salida inmediata, con cartel lateral, en carretera convencional o carretera multicarril hacia autopista o autovía",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, los destinos de las salidas del próximo nudo cuando estas dirigen hacia una autopista o una autovía.",
+  "pagina_pdf": 170,
+  "fichero": "S-349.png",
+  "px": [
+   504,
+   247
+  ]
+ },
+ {
+  "codigo": "S-349a",
+  "nombre_ocr": "Señalización de salida inmediata, con cartel lateral, en carretera convencional o carretera multicarril hacia autopista o autovía y dirección propia",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de las salidas del próximo nudo cuando estas dirigen hacia una autopista o una autovía.",
+  "pagina_pdf": 170,
+  "fichero": "S-349a.png",
+  "px": [
+   535,
+   401
+  ]
+ },
+ {
+  "codigo": "S-350",
+  "nombre_ocr": "Señalización de salida inmediata, con cartel sobre la calzada, en carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril",
+  "texto_ocr": ") Indica, en una carretera convencional o una carretera multicarril, los destinos de la salida del próximo nudo cuando esta dirige hacia una carretera convencional o una carretera multicarril.",
+  "pagina_pdf": 171,
+  "fichero": "S-350.png",
+  "px": [
+   322,
+   272
+  ]
+ },
+ {
+  "codigo": "S-350a",
+  "nombre_ocr": "Señalización de salida inmediata, con carteles sobre la calzada, en carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril y dirección propia",
+  "texto_ocr": "Y - Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo nudo cuando esta dirige hacia una carretera convencional o una carretera multicarril.",
+  "pagina_pdf": 171,
+  "fichero": "S-350a.png",
+  "px": [
+   402,
+   170
+  ]
+ },
+ {
+  "codigo": "S-351",
+  "nombre_ocr": "Señalización de salida inmediata, con cartel sobre la calzada, en carretera convencional o carretera multicarril hacia autopista o autovía",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, los destinos de la salida del próximo nudo cuando esta dirige hacia una autopista o una autovía.",
+  "pagina_pdf": 171,
+  "fichero": "S-351.png",
+  "px": [
+   280,
+   373
+  ]
+ },
+ {
+  "codigo": "S-351a",
+  "nombre_ocr": "Señalización de salida inmediata, con carteles sobre la calzada, en carretera convencional o carretera multicarril hacia autopista o autovía y dirección propia",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo nudo cuando esta dirige hacia una autopista o una autovía.",
+  "pagina_pdf": 172,
+  "fichero": "S-351a.png",
+  "px": [
+   693,
+   219
+  ]
+ },
+ {
+  "codigo": "S-352",
+  "nombre_ocr": "Señalización de salida inmediata, con cartel sobre la calzada, en autopista o autovía hacia carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica, en una autopista o una autovía, los destinos de la salida del próximo enlace cuando esta dirige hacia una carretera convencional o hacia una carretera multicarril. También indica el número de salida y en su caso la letra.",
+  "pagina_pdf": 172,
+  "fichero": "S-352.png",
+  "px": [
+   482,
+   330
+  ]
+ },
+ {
+  "codigo": "S-352a",
+  "nombre_ocr": "Señalización de salida inmediata, con carteles sobre la calzada, en autopista o autovía hacia carretera convencional O carretera multicarril y dirección propia",
+  "texto_ocr": "Indica, en una autopista o una autovía, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo enlace cuando esta dirige hacia una carretera convencional o una carretera multicarril. También indica el número de salida y en su caso la letra.",
+  "pagina_pdf": 172,
+  "fichero": "S-352a.png",
+  "px": [
+   687,
+   228
+  ]
+ },
+ {
+  "codigo": "S-353",
+  "nombre_ocr": "S-353 Señalización de salida inmediata, con cartel sobre la calzada, en autopista o autovía hacia autopista o autovía. Indica, en una autopista o una autovía, los destinos de la salida del próximo enlace cuando esta dirige hacia una autopista o una autovía. También indica el número de salida y en su caso la letra",
+  "texto_ocr": "",
+  "pagina_pdf": 173,
+  "fichero": "S-353.png",
+  "px": [
+   80,
+   376
+  ]
+ },
+ {
+  "codigo": "S-353a",
+  "nombre_ocr": "Señalización de salida inmediata, con carteles sobre la calzada, en autopista o autovía hacia autopista o autovía y dirección propia",
+  "texto_ocr": "fe ¡[AP-36 Indica, en una autopista o una autovía, la Albacete dirección propia de la carretera por la que se sé Ml circula y los destinos de la salida del próximo enlace cuando esta dirige hacia una autopista o una autovía. También indica el número de salida y en su caso la letra.",
+  "pagina_pdf": 173,
+  "fichero": "S-353a.png",
+  "px": [
+   260,
+   319
+  ]
+ },
+ {
+  "codigo": "S-373",
+  "nombre_ocr": "Señalización de la primera salida inmediata de dos muy próximas, con carteles sobre la calzada, en autopista o autovía hacia carretera convencional o carretera multicarril, destinos de la segunda salida y dirección propia",
+  "texto_ocr": "Indica, en la primera salida de dos muy próximas en una autopista o una autovía, la dirección propia de la carretera por la que se circula (cartel izquierdo y central), los destinos de la segunda salida (cartel central) y los destinos de la primera salida cuando esta dirige hacia una carretera convencional o una carretera multicarril (cartel derecho). También indica el número de salida y en su caso la letra.",
+  "pagina_pdf": 174,
+  "fichero": "S-373.png",
+  "px": [
+   748,
+   172
+  ]
+ },
+ {
+  "codigo": "S-375",
+  "nombre_ocr": "Señalización de la primera salida inmediata de dos muy próximas, con carteles sobre la calzada, en autopista o autovía hacia autopista o autovía, destinos de la segunda salida y dirección propia",
+  "texto_ocr": "Indica, en la primera salida de dos muy próximas en una autopista o una autovía, la dirección propia de la carretera por la que se circula (cartel izquierdo y central), los destinos de la segunda salida (cartel central) y los destinos de la primera salida cuando esta dirige hacia una autopista o una autovía (cartel derecho). También indica el número de salida y en su caso la letra.",
+  "pagina_pdf": 174,
+  "fichero": "S-375.png",
+  "px": [
+   705,
+   225
+  ]
+ },
+ {
+  "codigo": "S-376",
+  "nombre_ocr": "Señalización de salida inmediata a servicios en carreteras convencionales con elevada intensidad de tráfico y en todas las carreteras multicarril",
+  "texto_ocr": "Indica en carreteras convencionales con tráfico elevado y en todas las carreteras multicarril, la salida hacia los servicios señalizados. Si estos se encuentran ubicados en una población, el nombre de la misma podrá figurar en la primera línea del cartel y si están emplazados en una vía de servicio figurará la inscripción “vía de servicio”. En caso de que entre los servicios exista una estación de servicio y/o una estación de recarga, se indicará la distancia hasta la misma así como su horario de apertura. En el subcartel inferior figurará la distancia y horario de apertura de la siguiente estación de servicio y/o estación de recarga en el sentido de la marcha.",
+  "pagina_pdf": 175,
+  "fichero": "S-376.png",
+  "px": [
+   518,
+   1148
+  ]
+ },
+ {
+  "codigo": "S-377",
+  "nombre_ocr": "Señalización de salida inmediata a servicios en el resto de carreteras convencionales",
+  "texto_ocr": "Indica, en el resto de carreteras convencionales, la salida hacia los servicios señalizados. En caso de que entre ellos exista una estación de servicio y/o una estación de recarga se indicará su horario de apertura.",
+  "pagina_pdf": 175,
+  "fichero": "S-377.png",
+  "px": [
+   463,
+   249
+  ]
+ },
+ {
+  "codigo": "S-378",
+  "nombre_ocr": "Señalización de salida inmediata a servicios en autopista o autovía",
+  "texto_ocr": "Indica, en una autopista o una autovía, la salida hacia los servicios señalizados. Si estos se encuentran ubicados en una población, el nombre de la misma podrá figurar en la primera línea del cartel y si están emplazados en una vía de servicio figurará la inscripción “vía de servicio”. En caso de que entre los servicios exista una estación de servicio y/o una estación de recarga, se indicará la distancia hasta la misma, así como su horario de apertura. En el subcartel inferior figurará la distancia y horario de apertura de la siguiente estación de servicio y/o estación de recarga en el sentido de la marcha. En el subcartel superior figurará el número de salida.",
+  "pagina_pdf": 176,
+  "fichero": "S-378.png",
+  "px": [
+   466,
+   1054
+  ]
+ },
+ {
+  "codigo": "S-379",
+  "nombre_ocr": "Señalización de salida inmediata hacia un área de servicios",
+  "texto_ocr": "Indica, en una autopista o una autovía, la salida hacia un área de servicio, figurando su nombre y horario de apertura además de los pictogramas de los servicios que ofrece. En el subcartel inferior figurará la distancia y el horario de apertura de la siguiente área de servicio en el sentido de la marcha.",
+  "pagina_pdf": 176,
+  "fichero": "S-379.png",
+  "px": [
+   507,
+   444
+  ]
+ },
+ {
+  "codigo": "S-380",
+  "nombre_ocr": "Señal de destino de salida inmediata hacia un área de servicios",
+  "texto_ocr": "Indica el lugar de salida de una autopista o una autovía hacia un área de servicios.",
+  "pagina_pdf": 176,
+  "fichero": "S-380.png",
+  "px": [
+   534,
+   197
+  ]
+ },
+ {
+  "codigo": "S-400",
+  "nombre_ocr": "Itinerario de la red internacional «E»",
+  "texto_ocr": "Identifica un itinerario de la red internacional «E».",
+  "pagina_pdf": 178,
+  "fichero": "S-400.png",
+  "px": [
+   283,
+   123
+  ]
+ },
+ {
+  "codigo": "S-410",
+  "nombre_ocr": "Autopista y autovía",
+  "texto_ocr": "Identifica una autopista o una autovía. Cuando esta pertenezca a una administración autonómica, además de la letra A y a continuación del número correspondiente o bien encima de la señal con un panel complementario, pueden incluirse las siglas de identificación de la comunidad autónoma. Ninguna carretera que no tenga características de autopista o autovía podrá ser identificada con la letra A. Cuando la autopista o autovía sea una ronda o circunvalación, la letra A podrá sustituirse por las letras indicativas de la ciudad, de acuerdo con el código establecido al efecto por el Ministerio de Fomento.",
+  "pagina_pdf": 178,
+  "fichero": "S-410.png",
+  "px": [
+   285,
+   117
+  ]
+ },
+ {
+  "codigo": "S-410a",
+  "nombre_ocr": "Autopista de peaje",
+  "texto_ocr": "Identifica una autopista de peaje. A las autopistas de peaje pertenecientes a una administración autonómica se les aplicará en cuanto a su nomenclatura las mismas reglas que las establecidas para la señal S-410.",
+  "pagina_pdf": 178,
+  "fichero": "S-410a.png",
+  "px": [
+   289,
+   123
+  ]
+ },
+ {
+  "codigo": "S-420",
+  "nombre_ocr": "Carretera convencional o carretera multicarril de la red del Estado",
+  "texto_ocr": "Identifica una carretera de la red del Estado que no sea autopista o autovía.",
+  "pagina_pdf": 178,
+  "fichero": "S-420.png",
+  "px": [
+   339,
+   120
+  ]
+ },
+ {
+  "codigo": "S-430",
+  "nombre_ocr": "Carretera de primer nivel perteneciente a una red diferente de la del Estado",
+  "texto_ocr": "Identifica una carretera de primer nivel, que no sea autopista o autovía, perteneciente a una red diferente de la del Estado.",
+  "pagina_pdf": 178,
+  "fichero": "S-430.png",
+  "px": [
+   335,
+   110
+  ]
+ },
+ {
+  "codigo": "S-440",
+  "nombre_ocr": "Carretera de segundo nivel perteneciente a una red diferente de la del Estado",
+  "texto_ocr": "Identifica una carretera de segundo nivel, que no sea autopista o autovía, perteneciente a una red diferente de la del Estado.",
+  "pagina_pdf": 179,
+  "fichero": "S-440.png",
+  "px": [
+   340,
+   96
+  ]
+ },
+ {
+  "codigo": "S-450",
+  "nombre_ocr": "Carretera de tercer nivel perteneciente a una red diferente de la del Estado",
+  "texto_ocr": "Identifica una carretera de tercer nivel, que no sea autopista o autovía, perteneciente a una red diferente de la del Estado.",
+  "pagina_pdf": 179,
+  "fichero": "S-450.png",
+  "px": [
+   298,
+   97
+  ]
+ },
+ {
+  "codigo": "S-500",
+  "nombre_ocr": "Entrada a poblado",
+  "texto_ocr": "Indica el nombre de la población a la que se accede, así como el lugar a partir del cual rigen las normas de circulación en poblado. El subcartel superior refuerza el mensaje de que debe adaptarse la conducción ante la presencia de peatones, ciclistas u otras personas usuarias vulnerables. Además, podrá incluirse la velocidad máxima permitida en esa vía a partir de ese punto, con independencia de que en otras vías del poblado puedan existir límites diferentes.",
+  "pagina_pdf": 181,
+  "fichero": "S-500.png",
+  "px": [
+   486,
+   310
+  ]
+ },
+ {
+  "codigo": "S-510",
+  "nombre_ocr": "Fin de poblado",
+  "texto_ocr": "Indica el nombre de la población de la que se sale, así como el lugar desde donde dejan de ser aplicables las normas de circulación en poblado.",
+  "pagina_pdf": 181,
+  "fichero": "S-510.png",
+  "px": [
+   466,
+   139
+  ]
+ },
+ {
+  "codigo": "S-520",
+  "nombre_ocr": "Localización de puntos geográficos atravesados por la vía",
+  "texto_ocr": "Indica el lugar donde la vía atraviesa un punto geográfico característico.",
+  "pagina_pdf": 181,
+  "fichero": "S-520.png",
+  "px": [
+   490,
+   458
+  ]
+ },
+ {
+  "codigo": "S-530",
+  "nombre_ocr": "Localización de un túnel en carretera convencional o carretera multicarril con información sobre sus instalaciones de seguridad",
+  "texto_ocr": "Indica la localización de un túnel en una carretera convencional o una carretera multicarril incluyendo información sobre sus instalaciones de seguridad, así como su longitud.",
+  "pagina_pdf": 181,
+  "fichero": "S-530.png",
+  "px": [
+   465,
+   260
+  ]
+ },
+ {
+  "codigo": "S-531",
+  "nombre_ocr": "Localización de un túnel en autopista o autovía con información sobre sus instalaciones de seguridad",
+  "texto_ocr": "Indica la localización de un túnel en una autopista o una autovía incluyendo información sobre sus instalaciones de seguridad, así como su longitud.",
+  "pagina_pdf": 182,
+  "fichero": "S-531.png",
+  "px": [
+   479,
+   255
+  ]
+ },
+ {
+  "codigo": "S-532",
+  "nombre_ocr": "Localización de túnel en carretera convencional o carretera multicarril con información sobre las obligaciones específicas de circulación dentro del mismo",
+  "texto_ocr": "Indica la localización de un túnel en una carretera convencional o una carretera multicarril incluyendo la información sobre las obligaciones específicas de circulación dentro del mismo.",
+  "pagina_pdf": 182,
+  "fichero": "S-532.png",
+  "px": [
+   443,
+   272
+  ]
+ },
+ {
+  "codigo": "S-533",
+  "nombre_ocr": "Localización de túnel en autopista o autovía con información sobre las obligaciones específicas de circulación dentro del mismo",
+  "texto_ocr": "Indica la localización de un túnel en una autopista o una autovía incluyendo la información sobre las obligaciones específicas de circulación dentro del mismo.",
+  "pagina_pdf": 182,
+  "fichero": "S-533.png",
+  "px": [
+   489,
+   268
+  ]
+ },
+ {
+  "codigo": "S-540",
+  "nombre_ocr": "Situación de límite de provincia",
+  "texto_ocr": "Indica el lugar a partir del cual la vía entra en la provincia indicada",
+  "pagina_pdf": 182,
+  "fichero": "S-540.png",
+  "px": [
+   422,
+   188
+  ]
+ },
+ {
+  "codigo": "S-550",
+  "nombre_ocr": "Situación de límite de comunidad autónoma",
+  "texto_ocr": "Indica el lugar a partir del cual la vía entra en la comunidad autónoma indicada",
+  "pagina_pdf": 182,
+  "fichero": "S-550.png",
+  "px": [
+   479,
+   180
+  ]
+ },
+ {
+  "codigo": "S-551",
+  "nombre_ocr": "Situación de límite de demarcación hidrográfica",
+  "texto_ocr": "Indica el lugar a partir del cual la vía entra en la demarcación hidrográfica indicada",
+  "pagina_pdf": 183,
+  "fichero": "S-551.png",
+  "px": [
+   524,
+   237
+  ]
+ },
+ {
+  "codigo": "S-560",
+  "nombre_ocr": "Situación de límite de comunidad autónoma y provincia",
+  "texto_ocr": "Indica el lugar a partir del cual la vía entra en la comunidad autónoma y provincia indicadas.",
+  "pagina_pdf": 183,
+  "fichero": "S-560.png",
+  "px": [
+   467,
+   313
+  ]
+ },
+ {
+  "codigo": "S-561",
+  "nombre_ocr": "Cartel institucional en carretera convencional o carretera multicarril",
+  "texto_ocr": "Señal ¡indicativa de la titularidad, numeración y denominación de la carretera convencional o la carretera multicarril a la que se accede. Si la carretera no tiene denominación, el cartel contendrá el texto “Carretera” seguido del cajetín identificativo.",
+  "pagina_pdf": 183,
+  "fichero": "S-561.png",
+  "px": [
+   536,
+   169
+  ]
+ },
+ {
+  "codigo": "S-562",
+  "nombre_ocr": "Cartel institucional en autopista o autovía",
+  "texto_ocr": "Señal indicativa de la titularidad, numeración y denominación de la autopista o la autovía a la que se accede. Si la autopista o la autovía no tienen denominación, el cartel contendrá el texto “Autopista” o “Autovía” seguido del cajetín identificativo.",
+  "pagina_pdf": 183,
+  "fichero": "S-562.png",
+  "px": [
+   551,
+   225
+  ]
+ },
+ {
+  "codigo": "S-570",
+  "nombre_ocr": "Hito kilométrico en autopista o autovía",
+  "texto_ocr": "Indica el punto kilométrico de la autopista o la autovía cuya identificación aparece en la parte superior.",
+  "pagina_pdf": 183,
+  "fichero": "S-570.png",
+  "px": [
+   191,
+   193
+  ]
+ },
+ {
+  "codigo": "S-570a",
+  "nombre_ocr": "Hito kilométrico en autopista de peaje",
+  "texto_ocr": "Indica el punto kilométrico de la autopista de peaje cuya identificación aparece en la parte superior.",
+  "pagina_pdf": 184,
+  "fichero": "S-570a.png",
+  "px": [
+   180,
+   179
+  ]
+ },
+ {
+  "codigo": "S-571",
+  "nombre_ocr": "Hito kilométrico en autopista o autovía perteneciente a un itinerario internacional",
+  "texto_ocr": "Indica el punto kilométrico de la autopista o la autovía perteneciente a un itinerario internacional cuya identificación aparece en la parte superior de la señal.",
+  "pagina_pdf": 184,
+  "fichero": "S-571.png",
+  "px": [
+   187,
+   244
+  ]
+ },
+ {
+  "codigo": "S-572",
+  "nombre_ocr": "Hito kilométrico en carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica el punto kilométrico de una carretera convencional o una carretera multicarril cuya identificación aparece en la parte superior sobre el fondo del color que corresponda a la categoría de la carretera.",
+  "pagina_pdf": 184,
+  "fichero": "S-572.png",
+  "px": [
+   352,
+   751
+  ]
+ },
+ {
+  "codigo": "S-573",
+  "nombre_ocr": "Hito kilométrico en carretera convencional o carretera multicarril perteneciente a un itinerario internacional",
+  "texto_ocr": "Indica el punto kilométrico de una carretera convencional o una carretera multicarril perteneciente a un itinerario internacional, cuyas letras y números aparecen en la parte superior de la señal.",
+  "pagina_pdf": 184,
+  "fichero": "S-573.png",
+  "px": [
+   149,
+   281
+  ]
+ },
+ {
+  "codigo": "S-574",
+  "nombre_ocr": "Hito miriamétrico en carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica el punto kilométrico de una carretera convencional o una carretera multicarril cuando aquel es múltiplo de diez.",
+  "pagina_pdf": 185,
+  "fichero": "S-574.png",
+  "px": [
+   118,
+   525
+  ]
+ },
+ {
+  "codigo": "S-574a",
+  "nombre_ocr": "Hito miriamétrico en autopista o autovía",
+  "texto_ocr": "Indica el punto kilométrico de una autopista o una autovía cuando aquel es múltiplo de diez.",
+  "pagina_pdf": 185,
+  "fichero": "S-574a.png",
+  "px": [
+   126,
+   548
+  ]
+ },
+ {
+  "codigo": "S-574b",
+  "nombre_ocr": "Hito miriamétrico en autopista de peaje",
+  "texto_ocr": "Indica el punto kilométrico de una autopista de peaje cuando aquel es múltiplo de diez.",
+  "pagina_pdf": 185,
+  "fichero": "S-574b.png",
+  "px": [
+   117,
+   518
+  ]
+ },
+ {
+  "codigo": "S-574c",
+  "nombre_ocr": "Hito miriamétrico en carretera convencional o carretera multicarril perteneciente a un itinerario internacional",
+  "texto_ocr": "Indica el punto kilométrico cuando aquel es múltiplo de diez en una carretera convencional o una carretera multicarril perteneciente a un itinerario internacional, cuya identificación aparece en la parte superior de la señal.",
+  "pagina_pdf": 185,
+  "fichero": "S-574c.png",
+  "px": [
+   125,
+   525
+  ]
+ },
+ {
+  "codigo": "S-574d",
+  "nombre_ocr": "Hito miriamétrico en autopista o autovía perteneciente a un itinerario internacional",
+  "texto_ocr": "Indica el punto kilométrico cuando aquel es múltiplo de diez en una autopista o una autovía perteneciente a un itinerario internacional, cuya identificación aparece en la parte superior de la señal.",
+  "pagina_pdf": 186,
+  "fichero": "S-574d.png",
+  "px": [
+   132,
+   560
+  ]
+ },
+ {
+  "codigo": "S-574e",
+  "nombre_ocr": "Hito miriamétrico en autopista de peaje perteneciente a un itinerario internacional",
+  "texto_ocr": "Indica el punto kilométrico cuando aquel es múltiplo de diez en una autopista de peaje que, además, forma parte de un itinerario internacional, cuya identificación aparece en la parte superior de la señal.",
+  "pagina_pdf": 186,
+  "fichero": "S-574e.png",
+  "px": [
+   126,
+   536
+  ]
+ },
+ {
+  "codigo": "S-575",
+  "nombre_ocr": "Hito miriamétrico en carreteras no pertenecientes a la red del Estado",
+  "texto_ocr": "Indica el punto kilométrico de una carretera que no es autopista ni autovía, perteneciente a una red diferente a la del Estado, cuando aquel es múltiplo de diez. Su color se corresponderá con el de la categoría de dicha carretera.",
+  "pagina_pdf": 186,
+  "fichero": "S-575.png",
+  "px": [
+   478,
+   588
+  ]
+ },
+ {
+  "codigo": "S-600",
+  "nombre_ocr": "Confirmación de poblaciones en un itinerario por carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica, en una carretera convencional o una carretera multicarril, los nombres de poblaciones de ese itinerario y las correspondientes distancias en kilómetros.",
+  "pagina_pdf": 188,
+  "fichero": "S-600.png",
+  "px": [
+   509,
+   288
+  ]
+ },
+ {
+  "codigo": "S-602",
+  "nombre_ocr": "Confirmación de poblaciones en un itinerario por autopista o autovía",
+  "texto_ocr": "Indica, en una autopista o una autovía, los nombres de poblaciones de ese itinerario y las correspondientes distancias en kilómetros.",
+  "pagina_pdf": 188,
+  "fichero": "S-602.png",
+  "px": [
+   507,
+   278
+  ]
+ },
+ {
+  "codigo": "S-603",
+  "nombre_ocr": "Confirmación complementaria con preseñalización de salida",
+  "texto_ocr": "Indica en una autopista o una autovía los nombres de capitales de provincia no adyacentes a la autopista o a la autovía por la que se circula y las correspondientes distancias en kilómetros. Asimismo, figurarán los cajetines identificativos de las autovías o las autopistas por las que se accede a dichas poblaciones. En los subcarteles superiores figurará además el número de salida correspondiente y la distancia existente a dicha salida.",
+  "pagina_pdf": 188,
+  "fichero": "S-603.png",
+  "px": [
+   581,
+   289
+  ]
+ },
+ {
+  "codigo": "S-700",
+  "nombre_ocr": "Lugares de la red viaria urbana",
+  "texto_ocr": "Indica los nombres de calles, avenidas, plazas, glorietas o de cualquier otro punto de la red viaria.",
+  "pagina_pdf": 190,
+  "fichero": "S-700.png",
+  "px": [
+   467,
+   116
+  ]
+ },
+ {
+  "codigo": "S-710",
+  "nombre_ocr": "Lugares de interés para viajeros",
+  "texto_ocr": "Indica los lugares de interés para los viajeros, tales como estaciones, aeropuertos, zonas de embarque de los puertos, hoteles, campamentos, oficinas de turismo y automóvil club.",
+  "pagina_pdf": 190,
+  "fichero": "S-710.png",
+  "px": [
+   467,
+   115
+  ]
+ },
+ {
+  "codigo": "S-720",
+  "nombre_ocr": "Lugares de interés deportivo o recreativo",
+  "texto_ocr": "Indica los lugares en que predomina un interés deportivo o recreativo.",
+  "pagina_pdf": 190,
+  "fichero": "S-720.png",
+  "px": [
+   467,
+   117
+  ]
+ },
+ {
+  "codigo": "S-730",
+  "nombre_ocr": "Lugares de carácter geográfico o ecológico y de interés monumental, histórico o artístico",
+  "texto_ocr": "Indica lugares de tipo geográfico, de interés ecológico o de interés monumental, histórico o artístico tales como monumentos, castillos, monasterios, museos, palacios, etc.",
+  "pagina_pdf": 190,
+  "fichero": "S-730.png",
+  "px": [
+   467,
+   255
+  ]
+ },
+ {
+  "codigo": "S-740",
+  "nombre_ocr": "Lugares de interés cultural",
+  "texto_ocr": "Indica los lugares de interés cultural tales como universidades, centros culturales, bibliotecas, teatros, etc.",
+  "pagina_pdf": 190,
+  "fichero": "S-740.png",
+  "px": [
+   488,
+   108
+  ]
+ },
+ {
+  "codigo": "S-750",
+  "nombre_ocr": "Zonas de uso industrial",
+  "texto_ocr": "Indica las zonas de importante atracción de camiones, mercancías y, en general, tráfico industrial pesado.",
+  "pagina_pdf": 190,
+  "fichero": "S-750.png",
+  "px": [
+   488,
+   108
+  ]
+ },
+ {
+  "codigo": "S-760",
+  "nombre_ocr": "Autopistas y autovías",
+  "texto_ocr": "Indica las autopistas y autovías y los lugares a los que por ellas puede accederse.",
+  "pagina_pdf": 190,
+  "fichero": "S-760.png",
+  "px": [
+   467,
+   117
+  ]
+ },
+ {
+  "codigo": "S-770",
+  "nombre_ocr": "Otros lugares y vías",
+  "texto_ocr": "Indica las carreteras que no sean autopistas o autovías y los poblados a los que por ellas pueda accederse, así como otros lugares de interés público no comprendidos en las señales S- 700 a S-760.",
+  "pagina_pdf": 191,
+  "fichero": "S-770.png",
+  "px": [
+   467,
+   115
+  ]
+ },
+ {
+  "codigo": "S-800",
+  "nombre_ocr": "Distancia al comienzo del peligro o prescripción",
+  "texto_ocr": "Indica la distancia desde el lugar donde está la señal a aquel en que comienza el peligro o comienza a regir la prescripción de aquella. En el caso de que esté colocada bajo la señal de advertencia de peligro por estrechamiento de calzada, puede indicar la anchura libre del citado estrechamiento.",
+  "pagina_pdf": 193,
+  "fichero": "S-800.png",
+  "px": [
+   408,
+   144
+  ]
+ },
+ {
+  "codigo": "S-810",
+  "nombre_ocr": "Longitud del tramo peligroso o sujeto a prescripción",
+  "texto_ocr": "Indica la longitud en la que existe el peligro o en la que se aplica la prescripción.",
+  "pagina_pdf": 193,
+  "fichero": "S-810.png",
+  "px": [
+   405,
+   145
+  ]
+ },
+ {
+  "codigo": "S-820",
+  "nombre_ocr": "Extensión de la prohibición, a un lado",
+  "texto_ocr": "Colocada bajo una señal de prohibición, indica la distancia en que se aplica esta prohibición en el sentido de la flecha.",
+  "pagina_pdf": 193,
+  "fichero": "S-820.png",
+  "px": [
+   305,
+   144
+  ]
+ },
+ {
+  "codigo": "S-821",
+  "nombre_ocr": "Extensión de la prohibición, a un lado",
+  "texto_ocr": "Colocada bajo una señal de prohibición, indica la distancia en que se aplica esta prohibición en el sentido de la flecha.",
+  "pagina_pdf": 193,
+  "fichero": "S-821.png",
+  "px": [
+   305,
+   143
+  ]
+ },
+ {
+  "codigo": "S-830",
+  "nombre_ocr": "Extensión de la prohibición, a ambos lados",
+  "texto_ocr": "Colocada bajo una señal de prohibición, indica las distancias en que se aplica esta prohibición en cada sentido indicado por las flechas.",
+  "pagina_pdf": 193,
+  "fichero": "S-830.png",
+  "px": [
+   306,
+   142
+  ]
+ },
+ {
+  "codigo": "S-840",
+  "nombre_ocr": "Preseñalización de detención obligatoria",
+  "texto_ocr": "Colocada bajo la señal de ceda el paso, indica la distancia a que se encuentra la señal de detención obligatoria o stop de la próxima intersección.",
+  "pagina_pdf": 193,
+  "fichero": "S-840.png",
+  "px": [
+   408,
+   145
+  ]
+ },
+ {
+  "codigo": "S-850",
+  "nombre_ocr": "Itinerario con prioridad",
+  "texto_ocr": "Panel adicional de la señal R-3, que indica el itinerario con prioridad.",
+  "pagina_pdf": 194,
+  "fichero": "S-850.png",
+  "px": [
+   183,
+   183
+  ]
+ },
+ {
+  "codigo": "S-851",
+  "nombre_ocr": "Itinerario con prioridad",
+  "texto_ocr": "Panel adicional de la señal R-3, que indica el itinerario con prioridad.",
+  "pagina_pdf": 194,
+  "fichero": "S-851.png",
+  "px": [
+   183,
+   183
+  ]
+ },
+ {
+  "codigo": "S-852",
+  "nombre_ocr": "Itinerario con prioridad",
+  "texto_ocr": "Panel adicional de la señal R-3, que indica el itinerario con prioridad.",
+  "pagina_pdf": 194,
+  "fichero": "S-852.png",
+  "px": [
+   183,
+   184
+  ]
+ },
+ {
+  "codigo": "S-853",
+  "nombre_ocr": "Itinerario con prioridad",
+  "texto_ocr": "Panel adicional de la señal R-3, que indica el itinerario con prioridad.",
+  "pagina_pdf": 194,
+  "fichero": "S-853.png",
+  "px": [
+   183,
+   183
+  ]
+ },
+ {
+  "codigo": "S-860",
+  "nombre_ocr": "Genérico",
+  "texto_ocr": "Panel para cualquier otra aclaración o delimitación de la señal o semáforo bajo el que esté colocado.",
+  "pagina_pdf": 194,
+  "fichero": "S-860.png",
+  "px": [
+   291,
+   198
+  ]
+ },
+ {
+  "codigo": "S-870a",
+  "nombre_ocr": "Aplicación de la señalización",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se aplica solamente en el ramal de salida cuya dirección coincide aproximadamente con la de la flecha.",
+  "pagina_pdf": 194,
+  "fichero": "S-870a.png",
+  "px": [
+   237,
+   126
+  ]
+ },
+ {
+  "codigo": "S-870b",
+  "nombre_ocr": "Aplicación de la señalización",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se aplica solamente en el ramal de salida cuya dirección coincide aproximadamente con la de la flecha.",
+  "pagina_pdf": 194,
+  "fichero": "S-870b.png",
+  "px": [
+   237,
+   125
+  ]
+ },
+ {
+  "codigo": "S-880a",
+  "nombre_ocr": "Aplicación de señalización a camiones",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se refiere exclusivamente a camiones.",
+  "pagina_pdf": 195,
+  "fichero": "S-880a.png",
+  "px": [
+   358,
+   167
+  ]
+ },
+ {
+  "codigo": "S-880b",
+  "nombre_ocr": "Aplicación de señalización a vehículos con remolque exceptuando los de un solo eje",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se refiere exclusivamente a vehículos con remolque a excepción de los de un solo eje.",
+  "pagina_pdf": 195,
+  "fichero": "S-880b.png",
+  "px": [
+   351,
+   163
+  ]
+ },
+ {
+  "codigo": "S-880c",
+  "nombre_ocr": "Aplicación de señalización a autobuses",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se refiere exclusivamente a autobuses.",
+  "pagina_pdf": 195,
+  "fichero": "S-880c.png",
+  "px": [
+   367,
+   171
+  ]
+ },
+ {
+  "codigo": "S-880d",
+  "nombre_ocr": "Aplicación de señalización a ciclos",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se refiere exclusivamente a ciclos.",
+  "pagina_pdf": 195,
+  "fichero": "S-880d.png",
+  "px": [
+   372,
+   173
+  ]
+ },
+ {
+  "codigo": "S-880e",
+  "nombre_ocr": "Aplicación de señalización a vehículos de movilidad personal",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se refiere exclusivamente a vehículos de movilidad personal.",
+  "pagina_pdf": 195,
+  "fichero": "S-880e.png",
+  "px": [
+   338,
+   158
+  ]
+ },
+ {
+  "codigo": "S-880f",
+  "nombre_ocr": "Aplicación de señalización a ciclos y vehículos de movilidad personal",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se refiere exclusivamente a ciclos y vehículos de movilidad personal.",
+  "pagina_pdf": 195,
+  "fichero": "S-880f.png",
+  "px": [
+   352,
+   164
+  ]
+ },
+ {
+  "codigo": "S-890a",
+  "nombre_ocr": "Aplicación de la señalización a circunstancias de nieve",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se aplica únicamente cuando se den circunstancias de nieve.",
+  "pagina_pdf": 196,
+  "fichero": "S-890a.png",
+  "px": [
+   403,
+   186
+  ]
+ },
+ {
+  "codigo": "S-890b",
+  "nombre_ocr": "Aplicación de la señalización a circunstancias de lluvia",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se aplica únicamente cuando se den circunstancias de lluvia.",
+  "pagina_pdf": 196,
+  "fichero": "S-890b.png",
+  "px": [
+   403,
+   187
+  ]
+ },
+ {
+  "codigo": "S-890c",
+  "nombre_ocr": "Aplicación de la señalización a circunstancias de niebla",
+  "texto_ocr": "Indica, bajo la señal vertical correspondiente, que esta se aplica únicamente cuando se den circunstancias de niebla.",
+  "pagina_pdf": 196,
+  "fichero": "S-890c.png",
+  "px": [
+   406,
+   188
+  ]
+ },
+ {
+  "codigo": "S-891",
+  "nombre_ocr": "Distancia lateral en adelantamiento a ciclo o ciclomotor",
+  "texto_ocr": "Recuerda, bajo la señal vertical correspondiente, la anchura de seguridad mínima que debe guardarse en caso de adelantamiento a un ciclo o ciclomotor, o, en ambos casos, conjunto de ellos. Cuando se trate de un conjunto de ciclos o ciclomotores, la anchura se refiere al que circula más escorado a la izquierda.",
+  "pagina_pdf": 196,
+  "fichero": "S-891.png",
+  "px": [
+   399,
+   186
+  ]
+ },
+ {
+  "codigo": "S-892",
+  "nombre_ocr": "Vigilancia por medios automáticos",
+  "texto_ocr": "Indica la vigilancia mediante medios de captación y denuncia automáticos, del cumplimiento de lo establecido por la señal vertical a la que acompaña.",
+  "pagina_pdf": 196,
+  "fichero": "S-892.png",
+  "px": [
+   386,
+   179
+  ]
+ },
+ {
+  "codigo": "S-900",
+  "nombre_ocr": "Peligro de incendio",
+  "texto_ocr": "Advierte del peligro que representa encender un fuego.",
+  "pagina_pdf": 198,
+  "fichero": "S-900.png",
+  "px": [
+   239,
+   353
+  ]
+ },
+ {
+  "codigo": "S-910",
+  "nombre_ocr": "Extintor",
+  "texto_ocr": "Indica la situación de un extintor de incendios.",
+  "pagina_pdf": 198,
+  "fichero": "S-910.png",
+  "px": [
+   255,
+   255
+  ]
+ },
+ {
+  "codigo": "S-920",
+  "nombre_ocr": "Entrada a España",
+  "texto_ocr": "Indica que se ha entrado en territorio español por una carretera procedente de otro país.",
+  "pagina_pdf": 198,
+  "fichero": "S-920.png",
+  "px": [
+   274,
+   274
+  ]
+ },
+ {
+  "codigo": "S-930",
+  "nombre_ocr": "Confirmación del país",
+  "texto_ocr": "Indica el nombre del país hacia el que se dirige la carretera. La cifra en la parte inferior indica la distancia a la que se encuentra la frontera.",
+  "pagina_pdf": 198,
+  "fichero": "S-930.png",
+  "px": [
+   281,
+   344
+  ]
+ },
+ {
+  "codigo": "S-940",
+  "nombre_ocr": "Limitaciones de velocidad en España",
+  "texto_ocr": "Indica los límites genéricos de velocidad en las distintas clases de carreteras y en zona urbana en España.",
+  "pagina_pdf": 198,
+  "fichero": "S-940.png",
+  "px": [
+   426,
+   589
+  ]
+ },
+ {
+  "codigo": "S-950",
+  "nombre_ocr": "Radiofrecuencia de emisoras específicas de información sobre carreteras",
+  "texto_ocr": "Indica la frecuencia a que hay que conectar el receptor de radiofrecuencia para recibir información.",
+  "pagina_pdf": 199,
+  "fichero": "S-950.png",
+  "px": [
+   210,
+   311
+  ]
+ },
+ {
+  "codigo": "S-960",
+  "nombre_ocr": "Teléfono de emergencia",
+  "texto_ocr": "Indica la situación de un teléfono de emergencia.",
+  "pagina_pdf": 199,
+  "fichero": "S-960.png",
+  "px": [
+   265,
+   265
+  ]
+ },
+ {
+  "codigo": "S-970",
+  "nombre_ocr": "Teléfono de emergencia y extintor de incendios",
+  "texto_ocr": "Indica la situación de un extintor de incendios y teléfono de emergencia.",
+  "pagina_pdf": 199,
+  "fichero": "S-970.png",
+  "px": [
+   284,
+   194
+  ]
+ },
+ {
+  "codigo": "S-980",
+  "nombre_ocr": "Salida de emergencia",
+  "texto_ocr": "Indica la situación de una salida de emergencia.",
+  "pagina_pdf": 199,
+  "fichero": "S-980.png",
+  "px": [
+   179,
+   178
+  ]
+ },
+ {
+  "codigo": "S-980a",
+  "nombre_ocr": "Salida de emergencia contigua",
+  "texto_ocr": "Indica la posición en que se encuentra la salida de emergencia más cercana.",
+  "pagina_pdf": 199,
+  "fichero": "S-980a.png",
+  "px": [
+   248,
+   248
+  ]
+ },
+ {
+  "codigo": "S-980b",
+  "nombre_ocr": "Salida de emergencia contigua",
+  "texto_ocr": "Indica la posición en que se encuentra la salida de emergencia más cercana.",
+  "pagina_pdf": 199,
+  "fichero": "S-980b.png",
+  "px": [
+   248,
+   248
+  ]
+ },
+ {
+  "codigo": "S-990a",
+  "nombre_ocr": "Salida de emergencia próxima",
+  "texto_ocr": "Indica la dirección en que se encuentra la salida de emergencia más cercana y la distancia que resta hasta alcanzarla.",
+  "pagina_pdf": 200,
+  "fichero": "S-990a.png",
+  "px": [
+   342,
+   211
+  ]
+ },
+ {
+  "codigo": "S-990b",
+  "nombre_ocr": "Salida de emergencia próxima",
+  "texto_ocr": "Indica la dirección en que se encuentra la salida de emergencia más cercana y la distancia que resta hasta alcanzarla.",
+  "pagina_pdf": 200,
+  "fichero": "S-990b.png",
+  "px": [
+   330,
+   203
+  ]
+ },
+ {
+  "codigo": "S-991a",
+  "nombre_ocr": "Control de velocidad en carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica la existencia de un dispositivo de control de velocidad en un punto o tramo de una carretera convencional o una carretera multicarril. Podrá incluir una señal R-301 con el valor de la velocidad correspondiente, así como añadirse subcarteles superiores o inferiores con información adicional.",
+  "pagina_pdf": 200,
+  "fichero": "S-991a.png",
+  "px": [
+   449,
+   301
+  ]
+ },
+ {
+  "codigo": "S-991b",
+  "nombre_ocr": "Control de velocidad en autopista o autovía",
+  "texto_ocr": "Indica la existencia de un dispositivo de control de velocidad en punto o tramo de una autopista o una autovía. Podrá incluir una señal R-301 con el valor de la velocidad correspondiente, así como añadirse subcarteles superiores o inferiores con información adicional.",
+  "pagina_pdf": 200,
+  "fichero": "S-991b.png",
+  "px": [
+   462,
+   308
+  ]
+ },
+ {
+  "codigo": "S-991c",
+  "nombre_ocr": "Control de semáforo en rojo l",
+  "texto_ocr": "Indica la existencia de un dispositivo de control de paso con semáforo en rojo. Se podrán añadir subcarteles superiores o inferiores con información adicional.",
+  "pagina_pdf": 200,
+  "fichero": "S-991c.png",
+  "px": [
+   419,
+   290
+  ]
+ },
+ {
+  "codigo": "S-991d",
+  "nombre_ocr": "Control de STOP",
+  "texto_ocr": "Indica la existencia de un dispositivo de control de paso con STOP. Se podrán añadir subcarteles superiores o inferiores con información adicional",
+  "pagina_pdf": 201,
+  "fichero": "S-991d.png",
+  "px": [
+   369,
+   279
+  ]
+ },
+ {
+  "codigo": "S-991e",
+  "nombre_ocr": "Control de separación mínima en carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica la existencia de un dispositivo de control de separación mínima entre vehículos en un punto o tramo de una carretera convencional o una carretera multicarril. Se podrán añadir subcarteles superiores o inferiores con información adicional.",
+  "pagina_pdf": 201,
+  "fichero": "S-991e.png",
+  "px": [
+   369,
+   280
+  ]
+ },
+ {
+  "codigo": "S-991f",
+  "nombre_ocr": "Control de separación mínima en autopista o autovía",
+  "texto_ocr": "Indica la existencia de un dispositivo de control de separación mínima entre vehículos en un punto o tramo de una autopista o autovía. Se podrán añadir subcarteles superiores o inferiores con información adicional.",
+  "pagina_pdf": 201,
+  "fichero": "S-991f.png",
+  "px": [
+   373,
+   296
+  ]
+ },
+ {
+  "codigo": "S-991g",
+  "nombre_ocr": "Control de velocidad mediante medios aéreos",
+  "texto_ocr": "Indica la posible existencia en el tramo de controles de velocidad mediante medios aéreos, como helicóptero o dron. En caso de que dichos controles tengan como objeto un tipo de vehículo en concreto, la señal podrá incluir únicamente el pictograma correspondiente a dicho vehículo.",
+  "pagina_pdf": 201,
+  "fichero": "S-991g.png",
+  "px": [
+   370,
+   244
+  ],
+  "nota_correccion": "OCR leyó S-991y; corregido a S-991g por la secuencia S-991a…f"
+ },
+ {
+  "codigo": "S-992a",
+  "nombre_ocr": "Señal informativa de la distancia mínima entre vehículos en carretera convencional O carretera multicarril",
+  "texto_ocr": "] Indica, en un tramo de carretera convencional o una carretera multicarril donde se dan frecuentemente colisiones por alcance, el número de marcas viales de galón que debe dejar un vehículo entre él y el que le precede.",
+  "pagina_pdf": 201,
+  "fichero": "S-992a.png",
+  "px": [
+   383,
+   442
+  ]
+ },
+ {
+  "codigo": "S-992b",
+  "nombre_ocr": "Señal informativa de la distancia mínima entre vehículos dentro de un túnel en carretera convencional o carretera multicarril",
+  "texto_ocr": "Indica el número de marcas viales de galón que debe dejar un vehículo entre él y el que le precede dentro de un túnel en una carretera convencional o una carretera multicarril.",
+  "pagina_pdf": 202,
+  "fichero": "S-992b.png",
+  "px": [
+   363,
+   502
+  ]
+ },
+ {
+  "codigo": "S-992c",
+  "nombre_ocr": "Señal informativa de la distancia mínima entre vehículos en autopista o autovía",
+  "texto_ocr": "Indica, en un tramo de una autopista o una autovía donde se dan frecuentemente colisiones por alcance, el número de marcas viales de galón que debe que dejar un vehículo entre él y el que le precede.",
+  "pagina_pdf": 202,
+  "fichero": "S-992c.png",
+  "px": [
+   344,
+   379
+  ]
+ },
+ {
+  "codigo": "S-992d",
+  "nombre_ocr": "Señal informativa de la distancia mínima entre vehículos dentro de un túnel en autopista o autovía",
+  "texto_ocr": "Indica el número de marcas viales de galón que debe dejar un vehículo entre él y el que le precede dentro de un túnel en una autopista o una autovía.",
+  "pagina_pdf": 202,
+  "fichero": "S-992d.png",
+  "px": [
+   350,
+   453
+  ]
+ },
+ {
+  "codigo": "S-992e",
+  "nombre_ocr": "Señal informativa de la distancia mínima entre vehículos indicada mediante balizas luminosas",
+  "texto_ocr": "Indica, en un tramo donde es frecuente la pérdida de visibilidad debido a la niebla, el número de balizas luminosas que debe dejar un vehículo entre el y el que le precede.",
+  "pagina_pdf": 202,
+  "fichero": "S-992e.png",
+  "px": [
+   361,
+   380
+  ]
+ },
+ {
+  "codigo": "S-993",
+  "nombre_ocr": "Advertencia de riesgo de alcances en tramo de autopista o autovía en pendiente ascendente",
+  "texto_ocr": "Advierte del riesgo por alcances en un tramo de autopista o autovía debido a que la pendiente ascendente provoca que los camiones circulen a una velocidad sensiblemente menor que los turismos.",
+  "pagina_pdf": 203,
+  "fichero": "S-993.png",
+  "px": [
+   481,
+   341
+  ]
+ }
+]

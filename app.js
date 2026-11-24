@@ -37,7 +37,7 @@
     condiciones_adversas: "Condiciones adversas", conduccion_preventiva: "Conducción preventiva", conduccion_segura: "Conducción segura", distracciones: "Distracciones",
     factores_riesgo: "Factores de riesgo", transporte_personas: "Transporte de personas", usuarios_vulnerables: "Usuarios vulnerables", alcohol: "Alcohol", drogas: "Drogas", mecanica: "Mecánica", accidente: "Accidentes",
   };
-  const NOMBRE_NORMA_CORTO = { RGC: "Reglamento General de Circulación", LSV: "Ley de Tráfico", RGCond: "Reglamento General de Conductores", RGCOND: "Reglamento General de Conductores", MANUAL_DGT: "Manual del permiso B (DGT)", ITV: "Reglamento de ITV (RD 920/2017)", LRCSCVM: "Ley del seguro obligatorio (RDL 8/2004)", OCURSOS: "Orden de cursos del permiso por puntos (INT/2596/2005)", RGV: "Reglamento General de Vehículos", CP: "Código Penal" };
+  const NOMBRE_NORMA_CORTO = { RGC: "Reglamento General de Circulación", LSV: "Ley de Tráfico", RGCond: "Reglamento General de Conductores", RGCOND: "Reglamento General de Conductores", MANUAL_DGT: "Manual del permiso B (DGT)", RGC_CATALOGO: "Catálogo de señales del Reglamento General de Circulación", ITV: "Reglamento de ITV (RD 920/2017)", LRCSCVM: "Ley del seguro obligatorio (RDL 8/2004)", OCURSOS: "Orden de cursos del permiso por puntos (INT/2596/2005)", RGV: "Reglamento General de Vehículos", CP: "Código Penal" };
   // Examen (RD 818/2009, anexo VI): 30 preguntas, 30 minutos, aprobado con un máximo de 3 errores.
   const EXAMEN_PREGUNTAS = 30, SEGUNDOS_POR_PREGUNTA = 60, PROPORCION_FALLOS = 0.1;
 
@@ -206,10 +206,14 @@
     const norma = NOMBRE_NORMA_CORTO[f.norma] || (BANCO.normativa[f.norma] || {}).nombre || f.norma;
     return `${norma}, ${/^(anexo|disposici)/i.test(f.articulo) ? f.articulo : "art. " + f.articulo}`;
   }
-  function figura(p) {
+  // La descripción detallada y el crédito pueden revelar la respuesta: solo se muestran tras responder.
+  function figura(p, corregida) {
     const i = p.imagen;
     if (!i || !i.src) return null;
-    return h("figure", { class: "figura" }, h("img", { src: i.src, alt: i.alt || "" }), i.credito ? h("figcaption", {}, i.credito) : null);
+    const senal = /\/senales\//.test(i.src);
+    return h("figure", { class: "figura" + (senal ? " senal" : "") },
+      h("img", { src: i.src, alt: (corregida && i.alt_detalle) || i.alt || "Imagen de la pregunta", decoding: "async" }),
+      corregida && (i.alt_detalle || i.credito) ? h("figcaption", {}, i.alt_detalle ? h("strong", {}, i.alt_detalle) : null, i.alt_detalle && i.credito ? h("br") : null, i.credito || null) : null);
   }
   function bloqueExplicacion(p, elegida, animada, orden) {
     const ok = elegida === p.correcta, f = p.fuente, letra = letraVista(p, p.correcta, orden);
@@ -253,7 +257,7 @@
       return h("li", {}, h("button", { class: cls, disabled: corregida, "aria-pressed": corregida ? null : String(k === elegida), "aria-label": `${"ABC"[pos]}. ${p.opciones[k]}${voz}`, onclick: () => alElegir && alElegir(k) },
         h("span", { class: "letra" }, "ABC"[pos]), h("span", { class: "texto" }, p.opciones[k]), h("span", { class: "estado" }, estado)));
     }));
-    return [figura(p), h("p", { class: "enunciado" }, p.enunciado), lista, corregida ? bloqueExplicacion(p, elegida, animada, orden) : null];
+    return [figura(p, corregida), h("p", { class: "enunciado" }, p.enunciado), lista, corregida ? bloqueExplicacion(p, elegida, animada, orden) : null];
   }
   function avance(izq, der, hecho, total) {
     return [h("div", { class: "avance" }, h("strong", {}, izq), h("span", {}, der)),
@@ -527,8 +531,8 @@
         h("p", {}, "Basado en datos de la Agencia Estatal Boletín Oficial del Estado. Los textos consolidados tienen valor informativo; solo hace fe la publicación oficial en el BOE.")),
       cabecera("Normas consultadas"),
       grupo("", normas.map(([k, v]) => fila({ titulo: v.nombre || NOMBRE_NORMA_CORTO[k] || k,
-        detalle: [/^BOE-/.test(v.ref) ? null : v.ref, v.ultima_actualizacion ? `Versión del ${fechaES(v.ultima_actualizacion)}` : null].filter(Boolean).join(" · "),
-        href: /^BOE-/.test(v.ref) ? `https://www.boe.es/buscar/act.php?id=${v.ref}` : null, externo: true })),
+        detalle: [/^BOE-[A-Z]-\d{4}-\d+$/.test(v.ref) ? null : v.ref, v.ultima_actualizacion ? `Versión del ${fechaES(v.ultima_actualizacion)}` : null].filter(Boolean).join(" · "),
+        href: /BOE-[A-Z]-\d{4}-\d+/.test(v.ref || "") ? `https://www.boe.es/buscar/act.php?id=${v.ref.match(/BOE-[A-Z]-\d{4}-\d+/)[0]}` : null, externo: true })),
         normas.some(([, v]) => v.ref === "BOE-A-2009-9481") ? null : fila({ titulo: "Reglamento General de Conductores (RD 818/2009)", detalle: "Anexos V y VI: materias y formato del examen", href: "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481", externo: true })),
       h("p", { class: "nota-pie" }, `Banco de preguntas generado el ${fechaES(BANCO.generado)}. Tus resultados, fallos y marcas se guardan solo en este navegador.`));
   }

@@ -1,5 +1,5 @@
 // Caché sencilla para usar la web sin conexión. Cambia VERSION al publicar cambios.
-const VERSION = "v3";
+const VERSION = "v4";
 const FICHEROS = ["./", "index.html", "estilos.css", "app.js", "data/preguntas.js", "icono.svg", "manifest.webmanifest"];
 self.addEventListener("install", e => e.waitUntil(caches.open(VERSION).then(c => c.addAll(FICHEROS)).then(() => self.skipWaiting())));
 self.addEventListener("activate", e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VERSION).map(k => caches.delete(k)))).then(() => self.clients.claim())));

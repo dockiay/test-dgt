@@ -591,8 +591,10 @@
         "minuto": "1:25:37"
       },
       "imagen": {
-        "pendiente": "Señal de peligro P-23 «Paso de animales domésticos» (triángulo de borde rojo con una vaca en negro) con un panel complementario rectangular debajo con la inscripción «CAÑADA».",
-        "codigo": "P-23"
+        "src": "img/senales/P-23.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+        "alt_detalle": "Señal P-23: Paso de animales domésticos o ganado"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -1094,8 +1096,10 @@
         "minuto": "1:27:42"
       },
       "imagen": {
-        "pendiente": "Señal R-5 «Prioridad en sentido contrario», tal como aparece en el catálogo oficial de señales del RGC (copiar el diseño oficial).",
-        "codigo": "R-5"
+        "src": "img/senales/R-5.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-5: Prioridad del sentido contrario"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -2651,8 +2655,10 @@
         "minuto": "1:53:46"
       },
       "imagen": {
-        "pendiente": "Calle urbana con una línea amarilla CONTINUA pintada sobre el bordillo (o en la calzada junto a él) a lo largo de un tramo, sin ninguna señal vertical.",
-        "codigo": "M-7.8"
+        "src": "img/marcas/M-7.8.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.8 (plano oficial con medidas)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -2689,8 +2695,10 @@
         "minuto": "1:54:03"
       },
       "imagen": {
-        "pendiente": "Calle urbana con una línea amarilla DISCONTINUA pintada sobre el bordillo (o en la calzada junto a él) a lo largo de un tramo, sin ninguna señal vertical.",
-        "codigo": "M-7.7"
+        "src": "img/marcas/M-7.7.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.7 (plano oficial con medidas)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -2727,8 +2735,10 @@
         "minuto": "1:53:55"
       },
       "imagen": {
-        "pendiente": "Tramo de calzada junto al bordillo con una línea amarilla en zigzag, sin ninguna señal vertical.",
-        "codigo": "M-7.9"
+        "src": "img/marcas/M-7.9.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.9 (plano oficial con medidas)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -3568,8 +3578,10 @@
         "minuto": "2:34:49"
       },
       "imagen": {
-        "pendiente": "Señal R-200 'Prohibición de pasar sin detenerse' con el diseño del catálogo vigente (circular de orla roja con inscripción central, p. ej. PEAJE); comprobar el diseño exacto en la ficha del catálogo.",
-        "codigo": "R-200"
+        "src": "img/senales/R-200.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado",
+        "alt_detalle": "Señal R-200: Prohibición de pasar sin detenerse"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5096,8 +5108,10 @@
         "minuto": "2:21:27"
       },
       "imagen": {
-        "pendiente": "Señal P-17 'Estrechamiento de calzada' (por ambos lados) con fondo amarillo y orla roja, en un tramo en obras.",
-        "codigo": "P-17"
+        "src": "img/senales/P-17.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado",
+        "alt_detalle": "Señal P-17: Estrechamiento de calzada"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5165,8 +5179,10 @@
         "minuto": "2:16:18"
       },
       "imagen": {
-        "pendiente": "Señal P-1 (intersección con prioridad): triángulo con orla roja, trazo vertical grueso cruzado por un trazo horizontal fino.",
-        "codigo": "P-1"
+        "src": "img/senales/P-1.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 89 del PDF consolidado",
+        "alt_detalle": "Señal P-1: Intersección con prioridad"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5203,8 +5219,10 @@
         "minuto": "2:25:24"
       },
       "imagen": {
-        "pendiente": "Señal R-3 (calzada con prioridad): cuadrado blanco apoyado en un vértice (rombo) con un cuadrado amarillo en el centro.",
-        "codigo": "R-3"
+        "src": "img/senales/R-3.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-3: Calzada con prioridad"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5241,8 +5259,10 @@
         "minuto": "2:24:37"
       },
       "imagen": {
-        "pendiente": "Señal R-1 'Ceda el paso': triángulo con el vértice hacia abajo, fondo blanco y orla roja.",
-        "codigo": "R-1"
+        "src": "img/senales/R-1.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-1: Ceda el paso"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5279,8 +5299,10 @@
         "minuto": "2:24:45"
       },
       "imagen": {
-        "pendiente": "Señal R-1 'Ceda el paso': triángulo con el vértice hacia abajo, fondo blanco y orla roja.",
-        "codigo": "R-1"
+        "src": "img/senales/R-1.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-1: Ceda el paso"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5317,8 +5339,10 @@
         "minuto": "2:24:52"
       },
       "imagen": {
-        "pendiente": "Señal R-2 'Detención obligatoria o STOP': octógono rojo con la palabra STOP en blanco.",
-        "codigo": "R-2"
+        "src": "img/senales/R-2.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-2: Detención obligatoria o stop"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5355,8 +5379,10 @@
         "minuto": "2:24:59"
       },
       "imagen": {
-        "pendiente": "Señal R-2 'Detención obligatoria o STOP' en una intersección sin línea de detención pintada.",
-        "codigo": "R-2"
+        "src": "img/senales/R-2.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-2: Detención obligatoria o stop"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5486,8 +5512,10 @@
         "minuto": "2:19:09"
       },
       "imagen": {
-        "pendiente": "Marca vial M-7.5 de paso a nivel pintada en blanco sobre el carril: un aspa con las letras P y N.",
-        "codigo": "M-7.5"
+        "src": "img/marcas/M-7.5.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 712 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.5 (plano oficial con medidas)"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5524,8 +5552,10 @@
         "minuto": "2:22:41"
       },
       "imagen": {
-        "pendiente": "Señal P-23 'Paso de animales domésticos' (silueta de una vaca) con un panel complementario rectangular debajo con la palabra 'CAÑADA'.",
-        "codigo": "P-23"
+        "src": "img/senales/P-23.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+        "alt_detalle": "Señal P-23: Paso de animales domésticos o ganado"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5562,8 +5592,10 @@
         "minuto": "2:22:32"
       },
       "imagen": {
-        "pendiente": "Señal P-23 'Paso de animales domésticos' (silueta de una vaca), sin panel complementario.",
-        "codigo": "P-23"
+        "src": "img/senales/P-23.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+        "alt_detalle": "Señal P-23: Paso de animales domésticos o ganado"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5638,8 +5670,10 @@
         "minuto": "2:25:54"
       },
       "imagen": {
-        "pendiente": "Señal R-5 de orla roja y fondo blanco 'Prioridad en sentido contrario': flecha roja hacia arriba y flecha negra hacia abajo.",
-        "codigo": "R-5"
+        "src": "img/senales/R-5.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-5: Prioridad del sentido contrario"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5707,8 +5741,10 @@
         "minuto": "2:16:26"
       },
       "imagen": {
-        "pendiente": "Señal P-1c «Intersección con prioridad sobre incorporación por la derecha» recortada del catálogo oficial del RGC, pág. 89",
-        "codigo": "P-1c"
+        "src": "img/senales/P-1c.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 89 del PDF consolidado",
+        "alt_detalle": "Señal P-1c: Intersección con prioridad sobre incorporación por la derecha"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5745,8 +5781,10 @@
         "minuto": "2:17:27"
       },
       "imagen": {
-        "pendiente": "Señal P-2 «Intersección con prioridad de la derecha» recortada del catálogo oficial del RGC, pág. 89",
-        "codigo": "P-2"
+        "src": "img/senales/P-2.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 89 del PDF consolidado",
+        "alt_detalle": "Señal P-2: Intersección con prioridad de la derecha"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5783,8 +5821,10 @@
         "minuto": "2:17:41"
       },
       "imagen": {
-        "pendiente": "Señal P-4 «Glorieta» recortada del catálogo oficial del RGC, pág. 90",
-        "codigo": "P-4"
+        "src": "img/senales/P-4.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado",
+        "alt_detalle": "Señal P-4: Glorieta"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5821,8 +5861,10 @@
         "minuto": "2:17:50"
       },
       "imagen": {
-        "pendiente": "Señal P-6 «Cruce de tranvía» recortada del catálogo oficial del RGC, pág. 90",
-        "codigo": "P-6"
+        "src": "img/senales/P-6.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado",
+        "alt_detalle": "Señal P-6: Cruce de tranvía"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5859,8 +5901,10 @@
         "minuto": "2:17:58"
       },
       "imagen": {
-        "pendiente": "Señal P-7 «Paso a nivel con barreras» recortada del catálogo oficial del RGC, pág. 90",
-        "codigo": "P-7"
+        "src": "img/senales/P-7.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado",
+        "alt_detalle": "Señal P-7: Paso a nivel con barreras"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5897,8 +5941,10 @@
         "minuto": "2:17:58"
       },
       "imagen": {
-        "pendiente": "Señal P-8 «Paso a nivel sin barreras» recortada del catálogo oficial del RGC, pág. 90",
-        "codigo": "P-8"
+        "src": "img/senales/P-8.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 90 del PDF consolidado",
+        "alt_detalle": "Señal P-8: Paso a nivel sin barreras"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5935,8 +5981,10 @@
         "minuto": "2:18:42"
       },
       "imagen": {
-        "pendiente": "Señal P-11 «Situación de un paso a nivel sin barreras» recortada del catálogo oficial del RGC, pág. 91",
-        "codigo": "P-11"
+        "src": "img/senales/P-11.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 91 del PDF consolidado",
+        "alt_detalle": "Señal P-11: Situación de un paso a nivel sin barreras"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -5973,8 +6021,10 @@
         "minuto": "2:18:55"
       },
       "imagen": {
-        "pendiente": "Señal P-11a «Situación de un paso a nivel sin barreras de más de una vía férrea» recortada del catálogo oficial del RGC, pág. 92",
-        "codigo": "P-11a"
+        "src": "img/senales/P-11a.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 92 del PDF consolidado",
+        "alt_detalle": "Señal P-11a: Situación de un paso a nivel sin barreras de más de una vía férrea"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6011,8 +6061,10 @@
         "minuto": "2:20:40"
       },
       "imagen": {
-        "pendiente": "Señal P-12 «Aeropuerto» recortada del catálogo oficial del RGC, pág. 92",
-        "codigo": "P-12"
+        "src": "img/senales/P-12.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 92 del PDF consolidado",
+        "alt_detalle": "Señal P-12: Aeropuerto"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6049,8 +6101,10 @@
         "minuto": "2:20:40"
       },
       "imagen": {
-        "pendiente": "Señal P-15a «Resalte» recortada del catálogo oficial del RGC, pág. 93",
-        "codigo": "P-15a"
+        "src": "img/senales/P-15a.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado",
+        "alt_detalle": "Señal P-15a: Resalte"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6087,8 +6141,10 @@
         "minuto": "2:20:56"
       },
       "imagen": {
-        "pendiente": "Señal P-15b «Badén» recortada del catálogo oficial del RGC, pág. 93",
-        "codigo": "P-15b"
+        "src": "img/senales/P-15b.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado",
+        "alt_detalle": "Señal P-15b: Badén"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6125,8 +6181,10 @@
         "minuto": "2:21:13"
       },
       "imagen": {
-        "pendiente": "Señal P-17a «Estrechamiento de calzada por la derecha» recortada del catálogo oficial del RGC, pág. 93",
-        "codigo": "P-17a"
+        "src": "img/senales/P-17a.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 93 del PDF consolidado",
+        "alt_detalle": "Señal P-17a: Estrechamiento de calzada por la derecha"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6163,8 +6221,10 @@
         "minuto": "2:21:47"
       },
       "imagen": {
-        "pendiente": "Señal P-19 «Pavimento deslizante» recortada del catálogo oficial del RGC, pág. 94",
-        "codigo": "P-19"
+        "src": "img/senales/P-19.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 94 del PDF consolidado",
+        "alt_detalle": "Señal P-19: Pavimento deslizante"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6201,8 +6261,10 @@
         "minuto": "2:22:10"
       },
       "imagen": {
-        "pendiente": "Señal P-21a «Niños» recortada del catálogo oficial del RGC, pág. 95",
-        "codigo": "P-21a"
+        "src": "img/senales/P-21a.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+        "alt_detalle": "Señal P-21a: Niños"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6239,8 +6301,10 @@
         "minuto": "2:22:41"
       },
       "imagen": {
-        "pendiente": "Señal P-24 «Paso de animales en libertad» recortada del catálogo oficial del RGC, pág. 95",
-        "codigo": "P-24"
+        "src": "img/senales/P-24.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
+        "alt_detalle": "Señal P-24: Paso de animales en libertad"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6277,8 +6341,10 @@
         "minuto": "2:21:56"
       },
       "imagen": {
-        "pendiente": "Señal P-25 «Circulación en los dos sentidos» recortada del catálogo oficial del RGC, pág. 96",
-        "codigo": "P-25"
+        "src": "img/senales/P-25.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+        "alt_detalle": "Señal P-25: Circulación en los dos sentidos"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6315,8 +6381,10 @@
         "minuto": "2:23:01"
       },
       "imagen": {
-        "pendiente": "Señal P-26 «Desprendimiento» recortada del catálogo oficial del RGC, pág. 96",
-        "codigo": "P-26"
+        "src": "img/senales/P-26.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+        "alt_detalle": "Señal P-26: Desprendimiento"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6353,8 +6421,10 @@
         "minuto": "2:23:09"
       },
       "imagen": {
-        "pendiente": "Señal P-27 «Muelle» recortada del catálogo oficial del RGC, pág. 96",
-        "codigo": "P-27"
+        "src": "img/senales/P-27.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+        "alt_detalle": "Señal P-27: Muelle"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6391,8 +6461,10 @@
         "minuto": "2:23:09"
       },
       "imagen": {
-        "pendiente": "Señal P-28 «Proyección de gravilla» recortada del catálogo oficial del RGC, pág. 96",
-        "codigo": "P-28"
+        "src": "img/senales/P-28.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+        "alt_detalle": "Señal P-28: Proyección de gravilla"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6429,8 +6501,10 @@
         "minuto": "2:23:21"
       },
       "imagen": {
-        "pendiente": "Señal P-29 'Viento lateral' (triángulo con orla roja y una manga de viento) junto a una manga de viento real en el margen.",
-        "codigo": "P-29"
+        "src": "img/senales/P-29.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+        "alt_detalle": "Señal P-29: Viento transversal"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6467,8 +6541,10 @@
         "minuto": "2:23:21"
       },
       "imagen": {
-        "pendiente": "Señal P-30 «Escalón lateral» recortada del catálogo oficial del RGC, pág. 96",
-        "codigo": "P-30"
+        "src": "img/senales/P-30.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+        "alt_detalle": "Señal P-30: Escalón lateral"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6505,8 +6581,10 @@
         "minuto": "2:23:28"
       },
       "imagen": {
-        "pendiente": "Señal P-31 «Congestión» recortada del catálogo oficial del RGC, pág. 96",
-        "codigo": "P-31"
+        "src": "img/senales/P-31.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 96 del PDF consolidado",
+        "alt_detalle": "Señal P-31: Congestión"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6543,8 +6621,10 @@
         "minuto": "2:23:28"
       },
       "imagen": {
-        "pendiente": "Señal P-32 «Obstrucción en la calzada» recortada del catálogo oficial del RGC, pág. 97",
-        "codigo": "P-32"
+        "src": "img/senales/P-32.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado",
+        "alt_detalle": "Señal P-32: Obstrucción en la calzada"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6581,8 +6661,10 @@
         "minuto": "2:23:36"
       },
       "imagen": {
-        "pendiente": "Señal P-33 «Visibilidad reducida» recortada del catálogo oficial del RGC, pág. 97",
-        "codigo": "P-33"
+        "src": "img/senales/P-33.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado",
+        "alt_detalle": "Señal P-33: Visibilidad reducida"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6619,8 +6701,10 @@
         "minuto": "2:23:47"
       },
       "imagen": {
-        "pendiente": "Señal P-34 «Presencia de hielo o nieve» recortada del catálogo oficial del RGC, pág. 97",
-        "codigo": "P-34"
+        "src": "img/senales/P-34.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado",
+        "alt_detalle": "Señal P-34: Presencia de hielo o nieve"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6657,8 +6741,10 @@
         "minuto": "2:23:55"
       },
       "imagen": {
-        "pendiente": "Señal P-50 «Otros peligros» recortada del catálogo oficial del RGC, pág. 97",
-        "codigo": "P-50"
+        "src": "img/senales/P-50.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 97 del PDF consolidado",
+        "alt_detalle": "Señal P-50: Otros peligros"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6695,8 +6781,10 @@
         "minuto": "2:25:46"
       },
       "imagen": {
-        "pendiente": "Señal R-4 «Fin de prioridad» recortada del catálogo oficial del RGC, pág. 99",
-        "codigo": "R-4"
+        "src": "img/senales/R-4.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-4: Fin de prioridad"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6733,8 +6821,10 @@
         "minuto": "2:25:54"
       },
       "imagen": {
-        "pendiente": "Señal R-5 «Prioridad del sentido contrario» recortada del catálogo oficial del RGC, pág. 99",
-        "codigo": "R-5"
+        "src": "img/senales/R-5.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 99 del PDF consolidado",
+        "alt_detalle": "Señal R-5: Prioridad del sentido contrario"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6771,8 +6861,10 @@
         "minuto": "2:26:03"
       },
       "imagen": {
-        "pendiente": "Señal R-6 «Prioridad respecto al sentido contrario» recortada del catálogo oficial del RGC, pág. 100",
-        "codigo": "R-6"
+        "src": "img/senales/R-6.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 100 del PDF consolidado",
+        "alt_detalle": "Señal R-6: Prioridad respecto al sentido contrario"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6809,8 +6901,10 @@
         "minuto": "2:27:13"
       },
       "imagen": {
-        "pendiente": "Señal R-100 «Circulación prohibida» recortada del catálogo oficial del RGC, pág. 102",
-        "codigo": "R-100"
+        "src": "img/senales/R-100.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+        "alt_detalle": "Señal R-100: Circulación prohibida"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6847,8 +6941,10 @@
         "minuto": "2:27:32"
       },
       "imagen": {
-        "pendiente": "Señal R-101 «Entrada prohibida» recortada del catálogo oficial del RGC, pág. 102",
-        "codigo": "R-101"
+        "src": "img/senales/R-101.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+        "alt_detalle": "Señal R-101: Entrada prohibida"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6885,8 +6981,10 @@
         "minuto": "2:28:13"
       },
       "imagen": {
-        "pendiente": "Señal R-102 «Entrada prohibida a vehículos de motor» recortada del catálogo oficial del RGC, pág. 102",
-        "codigo": "R-102"
+        "src": "img/senales/R-102.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+        "alt_detalle": "Señal R-102: Entrada prohibida a vehículos de motor"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6923,8 +7021,10 @@
         "minuto": "2:28:04"
       },
       "imagen": {
-        "pendiente": "Señal R-103 «Entrada prohibida a vehículos de motor, excepto motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 102",
-        "codigo": "R-103"
+        "src": "img/senales/R-103.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+        "alt_detalle": "Señal R-103: Entrada prohibida a vehículos de motor, excepto motocicletas de dos ruedas"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6961,8 +7061,10 @@
         "minuto": "2:28:40"
       },
       "imagen": {
-        "pendiente": "Señal R-105 «Entrada prohibida a ciclomotores» recortada del catálogo oficial del RGC, pág. 102",
-        "codigo": "R-105"
+        "src": "img/senales/R-105.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 102 del PDF consolidado",
+        "alt_detalle": "Señal R-105: Entrada prohibida a ciclomotores"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -6999,8 +7101,10 @@
         "minuto": "2:28:48"
       },
       "imagen": {
-        "pendiente": "Señal R-106 «Entrada prohibida a vehículos destinados al transporte de mercancías» recortada del catálogo oficial del RGC, pág. 103",
-        "codigo": "R-106"
+        "src": "img/senales/R-106.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 103 del PDF consolidado",
+        "alt_detalle": "Señal R-106: Entrada prohibida a vehículos destinados al transporte de mercancías"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7037,8 +7141,10 @@
         "minuto": "2:31:21"
       },
       "imagen": {
-        "pendiente": "Señal R-107 «Entrada prohibida a vehículos destinados al transporte de mercancías con mayor masa autorizada que la indicada» recortada del catálogo oficial del RGC, pág. 103",
-        "codigo": "R-107"
+        "src": "img/senales/R-107.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 103 del PDF consolidado",
+        "alt_detalle": "Señal R-107: Entrada prohibida a vehículos destinados al transporte de mercancías con mayor masa autorizada que la indicada"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7075,8 +7181,10 @@
         "minuto": "2:32:33"
       },
       "imagen": {
-        "pendiente": "Señal R-109 «Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables» recortada del catálogo oficial del RGC, pág. 103",
-        "codigo": "R-109"
+        "src": "img/senales/R-109.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 103 del PDF consolidado",
+        "alt_detalle": "Señal R-109: Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7113,8 +7221,10 @@
         "minuto": "2:32:40"
       },
       "imagen": {
-        "pendiente": "Señal R-110 «Entrada prohibida a vehículos que transporten productos contaminantes del agua» recortada del catálogo oficial del RGC, pág. 104",
-        "codigo": "R-110"
+        "src": "img/senales/R-110.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado",
+        "alt_detalle": "Señal R-110: Entrada prohibida a vehículos que transporten productos contaminantes del agua"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7151,8 +7261,10 @@
         "minuto": "2:33:09"
       },
       "imagen": {
-        "pendiente": "Señal R-111 «Entrada prohibida a vehículos agrícolas de motor» recortada del catálogo oficial del RGC, pág. 104",
-        "codigo": "R-111"
+        "src": "img/senales/R-111.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado",
+        "alt_detalle": "Señal R-111: Entrada prohibida a vehículos agrícolas de motor"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7189,8 +7301,10 @@
         "minuto": "2:37:23"
       },
       "imagen": {
-        "pendiente": "Señal R-112 «Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje» recortada del catálogo oficial del RGC, pág. 104",
-        "codigo": "R-112"
+        "src": "img/senales/R-112.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado",
+        "alt_detalle": "Señal R-112: Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7227,8 +7341,10 @@
         "minuto": "2:33:25"
       },
       "imagen": {
-        "pendiente": "Señal R-115 «Entrada prohibida a carros de mano» recortada del catálogo oficial del RGC, pág. 104",
-        "codigo": "R-115"
+        "src": "img/senales/R-115.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 104 del PDF consolidado",
+        "alt_detalle": "Señal R-115: Entrada prohibida a carros de mano"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7265,8 +7381,10 @@
         "minuto": "2:33:25"
       },
       "imagen": {
-        "pendiente": "Señal R-117 «Entrada prohibida a animales de montura» recortada del catálogo oficial del RGC, pág. 105",
-        "codigo": "R-117"
+        "src": "img/senales/R-117.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 105 del PDF consolidado",
+        "alt_detalle": "Señal R-117: Entrada prohibida a animales de montura"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7303,8 +7421,10 @@
         "minuto": "2:31:50"
       },
       "imagen": {
-        "pendiente": "Señal R-202 «Limitación de masa por eje» recortada del catálogo oficial del RGC, pág. 107",
-        "codigo": "R-202"
+        "src": "img/senales/R-202.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado",
+        "alt_detalle": "Señal R-202: Limitación de masa por eje"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7341,8 +7461,10 @@
         "minuto": "2:34:02"
       },
       "imagen": {
-        "pendiente": "Señal R-203 «Limitación de longitud» recortada del catálogo oficial del RGC, pág. 107",
-        "codigo": "R-203"
+        "src": "img/senales/R-203.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado",
+        "alt_detalle": "Señal R-203: Limitación de longitud"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7379,8 +7501,10 @@
         "minuto": "2:34:18"
       },
       "imagen": {
-        "pendiente": "Señal R-205 «Limitación de altura» recortada del catálogo oficial del RGC, pág. 107",
-        "codigo": "R-205"
+        "src": "img/senales/R-205.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 107 del PDF consolidado",
+        "alt_detalle": "Señal R-205: Limitación de altura"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7417,8 +7541,10 @@
         "minuto": "2:34:33"
       },
       "imagen": {
-        "pendiente": "Señal R-300 «Separación mínima» recortada del catálogo oficial del RGC, pág. 109",
-        "codigo": "R-300"
+        "src": "img/senales/R-300.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 109 del PDF consolidado",
+        "alt_detalle": "Señal R-300: Separación mínima"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7455,8 +7581,10 @@
         "minuto": "2:39:40"
       },
       "imagen": {
-        "pendiente": "Señal R-301 «Velocidad máxima» recortada del catálogo oficial del RGC, pág. 109",
-        "codigo": "R-301"
+        "src": "img/senales/R-301.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 109 del PDF consolidado",
+        "alt_detalle": "Señal R-301: Velocidad máxima"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7493,8 +7621,10 @@
         "minuto": "2:38:25"
       },
       "imagen": {
-        "pendiente": "Señal R-303 «Giro a la izquierda prohibido» recortada del catálogo oficial del RGC, pág. 109",
-        "codigo": "R-303"
+        "src": "img/senales/R-303.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 109 del PDF consolidado",
+        "alt_detalle": "Señal R-303: Giro a la izquierda prohibido"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7531,8 +7661,10 @@
         "minuto": "2:38:45"
       },
       "imagen": {
-        "pendiente": "Señal R-304 «Cambio de sentido prohibido» recortada del catálogo oficial del RGC, pág. 109",
-        "codigo": "R-304"
+        "src": "img/senales/R-304.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 109 del PDF consolidado",
+        "alt_detalle": "Señal R-304: Cambio de sentido prohibido"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7569,8 +7701,10 @@
         "minuto": "2:39:10"
       },
       "imagen": {
-        "pendiente": "Señal R-305 «Adelantamiento prohibido» recortada del catálogo oficial del RGC, pág. 110",
-        "codigo": "R-305"
+        "src": "img/senales/R-305.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 110 del PDF consolidado",
+        "alt_detalle": "Señal R-305: Adelantamiento prohibido"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7607,8 +7741,10 @@
         "minuto": "2:39:17"
       },
       "imagen": {
-        "pendiente": "Señal R-306 «Adelantamiento prohibido para camiones» recortada del catálogo oficial del RGC, pág. 110",
-        "codigo": "R-306"
+        "src": "img/senales/R-306.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 110 del PDF consolidado",
+        "alt_detalle": "Señal R-306: Adelantamiento prohibido para camiones"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7645,8 +7781,10 @@
         "minuto": "2:15:50"
       },
       "imagen": {
-        "pendiente": "Señal R-400c «Sentido obligatorio» recortada del catálogo oficial del RGC, pág. 115",
-        "codigo": "R-400c"
+        "src": "img/senales/R-400c.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 115 del PDF consolidado",
+        "alt_detalle": "Señal R-400c: Sentido obligatorio"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7683,8 +7821,10 @@
         "minuto": "2:42:32"
       },
       "imagen": {
-        "pendiente": "Señal R-403a «Únicas direcciones y sentidos permitidos» recortada del catálogo oficial del RGC, pág. 116",
-        "codigo": "R-403a"
+        "src": "img/senales/R-403a.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 116 del PDF consolidado",
+        "alt_detalle": "Señal R-403a: Únicas direcciones y sentidos permitidos"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7721,8 +7861,10 @@
         "minuto": "2:42:38"
       },
       "imagen": {
-        "pendiente": "Señal R-404 «Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 116",
-        "codigo": "R-404"
+        "src": "img/senales/R-404.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 116 del PDF consolidado",
+        "alt_detalle": "Señal R-404: Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7759,8 +7901,10 @@
         "minuto": "2:42:44"
       },
       "imagen": {
-        "pendiente": "Señal R-405 «Calzada obligatoria para motocicletas de dos ruedas» recortada del catálogo oficial del RGC, pág. 117",
-        "codigo": "R-405"
+        "src": "img/senales/R-405.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+        "alt_detalle": "Señal R-405: Calzada obligatoria para motocicletas de dos ruedas"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7797,8 +7941,10 @@
         "minuto": "2:43:50"
       },
       "imagen": {
-        "pendiente": "Señal R-407a «Vía reservada y obligatoria para ciclos» recortada del catálogo oficial del RGC, pág. 117",
-        "codigo": "R-407a"
+        "src": "img/senales/R-407a.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+        "alt_detalle": "Señal R-407a: Vía reservada y obligatoria para ciclos"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7835,8 +7981,10 @@
         "minuto": "2:44:05"
       },
       "imagen": {
-        "pendiente": "Señal R-407b «Vía reservada y obligatoria para ciclomotores» recortada del catálogo oficial del RGC, pág. 117",
-        "codigo": "R-407b"
+        "src": "img/senales/R-407b.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+        "alt_detalle": "Señal R-407b: Vía reservada y obligatoria para ciclomotores"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7873,8 +8021,10 @@
         "minuto": "2:42:51"
       },
       "imagen": {
-        "pendiente": "Señal R-408 «Camino obligatorio para vehículos de tracción animal» recortada del catálogo oficial del RGC, pág. 117",
-        "codigo": "R-408"
+        "src": "img/senales/R-408.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+        "alt_detalle": "Señal R-408: Camino obligatorio para vehículos de tracción animal"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7911,8 +8061,10 @@
         "minuto": "2:44:19"
       },
       "imagen": {
-        "pendiente": "Señal R-409 «Camino reservado y obligatorio para animales de montura» recortada del catálogo oficial del RGC, pág. 118",
-        "codigo": "R-409"
+        "src": "img/senales/R-409.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado",
+        "alt_detalle": "Señal R-409: Camino reservado y obligatorio para animales de montura"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7949,8 +8101,10 @@
         "minuto": "2:44:05"
       },
       "imagen": {
-        "pendiente": "Señal R-410 «Camino reservado y obligatorio para peatones» recortada del catálogo oficial del RGC, pág. 118",
-        "codigo": "R-410"
+        "src": "img/senales/R-410.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado",
+        "alt_detalle": "Señal R-410: Camino reservado y obligatorio para peatones"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -7987,8 +8141,10 @@
         "minuto": "2:45:53"
       },
       "imagen": {
-        "pendiente": "Señal R-411 «Velocidad mínima» recortada del catálogo oficial del RGC, pág. 118",
-        "codigo": "R-411"
+        "src": "img/senales/R-411.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado",
+        "alt_detalle": "Señal R-411: Velocidad mínima"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -8025,8 +8181,10 @@
         "minuto": "2:45:59"
       },
       "imagen": {
-        "pendiente": "Señal R-413 «Alumbrado de corto alcance» recortada del catálogo oficial del RGC, pág. 119",
-        "codigo": "R-413"
+        "src": "img/senales/R-413.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 119 del PDF consolidado",
+        "alt_detalle": "Señal R-413: Alumbrado de corto alcance"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -8063,8 +8221,10 @@
         "minuto": "2:46:08"
       },
       "imagen": {
-        "pendiente": "Señal R-412 «Cadenas para nieve» recortada del catálogo oficial del RGC, pág. 118",
-        "codigo": "R-412"
+        "src": "img/senales/R-412.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 118 del PDF consolidado",
+        "alt_detalle": "Señal R-412: Cadenas para nieve"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -8101,8 +8261,10 @@
         "minuto": "2:45:35"
       },
       "imagen": {
-        "pendiente": "Señal R-415 «Calzada obligatoria para vehículos que transporten productos contaminantes del agua» recortada del catálogo oficial del RGC, pág. 119",
-        "codigo": "R-415"
+        "src": "img/senales/R-415.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 119 del PDF consolidado",
+        "alt_detalle": "Señal R-415: Calzada obligatoria para vehículos que transporten productos contaminantes del agua"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -8139,8 +8301,10 @@
         "minuto": "2:47:00"
       },
       "imagen": {
-        "pendiente": "Señal R-418 «Vía exclusiva para vehículos dotados de equipo de telepeaje operativo. Telepeaje obligatorio.» recortada del catálogo oficial del RGC, pág. 120",
-        "codigo": "R-418"
+        "src": "img/senales/R-418.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 120 del PDF consolidado",
+        "alt_detalle": "Señal R-418: Vía exclusiva para vehículos dotados de equipo de telepeaje operativo. Telepeaje obligatorio"
       },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
@@ -8177,8 +8341,10 @@
         "minuto": "2:50:57"
       },
       "imagen": {
-        "pendiente": "Señal cuadrada azul de indicación general 'Vía para automóviles': silueta blanca de un turismo visto de frente sobre fondo azul.",
-        "codigo": "S-3"
+        "src": "img/senales/S-3.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 127 del PDF consolidado",
+        "alt_detalle": "Señal S-3: Vía reservada para automóviles"
       },
       "imagen_requerida": {
         "tipo": "senal",
@@ -8215,8 +8381,10 @@
         "minuto": "2:51:04"
       },
       "imagen": {
-        "pendiente": "Señal cuadrada azul 'Túnel': silueta blanca de la boca de un túnel con la calzada entrando en él.",
-        "codigo": "S-5"
+        "src": "img/senales/S-5.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 127 del PDF consolidado",
+        "alt_detalle": "Señal S-5: Túnel"
       },
       "imagen_requerida": {
         "tipo": "senal",
@@ -8377,8 +8545,10 @@
         "minuto": "3:18:22"
       },
       "imagen": {
-        "pendiente": "Señal S-991a «Control de velocidad en carretera convencional o carretera multicarril» recortada del catálogo oficial del RGC, pág. 200",
-        "codigo": "S-991a"
+        "src": "img/senales/S-991a.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 200 del PDF consolidado",
+        "alt_detalle": "Señal S-991a: Control de velocidad en carretera convencional o carretera multicarril"
       },
       "imagen_requerida": {
         "tipo": "senal",
@@ -8446,8 +8616,10 @@
         "minuto": "2:59:19"
       },
       "imagen": {
-        "pendiente": "Señal redonda azul de obligación con una bicicleta blanca (vía reservada para ciclos, de uso obligatorio).",
-        "codigo": "R-407a"
+        "src": "img/senales/R-407a.png",
+        "alt": "Señal de la pregunta",
+        "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 117 del PDF consolidado",
+        "alt_detalle": "Señal R-407a: Vía reservada y obligatoria para ciclos"
       },
       "imagen_requerida": {
         "tipo": "senal",
@@ -8608,8 +8780,10 @@
         "minuto": "3:21:07"
       },
       "imagen": {
-        "pendiente": "Calzada con dos carriles del mismo sentido separados por una línea longitudinal blanca discontinua (M-1.1 a M-1.3).",
-        "codigo": "M-1.1"
+        "src": "img/marcas/M-1.1.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 687 del PDF consolidado",
+        "alt_detalle": "Marca vial M-1.1 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -8753,8 +8927,10 @@
         "minuto": "3:22:14"
       },
       "imagen": {
-        "pendiente": "Calzada con un carril central delimitado a ambos lados por dobles líneas blancas discontinuas (M-1.4/M-1.5) y semáforos de carril encima.",
-        "codigo": "M-1.4"
+        "src": "img/marcas/M-1.4.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 688 del PDF consolidado",
+        "alt_detalle": "Marca vial M-1.4 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -8791,8 +8967,10 @@
         "minuto": "3:21:15"
       },
       "imagen": {
-        "pendiente": "Eje de calzada con línea discontinua de preaviso (M-1.9: huecos entre trazos más cortos que en la línea normal) que termina en una línea continua.",
-        "codigo": "M-1.9"
+        "src": "img/marcas/M-1.9.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 687 del PDF consolidado",
+        "alt_detalle": "Marca vial M-1.9 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -8860,8 +9038,10 @@
         "minuto": "3:22:41"
       },
       "imagen": {
-        "pendiente": "Acceso a una intersección con el triángulo invertido de ceda el paso pintado (M-6.5) y una línea blanca discontinua transversal (M-4.2).",
-        "codigo": "M-4.2"
+        "src": "img/marcas/M-4.2.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 691 del PDF consolidado",
+        "alt_detalle": "Marca vial M-4.2 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -8960,8 +9140,10 @@
         "minuto": "3:23:49"
       },
       "imagen": {
-        "pendiente": "Paso para peatones de franjas blancas en el que cada franja termina en un triángulo blanco en el lado de aproximación de los vehículos.",
-        "codigo": "M-4.3b"
+        "src": "img/marcas/M-4.3b.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 691 del PDF consolidado",
+        "alt_detalle": "Marca vial M-4.3b (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9029,8 +9211,10 @@
         "minuto": "3:24:56"
       },
       "imagen": {
-        "pendiente": "Calzada de dos carriles del mismo sentido separados por línea discontinua; en el carril derecho está pintada la cifra 80 (limitación de velocidad).",
-        "codigo": "M-6.6"
+        "src": "img/marcas/M-6.6.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 704 del PDF consolidado",
+        "alt_detalle": "Marca vial M-6.6 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9067,8 +9251,10 @@
         "minuto": "3:24:40"
       },
       "imagen": {
-        "pendiente": "Inscripción STOP pintada en blanco sobre el carril, delante de una línea continua transversal.",
-        "codigo": "M-6.3"
+        "src": "img/marcas/M-6.3.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 703 del PDF consolidado",
+        "alt_detalle": "Marca vial M-6.3 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9105,8 +9291,10 @@
         "minuto": "3:24:32"
       },
       "imagen": {
-        "pendiente": "Triángulo blanco alargado con el vértice hacia el conductor (punta hacia abajo en la imagen) pintado en el carril, antes de una línea transversal discontinua.",
-        "codigo": "M-6.5"
+        "src": "img/marcas/M-6.5.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 703 del PDF consolidado",
+        "alt_detalle": "Marca vial M-6.5 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9212,8 +9400,10 @@
         "minuto": "3:25:56"
       },
       "imagen": {
-        "pendiente": "Flecha de retorno pintada junto al eje de una calzada de doble sentido, curvada hacia el carril derecho, antes de que la línea discontinua pase a continua.",
-        "codigo": "M-5.5"
+        "src": "img/marcas/M-5.5.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 700 del PDF consolidado",
+        "alt_detalle": "Marca vial M-5.5 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9250,8 +9440,10 @@
         "minuto": "3:26:07"
       },
       "imagen": {
-        "pendiente": "Aspa (cruz de San Andrés) blanca pintada en el carril con las letras P y N a los lados.",
-        "codigo": "M-7.5"
+        "src": "img/marcas/M-7.5.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 712 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.5 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9288,8 +9480,10 @@
         "minuto": "3:26:27"
       },
       "imagen": {
-        "pendiente": "Marca de comienzo de carril reservado en el carril derecho, con la inscripción BUS.",
-        "codigo": "M-7.6"
+        "src": "img/marcas/M-7.6.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.6 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9364,8 +9558,10 @@
         "minuto": "3:27:25"
       },
       "imagen": {
-        "pendiente": "Línea amarilla continua pintada en el bordillo o en la calzada junto a él.",
-        "codigo": "M-7.8"
+        "src": "img/marcas/M-7.8.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.8 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9402,8 +9598,10 @@
         "minuto": "3:27:32"
       },
       "imagen": {
-        "pendiente": "Línea amarilla en zigzag pintada en la calzada junto al bordillo, en una parada de autobús.",
-        "codigo": "M-7.9"
+        "src": "img/marcas/M-7.9.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 714 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.9 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9440,8 +9638,10 @@
         "minuto": "3:27:32"
       },
       "imagen": {
-        "pendiente": "Intersección con una cuadrícula de líneas amarillas pintada sobre su superficie y un semáforo en verde.",
-        "codigo": "M-7.10"
+        "src": "img/marcas/M-7.10.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.10 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9478,8 +9678,10 @@
         "minuto": "3:28:12"
       },
       "imagen": {
-        "pendiente": "Damero de cuadrados blancos y rojos pintado a la entrada de un lecho de frenado (zona de grava) junto a una bajada.",
-        "codigo": "M-7.11"
+        "src": "img/marcas/M-7.11.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.11 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9516,8 +9718,10 @@
         "minuto": "3:27:11"
       },
       "imagen": {
-        "pendiente": "Serie de galones blancos (forma de punta de flecha) pintados a lo largo del carril, a intervalos regulares.",
-        "codigo": "M-7.12"
+        "src": "img/marcas/M-7.12.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
+        "alt_detalle": "Marca vial M-7.12 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9592,8 +9796,10 @@
         "minuto": "3:28:35"
       },
       "imagen": {
-        "pendiente": "Serie de triángulos blancos ('dientes de dragón') pintados a ambos bordes del carril a la entrada de un poblado.",
-        "codigo": "M-8.1"
+        "src": "img/marcas/M-8.1.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 716 del PDF consolidado",
+        "alt_detalle": "Marca vial M-8.1 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",
@@ -9630,8 +9836,10 @@
         "minuto": "3:28:53"
       },
       "imagen": {
-        "pendiente": "Carril con líneas de borde blancas en zigzag (quebradas) a ambos lados, antes de un paso para peatones.",
-        "codigo": "M-8.2"
+        "src": "img/marcas/M-8.2.png",
+        "alt": "Marca vial de la pregunta",
+        "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 717 del PDF consolidado",
+        "alt_detalle": "Marca vial M-8.2 (plano oficial con medidas)"
       },
       "imagen_requerida": {
         "tipo": "marca_vial",

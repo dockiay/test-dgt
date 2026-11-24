@@ -1,0 +1,1043 @@
+[
+ {
+  "id": "A-pri-0001",
+  "tipo": "esquema",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "A-ani-0001",
+  "tipo": "senal",
+  "codigo": "P-23",
+  "src_disponibles": [
+   "img/senales/P-23.png"
+  ]
+ },
+ {
+  "id": "A-est-0010",
+  "tipo": "senal",
+  "codigo": "R-5",
+  "src_disponibles": [
+   "img/senales/R-5.png"
+  ]
+ },
+ {
+  "id": "A-par-0004",
+  "tipo": "marca_vial",
+  "codigo": "M-7.8",
+  "src_disponibles": [
+   "img/marcas/M-7.8.png"
+  ]
+ },
+ {
+  "id": "A-par-0005",
+  "tipo": "marca_vial",
+  "codigo": "M-7.7",
+  "src_disponibles": [
+   "img/marcas/M-7.7.png"
+  ]
+ },
+ {
+  "id": "A-par-0006",
+  "tipo": "marca_vial",
+  "codigo": "M-7.9",
+  "src_disponibles": [
+   "img/marcas/M-7.9.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0006",
+  "tipo": "esquema",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0007",
+  "tipo": "esquema",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0008",
+  "tipo": "esquema",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0009",
+  "tipo": "senal",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0011",
+  "tipo": "senal",
+  "codigo": "R-200",
+  "src_disponibles": [
+   "img/senales/R-200.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0014",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0016",
+  "tipo": "esquema",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0018",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0022",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0026",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0029",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0030",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0031",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0040",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0041",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0042",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0044",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0047",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0048",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0049",
+  "tipo": "esquema",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0050",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0051",
+  "tipo": "esquema",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0052",
+  "tipo": "foto",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-sen-0057",
+  "tipo": "senal",
+  "codigo": "P-17",
+  "src_disponibles": [
+   "img/senales/P-17.png",
+   "img/senales/P-17a.png",
+   "img/senales/P-17b.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0059",
+  "tipo": "senal",
+  "codigo": "P-1",
+  "src_disponibles": [
+   "img/senales/P-1.png",
+   "img/senales/P-1a.png",
+   "img/senales/P-1b.png",
+   "img/senales/P-1c.png",
+   "img/senales/P-1d.png",
+   "img/senales/P-1e.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0060",
+  "tipo": "senal",
+  "codigo": "R-3",
+  "src_disponibles": [
+   "img/senales/R-3.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0061",
+  "tipo": "senal",
+  "codigo": "R-1",
+  "src_disponibles": [
+   "img/senales/R-1.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0062",
+  "tipo": "senal",
+  "codigo": "R-1",
+  "src_disponibles": [
+   "img/senales/R-1.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0063",
+  "tipo": "senal",
+  "codigo": "R-2",
+  "src_disponibles": [
+   "img/senales/R-2.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0064",
+  "tipo": "senal",
+  "codigo": "R-2",
+  "src_disponibles": [
+   "img/senales/R-2.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0068",
+  "tipo": "marca_vial",
+  "codigo": "M-7.5",
+  "src_disponibles": [
+   "img/marcas/M-7.5.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0069",
+  "tipo": "senal",
+  "codigo": "P-23",
+  "src_disponibles": [
+   "img/senales/P-23.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0070",
+  "tipo": "senal",
+  "codigo": "P-23",
+  "src_disponibles": [
+   "img/senales/P-23.png"
+  ]
+ },
+ {
+  "id": "B1-pri-0071",
+  "tipo": "esquema",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B1-pri-0072",
+  "tipo": "senal",
+  "codigo": "R-5",
+  "src_disponibles": [
+   "img/senales/R-5.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0074",
+  "tipo": "senal",
+  "codigo": "P-1c",
+  "src_disponibles": [
+   "img/senales/P-1c.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0075",
+  "tipo": "senal",
+  "codigo": "P-2",
+  "src_disponibles": [
+   "img/senales/P-2.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0076",
+  "tipo": "senal",
+  "codigo": "P-4",
+  "src_disponibles": [
+   "img/senales/P-4.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0077",
+  "tipo": "senal",
+  "codigo": "P-6",
+  "src_disponibles": [
+   "img/senales/P-6.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0078",
+  "tipo": "senal",
+  "codigo": "P-7",
+  "src_disponibles": [
+   "img/senales/P-7.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0079",
+  "tipo": "senal",
+  "codigo": "P-8",
+  "src_disponibles": [
+   "img/senales/P-8.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0080",
+  "tipo": "senal",
+  "codigo": "P-11",
+  "src_disponibles": [
+   "img/senales/P-11.png",
+   "img/senales/P-11a.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0081",
+  "tipo": "senal",
+  "codigo": "P-11a",
+  "src_disponibles": [
+   "img/senales/P-11a.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0082",
+  "tipo": "senal",
+  "codigo": "P-12",
+  "src_disponibles": [
+   "img/senales/P-12.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0083",
+  "tipo": "senal",
+  "codigo": "P-15a",
+  "src_disponibles": [
+   "img/senales/P-15a.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0084",
+  "tipo": "senal",
+  "codigo": "P-15b",
+  "src_disponibles": [
+   "img/senales/P-15b.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0085",
+  "tipo": "senal",
+  "codigo": "P-17a",
+  "src_disponibles": [
+   "img/senales/P-17a.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0086",
+  "tipo": "senal",
+  "codigo": "P-19",
+  "src_disponibles": [
+   "img/senales/P-19.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0087",
+  "tipo": "senal",
+  "codigo": "P-21a",
+  "src_disponibles": [
+   "img/senales/P-21a.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0088",
+  "tipo": "senal",
+  "codigo": "P-24",
+  "src_disponibles": [
+   "img/senales/P-24.png",
+   "img/senales/P-24a.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0089",
+  "tipo": "senal",
+  "codigo": "P-25",
+  "src_disponibles": [
+   "img/senales/P-25.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0090",
+  "tipo": "senal",
+  "codigo": "P-26",
+  "src_disponibles": [
+   "img/senales/P-26.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0091",
+  "tipo": "senal",
+  "codigo": "P-27",
+  "src_disponibles": [
+   "img/senales/P-27.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0092",
+  "tipo": "senal",
+  "codigo": "P-28",
+  "src_disponibles": [
+   "img/senales/P-28.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0093",
+  "tipo": "senal",
+  "codigo": "P-29",
+  "src_disponibles": [
+   "img/senales/P-29.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0094",
+  "tipo": "senal",
+  "codigo": "P-30",
+  "src_disponibles": [
+   "img/senales/P-30.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0095",
+  "tipo": "senal",
+  "codigo": "P-31",
+  "src_disponibles": [
+   "img/senales/P-31.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0096",
+  "tipo": "senal",
+  "codigo": "P-32",
+  "src_disponibles": [
+   "img/senales/P-32.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0097",
+  "tipo": "senal",
+  "codigo": "P-33",
+  "src_disponibles": [
+   "img/senales/P-33.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0098",
+  "tipo": "senal",
+  "codigo": "P-34",
+  "src_disponibles": [
+   "img/senales/P-34.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0099",
+  "tipo": "senal",
+  "codigo": "P-50",
+  "src_disponibles": [
+   "img/senales/P-50.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0100",
+  "tipo": "senal",
+  "codigo": "R-4",
+  "src_disponibles": [
+   "img/senales/R-4.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0101",
+  "tipo": "senal",
+  "codigo": "R-5",
+  "src_disponibles": [
+   "img/senales/R-5.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0102",
+  "tipo": "senal",
+  "codigo": "R-6",
+  "src_disponibles": [
+   "img/senales/R-6.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0103",
+  "tipo": "senal",
+  "codigo": "R-100",
+  "src_disponibles": [
+   "img/senales/R-100.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0104",
+  "tipo": "senal",
+  "codigo": "R-101",
+  "src_disponibles": [
+   "img/senales/R-101.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0105",
+  "tipo": "senal",
+  "codigo": "R-102",
+  "src_disponibles": [
+   "img/senales/R-102.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0106",
+  "tipo": "senal",
+  "codigo": "R-103",
+  "src_disponibles": [
+   "img/senales/R-103.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0107",
+  "tipo": "senal",
+  "codigo": "R-105",
+  "src_disponibles": [
+   "img/senales/R-105.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0108",
+  "tipo": "senal",
+  "codigo": "R-106",
+  "src_disponibles": [
+   "img/senales/R-106.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0109",
+  "tipo": "senal",
+  "codigo": "R-107",
+  "src_disponibles": [
+   "img/senales/R-107.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0110",
+  "tipo": "senal",
+  "codigo": "R-109",
+  "src_disponibles": [
+   "img/senales/R-109.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0111",
+  "tipo": "senal",
+  "codigo": "R-110",
+  "src_disponibles": [
+   "img/senales/R-110.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0112",
+  "tipo": "senal",
+  "codigo": "R-111",
+  "src_disponibles": [
+   "img/senales/R-111.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0113",
+  "tipo": "senal",
+  "codigo": "R-112",
+  "src_disponibles": [
+   "img/senales/R-112.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0114",
+  "tipo": "senal",
+  "codigo": "R-115",
+  "src_disponibles": [
+   "img/senales/R-115.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0115",
+  "tipo": "senal",
+  "codigo": "R-117",
+  "src_disponibles": [
+   "img/senales/R-117.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0116",
+  "tipo": "senal",
+  "codigo": "R-202",
+  "src_disponibles": [
+   "img/senales/R-202.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0117",
+  "tipo": "senal",
+  "codigo": "R-203",
+  "src_disponibles": [
+   "img/senales/R-203.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0118",
+  "tipo": "senal",
+  "codigo": "R-205",
+  "src_disponibles": [
+   "img/senales/R-205.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0119",
+  "tipo": "senal",
+  "codigo": "R-300",
+  "src_disponibles": [
+   "img/senales/R-300.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0120",
+  "tipo": "senal",
+  "codigo": "R-301",
+  "src_disponibles": [
+   "img/senales/R-301.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0121",
+  "tipo": "senal",
+  "codigo": "R-303",
+  "src_disponibles": [
+   "img/senales/R-303.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0122",
+  "tipo": "senal",
+  "codigo": "R-304",
+  "src_disponibles": [
+   "img/senales/R-304.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0123",
+  "tipo": "senal",
+  "codigo": "R-305",
+  "src_disponibles": [
+   "img/senales/R-305.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0124",
+  "tipo": "senal",
+  "codigo": "R-306",
+  "src_disponibles": [
+   "img/senales/R-306.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0125",
+  "tipo": "senal",
+  "codigo": "R-400c",
+  "src_disponibles": [
+   "img/senales/R-400c.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0126",
+  "tipo": "senal",
+  "codigo": "R-403a",
+  "src_disponibles": [
+   "img/senales/R-403a.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0127",
+  "tipo": "senal",
+  "codigo": "R-404",
+  "src_disponibles": [
+   "img/senales/R-404.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0128",
+  "tipo": "senal",
+  "codigo": "R-405",
+  "src_disponibles": [
+   "img/senales/R-405.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0129",
+  "tipo": "senal",
+  "codigo": "R-407a",
+  "src_disponibles": [
+   "img/senales/R-407a.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0130",
+  "tipo": "senal",
+  "codigo": "R-407b",
+  "src_disponibles": [
+   "img/senales/R-407b.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0131",
+  "tipo": "senal",
+  "codigo": "R-408",
+  "src_disponibles": [
+   "img/senales/R-408.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0132",
+  "tipo": "senal",
+  "codigo": "R-409",
+  "src_disponibles": [
+   "img/senales/R-409.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0133",
+  "tipo": "senal",
+  "codigo": "R-410",
+  "src_disponibles": [
+   "img/senales/R-410.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0134",
+  "tipo": "senal",
+  "codigo": "R-411",
+  "src_disponibles": [
+   "img/senales/R-411.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0135",
+  "tipo": "senal",
+  "codigo": "R-413",
+  "src_disponibles": [
+   "img/senales/R-413.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0136",
+  "tipo": "senal",
+  "codigo": "R-412",
+  "src_disponibles": [
+   "img/senales/R-412.png",
+   "img/senales/R-412b.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0137",
+  "tipo": "senal",
+  "codigo": "R-415",
+  "src_disponibles": [
+   "img/senales/R-415.png"
+  ]
+ },
+ {
+  "id": "B1-sen-0138",
+  "tipo": "senal",
+  "codigo": "R-418",
+  "src_disponibles": [
+   "img/senales/R-418.png"
+  ]
+ },
+ {
+  "id": "B2-sen-0001",
+  "tipo": "senal",
+  "codigo": "S-3",
+  "src_disponibles": [
+   "img/senales/S-3.png"
+  ]
+ },
+ {
+  "id": "B2-luz-0002",
+  "tipo": "senal",
+  "codigo": "S-5",
+  "src_disponibles": [
+   "img/senales/S-5.png"
+  ]
+ },
+ {
+  "id": "B2-sen-0007",
+  "tipo": "senal",
+  "codigo": "S-991a",
+  "src_disponibles": [
+   "img/senales/S-991a.png"
+  ]
+ },
+ {
+  "id": "B2-cic-0010",
+  "tipo": "senal",
+  "codigo": "R-407a",
+  "src_disponibles": [
+   "img/senales/R-407a.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0017",
+  "tipo": "marca_vial",
+  "codigo": "M-1.1",
+  "src_disponibles": [
+   "img/marcas/M-1.1.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0018",
+  "tipo": "marca_vial",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B2-mv-0019",
+  "tipo": "marca_vial",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B2-mv-0021",
+  "tipo": "marca_vial",
+  "codigo": "M-1.4",
+  "src_disponibles": [
+   "img/marcas/M-1.4.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0022",
+  "tipo": "marca_vial",
+  "codigo": "M-1.9",
+  "src_disponibles": [
+   "img/marcas/M-1.9.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0025",
+  "tipo": "marca_vial",
+  "codigo": "M-4.2",
+  "src_disponibles": [
+   "img/marcas/M-4.2.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0028",
+  "tipo": "marca_vial",
+  "codigo": "M-4.3b",
+  "src_disponibles": [
+   "img/marcas/M-4.3b.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0030",
+  "tipo": "marca_vial",
+  "codigo": "M-6.6",
+  "src_disponibles": [
+   "img/marcas/M-6.6.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0031",
+  "tipo": "marca_vial",
+  "codigo": "M-6.3",
+  "src_disponibles": [
+   "img/marcas/M-6.3.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0032",
+  "tipo": "marca_vial",
+  "codigo": "M-6.5",
+  "src_disponibles": [
+   "img/marcas/M-6.5.png",
+   "img/marcas/M-6.5a.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0034",
+  "tipo": "marca_vial",
+  "codigo": "M-5.4",
+  "src_disponibles": [
+   "img/marcas/M-5.4a.png",
+   "img/marcas/M-5.4b.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0035",
+  "tipo": "marca_vial",
+  "codigo": "M-5.5",
+  "src_disponibles": [
+   "img/marcas/M-5.5.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0036",
+  "tipo": "marca_vial",
+  "codigo": "M-7.5",
+  "src_disponibles": [
+   "img/marcas/M-7.5.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0037",
+  "tipo": "marca_vial",
+  "codigo": "M-7.6",
+  "src_disponibles": [
+   "img/marcas/M-7.6.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0038",
+  "tipo": "marca_vial",
+  "codigo": "M-7.1",
+  "src_disponibles": [
+   "img/marcas/M-7.1a.png",
+   "img/marcas/M-7.1b.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0039",
+  "tipo": "marca_vial",
+  "codigo": "M-7.8",
+  "src_disponibles": [
+   "img/marcas/M-7.8.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0041",
+  "tipo": "marca_vial",
+  "codigo": "M-7.9",
+  "src_disponibles": [
+   "img/marcas/M-7.9.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0042",
+  "tipo": "marca_vial",
+  "codigo": "M-7.10",
+  "src_disponibles": [
+   "img/marcas/M-7.10.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0043",
+  "tipo": "marca_vial",
+  "codigo": "M-7.11",
+  "src_disponibles": [
+   "img/marcas/M-7.11.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0044",
+  "tipo": "marca_vial",
+  "codigo": "M-7.12",
+  "src_disponibles": [
+   "img/marcas/M-7.12.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0045",
+  "tipo": "marca_vial",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "B2-mv-0046",
+  "tipo": "marca_vial",
+  "codigo": "M-8.1",
+  "src_disponibles": [
+   "img/marcas/M-8.1.png"
+  ]
+ },
+ {
+  "id": "B2-mv-0047",
+  "tipo": "marca_vial",
+  "codigo": "M-8.2",
+  "src_disponibles": [
+   "img/marcas/M-8.2.png"
+  ]
+ },
+ {
+  "id": "C-car-0017",
+  "tipo": "senal",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "C-sev-0001",
+  "tipo": "senal",
+  "codigo": null,
+  "src_disponibles": null
+ },
+ {
+  "id": "E-amb-0009",
+  "tipo": "senal",
+  "codigo": null,
+  "src_disponibles": null
+ }
+]

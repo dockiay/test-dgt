@@ -152,6 +152,8 @@
     await fb.signOut(auth);
   }
 
-  window.Nube = { estado, entrar, salir, sincronizar, canonico };
+  // Acceso a Firestore para otros módulos (companero.js): solo con sesión iniciada y permiso comprobado.
+  function conexion() { return auth && auth.currentUser && estado.ultima ? { fb, db, usuario: auth.currentUser } : null; }
+  window.Nube = { estado, entrar, salir, sincronizar, canonico, conexion };
   iniciar();
 })();

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "descripcion": "Preguntas nuevas que salen de resolver las afirmaciones dudosas del vídeo YyTF43W4wOo. Cada pregunta indica en origen.resuelve qué afirmación de revisión resuelve.",
+  "descripcion": "Preguntas nuevas que salen de resolver las afirmaciones dudosas del vídeo video1. Cada pregunta indica en origen.resuelve qué afirmación de revisión resuelve.",
   "normativa_consultada": {
     "RGC": {
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
@@ -70,7 +70,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "8:10",
         "resuelve": "rev-0002"
       },
@@ -101,7 +101,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "3:00",
         "resuelve": "rev-0003"
       },
@@ -132,7 +132,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "3:00",
         "resuelve": "rev-0003"
       },
@@ -163,7 +163,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "6:40",
         "resuelve": "rev-0004"
       },
@@ -194,7 +194,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "5:40",
         "resuelve": "rev-0005"
       },
@@ -256,7 +256,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "15:30",
         "resuelve": "rev-0007"
       },
@@ -318,7 +318,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "15:30",
         "resuelve": "rev-0007"
       },
@@ -357,7 +357,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "20:50",
         "resuelve": "rev-0008"
       },
@@ -388,7 +388,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "46:04",
         "resuelve": "rev-0011"
       },
@@ -419,7 +419,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "40:13",
         "resuelve": "rev-0013"
       },
@@ -450,7 +450,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "40:13",
         "resuelve": "rev-0013"
       },
@@ -481,7 +481,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "40:13",
         "resuelve": "rev-0013"
       },
@@ -512,7 +512,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "51:37",
         "resuelve": "rev-0014"
       },
@@ -543,7 +543,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "51:37",
         "resuelve": "rev-0014"
       },
@@ -574,7 +574,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "1:06:51",
         "resuelve": "rev-0017"
       },
@@ -605,7 +605,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "1:08:29",
         "resuelve": "rev-0018"
       },
@@ -636,7 +636,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0003"
       },
@@ -667,7 +667,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0004"
       },
@@ -698,7 +698,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "1:32:08",
         "resuelve": "A-rev-0013"
       },
@@ -729,7 +729,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0005"
       },
@@ -760,7 +760,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0005"
       },
@@ -791,7 +791,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0006"
       },
@@ -822,7 +822,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0006"
       },
@@ -853,7 +853,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0006"
       },
@@ -884,7 +884,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0007"
       },
@@ -915,7 +915,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0007"
       },
@@ -946,7 +946,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0009"
       },
@@ -977,7 +977,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0009"
       },
@@ -1008,7 +1008,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0010"
       },
@@ -1047,7 +1047,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "5:51:40",
         "resuelve": "E-rev-0013"
       },
@@ -1078,7 +1078,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0013"
       },
@@ -1109,7 +1109,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0013"
       },
@@ -1140,7 +1140,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0015"
       },
@@ -1171,7 +1171,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0017"
       },
@@ -1202,7 +1202,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "C-rev-0017"
       },
@@ -1233,7 +1233,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "5:34:39",
         "resuelve": "E-rev-0014"
       },
@@ -1264,7 +1264,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "4:47:56",
         "resuelve": "D-rev-0010"
       },
@@ -1295,7 +1295,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "4:36:07",
         "resuelve": "D-rev-0017"
       },
@@ -1326,7 +1326,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "4:55:22",
         "resuelve": "D-rev-0019"
       },
@@ -1357,7 +1357,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "4:25:28",
         "resuelve": "D-rev-0022"
       },
@@ -1388,7 +1388,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "5:50:58",
         "resuelve": "E-rev-0011"
       },
@@ -1421,7 +1421,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "3:12:12",
         "resuelve": "B2-rev-0014"
       },
@@ -1454,7 +1454,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "3:12:12",
         "resuelve": "B2-rev-0014"
       },
@@ -1487,7 +1487,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "B1-rev-0007"
       },
@@ -1520,7 +1520,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": null,
         "resuelve": "B1-rev-0011"
       },
@@ -1553,7 +1553,7 @@
       },
       "origen": {
         "tipo": "video_clase",
-        "ref": "YyTF43W4wOo",
+        "ref": "video1",
         "minuto": "2:55:36",
         "resuelve": "B2-rev-0007"
       },

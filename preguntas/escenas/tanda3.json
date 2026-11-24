@@ -1,0 +1,4067 @@
+{
+ "formato": "Escenas animadas por id de pregunta. Ver preguntas/formato-escenas.md. Se publica con: node tools/build_escenas.mjs",
+ "escenas": {
+  "A-est-0008": {
+   "tipo": "estrecho",
+   "antes": "escena",
+   "entorno": "pendiente",
+   "titulo": "Tramo estrecho de gran pendiente visto desde arriba: la carretera sube de izquierda a derecha. Por abajo llega A; por arriba, B.",
+   "sube": "O",
+   "retrocede": "B",
+   "criterio": "63.1",
+   "elementos": [
+    {
+     "tipo": "pendiente",
+     "alto": "E"
+    }
+   ],
+   "senales": [
+    {
+     "cod": "P-16b",
+     "extremo": "O"
+    },
+    {
+     "cod": "P-16a",
+     "extremo": "E"
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "inicio": "cerca"
+    },
+    {
+     "letra": "B",
+     "desde": "E",
+     "inicio": "cerca"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A sube y B baja por un tramo estrecho de gran pendiente; se encuentran y no caben los dos.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "63.1",
+      "texto": "Se entienden por tramos de gran pendiente los que tienen una inclinación mínima del siete por ciento."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "encuentro",
+       "modo": "frena"
+      },
+      {
+       "v": "B",
+       "hasta": "encuentro",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Sube",
+      "B": "Baja"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Tiene la preferencia el que sube, así que B, que baja, da marcha atrás hasta salir del tramo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "63.1",
+      "texto": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "antes"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa primero",
+      "B": "Marcha atrás"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "A termina de subir y después B sigue bajando.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "63.1",
+      "texto": "la preferencia de paso la tendrá el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a un apartadero establecido al efecto"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 2200
+      },
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca",
+       "retraso": 1500,
+       "dura": 2300
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3800
+    }
+   ]
+  },
+  "x1a-0072": {
+   "tipo": "estrecho",
+   "antes": "escena",
+   "entorno": "pendiente",
+   "titulo": "Tramo estrecho en pendiente visto desde arriba: la carretera sube de izquierda a derecha. Por abajo llega el turismo A; por arriba, el camión B.",
+   "retrocede": "A",
+   "criterio": "62.1",
+   "elementos": [
+    {
+     "tipo": "pendiente",
+     "alto": "E"
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "inicio": "cerca"
+    },
+    {
+     "letra": "B",
+     "tipo": "camion",
+     "desde": "E",
+     "inicio": "cerca"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A sube y B baja; se encuentran en el tramo estrecho. No está claro que la pendiente llegue al 7 %.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "63.1",
+      "texto": "En caso de duda sobre la inclinación de la pendiente o la distancia al apartadero, se estará a lo establecido en el artículo 62"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "encuentro",
+       "modo": "frena"
+      },
+      {
+       "v": "B",
+       "hasta": "encuentro",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Sube",
+      "B": "Baja"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Con esa duda se aplica el orden del artículo 62: el camión (B) va en la letra f) y el turismo (A), en la g). Por eso A da marcha atrás, aunque suba.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "62.1",
+      "texto": "el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "antes"
+      }
+     ],
+     "etiquetas": {
+      "B": "Pasa primero",
+      "A": "Marcha atrás"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "El camión (B) pasa y después A sigue subiendo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "62.1",
+      "texto": "f) Camiones, tractocamiones y furgones."
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 2200
+      },
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca",
+       "retraso": 1500,
+       "dura": 2300
+      }
+     ],
+     "etiquetas": {
+      "B": "Pasa"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 3800
+    }
+   ]
+  },
+  "x1a-0064": {
+   "tipo": "estrecho",
+   "antes": "escena",
+   "entorno": "obras",
+   "titulo": "Obras que dejan un solo carril. B espera para pasar; detrás llega usted (A) y, por el otro lado, sale C.",
+   "senales": [
+    {
+     "cod": "P-18",
+     "extremo": "O"
+    }
+   ],
+   "elementos": [
+    {
+     "tipo": "conos",
+     "puntos": [
+      [
+       140,
+       189
+      ],
+      [
+       152,
+       189
+      ],
+      [
+       164,
+       189
+      ],
+      [
+       176,
+       189
+      ],
+      [
+       188,
+       189
+      ],
+      [
+       200,
+       189
+      ],
+      [
+       212,
+       189
+      ],
+      [
+       224,
+       189
+      ],
+      [
+       236,
+       189
+      ],
+      [
+       248,
+       189
+      ],
+      [
+       260,
+       189
+      ],
+      [
+       278,
+       182
+      ],
+      [
+       292,
+       175
+      ],
+      [
+       306,
+       168
+      ]
+     ]
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "B",
+     "desde": "O",
+     "inicio": "antes"
+    },
+    {
+     "letra": "A",
+     "desde": "O",
+     "inicio": "lejos",
+     "tu": true
+    },
+    {
+     "letra": "C",
+     "desde": "E",
+     "inicio": "dentro"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B llegó antes y espera mientras sale C. Usted (A) se coloca detrás de B, lo más arrimado posible a la derecha.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "60.4",
+      "texto": "se colocará detrás de él, lo más arrimado que sea posible al borde de la derecha, y no intentará pasar sino siguiendo al que tiene delante"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "cola",
+       "modo": "frena"
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "B": "Espera",
+      "A": "Detrás",
+      "C": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Cuando B entra en el tramo de obras, usted le sigue, sin intentar adelantarle.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "60.4",
+      "texto": "se colocará detrás de él, lo más arrimado que sea posible al borde de la derecha, y no intentará pasar sino siguiendo al que tiene delante"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 2600
+      },
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca",
+       "retraso": 700,
+       "dura": 2600
+      }
+     ],
+     "etiquetas": {
+      "B": "Pasa",
+      "A": "Le sigue"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3400
+    }
+   ]
+  },
+  "x1a-0063": {
+   "tipo": "estrecho",
+   "antes": "escena",
+   "entorno": "obras",
+   "titulo": "Tramo de carretera con obras de reparación. Usted (A) se acerca.",
+   "senales": [
+    {
+     "cod": "P-18",
+     "extremo": "O"
+    }
+   ],
+   "elementos": [
+    {
+     "tipo": "conos",
+     "puntos": [
+      [
+       140,
+       189
+      ],
+      [
+       152,
+       189
+      ],
+      [
+       164,
+       189
+      ],
+      [
+       176,
+       189
+      ],
+      [
+       188,
+       189
+      ],
+      [
+       200,
+       189
+      ],
+      [
+       212,
+       189
+      ],
+      [
+       224,
+       189
+      ],
+      [
+       236,
+       189
+      ],
+      [
+       248,
+       189
+      ],
+      [
+       260,
+       189
+      ],
+      [
+       278,
+       182
+      ],
+      [
+       292,
+       175
+      ],
+      [
+       306,
+       168
+      ]
+     ]
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "inicio": "lejos",
+     "tu": true
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Hay obras de reparación: los conos marcan el sitio por el que hay que pasar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "60.2",
+      "texto": "Cuando en una vía se estén efectuando obras de reparación, los vehículos, caballerías y toda especie de ganado marcharán por el sitio señalado al efecto."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "antes",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Despacio"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Usted pasa por el sitio señalado, sin salirse de él.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "60.2",
+      "texto": "Cuando en una vía se estén efectuando obras de reparación, los vehículos, caballerías y toda especie de ganado marcharán por el sitio señalado al efecto."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "suave"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3400
+    }
+   ]
+  },
+  "x1a-0071": {
+   "tipo": "estrecho",
+   "antes": "escena",
+   "titulo": "Tramo estrecho donde solo cabe un vehículo. Por la izquierda llega un autobús (A); por la derecha, un turismo (B). En el tramo hay un agente.",
+   "elementos": [
+    {
+     "tipo": "persona",
+     "agente": true,
+     "x": 296,
+     "y": 150,
+     "ang": 150
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tipo": "autobus",
+     "desde": "O",
+     "inicio": "cerca"
+    },
+    {
+     "letra": "B",
+     "desde": "E",
+     "inicio": "cerca"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "El autobús (A) y el turismo (B) se encuentran en el estrechamiento. Por el orden del artículo 62, el autobús tendría la preferencia.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "62.1",
+      "texto": "e) Vehículos destinados al transporte colectivo de viajeros."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "encuentro",
+       "modo": "frena"
+      },
+      {
+       "v": "B",
+       "hasta": "encuentro",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "B": "Espera"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Pero el agente ordena al autobús que retroceda, y lo que ordena el agente va por delante del orden del artículo 62.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "62.1",
+      "texto": "Sin perjuicio de lo que pueda ordenar el agente de la autoridad"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "antes"
+      }
+     ],
+     "etiquetas": {
+      "A": "Marcha atrás",
+      "B": "Pasa primero"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "B pasa y después el autobús sigue su camino.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "62.1",
+      "texto": "Sin perjuicio de lo que pueda ordenar el agente de la autoridad"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 2200
+      },
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca",
+       "retraso": 1500,
+       "dura": 2300
+      }
+     ],
+     "etiquetas": {
+      "B": "Pasa"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 3800
+    }
+   ]
+  },
+  "x1a-0011": {
+   "tipo": "recta",
+   "antes": "escena",
+   "titulo": "Vía de doble sentido con una isleta en el centro de la calzada. A circula hacia la derecha y B, hacia la izquierda.",
+   "elementos": [
+    {
+     "tipo": "isleta",
+     "x": 150,
+     "y": 194,
+     "w": 100,
+     "h": 12
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "marcas": {
+      "cerca": 70,
+      "antes": 120
+     }
+    },
+    {
+     "letra": "B",
+     "desde": "E",
+     "marcas": {
+      "cerca": 330,
+      "antes": 280
+     }
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A y B se acercan a una isleta situada en el centro de la calzada.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "43.1",
+      "texto": "se circulará por la parte de la calzada que quede a la derecha de éstos, en el sentido de la marcha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "antes",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "antes",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {},
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2000
+    },
+    {
+     "texto": "Cada uno pasa por la parte de la calzada que queda a la derecha de la isleta, según su sentido de marcha.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "43.1",
+      "texto": "se circulará por la parte de la calzada que quede a la derecha de éstos, en el sentido de la marcha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Por su derecha",
+      "B": "Por su derecha"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2800
+    }
+   ]
+  },
+  "x1a-0012": {
+   "tipo": "recta",
+   "antes": "imagen",
+   "via": {
+    "urbana": true,
+    "sentidoUnico": true,
+    "carriles": 2
+   },
+   "titulo": "Calle de sentido único con un refugio para peatones en el centro. A y B circulan en el mismo sentido.",
+   "elementos": [
+    {
+     "tipo": "isleta",
+     "peatones": true,
+     "x": 160,
+     "y": 196,
+     "w": 80,
+     "h": 8
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "y": 180,
+     "marcas": {
+      "antes": 125
+     }
+    },
+    {
+     "letra": "B",
+     "desde": "O",
+     "y": 220,
+     "marcas": {
+      "antes": 95
+     }
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "En una calle de sentido único hay un refugio para peatones y ninguna señal indica por dónde pasar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "43.1",
+      "texto": "salvo cuando estén situados en una vía de sentido único o dentro de la parte correspondiente a un solo sentido de circulación, en cuyo caso podrá hacerse por cualquiera de los dos lados"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "antes",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "antes",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {},
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2200
+    },
+    {
+     "texto": "Se puede pasar por cualquiera de los dos lados: A lo deja a su derecha y B, a su izquierda.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "43.1",
+      "texto": "salvo cuando estén situados en una vía de sentido único o dentro de la parte correspondiente a un solo sentido de circulación, en cuyo caso podrá hacerse por cualquiera de los dos lados"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Por la izquierda",
+      "B": "Por la derecha"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2800
+    }
+   ]
+  },
+  "x1a-0014": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "mediana": true
+   },
+   "titulo": "Vía dividida en dos calzadas por una mediana. A circula hacia la derecha y B, hacia la izquierda.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "y": 266,
+     "marcas": {
+      "medio": 200
+     }
+    },
+    {
+     "letra": "B",
+     "desde": "E",
+     "y": 134,
+     "marcas": {
+      "medio": 200
+     }
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Cada uno usa la calzada de la derecha según su sentido de marcha: A, la de abajo; B, la de arriba.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "44.1",
+      "texto": "los vehículos deben utilizar la calzada de la derecha, en relación con el sentido de su marcha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "medio",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "medio",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Su derecha",
+      "B": "Su derecha"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2400
+    },
+    {
+     "texto": "Así nunca se encuentran de frente: la mediana separa los dos sentidos.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "44.1",
+      "texto": "los vehículos deben utilizar la calzada de la derecha, en relación con el sentido de su marcha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {},
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "x1a-0073": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "titulo": "Usted (A) va a girar a la derecha y en la calle a la que entra hay un rebaño cruzando, donde no hay paso para animales.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "S",
+     "hacia": "E",
+     "inicio": "cerca",
+     "tu": true
+    },
+    {
+     "id": "rebano",
+     "tipo": "oveja",
+     "grupo": 7,
+     "separacion": 15,
+     "desorden": 6,
+     "puntos": [
+      [
+       270,
+       -80
+      ],
+      [
+       270,
+       150
+      ],
+      {
+       "marca": "borde"
+      },
+      [
+       270,
+       196
+      ],
+      {
+       "marca": "medio"
+      },
+      [
+       270,
+       262
+      ],
+      {
+       "marca": "cruzado"
+      },
+      [
+       270,
+       440
+      ]
+     ],
+     "inicio": "medio"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Usted (A) va a girar a la derecha y el rebaño está cruzando la calle a la que entra.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.b",
+      "texto": "Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales cruzándola, aunque no exista paso para éstos."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena"
+      },
+      {
+       "v": "rebano",
+       "hasta": "cruzado",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "rebano"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Los animales tienen prioridad: espera a que crucen todos.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.b",
+      "texto": "Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales cruzándola, aunque no exista paso para éstos."
+     },
+     "mover": [
+      {
+       "v": "rebano",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "rebano"
+     ],
+     "ms": 3600
+    },
+    {
+     "texto": "Con la calle libre, gira ciñéndose al borde derecho.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "75.1.b",
+      "texto": "se ceñirá todo lo posible al borde derecho de la calzada, si el cambio de dirección es a la derecha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Gira"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "x1a-0074": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "entorno": "campo",
+   "titulo": "Usted (A) va a girar a la derecha para entrar en una finca. Por el arcén caminan unas vacas.",
+   "vias": {
+    "N": {
+     "cerrada": true
+    },
+    "S": {
+     "firme": "tierra"
+    }
+   },
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "hacia": "S",
+     "inicio": "cerca",
+     "tu": true
+    },
+    {
+     "id": "vacas",
+     "tipo": "vaca",
+     "grupo": 3,
+     "separacion": 34,
+     "puntos": [
+      [
+       460,
+       247
+      ],
+      [
+       300,
+       247
+      ],
+      {
+       "marca": "vienen"
+      },
+      [
+       150,
+       247
+      ],
+      {
+       "marca": "entrada"
+      },
+      [
+       40,
+       247
+      ],
+      {
+       "marca": "pasadas"
+      },
+      [
+       -160,
+       247
+      ]
+     ],
+     "inicio": "vienen"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Para entrar en la finca, usted (A) tiene que cruzar el arcén, y por él caminan unas vacas.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.c",
+      "texto": "Cuando el vehículo cruce un arcén por el que estén circulando animales que no dispongan de cañada"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena"
+      },
+      {
+       "v": "vacas",
+       "hasta": "entrada",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "vacas"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Allí no hay cañada, pero las vacas tienen prioridad: espera a que pasen.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.c",
+      "texto": "Cuando el vehículo cruce un arcén por el que estén circulando animales que no dispongan de cañada"
+     },
+     "mover": [
+      {
+       "v": "vacas",
+       "hasta": "pasadas",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "vacas"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Con el arcén libre, entra en la finca.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.c",
+      "texto": "Cuando el vehículo cruce un arcén por el que estén circulando animales que no dispongan de cañada"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Gira"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "A-ani-0001": {
+   "tipo": "recta",
+   "antes": "imagen",
+   "titulo": "Carretera con la señal de paso de ganado y el panel «Cañada». Usted (A) se acerca y unas vacas están cruzando.",
+   "elementos": [
+    {
+     "tipo": "cartel",
+     "cod": "P-23",
+     "x": 108,
+     "y": 262,
+     "panel": "Cañada"
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "inicio": "cerca",
+     "tu": true,
+     "marcas": {
+      "cerca": 60,
+      "para": 214
+     }
+    },
+    {
+     "id": "vacas",
+     "tipo": "vaca",
+     "grupo": 4,
+     "separacion": 32,
+     "desorden": 6,
+     "puntos": [
+      [
+       256,
+       -60
+      ],
+      [
+       256,
+       140
+      ],
+      {
+       "marca": "borde"
+      },
+      [
+       256,
+       210
+      ],
+      {
+       "marca": "medio"
+      },
+      [
+       256,
+       460
+      ]
+     ],
+     "inicio": "borde"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Hay una cañada señalizada y el ganado está cruzando: usted (A) se detiene.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.a",
+      "texto": "En las cañadas debidamente señalizadas."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "para",
+       "modo": "frena"
+      },
+      {
+       "v": "vacas",
+       "hasta": "medio",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "vacas"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "En las cañadas señalizadas, los animales tienen prioridad: espera a que crucen todos.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.a",
+      "texto": "En las cañadas debidamente señalizadas."
+     },
+     "mover": [
+      {
+       "v": "vacas",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "vacas"
+     ],
+     "ms": 3800
+    },
+    {
+     "texto": "Con la vía libre, sigue.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.a",
+      "texto": "En las cañadas debidamente señalizadas."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "B1-pri-0069": {
+   "tipo": "recta",
+   "antes": "imagen",
+   "titulo": "Carretera con la señal de paso de ganado y el panel «Cañada». Usted (A) se acerca y unas vacas están cruzando.",
+   "elementos": [
+    {
+     "tipo": "cartel",
+     "cod": "P-23",
+     "x": 108,
+     "y": 262,
+     "panel": "Cañada"
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "inicio": "cerca",
+     "tu": true,
+     "marcas": {
+      "cerca": 60,
+      "para": 214
+     }
+    },
+    {
+     "id": "vacas",
+     "tipo": "vaca",
+     "grupo": 4,
+     "separacion": 32,
+     "desorden": 6,
+     "puntos": [
+      [
+       256,
+       -60
+      ],
+      [
+       256,
+       140
+      ],
+      {
+       "marca": "borde"
+      },
+      [
+       256,
+       210
+      ],
+      {
+       "marca": "medio"
+      },
+      [
+       256,
+       460
+      ]
+     ],
+     "inicio": "borde"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Hay una cañada señalizada y el ganado está cruzando: usted (A) se detiene.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.2",
+      "texto": "se señalizarán por medio de paneles complementarios con la inscripción “cañada”, que se colocarán debajo de la señal “paso de animales domésticos”"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "para",
+       "modo": "frena"
+      },
+      {
+       "v": "vacas",
+       "hasta": "medio",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "vacas"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "En las cañadas señalizadas, los animales tienen prioridad: espera a que crucen todos.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.a",
+      "texto": "En las cañadas debidamente señalizadas."
+     },
+     "mover": [
+      {
+       "v": "vacas",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "vacas"
+     ],
+     "ms": 3800
+    },
+    {
+     "texto": "Con la vía libre, sigue.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "66.1.a",
+      "texto": "En las cañadas debidamente señalizadas."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "A-pri-0003": {
+   "tipo": "cruce",
+   "antes": "imagen",
+   "titulo": "Cruce sin señales. Usted (A) llega por el sur y por su izquierda se acerca un tranvía (B).",
+   "elementos": [
+    {
+     "tipo": "railes",
+     "eje": "h",
+     "y": 200,
+     "enCalzada": true
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "S",
+     "hacia": "N",
+     "inicio": "espera",
+     "tu": true
+    },
+    {
+     "letra": "B",
+     "tipo": "tranvia",
+     "puntos": [
+      [
+       -300,
+       200
+      ],
+      [
+       40,
+       200
+      ],
+      {
+       "marca": "cerca"
+      },
+      [
+       760,
+       200
+      ]
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "El tranvía (B) se acerca por su izquierda. Aun así, tiene prioridad: los vehículos que circulan por raíles la tienen sobre los demás.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "57.1.b",
+      "texto": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios."
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "cerca",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "B": "Prioridad"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Usted espera a que pase el tranvía entero.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "57.1.b",
+      "texto": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios."
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "B": "Pasa"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Con las vías libres, cruza.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "57.1.b",
+      "texto": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "B1-pri-0067": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "entorno": "campo",
+   "titulo": "Paso a nivel sin barreras. Usted (A) se acerca por la carretera y por la vía del tren se acerca un tren.",
+   "vias": {
+    "E": {
+     "cerrada": true
+    },
+    "O": {
+     "cerrada": true
+    },
+    "S": {
+     "cartel": "P-8"
+    }
+   },
+   "elementos": [
+    {
+     "tipo": "railes",
+     "eje": "h",
+     "y": 200
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "S",
+     "hacia": "N",
+     "inicio": "cerca",
+     "tu": true
+    },
+    {
+     "id": "tren",
+     "tipo": "tren",
+     "grupo": 4,
+     "separacion": 78,
+     "color": "B",
+     "puntos": [
+      [
+       -520,
+       200
+      ],
+      [
+       60,
+       200
+      ],
+      {
+       "marca": "cerca"
+      },
+      [
+       1100,
+       200
+      ]
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Se acerca un tren: usted (A) se detiene antes del paso a nivel.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "57.1.b",
+      "texto": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena"
+      },
+      {
+       "v": "tren",
+       "hasta": "cerca",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "tren"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "El tren tiene prioridad de paso: espera a que pase entero.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "57.1.b",
+      "texto": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios."
+     },
+     "mover": [
+      {
+       "v": "tren",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "tren"
+     ],
+     "ms": 3400
+    },
+    {
+     "texto": "Con la vía libre, cruza el paso a nivel.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "57.1.b",
+      "texto": "Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "A-pea-0002": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "entorno": "campo",
+   "titulo": "Usted (A) va a girar a la derecha para entrar en un camino. Por el arcén caminan dos peatones; allí no hay acera.",
+   "vias": {
+    "N": {
+     "cerrada": true
+    },
+    "S": {
+     "firme": "tierra"
+    }
+   },
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "hacia": "S",
+     "inicio": "cerca",
+     "tu": true
+    },
+    {
+     "id": "p1",
+     "tipo": "peaton",
+     "color": "D",
+     "puntos": [
+      [
+       330,
+       246
+      ],
+      {
+       "marca": "vienen"
+      },
+      [
+       150,
+       246
+      ],
+      {
+       "marca": "entrada"
+      },
+      [
+       100,
+       246
+      ],
+      {
+       "marca": "pasados"
+      },
+      [
+       60,
+       246
+      ]
+     ]
+    },
+    {
+     "id": "p2",
+     "tipo": "peaton",
+     "color": "C",
+     "puntos": [
+      [
+       350,
+       247
+      ],
+      {
+       "marca": "vienen"
+      },
+      [
+       170,
+       247
+      ],
+      {
+       "marca": "entrada"
+      },
+      [
+       120,
+       247
+      ],
+      {
+       "marca": "pasados"
+      },
+      [
+       80,
+       247
+      ]
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Para entrar en el camino, usted (A) tiene que cruzar el arcén, y por él caminan dos peatones que no tienen acera.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "65.1.c",
+      "texto": "Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena"
+      },
+      {
+       "v": "p1",
+       "hasta": "entrada",
+       "modo": "sigue"
+      },
+      {
+       "v": "p2",
+       "hasta": "entrada",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "p1",
+      "p2"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Los peatones tienen prioridad: espera a que pasen.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "65.1.c",
+      "texto": "Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+     },
+     "mover": [
+      {
+       "v": "p1",
+       "hasta": "pasados",
+       "modo": "sigue"
+      },
+      {
+       "v": "p2",
+       "hasta": "pasados",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "p1",
+      "p2"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Con el arcén libre, gira.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "65.1.c",
+      "texto": "Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Gira"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "A-pea-0004": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true,
+    "sinCasasSur": true
+   },
+   "titulo": "Usted (A) sale de un garaje y tiene que atravesar la acera para llegar a la calzada. Por la acera camina un peatón.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "asfalto",
+     "x": 170,
+     "y": 262,
+     "w": 60,
+     "h": 150
+    },
+    {
+     "tipo": "casa",
+     "x": -6,
+     "y": 280,
+     "w": 166,
+     "h": 100
+    },
+    {
+     "tipo": "casa",
+     "x": 240,
+     "y": 280,
+     "w": 170,
+     "h": 100
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tu": true,
+     "intermitente": "derecha",
+     "puntos": [
+      [
+       200,
+       430
+      ],
+      [
+       200,
+       330
+      ],
+      {
+       "marca": "garaje"
+      },
+      [
+       200,
+       296
+      ],
+      {
+       "marca": "antes"
+      },
+      [
+       200,
+       262
+      ],
+      [
+       204,
+       246
+      ],
+      [
+       214,
+       232
+      ],
+      [
+       232,
+       223
+      ],
+      [
+       258,
+       220
+      ],
+      [
+       720,
+       220
+      ]
+     ],
+     "inicio": "garaje"
+    },
+    {
+     "id": "p1",
+     "tipo": "peaton",
+     "color": "D",
+     "puntos": [
+      [
+       -40,
+       256
+      ],
+      [
+       440,
+       256
+      ]
+     ],
+     "inicio": 0.18
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Usted (A) sale del garaje y se detiene antes de la acera: por ella camina un peatón.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "65.1.a",
+      "texto": "En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "antes",
+       "modo": "frena"
+      },
+      {
+       "v": "p1",
+       "hasta": 0.42,
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "p1"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "En la acera, el peatón tiene prioridad: le deja pasar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "65.1.a",
+      "texto": "En los pasos para peatones debidamente señalizados, aceras y demás zonas peatonales."
+     },
+     "mover": [
+      {
+       "v": "p1",
+       "hasta": 0.8,
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "p1"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Después cruza la acera y se incorpora a la calzada cuando puede hacerlo sin peligro.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.1",
+      "texto": "de que puede hacerlo sin peligro para los demás usuarios"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Sale"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    }
+   ]
+  },
+  "x1a-0092": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true,
+    "sinCasasSur": true
+   },
+   "titulo": "Usted (A) va a salir de un garaje a la calle; los edificios le tapan la vista. En la acera hay una persona.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "asfalto",
+     "x": 170,
+     "y": 262,
+     "w": 60,
+     "h": 150
+    },
+    {
+     "tipo": "casa",
+     "x": -6,
+     "y": 270,
+     "w": 166,
+     "h": 110
+    },
+    {
+     "tipo": "casa",
+     "x": 240,
+     "y": 270,
+     "w": 170,
+     "h": 110
+    },
+    {
+     "tipo": "persona",
+     "x": 148,
+     "y": 252,
+     "ang": -90
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tu": true,
+     "intermitente": "derecha",
+     "puntos": [
+      [
+       200,
+       430
+      ],
+      [
+       200,
+       330
+      ],
+      {
+       "marca": "garaje"
+      },
+      [
+       200,
+       296
+      ],
+      {
+       "marca": "antes"
+      },
+      [
+       200,
+       262
+      ],
+      [
+       204,
+       246
+      ],
+      [
+       214,
+       232
+      ],
+      [
+       232,
+       223
+      ],
+      [
+       258,
+       220
+      ],
+      [
+       720,
+       220
+      ]
+     ],
+     "inicio": "garaje"
+    },
+    {
+     "letra": "B",
+     "desde": "O",
+     "marcas": {
+      "cerca": 40
+     }
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Usted (A) se acerca despacio a la calle, pero los edificios no le dejan ver si viene alguien.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.1",
+      "texto": "de que puede hacerlo sin peligro para los demás usuarios"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "antes",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Sin visibilidad"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Una persona en la acera le indica que espere: se acerca B.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.1",
+      "texto": "incluso siguiendo las indicaciones de otra persona en caso necesario"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "B": "Pasa"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Cuando la persona le indica que la calle está libre, sale.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.1",
+      "texto": "incluso siguiendo las indicaciones de otra persona en caso necesario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Sale"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    }
+   ]
+  },
+  "A-pea-0005": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true
+   },
+   "titulo": "Una fila escolar cruza la calzada donde no hay paso para peatones. Usted (A) se acerca.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "tu": true,
+     "marcas": {
+      "cerca": 40,
+      "para": 206
+     }
+    },
+    {
+     "id": "fila",
+     "tipo": "nino",
+     "color": "C",
+     "grupo": 9,
+     "separacion": 12,
+     "desorden": 3,
+     "puntos": [
+      [
+       252,
+       -80
+      ],
+      [
+       252,
+       150
+      ],
+      {
+       "marca": "borde"
+      },
+      [
+       252,
+       200
+      ],
+      {
+       "marca": "medio"
+      },
+      [
+       252,
+       480
+      ]
+     ],
+     "inicio": "medio"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Una fila escolar está cruzando la calzada, aunque allí no hay paso para peatones. Usted (A) se detiene.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "65.1.e",
+      "texto": "Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "para",
+       "modo": "frena"
+      },
+      {
+       "v": "fila",
+       "hasta": 0.62,
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "fila"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "La fila escolar tiene prioridad: espera a que cruce entera.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "65.1.e",
+      "texto": "Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+     },
+     "mover": [
+      {
+       "v": "fila",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "fila"
+     ],
+     "ms": 3400
+    },
+    {
+     "texto": "Con la calzada libre, sigue.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "65.1.e",
+      "texto": "Cuando transiten unidades militares a pie, filas escolares y comitivas organizadas."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "A-cic-0003": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true
+   },
+   "titulo": "Calle con un paso para ciclistas señalizado, sin semáforo. Un ciclista lo va a cruzar y usted (A) se acerca.",
+   "elementos": [
+    {
+     "tipo": "pasoCiclistas",
+     "x": 244,
+     "desde": 160,
+     "hasta": 240,
+     "ancho": 22
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "tu": true,
+     "marcas": {
+      "cerca": 40,
+      "para": 230
+     }
+    },
+    {
+     "id": "ciclista",
+     "tipo": "bici",
+     "color": "D",
+     "puntos": [
+      [
+       255,
+       40
+      ],
+      [
+       255,
+       140
+      ],
+      {
+       "marca": "borde"
+      },
+      [
+       255,
+       420
+      ]
+     ],
+     "inicio": 0.3
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Un ciclista va a cruzar por el paso para ciclistas: usted (A) se detiene antes del paso.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "64.2.a",
+      "texto": "Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "para",
+       "modo": "frena"
+      },
+      {
+       "v": "ciclista",
+       "hasta": "borde",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "ciclista"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "En el paso para ciclistas, el ciclista tiene prioridad: le deja cruzar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "64.2.a",
+      "texto": "Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados."
+     },
+     "mover": [
+      {
+       "v": "ciclista",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "ciclista"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Con el paso libre, sigue.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "64.2.a",
+      "texto": "Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "A-inc-0004": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true
+   },
+   "titulo": "Calle de un pueblo. Un autobús (B) está en una parada señalizada y usted (A) se acerca por el mismo carril.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "asfalto",
+     "x": 140,
+     "y": 238,
+     "w": 150,
+     "h": 22,
+     "r": 4
+    },
+    {
+     "tipo": "parada",
+     "x": 150,
+     "y": 240,
+     "w": 130,
+     "h": 18
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "tu": true,
+     "marcas": {
+      "cerca": 20,
+      "frena": 110
+     }
+    },
+    {
+     "letra": "B",
+     "tipo": "autobus",
+     "intermitente": "izquierda",
+     "puntos": [
+      [
+       206,
+       249
+      ],
+      [
+       240,
+       249
+      ],
+      {
+       "marca": "sale"
+      },
+      [
+       272,
+       246
+      ],
+      [
+       300,
+       236
+      ],
+      [
+       328,
+       225
+      ],
+      [
+       352,
+       220
+      ],
+      [
+       760,
+       220
+      ]
+     ],
+     "inicio": 0
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "El autobús (B) pone el intermitente para salir de la parada. Usted (A) reduce la velocidad, llegando a detenerse si hace falta.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "73.2",
+      "texto": "los conductores de los demás vehículos deberán desplazarse lateralmente, siempre que fuera posible, o reducir su velocidad"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "frena",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Reduce",
+      "B": "Sale"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Le deja salir para que siga su marcha.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "73.1",
+      "texto": "especialmente si se trata de un vehículo de transporte colectivo de viajeros que pretende incorporarse a la circulación desde una parada señalizada"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 3000
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "B": "Sale"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Después, usted sigue detrás.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "73.2",
+      "texto": "los conductores de los demás vehículos deberán desplazarse lateralmente, siempre que fuera posible, o reducir su velocidad"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "x1a-0095": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true
+   },
+   "titulo": "Calle de un pueblo. Un autobús (B) está en una parada señalizada; por el mismo carril se acerca A.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "asfalto",
+     "x": 140,
+     "y": 238,
+     "w": 150,
+     "h": 22,
+     "r": 4
+    },
+    {
+     "tipo": "parada",
+     "x": 150,
+     "y": 240,
+     "w": 130,
+     "h": 18
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "marcas": {
+      "cerca": 20,
+      "frena": 110
+     }
+    },
+    {
+     "letra": "B",
+     "tipo": "autobus",
+     "intermitente": "izquierda",
+     "puntos": [
+      [
+       206,
+       249
+      ],
+      [
+       240,
+       249
+      ],
+      {
+       "marca": "sale"
+      },
+      [
+       272,
+       246
+      ],
+      [
+       300,
+       236
+      ],
+      [
+       328,
+       225
+      ],
+      [
+       352,
+       220
+      ],
+      [
+       760,
+       220
+      ]
+     ],
+     "inicio": 0
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "El conductor del autobús (B) anuncia con el intermitente que va a salir de la parada.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "73.3",
+      "texto": "de adoptar las precauciones necesarias para evitar todo riesgo de accidente, después de haber anunciado por medio de sus indicadores de dirección su propósito de reanudar la marcha"
+     },
+     "mover": [],
+     "etiquetas": {
+      "B": "Intermitente"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2000
+    },
+    {
+     "texto": "Aunque los demás deben facilitarle la salida, B se asegura de que puede salir sin riesgo: espera a ver que A frena.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "73.3",
+      "texto": "de adoptar las precauciones necesarias para evitar todo riesgo de accidente, después de haber anunciado por medio de sus indicadores de dirección su propósito de reanudar la marcha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "frena",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Reduce",
+      "B": "Espera"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Entonces B sale de la parada y A sigue detrás.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "73.2",
+      "texto": "los conductores de los demás vehículos deberán desplazarse lateralmente, siempre que fuera posible, o reducir su velocidad"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 3000
+      },
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca",
+       "retraso": 1600,
+       "dura": 2400
+      }
+     ],
+     "etiquetas": {
+      "B": "Sale"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 4000
+    }
+   ]
+  },
+  "A-inc-0001": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true
+   },
+   "titulo": "Usted (A) está estacionado junto a la acera y quiere incorporarse a la circulación. Por la calzada se acerca B.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "asfalto",
+     "x": -10,
+     "y": 240,
+     "w": 420,
+     "h": 22
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tu": true,
+     "intermitente": "izquierda",
+     "puntos": [
+      [
+       170,
+       251
+      ],
+      [
+       190,
+       251
+      ],
+      {
+       "marca": "asoma"
+      },
+      [
+       222,
+       246
+      ],
+      [
+       250,
+       232
+      ],
+      [
+       280,
+       222
+      ],
+      [
+       306,
+       220
+      ],
+      [
+       760,
+       220
+      ]
+     ],
+     "inicio": 0
+    },
+    {
+     "id": "e1",
+     "tipo": "turismo",
+     "puntos": [
+      [
+       110,
+       251
+      ],
+      [
+       111,
+       251
+      ]
+     ],
+     "inicio": 0
+    },
+    {
+     "id": "e2",
+     "tipo": "autocaravana",
+     "puntos": [
+      [
+       290,
+       251
+      ],
+      [
+       291,
+       251
+      ]
+     ],
+     "inicio": 0
+    },
+    {
+     "letra": "B",
+     "desde": "O",
+     "marcas": {
+      "cerca": 60
+     }
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Usted (A) pone el intermitente para incorporarse y mira: por la calzada se acerca B.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.1",
+      "texto": "cediendo el paso a otros vehículos y teniendo en cuenta la posición, trayectoria y velocidad de éstos"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "cerca",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "B": "Pasa"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2400
+    },
+    {
+     "texto": "Le cede el paso: B sigue sin tener que frenar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.1",
+      "texto": "cediendo el paso a otros vehículos y teniendo en cuenta la posición, trayectoria y velocidad de éstos"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Cede"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2200
+    },
+    {
+     "texto": "Con la calzada libre, se incorpora.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "72.1",
+      "texto": "de que puede hacerlo sin peligro para los demás usuarios"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Sale"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3000
+    }
+   ]
+  },
+  "A-inc-0005": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "sentidoUnico": true,
+    "carriles": 2
+   },
+   "titulo": "Calzada de dos carriles en el mismo sentido. Usted (A) va por el de la derecha; B, por el de la izquierda, algo más atrás.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tu": true,
+     "intermitente": "izquierda",
+     "puntos": [
+      [
+       -300,
+       220
+      ],
+      [
+       70,
+       220
+      ],
+      {
+       "marca": "ahora"
+      },
+      [
+       170,
+       220
+      ],
+      {
+       "marca": "espera"
+      },
+      [
+       230,
+       220
+      ],
+      {
+       "marca": "mas"
+      },
+      [
+       262,
+       216
+      ],
+      [
+       290,
+       204
+      ],
+      [
+       318,
+       188
+      ],
+      [
+       340,
+       180
+      ],
+      [
+       800,
+       180
+      ]
+     ],
+     "inicio": "ahora"
+    },
+    {
+     "letra": "B",
+     "desde": "O",
+     "y": 180,
+     "marcas": {
+      "cerca": 110
+     }
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Usted (A) quiere pasarse al carril de la izquierda, pero por él se acerca B.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "74.2",
+      "texto": "Toda maniobra de desplazamiento lateral que implique cambio de carril deberá llevarse a efecto respetando la prioridad del que circule por el carril que se pretende ocupar"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "cerca",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Intermitente",
+      "B": "Prioridad"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2400
+    },
+    {
+     "texto": "B tiene la prioridad: usted sigue en su carril y le deja pasar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "74.2",
+      "texto": "Toda maniobra de desplazamiento lateral que implique cambio de carril deberá llevarse a efecto respetando la prioridad del que circule por el carril que se pretende ocupar"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "mas",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2400
+    },
+    {
+     "texto": "Con el carril libre, cambia de carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "74.2",
+      "texto": "Toda maniobra de desplazamiento lateral que implique cambio de carril deberá llevarse a efecto respetando la prioridad del que circule por el carril que se pretende ocupar"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Cambia"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    }
+   ]
+  },
+  "A-dir-0003": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "titulo": "Usted (A) circula por una calzada de sentido único (dos carriles hacia arriba) y va a girar a la izquierda.",
+   "vias": {
+    "S": {
+     "flechas": 0
+    },
+    "N": {
+     "flechas": 0
+    }
+   },
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tu": true,
+     "intermitente": "izquierda",
+     "puntos": [
+      [
+       171,
+       440
+      ],
+      [
+       171,
+       330
+      ],
+      {
+       "marca": "cerca"
+      },
+      [
+       171,
+       270
+      ],
+      {
+       "marca": "espera"
+      },
+      [
+       171,
+       232
+      ],
+      [
+       170.4,
+       224.2
+      ],
+      [
+       168.6,
+       216.5
+      ],
+      [
+       165.6,
+       209.3
+      ],
+      [
+       161.5,
+       202.6
+      ],
+      [
+       156.4,
+       196.6
+      ],
+      [
+       150.4,
+       191.5
+      ],
+      [
+       143.7,
+       187.4
+      ],
+      [
+       136.5,
+       184.4
+      ],
+      [
+       128.8,
+       182.6
+      ],
+      [
+       121.0,
+       182.0
+      ],
+      [
+       -320,
+       182
+      ]
+     ],
+     "inicio": "cerca"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "En una calzada de sentido único, para girar a la izquierda usted se ciñe todo lo posible al borde izquierdo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "75.1.b",
+      "texto": "y al borde izquierdo, si es a la izquierda y la calzada es de un solo sentido"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Se coloca"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Desde ahí gira en el menor espacio y tiempo posibles.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "75.1.b",
+      "texto": "la maniobra en el menor espacio y tiempo posibles"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Gira"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    }
+   ]
+  },
+  "x1a-0097": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "centro": true,
+   "titulo": "Intersección con marcas que señalizan los giros a la izquierda. Usted (A) llega por el sur y va a girar a la izquierda.",
+   "elementos": [
+    {
+     "tipo": "guia",
+     "puntos": [
+      [
+       211,
+       262
+      ],
+      [
+       210.6,
+       252.2
+      ],
+      [
+       209.2,
+       244.4
+      ],
+      [
+       207.1,
+       236.9
+      ],
+      [
+       204.1,
+       229.6
+      ],
+      [
+       200.3,
+       222.8
+      ],
+      [
+       195.7,
+       216.4
+      ],
+      [
+       190.5,
+       210.5
+      ],
+      [
+       184.6,
+       205.3
+      ],
+      [
+       178.2,
+       200.7
+      ],
+      [
+       171.4,
+       196.9
+      ],
+      [
+       164.1,
+       193.9
+      ],
+      [
+       156.6,
+       191.8
+      ],
+      [
+       148.8,
+       190.4
+      ],
+      [
+       141.0,
+       190.0
+      ],
+      [
+       104,
+       182
+      ]
+     ]
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tu": true,
+     "intermitente": "izquierda",
+     "puntos": [
+      [
+       211,
+       440
+      ],
+      [
+       211,
+       330
+      ],
+      {
+       "marca": "cerca"
+      },
+      [
+       211,
+       282
+      ],
+      {
+       "marca": "espera"
+      },
+      [
+       211,
+       260
+      ],
+      [
+       210.6,
+       252.2
+      ],
+      [
+       209.2,
+       244.4
+      ],
+      [
+       207.1,
+       236.9
+      ],
+      [
+       204.1,
+       229.6
+      ],
+      [
+       200.3,
+       222.8
+      ],
+      [
+       195.7,
+       216.4
+      ],
+      [
+       190.5,
+       210.5
+      ],
+      [
+       184.6,
+       205.3
+      ],
+      [
+       178.2,
+       200.7
+      ],
+      [
+       171.4,
+       196.9
+      ],
+      [
+       164.1,
+       193.9
+      ],
+      [
+       156.6,
+       191.8
+      ],
+      [
+       148.8,
+       190.4
+      ],
+      [
+       141.0,
+       190.0
+      ],
+      [
+       110,
+       182
+      ],
+      [
+       -320,
+       182
+      ]
+     ],
+     "inicio": "cerca"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "La intersección está señalizada para girar a la izquierda dejando el centro a la derecha: las marcas indican la trayectoria.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "75.1.c",
+      "texto": "a no ser que ésta esté acondicionada o señalizada para dejarlo a su derecha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Se coloca"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Usted gira siguiendo las marcas, con el centro de la intersección a su derecha.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "75.1.c",
+      "texto": "a no ser que ésta esté acondicionada o señalizada para dejarlo a su derecha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Gira"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    }
+   ]
+  },
+  "A-dir-0008": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "entorno": "campo",
+   "titulo": "Carretera fuera de poblado sin carril para girar. Un ciclista (A) quiere girar a la izquierda hacia un camino; por la carretera circulan B y C.",
+   "vias": {
+    "S": {
+     "cerrada": true
+    }
+   },
+   "vehiculos": [
+    {
+     "letra": "A",
+     "tipo": "bici",
+     "intermitente": "izquierda",
+     "puntos": [
+      [
+       -200,
+       232
+      ],
+      [
+       60,
+       232
+      ],
+      {
+       "marca": "cerca"
+      },
+      [
+       150,
+       233
+      ],
+      [
+       180,
+       238
+      ],
+      [
+       200,
+       247
+      ],
+      [
+       212,
+       254
+      ],
+      [
+       220,
+       258
+      ],
+      {
+       "marca": "fuera"
+      },
+      [
+       220,
+       246
+      ],
+      [
+       220,
+       160
+      ],
+      [
+       220,
+       -200
+      ]
+     ],
+     "inicio": "cerca"
+    },
+    {
+     "letra": "B",
+     "desde": "E",
+     "hacia": "O",
+     "inicio": "lejos"
+    },
+    {
+     "letra": "C",
+     "desde": "O",
+     "hacia": "E",
+     "inicio": "lejos"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "No hay carril para girar a la izquierda: el ciclista (A) se aparta a la derecha, fuera de la calzada.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "76.2",
+      "texto": "deberán situarse a la derecha, fuera de la calzada siempre que sea posible, e iniciarlo desde ese lugar"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fuera",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Se aparta"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Desde allí espera a que pasen B y C.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "76.2",
+      "texto": "deberán situarse a la derecha, fuera de la calzada siempre que sea posible, e iniciarlo desde ese lugar"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "sigue",
+       "retraso": 500
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "B": "Pasa",
+      "C": "Pasa"
+     },
+     "foco": [
+      "B",
+      "C"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Con la carretera libre, cruza recto hacia el camino.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "76.2",
+      "texto": "deberán situarse a la derecha, fuera de la calzada siempre que sea posible, e iniciarlo desde ese lugar"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Cruza"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    }
+   ]
+  },
+  "A-pri-0007": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "titulo": "Cruce con semáforos. El suyo (A) está en verde, pero al otro lado del cruce hay coches parados.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "pintura",
+     "x": 201,
+     "y": 263,
+     "w": 38,
+     "h": 5
+    },
+    {
+     "tipo": "zona",
+     "clase": "pintura",
+     "x": 161,
+     "y": 132,
+     "w": 38,
+     "h": 5
+    },
+    {
+     "tipo": "semaforo",
+     "id": "s",
+     "x": 256,
+     "y": 276,
+     "color": "verde"
+    },
+    {
+     "tipo": "semaforo",
+     "id": "e",
+     "x": 278,
+     "y": 142,
+     "ang": -90,
+     "color": "rojo"
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "S",
+     "hacia": "N",
+     "inicio": "cerca",
+     "tu": true
+    },
+    {
+     "letra": "B",
+     "puntos": [
+      [
+       220,
+       128
+      ],
+      [
+       220,
+       -320
+      ]
+     ],
+     "inicio": 0
+    },
+    {
+     "letra": "C",
+     "puntos": [
+      [
+       220,
+       76
+      ],
+      [
+       220,
+       -372
+      ]
+     ],
+     "inicio": 0
+    },
+    {
+     "letra": "D",
+     "desde": "E",
+     "hacia": "O",
+     "inicio": "espera"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Su semáforo está en verde, pero al otro lado hay retención: si usted (A) entra, se quedará parado en mitad del cruce.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.1",
+      "texto": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "No entra",
+      "B": "Parado",
+      "C": "Parado"
+     },
+     "foco": [
+      "B",
+      "C"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Su semáforo cambia a rojo. Como no ha entrado, el cruce está libre y D puede pasar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.1",
+      "texto": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal"
+     },
+     "mover": [
+      {
+       "v": "D",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "D": "Pasa"
+     },
+     "foco": [
+      "D"
+     ],
+     "ms": 2800,
+     "semaforos": {
+      "s": "rojo",
+      "e": "verde"
+     }
+    },
+    {
+     "texto": "Cuando vuelve el verde y hay sitio al otro lado, cruza.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.1",
+      "texto": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 2400
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 2400
+      },
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca",
+       "retraso": 700,
+       "dura": 2400
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3200,
+     "semaforos": {
+      "s": "verde",
+      "e": "rojo"
+     }
+    }
+   ]
+  },
+  "x1a-0061": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true
+   },
+   "titulo": "Calle con semáforo y, justo después, un paso para peatones. El semáforo de A está en verde; delante hay coches parados.",
+   "elementos": [
+    {
+     "tipo": "cebra",
+     "x": 232,
+     "ancho": 26,
+     "desde": 162,
+     "hasta": 240
+    },
+    {
+     "tipo": "zona",
+     "clase": "pintura",
+     "x": 222,
+     "y": 201,
+     "w": 5,
+     "h": 38
+    },
+    {
+     "tipo": "semaforo",
+     "id": "s",
+     "x": 226,
+     "y": 256,
+     "ang": 90,
+     "color": "verde"
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "tu": true,
+     "marcas": {
+      "cerca": 40,
+      "linea": 220
+     }
+    },
+    {
+     "letra": "B",
+     "desde": "O",
+     "inicio": "cola",
+     "marcas": {
+      "cola": 308,
+      "avanza": 420
+     }
+    },
+    {
+     "letra": "C",
+     "desde": "O",
+     "inicio": "cola",
+     "marcas": {
+      "cola": 358,
+      "avanza": 470
+     }
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Semáforo en verde, pero la cola llega casi hasta el paso para peatones: si usted (A) avanza, se quedará parado encima.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.1",
+      "texto": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "linea",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "No entra",
+      "B": "Parado"
+     },
+     "foco": [
+      "B",
+      "C"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Usted espera antes del paso hasta que la cola avanza.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.1",
+      "texto": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "avanza",
+       "modo": "arranca"
+      },
+      {
+       "v": "C",
+       "hasta": "avanza",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera"
+     },
+     "foco": [
+      "B",
+      "C"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Con sitio para rebasar el paso, sigue.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.1",
+      "texto": "Aun cuando goce de prioridad de paso, ningún conductor deberá penetrar con su vehículo en una intersección o en un paso para peatones o para ciclistas si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Pasa"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "x1a-0062": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "titulo": "Cruce con semáforos. Usted (A) se ha quedado parado dentro del cruce, girando a la izquierda; B espera en la otra vía.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "pintura",
+     "x": 201,
+     "y": 263,
+     "w": 38,
+     "h": 5
+    },
+    {
+     "tipo": "semaforo",
+     "id": "s",
+     "x": 256,
+     "y": 276,
+     "color": "verde"
+    },
+    {
+     "tipo": "semaforo",
+     "id": "e",
+     "x": 278,
+     "y": 142,
+     "ang": -90,
+     "color": "rojo"
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "S",
+     "hacia": "O",
+     "inicio": "dentro",
+     "tu": true
+    },
+    {
+     "letra": "B",
+     "desde": "E",
+     "hacia": "O",
+     "inicio": "espera"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Usted (A) se ha quedado parado dentro del cruce y los semáforos cambian: ahora B tiene verde y usted le estorba.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.2",
+      "texto": "deberá salir de aquélla sin esperar a que se permita la circulación en la dirección que se propone tomar, siempre que al hacerlo no entorpezca la marcha de los demás usuarios que avancen en el sentido permitido"
+     },
+     "mover": [],
+     "etiquetas": {
+      "A": "Estorba",
+      "B": "Verde"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400,
+     "semaforos": {
+      "s": "rojo",
+      "e": "verde"
+     }
+    },
+    {
+     "texto": "No espera a que se abra su dirección: sale del cruce, porque puede hacerlo sin entorpecer a nadie.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.2",
+      "texto": "deberá salir de aquélla sin esperar a que se permita la circulación en la dirección que se propone tomar, siempre que al hacerlo no entorpezca la marcha de los demás usuarios que avancen en el sentido permitido"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Sale",
+      "B": "Espera"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Con el cruce libre, B pasa.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "59.2",
+      "texto": "deberá salir de aquélla sin esperar a que se permita la circulación en la dirección que se propone tomar, siempre que al hacerlo no entorpezca la marcha de los demás usuarios que avancen en el sentido permitido"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "B": "Pasa"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "A-dir-0001": {
+   "tipo": "cruce",
+   "antes": "escena",
+   "titulo": "Cruce con niebla espesa. Usted (A) llega por el sur y querría girar a la izquierda.",
+   "elementos": [
+    {
+     "tipo": "niebla",
+     "cx": 220,
+     "cy": 300,
+     "r": 78
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "S",
+     "hacia": "N",
+     "inicio": "cerca",
+     "tu": true,
+     "intermitente": "izquierda"
+    },
+    {
+     "letra": "B",
+     "desde": "N",
+     "hacia": "S",
+     "inicio": "lejos"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Hay niebla espesa: usted (A) quería girar a la izquierda, pero no ve si viene alguien de frente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "74.1",
+      "texto": "También deberá abstenerse de realizar la maniobra cuando se trate de un cambio de dirección a la izquierda y no exista visibilidad suficiente"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Sin visibilidad"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "De la niebla sale B, que viene de frente: girar a la izquierda sin ver habría sido peligroso.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "74.1",
+      "texto": "También deberá abstenerse de realizar la maniobra cuando se trate de un cambio de dirección a la izquierda y no exista visibilidad suficiente"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Espera",
+      "B": "Pasa"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Usted se abstiene de girar y sigue recto.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "74.1",
+      "texto": "También deberá abstenerse de realizar la maniobra cuando se trate de un cambio de dirección a la izquierda y no exista visibilidad suficiente"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "etiquetas": {
+      "A": "Recto"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  }
+ }
+}

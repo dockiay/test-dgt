@@ -3,18 +3,20 @@
   --esc-cesped: #cfe3b4; --esc-cesped-punto: #b5d197; --esc-acera: #e9e4d8; --esc-arcen: #d9d2bf; --esc-asfalto: #5d636c; --esc-marca: #ffffff;
   --esc-tierra: #c9a978; --esc-tierra-punto: #a8854f; --esc-copa: #4f9a4a; --esc-copa-luz: #7cc46f; --esc-tejado: #d98b6a; --esc-cumbrera: #b8694a;
   --esc-sombra: rgba(20, 30, 20, .18); --esc-bordillo: #f4f1ea; --esc-cristal: #23303f;
-  --esc-agua: #8cc4e8; --esc-ola: #c4e3f6; --esc-pretil: #b9b3a6;
+  --esc-agua: #8cc4e8; --esc-ola: #c4e3f6; --esc-pretil: #b9b3a6; --esc-balasto: #a9a49a; --esc-traviesa: #7a5c45; --esc-rail: #5b6370;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --esc-cesped: #3d5233; --esc-cesped-punto: #344828; --esc-acera: #7d7b74; --esc-arcen: #6b6555; --esc-asfalto: #3a3f47; --esc-marca: #e9edf2;
   --esc-tierra: #8a7350; --esc-tierra-punto: #6f5a3a; --esc-copa: #2f6b31; --esc-copa-luz: #4c8f44; --esc-tejado: #9a5e48; --esc-cumbrera: #7c4835;
   --esc-sombra: rgba(0, 0, 0, .3); --esc-bordillo: #a9a69d; --esc-cristal: #111821;
-  --esc-agua: #2c5672; --esc-ola: #43708f; --esc-pretil: #8b867b; } }
+  --esc-agua: #2c5672; --esc-ola: #43708f; --esc-pretil: #8b867b; --esc-balasto: #5f5c56; --esc-traviesa: #4d3a2c; --esc-rail: #b9c0ca; }
+:root[data-theme="dark"] .e-niebla { fill: #4a515c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .e-niebla { fill: #4a515c; } } }
 :root[data-theme="dark"] {
   --esc-cesped: #3d5233; --esc-cesped-punto: #344828; --esc-acera: #7d7b74; --esc-arcen: #6b6555; --esc-asfalto: #3a3f47; --esc-marca: #e9edf2;
   --esc-tierra: #8a7350; --esc-tierra-punto: #6f5a3a; --esc-copa: #2f6b31; --esc-copa-luz: #4c8f44; --esc-tejado: #9a5e48; --esc-cumbrera: #7c4835;
   --esc-sombra: rgba(0, 0, 0, .3); --esc-bordillo: #a9a69d; --esc-cristal: #111821;
-  --esc-agua: #2c5672; --esc-ola: #43708f; --esc-pretil: #8b867b; }
+  --esc-agua: #2c5672; --esc-ola: #43708f; --esc-pretil: #8b867b; --esc-balasto: #5f5c56; --esc-traviesa: #4d3a2c; --esc-rail: #b9c0ca; }
 
 .esc-svg { display: block; width: 100%; height: auto; font-family: "Nunito", ui-rounded, -apple-system, "Segoe UI", Roboto, sans-serif; }
 .e-cesped { fill: var(--esc-cesped); } .e-cesped-punto { fill: var(--esc-cesped-punto); }
@@ -28,6 +30,15 @@
 .e-agua { fill: var(--esc-agua); } .e-ola { fill: none; stroke: var(--esc-ola); stroke-width: 2; stroke-linecap: round; }
 .e-pretil { fill: var(--esc-pretil); stroke: rgba(0, 0, 0, .15); }
 .e-pintura { fill: var(--esc-marca); } .e-pintura-linea { fill: none; stroke: var(--esc-marca); stroke-width: 4; stroke-linejoin: round; }
+.e-balasto { fill: var(--esc-balasto); } .e-traviesa { fill: var(--esc-traviesa); } .e-rail { stroke: var(--esc-rail); stroke-width: 3; }
+.e-obras { fill: #ffd23f; opacity: .9; } .e-obras-raya { stroke: #e2462b; stroke-width: 4; stroke-linecap: round; }
+.e-bionda { stroke: #c4c9d1; stroke-width: 3; }
+.e-parada { fill: none; stroke: #ffc400; stroke-width: 2.5; stroke-dasharray: 8 5; } .e-parada-texto { fill: #ffc400; }
+.e-rotulo { fill: #fff; paint-order: stroke; stroke: #1b2232; stroke-width: 3.5px; }
+.e-curva-nivel { fill: none; stroke: rgba(40, 60, 20, .18); stroke-width: 2; }
+.e-luz { fill: #3a4150; } .e-luz.r.on { fill: #ff3b30; filter: drop-shadow(0 0 3px #ff3b30); } .e-luz.a.on { fill: #ffb020; filter: drop-shadow(0 0 3px #ffb020); } .e-luz.v.on { fill: #30d158; filter: drop-shadow(0 0 3px #30d158); }
+.e-niebla { pointer-events: none; fill: #eef1f4; opacity: .9; }
+.e-rail.calzada { stroke: #aab2bd; stroke-width: 2.5; }
 .e-poste { stroke: #8a8f96; stroke-width: 2.5; }
 .e-centro circle { fill: #fff; stroke: #1b2232; stroke-width: 2; } .e-centro text { fill: #fff; paint-order: stroke; stroke: #1b2232; stroke-width: 3px; }
 

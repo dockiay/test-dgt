@@ -853,6 +853,7 @@
     const g = P.resumen(otros, TODAS), cuando = exportado ? new Date(exportado).toLocaleString("es-ES", { dateStyle: "medium", timeStyle: "short" }) : null;
     hoja({ titulo: "¿Combinar este progreso?", mensaje: `${cuando ? `Copia del ${cuando}. ` : ""}${plural(g.vistas, "pregunta vista", "preguntas vistas")}, ${plural(g.dominada, "dominada", "dominadas")} y ${plural(otros.historial.length, "examen", "exámenes")}. Se combinará con el progreso de este dispositivo; no se borra nada.`,
       acciones: [{ texto: "Combinar", accion: () => {
+        otros.reinicio = datos.reinicio; // una copia importada a mano se combina aunque sea de antes de «Borrar mi progreso»
         datos = P.combinar(datos, otros); guardar(); P.combinarAnimo(animo);
         history.replaceState(null, "", location.pathname + location.search + "#/progreso"); ruta();
         hoja({ titulo: "Progreso combinado", mensaje: "Ya puedes seguir estudiando en este dispositivo.", cancelar: "Aceptar" });

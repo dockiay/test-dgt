@@ -24,7 +24,7 @@
   // borradas: {id: ms} dudosas desmarcadas; vaciado: ms en que se vació el repaso. Sirven para que,
   // al combinar con otro dispositivo o con la nube, lo borrado no vuelva a aparecer.
   function vacio() {
-    const n = { v: 2, preguntas: {}, dudosas: {}, borradas: {}, vaciado: 0, historial: [], dias: {} };
+    const n = { v: 2, preguntas: {}, dudosas: {}, borradas: {}, vaciado: 0, reinicio: 0, historial: [], dias: {} };
     for (const [k, def] of Object.entries(EXTENSIONES)) n[k] = def.normalizar(undefined);
     return n;
   }
@@ -35,7 +35,7 @@
   // normalizar(undefined) debe devolver el valor vacío; combinar recibe dos valores ya normalizados.
   // Las claves que nadie ha registrado (por ejemplo, de una versión más nueva de la web en otro
   // dispositivo) se conservan tal cual, para no perder datos al combinar o guardar.
-  const PROPIAS = new Set(["v", "preguntas", "dudosas", "borradas", "vaciado", "historial", "dias"]);
+  const PROPIAS = new Set(["v", "preguntas", "dudosas", "borradas", "vaciado", "reinicio", "historial", "dias"]);
   const EXTENSIONES = {};
   function extender(clave, def) {
     if (PROPIAS.has(clave)) throw new Error(`La clave «${clave}» ya es del progreso`);
@@ -70,6 +70,7 @@
     for (const [id, m] of Object.entries(d.dudosas || {})) if (m && typeof m === "object") n.dudosas[id] = { nota: String(m.nota || ""), fecha: String(m.fecha || ""), ms: +m.ms || Date.parse(m.fecha) || 0 };
     for (const [id, ms] of Object.entries(d.borradas || {})) if (+ms > 0) n.borradas[id] = +ms;
     n.vaciado = +d.vaciado || 0;
+    n.reinicio = +d.reinicio || 0;
     n.historial = (Array.isArray(d.historial) ? d.historial : []).filter(r => r && r.fecha).map(normalizarExamen);
     for (const [k, v] of Object.entries(d.dias || {})) if (/^\d{4}-\d\d-\d\d$/.test(k) && v) n.dias[k] = { r: +v.r || 0, a: +v.a || 0 };
     return n;
@@ -126,6 +127,8 @@
     datos.historial.sort((a, b) => a.fecha < b.fecha ? -1 : 1);
     datos.historial = datos.historial.slice(-100);
   }
+  // Progreso vacío que, al combinarse con cualquier copia anterior (otro dispositivo, la nube), la sustituye.
+  function reiniciar(ahora = Date.now()) { const n = vacio(); n.reinicio = ahora; guardar(n); return n; }
   function vaciarRepaso(datos, ahora = Date.now()) { for (const r of Object.values(datos.preguntas)) { r.c = 0; r.p = 0; } datos.vaciado = ahora; }
   function marcarDudosa(datos, id, nota, ahora = Date.now()) { datos.dudosas[id] = { nota, fecha: new Date(ahora).toISOString().slice(0, 10), ms: ahora }; delete datos.borradas[id]; }
   function quitarDudosa(datos, id, ahora = Date.now()) { delete datos.dudosas[id]; datos.borradas[id] = ahora; }
@@ -216,6 +219,8 @@
   // Exámenes y días de estudio se unen sin duplicar. Nada se pierde al combinar dos veces lo mismo.
   function combinar(a, b) {
     a = normalizar(a); b = normalizar(b);
+    // «Borrar mi progreso»: gana el lado que se borró más tarde; lo del otro lado es de antes del borrado.
+    if (a.reinicio !== b.reinicio) return a.reinicio > b.reinicio ? a : b;
     const n = vacio();
     for (const id of new Set([...Object.keys(a.preguntas), ...Object.keys(b.preguntas)])) {
       const x = a.preguntas[id], y = b.preguntas[id];
@@ -305,7 +310,7 @@
   window.Progreso = {
     get actual() { return actual; },
     INTERVALO_DIAS, CRITERIOS, extender, cargar, delDia, guardar, vacio, normalizar, migrarV1,
-    registrar, registrarExamen, vaciarRepaso, marcarDudosa, quitarDudosa, quitarDudosas,
+    registrar, registrarExamen, vaciarRepaso, reiniciar, marcarDudosa, quitarDudosa, quitarDudosas,
     enRepaso, paraHoy, proximoRepaso, estado, resumen, dominioPorMateria, racha, rachaDetalle, semanaDe, preparacion,
     combinar, combinarAnimo, mezclarAnimo, leerAnimo, exportarCodigo, importarCodigo, leerPaquete, exportarFichero, claveDia,
   };

@@ -103,7 +103,7 @@ a.fila:active, button.fila:not(:disabled):active { background: var(--celda-pulsa
 .grupo.con-icono { --sangria: 66px; }
 .fila:disabled { cursor: default; }
 .fila:disabled .fila-titulo, .fila:disabled .tesela { opacity: .45; }
-.fila-cuerpo { flex: 1; min-width: 0; }
+.fila-cuerpo { flex: 1; min-width: 0; overflow-wrap: anywhere; }
 .fila-titulo { display: block; }
 .fila-detalle { display: block; font-size: .875rem; color: var(--texto2); margin-top: 1px; font-weight: 600; }
 .fila-valor { flex: none; color: var(--texto2); font-size: 1rem; font-weight: 800; font-variant-numeric: tabular-nums; }

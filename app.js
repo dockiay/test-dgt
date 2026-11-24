@@ -92,6 +92,8 @@
     lista: "M9 7h10M9 12h10M9 17h10M5 7h.1M5 12h.1M5 17h.1",
     llama: "M12.6 2.2c.7 3.4-1.3 5.2-3.1 7.2C7.8 11.2 6 13.2 6 15.9 6 19.3 8.7 22 12 22s6-2.7 6-6.1c0-2.6-1.2-4.6-2.6-6-.2 1.7-1 2.9-2.2 3.5.5-3.7-.2-8.1-.6-11.2z",
     trofeo: "M8 4h8v5a4 4 0 01-8 0zM8 6H5a3 3 0 003 4M16 6h3a3 3 0 01-3 4M12 13v4M8.5 20h7M9.5 17h5",
+    nube: "M7 18.5h10.5a4 4 0 00.6-7.95A6 6 0 006.4 9.1 4.75 4.75 0 007 18.5z",
+    salir: "M14 4.5H6v15h8M10.5 12H20M17 8.5l3.5 3.5-3.5 3.5",
   };
   function ico(nombre, clase) {
     const NS = "http://www.w3.org/2000/svg";
@@ -157,7 +159,6 @@
   }
 
   function barajar(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
-  function hoy() { return new Date().toISOString().slice(0, 10); }
   function fechaES(iso) { if (!iso) return ""; const [y, m, d] = iso.slice(0, 10).split("-"); return [d, m, y].filter(Boolean).join("/"); }
   function fechaCorta(ms) {
     const d = new Date(ms), hoy0 = new Date(); hoy0.setHours(0, 0, 0, 0);
@@ -224,7 +225,7 @@
     const filaDudosa = h("div", {});
     const pintarDudosa = () => {
       const m = datos.dudosas[p.id];
-      filaDudosa.replaceChildren(h("button", { class: "fila", onclick: () => m ? (delete datos.dudosas[p.id], guardar(), pintarDudosa()) : pedirNota(p, pintarDudosa) },
+      filaDudosa.replaceChildren(h("button", { class: "fila", onclick: () => m ? (P.quitarDudosa(datos, p.id), guardar(), pintarDudosa()) : pedirNota(p, pintarDudosa) },
         ico("bandera"), h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, m ? "Quitar la marca de dudosa" : "Marcar como dudosa"),
           m && m.nota ? h("span", { class: "fila-detalle" }, m.nota) : null)));
     };
@@ -247,7 +248,7 @@
   function pedirNota(p, despues) {
     const t = h("textarea", { placeholder: "¿Qué te parece raro? (opcional)", "aria-label": "Nota" });
     hoja({ titulo: "Marcar como dudosa", mensaje: "La pregunta se guardará en «Preguntas dudosas» para revisarla contra el BOE.", contenido: t,
-      acciones: [{ texto: "Guardar", accion: () => { datos.dudosas[p.id] = { nota: t.value.trim(), fecha: hoy() }; guardar(); despues(); } }] });
+      acciones: [{ texto: "Guardar", accion: () => { P.marcarDudosa(datos, p.id, t.value.trim()); guardar(); despues(); } }] });
   }
   // Pinta una pregunta. Si corregida, marca correcta/incorrecta (con icono, no solo color) y bloquea.
   function pregunta(p, elegida, corregida, alElegir, animada, orden = NATURAL) {
@@ -338,7 +339,7 @@
         h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, fechaES(r.fecha)), h("span", { class: "fila-detalle" }, `${plural(r.fallos, "fallo", "fallos")} de ${r.total} · ${mmss(r.segundos)} min`)),
         h("span", { class: "fila-valor " + (r.apto ? "apto" : "noapto") }, r.apto ? "Apto" : "No apto"))))] : null,
       cabecera("Información"),
-      grupo("con-icono", fila({ icono: "enlace", color: "verde", titulo: "Estudiar en otro dispositivo", detalle: "Pasa tu progreso entre el móvil y el ordenador", href: "#/copia" }),
+      grupo("con-icono", filaNube() || fila({ icono: "enlace", color: "verde", titulo: "Estudiar en otro dispositivo", detalle: "Pasa tu progreso entre el móvil y el ordenador", href: "#/copia" }),
         fila({ icono: "info", color: "gris", titulo: "Fuentes y aviso legal", href: "#/fuentes" })),
       PREGUNTAS.length < 300 ? h("p", { class: "nota-pie" }, "El banco todavía es pequeño y no cubre todo el temario. Crecerá a medida que se verifiquen más preguntas.") : null);
   }
@@ -603,7 +604,7 @@
       h("p", { class: "subtitulo" }, "Copia la lista y envíala para que se revisen contra el BOE."),
       h("textarea", { class: "lista", readonly: true, "aria-label": "Lista de preguntas dudosas" }, texto),
       h("div", { class: "pila" }, h("button", { class: "boton plano destructivo", onclick: () => hoja({ titulo: "¿Borrar todas las marcas?", mensaje: "Esta acción no se puede deshacer.",
-        acciones: [{ texto: "Borrar las marcas", clase: "gris destructivo", accion: () => { datos.dudosas = {}; guardar(); dudosas(); } }] }) }, "Borrar todas las marcas")),
+        acciones: [{ texto: "Borrar las marcas", clase: "gris destructivo", accion: () => { P.quitarDudosas(datos); guardar(); dudosas(); } }] }) }, "Borrar todas las marcas")),
       cabecera("Preguntas marcadas"),
       ids.filter(id => POR_ID.has(id)).map(id => h("section", { class: "revision" }, pregunta(POR_ID.get(id), POR_ID.get(id).correcta, true))));
   }
@@ -660,6 +661,53 @@
   // La web es estática (GitHub Pages) y no tiene servidor: el progreso vive en cada navegador.
   // Para moverlo se genera un enlace o un fichero con el progreso, y al abrirlo en el otro
   // dispositivo se COMBINA con lo que ya haya allí (no se pierde nada de ninguno de los dos).
+  // ---------- Guardado en la nube (nube.js) ----------
+  const nube = () => window.Nube && Nube.estado.disponible ? Nube.estado : null;
+  function textoNube(n) {
+    if (n.sincronizando) return "Guardando en la nube…";
+    if (n.error) return n.error;
+    if (n.pendiente && navigator.onLine === false) return "Sin conexión. Se guardará en la nube cuando vuelva.";
+    if (n.ultima) return `Guardado en la nube a las ${new Date(n.ultima).toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" })}`;
+    return "Conectando con la nube…";
+  }
+  // Fila de la pantalla de inicio: invita a iniciar sesión o muestra el estado del guardado.
+  function filaNube() {
+    const n = nube();
+    if (!n) return null;
+    return n.usuario
+      ? fila({ icono: "nube", color: n.error ? "naranja" : "verde", titulo: "Progreso en la nube", detalle: textoNube(n), href: "#/copia" })
+      : fila({ icono: "nube", color: "azul", titulo: "Guardar mi progreso en la nube", detalle: "Inicia sesión con Google y se sincroniza solo entre el móvil y el ordenador", href: "#/copia" });
+  }
+  function seccionNube() {
+    const n = nube();
+    if (!n) return null;
+    if (!n.usuario) return [cabecera("Guardado automático"),
+      grupo("con-icono", fila({ icono: "nube", color: "azul", titulo: "Iniciar sesión con Google", detalle: "Tu progreso se guarda en la nube y se sincroniza solo entre el móvil y el ordenador", accion: () => Nube.entrar() })),
+      n.error ? h("p", { class: "nota-pie", role: "status" }, n.error) : null];
+    return [cabecera("Guardado automático"),
+      grupo("con-icono",
+        fila({ icono: "nube", color: n.error ? "naranja" : "verde", titulo: n.usuario.nombre || "Sesión iniciada", detalle: [n.usuario.correo, textoNube(n)].filter(Boolean).join(" · "), accion: () => Nube.sincronizar(), chevron: false }),
+        fila({ icono: "salir", color: "gris", titulo: "Cerrar sesión", detalle: "El progreso sigue guardado en este dispositivo y en la nube", accion: () => hoja({ titulo: "¿Cerrar sesión?",
+          mensaje: "Lo que ya has estudiado sigue en este dispositivo y en la nube. Mientras no vuelvas a iniciar sesión, lo nuevo solo se guardará aquí.",
+          acciones: [{ texto: "Cerrar sesión", clase: "gris destructivo", accion: () => Nube.salir() }] }) }))];
+  }
+  // La nube trae progreso de otro dispositivo: se combina con el de aquí y se repinta si no hay nada a medias.
+  window.addEventListener("progreso-nube", e => {
+    datos = P.combinar(datos, e.detail); guardar();
+    repintarSiSeguro();
+  });
+  let firmaNube = "";
+  window.addEventListener("nube-estado", () => {
+    const n = nube(), firma = n ? [n.usuario && n.usuario.correo, n.error, n.ultima].join("|") : "";
+    if (seccionActual() === "copia") return repintarSiSeguro();
+    if (firma !== firmaNube) { firmaNube = firma; if (seccionActual() === "inicio") repintarSiSeguro(); }
+  });
+  function repintarSiSeguro() {
+    if (sesion || document.querySelector("dialog[open]")) return;
+    if (["inicio", "progreso", "copia"].includes(seccionActual())) { const y = window.scrollY; ruta(); window.scrollTo(0, y); }
+    else pintarLateral(seccionActual());
+  }
+
   function copiaPantalla() {
     pararReloj();
     const estado = h("p", { class: "nota-pie", role: "status" });
@@ -691,9 +739,12 @@
     const g = P.resumen(datos, TODAS);
     pantalla({ titulo: "Otro dispositivo", atras: { texto: "Inicio", href: "#/" } },
       h("h1", { class: "titulo-grande" }, "Estudiar en otro dispositivo"),
-      h("p", { class: "subtitulo" }, "Tu progreso se guarda en este navegador. Para seguir en el móvil o en el ordenador, envíatelo con un enlace y ábrelo allí: se combina con lo que ya tengas en ese dispositivo, sin borrar nada."),
+      h("p", { class: "subtitulo" }, nube()
+        ? "Inicia sesión con Google en el móvil y en el ordenador y tu progreso se sincroniza solo. Sin conexión también se guarda aquí, y se sube a la nube cuando vuelve."
+        : "Tu progreso se guarda en este navegador. Para seguir en el móvil o en el ordenador, envíatelo con un enlace y ábrelo allí: se combina con lo que ya tengas en ese dispositivo, sin borrar nada."),
       cifras([String(g.vistas), "Vistas"], [String(g.dominada), "Dominadas"], [String(datos.historial.length), "Exámenes"]),
-      cabecera("Enviar mi progreso"),
+      seccionNube(),
+      cabecera(nube() ? "Copia manual" : "Enviar mi progreso"),
       grupo("con-icono",
         fila({ icono: "enlace", color: "verde", titulo: navigator.share ? "Compartir enlace" : "Copiar enlace", detalle: "Envíatelo por WhatsApp o correo y ábrelo en el otro dispositivo", accion: compartir }),
         fila({ icono: "lista", color: "gris", titulo: "Descargar fichero de copia", detalle: "También sirve como copia de seguridad", accion: descargar })),
@@ -702,7 +753,7 @@
         fila({ icono: "enlace", color: "azul", titulo: "Pegar un enlace o código", accion: pegar }),
         fila({ icono: "lista", color: "azul", titulo: "Cargar un fichero de copia", accion: () => entrada.click() })),
       entrada, estado,
-      h("p", { class: "nota-pie" }, "Consejo: al terminar de estudiar en un dispositivo, envía el enlace y ábrelo en el otro antes de empezar allí. Si estudias en los dos sin pasarlo, no pasa nada: al combinar, de cada pregunta se queda la respuesta más reciente."));
+      h("p", { class: "nota-pie" }, nube() ? "La copia manual sirve como copia de seguridad, o para pasar el progreso sin iniciar sesión. Al cargarla se combina con lo que ya haya, sin borrar nada." : "Consejo: al terminar de estudiar en un dispositivo, envía el enlace y ábrelo en el otro antes de empezar allí. Si estudias en los dos sin pasarlo, no pasa nada: al combinar, de cada pregunta se queda la respuesta más reciente."));
   }
   function confirmarImportacion({ datos: otros, exportado, animo }) {
     const g = P.resumen(otros, TODAS), cuando = exportado ? new Date(exportado).toLocaleString("es-ES", { dateStyle: "medium", timeStyle: "short" }) : null;

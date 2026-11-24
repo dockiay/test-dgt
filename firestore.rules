@@ -1,0 +1,31 @@
+rules_version = '2';
+// Cada persona permitida solo puede leer y escribir su propio progreso: usuarios/{su uid}.
+// Todo lo demás está cerrado.
+service cloud.firestore {
+  // Quién puede guardar su progreso en la nube. La lista NO está en el repositorio (es público):
+  // al publicar, GitHub sustituye la marca de abajo por los correos del secreto
+  // CORREOS_PERMITIDOS (separados por comas). Ver FIREBASE.md. Cualquier otra cuenta puede
+  // iniciar sesión, pero no leer ni guardar nada.
+  function correosPermitidos() {
+    return ["__CORREOS_PERMITIDOS__"];
+  }
+
+  match /databases/{database}/documents {
+    function permitido(uid) {
+      return request.auth != null && request.auth.uid == uid
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower() in correosPermitidos();
+    }
+    match /usuarios/{uid} {
+      allow read, delete: if permitido(uid);
+      allow create, update: if permitido(uid)
+        && request.resource.data.keys().hasOnly(["v", "datos", "animo", "actualizado"])
+        && request.resource.data.v == 2
+        && request.resource.data.datos is string
+        && request.resource.data.datos.size() < 900000
+        && (request.resource.data.animo == null
+            || (request.resource.data.animo is string && request.resource.data.animo.size() < 100000))
+        && request.resource.data.actualizado == request.time;
+    }
+  }
+}

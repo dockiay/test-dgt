@@ -140,3 +140,4 @@
   .e-vehiculo .e-panuelo-tela, .e-vehiculo .e-gota { animation: none !important; }
   .e-ondas, .e-roja, .e-panuelo, .e-salpica { transition: none; }
 }
+.explicacion-cuerpo > .esc-reproductor:first-child { margin: 0 0 16px; }

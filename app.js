@@ -264,29 +264,23 @@
       h("p", { class: "veredicto" }, ico(ok ? "check" : "x"),
         elegida == null ? `Sin responder. La correcta es la ${letra}` : ok ? "Correcto" : `Incorrecto. La correcta es la ${letra}`),
       h("div", { class: "explicacion-cuerpo" },
-        p.leccion ? leccion(p, elegida, orden) : p.explicacion ? h("p", {}, p.explicacion) : null,
-        f.tabla
-          ? h("blockquote", { class: "cita" }, h("small", {}, "Tabla del BOE"), `${f.tabla.fila} · ${f.tabla.columna}: `, h("strong", {}, f.tabla.valor))
-          : h("blockquote", { class: "cita" }, h("small", {}, f.tipo_cita === "imagen_catalogo" ? `Catálogo oficial de señales${f.pagina_pdf ? ", página " + f.pagina_pdf + " del PDF" : ""}` : f.norma === "MANUAL_DGT" ? "Texto literal del manual de la DGT" : "Texto literal del BOE"), `«${f.cita}»`),
-        f.cita_adicional && f.cita_adicional.cita ? h("blockquote", { class: "cita" }, h("small", {}, f.cita_adicional.articulo || "Texto literal"), `«${f.cita_adicional.cita}»`) : null,
-        ...((p.leccion && p.leccion.apoyos) || []).map(a => h("blockquote", { class: "cita" }, h("small", {}, `${NOMBRE_NORMA_CORTO[a.norma] || a.norma}, ${/^(anexo|tema|disposici)/i.test(a.articulo) ? a.articulo : "art. " + a.articulo}`), `«${a.cita}»`))),
+        // Sin citas literales a la vista: la referencia va en el enlace de abajo. Las citas siguen en
+        // los datos para las comprobaciones; solo se enseñan si la pregunta no tiene otra explicación.
+        p.leccion ? leccion(p, elegida, orden) : p.explicacion ? h("p", {}, p.explicacion)
+          : f.cita ? h("blockquote", { class: "cita" }, `«${f.cita}»`) : null),
       h("a", { class: "fila", href: f.url, target: "_blank", rel: "noopener" }, ico("libro"),
         h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, textoFuente(p)),
           f.version_consultada ? h("span", { class: "fila-detalle" }, `${f.norma === "MANUAL_DGT" ? "Versión" : "Texto consolidado, versión"} del ${fechaES(f.version_consultada)}`) : null),
         ico("enlace", "chevron")),
       filaDudosa);
   }
-  // Lección al fallar: la lógica de la respuesta, por qué no valen las otras (en el orden en que se
-  // vieron) y un truco. La cita literal va debajo como respaldo.
+  // Lección al fallar, en corto: la lógica de la respuesta, por qué no vale la que elegiste y un truco.
   function leccion(p, elegida, orden) {
-    const l = p.leccion;
+    const l = p.leccion, motivo = elegida != null && elegida !== p.correcta ? l.descartes[elegida] : null;
     return h("div", { class: "leccion-pregunta" },
       h("p", { class: "lec-porque" }, l.porque),
-      h("div", { class: "lec-descartes" }, h("small", {}, "Por qué no valen las otras"),
-        h("ul", {}, orden.filter(k => k !== p.correcta && l.descartes[k]).map(k => h("li", { class: k === elegida ? "elegida" : null },
-          h("span", { class: "lec-opcion" }, h("b", {}, letraVista(p, k, orden)), ` ${p.opciones[k]}`, k === elegida ? h("em", {}, "Tu respuesta") : null),
-          h("span", { class: "lec-motivo" }, l.descartes[k]))))),
-      l.truco ? h("div", { class: "lec-truco" }, ico("bombilla"), h("div", {}, h("small", {}, "Truco para recordarlo"), l.truco)) : null);
+      motivo ? h("p", { class: "lec-tuya" }, h("b", {}, `Tu respuesta (${letraVista(p, elegida, orden)}): `), motivo) : null,
+      l.truco ? h("p", { class: "lec-truco" }, ico("bombilla"), h("span", {}, l.truco)) : null);
   }
   function pedirNota(p, despues) {
     const t = h("textarea", { placeholder: "¿Qué te parece raro? (opcional)", "aria-label": "Nota" });
@@ -306,7 +300,7 @@
         h("span", { class: "letra" }, "ABC"[pos]), h("span", { class: "texto" }, p.opciones[k]), h("span", { class: "estado" }, estado)));
     }));
     const ex = corregida ? bloqueExplicacion(p, elegida, animada, orden) : null;
-    if (ex && window.Escenas) Escenas.enExplicacion(ex, p, elegida, animada); // escena paso a paso al final de la explicación
+    if (ex && window.Escenas) Escenas.enExplicacion(ex, p, elegida, animada); // escena paso a paso arriba de la explicación
     return [figura(p, corregida), h("p", { class: "enunciado" }, p.enunciado), lista, ex];
   }
   // La barra arranca en el ancho anterior y crece hasta el nuevo, para que se vea avanzar.

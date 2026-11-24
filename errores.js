@@ -59,7 +59,7 @@
       conFallos.length ? [cabecera("Donde más fallas"), grupo("con-icono", conFallos.map(filaGrupo))] :
         h("div", { class: "aviso" }, ico("info"), h("span", {}, "Aún no has fallado preguntas de estos temas. Cuando falles, aquí verás en qué trampas caes más.")),
       lista.length > conFallos.length ? [cabecera(conFallos.length ? "Otras trampas" : "Todas las trampas"), grupo("con-icono", lista.filter(x => !x.e.falladas.length).map(filaGrupo))] : null,
-      mis().porque.total ? h("p", { class: "nota-pie" }, `En el paso «¿Por qué?» has elegido la norma correcta ${mis().porque.ok} de ${plural(mis().porque.total, "vez", "veces")}.`) : null);
+      null);
   }
   function filaGrupo({ g, e }) {
     const leida = mis().leidas[g.id];
@@ -100,49 +100,4 @@
   }, "practicar");
   A.lateralExtra({ id: "errores", href: "#/errores", icono: "diana", color: "ambar", texto: "Errores típicos", cuenta: () => null });
 
-  // ---------- «¿Por qué?» tras un fallo ----------
-  // Las opciones son explicaciones de preguntas verificadas: la de esta pregunta y dos de otras del mismo
-  // tema que se apoyan en otro artículo. Las tres son normas ciertas; solo una explica esta pregunta.
-  const textoFuente = p => `${p.fuente.norma === "MANUAL_DGT" ? "Manual de la DGT" : p.fuente.norma === "RGC_CATALOGO" ? "Catálogo de señales" : nombreNorma(p.fuente.norma)}, ${textoArt(p.fuente.articulo)}`;
-  A.alFallar(({ p, contenedor, continuar }) => {
-    const ids = E.porques[p.id];
-    const otras = ids && ids.map(id => A.POR_ID.get(id)).filter(Boolean);
-    if (!otras || otras.length !== 2 || !p.explicacion) return false;
-    const opciones = barajar([p, ...otras]);
-    let elegida = null;
-    const pintar = () => {
-      const hecha = elegida != null, bien = elegida === p;
-      contenedor.replaceChildren(h("div", { class: "porque" + (hecha ? (bien ? " bien" : " mal") : ""), role: "group", "aria-labelledby": "porque-titulo" },
-        h("p", { class: "porque-titulo", id: "porque-titulo" }, ico(hecha ? (bien ? "check" : "info") : "bombilla"),
-          hecha ? (bien ? "¡Eso es! Esa es la norma que se aplica." : "Esa norma es cierta, pero no es la que explica esta pregunta.") : "No es esa. Antes de ver la correcta: ¿qué norma se aplica aquí?"),
-        h("ul", { class: "porque-opciones" }, opciones.map(o => {
-          let cls = "porque-opcion";
-          if (hecha) cls += o === p ? " correcta" : o === elegida ? " incorrecta" : " apagada";
-          return h("li", {}, h("button", { class: cls, disabled: hecha, onclick: () => elegir(o) },
-            h("span", { class: "texto" }, o.explicacion),
-            hecha ? h("span", { class: "porque-fuente" }, textoFuente(o), o !== p ? " · habla de otra cosa" : "") : null));
-        })),
-        hecha ? h("button", { class: "boton ancho" + (bien ? " verde" : ""), onclick: continuar }, "Ver la solución")
-          : h("button", { class: "boton plano", onclick: () => { contenedor.replaceChildren(); continuar(); } }, "No lo sé, ver la solución")));
-    };
-    const elegir = o => {
-      if (elegida) return;
-      elegida = o;
-      const d = mis(); d.porque.total++; if (o === p) d.porque.ok++; A.guardar();
-      A.sonar(o === p ? "acierto" : "fallo");
-      pintar();
-      const b = contenedor.querySelector(".boton"); if (b) b.focus({ preventScroll: true });
-    };
-    pintar();
-    // Mientras se responde el «¿por qué?», la opción elegida se marca ya como fallada (sin revelar la correcta).
-    requestAnimationFrame(() => {
-      const raiz = contenedor.closest("#app") || document;
-      for (const o of raiz.querySelectorAll(".opciones .opcion.elegida")) {
-        o.classList.replace("elegida", "incorrecta");
-        const est = o.querySelector(".estado"); if (est) est.replaceChildren(ico("x"));
-      }
-    });
-    setTimeout(() => contenedor.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" }), 60);
-    return true;
-  });
 })();

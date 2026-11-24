@@ -134,7 +134,14 @@
   function prepararBoton(b) {
     if (!b) return;
     pintarBoton(b);
-    b.addEventListener("click", () => { estado.sonido = !estado.sonido; guardar(); pintarBoton(b); sonar("toque"); });
+    b.addEventListener("click", () => cambiarSonido(!estado.sonido));
+  }
+  // Activa o silencia los sonidos (botón de la barra o ajustes del perfil) y lo avisa con "animo-sonido".
+  function cambiarSonido(activo) {
+    estado.sonido = !!activo; guardar();
+    const b = document.getElementById("sonido"); if (b) pintarBoton(b);
+    sonar("toque");
+    try { window.dispatchEvent(new CustomEvent("animo-sonido", { detail: estado.sonido })); } catch (e) { /* sin eventos */ }
   }
 
   // ---------- Confeti (canvas propio, se retira solo) ----------
@@ -196,7 +203,7 @@
   let confetiActivo = null;
   function limpiar() { if (confetiActivo) { confetiActivo.remove(); confetiActivo = null; } if (zona) zona.replaceChildren(); }
 
-  window.Animo = { racha, limpiar, sumar, cambiarObjetivo, ajustarObjetivo, objetivo, OBJETIVOS, sonar, vibrar, confeti, contar, aviso, prepararBoton, sinMovimiento,
+  window.Animo = { racha, limpiar, sumar, cambiarObjetivo, ajustarObjetivo, objetivo, OBJETIVOS, sonar, vibrar, confeti, contar, aviso, prepararBoton, cambiarSonido, sinMovimiento,
     get sonido() { return estado.sonido; } };
   prepararBoton(document.getElementById("sonido"));
 })();

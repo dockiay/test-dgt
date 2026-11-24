@@ -9,8 +9,9 @@
   "use strict";
   const P = window.Progreso;
   const ESPERA_SUBIDA = 3000; // ms de calma tras un cambio antes de subirlo
-  const estado = { disponible: false, usuario: null, sincronizando: false, ultima: null, error: null, pendiente: false };
-  let fb = null, auth = null, db = null, temporizador = null, enCurso = null, otraVez = false, ultimoSubido = null, aviso = null;
+  // listo: ya se sabe si hay sesión (o que no hay nube). rechazada: correo de la última cuenta sin permiso.
+  const estado = { disponible: false, listo: false, usuario: null, sincronizando: false, ultima: null, error: null, pendiente: false, rechazada: null };
+  let fb = null, auth = null, db = null, temporizador = null, enCurso = null, otraVez = false, ultimoSubido = null, aviso = null, rechazo = null;
   // Solo pueden guardar en la nube los correos de la lista de firestore.rules. Si una cuenta no está,
   // la nube responde "permission-denied" desde el primer acceso: se cierra la sesión y se explica.
   const sinPermiso = correo => `La cuenta ${correo || "con la que has entrado"} no tiene permiso para guardar en la nube. Entra con una cuenta autorizada o pide acceso a quien gestiona la web. Mientras, tu progreso sigue guardado en este dispositivo.`;
@@ -46,16 +47,19 @@
 
   async function iniciar() {
     const c = await config();
-    if (!c) return;
-    try { fb = await import("./vendor/firebase.js"); } catch (e) { return; }
+    const sinNube = () => { estado.listo = true; avisar(); };
+    if (!c) return sinNube();
+    try { fb = await import("./vendor/firebase.js"); } catch (e) { return sinNube(); }
     const app = fb.initializeApp(c);
     auth = fb.getAuth(app); db = fb.getFirestore(app);
     if (c.emulador) { fb.connectAuthEmulator(auth, c.emulador.auth, { disableWarnings: true }); fb.connectFirestoreEmulator(db, c.emulador.host, c.emulador.puerto); }
     estado.disponible = true; avisar();
     fb.getRedirectResult(auth).catch(e => { estado.error = mensaje(e); avisar(); });
     fb.onAuthStateChanged(auth, u => {
-      estado.usuario = u ? { nombre: u.displayName || "", correo: u.email || "", foto: u.photoURL || "" } : null;
-      estado.error = aviso; aviso = null; ultimoSubido = null; estado.ultima = null; avisar();
+      estado.usuario = u ? { uid: u.uid, nombre: u.displayName || "", correo: u.email || "", foto: u.photoURL || "" } : null;
+      estado.error = aviso; aviso = null; ultimoSubido = null; estado.ultima = null; estado.listo = true;
+      estado.rechazada = u ? null : rechazo; rechazo = null;
+      avisar();
       if (u) sincronizar();
     });
   }
@@ -96,7 +100,7 @@
       } catch (e) {
         if (e && e.code === "permission-denied" && !estado.ultima) {
           // Nunca ha podido leer su copia: la cuenta no está en la lista de permitidas.
-          aviso = sinPermiso(u.email); estado.pendiente = false;
+          aviso = sinPermiso(u.email); estado.pendiente = false; rechazo = u.email || "esta cuenta";
           fb.signOut(auth).catch(() => {});
           return;
         }
@@ -133,7 +137,7 @@
     if (!auth) return;
     const proveedor = new fb.GoogleAuthProvider();
     proveedor.setCustomParameters({ prompt: "select_account" });
-    estado.error = null; avisar();
+    estado.error = null; estado.rechazada = null; avisar();
     // En la app instalada (pantalla completa) las ventanas emergentes fallan a menudo: mejor redirigir.
     const instalada = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
     try {

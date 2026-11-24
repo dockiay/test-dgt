@@ -30,3 +30,22 @@ El script termina con error y no publica nada si: el id no existe; en un cruce s
 | `pasos` | Opcional. Si falta, en los cruces se generan solos (regla de la derecha, vía pavimentada, STOP y ceda el paso). Cada paso: `texto`, `cita {norma, articulo, texto literal}`, `mover [{v (letra o id), hasta: marca o fracción, modo: arranca/frena/sigue/suave/valle, retraso?, dura?}]`, `etiquetas {letra: "Pasa"/"Espera"/"Cede"/"STOP"/...}`, `foco [letras]`, `ms` |
 
 Los giros a la izquierda no se calculan solos: hay que escribir los pasos. Las escenas escritas a mano pasan por la revisión independiente como cualquier pregunta.
+
+## Carretera y autovía (`escenas-via.js`)
+
+Dos tipos más, registrados desde `escenas-via.js` con `Escenas.registrarTipo` (así se pueden añadir tipos sin tocar `escenas.js`; el script carga cada `escenas-*.js` de la raíz):
+
+| Campo | Qué es |
+|---|---|
+| `tipo` | `carretera` (doble sentido, un carril por sentido, arcenes) o `autovia` (un solo sentido, 2 o 3 carriles, mediana) |
+| `via` | `carretera`: `eje: [{desde, hasta, tipo}]` con `discontinua`, `continua`, `adosada-sur` (la discontinua del lado de quien va hacia el este) o `adosada-norte`; `cruces: [{x, lado: "norte"/"sur", ancho}]` (vía lateral). `autovia`: `carriles: 2/3`, `aceleracion: {desde, hasta}` (carril de aceleración con su ramal) |
+| `vehiculos[].ruta` | Puntos `[x, carril]` (x del centro del vehículo). Entre dos carriles distintos, curva en S. Carriles de `carretera`: `d` (el propio), `i` (el contrario), `eje`, `borde`, `arcen`, `arcen-i` o una y; de `autovia`: `der`, `centro`, `izq`, `acel`, `rampa` (empieza en x = -40), `arcen`. `[x, "N"]` al final: gira hacia la vía lateral en x |
+| `vehiculos[].sentido` | `O` para los que vienen de frente: sus x bajan y sus carriles se ven girados (su `d` queda arriba) |
+| `vehiculos[].marcas` | `{nombre: x}` para usar en `mover.hasta`; además `p0`, `p1`… en cada punto de la ruta |
+| `paso.intermitentes` | `{letra: "izquierda"/"derecha"/"emergencia"}` en ese paso (vale para cualquier tipo) |
+| `objetos` | `piedras`, `triangulo` (de emergencia) y `cebra` (paso para peatones en x) |
+| `carteles` | `[{cod, x, lado: "sur"/"norte"}]`, imágenes de `img/senales` |
+| `anotaciones` | `cota` (`x`, `y1`, `y2`, `texto`) y `zona` (`x`, `y`, `w`, `h`, `texto`); `en: [estados]` dice cuándo se ven (0 = antes del primer paso, 1 = tras el primero…) |
+| `comprobar` | `[{adelanta, a, minimo}]`: el script comprueba que, mientras van a la par, la separación lateral (con retrovisores) es de al menos `minimo` metros |
+
+El script comprueba también que en estas escenas ningún vehículo toca a otro en ningún momento de la animación.

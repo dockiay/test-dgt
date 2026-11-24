@@ -1,0 +1,17 @@
+/* Escenas de carretera y autovía (escenas-via.js): cotas, zonas sin visibilidad y objetos. */
+:root { --esc-cota: #ffd23f; --esc-cota-texto: #2b2100; --esc-piedra: #9a958c; --esc-zona: rgba(15, 20, 30, .55); --esc-zona-texto: #ffffff; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --esc-cota: #f5c63a; --esc-piedra: #77736b; --esc-zona: rgba(0, 0, 0, .6); } }
+:root[data-theme="dark"] { --esc-cota: #f5c63a; --esc-piedra: #77736b; --esc-zona: rgba(0, 0, 0, .6); }
+
+.e-asfalto-trazo { stroke: var(--esc-asfalto); }
+.e-piedra { fill: var(--esc-piedra); stroke: rgba(0, 0, 0, .25); stroke-width: 1; }
+.e-triangulo { fill: #fff; stroke: #e2231a; stroke-width: 2.6; stroke-linejoin: round; }
+
+.e-anota { opacity: 0; transition: opacity .3s ease, transform .3s ease; transform: translateY(3px); transform-box: fill-box; }
+.e-anota.visible { opacity: 1; transform: none; }
+.e-cota-linea { stroke: var(--esc-cota); stroke-width: 2.4; stroke-linecap: round; }
+.e-cota-placa { fill: var(--esc-cota); filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .3)); }
+.e-cota-texto { fill: var(--esc-cota-texto); }
+.e-zona-ciega rect { fill: var(--esc-zona); stroke: rgba(255, 255, 255, .5); stroke-width: 1.5; stroke-dasharray: 5 5; }
+.e-zona-ciega text { fill: var(--esc-zona-texto); }
+@media (prefers-reduced-motion: reduce) { .e-anota { transition: none; transform: none; } }

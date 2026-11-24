@@ -219,7 +219,13 @@
 
   // Orden del RGC 62.1 (de más a menos preferencia) para los tipos que se dibujan.
   const RANGO62 = { "camion+remolque": "b", carro: "c", "turismo+remolque": "d", autocaravana: "d", autobus: "e", camion: "f", turismo: "g", moto: "j", bici: "j" };
-  const api = { ordenCruce, pasosCruce, giroDe, CITAS, MEDIDAS, RANGO62 };
+  // Tipos de escena que añaden otros ficheros (por ejemplo, escenas-via.js) sin tocar este:
+  // Escenas.registrarTipo(nombre, {vista, fondo(svg, esc, ayudas), trayecto(v, esc), inicio?, lado?(v, esc) → ±1 o p => ±1,
+  //   estado?(svg, i, esc, mueve) tras situar el estado i (mueve: empieza el paso i), validar?(esc, mal, claves)}).
+  // trayecto devuelve {en(f) → {x, y, ang}, fr: {marca: fracción}, L}; se usa también desde Node para comprobar los datos.
+  const TIPOS = {};
+  const registrarTipo = (nombre, def) => { TIPOS[nombre] = def; };
+  const api = { ordenCruce, pasosCruce, giroDe, CITAS, MEDIDAS, RANGO62, TIPOS, registrarTipo, camino };
   if (!enNavegador) { if (typeof module !== "undefined") module.exports = api; return; }
 
   // ===================================================================
@@ -376,7 +382,8 @@
     const a = (p.ang - 90) * Math.PI / 180;
     // Detrás del vehículo (hacia donde viene), o debajo/encima en el estrechamiento; siempre dentro del encuadre.
     const k = g._detras || 40;
-    let dx = g._lado ? 0 : -Math.cos(a) * k, dy = g._lado ? g._lado * 34 : -Math.sin(a) * k;
+    const lado = typeof g._lado === "function" ? g._lado(p) : g._lado; // ±1: etiqueta debajo o encima
+    let dx = lado ? 0 : -Math.cos(a) * k, dy = lado ? lado * 34 : -Math.sin(a) * k;
     const [x0, y0, x1, y1] = g._vista || [0, 0, 400, 400], m = (g._etqAncho || 60) / 2 + 4;
     dx = Math.min(x1 - m, Math.max(x0 + m, p.x + dx)) - p.x; dy = Math.min(y1 - 14, Math.max(y0 + 14, p.y + dy)) - p.y;
     g._etiqueta.setAttribute("transform", `translate(${dx.toFixed(1)} ${dy.toFixed(1)})`);
@@ -759,8 +766,9 @@
   // Escena: monta el dibujo y los pasos a partir de los datos
   // ===================================================================
   function crear(esc, op = {}) {
-    const svg = lienzo(op.titulo || esc.titulo, esc.tipo === "estrecho" ? "40 40 320 320" : null);
-    if (esc.tipo === "glorieta") fondoGlorieta(svg); else if (esc.tipo === "estrecho") fondoEstrecho(svg, esc); else if (esc.tipo === "recta") fondoRecta(svg, esc); else fondoCruce(svg, esc);
+    const T = TIPOS[esc.tipo];
+    const svg = lienzo(op.titulo || esc.titulo, T ? (typeof T.vista === "function" ? T.vista(esc) : T.vista) : esc.tipo === "estrecho" ? "40 40 320 320" : null);
+    if (T) T.fondo(svg, esc, { s, arbol, casa, cartel, flecha, senalCeda, senalStop }); else if (esc.tipo === "glorieta") fondoGlorieta(svg); else if (esc.tipo === "estrecho") fondoEstrecho(svg, esc); else if (esc.tipo === "recta") fondoRecta(svg, esc); else fondoCruce(svg, esc);
     const capaRastro = s("g", { class: "e-rastros" }), capaV = s("g"), capaAlta = s("g");
     svg.append(capaRastro);
     const semaforos = elementos(svg, esc, capaRastro, capaAlta);
@@ -771,13 +779,13 @@
     const orden = esc.vehiculos.slice().sort((a, b) => (/peaton|bici/.test(b.tipo || "") ? 1 : 0) - (/peaton|bici/.test(a.tipo || "") ? 1 : 0));
     for (const v of orden) {
       const k = v.id || v.letra;
-      tray[k] = v.puntos ? trayectoLibre(v.puntos) : esc.tipo === "glorieta" ? trayectoGlorieta(v) : esc.tipo === "estrecho" ? trayectoEstrecho(v, esc) : esc.tipo === "recta" ? trayectoRecta(v) : trayectoCruce(v);
+      tray[k] = v.puntos ? trayectoLibre(v.puntos) : T ? T.trayecto(v, esc) : esc.tipo === "glorieta" ? trayectoGlorieta(v) : esc.tipo === "estrecho" ? trayectoEstrecho(v, esc) : esc.tipo === "recta" ? trayectoRecta(v) : trayectoCruce(v);
       const g = vehiculo(v); veh[k] = g; g._vista = svg.getAttribute("viewBox").split(" ").map(Number).map((n, i, a) => i < 2 ? n : n + a[i - 2]);
-      if (esc.tipo === "estrecho") g._lado = v.desde === "O" ? 1 : -1; // etiqueta debajo o encima: detrás se saldría del dibujo
+      if (T && T.lado) g._lado = T.lado(v, esc); else if (esc.tipo === "estrecho") g._lado = v.desde === "O" ? 1 : -1; // etiqueta debajo o encima: detrás se saldría del dibujo
       if (g._remolque) capaV.append(g._remolque);
       (g._seguidores || []).forEach(x => capaV.append(x));
       capaV.append(g);
-      const giro = esc.tipo === "glorieta" ? "derecha" : esc.tipo === "estrecho" || esc.tipo === "recta" || v.puntos ? "recto" : giroDe(v.desde, v.hacia);
+      const giro = T ? "recto" : esc.tipo === "glorieta" ? "derecha" : esc.tipo === "estrecho" || esc.tipo === "recta" || v.puntos ? "recto" : giroDe(v.desde, v.hacia);
       g._giro = v.intermitente || (giro === "recto" ? null : giro);
     }
     const fr = (l, m) => typeof m === "number" ? m : tray[l].fr[m] != null ? tray[l].fr[m] : 0;
@@ -794,7 +802,7 @@
       (g._seguidores || []).forEach((x, i) => { const q = t.en(Math.max(0, f - (i + 1) * g._sep / t.L)), o = g._desorden ? g._desorden * [1, -1, .4, -.6, .8][i % 5] : 0, aa = q.ang * Math.PI / 180; q.x += Math.cos(aa) * o; q.y += Math.sin(aa) * o; x.setAttribute("transform", `translate(${q.x.toFixed(1)} ${q.y.toFixed(1)})`); x._cuerpo.setAttribute("transform", `rotate(${q.ang.toFixed(1)})`); x.style.opacity = f - (i + 1) * g._sep / t.L >= .995 ? 0 : 1; });
     }
     // Estado inicial: cada vehículo en su marca de inicio (por defecto, parado en la línea).
-    const inicial = {}; esc.vehiculos.forEach(v => { const k = v.id || v.letra; inicial[k] = fr(k, v.inicio || (esc.tipo === "estrecho" || esc.tipo === "recta" ? "lejos" : "espera")); });
+    const inicial = {}; esc.vehiculos.forEach(v => { const k = v.id || v.letra; inicial[k] = fr(k, v.inicio || (T ? T.inicio || "lejos" : esc.tipo === "estrecho" || esc.tipo === "recta" ? "lejos" : "espera")); });
     const pasos = (esc.pasos && esc.pasos.length ? esc.pasos : pasosCruce(esc)).map(p => Object.assign({}, p, { mover: (p.mover || []).map(m => Object.assign({}, m, { hasta: fr(m.v, m.hasta) })) }));
     const estados = [Object.assign({}, inicial)];
     pasos.forEach((p, i) => { const e = Object.assign({}, estados[i]); p.mover.forEach(m => e[m.v] = m.hasta); estados.push(e); });
@@ -806,31 +814,34 @@
       for (const k in semaforos) { const sm = semaforos[k], c = luzSem[i][k]; sm.r.setAttribute("class", "e-luz r" + (c === "rojo" ? " on" : "")); sm.a.setAttribute("class", "e-luz a" + (c === "ambar" ? " on" : "")); sm.v.setAttribute("class", "e-luz v" + (c === "verde" ? " on" : "")); }
     }
 
+    // paso.intermitentes {letra: "izquierda"/"derecha"/"emergencia"} manda en ese paso; sin ese campo, el de cada vehículo.
+    let intPaso = null;
     function luces(intermitente, frenos, atras) {
       for (const l in veh) {
-        const g = veh[l], partes = [g, g._remolque].filter(Boolean);
-        g.classList.toggle("int-izq", intermitente && g._giro === "izquierda" && pos[l] < .97);
-        g.classList.toggle("int-der", intermitente && g._giro === "derecha" && pos[l] < .97);
+        const g = veh[l], partes = [g, g._remolque].filter(Boolean), giro = intPaso ? intPaso[l] || null : g._giro;
+        g.classList.toggle("int-izq", intermitente && (giro === "izquierda" || giro === "emergencia") && pos[l] < .97);
+        g.classList.toggle("int-der", intermitente && (giro === "derecha" || giro === "emergencia") && pos[l] < .97);
         partes.forEach(x => { x.classList.toggle("frenando", !!(frenos && frenos.includes(l))); x.classList.toggle("atras", !!(atras && atras.includes(l))); });
       }
     }
     function resaltar(p) {
       for (const l in veh) { veh[l].classList.toggle("foco", !!(p && p.foco && p.foco.includes(l))); etiquetar(veh[l], p && p.etiquetas ? p.etiquetas[l] : null); }
     }
-    function pintarEstado(i) { const e = estados[i]; for (const l in e) situar(l, e[l]); pintarSem(i); avisos(i); }
+    function pintarEstado(i, mueve) { const e = estados[i]; for (const l in e) situar(l, e[l]); pintarSem(i); avisos(i); if (T && T.estado) T.estado(svg, i, esc, !!mueve); }
     let ficha = { cancelada: true };
     const escena = {
       svg, pasos,
-      quieto() { ficha.cancelada = true; pintarEstado(0); resaltar(null); luces(true, null); svg.classList.add("quieta"); },
-      fotograma(i) { ficha.cancelada = true; pintarEstado(i); resaltar(i > 0 ? pasos[i - 1] : null); luces(true, null); },
+      quieto() { ficha.cancelada = true; intPaso = null; pintarEstado(0); resaltar(null); luces(true, null); svg.classList.add("quieta"); },
+      fotograma(i) { ficha.cancelada = true; intPaso = i > 0 ? pasos[i - 1].intermitentes || null : null; pintarEstado(i); resaltar(i > 0 ? pasos[i - 1] : null); luces(true, null); },
       parar() { ficha.cancelada = true; },
       // Reproduce el paso i desde su estado inicial. alAvanzar(t) recibe el progreso (0-1).
       async paso(i, alAvanzar) {
         ficha.cancelada = true;
         const f = ficha = { cancelada: false };
         svg.classList.remove("quieta");
-        pintarEstado(i); pintarSem(i + 1); avisos(i + 1);
+        pintarEstado(i, true); pintarSem(i + 1); avisos(i + 1);
         const p = pasos[i], desde = estados[i];
+        intPaso = p.intermitentes || null;
         resaltar(p);
         const ms = MOV.matches ? 0 : (p.ms || 2200);
         // Cada movimiento puede empezar con retraso y durar parte del paso.

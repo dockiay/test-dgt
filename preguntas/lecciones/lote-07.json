@@ -1,0 +1,2257 @@
+{
+  "version": 1,
+  "lote": "07",
+  "lecciones": [
+    {
+      "id": "D-tre-0003",
+      "porque": "El tiempo de reacción se alarga con todo lo que te deja menos despierto o menos atento: el cansancio, el sueño, el alcohol, algunos medicamentos, el mucho calor en el coche o una comida copiosa justo antes de conducir, que da sueño y fatiga.",
+      "descartes": {
+        "a": "La buena visibilidad no te hace más lento. No está entre los factores que alargan el tiempo de reacción; lo que sí está es la poca atención o ver mal.",
+        "c": "Lo que alarga la reacción es el mucho calor dentro del coche. Entre 20 y 23 grados es justo la temperatura que el manual aconseja para el aire acondicionado en días de calor."
+      },
+      "truco": "Pregúntate: «¿esto me da sueño o me despista?». Si la respuesta es sí (comilona, calor, cansancio, alcohol, medicamentos), reaccionas más tarde.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con calor (p. 363)",
+          "cita": "Utiliza el aire acondicionado del vehículo\ny mantenlo a una temperatura\nentre 20 y 23 grados."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 3, Alimentación (p. 66)",
+          "cita": "Comer mucha cantidad y alimentos difíciles de digerir\nantes de conducir puede provocar sueño y fatiga."
+        }
+      ],
+      "huella": "590cbc4c7d90"
+    },
+    {
+      "id": "xb-0025",
+      "porque": "El tiempo de reacción es lo que tardas en responder a algo que percibes: desde que ves u oyes el estímulo (un semáforo en rojo, un ruido) hasta que actúas, por ejemplo hasta que pisas el freno. Mide al conductor, no al coche.",
+      "descartes": {
+        "b": "Lo que tarda el vehículo en pararse desde que frenas tiene que ver con la frenada, no con la reacción, que es lo que pasa antes de empezar a frenar.",
+        "c": "El tiempo que se puede conducir sin descansar es otra cosa (tiempos de conducción y descanso); no tiene nada que ver con la rapidez de respuesta."
+      },
+      "truco": "Reacción = lo que tarda tu cabeza; frenado = lo que tarda el coche.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de frenado (p. 262)",
+          "cita": "Distancia de frenado\nEspacio que recorre el vehículo desde que pisas\nel freno hasta que se para por completo."
+        }
+      ],
+      "huella": "2e1f2739c475"
+    },
+    {
+      "id": "D-vel-0001",
+      "porque": "Cuanto más rápido vas, más se estrecha tu campo de visión: acabas viendo solo lo que tienes enfrente, como si fueras por un túnel. Por eso se llama visión túnel, y por eso a mucha velocidad cuesta más ver lo que llega por los lados.",
+      "descartes": {
+        "a": "Sí cambia: la velocidad reduce la capacidad de ver lo que pasa a los lados.",
+        "c": "Es al revés: al aumentar la velocidad el campo de visión se estrecha, no se ensancha."
+      },
+      "truco": "Más velocidad, túnel más estrecho: solo ves lo de delante.",
+      "huella": "ea1c7d8fa191"
+    },
+    {
+      "id": "x1b-0104",
+      "porque": "La Ley de Tráfico pone expresamente en su lista de infracciones graves conducir con cascos de audio o auriculares conectados a aparatos que reproducen sonido, porque quitan atención a la conducción y te impiden oír lo que pasa alrededor.",
+      "descartes": {
+        "a": "Las leves son las conductas que la ley no califica expresamente de graves o muy graves, y los auriculares sí están nombrados entre las graves.",
+        "b": "No figura entre las muy graves, como la conducción temeraria o circular en sentido contrario. La ley la clasifica como grave."
+      },
+      "truco": "Auriculares y móvil en la mano van juntos en la misma lista de la ley: las dos son graves.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.g",
+          "cita": "g) Utilizar, sujetándolo con la mano, o manteniéndolo ajustado entre el casco y la cabeza\ndel usuario, dispositivos de telefonía móvil mientras se conduce"
+        },
+        {
+          "norma": "LSV",
+          "articulo": "77.e y 77.f",
+          "cita": "e) Conducción temeraria.\nf) Circular en sentido contrario al establecido."
+        },
+        {
+          "norma": "LSV",
+          "articulo": "75.c",
+          "cita": "c) Incumplir las normas contenidas en esta Ley que no se califiquen expresamente como\ninfracciones graves o muy graves en los artículos siguientes"
+        }
+      ],
+      "huella": "ac18bea132ef"
+    },
+    {
+      "id": "xb-0040",
+      "porque": "Sentirte mejor no significa que la enfermedad crónica esté curada; muchas veces te encuentras bien precisamente gracias al tratamiento. Por eso el consejo de la DGT es no abandonarlo hasta que lo autorice el médico.",
+      "descartes": {
+        "b": "No notar síntomas no basta: quien decide cuándo dejar el tratamiento es el médico, no la persona por su cuenta.",
+        "c": "Dejar la medicación a días según si vas a conducir es abandonar el tratamiento sin permiso médico, justo lo que se desaconseja."
+      },
+      "truco": "Con el tratamiento, el médico decide cuándo se empieza y cuándo se deja.",
+      "huella": "ea20ef965db2"
+    },
+    {
+      "id": "xb-0038",
+      "porque": "Algunos medicamentos reducen la capacidad de conducir con seguridad, tengan o no receta. Por eso, cuando tomas una medicación, lo que toca es preguntar al médico si puedes conducir con ella antes de ponerte al volante.",
+      "descartes": {
+        "a": "Que un medicamento sea con receta no garantiza que no afecte a la conducción; muchos recetados dan sueño o quitan reflejos.",
+        "c": "Probar «sobre la marcha» es descubrir el efecto cuando ya vas conduciendo, que es justo el riesgo que se quiere evitar."
+      },
+      "truco": "Medicamento nuevo: primero la pregunta al médico, después el volante.",
+      "huella": "393ed66cfb2c"
+    },
+    {
+      "id": "xb-0039",
+      "porque": "Los psicofármacos actúan sobre el sistema nervioso para calmar la ansiedad, tratar la depresión o ayudar a dormir. Por eso pueden producir sueño, pérdida de reflejos, mareos, visión borrosa y confusión, efectos muy peligrosos al volante.",
+      "descartes": {
+        "a": "Es lo contrario de lo que dice el manual: estos medicamentos pueden quitar reflejos y dar visión borrosa.",
+        "b": "Pueden dar sueño, no más atención; no hay ninguna mejora de la conducción entre sus efectos."
+      },
+      "truco": "Si un medicamento sirve para dormir o para calmar, piensa que también puede «dormirte» al volante.",
+      "huella": "5447b9f88506"
+    },
+    {
+      "id": "x1b-0030",
+      "porque": "El reglamento fija el umbral en el que el exceso de conducción pasa a ser un problema de seguridad vial: superar en más del 50 % los tiempos de conducción, o recortar en más del 50 % los de descanso, que marca la legislación de transportes. Ese exceso es infracción muy grave.",
+      "descartes": {
+        "b": "El 10 % no aparece en la norma; el umbral para la seguridad vial es más del 50 %.",
+        "c": "La norma no habla de un número fijo de horas seguidas, sino de un porcentaje sobre los tiempos establecidos: más del 50 %."
+      },
+      "truco": "Mitad de más al volante o mitad de menos de descanso: más del 50 % y ya es muy grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "77.i",
+          "cita": "i) Aumentar en más del 50 por ciento los tiempos de conducción o minorar en más del 50\npor ciento los tiempos de descanso establecidos en la legislación sobre transporte terrestre."
+        }
+      ],
+      "huella": "5dc18d26b832"
+    },
+    {
+      "id": "E-ent-0001",
+      "porque": "La velocidad se ajusta antes de la curva, en recta, cuando el coche aún va estable. Dentro de la curva conviene no frenar ni acelerar de forma brusca, y a la salida se acelera poco a poco.",
+      "descartes": {
+        "b": "En el centro de la curva ya es tarde: frenar ahí puede desestabilizar el coche. Dentro de la curva lo indicado es no frenar ni acelerar de forma brusca.",
+        "c": "A la salida de la curva lo que se hace es aumentar la velocidad poco a poco, no reducirla."
+      },
+      "truco": "Curva en tres tiempos: antes, frena; dentro, suave; al salir, acelera poco a poco.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Pasos para tomar bien una curva (p. 343)",
+          "cita": "Dentro de la curva debes:\n■ Girar el volante de forma suave.\n■ No acelerar ni frenar de manera brusca.\n■ Acelerar poco a poco.\nAl salir de la curva debes:\n■ Girar con suavidad el volante\npara volver a circular recto.\n■ Aumentar la velocidad poco a poco."
+        }
+      ],
+      "huella": "d3a05a087df0"
+    },
+    {
+      "id": "E-pre-0003",
+      "porque": "No controlas al de detrás, pero sí tu espacio por delante. Si dejas más hueco con el de delante, ante un imprevisto podrás frenar con suavidad y con tiempo, y el que te sigue tendrá margen para reaccionar y no alcanzarte.",
+      "descartes": {
+        "a": "Frenar de golpe con alguien pegado detrás es la forma más fácil de provocar un alcance; el manual aconseja justo lo contrario, frenar de forma suave y con tiempo.",
+        "c": "Acelerar no resuelve nada: el de detrás puede seguirte, y tú vas más rápido y con menos margen delante."
+      },
+      "truco": "Si te pegan por detrás, gana espacio por delante.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio trasero (p. 447)",
+          "cita": "■ Frenar de forma suave y con tiempo\nsuficiente para que el conductor\ndel vehículo de atrás pueda reaccionar."
+        }
+      ],
+      "huella": "0bbb43bb96ea"
+    },
+    {
+      "id": "dist-0005",
+      "porque": "Cuando vas detrás de un ciclista en su mismo carril, el reglamento exige a los vehículos de motor una separación mínima de cinco metros, para tener margen si frena, cae o se desvía.",
+      "descartes": {
+        "a": "1,5 metros es la anchura de seguridad lateral al adelantar a un ciclista, no la distancia al ir detrás de él.",
+        "c": "Tres metros no es la cifra del reglamento: la distancia mínima detrás de un ciclista son cinco metros."
+      },
+      "truco": "Ciclista: 5 metros detrás, 1,5 metros al lado cuando le adelantas.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "85.4",
+          "cita": "debe efectuarlo ocupando parte o la totalidad del carril\ncontiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al\nmenos, 1,5 metros"
+        }
+      ],
+      "huella": "67372777a429"
+    },
+    {
+      "id": "D-dis-0001",
+      "porque": "La distancia de detención es todo el camino que recorres desde que ves el obstáculo hasta que el coche queda parado. Ese camino tiene dos tramos: el que recorres mientras reaccionas y el que recorres mientras frenas. Por eso es la suma de las dos.",
+      "descartes": {
+        "a": "No se resta nada: mientras reaccionas el coche sigue avanzando, así que esa distancia se suma a la de frenado.",
+        "b": "Lo que se recorre solo mientras se frena es la distancia de frenado; la de detención incluye además la de reacción."
+      },
+      "truco": "Detención = reacción + frenado. Primero te das cuenta y reaccionas (reacción); luego el coche frena hasta pararse (frenado). La suma es todo el camino desde que ves el peligro hasta que estás parado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de frenado (p. 262)",
+          "cita": "Distancia de frenado\nEspacio que recorre el vehículo desde que pisas\nel freno hasta que se para por completo."
+        }
+      ],
+      "huella": "40b6e338ea7d"
+    },
+    {
+      "id": "D-dis-0002",
+      "porque": "Con el suelo mojado los neumáticos se agarran menos a la carretera, y con menos agarre el coche necesita más metros para frenar. Por eso la distancia de frenado puede aumentar.",
+      "descartes": {
+        "b": "El suelo mojado no solo afecta a la visibilidad: reduce el agarre de los neumáticos y alarga la frenada.",
+        "c": "El manual relaciona el suelo mojado con la distancia de frenado, no solo con la separación lateral."
+      },
+      "truco": "Suelo mojado, menos agarre, más metros para parar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con lluvia (p. 353)",
+          "cita": "■ Los neumáticos se agarran menos\na la carretera.\nCuando pasa esto el vehículo necesita\nmás espacio para frenar."
+        }
+      ],
+      "huella": "00d13193db3e"
+    },
+    {
+      "id": "res-dist-0001",
+      "porque": "El manual de la DGT da una regla práctica: deja dos o tres segundos con el de delante, es decir, que tardarías dos o tres segundos en llegar a donde está él a tu velocidad. El reglamento no fija segundos; exige un espacio que te permita parar sin chocar.",
+      "descartes": {
+        "b": "Cinco segundos no es la cifra del manual. Lo aconsejado en condiciones normales son dos o tres, y al menos uno más con lluvia, nieve, niebla o de noche.",
+        "a": "Un segundo se queda corto: es menos de lo aconsejado en condiciones normales (dos o tres)."
+      },
+      "truco": "Elige un punto fijo por el que pase el de delante y cuenta despacio: si llegas tú antes de «dos», vas demasiado cerca. Con lluvia, nieve, niebla o de noche, suma al menos un segundo.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio delantero (p. 446)",
+          "cita": "Es decir, que te cueste dos o tres segundos\nalcanzarle a la velocidad a la que vas."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "54.1",
+          "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
+        }
+      ],
+      "huella": "3b321b247d9c"
+    },
+    {
+      "id": "res-dist-0002",
+      "porque": "Con lluvia o de noche frenas peor o ves el peligro más tarde, así que el margen de dos o tres segundos se queda corto. El manual pide dejar al menos un segundo más; también con nieve, niebla o cuando el de atrás se acerca demasiado.",
+      "descartes": {
+        "b": "El manual no habla de duplicarla, y menos «siempre»: pide al menos un segundo más.",
+        "c": "Sí hace falta: con lluvia o de noche el manual pide aumentar la separación al menos un segundo."
+      },
+      "truco": "Normal, dos o tres segundos; con lluvia, nieve, niebla, de noche o con alguien pegado detrás, al menos uno más.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Espacio delantero (p. 446)",
+          "cita": "■ Hay lluvia, nieve, niebla o es de noche.\n■ El vehículo de atrás se acerca demasiado."
+        }
+      ],
+      "huella": "32b8cc44dbf7"
+    },
+    {
+      "id": "D-dis-0003",
+      "porque": "La distancia de reacción es lo que avanza el coche mientras tú todavía no has actuado: desde que detectas el imprevisto (un obstáculo, una señal, un ruido) hasta que reaccionas, por ejemplo hasta que pisas el freno. Durante ese tiempo el coche sigue a la misma velocidad.",
+      "descartes": {
+        "a": "Desde que se pisa el freno hasta que el coche se para es la distancia de frenado, que viene después de la de reacción.",
+        "c": "Lo que pasa entre pararse y volver a arrancar no es ninguna de las distancias de las que habla el manual."
+      },
+      "truco": "Detención = reacción + frenado. Primero te das cuenta y reaccionas (reacción); luego el coche frena hasta pararse (frenado). La suma es todo el camino desde que ves el peligro hasta que estás parado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de frenado (p. 262)",
+          "cita": "Distancia de frenado\nEspacio que recorre el vehículo desde que pisas\nel freno hasta que se para por completo."
+        }
+      ],
+      "huella": "503cbc8889f0"
+    },
+    {
+      "id": "dist-0003",
+      "porque": "Si vas detrás de otro sin intención de adelantar, debes dejar hueco para que te adelante quien viene detrás. Para los vehículos de más de 3.500 kg de MMA, como este camión, y para los de más de 10 metros, el mínimo son 50 metros. Aquí se aplica porque es fuera de poblado, con un carril por sentido y adelantamiento permitido.",
+      "descartes": {
+        "a": "25 metros no es ninguna cifra del reglamento para este caso; el mínimo para vehículos de más de 3.500 kg es 50 metros.",
+        "b": "100 metros es la distancia mínima dentro de un túnel para un turismo, no la de facilitar el adelantamiento."
+      },
+      "truco": "El hueco para que te adelanten no se exige en cuatro casos: en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico tan saturado que no deja adelantar. Fuera de esos casos, déjalo; y si pasas de 3.500 kg o de 10 m de longitud, al menos 50 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "54.3",
+          "cita": "3. Lo dispuesto en el apartado anterior no será de aplicación:\na) En poblado.\nb) Donde estuviese prohibido el adelantamiento.\nc) Donde hubiese más de un carril destinado a la circulación en su mismo sentido.\nd) Cuando la circulación estuviese tan saturada que no permita el adelantamiento"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "Cuando no se pretenda adelantar, deberá mantenerse en todo momento una distancia\nde seguridad con el vehículo precedente de, al menos, 100 metros o un intervalo mínimo de\ncuatro segundos."
+        }
+      ],
+      "huella": "a2245f0eda56"
+    },
+    {
+      "id": "dist-0004",
+      "porque": "Ese hueco extra existe para que te puedan adelantar. Si en la vía está prohibido adelantar, no tiene sentido exigirlo, y el reglamento lo excluye expresamente. Lo que no desaparece es la distancia de seguridad para poder frenar sin chocar.",
+      "descartes": {
+        "b": "No se aplica siempre: el reglamento la excluye en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico saturado.",
+        "c": "La norma no distingue entre turismos y otros vehículos para esta excepción; donde está prohibido adelantar no se aplica a nadie."
+      },
+      "truco": "El hueco para que te adelanten no se exige en cuatro casos: en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico tan saturado que no deja adelantar. Fuera de esos casos, déjalo; y si pasas de 3.500 kg o de 10 m de longitud, al menos 50 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "54.3",
+          "cita": "3. Lo dispuesto en el apartado anterior no será de aplicación:\na) En poblado.\nb) Donde estuviese prohibido el adelantamiento.\nc) Donde hubiese más de un carril destinado a la circulación en su mismo sentido.\nd) Cuando la circulación estuviese tan saturada que no permita el adelantamiento"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "54.1",
+          "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
+        }
+      ],
+      "huella": "f3dde1ab8e0e"
+    },
+    {
+      "id": "v5b-dist-0001",
+      "porque": "El hueco para que te adelanten solo tiene sentido donde alguien puede adelantarte usando el carril contrario. Por eso el reglamento lo excluye en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico saturado. La única vía de las tres que no cae en ninguna excepción es la carretera fuera de poblado con un carril por sentido y adelantamiento permitido.",
+      "descartes": {
+        "a": "En poblado no se exige esta separación adicional, aunque la calle tenga un carril por sentido.",
+        "b": "Con dos carriles en tu sentido, quien quiera adelantarte tiene el otro carril, y el reglamento excluye expresamente este caso."
+      },
+      "truco": "El hueco para que te adelanten no se exige en cuatro casos: en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico tan saturado que no deja adelantar. Fuera de esos casos, déjalo; y si pasas de 3.500 kg o de 10 m de longitud, al menos 50 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "54.3",
+          "cita": "3. Lo dispuesto en el apartado anterior no será de aplicación:\na) En poblado.\nb) Donde estuviese prohibido el adelantamiento.\nc) Donde hubiese más de un carril destinado a la circulación en su mismo sentido.\nd) Cuando la circulación estuviese tan saturada que no permita el adelantamiento"
+        }
+      ],
+      "huella": "873abcd793bb"
+    },
+    {
+      "id": "x1a-0053",
+      "porque": "Los 50 metros sirven para que quien va detrás pueda adelantarte y volver a su carril delante de ti. En una autovía con dos carriles en tu sentido no hace falta, porque se adelanta por el otro carril, y el reglamento excluye ese caso. La distancia de seguridad para poder frenar sí hay que mantenerla.",
+      "descartes": {
+        "a": "Ir fuera de poblado no basta: aunque sea fuera de poblado, la obligación no se aplica donde hay más de un carril en tu sentido.",
+        "b": "La noche no es una de las excepciones del reglamento; aquí no se aplica por tener más de un carril en el mismo sentido."
+      },
+      "truco": "El hueco para que te adelanten no se exige en cuatro casos: en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico tan saturado que no deja adelantar. Fuera de esos casos, déjalo; y si pasas de 3.500 kg o de 10 m de longitud, al menos 50 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "54.3",
+          "cita": "3. Lo dispuesto en el apartado anterior no será de aplicación:\na) En poblado.\nb) Donde estuviese prohibido el adelantamiento.\nc) Donde hubiese más de un carril destinado a la circulación en su mismo sentido.\nd) Cuando la circulación estuviese tan saturada que no permita el adelantamiento"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "54.1",
+          "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
+        }
+      ],
+      "huella": "e82b592f41ae"
+    },
+    {
+      "id": "x1a-0054",
+      "porque": "Los 50 metros no son solo para los pesados: el reglamento los exige también a los vehículos y conjuntos de más de 10 metros de longitud total. Un turismo con caravana de 11 metros es un conjunto de más de 10 metros, así que, en una vía de un carril por sentido donde se puede adelantar, debe dejar al menos 50 metros.",
+      "descartes": {
+        "a": "25 metros no es la cifra del reglamento: para conjuntos de más de 10 metros el mínimo es 50.",
+        "b": "100 metros es la distancia mínima de un turismo dentro de un túnel; para facilitar el adelantamiento son 50."
+      },
+      "truco": "El hueco para que te adelanten no se exige en cuatro casos: en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico tan saturado que no deja adelantar. Fuera de esos casos, déjalo; y si pasas de 3.500 kg o de 10 m de longitud, al menos 50 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "Cuando no se pretenda adelantar, deberá mantenerse en todo momento una distancia\nde seguridad con el vehículo precedente de, al menos, 100 metros o un intervalo mínimo de\ncuatro segundos."
+        }
+      ],
+      "huella": "af30374b3e93"
+    },
+    {
+      "id": "xc-0072",
+      "porque": "El ABS evita que las ruedas se bloqueen al frenar. Una rueda que sigue girando agarra mejor y deja dirigir el coche, por eso el ABS ayuda a mantener el control y a frenar en menos espacio.",
+      "descartes": {
+        "b": "El ABS solo actúa cuando frenas; hay que pisar el pedal igualmente. Con ABS, en emergencia se pisa fuerte y a fondo.",
+        "c": "El ABS no sustituye la distancia de seguridad: la norma exige a quien circula detrás de otro dejar un espacio que le permita parar sin chocar, lleve o no ABS."
+      },
+      "truco": "ABS: ruedas que no se bloquean, coche que se deja dirigir y frena en menos espacio. Pero el pie lo pones tú.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Cómo se usan los frenos? (p. 95)",
+          "cita": "Para frenar de emergencia en un vehículo con ABS,\ndebes pisar fuerte y a fondo el pedal de freno\nhasta que el vehículo se pare del todo."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "54.1",
+          "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
+        }
+      ],
+      "huella": "338d42605ff8"
+    },
+    {
+      "id": "xc-0073",
+      "porque": "El peso aprieta las ruedas contra el suelo, y una rueda más cargada cuesta más que se bloquee al frenar. Por eso el manual dice que, cuanto más peso lleva el vehículo, más difícil es que se bloqueen las ruedas; por ejemplo, la de una moto cuando lleva pasajero.",
+      "descartes": {
+        "a": "Es al revés: con más peso es más difícil que las ruedas se bloqueen. Lo que sí aumenta con la carga es la distancia que se necesita para parar.",
+        "c": "Sí influye: el manual dice expresamente que el peso hace más difícil el bloqueo."
+      },
+      "truco": "No mezcles dos ideas: más peso, más difícil que se bloqueen las ruedas, pero también más metros para parar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de frenado (p. 262)",
+          "cita": "Un vehículo con mucha carga tarda más en parar."
+        }
+      ],
+      "huella": "379ec844a207"
+    },
+    {
+      "id": "xc-0078",
+      "porque": "El control de tracción detecta si una rueda gira más rápido que las demás y la frena para que no patine. Eso pasa sobre todo cuando las ruedas tienen menos agarre o más esfuerzo: en las curvas, al subir una cuesta o con lluvia.",
+      "descartes": {
+        "a": "Aparcar en línea se hace despacio y sin que las ruedas patinen; no es la situación para la que el manual describe este sistema.",
+        "c": "No es solo para la marcha atrás: el manual lo describe para curvas, cuestas y lluvia."
+      },
+      "truco": "Control de tracción: evita que la rueda «patine en el sitio». Piensa en cuándo patina una rueda: curva, cuesta arriba o lluvia.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Control de tracción (p. 104)",
+          "cita": "Sistema de seguridad que identifica\nsi una rueda está girando más rápido que las demás\ny la frena para que no patine."
+        }
+      ],
+      "huella": "038030b40ad0"
+    },
+    {
+      "id": "xc-0080",
+      "porque": "Al tomar una curva con velocidad, el coche tiende a seguir recto, y eso se nota como una fuerza que lo empuja hacia fuera de la curva. Si es demasiado fuerte, el vehículo puede salirse de la carretera o invadir el carril contrario.",
+      "descartes": {
+        "a": "La fuerza empuja hacia fuera, no hacia dentro: por eso en una curva tomada deprisa el coche tiende a irse hacia el exterior.",
+        "c": "El manual no habla de ninguna fuerza que aumente el agarre en las curvas; al contrario, la que se crea puede hacer que los neumáticos dejen de agarrarse."
+      },
+      "truco": "En curva, el coche «quiere seguir recto»: por eso se va hacia fuera.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Derrapar en las curvas (p. 344)",
+          "cita": "El motivo es que la fuerza\nque empuja a los vehículos\nen las curvas puede hacer\nque sus neumáticos no se agarren a la carretera,\npatinen y pierdan el control."
+        }
+      ],
+      "huella": "4e8af6b7a295"
+    },
+    {
+      "id": "xc-0081",
+      "porque": "En una curva se crea una fuerza que empuja el vehículo hacia fuera. El manual señala tres circunstancias que la hacen más peligrosa: que sea muy cerrada, que el vehículo lleve mucho peso o que circule muy rápido. En esos casos puede seguir recto y salirse o invadir el carril contrario.",
+      "descartes": {
+        "b": "Una curva abierta con el vehículo vacío es la situación menos exigente; el peligro aumenta con curva cerrada y mucho peso.",
+        "c": "Ir despacio reduce el peligro: lo que hace peligrosa una curva es circular muy rápido."
+      },
+      "truco": "Cerrada, cargado, rápido: los tres ingredientes de una curva peligrosa.",
+      "huella": "f789079083e2"
+    },
+    {
+      "id": "xc-0082",
+      "porque": "Antes de la curva se prepara todo: se reduce la velocidad y se acerca el coche lo más posible al borde derecho de la calzada. Así guardas más margen con el carril contrario; el reglamento también pide circular lo más cerca posible del borde derecho, muy especialmente en las curvas de poca visibilidad.",
+      "descartes": {
+        "a": "Acercarse al centro te pone más cerca del que viene de frente, justo lo contrario de lo que indica el manual: arrimarse al borde derecho.",
+        "c": "Poner punto muerto no está entre los pasos para tomar una curva, y en punto muerto el motor deja de retener el coche."
+      },
+      "truco": "Curva en tres tiempos: antes, frena y arrímate a la derecha; dentro, volante suave sin acelerar ni frenar de golpe; al salir, acelera poco a poco.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "29.1",
+          "cita": "Como norma general, y muy especialmente en las curvas y cambios de rasante de\nreducida visibilidad, los vehículos circularán en todas las vías objeto de la Ley sobre tráfico,\ncirculación de vehículos a motor y seguridad vial por la derecha y lo más cerca posible del\nborde de la calzada"
+        }
+      ],
+      "huella": "53fd877d5a4d"
+    },
+    {
+      "id": "xc-0083",
+      "porque": "Dentro de la curva el coche ya soporta la fuerza que lo empuja hacia fuera, y cualquier movimiento brusco puede hacer que los neumáticos dejen de agarrarse. Por eso se gira el volante con suavidad y no se acelera ni se frena de golpe.",
+      "descartes": {
+        "a": "Frenar con fuerza dentro de la curva es una de las causas de derrape; la velocidad se reduce antes de entrar.",
+        "b": "Acelerar a fondo aumenta la velocidad justo cuando el coche tiende a salirse. Dentro de la curva se acelera poco a poco."
+      },
+      "truco": "Curva en tres tiempos: antes, frena y arrímate a la derecha; dentro, volante suave sin acelerar ni frenar de golpe; al salir, acelera poco a poco.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Derrapar en las curvas (p. 344)",
+          "cita": "Un derrape se puede producir por:\n■ Conducir muy rápido.\n■ Hacer un giro brusco con el volante.\n■ Pisar muy fuerte el pedal de freno.\n■ Llevar los neumáticos\no los amortiguadores en mal estado.\n■ Repartir mal la carga en el vehículo."
+        }
+      ],
+      "huella": "baa0328142e5"
+    },
+    {
+      "id": "xc-0084",
+      "porque": "Un derrape aparece cuando los neumáticos dejan de agarrarse, y lo provocan las acciones bruscas o los fallos de agarre: ir muy rápido, dar un giro brusco con el volante, pisar muy fuerte el freno, llevar neumáticos o amortiguadores en mal estado o repartir mal la carga.",
+      "descartes": {
+        "b": "La velocidad moderada no provoca derrapes; la causa es conducir muy rápido.",
+        "c": "Es justo lo contrario: lo que puede provocar un derrape es repartir mal la carga."
+      },
+      "truco": "Derrape = «demasiado»: demasiada velocidad, demasiado volante, demasiado freno, o neumáticos, amortiguadores o carga en mal estado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Derrapar en las curvas (p. 344)",
+          "cita": "Un derrape se puede producir por:\n■ Conducir muy rápido.\n■ Hacer un giro brusco con el volante.\n■ Pisar muy fuerte el pedal de freno.\n■ Llevar los neumáticos\no los amortiguadores en mal estado.\n■ Repartir mal la carga en el vehículo."
+        }
+      ],
+      "huella": "5a48054f3df2"
+    },
+    {
+      "id": "xc-0085",
+      "porque": "Si en un coche de tracción delantera se va la parte de atrás, frenar empeoraría el derrape. Lo indicado es no frenar, girar el volante hacia el lado al que se desplazan las ruedas y acelerar suavemente, para que las ruedas delanteras, que son las que tiran, devuelvan el coche a su trayectoria.",
+      "descartes": {
+        "a": "Frenar a fondo es lo que no hay que hacer, y el volante se gira hacia el lado al que se van las ruedas, no al contrario.",
+        "c": "Soltar el volante es perder el control del coche; el manual pide girarlo hacia el lado del derrape y acelerar suave."
+      },
+      "truco": "Primero, ¿qué ruedas empujan? Tracción, las delanteras; propulsión, las traseras. Si derrapan las traseras, no frenes y gira hacia donde se van (con tracción, acelera suave; con propulsión, deja de acelerar suave). Si en un propulsión derrapan las delanteras, deja de acelerar y pon el volante recto.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Derrapar en las curvas (p. 345)",
+          "cita": "De tracción.\n\nTraseras\n\nNo frenar."
+        }
+      ],
+      "huella": "2aab661b8ab5"
+    },
+    {
+      "id": "xc-0086",
+      "porque": "En un propulsión, las ruedas traseras son las que empujan, y si derrapan es porque les llega demasiada fuerza o han perdido agarre. Por eso no se frena, se deja de acelerar de forma suave y se gira el volante hacia el lado al que se desplazan las ruedas traseras.",
+      "descartes": {
+        "a": "Frenar es lo que no hay que hacer, y acelerar en un propulsión manda más fuerza a las ruedas que ya patinan.",
+        "b": "Acelerar a fondo agrava el derrape de las traseras, y poner el volante recto es lo que se hace cuando derrapan las delanteras, no las traseras."
+      },
+      "truco": "Primero, ¿qué ruedas empujan? Tracción, las delanteras; propulsión, las traseras. Si derrapan las traseras, no frenes y gira hacia donde se van (con tracción, acelera suave; con propulsión, deja de acelerar suave). Si en un propulsión derrapan las delanteras, deja de acelerar y pon el volante recto.",
+      "huella": "8eaaba0a1e16"
+    },
+    {
+      "id": "xc-0087",
+      "porque": "Si en un propulsión derrapan las ruedas delanteras, el coche no gira lo que le pides. Para que recuperen el agarre, el manual indica dejar de acelerar y poner recto el volante hasta que dejen de derrapar.",
+      "descartes": {
+        "b": "Acelerar con fuerza y girar más el volante es justo lo que impide que las delanteras recuperen el agarre.",
+        "c": "Frenar a fondo con el freno de mano no es lo que indica el manual para este derrape: dejar de acelerar y poner recto el volante."
+      },
+      "truco": "Primero, ¿qué ruedas empujan? Tracción, las delanteras; propulsión, las traseras. Si derrapan las traseras, no frenes y gira hacia donde se van (con tracción, acelera suave; con propulsión, deja de acelerar suave). Si en un propulsión derrapan las delanteras, deja de acelerar y pon el volante recto.",
+      "huella": "4962f9157e56"
+    },
+    {
+      "id": "xc-0063",
+      "porque": "La distancia de detención es todo el camino desde que ves el obstáculo hasta que el coche se para del todo. Incluye lo que avanzas mientras reaccionas y lo que avanzas mientras frenas.",
+      "descartes": {
+        "a": "La distancia de frenado empieza cuando pisas el freno; aquí se pregunta desde que viste el obstáculo, que incluye también la reacción.",
+        "c": "La distancia de seguridad es el hueco que dejas con el vehículo de delante, no lo que recorres hasta pararte."
+      },
+      "truco": "Detención = reacción + frenado. Primero te das cuenta y reaccionas (reacción); luego el coche frena hasta pararse (frenado). La suma es todo el camino desde que ves el peligro hasta que estás parado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de detención (p. 263)",
+          "cita": "La distancia de detención es la suma\nde la distancia de reacción y la de frenado."
+        }
+      ],
+      "huella": "b997410bd662"
+    },
+    {
+      "id": "xc-0059",
+      "porque": "La distancia de frenado empieza en el momento en que pisas el freno y termina cuando el coche está parado del todo. Lo que recorres antes, mientras te das cuenta y reaccionas, es la distancia de reacción.",
+      "descartes": {
+        "b": "Desde que ves el peligro hasta que pisas el freno es la distancia de reacción, no la de frenado.",
+        "c": "La separación con el de delante es la distancia de seguridad."
+      },
+      "truco": "Detención = reacción + frenado. Primero te das cuenta y reaccionas (reacción); luego el coche frena hasta pararse (frenado). La suma es todo el camino desde que ves el peligro hasta que estás parado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de reacción (p. 261)",
+          "cita": "Distancia de reacción\nEspacio que recorres con el vehículo\ndesde que detectas un imprevisto,\ncomo un obstáculo, una señal o un ruido,\nhasta que puedes reaccionar al imprevisto."
+        }
+      ],
+      "huella": "c96d89ff059a"
+    },
+    {
+      "id": "xc-0060",
+      "porque": "A más velocidad el coche lleva más impulso y los frenos necesitan más espacio para pararlo. El manual lo dice así: cuanto más rápido vaya el vehículo, más espacio necesitará para frenar.",
+      "descartes": {
+        "a": "Los frenos no actúan con más fuerza por ir más rápido; al contrario, el coche necesita más metros para pararse.",
+        "c": "La distancia de frenado no depende solo de los frenos: también de la velocidad, la carga, los neumáticos, el clima y la carretera."
+      },
+      "truco": "Más velocidad, más metros para parar. Nunca al revés.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de frenado (p. 262)",
+          "cita": "Esta distancia puede cambiar\npor los siguientes motivos:\n■ Velocidad."
+        }
+      ],
+      "huella": "b16ab16f9c0f"
+    },
+    {
+      "id": "xc-0061",
+      "porque": "Cuanta más masa lleva el vehículo, más le cuesta a los frenos detenerlo. Por eso el manual cuenta la carga entre lo que cambia la distancia de frenado: un vehículo con mucha carga tarda más en parar.",
+      "descartes": {
+        "a": "El peso hace más difícil que las ruedas se bloqueen, pero no hace que el vehículo frene en menos espacio: con mucha carga tarda más en parar.",
+        "b": "Llevar bien los neumáticos no anula el efecto de la carga; la carga influye por sí misma en la frenada."
+      },
+      "truco": "No mezcles dos ideas: más peso, más difícil que se bloqueen las ruedas, pero también más metros para parar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Sistema antibloqueo de frenos (ABS) (p. 94)",
+          "cita": "Cuanto más peso hay en el vehículo\nmás difícil es que se bloqueen las ruedas al frenar."
+        }
+      ],
+      "huella": "563d4a89d7b5"
+    },
+    {
+      "id": "xc-0062",
+      "porque": "Frenar depende de que los frenos funcionen bien y de que los neumáticos se agarren al suelo. Por eso las condiciones técnicas del vehículo, como el estado de los frenos y de los neumáticos, cambian la distancia de frenado.",
+      "descartes": {
+        "b": "El color de la carrocería no tiene nada que ver con la capacidad de frenar.",
+        "c": "La radio no interviene en la frenada; lo que influye es el estado técnico de frenos y neumáticos, entre otras cosas."
+      },
+      "truco": null,
+      "huella": "6e540a5192b4"
+    },
+    {
+      "id": "xc-0067",
+      "porque": "La distancia de seguridad es el hueco mínimo que dejas con el vehículo de delante para que, si frena de golpe y sin avisar, tengas espacio para parar sin chocar con él.",
+      "descartes": {
+        "a": "La distancia entre el conductor y el volante tiene que ver con la postura al conducir, no con la distancia de seguridad.",
+        "b": "Lo que se recorre mientras se reacciona es la distancia de reacción."
+      },
+      "truco": "Pregúntate: «si frena de golpe, ¿paro sin tocarle?». Si la respuesta es sí, la distancia es buena.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "54.1",
+          "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
+        }
+      ],
+      "huella": "e95d7770a66d"
+    },
+    {
+      "id": "xc-0068",
+      "porque": "La distancia de seguridad tiene que permitirte parar sin chocar. Si el vehículo no se agarra bien a la carretera, frena peor y necesita más metros, así que hay que dejar más hueco.",
+      "descartes": {
+        "b": "En una recta con buena visibilidad no hay ningún motivo para aumentarla; se aumenta cuando la carretera se ve mal.",
+        "c": "Al reducir la velocidad necesitas menos espacio para parar; es al aumentarla cuando hay que dejar más distancia."
+      },
+      "truco": "La distancia de seguridad crece con todo lo que te hace frenar peor o más tarde: más velocidad, peor visibilidad, peor agarre o un conductor que no está en buena forma.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de seguridad (p. 265)",
+          "cita": "Debes dejar más distancia de seguridad\ncon el conductor de delante cuando:\n■ Aumentas la velocidad.\n■ La carretera se ve mal.\n■ El vehículo no se agarra bien a la carretera.\n■ No estás en buena forma física o psicológica."
+        }
+      ],
+      "huella": "72898b1b4600"
+    },
+    {
+      "id": "xc-0069",
+      "porque": "Si no estás en buena forma física o psicológica tardas más en reaccionar, y eso alarga la distancia que necesitas para parar. Por eso hay que dejar más distancia de seguridad.",
+      "descartes": {
+        "a": "Reducirla es lo contrario de lo que hace falta: con peor estado físico reaccionas más tarde.",
+        "c": "Sí influye: el manual pone el mal estado del conductor entre los casos en que hay que dejar más distancia."
+      },
+      "truco": "La distancia de seguridad crece con todo lo que te hace frenar peor o más tarde: más velocidad, peor visibilidad, peor agarre o un conductor que no está en buena forma.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de seguridad (p. 265)",
+          "cita": "Debes dejar más distancia de seguridad\ncon el conductor de delante cuando:\n■ Aumentas la velocidad.\n■ La carretera se ve mal.\n■ El vehículo no se agarra bien a la carretera.\n■ No estás en buena forma física o psicológica."
+        }
+      ],
+      "huella": "b550fb4a6e50"
+    },
+    {
+      "id": "xc-0070",
+      "porque": "Además de poder frenar, si vas detrás de otro sin intención de adelantar debes dejar un hueco que permita al que te sigue adelantarte con seguridad y volver a su carril delante de ti. Aquí se exige porque es fuera de poblado, con un carril por sentido y adelantamiento permitido.",
+      "descartes": {
+        "a": "Ir lo más pegado posible deja sin hueco a quien quiere adelantarte y además te quita espacio para frenar.",
+        "c": "Circular a la velocidad máxima no te exime: la separación hay que dejarla igualmente."
+      },
+      "truco": "El hueco para que te adelanten no se exige en cuatro casos: en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico tan saturado que no deja adelantar. Fuera de esos casos, déjalo; y si pasas de 3.500 kg o de 10 m de longitud, al menos 50 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "54.1",
+          "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
+        }
+      ],
+      "huella": "d02d65e8b67f"
+    },
+    {
+      "id": "xc-0071",
+      "porque": "El reglamento excluye en poblado la obligación de dejar hueco para que te adelanten. Lo que sí hay que mantener siempre es la distancia que permite frenar sin chocar.",
+      "descartes": {
+        "a": "No se aplica en todas las vías: se excluye en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico saturado.",
+        "b": "Es justo al revés: en poblado es precisamente donde no se aplica."
+      },
+      "truco": "El hueco para que te adelanten no se exige en cuatro casos: en poblado, donde está prohibido adelantar, donde hay más de un carril en tu sentido y con tráfico tan saturado que no deja adelantar. Fuera de esos casos, déjalo; y si pasas de 3.500 kg o de 10 m de longitud, al menos 50 metros.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "54.3",
+          "cita": "3. Lo dispuesto en el apartado anterior no será de aplicación:\na) En poblado.\nb) Donde estuviese prohibido el adelantamiento.\nc) Donde hubiese más de un carril destinado a la circulación en su mismo sentido.\nd) Cuando la circulación estuviese tan saturada que no permita el adelantamiento"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "54.1",
+          "cita": "Todo conductor de un vehículo que circule detrás de otro deberá dejar entre ambos un\nespacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él"
+        }
+      ],
+      "huella": "ded6d83b8849"
+    },
+    {
+      "id": "xc-0079",
+      "porque": "El control electrónico de estabilidad ayuda a que el coche siga el camino que marca el volante y no se desvíe cuando gira menos o más de lo que pides. Eso importa en las maniobras de peligro: al esquivar un obstáculo o al tomar una curva.",
+      "descartes": {
+        "a": "Al repostar el coche está parado; el sistema actúa en marcha, cuando el coche puede desviarse de su trayectoria.",
+        "b": "Arrancar en frío no tiene que ver con la estabilidad; el sistema sirve en maniobras como esquivar o tomar una curva."
+      },
+      "truco": "ESP: que el coche vaya a donde apunta el volante, sobre todo al esquivar o en curva.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Control electrónico de estabilidad (p. 104)",
+          "cita": "Sistema de seguridad que ayuda al vehículo\na seguir en el camino que marca el volante\ny a no desviarse cuando no gira\ntodo lo que le pide el conductor o gira demasiado."
+        }
+      ],
+      "huella": "ba629e48949d"
+    },
+    {
+      "id": "xc-0091",
+      "porque": "Si la carga se mueve o va toda en un lado, desplaza el peso del coche en las curvas y en las frenadas y lo desestabiliza. Por eso debe ir bien repartida y bien sujeta.",
+      "descartes": {
+        "b": "Cargar todo en un lado desequilibra el vehículo; además, repartir mal la carga es una de las causas de derrape.",
+        "c": "Una carga suelta se desplaza en las curvas y frenadas y hace perder estabilidad; tiene que ir sujeta."
+      },
+      "truco": "Carga: repartida y sujeta. Si se mueve dentro, el coche se mueve fuera.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Derrapar en las curvas (p. 344)",
+          "cita": "Un derrape se puede producir por:\n■ Conducir muy rápido.\n■ Hacer un giro brusco con el volante.\n■ Pisar muy fuerte el pedal de freno.\n■ Llevar los neumáticos\no los amortiguadores en mal estado.\n■ Repartir mal la carga en el vehículo."
+        }
+      ],
+      "huella": "ab951af1cce2"
+    },
+    {
+      "id": "xc-0076",
+      "porque": "Si los frenos fallan en una bajada larga, lo que te queda para frenar es el motor. Por eso se deja de acelerar y se reducen marchas: con marchas cortas el motor retiene el vehículo. Si no se pueden reducir, se tira suavemente del freno de mano.",
+      "descartes": {
+        "a": "En punto muerto el motor deja de retener el vehículo y en una bajada iría cada vez más rápido.",
+        "b": "Apagar el motor no está entre las soluciones del manual. La que da es reducir marchas para que el motor actúe como freno."
+      },
+      "truco": "Frenos fallando en bajada: marchas abajo. Y si no puedes, freno de mano suave, nunca de golpe.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Qué hacer cuando fallan los frenos? (p. 96)",
+          "cita": "Si no se pueden reducir\nmarchas\ntirar de la palanca del freno\nde mano de forma suave."
+        }
+      ],
+      "huella": "c126b47e4055"
+    },
+    {
+      "id": "xc-0077",
+      "porque": "Si los frenos fallan y no puedes usar el motor como freno reduciendo marchas, te queda el freno de mano. Se usa tirando de la palanca de forma suave, para ir perdiendo velocidad sin bloquear las ruedas.",
+      "descartes": {
+        "a": "Girar bruscamente el volante no frena el coche y es una de las causas de derrape.",
+        "c": "Tirar de golpe y a fondo puede bloquear las ruedas; el manual dice expresamente que se haga de forma suave."
+      },
+      "truco": "Frenos fallando en bajada: marchas abajo. Y si no puedes, freno de mano suave, nunca de golpe.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Derrapar en las curvas (p. 344)",
+          "cita": "Un derrape se puede producir por:\n■ Conducir muy rápido.\n■ Hacer un giro brusco con el volante.\n■ Pisar muy fuerte el pedal de freno.\n■ Llevar los neumáticos\no los amortiguadores en mal estado.\n■ Repartir mal la carga en el vehículo."
+        }
+      ],
+      "huella": "18241849105e"
+    },
+    {
+      "id": "xc-0089",
+      "porque": "Un neumático con menos presión de la recomendada se deforma, se calienta y se desgasta antes. Además el vehículo es menos estable y tiene más riesgo de patinar con el suelo mojado.",
+      "descartes": {
+        "b": "Que el neumático se deforme no mejora el agarre en las curvas: hace el vehículo menos estable.",
+        "c": "Es verdad que se gasta más combustible, pero no es lo único: también se pierde estabilidad y aumenta el riesgo de patinar con suelo mojado."
+      },
+      "truco": "Ni más ni menos: la presión buena es la que marca el fabricante. Con menos, el coche es menos estable y patina más con suelo mojado; con más, el neumático toca menos suelo y agarra menos.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 100)",
+          "cita": "El neumático se calienta,\nse deforma\ny se desgasta antes.\nSe gasta más combustible."
+        }
+      ],
+      "huella": "88e53f468d84"
+    },
+    {
+      "id": "xc-0090",
+      "porque": "Con más presión de la recomendada el neumático se pone más abombado y toca el suelo con menos superficie. Menos contacto con el suelo significa menos agarre a la carretera.",
+      "descartes": {
+        "a": "Un neumático más duro no agarra más: tiene menos contacto con el suelo y por eso agarra menos.",
+        "c": "Sí cambia: el manual dice que con más presión de la recomendada el neumático se agarra menos."
+      },
+      "truco": "Ni más ni menos: la presión buena es la que marca el fabricante. Con menos, el coche es menos estable y patina más con suelo mojado; con más, el neumático toca menos suelo y agarra menos.",
+      "huella": "2aa7360f577c"
+    },
+    {
+      "id": "xc-0064",
+      "porque": "La separación lateral es el espacio a los lados: la que hay entre dos vehículos cuando se cruzan o cuando circulan uno al lado del otro. Siempre tiene que ser suficiente para evitar cualquier peligro.",
+      "descartes": {
+        "a": "El espacio con el vehículo de delante es la distancia de seguridad, no la separación lateral.",
+        "b": "La anchura del arcén es una medida de la vía, no una distancia que guarda el conductor con otros vehículos."
+      },
+      "truco": "Delante, distancia de seguridad; a los lados, separación lateral.",
+      "huella": "1e2ea7c1a97f"
+    },
+    {
+      "id": "xc-0065",
+      "porque": "La separación lateral debe crecer cuando aumenta el riesgo de que un vehículo se desvíe hacia otro: con viento, lluvia, nieve, niebla o humo, cuando se cruzan muchos vehículos, cuando la carretera está en mal estado o cuando vas rápido. Aquí se juntan dos de esos casos.",
+      "descartes": {
+        "b": "Reducirla te acerca a los vehículos que se cruzan contigo justo cuando el viento puede desplazarte.",
+        "c": "No depende solo de la velocidad: el viento y el número de vehículos que se cruzan también obligan a aumentarla."
+      },
+      "truco": "Todo lo que puede moverte de tu línea (viento, mal firme, velocidad, mucho tráfico) pide más espacio a los lados.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Separación lateral (p. 264)",
+          "cita": "Debes guardar más distancia de separación lateral\ncon otros vehículos cuando:\n■ Conduces rápido.\n■ La carretera está en mal estado.\n■ Se cruzan muchos vehículos con el tuyo.\n■ Hay lluvia, nieve, niebla, viento o humo."
+        }
+      ],
+      "huella": "cc2c02a938d1"
+    },
+    {
+      "id": "xc-0066",
+      "porque": "El reglamento no fija una cifra para el cruce: obliga a circular por la derecha, lo más cerca posible del borde, y a mantener la separación lateral suficiente para cruzarse con seguridad. Lo que cuenta es que sea suficiente según las circunstancias.",
+      "descartes": {
+        "a": "Pegarse al que viene de frente es lo contrario de lo que pide la norma: separación suficiente para cruzarse con seguridad.",
+        "c": "La norma no fija un metro exacto ni ninguna otra cifra para el cruce; exige que la separación sea suficiente."
+      },
+      "truco": "Todo lo que puede moverte de tu línea (viento, mal firme, velocidad, mucho tráfico) pide más espacio a los lados.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Separación lateral (p. 264)",
+          "cita": "Debes guardar más distancia de separación lateral\ncon otros vehículos cuando:\n■ Conduces rápido.\n■ La carretera está en mal estado.\n■ Se cruzan muchos vehículos con el tuyo.\n■ Hay lluvia, nieve, niebla, viento o humo."
+        }
+      ],
+      "huella": "7f5ede0207db"
+    },
+    {
+      "id": "xc-0088",
+      "porque": "La suspensión mantiene los neumáticos en contacto con la carretera. Si está en mal estado, el coche se balancea y se inclina más, y pierde estabilidad sobre todo cuando hay fuerzas laterales: en las curvas y con viento.",
+      "descartes": {
+        "a": "Al arrancar en llano apenas hay fuerzas que desequilibren el coche; el manual señala las curvas y el viento.",
+        "b": "En una recta sin viento es donde menos se nota; la pérdida de estabilidad es especialmente en curvas y con viento."
+      },
+      "truco": "Suspensión mala: el coche «se balancea». Y lo que más hace balancear es la curva y el viento.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 15, Sistema de suspensión (p. 382)",
+          "cita": "Mantener el contacto entre los neumáticos\ny la carretera en todo momento."
+        }
+      ],
+      "huella": "074df4de9a50"
+    },
+    {
+      "id": "xc-0074",
+      "porque": "Al frenar, los frenos convierten la velocidad en calor. Si los usas demasiado, se calientan en exceso y frenan peor. Por eso conviene frenar de forma suave, poco a poco y con tiempo, sin abusar del pedal.",
+      "descartes": {
+        "b": "El uso del freno no cambia la presión de los neumáticos; el problema es que los frenos se calientan.",
+        "c": "Usar mucho el freno no desconecta el ABS; lo que pasa es que el freno se calienta y frena peor."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Cómo se usan los frenos? (p. 95)",
+          "cita": "1. Frenar de forma suave, poco a poco\ny con tiempo suficiente."
+        }
+      ],
+      "huella": "0452fa17a9d5"
+    },
+    {
+      "id": "xc-0075",
+      "porque": "Con la carretera en mal estado las ruedas agarran peor y es más fácil que el coche se desequilibre. Por eso se frena más suave y con más tiempo, para que las ruedas no pierdan el agarre.",
+      "descartes": {
+        "a": "Frenar fuerte y tarde es lo más arriesgado con poco agarre; la regla general ya es frenar de forma suave, poco a poco y con tiempo.",
+        "c": "El freno de mano no es para frenar normalmente en marcha; se frena con el pedal, más suave y con más tiempo."
+      },
+      "truco": "Cuanto peor está la carretera, más suave y más pronto.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, ¿Cómo se usan los frenos? (p. 95)",
+          "cita": "1. Frenar de forma suave, poco a poco\ny con tiempo suficiente."
+        }
+      ],
+      "huella": "11cad7ef429b"
+    },
+    {
+      "id": "xc-0092",
+      "porque": "Para elegir la velocidad adecuada hay que tener en cuenta el vehículo y su carga. Con mucho peso el vehículo tarda más en parar y es más inestable en las curvas, así que es mejor conducir más despacio.",
+      "descartes": {
+        "a": "Ir más rápido con mucho peso alarga la frenada y hace más peligrosas las curvas.",
+        "c": "La velocidad máxima de la vía es un límite, no una velocidad obligatoria; con carga hay que adaptarla a la baja."
+      },
+      "truco": "Más peso: más despacio, más distancia y curvas con más cuidado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 10, Distancia de frenado (p. 262)",
+          "cita": "Un vehículo con mucha carga tarda más en parar."
+        }
+      ],
+      "huella": "3bb89a6afc78"
+    },
+    {
+      "id": "B2-mv-0044",
+      "porque": "Los galones pintados a intervalos regulares en el carril son la marca de separación de seguridad entre vehículos. Sirven de referencia para que mantengas la separación mínima con el de delante, y se usan en túneles, secciones especiales y tramos con más riesgo de alcances.",
+      "descartes": {
+        "a": "Estos galones no indican ningún sentido de giro: son una referencia para medir la separación con el vehículo de delante.",
+        "b": "No reservan el carril a ningún tipo de vehículo; los usa todo el que circula por él como referencia de separación."
+      },
+      "truco": null,
+      "huella": "ecba3c7de99f"
+    },
+    {
+      "id": "x1b-0098",
+      "porque": "Los tres triángulos se pintan sobre la parte que sube del resalto para avisar de que hay un reductor de velocidad tipo «lomo de asno». Así lo ves a tiempo y reduces antes de pasarlo.",
+      "descartes": {
+        "a": "La obligación de ceder el paso tiene su propia marca (M-6.5) y la línea de ceda el paso; estos tres triángulos avisan de un lomo de asno.",
+        "b": "Un paso para peatones se marca con bandas paralelas al eje de la calzada; los tres triángulos sobre la subida del resalto avisan del lomo de asno."
+      },
+      "truco": "Tres triángulos subiendo: «cuidado, que el suelo sube», hay un lomo de asno.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (marcas viales, 4.2, M-4.3)",
+          "cita": "Marca de paso para peatones (M-4.3): una serie de líneas dispuestas en\nbandas paralelas al eje de la calzada"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "Anexo I.5.2 (marcas viales, M-6.5)",
+          "cita": "Ceda el paso (M-6.5): indica a las personas conductoras la obligación de ceder\nel paso"
+        }
+      ],
+      "huella": "e449beb5df31"
+    },
+    {
+      "id": "v5a-cesp-0003",
+      "porque": "En un carril adicional circunstancial, montado con balizas en el centro de la calzada, el reglamento exige llevar al menos la luz de cruce tanto de día como de noche, La hora y la buena visibilidad no cambian nada.",
+      "descartes": {
+        "a": "La regla general obliga al alumbrado entre el ocaso y la salida del sol, pero en este carril la luz de cruce es obligatoria también de día.",
+        "b": "La antiniebla delantera es para niebla, lluvia intensa y casos parecidos, o tramos estrechos con muchas curvas; aquí lo exigido es al menos la luz de cruce."
+      },
+      "truco": "Carril reversible, adicional circunstancial o en sentido contrario: luz de cruce también de día, igual que las motos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "98.1",
+          "cita": "Todos los vehículos que circulen entre el ocaso y la salida del sol"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "104.b",
+          "cita": "b) Todos los vehículos que circulen por un carril reversible, por un carril adicional\ncircunstancial o por un carril habilitado para circular en sentido contrario"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla delantera solo podrá utilizarse en dichos casos o en tramos de vías\nestrechas con muchas curvas, entendiéndose por tales las que, teniendo una calzada de\n6,50 metros de anchura o inferior, estén señalizadas"
+        }
+      ],
+      "huella": "ec00466b6c45"
+    },
+    {
+      "id": "E-ent-0003",
+      "porque": "El aquaplaning aparece cuando el neumático no puede expulsar toda el agua y patina sobre ella. Cuanto más rápido vas, menos tiempo tiene para echarla, por eso la mejor prevención es circular despacio por donde hay agua.",
+      "descartes": {
+        "b": "Frenar con fuerza en un charco puede hacer que pierdas el control; lo que previene el aquaplaning es pasar despacio.",
+        "c": "Llevar menos presión de la recomendada hace el vehículo menos estable y con más riesgo de patinar con suelo mojado."
+      },
+      "truco": "Aquaplaning: el neumático «no da abasto» para echar el agua. Velocidad baja, y que el dibujo no esté gastado.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 100)",
+          "cita": "El vehículo tiene\nmás riesgo de patinar\ncuando el suelo\nestá mojado."
+        }
+      ],
+      "huella": "d52e0ac2198c"
+    },
+    {
+      "id": "E-ent-0004",
+      "porque": "El dibujo del neumático es lo que permite echar el agua hacia fuera. Si está muy desgastado, evacua mucha menos agua y es más fácil que el neumático patine sobre ella. También lo facilitan la mucha velocidad y los neumáticos muy anchos.",
+      "descartes": {
+        "a": "Ir despacio es justo la mejor forma de prevenir el aquaplaning; lo que lo facilita es la mucha velocidad.",
+        "b": "Un dibujo profundo evacua mejor el agua; el riesgo está en los neumáticos muy desgastados."
+      },
+      "truco": "Aquaplaning: el neumático «no da abasto» para echar el agua. Velocidad baja, y que el dibujo no esté gastado.",
+      "huella": "f1cf6163a87c"
+    },
+    {
+      "id": "E-ent-0011",
+      "porque": "El hielo se forma, sobre todo de noche o de madrugada, donde la carretera tarda más en secarse o en calentarse: en zonas húmedas, en zonas donde no llega el sol, en puentes y pasos elevados y en badenes.",
+      "descartes": {
+        "b": "El sol calienta el asfalto y derrite el hielo; el riesgo está justo donde no llega el sol.",
+        "c": "Los puentes son precisamente uno de los lugares donde puede haber hielo, y el manual no señala las rectas largas como lugar más seguro."
+      },
+      "truco": "Hielo: busca la sombra, la humedad y lo que está «en el aire» (puentes y pasos elevados), además de los badenes.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con hielo (p. 358)",
+          "cita": "■ En los puentes y pasos elevados.\n■ En los badenes."
+        }
+      ],
+      "huella": "54f48e8b2b0f"
+    },
+    {
+      "id": "E-ent-0005",
+      "porque": "Si las ruedas patinan sobre mojado, el manual indica levantar el pie del acelerador, pero sin frenar: así dejas de empujar unas ruedas que no se agarran y evitas añadir una frenada mientras el coche desliza.",
+      "descartes": {
+        "a": "Frenar a fondo con las ruedas patinando agrava el deslizamiento; el manual dice levantar el pie del acelerador, pero sin frenar.",
+        "c": "Acelerar manda aún más fuerza a unas ruedas que ya no se agarran."
+      },
+      "truco": "Ruedas patinando en mojado: pie fuera del acelerador y fuera del freno.",
+      "huella": "04ed0be83860"
+    },
+    {
+      "id": "E-ent-0006",
+      "porque": "Con las primeras gotas, el agua aún no ha lavado la carretera: se mezcla con el polvo, la grasa y la suciedad acumulados y forma un barro deslizante que puede hacer patinar el vehículo. Por eso ese momento es especialmente traicionero.",
+      "descartes": {
+        "b": "El manual no relaciona el peligro de las primeras gotas con los limpiaparabrisas, sino con el barro que forman en el asfalto.",
+        "c": "El peligro especial de las primeras gotas que señala el manual no es la visibilidad, sino el barro resbaladizo que se forma en la carretera."
+      },
+      "truco": "Primeras gotas = agua + grasa + polvo = barro. Resbala más que la lluvia de después.",
+      "huella": "845b0f3b8b98"
+    },
+    {
+      "id": "E-ent-0007",
+      "porque": "La niebla tiene dos peligros: se ven peor la carretera, las señales y los vehículos y, además, deja el suelo húmedo, con lo que los neumáticos se agarran menos. Por eso con niebla hay que ir despacio y con mucha distancia.",
+      "descartes": {
+        "a": "El manual no dice que la niebla aumente el viento; su otro peligro es el suelo húmedo.",
+        "b": "No obliga a la luz de carretera: el reglamento permite la antiniebla delantera, la de cruce o la de largo alcance, y el manual aconseja cruce y antiniebla."
+      },
+      "truco": "Niebla: no solo ves menos, también agarras menos.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "En los casos a que se refiere el apartado anterior deberá utilizarse la luz antiniebla\ndelantera o la luz de corto o largo alcance."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con niebla (p. 360)",
+          "cita": "■ Enciende las luces de cruce y las antiniebla."
+        }
+      ],
+      "huella": "a125852e9cde"
+    },
+    {
+      "id": "E-ent-0008",
+      "porque": "Sobre nieve, si a las ruedas les llega mucha fuerza de golpe, patinan. Por eso se arranca con las ruedas rectas y con una marcha que permita salir con poca fuerza del motor, es decir, una marcha más larga que la habitual para arrancar.",
+      "descartes": {
+        "b": "La primera da mucha fuerza a las ruedas, y con nieve eso hace que patinen; se busca justo lo contrario, poca fuerza del motor.",
+        "c": "En punto muerto el motor no mueve las ruedas, así que no sirve para arrancar ni para circular controlando el vehículo."
+      },
+      "truco": "Con nieve, todo con poca fuerza y sin brusquedades: arranca con ruedas rectas y una marcha larga, baja las cuestas con marchas cortas, frena poco y suave, y pisa por las rodadas de otros.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con nieve (p. 356)",
+          "cita": "■ Arrancar el vehículo\ncon las ruedas rectas."
+        }
+      ],
+      "huella": "b35f1903220a"
+    },
+    {
+      "id": "E-ent-0009",
+      "porque": "Sobre nieve el freno se usa lo menos posible y de forma suave. Por eso, en bajada, se usan marchas cortas, primera o segunda, el motor retiene el vehículo, y además se baja más despacio de lo normal.",
+      "descartes": {
+        "a": "Una marcha larga apenas retiene el coche en bajada; las largas son para arrancar en llano con poca fuerza, no para bajar.",
+        "c": "En punto muerto el motor no retiene nada y todo el trabajo recae en el freno, que sobre nieve hay que usar lo menos posible."
+      },
+      "truco": "Con nieve, todo con poca fuerza y sin brusquedades: arranca con ruedas rectas y una marcha larga, baja las cuestas con marchas cortas, frena poco y suave, y pisa por las rodadas de otros.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con nieve (p. 357)",
+          "cita": "■ Utilizar el freno lo menos posible\ny hacerlo de forma suave."
+        }
+      ],
+      "huella": "e743e6d11a30"
+    },
+    {
+      "id": "E-ent-0010",
+      "porque": "Entre las precauciones con nieve, el manual aconseja circular por encima de las marcas que han dejado las ruedas de otros vehículos, que marcan un camino ya abierto, además de evitar los movimientos bruscos y usar poco el freno.",
+      "descartes": {
+        "a": "El consejo del manual es el contrario: ir por las marcas que han dejado otros vehículos, no por la nieve sin pisar.",
+        "b": "Ir por la línea de borde no es lo que aconseja el manual; aconseja seguir las rodadas de otros vehículos."
+      },
+      "truco": "Con nieve, todo con poca fuerza y sin brusquedades: arranca con ruedas rectas y una marcha larga, baja las cuestas con marchas cortas, frena poco y suave, y pisa por las rodadas de otros.",
+      "huella": "9d0db3708aa1"
+    },
+    {
+      "id": "v5f-ent-0001",
+      "porque": "Las cadenas sirven para que agarren las ruedas que empujan el coche, las motrices. Por eso se colocan, como mínimo, en las ruedas motrices, con al menos una cadena a cada lado del vehículo. Según el coche, las motrices pueden ser las delanteras o las traseras.",
+      "descartes": {
+        "a": "No es obligatorio ponerlas en las cuatro: el mínimo es en las ruedas motrices.",
+        "b": "Las traseras solo valen si son las motrices; en un coche de tracción delantera irían delante."
+      },
+      "truco": "Cadenas: donde está la fuerza. Ruedas motrices, al menos una a cada lado.",
+      "apoyos": [
+        {
+          "norma": "RGV",
+          "articulo": "11.5.2",
+          "cita": "bien colocar sobre, al menos, una rueda motriz a\ncada lado del vehículo dichas cadenas o dispositivos antideslizantes, bien utilizar neumáticos\nespeciales"
+        }
+      ],
+      "huella": "5d3a1b816d4f"
+    },
+    {
+      "id": "E-ent-0002",
+      "porque": "El viento lateral es peligroso porque puede hacerte perder el control. El manual señala tres situaciones de más peligro: cruzarte con otro vehículo, adelantar a uno que ocupa mucho espacio, como un camión, y pasar junto a edificios, árboles u otros objetos, donde el viento puede aparecer de repente.",
+      "descartes": {
+        "a": "Ir detrás de un turismo a distancia de seguridad no está entre las situaciones de más peligro con viento que señala el manual.",
+        "c": "Circular por el carril derecho sin tráfico no es una de esas situaciones; el peligro aumenta al cruzarte con otros, al adelantar vehículos grandes o al pasar junto a edificios y árboles."
+      },
+      "truco": "Viento lateral: más peligro al cruzarte con alguien, al adelantar a uno grande y al pasar junto a edificios o árboles.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con mucho viento (p. 362)",
+          "cita": "■ Al pasar delante de edificios, árboles\ny otros objetos que pueden provocar\nque el viento aparezca de repente."
+        }
+      ],
+      "huella": "138e013089b1"
+    },
+    {
+      "id": "dist-0001",
+      "porque": "Dentro de un túnel el reglamento fija una distancia mínima concreta cuando no vas a adelantar: al menos 100 metros o 4 segundos con el vehículo de delante. Para los de más de 3.500 kg de MMA sube a 150 metros o 6 segundos.",
+      "descartes": {
+        "b": "50 metros es la separación para facilitar el adelantamiento de los pesados y largos fuera de poblado, no la distancia en túneles.",
+        "c": "150 metros o 6 segundos es la distancia de los vehículos de más de 3.500 kg de MMA, no la de un turismo."
+      },
+      "truco": "Túnel: 100 m o 4 s para todos; los de más de 3.500 kg, 150 m o 6 s. Por cada 25 metros, un segundo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "En el caso de vehículos cuya masa máxima autorizada sea superior a\n3.500 kilogramos, la distancia de seguridad que deberá guardar con el vehículo precedente\nserá de, al menos, 150 metros o un intervalo mínimo de seguridad de seis segundos."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "54.2",
+          "cita": "Los vehículos con masa máxima autorizada superior\na 3.500 kilogramos y los vehículos y conjuntos de vehículos de más de 10 metros de longitud\ntotal deberán guardar, a estos efectos, una separación mínima de 50 metros"
+        }
+      ],
+      "huella": "c112e7174bc7"
+    },
+    {
+      "id": "dist-0002",
+      "porque": "Un vehículo pesado necesita más espacio para frenar, por eso dentro de un túnel el reglamento le exige más que a un turismo: al menos 150 metros o 6 segundos con el de delante, frente a los 100 metros o 4 segundos de los demás.",
+      "descartes": {
+        "a": "100 metros o 4 segundos es la distancia mínima en túnel para los vehículos que no pasan de 3.500 kg.",
+        "c": "200 metros o 8 segundos no es ninguna cifra del reglamento para túneles."
+      },
+      "truco": "Túnel: 100 m o 4 s para todos; los de más de 3.500 kg, 150 m o 6 s. Por cada 25 metros, un segundo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "Cuando no se pretenda adelantar, deberá mantenerse en todo momento una distancia\nde seguridad con el vehículo precedente de, al menos, 100 metros o un intervalo mínimo de\ncuatro segundos."
+        }
+      ],
+      "huella": "06aa111cea4c"
+    },
+    {
+      "id": "x1b-0020",
+      "porque": "Ir sin luces cuando falta visibilidad te deja casi invisible para los demás. La Ley de Tráfico pone en la lista de las graves circular sin hacer uso del alumbrado reglamentario, y el reglamento lo repite para estos casos de falta o disminución de visibilidad.",
+      "descartes": {
+        "a": "No es leve: tanto la ley como el reglamento la califican de grave.",
+        "b": "No figura entre las muy graves de la ley; es grave."
+      },
+      "truco": "Todo lo de luces que pone en peligro por ver o ser visto (ir sin alumbrado cuando falta visibilidad, deslumbrar) es grave.",
+      "apoyos": [
+        {
+          "norma": "LSV",
+          "articulo": "76.e",
+          "cita": "e) Circular sin hacer uso del alumbrado reglamentario."
+        }
+      ],
+      "huella": "53c529da3766"
+    },
+    {
+      "id": "x1b-0026",
+      "porque": "Deslumbrar ciega durante unos instantes a quien recibe la luz y puede provocar un accidente. Por eso el reglamento califica de grave circular deslumbrando a los demás usuarios de la vía, lo mismo que circular sin alumbrado cuando falta visibilidad.",
+      "descartes": {
+        "a": "El reglamento no la deja como leve: la califica expresamente de grave.",
+        "b": "No es muy grave; el reglamento la califica de grave."
+      },
+      "truco": "Todo lo de luces que pone en peligro por ver o ser visto (ir sin alumbrado cuando falta visibilidad, deslumbrar) es grave.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "102.4",
+          "cita": "4. Las infracciones a las normas de este precepto tendrán la consideración de graves"
+        }
+      ],
+      "huella": "e37b825f18af"
+    },
+    {
+      "id": "x1b-0027",
+      "porque": "Con niebla lo importante es ver y ser visto. Por eso el reglamento permite usar la antiniebla delantera sola, junto con la de cruce o incluso junto con la de largo alcance.",
+      "descartes": {
+        "b": "No tiene por qué ir aislada: se puede combinar con la de corto alcance e incluso con la de largo alcance.",
+        "c": "El reglamento no limita la combinación a la luz de posición; la permite con la de cruce y la de largo alcance."
+      },
+      "truco": "Antiniebla delantera: niebla, lluvia intensa, nevada, humo o polvo, o tramos estrechos (6,50 m o menos) señalizados con curvas. Trasera, solo cuando todo es «muy»: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
+      "huella": "5a678f9ec333"
+    },
+    {
+      "id": "C-luc-0015",
+      "porque": "La regla general es que la antiniebla delantera solo se usa con niebla, lluvia intensa, nevada, humo, polvo o situaciones parecidas. La única excepción sin esas condiciones son los tramos de vías estrechas, de 6,50 metros de calzada o menos, señalizados con sucesión de curvas.",
+      "descartes": {
+        "a": "Ser de noche en vía interurbana no basta: sin mala visibilidad, la antiniebla delantera solo se permite en tramos estrechos con muchas curvas señalizados.",
+        "b": "Una vía urbana mal iluminada pide la luz de cruce, no la antiniebla delantera."
+      },
+      "truco": "Antiniebla delantera: niebla, lluvia intensa, nevada, humo o polvo, o tramos estrechos (6,50 m o menos) señalizados con curvas. Trasera, solo cuando todo es «muy»: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.1",
+          "cita": "También será obligatorio utilizar el alumbrado cuando existan condiciones\nmeteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como en caso de\nniebla, lluvia intensa, nevada, nubes de humo o de polvo o cualquier otra circunstancia\nanáloga."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "101.1",
+          "cita": "Igualmente, llevará encendido dicho alumbrado en los poblados, cuando la vía esté\ninsuficientemente iluminada."
+        }
+      ],
+      "huella": "db2b0671ce39"
+    },
+    {
+      "id": "C-luc-0016",
+      "porque": "La antiniebla trasera es muy potente y, si se usa sin motivo, deslumbra al de detrás. Por eso solo se enciende cuando las condiciones son especialmente desfavorables: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
+      "descartes": {
+        "b": "Con lluvia intensa se usa la antiniebla delantera o la luz de cruce o de largo alcance; la trasera queda para la lluvia muy intensa.",
+        "c": "Los tramos estrechos con muchas curvas permiten la antiniebla delantera, no la trasera."
+      },
+      "truco": "Antiniebla delantera: niebla, lluvia intensa, nevada, humo o polvo, o tramos estrechos (6,50 m o menos) señalizados con curvas. Trasera, solo cuando todo es «muy»: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "En los casos a que se refiere el apartado anterior deberá utilizarse la luz antiniebla\ndelantera o la luz de corto o largo alcance."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla delantera solo podrá utilizarse en dichos casos o en tramos de vías\nestrechas con muchas curvas, entendiéndose por tales las que, teniendo una calzada de\n6,50 metros de anchura o inferior, estén señalizadas"
+        }
+      ],
+      "huella": "168e1f063416"
+    },
+    {
+      "id": "C-luc-0017",
+      "porque": "La niebla espesa es uno de los casos especialmente desfavorables en los que hay que llevar encendida la antiniebla trasera, para que te vean desde detrás a tiempo.",
+      "descartes": {
+        "a": "La lluvia muy intensa no es el único caso: la lista incluye niebla espesa, fuerte nevada y nubes densas de polvo o humo.",
+        "c": "La antiniebla trasera no es para los túneles; depende de que las condiciones sean especialmente desfavorables."
+      },
+      "truco": "Antiniebla delantera: niebla, lluvia intensa, nevada, humo o polvo, o tramos estrechos (6,50 m o menos) señalizados con curvas. Trasera, solo cuando todo es «muy»: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
+      "huella": "5d87dae363b5"
+    },
+    {
+      "id": "C-luc-0014",
+      "porque": "Cuando la lluvia intensa, la niebla, la nevada o el humo disminuyen sensiblemente la visibilidad, el alumbrado es obligatorio también de día. En esos casos hay que usar la antiniebla delantera o la luz de corto o largo alcance.",
+      "descartes": {
+        "a": "La antiniebla trasera sola no ilumina por delante, y solo se usa con lluvia muy intensa u otras condiciones especialmente desfavorables.",
+        "c": "Las luces de posición no bastan: el reglamento pide la antiniebla delantera o la luz de corto o largo alcance."
+      },
+      "truco": "Antiniebla delantera: niebla, lluvia intensa, nevada, humo o polvo, o tramos estrechos (6,50 m o menos) señalizados con curvas. Trasera, solo cuando todo es «muy»: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.1",
+          "cita": "También será obligatorio utilizar el alumbrado cuando existan condiciones\nmeteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como en caso de\nniebla, lluvia intensa, nevada, nubes de humo o de polvo o cualquier otra circunstancia\nanáloga."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+        }
+      ],
+      "huella": "9262be7b5f74"
+    },
+    {
+      "id": "C-luc-0019",
+      "porque": "De noche, en una vía urbana o interurbana suficientemente iluminada, el reglamento exige a los vehículos de motor el alumbrado de posición y, además, el de cruce. Las largas solo son obligatorias fuera de poblado en vías mal iluminadas.",
+      "descartes": {
+        "b": "La luz de posición sola no basta: en vías suficientemente iluminadas hay que llevar además la de cruce.",
+        "c": "La de largo alcance es obligatoria fuera de poblado en vías insuficientemente iluminadas a más de 40 km/h; en una vía bien iluminada lo exigido es la de cruce."
+      },
+      "truco": "De noche: fuera de poblado, mal iluminado y a más de 40 km/h, largas (salvo que deslumbres). Bien iluminado, o en poblado aunque esté mal iluminado, cruce. Con un vehículo de motor, la luz de posición sola nunca basta para circular.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "100.1",
+          "cita": "Todo vehículo equipado con luz de largo alcance o carretera que circule a más de 40\nkilómetros por hora, entre el ocaso y la salida del sol, fuera de poblado, por vías\ninsuficientemente iluminadas o a cualquier hora del día por túneles, pasos inferiores y tramos\nde vía afectados por la señal «Túnel» (S-5) insuficientemente iluminados, la llevará\nencendida, excepto cuando haya de utilizarse la de corto alcance o de cruce"
+        }
+      ],
+      "huella": "8ee57c553af8"
+    },
+    {
+      "id": "v5d-luz-0001",
+      "porque": "Dentro de poblado, aunque la calle esté insuficientemente iluminada, el reglamento pide la luz de cruce además de la de posición. La obligación de llevar las largas a más de 40 km/h en vías mal iluminadas es solo para fuera de poblado.",
+      "descartes": {
+        "b": "La obligación de llevar la de largo alcance a más de 40 km/h es para vías fuera de poblado, no para una calle de un poblado.",
+        "c": "Circular dentro de poblado no permite ir solo con la de posición: en una calle mal iluminada hay que llevar también la de cruce."
+      },
+      "truco": "De noche: fuera de poblado, mal iluminado y a más de 40 km/h, largas (salvo que deslumbres). Bien iluminado, o en poblado aunque esté mal iluminado, cruce. Con un vehículo de motor, la luz de posición sola nunca basta para circular.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "100.1",
+          "cita": "Todo vehículo equipado con luz de largo alcance o carretera que circule a más de 40\nkilómetros por hora, entre el ocaso y la salida del sol, fuera de poblado, por vías\ninsuficientemente iluminadas o a cualquier hora del día por túneles, pasos inferiores y tramos\nde vía afectados por la señal «Túnel» (S-5) insuficientemente iluminados, la llevará\nencendida, excepto cuando haya de utilizarse la de corto alcance o de cruce"
+        }
+      ],
+      "huella": "838ec5a07cbd"
+    },
+    {
+      "id": "v5d-luz-0002",
+      "porque": "Fuera de poblado y con la vía mal iluminada, la regla general son las largas a más de 40 km/h. Pero si vas a 40 km/h o menos y no las llevas puestas, el reglamento exige como mínimo la luz de cruce, además de la de posición.",
+      "descartes": {
+        "a": "No superar los 40 km/h no te exime de alumbrar: si no llevas las largas, debes llevar la de cruce.",
+        "c": "La antiniebla trasera solo es para condiciones especialmente desfavorables, como niebla espesa; aquí lo que se exige es la de cruce."
+      },
+      "truco": "De noche: fuera de poblado, mal iluminado y a más de 40 km/h, largas (salvo que deslumbres). Bien iluminado, o en poblado aunque esté mal iluminado, cruce. Con un vehículo de motor, la luz de posición sola nunca basta para circular.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "100.1",
+          "cita": "Todo vehículo equipado con luz de largo alcance o carretera que circule a más de 40\nkilómetros por hora, entre el ocaso y la salida del sol, fuera de poblado, por vías\ninsuficientemente iluminadas o a cualquier hora del día por túneles, pasos inferiores y tramos\nde vía afectados por la señal «Túnel» (S-5) insuficientemente iluminados, la llevará\nencendida, excepto cuando haya de utilizarse la de corto alcance o de cruce"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+        }
+      ],
+      "huella": "5e5215f63850"
+    },
+    {
+      "id": "C-luc-0005",
+      "porque": "Debes cambiar a la de cruce en cuanto aprecies que puedes deslumbrar a otro, sobre todo al que viene de frente, y aunque él no cambie las suyas. No esperas a que el otro lo haga primero ni a ninguna distancia concreta.",
+      "descartes": {
+        "a": "El reglamento dice justo lo contrario: tienes que cambiarlas aunque el que viene de frente no cumpla.",
+        "c": "La norma no fija metros: manda cambiar en cuanto aprecies la posibilidad de deslumbrar."
+      },
+      "truco": "Las largas se quitan en cuanto puedas deslumbrar a alguien (de frente o por el retrovisor), aunque el otro no las quite, y vuelven cuando hayas rebasado al que se cruza contigo. Si te deslumbran a ti, frena lo necesario, incluso hasta parar.",
+      "huella": "879eaf24b932"
+    },
+    {
+      "id": "C-luc-0006",
+      "porque": "Las largas no solo deslumbran de frente: al que llevas delante en tu mismo sentido le pueden deslumbrar a través del retrovisor. Por eso el reglamento pide la misma precaución con él y cambiar a la de cruce.",
+      "descartes": {
+        "a": "La obligación no es solo frente a los que vienen de frente; el reglamento la extiende a los del mismo sentido que puedan deslumbrarse por el retrovisor.",
+        "b": "La norma no limita esto a autopistas y autovías; vale en cualquier vía."
+      },
+      "truco": "Las largas se quitan en cuanto puedas deslumbrar a alguien (de frente o por el retrovisor), aunque el otro no las quite, y vuelven cuando hayas rebasado al que se cruza contigo. Si te deslumbran a ti, frena lo necesario, incluso hasta parar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "102.1",
+          "cita": "El alumbrado de largo alcance o de carretera deberá ser sustituido por el de corto\nalcance o de cruce tan pronto como se aprecie la posibilidad de producir deslumbramiento a\notros usuarios de la misma vía o de cualquier otra vía de comunicación"
+        }
+      ],
+      "huella": "b336038b0388"
+    },
+    {
+      "id": "C-luc-0007",
+      "porque": "Si te deslumbran, durante unos instantes ves mucho peor, y el peligro es alcanzar a un vehículo o a un peatón que va delante en tu mismo sentido. Por eso hay que reducir la velocidad lo necesario, incluso hasta parar del todo.",
+      "descartes": {
+        "b": "Encender las largas deslumbraría al otro conductor; deslumbrar es una infracción grave y no resuelve que tú no veas.",
+        "c": "Mantener la velocidad sin ver bien es lo peligroso. El manual aconseja guiarse por la línea del borde derecho, no por el centro."
+      },
+      "truco": "Las largas se quitan en cuanto puedas deslumbrar a alguien (de frente o por el retrovisor), aunque el otro no las quite, y vuelven cuando hayas rebasado al que se cruza contigo. Si te deslumbran a ti, frena lo necesario, incluso hasta parar.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "102.4",
+          "cita": "4. Las infracciones a las normas de este precepto tendrán la consideración de graves"
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Deslumbramientos (p. 349)",
+          "cita": "Puedes guiarte por la línea del borde derecho."
+        }
+      ],
+      "huella": "a4a10451b9ab"
+    },
+    {
+      "id": "v5f-luc-0001",
+      "porque": "Si cargas mucho peso atrás, la parte trasera baja y la delantera se levanta, de modo que los faros apuntan más alto. La luz de cruce puede quedar demasiado alta y deslumbrar. Por eso hay que repartir bien la carga y mantener las luces bien reguladas.",
+      "descartes": {
+        "b": "Es al revés: con peso atrás el frontal sube y la luz se eleva, con riesgo de deslumbrar.",
+        "c": "El peso no apaga ninguna luz; lo que cambia es la altura a la que alumbra la de cruce."
+      },
+      "truco": "Peso atrás, morro arriba, luces arriba: deslumbras.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Deslumbramientos (p. 348)",
+          "cita": "■ Mantén bien reguladas las luces.\nPuede que la luz de cruce moleste\nporque no esté bien regulada.\n■ Reparte bien el peso que llevas\nen el vehículo."
+        }
+      ],
+      "huella": "5277e41bed85"
+    },
+    {
+      "id": "x1b-0025",
+      "porque": "Si vuelves a poner las largas antes de cruzarte, deslumbrarías al otro justo en el peor momento. Por eso el reglamento dice que no se restablecen hasta haber rebasado, en el cruce, la posición del vehículo cruzado.",
+      "descartes": {
+        "a": "Que el otro ponga su luz de cruce no te permite volver a las largas: le deslumbrarías mientras os cruzáis.",
+        "c": "La norma no habla de metros; marca el momento de rebasar la posición del vehículo cruzado."
+      },
+      "truco": "Las largas se quitan en cuanto puedas deslumbrar a alguien (de frente o por el retrovisor), aunque el otro no las quite, y vuelven cuando hayas rebasado al que se cruza contigo. Si te deslumbran a ti, frena lo necesario, incluso hasta parar.",
+      "huella": "fc4336b6ff86"
+    },
+    {
+      "id": "v5d-luz-0003",
+      "porque": "Un vehículo inmovilizado en calzada o arcén tiene que verse. Por eso debe llevar encendidas las luces de posición de noche, entre la puesta y la salida del sol, y también de día cuando la niebla u otras condiciones disminuyen sensiblemente la visibilidad.",
+      "descartes": {
+        "a": "La señal de emergencia no sustituye a las luces de posición: con niebla que reduce sensiblemente la visibilidad son obligatorias también de día.",
+        "b": "No es solo de noche: el reglamento añade las condiciones que disminuyen sensiblemente la visibilidad, como la niebla."
+      },
+      "truco": "Cuando la niebla, la lluvia intensa, la nevada o el humo reducen sensiblemente la visibilidad, el alumbrado es obligatorio a cualquier hora, y con él las luces de posición y la matrícula iluminada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.1",
+          "cita": "También será obligatorio utilizar el alumbrado cuando existan condiciones\nmeteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como en caso de\nniebla, lluvia intensa, nevada, nubes de humo o de polvo o cualquier otra circunstancia\nanáloga."
+        }
+      ],
+      "huella": "141846a2e756"
+    },
+    {
+      "id": "C-luc-0003",
+      "porque": "De noche, fuera de poblado, en una vía mal iluminada y a más de 40 km/h, el reglamento obliga a llevar la luz de carretera. La única excepción es cuando hay que usar la de cruce, sobre todo para no deslumbrar; aquí no hay nadie a quien deslumbrar.",
+      "descartes": {
+        "a": "La luz de cruce aquí solo sería obligatoria si pudieras deslumbrar a alguien o fueras a 40 km/h o menos; a 80 y sin nadie delante tocan las largas.",
+        "b": "Con un vehículo de motor, la luz de posición sola no basta para circular de noche: aquí, además, tocan las largas."
+      },
+      "truco": "De noche: fuera de poblado, mal iluminado y a más de 40 km/h, largas (salvo que deslumbres). Bien iluminado, o en poblado aunque esté mal iluminado, cruce. Con un vehículo de motor, la luz de posición sola nunca basta para circular.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "101.2",
+          "cita": "a) No disponer de alumbrado de largo alcance.\nb) Circular a velocidad no superior a 40 kilómetros por hora y no estar utilizando el\nalumbrado de largo alcance.\nc) Posibilidad de producir deslumbramiento a otros usuarios de la vía pública."
+        }
+      ],
+      "huella": "554ef7ec2029"
+    },
+    {
+      "id": "x1b-0021",
+      "porque": "El reglamento prohíbe alternar en forma de destellos la luz de largo alcance y la de cruce con finalidades distintas a las que él mismo prevé. Saludar a alguien no es una de ellas, así que no está permitido.",
+      "descartes": {
+        "b": "No depende de si deslumbras ni de la duración: lo que se prohíbe es usar los destellos con una finalidad no prevista.",
+        "c": "Estar en poblado o ir despacio no cambia nada: el uso de destellos para saludar no está entre las finalidades del reglamento."
+      },
+      "truco": null,
+      "huella": "a261d7037085"
+    },
+    {
+      "id": "x1b-0022",
+      "porque": "El reglamento lo dice expresamente: la luz de largo alcance o de carretera puede utilizarse sola o junto con la de corto alcance.",
+      "descartes": {
+        "a": "Sí pueden ir a la vez: la norma permite usar la de largo alcance aisladamente o con la de corto alcance.",
+        "c": "La norma no limita esta combinación a autopistas y autovías."
+      },
+      "truco": null,
+      "huella": "bf184a3fdf57"
+    },
+    {
+      "id": "xd-0029",
+      "porque": "Con el vehículo parado o estacionado, las largas no sirven para ver la carretera y sí deslumbran a quienes se acercan. Por eso el reglamento prohíbe usarlas siempre que el vehículo esté parado o estacionado.",
+      "descartes": {
+        "a": "Que la vía esté mal iluminada no importa: con el vehículo parado las largas están prohibidas.",
+        "b": "La norma no da ningún margen de tiempo; la prohibición rige mientras el vehículo esté parado o estacionado."
+      },
+      "truco": "Largas solo en marcha: parado o estacionado, nunca.",
+      "huella": "741e8aef9e44"
+    },
+    {
+      "id": "xd-0042",
+      "porque": "La matrícula trasera tiene que poder leerse siempre que es obligatorio el alumbrado de posición: de noche y también con condiciones que disminuyen sensiblemente la visibilidad, como la niebla espesa. En esos casos debe ir siempre iluminada.",
+      "descartes": {
+        "a": "No es solo de noche: también cuando la niebla u otras condiciones disminuyen sensiblemente la visibilidad.",
+        "b": "La norma no la limita a los túneles mal iluminados; la vincula a las situaciones en que se exige el alumbrado."
+      },
+      "truco": "Cuando la niebla, la lluvia intensa, la nevada o el humo reducen sensiblemente la visibilidad, el alumbrado es obligatorio a cualquier hora, y con él las luces de posición y la matrícula iluminada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "99.1",
+          "cita": "Todo vehículo que circule entre el ocaso y la salida del sol o bajo las condiciones a las\nque se refiere el artículo 106 y en el paso por túneles, pasos inferiores o tramos de vías\nafectados por la señal «Túnel» (S-5) deberá llevar encendidas las luces de posición"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "106.1",
+          "cita": "También será obligatorio utilizar el alumbrado cuando existan condiciones\nmeteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como en caso de\nniebla, lluvia intensa, nevada, nubes de humo o de polvo o cualquier otra circunstancia\nanáloga."
+        }
+      ],
+      "huella": "d5f01e2b3b6f"
+    },
+    {
+      "id": "x1b-0019",
+      "porque": "La norma usa dos momentos claros: el ocaso y la salida del sol. Entre uno y otro, todos los vehículos deben llevar encendido el alumbrado que corresponda. En túneles y tramos con la señal «Túnel» es obligatorio a cualquier hora.",
+      "descartes": {
+        "a": "La norma no da una hora de margen: la obligación empieza en el ocaso y termina con la salida del sol.",
+        "c": "No depende del alumbrado público; la obligación existe entre el ocaso y la salida del sol esté como esté la iluminación de la vía."
+      },
+      "truco": "Se pone el sol, se encienden las luces; sale el sol, se pueden apagar. Sin márgenes de una hora.",
+      "huella": "b4191478410b"
+    },
+    {
+      "id": "B2-luz-0002",
+      "porque": "En túneles, pasos inferiores y tramos con la señal «Túnel» el alumbrado es obligatorio a cualquier hora. Si están suficientemente iluminados, se llevan la de posición y la de cruce; si están mal iluminados, a más de 40 km/h, las largas salvo que puedas deslumbrar.",
+      "descartes": {
+        "b": "Ser de día no cuenta dentro de un túnel: la obligación de alumbrado es a cualquier hora.",
+        "c": "La de posición sola no basta: en un túnel bien iluminado hay que llevar además la de cruce."
+      },
+      "truco": "Túnel, a cualquier hora: si está bien iluminado, posición y cruce; si está mal iluminado y vas a más de 40 km/h, largas, salvo que puedas deslumbrar a alguien.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "100.1",
+          "cita": "Todo vehículo equipado con luz de largo alcance o carretera que circule a más de 40\nkilómetros por hora, entre el ocaso y la salida del sol, fuera de poblado, por vías\ninsuficientemente iluminadas o a cualquier hora del día por túneles, pasos inferiores y tramos\nde vía afectados por la señal «Túnel» (S-5) insuficientemente iluminados, la llevará\nencendida, excepto cuando haya de utilizarse la de corto alcance o de cruce"
+        }
+      ],
+      "huella": "49253b8a62be"
+    },
+    {
+      "id": "res-luc-0001",
+      "porque": "En un túnel mal iluminado se aplica lo mismo que de noche fuera de poblado en una vía oscura: a más de 40 km/h, luz de carretera, salvo que haya que usar la de cruce para no deslumbrar. Es de día, pero en los túneles la hora no cuenta.",
+      "descartes": {
+        "b": "La de cruce es para túneles suficientemente iluminados, o para cuando puedas deslumbrar o vayas a 40 km/h o menos; aquí el túnel está mal iluminado y vas a 80.",
+        "c": "En túneles el alumbrado es obligatorio a cualquier hora, y la de posición sola no basta."
+      },
+      "truco": "Túnel, a cualquier hora: si está bien iluminado, posición y cruce; si está mal iluminado y vas a más de 40 km/h, largas, salvo que puedas deslumbrar a alguien.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "101.1",
+          "cita": "Todo vehículo de motor y ciclomotor que circule entre el ocaso y la salida del sol por\nvías urbanas o interurbanas suficientemente iluminadas, o a cualquier hora del día por\ntúneles, pasos inferiores y tramos de vías afectados por la señal «Túnel» (S-5)\nsuficientemente iluminados, llevará encendido, además del alumbrado de posición, el\nalumbrado de corto alcance o de cruce."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "101.2",
+          "cita": "a) No disponer de alumbrado de largo alcance.\nb) Circular a velocidad no superior a 40 kilómetros por hora y no estar utilizando el\nalumbrado de largo alcance.\nc) Posibilidad de producir deslumbramiento a otros usuarios de la vía pública."
+        }
+      ],
+      "huella": "08dde510d74a"
+    },
+    {
+      "id": "C-luc-0002",
+      "porque": "El reglamento define la vía insuficientemente iluminada con dos pruebas, a vista normal: que en algún punto de la calzada no puedas leer una matrícula a 10 metros o no distingas un vehículo pintado de oscuro a 50 metros. Basta con que falle una de las dos.",
+      "descartes": {
+        "a": "Las cifras son 10 metros para la matrícula y 50 para el vehículo oscuro; 50 y 100 no son las del reglamento.",
+        "c": "Ni 20 ni 150 metros aparecen en la definición; son 10 metros para la matrícula y 50 para el vehículo oscuro."
+      },
+      "truco": "10 y 50: la matrícula, de cerca (10); el coche oscuro, más lejos (50). Si no lo ves, la vía está mal iluminada.",
+      "huella": "51d9e86874de"
+    },
+    {
+      "id": "xd-0006",
+      "porque": "Al pasar por agua, el neumático tiene que echarla hacia fuera por su dibujo. Si no puede expulsar toda el agua que recoge, se queda sobre ella, patina y pierdes el control del vehículo: eso es el aquaplaning.",
+      "descartes": {
+        "b": "Que se empañe el parabrisas es un problema de visibilidad, no tiene nada que ver con el agarre de los neumáticos.",
+        "c": "El aquaplaning ocurre con agua en la calzada, no sobre una calzada seca; bloquear las ruedas al frenar fuerte es otra cosa."
+      },
+      "truco": "Aquaplaning: el neumático «no da abasto» para echar el agua. Velocidad baja, y que el dibujo no esté gastado.",
+      "huella": "0fb5c4ba7000"
+    },
+    {
+      "id": "xd-0011",
+      "porque": "Las cadenas tienen que actuar donde está la fuerza del motor. Por eso el reglamento exige colocarlas, al menos, sobre una rueda motriz a cada lado del vehículo, o bien usar neumáticos especiales.",
+      "descartes": {
+        "a": "No es obligatorio ponerlas en las cuatro ruedas: el mínimo es una rueda motriz a cada lado.",
+        "c": "Unas cadenas en ruedas que no son motrices no dan tracción; tienen que ir en las motrices."
+      },
+      "truco": "Cadenas: donde está la fuerza. Ruedas motrices, al menos una a cada lado.",
+      "huella": "da0126969d44"
+    },
+    {
+      "id": "xd-0012",
+      "porque": "La señal R-412 obliga a no seguir sin cadenas u otros dispositivos antideslizantes autorizados, pero también acepta los neumáticos especiales de nieve. Si los llevas, cumples la señal y puedes continuar.",
+      "descartes": {
+        "a": "La señal no se limita a las cadenas metálicas: admite otros dispositivos antideslizantes autorizados y los neumáticos especiales de nieve.",
+        "b": "La R-412 no fija ninguna velocidad; establece qué equipamiento necesitas para seguir."
+      },
+      "truco": "R-412: cadenas, otro dispositivo antideslizante autorizado o neumáticos especiales de nieve. Con cualquiera de ellos, adelante.",
+      "huella": "aa4e47542c56"
+    },
+    {
+      "id": "xd-0023",
+      "porque": "El calor no solo cansa: hace que aparezcan antes el sueño y la fatiga, puede alargar el tiempo de reacción y, además, puede aumentar la agresividad hacia otros conductores.",
+      "descartes": {
+        "a": "Es al revés: con calor puedes necesitar más tiempo para reaccionar ante imprevistos.",
+        "c": "Con calor el manual recomienda hacer más descansos, no menos."
+      },
+      "truco": "Calor: más sueño, más fatiga, reacción más lenta y más agresividad. Aire acondicionado entre 20 y 23 grados, más descansos, mucha agua y ojo después de comer.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con calor (p. 363)",
+          "cita": "■ Aparecen antes el sueño y la fatiga\nque pueden provocar distracciones y errores.\n■ Puedes necesitar más tiempo para reaccionar\nante imprevistos."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con calor (p. 363)",
+          "cita": "■ Haz más descansos durante el viaje."
+        }
+      ],
+      "huella": "49c3832b1323"
+    },
+    {
+      "id": "xd-0024",
+      "porque": "Con mucho calor el sueño y la fatiga llegan antes. Por eso el manual recomienda hacer más descansos durante el viaje, además de beber mucha agua o zumos y usar el aire acondicionado.",
+      "descartes": {
+        "a": "Hacer menos paradas es lo contrario de lo recomendado: con calor la fatiga llega antes y hacen falta más descansos.",
+        "c": "El manual recomienda usar el aire acondicionado, a una temperatura entre 20 y 23 grados, no prescindir de él."
+      },
+      "truco": "Calor: más sueño, más fatiga, reacción más lenta y más agresividad. Aire acondicionado entre 20 y 23 grados, más descansos, mucha agua y ojo después de comer.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con calor (p. 363)",
+          "cita": "■ Aparecen antes el sueño y la fatiga\nque pueden provocar distracciones y errores.\n■ Puedes necesitar más tiempo para reaccionar\nante imprevistos."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con calor (p. 363)",
+          "cita": "■ Utiliza el aire acondicionado del vehículo\ny mantenlo a una temperatura\nentre 20 y 23 grados."
+        }
+      ],
+      "huella": "7d6217c6a768"
+    },
+    {
+      "id": "xd-0025",
+      "porque": "Después de comer el cuerpo tiende al sueño, y el calor hace que el sueño y la fatiga aparezcan antes. Por eso el manual pide prestar más atención cuando se conduce después de comer.",
+      "descartes": {
+        "a": "El manual no señala la primera hora de la mañana en los días de calor; el momento delicado es después de comer.",
+        "c": "El manual no dice que el asfalto se vuelva deslizante con el calor; el riesgo que señala es el sueño."
+      },
+      "truco": "Calor: más sueño, más fatiga, reacción más lenta y más agresividad. Aire acondicionado entre 20 y 23 grados, más descansos, mucha agua y ojo después de comer.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con calor (p. 363)",
+          "cita": "■ Aparecen antes el sueño y la fatiga\nque pueden provocar distracciones y errores.\n■ Puedes necesitar más tiempo para reaccionar\nante imprevistos."
+        }
+      ],
+      "huella": "d111be0cd2b8"
+    },
+    {
+      "id": "xd-0015",
+      "porque": "El hielo, como la nieve, hace que las ruedas no se agarren y el vehículo patine. Por eso el manual dice que las precauciones son las mismas que con nieve: despacio, mucha distancia de seguridad, suavidad con volante y freno.",
+      "descartes": {
+        "a": "Las precauciones con calor van contra el sueño y la fatiga; con hielo el problema es el agarre, como con nieve.",
+        "c": "El manual no hace ninguna excepción por llevar neumáticos nuevos: con hielo, las mismas precauciones que con nieve."
+      },
+      "truco": "Familias de precauciones: hielo, como la nieve; polvo o humo, como la niebla.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con nieve (p. 357)",
+          "cita": "■ Reducir la velocidad poco a poco.\n■ Mantener más distancia de seguridad\ncon el resto de vehículos."
+        }
+      ],
+      "huella": "62da4f062bff"
+    },
+    {
+      "id": "xd-0016",
+      "porque": "Durante la noche o la madrugada se puede formar hielo en puentes y pasos elevados, además de en zonas húmedas, en zonas sin sol y en badenes. En una madrugada fría de invierno, un puente es uno de esos puntos.",
+      "descartes": {
+        "a": "La norma no fija un límite de 40 km/h por el hecho de ser un puente; la precaución es por el hielo.",
+        "c": "No hay ninguna prohibición de usar la luz de cruce en los puentes; el peligro es el hielo."
+      },
+      "truco": "Hielo: busca la sombra, la humedad y lo que está «en el aire» (puentes y pasos elevados), además de los badenes.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con hielo (p. 358)",
+          "cita": "Puede haber hielo en la carretera,\ndurante la noche o la madrugada,\nen los siguientes lugares:\n■ En zonas húmedas."
+        }
+      ],
+      "huella": "4588a57be16e"
+    },
+    {
+      "id": "xd-0001",
+      "porque": "Con mucha lluvia, entre el neumático y el asfalto hay agua, y los neumáticos se agarran menos a la carretera. Con menos agarre, el vehículo necesita más espacio para frenar.",
+      "descartes": {
+        "a": "El manual no atribuye la frenada más larga a que los frenos se enfríen, sino al menor agarre de los neumáticos.",
+        "b": "La causa que da el manual no es el motor, sino que los neumáticos se agarran menos."
+      },
+      "truco": "Suelo mojado, menos agarre, más metros para parar.",
+      "huella": "14a9afae5318"
+    },
+    {
+      "id": "xd-0002",
+      "porque": "Después de atravesar agua no des por hecho que los frenos responden como siempre: el manual aconseja comprobar que funcionan bien después de pasar por un charco o por una zona con agua.",
+      "descartes": {
+        "a": "Pisar a fondo no es lo que aconseja el manual; lo que pide es comprobar que los frenos funcionan bien.",
+        "c": "Acelerar no es lo que aconseja el manual; la precaución es comprobar los frenos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Aquaplaning (p. 355)",
+          "cita": "Después de pasar por esa zona, debes comprobar\nque los frenos funcionan bien."
+        }
+      ],
+      "huella": "ba4b627e2693"
+    },
+    {
+      "id": "xd-0003",
+      "porque": "Con lluvia los neumáticos agarran menos, y una frenada brusca puede hacer que patinen. Frenando de forma suave las ruedas tienen más tiempo para parar el coche sin perder el agarre.",
+      "descartes": {
+        "b": "Frenar lo más tarde posible es lo contrario de lo aconsejado: con lluvia se frena suave, con más distancia y reduciendo la velocidad.",
+        "c": "Un golpe fuerte de pedal con el suelo mojado puede hacer que las ruedas patinen; el manual pide frenar de forma suave."
+      },
+      "truco": "Con lluvia, todo más suave y con más margen: frena suave, deja más distancia y reduce la velocidad.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con lluvia (p. 354)",
+          "cita": "■ Frena de forma suave\npara que las ruedas\ntengan más tiempo de parar.\n■ Comprueba que los frenos funcionan bien\ndespués de pasar por un charco.\n■ Mantén más distancia\ncon el vehículo de delante.\n■ Reduce la velocidad."
+        }
+      ],
+      "huella": "18defe96123f"
+    },
+    {
+      "id": "xd-0004",
+      "porque": "Con lluvia, ver bien depende de los limpiaparabrisas, y frenar bien de los neumáticos. Por eso, entre las precauciones, el manual pide revisar que los limpiaparabrisas funcionan bien y mantener los neumáticos en buen estado.",
+      "descartes": {
+        "a": "Bajar la presión hace el vehículo menos estable y aumenta el riesgo de patinar con suelo mojado.",
+        "b": "Vaciar el depósito del limpiaparabrisas no tiene sentido como precaución; lo que se pide es que los limpiaparabrisas funcionen bien."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 100)",
+          "cita": "El vehículo tiene\nmás riesgo de patinar\ncuando el suelo\nestá mojado."
+        }
+      ],
+      "huella": "5882833a85b6"
+    },
+    {
+      "id": "xd-0005",
+      "porque": "Las líneas pintadas en la carretera agarran menos que el asfalto cuando están mojadas. Para una moto, que se apoya en solo dos ruedas, pisarlas con lluvia puede hacerla resbalar. Por eso el manual pide a los motoristas especial atención a ellas.",
+      "descartes": {
+        "a": "El manual no prohíbe a las motos circular por el centro del carril con lluvia; el aviso es sobre las líneas pintadas.",
+        "b": "La antiniebla trasera no se lleva «en todo momento»: solo con condiciones especialmente desfavorables, como lluvia muy intensa o niebla espesa."
+      },
+      "truco": "Moto y lluvia: pintura mojada, pintura que resbala.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+        }
+      ],
+      "huella": "c59af0ccb301"
+    },
+    {
+      "id": "xd-0014",
+      "porque": "El reglamento de vehículos dice cómo se reconocen los neumáticos especiales para nieve extrema: en el costado llevan el marcado M+S, M&S o M.S y, junto a él, el pictograma 3PMSF, una montaña de tres picos con un copo de nieve.",
+      "descartes": {
+        "a": "La identificación que da el reglamento para estos neumáticos es el marcado M+S con el pictograma de la montaña y el copo, no una letra E con un número de país.",
+        "b": "El reglamento no habla de ninguna franja azul; la identificación va marcada en el costado."
+      },
+      "truco": "Neumático especial de nieve: M+S junto a la montaña de tres picos con un copo (3PMSF).",
+      "huella": "8208db3cb856"
+    },
+    {
+      "id": "xd-0017",
+      "porque": "Con niebla se ve mucho peor la carretera y lo que viene de frente, así que adelantar es especialmente arriesgado. Por eso el manual recomienda intentar no adelantar si no es necesario.",
+      "descartes": {
+        "a": "Adelantar deprisa con poca visibilidad es justo lo que se desaconseja: lo recomendado es no adelantar si no es necesario.",
+        "b": "El manual no condiciona el adelantamiento a llevar las largas; aconseja luces de cruce y antiniebla e intentar no adelantar si no es necesario."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con niebla (p. 360)",
+          "cita": "■ Enciende las luces de cruce y las antiniebla."
+        }
+      ],
+      "huella": "6dff68f4d31f"
+    },
+    {
+      "id": "xd-0007",
+      "porque": "Con nieve los neumáticos se agarran menos a la carretera, y la primera precaución que da el manual es arrancar con las ruedas rectas y con una marcha que dé poca fuerza del motor, sin movimientos bruscos.",
+      "descartes": {
+        "b": "El manual pide arrancar con las ruedas rectas, no giradas hacia el bordillo.",
+        "c": "Girarlas hacia el centro tampoco: el consejo es arrancar con las ruedas rectas."
+      },
+      "truco": "Con nieve, todo con poca fuerza y sin brusquedades: arranca con ruedas rectas y una marcha larga, baja las cuestas con marchas cortas, frena poco y suave, y pisa por las rodadas de otros.",
+      "huella": "034f07173102"
+    },
+    {
+      "id": "xd-0008",
+      "porque": "Con nieve las ruedas apenas se agarran, y cualquier movimiento brusco puede hacer que el coche patine. Por eso no hay que dar volantazos ni cambiar la velocidad de repente.",
+      "descartes": {
+        "a": "El manual aconseja circular por encima de las marcas que han dejado otros vehículos, no buscar el centro de la calzada.",
+        "c": "Sobre nieve el freno se usa lo menos posible y de forma suave; frenar con fuerza es justo lo contrario."
+      },
+      "truco": "Con nieve, todo con poca fuerza y sin brusquedades: arranca con ruedas rectas y una marcha larga, baja las cuestas con marchas cortas, frena poco y suave, y pisa por las rodadas de otros.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con nieve (p. 357)",
+          "cita": "■ Utilizar el freno lo menos posible\ny hacerlo de forma suave."
+        }
+      ],
+      "huella": "1290921d11b3"
+    },
+    {
+      "id": "xd-0009",
+      "porque": "Sobre nieve los neumáticos se agarran menos y pisar muy fuerte el freno es una de las causas de derrape. Por eso el freno se usa lo menos posible y de forma suave, y se deja más distancia de seguridad para no necesitarlo de golpe.",
+      "descartes": {
+        "b": "Frenar con fuerza y de forma continuada es justo lo contrario: lo menos posible y con suavidad.",
+        "c": "El freno de estacionamiento no es para frenar en marcha; se usa el freno normal, poco y suave."
+      },
+      "truco": "Con nieve, todo con poca fuerza y sin brusquedades: arranca con ruedas rectas y una marcha larga, baja las cuestas con marchas cortas, frena poco y suave, y pisa por las rodadas de otros.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con nieve (p. 357)",
+          "cita": "■ Reducir la velocidad poco a poco.\n■ Mantener más distancia de seguridad\ncon el resto de vehículos."
+        }
+      ],
+      "huella": "79b3970910fd"
+    },
+    {
+      "id": "xd-0010",
+      "porque": "La nieve refleja mucho la luz del sol, y al salir el sol después de nevar puede deslumbrarte. Por eso conviene usar gafas de sol.",
+      "descartes": {
+        "b": "La antiniebla trasera es para condiciones especialmente desfavorables, como niebla espesa o fuerte nevada; el reflejo del sol no es una de ellas.",
+        "c": "Que haya dejado de nevar no quita la nieve de la calzada: siguen valiendo las precauciones para conducir con nieve."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+        }
+      ],
+      "huella": "33125754036a"
+    },
+    {
+      "id": "xd-0018",
+      "porque": "Las nubes de polvo o de humo impiden ver bien la carretera, las señales y los demás vehículos, y además pueden aparecer de repente, sin darte tiempo a prepararte. Por eso se conduce con las mismas precauciones que con niebla.",
+      "descartes": {
+        "a": "No obligan a usar la de largo alcance; el reglamento pide alumbrado (antiniebla delantera, cruce o largo alcance) y el manual, las mismas precauciones que con niebla.",
+        "c": "El manual no habla de pérdida de potencia del motor; el peligro añadido es que aparecen de repente."
+      },
+      "truco": "Familias de precauciones: hielo, como la nieve; polvo o humo, como la niebla.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "En los casos a que se refiere el apartado anterior deberá utilizarse la luz antiniebla\ndelantera o la luz de corto o largo alcance."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con nubes de polvo o de humo (p. 361)",
+          "cita": "Para conducir con nubes de polvo y humo,\ndebes tomar las mismas precauciones\nque para conducir con niebla."
+        }
+      ],
+      "huella": "b2fed68355bf"
+    },
+    {
+      "id": "xd-0019",
+      "porque": "El viento que sopla de lado empuja el vehículo hacia un costado y puede hacer que pierda el control, vuelque o se salga de la carretera. Afecta más a los vehículos de dos ruedas y a los que llevan remolque.",
+      "descartes": {
+        "b": "El manual señala como más peligroso el viento que sopla de lado, no el de frente.",
+        "c": "El manual no destaca el viento por detrás; el que puede hacerte perder el control es el lateral."
+      },
+      "truco": "Viento lateral: más despacio, volante firme en contra del viento, ventanillas cerradas y atención a lo que pueda caer. Más peligro al cruzarte, al adelantar a uno grande y junto a edificios o árboles.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con mucho viento (p. 361)",
+          "cita": "El viento afecta más a los vehículos de dos ruedas\ny a los que llevan un remolque."
+        }
+      ],
+      "huella": "979255347f31"
+    },
+    {
+      "id": "xd-0020",
+      "porque": "Al pasar delante de edificios, árboles u otros objetos, el viento puede aparecer de repente y desplazar el vehículo cuando menos lo esperas. Por eso el manual cuenta esta situación entre las de más peligro con viento.",
+      "descartes": {
+        "b": "La norma no fija un límite de 50 km/h por pasar junto a edificios; la precaución es porque el viento puede aparecer de repente.",
+        "c": "Los árboles no tienen relación con el aquaplaning, que depende del agua en la calzada."
+      },
+      "truco": "Viento lateral: más despacio, volante firme en contra del viento, ventanillas cerradas y atención a lo que pueda caer. Más peligro al cruzarte, al adelantar a uno grande y junto a edificios o árboles.",
+      "huella": "9ac0bed8a8e0"
+    },
+    {
+      "id": "xd-0021",
+      "porque": "Con viento lateral el coche tiende a desplazarse hacia un lado. Sujetando el volante con firmeza y en la dirección contraria al viento contrarrestas ese empuje y mantienes la trayectoria. Además, conviene ir más despacio y con las ventanillas cerradas.",
+      "descartes": {
+        "b": "Dejar que el vehículo siga al viento es perder el control de la trayectoria; hay que sujetar el volante con firmeza.",
+        "c": "Con una sola mano tienes menos fuerza y control; el manual pide sujetar el volante con firmeza."
+      },
+      "truco": "Viento lateral: más despacio, volante firme en contra del viento, ventanillas cerradas y atención a lo que pueda caer. Más peligro al cruzarte, al adelantar a uno grande y junto a edificios o árboles.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con mucho viento (p. 362)",
+          "cita": "■ Conduce más despacio.\n■ Sujeta el volante con firmeza\ny en la dirección en contra del viento.\n■ Mantén las ventanillas cerradas."
+        }
+      ],
+      "huella": "412fbfddc071"
+    },
+    {
+      "id": "xd-0022",
+      "porque": "El viento fuerte no solo empuja el coche: también puede tirar árboles, ramas o piedras a la carretera. Por eso el manual pide tenerlo en cuenta, conducir más despacio e ir atento.",
+      "descartes": {
+        "a": "El viento no cambia cómo deslumbra la luz de cruce; el riesgo que señala el manual es que caigan objetos.",
+        "c": "El aquaplaning depende del agua en la calzada, no del viento."
+      },
+      "truco": "Viento lateral: más despacio, volante firme en contra del viento, ventanillas cerradas y atención a lo que pueda caer. Más peligro al cruzarte, al adelantar a uno grande y junto a edificios o árboles.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con mucho viento (p. 362)",
+          "cita": "■ Conduce más despacio.\n■ Sujeta el volante con firmeza\ny en la dirección en contra del viento.\n■ Mantén las ventanillas cerradas."
+        }
+      ],
+      "huella": "87454df14d9e"
+    },
+    {
+      "id": "bm6-0007",
+      "porque": "Los ojos necesitan unos segundos para adaptarse cuando pasas de una zona bien iluminada a otra oscura. Durante ese tiempo ves peor, así que hay que extremar la atención.",
+      "descartes": {
+        "a": "Apagar las luces en una zona mal iluminada sería peligroso y contrario a la obligación de llevar el alumbrado de noche.",
+        "b": "El cambio de iluminación no cambia el límite de velocidad; el problema es la adaptación de los ojos."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "98.1",
+          "cita": "Todos los vehículos que circulen entre el ocaso y la salida del sol"
+        }
+      ],
+      "huella": "05263c5b1fd6"
+    },
+    {
+      "id": "bm6-0005",
+      "porque": "La regla general obliga al alumbrado entre el ocaso y la salida del sol, pero también es obligatorio de día cuando la niebla, la lluvia intensa, la nevada, el humo o el polvo disminuyen sensiblemente la visibilidad. Una nube de humo es uno de esos casos.",
+      "descartes": {
+        "b": "No es solo de noche: el reglamento lo exige a cualquier hora cuando las condiciones disminuyen sensiblemente la visibilidad.",
+        "c": "La obligación no depende del tipo de vía; vale en cualquiera."
+      },
+      "truco": "Cuando la niebla, la lluvia intensa, la nevada o el humo reducen sensiblemente la visibilidad, el alumbrado es obligatorio a cualquier hora, y con él las luces de posición y la matrícula iluminada.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "98.1",
+          "cita": "Todos los vehículos que circulen entre el ocaso y la salida del sol"
+        }
+      ],
+      "huella": "9546f1d133b3"
+    },
+    {
+      "id": "bm6-0008",
+      "porque": "Si te deslumbran, lo primero es reducir la velocidad o incluso parar con precaución, sin cambiarte de carril. Para mantener la trayectoria, el manual aconseja guiarte por la línea del borde derecho, lejos de las luces que te ciegan.",
+      "descartes": {
+        "b": "Mirar las luces que te deslumbran es justo lo que te impide ver; hay que apartar la vista hacia el borde derecho.",
+        "c": "El manual dice expresamente que no te muevas hacia otros carriles al reducir la velocidad o parar; la referencia es el borde derecho."
+      },
+      "truco": "Deslumbrado: mira a tu derecha, a la línea del borde, nunca a los faros.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Deslumbramientos (p. 349)",
+          "cita": "No te muevas hacia otros carriles\nal reducir la velocidad o parar."
+        }
+      ],
+      "huella": "92548b29a9ef"
+    },
+    {
+      "id": "bm6-0009",
+      "porque": "De noche ya hay poca luz. Unas gafas de sol pueden hacer que los faros te deslumbren menos, pero también oscurecen todo lo demás y verás mucho peor la carretera. Por eso el manual dice que no se usen.",
+      "descartes": {
+        "a": "No es aconsejable ni siempre ni a veces: el manual dice que no se usen gafas oscuras o de sol por la noche.",
+        "c": "El tipo de vía no cambia nada; de noche las gafas de sol hacen ver peor la carretera en cualquier sitio."
+      },
+      "truco": "Gafas de sol: para el sol, también el que refleja la nieve. De noche, nunca.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con nieve (p. 357)",
+          "cita": "Cuando sale el sol después de nevar,\nes conveniente usar gafas de sol\npara que la luz no te deslumbre."
+        }
+      ],
+      "huella": "99c7450df2ff"
+    },
+    {
+      "id": "bm6-0012",
+      "porque": "En invierno el tiempo puede complicar el viaje en cualquier momento. Por eso el manual aconseja llevar cadenas, viajar con el depósito lleno, llevar ropa de abrigo, agua, comida y linterna, y evitar conducir de noche.",
+      "descartes": {
+        "a": "Es lo contrario de lo que aconseja el manual: en invierno hay que evitar conducir de noche.",
+        "c": "Desinflar los neumáticos los hace menos estables y con más riesgo de patinar en mojado; no es una precaución."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 17, Elegir la ruta (p. 439)",
+          "cita": "■ Lleva cadenas en el vehículo.\n■ Evita conducir de noche."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 5, Presión de inflado (p. 100)",
+          "cita": "El vehículo tiene\nmás riesgo de patinar\ncuando el suelo\nestá mojado."
+        }
+      ],
+      "huella": "f1edd2e99b52"
+    },
+    {
+      "id": "bm6-0001",
+      "porque": "El reglamento obliga a circular a velocidad moderada, y si hace falta a parar, cuando puedas salpicar o proyectar agua, gravilla u otras materias a los demás usuarios. Con charcos y peatones en la acera, toca moderar para no mojarlos.",
+      "descartes": {
+        "a": "La norma obliga expresamente a moderar la velocidad cuando puedes salpicar agua a otros usuarios; no hacerlo es incumplirla.",
+        "b": "Pasar rápido es justo lo que hace que el agua salte con más fuerza; se exige velocidad moderada."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "46.1",
+          "cita": "1. Se circulará a velocidad moderada y, si fuera preciso, se detendrá el vehículo cuando\nlas circunstancias lo exijan"
+        }
+      ],
+      "huella": "91244177be32"
+    },
+    {
+      "id": "bm6-0002",
+      "porque": "Además de los límites, el reglamento enumera situaciones en las que hay que circular a velocidad moderada y, si fuera preciso, parar. Entre ellas están la niebla densa, la lluvia intensa, la nevada y las nubes de polvo o humo, haya o no señal.",
+      "descartes": {
+        "b": "No hace falta una señal: el propio reglamento obliga a moderar la velocidad en estas situaciones.",
+        "c": "No es solo de noche; la niebla, la lluvia intensa o la nevada obligan a moderar a cualquier hora."
+      },
+      "truco": "Si la situación te hace ver o frenar peor, el reglamento ya te obliga a moderar, aunque no haya ninguna señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "46.1",
+          "cita": "1. Se circulará a velocidad moderada y, si fuera preciso, se detendrá el vehículo cuando\nlas circunstancias lo exijan"
+        }
+      ],
+      "huella": "f9d24d043dc6"
+    },
+    {
+      "id": "bm6-0010",
+      "porque": "Con niebla la humedad empaña los cristales con facilidad, y un cristal empañado se suma a la poca visibilidad de fuera. Por eso el manual pide mantener el vehículo bien ventilado, además de ir despacio y con mucha distancia de seguridad.",
+      "descartes": {
+        "a": "Ir pegado al de delante te deja sin espacio para frenar; el manual pide mantener mucha distancia de seguridad.",
+        "b": "Con niebla el manual aconseja intentar no adelantar si no es necesario."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con niebla (p. 360)",
+          "cita": "■ Mantén mucha distancia de seguridad\ncon otros vehículos."
+        },
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir con niebla (p. 360)",
+          "cita": "■ Intenta no adelantar a otros vehículos\nsi no es necesario."
+        }
+      ],
+      "huella": "2d8a98f125f1"
+    },
+    {
+      "id": "bm6-0006",
+      "porque": "De noche la carretera está menos iluminada, se calculan peor las distancias, se ven peor las personas, los objetos y los vehículos, y además los demás te pueden deslumbrar. Por eso conducir de noche es más peligroso que de día.",
+      "descartes": {
+        "a": "El manual no dice que de noche haya más vehículos; los motivos que da son la menor iluminación, la peor visión y los deslumbramientos.",
+        "c": "El manual no habla de límites más altos de noche; al contrario, pide respetarlos e ir más despacio si no ves bien la carretera."
+      },
+      "truco": null,
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Conducir por la noche (p. 348)",
+          "cita": "Tienes que respetar los límites de velocidad\ny conducir más despacio si no ves bien la carretera."
+        }
+      ],
+      "huella": "387ee5df86c9"
+    },
+    {
+      "id": "bm6-0011",
+      "porque": "Las nubes de polvo o de humo producen el mismo problema que la niebla, ver muy mal la carretera, las señales y los vehículos, y además pueden aparecer de repente. Por eso el manual pide las mismas precauciones que con niebla.",
+      "descartes": {
+        "b": "El manual dice lo contrario: pueden aparecer de repente, y hay que tomar precauciones como con niebla.",
+        "c": "Acelerar con visibilidad casi nula es muy peligroso; el reglamento obliga a moderar la velocidad con nubes de polvo o humo."
+      },
+      "truco": "Familias de precauciones: hielo, como la nieve; polvo o humo, como la niebla.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "46.1.k",
+          "cita": "k) En los casos de niebla densa, lluvia intensa, nevada o nubes de polvo o humo."
+        }
+      ],
+      "huella": "35a329541d2d"
+    },
+    {
+      "id": "bm6-0003",
+      "porque": "Al llegar a intersecciones hay que moderar la velocidad, y el reglamento añade un tope concreto: si las intersecciones están debidamente señalizadas y la visibilidad de la vía es prácticamente nula, no se puede pasar de 50 km/h.",
+      "descartes": {
+        "a": "30 km/h no es la cifra de este supuesto; el reglamento fija 50 km/h como máximo.",
+        "c": "70 km/h supera el tope: con visibilidad prácticamente nula en una intersección señalizada, el máximo es 50 km/h."
+      },
+      "truco": null,
+      "huella": "f4ddde343c86"
+    },
+    {
+      "id": "bm6-0004",
+      "porque": "Donde no ves bien lo que viene, como en un lugar de reducida visibilidad o en un estrechamiento, necesitas margen para frenar o ceder. Por eso el reglamento obliga a circular a velocidad moderada y, si es preciso, a detenerse.",
+      "descartes": {
+        "a": "La antiniebla trasera solo se usa con condiciones especialmente desfavorables, como niebla espesa; no por acercarse a un estrechamiento.",
+        "b": "Tocar el claxon no sustituye a moderar la velocidad, que es lo que exige la norma."
+      },
+      "truco": "Si la situación te hace ver o frenar peor, el reglamento ya te obliga a moderar, aunque no haya ninguna señal.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "46.1",
+          "cita": "1. Se circulará a velocidad moderada y, si fuera preciso, se detendrá el vehículo cuando\nlas circunstancias lo exijan"
+        },
+        {
+          "norma": "RGC",
+          "articulo": "106.2",
+          "cita": "La luz antiniebla trasera solamente deberá llevarse encendida cuando las condiciones\nmeteorológicas o ambientales sean especialmente desfavorables, como en caso de niebla\nespesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+        }
+      ],
+      "huella": "6384b7f40c20"
+    },
+    {
+      "id": "xd-0027",
+      "porque": "Al adelantar de noche se pone la luz de cruce porque las largas deslumbrarían al otro a través de sus retrovisores. En cuanto ya no puedas deslumbrarle, vuelves a encender las largas lo antes posible.",
+      "descartes": {
+        "a": "Antes de empezar se hace lo contrario: se apagan las largas y se enciende la de cruce para no deslumbrar por el retrovisor.",
+        "b": "El manual no fija ninguna distancia; la referencia es que ya no puedas deslumbrar al adelantado."
+      },
+      "truco": "Las largas se quitan en cuanto puedas deslumbrar a alguien (de frente o por el retrovisor), aunque el otro no las quite, y vuelven cuando hayas rebasado al que se cruza contigo. Si te deslumbran a ti, frena lo necesario, incluso hasta parar.",
+      "apoyos": [
+        {
+          "norma": "MANUAL_DGT",
+          "articulo": "Tema 14, Adelantamientos (p. 350)",
+          "cita": "Cuando vayas a adelantar a otro vehículo de noche,\ndebes apagar las luces de largo alcance\ny encender las de cruce."
+        }
+      ],
+      "huella": "192fd6e6d5a0"
+    },
+    {
+      "id": "xd-0026",
+      "porque": "Si ves mal la carretera, detectas los peligros más tarde y te queda menos espacio para reaccionar. Yendo más despacio necesitas menos distancia para parar, así que es más sencillo detenerte ante un imprevisto.",
+      "descartes": {
+        "b": "La velocidad no tiene que ver con lo que gastan las luces; el motivo es poder parar a tiempo.",
+        "c": "Lo que evita deslumbrar es cambiar a la luz de cruce, no ir más despacio."
+      },
+      "truco": "Si ves menos lejos, ve más despacio: tienes que poder parar dentro de lo que ves.",
+      "apoyos": [
+        {
+          "norma": "RGC",
+          "articulo": "45",
+          "cita": "de manera que\nsiempre pueda detenerlo dentro de los límites de su campo de visión y ante cualquier obstáculo"
+        }
+      ],
+      "huella": "7a0540abcaeb"
+    },
+    {
+      "id": "v2-nieve-0001",
+      "porque": "Con nieve en autopistas y autovías está prohibido adelantar y hay que ir por el carril derecho. Si hay tres o más carriles por sentido, se puede usar también el contiguo, y el resto de carriles de la izquierda queda libre para los vehículos de emergencia y los quitanieves.",
+      "descartes": {
+        "b": "Es al revés: se circula por la derecha y se dejan libres los carriles de la izquierda para emergencias y quitanieves.",
+        "c": "No se puede ir por cualquiera: la norma limita la circulación al carril derecho y, con tres o más, a su contiguo."
+      },
+      "truco": "Nieve en autovía: tú a la derecha (y al de al lado si hay tres o más carriles); la izquierda, para quitanieves y emergencias. Y prohibido adelantar.",
+      "huella": "ffeed00cc687"
+    },
+    {
+      "id": "x1b-0034",
+      "porque": "Los materiales retrorreflectantes devuelven la luz de los faros hacia el conductor. Así, por la noche, las señales se ven y se leen mucho mejor. Esa es la finalidad que da el reglamento.",
+      "descartes": {
+        "a": "El reglamento no les da una función de protección frente a la corrosión o la lluvia; su finalidad es la visibilidad nocturna.",
+        "c": "El reglamento no menciona los sistemas de ayuda a la conducción; los retrorreflectantes son para que las señales se vean y lean de noche."
+      },
+      "truco": null,
+      "huella": "33197643a170"
+    },
+    {
+      "id": "v3-sen-0022",
+      "porque": "Es la señal S-21, de transitabilidad en tramo o puerto de montaña. Informa de la situación del puerto o tramo cuyo nombre figura en su parte superior, para que sepas antes de llegar cómo está el paso.",
+      "descartes": {
+        "b": "La S-21 no da distancias a poblaciones; informa de la situación del puerto o tramo.",
+        "c": "La S-21 no asigna carriles a tipos de vehículo; informa de la transitabilidad del puerto o tramo."
+      },
+      "truco": null,
+      "huella": "cfb82208f578"
+    },
+    {
+      "id": "v4b-sen-0038",
+      "porque": "La señal S-24 marca el fin del tramo en el que era obligatorio llevar al menos la luz de cruce, y recuerda que puedes prescindir de ella. Pero solo si no la exigen otras circunstancias: la visibilidad, la hora o la iluminación de la vía.",
+      "descartes": {
+        "b": "La señal no anula las demás obligaciones de alumbrado: si es de noche, hay niebla o la vía está mal iluminada, las luces siguen siendo obligatorias.",
+        "c": "Es esta misma señal la que pone fin a la obligación; no hay que esperar a una señal de fin de prohibiciones."
+      },
+      "truco": "S-24: se acaba la obligación «por el túnel», no la de la noche o la niebla.",
+      "huella": "967d0cece6ca"
+    },
+    {
+      "id": "v4b-sen-0040",
+      "porque": "Es la señal S-34a, apartadero en túneles con teléfono de emergencia. Indica un lugar del túnel donde puedes apartar el vehículo en caso de emergencia, para dejar libre el paso, y que tiene teléfono de emergencia.",
+      "descartes": {
+        "a": "Las salidas de emergencia tienen su propia señal, la S-980; esta indica un apartadero con teléfono.",
+        "b": "En los túneles está prohibido estacionar; el apartadero es solo para emergencias."
+      },
+      "truco": "Túnel: apartadero con teléfono para apartar el coche (S-34a); salida de emergencia para salir a pie (S-980).",
+      "apoyos": [
+        {
+          "norma": "RGC_CATALOGO",
+          "articulo": "Anexo I, señal S-980",
+          "cita": "S-980 Salida de emergencia\n\nIndica la situación de una salida de emergencia."
+        },
+        {
+          "norma": "RGC",
+          "articulo": "95.6",
+          "cita": "especialmente las\nreferidas a la prohibición de parar, estacionar, cambiar el sentido de la marcha, marchar\nhacia atrás y adelantar."
+        }
+      ],
+      "huella": "c9535bc9991b"
+    }
+  ]
+}

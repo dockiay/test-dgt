@@ -1258,6 +1258,32 @@
    }
   },
   {
+   "id": "B1-pri-0072",
+   "correcta": "a",
+   "reglas": [
+    "O1",
+    "O2",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Ha entrado en un puente estrecho, donde no pueden cruzarse dos vehículos, por el extremo en el que hay colocada una señal de prioridad en sentido contrario. Si se encuentra con otro vehículo dentro del puente, ¿quién debe retroceder?",
+    "opciones": {
+     "a": "El que haya llegado por el extremo donde está la señal de prioridad en sentido contrario, es decir, usted.",
+     "b": "El vehículo de menor tamaño.",
+     "c": "El que venga en sentido contrario."
+    }
+   },
+   "despues": {
+    "enunciado": "Ha entrado en un puente estrecho, donde no caben dos vehículos, por el extremo en el que está esta señal. Si se encuentra con otro vehículo dentro, ¿quién debe retroceder?",
+    "opciones": {
+     "a": "Usted.",
+     "b": "El vehículo de menor tamaño.",
+     "c": "El que venga en sentido contrario."
+    }
+   }
+  },
+  {
    "id": "B1-sen-0001",
    "correcta": "b",
    "reglas": [
@@ -2634,6 +2660,30 @@
    }
   },
   {
+   "id": "B1-sen-0107",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿A quién prohíbe la entrada esta señal?",
+    "opciones": {
+     "a": "A las motocicletas.",
+     "b": "A los ciclos.",
+     "c": "A los ciclomotores y a los vehículos para personas de movilidad reducida."
+    }
+   },
+   "despues": {
+    "enunciado": "¿A quién prohíbe la entrada esta señal?",
+    "opciones": {
+     "a": "A las motocicletas.",
+     "b": "A los ciclos.",
+     "c": "A los ciclomotores y a los vehículos de movilidad reducida."
+    }
+   }
+  },
+  {
    "id": "B1-sen-0108",
    "correcta": "a",
    "reglas": [
@@ -3773,6 +3823,126 @@
    }
   },
   {
+   "id": "C-car-0004",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Cuando sea inexcusable descargar mercancía en la vía, ¿dónde puede depositarla?",
+    "opciones": {
+     "a": "En la acera, si no impide el paso de los peatones.",
+     "b": "En ninguno de estos lugares: está prohibido depositarla en la calzada, en el arcén y en las zonas peatonales.",
+     "c": "En el arcén, si está señalizada."
+    }
+   },
+   "despues": {
+    "enunciado": "Cuando sea inexcusable descargar mercancía en la vía, ¿dónde puede depositarla?",
+    "opciones": {
+     "a": "En la acera, si no impide el paso de los peatones.",
+     "b": "En ninguno de estos lugares.",
+     "c": "En el arcén, si está señalizada."
+    }
+   }
+  },
+  {
+   "id": "C-car-0006",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Como norma general, ¿puede la carga sobresalir de la proyección en planta del vehículo?",
+    "opciones": {
+     "a": "No, salvo en los casos y condiciones previstos en el Reglamento.",
+     "b": "Sí, siempre que se señalice adecuadamente.",
+     "c": "Sí, hasta 1 metro por cualquier lado."
+    }
+   },
+   "despues": {
+    "enunciado": "Como norma general, ¿puede la carga sobresalir de la proyección en planta del vehículo?",
+    "opciones": {
+     "a": "No, salvo en los casos que fija la norma.",
+     "b": "Sí, siempre que se señalice adecuadamente.",
+     "c": "Sí, hasta 1 metro por cualquier lado."
+    }
+   }
+  },
+  {
+   "id": "C-car-0007",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Una furgoneta destinada exclusivamente al transporte de mercancías, de 4 metros de longitud, lleva un tubo de longitud indivisible. ¿Cuánto puede sobresalir como máximo por delante?",
+    "opciones": {
+     "a": "2 metros.",
+     "b": "Un tercio de la longitud del vehículo.",
+     "c": "El 10 % de la longitud del vehículo."
+    }
+   },
+   "despues": {
+    "enunciado": "Una furgoneta solo de mercancías, de 4 metros de longitud, lleva un tubo indivisible. ¿Cuánto puede sobresalir como máximo por delante?",
+    "opciones": {
+     "a": "2 metros.",
+     "b": "Un tercio de la longitud del vehículo.",
+     "c": "El 10 % de la longitud del vehículo."
+    }
+   }
+  },
+  {
+   "id": "C-car-0008",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un camión de 8 metros de longitud, destinado exclusivamente al transporte de mercancías, transporta una viga indivisible. ¿Cuánto puede sobresalir la carga como máximo por la parte posterior?",
+    "opciones": {
+     "a": "2 metros.",
+     "b": "Un tercio de la longitud del camión.",
+     "c": "3 metros."
+    }
+   },
+   "despues": {
+    "enunciado": "Un camión solo de mercancías, de 8 metros de longitud, lleva una viga indivisible. ¿Cuánto puede sobresalir como máximo por detrás?",
+    "opciones": {
+     "a": "2 metros.",
+     "b": "Un tercio de la longitud del camión.",
+     "c": "3 metros."
+    }
+   }
+  },
+  {
+   "id": "C-car-0012",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un camión transporta una carga indivisible cuya dimensión menor es superior al ancho del vehículo. ¿Cuánto puede sobresalir por cada lateral?",
+    "opciones": {
+     "a": "Hasta 0,40 metros por cada lateral, siempre que el ancho total no supere 2,55 metros.",
+     "b": "Hasta 0,50 metros por cada lateral, sin otro límite.",
+     "c": "Hasta 1 metro por cada lateral."
+    }
+   },
+   "despues": {
+    "enunciado": "Un camión transporta una carga indivisible cuya dimensión menor es superior al ancho del vehículo. ¿Cuánto puede sobresalir por cada lateral?",
+    "opciones": {
+     "a": "Hasta 0,40 metros por cada lado, sin superar 2,55 metros de ancho total.",
+     "b": "Hasta 0,50 metros por cada lateral, sin otro límite.",
+     "c": "Hasta 1 metro por cada lateral."
+    }
+   }
+  },
+  {
    "id": "C-doc-0002",
    "correcta": "c",
    "reglas": [
@@ -3793,6 +3963,54 @@
      "a": "La clasificación ambiental del vehículo.",
      "b": "Que el vehículo tiene en vigor el seguro obligatorio.",
      "c": "Que el vehículo ha superado la inspección técnica periódica y la fecha de la próxima."
+    }
+   }
+  },
+  {
+   "id": "C-doc-0003",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué documentos del vehículo debe llevar consigo el conductor de un turismo, según el Reglamento General de Vehículos?",
+    "opciones": {
+     "a": "El permiso de circulación y la tarjeta de inspección técnica.",
+     "b": "Solo el permiso de circulación.",
+     "c": "La factura de compra y la tarjeta de inspección técnica."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué documentos del vehículo debe llevar el conductor de un turismo?",
+    "opciones": {
+     "a": "El permiso de circulación y la tarjeta de inspección técnica.",
+     "b": "Solo el permiso de circulación.",
+     "c": "La factura de compra y la tarjeta de inspección técnica."
+    }
+   }
+  },
+  {
+   "id": "C-doc-0009",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Es preciso matricular un remolque de 600 kg de masa máxima autorizada?",
+    "opciones": {
+     "a": "No; solo hay que matricular los remolques de masa máxima autorizada superior a 750 kg.",
+     "b": "Sí, todos los remolques deben matricularse.",
+     "c": "Solo si lo arrastra un vehículo distinto de un turismo."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Es preciso matricular un remolque de 600 kg de masa máxima autorizada?",
+    "opciones": {
+     "a": "No.",
+     "b": "Sí, todos los remolques deben matricularse.",
+     "c": "Solo si lo arrastra un vehículo distinto de un turismo."
     }
    }
   },
@@ -3869,6 +4087,657 @@
    }
   },
   {
+   "id": "C-luc-0008",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "De noche deja su turismo estacionado en línea en la calzada de una travesía insuficientemente iluminada. ¿Qué alumbrado debe dejar encendido?",
+    "opciones": {
+     "a": "Las luces de corto alcance o cruce.",
+     "b": "Las luces de posición, que puede sustituir por las de estacionamiento.",
+     "c": "Ninguno, porque es una vía urbana."
+    }
+   },
+   "despues": {
+    "enunciado": "De noche deja su turismo estacionado en línea en la calzada de una travesía insuficientemente iluminada. ¿Qué alumbrado debe dejar encendido?",
+    "opciones": {
+     "a": "Las luces de corto alcance o cruce.",
+     "b": "Las de posición o, en su lugar, las de estacionamiento.",
+     "c": "Ninguno, porque es una vía urbana."
+    }
+   }
+  },
+  {
+   "id": "C-luc-0009",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "De noche estaciona en una calle urbana (que no es travesía) con buena iluminación, que permite a los demás distinguir su vehículo a distancia suficiente. ¿Debe dejar encendidas las luces de posición?",
+    "opciones": {
+     "a": "Sí, siempre que sea de noche.",
+     "b": "Sí, y además las luces de emergencia.",
+     "c": "No es obligatorio."
+    }
+   },
+   "despues": {
+    "enunciado": "De noche estaciona en una calle urbana, que no es travesía, tan bien iluminada que su vehículo se distingue a distancia suficiente. ¿Debe dejar encendidas las luces de posición?",
+    "opciones": {
+     "a": "Sí, siempre que sea de noche.",
+     "b": "Sí, y además las luces de emergencia.",
+     "c": "No es obligatorio."
+    }
+   }
+  },
+  {
+   "id": "C-luc-0010",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Su vehículo queda inmovilizado por avería en el arcén de una carretera durante la noche. ¿Qué luces debe tener encendidas como mínimo?",
+    "opciones": {
+     "a": "Las de posición y, en su caso, las de gálibo.",
+     "b": "Solo las luces de emergencia.",
+     "c": "Las de corto alcance o cruce."
+    }
+   },
+   "despues": {
+    "enunciado": "Su vehículo queda inmovilizado por avería en el arcén de una carretera durante la noche. ¿Qué luces debe tener encendidas como mínimo?",
+    "opciones": {
+     "a": "Las de posición y, si las tiene, las de gálibo.",
+     "b": "Solo las luces de emergencia.",
+     "c": "Las de corto alcance o cruce."
+    }
+   }
+  },
+  {
+   "id": "C-luc-0014",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Durante el día empieza a llover de forma intensa y la visibilidad disminuye sensiblemente. ¿Qué alumbrado debe utilizar?",
+    "opciones": {
+     "a": "Únicamente la luz antiniebla trasera.",
+     "b": "La luz antiniebla delantera o la luz de corto o largo alcance.",
+     "c": "Únicamente las luces de posición."
+    }
+   },
+   "despues": {
+    "enunciado": "Durante el día empieza a llover de forma intensa y la visibilidad disminuye sensiblemente. ¿Qué alumbrado debe utilizar?",
+    "opciones": {
+     "a": "Únicamente la luz antiniebla trasera.",
+     "b": "La antiniebla delantera o la de corto o largo alcance.",
+     "c": "Únicamente las luces de posición."
+    }
+   }
+  },
+  {
+   "id": "C-luc-0015",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Sin niebla, lluvia ni otras condiciones adversas, ¿en qué tramos se permite utilizar la luz antiniebla delantera?",
+    "opciones": {
+     "a": "En cualquier vía interurbana entre el ocaso y la salida del sol.",
+     "b": "En vías urbanas insuficientemente iluminadas.",
+     "c": "En vías estrechas con muchas curvas señalizadas, con calzada de 6,50 metros de anchura o inferior."
+    }
+   },
+   "despues": {
+    "enunciado": "Sin niebla, lluvia ni otras condiciones adversas, ¿en qué tramos se permite utilizar la luz antiniebla delantera?",
+    "opciones": {
+     "a": "En cualquier vía interurbana entre el ocaso y la salida del sol.",
+     "b": "En vías urbanas insuficientemente iluminadas.",
+     "c": "En vías estrechas con muchas curvas señalizadas, de 6,50 metros de calzada o menos."
+    }
+   }
+  },
+  {
+   "id": "C-per-0003",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En un turismo, un menor de 125 cm de estatura, ¿puede viajar en el asiento delantero?",
+    "opciones": {
+     "a": "Sí, de forma excepcional, por ejemplo si todos los asientos traseros ya están ocupados por menores de esa estatura, y usando su sistema de retención infantil.",
+     "b": "No, en ningún caso.",
+     "c": "Sí, siempre que lleve el cinturón de seguridad de adulto."
+    }
+   },
+   "despues": {
+    "enunciado": "En un turismo, un menor de 125 cm de estatura, ¿puede viajar en el asiento delantero?",
+    "opciones": {
+     "a": "Sí, excepcionalmente, si los traseros ya van ocupados por menores como él, con su sistema de retención.",
+     "b": "No, en ningún caso.",
+     "c": "Sí, siempre que lleve el cinturón de seguridad de adulto."
+    }
+   }
+  },
+  {
+   "id": "C-per-0005",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Su vehículo no dispone de asientos traseros. ¿Puede llevar a un niño de 110 cm de estatura?",
+    "opciones": {
+     "a": "No, está prohibido llevarlo en ese vehículo.",
+     "b": "Sí, en el asiento delantero, y basta con el cinturón de seguridad.",
+     "c": "Sí, en el asiento delantero, utilizando un sistema de retención infantil homologado adaptado a su talla y peso."
+    }
+   },
+   "despues": {
+    "enunciado": "Su vehículo no dispone de asientos traseros. ¿Puede llevar a un niño de 110 cm de estatura?",
+    "opciones": {
+     "a": "No, está prohibido llevarlo en ese vehículo.",
+     "b": "Sí, en el asiento delantero, y basta con el cinturón de seguridad.",
+     "c": "Sí, delante, con un sistema de retención infantil adaptado a su talla y peso."
+    }
+   }
+  },
+  {
+   "id": "C-per-0006",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Los conductores y pasajeros de vehículos en servicio de urgencia, ¿pueden circular sin cinturón de seguridad?",
+    "opciones": {
+     "a": "Sí, cuando circulen en poblado, pero nunca por autopistas, autovías o carreteras convencionales.",
+     "b": "Sí, en cualquier tipo de vía.",
+     "c": "No, en ningún caso."
+    }
+   },
+   "despues": {
+    "enunciado": "Los conductores y pasajeros de vehículos en servicio de urgencia, ¿pueden circular sin cinturón de seguridad?",
+    "opciones": {
+     "a": "Sí, en poblado, pero nunca fuera de poblado.",
+     "b": "Sí, en cualquier tipo de vía.",
+     "c": "No, en ningún caso."
+    }
+   }
+  },
+  {
+   "id": "C-per-0007",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Puede el conductor circular sin el cinturón abrochado mientras realiza la maniobra de marcha atrás?",
+    "opciones": {
+     "a": "Solo dentro de poblado.",
+     "b": "Sí, al efectuar la maniobra de marcha atrás o de estacionamiento.",
+     "c": "No, nunca."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Puede el conductor circular sin el cinturón abrochado mientras realiza la maniobra de marcha atrás?",
+    "opciones": {
+     "a": "Solo dentro de poblado.",
+     "b": "Sí, al hacer marcha atrás o estacionar.",
+     "c": "No, nunca."
+    }
+   }
+  },
+  {
+   "id": "C-per-0008",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Una mujer embarazada, ¿está exenta de usar el cinturón de seguridad?",
+    "opciones": {
+     "a": "Sí, por el hecho de estar embarazada.",
+     "b": "Sí, pero solo dentro de poblado.",
+     "c": "No, salvo que disponga de un certificado de exención por razones médicas graves."
+    }
+   },
+   "despues": {
+    "enunciado": "Una mujer embarazada, ¿está exenta de usar el cinturón de seguridad?",
+    "opciones": {
+     "a": "Sí, por el hecho de estar embarazada.",
+     "b": "Sí, pero solo dentro de poblado.",
+     "c": "No, salvo que tenga un certificado de exención por razones médicas graves."
+    }
+   }
+  },
+  {
+   "id": "C-per-0011",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un niño de 9 años, ¿puede viajar como pasajero en un ciclomotor?",
+    "opciones": {
+     "a": "No, en ningún caso.",
+     "b": "Sí, con cualquier conductor, si lleva casco homologado.",
+     "c": "Sí, si conduce su padre, madre, tutor o una persona mayor de edad autorizada por ellos, y lleva casco homologado."
+    }
+   },
+   "despues": {
+    "enunciado": "Un niño de 9 años, ¿puede viajar como pasajero en un ciclomotor?",
+    "opciones": {
+     "a": "No, en ningún caso.",
+     "b": "Sí, con cualquier conductor, si lleva casco homologado.",
+     "c": "Sí, si conduce su padre, madre, tutor o un adulto autorizado, y lleva casco."
+    }
+   }
+  },
+  {
+   "id": "C-per-0012",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Cuándo pueden el conductor y el pasajero de una motocicleta circular sin casco?",
+    "opciones": {
+     "a": "Cuando la moto cuente con estructura de autoprotección y cinturones, conste así en la tarjeta ITV y usen el cinturón.",
+     "b": "En vías urbanas, si circulan a menos de 30 km/h.",
+     "c": "Nunca, en ningún caso."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuándo pueden el conductor y el pasajero de una motocicleta circular sin casco?",
+    "opciones": {
+     "a": "Cuando la moto tenga estructura de autoprotección y cinturones, y los usen.",
+     "b": "En vías urbanas, si circulan a menos de 30 km/h.",
+     "c": "Nunca, en ningún caso."
+    }
+   }
+  },
+  {
+   "id": "C-per-0013",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un ciclista de 30 años, que no circula por motivos profesionales, va en bicicleta por una vía urbana. ¿Está obligado a llevar casco?",
+    "opciones": {
+     "a": "Sí, en todo tipo de vías.",
+     "b": "No. El casco es obligatorio en vías interurbanas y, para los menores de 16 años, en todo tipo de vías.",
+     "c": "Solo entre el ocaso y la salida del sol."
+    }
+   },
+   "despues": {
+    "enunciado": "Un ciclista de 30 años, que no circula por motivos profesionales, va en bicicleta por una vía urbana. ¿Está obligado a llevar casco?",
+    "opciones": {
+     "a": "Sí, en todo tipo de vías.",
+     "b": "No.",
+     "c": "Solo entre el ocaso y la salida del sol."
+    }
+   }
+  },
+  {
+   "id": "C-per-0014",
+   "correcta": "c",
+   "reglas": [
+    "O2",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En una bicicleta construida para una sola persona, se puede llevar a un menor en un asiento adicional que cumpla las especificaciones técnicas. ¿Hasta qué peso puede tener el menor?",
+    "opciones": {
+     "a": "Hasta 15 kg.",
+     "b": "Hasta 35 kg.",
+     "c": "Hasta 22 kg, si es capaz de sentarse por sí solo."
+    }
+   },
+   "despues": {
+    "enunciado": "En una bicicleta para una sola persona se puede llevar a un menor en un asiento adicional homologado. ¿Hasta qué peso puede tener?",
+    "opciones": {
+     "a": "Hasta 15 kg.",
+     "b": "Hasta 35 kg.",
+     "c": "Hasta 22 kg, si es capaz de sentarse por sí solo."
+    }
+   }
+  },
+  {
+   "id": "C-perm-0005",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un turismo de 3.000 kg de MMA arrastra un remolque de 1.000 kg de MMA (conjunto de 4.000 kg). ¿Qué necesita para conducirlo?",
+    "opciones": {
+     "a": "El permiso B, sin ningún requisito adicional.",
+     "b": "El permiso C1.",
+     "c": "El permiso B, habiendo superado la prueba específica para estos conjuntos (código 96)."
+    }
+   },
+   "despues": {
+    "enunciado": "Un turismo de 3.000 kg arrastra un remolque de 1.000 kg, un conjunto de 4.000 kg. ¿Qué necesita para conducirlo?",
+    "opciones": {
+     "a": "El permiso B, sin ningún requisito adicional.",
+     "b": "El permiso C1.",
+     "c": "El permiso B con la prueba específica para estos conjuntos."
+    }
+   }
+  },
+  {
+   "id": "C-perm-0009",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué vehículos especiales no agrícolas se pueden conducir con el permiso B?",
+    "opciones": {
+     "a": "Los que no superen 40 km/h de velocidad máxima autorizada y tampoco superen 3.500 kg de MMA.",
+     "b": "Los que no superen 40 km/h, cualquiera que sea su masa.",
+     "c": "Todos, cualquiera que sea su masa y velocidad."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué vehículos especiales no agrícolas se pueden conducir con el permiso B?",
+    "opciones": {
+     "a": "Los de hasta 40 km/h y hasta 3.500 kg.",
+     "b": "Los que no superen 40 km/h, cualquiera que sea su masa.",
+     "c": "Todos, cualquiera que sea su masa y velocidad."
+    }
+   }
+  },
+  {
+   "id": "C-perm-0013",
+   "correcta": "b",
+   "reglas": [
+    "O2",
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "El permiso C1 autoriza a conducir automóviles cuya masa máxima autorizada...",
+    "opciones": {
+     "a": "no exceda de 3.500 kg.",
+     "b": "exceda de 3.500 kg y no sobrepase los 7.500 kg.",
+     "c": "exceda de 7.500 kg."
+    }
+   },
+   "despues": {
+    "enunciado": "El permiso C1 autoriza a conducir automóviles cuya masa máxima autorizada...",
+    "opciones": {
+     "a": "No exceda de 3.500 kg.",
+     "b": "Exceda de 3.500 kg sin pasar de 7.500 kg.",
+     "c": "Exceda de 7.500 kg."
+    }
+   }
+  },
+  {
+   "id": "C-perm-0014",
+   "correcta": "c",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "El permiso D1 autoriza a conducir automóviles diseñados para el transporte de...",
+    "opciones": {
+     "a": "no más de 8 pasajeros además del conductor.",
+     "b": "cualquier número de pasajeros, sin límite de longitud.",
+     "c": "no más de 16 pasajeros además del conductor, con una longitud máxima de 8 metros."
+    }
+   },
+   "despues": {
+    "enunciado": "El permiso D1 autoriza a conducir automóviles diseñados para el transporte de...",
+    "opciones": {
+     "a": "No más de 8 pasajeros además del conductor.",
+     "b": "Cualquier número de pasajeros, sin límite de longitud.",
+     "c": "No más de 16 pasajeros además del conductor, con 8 metros de longitud como máximo."
+    }
+   }
+  },
+  {
+   "id": "C-pun-0003",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor novel empezó con 8 puntos. ¿Cuándo pasa a disponer de 12 puntos?",
+    "opciones": {
+     "a": "Al cumplir un año de antigüedad, cuando deja de llevar la L.",
+     "b": "A los tres años, aunque haya sido sancionado.",
+     "c": "Cuando transcurren dos años sin ser sancionado en firme por infracciones que impliquen pérdida de puntos."
+    }
+   },
+   "despues": {
+    "enunciado": "Un conductor novel empezó con 8 puntos. ¿Cuándo pasa a disponer de 12 puntos?",
+    "opciones": {
+     "a": "Al cumplir un año de antigüedad, cuando deja de llevar la L.",
+     "b": "A los tres años, aunque haya sido sancionado.",
+     "c": "Tras dos años sin sanciones firmes que quiten puntos."
+    }
+   }
+  },
+  {
+   "id": "C-pun-0004",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor tiene 5 puntos y pasan dos años sin ser sancionado en firme por infracciones que lleven pérdida de puntos. ¿Qué ocurre?",
+    "opciones": {
+     "a": "Recupera la totalidad del crédito inicial de 12 puntos.",
+     "b": "Recupera 2 puntos.",
+     "c": "Recupera 4 puntos."
+    }
+   },
+   "despues": {
+    "enunciado": "Un conductor tiene 5 puntos y pasan dos años sin ser sancionado en firme por infracciones que lleven pérdida de puntos. ¿Qué ocurre?",
+    "opciones": {
+     "a": "Recupera los 12 puntos.",
+     "b": "Recupera 2 puntos.",
+     "c": "Recupera 4 puntos."
+    }
+   }
+  },
+  {
+   "id": "C-pun-0008",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la Ley de Tráfico, ¿cuál es la duración máxima de los cursos de recuperación parcial de puntos?",
+    "opciones": {
+     "a": "Diez horas.",
+     "b": "Quince horas.",
+     "c": "Veinticuatro horas."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuál es la duración máxima de los cursos de recuperación parcial de puntos?",
+    "opciones": {
+     "a": "Diez horas.",
+     "b": "Quince horas.",
+     "c": "Veinticuatro horas."
+    }
+   }
+  },
+  {
+   "id": "C-pun-0009",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor no profesional pierde todos sus puntos por primera vez. ¿Cuánto tiempo debe pasar, desde la notificación, para que pueda obtener un nuevo permiso?",
+    "opciones": {
+     "a": "Tres meses.",
+     "b": "Doce meses.",
+     "c": "Seis meses."
+    }
+   },
+   "despues": {
+    "enunciado": "Un conductor no profesional pierde todos los puntos por primera vez. Desde la notificación, ¿cuánto tiempo debe pasar para que pueda obtener un nuevo permiso?",
+    "opciones": {
+     "a": "Tres meses.",
+     "b": "Doce meses.",
+     "c": "Seis meses."
+    }
+   }
+  },
+  {
+   "id": "C-pun-0011",
+   "correcta": "b",
+   "reglas": [
+    "O2",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué debe hacer el titular cuyo permiso ha perdido vigencia por la pérdida total de puntos para obtener de nuevo un permiso, una vez cumplido el plazo?",
+    "opciones": {
+     "a": "Volver a hacer el examen teórico y el práctico, sin ningún curso.",
+     "b": "Superar un curso de sensibilización y reeducación vial de recuperación del permiso y después la prueba de control de conocimientos.",
+     "c": "Nada; basta con esperar el plazo."
+    }
+   },
+   "despues": {
+    "enunciado": "Tras perder todos los puntos y cumplir el plazo, ¿qué debe hacer el titular para obtener de nuevo un permiso?",
+    "opciones": {
+     "a": "Volver a hacer los exámenes teórico y práctico, sin ningún curso.",
+     "b": "Superar un curso de sensibilización y reeducación vial y una prueba de conocimientos.",
+     "c": "Nada, basta con esperar el plazo."
+    }
+   }
+  },
+  {
+   "id": "C-sev-0004",
+   "correcta": "a",
+   "reglas": [
+    "E4"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Durante cuánto tiempo debe llevar la señal V-13 (L de conductor novel) quien obtiene por primera vez un permiso de conducción?",
+    "opciones": {
+     "a": "Un año.",
+     "b": "Dos años.",
+     "c": "Tres años."
+    }
+   },
+   "despues": {
+    "enunciado": "Quien obtiene por primera vez un permiso de conducción, ¿durante cuánto tiempo debe llevar esta señal?",
+    "opciones": {
+     "a": "Un año.",
+     "b": "Dos años.",
+     "c": "Tres años."
+    }
+   }
+  },
+  {
+   "id": "C-sev-0005",
+   "correcta": "b",
+   "reglas": [
+    "E4"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Dónde debe colocarse la señal V-13 de conductor novel en un turismo?",
+    "opciones": {
+     "a": "En la parte posterior derecha.",
+     "b": "En la parte posterior izquierda, en sitio visible.",
+     "c": "En el ángulo superior derecho del parabrisas."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Dónde debe colocarse esta señal en un turismo?",
+    "opciones": {
+     "a": "En la parte posterior derecha.",
+     "b": "En la parte posterior izquierda, en sitio visible.",
+     "c": "En el ángulo superior derecho del parabrisas."
+    }
+   }
+  },
+  {
+   "id": "C-sev-0007",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué indica el dispositivo luminoso V-16 colocado sobre un vehículo?",
+    "opciones": {
+     "a": "Que el vehículo ha quedado inmovilizado en la calzada o que su carga ha caído sobre ella.",
+     "b": "Que el vehículo es lento y no supera los 40 km/h.",
+     "c": "Que el vehículo transporta una carga que sobresale."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué indica el dispositivo luminoso V-16 colocado sobre un vehículo?",
+    "opciones": {
+     "a": "Que el vehículo está inmovilizado en la calzada o que su carga ha caído en ella.",
+     "b": "Que el vehículo es lento y no supera los 40 km/h.",
+     "c": "Que el vehículo transporta una carga que sobresale."
+    }
+   }
+  },
+  {
+   "id": "D-acc-0001",
+   "correcta": "a",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿en qué proporción aproximada de los accidentes de tráfico interviene el factor humano?",
+    "opciones": {
+     "a": "Entre 70 y 90 de cada 100.",
+     "b": "Entre 4 y 13 de cada 100.",
+     "c": "Entre 10 y 35 de cada 100."
+    }
+   },
+   "despues": {
+    "enunciado": "¿En qué proporción aproximada de los accidentes de tráfico interviene el factor humano?",
+    "opciones": {
+     "a": "Entre 70 y 90 de cada 100.",
+     "b": "Entre 4 y 13 de cada 100.",
+     "c": "Entre 10 y 35 de cada 100."
+    }
+   }
+  },
+  {
    "id": "D-acc-0002",
    "correcta": "b",
    "reglas": [
@@ -3889,6 +4758,880 @@
      "a": "Solo se pueden evitar si se deben a un fallo del vehículo.",
      "b": "Se pueden evitar.",
      "c": "Se deben al azar y no se pueden prevenir."
+    }
+   }
+  },
+  {
+   "id": "D-acc-0005",
+   "correcta": "b",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Comparadas con el resto de carreteras, en las autopistas y autovías...",
+    "opciones": {
+     "a": "hay el mismo número de accidentes.",
+     "b": "hay menos accidentes.",
+     "c": "hay más accidentes, porque se circula más deprisa."
+    }
+   },
+   "despues": {
+    "enunciado": "Comparadas con el resto de carreteras, en las autopistas y autovías...",
+    "opciones": {
+     "a": "Hay el mismo número de accidentes.",
+     "b": "Hay menos accidentes.",
+     "c": "Hay más accidentes, porque se circula más deprisa."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0002",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Cómo afecta el alcohol a la visión del conductor?",
+    "opciones": {
+     "a": "Reduce la capacidad de ver lo que pasa a los lados y hace que se deslumbre más.",
+     "b": "No afecta a la visión, solo a los reflejos.",
+     "c": "Mejora la visión nocturna."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cómo afecta el alcohol a la visión del conductor?",
+    "opciones": {
+     "a": "Reduce la visión lateral y aumenta el deslumbramiento.",
+     "b": "No afecta a la visión, solo a los reflejos.",
+     "c": "Mejora la visión nocturna."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0003",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Dos personas beben exactamente la misma cantidad de la misma bebida. ¿Tendrán necesariamente la misma tasa de alcoholemia?",
+    "opciones": {
+     "a": "Sí, siempre.",
+     "b": "No; influyen factores como el peso, el sexo, la edad o haber comido.",
+     "c": "Sí, si tienen la misma edad."
+    }
+   },
+   "despues": {
+    "enunciado": "Dos personas beben exactamente la misma cantidad de la misma bebida. ¿Tendrán necesariamente la misma tasa de alcoholemia?",
+    "opciones": {
+     "a": "Sí, siempre.",
+     "b": "No, influyen el peso, el sexo, la edad o haber comido.",
+     "c": "Sí, si tienen la misma edad."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0006",
+   "correcta": "b",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Beber alcohol con el estómago lleno...",
+    "opciones": {
+     "a": "impide que el alcohol pase a la sangre.",
+     "b": "hace que el alcohol llegue a la sangre de forma más lenta.",
+     "c": "hace que el alcohol llegue a la sangre más rápido."
+    }
+   },
+   "despues": {
+    "enunciado": "Beber alcohol con el estómago lleno...",
+    "opciones": {
+     "a": "Impide que el alcohol pase a la sangre.",
+     "b": "Hace que el alcohol llegue a la sangre más despacio.",
+     "c": "Hace que el alcohol llegue a la sangre más rápido."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0009",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un peatón que no está implicado en ningún accidente comete una infracción de tráfico. ¿Está obligado a someterse a las pruebas de alcohol y drogas si se lo requiere un agente?",
+    "opciones": {
+     "a": "No, los peatones nunca están obligados.",
+     "b": "Sí, la Ley obliga también a los usuarios que hayan cometido una infracción.",
+     "c": "No, los peatones solo están obligados si hay un accidente."
+    }
+   },
+   "despues": {
+    "enunciado": "Un peatón no implicado en ningún accidente comete una infracción. Si un agente se lo requiere, ¿está obligado a someterse a las pruebas de alcohol y drogas?",
+    "opciones": {
+     "a": "No, los peatones nunca están obligados.",
+     "b": "Sí.",
+     "c": "No, los peatones solo están obligados si hay un accidente."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0013",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "El conductor de un camión de transporte de mercancías de más de 3.500 kg de masa máxima autorizada, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+    "opciones": {
+     "a": "0,25 miligramos por litro.",
+     "b": "0,30 miligramos por litro.",
+     "c": "0,15 miligramos por litro."
+    }
+   },
+   "despues": {
+    "enunciado": "El conductor de un camión de mercancías de más de 3.500 kg, ¿qué tasa máxima de alcohol en aire espirado puede tener?",
+    "opciones": {
+     "a": "0,25 miligramos por litro.",
+     "b": "0,30 miligramos por litro.",
+     "c": "0,15 miligramos por litro."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0014",
+   "correcta": "a",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor con diez años de permiso conduce una furgoneta particular, de uso privado, de 3.500 kg de masa máxima autorizada, con carga general (no peligrosa). ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+    "opciones": {
+     "a": "0,25 miligramos por litro.",
+     "b": "0,15 miligramos por litro, por ser transporte de mercancías.",
+     "c": "0 miligramos por litro."
+    }
+   },
+   "despues": {
+    "enunciado": "Con diez años de permiso, conduce una furgoneta de uso privado de 3.500 kg con carga general, no peligrosa. ¿Qué tasa máxima de alcohol en aire espirado puede tener?",
+    "opciones": {
+     "a": "0,25 miligramos por litro.",
+     "b": "0,15 miligramos por litro, por ser transporte de mercancías.",
+     "c": "0 miligramos por litro."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0017",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor de ciclomotor de 17 años, con dos años de antigüedad en su permiso, ¿qué tasa máxima de alcohol puede tener?",
+    "opciones": {
+     "a": "0; el conductor menor de edad no puede circular con ninguna tasa de alcohol.",
+     "b": "0,25 miligramos por litro en aire espirado.",
+     "c": "0,15 miligramos por litro en aire espirado."
+    }
+   },
+   "despues": {
+    "enunciado": "Un conductor de ciclomotor de 17 años, con dos años de antigüedad en su permiso, ¿qué tasa máxima de alcohol puede tener?",
+    "opciones": {
+     "a": "0 miligramos por litro en aire espirado.",
+     "b": "0,25 miligramos por litro en aire espirado.",
+     "c": "0,15 miligramos por litro en aire espirado."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0021",
+   "correcta": "b",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor con permiso de más de dos años da 0,40 mg/l de alcohol en aire espirado. ¿Cuántos puntos pierde si es sancionado en firme en vía administrativa?",
+    "opciones": {
+     "a": "2 puntos.",
+     "b": "4 puntos.",
+     "c": "6 puntos."
+    }
+   },
+   "despues": {
+    "enunciado": "Con más de dos años de permiso, da 0,40 mg/l en aire espirado. Si le sancionan en firme, ¿cuántos puntos pierde?",
+    "opciones": {
+     "a": "2 puntos.",
+     "b": "4 puntos.",
+     "c": "6 puntos."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0022",
+   "correcta": "c",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor novel, con menos de dos años de permiso, da 0,35 mg/l de alcohol en aire espirado. ¿Cuántos puntos pierde si es sancionado en firme en vía administrativa?",
+    "opciones": {
+     "a": "Ninguno, porque no supera 0,50 mg/l.",
+     "b": "4 puntos.",
+     "c": "6 puntos."
+    }
+   },
+   "despues": {
+    "enunciado": "Con menos de dos años de permiso, da 0,35 mg/l en aire espirado. Si le sancionan en firme, ¿cuántos puntos pierde?",
+    "opciones": {
+     "a": "Ninguno, porque no supera 0,50 mg/l.",
+     "b": "4 puntos.",
+     "c": "6 puntos."
+    }
+   }
+  },
+  {
+   "id": "D-alc-0023",
+   "correcta": "a",
+   "reglas": [
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor con permiso de más de dos años, que no ha sido sancionado por alcohol en el año anterior, da 0,30 mg/l en aire espirado. ¿Qué multa le corresponde?",
+    "opciones": {
+     "a": "500 euros.",
+     "b": "1.000 euros.",
+     "c": "200 euros."
+    }
+   },
+   "despues": {
+    "enunciado": "Con más de dos años de permiso y sin sanciones por alcohol en el último año, da 0,30 mg/l en aire espirado. ¿Qué multa le corresponde?",
+    "opciones": {
+     "a": "500 euros.",
+     "b": "1.000 euros.",
+     "c": "200 euros."
+    }
+   }
+  },
+  {
+   "id": "D-cal-0001",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Por qué es peligroso conducir con mucho calor?",
+    "opciones": {
+     "a": "Porque disminuye el tiempo de reacción.",
+     "b": "Porque el calor solo afecta al motor, no al conductor.",
+     "c": "Porque aparecen antes el sueño y la fatiga y se puede necesitar más tiempo para reaccionar."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Por qué es peligroso conducir con mucho calor?",
+    "opciones": {
+     "a": "Porque disminuye el tiempo de reacción.",
+     "b": "Porque el calor solo afecta al motor, no al conductor.",
+     "c": "Porque aparecen antes el sueño y la fatiga."
+    }
+   }
+  },
+  {
+   "id": "D-dis-0001",
+   "correcta": "c",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "La distancia de detención es...",
+    "opciones": {
+     "a": "la distancia de frenado menos la distancia de reacción.",
+     "b": "solo la distancia que recorre el vehículo mientras se frena.",
+     "c": "la suma de la distancia de reacción y la distancia de frenado."
+    }
+   },
+   "despues": {
+    "enunciado": "La distancia de detención es...",
+    "opciones": {
+     "a": "La distancia de frenado menos la de reacción.",
+     "b": "Solo la distancia que se recorre mientras se frena.",
+     "c": "La suma de la distancia de reacción y la de frenado."
+    }
+   }
+  },
+  {
+   "id": "D-dis-0003",
+   "correcta": "b",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "La distancia de reacción es el espacio que recorre el vehículo...",
+    "opciones": {
+     "a": "desde que se pisa el freno hasta que se para.",
+     "b": "desde que el conductor detecta un imprevisto hasta que puede reaccionar a él.",
+     "c": "desde que el vehículo se para hasta que vuelve a arrancar."
+    }
+   },
+   "despues": {
+    "enunciado": "La distancia de reacción es el espacio que recorre el vehículo...",
+    "opciones": {
+     "a": "Desde que se pisa el freno hasta que se para.",
+     "b": "Desde que el conductor detecta un imprevisto hasta que reacciona.",
+     "c": "Desde que el vehículo se para hasta que vuelve a arrancar."
+    }
+   }
+  },
+  {
+   "id": "D-dro-0001",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Puede conducir una persona que tiene presencia de drogas en el organismo, aunque ya no note sus efectos?",
+    "opciones": {
+     "a": "No, está prohibido conducir con presencia de drogas en el organismo.",
+     "b": "Sí, si no nota los efectos.",
+     "c": "Sí, si consumió el día anterior."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Puede conducir una persona que tiene presencia de drogas en el organismo, aunque ya no note sus efectos?",
+    "opciones": {
+     "a": "No.",
+     "b": "Sí, si no nota los efectos.",
+     "c": "Sí, si consumió el día anterior."
+    }
+   }
+  },
+  {
+   "id": "D-dro-0004",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿En qué consiste normalmente la prueba de detección de drogas que realizan los agentes de tráfico?",
+    "opciones": {
+     "a": "En una prueba salival mediante un dispositivo autorizado y un posterior análisis de una muestra salival.",
+     "b": "En soplar en un etilómetro.",
+     "c": "En una prueba de equilibrio y coordinación."
+    }
+   },
+   "despues": {
+    "enunciado": "¿En qué consiste normalmente la prueba de detección de drogas que realizan los agentes de tráfico?",
+    "opciones": {
+     "a": "En una prueba de saliva con un dispositivo autorizado y un análisis posterior.",
+     "b": "En soplar en un etilómetro.",
+     "c": "En una prueba de equilibrio y coordinación."
+    }
+   }
+  },
+  {
+   "id": "D-dro-0005",
+   "correcta": "b",
+   "reglas": [
+    "O2",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un conductor toma un medicamento con una sustancia considerada droga, recetado por su médico con finalidad terapéutica, y está en condiciones de conducir con seguridad. ¿Comete la infracción de conducir con presencia de drogas?",
+    "opciones": {
+     "a": "Sí, en cualquier caso.",
+     "b": "No, esas sustancias están excluidas si se está en condiciones de conducir con diligencia.",
+     "c": "Solo si conduce de noche."
+    }
+   },
+   "despues": {
+    "enunciado": "Un conductor toma un medicamento recetado que contiene una droga y está en condiciones de conducir con seguridad. ¿Comete la infracción de conducir con presencia de drogas?",
+    "opciones": {
+     "a": "Sí, en cualquier caso.",
+     "b": "No.",
+     "c": "Solo si conduce de noche."
+    }
+   }
+  },
+  {
+   "id": "D-dro-0006",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Cuál de estos es un posible efecto del cannabis en la conducción?",
+    "opciones": {
+     "a": "Reaccionar más rápido.",
+     "b": "Calcular mejor las distancias.",
+     "c": "Necesitar más tiempo para reaccionar y poder dormirse conduciendo."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuál de estos es un posible efecto del cannabis en la conducción?",
+    "opciones": {
+     "a": "Reaccionar más rápido.",
+     "b": "Calcular mejor las distancias.",
+     "c": "Tardar más en reaccionar y poder dormirse al volante."
+    }
+   }
+  },
+  {
+   "id": "D-fat-0001",
+   "correcta": "c",
+   "reglas": [
+    "O2",
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Para evitar la fatiga y la somnolencia en un viaje largo, la DGT recomienda descansar...",
+    "opciones": {
+     "a": "una vez cada 500 kilómetros.",
+     "b": "solo cuando se noten los primeros síntomas de sueño.",
+     "c": "20 o 30 minutos cada dos horas o cada 200 kilómetros, aunque no se sienta fatiga."
+    }
+   },
+   "despues": {
+    "enunciado": "Para evitar la fatiga y el sueño en un viaje largo, conviene descansar...",
+    "opciones": {
+     "a": "Una vez cada 500 kilómetros.",
+     "b": "Solo cuando se noten los primeros síntomas de sueño.",
+     "c": "20 o 30 minutos cada dos horas o cada 200 kilómetros."
+    }
+   }
+  },
+  {
+   "id": "D-fat-0003",
+   "correcta": "b",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Comer mucha cantidad y alimentos difíciles de digerir antes de conducir...",
+    "opciones": {
+     "a": "no influye en la conducción.",
+     "b": "puede provocar sueño y fatiga.",
+     "c": "mejora la atención durante el viaje."
+    }
+   },
+   "despues": {
+    "enunciado": "Comer mucho y alimentos difíciles de digerir antes de conducir...",
+    "opciones": {
+     "a": "No influye en la conducción.",
+     "b": "Puede provocar sueño y fatiga.",
+     "c": "Mejora la atención durante el viaje."
+    }
+   }
+  },
+  {
+   "id": "D-man-0001",
+   "correcta": "a",
+   "reglas": [
+    "O2",
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Cuando se pisa a fondo el pedal de embrague...",
+    "opciones": {
+     "a": "el movimiento del motor no se transmite a la caja de cambios ni a las ruedas.",
+     "b": "el vehículo frena con las cuatro ruedas.",
+     "c": "entra más combustible en el motor."
+    }
+   },
+   "despues": {
+    "enunciado": "Cuando se pisa a fondo el pedal de embrague...",
+    "opciones": {
+     "a": "El movimiento del motor no llega a la caja de cambios ni a las ruedas.",
+     "b": "El vehículo frena con las cuatro ruedas.",
+     "c": "Entra más combustible en el motor."
+    }
+   }
+  },
+  {
+   "id": "D-med-0002",
+   "correcta": "b",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Los antihistamínicos, que se toman para tratar las alergias, pueden producir...",
+    "opciones": {
+     "a": "una visión más nítida.",
+     "b": "sueño.",
+     "c": "una mejora de los reflejos."
+    }
+   },
+   "despues": {
+    "enunciado": "Los antihistamínicos, que se toman para las alergias, pueden producir...",
+    "opciones": {
+     "a": "Una visión más nítida.",
+     "b": "Sueño.",
+     "c": "Una mejora de los reflejos."
+    }
+   }
+  },
+  {
+   "id": "D-mov-0001",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Está permitido a un conductor de turismo utilizar el teléfono móvil mientras conduce?",
+    "opciones": {
+     "a": "Sí, si se sujeta con una sola mano y se conduce despacio.",
+     "b": "Solo si la comunicación tiene lugar sin emplear las manos ni usar cascos, auriculares o instrumentos similares.",
+     "c": "Sí, con auriculares en los dos oídos."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Está permitido a un conductor de turismo utilizar el teléfono móvil mientras conduce?",
+    "opciones": {
+     "a": "Sí, si se sujeta con una sola mano y se conduce despacio.",
+     "b": "Solo si no usa las manos ni cascos, auriculares o similares.",
+     "c": "Sí, con auriculares en los dos oídos."
+    }
+   }
+  },
+  {
+   "id": "D-mov-0005",
+   "correcta": "c",
+   "reglas": [
+    "E3",
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, el riesgo de accidente cuando se usa el móvil en el vehículo es...",
+    "opciones": {
+     "a": "menor, porque el conductor va más alerta.",
+     "b": "igual que cuando no se usa.",
+     "c": "cuatro veces mayor que cuando no se usa."
+    }
+   },
+   "despues": {
+    "enunciado": "Usar el móvil en el vehículo hace que el riesgo de accidente sea...",
+    "opciones": {
+     "a": "Menor, porque el conductor va más alerta.",
+     "b": "Igual que cuando no se usa.",
+     "c": "Cuatro veces mayor que cuando no se usa."
+    }
+   }
+  },
+  {
+   "id": "D-mov-0006",
+   "correcta": "a",
+   "reglas": [
+    "O1",
+    "O2",
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Hablar por teléfono con un dispositivo de manos libres mientras se conduce...",
+    "opciones": {
+     "a": "está permitido, pero también es peligroso porque parte de la atención se dedica a la conversación.",
+     "b": "está prohibido en cualquier caso.",
+     "c": "no supone ningún riesgo."
+    }
+   },
+   "despues": {
+    "enunciado": "Hablar por teléfono con un dispositivo de manos libres mientras se conduce...",
+    "opciones": {
+     "a": "Está permitido, pero resta atención a la conducción.",
+     "b": "Está prohibido en cualquier caso.",
+     "c": "No supone ningún riesgo."
+    }
+   }
+  },
+  {
+   "id": "D-mov-0007",
+   "correcta": "b",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Si habla por el móvil con un dispositivo de manos libres mientras conduce, la DGT recomienda que la conversación...",
+    "opciones": {
+     "a": "sea larga, para no tener que volver a llamar.",
+     "b": "no dure más de un minuto.",
+     "c": "dure como máximo diez minutos."
+    }
+   },
+   "despues": {
+    "enunciado": "Si habla por el móvil con manos libres mientras conduce, conviene que la conversación...",
+    "opciones": {
+     "a": "Sea larga, para no tener que volver a llamar.",
+     "b": "No dure más de un minuto.",
+     "c": "Dure como máximo diez minutos."
+    }
+   }
+  },
+  {
+   "id": "D-mov-0008",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Cuál de estas consecuencias puede tener prestar atención a una conversación telefónica mientras se conduce?",
+    "opciones": {
+     "a": "Calcular mejor las distancias.",
+     "b": "Ver mejor las señales.",
+     "c": "Salirse de la carretera o invadir el carril contrario."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuál de estas consecuencias puede tener prestar atención a una conversación telefónica mientras se conduce?",
+    "opciones": {
+     "a": "Calcular mejor las distancias.",
+     "b": "Ver mejor las señales.",
+     "c": "Salirse de la vía o invadir el carril contrario."
+    }
+   }
+  },
+  {
+   "id": "D-mov-0009",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Con el vehículo en movimiento, ¿puede el conductor ver una película en un monitor o reproductor de vídeo?",
+    "opciones": {
+     "a": "No, se considera incompatible con la atención permanente a la conducción.",
+     "b": "Sí, en autopistas y autovías.",
+     "c": "Sí, si el monitor está homologado."
+    }
+   },
+   "despues": {
+    "enunciado": "Con el vehículo en movimiento, ¿puede el conductor ver una película en un monitor o reproductor de vídeo?",
+    "opciones": {
+     "a": "No.",
+     "b": "Sí, en autopistas y autovías.",
+     "c": "Sí, si el monitor está homologado."
+    }
+   }
+  },
+  {
+   "id": "D-mov-0010",
+   "correcta": "b",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la DGT, ¿cuándo se debe programar el navegador GPS?",
+    "opciones": {
+     "a": "Mientras se conduce, siempre que se circule despacio.",
+     "b": "Antes de empezar a conducir.",
+     "c": "Mientras se conduce, en tramos rectos."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cuándo se debe programar el navegador?",
+    "opciones": {
+     "a": "Mientras se conduce, siempre que se circule despacio.",
+     "b": "Antes de empezar a conducir.",
+     "c": "Mientras se conduce, en tramos rectos."
+    }
+   }
+  },
+  {
+   "id": "D-nov-0001",
+   "correcta": "c",
+   "reglas": [
+    "E4",
+    "O1",
+    "O2",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Una persona tiene desde hace tres años el permiso AM de ciclomotor y acaba de obtener el permiso B. ¿Debe llevar la señal de conductor novel (L) en el turismo?",
+    "opciones": {
+     "a": "Sí, durante un año.",
+     "b": "Sí, durante dos años.",
+     "c": "No, porque ya ha sido titular de otro permiso durante al menos un año."
+    }
+   },
+   "despues": {
+    "enunciado": "Tiene el permiso AM desde hace tres años y acaba de obtener el B. ¿Debe llevar esta señal en el turismo?",
+    "opciones": {
+     "a": "Sí, durante un año.",
+     "b": "Sí, durante dos años.",
+     "c": "No."
+    }
+   }
+  },
+  {
+   "id": "D-pos-0002",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué favorece que se produzca el efecto submarino?",
+    "opciones": {
+     "a": "Llevar el reposacabezas a la altura de la cabeza.",
+     "b": "Llevar el respaldo recto.",
+     "c": "Llevar el respaldo del asiento muy inclinado hacia atrás y el cinturón mal colocado."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué favorece que se produzca el efecto submarino?",
+    "opciones": {
+     "a": "Llevar el reposacabezas a la altura de la cabeza.",
+     "b": "Llevar el respaldo recto.",
+     "c": "Llevar el respaldo muy inclinado y el cinturón mal colocado."
+    }
+   }
+  },
+  {
+   "id": "D-pos-0004",
+   "correcta": "b",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Con el asiento bien ajustado, las piernas del conductor deben quedar...",
+    "opciones": {
+     "a": "totalmente extendidas.",
+     "b": "ligeramente dobladas.",
+     "c": "dobladas en ángulo recto, con las rodillas tocando el volante."
+    }
+   },
+   "despues": {
+    "enunciado": "Con el asiento bien ajustado, las piernas del conductor deben quedar...",
+    "opciones": {
+     "a": "Totalmente extendidas.",
+     "b": "Ligeramente dobladas.",
+     "c": "Dobladas en ángulo recto, con las rodillas tocando el volante."
+    }
+   }
+  },
+  {
+   "id": "D-tre-0001",
+   "correcta": "c",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En condiciones normales, el tiempo de reacción de un conductor es de...",
+    "opciones": {
+     "a": "entre dos y tres segundos.",
+     "b": "menos de una décima de segundo.",
+     "c": "entre medio segundo y un segundo."
+    }
+   },
+   "despues": {
+    "enunciado": "En condiciones normales, el tiempo de reacción de un conductor es de...",
+    "opciones": {
+     "a": "Entre dos y tres segundos.",
+     "b": "Menos de una décima de segundo.",
+     "c": "Entre medio segundo y un segundo."
+    }
+   }
+  },
+  {
+   "id": "D-vel-0001",
+   "correcta": "b",
+   "reglas": [
+    "O2",
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Al aumentar la velocidad, la capacidad del conductor de ver lo que pasa a los lados...",
+    "opciones": {
+     "a": "no cambia.",
+     "b": "disminuye; es la llamada visión túnel.",
+     "c": "aumenta."
+    }
+   },
+   "despues": {
+    "enunciado": "Al aumentar la velocidad, la capacidad del conductor de ver lo que pasa a los lados...",
+    "opciones": {
+     "a": "No cambia.",
+     "b": "Disminuye.",
+     "c": "Aumenta."
+    }
+   }
+  },
+  {
+   "id": "D-vul-0001",
+   "correcta": "c",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según los estudios de la DGT, las personas mayores, como peatones, tienen más accidentes...",
+    "opciones": {
+     "a": "por igual, vayan solas o acompañadas.",
+     "b": "cuando van acompañadas por niños.",
+     "c": "cuando van solas."
+    }
+   },
+   "despues": {
+    "enunciado": "Las personas mayores, como peatones, tienen más accidentes...",
+    "opciones": {
+     "a": "Por igual, vayan solas o acompañadas.",
+     "b": "Cuando van acompañadas por niños.",
+     "c": "Cuando van solas."
+    }
+   }
+  },
+  {
+   "id": "D-vul-0003",
+   "correcta": "b",
+   "reglas": [
+    "T3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En caso de accidente, las personas mayores...",
+    "opciones": {
+     "a": "sufren lesiones más leves gracias a su prudencia.",
+     "b": "tienen lesiones más graves y menos posibilidades de sobrevivir.",
+     "c": "se recuperan antes que los jóvenes."
+    }
+   },
+   "despues": {
+    "enunciado": "En caso de accidente, las personas mayores...",
+    "opciones": {
+     "a": "Sufren lesiones más leves gracias a su prudencia.",
+     "b": "Tienen lesiones más graves y menos posibilidades de sobrevivir.",
+     "c": "Se recuperan antes que los jóvenes."
     }
    }
   },
@@ -3914,6 +5657,418 @@
      "a": "No, solo lo están los implicados.",
      "b": "Sí.",
      "c": "Solo si tiene formación en primeros auxilios."
+    }
+   }
+  },
+  {
+   "id": "E-ada-0001",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué hace el sistema de frenado autónomo de emergencia (AEB)?",
+    "opciones": {
+     "a": "Hace parpadear las luces de freno cuando frenas fuerte.",
+     "b": "Evita que las ruedas se bloqueen cuando el conductor frena a fondo.",
+     "c": "Avisa al conductor si se acerca demasiado al vehículo de delante y, si no reacciona y hay peligro de accidente, realiza un frenado de emergencia."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué hace el sistema de frenado autónomo de emergencia (AEB)?",
+    "opciones": {
+     "a": "Hace parpadear las luces de freno al frenar fuerte.",
+     "b": "Evita que las ruedas se bloqueen al frenar a fondo.",
+     "c": "Avisa si se acerca demasiado al de delante y, si no reacciona, frena solo."
+    }
+   }
+  },
+  {
+   "id": "E-ada-0002",
+   "correcta": "a",
+   "reglas": [
+    "E3",
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿qué hace el sistema de aviso de frenada de emergencia (EBD)?",
+    "opciones": {
+     "a": "Hace parpadear las luces de freno del vehículo que frena de forma brusca, para avisar al de detrás.",
+     "b": "Frena el vehículo por sí solo ante un obstáculo.",
+     "c": "Mide la presión de los neumáticos."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué hace el sistema de aviso de frenada de emergencia (EBD)?",
+    "opciones": {
+     "a": "Hace parpadear las luces de freno al frenar bruscamente.",
+     "b": "Frena el vehículo por sí solo ante un obstáculo.",
+     "c": "Mide la presión de los neumáticos."
+    }
+   }
+  },
+  {
+   "id": "E-ada-0003",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué hace el sistema de aviso de salida de carril (LDW)?",
+    "opciones": {
+     "a": "Mueve el volante para devolver el vehículo al centro del carril.",
+     "b": "Detecta las señales de límite de velocidad.",
+     "c": "Avisa al conductor cuando hace un cambio de carril imprevisto, por ejemplo por distracción o sueño."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué hace el sistema de aviso de salida de carril (LDW)?",
+    "opciones": {
+     "a": "Mueve el volante para devolver el vehículo al centro del carril.",
+     "b": "Detecta las señales de límite de velocidad.",
+     "c": "Avisa al conductor si se sale del carril sin querer, por distracción o sueño."
+    }
+   }
+  },
+  {
+   "id": "E-ada-0005",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿En qué maniobra ayuda el sistema de alerta de tráfico cruzado (RCTA)?",
+    "opciones": {
+     "a": "Al adelantar en carretera convencional.",
+     "b": "Al incorporarse a una autopista.",
+     "c": "Al circular marcha atrás, por ejemplo al salir de un aparcamiento."
+    }
+   },
+   "despues": {
+    "enunciado": "¿En qué maniobra ayuda el sistema de alerta de tráfico cruzado (RCTA)?",
+    "opciones": {
+     "a": "Al adelantar en carretera convencional.",
+     "b": "Al incorporarse a una autopista.",
+     "c": "Al circular marcha atrás, como al salir de un aparcamiento."
+    }
+   }
+  },
+  {
+   "id": "E-ada-0006",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "La imagen que muestra la cámara de 360 grados de un vehículo, ¿de dónde procede?",
+    "opciones": {
+     "a": "De un satélite, a través del navegador.",
+     "b": "De las cámaras de tráfico de la vía.",
+     "c": "De las cámaras del propio vehículo, que captan lo que hay a su alrededor."
+    }
+   },
+   "despues": {
+    "enunciado": "La imagen que muestra la cámara de 360 grados de un vehículo, ¿de dónde procede?",
+    "opciones": {
+     "a": "De un satélite, a través del navegador.",
+     "b": "De las cámaras de tráfico de la vía.",
+     "c": "De las cámaras del propio vehículo."
+    }
+   }
+  },
+  {
+   "id": "E-fre-0002",
+   "correcta": "c",
+   "reglas": [
+    "T"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "En una frenada de emergencia con un vehículo que tiene ABS, notas que el pedal del freno vibra. ¿Qué debes hacer?",
+    "opciones": {
+     "a": "Levantar el pie del freno y volver a pisarlo varias veces.",
+     "b": "Soltar el freno, porque la vibración indica una avería.",
+     "c": "Seguir pisando el freno fuerte y a fondo hasta que el vehículo se pare."
+    }
+   },
+   "despues": {
+    "enunciado": "En una frenada de emergencia con un vehículo con ABS, nota que el pedal del freno vibra. ¿Qué debe hacer?",
+    "opciones": {
+     "a": "Levantar el pie del freno y volver a pisarlo varias veces.",
+     "b": "Soltar el freno, porque la vibración indica una avería.",
+     "c": "Seguir pisando el freno fuerte hasta que el vehículo se pare."
+    }
+   }
+  },
+  {
+   "id": "E-neu-0004",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Si un neumático lleva una presión de inflado mayor de la recomendada, ¿por dónde se desgasta más?",
+    "opciones": {
+     "a": "Por los dos laterales.",
+     "b": "Por un solo lateral.",
+     "c": "Por el centro de la banda de rodadura."
+    }
+   },
+   "despues": {
+    "enunciado": "Si un neumático lleva una presión de inflado mayor de la recomendada, ¿por dónde se desgasta más?",
+    "opciones": {
+     "a": "Por los dos laterales.",
+     "b": "Por un solo lateral.",
+     "c": "Por el centro."
+    }
+   }
+  },
+  {
+   "id": "E-neu-0006",
+   "correcta": "c",
+   "reglas": [
+    "E3"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según el manual de la DGT, ¿cada cuánto tiempo conviene cambiar los neumáticos, aunque parezcan en buen estado?",
+    "opciones": {
+     "a": "Cada diez años.",
+     "b": "Solo cuando el dibujo llegue a 1,6 mm.",
+     "c": "Cada cinco años."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Cada cuánto tiempo conviene cambiar los neumáticos, aunque parezcan en buen estado?",
+    "opciones": {
+     "a": "Cada diez años.",
+     "b": "Solo cuando el dibujo llegue a 1,6 mm.",
+     "c": "Cada cinco años."
+    }
+   }
+  },
+  {
+   "id": "E-pas-0002",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Por dónde debe pasar la banda torácica (la del pecho) del cinturón de seguridad?",
+    "opciones": {
+     "a": "Por encima del cuello, para sujetar mejor la cabeza.",
+     "b": "Por el extremo del hombro, junto al brazo.",
+     "c": "Por la clavícula, entre el hombro y el cuello, bajando por el centro del pecho."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Por dónde debe pasar la banda del pecho del cinturón de seguridad?",
+    "opciones": {
+     "a": "Por encima del cuello, para sujetar mejor la cabeza.",
+     "b": "Por el extremo del hombro, junto al brazo.",
+     "c": "Por la clavícula, entre el hombro y el cuello."
+    }
+   }
+  },
+  {
+   "id": "E-pas-0004",
+   "correcta": "c",
+   "reglas": [
+    "E3",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Según la Ley de Tráfico, no hacer uso del cinturón de seguridad, o no hacerlo de forma adecuada (por ejemplo, llevarlo flojo con una pinza), ¿qué tipo de infracción es?",
+    "opciones": {
+     "a": "Leve.",
+     "b": "Muy grave.",
+     "c": "Grave."
+    }
+   },
+   "despues": {
+    "enunciado": "No usar el cinturón de seguridad, o no usarlo bien, por ejemplo flojo con una pinza, ¿qué tipo de infracción es?",
+    "opciones": {
+     "a": "Leve.",
+     "b": "Muy grave.",
+     "c": "Grave."
+    }
+   }
+  },
+  {
+   "id": "E-pas-0005",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "El airbag frontal, ¿hace innecesario el cinturón de seguridad?",
+    "opciones": {
+     "a": "Sí, en los asientos delanteros que tienen airbag.",
+     "b": "No; hay que llevar siempre el cinturón, también para que el impacto contra el airbag sea menor.",
+     "c": "Solo en trayectos urbanos."
+    }
+   },
+   "despues": {
+    "enunciado": "El airbag frontal, ¿hace innecesario el cinturón de seguridad?",
+    "opciones": {
+     "a": "Sí, en los asientos delanteros que tienen airbag.",
+     "b": "No, hay que llevar siempre el cinturón.",
+     "c": "Solo en trayectos urbanos."
+    }
+   }
+  },
+  {
+   "id": "E-pas-0008",
+   "correcta": "c",
+   "reglas": [
+    "O2",
+    "E1"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "Un menor que debe usar sistema de retención infantil viaja excepcionalmente en el asiento delantero, que tiene airbag frontal. ¿Puede usar una silla orientada hacia atrás?",
+    "opciones": {
+     "a": "Sí, siempre.",
+     "b": "No, nunca.",
+     "c": "Solo si el airbag ha sido desactivado."
+    }
+   },
+   "despues": {
+    "enunciado": "Un menor que debe usar sistema de retención infantil viaja excepcionalmente delante, en un asiento con airbag frontal. ¿Puede usar una silla orientada hacia atrás?",
+    "opciones": {
+     "a": "Sí, siempre.",
+     "b": "No, nunca.",
+     "c": "Solo si el airbag ha sido desactivado."
+    }
+   }
+  },
+  {
+   "id": "E-pas-0009",
+   "correcta": "b",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿En qué caso puede un menor de 135 cm o menos ocupar el asiento delantero de un turismo (siempre con su sistema de retención)?",
+    "opciones": {
+     "a": "Cuando el trayecto sea corto y urbano.",
+     "b": "Cuando todos los asientos traseros estén ya ocupados por menores que deben usar sistema de retención.",
+     "c": "Cuando lo autorice por escrito el padre o la madre."
+    }
+   },
+   "despues": {
+    "enunciado": "Con su sistema de retención, ¿en qué caso puede un menor de 135 cm o menos ir en el asiento delantero de un turismo?",
+    "opciones": {
+     "a": "Cuando el trayecto sea corto y urbano.",
+     "b": "Cuando los asientos traseros ya van ocupados por otros menores con sistema de retención.",
+     "c": "Cuando lo autorice por escrito el padre o la madre."
+    }
+   }
+  },
+  {
+   "id": "E-pas-0012",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Para qué sirve principalmente el reposacabezas?",
+    "opciones": {
+     "a": "Para proteger el cuello y las cervicales en caso de un golpe brusco, como un alcance por detrás.",
+     "b": "Para que el conductor descanse la cabeza durante la conducción.",
+     "c": "Para mejorar la postura del conductor y evitar la fatiga."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Para qué sirve principalmente el reposacabezas?",
+    "opciones": {
+     "a": "Para proteger el cuello en un golpe brusco, como un alcance por detrás.",
+     "b": "Para que el conductor descanse la cabeza mientras conduce.",
+     "c": "Para mejorar la postura del conductor y evitar la fatiga."
+    }
+   }
+  },
+  {
+   "id": "E-pas-0017",
+   "correcta": "a",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "El conductor de un patinete eléctrico (vehículo de movilidad personal), ¿debe llevar casco?",
+    "opciones": {
+     "a": "Sí, casco de protección homologado o certificado, adecuadamente abrochado.",
+     "b": "Solo si es menor de 16 años.",
+     "c": "Solo cuando circule por vías interurbanas."
+    }
+   },
+   "despues": {
+    "enunciado": "El conductor de un patinete eléctrico, ¿debe llevar casco?",
+    "opciones": {
+     "a": "Sí, homologado o certificado y bien abrochado.",
+     "b": "Solo si es menor de 16 años.",
+     "c": "Solo cuando circule por vías interurbanas."
+    }
+   }
+  },
+  {
+   "id": "E-seg-0002",
+   "correcta": "c",
+   "reglas": [
+    "O1",
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "El reposacabezas, ¿a qué tipo de seguridad del vehículo pertenece?",
+    "opciones": {
+     "a": "A la seguridad activa, porque ayuda a evitar el accidente.",
+     "b": "A ninguna; es un elemento de confort.",
+     "c": "A la seguridad pasiva, porque ayuda a que los ocupantes sufran menos daños en un accidente."
+    }
+   },
+   "despues": {
+    "enunciado": "El reposacabezas, ¿a qué tipo de seguridad del vehículo pertenece?",
+    "opciones": {
+     "a": "A la seguridad activa.",
+     "b": "A ninguna; es un elemento de confort.",
+     "c": "A la seguridad pasiva."
+    }
+   }
+  },
+  {
+   "id": "E-seg-0003",
+   "correcta": "c",
+   "reglas": [
+    "O2"
+   ],
+   "distractora_cambiada": false,
+   "antes": {
+    "enunciado": "¿Qué hacen las luces adaptativas?",
+    "opciones": {
+     "a": "Se encienden solas cuando oscurece, sin cambiar la zona que iluminan.",
+     "b": "Aumentan siempre la potencia de las luces de cruce.",
+     "c": "Ajustan la intensidad de las luces y el lugar donde alumbran según las necesidades de cada momento, por ejemplo en las curvas."
+    }
+   },
+   "despues": {
+    "enunciado": "¿Qué hacen las luces adaptativas?",
+    "opciones": {
+     "a": "Se encienden solas al oscurecer, sin cambiar la zona que iluminan.",
+     "b": "Aumentan siempre la potencia de las luces de cruce.",
+     "c": "Ajustan la intensidad y la zona que iluminan, por ejemplo en las curvas."
     }
    }
   },

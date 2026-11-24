@@ -4544,6 +4544,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "A-pri-0001",
+   "tema": "prioridad",
+   "subtema": "interseccion_sin_senalizar",
+   "materia": 1,
+   "enunciado": "En la intersección sin señalizar del esquema, ¿qué vehículo pasa primero?",
+   "opciones": {
+    "a": "El vehículo C.",
+    "b": "El vehículo A.",
+    "c": "El vehículo B."
+   },
+   "correcta": "a",
+   "explicacion": "Sin señal que regule la preferencia, se cede el paso a los vehículos que se aproximan por la derecha. C es el único que no tiene ningún vehículo a su derecha; después pasa B y, por último, A.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "57.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "En defecto de señal que regule la preferencia de paso, el conductor está obligado a cederlo a los vehículos que se aproximen por su derecha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/cruce-sin-senalizar-tres-vehiculos.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Cruce de cuatro brazos sin señales, marcas ni semáforos. El vehículo A llega por el sur, el B por el este y el C por el norte; los tres quieren seguir recto. El brazo oeste está vacío.",
+    "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "A-pri-0002",
    "tema": "prioridad",
    "subtema": "interseccion_sin_senalizar",
@@ -6984,6 +7012,118 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0006",
+   "tema": "senales",
+   "subtema": "orden_preferencia",
+   "materia": 1,
+   "enunciado": "Un semáforo emite luz amarilla intermitente y en el mismo acceso hay una señal de STOP. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Pasar con precaución sin detenerse, porque el semáforo prevalece sobre la señal vertical.",
+    "b": "Detenerse solo si se aproximan vehículos por la derecha.",
+    "c": "Detenerse, porque el amarillo intermitente no exime del cumplimiento de otras señales que obliguen a detenerse."
+   },
+   "correcta": "c",
+   "explicacion": "La luz amarilla intermitente obliga a extremar la precaución y, en su caso, ceder el paso, y no exime de cumplir otras señales que obliguen a detenerse, como el STOP.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.d",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Además, no eximen del cumplimiento de otras señales que obliguen a detenerse.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/semaforo-ambar-intermitente-stop.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: en el lado derecho, un semáforo con la luz amarilla intermitente y, en el mismo poste, una señal de STOP.",
+    "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0007",
+   "tema": "senales",
+   "subtema": "aplicacion_senales",
+   "materia": 1,
+   "enunciado": "Va a seguir de frente y hay señales verticales con indicaciones distintas a la derecha y a la izquierda de la calzada. ¿A cuáles debe obedecer?",
+   "opciones": {
+    "a": "A las situadas a su derecha.",
+    "b": "A las situadas a su izquierda.",
+    "c": "A la más restrictiva de las dos."
+   },
+   "correcta": "b",
+   "explicacion": "Si hay semáforos o señales verticales con indicaciones distintas a derecha e izquierda, quienes pretendan girar a la izquierda o seguir de frente solo deben obedecer las de su izquierda.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "132.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Si existen semáforos o señales verticales de circulación con indicaciones distintas a la derecha y a la izquierda, quienes pretendan girar a la izquierda o seguir de frente solo deben obedecer las de los situados inmediatamente a su izquierda.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/ceda-y-stop-recto.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a seguir de frente.",
+    "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0008",
+   "tema": "senales",
+   "subtema": "aplicacion_senales",
+   "materia": 1,
+   "enunciado": "Va a girar a la derecha y hay señales verticales con indicaciones distintas a la derecha y a la izquierda de la calzada. ¿A cuáles debe obedecer?",
+   "opciones": {
+    "a": "A las situadas inmediatamente a su derecha.",
+    "b": "A las situadas a su izquierda.",
+    "c": "A ambas, cumpliendo la más restrictiva."
+   },
+   "correcta": "a",
+   "explicacion": "Los usuarios deben obedecer los semáforos y señales situados inmediatamente a su derecha (o encima de la calzada o del carril); las de la izquierda solo rigen para quienes giran a la izquierda o siguen de frente.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "132.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Los usuarios deben obedecer las indicaciones de los semáforos y de las señales verticales de circulación situadas inmediatamente a su derecha, encima de la calzada o encima de su carril",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/ceda-y-stop-derecha.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde el conductor al llegar a una intersección: a la derecha de la calzada, una señal de ceda el paso; a la izquierda, una señal de STOP. La flecha indica que el vehículo va a girar a la derecha.",
+    "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0009",
+   "tema": "senales",
+   "subtema": "senales_verticales",
+   "materia": 1,
+   "enunciado": "Una señal de limitación de velocidad está colocada en el mismo poste que la señal con el nombre de un poblado. ¿Dónde se aplica esa limitación?",
+   "opciones": {
+    "a": "Solo en el tramo de vía hasta la siguiente intersección.",
+    "b": "En todo el poblado, salvo en los tramos en los que otras señales indiquen una reglamentación distinta.",
+    "c": "Solo en la travesía, no en el resto de calles del poblado."
+   },
+   "correcta": "b",
+   "explicacion": "Las señales de reglamentación colocadas al lado o en la vertical de la señal con el nombre del poblado se aplican a todo el poblado, excepto donde otras señales indiquen otra reglamentación en ciertos tramos.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "145.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Las señales de reglamentación colocadas al lado o en la vertical de una señal que indique el nombre del poblado significan que la reglamentación se aplica a todo el poblado",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/poblado-y-limite-velocidad.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Carretera que llega a un poblado: en el mismo poste hay una señal de velocidad máxima 40 y, debajo, la señal de entrada a poblado con su nombre.",
+    "credito": "Esquema propio del proyecto; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0010",
    "tema": "senales",
    "subtema": "senales_verticales",
@@ -7101,6 +7241,34 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": null,
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0016",
+   "tema": "senales",
+   "subtema": "agentes",
+   "materia": 1,
+   "enunciado": "Un agente tiene los brazos extendidos horizontalmente. ¿Quiénes deben detenerse?",
+   "opciones": {
+    "a": "Los usuarios que se acerquen al agente desde direcciones que corten la indicada por los brazos, cualquiera que sea el sentido de su marcha.",
+    "b": "Únicamente los vehículos que circulen por el carril al que apunta el brazo.",
+    "c": "Todos los usuarios, vengan de donde vengan."
+   },
+   "correcta": "a",
+   "explicacion": "Los brazos extendidos horizontalmente obligan a detenerse a quienes se acerquen desde direcciones que corten la indicada por los brazos, cualquiera que sea su sentido de marcha.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.1.1.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "obliga a detenerse a todos los usuarios de la vía que se acerquen al agente desde direcciones que corten la indicada por el brazo o los brazos extendidos y cualquiera que sea el sentido de su marcha",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/agente-brazos-horizontales.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde arriba de una intersección con un agente en el centro con los brazos extendidos horizontalmente hacia el este y el oeste. Se acercan vehículos por el sur (A), el norte (B), el este (C) y el oeste (D).",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24"
   },
   {
@@ -7564,6 +7732,62 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B1-sen-0049",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Está detenido ante un semáforo en rojo, en un carril reservado exclusivamente para girar a la derecha, aunque usted quería seguir de frente. Se enciende la flecha verde de giro a la derecha. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Esperar en el carril hasta que se ponga verde la luz circular, aunque haya vehículos detrás.",
+    "b": "Seguir de frente, porque la flecha verde le da paso.",
+    "c": "Avanzar en la dirección y sentido indicados por la flecha."
+   },
+   "correcta": "c",
+   "explicacion": "Cualquier vehículo que, al encenderse la flecha verde, se encuentre en un carril reservado exclusivamente para la dirección indicada por ella deberá avanzar en esa dirección y sentido.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.2.g",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Cualquier vehículo que, al encenderse la flecha verde, se encuentre en un carril reservado exclusivamente para la circulación en la dirección y sentidos indicados por la flecha o que, sin estar reservado, sea el que esta circulación tenga que utilizar, deberá avanzar en dicha dirección y sentido.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/semaforo-flecha-verde-derecha.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de dos carriles ante un semáforo. En el carril derecho hay una flecha pintada de giro a la derecha y un turismo detenido ante la línea; en el izquierdo, una flecha de frente. El semáforo tiene la luz roja encendida y una flecha verde de giro a la derecha encendida.",
+    "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-sen-0051",
+   "tema": "senales",
+   "subtema": "semaforos",
+   "materia": 1,
+   "enunciado": "Circula por un carril con un semáforo de carril que muestra una flecha verde apuntando hacia abajo. Más adelante, un semáforo circular está en rojo. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Detenerse ante el semáforo circular en rojo.",
+    "b": "Seguir, porque la flecha verde le da prioridad.",
+    "c": "Seguir con precaución, porque el semáforo de carril prevalece."
+   },
+   "correcta": "a",
+   "explicacion": "La flecha verde de carril solo autoriza a circular por ese carril y no exime de detenerse ante una luz roja circular ni de obedecer otras señales que obliguen a detenerse o ceder el paso.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.4.3.b",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Esta autorización de utilizar el carril no exime de la obligación de detenerse ante una luz roja circular",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/carril-reversible-semaforos.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada con un pórtico de semáforos de carril: sobre el carril del vehículo A, una flecha verde hacia abajo; sobre el otro, un aspa roja. Más adelante hay un semáforo circular con la luz roja encendida.",
+    "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B1-sen-0054",
    "tema": "senales",
    "subtema": "senales_verticales",
@@ -8001,6 +8225,34 @@ window.BANCO = {
     "alt": "Señal de la pregunta",
     "credito": "Catálogo oficial de señales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 95 del PDF consolidado",
     "alt_detalle": "Señal P-23: Paso de animales domésticos o ganado"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B1-pri-0071",
+   "tema": "prioridad",
+   "subtema": "incorporacion",
+   "materia": 1,
+   "enunciado": "Circula por una autopista y, por la derecha, otros vehículos se incorporan desde el carril de aceleración. ¿Qué debe hacer?",
+   "opciones": {
+    "a": "Ceder el paso a los que se incorporan, deteniéndose si es preciso.",
+    "b": "Mantener la velocidad y el carril, porque tiene preferencia y no debe hacer nada más.",
+    "c": "Facilitar la maniobra en la medida de lo posible, aunque usted tenga preferencia."
+   },
+   "correcta": "c",
+   "explicacion": "Los vehículos que circulan por la autopista tienen preferencia, pero los demás conductores deben facilitar, en la medida de lo posible, la incorporación.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "73.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "los demás conductores facilitarán, en la medida de lo posible, dicha maniobra",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/incorporacion-autopista.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Autopista de dos carriles. El vehículo A circula por el carril derecho a la altura del carril de aceleración; el vehículo B se incorpora por el carril de aceleración. El carril izquierdo está libre.",
+    "credito": "Esquema propio del proyecto"
    },
    "verificado_el": "2026-11-24"
   },
@@ -10223,6 +10475,62 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B2-mv-0018",
+   "tema": "marcas_viales",
+   "subtema": "longitudinales",
+   "materia": 1,
+   "enunciado": "Una marca longitudinal formada por dos líneas continuas y paralelas, ¿qué significa?",
+   "opciones": {
+    "a": "Que se puede atravesar para adelantar si hay visibilidad.",
+    "b": "Lo mismo que una sola línea continua: no se debe atravesar ni circular sobre ella.",
+    "c": "Que delimita un carril reversible."
+   },
+   "correcta": "b",
+   "explicacion": "Una marca longitudinal de dos líneas continuas y paralelas tiene el mismo significado que la formada por una sola línea continua.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Una marca longitudinal constituida por dos líneas continuas y paralelas tiene el mismo significado que la formada por una sola línea continua.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/marca-doble-continua.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Calzada de doble sentido cuyo eje está marcado con dos líneas blancas continuas y paralelas. El vehículo A circula hacia la derecha y el B en sentido contrario.",
+    "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0019",
+   "tema": "marcas_viales",
+   "subtema": "longitudinales",
+   "materia": 1,
+   "enunciado": "Circula junto a una marca formada por una línea continua adosada a otra discontinua. ¿Qué línea debe tener en cuenta?",
+   "opciones": {
+    "a": "Únicamente la línea situada en el lado por el que circula.",
+    "b": "Siempre la continua, que es la más restrictiva.",
+    "c": "Siempre la discontinua."
+   },
+   "correcta": "a",
+   "explicacion": "Cuando una línea continua está adosada a otra discontinua, los conductores deben tener en cuenta únicamente la línea situada en el lado por el que circulan.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "cuando la marca consiste en una línea longitudinal continua adosada a otra discontinua, las personas conductoras deberán tener en cuenta únicamente la línea situada en el lado por el que circulan",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/marca-continua-adosada-discontinua.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Calzada de doble sentido cuyo eje está formado por una línea continua adosada a una discontinua. El vehículo A circula por el carril contiguo a la línea discontinua; el B, en sentido contrario, junto a la continua.",
+    "credito": "Esquema propio del proyecto"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B2-mv-0020",
    "tema": "marcas_viales",
    "subtema": "longitudinales",
@@ -10557,6 +10865,34 @@ window.BANCO = {
    "verificado_el": "2026-11-24"
   },
   {
+   "id": "B2-mv-0034",
+   "tema": "marcas_viales",
+   "subtema": "flechas",
+   "materia": 1,
+   "enunciado": "¿Qué indica esta flecha pintada en su carril?",
+   "opciones": {
+    "a": "Que debe girar en la próxima intersección.",
+    "b": "Que el carril termina próximamente y debe abandonarlo hacia la dirección indicada, respetando la prioridad de quienes circulan por el carril que va a ocupar.",
+    "c": "Que se incorpora un carril por ese lado."
+   },
+   "correcta": "b",
+   "explicacion": "La flecha de fin de carril indica que el carril termina próximamente y hay que abandonarlo hacia la dirección indicada, respetando la prioridad de los vehículos del carril que se va a ocupar.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.3",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "indica que el carril en que está situada termina próximamente, siendo por tanto necesario abandonarlo hacia la dirección indicada, respetando en todo caso la prioridad",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-5.4b.png",
+    "alt": "Marca vial de la pregunta",
+    "alt_detalle": "Marca vial M-5.4b (plano oficial con medidas)",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 699 del PDF consolidado"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
    "id": "B2-mv-0035",
    "tema": "marcas_viales",
    "subtema": "flechas",
@@ -10637,6 +10973,34 @@ window.BANCO = {
     "alt": "Marca vial de la pregunta",
     "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 713 del PDF consolidado",
     "alt_detalle": "Marca vial M-7.6 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0038",
+   "tema": "marcas_viales",
+   "subtema": "cebreado",
+   "materia": 1,
+   "enunciado": "¿Puede entrar con su vehículo en una zona marcada con franjas oblicuas paralelas enmarcadas por una línea continua (cebreado)?",
+   "opciones": {
+    "a": "Sí, para adelantar si hay visibilidad.",
+    "b": "No; solo pueden entrar los obligados a circular por el arcén.",
+    "c": "Sí, para estacionar brevemente."
+   },
+   "correcta": "b",
+   "explicacion": "El cebreado significa que ningún conductor debe entrar con su vehículo o animal en esa zona, excepto los obligados a circular por el arcén.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "147.2.d)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "Significa que ningún conductor debe entrar con su vehículo o animal en la citada zona, excepto los obligados a circular por el arcén.",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/marcas/M-7.1a.png",
+    "alt": "Marca vial de la pregunta",
+    "alt_detalle": "Marca vial M-7.1a (plano oficial con medidas)",
+    "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 709 del PDF consolidado"
    },
    "verificado_el": "2026-11-24"
   },
@@ -10777,6 +11141,34 @@ window.BANCO = {
     "alt": "Marca vial de la pregunta",
     "credito": "Catálogo de marcas viales, anexo I del Reglamento General de Circulación (BOE-A-2003-23514), pág. 715 del PDF consolidado",
     "alt_detalle": "Marca vial M-7.12 (plano oficial con medidas)"
+   },
+   "verificado_el": "2026-11-24"
+  },
+  {
+   "id": "B2-mv-0045",
+   "tema": "marcas_viales",
+   "subtema": "avanza_motos",
+   "materia": 1,
+   "enunciado": "En un espacio avanza-motos o avanza-bici delante de un semáforo, cuando el semáforo está en rojo, ¿quién puede ocupar ese espacio?",
+   "opciones": {
+    "a": "Cualquier vehículo que llegue primero.",
+    "b": "Solo los peatones.",
+    "c": "Solo determinados vehículos, como ciclos, vehículos de movilidad personal, motocicletas o ciclomotores."
+   },
+   "correcta": "c",
+   "explicacion": "El avanza-bici o avanza-motos es un espacio anterior a la intersección o paso de peatones regulado por semáforo que, con el semáforo en rojo, solo pueden ocupar determinados vehículos como ciclos, VMP, motocicletas o ciclomotores.",
+   "fuente": {
+    "norma": "RGC",
+    "articulo": "Anexo I.5.2 (Catálogo de marcas viales) 4.7",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "cita": "un espacio en el que cuando el semáforo esté rojo solo podrá ser ocupado por determinados vehículos como ciclos, vehículos de movilidad personal, motocicletas o ciclomotores",
+    "version_consultada": "2026-06-26"
+   },
+   "imagen": {
+    "src": "img/esquemas/avanza-motos.svg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Calle con un semáforo en rojo y un paso de peatones. Antes del paso hay un espacio de 4 m delimitado por dos líneas de detención, con pictogramas de motocicleta y bicicleta. Los turismos A y B esperan detrás.",
+    "credito": "Esquema propio del proyecto"
    },
    "verificado_el": "2026-11-24"
   },

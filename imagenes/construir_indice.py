@@ -143,7 +143,8 @@ def main():
             "src": f"img/esquemas/{fichero}",
             "nombre": titulo,
             "alt": desc,
-            "credito": "Esquema propio del proyecto",
+            "credito": "Esquema propio del proyecto" + ("; incluye señales del Catálogo oficial (anexo I del RGC, BOE-A-2003-23514)"
+                                                         if "data:image/png" in open(os.path.join(AQUI, "esquemas", fichero), encoding="utf-8").read() else ""),
             "fuente": {"norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"},
             "licencia": "Propia del proyecto (sin derechos de terceros)",
             "formato": "svg",

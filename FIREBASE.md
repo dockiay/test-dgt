@@ -16,8 +16,8 @@ Firestore y lo sincroniza sola entre el móvil y el ordenador. Todo cabe en el p
 - Desmarcar una dudosa o vaciar el repaso también se sincroniza (no reaparece desde el otro dispositivo).
 - Cada persona tiene un documento `usuarios/{uid}`. Las reglas (`firestore.rules`) solo dejan leer y
   escribir el propio, con un formato fijo.
-- **Solo entran los correos de la lista.** La lista no está en el repositorio (es público): vive en el
-  secreto `CORREOS_PERMITIDOS` de GitHub y el workflow la escribe en `firestore.rules` al publicar.
+- **Solo entran los correos de la lista.** El workflow lee `CORREOS_PERMITIDOS` del entorno
+  `produccion` de GitHub Actions y lo escribe en `firestore.rules` al publicar.
   Cualquiera puede pulsar «Iniciar sesión con Google», pero si su correo no está en la lista la nube no le
   deja leer ni guardar nada: la web cierra su sesión y le explica que no tiene permiso (su progreso
   local no se toca).
@@ -48,14 +48,14 @@ Firestore y lo sincroniza sola entre el móvil y el ordenador. Todo cabe en el p
 
    Después, en la cuenta creada → *Claves → Agregar clave → Crear clave nueva → JSON*. Se descarga
    un fichero `.json`. Es una contraseña: no lo compartas ni lo subas al repositorio.
-6. **Darle los datos a GitHub.** En el repositorio → *Settings → Secrets and variables → Actions*:
-   - pestaña *Secrets* → *New repository secret*: nombre `FIREBASE_SERVICE_ACCOUNT`, valor: todo el
-     contenido del `.json`.
-   - otro secreto: nombre `CORREOS_PERMITIDOS`, valor: los correos que pueden entrar, separados por
-     comas (por ejemplo `uno@gmail.com, otra@hotmail.com`). Cada uno tiene que ser una cuenta de
-     Google: un Gmail, o un correo de otro proveedor con el que se haya creado una cuenta de Google.
-   - pestaña *Variables* → *New repository variable*: nombre `FIREBASE_PROJECT_ID`, valor: el id del
-     paso 1.
+6. **Darle los datos a GitHub.** En *Settings → Environments*, crea `produccion` y permite los
+   despliegues desde la rama `main`. En *Environment secrets*, añade estos dos secretos:
+   - `FIREBASE_SERVICE_ACCOUNT` con el contenido completo del `.json`.
+   - `CORREOS_PERMITIDOS` con las cuentas de Google autorizadas, separadas por comas. Pueden ser
+     cuentas de Gmail o cuentas de Google creadas con otro proveedor de correo.
+
+   En *Settings → Secrets and variables → Actions → Variables*, añade la variable de repositorio
+   `FIREBASE_PROJECT_ID` con el ID del proyecto del paso 1.
 
    Luego *Actions → Publicar en Firebase → Run workflow*. Desde entonces, cada cambio en `main` se
    publica solo. La web queda en `https://<id-del-proyecto>.web.app`.
@@ -64,7 +64,7 @@ Con eso ya se puede borrar el `.json` descargado.
 
 ## Dar o quitar acceso
 
-Cambia el secreto `CORREOS_PERMITIDOS` (*Settings → Secrets and variables → Actions*, editar) y luego
+Edita `CORREOS_PERMITIDOS` en *Settings → Environments → produccion → Environment secrets* y ejecuta
 *Actions → Publicar en Firebase → Run workflow*. En un minuto rigen las reglas nuevas. Quitar un correo no borra su progreso; solo deja de poder leerlo y guardarlo.
 
 ## Probar en local

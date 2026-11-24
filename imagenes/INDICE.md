@@ -717,7 +717,7 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `figuras-boe/anexoI-pag083-010.jpg` | Semáforos cuadrados o de carril | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3 |
 | `figuras-boe/anexoI-pag084-011.jpg` | Semáforos reservados a determinados vehículos (ciclos, tranvías y autobuses) | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4 |
 
-## Esquemas propios (43)
+## Esquemas propios (44)
 
 | Fichero | Qué muestra | Fuente |
 |---|---|---|
@@ -759,7 +759,8 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `esquemas/glorieta-sin-senalizar.svg` | Glorieta de un carril sin señales ni marcas de ceda el paso. El vehículo A circula por el anillo y se acerca a la entrada sur; el vehículo B llega por esa entrada. | Esquema propio del proyecto |
 | `esquemas/semaforo-otro-lado-cruce.svg` | Cruce visto desde arriba. El vehículo A llega por el sur. El semáforo, con la luz roja encendida, está en la esquina del otro lado del cruce. No hay línea de detención. | Esquema propio del proyecto |
 | `esquemas/cruce-tranvia-izquierda.svg` | Cruce sin señales ni semáforos. El vehículo A llega por el sur y va a seguir recto; por su izquierda se acerca un tranvía sobre sus raíles. | Esquema propio del proyecto |
-| `esquemas/cruce-camino-sin-pavimentar.svg` | Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. | Esquema propio del proyecto |
+| `esquemas/cruce-camino-sin-pavimentar.svg` | Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. Los dos quieren seguir recto. | Esquema propio del proyecto |
+| `esquemas/incorporacion-autovia-sin-trayectorias.svg` | El vehículo A está al principio del carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía. | Esquema propio del proyecto |
 | `esquemas/giro-izquierda-vehiculo-de-frente.svg` | Cruce visto desde arriba. El vehículo A está en el cruce y quiere girar a la izquierda; el vehículo B se acerca de frente, a poca distancia, y va a seguir recto. | Esquema propio del proyecto |
 | `esquemas/refugio-peatones-sentido-unico.svg` | Calle de sentido único con un paso para peatones y un refugio en el centro de la calzada. No hay señales. El vehículo A se acerca al refugio. | Esquema propio del proyecto |
 | `esquemas/grupo-ciclistas-cruce.svg` | Cruce visto desde arriba. Un grupo de seis ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; el vehículo A llega por el sur. | Esquema propio del proyecto |

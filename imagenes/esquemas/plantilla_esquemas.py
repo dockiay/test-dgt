@@ -805,8 +805,13 @@ def cruce_camino():
     els += [rect(240, 165, 160, 50, "#c8a978"),
             '<path d="M250,175 L400,178 M255,205 L400,203" stroke="#a88a5a" stroke-width="2" stroke-dasharray="6 8"/>',
             vehiculo(220, 320, 0, "A"), flecha("M220,292 L220,90", "A"),
-            vehiculo(320, 190, 270, "B")]
+            vehiculo(320, 190, 270, "B"), flecha("M292,190 L120,190", "B")]
     return els
+
+
+def incorporacion_autovia_sin_trayectorias():
+    """Como incorporacion_autovia, pero sin flechas de trayectoria (para no sugerir dónde entra A)."""
+    return [e for e in incorporacion_autovia() if "marker-end" not in e]
 
 
 def giro_izquierda_de_frente():
@@ -852,7 +857,8 @@ def v13_conductor_novel():
             # proporción del plano: 150 mm de ancho por 195 mm de alto
             '<rect x="85" y="50" width="230" height="300" rx="16" fill="#ffffff" stroke="#555" stroke-width="3"/>',
             '<rect x="97" y="62" width="206" height="276" rx="10" fill="#0b8a43"/>',
-            '<path d="M145,100 L182,100 L182,265 L262,265 L262,302 L145,302 Z" fill="#ffffff"/>']
+            # L del plano: ancho/alto 0,70 y trazo de 1/5 de la altura
+            '<path d="M130,100 L170,100 L170,262 L271,262 L271,302 L130,302 Z" fill="#ffffff"/>']
 
 
 ESQUEMAS_EXTRA3 = [
@@ -905,8 +911,11 @@ ESQUEMAS_EXTRA3 = [
      "Cruce sin señales ni semáforos. El vehículo A llega por el sur y va a seguir recto; por su izquierda se acerca un tranvía sobre sus raíles.",
      cruce_tranvia),
     ("cruce-camino-sin-pavimentar.svg", "Cruce con un camino de tierra",
-     "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar.",
+     "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. Los dos quieren seguir recto.",
      cruce_camino),
+    ("incorporacion-autovia-sin-trayectorias.svg", "Carril de aceleración",
+     "El vehículo A está al principio del carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.",
+     incorporacion_autovia_sin_trayectorias),
     ("giro-izquierda-vehiculo-de-frente.svg", "Giro a la izquierda con un vehículo de frente",
      "Cruce visto desde arriba. El vehículo A está en el cruce y quiere girar a la izquierda; el vehículo B se acerca de frente, a poca distancia, y va a seguir recto.",
      giro_izquierda_de_frente),

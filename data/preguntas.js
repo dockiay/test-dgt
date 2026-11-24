@@ -2162,9 +2162,9 @@ window.BANCO = {
     "version_consultada": "2026-06-26"
    },
    "imagen": {
-    "src": "img/esquemas/incorporacion-autovia.svg",
+    "src": "img/esquemas/incorporacion-autovia-sin-trayectorias.svg",
     "alt": "Esquema de la pregunta",
-    "alt_detalle": "El vehículo A circula por el carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.",
+    "alt_detalle": "El vehículo A está al principio del carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.",
     "credito": "Esquema propio del proyecto"
    },
    "verificado_el": "2026-11-24"

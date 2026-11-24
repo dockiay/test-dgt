@@ -1484,8 +1484,8 @@ Un vehículo de policía con la señal V-1 encendida le da instrucciones por meg
 Respuesta: **Sí, los agentes pueden dar órdenes a través de la megafonía mientras usan la señal V-1.**
 
 - ✔ Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
-- ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
 - ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
+- ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
 
 ## x1b-0045
 
@@ -9756,7 +9756,7 @@ Respuesta: **Un badén en la vía.**
 
 - ✔ La P-15b («Badén») advierte de la proximidad de un badén en la vía; el resalte es la P-15a y el escalón lateral, la P-30. _(RGC_CATALOGO Anexo I, catálogo de señales, P-15b (pág. 93 del PDF consolidado))_
 - ✘ `x1b-0043` Cuando las circunstancias lo exigen, los agentes pueden utilizar cualquier otra indicación distinta de las reglamentarias, realizada de forma clara. _(RGC Anexo I.1.1.f)_
-- ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
+- ✘ `B1-sen-0033` Los captafaros horizontales luminosos emiten luz verde, naranja o roja, y el único franqueable es el verde. _(RGC Anexo I.3.1.4.1º)_
 
 ## B1-sen-0085
 

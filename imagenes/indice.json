@@ -16457,7 +16457,20 @@
    "tipo": "esquema",
    "src": "img/esquemas/cruce-camino-sin-pavimentar.svg",
    "nombre": "Cruce con un camino de tierra",
-   "alt": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar.",
+   "alt": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. Los dos quieren seguir recto.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "incorporacion-autovia-sin-trayectorias",
+   "tipo": "esquema",
+   "src": "img/esquemas/incorporacion-autovia-sin-trayectorias.svg",
+   "nombre": "Carril de aceleración",
+   "alt": "El vehículo A está al principio del carril de aceleración para incorporarse a la autovía; el vehículo B circula por el carril derecho de la autovía.",
    "credito": "Esquema propio del proyecto",
    "fuente": {
     "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"

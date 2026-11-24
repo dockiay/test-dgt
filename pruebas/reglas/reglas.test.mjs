@@ -21,7 +21,7 @@ const sinVerificar = cuenta("sv", "companero@example.com", false);
 const anonimo = env.unauthenticatedContext().firestore();
 
 const resumen = (extra = {}) => Object.assign({ v: 1, nombre: "Estudiante", companeros: ["companero@example.com"], resumen: "{}", actualizado: serverTimestamp() }, extra);
-const animo = (extra = {}) => Object.assign({ de: "com", deNombre: "Compañero", para: "est", texto: "¡Ánimo!", creado: serverTimestamp(), leido: false }, extra);
+const animo = (extra = {}) => Object.assign({ de: "com", deNombre: "Compañero", deCorreo: "companero@example.com", para: "est", texto: "¡Ánimo!", creado: serverTimestamp(), leido: false }, extra);
 
 let fallos = 0, n = 0;
 async function caso(nombre, f) {
@@ -74,6 +74,7 @@ await caso("Sin sesión no lo lee", () => assertFails(getDoc(comp(anonimo))));
 let idAnimo;
 await caso("Compañero manda ánimos", async () => { idAnimo = (await assertSucceeds(addDoc(collection(companero, "animos"), animo()))).id; });
 await caso("Compañero no se hace pasar por otro", () => assertFails(addDoc(collection(companero, "animos"), animo({ de: "otr" }))));
+await caso("Compañero no firma con el correo de otra", () => assertFails(addDoc(collection(companero, "animos"), animo({ deCorreo: "otra@example.com" }))));
 await caso("Texto vacío no", () => assertFails(addDoc(collection(companero, "animos"), animo({ texto: "" }))));
 await caso("Texto de más de 300 no", () => assertFails(addDoc(collection(companero, "animos"), animo({ texto: "x".repeat(301) }))));
 await caso("No se manda ya leído", () => assertFails(addDoc(collection(companero, "animos"), animo({ leido: true }))));

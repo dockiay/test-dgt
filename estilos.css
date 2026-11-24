@@ -431,6 +431,7 @@ textarea.lista { display: block; width: 100%; min-height: 150px; font: .8125rem/
 .animo-cabecera { display: flex; align-items: center; gap: 10px; font-weight: 700; }
 .animo-cabecera .tesela { flex: none; }
 .animo-fecha { margin-left: auto; white-space: nowrap; align-self: flex-start; font-size: .8125rem; color: var(--texto3); font-weight: 600; }
+.animo-correo { display: block; font-size: .8125rem; font-weight: 600; color: var(--texto3); overflow-wrap: anywhere; }
 .animo-texto { margin: 0; font-size: 1.125rem; font-weight: 700; line-height: 1.4; white-space: pre-wrap; overflow-wrap: anywhere; }
 .animo-recibido .boton { justify-self: start; }
 .animo-fila { display: grid; gap: 2px; margin-top: 10px; }

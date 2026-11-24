@@ -167,7 +167,7 @@
   }
   function leerAnimo(s) {
     const d = s.data();
-    return { id: s.id, de: d.de, deNombre: String(d.deNombre || "Tu compañero").slice(0, 60), para: d.para, texto: String(d.texto || "").slice(0, MAX_TEXTO), creado: ms(d.creado), leido: !!d.leido };
+    return { id: s.id, de: d.de, deNombre: String(d.deNombre || "Tu compañero").slice(0, 60), deCorreo: String(d.deCorreo || "").slice(0, 254), para: d.para, texto: String(d.texto || "").slice(0, MAX_TEXTO), creado: ms(d.creado), leido: !!d.leido };
   }
 
   // Al iniciar sesión (primer guardado correcto), al cerrarla y tras cada guardado.
@@ -262,7 +262,7 @@
       if (!texto) { aviso.textContent = "Escribe un mensaje."; t.focus(); return; }
       boton.disabled = true; aviso.textContent = "Enviando…";
       try {
-        const ref = await c.fb.addDoc(c.fb.collection(c.db, "animos"), { de: c.usuario.uid, deNombre: primerNombre(c.usuario), para: p.uid, texto, creado: c.fb.serverTimestamp(), leido: false });
+        const ref = await c.fb.addDoc(c.fb.collection(c.db, "animos"), { de: c.usuario.uid, deNombre: primerNombre(c.usuario), deCorreo: (c.usuario.email || "").toLowerCase(), para: p.uid, texto, creado: c.fb.serverTimestamp(), leido: false });
         (est.enviados[p.uid] = est.enviados[p.uid] || []).unshift({ id: ref.id, de: c.usuario.uid, para: p.uid, texto, creado: Date.now(), leido: false });
         d.close();
         if (window.Animo) { window.Animo.sonar("acierto"); window.Animo.aviso("¡Ánimos enviados!", "meta"); }
@@ -300,7 +300,7 @@
 
   function tarjetaAnimo(a) {
     return h("section", { class: "tarjeta animo-recibido", "aria-label": `Mensaje de ánimo de ${a.deNombre}` },
-      h("div", { class: "animo-cabecera" }, h("span", { class: "tesela t-rojo" }, ico("corazon")), h("span", {}, h("strong", {}, a.deNombre), " te manda ánimos"), h("span", { class: "animo-fecha" }, hace(a.creado))),
+      h("div", { class: "animo-cabecera" }, h("span", { class: "tesela t-rojo" }, ico("corazon")), h("span", {}, h("strong", {}, a.deNombre), " te manda ánimos", a.deCorreo ? h("span", { class: "animo-correo" }, a.deCorreo) : null), h("span", { class: "animo-fecha" }, hace(a.creado))),
       h("p", { class: "animo-texto" }, a.texto),
       a.leido ? null : h("button", { class: "boton verde", onclick: () => { if (window.Animo) { window.Animo.sonar("meta"); window.Animo.confeti(60); } marcarLeido(a); } }, "¡Gracias!"));
   }

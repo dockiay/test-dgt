@@ -67,6 +67,26 @@ Con eso ya se puede borrar el `.json` descargado.
 Edita `CORREOS_PERMITIDOS` en *Settings → Environments → produccion → Environment secrets* y ejecuta
 *Actions → Publicar en Firebase → Run workflow*. En un minuto rigen las reglas nuevas. Quitar un correo no borra su progreso; solo deja de poder leerlo y guardarlo.
 
+## Compañero de estudio
+
+Desde *Compañero* (`#/companero`), quien estudia puede compartir su avance con otra persona, y esa persona
+puede verlo y mandarle ánimos. Lo decide siempre quien estudia:
+
+- Escribe el correo de la cuenta de Google de su compañero (hasta 5) y puede dejar de compartir cuando quiera.
+  Al dejar de compartir con todos, el resumen se borra de la nube.
+- Mientras comparte, la web publica un **resumen** en `compartidos/{su uid}`: preguntas vistas y dominadas,
+  racha, días estudiados de las dos últimas semanas, preparación, dominio por materia, últimos 10 exámenes y
+  la fecha del examen si la ha puesto. Nunca las respuestas pregunta a pregunta, los fallos ni las dudosas.
+  Se actualiza solo, como mucho cada 30 segundos, después de cada guardado en la nube.
+- El compañero solo puede **leer** ese resumen. Las reglas no le dejan leer ni escribir `usuarios/{uid}`
+  de quien estudia, ni cambiar el resumen.
+- Los ánimos van en `animos/{id}`. Solo puede mandarlos alguien con quien se comparte en ese momento; los
+  leen quien los manda y quien los recibe. Quien los recibe solo puede marcarlos como leídos o borrarlos.
+- **Las dos cuentas tienen que estar en `CORREOS_PERMITIDOS`**. Si quien estudia comparte con un correo
+  que no está en la lista, esa cuenta no podrá ver nada.
+
+Pruebas de las reglas: `pruebas/reglas/reglas.test.mjs` (instrucciones dentro del fichero).
+
 ## Probar en local
 
 Con Node y Java instalados:

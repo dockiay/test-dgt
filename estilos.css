@@ -424,3 +424,21 @@ textarea.lista { display: block; width: 100%; min-height: 150px; font: .8125rem/
 .leccion-cita .cita { margin-top: 6px; }
 .enlace-boe { display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; font-weight: 800; font-size: .875rem; color: var(--tinte-texto); }
 .enlace-boe svg.ico { width: 16px; height: 16px; }
+
+/* ---- compañero de estudio (companero.js) ---- */
+.bloque-companero { display: grid; gap: 12px; margin-top: 16px; }
+.animo-recibido { display: grid; gap: 10px; border-color: var(--rojo-suave); box-shadow: 0 var(--relieve) 0 var(--rojo-suave); }
+.animo-cabecera { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.animo-cabecera .tesela { flex: none; }
+.animo-fecha { margin-left: auto; white-space: nowrap; align-self: flex-start; font-size: .8125rem; color: var(--texto3); font-weight: 600; }
+.animo-texto { margin: 0; font-size: 1.125rem; font-weight: 700; line-height: 1.4; white-space: pre-wrap; overflow-wrap: anywhere; }
+.animo-recibido .boton { justify-self: start; }
+.animo-fila { display: grid; gap: 2px; margin-top: 10px; }
+.animo-fila > .boton { justify-self: end; }
+.comparte { margin-top: 12px; font-size: .9375rem; color: var(--texto2); }
+.comparte p { margin: 6px 4px; }
+.campo { width: 100%; min-height: 48px; font: inherit; font-size: 1.0625rem; color: var(--texto); background: var(--relleno); border: 2px solid var(--borde); border-radius: 12px; padding: 10px 12px; }
+.campo:focus, .hoja textarea:focus { outline: none; border-color: var(--tinte); }
+.frases-rapidas { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.chip { font: inherit; font-size: .875rem; font-weight: 700; color: var(--tinte-texto); background: var(--tinte-suave); border: 0; border-radius: 999px; padding: 8px 12px; cursor: pointer; }
+.subtitulo.centrado { text-align: center; }

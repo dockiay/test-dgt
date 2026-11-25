@@ -305,6 +305,7 @@
     return A.barajar(propias.concat(aparte).slice(0, NIVEL_N - repaso.length).concat(repaso));
   }
   const preguntasPaso = u => A.barajar(objs(u.ids)).slice(0, PASO_N);
+  const mezcla = (lista, u, nivel) => { try { return window.CaminoEjercicios ? CaminoEjercicios.mezclar(lista, u, nivel) : lista; } catch (e) { console.error(e); return lista; } };
 
   // Marca hechos varios nodos. Devuelve cuántos eran nuevos.
   function marcar(nodos) {
@@ -367,13 +368,14 @@
   }
   function empezarNodo(x) {
     const u = x.unidad;
-    if (x.tipo === "nivel") return A.practicar(preguntasNivel(u), "nivel", `Nivel ${x.i} de ${u.niveles}`, "#/temario", opNodo(x));
+    // Con camino-ejercicios.js, parte del nivel son ejercicios que no son tipo test (mezcla según el nivel).
+    if (x.tipo === "nivel") return A.practicar(mezcla(preguntasNivel(u), u, x.i), "nivel", `Nivel ${x.i} de ${u.niveles}`, "#/temario", opNodo(x));
     if (x.tipo === "paso") return A.practicar(preguntasPaso(u), "paso", "Test de paso", "#/temario", opNodo(x));
   }
   // Reto legendario: con la unidad superada, otras 20 preguntas de la unidad sin ningún fallo. La unidad pasa a oro.
   const legendaria = (datos, u) => !!caminoDe(datos)["oro-" + u.id];
   function empezarLegendario(u) {
-    A.practicar(preguntasPaso(u), "legendario", "Reto legendario", "#/temario", opLegendario(u));
+    A.practicar(mezcla(preguntasPaso(u), u, "legendario"), "legendario", "Reto legendario", "#/temario", opLegendario(u));
   }
   function finLegendario(u, s) {
     const hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;

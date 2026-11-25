@@ -593,9 +593,25 @@
     if (window.Celebracion) Celebracion.empezar();
     pintarPractica(s);
   }
+  // Lo común tras responder en práctica (pregunta o ejercicio): serie, guardado, sonido, objetivo del día.
+  function trasResponder(s, ok) {
+    s.seguidas = ok ? s.seguidas + 1 : 0; s.mejorSerie = Math.max(s.mejorSerie, s.seguidas);
+    s.frase = ok ? elegirFrase(FRASES_ACIERTO) : "";
+    guardarEnCurso(s);
+    pintarPractica(s, true);
+    if (ok) sonar("acierto"); else { sonar("fallo"); if (window.Animo) Animo.vibrar(60); }
+    const cumplido = sumarAlDia(1);
+    // Series de aciertos seguidos: 3, 5, 10 y cada 5 más.
+    if (ok && !cumplido && (s.seguidas === 3 || (s.seguidas >= 5 && s.seguidas % 5 === 0)) && window.Animo) {
+      setTimeout(() => { Animo.sonar("serie", s.seguidas); Animo.aviso(`¡${s.seguidas} seguidas!`); }, 380);
+    }
+    const ex = app.querySelector(".explicacion");
+    if (ex) ex.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+  }
   function pintarPractica(s, recien) {
     const p = s.lista[s.i], n = s.lista.length;
     if (!p) return finPractica(s);
+    if (p.ej) return pintarEjercicio(s, p, recien);
     const elegida = s.resp[p.id], corregida = elegida != null, hechas = Object.keys(s.resp).length, o = ordenDe(p);
     const elegir = k => {
       if (s.resp[p.id]) return;
@@ -611,18 +627,7 @@
           if (quiere) { s.pendiente = p.id; s.contenedor = contenedor; break; }
         }
       }
-      s.seguidas = ok ? s.seguidas + 1 : 0; s.mejorSerie = Math.max(s.mejorSerie, s.seguidas);
-      s.frase = ok ? elegirFrase(FRASES_ACIERTO) : "";
-      guardarEnCurso(s);
-      pintarPractica(s, true);
-      if (ok) sonar("acierto"); else { sonar("fallo"); if (window.Animo) Animo.vibrar(60); }
-      const cumplido = sumarAlDia(1);
-      // Series de aciertos seguidos: 3, 5, 10 y cada 5 más.
-      if (ok && !cumplido && (s.seguidas === 3 || (s.seguidas >= 5 && s.seguidas % 5 === 0)) && window.Animo) {
-        setTimeout(() => { Animo.sonar("serie", s.seguidas); Animo.aviso(`¡${s.seguidas} seguidas!`); }, 380);
-      }
-      const ex = app.querySelector(".explicacion");
-      if (ex) ex.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+      trasResponder(s, ok);
     };
     const seguir = () => { if (s.resp[p.id] && s.pendiente !== p.id) { s.i++; guardarEnCurso(s); pintarPractica(s); } };
     const acerto = corregida && elegida === p.correcta;
@@ -643,6 +648,41 @@
       teclas: { a: () => elegir(o[0]), b: () => elegir(o[1]), c: () => elegir(o[2]), 1: () => elegir(o[0]), 2: () => elegir(o[1]), 3: () => elegir(o[2]), enter: seguir, arrowright: seguir } },
       avance(`Pregunta ${s.i + 1} de ${n}`, `${plural(s.aciertos, "acierto", "aciertos")} · ${plural(hechas - s.aciertos, "fallo", "fallos")}`, s.i + (corregida ? 1 : 0), n),
       pregunta(p, elegida, corregida, elegir, recien, o));
+  }
+  // Ejercicio que no es tipo test (camino-ejercicios.js): p.ej = { crear(op), cabecera(), explicar(r), alResponder(ok) }.
+  // Se guarda como si fuera una pregunta: s.resp[p.id] = p.correcta si acierta y otra letra si falla.
+  function pintarEjercicio(s, p, recien) {
+    const n = s.lista.length, hechas = Object.keys(s.resp).length, corregida = s.resp[p.id] != null, acerto = corregida && s.resp[p.id] === p.correcta;
+    const vivos = s.vivos || (s.vivos = {});
+    let v = vivos[p.id];
+    const responder = r => {
+      if (!r || s.resp[p.id] || sesion !== s) return;
+      v.r = r;
+      s.resp[p.id] = r.ok ? p.correcta : NATURAL.find(k => k !== p.correcta);
+      if (r.ok) s.aciertos++;
+      try { p.ej.alResponder(r.ok, r); } catch (e) { console.error(e); }
+      trasResponder(s, r.ok);
+    };
+    if (!v) {
+      v = vivos[p.id] = { listo: false };
+      if (!corregida) v.inst = p.ej.crear({ cambio: l => { v.listo = !!l; if (v.boton) v.boton.disabled = !v.listo; }, fin: responder });
+    }
+    const comprobar = () => { if (v.inst && v.listo && !s.resp[p.id]) responder(v.inst.comprobar()); };
+    const seguir = () => { if (s.resp[p.id]) { if (v.inst && v.inst.soltar) v.inst.soltar(); s.i++; guardarEnCurso(s); pintarPractica(s); } };
+    if (corregida && !v.ex) v.ex = p.ej.explicar(v.r || { ok: acerto });
+    const r = v.r || {};
+    let boton;
+    if (corregida) boton = h("button", { class: "boton " + (acerto ? "verde" : "rojo"), onclick: seguir }, s.i < n - 1 ? "Continuar" : "Ver resultado");
+    else if (v.inst && v.inst.auto) boton = h("button", { class: "boton", disabled: true }, v.inst.pista || "Responde para continuar");
+    else boton = v.boton = h("button", { class: "boton", disabled: !v.listo, onclick: comprobar }, "Comprobar");
+    pantalla({ titulo: s.titulo, fijo: true, sesion: true, mantenerScroll: recien,
+      atras: { texto: "Terminar", icono: false, accion: () => { if (v.inst && v.inst.soltar) v.inst.soltar(); hechas ? finPractica(s) : (sesion = null, cerrarEnCurso(s), location.hash = s.vuelta, ruta()); } },
+      feedback: corregida ? { ok: acerto, titulo: acerto ? (s.frase || "¡Correcto!") : r.fallos ? "Casi" : "No es eso",
+        detalle: acerto ? (s.seguidas >= 3 ? `${s.seguidas} aciertos seguidos` : null) : r.fallos != null ? "Mira la explicación." : r.correcta ? `Respuesta: ${r.correcta}` : null } : null,
+      barra: [boton],
+      teclas: { enter: () => (corregida ? seguir() : comprobar()), arrowright: () => corregida && seguir() } },
+      avance(`Pregunta ${s.i + 1} de ${n}`, `${plural(s.aciertos, "acierto", "aciertos")} · ${plural(hechas - s.aciertos, "fallo", "fallos")}`, s.i + (corregida ? 1 : 0), n),
+      h("div", { class: "ej-en-practica" }, p.ej.cabecera(), v.inst ? v.inst.nodo : null, v.ex || null));
   }
   function finPractica(s) {
     sesion = null;
@@ -889,10 +929,13 @@
     datos.enCurso = { t: Date.now(), fin: true };
     if (!sinGuardar) guardar();
   }
+  // Preguntas del banco o, si una extensión las conoce (App.items), ejercicios del camino.
+  const ITEMS = [];
+  const itemPorId = id => POR_ID.get(id) || ITEMS.reduce((x, fn) => x || fn(id), null);
   function testEnCurso() {
     const e = datos.enCurso;
     if (!e || e.fin) return null;
-    const lista = e.ids.map(id => POR_ID.get(id)).filter(Boolean);
+    const lista = e.ids.map(itemPorId).filter(Boolean);
     if (!lista.length) return null;
     const ids = new Set(lista.map(p => p.id)), resp = {};
     for (const [id, k] of Object.entries(e.resp || {})) if (ids.has(id) && NATURAL.includes(k)) resp[id] = k;
@@ -1007,6 +1050,9 @@
     // Tras un fallo en práctica (no en exámenes): fn({ p, elegida, modo, contenedor, continuar }) devuelve
     // true si se queda el turno; entonces pinta en contenedor y llama a continuar() para ver la corrección.
     alFallar(fn) { ALFALLAR.push(fn); },
+    // Ejercicios que no son preguntas del banco: fn(id) devuelve el objeto que va en la lista de practicar (con p.ej) o null.
+    items(fn) { ITEMS.push(fn); },
+    registrar,
   };
   // Si hay un test a medias, la web se abre en el inicio, donde está «Continuar test».
   const arrancar = () => { if (testEnCurso() && !/^#\/(importar|perfil)/.test(location.hash) && location.hash && location.hash !== "#/") history.replaceState(null, "", location.pathname + location.search + "#/"); ruta(); };

@@ -288,15 +288,27 @@
     return tarjeta("ok", "trofeo", ya ? "Test de paso aprobado otra vez" : "¡Test de paso aprobado!",
       `${plural(fallos, "fallo", "fallos")} de ${s.lista.length} preguntas. ${ya ? "" : `Has superado «${u.titulo}».`}`, botonCamino(ya ? "Volver al camino" : "Ver mi avance en el camino"));
   }
+  // Lo que necesita un test del camino para terminar bien; ctx (la clave del nodo o la unidad) sirve para
+  // retomarlo si se deja a medias (App.reanudable).
+  const opNodo = x => ({ ctx: x.clave, alTerminar: s => x.tipo === "paso" ? finPaso(x, s) : finNivel(x, s), repetir: () => empezarNodo(x) });
+  const opLegendario = u => ({ ctx: u.id, alTerminar: s => finLegendario(u, s), repetir: () => empezarLegendario(u) });
+  function reanudableCamino() {
+    const A = window.App;
+    if (!A || !A.reanudable) return;
+    const nodo = clave => { construir(); const x = (NODOS || []).find(y => y.clave === clave); return x ? opNodo(x) : null; };
+    A.reanudable("nivel", nodo);
+    A.reanudable("paso", nodo);
+    A.reanudable("legendario", id => { construir(); const u = (UNIDADES || []).find(v => v.id === id); return u ? opLegendario(u) : null; });
+  }
   function empezarNodo(x) {
     const u = x.unidad;
-    if (x.tipo === "nivel") return A.practicar(preguntasNivel(u), "nivel", `Nivel ${x.i} de ${u.niveles}`, "#/temario", { alTerminar: s => finNivel(x, s), repetir: () => empezarNodo(x) });
-    if (x.tipo === "paso") return A.practicar(preguntasPaso(u), "paso", "Test de paso", "#/temario", { alTerminar: s => finPaso(x, s), repetir: () => empezarNodo(x) });
+    if (x.tipo === "nivel") return A.practicar(preguntasNivel(u), "nivel", `Nivel ${x.i} de ${u.niveles}`, "#/temario", opNodo(x));
+    if (x.tipo === "paso") return A.practicar(preguntasPaso(u), "paso", "Test de paso", "#/temario", opNodo(x));
   }
   // Reto legendario: con la unidad superada, otras 20 preguntas de la unidad sin ningún fallo. La unidad pasa a oro.
   const legendaria = (datos, u) => !!caminoDe(datos)["oro-" + u.id];
   function empezarLegendario(u) {
-    A.practicar(preguntasPaso(u), "legendario", "Reto legendario", "#/temario", { alTerminar: s => finLegendario(u, s), repetir: () => empezarLegendario(u) });
+    A.practicar(preguntasPaso(u), "legendario", "Reto legendario", "#/temario", opLegendario(u));
   }
   function finLegendario(u, s) {
     const hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
@@ -614,6 +626,7 @@
   A.ruta("temario", partes => { if (partes.length) guiaMateria(Number(partes[0])); else pantallaCamino(); });
   A.ruta("logros", () => pantallaLogros());
   A.inicioExtra(bloqueInicio, "arriba");
+  reanudableCamino();
   A.lateralExtra({ id: "logros", href: "#/logros", icono: "medalla", color: "verde", texto: "Logros" });
 
   window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, construir, get UNIDADES() { construir(); return UNIDADES; }, get NODOS() { construir(); return NODOS; }, nodoActual, animarAvance, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };

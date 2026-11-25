@@ -133,7 +133,8 @@
   });
   window.addEventListener("online", () => { if (auth && auth.currentUser) sincronizar(); });
 
-  async function entrar() {
+  // enPestana: entrar redirigiendo esta misma pestaña, sin ventana emergente (plan B si la ventana de Google falla).
+  async function entrar(enPestana) {
     if (!auth) return;
     const proveedor = new fb.GoogleAuthProvider();
     proveedor.setCustomParameters({ prompt: "select_account" });
@@ -141,7 +142,7 @@
     // En la app instalada (pantalla completa) las ventanas emergentes fallan a menudo: mejor redirigir.
     const instalada = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
     try {
-      if (instalada) return await fb.signInWithRedirect(auth, proveedor);
+      if (instalada || enPestana === true) return await fb.signInWithRedirect(auth, proveedor);
       await fb.signInWithPopup(auth, proveedor);
     } catch (e) {
       if (e && (e.code === "auth/popup-blocked" || e.code === "auth/operation-not-supported-in-this-environment")) {

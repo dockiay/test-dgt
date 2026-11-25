@@ -76,6 +76,7 @@
       cancelar: "Volver" });
   }
   function entrar() { entrando = true; window.Nube.entrar(); }
+  function entrarEnPestana() { entrando = true; window.Nube.entrar(true); }
 
   function pintarCapa(m) {
     const e = nube() || {}, partes = [];
@@ -106,7 +107,9 @@
         e.error ? h("p", { class: "bienvenida-error", role: "alert" }, e.error) : null,
         h("div", { class: "pila" },
           h("button", { class: "boton ancho boton-google", onclick: entrar }, h("span", { class: "g" }, "G"), "Iniciar sesión con Google"),
-          h("button", { class: "boton ancho plano bienvenida-sin-cuenta", onclick: usarSinCuenta }, "Usar sin cuenta")));
+          h("button", { class: "boton ancho plano bienvenida-sin-cuenta", onclick: usarSinCuenta }, "Usar sin cuenta")),
+        h("p", { class: "nota-pie centrado" }, "¿La ventana de Google da error? ",
+          h("button", { class: "enlace-pestana", onclick: entrarEnPestana }, "Entrar en esta pestaña")));
     }
     capa.replaceChildren(h("div", { class: "bienvenida-cuerpo" }, partes));
   }
@@ -163,6 +166,8 @@
       e && e.disponible ? [
         h("button", { class: "boton boton-google", onclick: entrar }, h("span", { class: "g" }, "G"), "Iniciar sesión con Google"),
         e.error ? h("p", { class: "bienvenida-error", role: "alert" }, e.error) : null,
+        h("p", { class: "nota-pie centrado" }, "¿La ventana de Google da error? ",
+          h("button", { class: "enlace-pestana", onclick: entrarEnPestana }, "Entrar en esta pestaña")),
         h("p", { class: "nota-pie centrado" }, "Al entrar, lo que has estudiado aquí se suma a tu cuenta, sin borrar nada.")] : null);
   }
 

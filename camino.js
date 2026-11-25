@@ -408,6 +408,7 @@
     setTimeout(() => { if (window.Animo) Animo.aviso(texto, "logro"); }, reducido() ? 0 : 900);
   }
   function tocarNodo(x) {
+    sonar("toque");
     const act = nodoActual(A.datos), hecho = hechoN(A.datos, x), u = x.unidad;
     if (x.tipo === "cofre") {
       if (hecho) return A.hoja({ titulo: "Cofre ya abierto", mensaje: "Sigue avanzando: en cada unidad hay un cofre a mitad de camino.", cancelar: "Vale" });
@@ -582,7 +583,7 @@
       sonar("aprobado");
       if (reducido()) return;
       sec.classList.add("av-oro");
-      setTimeout(() => { if (window.Animo) Animo.confeti(140); }, 300);
+      setTimeout(() => { if (window.Animo) Animo.confeti(140); sonar("brillo"); }, 300);
       setTimeout(() => sec.classList.remove("av-oro"), 1600);
       return;
     }
@@ -609,17 +610,26 @@
     verCentro(o, false);
     const T = [350, 1000];
     setTimeout(() => {
+      // El sonido del sello sale cuando arranca de verdad su animación (si no llega, a los 120 ms).
+      let sellado = false;
+      const sellar = () => {
+        if (sellado) return; sellado = true; o.removeEventListener("animationstart", alEmpezar);
+        if (tipo === "paso") { sonar("aprobado"); if (window.Animo) Animo.confeti(120); }
+        else if (tipo === "cofre") { sonar("meta"); if (window.Animo) Animo.confeti(60); }
+        else sonar("acierto");
+        if (window.Animo) Animo.vibrar(25);
+      };
+      const alEmpezar = e => { if (e.animationName === "av-sello" || e.animationName === "av-cofre") sellar(); };
+      o.addEventListener("animationstart", alEmpezar);
+      setTimeout(sellar, 120);
       o.classList.remove("av-origen"); o.classList.add("av-sello");
-      if (tipo === "paso") { sonar("aprobado"); if (window.Animo) Animo.confeti(120); }
-      else if (tipo === "cofre") { sonar("meta"); if (window.Animo) Animo.confeti(60); }
-      else sonar("acierto");
-      if (window.Animo) Animo.vibrar(25);
     }, T[0]);
     if (!d) return;
     const abrir = () => {
       d.classList.remove("av-destino"); d.classList.add("av-abre");
-      sonar("serie", 5);
+      sonar("abrir");
       if (globo) {
+        sonar("globo");
         const fin = () => { globo.style.transform = ""; globo.style.animation = ""; globo.style.opacity = ""; };
         if (mismo && globo.animate) {
           const desde = globo.style.transform; globo.style.transform = "translateX(-50%)";
@@ -632,7 +642,7 @@
       verCentro(d, true);
       if (mismo) {
         const g = GEOM.get(o.parentNode);
-        sonar("serie", 2);
+        sonar("carretera", 0.65);
         dibujarTramo(g.svg, tramo(g.xs, g.ys, +d.dataset.i), 650, abrir);
       } else setTimeout(abrir, 650);
     }, T[1]);

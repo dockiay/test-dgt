@@ -194,6 +194,15 @@
     llegada: (c, dur = 0.8) => { ruido(c, 0, dur * 0.85, { vol: 0.16, desde: 2600, hasta: 380 }); nota(c, 150, 0, dur * 0.85, { tipo: "triangle", vol: 0.09, hasta: 70, ataque: 0.04 }); },
     frenazo: c => { nota(c, 1650, 0, 0.15, { tipo: "triangle", vol: 0.06, hasta: 1250 }); nota(c, 1480, 0.07, 0.15, { tipo: "triangle", vol: 0.05, hasta: 1100 }); ruido(c, 0, 0.2, { vol: 0.05, desde: 3200, hasta: 1800, q: 3 }); },
     salto: (c, dur = 1.1) => { arco(c, dur * 0.15, 260, 640, dur * 0.3, dur * 0.3, { tipo: "triangle", vol: 0.13 }); pop(c, dur * 0.75, 0.2); },
+    // El camino del temario (camino.js): la carretera que se pinta hasta el siguiente nivel (sube con ella),
+    // el nivel que se abre y el globo «Sigue aquí» que se desplaza.
+    carretera: (c, dur = 0.65) => {
+      ruido(c, 0, dur, { vol: 0.07, desde: 500, hasta: 2400, q: 2 });
+      arco(c, 0, 330, 660, dur * 0.9, 0.08, { tipo: "triangle", vol: 0.07 });
+      [0, 4, 7, 12].forEach((s, i) => pop(c, dur * (0.15 + i * 0.25), 0.1 + i * 0.02));
+    },
+    abrir: c => { pop(c, 0, 0.26); campana(c, 1047, 0.06, 0.3, 0.2); campana(c, 1568, 0.14, 0.4, 0.22); },
+    globo: c => ruido(c, 0, 0.32, { vol: 0.06, desde: 900, hasta: 2600, q: 1.5 }),
     suspenso: c => { [7, 3, 0].forEach((s, i) => nota(c, 330 * Math.pow(2, s / 12), i * 0.16, 0.3, { tipo: "triangle", vol: 0.13 })); },
   };
   function sonar(nombre, arg) {

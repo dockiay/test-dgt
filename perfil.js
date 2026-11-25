@@ -261,7 +261,8 @@
       bloqueExamen(),
       bloqueCompanero(),
       bloqueAjustes(),
-      bloqueCuenta());
+      bloqueCuenta(),
+      window.Fichas ? window.Fichas.notaPerfil() : null);
   }
 
   A.ICONOS.persona = A.ICONOS.persona || "M12 12a4 4 0 100-8 4 4 0 000 8zM4.5 20.5c.8-3.8 3.8-6 7.5-6s6.7 2.2 7.5 6";

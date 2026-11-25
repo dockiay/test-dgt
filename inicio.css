@@ -1,0 +1,139 @@
+/* Portada (inicio.js): saludo, tira de estado, acción principal, camino, teselas de práctica y progreso.
+   Mismos colores, radios y relieves que estilos.css; los tonos de unidad (.tono-N) vienen de camino.css. */
+
+/* ---- Tira de estado: racha, objetivo de hoy, fecha de examen ---- */
+.tira-estado { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 2px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 14px 0 11px; border-radius: 22px; background: var(--celda); border: 2px solid var(--borde);
+  box-shadow: 0 3px 0 var(--borde); margin-bottom: 3px; font-size: .9375rem; font-weight: 700; color: var(--texto2); transition: transform .08s, box-shadow .08s; }
+.chip:active { transform: translateY(3px); box-shadow: 0 0 0 var(--borde); }
+@media (hover: hover) { .chip:hover { background: var(--celda-pulsada); } }
+.chip b { font-weight: 900; color: var(--texto); font-variant-numeric: tabular-nums; }
+.chip > svg.ico { width: 22px; height: 22px; vertical-align: 0; color: var(--texto3); }
+.chip-racha > svg.ico path { fill: currentColor; stroke: none; }
+.chip-racha.viva > svg.ico { color: var(--ambar); animation: llama 2.4s ease-in-out infinite; transform-origin: 50% 90%; }
+.chip-racha.viva b { color: var(--ambar-texto); }
+.chip-escudo { display: grid; place-items: center; width: 24px; height: 24px; margin: 0 -5px 0 2px; border-radius: 50%; background: var(--relleno); color: var(--texto3); }
+.chip-escudo.listo { background: var(--tinte-suave); color: var(--tinte-texto); }
+.chip-escudo svg.ico { width: 15px; height: 15px; stroke-width: 2.6; vertical-align: 0; }
+.chip-meta .anillo { width: 24px; height: 24px; }
+.chip-meta.cumplida > svg.ico { color: var(--verde); stroke-width: 3; }
+.chip-fecha > svg.ico { color: var(--tinte-texto); }
+.chip-fecha.cerca { border-color: var(--ambar); background: var(--ambar-suave); box-shadow: 0 3px 0 var(--ambar-borde); }
+.chip-fecha.cerca b, .chip-fecha.cerca span { color: var(--ambar-texto); } .chip-fecha.cerca > svg.ico { color: var(--ambar-texto); }
+.anillo { flex: none; fill: none; }
+.anillo-fondo { stroke: var(--relleno-fuerte); stroke-width: 5; }
+.anillo-valor { stroke: var(--ambar); stroke-width: 5; stroke-linecap: round; }
+dialog .racha.en-hoja { margin-top: 0; text-align: left; }
+
+/* ---- Rejilla de la portada ---- */
+.inicio { display: grid; gap: 0; margin-top: 12px; }
+.inicio-principal { display: grid; gap: 14px; min-width: 0; }
+.inicio-principal > * { margin-top: 0; margin-bottom: 0; }
+.inicio-principal > .grupo { margin-bottom: var(--relieve); }
+.inicio-lado, .inicio-practica { min-width: 0; }
+.inicio-pie { margin-top: 26px; text-align: center; }
+
+/* ---- Acción principal ---- */
+.tarjeta.principal { display: grid; gap: 14px; border-color: var(--tinte); box-shadow: 0 var(--relieve) 0 var(--tinte-borde); animation: aparecer .35s ease-out both; }
+.tarjeta.principal.hecho { border-color: var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); }
+.tarjeta.principal .boton { margin-bottom: var(--relieve); min-height: 58px; font-size: 1.25rem; }
+.principal-cabeza { display: flex; gap: 14px; align-items: center; }
+.principal-cabeza .tesela { width: 52px; height: 52px; border-radius: 16px; }
+.principal-cabeza .tesela svg.ico { width: 30px; height: 30px; }
+.principal-cabeza h2 { margin: 0; font-size: 1.5rem; font-weight: 900; line-height: 1.15; letter-spacing: -.01em; }
+.principal-etiqueta { margin: 0 0 1px; font-size: .75rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; color: var(--tinte-texto); }
+.tarjeta.principal.hecho .principal-etiqueta { color: var(--verde-texto); }
+.principal-plan { display: flex; align-items: center; gap: 8px; min-height: 44px; margin: -6px -6px; padding: 4px 6px; border-radius: 12px; color: var(--texto2); font-size: .9375rem; font-weight: 700; }
+.principal-plan span { flex: 1; }
+.principal-plan:hover { text-decoration: none; background: var(--relleno); }
+.principal-plan .chevron { width: 1em; height: 1em; stroke-width: 3; color: var(--texto3); }
+
+/* ---- El camino en la portada ---- */
+.camino-inicio { --u: var(--tinte); --u-borde: var(--tinte-borde); --u-suave: color-mix(in srgb, var(--u) 22%, var(--celda)); --u-texto: color-mix(in srgb, var(--u) 72%, var(--texto));
+  display: grid; gap: 14px; color: var(--texto); background: color-mix(in srgb, var(--u) 7%, var(--celda)); border-color: var(--u-suave); box-shadow: 0 var(--relieve) 0 var(--u-suave); transition: transform .08s, box-shadow .08s; }
+.camino-inicio.completo { --u: var(--ambar); --u-borde: var(--ambar-borde); --u-texto: var(--ambar-texto); }
+.camino-inicio:hover { text-decoration: none; }
+@media (hover: hover) { .camino-inicio:hover { border-color: var(--u); } }
+.camino-inicio:active { transform: translateY(var(--relieve)); box-shadow: 0 0 0 var(--u-suave); }
+.ci-cabeza { display: flex; gap: 12px; align-items: center; }
+.ci-num { flex: none; width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; font-size: 1.25rem; font-weight: 900; color: #fff; background: var(--u); box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); }
+.ci-num svg.ico { width: 24px; height: 24px; vertical-align: 0; }
+.ci-cabeza small { display: block; font-size: .6875rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; color: var(--u-texto); }
+.ci-cabeza strong { display: block; font-size: 1.125rem; font-weight: 900; line-height: 1.2; }
+.ci-ruta { list-style: none; margin: 2px 0 0; padding: 0 4px; display: flex; align-items: center; }
+.ci-nodo { flex: 1 1 0; display: flex; align-items: center; min-width: 0; }
+.ci-nodo:last-child { flex: none; }
+.ci-nodo::after { content: ""; flex: 1; height: 6px; margin: 0 -1px; background: var(--relleno-fuerte); }
+.ci-nodo:last-child::after { display: none; }
+.ci-nodo.hecho::after { background: var(--u); }
+.ci-nodo > span { position: relative; z-index: 1; flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-weight: 900; font-size: .9375rem;
+  color: var(--texto3); background: var(--relleno-fuerte); box-shadow: 0 3px 0 var(--borde); }
+.ci-nodo svg.ico { width: 18px; height: 18px; stroke-width: 3; vertical-align: 0; }
+.ci-nodo.hecho > span { color: #fff; background: var(--u); box-shadow: 0 3px 0 var(--u-borde); }
+.ci-nodo.actual > span { width: 46px; height: 46px; font-size: 1.125rem; color: #fff; background: var(--u); box-shadow: 0 4px 0 var(--u-borde), 0 0 0 5px var(--u-suave); animation: latido 1.8s ease-in-out infinite; }
+.ci-nodo.actual svg.ico { width: 22px; height: 22px; }
+.ci-pie { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: .9375rem; font-weight: 700; color: var(--texto2); }
+.ci-pie b { color: var(--texto); font-weight: 900; }
+.ci-ir { flex: none; display: inline-flex; align-items: center; gap: 2px; min-height: 36px; padding: 0 8px 0 14px; border-radius: 18px; font-weight: 900; color: var(--u-texto); background: var(--u-suave); }
+.ci-ir svg.ico { width: 1em; height: 1em; stroke-width: 3; vertical-align: 0; }
+
+/* ---- Más práctica: teselas ---- */
+.grupo.atajos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; background: none; border: 0; box-shadow: none; border-radius: 0; overflow: visible; }
+.grupo.atajos > li > .fila { height: 100%; min-height: 68px; gap: 10px; padding: 10px 12px; border-radius: var(--radio); border: 2px solid var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); transition: transform .08s, box-shadow .08s; }
+.grupo.atajos > li > .fila::before { display: none; }
+.grupo.atajos > li > .fila:active { transform: translateY(var(--relieve)); box-shadow: 0 0 0 var(--borde); }
+.grupo.atajos .fila-titulo { font-weight: 900; font-size: .9375rem; line-height: 1.2; }
+.grupo.atajos .fila-detalle { display: none; }
+.grupo.atajos .chevron, .grupo.atajos .fila-valor { display: none; }
+.grupo.atajos .insignia { position: absolute; top: -8px; right: -6px; box-shadow: 0 0 0 3px var(--fondo); }
+
+/* ---- Progreso ---- */
+.anillo-caja { position: relative; flex: none; width: 44px; height: 44px; margin: 0 -4px; display: grid; place-items: center; }
+.anillo-caja .anillo { position: absolute; inset: 0; width: 100%; height: 100%; }
+.anillo-caja .anillo-valor { stroke: var(--tinte); } .anillo-caja.lista .anillo-valor { stroke: var(--verde); }
+.anillo-caja b { position: relative; font-size: .8125rem; font-weight: 900; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.anillo-caja.lista b { color: var(--verde-texto); } .anillo-caja b svg.ico { width: 18px; height: 18px; stroke-width: 3.2; vertical-align: 0; }
+.semana-inicio { display: none; }
+
+@media (min-width: 640px) {
+  .grupo.atajos { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+  .grupo.atajos > li > .fila { display: grid; grid-template-columns: 1fr; align-content: start; gap: 10px; padding: 16px; min-height: 124px; }
+  .grupo.atajos .tesela { justify-self: start; width: 40px; height: 40px; border-radius: 12px; }
+  .grupo.atajos .tesela svg.ico { width: 22px; height: 22px; }
+  .grupo.atajos .fila-titulo { font-size: 1rem; }
+  .grupo.atajos .fila-detalle { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; font-size: .8125rem; margin-top: 3px; }
+  .grupo.atajos .insignia { top: 14px; right: 14px; box-shadow: none; }
+}
+/* Ordenador: acción principal y camino a la izquierda; semana y progreso a la derecha; práctica debajo. */
+@media (min-width: 900px) {
+  .tira-estado { margin-top: 14px; }
+  .inicio { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); column-gap: 20px; margin-top: 16px; align-items: start; }
+  .inicio-practica { grid-column: 1 / -1; grid-row: 2; }
+  .inicio-lado { grid-column: 2; grid-row: 1; display: grid; gap: 14px; }
+  .inicio-lado .cabecera { display: none; }
+  .inicio-lado .grupo { margin-bottom: 0; }
+  .semana-inicio { display: grid; gap: 12px; width: 100%; text-align: left; font-weight: 700; transition: transform .08s, box-shadow .08s; }
+  .semana-inicio:active { transform: translateY(var(--relieve)); box-shadow: 0 0 0 var(--borde); }
+  .semana-inicio-titulo { font-size: .75rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; color: var(--texto2); }
+  .semana-inicio .semana { margin: 0; gap: 2px; }
+  .semana-inicio .semana i { width: 28px; height: 28px; }
+  .semana-inicio-pie { display: flex; align-items: center; gap: 6px; font-size: .8125rem; color: var(--texto2); }
+  .semana-inicio-pie svg.ico { width: 16px; height: 16px; color: var(--tinte-texto); vertical-align: 0; }
+  .inicio-lado .fila { padding-top: 14px; padding-bottom: 14px; }
+}
+
+/* ---- El camino como acción principal; «Estudiar hoy» en segundo plano ---- */
+.camino-inicio.es-principal { border-color: var(--u); box-shadow: 0 var(--relieve) 0 var(--u-borde); animation: aparecer .35s ease-out both; }
+.camino-inicio.es-principal:active { transform: none; box-shadow: 0 var(--relieve) 0 var(--u-borde); }
+.camino-inicio.es-principal .ci-cabeza h2 { margin: 0; font-size: 1.375rem; font-weight: 900; line-height: 1.15; letter-spacing: -.01em; }
+.camino-inicio.es-principal .ci-num { width: 52px; height: 52px; border-radius: 16px; font-size: 1.5rem; }
+.camino-inicio.es-principal .boton { --b: var(--u); --bb: var(--u-borde); margin-bottom: var(--relieve); min-height: 58px; font-size: 1.25rem; }
+.camino-inicio.es-principal .principal-plan b { color: var(--texto); font-weight: 900; }
+.camino-inicio.es-principal .principal-plan:hover { background: var(--u-suave); }
+.ci-ver { flex: none !important; color: var(--u-texto); font-weight: 900; }
+.tarjeta.principal.secundaria { gap: 10px; border-color: var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); animation: none; }
+.tarjeta.principal.secundaria .principal-cabeza .tesela { width: 40px; height: 40px; border-radius: 12px; }
+.tarjeta.principal.secundaria .principal-cabeza .tesela svg.ico { width: 22px; height: 22px; }
+.tarjeta.principal.secundaria h2 { font-size: 1.1875rem; }
+.tarjeta.principal.secundaria .principal-etiqueta { color: var(--texto2); }
+.tarjeta.principal.secundaria .boton { min-height: 48px; font-size: 1.0625rem; }

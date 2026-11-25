@@ -22,6 +22,7 @@ El orden de las opciones se baraja en cada sesión para que no se pueda acertar 
 | Ruta | Qué es |
 |---|---|
 | `index.html`, `app.js`, `estilos.css`, `sw.js`, `manifest.webmanifest`, `icono.svg` | La web |
+| `inicio.js`, `inicio.css` | Portada: una acción principal (continuar el test a medias o «Estudiar hoy»), el camino con el paso que toca, racha/objetivo/fecha en una tira de estado y el resto en teselas |
 | `progreso.js`, `nube.js` | Modelo del progreso y sincronización con Firebase |
 | `camino.js`, `camino.css` | Camino del temario (etapas que se superan con el 60 % y se coronan con el 80 %), logros y estilos del protector de racha |
 | `companero.js` | Compañero de estudio: compartir un resumen del progreso y recibir ánimos (ver [FIREBASE.md](FIREBASE.md)) |

@@ -372,38 +372,14 @@
   const sonar = (nombre, arg) => window.Animo && Animo.sonar(nombre, arg);
 
   // ---------- Inicio ----------
+  // La portada vive en inicio.js (una acción principal, el camino en el centro y el resto recogido).
   function inicio() {
     pararReloj();
-    const nf = fallosDeHoy().length, nd = Object.keys(datos.dudosas).length;
-    const prep = P.preparacion(datos, TODAS, POR_MATERIA);
-    const ult = datos.historial.slice(-5).reverse();
-    pantalla({ titulo: "Test permiso B" },
-      h("h1", { class: "titulo-grande" }, "Test permiso B"),
-      h("p", { class: "subtitulo" }, `${PREGUNTAS.length} preguntas verificadas, cada una con su fuente oficial.`),
-      tarjetaContinuar(),
-      tarjetaRacha(),
-      extrasInicio("arriba"),
-      cifras([`${prep.global.vistas}/${PREGUNTAS.length}`, "Preguntas vistas"], [`${Math.floor(prep.global.dominio * 100)} %`, "Dominadas"], [`${Math.round(prep.avance * 100)} %`, "Preparación"]),
-      grupo("con-icono", fila({ icono: prep.lista ? "check" : "examen", color: prep.lista ? "verde" : "azul", titulo: prep.lista ? "Todo listo para el examen" : "Preparación para el examen",
-        detalle: prep.lista ? "Cumples todos los criterios" : `${prep.criterios.filter(c => c.cumple).length} de ${prep.criterios.length} criterios cumplidos · dominio por materia`, href: "#/progreso" })),
-      cabecera("Practicar"),
-      grupo("con-icono mosaico",
-        extrasInicio("practicar"),
-        fila({ icono: "examen", color: "azul", titulo: "Examen final", detalle: "30 preguntas, 30 minutos, máximo 3 fallos", href: "#/examen" }),
-        fila({ icono: "libro", color: "indigo", titulo: "Examen por temario", detalle: "16 materias, con la explicación al momento", href: "#/temario" })),
-      cabecera("Repasar"),
-      grupo("con-icono mosaico",
-        fila({ icono: "repetir", color: "naranja", titulo: "Mis fallos", detalle: nf ? `${plural(nf, "pregunta", "preguntas")} para repasar hoy` : "Nada que repasar hoy", insignia: nf || null, href: "#/fallos" }),
-        fila({ icono: "bandera", color: "rojo", titulo: "Preguntas dudosas", valor: String(nd), href: "#/dudosas" })),
-      ult.length ? [cabecera("Últimos exámenes"), grupo("", ult.map(r => h("div", { class: "fila" },
-        h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, fechaES(r.fecha)), h("span", { class: "fila-detalle" }, `${plural(r.fallos, "fallo", "fallos")} de ${r.total} · ${mmss(r.segundos)} min`)),
-        h("span", { class: "fila-valor " + (r.apto ? "apto" : "noapto") }, r.apto ? "Apto" : "No apto"))))] : null,
-      extrasInicio("abajo"),
-      cabecera("Información"),
-      grupo("con-icono", filaPerfil(),
-        fila({ icono: "info", color: "gris", titulo: "Fuentes y aviso legal", href: "#/fuentes" })),
-      PREGUNTAS.length < 300 ? h("p", { class: "nota-pie" }, "El banco todavía es pequeño y no cubre todo el temario. Crecerá a medida que se verifiquen más preguntas.") : null);
+    return window.Inicio.pintar();
   }
+  const filasUltimosExamenes = n => datos.historial.slice(-n).reverse().map(r => h("div", { class: "fila" },
+    h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, fechaES(r.fecha)), h("span", { class: "fila-detalle" }, `${plural(r.fallos, "fallo", "fallos")} de ${r.total} · ${mmss(r.segundos)} min`)),
+    h("span", { class: "fila-valor " + (r.apto ? "apto" : "noapto") }, r.apto ? "Apto" : "No apto")));
 
   // ---------- Examen final ----------
   function portadaExamen() {
@@ -765,7 +741,8 @@
             h("span", { class: "fila-detalle" }, `${r.dominada} de ${r.total} dominadas · ${r.vistas} vistas${r.repaso ? ` · ${r.repaso} en repaso` : ""}`), barraDominio(r)),
           h("span", { class: "fila-valor" }, `${Math.floor(r.dominio * 100)} %`), ico("chevron", "chevron"));
       })),
-      h("div", { class: "leyenda" }, h("span", {}, h("i", { class: "d-dominada" }), "Dominada"), h("span", {}, h("i", { class: "d-vista" }), "Vista"), h("span", {}, h("i", { class: "d-repaso" }), "En repaso")));
+      h("div", { class: "leyenda" }, h("span", {}, h("i", { class: "d-dominada" }), "Dominada"), h("span", {}, h("i", { class: "d-vista" }), "Vista"), h("span", {}, h("i", { class: "d-repaso" }), "En repaso")),
+      datos.historial.length ? [cabecera("Últimos exámenes"), grupo("", filasUltimosExamenes(5))] : null);
   }
 
   // ---------- Pasar el progreso a otro dispositivo ----------
@@ -1009,7 +986,7 @@
   // Se cargan después de app.js; la primera pantalla se pinta cuando ya están todas (DOMContentLoaded).
   window.App = {
     h, ico, ICONOS, fila, grupo, cabecera, cifras, segmentos, pantalla, hoja, vacio, avance, pregunta, barajar, priorizar, plural, fechaES, fechaCorta, mmss,
-    materia, nombreTema, tarjetaRacha, sonar, seccionNube, textoNube, repintarSiSeguro, practicar, empezarExamen, pararReloj, repintar: () => ruta(),
+    materia, nombreTema, tarjetaRacha, tarjetaContinuar, extrasInicio, fallosDeHoy, sonar, seccionNube, textoNube, repintarSiSeguro, practicar, empezarExamen, pararReloj, repintar: () => ruta(),
     MATERIAS, PREGUNTAS, POR_ID, POR_MATERIA, TODAS, EXAMEN_PREGUNTAS, PROPORCION_FALLOS,
     get datos() { return datos; }, guardar,
     get sesion() { return sesion; },
@@ -1020,8 +997,8 @@
     pantallas: { inicio, listaTemario, portadaMateria, portadaExamen, portadaFallos },
     // Pantalla #/nombre/...: fn(partes) recibe el resto de la ruta.
     ruta(nombre, fn) { RUTAS[nombre] = fn; },
-    // Bloques extra en la portada. lugar: "arriba" (tras la racha), "practicar" (filas al principio de
-    // «Practicar») o "abajo" (antes de «Información»). fn() devuelve nodos o null.
+    // Bloques extra en la portada (inicio.js). lugar: "arriba" (tras la acción principal), "practicar" (filas
+    // al principio de «Más práctica», que se pintan como teselas) o "abajo" (al final). fn() devuelve nodos o null.
     inicioExtra(fn, lugar = "abajo") { (INICIO[lugar] || INICIO.abajo).push(fn); },
     // Entrada en la barra lateral del ordenador, sección «Practicar»: { id, href, icono, color, texto, cuenta() }.
     lateralExtra(l) { LATERAL.push(l); },

@@ -655,16 +655,6 @@
   }
 
   // ---------- Portada: resumen del camino y de los logros ----------
-  function bloqueInicio() {
-    const lista = etapas(A.datos, MATS()), coronas = lista.filter(e => e.coronada).length, act = nodoActual(A.datos);
-    const ls = estadoLogros(A.datos, TODAS(), MATS()), n = ls.filter(l => l.conseguido).length;
-    const proximo = ls.filter(l => !l.conseguido).sort((a, b) => b.valor / b.meta - a.valor / a.meta)[0];
-    return grupo("con-icono mosaico",
-      fila({ icono: "mapa", color: "ambar", titulo: act ? `Camino: ${act.tipo === "paso" ? "test de paso" : act.tipo === "cofre" ? "abre el cofre" : `nivel ${act.i}`} · materia ${act.unidad.materia}` : "Camino completado",
-        detalle: act ? act.unidad.titulo : `${plural(coronas, "materia coronada", "materias coronadas")} de 16`, href: "#/temario" }),
-      fila({ icono: "medalla", color: "verde", titulo: `Logros: ${n} de ${ls.length}`, detalle: proximo ? `Próximo: ${proximo.titulo} (${proximo.valor}/${proximo.meta})` : "¡Los tienes todos!", href: "#/logros" }));
-  }
-
   // ---------- Celebraciones ----------
   let cola = [], celebrando = false;
   function celebrar(nuevos) {
@@ -696,9 +686,8 @@
 
   A.ruta("temario", partes => { if (partes.length) guiaMateria(Number(partes[0])); else pantallaCamino(); });
   A.ruta("logros", () => pantallaLogros());
-  A.inicioExtra(bloqueInicio, "arriba");
   reanudableCamino();
   A.lateralExtra({ id: "logros", href: "#/logros", icono: "medalla", color: "verde", texto: "Logros" });
 
-  window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, construir, get UNIDADES() { construir(); return UNIDADES; }, get NODOS() { construir(); return NODOS; }, nodoActual, animarAvance, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };
+  window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, construir, get UNIDADES() { construir(); return UNIDADES; }, get NODOS() { construir(); return NODOS; }, nodoActual, hecho: hechoN, legendaria, empezarNodo, NIVEL_N, PASO_N, animarAvance, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };
 })();

@@ -347,79 +347,115 @@
   }
 
   // ---------- Vista del camino ----------
-  const FILA = 96, XS = [50, 68, 76, 68, 50, 32, 24, 32]; // zigzag suave
+  // La carretera entra en cada unidad por el centro, serpentea de lado a lado y sale por el centro hacia el
+  // cartel de la unidad siguiente, así se ve como una sola ruta. La curva sigue el orden global de los pasos
+  // para que cada unidad tenga un dibujo distinto.
+  const FILA = 96, ENTRADA = 44, SALIDA = 64, TONOS = 8;
+  const xNodo = orden => { const s = Math.sin((orden + .35) * 1.32); return Math.round(50 + (s < 0 ? -1 : 1) * (13 + 15 * Math.abs(s))); };
   const NS = "http://www.w3.org/2000/svg";
   const GEOM = new WeakMap(); // ol de cada unidad -> { xs, ys, svg }
   const COFRE = '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path class="tapa" d="M4 10V8a3 3 0 013-3h10a3 3 0 013 3v2z"/><path d="M4 10h16v8a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M10.5 10v3h3v-3"/></svg>';
+  // Adornos de la cuneta (decorativos): árbol, pino, cono, señal de peligro, hito kilométrico y señal redonda.
+  const ADORNOS = [
+    '<path class="a2" d="M11 14h2v7h-2z"/><circle class="a1" cx="12" cy="9" r="7"/>',
+    '<path class="a2" d="M11 17h2v4h-2z"/><path class="a1" d="M12 2l6 8h-3l4 7H5l4-7H6z"/>',
+    '<path class="a1" d="M10 4h4l4 14H6z"/><path class="a2" d="M4 18h16v3H4zM8.9 9h6.2l.9 3H8z"/>',
+    '<path class="a2" d="M11 13h2v8h-2z"/><path class="a1" d="M12 2l8 13H4z"/><path class="a3" d="M12 6.2l4.4 7H7.6z"/>',
+    '<path class="a1" d="M7 21V10a5 5 0 0110 0v11z"/><path class="a2" d="M7 10a5 5 0 0110 0v2H7z"/>',
+    '<path class="a2" d="M11 13h2v8h-2z"/><circle class="a1" cx="12" cy="8" r="6.5"/><path class="a3" d="M8 6.8h8v2.4H8z"/>',
+  ];
+  function adorno(k, x, y) {
+    const s = h("span", { class: "adorno", "aria-hidden": "true", style: `left:${x}%;top:${y}px` });
+    s.innerHTML = `<svg viewBox="0 0 24 24">${ADORNOS[k % ADORNOS.length]}</svg>`;
+    return s;
+  }
   function iconoNodo(x, estado) {
     if (x.tipo === "cofre") { const s = h("span", { class: "nodo-cofre" }); s.innerHTML = COFRE; return s; }
     if (x.tipo === "paso") return ico(legendaria(A.datos, x.unidad) ? "corona" : "trofeo");
     return estado === "hecho" ? ico("check") : h("b", {}, x.i);
   }
+  // Rótulo junto a cada paso: qué es y qué le espera.
+  function rotulo(x, estado, oro) {
+    if (x.tipo === "cofre") return ["Cofre", estado === "hecho" ? "Abierto" : estado === "actual" ? "Tócalo para abrirlo" : "A mitad de la unidad"];
+    if (x.tipo === "paso") return ["Test de paso", oro ? "Legendaria: sin fallos" : estado === "hecho" ? "Aprobado · ve a por el oro" : `${PASO_N} preguntas · máx. ${PASO_FALLOS} fallos`];
+    return [`Nivel ${x.i}`, estado === "hecho" ? "Completado" : `${NIVEL_N} preguntas`];
+  }
   function tramo(xs, ys, i) { const ym = (ys[i - 1] + ys[i]) / 2; return [[xs[i - 1], ys[i - 1]], [xs[i - 1], ym], [xs[i], ym], [xs[i], ys[i]]]; }
   function bloqueUnidad(u, act, animar) {
-    const d = A.datos, n = u.nodos.length;
-    const xs = u.nodos.map((_, i) => XS[i % XS.length]), ys = u.nodos.map((_, i) => FILA / 2 + i * FILA);
+    const d = A.datos, n = u.nodos.length, alto = ENTRADA + n * FILA + SALIDA;
+    const xs = u.nodos.map(x => xNodo(x.orden)), ys = u.nodos.map((_, i) => ENTRADA + FILA / 2 + i * FILA);
     const hechos = u.nodos.map(x => hechoN(d, x));
     const svg = document.createElementNS(NS, "svg");
-    svg.setAttribute("viewBox", `0 0 100 ${n * FILA}`); svg.setAttribute("preserveAspectRatio", "none"); svg.setAttribute("class", "camino-via"); svg.setAttribute("aria-hidden", "true");
-    const ruta = (desde, hasta, saltar) => { // trazado de los tramos desde..hasta (índices de nodo), sin el tramo «saltar»
-      let s = desde === 0 ? `M${xs[0]} 0 L${xs[0]} ${ys[0]}` : `M${xs[desde]} ${ys[desde]}`;
+    svg.setAttribute("viewBox", `0 0 100 ${alto}`); svg.setAttribute("preserveAspectRatio", "none"); svg.setAttribute("class", "camino-via"); svg.setAttribute("aria-hidden", "true");
+    const ruta = (desde, hasta, saltar, salida) => { // trazado de los tramos desde..hasta (índices de nodo), sin el tramo «saltar»
+      let s = desde === 0 ? `M50 0 C50 ${ys[0] / 2} ${xs[0]} ${ys[0] / 2} ${xs[0]} ${ys[0]}` : `M${xs[desde]} ${ys[desde]}`;
       for (let i = Math.max(1, desde + 1); i <= hasta; i++) {
         const t = tramo(xs, ys, i);
         s += i === saltar ? ` M${t[3][0]} ${t[3][1]}` : ` C${t[1][0]} ${t[1][1]} ${t[2][0]} ${t[2][1]} ${t[3][0]} ${t[3][1]}`;
       }
+      if (salida) { const ym = (ys[n - 1] + alto) / 2; s += ` C${xs[n - 1]} ${ym} 50 ${ym} 50 ${alto}`; }
       return s;
     };
     const capa = (cls, dd) => { const p = document.createElementNS(NS, "path"); p.setAttribute("d", dd); p.setAttribute("class", cls); p.setAttribute("vector-effect", "non-scaling-stroke"); svg.append(p); return p; };
-    capa("arcen", ruta(0, n - 1)); capa("asfalto", ruta(0, n - 1));
+    capa("arcen", ruta(0, n - 1, -1, true)); capa("asfalto", ruta(0, n - 1, -1, true));
     // Recorrido: hasta el último nodo hecho seguido desde el principio de la unidad (el tramo al siguiente también).
     let k = 0; while (k < n && hechos[k]) k++;
     const saltar = animar != null && animar + 1 < n ? animar + 1 : -1;
-    if (k) capa("recorrido", ruta(0, Math.min(k, n - 1), saltar));
-    capa("linea", ruta(0, n - 1));
-    const caja = h("ol", { class: "camino", style: `height:${n * FILA}px`, "aria-label": `Pasos de ${u.titulo}` });
+    if (k) capa("recorrido", ruta(0, Math.min(k, n - 1), saltar, k === n && animar == null));
+    capa("linea", ruta(0, n - 1, -1, true));
+    const caja = h("ol", { class: "camino", style: `height:${alto}px`, "aria-label": `Pasos de ${u.titulo}` });
     caja.append(svg);
     GEOM.set(caja, { xs, ys, svg });
+    const oro = legendaria(d, u);
     u.nodos.forEach((x, i) => {
       const estado = hechos[i] ? "hecho" : act === x ? "actual" : act && act.orden < x.orden ? "bloqueado" : "pendiente";
       const nom = x.tipo === "nivel" ? `Nivel ${x.i} de ${u.niveles}` : x.tipo === "cofre" ? "Cofre" : "Test de paso";
       const voz = `${nom} de ${u.titulo}. ${estado === "hecho" ? "Hecho" : estado === "actual" ? "Siguiente paso" : estado === "bloqueado" ? "Más adelante" : "Pendiente"}`;
-      caja.append(h("li", { class: `nodo ${x.tipo} ${estado}`, style: `--x:${xs[i]}%;--y:${ys[i]}px`, "data-clave": x.clave, "data-orden": x.orden, "data-i": i },
+      const [t1, t2] = rotulo(x, estado, oro);
+      caja.append(h("li", { class: `nodo ${x.tipo} ${estado} ${xs[i] > 50 ? "der" : "izq"}`, style: `--x:${xs[i]}%;--y:${ys[i]}px`, "data-clave": x.clave, "data-orden": x.orden, "data-i": i },
         estado === "actual" ? h("span", { class: "etapa-globo", "aria-hidden": "true" }, x.orden === 0 ? "Empieza aquí" : x.tipo === "cofre" ? "¡Ábrelo!" : x.tipo === "paso" ? "Test de paso" : "Sigue aquí") : null,
-        h("button", { class: "nodo-boton", type: "button", "aria-label": voz, onclick: () => tocarNodo(x) }, h("span", { class: "nodo-disco" }, iconoNodo(x, estado)))));
+        h("button", { class: "nodo-boton", type: "button", "aria-label": voz, onclick: () => tocarNodo(x) }, h("span", { class: "nodo-disco" }, iconoNodo(x, estado))),
+        h("span", { class: "nodo-texto", "aria-hidden": "true" }, h("strong", {}, t1), h("span", {}, t2))));
+      // Un adorno en la cuneta, en el hueco entre dos pasos y del lado del paso anterior (su rótulo va al otro lado).
+      if (i && (x.orden * 7 + u.materia) % 3 !== 0) caja.append(adorno(x.orden + u.materia, xs[i - 1] > 50 ? 95 : 5, (ys[i - 1] + ys[i]) / 2));
     });
     const hechosN = hechos.filter(Boolean).length, superada = hechos[n - 1];
     const enCurso = act && act.unidad === u;
-    const oro = legendaria(d, u);
-    return h("section", { class: "unidad" + (oro ? " legendaria" : "") + (superada ? " superada" : enCurso ? " en-curso" : ""), "data-unidad": u.id },
+    return h("section", { class: `unidad tono-${UNIDADES.indexOf(u) % TONOS}` + (oro ? " legendaria" : "") + (superada ? " superada" : enCurso ? " en-curso" : ""), "data-unidad": u.id },
       h("header", { class: "unidad-banner" },
+        h("span", { class: "unidad-banner-num", "aria-hidden": "true" }, superada ? ico(oro ? "corona" : "check") : String(u.k)),
         h("span", { class: "unidad-banner-texto" },
-          h("small", {}, `Materia ${u.materia} · Unidad ${u.k} de ${u.de}`),
+          h("small", {}, u.de > 1 ? `Unidad ${u.k} de ${u.de}` : "Unidad única"),
           h("strong", {}, u.titulo),
-          h("span", {}, oro ? "Legendaria: sin fallos" : superada ? "Superada · ve a por el oro en el test" : `${hechosN} de ${n} pasos · ${plural(u.ids.length, "pregunta", "preguntas")}`)),
-        superada ? h("span", { class: "unidad-banner-sello" }, ico(oro ? "corona" : "check")) : null),
+          h("span", {}, oro ? "Legendaria: sin fallos" : superada ? "Superada · ve a por el oro en el test" : `${hechosN} de ${n} pasos · ${plural(u.ids.length, "pregunta", "preguntas")}`),
+          h("span", { class: "unidad-pasos", "aria-hidden": "true" }, hechos.map((ok, i) => h("i", { class: (ok ? "ok" : "") + (u.nodos[i].tipo === "paso" ? " fin" : "") })))),
+        enCurso && !superada ? h("span", { class: "unidad-banner-aqui" }, "Aquí") : null),
       caja);
   }
   function mapa(lista, animar) {
     construir();
-    const act = nodoActual(A.datos), caja = h("div", { class: "camino-unidades" });
+    const act = nodoActual(A.datos), ruta = h("div", { class: "camino-ruta" }), caja = h("div", { class: "camino-unidades" }, ruta);
     const nAnim = animar ? NODOS.find(x => x.clave === animar) : null;
-    let mat = 0;
+    let mat = 0, bloque = null;
     for (const u of UNIDADES) {
       if (u.materia !== mat) {
         mat = u.materia;
         const e = lista[mat - 1];
-        caja.append(h("h2", { class: "materia-titulo" + (e.legendaria ? " legendaria" : e.coronada ? " coronada" : e.nivel === 2 ? " superada" : "") },
-          h("span", { class: "materia-num" }, e.legendaria || e.coronada ? ico("corona") : String(mat)),
-          h("span", {}, h("small", {}, `Materia ${mat}`), h("strong", {}, nombre(mat)), h("span", {}, textoEtapa(e)))));
+        const estado = e.legendaria ? " legendaria" : e.coronada ? " coronada" : e.nivel === 2 ? " superada" : "";
+        bloque = h("div", { class: `materia-bloque tono-${UNIDADES.indexOf(u) % TONOS}${estado}`, "data-materia": mat },
+          h("h2", { class: "materia-titulo" + estado },
+            h("span", { class: "materia-num" }, e.legendaria || e.coronada ? ico("corona") : String(mat)),
+            h("span", {}, h("small", {}, `Materia ${mat}`), h("strong", {}, nombre(mat)), h("span", {}, textoEtapa(e))),
+            h("span", { class: "materia-avance", "aria-hidden": "true" }, h("i", { style: `width:${e.nodos ? Math.round(100 * e.hechos / e.nodos) : 0}%` }))));
+        ruta.append(bloque);
       }
-      caja.append(bloqueUnidad(u, act, nAnim && nAnim.unidad === u ? u.nodos.indexOf(nAnim) : null));
+      bloque.append(bloqueUnidad(u, act, nAnim && nAnim.unidad === u ? u.nodos.indexOf(nAnim) : null));
     }
     const meta = lista.every(e => e.nivel >= 2 || !e.total);
     caja.append(h("div", { class: "camino-meta" + (meta ? " lograda" : "") },
       h("a", { class: "nodo-boton", href: "#/examen", "aria-label": "Meta: examen final" }, h("span", { class: "nodo-disco" }, ico("bandera"))),
-      h("strong", {}, "Meta: examen final")));
+      h("strong", {}, "Meta: examen final"),
+      h("span", {}, "El simulacro real: 30 preguntas en 30 minutos")));
     return caja;
   }
 

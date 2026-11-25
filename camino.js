@@ -38,7 +38,8 @@
   // ---------- Unidades y niveles ----------
   // Cada materia se parte en unidades por tema; cada unidad tiene de 2 a 5 niveles de 10 preguntas y
   // termina con un test de paso (20 preguntas, máximo 3 fallos). Lo hecho se guarda en datos.camino
-  // ({clave: ms}): "nv-m1u3-2" (nivel 2 de la unidad 3 de la materia 1) y "paso-m1u3".
+  // ({clave: ms}): "nv-m1u3-2" (nivel 2 de la unidad 3 de la materia 1) y "paso-m1u3". Un nivel o test de paso
+  // terminado sin ningún fallo se apunta además como "pf-" + su clave (p. ej. "pf-nv-m1u3-2") y se pinta en oro.
   const NIVEL_N = 10, PASO_N = 20, PASO_FALLOS = 3;
   if (typeof P.extender === "function") P.extender("camino", { vacio: () => ({}), normalizar: normalizarLogros, combinar: combinarLogros });
   const caminoDe = d => (d.camino && typeof d.camino === "object") ? d.camino : (d.camino = {});
@@ -104,6 +105,7 @@
     }
   }
   const hechoN = (datos, x) => !!caminoDe(datos)[x.clave];
+  const perfectoN = (datos, x) => !!caminoDe(datos)["pf-" + x.clave];
   const unidadSuperada = (datos, u) => hechoN(datos, u.nodos[u.nodos.length - 1]);
   // Nodo actual: el primero sin hacer en el orden del camino.
   const nodoActual = datos => { construir(); return (NODOS || []).find(x => !hechoN(datos, x)) || null; };
@@ -333,12 +335,23 @@
   // El camino lanza la práctica sin cambiar de ruta (#/temario), así que hay que repintar a mano.
   const botonCamino = texto => h("a", { class: "boton ancho", href: "#/temario", onclick: () => setTimeout(A.repintar) }, texto);
 
+  // Sin ningún fallo, el paso queda «perfecto» (en oro). Devuelve true si es la primera vez.
+  function marcarPerfecto(x, fallos) {
+    const cm = caminoDe(A.datos), k = "pf-" + x.clave;
+    if (fallos || cm[k]) return false;
+    cm[k] = Date.now(); A.guardar();
+    return true;
+  }
   function finNivel(x, s) {
-    const u = x.unidad, hechas = Object.keys(s.resp).length;
+    const u = x.unidad, hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
     if (hechas < s.lista.length) return tarjeta("neutro", "lista", "Nivel sin terminar", `Responde las ${s.lista.length} preguntas para completar el nivel.`);
-    const nuevo = marcar([x]);
-    if (nuevo) apuntarAvance(x.clave);
-    return tarjeta("ok", "check", nuevo ? "¡Nivel completado!" : "Nivel repasado", `${u.titulo} · nivel ${x.i} de ${u.niveles}.`, botonCamino(nuevo ? "Seguir por el camino" : "Volver al camino"));
+    const nuevo = marcar([x]), pf = marcarPerfecto(x, fallos);
+    if (nuevo) apuntarAvance(x.clave); else if (pf) apuntarAvance("pf-" + x.clave);
+    if (!fallos) return tarjeta("oro", "medalla", nuevo || pf ? "¡Nivel perfecto!" : "Perfecto otra vez",
+      `${u.titulo} · nivel ${x.i} de ${u.niveles}, sin un solo fallo.${nuevo || pf ? " Este nivel queda en oro en el camino." : ""}`,
+      botonCamino(nuevo ? "Seguir por el camino" : pf ? "Ver mi nivel en oro" : "Volver al camino"));
+    return tarjeta("ok", "check", nuevo ? "¡Nivel completado!" : "Nivel repasado",
+      `${u.titulo} · nivel ${x.i} de ${u.niveles}. ${perfectoN(A.datos, x) ? "" : "Hazlo sin fallos y quedará en oro."}`, botonCamino(nuevo ? "Seguir por el camino" : "Volver al camino"));
   }
   function finPaso(x, s) {
     const u = x.unidad, hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
@@ -346,11 +359,11 @@
     if (fallos > PASO_FALLOS) return tarjeta("ko", "repetir", `Esta vez no: ${plural(fallos, "fallo", "fallos")}`,
       `Para pasar se admiten ${PASO_FALLOS} como máximo, como en el examen. Tus fallos ya están en «Mis fallos»: repásalos y vuelve a intentarlo.`,
       h("button", { class: "boton ancho", onclick: () => empezarNodo(x) }, "Intentarlo otra vez"));
-    const ya = hechoN(A.datos, x);
+    const ya = hechoN(A.datos, x), pf = marcarPerfecto(x, fallos);
     // Aprobar el test de una unidad da por hechas sus etapas y las de las unidades anteriores de la misma materia («saltar aquí»).
     const antes = NODOS.filter(y => y.unidad.materia === u.materia && y.orden <= x.orden);
     marcar(antes);
-    if (!ya) apuntarAvance(x.clave);
+    if (!ya) apuntarAvance(x.clave); else if (pf) apuntarAvance("pf-" + x.clave);
     return tarjeta("ok", "trofeo", ya ? "Test de paso aprobado otra vez" : "¡Test de paso aprobado!",
       `${plural(fallos, "fallo", "fallos")} de ${s.lista.length} preguntas. ${ya ? "" : `Has superado «${u.titulo}».`}`, botonCamino(ya ? "Volver al camino" : "Ver mi avance en el camino"));
   }
@@ -436,22 +449,25 @@
     s.innerHTML = `<svg viewBox="0 0 24 24">${ADORNOS[k % ADORNOS.length]}</svg>`;
     return s;
   }
-  function iconoNodo(x, estado) {
+  // Estrella rellena para los pasos hechos sin fallos.
+  const ESTRELLA = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.75 5.6 6.15.9-4.45 4.33 1.05 6.12L12 16.86l-5.5 2.9 1.05-6.12L3.1 9.3l6.15-.9z"/></svg>';
+  const estrella = clase => { const s = h("span", { class: clase }); s.innerHTML = ESTRELLA; return s; };
+  function iconoNodo(x, estado, pf) {
     if (x.tipo === "cofre") { const s = h("span", { class: "nodo-cofre" }); s.innerHTML = COFRE; return s; }
     if (x.tipo === "paso") return ico(legendaria(A.datos, x.unidad) ? "corona" : "trofeo");
-    return estado === "hecho" ? ico("check") : h("b", {}, x.i);
+    return estado === "hecho" ? (pf ? estrella("nodo-estrella") : ico("check")) : h("b", {}, x.i);
   }
   // Rótulo junto a cada paso: qué es y qué le espera.
-  function rotulo(x, estado, oro) {
+  function rotulo(x, estado, oro, pf) {
     if (x.tipo === "cofre") return ["Cofre", estado === "hecho" ? "Abierto" : estado === "actual" ? "Tócalo para abrirlo" : "A mitad de la unidad"];
-    if (x.tipo === "paso") return ["Test de paso", oro ? "Legendaria: sin fallos" : estado === "hecho" ? "Aprobado · ve a por el oro" : `${PASO_N} preguntas · máx. ${PASO_FALLOS} fallos`];
-    return [`Nivel ${x.i}`, estado === "hecho" ? "Completado" : `${NIVEL_N} preguntas`];
+    if (x.tipo === "paso") return ["Test de paso", oro ? "Legendaria: sin fallos" : estado === "hecho" ? (pf ? "Sin fallos · ve a por el oro" : "Aprobado · ve a por el oro") : `${PASO_N} preguntas · máx. ${PASO_FALLOS} fallos`];
+    return [`Nivel ${x.i}`, estado === "hecho" ? (pf ? "Perfecto: sin fallos" : "Completado") : `${NIVEL_N} preguntas`];
   }
   function tramo(xs, ys, i) { const ym = (ys[i - 1] + ys[i]) / 2; return [[xs[i - 1], ys[i - 1]], [xs[i - 1], ym], [xs[i], ym], [xs[i], ys[i]]]; }
   function bloqueUnidad(u, act, animar) {
     const d = A.datos, n = u.nodos.length, alto = ENTRADA + n * FILA + SALIDA;
     const xs = u.nodos.map(x => xNodo(x.orden)), ys = u.nodos.map((_, i) => ENTRADA + FILA / 2 + i * FILA);
-    const hechos = u.nodos.map(x => hechoN(d, x));
+    const hechos = u.nodos.map(x => hechoN(d, x)), perfectos = u.nodos.map(x => x.tipo !== "cofre" && hechoN(d, x) && perfectoN(d, x));
     const svg = document.createElementNS(NS, "svg");
     svg.setAttribute("viewBox", `0 0 100 ${alto}`); svg.setAttribute("preserveAspectRatio", "none"); svg.setAttribute("class", "camino-via"); svg.setAttribute("aria-hidden", "true");
     const ruta = (desde, hasta, saltar, salida) => { // trazado de los tramos desde..hasta (índices de nodo), sin el tramo «saltar»
@@ -477,11 +493,12 @@
     u.nodos.forEach((x, i) => {
       const estado = hechos[i] ? "hecho" : act === x ? "actual" : act && act.orden < x.orden ? "bloqueado" : "pendiente";
       const nom = x.tipo === "nivel" ? `Nivel ${x.i} de ${u.niveles}` : x.tipo === "cofre" ? "Cofre" : "Test de paso";
-      const voz = `${nom} de ${u.titulo}. ${estado === "hecho" ? "Hecho" : estado === "actual" ? "Siguiente paso" : estado === "bloqueado" ? "Más adelante" : "Pendiente"}`;
-      const [t1, t2] = rotulo(x, estado, oro);
-      caja.append(h("li", { class: `nodo ${x.tipo} ${estado} ${xs[i] > 50 ? "der" : "izq"}`, style: `--x:${xs[i]}%;--y:${ys[i]}px`, "data-clave": x.clave, "data-orden": x.orden, "data-i": i },
+      const pf = perfectos[i];
+      const voz = `${nom} de ${u.titulo}. ${estado === "hecho" ? (pf ? "Hecho sin fallos" : "Hecho") : estado === "actual" ? "Siguiente paso" : estado === "bloqueado" ? "Más adelante" : "Pendiente"}`;
+      const [t1, t2] = rotulo(x, estado, oro, pf);
+      caja.append(h("li", { class: `nodo ${x.tipo} ${estado}${pf ? " perfecto" : ""} ${xs[i] > 50 ? "der" : "izq"}`, style: `--x:${xs[i]}%;--y:${ys[i]}px`, "data-clave": x.clave, "data-orden": x.orden, "data-i": i },
         estado === "actual" ? h("span", { class: "etapa-globo", "aria-hidden": "true" }, x.orden === 0 ? "Empieza aquí" : x.tipo === "cofre" ? "¡Ábrelo!" : x.tipo === "paso" ? "Test de paso" : "Sigue aquí") : null,
-        h("button", { class: "nodo-boton", type: "button", "aria-label": voz, onclick: () => tocarNodo(x) }, h("span", { class: "nodo-disco" }, iconoNodo(x, estado))),
+        h("button", { class: "nodo-boton", type: "button", "aria-label": voz, onclick: () => tocarNodo(x) }, h("span", { class: "nodo-disco" }, iconoNodo(x, estado, pf)), pf && x.tipo === "paso" && !oro ? estrella("nodo-sello") : null),
         h("span", { class: "nodo-texto", "aria-hidden": "true" }, h("strong", {}, t1), h("span", {}, t2))));
       // Un adorno en la cuneta, en el hueco entre dos pasos y del lado del paso anterior (su rótulo va al otro lado).
       if (i && (x.orden * 7 + u.materia) % 3 !== 0) caja.append(adorno(x.orden + u.materia, xs[i - 1] > 50 ? 95 : 5, (ys[i - 1] + ys[i]) / 2));
@@ -495,7 +512,7 @@
           h("small", {}, u.de > 1 ? `Unidad ${u.k} de ${u.de}` : "Unidad única"),
           h("strong", {}, u.titulo),
           h("span", {}, oro ? "Legendaria: sin fallos" : superada ? "Superada · ve a por el oro en el test" : `${hechosN} de ${n} pasos · ${plural(u.ids.length, "pregunta", "preguntas")}`),
-          h("span", { class: "unidad-pasos", "aria-hidden": "true" }, hechos.map((ok, i) => h("i", { class: (ok ? "ok" : "") + (u.nodos[i].tipo === "paso" ? " fin" : "") })))),
+          h("span", { class: "unidad-pasos", "aria-hidden": "true" }, hechos.map((ok, i) => h("i", { class: (ok ? "ok" : "") + (perfectos[i] ? " pf" : "") + (u.nodos[i].tipo === "paso" ? " fin" : "") })))),
         enCurso && !superada ? h("span", { class: "unidad-banner-aqui" }, "Aquí") : null),
       caja);
   }
@@ -547,6 +564,17 @@
     if (r.top < 80 || r.bottom > innerHeight - 120) el.scrollIntoView({ block: "center", behavior: suave ? "smooth" : "auto" });
   }
   function animarAvance(raiz, clave) {
+    if (clave.startsWith("pf-")) { // un paso ya hecho que ahora se ha hecho sin fallos: pasa a oro
+      const o = raiz.querySelector(`.nodo[data-clave="${clave.slice(3)}"]`);
+      if (!o) return;
+      verCentro(o, false);
+      sonar("aprobado");
+      if (reducido()) return;
+      o.classList.add("av-perfecto");
+      setTimeout(() => { if (window.Animo) { Animo.confeti(70); Animo.vibrar(25); } }, 250);
+      setTimeout(() => o.classList.remove("av-perfecto"), 1200);
+      return;
+    }
     if (clave.startsWith("oro-")) {
       const sec = raiz.querySelector(`.unidad[data-unidad="${clave.slice(4)}"]`);
       if (!sec) return;

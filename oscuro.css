@@ -35,6 +35,8 @@
   :root:not([data-theme="light"]) .camino-via .recorrido { stroke: color-mix(in srgb, var(--u) 62%, var(--celda)); }
   :root:not([data-theme="light"]) .camino-via .linea { stroke: rgba(255, 255, 255, .5); opacity: 1; }
   :root:not([data-theme="light"]) .unidad.legendaria .camino-via .recorrido { stroke: color-mix(in srgb, var(--ambar) 62%, var(--celda)); }
+  /* Niveles sin fallos: el oro brilla un poco sobre el fondo oscuro para que no se confunda con el ámbar del cofre. */
+  :root:not([data-theme="light"]) .nodo.nivel.perfecto .nodo-disco { box-shadow: 0 5px 0 var(--ambar-borde), 0 0 0 5px var(--panel, var(--fondo)), 0 0 0 8px color-mix(in srgb, var(--ambar) 45%, var(--panel, var(--fondo))), 0 0 22px rgba(255, 190, 40, .35); }
 
   /* ---- Hojas ---- */
   :root:not([data-theme="light"]) dialog.hoja { background: var(--elevada); }

@@ -48,8 +48,9 @@
     return lista.slice().reverse();
   }
   function animar(el, clase) { el.classList.remove(clase); void el.offsetWidth; el.classList.add(clase); }
-  const rutaSenal = s => (window.SENALES_EMBEBIDAS || {})[s] || `../../img/senales/${s}.png`;
-  const rutaImagen = src => (window.IMAGENES_EMBEBIDAS || {})[src] || "../../" + src;
+  const RAIZ = window.EJ_RAIZ != null ? window.EJ_RAIZ : "../../";
+  const rutaImagen = src => (window.IMAGENES_EMBEBIDAS || {})[src] || RAIZ + src;
+  const rutaSenal = s => (window.SENALES_EMBEBIDAS || {})[s] || `${RAIZ}img/senales/${s}.png`;
 
   const TIPOS = {
     clasificar: { nombre: "Clasifica", icono: "cartas", color: "t-naranja",

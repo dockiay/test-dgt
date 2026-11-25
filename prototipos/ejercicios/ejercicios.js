@@ -76,15 +76,17 @@
       else if (valor.replace(",", "").length < 5) valor = valor === "0" ? t : valor + t;
       sonar("toque"); animar(caja, "latido-cifra"); pintar();
     }
-    const teclas = ["1", "2", "3", "4", "5", "6", "7", "8", "9", ",", "0", "⌫"];
-    const teclado = h("div", { class: "teclado", role: "group", "aria-label": "Teclado numérico" }, teclas.map(t =>
+    // Sin coma cuando la cifra es entera (todas, desde que se quitaron las de decimales).
+    const decimal = !Number.isInteger(Number(ej.respuesta));
+    const teclas = ["1", "2", "3", "4", "5", "6", "7", "8", "9", decimal ? "," : "", "0", "⌫"];
+    const teclado = h("div", { class: "teclado", role: "group", "aria-label": "Teclado numérico" }, teclas.map(t => !t ? h("span", { "aria-hidden": "true" }) :
       h("button", { type: "button", class: "tecla" + (t === "⌫" ? " tecla-borrar" : t === "," ? " tecla-coma" : ""),
         "aria-label": t === "⌫" ? "Borrar" : t === "," ? "Coma decimal" : t, onclick: () => tecla(t) },
         t === "⌫" ? ico("borrar") : t)));
     const alTeclear = e => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       if (/^[0-9]$/.test(e.key)) tecla(e.key);
-      else if (e.key === "," || e.key === ".") tecla(",");
+      else if ((e.key === "," || e.key === ".") && decimal) tecla(",");
       else if (e.key === "Backspace") tecla("⌫");
       else return;
       e.preventDefault();
@@ -127,7 +129,8 @@
     svg.querySelectorAll("image").forEach(i => { const r = i.getAttribute("href"); if (r && /^img\//.test(r)) i.setAttribute("href", rutaImagen(r)); });
     return svg;
   }
-  const rutaImagen = src => (window.IMAGENES_EMBEBIDAS || {})[src] || "../../" + src;
+  const RAIZ = window.EJ_RAIZ != null ? window.EJ_RAIZ : "../../";
+  const rutaImagen = src => (window.IMAGENES_EMBEBIDAS || {})[src] || RAIZ + src;
 
   // ---------- Tocar en la imagen: zonas encima del esquema (botones reales, accesibles con teclado) ----------
   function tocar(ej, op) {

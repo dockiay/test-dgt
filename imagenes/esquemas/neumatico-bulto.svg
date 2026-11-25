@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Neumático con un bulto en el costado</title>
+<desc id="d">Rueda de turismo vista de lado. En el costado del neumático sobresale un bulto.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#e4e7eb" />
+<defs><radialGradient id="bulto" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#9aa0a8"/><stop offset="0.6" stop-color="#3a3e45"/><stop offset="1" stop-color="#26292e"/></radialGradient></defs>
+<circle cx="200" cy="200" r="160" fill="#26292e"/>
+<circle cx="200" cy="200" r="150" fill="none" stroke="#33373d" stroke-width="3"/>
+<ellipse cx="296" cy="144" rx="42" ry="30" transform="rotate(-40 296 144)" fill="url(#bulto)" stroke="#1a1c20" stroke-width="2"/>
+<circle cx="200" cy="200" r="100" fill="#b9bec5" stroke="#8d939b" stroke-width="6"/>
+<circle cx="200" cy="200" r="26" fill="#8d939b"/>
+<circle cx="252.0" cy="200.0" r="8" fill="#6d737b"/>
+<circle cx="216.1" cy="249.5" r="8" fill="#6d737b"/>
+<circle cx="157.9" cy="230.6" r="8" fill="#6d737b"/>
+<circle cx="157.9" cy="169.4" r="8" fill="#6d737b"/>
+<circle cx="216.1" cy="150.5" r="8" fill="#6d737b"/>
+</svg>

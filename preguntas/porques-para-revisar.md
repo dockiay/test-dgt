@@ -71,7 +71,7 @@ En una calle con dos carriles para su sentido delimitados por marcas, ha elegido
 Respuesta: **Para prepararse a cambiar de dirección, adelantar, parar o estacionar.**
 
 - ✔ En poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas, el carril elegido no debe abandonarse más que para prepararse a cambiar de dirección, adelantar, parar o estacionar. _(RGC 33)_
-- ✘ `via-0007` Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares). _(RGC 38.4.b)_
+- ✘ `via-0006` Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida. _(RGC 38.1)_
 - ✘ `x1a-0011` Cuando en la vía hay refugios, isletas o dispositivos de guía, se circula por la parte de la calzada que queda a su derecha, salvo en vías de sentido único o dentro de la parte de un solo sentido. _(RGC 43.1)_
 
 ## x1a-0009
@@ -747,7 +747,7 @@ Respuesta: **No, salvo excepciones como las obras en la propia vía o las grúas
 
 - ✔ Los vehículos especiales solo pueden usar las vías para desplazarse, salvo los que trabajan en la construcción, reparación o conservación de la propia vía, en la zona de trabajo, y los destinados a remolcar vehículos accidentados, averiados o mal estacionados. _(RGC 71.1)_
 - ✘ `xd-0117` Los vehículos en régimen de transporte especial deben suspender la circulación, saliendo de la plataforma, con fenómenos atmosféricos adversos o si la visibilidad baja de 150 metros. _(RGC Anexo III, sección 1.ª, 6)_
-- ✘ `xd-0111` La señal V-4 es obligatoria, entre otros, para los vehículos especiales y los conjuntos especiales, y para los vehículos que necesitan autorización especial para circular. _(RGV Anexo XI, V-4.2)_
+- ✘ `xd-0104` Los vehículos especiales que no exceden las masas o dimensiones pueden circular por autopistas y autovías si pueden superar 60 km/h en llano y cumplen las condiciones del anexo III del reglamento. _(RGC 38.3)_
 
 ## x1a-0088
 
@@ -782,8 +782,8 @@ Una grúa que está retirando un vehículo averiado obstaculiza la circulación 
 Respuesta: **Para indicar su situación a los demás usuarios.**
 
 - ✔ Los vehículos destinados a remolcar accidentados, averiados o mal estacionados usan la señal luminosa V-2, cuando interrumpen u obstaculizan la circulación, únicamente para indicar su situación a los demás usuarios. _(RGC 71.2.a)_
-- ✘ `xd-0111` La señal V-4 es obligatoria, entre otros, para los vehículos especiales y los conjuntos especiales, y para los vehículos que necesitan autorización especial para circular. _(RGV Anexo XI, V-4.2)_
 - ✘ `xd-0118` Los vehículos en régimen de transporte especial mantienen una separación mínima de 50 metros con el vehículo precedente y facilitan el adelantamiento a los más rápidos. _(RGC Anexo III, sección 1.ª, 1)_
+- ✘ `xd-0104` Los vehículos especiales que no exceden las masas o dimensiones pueden circular por autopistas y autovías si pueden superar 60 km/h en llano y cumplen las condiciones del anexo III del reglamento. _(RGC 38.3)_
 
 ## x1a-0092
 
@@ -1548,7 +1548,7 @@ Respuesta: **De fondo amarillo y caracteres negros, sea cual sea el tipo de carr
 
 - ✔ Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## x1b-0052
 
@@ -1692,7 +1692,7 @@ Respuesta: **El lado de la isleta por el que debe pasar obligatoriamente.**
 
 - ✔ La señal R-401a de paso obligatorio indica con su flecha el lado del refugio, isleta u obstáculo por el que los vehículos han de pasar obligatoriamente. _(RGC_CATALOGO Anexo I, catálogo de señales, R-401a)_
 - ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `B1-sen-0012` Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas. _(RGC 132.1)_
 
 ## x1b-0085
 
@@ -2861,8 +2861,8 @@ Lleva todas las plazas de su furgoneta ocupadas y el maletero lleno. ¿Qué lím
 Respuesta: **La masa máxima autorizada del vehículo.**
 
 - ✔ El número de personas transportadas no puede superar el de plazas autorizadas y, en ningún caso, el peso de viajeros y equipaje juntos puede sobrepasar la masa máxima autorizada del vehículo. _(RGC 9.1)_
-- ✘ `C-per-0014` Las bicicletas para una sola persona pueden llevar menores de hasta 22 kg capaces de sentarse solos en asientos adicionales que cumplan las especificaciones del Ministerio del Interior. _(RGC 154.2)_
 - ✘ `xb-0102` En ciclomotores y motocicletas solo puede viajar un pasajero, además del conductor, si así consta en su licencia o permiso de circulación y el pasajero cumple las demás condiciones. _(RGC 12.1)_
+- ✘ `C-per-0015` En bicicletas y ciclos se puede transportar carga y pasajeros si el conductor es mayor de edad y se cumplen los requisitos técnicos. _(RGC 154.1)_
 
 ## xb-0096
 
@@ -2898,7 +2898,7 @@ Respuesta: **Sin sacudidas, lo más cerca posible del borde derecho de la calzad
 
 - ✔ En el transporte colectivo de personas, el conductor debe parar y arrancar sin sacudidas ni movimientos bruscos, lo más cerca posible del borde derecho de la calzada, y velar por la seguridad de los viajeros. _(RGC 11.1)_
 - ✘ `xb-0093` El número de personas transportadas no puede superar el de plazas autorizadas, que en los autobuses y vehículos de servicio público debe estar señalado en placas colocadas en su interior. _(RGC 9.1)_
-- ✘ `C-per-0014` Las bicicletas para una sola persona pueden llevar menores de hasta 22 kg capaces de sentarse solos en asientos adicionales que cumplan las especificaciones del Ministerio del Interior. _(RGC 154.2)_
+- ✘ `xb-0097` Como excepción a la regla general, en los vehículos de transporte de mercancías pueden viajar personas en el lugar reservado a la carga, pero solo en las condiciones que fijan las normas que lo regulan. _(RGC 10.2)_
 
 ## xb-0100
 
@@ -2907,7 +2907,7 @@ Respuesta: **Solo si hay sitio destinado a animales, salvo el perro guía de un 
 
 - ✔ En el transporte público colectivo está prohibido llevar animales salvo que exista un lugar destinado a ellos; se exceptúan, bajo su responsabilidad, las personas invidentes acompañadas de su perro lazarillo. _(RGC 11.2.e)_
 - ✘ `xb-0097` Como excepción a la regla general, en los vehículos de transporte de mercancías pueden viajar personas en el lugar reservado a la carga, pero solo en las condiciones que fijan las normas que lo regulan. _(RGC 10.2)_
-- ✘ `C-per-0014` Las bicicletas para una sola persona pueden llevar menores de hasta 22 kg capaces de sentarse solos en asientos adicionales que cumplan las especificaciones del Ministerio del Interior. _(RGC 154.2)_
+- ✘ `xb-0102` En ciclomotores y motocicletas solo puede viajar un pasajero, además del conductor, si así consta en su licencia o permiso de circulación y el pasajero cumple las demás condiciones. _(RGC 12.1)_
 
 ## xb-0101
 
@@ -2925,7 +2925,7 @@ Respuesta: **No, tiene que constar en el permiso de circulación.**
 
 - ✔ En ciclomotores y motocicletas solo puede viajar un pasajero, además del conductor, si así consta en su licencia o permiso de circulación y el pasajero cumple las demás condiciones. _(RGC 12.1)_
 - ✘ `xb-0101` En el transporte público colectivo se prohíbe a los viajeros entrar cuando se ha advertido que el vehículo está completo, y el conductor o el encargado deben prohibir la entrada a quien incumpla. _(RGC 11.2)_
-- ✘ `C-per-0014` Las bicicletas para una sola persona pueden llevar menores de hasta 22 kg capaces de sentarse solos en asientos adicionales que cumplan las especificaciones del Ministerio del Interior. _(RGC 154.2)_
+- ✘ `C-per-0015` En bicicletas y ciclos se puede transportar carga y pasajeros si el conductor es mayor de edad y se cumplen los requisitos técnicos. _(RGC 154.1)_
 
 ## xb-0103
 
@@ -4185,7 +4185,7 @@ Respuesta: **No, está prohibido.**
 
 - ✔ La utilización del carril VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables; está prohibida, entre otros, a ciclos, ciclomotores y vehículos de movilidad personal. _(RGC 35.2.a)_
 - ✘ `x1a-0004` Los automóviles circulan por la calzada y no por el arcén, salvo por razones de emergencia; en una calzada de doble sentido con dos carriles, por el de su derecha. _(RGC 30.1.a)_
-- ✘ `via-0007` Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares). _(RGC 38.4.b)_
+- ✘ `v5a-via-0001` La plataforma es la zona de la carretera dedicada al uso de vehículos y está formada por la calzada y los arcenes; la franja que separa las calzadas de cada sentido es la mediana. _(LSV Anexo I, 54)_
 
 ## xc-0122
 
@@ -4265,8 +4265,8 @@ En la información sobre el estado de las carreteras, ¿qué significa el color 
 Respuesta: **Que la carretera está cortada.**
 
 - ✔ En la información del estado de las vías, el color negro indica que la carretera está cortada y no se puede circular. _(MANUAL_DGT Tema 9, Colores que indican cuál es el estado de la vía (p. 227))_
-- ✘ `via-0007` Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares). _(RGC 38.4.b)_
 - ✘ `xc-0110` La vía urbana es la vía pública situada dentro de poblado, excepto las travesías. _(LSV Anexo I.73)_
+- ✘ `B2-via-0011` La senda ciclable es una vía para peatones y ciclos, segregada del tráfico motorizado, que discurre por espacios abiertos, parques, jardines o bosques. _(LSV Anexo I.79)_
 
 ## xc-0131
 
@@ -4365,7 +4365,7 @@ Respuesta: **Lo menos posible y de forma suave.**
 
 - ✔ Sobre nieve, el freno se utiliza lo menos posible y de forma suave, y hay que mantener más distancia de seguridad. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
 - ✘ `xd-0007` Sobre nieve, la DGT recomienda arrancar el vehículo con las ruedas rectas y con poca fuerza del motor. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 356))_
-- ✘ `xd-0011` Cuando las cadenas son obligatorias o recomendadas, se colocan al menos sobre una rueda motriz a cada lado del vehículo, o bien se usan neumáticos especiales. _(RGV 11.5.2)_
+- ✘ `xd-0002` Después de pasar por un charco o por una zona con agua, la DGT aconseja comprobar que los frenos funcionan bien. _(MANUAL_DGT Tema 14, Conducir con lluvia (p. 354))_
 
 ## xd-0010
 
@@ -4940,8 +4940,8 @@ Conduce un vehículo especial de 5.000 kg de masa máxima autorizada por una car
 Respuesta: **Por la calzada, salvo por razones de emergencia.**
 
 - ✔ Los automóviles y los vehículos especiales de más de 3.500 kg de masa máxima autorizada circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 30.1)_
-- ✘ `xd-0113` El distintivo V-11 de mercancías peligrosas se fija en la parte delantera y en la trasera de la unidad de transporte, y en algunos casos también en los costados. _(RGV Anexo XI, V-11.2)_
 - ✘ `xd-0117` Los vehículos en régimen de transporte especial deben suspender la circulación, saliendo de la plataforma, con fenómenos atmosféricos adversos o si la visibilidad baja de 150 metros. _(RGC Anexo III, sección 1.ª, 6)_
+- ✘ `bm9-0009` La carga debe ir dispuesta de forma que no oculte los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios ni las advertencias manuales del conductor. _(RGC 14.1.d)_
 
 ## xd-0103
 
@@ -5030,8 +5030,8 @@ Fuera de poblado, en una autovía con tres carriles por sentido, conduce un turi
 Respuesta: **El de la derecha y, cuando convenga, el inmediato.**
 
 - ✔ En calzadas con tres o más carriles por sentido, los conjuntos de más de siete metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato. _(RGC 31.2)_
-- ✘ `xd-0113` El distintivo V-11 de mercancías peligrosas se fija en la parte delantera y en la trasera de la unidad de transporte, y en algunos casos también en los costados. _(RGV Anexo XI, V-11.2)_
 - ✘ `xd-0101` Los automóviles y los vehículos especiales de más de 3.500 kg de masa máxima autorizada circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 30.1)_
+- ✘ `x1a-0090` Si se avería la señal luminosa V-2 de un vehículo especial o en régimen de transporte especial, debe usarse la luz de cruce junto con las luces indicadoras de dirección en señal de emergencia. _(RGC 71.3)_
 
 ## xd-0129
 
@@ -5066,8 +5066,8 @@ Su turismo queda inmovilizado en la calzada de una carretera por una avería. Ad
 Respuesta: **El dispositivo de preseñalización de peligro reglamentario (V-16).**
 
 - ✔ Con el vehículo inmovilizado por accidente o avería, además de la luz de emergencia hay que usar el dispositivo de preseñalización de peligro reglamentario, que en los turismos es la señal luminosa V-16. _(RGC 130.4)_
-- ✘ `xd-0142` El dispositivo V-16 incluye en su carcasa todos los elementos necesarios para funcionar, incluidos los de comunicaciones, sin depender de aplicaciones de móviles. _(RGV Anexo XI, V-16.6)_
 - ✘ `bm13-0015` En caso de incendio, el conductor y los ocupantes abandonan el vehículo y se dirigen rápidamente al refugio o salida más próximos, en sentido contrario al del fuego. _(RGC 97.3)_
+- ✘ `bm13-0005` Se prohíbe abrir las puertas o apearse sin haberse cerciorado antes de que no implica peligro o entorpecimiento para otros usuarios, especialmente para los ciclistas. _(RGC 114.1)_
 
 ## xd-0133
 
@@ -5075,8 +5075,8 @@ Tras una avería, su vehículo puede circular pero necesita auxilio y no puede l
 Respuesta: **En el arcén derecho o donde cause menos obstáculo.**
 
 - ✔ Si un vehículo averiado que necesita auxilio no puede llegar a la primera salida, debe detenerse en el arcén derecho o donde cause menor obstáculo a la circulación. _(RGC 130.2)_
-- ✘ `xd-0142` El dispositivo V-16 incluye en su carcasa todos los elementos necesarios para funcionar, incluidos los de comunicaciones, sin depender de aplicaciones de móviles. _(RGV Anexo XI, V-16.6)_
 - ✘ `bm13-0008` Aun cuando el conductor no abandone su puesto, debe parar el motor cuando el vehículo esté detenido dentro de un túnel o en un lugar cerrado y durante la carga de combustible. _(RGC 115.1)_
+- ✘ `bm13-0005` Se prohíbe abrir las puertas o apearse sin haberse cerciorado antes de que no implica peligro o entorpecimiento para otros usuarios, especialmente para los ciclistas. _(RGC 114.1)_
 
 ## xd-0135
 
@@ -5138,8 +5138,8 @@ Su vehículo ha quedado detenido en un paso a nivel y no consigue sacarlo de él
 Respuesta: **Avisar del peligro con antelación a los maquinistas y a los demás conductores.**
 
 - ✔ Si no se consigue dejar libre un paso a nivel, hay que adoptar de inmediato todas las medidas posibles para que los maquinistas y los demás conductores sean advertidos del peligro con antelación. _(RGC 97.1)_
-- ✘ `xd-0135` El Reglamento General de Circulación obliga a ponerse el chaleco reflectante al salir del vehículo y ocupar la calzada o el arcén de las vías interurbanas. _(RGC 118.4)_
 - ✘ `bm13-0002` Cuando el conductor se aleja del vehículo debe adoptar las precauciones necesarias para impedir que otra persona lo use sin autorización (por ejemplo, cerrarlo y llevarse la llave). _(RGC 92.3.a)_
+- ✘ `xd-0133` Si un vehículo averiado que necesita auxilio no puede llegar a la primera salida, debe detenerse en el arcén derecho o donde cause menor obstáculo a la circulación. _(RGC 130.2)_
 
 ## xd-0142
 
@@ -5381,8 +5381,8 @@ Respuesta: **Por encima de la herida.**
 Respuesta: **Piel pálida y sudor frío y pegajoso.**
 
 - ✔ Según el manual de la DGT, la persona en shock respira de forma rápida y poco profunda, tiene el pulso rápido y débil, la piel pálida y el sudor frío y pegajoso. _(MANUAL_DGT Tema 16, Hemorragia interna (p. 432))_
-- ✘ `E-aux-0004` Se hacen 30 compresiones en el centro del tórax (unas 100 por minuto, con los codos extendidos) y 2 ventilaciones, hasta que llegue la ayuda médica. _(MANUAL_DGT Tema 16, Respiración (p. 427))_
 - ✘ `xe-0032` Según el manual de la DGT, ante una quemadura no se debe tocar la zona quemada ni quitar la ropa que se haya quedado pegada a ella. _(MANUAL_DGT Tema 16, Quemaduras (p. 434))_
+- ✘ `xe-0018` Según el manual de la DGT, en caso de duda es mejor hablar a los heridos y darles apoyo emocional, sin tocarlos ni moverlos, porque se podrían empeorar sus heridas. _(MANUAL_DGT Tema 16, Socorrer (p. 422))_
 
 ## xe-0030
 
@@ -5445,7 +5445,7 @@ Respuesta: **Llevar el aire y el combustible al motor.**
 
 - ✔ El sistema de alimentación lleva el aire y el combustible al motor para que el vehículo pueda funcionar; tiene un filtro que limpia el aire. _(MANUAL_DGT Tema 15, Sistema de alimentación (p. 366))_
 - ✘ `xe-0038` Según el manual de la DGT, cuando el filtro del aire está sucio el combustible pasa peor y se gasta más combustible que con el filtro limpio. _(MANUAL_DGT Tema 15, Sistema de alimentación (p. 367))_
-- ✘ `D-man-0001` Al pisar a fondo el embrague, el movimiento del motor no se transmite a la caja de cambios ni a las ruedas, lo que permite cambiar de velocidad. _(MANUAL_DGT Tema 6, Pedal de embrague (pág. 122))_
+- ✘ `xe-0058` Según el manual de la DGT, si los frenos se calientan mucho por usarlos demasiado en poco tiempo, hay que soltar el pedal de freno para que se enfríen. _(MANUAL_DGT Tema 5, ¿Qué hacer cuando fallan los frenos? (p. 96))_
 
 ## xe-0038
 
@@ -5498,8 +5498,8 @@ Al arrancar una mañana fría de invierno sale humo blanco por el escape. ¿Qué
 Respuesta: **Es vapor de agua, algo normal al arrancar con frío.**
 
 - ✔ Según el manual de la DGT, el humo blanco que sale al arrancar, sobre todo con frío, es vapor de agua y es normal; si sale con el motor ya caliente puede indicar una avería. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 377))_
-- ✘ `v5f-mec-0003` Hay que comprobar que el vehículo tiene suficiente líquido refrigerante: debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío. _(MANUAL_DGT Tema 15, Sistema de refrigeración (pág. 376))_
 - ✘ `xe-0038` Según el manual de la DGT, cuando el filtro del aire está sucio el combustible pasa peor y se gasta más combustible que con el filtro limpio. _(MANUAL_DGT Tema 15, Sistema de alimentación (p. 367))_
+- ✘ `xe-0055` El frenado de socorro tiene la misma función que el de servicio (disminuir la velocidad y detener el vehículo) en caso de fallo de este; el de estacionamiento mantiene inmóvil el vehículo. _(RGV 12.8.1)_
 
 ## xe-0046
 
@@ -5508,7 +5508,7 @@ Respuesta: **Alguna pieza rota o una avería.**
 
 - ✔ Según el manual de la DGT, el humo blanco con el vehículo caliente y tras un rato de funcionamiento puede indicar alguna pieza rota o una avería. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 378))_
 - ✘ `xe-0076` En el sistema de refrigeración, el líquido refrigerante se enfría en el radiador y vuelve al motor impulsado por una bomba de agua, movida por correas que hay que revisar. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 377))_
-- ✘ `v5f-mec-0003` Hay que comprobar que el vehículo tiene suficiente líquido refrigerante: debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío. _(MANUAL_DGT Tema 15, Sistema de refrigeración (pág. 376))_
+- ✘ `D-man-0004` El freno delantero es una palanca que se acciona con la mano derecha, en el mismo lado que el acelerador. _(MANUAL_DGT Tema 6, Mandos de las motocicletas (pág. 124))_
 
 ## xe-0047
 
@@ -5516,8 +5516,8 @@ Respuesta: **Alguna pieza rota o una avería.**
 Respuesta: **Porque si se congela puede romper el motor o la refrigeración.**
 
 - ✔ Según el manual de la DGT, si el vehículo está en un lugar muy frío el líquido refrigerante se puede congelar y romper el motor o el sistema de refrigeración. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 378))_
-- ✘ `v5f-mec-0003` Hay que comprobar que el vehículo tiene suficiente líquido refrigerante: debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío. _(MANUAL_DGT Tema 15, Sistema de refrigeración (pág. 376))_
 - ✘ `xe-0076` En el sistema de refrigeración, el líquido refrigerante se enfría en el radiador y vuelve al motor impulsado por una bomba de agua, movida por correas que hay que revisar. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 377))_
+- ✘ `xe-0059` Según el manual de la DGT, en una frenada de emergencia sin ABS se pisa fuerte hasta notar que la rueda empieza a bloquearse y entonces se levanta un poco el pie, sin dejar de frenar. _(MANUAL_DGT Tema 5, ¿Cómo se usan los frenos? (p. 96))_
 
 ## xe-0048
 
@@ -5571,7 +5571,7 @@ Respuesta: **El vehículo necesita más espacio para frenar.**
 
 - ✔ Según el manual de la DGT, con la suspensión en malas condiciones el vehículo pierde estabilidad, hay más riesgo de aquaplaning y necesita más espacio para frenar, sobre todo con el suelo mojado. _(MANUAL_DGT Tema 15, Sistema de suspensión (p. 384))_
 - ✘ `xe-0076` En el sistema de refrigeración, el líquido refrigerante se enfría en el radiador y vuelve al motor impulsado por una bomba de agua, movida por correas que hay que revisar. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 377))_
-- ✘ `v5f-mec-0003` Hay que comprobar que el vehículo tiene suficiente líquido refrigerante: debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío. _(MANUAL_DGT Tema 15, Sistema de refrigeración (pág. 376))_
+- ✘ `xe-0054` Al pisar el freno, la fuerza pasa por el líquido de frenos hasta las pastillas o las zapatas, que rozan con otros elementos de las ruedas y las detienen. _(MANUAL_DGT Tema 15, Sistema de frenado (p. 385))_
 
 ## xe-0054
 
@@ -5633,8 +5633,8 @@ Respuesta: **Levantar un poco el pie del freno, sin dejar de frenar.**
 Respuesta: **Al menos una vez al mes.**
 
 - ✔ Según el manual de la DGT, la presión de los neumáticos se debe controlar por lo menos una vez al mes, y también conviene llevar la rueda de repuesto con la presión correcta. _(MANUAL_DGT Tema 5, Presión de inflado (p. 100))_
-- ✘ `xe-0064` Los indicadores de desgaste de los neumáticos de turismos y sus remolques señalan que las ranuras principales de la banda de rodamiento han alcanzado la profundidad mínima de dibujo. _(RGV Anexo VII.3)_
 - ✘ `xe-0068` Según el manual de la DGT, ante un pinchazo hay que reducir la velocidad lentamente hasta parar, sin frenar de forma brusca, e inmovilizar el vehículo en un lugar seguro. _(MANUAL_DGT Tema 5, ¿Qué debes hacer cuando se pincha una rueda? (p. 102))_
+- ✘ `xe-0066` Los vehículos deben llevar neumáticos de las dimensiones y características previstas por el fabricante en la homologación del vehículo, o sus equivalentes. _(RGV Anexo VII.1)_
 
 ## xe-0062
 
@@ -5642,8 +5642,8 @@ Si los neumáticos llevan más presión de la recomendada, ¿qué ocurre?
 Respuesta: **Hay más posibilidad de que la rueda reviente.**
 
 - ✔ Según el manual de la DGT, con más presión de la recomendada el neumático tiene menos contacto con el suelo, se desgasta más por el centro, el vehículo vibra más y hay más posibilidad de reventón. _(MANUAL_DGT Tema 5, Presión de inflado (p. 100))_
-- ✘ `xe-0067` Para cumplir las restricciones de movilidad invernal, los vehículos de hasta 3.500 kg de MMA deben llevar neumáticos certificados 3PMSF en todos sus ejes. _(RGV Anexo VII.5)_
-- ✘ `xe-0063` Según el manual de la DGT, las ranuras del neumático sirven para que no se caliente, sea más flexible, se agarre mejor y elimine el agua de la carretera cuando llueve. _(MANUAL_DGT Tema 5, Los neumáticos (p. 99))_
+- ✘ `xe-0066` Los vehículos deben llevar neumáticos de las dimensiones y características previstas por el fabricante en la homologación del vehículo, o sus equivalentes. _(RGV Anexo VII.1)_
+- ✘ `xe-0068` Según el manual de la DGT, ante un pinchazo hay que reducir la velocidad lentamente hasta parar, sin frenar de forma brusca, e inmovilizar el vehículo en un lugar seguro. _(MANUAL_DGT Tema 5, ¿Qué debes hacer cuando se pincha una rueda? (p. 102))_
 
 ## xe-0063
 
@@ -5651,8 +5651,8 @@ Respuesta: **Hay más posibilidad de que la rueda reviente.**
 Respuesta: **Para eliminar el agua de la carretera cuando llueve.**
 
 - ✔ Según el manual de la DGT, las ranuras del neumático sirven para que no se caliente, sea más flexible, se agarre mejor y elimine el agua de la carretera cuando llueve. _(MANUAL_DGT Tema 5, Los neumáticos (p. 99))_
-- ✘ `xe-0064` Los indicadores de desgaste de los neumáticos de turismos y sus remolques señalan que las ranuras principales de la banda de rodamiento han alcanzado la profundidad mínima de dibujo. _(RGV Anexo VII.3)_
 - ✘ `xe-0060` Según el manual de la DGT, la presión de los neumáticos se debe controlar por lo menos una vez al mes, y también conviene llevar la rueda de repuesto con la presión correcta. _(MANUAL_DGT Tema 5, Presión de inflado (p. 100))_
+- ✘ `xe-0065` El resculturado de neumáticos no está permitido, salvo en los que equipan vehículos de más de 3,5 toneladas de peso máximo autorizado y llevan la marca Regroovable o el símbolo correspondiente. _(RGV Anexo VII.4)_
 
 ## xe-0064
 
@@ -5660,8 +5660,8 @@ Respuesta: **Para eliminar el agua de la carretera cuando llueve.**
 Respuesta: **Para señalar que las ranuras han llegado a la profundidad mínima de dibujo.**
 
 - ✔ Los indicadores de desgaste de los neumáticos de turismos y sus remolques señalan que las ranuras principales de la banda de rodamiento han alcanzado la profundidad mínima de dibujo. _(RGV Anexo VII.3)_
-- ✘ `xe-0063` Según el manual de la DGT, las ranuras del neumático sirven para que no se caliente, sea más flexible, se agarre mejor y elimine el agua de la carretera cuando llueve. _(MANUAL_DGT Tema 5, Los neumáticos (p. 99))_
 - ✘ `xe-0062` Según el manual de la DGT, con más presión de la recomendada el neumático tiene menos contacto con el suelo, se desgasta más por el centro, el vehículo vibra más y hay más posibilidad de reventón. _(MANUAL_DGT Tema 5, Presión de inflado (p. 100))_
+- ✘ `xe-0066` Los vehículos deben llevar neumáticos de las dimensiones y características previstas por el fabricante en la homologación del vehículo, o sus equivalentes. _(RGV Anexo VII.1)_
 
 ## xe-0065
 
@@ -5687,8 +5687,8 @@ Una restricción de movilidad invernal exige neumáticos especiales. Para cumpli
 Respuesta: **En todos sus ejes.**
 
 - ✔ Para cumplir las restricciones de movilidad invernal, los vehículos de hasta 3.500 kg de MMA deben llevar neumáticos certificados 3PMSF en todos sus ejes. _(RGV Anexo VII.5)_
-- ✘ `xe-0063` Según el manual de la DGT, las ranuras del neumático sirven para que no se caliente, sea más flexible, se agarre mejor y elimine el agua de la carretera cuando llueve. _(MANUAL_DGT Tema 5, Los neumáticos (p. 99))_
-- ✘ `xe-0064` Los indicadores de desgaste de los neumáticos de turismos y sus remolques señalan que las ranuras principales de la banda de rodamiento han alcanzado la profundidad mínima de dibujo. _(RGV Anexo VII.3)_
+- ✘ `xe-0062` Según el manual de la DGT, con más presión de la recomendada el neumático tiene menos contacto con el suelo, se desgasta más por el centro, el vehículo vibra más y hay más posibilidad de reventón. _(MANUAL_DGT Tema 5, Presión de inflado (p. 100))_
+- ✘ `xe-0068` Según el manual de la DGT, ante un pinchazo hay que reducir la velocidad lentamente hasta parar, sin frenar de forma brusca, e inmovilizar el vehículo en un lugar seguro. _(MANUAL_DGT Tema 5, ¿Qué debes hacer cuando se pincha una rueda? (p. 102))_
 
 ## xe-0068
 
@@ -5697,7 +5697,7 @@ Respuesta: **Reducir la velocidad poco a poco hasta parar, sin frenar bruscament
 
 - ✔ Según el manual de la DGT, ante un pinchazo hay que reducir la velocidad lentamente hasta parar, sin frenar de forma brusca, e inmovilizar el vehículo en un lugar seguro. _(MANUAL_DGT Tema 5, ¿Qué debes hacer cuando se pincha una rueda? (p. 102))_
 - ✘ `xe-0065` El resculturado de neumáticos no está permitido, salvo en los que equipan vehículos de más de 3,5 toneladas de peso máximo autorizado y llevan la marca Regroovable o el símbolo correspondiente. _(RGV Anexo VII.4)_
-- ✘ `xe-0067` Para cumplir las restricciones de movilidad invernal, los vehículos de hasta 3.500 kg de MMA deben llevar neumáticos certificados 3PMSF en todos sus ejes. _(RGV Anexo VII.5)_
+- ✘ `xe-0060` Según el manual de la DGT, la presión de los neumáticos se debe controlar por lo menos una vez al mes, y también conviene llevar la rueda de repuesto con la presión correcta. _(MANUAL_DGT Tema 5, Presión de inflado (p. 100))_
 
 ## xe-0069
 
@@ -5769,7 +5769,7 @@ Respuesta: **Una bomba de agua.**
 
 - ✔ En el sistema de refrigeración, el líquido refrigerante se enfría en el radiador y vuelve al motor impulsado por una bomba de agua, movida por correas que hay que revisar. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 377))_
 - ✘ `xe-0047` Según el manual de la DGT, si el vehículo está en un lugar muy frío el líquido refrigerante se puede congelar y romper el motor o el sistema de refrigeración. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 378))_
-- ✘ `v5f-mec-0003` Hay que comprobar que el vehículo tiene suficiente líquido refrigerante: debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío. _(MANUAL_DGT Tema 15, Sistema de refrigeración (pág. 376))_
+- ✘ `xe-0052` La dirección asistida progresiva hace que el volante gire muy fácil cuando el vehículo va despacio y cueste un poco más a más velocidad, para controlar mejor el vehículo. _(MANUAL_DGT Tema 15, Dirección asistida (p. 381))_
 
 ## xe-0077
 
@@ -5966,7 +5966,7 @@ Respuesta: **En el trasero central.**
 Respuesta: **En sentido contrario a la marcha, mirando hacia atrás.**
 
 - ✔ Según el manual de la DGT, para los niños pequeños es más seguro colocar la sillita en sentido contrario a la marcha, mirando hacia atrás. _(MANUAL_DGT Tema 5, Cinturones de seguridad para niños (p. 110))_
-- ✘ `xe-0085` Los sistemas de retención infantil se instalan siempre de acuerdo con las instrucciones de su fabricante, que indican cómo y en qué vehículos se pueden usar de forma segura. _(RGC 117.4)_
+- ✘ `xe-0084` Los menores que deben usar sistema de retención infantil pueden ocupar excepcionalmente el asiento delantero, con su sistema adaptado, cuando no sea posible instalar en los asientos traseros todos los sistemas de retención. _(RGC 117.3)_
 - ✘ `E-pas-0010` El manual de la DGT recomienda que la distancia entre la cabeza y el reposacabezas sea de cuatro centímetros o menos. _(MANUAL_DGT Tema 5, El reposacabezas (p. 116))_
 
 ## xe-0102
@@ -6543,7 +6543,7 @@ Respuesta: **Solo la trasera; la delantera es opcional.**
 
 - ✔ Todo automóvil debe llevar luz antiniebla trasera. La antiniebla delantera es un dispositivo facultativo. _(RGV 17.1)_
 - ✘ `xe-0074` Según el manual de la DGT, el limpiaparabrisas no se debe usar con el cristal seco porque lo puede rayar. _(MANUAL_DGT Tema 6, Limpiaparabrisas (p. 126))_
-- ✘ `E-neu-0005` El Reglamento de Vehículos exige que los neumáticos no presenten ampollas, deformaciones anormales ni roturas, con independencia de la profundidad del dibujo. _(RGV Anexo VII.4)_
+- ✘ `res-veh-0001` En las motocicletas de más de 100 km/h son obligatorios los dos retrovisores exteriores; si no superan 100 km/h, solo el izquierdo (el derecho es optativo). _(RGV Anexo III.3 (tabla))_
 
 ## res-veh-0001
 
@@ -9107,8 +9107,8 @@ Una señal le obliga a detenerse. ¿Cuándo puede reanudar la marcha?
 Respuesta: **Cuando haya cumplido la prescripción que la señal establece.**
 
 - ✔ Cuando una señal impone detenerse, el conductor no puede reanudar la marcha hasta haber cumplido la prescripción que la señal establece (por ejemplo, en un control o peaje). _(RGC 132.1)_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
+- ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
 
 ## B1-sen-0012
 
@@ -9314,7 +9314,7 @@ Respuesta: **Verde.**
 Respuesta: **Hasta que lo diga la propia señalización o cesen sus causas.**
 
 - ✔ Las modificaciones terminan cuando lo establezca la propia señalización o las causas que las motivaron; a partir de ese momento vuelve a regir la señalización habitual. _(RGC 142.1)_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
 - ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
 
 ## B1-sen-0035
@@ -9395,7 +9395,7 @@ En un semáforo para tranvías y autobuses, la franja blanca vertical se ilumina
 Respuesta: **Que deben detenerse en las mismas condiciones que ante una luz amarilla fija.**
 
 - ✔ La franja blanca, vertical u oblicua, iluminada intermitentemente indica que deben detenerse en las mismas condiciones que ante una luz amarilla fija. _(RGC Anexo I.4.4.2.d)_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
 - ✘ `B1-sen-0055` Las señales de reglamentación tienen por objeto indicar las obligaciones, limitaciones o prohibiciones especiales. _(RGC 145.1)_
 
 ## B1-sen-0044
@@ -9737,8 +9737,8 @@ Respuesta: **La presencia inmediata de un paso a nivel sin barreras con más de 
 Respuesta: **De aeronaves volando a baja altura sobre la vía.**
 
 - ✔ La P-12 («Aeropuerto») advierte de la proximidad de un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía y que pueden originar ruidos imprevistos. _(RGC_CATALOGO Anexo I, catálogo de señales, P-12 (pág. 92 del PDF consolidado))_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
+- ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
 
 ## B1-sen-0083
 
@@ -9764,8 +9764,8 @@ Respuesta: **Un badén en la vía.**
 Respuesta: **Que la calzada se estrecha por el lado de la derecha.**
 
 - ✔ La P-17a advierte de la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la derecha (por la izquierda es la P-17b). _(RGC_CATALOGO Anexo I, catálogo de señales, P-17a (pág. 93 del PDF consolidado))_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 - ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
+- ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
 
 ## B1-sen-0086
 
@@ -9801,7 +9801,7 @@ Respuesta: **Un tramo con circulación en ambos sentidos.**
 
 - ✔ La P-25 («Circulación en los dos sentidos») advierte de la proximidad de un tramo con circulación en ambos sentidos. _(RGC_CATALOGO Anexo I, catálogo de señales, P-25 (pág. 96 del PDF consolidado))_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
 
 ## B1-sen-0090
 
@@ -9863,8 +9863,8 @@ Respuesta: **De un tramo donde suele haber retenciones.**
 Respuesta: **De vehículos que obstruyen la calzada por avería, accidente u otras causas.**
 
 - ✔ La P-32 («Obstrucción en la calzada») advierte de la proximidad de un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas. _(RGC_CATALOGO Anexo I, catálogo de señales, P-32 (pág. 97 del PDF consolidado))_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 - ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
+- ✘ `B1-sen-0032` Como dispositivo delimitador, la luz roja fija indica que la calzada está totalmente cerrada al tránsito. _(RGC Anexo I.3.1.1.5º)_
 
 ## B1-sen-0097
 
@@ -9891,7 +9891,7 @@ Respuesta: **La proximidad de un peligro distinto de los advertidos por otras se
 
 - ✔ La P-50 («Otros peligros») indica la proximidad de un peligro distinto de los advertidos por otras señales. _(RGC_CATALOGO Anexo I, catálogo de señales, P-50 (pág. 97 del PDF consolidado))_
 - ✘ `B1-sen-0021` La serie de toques de silbato cortos y frecuentes ordena la detención de vehículos. _(RGC Anexo I.1.1.e)_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0100
 
@@ -9909,7 +9909,7 @@ Respuesta: **Que no debe entrar si obliga a detenerse a los que vienen de frente
 
 - ✔ La R-5 («Prioridad del sentido contrario») prohíbe entrar en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse. _(RGC_CATALOGO Anexo I, catálogo de señales, R-5 (pág. 99 del PDF consolidado))_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
 
 ## B1-sen-0102
 
@@ -9918,7 +9918,7 @@ Respuesta: **Que tiene prioridad sobre los que vienen de frente.**
 
 - ✔ La R-6 («Prioridad respecto al sentido contrario») indica que, en un próximo paso estrecho, usted tiene prioridad con relación a los vehículos que circulen en sentido contrario. _(RGC_CATALOGO Anexo I, catálogo de señales, R-6 (pág. 100 del PDF consolidado))_
 - ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
 
 ## B1-sen-0103
 
@@ -10008,7 +10008,7 @@ Respuesta: **A los tractores y otras máquinas agrícolas autopropulsadas.**
 
 - ✔ La R-111 («Entrada prohibida a vehículos agrícolas de motor») prohíbe el acceso a tractores y otras máquinas agrícolas autopropulsadas. _(RGC_CATALOGO Anexo I, catálogo de señales, R-111 (pág. 104 del PDF consolidado))_
 - ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
+- ✘ `x1b-0034` Las señales viales llevan materiales o dispositivos retrorreflectantes para que sean más visibles y legibles por la noche. _(RGC 136)_
 
 ## B1-sen-0113
 
@@ -10080,7 +10080,7 @@ Respuesta: **Hasta la próxima señal de fin de limitación o de otra velocidad 
 
 - ✔ La R-301 obliga desde el lugar en que esté situada hasta la próxima señal «Fin de limitación de velocidad», de «Fin de prohibiciones» u otra de «Velocidad máxima». Las excepciones de la ficha (señal en el mismo poste o panel que una de peligro, o situada en una vía sin prioridad) quedan fuera por el enunciado. _(RGC_CATALOGO Anexo I, catálogo de señales, R-301 (pág. 109 del PDF consolidado))_
 - ✘ `x1b-0055` Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
 
 ## B1-sen-0121
 
@@ -10115,8 +10115,8 @@ Conduce un autobús y encuentra esta señal. ¿Le afecta la prohibición?
 Respuesta: **No.**
 
 - ✔ La R-306 prohíbe adelantar a los camiones cuya masa máxima autorizada exceda de 3.500 kg (incluso sin invadir el sentido contrario); no se dirige a los autobuses, que siguen sujetos a las normas generales de adelantamiento. _(RGC_CATALOGO Anexo I, catálogo de señales, R-306 (pág. 110 del PDF consolidado))_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
 - ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
+- ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
 
 ## B1-sen-0125
 
@@ -10124,8 +10124,8 @@ Encuentra esta señal a la entrada de una intersección. ¿Puede girar a la dere
 Respuesta: **No.**
 
 - ✔ En la R-400c («Sentido obligatorio») la flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir: hacia delante. _(RGC_CATALOGO Anexo I, catálogo de señales, R-400c (pág. 115 del PDF consolidado))_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 - ✘ `B1-sen-0023` La bandera verde indica que, a partir del paso del vehículo que la porta, la calzada queda de nuevo abierta al tráfico. _(RGC Anexo I.1.2.b)_
+- ✘ `B1-sen-0073` La Ley excluye de la definición de vehículo de motor a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida. _(LSV Anexo I.12)_
 
 ## B1-sen-0126
 
@@ -10196,8 +10196,8 @@ Respuesta: **Camino reservado y obligatorio para animales de montura.**
 Respuesta: **Camino reservado y obligatorio para peatones; los demás usuarios no pueden utilizarlo.**
 
 - ✔ La R-410 obliga a los peatones a transitar por ese camino y prohíbe a los demás usuarios de la vía utilizarlo. _(RGC_CATALOGO Anexo I, catálogo de señales, R-410 (pág. 118 del PDF consolidado))_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 - ✘ `B1-sen-0020` El toque largo de silbato ordena reanudar la marcha; una serie de toques cortos y frecuentes ordena la detención. _(RGC Anexo I.1.1.e)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0134
 
@@ -10223,8 +10223,8 @@ Respuesta: **Obligación de llevar encendida al menos la luz de cruce, haya o no
 Respuesta: **Que no se puede seguir sin cadenas, otros dispositivos autorizados o neumáticos de nieve.**
 
 - ✔ La R-412 («Cadenas para nieve») obliga a no proseguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados que actúen al menos en una rueda a cada lado del mismo eje motor, o neumáticos especiales de nieve. _(RGC_CATALOGO Anexo I, catálogo de señales, R-412 (pág. 118 del PDF consolidado))_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
 - ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
+- ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
 
 ## B1-sen-0137
 
@@ -10349,8 +10349,8 @@ Respuesta: **Sí, mediante ordenanza y respetando la prioridad de los peatones.*
 Respuesta: **Que circulen en bicicleta niños de hasta doce años acompañados de un adulto a pie.**
 
 - ✔ En las aceras está prohibida la circulación de cualquier tipo de vehículo, pero las ordenanzas pueden permitir que circulen niños de hasta doce años en bicicleta a cargo de un adulto que vaya a pie. _(RGC 152.1)_
-- ✘ `via-0007` Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares). _(RGC 38.4.b)_
 - ✘ `xc-0108` Un poblado es el espacio que comprende edificios y en cuyas vías de entrada y de salida están colocadas, respectivamente, las señales de entrada a poblado y de salida de poblado. _(LSV Anexo I.70)_
+- ✘ `xc-0101` Una glorieta es un tipo especial de intersección en el que los tramos que confluyen se comunican a través de un anillo con circulación rotatoria alrededor de una isleta central. _(LSV Anexo I.63)_
 
 ## B2-sen-0016
 
@@ -10377,7 +10377,7 @@ Respuesta: **Lo mismo que una sola línea continua: no se debe atravesar ni circ
 
 - ✔ Una marca longitudinal de dos líneas continuas y paralelas tiene el mismo significado que la formada por una sola línea continua. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.1)_
 - ✘ `x1b-0015` Los Ayuntamientos pueden regular la retirada o inmovilización del vehículo que estaciona en zonas limitadas en tiempo sin título que lo autorice o rebasando el triple del tiempo abonado. _(RGC 156.1.b)_
-- ✘ `x1a-0042` Los vehículos especiales y los vehículos en régimen de transporte especial pueden circular por debajo de los límites mínimos de velocidad. _(RGC 49.2)_
+- ✘ `C-luc-0018` Las advertencias con el brazo, si son perceptibles y correctas, anulan cualquier otra indicación óptica que las contradiga. _(RGC 108.2)_
 
 ## B2-mv-0019
 
@@ -10683,7 +10683,7 @@ Respuesta: **Reducir la velocidad lo necesario, incluso hasta detenerse por comp
 
 - ✔ El conductor deslumbrado debe reducir la velocidad lo necesario, incluso hasta la detención total, para no alcanzar a vehículos o peatones que vayan en su mismo sentido. _(RGC 102.3)_
 - ✘ `v5f-luc-0001` Con demasiado peso en la parte de atrás, la parte delantera del vehículo se levanta y la luz de cruce puede quedar muy alta y deslumbrar. Por eso hay que repartir bien la carga y mantener las luces bien reguladas. _(MANUAL_DGT Tema 14, Deslumbramientos (pág. 348))_
-- ✘ `C-luc-0001` Las luces de gálibo son obligatorias, junto con las de posición, si la anchura del vehículo excede de 2,10 metros. _(RGC 99.1)_
+- ✘ `C-luc-0017` La niebla espesa es una de las condiciones especialmente desfavorables en las que debe llevarse encendida la antiniebla trasera. _(RGC 106.2)_
 
 ## C-luc-0008
 
@@ -10746,7 +10746,7 @@ Respuesta: **La antiniebla delantera o la de corto o largo alcance.**
 
 - ✔ Cuando condiciones como la lluvia intensa disminuyen sensiblemente la visibilidad, es obligatorio el alumbrado: la antiniebla delantera o la luz de corto o largo alcance. _(RGC 106.2)_
 - ✘ `C-luc-0019` De noche, en vías urbanas o interurbanas suficientemente iluminadas, se lleva el alumbrado de cruce además del de posición; nunca solo el de posición. _(RGC 101.1)_
-- ✘ `C-luc-0001` Las luces de gálibo son obligatorias, junto con las de posición, si la anchura del vehículo excede de 2,10 metros. _(RGC 99.1)_
+- ✘ `x1b-0019` Todos los vehículos que circulan entre el ocaso y la salida del sol, o a cualquier hora en túneles, pasos inferiores y tramos con la señal «Túnel», deben llevar encendido el alumbrado que corresponda. _(RGC 98.1)_
 
 ## C-luc-0015
 
@@ -10763,8 +10763,8 @@ Respuesta: **En vías estrechas con muchas curvas señalizadas, de 6,50 metros d
 Respuesta: **Con lluvia muy intensa.**
 
 - ✔ La antiniebla trasera solo debe encenderse con condiciones especialmente desfavorables: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo. _(RGC 106.2)_
-- ✘ `C-luc-0001` Las luces de gálibo son obligatorias, junto con las de posición, si la anchura del vehículo excede de 2,10 metros. _(RGC 99.1)_
 - ✘ `res-luc-0001` En túneles insuficientemente iluminados, a más de 40 km/h, hay que llevar la luz de carretera salvo que haya que usar la de cruce (por ejemplo, para no deslumbrar). En túneles suficientemente iluminados, la de cruce. _(RGC 100.1)_
+- ✘ `C-luc-0012` Durante el día deben llevar encendida la luz de cruce todos los vehículos que circulen por un carril reversible, por un carril adicional circunstancial o por un carril habilitado en sentido contrario al habitual. _(RGC 104.b)_
 
 ## C-luc-0017
 
@@ -10772,8 +10772,8 @@ Circula con niebla espesa. ¿Debe llevar encendida la luz antiniebla trasera?
 Respuesta: **Sí.**
 
 - ✔ La niebla espesa es una de las condiciones especialmente desfavorables en las que debe llevarse encendida la antiniebla trasera. _(RGC 106.2)_
-- ✘ `C-luc-0001` Las luces de gálibo son obligatorias, junto con las de posición, si la anchura del vehículo excede de 2,10 metros. _(RGC 99.1)_
 - ✘ `C-luc-0007` El conductor deslumbrado debe reducir la velocidad lo necesario, incluso hasta la detención total, para no alcanzar a vehículos o peatones que vayan en su mismo sentido. _(RGC 102.3)_
+- ✘ `xe-0072` Las luces antiniebla traseras solo pueden encenderse cuando lo están también las de carretera, las de cruce o las antiniebla delanteras. _(RGV 15.3)_
 
 ## C-luc-0018
 
@@ -12311,8 +12311,8 @@ Respuesta: **No; un neumático no debe presentar ampollas ni deformaciones anorm
 Respuesta: **Cada cinco años.**
 
 - ✔ La goma envejece: el manual de la DGT indica cambiar los neumáticos cada cinco años aunque estén en buen estado. _(MANUAL_DGT Tema 5, Desgaste de los neumáticos (p. 100))_
-- ✘ `E-neu-0005` El Reglamento de Vehículos exige que los neumáticos no presenten ampollas, deformaciones anormales ni roturas, con independencia de la profundidad del dibujo. _(RGV Anexo VII.4)_
 - ✘ `E-mec-0010` Si el impulso llega a las ruedas delanteras es de tracción; a las traseras, de propulsión; a todas, de tracción total. _(MANUAL_DGT Tema 15, Sistema de transmisión (p. 379))_
+- ✘ `res-veh-0001` En las motocicletas de más de 100 km/h son obligatorios los dos retrovisores exteriores; si no superan 100 km/h, solo el izquierdo (el derecho es optativo). _(RGV Anexo III.3 (tabla))_
 
 ## E-fre-0001
 
@@ -12617,8 +12617,8 @@ Con viento lateral fuerte, ¿en qué situación hay más peligro?
 Respuesta: **Al adelantar a un vehículo que ocupa mucho espacio, como un camión.**
 
 - ✔ El viento es más peligroso al cruzarse con otro vehículo, al adelantar a un vehículo voluminoso o al pasar junto a edificios u obstáculos. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 362))_
-- ✘ `v5f-ent-0001` Las cadenas se colocan, por lo menos, en las ruedas motrices (las que mueve el motor), con al menos una cadena a cada lado del vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (pág. 356))_
 - ✘ `E-ent-0001` Antes de entrar en la curva hay que reducir la velocidad o frenar si es necesario; dentro, no acelerar ni frenar bruscamente, y a la salida aumentar poco a poco. _(MANUAL_DGT Tema 14, Pasos para tomar bien una curva (p. 343))_
+- ✘ `E-ent-0007` Con niebla se ve peor y, además, el suelo húmedo reduce la adherencia de los neumáticos. _(MANUAL_DGT Tema 14, Conducir con niebla (p. 360))_
 
 ## E-ent-0003
 
@@ -12663,7 +12663,7 @@ Respuesta: **Porque el suelo está húmedo y los neumáticos se agarran menos.**
 
 - ✔ Con niebla se ve peor y, además, el suelo húmedo reduce la adherencia de los neumáticos. _(MANUAL_DGT Tema 14, Conducir con niebla (p. 360))_
 - ✘ `E-ent-0009` En bajada con nieve hay que ir más despacio de lo normal y usar marchas cortas para que el motor retenga el vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
-- ✘ `v5f-ent-0001` Las cadenas se colocan, por lo menos, en las ruedas motrices (las que mueve el motor), con al menos una cadena a cada lado del vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (pág. 356))_
+- ✘ `E-ent-0002` El viento es más peligroso al cruzarse con otro vehículo, al adelantar a un vehículo voluminoso o al pasar junto a edificios u obstáculos. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 362))_
 
 ## E-ent-0008
 
@@ -12672,7 +12672,7 @@ Respuesta: **Una marcha más larga, como la segunda, para que las ruedas no pati
 
 - ✔ Con nieve se elige una marcha que permita arrancar con poca fuerza del motor (marcha más larga), para que las ruedas no patinen. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 356))_
 - ✘ `E-ent-0009` En bajada con nieve hay que ir más despacio de lo normal y usar marchas cortas para que el motor retenga el vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
-- ✘ `v5f-ent-0001` Las cadenas se colocan, por lo menos, en las ruedas motrices (las que mueve el motor), con al menos una cadena a cada lado del vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (pág. 356))_
+- ✘ `E-ent-0002` El viento es más peligroso al cruzarse con otro vehículo, al adelantar a un vehículo voluminoso o al pasar junto a edificios u obstáculos. _(MANUAL_DGT Tema 14, Conducir con mucho viento (p. 362))_
 
 ## E-ent-0009
 
@@ -12681,7 +12681,7 @@ Respuesta: **En una marcha corta, para que el motor retenga el vehículo.**
 
 - ✔ En bajada con nieve hay que ir más despacio de lo normal y usar marchas cortas para que el motor retenga el vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
 - ✘ `E-ent-0008` Con nieve se elige una marcha que permita arrancar con poca fuerza del motor (marcha más larga), para que las ruedas no patinen. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 356))_
-- ✘ `v5f-ent-0001` Las cadenas se colocan, por lo menos, en las ruedas motrices (las que mueve el motor), con al menos una cadena a cada lado del vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (pág. 356))_
+- ✘ `E-ent-0001` Antes de entrar en la curva hay que reducir la velocidad o frenar si es necesario; dentro, no acelerar ni frenar bruscamente, y a la salida aumentar poco a poco. _(MANUAL_DGT Tema 14, Pasos para tomar bien una curva (p. 343))_
 
 ## E-ent-0010
 
@@ -12690,7 +12690,7 @@ Respuesta: **Por encima de las marcas que han dejado las ruedas de otros vehícu
 
 - ✔ Es aconsejable circular por encima de las rodadas que han dejado otros vehículos. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 357))_
 - ✘ `E-ent-0008` Con nieve se elige una marcha que permita arrancar con poca fuerza del motor (marcha más larga), para que las ruedas no patinen. _(MANUAL_DGT Tema 14, Conducir con nieve (p. 356))_
-- ✘ `v5f-ent-0001` Las cadenas se colocan, por lo menos, en las ruedas motrices (las que mueve el motor), con al menos una cadena a cada lado del vehículo. _(MANUAL_DGT Tema 14, Conducir con nieve (pág. 356))_
+- ✘ `E-ent-0007` Con niebla se ve peor y, además, el suelo húmedo reduce la adherencia de los neumáticos. _(MANUAL_DGT Tema 14, Conducir con niebla (p. 360))_
 
 ## E-ent-0011
 
@@ -12968,8 +12968,8 @@ En el sistema de refrigeración, ¿dónde se enfría el líquido refrigerante an
 Respuesta: **En el radiador.**
 
 - ✔ El líquido refrigerante absorbe el calor del motor, se enfría en el radiador y vuelve al motor impulsado por la bomba de agua. _(MANUAL_DGT Tema 15, Sistema de refrigeración (p. 377))_
-- ✘ `E-neu-0005` El Reglamento de Vehículos exige que los neumáticos no presenten ampollas, deformaciones anormales ni roturas, con independencia de la profundidad del dibujo. _(RGV Anexo VII.4)_
 - ✘ `E-neu-0006` La goma envejece: el manual de la DGT indica cambiar los neumáticos cada cinco años aunque estén en buen estado. _(MANUAL_DGT Tema 5, Desgaste de los neumáticos (p. 100))_
+- ✘ `E-mec-0003` El catalizador, situado en el tubo de escape, reduce la contaminación de los gases de escape; el ruido lo reduce el silenciador. _(MANUAL_DGT Tema 17, La contaminación (p. 451))_
 
 ## E-mec-0008
 
@@ -13607,8 +13607,8 @@ Respuesta: **De un lugar donde la vía puede ser atravesada por animales en libe
 Respuesta: **De un tramo con cambios de carril en el que se cruzan las trayectorias de los vehículos.**
 
 - ✔ La señal P-35 «Trenzado» advierte de un tramo entre una confluencia y una bifurcación en el que unos vehículos se incorporan y otros salen, con cambios de carril que cruzan sus trayectorias y aumentan el riesgo de colisión. _(RGC_CATALOGO Anexo I, señal P-35)_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
+- ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
 
 ## v4a-sen-0010
 
@@ -13616,8 +13616,8 @@ Respuesta: **De un tramo con cambios de carril en el que se cruzan las trayector
 Respuesta: **A los vehículos que transporten mercancías peligrosas y deban ir señalizados según su normativa específica.**
 
 - ✔ La señal R-108 prohíbe el acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica. La de productos contaminantes del agua es la R-110. _(RGC_CATALOGO Anexo I, señal R-108)_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
 - ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
+- ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
 
 ## v4a-sen-0011
 
@@ -13634,8 +13634,8 @@ Respuesta: **No.**
 Respuesta: **A los vehículos de movilidad personal.**
 
 - ✔ La señal R-118 prohíbe el acceso a los vehículos de movilidad personal (patinetes eléctricos y similares). La que prohíbe a la vez ciclos y vehículos de movilidad personal es la R-119. _(RGC_CATALOGO Anexo I, señal R-118)_
-- ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
 - ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
+- ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## v4a-sen-0013
 
@@ -13689,7 +13689,7 @@ Respuesta: **En su lado de la calzada, desde la señal hasta la próxima interse
 
 - ✔ La señal R-307 prohíbe la parada y el estacionamiento en el lado de la calzada en que está situada; salvo indicación en contrario, desde la vertical de la señal hasta la intersección más próxima en el sentido de la marcha. _(RGC_CATALOGO Anexo I, señal R-307)_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `x1b-0037` Está prohibido colocar sobre las señales o en sus inmediaciones placas, carteles, marcas u otros objetos que puedan inducir a confusión, reducir su visibilidad o su eficacia, deslumbrar o distraer a los usuarios. _(RGC 140.3)_
 
 ## v4a-sen-0019
 
@@ -13770,7 +13770,7 @@ Respuesta: **No.**
 
 - ✔ La señal R-420 obliga a los conductores de vehículos de movilidad personal a circular por esa vía y prohíbe a los demás usuarios utilizarla, también a los ciclos. Si la vía fuera para ciclos y vehículos de movilidad personal, se usaría la R-421. _(RGC_CATALOGO Anexo I, señal R-420)_
 - ✘ `x1b-0044` Los agentes de tráfico y los usuarios de vehículos de policía pueden dar órdenes o indicaciones a los usuarios, mientras usan la señal V-1, a través de la megafonía o de otro medio claramente perceptible. _(RGC 141.3)_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
 
 ## v4a-sen-0028
 
@@ -14282,7 +14282,7 @@ Fuera de poblado, ¿cuál es la velocidad máxima de un vehículo especial que c
 Respuesta: **25 km/h.**
 
 - ✔ Fuera de poblado, los vehículos especiales que carecen de señalización de frenado, los que llevan remolque y los motocultores tienen un límite de 25 km/h. _(RGC 48.1.c.1º)_
-- ✘ `x1a-0042` Los vehículos especiales y los vehículos en régimen de transporte especial pueden circular por debajo de los límites mínimos de velocidad. _(RGC 49.2)_
+- ✘ `vel-0011` Se prohíbe circular en autopistas y autovías con vehículos a motor a menos de 60 km/h (salvo las excepciones del art. 49.2). _(RGC 49.1)_
 - ✘ `x1a-0023` La autoridad responsable del tráfico puede fijar limitaciones de velocidad temporales mediante señalización circunstancial o variable cuando las condiciones de la circulación lo aconsejan. _(RGC 47)_
 
 ## v5a-vel-0004
@@ -14508,7 +14508,7 @@ Respuesta: **Paso a nivel con barreras.**
 
 - ✔ La baliza de aproximación de 200 m (P-9a en el lado derecho) indica que hay un paso a nivel, un puente móvil o un muelle a 200 m y va siempre acompañada de la señal P-5 (puente móvil), P-7 (paso a nivel con barreras), P-8 (paso a nivel sin barreras) o P-27 (muelle). _(RGC_CATALOGO Anexo I, señal P-9a)_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `x1b-0055` Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
 
 ## v5c-pn-0002
 
@@ -14517,7 +14517,7 @@ Respuesta: **Un paso a nivel, un puente móvil o un muelle a 100 m.**
 
 - ✔ Las balizas de aproximación funcionan como una cuenta atrás: tres franjas a 200 m, dos a 150 m y una a 100 m. La de una franja indica un paso a nivel, un puente móvil o un muelle a 100 m; la P-9c se coloca en el lado derecho y la P-10c en el izquierdo. _(RGC_CATALOGO Anexo I, señal P-9c)_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
-- ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
+- ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
 
 ## v5c-proh-0002
 
@@ -14760,7 +14760,7 @@ Respuesta: **Se calienta, se deforma y se desgasta antes.**
 
 - ✔ Con una presión de inflado menor de la recomendada el neumático se calienta, se deforma y se desgasta antes; además se gasta más combustible y el vehículo es menos estable. El desgaste por el centro es propio del exceso de presión. _(MANUAL_DGT Tema 5, presión de inflado (p. 99-100))_
 - ✘ `A-adv-0010` En los turismos (M1), cuando el retrovisor interior no permite la visión del campo reglamentario hacia atrás, este pasa a ser opcional y debe colocarse un segundo retrovisor exterior en el lado derecho. _(RGV Anexo III.2, nota (1))_
-- ✘ `E-neu-0001` Los neumáticos de las categorías M1, N1, O1 y O2 (turismos, furgonetas ligeras y remolques ligeros) deben tener como mínimo 1,6 mm de profundidad en las ranuras principales. _(RGV Anexo VII.2)_
+- ✘ `E-neu-0002` Para las categorías M2, M3, N2, N3, O3 y O4 (autobuses, camiones de más de 3.500 kg y remolques pesados) el mínimo es 1,0 mm; el de 1,6 mm es para turismos y vehículos ligeros. _(RGV Anexo VII.2)_
 
 ## v5f-ada-0001
 
@@ -14823,7 +14823,7 @@ Respuesta: **Para quitar el hielo y los vapores del cristal trasero y que se vea
 
 - ✔ La luneta térmica son las líneas del cristal trasero del vehículo. Quitan el hielo y el vaho que se forman en ese cristal para mantener la visibilidad hacia atrás. _(MANUAL_DGT Tema 6, Luneta térmica (pág. 126))_
 - ✘ `xe-0074` Según el manual de la DGT, el limpiaparabrisas no se debe usar con el cristal seco porque lo puede rayar. _(MANUAL_DGT Tema 6, Limpiaparabrisas (p. 126))_
-- ✘ `E-neu-0005` El Reglamento de Vehículos exige que los neumáticos no presenten ampollas, deformaciones anormales ni roturas, con independencia de la profundidad del dibujo. _(RGV Anexo VII.4)_
+- ✘ `E-mec-0004` Con el filtro del aire muy sucio o roto puede salir humo negro y se gasta más combustible. El humo blanco azulado indica exceso de aceite y el blanco al arrancar en frío es vapor de agua. _(MANUAL_DGT Tema 15, Sistema de alimentación (p. 367))_
 
 ## v5f-aux-0001
 
@@ -14832,7 +14832,7 @@ Respuesta: **Dejar inmóvil la zona de la fractura y evitar que el herido la mue
 
 - ✔ Ante una fractura hay que dejar inmóvil la zona, evitar que el herido la mueva y tapar la herida si la hay. _(MANUAL_DGT Tema 16, Fractura (pág. 434))_
 - ✘ `xe-0032` Según el manual de la DGT, ante una quemadura no se debe tocar la zona quemada ni quitar la ropa que se haya quedado pegada a ella. _(MANUAL_DGT Tema 16, Quemaduras (p. 434))_
-- ✘ `E-aux-0004` Se hacen 30 compresiones en el centro del tórax (unas 100 por minuto, con los codos extendidos) y 2 ventilaciones, hasta que llegue la ayuda médica. _(MANUAL_DGT Tema 16, Respiración (p. 427))_
+- ✘ `E-aux-0007` Hay que escribir la hora a la que se hizo el torniquete y dónde se ha colocado; solo el personal médico puede quitarlo. _(MANUAL_DGT Tema 16, Torniquete (p. 431))_
 
 ## v5f-acc-0001
 
@@ -14868,7 +14868,7 @@ Respuesta: **A los lados del cuello, nunca debajo.**
 
 - ✔ Para proteger el cuello de un herido de movimientos bruscos se puede colocar ropa, arena o las manos a los lados del cuello, nunca debajo de él. _(MANUAL_DGT Tema 16, Socorrer (pág. 420))_
 - ✘ `xe-0032` Según el manual de la DGT, ante una quemadura no se debe tocar la zona quemada ni quitar la ropa que se haya quedado pegada a ella. _(MANUAL_DGT Tema 16, Quemaduras (p. 434))_
-- ✘ `xe-0024` Según el manual de la DGT, en la reanimación cardiopulmonar se empuja el tórax con los codos extendidos unas 100 veces por minuto, con 2 ventilaciones cada 30 compresiones. _(MANUAL_DGT Tema 16, Respiración (p. 427))_
+- ✘ `E-aux-0006` El torniquete es el último recurso: solo en extremidades y cuando han fallado la compresión directa y la arterial. _(MANUAL_DGT Tema 16, Torniquete (p. 431))_
 
 ## v5f-ent-0001
 

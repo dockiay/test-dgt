@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Parte trasera de un camión de noche</title>
+<desc id="d">Parte trasera de un camión ancho, de noche, con dos luces rojas en las esquinas de arriba y los pilotos traseros abajo.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#1a2230" />
+<rect x="0" y="330" width="400" height="70" fill="#2a2f36"/>
+<rect x="70" y="50" width="260" height="250" rx="6" fill="#8b95a3"/>
+<line x1="200" y1="58" x2="200" y2="292" stroke="#6b7480" stroke-width="4"/>
+<rect x="60" y="292" width="280" height="24" fill="#3a3f47"/>
+<rect x="100" y="316" width="50" height="22" fill="#111"/><rect x="250" y="316" width="50" height="22" fill="#111"/>
+<circle cx="84" cy="64" r="9" fill="#ff2a2a"/><circle cx="316" cy="64" r="9" fill="#ff2a2a"/>
+<circle cx="84" cy="64" r="18" fill="#ff2a2a" opacity="0.25"/><circle cx="316" cy="64" r="18" fill="#ff2a2a" opacity="0.25"/>
+<rect x="66" y="296" width="44" height="16" rx="3" fill="#ff3b30"/><rect x="290" y="296" width="44" height="16" rx="3" fill="#ff3b30"/>
+<rect x="170" y="296" width="60" height="16" fill="#f0e6b0"/>
+</svg>

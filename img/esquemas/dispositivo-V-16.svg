@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Dispositivo luminoso amarillo encendido</title>
+<desc id="d">Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#2b3340" />
+<ellipse cx="200" cy="300" rx="95" ry="22" fill="#1b1f27"/>
+<path d="M115,250 L285,250 L292,292 Q200,312 108,292 Z" fill="#20242c"/>
+<path d="M135,250 L135,195 Q200,120 265,195 L265,250 Z" fill="#ffb300"/>
+<path d="M150,245 L150,200 Q200,145 250,200 L250,245 Z" fill="#ffd54a" opacity="0.8"/>
+<line x1="96.6" y1="167.4" x2="49.6" y2="150.3" stroke="#ffc928" stroke-width="10" stroke-linecap="round"/>
+<line x1="129.3" y1="120.7" x2="97.2" y2="82.4" stroke="#ffc928" stroke-width="10" stroke-linecap="round"/>
+<line x1="180.9" y1="96.7" x2="172.2" y2="47.4" stroke="#ffc928" stroke-width="10" stroke-linecap="round"/>
+<line x1="219.1" y1="96.7" x2="227.8" y2="47.4" stroke="#ffc928" stroke-width="10" stroke-linecap="round"/>
+<line x1="270.7" y1="120.7" x2="302.8" y2="82.4" stroke="#ffc928" stroke-width="10" stroke-linecap="round"/>
+<line x1="303.4" y1="167.4" x2="350.4" y2="150.3" stroke="#ffc928" stroke-width="10" stroke-linecap="round"/>
+<line x1="96.6" y1="167.4" x2="49.6" y2="150.3" stroke="#ffc928" stroke-width="10" stroke-linecap="round"/>
+</svg>

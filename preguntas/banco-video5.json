@@ -1180,10 +1180,20 @@
         "ref": "video5",
         "minuto": "1:25:16"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/fotos-boe/hitos-vertice.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Dos hitos de vértice: piezas semicilíndricas, una verde y otra azul, con un rombo blanco",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Dos hitos de vértice: piezas semicilíndricas, una verde y otra azul, con un rombo blanco"
+      }
     },
     {
       "id": "v5c-bal-0002",
@@ -1210,10 +1220,20 @@
         "ref": "video5",
         "minuto": "1:25:24"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/fotos-boe/hitos-arista.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Dos hitos de arista: postes blancos con una franja negra y elementos reflectantes",
+        "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Dos hitos de arista: postes blancos con una franja negra y elementos reflectantes"
+      }
     },
     {
       "id": "v5c-age-0001",
@@ -1824,10 +1844,20 @@
         "ref": "video5",
         "minuto": "2:52:43"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-10-transporte-escolar.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa con un cuadrado amarillo en el que aparecen dos niños de la mano en negro y, debajo, las palabras TRANSPORTE ESCOLAR sobre fondo blanco.",
+        "credito": "Esquema propio del proyecto, según la señal V-10 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa con un cuadrado amarillo en el que aparecen dos niños de la mano en negro y, debajo, las palabras TRANSPORTE ESCOLAR sobre fondo blanco."
+      }
     },
     {
       "id": "v5d-sev-0002",
@@ -1854,10 +1884,20 @@
         "ref": "video5",
         "minuto": "2:53:04"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-14-aprendizaje.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa rectangular de fondo azul con una letra L blanca y, debajo, la palabra PRACTICAS en blanco.",
+        "credito": "Esquema propio del proyecto, según la señal V-14 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa rectangular de fondo azul con una letra L blanca y, debajo, la palabra PRACTICAS en blanco."
+      }
     },
     {
       "id": "v5d-mv-0001",
@@ -2625,12 +2665,21 @@
         "ref": "video5",
         "minuto": "4:19:35"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/fotos-libres/cadenas-nieve.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Persona colocando cadenas metálicas para nieve en una rueda",
+        "credito": "Foto: Oregon Department of Transportation, Wikimedia Commons, CC BY 2.0"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 6,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Persona colocando cadenas metálicas para nieve en una rueda"
+      }
     },
     {
       "id": "v5f-mec-0001",
@@ -2718,12 +2767,21 @@
         "ref": "video5",
         "minuto": "4:37:58"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/deposito-refrigerante.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Depósito translúcido del líquido refrigerante con su tapón y dos marcas, MAX arriba y MIN abajo; el líquido está entre las dos.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 14,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Depósito translúcido del líquido refrigerante con su tapón y dos marcas, MAX arriba y MIN abajo; el líquido está entre las dos."
+      }
     },
     {
       "id": "v5f-mec-0004",

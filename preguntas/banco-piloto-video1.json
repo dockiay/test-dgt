@@ -600,12 +600,21 @@
         "ref": "video1",
         "minuto": "23:02"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/patinete-electrico.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 7,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar."
+      }
     },
     {
       "id": "arc-0001",
@@ -1318,12 +1327,21 @@
         "ref": "video1",
         "minuto": "46:21"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-15-discapacidad.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa de fondo azul con el símbolo blanco de una persona en silla de ruedas.",
+        "credito": "Esquema propio del proyecto, según la señal V-15 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa de fondo azul con el símbolo blanco de una persona en silla de ruedas."
+      }
     },
     {
       "id": "cesp-0008",
@@ -1896,12 +1914,21 @@
         "ref": "video1",
         "minuto": "1:06:43"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/fotos-libres/tractor-agricola.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Tractor agrícola en una calle de Lugo",
+        "credito": "Foto: Certo Xornal, Wikimedia Commons, CC BY-SA 2.0"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Tractor agrícola en una calle de Lugo"
+      }
     },
     {
       "id": "vel-0008",

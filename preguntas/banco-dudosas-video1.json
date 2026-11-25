@@ -167,11 +167,21 @@
         "minuto": "6:40",
         "resuelve": "rev-0004"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/patinete-electrico.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "La cita es el final de la definición de «Vehículo a motor» del anexo II. Comprobado también en el manual DGT (Tema 1, «Vehículos no considerados a motor»).",
-      "materia": 1
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar."
+      }
     },
     {
       "id": "res-def-0005",

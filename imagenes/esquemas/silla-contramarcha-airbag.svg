@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Silla de bebé a contramarcha en el asiento delantero</title>
+<desc id="d">Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#e9edf1" />
+<line x1="10" y1="20" x2="120" y2="120" stroke="#9fb3c8" stroke-width="8"/>
+<path d="M0,120 L125,120 Q150,124 150,150 L150,200 Q150,215 135,215 L0,230 Z" fill="#3b4048"/>
+<rect x="96" y="138" width="48" height="26" rx="5" fill="#e0e3e7"/>
+<text x="120" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="10" fill="#333" >AIRBAG</text>
+<path d="M180,330 L365,330 L365,300 L190,300 Z" fill="#4a5f7a"/>
+<path d="M335,300 L368,300 L390,115 L360,110 Z" fill="#4a5f7a"/>
+<rect x="356" y="70" width="36" height="44" rx="10" fill="#4a5f7a"/>
+<path d="M170,170 Q175,300 300,300 L320,300 L322,282 Q215,282 200,175 Z" fill="#e57a2e"/>
+<path d="M178,180 Q230,120 300,165" stroke="#555" stroke-width="7" fill="none"/>
+<circle cx="215" cy="200" r="19" fill="#f2c9a0"/>
+<path d="M222,222 Q240,262 300,278 L312,262 Q262,246 246,214 Z" fill="#7db0e0"/>
+</svg>

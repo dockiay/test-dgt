@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Depósito del líquido refrigerante</title>
+<desc id="d">Depósito translúcido del líquido refrigerante con su tapón y dos marcas, MAX arriba y MIN abajo; el líquido está entre las dos.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#d9dde2" />
+<rect x="110" y="70" width="180" height="270" rx="26" fill="#f4f1e6" stroke="#8a8f96" stroke-width="5"/>
+<path d="M115,210 L285,210 L285,312 Q285,335 262,335 L138,335 Q115,335 115,312 Z" fill="#ff5fa2" opacity="0.75"/>
+<rect x="160" y="34" width="80" height="46" rx="8" fill="#1f2328"/>
+<line x1="240" y1="170" x2="290" y2="170" stroke="#333" stroke-width="5"/>
+<line x1="240" y1="260" x2="290" y2="260" stroke="#333" stroke-width="5"/>
+<text x="325" y="177" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="22" fill="#222" >MAX</text>
+<text x="325" y="267" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="22" fill="#222" >MIN</text>
+</svg>

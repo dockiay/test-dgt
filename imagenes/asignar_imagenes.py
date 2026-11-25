@@ -13,7 +13,7 @@ import os
 import sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TIPO_REQ = {"senal": "senal", "marca_vial": "marca_vial", "foto_boe": "foto", "figura_boe": "foto", "esquema": "esquema"}
+TIPO_REQ = {"senal": "senal", "marca_vial": "marca_vial", "foto_boe": "foto", "figura_boe": "foto", "foto_libre": "foto", "esquema": "esquema"}
 
 
 def main():

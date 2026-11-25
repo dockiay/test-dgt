@@ -1,5 +1,5 @@
 {
-  "descripcion": "Preguntas a las que se ha puesto imagen después de redactarlas (24/11/2026). Solo cambian los campos imagen e imagen_requerida; el enunciado, las opciones, la respuesta y la explicación no se tocan. Se aplica con imagenes/asignar_imagenes.py.",
+  "descripcion": "Preguntas a las que se ha puesto imagen después de redactarlas (24/11/2026). Solo cambian los campos imagen e imagen_requerida; el enunciado, las opciones, la respuesta y la explicación no se tocan. Se aplica con imagenes/asignar_imagenes.py. Tanda del 25/11/2026: esquemas de imagenes/esquemas/esquemas_tanda4.py.",
   "preguntas": [
     {
       "id": "x1b-0041",
@@ -183,6 +183,162 @@
       "id": "xb-0058",
       "src": "img/esquemas/senal-V-13-conductor-novel.svg",
       "credito": "Esquema propio del proyecto, según el plano de la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "x1a-0126",
+      "src": "img/esquemas/glorieta-dos-carriles.svg"
+    },
+    {
+      "id": "A-adel-0011",
+      "src": "img/esquemas/tranvia-zona-central.svg"
+    },
+    {
+      "id": "A-adel-0014",
+      "src": "img/esquemas/tunel-un-carril-por-sentido.svg"
+    },
+    {
+      "id": "xd-0034",
+      "src": "img/esquemas/tunel-dos-carriles-mismo-sentido.svg"
+    },
+    {
+      "id": "v2-adel-0005",
+      "src": "img/esquemas/interseccion-via-ciclista.svg"
+    },
+    {
+      "id": "bm3-0016",
+      "src": "img/esquemas/ciclistas-de-frente.svg"
+    },
+    {
+      "id": "x1a-0001",
+      "src": "img/esquemas/curva-sin-marcas.svg"
+    },
+    {
+      "id": "x1a-0007",
+      "src": "img/esquemas/autovia-dos-carriles.svg"
+    },
+    {
+      "id": "x1a-0009",
+      "src": "img/esquemas/autovia-tres-carriles-vao.svg"
+    },
+    {
+      "id": "x1a-0015",
+      "src": "img/esquemas/via-tres-calzadas.svg"
+    },
+    {
+      "id": "x1a-0098",
+      "src": "img/esquemas/salida-carril-deceleracion.svg"
+    },
+    {
+      "id": "arc-0014",
+      "src": "img/esquemas/autovia-tres-carriles-camion.svg"
+    },
+    {
+      "id": "v5a-car-0002",
+      "src": "img/esquemas/autovia-tres-carriles-camion.svg"
+    },
+    {
+      "id": "v5a-car-0001",
+      "src": "img/esquemas/autovia-tres-carriles-caravana.svg"
+    },
+    {
+      "id": "xd-0123",
+      "src": "img/esquemas/autovia-tres-carriles-caravana.svg"
+    },
+    {
+      "id": "arc-0013",
+      "src": "img/esquemas/autovia-nieve-dos-carriles.svg"
+    },
+    {
+      "id": "v2-nieve-0001",
+      "src": "img/esquemas/autovia-nieve-tres-carriles.svg"
+    },
+    {
+      "id": "res-cesp-0002",
+      "src": "img/esquemas/carril-habilitado-un-carril.svg"
+    },
+    {
+      "id": "res-cesp-0003",
+      "src": "img/esquemas/carril-habilitado-dos-carriles.svg"
+    },
+    {
+      "id": "v5d-mv-0001",
+      "src": "img/esquemas/carril-bus-discontinua.svg"
+    },
+    {
+      "id": "A-ma-0002",
+      "src": "img/esquemas/calle-sin-salida-estrecha.svg"
+    },
+    {
+      "id": "A-adv-0001",
+      "src": "img/esquemas/intermitente-derecho-y-brazo.svg"
+    },
+    {
+      "id": "A-adv-0002",
+      "src": "img/esquemas/brazo-doblado-hacia-arriba.svg"
+    },
+    {
+      "id": "x1b-0002",
+      "src": "img/esquemas/estacionado-isleta.svg"
+    },
+    {
+      "id": "x1b-0010",
+      "src": "img/esquemas/parado-tapa-senal.svg"
+    },
+    {
+      "id": "v5b-par-0005",
+      "src": "img/esquemas/parado-delante-vado.svg"
+    },
+    {
+      "id": "A-par-0016",
+      "src": "img/esquemas/calle-sentido-unico.svg"
+    },
+    {
+      "id": "v5b-par-0003",
+      "src": "img/esquemas/calle-doble-sentido.svg"
+    },
+    {
+      "id": "x1b-0039",
+      "src": "img/esquemas/flecha-y-conos.svg"
+    },
+    {
+      "id": "v5c-sem-0001",
+      "src": "img/esquemas/semaforo-flecha-verde-derecha.svg"
+    },
+    {
+      "id": "v5c-age-0001",
+      "src": "img/esquemas/agente-brazo-abajo.svg"
+    },
+    {
+      "id": "A-pri-0005",
+      "src": "img/esquemas/incorporacion-autopista.svg"
+    },
+    {
+      "id": "A-pea-0003",
+      "src": "img/esquemas/peatones-entre-autobus-y-acera.svg"
+    },
+    {
+      "id": "xd-0061",
+      "src": "img/esquemas/ciclista-descenso-curvas.svg"
+    },
+    {
+      "id": "xc-0102",
+      "src": "img/esquemas/glorieta-partida.svg"
+    },
+    {
+      "id": "v5a-via-0002",
+      "src": "img/esquemas/calzada-ancha-sin-marcas.svg"
+    },
+    {
+      "id": "xc-0095",
+      "src": "img/esquemas/calzada-ancha-sin-marcas.svg"
+    },
+    {
+      "id": "xc-0128",
+      "src": "img/esquemas/ida-y-vuelta.svg"
+    },
+    {
+      "id": "xc-0116",
+      "src": "img/esquemas/plataforma-unica.svg"
     }
   ]
 }

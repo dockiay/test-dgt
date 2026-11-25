@@ -423,11 +423,21 @@
         "minuto": "40:13",
         "resuelve": "rev-0013"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/carril-habilitado-un-carril.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada en la que un carril se ha habilitado en sentido contrario al habitual y está separado con conos. Por él baja el vehículo B; por el carril de la izquierda baja el C. En el sentido del vehículo A solo queda su carril, contiguo al habilitado.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
-      "materia": 1
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada en la que un carril se ha habilitado en sentido contrario al habitual y está separado con conos. Por él baja el vehículo B; por el carril de la izquierda baja el C. En el sentido del vehículo A solo queda su carril, contiguo al habilitado."
+      }
     },
     {
       "id": "res-cesp-0003",
@@ -454,11 +464,21 @@
         "minuto": "40:13",
         "resuelve": "rev-0013"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/carril-habilitado-dos-carriles.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada en la que un carril se ha habilitado en sentido contrario al habitual y está separado con conos. Por él baja el vehículo B; por el carril de la izquierda baja el C. En el sentido del vehículo A quedan dos carriles; A va por el contiguo al habilitado.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
-      "materia": 1
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada en la que un carril se ha habilitado en sentido contrario al habitual y está separado con conos. Por él baja el vehículo B; por el carril de la izquierda baja el C. En el sentido del vehículo A quedan dos carriles; A va por el contiguo al habilitado."
+      }
     },
     {
       "id": "res-cesp-0004",

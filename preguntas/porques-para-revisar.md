@@ -17,8 +17,8 @@ Como norma general, ¿por qué parte de la calzada deben circular los vehículos
 Respuesta: **Por la derecha y lo más cerca posible del borde de la calzada.**
 
 - ✔ Los vehículos circulan por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para cruzarse con seguridad, muy especialmente en curvas y cambios de rasante. _(RGC 29.1)_
-- ✘ `xc-0102` Las glorietas partidas, en las que dos tramos se conectan directamente a través de la isleta central y el tráfico no la rodea, no son glorietas propiamente dichas. _(LSV Anexo I.63)_
-- ✘ `x1a-0007` Fuera de poblado, en calzadas con más de un carril para el mismo sentido, se circula normalmente por el situado más a la derecha y se pueden usar los demás cuando lo aconsejen el tráfico o la vía, sin entorpecer a quien siga. _(RGC 31.1)_
+- ✘ `x1a-0014` En las vías divididas en dos calzadas por medianas, separadores o dispositivos análogos, los vehículos deben utilizar la calzada de la derecha en relación con su sentido de marcha. _(RGC 44.1)_
+- ✘ `xc-0101` Una glorieta es un tipo especial de intersección en el que los tramos que confluyen se comunican a través de un anillo con circulación rotatoria alrededor de una isleta central. _(LSV Anexo I.63)_
 
 ## x1a-0003
 
@@ -35,8 +35,8 @@ Conduce un camión de 12.000 kg de masa máxima autorizada por una carretera con
 Respuesta: **Por la calzada, en el carril de su derecha.**
 
 - ✔ Los automóviles circulan por la calzada y no por el arcén, salvo por razones de emergencia; en una calzada de doble sentido con dos carriles, por el de su derecha. _(RGC 30.1.a)_
-- ✘ `x1a-0015` Cuando una vía se divide en tres calzadas, la central puede destinarse a la circulación en los dos sentidos o en un sentido único, permanente o temporal, según dispongan las señales; las laterales, a un solo sentido. _(RGC 44.2)_
-- ✘ `x1a-0001` En las curvas y cambios de rasante de reducida visibilidad, aunque no haya marcas que lo delimiten, el conductor debe dejar completamente libre la mitad de la calzada que corresponde al sentido contrario. _(RGC 29.1)_
+- ✘ `via-0005` Está prohibido circular en bicicleta por autopistas y autovías, pero los mayores de 14 años pueden ir por los arcenes de las autovías salvo prohibición señalizada. _(RGC 38.1)_
+- ✘ `xc-0094` La calzada es la parte de la carretera dedicada a la circulación de vehículos y se compone de un cierto número de carriles. _(LSV Anexo I.55)_
 
 ## x1a-0005
 
@@ -72,7 +72,7 @@ Respuesta: **Para prepararse a cambiar de dirección, adelantar, parar o estacio
 
 - ✔ En poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas, el carril elegido no debe abandonarse más que para prepararse a cambiar de dirección, adelantar, parar o estacionar. _(RGC 33)_
 - ✘ `via-0007` Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares). _(RGC 38.4.b)_
-- ✘ `xc-0095` Un carril es una banda longitudinal de la calzada, delimitada o no por marcas viales longitudinales, con anchura suficiente para la circulación de una fila de automóviles que no sean motocicletas. _(LSV Anexo I.56)_
+- ✘ `x1a-0011` Cuando en la vía hay refugios, isletas o dispositivos de guía, se circula por la parte de la calzada que queda a su derecha, salvo en vías de sentido único o dentro de la parte de un solo sentido. _(RGC 43.1)_
 
 ## x1a-0009
 
@@ -99,7 +99,7 @@ Respuesta: **Por la parte de la calzada que queda a la derecha de la isleta.**
 
 - ✔ Cuando en la vía hay refugios, isletas o dispositivos de guía, se circula por la parte de la calzada que queda a su derecha, salvo en vías de sentido único o dentro de la parte de un solo sentido. _(RGC 43.1)_
 - ✘ `xc-0106` Tanto la autopista como la autovía constan de distintas calzadas para cada sentido de circulación, separadas entre sí, y no tienen cruces a nivel; se diferencian en el acceso de las propiedades colindantes. _(LSV Anexo I.67.c)_
-- ✘ `xc-0116` En la zona con plataforma única de calzada y acera, diseñada para favorecer el tránsito peatonal, el peatón goza de prioridad de paso en cualquier punto de la calzada. _(LSV Anexo I.83)_
+- ✘ `res-via-0001` Los peatones no pueden circular por autopistas ni autovías, salvo en los casos y condiciones del artículo 130 (inmovilización del vehículo por emergencia). _(RGC 125.1)_
 
 ## x1a-0012
 
@@ -125,8 +125,8 @@ Circula por una vía dividida en dos calzadas por una mediana. ¿Qué calzada de
 Respuesta: **La de la derecha, según su sentido de marcha.**
 
 - ✔ En las vías divididas en dos calzadas por medianas, separadores o dispositivos análogos, los vehículos deben utilizar la calzada de la derecha en relación con su sentido de marcha. _(RGC 44.1)_
-- ✘ `v5a-via-0002` Un carril es una banda longitudinal de la calzada, delimitada o no por marcas viales, con anchura suficiente para que circule una fila de automóviles que no sean motocicletas. Por eso puede haber carriles aunque no estén pintados. _(LSV Anexo I, 56)_
 - ✘ `xc-0101` Una glorieta es un tipo especial de intersección en el que los tramos que confluyen se comunican a través de un anillo con circulación rotatoria alrededor de una isleta central. _(LSV Anexo I.63)_
+- ✘ `xc-0123` El conductor que por emergencia tenga que circular por una autopista o autovía a velocidad anormalmente reducida debe abandonarla por la primera salida. _(RGC 38.2)_
 
 ## x1a-0015
 
@@ -792,7 +792,7 @@ Respuesta: **Seguir, si es necesario, las indicaciones de otra persona.**
 
 - ✔ Quien se incorpora a la circulación desde una propiedad colindante debe cerciorarse antes de que puede hacerlo sin peligro, incluso siguiendo las indicaciones de otra persona si es necesario, y ceder el paso. _(RGC 72.1)_
 - ✘ `x1a-0095` Aunque los demás conductores deban facilitar la salida de los autobuses de las paradas en poblado, el conductor del autobús sigue obligado a adoptar las precauciones necesarias para evitar todo riesgo de accidente. _(RGC 73.3)_
-- ✘ `A-adv-0001` Las advertencias hechas con el brazo, si son perceptibles y se hacen conforme al reglamento, anulan cualquier otra indicación óptica que las contradiga. _(RGC 108.2)_
+- ✘ `res-def-0002` Los dos transportan mercancías y tienen como máximo 9 plazas incluido el conductor. En la furgoneta la cabina está integrada en la carrocería; en el camión, no. _(RGV Anexo II.A)_
 
 ## x1a-0093
 
@@ -827,8 +827,8 @@ Va a girar a la izquierda en un cruce. ¿Cuándo debe colocar su vehículo en el
 Respuesta: **Con la antelación necesaria.**
 
 - ✔ En un cambio de dirección, el vehículo se coloca en el lugar adecuado con la necesaria antelación y la maniobra se hace en el menor espacio y tiempo posibles. _(RGC 75.1.b)_
-- ✘ `x1a-0098` Para abandonar una autopista, autovía u otra vía, se circula con suficiente antelación por el carril más próximo a la salida y se entra lo antes posible en el carril de deceleración, si existe. _(RGC 77)_
 - ✘ `res-sen-0004` Si la R-301 está en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. Esto lo dice la ficha de la velocidad máxima; la de adelantamiento prohibido no tiene esta regla. _(RGC Anexo I, Catálogo de señales verticales, tomo I, 3.5 (R-301))_
+- ✘ `A-urg-0006` Los vehículos no prioritarios en servicio de urgencia deben respetar las normas de circulación, sobre todo en las intersecciones; los demás usuarios deben facilitarles el paso. _(RGC 70.2)_
 
 ## x1a-0097
 
@@ -836,8 +836,8 @@ Gira a la izquierda en una intersección acondicionada y señalizada para dejar 
 Respuesta: **Dejando el centro de la intersección a su derecha.**
 
 - ✔ Al girar a la izquierda se deja a la izquierda el centro de la intersección, salvo que esta esté acondicionada o señalizada para dejarlo a la derecha. _(RGC 75.1.c)_
-- ✘ `x1a-0098` Para abandonar una autopista, autovía u otra vía, se circula con suficiente antelación por el carril más próximo a la salida y se entra lo antes posible en el carril de deceleración, si existe. _(RGC 77)_
 - ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
+- ✘ `A-adv-0004` La intención de inmovilizar el vehículo o frenar de modo considerable se advierte con las luces de frenado o moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos. _(RGC 109.2.c)_
 
 ## x1a-0098
 
@@ -890,8 +890,8 @@ Respuesta: **No.**
 Respuesta: **Lentamente, tras advertirlo y comprobar que no hay peligro, incluso bajándose.**
 
 - ✔ La marcha atrás se hace lentamente, después de advertirla y de cerciorarse, incluso apeándose o siguiendo las indicaciones de otra persona, de que no supone peligro para los demás. _(RGC 81.1)_
-- ✘ `A-adv-0002` El desplazamiento lateral hacia el lado contrario al que indica la mano se advierte con el brazo doblado hacia arriba y la palma extendida. Con el brazo izquierdo, indica desplazamiento a la derecha. _(RGC 109.2.a)_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
+- ✘ `x1a-0101` Se prohíbe el cambio de sentido en toda situación que impida comprobar que la maniobra no pone en peligro ni obstaculiza a otros usuarios. _(RGC 79.1)_
 
 ## x1a-0104
 
@@ -908,8 +908,8 @@ En una calle de sentido único, el vehículo de delante indica claramente que va
 Respuesta: **Por la derecha, con las máximas precauciones.**
 
 - ✔ Se adelanta por la derecha, con las máximas precauciones y si hay espacio, al vehículo que indica claramente que va a girar a la izquierda o a parar en ese lado, y a los tranvías que marchan por la zona central. _(RGC 82.2)_
-- ✘ `v2-adel-0005` Las intersecciones con vías para ciclistas, igual que los pasos para peatones señalizados y los pasos a nivel, son lugares en los que está prohibido adelantar, también en sus proximidades. _(RGC 87.1.b)_
 - ✘ `A-adel-0003` Antes de adelantar hay que cerciorarse de que el vehículo que precede no ha indicado su propósito de desplazarse hacia el mismo lado; si lo ha hecho, hay que respetar su preferencia. _(RGC 84.2)_
+- ✘ `x1a-0107` Con circulación tan densa que ocupa toda la calzada, ningún conductor debe cambiar de carril para adelantar ni para otra maniobra que no sea prepararse a girar, salir de la calzada o tomar determinada dirección. _(RGC 83.2)_
 
 ## x1a-0106
 
@@ -971,8 +971,8 @@ En un grupo de ciclistas, uno de ellos pasa a otro del mismo grupo. ¿Se conside
 Respuesta: **No.**
 
 - ✔ No se consideran adelantamientos los producidos entre ciclistas que circulan en grupo. _(RGC 84.5)_
-- ✘ `A-adel-0011` Por excepción, en vías con circulación en ambos sentidos, a los tranvías que marchan por la zona central se les adelanta por la derecha. _(RGC 82.2)_
 - ✘ `x1a-0121` Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o hacer maniobras que impidan o dificulten el adelantamiento. _(RGC 86.2)_
+- ✘ `adel-0002` Cuando la calzada tiene más de un carril por sentido, es obligatorio el cambio completo de carril. _(RGC 85.4)_
 
 ## x1a-0113
 
@@ -989,8 +989,8 @@ Ya ha empezado a adelantar y surgen circunstancias que hacen difícil terminar s
 Respuesta: **Reducir rápidamente la marcha, volver a su carril y advertirlo a quienes le siguen.**
 
 - ✔ Si una vez iniciado el adelantamiento surgen circunstancias que pueden hacer difícil terminarlo sin riesgos, hay que reducir rápidamente la marcha, regresar al propio carril y advertirlo a los que siguen. _(RGC 85.2)_
-- ✘ `v2-adel-0005` Las intersecciones con vías para ciclistas, igual que los pasos para peatones señalizados y los pasos a nivel, son lugares en los que está prohibido adelantar, también en sus proximidades. _(RGC 87.1.b)_
 - ✘ `A-adel-0005` Solo se prohíbe adelantar a un vehículo que ya está adelantando a otro si, para hacerlo, hay que invadir la parte de la calzada reservada al sentido contrario. _(RGC 84.2)_
+- ✘ `x1a-0120` Quien va a ser adelantado se ciñe al borde derecho, salvo si va a girar o parar a la izquierda, en cuyo caso se ciñe a la izquierda todo lo posible sin interferir a los vehículos que circulan en sentido contrario. _(RGC 86.1)_
 
 ## x1a-0115
 
@@ -1025,7 +1025,7 @@ Va a girar a la izquierda y advierte que el vehículo que le sigue quiere adelan
 Respuesta: **Ceñirse a la izquierda todo lo posible, sin estorbar a los que vienen de frente.**
 
 - ✔ Quien va a ser adelantado se ciñe al borde derecho, salvo si va a girar o parar a la izquierda, en cuyo caso se ciñe a la izquierda todo lo posible sin interferir a los vehículos que circulan en sentido contrario. _(RGC 86.1)_
-- ✘ `v2-adel-0005` Las intersecciones con vías para ciclistas, igual que los pasos para peatones señalizados y los pasos a nivel, son lugares en los que está prohibido adelantar, también en sus proximidades. _(RGC 87.1.b)_
+- ✘ `x1a-0128` Entre las excepciones a la prohibición de adelantar en intersecciones está que la calzada por la que se adelanta goce de prioridad en la intersección y haya señal expresa que lo indique. _(RGC 87.1.c.3º)_
 - ✘ `A-adel-0005` Solo se prohíbe adelantar a un vehículo que ya está adelantando a otro si, para hacerlo, hay que invadir la parte de la calzada reservada al sentido contrario. _(RGC 84.2)_
 
 ## x1a-0121
@@ -1151,8 +1151,8 @@ Respuesta: **Sí, tras cerciorarse de que puede hacerlo sin peligro.**
 Respuesta: **Cuando impide utilizar con normalidad un paso rebajado para personas con discapacidad física.**
 
 - ✔ Obstaculizar la utilización normal de los pasos rebajados para personas con discapacidad física es uno de los supuestos de parada o estacionamiento que obstaculiza gravemente la circulación. _(RGC 91.2.d)_
-- ✘ `v5b-par-0003` En vías urbanas, cuando la parada o el estacionamiento se hace en la calzada o en el arcén, el vehículo se sitúa lo más cerca posible de su borde derecho. Solo en las vías de sentido único se permite también el lado izquierdo. _(RGC 90.2)_
-- ✘ `x1b-0010` Está prohibido parar en los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes afecte u obligue a hacer maniobras. _(RGC 94.1.f)_
+- ✘ `v2-par-0003` El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse descansando solo sobre los neumáticos, con posibilidad de usar calzos o cuñas de seguridad. _(RGC 92.4.b)_
+- ✘ `x1b-0011` En los lugares de estacionamiento con limitación horaria está prohibido estacionar sin colocar el distintivo que lo autoriza o superando el tiempo máximo permitido por la ordenanza. _(RGC 94.2.b)_
 
 ## x1b-0002
 
@@ -1178,7 +1178,7 @@ Como norma general, ¿cómo debe colocar el vehículo al parar o estacionar?
 Respuesta: **Paralelamente al borde de la calzada.**
 
 - ✔ La parada y el estacionamiento se realizan, como norma general, con el vehículo paralelo al borde de la calzada; otra colocación solo se permite si las características de la vía u otras circunstancias lo aconsejan. _(RGC 92.1)_
-- ✘ `x1b-0002` Las paradas o estacionamientos en medianas, separadores, isletas u otros elementos de canalización del tráfico se consideran efectuados en lugar peligroso o que obstaculiza gravemente la circulación. _(RGC 91.2.e)_
+- ✘ `x1b-0001` Obstaculizar la utilización normal de los pasos rebajados para personas con discapacidad física es uno de los supuestos de parada o estacionamiento que obstaculiza gravemente la circulación. _(RGC 91.2.d)_
 - ✘ `A-par-0015` En vías interurbanas, la parada o el estacionamiento debe hacerse siempre fuera de la calzada, en el lado derecho y dejando libre la parte transitable del arcén. _(RGC 90.1)_
 
 ## x1b-0005
@@ -1260,7 +1260,7 @@ Respuesta: **Cuando no tenga título que lo autorice o rebase el triple del tiem
 
 - ✔ Los Ayuntamientos pueden regular la retirada o inmovilización del vehículo que estaciona en zonas limitadas en tiempo sin título que lo autorice o rebasando el triple del tiempo abonado. _(RGC 156.1.b)_
 - ✘ `v2-par-0003` El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse descansando solo sobre los neumáticos, con posibilidad de usar calzos o cuñas de seguridad. _(RGC 92.4.b)_
-- ✘ `v5b-par-0003` En vías urbanas, cuando la parada o el estacionamiento se hace en la calzada o en el arcén, el vehículo se sitúa lo más cerca posible de su borde derecho. Solo en las vías de sentido único se permite también el lado izquierdo. _(RGC 90.2)_
+- ✘ `A-par-0011` Está prohibido parar en las intersecciones y sus proximidades si se dificulta el giro a otros vehículos o, en vías interurbanas, si se genera peligro por falta de visibilidad. _(RGC 94.1.d)_
 
 ## x1b-0016
 
@@ -1268,8 +1268,8 @@ Respuesta: **Cuando no tenga título que lo autorice o rebase el triple del tiem
 Respuesta: **Solo si la ordenanza municipal lo permite y sin perjudicar ni entorpecer el tránsito de peatones.**
 
 - ✔ Los Ayuntamientos, mediante ordenanza, pueden regular la parada y el estacionamiento de vehículos de dos ruedas sobre aceras y zonas peatonales, siempre que no se perjudique ni entorpezca el tránsito de peatones. _(RGC 156.2)_
-- ✘ `x1b-0002` Las paradas o estacionamientos en medianas, separadores, isletas u otros elementos de canalización del tráfico se consideran efectuados en lugar peligroso o que obstaculiza gravemente la circulación. _(RGC 91.2.e)_
 - ✘ `v2-par-0003` El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse descansando solo sobre los neumáticos, con posibilidad de usar calzos o cuñas de seguridad. _(RGC 92.4.b)_
+- ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
 
 ## x1b-0017
 
@@ -1277,8 +1277,8 @@ Una grúa de auxilio en carretera va a retirar un vehículo averiado en una call
 Respuesta: **Sí, por el tiempo indispensable, si no crea un nuevo peligro ni obstaculiza la circulación.**
 
 - ✔ Se permite la parada o el estacionamiento de los vehículos de auxilio en vías públicas por el tiempo indispensable para retirar los vehículos averiados o accidentados, siempre que no se cree un nuevo peligro ni se cause obstáculo a la circulación. _(RGC 156.1.d)_
-- ✘ `v5b-par-0003` En vías urbanas, cuando la parada o el estacionamiento se hace en la calzada o en el arcén, el vehículo se sitúa lo más cerca posible de su borde derecho. Solo en las vías de sentido único se permite también el lado izquierdo. _(RGC 90.2)_
 - ✘ `A-par-0008` Está prohibido parar, entre otros lugares, en pasos a nivel, pasos para ciclistas y pasos para peatones. En las calles de sentido único se puede parar también en el lado izquierdo, y la línea amarilla discontinua solo prohíbe estacionar. _(RGC 94.1.b)_
+- ✘ `A-par-0019` Cuando se trate de un vehículo de más de 3.500 kg de MMA, de un autobús o de un conjunto de vehículos y se pare o estacione en sensible pendiente, el conductor debe dejarlo debidamente calzado. _(RGC 92.3.d)_
 
 ## x1b-0018
 
@@ -1386,7 +1386,7 @@ Respuesta: **Las órdenes de los agentes de la autoridad encargados de la vigila
 
 - ✔ La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
-- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## x1b-0033
 
@@ -1394,8 +1394,8 @@ Una señal vertical sin ninguna marca en la calzada que limite su alcance, ¿a q
 Respuesta: **A toda la anchura que puedan utilizar los conductores a quienes se dirige.**
 
 - ✔ Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
-- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
 - ✘ `x1b-0055` Las señales en los vehículos sirven para dar a conocer a los demás usuarios determinadas circunstancias o características del vehículo, del servicio que presta, de la carga que transporta o de su propio conductor. _(RGC 150.1)_
+- ✘ `B1-sen-0012` Los vehículos que utilicen peajes dinámicos o telepeajes deben estar provistos del medio técnico que posibilite su uso en condiciones operativas. _(RGC 132.1)_
 
 ## x1b-0034
 
@@ -1511,8 +1511,8 @@ Como norma general, en un paso para peatones con semáforo para peatones, ¿qué
 Respuesta: **La roja no intermitente.**
 
 - ✔ Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 - ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
+- ✘ `x1b-0035` Las inscripciones que facilitan la interpretación de las señales se colocan en un panel complementario rectangular debajo de ellas o dentro de un panel rectangular que contenga la señal. _(RGC 137.1)_
 
 ## x1b-0048
 
@@ -1592,8 +1592,8 @@ Respuesta: **Dar a conocer circunstancias del vehículo, de su servicio, de su c
 Respuesta: **No, las ordenanzas no pueden oponerse ni alterar el reglamento.**
 
 - ✔ Las ordenanzas municipales pueden desarrollar aspectos de las normas urbanas, pero no pueden oponerse, alterar, desvirtuar o inducir a confusión con los preceptos del reglamento. _(RGC 151.3)_
-- ✘ `xc-0095` Un carril es una banda longitudinal de la calzada, delimitada o no por marcas viales longitudinales, con anchura suficiente para la circulación de una fila de automóviles que no sean motocicletas. _(LSV Anexo I.56)_
-- ✘ `xc-0102` Las glorietas partidas, en las que dos tramos se conectan directamente a través de la isleta central y el tráfico no la rodea, no son glorietas propiamente dichas. _(LSV Anexo I.63)_
+- ✘ `x1a-0002` Los vehículos circulan por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para cruzarse con seguridad, muy especialmente en curvas y cambios de rasante. _(RGC 29.1)_
+- ✘ `B2-via-0012` En las zonas peatonales distintas de las aceras, la autoridad municipal puede autorizar mediante ordenanza la coexistencia de peatones con ciclistas y usuarios de VMP, respetando la prioridad de los peatones. _(RGC 152.1)_
 
 ## x1b-0057
 
@@ -1601,8 +1601,8 @@ Respuesta: **No, las ordenanzas no pueden oponerse ni alterar el reglamento.**
 Respuesta: **Sí, total o parcialmente, según criterios medioambientales.**
 
 - ✔ Las autoridades competentes pueden restringir, total o parcialmente, la entrada y circulación de vehículos en zonas de bajas emisiones, zonas de prioridad residencial u otras vías de su competencia, según criterios medioambientales. _(RGC 157)_
-- ✘ `x1a-0007` Fuera de poblado, en calzadas con más de un carril para el mismo sentido, se circula normalmente por el situado más a la derecha y se pueden usar los demás cuando lo aconsejen el tráfico o la vía, sin entorpecer a quien siga. _(RGC 31.1)_
 - ✘ `xc-0118` Un camino escolar seguro es un conjunto de vías acondicionadas por la autoridad para que los niños y niñas se trasladen a los centros escolares caminando, en transporte público o con medios de movilidad no motorizados. _(LSV Anexo I.85)_
+- ✘ `xc-0106` Tanto la autopista como la autovía constan de distintas calzadas para cada sentido de circulación, separadas entre sí, y no tienen cruces a nivel; se diferencian en el acceso de las propiedades colindantes. _(LSV Anexo I.67.c)_
 
 ## x1b-0058
 
@@ -1647,7 +1647,7 @@ Respuesta: **Porque la señal P-18 Obras únicamente puede utilizarse con fondo 
 
 - ✔ La señal P-18 Obras únicamente puede utilizarse con fondo amarillo; en los tramos en obras, otras señales de peligro y reglamentación de fondo blanco pasan también a tenerlo amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## x1b-0064
 
@@ -1764,7 +1764,7 @@ Respuesta: **Un reductor de velocidad tipo «lomo de asno».**
 
 - ✔ La presencia de un reductor de velocidad tipo «lomo de asno» (M-4.5) se advierte mediante tres triángulos dispuestos sobre su parte ascendente. _(RGC Anexo I.5.2 (marcas viales, 4.2, M-4.5))_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
 
 ## x1b-0099
 
@@ -1790,8 +1790,8 @@ En un puerto de montaña, los sentidos están separados por una línea de separa
 Respuesta: **Nada; solo separa los sentidos de circulación.**
 
 - ✔ La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
-- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `x1b-0034` Las señales viales llevan materiales o dispositivos retrorreflectantes para que sean más visibles y legibles por la noche. _(RGC 136)_
+- ✘ `B1-sen-0024` La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
 
 ## x1b-0102
 
@@ -3510,7 +3510,7 @@ Respuesta: **Señalizar con más tiempo las maniobras y frenar de forma suave y 
 
 - ✔ Cuando el vehículo de atrás se acerca mucho conviene dejar más distancia con el de delante, señalizar con más tiempo las maniobras y frenar de forma suave y con tiempo suficiente. _(MANUAL_DGT Tema 17, Espacio trasero (p. 447))_
 - ✘ `xc-0049` El conductor del último vehículo de una fila detenida puede mantener una distancia de cinco o seis metros con el vehículo de delante, para tener margen si le alcanzan por detrás. _(MANUAL_DGT Tema 17, Espacio al detener el vehículo (p. 448))_
-- ✘ `bm3-0016` Entre las medidas para evitar atropellos a ciclistas, la DGT indica no adelantar a otros vehículos si vienen ciclistas en sentido contrario. _(MANUAL_DGT Tema 16, Bicicletas (p. 408))_
+- ✘ `bm3-0003` La conducción negligente es infracción grave; la temeraria, muy grave (también en la Ley de Tráfico, arts. 76.m y 77.e). _(RGC 3.2)_
 
 ## xc-0047
 
@@ -3932,8 +3932,8 @@ Respuesta: **Conducir más despacio.**
 Respuesta: **Plataforma.**
 
 - ✔ La plataforma es la zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes. _(LSV Anexo I.54)_
-- ✘ `xc-0128` Dos vehículos que van por la misma carretera, uno por el carril de ida y otro por el de vuelta, van en la misma dirección pero en distinto sentido. _(MANUAL_DGT Tema 9, Dirección y sentido (p. 222))_
 - ✘ `xc-0129` Las isletas son zonas de la calzada elevadas o pintadas que sirven para guiar el tráfico, y las líneas blancas paralelas que las forman se llaman cebreado. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 219))_
+- ✘ `xc-0099` El arcén es la franja longitudinal afirmada contigua a la calzada, no destinada al uso de vehículos automóviles más que en circunstancias excepcionales. _(LSV Anexo I.61)_
 
 ## xc-0094
 
@@ -3996,7 +3996,7 @@ Respuesta: **Que en ella todos los cruces de trayectorias se hacen a nivel.**
 
 - ✔ Una intersección es un nudo de la red viaria en el que todos los cruces de trayectorias posibles de los vehículos que lo utilizan se realizan a nivel. _(LSV Anexo I.62)_
 - ✘ `xc-0103` Un paso a nivel es un cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente. _(LSV Anexo I.64)_
-- ✘ `xc-0102` Las glorietas partidas, en las que dos tramos se conectan directamente a través de la isleta central y el tráfico no la rodea, no son glorietas propiamente dichas. _(LSV Anexo I.63)_
+- ✘ `xc-0101` Una glorieta es un tipo especial de intersección en el que los tramos que confluyen se comunican a través de un anillo con circulación rotatoria alrededor de una isleta central. _(LSV Anexo I.63)_
 
 ## xc-0101
 
@@ -4022,8 +4022,8 @@ Respuesta: **No.**
 Respuesta: **Un cruce a nivel entre una vía y una línea de ferrocarril con plataforma independiente.**
 
 - ✔ Un paso a nivel es un cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente. _(LSV Anexo I.64)_
-- ✘ `xc-0102` Las glorietas partidas, en las que dos tramos se conectan directamente a través de la isleta central y el tráfico no la rodea, no son glorietas propiamente dichas. _(LSV Anexo I.63)_
 - ✘ `xc-0100` Una intersección es un nudo de la red viaria en el que todos los cruces de trayectorias posibles de los vehículos que lo utilizan se realizan a nivel. _(LSV Anexo I.62)_
+- ✘ `xc-0101` Una glorieta es un tipo especial de intersección en el que los tramos que confluyen se comunican a través de un anillo con circulación rotatoria alrededor de una isleta central. _(LSV Anexo I.63)_
 
 ## xc-0104
 
@@ -4148,8 +4148,8 @@ Respuesta: **En cualquier punto de la calzada.**
 Respuesta: **Un área regulada por el ayuntamiento con restricciones de acceso o de circulación a vehículos de no residentes.**
 
 - ✔ La zona de prioridad residencial es un área delimitada y regulada por la autoridad municipal en la que se restringe el acceso o la circulación de vehículos de no residentes para mantener su uso sostenible. _(LSV Anexo I.84)_
-- ✘ `xc-0116` En la zona con plataforma única de calzada y acera, diseñada para favorecer el tránsito peatonal, el peatón goza de prioridad de paso en cualquier punto de la calzada. _(LSV Anexo I.83)_
 - ✘ `xc-0118` Un camino escolar seguro es un conjunto de vías acondicionadas por la autoridad para que los niños y niñas se trasladen a los centros escolares caminando, en transporte público o con medios de movilidad no motorizados. _(LSV Anexo I.85)_
+- ✘ `xc-0122` La posibilidad de que los ciclistas abandonen el arcén en descensos prolongados con curvas no se aplica en las autovías, donde circulan en todo caso por el arcén. _(RGC 36.1)_
 
 ## xc-0118
 
@@ -4158,7 +4158,7 @@ Respuesta: **Un conjunto de vías acondicionadas para que los niños vayan al co
 
 - ✔ Un camino escolar seguro es un conjunto de vías acondicionadas por la autoridad para que los niños y niñas se trasladen a los centros escolares caminando, en transporte público o con medios de movilidad no motorizados. _(LSV Anexo I.85)_
 - ✘ `xc-0117` La zona de prioridad residencial es un área delimitada y regulada por la autoridad municipal en la que se restringe el acceso o la circulación de vehículos de no residentes para mantener su uso sostenible. _(LSV Anexo I.84)_
-- ✘ `xc-0116` En la zona con plataforma única de calzada y acera, diseñada para favorecer el tránsito peatonal, el peatón goza de prioridad de paso en cualquier punto de la calzada. _(LSV Anexo I.83)_
+- ✘ `x1a-0011` Cuando en la vía hay refugios, isletas o dispositivos de guía, se circula por la parte de la calzada que queda a su derecha, salvo en vías de sentido único o dentro de la parte de un solo sentido. _(RGC 43.1)_
 
 ## xc-0119
 
@@ -4167,7 +4167,7 @@ Respuesta: **El automóvil solo de personas, de hasta 3.500 kg de masa máxima a
 
 - ✔ Los vehículos con alta ocupación son los automóviles destinados exclusivamente al transporte de personas, con MMA no superior a 3.500 kg, ocupados por el número de personas fijado para cada tramo. _(RGC 35.2)_
 - ✘ `xc-0123` El conductor que por emergencia tenga que circular por una autopista o autovía a velocidad anormalmente reducida debe abandonarla por la primera salida. _(RGC 38.2)_
-- ✘ `x1a-0007` Fuera de poblado, en calzadas con más de un carril para el mismo sentido, se circula normalmente por el situado más a la derecha y se pueden usar los demás cuando lo aconsejen el tráfico o la vía, sin entorpecer a quien siga. _(RGC 31.1)_
+- ✘ `xc-0106` Tanto la autopista como la autovía constan de distintas calzadas para cada sentido de circulación, separadas entre sí, y no tienen cruces a nivel; se diferencian en el acceso de las propiedades colindantes. _(LSV Anexo I.67.c)_
 
 ## xc-0120
 
@@ -4175,8 +4175,8 @@ Una ambulancia en servicio de urgencia, ¿puede utilizar un carril reservado?
 Respuesta: **Sí, igual que los vehículos de policía, bomberos y mantenimiento de la vía.**
 
 - ✔ Los vehículos de policía, extinción de incendios, protección civil y salvamento, asistencia sanitaria en servicio de urgencia y los equipos de mantenimiento de la vía pueden utilizar los carriles reservados. _(RGC 35.2.c)_
-- ✘ `xc-0116` En la zona con plataforma única de calzada y acera, diseñada para favorecer el tránsito peatonal, el peatón goza de prioridad de paso en cualquier punto de la calzada. _(LSV Anexo I.83)_
 - ✘ `x1a-0002` Los vehículos circulan por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para cruzarse con seguridad, muy especialmente en curvas y cambios de rasante. _(RGC 29.1)_
+- ✘ `xc-0131` En la información del estado de las vías, el color verde indica que no se puede alcanzar la velocidad máxima permitida; el blanco indica circulación normal. _(MANUAL_DGT Tema 9, Colores que indican cuál es el estado de la vía (p. 227))_
 
 ## xc-0121
 
@@ -4185,7 +4185,7 @@ Respuesta: **No, está prohibido.**
 
 - ✔ La utilización del carril VAO queda limitada a motocicletas, turismos y vehículos mixtos adaptables; está prohibida, entre otros, a ciclos, ciclomotores y vehículos de movilidad personal. _(RGC 35.2.a)_
 - ✘ `x1a-0004` Los automóviles circulan por la calzada y no por el arcén, salvo por razones de emergencia; en una calzada de doble sentido con dos carriles, por el de su derecha. _(RGC 30.1.a)_
-- ✘ `xc-0102` Las glorietas partidas, en las que dos tramos se conectan directamente a través de la isleta central y el tráfico no la rodea, no son glorietas propiamente dichas. _(LSV Anexo I.63)_
+- ✘ `via-0007` Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares). _(RGC 38.4.b)_
 
 ## xc-0122
 
@@ -4239,7 +4239,7 @@ Respuesta: **Que no se ve a los vehículos que van delante o vienen de frente.**
 
 - ✔ En los cambios de rasante de visibilidad reducida la carretera está muy inclinada y no se puede ver a los vehículos que van delante o que vienen por el otro sentido. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 216))_
 - ✘ `v5a-via-0001` La plataforma es la zona de la carretera dedicada al uso de vehículos y está formada por la calzada y los arcenes; la franja que separa las calzadas de cada sentido es la mediana. _(LSV Anexo I, 54)_
-- ✘ `xc-0095` Un carril es una banda longitudinal de la calzada, delimitada o no por marcas viales longitudinales, con anchura suficiente para la circulación de una fila de automóviles que no sean motocicletas. _(LSV Anexo I.56)_
+- ✘ `xc-0094` La calzada es la parte de la carretera dedicada a la circulación de vehículos y se compone de un cierto número de carriles. _(LSV Anexo I.55)_
 
 ## xc-0128
 
@@ -4256,8 +4256,8 @@ Respuesta: **En la misma dirección, pero en distinto sentido.**
 Respuesta: **Cebreado.**
 
 - ✔ Las isletas son zonas de la calzada elevadas o pintadas que sirven para guiar el tráfico, y las líneas blancas paralelas que las forman se llaman cebreado. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 219))_
-- ✘ `xc-0095` Un carril es una banda longitudinal de la calzada, delimitada o no por marcas viales longitudinales, con anchura suficiente para la circulación de una fila de automóviles que no sean motocicletas. _(LSV Anexo I.56)_
-- ✘ `xc-0128` Dos vehículos que van por la misma carretera, uno por el carril de ida y otro por el de vuelta, van en la misma dirección pero en distinto sentido. _(MANUAL_DGT Tema 9, Dirección y sentido (p. 222))_
+- ✘ `xc-0127` En los cambios de rasante de visibilidad reducida la carretera está muy inclinada y no se puede ver a los vehículos que van delante o que vienen por el otro sentido. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 216))_
+- ✘ `xc-0096` La acera es la zona longitudinal de la carretera, elevada o no, destinada al tránsito de peatones. _(LSV Anexo I.58)_
 
 ## xc-0130
 
@@ -4265,8 +4265,8 @@ En la información sobre el estado de las carreteras, ¿qué significa el color 
 Respuesta: **Que la carretera está cortada.**
 
 - ✔ En la información del estado de las vías, el color negro indica que la carretera está cortada y no se puede circular. _(MANUAL_DGT Tema 9, Colores que indican cuál es el estado de la vía (p. 227))_
-- ✘ `x1a-0009` Para el cómputo de carriles no se tienen en cuenta los reservados a determinados vehículos o a ciertas maniobras. _(RGC 34)_
 - ✘ `via-0007` Se prohíbe circular con vehículos de movilidad personal por autopistas y autovías, por travesías y por vías interurbanas y túneles urbanos (salvo vías ciclistas y similares). _(RGC 38.4.b)_
+- ✘ `xc-0110` La vía urbana es la vía pública situada dentro de poblado, excepto las travesías. _(LSV Anexo I.73)_
 
 ## xc-0131
 
@@ -4283,8 +4283,8 @@ Respuesta: **Que no se puede alcanzar la velocidad máxima de la vía.**
 Respuesta: **Una autopista, en la que se aplican las reglas especiales de ese tipo de vía.**
 
 - ✔ La señal S-1 indica el principio de una autopista y, por tanto, el lugar a partir del cual se aplican las reglas especiales de circulación en este tipo de vía. _(RGC_CATALOGO Anexo I, catálogo de señales, S-1 (pág. 126 del PDF consolidado))_
-- ✘ `x1a-0001` En las curvas y cambios de rasante de reducida visibilidad, aunque no haya marcas que lo delimiten, el conductor debe dejar completamente libre la mitad de la calzada que corresponde al sentido contrario. _(RGC 29.1)_
 - ✘ `xc-0093` La plataforma es la zona de la carretera dedicada al uso de vehículos, formada por la calzada y los arcenes. _(LSV Anexo I.54)_
+- ✘ `B2-via-0011` La senda ciclable es una vía para peatones y ciclos, segregada del tráfico motorizado, que discurre por espacios abiertos, parques, jardines o bosques. _(LSV Anexo I.79)_
 
 ## xd-0001
 
@@ -4535,7 +4535,7 @@ Circula por una carretera de montaña y encuentra esta señal azul. ¿Qué indic
 Respuesta: **El principio de un túnel, de un paso inferior o de un tramo equiparado a túnel.**
 
 - ✔ La señal S-5 (túnel) indica el principio de un túnel, de un paso inferior o de un tramo de vía equiparado a túnel, y puede llevar su nombre y su longitud. _(RGC_CATALOGO Anexo I, catálogo de señales, S-5 (pág. 127 del PDF consolidado))_
-- ✘ `xd-0034` En túneles con doble sentido se prohíbe adelantar, salvo que haya más de un carril para el propio sentido, y entonces sin invadir el sentido contrario. _(RGC 95.6)_
+- ✘ `xd-0033` En túneles y pasos inferiores está prohibido parar, estacionar, cambiar el sentido de la marcha y marchar hacia atrás; el adelantamiento solo se permite en los casos previstos. _(RGC 95.6)_
 - ✘ `xd-0137` Quien queda inmovilizado por una emergencia en un túnel debe llevar el vehículo, si es posible, a la zona de emergencia más próxima en su sentido de marcha o, si no existe, junto al borde derecho. _(RGC 97.3.b)_
 
 ## xd-0033
@@ -4571,7 +4571,7 @@ Llega con su turismo a la boca de un túnel y el semáforo de entrada no le perm
 Respuesta: **No, debe esperar a que el semáforo le permita el paso.**
 
 - ✔ Nadie debe entrar en un túnel o paso inferior si el semáforo de la boca no le permite el paso, salvo los equipos de urgencia, de asistencia mecánica y de conservación de carreteras. _(RGC 96.3)_
-- ✘ `xd-0034` En túneles con doble sentido se prohíbe adelantar, salvo que haya más de un carril para el propio sentido, y entonces sin invadir el sentido contrario. _(RGC 95.6)_
+- ✘ `xd-0033` En túneles y pasos inferiores está prohibido parar, estacionar, cambiar el sentido de la marcha y marchar hacia atrás; el adelantamiento solo se permite en los casos previstos. _(RGC 95.6)_
 - ✘ `xd-0038` Si una avería dentro de un túnel permite seguir la marcha, hay que continuar hasta la salida o, si no es posible, hasta una zona reservada para emergencia. _(RGC 97.3.f)_
 
 ## xd-0037
@@ -4589,8 +4589,8 @@ Dentro de un túnel sufre una avería que todavía le permite circular. ¿Qué d
 Respuesta: **Seguir hasta la salida o, si no puede, hasta una zona de emergencia.**
 
 - ✔ Si una avería dentro de un túnel permite seguir la marcha, hay que continuar hasta la salida o, si no es posible, hasta una zona reservada para emergencia. _(RGC 97.3.f)_
-- ✘ `xd-0034` En túneles con doble sentido se prohíbe adelantar, salvo que haya más de un carril para el propio sentido, y entonces sin invadir el sentido contrario. _(RGC 95.6)_
 - ✘ `xd-0036` Nadie debe entrar en un túnel o paso inferior si el semáforo de la boca no le permite el paso, salvo los equipos de urgencia, de asistencia mecánica y de conservación de carreteras. _(RGC 96.3)_
+- ✘ `xd-0033` En túneles y pasos inferiores está prohibido parar, estacionar, cambiar el sentido de la marcha y marchar hacia atrás; el adelantamiento solo se permite en los casos previstos. _(RGC 95.6)_
 
 ## xd-0042
 
@@ -4670,8 +4670,8 @@ En un paso para peatones sin semáforo ni agente, ¿cuándo debe entrar el peat�
 Respuesta: **Cuando la distancia y la velocidad de los vehículos se lo permitan con seguridad.**
 
 - ✔ En los pasos para peatones sin semáforo ni agente, los peatones tienen preferencia, pero solo deben entrar en la calzada cuando la distancia y la velocidad de los vehículos permitan hacerlo con seguridad. _(RGC 124.1.c)_
-- ✘ `xd-0061` En los descensos prolongados con curvas, si la seguridad lo permite, los ciclistas pueden dejar el arcén y usar la parte derecha de la calzada que necesiten, salvo en autovías. _(RGC 36.1)_
 - ✘ `xd-0054` El tránsito de animales por las vías solo se permite cuando no hay itinerario practicable por vía pecuaria, siempre custodiados y por la vía alternativa con menos circulación. _(RGC 126)_
+- ✘ `xd-0085` Muchas personas mayores, como peatones, pueden no oír los vehículos por el ruido ambiente, tener dificultad para saber a qué velocidad vienen o para distinguir el color de los semáforos. _(MANUAL_DGT Tema 16, Las personas mayores (p. 402))_
 
 ## xd-0052
 
@@ -4779,7 +4779,7 @@ Respuesta: **Por la derecha o la izquierda, según convenga a su seguridad.**
 
 - ✔ En vías urbanas, los ciclistas pueden adelantar por la derecha o por la izquierda, según sea más conveniente para su seguridad. _(RGC 153.5)_
 - ✘ `xd-0087` Aunque hay más accidentes de ciclistas dentro de las ciudades, mueren más ciclistas en las carreteras fuera de ellas. _(MANUAL_DGT Tema 16, Bicicletas (p. 407))_
-- ✘ `xd-0061` En los descensos prolongados con curvas, si la seguridad lo permite, los ciclistas pueden dejar el arcén y usar la parte derecha de la calzada que necesiten, salvo en autovías. _(RGC 36.1)_
+- ✘ `xd-0060` Los ciclistas pueden ir en columna de a dos, pero deben colocarse en hilera en los tramos sin visibilidad, cuando afecten a la fluidez, de noche o con visibilidad reducida. _(RGC 36.2)_
 
 ## xd-0068
 
@@ -4940,8 +4940,8 @@ Conduce un vehículo especial de 5.000 kg de masa máxima autorizada por una car
 Respuesta: **Por la calzada, salvo por razones de emergencia.**
 
 - ✔ Los automóviles y los vehículos especiales de más de 3.500 kg de masa máxima autorizada circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 30.1)_
-- ✘ `xd-0123` En calzadas con tres o más carriles por sentido, los conjuntos de más de siete metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato. _(RGC 31.2)_
 - ✘ `xd-0113` El distintivo V-11 de mercancías peligrosas se fija en la parte delantera y en la trasera de la unidad de transporte, y en algunos casos también en los costados. _(RGV Anexo XI, V-11.2)_
+- ✘ `xd-0117` Los vehículos en régimen de transporte especial deben suspender la circulación, saliendo de la plataforma, con fenómenos atmosféricos adversos o si la visibilidad baja de 150 metros. _(RGC Anexo III, sección 1.ª, 6)_
 
 ## xd-0103
 
@@ -4950,7 +4950,7 @@ Respuesta: **La marcha en paralelo no puede superar 15 segundos ni 200 metros.**
 
 - ✔ Los vehículos obligados a circular por el arcén, salvo las bicicletas, no pueden adelantarse si la marcha en paralelo dura más de 15 segundos o supera los 200 metros. _(RGC 36.5)_
 - ✘ `bm9-0009` La carga debe ir dispuesta de forma que no oculte los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios ni las advertencias manuales del conductor. _(RGC 14.1.d)_
-- ✘ `xd-0123` En calzadas con tres o más carriles por sentido, los conjuntos de más de siete metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato. _(RGC 31.2)_
+- ✘ `xd-0104` Los vehículos especiales que no exceden las masas o dimensiones pueden circular por autopistas y autovías si pueden superar 60 km/h en llano y cumplen las condiciones del anexo III del reglamento. _(RGC 38.3)_
 
 ## xd-0104
 
@@ -4995,7 +4995,7 @@ Respuesta: **En la parte delantera y en la trasera de la unidad de transporte.**
 
 - ✔ El distintivo V-11 de mercancías peligrosas se fija en la parte delantera y en la trasera de la unidad de transporte, y en algunos casos también en los costados. _(RGV Anexo XI, V-11.2)_
 - ✘ `xd-0101` Los automóviles y los vehículos especiales de más de 3.500 kg de masa máxima autorizada circulan por la calzada y no por el arcén, salvo por razones de emergencia. _(RGC 30.1)_
-- ✘ `xd-0123` En calzadas con tres o más carriles por sentido, los conjuntos de más de siete metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato. _(RGC 31.2)_
+- ✘ `xd-0095` En los vehículos de tracción animal, la proyección del vehículo se prolonga hacia delante con su misma anchura, sin sobrepasar la cabeza del animal de tiro más próximo. _(RGC 15.1)_
 
 ## xd-0116
 
@@ -5039,8 +5039,8 @@ Al parar o estacionar, ¿qué debe cuidar especialmente, además de no obstaculi
 Respuesta: **Que el vehículo no pueda ponerse en movimiento sin conductor.**
 
 - ✔ La parada y el estacionamiento deben hacerse sin obstaculizar ni crear riesgo, cuidando la colocación del vehículo y evitando que pueda moverse en ausencia del conductor. _(RGC 91.1)_
-- ✘ `A-par-0016` En vías urbanas, el vehículo se sitúa lo más cerca posible del borde derecho, salvo en las vías de único sentido, en las que también puede situarse en el lado izquierdo. _(RGC 90.2)_
 - ✘ `x1b-0008` Está prohibido parar en los túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel», además de en curvas y cambios de rasante de visibilidad reducida. _(RGC 94.1.a)_
+- ✘ `x1b-0004` La parada y el estacionamiento se realizan, como norma general, con el vehículo paralelo al borde de la calzada; otra colocación solo se permite si las características de la vía u otras circunstancias lo aconsejan. _(RGC 92.1)_
 
 ## xd-0130
 
@@ -5102,7 +5102,7 @@ Por una emergencia debe inmovilizar su vehículo dentro de un túnel. Si es posi
 Respuesta: **A la zona de emergencia más próxima en su sentido de marcha.**
 
 - ✔ Quien queda inmovilizado por una emergencia en un túnel debe llevar el vehículo, si es posible, a la zona de emergencia más próxima en su sentido de marcha o, si no existe, junto al borde derecho. _(RGC 97.3.b)_
-- ✘ `xd-0034` En túneles con doble sentido se prohíbe adelantar, salvo que haya más de un carril para el propio sentido, y entonces sin invadir el sentido contrario. _(RGC 95.6)_
+- ✘ `xd-0035` Quienes circulan por un túnel deben obedecer semáforos y paneles de mensaje variable y seguir las instrucciones que les lleguen por megafonía o por cualquier otro medio. _(RGC 95.7)_
 - ✘ `xd-0036` Nadie debe entrar en un túnel o paso inferior si el semáforo de la boca no le permite el paso, salvo los equipos de urgencia, de asistencia mecánica y de conservación de carreteras. _(RGC 96.3)_
 
 ## xd-0138
@@ -5121,7 +5121,7 @@ Respuesta: **Conectarla temporalmente para avisar a los que vienen detrás.**
 
 - ✔ Detenido en un túnel por necesidades de la circulación, se conecta temporalmente la señal de emergencia para avisar a quienes vienen detrás, se mantienen las luces de posición y se apaga el motor. _(RGC 97.3)_
 - ✘ `xd-0036` Nadie debe entrar en un túnel o paso inferior si el semáforo de la boca no le permite el paso, salvo los equipos de urgencia, de asistencia mecánica y de conservación de carreteras. _(RGC 96.3)_
-- ✘ `xd-0034` En túneles con doble sentido se prohíbe adelantar, salvo que haya más de un carril para el propio sentido, y entonces sin invadir el sentido contrario. _(RGC 95.6)_
+- ✘ `xd-0035` Quienes circulan por un túnel deben obedecer semáforos y paneles de mensaje variable y seguir las instrucciones que les lleguen por megafonía o por cualquier otro medio. _(RGC 95.7)_
 
 ## xd-0140
 
@@ -6426,7 +6426,7 @@ Respuesta: **No, salvo en los casos que fija el reglamento, como una emergencia.
 
 - ✔ Los peatones no pueden circular por autopistas ni autovías, salvo en los casos y condiciones del artículo 130 (inmovilización del vehículo por emergencia). _(RGC 125.1)_
 - ✘ `xc-0129` Las isletas son zonas de la calzada elevadas o pintadas que sirven para guiar el tráfico, y las líneas blancas paralelas que las forman se llaman cebreado. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 219))_
-- ✘ `xc-0116` En la zona con plataforma única de calzada y acera, diseñada para favorecer el tránsito peatonal, el peatón goza de prioridad de paso en cualquier punto de la calzada. _(LSV Anexo I.83)_
+- ✘ `xc-0096` La acera es la zona longitudinal de la carretera, elevada o no, destinada al tránsito de peatones. _(LSV Anexo I.58)_
 
 ## res-via-0002
 
@@ -6452,8 +6452,8 @@ Una persona en silla de ruedas circula sola por una carretera sin acera ni zona 
 Respuesta: **Por el arcén izquierdo o, si no lo hay, por la calzada, lo más alejada posible de los vehículos.**
 
 - ✔ Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad. _(RGC 122.1)_
-- ✘ `v5a-car-0001` En calzadas con tres o más carriles en el mismo sentido, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato, pero no los demás. _(RGC 31.2)_
 - ✘ `arc-0008` Los conductores de bicicletas pueden circular en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, deben ponerse en hilera en tramos sin visibilidad, si afectan a la fluidez, de noche o con poca visibilidad. _(RGC 36.2)_
+- ✘ `arc-0004` Entre el ocaso y la salida del sol, o con poca visibilidad, deben llevar al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros. _(RGC 123.1)_
 
 ## res-cesp-0001
 
@@ -6462,7 +6462,7 @@ Respuesta: **Solo si cumple el número mínimo de ocupantes que se haya fijado p
 
 - ✔ Las motos pueden usar el VAO, pero, como los turismos, deben cumplir los requisitos de alta ocupación del tramo. Solo se libran del número mínimo de ocupantes los vehículos con la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad y los autobuses de más de 3.500 kg. _(MANUAL_DGT Tema 9, Carril VAO (p. 233))_
 - ✘ `v5a-cesp-0001` Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de la vía, pueden utilizar los carriles reservados, incluido el VAO. _(RGC 35.2.c)_
-- ✘ `res-cesp-0003` Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida. _(RGC 41.1)_
+- ✘ `cesp-0004` Los vehículos que circulen por los arcenes y por el carril adicional lo harán a un máximo de 80 km/h y un mínimo de 60 km/h, con al menos la luz de cruce. _(RGC 42.1)_
 
 ## res-cesp-0002
 
@@ -6749,7 +6749,7 @@ Un ciclista circula de noche por una vía interurbana. ¿A qué distancia mínim
 Respuesta: **150 metros.**
 
 - ✔ Entre el ocaso y la salida del sol o con poca visibilidad, en vía interurbana, el ciclista debe llevar al menos un elemento luminoso o reflectante visible a 150 m. El chaleco del conductor de un turismo no tiene esa exigencia de distancia: debe ser de alta visibilidad certificado. _(RGC 118.2)_
-- ✘ `xd-0061` En los descensos prolongados con curvas, si la seguridad lo permite, los ciclistas pueden dejar el arcén y usar la parte derecha de la calzada que necesiten, salvo en autovías. _(RGC 36.1)_
+- ✘ `xd-0060` Los ciclistas pueden ir en columna de a dos, pero deben colocarse en hilera en los tramos sin visibilidad, cuando afecten a la fluidez, de noche o con visibilidad reducida. _(RGC 36.2)_
 - ✘ `xd-0066` En vías urbanas con al menos dos carriles por sentido, los ciclistas van por el carril derecho y pueden usar los demás para cambiar de dirección o por razones de seguridad. _(RGC 153.3)_
 
 ## res-sen-0001
@@ -7595,8 +7595,8 @@ Una vía interurbana es una vía pública situada...
 Respuesta: **Fuera de poblado.**
 
 - ✔ Vía interurbana es la vía pública situada fuera de poblado. _(LSV Anexo I.72)_
-- ✘ `x1a-0009` Para el cómputo de carriles no se tienen en cuenta los reservados a determinados vehículos o a ciertas maniobras. _(RGC 34)_
 - ✘ `via-0004` Carretera convencional es la que no reúne las características propias de autopistas, autovías y vías para automóviles. _(LSV Anexo I.69)_
+- ✘ `xc-0103` Un paso a nivel es un cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente. _(LSV Anexo I.64)_
 
 ## via-0003
 
@@ -7623,7 +7623,7 @@ Respuesta: **Sí, por el arcén, si el ciclista es mayor de 14 años y no lo pro
 
 - ✔ Está prohibido circular en bicicleta por autopistas y autovías, pero los mayores de 14 años pueden ir por los arcenes de las autovías salvo prohibición señalizada. _(RGC 38.1)_
 - ✘ `via-0003` La autopista no permite el acceso de las propiedades colindantes; la autovía lo tiene limitado. _(LSV Anexo I.66)_
-- ✘ `xc-0102` Las glorietas partidas, en las que dos tramos se conectan directamente a través de la isleta central y el tráfico no la rodea, no son glorietas propiamente dichas. _(LSV Anexo I.63)_
+- ✘ `B2-via-0012` En las zonas peatonales distintas de las aceras, la autoridad municipal puede autorizar mediante ordenanza la coexistencia de peatones con ciclistas y usuarios de VMP, respetando la prioridad de los peatones. _(RGC 152.1)_
 
 ## via-0006
 
@@ -7650,7 +7650,7 @@ Respuesta: **Por el arcén izquierdo, si es practicable.**
 
 - ✔ Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada. _(RGC 122.1)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
-- ✘ `arc-0013` Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha. _(RGC 32.2)_
+- ✘ `arc-0015` En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo. _(RGC 33)_
 
 ## arc-0002
 
@@ -7685,8 +7685,8 @@ Un grupo de peatones que circula de noche por una vía interurbana debe llevar l
 Respuesta: **Rojo.**
 
 - ✔ Las luces del grupo serán de color blanco o amarillo hacia adelante y rojo hacia atrás, en el lado más próximo al centro de la calzada. _(RGC 123.2)_
-- ✘ `arc-0013` Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha. _(RGC 32.2)_
 - ✘ `arc-0010` En los tramos habilitados y señalizados, y solo con la circulación detenida por congestión, la velocidad por el arcén está limitada a 30 km/h, en columna de a uno. _(RGC 36.3)_
+- ✘ `arc-0003` Todo grupo de peatones dirigido por una persona debe circular por la derecha. _(RGC 122.2.b)_
 
 ## arc-0006
 
@@ -7695,7 +7695,7 @@ Respuesta: **En el lado más próximo al centro de la calzada.**
 
 - ✔ Se llevan en el lado más próximo al centro de la calzada. _(RGC 123.2)_
 - ✘ `arc-0003` Todo grupo de peatones dirigido por una persona debe circular por la derecha. _(RGC 122.2.b)_
-- ✘ `arc-0014` Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato. _(RGC 31.2)_
+- ✘ `arc-0015` En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo. _(RGC 33)_
 
 ## arc-0007
 
@@ -7712,8 +7712,8 @@ Los ciclistas que circulan por el arcén, ¿pueden ir en columna de a dos?
 Respuesta: **Sí.**
 
 - ✔ Los conductores de bicicletas pueden circular en columna de a dos por el arcén. Si no hay arcén transitable y van por la calzada, deben ponerse en hilera en tramos sin visibilidad, si afectan a la fluidez, de noche o con poca visibilidad. _(RGC 36.2)_
-- ✘ `v5a-car-0001` En calzadas con tres o más carriles en el mismo sentido, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato, pero no los demás. _(RGC 31.2)_
 - ✘ `res-arc-0001` Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad. _(RGC 122.1)_
+- ✘ `arc-0005` Las luces del grupo serán de color blanco o amarillo hacia adelante y rojo hacia atrás, en el lado más próximo al centro de la calzada. _(RGC 123.2)_
 
 ## arc-0009
 
@@ -7721,8 +7721,8 @@ Dos ciclistas circulan de noche por la calzada de una carretera sin arcén. ¿C�
 Respuesta: **En hilera, uno detrás de otro.**
 
 - ✔ Deben colocarse en hilera, entre otros casos, cuando circulen entre el ocaso y la salida del sol. _(RGC 36.2)_
-- ✘ `arc-0013` Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha. _(RGC 32.2)_
-- ✘ `arc-0014` Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato. _(RGC 31.2)_
+- ✘ `arc-0005` Las luces del grupo serán de color blanco o amarillo hacia adelante y rojo hacia atrás, en el lado más próximo al centro de la calzada. _(RGC 123.2)_
+- ✘ `arc-0003` Todo grupo de peatones dirigido por una persona debe circular por la derecha. _(RGC 122.2.b)_
 
 ## arc-0010
 
@@ -7730,8 +7730,8 @@ En un tramo señalizado para ello, con la circulación detenida por congestión,
 Respuesta: **30 km/h.**
 
 - ✔ En los tramos habilitados y señalizados, y solo con la circulación detenida por congestión, la velocidad por el arcén está limitada a 30 km/h, en columna de a uno. _(RGC 36.3)_
-- ✘ `arc-0014` Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato. _(RGC 31.2)_
 - ✘ `arc-0001` Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada. _(RGC 122.1)_
+- ✘ `arc-0015` En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo. _(RGC 33)_
 
 ## arc-0011
 
@@ -7767,7 +7767,7 @@ Respuesta: **El situado más a la derecha y el inmediato.**
 
 - ✔ Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato. _(RGC 31.2)_
 - ✘ `arc-0015` En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo. _(RGC 33)_
-- ✘ `arc-0013` Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha. _(RGC 32.2)_
+- ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
 
 ## arc-0015
 
@@ -7775,8 +7775,8 @@ Dentro de poblado, en una calzada con dos carriles para su sentido delimitados p
 Respuesta: **El que mejor convenga a su destino.**
 
 - ✔ En poblado, con al menos dos carriles delimitados para el mismo sentido, se puede usar el que mejor convenga al destino, sin ser un obstáculo. _(RGC 33)_
-- ✘ `arc-0014` Camiones y furgones de más de 3.500 kg y conjuntos de más de 7 m circulan normalmente por el carril más a la derecha y pueden utilizar el inmediato. _(RGC 31.2)_
 - ✘ `arc-0001` Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada. _(RGC 122.1)_
+- ✘ `arc-0010` En los tramos habilitados y señalizados, y solo con la circulación detenida por congestión, la velocidad por el arcén está limitada a 30 km/h, en columna de a uno. _(RGC 36.3)_
 
 ## cesp-0001
 
@@ -7820,8 +7820,8 @@ Al circular por un carril reversible, ¿qué alumbrado debe llevar?
 Respuesta: **Al menos la de cruce, de día y de noche.**
 
 - ✔ En un carril reversible hay que llevar encendida, al menos, la luz de corto alcance o de cruce, tanto de día como de noche. _(RGC 40.1)_
-- ✘ `res-cesp-0002` Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales. _(RGC 41.1)_
 - ✘ `cesp-0006` El uso del carril VAO se limita a motocicletas, turismos y mixtos adaptables, y está prohibido al resto, incluidos los turismos con remolque. _(RGC 35.2.a)_
+- ✘ `cesp-0003` Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa. _(RGC 41.1)_
 
 ## cesp-0006
 
@@ -7830,7 +7830,7 @@ Respuesta: **No, está prohibido.**
 
 - ✔ El uso del carril VAO se limita a motocicletas, turismos y mixtos adaptables, y está prohibido al resto, incluidos los turismos con remolque. _(RGC 35.2.a)_
 - ✘ `cesp-0005` En un carril reversible hay que llevar encendida, al menos, la luz de corto alcance o de cruce, tanto de día como de noche. _(RGC 40.1)_
-- ✘ `res-cesp-0002` Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales. _(RGC 41.1)_
+- ✘ `cesp-0003` Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa. _(RGC 41.1)_
 
 ## cesp-0007
 
@@ -7838,8 +7838,8 @@ Respuesta: **No, está prohibido.**
 Respuesta: **Sí, si así se indica para ese tramo.**
 
 - ✔ Los vehículos autorizados pueden usar el VAO aun cuando solo lo ocupe el conductor si ostentan la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad. Siempre que así se indique en la relación de tramos de ese carril VAO. _(RGC 35.2.a)_
-- ✘ `res-cesp-0003` Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida. _(RGC 41.1)_
 - ✘ `cesp-0004` Los vehículos que circulen por los arcenes y por el carril adicional lo harán a un máximo de 80 km/h y un mínimo de 60 km/h, con al menos la luz de cruce. _(RGC 42.1)_
+- ✘ `cesp-0002` Se circula con al menos la luz de cruce, de día y de noche, a un máximo de 80 km/h y un mínimo de 60 km/h, o inferiores si así se señaliza. _(RGC 41.1)_
 
 ## cesp-0008
 
@@ -7911,7 +7911,7 @@ Respuesta: **Cambiar completamente de carril.**
 
 - ✔ Cuando la calzada tiene más de un carril por sentido, es obligatorio el cambio completo de carril. _(RGC 85.4)_
 - ✘ `x1a-0112` No se consideran adelantamientos los producidos entre ciclistas que circulan en grupo. _(RGC 84.5)_
-- ✘ `A-adel-0011` Por excepción, en vías con circulación en ambos sentidos, a los tranvías que marchan por la zona central se les adelanta por la derecha. _(RGC 82.2)_
+- ✘ `x1a-0124` Se prohíbe adelantar detrás de un vehículo que hace la misma maniobra cuando sus dimensiones impiden ver la parte delantera de la vía al que le sigue. _(RGC 87.1.a)_
 
 ## adel-0003
 
@@ -7919,8 +7919,8 @@ Fuera de poblado, en una vía limitada a 90 km/h, va a adelantar a un ciclista. 
 Respuesta: **70 km/h.**
 
 - ✔ Fuera de poblado hay que reducir la velocidad al menos 20 km/h respecto al límite de la vía, antes y durante todo el adelantamiento: 90 − 20 = 70 km/h. _(RGC 85.4)_
-- ✘ `A-adel-0011` Por excepción, en vías con circulación en ambos sentidos, a los tranvías que marchan por la zona central se les adelanta por la derecha. _(RGC 82.2)_
 - ✘ `A-adel-0007` El conductor adelantado está obligado a disminuir su velocidad cuando, iniciada la maniobra, se produce una situación de peligro para cualquiera de los implicados. _(RGC 86.2)_
+- ✘ `A-adel-0010` Dentro de poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas longitudinales, se permite adelantar por la derecha si se comprueba antes que no hay peligro. _(RGC 82.3)_
 
 ## adel-0004
 
@@ -7928,8 +7928,8 @@ A efectos del adelantamiento, un grupo de ciclistas que circula junto...
 Respuesta: **Se considera una única unidad móvil.**
 
 - ✔ Cuando los ciclistas circulen en grupo, se consideran como una única unidad móvil. _(RGC 85.4)_
-- ✘ `A-adel-0011` Por excepción, en vías con circulación en ambos sentidos, a los tranvías que marchan por la zona central se les adelanta por la derecha. _(RGC 82.2)_
 - ✘ `A-adel-0013` Queda prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas, en los pasos a nivel y en sus proximidades. _(RGC 87.1.b)_
+- ✘ `A-adel-0010` Dentro de poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas longitudinales, se permite adelantar por la derecha si se comprueba antes que no hay peligro. _(RGC 82.3)_
 
 ## adel-0005
 
@@ -7938,7 +7938,7 @@ Respuesta: **Dejar al menos 1,5 metros y reducir la velocidad al menos 20 km/h r
 
 - ✔ Al rebasar un vehículo inmovilizado por avería, accidente o servicio de urgencia o auxilio que ocupe la calzada, hay que mantener al menos 1,5 m y reducir la velocidad al menos 20 km/h. _(RGC 88.1)_
 - ✘ `x1a-0114` Si una vez iniciado el adelantamiento surgen circunstancias que pueden hacer difícil terminarlo sin riesgos, hay que reducir rápidamente la marcha, regresar al propio carril y advertirlo a los que siguen. _(RGC 85.2)_
-- ✘ `A-adel-0014` Está prohibido adelantar en los túneles, pasos inferiores y tramos afectados por la señal «Túnel» (S-5) en los que solo se disponga de un carril para el sentido de circulación. _(RGC 87.1.d)_
+- ✘ `x1a-0128` Entre las excepciones a la prohibición de adelantar en intersecciones está que la calzada por la que se adelanta goce de prioridad en la intersección y haya señal expresa que lo indique. _(RGC 87.1.c.3º)_
 
 ## vel-0001
 
@@ -8424,7 +8424,7 @@ Respuesta: **Que va a desplazarse hacia la derecha.**
 
 - ✔ El desplazamiento lateral hacia el lado contrario al que indica la mano se advierte con el brazo doblado hacia arriba y la palma extendida. Con el brazo izquierdo, indica desplazamiento a la derecha. _(RGC 109.2.a)_
 - ✘ `A-dir-0008` En vías interurbanas, los ciclos y ciclomotores de dos ruedas, si no hay un carril acondicionado para el giro a la izquierda, deben situarse a la derecha, fuera de la calzada si es posible, e iniciar el giro desde allí. _(RGC 76.2)_
-- ✘ `A-adv-0001` Las advertencias hechas con el brazo, si son perceptibles y se hacen conforme al reglamento, anulan cualquier otra indicación óptica que las contradiga. _(RGC 108.2)_
+- ✘ `A-sen-0001` Cuando la espera en la calzada para cambiar de sentido impide la marcha de los que vienen detrás, hay que salir de ella por el lado derecho, si es posible, hasta que las condiciones permitan hacerlo. _(RGC 78.1)_
 
 ## A-adv-0003
 
@@ -8459,8 +8459,8 @@ En una maniobra de desplazamiento lateral, como un cambio de carril, ¿cuándo d
 Respuesta: **Tan pronto como el vehículo haya adoptado su nueva trayectoria.**
 
 - ✔ En los desplazamientos laterales solo se avisa el desplazamiento, por lo que la advertencia debe concluir en cuanto el vehículo ha adoptado su nueva trayectoria. _(RGC 109.2.a)_
-- ✘ `A-adv-0001` Las advertencias hechas con el brazo, si son perceptibles y se hacen conforme al reglamento, anulan cualquier otra indicación óptica que las contradiga. _(RGC 108.2)_
 - ✘ `A-inc-0003` Quien sale a una vía pública por un camino exclusivamente privado debe asegurarse de que puede hacerlo sin peligro y hacerlo a una velocidad que le permita detenerse en el acto. _(RGC 72.2)_
+- ✘ `A-adv-0008` Las advertencias acústicas pueden hacerse para advertir, fuera de poblado, al conductor de otro vehículo el propósito de adelantarlo. _(RGC 110.2.b)_
 
 ## A-adv-0007
 
@@ -8487,7 +8487,7 @@ Respuesta: **Sí, a intervalos muy cortos y sin deslumbrar.**
 
 - ✔ Con la misma finalidad que las acústicas y para sustituirlas, pueden hacerse advertencias luminosas incluso en poblado, con las luces de corto o largo alcance de forma intermitente y evitando el deslumbramiento. _(RGC 109.3)_
 - ✘ `A-dir-0006` En el cambio de dirección a la izquierda hay que dejar a la izquierda el centro de la intersección, salvo que esté acondicionada o señalizada para dejarlo a la derecha. _(RGC 75.1.c)_
-- ✘ `A-adv-0001` Las advertencias hechas con el brazo, si son perceptibles y se hacen conforme al reglamento, anulan cualquier otra indicación óptica que las contradiga. _(RGC 108.2)_
+- ✘ `A-inc-0003` Quien sale a una vía pública por un camino exclusivamente privado debe asegurarse de que puede hacerlo sin peligro y hacerlo a una velocidad que le permita detenerse en el acto. _(RGC 72.2)_
 
 ## A-adv-0010
 
@@ -8505,7 +8505,7 @@ Respuesta: **Sí.**
 
 - ✔ Quien se incorpora a la circulación debe cerciorarse de que puede hacerlo sin peligro, cediendo el paso a otros vehículos y teniendo en cuenta su posición, trayectoria y velocidad, y advertirlo con las señales obligatorias. _(RGC 72.1)_
 - ✘ `A-dir-0002` Para girar a la derecha hay que ceñirse todo lo posible al borde derecho de la calzada, colocándose con antelación y haciendo la maniobra en el menor espacio y tiempo posibles. _(RGC 75.1.b)_
-- ✘ `A-adv-0002` El desplazamiento lateral hacia el lado contrario al que indica la mano se advierte con el brazo doblado hacia arriba y la palma extendida. Con el brazo izquierdo, indica desplazamiento a la derecha. _(RGC 109.2.a)_
+- ✘ `A-adv-0004` La intención de inmovilizar el vehículo o frenar de modo considerable se advierte con las luces de frenado o moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos. _(RGC 109.2.c)_
 
 ## A-inc-0002
 
@@ -8604,7 +8604,7 @@ Respuesta: **Disminuir la velocidad.**
 
 - ✔ El conductor adelantado está obligado a disminuir su velocidad cuando, iniciada la maniobra, se produce una situación de peligro para cualquiera de los implicados. _(RGC 86.2)_
 - ✘ `A-adel-0016` La excepción del artículo 88.2 incluye a los vehículos especiales agrícolas y sus conjuntos (además de ciclos, ciclomotores, VMP, peatones, animales y vehículos de tracción animal), pero no a turismos ni camiones. _(RGC 88.2)_
-- ✘ `v2-adel-0005` Las intersecciones con vías para ciclistas, igual que los pasos para peatones señalizados y los pasos a nivel, son lugares en los que está prohibido adelantar, también en sus proximidades. _(RGC 87.1.b)_
+- ✘ `A-adel-0003` Antes de adelantar hay que cerciorarse de que el vehículo que precede no ha indicado su propósito de desplazarse hacia el mismo lado; si lo ha hecho, hay que respetar su preferencia. _(RGC 84.2)_
 
 ## A-adel-0008
 
@@ -8630,8 +8630,8 @@ Dentro de poblado, en una calzada con dos carriles para su sentido delimitados p
 Respuesta: **Sí, siempre que se cerciore previamente de que puede hacerlo sin peligro.**
 
 - ✔ Dentro de poblado, en calzadas con al menos dos carriles para el mismo sentido delimitados por marcas longitudinales, se permite adelantar por la derecha si se comprueba antes que no hay peligro. _(RGC 82.3)_
-- ✘ `v2-adel-0005` Las intersecciones con vías para ciclistas, igual que los pasos para peatones señalizados y los pasos a nivel, son lugares en los que está prohibido adelantar, también en sus proximidades. _(RGC 87.1.b)_
 - ✘ `v2-adel-0003` El conductor de un vehículo de dos ruedas que adelanta fuera de poblado a cualquier otro vehículo debe dejar entre ambos un espacio no inferior a 1,50 metros. _(RGC 85.5)_
+- ✘ `x1a-0133` En un tramo con prohibición de adelantar se puede rebasar, ocupando el sentido contrario y sin peligro, a un vehículo inmovilizado que ocupa el carril, salvo que la inmovilización venga impuesta por necesidades del tráfico. _(RGC 88.2)_
 
 ## A-adel-0011
 
@@ -8639,8 +8639,8 @@ En una vía con circulación en ambos sentidos, un tranvía marcha por la zona c
 Respuesta: **Por la derecha, si hay espacio suficiente y con las máximas precauciones.**
 
 - ✔ Por excepción, en vías con circulación en ambos sentidos, a los tranvías que marchan por la zona central se les adelanta por la derecha. _(RGC 82.2)_
-- ✘ `A-adel-0014` Está prohibido adelantar en los túneles, pasos inferiores y tramos afectados por la señal «Túnel» (S-5) en los que solo se disponga de un carril para el sentido de circulación. _(RGC 87.1.d)_
 - ✘ `A-adel-0003` Antes de adelantar hay que cerciorarse de que el vehículo que precede no ha indicado su propósito de desplazarse hacia el mismo lado; si lo ha hecho, hay que respetar su preferencia. _(RGC 84.2)_
+- ✘ `adel-0002` Cuando la calzada tiene más de un carril por sentido, es obligatorio el cambio completo de carril. _(RGC 85.4)_
 
 ## A-adel-0012
 
@@ -8864,8 +8864,8 @@ Respuesta: **Prohibición de parada y de estacionamiento en ese lado de la calza
 Respuesta: **Prohibición de estacionamiento en ese lado de la calzada.**
 
 - ✔ La marca longitudinal discontinua amarilla (M-7.7) indica la prohibición del estacionamiento a lo largo de toda su longitud en el lado de la calzada donde está situada; no prohíbe la parada. _(RGC Anexo I, apdo. 4.7 (M-7.7))_
-- ✘ `x1b-0010` Está prohibido parar en los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes afecte u obligue a hacer maniobras. _(RGC 94.1.f)_
 - ✘ `x1b-0006` El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse sin extender elementos propios que desborden el perímetro del vehículo. _(RGC 92.4.a)_
+- ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
 
 ## A-par-0006
 
@@ -8883,7 +8883,7 @@ Respuesta: **3 metros.**
 
 - ✔ Se consideran paradas o estacionamientos en lugares peligrosos o que obstaculizan gravemente la circulación, entre otros, cuando esa distancia es inferior a tres metros o no permite el paso de otros vehículos. _(RGC 91.2.a)_
 - ✘ `x1b-0016` Los Ayuntamientos, mediante ordenanza, pueden regular la parada y el estacionamiento de vehículos de dos ruedas sobre aceras y zonas peatonales, siempre que no se perjudique ni entorpezca el tránsito de peatones. _(RGC 156.2)_
-- ✘ `v5b-par-0003` En vías urbanas, cuando la parada o el estacionamiento se hace en la calzada o en el arcén, el vehículo se sitúa lo más cerca posible de su borde derecho. Solo en las vías de sentido único se permite también el lado izquierdo. _(RGC 90.2)_
+- ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
 
 ## A-par-0008
 
@@ -8891,8 +8891,8 @@ Respuesta: **3 metros.**
 Respuesta: **En un paso para peatones.**
 
 - ✔ Está prohibido parar, entre otros lugares, en pasos a nivel, pasos para ciclistas y pasos para peatones. En las calles de sentido único se puede parar también en el lado izquierdo, y la línea amarilla discontinua solo prohíbe estacionar. _(RGC 94.1.b)_
-- ✘ `v5b-par-0003` En vías urbanas, cuando la parada o el estacionamiento se hace en la calzada o en el arcén, el vehículo se sitúa lo más cerca posible de su borde derecho. Solo en las vías de sentido único se permite también el lado izquierdo. _(RGC 90.2)_
 - ✘ `A-par-0017` En un vehículo con caja de cambios hay que dejar colocada la primera velocidad en pendiente ascendente y la marcha atrás en descendente (o, en su caso, la posición de estacionamiento). _(RGC 92.3.c)_
+- ✘ `A-par-0003` La parada exige que el conductor no pueda abandonar el vehículo. Si lo abandona, aunque sea menos de dos minutos, la inmovilización no es detención ni parada y, por tanto, es estacionamiento. _(LSV Anexo I.82)_
 
 ## A-par-0009
 
@@ -8918,8 +8918,8 @@ Respuesta: **No, está prohibido parar y, por tanto, también estacionar.**
 Respuesta: **Cuando se dificulte el giro a otros vehículos.**
 
 - ✔ Está prohibido parar en las intersecciones y sus proximidades si se dificulta el giro a otros vehículos o, en vías interurbanas, si se genera peligro por falta de visibilidad. _(RGC 94.1.d)_
-- ✘ `x1b-0002` Las paradas o estacionamientos en medianas, separadores, isletas u otros elementos de canalización del tráfico se consideran efectuados en lugar peligroso o que obstaculiza gravemente la circulación. _(RGC 91.2.e)_
 - ✘ `A-par-0001` Parada es la inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo. _(LSV Anexo I.81)_
+- ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
 
 ## A-par-0012
 
@@ -8973,7 +8973,7 @@ Respuesta: **La primera.**
 
 - ✔ En un vehículo con caja de cambios hay que dejar colocada la primera velocidad en pendiente ascendente y la marcha atrás en descendente (o, en su caso, la posición de estacionamiento). _(RGC 92.3.c)_
 - ✘ `A-par-0010` Queda prohibido parar en zonas señalizadas para uso exclusivo de minusválidos; en todos los lugares donde está prohibida la parada también lo está el estacionamiento. _(RGC 94.1.j)_
-- ✘ `v5b-par-0003` En vías urbanas, cuando la parada o el estacionamiento se hace en la calzada o en el arcén, el vehículo se sitúa lo más cerca posible de su borde derecho. Solo en las vías de sentido único se permite también el lado izquierdo. _(RGC 90.2)_
+- ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
 
 ## A-par-0018
 
@@ -8990,8 +8990,8 @@ Cuando paran o estacionan en un lugar con sensible pendiente, ¿qué vehículos 
 Respuesta: **Los de más de 3.500 kg de masa máxima autorizada, los autobuses y los conjuntos de vehículos.**
 
 - ✔ Cuando se trate de un vehículo de más de 3.500 kg de MMA, de un autobús o de un conjunto de vehículos y se pare o estacione en sensible pendiente, el conductor debe dejarlo debidamente calzado. _(RGC 92.3.d)_
-- ✘ `v5b-par-0005` Se consideran paradas o estacionamientos que obstaculizan gravemente la circulación los que impiden la utilización normal del paso de vehículos en un vado señalizado correctamente. Es una infracción grave aunque se trate de una parada. _(RGC 91.2.c)_
 - ✘ `x1b-0008` Está prohibido parar en los túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel», además de en curvas y cambios de rasante de visibilidad reducida. _(RGC 94.1.a)_
+- ✘ `x1b-0016` Los Ayuntamientos, mediante ordenanza, pueden regular la parada y el estacionamiento de vehículos de dos ruedas sobre aceras y zonas peatonales, siempre que no se perjudique ni entorpezca el tránsito de peatones. _(RGC 156.2)_
 
 ## A-par-0020
 
@@ -9009,7 +9009,7 @@ Respuesta: **Hacia el centro de la calzada.**
 
 - ✔ Si se calza apoyando una rueda directriz en el bordillo, las ruedas se inclinan hacia el centro de la calzada en las pendientes ascendentes y hacia fuera en las descendentes. _(RGC 92.3.d)_
 - ✘ `A-par-0002` Detención es la inmovilización de un vehículo por emergencia, por necesidades de la circulación o para cumplir algún precepto reglamentario, como detenerse ante un semáforo en rojo. _(LSV Anexo I.80)_
-- ✘ `v5b-par-0003` En vías urbanas, cuando la parada o el estacionamiento se hace en la calzada o en el arcén, el vehículo se sitúa lo más cerca posible de su borde derecho. Solo en las vías de sentido único se permite también el lado izquierdo. _(RGC 90.2)_
+- ✘ `A-par-0001` Parada es la inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo. _(LSV Anexo I.81)_
 
 ## B1-sen-0001
 
@@ -9288,7 +9288,7 @@ Respuesta: **Para marcar el trazado de la curva y el sentido de circulación.**
 
 - ✔ Los paneles direccionales permanentes marcan el trazado de una curva en relación con la reducción de velocidad necesaria para circular por ella con seguridad, además de indicar el sentido de circulación. _(RGC Anexo I.3.1.2.3º)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
-- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0032
 
@@ -9477,7 +9477,7 @@ Respuesta: **Que debe pasarse al carril al que apunta la flecha, porque el suyo 
 
 - ✔ Indica la necesidad de irse incorporando con seguridad al carril hacia el que apunta la flecha, ya que el carril por el que se circula va a quedar cerrado en corto espacio. _(RGC Anexo I.4.3.c)_
 - ✘ `B1-sen-0024` La bandera amarilla indica a los conductores y usuarios la necesidad de extremar la atención o la proximidad de un peligro. _(RGC Anexo I.1.2.c)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
 
 ## B1-sen-0054
 
@@ -9684,7 +9684,7 @@ Respuesta: **La proximidad de una glorieta.**
 
 - ✔ La P-4 («Glorieta») advierte de la proximidad de una glorieta con circulación en el sentido indicado por las flechas. _(RGC_CATALOGO Anexo I, catálogo de señales, P-4 (pág. 90 del PDF consolidado))_
 - ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `B1-sen-0019` El balanceo de una luz roja o amarilla obliga a detenerse a los usuarios hacia los que el agente dirija la luz. _(RGC Anexo I.1.1.c)_
 
 ## B1-sen-0077
 
@@ -9819,7 +9819,7 @@ Respuesta: **De que la vía desemboca en un muelle o en un río.**
 
 - ✔ La P-27 («Muelle») advierte de que la vía desemboca en un muelle o en una corriente de agua; el puente móvil es la P-5. _(RGC_CATALOGO Anexo I, catálogo de señales, P-27 (pág. 96 del PDF consolidado))_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `x1b-0053` Los dispositivos LED que pueden incorporar las señales verticales, en sus bordes o en su interior, son de color blanco, amarillo o ámbar. _(RGC Anexo I.5 (Catálogo, tomo I, 2.4))_
 
 ## B1-sen-0092
 
@@ -9899,8 +9899,8 @@ Respuesta: **La proximidad de un peligro distinto de los advertidos por otras se
 Respuesta: **Que la calzada por la que circula va a perder la prioridad.**
 
 - ✔ La R-4 («Fin de prioridad») indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada; la de calzada con prioridad es la R-3. _(RGC_CATALOGO Anexo I, catálogo de señales, R-4 (pág. 99 del PDF consolidado))_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 - ✘ `x1b-0053` Los dispositivos LED que pueden incorporar las señales verticales, en sus bordes o en su interior, son de color blanco, amarillo o ámbar. _(RGC Anexo I.5 (Catálogo, tomo I, 2.4))_
+- ✘ `x1b-0032` La señalización es el conjunto de señales y órdenes de los agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y marcas viales destinadas a los usuarios de la vía. _(RGC 131)_
 
 ## B1-sen-0101
 
@@ -9953,8 +9953,8 @@ Respuesta: **A los vehículos de motor.**
 Respuesta: **Sí.**
 
 - ✔ La R-103 prohíbe el acceso a vehículos de motor, pero no a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas. La prohibición de acceso a motocicletas es la R-104. _(RGC_CATALOGO Anexo I, catálogo de señales, R-103 (pág. 102 del PDF consolidado))_
-- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
 - ✘ `x1b-0036` Las indicaciones escritas de las señales figuran en castellano y, además, en la lengua oficial de la comunidad autónoma cuando la señal está en su territorio. _(RGC 138)_
+- ✘ `B1-sen-0058` Para la señalización circunstancial por causas distintas de las obras se aplica lo establecido para las obras, pero con color naranja en lugar de amarillo. _(RGC Anexo I.5 (Catálogo, tomo I, 2.6))_
 
 ## B1-sen-0107
 
@@ -9962,8 +9962,8 @@ Respuesta: **Sí.**
 Respuesta: **A los ciclomotores y a los vehículos para personas de movilidad reducida.**
 
 - ✔ La R-105 («Entrada prohibida a ciclomotores») prohíbe el acceso a ciclomotores e igualmente a vehículos para personas de movilidad reducida. _(RGC_CATALOGO Anexo I, catálogo de señales, R-105 (pág. 102 del PDF consolidado))_
-- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
 - ✘ `B1-sen-0027` Las patrullas escolares pueden invitar a los usuarios a detener su marcha mediante las señales del catálogo oficial incorporadas a una paleta. _(RGC 141.4)_
+- ✘ `B1-sen-0004` Entre señales de distinto tipo prevalece la preferente según el orden reglamentario; si son del mismo tipo, prevalece la más restrictiva. _(RGC 133.2)_
 
 ## B1-sen-0108
 
@@ -9981,7 +9981,7 @@ Respuesta: **No.**
 
 - ✔ La R-107 prohíbe el acceso a los vehículos destinados al transporte de mercancías cuya masa máxima autorizada sea superior a la indicada en la señal, aunque circulen vacíos. _(RGC_CATALOGO Anexo I, catálogo de señales, R-107 (pág. 103 del PDF consolidado))_
 - ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
-- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
+- ✘ `B1-sen-0035` Nadie debe penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas o en movimiento para levantarse o colocarse atravesadas. _(RGC 96.1)_
 
 ## B1-sen-0110
 
@@ -10017,7 +10017,7 @@ Respuesta: **Sí.**
 
 - ✔ La R-112 prohíbe el acceso a vehículos de motor con remolque, exceptuando los de un solo eje. Si lleva una cifra de tonelaje, la prohibición solo se aplica cuando la masa máxima autorizada del remolque supere dicha cifra. _(RGC_CATALOGO Anexo I, catálogo de señales, R-112 (pág. 104 del PDF consolidado))_
 - ✘ `x1b-0101` La línea de separación de sentidos sin regular el adelantamiento (M-1.13) tiene el único fin de guiar el tráfico y no da indicaciones sobre la regulación del adelantamiento. _(RGC Anexo I.5.2 (marcas viales, 4.1, M-1.13))_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `x1b-0049` Las obras y tareas de conservación que alteran la circulación deben señalizarse de día y de noche y balizarse luminosamente por la noche o cuando lo exijan las condiciones meteorológicas o ambientales, a cargo del realizador de la obra. _(RGC 148)_
 
 ## B1-sen-0114
 
@@ -10071,7 +10071,7 @@ Respuesta: **Prohibido circular a menos de 70 m del vehículo de delante, salvo 
 
 - ✔ La R-300 («Separación mínima») prohíbe circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada, excepto cuando se vaya a efectuar la maniobra de adelantamiento. _(RGC_CATALOGO Anexo I, catálogo de señales, R-300 (pág. 109 del PDF consolidado))_
 - ✘ `x1b-0052` Las nuevas marcas viales en tramos en obras son de color amarillo; las marcas previas que sigan siendo de aplicación pueden mantenerse blancas. _(RGC Anexo I.5.2 (Catálogo de marcas viales, 2))_
-- ✘ `v5c-age-0001` Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo indica a los usuarios a los que va dirigida la señal la obligación de detenerse en el lado derecho. _(RGC Anexo I.1.2.d)_
+- ✘ `B1-sen-0056` Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud a lo largo de la cual existe el peligro. _(RGC 144.2)_
 
 ## B1-sen-0120
 
@@ -10125,7 +10125,7 @@ Respuesta: **No.**
 
 - ✔ En la R-400c («Sentido obligatorio») la flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir: hacia delante. _(RGC_CATALOGO Anexo I, catálogo de señales, R-400c (pág. 115 del PDF consolidado))_
 - ✘ `v5c-bal-0002` Los hitos de arista sirven sobre todo para balizar los bordes de las carreteras durante las horas nocturnas o de baja visibilidad. _(RGC Anexo I.3.1.2.2º)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `B1-sen-0023` La bandera verde indica que, a partir del paso del vehículo que la porta, la calzada queda de nuevo abierta al tráfico. _(RGC Anexo I.1.2.b)_
 
 ## B1-sen-0126
 
@@ -10214,8 +10214,8 @@ Respuesta: **Velocidad mínima de 40 km/h.**
 Respuesta: **Obligación de llevar encendida al menos la luz de cruce, haya o no visibilidad.**
 
 - ✔ La R-413 («Alumbrado de corto alcance») obliga a circular con el alumbrado al menos de corto alcance, con independencia de las condiciones de visibilidad e iluminación, desde la señal hasta otra de fin de esta obligación. _(RGC_CATALOGO Anexo I, catálogo de señales, R-413 (pág. 119 del PDF consolidado))_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 - ✘ `x1b-0047` Como norma general, en los pasos para peatones con semáforo, la luz amarilla intermitente para vehículos no puede coincidir con la verde fija para peatones y debe ir precedida de la luz roja no intermitente. _(RGC Anexo I.4.2.d)_
+- ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## B1-sen-0136
 
@@ -10457,8 +10457,8 @@ Un paso para peatones cuyas franjas se prolongan cada una con un triángulo indi
 Respuesta: **Está sobreelevado.**
 
 - ✔ Cuando el paso para peatones es sobreelevado se usa la marca M-4.3b, que tiene un triángulo como prolongación de cada una de las franjas. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.2)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 - ✘ `B1-pri-0066` En defecto de señal que regule la preferencia de paso, el conductor debe cederlo a los vehículos que se aproximen por su derecha, salvo las excepciones previstas. _(RGC 57.1)_
+- ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
 
 ## B2-mv-0029
 
@@ -10530,7 +10530,7 @@ Respuesta: **La proximidad de un paso a nivel.**
 
 - ✔ La marca de paso a nivel indica la proximidad de un paso a nivel por una vía de ferrocarril o tranvía, en el que los vehículos deben ceder el paso cuando se aproxime un tren o tranvía. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `v5b-par-0002` Queda prohibido estacionar sobre las aceras, paseos y demás zonas destinadas al paso de peatones, aunque quede espacio para ellos. _(RGC 94.2.e)_
-- ✘ `A-adv-0002` El desplazamiento lateral hacia el lado contrario al que indica la mano se advierte con el brazo doblado hacia arriba y la palma extendida. Con el brazo izquierdo, indica desplazamiento a la derecha. _(RGC 109.2.a)_
+- ✘ `bmp-0003` En todo caso es delito conducir con una tasa de alcohol en aire espirado superior a 0,60 mg/l o en sangre superior a 1,2 g/l. Con tasas menores también puede ser delito si se conduce bajo la influencia del alcohol. _(CP 379.2)_
 
 ## B2-mv-0037
 
@@ -10611,7 +10611,7 @@ Respuesta: **Que se acerca una travesía o vía urbana y hay que reducir la velo
 
 - ✔ Los dientes de dragón advierten de la aproximación a una travesía o vía urbana en la que debe reducirse la velocidad sensiblemente y extremar la precaución. _(RGC Anexo I.5.2 (Catálogo de marcas viales) 4.7)_
 - ✘ `arc-0007` Los vehículos especiales con MMA no superior a 3.500 kg deben circular por el arcén de su derecha si es transitable y suficiente. _(RGC 36.1)_
-- ✘ `arc-0013` Con nieve, en autopistas y autovías está prohibido adelantar y es obligatorio circular por el carril más a la derecha. _(RGC 32.2)_
+- ✘ `x1a-0044` En vías urbanas, el límite genérico es de 50 km/h en las vías de dos o más carriles por sentido, sin contar los carriles reservados a determinados usuarios o al transporte público. _(RGC 50.1.c)_
 
 ## B2-mv-0047
 
@@ -11610,7 +11610,7 @@ Respuesta: **Porque, al ser más bajos, ven menos tramo de carretera y los condu
 
 - ✔ Los niños son más bajos que los adultos: ven menos tramo de carretera y los conductores los ven peor. Además prestan menos atención y no conocen las normas de tráfico. _(MANUAL_DGT Tema 16, Los niños (pág. 401))_
 - ✘ `xd-0084` La mayoría de los atropellos a niños se producen a la salida de la escuela. _(MANUAL_DGT Tema 16, Los niños (p. 401))_
-- ✘ `xd-0061` En los descensos prolongados con curvas, si la seguridad lo permite, los ciclistas pueden dejar el arcén y usar la parte derecha de la calzada que necesiten, salvo en autovías. _(RGC 36.1)_
+- ✘ `xd-0059` A quienes conducen caballerías, ganado o vehículos de tracción animal se les prohíbe llevarlos corriendo cerca de otros animales de la misma especie o de personas a pie. _(RGC 17.2)_
 
 ## D-vul-0003
 
@@ -13256,8 +13256,8 @@ Hay un atasco. ¿Puede una motocicleta circular por el arcén de la derecha?
 Respuesta: **Solo en tramos señalizados para ello y con la circulación detenida por congestión.**
 
 - ✔ El uso extraordinario del arcén por motocicletas solo se permite en tramos acordados y señalizados con señales verticales y marcas viales, únicamente cuando la circulación de los carriles esté detenida por congestión, a 30 km/h como máximo y en columna de a uno. _(RGC 36.3)_
-- ✘ `v5a-car-0001` En calzadas con tres o más carriles en el mismo sentido, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato, pero no los demás. _(RGC 31.2)_
 - ✘ `res-arc-0001` Quien va en silla de ruedas al paso es peatón (con o sin motor). Los peatones van por el arcén izquierdo; solo deben ir por la derecha quienes empujan un ciclo o similar, los grupos dirigidos o cuando haya razones de seguridad. _(RGC 122.1)_
+- ✘ `arc-0004` Entre el ocaso y la salida del sol, o con poca visibilidad, deben llevar al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros. _(RGC 123.1)_
 
 ## v2-adel-0001
 
@@ -13283,8 +13283,8 @@ Fuera de poblado, el conductor de una motocicleta adelanta a un turismo. ¿Qué 
 Respuesta: **No inferior a 1,50 metros.**
 
 - ✔ El conductor de un vehículo de dos ruedas que adelanta fuera de poblado a cualquier otro vehículo debe dejar entre ambos un espacio no inferior a 1,50 metros. _(RGC 85.5)_
-- ✘ `x1a-0126` La prohibición de adelantar en las intersecciones y sus proximidades no se aplica en las plazas de circulación giratoria o glorietas, entre otras excepciones. _(RGC 87.1.c.1º)_
 - ✘ `A-adel-0006` El conductor que va a ser adelantado debe ceñirse al borde derecho de la calzada (salvo si va a girar o parar a la izquierda) y tiene prohibido aumentar la velocidad o dificultar el adelantamiento. _(RGC 86.1)_
+- ✘ `A-adel-0005` Solo se prohíbe adelantar a un vehículo que ya está adelantando a otro si, para hacerlo, hay que invadir la parte de la calzada reservada al sentido contrario. _(RGC 84.2)_
 
 ## v2-adel-0004
 
@@ -13320,7 +13320,7 @@ Respuesta: **No, si desborda el perímetro del vehículo.**
 
 - ✔ Las autocaravanas y otros vehículos acondicionados como vivienda deben estacionar sin extender elementos propios que desborden su perímetro (su proyección en planta), descansando solo sobre los neumáticos y sin verter fluidos del habitáculo. _(RGC 92.4.a)_
 - ✘ `x1b-0016` Los Ayuntamientos, mediante ordenanza, pueden regular la parada y el estacionamiento de vehículos de dos ruedas sobre aceras y zonas peatonales, siempre que no se perjudique ni entorpezca el tránsito de peatones. _(RGC 156.2)_
-- ✘ `x1b-0002` Las paradas o estacionamientos en medianas, separadores, isletas u otros elementos de canalización del tráfico se consideran efectuados en lugar peligroso o que obstaculiza gravemente la circulación. _(RGC 91.2.e)_
+- ✘ `A-par-0003` La parada exige que el conductor no pueda abandonar el vehículo. Si lo abandona, aunque sea menos de dos minutos, la inmovilización no es detención ni parada y, por tanto, es estacionamiento. _(LSV Anexo I.82)_
 
 ## v2-par-0002
 
@@ -13338,7 +13338,7 @@ Respuesta: **Solo sobre los neumáticos, aunque se pueden usar calzos o cuñas d
 
 - ✔ El estacionamiento de autocaravanas y vehículos acondicionados como vivienda debe hacerse descansando solo sobre los neumáticos, con posibilidad de usar calzos o cuñas de seguridad. _(RGC 92.4.b)_
 - ✘ `x1b-0015` Los Ayuntamientos pueden regular la retirada o inmovilización del vehículo que estaciona en zonas limitadas en tiempo sin título que lo autorice o rebasando el triple del tiempo abonado. _(RGC 156.1.b)_
-- ✘ `A-par-0016` En vías urbanas, el vehículo se sitúa lo más cerca posible del borde derecho, salvo en las vías de único sentido, en las que también puede situarse en el lado izquierdo. _(RGC 90.2)_
+- ✘ `x1b-0011` En los lugares de estacionamiento con limitación horaria está prohibido estacionar sin colocar el distintivo que lo autoriza o superando el tiempo máximo permitido por la ordenanza. _(RGC 94.2.b)_
 
 ## v3-sen-0006
 
@@ -13617,7 +13617,7 @@ Respuesta: **A los vehículos que transporten mercancías peligrosas y deban ir 
 
 - ✔ La señal R-108 prohíbe el acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica. La de productos contaminantes del agua es la R-110. _(RGC_CATALOGO Anexo I, señal R-108)_
 - ✘ `v5c-bal-0001` El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `x1b-0051` Los nuevos carteles de orientación colocados por obras o tareas de conservación tienen fondo amarillo y caracteres negros con independencia del tipo de carretera. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## v4a-sen-0011
 
@@ -13725,7 +13725,7 @@ Respuesta: **No.**
 
 - ✔ La señal R-400c «Sentido obligatorio» obliga a seguir la dirección y sentido de la flecha (de frente). Al obligar a seguir de frente, no se puede girar a la derecha ni a la izquierda ni cambiar de sentido. _(RGC_CATALOGO Anexo I, señal R-400c)_
 - ✘ `x1b-0033` Toda señal se aplica a toda la anchura de la calzada que pueden utilizar los conductores a quienes se dirige, aunque su aplicación puede limitarse a uno o más carriles mediante marcas en la calzada. _(RGC 135)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
+- ✘ `x1b-0054` Un panel complementario con el pictograma de un vehículo y la palabra «EXCEPTO» indica que la señal afecta a todos los tipos de vehículos salvo a ese. _(RGC Anexo I.5 (Catálogo, tomo I, 2.3))_
 
 ## v4a-sen-0023
 
@@ -14165,8 +14165,8 @@ Respuesta: **Una zona de escape para detener un vehículo cuyos frenos han falla
 Respuesta: **La zona dedicada al uso de vehículos, formada por la calzada y los arcenes.**
 
 - ✔ La plataforma es la zona de la carretera dedicada al uso de vehículos y está formada por la calzada y los arcenes; la franja que separa las calzadas de cada sentido es la mediana. _(LSV Anexo I, 54)_
-- ✘ `xc-0128` Dos vehículos que van por la misma carretera, uno por el carril de ida y otro por el de vuelta, van en la misma dirección pero en distinto sentido. _(MANUAL_DGT Tema 9, Dirección y sentido (p. 222))_
 - ✘ `xc-0129` Las isletas son zonas de la calzada elevadas o pintadas que sirven para guiar el tráfico, y las líneas blancas paralelas que las forman se llaman cebreado. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 219))_
+- ✘ `xc-0127` En los cambios de rasante de visibilidad reducida la carretera está muy inclinada y no se puede ver a los vehículos que van delante o que vienen por el otro sentido. _(MANUAL_DGT Tema 9, Otras zonas de la vía (p. 216))_
 
 ## v5a-via-0002
 
@@ -14193,7 +14193,7 @@ Respuesta: **Por el arcén de su derecha.**
 
 - ✔ Los vehículos de hasta 3.500 kg de MMA que, por razones de emergencia, circulen a velocidad anormalmente reducida perturbando gravemente la circulación deben ir por el arcén de su derecha si es transitable y suficiente; si no lo es, por la parte imprescindible de la calzada. _(RGC 36.1)_
 - ✘ `arc-0001` Los peatones deben circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable; si no, por la calzada. _(RGC 122.1)_
-- ✘ `v5a-car-0001` En calzadas con tres o más carriles en el mismo sentido, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril de la derecha y pueden usar el inmediato, pero no los demás. _(RGC 31.2)_
+- ✘ `arc-0004` Entre el ocaso y la salida del sol, o con poca visibilidad, deben llevar al menos un elemento luminoso o reflectante visible a una distancia mínima de 150 metros. _(RGC 123.1)_
 
 ## v5a-arc-0002
 
@@ -14237,8 +14237,8 @@ Un camión de bomberos en servicio de urgencia, ¿puede circular por un carril V
 Respuesta: **Sí.**
 
 - ✔ Los vehículos de policía, extinción de incendios, protección civil y salvamento y asistencia sanitaria en servicio de urgencia, así como los equipos de mantenimiento de la vía, pueden utilizar los carriles reservados, incluido el VAO. _(RGC 35.2.c)_
-- ✘ `res-cesp-0003` Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida. _(RGC 41.1)_
 - ✘ `cesp-0005` En un carril reversible hay que llevar encendida, al menos, la luz de corto alcance o de cruce, tanto de día como de noche. _(RGC 40.1)_
+- ✘ `cesp-0002` Se circula con al menos la luz de cruce, de día y de noche, a un máximo de 80 km/h y un mínimo de 60 km/h, o inferiores si así se señaliza. _(RGC 41.1)_
 
 ## v5a-cesp-0002
 
@@ -14246,7 +14246,7 @@ Conduce una furgoneta exclusivamente de mercancías en la que viajan tres person
 Respuesta: **No, el carril VAO es para motocicletas, turismos y mixtos adaptables.**
 
 - ✔ El uso del carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables; el resto de vehículos, como camiones o furgonetas de mercancías, y los turismos con remolque lo tienen prohibido aunque vayan muy ocupados. Además, pueden usarlo los autobuses de más de 3.500 kg de MMA y los articulados si así se indica para el tramo, y los vehículos de urgencia en servicio y los de mantenimiento de la vía. _(RGC 35.2.a)_
-- ✘ `res-cesp-0003` Cuando en su sentido hay más de un carril, se aplican las velocidades genéricas; el tramo de 60 a 80 km/h solo rige si queda un único carril. En todo caso, con la luz de cruce encendida. _(RGC 41.1)_
+- ✘ `cesp-0003` Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa. _(RGC 41.1)_
 - ✘ `cesp-0005` En un carril reversible hay que llevar encendida, al menos, la luz de corto alcance o de cruce, tanto de día como de noche. _(RGC 40.1)_
 
 ## v5a-cesp-0003
@@ -14354,8 +14354,8 @@ En una carretera con un carril por sentido va a adelantar a un peatón que camin
 Respuesta: **1,5 metros.**
 
 - ✔ Al adelantar a peatones, animales, ciclistas, ciclomotores o vehículos de movilidad personal hay que ocupar parte o la totalidad del carril contiguo o contrario y dejar una anchura de seguridad de al menos 1,5 metros. Si hay más de un carril por sentido, hay que cambiar completamente de carril. _(RGC 85.4)_
-- ✘ `A-adel-0014` Está prohibido adelantar en los túneles, pasos inferiores y tramos afectados por la señal «Túnel» (S-5) en los que solo se disponga de un carril para el sentido de circulación. _(RGC 87.1.d)_
 - ✘ `A-adel-0004` El que va a adelantar debe asegurarse de que ningún conductor que le siga por el mismo carril ha iniciado la maniobra de adelantarle, y de que tiene espacio para volver a su carril. _(RGC 84.3)_
+- ✘ `x1a-0134` Quien encuentra en su camino un obstáculo que le obliga a ocupar el espacio del sentido contrario puede rebasarlo tras cerciorarse de que puede hacerlo sin peligro, también en tramos con prohibición de adelantar. _(RGC 89.1)_
 
 ## v5b-adel-0003
 
@@ -14400,7 +14400,7 @@ Respuesta: **No.**
 
 - ✔ El Reglamento prohíbe parar, y por tanto también estacionar, en las zonas destinadas para estacionamiento y parada de uso exclusivo del transporte público urbano. _(RGC 94.1.i)_
 - ✘ `x1b-0004` La parada y el estacionamiento se realizan, como norma general, con el vehículo paralelo al borde de la calzada; otra colocación solo se permite si las características de la vía u otras circunstancias lo aconsejan. _(RGC 92.1)_
-- ✘ `A-par-0016` En vías urbanas, el vehículo se sitúa lo más cerca posible del borde derecho, salvo en las vías de único sentido, en las que también puede situarse en el lado izquierdo. _(RGC 90.2)_
+- ✘ `x1b-0001` Obstaculizar la utilización normal de los pasos rebajados para personas con discapacidad física es uno de los supuestos de parada o estacionamiento que obstaculiza gravemente la circulación. _(RGC 91.2.d)_
 
 ## v5b-par-0002
 
@@ -14417,8 +14417,8 @@ En una calle urbana de doble sentido, si tiene que estacionar en la calzada, ¿d
 Respuesta: **Lo más cerca posible del borde derecho de la calzada.**
 
 - ✔ En vías urbanas, cuando la parada o el estacionamiento se hace en la calzada o en el arcén, el vehículo se sitúa lo más cerca posible de su borde derecho. Solo en las vías de sentido único se permite también el lado izquierdo. _(RGC 90.2)_
-- ✘ `v5b-par-0005` Se consideran paradas o estacionamientos que obstaculizan gravemente la circulación los que impiden la utilización normal del paso de vehículos en un vado señalizado correctamente. Es una infracción grave aunque se trate de una parada. _(RGC 91.2.c)_
 - ✘ `x1b-0016` Los Ayuntamientos, mediante ordenanza, pueden regular la parada y el estacionamiento de vehículos de dos ruedas sobre aceras y zonas peatonales, siempre que no se perjudique ni entorpezca el tránsito de peatones. _(RGC 156.2)_
+- ✘ `x1b-0008` Está prohibido parar en los túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel», además de en curvas y cambios de rasante de visibilidad reducida. _(RGC 94.1.a)_
 
 ## v5b-par-0004
 
@@ -14426,8 +14426,8 @@ Un autobús estaciona en una pendiente descendente sensible y, en lugar de calzo
 Respuesta: **Hacia fuera, hacia el bordillo.**
 
 - ✔ Los vehículos de más de 3.500 kg, los autobuses y los conjuntos de vehículos que paran o estacionan en una sensible pendiente deben quedar calzados: con calzos o apoyando una rueda directriz en el bordillo, con las ruedas hacia el centro de la calzada si la pendiente es ascendente y hacia fuera si es descendente. _(RGC 92.3.d)_
-- ✘ `x1b-0002` Las paradas o estacionamientos en medianas, separadores, isletas u otros elementos de canalización del tráfico se consideran efectuados en lugar peligroso o que obstaculiza gravemente la circulación. _(RGC 91.2.e)_
 - ✘ `A-par-0008` Está prohibido parar, entre otros lugares, en pasos a nivel, pasos para ciclistas y pasos para peatones. En las calles de sentido único se puede parar también en el lado izquierdo, y la línea amarilla discontinua solo prohíbe estacionar. _(RGC 94.1.b)_
+- ✘ `x1b-0016` Los Ayuntamientos, mediante ordenanza, pueden regular la parada y el estacionamiento de vehículos de dos ruedas sobre aceras y zonas peatonales, siempre que no se perjudique ni entorpezca el tránsito de peatones. _(RGC 156.2)_
 
 ## v5b-sen-0002
 
@@ -14471,8 +14471,8 @@ En el balizamiento de la carretera, ¿qué indica un hito de vértice?
 Respuesta: **El punto en el que se separan dos corrientes de tráfico.**
 
 - ✔ El hito de vértice es un elemento de balizamiento semicilíndrico con triángulos retrorreflectantes que indica el punto en el que se separan dos corrientes de tráfico, por ejemplo donde la carretera se bifurca. _(RGC Anexo I.3.1.2.1º)_
-- ✘ `x1b-0039` En el orden de preferencia de las señales, la señalización y el balizamiento circunstancial (como los conos) prevalecen sobre semáforos, señales verticales y marcas viales. _(RGC 133.1.b)_
 - ✘ `B1-sen-0054` Las señales de advertencia de peligro indican la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento procedentes. _(RGC 144.1)_
+- ✘ `x1b-0050` En los tramos en obras, las señales previamente existentes que no son de aplicación mientras duran las obras deben taparse con materiales adhesivos negros. _(RGC Anexo I.5 (Catálogo, tomo I, 2.5))_
 
 ## v5c-bal-0002
 
@@ -14975,8 +14975,8 @@ Circula sin acompañantes en un turismo con distintivo ambiental 0 emisiones. ¿
 Respuesta: **Solo si las condiciones de utilización fijadas para ese tramo lo permiten.**
 
 - ✔ El carril VAO es para motocicletas, turismos y mixtos adaptables con el número de ocupantes que se fije para cada tramo. El Reglamento solo exime de ese número a los vehículos con la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad y a ciertos autobuses. La autoridad de tráfico fija las condiciones de utilización de cada tramo, y solo si estas lo admiten puede entrar un vehículo 0 emisiones con un único ocupante. _(RGC 35.2.d)_
-- ✘ `res-cesp-0002` Si solo dispone de un carril en su sentido, debe ir entre 60 y 80 km/h y con luz de cruce. Si dispone de más de uno, se aplican los límites normales. _(RGC 41.1)_
 - ✘ `cesp-0004` Los vehículos que circulen por los arcenes y por el carril adicional lo harán a un máximo de 80 km/h y un mínimo de 60 km/h, con al menos la luz de cruce. _(RGC 42.1)_
+- ✘ `cesp-0003` Cuando se habilita por obras, pueden circular todos los tipos de vehículos autorizados en la vía en obra, salvo prohibición expresa. _(RGC 41.1)_
 
 ## v5f-amb-0001
 

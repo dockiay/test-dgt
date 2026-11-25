@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Plataforma única de calzada y acera</title>
+<desc id="d">Calle en la que la calzada y la acera están al mismo nivel, sin bordillo, separadas solo por un cambio de pavimento y bolardos. Hay peatones andando, uno en la zona central, y el vehículo A circula por ella.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#d9d2c3" />
+<line x1="0" y1="0" x2="400" y2="0" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="20" x2="400" y2="20" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="40" x2="400" y2="40" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="60" x2="400" y2="60" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="80" x2="400" y2="80" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="100" x2="400" y2="100" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="120" x2="400" y2="120" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="140" x2="400" y2="140" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="160" x2="400" y2="160" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="180" x2="400" y2="180" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="200" x2="400" y2="200" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="220" x2="400" y2="220" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="240" x2="400" y2="240" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="260" x2="400" y2="260" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="280" x2="400" y2="280" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="300" x2="400" y2="300" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="320" x2="400" y2="320" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="340" x2="400" y2="340" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="360" x2="400" y2="360" stroke="#c8c0ae" stroke-width="1"/>
+<line x1="0" y1="380" x2="400" y2="380" stroke="#c8c0ae" stroke-width="1"/>
+<rect x="120" y="0" width="160" height="400" fill="#bdb5a5" />
+<circle cx="112" cy="20" r="5" fill="#5f646b"/>
+<circle cx="288" cy="20" r="5" fill="#5f646b"/>
+<circle cx="112" cy="60" r="5" fill="#5f646b"/>
+<circle cx="288" cy="60" r="5" fill="#5f646b"/>
+<circle cx="112" cy="100" r="5" fill="#5f646b"/>
+<circle cx="288" cy="100" r="5" fill="#5f646b"/>
+<circle cx="112" cy="140" r="5" fill="#5f646b"/>
+<circle cx="288" cy="140" r="5" fill="#5f646b"/>
+<circle cx="112" cy="180" r="5" fill="#5f646b"/>
+<circle cx="288" cy="180" r="5" fill="#5f646b"/>
+<circle cx="112" cy="220" r="5" fill="#5f646b"/>
+<circle cx="288" cy="220" r="5" fill="#5f646b"/>
+<circle cx="112" cy="260" r="5" fill="#5f646b"/>
+<circle cx="288" cy="260" r="5" fill="#5f646b"/>
+<circle cx="112" cy="300" r="5" fill="#5f646b"/>
+<circle cx="288" cy="300" r="5" fill="#5f646b"/>
+<circle cx="112" cy="340" r="5" fill="#5f646b"/>
+<circle cx="288" cy="340" r="5" fill="#5f646b"/>
+<circle cx="112" cy="380" r="5" fill="#5f646b"/>
+<circle cx="288" cy="380" r="5" fill="#5f646b"/>
+<rect x="0" y="0" width="70" height="180" fill="#d98b6a" stroke="#b86a4c" stroke-width="2"/><line x1="0" y1="90.0" x2="70" y2="90.0" stroke="#b86a4c" stroke-width="2"/>
+<rect x="0" y="220" width="70" height="180" fill="#d98b6a" stroke="#b86a4c" stroke-width="2"/><line x1="0" y1="310.0" x2="70" y2="310.0" stroke="#b86a4c" stroke-width="2"/>
+<rect x="330" y="0" width="70" height="180" fill="#d98b6a" stroke="#b86a4c" stroke-width="2"/><line x1="330" y1="90.0" x2="400" y2="90.0" stroke="#b86a4c" stroke-width="2"/>
+<rect x="330" y="220" width="70" height="180" fill="#d98b6a" stroke="#b86a4c" stroke-width="2"/><line x1="330" y1="310.0" x2="400" y2="310.0" stroke="#b86a4c" stroke-width="2"/>
+<g transform="translate(95.0 90.0) scale(1.4)"><ellipse cx="1.5" cy="2" rx="9" ry="6" fill="#000" opacity=".2"/><ellipse cx="0" cy="0" rx="9" ry="5.5" fill="#7b5cd6" stroke="#4a3780" stroke-width="1"/><circle cx="0" cy="0" r="4.2" fill="#5a3b26"/></g>
+<g transform="translate(170.0 160.0) scale(1.4)"><ellipse cx="1.5" cy="2" rx="9" ry="6" fill="#000" opacity=".2"/><ellipse cx="0" cy="0" rx="9" ry="5.5" fill="#2a66cc" stroke="#193d7a" stroke-width="1"/><circle cx="0" cy="0" r="4.2" fill="#5a3b26"/></g>
+<g transform="translate(300.0 280.0) scale(1.4)"><ellipse cx="1.5" cy="2" rx="9" ry="6" fill="#000" opacity=".2"/><ellipse cx="0" cy="0" rx="9" ry="5.5" fill="#e3a21a" stroke="#886110" stroke-width="1"/><circle cx="0" cy="0" r="4.2" fill="#5a3b26"/></g>
+<g transform="translate(230.0 330.0) rotate(0.0)"><path d="M-11.0,-13.0 Q-11.0,-22.0 -3.0,-22.0 L3.0,-22.0 Q11.0,-22.0 11.0,-13.0 L11.0,17.0 Q11.0,22.0 6.0,22.0 L-6.0,22.0 Q-11.0,22.0 -11.0,17.0 Z" transform="translate(1.5 2)" fill="#000" opacity=".22"/><path d="M-11.0,-13.0 Q-11.0,-22.0 -3.0,-22.0 L3.0,-22.0 Q11.0,-22.0 11.0,-13.0 L11.0,17.0 Q11.0,22.0 6.0,22.0 L-6.0,22.0 Q-11.0,22.0 -11.0,17.0 Z" fill="#d43d3d" stroke="#752222" stroke-width="1.4"/><rect x="-7.5" y="-7.0" width="15" height="19" rx="3" fill="#dc6060"/><path d="M-8.5,-12.5 Q0,-16.0 8.5,-12.5 L7.0,-6.5 Q0,-8.0 -7.0,-6.5 Z" fill="#1f2630"/><path d="M-7.0,13.5 Q0,14.5 7.0,13.5 L8.0,17.5 Q0,19.0 -8.0,17.5 Z" fill="#1f2630"/><rect x="-9.0" y="-21.4" width="6" height="3" rx="1.5" fill="#fff7cf" stroke="#752222" stroke-width=".6"/><rect x="3.0" y="-21.4" width="6" height="3" rx="1.5" fill="#fff7cf" stroke="#752222" stroke-width=".6"/><rect x="-9.0" y="19.4" width="5" height="2.2" rx="1.1" fill="#ff3b30"/><rect x="4.0" y="19.4" width="5" height="2.2" rx="1.1" fill="#ff3b30"/><text x="0" y="5.5" transform="translate(0 0.0) rotate(0.0)" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="14" fill="#fff" stroke="#752222" stroke-width="2.2" paint-order="stroke">A</text><g class="sentido" data-letra="A" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-7,-27.0 L0,-34.0 L7,-27.0" stroke="#fff" stroke-width="6.5"/><path d="M-7,-27.0 L0,-34.0 L7,-27.0" stroke="#d43d3d" stroke-width="3.5"/></g></g>
+</svg>

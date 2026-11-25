@@ -2909,8 +2909,17 @@
         "ref": "LSV anexo I",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/calzada-ancha-sin-marcas.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de doble sentido sin ninguna marca vial longitudinal, con anchura para dos filas de turismos en cada sentido. El vehículo A sube junto al borde derecho; el B baja junto al otro borde.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de doble sentido sin ninguna marca vial longitudinal, con anchura para dos filas de turismos en cada sentido. El vehículo A sube junto al borde derecho; el B baja junto al otro borde."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3126,8 +3135,17 @@
         "ref": "LSV anexo I",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/glorieta-partida.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Intersección con un anillo y una isleta central, pero la vía que llega de abajo atraviesa la isleta central y sigue recta hacia arriba. El vehículo A llega por esa vía.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Intersección con un anillo y una isleta central, pero la vía que llega de abajo atraviesa la isleta central y sigue recta hacia arriba. El vehículo A llega por esa vía."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3560,8 +3578,17 @@
         "ref": "LSV anexo I",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/plataforma-unica.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle en la que la calzada y la acera están al mismo nivel, sin bordillo, separadas solo por un cambio de pavimento y bolardos. Hay peatones andando, uno en la zona central, y el vehículo A circula por ella.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle en la que la calzada y la acera están al mismo nivel, sin bordillo, separadas solo por un cambio de pavimento y bolardos. Hay peatones andando, uno en la zona central, y el vehículo A circula por ella."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3932,8 +3959,17 @@
         "ref": "Manual DGT tema 9",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/ida-y-vuelta.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Carretera con un carril para cada sentido. El vehículo A circula hacia la derecha por el carril de abajo; el B, hacia la izquierda por el de arriba.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Carretera con un carril para cada sentido. El vehículo A circula hacia la derecha por el carril de abajo; el B, hacia la izquierda por el de arriba."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

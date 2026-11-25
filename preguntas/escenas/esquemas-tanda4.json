@@ -1,0 +1,1652 @@
+{
+ "formato": "Ver preguntas/formato-escenas.md. Tanda de la revisión de preguntas sin imagen (25/11/2026).",
+ "escenas": {
+  "x1a-0105": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true,
+    "sentidoUnico": true
+   },
+   "titulo": "Calle de sentido único vista desde arriba. Usted (A) circula detrás de otro turismo (B).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "y": 222,
+     "tu": true,
+     "marcas": {
+      "s0": 40,
+      "s1": 120,
+      "s2": 370
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "intermitente": "izquierda",
+     "puntos": [
+      [
+       150,
+       220
+      ],
+      [
+       180,
+       220
+      ],
+      [
+       240,
+       184
+      ],
+      [
+       275,
+       182
+      ],
+      {
+       "marca": "para"
+      },
+      [
+       760,
+       182
+      ]
+     ],
+     "inicio": 0
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B indica claramente que va a parar a la izquierda y se arrima a ese lado. A su derecha queda espacio suficiente.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.2",
+      "texto": "el adelantamiento se efectuará por la derecha y adoptando las máximas precauciones, cuando el conductor del vehículo al que se pretenda adelantar esté indicando claramente su propósito de cambiar de dirección a la izquierda o parar en ese lado"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "para",
+       "modo": "frena"
+      },
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "frena"
+      }
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     },
+     "etiquetas": {
+      "B": "Va a parar"
+     },
+     "foco": [
+      "B"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Usted (A) lo adelanta por la derecha, con las máximas precauciones.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.2",
+      "texto": "Por excepción, y si existe espacio suficiente para ello, el adelantamiento se efectuará por la derecha y adoptando las máximas precauciones"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "suave"
+      }
+     ],
+     "intermitentes": {
+      "B": "izquierda"
+     },
+     "frenos": [
+      "B"
+     ],
+     "etiquetas": {
+      "A": "Por la derecha"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 3000
+    }
+   ]
+  },
+  "A-adel-0010": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true,
+    "sentidoUnico": true,
+    "carriles": 2
+   },
+   "titulo": "Calle de un poblado con dos carriles en el mismo sentido, separados por una línea discontinua. Usted (A) va por el carril derecho y otro turismo (B), por el izquierdo, un poco más adelante.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "y": 220,
+     "tu": true,
+     "marcas": {
+      "s0": 60,
+      "s1": 130,
+      "s2": 370
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "desde": "O",
+     "y": 180,
+     "marcas": {
+      "s0": 150,
+      "s1": 185,
+      "s2": 260
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Dentro de poblado y con dos carriles en su sentido delimitados por marcas, A puede adelantar por la derecha. Antes se cerciora de que puede hacerlo sin peligro.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.3",
+      "texto": "se permite el adelantamiento por la derecha a condición de que el conductor del vehículo que lo efectúe se cerciore previamente de que puede hacerlo sin peligro para los demás usuarios."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "Comprueba"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    },
+    {
+     "texto": "A pasa a B por la derecha, sin salir de su carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "82.3",
+      "texto": "Dentro de los poblados, en las calzadas que tengan, por lo menos, dos carriles reservados a la circulación en el mismo sentido de marcha, delimitados por marcas longitudinales, se permite el adelantamiento por la derecha"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 3000
+    }
+   ]
+  },
+  "x1a-0127": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "cruces": [
+     {
+      "x": 220,
+      "lado": "norte",
+      "ancho": 60
+     },
+     {
+      "x": 220,
+      "lado": "sur",
+      "ancho": 60
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido y un cruce más adelante. Usted (A) circula detrás de una motocicleta (B) que va despacio.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       60,
+       "d"
+      ],
+      [
+       130,
+       "i"
+      ],
+      [
+       270,
+       "i"
+      ],
+      [
+       340,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 70,
+      "s2": 240,
+      "s3": 390
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 120,
+      "s1": 140,
+      "s2": 185,
+      "s3": 225
+     },
+     "inicio": "s0",
+     "tipo": "moto"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "B es una motocicleta, un vehículo de dos ruedas. Por eso la prohibición de adelantar en las intersecciones no impide a A adelantarla.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.c.4º",
+      "texto": "El adelantamiento se realice a vehículos de dos ruedas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "A comprueba que el carril contrario está libre y adelanta a B.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {},
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Cuando ya ha dejado atrás a B, A vuelve a su carril poco a poco.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "B",
+     "minimo": 1.5
+    }
+   ]
+  },
+  "x1a-0128": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "via": {
+    "cruces": [
+     {
+      "x": 220,
+      "lado": "norte",
+      "ancho": 60
+     },
+     {
+      "x": 220,
+      "lado": "sur",
+      "ancho": 60
+     }
+    ]
+   },
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido, la señal de calzada con prioridad y un cruce más adelante. Usted (A) circula detrás de otro turismo (B).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       60,
+       "d"
+      ],
+      [
+       130,
+       "i"
+      ],
+      [
+       270,
+       "i"
+      ],
+      [
+       340,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 70,
+      "s2": 240,
+      "s3": 390
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 120,
+      "s1": 140,
+      "s2": 185,
+      "s3": 225
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "La vía de A tiene prioridad en la intersección y la señal lo indica. En ese caso no rige la prohibición de adelantar en las intersecciones.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.c.3º",
+      "texto": "La calzada en que se realice goce de prioridad en la intersección y haya señal expresa que lo indique."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "A comprueba que el carril contrario está libre y adelanta a B.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "84.1",
+      "texto": "comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {},
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Cuando ya ha dejado atrás a B, A vuelve a su carril poco a poco.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "85.3",
+      "texto": "deberá reintegrarse a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad, y advertirlo a través de las señales preceptivas"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    }
+   ],
+   "carteles": [
+    {
+     "cod": "R-3",
+     "x": 40
+    }
+   ]
+  },
+  "x1a-0132": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido. Un coche de agentes de tráfico (B), con los rotativos encendidos, está detenido ocupando parte del carril de usted (A).",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       110,
+       "d"
+      ],
+      [
+       190,
+       192
+      ],
+      [
+       300,
+       192
+      ],
+      [
+       370,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 100,
+      "s2": 250,
+      "s3": 390
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "tipo": "policia",
+     "ruta": [
+      [
+       250,
+       238
+      ],
+      [
+       251,
+       238
+      ]
+     ],
+     "avisos": {
+      "rotativo": true
+     },
+     "inicio": "p0"
+    }
+   ],
+   "comprobar": [
+    {
+     "adelanta": "A",
+     "a": "B",
+     "minimo": 1.5
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "cota",
+     "x": 226,
+     "y1": 206,
+     "y2": 227,
+     "texto": "1,5 m o más",
+     "lado": "izq",
+     "en": [
+      2
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Antes de llegar al coche de los agentes, A reduce la velocidad al menos 20 km/h por debajo del límite de la vía. Si el límite es 100 km/h, como mucho a 80 km/h.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.1",
+      "texto": "reducir la velocidad en al menos 20 km/h respecto al límite existente en la vía."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "−20 km/h"
+     },
+     "intermitentes": {
+      "A": "izquierda"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "A lo rebasa dejando al menos 1,5 metros de separación, aunque para ello ocupe parte del carril contrario, que está libre.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.1",
+      "texto": "los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros aunque para ello hayan de ocupar la parte de la calzada reservada al sentido contrario"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {},
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Ya pasado el coche, A vuelve a su carril.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "88.1",
+      "texto": "los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s3",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2400
+    }
+   ]
+  },
+  "v5b-adel-0003": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido. Usted (A) circula detrás de una furgoneta (B) y se acercan a un cambio de rasante de visibilidad reducida.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 120,
+      "s2": 330
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "tipo": "furgoneta",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 100,
+      "s1": 200,
+      "s2": 410
+     },
+     "inicio": "s0"
+    }
+   ],
+   "anotaciones": [
+    {
+     "tipo": "zona",
+     "x": 250,
+     "y": 160,
+     "w": 150,
+     "h": 80,
+     "texto": "Sin visibilidad",
+     "en": [
+      0,
+      1,
+      2
+     ]
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Detrás del cambio de rasante, A no puede ver si viene alguien de frente. Ahí está prohibido adelantar, aunque la furgoneta vaya despacio.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.a",
+      "texto": "En las curvas y cambios de rasante de visibilidad reducida"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "No adelanta"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "A pasa el cambio de rasante detrás de B, sin adelantarla.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.a",
+      "texto": "en todo lugar o circunstancia en que la visibilidad disponible no sea suficiente para poder efectuar la maniobra o desistir de ella una vez iniciada"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 3000
+    }
+   ]
+  },
+  "v5b-adel-0004": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido, que cruza una vía de tren por un paso a nivel. Usted (A) circula detrás de un turismo que va despacio (B).",
+   "elementos": [
+    {
+     "tipo": "railes",
+     "eje": "v",
+     "x": 300,
+     "desde": 90,
+     "hasta": 310
+    }
+   ],
+   "carteles": [
+    {
+     "cod": "P-8",
+     "x": 150
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 120,
+      "s2": 365
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 110,
+      "s1": 200,
+      "s2": 470
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Se acercan a un paso a nivel. Está prohibido adelantar en los pasos a nivel y en sus proximidades, aunque B vaya despacio.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.b",
+      "texto": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "No adelanta"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "A cruza el paso a nivel detrás de B, sin adelantarlo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.b",
+      "texto": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 3000
+    }
+   ]
+  },
+  "v2-adel-0004": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido, que cruza una vía de tren por un paso a nivel. Usted (A) circula detrás de una motocicleta (B).",
+   "elementos": [
+    {
+     "tipo": "railes",
+     "eje": "v",
+     "x": 300,
+     "desde": 90,
+     "hasta": 310
+    }
+   ],
+   "carteles": [
+    {
+     "cod": "P-8",
+     "x": 150
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 20,
+      "s1": 120,
+      "s2": 365
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 110,
+      "s1": 200,
+      "s2": 470
+     },
+     "inicio": "s0",
+     "tipo": "moto"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Se acercan a un paso a nivel. Está prohibido adelantar en los pasos a nivel y en sus proximidades. La excepción de los vehículos de dos ruedas solo vale para las intersecciones.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.b",
+      "texto": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "A": "No adelanta"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "A cruza el paso a nivel detrás de B, sin adelantarlo.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "87.1.b",
+      "texto": "En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s2",
+       "modo": "sigue"
+      },
+      {
+       "v": "B",
+       "hasta": "s2",
+       "modo": "sigue"
+      }
+     ],
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 3000
+    }
+   ]
+  },
+  "A-sen-0001": {
+   "tipo": "carretera",
+   "antes": "escena",
+   "titulo": "Carretera de doble sentido vista desde arriba, con un carril para cada sentido. Usted (A) está detenido en su carril con el intermitente izquierdo, esperando para cambiar de sentido; detrás esperan B y C, y de frente se acerca D.",
+   "vehiculos": [
+    {
+     "letra": "A",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       210,
+       "d"
+      ],
+      [
+       270,
+       "arcen"
+      ],
+      [
+       330,
+       "arcen"
+      ]
+     ],
+     "marcas": {
+      "s0": 200,
+      "s1": 320
+     },
+     "inicio": "s0",
+     "intermitente": "izquierda"
+    },
+    {
+     "letra": "B",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       200,
+       "d"
+      ],
+      [
+       240,
+       214
+      ],
+      [
+       360,
+       214
+      ],
+      [
+       400,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 140
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "C",
+     "ruta": [
+      [
+       -60,
+       "d"
+      ],
+      [
+       200,
+       "d"
+      ],
+      [
+       240,
+       214
+      ],
+      [
+       360,
+       214
+      ],
+      [
+       400,
+       "d"
+      ],
+      [
+       520,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 80
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "D",
+     "sentido": "O",
+     "ruta": [
+      [
+       520,
+       "d"
+      ],
+      [
+       -60,
+       "d"
+      ]
+     ],
+     "marcas": {
+      "s0": 420,
+      "s1": 220
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A espera para cambiar de sentido, pero viene tráfico de frente. Mientras siga parado en la calzada, B y C no pueden continuar.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "78.1",
+      "texto": "deberá abstenerse de realizar dicha maniobra y esperar el momento oportuno para efectuarla."
+     },
+     "mover": [
+      {
+       "v": "D",
+       "hasta": "s1",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     },
+     "etiquetas": {
+      "B": "Espera",
+      "C": "Espera"
+     },
+     "foco": [
+      "A",
+      "B",
+      "C"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "Como su espera impide seguir a los de detrás, A sale de la calzada por su derecha.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "78.1",
+      "texto": "Cuando su permanencia en la calzada, mientras espera para efectuar la maniobra de cambio de sentido, impida continuar la marcha de los vehículos que circulan detrás del suyo, deberá salir de ella por su lado derecho, si fuera posible"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "s1",
+       "modo": "suave"
+      },
+      {
+       "v": "D",
+       "hasta": "fin",
+       "modo": "sigue"
+      }
+     ],
+     "intermitentes": {
+      "A": "derecha"
+     },
+     "etiquetas": {
+      "A": "Sale por la derecha"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2800
+    },
+    {
+     "texto": "B y C siguen su marcha. A espera fuera de la calzada hasta que pueda cambiar de sentido sin peligro.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "78.1",
+      "texto": "hasta que las condiciones de la circulación le permitan efectuarlo"
+     },
+     "mover": [
+      {
+       "v": "B",
+       "hasta": "fin",
+       "modo": "arranca",
+       "dura": 2500
+      },
+      {
+       "v": "C",
+       "hasta": "fin",
+       "modo": "arranca",
+       "retraso": 700,
+       "dura": 2500
+      }
+     ],
+     "intermitentes": {
+      "A": "izquierda"
+     },
+     "foco": [
+      "B",
+      "C"
+     ],
+     "ms": 3200
+    }
+   ]
+  },
+  "x1a-0102": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true
+   },
+   "titulo": "Calle vista desde arriba con un cruce con otra calle a la izquierda. Usted (A) se ha pasado unos 10 metros del cruce por el que quería girar; la calle sigue hacia delante.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "asfalto",
+     "x": 118,
+     "y": -10,
+     "w": 64,
+     "h": 172
+    },
+    {
+     "tipo": "guia",
+     "puntos": [
+      [
+       150,
+       -10
+      ],
+      [
+       150,
+       158
+      ]
+     ]
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "y": 220,
+     "tu": true,
+     "marcas": {
+      "s0": 296
+     },
+     "inicio": "s0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "A puede seguir hacia delante y dar la vuelta más adelante, así que no puede volver marcha atrás hasta el cruce, aunque sean pocos metros.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "80.1",
+      "texto": "Se prohíbe circular hacia atrás, salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha"
+     },
+     "mover": [],
+     "etiquetas": {
+      "A": "Sin marcha atrás"
+     },
+     "foco": [
+      "A"
+     ],
+     "ms": 2200
+    },
+    {
+     "texto": "Sigue adelante. El límite de 15 metros solo vale para la marcha atrás que completa una parada, un estacionamiento o una incorporación.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "80.2",
+      "texto": "El recorrido hacia atrás, como maniobra complementaria de la parada, el estacionamiento o la incorporación a la circulación, no podrá ser superior a 15 metros ni invadir un cruce de vías."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    }
+   ]
+  },
+  "bm3-0007": {
+   "tipo": "recta",
+   "antes": "escena",
+   "via": {
+    "urbana": true
+   },
+   "titulo": "Calle vista desde arriba. Un autobús de transporte escolar (B) está detenido en una parada y usted (A) se acerca por el mismo carril.",
+   "elementos": [
+    {
+     "tipo": "zona",
+     "clase": "asfalto",
+     "x": 140,
+     "y": 238,
+     "w": 150,
+     "h": 22,
+     "r": 4
+    },
+    {
+     "tipo": "parada",
+     "x": 150,
+     "y": 240,
+     "w": 130,
+     "h": 18
+    },
+    {
+     "tipo": "texto",
+     "x": 215,
+     "y": 282,
+     "t": "ESCOLAR",
+     "tam": 11
+    }
+   ],
+   "vehiculos": [
+    {
+     "letra": "A",
+     "desde": "O",
+     "tu": true,
+     "marcas": {
+      "s0": 30,
+      "lento": 110,
+      "espera": 250
+     },
+     "inicio": "s0"
+    },
+    {
+     "letra": "B",
+     "tipo": "autobus",
+     "puntos": [
+      [
+       215,
+       249
+      ],
+      [
+       216,
+       249
+      ]
+     ],
+     "inicio": 0
+    },
+    {
+     "id": "nino",
+     "tipo": "nino",
+     "color": "C",
+     "puntos": [
+      [
+       290,
+       262
+      ],
+      [
+       296,
+       250
+      ],
+      {
+       "marca": "borde"
+      },
+      [
+       300,
+       232
+      ],
+      {
+       "marca": "medio"
+      },
+      [
+       304,
+       150
+      ]
+     ],
+     "inicio": 0
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Al acercarse a un autobús escolar parado, A reduce a una velocidad moderada.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "46.1.e",
+      "texto": "Al aproximarse a un autobús en situación de parada, principalmente si se trata de un autobús de transporte escolar."
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "lento",
+       "modo": "frena"
+      }
+     ],
+     "etiquetas": {
+      "A": "Despacio"
+     },
+     "foco": [
+      "A",
+      "B"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Un niño sale por delante del autobús para cruzar: A se detiene.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "46.1",
+      "texto": "Se circulará a velocidad moderada y, si fuera preciso, se detendrá el vehículo cuando las circunstancias lo exijan"
+     },
+     "mover": [
+      {
+       "v": "nino",
+       "hasta": "fin",
+       "modo": "sigue"
+      },
+      {
+       "v": "A",
+       "hasta": "espera",
+       "modo": "frena",
+       "dura": 1800
+      }
+     ],
+     "etiquetas": {
+      "A": "Se detiene"
+     },
+     "foco": [
+      "nino"
+     ],
+     "ms": 3000
+    },
+    {
+     "texto": "Cuando el niño ya ha cruzado, A sigue despacio.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "46.1",
+      "texto": "Se circulará a velocidad moderada"
+     },
+     "mover": [
+      {
+       "v": "A",
+       "hasta": "fin",
+       "modo": "arranca"
+      }
+     ],
+     "foco": [
+      "A"
+     ],
+     "ms": 2600
+    }
+   ]
+  },
+  "xd-0060": {
+   "tipo": "recta",
+   "antes": "escena",
+   "titulo": "Carretera sin arcén vista desde arriba. Dos ciclistas circulan en paralelo, en columna de a dos, y se acercan a un tramo sin visibilidad.",
+   "elementos": [
+    {
+     "tipo": "texto",
+     "x": 330,
+     "y": 146,
+     "t": "Tramo sin visibilidad",
+     "tam": 11
+    },
+    {
+     "tipo": "arbol",
+     "x": 300,
+     "y": 120,
+     "r": 18
+    },
+    {
+     "tipo": "arbol",
+     "x": 350,
+     "y": 285,
+     "r": 18
+    }
+   ],
+   "vehiculos": [
+    {
+     "id": "bici1",
+     "tipo": "bici",
+     "color": "A",
+     "puntos": [
+      [
+       -20,
+       226
+      ],
+      [
+       40,
+       226
+      ],
+      {
+       "marca": "m0"
+      },
+      [
+       160,
+       226
+      ],
+      {
+       "marca": "m1"
+      },
+      [
+       360,
+       226
+      ],
+      {
+       "marca": "m2"
+      },
+      [
+       700,
+       226
+      ]
+     ],
+     "inicio": "m0"
+    },
+    {
+     "id": "bici2",
+     "tipo": "bici",
+     "color": "B",
+     "puntos": [
+      [
+       -20,
+       210
+      ],
+      [
+       40,
+       210
+      ],
+      {
+       "marca": "m0"
+      },
+      [
+       150,
+       210
+      ],
+      {
+       "marca": "m1"
+      },
+      [
+       190,
+       210
+      ],
+      [
+       230,
+       226
+      ],
+      [
+       300,
+       226
+      ],
+      {
+       "marca": "m2"
+      },
+      [
+       700,
+       226
+      ]
+     ],
+     "inicio": "m0"
+    }
+   ],
+   "pasos": [
+    {
+     "texto": "Sin arcén, los ciclistas pueden ir en columna de a dos por la parte imprescindible de la calzada.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "36.2",
+      "texto": "podrán circular en columna de a dos por la parte imprescindible de la calzada"
+     },
+     "mover": [
+      {
+       "v": "bici1",
+       "hasta": "m1",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici2",
+       "hasta": "m1",
+       "modo": "sigue"
+      }
+     ],
+     "foco": [
+      "bici1",
+      "bici2"
+     ],
+     "ms": 2600
+    },
+    {
+     "texto": "Al llegar al tramo sin visibilidad, se colocan en hilera, uno detrás de otro.",
+     "cita": {
+      "norma": "RGC",
+      "articulo": "36.2",
+      "texto": "si bien deberán colocarse en hilera en los tramos sin visibilidad"
+     },
+     "mover": [
+      {
+       "v": "bici1",
+       "hasta": "m2",
+       "modo": "sigue"
+      },
+      {
+       "v": "bici2",
+       "hasta": "m2",
+       "modo": "sigue"
+      }
+     ],
+     "etiquetas": {
+      "bici2": "En hilera"
+     },
+     "foco": [
+      "bici2"
+     ],
+     "ms": 3200
+    }
+   ]
+  }
+ }
+}

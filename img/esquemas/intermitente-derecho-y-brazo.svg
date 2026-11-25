@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Intermitente derecho y brazo</title>
+<desc id="d">Vista desde detrás de un turismo (B): tiene encendido el intermitente derecho y su conductor saca el brazo izquierdo por la ventanilla, extendido horizontalmente.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="170" fill="#cfe6f5" />
+<rect x="0" y="170" width="400" height="230" fill="#cfe0b8" />
+<polygon points="10,400 390,400 222,170 178,170" fill="#5f646b"/>
+<path d="M200,400 L200,175" stroke="#fff" stroke-width="3" stroke-dasharray="22 16"/>
+<path d="M30,400 L181,172 M370,400 L219,172" stroke="#fff" stroke-width="3"/>
+<g transform="translate(200 250) scale(1.0)">
+<ellipse cx="0" cy="62" rx="98" ry="10" fill="#000" opacity=".2"/>
+<path d="M-62,-30 Q-58,-70 -30,-72 L30,-72 Q58,-70 62,-30 Z" fill="#3f75d1" stroke="#173870" stroke-width="3"/>
+<path d="M-52,-34 Q-48,-62 -26,-63 L26,-63 Q48,-62 52,-34 Z" fill="#26303b"/>
+<rect x="-92" y="-34" width="184" height="80" rx="16" fill="#2a66cc" stroke="#173870" stroke-width="3"/>
+<rect x="-30" y="8" width="60" height="18" rx="3" fill="#fff" stroke="#33383f" stroke-width="2"/>
+<rect x="-74" y="46" width="30" height="16" rx="4" fill="#22262b"/><rect x="44" y="46" width="30" height="16" rx="4" fill="#22262b"/>
+<text x="0" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="15" fill="#22262b">B</text>
+</g>
+<rect x="118" y="228" width="22" height="20" rx="5" fill="#8c2b24" stroke="#33383f" stroke-width="2"/>
+<rect x="260" y="228" width="22" height="20" rx="5" fill="#f2a516" stroke="#33383f" stroke-width="2"/>
+<line x1="287.0" y1="238.0" x2="297.0" y2="238.0" stroke="#f2a516" stroke-width="3" stroke-linecap="round"/>
+<line x1="282.3" y1="249.3" x2="289.4" y2="256.4" stroke="#f2a516" stroke-width="3" stroke-linecap="round"/>
+<line x1="271.0" y1="254.0" x2="271.0" y2="264.0" stroke="#f2a516" stroke-width="3" stroke-linecap="round"/>
+<line x1="259.7" y1="249.3" x2="252.6" y2="256.4" stroke="#f2a516" stroke-width="3" stroke-linecap="round"/>
+<line x1="255.0" y1="238.0" x2="245.0" y2="238.0" stroke="#f2a516" stroke-width="3" stroke-linecap="round"/>
+<line x1="259.7" y1="226.7" x2="252.6" y2="219.6" stroke="#f2a516" stroke-width="3" stroke-linecap="round"/>
+<line x1="271.0" y1="222.0" x2="271.0" y2="212.0" stroke="#f2a516" stroke-width="3" stroke-linecap="round"/>
+<line x1="282.3" y1="226.7" x2="289.4" y2="219.6" stroke="#f2a516" stroke-width="3" stroke-linecap="round"/>
+<path d="M118,190 L40,190" stroke="#e8c9b0" stroke-width="13" stroke-linecap="round"/>
+<path d="M118,190 L80,190" stroke="#2a66cc" stroke-width="15" stroke-linecap="round"/>
+<ellipse cx="30" cy="192" rx="13" ry="7" fill="#e8c9b0" stroke="#b08c70" stroke-width="1.5"/>
+</svg>

@@ -189,10 +189,12 @@
       botones.forEach(b => {
         const v = fig.querySelector(`.e-vehiculo[data-v="${b._z.id}"] .e-cuerpo`);
         if (!v) { b.hidden = true; return; }
-        const r = v.getBoundingClientRect(), lado = Math.max(56, Math.max(r.width, r.height) + 14);
+        // Rectángulo del vehículo + margen (mínimo 48 px): dos vehículos largos juntos no se pisan.
+        const r = v.getBoundingClientRect(), w = Math.max(48, r.width + 16), hh = Math.max(48, r.height + 16);
         const cx = r.left + r.width / 2 - caja.left, cy = r.top + r.height / 2 - caja.top;
-        const dentro = (v, max) => Math.max(2, Math.min(max - lado - 2, v)); // que no se salga del dibujo
-        Object.assign(b.style, { width: lado + "px", height: lado + "px", left: dentro(cx - lado / 2, caja.width) + "px", top: dentro(cy - lado / 2, caja.height) + "px" });
+        const dentro = (v, lado, max) => Math.max(2, Math.min(max - lado - 2, v)); // que no se salga del dibujo
+        Object.assign(b.style, { width: w + "px", height: hh + "px", borderRadius: Math.min(w, hh) / 2 + "px",
+          left: dentro(cx - w / 2, w, caja.width) + "px", top: dentro(cy - hh / 2, hh, caja.height) + "px" });
       });
     }
     requestAnimationFrame(() => requestAnimationFrame(colocar));

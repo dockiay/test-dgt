@@ -5,6 +5,7 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --violeta-texto: #b79bff; } }
 :root[data-theme="dark"] { --violeta-texto: #b79bff; }
 .proto-aviso { display: inline-block; margin: 16px 0 4px; padding: 4px 12px; border-radius: 999px; background: var(--ambar-suave); color: var(--ambar-texto); font-size: .8125rem; font-weight: 800; }
+.tipo-cuenta { margin: -6px 4px 8px; color: var(--texto3); font-size: .8125rem; font-weight: 800; }
 .tipo-porque { margin: -4px 4px 10px; color: var(--texto2); font-size: .9375rem; font-weight: 600; line-height: 1.4; }
 .chevron-txt { color: var(--texto3); font-size: 1.5rem; font-weight: 800; line-height: 1; }
 .leccion-cabeza { display: flex; align-items: center; gap: 10px; margin: 12px 0 18px; }

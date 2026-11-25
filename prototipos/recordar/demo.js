@@ -7,6 +7,17 @@
   const LISTA = window.EJERCICIOS_RECORDAR;
   const sonar = (n, a) => window.Animo && Animo.sonar(n, a);
   let actual = null;
+  // Con cientos de ejercicios, la portada enseña una muestra al azar de cada tipo (los de datos.js primero).
+  const VISTOS = 6;
+  const deTipo = tipo => LISTA.map((e, i) => (e.tipo === tipo ? i : -1)).filter(i => i >= 0);
+  // Portada: primero los ejemplos de datos.js y luego al azar. Lección: al azar entre todos.
+  function muestra(tipo, n, portada) {
+    const ids = deTipo(tipo).slice();
+    for (let i = ids.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [ids[i], ids[j]] = [ids[j], ids[i]]; }
+    if (portada) ids.sort((a, b) => !!LISTA[a].de - !!LISTA[b].de);
+    return ids.slice(0, n);
+  }
+  const cuenta = tipo => { const n = deTipo(tipo).length; return n === 1 ? "1 ejercicio" : `${n.toLocaleString("es")} ejercicios`; };
 
   function ponerBarra(contenido, fb) {
     barra.hidden = !contenido;
@@ -23,17 +34,18 @@
     const grupos = Object.entries(TIPOS).map(([tipo, t]) => [
       h("h2", { class: "cabecera" }, t.nombre),
       h("p", { class: "tipo-porque" }, t.porque),
-      h("div", { class: "grupo con-icono" }, LISTA.map((e, i) => e.tipo !== tipo ? null :
-        h("button", { class: "fila", type: "button", onclick: () => leccion([i]) },
+      h("p", { class: "tipo-cuenta" }, cuenta(tipo)),
+      h("div", { class: "grupo con-icono" }, muestra(tipo, VISTOS, true).map(i => LISTA[i]).map((e, n) =>
+        h("button", { class: "fila", type: "button", onclick: () => leccion([LISTA.indexOf(e)]) },
           h("span", { class: "tesela " + t.color }, ico(t.icono)),
-          h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, e.titulo)),
+          h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, e.titulo || e.enunciado)),
           h("span", { class: "chevron-txt", "aria-hidden": "true" }, "›")))),
     ]);
     app.replaceChildren(
       h("p", { class: "proto-aviso" }, "Prototipo · no cambia el camino real"),
       h("h1", { class: "titulo-grande" }, "Ejercicios para recordar"),
       h("p", { class: "subtitulo" }, "Cinco tipos más para los niveles del camino, distintos del tipo test y de escribir la cifra, tocar, ordenar y emparejar."),
-      h("div", { class: "pila" }, h("button", { class: "boton ancho verde", type: "button", onclick: () => leccion(LISTA.map((_, i) => i)) }, `Probar la lección (${LISTA.length} ejercicios)`)),
+      h("div", { class: "pila" }, h("button", { class: "boton ancho verde", type: "button", onclick: () => leccion(Object.keys(TIPOS).flatMap(t => muestra(t, 2))) }, "Probar una lección (2 de cada tipo)")),
       ...grupos.flat());
     window.scrollTo(0, 0);
   }

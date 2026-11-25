@@ -82,49 +82,91 @@
   function cambiarObjetivo(n) { if (OBJETIVOS.includes(n)) { estado.objetivo = n; guardar(); } }
 
   // ---------- Sonidos sintetizados (sin ficheros) ----------
-  let ctx = null;
+  // Todo sale de osciladores de Web Audio: no hay audios de terceros. Los sonidos pasan por un bus común
+  // (filtro suave + compresor) para que suenen presentes en el altavoz del móvil sin saturar ni chillar.
+  let ctx = null, bus = null;
+  function crearBus(c) {
+    const filtro = c.createBiquadFilter(), comp = c.createDynamicsCompressor(), g = c.createGain();
+    filtro.type = "lowpass"; filtro.frequency.value = 7000; filtro.Q.value = 0.4;
+    comp.threshold.value = -16; comp.knee.value = 12; comp.ratio.value = 4; comp.attack.value = 0.002; comp.release.value = 0.12;
+    g.gain.value = 1.25;
+    filtro.connect(comp).connect(g).connect(c.destination);
+    return filtro;
+  }
   function audio() {
     if (!estado.sonido) return null;
     const AC = window.AudioContext || window.webkitAudioContext;
     if (!AC) return null;
-    if (!ctx) { try { ctx = new AC(); } catch (e) { return null; } }
-    if (ctx.state === "suspended") ctx.resume();
+    if (!ctx) { try { ctx = new AC({ latencyHint: "interactive" }); bus = crearBus(ctx); } catch (e) { ctx = null; return null; } }
     return ctx;
   }
+  // iOS y Chrome solo dejan sonar tras un gesto: al primer toque se "despierta" el audio con un silencio,
+  // así el primer acierto ya suena. Si el sistema lo suspende (llamada, segundo plano), se reanuda al volver.
+  function despertar() {
+    const c = audio(); if (!c) return;
+    if (c.state !== "running") { try { c.resume(); } catch (e) { /* sin audio */ } }
+    try { const s = c.createBufferSource(); s.buffer = c.createBuffer(1, 1, c.sampleRate); s.connect(c.destination); s.start(0); } catch (e) { /* sin audio */ }
+  }
+  ["pointerdown", "keydown"].forEach(ev => window.addEventListener(ev, despertar, { capture: true, passive: true }));
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && ctx && ctx.state !== "running") { try { ctx.resume(); } catch (e) { /* sin audio */ } } });
+
   // Nota corta con ataque y caída suaves para que no "pique" al oído.
-  function nota(c, frec, inicio, dur, { tipo = "sine", vol = 0.16, hasta } = {}) {
+  function nota(c, frec, inicio, dur, { tipo = "sine", vol = 0.16, hasta, ataque = 0.008 } = {}) {
     const o = c.createOscillator(), g = c.createGain(), t = c.currentTime + inicio;
     o.type = tipo;
     o.frequency.setValueAtTime(frec, t);
     if (hasta) o.frequency.exponentialRampToValueAtTime(hasta, t + dur);
     g.gain.setValueAtTime(0.0001, t);
-    g.gain.exponentialRampToValueAtTime(vol, t + 0.012);
+    g.gain.exponentialRampToValueAtTime(vol, t + ataque);
     g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
-    o.connect(g).connect(c.destination);
+    o.connect(g).connect(bus || c.destination);
     o.start(t); o.stop(t + dur + 0.02);
   }
+  // Campanita: fundamental redonda y armónicos que se apagan antes, como una marimba o un glockenspiel.
+  function campana(c, frec, inicio, dur, vol = 0.2) {
+    nota(c, frec, inicio, dur, { vol, ataque: 0.004 });
+    nota(c, frec * 2, inicio, dur * 0.55, { vol: vol * 0.32, ataque: 0.003 });
+    nota(c, frec * 3.01, inicio, dur * 0.28, { vol: vol * 0.12, ataque: 0.002 });
+  }
+  // Pulsación de opción: "pop" corto y grave-medio, que se nota sin cansar aunque se toque mucho.
+  function pop(c, inicio = 0, vol = 0.22) {
+    nota(c, 520, inicio, 0.075, { vol, hasta: 300, ataque: 0.003 });
+    nota(c, 1560, inicio, 0.025, { tipo: "triangle", vol: vol * 0.18, ataque: 0.002 });
+  }
   const SONIDOS = {
-    toque: c => nota(c, 660, 0, 0.06, { tipo: "triangle", vol: 0.07 }),
-    acierto: c => { nota(c, 784, 0, 0.12, { tipo: "triangle" }); nota(c, 1175, 0.085, 0.22, { tipo: "triangle" }); nota(c, 2350, 0.085, 0.16, { vol: 0.03 }); },
-    fallo: c => { nota(c, 311, 0, 0.16, { tipo: "triangle", vol: 0.14 }); nota(c, 233, 0.12, 0.26, { tipo: "triangle", vol: 0.12, hasta: 220 }); },
-    serie: (c, n = 3) => { const base = 523 * Math.pow(2, Math.min(n, 12) / 24); [0, 4, 7, 12].forEach((s, i) => nota(c, base * Math.pow(2, s / 12), i * 0.06, 0.14, { tipo: "triangle", vol: 0.1 })); },
-    meta: c => { [0, 4, 7, 12, 16].forEach((s, i) => nota(c, 523 * Math.pow(2, s / 12), i * 0.08, 0.3, { tipo: "triangle", vol: 0.11 })); },
-    aprobado: c => { [0, 4, 7].forEach((s, i) => nota(c, 523 * Math.pow(2, s / 12), i * 0.11, 0.2, { tipo: "triangle", vol: 0.12 })); [0, 4, 7, 12].forEach(s => nota(c, 523 * Math.pow(2, (s + 12) / 12), 0.36, 0.7, { tipo: "triangle", vol: 0.06 })); },
+    // Elegir una opción (examen, ejercicios), interruptores y botones pequeños.
+    toque: c => pop(c),
+    // Acierto: dos campanitas que suben una quinta (La5 → Mi6) con un brillo encima. Alegre y corto (~0,4 s).
+    acierto: c => { campana(c, 880, 0, 0.22, 0.2); campana(c, 1319, 0.085, 0.42, 0.24); nota(c, 2637, 0.1, 0.25, { vol: 0.025 }); },
+    // Fallo: dos notas graves y suaves que bajan, sin pitido ni zumbido (más "uy" que "error").
+    fallo: c => {
+      nota(c, 294, 0, 0.17, { tipo: "triangle", vol: 0.24, ataque: 0.006 }); nota(c, 147, 0, 0.17, { vol: 0.14 });
+      nota(c, 220, 0.14, 0.32, { tipo: "triangle", vol: 0.22, hasta: 196, ataque: 0.006 }); nota(c, 110, 0.14, 0.32, { vol: 0.13 });
+    },
+    serie: (c, n = 3) => { const base = 523 * Math.pow(2, Math.min(n, 12) / 24); [0, 4, 7, 12].forEach((s, i) => campana(c, base * Math.pow(2, s / 12), i * 0.06, 0.2, 0.13)); },
+    meta: c => { [0, 4, 7, 12, 16].forEach((s, i) => campana(c, 523 * Math.pow(2, s / 12), i * 0.08, 0.34, 0.14)); },
+    aprobado: c => { [0, 4, 7].forEach((s, i) => campana(c, 523 * Math.pow(2, s / 12), i * 0.11, 0.24, 0.15)); [0, 4, 7, 12].forEach(s => nota(c, 523 * Math.pow(2, (s + 12) / 12), 0.36, 0.7, { tipo: "triangle", vol: 0.07 })); },
     // Fin de lección (celebracion.js): fanfarria, tictac de los contadores, golpe de cada cifra, brillo final,
     // subida de la racha y logro.
     fanfarria: c => {
-      [0, 4, 7, 12].forEach((s, i) => nota(c, 523 * Math.pow(2, s / 12), i * 0.09, 0.18, { tipo: "triangle", vol: 0.12 }));
-      [0, 4, 7, 12, 16].forEach(s => nota(c, 523 * Math.pow(2, (s + 12) / 12), 0.4, 0.9, { tipo: "triangle", vol: 0.05 }));
-      [0, 0.07, 0.14].forEach((t, i) => nota(c, 3136 + i * 400, 0.44 + t, 0.18, { vol: 0.025 }));
+      [0, 4, 7, 12].forEach((s, i) => campana(c, 523 * Math.pow(2, s / 12), i * 0.09, 0.22, 0.15));
+      [0, 4, 7, 12, 16].forEach(s => nota(c, 523 * Math.pow(2, (s + 12) / 12), 0.4, 0.9, { tipo: "triangle", vol: 0.06 }));
+      [0, 0.07, 0.14].forEach((t, i) => nota(c, 3136 + i * 400, 0.44 + t, 0.18, { vol: 0.03 }));
     },
-    tic: (c, k = 0) => nota(c, 1250 + k * 500, 0, 0.03, { vol: 0.03 }),
-    golpe: (c, i = 0) => { const f = 659 * Math.pow(2, [0, 3, 7, 12][i % 4] / 12); nota(c, f, 0, 0.12, { tipo: "triangle", vol: 0.11 }); nota(c, f * 2, 0, 0.08, { vol: 0.03 }); },
-    brillo: c => [0, 0.06, 0.12, 0.18].forEach((t, i) => nota(c, 1568 * Math.pow(2, [0, 4, 7, 12][i] / 12), t, 0.16, { vol: 0.04 })),
-    racha: c => { nota(c, 262, 0, 0.5, { tipo: "triangle", vol: 0.08, hasta: 784 }); [0, 4, 7, 12].forEach((s, i) => nota(c, 784 * Math.pow(2, s / 12), 0.45 + i * 0.07, 0.35, { tipo: "triangle", vol: 0.09 })); },
-    logro: c => { [0, 7, 12, 16, 19].forEach((s, i) => nota(c, 587 * Math.pow(2, s / 12), i * 0.07, 0.4, { tipo: "triangle", vol: 0.09 })); nota(c, 2349, 0.36, 0.5, { vol: 0.03 }); },
-    suspenso: c => { [7, 3, 0].forEach((s, i) => nota(c, 330 * Math.pow(2, s / 12), i * 0.16, 0.3, { tipo: "triangle", vol: 0.1 })); },
+    tic: (c, k = 0) => nota(c, 1250 + k * 500, 0, 0.03, { vol: 0.04 }),
+    golpe: (c, i = 0) => { const f = 659 * Math.pow(2, [0, 3, 7, 12][i % 4] / 12); campana(c, f, 0, 0.16, 0.15); },
+    brillo: c => [0, 0.06, 0.12, 0.18].forEach((t, i) => nota(c, 1568 * Math.pow(2, [0, 4, 7, 12][i] / 12), t, 0.16, { vol: 0.05 })),
+    racha: c => { nota(c, 262, 0, 0.5, { tipo: "triangle", vol: 0.1, hasta: 784 }); [0, 4, 7, 12].forEach((s, i) => campana(c, 784 * Math.pow(2, s / 12), 0.45 + i * 0.07, 0.35, 0.12)); },
+    logro: c => { [0, 7, 12, 16, 19].forEach((s, i) => campana(c, 587 * Math.pow(2, s / 12), i * 0.07, 0.4, 0.12)); nota(c, 2349, 0.36, 0.5, { vol: 0.035 }); },
+    suspenso: c => { [7, 3, 0].forEach((s, i) => nota(c, 330 * Math.pow(2, s / 12), i * 0.16, 0.3, { tipo: "triangle", vol: 0.13 })); },
   };
-  function sonar(nombre, arg) { const c = audio(); if (c && SONIDOS[nombre]) { try { SONIDOS[nombre](c, arg); } catch (e) { /* sin audio */ } } }
+  function sonar(nombre, arg) {
+    const c = audio(); if (!c || !SONIDOS[nombre]) return;
+    const tocar = () => { try { SONIDOS[nombre](c, arg); } catch (e) { /* sin audio */ } };
+    // Si el contexto está dormido, primero se reanuda y luego suena (si no, en iOS el sonido se pierde).
+    if (c.state === "running") tocar();
+    else { try { c.resume().then(tocar, () => {}); } catch (e) { /* sin audio */ } }
+  }
   function vibrar(patron) { if (estado.sonido && navigator.vibrate && !sinMovimiento()) { try { navigator.vibrate(patron); } catch (e) { /* no disponible */ } } }
 
   // Botón de altavoz para la barra de navegación.

@@ -325,5 +325,12 @@
       h("a", { class: "fila", href: f.url, target: "_blank", rel: "noopener" }, ico("libro"),
         h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, ref)), ico("enlace", "chevron")));
   }
-  window.Ejercicios = { crear: (ej, op) => CREAR[ej.tipo](ej, op), explicacion, TIPOS, ico, h, sinMovimiento };
+  // Registro de tipos para otros ficheros (p. ej. prototipos/recordar): Ejercicios.registrar("clasificar",
+  // { nombre: "Clasifica", icono: "parejas" o un path SVG de 24×24, crear(ej, op) → { nodo, comprobar(), soltar(), auto? } }).
+  function registrar(tipo, def) {
+    if (def.icono && !ICONOS[def.icono]) { ICONOS["t-" + tipo] = def.icono; def = Object.assign({}, def, { icono: "t-" + tipo }); }
+    TIPOS[tipo] = { nombre: def.nombre, icono: def.icono || "parejas" };
+    CREAR[tipo] = def.crear;
+  }
+  window.Ejercicios = { crear: (ej, op) => CREAR[ej.tipo](ej, op), registrar, explicacion, TIPOS, ico, h, sinMovimiento, sonar };
 })();

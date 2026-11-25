@@ -95,57 +95,6 @@ window.EJERCICIOS.push(
   },
   // ---------- Alcohol ----------
   {
-    "id": "cifra-D-alc-0010",
-    "de": "D-alc-0010",
-    "tipo": "cifra",
-    "materia": 4,
-    "enunciado": "¿Cuál es la tasa máxima de alcohol en aire espirado para el conductor de un turismo con más de dos años de antigüedad de permiso?",
-    "respuesta": 0.25,
-    "unidad": "mg/l",
-    "porque": "Con más de dos años de permiso, y en un turismo que no sea de servicio público ni de otro grupo especial, se aplica la tasa general: 0,25 mg/l en aire espirado, que equivale a 0,5 g/l en sangre.",
-    "truco": "Dos grupos y dos números: novatos y profesionales, 0,15 en aire; el resto, 0,25. En la norma, la cifra en sangre es el doble que la de aire (0,3 y 0,5): si te preguntan en gramos por litro de sangre, multiplica por dos. Y si el conductor es menor de edad, 0.",
-    "fuente": {
-      "norma": "RGC",
-      "articulo": "20",
-      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
-      "cita": "con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro."
-    }
-  },
-  {
-    "id": "cifra-D-alc-0011",
-    "de": "D-alc-0011",
-    "tipo": "cifra",
-    "materia": 4,
-    "enunciado": "¿Cuál es la tasa máxima de alcohol en sangre para el conductor de un turismo con más de dos años de antigüedad de permiso?",
-    "respuesta": 0.5,
-    "unidad": "g/l",
-    "porque": "La tasa general en sangre es 0,5 g/l, que equivale a 0,25 mg/l en aire espirado. Es la que se aplica con más de dos años de permiso y en un turismo que no sea de servicio público.",
-    "truco": "Dos grupos y dos números: novatos y profesionales, 0,15 en aire; el resto, 0,25. En la norma, la cifra en sangre es el doble que la de aire (0,3 y 0,5): si te preguntan en gramos por litro de sangre, multiplica por dos. Y si el conductor es menor de edad, 0.",
-    "fuente": {
-      "norma": "RGC",
-      "articulo": "20",
-      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
-      "cita": "con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro."
-    }
-  },
-  {
-    "id": "cifra-D-alc-0016",
-    "de": "D-alc-0016",
-    "tipo": "cifra",
-    "materia": 4,
-    "enunciado": "Durante los dos años siguientes a la obtención del permiso, ¿qué tasa máxima de alcohol en aire espirado puede tener un conductor mayor de edad?",
-    "respuesta": 0.15,
-    "unidad": "mg/l",
-    "porque": "Durante los dos primeros años de permiso la norma rebaja la tasa al mismo nivel que la de los profesionales: 0,15 mg/l en aire espirado (0,3 g/l en sangre), para cualquier vehículo.",
-    "truco": "Dos grupos y dos números: novatos y profesionales, 0,15 en aire; el resto, 0,25. En la norma, la cifra en sangre es el doble que la de aire (0,3 y 0,5): si te preguntan en gramos por litro de sangre, multiplica por dos.",
-    "fuente": {
-      "norma": "RGC",
-      "articulo": "20",
-      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
-      "cita": "no podrán superar la tasa de alcohol en sangre de 0,3 gramos por litro ni de alcohol en aire espirado de 0,15 miligramos por litro durante los dos años siguientes a la obtención del permiso"
-    }
-  },
-  {
     "id": "cifra-D-alc-0018",
     "de": "D-alc-0018",
     "tipo": "cifra",
@@ -317,22 +266,6 @@ window.EJERCICIOS.push(
       "articulo": "117.1",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
       "cita": "En todo caso, los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil"
-    }
-  },
-  {
-    "id": "cifra-neumaticos-1-6",
-    "tipo": "cifra",
-    "materia": 14,
-    "enunciado": "¿Qué profundidad mínima tiene que tener el dibujo de los neumáticos de un turismo?",
-    "respuesta": 1.6,
-    "unidad": "mm",
-    "porque": "Las ranuras de la banda de rodadura de un turismo tienen que tener al menos 1,6 milímetros de profundidad.",
-    "truco": "Turismos, furgonetas ligeras y remolques ligeros: 1,6 mm. Autobuses y camiones de más de 3.500 kg: 1 mm.",
-    "fuente": {
-      "norma": "MANUAL_DGT",
-      "articulo": "Tema 5, Neumáticos (p. 98)",
-      "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
-      "cita": "La banda de rodamiento de los turismos debe tener unas ranuras con al menos 1,6 milímetros de profundidad."
     }
   },
   {

@@ -19,15 +19,6 @@ window.EJERCICIOS = [
       comprobar: ["Autopista y\n                               120", "Convencional                 90"] },
   },
   {
-    id: "cifra-adelantar-ciclista", tipo: "cifra", materia: 8,
-    enunciado: "Vas a adelantar a un ciclista en una carretera con un solo carril por sentido. ¿Qué separación lateral mínima tienes que dejarle?",
-    respuesta: 1.5, unidad: "metros",
-    porque: "Para adelantar a un ciclista hay que ocupar parte o todo el carril contrario y dejar al menos 1,5 metros de separación lateral.",
-    truco: "Si la calzada tiene más de un carril por sentido, no basta con 1,5 m: tienes que cambiarte de carril por completo.",
-    fuente: { norma: "RGC", articulo: "85.4", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a85",
-      cita: "debe efectuarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril" },
-  },
-  {
     id: "tocar-cruce-derecha", tipo: "tocar", materia: 1, esquema: "cruce", vista: [50, 50, 300, 300],
     enunciado: "Cruce sin señales. Los tres vehículos van a seguir recto. Toca el que pasa primero.",
     zonas: [

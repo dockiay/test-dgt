@@ -13,8 +13,9 @@ FICHEROS = {"RGC": ["rgc_full.txt", "rgc_full_layout.txt"], "RGC_CATALOGO": ["ca
             "MANUAL_DGT": ["manual_dgt.txt", "manual_dgt_layout.txt"], "LSV": ["l.txt", "l_layout.txt"]}
 norm = lambda t: re.sub(r"\s+", " ", t).strip()
 
-js = subprocess.run(["node", "-e", "global.window={};require(process.argv[1]);console.log(JSON.stringify(window.EJERCICIOS_RECORDAR))",
-                     os.path.join(AQUI, "datos.js")], capture_output=True, text=True, check=True).stdout
+DATOS = [os.path.join(AQUI, "datos.js")] + sorted(glob.glob(os.path.join(AQUI, "datos-*.js")))
+js = subprocess.run(["node", "-e", "global.window={};for(const f of process.argv.slice(1))require(f);console.log(JSON.stringify(window.EJERCICIOS_RECORDAR))",
+                     *DATOS], capture_output=True, text=True, check=True).stdout
 banco = {}
 for f in glob.glob(os.path.join(RAIZ, "preguntas", "banco-*.json")):
     d = json.load(open(f, encoding="utf-8"))
@@ -49,5 +50,13 @@ for e in json.loads(js):
     if e["tipo"] == "ysi":
         for p in e["pasos"]: anota(p["respuesta"] in e["opciones"], e["id"], f'respuesta {p["respuesta"]} entre las opciones')
     if e["tipo"] == "error": anota(e["bueno"] in e["arreglos"] and e["parte"] in e["trozos"][e["malo"]], e["id"], "arreglo y parte coherentes")
+publicado = set(json.loads(subprocess.run(["node", "-e", "global.window={};require(process.argv[1]);console.log(JSON.stringify(window.BANCO.preguntas.map(p=>p.id)))",
+    os.path.join(RAIZ, "data", "preguntas.js")], capture_output=True, text=True, check=True).stdout))
+vistos = {}
+for e in json.loads(js):
+    for i in ([e["de"]] if isinstance(e.get("de"), str) else e.get("de") or []):
+        anota(i in publicado, e["id"], f"de {i} está en el banco publicado")
+        if i in vistos: anota(False, e["id"], f"de {i} repetido (ya en {vistos[i]})")
+        vistos[i] = e["id"]
 print("Todo comprobado." if not fallos else f"{fallos} comprobaciones sin pasar.")
 sys.exit(1 if fallos else 0)

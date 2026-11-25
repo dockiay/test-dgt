@@ -6,8 +6,8 @@ AQUI = os.path.dirname(os.path.abspath(__file__)); RAIZ = os.path.join(AQUI, "..
 leer = lambda *p: open(os.path.join(*p), encoding="utf-8").read()
 estilos = re.sub(r"@font-face\s*{[^}]*}", "", leer(RAIZ, "estilos.css"))
 senales = {s: "data:image/png;base64," + base64.b64encode(open(os.path.join(RAIZ, "img", "senales", s + ".png"), "rb").read()).decode()
-           for s in re.findall(r'senal: "([^"]+)"', leer(AQUI, "datos.js"))}
-js = "".join(f"<script>\n{leer(*f)}\n</script>\n" for f in [(RAIZ, "animo.js"), (AQUI, "datos.js"), (AQUI, "recordar.js"), (AQUI, "demo.js")])
+           for s in set(s for f in os.listdir(AQUI) if f.startswith("datos") and f.endswith(".js") for s in re.findall(r'"?senal"?: "([^"]+)"', leer(AQUI, f)))}
+js = "".join(f"<script>\n{leer(*f)}\n</script>\n" for f in [(RAIZ, "animo.js"), (AQUI, "datos.js"), (AQUI, "datos-clasificar.js"), (AQUI, "datos-error.js"), (AQUI, "datos-ysi.js"), (AQUI, "datos-piensa.js"), (AQUI, "datos-completar.js"), (AQUI, "recordar.js"), (AQUI, "demo.js")])
 html = f"""<title>Ejercicios para recordar</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap">
 <style>{estilos}\n{leer(AQUI, "recordar.css")}</style>

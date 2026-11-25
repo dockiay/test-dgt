@@ -84,13 +84,11 @@
       cabecera("Mini lección"),
       h("ol", { class: "leccion" }, g.puntos.map(pt => h("li", {},
         h("p", { class: "leccion-texto" }, pt.texto),
-        h("details", { class: "leccion-cita" },
-          h("summary", {}, ico("libro"), `${nombreNorma(pt.norma)}, ${textoArt(pt.articulo)}`),
-          h("blockquote", { class: "cita" }, h("small", {}, "Texto literal del BOE"), `«${pt.cita}»`),
-          h("a", { class: "enlace-boe", href: pt.url, target: "_blank", rel: "noopener" }, "Abrir en el BOE", ico("enlace")))))),
+        h("a", { class: "leccion-norma", href: pt.url, target: "_blank", rel: "noopener" },
+          ico("libro"), h("span", {}, `${nombreNorma(pt.norma)}, ${textoArt(pt.articulo)}`), ico("enlace"))))),
       repaso.length && e.ps.length > repaso.length ? grupo("con-icono", fila({ icono: "libro", color: "indigo", titulo: "Practicar todo el tema", detalle: plural(e.ps.length, "pregunta", "preguntas"),
         accion: () => practicar(priorizar(e.ps).slice(0, 20), g.titulo) })) : null,
-      h("p", { class: "nota-pie" }, `Texto consolidado del BOE, versión del ${A.fechaES(E.lecciones.version_consultada.RGC)}. Pulsa cada norma para ver la cita literal.`));
+      h("p", { class: "nota-pie" }, `Texto consolidado del BOE, versión del ${A.fechaES(E.lecciones.version_consultada.RGC)}. Pulsa cada norma para abrirla en el BOE.`));
   }
 
   A.ruta("errores", partes => partes[0] ? leccion(partes[0]) : listaErrores());

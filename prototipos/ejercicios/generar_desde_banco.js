@@ -23,7 +23,7 @@ const fuenteDe = p => { const f = p.fuente; return { norma: f.norma, articulo: f
 const salida = [];
 
 // ---------- Escribe la cifra: solo cifras redondas y muy repetidas (feedback de Sergio, 25-11) ----------
-const CIFRAS = ["vel-0011", "vel-0014", "C-pun-0001", "C-pun-0014"];
+const CIFRAS = []; // adoptadas en datos-cifra.js (hilo de cifras)
 for (const id of CIFRAS) {
   const p = POR_ID.get(id), m = String(p.opciones[p.correcta]).match(/^\s*(\d+(?:,\d+)?)\s*(.*?)\.?\s*$/);
   if (!m) throw new Error("Cifra sin número: " + id);

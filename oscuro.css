@@ -1,0 +1,52 @@
+/* Retoques del modo oscuro. Se carga la última y solo actúa con el sistema en oscuro, así que el modo
+   claro queda igual. Los esquemas SVG traen su propia variante oscura dentro del fichero
+   (tools/oscuro_esquemas.py); las escenas y «Explóralo» tienen sus colores en escenas.css y explora.css. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    /* Bordes y pistas un punto más claros, para que el relieve de tarjetas y botones se siga viendo;
+       el texto terciario sube hasta contraste AA sobre las tarjetas. */
+    --borde: #333d55; --relleno-fuerte: #353f58; --texto3: #8d98af; --separador: #2c3549;
+    /* Superficie elevada (hojas y ventanas), un paso más clara que las tarjetas. */
+    --elevada: #212839;
+  }
+
+  /* ---- Imágenes de las preguntas ---- */
+  /* Señales: la tarjeta deja de ser un bloque blanco que deslumbra. La señal va sobre una placa clara
+     de su tamaño (hace falta: muchas tienen trazos negros y fondo transparente). */
+  :root:not([data-theme="light"]) .figura.senal { background: var(--celda); border-color: var(--borde); }
+  :root:not([data-theme="light"]) .figura.senal img { background: #f1f3f8; padding: 14px; border-radius: 22px; box-shadow: 0 4px 0 rgba(0, 0, 0, .4); max-width: min(214px, 64vw); max-height: 214px; }
+  :root:not([data-theme="light"]) .figura.senal figcaption { color: var(--texto3); margin-top: 12px; }
+  :root:not([data-theme="light"]) .figura.senal figcaption strong { color: var(--texto); }
+  /* Fotos, dibujos del BOE y esquemas: esquinas redondeadas, para que un fondo blanco parezca una
+     lámina y no un recorte. Las láminas de papel blanco se atenúan un poco. */
+  :root:not([data-theme="light"]) .figura img { border-radius: 12px; }
+  :root:not([data-theme="light"]) .figura img[src*="/fotos-boe/"],
+  :root:not([data-theme="light"]) .figura img[src*="/figuras-boe/"],
+  :root:not([data-theme="light"]) .figura img[src*="/marcas/"] { filter: brightness(.92); }
+
+  /* ---- Preguntas ---- */
+  /* Las opciones descartadas tras corregir se apagaban tanto que costaba releerlas. */
+  :root:not([data-theme="light"]) .opcion.apagada .texto, :root:not([data-theme="light"]) .opcion.apagada .letra { opacity: .62; }
+
+  /* ---- Camino ---- */
+  /* La carretera casi no se distinguía del fondo: arcén y asfalto más claros y línea central blanca. */
+  :root:not([data-theme="light"]) .camino-via .arcen { stroke: color-mix(in srgb, var(--u) 26%, #46516b); }
+  :root:not([data-theme="light"]) .camino-via .asfalto { stroke: color-mix(in srgb, var(--u) 10%, #2b3347); }
+  :root:not([data-theme="light"]) .camino-via .recorrido { stroke: color-mix(in srgb, var(--u) 62%, var(--celda)); }
+  :root:not([data-theme="light"]) .camino-via .linea { stroke: rgba(255, 255, 255, .5); opacity: 1; }
+  :root:not([data-theme="light"]) .unidad.legendaria .camino-via .recorrido { stroke: color-mix(in srgb, var(--ambar) 62%, var(--celda)); }
+
+  /* ---- Hojas ---- */
+  :root:not([data-theme="light"]) dialog.hoja { background: var(--elevada); }
+  :root:not([data-theme="light"]) dialog.hoja::backdrop { background: rgba(0, 0, 0, .62); }
+
+  /* ---- Ejercicios del camino ---- */
+  /* Esquemas de «Toca en la imagen» (SVG en línea): el mismo escenario oscuro que tools/oscuro_esquemas.py. */
+  :root:not([data-theme="light"]) .ej-lienzo svg [fill="#cfe0b8"] { fill: #3d5233; }
+  :root:not([data-theme="light"]) .ej-lienzo svg [fill="#b9c7a5"] { fill: #344828; }
+  :root:not([data-theme="light"]) .ej-lienzo svg [fill="#5f646b"] { fill: #3a3f47; }
+  :root:not([data-theme="light"]) .ej-lienzo svg [stroke="#5f646b"] { stroke: #3a3f47; }
+  /* Cartas y fichas con señal: la misma placa clara que en las preguntas, en vez de blanco puro. */
+  :root:not([data-theme="light"]) .emp-item.con-senal, :root:not([data-theme="light"]) .cl-carta.con-senal, :root:not([data-theme="light"]) .cl-grupo li img { background: #f1f3f8; }
+  :root:not([data-theme="light"]) .emp-item.con-senal[aria-pressed="true"] { background: #dfe8ff; }
+}

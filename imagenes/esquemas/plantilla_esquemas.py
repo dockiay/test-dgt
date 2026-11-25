@@ -29,6 +29,8 @@ ACERA = "#e6e1d6"
 MARCA = "#ffffff"
 COLORES = {"A": "#d43d3d", "B": "#2a66cc", "C": "#e3a21a", "D": "#2e9a4f"}
 LANE = 40  # ancho de carril
+# Variante oscura: tras generar esquemas nuevos, lanza `python3 tools/oscuro_esquemas.py`, que mete en
+# cada SVG un <style id="oscuro"> con el escenario apagado para el modo oscuro (el claro no cambia).
 
 
 # ---------------------------------------------------------------- primitivas

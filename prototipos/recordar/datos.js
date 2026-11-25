@@ -1,0 +1,146 @@
+/* Prototipo «Ejercicios para recordar»: cinco tipos distintos del tipo test y de los de prototipos/ejercicios.
+   Cada ejercicio lleva su fuente con cita literal (la comprueba comprobar.py; no se enseña) y la explicación
+   corta que sale al terminar: porqué + truco + enlace a la referencia.
+
+   Tipos:
+   - clasificar: `cubos` (2 o 3) y `cartas` {texto | senal, cubo}. Con 2 cubos se puede deslizar la carta.
+                 Las cartas falladas vuelven al final de la pila.
+   - error:      frase en `trozos`; `malo` es el índice del trozo falso; `arreglos` y `bueno` para corregirlo.
+   - ysi:        `caso` (ficha con datos), `opciones` fijas y `pasos`; cada paso cambia un dato de la ficha.
+   - piensa:     pregunta del banco (`banco` = id) con las opciones tapadas hasta decir cuánta seguridad se tiene.
+                 Si la pregunta del banco tiene `imagen`, se copia igual y se pinta encima. comprobar() devuelve `seguridad`.
+   - completar:  `texto` con {huecos} y `senuelos`; se rellenan tocando fichas. */
+window.EJERCICIOS_RECORDAR = [
+  {
+    id: "clasificar-parar-estacionar", tipo: "clasificar", materia: 9, titulo: "¿Prohibido parar o solo estacionar?",
+    enunciado: "¿Qué está prohibido en cada sitio?",
+    cubos: [{ id: "ambos", nombre: "Parar y estacionar" }, { id: "estacionar", nombre: "Solo estacionar" }],
+    cartas: [
+      { texto: "En un paso para peatones", cubo: "ambos" },
+      { texto: "Dentro de un túnel", cubo: "ambos" },
+      { texto: "En un carril bus", cubo: "ambos" },
+      { texto: "Delante de un vado señalizado", cubo: "estacionar" },
+      { texto: "En una zona de carga y descarga", cubo: "estacionar" },
+      { texto: "En doble fila", cubo: "estacionar" },
+    ],
+    porque: "Donde estorbas o pones en peligro aunque sea un momento (pasos, túneles, carriles reservados) no se puede ni parar. En el vado, la carga y descarga y la doble fila, lo que prohíbe la norma es estacionar.",
+    truco: "Donde está prohibido parar, también lo está estacionar. Al revés no.",
+    fuente: { norma: "RGC", articulo: "94", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a94",
+      cita: "1. Queda prohibido parar: [...] 2. Queda prohibido estacionar en los siguientes casos: a) En todos los descritos en el apartado anterior en los que está prohibida la parada.",
+      comprobar: ["en los túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel»", "b) En pasos a nivel, pasos para ciclistas y pasos para peatones.",
+        "h) En los carriles destinados al uso exclusivo del transporte público urbano", "2. Queda prohibido estacionar en los siguientes casos: a) En todos los descritos en el apartado anterior en los que está prohibida la parada.",
+        "c) En zonas señalizadas para carga y descarga.", "f) Delante de los vados señalizados correctamente.", "g) En doble fila"] },
+  },
+  {
+    id: "clasificar-senales", tipo: "clasificar", materia: 4, titulo: "¿Avisa, prohíbe u obliga?",
+    enunciado: "¿Qué hace cada señal?",
+    cubos: [{ id: "peligro", nombre: "Avisa de un peligro" }, { id: "prohibe", nombre: "Prohíbe" }, { id: "obliga", nombre: "Obliga" }],
+    cartas: [
+      { senal: "P-4", nombre: "Glorieta", cubo: "peligro" },
+      { senal: "R-402", nombre: "Sentido obligatorio en glorieta", cubo: "obliga" },
+      { senal: "P-20a", nombre: "Paso para peatones", cubo: "peligro" },
+      { senal: "R-410", nombre: "Camino reservado y obligatorio para peatones", cubo: "obliga" },
+      { senal: "R-116", nombre: "Entrada prohibida a peatones", cubo: "prohibe" },
+      { senal: "R-114", nombre: "Entrada prohibida a ciclos", cubo: "prohibe" },
+    ],
+    porque: "El mismo dibujo (una glorieta, un peatón) cambia de significado según la señal: avisa de que te acercas, te prohíbe entrar o te obliga a seguir ese camino.",
+    truco: "En estas seis: las triangulares avisan, las redondas con borde rojo prohíben y las redondas azules obligan.",
+    fuente: { norma: "RGC_CATALOGO", articulo: "anexo I, catálogo de señales", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      cita: "P-4 Glorieta: Peligro por la proximidad de una glorieta [...] R-116 Entrada prohibida a peatones: Prohibición de acceso a peatones. [...] R-410: Obligación para los peatones de transitar por el camino a cuya entrada esté situada",
+      catalogo: ["P-4", "R-402", "P-20a", "R-410", "R-116", "R-114"],
+      comprobar: ["Peligro por la proximidad de una glorieta", "Sentido obligatorio en glorieta", "Peligro por la proximidad de uno o varios pasos para peatones",
+        "Obligación para los peatones de transitar por el camino", "Prohibición de acceso a peatones.", "Prohibición de acceso a ciclos."] },
+  },
+  {
+    id: "error-urbanas", tipo: "error", materia: 7, titulo: "Límites en vías urbanas",
+    enunciado: "Una de estas tres cifras está mal. Tócala.",
+    antes: "Límite genérico en vías urbanas:",
+    trozos: ["20 km/h en vías de plataforma única de calzada y acera,", "50 km/h en vías de un único carril por sentido", "y 50 km/h en vías de dos o más carriles por sentido."],
+    malo: 1, parte: "50 km/h", arreglos: ["30 km/h", "40 km/h", "45 km/h"], bueno: "30 km/h",
+    porque: "En las calles de un único carril por sentido, el límite genérico es 30 km/h. Los 50 km/h quedan para las de dos o más carriles por sentido.",
+    truco: "20, 30, 50: plataforma única, un carril por sentido, dos o más carriles por sentido.",
+    fuente: { norma: "RGC", articulo: "50.1", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+      cita: "a) 20 km/h en vías que dispongan de plataforma única de calzada y acera. b) 30 km/h en vías de un único carril por sentido de circulación. c) 50 km/h en vías de dos o más carriles por sentido de circulación.",
+      comprobar: ["a) 20 km/h en vías que dispongan de plataforma única de calzada y acera.", "b) 30 km/h en vías de un único carril por sentido de circulación.", "c) 50 km/h en vías de dos o más carriles por sentido de circulación."] },
+  },
+  {
+    id: "error-stop", tipo: "error", materia: 4, titulo: "La señal de stop",
+    enunciado: "Esta frase tiene una parte falsa. Tócala.",
+    trozos: ["Al llegar a un stop", "tienes que detenerte", "solo si viene alguien."],
+    malo: 2, parte: "solo si viene alguien", arreglos: ["siempre, aunque no venga nadie", "solo si hay línea de detención", "solo si no ves bien el cruce"], bueno: "siempre, aunque no venga nadie",
+    porque: "El stop obliga a todo conductor a detenerse y, después, a ceder el paso. La detención no depende de que venga alguien.",
+    truco: "Ceda el paso: te paras si hace falta. Stop: te paras siempre.",
+    fuente: { norma: "RGC_CATALOGO", articulo: "anexo I, señal R-2", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      cita: "Obligación para todo conductor de detener su vehículo ante la próxima línea de detención o, si no existe, inmediatamente antes de la intersección, y ceder el paso en ella a los vehículos que circulen por la vía a la que se aproxime.",
+      catalogo: ["R-2"] },
+  },
+  {
+    id: "ysi-velocidad", tipo: "ysi", materia: 7, titulo: "Velocidad máxima: turismo, remolque, vía",
+    enunciado: "¿Cuál es la velocidad máxima?",
+    caso: [{ clave: "Vehículo", valor: "Turismo" }, { clave: "Vía", valor: "Carretera convencional" }],
+    opciones: ["80", "90", "100", "120"], unidad: "km/h",
+    pasos: [
+      { respuesta: "90", resumen: "Turismo · convencional" },
+      { pregunta: "¿Y si llevas un remolque?", cambios: { "Vehículo": "Turismo con remolque" }, respuesta: "80", resumen: "Con remolque · convencional" },
+      { pregunta: "¿Y si, con el remolque, entras en una autovía?", cambios: { "Vía": "Autovía" }, respuesta: "90", resumen: "Con remolque · autovía" },
+      { pregunta: "¿Y si dejas el remolque?", cambios: { "Vehículo": "Turismo" }, respuesta: "120", resumen: "Turismo · autovía" },
+    ],
+    porque: "El turismo va a 90 en carretera convencional y a 120 en autopista y autovía. Con remolque baja a 80 y a 90.",
+    truco: "El remolque quita 10 en convencional y 30 en autovía.",
+    fuente: { norma: "RGC", articulo: "48.1.a", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+      cita: "Turismos, motocicletas [...]: autopista y autovía 120, convencional 90 | [...] automóviles con remolque y resto de vehículos: autopista y autovía 90, convencional 80",
+      comprobar: ["automóviles con remolque y resto", "Autopista y 120 90 100 autovía Convencional 90 80 90"] },
+  },
+  {
+    id: "ysi-preferencia", tipo: "ysi", materia: 6, titulo: "Cruce sin señales: ¿paso o cedo?",
+    enunciado: "Llegas a un cruce sin señales a la vez que otro vehículo. ¿Qué haces?",
+    caso: [{ clave: "Viene por", valor: "Tu derecha" }, { clave: "Es", valor: "Un coche" }, { clave: "Su vía", valor: "Asfaltada, como la tuya" }],
+    opciones: ["Cedo el paso", "Paso yo"],
+    pasos: [
+      { respuesta: "Cedo el paso", resumen: "Coche por la derecha" },
+      { pregunta: "¿Y si viene por tu izquierda?", cambios: { "Viene por": "Tu izquierda" }, respuesta: "Paso yo", resumen: "Coche por la izquierda" },
+      { pregunta: "¿Y si lo que viene por la izquierda es un tranvía?", cambios: { "Es": "Un tranvía" }, respuesta: "Cedo el paso", resumen: "Tranvía por la izquierda" },
+      { pregunta: "¿Y si es un coche por tu derecha, pero sale de un camino de tierra?", cambios: { "Viene por": "Tu derecha", "Es": "Un coche", "Su vía": "Camino de tierra" }, respuesta: "Paso yo", resumen: "Coche por la derecha, desde camino de tierra" },
+    ],
+    porque: "Sin señales se cede el paso al que llega por la derecha. Hay excepciones: el que circula por raíles tiene prioridad, y la vía pavimentada tiene preferencia sobre la que no lo está.",
+    truco: "Antes de mirar a la derecha, mira si hay raíles o tierra: mandan más que la derecha.",
+    fuente: { norma: "RGC", articulo: "57.1", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+      cita: "En defecto de señal que regule la preferencia de paso, el conductor está obligado a cederlo a los vehículos que se aproximen por su derecha, salvo en los siguientes supuestos: a) Tendrán derecho de preferencia de paso los vehículos que circulen por una vía pavimentada frente a los procedentes de otra sin pavimentar. b) Los vehículos que circulen por raíles tienen derecho de prioridad de paso sobre los demás usuarios." },
+  },
+  {
+    id: "piensa-chaleco", tipo: "piensa", materia: 11, titulo: "¿Cuándo hay que ponerse el chaleco?", banco: "E-acc-0005",
+    enunciado: "El conductor de un turismo inmovilizado en una carretera interurbana, ¿cuándo debe ponerse el chaleco reflectante de alta visibilidad?",
+    opciones: ["Cuando salga del vehículo y ocupe la calzada o el arcén.", "Solo de noche.", "Solo si va a colocar la señal de peligro a pie."], correcta: 0,
+    porque: "Los conductores de turismos deben usar el chaleco reflectante de alta visibilidad cuando salgan del vehículo y ocupen la calzada o el arcén de las vías interurbanas.",
+    fuente: { norma: "RGC", articulo: "118.4", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      cita: "deberán utilizar un chaleco reflectante de alta visibilidad, de acuerdo con los requisitos de los equipos de protección individual, que figura entre la dotación obligatoria del vehículo, cuando salgan de éste y ocupen la calzada o el arcén de las vías interurbanas." },
+  },
+  {
+    id: "piensa-curva", tipo: "piensa", materia: 14, titulo: "¿Cuándo se frena en una curva?", banco: "E-ent-0001",
+    enunciado: "¿Cuándo se debe reducir la velocidad para tomar una curva?",
+    opciones: ["Antes de entrar en la curva.", "En el centro de la curva.", "A la salida de la curva."], correcta: 0,
+    porque: "Antes de entrar en la curva hay que reducir la velocidad o frenar si es necesario; dentro, no acelerar ni frenar bruscamente, y a la salida aumentar poco a poco.",
+    fuente: { norma: "MANUAL_DGT", articulo: "tema 14, pasos para tomar bien una curva", url: "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
+      cita: "Antes de entrar en la curva debes: ■ Reducir la velocidad o frenar si es necesario." },
+  },
+  {
+    id: "completar-parada", tipo: "completar", materia: 9, titulo: "Qué es una parada",
+    enunciado: "Completa la definición.",
+    texto: "Parada: inmovilización de un vehículo durante un tiempo inferior a {dos minutos}, sin que el conductor pueda {abandonarlo}.",
+    senuelos: ["cinco minutos", "diez minutos", "apagar el motor"],
+    porque: "Para que sea parada tienen que cumplirse las dos cosas: menos de dos minutos y el conductor sin abandonar el vehículo. Si falla una, ya es estacionamiento.",
+    truco: "Parada: dos condiciones y un dos. Menos de 2 minutos y contigo dentro.",
+    fuente: { norma: "LSV", articulo: "anexo I, definición 81", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
+      cita: "Parada. Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo." },
+  },
+  {
+    id: "completar-glorieta", tipo: "completar", materia: 6, titulo: "Preferencia en las glorietas",
+    enunciado: "Completa la regla.",
+    texto: "En las glorietas, los que {se hallen dentro} tienen preferencia de paso sobre los que {pretendan acceder}.",
+    senuelos: ["lleguen por la derecha", "circulen más deprisa"],
+    porque: "En una glorieta no vale la regla de la derecha: tiene preferencia el que ya está dentro de la vía circular.",
+    truco: "Glorieta: manda el de dentro.",
+    fuente: { norma: "RGC", articulo: "57.1.c", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+      cita: "En las glorietas, los que se hallen dentro de la vía circular tendrán preferencia de paso sobre los que pretendan acceder a aquéllas" },
+  },
+];

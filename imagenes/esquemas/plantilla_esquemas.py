@@ -11,12 +11,15 @@ Convenciones de estilo (mantenerlas para que todo se vea coherente):
 - Lienzo cuadrado, viewBox 0 0 400 400, sin width/height fijos.
 - Se circula por la DERECHA. Calzada gris, arcén/entorno verde, marcas blancas.
 - Vehículos vistos desde arriba, con letra: A (rojo, "tu vehículo" por defecto),
-  B (azul), C (amarillo), D (verde). Morro = parte con parabrisas oscuro.
+  B (azul), C (amarillo), D (verde). Morro redondeado con faros y parabrisas grande; detrás, pilotos rojos.
+  Delante del morro, un chevrón del color del vehículo marca el sentido
+  (se quita solo cuando ese vehículo ya lleva flecha de trayectoria).
 - La trayectoria prevista se dibuja como flecha del color del vehículo.
 - Ángulos: 0 = hacia arriba, 90 = hacia la derecha, 180 = abajo, 270 = izquierda.
 - El dibujo muestra la situación; nunca escribe la respuesta.
 """
 import math
+import re
 import os
 
 W = 400
@@ -56,21 +59,56 @@ def via_horizontal(cy=200, carriles=2, x1=0, x2=W, central="discontinua"):
     return els
 
 
-def vehiculo(x, y, angulo, letra, color=None, largo=40, ancho=22):
-    """Turismo visto desde arriba, centrado en (x, y), con el morro hacia `angulo`."""
+def _aclarar(c, k):
+    """Mezcla el color `c` (#rrggbb) con blanco (k > 0) o con negro (k < 0)."""
+    r, g, b = (int(c[i:i + 2], 16) for i in (1, 3, 5))
+    f = (lambda v: v + (255 - v) * k) if k > 0 else (lambda v: v * (1 + k))
+    return "#%02x%02x%02x" % tuple(round(f(v)) for v in (r, g, b))
+
+
+def vehiculo(x, y, angulo, letra, color=None, largo=44, ancho=22, sentido=True):
+    """Turismo visto desde arriba, centrado en (x, y), con el morro hacia `angulo`.
+
+    El sentido de marcha se lee por la forma (morro redondeado con faros
+    blancos, parabrisas grande delante, luna trasera pequeña y pilotos rojos
+    detrás) y por un chevrón del color del vehículo delante del morro.
+    El chevrón se omite solo si ese vehículo ya tiene su flecha de trayectoria
+    (ver `svg`), o con sentido=False.
+    """
     c = color or COLORES.get(letra, "#777")
+    borde, techo = _aclarar(c, -0.45), _aclarar(c, 0.18)
     l, a = largo, ancho
-    return (
-        f'<g transform="translate({x:.1f} {y:.1f}) rotate({angulo:.1f})">'
-        f'<rect x="{-a/2}" y="{-l/2}" width="{a}" height="{l}" rx="6" fill="{c}" '
-        f'stroke="#1b1b1b" stroke-width="1.5"/>'
-        f'<rect x="{-a/2+3}" y="{-l/2+6}" width="{a-6}" height="8" rx="2" fill="#20262e"/>'
-        f'<rect x="{-a/2+3}" y="{l/2-9}" width="{a-6}" height="5" rx="2" fill="#20262e"/>'
-        f'<text x="0" y="5" transform="rotate({-angulo:.1f})" text-anchor="middle" '
-        f'font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" '
-        f'fill="#fff">{letra}</text>'
-        f'</g>'
-    )
+    h, m = l / 2, a / 2
+    # Carrocería: morro más redondeado que la trasera.
+    cuerpo = (f"M{-m},{-h + 9} Q{-m},{-h} {-m + 8},{-h} L{m - 8},{-h} Q{m},{-h} {m},{-h + 9} "
+              f"L{m},{h - 5} Q{m},{h} {m - 5},{h} L{-m + 5},{h} Q{-m},{h} {-m},{h - 5} Z")
+    partes = [
+        f'<path d="{cuerpo}" transform="translate(1.5 2)" fill="#000" opacity=".22"/>',
+        f'<path d="{cuerpo}" fill="{c}" stroke="{borde}" stroke-width="1.4"/>',
+        # techo
+        f'<rect x="{-m + 3.5}" y="{-h + 15}" width="{a - 7}" height="{l - 25}" rx="3" fill="{techo}"/>',
+        # parabrisas (grande, delante) y luna trasera (pequeña, detrás)
+        f'<path d="M{-m + 2.5},{-h + 9.5} Q0,{-h + 6} {m - 2.5},{-h + 9.5} L{m - 4},{-h + 15.5} '
+        f'Q0,{-h + 14} {-m + 4},{-h + 15.5} Z" fill="#1f2630"/>',
+        f'<path d="M{-m + 4},{h - 8.5} Q0,{h - 7.5} {m - 4},{h - 8.5} L{m - 3},{h - 4.5} '
+        f'Q0,{h - 3} {-m + 3},{h - 4.5} Z" fill="#1f2630"/>',
+        # faros delante y pilotos detrás
+        f'<rect x="{-m + 2}" y="{-h + 0.6}" width="6" height="3" rx="1.5" fill="#fff7cf" stroke="{borde}" stroke-width=".6"/>',
+        f'<rect x="{m - 8}" y="{-h + 0.6}" width="6" height="3" rx="1.5" fill="#fff7cf" stroke="{borde}" stroke-width=".6"/>',
+        f'<rect x="{-m + 2}" y="{h - 2.6}" width="5" height="2.2" rx="1.1" fill="#ff3b30"/>',
+        f'<rect x="{m - 7}" y="{h - 2.6}" width="5" height="2.2" rx="1.1" fill="#ff3b30"/>',
+    ]
+    if letra:
+        partes.append(f'<text x="0" y="5.5" transform="translate(0 {(l - 25) / 2 + 15 - h - 2.5:.1f}) rotate({-angulo:.1f})" '
+                      f'text-anchor="middle" font-family="-apple-system, \'Helvetica Neue\', Arial, sans-serif" '
+                      f'font-weight="800" font-size="14" fill="#fff" stroke="{borde}" stroke-width="2.2" '
+                      f'paint-order="stroke">{letra}</text>')
+    if sentido:
+        # Chevrón de sentido delante del morro, con contorno blanco para que se vea sobre el asfalto.
+        d = f"M-7,{-h - 5} L0,{-h - 12} L7,{-h - 5}"
+        partes.append(f'<g class="sentido" data-letra="{letra}" fill="none" stroke-linecap="round" stroke-linejoin="round">'
+                      f'<path d="{d}" stroke="#fff" stroke-width="6.5"/><path d="{d}" stroke="{c}" stroke-width="3.5"/></g>')
+    return f'<g transform="translate({x:.1f} {y:.1f}) rotate({angulo:.1f})">' + "".join(partes) + "</g>"
 
 
 def flecha(d, letra="A", color=None):
@@ -91,6 +129,10 @@ def texto_calzada(x, y, txt, angulo=0, size=16):
 
 
 def svg(titulo, desc, cuerpo):
+    cuerpo = list(cuerpo)
+    con_flecha = {m for e in cuerpo for m in re.findall(r'marker-end="url\(#punta-(\w)\)"', e)}
+    cuerpo = [re.sub(r'<g class="sentido" data-letra="(\w)"[^>]*>.*?</g></g>$',
+                     lambda k: "</g>" if k.group(1) in con_flecha else k.group(0), e) for e in cuerpo]
     marcadores = "".join(
         f'<marker id="punta-{k}" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" '
         f'markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{v}"/></marker>'
@@ -368,7 +410,7 @@ def semaforo_flecha_derecha():
            '<path d="M260,242 L274,252 L260,262 Z" fill="#fff"/>',
            '<path d="M160,330 L160,262" stroke="#fff" stroke-width="7"/>',
            '<path d="M150,264 L160,248 L170,264 Z" fill="#fff"/>',
-           vehiculo(240, 225, 0, "A", color="#9aa0a6")]
+           vehiculo(240, 225, 0, "A", color="#9aa0a6", sentido=False)]  # sin chevrón: pisaría la línea; las flechas pintadas ya dan el sentido
     els += recuadro(300, 200, 92, 128, "semáforo")
     els += semaforo(330, 222, {"rojo": True}, escala=0.9, flecha_verde="derecha")
     return els
@@ -740,7 +782,7 @@ def retencion(carriles):
     colores = ["#9aa0a6", "#c9cdd2", "#7d8389"]
     for i in range(carriles):
         for j, y in enumerate((60, 125, 190, 255, 320)):
-            els.append(vehiculo(x0 + ancho * (i + 0.5), y + (i % 2) * 18, 0, "", color=colores[(i + j) % 3]))
+            els.append(vehiculo(x0 + ancho * (i + 0.5), y + (i % 2) * 18, 0, "", color=colores[(i + j) % 3], sentido=(j == 0)))
     return els
 
 

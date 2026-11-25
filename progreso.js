@@ -208,7 +208,9 @@
         detalle: peor ? `La más floja es la ${peor[0]}, con un ${Math.floor(peor[1].dominio * 100)} %` : "",
         avance: peor ? Math.min(1, peor[1].dominio / CRITERIOS.dominioMateria) : 0, cumple: !!peor && peor[1].dominio >= CRITERIOS.dominioMateria, materia: peor ? +peor[0] : null },
       { id: "repaso", texto: "Tener al día el repaso de fallos", detalle: hoy ? `Te quedan ${hoy} por repasar hoy` : "Sin repasos pendientes",
-        avance: hoy ? 0 : 1, cumple: hoy === 0 },
+        // Tener el repaso al día solo suma en la medida en que ya se ha aprendido algo: si no, con el progreso
+        // recién borrado o tras unas pocas preguntas la preparación marcaría ya un 25 %.
+        avance: hoy ? 0 : Math.min(1, g.dominio / CRITERIOS.dominioGlobal), cumple: hoy === 0 },
     ];
     const avance = criterios.reduce((s, c) => s + c.avance, 0) / criterios.length;
     return { lista: criterios.every(c => c.cumple), avance, criterios, global: g, materias: mats };

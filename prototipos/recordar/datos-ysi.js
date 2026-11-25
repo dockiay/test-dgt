@@ -294,7 +294,7 @@
     truco: "La moto te libra del cruce, pero no del paso a nivel.",
     fuente: { norma: "RGC", articulo: "87.1.b y c", url: RGC + "#a87",
       cita: "b) En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades. c) En las intersecciones y en sus proximidades, salvo cuando: 1.º Se trate de una plaza de circulación giratoria o glorieta. 2.º El adelantamiento deba efectuarse por la derecha, según lo previsto en el artículo 82.2. 3.º La calzada en que se realice goce de prioridad en la intersección y haya señal expresa que lo indique. 4.º El adelantamiento se realice a vehículos de dos ruedas (artículo 36.3 del texto articulado)." },
-    de: ["x1a-0127", "v2-adel-0004", "v5b-adel-0004", "x1a-0126", "x1a-0128"],
+    de: ["v5b-adel-0004"],
   },
   {
     id: "ysi-prioritarios", tipo: "ysi", materia: 1, titulo: "¿Es un vehículo prioritario?",

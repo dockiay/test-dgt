@@ -130,7 +130,7 @@ window.EJERCICIOS_RECORDAR = [
     senuelos: ["cinco minutos", "diez minutos", "apagar el motor"],
     porque: "Para que sea parada tienen que cumplirse las dos cosas: menos de dos minutos y el conductor sin abandonar el vehículo. Si falla una, ya es estacionamiento.",
     truco: "Parada: dos condiciones y un dos. Menos de 2 minutos y contigo dentro.",
-    fuente: { norma: "LSV", articulo: "anexo I, definición 81", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ai",
+    fuente: { norma: "LSV", articulo: "anexo I, definición 81", url: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ani",
       cita: "Parada. Inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo." },
   },
   {

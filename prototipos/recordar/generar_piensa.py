@@ -61,11 +61,12 @@ def usados(ramas):
     """Ids del banco que ya usan otros ejercicios (los generados por este script no cuentan)."""
     ficheros, tmp = [], os.path.join(AQUI, ".ramas-tmp")
     for carpeta in ("prototipos/recordar", "prototipos/ejercicios"):
-        ficheros += sorted(glob.glob(os.path.join(RAIZ, carpeta, "datos*.js")))
+        # datos.js primero: define el array que los datos-*.js amplían con push
+        ficheros += sorted(glob.glob(os.path.join(RAIZ, carpeta, "datos*.js")), key=lambda f: (not f.endswith("/datos.js"), f))
     os.makedirs(tmp, exist_ok=True)
     for rama in ramas:
-        lista = subprocess.run(["git", "-C", RAIZ, "ls-tree", "-r", "--name-only", rama, "prototipos/recordar", "prototipos/ejercicios"],
-                               capture_output=True, text=True, check=True).stdout.split()
+        lista = sorted(subprocess.run(["git", "-C", RAIZ, "ls-tree", "-r", "--name-only", rama, "prototipos/recordar", "prototipos/ejercicios"],
+                               capture_output=True, text=True, check=True).stdout.split(), key=lambda r: (not r.endswith("/datos.js"), r))
         for ruta in lista:
             if re.search(r"/datos[^/]*\.js$", ruta):
                 destino = os.path.join(tmp, rama.replace("/", "_") + "__" + ruta.replace("/", "_"))

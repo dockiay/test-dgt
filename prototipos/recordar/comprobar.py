@@ -10,7 +10,9 @@ import glob, json, os, re, subprocess, sys
 AQUI = os.path.dirname(os.path.abspath(__file__)); RAIZ = os.path.join(AQUI, "..", "..")
 TXT = sys.argv[1] if len(sys.argv) > 1 else "/mnt/project-files/fuentes/txt/"
 FICHEROS = {"RGC": ["rgc_full.txt", "rgc_full_layout.txt"], "RGC_CATALOGO": ["catalogo_ocr.txt"],
-            "MANUAL_DGT": ["manual_dgt.txt", "manual_dgt_layout.txt"], "LSV": ["l.txt", "l_layout.txt"]}
+            "MANUAL_DGT": ["manual_dgt.txt", "manual_dgt_layout.txt"], "LSV": ["l.txt", "l_layout.txt"],
+            "RGCOND": ["rgcond.txt", "rgcond_layout.txt"], "RGV": ["rgv.txt", "rgv_layout.txt"], "CP": ["cp.txt", "cp_layout.txt"],
+            "ITV": ["itv.txt", "itv_layout.txt"], "LRCSCVM": ["lrcscvm.txt", "lrcscvm_layout.txt"], "OCURSOS": ["ocursos.txt", "ocursos_layout.txt"], "RSO": ["rso.txt", "rso_layout.txt"]}
 norm = lambda t: re.sub(r"\s+", " ", t).strip()
 
 DATOS = [os.path.join(AQUI, "datos.js")] + sorted(glob.glob(os.path.join(AQUI, "datos-*.js")))

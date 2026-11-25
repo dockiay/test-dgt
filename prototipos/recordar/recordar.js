@@ -332,7 +332,9 @@
   }
 
   const CREAR = { clasificar, error, ysi, piensa, completar };
-  const NORMA = { RGC: "Reglamento General de Circulación", RGC_CATALOGO: "Reglamento General de Circulación", LSV: "Ley de Tráfico", MANUAL_DGT: "Manual de la DGT" };
+  const NORMA = { RGC: "Reglamento General de Circulación", RGC_CATALOGO: "Reglamento General de Circulación", LSV: "Ley de Tráfico", MANUAL_DGT: "Manual de la DGT",
+    RGCOND: "Reglamento General de Conductores", RGV: "Reglamento General de Vehículos", CP: "Código Penal", ITV: "Reglamento de ITV",
+    LRCSCVM: "Ley del seguro obligatorio", OCURSOS: "Orden de cursos de recuperación de puntos", RSO: "Reglamento del seguro obligatorio" };
 
   // Explicación corta como la de la web: veredicto, porqué, truco y enlace a la referencia (sin cita larga).
   function explicacion(ej, r) {

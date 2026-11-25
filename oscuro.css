@@ -39,4 +39,14 @@
   /* ---- Hojas ---- */
   :root:not([data-theme="light"]) dialog.hoja { background: var(--elevada); }
   :root:not([data-theme="light"]) dialog.hoja::backdrop { background: rgba(0, 0, 0, .62); }
+
+  /* ---- Ejercicios del camino ---- */
+  /* Esquemas de «Toca en la imagen» (SVG en línea): el mismo escenario oscuro que tools/oscuro_esquemas.py. */
+  :root:not([data-theme="light"]) .ej-lienzo svg [fill="#cfe0b8"] { fill: #3d5233; }
+  :root:not([data-theme="light"]) .ej-lienzo svg [fill="#b9c7a5"] { fill: #344828; }
+  :root:not([data-theme="light"]) .ej-lienzo svg [fill="#5f646b"] { fill: #3a3f47; }
+  :root:not([data-theme="light"]) .ej-lienzo svg [stroke="#5f646b"] { stroke: #3a3f47; }
+  /* Cartas y fichas con señal: la misma placa clara que en las preguntas, en vez de blanco puro. */
+  :root:not([data-theme="light"]) .emp-item.con-senal, :root:not([data-theme="light"]) .cl-carta.con-senal, :root:not([data-theme="light"]) .cl-grupo li img { background: #f1f3f8; }
+  :root:not([data-theme="light"]) .emp-item.con-senal[aria-pressed="true"] { background: #dfe8ff; }
 }

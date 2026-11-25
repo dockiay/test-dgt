@@ -1,7 +1,7 @@
 /* Portada. Una sola acción principal (continuar el test a medias o, si no lo hay, el paso que toca del
    camino), «Estudiar hoy» justo debajo, y lo demás recogido: racha, objetivo y fecha de examen
    en una tira de estado; el resto de la práctica en teselas; el progreso en dos filas.
-   Las extensiones siguen añadiendo bloques con App.inicioExtra ("arriba", "practicar", "abajo"). */
+   Las extensiones siguen añadiendo bloques con App.inicioExtra ("destacado", "arriba", "practicar", "abajo"; "destacado" va bajo el saludo, para lo que no puede esperar). */
 (function () {
   "use strict";
   const A = window.App, P = window.Progreso;
@@ -169,6 +169,7 @@
     A.pantalla({ titulo: "Test permiso B" },
       saludo(r, !!continuar),
       tiraEstado(r),
+      A.extrasInicio("destacado"),
       h("div", { class: "inicio" },
         h("div", { class: "inicio-principal" }, continuar || camino || tarjetaHoy(r, true), continuar ? camino : null,
           continuar ? filaHoy() : camino ? tarjetaHoy(r, false) : null, A.extrasInicio("arriba")),

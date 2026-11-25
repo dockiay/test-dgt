@@ -413,6 +413,7 @@ textarea.lista { display: block; width: 100%; min-height: 150px; font: .8125rem/
 
 /* ---- compañero de estudio (companero.js) ---- */
 .bloque-companero { display: grid; gap: 12px; margin-top: 16px; }
+.animos-destacados { margin: 12px 0 2px; }
 .animo-recibido { display: grid; gap: 10px; border-color: var(--rojo-suave); box-shadow: 0 var(--relieve) 0 var(--rojo-suave); }
 .animo-cabecera { display: flex; align-items: center; gap: 10px; font-weight: 700; }
 .animo-cabecera .tesela { flex: none; }

@@ -162,6 +162,7 @@
       if (cargaActual === carga) {
         est.cargando = false;
         repintar();
+        avisarNuevos();
       }
     }
   }
@@ -305,11 +306,32 @@
       a.leido ? null : h("button", { class: "boton verde", onclick: () => { if (window.Animo) { window.Animo.sonar("meta"); window.Animo.confeti(60); } marcarLeido(a); } }, "¡Gracias!"));
   }
 
-  // Bloque para la portada: ánimos sin leer (para quien estudia) y acceso al progreso compartido.
-  function bloqueInicio() {
+  // Ánimos sin leer: lo primero de la portada, bajo el saludo, para que se vean nada más abrir.
+  function bloqueAnimos() {
     if (!conexion()) return null;
     const nuevos = est.recibidos.filter(a => !a.leido);
-    const partes = nuevos.slice(0, 3).map(tarjetaAnimo);
+    return nuevos.length ? h("div", { class: "bloque-companero animos-destacados" }, nuevos.slice(0, 3).map(tarjetaAnimo)) : null;
+  }
+  // Aviso al llegar un ánimo nuevo (una vez por mensaje y dispositivo), si está en la portada.
+  const AVISADOS = "testB.animosAvisados";
+  function avisarNuevos() {
+    const nuevos = est.recibidos.filter(a => !a.leido);
+    if (!nuevos.length || !window.Animo) return;
+    let vistos = [];
+    try { vistos = JSON.parse(localStorage.getItem(AVISADOS)) || []; } catch (e) { vistos = []; }
+    const sinAvisar = nuevos.filter(a => !vistos.includes(a.id));
+    if (!sinAvisar.length) return;
+    const s = (location.hash || "#/").slice(2).split("/")[0] || "inicio";
+    if (s !== "inicio" || A.sesion) return; // se avisará cuando vuelva a la portada
+    try { localStorage.setItem(AVISADOS, JSON.stringify(nuevos.map(a => a.id).concat(vistos).slice(0, 50))); } catch (e) { /* sin almacenamiento */ }
+    const de = [...new Set(sinAvisar.map(a => a.deNombre))];
+    window.Animo.sonar("meta"); window.Animo.vibrar(40);
+    window.Animo.aviso(de.length === 1 ? `💌 ${de[0]} te manda ánimos` : "💌 Tienes ánimos nuevos", "meta");
+  }
+  // Bloque para la portada: acceso al progreso que otros comparten contigo.
+  function bloqueInicio() {
+    if (!conexion()) return null;
+    const partes = [];
     if (est.conmigo.length) partes.push(grupo("con-icono", est.conmigo.map(p => {
       const r = p.resumen || {};
       return fila({ icono: "corazon", color: "rojo", titulo: `Progreso de ${p.nombre}`,
@@ -397,8 +419,10 @@
   }
 
   A.ruta("companero", pantallaCompanero);
+  A.inicioExtra(bloqueAnimos, "destacado");
   A.inicioExtra(bloqueInicio, "arriba");
   A.lateralExtra({ id: "companero", href: "#/companero", icono: "corazon", color: "rojo", texto: "Compañero",
     cuenta: () => { const n = est.recibidos.filter(a => !a.leido).length; return n ? String(n) : null; } });
+  window.addEventListener("hashchange", () => setTimeout(avisarNuevos, 300));
   window.Companero = { estado: est, cargar, construirResumen };
 })();

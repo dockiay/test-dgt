@@ -988,7 +988,7 @@
 
   // ---------- Rutas ----------
   let sesion = null;
-  const RUTAS = {}, INICIO = { arriba: [], practicar: [], abajo: [] }, LATERAL = [], ALFALLAR = [];
+  const RUTAS = {}, INICIO = { destacado: [], arriba: [], practicar: [], abajo: [] }, LATERAL = [], ALFALLAR = [];
   function extrasInicio(lugar) {
     return INICIO[lugar].map(fn => { try { return fn(); } catch (e) { console.error(e); return null; } });
   }

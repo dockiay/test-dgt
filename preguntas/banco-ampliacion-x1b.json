@@ -57,8 +57,17 @@
         "ref": "RGC art. 91",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/estacionado-isleta.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Intersección en T con una isleta que separa el ramal de giro a la derecha. El turismo A está estacionado encima de la isleta.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Intersección en T con una isleta que separa el ramal de giro a la derecha. El turismo A está estacionado encima de la isleta."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -274,8 +283,17 @@
         "ref": "RGC art. 94",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/parado-tapa-senal.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Carretera de doble sentido. El vehículo A está parado junto al borde derecho, justo delante de una señal vertical; el vehículo B viene detrás y la línea de puntos muestra que A le tapa la señal.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Carretera de doble sentido. El vehículo A está parado junto al borde derecho, justo delante de una señal vertical; el vehículo B viene detrás y la línea de puntos muestra que A le tapa la señal."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1049,8 +1067,17 @@
         "ref": "RGC art. 133",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/flecha-y-conos.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de dos carriles. En el carril derecho, por el que circula A, hay una flecha pintada de seguir de frente; más adelante, una hilera de conos cierra ese carril.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de dos carriles. En el carril derecho, por el que circula A, hay una flecha pintada de seguir de frente; más adelante, una hilera de conos cierra ese carril."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

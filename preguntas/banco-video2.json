@@ -394,11 +394,21 @@
         "ref": "RGC art. 87.1.b",
         "minuto": null
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/interseccion-via-ciclista.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Carretera de doble sentido que cruza una vía ciclista por un paso para ciclistas. Por la vía ciclista se acerca un ciclista. El vehículo A circula detrás del B.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
-      "materia": 1
+      "materia": 1,
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Carretera de doble sentido que cruza una vía ciclista por un paso para ciclistas. Por la vía ciclista se acerca un ciclista. El vehículo A circula detrás del B."
+      }
     },
     {
       "id": "v2-nieve-0001",
@@ -424,11 +434,21 @@
         "ref": "video2",
         "minuto": "4:16"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/autovia-nieve-tres-carriles.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, con nieve en la calzada y en los bordes y nevando. Junto a la vía, la señal de cadenas para nieve.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
-      "materia": 6
+      "materia": 6,
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de autovía con tres carriles en el mismo sentido, con nieve en la calzada y en los bordes y nevando. Junto a la vía, la señal de cadenas para nieve."
+      }
     },
     {
       "id": "v2-par-0001",

@@ -99,7 +99,7 @@
       "imagen": {
         "src": "img/esquemas/cruce-camino-sin-pavimentar.svg",
         "alt": "Esquema de la pregunta",
-        "alt_detalle": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar.",
+        "alt_detalle": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. Los dos quieren seguir recto.",
         "credito": "Esquema propio del proyecto"
       },
       "estado": "verificada",
@@ -109,7 +109,7 @@
       "imagen_requerida": {
         "tipo": "esquema",
         "codigo": null,
-        "descripcion": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar."
+        "descripcion": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. Los dos quieren seguir recto."
       }
     },
     {
@@ -216,12 +216,21 @@
         "ref": "RGC art. 57.1.d",
         "minuto": null
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/incorporacion-autopista.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Autopista de dos carriles. El vehículo A circula por el carril derecho a la altura del carril de aceleración; el vehículo B se incorpora por el carril de aceleración. El carril izquierdo está libre.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Autopista de dos carriles. El vehículo A circula por el carril derecho a la altura del carril de aceleración; el vehículo B se incorpora por el carril de aceleración. El carril izquierdo está libre."
+      }
     },
     {
       "id": "A-pri-0006",
@@ -442,12 +451,21 @@
         "ref": "video1",
         "minuto": "1:24:32"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/peatones-entre-autobus-y-acera.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle con una parada de autobús señalizada. El autobús (B) está detenido en la parada, algo separado de la acera, y dos peatones que acaban de bajar están entre el autobús y la acera.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 8,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle con una parada de autobús señalizada. El autobús (B) está detenido en la parada, algo separado de la acera, y dos peatones que acaban de bajar están entre el autobús y la acera."
+      }
     },
     {
       "id": "A-pea-0004",
@@ -1182,12 +1200,21 @@
         "ref": "video1",
         "minuto": "1:35:22"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/intermitente-derecho-y-brazo.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde detrás de un turismo (B): tiene encendido el intermitente derecho y su conductor saca el brazo izquierdo por la ventanilla, extendido horizontalmente.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde detrás de un turismo (B): tiene encendido el intermitente derecho y su conductor saca el brazo izquierdo por la ventanilla, extendido horizontalmente."
+      }
     },
     {
       "id": "A-adv-0002",
@@ -1213,12 +1240,21 @@
         "ref": "video1",
         "minuto": "1:34:17"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/brazo-doblado-hacia-arriba.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde detrás de un turismo: su conductor saca el brazo izquierdo por la ventanilla, doblado hacia arriba y con la palma de la mano extendida.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde detrás de un turismo: su conductor saca el brazo izquierdo por la ventanilla, doblado hacia arriba y con la palma de la mano extendida."
+      }
     },
     {
       "id": "A-adv-0003",
@@ -1966,12 +2002,21 @@
         "ref": "video1",
         "minuto": "1:42:34"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/tranvia-zona-central.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle de doble sentido con las vías del tranvía en el centro de la calzada. Un tranvía circula por la zona central hacia la derecha; el vehículo A va detrás, por el carril de la derecha; el B circula en sentido contrario.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "El vídeo lo generaliza a «un vehículo que va por raíles»; la norma lo concreta en tranvías que marchan por la zona central en vías de doble sentido.",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle de doble sentido con las vías del tranvía en el centro de la calzada. Un tranvía circula por la zona central hacia la derecha; el vehículo A va detrás, por el carril de la derecha; el B circula en sentido contrario."
+      }
     },
     {
       "id": "A-adel-0012",
@@ -2059,12 +2104,21 @@
         "ref": "video1",
         "minuto": "1:46:26"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/tunel-un-carril-por-sentido.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Carretera con un carril para cada sentido que entra en un túnel, con la señal de túnel en la entrada. El vehículo A circula detrás del B y se acercan a la boca del túnel.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Carretera con un carril para cada sentido que entra en un túnel, con la señal de túnel en la entrada. El vehículo A circula detrás del B y se acercan a la boca del túnel."
+      }
     },
     {
       "id": "A-adel-0015",
@@ -2564,12 +2618,21 @@
         "ref": "video1",
         "minuto": "1:51:40"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/calle-sin-salida-estrecha.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle muy estrecha entre edificios que termina en un edificio, sin salida. El vehículo A ha entrado y está cerca del final.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle muy estrecha entre edificios que termina en un edificio, sin salida. El vehículo A ha entrado y está cerca del final."
+      }
     },
     {
       "id": "A-ma-0003",
@@ -3118,12 +3181,21 @@
         "ref": "video1",
         "minuto": "2:00:19"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/calle-sentido-unico.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle urbana de sentido único, con flechas pintadas hacia arriba, aceras a los dos lados y la señal de sentido único. El vehículo A circula por ella.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle urbana de sentido único, con flechas pintadas hacia arriba, aceras a los dos lados y la señal de sentido único. El vehículo A circula por ella."
+      }
     },
     {
       "id": "A-par-0017",

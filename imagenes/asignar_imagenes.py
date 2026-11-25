@@ -25,7 +25,13 @@ def main():
     spec = importlib.util.spec_from_file_location("plantilla", os.path.join(RAIZ, "imagenes", "esquemas", "plantilla_esquemas.py"))
     plantilla = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(plantilla)
-    for fichero, titulo, desc, _ in plantilla.ESQUEMAS:
+    esquemas = list(plantilla.ESQUEMAS)
+    # tandas en su propio fichero (no reescriben los SVG antiguos)
+    import sys as _sys
+    _sys.path.insert(0, os.path.join(RAIZ, "imagenes", "esquemas"))
+    import esquemas_tanda4
+    esquemas += esquemas_tanda4.ESQUEMAS_TANDA4
+    for fichero, titulo, desc, _ in esquemas:
         indice.setdefault(f"img/esquemas/{fichero}", {"tipo": "esquema", "alt": desc, "credito": "Esquema propio del proyecto"})
 
     por_id = {e["id"]: e for e in lista["preguntas"]}

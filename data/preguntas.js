@@ -1,6 +1,6 @@
 // Generado por tools/build_data.py. No editar a mano.
 window.BANCO = {
- "generado": "2026-11-24",
+ "generado": "2026-11-25",
  "normativa": {
   "RGC": {
    "ref": "BOE-A-2003-23514",
@@ -82,7 +82,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/curva-sin-marcas.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Carretera de doble sentido sin marcas viales que gira a la derecha; los árboles del interior de la curva tapan la vista. El vehículo A se acerca a la curva.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "En curvas y cambios de rasante de poca visibilidad no ves lo que viene de frente, así que debes dejar completamente libre la mitad del sentido contrario. La norma lo exige aunque no haya marcas que la delimiten.",
@@ -289,7 +294,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/autovia-dos-carriles.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de autovía con dos carriles en el mismo sentido, separados por una línea discontinua, con flechas de frente. A la izquierda, la mediana con barrera; a la derecha, el arcén.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Fuera de poblado, con varios carriles en tu sentido, se circula normalmente por el de la derecha. Los demás se pueden usar cuando el tráfico o la vía lo aconsejen, siempre que no entorpezcas a quien viene detrás.",
@@ -350,7 +360,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/autovia-tres-carriles-vao.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido. El de la izquierda está reservado a vehículos con alta ocupación: lleva un rombo y la inscripción VAO, y lo separa una línea continua. Junto a la vía, la señal de carril VAO.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Para aplicar las normas sobre uso de carriles no se cuentan los reservados a determinados vehículos o maniobras, y el carril VAO es uno de ellos. De tres carriles quedan dos.",
@@ -551,7 +566,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/via-tres-calzadas.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vía dividida en tres calzadas separadas por medianas. La calzada de la izquierda lleva flechas hacia abajo y la de la derecha, hacia arriba; la central no lleva flechas.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Si la vía tiene tres calzadas, las laterales son para un solo sentido, y la central puede ser de doble sentido o de sentido único, permanente o temporal. Lo que valga en cada momento lo dicen las señales.",
@@ -3408,7 +3428,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/salida-carril-deceleracion.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Autovía de dos carriles con una salida por la derecha precedida de un carril de deceleración. El vehículo A circula por el carril izquierdo, todavía lejos de la salida.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Para salir de una autovía hay que prepararse con tiempo: ir con suficiente antelación por el carril más próximo a la salida y entrar lo antes posible en el carril de deceleración. Así la reducción de velocidad se hace fuera de los carriles por los que sigue el resto del tráfico.",
@@ -4351,7 +4376,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/glorieta-dos-carriles.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Glorieta con dos carriles en el anillo. El vehículo A circula por el anillo, por el carril exterior, detrás del vehículo B.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La regla general es que no se adelanta en las intersecciones ni en sus proximidades, pero la norma prevé cuatro excepciones y la glorieta es una de ellas. En una glorieta con dos carriles puedes adelantar, cumpliendo las demás normas del adelantamiento.",
@@ -4748,7 +4778,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/estacionado-isleta.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Intersección en T con una isleta que separa el ramal de giro a la derecha. El turismo A está estacionado encima de la isleta.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Las medianas, separadores, isletas y demás elementos que canalizan el tráfico están para ordenar los movimientos, no para dejar vehículos. Parar o estacionar sobre ellos figura en la lista de lugares peligrosos o que obstaculizan gravemente la circulación.",
@@ -4996,7 +5031,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/parado-tapa-senal.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Carretera de doble sentido. El vehículo A está parado junto al borde derecho, justo delante de una señal vertical; el vehículo B viene detrás y la línea de puntos muestra que A le tapa la señal.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Una señal que nadie ve no sirve. Por eso está prohibido parar, y por tanto también estacionar, en los lugares donde tapes la señalización a los usuarios a quienes afecta u obliga a hacer maniobras.",
@@ -5887,7 +5927,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/flecha-y-conos.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de dos carriles. En el carril derecho, por el que circula A, hay una flecha pintada de seguir de frente; más adelante, una hilera de conos cierra ese carril.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La flecha pintada es una marca vial y los conos son balizamiento circunstancial. En el orden de preferencia, la señalización y el balizamiento circunstancial están por encima de las marcas viales, que son las últimas. Mandan los conos.",
@@ -16151,7 +16196,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/calzada-ancha-sin-marcas.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de doble sentido sin ninguna marca vial longitudinal, con anchura para dos filas de turismos en cada sentido. El vehículo A sube junto al borde derecho; el B baja junto al otro borde.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El carril se define por su anchura, no por la pintura: es una banda longitudinal de la calzada, delimitada o no por marcas viales, que permite circular a una fila de automóviles que no sean motocicletas. Por eso una calzada sin marcas puede tener carriles.",
@@ -16403,7 +16453,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/glorieta-partida.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Intersección con un anillo y una isleta central, pero la vía que llega de abajo atraviesa la isleta central y sigue recta hacia arriba. El vehículo A llega por esa vía.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Lo esencial de una glorieta es que el tráfico rodea la isleta central por el anillo. En la glorieta partida, dos tramos se conectan directamente a través de la isleta y el tráfico pasa de uno a otro sin rodearla, así que la Ley dice que no es una glorieta propiamente dicha.",
@@ -17028,7 +17083,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/plataforma-unica.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle en la que la calzada y la acera están al mismo nivel, sin bordillo, separadas solo por un cambio de pavimento y bolardos. Hay peatones andando, uno en la zona central, y el vehículo A circula por ella.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La zona con plataforma única de calzada y acera está diseñada para favorecer el tránsito peatonal. En ella el peatón tiene prioridad de paso en cualquier punto de la calzada, no solo en lugares concretos.",
@@ -17488,7 +17548,12 @@ window.BANCO = {
     "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/ida-y-vuelta.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Carretera con un carril para cada sentido. El vehículo A circula hacia la derecha por el carril de abajo; el B, hacia la izquierda por el de arriba.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La dirección es la línea que une dos lugares, en este caso la carretera; el sentido es cada una de las dos posibilidades, ida o vuelta, para recorrerla. Los dos coches van por la misma carretera, así que comparten la dirección, pero uno va de ida y otro de vuelta.",
@@ -18765,7 +18830,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/tunel-dos-carriles-mismo-sentido.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Túnel con circulación en ambos sentidos: dos carriles hacia la derecha, separados por una línea discontinua, y uno hacia la izquierda, separado por una línea continua. El vehículo A circula detrás del B por el carril derecho; el C, en sentido contrario.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La regla en túneles y pasos inferiores de doble sentido es que no se adelanta. La excepción es justo este caso: si hay más de un carril para tu sentido, puedes adelantar, pero siempre dentro de tus carriles, sin invadir el sentido contrario.",
@@ -19593,7 +19663,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/ciclista-descenso-curvas.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Carretera convencional con curvas que baja con fuerte pendiente, con la señal de bajada con fuerte pendiente. Un ciclista circula por el arcén.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La regla general es que el ciclista va por el arcén si es transitable. Pero en los descensos prolongados con curvas, si la seguridad lo permite, puede dejarlo y circular por la parte derecha de la calzada que necesite. La excepción no vale en autovías.",
@@ -20816,7 +20891,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/autovia-tres-carriles-caravana.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un turismo con una caravana enganchada (A).",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Fuera de poblado, en calzadas con tres o más carriles en tu sentido, los conjuntos de más de 7 metros (como turismo con caravana de 9 metros) circulan normalmente por el carril de la derecha y pueden usar el inmediato cuando el tráfico o la vía lo aconsejen, sin entorpecer a quien venga detrás.",
@@ -26856,7 +26936,12 @@ window.BANCO = {
     "cita": "si disponen de un solo carril en su sentido de circulación, lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/carril-habilitado-un-carril.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada en la que un carril se ha habilitado en sentido contrario al habitual y está separado con conos. Por él baja el vehículo B; por el carril de la izquierda baja el C. En el sentido del vehículo A solo queda su carril, contiguo al habilitado.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Para el carril contiguo al habilitado en sentido contrario, la velocidad depende de cuántos carriles te queden en tu sentido. Si solo te queda uno, tienes la misma horquilla que el carril habilitado: entre 60 y 80 km/h, salvo señal de otra inferior, y con luz de cruce.",
@@ -26899,7 +26984,12 @@ window.BANCO = {
     "cita": "si disponen de más de un carril en su sentido de circulación, lo harán a las velocidades que se establecen en los artículos 48.1.a).1.ª y 2.a, 49 y 50",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/carril-habilitado-dos-carriles.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada en la que un carril se ha habilitado en sentido contrario al habitual y está separado con conos. Por él baja el vehículo B; por el carril de la izquierda baja el C. En el sentido del vehículo A quedan dos carriles; A va por el contiguo al habilitado.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Para el carril contiguo al habilitado en sentido contrario, la norma distingue: con un solo carril en tu sentido, entre 60 y 80 km/h; con más de uno, las velocidades genéricas de la vía. Con dos carriles estás en el segundo caso. La luz de cruce, eso sí, es obligatoria en los dos.",
@@ -29552,7 +29642,12 @@ window.BANCO = {
     "cita": "No adelantar a otros vehículos si vienen ciclistas en sentido contrario.",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/ciclistas-de-frente.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Carretera de doble sentido con un carril para cada sentido. El vehículo A circula detrás de un camión (B); por el carril contrario se acercan dos ciclistas.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Para adelantar tienes que ocupar el carril contrario, justo por donde viene el ciclista, que es más frágil y se ve peor que otros vehículos. Por eso la DGT recomienda no adelantar a otros vehículos mientras vengan ciclistas de frente.",
@@ -32483,7 +32578,12 @@ window.BANCO = {
     "cita": "estará prohibido adelantar y será obligatorio circular por el carril situado más a la derecha",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/autovia-nieve-dos-carriles.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de autopista con dos carriles en el mismo sentido, con nieve en la calzada y en los bordes y nevando. Junto a la vía, la señal de cadenas para nieve.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Cuando la nieve dificulta la circulación en autopistas y autovías, hay que dejar los carriles de la izquierda libres para los vehículos de emergencia y los quitanieves. Por eso se prohíbe adelantar y es obligatorio ir por el carril más a la derecha; con tres o más carriles por sentido también se puede usar su contiguo.",
@@ -32520,7 +32620,12 @@ window.BANCO = {
     "cita": "circularán normalmente por el situado más a la derecha, y podrán utilizar el inmediato",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/autovia-tres-carriles-camion.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un camión (A).",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Fuera de poblado, con tres o más carriles en tu sentido, los camiones y furgones de más de 3.500 kg de MMA, los vehículos especiales no obligados a ir por el arcén y los conjuntos de más de 7 metros circulan normalmente por el carril derecho y pueden usar el inmediato, pero no los demás.",
@@ -34104,7 +34209,7 @@ window.BANCO = {
    "imagen": {
     "src": "img/esquemas/cruce-camino-sin-pavimentar.svg",
     "alt": "Esquema de la pregunta",
-    "alt_detalle": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar.",
+    "alt_detalle": "Cruce sin señales. El vehículo A circula hacia arriba por una vía pavimentada; por su derecha llega el vehículo B desde un camino de tierra sin pavimentar. Los dos quieren seguir recto.",
     "credito": "Esquema propio del proyecto"
    },
    "verificado_el": "2026-11-24",
@@ -34235,7 +34340,12 @@ window.BANCO = {
     "cita": "Los vehículos que circulen por una autopista o autovía tendrán preferencia de paso sobre los que pretenden acceder a aquélla.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/incorporacion-autopista.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Autopista de dos carriles. El vehículo A circula por el carril derecho a la altura del carril de aceleración; el vehículo B se incorpora por el carril de aceleración. El carril izquierdo está libre.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Otra de las excepciones a la regla de la derecha: quien ya circula por una autopista o autovía tiene preferencia sobre quien pretende entrar en ella. El que accede tiene que esperar a tener hueco, venga por el lado que venga.",
@@ -34517,7 +34627,12 @@ window.BANCO = {
     "cita": "Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/peatones-entre-autobus-y-acera.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle con una parada de autobús señalizada. El autobús (B) está detenido en la parada, algo separado de la acera, y dos peatones que acaban de bajar están entre el autobús y la acera.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Los peatones que van a subir o acaban de bajar de un autobús en una parada señalizada tienen prioridad mientras están entre el vehículo y la zona peatonal o el refugio más próximo.",
@@ -35450,7 +35565,12 @@ window.BANCO = {
     "cita": "y anularán cualquier otra indicación óptica que las contradiga.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/intermitente-derecho-y-brazo.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde detrás de un turismo (B): tiene encendido el intermitente derecho y su conductor saca el brazo izquierdo por la ventanilla, extendido horizontalmente.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Como norma general las maniobras se avisan con las luces del vehículo, pero si el conductor hace con el brazo una señal que se ve bien y está hecha como manda el reglamento, esa señal anula cualquier otra indicación óptica que la contradiga. Por eso aquí vale el brazo, no el intermitente.",
@@ -35488,7 +35608,12 @@ window.BANCO = {
     "cita": "o doblado hacia arriba, también con la palma de la mano extendida, si va a ser hacia el contrario.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/brazo-doblado-hacia-arriba.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde detrás de un turismo: su conductor saca el brazo izquierdo por la ventanilla, doblado hacia arriba y con la palma de la mano extendida.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Con el brazo, la regla es: horizontal y con la palma hacia abajo, el desplazamiento es hacia el lado al que apunta la mano; doblado hacia arriba, hacia el lado contrario. El conductor de un turismo saca el brazo izquierdo, así que doblado hacia arriba indica que se va a desplazar a la derecha.",
@@ -36437,7 +36562,12 @@ window.BANCO = {
     "cita": "en las vías con circulación en ambos sentidos, a los tranvías que marchen por la zona central",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/tranvia-zona-central.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle de doble sentido con las vías del tranvía en el centro de la calzada. Un tranvía circula por la zona central hacia la derecha; el vehículo A va detrás, por el carril de la derecha; el B circula en sentido contrario.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Un tranvía que va por la zona central de una vía de doble sentido tiene a su izquierda el sentido contrario. Por eso la norma manda adelantarlo por la derecha, si hay espacio suficiente y con las máximas precauciones.",
@@ -36529,7 +36659,12 @@ window.BANCO = {
     "cita": "en los que sólo se disponga de un carril para el sentido de circulación del vehículo que pretende adelantar",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/tunel-un-carril-por-sentido.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Carretera con un carril para cada sentido que entra en un túnel, con la señal de túnel en la entrada. El vehículo A circula detrás del B y se acercan a la boca del túnel.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "En un túnel o paso inferior con un solo carril para tu sentido, adelantar te obligaría a usar el carril de los que vienen de frente en un espacio cerrado. Por eso está prohibido.",
@@ -37132,7 +37267,12 @@ window.BANCO = {
     "cita": "salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/calle-sin-salida-estrecha.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle muy estrecha entre edificios que termina en un edificio, sin salida. El vehículo A ha entrado y está cerca del final.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La marcha atrás está prohibida como regla general, pero se permite cuando no es posible seguir hacia delante ni cambiar de dirección o sentido, que es justo tu caso. Eso sí, siempre con el recorrido mínimo indispensable.",
@@ -37854,7 +37994,12 @@ window.BANCO = {
     "cita": "salvo en las vías de único sentido, en las que se podrá situar también en el lado izquierdo",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/calle-sentido-unico.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle urbana de sentido único, con flechas pintadas hacia arriba, aceras a los dos lados y la señal de sentido único. El vehículo A circula por ella.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "En vías urbanas, cuando paras o estacionas en la calzada, la regla general es ponerte lo más cerca posible del borde derecho. La excepción son las calles de sentido único: como nadie viene de frente, también puedes hacerlo en el lado izquierdo.",
@@ -56836,7 +56981,12 @@ window.BANCO = {
     "cita": "b) En los pasos para peatones señalizados como tales, en las intersecciones con vías para ciclistas y en los pasos a nivel, y en sus proximidades.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/interseccion-via-ciclista.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Carretera de doble sentido que cruza una vía ciclista por un paso para ciclistas. Por la vía ciclista se acerca un ciclista. El vehículo A circula detrás del B.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "En el cruce con una vía para ciclistas pueden aparecer bicis atravesando la calzada, y el vehículo que adelantas puede taparlas. Por eso está prohibido adelantar en esas intersecciones y en sus proximidades, igual que en los pasos para peatones señalizados y los pasos a nivel.",
@@ -56879,7 +57029,12 @@ window.BANCO = {
     "cita": "pudiendo utilizar su contiguo en tramos con tres o más carriles por sentido, dejando expeditos para la circulación de vehículos de emergencia y quitanieves el resto de carriles a la izquierda.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/autovia-nieve-tres-carriles.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, con nieve en la calzada y en los bordes y nevando. Junto a la vía, la señal de cadenas para nieve.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Con nieve en autopistas y autovías está prohibido adelantar y hay que ir por el carril derecho. Si hay tres o más carriles por sentido, se puede usar también el contiguo, y el resto de carriles de la izquierda queda libre para los vehículos de emergencia y los quitanieves.",
@@ -61178,7 +61333,12 @@ window.BANCO = {
     "cita": "Carril. Banda longitudinal en que puede estar subdividida la calzada, delimitada o no por marcas viales longitudinales, siempre que tenga una anchura suficiente para permitir la circulación de una fila de automóviles que no sean motocicletas.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/calzada-ancha-sin-marcas.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de doble sentido sin ninguna marca vial longitudinal, con anchura para dos filas de turismos en cada sentido. El vehículo A sube junto al borde derecho; el B baja junto al otro borde.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Para la Ley, un carril es una banda longitudinal de la calzada, delimitada o no por marcas viales, con anchura suficiente para una fila de automóviles que no sean motocicletas. Si caben dos filas por sentido, hay dos carriles por sentido, aunque no estén pintados.",
@@ -61386,7 +61546,12 @@ window.BANCO = {
     "cita": "los de conjuntos de vehículos de más de siete metros de longitud circularán normalmente por el situado más a la derecha, y podrán utilizar el inmediato",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/autovia-tres-carriles-caravana.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un turismo con una caravana enganchada (A).",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Con tres o más carriles en tu sentido fuera de poblado, los conjuntos de vehículos de más de 7 metros de longitud circulan normalmente por el carril derecho y pueden usar el inmediato, pero no los demás. Tu turismo con caravana mide 8 metros, así que entra en esa limitación.",
@@ -61429,7 +61594,12 @@ window.BANCO = {
     "cita": "los conductores de camiones o furgones con masa máxima autorizada superior a 3.500 kilogramos, los de vehículos especiales que no estén obligados a circular por el arcén",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/autovia-tres-carriles-camion.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un camión (A).",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La limitación al carril derecho y al inmediato es para camiones y furgones de más de 3.500 kg de MMA, especiales no obligados a ir por el arcén y conjuntos de más de 7 metros. Un camión rígido de 3.000 kg no está en esa lista, así que sigue la regla general: carril derecho normalmente, pero puede usar los demás, sin entorpecer a quien le siga.",
@@ -62266,7 +62436,12 @@ window.BANCO = {
     "cita": "Cuando en vías urbanas tenga que realizarse en la calzada o en el arcén, se situará el vehículo lo más cerca posible de su borde derecho, salvo en las vías de único sentido",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/calle-doble-sentido.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle urbana de doble sentido con una línea discontinua en el centro y aceras a los dos lados. El vehículo A sube por su carril; el B baja por el otro.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "En vías urbanas, si tienes que estacionar en la calzada, la regla es situarte lo más cerca posible del borde derecho. La única excepción son las calles de sentido único, donde también se puede usar el lado izquierdo; en doble sentido, no.",
@@ -62460,7 +62635,12 @@ window.BANCO = {
     "cita": "Cuando se obstaculice la utilización normal del paso de salida o acceso a un inmueble de personas o animales, o de vehículos en un vado señalizado correctamente.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/parado-delante-vado.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle con la entrada de un garaje señalizada con una placa de vado. Dentro del garaje, el vehículo B quiere salir; el vehículo A está parado en la calzada justo delante de la entrada.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La lista de lugares que obstaculizan gravemente la circulación se aplica a paradas y a estacionamientos por igual. Uno de esos supuestos es impedir el uso normal de un vado señalizado correctamente, y eso es lo que haces aunque sea un minuto y sin bajarte.",
@@ -62583,7 +62763,12 @@ window.BANCO = {
     "cita": "Brazo extendido hacia abajo inclinado y fijo: el agente desde un vehículo indica la obligación de detenerse en el lado derecho a aquellos usuarios a los que va dirigida la señal.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/agente-brazo-abajo.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista desde detrás de un coche de policía que circula delante: el agente saca el brazo por la ventanilla, extendido hacia abajo e inclinado.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Desde un vehículo, el brazo extendido hacia abajo, inclinado y fijo, indica a los usuarios a los que se dirige que tienen que detenerse en el lado derecho.",
@@ -62625,7 +62810,12 @@ window.BANCO = {
     "cita": "Cualquier vehículo que, al encenderse la flecha verde, se encuentre en un carril reservado exclusivamente para la circulación en la dirección y sentidos indicados por la flecha o que, sin estar reservado, sea el que esta circulación tenga que utilizar, deberá avanzar en dicha dirección y sentido.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/semaforo-flecha-verde-derecha.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calzada de dos carriles ante un semáforo. En el carril derecho hay una flecha pintada de giro a la derecha y un turismo detenido ante la línea; en el izquierdo, una flecha de frente. El semáforo tiene la luz roja encendida y una flecha verde de giro a la derecha encendida.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La obligación de avanzar con la flecha verde no es solo para los carriles reservados: también para quien está en el carril que ese giro tiene que utilizar, aunque no esté reservado. Y la norma no la condiciona a que haya alguien detrás.",
@@ -63403,7 +63593,12 @@ window.BANCO = {
     "cita": "separar un carril destinado a la circulación de determinados vehículos (autobuses, taxis, etc.), pudiendo utilizar los demás vehículos el carril reservado para realizar determinadas maniobras permitidas",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/carril-bus-discontinua.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Calle con dos carriles en el mismo sentido y, a la derecha, un carril con la inscripción BUS separado por una línea discontinua ancha. El vehículo A circula por el carril central.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Si un carril reservado, por ejemplo para autobuses, está separado por una línea discontinua, los demás vehículos pueden entrar en él, pero solo para hacer determinadas maniobras permitidas, como girar. Si la separación fuera continua, no se permitiría cambiar a ese carril.",

@@ -112,10 +112,20 @@
         "ref": "video5",
         "minuto": "7:54"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/calzada-ancha-sin-marcas.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de doble sentido sin ninguna marca vial longitudinal, con anchura para dos filas de turismos en cada sentido. El vehículo A sube junto al borde derecho; el B baja junto al otro borde.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de doble sentido sin ninguna marca vial longitudinal, con anchura para dos filas de turismos en cada sentido. El vehículo A sube junto al borde derecho; el B baja junto al otro borde."
+      }
     },
     {
       "id": "v5a-via-0003",
@@ -262,10 +272,20 @@
         "ref": "video5",
         "minuto": "19:18"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/autovia-tres-carriles-caravana.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un turismo con una caravana enganchada (A).",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un turismo con una caravana enganchada (A)."
+      }
     },
     {
       "id": "v5a-car-0002",
@@ -292,10 +312,20 @@
         "ref": "video5",
         "minuto": "18:21"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/autovia-tres-carriles-camion.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un camión (A).",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un camión (A)."
+      }
     },
     {
       "id": "v5a-cesp-0001",
@@ -932,10 +962,20 @@
         "ref": "video5",
         "minuto": "1:16:54"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/calle-doble-sentido.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle urbana de doble sentido con una línea discontinua en el centro y aceras a los dos lados. El vehículo A sube por su carril; el B baja por el otro.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": "A-par-0016 pregunta el caso de sentido único; esta, el de doble sentido."
+      "notas_revision": "A-par-0016 pregunta el caso de sentido único; esta, el de doble sentido.",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle urbana de doble sentido con una línea discontinua en el centro y aceras a los dos lados. El vehículo A sube por su carril; el B baja por el otro."
+      }
     },
     {
       "id": "v5b-par-0004",
@@ -1100,10 +1140,20 @@
         "ref": "video5",
         "minuto": "1:13:41"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/parado-delante-vado.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle con la entrada de un garaje señalizada con una placa de vado. Dentro del garaje, el vehículo B quiere salir; el vehículo A está parado en la calzada justo delante de la entrada.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": "Corrige al vídeo: la señal de vado (R-308e) solo prohíbe estacionar, pero una parada que obstaculice el vado es infracción grave (art. 91.2.c y 91.3)."
+      "notas_revision": "Corrige al vídeo: la señal de vado (R-308e) solo prohíbe estacionar, pero una parada que obstaculice el vado es infracción grave (art. 91.2.c y 91.3).",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle con la entrada de un garaje señalizada con una placa de vado. Dentro del garaje, el vehículo B quiere salir; el vehículo A está parado en la calzada justo delante de la entrada."
+      }
     },
     {
       "id": "v5c-bal-0001",
@@ -1190,10 +1240,20 @@
         "ref": "video5",
         "minuto": "1:24:34"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/agente-brazo-abajo.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista desde detrás de un coche de policía que circula delante: el agente saca el brazo por la ventanilla, extendido hacia abajo e inclinado.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": ""
+      "notas_revision": "",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista desde detrás de un coche de policía que circula delante: el agente saca el brazo por la ventanilla, extendido hacia abajo e inclinado."
+      }
     },
     {
       "id": "v5c-sem-0001",
@@ -1220,10 +1280,20 @@
         "ref": "video5",
         "minuto": "1:29:13"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/semaforo-flecha-verde-derecha.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de dos carriles ante un semáforo. En el carril derecho hay una flecha pintada de giro a la derecha y un turismo detenido ante la línea; en el izquierdo, una flecha de frente. El semáforo tiene la luz roja encendida y una flecha verde de giro a la derecha encendida.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": "Corrige al vídeo: el profesor dice que el coche puede quedarse esperando mientras no tenga a nadie detrás; la norma obliga a avanzar en la dirección de la flecha sin esa condición. Complementa a B1-sen-0049 (carril reservado)."
+      "notas_revision": "Corrige al vídeo: el profesor dice que el coche puede quedarse esperando mientras no tenga a nadie detrás; la norma obliga a avanzar en la dirección de la flecha sin esa condición. Complementa a B1-sen-0049 (carril reservado).",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de dos carriles ante un semáforo. En el carril derecho hay una flecha pintada de giro a la derecha y un turismo detenido ante la línea; en el izquierdo, una flecha de frente. El semáforo tiene la luz roja encendida y una flecha verde de giro a la derecha encendida."
+      }
     },
     {
       "id": "v5c-pn-0001",
@@ -1814,10 +1884,20 @@
         "ref": "video5",
         "minuto": "2:24:58"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/carril-bus-discontinua.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calle con dos carriles en el mismo sentido y, a la derecha, un carril con la inscripción BUS separado por una línea discontinua ancha. El vehículo A circula por el carril central.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
-      "notas_revision": "Matiza al vídeo: la norma habla de 'determinadas maniobras permitidas', no solo del giro a la derecha."
+      "notas_revision": "Matiza al vídeo: la norma habla de 'determinadas maniobras permitidas', no solo del giro a la derecha.",
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calle con dos carriles en el mismo sentido y, a la derecha, un carril con la inscripción BUS separado por una línea discontinua ancha. El vehículo A circula por el carril central."
+      }
     },
     {
       "id": "v5e-perm-0001",

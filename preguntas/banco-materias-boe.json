@@ -1102,12 +1102,21 @@
         "ref": null,
         "minuto": null
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/ciclistas-de-frente.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Carretera de doble sentido con un carril para cada sentido. El vehículo A circula detrás de un camión (B); por el carril contrario se acercan dos ciclistas.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 3,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Carretera de doble sentido con un carril para cada sentido. El vehículo A circula detrás de un camión (B); por el carril contrario se acercan dos ciclistas."
+      }
     },
     {
       "id": "bm3-0017",

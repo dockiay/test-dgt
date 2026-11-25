@@ -26,8 +26,17 @@
         "ref": "RGC art. 29",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/curva-sin-marcas.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Carretera de doble sentido sin marcas viales que gira a la derecha; los árboles del interior de la curva tapan la vista. El vehículo A se acerca a la curva.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Carretera de doble sentido sin marcas viales que gira a la derecha; los árboles del interior de la curva tapan la vista. El vehículo A se acerca a la curva."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -230,8 +239,17 @@
         "ref": "RGC art. 31",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/autovia-dos-carriles.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de autovía con dos carriles en el mismo sentido, separados por una línea discontinua, con flechas de frente. A la izquierda, la mediana con barrera; a la derecha, el arcén.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de autovía con dos carriles en el mismo sentido, separados por una línea discontinua, con flechas de frente. A la izquierda, la mediana con barrera; a la derecha, el arcén."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -292,8 +310,17 @@
         "ref": "RGC art. 34",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/autovia-tres-carriles-vao.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido. El de la izquierda está reservado a vehículos con alta ocupación: lleva un rombo y la inscripción VAO, y lo separa una línea continua. Junto a la vía, la señal de carril VAO.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de autovía con tres carriles en el mismo sentido. El de la izquierda está reservado a vehículos con alta ocupación: lleva un rombo y la inscripción VAO, y lo separa una línea continua. Junto a la vía, la señal de carril VAO."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -496,8 +523,17 @@
         "ref": "RGC art. 44",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/via-tres-calzadas.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vía dividida en tres calzadas separadas por medianas. La calzada de la izquierda lleva flechas hacia abajo y la de la derecha, hacia arriba; la central no lleva flechas.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vía dividida en tres calzadas separadas por medianas. La calzada de la izquierda lleva flechas hacia abajo y la de la derecha, hacia arriba; la central no lleva flechas."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2989,8 +3025,17 @@
         "ref": "RGC art. 77",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/salida-carril-deceleracion.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Autovía de dos carriles con una salida por la derecha precedida de un carril de deceleración. El vehículo A circula por el carril izquierdo, todavía lejos de la salida.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Autovía de dos carriles con una salida por la derecha precedida de un carril de deceleración. El vehículo A circula por el carril izquierdo, todavía lejos de la salida."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3800,8 +3845,17 @@
         "ref": "RGC art. 87",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/glorieta-dos-carriles.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Glorieta con dos carriles en el anillo. El vehículo A circula por el anillo, por el carril exterior, detrás del vehículo B.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Glorieta con dos carriles en el anillo. El vehículo A circula por el anillo, por el carril exterior, detrás del vehículo B."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

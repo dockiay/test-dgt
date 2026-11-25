@@ -943,8 +943,17 @@
         "ref": "RGC art. 95",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/tunel-dos-carriles-mismo-sentido.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Túnel con circulación en ambos sentidos: dos carriles hacia la derecha, separados por una línea discontinua, y uno hacia la izquierda, separado por una línea continua. El vehículo A circula detrás del B por el carril derecho; el C, en sentido contrario.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Túnel con circulación en ambos sentidos: dos carriles hacia la derecha, separados por una línea discontinua, y uno hacia la izquierda, separado por una línea continua. El vehículo A circula detrás del B por el carril derecho; el C, en sentido contrario."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1625,8 +1634,17 @@
         "ref": "RGC art. 36",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/ciclista-descenso-curvas.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Carretera convencional con curvas que baja con fuerte pendiente, con la señal de bajada con fuerte pendiente. Un ciclista circula por el arcén.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Carretera convencional con curvas que baja con fuerte pendiente, con la señal de bajada con fuerte pendiente. Un ciclista circula por el arcén."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2595,8 +2613,17 @@
         "ref": "RGC art. 31",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/autovia-tres-carriles-caravana.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un turismo con una caravana enganchada (A).",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Calzada de autovía con tres carriles en el mismo sentido, sin vehículos. En un recuadro aparte, su vehículo: un turismo con una caravana enganchada (A)."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

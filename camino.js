@@ -67,8 +67,8 @@
   }
   // Materias que se parten en dos: [nombre y temas de la primera unidad, nombre de la segunda (el resto)].
   const DOS = {
-    4: ["Alcohol, drogas y medicamentos", ["alcohol_drogas", "medicamentos", "delitos", "delitos_seguridad_vial", "infracciones_sanciones", "normas_generales"], "Percepción, fatiga y distracciones"],
-    6: ["Luces, noche y túneles", ["luces", "noche", "tuneles", "senales", "senales_verticales", "infracciones_sanciones", "por_donde_circular", "carriles_especiales"], "Lluvia, niebla y otras condiciones adversas"],
+    4: ["Alcohol, drogas y medicamentos", ["alcohol_drogas", "medicamentos", "delitos", "delitos_seguridad_vial"], "Percepción, fatiga y distracciones"],
+    6: ["Luces, noche y túneles", ["luces", "noche", "tuneles", "senales", "senales_verticales", "infracciones_sanciones", "carriles_especiales"], "Lluvia, niebla y otras condiciones adversas"],
     8: ["Peatones, ciclistas y otros usuarios vulnerables", ["usuarios_vulnerables", "peatones", "vmp", "ciclos"], "Normas de circulación con usuarios vulnerables"],
     10: ["Permiso de conducción y puntos", ["permiso_conduccion", "puntos", "infracciones_sanciones"], "Documentación, ITV y seguro"],
     11: ["Qué hacer en un accidente", ["accidentes", "adas", "accesorios_obligatorios"], "Primeros auxilios"],
@@ -243,10 +243,22 @@
   // Candidatas: preguntas ya vistas de cualquier unidad o materia menos la actual. Las de «Mis fallos» solo
   // si ya les toca (las que aún no, esperan a su día para no adelantar el repaso espaciado); las que tocan
   // van primero y, al acertarlas aquí, avanzan en «Mis fallos» igual que si se repasaran allí.
+  // Lo respondido hace menos de una hora no vuelve en el siguiente nivel (ni otra pregunta con el mismo
+  // esquema o foto: varias comparten dibujo y parecen repetidas). Los fallos siguen tocando hoy, pero más tarde.
+  const RECIENTE_MS = 36e5;
+  const reciente = (r, ahora) => !!r && ahora - (r.t || 0) < RECIENTE_MS;
+  // Imagen que comparte con otras preguntas (las señales sueltas no cuentan: cada una tiene la suya).
+  const imagenDe = p => { const s = p && p.imagen && p.imagen.src; return s && !/\/senales\//.test(s) ? s : null; };
+  function imagenesRecientes(ahora) {
+    const out = new Set();
+    for (const [id, r] of Object.entries(A.datos.preguntas)) if (reciente(r, ahora)) { const s = imagenDe(A.POR_ID.get(id)); if (s) out.add(s); }
+    return out;
+  }
   function candidatasRepaso(u, ahora = Date.now()) {
-    const d = A.datos, propias = new Set(u.ids), out = [];
+    const d = A.datos, propias = new Set(u.ids), out = [], imgs = imagenesRecientes(ahora);
     for (const [id, r] of Object.entries(d.preguntas)) {
       if (propias.has(id) || !r || !r.h || !A.POR_ID.has(id)) continue;
+      if (reciente(r, ahora) || imgs.has(imagenDe(A.POR_ID.get(id)))) continue;
       if (r.c > 0 && r.p > ahora) continue;
       const toca = r.c > 0;
       out.push({ p: A.POR_ID.get(id), toca, riesgo: toca ? 1 + riesgo(r, ahora) : riesgo(r, ahora) });
@@ -264,15 +276,33 @@
   }
   // Nivel: 10 preguntas de la unidad (primero las que aún no domina) más el repaso escondido, elegido por
   // riesgo de olvido y, entre las más urgentes, con preferencia por las de escena o imagen (App.priorizar).
-  function preguntasNivel(u) {
-    const d = A.datos, est = p => P.estado(d, p.id);
-    const cands = candidatasRepaso(u), k = cuantasRepaso(cands);
+  // De la unidad, por orden: fallos a los que ya toca volver, preguntas nuevas (con prioridad visual), las
+  // vistas que aún no domina (las que hace más que no ve primero), las dominadas y, solo si no queda otra,
+  // lo respondido en la última hora. Nunca dos con el mismo esquema o foto en el mismo nivel.
+  function preguntasNivel(u, ahora = Date.now()) {
+    const d = A.datos, reg = p => d.preguntas[p.id], est = p => P.estado(d, p.id);
+    const cands = candidatasRepaso(u, ahora), k = cuantasRepaso(cands);
     const tocan = cands.filter(c => c.toca).slice(0, k).map(c => c.p);
     const resto = A.priorizar(cands.filter(c => !c.toca).slice(0, (k - tocan.length) * 2).map(c => c.p)).slice(0, k - tocan.length);
     const repaso = tocan.concat(resto);
-    const propias = objs(u.ids);
-    const nuevas = [...A.priorizar(propias.filter(p => est(p) !== "dominada")), ...A.barajar(propias.filter(p => est(p) === "dominada"))].slice(0, NIVEL_N - repaso.length);
-    return A.barajar(nuevas.concat(repaso));
+    const imgs = imagenesRecientes(ahora), viejas = (a, b) => (reg(a).t || 0) - (reg(b).t || 0);
+    const libres = [], recientes = [];
+    for (const p of objs(u.ids)) (reciente(reg(p), ahora) || imgs.has(imagenDe(p)) ? recientes : libres).push(p);
+    const orden = [
+      ...libres.filter(p => est(p) === "repaso" && reg(p).p <= ahora).sort(viejas),
+      ...A.priorizar(libres.filter(p => est(p) === "nueva")),
+      ...libres.filter(p => est(p) === "vista" || (est(p) === "repaso" && reg(p).p > ahora)).sort(viejas),
+      ...A.barajar(libres.filter(p => est(p) === "dominada")),
+      ...recientes.sort((a, b) => ((reg(a) || {}).t || 0) - ((reg(b) || {}).t || 0)),
+    ];
+    const usadas = new Set(repaso.map(imagenDe).filter(Boolean)), propias = [], aparte = [];
+    for (const p of orden) {
+      const s = imagenDe(p);
+      if (s && usadas.has(s)) { aparte.push(p); continue; }
+      if (s) usadas.add(s);
+      propias.push(p);
+    }
+    return A.barajar(propias.concat(aparte).slice(0, NIVEL_N - repaso.length).concat(repaso));
   }
   const preguntasPaso = u => A.barajar(objs(u.ids)).slice(0, PASO_N);
 
@@ -689,5 +719,5 @@
   reanudableCamino();
   A.lateralExtra({ id: "logros", href: "#/logros", icono: "medalla", color: "verde", texto: "Logros" });
 
-  window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, construir, get UNIDADES() { construir(); return UNIDADES; }, get NODOS() { construir(); return NODOS; }, nodoActual, hecho: hechoN, legendaria, empezarNodo, NIVEL_N, PASO_N, animarAvance, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };
+  window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, construir, get UNIDADES() { construir(); return UNIDADES; }, get NODOS() { construir(); return NODOS; }, nodoActual, hecho: hechoN, legendaria, empezarNodo, NIVEL_N, PASO_N, PASO_FALLOS, animarAvance, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };
 })();

@@ -37,6 +37,16 @@
       return { titulo: "Examen terminado", frase: "Cada fallo es una pregunta que ya no se te escapará: están en tu repaso.", humor: "animo" };
     }
     const pct = x.pct;
+    // Test de paso y reto legendario del camino: aprobar o no depende de los fallos, no del porcentaje.
+    const C = window.Camino;
+    if (x.completa && x.modo === "paso" && C) {
+      if (x.fallos > C.PASO_FALLOS) return { titulo: "Esta vez no", frase: `${plural(x.fallos, "fallo", "fallos")}: para pasar se admiten ${C.PASO_FALLOS} como máximo, como en el examen. Repasa los fallos y vuelve a intentarlo.`, humor: "animo" };
+      return { titulo: "¡Test de paso aprobado!", frase: x.fallos ? `Con ${plural(x.fallos, "fallo", "fallos")}. Unidad superada.` : "Sin un solo fallo. Unidad superada.", humor: x.fallos ? "feliz" : "perfecto" };
+    }
+    if (x.completa && x.modo === "legendario") {
+      if (x.fallos) return { titulo: `Casi: ${plural(x.fallos, "fallo", "fallos")}`, frase: "El reto legendario no admite ningún fallo. Repásalos y vuelve a por el oro.", humor: "animo" };
+      return { titulo: "¡Unidad legendaria!", frase: "Ni un solo fallo: la unidad pasa a oro.", humor: "perfecto" };
+    }
     if (!x.completa) return { titulo: "¡Buen rato de estudio!", frase: `${plural(x.hechas, "pregunta", "preguntas")} más en el bolsillo.`, humor: pct >= 70 ? "feliz" : "animo" };
     if (pct === 100) return { titulo: "¡Lección perfecta!", frase: "Ni un fallo. Así se llega al examen.", humor: "perfecto" };
     if (pct >= 90) return { titulo: "¡Lección completada!", frase: "Esto ya es nivel de examen.", humor: "feliz" };
@@ -260,6 +270,9 @@
   function terminar(x) {
     if (!x || !x.hechas || (x.tipo !== "examen" && !x.completa && x.hechas < 3)) { foto = null; return false; }
     x.pct = Math.round(x.aciertos / x.hechas * 100);
+    // Si no ha pasado el test de paso o el reto, se queda en el resultado, que trae «Intentarlo otra vez».
+    const C = window.Camino;
+    if (x.completa && C && ((x.modo === "paso" && x.fallos > C.PASO_FALLOS) || (x.modo === "legendario" && x.fallos))) x.destino = null;
     const r = An.racha(), antes = foto ? foto.racha : r.dias;
     const cumplido = foto ? foto.hoy < foto.objetivo && r.hoy >= r.objetivo : false;
     const logros = logrosNuevos();

@@ -8,6 +8,7 @@
    - error:      frase en `trozos`; `malo` es el índice del trozo falso; `arreglos` y `bueno` para corregirlo.
    - ysi:        `caso` (ficha con datos), `opciones` fijas y `pasos`; cada paso cambia un dato de la ficha.
    - piensa:     pregunta del banco (`banco` = id) con las opciones tapadas hasta decir cuánta seguridad se tiene.
+                 Si la pregunta del banco tiene `imagen`, se copia igual y se pinta encima. comprobar() devuelve `seguridad`.
    - completar:  `texto` con {huecos} y `senuelos`; se rellenan tocando fichas. */
 window.EJERCICIOS_RECORDAR = [
   {

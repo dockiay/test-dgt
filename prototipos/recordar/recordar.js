@@ -49,6 +49,7 @@
   }
   function animar(el, clase) { el.classList.remove(clase); void el.offsetWidth; el.classList.add(clase); }
   const rutaSenal = s => (window.SENALES_EMBEBIDAS || {})[s] || `../../img/senales/${s}.png`;
+  const rutaImagen = src => (window.IMAGENES_EMBEBIDAS || {})[src] || "../../" + src;
 
   const TIPOS = {
     clasificar: { nombre: "Clasifica", icono: "cartas", color: "t-naranja",
@@ -258,7 +259,8 @@
     } }, h("span", { class: "letra" }, "abc"[i]), h("span", { class: "texto" }, o), h("span", { class: "estado" })));
     const opciones = h("div", { class: "opciones pi-opciones", hidden: true }, botones);
     const marca = h("p", { class: "pi-marca", hidden: true });
-    const nodo = h("div", { class: "ej-piensa" }, previo, tapadas, marca, opciones);
+    const im = ej.imagen && ej.imagen.src ? h("figure", { class: "figura" }, h("img", { src: rutaImagen(ej.imagen.src), alt: ej.imagen.alt_detalle || ej.imagen.alt || "" })) : null;
+    const nodo = h("div", { class: "ej-piensa" }, im, previo, tapadas, marca, opciones);
     function destapar(s) {
       seguridad = s.id; sonar("toque");
       previo.remove(); tapadas.remove();
@@ -280,7 +282,7 @@
         const nota = seguridad === "segura" ? (ok ? "La sabías y acertaste: esta ya está en su sitio." : "Ibas con seguridad y era otra. Estos fallos, bien corregidos, son los que menos se repiten: quédate un momento con el porqué.")
           : seguridad === "duda" ? (ok ? "Dudabas y era esa: la sabes mejor de lo que crees." : "Dudabas, y con razón. Volverá a salir pronto.")
           : (ok ? "Acertaste sin saberla: cuenta como repaso pendiente, volverá a salir." : "No la sabías: ahora ya la has visto. Volverá a salir pronto.");
-        return { ok, correcta: ej.opciones[ej.correcta], nota };
+        return { ok, tuya: elegida == null ? null : ej.opciones[elegida], correcta: ej.opciones[ej.correcta], nota, seguridad };
       },
       soltar() {},
     };

@@ -47,7 +47,8 @@ for e in json.loads(js):
     if e.get("banco"):
         q = banco.get(e["banco"])
         igual = bool(q) and q["enunciado"] == e["enunciado"] and list(q["opciones"].values()) == e["opciones"] \
-            and "abc".index(q["correcta"]) == e["correcta"] and q["explicacion"] == e["porque"] and q["fuente"]["cita"] == f["cita"]
+            and "abc".index(q["correcta"]) == e["correcta"] and q["explicacion"] == e["porque"] and q["fuente"]["cita"] == f["cita"] \
+            and (q.get("imagen") or None) == (e.get("imagen") or None)
         anota(igual, e["id"], f'igual que {e["banco"]} del banco verificado')
     if e["tipo"] == "ysi":
         for p in e["pasos"]: anota(p["respuesta"] in e["opciones"], e["id"], f'respuesta {p["respuesta"]} entre las opciones')

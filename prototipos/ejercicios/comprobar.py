@@ -10,11 +10,13 @@ import json, os, re, subprocess, sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 TXT = sys.argv[1] if len(sys.argv) > 1 else "/mnt/project-files/fuentes/txt"
 FICHEROS = {"RGC": ["rgc_full.txt", "rgc_full_layout.txt"], "RGC_CATALOGO": ["catalogo_ocr.txt"],
-            "MANUAL_DGT": ["manual_dgt.txt", "manual_dgt_layout.txt"]}
+            "MANUAL_DGT": ["manual_dgt.txt", "manual_dgt_layout.txt"], "LSV": ["l.txt", "l_layout.txt"]}
 norm = lambda t: re.sub(r"\s+", " ", t).strip()
 
-js = subprocess.run(["node", "-e", "global.window={};require(process.argv[1]);console.log(JSON.stringify(window.EJERCICIOS))",
-                     os.path.join(AQUI, "datos.js")], capture_output=True, text=True, check=True).stdout
+DATOS = [os.path.join(AQUI, f) for f in sorted(os.listdir(AQUI)) if re.fullmatch(r"datos(-[\w-]+)?\.js", f)]
+DATOS.sort(key=lambda f: not f.endswith("datos.js"))  # datos.js primero: crea la lista
+js = subprocess.run(["node", "-e", "global.window={};process.argv.slice(1).forEach(f=>require(f));console.log(JSON.stringify(window.EJERCICIOS))",
+                     *DATOS], capture_output=True, text=True, check=True).stdout
 fallos = 0
 for e in json.loads(js):
     f = e["fuente"]
@@ -23,5 +25,5 @@ for e in json.loads(js):
         ok = any(norm(trozo) in t for t in textos)
         fallos += not ok
         print(("ok   " if ok else "FALTA"), e["id"], "·", norm(trozo)[:70])
-print("Todo comprobado." if not fallos else f"{fallos} citas sin encontrar.")
+print(f"{len(json.loads(js))} ejercicios.");print("Todo comprobado." if not fallos else f"{fallos} citas sin encontrar.")
 sys.exit(1 if fallos else 0)

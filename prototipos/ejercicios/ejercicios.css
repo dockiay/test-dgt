@@ -69,6 +69,7 @@
 
 /* ---- Fichas (ordenar) ---- */
 .ej-ordenar { display: grid; gap: 22px; }
+.ej-ordenar .ej-tocar { margin: 0 auto; width: 100%; max-width: 320px; }
 .ord-huecos { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .hueco { display: flex; align-items: center; gap: 12px; min-height: 62px; }
 .hueco-num { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-weight: 900; color: var(--texto2); background: var(--relleno-fuerte); font-variant-numeric: tabular-nums; }
@@ -80,9 +81,9 @@
 }
 .ficha:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 var(--borde); }
 @media (hover: hover) { .ficha:not(:disabled):hover { background: var(--celda-pulsada); } }
-.ficha-cuerpo { flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px; }
-.ficha-texto { flex: none; }
-.ficha-detalle { flex: 1; color: var(--texto2); font-weight: 600; font-size: .9375rem; }
+.ficha-cuerpo { flex: 1; min-width: 0; display: flex; align-items: center; flex-wrap: wrap; column-gap: 10px; row-gap: 2px; }
+.ficha-texto { flex: 0 1 auto; min-width: 0; }
+.ficha-detalle { flex: 1 1 12em; color: var(--texto2); font-weight: 600; font-size: .9375rem; }
 .ficha .estado { flex: none; margin-left: auto; width: 24px; display: grid; place-items: center; }
 .ficha .estado svg.ico { width: 22px; height: 22px; stroke-width: 3; vertical-align: 0; }
 .hueco .ficha { flex: 1; }
@@ -100,8 +101,18 @@
 /* ---- Emparejar ---- */
 .ej-emparejar { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .emp-col { display: grid; gap: 12px; align-content: start; }
-.emp-col:first-child { grid-template-rows: repeat(4, 1fr); }
-.emp-col:last-child { grid-template-rows: repeat(4, 1fr); }
+.emp-col { grid-auto-rows: 1fr; }
+.emp-foto { display: grid; justify-items: center; gap: 4px; }
+.emp-item .emp-foto img { width: auto; height: 84px; }
+.emp-foto small { font-size: .8125rem; font-weight: 800; color: #1b2232; }
+.emp-luz { display: flex; align-items: center; gap: 10px; text-align: left; }
+.semaforo-mini { flex: none; display: grid; gap: 3px; padding: 4px; border-radius: 9px; background: #1f2630; }
+.semaforo-mini i { width: 14px; height: 14px; border-radius: 50%; background: #3a4352; }
+.semaforo-mini i.roja.on { background: #ff3b30; box-shadow: 0 0 8px #ff3b30; }
+.semaforo-mini i.ambar.on { background: #ffb000; box-shadow: 0 0 8px #ffb000; }
+.semaforo-mini i.verde.on { background: #2fd158; box-shadow: 0 0 8px #2fd158; }
+.semaforo-mini i.parpadea { animation: parpadeo 1s steps(1) infinite; }
+.zona-caja { border-radius: 12px; }
 .emp-item {
   min-height: 76px; padding: 10px 12px; border-radius: 14px; background: var(--celda); border: 2px solid var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde);
   font-weight: 800; font-size: .9375rem; line-height: 1.25; color: var(--texto); display: grid; place-items: center; text-align: center;
@@ -126,5 +137,6 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .cifra-cursor { animation: none; }
+  .semaforo-mini i.parpadea { animation-duration: 2s; }
   .zona, .ficha, .emp-item, .cifra-caja, .cifra-caja .cifra-valor, .cifra-buena { animation: none !important; }
 }

@@ -33,9 +33,16 @@
       h("p", { class: "proto-aviso" }, "Prototipo · no cambia el camino real"),
       h("h1", { class: "titulo-grande" }, "Ejercicios nuevos"),
       h("p", { class: "subtitulo" }, "Para los niveles del camino: recordar sin ver opciones fija mejor. Los simulacros siguen siendo tipo test, como el examen."),
-      h("div", { class: "pila" }, h("button", { class: "boton ancho verde", type: "button", onclick: () => leccion(LISTA.map((_, i) => i)) }, "Probar la lección (8 ejercicios)")),
+      h("div", { class: "pila" }, h("button", { class: "boton ancho verde", type: "button", onclick: () => leccion(mezcla()) }, "Probar una lección (8 al azar)")),
+      h("p", { class: "nota-pie" }, `${LISTA.length} ejercicios: ${Object.entries(TIPOS).map(([t, x]) => `${LISTA.filter(e => e.tipo === t).length} de «${x.nombre.toLowerCase()}»`).join(", ")}.`),
       ...grupos.flat());
     window.scrollTo(0, 0);
+  }
+  // Lección de prueba: 2 de cada tipo al azar, intercalados.
+  function mezcla() {
+    const azar = l => l.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(p => p[1]);
+    const porTipo = Object.keys(TIPOS).map(t => azar(LISTA.map((e, i) => e.tipo === t ? i : null).filter(i => i != null)).slice(0, 2));
+    return [0, 1].flatMap(r => azar(porTipo.map(l => l[r]).filter(i => i != null)));
   }
   const COLOR = { cifra: "t-azul", tocar: "t-naranja", ordenar: "t-indigo", emparejar: "t-verde" };
 

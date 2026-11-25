@@ -612,34 +612,5 @@ window.EJERCICIOS.push(...
     "RGC_CATALOGO"
    ]
   }
- },
- {
-  "id": "banco-ordenar-A-pri-0001",
-  "tipo": "ordenar",
-  "enunciado": "Cruce de cuatro brazos sin señales, marcas ni semáforos. Ordena los vehículos según pasan.",
-  "pasos": [
-   {
-    "texto": "Vehículo C"
-   },
-   {
-    "texto": "Vehículo B"
-   },
-   {
-    "texto": "Vehículo A"
-   }
-  ],
-  "de": "A-pri-0001",
-  "materia": 1,
-  "escena": "A-pri-0001",
-  "porque": "Primero pasa C: nadie se le acerca por su derecha. Después pasa B: ya no le queda nadie por su derecha. Por último pasa A: ya no le queda nadie por su derecha.",
-  "fuente": {
-   "norma": "RGC",
-   "articulo": "57.1",
-   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
-   "cita": "En defecto de señal que regule la preferencia de paso, el conductor está obligado a cederlo a los vehículos que se aproximen por su derecha",
-   "comprobar": [
-    "En defecto de señal que regule la preferencia de paso, el conductor está obligado a cederlo a los vehículos que se aproximen por su derecha"
-   ]
-  }
  }
 ]);

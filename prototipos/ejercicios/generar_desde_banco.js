@@ -94,7 +94,7 @@ for (const [id, e] of Object.entries(E)) {
       fuente: { norma: cita.norma, articulo: cita.articulo, url: anclaRGC(cita.articulo), cita: [...new Set(conCita.map(x => x.cita.texto))].join(" | "),
         comprobar: [...new Set(conCita.map(x => x.cita.texto))] } };
     const unoAUno = e.orden.every(g => g.length === 1);
-    if (letras.length >= 3 && unoAUno) {
+    if (false && letras.length >= 3 && unoAUno) { // «ordenar» de escenas: ahora en datos-ordenar.js (hilo de ordenar)
       salida.push(Object.assign({ id: "banco-ordenar-" + id, tipo: "ordenar", enunciado: primeraFrase(e.titulo) + " Ordena los vehículos según pasan.",
         pasos: e.orden.map(g => ({ texto: "Vehículo " + g[0] })) }, comun));
     } else if (false && e.orden[0].length === 1 && letras.length >= 2) { // «tocar» de escenas: ahora en datos-tocar.js (hilo de tocar)

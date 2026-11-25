@@ -97,11 +97,11 @@ for (const [id, e] of Object.entries(E)) {
     if (letras.length >= 3 && unoAUno) {
       salida.push(Object.assign({ id: "banco-ordenar-" + id, tipo: "ordenar", enunciado: primeraFrase(e.titulo) + " Ordena los vehículos según pasan.",
         pasos: e.orden.map(g => ({ texto: "Vehículo " + g[0] })) }, comun));
-    } else if (e.orden[0].length === 1 && letras.length >= 2) {
+    } else if (false && e.orden[0].length === 1 && letras.length >= 2) { // «tocar» de escenas: ahora en datos-tocar.js (hilo de tocar)
       salida.push(Object.assign({ id: "banco-tocar-" + id, tipo: "tocar", enunciado: primeraFrase(e.titulo) + " Toca el vehículo que pasa primero.",
         zonas: letras.map(l => ({ id: l, etiqueta: "Vehículo " + l })), correcta: e.orden[0][0], textoCorrecta: "el vehículo " + e.orden[0][0] }, comun));
     }
-  } else if (e.tipo === "estrecho" && e.retrocede && e.pasos) {
+  } else if (false && e.tipo === "estrecho" && e.retrocede && e.pasos) { // ídem
     const conCita = e.pasos.filter(x => x.cita);
     if (!conCita.length) continue;
     const cita = conCita[conCita.length - 1].cita;

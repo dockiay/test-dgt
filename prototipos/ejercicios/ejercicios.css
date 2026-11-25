@@ -140,3 +140,9 @@
   .semaforo-mini i.parpadea { animation-duration: 2s; }
   .zona, .ficha, .emp-item, .cifra-caja, .cifra-caja .cifra-valor, .cifra-buena { animation: none !important; }
 }
+
+/* ---- Escenas animadas de la web como lienzo de «tocar» y «ordenar» ---- */
+.ej-escena { position: relative; max-width: 440px; margin: 0 auto 18px; }
+.ej-ordenar .ej-escena { margin: 0 auto; width: 100%; max-width: 340px; }
+.ej-escena .zona { border-color: rgba(255,255,255,.95); }
+.explicacion-cuerpo .esc-reproductor { margin-bottom: 14px; }

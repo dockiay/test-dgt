@@ -113,11 +113,21 @@
     if (dibujo) dibujo.setAttribute("viewBox", `${vx} ${vy} ${vw} ${vh}`);
     return h("div", { class: "figura ej-tocar", style: `aspect-ratio:${vw}/${vh}` }, lienzo);
   }
+  // Escena animada de la web (escenas.js + data/escenas.js): fotograma quieto, sin pistas.
+  // `escena` es el id de una pregunta con escena (data/escenas.js) o la escena misma como objeto ({tipo, vehiculos, vias…}).
+  const escenaDe = ej => ej.escena && window.Escenas && (typeof ej.escena === "object" ? ej.escena : (window.ESCENAS || {})[ej.escena]);
+  function figuraEscena(ej) {
+    const e = escenaDe(ej);
+    if (!e) return null;
+    try { return h("div", { class: "figura esc-figura ej-escena" }, Escenas.crear(e, { titulo: e.titulo }).svg); }
+    catch (err) { console.error("Escena", ej.escena, err); return null; }
+  }
   const rutaImagen = src => (window.IMAGENES_EMBEBIDAS || {})[src] || "../../" + src;
 
   // ---------- Tocar en la imagen: zonas encima del esquema (botones reales, accesibles con teclado) ----------
   function tocar(ej, op) {
     let elegida = null;
+    if (ej.escena) return tocarEscena(ej, op);
     const [vx, vy, vw, vh] = ej.vista || [0, 0, 400, 400];
     const fig = esquema(ej);
     const px = v => ((v - vx) / vw * 100) + "%", py = v => ((v - vy) / vh * 100) + "%";
@@ -152,6 +162,50 @@
     };
   }
 
+  // Tocar sobre una escena: cada zona es un vehículo (id = letra); el botón se coloca encima del dibujo
+  // del vehículo cuando la figura ya está en pantalla, y se recoloca si cambia de tamaño.
+  function tocarEscena(ej, op) {
+    let elegida = null;
+    const fig = figuraEscena(ej) || h("div", { class: "figura" }, "No se pudo dibujar la escena.");
+    const botones = ej.zonas.map(z => {
+      const b = h("button", { type: "button", class: "zona zona-circulo", "aria-pressed": "false", "aria-label": z.etiqueta,
+        onclick: () => {
+          if (b.disabled) return;
+          elegida = z.id; sonar("toque");
+          botones.forEach(o => o.setAttribute("aria-pressed", String(o === b)));
+          animar(b, "pulsada"); op.cambio(true);
+        } });
+      b._z = z; return b;
+    });
+    fig.append(...botones);
+    function colocar() {
+      const caja = fig.getBoundingClientRect();
+      if (!caja.width) return;
+      botones.forEach(b => {
+        const v = fig.querySelector(`.e-vehiculo[data-v="${b._z.id}"] .e-cuerpo`);
+        if (!v) { b.hidden = true; return; }
+        const r = v.getBoundingClientRect(), lado = Math.max(56, Math.max(r.width, r.height) + 14);
+        const cx = r.left + r.width / 2 - caja.left, cy = r.top + r.height / 2 - caja.top;
+        const dentro = (v, max) => Math.max(2, Math.min(max - lado - 2, v)); // que no se salga del dibujo
+        Object.assign(b.style, { width: lado + "px", height: lado + "px", left: dentro(cx - lado / 2, caja.width) + "px", top: dentro(cy - lado / 2, caja.height) + "px" });
+      });
+    }
+    requestAnimationFrame(() => requestAnimationFrame(colocar));
+    const ro = window.ResizeObserver ? new ResizeObserver(colocar) : null;
+    if (ro) ro.observe(fig);
+    op.cambio(false);
+    return {
+      nodo: fig,
+      comprobar() {
+        const ok = elegida === ej.correcta;
+        botones.forEach(b => { b.disabled = true; if (b._z.id === ej.correcta) b.classList.add("correcta"); else if (b._z.id === elegida) b.classList.add("incorrecta"); });
+        const et = id => (ej.zonas.find(z => z.id === id) || {}).etiqueta;
+        return { ok, tuya: et(elegida), correcta: ej.textoCorrecta || et(ej.correcta) };
+      },
+      soltar() { if (ro) ro.disconnect(); },
+    };
+  }
+
   // ---------- Ordenar: tocar fichas del banco para colocarlas en los huecos (sin arrastrar) ----------
   function ordenar(ej, op) {
     const n = ej.pasos.length;
@@ -178,7 +232,7 @@
     function quitar(pos) { if (bloqueado) return; colocadas[pos] = null; sonar("toque"); pintar(); }
     pintar();
     return {
-      nodo: h("div", { class: "ej-ordenar" }, ej.esquema ? esquema(ej) : null, huecos, banco),
+      nodo: h("div", { class: "ej-ordenar" }, ej.escena ? figuraEscena(ej) : ej.esquema ? esquema(ej) : null, huecos, banco),
       comprobar() {
         bloqueado = true; pintar();
         const ok = colocadas.every((i, pos) => i === pos);
@@ -245,14 +299,21 @@
   // Bloque de explicación con las mismas clases que la pantalla al fallar de la web:
   // veredicto, porqué, truco y el enlace a la referencia (sin citas a la vista).
   const NORMA = { LSV: "Ley de Tráfico", RGC: "Reglamento General de Circulación", RGC_CATALOGO: "Catálogo de señales del Reglamento General de Circulación", MANUAL_DGT: "Manual del permiso B (DGT)" };
+  // Como en la web: la escena se reproduce sola arriba de la explicación (no con «reducir movimiento»).
+  function reproductorDe(ej) {
+    const e = escenaDe(ej);
+    if (!e || !Escenas.reproductor) return null;
+    try { return Escenas.reproductor(e, { autoplay: !sinMovimiento() }); } catch (err) { console.error("Escena", ej.escena, err); return null; }
+  }
   function explicacion(ej, r) {
     const f = ej.fuente;
     const ref = `${NORMA[f.norma] || f.norma}, ${/^(anexo|tema)/i.test(f.articulo) ? f.articulo : "art. " + f.articulo}`;
+    const rep = reproductorDe(ej);
     const veredicto = r.ok ? "Correcto" : r.fallos != null ? `Hecho, con ${r.fallos === 1 ? "1 fallo" : r.fallos + " fallos"}` : "Incorrecto";
     return h("div", { class: "explicacion animada" + (r.ok ? "" : " mal"), role: "status" },
       h("p", { class: "veredicto" }, ico(r.ok ? "check" : "x"), veredicto),
-      h("div", { class: "explicacion-cuerpo" }, h("div", { class: "leccion-pregunta" },
-        h("p", { class: "lec-porque" }, ej.porque),
+      h("div", { class: "explicacion-cuerpo" }, rep, h("div", { class: "leccion-pregunta" },
+        rep ? null : h("p", { class: "lec-porque" }, ej.porque), // con escena, el porqué ya va paso a paso en el reproductor
         ej.truco ? h("p", { class: "lec-truco" }, ico("bombilla"), h("span", {}, ej.truco)) : null)),
       h("a", { class: "fila", href: f.url, target: "_blank", rel: "noopener" }, ico("libro"),
         h("span", { class: "fila-cuerpo" }, h("span", { class: "fila-titulo" }, ref)), ico("enlace", "chevron")));

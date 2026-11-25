@@ -39,7 +39,7 @@
   // Cada materia se parte en unidades por tema; cada unidad tiene de 2 a 5 niveles de 10 preguntas y
   // termina con un test de paso (20 preguntas, máximo 3 fallos). Lo hecho se guarda en datos.camino
   // ({clave: ms}): "nv-m1u3-2" (nivel 2 de la unidad 3 de la materia 1) y "paso-m1u3".
-  const NIVEL_N = 10, NIVEL_REPASO = 3, PASO_N = 20, PASO_FALLOS = 3;
+  const NIVEL_N = 10, PASO_N = 20, PASO_FALLOS = 3;
   if (typeof P.extender === "function") P.extender("camino", { vacio: () => ({}), normalizar: normalizarLogros, combinar: combinarLogros });
   const caminoDe = d => (d.camino && typeof d.camino === "object") ? d.camino : (d.camino = {});
 
@@ -229,13 +229,48 @@
 
   // ---------- Preguntas de cada paso ----------
   const objs = ids => ids.map(id => A.POR_ID.get(id)).filter(Boolean);
-  // Nivel: 10 preguntas, 7 de la unidad (primero las que aún no domina) y 3 de repaso mezclado de unidades
-  // anteriores ya vistas (primero las del repaso de fallos, luego las vistas sin dominar).
+  // ---------- Repaso escondido ----------
+  // Modelo de olvido por pregunta (vida media): cada acierto seguido alarga lo que se tarda en olvidarla;
+  // un fallo la deja en medio día. Probabilidad de recordarla = 2^(-días desde la última vez / vida media).
+  const DIA_MS = 864e5;
+  function vidaMedia(r) {
+    const racha = (/1*$/.exec(r.h || "") || [""])[0].length;       // aciertos seguidos al final
+    if (!racha) return 0.5;                                          // la última vez la falló
+    const fiabilidad = (r.ok + 1) / (r.ok + r.ko + 2);               // las que ha fallado mucho se olvidan antes
+    return Math.min(90, 0.75 * Math.pow(2.5, racha) * (0.5 + fiabilidad));
+  }
+  function riesgo(r, ahora) { return 1 - Math.pow(2, -Math.max(0, ahora - (r.t || 0)) / DIA_MS / vidaMedia(r)); }
+  // Candidatas: preguntas ya vistas de cualquier unidad o materia menos la actual. Las de «Mis fallos» solo
+  // si ya les toca (las que aún no, esperan a su día para no adelantar el repaso espaciado); las que tocan
+  // van primero y, al acertarlas aquí, avanzan en «Mis fallos» igual que si se repasaran allí.
+  function candidatasRepaso(u, ahora = Date.now()) {
+    const d = A.datos, propias = new Set(u.ids), out = [];
+    for (const [id, r] of Object.entries(d.preguntas)) {
+      if (propias.has(id) || !r || !r.h || !A.POR_ID.has(id)) continue;
+      if (r.c > 0 && r.p > ahora) continue;
+      const toca = r.c > 0;
+      out.push({ p: A.POR_ID.get(id), toca, riesgo: toca ? 1 + riesgo(r, ahora) : riesgo(r, ahora) });
+    }
+    return out.sort((a, b) => b.riesgo - a.riesgo);
+  }
+  // Cuántas de repaso en un nivel de 10: 3 de normal; 4 o 5 si se acumula lo que está a punto de olvidarse
+  // o lo que toca de «Mis fallos»; 1 o 2 si casi nada corre peligro.
+  function cuantasRepaso(cands) {
+    const urgentes = cands.filter(c => c.riesgo >= 0.5).length;
+    if (urgentes >= 25) return 5;
+    if (urgentes >= 10) return 4;
+    if (urgentes >= 1) return 3;
+    return Math.min(2, cands.filter(c => c.riesgo >= 0.2).length);
+  }
+  // Nivel: 10 preguntas de la unidad (primero las que aún no domina) más el repaso escondido, elegido por
+  // riesgo de olvido y, entre las más urgentes, con preferencia por las de escena o imagen (App.priorizar).
   function preguntasNivel(u) {
     const d = A.datos, est = p => P.estado(d, p.id);
+    const cands = candidatasRepaso(u), k = cuantasRepaso(cands);
+    const tocan = cands.filter(c => c.toca).slice(0, k).map(c => c.p);
+    const resto = A.priorizar(cands.filter(c => !c.toca).slice(0, (k - tocan.length) * 2).map(c => c.p)).slice(0, k - tocan.length);
+    const repaso = tocan.concat(resto);
     const propias = objs(u.ids);
-    const antes = objs(UNIDADES.slice(0, UNIDADES.indexOf(u)).flatMap(x => x.ids)).filter(p => est(p) !== "nueva");
-    const repaso = [...A.priorizar(antes.filter(p => est(p) === "repaso")), ...A.priorizar(antes.filter(p => est(p) === "vista")), ...A.barajar(antes.filter(p => est(p) === "dominada"))].slice(0, NIVEL_REPASO);
     const nuevas = [...A.priorizar(propias.filter(p => est(p) !== "dominada")), ...A.barajar(propias.filter(p => est(p) === "dominada"))].slice(0, NIVEL_N - repaso.length);
     return A.barajar(nuevas.concat(repaso));
   }
@@ -527,7 +562,7 @@
     };
     pantalla({ titulo: "Temario", atras: { texto: "Inicio", href: "#/" } },
       h("h1", { class: "titulo-grande" }, "Temario"),
-      h("p", { class: "subtitulo" }, `Tu camino por las 16 materias, en ${UNIDADES.length} unidades. Cada nivel son ${NIVEL_N} preguntas (con ${NIVEL_REPASO} de repaso de lo anterior) y cada unidad termina con un test de paso: ${PASO_N} preguntas, ${PASO_FALLOS} fallos como máximo, como en el examen. Si ya dominas una parte, puedes saltar a su test de paso. Es una guía: puedes practicar cualquier materia cuando quieras.`),
+      h("p", { class: "subtitulo" }, `Tu camino por las 16 materias, en ${UNIDADES.length} unidades. Cada nivel son ${NIVEL_N} preguntas, entre ellas unas pocas de repaso de lo que ya has visto, elegidas por riesgo de olvido, y cada unidad termina con un test de paso: ${PASO_N} preguntas, ${PASO_FALLOS} fallos como máximo, como en el examen. Si ya dominas una parte, puedes saltar a su test de paso. Es una guía: puedes practicar cualquier materia cuando quieras.`),
       cifras([`${pasos}/${NODOS.length}`, "Pasos"], [`${unidadesOk}/${UNIDADES.length}`, "Unidades"], [`${coronas}/16`, "Coronas"]),
       A.segmentos([["camino", "Camino"], ["lista", "Lista"]], vista, v => { vista = v; animar = null; pintar(); }),
       cuerpo,

@@ -71,3 +71,4 @@ body.sesion .nav-avatar { display: none; }
 [aria-checked="true"] > .interruptor { background: var(--verde); }
 [aria-checked="true"] > .interruptor i { transform: translateX(20px); }
 .fila.destructiva .fila-titulo { color: var(--rojo-texto); }
+.enlace-pestana { background: none; border: 0; padding: 0; font: inherit; color: var(--tinte-texto); text-decoration: underline; cursor: pointer; }

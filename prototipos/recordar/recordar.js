@@ -350,4 +350,8 @@
   }
 
   window.Recordar = { crear: (ej, op) => CREAR[ej.tipo](ej, op), explicacion, TIPOS, ico, h, sinMovimiento };
+  // Si está cargado el motor común (prototipos/ejercicios/ejercicios.js), los cinco tipos se registran en él.
+  if (window.Ejercicios && Ejercicios.registrar)
+    for (const [tipo, d] of Object.entries(TIPOS))
+      Ejercicios.registrar(tipo, { nombre: d.nombre, icono: ICONOS[d.icono], crear: CREAR[tipo] });
 })();

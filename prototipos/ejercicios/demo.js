@@ -102,5 +102,7 @@
     setTimeout(() => { sonar(todo ? "aprobado" : "meta"); if (todo && window.Animo) Animo.confeti(); }, 150);
   }
 
-  portada();
+  // #ej=<id> abre ese ejercicio suelto (para enlazarlo o probarlo).
+  const directo = (location.hash.match(/^#ej=(.+)$/) || [])[1], k = directo ? LISTA.findIndex(e => e.id === decodeURIComponent(directo)) : -1;
+  if (k >= 0) leccion([k]); else portada();
 })();

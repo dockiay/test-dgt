@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Patinete eléctrico</title>
+<desc id="d">Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#e9edf1" />
+<rect x="0" y="330" width="400" height="70" fill="#c8ccd2"/>
+<g stroke="#2b2f36" stroke-linecap="round" fill="none"><line x1="110" y1="290" x2="300" y2="290" stroke-width="18"/><line x1="295" y1="290" x2="265" y2="80" stroke-width="12"/><line x1="235" y1="80" x2="295" y2="80" stroke-width="12"/></g>
+<circle cx="95" cy="300" r="30" fill="#2b2f36"/><circle cx="95" cy="300" r="12" fill="#9aa1aa"/>
+<circle cx="305" cy="300" r="30" fill="#2b2f36"/><circle cx="305" cy="300" r="12" fill="#9aa1aa"/>
+<rect x="268" y="96" width="14" height="10" rx="3" fill="#ffffff"/>
+</svg>

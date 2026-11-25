@@ -1,5 +1,5 @@
 {
-  "descripcion": "Preguntas a las que se ha puesto imagen después de redactarlas (24/11/2026). Solo cambian los campos imagen e imagen_requerida; el enunciado, las opciones, la respuesta y la explicación no se tocan. Se aplica con imagenes/asignar_imagenes.py. Tanda del 25/11/2026: esquemas de imagenes/esquemas/esquemas_tanda4.py.",
+  "descripcion": "Preguntas a las que se ha puesto imagen después de redactarlas (24/11/2026). Solo cambian los campos imagen e imagen_requerida; el enunciado, las opciones, la respuesta y la explicación no se tocan. Se aplica con imagenes/asignar_imagenes.py. Tanda del 25/11/2026: esquemas de imagenes/esquemas/esquemas_tanda4.py. 25/11/2026: añadidas fotos libres de Wikimedia Commons (img/fotos-libres/, con autor y licencia en el crédito), hitos recortados del BOE y dibujos propios de señales de vehículos e ilustraciones.",
   "preguntas": [
     {
       "id": "x1b-0041",
@@ -339,6 +339,170 @@
     {
       "id": "xc-0116",
       "src": "img/esquemas/plataforma-unica.svg"
+    },
+    {
+      "id": "C-sev-0002",
+      "src": "img/esquemas/senal-V-6-vehiculo-largo.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-6 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "C-sev-0003",
+      "src": "img/esquemas/senal-V-9-servicio-publico.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-9 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "C-sev-0006",
+      "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "C-sev-0007",
+      "src": "img/esquemas/dispositivo-V-16.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "xd-0142",
+      "src": "img/esquemas/dispositivo-V-16.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "E-acc-0012",
+      "src": "img/esquemas/dispositivo-V-16.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "xd-0138",
+      "src": "img/esquemas/dispositivo-V-16.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "xd-0111",
+      "src": "img/esquemas/senal-V-4-limitacion-velocidad.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-4 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "xd-0113",
+      "src": "img/esquemas/senal-V-11-mercancias-peligrosas.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-11 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "cesp-0007",
+      "src": "img/esquemas/senal-V-15-discapacidad.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-15 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "v5d-sev-0001",
+      "src": "img/esquemas/senal-V-10-transporte-escolar.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-10 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "v5d-sev-0002",
+      "src": "img/esquemas/senal-V-14-aprendizaje.svg",
+      "credito": "Esquema propio del proyecto, según la señal V-14 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+    },
+    {
+      "id": "E-mec-0006",
+      "src": "img/esquemas/testigo-presion-aceite.svg"
+    },
+    {
+      "id": "v5f-mec-0003",
+      "src": "img/esquemas/deposito-refrigerante.svg"
+    },
+    {
+      "id": "D-man-0001",
+      "src": "img/esquemas/pedales-turismo.svg"
+    },
+    {
+      "id": "E-neu-0005",
+      "src": "img/esquemas/neumatico-bulto.svg"
+    },
+    {
+      "id": "C-per-0004",
+      "src": "img/esquemas/silla-contramarcha-airbag.svg"
+    },
+    {
+      "id": "E-pas-0008",
+      "src": "img/esquemas/silla-contramarcha-airbag.svg"
+    },
+    {
+      "id": "res-def-0004",
+      "src": "img/esquemas/patinete-electrico.svg"
+    },
+    {
+      "id": "via-0007",
+      "src": "img/esquemas/patinete-electrico.svg"
+    },
+    {
+      "id": "C-luc-0001",
+      "src": "img/esquemas/camion-galibo.svg"
+    },
+    {
+      "id": "xe-0063",
+      "src": "img/fotos-libres/neumatico-dibujo-twi.jpg"
+    },
+    {
+      "id": "xe-0064",
+      "src": "img/fotos-libres/neumatico-dibujo-twi.jpg"
+    },
+    {
+      "id": "E-neu-0001",
+      "src": "img/fotos-libres/neumatico-dibujo-twi.jpg"
+    },
+    {
+      "id": "xe-0067",
+      "src": "img/fotos-libres/simbolo-3pmsf.jpg"
+    },
+    {
+      "id": "xd-0011",
+      "src": "img/fotos-libres/cadenas-nieve.jpg"
+    },
+    {
+      "id": "v5f-ent-0001",
+      "src": "img/fotos-libres/cadenas-nieve.jpg"
+    },
+    {
+      "id": "xd-0135",
+      "src": "img/fotos-libres/chaleco-reflectante.jpg"
+    },
+    {
+      "id": "xe-0085",
+      "src": "img/fotos-libres/silla-infantil.jpg"
+    },
+    {
+      "id": "E-pas-0012",
+      "src": "img/fotos-libres/reposacabezas.jpg"
+    },
+    {
+      "id": "C-per-0014",
+      "src": "img/fotos-libres/silla-nino-bicicleta.jpg"
+    },
+    {
+      "id": "xe-0024",
+      "src": "img/fotos-libres/rcp-manos.jpg"
+    },
+    {
+      "id": "E-aux-0004",
+      "src": "img/fotos-libres/rcp-manos.jpg"
+    },
+    {
+      "id": "E-mec-0005",
+      "src": "img/fotos-libres/varilla-aceite.jpg"
+    },
+    {
+      "id": "vel-0007",
+      "src": "img/fotos-libres/tractor-agricola.jpg"
+    },
+    {
+      "id": "x1a-0042",
+      "src": "img/fotos-libres/tractor-agricola.jpg"
+    },
+    {
+      "id": "v5c-bal-0001",
+      "src": "img/fotos-boe/hitos-vertice.jpg"
+    },
+    {
+      "id": "v5c-bal-0002",
+      "src": "img/fotos-boe/hitos-arista.jpg"
     }
   ]
 }

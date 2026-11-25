@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Disco blanco con borde rojo y una cifra</title>
+<desc id="d">Placa circular de fondo blanco con borde rojo y una cifra en negro, como la que se lleva en la parte trasera del vehículo.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#eef1f4" />
+<circle cx="200" cy="200" r="150" fill="#ffffff" stroke="#555" stroke-width="3"/>
+<circle cx="200" cy="200" r="132" fill="none" stroke="#d0021b" stroke-width="30"/>
+<text x="200" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="130" fill="#111" >60</text>
+</svg>

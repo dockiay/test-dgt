@@ -974,6 +974,247 @@ ESQUEMAS_EXTRA3 = [
 
 ESQUEMAS += ESQUEMAS_EXTRA3
 
+
+# ---------------------------------------------------------------- tanda 4: señales de vehículos e ilustraciones (25/11/2026)
+FUENTE_TXT = 'font-family="Arial, Helvetica, sans-serif" font-weight="bold"'
+
+
+def placa(x, y, w, h, fondo, borde="#ffffff", rx=14, margen=10):
+    """Placa con bordón exterior (borde) y fondo reflectante."""
+    return [f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{borde}" stroke="#555" stroke-width="3"/>',
+            f'<rect x="{x + margen}" y="{y + margen}" width="{w - 2 * margen}" height="{h - 2 * margen}" rx="{max(rx - 6, 2)}" fill="{fondo}"/>']
+
+
+def texto(x, y, txt, size, color, extra=""):
+    return f'<text x="{x}" y="{y}" text-anchor="middle" {FUENTE_TXT} font-size="{size}" fill="{color}" {extra}>{txt}</text>'
+
+
+def v4_limitacion():
+    """V-4: disco blanco con borde rojo y la cifra de la velocidad en negro."""
+    return [rect(0, 0, W, W, FONDO_NEUTRO),
+            '<circle cx="200" cy="200" r="150" fill="#ffffff" stroke="#555" stroke-width="3"/>',
+            '<circle cx="200" cy="200" r="132" fill="none" stroke="#d0021b" stroke-width="30"/>',
+            texto(200, 245, "60", 130, "#111")]
+
+
+def v6_vehiculo_largo():
+    """V-6, opción A del plano: panel alargado amarillo reflectante con borde rojo fluorescente."""
+    return [rect(0, 0, W, W, FONDO_NEUTRO),
+            '<rect x="20" y="162" width="360" height="76" rx="4" fill="#ff3b1f" stroke="#555" stroke-width="3"/>',
+            '<rect x="33" y="175" width="334" height="50" fill="#ffd200"/>']
+
+
+def v9_servicio_publico():
+    """V-9: placa blanca reflectante con las letras SP en negro y bordón negro."""
+    return [rect(0, 0, W, W, FONDO_NEUTRO)] + placa(60, 110, 280, 180, "#ffffff", borde="#1a1a1a", margen=8) + \
+           [texto(200, 248, "SP", 140, "#111")]
+
+
+def nino(x, y, s, color):
+    """Silueta sencilla de una persona caminando (cabeza, tronco, brazos y piernas)."""
+    return (f'<g transform="translate({x},{y}) scale({s})" fill="none" stroke="{color}" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">'
+            f'<circle cx="0" cy="-92" r="20" fill="{color}" stroke="none"/>'
+            '<path d="M0,-62 L4,10"/><path d="M2,-50 L-28,-12 M2,-50 L30,-18"/>'
+            '<path d="M4,10 L-22,70 M4,10 L30,66"/></g>')
+
+
+def v10_transporte_escolar():
+    """V-10: cuadrado amarillo reflectante con dos niños en negro y, debajo, rectángulo blanco con «TRANSPORTE ESCOLAR»."""
+    return [rect(0, 0, W, W, FONDO_NEUTRO),
+            '<rect x="70" y="30" width="260" height="340" rx="10" fill="#ffffff" stroke="#555" stroke-width="3"/>',
+            '<rect x="82" y="42" width="236" height="236" fill="#ffd200"/>',
+            nino(165, 205, 0.95, "#111"), nino(245, 225, 0.72, "#111"),
+            '<path d="M178,150 Q205,170 230,175" stroke="#111" stroke-width="12" fill="none" stroke-linecap="round"/>',
+            texto(200, 318, "TRANSPORTE", 34, "#111"), texto(200, 356, "ESCOLAR", 34, "#111")]
+
+
+def v11_mercancias_peligrosas():
+    """V-11: panel naranja reflectante con borde negro y una línea horizontal que separa el número de peligro (arriba)
+    y el número ONU de la materia (abajo). Ejemplo: 33 / 1203 (gasolina)."""
+    return [rect(0, 0, W, W, FONDO_NEUTRO),
+            '<rect x="50" y="100" width="300" height="200" rx="6" fill="#111"/>',
+            '<rect x="62" y="112" width="276" height="176" fill="#ff8c1a"/>',
+            '<rect x="62" y="194" width="276" height="12" fill="#111"/>',
+            texto(200, 180, "33", 70, "#111"), texto(200, 272, "1203", 70, "#111")]
+
+
+def v14_aprendizaje():
+    """V-14 según el plano del anexo XI del RGV (200 x 300 mm): fondo azul reflectante (escuela de conductores), letra L
+    blanca arriba y, abajo, una franja blanca con la palabra PRACTICAS en rojo."""
+    x0, y0 = 100, 50  # 1 px = 1 mm
+    return [rect(0, 0, W, W, FONDO_NEUTRO),
+            f'<rect x="{x0}" y="{y0}" width="200" height="300" rx="14" fill="#1f4fa8" stroke="#555" stroke-width="3"/>',
+            f'<path d="M{x0 + 57},{y0 + 40} L{x0 + 82},{y0 + 40} L{x0 + 82},{y0 + 145} L{x0 + 142},{y0 + 145} L{x0 + 142},{y0 + 170} '
+            f'L{x0 + 57},{y0 + 170} Z" fill="#ffffff"/>',
+            f'<rect x="{x0 + 4}" y="{y0 + 200}" width="192" height="65" fill="#ffffff"/>',
+            texto(200, y0 + 252, "PRACTICAS", 40, "#d0021b", 'textLength="176" lengthAdjust="spacingAndGlyphs"')]
+
+
+def v15_discapacidad():
+    """V-15: placa azul reflectante con el símbolo blanco de una persona en silla de ruedas."""
+    return [rect(0, 0, W, W, FONDO_NEUTRO)] + placa(80, 70, 240, 260, "#1f4fa8", borde="#ffffff", margen=10) + [
+        '<g fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">'
+        '<path d="M190,140 L184,215 L240,215 L262,268"/>'
+        '<path d="M186,175 L230,175"/>'
+        '<path d="M160,190 A52,52 0 1 0 238,262"/></g>',
+        '<circle cx="194" cy="114" r="17" fill="#ffffff"/>']
+
+
+def v16_dispositivo():
+    """V-16: dispositivo luminoso de color amarillo auto, con base y luz encendida que emite en todas direcciones."""
+    els = [rect(0, 0, W, W, "#2b3340"),
+           '<ellipse cx="200" cy="300" rx="95" ry="22" fill="#1b1f27"/>',
+           '<path d="M115,250 L285,250 L292,292 Q200,312 108,292 Z" fill="#20242c"/>',
+           '<path d="M135,250 L135,195 Q200,120 265,195 L265,250 Z" fill="#ffb300"/>',
+           '<path d="M150,245 L150,200 Q200,145 250,200 L250,245 Z" fill="#ffd54a" opacity="0.8"/>']
+    for ang in (-160, -130, -100, -80, -50, -20, 200):
+        a = math.radians(ang)
+        els.append(f'<line x1="{200 + 110 * math.cos(a):.1f}" y1="{205 + 110 * math.sin(a):.1f}" x2="{200 + 160 * math.cos(a):.1f}" '
+                   f'y2="{205 + 160 * math.sin(a):.1f}" stroke="#ffc928" stroke-width="10" stroke-linecap="round"/>')
+    return els
+
+
+def testigo_aceite():
+    """Cuadro de instrumentos con el testigo de presión de aceite (alcuza con una gota) encendido en rojo."""
+    return [rect(0, 0, W, W, "#1c2027"),
+            '<rect x="40" y="90" width="320" height="220" rx="28" fill="#0f1216" stroke="#3a414b" stroke-width="4"/>',
+            '<g fill="#ff3b30">'
+            '<path d="M110,240 L110,200 Q110,188 122,188 L150,188 L150,176 L136,176 L136,164 L184,164 L184,176 L170,176 L170,188 '
+            'L215,188 L290,168 L294,180 L232,240 Z"/>'
+            '<path d="M300,200 Q306,214 306,222 A8,8 0 0 1 290,222 Q290,214 300,200 Z"/>'
+            '<path d="M78,196 L104,206 L104,222 L78,214 Z"/></g>']
+
+
+def deposito_refrigerante():
+    """Depósito de expansión del líquido refrigerante, translúcido, con las marcas MIN y MAX y el tapón."""
+    return [rect(0, 0, W, W, "#d9dde2"),
+            '<rect x="110" y="70" width="180" height="270" rx="26" fill="#f4f1e6" stroke="#8a8f96" stroke-width="5"/>',
+            '<path d="M115,210 L285,210 L285,312 Q285,335 262,335 L138,335 Q115,335 115,312 Z" fill="#ff5fa2" opacity="0.75"/>',
+            '<rect x="160" y="34" width="80" height="46" rx="8" fill="#1f2328"/>',
+            '<line x1="240" y1="170" x2="290" y2="170" stroke="#333" stroke-width="5"/>',
+            '<line x1="240" y1="260" x2="290" y2="260" stroke="#333" stroke-width="5"/>',
+            texto(325, 177, "MAX", 22, "#222"), texto(325, 267, "MIN", 22, "#222")]
+
+
+def pedales():
+    """Los tres pedales de un turismo con cambio manual, vistos desde el asiento del conductor."""
+    els = [rect(0, 0, W, W, "#2a2e35"), '<rect x="0" y="300" width="400" height="100" fill="#1d2025"/>']
+    for x, w, h, nombre in ((80, 70, 80, "Embrague"), (180, 80, 80, "Freno"), (300, 46, 120, "Acelerador")):
+        els += [f'<rect x="{x + w / 2 - 5}" y="40" width="10" height="{170 - h / 2}" fill="#555b64"/>',
+                f'<rect x="{x}" y="{210 - h / 2}" width="{w}" height="{h}" rx="10" fill="#0e1013" stroke="#6b717a" stroke-width="4"/>',
+                texto(x + w / 2, 350, nombre, 20, "#e8eaed")]
+    return els
+
+
+def neumatico_bulto():
+    """Rueda de turismo vista de lado: en el costado del neumático hay un bulto (ampolla)."""
+    return [rect(0, 0, W, W, "#e4e7eb"),
+            '<defs><radialGradient id="bulto" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#9aa0a8"/>'
+            '<stop offset="0.6" stop-color="#3a3e45"/><stop offset="1" stop-color="#26292e"/></radialGradient></defs>',
+            '<circle cx="200" cy="200" r="160" fill="#26292e"/>',
+            '<circle cx="200" cy="200" r="150" fill="none" stroke="#33373d" stroke-width="3"/>',
+            '<ellipse cx="296" cy="144" rx="42" ry="30" transform="rotate(-40 296 144)" fill="url(#bulto)" stroke="#1a1c20" stroke-width="2"/>',
+            '<circle cx="200" cy="200" r="100" fill="#b9bec5" stroke="#8d939b" stroke-width="6"/>',
+            '<circle cx="200" cy="200" r="26" fill="#8d939b"/>'] + \
+           [f'<circle cx="{200 + 52 * math.cos(math.radians(a)):.1f}" cy="{200 + 52 * math.sin(math.radians(a)):.1f}" r="8" fill="#6d737b"/>'
+            for a in range(0, 360, 72)]
+
+
+def silla_contramarcha_airbag():
+    """Vista lateral del asiento del acompañante (el coche avanza hacia la izquierda) con una silla de bebé orientada
+    hacia atrás y, delante, el salpicadero con el airbag frontal."""
+    return [rect(0, 0, W, W, "#e9edf1"),
+            # parabrisas y salpicadero, a la izquierda
+            '<line x1="10" y1="20" x2="120" y2="120" stroke="#9fb3c8" stroke-width="8"/>',
+            '<path d="M0,120 L125,120 Q150,124 150,150 L150,200 Q150,215 135,215 L0,230 Z" fill="#3b4048"/>',
+            '<rect x="96" y="138" width="48" height="26" rx="5" fill="#e0e3e7"/>',
+            texto(120, 156, "AIRBAG", 10, "#333"),
+            # asiento: banqueta, respaldo y reposacabezas
+            '<path d="M180,330 L365,330 L365,300 L190,300 Z" fill="#4a5f7a"/>',
+            '<path d="M335,300 L368,300 L390,115 L360,110 Z" fill="#4a5f7a"/>',
+            '<rect x="356" y="70" width="36" height="44" rx="10" fill="#4a5f7a"/>',
+            # silla a contramarcha: la espalda de la concha mira al salpicadero; el bebé mira hacia el respaldo
+            '<path d="M170,170 Q175,300 300,300 L320,300 L322,282 Q215,282 200,175 Z" fill="#e57a2e"/>',
+            '<path d="M178,180 Q230,120 300,165" stroke="#555" stroke-width="7" fill="none"/>',
+            '<circle cx="215" cy="200" r="19" fill="#f2c9a0"/>',
+            '<path d="M222,222 Q240,262 300,278 L312,262 Q262,246 246,214 Z" fill="#7db0e0"/>']
+
+
+def patinete_electrico():
+    """Patinete eléctrico (vehículo de movilidad personal) visto de lado."""
+    return [rect(0, 0, W, W, "#e9edf1"), '<rect x="0" y="330" width="400" height="70" fill="#c8ccd2"/>',
+            '<g stroke="#2b2f36" stroke-linecap="round" fill="none">'
+            '<line x1="110" y1="290" x2="300" y2="290" stroke-width="18"/>'
+            '<line x1="295" y1="290" x2="265" y2="80" stroke-width="12"/>'
+            '<line x1="235" y1="80" x2="295" y2="80" stroke-width="12"/></g>',
+            '<circle cx="95" cy="300" r="30" fill="#2b2f36"/><circle cx="95" cy="300" r="12" fill="#9aa1aa"/>',
+            '<circle cx="305" cy="300" r="30" fill="#2b2f36"/><circle cx="305" cy="300" r="12" fill="#9aa1aa"/>',
+            '<rect x="268" y="96" width="14" height="10" rx="3" fill="#ffffff"/>']
+
+
+def camion_galibo():
+    """Parte trasera de un camión ancho, de noche: luces de gálibo rojas en las esquinas superiores y pilotos traseros."""
+    return [rect(0, 0, W, W, "#1a2230"), '<rect x="0" y="330" width="400" height="70" fill="#2a2f36"/>',
+            '<rect x="70" y="50" width="260" height="250" rx="6" fill="#8b95a3"/>',
+            '<line x1="200" y1="58" x2="200" y2="292" stroke="#6b7480" stroke-width="4"/>',
+            '<rect x="60" y="292" width="280" height="24" fill="#3a3f47"/>',
+            '<rect x="100" y="316" width="50" height="22" fill="#111"/><rect x="250" y="316" width="50" height="22" fill="#111"/>',
+            '<circle cx="84" cy="64" r="9" fill="#ff2a2a"/><circle cx="316" cy="64" r="9" fill="#ff2a2a"/>',
+            '<circle cx="84" cy="64" r="18" fill="#ff2a2a" opacity="0.25"/><circle cx="316" cy="64" r="18" fill="#ff2a2a" opacity="0.25"/>',
+            '<rect x="66" y="296" width="44" height="16" rx="3" fill="#ff3b30"/><rect x="290" y="296" width="44" height="16" rx="3" fill="#ff3b30"/>',
+            '<rect x="170" y="296" width="60" height="16" fill="#f0e6b0"/>']
+
+
+ESQUEMAS_EXTRA4 = [
+    ("senal-V-4-limitacion-velocidad.svg", "Disco blanco con borde rojo y una cifra",
+     "Placa circular de fondo blanco con borde rojo y una cifra en negro, como la que se lleva en la parte trasera del vehículo.",
+     v4_limitacion),
+    ("senal-V-6-vehiculo-largo.svg", "Panel alargado amarillo con borde rojo",
+     "Panel rectangular alargado de fondo amarillo con un borde rojo.",
+     v6_vehiculo_largo),
+    ("senal-V-9-servicio-publico.svg", "Placa blanca con las letras SP",
+     "Placa rectangular blanca con las letras SP en negro y un borde negro.",
+     v9_servicio_publico),
+    ("senal-V-10-transporte-escolar.svg", "Placa amarilla con dos niños",
+     "Placa con un cuadrado amarillo en el que aparecen dos niños de la mano en negro y, debajo, las palabras TRANSPORTE ESCOLAR sobre fondo blanco.",
+     v10_transporte_escolar),
+    ("senal-V-11-mercancias-peligrosas.svg", "Panel naranja con dos números",
+     "Panel rectangular naranja con borde negro, dividido por una línea negra horizontal: arriba el número 33 y abajo el 1203.",
+     v11_mercancias_peligrosas),
+    ("senal-V-14-aprendizaje.svg", "Placa azul con una L y la palabra PRACTICAS",
+     "Placa rectangular de fondo azul con una letra L blanca y, debajo, la palabra PRACTICAS en blanco.",
+     v14_aprendizaje),
+    ("senal-V-15-discapacidad.svg", "Placa azul con una silla de ruedas",
+     "Placa de fondo azul con el símbolo blanco de una persona en silla de ruedas.",
+     v15_discapacidad),
+    ("dispositivo-V-16.svg", "Dispositivo luminoso amarillo encendido",
+     "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+     v16_dispositivo),
+    ("testigo-presion-aceite.svg", "Testigo rojo con una alcuza",
+     "Cuadro de instrumentos con un testigo rojo encendido que muestra una alcuza (aceitera) con una gota.",
+     testigo_aceite),
+    ("deposito-refrigerante.svg", "Depósito del líquido refrigerante",
+     "Depósito translúcido del líquido refrigerante con su tapón y dos marcas, MAX arriba y MIN abajo; el líquido está entre las dos.",
+     deposito_refrigerante),
+    ("pedales-turismo.svg", "Pedales de un turismo",
+     "Los tres pedales de un turismo con cambio manual vistos desde el asiento: embrague a la izquierda, freno en el centro y acelerador a la derecha.",
+     pedales),
+    ("neumatico-bulto.svg", "Neumático con un bulto en el costado",
+     "Rueda de turismo vista de lado. En el costado del neumático sobresale un bulto.",
+     neumatico_bulto),
+    ("silla-contramarcha-airbag.svg", "Silla de bebé a contramarcha en el asiento delantero",
+     "Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal.",
+     silla_contramarcha_airbag),
+    ("patinete-electrico.svg", "Patinete eléctrico",
+     "Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar.",
+     patinete_electrico),
+    ("camion-galibo.svg", "Parte trasera de un camión de noche",
+     "Parte trasera de un camión ancho, de noche, con dos luces rojas en las esquinas de arriba y los pilotos traseros abajo.",
+     camion_galibo),
+]
+
+ESQUEMAS += ESQUEMAS_EXTRA4
+
 if __name__ == "__main__":
     aqui = os.path.dirname(os.path.abspath(__file__))
     for fichero, titulo, desc, fn in ESQUEMAS:

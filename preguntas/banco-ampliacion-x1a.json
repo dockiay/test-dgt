@@ -1311,8 +1311,17 @@
         "ref": "RGC art. 49",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/tractor-agricola.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Tractor agrícola en una calle de Lugo",
+        "credito": "Foto: Certo Xornal, Wikimedia Commons, CC BY-SA 2.0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Tractor agrícola en una calle de Lugo"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

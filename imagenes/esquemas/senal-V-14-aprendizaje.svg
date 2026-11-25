@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Placa azul con una L y la palabra PRACTICAS</title>
+<desc id="d">Placa rectangular de fondo azul con una letra L blanca y, debajo, la palabra PRACTICAS en blanco.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#eef1f4" />
+<rect x="100" y="50" width="200" height="300" rx="14" fill="#1f4fa8" stroke="#555" stroke-width="3"/>
+<path d="M157,90 L182,90 L182,195 L242,195 L242,220 L157,220 Z" fill="#ffffff"/>
+<rect x="104" y="250" width="192" height="65" fill="#ffffff"/>
+<text x="200" y="302" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="40" fill="#d0021b" textLength="176" lengthAdjust="spacingAndGlyphs">PRACTICAS</text>
+</svg>

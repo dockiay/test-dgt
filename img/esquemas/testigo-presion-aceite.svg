@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Testigo rojo con una alcuza</title>
+<desc id="d">Cuadro de instrumentos con un testigo rojo encendido que muestra una alcuza (aceitera) con una gota.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#1c2027" />
+<rect x="40" y="90" width="320" height="220" rx="28" fill="#0f1216" stroke="#3a414b" stroke-width="4"/>
+<g fill="#ff3b30"><path d="M110,240 L110,200 Q110,188 122,188 L150,188 L150,176 L136,176 L136,164 L184,164 L184,176 L170,176 L170,188 L215,188 L290,168 L294,180 L232,240 Z"/><path d="M300,200 Q306,214 306,222 A8,8 0 0 1 290,222 Q290,214 300,200 Z"/><path d="M78,196 L104,206 L104,222 L78,214 Z"/></g>
+</svg>

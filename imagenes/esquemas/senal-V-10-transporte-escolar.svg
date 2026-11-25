@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Placa amarilla con dos niños</title>
+<desc id="d">Placa con un cuadrado amarillo en el que aparecen dos niños de la mano en negro y, debajo, las palabras TRANSPORTE ESCOLAR sobre fondo blanco.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#eef1f4" />
+<rect x="70" y="30" width="260" height="340" rx="10" fill="#ffffff" stroke="#555" stroke-width="3"/>
+<rect x="82" y="42" width="236" height="236" fill="#ffd200"/>
+<g transform="translate(165,205) scale(0.95)" fill="none" stroke="#111" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="-92" r="20" fill="#111" stroke="none"/><path d="M0,-62 L4,10"/><path d="M2,-50 L-28,-12 M2,-50 L30,-18"/><path d="M4,10 L-22,70 M4,10 L30,66"/></g>
+<g transform="translate(245,225) scale(0.72)" fill="none" stroke="#111" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="-92" r="20" fill="#111" stroke="none"/><path d="M0,-62 L4,10"/><path d="M2,-50 L-28,-12 M2,-50 L30,-18"/><path d="M4,10 L-22,70 M4,10 L30,66"/></g>
+<path d="M178,150 Q205,170 230,175" stroke="#111" stroke-width="12" fill="none" stroke-linecap="round"/>
+<text x="200" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="34" fill="#111" >TRANSPORTE</text>
+<text x="200" y="356" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="34" fill="#111" >ESCOLAR</text>
+</svg>

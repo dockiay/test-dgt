@@ -677,8 +677,17 @@
         "ref": "Manual DGT tema 16",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/rcp-manos.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas",
+        "credito": "Foto: Another-anon-artist-234, Wikimedia Commons, CC0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1731,8 +1740,17 @@
         "ref": "Manual DGT tema 5",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/neumatico-dibujo-twi.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+        "credito": "Foto: Quallyptus, Wikimedia Commons, CC0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1762,8 +1780,17 @@
         "ref": "RGV anexo VII",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/neumatico-dibujo-twi.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+        "credito": "Foto: Quallyptus, Wikimedia Commons, CC0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -1855,8 +1882,17 @@
         "ref": "RGV anexo VII",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/simbolo-3pmsf.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Símbolo de una montaña de tres picos con un copo de nieve (3PMSF)",
+        "credito": "Imagen: Grummelbacke, Wikimedia Commons, dominio público"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Símbolo de una montaña de tres picos con un copo de nieve (3PMSF)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2382,8 +2418,17 @@
         "ref": "RGC art. 117",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/silla-infantil.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Sistema de retención infantil (silla) para el coche, con arnés de cinco puntos",
+        "credito": "Foto: Cschirp, Wikimedia Commons, CC BY-SA 2.5"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Sistema de retención infantil (silla) para el coche, con arnés de cinco puntos"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

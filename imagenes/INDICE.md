@@ -1,6 +1,6 @@
 # Índice de imágenes
 
-Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice.json`.
+Generado el 2026-11-25 con `construir_indice.py`. El fichero de datos es `indice.json`.
 
 ## Origen y licencia
 
@@ -8,6 +8,7 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 - **Marcas viales** (`marcas/`): planos del Catálogo de marcas viales del mismo anexo I (apartado 5.2). Misma licencia.
 - **Figuras del BOE** (`figuras-boe/`): láminas del mismo anexo I (agentes, balizamiento, semáforos). Misma licencia.
 - **Fotos del BOE** (`fotos-boe/`): recortes de las láminas del anexo I del RGC y del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826). Misma licencia.
+- **Fotos libres** (`fotos-libres/`): fotos e ilustraciones de Wikimedia Commons con licencia CC0, dominio público, CC BY o CC BY-SA; cada entrada lleva autor, licencia y enlace a la ficha, y el crédito se muestra en la web.
 - **Esquemas** (`esquemas/`): dibujos propios en SVG, hechos con `esquemas/plantilla_esquemas.py`.
 - No se usan imágenes de los tests de la DGT ni de webs comerciales.
 
@@ -682,7 +683,7 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | M-8.2 | `marcas/M-8.2.png` | 717 |
 | M-8.3 | `marcas/M-8.3.png` | 717 |
 
-## Fotos recortadas del BOE (13)
+## Fotos recortadas del BOE (15)
 
 | Fichero | Qué muestra | Fuente |
 |---|---|---|
@@ -699,6 +700,8 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `fotos-boe/semaforo-carril-flecha-oblicua.jpg` | Semáforo de carril con una flecha oblicua iluminada hacia abajo | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3 |
 | `fotos-boe/semaforos-ciclos.jpg` | Semáforos con la silueta de una bicicleta en las luces | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4 |
 | `fotos-boe/V-26.jpg` | Distintivo circular azul con un turismo y varias personas | Anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826), señal V-26 |
+| `fotos-boe/hitos-vertice.jpg` | Dos hitos de vértice: piezas semicilíndricas, una verde y otra azul, con un rombo blanco | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3 |
+| `fotos-boe/hitos-arista.jpg` | Dos hitos de arista: postes blancos con una franja negra y elementos reflectantes | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3 |
 
 ## Figuras del anexo I (12)
 
@@ -717,7 +720,22 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `figuras-boe/anexoI-pag083-010.jpg` | Semáforos cuadrados o de carril | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.3 |
 | `figuras-boe/anexoI-pag084-011.jpg` | Semáforos reservados a determinados vehículos (ciclos, tranvías y autobuses) | Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 4.4 |
 
-## Esquemas propios (44)
+## Fotos libres (Wikimedia Commons) (10)
+
+| Fichero | Qué muestra | Fuente |
+|---|---|---|
+| `fotos-libres/neumatico-dibujo-twi.jpg` | Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI | Foto: Quallyptus, Wikimedia Commons, CC0 |
+| `fotos-libres/chaleco-reflectante.jpg` | Chaleco amarillo de alta visibilidad con dos bandas reflectantes | Foto: Magnus Mertens, Wikimedia Commons, CC BY-SA 2.0 DE |
+| `fotos-libres/silla-infantil.jpg` | Sistema de retención infantil (silla) para el coche, con arnés de cinco puntos | Foto: Cschirp, Wikimedia Commons, CC BY-SA 2.5 |
+| `fotos-libres/reposacabezas.jpg` | Asiento delantero de un turismo con su reposacabezas | Foto: Santeri Viinamäki, Wikimedia Commons, CC BY-SA 4.0 |
+| `fotos-libres/silla-nino-bicicleta.jpg` | Asiento adicional para un niño montado en una bicicleta, con arnés | Foto: Xanor, Wikimedia Commons, CC0 |
+| `fotos-libres/tractor-agricola.jpg` | Tractor agrícola en una calle de Lugo | Foto: Certo Xornal, Wikimedia Commons, CC BY-SA 2.0 |
+| `fotos-libres/varilla-aceite.jpg` | Varilla del nivel de aceite del motor, recién sacada y apoyada en un papel | Foto: Dvortygirl, Wikimedia Commons, CC BY-SA 3.0 |
+| `fotos-libres/rcp-manos.jpg` | Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas | Foto: Another-anon-artist-234, Wikimedia Commons, CC0 |
+| `fotos-libres/cadenas-nieve.jpg` | Persona colocando cadenas metálicas para nieve en una rueda | Foto: Oregon Department of Transportation, Wikimedia Commons, CC BY 2.0 |
+| `fotos-libres/simbolo-3pmsf.jpg` | Símbolo de una montaña de tres picos con un copo de nieve (3PMSF) | Imagen: Grummelbacke, Wikimedia Commons, dominio público |
+
+## Esquemas propios (59)
 
 | Fichero | Qué muestra | Fuente |
 |---|---|---|
@@ -765,4 +783,19 @@ Generado el 2026-11-24 con `construir_indice.py`. El fichero de datos es `indice
 | `esquemas/refugio-peatones-sentido-unico.svg` | Calle de sentido único con un paso para peatones y un refugio en el centro de la calzada. No hay señales. El vehículo A se acerca al refugio. | Esquema propio del proyecto |
 | `esquemas/grupo-ciclistas-cruce.svg` | Cruce visto desde arriba. Un grupo de seis ciclistas lo atraviesa de izquierda a derecha y el primero ya está dentro; el vehículo A llega por el sur. | Esquema propio del proyecto |
 | `esquemas/senal-V-13-conductor-novel.svg` | Placa rectangular de fondo verde con una letra L blanca y un borde blanco. | Esquema propio del proyecto |
+| `esquemas/senal-V-4-limitacion-velocidad.svg` | Placa circular de fondo blanco con borde rojo y una cifra en negro, como la que se lleva en la parte trasera del vehículo. | Esquema propio del proyecto |
+| `esquemas/senal-V-6-vehiculo-largo.svg` | Panel rectangular alargado de fondo amarillo con un borde rojo. | Esquema propio del proyecto |
+| `esquemas/senal-V-9-servicio-publico.svg` | Placa rectangular blanca con las letras SP en negro y un borde negro. | Esquema propio del proyecto |
+| `esquemas/senal-V-10-transporte-escolar.svg` | Placa con un cuadrado amarillo en el que aparecen dos niños de la mano en negro y, debajo, las palabras TRANSPORTE ESCOLAR sobre fondo blanco. | Esquema propio del proyecto |
+| `esquemas/senal-V-11-mercancias-peligrosas.svg` | Panel rectangular naranja con borde negro, dividido por una línea negra horizontal: arriba el número 33 y abajo el 1203. | Esquema propio del proyecto |
+| `esquemas/senal-V-14-aprendizaje.svg` | Placa rectangular de fondo azul con una letra L blanca y, debajo, la palabra PRACTICAS en blanco. | Esquema propio del proyecto |
+| `esquemas/senal-V-15-discapacidad.svg` | Placa de fondo azul con el símbolo blanco de una persona en silla de ruedas. | Esquema propio del proyecto |
+| `esquemas/dispositivo-V-16.svg` | Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz. | Esquema propio del proyecto |
+| `esquemas/testigo-presion-aceite.svg` | Cuadro de instrumentos con un testigo rojo encendido que muestra una alcuza (aceitera) con una gota. | Esquema propio del proyecto |
+| `esquemas/deposito-refrigerante.svg` | Depósito translúcido del líquido refrigerante con su tapón y dos marcas, MAX arriba y MIN abajo; el líquido está entre las dos. | Esquema propio del proyecto |
+| `esquemas/pedales-turismo.svg` | Los tres pedales de un turismo con cambio manual vistos desde el asiento: embrague a la izquierda, freno en el centro y acelerador a la derecha. | Esquema propio del proyecto |
+| `esquemas/neumatico-bulto.svg` | Rueda de turismo vista de lado. En el costado del neumático sobresale un bulto. | Esquema propio del proyecto |
+| `esquemas/silla-contramarcha-airbag.svg` | Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal. | Esquema propio del proyecto |
+| `esquemas/patinete-electrico.svg` | Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar. | Esquema propio del proyecto |
+| `esquemas/camion-galibo.svg` | Parte trasera de un camión ancho, de noche, con dos luces rojas en las esquinas de arriba y los pilotos traseros abajo. | Esquema propio del proyecto |
 

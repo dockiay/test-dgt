@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generado": "2026-11-24",
+ "generado": "2026-11-25",
  "imagenes": [
   {
    "id": "P-1",
@@ -12120,8 +12120,8 @@
    "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
    "formato": "png",
    "px": [
-    369,
-    280
+    396,
+    272
    ],
    "texto_revisado": false
   },
@@ -12174,8 +12174,8 @@
    "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
    "formato": "png",
    "px": [
-    370,
-    244
+    399,
+    236
    ],
    "texto_revisado": false
   },
@@ -15959,6 +15959,204 @@
    "formato": "jpg"
   },
   {
+   "id": "hitos-vertice",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/hitos-vertice.jpg",
+   "nombre": "Dos hitos de vértice: piezas semicilíndricas, una verde y otra azul, con un rombo blanco",
+   "alt": "Dos hitos de vértice: piezas semicilíndricas, una verde y otra azul, con un rombo blanco",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "3",
+    "pagina_pdf": 77
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "hitos-arista",
+   "tipo": "foto_boe",
+   "src": "img/fotos-boe/hitos-arista.jpg",
+   "nombre": "Dos hitos de arista: postes blancos con una franja negra y elementos reflectantes",
+   "alt": "Dos hitos de arista: postes blancos con una franja negra y elementos reflectantes",
+   "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3",
+   "fuente": {
+    "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
+    "ref": "BOE-A-2003-23514",
+    "version_consultada": "2026-06-26",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+    "pdf_local": "fuentes/BOE-A-2003-23514-Reglamento-General-Circulacion-consolidado.pdf",
+    "apartado": "3",
+    "pagina_pdf": 77
+   },
+   "licencia": "Dominio público: forma parte del texto de una disposición reglamentaria publicada en el BOE, excluida de la propiedad intelectual (art. 13 del Texto Refundido de la Ley de Propiedad Intelectual, RDLeg 1/1996). Reutilización citando la fuente (BOE).",
+   "formato": "jpg"
+  },
+  {
+   "id": "neumatico-dibujo-twi",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/neumatico-dibujo-twi.jpg",
+   "nombre": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+   "alt": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+   "credito": "Foto: Quallyptus, Wikimedia Commons, CC0",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Autoreifen_mit_Verschleißanzeige.JPG",
+    "autor": "Quallyptus",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "chaleco-reflectante",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/chaleco-reflectante.jpg",
+   "nombre": "Chaleco amarillo de alta visibilidad con dos bandas reflectantes",
+   "alt": "Chaleco amarillo de alta visibilidad con dos bandas reflectantes",
+   "credito": "Foto: Magnus Mertens, Wikimedia Commons, CC BY-SA 2.0 DE",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Warnweste_gelb.jpg",
+    "autor": "Magnus Mertens",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC BY-SA 2.0 DE (https://creativecommons.org/licenses/by-sa/2.0/de/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "silla-infantil",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/silla-infantil.jpg",
+   "nombre": "Sistema de retención infantil (silla) para el coche, con arnés de cinco puntos",
+   "alt": "Sistema de retención infantil (silla) para el coche, con arnés de cinco puntos",
+   "credito": "Foto: Cschirp, Wikimedia Commons, CC BY-SA 2.5",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Child_car_seat.JPG",
+    "autor": "Cschirp",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "reposacabezas",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/reposacabezas.jpg",
+   "nombre": "Asiento delantero de un turismo con su reposacabezas",
+   "alt": "Asiento delantero de un turismo con su reposacabezas",
+   "credito": "Foto: Santeri Viinamäki, Wikimedia Commons, CC BY-SA 4.0",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Car_head_restraint.jpg",
+    "autor": "Santeri Viinamäki",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "silla-nino-bicicleta",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/silla-nino-bicicleta.jpg",
+   "nombre": "Asiento adicional para un niño montado en una bicicleta, con arnés",
+   "alt": "Asiento adicional para un niño montado en una bicicleta, con arnés",
+   "credito": "Foto: Xanor, Wikimedia Commons, CC0",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Child_Bicycle_Seat.JPG",
+    "autor": "Xanor",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "tractor-agricola",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/tractor-agricola.jpg",
+   "nombre": "Tractor agrícola en una calle de Lugo",
+   "alt": "Tractor agrícola en una calle de Lugo",
+   "credito": "Foto: Certo Xornal, Wikimedia Commons, CC BY-SA 2.0",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Deutz_tractor_in_Lugo_1.jpg",
+    "autor": "Certo Xornal",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "varilla-aceite",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/varilla-aceite.jpg",
+   "nombre": "Varilla del nivel de aceite del motor, recién sacada y apoyada en un papel",
+   "alt": "Varilla del nivel de aceite del motor, recién sacada y apoyada en un papel",
+   "credito": "Foto: Dvortygirl, Wikimedia Commons, CC BY-SA 3.0",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Engine_oil_dipstick_reading_level.JPG",
+    "autor": "Dvortygirl",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "rcp-manos",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/rcp-manos.jpg",
+   "nombre": "Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas",
+   "alt": "Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas",
+   "credito": "Foto: Another-anon-artist-234, Wikimedia Commons, CC0",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Chest-compression-hand-placement.jpg",
+    "autor": "Another-anon-artist-234",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "cadenas-nieve",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/cadenas-nieve.jpg",
+   "nombre": "Persona colocando cadenas metálicas para nieve en una rueda",
+   "alt": "Persona colocando cadenas metálicas para nieve en una rueda",
+   "credito": "Foto: Oregon Department of Transportation, Wikimedia Commons, CC BY 2.0",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Snow_chains_on_tires,_Oregon.jpg",
+    "autor": "Oregon Department of Transportation",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/). Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
+   "id": "simbolo-3pmsf",
+   "tipo": "foto_libre",
+   "src": "img/fotos-libres/simbolo-3pmsf.jpg",
+   "nombre": "Símbolo de una montaña de tres picos con un copo de nieve (3PMSF)",
+   "alt": "Símbolo de una montaña de tres picos con un copo de nieve (3PMSF)",
+   "credito": "Imagen: Grummelbacke, Wikimedia Commons, dominio público",
+   "fuente": {
+    "origen": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:3PMSF.svg",
+    "autor": "Grummelbacke",
+    "consultado": "2026-11-25"
+   },
+   "licencia": "Dominio público. Reducida y, en su caso, recortada.",
+   "formato": "jpg"
+  },
+  {
    "id": "cruce-sin-senalizar",
    "tipo": "esquema",
    "src": "img/esquemas/cruce-sin-senalizar.svg",
@@ -16523,6 +16721,201 @@
    "src": "img/esquemas/senal-V-13-conductor-novel.svg",
    "nombre": "Placa verde con una L blanca",
    "alt": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-4-limitacion-velocidad",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-4-limitacion-velocidad.svg",
+   "nombre": "Disco blanco con borde rojo y una cifra",
+   "alt": "Placa circular de fondo blanco con borde rojo y una cifra en negro, como la que se lleva en la parte trasera del vehículo.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-6-vehiculo-largo",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-6-vehiculo-largo.svg",
+   "nombre": "Panel alargado amarillo con borde rojo",
+   "alt": "Panel rectangular alargado de fondo amarillo con un borde rojo.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-9-servicio-publico",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-9-servicio-publico.svg",
+   "nombre": "Placa blanca con las letras SP",
+   "alt": "Placa rectangular blanca con las letras SP en negro y un borde negro.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-10-transporte-escolar",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-10-transporte-escolar.svg",
+   "nombre": "Placa amarilla con dos niños",
+   "alt": "Placa con un cuadrado amarillo en el que aparecen dos niños de la mano en negro y, debajo, las palabras TRANSPORTE ESCOLAR sobre fondo blanco.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-11-mercancias-peligrosas",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-11-mercancias-peligrosas.svg",
+   "nombre": "Panel naranja con dos números",
+   "alt": "Panel rectangular naranja con borde negro, dividido por una línea negra horizontal: arriba el número 33 y abajo el 1203.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-14-aprendizaje",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-14-aprendizaje.svg",
+   "nombre": "Placa azul con una L y la palabra PRACTICAS",
+   "alt": "Placa rectangular de fondo azul con una letra L blanca y, debajo, la palabra PRACTICAS en blanco.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "senal-V-15-discapacidad",
+   "tipo": "esquema",
+   "src": "img/esquemas/senal-V-15-discapacidad.svg",
+   "nombre": "Placa azul con una silla de ruedas",
+   "alt": "Placa de fondo azul con el símbolo blanco de una persona en silla de ruedas.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "dispositivo-V-16",
+   "tipo": "esquema",
+   "src": "img/esquemas/dispositivo-V-16.svg",
+   "nombre": "Dispositivo luminoso amarillo encendido",
+   "alt": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "testigo-presion-aceite",
+   "tipo": "esquema",
+   "src": "img/esquemas/testigo-presion-aceite.svg",
+   "nombre": "Testigo rojo con una alcuza",
+   "alt": "Cuadro de instrumentos con un testigo rojo encendido que muestra una alcuza (aceitera) con una gota.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "deposito-refrigerante",
+   "tipo": "esquema",
+   "src": "img/esquemas/deposito-refrigerante.svg",
+   "nombre": "Depósito del líquido refrigerante",
+   "alt": "Depósito translúcido del líquido refrigerante con su tapón y dos marcas, MAX arriba y MIN abajo; el líquido está entre las dos.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "pedales-turismo",
+   "tipo": "esquema",
+   "src": "img/esquemas/pedales-turismo.svg",
+   "nombre": "Pedales de un turismo",
+   "alt": "Los tres pedales de un turismo con cambio manual vistos desde el asiento: embrague a la izquierda, freno en el centro y acelerador a la derecha.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "neumatico-bulto",
+   "tipo": "esquema",
+   "src": "img/esquemas/neumatico-bulto.svg",
+   "nombre": "Neumático con un bulto en el costado",
+   "alt": "Rueda de turismo vista de lado. En el costado del neumático sobresale un bulto.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "silla-contramarcha-airbag",
+   "tipo": "esquema",
+   "src": "img/esquemas/silla-contramarcha-airbag.svg",
+   "nombre": "Silla de bebé a contramarcha en el asiento delantero",
+   "alt": "Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "patinete-electrico",
+   "tipo": "esquema",
+   "src": "img/esquemas/patinete-electrico.svg",
+   "nombre": "Patinete eléctrico",
+   "alt": "Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar.",
+   "credito": "Esquema propio del proyecto",
+   "fuente": {
+    "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"
+   },
+   "licencia": "Propia del proyecto (sin derechos de terceros)",
+   "formato": "svg"
+  },
+  {
+   "id": "camion-galibo",
+   "tipo": "esquema",
+   "src": "img/esquemas/camion-galibo.svg",
+   "nombre": "Parte trasera de un camión de noche",
+   "alt": "Parte trasera de un camión ancho, de noche, con dos luces rojas en las esquinas de arriba y los pilotos traseros abajo.",
    "credito": "Esquema propio del proyecto",
    "fuente": {
     "norma": "Dibujo propio generado con esquemas/plantilla_esquemas.py"

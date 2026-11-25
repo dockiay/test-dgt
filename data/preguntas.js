@@ -1411,7 +1411,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/tractor-agricola.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Tractor agrícola en una calle de Lugo",
+    "credito": "Foto: Certo Xornal, Wikimedia Commons, CC BY-SA 2.0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Las velocidades mínimas tienen excepciones, y la primera son los vehículos especiales, como un tractor agrícola, que pueden circular por debajo de ellas. Además, con remolque o sin señalización de frenado, su máximo fuera de poblado ya es de 25 km/h.",
@@ -18105,7 +18110,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/cadenas-nieve.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Persona colocando cadenas metálicas para nieve en una rueda",
+    "credito": "Foto: Oregon Department of Transportation, Wikimedia Commons, CC BY 2.0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Las cadenas tienen que actuar donde está la fuerza del motor. Por eso el reglamento exige colocarlas, al menos, sobre una rueda motriz a cada lado del vehículo, o bien usar neumáticos especiales.",
@@ -20668,7 +20678,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-4-limitacion-velocidad.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa circular de fondo blanco con borde rojo y una cifra en negro, como la que se lleva en la parte trasera del vehículo.",
+    "credito": "Esquema propio del proyecto, según la señal V-4 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La V-4 indica la velocidad que el vehículo no debe superar. Es obligatoria en la parte de atrás en tres casos: para ciertos conductores por sus circunstancias personales, para los vehículos especiales y sus conjuntos, y para los vehículos que necesitan autorización especial para circular.",
@@ -20748,7 +20763,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-11-mercancias-peligrosas.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Panel rectangular naranja con borde negro, dividido por una línea negra horizontal: arriba el número 33 y abajo el 1203.",
+    "credito": "Esquema propio del proyecto, según la señal V-11 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El distintivo V-11 de mercancías peligrosas se fija en la parte delantera y en la trasera de la unidad de transporte, perpendicular a su eje y bien visible. Algunos vehículos, como las cisternas, llevan además otros dos en los costados.",
@@ -21104,7 +21124,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/chaleco-reflectante.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Chaleco amarillo de alta visibilidad con dos bandas reflectantes",
+    "credito": "Foto: Magnus Mertens, Wikimedia Commons, CC BY-SA 2.0 DE"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El chaleco hay que llevarlo siempre en el turismo, pero la obligación de ponérselo es para cuando sales del vehículo y ocupas la calzada o el arcén de una vía interurbana. Una calle de ciudad que no es travesía es vía urbana, así que el reglamento no te obliga, aunque ponértelo nunca está de más.",
@@ -21215,7 +21240,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/dispositivo-V-16.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+    "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Inmovilizado por una emergencia en un túnel, la norma pide una serie de pasos: apagar el motor, conectar la emergencia y mantener las luces de posición, llevar el vehículo si se puede a la zona de emergencia, y también colocar y activar el dispositivo luminoso de preseñalización de peligro.",
@@ -21338,7 +21368,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/dispositivo-V-16.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+    "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La V-16 conectada comunica su activación, su desactivación y su posición por sí sola. La norma exige que lleve dentro de su carcasa todo lo necesario, comunicaciones incluidas, sin depender nunca de elementos externos como una aplicación del móvil.",
@@ -22100,7 +22135,12 @@ window.BANCO = {
     "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/rcp-manos.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas",
+    "credito": "Foto: Another-anon-artist-234, Wikimedia Commons, CC0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "En la reanimación cardiopulmonar el ritmo es alto: se empuja el tórax con los codos extendidos unas 100 veces por minuto, con 2 ventilaciones cada 30 compresiones.",
@@ -23350,7 +23390,12 @@ window.BANCO = {
     "url": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/permisos-de-conducir/Accesibilidad/TeoricaAbreviada_LecturaFacil_2023-12_Interactivo.pdf",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/neumatico-dibujo-twi.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+    "credito": "Foto: Quallyptus, Wikimedia Commons, CC0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Las ranuras del dibujo hacen que el neumático no se caliente, sea más flexible, se agarre mejor y, cuando llueve, elimine el agua que coge de la carretera.",
@@ -23387,7 +23432,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/neumatico-dibujo-twi.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+    "credito": "Foto: Quallyptus, Wikimedia Commons, CC0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Los neumáticos de los turismos y sus remolques llevan indicadores de desgaste. Su función es avisar de que las ranuras principales han llegado a la profundidad mínima de dibujo, que en un turismo es de 1,6 mm.",
@@ -23493,7 +23543,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/simbolo-3pmsf.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Símbolo de una montaña de tres picos con un copo de nieve (3PMSF)",
+    "credito": "Imagen: Grummelbacke, Wikimedia Commons, dominio público"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Cuando hay una restricción de movilidad invernal, los vehículos de hasta 3.500 kg de masa máxima autorizada, como un turismo, tienen que llevar neumáticos certificados 3PMSF en todos sus ejes.",
@@ -24088,7 +24143,12 @@ window.BANCO = {
     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/silla-infantil.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Sistema de retención infantil (silla) para el coche, con arnés de cinco puntos",
+    "credito": "Foto: Cschirp, Wikimedia Commons, CC BY-SA 2.5"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Un sistema de retención solo protege si está bien instalado. Por eso la norma exige instalarlo siempre según las instrucciones de su fabricante, que indican de qué forma y en qué vehículos se puede usar con seguridad.",
@@ -26537,7 +26597,12 @@ window.BANCO = {
     "cita": "ciclos de pedales con pedaleo asistido y los vehículos de movilidad personal.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/patinete-electrico.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Que algo tenga motor no lo convierte automáticamente en «vehículo a motor». El Reglamento General de Vehículos excluye expresamente de esa definición a los ciclomotores, los tranvías, los vehículos para personas de movilidad reducida, los ciclos de pedaleo asistido y los vehículos de movilidad personal, como el patinete eléctrico.",
@@ -32033,7 +32098,12 @@ window.BANCO = {
     "cita": "Se prohíbe circular con vehículos de movilidad personal: a) Por autopistas y autovías. b) Por travesías.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/patinete-electrico.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Patinete eléctrico visto de lado: plataforma, dos ruedas pequeñas, barra de dirección y manillar.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Los vehículos de movilidad personal tienen prohibido circular por autopistas, autovías y travesías. La travesía está dentro de poblado, pero es un tramo de carretera, y la norma la nombra expresamente.",
@@ -32968,7 +33038,12 @@ window.BANCO = {
     "cita": "aun cuando sólo lo ocupe su conductor, si el vehículo ostenta la señal V-15",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-15-discapacidad.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa de fondo azul con el símbolo blanco de una persona en silla de ruedas.",
+    "credito": "Esquema propio del proyecto, según la señal V-15 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Normalmente el VAO exige un número mínimo de ocupantes, pero la norma exime de él a los vehículos autorizados (motos, turismos y mixtos adaptables) que llevan la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad. Pueden usarlo solo con el conductor si así se indica en la relación de tramos de ese carril.",
@@ -33718,7 +33793,12 @@ window.BANCO = {
     "cita": "Si carecen de señalización de frenado, llevan remolque o son motocultores: 25",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/tractor-agricola.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Tractor agrícola en una calle de Lugo",
+    "credito": "Foto: Certo Xornal, Wikimedia Commons, CC BY-SA 2.0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Un tractor agrícola es un vehículo especial. Fuera de poblado, si un vehículo especial lleva remolque, su máximo baja a 25 km/h, igual que si no tiene señalización de frenado o es un motocultor.",
@@ -45716,7 +45796,12 @@ window.BANCO = {
     "cita": "deberá llevar encendidas las luces de posición y, si la anchura del vehículo excede de 2,10 metros, también la de gálibo",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/camion-galibo.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Parte trasera de un camión ancho, de noche, con dos luces rojas en las esquinas de arriba y los pilotos traseros abajo.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La luz de gálibo está pensada para indicar la anchura total del vehículo. Por eso, cuando hay que llevar el alumbrado, los vehículos de más de 2,10 metros de anchura deben encender, además de las de posición, las de gálibo.",
@@ -46558,7 +46643,12 @@ window.BANCO = {
     "cita": "únicamente podrán utilizar sistemas de retención orientados hacia atrás si el airbag ha sido desactivado",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/silla-contramarcha-airbag.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Con airbag frontal, la norma solo permite una silla orientada hacia atrás en el asiento delantero si el airbag se ha desactivado; el manual aconseja incluso no instalar la sillita en un asiento con airbag enfrente. Además, el menor solo puede ir delante en los casos excepcionales que fija la norma.",
@@ -46973,7 +47063,12 @@ window.BANCO = {
     "cita": "Las bicicletas y demás ciclos que, por construcción, no puedan ser ocupados por más de una persona, podrán transportar menores de hasta 22 kg que sean capaces de sentarse",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/silla-nino-bicicleta.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Asiento adicional para un niño montado en una bicicleta, con arnés",
+    "credito": "Foto: Xanor, Wikimedia Commons, CC0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "En una bicicleta de una sola plaza se puede llevar a un menor de hasta 22 kg, siempre que sea capaz de sentarse por sí solo y vaya en un asiento adicional que cumpla las especificaciones técnicas.",
@@ -47724,7 +47819,12 @@ window.BANCO = {
     "cita": "Indica que el vehículo o conjunto de vehículos tiene una longitud superior a 12 metros.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-6-vehiculo-largo.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Panel rectangular alargado de fondo amarillo con un borde rojo.",
+    "credito": "Esquema propio del proyecto, según la señal V-6 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La V-6, «vehículo largo», indica que el vehículo o el conjunto de vehículos mide más de 12 metros.",
@@ -47754,7 +47854,12 @@ window.BANCO = {
     "cita": "Indica que el vehículo está dedicado a prestar servicios públicos.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-9-servicio-publico.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa rectangular blanca con las letras SP en negro y un borde negro.",
+    "credito": "Esquema propio del proyecto, según la señal V-9 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La placa con las letras S.P., colocada junto a la matrícula, es la señal V-9, «servicio público»: indica que el vehículo está dedicado a prestar servicios públicos.",
@@ -47888,7 +47993,12 @@ window.BANCO = {
     "cita": "Anchura de la placa Altura de la placa Altura de la letra L Anchura de la letra L Anchura del trazo de la letra L Motocicletas, vehículos para personas de movilidad reducida y Demás vehículos vehículos de tres ruedas y cuatriciclos 100 150 130 195",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+    "credito": "Esquema propio del proyecto, según la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La norma da dos tamaños de placa V-13: uno pequeño para motocicletas, vehículos de tres ruedas, cuadriciclos y de movilidad reducida, y otro para los demás. Un turismo lleva el grande: 150 mm de ancho y 195 mm de alto.",
@@ -47919,7 +48029,12 @@ window.BANCO = {
     "cita": "Indica que el vehículo ha quedado inmovilizado en la calzada o que su carga se encuentra caída sobre la misma.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/dispositivo-V-16.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+    "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La V-16 es un dispositivo luminoso que se coloca sobre el vehículo para indicar que ha quedado inmovilizado en la calzada o que su carga ha caído sobre ella.",
@@ -52336,7 +52451,12 @@ window.BANCO = {
     "cita": "Cuando pisas a fondo el pedal de embrague el movimiento del motor no se transmite a la caja de cambios ni a las ruedas.",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/pedales-turismo.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Los tres pedales de un turismo con cambio manual vistos desde el asiento: embrague a la izquierda, freno en el centro y acelerador a la derecha.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El embrague conecta y desconecta el motor de la caja de cambios. Al pisarlo a fondo, el movimiento del motor deja de llegar a la caja de cambios y a las ruedas, y por eso es el momento de cambiar de velocidad.",
@@ -52627,7 +52747,12 @@ window.BANCO = {
     "cita": "M1, N1, O1 y O2 deben presentar, durante toda su utilización en las vías públicas, una profundidad en las ranuras principales de la banda de rodadura que, como mínimo, debe ser de 1,6 mm.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/neumatico-dibujo-twi.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+    "credito": "Foto: Quallyptus, Wikimedia Commons, CC0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Para los turismos, las furgonetas ligeras y los remolques ligeros (categorías M1, N1, O1 y O2), el dibujo de las ranuras principales tiene que tener al menos 1,6 mm de profundidad durante toda su utilización.",
@@ -52764,7 +52889,12 @@ window.BANCO = {
     "cita": "no deben presentar ampollas, deformaciones anormales, roturas u otros signos que evidencien el despegue de alguna capa o de la banda de rodamiento",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/neumatico-bulto.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Rueda de turismo vista de lado. En el costado del neumático sobresale un bulto.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La profundidad del dibujo no es lo único que se exige. Un neumático tampoco puede presentar ampollas, deformaciones anormales, roturas ni signos de que se despega alguna capa. Un bulto en el costado lo deja fuera de uso aunque el dibujo esté bien.",
@@ -53229,7 +53359,12 @@ window.BANCO = {
     "cita": "únicamente podrán utilizar sistemas de retención orientados hacia atrás si el airbag ha sido desactivado.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/silla-contramarcha-airbag.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Cuando el menor va excepcionalmente en el asiento delantero y ese asiento tiene airbag frontal, solo puede usar una silla orientada hacia atrás si el airbag ha sido desactivado.",
@@ -53379,7 +53514,12 @@ window.BANCO = {
     "cita": "Dispositivo que protege el cuello y las cervicales en caso de un golpe brusco.",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/reposacabezas.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Asiento delantero de un turismo con su reposacabezas",
+    "credito": "Foto: Santeri Viinamäki, Wikimedia Commons, CC BY-SA 4.0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El reposacabezas es un elemento de seguridad pasiva: su función es proteger el cuello y las cervicales en un golpe brusco, por ejemplo cuando te golpean por detrás.",
@@ -54841,7 +54981,12 @@ window.BANCO = {
     "cita": "Este dispositivo comunicará, en todo caso, su activación, desactivación y geoposicionamiento, al punto de acceso nacional en materia de tráfico y movilidad.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/dispositivo-V-16.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+    "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La V-16 no solo avisa con su luz a quien se acerca: también comunica su activación, desactivación y posición al punto de acceso nacional de la DGT. Todo eso lo hace por sí misma, sin depender de aplicaciones del móvil.",
@@ -55016,7 +55161,12 @@ window.BANCO = {
     "cita": "Haz 2 ventilaciones boca a boca cada 30 compresiones en el tórax",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/rcp-manos.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas",
+    "credito": "Foto: Another-anon-artist-234, Wikimedia Commons, CC0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Si un adulto no respira con normalidad, se empieza la reanimación cardiopulmonar: 30 compresiones en el tórax y 2 ventilaciones boca a boca, y se repite hasta que llegue la ayuda médica.",
@@ -55421,7 +55571,12 @@ window.BANCO = {
     "cita": "Para comprobar el nivel de aceite debes mirar la varilla indicadora cuando el motor esté parado y frío. El nivel de aceite debe estar entre las marcas de mínimo y máximo.",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/varilla-aceite.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Varilla del nivel de aceite del motor, recién sacada y apoyada en un papel",
+    "credito": "Foto: Dvortygirl, Wikimedia Commons, CC BY-SA 3.0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El nivel de aceite se mira con la varilla cuando el motor está parado y frío, y debe quedar entre las marcas de mínimo y máximo.",
@@ -55452,7 +55607,12 @@ window.BANCO = {
     "cita": "Cuando el testigo luminoso se enciende quiere decir que hay poco aceite o que no tiene la presión que necesita. En ese caso debes parar el vehículo",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/testigo-presion-aceite.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Cuadro de instrumentos con un testigo rojo encendido que muestra una alcuza (aceitera) con una gota.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El testigo de aceite se enciende cuando hay poco aceite o no tiene la presión que necesita. Sin buena lubricación las piezas del motor se rozan, así que hay que parar y no seguir hasta saber cuál es el problema y arreglarlo.",
@@ -62682,7 +62842,12 @@ window.BANCO = {
     "cita": "Hito de vértice: elemento de balizamiento en forma semicilíndrica en su cara frontal, provisto de triángulos simétricamente opuestos, de material retrorreflectante, que indica el punto en el que se separan dos corrientes de tráfico.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-boe/hitos-vertice.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Dos hitos de vértice: piezas semicilíndricas, una verde y otra azul, con un rombo blanco",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El hito de vértice es un elemento de forma semicilíndrica, con triángulos retrorreflectantes, que marca el punto en el que se separan dos corrientes de tráfico.",
@@ -62720,7 +62885,12 @@ window.BANCO = {
     "cita": "Hito de arista: elemento cuya finalidad primordial es balizar los bordes de las carreteras principalmente durante las horas nocturnas o de baja visibilidad.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-boe/hitos-arista.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Dos hitos de arista: postes blancos con una franja negra y elementos reflectantes",
+    "credito": "Anexo I del Reglamento General de Circulación (BOE-A-2003-23514), apartado 3"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Los hitos de arista se colocan en los bordes de la carretera y su finalidad principal es balizar esos bordes, sobre todo de noche o con baja visibilidad.",
@@ -63531,7 +63701,12 @@ window.BANCO = {
     "cita": "Este distintivo deberá colocarse dentro del vehículo, en la parte frontal y en la parte posterior del mismo, de forma que resulte visible desde el exterior.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-10-transporte-escolar.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa con un cuadrado amarillo en el que aparecen dos niños de la mano en negro y, debajo, las palabras TRANSPORTE ESCOLAR sobre fondo blanco.",
+    "credito": "Esquema propio del proyecto, según la señal V-10 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "La señal de transporte escolar tiene que verse tanto por quien viene de frente como por quien va detrás. Por eso se coloca dentro del vehículo, en la parte frontal y en la posterior, de modo que se vea desde fuera.",
@@ -63562,7 +63737,12 @@ window.BANCO = {
     "cita": "deberán llevar esta señal en la parte delantera y trasera, que será únicamente visible cuando el vehículo circule en función de la enseñanza de las pruebas de aptitud.",
     "version_consultada": "2026-06-26"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/senal-V-14-aprendizaje.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Placa rectangular de fondo azul con una letra L blanca y, debajo, la palabra PRACTICAS en blanco.",
+    "credito": "Esquema propio del proyecto, según la señal V-14 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Los vehículos de autoescuela llevan la V-14 delante y detrás, pero solo debe verse cuando el vehículo circula en función de la enseñanza o de las pruebas de aptitud. Cuando se usa para otra cosa, no debe estar a la vista.",
@@ -64468,7 +64648,12 @@ window.BANCO = {
     "cita": "Las cadenas se colocan, por lo menos, en las ruedas motrices. Hay que poner por lo menos una cadena a cada lado del vehículo.",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/fotos-libres/cadenas-nieve.jpg",
+    "alt": "Imagen de la pregunta",
+    "alt_detalle": "Persona colocando cadenas metálicas para nieve en una rueda",
+    "credito": "Foto: Oregon Department of Transportation, Wikimedia Commons, CC BY 2.0"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "Las cadenas sirven para que agarren las ruedas que empujan el coche, las motrices. Por eso se colocan, como mínimo, en las ruedas motrices, con al menos una cadena a cada lado del vehículo. Según el coche, las motrices pueden ser las delanteras o las traseras.",
@@ -64587,7 +64772,12 @@ window.BANCO = {
     "cita": "También hay que comprobar que el vehículo tiene suficiente líquido refrigerante. Debe mantenerse entre las marcas de mínimo y máximo cuando el motor está frío.",
     "version_consultada": "2024-10"
    },
-   "imagen": null,
+   "imagen": {
+    "src": "img/esquemas/deposito-refrigerante.svg",
+    "alt": "Esquema de la pregunta",
+    "alt_detalle": "Depósito translúcido del líquido refrigerante con su tapón y dos marcas, MAX arriba y MIN abajo; el líquido está entre las dos.",
+    "credito": "Esquema propio del proyecto"
+   },
    "verificado_el": "2026-11-24",
    "leccion": {
     "porque": "El nivel del líquido refrigerante tiene que estar entre las marcas de mínimo y máximo, y esa comprobación se hace con el motor frío.",

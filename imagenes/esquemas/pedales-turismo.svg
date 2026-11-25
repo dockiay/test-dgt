@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+<title id="t">Pedales de un turismo</title>
+<desc id="d">Los tres pedales de un turismo con cambio manual vistos desde el asiento: embrague a la izquierda, freno en el centro y acelerador a la derecha.</desc>
+<defs><marker id="punta-A" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d43d3d"/></marker><marker id="punta-B" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a66cc"/></marker><marker id="punta-C" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3a21a"/></marker><marker id="punta-D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e9a4f"/></marker></defs>
+<rect x="0" y="0" width="400" height="400" fill="#cfe0b8" />
+<rect x="0" y="0" width="400" height="400" fill="#2a2e35" />
+<rect x="0" y="300" width="400" height="100" fill="#1d2025"/>
+<rect x="110.0" y="40" width="10" height="130.0" fill="#555b64"/>
+<rect x="80" y="170.0" width="70" height="80" rx="10" fill="#0e1013" stroke="#6b717a" stroke-width="4"/>
+<text x="115.0" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="20" fill="#e8eaed" >Embrague</text>
+<rect x="215.0" y="40" width="10" height="130.0" fill="#555b64"/>
+<rect x="180" y="170.0" width="80" height="80" rx="10" fill="#0e1013" stroke="#6b717a" stroke-width="4"/>
+<text x="220.0" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="20" fill="#e8eaed" >Freno</text>
+<rect x="318.0" y="40" width="10" height="110.0" fill="#555b64"/>
+<rect x="300" y="150.0" width="46" height="120" rx="10" fill="#0e1013" stroke="#6b717a" stroke-width="4"/>
+<text x="323.0" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="20" fill="#e8eaed" >Acelerador</text>
+</svg>

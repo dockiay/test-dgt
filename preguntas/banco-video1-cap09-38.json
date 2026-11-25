@@ -10194,12 +10194,21 @@
         "ref": "video1",
         "minuto": "3:34:57"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/camion-galibo.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Parte trasera de un camión ancho, de noche, con dos luces rojas en las esquinas de arriba y los pilotos traseros abajo.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Parte trasera de un camión ancho, de noche, con dos luces rojas en las esquinas de arriba y los pilotos traseros abajo."
+      }
     },
     {
       "id": "C-luc-0002",
@@ -10876,12 +10885,21 @@
         "ref": "video1",
         "minuto": "3:42:52"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/silla-contramarcha-airbag.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 15,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal."
+      }
     },
     {
       "id": "C-per-0005",
@@ -11186,12 +11204,21 @@
         "ref": "video1",
         "minuto": "3:46:00"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/fotos-libres/silla-nino-bicicleta.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Asiento adicional para un niño montado en una bicicleta, con arnés",
+        "credito": "Foto: Xanor, Wikimedia Commons, CC0"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "CORRIGE AL VÍDEO: el vídeo dice 'menor de 7 años con asiento homologado'; el RGC vigente (art. 154.2) fija el criterio en menores de hasta 22 kg capaces de sentarse solos.",
       "materia": 12,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Asiento adicional para un niño montado en una bicicleta, con arnés"
+      }
     },
     {
       "id": "C-per-0015",
@@ -11824,12 +11851,21 @@
         "ref": "video1",
         "minuto": "3:54:30"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-6-vehiculo-largo.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Panel rectangular alargado de fondo amarillo con un borde rojo.",
+        "credito": "Esquema propio del proyecto, según la señal V-6 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Panel rectangular alargado de fondo amarillo con un borde rojo."
+      }
     },
     {
       "id": "C-sev-0003",
@@ -11855,12 +11891,21 @@
         "ref": "video1",
         "minuto": "3:54:42"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-9-servicio-publico.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa rectangular blanca con las letras SP en negro y un borde negro.",
+        "credito": "Esquema propio del proyecto, según la señal V-9 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa rectangular blanca con las letras SP en negro y un borde negro."
+      }
     },
     {
       "id": "C-sev-0004",
@@ -11966,12 +12011,21 @@
         "ref": "video1",
         "minuto": "4:06:21"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-13-conductor-novel.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco.",
+        "credito": "Esquema propio del proyecto, según la señal V-13 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "La cita procede de una tabla del anexo XI: la primera columna es motocicletas/tres ruedas/cuadriciclos y la segunda 'demás vehículos'. Anchura 100/150 y altura 130/195.",
       "materia": 10,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa rectangular de fondo verde con una letra L blanca y un borde blanco."
+      }
     },
     {
       "id": "C-sev-0007",
@@ -11997,12 +12051,21 @@
         "ref": "video1",
         "minuto": "3:55:26"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/dispositivo-V-16.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+        "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 1,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz."
+      }
     },
     {
       "id": "C-doc-0001",
@@ -15664,12 +15727,21 @@
         "ref": "video1",
         "minuto": "4:55:54"
       },
-      "imagen": null,
+      "imagen": {
+        "src": "img/esquemas/pedales-turismo.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Los tres pedales de un turismo con cambio manual vistos desde el asiento: embrague a la izquierda, freno en el centro y acelerador a la derecha.",
+        "credito": "Esquema propio del proyecto"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": "",
       "materia": 14,
-      "imagen_requerida": null
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Los tres pedales de un turismo con cambio manual vistos desde el asiento: embrague a la izquierda, freno en el centro y acelerador a la derecha."
+      }
     },
     {
       "id": "D-man-0002",
@@ -15882,8 +15954,17 @@
         "ref": "video1",
         "minuto": "4:59:12"
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/neumatico-dibujo-twi.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+        "credito": "Foto: Quallyptus, Wikimedia Commons, CC0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -16006,8 +16087,17 @@
         "ref": "video1",
         "minuto": "5:01:36"
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/neumatico-bulto.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Rueda de turismo vista de lado. En el costado del neumático sobresale un bulto.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Rueda de turismo vista de lado. En el costado del neumático sobresale un bulto."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -16378,8 +16468,17 @@
         "ref": "RGC art. 117.3",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/silla-contramarcha-airbag.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Vista lateral del asiento del acompañante: una silla de bebé colocada mirando hacia atrás y, delante, el salpicadero con el airbag frontal."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -16502,8 +16601,17 @@
         "ref": "video1",
         "minuto": "4:58:06"
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/reposacabezas.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Asiento delantero de un turismo con su reposacabezas",
+        "credito": "Foto: Santeri Viinamäki, Wikimedia Commons, CC BY-SA 4.0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Asiento delantero de un turismo con su reposacabezas"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -17742,8 +17850,17 @@
         "ref": "RGV Anexo XI, señal V-16",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/dispositivo-V-16.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+        "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -17897,8 +18014,17 @@
         "ref": "video1",
         "minuto": "5:37:14"
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/rcp-manos.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas",
+        "credito": "Foto: Another-anon-artist-234, Wikimedia Commons, CC0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -18238,8 +18364,17 @@
         "ref": "video1",
         "minuto": "5:46:14"
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/varilla-aceite.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Varilla del nivel de aceite del motor, recién sacada y apoyada en un papel",
+        "credito": "Foto: Dvortygirl, Wikimedia Commons, CC BY-SA 3.0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Varilla del nivel de aceite del motor, recién sacada y apoyada en un papel"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -18269,8 +18404,17 @@
         "ref": "video1",
         "minuto": "5:46:24"
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/testigo-presion-aceite.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Cuadro de instrumentos con un testigo rojo encendido que muestra una alcuza (aceitera) con una gota.",
+        "credito": "Esquema propio del proyecto"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Cuadro de instrumentos con un testigo rojo encendido que muestra una alcuza (aceitera) con una gota."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

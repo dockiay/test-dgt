@@ -12,7 +12,7 @@ import os
 import re
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-HOY = "2026-11-24"
+HOY = "2026-11-25"
 
 FUENTE_RGC = {
     "norma": "Reglamento General de Circulación (RD 1428/2003), anexo I",
@@ -77,6 +77,33 @@ FOTOS_BOE = {
     "semaforo-carril-flecha-oblicua.jpg": ("Semáforo de carril con una flecha oblicua iluminada hacia abajo", RGC, "4.3", 83),
     "semaforos-ciclos.jpg": ("Semáforos con la silueta de una bicicleta en las luces", RGC, "4.4", 84),
     "V-26.jpg": ("Distintivo circular azul con un turismo y varias personas", "Anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)", "V-26", 127),
+    "hitos-vertice.jpg": ("Dos hitos de vértice: piezas semicilíndricas, una verde y otra azul, con un rombo blanco", RGC, "3", 77),
+    "hitos-arista.jpg": ("Dos hitos de arista: postes blancos con una franja negra y elementos reflectantes", RGC, "3", 77),
+}
+
+# Fotos e ilustraciones de Wikimedia Commons con licencia libre (comprobadas una a una el 25/11/2026).
+# fichero: (descripción, título en Commons, autor, licencia, url de la licencia)
+FOTOS_LIBRES = {
+    "neumatico-dibujo-twi.jpg": ("Banda de rodadura de un neumático de turismo: ranuras del dibujo y, en el fondo de una ranura, el resalte del indicador de desgaste; abajo, la marca TWI",
+                                 "Autoreifen mit Verschleißanzeige.JPG", "Quallyptus", "CC0", "https://creativecommons.org/publicdomain/zero/1.0/"),
+    "chaleco-reflectante.jpg": ("Chaleco amarillo de alta visibilidad con dos bandas reflectantes",
+                                "Warnweste gelb.jpg", "Magnus Mertens", "CC BY-SA 2.0 DE", "https://creativecommons.org/licenses/by-sa/2.0/de/"),
+    "silla-infantil.jpg": ("Sistema de retención infantil (silla) para el coche, con arnés de cinco puntos",
+                           "Child car seat.JPG", "Cschirp", "CC BY-SA 2.5", "https://creativecommons.org/licenses/by-sa/2.5/"),
+    "reposacabezas.jpg": ("Asiento delantero de un turismo con su reposacabezas",
+                          "Car head restraint.jpg", "Santeri Viinamäki", "CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/"),
+    "silla-nino-bicicleta.jpg": ("Asiento adicional para un niño montado en una bicicleta, con arnés",
+                                 "Child Bicycle Seat.JPG", "Xanor", "CC0", "https://creativecommons.org/publicdomain/zero/1.0/"),
+    "tractor-agricola.jpg": ("Tractor agrícola en una calle de Lugo",
+                             "Deutz tractor in Lugo 1.jpg", "Certo Xornal", "CC BY-SA 2.0", "https://creativecommons.org/licenses/by-sa/2.0/"),
+    "varilla-aceite.jpg": ("Varilla del nivel de aceite del motor, recién sacada y apoyada en un papel",
+                           "Engine oil dipstick reading level.JPG", "Dvortygirl", "CC BY-SA 3.0", "https://creativecommons.org/licenses/by-sa/3.0/"),
+    "rcp-manos.jpg": ("Dibujo de la colocación de las manos, una sobre otra, en el centro del pecho para las compresiones torácicas",
+                      "Chest-compression-hand-placement.jpg", "Another-anon-artist-234", "CC0", "https://creativecommons.org/publicdomain/zero/1.0/"),
+    "cadenas-nieve.jpg": ("Persona colocando cadenas metálicas para nieve en una rueda",
+                          "Snow chains on tires, Oregon.jpg", "Oregon Department of Transportation", "CC BY 2.0", "https://creativecommons.org/licenses/by/2.0/"),
+    "simbolo-3pmsf.jpg": ("Símbolo de una montaña de tres picos con un copo de nieve (3PMSF)",
+                          "3PMSF.svg", "Grummelbacke", "Dominio público", None),
 }
 
 
@@ -169,6 +196,22 @@ def main():
             "licencia": LICENCIA_BOE,
             "formato": "jpg",
         })
+    for fichero, (desc, titulo, autor, licencia, url_lic) in FOTOS_LIBRES.items():
+        if not os.path.exists(os.path.join(AQUI, "fotos-libres", fichero)):
+            continue
+        pagina = "https://commons.wikimedia.org/wiki/File:" + titulo.replace(" ", "_")
+        entradas.append({
+            "id": fichero.rsplit(".", 1)[0],
+            "tipo": "foto_libre",
+            "src": f"img/fotos-libres/{fichero}",
+            "nombre": desc,
+            "alt": desc,
+            "credito": f"Foto: {autor}, Wikimedia Commons, {licencia}" if licencia != "Dominio público"
+                       else f"Imagen: {autor}, Wikimedia Commons, dominio público",
+            "fuente": {"origen": "Wikimedia Commons", "url": pagina, "autor": autor, "consultado": "2026-11-25"},
+            "licencia": licencia + (f" ({url_lic})" if url_lic else "") + ". Reducida y, en su caso, recortada.",
+            "formato": "jpg",
+        })
     spec = importlib.util.spec_from_file_location("plantilla", os.path.join(AQUI, "esquemas", "plantilla_esquemas.py"))
     plantilla = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(plantilla)
@@ -196,13 +239,14 @@ def main():
               "- **Marcas viales** (`marcas/`): planos del Catálogo de marcas viales del mismo anexo I (apartado 5.2). Misma licencia.",
               "- **Figuras del BOE** (`figuras-boe/`): láminas del mismo anexo I (agentes, balizamiento, semáforos). Misma licencia.",
               "- **Fotos del BOE** (`fotos-boe/`): recortes de las láminas del anexo I del RGC y del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826). Misma licencia.",
+              "- **Fotos libres** (`fotos-libres/`): fotos e ilustraciones de Wikimedia Commons con licencia CC0, dominio público, CC BY o CC BY-SA; cada entrada lleva autor, licencia y enlace a la ficha, y el crédito se muestra en la web.",
               "- **Esquemas** (`esquemas/`): dibujos propios en SVG, hechos con `esquemas/plantilla_esquemas.py`.",
               "- No se usan imágenes de los tests de la DGT ni de webs comerciales.", ""]
     por_tipo = {}
     for e in entradas:
         por_tipo.setdefault(e["tipo"], []).append(e)
-    titulos = {"senal": "Señales", "marca_vial": "Marcas viales", "foto_boe": "Fotos recortadas del BOE", "figura_boe": "Figuras del anexo I", "esquema": "Esquemas propios"}
-    for t in ("senal", "marca_vial", "foto_boe", "figura_boe", "esquema"):
+    titulos = {"senal": "Señales", "marca_vial": "Marcas viales", "foto_boe": "Fotos recortadas del BOE", "figura_boe": "Figuras del anexo I", "foto_libre": "Fotos libres (Wikimedia Commons)", "esquema": "Esquemas propios"}
+    for t in ("senal", "marca_vial", "foto_boe", "figura_boe", "foto_libre", "esquema"):
         es = por_tipo.get(t, [])
         lineas += [f"## {titulos[t]} ({len(es)})", ""]
         if t in ("senal", "marca_vial") and t == "marca_vial":

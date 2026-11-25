@@ -336,8 +336,17 @@
         "ref": "RGV art. 11",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/cadenas-nieve.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Persona colocando cadenas metálicas para nieve en una rueda",
+        "credito": "Foto: Oregon Department of Transportation, Wikimedia Commons, CC BY 2.0"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Persona colocando cadenas metálicas para nieve en una rueda"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2418,8 +2427,17 @@
         "ref": "RGV anexo XI",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-4-limitacion-velocidad.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Placa circular de fondo blanco con borde rojo y una cifra en negro, como la que se lleva en la parte trasera del vehículo.",
+        "credito": "Esquema propio del proyecto, según la señal V-4 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Placa circular de fondo blanco con borde rojo y una cifra en negro, como la que se lleva en la parte trasera del vehículo."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2489,8 +2507,17 @@
         "ref": "RGV anexo XI",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/senal-V-11-mercancias-peligrosas.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Panel rectangular naranja con borde negro, dividido por una línea negra horizontal: arriba el número 33 y abajo el 1203.",
+        "credito": "Esquema propio del proyecto, según la señal V-11 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Panel rectangular naranja con borde negro, dividido por una línea negra horizontal: arriba el número 33 y abajo el 1203."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2808,8 +2835,17 @@
         "ref": "RGC art. 118",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/fotos-libres/chaleco-reflectante.jpg",
+        "alt": "Imagen de la pregunta",
+        "alt_detalle": "Chaleco amarillo de alta visibilidad con dos bandas reflectantes",
+        "credito": "Foto: Magnus Mertens, Wikimedia Commons, CC BY-SA 2.0 DE"
+      },
+      "imagen_requerida": {
+        "tipo": "foto",
+        "codigo": null,
+        "descripcion": "Chaleco amarillo de alta visibilidad con dos bandas reflectantes"
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -2901,8 +2937,17 @@
         "ref": "RGC art. 97",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/dispositivo-V-16.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+        "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""
@@ -3025,8 +3070,17 @@
         "ref": "RGV anexo XI",
         "minuto": null
       },
-      "imagen": null,
-      "imagen_requerida": null,
+      "imagen": {
+        "src": "img/esquemas/dispositivo-V-16.svg",
+        "alt": "Esquema de la pregunta",
+        "alt_detalle": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz.",
+        "credito": "Esquema propio del proyecto, según la señal V-16 del anexo XI del Reglamento General de Vehículos (BOE-A-1999-1826)"
+      },
+      "imagen_requerida": {
+        "tipo": "esquema",
+        "codigo": null,
+        "descripcion": "Dispositivo luminoso de color amarillo auto, con base oscura, encendido y emitiendo luz."
+      },
       "estado": "verificada",
       "verificado_el": "2026-11-24",
       "notas_revision": ""

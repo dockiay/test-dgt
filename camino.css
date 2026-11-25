@@ -120,6 +120,19 @@
 .unidad.legendaria .nodo.hecho:nth-child(3n) .nodo-disco::after { animation-delay: .5s; }
 .unidad.legendaria .nodo.hecho:nth-child(3n+1) .nodo-disco::after { animation-delay: 1s; }
 .unidad.legendaria .nodo.paso .nodo-disco svg.ico { fill: rgba(255,255,255,.45); }
+/* Nivel o test de paso hecho sin ningún fallo: disco en oro con estrella (sin el destello, que es de la unidad legendaria). */
+.nodo.nivel.perfecto { --fondo-nodo: var(--ambar); --borde-nodo: var(--ambar-borde); }
+.nodo.nivel.perfecto .nodo-disco { background: linear-gradient(145deg, #ffe08a, var(--ambar) 55%, #e08e00);
+  box-shadow: 0 5px 0 var(--ambar-borde), 0 0 0 5px var(--panel, var(--fondo)), 0 0 0 8px color-mix(in srgb, var(--ambar) 40%, var(--panel, var(--fondo))); }
+.nodo.perfecto .nodo-texto span { color: var(--ambar-texto); }
+.nodo-estrella { display: grid; place-items: center; }
+.nodo-estrella svg { width: 34px; height: 34px; fill: #fff; filter: drop-shadow(0 1.5px 0 rgba(150, 90, 0, .45)); }
+.nodo-sello { position: absolute; right: -2px; top: -4px; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--celda); box-shadow: 0 0 0 3px var(--ambar), 0 2px 0 3px var(--ambar-borde); pointer-events: none; }
+.nodo-sello svg { width: 19px; height: 19px; fill: var(--ambar); }
+.unidad-pasos i.ok.pf { background: var(--ambar); }
+.nodo.av-perfecto .nodo-disco { animation: av-sello .6s cubic-bezier(.34,1.56,.64,1); }
+.nodo.av-perfecto .nodo-disco > * { animation: av-icono .5s .12s cubic-bezier(.34,1.8,.64,1) backwards; }
+.nodo.av-perfecto .nodo-boton::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 4px solid var(--ambar); animation: av-onda .8s ease-out forwards; pointer-events: none; }
 @keyframes destello { 0%, 60% { transform: translateX(-120%); } 85%, 100% { transform: translateX(120%); } }
 .nodo.cofre .nodo-disco { border-radius: 18px; }
 .nodo.cofre.actual, .nodo.cofre.hecho { --fondo-nodo: var(--ambar); --borde-nodo: var(--ambar-borde); }
@@ -244,3 +257,4 @@
 
 .aviso-flotante.corona, .aviso-flotante.logro { background: var(--ambar-borde); }
 .unidad.legendaria .camino-via .recorrido { stroke: color-mix(in srgb, var(--ambar) 45%, var(--celda)); }
+.nodo.nivel.perfecto .nodo-boton:active .nodo-disco { box-shadow: 0 0 0 var(--ambar-borde), 0 0 0 5px var(--panel, var(--fondo)); }

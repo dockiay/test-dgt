@@ -137,7 +137,10 @@ body.celebrando { overflow: hidden; }
 
 /* ---- Ordenador: tarjeta centrada ---- */
 @media (min-width: 760px) {
-  .celebra { background: color-mix(in srgb, var(--fondo) 86%, transparent); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); justify-content: center; align-items: center; padding: 24px; }
+  /* Sin backdrop-filter: el desenfoque a pantalla completa se recalculaba en cada fotograma de la
+     animación y bajaba el ordenador a ~20 fps (pruebas/rendimiento/celebracion-fps.mjs). Un velo casi
+     opaco da el mismo efecto de capa sin ese coste. */
+  .celebra { background: color-mix(in srgb, var(--fondo) 94%, transparent); justify-content: center; align-items: center; padding: 24px; }
   .celebra-escena, .celebra-pie { width: 560px; flex: none; background: var(--celda); }
   .celebra-escena { border-radius: 28px 28px 0 0; max-height: calc(100dvh - 160px); border: 2px solid var(--borde); border-bottom: 0; }
   .celebra-pie { border-radius: 0 0 28px 28px; border: 2px solid var(--borde); border-top: 1px solid var(--separador); box-shadow: 0 6px 0 var(--borde), var(--sombra); padding: 14px 24px 18px; }

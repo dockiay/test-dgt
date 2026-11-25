@@ -157,34 +157,47 @@
   }
 
   // ---------- Confeti (canvas propio, se retira solo) ----------
+  // Pensado para ir a 60 fps en móviles modestos: lienzo a resolución 1× (las piezas son pequeñas
+  // y se mueven rápido, no se nota), menos piezas en pantallas pequeñas, una transformación por pieza
+  // sin save/restore, piezas agrupadas por color y las que ya han salido de la pantalla no se dibujan.
   function confeti(cantidad = 120) {
     if (sinMovimiento()) return;
-    const cv = document.createElement("canvas"), dpr = Math.min(2, window.devicePixelRatio || 1);
+    const cv = document.createElement("canvas"), dpr = 1;
     cv.className = "confeti"; cv.setAttribute("aria-hidden", "true");
     if (confetiActivo) confetiActivo.remove();
     confetiActivo = cv;
     const W = innerWidth, H = innerHeight;
-    cv.width = W * dpr; cv.height = H * dpr;
+    cantidad = Math.round(cantidad * Math.min(1, Math.max(0.55, (W * H) / (1280 * 800))));
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
     document.body.append(cv);
-    const g = cv.getContext("2d"); g.scale(dpr, dpr);
+    const g = cv.getContext("2d", { alpha: true, desynchronized: true });
     const estilo = getComputedStyle(document.documentElement);
     const colores = ["--tinte", "--verde", "--ambar", "--violeta", "--rojo"].map(v => estilo.getPropertyValue(v).trim() || "#2f6bff");
     const piezas = Array.from({ length: cantidad }, (_, i) => {
       const izq = i % 2 === 0;
       return { x: izq ? -10 : W + 10, y: H * (0.55 + Math.random() * 0.25), vx: (izq ? 1 : -1) * (4 + Math.random() * 7), vy: -(9 + Math.random() * 9),
-        r: Math.random() * Math.PI, vr: (Math.random() - 0.5) * 0.35, w: 7 + Math.random() * 6, h: 4 + Math.random() * 4, c: colores[i % colores.length], forma: i % 3 };
-    });
+        r: Math.random() * Math.PI, vr: (Math.random() - 0.5) * 0.35, w: 7 + Math.random() * 6, h: 4 + Math.random() * 4, c: i % colores.length, forma: i % 3 };
+    }).sort((a, b) => a.c - b.c);
     const t0 = performance.now();
+    let previo = t0;
     (function paso(t) {
+      // Avance según el tiempo real (60 pasos por segundo), para que la caída no se ralentice si se pierde un fotograma.
+      const k = Math.min(3, (t - previo) / 16.67); previo = t;
       const fin = t - t0 > 2600;
-      g.clearRect(0, 0, W, H);
-      for (const p of piezas) {
-        p.vy += 0.32; p.vx *= 0.985; p.vy *= 0.985; p.x += p.vx; p.y += p.vy; p.r += p.vr;
-        g.save(); g.translate(p.x, p.y); g.rotate(p.r); g.fillStyle = p.c; g.globalAlpha = fin ? 0 : Math.max(0, 1 - (t - t0 - 1800) / 800);
+      g.setTransform(1, 0, 0, 1, 0, 0);
+      g.clearRect(0, 0, cv.width, cv.height);
+      g.globalAlpha = Math.max(0, Math.min(1, 1 - (t - t0 - 1800) / 800));
+      let color = -1, vivas = 0;
+      if (!fin) for (const p of piezas) {
+        if (k > 0) { const f = Math.pow(0.985, k); p.vy += 0.32 * k; p.vx *= f; p.vy *= f; p.x += p.vx * k; p.y += p.vy * k; p.r += p.vr * k; }
+        if (p.y > H + 20 || p.x < -40 || p.x > W + 40) continue;
+        vivas++;
+        if (p.c !== color) { color = p.c; g.fillStyle = colores[color]; }
+        const cs = Math.cos(p.r) * dpr, sn = Math.sin(p.r) * dpr;
+        g.setTransform(cs, sn, -sn, cs, p.x * dpr, p.y * dpr);
         if (p.forma === 0) { g.beginPath(); g.arc(0, 0, p.h * 0.7, 0, Math.PI * 2); g.fill(); } else g.fillRect(-p.w / 2, -p.h / 2, p.w, p.h * (p.forma === 2 ? 0.5 : 1));
-        g.restore();
       }
-      if (!fin && cv.isConnected) requestAnimationFrame(paso); else { cv.remove(); if (confetiActivo === cv) confetiActivo = null; }
+      if (!fin && (vivas || t - t0 < 400) && cv.isConnected) requestAnimationFrame(paso); else { cv.remove(); if (confetiActivo === cv) confetiActivo = null; }
     })(t0);
   }
 

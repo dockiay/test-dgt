@@ -169,7 +169,23 @@
       h("div", { class: "cel-cifras" }, teselas));
     const animar = () => {
       const buena = t.humor !== "animo";
-      despues(380, () => { sonar(buena ? "fanfarria" : "toque"); if (buena) { An.confeti(t.humor === "perfecto" ? 170 : 120); An.vibrar([18, 50, 18]); } });
+      const fanfarria = () => { sonar(buena ? "fanfarria" : "toque"); if (buena) { An.confeti(t.humor === "perfecto" ? 170 : 120); An.vibrar([18, 50, 18]); } };
+      if (sinMovimiento()) despues(380, fanfarria);
+      else {
+        // Los sonidos del coche y la fanfarria salen de los propios eventos de la animación CSS, así van a su compás
+        // aunque el móvil vaya lento o la animación cambie de tiempos.
+        let sonada = false;
+        const dur = el => parseFloat(getComputedStyle(el).animationDuration) || undefined;
+        nodo.addEventListener("animationstart", e => {
+          const n = e.animationName;
+          if (n === "cel-entrar") sonar("llegada", dur(e.target));
+          else if (n === "cel-frenar") sonar("frenazo");
+          else if (n === "cel-salto") sonar("salto", dur(e.target));
+          else if (n === "pop" && e.target.classList.contains("cel-titulo") && !sonada) { sonada = true; fanfarria(); }
+        });
+        nodo.addEventListener("animationiteration", e => { if (e.animationName === "cel-salto") sonar("salto", dur(e.target)); });
+        despues(700, () => { if (!sonada) { sonada = true; fanfarria(); } });
+      }
       teselas.forEach((el, i) => despues(1050 + i * 420, () => {
         el.classList.add("visible"); sonar("golpe", i); An.vibrar(12);
         paradas.push(contar(valores[i], cifras[i].v, cifras[i].f, 650, () => { el.classList.add("lista"); if (i === teselas.length - 1) sonar("brillo"); }));

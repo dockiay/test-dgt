@@ -133,6 +133,34 @@
     nota(c, 520, inicio, 0.075, { vol, hasta: 300, ataque: 0.003 });
     nota(c, 1560, inicio, 0.025, { tipo: "triangle", vol: vol * 0.18, ataque: 0.002 });
   }
+  // Ruido filtrado (soplo, derrape): ruido blanco por un paso banda que barre de una frecuencia a otra.
+  let ruidoBuf = null;
+  function ruido(c, inicio, dur, { vol = 0.1, desde = 2000, hasta = 500, q = 1.2 } = {}) {
+    if (!ruidoBuf) { ruidoBuf = c.createBuffer(1, c.sampleRate, c.sampleRate); const d = ruidoBuf.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1; }
+    const s = c.createBufferSource(), f = c.createBiquadFilter(), g = c.createGain(), t = c.currentTime + inicio;
+    s.buffer = ruidoBuf; s.loop = true;
+    f.type = "bandpass"; f.Q.value = q;
+    f.frequency.setValueAtTime(desde, t); f.frequency.exponentialRampToValueAtTime(hasta, t + dur);
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(vol, t + Math.min(0.08, dur * 0.3));
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    s.connect(f).connect(g).connect(bus || c.destination);
+    s.start(t); s.stop(t + dur + 0.02);
+  }
+  // Tono que sube y baja (salto de dibujos animados): de f0 a f1 en "sube" segundos y vuelta en "baja".
+  function arco(c, inicio, f0, f1, sube, baja, { tipo = "sine", vol = 0.14 } = {}) {
+    const o = c.createOscillator(), g = c.createGain(), t = c.currentTime + inicio, fin = t + sube + baja;
+    o.type = tipo;
+    o.frequency.setValueAtTime(f0, t);
+    o.frequency.exponentialRampToValueAtTime(f1, t + sube);
+    o.frequency.exponentialRampToValueAtTime(f0 * 1.1, fin);
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(vol, t + 0.02);
+    g.gain.setValueAtTime(vol, t + sube);
+    g.gain.exponentialRampToValueAtTime(0.0001, fin);
+    o.connect(g).connect(bus || c.destination);
+    o.start(t); o.stop(fin + 0.02);
+  }
   const SONIDOS = {
     // Elegir una opción (examen, ejercicios), interruptores y botones pequeños.
     toque: c => pop(c),
@@ -153,11 +181,19 @@
       [0, 4, 7, 12, 16].forEach(s => nota(c, 523 * Math.pow(2, (s + 12) / 12), 0.4, 0.9, { tipo: "triangle", vol: 0.06 }));
       [0, 0.07, 0.14].forEach((t, i) => nota(c, 3136 + i * 400, 0.44 + t, 0.18, { vol: 0.03 }));
     },
-    tic: (c, k = 0) => nota(c, 1250 + k * 500, 0, 0.03, { vol: 0.04 }),
-    golpe: (c, i = 0) => { const f = 659 * Math.pow(2, [0, 3, 7, 12][i % 4] / 12); campana(c, f, 0, 0.16, 0.15); },
-    brillo: c => [0, 0.06, 0.12, 0.18].forEach((t, i) => nota(c, 1568 * Math.pow(2, [0, 4, 7, 12][i] / 12), t, 0.16, { vol: 0.05 })),
+    // Tictac de los contadores: muy corto y agudo, que acompañe sin tapar.
+    tic: (c, k = 0) => nota(c, 1500 + k * 600, 0, 0.035, { vol: 0.3, ataque: 0.002 }),
+    // Cada cifra que aparece: "pop" con campanita, subiendo de tono una tras otra.
+    golpe: (c, i = 0) => { const f = 659 * Math.pow(2, [0, 3, 7, 12][i % 4] / 12); pop(c, 0, 0.3); campana(c, f, 0.01, 0.3, 0.42); },
+    // Brillo final al quedar todas las cifras: arpegio de campanitas agudas.
+    brillo: c => [0, 0.06, 0.12, 0.18].forEach((t, i) => campana(c, 1047 * Math.pow(2, [0, 4, 7, 12][i] / 12), t, 0.3, 0.16)),
     racha: c => { nota(c, 262, 0, 0.5, { tipo: "triangle", vol: 0.1, hasta: 784 }); [0, 4, 7, 12].forEach((s, i) => campana(c, 784 * Math.pow(2, s / 12), 0.45 + i * 0.07, 0.35, 0.12)); },
     logro: c => { [0, 7, 12, 16, 19].forEach((s, i) => campana(c, 587 * Math.pow(2, s / 12), i * 0.07, 0.4, 0.12)); nota(c, 2349, 0.36, 0.5, { vol: 0.035 }); },
+    // El coche de la celebración (celebracion.js los lanza con los eventos de su animación CSS, así van a la par):
+    // llega rodando y frenando, derrapa un poco y da saltitos.
+    llegada: (c, dur = 0.8) => { ruido(c, 0, dur * 0.85, { vol: 0.16, desde: 2600, hasta: 380 }); nota(c, 150, 0, dur * 0.85, { tipo: "triangle", vol: 0.09, hasta: 70, ataque: 0.04 }); },
+    frenazo: c => { nota(c, 1650, 0, 0.15, { tipo: "triangle", vol: 0.06, hasta: 1250 }); nota(c, 1480, 0.07, 0.15, { tipo: "triangle", vol: 0.05, hasta: 1100 }); ruido(c, 0, 0.2, { vol: 0.05, desde: 3200, hasta: 1800, q: 3 }); },
+    salto: (c, dur = 1.1) => { arco(c, dur * 0.15, 260, 640, dur * 0.3, dur * 0.3, { tipo: "triangle", vol: 0.13 }); pop(c, dur * 0.75, 0.2); },
     suspenso: c => { [7, 3, 0].forEach((s, i) => nota(c, 330 * Math.pow(2, s / 12), i * 0.16, 0.3, { tipo: "triangle", vol: 0.13 })); },
   };
   function sonar(nombre, arg) {

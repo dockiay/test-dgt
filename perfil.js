@@ -227,8 +227,8 @@
       mensaje: "Lo que has estudiado sigue guardado en tu cuenta y en este dispositivo. Para seguir estudiando tendrás que volver a iniciar sesión.",
       acciones: [{ texto: "Cerrar sesión", clase: "gris destructivo", accion: () => { escribir(CLAVE_SIN_CUENTA, null); window.Nube.salir(); location.hash = "#/"; } }] }) }), { className: "fila destructiva" }));
     filas.push(Object.assign(fila({ icono: "repetir", color: "rojo", titulo: "Borrar mi progreso", detalle: "Empezar desde cero en todos tus dispositivos", chevron: false, accion: () => hoja({ titulo: "¿Borrar todo tu progreso?",
-      mensaje: e && e.usuario ? "Se borran tus respuestas, fallos, exámenes, racha, camino y logros, aquí y en tu cuenta. Tus otros dispositivos también empezarán de cero al conectarse. No se puede deshacer: si quieres guardarlo, haz antes una copia de seguridad."
-        : "Se borran tus respuestas, fallos, exámenes, racha, camino y logros de este navegador. No se puede deshacer: si quieres guardarlo, haz antes una copia de seguridad.",
+      mensaje: e && e.usuario ? "Se borran tus respuestas, fallos, exámenes, racha, camino, logros y el test que tengas a medias, aquí y en tu cuenta. Tus otros dispositivos también empezarán de cero al conectarse. No se puede deshacer: si quieres guardarlo, haz antes una copia de seguridad."
+        : "Se borran tus respuestas, fallos, exámenes, racha, camino, logros y el test que tengas a medias de este navegador. No se puede deshacer: si quieres guardarlo, haz antes una copia de seguridad.",
       acciones: [{ texto: "Borrar mi progreso", clase: "gris destructivo", accion: () => {
         P.reiniciar();
         try { sessionStorage.removeItem("testB.avance"); } catch (x) { /* sin almacenamiento */ }

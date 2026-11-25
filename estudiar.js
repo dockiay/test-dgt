@@ -366,6 +366,8 @@
   A.ruta("hoy", () => pantallaHoy());
   A.ruta("semanal", partes => pantallaSemanal(partes));
   A.inicioExtra(tarjetaHoy, "arriba");
+  // Test a medias: al retomarlo, la sesión de hoy y el simulacro semanal vuelven a terminar como siempre.
+  if (A.reanudable) { A.reanudable("hoy", () => ({ alTerminar: resultadoHoy })); A.reanudable("examen:semanal", () => ({ alTerminar: alTerminarSemanal })); }
   A.inicioExtra(filaSemanal, "practicar");
   A.lateralExtra({ id: "hoy", href: "#/hoy", icono: "diana", color: "azul", texto: "Estudiar hoy" });
   A.lateralExtra({ id: "semanal", href: "#/semanal", icono: "grafica", color: "verde", texto: "Simulacro semanal", cuenta: () => proximoSemanal().toca ? "1" : null });

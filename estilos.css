@@ -436,3 +436,17 @@ textarea.lista { display: block; width: 100%; min-height: 150px; font: .8125rem/
 .lec-tuya b { color: var(--rojo-texto); font-weight: 800; }
 .lec-truco { display: flex; gap: 8px; align-items: flex-start; margin: 12px 0 0; padding: 10px 12px; border-radius: 12px; background: var(--ambar-suave); font-size: .9375rem; font-weight: 600; }
 .lec-truco svg.ico { flex: none; color: var(--ambar-texto); width: 20px; height: 20px; margin-top: 1px; }
+
+/* ---------- Test a medias: «Continuar test» en el inicio ---------- */
+.continuar-test { margin: 14px 0 4px; border-color: var(--tinte); box-shadow: 0 var(--relieve) 0 var(--tinte-borde); animation: continuar-entra .35s ease-out both; }
+.continuar-cabeza { display: flex; gap: 14px; align-items: center; }
+.continuar-cabeza .tesela { width: 48px; height: 48px; border-radius: 15px; }
+.continuar-cabeza .tesela svg.ico { width: 26px; height: 26px; }
+.continuar-cabeza .etiqueta { margin: 0 0 2px; color: var(--tinte-texto); }
+.continuar-cabeza h2 { margin: 0; font-size: 1.25rem; font-weight: 900; line-height: 1.2; }
+.continuar-detalle { margin: 2px 0 0; color: var(--texto2); font-weight: 700; font-size: .9375rem; font-variant-numeric: tabular-nums; }
+.continuar-test .progreso { margin: 14px 0; }
+.continuar-botones { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.continuar-botones .boton:not(.plano) { flex: 1 1 200px; }
+@keyframes continuar-entra { from { opacity: 0; transform: translateY(6px); } }
+@media (prefers-reduced-motion: reduce) { .continuar-test { animation: none; } }

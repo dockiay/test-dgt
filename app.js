@@ -55,6 +55,12 @@
 
   // ---------- Progreso (modelo en progreso.js) ----------
   const P = window.Progreso;
+  // Test a medias (datos.enCurso): ver «Test a medias» más abajo. Se registra antes de cargar.
+  // Gana la copia tocada más tarde; al terminar queda { t, fin: true } para que otro dispositivo no lo resucite.
+  P.extender("enCurso", {
+    normalizar: v => v && typeof v === "object" && v.t > 0 && (v.fin || (Array.isArray(v.ids) && v.ids.length)) ? v : null,
+    combinar: (a, b) => !a ? b : !b ? a : (b.t > a.t ? b : a),
+  });
   let datos = P.cargar();
   function guardar() { P.guardar(datos); }
   function seccionActual() { return (location.hash || "#/").slice(2).split("/")[0] || "inicio"; }
@@ -374,6 +380,7 @@
     pantalla({ titulo: "Test permiso B" },
       h("h1", { class: "titulo-grande" }, "Test permiso B"),
       h("p", { class: "subtitulo" }, `${PREGUNTAS.length} preguntas verificadas, cada una con su fuente oficial.`),
+      tarjetaContinuar(),
       tarjetaRacha(),
       extrasInicio("arriba"),
       cifras([`${prep.global.vistas}/${PREGUNTAS.length}`, "Preguntas vistas"], [`${Math.floor(prep.global.dominio * 100)} %`, "Dominadas"], [`${Math.round(prep.avance * 100)} %`, "Preparación"]),
@@ -415,16 +422,19 @@
   // op (opcional, para extensiones): { lista: [preguntas], tipo: "final" | "semanal", titulo, alTerminar(entrada) }
   function empezarExamen(op) {
     op = op && op.lista ? op : {};
-    const lista = op.lista || barajar(PREGUNTAS).slice(0, EXAMEN_PREGUNTAS);
-    ordenes = new Map();
-    const ex = { lista, resp: {}, i: 0, inicio: Date.now(), limite: lista.length * SEGUNDOS_POR_PREGUNTA, acabado: false,
-      tipo: op.tipo || "final", titulo: op.titulo || "Examen final", alTerminar: op.alTerminar || null, op };
+    const lista = op.lista || barajar(PREGUNTAS).slice(0, EXAMEN_PREGUNTAS), e = op.estado;
+    ordenes = e ? e.ordenes : new Map();
+    const limite = e && e.limite ? e.limite : lista.length * SEGUNDOS_POR_PREGUNTA;
+    // Al retomar un examen a medias, el reloj sigue con el tiempo que quedaba (se para mientras está cerrado).
+    const ex = { lista, resp: e ? e.resp : {}, i: e ? e.i : 0, inicio: Date.now() - (e ? e.usados * 1000 : 0), limite, acabado: false,
+      tipo: op.tipo || "final", titulo: op.titulo || "Examen final", alTerminar: op.alTerminar || null, op, id: e ? e.id : nuevoId(), vuelta: "#/" };
     sesion = ex;
     if (window.Celebracion) Celebracion.empezar();
     reloj.hidden = false;
     const hora = h("span", {});
     reloj.replaceChildren(ico("reloj"), hora);
     const tic = () => {
+      if (document.visibilityState === "hidden") return; // en segundo plano el reloj está parado (ver «Test a medias»)
       const quedan = ex.limite - (Date.now() - ex.inicio) / 1000;
       hora.textContent = mmss(quedan);
       reloj.classList.toggle("poco", quedan <= 120);
@@ -435,16 +445,17 @@
   }
   function pintarExamen(ex, mantener) {
     const p = ex.lista[ex.i], n = ex.lista.length, hechas = Object.keys(ex.resp).length;
-    const ir = j => { if (j >= 0 && j < n) { ex.i = j; pintarExamen(ex); } };
+    const ir = j => { if (j >= 0 && j < n) { ex.i = j; pintarExamen(ex); guardarEnCurso(ex); } };
     const o = ordenDe(p);
     const elegir = k => {
-      ex.resp[p.id] = k; sonar("toque"); pintarExamen(ex, true);
+      ex.resp[p.id] = k; sonar("toque"); pintarExamen(ex, true); guardarEnCurso(ex);
       const b = app.querySelector(".opcion.elegida"); if (b) b.classList.add("pulsada");
     };
     const ultima = ex.i === n - 1;
     pantalla({ titulo: ex.titulo, fijo: true, sesion: true, mantenerScroll: mantener,
-      atras: { texto: "Salir", icono: false, accion: () => hoja({ titulo: "¿Salir del examen?", mensaje: "Se perderán las respuestas de este examen.", cancelar: "Seguir con el examen",
-        acciones: [{ texto: "Salir del examen", clase: "gris destructivo", accion: () => { sesion = null; pararReloj(); location.hash = "#/"; inicio(); } }] }) },
+      atras: { texto: "Salir", icono: false, accion: () => hoja({ titulo: "¿Salir del examen?", mensaje: "Puedes seguir más tarde desde el inicio, en este o en otro dispositivo, con las mismas respuestas y el tiempo que te quedaba.", cancelar: "Seguir con el examen",
+        acciones: [{ texto: "Salir y seguir luego", accion: () => { guardarEnCurso(ex, true); sesion = null; pararReloj(); location.hash = "#/"; inicio(); } },
+          { texto: "Descartar el examen", clase: "gris destructivo", accion: () => { cerrarEnCurso(ex); sesion = null; pararReloj(); location.hash = "#/"; inicio(); } }] }) },
       barra: [
         h("button", { class: "boton gris estrecho", disabled: ex.i === 0, "aria-label": "Pregunta anterior", onclick: () => ir(ex.i - 1) }, ico("atras")),
         h("button", { class: "boton gris estrecho", "aria-label": `Ver todas las preguntas. ${hechas} de ${n} respondidas`, onclick: () => rejillaExamen(ex) }, ico("rejilla"), `${hechas}/${n}`),
@@ -483,7 +494,7 @@
     }
     const total = ex.lista.length, max = Math.floor(total * PROPORCION_FALLOS), apto = fallos <= max;
     const entrada = { fecha: new Date().toISOString(), total, fallos, apto, segundos, tipo: ex.tipo, materias };
-    P.registrarExamen(datos, entrada); guardar();
+    P.registrarExamen(datos, entrada); cerrarEnCurso(ex, true); guardar();
     sesion = null;
     try { window.dispatchEvent(new CustomEvent("examen-corregido", { detail: entrada })); } catch (e) { /* sin eventos */ }
     const extra = ex.alTerminar ? ex.alTerminar(entrada) : null;
@@ -594,10 +605,14 @@
   }
   // op (opcional, para extensiones): { alTerminar(sesion) } devuelve nodos para la pantalla de resultado;
   // { repetir() } sustituye a «Repetir estas preguntas» (por ejemplo, para sacar preguntas nuevas).
+  // { ctx } (dato sencillo) se guarda con el test a medias y se devuelve a App.reanudable(modo, fn) al retomarlo.
   function practicar(lista, modo, titulo, vuelta, op) {
     pararReloj();
-    ordenes = new Map();
-    const s = { lista, modo, titulo, vuelta, i: 0, resp: {}, aciertos: 0, seguidas: 0, mejorSerie: 0, alTerminar: (op && op.alTerminar) || null, repetir: (op && op.repetir) || null, inicio: Date.now() };
+    const e = op && op.estado;
+    ordenes = e ? e.ordenes : new Map();
+    const s = { lista, modo, titulo, vuelta, i: 0, resp: {}, aciertos: 0, seguidas: 0, mejorSerie: 0, alTerminar: (op && op.alTerminar) || null, repetir: (op && op.repetir) || null, inicio: Date.now(),
+      ctx: op && op.ctx !== undefined ? op.ctx : null, id: e ? e.id : nuevoId() };
+    if (e) Object.assign(s, { resp: e.resp, i: e.i, aciertos: e.aciertos, seguidas: e.seguidas, mejorSerie: e.mejorSerie, inicio: Date.now() - e.segundos * 1000 });
     sesion = s;
     if (window.Celebracion) Celebracion.empezar();
     pintarPractica(s);
@@ -622,6 +637,7 @@
       }
       s.seguidas = ok ? s.seguidas + 1 : 0; s.mejorSerie = Math.max(s.mejorSerie, s.seguidas);
       s.frase = ok ? elegirFrase(FRASES_ACIERTO) : "";
+      guardarEnCurso(s);
       pintarPractica(s, true);
       if (ok) sonar("acierto"); else { sonar("fallo"); if (window.Animo) Animo.vibrar(60); }
       const cumplido = sumarAlDia(1);
@@ -632,7 +648,7 @@
       const ex = app.querySelector(".explicacion");
       if (ex) ex.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
     };
-    const seguir = () => { if (s.resp[p.id] && s.pendiente !== p.id) { s.i++; pintarPractica(s); } };
+    const seguir = () => { if (s.resp[p.id] && s.pendiente !== p.id) { s.i++; guardarEnCurso(s); pintarPractica(s); } };
     const acerto = corregida && elegida === p.correcta;
     // Una extensión (App.alFallar) se ha quedado el turno tras el fallo: pinta su bloque y, cuando
     // llame a continuar(), se muestra la corrección de siempre.
@@ -644,7 +660,7 @@
         pregunta(p, elegida, false, null, false, o), s.contenedor);
     }
     pantalla({ titulo: s.titulo, fijo: true, sesion: true, mantenerScroll: recien,
-      atras: { texto: "Terminar", icono: false, accion: () => hechas ? finPractica(s) : (sesion = null, location.hash = s.vuelta, ruta()) },
+      atras: { texto: "Terminar", icono: false, accion: () => hechas ? finPractica(s) : (sesion = null, cerrarEnCurso(s), location.hash = s.vuelta, ruta()) },
       feedback: corregida ? { ok: acerto, titulo: acerto ? (s.frase || "¡Correcto!") : "No es esa",
         detalle: acerto ? (s.seguidas >= 3 ? `${s.seguidas} aciertos seguidos` : null) : `La correcta es la ${letraVista(p, p.correcta, o)}. Lee la explicación.` } : null,
       barra: [h("button", { class: "boton" + (corregida ? (acerto ? " verde" : " rojo") : ""), disabled: !corregida, onclick: seguir }, corregida ? (s.i < n - 1 ? "Continuar" : "Ver resultado") : "Elige una respuesta")],
@@ -654,6 +670,7 @@
   }
   function finPractica(s) {
     sesion = null;
+    cerrarEnCurso(s);
     const hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
     const pct = hechas ? Math.round(s.aciertos / hechas * 100) : 0;
     const pendientes = fallosDeHoy().length;
@@ -672,7 +689,7 @@
       h("div", { class: "pila" },
         s.modo === "fallos"
           ? (pendientes ? h("a", { class: "boton ancho", href: "#/fallos", onclick: () => setTimeout(ruta) }, `Seguir repasando (${pendientes})`) : null)
-          : h("button", { class: "boton ancho" + (alCamino ? " gris" : ""), onclick: () => s.repetir ? s.repetir() : practicar(barajar(s.lista), s.modo, s.titulo, s.vuelta, { alTerminar: s.alTerminar }) }, s.repetir ? "Otra vez, con otras preguntas" : "Repetir estas preguntas"),
+          : h("button", { class: "boton ancho" + (alCamino ? " gris" : ""), onclick: () => s.repetir ? s.repetir() : practicar(barajar(s.lista), s.modo, s.titulo, s.vuelta, { alTerminar: s.alTerminar, ctx: s.ctx }) }, s.repetir ? "Otra vez, con otras preguntas" : "Repetir estas preguntas"),
         s.modo !== "fallos" && fallos ? h("a", { class: "boton ancho gris", href: "#/fallos" }, "Repasar mis fallos") : null,
         h("a", { class: "boton ancho gris", href: s.modo === "fallos" ? "#/" : s.vuelta, onclick: () => setTimeout(ruta) }, s.modo === "temario" ? "Cambiar la selección" : alCamino ? "Volver al camino" : "Volver al inicio")));
     // Celebración a pantalla completa (celebracion.js); si no la hay, la animación sencilla de siempre.
@@ -866,6 +883,87 @@
     history.replaceState(null, "", location.pathname + location.search + "#/");
   }
 
+  // ---------- Test a medias ----------
+  // Cada respuesta (y cada cambio de pregunta) guarda el test en datos.enCurso, que viaja con el progreso a
+  // la cuenta. Al volver, «Continuar test» en el inicio lo retoma: mismas preguntas, mismo orden de las
+  // opciones, respuestas dadas y pregunta en la que se estaba. Solo hay uno: empezar otro y responder lo sustituye.
+  // Las extensiones recuperan sus funciones (alTerminar, repetir) con App.reanudable(modo, ctx => op).
+  // En exámenes la clave es "examen:" + tipo.
+  const REANUDAR = {};
+  const nuevoId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  function guardarEnCurso(s, aunSinRespuestas) {
+    if (!s || s.acabado || sesion !== s) return;
+    if (!aunSinRespuestas && !Object.keys(s.resp).length) return;
+    const examen = !!s.limite, segundos = Math.round((Date.now() - s.inicio) / 1000);
+    const ords = {};
+    for (const p of s.lista) if (ordenes.has(p.id)) ords[p.id] = ordenes.get(p.id).join("");
+    const e = { id: s.id, t: Date.now(), clase: examen ? "examen" : "practica", titulo: s.titulo, vuelta: s.vuelta || "#/",
+      ids: s.lista.map(p => p.id), resp: Object.assign({}, s.resp), i: s.i, ordenes: ords };
+    if (examen) Object.assign(e, { tipo: s.tipo, usados: Math.min(s.limite, segundos), limite: s.limite });
+    else Object.assign(e, { modo: s.modo, ctx: s.ctx, aciertos: s.aciertos, seguidas: s.seguidas, mejorSerie: s.mejorSerie, segundos });
+    datos.enCurso = e; guardar();
+  }
+  // Solo cierra el test guardado si es este mismo (otro test que se abre y se deja sin responder no lo borra).
+  function cerrarEnCurso(s, sinGuardar) {
+    const e = datos.enCurso;
+    if (!e || e.fin || (s && e.id !== s.id)) return;
+    datos.enCurso = { t: Date.now(), fin: true };
+    if (!sinGuardar) guardar();
+  }
+  function testEnCurso() {
+    const e = datos.enCurso;
+    if (!e || e.fin) return null;
+    const lista = e.ids.map(id => POR_ID.get(id)).filter(Boolean);
+    if (!lista.length) return null;
+    const ids = new Set(lista.map(p => p.id)), resp = {};
+    for (const [id, k] of Object.entries(e.resp || {})) if (ids.has(id) && NATURAL.includes(k)) resp[id] = k;
+    return { e, lista, resp, hechas: Object.keys(resp).length, examen: e.clase === "examen" };
+  }
+  function reanudar() {
+    const x = testEnCurso();
+    if (!x) { cerrarEnCurso(); return ruta(); }
+    const { e, lista, resp } = x;
+    const ords = new Map();
+    for (const [id, o] of Object.entries(e.ordenes || {})) if (typeof o === "string" && o.length === 3) ords.set(id, o.split(""));
+    const fn = REANUDAR[x.examen ? "examen:" + (e.tipo || "final") : e.modo];
+    let op = {};
+    try { op = (fn && fn(e.ctx)) || {}; } catch (err) { console.error(err); op = {}; }
+    const estado = { id: e.id, resp, ordenes: ords, i: Math.max(0, Math.min(e.i | 0, lista.length - (x.examen ? 1 : 0))) };
+    if (x.examen) {
+      empezarExamen(Object.assign({}, op, { lista, tipo: e.tipo || "final", titulo: e.titulo, estado: Object.assign(estado, { usados: Math.max(0, e.usados | 0), limite: e.limite | 0 }) }));
+    } else {
+      // La práctica no cambia de pantalla al empezar; con esto la ruta queda en la de vuelta, como al lanzarla allí.
+      if (e.vuelta && e.vuelta !== location.hash) history.replaceState(null, "", location.pathname + location.search + e.vuelta);
+      const aciertos = lista.filter(p => resp[p.id] === p.correcta).length;
+      practicar(lista, e.modo || "temario", e.titulo || "Práctica", e.vuelta || "#/", Object.assign({}, op, { ctx: e.ctx,
+        estado: Object.assign(estado, { aciertos, seguidas: e.seguidas | 0, mejorSerie: Math.max(e.mejorSerie | 0, e.seguidas | 0), segundos: Math.max(0, e.segundos | 0) }) }));
+    }
+  }
+  function tarjetaContinuar() {
+    const x = testEnCurso();
+    if (!x) return null;
+    const { e, lista, hechas } = x, n = lista.length;
+    const quedan = x.examen ? Math.max(0, (e.limite || n * SEGUNDOS_POR_PREGUNTA) - (e.usados | 0)) : 0;
+    const detalle = `${hechas} de ${n} respondidas` + (x.examen ? ` · quedan ${mmss(quedan)}` : "");
+    const descartar = () => hoja({ titulo: "¿Descartar el test a medias?", mensaje: "Las respuestas que ya diste siguen contando en tu progreso, pero el test no se podrá continuar.",
+      acciones: [{ texto: "Descartar", clase: "gris destructivo", accion: () => { cerrarEnCurso(); ruta(); } }] });
+    return h("section", { class: "tarjeta continuar-test", "aria-label": "Test a medias" },
+      h("div", { class: "continuar-cabeza" },
+        h("span", { class: "tesela t-" + (x.examen ? "azul" : "indigo") }, ico(x.examen ? "reloj" : "libro")),
+        h("div", {}, h("p", { class: "etiqueta" }, "Tienes un test a medias"), h("h2", {}, e.titulo || "Test"), h("p", { class: "continuar-detalle" }, detalle))),
+      h("div", { class: "progreso" + (x.examen ? " examen" : ""), role: "progressbar", "aria-valuemin": 0, "aria-valuemax": n, "aria-valuenow": hechas }, h("i", { style: `width:${n ? hechas / n * 100 : 0}%` })),
+      h("div", { class: "continuar-botones" },
+        h("button", { class: "boton", onclick: reanudar }, "Continuar test"),
+        h("button", { class: "boton plano destructivo", onclick: descartar }, "Descartar")));
+  }
+  // Al salir de la web o pasar a otra app se guarda (el reloj del examen se para mientras no se ve).
+  let oculto = 0;
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") { oculto = Date.now(); if (sesion) guardarEnCurso(sesion); }
+    else if (oculto) { if (sesion && sesion.limite && !sesion.acabado) sesion.inicio += Date.now() - oculto; oculto = 0; }
+  });
+  window.addEventListener("pagehide", () => { if (sesion) guardarEnCurso(sesion); });
+
   // ---------- Rutas ----------
   let sesion = null;
   const RUTAS = {}, INICIO = { arriba: [], practicar: [], abajo: [] }, LATERAL = [], ALFALLAR = [];
@@ -906,8 +1004,7 @@
     if (r[0] === "importar") return importarDesdeEnlace(r.slice(1).join("/"));
     return inicio();
   }
-  window.addEventListener("hashchange", () => { sesion = null; ruta(); });
-  window.addEventListener("beforeunload", e => { if (sesion && sesion.limite) { e.preventDefault(); e.returnValue = ""; } });
+  window.addEventListener("hashchange", () => { if (sesion) guardarEnCurso(sesion); sesion = null; ruta(); });
   // ---------- API para extensiones (estudiar.js, errores.js, camino.js, companero.js) ----------
   // Se cargan después de app.js; la primera pantalla se pinta cuando ya están todas (DOMContentLoaded).
   window.App = {
@@ -916,6 +1013,10 @@
     MATERIAS, PREGUNTAS, POR_ID, POR_MATERIA, TODAS, EXAMEN_PREGUNTAS, PROPORCION_FALLOS,
     get datos() { return datos; }, guardar,
     get sesion() { return sesion; },
+    // Test a medias: fn(ctx) devuelve { alTerminar, repetir } para retomar un test del modo dado
+    // (en exámenes, "examen:" + tipo). ctx es el que se pasó a practicar(..., { ctx }).
+    reanudable(modo, fn) { REANUDAR[modo] = fn; },
+    reanudar, get enCurso() { return testEnCurso(); },
     pantallas: { inicio, listaTemario, portadaMateria, portadaExamen, portadaFallos },
     // Pantalla #/nombre/...: fn(partes) recibe el resto de la ruta.
     ruta(nombre, fn) { RUTAS[nombre] = fn; },
@@ -928,6 +1029,8 @@
     // true si se queda el turno; entonces pinta en contenedor y llama a continuar() para ver la corrección.
     alFallar(fn) { ALFALLAR.push(fn); },
   };
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => ruta()); else ruta();
+  // Si hay un test a medias, la web se abre en el inicio, donde está «Continuar test».
+  const arrancar = () => { if (testEnCurso() && !/^#\/(importar|perfil)/.test(location.hash) && location.hash && location.hash !== "#/") history.replaceState(null, "", location.pathname + location.search + "#/"); ruta(); };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arrancar); else arrancar();
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("sw.js").catch(() => {});
 })();

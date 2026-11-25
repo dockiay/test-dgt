@@ -224,20 +224,6 @@
     const otra = h("button", { class: "boton ancho", onclick: empezarHoy }, r && !r.cumplidoHoy ? `Otra tanda (te ${r.objetivo - r.hoy === 1 ? "falta 1" : `faltan ${r.objetivo - r.hoy}`} para el objetivo)` : "Otra tanda");
     return h("div", { class: "pila" }, otra);
   }
-  // Tarjeta de la portada.
-  function tarjetaHoy() {
-    const pl = planDeHoy(), r = window.Animo ? Animo.racha() : null;
-    const hecho = r && r.cumplidoHoy, repasosPend = pl.partes.repaso;
-    const titulo = hecho ? (repasosPend ? "Objetivo cumplido, aún quedan repasos" : "Objetivo de hoy cumplido") : "Estudiar hoy";
-    const texto = hecho ? (repasosPend ? "Haz los repasos que tocan hoy para que no se acumulen." : "Si te apetece seguir, aquí tienes otra tanda.")
-      : "Tu sesión de hoy, preparada según lo que más te conviene repasar.";
-    return h("section", { class: "tarjeta hoy" + (hecho && !repasosPend ? " hecho" : ""), "aria-label": "Estudiar hoy" },
-      h("div", { class: "hoy-cabecera" }, h("span", { class: "tesela t-azul" }, ico("diana")),
-        h("div", {}, h("h2", {}, titulo), h("p", {}, texto))),
-      pl.lista.length ? h("ul", { class: "hoy-partes" }, lineasPlan(pl).map(l => h("li", {}, h("span", { class: "punto t-" + l.color }, ico(l.icono)), l.texto))) : null,
-      pl.lista.length ? h("button", { class: "boton ancho" + (hecho && !repasosPend ? " gris" : ""), onclick: empezarHoy }, hecho && !repasosPend ? "Otra tanda" : `Empezar · ${plural(pl.lista.length, "pregunta", "preguntas")}`) : null,
-      bloqueCuentaAtras());
-  }
   function pantallaHoy() {
     const pl = planDeHoy();
     pantalla({ titulo: "Estudiar hoy", atras: { texto: "Inicio", href: "#/" },
@@ -365,12 +351,11 @@
   // ---------- Ganchos en la app ----------
   A.ruta("hoy", () => pantallaHoy());
   A.ruta("semanal", partes => pantallaSemanal(partes));
-  A.inicioExtra(tarjetaHoy, "arriba");
   // Test a medias: al retomarlo, la sesión de hoy y el simulacro semanal vuelven a terminar como siempre.
   if (A.reanudable) { A.reanudable("hoy", () => ({ alTerminar: resultadoHoy })); A.reanudable("examen:semanal", () => ({ alTerminar: alTerminarSemanal })); }
   A.inicioExtra(filaSemanal, "practicar");
   A.lateralExtra({ id: "hoy", href: "#/hoy", icono: "diana", color: "azul", texto: "Estudiar hoy" });
   A.lateralExtra({ id: "semanal", href: "#/semanal", icono: "grafica", color: "verde", texto: "Simulacro semanal", cuenta: () => proximoSemanal().toca ? "1" : null });
 
-  window.Estudiar = { elegirFecha, textoCuentaAtras, planDeHoy, preguntasSemanal, objetivoNecesario, respuestasQueFaltan, cuentaAtras, informe, normalizarPlan, combinarPlan };
+  window.Estudiar = { elegirFecha, empezarHoy, lineasPlan, proximoSemanal, textoCuentaAtras, planDeHoy, preguntasSemanal, objetivoNecesario, respuestasQueFaltan, cuentaAtras, informe, normalizarPlan, combinarPlan };
 })();

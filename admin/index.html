@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Administración · Test permiso B</title>
+<link rel="icon" href="../icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="panel.css">
+</head>
+<body>
+<header class="barra">
+  <div class="barra-marca"><img src="../icono.svg" alt=""><span>Administración</span></div>
+  <nav class="barra-secciones" id="secciones" aria-label="Secciones" hidden>
+    <a href="#resumen">Resumen</a><a href="#crecimiento">Crecimiento</a><a href="#uso">Uso</a><a href="#resultado">Resultado</a><a href="#contenido">Contenido</a><a href="#cuentas">Cuentas</a>
+  </nav>
+  <div class="barra-cuenta" id="cuenta"></div>
+</header>
+<main id="panel" tabindex="-1"><p class="estado-carga" role="status">Cargando…</p></main>
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<script src="../data/preguntas.js"></script>
+<script src="../progreso.js"></script>
+<script type="module" src="panel.js"></script>
+</body>
+</html>

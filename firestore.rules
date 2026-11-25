@@ -2,6 +2,9 @@ rules_version = '2';
 // - usuarios/{uid}: el progreso de cada persona. Solo lo lee y escribe ella misma.
 // - compartidos/{uid}: resumen que una persona decide compartir con sus compañeros de estudio.
 //   Solo ella lo escribe o lo borra; los correos de la lista "companeros" solo pueden leerlo.
+// - fichas/{uid}: nombre, correo y fecha de alta de cada persona, para el sitio de administración (/admin/).
+//   Solo ella la escribe.
+// - Administración: las cuentas de CORREO_ADMIN pueden LEER (nunca cambiar) usuarios/ y fichas/ de todos.
 // - animos/{id}: mensajes de ánimo de un compañero. Solo puede mandarlos alguien con quien la
 //   destinataria comparte su resumen en ese momento; los leen quien los manda y quien los recibe.
 // Todo lo demás está cerrado.
@@ -12,6 +15,12 @@ service cloud.firestore {
   // iniciar sesión, pero no leer ni guardar nada.
   function correosPermitidos() {
     return ["__CORREOS_PERMITIDOS__"];
+  }
+
+  // Quién administra la web: puede leer el progreso de todas las cuentas en el sitio /admin/, pero no
+  // cambiarlo. Tampoco va en el repositorio: el workflow pone aquí los correos del secreto CORREO_ADMIN.
+  function correosAdmin() {
+    return ["__CORREO_ADMIN__"];
   }
 
   match /databases/{database}/documents {
@@ -26,9 +35,13 @@ service cloud.firestore {
     function permitido(uid) {
       return autorizado() && request.auth.uid == uid;
     }
+    function administrador() {
+      return autorizado() && miCorreo() in correosAdmin();
+    }
 
     match /usuarios/{uid} {
-      allow read, delete: if permitido(uid);
+      allow read: if permitido(uid) || administrador();
+      allow delete: if permitido(uid);
       allow create, update: if permitido(uid)
         && request.resource.data.keys().hasOnly(["v", "datos", "animo", "actualizado"])
         && request.resource.data.v == 2
@@ -37,6 +50,25 @@ service cloud.firestore {
         && (request.resource.data.animo == null
             || (request.resource.data.animo is string && request.resource.data.animo.size() < 100000))
         && request.resource.data.actualizado == request.time;
+    }
+
+    // Ficha para el sitio de administración: la escribe cada persona con su propio correo (nadie firma
+    // como otra). "alta" es la hora del servidor al crearla y ya no cambia; "visto", la de la última visita.
+    match /fichas/{uid} {
+      function fichaValida() {
+        return request.resource.data.keys().hasOnly(["v", "nombre", "correo", "alta", "visto"])
+          && request.resource.data.keys().hasAll(["v", "nombre", "correo", "alta", "visto"])
+          && request.resource.data.v == 1
+          && request.resource.data.nombre is string
+          && request.resource.data.nombre.size() <= 60
+          && request.resource.data.correo == miCorreo()
+          && request.resource.data.visto == request.time;
+      }
+      allow get: if permitido(uid) || administrador();
+      allow list: if administrador();
+      allow delete: if permitido(uid);
+      allow create: if permitido(uid) && fichaValida() && request.resource.data.alta == request.time;
+      allow update: if permitido(uid) && fichaValida() && request.resource.data.alta == resource.data.alta;
     }
 
     match /compartidos/{uid} {

@@ -87,6 +87,25 @@ puede verlo y mandarle ánimos. Lo decide siempre quien estudia:
 
 Pruebas de las reglas: `pruebas/reglas/reglas.test.mjs` (instrucciones dentro del fichero).
 
+## Sitio de administración
+
+En `https://<id-del-proyecto>.web.app/admin/` hay un panel con las métricas de todas las cuentas: altas,
+uso y retención, resultado (preparación, simulacros) y contenido (preguntas y materias que más se fallan,
+preguntas dudosas), más el detalle de cada cuenta. No tiene enlaces desde la web de estudio.
+
+- **Quién entra.** Las cuentas del secreto `CORREO_ADMIN` (en el mismo entorno `produccion`; puede llevar
+  varios correos separados por comas). El workflow los pone en `firestore.rules` al publicar, como
+  `CORREOS_PERMITIDOS`. Esas cuentas tienen que estar también en `CORREOS_PERMITIDOS`. Sin el secreto, nadie
+  administra y el panel dice «Sin acceso».
+- **Solo lectura.** Las reglas dejan a quien administra leer `usuarios/` y `fichas/` de todas las cuentas,
+  nunca cambiarlas ni borrarlas.
+- **Fichas.** La web de estudio guarda en `fichas/{uid}` el nombre y el correo de Google de cada cuenta, la
+  fecha de alta (la pone el servidor y no cambia) y la de la última visita, como mucho una vez al día. Las
+  cuentas aparecen con su nombre cuando abren la versión nueva de la web; antes, como «Cuenta …».
+- **Transparencia.** El perfil de cada cuenta avisa de que quien gestiona la web puede ver su progreso.
+- Las cifras salen de la copia que sincronizó el último dispositivo de cada cuenta. Aún no se miden el origen
+  de las altas, los minutos de estudio, dónde se abandona el camino ni el aprobado real (fase 2).
+
 ## Probar en local
 
 Con Node y Java instalados:

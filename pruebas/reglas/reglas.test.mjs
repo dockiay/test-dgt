@@ -8,7 +8,8 @@ import { doc, getDoc, setDoc, updateDoc, deleteDoc, addDoc, collection, query, w
 setLogLevel("silent"); // los rechazos esperados no ensucian la salida
 
 const reglas = readFileSync(new URL("../../firestore.rules", import.meta.url), "utf8")
-  .replace('return ["__CORREOS_PERMITIDOS__"];', 'return ["estudiante@example.com", "companero@example.com", "otra@example.com"];');
+  .replace('return ["__CORREOS_PERMITIDOS__"];', 'return ["estudiante@example.com", "companero@example.com", "otra@example.com", "admin@example.com", "admin-fuera@example.com"];')
+  .replace('return ["__CORREO_ADMIN__"];', 'return ["admin@example.com", "sinpermiso@example.com"];');
 const [host, port] = (process.env.FIRESTORE_EMULATOR_HOST || "127.0.0.1:8080").split(":");
 const env = await initializeTestEnvironment({ projectId: "demo-testb", firestore: { rules: reglas, host, port: +port } });
 
@@ -19,6 +20,8 @@ const otra = cuenta("otr", "otra@example.com");          // permitida, pero Estu
 const fuera = cuenta("fue", "fuera@example.com");        // no está en la lista de permitidos
 const sinVerificar = cuenta("sv", "companero@example.com", false);
 const anonimo = env.unauthenticatedContext().firestore();
+const admin = cuenta("adm", "Admin@Example.com");
+const adminSinPermiso = cuenta("asp", "sinpermiso@example.com"); // administra, pero no está entre las permitidas
 
 const resumen = (extra = {}) => Object.assign({ v: 1, nombre: "Estudiante", companeros: ["companero@example.com"], resumen: "{}", actualizado: serverTimestamp() }, extra);
 const animo = (extra = {}) => Object.assign({ de: "com", deNombre: "Compañero", deCorreo: "companero@example.com", para: "est", texto: "¡Ánimo!", creado: serverTimestamp(), leido: false }, extra);
@@ -103,6 +106,35 @@ await caso("Un guardado atrasado no vuelve a crear un resumen borrado", () => as
 await caso("Compañero ya no lee el resumen", () => assertFails(getDoc(comp(companero))));
 await caso("Compañero ya no manda ánimos", () => assertFails(addDoc(collection(companero, "animos"), animo())));
 await caso("Estudiante conserva y puede borrar sus ánimos", () => assertSucceeds(deleteDoc(doc(estudiante, "animos", idAnimo))));
+
+// ---------- fichas y administración ----------
+const ficha = (extra = {}) => Object.assign({ v: 1, nombre: "Estudiante", correo: "estudiante@example.com", alta: serverTimestamp(), visto: serverTimestamp() }, extra);
+const fi = (db, uid = "est") => doc(db, "fichas", uid);
+await caso("Estudiante crea su ficha", () => assertSucceeds(setDoc(fi(estudiante), ficha())));
+await caso("Ficha con el correo de otra no", () => assertFails(setDoc(doc(otra, "fichas", "otr"), ficha({ correo: "estudiante@example.com" }))));
+await caso("Ficha de otra persona no", () => assertFails(setDoc(fi(otra), ficha({ correo: "otra@example.com" }))));
+await caso("Ficha con alta inventada no", () => assertFails(setDoc(doc(otra, "fichas", "otr"), ficha({ correo: "otra@example.com", alta: Timestamp.fromMillis(0) }))));
+await caso("Ficha con campos extra no", () => assertFails(setDoc(doc(otra, "fichas", "otr"), ficha({ correo: "otra@example.com", rol: "admin" }))));
+await caso("Al actualizar la ficha el alta no cambia", async () => {
+  const antes = (await getDoc(fi(estudiante))).data().alta;
+  await assertFails(setDoc(fi(estudiante), ficha({ alta: serverTimestamp() })));
+  await assertSucceeds(setDoc(fi(estudiante), ficha({ alta: antes, nombre: "Estudiante B" })));
+});
+await caso("Una cuenta no permitida no crea ficha", () => assertFails(setDoc(doc(fuera, "fichas", "fue"), ficha({ correo: "fuera@example.com" }))));
+await caso("Admin lista las fichas", () => assertSucceeds(getDocs(collection(admin, "fichas"))));
+await caso("Admin lista el progreso de todas las cuentas", () => assertSucceeds(getDocs(collection(admin, "usuarios"))));
+await caso("Admin lee el progreso de Estudiante", () => assertSucceeds(getDoc(doc(admin, "usuarios", "est"))));
+await caso("Admin no cambia el progreso de Estudiante", () => assertFails(setDoc(doc(admin, "usuarios", "est"), { v: 2, datos: "{}", animo: null, actualizado: serverTimestamp() })));
+await caso("Admin no borra el progreso de Estudiante", () => assertFails(deleteDoc(doc(admin, "usuarios", "est"))));
+await caso("Admin no cambia la ficha de Estudiante", () => assertFails(setDoc(fi(admin), ficha())));
+await caso("Admin no borra la ficha de Estudiante", () => assertFails(deleteDoc(fi(admin))));
+await caso("Admin no lee resúmenes que no le comparten", () => assertFails(getDocs(collection(admin, "compartidos"))));
+await caso("Estudiante no lista las fichas", () => assertFails(getDocs(collection(estudiante, "fichas"))));
+await caso("Estudiante no lista el progreso de todas", () => assertFails(getDocs(collection(estudiante, "usuarios"))));
+await caso("Compañero no lee la ficha de Estudiante", () => assertFails(getDoc(fi(companero))));
+await caso("Admin fuera de la lista de permitidas no lee nada", () => assertFails(getDocs(collection(adminSinPermiso, "usuarios"))));
+await caso("Sin sesión no se listan fichas", () => assertFails(getDocs(collection(anonimo, "fichas"))));
+await caso("Estudiante borra su ficha", () => assertSucceeds(deleteDoc(fi(estudiante))));
 
 await env.cleanup();
 console.log(`\n${n - fallos} de ${n} pruebas correctas`);

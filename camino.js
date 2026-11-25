@@ -689,5 +689,5 @@
   reanudableCamino();
   A.lateralExtra({ id: "logros", href: "#/logros", icono: "medalla", color: "verde", texto: "Logros" });
 
-  window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, construir, get UNIDADES() { construir(); return UNIDADES; }, get NODOS() { construir(); return NODOS; }, nodoActual, hecho: hechoN, legendaria, animarAvance, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };
+  window.Camino = { SUPERADA, CORONADA, LOGROS, etapas, construir, get UNIDADES() { construir(); return UNIDADES; }, get NODOS() { construir(); return NODOS; }, nodoActual, hecho: hechoN, legendaria, empezarNodo, NIVEL_N, PASO_N, animarAvance, estadoLogros, revisar, normalizarLogros, combinarLogros, contexto, POR_ID_LOGRO };
 })();

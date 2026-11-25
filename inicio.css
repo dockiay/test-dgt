@@ -121,3 +121,19 @@ dialog .racha.en-hoja { margin-top: 0; text-align: left; }
   .semana-inicio-pie svg.ico { width: 16px; height: 16px; color: var(--tinte-texto); vertical-align: 0; }
   .inicio-lado .fila { padding-top: 14px; padding-bottom: 14px; }
 }
+
+/* ---- El camino como acción principal; «Estudiar hoy» en segundo plano ---- */
+.camino-inicio.es-principal { border-color: var(--u); box-shadow: 0 var(--relieve) 0 var(--u-borde); animation: aparecer .35s ease-out both; }
+.camino-inicio.es-principal:active { transform: none; box-shadow: 0 var(--relieve) 0 var(--u-borde); }
+.camino-inicio.es-principal .ci-cabeza h2 { margin: 0; font-size: 1.375rem; font-weight: 900; line-height: 1.15; letter-spacing: -.01em; }
+.camino-inicio.es-principal .ci-num { width: 52px; height: 52px; border-radius: 16px; font-size: 1.5rem; }
+.camino-inicio.es-principal .boton { --b: var(--u); --bb: var(--u-borde); margin-bottom: var(--relieve); min-height: 58px; font-size: 1.25rem; }
+.camino-inicio.es-principal .principal-plan b { color: var(--texto); font-weight: 900; }
+.camino-inicio.es-principal .principal-plan:hover { background: var(--u-suave); }
+.ci-ver { flex: none !important; color: var(--u-texto); font-weight: 900; }
+.tarjeta.principal.secundaria { gap: 10px; border-color: var(--borde); box-shadow: 0 var(--relieve) 0 var(--borde); animation: none; }
+.tarjeta.principal.secundaria .principal-cabeza .tesela { width: 40px; height: 40px; border-radius: 12px; }
+.tarjeta.principal.secundaria .principal-cabeza .tesela svg.ico { width: 22px; height: 22px; }
+.tarjeta.principal.secundaria h2 { font-size: 1.1875rem; }
+.tarjeta.principal.secundaria .principal-etiqueta { color: var(--texto2); }
+.tarjeta.principal.secundaria .boton { min-height: 48px; font-size: 1.0625rem; }

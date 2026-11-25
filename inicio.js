@@ -1,5 +1,5 @@
-/* Portada. Una sola acción principal (continuar el test a medias o, si no lo hay, «Estudiar hoy»),
-   el camino justo debajo con el paso que toca, y lo demás recogido: racha, objetivo y fecha de examen
+/* Portada. Una sola acción principal (continuar el test a medias o, si no lo hay, el paso que toca del
+   camino), «Estudiar hoy» justo debajo, y lo demás recogido: racha, objetivo y fecha de examen
    en una tira de estado; el resto de la práctica en teselas; el progreso en dos filas.
    Las extensiones siguen añadiendo bloques con App.inicioExtra ("arriba", "practicar", "abajo"). */
 (function () {
@@ -68,19 +68,20 @@
     if (p.otras) l.push(`${p.otras} para afianzar`);
     return l.join(" · ");
   }
-  function tarjetaHoy(r) {
+  // principal: es la acción de la pantalla (solo cuando el camino está completo); si no, va debajo del camino.
+  function tarjetaHoy(r, principal) {
     const E = window.Estudiar;
     if (!E) return null;
     const pl = E.planDeHoy(), n = pl.lista.length;
     if (!n) return null;
     const hecho = r && r.cumplidoHoy, repasos = pl.partes.repaso, descanso = hecho && !repasos;
     const titulo = !hecho ? "Estudiar hoy" : repasos ? "Aún quedan repasos de hoy" : "Objetivo de hoy cumplido";
-    return h("section", { class: "tarjeta principal" + (descanso ? " hecho" : ""), "aria-label": "Estudiar hoy" },
+    return h("section", { class: "tarjeta principal" + (principal ? "" : " secundaria") + (descanso ? " hecho" : ""), "aria-label": "Estudiar hoy" },
       h("div", { class: "principal-cabeza" },
         h("span", { class: "tesela t-" + (descanso ? "verde" : "azul") }, ico(descanso ? "check" : "diana")),
-        h("div", {}, h("p", { class: "principal-etiqueta" }, descanso ? "Hecho por hoy" : "Tu sesión de hoy"), h("h2", {}, titulo))),
+        h("div", {}, h("p", { class: "principal-etiqueta" }, descanso ? "Hecho por hoy" : "Tu repaso de hoy"), h("h2", {}, titulo))),
       h("a", { class: "principal-plan", href: "#/hoy", "aria-label": `Ver el plan de hoy: ${resumenPlan(pl)}` }, h("span", {}, descanso ? "Si te apetece seguir, hay otra tanda preparada." : resumenPlan(pl)), ico("chevron", "chevron")),
-      h("button", { class: "boton ancho" + (descanso ? " gris" : ""), onclick: E.empezarHoy }, descanso ? "Otra tanda" : `Empezar · ${plural(n, "pregunta", "preguntas")}`));
+      h("button", { class: "boton ancho" + (descanso || !principal ? " gris" : ""), onclick: E.empezarHoy }, descanso ? "Otra tanda" : `Empezar · ${plural(n, "pregunta", "preguntas")}`));
   }
   // Con un test a medias, la acción principal es continuarlo y «Estudiar hoy» pasa a una fila.
   function filaHoy() {
@@ -91,7 +92,8 @@
   }
 
   // ---------- El camino: la unidad en curso y el paso que toca ----------
-  function tarjetaCamino() {
+  // principal: lleva el botón grande que empieza el paso que toca. Si no (hay un test a medias), es un enlace al camino.
+  function tarjetaCamino(principal) {
     const C = window.Camino;
     if (!C || !C.UNIDADES || !C.UNIDADES.length) return null;
     const d = A.datos, act = C.nodoActual(d), nodos = C.NODOS, hechos = nodos.filter(x => C.hecho(d, x)).length;
@@ -106,11 +108,18 @@
       const dentro = x.tipo === "paso" ? ico("trofeo") : x.tipo === "cofre" ? ico("medalla") : estado === "hecho" ? ico("check") : h("b", {}, String(x.i));
       return h("li", { class: `ci-nodo ${estado} ${x.tipo}`, "aria-current": estado === "actual" ? "step" : null }, h("span", {}, dentro));
     }));
-    return h("a", { class: `tarjeta camino-inicio tono-${tono}`, href: "#/temario", "aria-label": `Tu camino: materia ${u.materia}, ${u.titulo}. Toca: ${paso}. ${hechos} de ${nodos.length} pasos hechos` },
-      h("div", { class: "ci-cabeza" }, h("span", { class: "ci-num" }, String(u.materia)),
-        h("div", {}, h("small", {}, `Tu camino · materia ${u.materia}` + (u.de > 1 ? ` · unidad ${u.k} de ${u.de}` : "")), h("strong", {}, u.titulo))),
-      ruta,
-      h("div", { class: "ci-pie" }, h("span", {}, h("b", {}, paso), ` · ${hechos} de ${nodos.length} pasos`), h("span", { class: "ci-ir" }, "Seguir", ico("chevron"))));
+    const cabeza = h("div", { class: "ci-cabeza" }, h("span", { class: "ci-num" }, String(u.materia)),
+      h("div", {}, h("small", {}, `Tu camino · materia ${u.materia}` + (u.de > 1 ? ` · unidad ${u.k} de ${u.de}` : "")), principal ? h("h2", {}, u.titulo) : h("strong", {}, u.titulo)));
+    const avance = [h("b", {}, paso), ` · ${hechos} de ${nodos.length} pasos`];
+    if (!principal) return h("a", { class: `tarjeta camino-inicio tono-${tono}`, href: "#/temario", "aria-label": `Tu camino: materia ${u.materia}, ${u.titulo}. Toca: ${paso}. ${hechos} de ${nodos.length} pasos hechos` },
+      cabeza, ruta, h("div", { class: "ci-pie" }, h("span", {}, avance), h("span", { class: "ci-ir" }, "Seguir", ico("chevron"))));
+    const n = act.tipo === "paso" ? C.PASO_N : C.NIVEL_N;
+    const boton = act.tipo === "cofre" ? h("a", { class: "boton ancho", href: "#/temario" }, "Abrir el cofre")
+      : h("button", { class: "boton ancho", onclick: () => C.empezarNodo(act) }, act.tipo === "paso" ? "Hacer el test de paso" : `Empezar el nivel ${act.i}`);
+    return h("section", { class: `tarjeta camino-inicio es-principal tono-${tono}`, "aria-label": "Tu camino" },
+      cabeza, ruta,
+      h("a", { class: "principal-plan", href: "#/temario", "aria-label": "Ver el camino completo" }, h("span", {}, act.tipo === "cofre" ? avance : [h("b", {}, `${paso} · ${n} preguntas`), h("br"), `${hechos} de ${nodos.length} pasos`]), h("span", { class: "ci-ver" }, "Ver el camino"), ico("chevron", "chevron")),
+      boton);
   }
 
   // ---------- Más práctica (teselas) ----------
@@ -154,11 +163,15 @@
   function pintar() {
     const r = window.Animo ? window.Animo.racha() : null;
     const continuar = A.tarjetaContinuar();
+    // El camino es la acción principal; con un test a medias manda «Continuar test» y, con el camino completo, «Estudiar hoy».
+    const C = window.Camino, enCamino = !!(C && C.nodoActual && C.nodoActual(A.datos));
+    const camino = tarjetaCamino(!continuar && enCamino);
     A.pantalla({ titulo: "Test permiso B" },
       saludo(r, !!continuar),
       tiraEstado(r),
       h("div", { class: "inicio" },
-        h("div", { class: "inicio-principal" }, continuar, continuar ? filaHoy() : tarjetaHoy(r), A.extrasInicio("arriba"), tarjetaCamino()),
+        h("div", { class: "inicio-principal" }, continuar || camino || tarjetaHoy(r, true), continuar ? camino : null,
+          continuar ? filaHoy() : camino ? tarjetaHoy(r, false) : null, A.extrasInicio("arriba")),
         h("div", { class: "inicio-practica" }, cabecera("Más práctica"), masPractica()),
         h("aside", { class: "inicio-lado", "aria-label": "Tu progreso" }, tarjetaSemana(r), cabecera("Tu progreso"), bloqueProgreso())),
       A.extrasInicio("abajo"),

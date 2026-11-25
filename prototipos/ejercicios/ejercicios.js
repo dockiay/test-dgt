@@ -119,8 +119,13 @@
   function figuraEscena(ej) {
     const e = escenaDe(ej);
     if (!e) return null;
-    try { return h("div", { class: "figura esc-figura ej-escena" }, Escenas.crear(e, { titulo: e.titulo }).svg); }
+    try { return h("div", { class: "figura esc-figura ej-escena" }, rutasEscena(Escenas.crear(e, { titulo: e.titulo }).svg)); }
     catch (err) { console.error("Escena", ej.escena, err); return null; }
+  }
+  // Las escenas enlazan las señales con rutas relativas a la raíz de la web (img/senales/…).
+  function rutasEscena(svg) {
+    svg.querySelectorAll("image").forEach(i => { const r = i.getAttribute("href"); if (r && /^img\//.test(r)) i.setAttribute("href", rutaImagen(r)); });
+    return svg;
   }
   const rutaImagen = src => (window.IMAGENES_EMBEBIDAS || {})[src] || "../../" + src;
 
@@ -303,7 +308,7 @@
   function reproductorDe(ej) {
     const e = escenaDe(ej);
     if (!e || !Escenas.reproductor) return null;
-    try { return Escenas.reproductor(e, { autoplay: !sinMovimiento() }); } catch (err) { console.error("Escena", ej.escena, err); return null; }
+    try { const r = Escenas.reproductor(e, { autoplay: !sinMovimiento() }); r.querySelectorAll("svg").forEach(rutasEscena); return r; } catch (err) { console.error("Escena", ej.escena, err); return null; }
   }
   function explicacion(ej, r) {
     const f = ej.fuente;

@@ -650,7 +650,9 @@
     const hechas = Object.keys(s.resp).length, fallos = hechas - s.aciertos;
     const pct = hechas ? Math.round(s.aciertos / hechas * 100) : 0;
     const pendientes = fallosDeHoy().length;
-    const bien = hechas >= 5 && pct >= 90, frase = !hechas ? "" : pct === 100 ? "¡Todas bien! Impecable." : pct >= 90 ? "¡Nivel de examen!" : pct >= 70 ? "¡Buen trabajo! Vas por buen camino." : "Repasa los fallos y verás cómo sube.";
+    // Test de paso o reto legendario sin superar: la tarjeta del camino lo explica, sin frase de ánimo que lo contradiga.
+    const noPasa = hechas === s.lista.length && ((s.modo === "paso" && window.Camino && fallos > Camino.PASO_FALLOS) || (s.modo === "legendario" && fallos > 0));
+    const bien = hechas >= 5 && pct >= 90, frase = !hechas || noPasa ? "" : pct === 100 ? "¡Todas bien! Impecable." : pct >= 90 ? "¡Nivel de examen!" : pct >= 70 ? "¡Buen trabajo! Vas por buen camino." : "Repasa los fallos y verás cómo sube.";
     const cifraPct = h("h1", {}, `${pct} %`);
     const alCamino = s.vuelta === "#/temario", aInicio = s.modo !== "temario" && !alCamino;
     pantalla({ titulo: "Resultado", atras: { texto: aInicio ? "Inicio" : "Temario", href: aInicio ? "#/" : "#/temario" } },
